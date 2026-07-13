@@ -75,6 +75,21 @@ The user should review these against official D2R Chinese localization (referenc
 
 ---
 
+## Upcoming: Grail Tracker (personal collection tracker)
+
+_Spec: [docs/superpowers/specs/2026-07-13-grail-tracker-design.md](../docs/superpowers/specs/2026-07-13-grail-tracker-design.md) · Plan: [plans/grail-tracker-implementation.md](./grail-tracker-implementation.md)_
+
+- [ ] Vendor `d2data` + generate `data/uniques.json`/`data/sets.json` (403 uniques, 135 sets)
+- [ ] Priority-ranked best-copy comparator (`src/lib/grail/bestCopy.ts`) + unit tests
+- [ ] External setup: Supabase project + Google OAuth provider + env vars (site owner, manual)
+- [ ] Supabase client, finds API, RLS schema migration
+- [ ] Google sign-in auth hook + gate
+- [ ] Static Act/Area zone list
+- [ ] Grail checklist page (category grouping, progress counts)
+- [ ] Item detail view (all copies, best-first)
+- [ ] Log-find form
+- [ ] i18n keys (en/zh-TW/zh-CN) + Footer nav link
+
 ## Backlog / Ideas
 
 - Batch appraisal (multiple items at once) — premium feature
@@ -90,3 +105,4 @@ The user should review these against official D2R Chinese localization (referenc
 | Plan | Description |
 |---|---|
 | [strategy-research.md](./strategy-research.md) | Initial research: viability, competitors, monetization, i18n strategy |
+| [grail-tracker-implementation.md](./grail-tracker-implementation.md) | Personal unique/set item collection tracker (Supabase + Google auth) |
