@@ -1,6 +1,6 @@
 [
   {
-    "id": "set-Aldur's Advance",
+    "id": "set-69",
     "code": "xtb",
     "name": "Aldur's Advance",
     "kind": "set",
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "id": "set-Aldur's Deception",
+    "id": "set-67",
     "code": "uul",
     "name": "Aldur's Deception",
     "kind": "set",
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "id": "set-Aldur's Gauntlet",
+    "id": "set-68",
     "code": "9mt",
     "name": "Aldur's Gauntlet",
     "kind": "set",
@@ -220,7 +220,7 @@
     ]
   },
   {
-    "id": "set-Aldur's Stony Gaze",
+    "id": "set-66",
     "code": "dr8",
     "name": "Aldur's Stony Gaze",
     "kind": "set",
@@ -287,7 +287,7 @@
     ]
   },
   {
-    "id": "set-Angelic Halo",
+    "id": "set-52",
     "code": "rin",
     "name": "Angelic Halo",
     "kind": "set",
@@ -318,7 +318,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Angelic Mantle",
+    "id": "set-51",
     "code": "rng",
     "name": "Angelic Mantle",
     "kind": "set",
@@ -355,7 +355,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Angelic Sickle",
+    "id": "set-50",
     "code": "sbr",
     "name": "Angelic Sickle",
     "kind": "set",
@@ -392,7 +392,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Angelic Wings",
+    "id": "set-53",
     "code": "amu",
     "name": "Angelic Wings",
     "kind": "set",
@@ -429,7 +429,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Arcanna's Deathwand",
+    "id": "set-59",
     "code": "wst",
     "name": "Arcanna's Deathwand",
     "kind": "set",
@@ -466,7 +466,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Arcanna's Flesh",
+    "id": "set-61",
     "code": "ltp",
     "name": "Arcanna's Flesh",
     "kind": "set",
@@ -503,7 +503,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Arcanna's Head",
+    "id": "set-60",
     "code": "skp",
     "name": "Arcanna's Head",
     "kind": "set",
@@ -534,7 +534,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Arcanna's Sign",
+    "id": "set-58",
     "code": "amu",
     "name": "Arcanna's Sign",
     "kind": "set",
@@ -571,7 +571,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Arctic Binding",
+    "id": "set-56",
     "code": "vbl",
     "name": "Arctic Binding",
     "kind": "set",
@@ -608,7 +608,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Arctic Furs",
+    "id": "set-55",
     "code": "qui",
     "name": "Arctic Furs",
     "kind": "set",
@@ -643,7 +643,7 @@
     ]
   },
   {
-    "id": "set-Arctic Horn",
+    "id": "set-54",
     "code": "swb",
     "name": "Arctic Horn",
     "kind": "set",
@@ -674,7 +674,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Arctic Mitts",
+    "id": "set-57",
     "code": "tgl",
     "name": "Arctic Mitts",
     "kind": "set",
@@ -711,7 +711,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Bane's Authority",
+    "id": "set-134",
     "code": "vbl",
     "name": "Bane's Authority",
     "kind": "set",
@@ -742,7 +742,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Bane's Oathmaker",
+    "id": "set-132",
     "code": "kri",
     "name": "Bane's Oathmaker",
     "kind": "set",
@@ -774,7 +774,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Bane's Wraithskin",
+    "id": "set-133",
     "code": "hla",
     "name": "Bane's Wraithskin",
     "kind": "set",
@@ -805,7 +805,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Berserker's Hatchet",
+    "id": "set-46",
     "code": "2ax",
     "name": "Berserker's Hatchet",
     "kind": "set",
@@ -836,7 +836,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Berserker's Hauberk",
+    "id": "set-45",
     "code": "spl",
     "name": "Berserker's Hauberk",
     "kind": "set",
@@ -860,7 +860,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Berserker's Headgear",
+    "id": "set-44",
     "code": "hlm",
     "name": "Berserker's Headgear",
     "kind": "set",
@@ -884,7 +884,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Bul-Kathos' Sacred Charge",
+    "id": "set-115",
     "code": "7gd",
     "name": "Bul-Kathos' Sacred Charge",
     "kind": "set",
@@ -918,7 +918,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Bul-Kathos' Tribal Guardian",
+    "id": "set-116",
     "code": "7wd",
     "name": "Bul-Kathos' Tribal Guardian",
     "kind": "set",
@@ -957,7 +957,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Cathan's Mesh",
+    "id": "set-26",
     "code": "chn",
     "name": "Cathan's Mesh",
     "kind": "set",
@@ -994,7 +994,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Cathan's Rule",
+    "id": "set-25",
     "code": "bst",
     "name": "Cathan's Rule",
     "kind": "set",
@@ -1031,7 +1031,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Cathan's Seal",
+    "id": "set-29",
     "code": "rin",
     "name": "Cathan's Seal",
     "kind": "set",
@@ -1062,7 +1062,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Cathan's Sigil",
+    "id": "set-28",
     "code": "amu",
     "name": "Cathan's Sigil",
     "kind": "set",
@@ -1099,7 +1099,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Cathan's Visage",
+    "id": "set-27",
     "code": "msk",
     "name": "Cathan's Visage",
     "kind": "set",
@@ -1123,7 +1123,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Civerb's Cudgel",
+    "id": "set-2",
     "code": "gsc",
     "name": "Civerb's Cudgel",
     "kind": "set",
@@ -1151,7 +1151,7 @@
     ]
   },
   {
-    "id": "set-Civerb's Icon",
+    "id": "set-1",
     "code": "amu",
     "name": "Civerb's Icon",
     "kind": "set",
@@ -1188,7 +1188,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Civerb's Ward",
+    "id": "set-0",
     "code": "lrg",
     "name": "Civerb's Ward",
     "kind": "set",
@@ -1225,7 +1225,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Cleglaw's Claw",
+    "id": "set-7",
     "code": "sml",
     "name": "Cleglaw's Claw",
     "kind": "set",
@@ -1256,7 +1256,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Cleglaw's Pincers",
+    "id": "set-8",
     "code": "mgl",
     "name": "Cleglaw's Pincers",
     "kind": "set",
@@ -1280,7 +1280,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Cleglaw's Tooth",
+    "id": "set-6",
     "code": "lsd",
     "name": "Cleglaw's Tooth",
     "kind": "set",
@@ -1304,7 +1304,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Cow King's Hide",
+    "id": "set-118",
     "code": "stu",
     "name": "Cow King's Hide",
     "kind": "set",
@@ -1342,7 +1342,7 @@
     ]
   },
   {
-    "id": "set-Cow King's Hoofs",
+    "id": "set-119",
     "code": "vbt",
     "name": "Cow King's Hoofs",
     "kind": "set",
@@ -1387,7 +1387,7 @@
     ]
   },
   {
-    "id": "set-Cow King's Horns",
+    "id": "set-117",
     "code": "xap",
     "name": "Cow King's Horns",
     "kind": "set",
@@ -1421,7 +1421,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Credendum",
+    "id": "set-99",
     "code": "umc",
     "name": "Credendum",
     "kind": "set",
@@ -1455,7 +1455,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Dangoon's Teaching",
+    "id": "set-100",
     "code": "7ma",
     "name": "Dangoon's Teaching",
     "kind": "set",
@@ -1490,7 +1490,7 @@
     ]
   },
   {
-    "id": "set-Death's Guard",
+    "id": "set-48",
     "code": "lbl",
     "name": "Death's Guard",
     "kind": "set",
@@ -1521,7 +1521,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Death's Hand",
+    "id": "set-47",
     "code": "lgl",
     "name": "Death's Hand",
     "kind": "set",
@@ -1552,7 +1552,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Death's Touch",
+    "id": "set-49",
     "code": "wsd",
     "name": "Death's Touch",
     "kind": "set",
@@ -1583,7 +1583,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Griswold's Heart",
+    "id": "set-82",
     "code": "xar",
     "name": "Griswold's Heart",
     "kind": "set",
@@ -1622,7 +1622,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Griswold's Honor",
+    "id": "set-84",
     "code": "paf",
     "name": "Griswold's Honor",
     "kind": "set",
@@ -1656,7 +1656,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Griswold's Valor",
+    "id": "set-81",
     "code": "urn",
     "name": "Griswold's Valor",
     "kind": "set",
@@ -1713,7 +1713,7 @@
     ]
   },
   {
-    "id": "set-Griswolds's Redemption",
+    "id": "set-83",
     "code": "7ws",
     "name": "Griswolds's Redemption",
     "kind": "set",
@@ -1777,7 +1777,7 @@
     ]
   },
   {
-    "id": "set-Guillaume's Face",
+    "id": "set-104",
     "code": "xhm",
     "name": "Guillaume's Face",
     "kind": "set",
@@ -1816,7 +1816,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Haemosu's Adament",
+    "id": "set-102",
     "code": "xrs",
     "name": "Haemosu's Adament",
     "kind": "set",
@@ -1855,7 +1855,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Heaven's Taebaek",
+    "id": "set-101",
     "code": "uts",
     "name": "Heaven's Taebaek",
     "kind": "set",
@@ -1904,7 +1904,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Horazon's Countenance",
+    "id": "set-135",
     "code": "usk",
     "name": "Horazon's Countenance",
     "kind": "set",
@@ -1952,7 +1952,7 @@
     ]
   },
   {
-    "id": "set-Horazon's Dominion",
+    "id": "set-136",
     "code": "xpl",
     "name": "Horazon's Dominion",
     "kind": "set",
@@ -2027,7 +2027,7 @@
     ]
   },
   {
-    "id": "set-Horazon's Hold",
+    "id": "set-137",
     "code": "xlg",
     "name": "Horazon's Hold",
     "kind": "set",
@@ -2095,7 +2095,7 @@
     ]
   },
   {
-    "id": "set-Horazon's Legacy",
+    "id": "set-138",
     "code": "utb",
     "name": "Horazon's Legacy",
     "kind": "set",
@@ -2154,7 +2154,7 @@
     ]
   },
   {
-    "id": "set-Horazon's Secrets",
+    "id": "set-139",
     "code": "wad",
     "name": "Horazon's Secrets",
     "kind": "set",
@@ -2218,7 +2218,7 @@
     ]
   },
   {
-    "id": "set-Hsarus' Iron Fist",
+    "id": "set-4",
     "code": "buc",
     "name": "Hsarus' Iron Fist",
     "kind": "set",
@@ -2242,7 +2242,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Hsarus' Iron Heel",
+    "id": "set-3",
     "code": "mbt",
     "name": "Hsarus' Iron Heel",
     "kind": "set",
@@ -2266,7 +2266,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Hsarus' Iron Stay",
+    "id": "set-5",
     "code": "mbl",
     "name": "Hsarus' Iron Stay",
     "kind": "set",
@@ -2290,7 +2290,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Hwanin's Justice",
+    "id": "set-111",
     "code": "9vo",
     "name": "Hwanin's Justice",
     "kind": "set",
@@ -2340,7 +2340,7 @@
     ]
   },
   {
-    "id": "set-Hwanin's Refuge",
+    "id": "set-109",
     "code": "xcl",
     "name": "Hwanin's Refuge",
     "kind": "set",
@@ -2378,7 +2378,7 @@
     ]
   },
   {
-    "id": "set-Hwanin's Seal",
+    "id": "set-110",
     "code": "mbl",
     "name": "Hwanin's Seal",
     "kind": "set",
@@ -2411,7 +2411,7 @@
     ]
   },
   {
-    "id": "set-Hwanin's Splendor",
+    "id": "set-108",
     "code": "xrn",
     "name": "Hwanin's Splendor",
     "kind": "set",
@@ -2445,7 +2445,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Immortal King's Detail",
+    "id": "set-72",
     "code": "zhb",
     "name": "Immortal King's Detail",
     "kind": "set",
@@ -2510,7 +2510,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Immortal King's Forge",
+    "id": "set-73",
     "code": "xhg",
     "name": "Immortal King's Forge",
     "kind": "set",
@@ -2579,7 +2579,7 @@
     ]
   },
   {
-    "id": "set-Immortal King's Pillar",
+    "id": "set-74",
     "code": "xhb",
     "name": "Immortal King's Pillar",
     "kind": "set",
@@ -2638,7 +2638,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Immortal King's Soul Cage",
+    "id": "set-71",
     "code": "uar",
     "name": "Immortal King's Soul Cage",
     "kind": "set",
@@ -2703,7 +2703,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Immortal King's Stone Crusher",
+    "id": "set-75",
     "code": "7m7",
     "name": "Immortal King's Stone Crusher",
     "kind": "set",
@@ -2787,7 +2787,7 @@
     ]
   },
   {
-    "id": "set-Immortal King's Will",
+    "id": "set-70",
     "code": "ba5",
     "name": "Immortal King's Will",
     "kind": "set",
@@ -2835,7 +2835,7 @@
     ]
   },
   {
-    "id": "set-Infernal Cranium",
+    "id": "set-41",
     "code": "cap",
     "name": "Infernal Cranium",
     "kind": "set",
@@ -2859,7 +2859,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Infernal Sign",
+    "id": "set-43",
     "code": "tbl",
     "name": "Infernal Sign",
     "kind": "set",
@@ -2896,7 +2896,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Infernal Torch",
+    "id": "set-42",
     "code": "gwn",
     "name": "Infernal Torch",
     "kind": "set",
@@ -2920,7 +2920,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Iratha's Coil",
+    "id": "set-11",
     "code": "crn",
     "name": "Iratha's Coil",
     "kind": "set",
@@ -2944,7 +2944,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Iratha's Collar",
+    "id": "set-9",
     "code": "amu",
     "name": "Iratha's Collar",
     "kind": "set",
@@ -2975,7 +2975,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Iratha's Cord",
+    "id": "set-12",
     "code": "tbl",
     "name": "Iratha's Cord",
     "kind": "set",
@@ -3006,7 +3006,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Iratha's Cuff",
+    "id": "set-10",
     "code": "tgl",
     "name": "Iratha's Cuff",
     "kind": "set",
@@ -3037,7 +3037,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Isenhart's Case",
+    "id": "set-15",
     "code": "brs",
     "name": "Isenhart's Case",
     "kind": "set",
@@ -3061,7 +3061,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Isenhart's Horns",
+    "id": "set-16",
     "code": "fhl",
     "name": "Isenhart's Horns",
     "kind": "set",
@@ -3092,7 +3092,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Isenhart's Lightbrand",
+    "id": "set-13",
     "code": "bsd",
     "name": "Isenhart's Lightbrand",
     "kind": "set",
@@ -3116,7 +3116,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Isenhart's Parry",
+    "id": "set-14",
     "code": "gts",
     "name": "Isenhart's Parry",
     "kind": "set",
@@ -3147,7 +3147,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Laying of Hands",
+    "id": "set-96",
     "code": "ulg",
     "name": "Laying of Hands",
     "kind": "set",
@@ -3190,7 +3190,7 @@
     ]
   },
   {
-    "id": "set-M'avina's Caster",
+    "id": "set-94",
     "code": "amc",
     "name": "M'avina's Caster",
     "kind": "set",
@@ -3243,7 +3243,7 @@
     "statPriority": []
   },
   {
-    "id": "set-M'avina's Embrace",
+    "id": "set-91",
     "code": "uld",
     "name": "M'avina's Embrace",
     "kind": "set",
@@ -3295,7 +3295,7 @@
     ]
   },
   {
-    "id": "set-M'avina's Icy Clutch",
+    "id": "set-92",
     "code": "xtg",
     "name": "M'avina's Icy Clutch",
     "kind": "set",
@@ -3358,7 +3358,7 @@
     ]
   },
   {
-    "id": "set-M'avina's Tenet",
+    "id": "set-93",
     "code": "zvb",
     "name": "M'avina's Tenet",
     "kind": "set",
@@ -3399,7 +3399,7 @@
     "statPriority": []
   },
   {
-    "id": "set-M'avina's True Sight",
+    "id": "set-90",
     "code": "ci3",
     "name": "M'avina's True Sight",
     "kind": "set",
@@ -3452,7 +3452,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Magnus' Skin",
+    "id": "set-106",
     "code": "xvg",
     "name": "Magnus' Skin",
     "kind": "set",
@@ -3491,7 +3491,7 @@
     "statPriority": []
   },
   {
-    "id": "set-McAuley's Paragon",
+    "id": "set-123",
     "code": "cap",
     "name": "McAuley's Paragon",
     "kind": "set",
@@ -3515,7 +3515,7 @@
     "statPriority": []
   },
   {
-    "id": "set-McAuley's Riprap",
+    "id": "set-124",
     "code": "vbt",
     "name": "McAuley's Riprap",
     "kind": "set",
@@ -3549,7 +3549,7 @@
     "statPriority": []
   },
   {
-    "id": "set-McAuley's Superstition",
+    "id": "set-126",
     "code": "bwn",
     "name": "McAuley's Superstition",
     "kind": "set",
@@ -3592,7 +3592,7 @@
     ]
   },
   {
-    "id": "set-McAuley's Taboo",
+    "id": "set-125",
     "code": "vgl",
     "name": "McAuley's Taboo",
     "kind": "set",
@@ -3632,7 +3632,7 @@
     ]
   },
   {
-    "id": "set-Milabrega's Diadem",
+    "id": "set-23",
     "code": "crn",
     "name": "Milabrega's Diadem",
     "kind": "set",
@@ -3663,7 +3663,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Milabrega's Orb",
+    "id": "set-21",
     "code": "kit",
     "name": "Milabrega's Orb",
     "kind": "set",
@@ -3700,7 +3700,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Milabrega's Robe",
+    "id": "set-24",
     "code": "aar",
     "name": "Milabrega's Robe",
     "kind": "set",
@@ -3731,7 +3731,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Milabrega's Rod",
+    "id": "set-22",
     "code": "wsp",
     "name": "Milabrega's Rod",
     "kind": "set",
@@ -3760,7 +3760,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Naj's Circlet",
+    "id": "set-122",
     "code": "ci0",
     "name": "Naj's Circlet",
     "kind": "set",
@@ -3805,7 +3805,7 @@
     ]
   },
   {
-    "id": "set-Naj's Light Plate",
+    "id": "set-121",
     "code": "ult",
     "name": "Naj's Light Plate",
     "kind": "set",
@@ -3849,7 +3849,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Naj's Puzzler",
+    "id": "set-120",
     "code": "6cs",
     "name": "Naj's Puzzler",
     "kind": "set",
@@ -3904,7 +3904,7 @@
     ]
   },
   {
-    "id": "set-Natalya's Mark",
+    "id": "set-63",
     "code": "7qr",
     "name": "Natalya's Mark",
     "kind": "set",
@@ -3957,7 +3957,7 @@
     ]
   },
   {
-    "id": "set-Natalya's Shadow",
+    "id": "set-64",
     "code": "ucl",
     "name": "Natalya's Shadow",
     "kind": "set",
@@ -4002,7 +4002,7 @@
     ]
   },
   {
-    "id": "set-Natalya's Soul",
+    "id": "set-65",
     "code": "xmb",
     "name": "Natalya's Soul",
     "kind": "set",
@@ -4049,7 +4049,7 @@
     ]
   },
   {
-    "id": "set-Natalya's Totem",
+    "id": "set-62",
     "code": "xh9",
     "name": "Natalya's Totem",
     "kind": "set",
@@ -4098,7 +4098,7 @@
     ]
   },
   {
-    "id": "set-Ondal's Almighty",
+    "id": "set-103",
     "code": "uhm",
     "name": "Ondal's Almighty",
     "kind": "set",
@@ -4146,7 +4146,7 @@
     ]
   },
   {
-    "id": "set-Rite of Passage",
+    "id": "set-97",
     "code": "xlb",
     "name": "Rite of Passage",
     "kind": "set",
@@ -4184,7 +4184,7 @@
     ]
   },
   {
-    "id": "set-Sazabi's Cobalt Redeemer",
+    "id": "set-112",
     "code": "7ls",
     "name": "Sazabi's Cobalt Redeemer",
     "kind": "set",
@@ -4237,7 +4237,7 @@
     ]
   },
   {
-    "id": "set-Sazabi's Ghost Liberator",
+    "id": "set-113",
     "code": "upl",
     "name": "Sazabi's Ghost Liberator",
     "kind": "set",
@@ -4280,7 +4280,7 @@
     ]
   },
   {
-    "id": "set-Sazabi's Mental Sheath",
+    "id": "set-114",
     "code": "xhl",
     "name": "Sazabi's Mental Sheath",
     "kind": "set",
@@ -4320,7 +4320,7 @@
     ]
   },
   {
-    "id": "set-Sigon's Gage",
+    "id": "set-35",
     "code": "hgl",
     "name": "Sigon's Gage",
     "kind": "set",
@@ -4351,7 +4351,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Sigon's Guard",
+    "id": "set-40",
     "code": "tow",
     "name": "Sigon's Guard",
     "kind": "set",
@@ -4375,7 +4375,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Sigon's Sabot",
+    "id": "set-38",
     "code": "hbt",
     "name": "Sigon's Sabot",
     "kind": "set",
@@ -4412,7 +4412,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Sigon's Shelter",
+    "id": "set-37",
     "code": "gth",
     "name": "Sigon's Shelter",
     "kind": "set",
@@ -4443,7 +4443,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Sigon's Visor",
+    "id": "set-36",
     "code": "ghm",
     "name": "Sigon's Visor",
     "kind": "set",
@@ -4467,7 +4467,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Sigon's Wrap",
+    "id": "set-39",
     "code": "hbl",
     "name": "Sigon's Wrap",
     "kind": "set",
@@ -4491,7 +4491,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Spiritual Custodian",
+    "id": "set-98",
     "code": "uui",
     "name": "Spiritual Custodian",
     "kind": "set",
@@ -4533,7 +4533,7 @@
     ]
   },
   {
-    "id": "set-Tal Rasha's Adjudication",
+    "id": "set-77",
     "code": "amu",
     "name": "Tal Rasha's Adjudication",
     "kind": "set",
@@ -4583,7 +4583,7 @@
     ]
   },
   {
-    "id": "set-Tal Rasha's Fire-Spun Cloth",
+    "id": "set-76",
     "code": "zmb",
     "name": "Tal Rasha's Fire-Spun Cloth",
     "kind": "set",
@@ -4639,7 +4639,7 @@
     ]
   },
   {
-    "id": "set-Tal Rasha's Horadric Crest",
+    "id": "set-80",
     "code": "xsk",
     "name": "Tal Rasha's Horadric Crest",
     "kind": "set",
@@ -4683,7 +4683,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Tal Rasha's Howling Wind",
+    "id": "set-79",
     "code": "uth",
     "name": "Tal Rasha's Howling Wind",
     "kind": "set",
@@ -4739,7 +4739,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Tal Rasha's Lidless Eye",
+    "id": "set-78",
     "code": "oba",
     "name": "Tal Rasha's Lidless Eye",
     "kind": "set",
@@ -4821,7 +4821,7 @@
     ]
   },
   {
-    "id": "set-Tancred's Crowbill",
+    "id": "set-30",
     "code": "mpi",
     "name": "Tancred's Crowbill",
     "kind": "set",
@@ -4858,7 +4858,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Tancred's Hobnails",
+    "id": "set-32",
     "code": "lbt",
     "name": "Tancred's Hobnails",
     "kind": "set",
@@ -4895,7 +4895,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Tancred's Skull",
+    "id": "set-34",
     "code": "bhm",
     "name": "Tancred's Skull",
     "kind": "set",
@@ -4926,7 +4926,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Tancred's Spine",
+    "id": "set-31",
     "code": "ful",
     "name": "Tancred's Spine",
     "kind": "set",
@@ -4950,7 +4950,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Tancred's Weird",
+    "id": "set-33",
     "code": "amu",
     "name": "Tancred's Weird",
     "kind": "set",
@@ -4987,7 +4987,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Telling of Beads",
+    "id": "set-95",
     "code": "amu",
     "name": "Telling of Beads",
     "kind": "set",
@@ -5027,7 +5027,7 @@
     ]
   },
   {
-    "id": "set-Trang-Oul's Claws",
+    "id": "set-88",
     "code": "xmg",
     "name": "Trang-Oul's Claws",
     "kind": "set",
@@ -5068,7 +5068,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Trang-Oul's Girth",
+    "id": "set-89",
     "code": "utc",
     "name": "Trang-Oul's Girth",
     "kind": "set",
@@ -5130,7 +5130,7 @@
     ]
   },
   {
-    "id": "set-Trang-Oul's Guise",
+    "id": "set-85",
     "code": "uh9",
     "name": "Trang-Oul's Guise",
     "kind": "set",
@@ -5173,7 +5173,7 @@
     ]
   },
   {
-    "id": "set-Trang-Oul's Scales",
+    "id": "set-86",
     "code": "xul",
     "name": "Trang-Oul's Scales",
     "kind": "set",
@@ -5230,7 +5230,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Trang-Oul's Wing",
+    "id": "set-87",
     "code": "ne9",
     "name": "Trang-Oul's Wing",
     "kind": "set",
@@ -5296,7 +5296,7 @@
     ]
   },
   {
-    "id": "set-Vidala's Ambush",
+    "id": "set-19",
     "code": "lea",
     "name": "Vidala's Ambush",
     "kind": "set",
@@ -5327,7 +5327,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Vidala's Barb",
+    "id": "set-17",
     "code": "lbb",
     "name": "Vidala's Barb",
     "kind": "set",
@@ -5351,7 +5351,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Vidala's Fetlock",
+    "id": "set-18",
     "code": "tbt",
     "name": "Vidala's Fetlock",
     "kind": "set",
@@ -5382,7 +5382,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Vidala's Snare",
+    "id": "set-20",
     "code": "amu",
     "name": "Vidala's Snare",
     "kind": "set",
@@ -5413,7 +5413,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Wihtstan's Guard",
+    "id": "set-107",
     "code": "xml",
     "name": "Wihtstan's Guard",
     "kind": "set",
@@ -5452,7 +5452,7 @@
     "statPriority": []
   },
   {
-    "id": "set-Wilhelm's Pride",
+    "id": "set-105",
     "code": "ztb",
     "name": "Wilhelm's Pride",
     "kind": "set",

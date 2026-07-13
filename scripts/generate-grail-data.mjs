@@ -108,10 +108,10 @@ const uniquesOut = Object.entries(uniqueItems)
 
 const setsOut = Object.entries(setItemsRaw)
   .filter(([, v]) => v.spawnable === 1)
-  .map(([id, v]) => {
+  .map(([, v]) => {
     const { variable, fixed } = extractProps(v, 7);
     return {
-      id: `set-${id}`,
+      id: `set-${v['*ID']}`,
       code: v.item,
       name: v.index,
       kind: 'set',
