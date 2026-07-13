@@ -1,0 +1,9 @@
+{
+  "description": "Minimum ilvl from Larzuk to get max sockets on an item. Items found naturally with sockets bypass this.",
+  "larzukRule": {
+    "ilvl_1_25": "Up to 3 sockets (or less for small items)",
+    "ilvl_26_39": "Up to 4 sockets for most items",
+    "ilvl_40_plus": "Full max sockets for that base"
+  },
+  "notes": "Phase Blade always gets max sockets regardless of ilvl. Shields with 4 sockets need ilvl 26+."
+}

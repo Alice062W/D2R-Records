@@ -1,0 +1,641 @@
+[
+  {
+    "code": "uui",
+    "name": "Dusk Shroud",
+    "nameTW": "黃昏裹屍布",
+    "nameCN": "黄昏裹尸布",
+    "category": "Light Armor",
+    "itemTypes": [
+      "Body Armor",
+      "Light Armor"
+    ],
+    "maxSockets": 4,
+    "minIlvlMaxSock": 26,
+    "ethEligible": true,
+    "tier": "elite"
+  },
+  {
+    "code": "ula",
+    "name": "Wyrmhide",
+    "nameTW": "巨龍革甲",
+    "nameCN": "巨龙革甲",
+    "category": "Light Armor",
+    "itemTypes": [
+      "Body Armor",
+      "Light Armor"
+    ],
+    "maxSockets": 4,
+    "minIlvlMaxSock": 26,
+    "ethEligible": true,
+    "tier": "elite"
+  },
+  {
+    "code": "utu",
+    "name": "Scarab Husk",
+    "nameTW": "聖甲蟲外殼",
+    "nameCN": "圣甲虫外壳",
+    "category": "Light Armor",
+    "itemTypes": [
+      "Body Armor",
+      "Light Armor"
+    ],
+    "maxSockets": 4,
+    "minIlvlMaxSock": 26,
+    "ethEligible": true,
+    "tier": "elite"
+  },
+  {
+    "code": "uth",
+    "name": "Wire Fleece",
+    "nameTW": "鐵絲羊毛",
+    "nameCN": "铁丝羊毛",
+    "category": "Light Armor",
+    "itemTypes": [
+      "Body Armor",
+      "Light Armor"
+    ],
+    "maxSockets": 4,
+    "minIlvlMaxSock": 26,
+    "ethEligible": true,
+    "tier": "elite"
+  },
+  {
+    "code": "umb",
+    "name": "Diamond Mail",
+    "nameTW": "鑽石鎖甲",
+    "nameCN": "钻石锁甲",
+    "category": "Light Armor",
+    "itemTypes": [
+      "Body Armor",
+      "Light Armor"
+    ],
+    "maxSockets": 4,
+    "minIlvlMaxSock": 26,
+    "ethEligible": true,
+    "tier": "elite"
+  },
+  {
+    "code": "utp",
+    "name": "Archon Plate",
+    "nameTW": "執政官板甲",
+    "nameCN": "执政官板甲",
+    "category": "Light Armor",
+    "itemTypes": [
+      "Body Armor",
+      "Light Armor"
+    ],
+    "maxSockets": 4,
+    "minIlvlMaxSock": 26,
+    "ethEligible": true,
+    "tier": "elite"
+  },
+  {
+    "code": "uuc",
+    "name": "Sacred Armor",
+    "nameTW": "神聖甲冑",
+    "nameCN": "神圣甲胄",
+    "category": "Heavy Armor",
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "maxSockets": 4,
+    "minIlvlMaxSock": 26,
+    "ethEligible": true,
+    "tier": "elite"
+  },
+  {
+    "code": "uat",
+    "name": "Kraken Shell",
+    "nameTW": "海怪殼甲",
+    "nameCN": "海怪壳甲",
+    "category": "Heavy Armor",
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "maxSockets": 4,
+    "minIlvlMaxSock": 26,
+    "ethEligible": true,
+    "tier": "elite"
+  },
+  {
+    "code": "xui",
+    "name": "Ghost Armor",
+    "nameTW": "鬼魂革甲",
+    "nameCN": "鬼魂革甲",
+    "category": "Light Armor",
+    "itemTypes": [
+      "Body Armor",
+      "Light Armor"
+    ],
+    "maxSockets": 4,
+    "minIlvlMaxSock": 26,
+    "ethEligible": true,
+    "tier": "exceptional"
+  },
+  {
+    "code": "ums",
+    "name": "Monarch",
+    "nameTW": "君主盾",
+    "nameCN": "君主盾",
+    "category": "Shield",
+    "itemTypes": [
+      "Shields"
+    ],
+    "maxSockets": 4,
+    "minIlvlMaxSock": 26,
+    "ethEligible": false,
+    "tier": "elite"
+  },
+  {
+    "code": "uow",
+    "name": "Sacred Targe",
+    "nameTW": "神聖塔盾",
+    "nameCN": "神圣塔盾",
+    "category": "Paladin Shield",
+    "itemTypes": [
+      "Shields",
+      "Paladin Shields (only)"
+    ],
+    "maxSockets": 4,
+    "minIlvlMaxSock": 26,
+    "ethEligible": false,
+    "tier": "elite"
+  },
+  {
+    "code": "uml",
+    "name": "Hyperion",
+    "nameTW": "亥伯龍盾",
+    "nameCN": "亥伯龙盾",
+    "category": "Paladin Shield",
+    "itemTypes": [
+      "Shields",
+      "Paladin Shields (only)"
+    ],
+    "maxSockets": 4,
+    "minIlvlMaxSock": 26,
+    "ethEligible": false,
+    "tier": "elite"
+  },
+  {
+    "code": "ush",
+    "name": "Ward",
+    "nameTW": "守衛盾",
+    "nameCN": "守卫盾",
+    "category": "Shield",
+    "itemTypes": [
+      "Shields"
+    ],
+    "maxSockets": 4,
+    "minIlvlMaxSock": 26,
+    "ethEligible": false,
+    "tier": "elite"
+  },
+  {
+    "code": "7cr",
+    "name": "Phase Blade",
+    "nameTW": "相位劍",
+    "nameCN": "相位剑",
+    "category": "Sword",
+    "itemTypes": [
+      "Swords",
+      "Melee Weapons",
+      "Weapons"
+    ],
+    "maxSockets": 6,
+    "minIlvlMaxSock": 1,
+    "ethEligible": false,
+    "tier": "elite",
+    "notes": "No durability; eth has no benefit. BIS for Grief and CTA."
+  },
+  {
+    "code": "7wb",
+    "name": "Colossus Blade",
+    "nameTW": "巨像刃",
+    "nameCN": "巨像刃",
+    "category": "Sword",
+    "itemTypes": [
+      "Swords",
+      "Melee Weapons",
+      "Weapons"
+    ],
+    "maxSockets": 6,
+    "minIlvlMaxSock": 26,
+    "ethEligible": true,
+    "tier": "elite"
+  },
+  {
+    "code": "7ls",
+    "name": "Cryptic Sword",
+    "nameTW": "神秘劍",
+    "nameCN": "神秘剑",
+    "category": "Sword",
+    "itemTypes": [
+      "Swords",
+      "Melee Weapons",
+      "Weapons"
+    ],
+    "maxSockets": 5,
+    "minIlvlMaxSock": 26,
+    "ethEligible": true,
+    "tier": "elite"
+  },
+  {
+    "code": "7o7",
+    "name": "Legend Sword",
+    "nameTW": "傳奇劍",
+    "nameCN": "传奇剑",
+    "category": "Sword",
+    "itemTypes": [
+      "Swords",
+      "Melee Weapons",
+      "Weapons"
+    ],
+    "maxSockets": 5,
+    "minIlvlMaxSock": 26,
+    "ethEligible": true,
+    "tier": "elite"
+  },
+  {
+    "code": "72h",
+    "name": "Colossus Sword",
+    "nameTW": "巨像劍",
+    "nameCN": "巨像剑",
+    "category": "Sword",
+    "itemTypes": [
+      "Swords",
+      "Melee Weapons",
+      "Weapons"
+    ],
+    "maxSockets": 6,
+    "minIlvlMaxSock": 26,
+    "ethEligible": true,
+    "tier": "elite"
+  },
+  {
+    "code": "7wa",
+    "name": "Berserker Axe",
+    "nameTW": "狂戰士斧",
+    "nameCN": "狂战士斧",
+    "category": "Axe",
+    "itemTypes": [
+      "Axes",
+      "Melee Weapons",
+      "Weapons"
+    ],
+    "maxSockets": 6,
+    "minIlvlMaxSock": 26,
+    "ethEligible": true,
+    "tier": "elite",
+    "notes": "BIS axe for Grief. Non-eth preferred for character use."
+  },
+  {
+    "code": "7bt",
+    "name": "Champion Axe",
+    "nameTW": "勇士斧",
+    "nameCN": "勇士斧",
+    "category": "Axe",
+    "itemTypes": [
+      "Axes",
+      "Melee Weapons",
+      "Weapons"
+    ],
+    "maxSockets": 6,
+    "minIlvlMaxSock": 26,
+    "ethEligible": true,
+    "tier": "elite"
+  },
+  {
+    "code": "7s8",
+    "name": "Thresher",
+    "nameTW": "打穀機",
+    "nameCN": "打谷机",
+    "category": "Polearm",
+    "itemTypes": [
+      "Polearms",
+      "Melee Weapons",
+      "Weapons"
+    ],
+    "maxSockets": 4,
+    "minIlvlMaxSock": 26,
+    "ethEligible": true,
+    "tier": "elite"
+  },
+  {
+    "code": "7wc",
+    "name": "Giant Thresher",
+    "nameTW": "巨型打穀機",
+    "nameCN": "巨型打谷机",
+    "category": "Polearm",
+    "itemTypes": [
+      "Polearms",
+      "Melee Weapons",
+      "Weapons"
+    ],
+    "maxSockets": 4,
+    "minIlvlMaxSock": 26,
+    "ethEligible": true,
+    "tier": "elite",
+    "notes": "BIS polearm for Infinity (eth). Highest damage polearm."
+  },
+  {
+    "code": "7vo",
+    "name": "Colossus Voulge",
+    "nameTW": "巨像鐮矛",
+    "nameCN": "巨像镰矛",
+    "category": "Polearm",
+    "itemTypes": [
+      "Polearms",
+      "Melee Weapons",
+      "Weapons"
+    ],
+    "maxSockets": 4,
+    "minIlvlMaxSock": 26,
+    "ethEligible": true,
+    "tier": "elite"
+  },
+  {
+    "code": "7wi",
+    "name": "Cryptic Axe",
+    "nameTW": "神秘斧",
+    "nameCN": "神秘斧",
+    "category": "Polearm",
+    "itemTypes": [
+      "Polearms",
+      "Melee Weapons",
+      "Weapons"
+    ],
+    "maxSockets": 4,
+    "minIlvlMaxSock": 26,
+    "ethEligible": true,
+    "tier": "elite"
+  },
+  {
+    "code": "7p7",
+    "name": "War Pike",
+    "nameTW": "戰爭長槍",
+    "nameCN": "战争长枪",
+    "category": "Polearm",
+    "itemTypes": [
+      "Polearms",
+      "Melee Weapons",
+      "Weapons"
+    ],
+    "maxSockets": 6,
+    "minIlvlMaxSock": 26,
+    "ethEligible": true,
+    "tier": "elite"
+  },
+  {
+    "code": "7bs",
+    "name": "Ward Staff",
+    "nameTW": "守衛法杖",
+    "nameCN": "守卫法杖",
+    "category": "Staff",
+    "itemTypes": [
+      "Staves (Not Orbs)",
+      "Weapons"
+    ],
+    "maxSockets": 6,
+    "minIlvlMaxSock": 26,
+    "ethEligible": true,
+    "tier": "elite"
+  },
+  {
+    "code": "7ws",
+    "name": "Archon Staff",
+    "nameTW": "執政官法杖",
+    "nameCN": "执政官法杖",
+    "category": "Staff",
+    "itemTypes": [
+      "Staves (Not Orbs)",
+      "Weapons"
+    ],
+    "maxSockets": 6,
+    "minIlvlMaxSock": 26,
+    "ethEligible": true,
+    "tier": "elite"
+  },
+  {
+    "code": "usk",
+    "name": "Giant Skull",
+    "nameTW": "巨人頭骨",
+    "nameCN": "巨人头骨",
+    "category": "Helm",
+    "itemTypes": [
+      "Helms"
+    ],
+    "maxSockets": 2,
+    "minIlvlMaxSock": 1,
+    "ethEligible": true,
+    "tier": "elite"
+  },
+  {
+    "code": "uh9",
+    "name": "Bone Visage",
+    "nameTW": "骨面",
+    "nameCN": "骨面",
+    "category": "Helm",
+    "itemTypes": [
+      "Helms"
+    ],
+    "maxSockets": 3,
+    "minIlvlMaxSock": 26,
+    "ethEligible": true,
+    "tier": "elite"
+  },
+  {
+    "code": "6s7",
+    "name": "Shadow Bow",
+    "nameTW": "影弓",
+    "nameCN": "影弓",
+    "category": "Bow",
+    "itemTypes": [
+      "Bows",
+      "Missile Weapons",
+      "Weapons"
+    ],
+    "maxSockets": 6,
+    "minIlvlMaxSock": 26,
+    "ethEligible": false,
+    "tier": "elite"
+  },
+  {
+    "code": "6lw",
+    "name": "Hydra Bow",
+    "nameTW": "九頭蛇弓",
+    "nameCN": "九头蛇弓",
+    "category": "Bow",
+    "itemTypes": [
+      "Bows",
+      "Missile Weapons",
+      "Weapons"
+    ],
+    "maxSockets": 6,
+    "minIlvlMaxSock": 26,
+    "ethEligible": false,
+    "tier": "elite",
+    "notes": "BIS bow for Faith — fastest attack speed class."
+  },
+  {
+    "code": "6rx",
+    "name": "Crusader Bow",
+    "nameTW": "十字軍弓",
+    "nameCN": "十字军弓",
+    "category": "Bow",
+    "itemTypes": [
+      "Bows",
+      "Missile Weapons",
+      "Weapons"
+    ],
+    "maxSockets": 6,
+    "minIlvlMaxSock": 26,
+    "ethEligible": false,
+    "tier": "elite"
+  },
+  {
+    "code": "6hb",
+    "name": "Diamond Bow",
+    "nameTW": "鑽石弓",
+    "nameCN": "钻石弓",
+    "category": "Bow",
+    "itemTypes": [
+      "Bows",
+      "Missile Weapons",
+      "Weapons"
+    ],
+    "maxSockets": 6,
+    "minIlvlMaxSock": 26,
+    "ethEligible": false,
+    "tier": "elite"
+  },
+  {
+    "code": "7lw",
+    "name": "Runic Talons",
+    "nameTW": "盧恩鷹爪",
+    "nameCN": "卢恩鹰爪",
+    "category": "Claw",
+    "itemTypes": [
+      "Claws",
+      "Melee Weapons",
+      "Weapons"
+    ],
+    "maxSockets": 3,
+    "minIlvlMaxSock": 1,
+    "ethEligible": true,
+    "tier": "elite"
+  },
+  {
+    "code": "7qr",
+    "name": "Scissors Suwayyah",
+    "nameTW": "剪刀爪",
+    "nameCN": "剪刀爪",
+    "category": "Claw",
+    "itemTypes": [
+      "Claws",
+      "Melee Weapons",
+      "Weapons"
+    ],
+    "maxSockets": 3,
+    "minIlvlMaxSock": 1,
+    "ethEligible": true,
+    "tier": "elite"
+  },
+  {
+    "code": "7mt",
+    "name": "Thunder Maul",
+    "nameTW": "雷霆重錘",
+    "nameCN": "雷霆重锤",
+    "category": "Hammer",
+    "itemTypes": [
+      "Hammers",
+      "Maces",
+      "Melee Weapons",
+      "Weapons"
+    ],
+    "maxSockets": 6,
+    "minIlvlMaxSock": 26,
+    "ethEligible": true,
+    "tier": "elite"
+  },
+  {
+    "code": "7qh",
+    "name": "Ogre Maul",
+    "nameTW": "食人魔重錘",
+    "nameCN": "食人魔重锤",
+    "category": "Hammer",
+    "itemTypes": [
+      "Hammers",
+      "Maces",
+      "Melee Weapons",
+      "Weapons"
+    ],
+    "maxSockets": 6,
+    "minIlvlMaxSock": 26,
+    "ethEligible": true,
+    "tier": "elite"
+  },
+  {
+    "code": "buc",
+    "name": "Broad Sword",
+    "nameTW": "闊劍",
+    "nameCN": "阔剑",
+    "category": "Sword",
+    "itemTypes": [
+      "Swords",
+      "Melee Weapons",
+      "Weapons"
+    ],
+    "maxSockets": 4,
+    "minIlvlMaxSock": 1,
+    "ethEligible": true,
+    "tier": "normal"
+  },
+  {
+    "code": "lsd",
+    "name": "Long Sword",
+    "nameTW": "長劍",
+    "nameCN": "长剑",
+    "category": "Sword",
+    "itemTypes": [
+      "Swords",
+      "Melee Weapons",
+      "Weapons"
+    ],
+    "maxSockets": 4,
+    "minIlvlMaxSock": 1,
+    "ethEligible": true,
+    "tier": "normal"
+  },
+  {
+    "code": "9cs",
+    "name": "Great Sword",
+    "nameTW": "巨劍",
+    "nameCN": "巨剑",
+    "category": "Sword",
+    "itemTypes": [
+      "Swords",
+      "Melee Weapons",
+      "Weapons"
+    ],
+    "maxSockets": 4,
+    "minIlvlMaxSock": 1,
+    "ethEligible": true,
+    "tier": "exceptional"
+  },
+  {
+    "code": "gpa",
+    "name": "Great Poleaxe",
+    "nameTW": "巨型戰斧",
+    "nameCN": "巨型战斧",
+    "category": "Polearm",
+    "itemTypes": [
+      "Polearms",
+      "Melee Weapons",
+      "Weapons"
+    ],
+    "maxSockets": 4,
+    "minIlvlMaxSock": 1,
+    "ethEligible": true,
+    "tier": "exceptional"
+  }
+]

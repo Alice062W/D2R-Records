@@ -1,0 +1,28 @@
+{
+  "Home": {
+    "title": "D2R 研究所",
+    "subtitle": "插槽物品鑑定師",
+    "description": "立即判斷你的插槽基底物品是否值得保留。"
+  },
+  "Appraiser": {
+    "itemBase": "基底物品",
+    "selectBase": "— 選擇基底 —",
+    "sockets": "插槽數",
+    "itemLevel": "物品等級 (ilvl)",
+    "ethereal": "虛靈",
+    "appraise": "鑑定",
+    "eligibleRunewords": "可用符文之語",
+    "noRunewords": "沒有符文之語符合此組合，丟棄它。",
+    "viewTraderie": "Traderie",
+    "ladder": "天梯",
+    "socketsShort": "孔",
+    "eth": "虛靈",
+    "tier_elite": "菁英",
+    "tier_exceptional": "傑出",
+    "tier_normal": "普通"
+  },
+  "Footer": {
+    "support": "支持這個工具",
+    "tagline": "永遠免費。如果有幫助，請給予打賞。"
+  }
+}

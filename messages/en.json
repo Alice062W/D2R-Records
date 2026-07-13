@@ -1,0 +1,28 @@
+{
+  "Home": {
+    "title": "D2R Institute",
+    "subtitle": "Socketed Item Appraiser",
+    "description": "Find out instantly whether to keep or dump your socketed base item."
+  },
+  "Appraiser": {
+    "itemBase": "Item Base",
+    "selectBase": "— Select a base —",
+    "sockets": "Sockets",
+    "itemLevel": "Item Level (ilvl)",
+    "ethereal": "Ethereal",
+    "appraise": "Appraise",
+    "eligibleRunewords": "Eligible Runewords",
+    "noRunewords": "No runewords match this combination. Dump it.",
+    "viewTraderie": "Traderie",
+    "ladder": "Ladder",
+    "socketsShort": "s",
+    "eth": "Eth",
+    "tier_elite": "Elite",
+    "tier_exceptional": "Exceptional",
+    "tier_normal": "Normal"
+  },
+  "Footer": {
+    "support": "Support this tool",
+    "tagline": "Free forever. Tip if it helps."
+  }
+}

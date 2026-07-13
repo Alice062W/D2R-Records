@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>D2R Institute</title>
+<script>
+  (function () {
+    var supported = ['en', 'zh-TW', 'zh-CN'];
+    var lang = (navigator.language || 'en').toLowerCase();
+    var locale = 'en';
+    if (lang.indexOf('zh') === 0) {
+      locale = (lang.indexOf('cn') !== -1 || lang.indexOf('hans') !== -1) ? 'zh-CN' : 'zh-TW';
+    }
+    // Relative redirect so this works whether served at a domain root or a /repo-name/ subpath.
+    location.replace(supported.indexOf(locale) !== -1 ? locale + '/' : 'en/');
+  })();
+</script>
+</head>
+<body>
+  <p>Redirecting to <a href="en/">D2R Institute</a>&hellip;</p>
+</body>
+</html>

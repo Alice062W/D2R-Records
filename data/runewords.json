@@ -1,0 +1,1757 @@
+[
+  {
+    "name": "Ancient's Pledge",
+    "nameTW": "古老誓約",
+    "nameCN": "古老誓约",
+    "sockets": 3,
+    "itemTypes": [
+      "Shields"
+    ],
+    "runes": [
+      "Ral",
+      "Ort",
+      "Tal"
+    ],
+    "level": 21,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Black",
+    "nameTW": "黑暗",
+    "nameCN": "黑暗",
+    "sockets": 3,
+    "itemTypes": [
+      "Clubs",
+      "Hammers",
+      "Maces"
+    ],
+    "runes": [
+      "Thul",
+      "Io",
+      "Nef"
+    ],
+    "level": 35,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Fury",
+    "nameTW": "狂怒",
+    "nameCN": "狂怒",
+    "sockets": 3,
+    "itemTypes": [
+      "Melee Weapons"
+    ],
+    "runes": [
+      "Jah",
+      "Gul",
+      "Eth"
+    ],
+    "level": 65,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Holy Thunder",
+    "nameTW": "聖雷",
+    "nameCN": "圣雷",
+    "sockets": 4,
+    "itemTypes": [
+      "Scepters"
+    ],
+    "runes": [
+      "Eth",
+      "Ral",
+      "Ort",
+      "Tal"
+    ],
+    "level": 21,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Honor",
+    "nameTW": "Honor",
+    "nameCN": "Honor",
+    "sockets": 5,
+    "itemTypes": [
+      "Melee Weapons"
+    ],
+    "runes": [
+      "Amn",
+      "El",
+      "Ith",
+      "Tir",
+      "Sol"
+    ],
+    "level": 27,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "King's Grace",
+    "nameTW": "王者之恩",
+    "nameCN": "王者之恩",
+    "sockets": 3,
+    "itemTypes": [
+      "Swords",
+      "Scepters"
+    ],
+    "runes": [
+      "Amn",
+      "Ral",
+      "Thul"
+    ],
+    "level": 25,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Leaf",
+    "nameTW": "葉",
+    "nameCN": "叶",
+    "sockets": 2,
+    "itemTypes": [
+      "Staves (Not Orbs)"
+    ],
+    "runes": [
+      "Tir",
+      "Ral"
+    ],
+    "level": 19,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Lionheart",
+    "nameTW": "獅心",
+    "nameCN": "狮心",
+    "sockets": 3,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "runes": [
+      "Hel",
+      "Lum",
+      "Fal"
+    ],
+    "level": 41,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Lore",
+    "nameTW": "知識",
+    "nameCN": "知识",
+    "sockets": 2,
+    "itemTypes": [
+      "Helms"
+    ],
+    "runes": [
+      "Ort",
+      "Sol"
+    ],
+    "level": 27,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Malice",
+    "nameTW": "惡意",
+    "nameCN": "恶意",
+    "sockets": 3,
+    "itemTypes": [
+      "Melee Weapons"
+    ],
+    "runes": [
+      "Ith",
+      "El",
+      "Eth"
+    ],
+    "level": 15,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Melody",
+    "nameTW": "旋律",
+    "nameCN": "旋律",
+    "sockets": 3,
+    "itemTypes": [
+      "Missile Weapons"
+    ],
+    "runes": [
+      "Shael",
+      "Ko",
+      "Nef"
+    ],
+    "level": 39,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Memory",
+    "nameTW": "記憶",
+    "nameCN": "记忆",
+    "sockets": 4,
+    "itemTypes": [
+      "Staves (Not Orbs)"
+    ],
+    "runes": [
+      "Lum",
+      "Io",
+      "Sol",
+      "Eth"
+    ],
+    "level": 37,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Nadir",
+    "nameTW": "最低點",
+    "nameCN": "最低点",
+    "sockets": 2,
+    "itemTypes": [
+      "Helms"
+    ],
+    "runes": [
+      "Nef",
+      "Tir"
+    ],
+    "level": 13,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Radiance",
+    "nameTW": "光輝",
+    "nameCN": "光辉",
+    "sockets": 3,
+    "itemTypes": [
+      "Helms"
+    ],
+    "runes": [
+      "Nef",
+      "Sol",
+      "Ith"
+    ],
+    "level": 27,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Rhyme",
+    "nameTW": "押韻",
+    "nameCN": "押韵",
+    "sockets": 2,
+    "itemTypes": [
+      "Shields"
+    ],
+    "runes": [
+      "Shael",
+      "Eth"
+    ],
+    "level": 29,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Silence",
+    "nameTW": "沉默",
+    "nameCN": "沉默",
+    "sockets": 6,
+    "itemTypes": [
+      "Weapons"
+    ],
+    "runes": [
+      "Dol",
+      "Eld",
+      "Hel",
+      "Ist",
+      "Tir",
+      "Vex"
+    ],
+    "level": 55,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Smoke",
+    "nameTW": "煙霧",
+    "nameCN": "烟雾",
+    "sockets": 2,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "runes": [
+      "Nef",
+      "Lum"
+    ],
+    "level": 37,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Stealth",
+    "nameTW": "潛行",
+    "nameCN": "潜行",
+    "sockets": 2,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "runes": [
+      "Tal",
+      "Eth"
+    ],
+    "level": 17,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Steel",
+    "nameTW": "Steel",
+    "nameCN": "Steel",
+    "sockets": 2,
+    "itemTypes": [
+      "Swords",
+      "Axes",
+      "Maces"
+    ],
+    "runes": [
+      "Tir",
+      "El"
+    ],
+    "level": 13,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Strength",
+    "nameTW": "力量",
+    "nameCN": "力量",
+    "sockets": 2,
+    "itemTypes": [
+      "Melee Weapons"
+    ],
+    "runes": [
+      "Amn",
+      "Tir"
+    ],
+    "level": 25,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Venom",
+    "nameTW": "毒液",
+    "nameCN": "毒液",
+    "sockets": 3,
+    "itemTypes": [
+      "Weapons"
+    ],
+    "runes": [
+      "Tal",
+      "Dol",
+      "Mal"
+    ],
+    "level": 49,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Wealth",
+    "nameTW": "財富",
+    "nameCN": "财富",
+    "sockets": 3,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "runes": [
+      "Lem",
+      "Ko",
+      "Tir"
+    ],
+    "level": 43,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "White",
+    "nameTW": "白色",
+    "nameCN": "白色",
+    "sockets": 2,
+    "itemTypes": [
+      "Wand"
+    ],
+    "runes": [
+      "Dol",
+      "Io"
+    ],
+    "level": 35,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Zephyr",
+    "nameTW": "和風",
+    "nameCN": "和风",
+    "sockets": 2,
+    "itemTypes": [
+      "Missile Weapons"
+    ],
+    "runes": [
+      "Ort",
+      "Eth"
+    ],
+    "level": 21,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Brand",
+    "nameTW": "烙印",
+    "nameCN": "烙印",
+    "sockets": 4,
+    "itemTypes": [
+      "Missile Weapons"
+    ],
+    "runes": [
+      "Jah",
+      "Lo",
+      "Mal",
+      "Gul"
+    ],
+    "level": 65,
+    "ladderOnly": true,
+    "d2rOnly": false,
+    "tier": 1
+  },
+  {
+    "name": "Death",
+    "nameTW": "死亡",
+    "nameCN": "死亡",
+    "sockets": 5,
+    "itemTypes": [
+      "Swords",
+      "Axes"
+    ],
+    "runes": [
+      "Hel",
+      "El",
+      "Vex",
+      "Ort",
+      "Gul"
+    ],
+    "level": 55,
+    "ladderOnly": true,
+    "d2rOnly": false,
+    "tier": 1
+  },
+  {
+    "name": "Destruction",
+    "nameTW": "毀滅",
+    "nameCN": "毁灭",
+    "sockets": 5,
+    "itemTypes": [
+      "Polearms",
+      "Swords"
+    ],
+    "runes": [
+      "Vex",
+      "Lo",
+      "Ber",
+      "Jah",
+      "Ko"
+    ],
+    "level": 65,
+    "ladderOnly": true,
+    "d2rOnly": false,
+    "tier": 1
+  },
+  {
+    "name": "Dragon",
+    "nameTW": "龍",
+    "nameCN": "龙",
+    "sockets": 3,
+    "itemTypes": [
+      "Body Armor",
+      "Shields"
+    ],
+    "runes": [
+      "Sur",
+      "Lo",
+      "Sol"
+    ],
+    "level": 61,
+    "ladderOnly": true,
+    "d2rOnly": false,
+    "tier": 1
+  },
+  {
+    "name": "Dream",
+    "nameTW": "夢想",
+    "nameCN": "梦想",
+    "sockets": 3,
+    "itemTypes": [
+      "Helms",
+      "Shields"
+    ],
+    "runes": [
+      "Io",
+      "Jah",
+      "Pul"
+    ],
+    "level": 65,
+    "ladderOnly": true,
+    "d2rOnly": false,
+    "tier": 2
+  },
+  {
+    "name": "Edge",
+    "nameTW": "刃",
+    "nameCN": "刃",
+    "sockets": 3,
+    "itemTypes": [
+      "Missile Weapons"
+    ],
+    "runes": [
+      "Tir",
+      "Tal",
+      "Amn"
+    ],
+    "level": 25,
+    "ladderOnly": true,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Faith",
+    "nameTW": "信仰",
+    "nameCN": "信仰",
+    "sockets": 4,
+    "itemTypes": [
+      "Missile Weapons"
+    ],
+    "runes": [
+      "Ohm",
+      "Jah",
+      "Lem",
+      "Eld"
+    ],
+    "level": 65,
+    "ladderOnly": true,
+    "d2rOnly": false,
+    "tier": 1
+  },
+  {
+    "name": "Fortitude",
+    "nameTW": "剛毅",
+    "nameCN": "刚毅",
+    "sockets": 4,
+    "itemTypes": [
+      "Weapons",
+      "Body Armor"
+    ],
+    "runes": [
+      "El",
+      "Sol",
+      "Dol",
+      "Lo"
+    ],
+    "level": 59,
+    "ladderOnly": true,
+    "d2rOnly": false,
+    "tier": 1
+  },
+  {
+    "name": "Grief",
+    "nameTW": "悲傷",
+    "nameCN": "悲伤",
+    "sockets": 5,
+    "itemTypes": [
+      "Swords",
+      "Axes"
+    ],
+    "runes": [
+      "Eth",
+      "Tir",
+      "Lo",
+      "Mal",
+      "Ral"
+    ],
+    "level": 59,
+    "ladderOnly": true,
+    "d2rOnly": false,
+    "tier": 1
+  },
+  {
+    "name": "Harmony",
+    "nameTW": "和諧",
+    "nameCN": "和谐",
+    "sockets": 4,
+    "itemTypes": [
+      "Missile Weapons"
+    ],
+    "runes": [
+      "Tir",
+      "Ith",
+      "Sol",
+      "Ko"
+    ],
+    "level": 39,
+    "ladderOnly": true,
+    "d2rOnly": false,
+    "tier": 2
+  },
+  {
+    "name": "Ice",
+    "nameTW": "冰",
+    "nameCN": "冰",
+    "sockets": 4,
+    "itemTypes": [
+      "Missile Weapons"
+    ],
+    "runes": [
+      "Amn",
+      "Shael",
+      "Jah",
+      "Lo"
+    ],
+    "level": 65,
+    "ladderOnly": true,
+    "d2rOnly": false,
+    "tier": 1
+  },
+  {
+    "name": "Infinity",
+    "nameTW": "無限",
+    "nameCN": "无限",
+    "sockets": 4,
+    "itemTypes": [
+      "Polearms"
+    ],
+    "runes": [
+      "Ber",
+      "Mal",
+      "Ber",
+      "Ist"
+    ],
+    "level": 63,
+    "ladderOnly": true,
+    "d2rOnly": false,
+    "tier": 1
+  },
+  {
+    "name": "Insight",
+    "nameTW": "洞察",
+    "nameCN": "洞察",
+    "sockets": 4,
+    "itemTypes": [
+      "Polearms",
+      "Staves (Not Orbs)"
+    ],
+    "runes": [
+      "Ral",
+      "Tir",
+      "Tal",
+      "Sol"
+    ],
+    "level": 27,
+    "ladderOnly": true,
+    "d2rOnly": false,
+    "tier": 2
+  },
+  {
+    "name": "Last Wish",
+    "nameTW": "最後心願",
+    "nameCN": "最后心愿",
+    "sockets": 6,
+    "itemTypes": [
+      "Swords",
+      "Hammers",
+      "Axes"
+    ],
+    "runes": [
+      "Jah",
+      "Mal",
+      "Jah",
+      "Sur",
+      "Jah",
+      "Ber"
+    ],
+    "level": 65,
+    "ladderOnly": true,
+    "d2rOnly": false,
+    "tier": 1
+  },
+  {
+    "name": "Lawbringer",
+    "nameTW": "執法者",
+    "nameCN": "执法者",
+    "sockets": 3,
+    "itemTypes": [
+      "Swords",
+      "Hammers",
+      "Scepters"
+    ],
+    "runes": [
+      "Amn",
+      "Lem",
+      "Ko"
+    ],
+    "level": 43,
+    "ladderOnly": true,
+    "d2rOnly": false,
+    "tier": 2
+  },
+  {
+    "name": "Oath",
+    "nameTW": "誓言",
+    "nameCN": "誓言",
+    "sockets": 4,
+    "itemTypes": [
+      "Swords",
+      "Axes",
+      "Maces"
+    ],
+    "runes": [
+      "Shael",
+      "Pul",
+      "Mal",
+      "Lum"
+    ],
+    "level": 49,
+    "ladderOnly": true,
+    "d2rOnly": false,
+    "tier": 2
+  },
+  {
+    "name": "Obedience",
+    "nameTW": "服從",
+    "nameCN": "服从",
+    "sockets": 5,
+    "itemTypes": [
+      "Polearms"
+    ],
+    "runes": [
+      "Hel",
+      "Ko",
+      "Thul",
+      "Eth",
+      "Fal"
+    ],
+    "level": 41,
+    "ladderOnly": true,
+    "d2rOnly": false,
+    "tier": 2
+  },
+  {
+    "name": "Phoenix",
+    "nameTW": "鳳凰",
+    "nameCN": "凤凰",
+    "sockets": 4,
+    "itemTypes": [
+      "Weapons",
+      "Shields"
+    ],
+    "runes": [
+      "Vex",
+      "Vex",
+      "Lo",
+      "Jah"
+    ],
+    "level": 65,
+    "ladderOnly": true,
+    "d2rOnly": false,
+    "tier": 1
+  },
+  {
+    "name": "Pride",
+    "nameTW": "驕傲",
+    "nameCN": "骄傲",
+    "sockets": 4,
+    "itemTypes": [
+      "Polearms"
+    ],
+    "runes": [
+      "Cham",
+      "Sur",
+      "Io",
+      "Lo"
+    ],
+    "level": 67,
+    "ladderOnly": true,
+    "d2rOnly": false,
+    "tier": 1
+  },
+  {
+    "name": "Rift",
+    "nameTW": "裂隙",
+    "nameCN": "裂隙",
+    "sockets": 4,
+    "itemTypes": [
+      "Polearms",
+      "Scepters"
+    ],
+    "runes": [
+      "Hel",
+      "Ko",
+      "Lem",
+      "Gul"
+    ],
+    "level": 53,
+    "ladderOnly": true,
+    "d2rOnly": false,
+    "tier": 2
+  },
+  {
+    "name": "Spirit",
+    "nameTW": "靈魄",
+    "nameCN": "灵魄",
+    "sockets": 4,
+    "itemTypes": [
+      "Swords",
+      "Shields"
+    ],
+    "runes": [
+      "Tal",
+      "Thul",
+      "Ort",
+      "Amn"
+    ],
+    "level": 25,
+    "ladderOnly": true,
+    "d2rOnly": false,
+    "tier": 2
+  },
+  {
+    "name": "Voice of Reason",
+    "nameTW": "理性之聲",
+    "nameCN": "理性之声",
+    "sockets": 4,
+    "itemTypes": [
+      "Swords",
+      "Maces"
+    ],
+    "runes": [
+      "Lem",
+      "Ko",
+      "El",
+      "Eld"
+    ],
+    "level": 43,
+    "ladderOnly": true,
+    "d2rOnly": false,
+    "tier": 2
+  },
+  {
+    "name": "Wrath",
+    "nameTW": "憤怒",
+    "nameCN": "愤怒",
+    "sockets": 4,
+    "itemTypes": [
+      "Missile Weapons"
+    ],
+    "runes": [
+      "Pul",
+      "Lum",
+      "Ber",
+      "Mal"
+    ],
+    "level": 63,
+    "ladderOnly": true,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Beast",
+    "nameTW": "野獸",
+    "nameCN": "野兽",
+    "sockets": 5,
+    "itemTypes": [
+      "Axes",
+      "Scepters",
+      "Hammers"
+    ],
+    "runes": [
+      "Ber",
+      "Tir",
+      "Um",
+      "Mal",
+      "Lum"
+    ],
+    "level": 63,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 2
+  },
+  {
+    "name": "Bramble",
+    "nameTW": "荊棘",
+    "nameCN": "荆棘",
+    "sockets": 4,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "runes": [
+      "Ral",
+      "Ohm",
+      "Sur",
+      "Eth"
+    ],
+    "level": 61,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 2
+  },
+  {
+    "name": "Breath of the Dying",
+    "nameTW": "亡者之息",
+    "nameCN": "亡者之息",
+    "sockets": 6,
+    "itemTypes": [
+      "Weapons"
+    ],
+    "runes": [
+      "Vex",
+      "Hel",
+      "El",
+      "Eld",
+      "Zod",
+      "Eth"
+    ],
+    "level": 69,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 1
+  },
+  {
+    "name": "Call To Arms",
+    "nameTW": "戰鬥呼喚",
+    "nameCN": "战斗呼唤",
+    "sockets": 5,
+    "itemTypes": [
+      "Weapons"
+    ],
+    "runes": [
+      "Amn",
+      "Ral",
+      "Mal",
+      "Ist",
+      "Ohm"
+    ],
+    "level": 57,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 1
+  },
+  {
+    "name": "Chains of Honor",
+    "nameTW": "榮耀鎖鏈",
+    "nameCN": "荣耀锁链",
+    "sockets": 4,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "runes": [
+      "Dol",
+      "Um",
+      "Ber",
+      "Ist"
+    ],
+    "level": 63,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 1
+  },
+  {
+    "name": "Chaos",
+    "nameTW": "混沌",
+    "nameCN": "混沌",
+    "sockets": 3,
+    "itemTypes": [
+      "Claws"
+    ],
+    "runes": [
+      "Fal",
+      "Ohm",
+      "Um"
+    ],
+    "level": 57,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 2
+  },
+  {
+    "name": "Crescent Moon",
+    "nameTW": "新月",
+    "nameCN": "新月",
+    "sockets": 3,
+    "itemTypes": [
+      "Axes",
+      "Swords",
+      "Polearms"
+    ],
+    "runes": [
+      "Shael",
+      "Um",
+      "Tir"
+    ],
+    "level": 47,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 2
+  },
+  {
+    "name": "Delirium",
+    "nameTW": "妄想",
+    "nameCN": "妄想",
+    "sockets": 3,
+    "itemTypes": [
+      "Helms"
+    ],
+    "runes": [
+      "Lem",
+      "Ist",
+      "Io"
+    ],
+    "level": 51,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 2
+  },
+  {
+    "name": "Doom",
+    "nameTW": "末日",
+    "nameCN": "末日",
+    "sockets": 5,
+    "itemTypes": [
+      "Axes",
+      "Polearms",
+      "Hammers"
+    ],
+    "runes": [
+      "Hel",
+      "Ohm",
+      "Um",
+      "Lo",
+      "Cham"
+    ],
+    "level": 67,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 1
+  },
+  {
+    "name": "Duress",
+    "nameTW": "強制",
+    "nameCN": "强制",
+    "sockets": 3,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "runes": [
+      "Shael",
+      "Um",
+      "Thul"
+    ],
+    "level": 47,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 2
+  },
+  {
+    "name": "Enigma",
+    "nameTW": "謎",
+    "nameCN": "谜",
+    "sockets": 3,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "runes": [
+      "Jah",
+      "Ith",
+      "Ber"
+    ],
+    "level": 65,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 1
+  },
+  {
+    "name": "Eternity",
+    "nameTW": "永恆",
+    "nameCN": "永恒",
+    "sockets": 5,
+    "itemTypes": [
+      "Melee Weapons"
+    ],
+    "runes": [
+      "Amn",
+      "Ber",
+      "Ist",
+      "Sol",
+      "Sur"
+    ],
+    "level": 63,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Exile",
+    "nameTW": "放逐",
+    "nameCN": "放逐",
+    "sockets": 4,
+    "itemTypes": [
+      "Paladin Shields (only)"
+    ],
+    "runes": [
+      "Vex",
+      "Ohm",
+      "Ist",
+      "Dol"
+    ],
+    "level": 57,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 1
+  },
+  {
+    "name": "Famine",
+    "nameTW": "饑荒",
+    "nameCN": "饥荒",
+    "sockets": 4,
+    "itemTypes": [
+      "Axes",
+      "Hammers"
+    ],
+    "runes": [
+      "Fal",
+      "Ohm",
+      "Ort",
+      "Jah"
+    ],
+    "level": 65,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 2
+  },
+  {
+    "name": "Gloom",
+    "nameTW": "陰暗",
+    "nameCN": "阴暗",
+    "sockets": 3,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "runes": [
+      "Fal",
+      "Um",
+      "Pul"
+    ],
+    "level": 47,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Hand of Justice",
+    "nameTW": "正義之手",
+    "nameCN": "正义之手",
+    "sockets": 4,
+    "itemTypes": [
+      "Weapons"
+    ],
+    "runes": [
+      "Sur",
+      "Cham",
+      "Amn",
+      "Lo"
+    ],
+    "level": 67,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 1
+  },
+  {
+    "name": "Heart of the Oak",
+    "nameTW": "橡木之心",
+    "nameCN": "橡木之心",
+    "sockets": 4,
+    "itemTypes": [
+      "Staves (Not Orbs)",
+      "Maces"
+    ],
+    "runes": [
+      "Ko",
+      "Vex",
+      "Pul",
+      "Thul"
+    ],
+    "level": 55,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 1
+  },
+  {
+    "name": "Kingslayer",
+    "nameTW": "弒君者",
+    "nameCN": "弑君者",
+    "sockets": 4,
+    "itemTypes": [
+      "Swords",
+      "Axes"
+    ],
+    "runes": [
+      "Mal",
+      "Um",
+      "Gul",
+      "Fal"
+    ],
+    "level": 53,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 2
+  },
+  {
+    "name": "Passion",
+    "nameTW": "熱情",
+    "nameCN": "热情",
+    "sockets": 4,
+    "itemTypes": [
+      "Weapons"
+    ],
+    "runes": [
+      "Dol",
+      "Ort",
+      "Eld",
+      "Lem"
+    ],
+    "level": 43,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Prudence",
+    "nameTW": "謹慎",
+    "nameCN": "谨慎",
+    "sockets": 2,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "runes": [
+      "Mal",
+      "Tir"
+    ],
+    "level": 49,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Sanctuary",
+    "nameTW": "聖所",
+    "nameCN": "圣所",
+    "sockets": 3,
+    "itemTypes": [
+      "Shields"
+    ],
+    "runes": [
+      "Ko",
+      "Ko",
+      "Mal"
+    ],
+    "level": 49,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Splendor",
+    "nameTW": "輝煌",
+    "nameCN": "辉煌",
+    "sockets": 2,
+    "itemTypes": [
+      "Shields"
+    ],
+    "runes": [
+      "Eth",
+      "Lum"
+    ],
+    "level": 37,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Stone",
+    "nameTW": "石化",
+    "nameCN": "石化",
+    "sockets": 4,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "runes": [
+      "Shael",
+      "Um",
+      "Pul",
+      "Lum"
+    ],
+    "level": 47,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 2
+  },
+  {
+    "name": "Wind",
+    "nameTW": "風",
+    "nameCN": "风",
+    "sockets": 2,
+    "itemTypes": [
+      "Melee Weapons"
+    ],
+    "runes": [
+      "Sur",
+      "El"
+    ],
+    "level": 61,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Bone (Necromancer)",
+    "nameTW": "Bone (Necromancer)",
+    "nameCN": "Bone (Necromancer)",
+    "sockets": 3,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "runes": [
+      "Sol",
+      "Um",
+      "Um"
+    ],
+    "level": 47,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Enlightenment (Sorceress)",
+    "nameTW": "Enlightenment (Sorceress)",
+    "nameCN": "Enlightenment (Sorceress)",
+    "sockets": 3,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "runes": [
+      "Pul",
+      "Ral",
+      "Sol"
+    ],
+    "level": 45,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Myth (Barbarian)",
+    "nameTW": "Myth (Barbarian)",
+    "nameCN": "Myth (Barbarian)",
+    "sockets": 3,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "runes": [
+      "Hel",
+      "Amn",
+      "Nef"
+    ],
+    "level": 25,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Peace (Amazon)",
+    "nameTW": "Peace (Amazon)",
+    "nameCN": "Peace (Amazon)",
+    "sockets": 3,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "runes": [
+      "Shael",
+      "Thul",
+      "Amn"
+    ],
+    "level": 29,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Principle (Paladin)",
+    "nameTW": "Principle (Paladin)",
+    "nameCN": "Principle (Paladin)",
+    "sockets": 3,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "runes": [
+      "Ral",
+      "Gul",
+      "Eld"
+    ],
+    "level": 53,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Rain (Druid)",
+    "nameTW": "Rain (Druid)",
+    "nameCN": "Rain (Druid)",
+    "sockets": 3,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "runes": [
+      "Ort",
+      "Mal",
+      "Ith"
+    ],
+    "level": 49,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Treachery (Assassin)",
+    "nameTW": "Treachery (Assassin)",
+    "nameCN": "Treachery (Assassin)",
+    "sockets": 3,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "runes": [
+      "Shael",
+      "Thul",
+      "Lem"
+    ],
+    "level": 43,
+    "ladderOnly": false,
+    "d2rOnly": false,
+    "tier": 3
+  },
+  {
+    "name": "Plague",
+    "nameTW": "瘟疫",
+    "nameCN": "瘟疫",
+    "sockets": 3,
+    "itemTypes": [
+      "Swords"
+    ],
+    "runes": [
+      "Cham",
+      "Shael",
+      "Um"
+    ],
+    "level": 67,
+    "ladderOnly": false,
+    "d2rOnly": true,
+    "tier": 2
+  },
+  {
+    "name": "Pattern",
+    "nameTW": "紋樣",
+    "nameCN": "纹样",
+    "sockets": 3,
+    "itemTypes": [
+      "Claws"
+    ],
+    "runes": [
+      "Tal",
+      "Ort",
+      "Thul"
+    ],
+    "level": 23,
+    "ladderOnly": false,
+    "d2rOnly": true,
+    "tier": 2
+  },
+  {
+    "name": "Unbending Will",
+    "nameTW": "不屈意志",
+    "nameCN": "不屈意志",
+    "sockets": 6,
+    "itemTypes": [
+      "Swords"
+    ],
+    "runes": [
+      "Fal",
+      "Io",
+      "Ith",
+      "Eld",
+      "El",
+      "Hel"
+    ],
+    "level": 41,
+    "ladderOnly": false,
+    "d2rOnly": true,
+    "tier": 2
+  },
+  {
+    "name": "Wisdom",
+    "nameTW": "Wisdom",
+    "nameCN": "Wisdom",
+    "sockets": 3,
+    "itemTypes": [
+      "Helms"
+    ],
+    "runes": [
+      "Pul",
+      "Ith",
+      "Eld"
+    ],
+    "level": 45,
+    "ladderOnly": false,
+    "d2rOnly": true,
+    "tier": 3
+  },
+  {
+    "name": "Obsession",
+    "nameTW": "執念",
+    "nameCN": "执念",
+    "sockets": 6,
+    "itemTypes": [
+      "Staves (Not Orbs)"
+    ],
+    "runes": [
+      "Zod",
+      "Ist",
+      "Lem",
+      "Lum",
+      "Io",
+      "Nef"
+    ],
+    "level": 69,
+    "ladderOnly": false,
+    "d2rOnly": true,
+    "tier": 2
+  },
+  {
+    "name": "Flickering Flame",
+    "nameTW": "閃爍火焰",
+    "nameCN": "闪烁火焰",
+    "sockets": 3,
+    "itemTypes": [
+      "Helms"
+    ],
+    "runes": [
+      "Nef",
+      "Pul",
+      "Vex"
+    ],
+    "level": 55,
+    "ladderOnly": false,
+    "d2rOnly": true,
+    "tier": 2
+  },
+  {
+    "name": "Mist",
+    "nameTW": "Mist",
+    "nameCN": "Mist",
+    "sockets": 5,
+    "itemTypes": [
+      "Bows",
+      "Crossbows",
+      "Missile Weapons"
+    ],
+    "runes": [
+      "Cham",
+      "Shael",
+      "Gul",
+      "Thul",
+      "Ith"
+    ],
+    "level": 67,
+    "ladderOnly": false,
+    "d2rOnly": true,
+    "tier": 3
+  },
+  {
+    "name": "Bulwark",
+    "nameTW": "壁壘",
+    "nameCN": "壁垒",
+    "sockets": 3,
+    "itemTypes": [
+      "Helms"
+    ],
+    "runes": [
+      "Shael",
+      "Io",
+      "Sol"
+    ],
+    "level": 35,
+    "ladderOnly": false,
+    "d2rOnly": true,
+    "tier": 3
+  },
+  {
+    "name": "Cure",
+    "nameTW": "治癒",
+    "nameCN": "治愈",
+    "sockets": 3,
+    "itemTypes": [
+      "Helms"
+    ],
+    "runes": [
+      "Shael",
+      "Io",
+      "Tal"
+    ],
+    "level": 35,
+    "ladderOnly": false,
+    "d2rOnly": true,
+    "tier": 3
+  },
+  {
+    "name": "Ground",
+    "nameTW": "大地",
+    "nameCN": "大地",
+    "sockets": 3,
+    "itemTypes": [
+      "Helms"
+    ],
+    "runes": [
+      "Shael",
+      "Io",
+      "Ort"
+    ],
+    "level": 35,
+    "ladderOnly": false,
+    "d2rOnly": true,
+    "tier": 3
+  },
+  {
+    "name": "Hearth",
+    "nameTW": "爐灶",
+    "nameCN": "炉灶",
+    "sockets": 3,
+    "itemTypes": [
+      "Helms"
+    ],
+    "runes": [
+      "Shael",
+      "Io",
+      "Thul"
+    ],
+    "level": 35,
+    "ladderOnly": false,
+    "d2rOnly": true,
+    "tier": 3
+  },
+  {
+    "name": "Temper",
+    "nameTW": "火氣",
+    "nameCN": "火气",
+    "sockets": 3,
+    "itemTypes": [
+      "Helms"
+    ],
+    "runes": [
+      "Shael",
+      "Io",
+      "Ral"
+    ],
+    "level": 35,
+    "ladderOnly": false,
+    "d2rOnly": true,
+    "tier": 3
+  },
+  {
+    "name": "Hustle",
+    "nameTW": "活力",
+    "nameCN": "活力",
+    "sockets": 3,
+    "itemTypes": [
+      "Body Armor",
+      "Weapons"
+    ],
+    "runes": [
+      "Shael",
+      "Ko",
+      "Eld"
+    ],
+    "level": 39,
+    "ladderOnly": false,
+    "d2rOnly": true,
+    "tier": 2
+  },
+  {
+    "name": "Mosaic",
+    "nameTW": "馬賽克",
+    "nameCN": "马赛克",
+    "sockets": 3,
+    "itemTypes": [
+      "Claws"
+    ],
+    "runes": [
+      "Mal",
+      "Gul",
+      "Amn"
+    ],
+    "level": 53,
+    "ladderOnly": false,
+    "d2rOnly": true,
+    "tier": 1
+  },
+  {
+    "name": "Metamorphosis",
+    "nameTW": "蛻變",
+    "nameCN": "蜕变",
+    "sockets": 3,
+    "itemTypes": [
+      "Helms"
+    ],
+    "runes": [
+      "Io",
+      "Cham",
+      "Fal"
+    ],
+    "level": 67,
+    "ladderOnly": false,
+    "d2rOnly": true,
+    "tier": 1
+  }
+]
