@@ -75,20 +75,32 @@ The user should review these against official D2R Chinese localization (referenc
 
 ---
 
-## Upcoming: Grail Tracker (personal collection tracker)
+## Grail Tracker (personal collection tracker) ✅
 
 _Spec: [docs/superpowers/specs/2026-07-13-grail-tracker-design.md](../docs/superpowers/specs/2026-07-13-grail-tracker-design.md) · Plan: [plans/grail-tracker-implementation.md](./grail-tracker-implementation.md)_
 
-- [ ] Vendor `d2data` + generate `data/uniques.json`/`data/sets.json` (403 uniques, 135 sets)
-- [ ] Priority-ranked best-copy comparator (`src/lib/grail/bestCopy.ts`) + unit tests
-- [ ] External setup: Supabase project + Google OAuth provider + env vars (site owner, manual)
-- [ ] Supabase client, finds API, RLS schema migration
-- [ ] Google sign-in auth hook + gate
-- [ ] Static Act/Area zone list
-- [ ] Grail checklist page (category grouping, progress counts)
-- [ ] Item detail view (all copies, best-first)
-- [ ] Log-find form
-- [ ] i18n keys (en/zh-TW/zh-CN) + Footer nav link
+- [x] Vendor `d2data` + generate `data/uniques.json`/`data/sets.json` (403 uniques, 135 sets)
+- [x] Priority-ranked best-copy comparator (`src/lib/grail/bestCopy.ts`) + unit tests
+- [x] External setup: Supabase project (D2R Fun Team org) + Google OAuth + env vars
+- [x] Supabase client, finds API, RLS schema migration (+ authenticated-role grant)
+- [x] Google sign-in auth hook + gate (+ redirectTo fix)
+- [x] Static Act/Area zone list
+- [x] Grail checklist page (category grouping, progress counts)
+- [x] Item detail view (all copies, best-first)
+- [x] Log-find form
+- [x] i18n keys (en/zh-TW/zh-CN) + Footer nav link
+- [x] Critical review fix: finds keyed by unique catalog `id`, not shared base `code`
+- [ ] Add GitHub Actions secrets (NEXT_PUBLIC_SUPABASE_URL / ANON_KEY) + push to deploy
+
+## Upcoming: Grail Item Reference (d2r.world-style stat sheets)
+
+_Spec: [docs/superpowers/specs/2026-07-13-grail-item-reference-design.md](../docs/superpowers/specs/2026-07-13-grail-item-reference-design.md) · Plan: [plans/grail-item-reference-implementation.md](./grail-item-reference-implementation.md)_
+
+- [ ] Enrich catalog: baseName, grade, slotCategory, defense/str/durability, invFile
+- [ ] Stat-sheet detail view for every item (found or not), copies shown vs ranges
+- [ ] Slot-category grid + sticky jump bar + card restyle (gold/green names)
+- [ ] Item icons: pin source, fetch script, IP-note README (graceful fallback if none)
+- [ ] d2r.world spot-check of 10 items + full verification
 
 ## Backlog / Ideas
 
@@ -106,3 +118,4 @@ _Spec: [docs/superpowers/specs/2026-07-13-grail-tracker-design.md](../docs/super
 |---|---|
 | [strategy-research.md](./strategy-research.md) | Initial research: viability, competitors, monetization, i18n strategy |
 | [grail-tracker-implementation.md](./grail-tracker-implementation.md) | Personal unique/set item collection tracker (Supabase + Google auth) |
+| [grail-item-reference-implementation.md](./grail-item-reference-implementation.md) | d2r.world-style stat sheets, slot grid, icons for all 538 items |
