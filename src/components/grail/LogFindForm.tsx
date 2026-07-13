@@ -76,7 +76,7 @@ export default function LogFindForm({
         <h3 className="text-lg font-bold text-zinc-100">{t('logFind')}</h3>
 
         <div className="flex flex-col gap-1">
-          <label className="text-xs font-semibold uppercase tracking-wider text-zinc-400">Item</label>
+          <label className="text-xs font-semibold uppercase tracking-wider text-zinc-400">{t('itemLabel')}</label>
           <select
             required
             value={itemId}

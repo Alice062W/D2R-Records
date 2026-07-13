@@ -45,6 +45,7 @@
     "bestLabel": "best {stat}: {value}",
     "bestCopy": "Best copy",
     "copyNumber": "Copy #{number}",
+    "itemLabel": "Item",
     "rolledStats": "Rolled stats",
     "act": "Act",
     "area": "Area",
