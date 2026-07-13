@@ -15,6 +15,11 @@ create table if not exists public.finds (
   created_at timestamptz not null default now()
 );
 
+-- Table-level privileges: required because the project disables automatic
+-- Data API exposure of new tables ("Automatically expose new tables" off).
+-- Granted only to authenticated (not anon) — RLS below still restricts rows.
+grant select, insert, update, delete on table public.finds to authenticated;
+
 alter table public.finds enable row level security;
 
 create policy "select_own_finds" on public.finds
