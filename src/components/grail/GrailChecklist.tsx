@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { useTranslations } from 'next-intl';
 import { getAllGrailItems, type GrailItem } from '@/lib/grail/catalog';
 import { listFinds, type FindRecord } from '@/lib/grail/findsApi';
 import AuthGate from './AuthGate';
@@ -9,13 +10,14 @@ import GrailItemDetail from './GrailItemDetail';
 import LogFindForm from './LogFindForm';
 
 const CATEGORIES: GrailItem['category'][] = ['weapons', 'armor', 'other'];
-const CATEGORY_LABELS: Record<GrailItem['category'], string> = {
-  weapons: 'Weapons',
-  armor: 'Armor',
-  other: 'Other',
+const CATEGORY_LABEL_KEYS: Record<GrailItem['category'], 'categoryWeapons' | 'categoryArmor' | 'categoryOther'> = {
+  weapons: 'categoryWeapons',
+  armor: 'categoryArmor',
+  other: 'categoryOther',
 };
 
 function GrailChecklistInner() {
+  const t = useTranslations('Grail');
   const [finds, setFinds] = useState<FindRecord[] | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [selected, setSelected] = useState<GrailItem | null>(null);
@@ -33,7 +35,7 @@ function GrailChecklistInner() {
   }, []);
 
   if (error) return <p className="text-red-400 text-sm">{error}</p>;
-  if (!finds) return <p className="text-zinc-500 text-sm">Loading your collection…</p>;
+  if (!finds) return <p className="text-zinc-500 text-sm">{t('loadingCollection')}</p>;
 
   const findsByCode = new Map<string, FindRecord[]>();
   for (const f of finds) {
@@ -47,13 +49,13 @@ function GrailChecklistInner() {
   return (
     <div className="flex flex-col gap-8">
       <p className="text-sm text-zinc-400">
-        {foundCount} / {items.length} items found
+        {t('progressCount', { found: foundCount, total: items.length })}
       </p>
       <button
         onClick={() => setShowForm(true)}
         className="self-start px-4 py-2 rounded-lg bg-amber-500 text-zinc-950 font-semibold text-sm hover:bg-amber-400 transition-colors"
       >
-        Log a find
+        {t('logFind')}
       </button>
       {CATEGORIES.map(category => {
         const categoryItems = items.filter(i => i.category === category);
@@ -63,7 +65,7 @@ function GrailChecklistInner() {
         return (
           <section key={category}>
             <h2 className="text-sm font-semibold uppercase tracking-wider text-zinc-400 mb-3">
-              {CATEGORY_LABELS[category]} ({categoryFound}/{categoryItems.length})
+              {t(CATEGORY_LABEL_KEYS[category])} ({categoryFound}/{categoryItems.length})
             </h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
               {categoryItems.map(item => (

@@ -1,5 +1,6 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
 import type { GrailItem } from '@/lib/grail/catalog';
 import type { FindRecord } from '@/lib/grail/findsApi';
 import { sortFindsByRank } from '@/lib/grail/bestCopy';
@@ -13,6 +14,7 @@ export default function GrailItemDetail({
   finds: FindRecord[];
   onClose: () => void;
 }) {
+  const t = useTranslations('Grail');
   const sorted = sortFindsByRank(finds, item.statPriority);
 
   return (
@@ -41,8 +43,8 @@ export default function GrailItemDetail({
           {sorted.map((find, i) => (
             <div key={find.id} className="border border-zinc-700 rounded-lg p-3 bg-zinc-800/50">
               <div className="flex justify-between text-xs text-zinc-500 mb-2">
-                <span>{i === 0 ? 'Best copy' : `Copy #${i + 1}`}</span>
-                <span>{find.foundAt}{find.ethereal ? ' · Ethereal' : ''}</span>
+                <span>{i === 0 ? t('bestCopy') : t('copyNumber', { number: i + 1 })}</span>
+                <span>{find.foundAt}{find.ethereal ? ` · ${t('ethereal')}` : ''}</span>
               </div>
               <div className="grid grid-cols-2 gap-x-4 gap-y-1 text-sm">
                 {item.stats.map(stat => (

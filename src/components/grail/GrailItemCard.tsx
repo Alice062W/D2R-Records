@@ -1,5 +1,6 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
 import type { GrailItem } from '@/lib/grail/catalog';
 import type { FindRecord } from '@/lib/grail/findsApi';
 import { bestFind } from '@/lib/grail/bestCopy';
@@ -13,6 +14,7 @@ export default function GrailItemCard({
   finds: FindRecord[];
   onClick: () => void;
 }) {
+  const t = useTranslations('Grail');
   const found = finds.length > 0;
   const best = found ? bestFind(finds, item.statPriority) : null;
   const topStat = best && item.statPriority[0]
@@ -35,9 +37,9 @@ export default function GrailItemCard({
       </div>
       {found && (
         <div className="text-xs text-zinc-400 mt-1">
-          {finds.length} {finds.length === 1 ? 'copy' : 'copies'}
+          {finds.length === 1 ? t('copiesOne') : t('copiesMany', { count: finds.length })}
           {topStat && topValue !== undefined && (
-            <> · best {topStat.label}: {topValue}</>
+            <> · {t('bestLabel', { stat: topStat.label, value: topValue })}</>
           )}
         </div>
       )}

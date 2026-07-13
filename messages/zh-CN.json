@@ -23,6 +23,37 @@
   },
   "Footer": {
     "support": "支持这个工具",
-    "tagline": "永远免费。如果有帮助，请给予打赏。"
+    "tagline": "永远免费。如果有帮助，请给予打赏。",
+    "grailLink": "Grail Tracker"
+  },
+  "Grail": {
+    "navLink": "Grail Tracker",
+    "pageTitle": "Grail Tracker",
+    "pageSubtitle": "Track which unique and set items you've found, and your best roll of each.",
+    "loading": "Loading…",
+    "loadingCollection": "Loading your collection…",
+    "signInPrompt": "Sign in to view your grail tracker.",
+    "signInGoogle": "Sign in with Google",
+    "signOut": "Sign out",
+    "progressCount": "{found} / {total} items found",
+    "logFind": "Log a find",
+    "categoryWeapons": "Weapons",
+    "categoryArmor": "Armor",
+    "categoryOther": "Other",
+    "copiesOne": "1 copy",
+    "copiesMany": "{count} copies",
+    "bestLabel": "best {stat}: {value}",
+    "bestCopy": "Best copy",
+    "copyNumber": "Copy #{number}",
+    "rolledStats": "Rolled stats",
+    "act": "Act",
+    "area": "Area",
+    "foundDate": "Found date",
+    "ethereal": "Ethereal",
+    "notes": "Notes",
+    "selectItem": "— Select an item —",
+    "cancel": "Cancel",
+    "save": "Save find",
+    "saving": "Saving…"
   }
 }

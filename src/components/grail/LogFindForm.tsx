@@ -1,9 +1,16 @@
 'use client';
 
 import { useState } from 'react';
+import { useTranslations } from 'next-intl';
 import { getAllGrailItems, type GrailItem } from '@/lib/grail/catalog';
 import { insertFind } from '@/lib/grail/findsApi';
 import { ACTS, AREAS_BY_ACT, type Act } from '@/lib/grail/zones';
+
+const CATEGORY_LABEL_KEYS: Record<GrailItem['category'], 'categoryWeapons' | 'categoryArmor' | 'categoryOther'> = {
+  weapons: 'categoryWeapons',
+  armor: 'categoryArmor',
+  other: 'categoryOther',
+};
 
 export default function LogFindForm({
   onSaved,
@@ -12,6 +19,7 @@ export default function LogFindForm({
   onSaved: () => void;
   onCancel: () => void;
 }) {
+  const t = useTranslations('Grail');
   const items = getAllGrailItems();
   const [itemId, setItemId] = useState('');
   const [act, setAct] = useState<Act>('Act I');
@@ -65,7 +73,7 @@ export default function LogFindForm({
         onSubmit={handleSubmit}
         className="bg-zinc-900 border border-zinc-700 rounded-xl p-6 max-w-lg w-full max-h-[85vh] overflow-y-auto flex flex-col gap-4"
       >
-        <h3 className="text-lg font-bold text-zinc-100">Log a find</h3>
+        <h3 className="text-lg font-bold text-zinc-100">{t('logFind')}</h3>
 
         <div className="flex flex-col gap-1">
           <label className="text-xs font-semibold uppercase tracking-wider text-zinc-400">Item</label>
@@ -75,9 +83,9 @@ export default function LogFindForm({
             onChange={e => { setItemId(e.target.value); setStatValues({}); }}
             className="bg-zinc-800 border border-zinc-600 rounded-lg px-3 py-2 text-zinc-100"
           >
-            <option value="">— Select an item —</option>
+            <option value="">{t('selectItem')}</option>
             {(['weapons', 'armor', 'other'] as const).map(category => (
-              <optgroup key={category} label={category}>
+              <optgroup key={category} label={t(CATEGORY_LABEL_KEYS[category])}>
                 {items
                   .filter(i => i.category === category)
                   .sort((a, b) => a.name.localeCompare(b.name))
@@ -91,7 +99,7 @@ export default function LogFindForm({
 
         {selected && selected.stats.length > 0 && (
           <div className="flex flex-col gap-2">
-            <label className="text-xs font-semibold uppercase tracking-wider text-zinc-400">Rolled stats</label>
+            <label className="text-xs font-semibold uppercase tracking-wider text-zinc-400">{t('rolledStats')}</label>
             {selected.stats.map(stat => (
               <div key={stat.key} className="flex items-center gap-2">
                 <span className="text-sm text-zinc-300 flex-1">
@@ -110,7 +118,7 @@ export default function LogFindForm({
 
         <div className="flex gap-4">
           <div className="flex flex-col gap-1 flex-1">
-            <label className="text-xs font-semibold uppercase tracking-wider text-zinc-400">Act</label>
+            <label className="text-xs font-semibold uppercase tracking-wider text-zinc-400">{t('act')}</label>
             <select
               value={act}
               onChange={e => handleActChange(e.target.value as Act)}
@@ -120,7 +128,7 @@ export default function LogFindForm({
             </select>
           </div>
           <div className="flex flex-col gap-1 flex-1">
-            <label className="text-xs font-semibold uppercase tracking-wider text-zinc-400">Area</label>
+            <label className="text-xs font-semibold uppercase tracking-wider text-zinc-400">{t('area')}</label>
             <select
               value={area}
               onChange={e => setArea(e.target.value)}
@@ -133,7 +141,7 @@ export default function LogFindForm({
 
         <div className="flex gap-4 items-end">
           <div className="flex flex-col gap-1 flex-1">
-            <label className="text-xs font-semibold uppercase tracking-wider text-zinc-400">Found date</label>
+            <label className="text-xs font-semibold uppercase tracking-wider text-zinc-400">{t('foundDate')}</label>
             <input
               type="date"
               value={foundAt}
@@ -148,12 +156,12 @@ export default function LogFindForm({
               onChange={e => setEthereal(e.target.checked)}
               className="w-4 h-4 accent-amber-400"
             />
-            <span className="text-sm text-zinc-200">Ethereal</span>
+            <span className="text-sm text-zinc-200">{t('ethereal')}</span>
           </label>
         </div>
 
         <div className="flex flex-col gap-1">
-          <label className="text-xs font-semibold uppercase tracking-wider text-zinc-400">Notes</label>
+          <label className="text-xs font-semibold uppercase tracking-wider text-zinc-400">{t('notes')}</label>
           <textarea
             value={notes}
             onChange={e => setNotes(e.target.value)}
@@ -166,14 +174,14 @@ export default function LogFindForm({
 
         <div className="flex gap-2 justify-end">
           <button type="button" onClick={onCancel} className="px-4 py-2 text-sm text-zinc-400 hover:text-zinc-200">
-            Cancel
+            {t('cancel')}
           </button>
           <button
             type="submit"
             disabled={!selected || saving}
             className="px-4 py-2 rounded-lg bg-amber-500 text-zinc-950 font-semibold text-sm hover:bg-amber-400 disabled:opacity-30 transition-colors"
           >
-            {saving ? 'Saving…' : 'Save find'}
+            {saving ? t('saving') : t('save')}
           </button>
         </div>
       </form>
