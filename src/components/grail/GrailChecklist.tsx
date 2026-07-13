@@ -5,6 +5,7 @@ import { getAllGrailItems, type GrailItem } from '@/lib/grail/catalog';
 import { listFinds, type FindRecord } from '@/lib/grail/findsApi';
 import AuthGate from './AuthGate';
 import GrailItemCard from './GrailItemCard';
+import GrailItemDetail from './GrailItemDetail';
 
 const CATEGORIES: GrailItem['category'][] = ['weapons', 'armor', 'other'];
 const CATEGORY_LABELS: Record<GrailItem['category'], string> = {
@@ -66,21 +67,12 @@ function GrailChecklistInner() {
         );
       })}
       {selected && (
-        <ItemDetailPlaceholder item={selected} onClose={() => setSelected(null)} />
+        <GrailItemDetail
+          item={selected}
+          finds={findsByCode.get(selected.code) ?? []}
+          onClose={() => setSelected(null)}
+        />
       )}
-    </div>
-  );
-}
-
-// Replaced by the real component in Task 7; kept here so Task 6 is independently
-// testable/mountable before Task 7 lands.
-function ItemDetailPlaceholder({ item, onClose }: { item: GrailItem; onClose: () => void }) {
-  return (
-    <div className="fixed inset-0 bg-black/60 flex items-center justify-center p-4" onClick={onClose}>
-      <div className="bg-zinc-900 rounded-xl p-6 max-w-md w-full" onClick={e => e.stopPropagation()}>
-        <p className="text-zinc-100 font-semibold">{item.name}</p>
-        <p className="text-zinc-500 text-sm mt-2">Detail view coming in Task 7.</p>
-      </div>
     </div>
   );
 }
