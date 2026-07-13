@@ -3,6 +3,7 @@ import { supabase } from './supabaseClient';
 export interface FindRecord {
   id: string;
   itemCode: string;
+  itemId: string;
   itemKind: 'unique' | 'set';
   statValues: Record<string, number>;
   ethereal: boolean;
@@ -16,6 +17,7 @@ export interface FindRecord {
 interface FindRow {
   id: string;
   item_code: string;
+  item_id: string;
   item_kind: 'unique' | 'set';
   stat_values: Record<string, number>;
   ethereal: boolean;
@@ -30,6 +32,7 @@ function rowToRecord(row: FindRow): FindRecord {
   return {
     id: row.id,
     itemCode: row.item_code,
+    itemId: row.item_id,
     itemKind: row.item_kind,
     statValues: row.stat_values ?? {},
     ethereal: row.ethereal,
@@ -44,7 +47,7 @@ function rowToRecord(row: FindRow): FindRecord {
 export async function listFinds(): Promise<FindRecord[]> {
   const { data, error } = await supabase
     .from('finds')
-    .select('id, item_code, item_kind, stat_values, ethereal, found_act, found_area, found_at, notes, created_at')
+    .select('id, item_code, item_id, item_kind, stat_values, ethereal, found_act, found_area, found_at, notes, created_at')
     .order('created_at', { ascending: false });
   if (error) throw error;
   return (data as FindRow[]).map(rowToRecord);
@@ -52,6 +55,7 @@ export async function listFinds(): Promise<FindRecord[]> {
 
 export async function insertFind(input: {
   itemCode: string;
+  itemId: string;
   itemKind: 'unique' | 'set';
   statValues: Record<string, number>;
   ethereal: boolean;
@@ -66,6 +70,7 @@ export async function insertFind(input: {
   const { error } = await supabase.from('finds').insert({
     user_id: userId,
     item_code: input.itemCode,
+    item_id: input.itemId,
     item_kind: input.itemKind,
     stat_values: input.statValues,
     ethereal: input.ethereal,

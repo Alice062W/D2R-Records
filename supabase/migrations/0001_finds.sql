@@ -4,6 +4,7 @@ create table if not exists public.finds (
   id uuid primary key default gen_random_uuid(),
   user_id uuid not null default auth.uid(),
   item_code text not null,
+  item_id text not null,
   item_kind text not null check (item_kind in ('unique', 'set')),
   stat_values jsonb not null default '{}'::jsonb,
   ethereal boolean not null default false,

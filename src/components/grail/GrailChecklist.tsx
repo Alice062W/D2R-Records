@@ -37,14 +37,14 @@ function GrailChecklistInner() {
   if (error) return <p className="text-red-400 text-sm">{error}</p>;
   if (!finds) return <p className="text-zinc-500 text-sm">{t('loadingCollection')}</p>;
 
-  const findsByCode = new Map<string, FindRecord[]>();
+  const findsById = new Map<string, FindRecord[]>();
   for (const f of finds) {
-    const list = findsByCode.get(f.itemCode) ?? [];
+    const list = findsById.get(f.itemId) ?? [];
     list.push(f);
-    findsByCode.set(f.itemCode, list);
+    findsById.set(f.itemId, list);
   }
 
-  const foundCount = items.filter(i => (findsByCode.get(i.code)?.length ?? 0) > 0).length;
+  const foundCount = items.filter(i => (findsById.get(i.id)?.length ?? 0) > 0).length;
 
   return (
     <div className="flex flex-col gap-8">
@@ -60,7 +60,7 @@ function GrailChecklistInner() {
       {CATEGORIES.map(category => {
         const categoryItems = items.filter(i => i.category === category);
         const categoryFound = categoryItems.filter(
-          i => (findsByCode.get(i.code)?.length ?? 0) > 0
+          i => (findsById.get(i.id)?.length ?? 0) > 0
         ).length;
         return (
           <section key={category}>
@@ -72,7 +72,7 @@ function GrailChecklistInner() {
                 <GrailItemCard
                   key={item.id}
                   item={item}
-                  finds={findsByCode.get(item.code) ?? []}
+                  finds={findsById.get(item.id) ?? []}
                   onClick={() => setSelected(item)}
                 />
               ))}
@@ -83,7 +83,7 @@ function GrailChecklistInner() {
       {selected && (
         <GrailItemDetail
           item={selected}
-          finds={findsByCode.get(selected.code) ?? []}
+          finds={findsById.get(selected.id) ?? []}
           onClose={() => setSelected(null)}
         />
       )}

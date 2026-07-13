@@ -51,6 +51,7 @@ export default function LogFindForm({
       }
       await insertFind({
         itemCode: selected.code,
+        itemId: selected.id,
         itemKind: selected.kind,
         statValues: values,
         ethereal,
