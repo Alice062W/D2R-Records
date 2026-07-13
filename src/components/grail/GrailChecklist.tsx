@@ -6,6 +6,7 @@ import { listFinds, type FindRecord } from '@/lib/grail/findsApi';
 import AuthGate from './AuthGate';
 import GrailItemCard from './GrailItemCard';
 import GrailItemDetail from './GrailItemDetail';
+import LogFindForm from './LogFindForm';
 
 const CATEGORIES: GrailItem['category'][] = ['weapons', 'armor', 'other'];
 const CATEGORY_LABELS: Record<GrailItem['category'], string> = {
@@ -18,12 +19,17 @@ function GrailChecklistInner() {
   const [finds, setFinds] = useState<FindRecord[] | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [selected, setSelected] = useState<GrailItem | null>(null);
+  const [showForm, setShowForm] = useState(false);
   const items = getAllGrailItems();
 
-  useEffect(() => {
+  function refresh() {
     listFinds()
       .then(setFinds)
       .catch(e => setError(e instanceof Error ? e.message : String(e)));
+  }
+
+  useEffect(() => {
+    refresh();
   }, []);
 
   if (error) return <p className="text-red-400 text-sm">{error}</p>;
@@ -43,6 +49,12 @@ function GrailChecklistInner() {
       <p className="text-sm text-zinc-400">
         {foundCount} / {items.length} items found
       </p>
+      <button
+        onClick={() => setShowForm(true)}
+        className="self-start px-4 py-2 rounded-lg bg-amber-500 text-zinc-950 font-semibold text-sm hover:bg-amber-400 transition-colors"
+      >
+        Log a find
+      </button>
       {CATEGORIES.map(category => {
         const categoryItems = items.filter(i => i.category === category);
         const categoryFound = categoryItems.filter(
@@ -71,6 +83,12 @@ function GrailChecklistInner() {
           item={selected}
           finds={findsByCode.get(selected.code) ?? []}
           onClose={() => setSelected(null)}
+        />
+      )}
+      {showForm && (
+        <LogFindForm
+          onSaved={() => { setShowForm(false); refresh(); }}
+          onCancel={() => setShowForm(false)}
         />
       )}
     </div>
