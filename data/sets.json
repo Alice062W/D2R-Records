@@ -1,0 +1,5488 @@
+[
+  {
+    "id": "set-Aldur's Advance",
+    "code": "xtb",
+    "name": "Aldur's Advance",
+    "kind": "set",
+    "setName": "Aldur's Watchtower",
+    "levelReq": 45,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "res-fire",
+        "label": "Fire Resist %",
+        "min": 40,
+        "max": 50
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "indestruct",
+        "label": "Indestructible",
+        "value": 1
+      },
+      {
+        "key": "regen-stam",
+        "label": "Stamina Regenerated %",
+        "value": 32
+      },
+      {
+        "key": "hp",
+        "label": "Life",
+        "value": 50
+      },
+      {
+        "key": "dmg-to-mana",
+        "label": "Damage Taken Goes to Mana",
+        "value": 10
+      },
+      {
+        "key": "move3",
+        "label": "Faster Run/Walk %",
+        "value": 40
+      },
+      {
+        "key": "stam",
+        "label": "Stamina",
+        "value": 180
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "dex",
+        "label": "Dexterity",
+        "min": 15,
+        "max": 15
+      },
+      {
+        "key": "dex",
+        "label": "Dexterity",
+        "min": 15,
+        "max": 15
+      },
+      {
+        "key": "dex",
+        "label": "Dexterity",
+        "min": 15,
+        "max": 15
+      }
+    ],
+    "statPriority": [
+      "res-fire"
+    ]
+  },
+  {
+    "id": "set-Aldur's Deception",
+    "code": "uul",
+    "name": "Aldur's Deception",
+    "kind": "set",
+    "setName": "Aldur's Watchtower",
+    "levelReq": 76,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "res-ltng",
+        "label": "Lightning Resist %",
+        "min": 40,
+        "max": 50
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 300
+      },
+      {
+        "key": "skilltab",
+        "label": "Skill Tab Bonus",
+        "value": 1
+      },
+      {
+        "key": "str",
+        "label": "Strength",
+        "value": 20
+      },
+      {
+        "key": "dex",
+        "label": "Dexterity",
+        "value": 15
+      },
+      {
+        "key": "ease",
+        "label": "Repair Durability %",
+        "value": -50
+      },
+      {
+        "key": "skilltab",
+        "label": "Skill Tab Bonus",
+        "value": 1
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "vit",
+        "label": "Vitality",
+        "min": 15,
+        "max": 15
+      },
+      {
+        "key": "vit",
+        "label": "Vitality",
+        "min": 15,
+        "max": 15
+      },
+      {
+        "key": "vit",
+        "label": "Vitality",
+        "min": 15,
+        "max": 15
+      }
+    ],
+    "statPriority": [
+      "res-ltng"
+    ]
+  },
+  {
+    "id": "set-Aldur's Gauntlet",
+    "code": "9mt",
+    "name": "Aldur's Gauntlet",
+    "kind": "set",
+    "setName": "Aldur's Watchtower",
+    "levelReq": 42,
+    "category": "weapons",
+    "stats": [
+      {
+        "key": "dmg-norm",
+        "label": "Damage",
+        "min": 40,
+        "max": 62
+      },
+      {
+        "key": "dmg-ltng",
+        "label": "Lightning Damage",
+        "min": 50,
+        "max": 75
+      },
+      {
+        "key": "sock",
+        "label": "Sockets",
+        "min": 2,
+        "max": 5
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "lifesteal",
+        "label": "Life Steal %",
+        "value": 10
+      },
+      {
+        "key": "swing3",
+        "label": "Faster Attack Rate",
+        "value": 30
+      },
+      {
+        "key": "dmg-demon",
+        "label": "dmg-demon",
+        "value": 200
+      },
+      {
+        "key": "manasteal",
+        "label": "Mana Steal %",
+        "value": 5
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "str",
+        "label": "Strength",
+        "min": 15,
+        "max": 15
+      },
+      {
+        "key": "str",
+        "label": "Strength",
+        "min": 15,
+        "max": 15
+      },
+      {
+        "key": "str",
+        "label": "Strength",
+        "min": 15,
+        "max": 15
+      }
+    ],
+    "statPriority": [
+      "dmg-norm",
+      "dmg-ltng",
+      "sock"
+    ]
+  },
+  {
+    "id": "set-Aldur's Stony Gaze",
+    "code": "dr8",
+    "name": "Aldur's Stony Gaze",
+    "kind": "set",
+    "setName": "Aldur's Watchtower",
+    "levelReq": 36,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "res-cold",
+        "label": "Cold Resist %",
+        "min": 40,
+        "max": 50
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 90
+      },
+      {
+        "key": "regen-mana",
+        "label": "Mana Regenerated %",
+        "value": 17
+      },
+      {
+        "key": "light",
+        "label": "Light Radius",
+        "value": 5
+      },
+      {
+        "key": "balance3",
+        "label": "balance3",
+        "value": 25
+      },
+      {
+        "key": "sock",
+        "label": "Sockets",
+        "value": 2
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "enr",
+        "label": "Energy",
+        "min": 15,
+        "max": 15
+      },
+      {
+        "key": "enr",
+        "label": "Energy",
+        "min": 15,
+        "max": 15
+      },
+      {
+        "key": "enr",
+        "label": "Energy",
+        "min": 15,
+        "max": 15
+      }
+    ],
+    "statPriority": [
+      "res-cold"
+    ]
+  },
+  {
+    "id": "set-Angelic Halo",
+    "code": "rin",
+    "name": "Angelic Halo",
+    "kind": "set",
+    "setName": "Angelical Raiment",
+    "levelReq": 12,
+    "category": "other",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "regen",
+        "label": "Life Regenerated %",
+        "value": 6
+      },
+      {
+        "key": "hp",
+        "label": "Life",
+        "value": 20
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "mag%",
+        "label": "Magic Find %",
+        "min": 50,
+        "max": 50
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Angelic Mantle",
+    "code": "rng",
+    "name": "Angelic Mantle",
+    "kind": "set",
+    "setName": "Angelical Raiment",
+    "levelReq": 12,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "red-dmg",
+        "label": "Damage Reduced",
+        "value": 3
+      },
+      {
+        "key": "ac%",
+        "label": "Enhanced Defense %",
+        "value": 40
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "min": 150,
+        "max": 150
+      },
+      {
+        "key": "res-fire",
+        "label": "Fire Resist %",
+        "min": 50,
+        "max": 50
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Angelic Sickle",
+    "code": "sbr",
+    "name": "Angelic Sickle",
+    "kind": "set",
+    "setName": "Angelical Raiment",
+    "levelReq": 12,
+    "category": "weapons",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "att",
+        "label": "Attack Rating",
+        "value": 75
+      },
+      {
+        "key": "dmg-undead",
+        "label": "Damage to Undead",
+        "value": 250
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "dmg%",
+        "label": "Enhanced Damage %",
+        "min": 75,
+        "max": 75
+      },
+      {
+        "key": "swing3",
+        "label": "Faster Attack Rate",
+        "min": 30,
+        "max": 30
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Angelic Wings",
+    "code": "amu",
+    "name": "Angelic Wings",
+    "kind": "set",
+    "setName": "Angelical Raiment",
+    "levelReq": 12,
+    "category": "other",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "light",
+        "label": "Light Radius",
+        "value": 3
+      },
+      {
+        "key": "dmg-to-mana",
+        "label": "Damage Taken Goes to Mana",
+        "value": 20
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "hp",
+        "label": "Life",
+        "min": 75,
+        "max": 75
+      },
+      {
+        "key": "allskills",
+        "label": "All Skills",
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Arcanna's Deathwand",
+    "code": "wst",
+    "name": "Arcanna's Deathwand",
+    "kind": "set",
+    "setName": "Arcanna's Tricks",
+    "levelReq": 15,
+    "category": "weapons",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "sor",
+        "label": "sor",
+        "value": 1
+      },
+      {
+        "key": "deadly",
+        "label": "Deadly Strike %",
+        "value": 25
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "mana",
+        "label": "Mana",
+        "min": 50,
+        "max": 50
+      },
+      {
+        "key": "regen-mana",
+        "label": "Mana Regenerated %",
+        "min": 5,
+        "max": 5
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Arcanna's Flesh",
+    "code": "ltp",
+    "name": "Arcanna's Flesh",
+    "kind": "set",
+    "setName": "Arcanna's Tricks",
+    "levelReq": 15,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "light",
+        "label": "Light Radius",
+        "value": 2
+      },
+      {
+        "key": "red-dmg",
+        "label": "Damage Reduced",
+        "value": 3
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "min": 100,
+        "max": 100
+      },
+      {
+        "key": "enr",
+        "label": "Energy",
+        "min": 10,
+        "max": 10
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Arcanna's Head",
+    "code": "skp",
+    "name": "Arcanna's Head",
+    "kind": "set",
+    "setName": "Arcanna's Tricks",
+    "levelReq": 15,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "regen",
+        "label": "Life Regenerated %",
+        "value": 4
+      },
+      {
+        "key": "thorns",
+        "label": "Attacker Takes Damage",
+        "value": 2
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "res-ltng",
+        "label": "Lightning Resist %",
+        "min": 15,
+        "max": 15
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Arcanna's Sign",
+    "code": "amu",
+    "name": "Arcanna's Sign",
+    "kind": "set",
+    "setName": "Arcanna's Tricks",
+    "levelReq": 15,
+    "category": "other",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "mana",
+        "label": "Mana",
+        "value": 15
+      },
+      {
+        "key": "regen-mana",
+        "label": "Mana Regenerated %",
+        "value": 20
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "mag%",
+        "label": "Magic Find %",
+        "min": 50,
+        "max": 50
+      },
+      {
+        "key": "res-fire",
+        "label": "Fire Resist %",
+        "min": 20,
+        "max": 20
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Arctic Binding",
+    "code": "vbl",
+    "name": "Arctic Binding",
+    "kind": "set",
+    "setName": "Arctic Gear",
+    "levelReq": 2,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "res-cold",
+        "label": "Cold Resist %",
+        "value": 40
+      },
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 30
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "mag%",
+        "label": "Magic Find %",
+        "min": 40,
+        "max": 40
+      },
+      {
+        "key": "res-cold",
+        "label": "Cold Resist %",
+        "min": 10,
+        "max": 10
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Arctic Furs",
+    "code": "qui",
+    "name": "Arctic Furs",
+    "kind": "set",
+    "setName": "Arctic Gear",
+    "levelReq": 2,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "ac%",
+        "label": "Enhanced Defense %",
+        "min": 275,
+        "max": 325
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "res-all",
+        "label": "All Resistances",
+        "value": 10
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "res-cold",
+        "label": "Cold Resist %",
+        "min": 15,
+        "max": 15
+      }
+    ],
+    "statPriority": [
+      "ac%"
+    ]
+  },
+  {
+    "id": "set-Arctic Horn",
+    "code": "swb",
+    "name": "Arctic Horn",
+    "kind": "set",
+    "setName": "Arctic Gear",
+    "levelReq": 2,
+    "category": "weapons",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "att%",
+        "label": "Attack Rating %",
+        "value": 20
+      },
+      {
+        "key": "dmg%",
+        "label": "Enhanced Damage %",
+        "value": 50
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "dmg-cold",
+        "label": "Cold Damage",
+        "min": 20,
+        "max": 30
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Arctic Mitts",
+    "code": "tgl",
+    "name": "Arctic Mitts",
+    "kind": "set",
+    "setName": "Arctic Gear",
+    "levelReq": 2,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "hp",
+        "label": "Life",
+        "value": 20
+      },
+      {
+        "key": "swing1",
+        "label": "swing1",
+        "value": 10
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "att",
+        "label": "Attack Rating",
+        "min": 50,
+        "max": 50
+      },
+      {
+        "key": "dex",
+        "label": "Dexterity",
+        "min": 10,
+        "max": 10
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Bane's Authority",
+    "code": "vbl",
+    "name": "Bane's Authority",
+    "kind": "set",
+    "setName": "Bane's Garments",
+    "levelReq": 8,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "cast1",
+        "label": "cast1",
+        "value": 10
+      },
+      {
+        "key": "hp",
+        "label": "Life",
+        "value": 20
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "enr",
+        "label": "Energy",
+        "min": 15,
+        "max": 15
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Bane's Oathmaker",
+    "code": "kri",
+    "name": "Bane's Oathmaker",
+    "kind": "set",
+    "setName": "Bane's Garments",
+    "levelReq": 8,
+    "category": "weapons",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "move1",
+        "label": "move1",
+        "value": 20
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "mana-kill",
+        "label": "mana-kill",
+        "min": 3,
+        "max": 3
+      },
+      {
+        "key": "deadly",
+        "label": "Deadly Strike %",
+        "min": 30,
+        "max": 30
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Bane's Wraithskin",
+    "code": "hla",
+    "name": "Bane's Wraithskin",
+    "kind": "set",
+    "setName": "Bane's Garments",
+    "levelReq": 8,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 50
+      },
+      {
+        "key": "res-mag",
+        "label": "res-mag",
+        "value": 30
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "balance1",
+        "label": "balance1",
+        "min": 25,
+        "max": 25
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Berserker's Hatchet",
+    "code": "2ax",
+    "name": "Berserker's Hatchet",
+    "kind": "set",
+    "setName": "Berserker's Garb",
+    "levelReq": 3,
+    "category": "weapons",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "att%",
+        "label": "Attack Rating %",
+        "value": 30
+      },
+      {
+        "key": "manasteal",
+        "label": "Mana Steal %",
+        "value": 5
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "dmg%",
+        "label": "Enhanced Damage %",
+        "min": 50,
+        "max": 50
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Berserker's Hauberk",
+    "code": "spl",
+    "name": "Berserker's Hauberk",
+    "kind": "set",
+    "setName": "Berserker's Garb",
+    "levelReq": 3,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "red-mag",
+        "label": "Magic Damage Reduced",
+        "value": 2
+      },
+      {
+        "key": "bar",
+        "label": "bar",
+        "value": 1
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Berserker's Headgear",
+    "code": "hlm",
+    "name": "Berserker's Headgear",
+    "kind": "set",
+    "setName": "Berserker's Garb",
+    "levelReq": 3,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 15
+      },
+      {
+        "key": "res-fire",
+        "label": "Fire Resist %",
+        "value": 25
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Bul-Kathos' Sacred Charge",
+    "code": "7gd",
+    "name": "Bul-Kathos' Sacred Charge",
+    "kind": "set",
+    "setName": "Bul-Kathos' Children",
+    "levelReq": 61,
+    "category": "weapons",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "crush",
+        "label": "Crushing Blow %",
+        "value": 35
+      },
+      {
+        "key": "res-all",
+        "label": "All Resistances",
+        "value": 20
+      },
+      {
+        "key": "swing2",
+        "label": "Faster Attack Rate",
+        "value": 20
+      },
+      {
+        "key": "dmg%",
+        "label": "Enhanced Damage %",
+        "value": 200
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Bul-Kathos' Tribal Guardian",
+    "code": "7wd",
+    "name": "Bul-Kathos' Tribal Guardian",
+    "kind": "set",
+    "setName": "Bul-Kathos' Children",
+    "levelReq": 54,
+    "category": "weapons",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "res-fire",
+        "label": "Fire Resist %",
+        "value": 50
+      },
+      {
+        "key": "dmg-pois",
+        "label": "Poison Damage",
+        "value": 255
+      },
+      {
+        "key": "swing2",
+        "label": "Faster Attack Rate",
+        "value": 20
+      },
+      {
+        "key": "str",
+        "label": "Strength",
+        "value": 20
+      },
+      {
+        "key": "dmg%",
+        "label": "Enhanced Damage %",
+        "value": 200
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Cathan's Mesh",
+    "code": "chn",
+    "name": "Cathan's Mesh",
+    "kind": "set",
+    "setName": "Cathan's Traps",
+    "levelReq": 11,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 15
+      },
+      {
+        "key": "ease",
+        "label": "Repair Durability %",
+        "value": -50
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "thorns",
+        "label": "Attacker Takes Damage",
+        "min": 5,
+        "max": 5
+      },
+      {
+        "key": "res-fire",
+        "label": "Fire Resist %",
+        "min": 30,
+        "max": 30
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Cathan's Rule",
+    "code": "bst",
+    "name": "Cathan's Rule",
+    "kind": "set",
+    "setName": "Cathan's Traps",
+    "levelReq": 11,
+    "category": "weapons",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "fireskill",
+        "label": "fireskill",
+        "value": 1
+      },
+      {
+        "key": "fire-max",
+        "label": "fire-max",
+        "value": 10
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "mana",
+        "label": "Mana",
+        "min": 50,
+        "max": 50
+      },
+      {
+        "key": "res-all",
+        "label": "All Resistances",
+        "min": 10,
+        "max": 10
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Cathan's Seal",
+    "code": "rin",
+    "name": "Cathan's Seal",
+    "kind": "set",
+    "setName": "Cathan's Traps",
+    "levelReq": 11,
+    "category": "other",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "lifesteal",
+        "label": "Life Steal %",
+        "value": 6
+      },
+      {
+        "key": "red-dmg",
+        "label": "Damage Reduced",
+        "value": 2
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "str",
+        "label": "Strength",
+        "min": 10,
+        "max": 10
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Cathan's Sigil",
+    "code": "amu",
+    "name": "Cathan's Sigil",
+    "kind": "set",
+    "setName": "Cathan's Traps",
+    "levelReq": 11,
+    "category": "other",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "balance1",
+        "label": "balance1",
+        "value": 10
+      },
+      {
+        "key": "light-thorns",
+        "label": "light-thorns",
+        "value": 5
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "att",
+        "label": "Attack Rating",
+        "min": 50,
+        "max": 50
+      },
+      {
+        "key": "mag%",
+        "label": "Magic Find %",
+        "min": 25,
+        "max": 25
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Cathan's Visage",
+    "code": "msk",
+    "name": "Cathan's Visage",
+    "kind": "set",
+    "setName": "Cathan's Traps",
+    "levelReq": 11,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "mana",
+        "label": "Mana",
+        "value": 20
+      },
+      {
+        "key": "res-cold",
+        "label": "Cold Resist %",
+        "value": 25
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Civerb's Cudgel",
+    "code": "gsc",
+    "name": "Civerb's Cudgel",
+    "kind": "set",
+    "setName": "Civerb's Vestments",
+    "levelReq": 9,
+    "category": "weapons",
+    "stats": [
+      {
+        "key": "dmg-max",
+        "label": "Maximum Damage",
+        "min": 17,
+        "max": 23
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "att",
+        "label": "Attack Rating",
+        "value": 75
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": [
+      "dmg-max"
+    ]
+  },
+  {
+    "id": "set-Civerb's Icon",
+    "code": "amu",
+    "name": "Civerb's Icon",
+    "kind": "set",
+    "setName": "Civerb's Vestments",
+    "levelReq": 9,
+    "category": "other",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "regen-mana",
+        "label": "Mana Regenerated %",
+        "value": 40
+      },
+      {
+        "key": "regen",
+        "label": "Life Regenerated %",
+        "value": 4
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "res-cold",
+        "label": "Cold Resist %",
+        "min": 25,
+        "max": 25
+      },
+      {
+        "key": "ac",
+        "label": "Defense",
+        "min": 25,
+        "max": 25
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Civerb's Ward",
+    "code": "lrg",
+    "name": "Civerb's Ward",
+    "kind": "set",
+    "setName": "Civerb's Vestments",
+    "levelReq": 9,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 15
+      },
+      {
+        "key": "block",
+        "label": "Increased Chance of Blocking %",
+        "value": 15
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "mana",
+        "label": "Mana",
+        "min": 21,
+        "max": 22
+      },
+      {
+        "key": "res-pois",
+        "label": "Poison Resist %",
+        "min": 25,
+        "max": 26
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Cleglaw's Claw",
+    "code": "sml",
+    "name": "Cleglaw's Claw",
+    "kind": "set",
+    "setName": "Cleglaw's Brace",
+    "levelReq": 4,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 17
+      },
+      {
+        "key": "res-pois-len",
+        "label": "res-pois-len",
+        "value": 75
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "res-all",
+        "label": "All Resistances",
+        "min": 15,
+        "max": 15
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Cleglaw's Pincers",
+    "code": "mgl",
+    "name": "Cleglaw's Pincers",
+    "kind": "set",
+    "setName": "Cleglaw's Brace",
+    "levelReq": 4,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "knock",
+        "label": "knock",
+        "value": 1
+      },
+      {
+        "key": "slow",
+        "label": "Slower Target %",
+        "value": 25
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Cleglaw's Tooth",
+    "code": "lsd",
+    "name": "Cleglaw's Tooth",
+    "kind": "set",
+    "setName": "Cleglaw's Brace",
+    "levelReq": 4,
+    "category": "weapons",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "att%",
+        "label": "Attack Rating %",
+        "value": 30
+      },
+      {
+        "key": "deadly",
+        "label": "Deadly Strike %",
+        "value": 50
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Cow King's Hide",
+    "code": "stu",
+    "name": "Cow King's Hide",
+    "kind": "set",
+    "setName": "Cow King's Leathers",
+    "levelReq": 18,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "gethit-skill",
+        "label": "Chance to Cast When Struck",
+        "min": 18,
+        "max": 5
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "res-all",
+        "label": "All Resistances",
+        "value": 18
+      },
+      {
+        "key": "ac%",
+        "label": "Enhanced Defense %",
+        "value": 60
+      },
+      {
+        "key": "hp",
+        "label": "Life",
+        "value": 30
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": [
+      "gethit-skill"
+    ]
+  },
+  {
+    "id": "set-Cow King's Hoofs",
+    "code": "vbt",
+    "name": "Cow King's Hoofs",
+    "kind": "set",
+    "setName": "Cow King's Leathers",
+    "levelReq": 13,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "min": 25,
+        "max": 35
+      },
+      {
+        "key": "dmg-fire",
+        "label": "Fire Damage",
+        "min": 25,
+        "max": 35
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "move3",
+        "label": "Faster Run/Walk %",
+        "value": 30
+      },
+      {
+        "key": "mag%",
+        "label": "Magic Find %",
+        "value": 25
+      },
+      {
+        "key": "dex",
+        "label": "Dexterity",
+        "value": 20
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": [
+      "ac",
+      "dmg-fire"
+    ]
+  },
+  {
+    "id": "set-Cow King's Horns",
+    "code": "xap",
+    "name": "Cow King's Horns",
+    "kind": "set",
+    "setName": "Cow King's Leathers",
+    "levelReq": 25,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 75
+      },
+      {
+        "key": "half-freeze",
+        "label": "Half Freeze Duration",
+        "value": 1
+      },
+      {
+        "key": "dmg-to-mana",
+        "label": "Damage Taken Goes to Mana",
+        "value": 35
+      },
+      {
+        "key": "thorns",
+        "label": "Attacker Takes Damage",
+        "value": 10
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Credendum",
+    "code": "umc",
+    "name": "Credendum",
+    "kind": "set",
+    "setName": "The Disciple",
+    "levelReq": 65,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 50
+      },
+      {
+        "key": "str",
+        "label": "Strength",
+        "value": 10
+      },
+      {
+        "key": "dex",
+        "label": "Dexterity",
+        "value": 10
+      },
+      {
+        "key": "res-all",
+        "label": "All Resistances",
+        "value": 15
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Dangoon's Teaching",
+    "code": "7ma",
+    "name": "Dangoon's Teaching",
+    "kind": "set",
+    "setName": "Heaven's Brethren",
+    "levelReq": 68,
+    "category": "weapons",
+    "stats": [
+      {
+        "key": "hit-skill",
+        "label": "Chance to Cast on Striking",
+        "min": 10,
+        "max": 3
+      },
+      {
+        "key": "dmg-fire",
+        "label": "Fire Damage",
+        "min": 20,
+        "max": 30
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "swing3",
+        "label": "Faster Attack Rate",
+        "value": 40
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": [
+      "hit-skill",
+      "dmg-fire"
+    ]
+  },
+  {
+    "id": "set-Death's Guard",
+    "code": "lbl",
+    "name": "Death's Guard",
+    "kind": "set",
+    "setName": "Death's Disguise",
+    "levelReq": 6,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 20
+      },
+      {
+        "key": "nofreeze",
+        "label": "nofreeze",
+        "value": 1
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "res-all",
+        "label": "All Resistances",
+        "min": 15,
+        "max": 15
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Death's Hand",
+    "code": "lgl",
+    "name": "Death's Hand",
+    "kind": "set",
+    "setName": "Death's Disguise",
+    "levelReq": 6,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "res-pois",
+        "label": "Poison Resist %",
+        "value": 50
+      },
+      {
+        "key": "res-pois-len",
+        "label": "res-pois-len",
+        "value": 75
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "swing3",
+        "label": "Faster Attack Rate",
+        "min": 30,
+        "max": 30
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Death's Touch",
+    "code": "wsd",
+    "name": "Death's Touch",
+    "kind": "set",
+    "setName": "Death's Disguise",
+    "levelReq": 6,
+    "category": "weapons",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "dmg%",
+        "label": "Enhanced Damage %",
+        "value": 25
+      },
+      {
+        "key": "lifesteal",
+        "label": "Life Steal %",
+        "value": 4
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "dmg-cold",
+        "label": "Cold Damage",
+        "min": 25,
+        "max": 75
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Griswold's Heart",
+    "code": "xar",
+    "name": "Griswold's Heart",
+    "kind": "set",
+    "setName": "Griswold's Legacy",
+    "levelReq": 45,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 500
+      },
+      {
+        "key": "skilltab",
+        "label": "Skill Tab Bonus",
+        "value": 2
+      },
+      {
+        "key": "sock",
+        "label": "Sockets",
+        "value": 3
+      },
+      {
+        "key": "str",
+        "label": "Strength",
+        "value": 20
+      },
+      {
+        "key": "ease",
+        "label": "Repair Durability %",
+        "value": -40
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Griswold's Honor",
+    "code": "paf",
+    "name": "Griswold's Honor",
+    "kind": "set",
+    "setName": "Griswold's Legacy",
+    "levelReq": 68,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 108
+      },
+      {
+        "key": "block2",
+        "label": "block2",
+        "value": 65
+      },
+      {
+        "key": "block",
+        "label": "Increased Chance of Blocking %",
+        "value": 20
+      },
+      {
+        "key": "res-all",
+        "label": "All Resistances",
+        "value": 45
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Griswold's Valor",
+    "code": "urn",
+    "name": "Griswold's Valor",
+    "kind": "set",
+    "setName": "Griswold's Legacy",
+    "levelReq": 69,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "ac%",
+        "label": "Enhanced Defense %",
+        "min": 50,
+        "max": 75
+      },
+      {
+        "key": "mag%",
+        "label": "Magic Find %",
+        "min": 20,
+        "max": 30
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "abs-cold/lvl",
+        "label": "abs-cold/lvl",
+        "value": 2
+      },
+      {
+        "key": "sock",
+        "label": "Sockets",
+        "value": 2
+      },
+      {
+        "key": "ease",
+        "label": "Repair Durability %",
+        "value": -40
+      },
+      {
+        "key": "res-all",
+        "label": "All Resistances",
+        "value": 5
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "skilltab",
+        "label": "Skill Tab Bonus",
+        "min": 2,
+        "max": 2
+      }
+    ],
+    "statPriority": [
+      "ac%",
+      "mag%"
+    ]
+  },
+  {
+    "id": "set-Griswolds's Redemption",
+    "code": "7ws",
+    "name": "Griswolds's Redemption",
+    "kind": "set",
+    "setName": "Griswold's Legacy",
+    "levelReq": 53,
+    "category": "weapons",
+    "stats": [
+      {
+        "key": "dmg%",
+        "label": "Enhanced Damage %",
+        "min": 200,
+        "max": 240
+      },
+      {
+        "key": "sock",
+        "label": "Sockets",
+        "min": 3,
+        "max": 4
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "swing2",
+        "label": "Faster Attack Rate",
+        "value": 40
+      },
+      {
+        "key": "dmg-undead",
+        "label": "Damage to Undead",
+        "value": 200
+      },
+      {
+        "key": "ease",
+        "label": "Repair Durability %",
+        "value": -20
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "skilltab",
+        "label": "Skill Tab Bonus",
+        "min": 2,
+        "max": 2
+      },
+      {
+        "key": "dmg-norm",
+        "label": "Damage",
+        "min": 10,
+        "max": 20
+      },
+      {
+        "key": "dmg-norm",
+        "label": "Damage",
+        "min": 10,
+        "max": 20
+      }
+    ],
+    "statPriority": [
+      "dmg%",
+      "sock"
+    ]
+  },
+  {
+    "id": "set-Guillaume's Face",
+    "code": "xhm",
+    "name": "Guillaume's Face",
+    "kind": "set",
+    "setName": "Orphan's Call",
+    "levelReq": 34,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ac%",
+        "label": "Enhanced Defense %",
+        "value": 120
+      },
+      {
+        "key": "balance3",
+        "label": "balance3",
+        "value": 30
+      },
+      {
+        "key": "crush",
+        "label": "Crushing Blow %",
+        "value": 35
+      },
+      {
+        "key": "deadly",
+        "label": "Deadly Strike %",
+        "value": 15
+      },
+      {
+        "key": "str",
+        "label": "Strength",
+        "value": 15
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Haemosu's Adament",
+    "code": "xrs",
+    "name": "Haemosu's Adament",
+    "kind": "set",
+    "setName": "Heaven's Brethren",
+    "levelReq": 44,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 500
+      },
+      {
+        "key": "ac-miss",
+        "label": "Defense vs. Missile",
+        "value": 35
+      },
+      {
+        "key": "hp",
+        "label": "Life",
+        "value": 75
+      },
+      {
+        "key": "ac-hth",
+        "label": "ac-hth",
+        "value": 40
+      },
+      {
+        "key": "ease",
+        "label": "Repair Durability %",
+        "value": -20
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Heaven's Taebaek",
+    "code": "uts",
+    "name": "Heaven's Taebaek",
+    "kind": "set",
+    "setName": "Heaven's Brethren",
+    "levelReq": 81,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 50
+      },
+      {
+        "key": "mana",
+        "label": "Mana",
+        "value": 100
+      },
+      {
+        "key": "res-ltng",
+        "label": "Lightning Resist %",
+        "value": 30
+      },
+      {
+        "key": "thorns",
+        "label": "Attacker Takes Damage",
+        "value": 30
+      },
+      {
+        "key": "indestruct",
+        "label": "Indestructible",
+        "value": 1
+      },
+      {
+        "key": "block",
+        "label": "Increased Chance of Blocking %",
+        "value": 25
+      },
+      {
+        "key": "block3",
+        "label": "block3",
+        "value": 30
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Horazon's Countenance",
+    "code": "usk",
+    "name": "Horazon's Countenance",
+    "kind": "set",
+    "setName": "Horazon's Splendor",
+    "levelReq": 62,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "str",
+        "label": "Strength",
+        "min": 10,
+        "max": 20
+      },
+      {
+        "key": "red-mag",
+        "label": "Magic Damage Reduced",
+        "min": 7,
+        "max": 10
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "war",
+        "label": "war",
+        "value": 1
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "hp%",
+        "label": "hp%",
+        "min": 5,
+        "max": 5
+      },
+      {
+        "key": "str",
+        "label": "Strength",
+        "min": 15,
+        "max": 15
+      }
+    ],
+    "statPriority": [
+      "str",
+      "red-mag"
+    ]
+  },
+  {
+    "id": "set-Horazon's Dominion",
+    "code": "xpl",
+    "name": "Horazon's Dominion",
+    "kind": "set",
+    "setName": "Horazon's Splendor",
+    "levelReq": 55,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "ac%",
+        "label": "Enhanced Defense %",
+        "min": 75,
+        "max": 100
+      },
+      {
+        "key": "mana",
+        "label": "Mana",
+        "min": 75,
+        "max": 100
+      },
+      {
+        "key": "res-cold",
+        "label": "Cold Resist %",
+        "min": 15,
+        "max": 25
+      },
+      {
+        "key": "res-fire",
+        "label": "Fire Resist %",
+        "min": 15,
+        "max": 25
+      },
+      {
+        "key": "res-ltng",
+        "label": "Lightning Resist %",
+        "min": 15,
+        "max": 25
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "skilltab",
+        "label": "Skill Tab Bonus",
+        "value": 2
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "res-pois",
+        "label": "Poison Resist %",
+        "min": 25,
+        "max": 25
+      },
+      {
+        "key": "vit",
+        "label": "Vitality",
+        "min": 15,
+        "max": 15
+      },
+      {
+        "key": "red-dmg%",
+        "label": "Damage Reduced %",
+        "min": 15,
+        "max": 15
+      }
+    ],
+    "statPriority": [
+      "ac%",
+      "mana",
+      "res-cold",
+      "res-fire",
+      "res-ltng"
+    ]
+  },
+  {
+    "id": "set-Horazon's Hold",
+    "code": "xlg",
+    "name": "Horazon's Hold",
+    "kind": "set",
+    "setName": "Horazon's Splendor",
+    "levelReq": 48,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "att",
+        "label": "Attack Rating",
+        "min": 95,
+        "max": 150
+      },
+      {
+        "key": "dex",
+        "label": "Dexterity",
+        "min": 10,
+        "max": 15
+      },
+      {
+        "key": "dmg-fire",
+        "label": "Fire Damage",
+        "min": 140,
+        "max": 270
+      },
+      {
+        "key": "hp",
+        "label": "Life",
+        "min": 30,
+        "max": 40
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "crush",
+        "label": "Crushing Blow %",
+        "value": 10
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "swing1",
+        "label": "swing1",
+        "min": 30,
+        "max": 30
+      },
+      {
+        "key": "manasteal",
+        "label": "Mana Steal %",
+        "min": 7,
+        "max": 7
+      },
+      {
+        "key": "lifesteal",
+        "label": "Life Steal %",
+        "min": 7,
+        "max": 7
+      }
+    ],
+    "statPriority": [
+      "att",
+      "dex",
+      "dmg-fire",
+      "hp"
+    ]
+  },
+  {
+    "id": "set-Horazon's Legacy",
+    "code": "utb",
+    "name": "Horazon's Legacy",
+    "kind": "set",
+    "setName": "Horazon's Splendor",
+    "levelReq": 67,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "str",
+        "label": "Strength",
+        "min": 10,
+        "max": 15
+      },
+      {
+        "key": "dex",
+        "label": "Dexterity",
+        "min": 10,
+        "max": 15
+      },
+      {
+        "key": "res-mag",
+        "label": "res-mag",
+        "min": 20,
+        "max": 30
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "move1",
+        "label": "move1",
+        "value": 30
+      },
+      {
+        "key": "nofreeze",
+        "label": "nofreeze",
+        "value": 1
+      },
+      {
+        "key": "ease",
+        "label": "Repair Durability %",
+        "value": -30
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "move2",
+        "label": "Faster Run/Walk %",
+        "min": 10,
+        "max": 10
+      }
+    ],
+    "statPriority": [
+      "str",
+      "dex",
+      "res-mag"
+    ]
+  },
+  {
+    "id": "set-Horazon's Secrets",
+    "code": "wad",
+    "name": "Horazon's Secrets",
+    "kind": "set",
+    "setName": "Horazon's Splendor",
+    "levelReq": 57,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "vit",
+        "label": "Vitality",
+        "min": 20,
+        "max": 30
+      },
+      {
+        "key": "hp",
+        "label": "Life",
+        "min": 30,
+        "max": 50
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "skilltab",
+        "label": "Skill Tab Bonus",
+        "value": 2
+      },
+      {
+        "key": "balance1",
+        "label": "balance1",
+        "value": 30
+      },
+      {
+        "key": "block",
+        "label": "Increased Chance of Blocking %",
+        "value": 20
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "res-pois-len",
+        "label": "res-pois-len",
+        "min": 75,
+        "max": 75
+      },
+      {
+        "key": "pierce-fire",
+        "label": "pierce-fire",
+        "min": 25,
+        "max": 25
+      },
+      {
+        "key": "enr",
+        "label": "Energy",
+        "min": 15,
+        "max": 15
+      }
+    ],
+    "statPriority": [
+      "vit",
+      "hp"
+    ]
+  },
+  {
+    "id": "set-Hsarus' Iron Fist",
+    "code": "buc",
+    "name": "Hsarus' Iron Fist",
+    "kind": "set",
+    "setName": "Hsarus' Defense",
+    "levelReq": 3,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "red-dmg",
+        "label": "Damage Reduced",
+        "value": 2
+      },
+      {
+        "key": "str",
+        "label": "Strength",
+        "value": 10
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Hsarus' Iron Heel",
+    "code": "mbt",
+    "name": "Hsarus' Iron Heel",
+    "kind": "set",
+    "setName": "Hsarus' Defense",
+    "levelReq": 3,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "res-fire",
+        "label": "Fire Resist %",
+        "value": 25
+      },
+      {
+        "key": "move2",
+        "label": "Faster Run/Walk %",
+        "value": 20
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Hsarus' Iron Stay",
+    "code": "mbl",
+    "name": "Hsarus' Iron Stay",
+    "kind": "set",
+    "setName": "Hsarus' Defense",
+    "levelReq": 3,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "res-cold",
+        "label": "Cold Resist %",
+        "value": 20
+      },
+      {
+        "key": "hp",
+        "label": "Life",
+        "value": 20
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Hwanin's Justice",
+    "code": "9vo",
+    "name": "Hwanin's Justice",
+    "kind": "set",
+    "setName": "Hwanin's Majesty",
+    "levelReq": 28,
+    "category": "weapons",
+    "stats": [
+      {
+        "key": "hit-skill",
+        "label": "Chance to Cast on Striking",
+        "min": 10,
+        "max": 3
+      },
+      {
+        "key": "dmg-ltng",
+        "label": "Lightning Damage",
+        "min": 5,
+        "max": 25
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "att",
+        "label": "Attack Rating",
+        "value": 330
+      },
+      {
+        "key": "indestruct",
+        "label": "Indestructible",
+        "value": 1
+      },
+      {
+        "key": "swing3",
+        "label": "Faster Attack Rate",
+        "value": 40
+      },
+      {
+        "key": "dmg%",
+        "label": "Enhanced Damage %",
+        "value": 200
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": [
+      "hit-skill",
+      "dmg-ltng"
+    ]
+  },
+  {
+    "id": "set-Hwanin's Refuge",
+    "code": "xcl",
+    "name": "Hwanin's Refuge",
+    "kind": "set",
+    "setName": "Hwanin's Majesty",
+    "levelReq": 30,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "gethit-skill",
+        "label": "Chance to Cast When Struck",
+        "min": 10,
+        "max": 3
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 200
+      },
+      {
+        "key": "res-pois",
+        "label": "Poison Resist %",
+        "value": 27
+      },
+      {
+        "key": "hp",
+        "label": "Life",
+        "value": 100
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": [
+      "gethit-skill"
+    ]
+  },
+  {
+    "id": "set-Hwanin's Seal",
+    "code": "mbl",
+    "name": "Hwanin's Seal",
+    "kind": "set",
+    "setName": "Hwanin's Majesty",
+    "levelReq": 35,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "dmg-ltng",
+        "label": "Lightning Damage",
+        "min": 3,
+        "max": 33
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "noheal",
+        "label": "noheal",
+        "value": 1
+      },
+      {
+        "key": "dmg-to-mana",
+        "label": "Damage Taken Goes to Mana",
+        "value": 12
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": [
+      "dmg-ltng"
+    ]
+  },
+  {
+    "id": "set-Hwanin's Splendor",
+    "code": "xrn",
+    "name": "Hwanin's Splendor",
+    "kind": "set",
+    "setName": "Hwanin's Majesty",
+    "levelReq": 45,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "regen",
+        "label": "Life Regenerated %",
+        "value": 20
+      },
+      {
+        "key": "red-mag",
+        "label": "Magic Damage Reduced",
+        "value": 10
+      },
+      {
+        "key": "res-cold",
+        "label": "Cold Resist %",
+        "value": 37
+      },
+      {
+        "key": "ac%",
+        "label": "Enhanced Defense %",
+        "value": 100
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Immortal King's Detail",
+    "code": "zhb",
+    "name": "Immortal King's Detail",
+    "kind": "set",
+    "setName": "Immortal King",
+    "levelReq": 29,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 36
+      },
+      {
+        "key": "res-fire",
+        "label": "Fire Resist %",
+        "value": 28
+      },
+      {
+        "key": "res-ltng",
+        "label": "Lightning Resist %",
+        "value": 31
+      },
+      {
+        "key": "str",
+        "label": "Strength",
+        "value": 25
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "min": 105,
+        "max": 105
+      },
+      {
+        "key": "balance2",
+        "label": "Faster Block Rate",
+        "min": 25,
+        "max": 25
+      },
+      {
+        "key": "ac%",
+        "label": "Enhanced Defense %",
+        "min": 100,
+        "max": 100
+      },
+      {
+        "key": "red-dmg%",
+        "label": "Damage Reduced %",
+        "min": 20,
+        "max": 20
+      },
+      {
+        "key": "skilltab",
+        "label": "Skill Tab Bonus",
+        "min": 2,
+        "max": 2
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Immortal King's Forge",
+    "code": "xhg",
+    "name": "Immortal King's Forge",
+    "kind": "set",
+    "setName": "Immortal King",
+    "levelReq": 30,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "gethit-skill",
+        "label": "Chance to Cast When Struck",
+        "min": 12,
+        "max": 4
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 65
+      },
+      {
+        "key": "str",
+        "label": "Strength",
+        "value": 20
+      },
+      {
+        "key": "dex",
+        "label": "Dexterity",
+        "value": 20
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "swing2",
+        "label": "Faster Attack Rate",
+        "min": 25,
+        "max": 25
+      },
+      {
+        "key": "ac",
+        "label": "Defense",
+        "min": 120,
+        "max": 120
+      },
+      {
+        "key": "lifesteal",
+        "label": "Life Steal %",
+        "min": 10,
+        "max": 10
+      },
+      {
+        "key": "manasteal",
+        "label": "Mana Steal %",
+        "min": 10,
+        "max": 10
+      },
+      {
+        "key": "freeze",
+        "label": "freeze",
+        "min": 2,
+        "max": 2
+      }
+    ],
+    "statPriority": [
+      "gethit-skill"
+    ]
+  },
+  {
+    "id": "set-Immortal King's Pillar",
+    "code": "xhb",
+    "name": "Immortal King's Pillar",
+    "kind": "set",
+    "setName": "Immortal King",
+    "levelReq": 31,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 75
+      },
+      {
+        "key": "move3",
+        "label": "Faster Run/Walk %",
+        "value": 40
+      },
+      {
+        "key": "att",
+        "label": "Attack Rating",
+        "value": 110
+      },
+      {
+        "key": "hp",
+        "label": "Life",
+        "value": 44
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "mag%",
+        "label": "Magic Find %",
+        "min": 25,
+        "max": 25
+      },
+      {
+        "key": "skilltab",
+        "label": "Skill Tab Bonus",
+        "min": 2,
+        "max": 2
+      },
+      {
+        "key": "ac",
+        "label": "Defense",
+        "min": 160,
+        "max": 160
+      },
+      {
+        "key": "half-freeze",
+        "label": "Half Freeze Duration",
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Immortal King's Soul Cage",
+    "code": "uar",
+    "name": "Immortal King's Soul Cage",
+    "kind": "set",
+    "setName": "Immortal King",
+    "levelReq": 76,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 400
+      },
+      {
+        "key": "gethit-skill",
+        "label": "Chance to Cast When Struck",
+        "value": 5
+      },
+      {
+        "key": "skilltab",
+        "label": "Skill Tab Bonus",
+        "value": 2
+      },
+      {
+        "key": "res-pois",
+        "label": "Poison Resist %",
+        "value": 50
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "balance2",
+        "label": "Faster Block Rate",
+        "min": 25,
+        "max": 25
+      },
+      {
+        "key": "res-cold",
+        "label": "Cold Resist %",
+        "min": 40,
+        "max": 40
+      },
+      {
+        "key": "res-fire",
+        "label": "Fire Resist %",
+        "min": 40,
+        "max": 40
+      },
+      {
+        "key": "res-ltng",
+        "label": "Lightning Resist %",
+        "min": 40,
+        "max": 40
+      },
+      {
+        "key": "ac%",
+        "label": "Enhanced Defense %",
+        "min": 50,
+        "max": 50
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Immortal King's Stone Crusher",
+    "code": "7m7",
+    "name": "Immortal King's Stone Crusher",
+    "kind": "set",
+    "setName": "Immortal King",
+    "levelReq": 76,
+    "category": "weapons",
+    "stats": [
+      {
+        "key": "crush",
+        "label": "Crushing Blow %",
+        "min": 35,
+        "max": 40
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "indestruct",
+        "label": "Indestructible",
+        "value": 1
+      },
+      {
+        "key": "swing3",
+        "label": "Faster Attack Rate",
+        "value": 40
+      },
+      {
+        "key": "dmg-demon",
+        "label": "dmg-demon",
+        "value": 200
+      },
+      {
+        "key": "dmg-undead",
+        "label": "Damage to Undead",
+        "value": 200
+      },
+      {
+        "key": "dmg%",
+        "label": "Enhanced Damage %",
+        "value": 200
+      },
+      {
+        "key": "sock",
+        "label": "Sockets",
+        "value": 2
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "dmg-fire",
+        "label": "Fire Damage",
+        "min": 211,
+        "max": 397
+      },
+      {
+        "key": "dmg-ltng",
+        "label": "Lightning Damage",
+        "min": 7,
+        "max": 477
+      },
+      {
+        "key": "dmg-cold",
+        "label": "Cold Damage",
+        "min": 127,
+        "max": 364
+      },
+      {
+        "key": "dmg-pois",
+        "label": "Poison Damage",
+        "min": 349,
+        "max": 349
+      },
+      {
+        "key": "dmg-mag",
+        "label": "dmg-mag",
+        "min": 250,
+        "max": 361
+      }
+    ],
+    "statPriority": [
+      "crush"
+    ]
+  },
+  {
+    "id": "set-Immortal King's Will",
+    "code": "ba5",
+    "name": "Immortal King's Will",
+    "kind": "set",
+    "setName": "Immortal King",
+    "levelReq": 47,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "mag%",
+        "label": "Magic Find %",
+        "min": 25,
+        "max": 40
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 125
+      },
+      {
+        "key": "gold%",
+        "label": "Gold Find %",
+        "value": 37
+      },
+      {
+        "key": "skilltab",
+        "label": "Skill Tab Bonus",
+        "value": 2
+      },
+      {
+        "key": "light",
+        "label": "Light Radius",
+        "value": 4
+      },
+      {
+        "key": "sock",
+        "label": "Sockets",
+        "value": 2
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": [
+      "mag%"
+    ]
+  },
+  {
+    "id": "set-Infernal Cranium",
+    "code": "cap",
+    "name": "Infernal Cranium",
+    "kind": "set",
+    "setName": "Infernal Tools",
+    "levelReq": 5,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "res-all",
+        "label": "All Resistances",
+        "value": 10
+      },
+      {
+        "key": "dmg-to-mana",
+        "label": "Damage Taken Goes to Mana",
+        "value": 20
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Infernal Sign",
+    "code": "tbl",
+    "name": "Infernal Sign",
+    "kind": "set",
+    "setName": "Infernal Tools",
+    "levelReq": 5,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 25
+      },
+      {
+        "key": "hp",
+        "label": "Life",
+        "value": 20
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "res-pois",
+        "label": "Poison Resist %",
+        "min": 25,
+        "max": 25
+      },
+      {
+        "key": "half-freeze",
+        "label": "Half Freeze Duration",
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Infernal Torch",
+    "code": "gwn",
+    "name": "Infernal Torch",
+    "kind": "set",
+    "setName": "Infernal Tools",
+    "levelReq": 5,
+    "category": "weapons",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "dmg-min",
+        "label": "Minimum Damage",
+        "value": 8
+      },
+      {
+        "key": "nec",
+        "label": "nec",
+        "value": 1
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Iratha's Coil",
+    "code": "crn",
+    "name": "Iratha's Coil",
+    "kind": "set",
+    "setName": "Iratha's Finery",
+    "levelReq": 15,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "res-fire",
+        "label": "Fire Resist %",
+        "value": 30
+      },
+      {
+        "key": "res-ltng",
+        "label": "Lightning Resist %",
+        "value": 30
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Iratha's Collar",
+    "code": "amu",
+    "name": "Iratha's Collar",
+    "kind": "set",
+    "setName": "Iratha's Finery",
+    "levelReq": 15,
+    "category": "other",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "res-pois",
+        "label": "Poison Resist %",
+        "value": 30
+      },
+      {
+        "key": "res-pois-len",
+        "label": "res-pois-len",
+        "value": 75
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "res-all",
+        "label": "All Resistances",
+        "min": 15,
+        "max": 15
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Iratha's Cord",
+    "code": "tbl",
+    "name": "Iratha's Cord",
+    "kind": "set",
+    "setName": "Iratha's Finery",
+    "levelReq": 15,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 25
+      },
+      {
+        "key": "dmg-min",
+        "label": "Minimum Damage",
+        "value": 5
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "dex",
+        "label": "Dexterity",
+        "min": 10,
+        "max": 10
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Iratha's Cuff",
+    "code": "tgl",
+    "name": "Iratha's Cuff",
+    "kind": "set",
+    "setName": "Iratha's Finery",
+    "levelReq": 15,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "res-cold",
+        "label": "Cold Resist %",
+        "value": 30
+      },
+      {
+        "key": "half-freeze",
+        "label": "Half Freeze Duration",
+        "value": 1
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "swing2",
+        "label": "Faster Attack Rate",
+        "min": 20,
+        "max": 20
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Isenhart's Case",
+    "code": "brs",
+    "name": "Isenhart's Case",
+    "kind": "set",
+    "setName": "Isenhart's Armory",
+    "levelReq": 8,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 40
+      },
+      {
+        "key": "red-mag",
+        "label": "Magic Damage Reduced",
+        "value": 2
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Isenhart's Horns",
+    "code": "fhl",
+    "name": "Isenhart's Horns",
+    "kind": "set",
+    "setName": "Isenhart's Armory",
+    "levelReq": 8,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "dex",
+        "label": "Dexterity",
+        "value": 6
+      },
+      {
+        "key": "red-dmg",
+        "label": "Damage Reduced",
+        "value": 2
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "res-all",
+        "label": "All Resistances",
+        "min": 8,
+        "max": 8
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Isenhart's Lightbrand",
+    "code": "bsd",
+    "name": "Isenhart's Lightbrand",
+    "kind": "set",
+    "setName": "Isenhart's Armory",
+    "levelReq": 8,
+    "category": "weapons",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "dmg-min",
+        "label": "Minimum Damage",
+        "value": 10
+      },
+      {
+        "key": "swing2",
+        "label": "Faster Attack Rate",
+        "value": 20
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Isenhart's Parry",
+    "code": "gts",
+    "name": "Isenhart's Parry",
+    "kind": "set",
+    "setName": "Isenhart's Armory",
+    "levelReq": 8,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 40
+      },
+      {
+        "key": "light-thorns",
+        "label": "light-thorns",
+        "value": 4
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "res-all",
+        "label": "All Resistances",
+        "min": 8,
+        "max": 8
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Laying of Hands",
+    "code": "ulg",
+    "name": "Laying of Hands",
+    "kind": "set",
+    "setName": "The Disciple",
+    "levelReq": 63,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "hit-skill",
+        "label": "Chance to Cast on Striking",
+        "min": 10,
+        "max": 3
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 25
+      },
+      {
+        "key": "swing2",
+        "label": "Faster Attack Rate",
+        "value": 20
+      },
+      {
+        "key": "res-fire",
+        "label": "Fire Resist %",
+        "value": 50
+      },
+      {
+        "key": "dmg-demon",
+        "label": "dmg-demon",
+        "value": 350
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": [
+      "hit-skill"
+    ]
+  },
+  {
+    "id": "set-M'avina's Caster",
+    "code": "amc",
+    "name": "M'avina's Caster",
+    "kind": "set",
+    "setName": "M'avina's Battle Hymn",
+    "levelReq": 70,
+    "category": "weapons",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "dmg%",
+        "label": "Enhanced Damage %",
+        "value": 188
+      },
+      {
+        "key": "swing3",
+        "label": "Faster Attack Rate",
+        "value": 40
+      },
+      {
+        "key": "magicarrow",
+        "label": "magicarrow",
+        "value": 1
+      },
+      {
+        "key": "att",
+        "label": "Attack Rating",
+        "value": 50
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "dmg-mag",
+        "label": "dmg-mag",
+        "min": 114,
+        "max": 377
+      },
+      {
+        "key": "hit-skill",
+        "label": "Chance to Cast on Striking",
+        "min": 10,
+        "max": 15
+      },
+      {
+        "key": "skilltab",
+        "label": "Skill Tab Bonus",
+        "min": 2,
+        "max": 2
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-M'avina's Embrace",
+    "code": "uld",
+    "name": "M'avina's Embrace",
+    "kind": "set",
+    "setName": "M'avina's Battle Hymn",
+    "levelReq": 70,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "gethit-skill",
+        "label": "Chance to Cast When Struck",
+        "min": 10,
+        "max": 3
+      },
+      {
+        "key": "red-mag",
+        "label": "Magic Damage Reduced",
+        "min": 5,
+        "max": 12
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "ease",
+        "label": "Repair Durability %",
+        "value": -30
+      },
+      {
+        "key": "skilltab",
+        "label": "Skill Tab Bonus",
+        "value": 2
+      },
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 350
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "balance2",
+        "label": "Faster Block Rate",
+        "min": 30,
+        "max": 30
+      }
+    ],
+    "statPriority": [
+      "gethit-skill",
+      "red-mag"
+    ]
+  },
+  {
+    "id": "set-M'avina's Icy Clutch",
+    "code": "xtg",
+    "name": "M'avina's Icy Clutch",
+    "kind": "set",
+    "setName": "M'avina's Battle Hymn",
+    "levelReq": 32,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "min": 45,
+        "max": 50
+      },
+      {
+        "key": "dmg-cold",
+        "label": "Cold Damage",
+        "min": 6,
+        "max": 18
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "half-freeze",
+        "label": "Half Freeze Duration",
+        "value": 1
+      },
+      {
+        "key": "gold%",
+        "label": "Gold Find %",
+        "value": 56
+      },
+      {
+        "key": "str",
+        "label": "Strength",
+        "value": 10
+      },
+      {
+        "key": "dex",
+        "label": "Dexterity",
+        "value": 15
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "dmg-cold",
+        "label": "Cold Damage",
+        "min": 131,
+        "max": 252
+      },
+      {
+        "key": "extra-cold",
+        "label": "extra-cold",
+        "min": 20,
+        "max": 20
+      }
+    ],
+    "statPriority": [
+      "ac",
+      "dmg-cold"
+    ]
+  },
+  {
+    "id": "set-M'avina's Tenet",
+    "code": "zvb",
+    "name": "M'avina's Tenet",
+    "kind": "set",
+    "setName": "M'avina's Battle Hymn",
+    "levelReq": 45,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 50
+      },
+      {
+        "key": "move2",
+        "label": "Faster Run/Walk %",
+        "value": 20
+      },
+      {
+        "key": "manasteal",
+        "label": "Mana Steal %",
+        "value": 5
+      },
+      {
+        "key": "light",
+        "label": "Light Radius",
+        "value": 5
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "res-all",
+        "label": "All Resistances",
+        "min": 25,
+        "max": 25
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-M'avina's True Sight",
+    "code": "ci3",
+    "name": "M'avina's True Sight",
+    "kind": "set",
+    "setName": "M'avina's Battle Hymn",
+    "levelReq": 59,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 150
+      },
+      {
+        "key": "regen",
+        "label": "Life Regenerated %",
+        "value": 10
+      },
+      {
+        "key": "swing2",
+        "label": "Faster Attack Rate",
+        "value": 30
+      },
+      {
+        "key": "mana",
+        "label": "Mana",
+        "value": 25
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "allskills",
+        "label": "All Skills",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "key": "att%",
+        "label": "Attack Rating %",
+        "min": 50,
+        "max": 50
+      },
+      {
+        "key": "res-all",
+        "label": "All Resistances",
+        "min": 25,
+        "max": 25
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Magnus' Skin",
+    "code": "xvg",
+    "name": "Magnus' Skin",
+    "kind": "set",
+    "setName": "Orphan's Call",
+    "levelReq": 37,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ac%",
+        "label": "Enhanced Defense %",
+        "value": 50
+      },
+      {
+        "key": "res-fire",
+        "label": "Fire Resist %",
+        "value": 15
+      },
+      {
+        "key": "swing2",
+        "label": "Faster Attack Rate",
+        "value": 20
+      },
+      {
+        "key": "light",
+        "label": "Light Radius",
+        "value": 3
+      },
+      {
+        "key": "att",
+        "label": "Attack Rating",
+        "value": 100
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-McAuley's Paragon",
+    "code": "cap",
+    "name": "McAuley's Paragon",
+    "kind": "set",
+    "setName": "McAuley's Folly",
+    "levelReq": 25,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "mag%",
+        "label": "Magic Find %",
+        "value": 35
+      },
+      {
+        "key": "thorns",
+        "label": "Attacker Takes Damage",
+        "value": 8
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-McAuley's Riprap",
+    "code": "vbt",
+    "name": "McAuley's Riprap",
+    "kind": "set",
+    "setName": "McAuley's Folly",
+    "levelReq": 20,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "move3",
+        "label": "Faster Run/Walk %",
+        "value": 40
+      },
+      {
+        "key": "att",
+        "label": "Attack Rating",
+        "value": 100
+      },
+      {
+        "key": "str",
+        "label": "Strength",
+        "value": 5
+      },
+      {
+        "key": "dex",
+        "label": "Dexterity",
+        "value": 10
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-McAuley's Superstition",
+    "code": "bwn",
+    "name": "McAuley's Superstition",
+    "kind": "set",
+    "setName": "McAuley's Folly",
+    "levelReq": 25,
+    "category": "weapons",
+    "stats": [
+      {
+        "key": "dmg-cold",
+        "label": "Cold Damage",
+        "min": 25,
+        "max": 75
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "dmg%",
+        "label": "Enhanced Damage %",
+        "value": 75
+      },
+      {
+        "key": "mana",
+        "label": "Mana",
+        "value": 25
+      },
+      {
+        "key": "manasteal",
+        "label": "Mana Steal %",
+        "value": 8
+      },
+      {
+        "key": "cast3",
+        "label": "cast3",
+        "value": 20
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": [
+      "dmg-cold"
+    ]
+  },
+  {
+    "id": "set-McAuley's Taboo",
+    "code": "vgl",
+    "name": "McAuley's Taboo",
+    "kind": "set",
+    "setName": "McAuley's Folly",
+    "levelReq": 28,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "min": 20,
+        "max": 25
+      },
+      {
+        "key": "dmg-pois",
+        "label": "Poison Damage",
+        "min": 30,
+        "max": 36
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "swing2",
+        "label": "Faster Attack Rate",
+        "value": 20
+      },
+      {
+        "key": "hp",
+        "label": "Life",
+        "value": 40
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": [
+      "ac",
+      "dmg-pois"
+    ]
+  },
+  {
+    "id": "set-Milabrega's Diadem",
+    "code": "crn",
+    "name": "Milabrega's Diadem",
+    "kind": "set",
+    "setName": "Milabrega's Regalia",
+    "levelReq": 17,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "hp",
+        "label": "Life",
+        "value": 15
+      },
+      {
+        "key": "mana",
+        "label": "Mana",
+        "value": 15
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "res-cold",
+        "label": "Cold Resist %",
+        "min": 40,
+        "max": 40
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Milabrega's Orb",
+    "code": "kit",
+    "name": "Milabrega's Orb",
+    "kind": "set",
+    "setName": "Milabrega's Regalia",
+    "levelReq": 17,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "mag%",
+        "label": "Magic Find %",
+        "value": 20
+      },
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 25
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "hp",
+        "label": "Life",
+        "min": 50,
+        "max": 50
+      },
+      {
+        "key": "ac%",
+        "label": "Enhanced Defense %",
+        "min": 50,
+        "max": 50
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Milabrega's Robe",
+    "code": "aar",
+    "name": "Milabrega's Robe",
+    "kind": "set",
+    "setName": "Milabrega's Regalia",
+    "levelReq": 17,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "thorns",
+        "label": "Attacker Takes Damage",
+        "value": 3
+      },
+      {
+        "key": "red-dmg",
+        "label": "Damage Reduced",
+        "value": 2
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "ac%",
+        "label": "Enhanced Defense %",
+        "min": 100,
+        "max": 100
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Milabrega's Rod",
+    "code": "wsp",
+    "name": "Milabrega's Rod",
+    "kind": "set",
+    "setName": "Milabrega's Regalia",
+    "levelReq": 17,
+    "category": "weapons",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "pal",
+        "label": "pal",
+        "value": 1
+      },
+      {
+        "key": "dmg%",
+        "label": "Enhanced Damage %",
+        "value": 50
+      },
+      {
+        "key": "light",
+        "label": "Light Radius",
+        "value": 2
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Naj's Circlet",
+    "code": "ci0",
+    "name": "Naj's Circlet",
+    "kind": "set",
+    "setName": "Naj's Ancient Set",
+    "levelReq": 28,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "dmg-fire",
+        "label": "Fire Damage",
+        "min": 25,
+        "max": 35
+      },
+      {
+        "key": "gethit-skill",
+        "label": "Chance to Cast When Struck",
+        "min": 12,
+        "max": 5
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 75
+      },
+      {
+        "key": "light",
+        "label": "Light Radius",
+        "value": 5
+      },
+      {
+        "key": "str",
+        "label": "Strength",
+        "value": 15
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": [
+      "dmg-fire",
+      "gethit-skill"
+    ]
+  },
+  {
+    "id": "set-Naj's Light Plate",
+    "code": "ult",
+    "name": "Naj's Light Plate",
+    "kind": "set",
+    "setName": "Naj's Ancient Set",
+    "levelReq": 71,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ease",
+        "label": "Repair Durability %",
+        "value": -60
+      },
+      {
+        "key": "hp",
+        "label": "Life",
+        "value": 65
+      },
+      {
+        "key": "res-all",
+        "label": "All Resistances",
+        "value": 25
+      },
+      {
+        "key": "dmg-to-mana",
+        "label": "Damage Taken Goes to Mana",
+        "value": 45
+      },
+      {
+        "key": "allskills",
+        "label": "All Skills",
+        "value": 1
+      },
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 300
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Naj's Puzzler",
+    "code": "6cs",
+    "name": "Naj's Puzzler",
+    "kind": "set",
+    "setName": "Naj's Ancient Set",
+    "levelReq": 78,
+    "category": "weapons",
+    "stats": [
+      {
+        "key": "charged",
+        "label": "Charges",
+        "min": 69,
+        "max": 11
+      },
+      {
+        "key": "dmg-ltng",
+        "label": "Lightning Damage",
+        "min": 6,
+        "max": 45
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "enr",
+        "label": "Energy",
+        "value": 35
+      },
+      {
+        "key": "dmg%",
+        "label": "Enhanced Damage %",
+        "value": 150
+      },
+      {
+        "key": "cast3",
+        "label": "cast3",
+        "value": 30
+      },
+      {
+        "key": "mana",
+        "label": "Mana",
+        "value": 70
+      },
+      {
+        "key": "allskills",
+        "label": "All Skills",
+        "value": 1
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": [
+      "charged",
+      "dmg-ltng"
+    ]
+  },
+  {
+    "id": "set-Natalya's Mark",
+    "code": "7qr",
+    "name": "Natalya's Mark",
+    "kind": "set",
+    "setName": "Natalya's Odium",
+    "levelReq": 79,
+    "category": "weapons",
+    "stats": [
+      {
+        "key": "dmg-fire",
+        "label": "Fire Damage",
+        "min": 12,
+        "max": 17
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "swing3",
+        "label": "Faster Attack Rate",
+        "value": 40
+      },
+      {
+        "key": "dmg%",
+        "label": "Enhanced Damage %",
+        "value": 200
+      },
+      {
+        "key": "ignore-ac",
+        "label": "Ignore Target Defense",
+        "value": 1
+      },
+      {
+        "key": "dmg-cold",
+        "label": "Cold Damage",
+        "value": 50
+      },
+      {
+        "key": "dmg-undead",
+        "label": "Damage to Undead",
+        "value": 200
+      },
+      {
+        "key": "dmg-demon",
+        "label": "dmg-demon",
+        "value": 200
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": [
+      "dmg-fire"
+    ]
+  },
+  {
+    "id": "set-Natalya's Shadow",
+    "code": "ucl",
+    "name": "Natalya's Shadow",
+    "kind": "set",
+    "setName": "Natalya's Odium",
+    "levelReq": 73,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "min": 150,
+        "max": 225
+      },
+      {
+        "key": "sock",
+        "label": "Sockets",
+        "min": 1,
+        "max": 3
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "skilltab",
+        "label": "Skill Tab Bonus",
+        "value": 2
+      },
+      {
+        "key": "res-pois-len",
+        "label": "res-pois-len",
+        "value": 75
+      },
+      {
+        "key": "res-pois",
+        "label": "Poison Resist %",
+        "value": 25
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": [
+      "ac",
+      "sock"
+    ]
+  },
+  {
+    "id": "set-Natalya's Soul",
+    "code": "xmb",
+    "name": "Natalya's Soul",
+    "kind": "set",
+    "setName": "Natalya's Odium",
+    "levelReq": 25,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "min": 75,
+        "max": 125
+      },
+      {
+        "key": "res-cold",
+        "label": "Cold Resist %",
+        "min": 15,
+        "max": 25
+      },
+      {
+        "key": "res-ltng",
+        "label": "Lightning Resist %",
+        "min": 15,
+        "max": 25
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "move3",
+        "label": "Faster Run/Walk %",
+        "value": 40
+      },
+      {
+        "key": "dur",
+        "label": "Indestructible",
+        "value": 50
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": [
+      "ac",
+      "res-cold",
+      "res-ltng"
+    ]
+  },
+  {
+    "id": "set-Natalya's Totem",
+    "code": "xh9",
+    "name": "Natalya's Totem",
+    "kind": "set",
+    "setName": "Natalya's Odium",
+    "levelReq": 59,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "min": 135,
+        "max": 175
+      },
+      {
+        "key": "dex",
+        "label": "Dexterity",
+        "min": 20,
+        "max": 30
+      },
+      {
+        "key": "str",
+        "label": "Strength",
+        "min": 10,
+        "max": 20
+      },
+      {
+        "key": "res-all",
+        "label": "All Resistances",
+        "min": 10,
+        "max": 20
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "red-mag",
+        "label": "Magic Damage Reduced",
+        "value": 3
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": [
+      "ac",
+      "dex",
+      "str",
+      "res-all"
+    ]
+  },
+  {
+    "id": "set-Ondal's Almighty",
+    "code": "uhm",
+    "name": "Ondal's Almighty",
+    "kind": "set",
+    "setName": "Heaven's Brethren",
+    "levelReq": 69,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "hit-skill",
+        "label": "Chance to Cast on Striking",
+        "min": 10,
+        "max": 3
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 50
+      },
+      {
+        "key": "ease",
+        "label": "Repair Durability %",
+        "value": -40
+      },
+      {
+        "key": "str",
+        "label": "Strength",
+        "value": 10
+      },
+      {
+        "key": "dex",
+        "label": "Dexterity",
+        "value": 15
+      },
+      {
+        "key": "balance3",
+        "label": "balance3",
+        "value": 24
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": [
+      "hit-skill"
+    ]
+  },
+  {
+    "id": "set-Rite of Passage",
+    "code": "xlb",
+    "name": "Rite of Passage",
+    "kind": "set",
+    "setName": "The Disciple",
+    "levelReq": 29,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "stam",
+        "label": "Stamina",
+        "min": 15,
+        "max": 25
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 25
+      },
+      {
+        "key": "move3",
+        "label": "Faster Run/Walk %",
+        "value": 30
+      },
+      {
+        "key": "half-freeze",
+        "label": "Half Freeze Duration",
+        "value": 1
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": [
+      "stam"
+    ]
+  },
+  {
+    "id": "set-Sazabi's Cobalt Redeemer",
+    "code": "7ls",
+    "name": "Sazabi's Cobalt Redeemer",
+    "kind": "set",
+    "setName": "Sazabi's Grand Tribute",
+    "levelReq": 73,
+    "category": "weapons",
+    "stats": [
+      {
+        "key": "dmg-cold",
+        "label": "Cold Damage",
+        "min": 25,
+        "max": 35
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "dmg%",
+        "label": "Enhanced Damage %",
+        "value": 150
+      },
+      {
+        "key": "swing3",
+        "label": "Faster Attack Rate",
+        "value": 40
+      },
+      {
+        "key": "dmg-demon",
+        "label": "dmg-demon",
+        "value": 318
+      },
+      {
+        "key": "indestruct",
+        "label": "Indestructible",
+        "value": 1
+      },
+      {
+        "key": "dex",
+        "label": "Dexterity",
+        "value": 15
+      },
+      {
+        "key": "str",
+        "label": "Strength",
+        "value": 5
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": [
+      "dmg-cold"
+    ]
+  },
+  {
+    "id": "set-Sazabi's Ghost Liberator",
+    "code": "upl",
+    "name": "Sazabi's Ghost Liberator",
+    "kind": "set",
+    "setName": "Sazabi's Grand Tribute",
+    "levelReq": 67,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "hp",
+        "label": "Life",
+        "min": 50,
+        "max": 75
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 400
+      },
+      {
+        "key": "balance3",
+        "label": "balance3",
+        "value": 30
+      },
+      {
+        "key": "str",
+        "label": "Strength",
+        "value": 25
+      },
+      {
+        "key": "att-demon",
+        "label": "att-demon",
+        "value": 300
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": [
+      "hp"
+    ]
+  },
+  {
+    "id": "set-Sazabi's Mental Sheath",
+    "code": "xhl",
+    "name": "Sazabi's Mental Sheath",
+    "kind": "set",
+    "setName": "Sazabi's Grand Tribute",
+    "levelReq": 43,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "res-fire",
+        "label": "Fire Resist %",
+        "min": 15,
+        "max": 20
+      },
+      {
+        "key": "res-ltng",
+        "label": "Lightning Resist %",
+        "min": 15,
+        "max": 20
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 100
+      },
+      {
+        "key": "allskills",
+        "label": "All Skills",
+        "value": 1
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": [
+      "res-fire",
+      "res-ltng"
+    ]
+  },
+  {
+    "id": "set-Sigon's Gage",
+    "code": "hgl",
+    "name": "Sigon's Gage",
+    "kind": "set",
+    "setName": "Sigon's Complete Steel",
+    "levelReq": 6,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "str",
+        "label": "Strength",
+        "value": 10
+      },
+      {
+        "key": "att",
+        "label": "Attack Rating",
+        "value": 20
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "swing3",
+        "label": "Faster Attack Rate",
+        "min": 30,
+        "max": 30
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Sigon's Guard",
+    "code": "tow",
+    "name": "Sigon's Guard",
+    "kind": "set",
+    "setName": "Sigon's Complete Steel",
+    "levelReq": 6,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "allskills",
+        "label": "All Skills",
+        "value": 1
+      },
+      {
+        "key": "block",
+        "label": "Increased Chance of Blocking %",
+        "value": 20
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Sigon's Sabot",
+    "code": "hbt",
+    "name": "Sigon's Sabot",
+    "kind": "set",
+    "setName": "Sigon's Complete Steel",
+    "levelReq": 6,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "move2",
+        "label": "Faster Run/Walk %",
+        "value": 20
+      },
+      {
+        "key": "res-cold",
+        "label": "Cold Resist %",
+        "value": 40
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "att",
+        "label": "Attack Rating",
+        "min": 50,
+        "max": 50
+      },
+      {
+        "key": "mag%",
+        "label": "Magic Find %",
+        "min": 50,
+        "max": 50
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Sigon's Shelter",
+    "code": "gth",
+    "name": "Sigon's Shelter",
+    "kind": "set",
+    "setName": "Sigon's Complete Steel",
+    "levelReq": 6,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ac%",
+        "label": "Enhanced Defense %",
+        "value": 25
+      },
+      {
+        "key": "res-ltng",
+        "label": "Lightning Resist %",
+        "value": 30
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "thorns",
+        "label": "Attacker Takes Damage",
+        "min": 20,
+        "max": 20
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Sigon's Visor",
+    "code": "ghm",
+    "name": "Sigon's Visor",
+    "kind": "set",
+    "setName": "Sigon's Complete Steel",
+    "levelReq": 6,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "mana",
+        "label": "Mana",
+        "value": 30
+      },
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 25
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Sigon's Wrap",
+    "code": "hbl",
+    "name": "Sigon's Wrap",
+    "kind": "set",
+    "setName": "Sigon's Complete Steel",
+    "levelReq": 6,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "res-fire",
+        "label": "Fire Resist %",
+        "value": 20
+      },
+      {
+        "key": "hp",
+        "label": "Life",
+        "value": 20
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Spiritual Custodian",
+    "code": "uui",
+    "name": "Spiritual Custodian",
+    "kind": "set",
+    "setName": "The Disciple",
+    "levelReq": 43,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "min": 305,
+        "max": 415
+      },
+      {
+        "key": "gethit-skill",
+        "label": "Chance to Cast When Struck",
+        "min": 25,
+        "max": 3
+      },
+      {
+        "key": "dmg-pois",
+        "label": "Poison Damage",
+        "min": 125,
+        "max": 175
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "res-fire",
+        "label": "Fire Resist %",
+        "value": 24
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": [
+      "ac",
+      "gethit-skill",
+      "dmg-pois"
+    ]
+  },
+  {
+    "id": "set-Tal Rasha's Adjudication",
+    "code": "amu",
+    "name": "Tal Rasha's Adjudication",
+    "kind": "set",
+    "setName": "Tal Rasha's Wrappings",
+    "levelReq": 67,
+    "category": "other",
+    "stats": [
+      {
+        "key": "dmg-ltng",
+        "label": "Lightning Damage",
+        "min": 3,
+        "max": 32
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "res-ltng",
+        "label": "Lightning Resist %",
+        "value": 33
+      },
+      {
+        "key": "sor",
+        "label": "sor",
+        "value": 2
+      },
+      {
+        "key": "hp",
+        "label": "Life",
+        "value": 50
+      },
+      {
+        "key": "mana",
+        "label": "Mana",
+        "value": 42
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "cast2",
+        "label": "Faster Cast Rate",
+        "min": 10,
+        "max": 10
+      }
+    ],
+    "statPriority": [
+      "dmg-ltng"
+    ]
+  },
+  {
+    "id": "set-Tal Rasha's Fire-Spun Cloth",
+    "code": "zmb",
+    "name": "Tal Rasha's Fire-Spun Cloth",
+    "kind": "set",
+    "setName": "Tal Rasha's Wrappings",
+    "levelReq": 53,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "mag%",
+        "label": "Magic Find %",
+        "min": 10,
+        "max": 15
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "ease",
+        "label": "Repair Durability %",
+        "value": -20
+      },
+      {
+        "key": "mana",
+        "label": "Mana",
+        "value": 30
+      },
+      {
+        "key": "dex",
+        "label": "Dexterity",
+        "value": 20
+      },
+      {
+        "key": "dmg-to-mana",
+        "label": "Damage Taken Goes to Mana",
+        "value": 37
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "min": 60,
+        "max": 60
+      },
+      {
+        "key": "cast2",
+        "label": "Faster Cast Rate",
+        "min": 10,
+        "max": 10
+      }
+    ],
+    "statPriority": [
+      "mag%"
+    ]
+  },
+  {
+    "id": "set-Tal Rasha's Horadric Crest",
+    "code": "xsk",
+    "name": "Tal Rasha's Horadric Crest",
+    "kind": "set",
+    "setName": "Tal Rasha's Wrappings",
+    "levelReq": 66,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "mana",
+        "label": "Mana",
+        "value": 30
+      },
+      {
+        "key": "hp",
+        "label": "Life",
+        "value": 60
+      },
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 45
+      },
+      {
+        "key": "res-all",
+        "label": "All Resistances",
+        "value": 15
+      },
+      {
+        "key": "lifesteal",
+        "label": "Life Steal %",
+        "value": 10
+      },
+      {
+        "key": "manasteal",
+        "label": "Mana Steal %",
+        "value": 10
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Tal Rasha's Howling Wind",
+    "code": "uth",
+    "name": "Tal Rasha's Howling Wind",
+    "kind": "set",
+    "setName": "Tal Rasha's Wrappings",
+    "levelReq": 71,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ease",
+        "label": "Repair Durability %",
+        "value": -60
+      },
+      {
+        "key": "red-mag",
+        "label": "Magic Damage Reduced",
+        "value": 15
+      },
+      {
+        "key": "mag%",
+        "label": "Magic Find %",
+        "value": 88
+      },
+      {
+        "key": "res-cold",
+        "label": "Cold Resist %",
+        "value": 40
+      },
+      {
+        "key": "res-fire",
+        "label": "Fire Resist %",
+        "value": 40
+      },
+      {
+        "key": "res-ltng",
+        "label": "Lightning Resist %",
+        "value": 40
+      },
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 400
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "cast2",
+        "label": "Faster Cast Rate",
+        "min": 10,
+        "max": 10
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Tal Rasha's Lidless Eye",
+    "code": "oba",
+    "name": "Tal Rasha's Lidless Eye",
+    "kind": "set",
+    "setName": "Tal Rasha's Wrappings",
+    "levelReq": 65,
+    "category": "weapons",
+    "stats": [
+      {
+        "key": "skill",
+        "label": "Skill Bonus",
+        "min": 1,
+        "max": 2
+      },
+      {
+        "key": "skill",
+        "label": "Skill Bonus",
+        "min": 1,
+        "max": 2
+      },
+      {
+        "key": "skill",
+        "label": "Skill Bonus",
+        "min": 1,
+        "max": 2
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "hp",
+        "label": "Life",
+        "value": 57
+      },
+      {
+        "key": "mana",
+        "label": "Mana",
+        "value": 77
+      },
+      {
+        "key": "enr",
+        "label": "Energy",
+        "value": 10
+      },
+      {
+        "key": "cast3",
+        "label": "cast3",
+        "value": 20
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "sor",
+        "label": "sor",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "key": "pierce-fire",
+        "label": "pierce-fire",
+        "min": 15,
+        "max": 15
+      },
+      {
+        "key": "pierce-ltng",
+        "label": "pierce-ltng",
+        "min": 15,
+        "max": 15
+      },
+      {
+        "key": "extra-cold",
+        "label": "extra-cold",
+        "min": 15,
+        "max": 15
+      }
+    ],
+    "statPriority": [
+      "skill",
+      "skill",
+      "skill"
+    ]
+  },
+  {
+    "id": "set-Tancred's Crowbill",
+    "code": "mpi",
+    "name": "Tancred's Crowbill",
+    "kind": "set",
+    "setName": "Tancred's Battlegear",
+    "levelReq": 20,
+    "category": "weapons",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "att",
+        "label": "Attack Rating",
+        "value": 75
+      },
+      {
+        "key": "dmg%",
+        "label": "Enhanced Damage %",
+        "value": 80
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "mana",
+        "label": "Mana",
+        "min": 20,
+        "max": 20
+      },
+      {
+        "key": "swing2",
+        "label": "Faster Attack Rate",
+        "min": 20,
+        "max": 20
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Tancred's Hobnails",
+    "code": "lbt",
+    "name": "Tancred's Hobnails",
+    "kind": "set",
+    "setName": "Tancred's Battlegear",
+    "levelReq": 20,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "regen-stam",
+        "label": "Stamina Regenerated %",
+        "value": 25
+      },
+      {
+        "key": "dex",
+        "label": "Dexterity",
+        "value": 10
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "move3",
+        "label": "Faster Run/Walk %",
+        "min": 30,
+        "max": 30
+      },
+      {
+        "key": "str",
+        "label": "Strength",
+        "min": 10,
+        "max": 10
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Tancred's Skull",
+    "code": "bhm",
+    "name": "Tancred's Skull",
+    "kind": "set",
+    "setName": "Tancred's Battlegear",
+    "levelReq": 20,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "dmg%",
+        "label": "Enhanced Damage %",
+        "value": 10
+      },
+      {
+        "key": "att",
+        "label": "Attack Rating",
+        "value": 40
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "res-all",
+        "label": "All Resistances",
+        "min": 10,
+        "max": 10
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Tancred's Spine",
+    "code": "ful",
+    "name": "Tancred's Spine",
+    "kind": "set",
+    "setName": "Tancred's Battlegear",
+    "levelReq": 20,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "hp",
+        "label": "Life",
+        "value": 40
+      },
+      {
+        "key": "str",
+        "label": "Strength",
+        "value": 15
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Tancred's Weird",
+    "code": "amu",
+    "name": "Tancred's Weird",
+    "kind": "set",
+    "setName": "Tancred's Battlegear",
+    "levelReq": 20,
+    "category": "other",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "red-dmg",
+        "label": "Damage Reduced",
+        "value": 2
+      },
+      {
+        "key": "red-mag",
+        "label": "Magic Damage Reduced",
+        "value": 1
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "mag%",
+        "label": "Magic Find %",
+        "min": 78,
+        "max": 78
+      },
+      {
+        "key": "att",
+        "label": "Attack Rating",
+        "min": 60,
+        "max": 60
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Telling of Beads",
+    "code": "amu",
+    "name": "Telling of Beads",
+    "kind": "set",
+    "setName": "The Disciple",
+    "levelReq": 30,
+    "category": "other",
+    "stats": [
+      {
+        "key": "res-pois",
+        "label": "Poison Resist %",
+        "min": 35,
+        "max": 50
+      },
+      {
+        "key": "thorns",
+        "label": "Attacker Takes Damage",
+        "min": 8,
+        "max": 10
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "allskills",
+        "label": "All Skills",
+        "value": 1
+      },
+      {
+        "key": "res-cold",
+        "label": "Cold Resist %",
+        "value": 18
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": [
+      "res-pois",
+      "thorns"
+    ]
+  },
+  {
+    "id": "set-Trang-Oul's Claws",
+    "code": "xmg",
+    "name": "Trang-Oul's Claws",
+    "kind": "set",
+    "setName": "Trang-Oul's Avatar",
+    "levelReq": 45,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 30
+      },
+      {
+        "key": "cast3",
+        "label": "cast3",
+        "value": 20
+      },
+      {
+        "key": "res-cold",
+        "label": "Cold Resist %",
+        "value": 30
+      },
+      {
+        "key": "skilltab",
+        "label": "Skill Tab Bonus",
+        "value": 2
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "extra-pois",
+        "label": "extra-pois",
+        "min": 25,
+        "max": 25
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Trang-Oul's Girth",
+    "code": "utc",
+    "name": "Trang-Oul's Girth",
+    "kind": "set",
+    "setName": "Trang-Oul's Avatar",
+    "levelReq": 47,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "min": 75,
+        "max": 100
+      },
+      {
+        "key": "mana",
+        "label": "Mana",
+        "min": 25,
+        "max": 50
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "stam",
+        "label": "Stamina",
+        "value": 30
+      },
+      {
+        "key": "regen",
+        "label": "Life Regenerated %",
+        "value": 5
+      },
+      {
+        "key": "hp",
+        "label": "Life",
+        "value": 66
+      },
+      {
+        "key": "nofreeze",
+        "label": "nofreeze",
+        "value": 1
+      },
+      {
+        "key": "ease",
+        "label": "Repair Durability %",
+        "value": -40
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "res-cold",
+        "label": "Cold Resist %",
+        "min": 40,
+        "max": 40
+      }
+    ],
+    "statPriority": [
+      "ac",
+      "mana"
+    ]
+  },
+  {
+    "id": "set-Trang-Oul's Guise",
+    "code": "uh9",
+    "name": "Trang-Oul's Guise",
+    "kind": "set",
+    "setName": "Trang-Oul's Avatar",
+    "levelReq": 65,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "min": 80,
+        "max": 100
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "balance2",
+        "label": "Faster Block Rate",
+        "value": 25
+      },
+      {
+        "key": "thorns",
+        "label": "Attacker Takes Damage",
+        "value": 20
+      },
+      {
+        "key": "mana",
+        "label": "Mana",
+        "value": 150
+      },
+      {
+        "key": "regen",
+        "label": "Life Regenerated %",
+        "value": 5
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": [
+      "ac"
+    ]
+  },
+  {
+    "id": "set-Trang-Oul's Scales",
+    "code": "xul",
+    "name": "Trang-Oul's Scales",
+    "kind": "set",
+    "setName": "Trang-Oul's Avatar",
+    "levelReq": 49,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ease",
+        "label": "Repair Durability %",
+        "value": -40
+      },
+      {
+        "key": "ac-miss",
+        "label": "Defense vs. Missile",
+        "value": 100
+      },
+      {
+        "key": "res-pois",
+        "label": "Poison Resist %",
+        "value": 40
+      },
+      {
+        "key": "skilltab",
+        "label": "Skill Tab Bonus",
+        "value": 2
+      },
+      {
+        "key": "move3",
+        "label": "Faster Run/Walk %",
+        "value": 40
+      },
+      {
+        "key": "ac%",
+        "label": "Enhanced Defense %",
+        "value": 150
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "res-ltng",
+        "label": "Lightning Resist %",
+        "min": 50,
+        "max": 50
+      },
+      {
+        "key": "red-dmg%",
+        "label": "Damage Reduced %",
+        "min": 25,
+        "max": 25
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Trang-Oul's Wing",
+    "code": "ne9",
+    "name": "Trang-Oul's Wing",
+    "kind": "set",
+    "setName": "Trang-Oul's Avatar",
+    "levelReq": 54,
+    "category": "armor",
+    "stats": [
+      {
+        "key": "res-fire",
+        "label": "Fire Resist %",
+        "min": 38,
+        "max": 45
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 125
+      },
+      {
+        "key": "str",
+        "label": "Strength",
+        "value": 25
+      },
+      {
+        "key": "dex",
+        "label": "Dexterity",
+        "value": 15
+      },
+      {
+        "key": "block",
+        "label": "Increased Chance of Blocking %",
+        "value": 30
+      },
+      {
+        "key": "res-pois",
+        "label": "Poison Resist %",
+        "value": 40
+      },
+      {
+        "key": "skilltab",
+        "label": "Skill Tab Bonus",
+        "value": 2
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "pierce-pois",
+        "label": "pierce-pois",
+        "min": 25,
+        "max": 25
+      },
+      {
+        "key": "regen",
+        "label": "Life Regenerated %",
+        "min": 15,
+        "max": 15
+      }
+    ],
+    "statPriority": [
+      "res-fire"
+    ]
+  },
+  {
+    "id": "set-Vidala's Ambush",
+    "code": "lea",
+    "name": "Vidala's Ambush",
+    "kind": "set",
+    "setName": "Vidala's Rig",
+    "levelReq": 14,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": "Defense",
+        "value": 50
+      },
+      {
+        "key": "dex",
+        "label": "Dexterity",
+        "value": 11
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "res-fire",
+        "label": "Fire Resist %",
+        "min": 24,
+        "max": 24
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Vidala's Barb",
+    "code": "lbb",
+    "name": "Vidala's Barb",
+    "kind": "set",
+    "setName": "Vidala's Rig",
+    "levelReq": 14,
+    "category": "weapons",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ltng-min",
+        "label": "ltng-min",
+        "value": 1
+      },
+      {
+        "key": "ltng-max",
+        "label": "ltng-max",
+        "value": 20
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Vidala's Fetlock",
+    "code": "tbt",
+    "name": "Vidala's Fetlock",
+    "kind": "set",
+    "setName": "Vidala's Rig",
+    "levelReq": 14,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "stam",
+        "label": "Stamina",
+        "value": 150
+      },
+      {
+        "key": "move3",
+        "label": "Faster Run/Walk %",
+        "value": 30
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "res-all",
+        "label": "All Resistances",
+        "min": 8,
+        "max": 8
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Vidala's Snare",
+    "code": "amu",
+    "name": "Vidala's Snare",
+    "kind": "set",
+    "setName": "Vidala's Rig",
+    "levelReq": 14,
+    "category": "other",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "hp",
+        "label": "Life",
+        "value": 15
+      },
+      {
+        "key": "res-cold",
+        "label": "Cold Resist %",
+        "value": 20
+      }
+    ],
+    "setBonuses": [
+      {
+        "key": "mag%",
+        "label": "Magic Find %",
+        "min": 50,
+        "max": 50
+      }
+    ],
+    "statPriority": []
+  },
+  {
+    "id": "set-Wihtstan's Guard",
+    "code": "xml",
+    "name": "Wihtstan's Guard",
+    "kind": "set",
+    "setName": "Orphan's Call",
+    "levelReq": 29,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ac%",
+        "label": "Enhanced Defense %",
+        "value": 175
+      },
+      {
+        "key": "block3",
+        "label": "block3",
+        "value": 40
+      },
+      {
+        "key": "block",
+        "label": "Increased Chance of Blocking %",
+        "value": 55
+      },
+      {
+        "key": "half-freeze",
+        "label": "Half Freeze Duration",
+        "value": 1
+      },
+      {
+        "key": "light",
+        "label": "Light Radius",
+        "value": 5
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  },
+  {
+    "id": "set-Wilhelm's Pride",
+    "code": "ztb",
+    "name": "Wilhelm's Pride",
+    "kind": "set",
+    "setName": "Orphan's Call",
+    "levelReq": 42,
+    "category": "armor",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "ac%",
+        "label": "Enhanced Defense %",
+        "value": 75
+      },
+      {
+        "key": "manasteal",
+        "label": "Mana Steal %",
+        "value": 5
+      },
+      {
+        "key": "res-cold",
+        "label": "Cold Resist %",
+        "value": 10
+      },
+      {
+        "key": "lifesteal",
+        "label": "Life Steal %",
+        "value": 5
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": []
+  }
+]

@@ -8,7 +8,8 @@
     "start": "node ./node_modules/next/dist/bin/next start",
     "lint": "eslint",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "generate:grail": "node scripts/generate-grail-data.mjs"
   },
   "dependencies": {
     "@diablo-tools/d2-runewords": "github:diablo-tools/d2-runewords",
