@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@diablo-tools/d2-runewords": "github:diablo-tools/d2-runewords",
+    "@supabase/supabase-js": "^2.110.3",
     "next": "16.2.9",
     "next-intl": "^4.13.0",
     "react": "19.2.4",
