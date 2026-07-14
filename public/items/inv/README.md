@@ -72,3 +72,56 @@ These images, if ever added, would be Diablo II game art © Blizzard Entertainme
 tolerated fan content (the same basis as every D2 fan database) — not covered by this repository's
 open-source licensing. If Blizzard objects, delete this directory; the UI degrades gracefully to
 text-only cards.
+
+## Self-extraction from your own D2R install (the actual path forward)
+
+No redistributable source exists (see above) — but if you own a legal copy of D2R, you can extract
+your **own** copy's item icons for personal, non-commercial use, the same basis every D2 fan
+database's icons ultimately rest on. Confirmed: D2R's item inventory icons are still stored as
+classic DC6 sprite files (remastered artwork, same file format) — see
+[Blizzard forum discussion](https://us.forums.blizzard.com/en/d2r/t/missing-item-icons-in-inventory-after-latest-patch-nvidia/172301)
+confirming DC6 is still the active inventory-icon format in D2R. That means this is a two-step
+extraction, not a 3D-texture pipeline. This must be done on the machine D2R is actually installed
+on (Windows).
+
+### Step 1 — Extract the raw game files with CascView
+
+D2R stores its assets in Blizzard's CASC archive format, not as loose files — CascView is the
+standard, GUI-based tool the D2 modding community uses to browse and extract it.
+
+1. Download CascView from [zezula.net/en/casc/main.html](http://www.zezula.net/en/casc/main.html)
+   (a modding-community tool, no relation to Blizzard) and unzip it.
+2. Open CascView, click **File → Open Storage**, and point it at your D2R install folder (e.g.
+   `C:\Program Files (x86)\Diablo II Resurrected`, or wherever Battle.net installed it — right-click
+   D2R in the Battle.net launcher → **Show in Explorer** if unsure).
+3. In the CascView file tree, navigate to `data\global\items\`.
+4. Select all files in that folder, right-click → **Extract**, and extract to a scratch folder on
+   your machine, e.g. `C:\d2r-extract\items\`.
+5. Separately, navigate to `data\global\palette\ACT1\` and extract `pal.dat` to the same scratch
+   folder (e.g. `C:\d2r-extract\pal.dat`) — the DC6→PNG conversion needs this palette file to know
+   which colors to use.
+
+You do **not** need to extract the full `global`/`hd`/`local` data folders (~30GB) — just the two
+items above are enough for item icons specifically.
+
+### Step 2 — Convert DC6 → PNG with dc6png
+
+1. Install [Node.js](https://nodejs.org/) if you don't already have it (any recent LTS version).
+2. Open a terminal (PowerShell or Command Prompt) and install the converter:
+   ```
+   npm install -g dschu012/dc6png
+   ```
+3. Run it against the extracted item files:
+   ```
+   dc6png -p "C:\d2r-extract\pal.dat" -f "C:\d2r-extract\items\*.dc6" -o "C:\d2r-extract\png"
+   ```
+4. `C:\d2r-extract\png\` should now contain one PNG per item graphic, named to match the DC6
+   filenames (e.g. `invhaxu.dc6` → `invhaxu.png`) — these names already match the `invFile` key on
+   every entry in `data/uniques.json`/`data/sets.json`, so no renaming should be needed.
+
+### Step 3 — Send the files back
+
+Zip up the `png` folder and send it over (attach in chat, or share a cloud-drive link) — from
+there, dropping the files into this directory (`public/items/inv/`, one PNG per `invFile` name) and
+wiring up the fetch/verification is something I can finish directly. No need to write any code
+yourself.
