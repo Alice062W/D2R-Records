@@ -207,5 +207,42 @@ curl -o /dev/null -w "%{http_code}" http://localhost:8099/en/items/unique/axes/ 
    to this task's source changes.
 2. The dev-server 500-vs-404 nuance for `output: 'export'` dynamic routes described
    above — worth being aware of if anyone tests `next dev` directly against an
-   invalid category slug and is surprised not to see a plain 404 page.
-3. d2r.world cross-check deferred to controller, as instructed.
+   invalid category slug and is surprised not to see a plain 404 page. (Note: when the
+   controller re-tested this directly, `next dev` returned a clean 404 for
+   `/en/items/set/charms/`, not a 500 — the discrepancy may be timing/caching-related
+   in dev mode. Either way, the shipped static export's 404 behavior is confirmed
+   correct, which is what matters for this project's `output: 'export'` deployment.)
+
+## Live browser verification + d2r.world spot-check (completed by controller)
+
+Ran a dev server directly from this worktree (port 3007, confirmed via `pwd` and
+`git branch --show-current` before starting) and drove it with a real browser.
+
+- `/en/items/unique` renders the new card-grid landing page correctly (Helms, Armors,
+  Shields, Boots, Gloves, Rings, Charms, Jewels, Swords, ... as clickable cards),
+  matching d2r.world's real layout much more closely than the retired sidebar.
+- Clicking (navigating to) `/en/items/unique/axes` shows "Axes" as a heading, a
+  "← Back to categories" link (`href="/en/items/unique/"`), Normal/Exceptional/Elite
+  grade tabs, and the item stat cards (The Gnasher, Fechmars Axe, ...) — matching
+  d2r.world's own `/info/item/unique/axes` page structure (same kind → category
+  hierarchy, confirmed by direct comparison).
+- `/zh-TW/items/set/boots` renders "成套裝備" (Set Items), "靴子" (Boots), "← 返回分類"
+  (back to categories), grade tabs (普通/傑出/菁英), and correctly paired item/set names
+  (哈斯拉柏的鐵後跟 / 哈斯拉柏的防禦 — Hsarus' Iron Heel / Hsarus' Defense), all consistent
+  with the earlier zh-TW terminology verification from the nav-shell plan.
+- Directly confirmed on the running dev server: `curl -o /dev/null -w '%{http_code}'
+  http://localhost:3007/en/items/set/charms/` → `404`; `.../items/unique/axes/` → `200`.
+- d2r.world's own URL structure (`/info/item/unique/axes`) confirms the kind-then-category
+  hierarchy this plan implements matches d2r.world's real information architecture, not
+  just its visual style. Item stats for Axes (The Gnasher, etc.) were already verified
+  against d2r.world in the prior nav-shell plan's verification pass and the underlying
+  catalog data is unchanged by this plan — only the presentation layer changed.
+
+No console errors observed during any of the above.
+
+## Assessment
+
+All automated verification, curl-based structural/404 checks, and this live browser
+pass are consistent and clean. The new card-grid-then-list flow matches d2r.world's
+real structure (both visually and in URL hierarchy) more closely than the sidebar
+layout it replaces.
