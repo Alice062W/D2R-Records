@@ -38,4 +38,24 @@ describe('generated grail catalog', () => {
       for (const p of item.statPriority) expect(keys.has(p)).toBe(true);
     }
   });
+
+  const SLOT_CATEGORIES = [
+    'helms', 'armors', 'shields', 'belts', 'boots', 'gloves',
+    'rings', 'amulets', 'charms', 'jewels',
+    'swords', 'daggers', 'axes', 'polearms', 'spears',
+    'clubs', 'maces', 'hammers', 'scepters', 'staves',
+    'orbs', 'wands', 'grimoires', 'katars',
+    'bows', 'crossbows', 'javelins', 'throwings',
+  ];
+
+  it('every entry has enrichment fields', () => {
+    for (const item of [...uniques, ...sets] as {
+      baseName: string; grade: string; slotCategory: string; invFile: string;
+    }[]) {
+      expect(item.baseName.length).toBeGreaterThan(0);
+      expect(['normal', 'exceptional', 'elite']).toContain(item.grade);
+      expect(SLOT_CATEGORIES).toContain(item.slotCategory);
+      expect(item.invFile.length).toBeGreaterThan(0);
+    }
+  });
 });

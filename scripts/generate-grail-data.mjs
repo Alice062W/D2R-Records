@@ -56,6 +56,55 @@ function labelFor(code) {
   return PROP_LABELS[code] ?? code;
 }
 
+// type code (items.json .type) -> slot category. Every code observed across
+// spawnable uniques+sets is mapped explicitly; an unmapped code is a hard error
+// so a future data refresh can't silently mis-bucket items.
+const TYPE_TO_SLOT = {
+  helm: 'helms', circ: 'helms', phlm: 'helms', pelt: 'helms',
+  tors: 'armors',
+  shie: 'shields', ashd: 'shields', head: 'shields',
+  belt: 'belts', boot: 'boots', glov: 'gloves',
+  ring: 'rings', amul: 'amulets',
+  scha: 'charms', mcha: 'charms', lcha: 'charms',
+  jewl: 'jewels',
+  swor: 'swords', knif: 'daggers', axe: 'axes', pole: 'polearms',
+  spea: 'spears', aspe: 'spears',
+  club: 'clubs', mace: 'maces', hamm: 'hammers',
+  scep: 'scepters', staf: 'staves', orb: 'orbs', wand: 'wands',
+  grim: 'grimoires', h2h2: 'katars',
+  bow: 'bows', abow: 'bows', xbow: 'crossbows',
+  jave: 'javelins', ajav: 'javelins',
+  taxe: 'throwings', tkni: 'throwings',
+};
+
+function slotFor(code) {
+  const type = items[code]?.type;
+  const slot = TYPE_TO_SLOT[type];
+  if (!slot) throw new Error(`Unmapped item type "${type}" for base code "${code}"`);
+  return slot;
+}
+
+function gradeFor(code) {
+  const base = items[code];
+  if (base?.ultracode === code) return 'elite';
+  if (base?.ubercode === code) return 'exceptional';
+  return 'normal';
+}
+
+function baseFieldsFor(code) {
+  const base = items[code];
+  return {
+    baseName: base?.name ?? code,
+    grade: gradeFor(code),
+    slotCategory: slotFor(code),
+    defense: base?.minac != null && base?.maxac != null
+      ? { min: base.minac, max: base.maxac }
+      : null,
+    requiredStrength: base?.reqstr ?? null,
+    durability: base?.durability ?? null,
+  };
+}
+
 function extractProps(entry, count) {
   const variable = [];
   const fixed = [];
@@ -99,6 +148,8 @@ const uniquesOut = Object.entries(uniqueItems)
       setName: null,
       levelReq: v['lvl req'] ?? 0,
       category: categoryFor(v.code),
+      ...baseFieldsFor(v.code),
+      invFile: v.invfile || items[v.code]?.invfile || '',
       stats: variable,
       fixedStats: fixed,
       setBonuses: [],
@@ -118,6 +169,8 @@ const setsOut = Object.entries(setItemsRaw)
       setName: v.set,
       levelReq: v['lvl req'] ?? 0,
       category: categoryFor(v.item),
+      ...baseFieldsFor(v.item),
+      invFile: v.invfile || items[v.item]?.invfile || '',
       stats: variable,
       fixedStats: fixed,
       setBonuses: extractSetBonuses(v),

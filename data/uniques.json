@@ -7,6 +7,13 @@
     "setName": null,
     "levelReq": 5,
     "category": "weapons",
+    "baseName": "Hand Axe",
+    "grade": "normal",
+    "slotCategory": "axes",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": 28,
+    "invFile": "invhaxu",
     "stats": [
       {
         "key": "dmg%",
@@ -45,6 +52,13 @@
     "setName": null,
     "levelReq": 9,
     "category": "weapons",
+    "baseName": "Axe",
+    "grade": "normal",
+    "slotCategory": "axes",
+    "defense": null,
+    "requiredStrength": 32,
+    "durability": 24,
+    "invFile": "invaxeu",
     "stats": [
       {
         "key": "dmg%",
@@ -88,6 +102,13 @@
     "setName": null,
     "levelReq": 15,
     "category": "weapons",
+    "baseName": "Double Axe",
+    "grade": "normal",
+    "slotCategory": "axes",
+    "defense": null,
+    "requiredStrength": 43,
+    "durability": 24,
+    "invFile": "inv2ax",
     "stats": [
       {
         "key": "dmg%",
@@ -141,6 +162,13 @@
     "setName": null,
     "levelReq": 21,
     "category": "weapons",
+    "baseName": "Military Pick",
+    "grade": "normal",
+    "slotCategory": "axes",
+    "defense": null,
+    "requiredStrength": 49,
+    "durability": 26,
+    "invFile": "invmpiu",
     "stats": [
       {
         "key": "ltng-max",
@@ -198,6 +226,13 @@
     "setName": null,
     "levelReq": 27,
     "category": "weapons",
+    "baseName": "War Axe",
+    "grade": "normal",
+    "slotCategory": "axes",
+    "defense": null,
+    "requiredStrength": 67,
+    "durability": 26,
+    "invFile": "invwax",
     "stats": [
       {
         "key": "dmg%",
@@ -251,6 +286,13 @@
     "setName": null,
     "levelReq": 8,
     "category": "weapons",
+    "baseName": "Large Axe",
+    "grade": "normal",
+    "slotCategory": "axes",
+    "defense": null,
+    "requiredStrength": 35,
+    "durability": 30,
+    "invFile": "invlax",
     "stats": [
       {
         "key": "dmg%",
@@ -289,6 +331,13 @@
     "setName": null,
     "levelReq": 14,
     "category": "weapons",
+    "baseName": "Broad Axe",
+    "grade": "normal",
+    "slotCategory": "axes",
+    "defense": null,
+    "requiredStrength": 48,
+    "durability": 35,
+    "invFile": "invbrx",
     "stats": [
       {
         "key": "dmg%",
@@ -332,6 +381,13 @@
     "setName": null,
     "levelReq": 19,
     "category": "weapons",
+    "baseName": "Battle Axe",
+    "grade": "normal",
+    "slotCategory": "axes",
+    "defense": null,
+    "requiredStrength": 54,
+    "durability": 40,
+    "invFile": "invbtxu",
     "stats": [
       {
         "key": "res-all",
@@ -377,6 +433,13 @@
     "setName": null,
     "levelReq": 25,
     "category": "weapons",
+    "baseName": "Great Axe",
+    "grade": "normal",
+    "slotCategory": "axes",
+    "defense": null,
+    "requiredStrength": 63,
+    "durability": 50,
+    "invFile": "invgaxu",
     "stats": [
       {
         "key": "manasteal",
@@ -429,6 +492,13 @@
     "setName": null,
     "levelReq": 29,
     "category": "weapons",
+    "baseName": "Giant Axe",
+    "grade": "normal",
+    "slotCategory": "axes",
+    "defense": null,
+    "requiredStrength": 70,
+    "durability": 50,
+    "invFile": "invgix",
     "stats": [
       {
         "key": "str",
@@ -481,6 +551,13 @@
     "setName": null,
     "levelReq": 5,
     "category": "weapons",
+    "baseName": "Wand",
+    "grade": "normal",
+    "slotCategory": "wands",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": 15,
+    "invFile": "invwndu",
     "stats": [
       {
         "key": "dmg-fire",
@@ -529,6 +606,13 @@
     "setName": null,
     "levelReq": 14,
     "category": "weapons",
+    "baseName": "Yew Wand",
+    "grade": "normal",
+    "slotCategory": "wands",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": 15,
+    "invFile": "invywn",
     "stats": [
       {
         "key": "skill",
@@ -598,6 +682,13 @@
     "setName": null,
     "levelReq": 20,
     "category": "weapons",
+    "baseName": "Bone Wand",
+    "grade": "normal",
+    "slotCategory": "wands",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": 15,
+    "invFile": "invbwnu",
     "stats": [
       {
         "key": "mana",
@@ -656,6 +747,13 @@
     "setName": null,
     "levelReq": 28,
     "category": "weapons",
+    "baseName": "Grim Wand",
+    "grade": "normal",
+    "slotCategory": "wands",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": 15,
+    "invFile": "invgwn",
     "stats": [],
     "fixedStats": [
       {
@@ -700,6 +798,13 @@
     "setName": null,
     "levelReq": 3,
     "category": "weapons",
+    "baseName": "Club",
+    "grade": "normal",
+    "slotCategory": "clubs",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": 24,
+    "invFile": "invclbu",
     "stats": [
       {
         "key": "dmg%",
@@ -748,6 +853,13 @@
     "setName": null,
     "levelReq": 5,
     "category": "weapons",
+    "baseName": "Scepter",
+    "grade": "normal",
+    "slotCategory": "scepters",
+    "defense": null,
+    "requiredStrength": 25,
+    "durability": 50,
+    "invFile": "invscp",
     "stats": [
       {
         "key": "dmg%",
@@ -796,6 +908,13 @@
     "setName": null,
     "levelReq": 17,
     "category": "weapons",
+    "baseName": "Grand Scepter",
+    "grade": "normal",
+    "slotCategory": "scepters",
+    "defense": null,
+    "requiredStrength": 37,
+    "durability": 60,
+    "invFile": "invgsc",
     "stats": [
       {
         "key": "dmg-norm",
@@ -860,6 +979,13 @@
     "setName": null,
     "levelReq": 23,
     "category": "weapons",
+    "baseName": "War Scepter",
+    "grade": "normal",
+    "slotCategory": "scepters",
+    "defense": null,
+    "requiredStrength": 55,
+    "durability": 70,
+    "invFile": "invwsp",
     "stats": [
       {
         "key": "dmg-ltng",
@@ -919,6 +1045,13 @@
     "setName": null,
     "levelReq": 5,
     "category": "weapons",
+    "baseName": "Spiked Club",
+    "grade": "normal",
+    "slotCategory": "clubs",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": 36,
+    "invFile": "invspcu",
     "stats": [
       {
         "key": "thorns",
@@ -957,6 +1090,13 @@
     "setName": null,
     "levelReq": 9,
     "category": "weapons",
+    "baseName": "Mace",
+    "grade": "normal",
+    "slotCategory": "maces",
+    "defense": null,
+    "requiredStrength": 27,
+    "durability": 60,
+    "invFile": "invmac",
     "stats": [
       {
         "key": "dmg%",
@@ -1005,6 +1145,13 @@
     "setName": null,
     "levelReq": 15,
     "category": "weapons",
+    "baseName": "Morning Star",
+    "grade": "normal",
+    "slotCategory": "maces",
+    "defense": null,
+    "requiredStrength": 36,
+    "durability": 72,
+    "invFile": "invmstu",
     "stats": [],
     "fixedStats": [
       {
@@ -1054,6 +1201,13 @@
     "setName": null,
     "levelReq": 21,
     "category": "weapons",
+    "baseName": "Flail",
+    "grade": "normal",
+    "slotCategory": "maces",
+    "defense": null,
+    "requiredStrength": 41,
+    "durability": 30,
+    "invFile": "invfla",
     "stats": [
       {
         "key": "dmg%",
@@ -1107,6 +1261,13 @@
     "setName": null,
     "levelReq": 27,
     "category": "weapons",
+    "baseName": "War Hammer",
+    "grade": "normal",
+    "slotCategory": "hammers",
+    "defense": null,
+    "requiredStrength": 53,
+    "durability": 55,
+    "invFile": "invwhm",
     "stats": [
       {
         "key": "att",
@@ -1157,6 +1318,13 @@
     "setName": null,
     "levelReq": 24,
     "category": "weapons",
+    "baseName": "Maul",
+    "grade": "normal",
+    "slotCategory": "hammers",
+    "defense": null,
+    "requiredStrength": 69,
+    "durability": 60,
+    "invFile": "invmauu",
     "stats": [
       {
         "key": "dmg%",
@@ -1200,6 +1368,13 @@
     "setName": null,
     "levelReq": 29,
     "category": "weapons",
+    "baseName": "Great Maul",
+    "grade": "normal",
+    "slotCategory": "hammers",
+    "defense": null,
+    "requiredStrength": 99,
+    "durability": 60,
+    "invFile": "invgma",
     "stats": [
       {
         "key": "dmg%",
@@ -1238,6 +1413,13 @@
     "setName": null,
     "levelReq": 2,
     "category": "weapons",
+    "baseName": "Short Sword",
+    "grade": "normal",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": 24,
+    "invFile": "invssd",
     "stats": [],
     "fixedStats": [
       {
@@ -1282,6 +1464,13 @@
     "setName": null,
     "levelReq": 7,
     "category": "weapons",
+    "baseName": "Scimitar",
+    "grade": "normal",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": 22,
+    "invFile": "invscmu",
     "stats": [
       {
         "key": "dmg%",
@@ -1335,6 +1524,13 @@
     "setName": null,
     "levelReq": 10,
     "category": "weapons",
+    "baseName": "Saber",
+    "grade": "normal",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 25,
+    "durability": 32,
+    "invFile": "inv9sbu",
     "stats": [
       {
         "key": "dmg-norm",
@@ -1383,6 +1579,13 @@
     "setName": null,
     "levelReq": 13,
     "category": "weapons",
+    "baseName": "Falchion",
+    "grade": "normal",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 33,
+    "durability": 32,
+    "invFile": "invflcu",
     "stats": [
       {
         "key": "dmg%",
@@ -1433,6 +1636,13 @@
     "setName": null,
     "levelReq": 17,
     "category": "weapons",
+    "baseName": "Broad Sword",
+    "grade": "normal",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 48,
+    "durability": 32,
+    "invFile": "invbsdu",
     "stats": [
       {
         "key": "fire-min",
@@ -1490,6 +1700,13 @@
     "setName": null,
     "levelReq": 22,
     "category": "weapons",
+    "baseName": "Long Sword",
+    "grade": "normal",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 55,
+    "durability": 44,
+    "invFile": "invlsdu",
     "stats": [
       {
         "key": "dmg%",
@@ -1550,6 +1767,13 @@
     "setName": null,
     "levelReq": 29,
     "category": "weapons",
+    "baseName": "War Sword",
+    "grade": "normal",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 71,
+    "durability": 44,
+    "invFile": "invwsd",
     "stats": [
       {
         "key": "dmg%",
@@ -1598,6 +1822,13 @@
     "setName": null,
     "levelReq": 12,
     "category": "weapons",
+    "baseName": "Two-Handed Sword",
+    "grade": "normal",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 35,
+    "durability": 44,
+    "invFile": "inv2hsu",
     "stats": [
       {
         "key": "dmg-cold",
@@ -1646,6 +1877,13 @@
     "setName": null,
     "levelReq": 19,
     "category": "weapons",
+    "baseName": "Claymore",
+    "grade": "normal",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 47,
+    "durability": 50,
+    "invFile": "invclm",
     "stats": [
       {
         "key": "manasteal",
@@ -1691,6 +1929,13 @@
     "setName": null,
     "levelReq": 23,
     "category": "weapons",
+    "baseName": "Giant Sword",
+    "grade": "normal",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 56,
+    "durability": 50,
+    "invFile": "invgisu",
     "stats": [
       {
         "key": "att",
@@ -1743,6 +1988,13 @@
     "setName": null,
     "levelReq": 26,
     "category": "weapons",
+    "baseName": "Bastard Sword",
+    "grade": "normal",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 62,
+    "durability": 40,
+    "invFile": "invbswu",
     "stats": [
       {
         "key": "dmg%",
@@ -1791,6 +2043,13 @@
     "setName": null,
     "levelReq": 26,
     "category": "weapons",
+    "baseName": "Flamberge",
+    "grade": "normal",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 70,
+    "durability": 50,
+    "invFile": "invflb",
     "stats": [
       {
         "key": "dmg%",
@@ -1829,6 +2088,13 @@
     "setName": null,
     "levelReq": 29,
     "category": "weapons",
+    "baseName": "Great Sword",
+    "grade": "normal",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 100,
+    "durability": 50,
+    "invFile": "invgsdu",
     "stats": [
       {
         "key": "dmg%",
@@ -1877,6 +2143,13 @@
     "setName": null,
     "levelReq": 4,
     "category": "weapons",
+    "baseName": "Dagger",
+    "grade": "normal",
+    "slotCategory": "daggers",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": 16,
+    "invFile": "invdgr",
     "stats": [],
     "fixedStats": [
       {
@@ -1911,6 +2184,13 @@
     "setName": null,
     "levelReq": 11,
     "category": "weapons",
+    "baseName": "Dirk",
+    "grade": "normal",
+    "slotCategory": "daggers",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": 20,
+    "invFile": "invdir",
     "stats": [],
     "fixedStats": [
       {
@@ -1955,6 +2235,13 @@
     "setName": null,
     "levelReq": 19,
     "category": "weapons",
+    "baseName": "Kriss",
+    "grade": "normal",
+    "slotCategory": "daggers",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": 24,
+    "invFile": "invkrsu",
     "stats": [
       {
         "key": "att",
@@ -1998,6 +2285,13 @@
     "setName": null,
     "levelReq": 25,
     "category": "weapons",
+    "baseName": "Blade",
+    "grade": "normal",
+    "slotCategory": "daggers",
+    "defense": null,
+    "requiredStrength": 35,
+    "durability": 24,
+    "invFile": "invbld",
     "stats": [],
     "fixedStats": [
       {
@@ -2032,6 +2326,13 @@
     "setName": null,
     "levelReq": 8,
     "category": "weapons",
+    "baseName": "Spear",
+    "grade": "normal",
+    "slotCategory": "spears",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": 30,
+    "invFile": "invspr",
     "stats": [
       {
         "key": "dmg-fire",
@@ -2075,6 +2376,13 @@
     "setName": null,
     "levelReq": 12,
     "category": "weapons",
+    "baseName": "Trident",
+    "grade": "normal",
+    "slotCategory": "spears",
+    "defense": null,
+    "requiredStrength": 38,
+    "durability": 35,
+    "invFile": "invtriu",
     "stats": [
       {
         "key": "dmg%",
@@ -2123,6 +2431,13 @@
     "setName": null,
     "levelReq": 17,
     "category": "weapons",
+    "baseName": "Brandistock",
+    "grade": "normal",
+    "slotCategory": "spears",
+    "defense": null,
+    "requiredStrength": 40,
+    "durability": 28,
+    "invFile": "invbrn",
     "stats": [
       {
         "key": "lifesteal",
@@ -2168,6 +2483,13 @@
     "setName": null,
     "levelReq": 22,
     "category": "weapons",
+    "baseName": "Spetum",
+    "grade": "normal",
+    "slotCategory": "spears",
+    "defense": null,
+    "requiredStrength": 54,
+    "durability": 28,
+    "invFile": "invspt",
     "stats": [],
     "fixedStats": [
       {
@@ -2207,6 +2529,13 @@
     "setName": null,
     "levelReq": 27,
     "category": "weapons",
+    "baseName": "Pike",
+    "grade": "normal",
+    "slotCategory": "spears",
+    "defense": null,
+    "requiredStrength": 60,
+    "durability": 25,
+    "invFile": "invpik",
     "stats": [
       {
         "key": "dmg%",
@@ -2265,6 +2594,13 @@
     "setName": null,
     "levelReq": 8,
     "category": "weapons",
+    "baseName": "Bardiche",
+    "grade": "normal",
+    "slotCategory": "polearms",
+    "defense": null,
+    "requiredStrength": 40,
+    "durability": 50,
+    "invFile": "invbar",
     "stats": [],
     "fixedStats": [
       {
@@ -2299,6 +2635,13 @@
     "setName": null,
     "levelReq": 14,
     "category": "weapons",
+    "baseName": "Voulge",
+    "grade": "normal",
+    "slotCategory": "polearms",
+    "defense": null,
+    "requiredStrength": 50,
+    "durability": 50,
+    "invFile": "invvou",
     "stats": [
       {
         "key": "dmg%",
@@ -2349,6 +2692,13 @@
     "setName": null,
     "levelReq": 19,
     "category": "weapons",
+    "baseName": "Scythe",
+    "grade": "normal",
+    "slotCategory": "polearms",
+    "defense": null,
+    "requiredStrength": 41,
+    "durability": 65,
+    "invFile": "invscyu",
     "stats": [
       {
         "key": "dmg%",
@@ -2397,6 +2747,13 @@
     "setName": null,
     "levelReq": 25,
     "category": "weapons",
+    "baseName": "Poleaxe",
+    "grade": "normal",
+    "slotCategory": "polearms",
+    "defense": null,
+    "requiredStrength": 62,
+    "durability": 65,
+    "invFile": "invpax",
     "stats": [
       {
         "key": "dmg%",
@@ -2442,6 +2799,13 @@
     "setName": null,
     "levelReq": 28,
     "category": "weapons",
+    "baseName": "Halberd",
+    "grade": "normal",
+    "slotCategory": "polearms",
+    "defense": null,
+    "requiredStrength": 75,
+    "durability": 55,
+    "invFile": "invhal",
     "stats": [
       {
         "key": "dmg%",
@@ -2500,6 +2864,13 @@
     "setName": null,
     "levelReq": 29,
     "category": "weapons",
+    "baseName": "War Scythe",
+    "grade": "normal",
+    "slotCategory": "polearms",
+    "defense": null,
+    "requiredStrength": 80,
+    "durability": 55,
+    "invFile": "invwsc",
     "stats": [],
     "fixedStats": [
       {
@@ -2544,6 +2915,13 @@
     "setName": null,
     "levelReq": 5,
     "category": "weapons",
+    "baseName": "Short Staff",
+    "grade": "normal",
+    "slotCategory": "staves",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": 20,
+    "invFile": "invsst",
     "stats": [
       {
         "key": "dmg%",
@@ -2602,6 +2980,13 @@
     "setName": null,
     "levelReq": 9,
     "category": "weapons",
+    "baseName": "Long Staff",
+    "grade": "normal",
+    "slotCategory": "staves",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": 30,
+    "invFile": "invlst",
     "stats": [
       {
         "key": "dmg%",
@@ -2655,6 +3040,13 @@
     "setName": null,
     "levelReq": 18,
     "category": "weapons",
+    "baseName": "Gnarled Staff",
+    "grade": "normal",
+    "slotCategory": "staves",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": 35,
+    "invFile": "invcstu",
     "stats": [
       {
         "key": "dmg-ltng",
@@ -2718,6 +3110,13 @@
     "setName": null,
     "levelReq": 21,
     "category": "weapons",
+    "baseName": "Battle Staff",
+    "grade": "normal",
+    "slotCategory": "staves",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": 40,
+    "invFile": "invbst",
     "stats": [
       {
         "key": "dmg-fire",
@@ -2766,6 +3165,13 @@
     "setName": null,
     "levelReq": 28,
     "category": "weapons",
+    "baseName": "War Staff",
+    "grade": "normal",
+    "slotCategory": "staves",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": 50,
+    "invFile": "invwst",
     "stats": [],
     "fixedStats": [
       {
@@ -2820,6 +3226,13 @@
     "setName": null,
     "levelReq": 7,
     "category": "weapons",
+    "baseName": "Short Bow",
+    "grade": "normal",
+    "slotCategory": "bows",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": 20,
+    "invFile": "invsbw",
     "stats": [],
     "fixedStats": [
       {
@@ -2864,6 +3277,13 @@
     "setName": null,
     "levelReq": 13,
     "category": "weapons",
+    "baseName": "Hunter's Bow",
+    "grade": "normal",
+    "slotCategory": "bows",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": 32,
+    "invFile": "invhbw",
     "stats": [
       {
         "key": "dmg%",
@@ -2912,6 +3332,13 @@
     "setName": null,
     "levelReq": 15,
     "category": "weapons",
+    "baseName": "Long Bow",
+    "grade": "normal",
+    "slotCategory": "bows",
+    "defense": null,
+    "requiredStrength": 22,
+    "durability": 28,
+    "invFile": "invlbw",
     "stats": [
       {
         "key": "dmg%",
@@ -2955,6 +3382,13 @@
     "setName": null,
     "levelReq": 20,
     "category": "weapons",
+    "baseName": "Composite Bow",
+    "grade": "normal",
+    "slotCategory": "bows",
+    "defense": null,
+    "requiredStrength": 25,
+    "durability": 36,
+    "invFile": "invcbwu",
     "stats": [
       {
         "key": "dmg%",
@@ -3003,6 +3437,13 @@
     "setName": null,
     "levelReq": 25,
     "category": "weapons",
+    "baseName": "Short Battle Bow",
+    "grade": "normal",
+    "slotCategory": "bows",
+    "defense": null,
+    "requiredStrength": 30,
+    "durability": 40,
+    "invFile": "invsbbu",
     "stats": [
       {
         "key": "dmg-ltng",
@@ -3053,6 +3494,13 @@
     "setName": null,
     "levelReq": 26,
     "category": "weapons",
+    "baseName": "Long Battle Bow",
+    "grade": "normal",
+    "slotCategory": "bows",
+    "defense": null,
+    "requiredStrength": 40,
+    "durability": 44,
+    "invFile": "invlbb",
     "stats": [
       {
         "key": "att",
@@ -3115,6 +3563,13 @@
     "setName": null,
     "levelReq": 27,
     "category": "weapons",
+    "baseName": "Short War Bow",
+    "grade": "normal",
+    "slotCategory": "bows",
+    "defense": null,
+    "requiredStrength": 35,
+    "durability": 48,
+    "invFile": "invswbu",
     "stats": [
       {
         "key": "fire-max",
@@ -3177,6 +3632,13 @@
     "setName": null,
     "levelReq": 28,
     "category": "weapons",
+    "baseName": "Long War Bow",
+    "grade": "normal",
+    "slotCategory": "bows",
+    "defense": null,
+    "requiredStrength": 50,
+    "durability": 55,
+    "invFile": "invlwb",
     "stats": [
       {
         "key": "dmg%",
@@ -3220,6 +3682,13 @@
     "setName": null,
     "levelReq": 9,
     "category": "weapons",
+    "baseName": "Light Crossbow",
+    "grade": "normal",
+    "slotCategory": "crossbows",
+    "defense": null,
+    "requiredStrength": 21,
+    "durability": 30,
+    "invFile": "invlxbu",
     "stats": [],
     "fixedStats": [
       {
@@ -3264,6 +3733,13 @@
     "setName": null,
     "levelReq": 18,
     "category": "weapons",
+    "baseName": "Crossbow",
+    "grade": "normal",
+    "slotCategory": "crossbows",
+    "defense": null,
+    "requiredStrength": 40,
+    "durability": 40,
+    "invFile": "invmxbu",
     "stats": [],
     "fixedStats": [
       {
@@ -3308,6 +3784,13 @@
     "setName": null,
     "levelReq": 27,
     "category": "weapons",
+    "baseName": "Heavy Crossbow",
+    "grade": "normal",
+    "slotCategory": "crossbows",
+    "defense": null,
+    "requiredStrength": 60,
+    "durability": 50,
+    "invFile": "invhxbu",
     "stats": [
       {
         "key": "dmg%",
@@ -3363,6 +3846,13 @@
     "setName": null,
     "levelReq": 28,
     "category": "weapons",
+    "baseName": "Repeating Crossbow",
+    "grade": "normal",
+    "slotCategory": "crossbows",
+    "defense": null,
+    "requiredStrength": 40,
+    "durability": 40,
+    "invFile": "invrxbu",
     "stats": [
       {
         "key": "dmg%",
@@ -3406,6 +3896,16 @@
     "setName": null,
     "levelReq": 3,
     "category": "armor",
+    "baseName": "Cap",
+    "grade": "normal",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 3,
+      "max": 5
+    },
+    "requiredStrength": 0,
+    "durability": 12,
+    "invFile": "invcapu",
     "stats": [],
     "fixedStats": [
       {
@@ -3445,6 +3945,16 @@
     "setName": null,
     "levelReq": 15,
     "category": "armor",
+    "baseName": "Skull Cap",
+    "grade": "normal",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 8,
+      "max": 11
+    },
+    "requiredStrength": 15,
+    "durability": 18,
+    "invFile": "invskp",
     "stats": [
       {
         "key": "mag%",
@@ -3478,6 +3988,16 @@
     "setName": null,
     "levelReq": 14,
     "category": "armor",
+    "baseName": "Helm",
+    "grade": "normal",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 15,
+      "max": 18
+    },
+    "requiredStrength": 26,
+    "durability": 24,
+    "invFile": "invhlmu",
     "stats": [],
     "fixedStats": [
       {
@@ -3517,6 +4037,16 @@
     "setName": null,
     "levelReq": 17,
     "category": "armor",
+    "baseName": "Full Helm",
+    "grade": "normal",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 23,
+      "max": 26
+    },
+    "requiredStrength": 41,
+    "durability": 30,
+    "invFile": "invfhlu",
     "stats": [
       {
         "key": "ac",
@@ -3567,6 +4097,16 @@
     "setName": null,
     "levelReq": 21,
     "category": "armor",
+    "baseName": "Bone Helm",
+    "grade": "normal",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 33,
+      "max": 36
+    },
+    "requiredStrength": 25,
+    "durability": 40,
+    "invFile": "invbhmu",
     "stats": [],
     "fixedStats": [
       {
@@ -3606,6 +4146,16 @@
     "setName": null,
     "levelReq": 25,
     "category": "armor",
+    "baseName": "Great Helm",
+    "grade": "normal",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 30,
+      "max": 35
+    },
+    "requiredStrength": 63,
+    "durability": 40,
+    "invFile": "invghm",
     "stats": [],
     "fixedStats": [
       {
@@ -3650,6 +4200,16 @@
     "setName": null,
     "levelReq": 29,
     "category": "armor",
+    "baseName": "Crown",
+    "grade": "normal",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 25,
+      "max": 45
+    },
+    "requiredStrength": 55,
+    "durability": 50,
+    "invFile": "invcrn",
     "stats": [
       {
         "key": "ac%",
@@ -3710,6 +4270,16 @@
     "setName": null,
     "levelReq": 20,
     "category": "armor",
+    "baseName": "Mask",
+    "grade": "normal",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 9,
+      "max": 27
+    },
+    "requiredStrength": 23,
+    "durability": 20,
+    "invFile": "invmsk",
     "stats": [],
     "fixedStats": [
       {
@@ -3749,6 +4319,16 @@
     "setName": null,
     "levelReq": 7,
     "category": "armor",
+    "baseName": "Quilted Armor",
+    "grade": "normal",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 8,
+      "max": 11
+    },
+    "requiredStrength": 12,
+    "durability": 20,
+    "invFile": "invqlt",
     "stats": [],
     "fixedStats": [
       {
@@ -3793,6 +4373,16 @@
     "setName": null,
     "levelReq": 12,
     "category": "armor",
+    "baseName": "Leather Armor",
+    "grade": "normal",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 14,
+      "max": 17
+    },
+    "requiredStrength": 15,
+    "durability": 24,
+    "invFile": "invlea",
     "stats": [],
     "fixedStats": [
       {
@@ -3837,6 +4427,16 @@
     "setName": null,
     "levelReq": 14,
     "category": "armor",
+    "baseName": "Hard Leather Armor",
+    "grade": "normal",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 21,
+      "max": 24
+    },
+    "requiredStrength": 20,
+    "durability": 28,
+    "invFile": "invhla",
     "stats": [],
     "fixedStats": [
       {
@@ -3891,6 +4491,16 @@
     "setName": null,
     "levelReq": 16,
     "category": "armor",
+    "baseName": "Studded Leather",
+    "grade": "normal",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 32,
+      "max": 35
+    },
+    "requiredStrength": 27,
+    "durability": 32,
+    "invFile": "invstu",
     "stats": [],
     "fixedStats": [
       {
@@ -3935,6 +4545,16 @@
     "setName": null,
     "levelReq": 14,
     "category": "armor",
+    "baseName": "Ring Mail",
+    "grade": "normal",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 45,
+      "max": 48
+    },
+    "requiredStrength": 36,
+    "durability": 26,
+    "invFile": "invrng",
     "stats": [
       {
         "key": "ac%",
@@ -3983,6 +4603,16 @@
     "setName": null,
     "levelReq": 15,
     "category": "armor",
+    "baseName": "Scale Mail",
+    "grade": "normal",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 57,
+      "max": 60
+    },
+    "requiredStrength": 44,
+    "durability": 36,
+    "invFile": "invscl",
     "stats": [
       {
         "key": "ac%",
@@ -4026,6 +4656,16 @@
     "setName": null,
     "levelReq": 17,
     "category": "armor",
+    "baseName": "Chain Mail",
+    "grade": "normal",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 72,
+      "max": 75
+    },
+    "requiredStrength": 48,
+    "durability": 45,
+    "invFile": "invchn",
     "stats": [
       {
         "key": "ac%",
@@ -4068,6 +4708,16 @@
     "setName": null,
     "levelReq": 20,
     "category": "armor",
+    "baseName": "Breast Plate",
+    "grade": "normal",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 65,
+      "max": 68
+    },
+    "requiredStrength": 30,
+    "durability": 50,
+    "invFile": "invbrs",
     "stats": [
       {
         "key": "ac%",
@@ -4111,6 +4761,16 @@
     "setName": null,
     "levelReq": 22,
     "category": "armor",
+    "baseName": "Splint Mail",
+    "grade": "normal",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 90,
+      "max": 95
+    },
+    "requiredStrength": 51,
+    "durability": 30,
+    "invFile": "invspl",
     "stats": [
       {
         "key": "ac%",
@@ -4154,6 +4814,16 @@
     "setName": null,
     "levelReq": 26,
     "category": "armor",
+    "baseName": "Plate Mail",
+    "grade": "normal",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 108,
+      "max": 116
+    },
+    "requiredStrength": 65,
+    "durability": 60,
+    "invFile": "invplt",
     "stats": [
       {
         "key": "ac%",
@@ -4192,6 +4862,16 @@
     "setName": null,
     "levelReq": 28,
     "category": "armor",
+    "baseName": "Field Plate",
+    "grade": "normal",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 101,
+      "max": 105
+    },
+    "requiredStrength": 55,
+    "durability": 48,
+    "invFile": "invfld",
     "stats": [
       {
         "key": "ac%",
@@ -4235,6 +4915,16 @@
     "setName": null,
     "levelReq": 29,
     "category": "armor",
+    "baseName": "Gothic Plate",
+    "grade": "normal",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 128,
+      "max": 135
+    },
+    "requiredStrength": 70,
+    "durability": 55,
+    "invFile": "invgth",
     "stats": [],
     "fixedStats": [
       {
@@ -4269,6 +4959,16 @@
     "setName": null,
     "levelReq": 28,
     "category": "armor",
+    "baseName": "Full Plate Mail",
+    "grade": "normal",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 150,
+      "max": 161
+    },
+    "requiredStrength": 80,
+    "durability": 70,
+    "invFile": "invfulu",
     "stats": [
       {
         "key": "ac%",
@@ -4312,6 +5012,16 @@
     "setName": null,
     "levelReq": 28,
     "category": "armor",
+    "baseName": "Ancient Armor",
+    "grade": "normal",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 218,
+      "max": 233
+    },
+    "requiredStrength": 100,
+    "durability": 60,
+    "invFile": "invaaru",
     "stats": [
       {
         "key": "ac%",
@@ -4350,6 +5060,16 @@
     "setName": null,
     "levelReq": 29,
     "category": "armor",
+    "baseName": "Light Plate",
+    "grade": "normal",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 90,
+      "max": 107
+    },
+    "requiredStrength": 41,
+    "durability": 60,
+    "invFile": "invltp",
     "stats": [],
     "fixedStats": [
       {
@@ -4394,6 +5114,16 @@
     "setName": null,
     "levelReq": 2,
     "category": "armor",
+    "baseName": "Buckler",
+    "grade": "normal",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 4,
+      "max": 6
+    },
+    "requiredStrength": 12,
+    "durability": 12,
+    "invFile": "invbucu",
     "stats": [
       {
         "key": "ac%",
@@ -4454,6 +5184,16 @@
     "setName": null,
     "levelReq": 9,
     "category": "armor",
+    "baseName": "Small Shield",
+    "grade": "normal",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 8,
+      "max": 10
+    },
+    "requiredStrength": 22,
+    "durability": 16,
+    "invFile": "invsmlu",
     "stats": [
       {
         "key": "ac%",
@@ -4514,6 +5254,16 @@
     "setName": null,
     "levelReq": 13,
     "category": "armor",
+    "baseName": "Large Shield",
+    "grade": "normal",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 12,
+      "max": 14
+    },
+    "requiredStrength": 34,
+    "durability": 24,
+    "invFile": "invlrgu",
     "stats": [
       {
         "key": "dmg-ltng",
@@ -4576,6 +5326,16 @@
     "setName": null,
     "levelReq": 20,
     "category": "armor",
+    "baseName": "Bone Shield",
+    "grade": "normal",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 10,
+      "max": 30
+    },
+    "requiredStrength": 25,
+    "durability": 40,
+    "invFile": "invbshu",
     "stats": [
       {
         "key": "ac%",
@@ -4624,6 +5384,16 @@
     "setName": null,
     "levelReq": 15,
     "category": "armor",
+    "baseName": "Spiked Shield",
+    "grade": "normal",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 15,
+      "max": 25
+    },
+    "requiredStrength": 30,
+    "durability": 40,
+    "invFile": "invspku",
     "stats": [
       {
         "key": "bloody",
@@ -4679,6 +5449,16 @@
     "setName": null,
     "levelReq": 17,
     "category": "armor",
+    "baseName": "Kite Shield",
+    "grade": "normal",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 16,
+      "max": 18
+    },
+    "requiredStrength": 47,
+    "durability": 30,
+    "invFile": "invkitu",
     "stats": [
       {
         "key": "ac%",
@@ -4744,6 +5524,16 @@
     "setName": null,
     "levelReq": 19,
     "category": "armor",
+    "baseName": "Tower Shield",
+    "grade": "normal",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 22,
+      "max": 25
+    },
+    "requiredStrength": 75,
+    "durability": 60,
+    "invFile": "invtowu",
     "stats": [
       {
         "key": "ac%",
@@ -4799,6 +5589,16 @@
     "setName": null,
     "levelReq": 26,
     "category": "armor",
+    "baseName": "Gothic Shield",
+    "grade": "normal",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 30,
+      "max": 35
+    },
+    "requiredStrength": 60,
+    "durability": 40,
+    "invFile": "invgtsu",
     "stats": [
       {
         "key": "res-all",
@@ -4847,6 +5647,16 @@
     "setName": null,
     "levelReq": 5,
     "category": "armor",
+    "baseName": "Leather Gloves",
+    "grade": "normal",
+    "slotCategory": "gloves",
+    "defense": {
+      "min": 2,
+      "max": 3
+    },
+    "requiredStrength": 0,
+    "durability": 12,
+    "invFile": "invlgl",
     "stats": [
       {
         "key": "ac%",
@@ -4895,6 +5705,16 @@
     "setName": null,
     "levelReq": 9,
     "category": "armor",
+    "baseName": "Heavy Gloves",
+    "grade": "normal",
+    "slotCategory": "gloves",
+    "defense": {
+      "min": 5,
+      "max": 6
+    },
+    "requiredStrength": 0,
+    "durability": 14,
+    "invFile": "invvgl",
     "stats": [
       {
         "key": "ac%",
@@ -4943,6 +5763,16 @@
     "setName": null,
     "levelReq": 15,
     "category": "armor",
+    "baseName": "Chain Gloves",
+    "grade": "normal",
+    "slotCategory": "gloves",
+    "defense": {
+      "min": 8,
+      "max": 9
+    },
+    "requiredStrength": 25,
+    "durability": 16,
+    "invFile": "invmgl",
     "stats": [
       {
         "key": "mag%",
@@ -4993,6 +5823,16 @@
     "setName": null,
     "levelReq": 23,
     "category": "armor",
+    "baseName": "Light Gauntlets",
+    "grade": "normal",
+    "slotCategory": "gloves",
+    "defense": {
+      "min": 9,
+      "max": 11
+    },
+    "requiredStrength": 45,
+    "durability": 18,
+    "invFile": "invtgl",
     "stats": [
       {
         "key": "dmg-fire",
@@ -5043,6 +5883,16 @@
     "setName": null,
     "levelReq": 29,
     "category": "armor",
+    "baseName": "Gauntlets",
+    "grade": "normal",
+    "slotCategory": "gloves",
+    "defense": {
+      "min": 12,
+      "max": 15
+    },
+    "requiredStrength": 60,
+    "durability": 24,
+    "invFile": "invhgl",
     "stats": [
       {
         "key": "dmg-cold",
@@ -5088,6 +5938,16 @@
     "setName": null,
     "levelReq": 5,
     "category": "armor",
+    "baseName": "Boots",
+    "grade": "normal",
+    "slotCategory": "boots",
+    "defense": {
+      "min": 2,
+      "max": 3
+    },
+    "requiredStrength": 0,
+    "durability": 12,
+    "invFile": "invlbt",
     "stats": [
       {
         "key": "dmg-fire",
@@ -5138,6 +5998,16 @@
     "setName": null,
     "levelReq": 9,
     "category": "armor",
+    "baseName": "Heavy Boots",
+    "grade": "normal",
+    "slotCategory": "boots",
+    "defense": {
+      "min": 5,
+      "max": 6
+    },
+    "requiredStrength": 18,
+    "durability": 14,
+    "invFile": "invvbt",
     "stats": [
       {
         "key": "bloody",
@@ -5193,6 +6063,16 @@
     "setName": null,
     "levelReq": 15,
     "category": "armor",
+    "baseName": "Chain Boots",
+    "grade": "normal",
+    "slotCategory": "boots",
+    "defense": {
+      "min": 8,
+      "max": 9
+    },
+    "requiredStrength": 30,
+    "durability": 16,
+    "invFile": "invmbt",
     "stats": [
       {
         "key": "ac%",
@@ -5241,6 +6121,16 @@
     "setName": null,
     "levelReq": 22,
     "category": "armor",
+    "baseName": "Light Plated Boots",
+    "grade": "normal",
+    "slotCategory": "boots",
+    "defense": {
+      "min": 9,
+      "max": 11
+    },
+    "requiredStrength": 50,
+    "durability": 18,
+    "invFile": "invtbt",
     "stats": [
       {
         "key": "ac%",
@@ -5289,6 +6179,16 @@
     "setName": null,
     "levelReq": 29,
     "category": "armor",
+    "baseName": "Greaves",
+    "grade": "normal",
+    "slotCategory": "boots",
+    "defense": {
+      "min": 12,
+      "max": 15
+    },
+    "requiredStrength": 70,
+    "durability": 24,
+    "invFile": "invhbt",
     "stats": [
       {
         "key": "ac%",
@@ -5342,6 +6242,16 @@
     "setName": null,
     "levelReq": 7,
     "category": "armor",
+    "baseName": "Sash",
+    "grade": "normal",
+    "slotCategory": "belts",
+    "defense": {
+      "min": 2,
+      "max": 2
+    },
+    "requiredStrength": 0,
+    "durability": 12,
+    "invFile": "invlbl",
     "stats": [],
     "fixedStats": [
       {
@@ -5376,6 +6286,16 @@
     "setName": null,
     "levelReq": 12,
     "category": "armor",
+    "baseName": "Light Belt",
+    "grade": "normal",
+    "slotCategory": "belts",
+    "defense": {
+      "min": 3,
+      "max": 3
+    },
+    "requiredStrength": 0,
+    "durability": 14,
+    "invFile": "invvbl",
     "stats": [
       {
         "key": "ac%",
@@ -5424,6 +6344,16 @@
     "setName": null,
     "levelReq": 20,
     "category": "armor",
+    "baseName": "Belt",
+    "grade": "normal",
+    "slotCategory": "belts",
+    "defense": {
+      "min": 5,
+      "max": 5
+    },
+    "requiredStrength": 25,
+    "durability": 16,
+    "invFile": "invmbl",
     "stats": [
       {
         "key": "ac%",
@@ -5472,6 +6402,16 @@
     "setName": null,
     "levelReq": 27,
     "category": "armor",
+    "baseName": "Heavy Belt",
+    "grade": "normal",
+    "slotCategory": "belts",
+    "defense": {
+      "min": 6,
+      "max": 6
+    },
+    "requiredStrength": 45,
+    "durability": 18,
+    "invFile": "invtbl",
     "stats": [
       {
         "key": "ac%",
@@ -5522,6 +6462,16 @@
     "setName": null,
     "levelReq": 29,
     "category": "armor",
+    "baseName": "Plated Belt",
+    "grade": "normal",
+    "slotCategory": "belts",
+    "defense": {
+      "min": 8,
+      "max": 11
+    },
+    "requiredStrength": 60,
+    "durability": 24,
+    "invFile": "invhbl",
     "stats": [
       {
         "key": "ac%",
@@ -5575,6 +6525,13 @@
     "setName": null,
     "levelReq": 10,
     "category": "other",
+    "baseName": "Amulet",
+    "grade": "normal",
+    "slotCategory": "amulets",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invamu",
     "stats": [
       {
         "key": "dmg-fire",
@@ -5618,6 +6575,13 @@
     "setName": null,
     "levelReq": 15,
     "category": "other",
+    "baseName": "Amulet",
+    "grade": "normal",
+    "slotCategory": "amulets",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invamu",
     "stats": [
       {
         "key": "ac-miss",
@@ -5681,6 +6645,13 @@
     "setName": null,
     "levelReq": 25,
     "category": "other",
+    "baseName": "Amulet",
+    "grade": "normal",
+    "slotCategory": "amulets",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invamu",
     "stats": [],
     "fixedStats": [
       {
@@ -5735,6 +6706,13 @@
     "setName": null,
     "levelReq": 7,
     "category": "other",
+    "baseName": "Ring",
+    "grade": "normal",
+    "slotCategory": "rings",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invrin",
     "stats": [
       {
         "key": "att",
@@ -5775,6 +6753,13 @@
     "setName": null,
     "levelReq": 15,
     "category": "other",
+    "baseName": "Ring",
+    "grade": "normal",
+    "slotCategory": "rings",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invrin",
     "stats": [
       {
         "key": "manasteal",
@@ -5815,6 +6800,13 @@
     "setName": null,
     "levelReq": 29,
     "category": "other",
+    "baseName": "Ring",
+    "grade": "normal",
+    "slotCategory": "rings",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invrin",
     "stats": [],
     "fixedStats": [
       {
@@ -5854,6 +6846,13 @@
     "setName": null,
     "levelReq": 0,
     "category": "other",
+    "baseName": "Amulet of the Viper",
+    "grade": "normal",
+    "slotCategory": "amulets",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invvip",
     "stats": [],
     "fixedStats": [
       {
@@ -5883,6 +6882,13 @@
     "setName": null,
     "levelReq": 0,
     "category": "weapons",
+    "baseName": "Staff of Kings",
+    "grade": "normal",
+    "slotCategory": "staves",
+    "defense": null,
+    "requiredStrength": 25,
+    "durability": 45,
+    "invFile": "invmsf",
     "stats": [],
     "fixedStats": [
       {
@@ -5907,6 +6913,13 @@
     "setName": null,
     "levelReq": 0,
     "category": "weapons",
+    "baseName": "Horadric Staff",
+    "grade": "normal",
+    "slotCategory": "staves",
+    "defense": null,
+    "requiredStrength": 30,
+    "durability": 50,
+    "invFile": "invhst",
     "stats": [],
     "fixedStats": [
       {
@@ -5946,6 +6959,13 @@
     "setName": null,
     "levelReq": 0,
     "category": "weapons",
+    "baseName": "Hellforge Hammer",
+    "grade": "normal",
+    "slotCategory": "hammers",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": 55,
+    "invFile": "invhfh",
     "stats": [],
     "fixedStats": [
       {
@@ -5980,6 +7000,13 @@
     "setName": null,
     "levelReq": 0,
     "category": "weapons",
+    "baseName": "Khalim's Flail",
+    "grade": "normal",
+    "slotCategory": "maces",
+    "defense": null,
+    "requiredStrength": 41,
+    "durability": 30,
+    "invFile": "invqf1",
     "stats": [],
     "fixedStats": [
       {
@@ -6014,6 +7041,13 @@
     "setName": null,
     "levelReq": 0,
     "category": "weapons",
+    "baseName": "Khalim's Will",
+    "grade": "normal",
+    "slotCategory": "maces",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": 30,
+    "invFile": "invqf2",
     "stats": [],
     "fixedStats": [
       {
@@ -6058,6 +7092,13 @@
     "setName": null,
     "levelReq": 36,
     "category": "weapons",
+    "baseName": "Hatchet",
+    "grade": "exceptional",
+    "slotCategory": "axes",
+    "defense": null,
+    "requiredStrength": 25,
+    "durability": 28,
+    "invFile": "invhaxu",
     "stats": [
       {
         "key": "gethit-skill",
@@ -6113,6 +7154,13 @@
     "setName": null,
     "levelReq": 39,
     "category": "weapons",
+    "baseName": "Cleaver",
+    "grade": "exceptional",
+    "slotCategory": "axes",
+    "defense": null,
+    "requiredStrength": 68,
+    "durability": 24,
+    "invFile": "invaxeu",
     "stats": [
       {
         "key": "dmg%",
@@ -6163,6 +7211,13 @@
     "setName": null,
     "levelReq": 43,
     "category": "weapons",
+    "baseName": "Twin Axe",
+    "grade": "exceptional",
+    "slotCategory": "axes",
+    "defense": null,
+    "requiredStrength": 85,
+    "durability": 24,
+    "invFile": "inv2ax",
     "stats": [
       {
         "key": "dmg%",
@@ -6231,6 +7286,13 @@
     "setName": null,
     "levelReq": 45,
     "category": "weapons",
+    "baseName": "Crowbill",
+    "grade": "exceptional",
+    "slotCategory": "axes",
+    "defense": null,
+    "requiredStrength": 94,
+    "durability": 26,
+    "invFile": "invmpiu",
     "stats": [
       {
         "key": "hit-skill",
@@ -6278,6 +7340,13 @@
     "setName": null,
     "levelReq": 48,
     "category": "weapons",
+    "baseName": "Naga",
+    "grade": "exceptional",
+    "slotCategory": "axes",
+    "defense": null,
+    "requiredStrength": 121,
+    "durability": 26,
+    "invFile": "invwax",
     "stats": [
       {
         "key": "hit-skill",
@@ -6328,6 +7397,13 @@
     "setName": null,
     "levelReq": 35,
     "category": "weapons",
+    "baseName": "Military Axe",
+    "grade": "exceptional",
+    "slotCategory": "axes",
+    "defense": null,
+    "requiredStrength": 73,
+    "durability": 30,
+    "invFile": "invlax",
     "stats": [],
     "fixedStats": [
       {
@@ -6362,6 +7438,13 @@
     "setName": null,
     "levelReq": 39,
     "category": "weapons",
+    "baseName": "Bearded Axe",
+    "grade": "exceptional",
+    "slotCategory": "axes",
+    "defense": null,
+    "requiredStrength": 92,
+    "durability": 35,
+    "invFile": "invbrx",
     "stats": [
       {
         "key": "red-mag",
@@ -6438,6 +7521,13 @@
     "setName": null,
     "levelReq": 41,
     "category": "weapons",
+    "baseName": "Tabar",
+    "grade": "exceptional",
+    "slotCategory": "axes",
+    "defense": null,
+    "requiredStrength": 101,
+    "durability": 40,
+    "invFile": "inv9btu",
     "stats": [
       {
         "key": "hit-skill",
@@ -6504,6 +7594,13 @@
     "setName": null,
     "levelReq": 42,
     "category": "weapons",
+    "baseName": "Gothic Axe",
+    "grade": "exceptional",
+    "slotCategory": "axes",
+    "defense": null,
+    "requiredStrength": 115,
+    "durability": 50,
+    "invFile": "invgaxu",
     "stats": [
       {
         "key": "dmg%",
@@ -6556,6 +7653,13 @@
     "setName": null,
     "levelReq": 45,
     "category": "weapons",
+    "baseName": "Ancient Axe",
+    "grade": "exceptional",
+    "slotCategory": "axes",
+    "defense": null,
+    "requiredStrength": 125,
+    "durability": 50,
+    "invFile": "inv9giu",
     "stats": [
       {
         "key": "str",
@@ -6613,6 +7717,13 @@
     "setName": null,
     "levelReq": 33,
     "category": "weapons",
+    "baseName": "Burnt Wand",
+    "grade": "exceptional",
+    "slotCategory": "wands",
+    "defense": null,
+    "requiredStrength": 25,
+    "durability": 15,
+    "invFile": "invwnd",
     "stats": [],
     "fixedStats": [
       {
@@ -6657,6 +7768,13 @@
     "setName": null,
     "levelReq": 35,
     "category": "weapons",
+    "baseName": "Petrified Wand",
+    "grade": "exceptional",
+    "slotCategory": "wands",
+    "defense": null,
+    "requiredStrength": 25,
+    "durability": 15,
+    "invFile": "invywn",
     "stats": [],
     "fixedStats": [
       {
@@ -6696,6 +7814,13 @@
     "setName": null,
     "levelReq": 36,
     "category": "weapons",
+    "baseName": "Tomb Wand",
+    "grade": "exceptional",
+    "slotCategory": "wands",
+    "defense": null,
+    "requiredStrength": 25,
+    "durability": 15,
+    "invFile": "invbwnu",
     "stats": [
       {
         "key": "gethit-skill",
@@ -6761,6 +7886,13 @@
     "setName": null,
     "levelReq": 41,
     "category": "weapons",
+    "baseName": "Grave Wand",
+    "grade": "exceptional",
+    "slotCategory": "wands",
+    "defense": null,
+    "requiredStrength": 25,
+    "durability": 15,
+    "invFile": "inv9gwu",
     "stats": [
       {
         "key": "charged",
@@ -6819,6 +7951,13 @@
     "setName": null,
     "levelReq": 34,
     "category": "weapons",
+    "baseName": "Cudgel",
+    "grade": "exceptional",
+    "slotCategory": "clubs",
+    "defense": null,
+    "requiredStrength": 25,
+    "durability": 24,
+    "invFile": "invclbu",
     "stats": [
       {
         "key": "att%",
@@ -6867,6 +8006,13 @@
     "setName": null,
     "levelReq": 37,
     "category": "weapons",
+    "baseName": "Rune Scepter",
+    "grade": "exceptional",
+    "slotCategory": "scepters",
+    "defense": null,
+    "requiredStrength": 58,
+    "durability": 50,
+    "invFile": "invscp",
     "stats": [
       {
         "key": "hit-skill",
@@ -6932,6 +8078,13 @@
     "setName": null,
     "levelReq": 38,
     "category": "weapons",
+    "baseName": "Holy Water Sprinkler",
+    "grade": "exceptional",
+    "slotCategory": "scepters",
+    "defense": null,
+    "requiredStrength": 76,
+    "durability": 60,
+    "invFile": "invgsc",
     "stats": [
       {
         "key": "hit-skill",
@@ -6993,6 +8146,13 @@
     "setName": null,
     "levelReq": 42,
     "category": "weapons",
+    "baseName": "Divine Scepter",
+    "grade": "exceptional",
+    "slotCategory": "scepters",
+    "defense": null,
+    "requiredStrength": 103,
+    "durability": 70,
+    "invFile": "invwsp",
     "stats": [
       {
         "key": "dmg%",
@@ -7065,6 +8225,13 @@
     "setName": null,
     "levelReq": 38,
     "category": "weapons",
+    "baseName": "Barbed Club",
+    "grade": "exceptional",
+    "slotCategory": "clubs",
+    "defense": null,
+    "requiredStrength": 30,
+    "durability": 36,
+    "invFile": "invspcu",
     "stats": [
       {
         "key": "dmg-norm",
@@ -7130,6 +8297,13 @@
     "setName": null,
     "levelReq": 39,
     "category": "weapons",
+    "baseName": "Flanged Mace",
+    "grade": "exceptional",
+    "slotCategory": "maces",
+    "defense": null,
+    "requiredStrength": 61,
+    "durability": 60,
+    "invFile": "invmac",
     "stats": [
       {
         "key": "dmg-cold",
@@ -7184,6 +8358,13 @@
     "setName": null,
     "levelReq": 42,
     "category": "weapons",
+    "baseName": "Jagged Star",
+    "grade": "exceptional",
+    "slotCategory": "maces",
+    "defense": null,
+    "requiredStrength": 74,
+    "durability": 72,
+    "invFile": "invmstu",
     "stats": [
       {
         "key": "hit-skill",
@@ -7247,6 +8428,13 @@
     "setName": null,
     "levelReq": 45,
     "category": "weapons",
+    "baseName": "Knout",
+    "grade": "exceptional",
+    "slotCategory": "maces",
+    "defense": null,
+    "requiredStrength": 82,
+    "durability": 30,
+    "invFile": "invfla",
     "stats": [
       {
         "key": "hit-skill",
@@ -7306,6 +8494,13 @@
     "setName": null,
     "levelReq": 43,
     "category": "weapons",
+    "baseName": "Battle Hammer",
+    "grade": "exceptional",
+    "slotCategory": "hammers",
+    "defense": null,
+    "requiredStrength": 100,
+    "durability": 55,
+    "invFile": "invwhm",
     "stats": [
       {
         "key": "hit-skill",
@@ -7359,6 +8554,13 @@
     "setName": null,
     "levelReq": 48,
     "category": "weapons",
+    "baseName": "War Club",
+    "grade": "exceptional",
+    "slotCategory": "hammers",
+    "defense": null,
+    "requiredStrength": 124,
+    "durability": 60,
+    "invFile": "invmau",
     "stats": [
       {
         "key": "dmg%",
@@ -7412,6 +8614,13 @@
     "setName": null,
     "levelReq": 45,
     "category": "weapons",
+    "baseName": "Martel de Fer",
+    "grade": "exceptional",
+    "slotCategory": "hammers",
+    "defense": null,
+    "requiredStrength": 169,
+    "durability": 60,
+    "invFile": "inv9gmu",
     "stats": [
       {
         "key": "hit-skill",
@@ -7473,6 +8682,13 @@
     "setName": null,
     "levelReq": 30,
     "category": "weapons",
+    "baseName": "Gladius",
+    "grade": "exceptional",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 25,
+    "durability": 24,
+    "invFile": "invssd",
     "stats": [
       {
         "key": "dmg-norm",
@@ -7540,6 +8756,13 @@
     "setName": null,
     "levelReq": 31,
     "category": "weapons",
+    "baseName": "Cutlass",
+    "grade": "exceptional",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 25,
+    "durability": 22,
+    "invFile": "invscmu",
     "stats": [
       {
         "key": "dmg%",
@@ -7593,6 +8816,13 @@
     "setName": null,
     "levelReq": 33,
     "category": "weapons",
+    "baseName": "Shamshir",
+    "grade": "exceptional",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 58,
+    "durability": 32,
+    "invFile": "invsbru",
     "stats": [
       {
         "key": "charged",
@@ -7650,6 +8880,13 @@
     "setName": null,
     "levelReq": 35,
     "category": "weapons",
+    "baseName": "Tulwar",
+    "grade": "exceptional",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 70,
+    "durability": 32,
+    "invFile": "invflc",
     "stats": [
       {
         "key": "dmg%",
@@ -7685,6 +8922,13 @@
     "setName": null,
     "levelReq": 37,
     "category": "weapons",
+    "baseName": "Dimensional Blade",
+    "grade": "exceptional",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 85,
+    "durability": 20,
+    "invFile": "inv9cru",
     "stats": [
       {
         "key": "red-mag",
@@ -7732,6 +8976,13 @@
     "setName": null,
     "levelReq": 39,
     "category": "weapons",
+    "baseName": "Battle Sword",
+    "grade": "exceptional",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 92,
+    "durability": 32,
+    "invFile": "invbsd",
     "stats": [],
     "fixedStats": [
       {
@@ -7761,6 +9012,13 @@
     "setName": null,
     "levelReq": 41,
     "category": "weapons",
+    "baseName": "Rune Sword",
+    "grade": "exceptional",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 103,
+    "durability": 44,
+    "invFile": "inv9lsu",
     "stats": [
       {
         "key": "hit-skill",
@@ -7811,6 +9069,13 @@
     "setName": null,
     "levelReq": 42,
     "category": "weapons",
+    "baseName": "Ancient Sword",
+    "grade": "exceptional",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 127,
+    "durability": 44,
+    "invFile": "invwsd",
     "stats": [
       {
         "key": "dmg%",
@@ -7869,6 +9134,13 @@
     "setName": null,
     "levelReq": 42,
     "category": "weapons",
+    "baseName": "Espandon",
+    "grade": "exceptional",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 73,
+    "durability": 44,
+    "invFile": "inv2hsu",
     "stats": [
       {
         "key": "dmg%",
@@ -7917,6 +9189,13 @@
     "setName": null,
     "levelReq": 43,
     "category": "weapons",
+    "baseName": "Dacian Falx",
+    "grade": "exceptional",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 91,
+    "durability": 50,
+    "invFile": "invclm",
     "stats": [
       {
         "key": "dmg-cold",
@@ -7969,6 +9248,13 @@
     "setName": null,
     "levelReq": 44,
     "category": "weapons",
+    "baseName": "Tusk Sword",
+    "grade": "exceptional",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 104,
+    "durability": 50,
+    "invFile": "invgisu",
     "stats": [
       {
         "key": "hit-skill",
@@ -8009,6 +9295,13 @@
     "setName": null,
     "levelReq": 45,
     "category": "weapons",
+    "baseName": "Gothic Sword",
+    "grade": "exceptional",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 113,
+    "durability": 40,
+    "invFile": "invbswu",
     "stats": [
       {
         "key": "hit-skill",
@@ -8076,6 +9369,13 @@
     "setName": null,
     "levelReq": 46,
     "category": "weapons",
+    "baseName": "Zweihander",
+    "grade": "exceptional",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 125,
+    "durability": 50,
+    "invFile": "inv9fbu",
     "stats": [
       {
         "key": "dmg-fire",
@@ -8137,6 +9437,13 @@
     "setName": null,
     "levelReq": 48,
     "category": "weapons",
+    "baseName": "Executioner Sword",
+    "grade": "exceptional",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 170,
+    "durability": 50,
+    "invFile": "invgsdu",
     "stats": [
       {
         "key": "res-all",
@@ -8197,6 +9504,13 @@
     "setName": null,
     "levelReq": 32,
     "category": "weapons",
+    "baseName": "Poignard",
+    "grade": "exceptional",
+    "slotCategory": "daggers",
+    "defense": null,
+    "requiredStrength": 25,
+    "durability": 16,
+    "invFile": "invdgr",
     "stats": [
       {
         "key": "dmg%",
@@ -8257,6 +9571,13 @@
     "setName": null,
     "levelReq": 36,
     "category": "weapons",
+    "baseName": "Rondel",
+    "grade": "exceptional",
+    "slotCategory": "daggers",
+    "defense": null,
+    "requiredStrength": 25,
+    "durability": 20,
+    "invFile": "invdir",
     "stats": [
       {
         "key": "dmg-norm",
@@ -8312,6 +9633,13 @@
     "setName": null,
     "levelReq": 38,
     "category": "weapons",
+    "baseName": "Cinquedeas",
+    "grade": "exceptional",
+    "slotCategory": "daggers",
+    "defense": null,
+    "requiredStrength": 25,
+    "durability": 24,
+    "invFile": "invkrsu",
     "stats": [
       {
         "key": "dmg-norm",
@@ -8370,6 +9698,13 @@
     "setName": null,
     "levelReq": 41,
     "category": "weapons",
+    "baseName": "Stilleto",
+    "grade": "exceptional",
+    "slotCategory": "daggers",
+    "defense": null,
+    "requiredStrength": 47,
+    "durability": 24,
+    "invFile": "inv9blu",
     "stats": [
       {
         "key": "dmg-ltng",
@@ -8410,6 +9745,13 @@
     "setName": null,
     "levelReq": 31,
     "category": "weapons",
+    "baseName": "War Spear",
+    "grade": "exceptional",
+    "slotCategory": "spears",
+    "defense": null,
+    "requiredStrength": 25,
+    "durability": 30,
+    "invFile": "invspr",
     "stats": [
       {
         "key": "dmg%",
@@ -8468,6 +9810,13 @@
     "setName": null,
     "levelReq": 33,
     "category": "weapons",
+    "baseName": "Fuscina",
+    "grade": "exceptional",
+    "slotCategory": "spears",
+    "defense": null,
+    "requiredStrength": 77,
+    "durability": 35,
+    "invFile": "invtriu",
     "stats": [
       {
         "key": "dmg-norm",
@@ -8513,6 +9862,13 @@
     "setName": null,
     "levelReq": 35,
     "category": "weapons",
+    "baseName": "War Fork",
+    "grade": "exceptional",
+    "slotCategory": "spears",
+    "defense": null,
+    "requiredStrength": 80,
+    "durability": 28,
+    "invFile": "inv9bru",
     "stats": [
       {
         "key": "dmg%",
@@ -8568,6 +9924,13 @@
     "setName": null,
     "levelReq": 37,
     "category": "weapons",
+    "baseName": "Yari",
+    "grade": "exceptional",
+    "slotCategory": "spears",
+    "defense": null,
+    "requiredStrength": 101,
+    "durability": 28,
+    "invFile": "invspt",
     "stats": [
       {
         "key": "dmg-norm",
@@ -8603,6 +9966,13 @@
     "setName": null,
     "levelReq": 39,
     "category": "weapons",
+    "baseName": "Lance",
+    "grade": "exceptional",
+    "slotCategory": "spears",
+    "defense": null,
+    "requiredStrength": 110,
+    "durability": 25,
+    "invFile": "invpik",
     "stats": [
       {
         "key": "dmg-norm",
@@ -8663,6 +10033,13 @@
     "setName": null,
     "levelReq": 41,
     "category": "weapons",
+    "baseName": "Lochaber Axe",
+    "grade": "exceptional",
+    "slotCategory": "polearms",
+    "defense": null,
+    "requiredStrength": 80,
+    "durability": 50,
+    "invFile": "invbar",
     "stats": [
       {
         "key": "dmg%",
@@ -8711,6 +10088,13 @@
     "setName": null,
     "levelReq": 42,
     "category": "weapons",
+    "baseName": "Bill",
+    "grade": "exceptional",
+    "slotCategory": "polearms",
+    "defense": null,
+    "requiredStrength": 95,
+    "durability": 50,
+    "invFile": "invvou",
     "stats": [
       {
         "key": "dmg%",
@@ -8754,6 +10138,13 @@
     "setName": null,
     "levelReq": 42,
     "category": "weapons",
+    "baseName": "Battle Scythe",
+    "grade": "exceptional",
+    "slotCategory": "polearms",
+    "defense": null,
+    "requiredStrength": 82,
+    "durability": 65,
+    "invFile": "inv9s8u",
     "stats": [
       {
         "key": "dru",
@@ -8794,6 +10185,13 @@
     "setName": null,
     "levelReq": 43,
     "category": "weapons",
+    "baseName": "Partizan",
+    "grade": "exceptional",
+    "slotCategory": "polearms",
+    "defense": null,
+    "requiredStrength": 113,
+    "durability": 65,
+    "invFile": "invpax",
     "stats": [
       {
         "key": "dmg-norm",
@@ -8851,6 +10249,13 @@
     "setName": null,
     "levelReq": 44,
     "category": "weapons",
+    "baseName": "Bec-de-Corbin",
+    "grade": "exceptional",
+    "slotCategory": "polearms",
+    "defense": null,
+    "requiredStrength": 133,
+    "durability": 55,
+    "invFile": "invhal",
     "stats": [
       {
         "key": "att",
@@ -8903,6 +10308,13 @@
     "setName": null,
     "levelReq": 45,
     "category": "weapons",
+    "baseName": "Grim Scythe",
+    "grade": "exceptional",
+    "slotCategory": "polearms",
+    "defense": null,
+    "requiredStrength": 140,
+    "durability": 55,
+    "invFile": "invwsc",
     "stats": [
       {
         "key": "dmg-fire",
@@ -8970,6 +10382,13 @@
     "setName": null,
     "levelReq": 28,
     "category": "weapons",
+    "baseName": "Jo Staff",
+    "grade": "exceptional",
+    "slotCategory": "staves",
+    "defense": null,
+    "requiredStrength": 25,
+    "durability": 20,
+    "invFile": "invsst",
     "stats": [],
     "fixedStats": [
       {
@@ -9019,6 +10438,13 @@
     "setName": null,
     "levelReq": 31,
     "category": "weapons",
+    "baseName": "Quarterstaff",
+    "grade": "exceptional",
+    "slotCategory": "staves",
+    "defense": null,
+    "requiredStrength": 25,
+    "durability": 30,
+    "invFile": "invlst",
     "stats": [
       {
         "key": "dmg-norm",
@@ -9084,6 +10510,13 @@
     "setName": null,
     "levelReq": 35,
     "category": "weapons",
+    "baseName": "Cedar Staff",
+    "grade": "exceptional",
+    "slotCategory": "staves",
+    "defense": null,
+    "requiredStrength": 25,
+    "durability": 35,
+    "invFile": "invcstu",
     "stats": [
       {
         "key": "res-all",
@@ -9144,6 +10577,13 @@
     "setName": null,
     "levelReq": 39,
     "category": "weapons",
+    "baseName": "Gothic Staff",
+    "grade": "exceptional",
+    "slotCategory": "staves",
+    "defense": null,
+    "requiredStrength": 25,
+    "durability": 40,
+    "invFile": "invbst",
     "stats": [],
     "fixedStats": [
       {
@@ -9188,6 +10628,13 @@
     "setName": null,
     "levelReq": 41,
     "category": "weapons",
+    "baseName": "Rune Staff",
+    "grade": "exceptional",
+    "slotCategory": "staves",
+    "defense": null,
+    "requiredStrength": 25,
+    "durability": 50,
+    "invFile": "inv8wsu",
     "stats": [],
     "fixedStats": [
       {
@@ -9217,6 +10664,13 @@
     "setName": null,
     "levelReq": 28,
     "category": "weapons",
+    "baseName": "Edge Bow",
+    "grade": "exceptional",
+    "slotCategory": "bows",
+    "defense": null,
+    "requiredStrength": 25,
+    "durability": 20,
+    "invFile": "invsbw",
     "stats": [
       {
         "key": "dmg-ltng",
@@ -9274,6 +10728,13 @@
     "setName": null,
     "levelReq": 31,
     "category": "weapons",
+    "baseName": "Razor Bow",
+    "grade": "exceptional",
+    "slotCategory": "bows",
+    "defense": null,
+    "requiredStrength": 25,
+    "durability": 32,
+    "invFile": "invhbw",
     "stats": [
       {
         "key": "dmg%",
@@ -9324,6 +10785,13 @@
     "setName": null,
     "levelReq": 33,
     "category": "weapons",
+    "baseName": "Cedar Bow",
+    "grade": "exceptional",
+    "slotCategory": "bows",
+    "defense": null,
+    "requiredStrength": 53,
+    "durability": 28,
+    "invFile": "inv8lbu",
     "stats": [
       {
         "key": "dmg%",
@@ -9374,6 +10842,13 @@
     "setName": null,
     "levelReq": 36,
     "category": "weapons",
+    "baseName": "Double Bow",
+    "grade": "exceptional",
+    "slotCategory": "bows",
+    "defense": null,
+    "requiredStrength": 58,
+    "durability": 36,
+    "invFile": "invcbwu",
     "stats": [
       {
         "key": "skill",
@@ -9426,6 +10901,13 @@
     "setName": null,
     "levelReq": 39,
     "category": "weapons",
+    "baseName": "Short Siege Bow",
+    "grade": "exceptional",
+    "slotCategory": "bows",
+    "defense": null,
+    "requiredStrength": 65,
+    "durability": 40,
+    "invFile": "inv8s8u",
     "stats": [
       {
         "key": "hit-skill",
@@ -9466,6 +10948,13 @@
     "setName": null,
     "levelReq": 41,
     "category": "weapons",
+    "baseName": "Long Siege Bow",
+    "grade": "exceptional",
+    "slotCategory": "bows",
+    "defense": null,
+    "requiredStrength": 80,
+    "durability": 44,
+    "invFile": "invlbb",
     "stats": [
       {
         "key": "dmg%",
@@ -9523,6 +11012,13 @@
     "setName": null,
     "levelReq": 43,
     "category": "weapons",
+    "baseName": "Rune Bow",
+    "grade": "exceptional",
+    "slotCategory": "bows",
+    "defense": null,
+    "requiredStrength": 73,
+    "durability": 48,
+    "invFile": "invswbu",
     "stats": [
       {
         "key": "red-mag",
@@ -9592,6 +11088,13 @@
     "setName": null,
     "levelReq": 46,
     "category": "weapons",
+    "baseName": "Gothic Bow",
+    "grade": "exceptional",
+    "slotCategory": "bows",
+    "defense": null,
+    "requiredStrength": 95,
+    "durability": 55,
+    "invFile": "invlwb",
     "stats": [
       {
         "key": "dmg%",
@@ -9653,6 +11156,13 @@
     "setName": null,
     "levelReq": 32,
     "category": "weapons",
+    "baseName": "Arbalest",
+    "grade": "exceptional",
+    "slotCategory": "crossbows",
+    "defense": null,
+    "requiredStrength": 52,
+    "durability": 30,
+    "invFile": "inv8lxu",
     "stats": [
       {
         "key": "dmg%",
@@ -9712,6 +11222,13 @@
     "setName": null,
     "levelReq": 36,
     "category": "weapons",
+    "baseName": "Siege Crossbow",
+    "grade": "exceptional",
+    "slotCategory": "crossbows",
+    "defense": null,
+    "requiredStrength": 80,
+    "durability": 40,
+    "invFile": "inv8mxu",
     "stats": [
       {
         "key": "hit-skill",
@@ -9769,6 +11286,13 @@
     "setName": null,
     "levelReq": 41,
     "category": "weapons",
+    "baseName": "Ballista",
+    "grade": "exceptional",
+    "slotCategory": "crossbows",
+    "defense": null,
+    "requiredStrength": 110,
+    "durability": 50,
+    "invFile": "invhxbu",
     "stats": [
       {
         "key": "ac",
@@ -9826,6 +11350,13 @@
     "setName": null,
     "levelReq": 49,
     "category": "weapons",
+    "baseName": "Chu-Ko-Nu",
+    "grade": "exceptional",
+    "slotCategory": "crossbows",
+    "defense": null,
+    "requiredStrength": 80,
+    "durability": 40,
+    "invFile": "invrxbu",
     "stats": [],
     "fixedStats": [
       {
@@ -9875,6 +11406,16 @@
     "setName": null,
     "levelReq": 28,
     "category": "armor",
+    "baseName": "War Hat",
+    "grade": "exceptional",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 45,
+      "max": 53
+    },
+    "requiredStrength": 20,
+    "durability": 12,
+    "invFile": "invcap",
     "stats": [
       {
         "key": "regen",
@@ -9923,6 +11464,16 @@
     "setName": null,
     "levelReq": 31,
     "category": "armor",
+    "baseName": "Sallet",
+    "grade": "exceptional",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 52,
+      "max": 62
+    },
+    "requiredStrength": 43,
+    "durability": 18,
+    "invFile": "invxkpu",
     "stats": [
       {
         "key": "res-ltng",
@@ -9982,6 +11533,16 @@
     "setName": null,
     "levelReq": 35,
     "category": "armor",
+    "baseName": "Casque",
+    "grade": "exceptional",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 63,
+      "max": 72
+    },
+    "requiredStrength": 59,
+    "durability": 24,
+    "invFile": "invhlmu",
     "stats": [
       {
         "key": "ac%",
@@ -10032,6 +11593,16 @@
     "setName": null,
     "levelReq": 38,
     "category": "armor",
+    "baseName": "Basinet",
+    "grade": "exceptional",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 75,
+      "max": 84
+    },
+    "requiredStrength": 82,
+    "durability": 30,
+    "invFile": "invfhlu",
     "stats": [
       {
         "key": "gethit-skill",
@@ -10084,6 +11655,16 @@
     "setName": null,
     "levelReq": 44,
     "category": "armor",
+    "baseName": "Winged Helm",
+    "grade": "exceptional",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 85,
+      "max": 98
+    },
+    "requiredStrength": 115,
+    "durability": 40,
+    "invFile": "invghm",
     "stats": [
       {
         "key": "ac%",
@@ -10131,6 +11712,16 @@
     "setName": null,
     "levelReq": 49,
     "category": "armor",
+    "baseName": "Grand Crown",
+    "grade": "exceptional",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 78,
+      "max": 113
+    },
+    "requiredStrength": 103,
+    "durability": 50,
+    "invFile": "invxrnu",
     "stats": [
       {
         "key": "lifesteal",
@@ -10188,6 +11779,16 @@
     "setName": null,
     "levelReq": 41,
     "category": "armor",
+    "baseName": "Death Mask",
+    "grade": "exceptional",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 54,
+      "max": 86
+    },
+    "requiredStrength": 55,
+    "durability": 20,
+    "invFile": "invmsk",
     "stats": [
       {
         "key": "ac%",
@@ -10236,6 +11837,16 @@
     "setName": null,
     "levelReq": 41,
     "category": "armor",
+    "baseName": "Grim Helm",
+    "grade": "exceptional",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 60,
+      "max": 125
+    },
+    "requiredStrength": 58,
+    "durability": 40,
+    "invFile": "invbhmu",
     "stats": [
       {
         "key": "manasteal",
@@ -10297,6 +11908,16 @@
     "setName": null,
     "levelReq": 28,
     "category": "armor",
+    "baseName": "Ghost Armor",
+    "grade": "exceptional",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 102,
+      "max": 117
+    },
+    "requiredStrength": 38,
+    "durability": 20,
+    "invFile": "invqlt",
     "stats": [
       {
         "key": "red-mag",
@@ -10340,6 +11961,16 @@
     "setName": null,
     "levelReq": 29,
     "category": "armor",
+    "baseName": "Serpentskin Armor",
+    "grade": "exceptional",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 111,
+      "max": 126
+    },
+    "requiredStrength": 43,
+    "durability": 24,
+    "invFile": "invlea",
     "stats": [
       {
         "key": "res-all",
@@ -10385,6 +12016,16 @@
     "setName": null,
     "levelReq": 31,
     "category": "armor",
+    "baseName": "Demonhide Armor",
+    "grade": "exceptional",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 122,
+      "max": 136
+    },
+    "requiredStrength": 50,
+    "durability": 28,
+    "invFile": "invhla",
     "stats": [
       {
         "key": "regen",
@@ -10432,6 +12073,16 @@
     "setName": null,
     "levelReq": 33,
     "category": "armor",
+    "baseName": "Trellised Armor",
+    "grade": "exceptional",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 138,
+      "max": 153
+    },
+    "requiredStrength": 61,
+    "durability": 32,
+    "invFile": "invxtuu",
     "stats": [
       {
         "key": "red-mag",
@@ -10479,6 +12130,16 @@
     "setName": null,
     "levelReq": 35,
     "category": "armor",
+    "baseName": "Linked Mail",
+    "grade": "exceptional",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 158,
+      "max": 172
+    },
+    "requiredStrength": 74,
+    "durability": 26,
+    "invFile": "invrng",
     "stats": [
       {
         "key": "dmg-fire",
@@ -10524,6 +12185,16 @@
     "setName": null,
     "levelReq": 37,
     "category": "armor",
+    "baseName": "Tigulated Mail",
+    "grade": "exceptional",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 176,
+      "max": 190
+    },
+    "requiredStrength": 86,
+    "durability": 36,
+    "invFile": "invscl",
     "stats": [
       {
         "key": "ac%",
@@ -10574,6 +12245,16 @@
     "setName": null,
     "levelReq": 38,
     "category": "armor",
+    "baseName": "Mesh Armor",
+    "grade": "exceptional",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 198,
+      "max": 213
+    },
+    "requiredStrength": 92,
+    "durability": 45,
+    "invFile": "invchn",
     "stats": [
       {
         "key": "ac%",
@@ -10612,6 +12293,16 @@
     "setName": null,
     "levelReq": 41,
     "category": "armor",
+    "baseName": "Cuirass",
+    "grade": "exceptional",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 188,
+      "max": 202
+    },
+    "requiredStrength": 65,
+    "durability": 50,
+    "invFile": "invbrs",
     "stats": [
       {
         "key": "ac%",
@@ -10670,6 +12361,16 @@
     "setName": null,
     "levelReq": 42,
     "category": "armor",
+    "baseName": "Russet Armor",
+    "grade": "exceptional",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 225,
+      "max": 243
+    },
+    "requiredStrength": 97,
+    "durability": 30,
+    "invFile": "invspl",
     "stats": [
       {
         "key": "ac%",
@@ -10708,6 +12409,16 @@
     "setName": null,
     "levelReq": 45,
     "category": "armor",
+    "baseName": "Templar Coat",
+    "grade": "exceptional",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 252,
+      "max": 274
+    },
+    "requiredStrength": 118,
+    "durability": 60,
+    "invFile": "invplt",
     "stats": [
       {
         "key": "ac%",
@@ -10756,6 +12467,16 @@
     "setName": null,
     "levelReq": 48,
     "category": "armor",
+    "baseName": "Sharktooth Armor",
+    "grade": "exceptional",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 242,
+      "max": 258
+    },
+    "requiredStrength": 103,
+    "durability": 48,
+    "invFile": "invfld",
     "stats": [
       {
         "key": "thorns",
@@ -10813,6 +12534,16 @@
     "setName": null,
     "levelReq": 51,
     "category": "armor",
+    "baseName": "Embossed Plate",
+    "grade": "exceptional",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 282,
+      "max": 303
+    },
+    "requiredStrength": 125,
+    "durability": 55,
+    "invFile": "invgth",
     "stats": [
       {
         "key": "ac%",
@@ -10866,6 +12597,16 @@
     "setName": null,
     "levelReq": 53,
     "category": "armor",
+    "baseName": "Chaos Armor",
+    "grade": "exceptional",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 315,
+      "max": 342
+    },
+    "requiredStrength": 140,
+    "durability": 70,
+    "invFile": "invful",
     "stats": [
       {
         "key": "att-demon",
@@ -10913,6 +12654,16 @@
     "setName": null,
     "levelReq": 55,
     "category": "armor",
+    "baseName": "Ornate Armor",
+    "grade": "exceptional",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 417,
+      "max": 450
+    },
+    "requiredStrength": 170,
+    "durability": 60,
+    "invFile": "invxaru",
     "stats": [
       {
         "key": "gethit-skill",
@@ -10972,6 +12723,16 @@
     "setName": null,
     "levelReq": 51,
     "category": "armor",
+    "baseName": "Mage Plate",
+    "grade": "exceptional",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 225,
+      "max": 261
+    },
+    "requiredStrength": 55,
+    "durability": 60,
+    "invFile": "invltp",
     "stats": [
       {
         "key": "red-mag",
@@ -11027,6 +12788,16 @@
     "setName": null,
     "levelReq": 28,
     "category": "armor",
+    "baseName": "Defender",
+    "grade": "exceptional",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 41,
+      "max": 49
+    },
+    "requiredStrength": 38,
+    "durability": 68,
+    "invFile": "invbucu",
     "stats": [
       {
         "key": "ac%",
@@ -11070,6 +12841,16 @@
     "setName": null,
     "levelReq": 31,
     "category": "armor",
+    "baseName": "Round Shield",
+    "grade": "exceptional",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 47,
+      "max": 55
+    },
+    "requiredStrength": 53,
+    "durability": 64,
+    "invFile": "invxmlu",
     "stats": [
       {
         "key": "ac%",
@@ -11108,6 +12889,16 @@
     "setName": null,
     "levelReq": 35,
     "category": "armor",
+    "baseName": "Scutum",
+    "grade": "exceptional",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 53,
+      "max": 61
+    },
+    "requiredStrength": 71,
+    "durability": 62,
+    "invFile": "invxrgu",
     "stats": [
       {
         "key": "dmg-ltng",
@@ -11177,6 +12968,16 @@
     "setName": null,
     "levelReq": 38,
     "category": "armor",
+    "baseName": "Dragon Shield",
+    "grade": "exceptional",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 59,
+      "max": 67
+    },
+    "requiredStrength": 91,
+    "durability": 76,
+    "invFile": "invkitu",
     "stats": [
       {
         "key": "dmg-cold",
@@ -11254,6 +13055,16 @@
     "setName": null,
     "levelReq": 44,
     "category": "armor",
+    "baseName": "Pavise",
+    "grade": "exceptional",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 68,
+      "max": 78
+    },
+    "requiredStrength": 133,
+    "durability": 72,
+    "invFile": "invtowu",
     "stats": [
       {
         "key": "red-dmg",
@@ -11313,6 +13124,16 @@
     "setName": null,
     "levelReq": 50,
     "category": "armor",
+    "baseName": "Ancient Shield",
+    "grade": "exceptional",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 80,
+      "max": 93
+    },
+    "requiredStrength": 110,
+    "durability": 80,
+    "invFile": "invgtsu",
     "stats": [
       {
         "key": "ac%",
@@ -11373,6 +13194,16 @@
     "setName": null,
     "levelReq": 41,
     "category": "armor",
+    "baseName": "Grim Shield",
+    "grade": "exceptional",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 50,
+      "max": 150
+    },
+    "requiredStrength": 58,
+    "durability": 70,
+    "invFile": "invxshu",
     "stats": [
       {
         "key": "mana-kill",
@@ -11428,6 +13259,16 @@
     "setName": null,
     "levelReq": 35,
     "category": "armor",
+    "baseName": "Barbed Shield",
+    "grade": "exceptional",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 58,
+      "max": 78
+    },
+    "requiredStrength": 65,
+    "durability": 55,
+    "invFile": "invxpku",
     "stats": [
       {
         "key": "ac%",
@@ -11476,6 +13317,16 @@
     "setName": null,
     "levelReq": 29,
     "category": "armor",
+    "baseName": "Demonhide Gloves",
+    "grade": "exceptional",
+    "slotCategory": "gloves",
+    "defense": {
+      "min": 28,
+      "max": 35
+    },
+    "requiredStrength": 20,
+    "durability": 12,
+    "invFile": "invlgl",
     "stats": [
       {
         "key": "ac",
@@ -11531,6 +13382,16 @@
     "setName": null,
     "levelReq": 32,
     "category": "armor",
+    "baseName": "Sharkskin Gloves",
+    "grade": "exceptional",
+    "slotCategory": "gloves",
+    "defense": {
+      "min": 33,
+      "max": 39
+    },
+    "requiredStrength": 20,
+    "durability": 14,
+    "invFile": "invvgl",
     "stats": [
       {
         "key": "dmg-undead",
@@ -11578,6 +13439,16 @@
     "setName": null,
     "levelReq": 36,
     "category": "armor",
+    "baseName": "Heavy Bracers",
+    "grade": "exceptional",
+    "slotCategory": "gloves",
+    "defense": {
+      "min": 37,
+      "max": 44
+    },
+    "requiredStrength": 58,
+    "durability": 16,
+    "invFile": "invmgl",
     "stats": [
       {
         "key": "manasteal",
@@ -11613,6 +13484,16 @@
     "setName": null,
     "levelReq": 42,
     "category": "armor",
+    "baseName": "Battle Gauntlets",
+    "grade": "exceptional",
+    "slotCategory": "gloves",
+    "defense": {
+      "min": 39,
+      "max": 47
+    },
+    "requiredStrength": 88,
+    "durability": 18,
+    "invFile": "invtgl",
     "stats": [
       {
         "key": "hit-skill",
@@ -11670,6 +13551,16 @@
     "setName": null,
     "levelReq": 47,
     "category": "armor",
+    "baseName": "War Gauntlets",
+    "grade": "exceptional",
+    "slotCategory": "gloves",
+    "defense": {
+      "min": 43,
+      "max": 53
+    },
+    "requiredStrength": 110,
+    "durability": 24,
+    "invFile": "invhgl",
     "stats": [
       {
         "key": "dmg-fire",
@@ -11724,6 +13615,16 @@
     "setName": null,
     "levelReq": 29,
     "category": "armor",
+    "baseName": "Demonhide Boots",
+    "grade": "exceptional",
+    "slotCategory": "boots",
+    "defense": {
+      "min": 28,
+      "max": 35
+    },
+    "requiredStrength": 20,
+    "durability": 12,
+    "invFile": "invlbt",
     "stats": [
       {
         "key": "dmg-fire",
@@ -11793,6 +13694,16 @@
     "setName": null,
     "levelReq": 32,
     "category": "armor",
+    "baseName": "Sharkskin Boots",
+    "grade": "exceptional",
+    "slotCategory": "boots",
+    "defense": {
+      "min": 33,
+      "max": 39
+    },
+    "requiredStrength": 47,
+    "durability": 14,
+    "invFile": "invvbt",
     "stats": [
       {
         "key": "ac%",
@@ -11853,6 +13764,16 @@
     "setName": null,
     "levelReq": 36,
     "category": "armor",
+    "baseName": "Mesh Boots",
+    "grade": "exceptional",
+    "slotCategory": "boots",
+    "defense": {
+      "min": 37,
+      "max": 44
+    },
+    "requiredStrength": 65,
+    "durability": 16,
+    "invFile": "invmbt",
     "stats": [
       {
         "key": "ac%",
@@ -11896,6 +13817,16 @@
     "setName": null,
     "levelReq": 42,
     "category": "armor",
+    "baseName": "Battle Boots",
+    "grade": "exceptional",
+    "slotCategory": "boots",
+    "defense": {
+      "min": 39,
+      "max": 47
+    },
+    "requiredStrength": 95,
+    "durability": 18,
+    "invFile": "invtbt",
     "stats": [
       {
         "key": "mag%",
@@ -11965,6 +13896,16 @@
     "setName": null,
     "levelReq": 47,
     "category": "armor",
+    "baseName": "War Boots",
+    "grade": "exceptional",
+    "slotCategory": "boots",
+    "defense": {
+      "min": 43,
+      "max": 53
+    },
+    "requiredStrength": 125,
+    "durability": 24,
+    "invFile": "invhbt",
     "stats": [
       {
         "key": "ac%",
@@ -12023,6 +13964,16 @@
     "setName": null,
     "levelReq": 29,
     "category": "armor",
+    "baseName": "Demonhide Sash",
+    "grade": "exceptional",
+    "slotCategory": "belts",
+    "defense": {
+      "min": 29,
+      "max": 34
+    },
+    "requiredStrength": 20,
+    "durability": 12,
+    "invFile": "invlbl",
     "stats": [
       {
         "key": "red-mag",
@@ -12077,6 +14028,16 @@
     "setName": null,
     "levelReq": 32,
     "category": "armor",
+    "baseName": "Sharkskin Belt",
+    "grade": "exceptional",
+    "slotCategory": "belts",
+    "defense": {
+      "min": 31,
+      "max": 36
+    },
+    "requiredStrength": 20,
+    "durability": 14,
+    "invFile": "invvbl",
     "stats": [
       {
         "key": "ac%",
@@ -12120,6 +14081,16 @@
     "setName": null,
     "levelReq": 36,
     "category": "armor",
+    "baseName": "Mesh Belt",
+    "grade": "exceptional",
+    "slotCategory": "belts",
+    "defense": {
+      "min": 35,
+      "max": 40
+    },
+    "requiredStrength": 58,
+    "durability": 16,
+    "invFile": "invmbl",
     "stats": [
       {
         "key": "ac%",
@@ -12168,6 +14139,16 @@
     "setName": null,
     "levelReq": 42,
     "category": "armor",
+    "baseName": "Battle Belt",
+    "grade": "exceptional",
+    "slotCategory": "belts",
+    "defense": {
+      "min": 37,
+      "max": 42
+    },
+    "requiredStrength": 88,
+    "durability": 18,
+    "invFile": "invtbl",
     "stats": [
       {
         "key": "gethit-skill",
@@ -12230,6 +14211,16 @@
     "setName": null,
     "levelReq": 47,
     "category": "armor",
+    "baseName": "War Belt",
+    "grade": "exceptional",
+    "slotCategory": "belts",
+    "defense": {
+      "min": 41,
+      "max": 52
+    },
+    "requiredStrength": 110,
+    "durability": 24,
+    "invFile": "invhbl",
     "stats": [
       {
         "key": "gethit-skill",
@@ -12297,6 +14288,16 @@
     "setName": null,
     "levelReq": 62,
     "category": "armor",
+    "baseName": "Shako",
+    "grade": "elite",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 98,
+      "max": 141
+    },
+    "requiredStrength": 50,
+    "durability": 12,
+    "invFile": "invcap",
     "stats": [],
     "fixedStats": [
       {
@@ -12346,6 +14347,16 @@
     "setName": null,
     "levelReq": 73,
     "category": "armor",
+    "baseName": "Spired Helm",
+    "grade": "elite",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 114,
+      "max": 159
+    },
+    "requiredStrength": 192,
+    "durability": 40,
+    "invFile": "invghm",
     "stats": [],
     "fixedStats": [
       {
@@ -12395,6 +14406,16 @@
     "setName": null,
     "levelReq": 85,
     "category": "armor",
+    "baseName": "Wire Fleece",
+    "grade": "elite",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 375,
+      "max": 481
+    },
+    "requiredStrength": 111,
+    "durability": 32,
+    "invFile": "invstu",
     "stats": [
       {
         "key": "ac%",
@@ -12462,6 +14483,16 @@
     "setName": null,
     "levelReq": 85,
     "category": "armor",
+    "baseName": "Balrog Skin",
+    "grade": "elite",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 410,
+      "max": 517
+    },
+    "requiredStrength": 165,
+    "durability": 30,
+    "invFile": "invspl",
     "stats": [
       {
         "key": "ac%",
@@ -12504,6 +14535,16 @@
     "setName": null,
     "levelReq": 61,
     "category": "armor",
+    "baseName": "Luna",
+    "grade": "elite",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 108,
+      "max": 123
+    },
+    "requiredStrength": 100,
+    "durability": 84,
+    "invFile": "invsmlu",
     "stats": [
       {
         "key": "ac%",
@@ -12549,6 +14590,16 @@
     "setName": null,
     "levelReq": 73,
     "category": "armor",
+    "baseName": "Monarch",
+    "grade": "elite",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 133,
+      "max": 148
+    },
+    "requiredStrength": 156,
+    "durability": 86,
+    "invFile": "invkitu",
     "stats": [],
     "fixedStats": [
       {
@@ -12603,6 +14654,13 @@
     "setName": null,
     "levelReq": 66,
     "category": "weapons",
+    "baseName": "Decapitator",
+    "grade": "elite",
+    "slotCategory": "axes",
+    "defense": null,
+    "requiredStrength": 189,
+    "durability": 40,
+    "invFile": "invbtxu",
     "stats": [
       {
         "key": "dmg-fire",
@@ -12643,6 +14701,13 @@
     "setName": null,
     "levelReq": 70,
     "category": "weapons",
+    "baseName": "Champion Axe",
+    "grade": "elite",
+    "slotCategory": "axes",
+    "defense": null,
+    "requiredStrength": 167,
+    "durability": 50,
+    "invFile": "invgaxu",
     "stats": [
       {
         "key": "dmg-fire",
@@ -12701,6 +14766,13 @@
     "setName": null,
     "levelReq": 65,
     "category": "weapons",
+    "baseName": "Devil Star",
+    "grade": "elite",
+    "slotCategory": "maces",
+    "defense": null,
+    "requiredStrength": 153,
+    "durability": 72,
+    "invFile": "invmstu",
     "stats": [
       {
         "key": "dmg-ltng",
@@ -12768,6 +14840,13 @@
     "setName": null,
     "levelReq": 79,
     "category": "weapons",
+    "baseName": "Legendary Mallet",
+    "grade": "elite",
+    "slotCategory": "hammers",
+    "defense": null,
+    "requiredStrength": 189,
+    "durability": 65,
+    "invFile": "invwhm",
     "stats": [
       {
         "key": "hit-skill",
@@ -12830,6 +14909,13 @@
     "setName": null,
     "levelReq": 87,
     "category": "weapons",
+    "baseName": "Thunder Maul",
+    "grade": "elite",
+    "slotCategory": "hammers",
+    "defense": null,
+    "requiredStrength": 253,
+    "durability": 60,
+    "invFile": "invgma",
     "stats": [
       {
         "key": "dmg%",
@@ -12890,6 +14976,13 @@
     "setName": null,
     "levelReq": 58,
     "category": "weapons",
+    "baseName": "Phase Blade",
+    "grade": "elite",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 25,
+    "durability": 0,
+    "invFile": "invcrsu",
     "stats": [
       {
         "key": "att-skill",
@@ -12968,6 +15061,13 @@
     "setName": null,
     "levelReq": 69,
     "category": "weapons",
+    "baseName": "Champion Sword",
+    "grade": "elite",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 163,
+    "durability": 40,
+    "invFile": "invbswu",
     "stats": [
       {
         "key": "dmg%",
@@ -13027,6 +15127,13 @@
     "setName": null,
     "levelReq": 81,
     "category": "weapons",
+    "baseName": "Colossus Blade",
+    "grade": "elite",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 189,
+    "durability": 50,
+    "invFile": "invgsdu",
     "stats": [
       {
         "key": "dmg%",
@@ -13085,6 +15192,13 @@
     "setName": null,
     "levelReq": 61,
     "category": "weapons",
+    "baseName": "Bone Knife",
+    "grade": "elite",
+    "slotCategory": "daggers",
+    "defense": null,
+    "requiredStrength": 38,
+    "durability": 26,
+    "invFile": "invdgr",
     "stats": [],
     "fixedStats": [
       {
@@ -13124,6 +15238,13 @@
     "setName": null,
     "levelReq": 70,
     "category": "weapons",
+    "baseName": "Giant Thresher",
+    "grade": "elite",
+    "slotCategory": "polearms",
+    "defense": null,
+    "requiredStrength": 188,
+    "durability": 55,
+    "invFile": "invwsc",
     "stats": [
       {
         "key": "dmg%",
@@ -13191,6 +15312,13 @@
     "setName": null,
     "levelReq": 69,
     "category": "weapons",
+    "baseName": "Crusader Bow",
+    "grade": "elite",
+    "slotCategory": "bows",
+    "defense": null,
+    "requiredStrength": 97,
+    "durability": 44,
+    "invFile": "invlbb",
     "stats": [],
     "fixedStats": [
       {
@@ -13225,6 +15353,13 @@
     "setName": null,
     "levelReq": 73,
     "category": "weapons",
+    "baseName": "Hydra Bow",
+    "grade": "elite",
+    "slotCategory": "bows",
+    "defense": null,
+    "requiredStrength": 134,
+    "durability": 55,
+    "invFile": "invlwb",
     "stats": [
       {
         "key": "manasteal",
@@ -13278,6 +15413,13 @@
     "setName": null,
     "levelReq": 58,
     "category": "other",
+    "baseName": "Ring",
+    "grade": "normal",
+    "slotCategory": "rings",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invrin",
     "stats": [
       {
         "key": "lifesteal",
@@ -13311,6 +15453,13 @@
     "setName": null,
     "levelReq": 50,
     "category": "other",
+    "baseName": "Amulet",
+    "grade": "normal",
+    "slotCategory": "amulets",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invamu",
     "stats": [],
     "fixedStats": [
       {
@@ -13350,6 +15499,13 @@
     "setName": null,
     "levelReq": 65,
     "category": "other",
+    "baseName": "Amulet",
+    "grade": "normal",
+    "slotCategory": "amulets",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invamu",
     "stats": [
       {
         "key": "gethit-skill",
@@ -13395,6 +15551,13 @@
     "setName": null,
     "levelReq": 50,
     "category": "other",
+    "baseName": "Amulet",
+    "grade": "normal",
+    "slotCategory": "amulets",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invamu",
     "stats": [
       {
         "key": "manasteal",
@@ -13445,6 +15608,13 @@
     "setName": null,
     "levelReq": 67,
     "category": "other",
+    "baseName": "Amulet",
+    "grade": "normal",
+    "slotCategory": "amulets",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invamu",
     "stats": [
       {
         "key": "res-all",
@@ -13493,6 +15663,13 @@
     "setName": null,
     "levelReq": 60,
     "category": "other",
+    "baseName": "Amulet",
+    "grade": "normal",
+    "slotCategory": "amulets",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invamu",
     "stats": [
       {
         "key": "hit-skill",
@@ -13541,6 +15718,13 @@
     "setName": null,
     "levelReq": 45,
     "category": "other",
+    "baseName": "Ring",
+    "grade": "normal",
+    "slotCategory": "rings",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invrin",
     "stats": [
       {
         "key": "red-mag",
@@ -13589,6 +15773,13 @@
     "setName": null,
     "levelReq": 45,
     "category": "other",
+    "baseName": "Ring",
+    "grade": "normal",
+    "slotCategory": "rings",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invrin",
     "stats": [
       {
         "key": "dmg-cold",
@@ -13641,6 +15832,13 @@
     "setName": null,
     "levelReq": 65,
     "category": "other",
+    "baseName": "Amulet",
+    "grade": "normal",
+    "slotCategory": "amulets",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invamu",
     "stats": [
       {
         "key": "dmg-ltng",
@@ -13684,6 +15882,13 @@
     "setName": null,
     "levelReq": 47,
     "category": "other",
+    "baseName": "Amulet",
+    "grade": "normal",
+    "slotCategory": "amulets",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invamu",
     "stats": [
       {
         "key": "res-all",
@@ -13734,6 +15939,16 @@
     "setName": null,
     "levelReq": 42,
     "category": "armor",
+    "baseName": "Slayer Guard",
+    "grade": "exceptional",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 93,
+      "max": 120
+    },
+    "requiredStrength": 118,
+    "durability": 55,
+    "invFile": "invba5",
     "stats": [
       {
         "key": "ac%",
@@ -13799,6 +16014,16 @@
     "setName": null,
     "levelReq": 42,
     "category": "armor",
+    "baseName": "Heirophant Trophy",
+    "grade": "exceptional",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 58,
+      "max": 70
+    },
+    "requiredStrength": 58,
+    "durability": 20,
+    "invFile": "invne5",
     "stats": [
       {
         "key": "ac%",
@@ -13862,6 +16087,13 @@
     "setName": null,
     "levelReq": 42,
     "category": "other",
+    "baseName": "Ceremonial Javelin",
+    "grade": "exceptional",
+    "slotCategory": "javelins",
+    "defense": null,
+    "requiredStrength": 25,
+    "durability": 6,
+    "invFile": "invam5",
     "stats": [
       {
         "key": "dmg%",
@@ -13929,6 +16161,13 @@
     "setName": null,
     "levelReq": 42,
     "category": "weapons",
+    "baseName": "Ceremonial Bow",
+    "grade": "exceptional",
+    "slotCategory": "bows",
+    "defense": null,
+    "requiredStrength": 73,
+    "durability": 55,
+    "invFile": "invam2",
     "stats": [
       {
         "key": "dmg%",
@@ -13996,6 +16235,13 @@
     "setName": null,
     "levelReq": 42,
     "category": "weapons",
+    "baseName": "Ceremonial Pike",
+    "grade": "exceptional",
+    "slotCategory": "spears",
+    "defense": null,
+    "requiredStrength": 115,
+    "durability": 25,
+    "invFile": "invam4",
     "stats": [
       {
         "key": "dmg%",
@@ -14063,6 +16309,13 @@
     "setName": null,
     "levelReq": 42,
     "category": "weapons",
+    "baseName": "Swirling Crystal",
+    "grade": "exceptional",
+    "slotCategory": "orbs",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": 50,
+    "invFile": "invob5",
     "stats": [
       {
         "key": "gethit-skill",
@@ -14126,6 +16379,16 @@
     "setName": null,
     "levelReq": 42,
     "category": "armor",
+    "baseName": "Gilded Shield",
+    "grade": "exceptional",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 144,
+      "max": 168
+    },
+    "requiredStrength": 89,
+    "durability": 50,
+    "invFile": "invpa4",
     "stats": [
       {
         "key": "ac%",
@@ -14189,6 +16452,13 @@
     "setName": null,
     "levelReq": 42,
     "category": "weapons",
+    "baseName": "Greater Talons",
+    "grade": "exceptional",
+    "slotCategory": "katars",
+    "defense": null,
+    "requiredStrength": 79,
+    "durability": 69,
+    "invFile": "invclw",
     "stats": [
       {
         "key": "dmg%",
@@ -14256,6 +16526,16 @@
     "setName": null,
     "levelReq": 42,
     "category": "armor",
+    "baseName": "Totemic Mask",
+    "grade": "exceptional",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 73,
+      "max": 98
+    },
+    "requiredStrength": 65,
+    "durability": 20,
+    "invFile": "invdr5",
     "stats": [
       {
         "key": "ac%",
@@ -14319,6 +16599,13 @@
     "setName": null,
     "levelReq": 57,
     "category": "other",
+    "baseName": "Francisca",
+    "grade": "exceptional",
+    "slotCategory": "throwings",
+    "defense": null,
+    "requiredStrength": 25,
+    "durability": 15,
+    "invFile": "invtax",
     "stats": [
       {
         "key": "dmg%",
@@ -14369,6 +16656,13 @@
     "setName": null,
     "levelReq": 61,
     "category": "weapons",
+    "baseName": "Elegant Blade",
+    "grade": "elite",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 109,
+    "durability": 32,
+    "invFile": "invsbru",
     "stats": [
       {
         "key": "dmg%",
@@ -14418,6 +16712,13 @@
     "setName": null,
     "levelReq": 65,
     "category": "weapons",
+    "baseName": "Ataghan",
+    "grade": "elite",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 138,
+    "durability": 22,
+    "invFile": "invscmu",
     "stats": [
       {
         "key": "dmg%",
@@ -14482,6 +16783,13 @@
     "setName": null,
     "levelReq": 44,
     "category": "other",
+    "baseName": "Battle Dart",
+    "grade": "exceptional",
+    "slotCategory": "throwings",
+    "defense": null,
+    "requiredStrength": 25,
+    "durability": 6,
+    "invFile": "invtkn",
     "stats": [
       {
         "key": "dmg%",
@@ -14531,6 +16839,13 @@
     "setName": null,
     "levelReq": 75,
     "category": "other",
+    "baseName": "Winged Knife",
+    "grade": "elite",
+    "slotCategory": "throwings",
+    "defense": null,
+    "requiredStrength": 45,
+    "durability": 20,
+    "invFile": "invtk3",
     "stats": [
       {
         "key": "dmg%",
@@ -14576,6 +16891,13 @@
     "setName": null,
     "levelReq": 71,
     "category": "weapons",
+    "baseName": "Demon Crossbow",
+    "grade": "elite",
+    "slotCategory": "crossbows",
+    "defense": null,
+    "requiredStrength": 141,
+    "durability": 40,
+    "invFile": "invrxbu",
     "stats": [
       {
         "key": "dmg%",
@@ -14621,6 +16943,13 @@
     "setName": null,
     "levelReq": 67,
     "category": "weapons",
+    "baseName": "Tomahawk",
+    "grade": "elite",
+    "slotCategory": "axes",
+    "defense": null,
+    "requiredStrength": 125,
+    "durability": 28,
+    "invFile": "invhaxu",
     "stats": [
       {
         "key": "dmg%",
@@ -14664,6 +16993,13 @@
     "setName": null,
     "levelReq": 63,
     "category": "weapons",
+    "baseName": "Tyrant Club",
+    "grade": "elite",
+    "slotCategory": "clubs",
+    "defense": null,
+    "requiredStrength": 133,
+    "durability": 65,
+    "invFile": "invspcu",
     "stats": [
       {
         "key": "dmg%",
@@ -14720,6 +17056,16 @@
     "setName": null,
     "levelReq": 62,
     "category": "armor",
+    "baseName": "Armet",
+    "grade": "elite",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 105,
+      "max": 149
+    },
+    "requiredStrength": 109,
+    "durability": 24,
+    "invFile": "invhlmu",
     "stats": [
       {
         "key": "ac%",
@@ -14763,6 +17109,13 @@
     "setName": null,
     "levelReq": 84,
     "category": "weapons",
+    "baseName": "Cryptic Axe",
+    "grade": "elite",
+    "slotCategory": "polearms",
+    "defense": null,
+    "requiredStrength": 165,
+    "durability": 65,
+    "invFile": "invpax",
     "stats": [
       {
         "key": "dmg%",
@@ -14843,6 +17196,13 @@
     "setName": null,
     "levelReq": 66,
     "category": "weapons",
+    "baseName": "Unearthed Wand",
+    "grade": "elite",
+    "slotCategory": "wands",
+    "defense": null,
+    "requiredStrength": 25,
+    "durability": 18,
+    "invFile": "invgwn",
     "stats": [
       {
         "key": "pierce-pois",
@@ -14892,6 +17252,13 @@
     "setName": null,
     "levelReq": 69,
     "category": "other",
+    "baseName": "Ring",
+    "grade": "normal",
+    "slotCategory": "rings",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invrin",
     "stats": [
       {
         "key": "red-dmg",
@@ -14939,6 +17306,13 @@
     "setName": null,
     "levelReq": 85,
     "category": "weapons",
+    "baseName": "Phase Blade",
+    "grade": "elite",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 25,
+    "durability": 0,
+    "invFile": "invcrs",
     "stats": [
       {
         "key": "dmg-mag",
@@ -15005,6 +17379,13 @@
     "setName": null,
     "levelReq": 65,
     "category": "other",
+    "baseName": "Amulet",
+    "grade": "normal",
+    "slotCategory": "amulets",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invamu2",
     "stats": [
       {
         "key": "skilltab",
@@ -15066,6 +17447,13 @@
     "setName": null,
     "levelReq": 68,
     "category": "weapons",
+    "baseName": "Fanged Knife",
+    "grade": "elite",
+    "slotCategory": "daggers",
+    "defense": null,
+    "requiredStrength": 42,
+    "durability": 36,
+    "invFile": "invkrsu",
     "stats": [
       {
         "key": "dmg%",
@@ -15119,6 +17507,13 @@
     "setName": null,
     "levelReq": 64,
     "category": "weapons",
+    "baseName": "Scourge",
+    "grade": "elite",
+    "slotCategory": "maces",
+    "defense": null,
+    "requiredStrength": 125,
+    "durability": 65,
+    "invFile": "invfla",
     "stats": [
       {
         "key": "dmg%",
@@ -15164,6 +17559,13 @@
     "setName": null,
     "levelReq": 68,
     "category": "weapons",
+    "baseName": "Legendary Mallet",
+    "grade": "elite",
+    "slotCategory": "hammers",
+    "defense": null,
+    "requiredStrength": 189,
+    "durability": 65,
+    "invFile": "invwhm",
     "stats": [
       {
         "key": "dmg%",
@@ -15216,6 +17618,13 @@
     "setName": null,
     "levelReq": 66,
     "category": "weapons",
+    "baseName": "Wrist Sword",
+    "grade": "elite",
+    "slotCategory": "katars",
+    "defense": null,
+    "requiredStrength": 105,
+    "durability": 56,
+    "invFile": "invktr",
     "stats": [
       {
         "key": "dmg%",
@@ -15272,6 +17681,16 @@
     "setName": null,
     "levelReq": 71,
     "category": "armor",
+    "baseName": "Myrmidon Greaves",
+    "grade": "elite",
+    "slotCategory": "boots",
+    "defense": {
+      "min": 62,
+      "max": 71
+    },
+    "requiredStrength": 208,
+    "durability": 24,
+    "invFile": "invhbt",
     "stats": [
       {
         "key": "ac%",
@@ -15324,6 +17743,16 @@
     "setName": null,
     "levelReq": 63,
     "category": "armor",
+    "baseName": "Blood Spirit",
+    "grade": "elite",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 101,
+      "max": 145
+    },
+    "requiredStrength": 86,
+    "durability": 20,
+    "invFile": "invdr1",
     "stats": [
       {
         "key": "ac%",
@@ -15380,6 +17809,16 @@
     "setName": null,
     "levelReq": 84,
     "category": "armor",
+    "baseName": "Sacred Armor",
+    "grade": "elite",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 487,
+      "max": 600
+    },
+    "requiredStrength": 232,
+    "durability": 60,
+    "invFile": "invaaru",
     "stats": [
       {
         "key": "ac%",
@@ -15449,6 +17888,16 @@
     "setName": null,
     "levelReq": 74,
     "category": "armor",
+    "baseName": "Vambraces",
+    "grade": "elite",
+    "slotCategory": "gloves",
+    "defense": {
+      "min": 59,
+      "max": 67
+    },
+    "requiredStrength": 106,
+    "durability": 16,
+    "invFile": "invmgl",
     "stats": [
       {
         "key": "ac%",
@@ -15498,6 +17947,13 @@
     "setName": null,
     "levelReq": 72,
     "category": "weapons",
+    "baseName": "Ettin Axe",
+    "grade": "elite",
+    "slotCategory": "axes",
+    "defense": null,
+    "requiredStrength": 145,
+    "durability": 24,
+    "invFile": "inv2ax",
     "stats": [
       {
         "key": "dmg%",
@@ -15538,6 +17994,13 @@
     "setName": null,
     "levelReq": 70,
     "category": "weapons",
+    "baseName": "Berserker Axe",
+    "grade": "elite",
+    "slotCategory": "axes",
+    "defense": null,
+    "requiredStrength": 138,
+    "durability": 26,
+    "invFile": "invwax",
     "stats": [
       {
         "key": "dmg%",
@@ -15583,6 +18046,13 @@
     "setName": null,
     "levelReq": 75,
     "category": "weapons",
+    "baseName": "Glorious Axe",
+    "grade": "elite",
+    "slotCategory": "axes",
+    "defense": null,
+    "requiredStrength": 164,
+    "durability": 50,
+    "invFile": "invgix",
     "stats": [
       {
         "key": "dmg%",
@@ -15628,6 +18098,13 @@
     "setName": null,
     "levelReq": 64,
     "category": "weapons",
+    "baseName": "Matriarchal Spear",
+    "grade": "elite",
+    "slotCategory": "spears",
+    "defense": null,
+    "requiredStrength": 114,
+    "durability": 28,
+    "invFile": "invam3",
     "stats": [
       {
         "key": "dmg%",
@@ -15678,6 +18155,16 @@
     "setName": null,
     "levelReq": 65,
     "category": "armor",
+    "baseName": "Kraken Shell",
+    "grade": "elite",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 417,
+      "max": 523
+    },
+    "requiredStrength": 174,
+    "durability": 48,
+    "invFile": "invfld",
     "stats": [
       {
         "key": "ac%",
@@ -15727,6 +18214,13 @@
     "setName": null,
     "levelReq": 76,
     "category": "other",
+    "baseName": "Ring",
+    "grade": "normal",
+    "slotCategory": "rings",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invrin",
     "stats": [
       {
         "key": "abs-ltng%",
@@ -15784,6 +18278,13 @@
     "setName": null,
     "levelReq": 70,
     "category": "other",
+    "baseName": "Winged Harpoon",
+    "grade": "elite",
+    "slotCategory": "javelins",
+    "defense": null,
+    "requiredStrength": 76,
+    "durability": 18,
+    "invFile": "invtsp",
     "stats": [
       {
         "key": "dmg%",
@@ -15826,6 +18327,13 @@
     "setName": null,
     "levelReq": 68,
     "category": "other",
+    "baseName": "Winged Axe",
+    "grade": "elite",
+    "slotCategory": "throwings",
+    "defense": null,
+    "requiredStrength": 96,
+    "durability": 16,
+    "invFile": "invbal",
     "stats": [
       {
         "key": "dmg%",
@@ -15876,6 +18384,13 @@
     "setName": null,
     "levelReq": 82,
     "category": "weapons",
+    "baseName": "Archon Staff",
+    "grade": "elite",
+    "slotCategory": "staves",
+    "defense": null,
+    "requiredStrength": 34,
+    "durability": 26,
+    "invFile": "inv8wsu",
     "stats": [
       {
         "key": "pierce-fire",
@@ -15928,6 +18443,13 @@
     "setName": null,
     "levelReq": 71,
     "category": "weapons",
+    "baseName": "Mancatcher",
+    "grade": "elite",
+    "slotCategory": "spears",
+    "defense": null,
+    "requiredStrength": 132,
+    "durability": 28,
+    "invFile": "invbrn",
     "stats": [
       {
         "key": "dmg%",
@@ -15982,6 +18504,13 @@
     "setName": null,
     "levelReq": 74,
     "category": "weapons",
+    "baseName": "Silver-edged Axe",
+    "grade": "elite",
+    "slotCategory": "axes",
+    "defense": null,
+    "requiredStrength": 166,
+    "durability": 35,
+    "invFile": "invbrx",
     "stats": [
       {
         "key": "dmg%",
@@ -16048,6 +18577,16 @@
     "setName": null,
     "levelReq": 61,
     "category": "armor",
+    "baseName": "Destroyer Helm",
+    "grade": "elite",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 111,
+      "max": 156
+    },
+    "requiredStrength": 151,
+    "durability": 45,
+    "invFile": "invba3",
     "stats": [
       {
         "key": "ac%",
@@ -16111,6 +18650,13 @@
     "setName": null,
     "levelReq": 75,
     "category": "weapons",
+    "baseName": "Thresher",
+    "grade": "elite",
+    "slotCategory": "polearms",
+    "defense": null,
+    "requiredStrength": 152,
+    "durability": 65,
+    "invFile": "invscy",
     "stats": [
       {
         "key": "dmg%",
@@ -16170,6 +18716,16 @@
     "setName": null,
     "levelReq": 67,
     "category": "armor",
+    "baseName": "Earth Spirit",
+    "grade": "elite",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 107,
+      "max": 152
+    },
+    "requiredStrength": 104,
+    "durability": 20,
+    "invFile": "invdr3",
     "stats": [
       {
         "key": "ac%",
@@ -16231,6 +18787,13 @@
     "setName": null,
     "levelReq": 76,
     "category": "weapons",
+    "baseName": "Colossus Crossbow",
+    "grade": "elite",
+    "slotCategory": "crossbows",
+    "defense": null,
+    "requiredStrength": 163,
+    "durability": 50,
+    "invFile": "invhxbu",
     "stats": [
       {
         "key": "dmg%",
@@ -16285,6 +18848,16 @@
     "setName": null,
     "levelReq": 77,
     "category": "armor",
+    "baseName": "Sacred Rondache",
+    "grade": "elite",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 138,
+      "max": 164
+    },
+    "requiredStrength": 109,
+    "durability": 68,
+    "invFile": "invpa2",
     "stats": [
       {
         "key": "ac%",
@@ -16346,6 +18919,16 @@
     "setName": null,
     "levelReq": 64,
     "category": "armor",
+    "baseName": "Bloodlord Skull",
+    "grade": "elite",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 103,
+      "max": 148
+    },
+    "requiredStrength": 106,
+    "durability": 20,
+    "invFile": "invne5",
     "stats": [
       {
         "key": "ac%",
@@ -16400,6 +18983,13 @@
     "setName": null,
     "levelReq": 65,
     "category": "weapons",
+    "baseName": "Ward Bow",
+    "grade": "elite",
+    "slotCategory": "bows",
+    "defense": null,
+    "requiredStrength": 72,
+    "durability": 48,
+    "invFile": "invswbu",
     "stats": [
       {
         "key": "dmg%",
@@ -16445,6 +19035,13 @@
     "setName": null,
     "levelReq": 71,
     "category": "weapons",
+    "baseName": "Matriarchal Bow",
+    "grade": "elite",
+    "slotCategory": "bows",
+    "defense": null,
+    "requiredStrength": 87,
+    "durability": 48,
+    "invFile": "invswbu",
     "stats": [
       {
         "key": "dmg%",
@@ -16494,6 +19091,13 @@
     "setName": null,
     "levelReq": 62,
     "category": "weapons",
+    "baseName": "Legend Spike",
+    "grade": "elite",
+    "slotCategory": "daggers",
+    "defense": null,
+    "requiredStrength": 65,
+    "durability": 47,
+    "invFile": "invbld",
     "stats": [
       {
         "key": "dmg%",
@@ -16549,6 +19153,13 @@
     "setName": null,
     "levelReq": 78,
     "category": "weapons",
+    "baseName": "Battle Cestus",
+    "grade": "elite",
+    "slotCategory": "katars",
+    "defense": null,
+    "requiredStrength": 110,
+    "durability": 72,
+    "invFile": "invaxfu",
     "stats": [
       {
         "key": "dmg%",
@@ -16606,6 +19217,13 @@
     "setName": null,
     "levelReq": 70,
     "category": "other",
+    "baseName": "Flying Axe",
+    "grade": "elite",
+    "slotCategory": "throwings",
+    "defense": null,
+    "requiredStrength": 88,
+    "durability": 15,
+    "invFile": "invtax",
     "stats": [
       {
         "key": "dmg%",
@@ -16660,6 +19278,16 @@
     "setName": null,
     "levelReq": 76,
     "category": "armor",
+    "baseName": "Diadem",
+    "grade": "elite",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 50,
+      "max": 60
+    },
+    "requiredStrength": 0,
+    "durability": 20,
+    "invFile": "invci3",
     "stats": [
       {
         "key": "ac",
@@ -16707,6 +19335,13 @@
     "setName": null,
     "levelReq": 68,
     "category": "weapons",
+    "baseName": "Ogre Maul",
+    "grade": "elite",
+    "slotCategory": "hammers",
+    "defense": null,
+    "requiredStrength": 225,
+    "durability": 60,
+    "invFile": "invmau",
     "stats": [
       {
         "key": "dmg%",
@@ -16747,6 +19382,13 @@
     "setName": null,
     "levelReq": 69,
     "category": "other",
+    "baseName": "Matriarchal Javelin",
+    "grade": "elite",
+    "slotCategory": "javelins",
+    "defense": null,
+    "requiredStrength": 107,
+    "durability": 6,
+    "invFile": "invam5",
     "stats": [
       {
         "key": "dmg%",
@@ -16806,6 +19448,13 @@
     "setName": null,
     "levelReq": 68,
     "category": "other",
+    "baseName": "Balrog Spear",
+    "grade": "elite",
+    "slotCategory": "javelins",
+    "defense": null,
+    "requiredStrength": 127,
+    "durability": 14,
+    "invFile": "invssp",
     "stats": [
       {
         "key": "dmg%",
@@ -16855,6 +19504,16 @@
     "setName": null,
     "levelReq": 72,
     "category": "armor",
+    "baseName": "Succubus Skull",
+    "grade": "elite",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 100,
+      "max": 146
+    },
+    "requiredStrength": 95,
+    "durability": 20,
+    "invFile": "invne4",
     "stats": [
       {
         "key": "ac%",
@@ -16904,6 +19563,13 @@
     "setName": null,
     "levelReq": 69,
     "category": "weapons",
+    "baseName": "War Pike",
+    "grade": "elite",
+    "slotCategory": "spears",
+    "defense": null,
+    "requiredStrength": 165,
+    "durability": 25,
+    "invFile": "invpik",
     "stats": [
       {
         "key": "dmg%",
@@ -16954,6 +19620,16 @@
     "setName": null,
     "levelReq": 67,
     "category": "armor",
+    "baseName": "Spired Helm",
+    "grade": "elite",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 114,
+      "max": 159
+    },
+    "requiredStrength": 192,
+    "durability": 40,
+    "invFile": "invghm",
     "stats": [
       {
         "key": "ac%",
@@ -17013,6 +19689,16 @@
     "setName": null,
     "levelReq": 82,
     "category": "armor",
+    "baseName": "Corona",
+    "grade": "elite",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 111,
+      "max": 165
+    },
+    "requiredStrength": 174,
+    "durability": 50,
+    "invFile": "invcrn",
     "stats": [
       {
         "key": "res-all",
@@ -17077,6 +19763,16 @@
     "setName": null,
     "levelReq": 83,
     "category": "armor",
+    "baseName": "Demonhead",
+    "grade": "elite",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 101,
+      "max": 154
+    },
+    "requiredStrength": 102,
+    "durability": 20,
+    "invFile": "invmsk",
     "stats": [
       {
         "key": "ac%",
@@ -17151,6 +19847,16 @@
     "setName": null,
     "levelReq": 80,
     "category": "armor",
+    "baseName": "Zakarum Shield",
+    "grade": "elite",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 169,
+      "max": 193
+    },
+    "requiredStrength": 142,
+    "durability": 65,
+    "invFile": "invpa4",
     "stats": [
       {
         "key": "ac%",
@@ -17210,6 +19916,16 @@
     "setName": null,
     "levelReq": 66,
     "category": "armor",
+    "baseName": "Shadow Plate",
+    "grade": "elite",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 446,
+      "max": 557
+    },
+    "requiredStrength": 230,
+    "durability": 70,
+    "invFile": "invful",
     "stats": [
       {
         "key": "ac%",
@@ -17266,6 +19982,16 @@
     "setName": null,
     "levelReq": 76,
     "category": "armor",
+    "baseName": "Aegis",
+    "grade": "elite",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 145,
+      "max": 161
+    },
+    "requiredStrength": 219,
+    "durability": 92,
+    "invFile": "invtowu",
     "stats": [
       {
         "key": "ac%",
@@ -17322,6 +20048,16 @@
     "setName": null,
     "levelReq": 74,
     "category": "armor",
+    "baseName": "Sky Spirit",
+    "grade": "elite",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 103,
+      "max": 155
+    },
+    "requiredStrength": 113,
+    "durability": 20,
+    "invFile": "invdr4",
     "stats": [
       {
         "key": "ac%",
@@ -17376,6 +20112,13 @@
     "setName": null,
     "levelReq": 79,
     "category": "weapons",
+    "baseName": "Lich Wand",
+    "grade": "elite",
+    "slotCategory": "wands",
+    "defense": null,
+    "requiredStrength": 25,
+    "durability": 17,
+    "invFile": "invbwnu",
     "stats": [
       {
         "key": "skill",
@@ -17437,6 +20180,13 @@
     "setName": null,
     "levelReq": 71,
     "category": "weapons",
+    "baseName": "Balrog Blade",
+    "grade": "elite",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 185,
+    "durability": 50,
+    "invFile": "invgisu",
     "stats": [
       {
         "key": "dmg%",
@@ -17507,6 +20257,13 @@
     "setName": null,
     "levelReq": 73,
     "category": "weapons",
+    "baseName": "Dimensional Shard",
+    "grade": "elite",
+    "slotCategory": "orbs",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": 50,
+    "invFile": "invob5",
     "stats": [
       {
         "key": "extra-cold",
@@ -17554,6 +20311,16 @@
     "setName": null,
     "levelReq": 79,
     "category": "armor",
+    "baseName": "Fury Visor",
+    "grade": "elite",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 105,
+      "max": 150
+    },
+    "requiredStrength": 129,
+    "durability": 35,
+    "invFile": "invba2",
     "stats": [
       {
         "key": "ac%",
@@ -17632,6 +20399,16 @@
     "setName": null,
     "levelReq": 68,
     "category": "armor",
+    "baseName": "Ward",
+    "grade": "elite",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 153,
+      "max": 170
+    },
+    "requiredStrength": 185,
+    "durability": 100,
+    "invFile": "invgtsu",
     "stats": [
       {
         "key": "ac%",
@@ -17688,6 +20465,16 @@
     "setName": null,
     "levelReq": 77,
     "category": "armor",
+    "baseName": "Tiara",
+    "grade": "exceptional",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 40,
+      "max": 50
+    },
+    "requiredStrength": 0,
+    "durability": 25,
+    "invFile": "invci2",
     "stats": [
       {
         "key": "ac",
@@ -17728,6 +20515,16 @@
     "setName": null,
     "levelReq": 75,
     "category": "armor",
+    "baseName": "Dusk Shroud",
+    "grade": "elite",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 361,
+      "max": 467
+    },
+    "requiredStrength": 77,
+    "durability": 20,
+    "invFile": "invqlt",
     "stats": [
       {
         "key": "ac",
@@ -17791,6 +20588,13 @@
     "setName": null,
     "levelReq": 62,
     "category": "other",
+    "baseName": "Grand Charm",
+    "grade": "normal",
+    "slotCategory": "charms",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invsst",
     "stats": [
       {
         "key": "mag%",
@@ -17827,6 +20631,13 @@
     "setName": null,
     "levelReq": 82,
     "category": "weapons",
+    "baseName": "Scourge",
+    "grade": "elite",
+    "slotCategory": "maces",
+    "defense": null,
+    "requiredStrength": 125,
+    "durability": 65,
+    "invFile": "invfla",
     "stats": [
       {
         "key": "dmg%",
@@ -17893,6 +20704,16 @@
     "setName": null,
     "levelReq": 77,
     "category": "armor",
+    "baseName": "Conqueror Crown",
+    "grade": "elite",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 114,
+      "max": 159
+    },
+    "requiredStrength": 174,
+    "durability": 50,
+    "invFile": "invba4",
     "stats": [
       {
         "key": "ac%",
@@ -17952,6 +20773,16 @@
     "setName": null,
     "levelReq": 70,
     "category": "armor",
+    "baseName": "Blade Barrier",
+    "grade": "elite",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 147,
+      "max": 163
+    },
+    "requiredStrength": 118,
+    "durability": 83,
+    "invFile": "invspku",
     "stats": [
       {
         "key": "ac%",
@@ -17997,6 +20828,16 @@
     "setName": null,
     "levelReq": 76,
     "category": "armor",
+    "baseName": "Vampirebone Gloves",
+    "grade": "elite",
+    "slotCategory": "gloves",
+    "defense": {
+      "min": 56,
+      "max": 65
+    },
+    "requiredStrength": 50,
+    "durability": 14,
+    "invFile": "invvgl",
     "stats": [
       {
         "key": "ac%",
@@ -18053,6 +20894,13 @@
     "setName": null,
     "levelReq": 70,
     "category": "weapons",
+    "baseName": "Cryptic Sword",
+    "grade": "elite",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 99,
+    "durability": 44,
+    "invFile": "invlsdu",
     "stats": [
       {
         "key": "dmg%",
@@ -18112,6 +20960,16 @@
     "setName": null,
     "levelReq": 74,
     "category": "armor",
+    "baseName": "Sacred Armor",
+    "grade": "elite",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 487,
+      "max": 600
+    },
+    "requiredStrength": 232,
+    "durability": 60,
+    "invFile": "invaaru",
     "stats": [
       {
         "key": "ac%",
@@ -18175,6 +21033,13 @@
     "setName": null,
     "levelReq": 72,
     "category": "weapons",
+    "baseName": "Eldritch Orb",
+    "grade": "elite",
+    "slotCategory": "orbs",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": 30,
+    "invFile": "invob2",
     "stats": [
       {
         "key": "sor",
@@ -18224,6 +21089,13 @@
     "setName": null,
     "levelReq": 67,
     "category": "weapons",
+    "baseName": "Feral Claws",
+    "grade": "elite",
+    "slotCategory": "katars",
+    "defense": null,
+    "requiredStrength": 113,
+    "durability": 52,
+    "invFile": "invclw",
     "stats": [
       {
         "key": "dmg%",
@@ -18287,6 +21159,16 @@
     "setName": null,
     "levelReq": 64,
     "category": "armor",
+    "baseName": "Scarabshell Boots",
+    "grade": "elite",
+    "slotCategory": "boots",
+    "defense": {
+      "min": 56,
+      "max": 65
+    },
+    "requiredStrength": 91,
+    "durability": 14,
+    "invFile": "invvbt",
     "stats": [
       {
         "key": "ac%",
@@ -18346,6 +21228,16 @@
     "setName": null,
     "levelReq": 66,
     "category": "armor",
+    "baseName": "Boneweave Boots",
+    "grade": "elite",
+    "slotCategory": "boots",
+    "defense": {
+      "min": 59,
+      "max": 67
+    },
+    "requiredStrength": 118,
+    "durability": 16,
+    "invFile": "invmbt",
     "stats": [
       {
         "key": "ac%",
@@ -18422,6 +21314,13 @@
     "setName": null,
     "levelReq": 61,
     "category": "weapons",
+    "baseName": "Mighty Scepter",
+    "grade": "elite",
+    "slotCategory": "scepters",
+    "defense": null,
+    "requiredStrength": 125,
+    "durability": 50,
+    "invFile": "invscp",
     "stats": [
       {
         "key": "dmg%",
@@ -18486,6 +21385,16 @@
     "setName": null,
     "levelReq": 80,
     "category": "armor",
+    "baseName": "Spiderweb Sash",
+    "grade": "elite",
+    "slotCategory": "belts",
+    "defense": {
+      "min": 55,
+      "max": 62
+    },
+    "requiredStrength": 50,
+    "durability": 12,
+    "invFile": "invlbl",
     "stats": [
       {
         "key": "ac%",
@@ -18536,6 +21445,16 @@
     "setName": null,
     "levelReq": 51,
     "category": "armor",
+    "baseName": "Vampirefang Belt",
+    "grade": "elite",
+    "slotCategory": "belts",
+    "defense": {
+      "min": 56,
+      "max": 63
+    },
+    "requiredStrength": 50,
+    "durability": 14,
+    "invFile": "invvbl",
     "stats": [
       {
         "key": "lifesteal",
@@ -18584,6 +21503,13 @@
     "setName": null,
     "levelReq": 81,
     "category": "other",
+    "baseName": "Amulet",
+    "grade": "normal",
+    "slotCategory": "amulets",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invamu",
     "stats": [
       {
         "key": "ac",
@@ -18634,6 +21560,16 @@
     "setName": null,
     "levelReq": 63,
     "category": "armor",
+    "baseName": "Mithril Coil",
+    "grade": "elite",
+    "slotCategory": "belts",
+    "defense": {
+      "min": 58,
+      "max": 65
+    },
+    "requiredStrength": 106,
+    "durability": 16,
+    "invFile": "invmbl",
     "stats": [
       {
         "key": "ac%",
@@ -18690,6 +21626,13 @@
     "setName": null,
     "levelReq": 60,
     "category": "other",
+    "baseName": "Ring",
+    "grade": "normal",
+    "slotCategory": "rings",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invrin",
     "stats": [
       {
         "key": "ac-miss",
@@ -18749,6 +21692,16 @@
     "setName": null,
     "levelReq": 65,
     "category": "armor",
+    "baseName": "Bone Visage",
+    "grade": "elite",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 100,
+      "max": 157
+    },
+    "requiredStrength": 106,
+    "durability": 40,
+    "invFile": "invbhm",
     "stats": [
       {
         "key": "ac",
@@ -18796,6 +21749,13 @@
     "setName": null,
     "levelReq": 60,
     "category": "weapons",
+    "baseName": "Caduceus",
+    "grade": "elite",
+    "slotCategory": "scepters",
+    "defense": null,
+    "requiredStrength": 97,
+    "durability": 70,
+    "invFile": "invwsp",
     "stats": [
       {
         "key": "dmg%",
@@ -18869,6 +21829,13 @@
     "setName": null,
     "levelReq": 70,
     "category": "other",
+    "baseName": "Small Charm",
+    "grade": "normal",
+    "slotCategory": "charms",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invmss",
     "stats": [
       {
         "key": "all-stats",
@@ -18911,6 +21878,13 @@
     "setName": null,
     "levelReq": 81,
     "category": "weapons",
+    "baseName": "Hyperion Spear",
+    "grade": "elite",
+    "slotCategory": "spears",
+    "defense": null,
+    "requiredStrength": 155,
+    "durability": 30,
+    "invFile": "invspr",
     "stats": [
       {
         "key": "dmg%",
@@ -18961,6 +21935,13 @@
     "setName": null,
     "levelReq": 63,
     "category": "weapons",
+    "baseName": "War Spike",
+    "grade": "elite",
+    "slotCategory": "axes",
+    "defense": null,
+    "requiredStrength": 133,
+    "durability": 26,
+    "invFile": "invmpiu",
     "stats": [
       {
         "key": "dmg%",
@@ -19015,6 +21996,13 @@
     "setName": null,
     "levelReq": 68,
     "category": "weapons",
+    "baseName": "Truncheon",
+    "grade": "elite",
+    "slotCategory": "clubs",
+    "defense": null,
+    "requiredStrength": 88,
+    "durability": 55,
+    "invFile": "invclbu",
     "stats": [
       {
         "key": "dmg%",
@@ -19078,6 +22066,13 @@
     "setName": null,
     "levelReq": 69,
     "category": "weapons",
+    "baseName": "Thunder Maul",
+    "grade": "elite",
+    "slotCategory": "hammers",
+    "defense": null,
+    "requiredStrength": 253,
+    "durability": 60,
+    "invFile": "invgma",
     "stats": [
       {
         "key": "dmg%",
@@ -19135,6 +22130,13 @@
     "setName": null,
     "levelReq": 76,
     "category": "other",
+    "baseName": "Ghost Glaive",
+    "grade": "elite",
+    "slotCategory": "javelins",
+    "defense": null,
+    "requiredStrength": 89,
+    "durability": 16,
+    "invFile": "invglv",
     "stats": [
       {
         "key": "dmg%",
@@ -19175,6 +22177,13 @@
     "setName": null,
     "levelReq": 64,
     "category": "weapons",
+    "baseName": "Ogre Axe",
+    "grade": "elite",
+    "slotCategory": "polearms",
+    "defense": null,
+    "requiredStrength": 195,
+    "durability": 50,
+    "invFile": "invbar",
     "stats": [
       {
         "key": "dmg%",
@@ -19227,6 +22236,13 @@
     "setName": null,
     "levelReq": 66,
     "category": "weapons",
+    "baseName": "Elder Staff",
+    "grade": "elite",
+    "slotCategory": "staves",
+    "defense": null,
+    "requiredStrength": 44,
+    "durability": 35,
+    "invFile": "invcstu",
     "stats": [
       {
         "key": "enr",
@@ -19281,6 +22297,13 @@
     "setName": null,
     "levelReq": 72,
     "category": "weapons",
+    "baseName": "Mighty Scepter",
+    "grade": "elite",
+    "slotCategory": "scepters",
+    "defense": null,
+    "requiredStrength": 125,
+    "durability": 50,
+    "invFile": "invscp",
     "stats": [
       {
         "key": "dmg%",
@@ -19352,6 +22375,16 @@
     "setName": null,
     "levelReq": 75,
     "category": "armor",
+    "baseName": "Troll Nest",
+    "grade": "elite",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 158,
+      "max": 173
+    },
+    "requiredStrength": 106,
+    "durability": 74,
+    "invFile": "invbshu",
     "stats": [
       {
         "key": "ac",
@@ -19409,6 +22442,16 @@
     "setName": null,
     "levelReq": 70,
     "category": "armor",
+    "baseName": "Ogre Gauntlets",
+    "grade": "elite",
+    "slotCategory": "gloves",
+    "defense": {
+      "min": 62,
+      "max": 71
+    },
+    "requiredStrength": 185,
+    "durability": 24,
+    "invFile": "invhgl",
     "stats": [
       {
         "key": "ac",
@@ -19451,6 +22494,13 @@
     "setName": null,
     "levelReq": 49,
     "category": "other",
+    "baseName": "Jewel",
+    "grade": "normal",
+    "slotCategory": "jewels",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invgswe",
     "stats": [
       {
         "key": "dmg-ltng",
@@ -19494,6 +22544,13 @@
     "setName": null,
     "levelReq": 49,
     "category": "other",
+    "baseName": "Jewel",
+    "grade": "normal",
+    "slotCategory": "jewels",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invgswe",
     "stats": [
       {
         "key": "dmg-cold",
@@ -19537,6 +22594,13 @@
     "setName": null,
     "levelReq": 49,
     "category": "other",
+    "baseName": "Jewel",
+    "grade": "normal",
+    "slotCategory": "jewels",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invgswe",
     "stats": [
       {
         "key": "dmg-fire",
@@ -19580,6 +22644,13 @@
     "setName": null,
     "levelReq": 49,
     "category": "other",
+    "baseName": "Jewel",
+    "grade": "normal",
+    "slotCategory": "jewels",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invgswe",
     "stats": [
       {
         "key": "pierce-pois",
@@ -19622,6 +22693,13 @@
     "setName": null,
     "levelReq": 49,
     "category": "other",
+    "baseName": "Jewel",
+    "grade": "normal",
+    "slotCategory": "jewels",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invgswe",
     "stats": [
       {
         "key": "dmg-ltng",
@@ -19665,6 +22743,13 @@
     "setName": null,
     "levelReq": 49,
     "category": "other",
+    "baseName": "Jewel",
+    "grade": "normal",
+    "slotCategory": "jewels",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invgswe",
     "stats": [
       {
         "key": "dmg-cold",
@@ -19708,6 +22793,13 @@
     "setName": null,
     "levelReq": 49,
     "category": "other",
+    "baseName": "Jewel",
+    "grade": "normal",
+    "slotCategory": "jewels",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invgswe",
     "stats": [
       {
         "key": "dmg-fire",
@@ -19751,6 +22843,13 @@
     "setName": null,
     "levelReq": 49,
     "category": "other",
+    "baseName": "Jewel",
+    "grade": "normal",
+    "slotCategory": "jewels",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invgswe",
     "stats": [
       {
         "key": "pierce-pois",
@@ -19793,6 +22892,13 @@
     "setName": null,
     "levelReq": 75,
     "category": "other",
+    "baseName": "Large Charm",
+    "grade": "normal",
+    "slotCategory": "charms",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invtrch",
     "stats": [
       {
         "key": "randclassskill",
@@ -19849,6 +22955,16 @@
     "setName": null,
     "levelReq": 80,
     "category": "armor",
+    "baseName": "Blasphemous Grimoire",
+    "grade": "elite",
+    "slotCategory": "grimoires",
+    "defense": {
+      "min": 103,
+      "max": 148
+    },
+    "requiredStrength": 106,
+    "durability": 20,
+    "invFile": "invbbb",
     "stats": [
       {
         "key": "gethit-skill",
@@ -19924,6 +23040,16 @@
     "setName": null,
     "levelReq": 73,
     "category": "armor",
+    "baseName": "Blasphemous Compendium",
+    "grade": "elite",
+    "slotCategory": "grimoires",
+    "defense": {
+      "min": 100,
+      "max": 146
+    },
+    "requiredStrength": 95,
+    "durability": 20,
+    "invFile": "invbbb",
     "stats": [
       {
         "key": "gethit-skill",
@@ -19994,6 +23120,16 @@
     "setName": null,
     "levelReq": 78,
     "category": "armor",
+    "baseName": "Occult Tome",
+    "grade": "elite",
+    "slotCategory": "grimoires",
+    "defense": {
+      "min": 96,
+      "max": 141
+    },
+    "requiredStrength": 82,
+    "durability": 20,
+    "invFile": "invbbb",
     "stats": [
       {
         "key": "gethit-skill",
@@ -20069,6 +23205,16 @@
     "setName": null,
     "levelReq": 52,
     "category": "armor",
+    "baseName": "Burnt Text",
+    "grade": "exceptional",
+    "slotCategory": "grimoires",
+    "defense": {
+      "min": 38,
+      "max": 48
+    },
+    "requiredStrength": 38,
+    "durability": 20,
+    "invFile": "invbbb",
     "stats": [
       {
         "key": "gethit-skill",
@@ -20151,6 +23297,13 @@
     "setName": null,
     "levelReq": 61,
     "category": "weapons",
+    "baseName": "Legend Sword",
+    "grade": "elite",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 175,
+    "durability": 44,
+    "invFile": "inv2hsu",
     "stats": [
       {
         "key": "hit-skill",
@@ -20213,6 +23366,16 @@
     "setName": null,
     "levelReq": 67,
     "category": "armor",
+    "baseName": "Mirrored Boots",
+    "grade": "elite",
+    "slotCategory": "boots",
+    "defense": {
+      "min": 59,
+      "max": 68
+    },
+    "requiredStrength": 163,
+    "durability": 18,
+    "invFile": "invtbt",
     "stats": [
       {
         "key": "ac",
@@ -20265,6 +23428,13 @@
     "setName": null,
     "levelReq": 67,
     "category": "weapons",
+    "baseName": "Mithral Point",
+    "grade": "elite",
+    "slotCategory": "daggers",
+    "defense": null,
+    "requiredStrength": 55,
+    "durability": 55,
+    "invFile": "invdir",
     "stats": [
       {
         "key": "hp%",
@@ -20331,6 +23501,13 @@
     "setName": null,
     "levelReq": 50,
     "category": "other",
+    "baseName": "Ring",
+    "grade": "normal",
+    "slotCategory": "rings",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invrin",
     "stats": [
       {
         "key": "pierce-mag",
@@ -20383,6 +23560,13 @@
     "setName": null,
     "levelReq": 50,
     "category": "other",
+    "baseName": "Ring",
+    "grade": "normal",
+    "slotCategory": "rings",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invrin",
     "stats": [
       {
         "key": "att-skill",
@@ -20437,6 +23621,13 @@
     "setName": null,
     "levelReq": 54,
     "category": "other",
+    "baseName": "Amulet",
+    "grade": "normal",
+    "slotCategory": "amulets",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invamu",
     "stats": [
       {
         "key": "hit-skill",
@@ -20494,6 +23685,16 @@
     "setName": null,
     "levelReq": 71,
     "category": "armor",
+    "baseName": "Troll Belt",
+    "grade": "elite",
+    "slotCategory": "belts",
+    "defense": {
+      "min": 59,
+      "max": 66
+    },
+    "requiredStrength": 151,
+    "durability": 18,
+    "invFile": "invtbl",
     "stats": [
       {
         "key": "cast1",
@@ -20558,6 +23759,16 @@
     "setName": null,
     "levelReq": 50,
     "category": "armor",
+    "baseName": "Death Mask",
+    "grade": "exceptional",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 54,
+      "max": 86
+    },
+    "requiredStrength": 55,
+    "durability": 20,
+    "invFile": "invmsk",
     "stats": [
       {
         "key": "pierce-fire",
@@ -20617,6 +23828,13 @@
     "setName": null,
     "levelReq": 75,
     "category": "other",
+    "baseName": "Grand Charm",
+    "grade": "normal",
+    "slotCategory": "charms",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invsst",
     "stats": [
       {
         "key": "res-cold",
@@ -20645,6 +23863,13 @@
     "setName": null,
     "levelReq": 75,
     "category": "other",
+    "baseName": "Grand Charm",
+    "grade": "normal",
+    "slotCategory": "charms",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invsst",
     "stats": [
       {
         "key": "res-fire",
@@ -20673,6 +23898,13 @@
     "setName": null,
     "levelReq": 75,
     "category": "other",
+    "baseName": "Grand Charm",
+    "grade": "normal",
+    "slotCategory": "charms",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invsst",
     "stats": [
       {
         "key": "res-ltng",
@@ -20701,6 +23933,13 @@
     "setName": null,
     "levelReq": 75,
     "category": "other",
+    "baseName": "Grand Charm",
+    "grade": "normal",
+    "slotCategory": "charms",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invsst",
     "stats": [
       {
         "key": "res-pois",
@@ -20729,6 +23968,13 @@
     "setName": null,
     "levelReq": 75,
     "category": "other",
+    "baseName": "Grand Charm",
+    "grade": "normal",
+    "slotCategory": "charms",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invsst",
     "stats": [
       {
         "key": "red-dmg%",
@@ -20757,6 +24003,13 @@
     "setName": null,
     "levelReq": 75,
     "category": "other",
+    "baseName": "Grand Charm",
+    "grade": "normal",
+    "slotCategory": "charms",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invsst",
     "stats": [
       {
         "key": "res-mag",

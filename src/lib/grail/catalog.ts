@@ -22,6 +22,13 @@ export interface GrailItem {
   setName: string | null;
   levelReq: number;
   category: 'weapons' | 'armor' | 'other';
+  baseName: string;
+  grade: 'normal' | 'exceptional' | 'elite';
+  slotCategory: string;
+  defense: { min: number; max: number } | null;
+  requiredStrength: number | null;
+  durability: number | null;
+  invFile: string;
   stats: GrailStat[];
   fixedStats: GrailFixedStat[];
   setBonuses: GrailStat[];

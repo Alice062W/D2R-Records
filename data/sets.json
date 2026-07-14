@@ -7,6 +7,16 @@
     "setName": "Aldur's Watchtower",
     "levelReq": 45,
     "category": "armor",
+    "baseName": "Battle Boots",
+    "grade": "exceptional",
+    "slotCategory": "boots",
+    "defense": {
+      "min": 39,
+      "max": 47
+    },
+    "requiredStrength": 95,
+    "durability": 18,
+    "invFile": "invtbt",
     "stats": [
       {
         "key": "res-fire",
@@ -79,6 +89,16 @@
     "setName": "Aldur's Watchtower",
     "levelReq": 76,
     "category": "armor",
+    "baseName": "Shadow Plate",
+    "grade": "elite",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 446,
+      "max": 557
+    },
+    "requiredStrength": 230,
+    "durability": 70,
+    "invFile": "invful",
     "stats": [
       {
         "key": "res-ltng",
@@ -151,6 +171,13 @@
     "setName": "Aldur's Watchtower",
     "levelReq": 42,
     "category": "weapons",
+    "baseName": "Jagged Star",
+    "grade": "exceptional",
+    "slotCategory": "maces",
+    "defense": null,
+    "requiredStrength": 74,
+    "durability": 72,
+    "invFile": "invmst",
     "stats": [
       {
         "key": "dmg-norm",
@@ -227,6 +254,16 @@
     "setName": "Aldur's Watchtower",
     "levelReq": 36,
     "category": "armor",
+    "baseName": "Hunter's Guise",
+    "grade": "exceptional",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 67,
+      "max": 81
+    },
+    "requiredStrength": 56,
+    "durability": 20,
+    "invFile": "invdr3",
     "stats": [
       {
         "key": "res-cold",
@@ -294,6 +331,13 @@
     "setName": "Angelical Raiment",
     "levelReq": 12,
     "category": "other",
+    "baseName": "Ring",
+    "grade": "normal",
+    "slotCategory": "rings",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invrin",
     "stats": [],
     "fixedStats": [
       {
@@ -325,6 +369,16 @@
     "setName": "Angelical Raiment",
     "levelReq": 12,
     "category": "armor",
+    "baseName": "Ring Mail",
+    "grade": "normal",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 45,
+      "max": 48
+    },
+    "requiredStrength": 36,
+    "durability": 26,
+    "invFile": "invrng",
     "stats": [],
     "fixedStats": [
       {
@@ -362,6 +416,13 @@
     "setName": "Angelical Raiment",
     "levelReq": 12,
     "category": "weapons",
+    "baseName": "Saber",
+    "grade": "normal",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 25,
+    "durability": 32,
+    "invFile": "invsbr",
     "stats": [],
     "fixedStats": [
       {
@@ -399,6 +460,13 @@
     "setName": "Angelical Raiment",
     "levelReq": 12,
     "category": "other",
+    "baseName": "Amulet",
+    "grade": "normal",
+    "slotCategory": "amulets",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invamu",
     "stats": [],
     "fixedStats": [
       {
@@ -436,6 +504,13 @@
     "setName": "Arcanna's Tricks",
     "levelReq": 15,
     "category": "weapons",
+    "baseName": "War Staff",
+    "grade": "normal",
+    "slotCategory": "staves",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": 50,
+    "invFile": "invwst",
     "stats": [],
     "fixedStats": [
       {
@@ -473,6 +548,16 @@
     "setName": "Arcanna's Tricks",
     "levelReq": 15,
     "category": "armor",
+    "baseName": "Light Plate",
+    "grade": "normal",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 90,
+      "max": 107
+    },
+    "requiredStrength": 41,
+    "durability": 60,
+    "invFile": "invltp",
     "stats": [],
     "fixedStats": [
       {
@@ -510,6 +595,16 @@
     "setName": "Arcanna's Tricks",
     "levelReq": 15,
     "category": "armor",
+    "baseName": "Skull Cap",
+    "grade": "normal",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 8,
+      "max": 11
+    },
+    "requiredStrength": 15,
+    "durability": 18,
+    "invFile": "invskp",
     "stats": [],
     "fixedStats": [
       {
@@ -541,6 +636,13 @@
     "setName": "Arcanna's Tricks",
     "levelReq": 15,
     "category": "other",
+    "baseName": "Amulet",
+    "grade": "normal",
+    "slotCategory": "amulets",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invamu",
     "stats": [],
     "fixedStats": [
       {
@@ -578,6 +680,16 @@
     "setName": "Arctic Gear",
     "levelReq": 2,
     "category": "armor",
+    "baseName": "Light Belt",
+    "grade": "normal",
+    "slotCategory": "belts",
+    "defense": {
+      "min": 3,
+      "max": 3
+    },
+    "requiredStrength": 0,
+    "durability": 14,
+    "invFile": "invvbl",
     "stats": [],
     "fixedStats": [
       {
@@ -615,6 +727,16 @@
     "setName": "Arctic Gear",
     "levelReq": 2,
     "category": "armor",
+    "baseName": "Quilted Armor",
+    "grade": "normal",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 8,
+      "max": 11
+    },
+    "requiredStrength": 12,
+    "durability": 20,
+    "invFile": "invqlt",
     "stats": [
       {
         "key": "ac%",
@@ -650,6 +772,13 @@
     "setName": "Arctic Gear",
     "levelReq": 2,
     "category": "weapons",
+    "baseName": "Short War Bow",
+    "grade": "normal",
+    "slotCategory": "bows",
+    "defense": null,
+    "requiredStrength": 35,
+    "durability": 48,
+    "invFile": "invswb",
     "stats": [],
     "fixedStats": [
       {
@@ -681,6 +810,16 @@
     "setName": "Arctic Gear",
     "levelReq": 2,
     "category": "armor",
+    "baseName": "Light Gauntlets",
+    "grade": "normal",
+    "slotCategory": "gloves",
+    "defense": {
+      "min": 9,
+      "max": 11
+    },
+    "requiredStrength": 45,
+    "durability": 18,
+    "invFile": "invtgl",
     "stats": [],
     "fixedStats": [
       {
@@ -718,6 +857,16 @@
     "setName": "Bane's Garments",
     "levelReq": 8,
     "category": "armor",
+    "baseName": "Light Belt",
+    "grade": "normal",
+    "slotCategory": "belts",
+    "defense": {
+      "min": 3,
+      "max": 3
+    },
+    "requiredStrength": 0,
+    "durability": 14,
+    "invFile": "invvbl",
     "stats": [],
     "fixedStats": [
       {
@@ -749,6 +898,13 @@
     "setName": "Bane's Garments",
     "levelReq": 8,
     "category": "weapons",
+    "baseName": "Kriss",
+    "grade": "normal",
+    "slotCategory": "daggers",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": 24,
+    "invFile": "invdgr",
     "stats": [],
     "fixedStats": [
       {
@@ -781,6 +937,16 @@
     "setName": "Bane's Garments",
     "levelReq": 8,
     "category": "armor",
+    "baseName": "Hard Leather Armor",
+    "grade": "normal",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 21,
+      "max": 24
+    },
+    "requiredStrength": 20,
+    "durability": 28,
+    "invFile": "invhla",
     "stats": [],
     "fixedStats": [
       {
@@ -812,6 +978,13 @@
     "setName": "Berserker's Garb",
     "levelReq": 3,
     "category": "weapons",
+    "baseName": "Double Axe",
+    "grade": "normal",
+    "slotCategory": "axes",
+    "defense": null,
+    "requiredStrength": 43,
+    "durability": 24,
+    "invFile": "inv2ax",
     "stats": [],
     "fixedStats": [
       {
@@ -843,6 +1016,16 @@
     "setName": "Berserker's Garb",
     "levelReq": 3,
     "category": "armor",
+    "baseName": "Splint Mail",
+    "grade": "normal",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 90,
+      "max": 95
+    },
+    "requiredStrength": 51,
+    "durability": 30,
+    "invFile": "invspl",
     "stats": [],
     "fixedStats": [
       {
@@ -867,6 +1050,16 @@
     "setName": "Berserker's Garb",
     "levelReq": 3,
     "category": "armor",
+    "baseName": "Helm",
+    "grade": "normal",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 15,
+      "max": 18
+    },
+    "requiredStrength": 26,
+    "durability": 24,
+    "invFile": "invhlm",
     "stats": [],
     "fixedStats": [
       {
@@ -891,6 +1084,13 @@
     "setName": "Bul-Kathos' Children",
     "levelReq": 61,
     "category": "weapons",
+    "baseName": "Colossus Blade",
+    "grade": "elite",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 189,
+    "durability": 50,
+    "invFile": "invgsd",
     "stats": [],
     "fixedStats": [
       {
@@ -925,6 +1125,13 @@
     "setName": "Bul-Kathos' Children",
     "levelReq": 54,
     "category": "weapons",
+    "baseName": "Mythical Sword",
+    "grade": "elite",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 147,
+    "durability": 44,
+    "invFile": "invwsd",
     "stats": [],
     "fixedStats": [
       {
@@ -964,6 +1171,16 @@
     "setName": "Cathan's Traps",
     "levelReq": 11,
     "category": "armor",
+    "baseName": "Chain Mail",
+    "grade": "normal",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 72,
+      "max": 75
+    },
+    "requiredStrength": 48,
+    "durability": 45,
+    "invFile": "invchn",
     "stats": [],
     "fixedStats": [
       {
@@ -1001,6 +1218,13 @@
     "setName": "Cathan's Traps",
     "levelReq": 11,
     "category": "weapons",
+    "baseName": "Battle Staff",
+    "grade": "normal",
+    "slotCategory": "staves",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": 40,
+    "invFile": "invbst",
     "stats": [],
     "fixedStats": [
       {
@@ -1038,6 +1262,13 @@
     "setName": "Cathan's Traps",
     "levelReq": 11,
     "category": "other",
+    "baseName": "Ring",
+    "grade": "normal",
+    "slotCategory": "rings",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invrin",
     "stats": [],
     "fixedStats": [
       {
@@ -1069,6 +1300,13 @@
     "setName": "Cathan's Traps",
     "levelReq": 11,
     "category": "other",
+    "baseName": "Amulet",
+    "grade": "normal",
+    "slotCategory": "amulets",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invamu",
     "stats": [],
     "fixedStats": [
       {
@@ -1106,6 +1344,16 @@
     "setName": "Cathan's Traps",
     "levelReq": 11,
     "category": "armor",
+    "baseName": "Mask",
+    "grade": "normal",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 9,
+      "max": 27
+    },
+    "requiredStrength": 23,
+    "durability": 20,
+    "invFile": "invmsk",
     "stats": [],
     "fixedStats": [
       {
@@ -1130,6 +1378,13 @@
     "setName": "Civerb's Vestments",
     "levelReq": 9,
     "category": "weapons",
+    "baseName": "Grand Scepter",
+    "grade": "normal",
+    "slotCategory": "scepters",
+    "defense": null,
+    "requiredStrength": 37,
+    "durability": 60,
+    "invFile": "invgsc",
     "stats": [
       {
         "key": "dmg-max",
@@ -1158,6 +1413,13 @@
     "setName": "Civerb's Vestments",
     "levelReq": 9,
     "category": "other",
+    "baseName": "Amulet",
+    "grade": "normal",
+    "slotCategory": "amulets",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invamu",
     "stats": [],
     "fixedStats": [
       {
@@ -1195,6 +1457,16 @@
     "setName": "Civerb's Vestments",
     "levelReq": 9,
     "category": "armor",
+    "baseName": "Large Shield",
+    "grade": "normal",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 12,
+      "max": 14
+    },
+    "requiredStrength": 34,
+    "durability": 24,
+    "invFile": "invlrg",
     "stats": [],
     "fixedStats": [
       {
@@ -1232,6 +1504,16 @@
     "setName": "Cleglaw's Brace",
     "levelReq": 4,
     "category": "armor",
+    "baseName": "Small Shield",
+    "grade": "normal",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 8,
+      "max": 10
+    },
+    "requiredStrength": 22,
+    "durability": 16,
+    "invFile": "invsml",
     "stats": [],
     "fixedStats": [
       {
@@ -1263,6 +1545,16 @@
     "setName": "Cleglaw's Brace",
     "levelReq": 4,
     "category": "armor",
+    "baseName": "Chain Gloves",
+    "grade": "normal",
+    "slotCategory": "gloves",
+    "defense": {
+      "min": 8,
+      "max": 9
+    },
+    "requiredStrength": 25,
+    "durability": 16,
+    "invFile": "invmgl",
     "stats": [],
     "fixedStats": [
       {
@@ -1287,6 +1579,13 @@
     "setName": "Cleglaw's Brace",
     "levelReq": 4,
     "category": "weapons",
+    "baseName": "Long Sword",
+    "grade": "normal",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 55,
+    "durability": 44,
+    "invFile": "invlsd",
     "stats": [],
     "fixedStats": [
       {
@@ -1311,6 +1610,16 @@
     "setName": "Cow King's Leathers",
     "levelReq": 18,
     "category": "armor",
+    "baseName": "Studded Leather",
+    "grade": "normal",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 32,
+      "max": 35
+    },
+    "requiredStrength": 27,
+    "durability": 32,
+    "invFile": "invstu",
     "stats": [
       {
         "key": "gethit-skill",
@@ -1349,6 +1658,16 @@
     "setName": "Cow King's Leathers",
     "levelReq": 13,
     "category": "armor",
+    "baseName": "Heavy Boots",
+    "grade": "normal",
+    "slotCategory": "boots",
+    "defense": {
+      "min": 5,
+      "max": 6
+    },
+    "requiredStrength": 18,
+    "durability": 14,
+    "invFile": "invvbt",
     "stats": [
       {
         "key": "ac",
@@ -1394,6 +1713,16 @@
     "setName": "Cow King's Leathers",
     "levelReq": 25,
     "category": "armor",
+    "baseName": "War Hat",
+    "grade": "exceptional",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 45,
+      "max": 53
+    },
+    "requiredStrength": 20,
+    "durability": 12,
+    "invFile": "invcap",
     "stats": [],
     "fixedStats": [
       {
@@ -1428,6 +1757,16 @@
     "setName": "The Disciple",
     "levelReq": 65,
     "category": "armor",
+    "baseName": "Mithril Coil",
+    "grade": "elite",
+    "slotCategory": "belts",
+    "defense": {
+      "min": 58,
+      "max": 65
+    },
+    "requiredStrength": 106,
+    "durability": 16,
+    "invFile": "invmbl",
     "stats": [],
     "fixedStats": [
       {
@@ -1462,6 +1801,13 @@
     "setName": "Heaven's Brethren",
     "levelReq": 68,
     "category": "weapons",
+    "baseName": "Reinforced Mace",
+    "grade": "elite",
+    "slotCategory": "maces",
+    "defense": null,
+    "requiredStrength": 145,
+    "durability": 60,
+    "invFile": "invmac",
     "stats": [
       {
         "key": "hit-skill",
@@ -1497,6 +1843,16 @@
     "setName": "Death's Disguise",
     "levelReq": 6,
     "category": "armor",
+    "baseName": "Sash",
+    "grade": "normal",
+    "slotCategory": "belts",
+    "defense": {
+      "min": 2,
+      "max": 2
+    },
+    "requiredStrength": 0,
+    "durability": 12,
+    "invFile": "invlbl",
     "stats": [],
     "fixedStats": [
       {
@@ -1528,6 +1884,16 @@
     "setName": "Death's Disguise",
     "levelReq": 6,
     "category": "armor",
+    "baseName": "Leather Gloves",
+    "grade": "normal",
+    "slotCategory": "gloves",
+    "defense": {
+      "min": 2,
+      "max": 3
+    },
+    "requiredStrength": 0,
+    "durability": 12,
+    "invFile": "invlgl",
     "stats": [],
     "fixedStats": [
       {
@@ -1559,6 +1925,13 @@
     "setName": "Death's Disguise",
     "levelReq": 6,
     "category": "weapons",
+    "baseName": "War Sword",
+    "grade": "normal",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 71,
+    "durability": 44,
+    "invFile": "invwsd",
     "stats": [],
     "fixedStats": [
       {
@@ -1590,6 +1963,16 @@
     "setName": "Griswold's Legacy",
     "levelReq": 45,
     "category": "armor",
+    "baseName": "Ornate Armor",
+    "grade": "exceptional",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 417,
+      "max": 450
+    },
+    "requiredStrength": 170,
+    "durability": 60,
+    "invFile": "invaar",
     "stats": [],
     "fixedStats": [
       {
@@ -1629,6 +2012,16 @@
     "setName": "Griswold's Legacy",
     "levelReq": 68,
     "category": "armor",
+    "baseName": "Vortex Shield",
+    "grade": "elite",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 182,
+      "max": 225
+    },
+    "requiredStrength": 148,
+    "durability": 90,
+    "invFile": "invpa5",
     "stats": [],
     "fixedStats": [
       {
@@ -1663,6 +2056,16 @@
     "setName": "Griswold's Legacy",
     "levelReq": 69,
     "category": "armor",
+    "baseName": "Corona",
+    "grade": "elite",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 111,
+      "max": 165
+    },
+    "requiredStrength": 174,
+    "durability": 50,
+    "invFile": "invcrn",
     "stats": [
       {
         "key": "ac%",
@@ -1720,6 +2123,13 @@
     "setName": "Griswold's Legacy",
     "levelReq": 53,
     "category": "weapons",
+    "baseName": "Caduceus",
+    "grade": "elite",
+    "slotCategory": "scepters",
+    "defense": null,
+    "requiredStrength": 97,
+    "durability": 70,
+    "invFile": "invwsp",
     "stats": [
       {
         "key": "dmg%",
@@ -1784,6 +2194,16 @@
     "setName": "Orphan's Call",
     "levelReq": 34,
     "category": "armor",
+    "baseName": "Winged Helm",
+    "grade": "exceptional",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 85,
+      "max": 98
+    },
+    "requiredStrength": 115,
+    "durability": 40,
+    "invFile": "invghm",
     "stats": [],
     "fixedStats": [
       {
@@ -1823,6 +2243,16 @@
     "setName": "Heaven's Brethren",
     "levelReq": 44,
     "category": "armor",
+    "baseName": "Cuirass",
+    "grade": "exceptional",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 188,
+      "max": 202
+    },
+    "requiredStrength": 65,
+    "durability": 50,
+    "invFile": "invbrs",
     "stats": [],
     "fixedStats": [
       {
@@ -1862,6 +2292,16 @@
     "setName": "Heaven's Brethren",
     "levelReq": 81,
     "category": "armor",
+    "baseName": "Ward",
+    "grade": "elite",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 153,
+      "max": 170
+    },
+    "requiredStrength": 185,
+    "durability": 100,
+    "invFile": "invgts",
     "stats": [],
     "fixedStats": [
       {
@@ -1911,6 +2351,16 @@
     "setName": "Horazon's Splendor",
     "levelReq": 62,
     "category": "armor",
+    "baseName": "Demonhead",
+    "grade": "elite",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 101,
+      "max": 154
+    },
+    "requiredStrength": 102,
+    "durability": 20,
+    "invFile": "invmsk",
     "stats": [
       {
         "key": "str",
@@ -1959,6 +2409,16 @@
     "setName": "Horazon's Splendor",
     "levelReq": 55,
     "category": "armor",
+    "baseName": "Russet Armor",
+    "grade": "exceptional",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 225,
+      "max": 243
+    },
+    "requiredStrength": 97,
+    "durability": 30,
+    "invFile": "invspl",
     "stats": [
       {
         "key": "ac%",
@@ -2034,6 +2494,16 @@
     "setName": "Horazon's Splendor",
     "levelReq": 48,
     "category": "armor",
+    "baseName": "Demonhide Gloves",
+    "grade": "exceptional",
+    "slotCategory": "gloves",
+    "defense": {
+      "min": 28,
+      "max": 35
+    },
+    "requiredStrength": 20,
+    "durability": 12,
+    "invFile": "invlgl",
     "stats": [
       {
         "key": "att",
@@ -2102,6 +2572,16 @@
     "setName": "Horazon's Splendor",
     "levelReq": 67,
     "category": "armor",
+    "baseName": "Mirrored Boots",
+    "grade": "elite",
+    "slotCategory": "boots",
+    "defense": {
+      "min": 59,
+      "max": 68
+    },
+    "requiredStrength": 163,
+    "durability": 18,
+    "invFile": "invtbt",
     "stats": [
       {
         "key": "str",
@@ -2161,6 +2641,16 @@
     "setName": "Horazon's Splendor",
     "levelReq": 57,
     "category": "armor",
+    "baseName": "Occult Codex",
+    "grade": "elite",
+    "slotCategory": "grimoires",
+    "defense": {
+      "min": 98,
+      "max": 142
+    },
+    "requiredStrength": 91,
+    "durability": 20,
+    "invFile": "invbbb",
     "stats": [
       {
         "key": "vit",
@@ -2225,6 +2715,16 @@
     "setName": "Hsarus' Defense",
     "levelReq": 3,
     "category": "armor",
+    "baseName": "Buckler",
+    "grade": "normal",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 4,
+      "max": 6
+    },
+    "requiredStrength": 12,
+    "durability": 12,
+    "invFile": "invbuc",
     "stats": [],
     "fixedStats": [
       {
@@ -2249,6 +2749,16 @@
     "setName": "Hsarus' Defense",
     "levelReq": 3,
     "category": "armor",
+    "baseName": "Chain Boots",
+    "grade": "normal",
+    "slotCategory": "boots",
+    "defense": {
+      "min": 8,
+      "max": 9
+    },
+    "requiredStrength": 30,
+    "durability": 16,
+    "invFile": "invmbt",
     "stats": [],
     "fixedStats": [
       {
@@ -2273,6 +2783,16 @@
     "setName": "Hsarus' Defense",
     "levelReq": 3,
     "category": "armor",
+    "baseName": "Belt",
+    "grade": "normal",
+    "slotCategory": "belts",
+    "defense": {
+      "min": 5,
+      "max": 5
+    },
+    "requiredStrength": 25,
+    "durability": 16,
+    "invFile": "invmbl",
     "stats": [],
     "fixedStats": [
       {
@@ -2297,6 +2817,13 @@
     "setName": "Hwanin's Majesty",
     "levelReq": 28,
     "category": "weapons",
+    "baseName": "Bill",
+    "grade": "exceptional",
+    "slotCategory": "polearms",
+    "defense": null,
+    "requiredStrength": 95,
+    "durability": 50,
+    "invFile": "invvou",
     "stats": [
       {
         "key": "hit-skill",
@@ -2347,6 +2874,16 @@
     "setName": "Hwanin's Majesty",
     "levelReq": 30,
     "category": "armor",
+    "baseName": "Tigulated Mail",
+    "grade": "exceptional",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 176,
+      "max": 190
+    },
+    "requiredStrength": 86,
+    "durability": 36,
+    "invFile": "invscl",
     "stats": [
       {
         "key": "gethit-skill",
@@ -2385,6 +2922,16 @@
     "setName": "Hwanin's Majesty",
     "levelReq": 35,
     "category": "armor",
+    "baseName": "Belt",
+    "grade": "normal",
+    "slotCategory": "belts",
+    "defense": {
+      "min": 5,
+      "max": 5
+    },
+    "requiredStrength": 25,
+    "durability": 16,
+    "invFile": "invmbl",
     "stats": [
       {
         "key": "dmg-ltng",
@@ -2418,6 +2965,16 @@
     "setName": "Hwanin's Majesty",
     "levelReq": 45,
     "category": "armor",
+    "baseName": "Grand Crown",
+    "grade": "exceptional",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 78,
+      "max": 113
+    },
+    "requiredStrength": 103,
+    "durability": 50,
+    "invFile": "invcrn",
     "stats": [],
     "fixedStats": [
       {
@@ -2452,6 +3009,16 @@
     "setName": "Immortal King",
     "levelReq": 29,
     "category": "armor",
+    "baseName": "War Belt",
+    "grade": "exceptional",
+    "slotCategory": "belts",
+    "defense": {
+      "min": 41,
+      "max": 52
+    },
+    "requiredStrength": 110,
+    "durability": 24,
+    "invFile": "invhbl",
     "stats": [],
     "fixedStats": [
       {
@@ -2517,6 +3084,16 @@
     "setName": "Immortal King",
     "levelReq": 30,
     "category": "armor",
+    "baseName": "War Gauntlets",
+    "grade": "exceptional",
+    "slotCategory": "gloves",
+    "defense": {
+      "min": 43,
+      "max": 53
+    },
+    "requiredStrength": 110,
+    "durability": 24,
+    "invFile": "invhgl",
     "stats": [
       {
         "key": "gethit-skill",
@@ -2586,6 +3163,16 @@
     "setName": "Immortal King",
     "levelReq": 31,
     "category": "armor",
+    "baseName": "War Boots",
+    "grade": "exceptional",
+    "slotCategory": "boots",
+    "defense": {
+      "min": 43,
+      "max": 53
+    },
+    "requiredStrength": 125,
+    "durability": 24,
+    "invFile": "invhbt",
     "stats": [],
     "fixedStats": [
       {
@@ -2645,6 +3232,16 @@
     "setName": "Immortal King",
     "levelReq": 76,
     "category": "armor",
+    "baseName": "Sacred Armor",
+    "grade": "elite",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 487,
+      "max": 600
+    },
+    "requiredStrength": 232,
+    "durability": 60,
+    "invFile": "invaar",
     "stats": [],
     "fixedStats": [
       {
@@ -2710,6 +3307,13 @@
     "setName": "Immortal King",
     "levelReq": 76,
     "category": "weapons",
+    "baseName": "Ogre Maul",
+    "grade": "elite",
+    "slotCategory": "hammers",
+    "defense": null,
+    "requiredStrength": 225,
+    "durability": 60,
+    "invFile": "invmau",
     "stats": [
       {
         "key": "crush",
@@ -2794,6 +3398,16 @@
     "setName": "Immortal King",
     "levelReq": 47,
     "category": "armor",
+    "baseName": "Avenger Guard",
+    "grade": "normal",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 35,
+      "max": 50
+    },
+    "requiredStrength": 65,
+    "durability": 55,
+    "invFile": "invba5",
     "stats": [
       {
         "key": "mag%",
@@ -2842,6 +3456,16 @@
     "setName": "Infernal Tools",
     "levelReq": 5,
     "category": "armor",
+    "baseName": "Cap",
+    "grade": "normal",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 3,
+      "max": 5
+    },
+    "requiredStrength": 0,
+    "durability": 12,
+    "invFile": "invcap",
     "stats": [],
     "fixedStats": [
       {
@@ -2866,6 +3490,16 @@
     "setName": "Infernal Tools",
     "levelReq": 5,
     "category": "armor",
+    "baseName": "Heavy Belt",
+    "grade": "normal",
+    "slotCategory": "belts",
+    "defense": {
+      "min": 6,
+      "max": 6
+    },
+    "requiredStrength": 45,
+    "durability": 18,
+    "invFile": "invtbl",
     "stats": [],
     "fixedStats": [
       {
@@ -2903,6 +3537,13 @@
     "setName": "Infernal Tools",
     "levelReq": 5,
     "category": "weapons",
+    "baseName": "Grim Wand",
+    "grade": "normal",
+    "slotCategory": "wands",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": 15,
+    "invFile": "invgwn",
     "stats": [],
     "fixedStats": [
       {
@@ -2927,6 +3568,16 @@
     "setName": "Iratha's Finery",
     "levelReq": 15,
     "category": "armor",
+    "baseName": "Crown",
+    "grade": "normal",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 25,
+      "max": 45
+    },
+    "requiredStrength": 55,
+    "durability": 50,
+    "invFile": "invcrn",
     "stats": [],
     "fixedStats": [
       {
@@ -2951,6 +3602,13 @@
     "setName": "Iratha's Finery",
     "levelReq": 15,
     "category": "other",
+    "baseName": "Amulet",
+    "grade": "normal",
+    "slotCategory": "amulets",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invamu",
     "stats": [],
     "fixedStats": [
       {
@@ -2982,6 +3640,16 @@
     "setName": "Iratha's Finery",
     "levelReq": 15,
     "category": "armor",
+    "baseName": "Heavy Belt",
+    "grade": "normal",
+    "slotCategory": "belts",
+    "defense": {
+      "min": 6,
+      "max": 6
+    },
+    "requiredStrength": 45,
+    "durability": 18,
+    "invFile": "invtbl",
     "stats": [],
     "fixedStats": [
       {
@@ -3013,6 +3681,16 @@
     "setName": "Iratha's Finery",
     "levelReq": 15,
     "category": "armor",
+    "baseName": "Light Gauntlets",
+    "grade": "normal",
+    "slotCategory": "gloves",
+    "defense": {
+      "min": 9,
+      "max": 11
+    },
+    "requiredStrength": 45,
+    "durability": 18,
+    "invFile": "invtgl",
     "stats": [],
     "fixedStats": [
       {
@@ -3044,6 +3722,16 @@
     "setName": "Isenhart's Armory",
     "levelReq": 8,
     "category": "armor",
+    "baseName": "Breast Plate",
+    "grade": "normal",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 65,
+      "max": 68
+    },
+    "requiredStrength": 30,
+    "durability": 50,
+    "invFile": "invbrs",
     "stats": [],
     "fixedStats": [
       {
@@ -3068,6 +3756,16 @@
     "setName": "Isenhart's Armory",
     "levelReq": 8,
     "category": "armor",
+    "baseName": "Full Helm",
+    "grade": "normal",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 23,
+      "max": 26
+    },
+    "requiredStrength": 41,
+    "durability": 30,
+    "invFile": "invfhl",
     "stats": [],
     "fixedStats": [
       {
@@ -3099,6 +3797,13 @@
     "setName": "Isenhart's Armory",
     "levelReq": 8,
     "category": "weapons",
+    "baseName": "Broad Sword",
+    "grade": "normal",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 48,
+    "durability": 32,
+    "invFile": "invbsd",
     "stats": [],
     "fixedStats": [
       {
@@ -3123,6 +3828,16 @@
     "setName": "Isenhart's Armory",
     "levelReq": 8,
     "category": "armor",
+    "baseName": "Gothic Shield",
+    "grade": "normal",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 30,
+      "max": 35
+    },
+    "requiredStrength": 60,
+    "durability": 40,
+    "invFile": "invgts",
     "stats": [],
     "fixedStats": [
       {
@@ -3154,6 +3869,16 @@
     "setName": "The Disciple",
     "levelReq": 63,
     "category": "armor",
+    "baseName": "Bramble Mitts",
+    "grade": "elite",
+    "slotCategory": "gloves",
+    "defense": {
+      "min": 54,
+      "max": 62
+    },
+    "requiredStrength": 50,
+    "durability": 12,
+    "invFile": "invlgl",
     "stats": [
       {
         "key": "hit-skill",
@@ -3197,6 +3922,13 @@
     "setName": "M'avina's Battle Hymn",
     "levelReq": 70,
     "category": "weapons",
+    "baseName": "Grand Matron Bow",
+    "grade": "elite",
+    "slotCategory": "bows",
+    "defense": null,
+    "requiredStrength": 108,
+    "durability": 55,
+    "invFile": "invam2",
     "stats": [],
     "fixedStats": [
       {
@@ -3250,6 +3982,16 @@
     "setName": "M'avina's Battle Hymn",
     "levelReq": 70,
     "category": "armor",
+    "baseName": "Kraken Shell",
+    "grade": "elite",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 417,
+      "max": 523
+    },
+    "requiredStrength": 174,
+    "durability": 48,
+    "invFile": "invfld",
     "stats": [
       {
         "key": "gethit-skill",
@@ -3302,6 +4044,16 @@
     "setName": "M'avina's Battle Hymn",
     "levelReq": 32,
     "category": "armor",
+    "baseName": "Battle Gauntlets",
+    "grade": "exceptional",
+    "slotCategory": "gloves",
+    "defense": {
+      "min": 39,
+      "max": 47
+    },
+    "requiredStrength": 88,
+    "durability": 18,
+    "invFile": "invtgl",
     "stats": [
       {
         "key": "ac",
@@ -3365,6 +4117,16 @@
     "setName": "M'avina's Battle Hymn",
     "levelReq": 45,
     "category": "armor",
+    "baseName": "Sharkskin Belt",
+    "grade": "exceptional",
+    "slotCategory": "belts",
+    "defense": {
+      "min": 31,
+      "max": 36
+    },
+    "requiredStrength": 20,
+    "durability": 14,
+    "invFile": "invvbl",
     "stats": [],
     "fixedStats": [
       {
@@ -3406,6 +4168,16 @@
     "setName": "M'avina's Battle Hymn",
     "levelReq": 59,
     "category": "armor",
+    "baseName": "Diadem",
+    "grade": "elite",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 50,
+      "max": 60
+    },
+    "requiredStrength": 0,
+    "durability": 20,
+    "invFile": "invci3",
     "stats": [],
     "fixedStats": [
       {
@@ -3459,6 +4231,16 @@
     "setName": "Orphan's Call",
     "levelReq": 37,
     "category": "armor",
+    "baseName": "Sharkskin Gloves",
+    "grade": "exceptional",
+    "slotCategory": "gloves",
+    "defense": {
+      "min": 33,
+      "max": 39
+    },
+    "requiredStrength": 20,
+    "durability": 14,
+    "invFile": "invvgl",
     "stats": [],
     "fixedStats": [
       {
@@ -3498,6 +4280,16 @@
     "setName": "McAuley's Folly",
     "levelReq": 25,
     "category": "armor",
+    "baseName": "Cap",
+    "grade": "normal",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 3,
+      "max": 5
+    },
+    "requiredStrength": 0,
+    "durability": 12,
+    "invFile": "invcap",
     "stats": [],
     "fixedStats": [
       {
@@ -3522,6 +4314,16 @@
     "setName": "McAuley's Folly",
     "levelReq": 20,
     "category": "armor",
+    "baseName": "Heavy Boots",
+    "grade": "normal",
+    "slotCategory": "boots",
+    "defense": {
+      "min": 5,
+      "max": 6
+    },
+    "requiredStrength": 18,
+    "durability": 14,
+    "invFile": "invvbt",
     "stats": [],
     "fixedStats": [
       {
@@ -3556,6 +4358,13 @@
     "setName": "McAuley's Folly",
     "levelReq": 25,
     "category": "weapons",
+    "baseName": "Bone Wand",
+    "grade": "normal",
+    "slotCategory": "wands",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": 15,
+    "invFile": "invbwn",
     "stats": [
       {
         "key": "dmg-cold",
@@ -3599,6 +4408,16 @@
     "setName": "McAuley's Folly",
     "levelReq": 28,
     "category": "armor",
+    "baseName": "Heavy Gloves",
+    "grade": "normal",
+    "slotCategory": "gloves",
+    "defense": {
+      "min": 5,
+      "max": 6
+    },
+    "requiredStrength": 0,
+    "durability": 14,
+    "invFile": "invvgl",
     "stats": [
       {
         "key": "ac",
@@ -3639,6 +4458,16 @@
     "setName": "Milabrega's Regalia",
     "levelReq": 17,
     "category": "armor",
+    "baseName": "Crown",
+    "grade": "normal",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 25,
+      "max": 45
+    },
+    "requiredStrength": 55,
+    "durability": 50,
+    "invFile": "invcrn",
     "stats": [],
     "fixedStats": [
       {
@@ -3670,6 +4499,16 @@
     "setName": "Milabrega's Regalia",
     "levelReq": 17,
     "category": "armor",
+    "baseName": "Kite Shield",
+    "grade": "normal",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 16,
+      "max": 18
+    },
+    "requiredStrength": 47,
+    "durability": 30,
+    "invFile": "invkit",
     "stats": [],
     "fixedStats": [
       {
@@ -3707,6 +4546,16 @@
     "setName": "Milabrega's Regalia",
     "levelReq": 17,
     "category": "armor",
+    "baseName": "Ancient Armor",
+    "grade": "normal",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 218,
+      "max": 233
+    },
+    "requiredStrength": 100,
+    "durability": 60,
+    "invFile": "invaar",
     "stats": [],
     "fixedStats": [
       {
@@ -3738,6 +4587,13 @@
     "setName": "Milabrega's Regalia",
     "levelReq": 17,
     "category": "weapons",
+    "baseName": "War Scepter",
+    "grade": "normal",
+    "slotCategory": "scepters",
+    "defense": null,
+    "requiredStrength": 55,
+    "durability": 70,
+    "invFile": "invwsp",
     "stats": [],
     "fixedStats": [
       {
@@ -3767,6 +4623,16 @@
     "setName": "Naj's Ancient Set",
     "levelReq": 28,
     "category": "armor",
+    "baseName": "Circlet",
+    "grade": "normal",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 20,
+      "max": 30
+    },
+    "requiredStrength": 0,
+    "durability": 35,
+    "invFile": "invci0",
     "stats": [
       {
         "key": "dmg-fire",
@@ -3812,6 +4678,16 @@
     "setName": "Naj's Ancient Set",
     "levelReq": 71,
     "category": "armor",
+    "baseName": "Hellforge Plate",
+    "grade": "elite",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 421,
+      "max": 530
+    },
+    "requiredStrength": 196,
+    "durability": 60,
+    "invFile": "invplt",
     "stats": [],
     "fixedStats": [
       {
@@ -3856,6 +4732,13 @@
     "setName": "Naj's Ancient Set",
     "levelReq": 78,
     "category": "weapons",
+    "baseName": "Elder Staff",
+    "grade": "elite",
+    "slotCategory": "staves",
+    "defense": null,
+    "requiredStrength": 44,
+    "durability": 35,
+    "invFile": "invcst",
     "stats": [
       {
         "key": "charged",
@@ -3911,6 +4794,13 @@
     "setName": "Natalya's Odium",
     "levelReq": 79,
     "category": "weapons",
+    "baseName": "Scissors Suwayyah",
+    "grade": "elite",
+    "slotCategory": "katars",
+    "defense": null,
+    "requiredStrength": 118,
+    "durability": 68,
+    "invFile": "invskr",
     "stats": [
       {
         "key": "dmg-fire",
@@ -3964,6 +4854,16 @@
     "setName": "Natalya's Odium",
     "levelReq": 73,
     "category": "armor",
+    "baseName": "Loricated Mail",
+    "grade": "elite",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 390,
+      "max": 496
+    },
+    "requiredStrength": 149,
+    "durability": 36,
+    "invFile": "invscl",
     "stats": [
       {
         "key": "ac",
@@ -4009,6 +4909,16 @@
     "setName": "Natalya's Odium",
     "levelReq": 25,
     "category": "armor",
+    "baseName": "Mesh Boots",
+    "grade": "exceptional",
+    "slotCategory": "boots",
+    "defense": {
+      "min": 37,
+      "max": 44
+    },
+    "requiredStrength": 65,
+    "durability": 16,
+    "invFile": "invmbt",
     "stats": [
       {
         "key": "ac",
@@ -4056,6 +4966,16 @@
     "setName": "Natalya's Odium",
     "levelReq": 59,
     "category": "armor",
+    "baseName": "Grim Helm",
+    "grade": "exceptional",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 60,
+      "max": 125
+    },
+    "requiredStrength": 58,
+    "durability": 40,
+    "invFile": "invbhm",
     "stats": [
       {
         "key": "ac",
@@ -4105,6 +5025,16 @@
     "setName": "Heaven's Brethren",
     "levelReq": 69,
     "category": "armor",
+    "baseName": "Spired Helm",
+    "grade": "elite",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 114,
+      "max": 159
+    },
+    "requiredStrength": 192,
+    "durability": 40,
+    "invFile": "invghm",
     "stats": [
       {
         "key": "hit-skill",
@@ -4153,6 +5083,16 @@
     "setName": "The Disciple",
     "levelReq": 29,
     "category": "armor",
+    "baseName": "Demonhide Boots",
+    "grade": "exceptional",
+    "slotCategory": "boots",
+    "defense": {
+      "min": 28,
+      "max": 35
+    },
+    "requiredStrength": 20,
+    "durability": 12,
+    "invFile": "invlbt",
     "stats": [
       {
         "key": "stam",
@@ -4191,6 +5131,13 @@
     "setName": "Sazabi's Grand Tribute",
     "levelReq": 73,
     "category": "weapons",
+    "baseName": "Cryptic Sword",
+    "grade": "elite",
+    "slotCategory": "swords",
+    "defense": null,
+    "requiredStrength": 99,
+    "durability": 44,
+    "invFile": "invlsd",
     "stats": [
       {
         "key": "dmg-cold",
@@ -4244,6 +5191,16 @@
     "setName": "Sazabi's Grand Tribute",
     "levelReq": 67,
     "category": "armor",
+    "baseName": "Balrog Skin",
+    "grade": "elite",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 410,
+      "max": 517
+    },
+    "requiredStrength": 165,
+    "durability": 30,
+    "invFile": "invspl",
     "stats": [
       {
         "key": "hp",
@@ -4287,6 +5244,16 @@
     "setName": "Sazabi's Grand Tribute",
     "levelReq": 43,
     "category": "armor",
+    "baseName": "Basinet",
+    "grade": "exceptional",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 75,
+      "max": 84
+    },
+    "requiredStrength": 82,
+    "durability": 30,
+    "invFile": "invfhl",
     "stats": [
       {
         "key": "res-fire",
@@ -4327,6 +5294,16 @@
     "setName": "Sigon's Complete Steel",
     "levelReq": 6,
     "category": "armor",
+    "baseName": "Gauntlets",
+    "grade": "normal",
+    "slotCategory": "gloves",
+    "defense": {
+      "min": 12,
+      "max": 15
+    },
+    "requiredStrength": 60,
+    "durability": 24,
+    "invFile": "invhgl",
     "stats": [],
     "fixedStats": [
       {
@@ -4358,6 +5335,16 @@
     "setName": "Sigon's Complete Steel",
     "levelReq": 6,
     "category": "armor",
+    "baseName": "Tower Shield",
+    "grade": "normal",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 22,
+      "max": 25
+    },
+    "requiredStrength": 75,
+    "durability": 60,
+    "invFile": "invtow",
     "stats": [],
     "fixedStats": [
       {
@@ -4382,6 +5369,16 @@
     "setName": "Sigon's Complete Steel",
     "levelReq": 6,
     "category": "armor",
+    "baseName": "Greaves",
+    "grade": "normal",
+    "slotCategory": "boots",
+    "defense": {
+      "min": 12,
+      "max": 15
+    },
+    "requiredStrength": 70,
+    "durability": 24,
+    "invFile": "invhbt",
     "stats": [],
     "fixedStats": [
       {
@@ -4419,6 +5416,16 @@
     "setName": "Sigon's Complete Steel",
     "levelReq": 6,
     "category": "armor",
+    "baseName": "Gothic Plate",
+    "grade": "normal",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 128,
+      "max": 135
+    },
+    "requiredStrength": 70,
+    "durability": 55,
+    "invFile": "invgth",
     "stats": [],
     "fixedStats": [
       {
@@ -4450,6 +5457,16 @@
     "setName": "Sigon's Complete Steel",
     "levelReq": 6,
     "category": "armor",
+    "baseName": "Great Helm",
+    "grade": "normal",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 30,
+      "max": 35
+    },
+    "requiredStrength": 63,
+    "durability": 40,
+    "invFile": "invghm",
     "stats": [],
     "fixedStats": [
       {
@@ -4474,6 +5491,16 @@
     "setName": "Sigon's Complete Steel",
     "levelReq": 6,
     "category": "armor",
+    "baseName": "Plated Belt",
+    "grade": "normal",
+    "slotCategory": "belts",
+    "defense": {
+      "min": 8,
+      "max": 11
+    },
+    "requiredStrength": 60,
+    "durability": 24,
+    "invFile": "invhbl",
     "stats": [],
     "fixedStats": [
       {
@@ -4498,6 +5525,16 @@
     "setName": "The Disciple",
     "levelReq": 43,
     "category": "armor",
+    "baseName": "Dusk Shroud",
+    "grade": "elite",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 361,
+      "max": 467
+    },
+    "requiredStrength": 77,
+    "durability": 20,
+    "invFile": "invqlt",
     "stats": [
       {
         "key": "ac",
@@ -4540,6 +5577,13 @@
     "setName": "Tal Rasha's Wrappings",
     "levelReq": 67,
     "category": "other",
+    "baseName": "Amulet",
+    "grade": "normal",
+    "slotCategory": "amulets",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invamu",
     "stats": [
       {
         "key": "dmg-ltng",
@@ -4590,6 +5634,16 @@
     "setName": "Tal Rasha's Wrappings",
     "levelReq": 53,
     "category": "armor",
+    "baseName": "Mesh Belt",
+    "grade": "exceptional",
+    "slotCategory": "belts",
+    "defense": {
+      "min": 35,
+      "max": 40
+    },
+    "requiredStrength": 58,
+    "durability": 16,
+    "invFile": "invmbl",
     "stats": [
       {
         "key": "mag%",
@@ -4646,6 +5700,16 @@
     "setName": "Tal Rasha's Wrappings",
     "levelReq": 66,
     "category": "armor",
+    "baseName": "Death Mask",
+    "grade": "exceptional",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 54,
+      "max": 86
+    },
+    "requiredStrength": 55,
+    "durability": 20,
+    "invFile": "invmsk",
     "stats": [],
     "fixedStats": [
       {
@@ -4690,6 +5754,16 @@
     "setName": "Tal Rasha's Wrappings",
     "levelReq": 71,
     "category": "armor",
+    "baseName": "Lacquered Plate",
+    "grade": "elite",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 433,
+      "max": 541
+    },
+    "requiredStrength": 208,
+    "durability": 55,
+    "invFile": "invgth",
     "stats": [],
     "fixedStats": [
       {
@@ -4746,6 +5820,13 @@
     "setName": "Tal Rasha's Wrappings",
     "levelReq": 65,
     "category": "weapons",
+    "baseName": "Swirling Crystal",
+    "grade": "exceptional",
+    "slotCategory": "orbs",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": 50,
+    "invFile": "invob5",
     "stats": [
       {
         "key": "skill",
@@ -4828,6 +5909,13 @@
     "setName": "Tancred's Battlegear",
     "levelReq": 20,
     "category": "weapons",
+    "baseName": "Military Pick",
+    "grade": "normal",
+    "slotCategory": "axes",
+    "defense": null,
+    "requiredStrength": 49,
+    "durability": 26,
+    "invFile": "invmpi",
     "stats": [],
     "fixedStats": [
       {
@@ -4865,6 +5953,16 @@
     "setName": "Tancred's Battlegear",
     "levelReq": 20,
     "category": "armor",
+    "baseName": "Boots",
+    "grade": "normal",
+    "slotCategory": "boots",
+    "defense": {
+      "min": 2,
+      "max": 3
+    },
+    "requiredStrength": 0,
+    "durability": 12,
+    "invFile": "invlbt",
     "stats": [],
     "fixedStats": [
       {
@@ -4902,6 +6000,16 @@
     "setName": "Tancred's Battlegear",
     "levelReq": 20,
     "category": "armor",
+    "baseName": "Bone Helm",
+    "grade": "normal",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 33,
+      "max": 36
+    },
+    "requiredStrength": 25,
+    "durability": 40,
+    "invFile": "invbhm",
     "stats": [],
     "fixedStats": [
       {
@@ -4933,6 +6041,16 @@
     "setName": "Tancred's Battlegear",
     "levelReq": 20,
     "category": "armor",
+    "baseName": "Full Plate Mail",
+    "grade": "normal",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 150,
+      "max": 161
+    },
+    "requiredStrength": 80,
+    "durability": 70,
+    "invFile": "invful",
     "stats": [],
     "fixedStats": [
       {
@@ -4957,6 +6075,13 @@
     "setName": "Tancred's Battlegear",
     "levelReq": 20,
     "category": "other",
+    "baseName": "Amulet",
+    "grade": "normal",
+    "slotCategory": "amulets",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invamu",
     "stats": [],
     "fixedStats": [
       {
@@ -4994,6 +6119,13 @@
     "setName": "The Disciple",
     "levelReq": 30,
     "category": "other",
+    "baseName": "Amulet",
+    "grade": "normal",
+    "slotCategory": "amulets",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invamu",
     "stats": [
       {
         "key": "res-pois",
@@ -5034,6 +6166,16 @@
     "setName": "Trang-Oul's Avatar",
     "levelReq": 45,
     "category": "armor",
+    "baseName": "Heavy Bracers",
+    "grade": "exceptional",
+    "slotCategory": "gloves",
+    "defense": {
+      "min": 37,
+      "max": 44
+    },
+    "requiredStrength": 58,
+    "durability": 16,
+    "invFile": "invmgl",
     "stats": [],
     "fixedStats": [
       {
@@ -5075,6 +6217,16 @@
     "setName": "Trang-Oul's Avatar",
     "levelReq": 47,
     "category": "armor",
+    "baseName": "Troll Belt",
+    "grade": "elite",
+    "slotCategory": "belts",
+    "defense": {
+      "min": 59,
+      "max": 66
+    },
+    "requiredStrength": 151,
+    "durability": 18,
+    "invFile": "invtbl",
     "stats": [
       {
         "key": "ac",
@@ -5137,6 +6289,16 @@
     "setName": "Trang-Oul's Avatar",
     "levelReq": 65,
     "category": "armor",
+    "baseName": "Bone Visage",
+    "grade": "elite",
+    "slotCategory": "helms",
+    "defense": {
+      "min": 100,
+      "max": 157
+    },
+    "requiredStrength": 106,
+    "durability": 40,
+    "invFile": "invbhm",
     "stats": [
       {
         "key": "ac",
@@ -5180,6 +6342,16 @@
     "setName": "Trang-Oul's Avatar",
     "levelReq": 49,
     "category": "armor",
+    "baseName": "Chaos Armor",
+    "grade": "exceptional",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 315,
+      "max": 342
+    },
+    "requiredStrength": 140,
+    "durability": 70,
+    "invFile": "invful",
     "stats": [],
     "fixedStats": [
       {
@@ -5237,6 +6409,16 @@
     "setName": "Trang-Oul's Avatar",
     "levelReq": 54,
     "category": "armor",
+    "baseName": "Cantor Trophy",
+    "grade": "exceptional",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 50,
+      "max": 64
+    },
+    "requiredStrength": 50,
+    "durability": 20,
+    "invFile": "invne4",
     "stats": [
       {
         "key": "res-fire",
@@ -5303,6 +6485,16 @@
     "setName": "Vidala's Rig",
     "levelReq": 14,
     "category": "armor",
+    "baseName": "Leather Armor",
+    "grade": "normal",
+    "slotCategory": "armors",
+    "defense": {
+      "min": 14,
+      "max": 17
+    },
+    "requiredStrength": 15,
+    "durability": 24,
+    "invFile": "invlea",
     "stats": [],
     "fixedStats": [
       {
@@ -5334,6 +6526,13 @@
     "setName": "Vidala's Rig",
     "levelReq": 14,
     "category": "weapons",
+    "baseName": "Long Battle Bow",
+    "grade": "normal",
+    "slotCategory": "bows",
+    "defense": null,
+    "requiredStrength": 40,
+    "durability": 44,
+    "invFile": "invlbb",
     "stats": [],
     "fixedStats": [
       {
@@ -5358,6 +6557,16 @@
     "setName": "Vidala's Rig",
     "levelReq": 14,
     "category": "armor",
+    "baseName": "Light Plated Boots",
+    "grade": "normal",
+    "slotCategory": "boots",
+    "defense": {
+      "min": 9,
+      "max": 11
+    },
+    "requiredStrength": 50,
+    "durability": 18,
+    "invFile": "invtbt",
     "stats": [],
     "fixedStats": [
       {
@@ -5389,6 +6598,13 @@
     "setName": "Vidala's Rig",
     "levelReq": 14,
     "category": "other",
+    "baseName": "Amulet",
+    "grade": "normal",
+    "slotCategory": "amulets",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invamu",
     "stats": [],
     "fixedStats": [
       {
@@ -5420,6 +6636,16 @@
     "setName": "Orphan's Call",
     "levelReq": 29,
     "category": "armor",
+    "baseName": "Round Shield",
+    "grade": "exceptional",
+    "slotCategory": "shields",
+    "defense": {
+      "min": 47,
+      "max": 55
+    },
+    "requiredStrength": 53,
+    "durability": 64,
+    "invFile": "invsml",
     "stats": [],
     "fixedStats": [
       {
@@ -5459,6 +6685,16 @@
     "setName": "Orphan's Call",
     "levelReq": 42,
     "category": "armor",
+    "baseName": "Battle Belt",
+    "grade": "exceptional",
+    "slotCategory": "belts",
+    "defense": {
+      "min": 37,
+      "max": 42
+    },
+    "requiredStrength": 88,
+    "durability": 18,
+    "invFile": "invtbl",
     "stats": [],
     "fixedStats": [
       {
