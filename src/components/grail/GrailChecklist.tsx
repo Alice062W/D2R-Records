@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { getAllGrailItems, type GrailItem } from '@/lib/grail/catalog';
 import { listFinds, type FindRecord } from '@/lib/grail/findsApi';
+import { getErrorMessage } from '@/lib/grail/errors';
 import AuthGate from './AuthGate';
 import GrailItemCard from './GrailItemCard';
 import GrailItemDetail from './GrailItemDetail';
@@ -27,7 +28,7 @@ function GrailChecklistInner() {
   function refresh() {
     listFinds()
       .then(setFinds)
-      .catch(e => setError(e instanceof Error ? e.message : String(e)));
+      .catch(e => setError(getErrorMessage(e)));
   }
 
   useEffect(() => {

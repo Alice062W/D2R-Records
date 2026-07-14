@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import { getAllGrailItems, type GrailItem } from '@/lib/grail/catalog';
 import { insertFind } from '@/lib/grail/findsApi';
 import { ACTS, AREAS_BY_ACT, type Act } from '@/lib/grail/zones';
+import { getErrorMessage } from '@/lib/grail/errors';
 
 const CATEGORY_LABEL_KEYS: Record<GrailItem['category'], 'categoryWeapons' | 'categoryArmor' | 'categoryOther'> = {
   weapons: 'categoryWeapons',
@@ -62,7 +63,7 @@ export default function LogFindForm({
       });
       onSaved();
     } catch (err) {
-      setError(err instanceof Error ? err.message : String(err));
+      setError(getErrorMessage(err));
     } finally {
       setSaving(false);
     }
