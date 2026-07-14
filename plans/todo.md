@@ -120,6 +120,16 @@ _Spec: [docs/superpowers/specs/2026-07-14-grail-zh-translation-design.md](../doc
 - [x] Translate UI chrome (Grail namespace + Footer.grailLink) to zh-TW + zh-CN
 - [x] Full verification + d2r.world spot-check across all 3 locales — final whole-branch review clean
 
+## Upcoming: D2R.world-Style Nav Shell + Unique/Set Items
+
+_Spec: [docs/superpowers/specs/2026-07-14-d2rworld-nav-design.md](../docs/superpowers/specs/2026-07-14-d2rworld-nav-design.md) · Plan: [plans/d2rworld-nav-implementation.md](./d2rworld-nav-implementation.md)_
+
+- [ ] Nav + Items message namespaces (en/zh-TW hand-authored, zh-CN via OpenCC)
+- [ ] SiteNavDrawer hamburger menu wired into shared layout
+- [ ] ComingSoonPage + 13 placeholder routes for remaining d2r.world sections
+- [ ] ItemCategoryGrid + ItemStatCard shared components
+- [ ] ItemBrowser + public Unique/Set Items pages (with grade tabs) + full verification
+
 ## Backlog / Ideas
 
 - Batch appraisal (multiple items at once) — premium feature
@@ -139,3 +149,4 @@ _Spec: [docs/superpowers/specs/2026-07-14-grail-zh-translation-design.md](../doc
 | [grail-item-reference-implementation.md](./grail-item-reference-implementation.md) | d2r.world-style stat sheets, slot grid, icons for all 538 items |
 | [grail-category-sidebar-implementation.md](./grail-category-sidebar-implementation.md) | Category sidebar navigation, retiring the single long scrolling page |
 | [grail-zh-translation-implementation.md](./grail-zh-translation-implementation.md) | Full zh-TW/zh-CN translation of catalog data + UI chrome |
+| [d2rworld-nav-implementation.md](./d2rworld-nav-implementation.md) | d2r.world-style nav drawer (14 sections) + public Unique/Set Items browsing |
