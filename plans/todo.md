@@ -140,6 +140,18 @@ _Spec: [docs/superpowers/specs/2026-07-14-unique-set-category-pages-design.md](.
 - [x] CategoryItemList component (grade-tab filtering for one category)
 - [x] New per-category routes, updated landing pages, retire ItemBrowser/ItemCategoryGrid + full verification — final whole-branch review clean, no fix rounds needed
 
+## Upcoming: Base Items, Runewords, Max Sockets
+
+_Spec: [docs/superpowers/specs/2026-07-14-base-runewords-maxsockets-design.md](../docs/superpowers/specs/2026-07-14-base-runewords-maxsockets-design.md) · Plan: [plans/base-runewords-maxsockets-implementation.md](./base-runewords-maxsockets-implementation.md)_
+
+- [ ] Vendor runes.json
+- [ ] Generate data/bases-full.json (base item lines, 3-grade comparison data)
+- [ ] Generate data/runewords-full.json (real effect stats from runes.json)
+- [ ] Generate data/max-sockets.json (from real itemtypes.json + items.json data)
+- [ ] Base Items pages (card-grid landing + comparison-table category pages)
+- [ ] Runewords filterable list page
+- [ ] Max Sockets page + full verification
+
 ## Backlog / Ideas
 
 - Batch appraisal (multiple items at once) — premium feature
@@ -161,3 +173,4 @@ _Spec: [docs/superpowers/specs/2026-07-14-unique-set-category-pages-design.md](.
 | [grail-zh-translation-implementation.md](./grail-zh-translation-implementation.md) | Full zh-TW/zh-CN translation of catalog data + UI chrome |
 | [d2rworld-nav-implementation.md](./d2rworld-nav-implementation.md) | d2r.world-style nav drawer (14 sections) + public Unique/Set Items browsing |
 | [unique-set-category-pages-implementation.md](./unique-set-category-pages-implementation.md) | Card-grid landing + real per-category routes for Unique/Set Items, matching d2r.world's actual flow |
+| [base-runewords-maxsockets-implementation.md](./base-runewords-maxsockets-implementation.md) | Base Items comparison tables, Runewords filterable list, generated Max Sockets table |
