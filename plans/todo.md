@@ -111,14 +111,14 @@ _Spec: [docs/superpowers/specs/2026-07-14-grail-category-sidebar-design.md](../d
 - [x] Icon extraction guide for owner's own D2R install (CascView + dc6png, written to public/items/inv/README.md)
 - [x] Fixed real bug found during verification: skill/tab-referencing stats collapsed to identical labels + colliding storage keys
 
-## Upcoming: Grail zh-TW / zh-CN Translation
+## Grail zh-TW / zh-CN Translation ✅
 
 _Spec: [docs/superpowers/specs/2026-07-14-grail-zh-translation-design.md](../docs/superpowers/specs/2026-07-14-grail-zh-translation-design.md) · Plan: [plans/grail-zh-translation-implementation.md](./grail-zh-translation-implementation.md)_
 
-- [ ] Locale-aware catalog generator (official zh-TW names via d2data's localestrings-chi.json, zh-CN via OpenCC)
-- [ ] Locale-aware catalog projection (LocalizedText model, localizeGrailItem helper, zero component changes)
-- [ ] Translate UI chrome (Grail namespace + Footer.grailLink) to zh-TW + zh-CN
-- [ ] Full verification + d2r.world spot-check across all 3 locales
+- [x] Locale-aware catalog generator (official zh-TW names via d2data's localestrings-chi.json, zh-CN via OpenCC)
+- [x] Locale-aware catalog projection (LocalizedText model, localizeGrailItem helper, zero component changes)
+- [x] Translate UI chrome (Grail namespace + Footer.grailLink) to zh-TW + zh-CN
+- [x] Full verification + d2r.world spot-check across all 3 locales — final whole-branch review clean
 
 ## Backlog / Ideas
 
