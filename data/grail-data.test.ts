@@ -2,6 +2,15 @@ import { describe, it, expect } from 'vitest';
 import uniques from './uniques.json';
 import sets from './sets.json';
 
+interface LocalizedText { en: string; 'zh-TW': string; 'zh-CN': string; }
+
+function isLocalizedText(v: unknown): v is LocalizedText {
+  return (
+    typeof v === 'object' && v !== null &&
+    'en' in v && 'zh-TW' in v && 'zh-CN' in v
+  );
+}
+
 describe('generated grail catalog', () => {
   it('has the expected item counts', () => {
     expect(uniques.length).toBe(403);
@@ -44,9 +53,9 @@ describe('generated grail catalog', () => {
 
   it('every entry has enrichment fields', () => {
     for (const item of [...uniques, ...sets] as {
-      baseName: string; grade: string; slotCategory: string; invFile: string;
+      baseName: LocalizedText; grade: string; slotCategory: string; invFile: string;
     }[]) {
-      expect(item.baseName.length).toBeGreaterThan(0);
+      expect(item.baseName.en.length).toBeGreaterThan(0);
       expect(['normal', 'exceptional', 'elite']).toContain(item.grade);
       expect(SLOT_CATEGORIES).toContain(item.slotCategory);
       expect(item.invFile.length).toBeGreaterThan(0);
@@ -57,20 +66,53 @@ describe('generated grail catalog', () => {
     // Regression: items with multiple skill/tab-referencing props of the same
     // generic code (e.g. two different "skill" bonuses) used to collapse onto
     // one object key, silently overwriting each other's logged roll values.
-    for (const item of [...uniques, ...sets] as { name: string; stats: { key: string }[] }[]) {
+    for (const item of [...uniques, ...sets] as { name: LocalizedText; stats: { key: string }[] }[]) {
       const keys = item.stats.map(s => s.key);
-      expect(new Set(keys).size, `${item.name} has duplicate stat keys: ${keys}`).toBe(keys.length);
+      expect(new Set(keys).size, `${item.name.en} has duplicate stat keys: ${keys}`).toBe(keys.length);
     }
   });
 
   it('disambiguates skill-referencing stats by naming the specific skill', () => {
-    const maelstromwrath = uniques.find(i => i.name === 'Maelstromwrath')!;
-    const labels = maelstromwrath.stats.filter(s => s.key.startsWith('skill:')).map(s => s.label);
+    const maelstromwrath = uniques.find(i => i.name.en === 'Maelstromwrath')!;
+    const labels = maelstromwrath.stats.filter(s => s.key.startsWith('skill:')).map(s => s.label.en);
     expect(labels).toEqual([
       'Skill Bonus (Corpse Explosion)',
       'Skill Bonus (Terror)',
       'Skill Bonus (Amplify Damage)',
       'Skill Bonus (Iron Maiden)',
     ]);
+  });
+
+  it('every translatable field has non-empty text in all three locales', () => {
+    function checkLocalizedText(field: unknown, context: string) {
+      expect(isLocalizedText(field), `${context} is not LocalizedText`).toBe(true);
+      const lt = field as LocalizedText;
+      expect(lt.en.length, `${context}.en empty`).toBeGreaterThan(0);
+      expect(lt['zh-TW'].length, `${context}.zh-TW empty`).toBeGreaterThan(0);
+      expect(lt['zh-CN'].length, `${context}.zh-CN empty`).toBeGreaterThan(0);
+    }
+    for (const item of [...uniques, ...sets] as {
+      name: unknown; baseName: unknown; setName: unknown;
+      stats: { label: unknown }[]; fixedStats: { label: unknown }[]; setBonuses: { label: unknown }[];
+    }[]) {
+      checkLocalizedText(item.name, 'name');
+      checkLocalizedText(item.baseName, 'baseName');
+      if (item.setName !== null) checkLocalizedText(item.setName, 'setName');
+      for (const s of item.stats) checkLocalizedText(s.label, 'stats[].label');
+      for (const f of item.fixedStats) checkLocalizedText(f.label, 'fixedStats[].label');
+      for (const b of item.setBonuses) checkLocalizedText(b.label, 'setBonuses[].label');
+    }
+  });
+
+  it('official Chinese names survive regeneration verbatim', () => {
+    const harlequinCrest = uniques.find(i => i.name.en === 'Harlequin Crest')!;
+    expect(harlequinCrest.name['zh-TW']).toBe('諧角之冠');
+    expect(harlequinCrest.name['zh-CN']).toBe('谐角之冠');
+  });
+
+  it('zh-CN differs from zh-TW wherever the source has Traditional-only characters', () => {
+    // Regression guard that OpenCC conversion is actually running, not a pass-through.
+    const harlequinCrest = uniques.find(i => i.name.en === 'Harlequin Crest')!;
+    expect(harlequinCrest.name['zh-CN']).not.toBe(harlequinCrest.name['zh-TW']);
   });
 });

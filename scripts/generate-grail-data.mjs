@@ -3,6 +3,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
+import * as OpenCC from 'opencc-js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const VENDOR = join(__dirname, '..', 'vendor', 'd2data', 'json');
@@ -12,12 +13,18 @@ const uniqueItems = JSON.parse(readFileSync(join(VENDOR, 'uniqueitems.json'), 'u
 const setItemsRaw = JSON.parse(readFileSync(join(VENDOR, 'setitems.json'), 'utf8'));
 const items = JSON.parse(readFileSync(join(VENDOR, 'items.json'), 'utf8'));
 const skills = JSON.parse(readFileSync(join(VENDOR, 'skills.json'), 'utf8'));
+const chi = JSON.parse(readFileSync(join(VENDOR, 'localestrings-chi.json'), 'utf8'));
 
-// Hand-curated labels for the most common stat codes (ranked by frequency across
+const toZhCnConverter = OpenCC.Converter({ from: 'tw', to: 'cn' });
+function toZhCn(text) {
+  return toZhCnConverter(text);
+}
+
+// Hand-curated English labels for the most common stat codes (ranked by frequency across
 // uniqueitems.json + setitems.json). Anything missing falls back to the raw code —
 // functional, just less pretty. Extend as needed; cross-check wording against
 // https://d2r.world/en-US when in doubt (reference only, do not copy their data).
-const PROP_LABELS = {
+const PROP_LABELS_EN = {
   str: 'Strength', dex: 'Dexterity', vit: 'Vitality', enr: 'Energy',
   hp: 'Life', mana: 'Mana', stam: 'Stamina',
   ac: 'Defense', 'ac%': 'Enhanced Defense %', 'ac-miss': 'Defense vs. Missile',
@@ -65,28 +72,93 @@ const PROP_LABELS = {
   'pois-min': 'Poison Damage (Min)', 'pois-max': 'Poison Damage (Max)', 'pois-len': 'Poison Duration',
 };
 
-function labelFor(code) {
-  if (PROP_LABELS[code]) return PROP_LABELS[code];
+// Hand-translated Traditional Chinese counterpart to PROP_LABELS_EN — same keys, same
+// fallback contract (missing key -> fall back to the English label, not the raw code,
+// per the project's fallback policy). Not official strings (D2's real property
+// description system is a template engine, not a simple lookup) — same "hand-curated,
+// extend as needed" convention as the English dictionary; worth native review.
+const PROP_LABELS_ZH_TW = {
+  str: '力量', dex: '敏捷', vit: '活力', enr: '精力',
+  hp: '生命值', mana: '魔力值', stam: '耐力',
+  ac: '防禦力', 'ac%': '強化防禦力 %', 'ac-miss': '對抗遠程攻擊防禦力',
+  'ac/lvl': '每等級防禦力', 'ignore-ac': '無視目標防禦力',
+  'dmg%': '強化傷害 %', 'dmg-min': '最小傷害', 'dmg-max': '最大傷害',
+  'dmg-norm': '傷害', 'dmg-fire': '火焰傷害', 'dmg-cold': '冷凍傷害',
+  'dmg-ltng': '閃電傷害', 'dmg-pois': '毒素傷害', 'dmg-undead': '對不死系傷害',
+  att: '攻擊等級', 'att%': '攻擊等級 %', 'att-skill': '攻擊等級（技能）',
+  crush: '破碎打擊 %', deadly: '致命一擊 %', openwounds: '撕裂傷口 %',
+  thorns: '攻擊者承受傷害', ease: '需求 %',
+  'res-fire': '火焰抗性 %', 'res-cold': '冷凍抗性 %', 'res-ltng': '閃電抗性 %',
+  'res-pois': '毒素抗性 %', 'res-all': '全抗性',
+  'red-dmg': '減少傷害', 'red-dmg%': '減少傷害 %', 'red-mag': '減少魔法傷害',
+  lifesteal: '生命竊取 %', manasteal: '魔力竊取 %',
+  regen: '生命回復 %', 'regen-mana': '魔力回復 %', 'regen-stam': '耐力回復 %',
+  block: '格擋機率 %', block2: '加快格擋速度',
+  balance1: '加快恢復速度', balance2: '加快恢復速度',
+  swing2: '加快攻擊速度', swing3: '加快攻擊速度',
+  cast2: '加快施法速度', cast3: '加快施法速度', move2: '加快跑走速度 %', move3: '加快跑走速度 %',
+  stamdrain: '減緩耐力消耗 %',
+  'pierce-fire': '降低敵方火焰抗性 %', 'pierce-ltng': '降低敵方閃電抗性 %',
+  'pierce-cold': '降低敵方冷凍抗性 %', 'pierce-pois': '降低敵方毒素抗性 %', 'pierce-mag': '降低敵方魔法抗性 %',
+  'extra-cold': '冷凍技能傷害 %', 'extra-fire': '火焰技能傷害 %',
+  'extra-ltng': '閃電技能傷害 %', 'extra-mag': '魔法技能傷害 %', 'extra-pois': '毒素技能傷害 %',
+  light: '光環半徑', 'half-freeze': '減半冰凍持續時間',
+  slow: '減緩目標速度 %', sock: '插槽數', dur: '不可破壞', indestruct: '不可破壞',
+  skill: '技能加成', oskill: '技能加成', skilltab: '技能列加成', allskills: '全部技能',
+  'hit-skill': '攻擊時觸發機率', 'gethit-skill': '受擊時觸發機率',
+  'death-skill': '死亡時觸發機率 %', 'levelup-skill': '升級時觸發機率 %',
+  charged: '充能次數', 'mag%': '額外魔法物品尋獲率 %', 'gold%': '額外金幣拾取率 %',
+  'dmg-to-mana': '承受傷害轉換為魔力',
+  dmg: '最大傷害', knock: '擊退',
+  'abs-cold': '冷凍吸收', 'abs-fire': '火焰吸收',
+  'rep-quant': '補充數量', 'rep-dur': '修復耐久度', stack: '增加堆疊上限',
+  ama: '亞馬遜技能等級', ass: '刺客技能等級', bar: '蠻族技能等級',
+  dru: '德魯伊技能等級', nec: '死靈法師技能等級', pal: '聖騎士技能等級',
+  sor: '女巫技能等級', 'mana%': '增加最大魔力值 %', 'hp%': '增加最大生命值 %',
+  'ltng-min': '閃電傷害（最小）', 'ltng-max': '閃電傷害（最大）',
+  'fire-min': '火焰傷害（最小）', 'fire-max': '火焰傷害（最大）',
+  'cold-min': '冷凍傷害（最小）', 'cold-max': '冷凍傷害（最大）', 'cold-len': '冷凍持續時間',
+  'pois-min': '毒素傷害（最小）', 'pois-max': '毒素傷害（最大）', 'pois-len': '毒素持續時間',
+};
+
+const LVL_SUFFIX = { en: ' (Based on Character Level)', 'zh-TW': '（依角色等級）' };
+
+// locale here is only 'en' | 'zh-TW' — zh-CN is always derived by converting a zh-TW
+// result, never resolved independently (see localizedLabelFor / localizedItemName etc.).
+function baseLabelForLocale(code, locale) {
+  if (locale === 'zh-TW') return PROP_LABELS_ZH_TW[code] ?? baseLabelForLocale(code, 'en');
+  return PROP_LABELS_EN[code] ?? code;
+}
+
+function labelForLocale(code, locale) {
+  if (PROP_LABELS_EN[code] || PROP_LABELS_ZH_TW[code]) return baseLabelForLocale(code, locale);
   // "/lvl" suffix marks a stat whose magnitude scales with character level
-  // (encoded in the source data via a `par` divisor rather than min/max).
-  // Fall back to the base stat's label with a level-scaling qualifier so
-  // these aren't indistinguishable from their flat counterparts.
+  // (encoded in the source data via a `par` divisor rather than min/max) and
+  // isn't itself a direct PROP_LABELS key — compose the base stat's label with
+  // a level-scaling qualifier so these aren't indistinguishable from their flat
+  // counterparts.
   if (code.endsWith('/lvl')) {
     const base = code.slice(0, -4);
-    return `${PROP_LABELS[base] ?? base} (Based on Character Level)`;
+    return `${baseLabelForLocale(base, locale)}${LVL_SUFFIX[locale]}`;
   }
-  return code;
+  return baseLabelForLocale(code, locale);
+}
+
+function localizedLabelFor(code) {
+  const zhTw = labelForLocale(code, 'zh-TW');
+  return { en: labelForLocale(code, 'en'), 'zh-TW': zhTw, 'zh-CN': toZhCn(zhTw) };
 }
 
 // Prop codes whose `par` field identifies a specific skill rather than being
 // incidental (see extractProps). `par` is either a numeric skill id (looked up
-// in vendor/d2data/json/skills.json) or already a literal skill-name string —
-// both forms occur in the source data (verified: skill/oskill/charged/hit-skill/
+// in vendor/d2data/json/skills.json for English, localestrings-chi.json's
+// `skillname{id}` keys for zh-TW) or already a literal skill-name string — both
+// forms occur in the source data (verified: skill/oskill/charged/hit-skill/
 // gethit-skill/death-skill/att-skill/levelup-skill, 255 occurrences across the
-// full catalog, zero unresolvable numeric ids). Without this, every stat sharing
-// one of these codes on the same item renders as an identical generic label
-// (e.g. "Skill Bonus: 1-3" four times on Maelstromwrath instead of naming each
-// of its four granted skills) — the specific skill is silently lost.
+// full catalog, zero unresolvable numeric ids for English). Without this, every
+// stat sharing one of these codes on the same item renders as an identical
+// generic label (e.g. "Skill Bonus: 1-3" four times on Maelstromwrath instead of
+// naming each of its four granted skills) — the specific skill is silently lost.
 // `Gethit-skill` (capital G) is a case-variant of `gethit-skill` in the source
 // data; normalized to the lowercase code so it's treated as the same stat.
 const SKILL_REF_PROPS = new Set([
@@ -106,16 +178,48 @@ const CODE_ALIASES = { 'Gethit-skill': 'gethit-skill' };
 // values) without claiming a specific tab name in the *label*.
 const KEY_ONLY_DISAMBIGUATE_PROPS = new Set(['skilltab']);
 
-function skillNameFor(par) {
-  const isNumeric = typeof par === 'number' || (typeof par === 'string' && /^-?\d+$/.test(par));
-  if (!isNumeric) return String(par);
+function isNumericPar(par) {
+  return typeof par === 'number' || (typeof par === 'string' && /^-?\d+$/.test(par));
+}
+
+function skillNameForLocale(par, locale) {
+  if (locale === 'zh-TW') {
+    if (isNumericPar(par)) return chi[`skillname${par}`] ?? skillNameForLocale(par, 'en');
+    return chi[String(par)] ?? String(par);
+  }
+  if (!isNumericPar(par)) return String(par);
   return skills[String(par)]?.skill ?? String(par);
 }
 
-function labelWithSkill(code, par) {
-  const base = labelFor(code);
+function localizedSkillName(par) {
+  const zhTw = skillNameForLocale(par, 'zh-TW');
+  return { en: skillNameForLocale(par, 'en'), 'zh-TW': zhTw, 'zh-CN': toZhCn(zhTw) };
+}
+
+function localizedLabelWithSkill(code, par) {
+  const base = localizedLabelFor(code);
   if (par === undefined) return base;
-  return `${base} (${skillNameFor(par)})`;
+  const skillName = localizedSkillName(par);
+  return {
+    en: `${base.en} (${skillName.en})`,
+    'zh-TW': `${base['zh-TW']} (${skillName['zh-TW']})`,
+    'zh-CN': `${base['zh-CN']} (${skillName['zh-CN']})`,
+  };
+}
+
+// Item/set names and base names: localestrings-chi.json is keyed by the exact
+// English string used elsewhere in the source data (item `index` names verbatim,
+// base item codes directly) — see vendor/d2data/README.md. ~95% coverage
+// (verified); the miss is newer DLC content not yet in this localization
+// snapshot, and falls back to the English text per the fallback policy.
+function localizedItemName(englishName) {
+  const zhTw = chi[englishName] ?? englishName;
+  return { en: englishName, 'zh-TW': zhTw, 'zh-CN': toZhCn(zhTw) };
+}
+
+function localizedBaseName(code, englishFallback) {
+  const zhTw = chi[code] ?? englishFallback;
+  return { en: englishFallback, 'zh-TW': zhTw, 'zh-CN': toZhCn(zhTw) };
 }
 
 // type code (items.json .type) -> slot category. Every code observed across
@@ -155,8 +259,9 @@ function gradeFor(code) {
 
 function baseFieldsFor(code) {
   const base = items[code];
+  const englishBaseName = base?.name ?? code;
   return {
-    baseName: base?.name ?? code,
+    baseName: localizedBaseName(code, englishBaseName),
     grade: gradeFor(code),
     slotCategory: slotFor(code),
     defense: base?.minac != null && base?.maxac != null
@@ -176,7 +281,7 @@ function extractProps(entry, count) {
     const code = CODE_ALIASES[rawCode] ?? rawCode;
     const par = entry[`par${n}`];
     const isSkillRef = SKILL_REF_PROPS.has(code);
-    const label = isSkillRef ? labelWithSkill(code, par) : labelFor(code);
+    const label = isSkillRef ? localizedLabelWithSkill(code, par) : localizedLabelFor(code);
     // Disambiguate the stat's identity key when the same generic code (e.g.
     // "skill", "charged", "skilltab") appears more than once on one item for
     // different skills/tabs — otherwise every such stat collapses onto one
@@ -216,7 +321,7 @@ function extractSetBonuses(entry) {
       const code = CODE_ALIASES[rawCode] ?? rawCode;
       const par = entry[`apar${n}${suffix}`];
       const isSkillRef = SKILL_REF_PROPS.has(code);
-      const label = isSkillRef ? labelWithSkill(code, par) : labelFor(code);
+      const label = isSkillRef ? localizedLabelWithSkill(code, par) : localizedLabelFor(code);
       const needsKeySuffix = (isSkillRef || KEY_ONLY_DISAMBIGUATE_PROPS.has(code)) && par !== undefined;
       const key = needsKeySuffix ? `${code}:${par}` : code;
       const min = entry[`amin${n}${suffix}`];
@@ -243,7 +348,7 @@ const uniquesOut = Object.entries(uniqueItems)
     return {
       id: `unique-${id}`,
       code: v.code,
-      name: v.index,
+      name: localizedItemName(v.index),
       kind: 'unique',
       setName: null,
       levelReq: v['lvl req'] ?? 0,
@@ -263,9 +368,9 @@ const setsOut = Object.entries(setItemsRaw)
     return {
       id: `set-${v['*ID']}`,
       code: v.item,
-      name: v.index,
+      name: localizedItemName(v.index),
       kind: 'set',
-      setName: v.set,
+      setName: v.set ? localizedItemName(v.set) : null,
       levelReq: v['lvl req'] ?? 0,
       ...baseFieldsFor(v.item),
       invFile: v.invfile || items[v.item]?.invfile || '',
