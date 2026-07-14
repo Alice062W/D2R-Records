@@ -13,12 +13,6 @@ describe('generated grail catalog', () => {
     expect(new Set(ids).size).toBe(ids.length);
   });
 
-  it('every entry has a valid category', () => {
-    for (const item of [...uniques, ...sets] as { category: string }[]) {
-      expect(['weapons', 'armor', 'other']).toContain(item.category);
-    }
-  });
-
   it('variable stats have min !== max, fixed stats have min === max collapsed to value', () => {
     for (const item of [...uniques, ...sets] as {
       stats: { min: number; max: number }[];

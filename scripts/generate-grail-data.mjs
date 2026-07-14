@@ -11,15 +11,6 @@ const OUT = join(__dirname, '..', 'data');
 const uniqueItems = JSON.parse(readFileSync(join(VENDOR, 'uniqueitems.json'), 'utf8'));
 const setItemsRaw = JSON.parse(readFileSync(join(VENDOR, 'setitems.json'), 'utf8'));
 const items = JSON.parse(readFileSync(join(VENDOR, 'items.json'), 'utf8'));
-const itemTypes = JSON.parse(readFileSync(join(VENDOR, 'itemtypes.json'), 'utf8'));
-
-const STORE_PAGE_TO_CATEGORY = { weap: 'weapons', armo: 'armor' };
-
-function categoryFor(code) {
-  const type = items[code]?.type;
-  const storePage = type ? itemTypes[type]?.StorePage : undefined;
-  return STORE_PAGE_TO_CATEGORY[storePage] ?? 'other';
-}
 
 // Hand-curated labels for the most common stat codes (ranked by frequency across
 // uniqueitems.json + setitems.json). Anything missing falls back to the raw code —
@@ -147,7 +138,6 @@ const uniquesOut = Object.entries(uniqueItems)
       kind: 'unique',
       setName: null,
       levelReq: v['lvl req'] ?? 0,
-      category: categoryFor(v.code),
       ...baseFieldsFor(v.code),
       invFile: v.invfile || items[v.code]?.invfile || '',
       stats: variable,
@@ -168,7 +158,6 @@ const setsOut = Object.entries(setItemsRaw)
       kind: 'set',
       setName: v.set,
       levelReq: v['lvl req'] ?? 0,
-      category: categoryFor(v.item),
       ...baseFieldsFor(v.item),
       invFile: v.invfile || items[v.item]?.invfile || '',
       stats: variable,

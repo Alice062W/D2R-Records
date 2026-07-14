@@ -2,20 +2,13 @@
 
 import { useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { getAllGrailItems, type GrailItem } from '@/lib/grail/catalog';
+import { getAllGrailItems, SLOT_ORDER, sortItemsForDisplay, type GrailItem } from '@/lib/grail/catalog';
 import { listFinds, type FindRecord } from '@/lib/grail/findsApi';
 import { getErrorMessage } from '@/lib/grail/errors';
 import AuthGate from './AuthGate';
 import GrailItemCard from './GrailItemCard';
 import GrailItemDetail from './GrailItemDetail';
 import LogFindForm from './LogFindForm';
-
-const CATEGORIES: GrailItem['category'][] = ['weapons', 'armor', 'other'];
-const CATEGORY_LABEL_KEYS: Record<GrailItem['category'], 'categoryWeapons' | 'categoryArmor' | 'categoryOther'> = {
-  weapons: 'categoryWeapons',
-  armor: 'categoryArmor',
-  other: 'categoryOther',
-};
 
 function GrailChecklistInner() {
   const t = useTranslations('Grail');
@@ -58,18 +51,24 @@ function GrailChecklistInner() {
       >
         {t('logFind')}
       </button>
-      {CATEGORIES.map(category => {
-        const categoryItems = items.filter(i => i.category === category);
-        const categoryFound = categoryItems.filter(
-          i => (findsById.get(i.id)?.length ?? 0) > 0
-        ).length;
+      <nav className="sticky top-0 z-40 bg-zinc-950/95 backdrop-blur border-b border-zinc-800 py-2 -mx-4 px-4 flex flex-wrap gap-x-3 gap-y-1 text-xs">
+        {SLOT_ORDER.map(slot => (
+          <a key={slot} href={`#slot-${slot}`} className="text-zinc-400 hover:text-amber-300 transition-colors">
+            {t(`slot_${slot}`)}
+          </a>
+        ))}
+      </nav>
+      {SLOT_ORDER.map(slot => {
+        const slotItems = sortItemsForDisplay(items.filter(i => i.slotCategory === slot));
+        if (slotItems.length === 0) return null;
+        const slotFound = slotItems.filter(i => (findsById.get(i.id)?.length ?? 0) > 0).length;
         return (
-          <section key={category}>
+          <section key={slot} id={`slot-${slot}`} className="scroll-mt-12">
             <h2 className="text-sm font-semibold uppercase tracking-wider text-zinc-400 mb-3">
-              {t(CATEGORY_LABEL_KEYS[category])} ({categoryFound}/{categoryItems.length})
+              {t(`slot_${slot}`)} ({slotFound}/{slotItems.length})
             </h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
-              {categoryItems.map(item => (
+              {slotItems.map(item => (
                 <GrailItemCard
                   key={item.id}
                   item={item}

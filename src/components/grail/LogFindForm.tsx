@@ -2,16 +2,10 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { getAllGrailItems, type GrailItem } from '@/lib/grail/catalog';
+import { getAllGrailItems, SLOT_ORDER, type GrailItem } from '@/lib/grail/catalog';
 import { insertFind } from '@/lib/grail/findsApi';
 import { ACTS, AREAS_BY_ACT, type Act } from '@/lib/grail/zones';
 import { getErrorMessage } from '@/lib/grail/errors';
-
-const CATEGORY_LABEL_KEYS: Record<GrailItem['category'], 'categoryWeapons' | 'categoryArmor' | 'categoryOther'> = {
-  weapons: 'categoryWeapons',
-  armor: 'categoryArmor',
-  other: 'categoryOther',
-};
 
 export default function LogFindForm({
   onSaved,
@@ -86,16 +80,19 @@ export default function LogFindForm({
             className="bg-zinc-800 border border-zinc-600 rounded-lg px-3 py-2 text-zinc-100"
           >
             <option value="">{t('selectItem')}</option>
-            {(['weapons', 'armor', 'other'] as const).map(category => (
-              <optgroup key={category} label={t(CATEGORY_LABEL_KEYS[category])}>
-                {items
-                  .filter(i => i.category === category)
-                  .sort((a, b) => a.name.localeCompare(b.name))
-                  .map(i => (
+            {SLOT_ORDER.map(slot => {
+              const slotItems = items
+                .filter(i => i.slotCategory === slot)
+                .sort((a, b) => a.name.localeCompare(b.name));
+              if (slotItems.length === 0) return null;
+              return (
+                <optgroup key={slot} label={t(`slot_${slot}`)}>
+                  {slotItems.map(i => (
                     <option key={i.id} value={i.id}>{i.name}{i.setName ? ` (${i.setName})` : ''}</option>
                   ))}
-              </optgroup>
-            ))}
+                </optgroup>
+              );
+            })}
           </select>
         </div>
 

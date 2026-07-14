@@ -21,7 +21,6 @@ export interface GrailItem {
   kind: 'unique' | 'set';
   setName: string | null;
   levelReq: number;
-  category: 'weapons' | 'armor' | 'other';
   baseName: string;
   grade: 'normal' | 'exceptional' | 'elite';
   slotCategory: string;
@@ -39,4 +38,22 @@ const ALL_ITEMS: GrailItem[] = [...(uniques as GrailItem[]), ...(sets as GrailIt
 
 export function getAllGrailItems(): GrailItem[] {
   return ALL_ITEMS;
+}
+
+// d2r.world's presentation order: armor slots, jewelry, then weapons.
+export const SLOT_ORDER = [
+  'helms', 'armors', 'shields', 'belts', 'boots', 'gloves',
+  'rings', 'amulets', 'charms', 'jewels',
+  'swords', 'daggers', 'axes', 'polearms', 'spears',
+  'clubs', 'maces', 'hammers', 'scepters', 'staves',
+  'orbs', 'wands', 'grimoires', 'katars',
+  'bows', 'crossbows', 'javelins', 'throwings',
+] as const;
+
+const GRADE_ORDER = { normal: 0, exceptional: 1, elite: 2 } as const;
+
+export function sortItemsForDisplay(items: GrailItem[]): GrailItem[] {
+  return [...items].sort(
+    (a, b) => GRADE_ORDER[a.grade] - GRADE_ORDER[b.grade] || a.levelReq - b.levelReq
+  );
 }
