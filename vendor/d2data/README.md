@@ -12,3 +12,7 @@ from it via OpenCC conversion at generation time, not a separate official source
 hand-edit these files —
 re-run the generation script against a newer pinned commit instead, and re-verify the
 generated output's item counts/names against https://d2r.world/en-US for completeness.
+
+`runes.json` provides runeword definitions (required runes, base item type
+restriction, and granted stat properties in the same `T{n}Code`/`Min`/`Max`/`Param`
+shape as `uniqueitems.json`/`setitems.json`) for the Runewords reference page.
