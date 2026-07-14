@@ -68,6 +68,7 @@
     "requiredStrength": "Required Strength",
     "durabilityLabel": "Durability",
     "setBonusesLabel": "Partial Set Bonuses",
-    "notFoundYet": "Not found yet"
+    "notFoundYet": "Not found yet",
+    "noVariableStats": "No variable rolls for this item — all stats are fixed."
   }
 }

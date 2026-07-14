@@ -55,17 +55,19 @@ export default function GrailItemDetail({
           </div>
         </div>
 
-        <div className="mt-4">
-          <h4 className="text-xs font-semibold uppercase tracking-wider text-zinc-500 mb-1">{t('magicProperties')}</h4>
-          <div className="text-sm text-blue-400 flex flex-col gap-0.5">
-            {item.stats.map(stat => (
-              <div key={stat.key}>{stat.label}: {stat.min}–{stat.max}</div>
-            ))}
-            {item.fixedStats.map(f => (
-              <div key={f.key}>{f.label}: {f.value}</div>
-            ))}
+        {(item.stats.length > 0 || item.fixedStats.length > 0) && (
+          <div className="mt-4">
+            <h4 className="text-xs font-semibold uppercase tracking-wider text-zinc-500 mb-1">{t('magicProperties')}</h4>
+            <div className="text-sm text-blue-400 flex flex-col gap-0.5">
+              {item.stats.map(stat => (
+                <div key={stat.key}>{stat.label}: {stat.min}–{stat.max}</div>
+              ))}
+              {item.fixedStats.map(f => (
+                <div key={f.key}>{f.label}: {f.value}</div>
+              ))}
+            </div>
           </div>
-        </div>
+        )}
 
         {item.setBonuses.length > 0 && (
           <div className="mt-4">
@@ -90,14 +92,18 @@ export default function GrailItemDetail({
                     <span>{i === 0 ? t('bestCopy') : t('copyNumber', { number: i + 1 })}</span>
                     <span>{find.foundAt}{find.ethereal ? ` · ${t('ethereal')}` : ''}</span>
                   </div>
-                  <div className="grid grid-cols-2 gap-x-4 gap-y-1 text-sm">
-                    {item.stats.map(stat => (
-                      <div key={stat.key} className="text-zinc-300">
-                        {stat.label}: <span className="font-semibold">{find.statValues[stat.key] ?? '—'}</span>
-                        <span className="text-zinc-600 text-xs"> ({stat.min}–{stat.max})</span>
-                      </div>
-                    ))}
-                  </div>
+                  {item.stats.length > 0 ? (
+                    <div className="grid grid-cols-2 gap-x-4 gap-y-1 text-sm">
+                      {item.stats.map(stat => (
+                        <div key={stat.key} className="text-zinc-300">
+                          {stat.label}: <span className="font-semibold">{find.statValues[stat.key] ?? '—'}</span>
+                          <span className="text-zinc-600 text-xs"> ({stat.min}–{stat.max})</span>
+                        </div>
+                      ))}
+                    </div>
+                  ) : (
+                    <p className="text-xs text-zinc-600 italic">{t('noVariableStats')}</p>
+                  )}
                   {(find.foundAct || find.foundArea) && (
                     <p className="text-xs text-zinc-500 mt-2">
                       {[find.foundAct, find.foundArea].filter(Boolean).join(' · ')}
