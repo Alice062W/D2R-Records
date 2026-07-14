@@ -36,6 +36,7 @@
     "signOut": "Sign out",
     "progressCount": "{found} / {total} items found",
     "logFind": "Log a find",
+    "categoriesLabel": "Categories",
     "slot_helms": "Helms",
     "slot_armors": "Armors",
     "slot_shields": "Shields",
