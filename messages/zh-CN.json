@@ -97,5 +97,36 @@
     "setBonusesLabel": "套装加成",
     "notFoundYet": "尚未找到",
     "noVariableStats": "此物品没有变动属性 — 所有数值皆为固定值。"
+  },
+  "Nav": {
+    "openMenu": "开启选单",
+    "closeMenu": "关闭选单",
+    "group_gameItems": "物品资讯",
+    "group_misc": "其他资讯",
+    "group_ourTools": "站内工具",
+    "item_base": "基础装备",
+    "item_magic": "魔法装备",
+    "item_rare": "稀有装备",
+    "item_set": "成套装备",
+    "item_unique": "独特装备",
+    "item_runes": "符文",
+    "item_runewords": "符文之语",
+    "item_cubeRecipes": "方块配方",
+    "item_crafted": "手工艺品",
+    "misc_fcrFhrFbr": "FCR/FHR/FBR",
+    "misc_alvl85": "85场景表",
+    "misc_areaLevel": "场景等级",
+    "misc_levelUp": "最佳练级难度",
+    "misc_maxSockets": "最大孔数",
+    "tool_appraiser": "鉴定工具",
+    "tool_grailTracker": "圣杯追踪器",
+    "aboutUs": "关于本站",
+    "comingSoon": "此区块尚未建置，敬请期待。"
+  },
+  "Items": {
+    "uniquePageTitle": "独特装备",
+    "uniquePageSubtitle": "浏览暗黑破坏神2：狱火重生中所有的独特物品。",
+    "setPageTitle": "成套装备",
+    "setPageSubtitle": "浏览暗黑破坏神2：狱火重生中所有的套装物品。"
   }
 }

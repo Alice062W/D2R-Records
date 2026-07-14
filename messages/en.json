@@ -97,5 +97,36 @@
     "setBonusesLabel": "Partial Set Bonuses",
     "notFoundYet": "Not found yet",
     "noVariableStats": "No variable rolls for this item — all stats are fixed."
+  },
+  "Nav": {
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "group_gameItems": "Game Items",
+    "group_misc": "Misc",
+    "group_ourTools": "Our Tools",
+    "item_base": "Base Items",
+    "item_magic": "Magic Items",
+    "item_rare": "Rare Items",
+    "item_set": "Set Items",
+    "item_unique": "Unique Items",
+    "item_runes": "Runes",
+    "item_runewords": "Runewords",
+    "item_cubeRecipes": "Cube Recipes",
+    "item_crafted": "Crafted Items",
+    "misc_fcrFhrFbr": "FCR/FHR/FBR",
+    "misc_alvl85": "Alvl85 Areas",
+    "misc_areaLevel": "Area Level",
+    "misc_levelUp": "Level Up",
+    "misc_maxSockets": "Max Sockets",
+    "tool_appraiser": "Appraiser",
+    "tool_grailTracker": "Grail Tracker",
+    "aboutUs": "About Us",
+    "comingSoon": "This section hasn't been built yet — check back soon."
+  },
+  "Items": {
+    "uniquePageTitle": "Unique Items",
+    "uniquePageSubtitle": "Browse every unique item in Diablo II: Resurrected.",
+    "setPageTitle": "Set Items",
+    "setPageSubtitle": "Browse every set item in Diablo II: Resurrected."
   }
 }

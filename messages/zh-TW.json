@@ -97,5 +97,36 @@
     "setBonusesLabel": "套裝加成",
     "notFoundYet": "尚未找到",
     "noVariableStats": "此物品沒有變動屬性 — 所有數值皆為固定值。"
+  },
+  "Nav": {
+    "openMenu": "開啟選單",
+    "closeMenu": "關閉選單",
+    "group_gameItems": "物品資訊",
+    "group_misc": "其他資訊",
+    "group_ourTools": "站內工具",
+    "item_base": "基礎裝備",
+    "item_magic": "魔法裝備",
+    "item_rare": "稀有裝備",
+    "item_set": "成套裝備",
+    "item_unique": "獨特裝備",
+    "item_runes": "符文",
+    "item_runewords": "符文之語",
+    "item_cubeRecipes": "方塊配方",
+    "item_crafted": "手工藝品",
+    "misc_fcrFhrFbr": "FCR/FHR/FBR",
+    "misc_alvl85": "85場景表",
+    "misc_areaLevel": "場景等級",
+    "misc_levelUp": "最佳練級難度",
+    "misc_maxSockets": "最大孔數",
+    "tool_appraiser": "鑑定工具",
+    "tool_grailTracker": "聖杯追蹤器",
+    "aboutUs": "關於本站",
+    "comingSoon": "此區塊尚未建置，敬請期待。"
+  },
+  "Items": {
+    "uniquePageTitle": "獨特裝備",
+    "uniquePageSubtitle": "瀏覽暗黑破壞神2：獄火重生中所有的獨特物品。",
+    "setPageTitle": "成套裝備",
+    "setPageSubtitle": "瀏覽暗黑破壞神2：獄火重生中所有的套裝物品。"
   }
 }
