@@ -120,15 +120,15 @@ _Spec: [docs/superpowers/specs/2026-07-14-grail-zh-translation-design.md](../doc
 - [x] Translate UI chrome (Grail namespace + Footer.grailLink) to zh-TW + zh-CN
 - [x] Full verification + d2r.world spot-check across all 3 locales — final whole-branch review clean
 
-## Upcoming: D2R.world-Style Nav Shell + Unique/Set Items
+## D2R.world-Style Nav Shell + Unique/Set Items ✅
 
 _Spec: [docs/superpowers/specs/2026-07-14-d2rworld-nav-design.md](../docs/superpowers/specs/2026-07-14-d2rworld-nav-design.md) · Plan: [plans/d2rworld-nav-implementation.md](./d2rworld-nav-implementation.md)_
 
-- [ ] Nav + Items message namespaces (en/zh-TW hand-authored, zh-CN via OpenCC)
-- [ ] SiteNavDrawer hamburger menu wired into shared layout
-- [ ] ComingSoonPage + 13 placeholder routes for remaining d2r.world sections
-- [ ] ItemCategoryGrid + ItemStatCard shared components
-- [ ] ItemBrowser + public Unique/Set Items pages (with grade tabs) + full verification
+- [x] Nav + Items message namespaces (en/zh-TW hand-authored, zh-CN via OpenCC)
+- [x] SiteNavDrawer hamburger menu wired into shared layout
+- [x] ComingSoonPage + 13 placeholder routes for remaining d2r.world sections
+- [x] ItemCategoryGrid + ItemStatCard shared components
+- [x] ItemBrowser + public Unique/Set Items pages (with grade tabs) + full verification — final whole-branch review clean (one fix round: site title restored, catalog filter memoized, a vacuous test strengthened)
 
 ## Backlog / Ideas
 
