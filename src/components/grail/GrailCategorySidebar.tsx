@@ -41,6 +41,7 @@ export default function GrailCategorySidebar({
           <button
             key={slot}
             onClick={() => handleSelect(slot)}
+            aria-current={active ? 'true' : undefined}
             className={`flex items-center justify-between px-3 py-2 rounded-lg text-sm text-left transition-colors ${
               active
                 ? 'bg-amber-500 text-zinc-950 font-semibold'
