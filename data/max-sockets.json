@@ -1,0 +1,182 @@
+[
+  {
+    "itemType": {
+      "en": "Circlets",
+      "zh-TW": "冠飾",
+      "zh-CN": "冠饰"
+    },
+    "ilvl1to25": 1,
+    "ilvl26to40": 2,
+    "ilvl41plus": 3
+  },
+  {
+    "itemType": {
+      "en": "Barbarian Helms",
+      "zh-TW": "蠻族頭盔",
+      "zh-CN": "蛮族头盔"
+    },
+    "ilvl1to25": 2,
+    "ilvl26to40": 3,
+    "ilvl41plus": 3
+  },
+  {
+    "itemType": {
+      "en": "Druid Helms",
+      "zh-TW": "德魯伊頭盔",
+      "zh-CN": "德鲁伊头盔"
+    },
+    "ilvl1to25": 2,
+    "ilvl26to40": 3,
+    "ilvl41plus": 3
+  },
+  {
+    "itemType": {
+      "en": "Helms",
+      "zh-TW": "頭盔",
+      "zh-CN": "头盔"
+    },
+    "ilvl1to25": 2,
+    "ilvl26to40": 2,
+    "ilvl41plus": 3
+  },
+  {
+    "itemType": {
+      "en": "Shrunken Heads",
+      "zh-TW": "縮頭",
+      "zh-CN": "缩头"
+    },
+    "ilvl1to25": 2,
+    "ilvl26to40": 2,
+    "ilvl41plus": 2
+  },
+  {
+    "itemType": {
+      "en": "Paladin Shields",
+      "zh-TW": "聖騎士盾牌",
+      "zh-CN": "圣骑士盾牌"
+    },
+    "ilvl1to25": 3,
+    "ilvl26to40": 4,
+    "ilvl41plus": 4
+  },
+  {
+    "itemType": {
+      "en": "Shields",
+      "zh-TW": "盾牌",
+      "zh-CN": "盾牌"
+    },
+    "ilvl1to25": 3,
+    "ilvl26to40": 3,
+    "ilvl41plus": 4
+  },
+  {
+    "itemType": {
+      "en": "Armors",
+      "zh-TW": "盔甲",
+      "zh-CN": "盔甲"
+    },
+    "ilvl1to25": 3,
+    "ilvl26to40": 4,
+    "ilvl41plus": 4
+  },
+  {
+    "itemType": {
+      "en": "Necromancer Wands",
+      "zh-TW": "死靈法師魔杖",
+      "zh-CN": "死灵法师魔杖"
+    },
+    "ilvl1to25": 2,
+    "ilvl26to40": 2,
+    "ilvl41plus": 2
+  },
+  {
+    "itemType": {
+      "en": "Daggers",
+      "zh-TW": "匕首",
+      "zh-CN": "匕首"
+    },
+    "ilvl1to25": 2,
+    "ilvl26to40": 3,
+    "ilvl41plus": 3
+  },
+  {
+    "itemType": {
+      "en": "Assassin Katars",
+      "zh-TW": "刺客拳刃",
+      "zh-CN": "刺客拳刃"
+    },
+    "ilvl1to25": 2,
+    "ilvl26to40": 3,
+    "ilvl41plus": 3
+  },
+  {
+    "itemType": {
+      "en": "Sorceress Orbs",
+      "zh-TW": "女巫法球",
+      "zh-CN": "女巫法球"
+    },
+    "ilvl1to25": 2,
+    "ilvl26to40": 3,
+    "ilvl41plus": 3
+  },
+  {
+    "itemType": {
+      "en": "Amazon Bows",
+      "zh-TW": "亞馬遜弓",
+      "zh-CN": "亚马逊弓"
+    },
+    "ilvl1to25": 3,
+    "ilvl26to40": 4,
+    "ilvl41plus": 5
+  },
+  {
+    "itemType": {
+      "en": "Scepters",
+      "zh-TW": "權杖",
+      "zh-CN": "权杖"
+    },
+    "ilvl1to25": 3,
+    "ilvl26to40": 5,
+    "ilvl41plus": 5
+  },
+  {
+    "itemType": {
+      "en": "Axes",
+      "zh-TW": "斧頭",
+      "zh-CN": "斧头"
+    },
+    "ilvl1to25": 4,
+    "ilvl26to40": 5,
+    "ilvl41plus": 6
+  },
+  {
+    "itemType": {
+      "en": "Staves",
+      "zh-TW": "法杖",
+      "zh-CN": "法杖"
+    },
+    "ilvl1to25": 5,
+    "ilvl26to40": 6,
+    "ilvl41plus": 6
+  },
+  {
+    "itemType": {
+      "en": "Grimoires",
+      "zh-TW": "魔法書",
+      "zh-CN": "魔法书"
+    },
+    "ilvl1to25": 2,
+    "ilvl26to40": 2,
+    "ilvl41plus": 2
+  },
+  {
+    "itemType": {
+      "en": "Other Weapons",
+      "zh-TW": "其他武器",
+      "zh-CN": "其他武器"
+    },
+    "ilvl1to25": 3,
+    "ilvl26to40": 4,
+    "ilvl41plus": 6
+  }
+]

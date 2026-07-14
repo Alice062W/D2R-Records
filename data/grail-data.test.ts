@@ -181,6 +181,29 @@ describe('runewords-full.json', () => {
   });
 });
 
+import maxSockets from './max-sockets.json';
+
+describe('max-sockets.json', () => {
+  it('has exactly 18 rows', () => {
+    expect(maxSockets.length).toBe(18);
+  });
+
+  it('Axes row matches the known real values (4/5/6)', () => {
+    const row = maxSockets.find(r => r.itemType.en === 'Axes')!;
+    expect(row).toEqual({ itemType: row.itemType, ilvl1to25: 4, ilvl26to40: 5, ilvl41plus: 6 });
+  });
+
+  it('Armors row is capped by the actual max gemsockets (3/4/4, not the raw 3/4/6 ceiling)', () => {
+    const row = maxSockets.find(r => r.itemType.en === 'Armors')!;
+    expect(row).toEqual({ itemType: row.itemType, ilvl1to25: 3, ilvl26to40: 4, ilvl41plus: 4 });
+  });
+
+  it('Helms row matches the known real values (2/2/3)', () => {
+    const row = maxSockets.find(r => r.itemType.en === 'Helms')!;
+    expect(row).toEqual({ itemType: row.itemType, ilvl1to25: 2, ilvl26to40: 2, ilvl41plus: 3 });
+  });
+});
+
 describe('getCategoriesForKind', () => {
   it('returns all 28 SLOT_ORDER categories for uniques', () => {
     expect(getCategoriesForKind('unique')).toEqual([...SLOT_ORDER]);

@@ -469,3 +469,78 @@ const runewordsFullOut = Object.entries(runesData)
 
 writeFileSync(join(OUT, 'runewords-full.json'), JSON.stringify(runewordsFullOut, null, 2));
 console.log(`Wrote ${runewordsFullOut.length} runewords -> data/runewords-full.json`);
+
+const itemTypesData = JSON.parse(readFileSync(join(VENDOR, 'itemtypes.json'), 'utf8'));
+
+// d2r.world's 17-row table. Each maps to one itemtypes.json key, EXCEPT "Other Weapons"
+// (see below). Individually-named rows are capped by the real max `gemsockets` seen
+// across items.json for that type — the raw MaxSockets3 ceiling in itemtypes.json is a
+// template value some categories never actually reach (confirmed: type "tors" has a
+// ceiling of 6 but no real body armor base exceeds gemsockets: 4 — matches d2r.world's
+// published "Armors: 3 4 4", not the raw "3 4 6"). "Other Weapons" is left as the raw
+// itemtypes.json ceiling for the "swor" (Sword) key, uncorrected — matching d2r.world's
+// own coarse catch-all row, which does not individually correct every remaining weapon
+// type either (verified: club/mace individually cap lower than swor's 3/4/6, but
+// d2r.world's single "Other Weapons" row still shows 3/4/6).
+const MAX_SOCKETS_ROWS = [
+  ['Circlets', 'circ'],
+  ['Barbarian Helms', 'phlm'],
+  ['Druid Helms', 'pelt'],
+  ['Helms', 'helm'],
+  ['Shrunken Heads', 'head'],
+  ['Paladin Shields', 'ashd'],
+  ['Shields', 'shie'],
+  ['Armors', 'tors'],
+  ['Necromancer Wands', 'wand'],
+  ['Daggers', 'knif'],
+  ['Assassin Katars', 'h2h2'],
+  ['Sorceress Orbs', 'orb'],
+  ['Amazon Bows', 'abow'],
+  ['Scepters', 'scep'],
+  ['Axes', 'axe'],
+  ['Staves', 'staf'],
+  ['Grimoires', 'grim'],
+];
+
+const MAX_SOCKETS_LABELS_ZH_TW = {
+  'Circlets': '冠飾', 'Barbarian Helms': '蠻族頭盔', 'Druid Helms': '德魯伊頭盔',
+  'Helms': '頭盔', 'Shrunken Heads': '縮頭', 'Paladin Shields': '聖騎士盾牌',
+  'Shields': '盾牌', 'Armors': '盔甲', 'Necromancer Wands': '死靈法師魔杖',
+  'Daggers': '匕首', 'Assassin Katars': '刺客拳刃', 'Sorceress Orbs': '女巫法球',
+  'Amazon Bows': '亞馬遜弓', 'Scepters': '權杖', 'Axes': '斧頭', 'Staves': '法杖',
+  'Grimoires': '魔法書',
+};
+
+function realMaxGemsockets(typeKey) {
+  const values = Object.values(items)
+    .filter(v => v.type === typeKey)
+    .map(v => v.gemsockets ?? 0);
+  return values.length ? Math.max(...values) : Infinity;
+}
+
+const maxSocketsOut = MAX_SOCKETS_ROWS.map(([label, typeKey]) => {
+  const t = itemTypesData[typeKey];
+  const cap = realMaxGemsockets(typeKey);
+  return {
+    itemType: {
+      en: label,
+      'zh-TW': MAX_SOCKETS_LABELS_ZH_TW[label],
+      'zh-CN': toZhCn(MAX_SOCKETS_LABELS_ZH_TW[label]),
+    },
+    ilvl1to25: Math.min(t.MaxSockets1, cap),
+    ilvl26to40: Math.min(t.MaxSockets2, cap),
+    ilvl41plus: Math.min(t.MaxSockets3, cap),
+  };
+});
+
+// "Other Weapons" catch-all: raw ceiling from the generic Sword type, uncorrected.
+const swordType = itemTypesData['swor'];
+maxSocketsOut.push({
+  itemType: { en: 'Other Weapons', 'zh-TW': '其他武器', 'zh-CN': toZhCn('其他武器') },
+  ilvl1to25: swordType.MaxSockets1,
+  ilvl26to40: swordType.MaxSockets2,
+  ilvl41plus: swordType.MaxSockets3,
+});
+
+writeFileSync(join(OUT, 'max-sockets.json'), JSON.stringify(maxSocketsOut, null, 2));
+console.log(`Wrote ${maxSocketsOut.length} max-sockets rows -> data/max-sockets.json`);
