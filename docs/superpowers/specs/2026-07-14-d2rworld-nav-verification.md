@@ -141,13 +141,44 @@ JS files (Turbopack dev chunks including the page's own bundle and shared compon
 bundle) were spot-checked with `curl` and returned `200`, indicating no broken asset
 references in dev mode.
 
-## Deferred (controller to complete)
+## Live browser verification (completed by controller)
 
-- **d2r.world spot-check**: 2-3 items per page (`/items/unique`, `/items/set`) cross-checked
-  against d2r.world's own equivalent pages, following the same format as
-  `docs/superpowers/specs/2026-07-14-grail-zh-translation-verification.md`'s spot-check
-  table. Not attempted here — this agent has no way to reach the external site.
-- Live interactive browser verification (actual clicking through categories/grade tabs in
-  a real browser, observing the console for runtime errors) — substituted above with the
-  passing automated test suite plus curl-based structural/SSR checks; a real browser pass
-  would still be valuable as a final sanity check.
+Ran a dev server directly from this worktree (port 3002, confirmed via `pwd` before
+starting) and drove it with a real browser.
+
+**Interactive checks, `/en/items/unique`:**
+- Clicked "Rings" — rendered Nagelring, Manald Heal with correct stats; only one grade
+  present, no grade tabs shown (correct — `gradesInSlot.length > 1` gate holds).
+- Clicked "Axes" — Normal/Exceptional/Elite tabs appeared (category spans all 3 grades).
+  Clicked "Elite" — list correctly filtered to Cranebeak, Hellslayer, etc.; The Gnasher
+  (normal) no longer shown.
+- Clicked "Boots" on `/en/items/set` — rendered set items with paired set names (e.g.
+  "Hsarus' Iron Heel" / "Hsarus' Defense"), Item Stats, Magic Properties, and "Partial Set
+  Bonuses" sections, matching the design.
+
+**Locale checks:** `/zh-TW/items/unique` renders "獨特裝備" with all 28 category labels
+correctly translated (頭盔, 盾牌, 戒指, 斧頭, etc.).
+
+**SiteNavDrawer, `/zh-TW` locale:** opened via the hamburger (aria-label "開啟選單"
+confirmed correct); all group headers and 17 links read exactly `物品資訊 | 基礎裝備 | 魔法裝備 |
+稀有裝備 | 成套裝備 | 獨特裝備 | 符文 | 符文之語 | 方塊配方 | 手工藝品 | 其他資訊 | FCR/FHR/FBR |
+85場景表 | 場景等級 | 最佳練級難度 | 最大孔數 | 站內工具 | 鑑定工具 | 聖杯追蹤器 | 關於本站` — every
+group-header and section term matches d2r.world's own zh-TW site exactly (confirmed
+against d2r.world directly during design). All `href`s correctly locale-prefixed
+(`/zh-TW/items/unique/`, etc.) with proper trailing slashes.
+
+**d2r.world spot-check (2 items, English):**
+
+| Item | Field | Result |
+|---|---|---|
+| Nagelring (Rings, unique) | stats | ✅ Match — Magic Damage Reduced, Attack Rating, Attacker Takes Damage, Magic Find % all present on both sites (ordering differs, which is expected: our stat *order* is hand-curated presentation, not an official-source field, per the established policy from the grail zh-translation verification pass). |
+| Hsarus' Iron Heel (Boots, set) | base + stats + set bonus | ✅ Match — Base "Chain Boots", Grade Normal, Faster Run/Walk %, Fire Resist %, and "Attack Rating (Based on Character Level)" as a set bonus all match d2r.world's equivalent entry exactly. |
+
+No console errors observed during any of the above interactions.
+
+## Assessment
+
+All automated verification, curl-based structural checks, and this live browser pass are
+consistent and clean. No discrepancies found beyond the already-known, already-documented
+stat-ordering convention (hand-curated display order vs. official source fields), which is
+an established, accepted policy from prior verification passes — not a defect.
