@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import uniques from './uniques.json';
 import sets from './sets.json';
+import basesFull from './bases-full.json';
 import { getCategoriesForKind, SLOT_ORDER } from '@/lib/grail/catalog';
 
 interface LocalizedText { en: string; 'zh-TW': string; 'zh-CN': string; }
@@ -115,6 +116,43 @@ describe('generated grail catalog', () => {
     // Regression guard that OpenCC conversion is actually running, not a pass-through.
     const harlequinCrest = uniques.find(i => i.name.en === 'Harlequin Crest')!;
     expect(harlequinCrest.name['zh-CN']).not.toBe(harlequinCrest.name['zh-TW']);
+  });
+});
+
+describe('bases-full.json', () => {
+  it('groups Hand Axe / Hatchet / Tomahawk into one axes line with all 3 grades', () => {
+    const line = basesFull.find(l => l.grades.normal?.name.en === 'Hand Axe')!;
+    expect(line).toBeTruthy();
+    expect(line.slotCategory).toBe('axes');
+    expect(line.grades.normal!.name.en).toBe('Hand Axe');
+    expect(line.grades.exceptional!.name.en).toBe('Hatchet');
+    expect(line.grades.elite!.name.en).toBe('Tomahawk');
+    expect(line.grades.elite!.levelReq).toBe(40);
+    expect(line.grades.elite!.requiredStrength).toBe(125);
+  });
+
+  it('handles a 1h-only weapon (no twoHandDamage) and records oneHandDamage', () => {
+    const line = basesFull.find(l => l.grades.normal?.name.en === 'Hand Axe')!;
+    expect(line.grades.normal!.oneHandDamage).toEqual({ min: 3, max: 6 });
+    expect(line.grades.normal!.twoHandDamage).toBeNull();
+  });
+
+  it('handles a 2h-only weapon (no oneHandDamage) and records twoHandDamage', () => {
+    const line = basesFull.find(l => l.grades.normal?.name.en === 'Large Axe')!;
+    expect(line.grades.normal!.oneHandDamage).toBeNull();
+    expect(line.grades.normal!.twoHandDamage).toEqual({ min: 6, max: 13 });
+  });
+
+  it('every line has a non-null normal grade', () => {
+    expect(basesFull.every(l => l.grades.normal !== null)).toBe(true);
+  });
+
+  it('zh-TW names are non-empty for every present grade', () => {
+    for (const line of basesFull) {
+      for (const grade of Object.values(line.grades)) {
+        if (grade) expect(grade.name['zh-TW']).not.toBe('');
+      }
+    }
   });
 });
 

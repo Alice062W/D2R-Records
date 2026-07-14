@@ -381,6 +381,46 @@ const setsOut = Object.entries(setItemsRaw)
     };
   });
 
+function damageFor(entry) {
+  const oneHand = entry.mindam != null && entry.maxdam != null
+    ? { min: entry.mindam, max: entry.maxdam }
+    : null;
+  const twoHand = entry['2handmindam'] != null && entry['2handmaxdam'] != null
+    ? { min: entry['2handmindam'], max: entry['2handmaxdam'] }
+    : null;
+  return { oneHandDamage: oneHand, twoHandDamage: twoHand };
+}
+
+function baseGradeFor(code) {
+  const entry = items[code];
+  if (!entry) return null;
+  return {
+    name: localizedBaseName(code, entry.name ?? code),
+    ...damageFor(entry),
+    levelReq: entry.levelreq ?? null,
+    requiredStrength: entry.reqstr ?? null,
+    requiredDexterity: entry.reqdex ?? null,
+    durability: entry.durability ?? null,
+    sockets: entry.gemsockets ?? null,
+    qlvl: entry.level ?? null,
+  };
+}
+
+const basesFullOut = Object.entries(items)
+  .filter(([code, v]) => v.normcode === code && TYPE_TO_SLOT[v.type])
+  .map(([code, v]) => ({
+    id: `base-${code}`,
+    slotCategory: TYPE_TO_SLOT[v.type],
+    grades: {
+      normal: baseGradeFor(code),
+      exceptional: v.ubercode && v.ubercode !== code ? baseGradeFor(v.ubercode) : null,
+      elite: v.ultracode && v.ultracode !== code ? baseGradeFor(v.ultracode) : null,
+    },
+  }));
+
+writeFileSync(join(OUT, 'bases-full.json'), JSON.stringify(basesFullOut, null, 2));
+console.log(`Wrote ${basesFullOut.length} base item lines -> data/bases-full.json`);
+
 writeFileSync(join(OUT, 'uniques.json'), JSON.stringify(uniquesOut, null, 2));
 writeFileSync(join(OUT, 'sets.json'), JSON.stringify(setsOut, null, 2));
 
