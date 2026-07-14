@@ -128,7 +128,7 @@
       },
       {
         "key": "ease",
-        "label": "Repair Durability %",
+        "label": "Requirements %",
         "value": -50
       },
       {
@@ -506,7 +506,7 @@
     "fixedStats": [
       {
         "key": "sor",
-        "label": "sor",
+        "label": "Sorceress Skill Levels",
         "value": 1
       },
       {
@@ -893,6 +893,11 @@
         "key": "move1",
         "label": "move1",
         "value": 20
+      },
+      {
+        "key": "dmg/lvl",
+        "label": "Maximum Damage (Based on Character Level)",
+        "value": 8
       }
     ],
     "setBonuses": [
@@ -944,7 +949,7 @@
     "setBonuses": [
       {
         "key": "balance1",
-        "label": "balance1",
+        "label": "Faster Hit Recovery",
         "min": 25,
         "max": 25
       }
@@ -1014,7 +1019,7 @@
       },
       {
         "key": "bar",
-        "label": "bar",
+        "label": "Barbarian Skill Levels",
         "value": 1
       }
     ],
@@ -1165,7 +1170,7 @@
       },
       {
         "key": "ease",
-        "label": "Repair Durability %",
+        "label": "Requirements %",
         "value": -50
       }
     ],
@@ -1208,7 +1213,7 @@
       },
       {
         "key": "fire-max",
-        "label": "fire-max",
+        "label": "Fire Damage (Max)",
         "value": 10
       }
     ],
@@ -1283,7 +1288,7 @@
     "fixedStats": [
       {
         "key": "balance1",
-        "label": "balance1",
+        "label": "Faster Hit Recovery",
         "value": 10
       },
       {
@@ -1525,7 +1530,7 @@
     "fixedStats": [
       {
         "key": "knock",
-        "label": "knock",
+        "label": "Knockback",
         "value": 1
       },
       {
@@ -1784,6 +1789,11 @@
     ],
     "fixedStats": [
       {
+        "key": "dmg/lvl",
+        "label": "Maximum Damage (Based on Character Level)",
+        "value": 12
+      },
+      {
         "key": "swing3",
         "label": "Faster Attack Rate",
         "value": 40
@@ -1953,7 +1963,7 @@
       },
       {
         "key": "ease",
-        "label": "Repair Durability %",
+        "label": "Requirements %",
         "value": -40
       }
     ],
@@ -1985,8 +1995,13 @@
         "value": 108
       },
       {
+        "key": "sock",
+        "label": "Sockets",
+        "value": 3
+      },
+      {
         "key": "block2",
-        "label": "block2",
+        "label": "Faster Block Rate",
         "value": 65
       },
       {
@@ -2037,7 +2052,7 @@
     "fixedStats": [
       {
         "key": "abs-cold/lvl",
-        "label": "abs-cold/lvl",
+        "label": "Cold Absorb (Based on Character Level)",
         "value": 2
       },
       {
@@ -2047,7 +2062,7 @@
       },
       {
         "key": "ease",
-        "label": "Repair Durability %",
+        "label": "Requirements %",
         "value": -40
       },
       {
@@ -2110,7 +2125,7 @@
       },
       {
         "key": "ease",
-        "label": "Repair Durability %",
+        "label": "Requirements %",
         "value": -20
       }
     ],
@@ -2228,7 +2243,7 @@
       },
       {
         "key": "ease",
-        "label": "Repair Durability %",
+        "label": "Requirements %",
         "value": -20
       }
     ],
@@ -2326,6 +2341,11 @@
     ],
     "fixedStats": [
       {
+        "key": "att%/lvl",
+        "label": "Attack Rating % (Based on Character Level)",
+        "value": 2
+      },
+      {
         "key": "war",
         "label": "war",
         "value": 1
@@ -2334,7 +2354,7 @@
     "setBonuses": [
       {
         "key": "hp%",
-        "label": "hp%",
+        "label": "Increase Maximum Life %",
         "min": 5,
         "max": 5
       },
@@ -2561,7 +2581,7 @@
       },
       {
         "key": "ease",
-        "label": "Repair Durability %",
+        "label": "Requirements %",
         "value": -30
       }
     ],
@@ -2618,7 +2638,7 @@
       },
       {
         "key": "balance1",
-        "label": "balance1",
+        "label": "Faster Hit Recovery",
         "value": 30
       },
       {
@@ -2636,7 +2656,7 @@
       },
       {
         "key": "pierce-fire",
-        "label": "pierce-fire",
+        "label": "Enemy Fire Resistance %",
         "min": 25,
         "max": 25
       },
@@ -2886,6 +2906,11 @@
         "value": 1
       },
       {
+        "key": "ac/lvl",
+        "label": "Defense per Level",
+        "value": 12
+      },
+      {
         "key": "dmg-to-mana",
         "label": "Damage Taken Goes to Mana",
         "value": 12
@@ -2988,7 +3013,7 @@
       },
       {
         "key": "balance2",
-        "label": "Faster Block Rate",
+        "label": "Faster Hit Recovery",
         "min": 25,
         "max": 25
       },
@@ -3202,7 +3227,7 @@
     "setBonuses": [
       {
         "key": "balance2",
-        "label": "Faster Block Rate",
+        "label": "Faster Hit Recovery",
         "min": 25,
         "max": 25
       },
@@ -3482,7 +3507,7 @@
       },
       {
         "key": "nec",
-        "label": "nec",
+        "label": "Necromancer Skill Levels",
         "value": 1
       }
     ],
@@ -3927,13 +3952,18 @@
     "fixedStats": [
       {
         "key": "ease",
-        "label": "Repair Durability %",
+        "label": "Requirements %",
         "value": -30
       },
       {
         "key": "skilltab",
         "label": "Skill Tab Bonus",
         "value": 2
+      },
+      {
+        "key": "ac/lvl",
+        "label": "Defense per Level",
+        "value": 32
       },
       {
         "key": "ac",
@@ -3944,7 +3974,7 @@
     "setBonuses": [
       {
         "key": "balance2",
-        "label": "Faster Block Rate",
+        "label": "Faster Hit Recovery",
         "min": 30,
         "max": 30
       }
@@ -4016,7 +4046,7 @@
       },
       {
         "key": "extra-cold",
-        "label": "extra-cold",
+        "label": "Cold Skill Damage %",
         "min": 20,
         "max": 20
       }
@@ -4214,6 +4244,11 @@
         "key": "thorns",
         "label": "Attacker Takes Damage",
         "value": 8
+      },
+      {
+        "key": "ac/lvl",
+        "label": "Defense per Level",
+        "value": 8
       }
     ],
     "setBonuses": [],
@@ -4302,7 +4337,7 @@
       },
       {
         "key": "cast3",
-        "label": "cast3",
+        "label": "Faster Cast Rate",
         "value": 20
       }
     ],
@@ -4504,7 +4539,7 @@
     "fixedStats": [
       {
         "key": "pal",
-        "label": "pal",
+        "label": "Paladin Skill Levels",
         "value": 1
       },
       {
@@ -4596,7 +4631,7 @@
     "fixedStats": [
       {
         "key": "ease",
-        "label": "Repair Durability %",
+        "label": "Requirements %",
         "value": -60
       },
       {
@@ -4669,7 +4704,7 @@
       },
       {
         "key": "cast3",
-        "label": "cast3",
+        "label": "Faster Cast Rate",
         "value": 30
       },
       {
@@ -4781,6 +4816,11 @@
     ],
     "fixedStats": [
       {
+        "key": "hp/lvl",
+        "label": "Life (Based on Character Level)",
+        "value": 8
+      },
+      {
         "key": "skilltab",
         "label": "Skill Tab Bonus",
         "value": 2
@@ -4844,6 +4884,11 @@
         "key": "move3",
         "label": "Faster Run/Walk %",
         "value": 40
+      },
+      {
+        "key": "regen-stam/lvl",
+        "label": "Stamina Regenerated % (Based on Character Level)",
+        "value": 2
       },
       {
         "key": "dur",
@@ -4949,7 +4994,7 @@
       },
       {
         "key": "ease",
-        "label": "Repair Durability %",
+        "label": "Requirements %",
         "value": -40
       },
       {
@@ -5486,7 +5531,7 @@
       },
       {
         "key": "sor",
-        "label": "sor",
+        "label": "Sorceress Skill Levels",
         "value": 2
       },
       {
@@ -5540,7 +5585,7 @@
     "fixedStats": [
       {
         "key": "ease",
-        "label": "Repair Durability %",
+        "label": "Requirements %",
         "value": -20
       },
       {
@@ -5651,7 +5696,7 @@
     "fixedStats": [
       {
         "key": "ease",
-        "label": "Repair Durability %",
+        "label": "Requirements %",
         "value": -60
       },
       {
@@ -5747,32 +5792,32 @@
       },
       {
         "key": "cast3",
-        "label": "cast3",
+        "label": "Faster Cast Rate",
         "value": 20
       }
     ],
     "setBonuses": [
       {
         "key": "sor",
-        "label": "sor",
+        "label": "Sorceress Skill Levels",
         "min": 1,
         "max": 1
       },
       {
         "key": "pierce-fire",
-        "label": "pierce-fire",
+        "label": "Enemy Fire Resistance %",
         "min": 15,
         "max": 15
       },
       {
         "key": "pierce-ltng",
-        "label": "pierce-ltng",
+        "label": "Enemy Lightning Resistance %",
         "min": 15,
         "max": 15
       },
       {
         "key": "extra-cold",
-        "label": "extra-cold",
+        "label": "Cold Skill Damage %",
         "min": 15,
         "max": 15
       }
@@ -6060,7 +6105,7 @@
       },
       {
         "key": "cast3",
-        "label": "cast3",
+        "label": "Faster Cast Rate",
         "value": 20
       },
       {
@@ -6077,7 +6122,7 @@
     "setBonuses": [
       {
         "key": "extra-pois",
-        "label": "extra-pois",
+        "label": "Poison Skill Damage %",
         "min": 25,
         "max": 25
       }
@@ -6138,7 +6183,7 @@
       },
       {
         "key": "ease",
-        "label": "Repair Durability %",
+        "label": "Requirements %",
         "value": -40
       }
     ],
@@ -6183,7 +6228,7 @@
     "fixedStats": [
       {
         "key": "balance2",
-        "label": "Faster Block Rate",
+        "label": "Faster Hit Recovery",
         "value": 25
       },
       {
@@ -6228,7 +6273,7 @@
     "fixedStats": [
       {
         "key": "ease",
-        "label": "Repair Durability %",
+        "label": "Requirements %",
         "value": -40
       },
       {
@@ -6333,7 +6378,7 @@
     "setBonuses": [
       {
         "key": "pierce-pois",
-        "label": "pierce-pois",
+        "label": "Enemy Poison Resistance %",
         "min": 25,
         "max": 25
       },
@@ -6406,12 +6451,12 @@
     "fixedStats": [
       {
         "key": "ltng-min",
-        "label": "ltng-min",
+        "label": "Lightning Damage (Min)",
         "value": 1
       },
       {
         "key": "ltng-max",
-        "label": "ltng-max",
+        "label": "Lightning Damage (Max)",
         "value": 20
       }
     ],

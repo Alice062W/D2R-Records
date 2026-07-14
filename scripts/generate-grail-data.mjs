@@ -26,25 +26,54 @@ const PROP_LABELS = {
   'dmg-ltng': 'Lightning Damage', 'dmg-pois': 'Poison Damage', 'dmg-undead': 'Damage to Undead',
   att: 'Attack Rating', 'att%': 'Attack Rating %', 'att-skill': 'Attack Rating (skill)',
   crush: 'Crushing Blow %', deadly: 'Deadly Strike %', openwounds: 'Open Wounds %',
-  thorns: 'Attacker Takes Damage', ease: 'Repair Durability %',
+  thorns: 'Attacker Takes Damage', ease: 'Requirements %',
   'res-fire': 'Fire Resist %', 'res-cold': 'Cold Resist %', 'res-ltng': 'Lightning Resist %',
   'res-pois': 'Poison Resist %', 'res-all': 'All Resistances',
   'red-dmg': 'Damage Reduced', 'red-dmg%': 'Damage Reduced %', 'red-mag': 'Magic Damage Reduced',
   lifesteal: 'Life Steal %', manasteal: 'Mana Steal %',
   regen: 'Life Regenerated %', 'regen-mana': 'Mana Regenerated %', 'regen-stam': 'Stamina Regenerated %',
-  block: 'Increased Chance of Blocking %', balance2: 'Faster Block Rate',
+  block: 'Increased Chance of Blocking %', block2: 'Faster Block Rate',
+  balance1: 'Faster Hit Recovery', balance2: 'Faster Hit Recovery',
   swing2: 'Faster Attack Rate', swing3: 'Faster Attack Rate',
-  cast2: 'Faster Cast Rate', move2: 'Faster Run/Walk %', move3: 'Faster Run/Walk %',
+  cast2: 'Faster Cast Rate', cast3: 'Faster Cast Rate', move2: 'Faster Run/Walk %', move3: 'Faster Run/Walk %',
+  stamdrain: 'Slower Stamina Drain %',
+  'pierce-fire': 'Enemy Fire Resistance %', 'pierce-ltng': 'Enemy Lightning Resistance %',
+  'pierce-cold': 'Enemy Cold Resistance %', 'pierce-pois': 'Enemy Poison Resistance %', 'pierce-mag': 'Enemy Magic Resistance %',
+  'extra-cold': 'Cold Skill Damage %', 'extra-fire': 'Fire Skill Damage %',
+  'extra-ltng': 'Lightning Skill Damage %', 'extra-mag': 'Magic Skill Damage %', 'extra-pois': 'Poison Skill Damage %',
   light: 'Light Radius', 'half-freeze': 'Half Freeze Duration',
   slow: 'Slower Target %', sock: 'Sockets', dur: 'Indestructible', indestruct: 'Indestructible',
   skill: 'Skill Bonus', skilltab: 'Skill Tab Bonus', allskills: 'All Skills',
   'hit-skill': 'Chance to Cast on Striking', 'gethit-skill': 'Chance to Cast When Struck',
   charged: 'Charges', 'mag%': 'Magic Find %', 'gold%': 'Gold Find %',
   'dmg-to-mana': 'Damage Taken Goes to Mana',
+  dmg: 'Maximum Damage', knock: 'Knockback',
+  'abs-cold': 'Cold Absorb', 'abs-fire': 'Fire Absorb',
+  'rep-quant': 'Replenishes Quantity', 'rep-dur': 'Repairs Durability', stack: 'Increased Stack Size',
+  ama: 'Amazon Skill Levels', ass: 'Assassin Skill Levels', bar: 'Barbarian Skill Levels',
+  dru: 'Druid Skill Levels', nec: 'Necromancer Skill Levels', pal: 'Paladin Skill Levels',
+  sor: 'Sorceress Skill Levels', 'mana%': 'Increase Maximum Mana %', 'hp%': 'Increase Maximum Life %',
+  // Adds elemental damage is split across two separate stat IDs (min/max) in the
+  // source data for these elements — unlike dmg-cold/dmg-fire/dmg-ltng-as-single-id
+  // patterns seen elsewhere, so each half renders as its own line rather than a
+  // single combined "Adds X-Y Damage" range. Numerically complete, just two rows.
+  'ltng-min': 'Lightning Damage (Min)', 'ltng-max': 'Lightning Damage (Max)',
+  'fire-min': 'Fire Damage (Min)', 'fire-max': 'Fire Damage (Max)',
+  'cold-min': 'Cold Damage (Min)', 'cold-max': 'Cold Damage (Max)', 'cold-len': 'Cold Duration',
+  'pois-min': 'Poison Damage (Min)', 'pois-max': 'Poison Damage (Max)', 'pois-len': 'Poison Duration',
 };
 
 function labelFor(code) {
-  return PROP_LABELS[code] ?? code;
+  if (PROP_LABELS[code]) return PROP_LABELS[code];
+  // "/lvl" suffix marks a stat whose magnitude scales with character level
+  // (encoded in the source data via a `par` divisor rather than min/max).
+  // Fall back to the base stat's label with a level-scaling qualifier so
+  // these aren't indistinguishable from their flat counterparts.
+  if (code.endsWith('/lvl')) {
+    const base = code.slice(0, -4);
+    return `${PROP_LABELS[base] ?? base} (Based on Character Level)`;
+  }
+  return code;
 }
 
 // type code (items.json .type) -> slot category. Every code observed across
@@ -101,11 +130,24 @@ function extractProps(entry, count) {
   const fixed = [];
   for (let n = 1; n <= count; n++) {
     const key = entry[`prop${n}`];
+    if (!key) continue;
     const min = entry[`min${n}`];
     const max = entry[`max${n}`];
-    if (!key || min === undefined || max === undefined) continue;
-    if (min === max) fixed.push({ key, label: labelFor(key), value: min });
-    else variable.push({ key, label: labelFor(key), min, max });
+    if (min !== undefined && max !== undefined) {
+      if (min === max) fixed.push({ key, label: labelFor(key), value: min });
+      else variable.push({ key, label: labelFor(key), min, max });
+      continue;
+    }
+    // Some props (level-scaling stats like hp/lvl, dmg/lvl; also sock,
+    // rep-dur, rep-quant) carry only a `par` field instead of min/max.
+    // Surface these as a fixed entry rather than silently dropping the
+    // stat line — dropping it made e.g. Harlequin Crest's Life/Mana
+    // (Based on Character Level) and Windforce's scaling max damage
+    // disappear entirely.
+    const par = entry[`par${n}`];
+    if (par !== undefined) {
+      fixed.push({ key, label: labelFor(key), value: par });
+    }
   }
   return { variable, fixed };
 }
