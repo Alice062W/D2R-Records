@@ -348,6 +348,12 @@
     ],
     "setBonuses": [
       {
+        "key": "att/lvl",
+        "label": "Attack Rating (Based on Character Level)",
+        "min": 24,
+        "max": 24
+      },
+      {
         "key": "mag%",
         "label": "Magic Find %",
         "min": 50,
@@ -609,6 +615,12 @@
     ],
     "setBonuses": [
       {
+        "key": "ac/lvl",
+        "label": "Defense per Level",
+        "min": 24,
+        "max": 24
+      },
+      {
         "key": "res-ltng",
         "label": "Lightning Resist %",
         "min": 15,
@@ -740,6 +752,12 @@
     ],
     "setBonuses": [
       {
+        "key": "ac/lvl",
+        "label": "Defense per Level",
+        "min": 24,
+        "max": 24
+      },
+      {
         "key": "res-cold",
         "label": "Cold Resist %",
         "min": 15,
@@ -778,6 +796,12 @@
       }
     ],
     "setBonuses": [
+      {
+        "key": "att/lvl",
+        "label": "Attack Rating (Based on Character Level)",
+        "min": 16,
+        "max": 16
+      },
       {
         "key": "dmg-cold",
         "label": "Cold Damage",
@@ -952,6 +976,12 @@
         "label": "Faster Hit Recovery",
         "min": 25,
         "max": 25
+      },
+      {
+        "key": "att/lvl",
+        "label": "Attack Rating (Based on Character Level)",
+        "min": 16,
+        "max": 16
       }
     ],
     "statPriority": []
@@ -1023,7 +1053,14 @@
         "value": 1
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "key": "ac/lvl",
+        "label": "Defense per Level",
+        "min": 24,
+        "max": 24
+      }
+    ],
     "statPriority": []
   },
   {
@@ -1056,7 +1093,14 @@
         "value": 25
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "key": "att/lvl",
+        "label": "Attack Rating (Based on Character Level)",
+        "min": 16,
+        "max": 16
+      }
+    ],
     "statPriority": []
   },
   {
@@ -1343,7 +1387,14 @@
         "value": 25
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "key": "ac/lvl",
+        "label": "Defense per Level",
+        "min": 16,
+        "max": 16
+      }
+    ],
     "statPriority": []
   },
   {
@@ -1375,7 +1426,14 @@
         "value": 75
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "key": "dmg/lvl",
+        "label": "Maximum Damage (Based on Character Level)",
+        "min": 8,
+        "max": 8
+      }
+    ],
     "statPriority": [
       "dmg-max"
     ]
@@ -1539,7 +1597,14 @@
         "value": 25
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "key": "att/lvl",
+        "label": "Attack Rating (Based on Character Level)",
+        "min": 20,
+        "max": 20
+      }
+    ],
     "statPriority": []
   },
   {
@@ -1569,7 +1634,14 @@
         "value": 50
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "key": "dmg/lvl",
+        "label": "Maximum Damage (Based on Character Level)",
+        "min": 10,
+        "max": 10
+      }
+    ],
     "statPriority": []
   },
   {
@@ -2702,7 +2774,14 @@
         "value": 10
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "key": "ac/lvl",
+        "label": "Defense per Level",
+        "min": 20,
+        "max": 20
+      }
+    ],
     "statPriority": []
   },
   {
@@ -2735,7 +2814,14 @@
         "value": 20
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "key": "att/lvl",
+        "label": "Attack Rating (Based on Character Level)",
+        "min": 20,
+        "max": 20
+      }
+    ],
     "statPriority": []
   },
   {
@@ -2768,7 +2854,14 @@
         "value": 20
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "key": "ac/lvl",
+        "label": "Defense per Level",
+        "min": 20,
+        "max": 20
+      }
+    ],
     "statPriority": []
   },
   {
@@ -3435,7 +3528,14 @@
         "value": 20
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "key": "ac/lvl",
+        "label": "Defense per Level",
+        "min": 16,
+        "max": 16
+      }
+    ],
     "statPriority": []
   },
   {
@@ -3511,7 +3611,14 @@
         "value": 1
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "key": "att/lvl",
+        "label": "Attack Rating (Based on Character Level)",
+        "min": 20,
+        "max": 20
+      }
+    ],
     "statPriority": []
   },
   {
@@ -3544,7 +3651,14 @@
         "value": 30
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "key": "ac/lvl",
+        "label": "Defense per Level",
+        "min": 16,
+        "max": 16
+      }
+    ],
     "statPriority": []
   },
   {
@@ -3694,7 +3808,14 @@
         "value": 2
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "key": "ac/lvl",
+        "label": "Defense per Level",
+        "min": 16,
+        "max": 16
+      }
+    ],
     "statPriority": []
   },
   {
@@ -3764,7 +3885,14 @@
         "value": 20
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "key": "att/lvl",
+        "label": "Attack Rating (Based on Character Level)",
+        "min": 10,
+        "max": 10
+      }
+    ],
     "statPriority": []
   },
   {
@@ -5414,7 +5542,14 @@
         "value": 25
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "key": "att/lvl",
+        "label": "Attack Rating (Based on Character Level)",
+        "min": 16,
+        "max": 16
+      }
+    ],
     "statPriority": []
   },
   {
@@ -5447,7 +5582,14 @@
         "value": 20
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "key": "ac/lvl",
+        "label": "Defense per Level",
+        "min": 16,
+        "max": 16
+      }
+    ],
     "statPriority": []
   },
   {
@@ -5987,7 +6129,14 @@
         "value": 15
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "key": "ac/lvl",
+        "label": "Defense per Level",
+        "min": 16,
+        "max": 16
+      }
+    ],
     "statPriority": []
   },
   {
@@ -6429,6 +6578,12 @@
         "label": "Fire Resist %",
         "min": 24,
         "max": 24
+      },
+      {
+        "key": "ac/lvl",
+        "label": "Defense per Level",
+        "min": 20,
+        "max": 20
       }
     ],
     "statPriority": []
@@ -6460,7 +6615,14 @@
         "value": 20
       }
     ],
-    "setBonuses": [],
+    "setBonuses": [
+      {
+        "key": "att/lvl",
+        "label": "Attack Rating (Based on Character Level)",
+        "min": 16,
+        "max": 16
+      }
+    ],
     "statPriority": []
   },
   {

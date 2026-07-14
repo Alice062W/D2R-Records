@@ -160,10 +160,20 @@ function extractSetBonuses(entry) {
   for (const suffix of ['a', 'b', 'c', 'd']) {
     for (let n = 1; n <= 5; n++) {
       const key = entry[`aprop${n}${suffix}`];
+      if (!key) continue;
       const min = entry[`amin${n}${suffix}`];
       const max = entry[`amax${n}${suffix}`];
-      if (!key || min === undefined || max === undefined) continue;
-      bonuses.push({ key, label: labelFor(key), min, max });
+      if (min !== undefined && max !== undefined) {
+        bonuses.push({ key, label: labelFor(key), min, max });
+        continue;
+      }
+      // Same par-only case as extractProps (level-scaling bonuses like
+      // att/lvl, ac/lvl) — surface as a fixed min===max entry rather than
+      // silently dropping the bonus line.
+      const par = entry[`apar${n}${suffix}`];
+      if (par !== undefined) {
+        bonuses.push({ key, label: labelFor(key), min: par, max: par });
+      }
     }
   }
   return bonuses;
