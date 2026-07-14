@@ -1,0 +1,8089 @@
+[
+  {
+    "id": "runeword-Runeword1",
+    "name": {
+      "en": "Ancients' Pledge",
+      "zh-TW": "Ancients' Pledge",
+      "zh-CN": "Ancients' Pledge"
+    },
+    "runes": [
+      "Ral",
+      "Ort",
+      "Tal"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "shld"
+    ],
+    "levelReq": 0,
+    "ladderOnly": false,
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "res-cold",
+        "label": {
+          "en": "Cold Resist %",
+          "zh-TW": "冷凍抗性 %",
+          "zh-CN": "冷冻抗性 %"
+        },
+        "value": 30
+      },
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "value": 13
+      },
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
+        },
+        "value": 50
+      },
+      {
+        "key": "dmg-to-mana",
+        "label": {
+          "en": "Damage Taken Goes to Mana",
+          "zh-TW": "承受傷害轉換為魔力",
+          "zh-CN": "承受伤害转换为魔力"
+        },
+        "value": 10
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword3",
+    "name": {
+      "en": "Authority",
+      "zh-TW": "Authority",
+      "zh-CN": "Authority"
+    },
+    "runes": [
+      "Hel",
+      "Shael",
+      "Ral"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "armors"
+    ],
+    "levelReq": 0,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "gethit-skill:Psychic Ward",
+        "label": {
+          "en": "Chance to Cast When Struck (Psychic Ward)",
+          "zh-TW": "受擊時觸發機率 (Psychic Ward)",
+          "zh-CN": "受击时触发机率 (Psychic Ward)"
+        },
+        "min": 2,
+        "max": 10
+      },
+      {
+        "key": "hit-skill:Miasma Chains",
+        "label": {
+          "en": "Chance to Cast on Striking (Miasma Chains)",
+          "zh-TW": "攻擊時觸發機率 (Miasma Chains)",
+          "zh-CN": "攻击时触发机率 (Miasma Chains)"
+        },
+        "min": 10,
+        "max": 15
+      },
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 40,
+        "max": 60
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "war",
+        "label": {
+          "en": "war",
+          "zh-TW": "war",
+          "zh-CN": "war"
+        },
+        "value": 2
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword4",
+    "name": {
+      "en": "Beast",
+      "zh-TW": "野獸之",
+      "zh-CN": "野兽之"
+    },
+    "runes": [
+      "Ber",
+      "Tir",
+      "Um",
+      "Mal",
+      "Lum"
+    ],
+    "sockets": 5,
+    "itemTypes": [
+      "axes"
+    ],
+    "levelReq": 63,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 240,
+        "max": 270
+      },
+      {
+        "key": "str",
+        "label": {
+          "en": "Strength",
+          "zh-TW": "力量",
+          "zh-CN": "力量"
+        },
+        "min": 25,
+        "max": 40
+      },
+      {
+        "key": "charged:Summon Grizzly",
+        "label": {
+          "en": "Charges (Summon Grizzly)",
+          "zh-TW": "充能次數 (Summon Grizzly)",
+          "zh-CN": "充能次数 (Summon Grizzly)"
+        },
+        "min": 5,
+        "max": 13
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "swing2",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "value": 40
+      },
+      {
+        "key": "aura",
+        "label": {
+          "en": "aura",
+          "zh-TW": "aura",
+          "zh-CN": "aura"
+        },
+        "value": 9
+      },
+      {
+        "key": "oskill:Wearbear",
+        "label": {
+          "en": "Skill Bonus (Wearbear)",
+          "zh-TW": "技能加成 (Wearbear)",
+          "zh-CN": "技能加成 (Wearbear)"
+        },
+        "value": 3
+      },
+      {
+        "key": "oskill:Shape Shifting",
+        "label": {
+          "en": "Skill Bonus (Shape Shifting)",
+          "zh-TW": "技能加成 (Shape Shifting)",
+          "zh-CN": "技能加成 (Shape Shifting)"
+        },
+        "value": 3
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword6",
+    "name": {
+      "en": "Black",
+      "zh-TW": "黑色之",
+      "zh-CN": "黑色之"
+    },
+    "runes": [
+      "Thul",
+      "Io",
+      "Nef"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "clubs"
+    ],
+    "levelReq": 35,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "charged:74",
+        "label": {
+          "en": "Charges (Corpse Explosion)",
+          "zh-TW": "充能次數 (屍體爆炸)",
+          "zh-CN": "充能次数 (尸体爆炸)"
+        },
+        "min": 12,
+        "max": 4
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "crush",
+        "label": {
+          "en": "Crushing Blow %",
+          "zh-TW": "破碎打擊 %",
+          "zh-CN": "破碎打击 %"
+        },
+        "value": 40
+      },
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "value": 120
+      },
+      {
+        "key": "swing2",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "value": 15
+      },
+      {
+        "key": "red-mag",
+        "label": {
+          "en": "Magic Damage Reduced",
+          "zh-TW": "減少魔法傷害",
+          "zh-CN": "减少魔法伤害"
+        },
+        "value": 2
+      },
+      {
+        "key": "att",
+        "label": {
+          "en": "Attack Rating",
+          "zh-TW": "攻擊等級",
+          "zh-CN": "攻击等级"
+        },
+        "value": 200
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword8",
+    "name": {
+      "en": "Bone",
+      "zh-TW": "白骨之",
+      "zh-CN": "白骨之"
+    },
+    "runes": [
+      "Sol",
+      "Um",
+      "Um"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "armors"
+    ],
+    "levelReq": 0,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "hit-skill:Bone Spear",
+        "label": {
+          "en": "Chance to Cast on Striking (Bone Spear)",
+          "zh-TW": "攻擊時觸發機率 (Bone Spear)",
+          "zh-CN": "攻击时触发机率 (Bone Spear)"
+        },
+        "min": 15,
+        "max": 10
+      },
+      {
+        "key": "gethit-skill:Bone Armor",
+        "label": {
+          "en": "Chance to Cast When Struck (Bone Armor)",
+          "zh-TW": "受擊時觸發機率 (Bone Armor)",
+          "zh-CN": "受击时触发机率 (Bone Armor)"
+        },
+        "min": 15,
+        "max": 10
+      },
+      {
+        "key": "mana",
+        "label": {
+          "en": "Mana",
+          "zh-TW": "魔力值",
+          "zh-CN": "魔力值"
+        },
+        "min": 100,
+        "max": 150
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "nec",
+        "label": {
+          "en": "Necromancer Skill Levels",
+          "zh-TW": "死靈法師技能等級",
+          "zh-CN": "死灵法师技能等级"
+        },
+        "value": 2
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword9",
+    "name": {
+      "en": "Bramble",
+      "zh-TW": "野薔薇之",
+      "zh-CN": "野蔷薇之"
+    },
+    "runes": [
+      "Ral",
+      "Ohm",
+      "Sur",
+      "Eth"
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "armors"
+    ],
+    "levelReq": 61,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "aura",
+        "label": {
+          "en": "aura",
+          "zh-TW": "aura",
+          "zh-CN": "aura"
+        },
+        "min": 15,
+        "max": 21
+      },
+      {
+        "key": "extra-pois",
+        "label": {
+          "en": "Poison Skill Damage %",
+          "zh-TW": "毒素技能傷害 %",
+          "zh-CN": "毒素技能伤害 %"
+        },
+        "min": 25,
+        "max": 50
+      },
+      {
+        "key": "charged:Spirit of Barbs",
+        "label": {
+          "en": "Charges (Spirit of Barbs)",
+          "zh-TW": "充能次數 (倒刺之魂)",
+          "zh-CN": "充能次数 (倒刺之魂)"
+        },
+        "min": 33,
+        "max": 13
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "balance2",
+        "label": {
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
+        },
+        "value": 50
+      },
+      {
+        "key": "ac",
+        "label": {
+          "en": "Defense",
+          "zh-TW": "防禦力",
+          "zh-CN": "防御力"
+        },
+        "value": 300
+      },
+      {
+        "key": "heal-kill",
+        "label": {
+          "en": "heal-kill",
+          "zh-TW": "heal-kill",
+          "zh-CN": "heal-kill"
+        },
+        "value": 13
+      },
+      {
+        "key": "res-pois",
+        "label": {
+          "en": "Poison Resist %",
+          "zh-TW": "毒素抗性 %",
+          "zh-CN": "毒素抗性 %"
+        },
+        "value": 100
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword10",
+    "name": {
+      "en": "Brand",
+      "zh-TW": "Brand",
+      "zh-CN": "Brand"
+    },
+    "runes": [
+      "Jah",
+      "Lo",
+      "Mal",
+      "Gul"
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "miss"
+    ],
+    "levelReq": 65,
+    "ladderOnly": true,
+    "stats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 260,
+        "max": 340
+      },
+      {
+        "key": "dmg-demon",
+        "label": {
+          "en": "dmg-demon",
+          "zh-TW": "dmg-demon",
+          "zh-CN": "dmg-demon"
+        },
+        "min": 280,
+        "max": 330
+      },
+      {
+        "key": "hit-skill:Bone Spear",
+        "label": {
+          "en": "Chance to Cast on Striking (Bone Spear)",
+          "zh-TW": "攻擊時觸發機率 (Bone Spear)",
+          "zh-CN": "攻击时触发机率 (Bone Spear)"
+        },
+        "min": 100,
+        "max": 18
+      },
+      {
+        "key": "gethit-skill:Amplify Damage",
+        "label": {
+          "en": "Chance to Cast When Struck (Amplify Damage)",
+          "zh-TW": "受擊時觸發機率 (Amplify Damage)",
+          "zh-CN": "受击时触发机率 (Amplify Damage)"
+        },
+        "min": 35,
+        "max": 14
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "knock",
+        "label": {
+          "en": "Knockback",
+          "zh-TW": "擊退",
+          "zh-CN": "击退"
+        },
+        "value": 1
+      },
+      {
+        "key": "noheal",
+        "label": {
+          "en": "noheal",
+          "zh-TW": "noheal",
+          "zh-CN": "noheal"
+        },
+        "value": 1
+      },
+      {
+        "key": "explosivearrow",
+        "label": {
+          "en": "explosivearrow",
+          "zh-TW": "explosivearrow",
+          "zh-CN": "explosivearrow"
+        },
+        "value": 15
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword11",
+    "name": {
+      "en": "Breath of the Dying",
+      "zh-TW": "Breath of the Dying",
+      "zh-CN": "Breath of the Dying"
+    },
+    "runes": [
+      "Vex",
+      "Hel",
+      "El",
+      "Eld",
+      "Zod",
+      "Eth"
+    ],
+    "sockets": 6,
+    "itemTypes": [
+      "weap"
+    ],
+    "levelReq": 69,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "min": 12,
+        "max": 15
+      },
+      {
+        "key": "kill-skill",
+        "label": {
+          "en": "kill-skill",
+          "zh-TW": "kill-skill",
+          "zh-CN": "kill-skill"
+        },
+        "min": 50,
+        "max": 20
+      },
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 350,
+        "max": 400
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "swing2",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "value": 60
+      },
+      {
+        "key": "dmg-undead",
+        "label": {
+          "en": "Damage to Undead",
+          "zh-TW": "對不死系傷害",
+          "zh-CN": "对不死系伤害"
+        },
+        "value": 125
+      },
+      {
+        "key": "noheal",
+        "label": {
+          "en": "noheal",
+          "zh-TW": "noheal",
+          "zh-CN": "noheal"
+        },
+        "value": 1
+      },
+      {
+        "key": "all-stats",
+        "label": {
+          "en": "all-stats",
+          "zh-TW": "all-stats",
+          "zh-CN": "all-stats"
+        },
+        "value": 30
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword179",
+    "name": {
+      "en": "Bulwark",
+      "zh-TW": "Bulwark",
+      "zh-CN": "Bulwark"
+    },
+    "runes": [
+      "Shael",
+      "Io",
+      "Sol"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "helms"
+    ],
+    "levelReq": 35,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
+        },
+        "min": 75,
+        "max": 100
+      },
+      {
+        "key": "red-dmg%",
+        "label": {
+          "en": "Damage Reduced %",
+          "zh-TW": "減少傷害 %",
+          "zh-CN": "减少伤害 %"
+        },
+        "min": 10,
+        "max": 15
+      },
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "min": 4,
+        "max": 6
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "hp%",
+        "label": {
+          "en": "Increase Maximum Life %",
+          "zh-TW": "增加最大生命值 %",
+          "zh-CN": "增加最大生命值 %"
+        },
+        "value": 5
+      },
+      {
+        "key": "regen",
+        "label": {
+          "en": "Life Regenerated %",
+          "zh-TW": "生命回復 %",
+          "zh-CN": "生命回复 %"
+        },
+        "value": 30
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword13",
+    "name": {
+      "en": "Call to Arms",
+      "zh-TW": "Call to Arms",
+      "zh-CN": "Call to Arms"
+    },
+    "runes": [
+      "Amn",
+      "Ral",
+      "Mal",
+      "Ist",
+      "Ohm"
+    ],
+    "sockets": 5,
+    "itemTypes": [
+      "weap"
+    ],
+    "levelReq": 0,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 200,
+        "max": 240
+      },
+      {
+        "key": "oskill:Battle Command",
+        "label": {
+          "en": "Skill Bonus (Battle Command)",
+          "zh-TW": "技能加成 (Battle Command)",
+          "zh-CN": "技能加成 (Battle Command)"
+        },
+        "min": 2,
+        "max": 6
+      },
+      {
+        "key": "oskill:Battle Orders",
+        "label": {
+          "en": "Skill Bonus (Battle Orders)",
+          "zh-TW": "技能加成 (Battle Orders)",
+          "zh-CN": "技能加成 (Battle Orders)"
+        },
+        "min": 1,
+        "max": 6
+      },
+      {
+        "key": "oskill:Battle Cry",
+        "label": {
+          "en": "Skill Bonus (Battle Cry)",
+          "zh-TW": "技能加成 (Battle Cry)",
+          "zh-CN": "技能加成 (Battle Cry)"
+        },
+        "min": 1,
+        "max": 4
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "swing2",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "value": 40
+      },
+      {
+        "key": "allskills",
+        "label": {
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
+        },
+        "value": 1
+      },
+      {
+        "key": "regen",
+        "label": {
+          "en": "Life Regenerated %",
+          "zh-TW": "生命回復 %",
+          "zh-CN": "生命回复 %"
+        },
+        "value": 12
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword14",
+    "name": {
+      "en": "Chains of Honor",
+      "zh-TW": "Chains of Honor",
+      "zh-CN": "Chains of Honor"
+    },
+    "runes": [
+      "Dol",
+      "Um",
+      "Ber",
+      "Ist"
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "armors"
+    ],
+    "levelReq": 63,
+    "ladderOnly": false,
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "value": 50
+      },
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
+        },
+        "value": 70
+      },
+      {
+        "key": "dmg-demon",
+        "label": {
+          "en": "dmg-demon",
+          "zh-TW": "dmg-demon",
+          "zh-CN": "dmg-demon"
+        },
+        "value": 200
+      },
+      {
+        "key": "dmg-undead",
+        "label": {
+          "en": "Damage to Undead",
+          "zh-TW": "對不死系傷害",
+          "zh-CN": "对不死系伤害"
+        },
+        "value": 100
+      },
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "value": 8
+      },
+      {
+        "key": "allskills",
+        "label": {
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
+        },
+        "value": 2
+      },
+      {
+        "key": "str",
+        "label": {
+          "en": "Strength",
+          "zh-TW": "力量",
+          "zh-CN": "力量"
+        },
+        "value": 20
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword16",
+    "name": {
+      "en": "Chaos",
+      "zh-TW": "混沌之",
+      "zh-CN": "混沌之"
+    },
+    "runes": [
+      "Fal",
+      "Ohm",
+      "Um"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "h2h"
+    ],
+    "levelReq": 57,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 240,
+        "max": 290
+      },
+      {
+        "key": "dmg-mag",
+        "label": {
+          "en": "dmg-mag",
+          "zh-TW": "dmg-mag",
+          "zh-CN": "dmg-mag"
+        },
+        "min": 216,
+        "max": 471
+      },
+      {
+        "key": "hit-skill:Frozen Orb",
+        "label": {
+          "en": "Chance to Cast on Striking (Frozen Orb)",
+          "zh-TW": "攻擊時觸發機率 (Frozen Orb)",
+          "zh-CN": "攻击时触发机率 (Frozen Orb)"
+        },
+        "min": 9,
+        "max": 11
+      },
+      {
+        "key": "hit-skill:Charged Bolt",
+        "label": {
+          "en": "Chance to Cast on Striking (Charged Bolt)",
+          "zh-TW": "攻擊時觸發機率 (Charged Bolt)",
+          "zh-CN": "攻击时触发机率 (Charged Bolt)"
+        },
+        "min": 11,
+        "max": 9
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "demon-heal",
+        "label": {
+          "en": "demon-heal",
+          "zh-TW": "demon-heal",
+          "zh-CN": "demon-heal"
+        },
+        "value": 15
+      },
+      {
+        "key": "oskill:Whirlwind",
+        "label": {
+          "en": "Skill Bonus (Whirlwind)",
+          "zh-TW": "技能加成 (Whirlwind)",
+          "zh-CN": "技能加成 (Whirlwind)"
+        },
+        "value": 1
+      },
+      {
+        "key": "swing2",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "value": 35
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword180",
+    "name": {
+      "en": "Coven",
+      "zh-TW": "Coven",
+      "zh-CN": "Coven"
+    },
+    "runes": [
+      "Ist",
+      "Ral",
+      "Io"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "helms"
+    ],
+    "levelReq": 0,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "gethit-skill:Sigil Lethargy",
+        "label": {
+          "en": "Chance to Cast When Struck (Sigil Lethargy)",
+          "zh-TW": "受擊時觸發機率 (Sigil Lethargy)",
+          "zh-CN": "受击时触发机率 (Sigil Lethargy)"
+        },
+        "min": 5,
+        "max": 10
+      },
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
+        },
+        "min": 30,
+        "max": 50
+      },
+      {
+        "key": "mag%",
+        "label": {
+          "en": "Magic Find %",
+          "zh-TW": "額外魔法物品尋獲率 %",
+          "zh-CN": "额外魔法物品寻获率 %"
+        },
+        "min": 1,
+        "max": 15
+      },
+      {
+        "key": "heal-kill",
+        "label": {
+          "en": "heal-kill",
+          "zh-TW": "heal-kill",
+          "zh-CN": "heal-kill"
+        },
+        "min": 1,
+        "max": 5
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "allskills",
+        "label": {
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
+        },
+        "value": 1
+      },
+      {
+        "key": "cast1",
+        "label": {
+          "en": "cast1",
+          "zh-TW": "cast1",
+          "zh-CN": "cast1"
+        },
+        "value": 20
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword17",
+    "name": {
+      "en": "Crescent Moon",
+      "zh-TW": "新月",
+      "zh-CN": "新月"
+    },
+    "runes": [
+      "Shael",
+      "Um",
+      "Tir"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "axes"
+    ],
+    "levelReq": 47,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 180,
+        "max": 220
+      },
+      {
+        "key": "abs-mag",
+        "label": {
+          "en": "abs-mag",
+          "zh-TW": "abs-mag",
+          "zh-CN": "abs-mag"
+        },
+        "min": 9,
+        "max": 11
+      },
+      {
+        "key": "charged:Summon Spirit Wolf",
+        "label": {
+          "en": "Charges (Summon Spirit Wolf)",
+          "zh-TW": "充能次數 (Summon Spirit Wolf)",
+          "zh-CN": "充能次数 (Summon Spirit Wolf)"
+        },
+        "min": 30,
+        "max": 18
+      },
+      {
+        "key": "hit-skill:Static Field",
+        "label": {
+          "en": "Chance to Cast on Striking (Static Field)",
+          "zh-TW": "攻擊時觸發機率 (Static Field)",
+          "zh-CN": "攻击时触发机率 (Static Field)"
+        },
+        "min": 7,
+        "max": 13
+      },
+      {
+        "key": "hit-skill:Chain Lightning",
+        "label": {
+          "en": "Chance to Cast on Striking (Chain Lightning)",
+          "zh-TW": "攻擊時觸發機率 (Chain Lightning)",
+          "zh-CN": "攻击时触发机率 (Chain Lightning)"
+        },
+        "min": 10,
+        "max": 17
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "pierce-ltng",
+        "label": {
+          "en": "Enemy Lightning Resistance %",
+          "zh-TW": "降低敵方閃電抗性 %",
+          "zh-CN": "降低敌方闪电抗性 %"
+        },
+        "value": 35
+      },
+      {
+        "key": "ignore-ac",
+        "label": {
+          "en": "Ignore Target Defense",
+          "zh-TW": "無視目標防禦力",
+          "zh-CN": "无视目标防御力"
+        },
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword178",
+    "name": {
+      "en": "Cure",
+      "zh-TW": "Cure",
+      "zh-CN": "Cure"
+    },
+    "runes": [
+      "Shael",
+      "Io",
+      "Tal"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "helms"
+    ],
+    "levelReq": 35,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
+        },
+        "min": 75,
+        "max": 100
+      },
+      {
+        "key": "res-pois",
+        "label": {
+          "en": "Poison Resist %",
+          "zh-TW": "毒素抗性 %",
+          "zh-CN": "毒素抗性 %"
+        },
+        "min": 10,
+        "max": 30
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "hp%",
+        "label": {
+          "en": "Increase Maximum Life %",
+          "zh-TW": "增加最大生命值 %",
+          "zh-CN": "增加最大生命值 %"
+        },
+        "value": 5
+      },
+      {
+        "key": "res-pois-len",
+        "label": {
+          "en": "res-pois-len",
+          "zh-TW": "res-pois-len",
+          "zh-CN": "res-pois-len"
+        },
+        "value": 50
+      },
+      {
+        "key": "aura",
+        "label": {
+          "en": "aura",
+          "zh-TW": "aura",
+          "zh-CN": "aura"
+        },
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword20",
+    "name": {
+      "en": "Death",
+      "zh-TW": "死亡之",
+      "zh-CN": "死亡之"
+    },
+    "runes": [
+      "Hel",
+      "El",
+      "Vex",
+      "Ort",
+      "Gul"
+    ],
+    "sockets": 5,
+    "itemTypes": [
+      "swords"
+    ],
+    "levelReq": 55,
+    "ladderOnly": true,
+    "stats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 300,
+        "max": 385
+      },
+      {
+        "key": "charged:BloodGolem",
+        "label": {
+          "en": "Charges (BloodGolem)",
+          "zh-TW": "充能次數 (血石魔)",
+          "zh-CN": "充能次数 (血石魔)"
+        },
+        "min": 15,
+        "max": 22
+      },
+      {
+        "key": "att-skill:Glacial Spike",
+        "label": {
+          "en": "Attack Rating (skill) (Glacial Spike)",
+          "zh-TW": "攻擊等級（技能） (Glacial Spike)",
+          "zh-CN": "攻击等级（技能） (Glacial Spike)"
+        },
+        "min": 25,
+        "max": 18
+      },
+      {
+        "key": "death-skill:Chain Lightning",
+        "label": {
+          "en": "Chance to Cast on Death % (Chain Lightning)",
+          "zh-TW": "死亡時觸發機率 % (Chain Lightning)",
+          "zh-CN": "死亡时触发机率 % (Chain Lightning)"
+        },
+        "min": 100,
+        "max": 44
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "deadly/lvl",
+        "label": {
+          "en": "Deadly Strike % (Based on Character Level)",
+          "zh-TW": "致命一擊 %（依角色等級）",
+          "zh-CN": "致命一击 %（依角色等级）"
+        },
+        "value": 4
+      },
+      {
+        "key": "crush",
+        "label": {
+          "en": "Crushing Blow %",
+          "zh-TW": "破碎打擊 %",
+          "zh-CN": "破碎打击 %"
+        },
+        "value": 50
+      },
+      {
+        "key": "indestruct",
+        "label": {
+          "en": "Indestructible",
+          "zh-TW": "不可破壞",
+          "zh-CN": "不可破坏"
+        },
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword22",
+    "name": {
+      "en": "Delirium",
+      "zh-TW": "Delirium",
+      "zh-CN": "Delirium"
+    },
+    "runes": [
+      "Lem",
+      "Ist",
+      "Io"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "helms"
+    ],
+    "levelReq": 51,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "hit-skill:Confuse",
+        "label": {
+          "en": "Chance to Cast on Striking (Confuse)",
+          "zh-TW": "攻擊時觸發機率 (Confuse)",
+          "zh-CN": "攻击时触发机率 (Confuse)"
+        },
+        "min": 11,
+        "max": 18
+      },
+      {
+        "key": "charged:Attract",
+        "label": {
+          "en": "Charges (Attract)",
+          "zh-TW": "充能次數 (Attract)",
+          "zh-CN": "充能次数 (Attract)"
+        },
+        "min": 60,
+        "max": 17
+      },
+      {
+        "key": "gethit-skill:Terror",
+        "label": {
+          "en": "Chance to Cast When Struck (Terror)",
+          "zh-TW": "受擊時觸發機率 (Terror)",
+          "zh-CN": "受击时触发机率 (Terror)"
+        },
+        "min": 14,
+        "max": 13
+      },
+      {
+        "key": "gethit-skill:Mind Blast",
+        "label": {
+          "en": "Chance to Cast When Struck (Mind Blast)",
+          "zh-TW": "受擊時觸發機率 (Mind Blast)",
+          "zh-CN": "受击时触发机率 (Mind Blast)"
+        },
+        "min": 6,
+        "max": 14
+      },
+      {
+        "key": "gethit-skill:Delerium Change",
+        "label": {
+          "en": "Chance to Cast When Struck (Delerium Change)",
+          "zh-TW": "受擊時觸發機率 (Delerium Change)",
+          "zh-CN": "受击时触发机率 (Delerium Change)"
+        },
+        "min": 1,
+        "max": 50
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": {
+          "en": "Defense",
+          "zh-TW": "防禦力",
+          "zh-CN": "防御力"
+        },
+        "value": 261
+      },
+      {
+        "key": "allskills",
+        "label": {
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
+        },
+        "value": 2
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword25",
+    "name": {
+      "en": "Destruction",
+      "zh-TW": "Destruction",
+      "zh-CN": "Destruction"
+    },
+    "runes": [
+      "Vex",
+      "Lo",
+      "Ber",
+      "Jah",
+      "Ko"
+    ],
+    "sockets": 5,
+    "itemTypes": [
+      "polearms"
+    ],
+    "levelReq": 65,
+    "ladderOnly": true,
+    "stats": [
+      {
+        "key": "dmg-mag",
+        "label": {
+          "en": "dmg-mag",
+          "zh-TW": "dmg-mag",
+          "zh-CN": "dmg-mag"
+        },
+        "min": 100,
+        "max": 180
+      },
+      {
+        "key": "hit-skill:Molten Boulder",
+        "label": {
+          "en": "Chance to Cast on Striking (Molten Boulder)",
+          "zh-TW": "攻擊時觸發機率 (Molten Boulder)",
+          "zh-CN": "攻击时触发机率 (Molten Boulder)"
+        },
+        "min": 5,
+        "max": 23
+      },
+      {
+        "key": "death-skill:Meteor",
+        "label": {
+          "en": "Chance to Cast on Death % (Meteor)",
+          "zh-TW": "死亡時觸發機率 % (Meteor)",
+          "zh-CN": "死亡时触发机率 % (Meteor)"
+        },
+        "min": 100,
+        "max": 45
+      },
+      {
+        "key": "att-skill:Nova",
+        "label": {
+          "en": "Attack Rating (skill) (Nova)",
+          "zh-TW": "攻擊等級（技能） (Nova)",
+          "zh-CN": "攻击等级（技能） (Nova)"
+        },
+        "min": 15,
+        "max": 22
+      },
+      {
+        "key": "hit-skill:Volcano",
+        "label": {
+          "en": "Chance to Cast on Striking (Volcano)",
+          "zh-TW": "攻擊時觸發機率 (Volcano)",
+          "zh-CN": "攻击时触发机率 (Volcano)"
+        },
+        "min": 23,
+        "max": 12
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "value": 350
+      },
+      {
+        "key": "noheal",
+        "label": {
+          "en": "noheal",
+          "zh-TW": "noheal",
+          "zh-CN": "noheal"
+        },
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword26",
+    "name": {
+      "en": "Doom",
+      "zh-TW": "毀滅之",
+      "zh-CN": "毁灭之"
+    },
+    "runes": [
+      "Hel",
+      "Ohm",
+      "Um",
+      "Lo",
+      "Cham"
+    ],
+    "sockets": 5,
+    "itemTypes": [
+      "axes"
+    ],
+    "levelReq": 67,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 280,
+        "max": 320
+      },
+      {
+        "key": "pierce-cold",
+        "label": {
+          "en": "Enemy Cold Resistance %",
+          "zh-TW": "降低敵方冷凍抗性 %",
+          "zh-CN": "降低敌方冷冻抗性 %"
+        },
+        "min": 40,
+        "max": 60
+      },
+      {
+        "key": "hit-skill:Volcano",
+        "label": {
+          "en": "Chance to Cast on Striking (Volcano)",
+          "zh-TW": "攻擊時觸發機率 (Volcano)",
+          "zh-CN": "攻击时触发机率 (Volcano)"
+        },
+        "min": 5,
+        "max": 18
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "aura",
+        "label": {
+          "en": "aura",
+          "zh-TW": "aura",
+          "zh-CN": "aura"
+        },
+        "value": 12
+      },
+      {
+        "key": "swing2",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "value": 45
+      },
+      {
+        "key": "noheal",
+        "label": {
+          "en": "noheal",
+          "zh-TW": "noheal",
+          "zh-CN": "noheal"
+        },
+        "value": 1
+      },
+      {
+        "key": "allskills",
+        "label": {
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
+        },
+        "value": 2
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword27",
+    "name": {
+      "en": "Dragon",
+      "zh-TW": "龍之",
+      "zh-CN": "龙之"
+    },
+    "runes": [
+      "Sur",
+      "Lo",
+      "Sol"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "armors"
+    ],
+    "levelReq": 61,
+    "ladderOnly": true,
+    "stats": [
+      {
+        "key": "hit-skill:Hydra",
+        "label": {
+          "en": "Chance to Cast on Striking (Hydra)",
+          "zh-TW": "攻擊時觸發機率 (九頭蛇)",
+          "zh-CN": "攻击时触发机率 (九头蛇)"
+        },
+        "min": 12,
+        "max": 15
+      },
+      {
+        "key": "gethit-skill:Venom",
+        "label": {
+          "en": "Chance to Cast When Struck (Venom)",
+          "zh-TW": "受擊時觸發機率 (Venom)",
+          "zh-CN": "受击时触发机率 (Venom)"
+        },
+        "min": 20,
+        "max": 18
+      },
+      {
+        "key": "all-stats",
+        "label": {
+          "en": "all-stats",
+          "zh-TW": "all-stats",
+          "zh-CN": "all-stats"
+        },
+        "min": 3,
+        "max": 5
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "ac",
+        "label": {
+          "en": "Defense",
+          "zh-TW": "防禦力",
+          "zh-CN": "防御力"
+        },
+        "value": 360
+      },
+      {
+        "key": "ac-miss",
+        "label": {
+          "en": "Defense vs. Missile",
+          "zh-TW": "對抗遠程攻擊防禦力",
+          "zh-CN": "对抗远程攻击防御力"
+        },
+        "value": 230
+      },
+      {
+        "key": "str/lvl",
+        "label": {
+          "en": "Strength (Based on Character Level)",
+          "zh-TW": "力量（依角色等級）",
+          "zh-CN": "力量（依角色等级）"
+        },
+        "value": 3
+      },
+      {
+        "key": "aura",
+        "label": {
+          "en": "aura",
+          "zh-TW": "aura",
+          "zh-CN": "aura"
+        },
+        "value": 14
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword29",
+    "name": {
+      "en": "Dream",
+      "zh-TW": "Dream",
+      "zh-CN": "Dream"
+    },
+    "runes": [
+      "Io",
+      "Jah",
+      "Pul"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "helms"
+    ],
+    "levelReq": 65,
+    "ladderOnly": true,
+    "stats": [
+      {
+        "key": "ac",
+        "label": {
+          "en": "Defense",
+          "zh-TW": "防禦力",
+          "zh-CN": "防御力"
+        },
+        "min": 150,
+        "max": 220
+      },
+      {
+        "key": "gethit-skill:Confuse",
+        "label": {
+          "en": "Chance to Cast When Struck (Confuse)",
+          "zh-TW": "受擊時觸發機率 (Confuse)",
+          "zh-CN": "受击时触发机率 (Confuse)"
+        },
+        "min": 10,
+        "max": 15
+      },
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 5,
+        "max": 20
+      },
+      {
+        "key": "balance3",
+        "label": {
+          "en": "balance3",
+          "zh-TW": "balance3",
+          "zh-CN": "balance3"
+        },
+        "min": 20,
+        "max": 30
+      },
+      {
+        "key": "mag%",
+        "label": {
+          "en": "Magic Find %",
+          "zh-TW": "額外魔法物品尋獲率 %",
+          "zh-CN": "额外魔法物品寻获率 %"
+        },
+        "min": 12,
+        "max": 25
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "mana/lvl",
+        "label": {
+          "en": "Mana (Based on Character Level)",
+          "zh-TW": "魔力值（依角色等級）",
+          "zh-CN": "魔力值（依角色等级）"
+        },
+        "value": 5
+      },
+      {
+        "key": "aura",
+        "label": {
+          "en": "aura",
+          "zh-TW": "aura",
+          "zh-CN": "aura"
+        },
+        "value": 15
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword30",
+    "name": {
+      "en": "Duress",
+      "zh-TW": "Duress",
+      "zh-CN": "Duress"
+    },
+    "runes": [
+      "Shael",
+      "Um",
+      "Thul"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "armors"
+    ],
+    "levelReq": 47,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
+        },
+        "min": 37,
+        "max": 133
+      },
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 10,
+        "max": 20
+      },
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
+        },
+        "min": 150,
+        "max": 200
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "balance2",
+        "label": {
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
+        },
+        "value": 20
+      },
+      {
+        "key": "openwounds",
+        "label": {
+          "en": "Open Wounds %",
+          "zh-TW": "撕裂傷口 %",
+          "zh-CN": "撕裂伤口 %"
+        },
+        "value": 33
+      },
+      {
+        "key": "crush",
+        "label": {
+          "en": "Crushing Blow %",
+          "zh-TW": "破碎打擊 %",
+          "zh-CN": "破碎打击 %"
+        },
+        "value": 15
+      },
+      {
+        "key": "stamdrain",
+        "label": {
+          "en": "Slower Stamina Drain %",
+          "zh-TW": "減緩耐力消耗 %",
+          "zh-CN": "减缓耐力消耗 %"
+        },
+        "value": -20
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword31",
+    "name": {
+      "en": "Edge",
+      "zh-TW": "Edge",
+      "zh-CN": "Edge"
+    },
+    "runes": [
+      "Tir",
+      "Tal",
+      "Amn"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "miss"
+    ],
+    "levelReq": 25,
+    "ladderOnly": true,
+    "stats": [
+      {
+        "key": "dmg-demon",
+        "label": {
+          "en": "dmg-demon",
+          "zh-TW": "dmg-demon",
+          "zh-CN": "dmg-demon"
+        },
+        "min": 320,
+        "max": 380
+      },
+      {
+        "key": "all-stats",
+        "label": {
+          "en": "all-stats",
+          "zh-TW": "all-stats",
+          "zh-CN": "all-stats"
+        },
+        "min": 5,
+        "max": 10
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "dmg-undead",
+        "label": {
+          "en": "Damage to Undead",
+          "zh-TW": "對不死系傷害",
+          "zh-CN": "对不死系伤害"
+        },
+        "value": 280
+      },
+      {
+        "key": "swing2",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "value": 35
+      },
+      {
+        "key": "noheal",
+        "label": {
+          "en": "noheal",
+          "zh-TW": "noheal",
+          "zh-CN": "noheal"
+        },
+        "value": 1
+      },
+      {
+        "key": "aura",
+        "label": {
+          "en": "aura",
+          "zh-TW": "aura",
+          "zh-CN": "aura"
+        },
+        "value": 15
+      },
+      {
+        "key": "cheap",
+        "label": {
+          "en": "cheap",
+          "zh-TW": "cheap",
+          "zh-CN": "cheap"
+        },
+        "value": 15
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword33",
+    "name": {
+      "en": "Enigma",
+      "zh-TW": "Enigma",
+      "zh-CN": "Enigma"
+    },
+    "runes": [
+      "Jah",
+      "Ith",
+      "Ber"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "armors"
+    ],
+    "levelReq": 65,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "ac",
+        "label": {
+          "en": "Defense",
+          "zh-TW": "防禦力",
+          "zh-CN": "防御力"
+        },
+        "min": 750,
+        "max": 775
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "heal-kill",
+        "label": {
+          "en": "heal-kill",
+          "zh-TW": "heal-kill",
+          "zh-CN": "heal-kill"
+        },
+        "value": 14
+      },
+      {
+        "key": "move2",
+        "label": {
+          "en": "Faster Run/Walk %",
+          "zh-TW": "加快跑走速度 %",
+          "zh-CN": "加快跑走速度 %"
+        },
+        "value": 45
+      },
+      {
+        "key": "str/lvl",
+        "label": {
+          "en": "Strength (Based on Character Level)",
+          "zh-TW": "力量（依角色等級）",
+          "zh-CN": "力量（依角色等级）"
+        },
+        "value": 6
+      },
+      {
+        "key": "allskills",
+        "label": {
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
+        },
+        "value": 2
+      },
+      {
+        "key": "mag%/lvl",
+        "label": {
+          "en": "Magic Find % (Based on Character Level)",
+          "zh-TW": "額外魔法物品尋獲率 %（依角色等級）",
+          "zh-CN": "额外魔法物品寻获率 %（依角色等级）"
+        },
+        "value": 8
+      },
+      {
+        "key": "oskill:Teleport",
+        "label": {
+          "en": "Skill Bonus (Teleport)",
+          "zh-TW": "技能加成 (Teleport)",
+          "zh-CN": "技能加成 (Teleport)"
+        },
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword34",
+    "name": {
+      "en": "Enlightenment",
+      "zh-TW": "Enlightenment",
+      "zh-CN": "Enlightenment"
+    },
+    "runes": [
+      "Pul",
+      "Ral",
+      "Sur"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "armors"
+    ],
+    "levelReq": 0,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "hit-skill:Fire Ball",
+        "label": {
+          "en": "Chance to Cast on Striking (Fire Ball)",
+          "zh-TW": "攻擊時觸發機率 (Fire Ball)",
+          "zh-CN": "攻击时触发机率 (Fire Ball)"
+        },
+        "min": 5,
+        "max": 15
+      },
+      {
+        "key": "gethit-skill:Blaze",
+        "label": {
+          "en": "Chance to Cast When Struck (Blaze)",
+          "zh-TW": "受擊時觸發機率 (Blaze)",
+          "zh-CN": "受击时触发机率 (Blaze)"
+        },
+        "min": 5,
+        "max": 15
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "sor",
+        "label": {
+          "en": "Sorceress Skill Levels",
+          "zh-TW": "女巫技能等級",
+          "zh-CN": "女巫技能等级"
+        },
+        "value": 2
+      },
+      {
+        "key": "oskill:Warmth",
+        "label": {
+          "en": "Skill Bonus (Warmth)",
+          "zh-TW": "技能加成 (Warmth)",
+          "zh-CN": "技能加成 (Warmth)"
+        },
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword36",
+    "name": {
+      "en": "Eternity",
+      "zh-TW": "Eternity",
+      "zh-CN": "Eternity"
+    },
+    "runes": [
+      "Amn",
+      "Ber",
+      "Ist",
+      "Sol",
+      "Sur"
+    ],
+    "sockets": 5,
+    "itemTypes": [
+      "mele"
+    ],
+    "levelReq": 63,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 260,
+        "max": 310
+      },
+      {
+        "key": "charged:Revive",
+        "label": {
+          "en": "Charges (Revive)",
+          "zh-TW": "充能次數 (Revive)",
+          "zh-CN": "充能次数 (Revive)"
+        },
+        "min": 88,
+        "max": 8
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "indestruct",
+        "label": {
+          "en": "Indestructible",
+          "zh-TW": "不可破壞",
+          "zh-CN": "不可破坏"
+        },
+        "value": 1
+      },
+      {
+        "key": "slow",
+        "label": {
+          "en": "Slower Target %",
+          "zh-TW": "減緩目標速度 %",
+          "zh-CN": "减缓目标速度 %"
+        },
+        "value": 33
+      },
+      {
+        "key": "regen",
+        "label": {
+          "en": "Life Regenerated %",
+          "zh-TW": "生命回復 %",
+          "zh-CN": "生命回复 %"
+        },
+        "value": 16
+      },
+      {
+        "key": "regen-mana",
+        "label": {
+          "en": "Mana Regenerated %",
+          "zh-TW": "魔力回復 %",
+          "zh-CN": "魔力回复 %"
+        },
+        "value": 16
+      },
+      {
+        "key": "nofreeze",
+        "label": {
+          "en": "nofreeze",
+          "zh-TW": "nofreeze",
+          "zh-CN": "nofreeze"
+        },
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword37",
+    "name": {
+      "en": "Exile",
+      "zh-TW": "Exile",
+      "zh-CN": "Exile"
+    },
+    "runes": [
+      "Vex",
+      "Ohm",
+      "Ist",
+      "Dol"
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "pala"
+    ],
+    "levelReq": 57,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
+        },
+        "min": 220,
+        "max": 260
+      },
+      {
+        "key": "aura",
+        "label": {
+          "en": "aura",
+          "zh-TW": "aura",
+          "zh-CN": "aura"
+        },
+        "min": 13,
+        "max": 16
+      },
+      {
+        "key": "hit-skill:Life Tap",
+        "label": {
+          "en": "Chance to Cast on Striking (Life Tap)",
+          "zh-TW": "攻擊時觸發機率 (Life Tap)",
+          "zh-CN": "攻击时触发机率 (Life Tap)"
+        },
+        "min": 15,
+        "max": 5
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "block2",
+        "label": {
+          "en": "Faster Block Rate",
+          "zh-TW": "加快格擋速度",
+          "zh-CN": "加快格挡速度"
+        },
+        "value": 30
+      },
+      {
+        "key": "freeze",
+        "label": {
+          "en": "freeze",
+          "zh-TW": "freeze",
+          "zh-CN": "freeze"
+        },
+        "value": 1
+      },
+      {
+        "key": "skilltab:10",
+        "label": {
+          "en": "Skill Tab Bonus",
+          "zh-TW": "技能列加成",
+          "zh-CN": "技能列加成"
+        },
+        "value": 2
+      },
+      {
+        "key": "rep-dur",
+        "label": {
+          "en": "Repairs Durability",
+          "zh-TW": "修復耐久度",
+          "zh-CN": "修复耐久度"
+        },
+        "value": 25
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword38",
+    "name": {
+      "en": "Faith",
+      "zh-TW": "Faith",
+      "zh-CN": "Faith"
+    },
+    "runes": [
+      "Ohm",
+      "Jah",
+      "Lem",
+      "Eld"
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "miss"
+    ],
+    "levelReq": 65,
+    "ladderOnly": true,
+    "stats": [
+      {
+        "key": "aura",
+        "label": {
+          "en": "aura",
+          "zh-TW": "aura",
+          "zh-CN": "aura"
+        },
+        "min": 12,
+        "max": 15
+      },
+      {
+        "key": "allskills",
+        "label": {
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
+        },
+        "min": 1,
+        "max": 2
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "value": 280
+      },
+      {
+        "key": "att%",
+        "label": {
+          "en": "Attack Rating %",
+          "zh-TW": "攻擊等級 %",
+          "zh-CN": "攻击等级 %"
+        },
+        "value": 300
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": 120
+      },
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "value": 15
+      },
+      {
+        "key": "reanimate",
+        "label": {
+          "en": "reanimate",
+          "zh-TW": "reanimate",
+          "zh-CN": "reanimate"
+        },
+        "value": 10
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword39",
+    "name": {
+      "en": "Famine",
+      "zh-TW": "Famine",
+      "zh-CN": "Famine"
+    },
+    "runes": [
+      "Fal",
+      "Ohm",
+      "Ort",
+      "Jah"
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "axes"
+    ],
+    "levelReq": 65,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 270,
+        "max": 320
+      },
+      {
+        "key": "dmg-mag",
+        "label": {
+          "en": "dmg-mag",
+          "zh-TW": "dmg-mag",
+          "zh-CN": "dmg-mag"
+        },
+        "min": 180,
+        "max": 200
+      },
+      {
+        "key": "dmg-elem",
+        "label": {
+          "en": "dmg-elem",
+          "zh-TW": "dmg-elem",
+          "zh-CN": "dmg-elem"
+        },
+        "min": 50,
+        "max": 200
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "value": 12
+      },
+      {
+        "key": "swing2",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "value": 30
+      },
+      {
+        "key": "noheal",
+        "label": {
+          "en": "noheal",
+          "zh-TW": "noheal",
+          "zh-CN": "noheal"
+        },
+        "value": 1
+      },
+      {
+        "key": "ethereal",
+        "label": {
+          "en": "ethereal",
+          "zh-TW": "ethereal",
+          "zh-CN": "ethereal"
+        },
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword40",
+    "name": {
+      "en": "Flickering Flame",
+      "zh-TW": "Flickering Flame",
+      "zh-CN": "Flickering Flame"
+    },
+    "runes": [
+      "Nef",
+      "Pul",
+      "Vex"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "helms"
+    ],
+    "levelReq": 55,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "aura",
+        "label": {
+          "en": "aura",
+          "zh-TW": "aura",
+          "zh-CN": "aura"
+        },
+        "min": 4,
+        "max": 8
+      },
+      {
+        "key": "pierce-fire",
+        "label": {
+          "en": "Enemy Fire Resistance %",
+          "zh-TW": "降低敵方火焰抗性 %",
+          "zh-CN": "降低敌方火焰抗性 %"
+        },
+        "min": 10,
+        "max": 15
+      },
+      {
+        "key": "mana",
+        "label": {
+          "en": "Mana",
+          "zh-TW": "魔力值",
+          "zh-CN": "魔力值"
+        },
+        "min": 50,
+        "max": 75
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "fireskill",
+        "label": {
+          "en": "fireskill",
+          "zh-TW": "fireskill",
+          "zh-CN": "fireskill"
+        },
+        "value": 3
+      },
+      {
+        "key": "half-freeze",
+        "label": {
+          "en": "Half Freeze Duration",
+          "zh-TW": "減半冰凍持續時間",
+          "zh-CN": "减半冰冻持续时间"
+        },
+        "value": 1
+      },
+      {
+        "key": "res-pois-len",
+        "label": {
+          "en": "res-pois-len",
+          "zh-TW": "res-pois-len",
+          "zh-CN": "res-pois-len"
+        },
+        "value": 50
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword41",
+    "name": {
+      "en": "Fortitude",
+      "zh-TW": "Fortitude",
+      "zh-CN": "Fortitude"
+    },
+    "runes": [
+      "El",
+      "Sol",
+      "Dol",
+      "Lo"
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "weap"
+    ],
+    "levelReq": 59,
+    "ladderOnly": true,
+    "stats": [
+      {
+        "key": "gethit-skill:Chilling Armor",
+        "label": {
+          "en": "Chance to Cast When Struck (Chilling Armor)",
+          "zh-TW": "受擊時觸發機率 (Chilling Armor)",
+          "zh-CN": "受击时触发机率 (Chilling Armor)"
+        },
+        "min": 20,
+        "max": 15
+      },
+      {
+        "key": "hp/lvl",
+        "label": {
+          "en": "Life (Based on Character Level)",
+          "zh-TW": "生命值（依角色等級）",
+          "zh-CN": "生命值（依角色等级）"
+        },
+        "min": 8,
+        "max": 12
+      },
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 25,
+        "max": 30
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
+        },
+        "value": 200
+      },
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "value": 300
+      },
+      {
+        "key": "cast3",
+        "label": {
+          "en": "Faster Cast Rate",
+          "zh-TW": "加快施法速度",
+          "zh-CN": "加快施法速度"
+        },
+        "value": 25
+      },
+      {
+        "key": "dmg-to-mana",
+        "label": {
+          "en": "Damage Taken Goes to Mana",
+          "zh-TW": "承受傷害轉換為魔力",
+          "zh-CN": "承受伤害转换为魔力"
+        },
+        "value": 12
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword44",
+    "name": {
+      "en": "Fury",
+      "zh-TW": "Fury",
+      "zh-CN": "Fury"
+    },
+    "runes": [
+      "Jah",
+      "Gul",
+      "Eth"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "mele"
+    ],
+    "levelReq": 65,
+    "ladderOnly": false,
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "value": 209
+      },
+      {
+        "key": "swing2",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "value": 40
+      },
+      {
+        "key": "noheal",
+        "label": {
+          "en": "noheal",
+          "zh-TW": "noheal",
+          "zh-CN": "noheal"
+        },
+        "value": 1
+      },
+      {
+        "key": "openwounds",
+        "label": {
+          "en": "Open Wounds %",
+          "zh-TW": "撕裂傷口 %",
+          "zh-CN": "撕裂伤口 %"
+        },
+        "value": 66
+      },
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "value": 6
+      },
+      {
+        "key": "deadly",
+        "label": {
+          "en": "Deadly Strike %",
+          "zh-TW": "致命一擊 %",
+          "zh-CN": "致命一击 %"
+        },
+        "value": 33
+      },
+      {
+        "key": "skill:147",
+        "label": {
+          "en": "Skill Bonus (Frenzy)",
+          "zh-TW": "技能加成 (狂亂)",
+          "zh-CN": "技能加成 (狂乱)"
+        },
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword45",
+    "name": {
+      "en": "Gloom",
+      "zh-TW": "Gloom",
+      "zh-CN": "Gloom"
+    },
+    "runes": [
+      "Fal",
+      "Um",
+      "Pul"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "armors"
+    ],
+    "levelReq": 47,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
+        },
+        "min": 170,
+        "max": 230
+      },
+      {
+        "key": "gethit-skill:Dim Vision",
+        "label": {
+          "en": "Chance to Cast When Struck (Dim Vision)",
+          "zh-TW": "受擊時觸發機率 (Dim Vision)",
+          "zh-CN": "受击时触发机率 (Dim Vision)"
+        },
+        "min": 15,
+        "max": 3
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "value": 30
+      },
+      {
+        "key": "balance2",
+        "label": {
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
+        },
+        "value": 10
+      },
+      {
+        "key": "dmg-to-mana",
+        "label": {
+          "en": "Damage Taken Goes to Mana",
+          "zh-TW": "承受傷害轉換為魔力",
+          "zh-CN": "承受伤害转换为魔力"
+        },
+        "value": 5
+      },
+      {
+        "key": "light",
+        "label": {
+          "en": "Light Radius",
+          "zh-TW": "光環半徑",
+          "zh-CN": "光环半径"
+        },
+        "value": -3
+      },
+      {
+        "key": "half-freeze",
+        "label": {
+          "en": "Half Freeze Duration",
+          "zh-TW": "減半冰凍持續時間",
+          "zh-CN": "减半冰冻持续时间"
+        },
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword47",
+    "name": {
+      "en": "Grief",
+      "zh-TW": "Grief",
+      "zh-CN": "Grief"
+    },
+    "runes": [
+      "Eth",
+      "Tir",
+      "Lo",
+      "Mal",
+      "Ral"
+    ],
+    "sockets": 5,
+    "itemTypes": [
+      "swords"
+    ],
+    "levelReq": 59,
+    "ladderOnly": true,
+    "stats": [
+      {
+        "key": "dmg",
+        "label": {
+          "en": "Maximum Damage",
+          "zh-TW": "最大傷害",
+          "zh-CN": "最大伤害"
+        },
+        "min": 340,
+        "max": 400
+      },
+      {
+        "key": "swing3",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "min": 30,
+        "max": 40
+      },
+      {
+        "key": "hit-skill:Venom",
+        "label": {
+          "en": "Chance to Cast on Striking (Venom)",
+          "zh-TW": "攻擊時觸發機率 (Venom)",
+          "zh-CN": "攻击时触发机率 (Venom)"
+        },
+        "min": 35,
+        "max": 15
+      },
+      {
+        "key": "pierce-pois",
+        "label": {
+          "en": "Enemy Poison Resistance %",
+          "zh-TW": "降低敵方毒素抗性 %",
+          "zh-CN": "降低敌方毒素抗性 %"
+        },
+        "min": 20,
+        "max": 25
+      },
+      {
+        "key": "heal-kill",
+        "label": {
+          "en": "heal-kill",
+          "zh-TW": "heal-kill",
+          "zh-CN": "heal-kill"
+        },
+        "min": 10,
+        "max": 15
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "dmg-dem/lvl",
+        "label": {
+          "en": "dmg-dem (Based on Character Level)",
+          "zh-TW": "dmg-dem（依角色等級）",
+          "zh-CN": "dmg-dem（依角色等级）"
+        },
+        "value": 15
+      },
+      {
+        "key": "ignore-ac",
+        "label": {
+          "en": "Ignore Target Defense",
+          "zh-TW": "無視目標防禦力",
+          "zh-CN": "无视目标防御力"
+        },
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword175",
+    "name": {
+      "en": "Ground",
+      "zh-TW": "Ground",
+      "zh-CN": "Ground"
+    },
+    "runes": [
+      "Shael",
+      "Io",
+      "Ort"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "helms"
+    ],
+    "levelReq": 35,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
+        },
+        "min": 75,
+        "max": 100
+      },
+      {
+        "key": "res-ltng",
+        "label": {
+          "en": "Lightning Resist %",
+          "zh-TW": "閃電抗性 %",
+          "zh-CN": "闪电抗性 %"
+        },
+        "min": 10,
+        "max": 30
+      },
+      {
+        "key": "abs-ltng%",
+        "label": {
+          "en": "abs-ltng%",
+          "zh-TW": "abs-ltng%",
+          "zh-CN": "abs-ltng%"
+        },
+        "min": 10,
+        "max": 15
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "hp%",
+        "label": {
+          "en": "Increase Maximum Life %",
+          "zh-TW": "增加最大生命值 %",
+          "zh-CN": "增加最大生命值 %"
+        },
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword48",
+    "name": {
+      "en": "Hand of Justice",
+      "zh-TW": "Hand of Justice",
+      "zh-CN": "Hand of Justice"
+    },
+    "runes": [
+      "Sur",
+      "Cham",
+      "Amn",
+      "Lo"
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "weap"
+    ],
+    "levelReq": 67,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 280,
+        "max": 330
+      },
+      {
+        "key": "levelup-skill:Blaze",
+        "label": {
+          "en": "Chance to Cast on Level-Up % (Blaze)",
+          "zh-TW": "升級時觸發機率 % (Blaze)",
+          "zh-CN": "升级时触发机率 % (Blaze)"
+        },
+        "min": 100,
+        "max": 36
+      },
+      {
+        "key": "death-skill:Meteor",
+        "label": {
+          "en": "Chance to Cast on Death % (Meteor)",
+          "zh-TW": "死亡時觸發機率 % (Meteor)",
+          "zh-CN": "死亡时触发机率 % (Meteor)"
+        },
+        "min": 100,
+        "max": 48
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "swing2",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "value": 33
+      },
+      {
+        "key": "aura",
+        "label": {
+          "en": "aura",
+          "zh-TW": "aura",
+          "zh-CN": "aura"
+        },
+        "value": 16
+      },
+      {
+        "key": "ignore-ac",
+        "label": {
+          "en": "Ignore Target Defense",
+          "zh-TW": "無視目標防禦力",
+          "zh-CN": "无视目标防御力"
+        },
+        "value": 1
+      },
+      {
+        "key": "pierce-fire",
+        "label": {
+          "en": "Enemy Fire Resistance %",
+          "zh-TW": "降低敵方火焰抗性 %",
+          "zh-CN": "降低敌方火焰抗性 %"
+        },
+        "value": 20
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword49",
+    "name": {
+      "en": "Harmony",
+      "zh-TW": "Harmony",
+      "zh-CN": "Harmony"
+    },
+    "runes": [
+      "Tir",
+      "Ith",
+      "Sol",
+      "Ko"
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "miss"
+    ],
+    "levelReq": 39,
+    "ladderOnly": true,
+    "stats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 200,
+        "max": 275
+      },
+      {
+        "key": "dmg-elem",
+        "label": {
+          "en": "dmg-elem",
+          "zh-TW": "dmg-elem",
+          "zh-CN": "dmg-elem"
+        },
+        "min": 55,
+        "max": 160
+      },
+      {
+        "key": "charged:Revive",
+        "label": {
+          "en": "Charges (Revive)",
+          "zh-TW": "充能次數 (Revive)",
+          "zh-CN": "充能次数 (Revive)"
+        },
+        "min": 25,
+        "max": 20
+      },
+      {
+        "key": "oskill:Valkyrie",
+        "label": {
+          "en": "Skill Bonus (Valkyrie)",
+          "zh-TW": "技能加成 (女武神)",
+          "zh-CN": "技能加成 (女武神)"
+        },
+        "min": 2,
+        "max": 6
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "aura",
+        "label": {
+          "en": "aura",
+          "zh-TW": "aura",
+          "zh-CN": "aura"
+        },
+        "value": 10
+      },
+      {
+        "key": "regen-mana",
+        "label": {
+          "en": "Mana Regenerated %",
+          "zh-TW": "魔力回復 %",
+          "zh-CN": "魔力回复 %"
+        },
+        "value": 20
+      },
+      {
+        "key": "light",
+        "label": {
+          "en": "Light Radius",
+          "zh-TW": "光環半徑",
+          "zh-CN": "光环半径"
+        },
+        "value": 2
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword51",
+    "name": {
+      "en": "Heart of the Oak",
+      "zh-TW": "Heart of the Oak",
+      "zh-CN": "Heart of the Oak"
+    },
+    "runes": [
+      "Ko",
+      "Vex",
+      "Pul",
+      "Thul"
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "staves"
+    ],
+    "levelReq": 55,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "charged:Oak Sage",
+        "label": {
+          "en": "Charges (Oak Sage)",
+          "zh-TW": "充能次數 (橡木智者)",
+          "zh-CN": "充能次数 (橡木智者)"
+        },
+        "min": 25,
+        "max": 4
+      },
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 30,
+        "max": 40
+      },
+      {
+        "key": "charged:Raven",
+        "label": {
+          "en": "Charges (Raven)",
+          "zh-TW": "充能次數 (渡鳥之)",
+          "zh-CN": "充能次数 (渡鸟之)"
+        },
+        "min": 60,
+        "max": 14
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "cast2",
+        "label": {
+          "en": "Faster Cast Rate",
+          "zh-TW": "加快施法速度",
+          "zh-CN": "加快施法速度"
+        },
+        "value": 40
+      },
+      {
+        "key": "mana%",
+        "label": {
+          "en": "Increase Maximum Mana %",
+          "zh-TW": "增加最大魔力值 %",
+          "zh-CN": "增加最大魔力值 %"
+        },
+        "value": 15
+      },
+      {
+        "key": "allskills",
+        "label": {
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
+        },
+        "value": 3
+      },
+      {
+        "key": "regen",
+        "label": {
+          "en": "Life Regenerated %",
+          "zh-TW": "生命回復 %",
+          "zh-CN": "生命回复 %"
+        },
+        "value": 20
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword177",
+    "name": {
+      "en": "Hearth",
+      "zh-TW": "Hearth",
+      "zh-CN": "Hearth"
+    },
+    "runes": [
+      "Shael",
+      "Io",
+      "Thul"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "helms"
+    ],
+    "levelReq": 35,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
+        },
+        "min": 75,
+        "max": 100
+      },
+      {
+        "key": "res-cold",
+        "label": {
+          "en": "Cold Resist %",
+          "zh-TW": "冷凍抗性 %",
+          "zh-CN": "冷冻抗性 %"
+        },
+        "min": 10,
+        "max": 30
+      },
+      {
+        "key": "abs-cold%",
+        "label": {
+          "en": "abs-cold%",
+          "zh-TW": "abs-cold%",
+          "zh-CN": "abs-cold%"
+        },
+        "min": 10,
+        "max": 15
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "hp%",
+        "label": {
+          "en": "Increase Maximum Life %",
+          "zh-TW": "增加最大生命值 %",
+          "zh-CN": "增加最大生命值 %"
+        },
+        "value": 5
+      },
+      {
+        "key": "nofreeze",
+        "label": {
+          "en": "nofreeze",
+          "zh-TW": "nofreeze",
+          "zh-CN": "nofreeze"
+        },
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword54",
+    "name": {
+      "en": "Holy Thunder",
+      "zh-TW": "Holy Thunder",
+      "zh-CN": "Holy Thunder"
+    },
+    "runes": [
+      "Eth",
+      "Ral",
+      "Ort",
+      "Tal"
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "scepters"
+    ],
+    "levelReq": 21,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "min": 20,
+        "max": 60
+      },
+      {
+        "key": "charged:53",
+        "label": {
+          "en": "Charges (Chain Lightning)",
+          "zh-TW": "充能次數 (連鎖閃電)",
+          "zh-CN": "充能次数 (连锁闪电)"
+        },
+        "min": 60,
+        "max": 7
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "value": 60
+      },
+      {
+        "key": "dmg-max",
+        "label": {
+          "en": "Maximum Damage",
+          "zh-TW": "最大傷害",
+          "zh-CN": "最大伤害"
+        },
+        "value": 10
+      },
+      {
+        "key": "res-ltng",
+        "label": {
+          "en": "Lightning Resist %",
+          "zh-TW": "閃電抗性 %",
+          "zh-CN": "闪电抗性 %"
+        },
+        "value": 60
+      },
+      {
+        "key": "res-ltng-max",
+        "label": {
+          "en": "res-ltng-max",
+          "zh-TW": "res-ltng-max",
+          "zh-CN": "res-ltng-max"
+        },
+        "value": 5
+      },
+      {
+        "key": "skill:118",
+        "label": {
+          "en": "Skill Bonus (Holy Shock)",
+          "zh-TW": "技能加成 (神聖衝擊)",
+          "zh-CN": "技能加成 (神圣冲击)"
+        },
+        "value": 3
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword55",
+    "name": {
+      "en": "Honor",
+      "zh-TW": "Honor",
+      "zh-CN": "Honor"
+    },
+    "runes": [
+      "Amn",
+      "El",
+      "Ith",
+      "Tir",
+      "Sol"
+    ],
+    "sockets": 5,
+    "itemTypes": [
+      "mele"
+    ],
+    "levelReq": 27,
+    "ladderOnly": false,
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "value": 160
+      },
+      {
+        "key": "regen",
+        "label": {
+          "en": "Life Regenerated %",
+          "zh-TW": "生命回復 %",
+          "zh-CN": "生命回复 %"
+        },
+        "value": 10
+      },
+      {
+        "key": "allskills",
+        "label": {
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
+        },
+        "value": 1
+      },
+      {
+        "key": "att",
+        "label": {
+          "en": "Attack Rating",
+          "zh-TW": "攻擊等級",
+          "zh-CN": "攻击等级"
+        },
+        "value": 200
+      },
+      {
+        "key": "deadly",
+        "label": {
+          "en": "Deadly Strike %",
+          "zh-TW": "致命一擊 %",
+          "zh-CN": "致命一击 %"
+        },
+        "value": 25
+      },
+      {
+        "key": "str",
+        "label": {
+          "en": "Strength",
+          "zh-TW": "力量",
+          "zh-CN": "力量"
+        },
+        "value": 10
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword171",
+    "name": {
+      "en": "Hustle (armor)",
+      "zh-TW": "Hustle (armor)",
+      "zh-CN": "Hustle (armor)"
+    },
+    "runes": [
+      "Shael",
+      "Ko",
+      "Eld"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "armors"
+    ],
+    "levelReq": 0,
+    "ladderOnly": false,
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "move2",
+        "label": {
+          "en": "Faster Run/Walk %",
+          "zh-TW": "加快跑走速度 %",
+          "zh-CN": "加快跑走速度 %"
+        },
+        "value": 65
+      },
+      {
+        "key": "stamdrain",
+        "label": {
+          "en": "Slower Stamina Drain %",
+          "zh-TW": "減緩耐力消耗 %",
+          "zh-CN": "减缓耐力消耗 %"
+        },
+        "value": 35
+      },
+      {
+        "key": "swing2",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "value": 40
+      },
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "value": 10
+      },
+      {
+        "key": "oskill:Evade",
+        "label": {
+          "en": "Skill Bonus (Evade)",
+          "zh-TW": "技能加成 (Evade)",
+          "zh-CN": "技能加成 (Evade)"
+        },
+        "value": 6
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword172",
+    "name": {
+      "en": "Hustle (weapon)",
+      "zh-TW": "Hustle (weapon)",
+      "zh-CN": "Hustle (weapon)"
+    },
+    "runes": [
+      "Shael",
+      "Ko",
+      "Eld"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "weap"
+    ],
+    "levelReq": 0,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "hit-skill:Quickness",
+        "label": {
+          "en": "Chance to Cast on Striking (Quickness)",
+          "zh-TW": "攻擊時觸發機率 (Quickness)",
+          "zh-CN": "攻击时触发机率 (Quickness)"
+        },
+        "min": 5,
+        "max": 1
+      },
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 180,
+        "max": 200
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "swing2",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "value": 10
+      },
+      {
+        "key": "aura",
+        "label": {
+          "en": "aura",
+          "zh-TW": "aura",
+          "zh-CN": "aura"
+        },
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword59",
+    "name": {
+      "en": "Ice",
+      "zh-TW": "Ice",
+      "zh-CN": "Ice"
+    },
+    "runes": [
+      "Amn",
+      "Shael",
+      "Jah",
+      "Lo"
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "miss"
+    ],
+    "levelReq": 65,
+    "ladderOnly": true,
+    "stats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 140,
+        "max": 210
+      },
+      {
+        "key": "extra-cold",
+        "label": {
+          "en": "Cold Skill Damage %",
+          "zh-TW": "冷凍技能傷害 %",
+          "zh-CN": "冷冻技能伤害 %"
+        },
+        "min": 25,
+        "max": 30
+      },
+      {
+        "key": "hit-skill:Frost Nova",
+        "label": {
+          "en": "Chance to Cast on Striking (Frost Nova)",
+          "zh-TW": "攻擊時觸發機率 (Frost Nova)",
+          "zh-CN": "攻击时触发机率 (Frost Nova)"
+        },
+        "min": 25,
+        "max": 22
+      },
+      {
+        "key": "levelup-skill:Blizzard",
+        "label": {
+          "en": "Chance to Cast on Level-Up % (Blizzard)",
+          "zh-TW": "升級時觸發機率 % (Blizzard)",
+          "zh-CN": "升级时触发机率 % (Blizzard)"
+        },
+        "min": 100,
+        "max": 40
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "aura",
+        "label": {
+          "en": "aura",
+          "zh-TW": "aura",
+          "zh-CN": "aura"
+        },
+        "value": 18
+      },
+      {
+        "key": "pierce-cold",
+        "label": {
+          "en": "Enemy Cold Resistance %",
+          "zh-TW": "降低敵方冷凍抗性 %",
+          "zh-CN": "降低敌方冷冻抗性 %"
+        },
+        "value": 20
+      },
+      {
+        "key": "gold%/lvl",
+        "label": {
+          "en": "Gold Find % (Based on Character Level)",
+          "zh-TW": "額外金幣拾取率 %（依角色等級）",
+          "zh-CN": "额外金币拾取率 %（依角色等级）"
+        },
+        "value": 25
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword60",
+    "name": {
+      "en": "Infinity",
+      "zh-TW": "Infinity",
+      "zh-CN": "Infinity"
+    },
+    "runes": [
+      "Ber",
+      "Mal",
+      "Ber",
+      "Ist"
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "polearms"
+    ],
+    "levelReq": 63,
+    "ladderOnly": true,
+    "stats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 255,
+        "max": 325
+      },
+      {
+        "key": "kill-skill",
+        "label": {
+          "en": "kill-skill",
+          "zh-TW": "kill-skill",
+          "zh-CN": "kill-skill"
+        },
+        "min": 50,
+        "max": 20
+      },
+      {
+        "key": "pierce-ltng",
+        "label": {
+          "en": "Enemy Lightning Resistance %",
+          "zh-TW": "降低敵方閃電抗性 %",
+          "zh-CN": "降低敌方闪电抗性 %"
+        },
+        "min": 45,
+        "max": 55
+      },
+      {
+        "key": "charged:Cyclone Armor",
+        "label": {
+          "en": "Charges (Cyclone Armor)",
+          "zh-TW": "充能次數 (Cyclone Armor)",
+          "zh-CN": "充能次数 (Cyclone Armor)"
+        },
+        "min": 30,
+        "max": 21
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "move3",
+        "label": {
+          "en": "Faster Run/Walk %",
+          "zh-TW": "加快跑走速度 %",
+          "zh-CN": "加快跑走速度 %"
+        },
+        "value": 35
+      },
+      {
+        "key": "vit/lvl",
+        "label": {
+          "en": "Vitality (Based on Character Level)",
+          "zh-TW": "活力（依角色等級）",
+          "zh-CN": "活力（依角色等级）"
+        },
+        "value": 4
+      },
+      {
+        "key": "aura",
+        "label": {
+          "en": "aura",
+          "zh-TW": "aura",
+          "zh-CN": "aura"
+        },
+        "value": 12
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword62",
+    "name": {
+      "en": "Insight",
+      "zh-TW": "Insight",
+      "zh-CN": "Insight"
+    },
+    "runes": [
+      "Ral",
+      "Tir",
+      "Tal",
+      "Sol"
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "polearms"
+    ],
+    "levelReq": 27,
+    "ladderOnly": true,
+    "stats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 200,
+        "max": 260
+      },
+      {
+        "key": "att%",
+        "label": {
+          "en": "Attack Rating %",
+          "zh-TW": "攻擊等級 %",
+          "zh-CN": "攻击等级 %"
+        },
+        "min": 180,
+        "max": 250
+      },
+      {
+        "key": "oskill:Critical Strike",
+        "label": {
+          "en": "Skill Bonus (Critical Strike)",
+          "zh-TW": "技能加成 (Critical Strike)",
+          "zh-CN": "技能加成 (Critical Strike)"
+        },
+        "min": 1,
+        "max": 6
+      },
+      {
+        "key": "aura",
+        "label": {
+          "en": "aura",
+          "zh-TW": "aura",
+          "zh-CN": "aura"
+        },
+        "min": 12,
+        "max": 17
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "mag%",
+        "label": {
+          "en": "Magic Find %",
+          "zh-TW": "額外魔法物品尋獲率 %",
+          "zh-CN": "额外魔法物品寻获率 %"
+        },
+        "value": 23
+      },
+      {
+        "key": "cast2",
+        "label": {
+          "en": "Faster Cast Rate",
+          "zh-TW": "加快施法速度",
+          "zh-CN": "加快施法速度"
+        },
+        "value": 35
+      },
+      {
+        "key": "all-stats",
+        "label": {
+          "en": "all-stats",
+          "zh-TW": "all-stats",
+          "zh-CN": "all-stats"
+        },
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword65",
+    "name": {
+      "en": "King's Grace",
+      "zh-TW": "King's Grace",
+      "zh-CN": "King's Grace"
+    },
+    "runes": [
+      "Amn",
+      "Ral",
+      "Thul"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "swords"
+    ],
+    "levelReq": 25,
+    "ladderOnly": false,
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "value": 100
+      },
+      {
+        "key": "att",
+        "label": {
+          "en": "Attack Rating",
+          "zh-TW": "攻擊等級",
+          "zh-CN": "攻击等级"
+        },
+        "value": 150
+      },
+      {
+        "key": "dmg-demon",
+        "label": {
+          "en": "dmg-demon",
+          "zh-TW": "dmg-demon",
+          "zh-CN": "dmg-demon"
+        },
+        "value": 100
+      },
+      {
+        "key": "dmg-undead",
+        "label": {
+          "en": "Damage to Undead",
+          "zh-TW": "對不死系傷害",
+          "zh-CN": "对不死系伤害"
+        },
+        "value": 50
+      },
+      {
+        "key": "att-demon",
+        "label": {
+          "en": "att-demon",
+          "zh-TW": "att-demon",
+          "zh-CN": "att-demon"
+        },
+        "value": 100
+      },
+      {
+        "key": "att-undead",
+        "label": {
+          "en": "att-undead",
+          "zh-TW": "att-undead",
+          "zh-CN": "att-undead"
+        },
+        "value": 100
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword66",
+    "name": {
+      "en": "Kingslayer",
+      "zh-TW": "Kingslayer",
+      "zh-CN": "Kingslayer"
+    },
+    "runes": [
+      "Mal",
+      "Um",
+      "Gul",
+      "Fal"
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "swords"
+    ],
+    "levelReq": 53,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 230,
+        "max": 270
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "swing2",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "value": 30
+      },
+      {
+        "key": "reduce-ac",
+        "label": {
+          "en": "reduce-ac",
+          "zh-TW": "reduce-ac",
+          "zh-CN": "reduce-ac"
+        },
+        "value": 25
+      },
+      {
+        "key": "crush",
+        "label": {
+          "en": "Crushing Blow %",
+          "zh-TW": "破碎打擊 %",
+          "zh-CN": "破碎打击 %"
+        },
+        "value": 33
+      },
+      {
+        "key": "openwounds",
+        "label": {
+          "en": "Open Wounds %",
+          "zh-TW": "撕裂傷口 %",
+          "zh-CN": "撕裂伤口 %"
+        },
+        "value": 25
+      },
+      {
+        "key": "oskill:Vengeance",
+        "label": {
+          "en": "Skill Bonus (Vengeance)",
+          "zh-TW": "技能加成 (Vengeance)",
+          "zh-CN": "技能加成 (Vengeance)"
+        },
+        "value": 1
+      },
+      {
+        "key": "gold%",
+        "label": {
+          "en": "Gold Find %",
+          "zh-TW": "額外金幣拾取率 %",
+          "zh-CN": "额外金币拾取率 %"
+        },
+        "value": 40
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword69",
+    "name": {
+      "en": "Last Wish",
+      "zh-TW": "Last Wish",
+      "zh-CN": "Last Wish"
+    },
+    "runes": [
+      "Jah",
+      "Mal",
+      "Jah",
+      "Sur",
+      "Jah",
+      "Ber"
+    ],
+    "sockets": 6,
+    "itemTypes": [
+      "swords"
+    ],
+    "levelReq": 65,
+    "ladderOnly": true,
+    "stats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 330,
+        "max": 375
+      },
+      {
+        "key": "hit-skill:Life Tap",
+        "label": {
+          "en": "Chance to Cast on Striking (Life Tap)",
+          "zh-TW": "攻擊時觸發機率 (Life Tap)",
+          "zh-CN": "攻击时触发机率 (Life Tap)"
+        },
+        "min": 10,
+        "max": 18
+      },
+      {
+        "key": "gethit-skill:Fade",
+        "label": {
+          "en": "Chance to Cast When Struck (Fade)",
+          "zh-TW": "受擊時觸發機率 (Fade)",
+          "zh-CN": "受击时触发机率 (Fade)"
+        },
+        "min": 6,
+        "max": 11
+      },
+      {
+        "key": "crush",
+        "label": {
+          "en": "Crushing Blow %",
+          "zh-TW": "破碎打擊 %",
+          "zh-CN": "破碎打击 %"
+        },
+        "min": 40,
+        "max": 50
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "att-skill:Charged Bolt",
+        "label": {
+          "en": "Attack Rating (skill) (Charged Bolt)",
+          "zh-TW": "攻擊等級（技能） (Charged Bolt)",
+          "zh-CN": "攻击等级（技能） (Charged Bolt)"
+        },
+        "value": 20
+      },
+      {
+        "key": "mag%/lvl",
+        "label": {
+          "en": "Magic Find % (Based on Character Level)",
+          "zh-TW": "額外魔法物品尋獲率 %（依角色等級）",
+          "zh-CN": "额外魔法物品寻获率 %（依角色等级）"
+        },
+        "value": 4
+      },
+      {
+        "key": "aura",
+        "label": {
+          "en": "aura",
+          "zh-TW": "aura",
+          "zh-CN": "aura"
+        },
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword71",
+    "name": {
+      "en": "Lawbringer",
+      "zh-TW": "Lawbringer",
+      "zh-CN": "Lawbringer"
+    },
+    "runes": [
+      "Amn",
+      "Lem",
+      "Ko"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "swords"
+    ],
+    "levelReq": 43,
+    "ladderOnly": true,
+    "stats": [
+      {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
+        },
+        "min": 130,
+        "max": 180
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "min": 150,
+        "max": 210
+      },
+      {
+        "key": "aura",
+        "label": {
+          "en": "aura",
+          "zh-TW": "aura",
+          "zh-CN": "aura"
+        },
+        "min": 16,
+        "max": 18
+      },
+      {
+        "key": "hit-skill:Decrepify",
+        "label": {
+          "en": "Chance to Cast on Striking (Decrepify)",
+          "zh-TW": "攻擊時觸發機率 (Decrepify)",
+          "zh-CN": "攻击时触发机率 (Decrepify)"
+        },
+        "min": 20,
+        "max": 15
+      },
+      {
+        "key": "ac-miss",
+        "label": {
+          "en": "Defense vs. Missile",
+          "zh-TW": "對抗遠程攻擊防禦力",
+          "zh-CN": "对抗远程攻击防御力"
+        },
+        "min": 200,
+        "max": 250
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "rip",
+        "label": {
+          "en": "rip",
+          "zh-TW": "rip",
+          "zh-CN": "rip"
+        },
+        "value": 1
+      },
+      {
+        "key": "reduce-ac",
+        "label": {
+          "en": "reduce-ac",
+          "zh-TW": "reduce-ac",
+          "zh-CN": "reduce-ac"
+        },
+        "value": 50
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword72",
+    "name": {
+      "en": "Leaf",
+      "zh-TW": "Leaf",
+      "zh-CN": "Leaf"
+    },
+    "runes": [
+      "Tir",
+      "Ral"
+    ],
+    "sockets": 2,
+    "itemTypes": [
+      "staves"
+    ],
+    "levelReq": 19,
+    "ladderOnly": false,
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "fireskill",
+        "label": {
+          "en": "fireskill",
+          "zh-TW": "fireskill",
+          "zh-CN": "fireskill"
+        },
+        "value": 3
+      },
+      {
+        "key": "ac/lvl",
+        "label": {
+          "en": "Defense per Level",
+          "zh-TW": "每等級防禦力",
+          "zh-CN": "每等级防御力"
+        },
+        "value": 16
+      },
+      {
+        "key": "res-cold",
+        "label": {
+          "en": "Cold Resist %",
+          "zh-TW": "冷凍抗性 %",
+          "zh-CN": "冷冻抗性 %"
+        },
+        "value": 33
+      },
+      {
+        "key": "skill:41",
+        "label": {
+          "en": "Skill Bonus (Inferno)",
+          "zh-TW": "技能加成 (地獄之火)",
+          "zh-CN": "技能加成 (地狱之火)"
+        },
+        "value": 3
+      },
+      {
+        "key": "skill:36",
+        "label": {
+          "en": "Skill Bonus (Fire Bolt)",
+          "zh-TW": "技能加成 (火彈)",
+          "zh-CN": "技能加成 (火弹)"
+        },
+        "value": 3
+      },
+      {
+        "key": "skill:37",
+        "label": {
+          "en": "Skill Bonus (Warmth)",
+          "zh-TW": "技能加成 (暖氣)",
+          "zh-CN": "技能加成 (暖气)"
+        },
+        "value": 3
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword74",
+    "name": {
+      "en": "Lionheart",
+      "zh-TW": "Lionheart",
+      "zh-CN": "Lionheart"
+    },
+    "runes": [
+      "Hel",
+      "Lum",
+      "Fal"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "armors"
+    ],
+    "levelReq": 41,
+    "ladderOnly": false,
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "str",
+        "label": {
+          "en": "Strength",
+          "zh-TW": "力量",
+          "zh-CN": "力量"
+        },
+        "value": 15
+      },
+      {
+        "key": "vit",
+        "label": {
+          "en": "Vitality",
+          "zh-TW": "活力",
+          "zh-CN": "活力"
+        },
+        "value": 20
+      },
+      {
+        "key": "dex",
+        "label": {
+          "en": "Dexterity",
+          "zh-TW": "敏捷",
+          "zh-CN": "敏捷"
+        },
+        "value": 15
+      },
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "value": 20
+      },
+      {
+        "key": "hp",
+        "label": {
+          "en": "Life",
+          "zh-TW": "生命值",
+          "zh-CN": "生命值"
+        },
+        "value": 50
+      },
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "value": 30
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword75",
+    "name": {
+      "en": "Lore",
+      "zh-TW": "Lore",
+      "zh-CN": "Lore"
+    },
+    "runes": [
+      "Ort",
+      "Sol"
+    ],
+    "sockets": 2,
+    "itemTypes": [
+      "helms"
+    ],
+    "levelReq": 27,
+    "ladderOnly": false,
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "enr",
+        "label": {
+          "en": "Energy",
+          "zh-TW": "精力",
+          "zh-CN": "精力"
+        },
+        "value": 10
+      },
+      {
+        "key": "allskills",
+        "label": {
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
+        },
+        "value": 1
+      },
+      {
+        "key": "light",
+        "label": {
+          "en": "Light Radius",
+          "zh-TW": "光環半徑",
+          "zh-CN": "光环半径"
+        },
+        "value": 2
+      },
+      {
+        "key": "mana-kill",
+        "label": {
+          "en": "mana-kill",
+          "zh-TW": "mana-kill",
+          "zh-CN": "mana-kill"
+        },
+        "value": 2
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword81",
+    "name": {
+      "en": "Malice",
+      "zh-TW": "Malice",
+      "zh-CN": "Malice"
+    },
+    "runes": [
+      "Ith",
+      "El",
+      "Eth"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "mele"
+    ],
+    "levelReq": 15,
+    "ladderOnly": false,
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "openwounds",
+        "label": {
+          "en": "Open Wounds %",
+          "zh-TW": "撕裂傷口 %",
+          "zh-CN": "撕裂伤口 %"
+        },
+        "value": 100
+      },
+      {
+        "key": "dmg-ac",
+        "label": {
+          "en": "dmg-ac",
+          "zh-TW": "dmg-ac",
+          "zh-CN": "dmg-ac"
+        },
+        "value": -100
+      },
+      {
+        "key": "noheal",
+        "label": {
+          "en": "noheal",
+          "zh-TW": "noheal",
+          "zh-CN": "noheal"
+        },
+        "value": 1
+      },
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "value": 33
+      },
+      {
+        "key": "light",
+        "label": {
+          "en": "Light Radius",
+          "zh-TW": "光環半徑",
+          "zh-CN": "光环半径"
+        },
+        "value": -1
+      },
+      {
+        "key": "regen",
+        "label": {
+          "en": "Life Regenerated %",
+          "zh-TW": "生命回復 %",
+          "zh-CN": "生命回复 %"
+        },
+        "value": -5
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword82",
+    "name": {
+      "en": "Melody",
+      "zh-TW": "Melody",
+      "zh-CN": "Melody"
+    },
+    "runes": [
+      "Shael",
+      "Ko",
+      "Nef"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "miss"
+    ],
+    "levelReq": 39,
+    "ladderOnly": false,
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "value": 50
+      },
+      {
+        "key": "skilltab:0",
+        "label": {
+          "en": "Skill Tab Bonus",
+          "zh-TW": "技能列加成",
+          "zh-CN": "技能列加成"
+        },
+        "value": 3
+      },
+      {
+        "key": "skill:9",
+        "label": {
+          "en": "Skill Bonus (Critical Strike)",
+          "zh-TW": "技能加成 (致命攻擊)",
+          "zh-CN": "技能加成 (致命攻击)"
+        },
+        "value": 3
+      },
+      {
+        "key": "skill:13",
+        "label": {
+          "en": "Skill Bonus (Dodge)",
+          "zh-TW": "技能加成 (閃避)",
+          "zh-CN": "技能加成 (闪避)"
+        },
+        "value": 3
+      },
+      {
+        "key": "skill:17",
+        "label": {
+          "en": "Skill Bonus (Slow Missiles)",
+          "zh-TW": "技能加成 (慢速箭)",
+          "zh-CN": "技能加成 (慢速箭)"
+        },
+        "value": 3
+      },
+      {
+        "key": "dmg-undead",
+        "label": {
+          "en": "Damage to Undead",
+          "zh-TW": "對不死系傷害",
+          "zh-CN": "对不死系伤害"
+        },
+        "value": 300
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword83",
+    "name": {
+      "en": "Memory",
+      "zh-TW": "Memory",
+      "zh-CN": "Memory"
+    },
+    "runes": [
+      "Lum",
+      "Io",
+      "Sol",
+      "Eth"
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "staves"
+    ],
+    "levelReq": 37,
+    "ladderOnly": false,
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "mana%",
+        "label": {
+          "en": "Increase Maximum Mana %",
+          "zh-TW": "增加最大魔力值 %",
+          "zh-CN": "增加最大魔力值 %"
+        },
+        "value": 20
+      },
+      {
+        "key": "red-mag",
+        "label": {
+          "en": "Magic Damage Reduced",
+          "zh-TW": "減少魔法傷害",
+          "zh-CN": "减少魔法伤害"
+        },
+        "value": 7
+      },
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
+        },
+        "value": 50
+      },
+      {
+        "key": "cast2",
+        "label": {
+          "en": "Faster Cast Rate",
+          "zh-TW": "加快施法速度",
+          "zh-CN": "加快施法速度"
+        },
+        "value": 33
+      },
+      {
+        "key": "sor",
+        "label": {
+          "en": "Sorceress Skill Levels",
+          "zh-TW": "女巫技能等級",
+          "zh-CN": "女巫技能等级"
+        },
+        "value": 3
+      },
+      {
+        "key": "skill:58",
+        "label": {
+          "en": "Skill Bonus (Energy Shield)",
+          "zh-TW": "技能加成 (能量護盾)",
+          "zh-CN": "技能加成 (能量护盾)"
+        },
+        "value": 3
+      },
+      {
+        "key": "skill:42",
+        "label": {
+          "en": "Skill Bonus (Static Field)",
+          "zh-TW": "技能加成 (靜態力場)",
+          "zh-CN": "技能加成 (静态力场)"
+        },
+        "value": 2
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword174",
+    "name": {
+      "en": "Metamorphosis",
+      "zh-TW": "Metamorphosis",
+      "zh-CN": "Metamorphosis"
+    },
+    "runes": [
+      "Io",
+      "Cham",
+      "Fal"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "helms"
+    ],
+    "levelReq": 67,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "hit-skill:Mark of the Bear",
+        "label": {
+          "en": "Chance to Cast on Striking (Mark of the Bear)",
+          "zh-TW": "攻擊時觸發機率 (Mark of the Bear)",
+          "zh-CN": "攻击时触发机率 (Mark of the Bear)"
+        },
+        "min": 100,
+        "max": 1
+      },
+      {
+        "key": "hit-skill:Mark of the Wolf",
+        "label": {
+          "en": "Chance to Cast on Striking (Mark of the Wolf)",
+          "zh-TW": "攻擊時觸發機率 (Mark of the Wolf)",
+          "zh-CN": "攻击时触发机率 (Mark of the Wolf)"
+        },
+        "min": 100,
+        "max": 1
+      },
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
+        },
+        "min": 50,
+        "max": 80
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "skilltab:16",
+        "label": {
+          "en": "Skill Tab Bonus",
+          "zh-TW": "技能列加成",
+          "zh-CN": "技能列加成"
+        },
+        "value": 5
+      },
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "value": 10
+      },
+      {
+        "key": "crush",
+        "label": {
+          "en": "Crushing Blow %",
+          "zh-TW": "破碎打擊 %",
+          "zh-CN": "破碎打击 %"
+        },
+        "value": 25
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword84",
+    "name": {
+      "en": "Mist",
+      "zh-TW": "Mist",
+      "zh-CN": "Mist"
+    },
+    "runes": [
+      "Cham",
+      "Shael",
+      "Gul",
+      "Thul",
+      "Ith"
+    ],
+    "sockets": 5,
+    "itemTypes": [
+      "miss"
+    ],
+    "levelReq": 67,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 325,
+        "max": 375
+      },
+      {
+        "key": "aura",
+        "label": {
+          "en": "aura",
+          "zh-TW": "aura",
+          "zh-CN": "aura"
+        },
+        "min": 8,
+        "max": 12
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "allskills",
+        "label": {
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
+        },
+        "value": 3
+      },
+      {
+        "key": "pierce",
+        "label": {
+          "en": "pierce",
+          "zh-TW": "pierce",
+          "zh-CN": "pierce"
+        },
+        "value": 100
+      },
+      {
+        "key": "vit",
+        "label": {
+          "en": "Vitality",
+          "zh-TW": "活力",
+          "zh-CN": "活力"
+        },
+        "value": 24
+      },
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "value": 40
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword173",
+    "name": {
+      "en": "Mosaic",
+      "zh-TW": "Mosaic",
+      "zh-CN": "Mosaic"
+    },
+    "runes": [
+      "Mal",
+      "Gul",
+      "Amn"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "h2h"
+    ],
+    "levelReq": 53,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 200,
+        "max": 250
+      },
+      {
+        "key": "extra-fire",
+        "label": {
+          "en": "Fire Skill Damage %",
+          "zh-TW": "火焰技能傷害 %",
+          "zh-CN": "火焰技能伤害 %"
+        },
+        "min": 8,
+        "max": 15
+      },
+      {
+        "key": "extra-cold",
+        "label": {
+          "en": "Cold Skill Damage %",
+          "zh-TW": "冷凍技能傷害 %",
+          "zh-CN": "冷冻技能伤害 %"
+        },
+        "min": 8,
+        "max": 15
+      },
+      {
+        "key": "extra-ltng",
+        "label": {
+          "en": "Lightning Skill Damage %",
+          "zh-TW": "閃電技能傷害 %",
+          "zh-CN": "闪电技能伤害 %"
+        },
+        "min": 8,
+        "max": 15
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "skilltab:20",
+        "label": {
+          "en": "Skill Tab Bonus",
+          "zh-TW": "技能列加成",
+          "zh-CN": "技能列加成"
+        },
+        "value": 2
+      },
+      {
+        "key": "charge-noconsume",
+        "label": {
+          "en": "charge-noconsume",
+          "zh-TW": "charge-noconsume",
+          "zh-CN": "charge-noconsume"
+        },
+        "value": 50
+      },
+      {
+        "key": "swing2",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "value": 20
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword87",
+    "name": {
+      "en": "Myth",
+      "zh-TW": "Myth",
+      "zh-CN": "Myth"
+    },
+    "runes": [
+      "Hel",
+      "Amn",
+      "Nef"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "armors"
+    ],
+    "levelReq": 0,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "hit-skill:Taunt",
+        "label": {
+          "en": "Chance to Cast on Striking (Taunt)",
+          "zh-TW": "攻擊時觸發機率 (Taunt)",
+          "zh-CN": "攻击时触发机率 (Taunt)"
+        },
+        "min": 10,
+        "max": 1
+      },
+      {
+        "key": "gethit-skill:Howl",
+        "label": {
+          "en": "Chance to Cast When Struck (Howl)",
+          "zh-TW": "受擊時觸發機率 (Howl)",
+          "zh-CN": "受击时触发机率 (Howl)"
+        },
+        "min": 3,
+        "max": 1
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "bar",
+        "label": {
+          "en": "Barbarian Skill Levels",
+          "zh-TW": "蠻族技能等級",
+          "zh-CN": "蛮族技能等级"
+        },
+        "value": 2
+      },
+      {
+        "key": "regen",
+        "label": {
+          "en": "Life Regenerated %",
+          "zh-TW": "生命回復 %",
+          "zh-CN": "生命回复 %"
+        },
+        "value": 10
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword88",
+    "name": {
+      "en": "Nadir",
+      "zh-TW": "Nadir",
+      "zh-CN": "Nadir"
+    },
+    "runes": [
+      "Nef",
+      "Tir"
+    ],
+    "sockets": 2,
+    "itemTypes": [
+      "helms"
+    ],
+    "levelReq": 13,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "charged:264",
+        "label": {
+          "en": "Charges (Cloak of Shadows)",
+          "zh-TW": "充能次數 (Cloak of Shadows)",
+          "zh-CN": "充能次数 (Cloak of Shadows)"
+        },
+        "min": 9,
+        "max": 13
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
+        },
+        "value": 50
+      },
+      {
+        "key": "ac",
+        "label": {
+          "en": "Defense",
+          "zh-TW": "防禦力",
+          "zh-CN": "防御力"
+        },
+        "value": 10
+      },
+      {
+        "key": "light",
+        "label": {
+          "en": "Light Radius",
+          "zh-TW": "光環半徑",
+          "zh-CN": "光环半径"
+        },
+        "value": -3
+      },
+      {
+        "key": "gold%",
+        "label": {
+          "en": "Gold Find %",
+          "zh-TW": "額外金幣拾取率 %",
+          "zh-CN": "额外金币拾取率 %"
+        },
+        "value": -33
+      },
+      {
+        "key": "str",
+        "label": {
+          "en": "Strength",
+          "zh-TW": "力量",
+          "zh-CN": "力量"
+        },
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword91",
+    "name": {
+      "en": "Oath",
+      "zh-TW": "Oath",
+      "zh-CN": "Oath"
+    },
+    "runes": [
+      "Shael",
+      "Pul",
+      "Mal",
+      "Lum"
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "swords"
+    ],
+    "levelReq": 49,
+    "ladderOnly": true,
+    "stats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 210,
+        "max": 340
+      },
+      {
+        "key": "hit-skill:Bone Spirit",
+        "label": {
+          "en": "Chance to Cast on Striking (Bone Spirit)",
+          "zh-TW": "攻擊時觸發機率 (Bone Spirit)",
+          "zh-CN": "攻击时触发机率 (Bone Spirit)"
+        },
+        "min": 30,
+        "max": 20
+      },
+      {
+        "key": "charged:IronGolem",
+        "label": {
+          "en": "Charges (IronGolem)",
+          "zh-TW": "充能次數 (鐵石魔)",
+          "zh-CN": "充能次数 (铁石魔)"
+        },
+        "min": 14,
+        "max": 17
+      },
+      {
+        "key": "charged:Heart of Wolverine",
+        "label": {
+          "en": "Charges (Heart of Wolverine)",
+          "zh-TW": "充能次數 (狼獾之心)",
+          "zh-CN": "充能次数 (狼獾之心)"
+        },
+        "min": 20,
+        "max": 16
+      },
+      {
+        "key": "abs-mag",
+        "label": {
+          "en": "abs-mag",
+          "zh-TW": "abs-mag",
+          "zh-CN": "abs-mag"
+        },
+        "min": 10,
+        "max": 15
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "swing1",
+        "label": {
+          "en": "swing1",
+          "zh-TW": "swing1",
+          "zh-CN": "swing1"
+        },
+        "value": 30
+      },
+      {
+        "key": "indestruct",
+        "label": {
+          "en": "Indestructible",
+          "zh-TW": "不可破壞",
+          "zh-CN": "不可破坏"
+        },
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword92",
+    "name": {
+      "en": "Obedience",
+      "zh-TW": "Obedience",
+      "zh-CN": "Obedience"
+    },
+    "runes": [
+      "Hel",
+      "Ko",
+      "Thul",
+      "Eth",
+      "Fal"
+    ],
+    "sockets": 5,
+    "itemTypes": [
+      "polearms"
+    ],
+    "levelReq": 41,
+    "ladderOnly": true,
+    "stats": [
+      {
+        "key": "kill-skill",
+        "label": {
+          "en": "kill-skill",
+          "zh-TW": "kill-skill",
+          "zh-CN": "kill-skill"
+        },
+        "min": 30,
+        "max": 21
+      },
+      {
+        "key": "ac",
+        "label": {
+          "en": "Defense",
+          "zh-TW": "防禦力",
+          "zh-CN": "防御力"
+        },
+        "min": 200,
+        "max": 300
+      },
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 20,
+        "max": 30
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "value": 370
+      },
+      {
+        "key": "crush",
+        "label": {
+          "en": "Crushing Blow %",
+          "zh-TW": "破碎打擊 %",
+          "zh-CN": "破碎打击 %"
+        },
+        "value": 40
+      },
+      {
+        "key": "pierce-fire",
+        "label": {
+          "en": "Enemy Fire Resistance %",
+          "zh-TW": "降低敵方火焰抗性 %",
+          "zh-CN": "降低敌方火焰抗性 %"
+        },
+        "value": 25
+      },
+      {
+        "key": "balance3",
+        "label": {
+          "en": "balance3",
+          "zh-TW": "balance3",
+          "zh-CN": "balance3"
+        },
+        "value": 40
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword94",
+    "name": {
+      "en": "Obsession",
+      "zh-TW": "Obsession",
+      "zh-CN": "Obsession"
+    },
+    "runes": [
+      "Zod",
+      "Ist",
+      "Lem",
+      "Lum",
+      "Io",
+      "Nef"
+    ],
+    "sockets": 6,
+    "itemTypes": [
+      "staves"
+    ],
+    "levelReq": 69,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "gethit-skill:Weaken",
+        "label": {
+          "en": "Chance to Cast When Struck (Weaken)",
+          "zh-TW": "受擊時觸發機率 (Weaken)",
+          "zh-CN": "受击时触发机率 (Weaken)"
+        },
+        "min": 24,
+        "max": 10
+      },
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 60,
+        "max": 70
+      },
+      {
+        "key": "hp%",
+        "label": {
+          "en": "Increase Maximum Life %",
+          "zh-TW": "增加最大生命值 %",
+          "zh-CN": "增加最大生命值 %"
+        },
+        "min": 15,
+        "max": 25
+      },
+      {
+        "key": "regen-mana",
+        "label": {
+          "en": "Mana Regenerated %",
+          "zh-TW": "魔力回復 %",
+          "zh-CN": "魔力回复 %"
+        },
+        "min": 15,
+        "max": 30
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "allskills",
+        "label": {
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
+        },
+        "value": 4
+      },
+      {
+        "key": "cast3",
+        "label": {
+          "en": "Faster Cast Rate",
+          "zh-TW": "加快施法速度",
+          "zh-CN": "加快施法速度"
+        },
+        "value": 65
+      },
+      {
+        "key": "balance3",
+        "label": {
+          "en": "balance3",
+          "zh-TW": "balance3",
+          "zh-CN": "balance3"
+        },
+        "value": 60
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword95",
+    "name": {
+      "en": "Passion",
+      "zh-TW": "Passion",
+      "zh-CN": "Passion"
+    },
+    "runes": [
+      "Dol",
+      "Ort",
+      "Eld",
+      "Lem"
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "weap"
+    ],
+    "levelReq": 43,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 160,
+        "max": 210
+      },
+      {
+        "key": "att%",
+        "label": {
+          "en": "Attack Rating %",
+          "zh-TW": "攻擊等級 %",
+          "zh-CN": "攻击等级 %"
+        },
+        "min": 50,
+        "max": 80
+      },
+      {
+        "key": "charged:Heart of Wolverine",
+        "label": {
+          "en": "Charges (Heart of Wolverine)",
+          "zh-TW": "充能次數 (狼獾之心)",
+          "zh-CN": "充能次数 (狼獾之心)"
+        },
+        "min": 12,
+        "max": 3
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "oskill:Zeal",
+        "label": {
+          "en": "Skill Bonus (Zeal)",
+          "zh-TW": "技能加成 (Zeal)",
+          "zh-CN": "技能加成 (Zeal)"
+        },
+        "value": 1
+      },
+      {
+        "key": "oskill:Berserk",
+        "label": {
+          "en": "Skill Bonus (Berserk)",
+          "zh-TW": "技能加成 (狂戰士)",
+          "zh-CN": "技能加成 (狂战士)"
+        },
+        "value": 1
+      },
+      {
+        "key": "swing2",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "value": 25
+      },
+      {
+        "key": "stupidity",
+        "label": {
+          "en": "stupidity",
+          "zh-TW": "stupidity",
+          "zh-CN": "stupidity"
+        },
+        "value": 10
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword97",
+    "name": {
+      "en": "Pattern",
+      "zh-TW": "Pattern",
+      "zh-CN": "Pattern"
+    },
+    "runes": [
+      "Tal",
+      "Ort",
+      "Thul"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "h2h"
+    ],
+    "levelReq": 23,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 40,
+        "max": 80
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "min": 12,
+        "max": 32
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "att%",
+        "label": {
+          "en": "Attack Rating %",
+          "zh-TW": "攻擊等級 %",
+          "zh-CN": "攻击等级 %"
+        },
+        "value": 10
+      },
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "value": 15
+      },
+      {
+        "key": "str",
+        "label": {
+          "en": "Strength",
+          "zh-TW": "力量",
+          "zh-CN": "力量"
+        },
+        "value": 6
+      },
+      {
+        "key": "dex",
+        "label": {
+          "en": "Dexterity",
+          "zh-TW": "敏捷",
+          "zh-CN": "敏捷"
+        },
+        "value": 6
+      },
+      {
+        "key": "block2",
+        "label": {
+          "en": "Faster Block Rate",
+          "zh-TW": "加快格擋速度",
+          "zh-CN": "加快格挡速度"
+        },
+        "value": 30
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword98",
+    "name": {
+      "en": "Peace",
+      "zh-TW": "Peace",
+      "zh-CN": "Peace"
+    },
+    "runes": [
+      "Shael",
+      "Thul",
+      "Amn"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "armors"
+    ],
+    "levelReq": 0,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "hit-skill:Valkyrie",
+        "label": {
+          "en": "Chance to Cast on Striking (Valkyrie)",
+          "zh-TW": "攻擊時觸發機率 (女武神)",
+          "zh-CN": "攻击时触发机率 (女武神)"
+        },
+        "min": 2,
+        "max": 15
+      },
+      {
+        "key": "gethit-skill:Slow Missiles",
+        "label": {
+          "en": "Chance to Cast When Struck (Slow Missiles)",
+          "zh-TW": "受擊時觸發機率 (Slow Missiles)",
+          "zh-CN": "受击时触发机率 (Slow Missiles)"
+        },
+        "min": 4,
+        "max": 5
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "ama",
+        "label": {
+          "en": "Amazon Skill Levels",
+          "zh-TW": "亞馬遜技能等級",
+          "zh-CN": "亚马逊技能等级"
+        },
+        "value": 2
+      },
+      {
+        "key": "oskill:Critical Strike",
+        "label": {
+          "en": "Skill Bonus (Critical Strike)",
+          "zh-TW": "技能加成 (Critical Strike)",
+          "zh-CN": "技能加成 (Critical Strike)"
+        },
+        "value": 2
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword103",
+    "name": {
+      "en": "Phoenix",
+      "zh-TW": "Phoenix",
+      "zh-CN": "Phoenix"
+    },
+    "runes": [
+      "Vex",
+      "Vex",
+      "Lo",
+      "Jah"
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "weap"
+    ],
+    "levelReq": 65,
+    "ladderOnly": true,
+    "stats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 350,
+        "max": 400
+      },
+      {
+        "key": "ac-miss",
+        "label": {
+          "en": "Defense vs. Missile",
+          "zh-TW": "對抗遠程攻擊防禦力",
+          "zh-CN": "对抗远程攻击防御力"
+        },
+        "min": 350,
+        "max": 400
+      },
+      {
+        "key": "hit-skill:Firestorm",
+        "label": {
+          "en": "Chance to Cast on Striking (Firestorm)",
+          "zh-TW": "攻擊時觸發機率 (Firestorm)",
+          "zh-CN": "攻击时触发机率 (Firestorm)"
+        },
+        "min": 40,
+        "max": 22
+      },
+      {
+        "key": "levelup-skill:Blaze",
+        "label": {
+          "en": "Chance to Cast on Level-Up % (Blaze)",
+          "zh-TW": "升級時觸發機率 % (Blaze)",
+          "zh-CN": "升级时触发机率 % (Blaze)"
+        },
+        "min": 100,
+        "max": 40
+      },
+      {
+        "key": "aura",
+        "label": {
+          "en": "aura",
+          "zh-TW": "aura",
+          "zh-CN": "aura"
+        },
+        "min": 10,
+        "max": 15
+      },
+      {
+        "key": "abs-fire",
+        "label": {
+          "en": "Fire Absorb",
+          "zh-TW": "火焰吸收",
+          "zh-CN": "火焰吸收"
+        },
+        "min": 15,
+        "max": 21
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "pierce-fire",
+        "label": {
+          "en": "Enemy Fire Resistance %",
+          "zh-TW": "降低敵方火焰抗性 %",
+          "zh-CN": "降低敌方火焰抗性 %"
+        },
+        "value": 28
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword106",
+    "name": {
+      "en": "Plague",
+      "zh-TW": "瘟疫之",
+      "zh-CN": "瘟疫之"
+    },
+    "runes": [
+      "Cham",
+      "Shael",
+      "Um"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "swords"
+    ],
+    "levelReq": 67,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 220,
+        "max": 320
+      },
+      {
+        "key": "gethit-skill:Lower Resist",
+        "label": {
+          "en": "Chance to Cast When Struck (Lower Resist)",
+          "zh-TW": "受擊時觸發機率 (Lower Resist)",
+          "zh-CN": "受击时触发机率 (Lower Resist)"
+        },
+        "min": 20,
+        "max": 12
+      },
+      {
+        "key": "hit-skill:Poison Nova",
+        "label": {
+          "en": "Chance to Cast on Striking (Poison Nova)",
+          "zh-TW": "攻擊時觸發機率 (Poison Nova)",
+          "zh-CN": "攻击时触发机率 (Poison Nova)"
+        },
+        "min": 25,
+        "max": 15
+      },
+      {
+        "key": "aura",
+        "label": {
+          "en": "aura",
+          "zh-TW": "aura",
+          "zh-CN": "aura"
+        },
+        "min": 13,
+        "max": 17
+      },
+      {
+        "key": "allskills",
+        "label": {
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
+        },
+        "min": 1,
+        "max": 2
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "pierce-pois",
+        "label": {
+          "en": "Enemy Poison Resistance %",
+          "zh-TW": "降低敵方毒素抗性 %",
+          "zh-CN": "降低敌方毒素抗性 %"
+        },
+        "value": 23
+      },
+      {
+        "key": "deadly/lvl",
+        "label": {
+          "en": "Deadly Strike % (Based on Character Level)",
+          "zh-TW": "致命一擊 %（依角色等級）",
+          "zh-CN": "致命一击 %（依角色等级）"
+        },
+        "value": 3
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword109",
+    "name": {
+      "en": "Pride",
+      "zh-TW": "Pride",
+      "zh-CN": "Pride"
+    },
+    "runes": [
+      "Cham",
+      "Sur",
+      "Io",
+      "Lo"
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "polearms"
+    ],
+    "levelReq": 67,
+    "ladderOnly": true,
+    "stats": [
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "min": 50,
+        "max": 280
+      },
+      {
+        "key": "att%",
+        "label": {
+          "en": "Attack Rating %",
+          "zh-TW": "攻擊等級 %",
+          "zh-CN": "攻击等级 %"
+        },
+        "min": 260,
+        "max": 300
+      },
+      {
+        "key": "aura",
+        "label": {
+          "en": "aura",
+          "zh-TW": "aura",
+          "zh-CN": "aura"
+        },
+        "min": 16,
+        "max": 20
+      },
+      {
+        "key": "gethit-skill:Fire Wall",
+        "label": {
+          "en": "Chance to Cast When Struck (Fire Wall)",
+          "zh-TW": "受擊時觸發機率 (Fire Wall)",
+          "zh-CN": "受击时触发机率 (Fire Wall)"
+        },
+        "min": 25,
+        "max": 17
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "dmg-dem/lvl",
+        "label": {
+          "en": "dmg-dem (Based on Character Level)",
+          "zh-TW": "dmg-dem（依角色等級）",
+          "zh-CN": "dmg-dem（依角色等级）"
+        },
+        "value": 8
+      },
+      {
+        "key": "regen",
+        "label": {
+          "en": "Life Regenerated %",
+          "zh-TW": "生命回復 %",
+          "zh-CN": "生命回复 %"
+        },
+        "value": 8
+      },
+      {
+        "key": "gold%/lvl",
+        "label": {
+          "en": "Gold Find % (Based on Character Level)",
+          "zh-TW": "額外金幣拾取率 %（依角色等級）",
+          "zh-CN": "额外金币拾取率 %（依角色等级）"
+        },
+        "value": 15
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword110",
+    "name": {
+      "en": "Principle",
+      "zh-TW": "Principle",
+      "zh-CN": "Principle"
+    },
+    "runes": [
+      "Ral",
+      "Gul",
+      "Eld"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "armors"
+    ],
+    "levelReq": 0,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "hit-skill:Holy Bolt",
+        "label": {
+          "en": "Chance to Cast on Striking (Holy Bolt)",
+          "zh-TW": "攻擊時觸發機率 (Holy Bolt)",
+          "zh-CN": "攻击时触发机率 (Holy Bolt)"
+        },
+        "min": 100,
+        "max": 5
+      },
+      {
+        "key": "hp",
+        "label": {
+          "en": "Life",
+          "zh-TW": "生命值",
+          "zh-CN": "生命值"
+        },
+        "min": 100,
+        "max": 150
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "pal",
+        "label": {
+          "en": "Paladin Skill Levels",
+          "zh-TW": "聖騎士技能等級",
+          "zh-CN": "圣骑士技能等级"
+        },
+        "value": 2
+      },
+      {
+        "key": "dmg-undead",
+        "label": {
+          "en": "Damage to Undead",
+          "zh-TW": "對不死系傷害",
+          "zh-CN": "对不死系伤害"
+        },
+        "value": 50
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword112",
+    "name": {
+      "en": "Prudence",
+      "zh-TW": "Prudence",
+      "zh-CN": "Prudence"
+    },
+    "runes": [
+      "Mal",
+      "Tir"
+    ],
+    "sockets": 2,
+    "itemTypes": [
+      "armors"
+    ],
+    "levelReq": 49,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
+        },
+        "min": 140,
+        "max": 170
+      },
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 25,
+        "max": 35
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "red-mag",
+        "label": {
+          "en": "Magic Damage Reduced",
+          "zh-TW": "減少魔法傷害",
+          "zh-CN": "减少魔法伤害"
+        },
+        "value": 10
+      },
+      {
+        "key": "red-dmg",
+        "label": {
+          "en": "Damage Reduced",
+          "zh-TW": "減少傷害",
+          "zh-CN": "减少伤害"
+        },
+        "value": 3
+      },
+      {
+        "key": "balance2",
+        "label": {
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
+        },
+        "value": 25
+      },
+      {
+        "key": "rep-dur",
+        "label": {
+          "en": "Repairs Durability",
+          "zh-TW": "修復耐久度",
+          "zh-CN": "修复耐久度"
+        },
+        "value": 25
+      },
+      {
+        "key": "light",
+        "label": {
+          "en": "Light Radius",
+          "zh-TW": "光環半徑",
+          "zh-CN": "光环半径"
+        },
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword116",
+    "name": {
+      "en": "Radiance",
+      "zh-TW": "Radiance",
+      "zh-CN": "Radiance"
+    },
+    "runes": [
+      "Nef",
+      "Sol",
+      "Ith"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "helms"
+    ],
+    "levelReq": 27,
+    "ladderOnly": false,
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "light",
+        "label": {
+          "en": "Light Radius",
+          "zh-TW": "光環半徑",
+          "zh-CN": "光环半径"
+        },
+        "value": 5
+      },
+      {
+        "key": "enr",
+        "label": {
+          "en": "Energy",
+          "zh-TW": "精力",
+          "zh-CN": "精力"
+        },
+        "value": 10
+      },
+      {
+        "key": "vit",
+        "label": {
+          "en": "Vitality",
+          "zh-TW": "活力",
+          "zh-CN": "活力"
+        },
+        "value": 10
+      },
+      {
+        "key": "red-mag",
+        "label": {
+          "en": "Magic Damage Reduced",
+          "zh-TW": "減少魔法傷害",
+          "zh-CN": "减少魔法伤害"
+        },
+        "value": 3
+      },
+      {
+        "key": "mana",
+        "label": {
+          "en": "Mana",
+          "zh-TW": "魔力值",
+          "zh-CN": "魔力值"
+        },
+        "value": 33
+      },
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
+        },
+        "value": 75
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword117",
+    "name": {
+      "en": "Rain",
+      "zh-TW": "Rain",
+      "zh-CN": "Rain"
+    },
+    "runes": [
+      "Ort",
+      "Mal",
+      "Ith"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "armors"
+    ],
+    "levelReq": 0,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "hit-skill:Twister",
+        "label": {
+          "en": "Chance to Cast on Striking (Twister)",
+          "zh-TW": "攻擊時觸發機率 (Twister)",
+          "zh-CN": "攻击时触发机率 (Twister)"
+        },
+        "min": 5,
+        "max": 15
+      },
+      {
+        "key": "gethit-skill:Cyclone Armor",
+        "label": {
+          "en": "Chance to Cast When Struck (Cyclone Armor)",
+          "zh-TW": "受擊時觸發機率 (Cyclone Armor)",
+          "zh-CN": "受击时触发机率 (Cyclone Armor)"
+        },
+        "min": 5,
+        "max": 15
+      },
+      {
+        "key": "mana",
+        "label": {
+          "en": "Mana",
+          "zh-TW": "魔力值",
+          "zh-CN": "魔力值"
+        },
+        "min": 100,
+        "max": 150
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "dru",
+        "label": {
+          "en": "Druid Skill Levels",
+          "zh-TW": "德魯伊技能等級",
+          "zh-CN": "德鲁伊技能等级"
+        },
+        "value": 2
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword120",
+    "name": {
+      "en": "Rhyme",
+      "zh-TW": "Rhyme",
+      "zh-CN": "Rhyme"
+    },
+    "runes": [
+      "Shael",
+      "Eth"
+    ],
+    "sockets": 2,
+    "itemTypes": [
+      "shld"
+    ],
+    "levelReq": 29,
+    "ladderOnly": false,
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "block2",
+        "label": {
+          "en": "Faster Block Rate",
+          "zh-TW": "加快格擋速度",
+          "zh-CN": "加快格挡速度"
+        },
+        "value": 20
+      },
+      {
+        "key": "block",
+        "label": {
+          "en": "Increased Chance of Blocking %",
+          "zh-TW": "格擋機率 %",
+          "zh-CN": "格挡机率 %"
+        },
+        "value": 20
+      },
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "value": 25
+      },
+      {
+        "key": "nofreeze",
+        "label": {
+          "en": "nofreeze",
+          "zh-TW": "nofreeze",
+          "zh-CN": "nofreeze"
+        },
+        "value": 1
+      },
+      {
+        "key": "gold%",
+        "label": {
+          "en": "Gold Find %",
+          "zh-TW": "額外金幣拾取率 %",
+          "zh-CN": "额外金币拾取率 %"
+        },
+        "value": 50
+      },
+      {
+        "key": "mag%",
+        "label": {
+          "en": "Magic Find %",
+          "zh-TW": "額外魔法物品尋獲率 %",
+          "zh-CN": "额外魔法物品寻获率 %"
+        },
+        "value": 25
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword121",
+    "name": {
+      "en": "Rift",
+      "zh-TW": "破開之",
+      "zh-CN": "破开之"
+    },
+    "runes": [
+      "Hel",
+      "Ko",
+      "Lem",
+      "Gul"
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "polearms"
+    ],
+    "levelReq": 53,
+    "ladderOnly": true,
+    "stats": [
+      {
+        "key": "dmg-mag",
+        "label": {
+          "en": "dmg-mag",
+          "zh-TW": "dmg-mag",
+          "zh-CN": "dmg-mag"
+        },
+        "min": 160,
+        "max": 250
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "min": 60,
+        "max": 180
+      },
+      {
+        "key": "hit-skill:Tornado",
+        "label": {
+          "en": "Chance to Cast on Striking (Tornado)",
+          "zh-TW": "攻擊時觸發機率 (Tornado)",
+          "zh-CN": "攻击时触发机率 (Tornado)"
+        },
+        "min": 20,
+        "max": 16
+      },
+      {
+        "key": "att-skill:Frozen Orb",
+        "label": {
+          "en": "Attack Rating (skill) (Frozen Orb)",
+          "zh-TW": "攻擊等級（技能） (Frozen Orb)",
+          "zh-CN": "攻击等级（技能） (Frozen Orb)"
+        },
+        "min": 16,
+        "max": 21
+      },
+      {
+        "key": "charged:Iron Maiden",
+        "label": {
+          "en": "Charges (Iron Maiden)",
+          "zh-TW": "充能次數 (Iron Maiden)",
+          "zh-CN": "充能次数 (Iron Maiden)"
+        },
+        "min": 40,
+        "max": 15
+      },
+      {
+        "key": "all-stats",
+        "label": {
+          "en": "all-stats",
+          "zh-TW": "all-stats",
+          "zh-CN": "all-stats"
+        },
+        "min": 5,
+        "max": 10
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "dmg-to-mana",
+        "label": {
+          "en": "Damage Taken Goes to Mana",
+          "zh-TW": "承受傷害轉換為魔力",
+          "zh-CN": "承受伤害转换为魔力"
+        },
+        "value": 38
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword182",
+    "name": {
+      "en": "Ritual",
+      "zh-TW": "Ritual",
+      "zh-CN": "Ritual"
+    },
+    "runes": [
+      "Amn",
+      "Shael",
+      "Ohm"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "daggers"
+    ],
+    "levelReq": 0,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "gethit-skill:Sigil Death",
+        "label": {
+          "en": "Chance to Cast When Struck (Sigil Death)",
+          "zh-TW": "受擊時觸發機率 (Sigil Death)",
+          "zh-CN": "受击时触发机率 (Sigil Death)"
+        },
+        "min": 13,
+        "max": 1
+      },
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 200,
+        "max": 270
+      },
+      {
+        "key": "dmg-demon",
+        "label": {
+          "en": "dmg-demon",
+          "zh-TW": "dmg-demon",
+          "zh-CN": "dmg-demon"
+        },
+        "min": 150,
+        "max": 250
+      },
+      {
+        "key": "att%",
+        "label": {
+          "en": "Attack Rating %",
+          "zh-TW": "攻擊等級 %",
+          "zh-CN": "攻击等级 %"
+        },
+        "min": 200,
+        "max": 260
+      },
+      {
+        "key": "heal-kill",
+        "label": {
+          "en": "heal-kill",
+          "zh-TW": "heal-kill",
+          "zh-CN": "heal-kill"
+        },
+        "min": 3,
+        "max": 5
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "swing1",
+        "label": {
+          "en": "swing1",
+          "zh-TW": "swing1",
+          "zh-CN": "swing1"
+        },
+        "value": 20
+      },
+      {
+        "key": "rip",
+        "label": {
+          "en": "rip",
+          "zh-TW": "rip",
+          "zh-CN": "rip"
+        },
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword122",
+    "name": {
+      "en": "Sanctuary",
+      "zh-TW": "Sanctuary",
+      "zh-CN": "Sanctuary"
+    },
+    "runes": [
+      "Ko",
+      "Ko",
+      "Mal"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "shld"
+    ],
+    "levelReq": 49,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
+        },
+        "min": 130,
+        "max": 160
+      },
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 50,
+        "max": 70
+      },
+      {
+        "key": "charged:Slow Missiles",
+        "label": {
+          "en": "Charges (Slow Missiles)",
+          "zh-TW": "充能次數 (Slow Missiles)",
+          "zh-CN": "充能次数 (Slow Missiles)"
+        },
+        "min": 60,
+        "max": 12
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "block",
+        "label": {
+          "en": "Increased Chance of Blocking %",
+          "zh-TW": "格擋機率 %",
+          "zh-CN": "格挡机率 %"
+        },
+        "value": 20
+      },
+      {
+        "key": "block2",
+        "label": {
+          "en": "Faster Block Rate",
+          "zh-TW": "加快格擋速度",
+          "zh-CN": "加快格挡速度"
+        },
+        "value": 20
+      },
+      {
+        "key": "ac-miss",
+        "label": {
+          "en": "Defense vs. Missile",
+          "zh-TW": "對抗遠程攻擊防禦力",
+          "zh-CN": "对抗远程攻击防御力"
+        },
+        "value": 250
+      },
+      {
+        "key": "balance2",
+        "label": {
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
+        },
+        "value": 20
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword126",
+    "name": {
+      "en": "Silence",
+      "zh-TW": "Silence",
+      "zh-CN": "Silence"
+    },
+    "runes": [
+      "Dol",
+      "Eld",
+      "Hel",
+      "Ist",
+      "Tir",
+      "Vex"
+    ],
+    "sockets": 6,
+    "itemTypes": [
+      "weap"
+    ],
+    "levelReq": 55,
+    "ladderOnly": false,
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "manasteal",
+        "label": {
+          "en": "Mana Steal %",
+          "zh-TW": "魔力竊取 %",
+          "zh-CN": "魔力窃取 %"
+        },
+        "value": 4
+      },
+      {
+        "key": "stupidity",
+        "label": {
+          "en": "stupidity",
+          "zh-TW": "stupidity",
+          "zh-CN": "stupidity"
+        },
+        "value": 33
+      },
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "value": 200
+      },
+      {
+        "key": "swing2",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "value": 20
+      },
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "value": 75
+      },
+      {
+        "key": "allskills",
+        "label": {
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
+        },
+        "value": 2
+      },
+      {
+        "key": "balance2",
+        "label": {
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
+        },
+        "value": 20
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword128",
+    "name": {
+      "en": "Smoke",
+      "zh-TW": "Smoke",
+      "zh-CN": "Smoke"
+    },
+    "runes": [
+      "Nef",
+      "Lum"
+    ],
+    "sockets": 2,
+    "itemTypes": [
+      "armors"
+    ],
+    "levelReq": 37,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "charged:72",
+        "label": {
+          "en": "Charges (Weaken)",
+          "zh-TW": "充能次數 (削弱)",
+          "zh-CN": "充能次数 (削弱)"
+        },
+        "min": 18,
+        "max": 6
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "ac-miss",
+        "label": {
+          "en": "Defense vs. Missile",
+          "zh-TW": "對抗遠程攻擊防禦力",
+          "zh-CN": "对抗远程攻击防御力"
+        },
+        "value": 250
+      },
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
+        },
+        "value": 75
+      },
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "value": 50
+      },
+      {
+        "key": "balance2",
+        "label": {
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
+        },
+        "value": 20
+      },
+      {
+        "key": "light",
+        "label": {
+          "en": "Light Radius",
+          "zh-TW": "光環半徑",
+          "zh-CN": "光环半径"
+        },
+        "value": -1
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword130",
+    "name": {
+      "en": "Spirit",
+      "zh-TW": "精神之",
+      "zh-CN": "精神之"
+    },
+    "runes": [
+      "Tal",
+      "Thul",
+      "Ort",
+      "Amn"
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "swords"
+    ],
+    "levelReq": 25,
+    "ladderOnly": true,
+    "stats": [
+      {
+        "key": "mana",
+        "label": {
+          "en": "Mana",
+          "zh-TW": "魔力值",
+          "zh-CN": "魔力值"
+        },
+        "min": 89,
+        "max": 112
+      },
+      {
+        "key": "cast3",
+        "label": {
+          "en": "Faster Cast Rate",
+          "zh-TW": "加快施法速度",
+          "zh-CN": "加快施法速度"
+        },
+        "min": 25,
+        "max": 35
+      },
+      {
+        "key": "abs-mag",
+        "label": {
+          "en": "abs-mag",
+          "zh-TW": "abs-mag",
+          "zh-CN": "abs-mag"
+        },
+        "min": 3,
+        "max": 8
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "balance3",
+        "label": {
+          "en": "balance3",
+          "zh-TW": "balance3",
+          "zh-CN": "balance3"
+        },
+        "value": 55
+      },
+      {
+        "key": "ac-miss",
+        "label": {
+          "en": "Defense vs. Missile",
+          "zh-TW": "對抗遠程攻擊防禦力",
+          "zh-CN": "对抗远程攻击防御力"
+        },
+        "value": 250
+      },
+      {
+        "key": "vit",
+        "label": {
+          "en": "Vitality",
+          "zh-TW": "活力",
+          "zh-CN": "活力"
+        },
+        "value": 22
+      },
+      {
+        "key": "allskills",
+        "label": {
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
+        },
+        "value": 2
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword131",
+    "name": {
+      "en": "Splendor",
+      "zh-TW": "Splendor",
+      "zh-CN": "Splendor"
+    },
+    "runes": [
+      "Eth",
+      "Lum"
+    ],
+    "sockets": 2,
+    "itemTypes": [
+      "shld"
+    ],
+    "levelReq": 37,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
+        },
+        "min": 60,
+        "max": 100
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "light",
+        "label": {
+          "en": "Light Radius",
+          "zh-TW": "光環半徑",
+          "zh-CN": "光环半径"
+        },
+        "value": 3
+      },
+      {
+        "key": "gold%",
+        "label": {
+          "en": "Gold Find %",
+          "zh-TW": "額外金幣拾取率 %",
+          "zh-CN": "额外金币拾取率 %"
+        },
+        "value": 50
+      },
+      {
+        "key": "mag%",
+        "label": {
+          "en": "Magic Find %",
+          "zh-TW": "額外魔法物品尋獲率 %",
+          "zh-CN": "额外魔法物品寻获率 %"
+        },
+        "value": 20
+      },
+      {
+        "key": "block2",
+        "label": {
+          "en": "Faster Block Rate",
+          "zh-TW": "加快格擋速度",
+          "zh-CN": "加快格挡速度"
+        },
+        "value": 20
+      },
+      {
+        "key": "cast2",
+        "label": {
+          "en": "Faster Cast Rate",
+          "zh-TW": "加快施法速度",
+          "zh-CN": "加快施法速度"
+        },
+        "value": 10
+      },
+      {
+        "key": "allskills",
+        "label": {
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
+        },
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword133",
+    "name": {
+      "en": "Stealth",
+      "zh-TW": "Stealth",
+      "zh-CN": "Stealth"
+    },
+    "runes": [
+      "Tal",
+      "Eth"
+    ],
+    "sockets": 2,
+    "itemTypes": [
+      "armors"
+    ],
+    "levelReq": 17,
+    "ladderOnly": false,
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "red-mag",
+        "label": {
+          "en": "Magic Damage Reduced",
+          "zh-TW": "減少魔法傷害",
+          "zh-CN": "减少魔法伤害"
+        },
+        "value": 3
+      },
+      {
+        "key": "dex",
+        "label": {
+          "en": "Dexterity",
+          "zh-TW": "敏捷",
+          "zh-CN": "敏捷"
+        },
+        "value": 6
+      },
+      {
+        "key": "stam",
+        "label": {
+          "en": "Stamina",
+          "zh-TW": "耐力",
+          "zh-CN": "耐力"
+        },
+        "value": 15
+      },
+      {
+        "key": "move2",
+        "label": {
+          "en": "Faster Run/Walk %",
+          "zh-TW": "加快跑走速度 %",
+          "zh-CN": "加快跑走速度 %"
+        },
+        "value": 25
+      },
+      {
+        "key": "cast2",
+        "label": {
+          "en": "Faster Cast Rate",
+          "zh-TW": "加快施法速度",
+          "zh-CN": "加快施法速度"
+        },
+        "value": 25
+      },
+      {
+        "key": "balance2",
+        "label": {
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
+        },
+        "value": 25
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword134",
+    "name": {
+      "en": "Steel",
+      "zh-TW": "鋼之",
+      "zh-CN": "钢之"
+    },
+    "runes": [
+      "Tir",
+      "El"
+    ],
+    "sockets": 2,
+    "itemTypes": [
+      "swords"
+    ],
+    "levelReq": 13,
+    "ladderOnly": false,
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "swing2",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "value": 25
+      },
+      {
+        "key": "dmg-min",
+        "label": {
+          "en": "Minimum Damage",
+          "zh-TW": "最小傷害",
+          "zh-CN": "最小伤害"
+        },
+        "value": 3
+      },
+      {
+        "key": "dmg-max",
+        "label": {
+          "en": "Maximum Damage",
+          "zh-TW": "最大傷害",
+          "zh-CN": "最大伤害"
+        },
+        "value": 3
+      },
+      {
+        "key": "openwounds",
+        "label": {
+          "en": "Open Wounds %",
+          "zh-TW": "撕裂傷口 %",
+          "zh-CN": "撕裂伤口 %"
+        },
+        "value": 50
+      },
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "value": 20
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword137",
+    "name": {
+      "en": "Stone",
+      "zh-TW": "石塊之",
+      "zh-CN": "石块之"
+    },
+    "runes": [
+      "Shael",
+      "Um",
+      "Pul",
+      "Lum"
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "armors"
+    ],
+    "levelReq": 47,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
+        },
+        "min": 220,
+        "max": 260
+      },
+      {
+        "key": "charged:Molten Boulder",
+        "label": {
+          "en": "Charges (Molten Boulder)",
+          "zh-TW": "充能次數 (Molten Boulder)",
+          "zh-CN": "充能次数 (Molten Boulder)"
+        },
+        "min": 80,
+        "max": 16
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "charged:Clay Golem",
+        "label": {
+          "en": "Charges (Clay Golem)",
+          "zh-TW": "充能次數 (Clay Golem)",
+          "zh-CN": "充能次数 (Clay Golem)"
+        },
+        "value": 16
+      },
+      {
+        "key": "ac-miss",
+        "label": {
+          "en": "Defense vs. Missile",
+          "zh-TW": "對抗遠程攻擊防禦力",
+          "zh-CN": "对抗远程攻击防御力"
+        },
+        "value": 300
+      },
+      {
+        "key": "str",
+        "label": {
+          "en": "Strength",
+          "zh-TW": "力量",
+          "zh-CN": "力量"
+        },
+        "value": 16
+      },
+      {
+        "key": "vit",
+        "label": {
+          "en": "Vitality",
+          "zh-TW": "活力",
+          "zh-CN": "活力"
+        },
+        "value": 16
+      },
+      {
+        "key": "balance2",
+        "label": {
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
+        },
+        "value": 40
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword139",
+    "name": {
+      "en": "Strength",
+      "zh-TW": "Strength",
+      "zh-CN": "Strength"
+    },
+    "runes": [
+      "Amn",
+      "Tir"
+    ],
+    "sockets": 2,
+    "itemTypes": [
+      "mele"
+    ],
+    "levelReq": 25,
+    "ladderOnly": false,
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "str",
+        "label": {
+          "en": "Strength",
+          "zh-TW": "力量",
+          "zh-CN": "力量"
+        },
+        "value": 20
+      },
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "value": 35
+      },
+      {
+        "key": "vit",
+        "label": {
+          "en": "Vitality",
+          "zh-TW": "活力",
+          "zh-CN": "活力"
+        },
+        "value": 10
+      },
+      {
+        "key": "crush",
+        "label": {
+          "en": "Crushing Blow %",
+          "zh-TW": "破碎打擊 %",
+          "zh-CN": "破碎打击 %"
+        },
+        "value": 25
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword176",
+    "name": {
+      "en": "Temper",
+      "zh-TW": "Temper",
+      "zh-CN": "Temper"
+    },
+    "runes": [
+      "Shael",
+      "Io",
+      "Ral"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "helms"
+    ],
+    "levelReq": 35,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
+        },
+        "min": 75,
+        "max": 100
+      },
+      {
+        "key": "res-fire",
+        "label": {
+          "en": "Fire Resist %",
+          "zh-TW": "火焰抗性 %",
+          "zh-CN": "火焰抗性 %"
+        },
+        "min": 10,
+        "max": 30
+      },
+      {
+        "key": "abs-fire%",
+        "label": {
+          "en": "abs-fire%",
+          "zh-TW": "abs-fire%",
+          "zh-CN": "abs-fire%"
+        },
+        "min": 10,
+        "max": 15
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "hp%",
+        "label": {
+          "en": "Increase Maximum Life %",
+          "zh-TW": "增加最大生命值 %",
+          "zh-CN": "增加最大生命值 %"
+        },
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword148",
+    "name": {
+      "en": "Treachery",
+      "zh-TW": "Treachery",
+      "zh-CN": "Treachery"
+    },
+    "runes": [
+      "Shael",
+      "Thul",
+      "Lem"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "armors"
+    ],
+    "levelReq": 0,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "hit-skill:Venom",
+        "label": {
+          "en": "Chance to Cast on Striking (Venom)",
+          "zh-TW": "攻擊時觸發機率 (Venom)",
+          "zh-CN": "攻击时触发机率 (Venom)"
+        },
+        "min": 25,
+        "max": 15
+      },
+      {
+        "key": "gethit-skill:Fade",
+        "label": {
+          "en": "Chance to Cast When Struck (Fade)",
+          "zh-TW": "受擊時觸發機率 (Fade)",
+          "zh-CN": "受击时触发机率 (Fade)"
+        },
+        "min": 5,
+        "max": 15
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "ass",
+        "label": {
+          "en": "Assassin Skill Levels",
+          "zh-TW": "刺客技能等級",
+          "zh-CN": "刺客技能等级"
+        },
+        "value": 2
+      },
+      {
+        "key": "swing2",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "value": 45
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword151",
+    "name": {
+      "en": "Unbending Will",
+      "zh-TW": "Unbending Will",
+      "zh-CN": "Unbending Will"
+    },
+    "runes": [
+      "Fal",
+      "Io",
+      "Ith",
+      "Eld",
+      "El",
+      "Hel"
+    ],
+    "sockets": 6,
+    "itemTypes": [
+      "swords"
+    ],
+    "levelReq": 41,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "swing2",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "min": 20,
+        "max": 30
+      },
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 300,
+        "max": 350
+      },
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "min": 8,
+        "max": 10
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "skilltab:12",
+        "label": {
+          "en": "Skill Tab Bonus",
+          "zh-TW": "技能列加成",
+          "zh-CN": "技能列加成"
+        },
+        "value": 3
+      },
+      {
+        "key": "hit-skill:Taunt",
+        "label": {
+          "en": "Chance to Cast on Striking (Taunt)",
+          "zh-TW": "攻擊時觸發機率 (Taunt)",
+          "zh-CN": "攻击时触发机率 (Taunt)"
+        },
+        "value": 18
+      },
+      {
+        "key": "red-dmg",
+        "label": {
+          "en": "Damage Reduced",
+          "zh-TW": "減少傷害",
+          "zh-CN": "减少伤害"
+        },
+        "value": 8
+      },
+      {
+        "key": "noheal",
+        "label": {
+          "en": "noheal",
+          "zh-TW": "noheal",
+          "zh-CN": "noheal"
+        },
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword154",
+    "name": {
+      "en": "Venom",
+      "zh-TW": "Venom",
+      "zh-CN": "Venom"
+    },
+    "runes": [
+      "Tal",
+      "Dol",
+      "Mal"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "weap"
+    ],
+    "levelReq": 49,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "charged:83",
+        "label": {
+          "en": "Charges (Poison Explosion)",
+          "zh-TW": "充能次數 (毒爆)",
+          "zh-CN": "充能次数 (毒爆)"
+        },
+        "min": 27,
+        "max": 15
+      },
+      {
+        "key": "charged:92",
+        "label": {
+          "en": "Charges (Poison Nova)",
+          "zh-TW": "充能次數 (劇毒新星)",
+          "zh-CN": "充能次数 (剧毒新星)"
+        },
+        "min": 11,
+        "max": 13
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "dmg-pois",
+        "label": {
+          "en": "Poison Damage",
+          "zh-TW": "毒素傷害",
+          "zh-CN": "毒素伤害"
+        },
+        "value": 312
+      },
+      {
+        "key": "ignore-ac",
+        "label": {
+          "en": "Ignore Target Defense",
+          "zh-TW": "無視目標防禦力",
+          "zh-CN": "无视目标防御力"
+        },
+        "value": 1
+      },
+      {
+        "key": "manasteal",
+        "label": {
+          "en": "Mana Steal %",
+          "zh-TW": "魔力竊取 %",
+          "zh-CN": "魔力窃取 %"
+        },
+        "value": 7
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword181",
+    "name": {
+      "en": "Vigilance",
+      "zh-TW": "Vigilance",
+      "zh-CN": "Vigilance"
+    },
+    "runes": [
+      "Dol",
+      "Gul"
+    ],
+    "sockets": 2,
+    "itemTypes": [
+      "grimoires"
+    ],
+    "levelReq": 0,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "gethit-skill:Ring of Fire",
+        "label": {
+          "en": "Chance to Cast When Struck (Ring of Fire)",
+          "zh-TW": "受擊時觸發機率 (Ring of Fire)",
+          "zh-CN": "受击时触发机率 (Ring of Fire)"
+        },
+        "min": 5,
+        "max": 10
+      },
+      {
+        "key": "hp",
+        "label": {
+          "en": "Life",
+          "zh-TW": "生命值",
+          "zh-CN": "生命值"
+        },
+        "min": 20,
+        "max": 40
+      },
+      {
+        "key": "mana",
+        "label": {
+          "en": "Mana",
+          "zh-TW": "魔力值",
+          "zh-CN": "魔力值"
+        },
+        "min": 20,
+        "max": 40
+      },
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 25,
+        "max": 35
+      },
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
+        },
+        "min": 75,
+        "max": 100
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "move2",
+        "label": {
+          "en": "Faster Run/Walk %",
+          "zh-TW": "加快跑走速度 %",
+          "zh-CN": "加快跑走速度 %"
+        },
+        "value": 10
+      },
+      {
+        "key": "block2",
+        "label": {
+          "en": "Faster Block Rate",
+          "zh-TW": "加快格擋速度",
+          "zh-CN": "加快格挡速度"
+        },
+        "value": 30
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword99",
+    "name": {
+      "en": "Voice of Reason",
+      "zh-TW": "Voice of Reason",
+      "zh-CN": "Voice of Reason"
+    },
+    "runes": [
+      "Lem",
+      "Ko",
+      "El",
+      "Eld"
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "swords"
+    ],
+    "levelReq": 43,
+    "ladderOnly": true,
+    "stats": [
+      {
+        "key": "dmg-demon",
+        "label": {
+          "en": "dmg-demon",
+          "zh-TW": "dmg-demon",
+          "zh-CN": "dmg-demon"
+        },
+        "min": 220,
+        "max": 350
+      },
+      {
+        "key": "dmg-undead",
+        "label": {
+          "en": "Damage to Undead",
+          "zh-TW": "對不死系傷害",
+          "zh-CN": "对不死系伤害"
+        },
+        "min": 280,
+        "max": 300
+      },
+      {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
+        },
+        "min": 100,
+        "max": 220
+      },
+      {
+        "key": "hit-skill:Ice Blast",
+        "label": {
+          "en": "Chance to Cast on Striking (Ice Blast)",
+          "zh-TW": "攻擊時觸發機率 (Ice Blast)",
+          "zh-CN": "攻击时触发机率 (Ice Blast)"
+        },
+        "min": 18,
+        "max": 20
+      },
+      {
+        "key": "hit-skill:Frozen Orb",
+        "label": {
+          "en": "Chance to Cast on Striking (Frozen Orb)",
+          "zh-TW": "攻擊時觸發機率 (Frozen Orb)",
+          "zh-CN": "攻击时触发机率 (Frozen Orb)"
+        },
+        "min": 15,
+        "max": 13
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "pierce-cold",
+        "label": {
+          "en": "Enemy Cold Resistance %",
+          "zh-TW": "降低敵方冷凍抗性 %",
+          "zh-CN": "降低敌方冷冻抗性 %"
+        },
+        "value": 24
+      },
+      {
+        "key": "nofreeze",
+        "label": {
+          "en": "nofreeze",
+          "zh-TW": "nofreeze",
+          "zh-CN": "nofreeze"
+        },
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword157",
+    "name": {
+      "en": "Void",
+      "zh-TW": "Void",
+      "zh-CN": "Void"
+    },
+    "runes": [
+      "Thul",
+      "Zod",
+      "Ist"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "daggers"
+    ],
+    "levelReq": 0,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "extra-mag",
+        "label": {
+          "en": "Magic Skill Damage %",
+          "zh-TW": "魔法技能傷害 %",
+          "zh-CN": "魔法技能伤害 %"
+        },
+        "min": 10,
+        "max": 15
+      },
+      {
+        "key": "oskill:Abyss",
+        "label": {
+          "en": "Skill Bonus (Abyss)",
+          "zh-TW": "技能加成 (Abyss)",
+          "zh-CN": "技能加成 (Abyss)"
+        },
+        "min": 1,
+        "max": 3
+      },
+      {
+        "key": "all-stats",
+        "label": {
+          "en": "all-stats",
+          "zh-TW": "all-stats",
+          "zh-CN": "all-stats"
+        },
+        "min": 8,
+        "max": 12
+      },
+      {
+        "key": "charged:Decrepify",
+        "label": {
+          "en": "Charges (Decrepify)",
+          "zh-TW": "充能次數 (Decrepify)",
+          "zh-CN": "充能次数 (Decrepify)"
+        },
+        "min": 35,
+        "max": 4
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "allskills",
+        "label": {
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
+        },
+        "value": 2
+      },
+      {
+        "key": "cast2",
+        "label": {
+          "en": "Faster Cast Rate",
+          "zh-TW": "加快施法速度",
+          "zh-CN": "加快施法速度"
+        },
+        "value": 40
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword160",
+    "name": {
+      "en": "Wealth",
+      "zh-TW": "Wealth",
+      "zh-CN": "Wealth"
+    },
+    "runes": [
+      "Lm",
+      "Ko",
+      "Tir"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "armors"
+    ],
+    "levelReq": 43,
+    "ladderOnly": false,
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "gold%",
+        "label": {
+          "en": "Gold Find %",
+          "zh-TW": "額外金幣拾取率 %",
+          "zh-CN": "额外金币拾取率 %"
+        },
+        "value": 250
+      },
+      {
+        "key": "mag%",
+        "label": {
+          "en": "Magic Find %",
+          "zh-TW": "額外魔法物品尋獲率 %",
+          "zh-CN": "额外魔法物品寻获率 %"
+        },
+        "value": 100
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword162",
+    "name": {
+      "en": "White",
+      "zh-TW": "White",
+      "zh-CN": "White"
+    },
+    "runes": [
+      "Dol",
+      "Io"
+    ],
+    "sockets": 2,
+    "itemTypes": [
+      "wands"
+    ],
+    "levelReq": 35,
+    "ladderOnly": false,
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "skilltab:7",
+        "label": {
+          "en": "Skill Tab Bonus",
+          "zh-TW": "技能列加成",
+          "zh-CN": "技能列加成"
+        },
+        "value": 3
+      },
+      {
+        "key": "red-mag",
+        "label": {
+          "en": "Magic Damage Reduced",
+          "zh-TW": "減少魔法傷害",
+          "zh-CN": "减少魔法伤害"
+        },
+        "value": 4
+      },
+      {
+        "key": "cast2",
+        "label": {
+          "en": "Faster Cast Rate",
+          "zh-TW": "加快施法速度",
+          "zh-CN": "加快施法速度"
+        },
+        "value": 20
+      },
+      {
+        "key": "mana",
+        "label": {
+          "en": "Mana",
+          "zh-TW": "魔力值",
+          "zh-CN": "魔力值"
+        },
+        "value": 13
+      },
+      {
+        "key": "skill:68",
+        "label": {
+          "en": "Skill Bonus (Bone Armor)",
+          "zh-TW": "技能加成 (白骨裝甲)",
+          "zh-CN": "技能加成 (白骨装甲)"
+        },
+        "value": 3
+      },
+      {
+        "key": "skill:84",
+        "label": {
+          "en": "Skill Bonus (Bone Spear)",
+          "zh-TW": "技能加成 (骨矛)",
+          "zh-CN": "技能加成 (骨矛)"
+        },
+        "value": 2
+      },
+      {
+        "key": "skill:69",
+        "label": {
+          "en": "Skill Bonus (Skeleton Mastery)",
+          "zh-TW": "技能加成 (支配骷髏)",
+          "zh-CN": "技能加成 (支配骷髅)"
+        },
+        "value": 4
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword163",
+    "name": {
+      "en": "Wind",
+      "zh-TW": "風之",
+      "zh-CN": "风之"
+    },
+    "runes": [
+      "Sur",
+      "El"
+    ],
+    "sockets": 2,
+    "itemTypes": [
+      "mele"
+    ],
+    "levelReq": 61,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 120,
+        "max": 160
+      },
+      {
+        "key": "hit-skill:Tornado",
+        "label": {
+          "en": "Chance to Cast on Striking (Tornado)",
+          "zh-TW": "攻擊時觸發機率 (Tornado)",
+          "zh-CN": "攻击时触发机率 (Tornado)"
+        },
+        "min": 10,
+        "max": 9
+      },
+      {
+        "key": "charged:240",
+        "label": {
+          "en": "Charges (Twister)",
+          "zh-TW": "充能次數 (Twister)",
+          "zh-CN": "充能次数 (Twister)"
+        },
+        "min": 127,
+        "max": 13
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "swing2",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "value": 40
+      },
+      {
+        "key": "move2",
+        "label": {
+          "en": "Faster Run/Walk %",
+          "zh-TW": "加快跑走速度 %",
+          "zh-CN": "加快跑走速度 %"
+        },
+        "value": 20
+      },
+      {
+        "key": "reduce-ac",
+        "label": {
+          "en": "reduce-ac",
+          "zh-TW": "reduce-ac",
+          "zh-CN": "reduce-ac"
+        },
+        "value": 50
+      },
+      {
+        "key": "balance2",
+        "label": {
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
+        },
+        "value": 15
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword165",
+    "name": {
+      "en": "Wisdom",
+      "zh-TW": "Wisdom",
+      "zh-CN": "Wisdom"
+    },
+    "runes": [
+      "Pul",
+      "Ith",
+      "Eld"
+    ],
+    "sockets": 3,
+    "itemTypes": [
+      "helms"
+    ],
+    "levelReq": 45,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "manasteal",
+        "label": {
+          "en": "Mana Steal %",
+          "zh-TW": "魔力竊取 %",
+          "zh-CN": "魔力窃取 %"
+        },
+        "min": 4,
+        "max": 8
+      },
+      {
+        "key": "att%",
+        "label": {
+          "en": "Attack Rating %",
+          "zh-TW": "攻擊等級 %",
+          "zh-CN": "攻击等级 %"
+        },
+        "min": 15,
+        "max": 25
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "pierce",
+        "label": {
+          "en": "pierce",
+          "zh-TW": "pierce",
+          "zh-CN": "pierce"
+        },
+        "value": 33
+      },
+      {
+        "key": "mana-kill",
+        "label": {
+          "en": "mana-kill",
+          "zh-TW": "mana-kill",
+          "zh-CN": "mana-kill"
+        },
+        "value": 5
+      },
+      {
+        "key": "nofreeze",
+        "label": {
+          "en": "nofreeze",
+          "zh-TW": "nofreeze",
+          "zh-CN": "nofreeze"
+        },
+        "value": 1
+      },
+      {
+        "key": "enr",
+        "label": {
+          "en": "Energy",
+          "zh-TW": "精力",
+          "zh-CN": "精力"
+        },
+        "value": 10
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword168",
+    "name": {
+      "en": "Wrath",
+      "zh-TW": "忿怒之",
+      "zh-CN": "忿怒之"
+    },
+    "runes": [
+      "Pul",
+      "Lum",
+      "Ber",
+      "Mal"
+    ],
+    "sockets": 4,
+    "itemTypes": [
+      "miss"
+    ],
+    "levelReq": 63,
+    "ladderOnly": true,
+    "stats": [
+      {
+        "key": "dmg-undead",
+        "label": {
+          "en": "Damage to Undead",
+          "zh-TW": "對不死系傷害",
+          "zh-CN": "对不死系伤害"
+        },
+        "min": 250,
+        "max": 300
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "min": 41,
+        "max": 240
+      },
+      {
+        "key": "dmg-mag",
+        "label": {
+          "en": "dmg-mag",
+          "zh-TW": "dmg-mag",
+          "zh-CN": "dmg-mag"
+        },
+        "min": 85,
+        "max": 120
+      },
+      {
+        "key": "hit-skill:Life Tap",
+        "label": {
+          "en": "Chance to Cast on Striking (Life Tap)",
+          "zh-TW": "攻擊時觸發機率 (Life Tap)",
+          "zh-CN": "攻击时触发机率 (Life Tap)"
+        },
+        "min": 5,
+        "max": 10
+      },
+      {
+        "key": "hit-skill:Decrepify",
+        "label": {
+          "en": "Chance to Cast on Striking (Decrepify)",
+          "zh-TW": "攻擊時觸發機率 (Decrepify)",
+          "zh-CN": "攻击时触发机率 (Decrepify)"
+        },
+        "min": 30,
+        "max": 1
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "dmg-demon",
+        "label": {
+          "en": "dmg-demon",
+          "zh-TW": "dmg-demon",
+          "zh-CN": "dmg-demon"
+        },
+        "value": 300
+      },
+      {
+        "key": "nofreeze",
+        "label": {
+          "en": "nofreeze",
+          "zh-TW": "nofreeze",
+          "zh-CN": "nofreeze"
+        },
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "runeword-Runeword170",
+    "name": {
+      "en": "Zephyr",
+      "zh-TW": "Zephyr",
+      "zh-CN": "Zephyr"
+    },
+    "runes": [
+      "Ort",
+      "Eth"
+    ],
+    "sockets": 2,
+    "itemTypes": [
+      "miss"
+    ],
+    "levelReq": 21,
+    "ladderOnly": false,
+    "stats": [
+      {
+        "key": "gethit-skill:240",
+        "label": {
+          "en": "Chance to Cast When Struck (Twister)",
+          "zh-TW": "受擊時觸發機率 (Twister)",
+          "zh-CN": "受击时触发机率 (Twister)"
+        },
+        "min": 7,
+        "max": 1
+      }
+    ],
+    "fixedStats": [
+      {
+        "key": "move2",
+        "label": {
+          "en": "Faster Run/Walk %",
+          "zh-TW": "加快跑走速度 %",
+          "zh-CN": "加快跑走速度 %"
+        },
+        "value": 25
+      },
+      {
+        "key": "swing2",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "value": 25
+      },
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "value": 33
+      },
+      {
+        "key": "att",
+        "label": {
+          "en": "Attack Rating",
+          "zh-TW": "攻擊等級",
+          "zh-CN": "攻击等级"
+        },
+        "value": 66
+      },
+      {
+        "key": "ac",
+        "label": {
+          "en": "Defense",
+          "zh-TW": "防禦力",
+          "zh-CN": "防御力"
+        },
+        "value": 25
+      }
+    ]
+  }
+]

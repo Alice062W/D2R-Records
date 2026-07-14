@@ -272,14 +272,14 @@ function baseFieldsFor(code) {
   };
 }
 
-function extractProps(entry, count) {
+function extractProps(entry, count, prefixes = { code: 'prop', par: 'par', min: 'min', max: 'max' }) {
   const variable = [];
   const fixed = [];
   for (let n = 1; n <= count; n++) {
-    const rawCode = entry[`prop${n}`];
+    const rawCode = entry[`${prefixes.code}${n}`];
     if (!rawCode) continue;
     const code = CODE_ALIASES[rawCode] ?? rawCode;
-    const par = entry[`par${n}`];
+    const par = entry[`${prefixes.par}${n}`];
     const isSkillRef = SKILL_REF_PROPS.has(code);
     const label = isSkillRef ? localizedLabelWithSkill(code, par) : localizedLabelFor(code);
     // Disambiguate the stat's identity key when the same generic code (e.g.
@@ -289,8 +289,8 @@ function extractProps(entry, count) {
     // values, so a second skill's entered value silently overwrites the first's.
     const needsKeySuffix = (isSkillRef || KEY_ONLY_DISAMBIGUATE_PROPS.has(code)) && par !== undefined;
     const key = needsKeySuffix ? `${code}:${par}` : code;
-    const min = entry[`min${n}`];
-    const max = entry[`max${n}`];
+    const min = entry[`${prefixes.min}${n}`];
+    const max = entry[`${prefixes.max}${n}`];
     if (min !== undefined && max !== undefined) {
       if (min === max) fixed.push({ key, label, value: min });
       else variable.push({ key, label, min, max });
@@ -344,7 +344,7 @@ function extractSetBonuses(entry) {
 const uniquesOut = Object.entries(uniqueItems)
   .filter(([, v]) => v.spawnable === 1)
   .map(([id, v]) => {
-    const { variable, fixed } = extractProps(v, 10);
+    const { variable, fixed } = extractProps(v, 10, { code: 'prop', par: 'par', min: 'min', max: 'max' });
     return {
       id: `unique-${id}`,
       code: v.code,
@@ -364,7 +364,7 @@ const uniquesOut = Object.entries(uniqueItems)
 const setsOut = Object.entries(setItemsRaw)
   .filter(([, v]) => v.spawnable === 1)
   .map(([, v]) => {
-    const { variable, fixed } = extractProps(v, 7);
+    const { variable, fixed } = extractProps(v, 7, { code: 'prop', par: 'par', min: 'min', max: 'max' });
     return {
       id: `set-${v['*ID']}`,
       code: v.item,
@@ -426,3 +426,46 @@ writeFileSync(join(OUT, 'sets.json'), JSON.stringify(setsOut, null, 2));
 
 console.log(`Wrote ${uniquesOut.length} unique items -> data/uniques.json`);
 console.log(`Wrote ${setsOut.length} set items -> data/sets.json`);
+
+// Runewords: the vendored runes.json's `complete === 1` entries are the source of
+// truth for which runewords exist and their full effect stats — it includes real
+// current runewords (e.g. Vigilance, Ritual, Void, Authority, Coven, and Hustle's
+// armor/weapon split) that the older hand-curated data/runewords.json lacks, that
+// file having been built earlier for the Appraiser's narrower needs. levelReq/
+// ladderOnly aren't present in runes.json at all (the closest proxy, each
+// component rune's own drop level, isn't the same thing as a curated character
+// level requirement), so those two fields are cross-referenced from the curated
+// file by exact name match, read-only. A small number of names don't match
+// exactly (apostrophe/case/suffix differences, net-new runewords, the Hustle
+// split) — those fall back to levelReq: 0 / ladderOnly: false, the same
+// graceful-fallback convention used elsewhere in this script (e.g. untranslated
+// labels falling back to English) rather than hand-built alias tables.
+const runesData = JSON.parse(readFileSync(join(VENDOR, 'runes.json'), 'utf8'));
+const runewordsCurated = JSON.parse(readFileSync(join(OUT, 'runewords.json'), 'utf8'));
+
+function itemTypesFor(itype) {
+  const slot = TYPE_TO_SLOT[itype];
+  return [slot ?? itype];
+}
+
+const runewordsFullOut = Object.entries(runesData)
+  .filter(([, v]) => v.complete === 1)
+  .map(([name, v]) => {
+    const runeNames = v['*RunesUsed'].match(/[A-Z][a-z]+/g) ?? [];
+    const { variable, fixed } = extractProps(v, 7, { code: 'T1Code', par: 'T1Param', min: 'T1Min', max: 'T1Max' });
+    const curated = runewordsCurated.find(r => r.name === name);
+    return {
+      id: `runeword-${v.Name}`,
+      name: localizedItemName(name),
+      runes: runeNames,
+      sockets: runeNames.length,
+      itemTypes: itemTypesFor(v.itype1),
+      levelReq: curated?.level ?? 0,
+      ladderOnly: curated?.ladderOnly ?? false,
+      stats: variable,
+      fixedStats: fixed,
+    };
+  });
+
+writeFileSync(join(OUT, 'runewords-full.json'), JSON.stringify(runewordsFullOut, null, 2));
+console.log(`Wrote ${runewordsFullOut.length} runewords -> data/runewords-full.json`);

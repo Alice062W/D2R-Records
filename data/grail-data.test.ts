@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest';
 import uniques from './uniques.json';
 import sets from './sets.json';
 import basesFull from './bases-full.json';
+import runewordsFull from './runewords-full.json';
 import { getCategoriesForKind, SLOT_ORDER } from '@/lib/grail/catalog';
 
 interface LocalizedText { en: string; 'zh-TW': string; 'zh-CN': string; }
@@ -152,6 +153,30 @@ describe('bases-full.json', () => {
       for (const grade of Object.values(line.grades)) {
         if (grade) expect(grade.name['zh-TW']).not.toBe('');
       }
+    }
+  });
+});
+
+describe('runewords-full.json', () => {
+  it('has 99 entries, matching every complete===1 entry in vendored runes.json (more than the 93 in the older curated runewords.json, which predates Vigilance/Ritual/Void/Authority/Coven/Hustle-split)', () => {
+    expect(runewordsFull.length).toBe(99);
+  });
+
+  it('Enigma has the correct runes, sockets, and a non-empty stat list', () => {
+    const enigma = runewordsFull.find(r => r.name.en === 'Enigma')!;
+    expect(enigma).toBeTruthy();
+    expect(enigma.runes).toEqual(['Jah', 'Ith', 'Ber']);
+    expect(enigma.sockets).toBe(3);
+    expect(enigma.stats.length + enigma.fixedStats.length).toBeGreaterThan(0);
+  });
+
+  it('includes Vigilance, a real runeword missing from the older curated runewords.json', () => {
+    expect(runewordsFull.find(r => r.name.en === 'Vigilance')).toBeTruthy();
+  });
+
+  it('every entry has a non-empty zh-TW name', () => {
+    for (const rw of runewordsFull) {
+      expect(rw.name['zh-TW']).not.toBe('');
     }
   });
 });
