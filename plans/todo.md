@@ -102,13 +102,23 @@ _Spec: [docs/superpowers/specs/2026-07-13-grail-item-reference-design.md](../doc
 - [x] Item icons: researched thoroughly, no legitimate open source found — `public/items/inv/` ships empty with documented rationale, graceful fallback confirmed
 - [x] d2r.world spot-check of 10 items + full verification — found/fixed 5 real generator bugs (par-only stats dropped, mislabeled stats)
 
-## Upcoming: Grail Category Sidebar Navigation
+## Grail Category Sidebar Navigation ✅
 
 _Spec: [docs/superpowers/specs/2026-07-14-grail-category-sidebar-design.md](../docs/superpowers/specs/2026-07-14-grail-category-sidebar-design.md) · Plan: [plans/grail-category-sidebar-implementation.md](./grail-category-sidebar-implementation.md)_
 
-- [ ] Category sidebar component (desktop persistent column, mobile dropdown)
-- [ ] Retire item-detail modal → inline expanded block; remove card grid + jump bar
-- [ ] Icon extraction guide for owner's own D2R install (separate, manual, off-session)
+- [x] Category sidebar component (desktop persistent column, mobile dropdown)
+- [x] Retire item-detail modal → inline expanded block; remove card grid + jump bar
+- [x] Icon extraction guide for owner's own D2R install (CascView + dc6png, written to public/items/inv/README.md)
+- [x] Fixed real bug found during verification: skill/tab-referencing stats collapsed to identical labels + colliding storage keys
+
+## Upcoming: Grail zh-TW / zh-CN Translation
+
+_Spec: [docs/superpowers/specs/2026-07-14-grail-zh-translation-design.md](../docs/superpowers/specs/2026-07-14-grail-zh-translation-design.md) · Plan: [plans/grail-zh-translation-implementation.md](./grail-zh-translation-implementation.md)_
+
+- [ ] Locale-aware catalog generator (official zh-TW names via d2data's localestrings-chi.json, zh-CN via OpenCC)
+- [ ] Locale-aware catalog projection (LocalizedText model, localizeGrailItem helper, zero component changes)
+- [ ] Translate UI chrome (Grail namespace + Footer.grailLink) to zh-TW + zh-CN
+- [ ] Full verification + d2r.world spot-check across all 3 locales
 
 ## Backlog / Ideas
 
@@ -128,3 +138,4 @@ _Spec: [docs/superpowers/specs/2026-07-14-grail-category-sidebar-design.md](../d
 | [grail-tracker-implementation.md](./grail-tracker-implementation.md) | Personal unique/set item collection tracker (Supabase + Google auth) |
 | [grail-item-reference-implementation.md](./grail-item-reference-implementation.md) | d2r.world-style stat sheets, slot grid, icons for all 538 items |
 | [grail-category-sidebar-implementation.md](./grail-category-sidebar-implementation.md) | Category sidebar navigation, retiring the single long scrolling page |
+| [grail-zh-translation-implementation.md](./grail-zh-translation-implementation.md) | Full zh-TW/zh-CN translation of catalog data + UI chrome |
