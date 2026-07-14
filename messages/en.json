@@ -127,6 +127,7 @@
     "uniquePageTitle": "Unique Items",
     "uniquePageSubtitle": "Browse every unique item in Diablo II: Resurrected.",
     "setPageTitle": "Set Items",
-    "setPageSubtitle": "Browse every set item in Diablo II: Resurrected."
+    "setPageSubtitle": "Browse every set item in Diablo II: Resurrected.",
+    "backToCategories": "← Back to categories"
   }
 }
