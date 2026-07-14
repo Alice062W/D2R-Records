@@ -120,3 +120,8 @@ export function sortItemsForDisplay(items: GrailItem[]): GrailItem[] {
     (a, b) => GRADE_ORDER[a.grade] - GRADE_ORDER[b.grade] || a.levelReq - b.levelReq
   );
 }
+
+export function getCategoriesForKind(kind: 'unique' | 'set'): (typeof SLOT_ORDER)[number][] {
+  const items = ALL_ITEMS.filter(i => i.kind === kind);
+  return SLOT_ORDER.filter(slot => items.some(i => i.slotCategory === slot));
+}

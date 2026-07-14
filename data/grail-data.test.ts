@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import uniques from './uniques.json';
 import sets from './sets.json';
+import { getCategoriesForKind, SLOT_ORDER } from '@/lib/grail/catalog';
 
 interface LocalizedText { en: string; 'zh-TW': string; 'zh-CN': string; }
 
@@ -114,5 +115,24 @@ describe('generated grail catalog', () => {
     // Regression guard that OpenCC conversion is actually running, not a pass-through.
     const harlequinCrest = uniques.find(i => i.name.en === 'Harlequin Crest')!;
     expect(harlequinCrest.name['zh-CN']).not.toBe(harlequinCrest.name['zh-TW']);
+  });
+});
+
+describe('getCategoriesForKind', () => {
+  it('returns all 28 SLOT_ORDER categories for uniques', () => {
+    expect(getCategoriesForKind('unique')).toEqual([...SLOT_ORDER]);
+  });
+
+  it('returns a strict subset for sets, excluding categories with no set items', () => {
+    const setCategories = getCategoriesForKind('set');
+    expect(setCategories.length).toBeLessThan(SLOT_ORDER.length);
+    expect(setCategories).toContain('boots');
+    expect(setCategories).not.toContain('charms');
+  });
+
+  it('preserves SLOT_ORDER ordering', () => {
+    const setCategories = getCategoriesForKind('set');
+    const expectedOrder = SLOT_ORDER.filter(s => setCategories.includes(s));
+    expect(setCategories).toEqual(expectedOrder);
   });
 });
