@@ -90,17 +90,25 @@ _Spec: [docs/superpowers/specs/2026-07-13-grail-tracker-design.md](../docs/super
 - [x] Log-find form
 - [x] i18n keys (en/zh-TW/zh-CN) + Footer nav link
 - [x] Critical review fix: finds keyed by unique catalog `id`, not shared base `code`
-- [ ] Add GitHub Actions secrets (NEXT_PUBLIC_SUPABASE_URL / ANON_KEY) + push to deploy
+- [x] Add GitHub Actions secrets (NEXT_PUBLIC_SUPABASE_URL / ANON_KEY) + push to deploy — live at https://alice062w.github.io/D2R-Records/en/grail
 
-## Upcoming: Grail Item Reference (d2r.world-style stat sheets)
+## Grail Item Reference (d2r.world-style stat sheets) ✅
 
 _Spec: [docs/superpowers/specs/2026-07-13-grail-item-reference-design.md](../docs/superpowers/specs/2026-07-13-grail-item-reference-design.md) · Plan: [plans/grail-item-reference-implementation.md](./grail-item-reference-implementation.md)_
 
-- [ ] Enrich catalog: baseName, grade, slotCategory, defense/str/durability, invFile
-- [ ] Stat-sheet detail view for every item (found or not), copies shown vs ranges
-- [ ] Slot-category grid + sticky jump bar + card restyle (gold/green names)
-- [ ] Item icons: pin source, fetch script, IP-note README (graceful fallback if none)
-- [ ] d2r.world spot-check of 10 items + full verification
+- [x] Enrich catalog: baseName, grade, slotCategory, defense/str/durability, invFile
+- [x] Stat-sheet detail view for every item (found or not), copies shown vs ranges
+- [x] Slot-category grid + sticky jump bar + card restyle (gold/green names)
+- [x] Item icons: researched thoroughly, no legitimate open source found — `public/items/inv/` ships empty with documented rationale, graceful fallback confirmed
+- [x] d2r.world spot-check of 10 items + full verification — found/fixed 5 real generator bugs (par-only stats dropped, mislabeled stats)
+
+## Upcoming: Grail Category Sidebar Navigation
+
+_Spec: [docs/superpowers/specs/2026-07-14-grail-category-sidebar-design.md](../docs/superpowers/specs/2026-07-14-grail-category-sidebar-design.md) · Plan: [plans/grail-category-sidebar-implementation.md](./grail-category-sidebar-implementation.md)_
+
+- [ ] Category sidebar component (desktop persistent column, mobile dropdown)
+- [ ] Retire item-detail modal → inline expanded block; remove card grid + jump bar
+- [ ] Icon extraction guide for owner's own D2R install (separate, manual, off-session)
 
 ## Backlog / Ideas
 
@@ -119,3 +127,4 @@ _Spec: [docs/superpowers/specs/2026-07-13-grail-item-reference-design.md](../doc
 | [strategy-research.md](./strategy-research.md) | Initial research: viability, competitors, monetization, i18n strategy |
 | [grail-tracker-implementation.md](./grail-tracker-implementation.md) | Personal unique/set item collection tracker (Supabase + Google auth) |
 | [grail-item-reference-implementation.md](./grail-item-reference-implementation.md) | d2r.world-style stat sheets, slot grid, icons for all 538 items |
+| [grail-category-sidebar-implementation.md](./grail-category-sidebar-implementation.md) | Category sidebar navigation, retiring the single long scrolling page |
