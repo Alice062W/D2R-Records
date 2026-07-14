@@ -15,7 +15,7 @@ function renderDrawer() {
 describe('SiteNavDrawer', () => {
   it('is closed by default (no nav links visible)', () => {
     renderDrawer();
-    expect(screen.getByText('D2R Institute')).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: 'D2R Institute' })).toHaveAttribute('href', '/en');
     expect(screen.queryByRole('link', { name: 'Unique Items' })).not.toBeInTheDocument();
   });
 

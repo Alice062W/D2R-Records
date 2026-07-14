@@ -54,7 +54,12 @@ export default function SiteNavDrawer() {
             <path d="M4 6h16M4 12h16M4 18h16" strokeLinecap="round" />
           </svg>
         </button>
-        <span className="text-sm font-semibold text-zinc-200">D2R Institute</span>
+        <Link
+          href={linkHref('')}
+          className="text-sm font-semibold text-zinc-200 hover:text-amber-300 transition-colors"
+        >
+          D2R Institute
+        </Link>
       </div>
 
       {open && (
