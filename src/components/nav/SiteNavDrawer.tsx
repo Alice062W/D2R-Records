@@ -44,7 +44,7 @@ export default function SiteNavDrawer() {
 
   return (
     <>
-      <div className="flex items-center border-b border-zinc-800 px-4 py-3">
+      <div className="flex items-center border-b border-zinc-800 px-4 py-3 gap-3">
         <button
           onClick={() => setOpen(true)}
           aria-label={t('openMenu')}
@@ -54,6 +54,7 @@ export default function SiteNavDrawer() {
             <path d="M4 6h16M4 12h16M4 18h16" strokeLinecap="round" />
           </svg>
         </button>
+        <span className="text-sm font-semibold text-zinc-200">D2R Institute</span>
       </div>
 
       {open && (

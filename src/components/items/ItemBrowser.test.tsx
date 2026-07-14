@@ -37,7 +37,8 @@ describe('ItemBrowser', () => {
   it('shows only set items (never unique items) when kind="set"', () => {
     renderBrowser('set');
     fireEvent.click(screen.getByRole('button', { name: 'Boots' }));
-    // Aldur's Advance is a well-known set boots item; The Gnasher (unique) must not appear anywhere.
+    // Sigon's Sabot is a well-known set boots item; The Gnasher (unique) must not appear anywhere.
+    expect(screen.getByText("Sigon's Sabot")).toBeInTheDocument();
     expect(screen.queryByText('The Gnasher')).not.toBeInTheDocument();
   });
 

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 import { getAllGrailItems, localizeGrailItem, sortItemsForDisplay, type GrailItem } from '@/lib/grail/catalog';
 import ItemCategoryGrid from './ItemCategoryGrid';
@@ -14,9 +14,12 @@ export default function ItemBrowser({ kind }: { kind: 'unique' | 'set' }) {
   const [activeSlot, setActiveSlot] = useState<string | null>(null);
   const [activeGrade, setActiveGrade] = useState<GrailItem['grade'] | null>(null);
 
-  const items = getAllGrailItems()
-    .filter(i => i.kind === kind)
-    .map(i => localizeGrailItem(i, locale as 'en' | 'zh-TW' | 'zh-CN'));
+  const items = useMemo(
+    () => getAllGrailItems()
+      .filter(i => i.kind === kind)
+      .map(i => localizeGrailItem(i, locale as 'en' | 'zh-TW' | 'zh-CN')),
+    [kind, locale]
+  );
 
   function handleSelectSlot(slot: string) {
     setActiveSlot(slot);
