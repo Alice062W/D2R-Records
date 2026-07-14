@@ -52,4 +52,25 @@ describe('generated grail catalog', () => {
       expect(item.invFile.length).toBeGreaterThan(0);
     }
   });
+
+  it('no item has two stats sharing the same key', () => {
+    // Regression: items with multiple skill/tab-referencing props of the same
+    // generic code (e.g. two different "skill" bonuses) used to collapse onto
+    // one object key, silently overwriting each other's logged roll values.
+    for (const item of [...uniques, ...sets] as { name: string; stats: { key: string }[] }[]) {
+      const keys = item.stats.map(s => s.key);
+      expect(new Set(keys).size, `${item.name} has duplicate stat keys: ${keys}`).toBe(keys.length);
+    }
+  });
+
+  it('disambiguates skill-referencing stats by naming the specific skill', () => {
+    const maelstromwrath = uniques.find(i => i.name === 'Maelstromwrath')!;
+    const labels = maelstromwrath.stats.filter(s => s.key.startsWith('skill:')).map(s => s.label);
+    expect(labels).toEqual([
+      'Skill Bonus (Corpse Explosion)',
+      'Skill Bonus (Terror)',
+      'Skill Bonus (Amplify Damage)',
+      'Skill Bonus (Iron Maiden)',
+    ]);
+  });
 });

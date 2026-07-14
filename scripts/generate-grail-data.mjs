@@ -11,6 +11,7 @@ const OUT = join(__dirname, '..', 'data');
 const uniqueItems = JSON.parse(readFileSync(join(VENDOR, 'uniqueitems.json'), 'utf8'));
 const setItemsRaw = JSON.parse(readFileSync(join(VENDOR, 'setitems.json'), 'utf8'));
 const items = JSON.parse(readFileSync(join(VENDOR, 'items.json'), 'utf8'));
+const skills = JSON.parse(readFileSync(join(VENDOR, 'skills.json'), 'utf8'));
 
 // Hand-curated labels for the most common stat codes (ranked by frequency across
 // uniqueitems.json + setitems.json). Anything missing falls back to the raw code —
@@ -43,8 +44,9 @@ const PROP_LABELS = {
   'extra-ltng': 'Lightning Skill Damage %', 'extra-mag': 'Magic Skill Damage %', 'extra-pois': 'Poison Skill Damage %',
   light: 'Light Radius', 'half-freeze': 'Half Freeze Duration',
   slow: 'Slower Target %', sock: 'Sockets', dur: 'Indestructible', indestruct: 'Indestructible',
-  skill: 'Skill Bonus', skilltab: 'Skill Tab Bonus', allskills: 'All Skills',
+  skill: 'Skill Bonus', oskill: 'Skill Bonus', skilltab: 'Skill Tab Bonus', allskills: 'All Skills',
   'hit-skill': 'Chance to Cast on Striking', 'gethit-skill': 'Chance to Cast When Struck',
+  'death-skill': 'Chance to Cast on Death %', 'levelup-skill': 'Chance to Cast on Level-Up %',
   charged: 'Charges', 'mag%': 'Magic Find %', 'gold%': 'Gold Find %',
   'dmg-to-mana': 'Damage Taken Goes to Mana',
   dmg: 'Maximum Damage', knock: 'Knockback',
@@ -74,6 +76,46 @@ function labelFor(code) {
     return `${PROP_LABELS[base] ?? base} (Based on Character Level)`;
   }
   return code;
+}
+
+// Prop codes whose `par` field identifies a specific skill rather than being
+// incidental (see extractProps). `par` is either a numeric skill id (looked up
+// in vendor/d2data/json/skills.json) or already a literal skill-name string —
+// both forms occur in the source data (verified: skill/oskill/charged/hit-skill/
+// gethit-skill/death-skill/att-skill/levelup-skill, 255 occurrences across the
+// full catalog, zero unresolvable numeric ids). Without this, every stat sharing
+// one of these codes on the same item renders as an identical generic label
+// (e.g. "Skill Bonus: 1-3" four times on Maelstromwrath instead of naming each
+// of its four granted skills) — the specific skill is silently lost.
+// `Gethit-skill` (capital G) is a case-variant of `gethit-skill` in the source
+// data; normalized to the lowercase code so it's treated as the same stat.
+const SKILL_REF_PROPS = new Set([
+  'skill', 'oskill', 'charged', 'hit-skill', 'gethit-skill',
+  'death-skill', 'att-skill', 'levelup-skill',
+]);
+const CODE_ALIASES = { 'Gethit-skill': 'gethit-skill' };
+
+// `skilltab`'s `par` identifies a specific skill *tab* (e.g. Necromancer
+// Curses), the same collision-prone shape as SKILL_REF_PROPS above — but
+// unlike individual skills, none of skills.json/skilldesc.json/playerclass.json
+// in the vendored source name tabs directly (skilldesc.json has SkillPage/
+// SkillRow coordinates, not a tab name), and hand-guessing tab names risks
+// showing something wrong, which is worse than a generic label. So: disambiguate
+// the storage *key* (fixes real data loss — multiple tab bonuses on one item,
+// e.g. Jadetalon, would otherwise silently overwrite each other's logged
+// values) without claiming a specific tab name in the *label*.
+const KEY_ONLY_DISAMBIGUATE_PROPS = new Set(['skilltab']);
+
+function skillNameFor(par) {
+  const isNumeric = typeof par === 'number' || (typeof par === 'string' && /^-?\d+$/.test(par));
+  if (!isNumeric) return String(par);
+  return skills[String(par)]?.skill ?? String(par);
+}
+
+function labelWithSkill(code, par) {
+  const base = labelFor(code);
+  if (par === undefined) return base;
+  return `${base} (${skillNameFor(par)})`;
 }
 
 // type code (items.json .type) -> slot category. Every code observed across
@@ -129,13 +171,24 @@ function extractProps(entry, count) {
   const variable = [];
   const fixed = [];
   for (let n = 1; n <= count; n++) {
-    const key = entry[`prop${n}`];
-    if (!key) continue;
+    const rawCode = entry[`prop${n}`];
+    if (!rawCode) continue;
+    const code = CODE_ALIASES[rawCode] ?? rawCode;
+    const par = entry[`par${n}`];
+    const isSkillRef = SKILL_REF_PROPS.has(code);
+    const label = isSkillRef ? labelWithSkill(code, par) : labelFor(code);
+    // Disambiguate the stat's identity key when the same generic code (e.g.
+    // "skill", "charged", "skilltab") appears more than once on one item for
+    // different skills/tabs — otherwise every such stat collapses onto one
+    // object key, both in statPriority and in a logged find's stored roll
+    // values, so a second skill's entered value silently overwrites the first's.
+    const needsKeySuffix = (isSkillRef || KEY_ONLY_DISAMBIGUATE_PROPS.has(code)) && par !== undefined;
+    const key = needsKeySuffix ? `${code}:${par}` : code;
     const min = entry[`min${n}`];
     const max = entry[`max${n}`];
     if (min !== undefined && max !== undefined) {
-      if (min === max) fixed.push({ key, label: labelFor(key), value: min });
-      else variable.push({ key, label: labelFor(key), min, max });
+      if (min === max) fixed.push({ key, label, value: min });
+      else variable.push({ key, label, min, max });
       continue;
     }
     // Some props (level-scaling stats like hp/lvl, dmg/lvl; also sock,
@@ -144,9 +197,8 @@ function extractProps(entry, count) {
     // stat line — dropping it made e.g. Harlequin Crest's Life/Mana
     // (Based on Character Level) and Windforce's scaling max damage
     // disappear entirely.
-    const par = entry[`par${n}`];
     if (par !== undefined) {
-      fixed.push({ key, label: labelFor(key), value: par });
+      fixed.push({ key, label, value: par });
     }
   }
   return { variable, fixed };
@@ -159,20 +211,25 @@ function extractSetBonuses(entry) {
   const bonuses = [];
   for (const suffix of ['a', 'b', 'c', 'd']) {
     for (let n = 1; n <= 5; n++) {
-      const key = entry[`aprop${n}${suffix}`];
-      if (!key) continue;
+      const rawCode = entry[`aprop${n}${suffix}`];
+      if (!rawCode) continue;
+      const code = CODE_ALIASES[rawCode] ?? rawCode;
+      const par = entry[`apar${n}${suffix}`];
+      const isSkillRef = SKILL_REF_PROPS.has(code);
+      const label = isSkillRef ? labelWithSkill(code, par) : labelFor(code);
+      const needsKeySuffix = (isSkillRef || KEY_ONLY_DISAMBIGUATE_PROPS.has(code)) && par !== undefined;
+      const key = needsKeySuffix ? `${code}:${par}` : code;
       const min = entry[`amin${n}${suffix}`];
       const max = entry[`amax${n}${suffix}`];
       if (min !== undefined && max !== undefined) {
-        bonuses.push({ key, label: labelFor(key), min, max });
+        bonuses.push({ key, label, min, max });
         continue;
       }
       // Same par-only case as extractProps (level-scaling bonuses like
       // att/lvl, ac/lvl) — surface as a fixed min===max entry rather than
       // silently dropping the bonus line.
-      const par = entry[`apar${n}${suffix}`];
       if (par !== undefined) {
-        bonuses.push({ key, label: labelFor(key), min: par, max: par });
+        bonuses.push({ key, label, min: par, max: par });
       }
     }
   }

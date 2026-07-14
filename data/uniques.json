@@ -603,26 +603,26 @@
     "invFile": "invywn",
     "stats": [
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:74",
+        "label": "Skill Bonus (Corpse Explosion)",
         "min": 1,
         "max": 3
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:77",
+        "label": "Skill Bonus (Terror)",
         "min": 1,
         "max": 3
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:66",
+        "label": "Skill Bonus (Amplify Damage)",
         "min": 1,
         "max": 3
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:76",
+        "label": "Skill Bonus (Iron Maiden)",
         "min": 1,
         "max": 3
       }
@@ -656,10 +656,10 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "skill",
-      "skill",
-      "skill",
-      "skill"
+      "skill:74",
+      "skill:77",
+      "skill:66",
+      "skill:76"
     ]
   },
   {
@@ -763,13 +763,13 @@
         "value": 64
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:77",
+        "label": "Skill Bonus (Terror)",
         "value": 3
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:87",
+        "label": "Skill Bonus (Decrepify)",
         "value": 2
       }
     ],
@@ -918,8 +918,8 @@
         "max": 60
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:111",
+        "label": "Skill Bonus (Vengeance)",
         "min": 1,
         "max": 3
       }
@@ -941,8 +941,8 @@
         "value": 8
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:103",
+        "label": "Skill Bonus (Thorns)",
         "value": 3
       }
     ],
@@ -951,7 +951,7 @@
       "dmg-norm",
       "dmg%",
       "dmg-undead",
-      "skill"
+      "skill:111"
     ]
   },
   {
@@ -988,8 +988,8 @@
         "max": 120
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:110",
+        "label": "Skill Bonus (Resist Lightning)",
         "min": 3,
         "max": 5
       }
@@ -1001,13 +1001,13 @@
         "value": 10
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:118",
+        "label": "Skill Bonus (Holy Shock)",
         "value": 3
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:121",
+        "label": "Skill Bonus (Fist of the Heavens)",
         "value": 1
       }
     ],
@@ -1016,7 +1016,7 @@
       "dmg-ltng",
       "dmg-cold",
       "dmg%",
-      "skill"
+      "skill:110"
     ]
   },
   {
@@ -1159,8 +1159,8 @@
         "value": 10
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:96",
+        "label": "Skill Bonus (Sacrifice)",
         "value": 3
       },
       {
@@ -1933,8 +1933,8 @@
         "value": 6
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:102",
+        "label": "Skill Bonus (Holy Fire)",
         "value": 6
       }
     ],
@@ -2903,13 +2903,13 @@
         "value": 20
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:36",
+        "label": "Skill Bonus (Fire Bolt)",
         "value": 5
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:37",
+        "label": "Skill Bonus (Warmth)",
         "value": 2
       }
     ],
@@ -3016,18 +3016,18 @@
         "value": 15
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:53",
+        "label": "Skill Bonus (Chain Lightning)",
         "value": 1
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:49",
+        "label": "Skill Bonus (Lightning)",
         "value": 2
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:42",
+        "label": "Skill Bonus (Static Field)",
         "value": 3
       },
       {
@@ -3075,18 +3075,18 @@
         "value": 30
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:51",
+        "label": "Skill Bonus (Fire Wall)",
         "value": 1
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:47",
+        "label": "Skill Bonus (Fire Ball)",
         "value": 2
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:37",
+        "label": "Skill Bonus (Warmth)",
         "value": 3
       },
       {
@@ -3137,18 +3137,18 @@
         "value": 50
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:48",
+        "label": "Skill Bonus (Nova)",
         "value": 2
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:46",
+        "label": "Skill Bonus (Blaze)",
         "value": 2
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:44",
+        "label": "Skill Bonus (Frost Nova)",
         "value": 3
       },
       {
@@ -3598,8 +3598,8 @@
         "value": 3
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:16",
+        "label": "Skill Bonus (Exploding Arrow)",
         "value": 2
       }
     ],
@@ -4174,8 +4174,8 @@
         "value": 50
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:69",
+        "label": "Skill Bonus (Skeleton Mastery)",
         "value": 3
       }
     ],
@@ -5936,8 +5936,8 @@
         "value": 12
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:132",
+        "label": "Skill Bonus (Leap)",
         "value": 2
       }
     ],
@@ -6113,8 +6113,8 @@
         "value": 10
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:115",
+        "label": "Skill Bonus (Vigor)",
         "value": 2
       }
     ],
@@ -6972,8 +6972,8 @@
     "invFile": "invhaxu",
     "stats": [
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:44",
+        "label": "Chance to Cast When Struck (Frost Nova)",
         "min": 10,
         "max": 5
       },
@@ -7006,14 +7006,14 @@
         "value": 30
       },
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:45",
+        "label": "Chance to Cast on Striking (Ice Blast)",
         "value": 10
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "gethit-skill",
+      "gethit-skill:44",
       "dmg%"
     ]
   },
@@ -7132,13 +7132,13 @@
         "value": 25
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:233",
+        "label": "Skill Bonus (Maul)",
         "value": 1
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:248",
+        "label": "Skill Bonus (Fury)",
         "value": 1
       }
     ],
@@ -7163,8 +7163,8 @@
     "invFile": "invmpiu",
     "stats": [
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:244",
+        "label": "Chance to Cast on Striking (Volcano)",
         "min": 4,
         "max": 8
       },
@@ -7195,7 +7195,7 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "hit-skill",
+      "hit-skill:244",
       "dmg-fire",
       "dmg%"
     ]
@@ -7216,8 +7216,8 @@
     "invFile": "invwax",
     "stats": [
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:92",
+        "label": "Chance to Cast on Striking (Poison Nova)",
         "min": 5,
         "max": 8
       },
@@ -7252,7 +7252,7 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "hit-skill",
+      "hit-skill:92",
       "dmg%"
     ]
   },
@@ -7328,26 +7328,26 @@
         "max": 15
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:54",
+        "label": "Charges (Teleport)",
         "min": 20,
         "max": 1
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:87",
+        "label": "Charges (Decrepify)",
         "min": 30,
         "max": 3
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:101",
+        "label": "Charges (Holy Bolt)",
         "min": 100,
         "max": 10
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:225",
+        "label": "Charges (Firestorm)",
         "min": 60,
         "max": 12
       }
@@ -7382,10 +7382,10 @@
     "setBonuses": [],
     "statPriority": [
       "red-mag",
-      "charged",
-      "charged",
-      "charged",
-      "charged"
+      "charged:54",
+      "charged:87",
+      "charged:101",
+      "charged:225"
     ]
   },
   {
@@ -7404,14 +7404,14 @@
     "invFile": "inv9btu",
     "stats": [
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:53",
+        "label": "Chance to Cast on Striking (Chain Lightning)",
         "min": 5,
         "max": 10
       },
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:38",
+        "label": "Chance to Cast on Striking (Charged Bolt)",
         "min": 10,
         "max": 0
       },
@@ -7428,8 +7428,8 @@
         "max": 75
       },
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:38",
+        "label": "Chance to Cast When Struck (Charged Bolt)",
         "min": 15,
         "max": 5
       }
@@ -7453,11 +7453,11 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "hit-skill",
-      "hit-skill",
+      "hit-skill:53",
+      "hit-skill:38",
       "dmg-ltng",
       "dmg-norm",
-      "gethit-skill"
+      "gethit-skill:38"
     ]
   },
   {
@@ -7482,14 +7482,14 @@
         "max": 220
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:101",
+        "label": "Charges (Holy Bolt)",
         "min": 200,
         "max": 20
       },
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:101",
+        "label": "Chance to Cast When Struck (Holy Bolt)",
         "min": 50,
         "max": 0
       }
@@ -7524,8 +7524,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "charged",
-      "gethit-skill"
+      "charged:101",
+      "gethit-skill:101"
     ]
   },
   {
@@ -7688,7 +7688,7 @@
         "value": 1
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:8",
         "label": "Skill Tab Bonus",
         "value": 2
       }
@@ -7712,21 +7712,21 @@
     "invFile": "invbwnu",
     "stats": [
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:93",
+        "label": "Chance to Cast When Struck (Bone Spirit)",
         "min": 5,
         "max": 10
       },
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:88",
+        "label": "Chance to Cast When Struck (Bone Prison)",
         "min": 10,
         "max": 2
       }
     ],
     "fixedStats": [
       {
-        "key": "skilltab",
+        "key": "skilltab:8",
         "label": "Skill Tab Bonus",
         "value": 2
       },
@@ -7741,35 +7741,35 @@
         "value": 10
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:7",
         "label": "Skill Tab Bonus",
         "value": 2
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:77",
+        "label": "Skill Bonus (Terror)",
         "value": 2
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:80",
+        "label": "Skill Bonus (Raise Skeletal Mage)",
         "value": 2
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:69",
+        "label": "Skill Bonus (Skeleton Mastery)",
         "value": 3
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:70",
+        "label": "Skill Bonus (Raise Skeleton)",
         "value": 3
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "gethit-skill",
-      "gethit-skill"
+      "gethit-skill:93",
+      "gethit-skill:88"
     ]
   },
   {
@@ -7788,15 +7788,15 @@
     "invFile": "inv9gwu",
     "stats": [
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:150",
+        "label": "Charges (Grim Ward)",
         "min": 30,
         "max": 13
       }
     ],
     "fixedStats": [
       {
-        "key": "skilltab",
+        "key": "skilltab:6",
         "label": "Skill Tab Bonus",
         "value": 1
       },
@@ -7833,7 +7833,7 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "charged"
+      "charged:150"
     ]
   },
   {
@@ -7906,8 +7906,8 @@
     "invFile": "invscp",
     "stats": [
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:59",
+        "label": "Chance to Cast on Striking (Blizzard)",
         "min": 6,
         "max": 5
       },
@@ -7945,19 +7945,19 @@
         "value": 30
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:114",
+        "label": "Skill Bonus (Holy Freeze)",
         "value": 2
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:118",
+        "label": "Skill Bonus (Holy Shock)",
         "value": 2
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "hit-skill",
+      "hit-skill:59",
       "dmg%"
     ]
   },
@@ -7977,14 +7977,14 @@
     "invFile": "invgsc",
     "stats": [
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:87",
+        "label": "Chance to Cast on Striking (Decrepify)",
         "min": 5,
         "max": 1
       },
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:81",
+        "label": "Chance to Cast on Striking (Confuse)",
         "min": 10,
         "max": 1
       },
@@ -8021,8 +8021,8 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "hit-skill",
-      "hit-skill",
+      "hit-skill:87",
+      "hit-skill:81",
       "dmg%",
       "att",
       "dmg-norm"
@@ -8056,8 +8056,8 @@
         "max": 45
       },
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:121",
+        "label": "Chance to Cast on Striking (Fist of the Heavens)",
         "min": 5,
         "max": 4
       }
@@ -8089,13 +8089,13 @@
         "value": 4
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:101",
+        "label": "Skill Bonus (Holy Bolt)",
         "value": 4
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:121",
+        "label": "Skill Bonus (Fist of the Heavens)",
         "value": 2
       }
     ],
@@ -8103,7 +8103,7 @@
     "statPriority": [
       "dmg%",
       "dmg-norm",
-      "hit-skill"
+      "hit-skill:121"
     ]
   },
   {
@@ -8161,7 +8161,7 @@
         "value": 1
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:16",
         "label": "Skill Tab Bonus",
         "value": 2
       },
@@ -8211,8 +8211,8 @@
         "max": 10
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:64",
+        "label": "Charges (Frozen Orb)",
         "min": 50,
         "max": 9
       }
@@ -8234,7 +8234,7 @@
       "dmg-cold",
       "dmg%",
       "dmg-norm",
-      "charged"
+      "charged:64"
     ]
   },
   {
@@ -8253,8 +8253,8 @@
     "invFile": "invmstu",
     "stats": [
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:56",
+        "label": "Chance to Cast on Striking (Meteor)",
         "min": 5,
         "max": 6
       },
@@ -8277,8 +8277,8 @@
         "max": 150
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:56",
+        "label": "Charges (Meteor)",
         "min": 60,
         "max": 11
       },
@@ -8298,11 +8298,11 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "hit-skill",
+      "hit-skill:56",
       "dmg-fire",
       "red-mag",
       "dmg%",
-      "charged",
+      "charged:56",
       "dmg-norm"
     ]
   },
@@ -8322,8 +8322,8 @@
     "invFile": "invfla",
     "stats": [
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:48",
+        "label": "Chance to Cast on Striking (Nova)",
         "min": 5,
         "max": 8
       },
@@ -8340,8 +8340,8 @@
         "max": 200
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:48",
+        "label": "Charges (Nova)",
         "min": 80,
         "max": 15
       }
@@ -8365,10 +8365,10 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "hit-skill",
+      "hit-skill:48",
       "dmg-ltng",
       "dmg%",
-      "charged"
+      "charged:48"
     ]
   },
   {
@@ -8387,8 +8387,8 @@
     "invFile": "invwhm",
     "stats": [
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:234",
+        "label": "Chance to Cast on Striking (Eruption)",
         "min": 5,
         "max": 7
       }
@@ -8415,7 +8415,7 @@
         "value": 1
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:17",
         "label": "Skill Tab Bonus",
         "value": 3
       },
@@ -8427,7 +8427,7 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "hit-skill"
+      "hit-skill:234"
     ]
   },
   {
@@ -8469,13 +8469,13 @@
         "value": 25
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:13",
         "label": "Skill Tab Bonus",
         "value": 2
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:129",
+        "label": "Skill Bonus (Mace Mastery)",
         "value": 3
       },
       {
@@ -8505,14 +8505,14 @@
     "invFile": "inv9gmu",
     "stats": [
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:66",
+        "label": "Chance to Cast on Striking (Amplify Damage)",
         "min": 5,
         "max": 1
       },
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:76",
+        "label": "Chance to Cast When Struck (Iron Maiden)",
         "min": 5,
         "max": 1
       },
@@ -8529,8 +8529,8 @@
         "max": 160
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:66",
+        "label": "Charges (Amplify Damage)",
         "min": 3,
         "max": 8
       }
@@ -8549,11 +8549,11 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "hit-skill",
-      "gethit-skill",
+      "hit-skill:66",
+      "gethit-skill:76",
       "dmg-norm",
       "dmg%",
-      "charged"
+      "charged:66"
     ]
   },
   {
@@ -8578,14 +8578,14 @@
         "max": 45
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:127",
+        "label": "Skill Bonus (Blade Mastery)",
         "min": 2,
         "max": 4
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:151",
+        "label": "Skill Bonus (Whirlwind)",
         "min": 1,
         "max": 3
       }
@@ -8625,8 +8625,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg-norm",
-      "skill",
-      "skill"
+      "skill:127",
+      "skill:151"
     ]
   },
   {
@@ -8704,8 +8704,8 @@
     "invFile": "invsbru",
     "stats": [
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:62",
+        "label": "Charges (Hydra)",
         "min": 36,
         "max": 6
       },
@@ -8746,7 +8746,7 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "charged",
+      "charged:62",
       "dmg-norm",
       "dmg%"
     ]
@@ -8926,8 +8926,8 @@
     "invFile": "inv9lsu",
     "stats": [
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:92",
+        "label": "Chance to Cast on Striking (Poison Nova)",
         "min": 5,
         "max": 4
       },
@@ -8955,14 +8955,14 @@
         "value": 45
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:238",
+        "label": "Skill Bonus (Rabies)",
         "value": 5
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "hit-skill",
+      "hit-skill:92",
       "dmg-norm"
     ]
   },
@@ -9106,8 +9106,8 @@
         "max": 140
       },
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:64",
+        "label": "Chance to Cast on Striking (Frozen Orb)",
         "min": 5,
         "max": 3
       },
@@ -9138,7 +9138,7 @@
     "setBonuses": [],
     "statPriority": [
       "dmg-cold",
-      "hit-skill",
+      "hit-skill:64",
       "dmg%"
     ]
   },
@@ -9158,8 +9158,8 @@
     "invFile": "invgisu",
     "stats": [
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:66",
+        "label": "Chance to Cast on Striking (Amplify Damage)",
         "min": 6,
         "max": 1
       },
@@ -9194,7 +9194,7 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "hit-skill",
+      "hit-skill:66",
       "dmg%"
     ]
   },
@@ -9214,8 +9214,8 @@
     "invFile": "invbswu",
     "stats": [
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:121",
+        "label": "Chance to Cast on Striking (Fist of the Heavens)",
         "min": 6,
         "max": 7
       },
@@ -9254,19 +9254,19 @@
         "value": 15
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:10",
         "label": "Skill Tab Bonus",
         "value": 2
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:11",
         "label": "Skill Tab Bonus",
         "value": 2
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "hit-skill",
+      "hit-skill:121",
       "dmg-ltng",
       "dmg%"
     ]
@@ -9293,8 +9293,8 @@
         "max": 200
       },
       {
-        "key": "att-skill",
-        "label": "Attack Rating (skill)",
+        "key": "att-skill:47",
+        "label": "Attack Rating (skill) (Fire Ball)",
         "min": 10,
         "max": 6
       },
@@ -9305,14 +9305,14 @@
         "max": 160
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:52",
+        "label": "Charges (Enchant)",
         "min": 45,
         "max": 10
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:51",
+        "label": "Charges (Fire Wall)",
         "min": 20,
         "max": 10
       }
@@ -9332,10 +9332,10 @@
     "setBonuses": [],
     "statPriority": [
       "dmg-fire",
-      "att-skill",
+      "att-skill:47",
       "dmg%",
-      "charged",
-      "charged"
+      "charged:52",
+      "charged:51"
     ]
   },
   {
@@ -9515,18 +9515,18 @@
         "value": 1
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:131",
+        "label": "Skill Bonus (Find Potion)",
         "value": 4
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:142",
+        "label": "Skill Bonus (Find Item)",
         "value": 4
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:150",
+        "label": "Skill Bonus (Grim Ward)",
         "value": 4
       }
     ],
@@ -9580,18 +9580,18 @@
         "value": 500
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:73",
+        "label": "Skill Bonus (Poison Dagger)",
         "value": 5
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:83",
+        "label": "Skill Bonus (Poison Explosion)",
         "value": 4
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:92",
+        "label": "Skill Bonus (Poison Nova)",
         "value": 4
       }
     ],
@@ -9622,8 +9622,8 @@
         "max": 120
       },
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:38",
+        "label": "Chance to Cast When Struck (Charged Bolt)",
         "min": 25,
         "max": 3
       }
@@ -9648,7 +9648,7 @@
     "setBonuses": [],
     "statPriority": [
       "dmg-ltng",
-      "gethit-skill"
+      "gethit-skill:38"
     ]
   },
   {
@@ -9700,13 +9700,13 @@
         "value": 1
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:19",
+        "label": "Skill Bonus (Impale)",
         "value": 5
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:14",
+        "label": "Skill Bonus (Power Strike)",
         "value": 3
       }
     ],
@@ -9938,7 +9938,7 @@
         "value": 12
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:9",
         "label": "Skill Tab Bonus",
         "value": 3
       },
@@ -9998,7 +9998,7 @@
         "value": 25
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:13",
         "label": "Skill Tab Bonus",
         "value": 3
       }
@@ -10037,8 +10037,8 @@
         "value": -25
       },
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:72",
+        "label": "Chance to Cast on Striking (Weaken)",
         "value": 5
       },
       {
@@ -10483,18 +10483,18 @@
         "value": 20
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:61",
+        "label": "Skill Bonus (Fire Mastery)",
         "value": 1
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:63",
+        "label": "Skill Bonus (Lightning Mastery)",
         "value": 1
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:65",
+        "label": "Skill Bonus (Cold Mastery)",
         "value": 1
       }
     ],
@@ -10531,18 +10531,18 @@
         "value": 1
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:54",
+        "label": "Skill Bonus (Teleport)",
         "value": 3
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:43",
+        "label": "Skill Bonus (Telekinesis)",
         "value": 3
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:58",
+        "label": "Skill Bonus (Energy Shield)",
         "value": 3
       },
       {
@@ -10622,8 +10622,8 @@
         "max": 200
       },
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:56",
+        "label": "Chance to Cast on Striking (Meteor)",
         "min": 2,
         "max": 6
       }
@@ -10654,7 +10654,7 @@
     "statPriority": [
       "dmg-ltng",
       "dmg%",
-      "hit-skill"
+      "hit-skill:56"
     ]
   },
   {
@@ -10743,8 +10743,8 @@
     ],
     "fixedStats": [
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:27",
+        "label": "Skill Bonus (Immolation Arrow)",
         "value": 3
       },
       {
@@ -10758,7 +10758,7 @@
         "value": 50
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:0",
         "label": "Skill Tab Bonus",
         "value": 3
       }
@@ -10785,8 +10785,8 @@
     "invFile": "invcbwu",
     "stats": [
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:26",
+        "label": "Skill Bonus (Strafe)",
         "min": 3,
         "max": 5
       },
@@ -10822,7 +10822,7 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "skill",
+      "skill:26",
       "dmg%",
       "dmg-cold"
     ]
@@ -10843,8 +10843,8 @@
     "invFile": "inv8s8u",
     "stats": [
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:66",
+        "label": "Chance to Cast on Striking (Amplify Damage)",
         "min": 2,
         "max": 5
       },
@@ -10879,7 +10879,7 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "hit-skill",
+      "hit-skill:66",
       "dmg%"
     ]
   },
@@ -10993,8 +10993,8 @@
         "value": 15
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:22",
+        "label": "Skill Bonus (Guided Arrow)",
         "value": 3
       },
       {
@@ -11061,8 +11061,8 @@
         "max": 200
       },
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:121",
+        "label": "Chance to Cast on Striking (Fist of the Heavens)",
         "min": 5,
         "max": 7
       }
@@ -11085,7 +11085,7 @@
       "att%",
       "dmg-undead",
       "dmg-demon",
-      "hit-skill"
+      "hit-skill:121"
     ]
   },
   {
@@ -11169,14 +11169,14 @@
     "invFile": "inv8mxu",
     "stats": [
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:91",
+        "label": "Chance to Cast on Striking (Lower Resist)",
         "min": 4,
         "max": 1
       },
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:92",
+        "label": "Chance to Cast When Struck (Poison Nova)",
         "min": 9,
         "max": 6
       },
@@ -11216,8 +11216,8 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "hit-skill",
-      "gethit-skill",
+      "hit-skill:91",
+      "gethit-skill:92",
       "dmg%"
     ]
   },
@@ -11547,14 +11547,14 @@
     "invFile": "invfhlu",
     "stats": [
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:71",
+        "label": "Chance to Cast When Struck (Dim Vision)",
         "min": 6,
         "max": 3
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:264",
+        "label": "Charges (Cloak of Shadows)",
         "min": 30,
         "max": 5
       },
@@ -11589,8 +11589,8 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "gethit-skill",
-      "charged",
+      "gethit-skill:71",
+      "charged:264",
       "res-fire"
     ]
   },
@@ -12650,8 +12650,8 @@
     "invFile": "invxaru",
     "stats": [
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:76",
+        "label": "Chance to Cast When Struck (Iron Maiden)",
         "min": 6,
         "max": 2
       },
@@ -12668,8 +12668,8 @@
         "max": 36
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:74",
+        "label": "Charges (Corpse Explosion)",
         "min": 40,
         "max": 5
       }
@@ -12693,10 +12693,10 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "gethit-skill",
+      "gethit-skill:76",
       "ac%",
       "dmg-fire",
-      "charged"
+      "charged:74"
     ]
   },
   {
@@ -12898,14 +12898,14 @@
         "max": 220
       },
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:59",
+        "label": "Chance to Cast When Struck (Blizzard)",
         "min": 4,
         "max": 6
       },
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:245",
+        "label": "Chance to Cast When Struck (Tornado)",
         "min": 4,
         "max": 5
       }
@@ -12941,8 +12941,8 @@
     "statPriority": [
       "dmg-ltng",
       "ac%",
-      "gethit-skill",
-      "gethit-skill"
+      "gethit-skill:59",
+      "gethit-skill:245"
     ]
   },
   {
@@ -12994,20 +12994,20 @@
         "max": 200
       },
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:44",
+        "label": "Chance to Cast When Struck (Frost Nova)",
         "min": 5,
         "max": 9
       },
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:48",
+        "label": "Chance to Cast When Struck (Nova)",
         "min": 5,
         "max": 7
       },
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:62",
+        "label": "Chance to Cast When Struck (Hydra)",
         "min": 3,
         "max": 6
       }
@@ -13026,9 +13026,9 @@
       "dmg-ltng",
       "res-all",
       "ac%",
-      "gethit-skill",
-      "gethit-skill",
-      "gethit-skill"
+      "gethit-skill:44",
+      "gethit-skill:48",
+      "gethit-skill:62"
     ]
   },
   {
@@ -13124,8 +13124,8 @@
         "max": 200
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:83",
+        "label": "Charges (Poison Explosion)",
         "min": 40,
         "max": 6
       }
@@ -13137,8 +13137,8 @@
         "value": 204
       },
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:92",
+        "label": "Chance to Cast When Struck (Poison Nova)",
         "value": 5
       },
       {
@@ -13165,7 +13165,7 @@
     "setBonuses": [],
     "statPriority": [
       "ac%",
-      "charged"
+      "charged:83"
     ]
   },
   {
@@ -13482,8 +13482,8 @@
     "invFile": "invtgl",
     "stats": [
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:52",
+        "label": "Chance to Cast on Striking (Enchant)",
         "min": 2,
         "max": 10
       },
@@ -13524,7 +13524,7 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "hit-skill",
+      "hit-skill:52",
       "ac%",
       "dmg-fire"
     ]
@@ -13560,14 +13560,14 @@
         "max": 200
       },
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:56",
+        "label": "Chance to Cast on Striking (Meteor)",
         "min": 2,
         "max": 4
       },
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:225",
+        "label": "Chance to Cast on Striking (Firestorm)",
         "min": 4,
         "max": 12
       }
@@ -13588,8 +13588,8 @@
     "statPriority": [
       "dmg-fire",
       "ac%",
-      "hit-skill",
-      "hit-skill"
+      "hit-skill:56",
+      "hit-skill:225"
     ]
   },
   {
@@ -13629,8 +13629,8 @@
         "max": 70
       },
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:46",
+        "label": "Chance to Cast When Struck (Blaze)",
         "min": 5,
         "max": 8
       }
@@ -13667,7 +13667,7 @@
       "dmg-fire",
       "ac%",
       "gold%",
-      "gethit-skill"
+      "gethit-skill:46"
     ]
   },
   {
@@ -14132,8 +14132,8 @@
     "invFile": "invtbl",
     "stats": [
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:59",
+        "label": "Chance to Cast When Struck (Blizzard)",
         "min": 5,
         "max": 0
       },
@@ -14162,24 +14162,24 @@
         "value": 15
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:59",
+        "label": "Skill Bonus (Blizzard)",
         "value": 2
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:55",
+        "label": "Skill Bonus (Glacial Spike)",
         "value": 3
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:60",
+        "label": "Skill Bonus (Chilling Armor)",
         "value": 2
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "gethit-skill",
+      "gethit-skill:59",
       "dmg-cold",
       "ac%"
     ]
@@ -14203,8 +14203,8 @@
     "invFile": "invhbl",
     "stats": [
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:121",
+        "label": "Chance to Cast When Struck (Fist of the Heavens)",
         "min": 5,
         "max": 7
       },
@@ -14243,19 +14243,19 @@
         "value": 20
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:34",
+        "label": "Skill Bonus (Lightning Strike)",
         "value": 3
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:35",
+        "label": "Skill Bonus (Lightning Fury)",
         "value": 3
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "gethit-skill",
+      "gethit-skill:121",
       "dmg-ltng",
       "ac%"
     ]
@@ -14543,8 +14543,8 @@
         "max": 200
       },
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:72",
+        "label": "Chance to Cast When Struck (Weaken)",
         "min": 4,
         "max": 5
       }
@@ -14584,7 +14584,7 @@
     "setBonuses": [],
     "statPriority": [
       "ac%",
-      "gethit-skill"
+      "gethit-skill:72"
     ]
   },
   {
@@ -14677,8 +14677,8 @@
         "max": 250
       },
       {
-        "key": "att-skill",
-        "label": "Attack Rating (skill)",
+        "key": "att-skill:47",
+        "label": "Attack Rating (skill) (Fire Ball)",
         "min": 10,
         "max": 0
       }
@@ -14713,7 +14713,7 @@
     "setBonuses": [],
     "statPriority": [
       "dmg-fire",
-      "att-skill"
+      "att-skill:47"
     ]
   },
   {
@@ -14874,8 +14874,8 @@
     "invFile": "invwhm",
     "stats": [
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:42",
+        "label": "Chance to Cast on Striking (Static Field)",
         "min": 20,
         "max": 10
       },
@@ -14931,7 +14931,7 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "hit-skill",
+      "hit-skill:42",
       "dmg%",
       "dmg-ltng"
     ]
@@ -14958,8 +14958,8 @@
         "max": 240
       },
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:66",
+        "label": "Chance to Cast on Striking (Amplify Damage)",
         "min": 4,
         "max": 1
       }
@@ -14999,7 +14999,7 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "hit-skill"
+      "hit-skill:66"
     ]
   },
   {
@@ -15018,8 +15018,8 @@
     "invFile": "invcrsu",
     "stats": [
       {
-        "key": "att-skill",
-        "label": "Attack Rating (skill)",
+        "key": "att-skill:53",
+        "label": "Attack Rating (skill) (Chain Lightning)",
         "min": 5,
         "max": 0
       },
@@ -15078,7 +15078,7 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "att-skill",
+      "att-skill:53",
       "dmg-mag",
       "dmg-ltng",
       "manasteal",
@@ -15114,8 +15114,8 @@
         "max": 100
       },
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:72",
+        "label": "Chance to Cast on Striking (Weaken)",
         "min": 8,
         "max": 3
       },
@@ -15147,7 +15147,7 @@
     "statPriority": [
       "dmg%",
       "dmg-norm",
-      "hit-skill",
+      "hit-skill:72",
       "lifesteal"
     ]
   },
@@ -15292,8 +15292,8 @@
         "max": 250
       },
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:38",
+        "label": "Chance to Cast When Struck (Charged Bolt)",
         "min": 2,
         "max": 0
       },
@@ -15311,8 +15311,8 @@
         "value": 50
       },
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:53",
+        "label": "Chance to Cast When Struck (Chain Lightning)",
         "value": 5
       },
       {
@@ -15339,7 +15339,7 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "gethit-skill",
+      "gethit-skill:38",
       "dmg-ltng"
     ]
   },
@@ -15562,8 +15562,8 @@
     "invFile": "invamu",
     "stats": [
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:56",
+        "label": "Chance to Cast When Struck (Meteor)",
         "min": 2,
         "max": 0
       },
@@ -15598,7 +15598,7 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "gethit-skill",
+      "gethit-skill:56",
       "dmg-fire"
     ]
   },
@@ -15728,8 +15728,8 @@
     "invFile": "invamu",
     "stats": [
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:66",
+        "label": "Chance to Cast on Striking (Amplify Damage)",
         "min": 5,
         "max": 2
       }
@@ -15763,7 +15763,7 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "hit-skill"
+      "hit-skill:66"
     ]
   },
   {
@@ -15954,8 +15954,8 @@
         "max": 25
       },
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:76",
+        "label": "Chance to Cast When Struck (Iron Maiden)",
         "min": 10,
         "max": 2
       }
@@ -15985,7 +15985,7 @@
     "setBonuses": [],
     "statPriority": [
       "res-all",
-      "gethit-skill"
+      "gethit-skill:76"
     ]
   },
   {
@@ -16026,7 +16026,7 @@
         "value": 2
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:12",
         "label": "Skill Tab Bonus",
         "value": 2
       },
@@ -16094,7 +16094,7 @@
         "value": 2
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:6",
         "label": "Skill Tab Bonus",
         "value": 2
       },
@@ -16175,7 +16175,7 @@
         "value": 2
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:2",
         "label": "Skill Tab Bonus",
         "value": 2
       },
@@ -16253,7 +16253,7 @@
         "value": 2
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:0",
         "label": "Skill Tab Bonus",
         "value": 2
       },
@@ -16326,7 +16326,7 @@
         "value": 2
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:2",
         "label": "Skill Tab Bonus",
         "value": 2
       },
@@ -16374,8 +16374,8 @@
     "invFile": "invob5",
     "stats": [
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:54",
+        "label": "Chance to Cast When Struck (Teleport)",
         "min": 25,
         "max": 1
       }
@@ -16424,7 +16424,7 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "gethit-skill"
+      "gethit-skill:54"
     ]
   },
   {
@@ -16459,7 +16459,7 @@
         "value": 2
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:9",
         "label": "Skill Tab Bonus",
         "value": 2
       },
@@ -16540,7 +16540,7 @@
         "value": 2
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:20",
         "label": "Skill Tab Bonus",
         "value": 1
       },
@@ -16604,7 +16604,7 @@
         "value": 2
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:16",
         "label": "Skill Tab Bonus",
         "value": 2
       },
@@ -16733,8 +16733,8 @@
         "max": 15
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:BloodGolem",
+        "label": "Charges (BloodGolem)",
         "min": 9,
         "max": 15
       },
@@ -16756,7 +16756,7 @@
     "statPriority": [
       "dmg%",
       "lifesteal",
-      "charged",
+      "charged:BloodGolem",
       "heal-kill"
     ]
   },
@@ -16912,8 +16912,8 @@
         "max": 250
       },
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:Nova",
+        "label": "Chance to Cast on Striking (Nova)",
         "min": 25,
         "max": 9
       }
@@ -16943,7 +16943,7 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "hit-skill"
+      "hit-skill:Nova"
     ]
   },
   {
@@ -17080,8 +17080,8 @@
         "max": 13
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:Enchant",
+        "label": "Charges (Enchant)",
         "min": 20,
         "max": 23
       },
@@ -17109,7 +17109,7 @@
       "dmg%",
       "dmg-fire",
       "lifesteal",
-      "charged",
+      "charged:Enchant",
       "res-fire"
     ]
   },
@@ -17285,7 +17285,7 @@
         "max": 12
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:7",
         "label": "Skill Tab Bonus",
         "min": 1,
         "max": 2
@@ -17303,7 +17303,7 @@
       "pierce-pois",
       "heal-kill",
       "mana-kill",
-      "skilltab"
+      "skilltab:7"
     ]
   },
   {
@@ -17334,8 +17334,8 @@
         "max": 30
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:Oak Sage",
+        "label": "Charges (Oak Sage)",
         "min": 27,
         "max": 5
       }
@@ -17356,7 +17356,7 @@
     "statPriority": [
       "red-dmg",
       "res-pois",
-      "charged"
+      "charged:Oak Sage"
     ]
   },
   {
@@ -17447,7 +17447,7 @@
     "invFile": "invamu2",
     "stats": [
       {
-        "key": "skilltab",
+        "key": "skilltab:11",
         "label": "Skill Tab Bonus",
         "min": 1,
         "max": 2
@@ -17491,7 +17491,7 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "skilltab",
+      "skilltab:11",
       "dmg-demon",
       "dmg-undead",
       "att-demon",
@@ -17579,8 +17579,8 @@
         "max": 280
       },
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:Tornado",
+        "label": "Chance to Cast on Striking (Tornado)",
         "min": 20,
         "max": 15
       }
@@ -17605,7 +17605,7 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "hit-skill"
+      "hit-skill:Tornado"
     ]
   },
   {
@@ -17700,13 +17700,13 @@
         "max": 50
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:19",
         "label": "Skill Tab Bonus",
         "min": 1,
         "max": 2
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:20",
         "label": "Skill Tab Bonus",
         "min": 1,
         "max": 2
@@ -17724,8 +17724,8 @@
       "dmg%",
       "manasteal",
       "res-all",
-      "skilltab",
-      "skilltab"
+      "skilltab:19",
+      "skilltab:20"
     ]
   },
   {
@@ -17759,7 +17759,7 @@
         "max": 25
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:19",
         "label": "Skill Tab Bonus",
         "min": 1,
         "max": 2
@@ -17786,7 +17786,7 @@
     "statPriority": [
       "ac%",
       "dex",
-      "skilltab"
+      "skilltab:19"
     ]
   },
   {
@@ -17814,7 +17814,7 @@
         "max": 140
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:16",
         "label": "Skill Tab Bonus",
         "min": 2,
         "max": 4
@@ -17832,8 +17832,8 @@
         "max": 120
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:feral rage",
+        "label": "Skill Bonus (feral rage)",
         "min": 1,
         "max": 2
       }
@@ -17848,10 +17848,10 @@
     "setBonuses": [],
     "statPriority": [
       "ac%",
-      "skilltab",
+      "skilltab:16",
       "lifesteal",
       "att%",
-      "skill"
+      "skill:feral rage"
     ]
   },
   {
@@ -17969,8 +17969,8 @@
         "max": 7
       },
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:Weaken",
+        "label": "Chance to Cast on Striking (Weaken)",
         "min": 8,
         "max": 3
       }
@@ -17987,7 +17987,7 @@
       "ac%",
       "manasteal",
       "lifesteal",
-      "hit-skill"
+      "hit-skill:Weaken"
     ]
   },
   {
@@ -18178,7 +18178,7 @@
         "max": 600
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:2",
         "label": "Skill Tab Bonus",
         "min": 1,
         "max": 3
@@ -18191,7 +18191,7 @@
       "dmg-mag",
       "res-all",
       "ac",
-      "skilltab"
+      "skilltab:2"
     ]
   },
   {
@@ -18274,8 +18274,8 @@
         "max": 20
       },
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:Lightning",
+        "label": "Chance to Cast on Striking (Lightning)",
         "min": 10,
         "max": 16
       },
@@ -18286,20 +18286,20 @@
         "max": 20
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:Oak Sage",
+        "label": "Charges (Oak Sage)",
         "min": 15,
         "max": 2
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:Heart of Wolverine",
+        "label": "Charges (Heart of Wolverine)",
         "min": 13,
         "max": 5
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:Spirit of Barbs",
+        "label": "Charges (Spirit of Barbs)",
         "min": 11,
         "max": 7
       }
@@ -18308,11 +18308,11 @@
     "setBonuses": [],
     "statPriority": [
       "abs-ltng%",
-      "hit-skill",
+      "hit-skill:Lightning",
       "mag%",
-      "charged",
-      "charged",
-      "charged"
+      "charged:Oak Sage",
+      "charged:Heart of Wolverine",
+      "charged:Spirit of Barbs"
     ]
   },
   {
@@ -18343,8 +18343,8 @@
         "max": 15
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:Plague Javelin",
+        "label": "Charges (Plague Javelin)",
         "min": 60,
         "max": 11
       }
@@ -18365,7 +18365,7 @@
     "statPriority": [
       "dmg%",
       "lifesteal",
-      "charged"
+      "charged:Plague Javelin"
     ]
   },
   {
@@ -18390,8 +18390,8 @@
         "max": 210
       },
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:Amplify Damage",
+        "label": "Chance to Cast on Striking (Amplify Damage)",
         "min": 33,
         "max": 3
       }
@@ -18426,7 +18426,7 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "hit-skill"
+      "hit-skill:Amplify Damage"
     ]
   },
   {
@@ -18515,8 +18515,8 @@
         "max": 250
       },
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:Poison Explosion",
+        "label": "Chance to Cast on Striking (Poison Explosion)",
         "min": 15,
         "max": 9
       },
@@ -18543,7 +18543,7 @@
     "statPriority": [
       "dmg%",
       "att",
-      "hit-skill",
+      "hit-skill:Poison Explosion",
       "res-pois"
     ]
   },
@@ -18656,19 +18656,19 @@
         "max": 77
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:12",
         "label": "Skill Tab Bonus",
         "min": 1,
         "max": 3
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:13",
         "label": "Skill Tab Bonus",
         "min": 1,
         "max": 3
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:14",
         "label": "Skill Tab Bonus",
         "min": 1,
         "max": 3
@@ -18686,9 +18686,9 @@
       "ac%",
       "lifesteal",
       "thorns",
-      "skilltab",
-      "skilltab",
-      "skilltab"
+      "skilltab:12",
+      "skilltab:13",
+      "skilltab:14"
     ]
   },
   {
@@ -18713,8 +18713,8 @@
         "max": 240
       },
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:Decrepify",
+        "label": "Chance to Cast on Striking (Decrepify)",
         "min": 33,
         "max": 1
       },
@@ -18751,7 +18751,7 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "hit-skill",
+      "hit-skill:Decrepify",
       "lifesteal",
       "dmg-cold"
     ]
@@ -18860,8 +18860,8 @@
         "max": 150
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:Immolation Arrow",
+        "label": "Charges (Immolation Arrow)",
         "min": 150,
         "max": 18
       }
@@ -18883,7 +18883,7 @@
       "dmg%",
       "dmg-elem",
       "att%",
-      "charged"
+      "charged:Immolation Arrow"
     ]
   },
   {
@@ -18981,19 +18981,19 @@
         "max": 180
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:6",
         "label": "Skill Tab Bonus",
         "min": 1,
         "max": 3
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:7",
         "label": "Skill Tab Bonus",
         "min": 1,
         "max": 3
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:8",
         "label": "Skill Tab Bonus",
         "min": 1,
         "max": 3
@@ -19014,9 +19014,9 @@
     "setBonuses": [],
     "statPriority": [
       "ac%",
-      "skilltab",
-      "skilltab",
-      "skilltab"
+      "skilltab:6",
+      "skilltab:7",
+      "skilltab:8"
     ]
   },
   {
@@ -19041,8 +19041,8 @@
         "max": 200
       },
       {
-        "key": "oskill",
-        "label": "oskill",
+        "key": "oskill:Guided Arrow",
+        "label": "Skill Bonus (Guided Arrow)",
         "min": 3,
         "max": 5
       }
@@ -19067,7 +19067,7 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "oskill"
+      "oskill:Guided Arrow"
     ]
   },
   {
@@ -19098,14 +19098,14 @@
         "max": 300
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:0",
         "label": "Skill Tab Bonus",
         "min": 2,
         "max": 4
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:Revive",
+        "label": "Charges (Revive)",
         "min": 30,
         "max": 5
       }
@@ -19121,8 +19121,8 @@
     "statPriority": [
       "dmg%",
       "att%",
-      "skilltab",
-      "charged"
+      "skilltab:0",
+      "charged:Revive"
     ]
   },
   {
@@ -19214,8 +19214,8 @@
         "max": 15
       },
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:Frost Nova",
+        "label": "Chance to Cast on Striking (Frost Nova)",
         "min": 33,
         "max": 8
       }
@@ -19246,7 +19246,7 @@
     "statPriority": [
       "dmg%",
       "mana-kill",
-      "hit-skill"
+      "hit-skill:Frost Nova"
     ]
   },
   {
@@ -19387,8 +19387,8 @@
         "max": 230
       },
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:Twister",
+        "label": "Chance to Cast on Striking (Twister)",
         "min": 33,
         "max": 22
       }
@@ -19408,7 +19408,7 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "hit-skill"
+      "hit-skill:Twister"
     ]
   },
   {
@@ -19439,13 +19439,13 @@
         "max": 511
       },
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:Lightning",
+        "label": "Chance to Cast on Striking (Lightning)",
         "min": 20,
         "max": 14
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:2",
         "label": "Skill Tab Bonus",
         "min": 2,
         "max": 4
@@ -19463,8 +19463,8 @@
         "value": 15
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:Lightning Bolt",
+        "label": "Skill Bonus (Lightning Bolt)",
         "value": 3
       }
     ],
@@ -19472,8 +19472,8 @@
     "statPriority": [
       "dmg%",
       "dmg-ltng",
-      "hit-skill",
-      "skilltab"
+      "hit-skill:Lightning",
+      "skilltab:2"
     ]
   },
   {
@@ -19561,8 +19561,8 @@
         "max": 150
       },
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:Terror",
+        "label": "Chance to Cast When Struck (Terror)",
         "min": 15,
         "max": 3
       },
@@ -19589,7 +19589,7 @@
     "setBonuses": [],
     "statPriority": [
       "ac%",
-      "gethit-skill",
+      "gethit-skill:Terror",
       "nec",
       "res-all"
     ]
@@ -19822,8 +19822,8 @@
         "max": 30
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:278",
+        "label": "Charges (Venom)",
         "min": 20,
         "max": 3
       },
@@ -19856,8 +19856,8 @@
         "value": 20
       },
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:92",
+        "label": "Chance to Cast When Struck (Poison Nova)",
         "value": 15
       },
       {
@@ -19870,7 +19870,7 @@
     "statPriority": [
       "ac%",
       "str",
-      "charged",
+      "charged:278",
       "lifesteal"
     ]
   },
@@ -19924,8 +19924,8 @@
         "value": 5
       },
       {
-        "key": "oskill",
-        "label": "oskill",
+        "key": "oskill:Hydra",
+        "label": "Skill Bonus (Hydra)",
         "value": 10
       },
       {
@@ -19985,8 +19985,8 @@
         "max": 15
       },
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:Iron Maiden",
+        "label": "Chance to Cast When Struck (Iron Maiden)",
         "min": 8,
         "max": 6
       }
@@ -20009,7 +20009,7 @@
       "red-dmg",
       "res-cold",
       "regen-mana",
-      "gethit-skill"
+      "gethit-skill:Iron Maiden"
     ]
   },
   {
@@ -20037,8 +20037,8 @@
         "max": 180
       },
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:Lower Resist",
+        "label": "Chance to Cast When Struck (Lower Resist)",
         "min": 10,
         "max": 7
       },
@@ -20049,8 +20049,8 @@
         "max": 9
       },
       {
-        "key": "death-skill",
-        "label": "death-skill",
+        "key": "death-skill:Nova",
+        "label": "Chance to Cast on Death % (Nova)",
         "min": 100,
         "max": 44
       },
@@ -20071,9 +20071,9 @@
     "setBonuses": [],
     "statPriority": [
       "ac%",
-      "gethit-skill",
+      "gethit-skill:Lower Resist",
       "lifesteal",
-      "death-skill",
+      "death-skill:Nova",
       "res-cold"
     ]
   },
@@ -20122,13 +20122,13 @@
     ],
     "fixedStats": [
       {
-        "key": "skilltab",
+        "key": "skilltab:17",
         "label": "Skill Tab Bonus",
         "value": 3
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:Raven",
+        "label": "Skill Bonus (Raven)",
         "value": 7
       }
     ],
@@ -20156,32 +20156,32 @@
     "invFile": "invbwnu",
     "stats": [
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:Teeth",
+        "label": "Skill Bonus (Teeth)",
         "min": 4,
         "max": 5
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:Bone Armor",
+        "label": "Skill Bonus (Bone Armor)",
         "min": 4,
         "max": 5
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:Bone Spear",
+        "label": "Skill Bonus (Bone Spear)",
         "min": 2,
         "max": 3
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:Bone Spirit",
+        "label": "Skill Bonus (Bone Spirit)",
         "min": 1,
         "max": 2
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:Bone Wall",
+        "label": "Skill Bonus (Bone Wall)",
         "min": 2,
         "max": 3
       }
@@ -20200,11 +20200,11 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "skill",
-      "skill",
-      "skill",
-      "skill",
-      "skill"
+      "skill:Teeth",
+      "skill:Bone Armor",
+      "skill:Bone Spear",
+      "skill:Bone Spirit",
+      "skill:Bone Wall"
     ]
   },
   {
@@ -20241,8 +20241,8 @@
         "max": 30
       },
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:Firestorm",
+        "label": "Chance to Cast on Striking (Firestorm)",
         "min": 12,
         "max": 16
       },
@@ -20259,8 +20259,8 @@
         "max": 10
       },
       {
-        "key": "oskill",
-        "label": "oskill",
+        "key": "oskill:Inferno",
+        "label": "Skill Bonus (Inferno)",
         "min": 12,
         "max": 18
       }
@@ -20277,10 +20277,10 @@
       "dmg%",
       "dmg-fire",
       "abs-fire%",
-      "hit-skill",
+      "hit-skill:Firestorm",
       "str",
       "vit",
-      "oskill"
+      "oskill:Inferno"
     ]
   },
   {
@@ -20361,7 +20361,7 @@
         "max": 150
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:14",
         "label": "Skill Tab Bonus",
         "min": 2,
         "max": 3
@@ -20385,26 +20385,26 @@
         "max": 15
       },
       {
-        "key": "oskill",
-        "label": "oskill",
+        "key": "oskill:Wearwolf",
+        "label": "Skill Bonus (Wearwolf)",
         "min": 3,
         "max": 6
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:Summon Fenris",
+        "label": "Charges (Summon Fenris)",
         "min": 18,
         "max": 15
       },
       {
-        "key": "oskill",
-        "label": "oskill",
+        "key": "oskill:Shape Shifting",
+        "label": "Skill Bonus (Shape Shifting)",
         "min": 3,
         "max": 6
       },
       {
-        "key": "oskill",
-        "label": "oskill",
+        "key": "oskill:Feral Rage",
+        "label": "Skill Bonus (Feral Rage)",
         "min": 3,
         "max": 6
       }
@@ -20413,14 +20413,14 @@
     "setBonuses": [],
     "statPriority": [
       "ac%",
-      "skilltab",
+      "skilltab:14",
       "str",
       "dex",
       "vit",
-      "oskill",
-      "charged",
-      "oskill",
-      "oskill"
+      "oskill:Wearwolf",
+      "charged:Summon Fenris",
+      "oskill:Shape Shifting",
+      "oskill:Feral Rage"
     ]
   },
   {
@@ -20466,8 +20466,8 @@
         "max": 30
       },
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:Fade",
+        "label": "Chance to Cast When Struck (Fade)",
         "min": 5,
         "max": 8
       }
@@ -20485,7 +20485,7 @@
       "abs-cold",
       "res-all",
       "block",
-      "gethit-skill"
+      "gethit-skill:Fade"
     ]
   },
   {
@@ -20673,14 +20673,14 @@
         "max": 300
       },
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:Static Field",
+        "label": "Chance to Cast on Striking (Static Field)",
         "min": 15,
         "max": 10
       },
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:Tornado",
+        "label": "Chance to Cast on Striking (Tornado)",
         "min": 20,
         "max": 18
       },
@@ -20717,8 +20717,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "hit-skill",
-      "hit-skill",
+      "hit-skill:Static Field",
+      "hit-skill:Tornado",
       "dmg-ltng",
       "abs-ltng"
     ]
@@ -20754,21 +20754,21 @@
         "max": 23
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:Battle Orders",
+        "label": "Skill Bonus (Battle Orders)",
         "min": 1,
         "max": 2
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:Battle Command",
+        "label": "Skill Bonus (Battle Command)",
         "min": 1,
         "max": 2
       }
     ],
     "fixedStats": [
       {
-        "key": "skilltab",
+        "key": "skilltab:13",
         "label": "Skill Tab Bonus",
         "value": 1
       },
@@ -20787,8 +20787,8 @@
     "statPriority": [
       "ac%",
       "regen",
-      "skill",
-      "skill"
+      "skill:Battle Orders",
+      "skill:Battle Command"
     ]
   },
   {
@@ -20881,8 +20881,8 @@
         "max": 10
       },
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:Life Tap",
+        "label": "Chance to Cast on Striking (Life Tap)",
         "min": 5,
         "max": 10
       },
@@ -20910,7 +20910,7 @@
     "statPriority": [
       "ac%",
       "lifesteal",
-      "hit-skill",
+      "hit-skill:Life Tap",
       "heal-kill",
       "str"
     ]
@@ -20949,8 +20949,8 @@
         "max": 15
       },
       {
-        "key": "oskill",
-        "label": "oskill",
+        "key": "oskill:Arctic Blast",
+        "label": "Skill Bonus (Arctic Blast)",
         "min": 7,
         "max": 14
       }
@@ -20977,7 +20977,7 @@
       "dmg%",
       "dmg-cold",
       "abs-cold%",
-      "oskill"
+      "oskill:Arctic Blast"
     ]
   },
   {
@@ -21029,7 +21029,7 @@
         "max": 15
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:10",
         "label": "Skill Tab Bonus",
         "min": 1,
         "max": 2
@@ -21049,7 +21049,7 @@
       "stam",
       "str",
       "vit",
-      "skilltab"
+      "skilltab:10"
     ]
   },
   {
@@ -21129,7 +21129,7 @@
         "max": 270
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:20",
         "label": "Skill Tab Bonus",
         "min": 1,
         "max": 3
@@ -21147,14 +21147,14 @@
         "max": 70
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:Wake of Fire Sentry",
+        "label": "Skill Bonus (Wake of Fire Sentry)",
         "min": 1,
         "max": 2
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:Inferno Sentry",
+        "label": "Skill Bonus (Inferno Sentry)",
         "min": 1,
         "max": 2
       }
@@ -21169,11 +21169,11 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "skilltab",
+      "skilltab:20",
       "dmg-fire",
       "res-fire",
-      "skill",
-      "skill"
+      "skill:Wake of Fire Sentry",
+      "skill:Inferno Sentry"
     ]
   },
   {
@@ -21279,14 +21279,14 @@
         "max": 200
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:Bone Prison",
+        "label": "Charges (Bone Prison)",
         "min": 13,
         "max": 33
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:Life Tap",
+        "label": "Charges (Life Tap)",
         "min": 10,
         "max": 12
       },
@@ -21297,8 +21297,8 @@
         "max": 20
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:Skeleton Mastery",
+        "label": "Skill Bonus (Skeleton Mastery)",
         "min": 1,
         "max": 2
       }
@@ -21333,10 +21333,10 @@
     "setBonuses": [],
     "statPriority": [
       "ac%",
-      "charged",
-      "charged",
+      "charged:Bone Prison",
+      "charged:Life Tap",
       "str",
-      "skill"
+      "skill:Skeleton Mastery"
     ]
   },
   {
@@ -21434,8 +21434,8 @@
         "max": 120
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:Venom",
+        "label": "Charges (Venom)",
         "min": 11,
         "max": 3
       }
@@ -21465,7 +21465,7 @@
     "setBonuses": [],
     "statPriority": [
       "ac%",
-      "charged"
+      "charged:Venom"
     ]
   },
   {
@@ -21559,14 +21559,14 @@
         "max": 450
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:IronGolem",
+        "label": "Charges (IronGolem)",
         "min": 11,
         "max": 22
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:Iron Maiden",
+        "label": "Charges (Iron Maiden)",
         "min": 20,
         "max": 12
       }
@@ -21577,8 +21577,8 @@
       "ac",
       "res-all",
       "att",
-      "charged",
-      "charged"
+      "charged:IronGolem",
+      "charged:Iron Maiden"
     ]
   },
   {
@@ -21674,14 +21674,14 @@
         "max": 9
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:Plague Poppy",
+        "label": "Charges (Plague Poppy)",
         "min": 15,
         "max": 21
       },
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:Twister",
+        "label": "Chance to Cast on Striking (Twister)",
         "min": 8,
         "max": 13
       }
@@ -21693,8 +21693,8 @@
         "value": 55
       },
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:Poison Nova",
+        "label": "Chance to Cast When Struck (Poison Nova)",
         "value": 10
       },
       {
@@ -21707,8 +21707,8 @@
     "statPriority": [
       "ac-miss",
       "lifesteal",
-      "charged",
-      "hit-skill"
+      "charged:Plague Poppy",
+      "hit-skill:Twister"
     ]
   },
   {
@@ -21813,7 +21813,7 @@
         "max": 85
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:9",
         "label": "Skill Tab Bonus",
         "min": 2,
         "max": 4
@@ -21843,7 +21843,7 @@
       "dmg-mag",
       "red-dmg",
       "dmg",
-      "skilltab"
+      "skilltab:9"
     ]
   },
   {
@@ -21984,8 +21984,8 @@
         "max": 50
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:Raven",
+        "label": "Charges (Raven)",
         "min": 15,
         "max": 8
       }
@@ -22007,7 +22007,7 @@
       "dmg%",
       "dmg-ltng",
       "mag%",
-      "charged"
+      "charged:Raven"
     ]
   },
   {
@@ -22038,8 +22038,8 @@
         "max": 4
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:Blizzard",
+        "label": "Charges (Blizzard)",
         "min": 12,
         "max": 16
       },
@@ -22073,7 +22073,7 @@
     "statPriority": [
       "dmg%",
       "freeze",
-      "charged",
+      "charged:Blizzard",
       "att%",
       "abs-cold%",
       "dmg-cold"
@@ -22101,14 +22101,14 @@
         "max": 300
       },
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:Eruption",
+        "label": "Chance to Cast on Striking (Eruption)",
         "min": 25,
         "max": 14
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:Volcano",
+        "label": "Charges (Volcano)",
         "min": 30,
         "max": 14
       }
@@ -22125,7 +22125,7 @@
         "value": 10
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:17",
         "label": "Skill Tab Bonus",
         "value": 7
       },
@@ -22138,8 +22138,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "hit-skill",
-      "charged"
+      "hit-skill:Eruption",
+      "charged:Volcano"
     ]
   },
   {
@@ -22215,14 +22215,14 @@
         "max": 320
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:Corpse Explosion",
+        "label": "Charges (Corpse Explosion)",
         "min": 30,
         "max": 14
       },
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:Bone Spear",
+        "label": "Chance to Cast on Striking (Bone Spear)",
         "min": 50,
         "max": 16
       }
@@ -22247,8 +22247,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "charged",
-      "hit-skill"
+      "charged:Corpse Explosion",
+      "hit-skill:Bone Spear"
     ]
   },
   {
@@ -22339,14 +22339,14 @@
         "max": 250
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:Redemption",
+        "label": "Skill Bonus (Redemption)",
         "min": 2,
         "max": 4
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:Holy Bolt",
+        "label": "Skill Bonus (Holy Bolt)",
         "min": 2,
         "max": 4
       },
@@ -22383,8 +22383,8 @@
     "statPriority": [
       "dmg%",
       "dmg-demon",
-      "skill",
-      "skill",
+      "skill:Redemption",
+      "skill:Holy Bolt",
       "dmg"
     ]
   },
@@ -22539,8 +22539,8 @@
         "max": 5
       },
       {
-        "key": "death-skill",
-        "label": "death-skill",
+        "key": "death-skill:Chain Lightning",
+        "label": "Chance to Cast on Death % (Chain Lightning)",
         "min": 100,
         "max": 47
       }
@@ -22551,7 +22551,7 @@
       "dmg-ltng",
       "pierce-ltng",
       "extra-ltng",
-      "death-skill"
+      "death-skill:Chain Lightning"
     ]
   },
   {
@@ -22588,8 +22588,8 @@
         "max": 5
       },
       {
-        "key": "death-skill",
-        "label": "death-skill",
+        "key": "death-skill:Blizzard",
+        "label": "Chance to Cast on Death % (Blizzard)",
         "min": 100,
         "max": 37
       }
@@ -22600,7 +22600,7 @@
       "dmg-cold",
       "pierce-cold",
       "extra-cold",
-      "death-skill"
+      "death-skill:Blizzard"
     ]
   },
   {
@@ -22637,8 +22637,8 @@
         "max": 5
       },
       {
-        "key": "death-skill",
-        "label": "death-skill",
+        "key": "death-skill:Meteor",
+        "label": "Chance to Cast on Death % (Meteor)",
         "min": 100,
         "max": 31
       }
@@ -22649,7 +22649,7 @@
       "dmg-fire",
       "pierce-fire",
       "extra-fire",
-      "death-skill"
+      "death-skill:Meteor"
     ]
   },
   {
@@ -22680,8 +22680,8 @@
         "max": 5
       },
       {
-        "key": "death-skill",
-        "label": "death-skill",
+        "key": "death-skill:Poison Nova",
+        "label": "Chance to Cast on Death % (Poison Nova)",
         "min": 100,
         "max": 51
       }
@@ -22697,7 +22697,7 @@
     "statPriority": [
       "pierce-pois",
       "extra-pois",
-      "death-skill"
+      "death-skill:Poison Nova"
     ]
   },
   {
@@ -22734,8 +22734,8 @@
         "max": 5
       },
       {
-        "key": "levelup-skill",
-        "label": "levelup-skill",
+        "key": "levelup-skill:Nova",
+        "label": "Chance to Cast on Level-Up % (Nova)",
         "min": 100,
         "max": 41
       }
@@ -22746,7 +22746,7 @@
       "dmg-ltng",
       "pierce-ltng",
       "extra-ltng",
-      "levelup-skill"
+      "levelup-skill:Nova"
     ]
   },
   {
@@ -22783,8 +22783,8 @@
         "max": 5
       },
       {
-        "key": "levelup-skill",
-        "label": "levelup-skill",
+        "key": "levelup-skill:Frost Nova",
+        "label": "Chance to Cast on Level-Up % (Frost Nova)",
         "min": 100,
         "max": 43
       }
@@ -22795,7 +22795,7 @@
       "dmg-cold",
       "pierce-cold",
       "extra-cold",
-      "levelup-skill"
+      "levelup-skill:Frost Nova"
     ]
   },
   {
@@ -22832,8 +22832,8 @@
         "max": 5
       },
       {
-        "key": "levelup-skill",
-        "label": "levelup-skill",
+        "key": "levelup-skill:Blaze",
+        "label": "Chance to Cast on Level-Up % (Blaze)",
         "min": 100,
         "max": 29
       }
@@ -22844,7 +22844,7 @@
       "dmg-fire",
       "pierce-fire",
       "extra-fire",
-      "levelup-skill"
+      "levelup-skill:Blaze"
     ]
   },
   {
@@ -22875,8 +22875,8 @@
         "max": 5
       },
       {
-        "key": "levelup-skill",
-        "label": "levelup-skill",
+        "key": "levelup-skill:Venom",
+        "label": "Chance to Cast on Level-Up % (Venom)",
         "min": 100,
         "max": 23
       }
@@ -22892,7 +22892,7 @@
     "statPriority": [
       "pierce-pois",
       "extra-pois",
-      "levelup-skill"
+      "levelup-skill:Venom"
     ]
   },
   {
@@ -22929,14 +22929,14 @@
         "max": 20
       },
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:197",
+        "label": "Chance to Cast on Striking (DiabWall)",
         "min": 5,
         "max": 10
       },
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:Hydra",
+        "label": "Charges (Hydra)",
         "min": 10,
         "max": 30
       }
@@ -22953,8 +22953,8 @@
       "randclassskill",
       "all-stats",
       "res-all",
-      "hit-skill",
-      "charged"
+      "hit-skill:197",
+      "charged:Hydra"
     ]
   },
   {
@@ -22976,8 +22976,8 @@
     "invFile": "invbbb",
     "stats": [
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:Terror",
+        "label": "Chance to Cast When Struck (Terror)",
         "min": 15,
         "max": 1
       },
@@ -23012,15 +23012,15 @@
         "max": 30
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:Apocalypse",
+        "label": "Skill Bonus (Apocalypse)",
         "min": 3,
         "max": 5
       }
     ],
     "fixedStats": [
       {
-        "key": "skilltab",
+        "key": "skilltab:23",
         "label": "Skill Tab Bonus",
         "value": 2
       },
@@ -23032,13 +23032,13 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "gethit-skill",
+      "gethit-skill:Terror",
       "ac%",
       "extra-fire",
       "light",
       "mana-kill",
       "res-fire",
-      "skill"
+      "skill:Apocalypse"
     ]
   },
   {
@@ -23060,32 +23060,32 @@
     "invFile": "invbbb",
     "stats": [
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:Decrepify",
+        "label": "Chance to Cast When Struck (Decrepify)",
         "min": 15,
         "max": 1
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:Demonic Mastery",
+        "label": "Skill Bonus (Demonic Mastery)",
         "min": 2,
         "max": 3
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:Blood Boil",
+        "label": "Skill Bonus (Blood Boil)",
         "min": 2,
         "max": 4
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:Engorge",
+        "label": "Skill Bonus (Engorge)",
         "min": 2,
         "max": 3
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:Consume",
+        "label": "Skill Bonus (Consume)",
         "min": 2,
         "max": 3
       },
@@ -23104,7 +23104,7 @@
     ],
     "fixedStats": [
       {
-        "key": "skilltab",
+        "key": "skilltab:21",
         "label": "Skill Tab Bonus",
         "value": 2
       },
@@ -23116,11 +23116,11 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "gethit-skill",
-      "skill",
-      "skill",
-      "skill",
-      "skill",
+      "gethit-skill:Decrepify",
+      "skill:Demonic Mastery",
+      "skill:Blood Boil",
+      "skill:Engorge",
+      "skill:Consume",
       "ac%",
       "red-dmg%"
     ]
@@ -23144,8 +23144,8 @@
     "invFile": "invbbb",
     "stats": [
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:Blizzard",
+        "label": "Chance to Cast When Struck (Blizzard)",
         "min": 15,
         "max": 28
       },
@@ -23200,7 +23200,7 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "gethit-skill",
+      "gethit-skill:Blizzard",
       "cast1",
       "dmg%",
       "att%",
@@ -23228,8 +23228,8 @@
     "invFile": "invbbb",
     "stats": [
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:Ring of Fire",
+        "label": "Chance to Cast When Struck (Ring of Fire)",
         "min": 5,
         "max": 25
       },
@@ -23240,20 +23240,20 @@
         "max": 180
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:Summon Tainted",
+        "label": "Skill Bonus (Summon Tainted)",
         "min": 1,
         "max": 3
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:Ring of Fire",
+        "label": "Skill Bonus (Ring of Fire)",
         "min": 1,
         "max": 3
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:Flame Wave",
+        "label": "Skill Bonus (Flame Wave)",
         "min": 1,
         "max": 3
       },
@@ -23290,11 +23290,11 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "gethit-skill",
+      "gethit-skill:Ring of Fire",
       "ac%",
-      "skill",
-      "skill",
-      "skill",
+      "skill:Summon Tainted",
+      "skill:Ring of Fire",
+      "skill:Flame Wave",
       "vit",
       "heal-kill",
       "res-all"
@@ -23316,8 +23316,8 @@
     "invFile": "inv2hsu",
     "stats": [
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:Amplify Damage",
+        "label": "Chance to Cast on Striking (Amplify Damage)",
         "min": 33,
         "max": 3
       },
@@ -23346,8 +23346,8 @@
         "value": 33
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:Mirrored Blades",
+        "label": "Skill Bonus (Mirrored Blades)",
         "value": 3
       },
       {
@@ -23363,7 +23363,7 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "hit-skill",
+      "hit-skill:Amplify Damage",
       "dmg%",
       "manasteal"
     ]
@@ -23451,20 +23451,20 @@
         "max": 15
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:Blood Oath",
+        "label": "Skill Bonus (Blood Oath)",
         "min": 2,
         "max": 3
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:Blood Boil",
+        "label": "Skill Bonus (Blood Boil)",
         "min": 2,
         "max": 3
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:Bind Demon",
+        "label": "Skill Bonus (Bind Demon)",
         "min": 1,
         "max": 3
       },
@@ -23495,9 +23495,9 @@
     "setBonuses": [],
     "statPriority": [
       "hp%",
-      "skill",
-      "skill",
-      "skill",
+      "skill:Blood Oath",
+      "skill:Blood Boil",
+      "skill:Bind Demon",
       "mag%"
     ]
   },
@@ -23537,8 +23537,8 @@
     ],
     "fixedStats": [
       {
-        "key": "oskill",
-        "label": "oskill",
+        "key": "oskill:Townportal O Skill",
+        "label": "Skill Bonus (Townportal O Skill)",
         "value": 1
       },
       {
@@ -23575,8 +23575,8 @@
     "invFile": "invrin",
     "stats": [
       {
-        "key": "att-skill",
-        "label": "Attack Rating (skill)",
+        "key": "att-skill:Flame Wave",
+        "label": "Attack Rating (skill) (Flame Wave)",
         "min": 2,
         "max": 15
       },
@@ -23613,7 +23613,7 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "att-skill",
+      "att-skill:Flame Wave",
       "res-all",
       "heal-kill",
       "mana-kill"
@@ -23635,8 +23635,8 @@
     "invFile": "invamu",
     "stats": [
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:Miasma Chains",
+        "label": "Chance to Cast on Striking (Miasma Chains)",
         "min": 4,
         "max": 19
       },
@@ -23674,7 +23674,7 @@
     "fixedStats": [],
     "setBonuses": [],
     "statPriority": [
-      "hit-skill",
+      "hit-skill:Miasma Chains",
       "extra-mag",
       "cast1",
       "res-ltng",

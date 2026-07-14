@@ -4,6 +4,8 @@ Source: https://github.com/blizzhackers/d2data (MIT License, see LICENSE in this
 Pinned commit: 477bcf63e964f39f4c774e588a79fd598ae472de
 
 These JSON files are the raw upstream data used to generate `data/uniques.json` and
-`data/sets.json` via `scripts/generate-grail-data.mjs`. Do not hand-edit these files —
+`data/sets.json` via `scripts/generate-grail-data.mjs` (`skills.json` resolves skill
+IDs referenced by skill/charge-granting item stats to their display names). Do not
+hand-edit these files —
 re-run the generation script against a newer pinned commit instead, and re-verify the
 generated output's item counts/names against https://d2r.world/en-US for completeness.

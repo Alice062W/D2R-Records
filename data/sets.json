@@ -112,7 +112,7 @@
         "value": 300
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:16",
         "label": "Skill Tab Bonus",
         "value": 1
       },
@@ -132,7 +132,7 @@
         "value": -50
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:17",
         "label": "Skill Tab Bonus",
         "value": 1
       }
@@ -1663,8 +1663,8 @@
     "invFile": "invstu",
     "stats": [
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:53",
+        "label": "Chance to Cast When Struck (Chain Lightning)",
         "min": 18,
         "max": 5
       }
@@ -1688,7 +1688,7 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "gethit-skill"
+      "gethit-skill:53"
     ]
   },
   {
@@ -1847,8 +1847,8 @@
     "invFile": "invmac",
     "stats": [
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:44",
+        "label": "Chance to Cast on Striking (Frost Nova)",
         "min": 10,
         "max": 3
       },
@@ -1873,7 +1873,7 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "hit-skill",
+      "hit-skill:44",
       "dmg-fire"
     ]
   },
@@ -2019,7 +2019,7 @@
         "value": 500
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:11",
         "label": "Skill Tab Bonus",
         "value": 2
       },
@@ -2145,7 +2145,7 @@
     ],
     "setBonuses": [
       {
-        "key": "skilltab",
+        "key": "skilltab:10",
         "label": "Skill Tab Bonus",
         "min": 2,
         "max": 2
@@ -2203,7 +2203,7 @@
     ],
     "setBonuses": [
       {
-        "key": "skilltab",
+        "key": "skilltab:9",
         "label": "Skill Tab Bonus",
         "min": 2,
         "max": 2
@@ -2493,7 +2493,7 @@
     ],
     "fixedStats": [
       {
-        "key": "skilltab",
+        "key": "skilltab:21",
         "label": "Skill Tab Bonus",
         "value": 2
       }
@@ -2704,7 +2704,7 @@
     ],
     "fixedStats": [
       {
-        "key": "skilltab",
+        "key": "skilltab:22",
         "label": "Skill Tab Bonus",
         "value": 2
       },
@@ -2880,8 +2880,8 @@
     "invFile": "invvou",
     "stats": [
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:45",
+        "label": "Chance to Cast on Striking (Ice Blast)",
         "min": 10,
         "max": 3
       },
@@ -2916,7 +2916,7 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "hit-skill",
+      "hit-skill:45",
       "dmg-ltng"
     ]
   },
@@ -2939,8 +2939,8 @@
     "invFile": "invscl",
     "stats": [
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:42",
+        "label": "Chance to Cast When Struck (Static Field)",
         "min": 10,
         "max": 3
       }
@@ -2964,7 +2964,7 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "gethit-skill"
+      "gethit-skill:42"
     ]
   },
   {
@@ -3123,7 +3123,7 @@
         "max": 20
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:13",
         "label": "Skill Tab Bonus",
         "min": 2,
         "max": 2
@@ -3150,8 +3150,8 @@
     "invFile": "invhgl",
     "stats": [
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:38",
+        "label": "Chance to Cast When Struck (Charged Bolt)",
         "min": 12,
         "max": 4
       }
@@ -3206,7 +3206,7 @@
       }
     ],
     "statPriority": [
-      "gethit-skill"
+      "gethit-skill:38"
     ]
   },
   {
@@ -3257,7 +3257,7 @@
         "max": 25
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:12",
         "label": "Skill Tab Bonus",
         "min": 2,
         "max": 2
@@ -3302,12 +3302,12 @@
         "value": 400
       },
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:52",
+        "label": "Chance to Cast When Struck (Enchant)",
         "value": 5
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:12",
         "label": "Skill Tab Bonus",
         "value": 2
       },
@@ -3478,7 +3478,7 @@
         "value": 37
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:14",
         "label": "Skill Tab Bonus",
         "value": 2
       },
@@ -3954,8 +3954,8 @@
     "invFile": "invlgl",
     "stats": [
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:101",
+        "label": "Chance to Cast on Striking (Holy Bolt)",
         "min": 10,
         "max": 3
       }
@@ -3984,7 +3984,7 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "hit-skill"
+      "hit-skill:101"
     ]
   },
   {
@@ -4032,13 +4032,13 @@
         "max": 377
       },
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:Nova",
+        "label": "Chance to Cast on Striking (Nova)",
         "min": 10,
         "max": 15
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:0",
         "label": "Skill Tab Bonus",
         "min": 2,
         "max": 2
@@ -4065,8 +4065,8 @@
     "invFile": "invfld",
     "stats": [
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:55",
+        "label": "Chance to Cast When Struck (Glacial Spike)",
         "min": 10,
         "max": 3
       },
@@ -4084,7 +4084,7 @@
         "value": -30
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:1",
         "label": "Skill Tab Bonus",
         "value": 2
       },
@@ -4108,7 +4108,7 @@
       }
     ],
     "statPriority": [
-      "gethit-skill",
+      "gethit-skill:55",
       "red-mag"
     ]
   },
@@ -4709,8 +4709,8 @@
         "max": 35
       },
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:53",
+        "label": "Chance to Cast When Struck (Chain Lightning)",
         "min": 12,
         "max": 5
       }
@@ -4735,7 +4735,7 @@
     "setBonuses": [],
     "statPriority": [
       "dmg-fire",
-      "gethit-skill"
+      "gethit-skill:53"
     ]
   },
   {
@@ -4807,8 +4807,8 @@
     "invFile": "invcst",
     "stats": [
       {
-        "key": "charged",
-        "label": "Charges",
+        "key": "charged:54",
+        "label": "Charges (Teleport)",
         "min": 69,
         "max": 11
       },
@@ -4848,7 +4848,7 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "charged",
+      "charged:54",
       "dmg-ltng"
     ]
   },
@@ -4949,7 +4949,7 @@
         "value": 8
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:19",
         "label": "Skill Tab Bonus",
         "value": 2
       },
@@ -5108,8 +5108,8 @@
     "invFile": "invghm",
     "stats": [
       {
-        "key": "hit-skill",
-        "label": "Chance to Cast on Striking",
+        "key": "hit-skill:72",
+        "label": "Chance to Cast on Striking (Weaken)",
         "min": 10,
         "max": 3
       }
@@ -5143,7 +5143,7 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "hit-skill"
+      "hit-skill:72"
     ]
   },
   {
@@ -5617,8 +5617,8 @@
         "max": 415
       },
       {
-        "key": "gethit-skill",
-        "label": "Chance to Cast When Struck",
+        "key": "gethit-skill:48",
+        "label": "Chance to Cast When Struck (Nova)",
         "min": 25,
         "max": 3
       },
@@ -5639,7 +5639,7 @@
     "setBonuses": [],
     "statPriority": [
       "ac",
-      "gethit-skill",
+      "gethit-skill:48",
       "dmg-pois"
     ]
   },
@@ -5898,20 +5898,20 @@
     "invFile": "invob5",
     "stats": [
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:Fire Mastery",
+        "label": "Skill Bonus (Fire Mastery)",
         "min": 1,
         "max": 2
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:Lightning Mastery",
+        "label": "Skill Bonus (Lightning Mastery)",
         "min": 1,
         "max": 2
       },
       {
-        "key": "skill",
-        "label": "Skill Bonus",
+        "key": "skill:Cold Mastery",
+        "label": "Skill Bonus (Cold Mastery)",
         "min": 1,
         "max": 2
       }
@@ -5965,9 +5965,9 @@
       }
     ],
     "statPriority": [
-      "skill",
-      "skill",
-      "skill"
+      "skill:Fire Mastery",
+      "skill:Lightning Mastery",
+      "skill:Cold Mastery"
     ]
   },
   {
@@ -6263,7 +6263,7 @@
         "value": 30
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:6",
         "label": "Skill Tab Bonus",
         "value": 2
       }
@@ -6436,7 +6436,7 @@
         "value": 40
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:8",
         "label": "Skill Tab Bonus",
         "value": 2
       },
@@ -6519,7 +6519,7 @@
         "value": 40
       },
       {
-        "key": "skilltab",
+        "key": "skilltab:7",
         "label": "Skill Tab Bonus",
         "value": 2
       }
