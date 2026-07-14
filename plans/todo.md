@@ -130,15 +130,15 @@ _Spec: [docs/superpowers/specs/2026-07-14-d2rworld-nav-design.md](../docs/superp
 - [x] ItemCategoryGrid + ItemStatCard shared components
 - [x] ItemBrowser + public Unique/Set Items pages (with grade tabs) + full verification — final whole-branch review clean (one fix round: site title restored, catalog filter memoized, a vacuous test strengthened)
 
-## Upcoming: Unique/Set Items Category Card Pages
+## Unique/Set Items Category Card Pages ✅
 
 _Spec: [docs/superpowers/specs/2026-07-14-unique-set-category-pages-design.md](../docs/superpowers/specs/2026-07-14-unique-set-category-pages-design.md) · Plan: [plans/unique-set-category-pages-implementation.md](./unique-set-category-pages-implementation.md)_
 
-- [ ] getCategoriesForKind catalog helper
-- [ ] Items.backToCategories message key (en/zh-TW hand-authored, zh-CN via OpenCC)
-- [ ] CategoryCardGrid component (landing page)
-- [ ] CategoryItemList component (grade-tab filtering for one category)
-- [ ] New per-category routes, updated landing pages, retire ItemBrowser/ItemCategoryGrid + full verification
+- [x] getCategoriesForKind catalog helper
+- [x] Items.backToCategories message key (en/zh-TW hand-authored, zh-CN via OpenCC)
+- [x] CategoryCardGrid component (landing page)
+- [x] CategoryItemList component (grade-tab filtering for one category)
+- [x] New per-category routes, updated landing pages, retire ItemBrowser/ItemCategoryGrid + full verification — final whole-branch review clean, no fix rounds needed
 
 ## Backlog / Ideas
 
