@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from 'vitest';
-import { render, screen, fireEvent } from '@testing-library/react';
+import { render, screen, fireEvent, within } from '@testing-library/react';
 import { NextIntlClientProvider } from 'next-intl';
 import ItemCategoryGrid from './ItemCategoryGrid';
 import type { GrailItem } from '@/lib/grail/catalog';
@@ -25,7 +25,8 @@ describe('ItemCategoryGrid', () => {
         <ItemCategoryGrid items={items} activeSlot={null} onSelect={() => {}} />
       </NextIntlClientProvider>
     );
-    const buttons = screen.getAllByRole('button').map(b => b.textContent);
+    const desktopList = screen.getByTestId('item-category-desktop-list');
+    const buttons = within(desktopList).getAllByRole('button').map(b => b.textContent);
     expect(buttons).toEqual(['Helms', 'Swords']); // helms precedes swords in SLOT_ORDER
   });
 
@@ -37,7 +38,8 @@ describe('ItemCategoryGrid', () => {
         <ItemCategoryGrid items={items} activeSlot={null} onSelect={onSelect} />
       </NextIntlClientProvider>
     );
-    fireEvent.click(screen.getByRole('button', { name: 'Rings' }));
+    const desktopList = screen.getByTestId('item-category-desktop-list');
+    fireEvent.click(within(desktopList).getByRole('button', { name: 'Rings' }));
     expect(onSelect).toHaveBeenCalledWith('rings');
   });
 });
