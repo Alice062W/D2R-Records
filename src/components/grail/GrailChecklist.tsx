@@ -2,8 +2,8 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { useTranslations } from 'next-intl';
-import { getAllGrailItems, sortItemsForDisplay, type GrailItem } from '@/lib/grail/catalog';
+import { useTranslations, useLocale } from 'next-intl';
+import { getAllGrailItems, localizeGrailItem, sortItemsForDisplay, type GrailItem } from '@/lib/grail/catalog';
 import { listFinds, type FindRecord } from '@/lib/grail/findsApi';
 import { getErrorMessage } from '@/lib/grail/errors';
 import AuthGate from './AuthGate';
@@ -13,11 +13,12 @@ import LogFindForm from './LogFindForm';
 
 function GrailChecklistInner() {
   const t = useTranslations('Grail');
+  const locale = useLocale();
   const [finds, setFinds] = useState<FindRecord[] | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [activeSlot, setActiveSlot] = useState<string | null>(null);
   const [showForm, setShowForm] = useState(false);
-  const items = getAllGrailItems();
+  const items = getAllGrailItems().map(i => localizeGrailItem(i, locale as 'en' | 'zh-TW' | 'zh-CN'));
 
   function refresh() {
     listFinds()

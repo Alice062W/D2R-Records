@@ -1,6 +1,47 @@
 import uniques from '../../../data/uniques.json';
 import sets from '../../../data/sets.json';
 
+export interface LocalizedText {
+  en: string;
+  'zh-TW': string;
+  'zh-CN': string;
+}
+
+export type Locale = 'en' | 'zh-TW' | 'zh-CN';
+
+export interface RawGrailStat {
+  key: string;
+  label: LocalizedText;
+  min: number;
+  max: number;
+}
+
+export interface RawGrailFixedStat {
+  key: string;
+  label: LocalizedText;
+  value: number;
+}
+
+export interface RawGrailItem {
+  id: string;
+  code: string;
+  name: LocalizedText;
+  kind: 'unique' | 'set';
+  setName: LocalizedText | null;
+  levelReq: number;
+  baseName: LocalizedText;
+  grade: 'normal' | 'exceptional' | 'elite';
+  slotCategory: string;
+  defense: { min: number; max: number } | null;
+  requiredStrength: number | null;
+  durability: number | null;
+  invFile: string;
+  stats: RawGrailStat[];
+  fixedStats: RawGrailFixedStat[];
+  setBonuses: RawGrailStat[];
+  statPriority: string[];
+}
+
 export interface GrailStat {
   key: string;
   label: string;
@@ -34,10 +75,32 @@ export interface GrailItem {
   statPriority: string[];
 }
 
-const ALL_ITEMS: GrailItem[] = [...(uniques as GrailItem[]), ...(sets as GrailItem[])];
+const ALL_ITEMS: RawGrailItem[] = [...(uniques as RawGrailItem[]), ...(sets as RawGrailItem[])];
 
-export function getAllGrailItems(): GrailItem[] {
+export function getAllGrailItems(): RawGrailItem[] {
   return ALL_ITEMS;
+}
+
+export function localizeGrailItem(item: RawGrailItem, locale: Locale): GrailItem {
+  return {
+    id: item.id,
+    code: item.code,
+    name: item.name[locale],
+    kind: item.kind,
+    setName: item.setName ? item.setName[locale] : null,
+    levelReq: item.levelReq,
+    baseName: item.baseName[locale],
+    grade: item.grade,
+    slotCategory: item.slotCategory,
+    defense: item.defense,
+    requiredStrength: item.requiredStrength,
+    durability: item.durability,
+    invFile: item.invFile,
+    stats: item.stats.map(s => ({ key: s.key, label: s.label[locale], min: s.min, max: s.max })),
+    fixedStats: item.fixedStats.map(f => ({ key: f.key, label: f.label[locale], value: f.value })),
+    setBonuses: item.setBonuses.map(b => ({ key: b.key, label: b.label[locale], min: b.min, max: b.max })),
+    statPriority: item.statPriority,
+  };
 }
 
 // d2r.world's presentation order: armor slots, jewelry, then weapons.

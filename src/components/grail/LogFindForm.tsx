@@ -1,8 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { useTranslations } from 'next-intl';
-import { getAllGrailItems, SLOT_ORDER, type GrailItem } from '@/lib/grail/catalog';
+import { useTranslations, useLocale } from 'next-intl';
+import { getAllGrailItems, localizeGrailItem, SLOT_ORDER, type GrailItem } from '@/lib/grail/catalog';
 import { insertFind } from '@/lib/grail/findsApi';
 import { ACTS, AREAS_BY_ACT, type Act } from '@/lib/grail/zones';
 import { getErrorMessage } from '@/lib/grail/errors';
@@ -15,7 +15,8 @@ export default function LogFindForm({
   onCancel: () => void;
 }) {
   const t = useTranslations('Grail');
-  const items = getAllGrailItems();
+  const locale = useLocale();
+  const items = getAllGrailItems().map(i => localizeGrailItem(i, locale as 'en' | 'zh-TW' | 'zh-CN'));
   const [itemId, setItemId] = useState('');
   const [act, setAct] = useState<Act>('Act I');
   const [area, setArea] = useState(AREAS_BY_ACT['Act I'][0]);
