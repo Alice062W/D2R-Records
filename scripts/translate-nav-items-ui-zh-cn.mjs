@@ -23,6 +23,9 @@ zhCn.Nav = Object.fromEntries(
 zhCn.Items = Object.fromEntries(
   Object.entries(zhTw.Items).map(([key, value]) => [key, toZhCn(value)])
 );
+zhCn.BaseItems = Object.fromEntries(
+  Object.entries(zhTw.BaseItems).map(([key, value]) => [key, toZhCn(value)])
+);
 
 writeFileSync(join(MESSAGES, 'zh-CN.json'), JSON.stringify(zhCn, null, 2) + '\n');
-console.log('Converted Nav + Items namespaces to zh-CN.');
+console.log('Converted Nav + Items + BaseItems namespaces to zh-CN.');

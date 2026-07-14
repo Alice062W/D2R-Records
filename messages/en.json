@@ -128,6 +128,21 @@
     "uniquePageSubtitle": "Browse every unique item in Diablo II: Resurrected.",
     "setPageTitle": "Set Items",
     "setPageSubtitle": "Browse every set item in Diablo II: Resurrected.",
-    "backToCategories": "← Back to categories"
+    "backToCategories": "← Back to categories",
+    "basePageTitle": "Base Items",
+    "basePageSubtitle": "Browse every base item in Diablo II: Resurrected."
+  },
+  "BaseItems": {
+    "grade_normal": "Normal",
+    "grade_exceptional": "Exceptional",
+    "grade_elite": "Elite",
+    "oneHandDamage": "1h Damage",
+    "twoHandDamage": "2h Damage",
+    "levelReq": "Level Req",
+    "strReq": "Str Req",
+    "dexReq": "Dex Req",
+    "durability": "Durability",
+    "sockets": "Sockets",
+    "qlvl": "qlvl"
   }
 }

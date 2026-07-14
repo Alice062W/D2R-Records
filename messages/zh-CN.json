@@ -128,6 +128,21 @@
     "uniquePageSubtitle": "浏览暗黑破坏神2：狱火重生中所有的独特物品。",
     "setPageTitle": "成套装备",
     "setPageSubtitle": "浏览暗黑破坏神2：狱火重生中所有的套装物品。",
-    "backToCategories": "← 返回分类"
+    "backToCategories": "← 返回分类",
+    "basePageTitle": "基础装备",
+    "basePageSubtitle": "浏览暗黑破坏神2：狱火重生中所有的基础物品。"
+  },
+  "BaseItems": {
+    "grade_normal": "普通",
+    "grade_exceptional": "杰出",
+    "grade_elite": "菁英",
+    "oneHandDamage": "单手伤害",
+    "twoHandDamage": "双手伤害",
+    "levelReq": "等级需求",
+    "strReq": "力量需求",
+    "dexReq": "敏捷需求",
+    "durability": "耐久度",
+    "sockets": "插槽数",
+    "qlvl": "物品等级"
   }
 }

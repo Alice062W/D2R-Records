@@ -1,0 +1,43 @@
+import { useTranslations } from 'next-intl';
+import type { BaseLine, BaseGrade } from '@/lib/grail/basesCatalog';
+
+const GRADES = ['normal', 'exceptional', 'elite'] as const;
+
+function fmtDamage(d: BaseGrade['oneHandDamage']) {
+  return d ? `${d.min} - ${d.max}` : '-';
+}
+function fmtNum(n: number | null) {
+  return n != null ? String(n) : '-';
+}
+
+export default function BaseItemTable({ line }: { line: BaseLine }) {
+  const t = useTranslations('BaseItems');
+  const present = GRADES.filter(g => line.grades[g] !== null);
+
+  return (
+    <div className="bg-zinc-900 border border-zinc-700 rounded-xl p-6 overflow-x-auto">
+      <table className="w-full text-sm">
+        <thead>
+          <tr>
+            <th className="text-left text-xs uppercase text-zinc-500 pb-2"> </th>
+            {present.map(g => (
+              <th key={g} className="text-left text-amber-300 font-bold pb-2 px-3">
+                {line.grades[g]!.name}
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody className="text-zinc-300">
+          <tr><td className="text-zinc-500">{t('oneHandDamage')}</td>{present.map(g => <td key={g} className="px-3">{fmtDamage(line.grades[g]!.oneHandDamage)}</td>)}</tr>
+          <tr><td className="text-zinc-500">{t('twoHandDamage')}</td>{present.map(g => <td key={g} className="px-3">{fmtDamage(line.grades[g]!.twoHandDamage)}</td>)}</tr>
+          <tr><td className="text-zinc-500">{t('levelReq')}</td>{present.map(g => <td key={g} className="px-3">{fmtNum(line.grades[g]!.levelReq)}</td>)}</tr>
+          <tr><td className="text-zinc-500">{t('strReq')}</td>{present.map(g => <td key={g} className="px-3">{fmtNum(line.grades[g]!.requiredStrength)}</td>)}</tr>
+          <tr><td className="text-zinc-500">{t('dexReq')}</td>{present.map(g => <td key={g} className="px-3">{fmtNum(line.grades[g]!.requiredDexterity)}</td>)}</tr>
+          <tr><td className="text-zinc-500">{t('durability')}</td>{present.map(g => <td key={g} className="px-3">{fmtNum(line.grades[g]!.durability)}</td>)}</tr>
+          <tr><td className="text-zinc-500">{t('sockets')}</td>{present.map(g => <td key={g} className="px-3">{fmtNum(line.grades[g]!.sockets)}</td>)}</tr>
+          <tr><td className="text-zinc-500">{t('qlvl')}</td>{present.map(g => <td key={g} className="px-3">{fmtNum(line.grades[g]!.qlvl)}</td>)}</tr>
+        </tbody>
+      </table>
+    </div>
+  );
+}
