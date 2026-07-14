@@ -37,6 +37,7 @@
     "progressCount": "{found} / {total} items found",
     "logFind": "Log a find",
     "categoriesLabel": "Categories",
+    "selectCategoryPrompt": "Select a category from the menu to view its items.",
     "slot_helms": "Helms",
     "slot_armors": "Armors",
     "slot_shields": "Shields",
