@@ -54,6 +54,20 @@
     "selectItem": "— Select an item —",
     "cancel": "Cancel",
     "save": "Save find",
-    "saving": "Saving…"
+    "saving": "Saving…",
+    "itemStats": "Item Stats",
+    "magicProperties": "Magic Properties",
+    "yourCopies": "Your Copies",
+    "baseLabel": "Base",
+    "gradeLabel": "Grade",
+    "grade_normal": "Normal",
+    "grade_exceptional": "Exceptional",
+    "grade_elite": "Elite",
+    "defenseLabel": "Defense",
+    "requiredLevel": "Required Level",
+    "requiredStrength": "Required Strength",
+    "durabilityLabel": "Durability",
+    "setBonusesLabel": "Partial Set Bonuses",
+    "notFoundYet": "Not found yet"
   }
 }

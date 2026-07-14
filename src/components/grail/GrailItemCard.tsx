@@ -25,11 +25,10 @@ export default function GrailItemCard({
   return (
     <button
       onClick={onClick}
-      disabled={!found}
-      className={`text-left rounded-lg border p-3 transition-colors ${
+      className={`text-left rounded-lg border p-3 transition-colors cursor-pointer ${
         found
-          ? 'border-amber-500/50 bg-zinc-900 hover:border-amber-400 cursor-pointer'
-          : 'border-zinc-800 bg-zinc-950 text-zinc-600 cursor-default'
+          ? 'border-amber-500/50 bg-zinc-900 hover:border-amber-400'
+          : 'border-zinc-800 bg-zinc-950 hover:border-zinc-600'
       }`}
     >
       <div className={`font-semibold text-sm ${found ? 'text-zinc-100' : 'text-zinc-600'}`}>
