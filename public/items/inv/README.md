@@ -55,9 +55,10 @@ No source met all three acceptance criteria. `public/items/inv/` ships empty. No
 written (writing one against a source that doesn't exist would leave an untested, unusable script
 in the repo, which the task explicitly avoids).
 
-The UI already degrades gracefully with zero icons (confirmed in Task 3): cards and detail views
-render a bordered placeholder with the item-name initial when the icon file is missing. Nothing
-downstream depends on this directory being populated.
+The UI already degrades gracefully with zero icons (confirmed in Task 3): when an icon file is
+missing or fails to load, the icon element simply doesn't render — no placeholder box, no initial
+letter, just absence of an icon. Cards display only the item name and subtitle text; the detail view
+never attempts to render icons. Nothing downstream depends on this directory being populated.
 
 ## If a source turns up later
 
