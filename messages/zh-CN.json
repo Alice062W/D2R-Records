@@ -130,7 +130,16 @@
     "setPageSubtitle": "浏览暗黑破坏神2：狱火重生中所有的套装物品。",
     "backToCategories": "← 返回分类",
     "basePageTitle": "基础装备",
-    "basePageSubtitle": "浏览暗黑破坏神2：狱火重生中所有的基础物品。"
+    "basePageSubtitle": "浏览暗黑破坏神2：狱火重生中所有的基础物品。",
+    "runewordsPageTitle": "符文之语",
+    "runewordsPageSubtitle": "浏览暗黑破坏神2：狱火重生中所有的符文之语。",
+    "runewordsAllTypes": "全部类型",
+    "runewordsAllSockets": "全部插槽数",
+    "runewordsLadderOnly": "限定天梯",
+    "runewordsRunesLabel": "符文",
+    "runewordsSocketsLabel": "插槽数",
+    "runewordsBaseTypesLabel": "基础类型",
+    "runewordsLevelReqLabel": "等级需求"
   },
   "BaseItems": {
     "grade_normal": "普通",

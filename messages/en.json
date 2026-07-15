@@ -130,7 +130,16 @@
     "setPageSubtitle": "Browse every set item in Diablo II: Resurrected.",
     "backToCategories": "← Back to categories",
     "basePageTitle": "Base Items",
-    "basePageSubtitle": "Browse every base item in Diablo II: Resurrected."
+    "basePageSubtitle": "Browse every base item in Diablo II: Resurrected.",
+    "runewordsPageTitle": "Runewords",
+    "runewordsPageSubtitle": "Browse every runeword in Diablo II: Resurrected.",
+    "runewordsAllTypes": "All Types",
+    "runewordsAllSockets": "All Sockets",
+    "runewordsLadderOnly": "Ladder Only",
+    "runewordsRunesLabel": "Runes",
+    "runewordsSocketsLabel": "Sockets",
+    "runewordsBaseTypesLabel": "Base Types",
+    "runewordsLevelReqLabel": "Level Req"
   },
   "BaseItems": {
     "grade_normal": "Normal",

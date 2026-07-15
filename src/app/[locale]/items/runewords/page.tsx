@@ -1,18 +1,39 @@
-import { routing } from '@/i18n/routing';
-import { getTranslations, setRequestLocale } from 'next-intl/server';
-import ComingSoonPage from '@/components/ComingSoonPage';
+'use client';
 
-export function generateStaticParams() {
-  return routing.locales.map(locale => ({ locale }));
-}
+import { useState } from 'react';
+import { useTranslations } from 'next-intl';
+import runewordsFull from '../../../../../data/runewords-full.json';
+import RunewordFilters from '@/components/items/RunewordFilters';
+import RunewordList from '@/components/items/RunewordList';
 
-export default async function RunewordsPage({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}) {
-  const { locale } = await params;
-  setRequestLocale(locale);
-  const t = await getTranslations('Nav');
-  return <ComingSoonPage title={t('item_runewords')} />;
+const ALL_ITEM_TYPES = Array.from(new Set(runewordsFull.flatMap(rw => rw.itemTypes))).sort();
+
+export default function RunewordsPage() {
+  const t = useTranslations('Items');
+  const [activeType, setActiveType] = useState<string | null>(null);
+  const [activeSockets, setActiveSockets] = useState<number | null>(null);
+
+  const filtered = runewordsFull.filter(rw =>
+    (!activeType || rw.itemTypes.includes(activeType)) &&
+    (!activeSockets || rw.sockets === activeSockets)
+  );
+
+  return (
+    <main className="flex flex-col items-center py-10 px-4 gap-8 flex-1 w-full">
+      <div className="text-center">
+        <h1 className="text-3xl font-bold tracking-tight text-zinc-100">{t('runewordsPageTitle')}</h1>
+        <p className="mt-2 text-sm text-zinc-400 max-w-md">{t('runewordsPageSubtitle')}</p>
+      </div>
+      <div className="w-full max-w-4xl flex flex-col gap-6">
+        <RunewordFilters
+          itemTypes={ALL_ITEM_TYPES}
+          activeType={activeType}
+          onTypeChange={setActiveType}
+          activeSockets={activeSockets}
+          onSocketsChange={setActiveSockets}
+        />
+        <RunewordList runewords={filtered} />
+      </div>
+    </main>
+  );
 }
