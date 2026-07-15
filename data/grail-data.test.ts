@@ -324,9 +324,12 @@ describe('crafted-items.json', () => {
     }
   });
 
-  it('Hit Power Helm has the correct fixed properties', () => {
+  it('Hit Power Helm has the correct fixed and variable properties', () => {
     const helm = craftedItemsData.find(c => c.name.en === 'Hit Power Helm')!;
-    expect(helm.fixedProperties.length).toBe(3);
+    // cubemain.json id 64's 3 mods are all genuine ranges (min !== max):
+    // gethit-skill (min:5, max:4), thorns (min:3, max:7), ac-miss (min:25, max:50).
+    expect(helm.fixedProperties.length).toBe(0);
+    expect(helm.variableProperties.length).toBe(3);
     expect(helm.additionalInputs.map(i => i.en)).toEqual(['Jewel', 'Ith Rune', 'Perfect Sapphire']);
   });
 });

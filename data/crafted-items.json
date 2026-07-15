@@ -29,7 +29,8 @@
         "zh-CN": "Perfect Sapphire"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "gethit-skill:44",
         "label": {
@@ -37,7 +38,8 @@
           "zh-TW": "受擊時觸發機率 (霜之新星)",
           "zh-CN": "受击时触发机率 (霜之新星)"
         },
-        "value": 5
+        "min": 5,
+        "max": 4
       },
       {
         "key": "thorns",
@@ -46,7 +48,8 @@
           "zh-TW": "攻擊者承受傷害",
           "zh-CN": "攻击者承受伤害"
         },
-        "value": 3
+        "min": 3,
+        "max": 7
       },
       {
         "key": "ac-miss",
@@ -55,7 +58,8 @@
           "zh-TW": "對抗遠程攻擊防禦力",
           "zh-CN": "对抗远程攻击防御力"
         },
-        "value": 25
+        "min": 25,
+        "max": 50
       }
     ]
   },
@@ -89,7 +93,8 @@
         "zh-CN": "Perfect Sapphire"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "gethit-skill:44",
         "label": {
@@ -97,7 +102,8 @@
           "zh-TW": "受擊時觸發機率 (霜之新星)",
           "zh-CN": "受击时触发机率 (霜之新星)"
         },
-        "value": 5
+        "min": 5,
+        "max": 4
       },
       {
         "key": "thorns",
@@ -106,7 +112,8 @@
           "zh-TW": "攻擊者承受傷害",
           "zh-CN": "攻击者承受伤害"
         },
-        "value": 3
+        "min": 3,
+        "max": 7
       },
       {
         "key": "ac-hth",
@@ -115,7 +122,8 @@
           "zh-TW": "ac-hth",
           "zh-CN": "ac-hth"
         },
-        "value": 25
+        "min": 25,
+        "max": 60
       }
     ]
   },
@@ -151,13 +159,25 @@
     ],
     "fixedProperties": [
       {
+        "key": "knock",
+        "label": {
+          "en": "Knockback",
+          "zh-TW": "擊退",
+          "zh-CN": "击退"
+        },
+        "value": 1
+      }
+    ],
+    "variableProperties": [
+      {
         "key": "gethit-skill:44",
         "label": {
           "en": "Chance to Cast When Struck (Frost Nova)",
           "zh-TW": "受擊時觸發機率 (霜之新星)",
           "zh-CN": "受击时触发机率 (霜之新星)"
         },
-        "value": 5
+        "min": 5,
+        "max": 4
       },
       {
         "key": "thorns",
@@ -166,16 +186,8 @@
           "zh-TW": "攻擊者承受傷害",
           "zh-CN": "攻击者承受伤害"
         },
-        "value": 3
-      },
-      {
-        "key": "knock",
-        "label": {
-          "en": "Knockback",
-          "zh-TW": "擊退",
-          "zh-CN": "击退"
-        },
-        "value": 1
+        "min": 3,
+        "max": 7
       }
     ]
   },
@@ -209,7 +221,8 @@
         "zh-CN": "Perfect Sapphire"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "gethit-skill:44",
         "label": {
@@ -217,7 +230,8 @@
           "zh-TW": "受擊時觸發機率 (霜之新星)",
           "zh-CN": "受击时触发机率 (霜之新星)"
         },
-        "value": 5
+        "min": 5,
+        "max": 4
       },
       {
         "key": "thorns",
@@ -226,7 +240,8 @@
           "zh-TW": "攻擊者承受傷害",
           "zh-CN": "攻击者承受伤害"
         },
-        "value": 3
+        "min": 3,
+        "max": 7
       },
       {
         "key": "dmg-to-mana",
@@ -235,7 +250,8 @@
           "zh-TW": "承受傷害轉換為魔力",
           "zh-CN": "承受伤害转换为魔力"
         },
-        "value": 5
+        "min": 5,
+        "max": 10
       }
     ]
   },
@@ -269,7 +285,8 @@
         "zh-CN": "Perfect Sapphire"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "gethit-skill:44",
         "label": {
@@ -277,7 +294,8 @@
           "zh-TW": "受擊時觸發機率 (霜之新星)",
           "zh-CN": "受击时触发机率 (霜之新星)"
         },
-        "value": 5
+        "min": 5,
+        "max": 4
       },
       {
         "key": "thorns",
@@ -286,7 +304,8 @@
           "zh-TW": "攻擊者承受傷害",
           "zh-CN": "攻击者承受伤害"
         },
-        "value": 3
+        "min": 3,
+        "max": 10
       },
       {
         "key": "block",
@@ -295,7 +314,8 @@
           "zh-TW": "格擋機率 %",
           "zh-CN": "格挡机率 %"
         },
-        "value": 5
+        "min": 5,
+        "max": 10
       }
     ]
   },
@@ -329,7 +349,8 @@
         "zh-CN": "Perfect Sapphire"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "gethit-skill:44",
         "label": {
@@ -337,7 +358,8 @@
           "zh-TW": "受擊時觸發機率 (霜之新星)",
           "zh-CN": "受击时触发机率 (霜之新星)"
         },
-        "value": 5
+        "min": 5,
+        "max": 4
       },
       {
         "key": "thorns",
@@ -346,7 +368,8 @@
           "zh-TW": "攻擊者承受傷害",
           "zh-CN": "攻击者承受伤害"
         },
-        "value": 3
+        "min": 3,
+        "max": 10
       },
       {
         "key": "balance1",
@@ -355,7 +378,8 @@
           "zh-TW": "加快恢復速度",
           "zh-CN": "加快恢复速度"
         },
-        "value": 10
+        "min": 10,
+        "max": 20
       }
     ]
   },
@@ -389,7 +413,8 @@
         "zh-CN": "Perfect Sapphire"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "gethit-skill:44",
         "label": {
@@ -397,7 +422,8 @@
           "zh-TW": "受擊時觸發機率 (霜之新星)",
           "zh-CN": "受击时触发机率 (霜之新星)"
         },
-        "value": 5
+        "min": 5,
+        "max": 4
       },
       {
         "key": "thorns",
@@ -406,7 +432,8 @@
           "zh-TW": "攻擊者承受傷害",
           "zh-CN": "攻击者承受伤害"
         },
-        "value": 3
+        "min": 3,
+        "max": 10
       },
       {
         "key": "howl",
@@ -415,7 +442,8 @@
           "zh-TW": "howl",
           "zh-CN": "howl"
         },
-        "value": 5
+        "min": 5,
+        "max": 15
       }
     ]
   },
@@ -449,7 +477,8 @@
         "zh-CN": "Perfect Sapphire"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "gethit-skill:44",
         "label": {
@@ -457,7 +486,8 @@
           "zh-TW": "受擊時觸發機率 (霜之新星)",
           "zh-CN": "受击时触发机率 (霜之新星)"
         },
-        "value": 5
+        "min": 5,
+        "max": 4
       },
       {
         "key": "thorns",
@@ -466,7 +496,8 @@
           "zh-TW": "攻擊者承受傷害",
           "zh-CN": "攻击者承受伤害"
         },
-        "value": 3
+        "min": 3,
+        "max": 6
       },
       {
         "key": "dex",
@@ -475,7 +506,8 @@
           "zh-TW": "敏捷",
           "zh-CN": "敏捷"
         },
-        "value": 1
+        "min": 1,
+        "max": 5
       }
     ]
   },
@@ -509,7 +541,8 @@
         "zh-CN": "Perfect Sapphire"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "gethit-skill:44",
         "label": {
@@ -517,7 +550,8 @@
           "zh-TW": "受擊時觸發機率 (霜之新星)",
           "zh-CN": "受击时触发机率 (霜之新星)"
         },
-        "value": 5
+        "min": 5,
+        "max": 4
       },
       {
         "key": "thorns",
@@ -526,7 +560,8 @@
           "zh-TW": "攻擊者承受傷害",
           "zh-CN": "攻击者承受伤害"
         },
-        "value": 3
+        "min": 3,
+        "max": 7
       },
       {
         "key": "dmg%",
@@ -535,7 +570,8 @@
           "zh-TW": "強化傷害 %",
           "zh-CN": "强化伤害 %"
         },
-        "value": 35
+        "min": 35,
+        "max": 60
       }
     ]
   },
@@ -569,7 +605,8 @@
         "zh-CN": "Perfect Ruby"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "lifesteal",
         "label": {
@@ -577,7 +614,8 @@
           "zh-TW": "生命竊取 %",
           "zh-CN": "生命窃取 %"
         },
-        "value": 1
+        "min": 1,
+        "max": 3
       },
       {
         "key": "hp",
@@ -586,7 +624,8 @@
           "zh-TW": "生命值",
           "zh-CN": "生命值"
         },
-        "value": 10
+        "min": 10,
+        "max": 20
       },
       {
         "key": "deadly",
@@ -595,7 +634,8 @@
           "zh-TW": "致命一擊 %",
           "zh-CN": "致命一击 %"
         },
-        "value": 5
+        "min": 5,
+        "max": 10
       }
     ]
   },
@@ -629,7 +669,8 @@
         "zh-CN": "Perfect Ruby"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "lifesteal",
         "label": {
@@ -637,7 +678,8 @@
           "zh-TW": "生命竊取 %",
           "zh-CN": "生命窃取 %"
         },
-        "value": 1
+        "min": 1,
+        "max": 3
       },
       {
         "key": "hp",
@@ -646,7 +688,8 @@
           "zh-TW": "生命值",
           "zh-CN": "生命值"
         },
-        "value": 10
+        "min": 10,
+        "max": 20
       },
       {
         "key": "regen",
@@ -655,7 +698,8 @@
           "zh-TW": "生命回復 %",
           "zh-CN": "生命回复 %"
         },
-        "value": 5
+        "min": 5,
+        "max": 10
       }
     ]
   },
@@ -689,7 +733,8 @@
         "zh-CN": "Perfect Ruby"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "lifesteal",
         "label": {
@@ -697,7 +742,8 @@
           "zh-TW": "生命竊取 %",
           "zh-CN": "生命窃取 %"
         },
-        "value": 1
+        "min": 1,
+        "max": 3
       },
       {
         "key": "hp",
@@ -706,7 +752,8 @@
           "zh-TW": "生命值",
           "zh-CN": "生命值"
         },
-        "value": 10
+        "min": 10,
+        "max": 20
       },
       {
         "key": "crush",
@@ -715,7 +762,8 @@
           "zh-TW": "破碎打擊 %",
           "zh-CN": "破碎打击 %"
         },
-        "value": 5
+        "min": 5,
+        "max": 10
       }
     ]
   },
@@ -749,7 +797,8 @@
         "zh-CN": "Perfect Ruby"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "lifesteal",
         "label": {
@@ -757,7 +806,8 @@
           "zh-TW": "生命竊取 %",
           "zh-CN": "生命窃取 %"
         },
-        "value": 1
+        "min": 1,
+        "max": 3
       },
       {
         "key": "hp",
@@ -766,7 +816,8 @@
           "zh-TW": "生命值",
           "zh-CN": "生命值"
         },
-        "value": 10
+        "min": 10,
+        "max": 20
       },
       {
         "key": "openwounds",
@@ -775,7 +826,8 @@
           "zh-TW": "撕裂傷口 %",
           "zh-CN": "撕裂伤口 %"
         },
-        "value": 5
+        "min": 5,
+        "max": 10
       }
     ]
   },
@@ -809,7 +861,8 @@
         "zh-CN": "Perfect Ruby"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "lifesteal",
         "label": {
@@ -817,7 +870,8 @@
           "zh-TW": "生命竊取 %",
           "zh-CN": "生命窃取 %"
         },
-        "value": 1
+        "min": 1,
+        "max": 3
       },
       {
         "key": "hp",
@@ -826,7 +880,8 @@
           "zh-TW": "生命值",
           "zh-CN": "生命值"
         },
-        "value": 10
+        "min": 10,
+        "max": 20
       },
       {
         "key": "thorns",
@@ -835,7 +890,8 @@
           "zh-TW": "攻擊者承受傷害",
           "zh-CN": "攻击者承受伤害"
         },
-        "value": 4
+        "min": 4,
+        "max": 7
       }
     ]
   },
@@ -869,7 +925,8 @@
         "zh-CN": "Perfect Ruby"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "lifesteal",
         "label": {
@@ -877,7 +934,8 @@
           "zh-TW": "生命竊取 %",
           "zh-CN": "生命窃取 %"
         },
-        "value": 1
+        "min": 1,
+        "max": 3
       },
       {
         "key": "hp",
@@ -886,7 +944,8 @@
           "zh-TW": "生命值",
           "zh-CN": "生命值"
         },
-        "value": 10
+        "min": 10,
+        "max": 20
       },
       {
         "key": "demon-heal",
@@ -895,7 +954,8 @@
           "zh-TW": "demon-heal",
           "zh-CN": "demon-heal"
         },
-        "value": 1
+        "min": 1,
+        "max": 3
       }
     ]
   },
@@ -929,7 +989,8 @@
         "zh-CN": "Perfect Ruby"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "lifesteal",
         "label": {
@@ -937,7 +998,8 @@
           "zh-TW": "生命竊取 %",
           "zh-CN": "生命窃取 %"
         },
-        "value": 1
+        "min": 1,
+        "max": 4
       },
       {
         "key": "hp",
@@ -946,7 +1008,8 @@
           "zh-TW": "生命值",
           "zh-CN": "生命值"
         },
-        "value": 10
+        "min": 10,
+        "max": 20
       },
       {
         "key": "move1",
@@ -955,7 +1018,8 @@
           "zh-TW": "move1",
           "zh-CN": "move1"
         },
-        "value": 5
+        "min": 5,
+        "max": 10
       }
     ]
   },
@@ -989,7 +1053,8 @@
         "zh-CN": "Perfect Ruby"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "lifesteal",
         "label": {
@@ -997,7 +1062,8 @@
           "zh-TW": "生命竊取 %",
           "zh-CN": "生命窃取 %"
         },
-        "value": 1
+        "min": 1,
+        "max": 3
       },
       {
         "key": "hp",
@@ -1006,7 +1072,8 @@
           "zh-TW": "生命值",
           "zh-CN": "生命值"
         },
-        "value": 10
+        "min": 10,
+        "max": 20
       },
       {
         "key": "str",
@@ -1015,7 +1082,8 @@
           "zh-TW": "力量",
           "zh-CN": "力量"
         },
-        "value": 1
+        "min": 1,
+        "max": 5
       }
     ]
   },
@@ -1049,7 +1117,8 @@
         "zh-CN": "Perfect Ruby"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "lifesteal",
         "label": {
@@ -1057,7 +1126,8 @@
           "zh-TW": "生命竊取 %",
           "zh-CN": "生命窃取 %"
         },
-        "value": 1
+        "min": 1,
+        "max": 4
       },
       {
         "key": "hp",
@@ -1066,7 +1136,8 @@
           "zh-TW": "生命值",
           "zh-CN": "生命值"
         },
-        "value": 10
+        "min": 10,
+        "max": 20
       },
       {
         "key": "dmg%",
@@ -1075,7 +1146,8 @@
           "zh-TW": "強化傷害 %",
           "zh-CN": "强化伤害 %"
         },
-        "value": 35
+        "min": 35,
+        "max": 60
       }
     ]
   },
@@ -1109,7 +1181,8 @@
         "zh-CN": "Perfect Amethyst"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "regen-mana",
         "label": {
@@ -1117,7 +1190,8 @@
           "zh-TW": "魔力回復 %",
           "zh-CN": "魔力回复 %"
         },
-        "value": 4
+        "min": 4,
+        "max": 10
       },
       {
         "key": "mana",
@@ -1126,7 +1200,8 @@
           "zh-TW": "魔力值",
           "zh-CN": "魔力值"
         },
-        "value": 10
+        "min": 10,
+        "max": 20
       },
       {
         "key": "manasteal",
@@ -1135,7 +1210,8 @@
           "zh-TW": "魔力竊取 %",
           "zh-CN": "魔力窃取 %"
         },
-        "value": 1
+        "min": 1,
+        "max": 4
       }
     ]
   },
@@ -1169,7 +1245,8 @@
         "zh-CN": "Perfect Amethyst"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "regen-mana",
         "label": {
@@ -1177,7 +1254,8 @@
           "zh-TW": "魔力回復 %",
           "zh-CN": "魔力回复 %"
         },
-        "value": 4
+        "min": 4,
+        "max": 10
       },
       {
         "key": "mana",
@@ -1186,7 +1264,8 @@
           "zh-TW": "魔力值",
           "zh-CN": "魔力值"
         },
-        "value": 10
+        "min": 10,
+        "max": 20
       },
       {
         "key": "mana%",
@@ -1195,7 +1274,8 @@
           "zh-TW": "增加最大魔力值 %",
           "zh-CN": "增加最大魔力值 %"
         },
-        "value": 2
+        "min": 2,
+        "max": 5
       }
     ]
   },
@@ -1229,7 +1309,8 @@
         "zh-CN": "Perfect Amethyst"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "regen-mana",
         "label": {
@@ -1237,7 +1318,8 @@
           "zh-TW": "魔力回復 %",
           "zh-CN": "魔力回复 %"
         },
-        "value": 4
+        "min": 4,
+        "max": 10
       },
       {
         "key": "mana",
@@ -1246,7 +1328,8 @@
           "zh-TW": "魔力值",
           "zh-CN": "魔力值"
         },
-        "value": 10
+        "min": 10,
+        "max": 20
       },
       {
         "key": "mana-kill",
@@ -1255,7 +1338,8 @@
           "zh-TW": "mana-kill",
           "zh-CN": "mana-kill"
         },
-        "value": 1
+        "min": 1,
+        "max": 3
       }
     ]
   },
@@ -1289,7 +1373,8 @@
         "zh-CN": "Perfect Amethyst"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "regen-mana",
         "label": {
@@ -1297,7 +1382,8 @@
           "zh-TW": "魔力回復 %",
           "zh-CN": "魔力回复 %"
         },
-        "value": 4
+        "min": 4,
+        "max": 10
       },
       {
         "key": "mana",
@@ -1306,7 +1392,8 @@
           "zh-TW": "魔力值",
           "zh-CN": "魔力值"
         },
-        "value": 10
+        "min": 10,
+        "max": 20
       },
       {
         "key": "cast1",
@@ -1315,7 +1402,8 @@
           "zh-TW": "cast1",
           "zh-CN": "cast1"
         },
-        "value": 5
+        "min": 5,
+        "max": 10
       }
     ]
   },
@@ -1349,7 +1437,8 @@
         "zh-CN": "Perfect Amethyst"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "regen-mana",
         "label": {
@@ -1357,7 +1446,8 @@
           "zh-TW": "魔力回復 %",
           "zh-CN": "魔力回复 %"
         },
-        "value": 4
+        "min": 4,
+        "max": 10
       },
       {
         "key": "mana",
@@ -1366,7 +1456,8 @@
           "zh-TW": "魔力值",
           "zh-CN": "魔力值"
         },
-        "value": 10
+        "min": 10,
+        "max": 20
       },
       {
         "key": "block",
@@ -1375,7 +1466,8 @@
           "zh-TW": "格擋機率 %",
           "zh-CN": "格挡机率 %"
         },
-        "value": 5
+        "min": 5,
+        "max": 10
       }
     ]
   },
@@ -1409,7 +1501,8 @@
         "zh-CN": "Perfect Amethyst"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "regen-mana",
         "label": {
@@ -1417,7 +1510,8 @@
           "zh-TW": "魔力回復 %",
           "zh-CN": "魔力回复 %"
         },
-        "value": 4
+        "min": 4,
+        "max": 10
       },
       {
         "key": "mana",
@@ -1426,7 +1520,8 @@
           "zh-TW": "魔力值",
           "zh-CN": "魔力值"
         },
-        "value": 10
+        "min": 10,
+        "max": 20
       },
       {
         "key": "mana-kill",
@@ -1435,7 +1530,8 @@
           "zh-TW": "mana-kill",
           "zh-CN": "mana-kill"
         },
-        "value": 1
+        "min": 1,
+        "max": 3
       }
     ]
   },
@@ -1469,7 +1565,8 @@
         "zh-CN": "Perfect Amethyst"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "regen-mana",
         "label": {
@@ -1477,7 +1574,8 @@
           "zh-TW": "魔力回復 %",
           "zh-CN": "魔力回复 %"
         },
-        "value": 4
+        "min": 4,
+        "max": 10
       },
       {
         "key": "mana",
@@ -1486,7 +1584,8 @@
           "zh-TW": "魔力值",
           "zh-CN": "魔力值"
         },
-        "value": 10
+        "min": 10,
+        "max": 20
       },
       {
         "key": "cast1",
@@ -1495,7 +1594,8 @@
           "zh-TW": "cast1",
           "zh-CN": "cast1"
         },
-        "value": 5
+        "min": 5,
+        "max": 10
       }
     ]
   },
@@ -1529,7 +1629,8 @@
         "zh-CN": "Perfect Amethyst"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "regen-mana",
         "label": {
@@ -1537,7 +1638,8 @@
           "zh-TW": "魔力回復 %",
           "zh-CN": "魔力回复 %"
         },
-        "value": 4
+        "min": 4,
+        "max": 10
       },
       {
         "key": "mana",
@@ -1546,7 +1648,8 @@
           "zh-TW": "魔力值",
           "zh-CN": "魔力值"
         },
-        "value": 10
+        "min": 10,
+        "max": 20
       },
       {
         "key": "enr",
@@ -1555,7 +1658,8 @@
           "zh-TW": "精力",
           "zh-CN": "精力"
         },
-        "value": 1
+        "min": 1,
+        "max": 5
       }
     ]
   },
@@ -1589,7 +1693,8 @@
         "zh-CN": "Perfect Amethyst"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "regen-mana",
         "label": {
@@ -1597,7 +1702,8 @@
           "zh-TW": "魔力回復 %",
           "zh-CN": "魔力回复 %"
         },
-        "value": 4
+        "min": 4,
+        "max": 10
       },
       {
         "key": "mana",
@@ -1606,7 +1712,8 @@
           "zh-TW": "魔力值",
           "zh-CN": "魔力值"
         },
-        "value": 10
+        "min": 10,
+        "max": 20
       },
       {
         "key": "mana%",
@@ -1615,7 +1722,8 @@
           "zh-TW": "增加最大魔力值 %",
           "zh-CN": "增加最大魔力值 %"
         },
-        "value": 1
+        "min": 1,
+        "max": 5
       }
     ]
   },
@@ -1649,7 +1757,8 @@
         "zh-CN": "Perfect Emerald"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "red-dmg",
         "label": {
@@ -1657,7 +1766,8 @@
           "zh-TW": "減少傷害",
           "zh-CN": "减少伤害"
         },
-        "value": 1
+        "min": 1,
+        "max": 4
       },
       {
         "key": "red-mag",
@@ -1666,7 +1776,8 @@
           "zh-TW": "減少魔法傷害",
           "zh-CN": "减少魔法伤害"
         },
-        "value": 1
+        "min": 1,
+        "max": 2
       },
       {
         "key": "res-ltng",
@@ -1675,7 +1786,8 @@
           "zh-TW": "閃電抗性 %",
           "zh-CN": "闪电抗性 %"
         },
-        "value": 5
+        "min": 5,
+        "max": 10
       }
     ]
   },
@@ -1709,7 +1821,8 @@
         "zh-CN": "Perfect Emerald"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "red-dmg",
         "label": {
@@ -1717,7 +1830,8 @@
           "zh-TW": "減少傷害",
           "zh-CN": "减少伤害"
         },
-        "value": 1
+        "min": 1,
+        "max": 4
       },
       {
         "key": "red-mag",
@@ -1726,7 +1840,8 @@
           "zh-TW": "減少魔法傷害",
           "zh-CN": "减少魔法伤害"
         },
-        "value": 1
+        "min": 1,
+        "max": 2
       },
       {
         "key": "res-fire",
@@ -1735,7 +1850,8 @@
           "zh-TW": "火焰抗性 %",
           "zh-CN": "火焰抗性 %"
         },
-        "value": 5
+        "min": 5,
+        "max": 10
       }
     ]
   },
@@ -1769,7 +1885,8 @@
         "zh-CN": "Perfect Emerald"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "red-dmg",
         "label": {
@@ -1777,7 +1894,8 @@
           "zh-TW": "減少傷害",
           "zh-CN": "减少伤害"
         },
-        "value": 1
+        "min": 1,
+        "max": 4
       },
       {
         "key": "red-mag",
@@ -1786,7 +1904,8 @@
           "zh-TW": "減少魔法傷害",
           "zh-CN": "减少魔法伤害"
         },
-        "value": 1
+        "min": 1,
+        "max": 2
       },
       {
         "key": "res-cold",
@@ -1795,7 +1914,8 @@
           "zh-TW": "冷凍抗性 %",
           "zh-CN": "冷冻抗性 %"
         },
-        "value": 5
+        "min": 5,
+        "max": 10
       }
     ]
   },
@@ -1829,7 +1949,8 @@
         "zh-CN": "Perfect Emerald"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "red-dmg",
         "label": {
@@ -1837,7 +1958,8 @@
           "zh-TW": "減少傷害",
           "zh-CN": "减少伤害"
         },
-        "value": 1
+        "min": 1,
+        "max": 4
       },
       {
         "key": "red-mag",
@@ -1846,7 +1968,8 @@
           "zh-TW": "減少魔法傷害",
           "zh-CN": "减少魔法伤害"
         },
-        "value": 1
+        "min": 1,
+        "max": 2
       },
       {
         "key": "res-pois",
@@ -1855,7 +1978,8 @@
           "zh-TW": "毒素抗性 %",
           "zh-CN": "毒素抗性 %"
         },
-        "value": 5
+        "min": 5,
+        "max": 10
       }
     ]
   },
@@ -1889,7 +2013,8 @@
         "zh-CN": "Perfect Emerald"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "red-dmg",
         "label": {
@@ -1897,7 +2022,8 @@
           "zh-TW": "減少傷害",
           "zh-CN": "减少伤害"
         },
-        "value": 1
+        "min": 1,
+        "max": 4
       },
       {
         "key": "red-mag",
@@ -1906,7 +2032,8 @@
           "zh-TW": "減少魔法傷害",
           "zh-CN": "减少魔法伤害"
         },
-        "value": 1
+        "min": 1,
+        "max": 2
       },
       {
         "key": "res-mag",
@@ -1915,7 +2042,8 @@
           "zh-TW": "res-mag",
           "zh-CN": "res-mag"
         },
-        "value": 5
+        "min": 5,
+        "max": 10
       }
     ]
   },
@@ -1951,13 +2079,25 @@
     ],
     "fixedProperties": [
       {
+        "key": "half-freeze",
+        "label": {
+          "en": "Half Freeze Duration",
+          "zh-TW": "減半冰凍持續時間",
+          "zh-CN": "减半冰冻持续时间"
+        },
+        "value": 1
+      }
+    ],
+    "variableProperties": [
+      {
         "key": "red-dmg",
         "label": {
           "en": "Damage Reduced",
           "zh-TW": "減少傷害",
           "zh-CN": "减少伤害"
         },
-        "value": 1
+        "min": 1,
+        "max": 4
       },
       {
         "key": "red-mag",
@@ -1966,16 +2106,8 @@
           "zh-TW": "減少魔法傷害",
           "zh-CN": "减少魔法伤害"
         },
-        "value": 1
-      },
-      {
-        "key": "half-freeze",
-        "label": {
-          "en": "Half Freeze Duration",
-          "zh-TW": "減半冰凍持續時間",
-          "zh-CN": "减半冰冻持续时间"
-        },
-        "value": 1
+        "min": 1,
+        "max": 2
       }
     ]
   },
@@ -2009,7 +2141,8 @@
         "zh-CN": "Perfect Emerald"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "red-dmg",
         "label": {
@@ -2017,7 +2150,8 @@
           "zh-TW": "減少傷害",
           "zh-CN": "减少伤害"
         },
-        "value": 1
+        "min": 1,
+        "max": 4
       },
       {
         "key": "red-mag",
@@ -2026,7 +2160,8 @@
           "zh-TW": "減少魔法傷害",
           "zh-CN": "减少魔法伤害"
         },
-        "value": 1
+        "min": 1,
+        "max": 2
       },
       {
         "key": "block",
@@ -2035,7 +2170,8 @@
           "zh-TW": "格擋機率 %",
           "zh-CN": "格挡机率 %"
         },
-        "value": 1
+        "min": 1,
+        "max": 10
       }
     ]
   },
@@ -2069,7 +2205,8 @@
         "zh-CN": "Perfect Emerald"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "red-dmg",
         "label": {
@@ -2077,7 +2214,8 @@
           "zh-TW": "減少傷害",
           "zh-CN": "减少伤害"
         },
-        "value": 1
+        "min": 1,
+        "max": 4
       },
       {
         "key": "red-mag",
@@ -2086,7 +2224,8 @@
           "zh-TW": "減少魔法傷害",
           "zh-CN": "减少魔法伤害"
         },
-        "value": 1
+        "min": 1,
+        "max": 2
       },
       {
         "key": "vit",
@@ -2095,7 +2234,8 @@
           "zh-TW": "活力",
           "zh-CN": "活力"
         },
-        "value": 1
+        "min": 1,
+        "max": 5
       }
     ]
   },
@@ -2129,7 +2269,8 @@
         "zh-CN": "Perfect Emerald"
       }
     ],
-    "fixedProperties": [
+    "fixedProperties": [],
+    "variableProperties": [
       {
         "key": "red-dmg",
         "label": {
@@ -2137,7 +2278,8 @@
           "zh-TW": "減少傷害",
           "zh-CN": "减少伤害"
         },
-        "value": 1
+        "min": 1,
+        "max": 4
       },
       {
         "key": "red-mag",
@@ -2146,7 +2288,8 @@
           "zh-TW": "減少魔法傷害",
           "zh-CN": "减少魔法伤害"
         },
-        "value": 1
+        "min": 1,
+        "max": 2
       },
       {
         "key": "ac%",
@@ -2155,7 +2298,8 @@
           "zh-TW": "強化防禦力 %",
           "zh-CN": "强化防御力 %"
         },
-        "value": 5
+        "min": 5,
+        "max": 10
       }
     ]
   }

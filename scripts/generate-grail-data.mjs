@@ -713,6 +713,7 @@ console.log(`Wrote ${runesOut.length} runes -> data/runes.json`);
 // against vendor/d2data/json/cubemain.json ids 64-99 this session) — hence the
 // small local extraction function below instead of duplicating extractProps.
 function extractCraftModProps(entry, count) {
+  const variable = [];
   const fixed = [];
   for (let n = 1; n <= count; n++) {
     const rawCode = entry[`mod ${n}`];
@@ -723,26 +724,22 @@ function extractCraftModProps(entry, count) {
     const label = isSkillRef ? localizedLabelWithSkill(code, par) : localizedLabelFor(code);
     const needsKeySuffix = (isSkillRef || KEY_ONLY_DISAMBIGUATE_PROPS.has(code)) && par !== undefined;
     const key = needsKeySuffix ? `${code}:${par}` : code;
-    // Unlike extractProps's uniques/sets/runewords usage, crafted items have no
-    // "variable" output slot in the data model (RawGrailFixedStat.value is a
-    // single number, and craft-item entries have no variableProperties field) —
-    // so every mod here collapses to a fixed value using its `min`, even when
-    // min !== max (e.g. Hit Power Helm's "gethit-skill" mod has min:5, max:4).
+    // Same fixed/variable split as extractProps: a mod with an equal min/max
+    // is a single fixed value; a genuine range (e.g. Hit Power Helm's
+    // "gethit-skill" mod has min:5, max:4) must be preserved as a range
+    // rather than collapsed to one of its endpoints.
     const min = entry[`mod ${n} min`];
     const max = entry[`mod ${n} max`];
-    if (min !== undefined) {
-      fixed.push({ key, label, value: min });
-      continue;
-    }
-    if (max !== undefined) {
-      fixed.push({ key, label, value: max });
+    if (min !== undefined && max !== undefined) {
+      if (min === max) fixed.push({ key, label, value: min });
+      else variable.push({ key, label, min, max });
       continue;
     }
     if (par !== undefined) {
       fixed.push({ key, label, value: par });
     }
   }
-  return fixed;
+  return { variable, fixed };
 }
 
 const cubeMainData = JSON.parse(readFileSync(join(VENDOR, 'cubemain.json'), 'utf8'));
@@ -795,7 +792,7 @@ const CRAFT_FAMILY_BY_ID = {
 const craftedItemsOut = Object.entries(cubeMainData)
   .filter(([id]) => CRAFT_RECIPE_IDS.has(Number(id)))
   .map(([id, v]) => {
-    const fixed = extractCraftModProps(v, 3);
+    const { variable, fixed } = extractCraftModProps(v, 3);
     // The craft recipe description is "<Magic Item Input> + 1 Jewel + <Rune> + <Gem> -> <Output Name>".
     // Split on " -> " for the output name, and on " + " for the input list.
     const [inputsPart, outputName] = v.description.split(' -> ');
@@ -807,6 +804,7 @@ const craftedItemsOut = Object.entries(cubeMainData)
       magicItemInput: localizedItemName(inputParts[0]),
       additionalInputs: inputParts.slice(1).map(localizedItemName),
       fixedProperties: fixed,
+      variableProperties: variable,
     };
   });
 
