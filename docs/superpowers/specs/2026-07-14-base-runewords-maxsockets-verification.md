@@ -174,12 +174,38 @@ curl -sL http://localhost:3457/zh-CN/items/runewords
 3. d2r.world cross-check is deferred to the controller as instructed (no internet
    access in this session).
 
+## Live browser verification + d2r.world spot-check (completed by controller)
+
+Ran a dev server directly from this worktree (port 3008, confirmed via `pwd` and
+`git branch --show-current` before starting) and drove it with a real browser.
+
+- `/en/items/base` renders the 23-category card grid correctly (no charms/jewels/
+  rings/amulets, which have no grade-tiered base lines).
+- `/en/items/base/axes` renders comparison tables for Hand Axe→Hatchet→Tomahawk and
+  Axe→Cleaver→Small Crescent. **Every single stat value matches d2r.world's own Axes
+  page exactly**, cross-checked against this session's earlier direct transcription of
+  d2r.world: Hand Axe (3-6/-/0/-/-/28/2/3), Hatchet (10-21/-/19/25/25/28/2/31),
+  Tomahawk (33-58/-/40/125/67/28/2/54), Axe (4-11/-/0/32/-/24/4/7), Cleaver
+  (10-33/-/22/68/-/24/4/34), Small Crescent (38-60/-/45/115/83/24/4/61) — all correct.
+- `/en/items/runewords` renders the filter pills (item type + socket count) and the
+  full runeword list with real effect stats. "Ancients' Pledge" correctly shows
+  `Level Req: 0` — the documented, accepted fallback for the ~16 entries whose name
+  doesn't exact-match the older curated file (this one: "Ancients' Pledge" vs. curated
+  "Ancient's Pledge", an apostrophe-position difference) — confirms the fallback
+  behavior works as designed, not silently wrong data.
+- `/en/misc/max-sockets` and `/zh-TW/misc/max-sockets` render all 18 rows correctly.
+  **Every value matches d2r.world's own published table exactly**, including the
+  corrected values (Armors 3/4/4, not the raw 3/4/6 ceiling; Shrunken Heads 2/2/2;
+  Grimoires 2/2/2). zh-TW translations (最大孔數, 冠飾, 蠻族頭盔, 德魯伊頭盔, etc.) all
+  correct.
+
+No console errors observed during any of the above.
+
 ## Assessment
 
-All automated verification (TDD test cycle, `tsc`, lint, full test suite, build) and
-curl-based structural checks are clean and consistent, including the corrected
-18-data-row / 19-total-`<tr>` expectation which matches both the source dataset and
-the real rendered HTML. The plan's three deliverables (base items pages, runewords
-page, max sockets page) all render correctly across all 3 locales in this pass; only
-the external d2r.world visual/content cross-check remains, deferred to the
-controller per this session's tooling limits.
+All automated verification, curl-based structural checks, and this live browser +
+d2r.world spot-check are clean and consistent. Base item stats and max-socket values
+match d2r.world exactly wherever cross-checked; the one accepted data gap (runeword
+level-req fallback for ~16 name-mismatched entries) behaves exactly as designed. The
+plan's three deliverables (base items pages, runewords page, max sockets page) are
+complete and verified across all 3 locales.
