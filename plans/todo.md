@@ -140,17 +140,17 @@ _Spec: [docs/superpowers/specs/2026-07-14-unique-set-category-pages-design.md](.
 - [x] CategoryItemList component (grade-tab filtering for one category)
 - [x] New per-category routes, updated landing pages, retire ItemBrowser/ItemCategoryGrid + full verification — final whole-branch review clean, no fix rounds needed
 
-## Upcoming: Base Items, Runewords, Max Sockets
+## Base Items, Runewords, Max Sockets ✅
 
 _Spec: [docs/superpowers/specs/2026-07-14-base-runewords-maxsockets-design.md](../docs/superpowers/specs/2026-07-14-base-runewords-maxsockets-design.md) · Plan: [plans/base-runewords-maxsockets-implementation.md](./base-runewords-maxsockets-implementation.md)_
 
-- [ ] Vendor runes.json
-- [ ] Generate data/bases-full.json (base item lines, 3-grade comparison data)
-- [ ] Generate data/runewords-full.json (real effect stats from runes.json)
-- [ ] Generate data/max-sockets.json (from real itemtypes.json + items.json data)
-- [ ] Base Items pages (card-grid landing + comparison-table category pages)
-- [ ] Runewords filterable list page
-- [ ] Max Sockets page + full verification
+- [x] Vendor runes.json
+- [x] Generate data/bases-full.json (base item lines, 3-grade comparison data)
+- [x] Generate data/runewords-full.json (real effect stats from runes.json, 99 entries)
+- [x] Generate data/max-sockets.json (from real itemtypes.json + items.json data, 18 rows)
+- [x] Base Items pages (card-grid landing + comparison-table category pages)
+- [x] Runewords filterable list page
+- [x] Max Sockets page + full verification — final whole-branch review clean after one fix round (runeword locale rendering, recovered levelReq for 11 name-mismatched runewords)
 
 ## Backlog / Ideas
 
