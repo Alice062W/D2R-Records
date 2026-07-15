@@ -16,3 +16,9 @@ generated output's item counts/names against https://d2r.world/en-US for complet
 `runes.json` provides runeword definitions (required runes, base item type
 restriction, and granted stat properties in the same `T{n}Code`/`Min`/`Max`/`Param`
 shape as `uniqueitems.json`/`setitems.json`) for the Runewords reference page.
+
+`gems.json` provides gem/rune definitions (`weaponMod`/`helmMod`/`shieldMod` properties
+per socket-type) for the Runes reference page. `cubemain.json` provides every Horadric
+Cube recipe (plain-English description, structured inputs/output, and — for craft
+recipes — guaranteed `mod {n}` properties in the same shape as `uniqueitems.json`) for
+the Cube Recipes and Crafted Items reference pages.
