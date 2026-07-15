@@ -5,6 +5,7 @@ import basesFull from './bases-full.json';
 import runewordsFull from './runewords-full.json';
 import cubeRecipesData from './cube-recipes.json';
 import craftedItemsData from './crafted-items.json';
+import magicAffixesData from './magic-affixes.json';
 import { getCategoriesForKind, SLOT_ORDER } from '@/lib/grail/catalog';
 
 interface LocalizedText { en: string; 'zh-TW': string; 'zh-CN': string; }
@@ -331,5 +332,32 @@ describe('crafted-items.json', () => {
     expect(helm.fixedProperties.length).toBe(0);
     expect(helm.variableProperties.length).toBe(3);
     expect(helm.additionalInputs.map(i => i.en)).toEqual(['Jewel', 'Ith Rune', 'Perfect Sapphire']);
+  });
+});
+
+describe('magic-affixes.json', () => {
+  it('includes both prefixes and suffixes', () => {
+    expect(magicAffixesData.some(a => a.kind === 'prefix')).toBe(true);
+    expect(magicAffixesData.some(a => a.kind === 'suffix')).toBe(true);
+  });
+
+  it('excludes frequency-0 (inactive) entries', () => {
+    // "Fortuitous" v0 (group 114) has frequency:0 and should not appear; the active
+    // v1 entry (frequency:4, alvl 12, no rare flag) should.
+    const fortuitous = magicAffixesData.filter(a => a.name.en === 'Fortuitous');
+    expect(fortuitous.length).toBeGreaterThan(0);
+    expect(fortuitous.every(a => a.alvl !== 5)).toBe(true); // the dead v0 entry was alvl 5
+  });
+
+  it('marks rare-eligible affixes correctly', () => {
+    const felicitous = magicAffixesData.find(a => a.name.en === 'Felicitous');
+    expect(felicitous?.rareEligible).toBe(true);
+  });
+
+  it('every entry has at least one item type and one stat', () => {
+    for (const a of magicAffixesData) {
+      expect(a.itemTypes.length).toBeGreaterThan(0);
+      expect(a.stats.length).toBeGreaterThan(0);
+    }
   });
 });

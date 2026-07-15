@@ -810,3 +810,96 @@ const craftedItemsOut = Object.entries(cubeMainData)
 
 writeFileSync(join(OUT, 'crafted-items.json'), JSON.stringify(craftedItemsOut, null, 2));
 console.log(`Wrote ${craftedItemsOut.length} crafted items -> data/crafted-items.json`);
+
+const magicPrefixData = JSON.parse(readFileSync(join(VENDOR, 'magicprefix.json'), 'utf8'));
+const magicSuffixData = JSON.parse(readFileSync(join(VENDOR, 'magicsuffix.json'), 'utf8'));
+
+function itemTypesForAffix(entry) {
+  const types = [];
+  for (let n = 1; n <= 7; n++) {
+    const itype = entry[`itype${n}`];
+    if (itype) types.push(TYPE_TO_SLOT[itype] ?? itype);
+  }
+  // A handful of active suffixes (all Barbarian class-specific, e.g. "of
+  // Howling") carry no itype{n} fields at all — their restriction is
+  // expressed entirely via the `class` field instead. Fall back to that
+  // rather than reporting an empty (nonsensical) item-type list.
+  if (types.length === 0 && entry.class) types.push(entry.class);
+  return types;
+}
+
+// magicprefix.json/magicsuffix.json use field names mod{n}code/mod{n}param/
+// mod{n}min/mod{n}max — a number-then-suffix shape that extractProps (which builds
+// keys as `${prefixText}${n}`, i.e. suffix-then-number, like prop1/par1) cannot
+// directly express. Rather than force extractProps to fit, this is a small
+// dedicated extraction loop for this one shape.
+function extractMagicAffixStats(entry) {
+  const variable = [];
+  const fixed = [];
+  for (let n = 1; n <= 3; n++) {
+    const rawCode = entry[`mod${n}code`];
+    if (!rawCode) continue;
+    const code = CODE_ALIASES[rawCode] ?? rawCode;
+    const par = entry[`mod${n}param`];
+    const isSkillRef = SKILL_REF_PROPS.has(code);
+    const label = isSkillRef ? localizedLabelWithSkill(code, par) : localizedLabelFor(code);
+    const needsKeySuffix = (isSkillRef || KEY_ONLY_DISAMBIGUATE_PROPS.has(code)) && par !== undefined;
+    const key = needsKeySuffix ? `${code}:${par}` : code;
+    const min = entry[`mod${n}min`];
+    const max = entry[`mod${n}max`];
+    if (min !== undefined && max !== undefined) {
+      if (min === max) fixed.push({ key, label, value: min });
+      else variable.push({ key, label, min, max });
+      continue;
+    }
+    // Some mods (e.g. "sock" on Artificer's/Jeweler's, "ac/lvl" on Miocene)
+    // carry only a `mod{n}param` field instead of min/max — same par-only
+    // shape extractProps already handles for uniqueitems.json/setitems.json.
+    // Without this fallback these affixes silently end up with zero stats.
+    if (par !== undefined) {
+      fixed.push({ key, label, value: par });
+      continue;
+    }
+    // "of Ages" (suffix 404, mod1code "indestruct") has no min/max/param at
+    // all — a bare boolean flag prop, unlike uniqueitems.json's indestruct
+    // entries which always carry min1===max1===1. Surface it the same way
+    // (value: 1) rather than silently dropping the affix's only stat.
+    fixed.push({ key, label, value: 1 });
+  }
+  return { variable, fixed };
+}
+
+// alvl ("affix level") comes from the source data's `level` field, not
+// `levelreq` (the character-level requirement to use the affix) — verified
+// directly against the vendored files: "Fortuitous" (group 114) has a dead
+// frequency:0 v0 entry with level:5/levelreq:3, and the active frequency:4 v1
+// entry with level:12/levelreq:8. Using `levelreq` first (as an earlier draft
+// of this generator step assumed) would silently report the wrong number here.
+function magicAffixesFrom(data, kind) {
+  return Object.entries(data)
+    .filter(([, v]) => (v.frequency ?? 0) > 0)
+    .map(([id, v]) => {
+      const { variable, fixed } = extractMagicAffixStats(v);
+      return {
+        id: `${kind}-${id}`,
+        // A handful of active (frequency > 0) affix rows carry no `Name` at all
+        // (verified: magicprefix.json id 153, group 102, spawnable:0/frequency:4)
+        // — a real gap in the source data, not something to drop silently since
+        // the spec requires every frequency > 0 entry included.
+        name: localizedItemName(v.Name ?? `Unnamed Affix ${id}`),
+        kind,
+        alvl: v.level ?? v.levelreq ?? 0,
+        itemTypes: itemTypesForAffix(v),
+        rareEligible: v.rare === 1,
+        stats: [...variable, ...fixed.map(f => ({ key: f.key, label: f.label, min: f.value, max: f.value }))],
+      };
+    });
+}
+
+const magicAffixesOut = [
+  ...magicAffixesFrom(magicPrefixData, 'prefix'),
+  ...magicAffixesFrom(magicSuffixData, 'suffix'),
+];
+
+writeFileSync(join(OUT, 'magic-affixes.json'), JSON.stringify(magicAffixesOut, null, 2));
+console.log(`Wrote ${magicAffixesOut.length} magic/rare affixes -> data/magic-affixes.json`);

@@ -22,3 +22,12 @@ per socket-type) for the Runes reference page. `cubemain.json` provides every Ho
 Cube recipe (plain-English description, structured inputs/output, and — for craft
 recipes — guaranteed `mod {n}` properties in the same shape as `uniqueitems.json`) for
 the Cube Recipes and Crafted Items reference pages.
+
+`magicprefix.json`/`magicsuffix.json` provide magic/rare item affixes (name, level
+requirement, item-type restrictions, and granted properties) for the Magic Items and
+Rare Items reference pages. Both pages draw from the same `frequency > 0` active-affix
+pool; Rare Items further restricts to entries where `rare === 1` (verified this session
+via direct comparison against d2r.world: an affix present on the Magic page without a
+`rare` flag is absent from the Rare page for the same item type, and vice versa for a
+`rare: 1` entry appearing only on the Rare page — this is a real, curated subset
+distinction in the game's own item generation, not an artifact of stale/versioned data).
