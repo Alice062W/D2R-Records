@@ -361,3 +361,51 @@ describe('magic-affixes.json', () => {
     }
   });
 });
+
+describe('property labels (no leaked raw codes)', () => {
+  // Codes deliberately left unmapped in PROP_LABELS_EN/PROP_LABELS_ZH_TW because no
+  // confidently-grounded label could be found (see scripts/generate-grail-data.mjs):
+  // - "pierce-dmg": itemstatcost.json has a matching `item_pierce` stat, but its exact
+  //   in-game wording (generic pierce vs. "damage penetrates resistance") could not be
+  //   confirmed against d2r.world or sibling-code convention, so it's left as a raw-code
+  //   fallback rather than guessed.
+  // - "war": corresponds to `passive_warmth` in itemstatcost.json, which carries no
+  //   descstrpos/descfunc — i.e. no confirmable in-game display text — so it's left
+  //   unmapped rather than guessed.
+  const DELIBERATELY_UNMAPPED = new Set(['pierce-dmg', 'war']);
+
+  // A stat whose `label.en` is identical to its own code (the part of `key` before any
+  // ":"-disambiguator) and looks like a raw internal property code (lowercase,
+  // hyphen-separated, optionally with a trailing "%") is a leaked-label bug: the
+  // generator's PROP_LABELS_EN/PROP_LABELS_ZH_TW dictionaries are missing that code.
+  function findLeakedRawCodes(data: unknown): Set<string> {
+    const leaked = new Set<string>();
+    function walk(node: unknown) {
+      if (Array.isArray(node)) {
+        for (const item of node) walk(item);
+      } else if (node && typeof node === 'object') {
+        const obj = node as Record<string, unknown>;
+        const label = obj.label as { en?: unknown } | undefined;
+        if (typeof obj.key === 'string' && label && typeof label.en === 'string') {
+          const code = obj.key.split(':')[0];
+          if (label.en === code && /^[a-z0-9]+(-[a-z0-9%]+)+$/.test(code)) {
+            leaked.add(code);
+          }
+        }
+        for (const value of Object.values(obj)) walk(value);
+      }
+    }
+    walk(data);
+    return leaked;
+  }
+
+  it('runes.json, crafted-items.json, and magic-affixes.json have no leaked raw property codes', () => {
+    const leaked = new Set<string>();
+    for (const data of [runesData, craftedItemsData, magicAffixesData]) {
+      for (const code of findLeakedRawCodes(data)) leaked.add(code);
+    }
+    for (const code of leaked) {
+      expect(DELIBERATELY_UNMAPPED.has(code)).toBe(true);
+    }
+  });
+});

@@ -4124,9 +4124,9 @@
       {
         "key": "howl",
         "label": {
-          "en": "howl",
-          "zh-TW": "howl",
-          "zh-CN": "howl"
+          "en": "Hit Causes Monster to Flee %",
+          "zh-TW": "擊中使怪物逃跑 %",
+          "zh-CN": "击中使怪物逃跑 %"
         },
         "min": 32,
         "max": 32
@@ -4150,9 +4150,9 @@
       {
         "key": "howl",
         "label": {
-          "en": "howl",
-          "zh-TW": "howl",
-          "zh-CN": "howl"
+          "en": "Hit Causes Monster to Flee %",
+          "zh-TW": "擊中使怪物逃跑 %",
+          "zh-CN": "击中使怪物逃跑 %"
         },
         "min": 64,
         "max": 64
@@ -4176,9 +4176,9 @@
       {
         "key": "howl",
         "label": {
-          "en": "howl",
-          "zh-TW": "howl",
-          "zh-CN": "howl"
+          "en": "Hit Causes Monster to Flee %",
+          "zh-TW": "擊中使怪物逃跑 %",
+          "zh-CN": "击中使怪物逃跑 %"
         },
         "min": 128,
         "max": 128
@@ -4202,9 +4202,9 @@
       {
         "key": "howl",
         "label": {
-          "en": "howl",
-          "zh-TW": "howl",
-          "zh-CN": "howl"
+          "en": "Hit Causes Monster to Flee %",
+          "zh-TW": "擊中使怪物逃跑 %",
+          "zh-CN": "击中使怪物逃跑 %"
         },
         "min": 16,
         "max": 16
@@ -4228,9 +4228,9 @@
       {
         "key": "howl",
         "label": {
-          "en": "howl",
-          "zh-TW": "howl",
-          "zh-CN": "howl"
+          "en": "Hit Causes Monster to Flee %",
+          "zh-TW": "擊中使怪物逃跑 %",
+          "zh-CN": "击中使怪物逃跑 %"
         },
         "min": 24,
         "max": 24
@@ -4254,9 +4254,9 @@
       {
         "key": "howl",
         "label": {
-          "en": "howl",
-          "zh-TW": "howl",
-          "zh-CN": "howl"
+          "en": "Hit Causes Monster to Flee %",
+          "zh-TW": "擊中使怪物逃跑 %",
+          "zh-CN": "击中使怪物逃跑 %"
         },
         "min": 32,
         "max": 32
@@ -8086,9 +8086,9 @@
       {
         "key": "mana-kill",
         "label": {
-          "en": "mana-kill",
-          "zh-TW": "mana-kill",
-          "zh-CN": "mana-kill"
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
         },
         "min": 1,
         "max": 1
@@ -8113,9 +8113,9 @@
       {
         "key": "mana-kill",
         "label": {
-          "en": "mana-kill",
-          "zh-TW": "mana-kill",
-          "zh-CN": "mana-kill"
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
         },
         "min": 2,
         "max": 5
@@ -8139,9 +8139,9 @@
       {
         "key": "mana-kill",
         "label": {
-          "en": "mana-kill",
-          "zh-TW": "mana-kill",
-          "zh-CN": "mana-kill"
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
         },
         "min": 1,
         "max": 3
@@ -8254,9 +8254,9 @@
       {
         "key": "att-demon",
         "label": {
-          "en": "att-demon",
-          "zh-TW": "att-demon",
-          "zh-CN": "att-demon"
+          "en": "Attack Rating vs. Demons %",
+          "zh-TW": "對惡魔攻擊等級 %",
+          "zh-CN": "对恶魔攻击等级 %"
         },
         "min": 25,
         "max": 50
@@ -8264,9 +8264,9 @@
       {
         "key": "dmg-demon",
         "label": {
-          "en": "dmg-demon",
-          "zh-TW": "dmg-demon",
-          "zh-CN": "dmg-demon"
+          "en": "Damage to Demons",
+          "zh-TW": "對惡魔傷害",
+          "zh-CN": "对恶魔伤害"
         },
         "min": 10,
         "max": 25
@@ -8291,9 +8291,9 @@
       {
         "key": "att-demon",
         "label": {
-          "en": "att-demon",
-          "zh-TW": "att-demon",
-          "zh-CN": "att-demon"
+          "en": "Attack Rating vs. Demons %",
+          "zh-TW": "對惡魔攻擊等級 %",
+          "zh-CN": "对恶魔攻击等级 %"
         },
         "min": 51,
         "max": 100
@@ -8301,9 +8301,9 @@
       {
         "key": "dmg-demon",
         "label": {
-          "en": "dmg-demon",
-          "zh-TW": "dmg-demon",
-          "zh-CN": "dmg-demon"
+          "en": "Damage to Demons",
+          "zh-TW": "對惡魔傷害",
+          "zh-CN": "对恶魔伤害"
         },
         "min": 26,
         "max": 50
@@ -8327,9 +8327,9 @@
       {
         "key": "att-demon",
         "label": {
-          "en": "att-demon",
-          "zh-TW": "att-demon",
-          "zh-CN": "att-demon"
+          "en": "Attack Rating vs. Demons %",
+          "zh-TW": "對惡魔攻擊等級 %",
+          "zh-CN": "对恶魔攻击等级 %"
         },
         "min": 101,
         "max": 150
@@ -8337,9 +8337,9 @@
       {
         "key": "dmg-demon",
         "label": {
-          "en": "dmg-demon",
-          "zh-TW": "dmg-demon",
-          "zh-CN": "dmg-demon"
+          "en": "Damage to Demons",
+          "zh-TW": "對惡魔傷害",
+          "zh-CN": "对恶魔伤害"
         },
         "min": 51,
         "max": 100
@@ -8363,9 +8363,9 @@
       {
         "key": "att-demon",
         "label": {
-          "en": "att-demon",
-          "zh-TW": "att-demon",
-          "zh-CN": "att-demon"
+          "en": "Attack Rating vs. Demons %",
+          "zh-TW": "對惡魔攻擊等級 %",
+          "zh-CN": "对恶魔攻击等级 %"
         },
         "min": 151,
         "max": 200
@@ -8373,9 +8373,9 @@
       {
         "key": "dmg-demon",
         "label": {
-          "en": "dmg-demon",
-          "zh-TW": "dmg-demon",
-          "zh-CN": "dmg-demon"
+          "en": "Damage to Demons",
+          "zh-TW": "對惡魔傷害",
+          "zh-CN": "对恶魔伤害"
         },
         "min": 101,
         "max": 150
@@ -8399,9 +8399,9 @@
       {
         "key": "att-demon",
         "label": {
-          "en": "att-demon",
-          "zh-TW": "att-demon",
-          "zh-CN": "att-demon"
+          "en": "Attack Rating vs. Demons %",
+          "zh-TW": "對惡魔攻擊等級 %",
+          "zh-CN": "对恶魔攻击等级 %"
         },
         "min": 201,
         "max": 300
@@ -8409,9 +8409,9 @@
       {
         "key": "dmg-demon",
         "label": {
-          "en": "dmg-demon",
-          "zh-TW": "dmg-demon",
-          "zh-CN": "dmg-demon"
+          "en": "Damage to Demons",
+          "zh-TW": "對惡魔傷害",
+          "zh-CN": "对恶魔伤害"
         },
         "min": 151,
         "max": 200
@@ -8435,9 +8435,9 @@
       {
         "key": "att-demon",
         "label": {
-          "en": "att-demon",
-          "zh-TW": "att-demon",
-          "zh-CN": "att-demon"
+          "en": "Attack Rating vs. Demons %",
+          "zh-TW": "對惡魔攻擊等級 %",
+          "zh-CN": "对恶魔攻击等级 %"
         },
         "min": 301,
         "max": 400
@@ -8445,9 +8445,9 @@
       {
         "key": "dmg-demon",
         "label": {
-          "en": "dmg-demon",
-          "zh-TW": "dmg-demon",
-          "zh-CN": "dmg-demon"
+          "en": "Damage to Demons",
+          "zh-TW": "對惡魔傷害",
+          "zh-CN": "对恶魔伤害"
         },
         "min": 201,
         "max": 300
@@ -8471,9 +8471,9 @@
       {
         "key": "att-demon",
         "label": {
-          "en": "att-demon",
-          "zh-TW": "att-demon",
-          "zh-CN": "att-demon"
+          "en": "Attack Rating vs. Demons %",
+          "zh-TW": "對惡魔攻擊等級 %",
+          "zh-CN": "对恶魔攻击等级 %"
         },
         "min": 25,
         "max": 50
@@ -8481,9 +8481,9 @@
       {
         "key": "dmg-demon",
         "label": {
-          "en": "dmg-demon",
-          "zh-TW": "dmg-demon",
-          "zh-CN": "dmg-demon"
+          "en": "Damage to Demons",
+          "zh-TW": "對惡魔傷害",
+          "zh-CN": "对恶魔伤害"
         },
         "min": 25,
         "max": 40
@@ -13271,9 +13271,9 @@
       {
         "key": "att-undead",
         "label": {
-          "en": "att-undead",
-          "zh-TW": "att-undead",
-          "zh-CN": "att-undead"
+          "en": "Attack Rating vs. Undead %",
+          "zh-TW": "對不死系攻擊等級 %",
+          "zh-CN": "对不死系攻击等级 %"
         },
         "min": 25,
         "max": 75
@@ -13307,9 +13307,9 @@
       {
         "key": "att-undead",
         "label": {
-          "en": "att-undead",
-          "zh-TW": "att-undead",
-          "zh-CN": "att-undead"
+          "en": "Attack Rating vs. Undead %",
+          "zh-TW": "對不死系攻擊等級 %",
+          "zh-CN": "对不死系攻击等级 %"
         },
         "min": 76,
         "max": 175
@@ -13343,9 +13343,9 @@
       {
         "key": "att-undead",
         "label": {
-          "en": "att-undead",
-          "zh-TW": "att-undead",
-          "zh-CN": "att-undead"
+          "en": "Attack Rating vs. Undead %",
+          "zh-TW": "對不死系攻擊等級 %",
+          "zh-CN": "对不死系攻击等级 %"
         },
         "min": 175,
         "max": 250
@@ -13379,9 +13379,9 @@
       {
         "key": "att-undead",
         "label": {
-          "en": "att-undead",
-          "zh-TW": "att-undead",
-          "zh-CN": "att-undead"
+          "en": "Attack Rating vs. Undead %",
+          "zh-TW": "對不死系攻擊等級 %",
+          "zh-CN": "对不死系攻击等级 %"
         },
         "min": 251,
         "max": 325
@@ -13415,9 +13415,9 @@
       {
         "key": "att-undead",
         "label": {
-          "en": "att-undead",
-          "zh-TW": "att-undead",
-          "zh-CN": "att-undead"
+          "en": "Attack Rating vs. Undead %",
+          "zh-TW": "對不死系攻擊等級 %",
+          "zh-CN": "对不死系攻击等级 %"
         },
         "min": 326,
         "max": 450
@@ -13451,9 +13451,9 @@
       {
         "key": "att-undead",
         "label": {
-          "en": "att-undead",
-          "zh-TW": "att-undead",
-          "zh-CN": "att-undead"
+          "en": "Attack Rating vs. Undead %",
+          "zh-TW": "對不死系攻擊等級 %",
+          "zh-CN": "对不死系攻击等级 %"
         },
         "min": 25,
         "max": 50
@@ -18043,9 +18043,9 @@
       {
         "key": "abs-ltng",
         "label": {
-          "en": "abs-ltng",
-          "zh-TW": "abs-ltng",
-          "zh-CN": "abs-ltng"
+          "en": "Lightning Absorb",
+          "zh-TW": "閃電吸收",
+          "zh-CN": "闪电吸收"
         },
         "min": 2,
         "max": 2
@@ -18072,9 +18072,9 @@
       {
         "key": "abs-ltng",
         "label": {
-          "en": "abs-ltng",
-          "zh-TW": "abs-ltng",
-          "zh-CN": "abs-ltng"
+          "en": "Lightning Absorb",
+          "zh-TW": "閃電吸收",
+          "zh-CN": "闪电吸收"
         },
         "min": 3,
         "max": 3
@@ -18101,9 +18101,9 @@
       {
         "key": "abs-ltng",
         "label": {
-          "en": "abs-ltng",
-          "zh-TW": "abs-ltng",
-          "zh-CN": "abs-ltng"
+          "en": "Lightning Absorb",
+          "zh-TW": "閃電吸收",
+          "zh-CN": "闪电吸收"
         },
         "min": 4,
         "max": 5
@@ -18130,9 +18130,9 @@
       {
         "key": "abs-ltng",
         "label": {
-          "en": "abs-ltng",
-          "zh-TW": "abs-ltng",
-          "zh-CN": "abs-ltng"
+          "en": "Lightning Absorb",
+          "zh-TW": "閃電吸收",
+          "zh-CN": "闪电吸收"
         },
         "min": 6,
         "max": 8
@@ -18159,9 +18159,9 @@
       {
         "key": "abs-ltng",
         "label": {
-          "en": "abs-ltng",
-          "zh-TW": "abs-ltng",
-          "zh-CN": "abs-ltng"
+          "en": "Lightning Absorb",
+          "zh-TW": "閃電吸收",
+          "zh-CN": "闪电吸收"
         },
         "min": 2,
         "max": 2
@@ -18187,9 +18187,9 @@
       {
         "key": "abs-ltng",
         "label": {
-          "en": "abs-ltng",
-          "zh-TW": "abs-ltng",
-          "zh-CN": "abs-ltng"
+          "en": "Lightning Absorb",
+          "zh-TW": "閃電吸收",
+          "zh-CN": "闪电吸收"
         },
         "min": 3,
         "max": 3
@@ -18215,9 +18215,9 @@
       {
         "key": "abs-ltng",
         "label": {
-          "en": "abs-ltng",
-          "zh-TW": "abs-ltng",
-          "zh-CN": "abs-ltng"
+          "en": "Lightning Absorb",
+          "zh-TW": "閃電吸收",
+          "zh-CN": "闪电吸收"
         },
         "min": 4,
         "max": 5
@@ -18243,9 +18243,9 @@
       {
         "key": "abs-ltng",
         "label": {
-          "en": "abs-ltng",
-          "zh-TW": "abs-ltng",
-          "zh-CN": "abs-ltng"
+          "en": "Lightning Absorb",
+          "zh-TW": "閃電吸收",
+          "zh-CN": "闪电吸收"
         },
         "min": 6,
         "max": 8
@@ -18269,9 +18269,9 @@
       {
         "key": "abs-ltng",
         "label": {
-          "en": "abs-ltng",
-          "zh-TW": "abs-ltng",
-          "zh-CN": "abs-ltng"
+          "en": "Lightning Absorb",
+          "zh-TW": "閃電吸收",
+          "zh-CN": "闪电吸收"
         },
         "min": 1,
         "max": 2
@@ -18578,9 +18578,9 @@
       {
         "key": "dmg-ac",
         "label": {
-          "en": "dmg-ac",
-          "zh-TW": "dmg-ac",
-          "zh-CN": "dmg-ac"
+          "en": "Damage Reduces Target Defense",
+          "zh-TW": "傷害降低目標防禦力",
+          "zh-CN": "伤害降低目标防御力"
         },
         "min": -25,
         "max": -40
@@ -18606,9 +18606,9 @@
       {
         "key": "dmg-ac",
         "label": {
-          "en": "dmg-ac",
-          "zh-TW": "dmg-ac",
-          "zh-CN": "dmg-ac"
+          "en": "Damage Reduces Target Defense",
+          "zh-TW": "傷害降低目標防禦力",
+          "zh-CN": "伤害降低目标防御力"
         },
         "min": -10,
         "max": -20
@@ -18772,9 +18772,9 @@
       {
         "key": "swing1",
         "label": {
-          "en": "swing1",
-          "zh-TW": "swing1",
-          "zh-CN": "swing1"
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
         },
         "min": 10,
         "max": 10
@@ -18902,9 +18902,9 @@
       {
         "key": "swing1",
         "label": {
-          "en": "swing1",
-          "zh-TW": "swing1",
-          "zh-CN": "swing1"
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
         },
         "min": 15,
         "max": 15
@@ -19004,9 +19004,9 @@
       {
         "key": "cast1",
         "label": {
-          "en": "cast1",
-          "zh-TW": "cast1",
-          "zh-CN": "cast1"
+          "en": "Faster Cast Rate",
+          "zh-TW": "加快施法速度",
+          "zh-CN": "加快施法速度"
         },
         "min": 10,
         "max": 10
@@ -21637,9 +21637,9 @@
       {
         "key": "balance3",
         "label": {
-          "en": "balance3",
-          "zh-TW": "balance3",
-          "zh-CN": "balance3"
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
         },
         "min": 24,
         "max": 24
@@ -21663,9 +21663,9 @@
       {
         "key": "balance3",
         "label": {
-          "en": "balance3",
-          "zh-TW": "balance3",
-          "zh-CN": "balance3"
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
         },
         "min": 12,
         "max": 12
@@ -21961,9 +21961,9 @@
       {
         "key": "noheal",
         "label": {
-          "en": "noheal",
-          "zh-TW": "noheal",
-          "zh-CN": "noheal"
+          "en": "Prevent Monster Heal",
+          "zh-TW": "防止怪物治療",
+          "zh-CN": "防止怪物治疗"
         },
         "min": 1,
         "max": 1
@@ -24453,9 +24453,9 @@
       {
         "key": "res-pois-len",
         "label": {
-          "en": "res-pois-len",
-          "zh-TW": "res-pois-len",
-          "zh-CN": "res-pois-len"
+          "en": "Poison Length Reduced %",
+          "zh-TW": "減少毒素持續時間 %",
+          "zh-CN": "减少毒素持续时间 %"
         },
         "min": 75,
         "max": 75
@@ -24482,9 +24482,9 @@
       {
         "key": "res-pois-len",
         "label": {
-          "en": "res-pois-len",
-          "zh-TW": "res-pois-len",
-          "zh-CN": "res-pois-len"
+          "en": "Poison Length Reduced %",
+          "zh-TW": "減少毒素持續時間 %",
+          "zh-CN": "减少毒素持续时间 %"
         },
         "min": 50,
         "max": 50
@@ -24511,9 +24511,9 @@
       {
         "key": "res-pois-len",
         "label": {
-          "en": "res-pois-len",
-          "zh-TW": "res-pois-len",
-          "zh-CN": "res-pois-len"
+          "en": "Poison Length Reduced %",
+          "zh-TW": "減少毒素持續時間 %",
+          "zh-CN": "减少毒素持续时间 %"
         },
         "min": 25,
         "max": 25
@@ -25238,9 +25238,9 @@
       {
         "key": "move1",
         "label": {
-          "en": "move1",
-          "zh-TW": "move1",
-          "zh-CN": "move1"
+          "en": "Faster Run/Walk %",
+          "zh-TW": "加快跑走速度 %",
+          "zh-CN": "加快跑走速度 %"
         },
         "min": 10,
         "max": 10
@@ -25432,9 +25432,9 @@
       {
         "key": "move1",
         "label": {
-          "en": "move1",
-          "zh-TW": "move1",
-          "zh-CN": "move1"
+          "en": "Faster Run/Walk %",
+          "zh-TW": "加快跑走速度 %",
+          "zh-CN": "加快跑走速度 %"
         },
         "min": 3,
         "max": 3
@@ -32401,9 +32401,9 @@
       {
         "key": "swing1",
         "label": {
-          "en": "swing1",
-          "zh-TW": "swing1",
-          "zh-CN": "swing1"
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
         },
         "min": 10,
         "max": 10

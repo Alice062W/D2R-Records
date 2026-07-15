@@ -105,9 +105,9 @@
       {
         "key": "stupidity",
         "label": {
-          "en": "stupidity",
-          "zh-TW": "stupidity",
-          "zh-CN": "stupidity"
+          "en": "Hit Blinds Target",
+          "zh-TW": "擊中致盲目標",
+          "zh-CN": "击中致盲目标"
         },
         "value": 1
       },
@@ -132,9 +132,9 @@
       {
         "key": "mana-kill",
         "label": {
-          "en": "mana-kill",
-          "zh-TW": "mana-kill",
-          "zh-CN": "mana-kill"
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
         },
         "value": 4
       }
@@ -191,9 +191,9 @@
       {
         "key": "att-undead",
         "label": {
-          "en": "att-undead",
-          "zh-TW": "att-undead",
-          "zh-CN": "att-undead"
+          "en": "Attack Rating vs. Undead %",
+          "zh-TW": "對不死系攻擊等級 %",
+          "zh-CN": "对不死系攻击等级 %"
         },
         "value": 40
       },
@@ -297,9 +297,9 @@
       {
         "key": "stupidity",
         "label": {
-          "en": "stupidity",
-          "zh-TW": "stupidity",
-          "zh-CN": "stupidity"
+          "en": "Hit Blinds Target",
+          "zh-TW": "擊中致盲目標",
+          "zh-CN": "击中致盲目标"
         },
         "value": 2
       },
@@ -471,9 +471,9 @@
       {
         "key": "freeze",
         "label": {
-          "en": "freeze",
-          "zh-TW": "freeze",
-          "zh-CN": "freeze"
+          "en": "Hit Freezes Target",
+          "zh-TW": "擊中冰凍目標",
+          "zh-CN": "击中冰冻目标"
         },
         "value": 3
       },
@@ -635,9 +635,9 @@
       {
         "key": "mana-kill",
         "label": {
-          "en": "mana-kill",
-          "zh-TW": "mana-kill",
-          "zh-CN": "mana-kill"
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
         },
         "value": 6
       },
@@ -1200,9 +1200,9 @@
       {
         "key": "howl",
         "label": {
-          "en": "howl",
-          "zh-TW": "howl",
-          "zh-CN": "howl"
+          "en": "Hit Causes Monster to Flee %",
+          "zh-TW": "擊中使怪物逃跑 %",
+          "zh-CN": "击中使怪物逃跑 %"
         },
         "value": 64
       },
@@ -1828,9 +1828,9 @@
       {
         "key": "swing1",
         "label": {
-          "en": "swing1",
-          "zh-TW": "swing1",
-          "zh-CN": "swing1"
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
         },
         "value": 10
       },
@@ -2602,9 +2602,9 @@
       {
         "key": "swing1",
         "label": {
-          "en": "swing1",
-          "zh-TW": "swing1",
-          "zh-CN": "swing1"
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
         },
         "value": 10
       },
@@ -2787,9 +2787,9 @@
       {
         "key": "res-pois-len",
         "label": {
-          "en": "res-pois-len",
-          "zh-TW": "res-pois-len",
-          "zh-CN": "res-pois-len"
+          "en": "Poison Length Reduced %",
+          "zh-TW": "減少毒素持續時間 %",
+          "zh-CN": "减少毒素持续时间 %"
         },
         "value": 50
       },
@@ -3128,9 +3128,9 @@
       {
         "key": "noheal",
         "label": {
-          "en": "noheal",
-          "zh-TW": "noheal",
-          "zh-CN": "noheal"
+          "en": "Prevent Monster Heal",
+          "zh-TW": "防止怪物治療",
+          "zh-CN": "防止怪物治疗"
         },
         "value": 1
       },
@@ -3291,9 +3291,9 @@
       {
         "key": "stupidity",
         "label": {
-          "en": "stupidity",
-          "zh-TW": "stupidity",
-          "zh-CN": "stupidity"
+          "en": "Hit Blinds Target",
+          "zh-TW": "擊中致盲目標",
+          "zh-CN": "击中致盲目标"
         },
         "value": 1
       },
@@ -3505,9 +3505,9 @@
       {
         "key": "nofreeze",
         "label": {
-          "en": "nofreeze",
-          "zh-TW": "nofreeze",
-          "zh-CN": "nofreeze"
+          "en": "Cannot Be Frozen",
+          "zh-TW": "不會被冰凍",
+          "zh-CN": "不会被冰冻"
         },
         "value": 1
       },
@@ -3532,9 +3532,9 @@
       {
         "key": "res-pois-max",
         "label": {
-          "en": "res-pois-max",
-          "zh-TW": "res-pois-max",
-          "zh-CN": "res-pois-max"
+          "en": "Maximum Poison Resist %",
+          "zh-TW": "最大毒素抗性 %",
+          "zh-CN": "最大毒素抗性 %"
         },
         "value": 20
       }
@@ -3732,9 +3732,9 @@
       {
         "key": "reduce-ac",
         "label": {
-          "en": "reduce-ac",
-          "zh-TW": "reduce-ac",
-          "zh-CN": "reduce-ac"
+          "en": "Reduce Target Defense %",
+          "zh-TW": "降低目標防禦力 %",
+          "zh-CN": "降低目标防御力 %"
         },
         "value": 50
       },
@@ -3979,9 +3979,9 @@
       {
         "key": "res-fire-max",
         "label": {
-          "en": "res-fire-max",
-          "zh-TW": "res-fire-max",
-          "zh-CN": "res-fire-max"
+          "en": "Maximum Fire Resist %",
+          "zh-TW": "最大火焰抗性 %",
+          "zh-CN": "最大火焰抗性 %"
         },
         "value": 15
       },
@@ -4139,9 +4139,9 @@
       {
         "key": "howl",
         "label": {
-          "en": "howl",
-          "zh-TW": "howl",
-          "zh-CN": "howl"
+          "en": "Hit Causes Monster to Flee %",
+          "zh-TW": "擊中使怪物逃跑 %",
+          "zh-CN": "击中使怪物逃跑 %"
         },
         "value": 96
       },
@@ -4400,27 +4400,27 @@
       {
         "key": "stupidity",
         "label": {
-          "en": "stupidity",
-          "zh-TW": "stupidity",
-          "zh-CN": "stupidity"
+          "en": "Hit Blinds Target",
+          "zh-TW": "擊中致盲目標",
+          "zh-CN": "击中致盲目标"
         },
         "value": 3
       },
       {
         "key": "dmg-ac",
         "label": {
-          "en": "dmg-ac",
-          "zh-TW": "dmg-ac",
-          "zh-CN": "dmg-ac"
+          "en": "Damage Reduces Target Defense",
+          "zh-TW": "傷害降低目標防禦力",
+          "zh-CN": "伤害降低目标防御力"
         },
         "value": -50
       },
       {
         "key": "freeze",
         "label": {
-          "en": "freeze",
-          "zh-TW": "freeze",
-          "zh-CN": "freeze"
+          "en": "Hit Freezes Target",
+          "zh-TW": "擊中冰凍目標",
+          "zh-CN": "击中冰冻目标"
         },
         "value": 1
       },
@@ -4436,9 +4436,9 @@
       {
         "key": "noheal",
         "label": {
-          "en": "noheal",
-          "zh-TW": "noheal",
-          "zh-CN": "noheal"
+          "en": "Prevent Monster Heal",
+          "zh-TW": "防止怪物治療",
+          "zh-CN": "防止怪物治疗"
         },
         "value": 1
       }
@@ -4484,9 +4484,9 @@
       {
         "key": "noheal",
         "label": {
-          "en": "noheal",
-          "zh-TW": "noheal",
-          "zh-CN": "noheal"
+          "en": "Prevent Monster Heal",
+          "zh-TW": "防止怪物治療",
+          "zh-CN": "防止怪物治疗"
         },
         "value": 1
       },
@@ -4717,9 +4717,9 @@
       {
         "key": "reduce-ac",
         "label": {
-          "en": "reduce-ac",
-          "zh-TW": "reduce-ac",
-          "zh-CN": "reduce-ac"
+          "en": "Reduce Target Defense %",
+          "zh-TW": "降低目標防禦力 %",
+          "zh-CN": "降低目标防御力 %"
         },
         "value": 50
       }
@@ -5100,9 +5100,9 @@
       {
         "key": "mana-kill",
         "label": {
-          "en": "mana-kill",
-          "zh-TW": "mana-kill",
-          "zh-CN": "mana-kill"
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
         },
         "value": 2
       }
@@ -5613,9 +5613,9 @@
       {
         "key": "swing1",
         "label": {
-          "en": "swing1",
-          "zh-TW": "swing1",
-          "zh-CN": "swing1"
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
         },
         "value": 10
       },
@@ -5961,9 +5961,9 @@
       {
         "key": "res-fire-max",
         "label": {
-          "en": "res-fire-max",
-          "zh-TW": "res-fire-max",
-          "zh-CN": "res-fire-max"
+          "en": "Maximum Fire Resist %",
+          "zh-TW": "最大火焰抗性 %",
+          "zh-CN": "最大火焰抗性 %"
         },
         "value": 15
       },
@@ -6255,9 +6255,9 @@
       {
         "key": "stupidity",
         "label": {
-          "en": "stupidity",
-          "zh-TW": "stupidity",
-          "zh-CN": "stupidity"
+          "en": "Hit Blinds Target",
+          "zh-TW": "擊中致盲目標",
+          "zh-CN": "击中致盲目标"
         },
         "value": 1
       },
@@ -6534,9 +6534,9 @@
       {
         "key": "howl",
         "label": {
-          "en": "howl",
-          "zh-TW": "howl",
-          "zh-CN": "howl"
+          "en": "Hit Causes Monster to Flee %",
+          "zh-TW": "擊中使怪物逃跑 %",
+          "zh-CN": "击中使怪物逃跑 %"
         },
         "value": 33
       }
@@ -6583,9 +6583,9 @@
       {
         "key": "att-undead",
         "label": {
-          "en": "att-undead",
-          "zh-TW": "att-undead",
-          "zh-CN": "att-undead"
+          "en": "Attack Rating vs. Undead %",
+          "zh-TW": "對不死系攻擊等級 %",
+          "zh-CN": "对不死系攻击等级 %"
         },
         "min": 50,
         "max": 100
@@ -6683,9 +6683,9 @@
       {
         "key": "howl",
         "label": {
-          "en": "howl",
-          "zh-TW": "howl",
-          "zh-CN": "howl"
+          "en": "Hit Causes Monster to Flee %",
+          "zh-TW": "擊中使怪物逃跑 %",
+          "zh-CN": "击中使怪物逃跑 %"
         },
         "value": 64
       },
@@ -7155,9 +7155,9 @@
       {
         "key": "ac-hth",
         "label": {
-          "en": "ac-hth",
-          "zh-TW": "ac-hth",
-          "zh-CN": "ac-hth"
+          "en": "Defense vs. Melee",
+          "zh-TW": "對抗近戰攻擊防禦力",
+          "zh-CN": "对抗近战攻击防御力"
         },
         "value": 50
       },
@@ -7217,9 +7217,9 @@
       {
         "key": "res-cold-max",
         "label": {
-          "en": "res-cold-max",
-          "zh-TW": "res-cold-max",
-          "zh-CN": "res-cold-max"
+          "en": "Maximum Cold Resist %",
+          "zh-TW": "最大冷凍抗性 %",
+          "zh-CN": "最大冷冻抗性 %"
         },
         "value": 15
       },
@@ -7235,9 +7235,9 @@
       {
         "key": "nofreeze",
         "label": {
-          "en": "nofreeze",
-          "zh-TW": "nofreeze",
-          "zh-CN": "nofreeze"
+          "en": "Cannot Be Frozen",
+          "zh-TW": "不會被冰凍",
+          "zh-CN": "不会被冰冻"
         },
         "value": 1
       },
@@ -7372,18 +7372,18 @@
       {
         "key": "res-pois-max",
         "label": {
-          "en": "res-pois-max",
-          "zh-TW": "res-pois-max",
-          "zh-CN": "res-pois-max"
+          "en": "Maximum Poison Resist %",
+          "zh-TW": "最大毒素抗性 %",
+          "zh-CN": "最大毒素抗性 %"
         },
         "value": 15
       },
       {
         "key": "res-pois-len",
         "label": {
-          "en": "res-pois-len",
-          "zh-TW": "res-pois-len",
-          "zh-CN": "res-pois-len"
+          "en": "Poison Length Reduced %",
+          "zh-TW": "減少毒素持續時間 %",
+          "zh-CN": "减少毒素持续时间 %"
         },
         "value": 50
       },
@@ -7452,9 +7452,9 @@
       {
         "key": "freeze",
         "label": {
-          "en": "freeze",
-          "zh-TW": "freeze",
-          "zh-CN": "freeze"
+          "en": "Hit Freezes Target",
+          "zh-TW": "擊中冰凍目標",
+          "zh-CN": "击中冰冻目标"
         },
         "value": 1
       },
@@ -7672,9 +7672,9 @@
       {
         "key": "howl",
         "label": {
-          "en": "howl",
-          "zh-TW": "howl",
-          "zh-CN": "howl"
+          "en": "Hit Causes Monster to Flee %",
+          "zh-TW": "擊中使怪物逃跑 %",
+          "zh-CN": "击中使怪物逃跑 %"
         },
         "value": 52
       },
@@ -7935,9 +7935,9 @@
       {
         "key": "att-undead",
         "label": {
-          "en": "att-undead",
-          "zh-TW": "att-undead",
-          "zh-CN": "att-undead"
+          "en": "Attack Rating vs. Undead %",
+          "zh-TW": "對不死系攻擊等級 %",
+          "zh-CN": "对不死系攻击等级 %"
         },
         "value": 100
       }
@@ -8105,9 +8105,9 @@
       {
         "key": "stupidity",
         "label": {
-          "en": "stupidity",
-          "zh-TW": "stupidity",
-          "zh-CN": "stupidity"
+          "en": "Hit Blinds Target",
+          "zh-TW": "擊中致盲目標",
+          "zh-CN": "击中致盲目标"
         },
         "value": 1
       },
@@ -8315,9 +8315,9 @@
       {
         "key": "mana-kill",
         "label": {
-          "en": "mana-kill",
-          "zh-TW": "mana-kill",
-          "zh-CN": "mana-kill"
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
         },
         "value": 5
       },
@@ -9263,9 +9263,9 @@
       {
         "key": "res-fire-max",
         "label": {
-          "en": "res-fire-max",
-          "zh-TW": "res-fire-max",
-          "zh-CN": "res-fire-max"
+          "en": "Maximum Fire Resist %",
+          "zh-TW": "最大火焰抗性 %",
+          "zh-CN": "最大火焰抗性 %"
         },
         "value": 15
       },
@@ -9823,9 +9823,9 @@
       {
         "key": "res-pois-len",
         "label": {
-          "en": "res-pois-len",
-          "zh-TW": "res-pois-len",
-          "zh-CN": "res-pois-len"
+          "en": "Poison Length Reduced %",
+          "zh-TW": "減少毒素持續時間 %",
+          "zh-CN": "减少毒素持续时间 %"
         },
         "value": 50
       }
@@ -10151,9 +10151,9 @@
       {
         "key": "res-fire-max",
         "label": {
-          "en": "res-fire-max",
-          "zh-TW": "res-fire-max",
-          "zh-CN": "res-fire-max"
+          "en": "Maximum Fire Resist %",
+          "zh-TW": "最大火焰抗性 %",
+          "zh-CN": "最大火焰抗性 %"
         },
         "value": 10
       },
@@ -11058,9 +11058,9 @@
       {
         "key": "res-cold-max",
         "label": {
-          "en": "res-cold-max",
-          "zh-TW": "res-cold-max",
-          "zh-CN": "res-cold-max"
+          "en": "Maximum Cold Resist %",
+          "zh-TW": "最大冷凍抗性 %",
+          "zh-CN": "最大冷冻抗性 %"
         },
         "value": 15
       },
@@ -11646,9 +11646,9 @@
       {
         "key": "cast1",
         "label": {
-          "en": "cast1",
-          "zh-TW": "cast1",
-          "zh-CN": "cast1"
+          "en": "Faster Cast Rate",
+          "zh-TW": "加快施法速度",
+          "zh-CN": "加快施法速度"
         },
         "value": 10
       },
@@ -11958,9 +11958,9 @@
       {
         "key": "stupidity",
         "label": {
-          "en": "stupidity",
-          "zh-TW": "stupidity",
-          "zh-CN": "stupidity"
+          "en": "Hit Blinds Target",
+          "zh-TW": "擊中致盲目標",
+          "zh-CN": "击中致盲目标"
         },
         "value": 2
       },
@@ -12238,9 +12238,9 @@
       {
         "key": "cast1",
         "label": {
-          "en": "cast1",
-          "zh-TW": "cast1",
-          "zh-CN": "cast1"
+          "en": "Faster Cast Rate",
+          "zh-TW": "加快施法速度",
+          "zh-CN": "加快施法速度"
         },
         "value": 10
       },
@@ -12447,18 +12447,18 @@
       {
         "key": "dmg-demon",
         "label": {
-          "en": "dmg-demon",
-          "zh-TW": "dmg-demon",
-          "zh-CN": "dmg-demon"
+          "en": "Damage to Demons",
+          "zh-TW": "對惡魔傷害",
+          "zh-CN": "对恶魔伤害"
         },
         "value": 200
       },
       {
         "key": "att-demon",
         "label": {
-          "en": "att-demon",
-          "zh-TW": "att-demon",
-          "zh-CN": "att-demon"
+          "en": "Attack Rating vs. Demons %",
+          "zh-TW": "對惡魔攻擊等級 %",
+          "zh-CN": "对恶魔攻击等级 %"
         },
         "value": 200
       },
@@ -12474,9 +12474,9 @@
       {
         "key": "demon-heal",
         "label": {
-          "en": "demon-heal",
-          "zh-TW": "demon-heal",
-          "zh-CN": "demon-heal"
+          "en": "Life after Demon Kill",
+          "zh-TW": "擊殺惡魔後恢復生命值",
+          "zh-CN": "击杀恶魔后恢复生命值"
         },
         "value": 15
       }
@@ -12887,9 +12887,9 @@
       {
         "key": "noheal",
         "label": {
-          "en": "noheal",
-          "zh-TW": "noheal",
-          "zh-CN": "noheal"
+          "en": "Prevent Monster Heal",
+          "zh-TW": "防止怪物治療",
+          "zh-CN": "防止怪物治疗"
         },
         "value": 1
       },
@@ -13013,18 +13013,18 @@
       {
         "key": "nofreeze",
         "label": {
-          "en": "nofreeze",
-          "zh-TW": "nofreeze",
-          "zh-CN": "nofreeze"
+          "en": "Cannot Be Frozen",
+          "zh-TW": "不會被冰凍",
+          "zh-CN": "不会被冰冻"
         },
         "value": 1
       },
       {
         "key": "freeze",
         "label": {
-          "en": "freeze",
-          "zh-TW": "freeze",
-          "zh-CN": "freeze"
+          "en": "Hit Freezes Target",
+          "zh-TW": "擊中冰凍目標",
+          "zh-CN": "击中冰冻目标"
         },
         "value": 3
       }
@@ -13308,9 +13308,9 @@
       {
         "key": "stupidity",
         "label": {
-          "en": "stupidity",
-          "zh-TW": "stupidity",
-          "zh-CN": "stupidity"
+          "en": "Hit Blinds Target",
+          "zh-TW": "擊中致盲目標",
+          "zh-CN": "击中致盲目标"
         },
         "value": 1
       },
@@ -13691,9 +13691,9 @@
       {
         "key": "stupidity",
         "label": {
-          "en": "stupidity",
-          "zh-TW": "stupidity",
-          "zh-CN": "stupidity"
+          "en": "Hit Blinds Target",
+          "zh-TW": "擊中致盲目標",
+          "zh-CN": "击中致盲目标"
         },
         "value": 1
       },
@@ -13824,9 +13824,9 @@
       {
         "key": "res-fire-max",
         "label": {
-          "en": "res-fire-max",
-          "zh-TW": "res-fire-max",
-          "zh-CN": "res-fire-max"
+          "en": "Maximum Fire Resist %",
+          "zh-TW": "最大火焰抗性 %",
+          "zh-CN": "最大火焰抗性 %"
         },
         "value": 10
       },
@@ -14052,9 +14052,9 @@
       {
         "key": "noheal",
         "label": {
-          "en": "noheal",
-          "zh-TW": "noheal",
-          "zh-CN": "noheal"
+          "en": "Prevent Monster Heal",
+          "zh-TW": "防止怪物治療",
+          "zh-CN": "防止怪物治疗"
         },
         "value": 1
       },
@@ -14337,9 +14337,9 @@
       {
         "key": "dmg-ac",
         "label": {
-          "en": "dmg-ac",
-          "zh-TW": "dmg-ac",
-          "zh-CN": "dmg-ac"
+          "en": "Damage Reduces Target Defense",
+          "zh-TW": "傷害降低目標防禦力",
+          "zh-CN": "伤害降低目标防御力"
         },
         "value": -70
       },
@@ -14452,9 +14452,9 @@
       {
         "key": "freeze",
         "label": {
-          "en": "freeze",
-          "zh-TW": "freeze",
-          "zh-CN": "freeze"
+          "en": "Hit Freezes Target",
+          "zh-TW": "擊中冰凍目標",
+          "zh-CN": "击中冰冻目标"
         },
         "value": 2
       }
@@ -14630,9 +14630,9 @@
       {
         "key": "res-ltng-max",
         "label": {
-          "en": "res-ltng-max",
-          "zh-TW": "res-ltng-max",
-          "zh-CN": "res-ltng-max"
+          "en": "Maximum Lightning Resist %",
+          "zh-TW": "最大閃電抗性 %",
+          "zh-CN": "最大闪电抗性 %"
         },
         "value": 10
       },
@@ -14858,9 +14858,9 @@
       {
         "key": "ac-hth",
         "label": {
-          "en": "ac-hth",
-          "zh-TW": "ac-hth",
-          "zh-CN": "ac-hth"
+          "en": "Defense vs. Melee",
+          "zh-TW": "對抗近戰攻擊防禦力",
+          "zh-CN": "对抗近战攻击防御力"
         },
         "value": 200
       },
@@ -14955,9 +14955,9 @@
       {
         "key": "noheal",
         "label": {
-          "en": "noheal",
-          "zh-TW": "noheal",
-          "zh-CN": "noheal"
+          "en": "Prevent Monster Heal",
+          "zh-TW": "防止怪物治療",
+          "zh-CN": "防止怪物治疗"
         },
         "value": 1
       },
@@ -15349,9 +15349,9 @@
       {
         "key": "noheal",
         "label": {
-          "en": "noheal",
-          "zh-TW": "noheal",
-          "zh-CN": "noheal"
+          "en": "Prevent Monster Heal",
+          "zh-TW": "防止怪物治療",
+          "zh-CN": "防止怪物治疗"
         },
         "value": 1
       },
@@ -16184,9 +16184,9 @@
       {
         "key": "noheal",
         "label": {
-          "en": "noheal",
-          "zh-TW": "noheal",
-          "zh-CN": "noheal"
+          "en": "Prevent Monster Heal",
+          "zh-TW": "防止怪物治療",
+          "zh-CN": "防止怪物治疗"
         },
         "value": 1
       },
@@ -16301,9 +16301,9 @@
       {
         "key": "reduce-ac",
         "label": {
-          "en": "reduce-ac",
-          "zh-TW": "reduce-ac",
-          "zh-CN": "reduce-ac"
+          "en": "Reduce Target Defense %",
+          "zh-TW": "降低目標防禦力 %",
+          "zh-CN": "降低目标防御力 %"
         },
         "value": 50
       },
@@ -16587,9 +16587,9 @@
       {
         "key": "cast1",
         "label": {
-          "en": "cast1",
-          "zh-TW": "cast1",
-          "zh-CN": "cast1"
+          "en": "Faster Cast Rate",
+          "zh-TW": "加快施法速度",
+          "zh-CN": "加快施法速度"
         },
         "value": 20
       },
@@ -16754,9 +16754,9 @@
       {
         "key": "mana-kill",
         "label": {
-          "en": "mana-kill",
-          "zh-TW": "mana-kill",
-          "zh-CN": "mana-kill"
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
         },
         "value": 20
       },
@@ -17429,9 +17429,9 @@
       {
         "key": "stupidity",
         "label": {
-          "en": "stupidity",
-          "zh-TW": "stupidity",
-          "zh-CN": "stupidity"
+          "en": "Hit Blinds Target",
+          "zh-TW": "擊中致盲目標",
+          "zh-CN": "击中致盲目标"
         },
         "value": 1
       },
@@ -17509,9 +17509,9 @@
       {
         "key": "dmg-demon",
         "label": {
-          "en": "dmg-demon",
-          "zh-TW": "dmg-demon",
-          "zh-CN": "dmg-demon"
+          "en": "Damage to Demons",
+          "zh-TW": "對惡魔傷害",
+          "zh-CN": "对恶魔伤害"
         },
         "min": 100,
         "max": 200
@@ -17859,9 +17859,9 @@
       {
         "key": "freeze",
         "label": {
-          "en": "freeze",
-          "zh-TW": "freeze",
-          "zh-CN": "freeze"
+          "en": "Hit Freezes Target",
+          "zh-TW": "擊中冰凍目標",
+          "zh-CN": "击中冰冻目标"
         },
         "value": 3
       }
@@ -18327,9 +18327,9 @@
       {
         "key": "nofreeze",
         "label": {
-          "en": "nofreeze",
-          "zh-TW": "nofreeze",
-          "zh-CN": "nofreeze"
+          "en": "Cannot Be Frozen",
+          "zh-TW": "不會被冰凍",
+          "zh-CN": "不会被冰冻"
         },
         "value": 1
       },
@@ -18399,9 +18399,9 @@
       {
         "key": "mana-kill",
         "label": {
-          "en": "mana-kill",
-          "zh-TW": "mana-kill",
-          "zh-CN": "mana-kill"
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
         },
         "min": 2,
         "max": 4
@@ -18595,18 +18595,18 @@
       {
         "key": "noheal",
         "label": {
-          "en": "noheal",
-          "zh-TW": "noheal",
-          "zh-CN": "noheal"
+          "en": "Prevent Monster Heal",
+          "zh-TW": "防止怪物治療",
+          "zh-CN": "防止怪物治疗"
         },
         "value": 1
       },
       {
         "key": "abs-ltng",
         "label": {
-          "en": "abs-ltng",
-          "zh-TW": "abs-ltng",
-          "zh-CN": "abs-ltng"
+          "en": "Lightning Absorb",
+          "zh-TW": "閃電吸收",
+          "zh-CN": "闪电吸收"
         },
         "value": 20
       },
@@ -18772,9 +18772,9 @@
       {
         "key": "nofreeze",
         "label": {
-          "en": "nofreeze",
-          "zh-TW": "nofreeze",
-          "zh-CN": "nofreeze"
+          "en": "Cannot Be Frozen",
+          "zh-TW": "不會被冰凍",
+          "zh-CN": "不会被冰冻"
         },
         "value": 1
       },
@@ -19445,9 +19445,9 @@
       {
         "key": "nofreeze",
         "label": {
-          "en": "nofreeze",
-          "zh-TW": "nofreeze",
-          "zh-CN": "nofreeze"
+          "en": "Cannot Be Frozen",
+          "zh-TW": "不會被冰凍",
+          "zh-CN": "不会被冰冻"
         },
         "value": 1
       },
@@ -19891,9 +19891,9 @@
       {
         "key": "att-demon",
         "label": {
-          "en": "att-demon",
-          "zh-TW": "att-demon",
-          "zh-CN": "att-demon"
+          "en": "Attack Rating vs. Demons %",
+          "zh-TW": "對惡魔攻擊等級 %",
+          "zh-CN": "对恶魔攻击等级 %"
         },
         "min": 200,
         "max": 250
@@ -19911,9 +19911,9 @@
       {
         "key": "dmg-demon",
         "label": {
-          "en": "dmg-demon",
-          "zh-TW": "dmg-demon",
-          "zh-CN": "dmg-demon"
+          "en": "Damage to Demons",
+          "zh-TW": "對惡魔傷害",
+          "zh-CN": "对恶魔伤害"
         },
         "min": 30,
         "max": 60
@@ -20119,9 +20119,9 @@
       {
         "key": "mana-kill",
         "label": {
-          "en": "mana-kill",
-          "zh-TW": "mana-kill",
-          "zh-CN": "mana-kill"
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
         },
         "value": 3
       },
@@ -20813,9 +20813,9 @@
       {
         "key": "mana-kill",
         "label": {
-          "en": "mana-kill",
-          "zh-TW": "mana-kill",
-          "zh-CN": "mana-kill"
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
         },
         "min": 3,
         "max": 5
@@ -21033,9 +21033,9 @@
       {
         "key": "res-pois-max",
         "label": {
-          "en": "res-pois-max",
-          "zh-TW": "res-pois-max",
-          "zh-CN": "res-pois-max"
+          "en": "Maximum Poison Resist %",
+          "zh-TW": "最大毒素抗性 %",
+          "zh-CN": "最大毒素抗性 %"
         },
         "value": 5
       },
@@ -21112,9 +21112,9 @@
       {
         "key": "att-undead",
         "label": {
-          "en": "att-undead",
-          "zh-TW": "att-undead",
-          "zh-CN": "att-undead"
+          "en": "Attack Rating vs. Undead %",
+          "zh-TW": "對不死系攻擊等級 %",
+          "zh-CN": "对不死系攻击等级 %"
         },
         "min": 100,
         "max": 200
@@ -21516,9 +21516,9 @@
       {
         "key": "res-fire-max",
         "label": {
-          "en": "res-fire-max",
-          "zh-TW": "res-fire-max",
-          "zh-CN": "res-fire-max"
+          "en": "Maximum Fire Resist %",
+          "zh-TW": "最大火焰抗性 %",
+          "zh-CN": "最大火焰抗性 %"
         },
         "value": 10
       },
@@ -21645,9 +21645,9 @@
       {
         "key": "res-fire-max",
         "label": {
-          "en": "res-fire-max",
-          "zh-TW": "res-fire-max",
-          "zh-CN": "res-fire-max"
+          "en": "Maximum Fire Resist %",
+          "zh-TW": "最大火焰抗性 %",
+          "zh-CN": "最大火焰抗性 %"
         },
         "value": 5
       },
@@ -21708,9 +21708,9 @@
       {
         "key": "mana-kill",
         "label": {
-          "en": "mana-kill",
-          "zh-TW": "mana-kill",
-          "zh-CN": "mana-kill"
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
         },
         "value": 5
       },
@@ -22319,9 +22319,9 @@
       {
         "key": "res-cold-max",
         "label": {
-          "en": "res-cold-max",
-          "zh-TW": "res-cold-max",
-          "zh-CN": "res-cold-max"
+          "en": "Maximum Cold Resist %",
+          "zh-TW": "最大冷凍抗性 %",
+          "zh-CN": "最大冷冻抗性 %"
         },
         "value": 15
       },
@@ -22421,18 +22421,18 @@
       {
         "key": "res-ltng-max",
         "label": {
-          "en": "res-ltng-max",
-          "zh-TW": "res-ltng-max",
-          "zh-CN": "res-ltng-max"
+          "en": "Maximum Lightning Resist %",
+          "zh-TW": "最大閃電抗性 %",
+          "zh-CN": "最大闪电抗性 %"
         },
         "value": 10
       },
       {
         "key": "abs-ltng",
         "label": {
-          "en": "abs-ltng",
-          "zh-TW": "abs-ltng",
-          "zh-CN": "abs-ltng"
+          "en": "Lightning Absorb",
+          "zh-TW": "閃電吸收",
+          "zh-CN": "闪电吸收"
         },
         "value": 20
       },
@@ -22756,9 +22756,9 @@
       {
         "key": "res-pois-len",
         "label": {
-          "en": "res-pois-len",
-          "zh-TW": "res-pois-len",
-          "zh-CN": "res-pois-len"
+          "en": "Poison Length Reduced %",
+          "zh-TW": "減少毒素持續時間 %",
+          "zh-CN": "减少毒素持续时间 %"
         },
         "value": 50
       },
@@ -22792,9 +22792,9 @@
       {
         "key": "nofreeze",
         "label": {
-          "en": "nofreeze",
-          "zh-TW": "nofreeze",
-          "zh-CN": "nofreeze"
+          "en": "Cannot Be Frozen",
+          "zh-TW": "不會被冰凍",
+          "zh-CN": "不会被冰冻"
         },
         "value": 1
       }
@@ -25034,9 +25034,9 @@
       {
         "key": "nofreeze",
         "label": {
-          "en": "nofreeze",
-          "zh-TW": "nofreeze",
-          "zh-CN": "nofreeze"
+          "en": "Cannot Be Frozen",
+          "zh-TW": "不會被冰凍",
+          "zh-CN": "不会被冰冻"
         },
         "value": 1
       },
@@ -25453,9 +25453,9 @@
       {
         "key": "mana-kill",
         "label": {
-          "en": "mana-kill",
-          "zh-TW": "mana-kill",
-          "zh-CN": "mana-kill"
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
         },
         "value": 5
       },
@@ -25926,9 +25926,9 @@
       {
         "key": "mana-kill",
         "label": {
-          "en": "mana-kill",
-          "zh-TW": "mana-kill",
-          "zh-CN": "mana-kill"
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
         },
         "value": 5
       },
@@ -26275,9 +26275,9 @@
       {
         "key": "mana-kill",
         "label": {
-          "en": "mana-kill",
-          "zh-TW": "mana-kill",
-          "zh-CN": "mana-kill"
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
         },
         "value": 5
       },
@@ -26380,9 +26380,9 @@
       {
         "key": "mana-kill",
         "label": {
-          "en": "mana-kill",
-          "zh-TW": "mana-kill",
-          "zh-CN": "mana-kill"
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
         },
         "value": 4
       }
@@ -26522,9 +26522,9 @@
       {
         "key": "dmg-demon",
         "label": {
-          "en": "dmg-demon",
-          "zh-TW": "dmg-demon",
-          "zh-CN": "dmg-demon"
+          "en": "Damage to Demons",
+          "zh-TW": "對惡魔傷害",
+          "zh-CN": "对恶魔伤害"
         },
         "min": 100,
         "max": 150
@@ -26532,9 +26532,9 @@
       {
         "key": "att-demon",
         "label": {
-          "en": "att-demon",
-          "zh-TW": "att-demon",
-          "zh-CN": "att-demon"
+          "en": "Attack Rating vs. Demons %",
+          "zh-TW": "對惡魔攻擊等級 %",
+          "zh-CN": "对恶魔攻击等级 %"
         },
         "min": 200,
         "max": 300
@@ -26542,9 +26542,9 @@
       {
         "key": "abs-ltng",
         "label": {
-          "en": "abs-ltng",
-          "zh-TW": "abs-ltng",
-          "zh-CN": "abs-ltng"
+          "en": "Lightning Absorb",
+          "zh-TW": "閃電吸收",
+          "zh-CN": "闪电吸收"
         },
         "min": 3,
         "max": 7
@@ -26888,9 +26888,9 @@
       {
         "key": "reduce-ac",
         "label": {
-          "en": "reduce-ac",
-          "zh-TW": "reduce-ac",
-          "zh-CN": "reduce-ac"
+          "en": "Reduce Target Defense %",
+          "zh-TW": "降低目標防禦力 %",
+          "zh-CN": "降低目标防御力 %"
         },
         "value": 33
       },
@@ -27005,9 +27005,9 @@
       {
         "key": "dmg-demon",
         "label": {
-          "en": "dmg-demon",
-          "zh-TW": "dmg-demon",
-          "zh-CN": "dmg-demon"
+          "en": "Damage to Demons",
+          "zh-TW": "對惡魔傷害",
+          "zh-CN": "对恶魔伤害"
         },
         "value": 123
       }
@@ -27163,9 +27163,9 @@
       {
         "key": "att-undead",
         "label": {
-          "en": "att-undead",
-          "zh-TW": "att-undead",
-          "zh-CN": "att-undead"
+          "en": "Attack Rating vs. Undead %",
+          "zh-TW": "對不死系攻擊等級 %",
+          "zh-CN": "对不死系攻击等级 %"
         },
         "min": 250,
         "max": 350
@@ -27277,9 +27277,9 @@
       {
         "key": "mana-kill",
         "label": {
-          "en": "mana-kill",
-          "zh-TW": "mana-kill",
-          "zh-CN": "mana-kill"
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
         },
         "min": 7,
         "max": 12
@@ -27372,9 +27372,9 @@
       {
         "key": "noheal",
         "label": {
-          "en": "noheal",
-          "zh-TW": "noheal",
-          "zh-CN": "noheal"
+          "en": "Prevent Monster Heal",
+          "zh-TW": "防止怪物治療",
+          "zh-CN": "防止怪物治疗"
         },
         "value": 1
       },
@@ -27543,9 +27543,9 @@
       {
         "key": "dmg-demon",
         "label": {
-          "en": "dmg-demon",
-          "zh-TW": "dmg-demon",
-          "zh-CN": "dmg-demon"
+          "en": "Damage to Demons",
+          "zh-TW": "對惡魔傷害",
+          "zh-CN": "对恶魔伤害"
         },
         "min": 25,
         "max": 50
@@ -27563,9 +27563,9 @@
       {
         "key": "att-demon",
         "label": {
-          "en": "att-demon",
-          "zh-TW": "att-demon",
-          "zh-CN": "att-demon"
+          "en": "Attack Rating vs. Demons %",
+          "zh-TW": "對惡魔攻擊等級 %",
+          "zh-CN": "对恶魔攻击等级 %"
         },
         "min": 150,
         "max": 250
@@ -27573,9 +27573,9 @@
       {
         "key": "att-undead",
         "label": {
-          "en": "att-undead",
-          "zh-TW": "att-undead",
-          "zh-CN": "att-undead"
+          "en": "Attack Rating vs. Undead %",
+          "zh-TW": "對不死系攻擊等級 %",
+          "zh-CN": "对不死系攻击等级 %"
         },
         "min": 150,
         "max": 250
@@ -27648,18 +27648,18 @@
       {
         "key": "reduce-ac",
         "label": {
-          "en": "reduce-ac",
-          "zh-TW": "reduce-ac",
-          "zh-CN": "reduce-ac"
+          "en": "Reduce Target Defense %",
+          "zh-TW": "降低目標防禦力 %",
+          "zh-CN": "降低目标防御力 %"
         },
         "value": 50
       },
       {
         "key": "noheal",
         "label": {
-          "en": "noheal",
-          "zh-TW": "noheal",
-          "zh-CN": "noheal"
+          "en": "Prevent Monster Heal",
+          "zh-TW": "防止怪物治療",
+          "zh-CN": "防止怪物治疗"
         },
         "value": 1
       },
@@ -27851,18 +27851,18 @@
       {
         "key": "reduce-ac",
         "label": {
-          "en": "reduce-ac",
-          "zh-TW": "reduce-ac",
-          "zh-CN": "reduce-ac"
+          "en": "Reduce Target Defense %",
+          "zh-TW": "降低目標防禦力 %",
+          "zh-CN": "降低目标防御力 %"
         },
         "value": 25
       },
       {
         "key": "dmg-ac",
         "label": {
-          "en": "dmg-ac",
-          "zh-TW": "dmg-ac",
-          "zh-CN": "dmg-ac"
+          "en": "Damage Reduces Target Defense",
+          "zh-TW": "傷害降低目標防禦力",
+          "zh-CN": "伤害降低目标防御力"
         },
         "value": -100
       }
@@ -28197,9 +28197,9 @@
       {
         "key": "dmg-demon",
         "label": {
-          "en": "dmg-demon",
-          "zh-TW": "dmg-demon",
-          "zh-CN": "dmg-demon"
+          "en": "Damage to Demons",
+          "zh-TW": "對惡魔傷害",
+          "zh-CN": "对恶魔伤害"
         },
         "min": 50,
         "max": 100
@@ -28256,9 +28256,9 @@
       {
         "key": "nofreeze",
         "label": {
-          "en": "nofreeze",
-          "zh-TW": "nofreeze",
-          "zh-CN": "nofreeze"
+          "en": "Cannot Be Frozen",
+          "zh-TW": "不會被冰凍",
+          "zh-CN": "不会被冰冻"
         },
         "value": 1
       },
@@ -28351,9 +28351,9 @@
       {
         "key": "dmg-ac",
         "label": {
-          "en": "dmg-ac",
-          "zh-TW": "dmg-ac",
-          "zh-CN": "dmg-ac"
+          "en": "Damage Reduces Target Defense",
+          "zh-TW": "傷害降低目標防禦力",
+          "zh-CN": "伤害降低目标防御力"
         },
         "value": -50
       }
@@ -28414,18 +28414,18 @@
       {
         "key": "res-cold-max",
         "label": {
-          "en": "res-cold-max",
-          "zh-TW": "res-cold-max",
-          "zh-CN": "res-cold-max"
+          "en": "Maximum Cold Resist %",
+          "zh-TW": "最大冷凍抗性 %",
+          "zh-CN": "最大冷冻抗性 %"
         },
         "value": 5
       },
       {
         "key": "nofreeze",
         "label": {
-          "en": "nofreeze",
-          "zh-TW": "nofreeze",
-          "zh-CN": "nofreeze"
+          "en": "Cannot Be Frozen",
+          "zh-TW": "不會被冰凍",
+          "zh-CN": "不会被冰冻"
         },
         "value": 1
       }
@@ -28493,9 +28493,9 @@
       {
         "key": "reduce-ac",
         "label": {
-          "en": "reduce-ac",
-          "zh-TW": "reduce-ac",
-          "zh-CN": "reduce-ac"
+          "en": "Reduce Target Defense %",
+          "zh-TW": "降低目標防禦力 %",
+          "zh-CN": "降低目标防御力 %"
         },
         "value": 33
       },
@@ -28572,9 +28572,9 @@
       {
         "key": "reduce-ac",
         "label": {
-          "en": "reduce-ac",
-          "zh-TW": "reduce-ac",
-          "zh-CN": "reduce-ac"
+          "en": "Reduce Target Defense %",
+          "zh-TW": "降低目標防禦力 %",
+          "zh-CN": "降低目标防御力 %"
         },
         "value": 33
       },
@@ -29006,9 +29006,9 @@
       {
         "key": "noheal",
         "label": {
-          "en": "noheal",
-          "zh-TW": "noheal",
-          "zh-CN": "noheal"
+          "en": "Prevent Monster Heal",
+          "zh-TW": "防止怪物治療",
+          "zh-CN": "防止怪物治疗"
         },
         "value": 1
       },
@@ -29024,9 +29024,9 @@
       {
         "key": "howl",
         "label": {
-          "en": "howl",
-          "zh-TW": "howl",
-          "zh-CN": "howl"
+          "en": "Hit Causes Monster to Flee %",
+          "zh-TW": "擊中使怪物逃跑 %",
+          "zh-CN": "击中使怪物逃跑 %"
         },
         "value": 64
       }
@@ -29265,9 +29265,9 @@
       {
         "key": "dmg-demon",
         "label": {
-          "en": "dmg-demon",
-          "zh-TW": "dmg-demon",
-          "zh-CN": "dmg-demon"
+          "en": "Damage to Demons",
+          "zh-TW": "對惡魔傷害",
+          "zh-CN": "对恶魔伤害"
         },
         "min": 150,
         "max": 200
@@ -29275,9 +29275,9 @@
       {
         "key": "demon-heal",
         "label": {
-          "en": "demon-heal",
-          "zh-TW": "demon-heal",
-          "zh-CN": "demon-heal"
+          "en": "Life after Demon Kill",
+          "zh-TW": "擊殺惡魔後恢復生命值",
+          "zh-CN": "击杀恶魔后恢复生命值"
         },
         "min": 5,
         "max": 10
@@ -29579,9 +29579,9 @@
       {
         "key": "abs-ltng",
         "label": {
-          "en": "abs-ltng",
-          "zh-TW": "abs-ltng",
-          "zh-CN": "abs-ltng"
+          "en": "Lightning Absorb",
+          "zh-TW": "閃電吸收",
+          "zh-CN": "闪电吸收"
         },
         "min": 9,
         "max": 14
@@ -29630,9 +29630,9 @@
       {
         "key": "res-pois-max",
         "label": {
-          "en": "res-pois-max",
-          "zh-TW": "res-pois-max",
-          "zh-CN": "res-pois-max"
+          "en": "Maximum Poison Resist %",
+          "zh-TW": "最大毒素抗性 %",
+          "zh-CN": "最大毒素抗性 %"
         },
         "value": 10
       }
@@ -30234,9 +30234,9 @@
       {
         "key": "mana-kill",
         "label": {
-          "en": "mana-kill",
-          "zh-TW": "mana-kill",
-          "zh-CN": "mana-kill"
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
         },
         "min": 10,
         "max": 15
@@ -30256,18 +30256,18 @@
       {
         "key": "reduce-ac",
         "label": {
-          "en": "reduce-ac",
-          "zh-TW": "reduce-ac",
-          "zh-CN": "reduce-ac"
+          "en": "Reduce Target Defense %",
+          "zh-TW": "降低目標防禦力 %",
+          "zh-CN": "降低目标防御力 %"
         },
         "value": 25
       },
       {
         "key": "freeze",
         "label": {
-          "en": "freeze",
-          "zh-TW": "freeze",
-          "zh-CN": "freeze"
+          "en": "Hit Freezes Target",
+          "zh-TW": "擊中冰凍目標",
+          "zh-CN": "击中冰冻目标"
         },
         "value": 2
       },
@@ -30879,9 +30879,9 @@
       {
         "key": "reduce-ac",
         "label": {
-          "en": "reduce-ac",
-          "zh-TW": "reduce-ac",
-          "zh-CN": "reduce-ac"
+          "en": "Reduce Target Defense %",
+          "zh-TW": "降低目標防禦力 %",
+          "zh-CN": "降低目标防御力 %"
         },
         "value": 20
       },
@@ -31216,9 +31216,9 @@
       {
         "key": "res-pois-max",
         "label": {
-          "en": "res-pois-max",
-          "zh-TW": "res-pois-max",
-          "zh-CN": "res-pois-max"
+          "en": "Maximum Poison Resist %",
+          "zh-TW": "最大毒素抗性 %",
+          "zh-CN": "最大毒素抗性 %"
         },
         "value": 10
       },
@@ -31329,9 +31329,9 @@
       {
         "key": "res-fire-max",
         "label": {
-          "en": "res-fire-max",
-          "zh-TW": "res-fire-max",
-          "zh-CN": "res-fire-max"
+          "en": "Maximum Fire Resist %",
+          "zh-TW": "最大火焰抗性 %",
+          "zh-CN": "最大火焰抗性 %"
         },
         "value": 5
       },
@@ -32239,9 +32239,9 @@
       {
         "key": "nofreeze",
         "label": {
-          "en": "nofreeze",
-          "zh-TW": "nofreeze",
-          "zh-CN": "nofreeze"
+          "en": "Cannot Be Frozen",
+          "zh-TW": "不會被冰凍",
+          "zh-CN": "不会被冰冻"
         },
         "value": 1
       },
@@ -32497,9 +32497,9 @@
       {
         "key": "abs-ltng",
         "label": {
-          "en": "abs-ltng",
-          "zh-TW": "abs-ltng",
-          "zh-CN": "abs-ltng"
+          "en": "Lightning Absorb",
+          "zh-TW": "閃電吸收",
+          "zh-CN": "闪电吸收"
         },
         "min": 3,
         "max": 9
@@ -32903,9 +32903,9 @@
       {
         "key": "freeze",
         "label": {
-          "en": "freeze",
-          "zh-TW": "freeze",
-          "zh-CN": "freeze"
+          "en": "Hit Freezes Target",
+          "zh-TW": "擊中冰凍目標",
+          "zh-CN": "击中冰冻目标"
         },
         "value": 4
       },
@@ -33523,9 +33523,9 @@
       {
         "key": "demon-heal",
         "label": {
-          "en": "demon-heal",
-          "zh-TW": "demon-heal",
-          "zh-CN": "demon-heal"
+          "en": "Life after Demon Kill",
+          "zh-TW": "擊殺惡魔後恢復生命值",
+          "zh-CN": "击杀恶魔后恢复生命值"
         },
         "min": 15,
         "max": 20
@@ -33564,9 +33564,9 @@
       {
         "key": "reduce-ac",
         "label": {
-          "en": "reduce-ac",
-          "zh-TW": "reduce-ac",
-          "zh-CN": "reduce-ac"
+          "en": "Reduce Target Defense %",
+          "zh-TW": "降低目標防禦力 %",
+          "zh-CN": "降低目标防御力 %"
         },
         "value": 33
       },
@@ -33738,9 +33738,9 @@
       {
         "key": "mana-kill",
         "label": {
-          "en": "mana-kill",
-          "zh-TW": "mana-kill",
-          "zh-CN": "mana-kill"
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
         },
         "value": 2
       },
@@ -34503,9 +34503,9 @@
       {
         "key": "reduce-ac",
         "label": {
-          "en": "reduce-ac",
-          "zh-TW": "reduce-ac",
-          "zh-CN": "reduce-ac"
+          "en": "Reduce Target Defense %",
+          "zh-TW": "降低目標防禦力 %",
+          "zh-CN": "降低目标防御力 %"
         },
         "value": 25
       }
@@ -34554,9 +34554,9 @@
       {
         "key": "freeze",
         "label": {
-          "en": "freeze",
-          "zh-TW": "freeze",
-          "zh-CN": "freeze"
+          "en": "Hit Freezes Target",
+          "zh-TW": "擊中冰凍目標",
+          "zh-CN": "击中冰冻目标"
         },
         "min": 2,
         "max": 4
@@ -34779,9 +34779,9 @@
       {
         "key": "mana-kill",
         "label": {
-          "en": "mana-kill",
-          "zh-TW": "mana-kill",
-          "zh-CN": "mana-kill"
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
         },
         "value": 15
       },
@@ -34868,9 +34868,9 @@
       {
         "key": "noheal",
         "label": {
-          "en": "noheal",
-          "zh-TW": "noheal",
-          "zh-CN": "noheal"
+          "en": "Prevent Monster Heal",
+          "zh-TW": "防止怪物治療",
+          "zh-CN": "防止怪物治疗"
         },
         "value": 1
       },
@@ -35019,9 +35019,9 @@
       {
         "key": "dmg-demon",
         "label": {
-          "en": "dmg-demon",
-          "zh-TW": "dmg-demon",
-          "zh-CN": "dmg-demon"
+          "en": "Damage to Demons",
+          "zh-TW": "對惡魔傷害",
+          "zh-CN": "对恶魔伤害"
         },
         "min": 200,
         "max": 250
@@ -35088,9 +35088,9 @@
       {
         "key": "reduce-ac",
         "label": {
-          "en": "reduce-ac",
-          "zh-TW": "reduce-ac",
-          "zh-CN": "reduce-ac"
+          "en": "Reduce Target Defense %",
+          "zh-TW": "降低目標防禦力 %",
+          "zh-CN": "降低目标防御力 %"
         },
         "value": 33
       }
@@ -36022,9 +36022,9 @@
       {
         "key": "mana-kill",
         "label": {
-          "en": "mana-kill",
-          "zh-TW": "mana-kill",
-          "zh-CN": "mana-kill"
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
         },
         "min": 5,
         "max": 10
@@ -36063,9 +36063,9 @@
       {
         "key": "cast1",
         "label": {
-          "en": "cast1",
-          "zh-TW": "cast1",
-          "zh-CN": "cast1"
+          "en": "Faster Cast Rate",
+          "zh-TW": "加快施法速度",
+          "zh-CN": "加快施法速度"
         },
         "value": 25
       }
@@ -36248,9 +36248,9 @@
       {
         "key": "cast1",
         "label": {
-          "en": "cast1",
-          "zh-TW": "cast1",
-          "zh-CN": "cast1"
+          "en": "Faster Cast Rate",
+          "zh-TW": "加快施法速度",
+          "zh-CN": "加快施法速度"
         },
         "min": 20,
         "max": 30
@@ -36457,9 +36457,9 @@
       {
         "key": "cast1",
         "label": {
-          "en": "cast1",
-          "zh-TW": "cast1",
-          "zh-CN": "cast1"
+          "en": "Faster Cast Rate",
+          "zh-TW": "加快施法速度",
+          "zh-CN": "加快施法速度"
         },
         "value": 25
       }
@@ -36534,9 +36534,9 @@
       {
         "key": "swing1",
         "label": {
-          "en": "swing1",
-          "zh-TW": "swing1",
-          "zh-CN": "swing1"
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
         },
         "value": 33
       },
@@ -36654,9 +36654,9 @@
       {
         "key": "move1",
         "label": {
-          "en": "move1",
-          "zh-TW": "move1",
-          "zh-CN": "move1"
+          "en": "Faster Run/Walk %",
+          "zh-TW": "加快跑走速度 %",
+          "zh-CN": "加快跑走速度 %"
         },
         "value": 30
       },
@@ -36764,9 +36764,9 @@
       {
         "key": "cast1",
         "label": {
-          "en": "cast1",
-          "zh-TW": "cast1",
-          "zh-CN": "cast1"
+          "en": "Faster Cast Rate",
+          "zh-TW": "加快施法速度",
+          "zh-CN": "加快施法速度"
         },
         "value": 30
       },
@@ -36856,9 +36856,9 @@
       {
         "key": "cast1",
         "label": {
-          "en": "cast1",
-          "zh-TW": "cast1",
-          "zh-CN": "cast1"
+          "en": "Faster Cast Rate",
+          "zh-TW": "加快施法速度",
+          "zh-CN": "加快施法速度"
         },
         "value": 10
       },
@@ -36935,9 +36935,9 @@
       {
         "key": "mana-kill",
         "label": {
-          "en": "mana-kill",
-          "zh-TW": "mana-kill",
-          "zh-CN": "mana-kill"
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
         },
         "min": 1,
         "max": 3
@@ -36956,9 +36956,9 @@
       {
         "key": "cast1",
         "label": {
-          "en": "cast1",
-          "zh-TW": "cast1",
-          "zh-CN": "cast1"
+          "en": "Faster Cast Rate",
+          "zh-TW": "加快施法速度",
+          "zh-CN": "加快施法速度"
         },
         "value": 10
       }
@@ -37017,9 +37017,9 @@
       {
         "key": "cast1",
         "label": {
-          "en": "cast1",
-          "zh-TW": "cast1",
-          "zh-CN": "cast1"
+          "en": "Faster Cast Rate",
+          "zh-TW": "加快施法速度",
+          "zh-CN": "加快施法速度"
         },
         "min": 5,
         "max": 10
@@ -37095,9 +37095,9 @@
       {
         "key": "cast1",
         "label": {
-          "en": "cast1",
-          "zh-TW": "cast1",
-          "zh-CN": "cast1"
+          "en": "Faster Cast Rate",
+          "zh-TW": "加快施法速度",
+          "zh-CN": "加快施法速度"
         },
         "min": 10,
         "max": 20
@@ -37115,9 +37115,9 @@
       {
         "key": "move1",
         "label": {
-          "en": "move1",
-          "zh-TW": "move1",
-          "zh-CN": "move1"
+          "en": "Faster Run/Walk %",
+          "zh-TW": "加快跑走速度 %",
+          "zh-CN": "加快跑走速度 %"
         },
         "min": 10,
         "max": 20
@@ -37234,9 +37234,9 @@
       {
         "key": "mana-kill",
         "label": {
-          "en": "mana-kill",
-          "zh-TW": "mana-kill",
-          "zh-CN": "mana-kill"
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
         },
         "min": 4,
         "max": 6
@@ -37255,9 +37255,9 @@
       {
         "key": "cast1",
         "label": {
-          "en": "cast1",
-          "zh-TW": "cast1",
-          "zh-CN": "cast1"
+          "en": "Faster Cast Rate",
+          "zh-TW": "加快施法速度",
+          "zh-CN": "加快施法速度"
         },
         "value": 20
       },
@@ -37555,9 +37555,9 @@
       {
         "key": "res-mag",
         "label": {
-          "en": "res-mag",
-          "zh-TW": "res-mag",
-          "zh-CN": "res-mag"
+          "en": "Magic Resist %",
+          "zh-TW": "魔法抗性 %",
+          "zh-CN": "魔法抗性 %"
         },
         "min": -65,
         "max": -45

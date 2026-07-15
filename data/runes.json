@@ -94,9 +94,9 @@
       {
         "key": "att-undead",
         "label": {
-          "en": "att-undead",
-          "zh-TW": "att-undead",
-          "zh-CN": "att-undead"
+          "en": "Attack Rating vs. Undead %",
+          "zh-TW": "對不死系攻擊等級 %",
+          "zh-CN": "对不死系攻击等级 %"
         },
         "min": 50,
         "max": 50
@@ -160,9 +160,9 @@
       {
         "key": "mana-kill",
         "label": {
-          "en": "mana-kill",
-          "zh-TW": "mana-kill",
-          "zh-CN": "mana-kill"
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
         },
         "min": 2,
         "max": 2
@@ -172,9 +172,9 @@
       {
         "key": "mana-kill",
         "label": {
-          "en": "mana-kill",
-          "zh-TW": "mana-kill",
-          "zh-CN": "mana-kill"
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
         },
         "min": 2,
         "max": 2
@@ -184,9 +184,9 @@
       {
         "key": "mana-kill",
         "label": {
-          "en": "mana-kill",
-          "zh-TW": "mana-kill",
-          "zh-CN": "mana-kill"
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
         },
         "min": 2,
         "max": 2
@@ -272,9 +272,9 @@
       {
         "key": "reduce-ac",
         "label": {
-          "en": "reduce-ac",
-          "zh-TW": "reduce-ac",
-          "zh-CN": "reduce-ac"
+          "en": "Reduce Target Defense %",
+          "zh-TW": "降低目標防禦力 %",
+          "zh-CN": "降低目标防御力 %"
         },
         "min": 25,
         "max": 25
@@ -776,9 +776,9 @@
       {
         "key": "howl",
         "label": {
-          "en": "howl",
-          "zh-TW": "howl",
-          "zh-CN": "howl"
+          "en": "Hit Causes Monster to Flee %",
+          "zh-TW": "擊中使怪物逃跑 %",
+          "zh-CN": "击中使怪物逃跑 %"
         },
         "min": 32,
         "max": 32
@@ -1168,9 +1168,9 @@
       {
         "key": "att-demon",
         "label": {
-          "en": "att-demon",
-          "zh-TW": "att-demon",
-          "zh-CN": "att-demon"
+          "en": "Attack Rating vs. Demons %",
+          "zh-TW": "對惡魔攻擊等級 %",
+          "zh-CN": "对恶魔攻击等级 %"
         },
         "min": 100,
         "max": 100
@@ -1178,9 +1178,9 @@
       {
         "key": "dmg-demon",
         "label": {
-          "en": "dmg-demon",
-          "zh-TW": "dmg-demon",
-          "zh-CN": "dmg-demon"
+          "en": "Damage to Demons",
+          "zh-TW": "對惡魔傷害",
+          "zh-CN": "对恶魔伤害"
         },
         "min": 75,
         "max": 75
@@ -1290,9 +1290,9 @@
       {
         "key": "noheal",
         "label": {
-          "en": "noheal",
-          "zh-TW": "noheal",
-          "zh-CN": "noheal"
+          "en": "Prevent Monster Heal",
+          "zh-TW": "防止怪物治療",
+          "zh-CN": "防止怪物治疗"
         },
         "min": 1,
         "max": 1
@@ -1414,9 +1414,9 @@
       {
         "key": "res-pois-max",
         "label": {
-          "en": "res-pois-max",
-          "zh-TW": "res-pois-max",
-          "zh-CN": "res-pois-max"
+          "en": "Maximum Poison Resist %",
+          "zh-TW": "最大毒素抗性 %",
+          "zh-CN": "最大毒素抗性 %"
         },
         "min": 5,
         "max": 5
@@ -1426,9 +1426,9 @@
       {
         "key": "res-pois-max",
         "label": {
-          "en": "res-pois-max",
-          "zh-TW": "res-pois-max",
-          "zh-CN": "res-pois-max"
+          "en": "Maximum Poison Resist %",
+          "zh-TW": "最大毒素抗性 %",
+          "zh-CN": "最大毒素抗性 %"
         },
         "min": 5,
         "max": 5
@@ -1470,9 +1470,9 @@
       {
         "key": "res-fire-max",
         "label": {
-          "en": "res-fire-max",
-          "zh-TW": "res-fire-max",
-          "zh-CN": "res-fire-max"
+          "en": "Maximum Fire Resist %",
+          "zh-TW": "最大火焰抗性 %",
+          "zh-CN": "最大火焰抗性 %"
         },
         "min": 5,
         "max": 5
@@ -1482,9 +1482,9 @@
       {
         "key": "res-fire-max",
         "label": {
-          "en": "res-fire-max",
-          "zh-TW": "res-fire-max",
-          "zh-CN": "res-fire-max"
+          "en": "Maximum Fire Resist %",
+          "zh-TW": "最大火焰抗性 %",
+          "zh-CN": "最大火焰抗性 %"
         },
         "min": 5,
         "max": 5
@@ -1526,9 +1526,9 @@
       {
         "key": "res-cold-max",
         "label": {
-          "en": "res-cold-max",
-          "zh-TW": "res-cold-max",
-          "zh-CN": "res-cold-max"
+          "en": "Maximum Cold Resist %",
+          "zh-TW": "最大冷凍抗性 %",
+          "zh-CN": "最大冷冻抗性 %"
         },
         "min": 5,
         "max": 5
@@ -1538,9 +1538,9 @@
       {
         "key": "res-cold-max",
         "label": {
-          "en": "res-cold-max",
-          "zh-TW": "res-cold-max",
-          "zh-CN": "res-cold-max"
+          "en": "Maximum Cold Resist %",
+          "zh-TW": "最大冷凍抗性 %",
+          "zh-CN": "最大冷冻抗性 %"
         },
         "min": 5,
         "max": 5
@@ -1582,9 +1582,9 @@
       {
         "key": "res-ltng-max",
         "label": {
-          "en": "res-ltng-max",
-          "zh-TW": "res-ltng-max",
-          "zh-CN": "res-ltng-max"
+          "en": "Maximum Lightning Resist %",
+          "zh-TW": "最大閃電抗性 %",
+          "zh-CN": "最大闪电抗性 %"
         },
         "min": 5,
         "max": 5
@@ -1594,9 +1594,9 @@
       {
         "key": "res-ltng-max",
         "label": {
-          "en": "res-ltng-max",
-          "zh-TW": "res-ltng-max",
-          "zh-CN": "res-ltng-max"
+          "en": "Maximum Lightning Resist %",
+          "zh-TW": "最大閃電抗性 %",
+          "zh-CN": "最大闪电抗性 %"
         },
         "min": 5,
         "max": 5
@@ -1626,9 +1626,9 @@
       {
         "key": "stupidity",
         "label": {
-          "en": "stupidity",
-          "zh-TW": "stupidity",
-          "zh-CN": "stupidity"
+          "en": "Hit Blinds Target",
+          "zh-TW": "擊中致盲目標",
+          "zh-CN": "击中致盲目标"
         },
         "min": 1,
         "max": 1
@@ -1794,9 +1794,9 @@
       {
         "key": "freeze",
         "label": {
-          "en": "freeze",
-          "zh-TW": "freeze",
-          "zh-CN": "freeze"
+          "en": "Hit Freezes Target",
+          "zh-TW": "擊中冰凍目標",
+          "zh-CN": "击中冰冻目标"
         },
         "min": 3,
         "max": 3
@@ -1806,9 +1806,9 @@
       {
         "key": "nofreeze",
         "label": {
-          "en": "nofreeze",
-          "zh-TW": "nofreeze",
-          "zh-CN": "nofreeze"
+          "en": "Cannot Be Frozen",
+          "zh-TW": "不會被冰凍",
+          "zh-CN": "不会被冰冻"
         },
         "min": 1,
         "max": 1
@@ -1818,9 +1818,9 @@
       {
         "key": "nofreeze",
         "label": {
-          "en": "nofreeze",
-          "zh-TW": "nofreeze",
-          "zh-CN": "nofreeze"
+          "en": "Cannot Be Frozen",
+          "zh-TW": "不會被冰凍",
+          "zh-CN": "不会被冰冻"
         },
         "min": 1,
         "max": 1

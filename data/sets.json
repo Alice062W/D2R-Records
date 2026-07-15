@@ -345,9 +345,9 @@
       {
         "key": "dmg-demon",
         "label": {
-          "en": "dmg-demon",
-          "zh-TW": "dmg-demon",
-          "zh-CN": "dmg-demon"
+          "en": "Damage to Demons",
+          "zh-TW": "對惡魔傷害",
+          "zh-CN": "对恶魔伤害"
         },
         "value": 200
       },
@@ -471,9 +471,9 @@
       {
         "key": "balance3",
         "label": {
-          "en": "balance3",
-          "zh-TW": "balance3",
-          "zh-CN": "balance3"
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
         },
         "value": 25
       },
@@ -1366,9 +1366,9 @@
       {
         "key": "swing1",
         "label": {
-          "en": "swing1",
-          "zh-TW": "swing1",
-          "zh-CN": "swing1"
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
         },
         "value": 10
       }
@@ -1431,9 +1431,9 @@
       {
         "key": "cast1",
         "label": {
-          "en": "cast1",
-          "zh-TW": "cast1",
-          "zh-CN": "cast1"
+          "en": "Faster Cast Rate",
+          "zh-TW": "加快施法速度",
+          "zh-CN": "加快施法速度"
         },
         "value": 10
       },
@@ -1492,9 +1492,9 @@
       {
         "key": "move1",
         "label": {
-          "en": "move1",
-          "zh-TW": "move1",
-          "zh-CN": "move1"
+          "en": "Faster Run/Walk %",
+          "zh-TW": "加快跑走速度 %",
+          "zh-CN": "加快跑走速度 %"
         },
         "value": 20
       },
@@ -1512,9 +1512,9 @@
       {
         "key": "mana-kill",
         "label": {
-          "en": "mana-kill",
-          "zh-TW": "mana-kill",
-          "zh-CN": "mana-kill"
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
         },
         "min": 3,
         "max": 3
@@ -1575,9 +1575,9 @@
       {
         "key": "res-mag",
         "label": {
-          "en": "res-mag",
-          "zh-TW": "res-mag",
-          "zh-CN": "res-mag"
+          "en": "Magic Resist %",
+          "zh-TW": "魔法抗性 %",
+          "zh-CN": "魔法抗性 %"
         },
         "value": 30
       }
@@ -2534,9 +2534,9 @@
       {
         "key": "res-pois-len",
         "label": {
-          "en": "res-pois-len",
-          "zh-TW": "res-pois-len",
-          "zh-CN": "res-pois-len"
+          "en": "Poison Length Reduced %",
+          "zh-TW": "減少毒素持續時間 %",
+          "zh-CN": "减少毒素持续时间 %"
         },
         "value": 75
       }
@@ -3100,9 +3100,9 @@
       {
         "key": "nofreeze",
         "label": {
-          "en": "nofreeze",
-          "zh-TW": "nofreeze",
-          "zh-CN": "nofreeze"
+          "en": "Cannot Be Frozen",
+          "zh-TW": "不會被冰凍",
+          "zh-CN": "不会被冰冻"
         },
         "value": 1
       }
@@ -3164,9 +3164,9 @@
       {
         "key": "res-pois-len",
         "label": {
-          "en": "res-pois-len",
-          "zh-TW": "res-pois-len",
-          "zh-CN": "res-pois-len"
+          "en": "Poison Length Reduced %",
+          "zh-TW": "減少毒素持續時間 %",
+          "zh-CN": "减少毒素持续时间 %"
         },
         "value": 75
       }
@@ -3669,9 +3669,9 @@
       {
         "key": "balance3",
         "label": {
-          "en": "balance3",
-          "zh-TW": "balance3",
-          "zh-CN": "balance3"
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
         },
         "value": 30
       },
@@ -3767,9 +3767,9 @@
       {
         "key": "ac-hth",
         "label": {
-          "en": "ac-hth",
-          "zh-TW": "ac-hth",
-          "zh-CN": "ac-hth"
+          "en": "Defense vs. Melee",
+          "zh-TW": "對抗近戰攻擊防禦力",
+          "zh-CN": "对抗近战攻击防御力"
         },
         "value": 40
       },
@@ -4200,9 +4200,9 @@
       {
         "key": "swing1",
         "label": {
-          "en": "swing1",
-          "zh-TW": "swing1",
-          "zh-CN": "swing1"
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
         },
         "min": 30,
         "max": 30
@@ -4288,9 +4288,9 @@
       {
         "key": "res-mag",
         "label": {
-          "en": "res-mag",
-          "zh-TW": "res-mag",
-          "zh-CN": "res-mag"
+          "en": "Magic Resist %",
+          "zh-TW": "魔法抗性 %",
+          "zh-CN": "魔法抗性 %"
         },
         "min": 20,
         "max": 30
@@ -4300,18 +4300,18 @@
       {
         "key": "move1",
         "label": {
-          "en": "move1",
-          "zh-TW": "move1",
-          "zh-CN": "move1"
+          "en": "Faster Run/Walk %",
+          "zh-TW": "加快跑走速度 %",
+          "zh-CN": "加快跑走速度 %"
         },
         "value": 30
       },
       {
         "key": "nofreeze",
         "label": {
-          "en": "nofreeze",
-          "zh-TW": "nofreeze",
-          "zh-CN": "nofreeze"
+          "en": "Cannot Be Frozen",
+          "zh-TW": "不會被冰凍",
+          "zh-CN": "不会被冰冻"
         },
         "value": 1
       },
@@ -4427,9 +4427,9 @@
       {
         "key": "res-pois-len",
         "label": {
-          "en": "res-pois-len",
-          "zh-TW": "res-pois-len",
-          "zh-CN": "res-pois-len"
+          "en": "Poison Length Reduced %",
+          "zh-TW": "減少毒素持續時間 %",
+          "zh-CN": "减少毒素持续时间 %"
         },
         "min": 75,
         "max": 75
@@ -4864,9 +4864,9 @@
       {
         "key": "noheal",
         "label": {
-          "en": "noheal",
-          "zh-TW": "noheal",
-          "zh-CN": "noheal"
+          "en": "Prevent Monster Heal",
+          "zh-TW": "防止怪物治療",
+          "zh-CN": "防止怪物治疗"
         },
         "value": 1
       },
@@ -5201,9 +5201,9 @@
       {
         "key": "freeze",
         "label": {
-          "en": "freeze",
-          "zh-TW": "freeze",
-          "zh-CN": "freeze"
+          "en": "Hit Freezes Target",
+          "zh-TW": "擊中冰凍目標",
+          "zh-CN": "击中冰冻目标"
         },
         "min": 2,
         "max": 2
@@ -5507,9 +5507,9 @@
       {
         "key": "dmg-demon",
         "label": {
-          "en": "dmg-demon",
-          "zh-TW": "dmg-demon",
-          "zh-CN": "dmg-demon"
+          "en": "Damage to Demons",
+          "zh-TW": "對惡魔傷害",
+          "zh-CN": "对恶魔伤害"
         },
         "value": 200
       },
@@ -5993,9 +5993,9 @@
       {
         "key": "res-pois-len",
         "label": {
-          "en": "res-pois-len",
-          "zh-TW": "res-pois-len",
-          "zh-CN": "res-pois-len"
+          "en": "Poison Length Reduced %",
+          "zh-TW": "減少毒素持續時間 %",
+          "zh-CN": "减少毒素持续时间 %"
         },
         "value": 75
       }
@@ -6467,9 +6467,9 @@
       {
         "key": "dmg-demon",
         "label": {
-          "en": "dmg-demon",
-          "zh-TW": "dmg-demon",
-          "zh-CN": "dmg-demon"
+          "en": "Damage to Demons",
+          "zh-TW": "對惡魔傷害",
+          "zh-CN": "对恶魔伤害"
         },
         "value": 350
       }
@@ -7979,9 +7979,9 @@
       {
         "key": "dmg-demon",
         "label": {
-          "en": "dmg-demon",
-          "zh-TW": "dmg-demon",
-          "zh-CN": "dmg-demon"
+          "en": "Damage to Demons",
+          "zh-TW": "對惡魔傷害",
+          "zh-CN": "对恶魔伤害"
         },
         "value": 200
       }
@@ -8064,9 +8064,9 @@
       {
         "key": "res-pois-len",
         "label": {
-          "en": "res-pois-len",
-          "zh-TW": "res-pois-len",
-          "zh-CN": "res-pois-len"
+          "en": "Poison Length Reduced %",
+          "zh-TW": "減少毒素持續時間 %",
+          "zh-CN": "减少毒素持续时间 %"
         },
         "value": 75
       },
@@ -8354,9 +8354,9 @@
       {
         "key": "balance3",
         "label": {
-          "en": "balance3",
-          "zh-TW": "balance3",
-          "zh-CN": "balance3"
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
         },
         "value": 24
       }
@@ -8501,9 +8501,9 @@
       {
         "key": "dmg-demon",
         "label": {
-          "en": "dmg-demon",
-          "zh-TW": "dmg-demon",
-          "zh-CN": "dmg-demon"
+          "en": "Damage to Demons",
+          "zh-TW": "對惡魔傷害",
+          "zh-CN": "对恶魔伤害"
         },
         "value": 318
       },
@@ -8594,9 +8594,9 @@
       {
         "key": "balance3",
         "label": {
-          "en": "balance3",
-          "zh-TW": "balance3",
-          "zh-CN": "balance3"
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
         },
         "value": 30
       },
@@ -8612,9 +8612,9 @@
       {
         "key": "att-demon",
         "label": {
-          "en": "att-demon",
-          "zh-TW": "att-demon",
-          "zh-CN": "att-demon"
+          "en": "Attack Rating vs. Demons %",
+          "zh-TW": "對惡魔攻擊等級 %",
+          "zh-CN": "对恶魔攻击等级 %"
         },
         "value": 300
       }
@@ -10284,9 +10284,9 @@
       {
         "key": "nofreeze",
         "label": {
-          "en": "nofreeze",
-          "zh-TW": "nofreeze",
-          "zh-CN": "nofreeze"
+          "en": "Cannot Be Frozen",
+          "zh-TW": "不會被冰凍",
+          "zh-CN": "不会被冰冻"
         },
         "value": 1
       },
