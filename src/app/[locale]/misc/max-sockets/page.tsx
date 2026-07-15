@@ -1,6 +1,7 @@
 import { routing } from '@/i18n/routing';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import ComingSoonPage from '@/components/ComingSoonPage';
+import MaxSocketsTable from '@/components/items/MaxSocketsTable';
+import maxSockets from '../../../../../data/max-sockets.json';
 
 export function generateStaticParams() {
   return routing.locales.map(locale => ({ locale }));
@@ -13,6 +14,17 @@ export default async function MaxSocketsPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations('Nav');
-  return <ComingSoonPage title={t('misc_maxSockets')} />;
+  const t = await getTranslations('Items');
+
+  return (
+    <main className="flex flex-col items-center py-10 px-4 gap-8 flex-1 w-full">
+      <div className="text-center">
+        <h1 className="text-3xl font-bold tracking-tight text-zinc-100">{t('maxSocketsPageTitle')}</h1>
+        <p className="mt-2 text-sm text-zinc-400 max-w-md">{t('maxSocketsPageSubtitle')}</p>
+      </div>
+      <div className="w-full max-w-2xl">
+        <MaxSocketsTable rows={maxSockets} />
+      </div>
+    </main>
+  );
 }

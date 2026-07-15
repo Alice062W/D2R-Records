@@ -139,7 +139,13 @@
     "runewordsRunesLabel": "Runes",
     "runewordsSocketsLabel": "Sockets",
     "runewordsBaseTypesLabel": "Base Types",
-    "runewordsLevelReqLabel": "Level Req"
+    "runewordsLevelReqLabel": "Level Req",
+    "maxSocketsPageTitle": "Max Sockets",
+    "maxSocketsPageSubtitle": "Maximum number of sockets by item level (base items only).",
+    "maxSocketsItemTypeLabel": "Item Type",
+    "maxSocketsIlvl1to25": "ilvl 1-25",
+    "maxSocketsIlvl26to40": "ilvl 26-40",
+    "maxSocketsIlvl41plus": "ilvl 41+"
   },
   "BaseItems": {
     "grade_normal": "Normal",

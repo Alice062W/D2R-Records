@@ -139,7 +139,13 @@
     "runewordsRunesLabel": "符文",
     "runewordsSocketsLabel": "插槽數",
     "runewordsBaseTypesLabel": "基礎類型",
-    "runewordsLevelReqLabel": "等級需求"
+    "runewordsLevelReqLabel": "等級需求",
+    "maxSocketsPageTitle": "最大孔數",
+    "maxSocketsPageSubtitle": "依物品等級劃分的最大插槽數（僅限基礎物品）。",
+    "maxSocketsItemTypeLabel": "物品類型",
+    "maxSocketsIlvl1to25": "物品等級 1-25",
+    "maxSocketsIlvl26to40": "物品等級 26-40",
+    "maxSocketsIlvl41plus": "物品等級 41+"
   },
   "BaseItems": {
     "grade_normal": "普通",
