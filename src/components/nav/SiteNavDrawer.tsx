@@ -4,16 +4,19 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
 
+// Third element is the authentic D2/d2r.world rarity-tint color for that section's nav
+// label (verified against d2r.world's own computed styles) — omitted where d2r.world
+// itself uses the default white/neutral text (Base Items, Cube Recipes).
 const GAME_ITEM_LINKS = [
-  ['item_base', 'items/base'],
-  ['item_magic', 'items/magic'],
-  ['item_rare', 'items/rare'],
-  ['item_set', 'items/set'],
-  ['item_unique', 'items/unique'],
-  ['item_runes', 'items/runes'],
-  ['item_runewords', 'items/runewords'],
-  ['item_cubeRecipes', 'items/cube-recipes'],
-  ['item_crafted', 'items/crafted'],
+  ['item_base', 'items/base', undefined],
+  ['item_magic', 'items/magic', 'text-[#8080f3]'],
+  ['item_rare', 'items/rare', 'text-[#eeee75]'],
+  ['item_set', 'items/set', 'text-[#22ff55]'],
+  ['item_unique', 'items/unique', 'text-[#cbb87f]'],
+  ['item_runes', 'items/runes', 'text-[#ee7a03]'],
+  ['item_runewords', 'items/runewords', 'text-[#cbb87f]'],
+  ['item_cubeRecipes', 'items/cube-recipes', undefined],
+  ['item_crafted', 'items/crafted', 'text-[#ee7a03]'],
 ] as const;
 
 const MISC_LINKS = [
@@ -79,8 +82,8 @@ export default function SiteNavDrawer() {
             </button>
 
             <NavGroup title={t('group_gameItems')}>
-              {GAME_ITEM_LINKS.map(([key, path]) => (
-                <NavLink key={key} href={linkHref(path)} onNavigate={close}>
+              {GAME_ITEM_LINKS.map(([key, path, colorClass]) => (
+                <NavLink key={key} href={linkHref(path)} onNavigate={close} colorClass={colorClass}>
                   {t(key)}
                 </NavLink>
               ))}
@@ -127,16 +130,18 @@ function NavLink({
   href,
   onNavigate,
   children,
+  colorClass,
 }: {
   href: string;
   onNavigate: () => void;
   children: React.ReactNode;
+  colorClass?: string;
 }) {
   return (
     <Link
       href={href}
       onClick={onNavigate}
-      className="px-3 py-2 rounded-lg text-sm text-zinc-300 hover:bg-zinc-800 hover:text-amber-300 transition-colors"
+      className={`px-3 py-2 rounded-lg text-sm hover:bg-zinc-800 transition-colors ${colorClass ?? 'text-zinc-300 hover:text-amber-300'}`}
     >
       {children}
     </Link>
