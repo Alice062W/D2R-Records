@@ -21,7 +21,7 @@ export default function BaseItemTable({ line }: { line: BaseLine }) {
           <tr>
             <th className="text-left text-xs uppercase text-zinc-500 pb-2"> </th>
             {present.map(g => (
-              <th key={g} className="text-left text-amber-300 font-bold pb-2 px-3">
+              <th key={g} className="text-left text-zinc-100 font-bold pb-2 px-3">
                 {line.grades[g]!.name}
               </th>
             ))}

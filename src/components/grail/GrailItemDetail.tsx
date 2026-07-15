@@ -6,9 +6,10 @@ import type { GrailItem } from '@/lib/grail/catalog';
 import type { FindRecord } from '@/lib/grail/findsApi';
 import { sortFindsByRank } from '@/lib/grail/bestCopy';
 
+// Authentic D2 item-rarity text colors (verified against d2r.world's computed styles).
 const NAME_COLOR: Record<GrailItem['kind'], string> = {
-  unique: 'text-amber-300',
-  set: 'text-green-400',
+  unique: 'text-[#cbb87f]',
+  set: 'text-[#22ff55]',
 };
 
 export default function GrailItemDetail({
@@ -35,7 +36,7 @@ export default function GrailItemDetail({
       <div className="mb-1">
         <h3 className={`text-lg font-bold ${NAME_COLOR[item.kind]}`}>{item.name}</h3>
         <p className="text-xs text-zinc-400">{item.baseName}</p>
-        {item.setName && <p className="text-xs text-green-500">{item.setName}</p>}
+        {item.setName && <p className="text-xs text-[#22ff55]">{item.setName}</p>}
       </div>
 
       <div className="mt-4">
@@ -50,7 +51,7 @@ export default function GrailItemDetail({
       {(item.stats.length > 0 || item.fixedStats.length > 0) && (
         <div className="mt-4">
           <h4 className="text-xs font-semibold uppercase tracking-wider text-zinc-500 mb-1">{t('magicProperties')}</h4>
-          <div className="text-sm text-blue-400 flex flex-col gap-0.5">
+          <div className="text-sm text-[#8080f3] flex flex-col gap-0.5">
             {item.stats.map(stat => (
               <div key={stat.key}>{stat.label}: {stat.min}–{stat.max}</div>
             ))}
@@ -64,7 +65,7 @@ export default function GrailItemDetail({
       {item.setBonuses.length > 0 && (
         <div className="mt-4">
           <h4 className="text-xs font-semibold uppercase tracking-wider text-zinc-500 mb-1">{t('setBonusesLabel')}</h4>
-          <div className="text-sm text-green-500 flex flex-col gap-0.5">
+          <div className="text-sm text-[#22ff55] flex flex-col gap-0.5">
             {item.setBonuses.map((b, i) => (
               <div key={`${b.key}-${i}`}>{b.label}: {b.min === b.max ? b.min : `${b.min}–${b.max}`}</div>
             ))}

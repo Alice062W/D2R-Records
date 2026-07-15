@@ -11,7 +11,7 @@ export default function RunewordList({ runewords, locale }: { runewords: Runewor
       {runewords.map(rw => (
         <div key={rw.id} className="bg-zinc-900 border border-zinc-700 rounded-xl p-6">
           <div className="flex items-center justify-between">
-            <h3 className="text-lg font-bold text-amber-300">{rw.name[locale]}</h3>
+            <h3 className="text-lg font-bold text-[#cbb87f]">{rw.name[locale]}</h3>
             {rw.ladderOnly && (
               <span className="text-xs px-2 py-1 rounded bg-zinc-800 text-zinc-400">
                 {t('runewordsLadderOnly')}
@@ -26,7 +26,7 @@ export default function RunewordList({ runewords, locale }: { runewords: Runewor
           </div>
           {(rw.stats.length > 0 || rw.fixedStats.length > 0) && (
             <div className="mt-4">
-              <div className="text-sm text-blue-400 flex flex-col gap-0.5">
+              <div className="text-sm text-[#8080f3] flex flex-col gap-0.5">
                 {rw.stats.map(stat => (
                   <div key={stat.key}>{stat.label[locale]}: {stat.min}–{stat.max}</div>
                 ))}
