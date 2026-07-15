@@ -179,6 +179,18 @@ describe('runewords-full.json', () => {
       expect(rw.name['zh-TW']).not.toBe('');
     }
   });
+
+  it('recovers levelReq for runewords with a name-format mismatch in the curated file', () => {
+    const callToArms = runewordsFull.find(r => r.name.en === 'Call to Arms')!;
+    expect(callToArms.levelReq).toBe(57);
+    const bone = runewordsFull.find(r => r.name.en === 'Bone')!;
+    expect(bone.levelReq).toBe(47);
+  });
+
+  it('still falls back gracefully for genuinely new runewords not in the curated file', () => {
+    const vigilance = runewordsFull.find(r => r.name.en === 'Vigilance')!;
+    expect(vigilance.levelReq).toBe(0);
+  });
 });
 
 import maxSockets from './max-sockets.json';

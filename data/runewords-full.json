@@ -15,7 +15,7 @@
     "itemTypes": [
       "shld"
     ],
-    "levelReq": 0,
+    "levelReq": 21,
     "ladderOnly": false,
     "stats": [],
     "fixedStats": [
@@ -304,7 +304,7 @@
     "itemTypes": [
       "armors"
     ],
-    "levelReq": 0,
+    "levelReq": 47,
     "ladderOnly": false,
     "stats": [
       {
@@ -712,7 +712,7 @@
     "itemTypes": [
       "weap"
     ],
-    "levelReq": 0,
+    "levelReq": 57,
     "ladderOnly": false,
     "stats": [
       {
@@ -2031,7 +2031,7 @@
     "itemTypes": [
       "armors"
     ],
-    "levelReq": 0,
+    "levelReq": 45,
     "ladderOnly": false,
     "stats": [
       {
@@ -3458,7 +3458,7 @@
     "itemTypes": [
       "armors"
     ],
-    "levelReq": 0,
+    "levelReq": 39,
     "ladderOnly": false,
     "stats": [],
     "fixedStats": [
@@ -3525,7 +3525,7 @@
     "itemTypes": [
       "weap"
     ],
-    "levelReq": 0,
+    "levelReq": 39,
     "ladderOnly": false,
     "stats": [
       {
@@ -4904,7 +4904,7 @@
     "itemTypes": [
       "armors"
     ],
-    "levelReq": 0,
+    "levelReq": 25,
     "ladderOnly": false,
     "stats": [
       {
@@ -5496,7 +5496,7 @@
     "itemTypes": [
       "armors"
     ],
-    "levelReq": 0,
+    "levelReq": 29,
     "ladderOnly": false,
     "stats": [
       {
@@ -5832,7 +5832,7 @@
     "itemTypes": [
       "armors"
     ],
-    "levelReq": 0,
+    "levelReq": 53,
     "ladderOnly": false,
     "stats": [
       {
@@ -6056,7 +6056,7 @@
     "itemTypes": [
       "armors"
     ],
-    "levelReq": 0,
+    "levelReq": 49,
     "ladderOnly": false,
     "stats": [
       {
@@ -7156,7 +7156,7 @@
     "itemTypes": [
       "armors"
     ],
-    "levelReq": 0,
+    "levelReq": 43,
     "ladderOnly": false,
     "stats": [
       {

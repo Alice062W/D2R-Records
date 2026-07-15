@@ -23,7 +23,7 @@ function TestPage() {
         activeSockets={sockets}
         onSocketsChange={setSockets}
       />
-      <RunewordList runewords={filtered} />
+      <RunewordList runewords={filtered} locale="en" />
     </NextIntlClientProvider>
   );
 }

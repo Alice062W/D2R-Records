@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import runewordsFull from '../../../../../data/runewords-full.json';
 import RunewordFilters from '@/components/items/RunewordFilters';
 import RunewordList from '@/components/items/RunewordList';
@@ -10,6 +10,7 @@ const ALL_ITEM_TYPES = Array.from(new Set(runewordsFull.flatMap(rw => rw.itemTyp
 
 export default function RunewordsPage() {
   const t = useTranslations('Items');
+  const locale = useLocale() as 'en' | 'zh-TW' | 'zh-CN';
   const [activeType, setActiveType] = useState<string | null>(null);
   const [activeSockets, setActiveSockets] = useState<number | null>(null);
 
@@ -32,7 +33,7 @@ export default function RunewordsPage() {
           activeSockets={activeSockets}
           onSocketsChange={setActiveSockets}
         />
-        <RunewordList runewords={filtered} />
+        <RunewordList runewords={filtered} locale={locale} />
       </div>
     </main>
   );

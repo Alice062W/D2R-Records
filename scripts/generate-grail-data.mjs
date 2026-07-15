@@ -448,12 +448,24 @@ function itemTypesFor(itype) {
   return [slot ?? itype];
 }
 
+// Normalizes a runeword name for cross-referencing between the generated
+// runes.json-derived names and the hand-curated data/runewords.json names,
+// which sometimes differ in apostrophe style, case, or carry a trailing
+// " (ClassName)" disambiguation suffix (e.g. "Bone" vs "Bone (Necromancer)").
+function normalizeRunewordName(name) {
+  return name
+    .replace(/\s*\([^)]*\)\s*$/, '') // strip trailing " (ClassName)" suffix
+    .replace(/'/g, '')                // strip apostrophes (handles Ancients'/Ancient's mismatch)
+    .trim()
+    .toLowerCase();
+}
+
 const runewordsFullOut = Object.entries(runesData)
   .filter(([, v]) => v.complete === 1)
   .map(([name, v]) => {
     const runeNames = v['*RunesUsed'].match(/[A-Z][a-z]+/g) ?? [];
     const { variable, fixed } = extractProps(v, 7, { code: 'T1Code', par: 'T1Param', min: 'T1Min', max: 'T1Max' });
-    const curated = runewordsCurated.find(r => r.name === name);
+    const curated = runewordsCurated.find(r => normalizeRunewordName(r.name) === normalizeRunewordName(name));
     return {
       id: `runeword-${v.Name}`,
       name: localizedItemName(name),
