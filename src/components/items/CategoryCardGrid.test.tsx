@@ -29,4 +29,12 @@ describe('CategoryCardGrid', () => {
     renderGrid([]);
     expect(screen.queryAllByRole('link')).toHaveLength(0);
   });
+
+  it('falls back to AffixCategories for a category with no matching Grail slot key', () => {
+    renderGrid(['bar']);
+    expect(screen.getByRole('link', { name: 'Barbarian Items' })).toHaveAttribute(
+      'href',
+      '/en/items/unique/bar'
+    );
+  });
 });

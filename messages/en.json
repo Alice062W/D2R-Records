@@ -174,7 +174,28 @@
     "craftedItemsInputLabel": "Magic Item Input",
     "craftedItemsAdditionalInputsLabel": "Additional Inputs",
     "craftedItemsFixedPropertiesLabel": "Fixed Magic Properties",
-    "craftedItemsVariablePropertiesLabel": "Variable Magic Properties"
+    "craftedItemsVariablePropertiesLabel": "Variable Magic Properties",
+    "magicPageTitle": "Magic Items",
+    "magicPageSubtitle": "Browse every magic item affix in Diablo II: Resurrected.",
+    "rarePageTitle": "Rare Items",
+    "rarePageSubtitle": "Browse every rare item affix in Diablo II: Resurrected.",
+    "affixPrefixesLabel": "Prefixes",
+    "affixSuffixesLabel": "Suffixes",
+    "affixAlvlLabel": "Alvl"
+  },
+  "AffixCategories": {
+    "amaz": "Amazon Items",
+    "armo": "Body Armor",
+    "bar": "Barbarian Items",
+    "blun": "Blunt Weapons",
+    "h2h": "Claws",
+    "mele": "Melee Weapons",
+    "miss": "Missile Weapons",
+    "rod": "Necromancer Rods",
+    "shld": "Shields (General)",
+    "staff": "Staves (General)",
+    "thro": "Thrown Weapons",
+    "weap": "Weapons (General)"
   },
   "BaseItems": {
     "grade_normal": "Normal",

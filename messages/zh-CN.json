@@ -174,7 +174,14 @@
     "craftedItemsInputLabel": "魔法物品输入",
     "craftedItemsAdditionalInputsLabel": "额外材料",
     "craftedItemsFixedPropertiesLabel": "固定魔法属性",
-    "craftedItemsVariablePropertiesLabel": "变动魔法属性"
+    "craftedItemsVariablePropertiesLabel": "变动魔法属性",
+    "magicPageTitle": "魔法装备",
+    "magicPageSubtitle": "浏览暗黑破坏神2：狱火重生中所有的魔法物品词缀。",
+    "rarePageTitle": "稀有装备",
+    "rarePageSubtitle": "浏览暗黑破坏神2：狱火重生中所有的稀有物品词缀。",
+    "affixPrefixesLabel": "前缀",
+    "affixSuffixesLabel": "后缀",
+    "affixAlvlLabel": "物品等级"
   },
   "BaseItems": {
     "grade_normal": "普通",
@@ -188,5 +195,19 @@
     "durability": "耐久度",
     "sockets": "插槽数",
     "qlvl": "物品等级"
+  },
+  "AffixCategories": {
+    "amaz": "亚马逊物品",
+    "armo": "通用护甲",
+    "bar": "蛮族物品",
+    "blun": "钝器",
+    "h2h": "爪类武器",
+    "mele": "近战武器",
+    "miss": "远程武器",
+    "rod": "死灵法师短杖",
+    "shld": "通用盾牌",
+    "staff": "通用长杖",
+    "thro": "投掷武器",
+    "weap": "通用武器"
   }
 }

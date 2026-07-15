@@ -1,6 +1,7 @@
 import { routing } from '@/i18n/routing';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import ComingSoonPage from '@/components/ComingSoonPage';
+import { getAffixCategories } from '@/lib/grail/affixCatalog';
+import CategoryCardGrid from '@/components/items/CategoryCardGrid';
 
 export function generateStaticParams() {
   return routing.locales.map(locale => ({ locale }));
@@ -13,6 +14,18 @@ export default async function MagicItemsPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations('Nav');
-  return <ComingSoonPage title={t('item_magic')} />;
+  const t = await getTranslations('Items');
+  const categories = getAffixCategories('magic');
+
+  return (
+    <main className="flex flex-col items-center py-10 px-4 gap-8 flex-1 w-full">
+      <div className="text-center">
+        <h1 className="text-3xl font-bold tracking-tight text-zinc-100">{t('magicPageTitle')}</h1>
+        <p className="mt-2 text-sm text-zinc-400 max-w-md">{t('magicPageSubtitle')}</p>
+      </div>
+      <div className="w-full max-w-4xl">
+        <CategoryCardGrid categories={categories} basePath={`/${locale}/items/magic`} />
+      </div>
+    </main>
+  );
 }

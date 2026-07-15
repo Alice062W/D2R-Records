@@ -174,7 +174,28 @@
     "craftedItemsInputLabel": "魔法物品輸入",
     "craftedItemsAdditionalInputsLabel": "額外材料",
     "craftedItemsFixedPropertiesLabel": "固定魔法屬性",
-    "craftedItemsVariablePropertiesLabel": "變動魔法屬性"
+    "craftedItemsVariablePropertiesLabel": "變動魔法屬性",
+    "magicPageTitle": "魔法裝備",
+    "magicPageSubtitle": "瀏覽暗黑破壞神2：獄火重生中所有的魔法物品詞綴。",
+    "rarePageTitle": "稀有裝備",
+    "rarePageSubtitle": "瀏覽暗黑破壞神2：獄火重生中所有的稀有物品詞綴。",
+    "affixPrefixesLabel": "前綴",
+    "affixSuffixesLabel": "後綴",
+    "affixAlvlLabel": "物品等級"
+  },
+  "AffixCategories": {
+    "amaz": "亞馬遜物品",
+    "armo": "通用護甲",
+    "bar": "蠻族物品",
+    "blun": "鈍器",
+    "h2h": "爪類武器",
+    "mele": "近戰武器",
+    "miss": "遠程武器",
+    "rod": "死靈法師短杖",
+    "shld": "通用盾牌",
+    "staff": "通用長杖",
+    "thro": "投擲武器",
+    "weap": "通用武器"
   },
   "BaseItems": {
     "grade_normal": "普通",
