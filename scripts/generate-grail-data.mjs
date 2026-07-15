@@ -704,3 +704,111 @@ const runesOut = RUNE_ORDER.map((name, i) => {
 
 writeFileSync(join(OUT, 'runes.json'), JSON.stringify(runesOut, null, 2));
 console.log(`Wrote ${runesOut.length} runes -> data/runes.json`);
+
+// Cube Recipes and Crafted Items: cubemain.json's craft-recipe entries (ids
+// 64-99) use "mod N"/"mod N param"/"mod N min"/"mod N max" field names, where the
+// index N is inserted in the *middle* of the field name, not appended at the end.
+// extractProps() only supports the "<prefix><n>" (suffix-at-end) shape used by
+// every other vendored file, so it cannot be reused here as-is (verified directly
+// against vendor/d2data/json/cubemain.json ids 64-99 this session) — hence the
+// small local extraction function below instead of duplicating extractProps.
+function extractCraftModProps(entry, count) {
+  const fixed = [];
+  for (let n = 1; n <= count; n++) {
+    const rawCode = entry[`mod ${n}`];
+    if (!rawCode) continue;
+    const code = CODE_ALIASES[rawCode] ?? rawCode;
+    const par = entry[`mod ${n} param`];
+    const isSkillRef = SKILL_REF_PROPS.has(code);
+    const label = isSkillRef ? localizedLabelWithSkill(code, par) : localizedLabelFor(code);
+    const needsKeySuffix = (isSkillRef || KEY_ONLY_DISAMBIGUATE_PROPS.has(code)) && par !== undefined;
+    const key = needsKeySuffix ? `${code}:${par}` : code;
+    // Unlike extractProps's uniques/sets/runewords usage, crafted items have no
+    // "variable" output slot in the data model (RawGrailFixedStat.value is a
+    // single number, and craft-item entries have no variableProperties field) —
+    // so every mod here collapses to a fixed value using its `min`, even when
+    // min !== max (e.g. Hit Power Helm's "gethit-skill" mod has min:5, max:4).
+    const min = entry[`mod ${n} min`];
+    const max = entry[`mod ${n} max`];
+    if (min !== undefined) {
+      fixed.push({ key, label, value: min });
+      continue;
+    }
+    if (max !== undefined) {
+      fixed.push({ key, label, value: max });
+      continue;
+    }
+    if (par !== undefined) {
+      fixed.push({ key, label, value: par });
+    }
+  }
+  return fixed;
+}
+
+const cubeMainData = JSON.parse(readFileSync(join(VENDOR, 'cubemain.json'), 'utf8'));
+
+// Hand-classified against d2r.world's 9 Cube Recipes categories (no category field
+// exists in the source data — see the design spec's Background section). Keys are
+// cubemain.json's own object keys (its numeric string ids). Spot-checked against
+// the vendored file's `description` text this session.
+const RECIPE_CATEGORY = {};
+for (const id of [23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,
+                   51,52,53,54,55,56,57,58,59,100,101,102,103,104,105,106,107,108,109,110,111,112,113,
+                   114,115,116,117,118,119,120,121,122]) {
+  RECIPE_CATEGORY[id] = 'runeGemUpgrade';
+}
+for (const id of [0,1,2,148,149,150,165,177,189,201,213,225,226]) RECIPE_CATEGORY[id] = 'quests';
+for (const id of [3,4,5,11,12,20,21,22]) RECIPE_CATEGORY[id] = 'consumables';
+for (const id of [15,16,123,124,125,126,141,147]) RECIPE_CATEGORY[id] = 'sockets';
+for (const id of [127,128,129,130,131,132,133,134,135,136,151,152,153,154]) RECIPE_CATEGORY[id] = 'itemUpgrade';
+for (const id of [137,138,139,140]) RECIPE_CATEGORY[id] = 'itemRepair';
+for (const id of [60,61,62,63]) RECIPE_CATEGORY[id] = 'magicItemRerolls';
+for (const id of [6,7,8,9,10,13,14,17,18,19]) RECIPE_CATEGORY[id] = 'magicItemCreation';
+for (const id of [163,164,174,175,176,186,187,188,198,199,200,210,211,212,222,223,224]) {
+  RECIPE_CATEGORY[id] = 'craftedGrandCharm';
+}
+
+const CRAFT_RECIPE_IDS = new Set(Array.from({ length: 36 }, (_, i) => 64 + i)); // 64-99
+
+const cubeRecipesOut = Object.entries(cubeMainData)
+  .filter(([id, v]) => (v.enabled === 1 || RECIPE_CATEGORY[id] === 'craftedGrandCharm') && !CRAFT_RECIPE_IDS.has(Number(id)))
+  .map(([id, v]) => ({
+    id: `recipe-${id}`,
+    description: localizedItemName(v.description),
+    category: RECIPE_CATEGORY[id] ?? (() => { throw new Error(`Unclassified cube recipe id ${id}: "${v.description}"`); })(),
+  }));
+
+writeFileSync(join(OUT, 'cube-recipes.json'), JSON.stringify(cubeRecipesOut, null, 2));
+console.log(`Wrote ${cubeRecipesOut.length} cube recipes -> data/cube-recipes.json`);
+
+const CRAFT_FAMILY_BY_ID = {
+  64: 'hitPower', 65: 'hitPower', 66: 'hitPower', 67: 'hitPower', 68: 'hitPower',
+  69: 'hitPower', 70: 'hitPower', 71: 'hitPower', 72: 'hitPower',
+  73: 'blood', 74: 'blood', 75: 'blood', 76: 'blood', 77: 'blood',
+  78: 'blood', 79: 'blood', 80: 'blood', 81: 'blood',
+  82: 'caster', 83: 'caster', 84: 'caster', 85: 'caster', 86: 'caster',
+  87: 'caster', 88: 'caster', 89: 'caster', 90: 'caster',
+  91: 'safety', 92: 'safety', 93: 'safety', 94: 'safety', 95: 'safety',
+  96: 'safety', 97: 'safety', 98: 'safety', 99: 'safety',
+};
+
+const craftedItemsOut = Object.entries(cubeMainData)
+  .filter(([id]) => CRAFT_RECIPE_IDS.has(Number(id)))
+  .map(([id, v]) => {
+    const fixed = extractCraftModProps(v, 3);
+    // The craft recipe description is "<Magic Item Input> + 1 Jewel + <Rune> + <Gem> -> <Output Name>".
+    // Split on " -> " for the output name, and on " + " for the input list.
+    const [inputsPart, outputName] = v.description.split(' -> ');
+    const inputParts = inputsPart.split(' + ').map(p => p.replace(/^\d+\s*/, ''));
+    return {
+      id: `craft-${id}`,
+      name: localizedItemName(outputName),
+      family: CRAFT_FAMILY_BY_ID[id],
+      magicItemInput: localizedItemName(inputParts[0]),
+      additionalInputs: inputParts.slice(1).map(localizedItemName),
+      fixedProperties: fixed,
+    };
+  });
+
+writeFileSync(join(OUT, 'crafted-items.json'), JSON.stringify(craftedItemsOut, null, 2));
+console.log(`Wrote ${craftedItemsOut.length} crafted items -> data/crafted-items.json`);

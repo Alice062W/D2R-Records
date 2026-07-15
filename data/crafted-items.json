@@ -1,0 +1,2162 @@
+[
+  {
+    "id": "craft-64",
+    "name": {
+      "en": "Hit Power Helm",
+      "zh-TW": "Hit Power Helm",
+      "zh-CN": "Hit Power Helm"
+    },
+    "family": "hitPower",
+    "magicItemInput": {
+      "en": "Magic Full Helm",
+      "zh-TW": "Magic Full Helm",
+      "zh-CN": "Magic Full Helm"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Ith Rune",
+        "zh-TW": "Ith Rune",
+        "zh-CN": "Ith Rune"
+      },
+      {
+        "en": "Perfect Sapphire",
+        "zh-TW": "Perfect Sapphire",
+        "zh-CN": "Perfect Sapphire"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "gethit-skill:44",
+        "label": {
+          "en": "Chance to Cast When Struck (Frost Nova)",
+          "zh-TW": "受擊時觸發機率 (霜之新星)",
+          "zh-CN": "受击时触发机率 (霜之新星)"
+        },
+        "value": 5
+      },
+      {
+        "key": "thorns",
+        "label": {
+          "en": "Attacker Takes Damage",
+          "zh-TW": "攻擊者承受傷害",
+          "zh-CN": "攻击者承受伤害"
+        },
+        "value": 3
+      },
+      {
+        "key": "ac-miss",
+        "label": {
+          "en": "Defense vs. Missile",
+          "zh-TW": "對抗遠程攻擊防禦力",
+          "zh-CN": "对抗远程攻击防御力"
+        },
+        "value": 25
+      }
+    ]
+  },
+  {
+    "id": "craft-65",
+    "name": {
+      "en": "Hit Power Boots",
+      "zh-TW": "Hit Power Boots",
+      "zh-CN": "Hit Power Boots"
+    },
+    "family": "hitPower",
+    "magicItemInput": {
+      "en": "Magic Chain Boots",
+      "zh-TW": "Magic Chain Boots",
+      "zh-CN": "Magic Chain Boots"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Ral Rune",
+        "zh-TW": "Ral Rune",
+        "zh-CN": "Ral Rune"
+      },
+      {
+        "en": "Perfect Sapphire",
+        "zh-TW": "Perfect Sapphire",
+        "zh-CN": "Perfect Sapphire"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "gethit-skill:44",
+        "label": {
+          "en": "Chance to Cast When Struck (Frost Nova)",
+          "zh-TW": "受擊時觸發機率 (霜之新星)",
+          "zh-CN": "受击时触发机率 (霜之新星)"
+        },
+        "value": 5
+      },
+      {
+        "key": "thorns",
+        "label": {
+          "en": "Attacker Takes Damage",
+          "zh-TW": "攻擊者承受傷害",
+          "zh-CN": "攻击者承受伤害"
+        },
+        "value": 3
+      },
+      {
+        "key": "ac-hth",
+        "label": {
+          "en": "ac-hth",
+          "zh-TW": "ac-hth",
+          "zh-CN": "ac-hth"
+        },
+        "value": 25
+      }
+    ]
+  },
+  {
+    "id": "craft-66",
+    "name": {
+      "en": "Hit Power Gloves",
+      "zh-TW": "Hit Power Gloves",
+      "zh-CN": "Hit Power Gloves"
+    },
+    "family": "hitPower",
+    "magicItemInput": {
+      "en": "Magic Chain Gloves",
+      "zh-TW": "Magic Chain Gloves",
+      "zh-CN": "Magic Chain Gloves"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Ort Rune",
+        "zh-TW": "Ort Rune",
+        "zh-CN": "Ort Rune"
+      },
+      {
+        "en": "Perfect Sapphire",
+        "zh-TW": "Perfect Sapphire",
+        "zh-CN": "Perfect Sapphire"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "gethit-skill:44",
+        "label": {
+          "en": "Chance to Cast When Struck (Frost Nova)",
+          "zh-TW": "受擊時觸發機率 (霜之新星)",
+          "zh-CN": "受击时触发机率 (霜之新星)"
+        },
+        "value": 5
+      },
+      {
+        "key": "thorns",
+        "label": {
+          "en": "Attacker Takes Damage",
+          "zh-TW": "攻擊者承受傷害",
+          "zh-CN": "攻击者承受伤害"
+        },
+        "value": 3
+      },
+      {
+        "key": "knock",
+        "label": {
+          "en": "Knockback",
+          "zh-TW": "擊退",
+          "zh-CN": "击退"
+        },
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "craft-67",
+    "name": {
+      "en": "Hit Power Belt",
+      "zh-TW": "Hit Power Belt",
+      "zh-CN": "Hit Power Belt"
+    },
+    "family": "hitPower",
+    "magicItemInput": {
+      "en": "Magic Heavy Belt",
+      "zh-TW": "Magic Heavy Belt",
+      "zh-CN": "Magic Heavy Belt"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Tal Rune",
+        "zh-TW": "Tal Rune",
+        "zh-CN": "Tal Rune"
+      },
+      {
+        "en": "Perfect Sapphire",
+        "zh-TW": "Perfect Sapphire",
+        "zh-CN": "Perfect Sapphire"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "gethit-skill:44",
+        "label": {
+          "en": "Chance to Cast When Struck (Frost Nova)",
+          "zh-TW": "受擊時觸發機率 (霜之新星)",
+          "zh-CN": "受击时触发机率 (霜之新星)"
+        },
+        "value": 5
+      },
+      {
+        "key": "thorns",
+        "label": {
+          "en": "Attacker Takes Damage",
+          "zh-TW": "攻擊者承受傷害",
+          "zh-CN": "攻击者承受伤害"
+        },
+        "value": 3
+      },
+      {
+        "key": "dmg-to-mana",
+        "label": {
+          "en": "Damage Taken Goes to Mana",
+          "zh-TW": "承受傷害轉換為魔力",
+          "zh-CN": "承受伤害转换为魔力"
+        },
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "craft-68",
+    "name": {
+      "en": "Hit Power Shield",
+      "zh-TW": "Hit Power Shield",
+      "zh-CN": "Hit Power Shield"
+    },
+    "family": "hitPower",
+    "magicItemInput": {
+      "en": "Magic Gothic Shield",
+      "zh-TW": "Magic Gothic Shield",
+      "zh-CN": "Magic Gothic Shield"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Eth Rune",
+        "zh-TW": "Eth Rune",
+        "zh-CN": "Eth Rune"
+      },
+      {
+        "en": "Perfect Sapphire",
+        "zh-TW": "Perfect Sapphire",
+        "zh-CN": "Perfect Sapphire"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "gethit-skill:44",
+        "label": {
+          "en": "Chance to Cast When Struck (Frost Nova)",
+          "zh-TW": "受擊時觸發機率 (霜之新星)",
+          "zh-CN": "受击时触发机率 (霜之新星)"
+        },
+        "value": 5
+      },
+      {
+        "key": "thorns",
+        "label": {
+          "en": "Attacker Takes Damage",
+          "zh-TW": "攻擊者承受傷害",
+          "zh-CN": "攻击者承受伤害"
+        },
+        "value": 3
+      },
+      {
+        "key": "block",
+        "label": {
+          "en": "Increased Chance of Blocking %",
+          "zh-TW": "格擋機率 %",
+          "zh-CN": "格挡机率 %"
+        },
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "craft-69",
+    "name": {
+      "en": "Hit Power Body",
+      "zh-TW": "Hit Power Body",
+      "zh-CN": "Hit Power Body"
+    },
+    "family": "hitPower",
+    "magicItemInput": {
+      "en": "Magic Field Plate",
+      "zh-TW": "Magic Field Plate",
+      "zh-CN": "Magic Field Plate"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Nef Rune",
+        "zh-TW": "Nef Rune",
+        "zh-CN": "Nef Rune"
+      },
+      {
+        "en": "Perfect Sapphire",
+        "zh-TW": "Perfect Sapphire",
+        "zh-CN": "Perfect Sapphire"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "gethit-skill:44",
+        "label": {
+          "en": "Chance to Cast When Struck (Frost Nova)",
+          "zh-TW": "受擊時觸發機率 (霜之新星)",
+          "zh-CN": "受击时触发机率 (霜之新星)"
+        },
+        "value": 5
+      },
+      {
+        "key": "thorns",
+        "label": {
+          "en": "Attacker Takes Damage",
+          "zh-TW": "攻擊者承受傷害",
+          "zh-CN": "攻击者承受伤害"
+        },
+        "value": 3
+      },
+      {
+        "key": "balance1",
+        "label": {
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
+        },
+        "value": 10
+      }
+    ]
+  },
+  {
+    "id": "craft-70",
+    "name": {
+      "en": "Hit Power Amulet",
+      "zh-TW": "Hit Power Amulet",
+      "zh-CN": "Hit Power Amulet"
+    },
+    "family": "hitPower",
+    "magicItemInput": {
+      "en": "Magic Amulet",
+      "zh-TW": "Magic Amulet",
+      "zh-CN": "Magic Amulet"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Thul Rune",
+        "zh-TW": "Thul Rune",
+        "zh-CN": "Thul Rune"
+      },
+      {
+        "en": "Perfect Sapphire",
+        "zh-TW": "Perfect Sapphire",
+        "zh-CN": "Perfect Sapphire"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "gethit-skill:44",
+        "label": {
+          "en": "Chance to Cast When Struck (Frost Nova)",
+          "zh-TW": "受擊時觸發機率 (霜之新星)",
+          "zh-CN": "受击时触发机率 (霜之新星)"
+        },
+        "value": 5
+      },
+      {
+        "key": "thorns",
+        "label": {
+          "en": "Attacker Takes Damage",
+          "zh-TW": "攻擊者承受傷害",
+          "zh-CN": "攻击者承受伤害"
+        },
+        "value": 3
+      },
+      {
+        "key": "howl",
+        "label": {
+          "en": "howl",
+          "zh-TW": "howl",
+          "zh-CN": "howl"
+        },
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "craft-71",
+    "name": {
+      "en": "Hit Power Ring",
+      "zh-TW": "Hit Power Ring",
+      "zh-CN": "Hit Power Ring"
+    },
+    "family": "hitPower",
+    "magicItemInput": {
+      "en": "Magic Ring",
+      "zh-TW": "Magic Ring",
+      "zh-CN": "Magic Ring"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Amn Rune",
+        "zh-TW": "Amn Rune",
+        "zh-CN": "Amn Rune"
+      },
+      {
+        "en": "Perfect Sapphire",
+        "zh-TW": "Perfect Sapphire",
+        "zh-CN": "Perfect Sapphire"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "gethit-skill:44",
+        "label": {
+          "en": "Chance to Cast When Struck (Frost Nova)",
+          "zh-TW": "受擊時觸發機率 (霜之新星)",
+          "zh-CN": "受击时触发机率 (霜之新星)"
+        },
+        "value": 5
+      },
+      {
+        "key": "thorns",
+        "label": {
+          "en": "Attacker Takes Damage",
+          "zh-TW": "攻擊者承受傷害",
+          "zh-CN": "攻击者承受伤害"
+        },
+        "value": 3
+      },
+      {
+        "key": "dex",
+        "label": {
+          "en": "Dexterity",
+          "zh-TW": "敏捷",
+          "zh-CN": "敏捷"
+        },
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "craft-72",
+    "name": {
+      "en": "Hit Power Weapon",
+      "zh-TW": "Hit Power Weapon",
+      "zh-CN": "Hit Power Weapon"
+    },
+    "family": "hitPower",
+    "magicItemInput": {
+      "en": "Magic Blunt Weapon",
+      "zh-TW": "Magic Blunt Weapon",
+      "zh-CN": "Magic Blunt Weapon"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Tir Rune",
+        "zh-TW": "Tir Rune",
+        "zh-CN": "Tir Rune"
+      },
+      {
+        "en": "Perfect Sapphire",
+        "zh-TW": "Perfect Sapphire",
+        "zh-CN": "Perfect Sapphire"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "gethit-skill:44",
+        "label": {
+          "en": "Chance to Cast When Struck (Frost Nova)",
+          "zh-TW": "受擊時觸發機率 (霜之新星)",
+          "zh-CN": "受击时触发机率 (霜之新星)"
+        },
+        "value": 5
+      },
+      {
+        "key": "thorns",
+        "label": {
+          "en": "Attacker Takes Damage",
+          "zh-TW": "攻擊者承受傷害",
+          "zh-CN": "攻击者承受伤害"
+        },
+        "value": 3
+      },
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "value": 35
+      }
+    ]
+  },
+  {
+    "id": "craft-73",
+    "name": {
+      "en": "Blood Helm",
+      "zh-TW": "Blood Helm",
+      "zh-CN": "Blood Helm"
+    },
+    "family": "blood",
+    "magicItemInput": {
+      "en": "Magic Helm",
+      "zh-TW": "Magic Helm",
+      "zh-CN": "Magic Helm"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Ral Rune",
+        "zh-TW": "Ral Rune",
+        "zh-CN": "Ral Rune"
+      },
+      {
+        "en": "Perfect Ruby",
+        "zh-TW": "Perfect Ruby",
+        "zh-CN": "Perfect Ruby"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "value": 1
+      },
+      {
+        "key": "hp",
+        "label": {
+          "en": "Life",
+          "zh-TW": "生命值",
+          "zh-CN": "生命值"
+        },
+        "value": 10
+      },
+      {
+        "key": "deadly",
+        "label": {
+          "en": "Deadly Strike %",
+          "zh-TW": "致命一擊 %",
+          "zh-CN": "致命一击 %"
+        },
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "craft-74",
+    "name": {
+      "en": "Blood Boots",
+      "zh-TW": "Blood Boots",
+      "zh-CN": "Blood Boots"
+    },
+    "family": "blood",
+    "magicItemInput": {
+      "en": "Magic Light Plated Boots",
+      "zh-TW": "Magic Light Plated Boots",
+      "zh-CN": "Magic Light Plated Boots"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Eth Rune",
+        "zh-TW": "Eth Rune",
+        "zh-CN": "Eth Rune"
+      },
+      {
+        "en": "Perfect Ruby",
+        "zh-TW": "Perfect Ruby",
+        "zh-CN": "Perfect Ruby"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "value": 1
+      },
+      {
+        "key": "hp",
+        "label": {
+          "en": "Life",
+          "zh-TW": "生命值",
+          "zh-CN": "生命值"
+        },
+        "value": 10
+      },
+      {
+        "key": "regen",
+        "label": {
+          "en": "Life Regenerated %",
+          "zh-TW": "生命回復 %",
+          "zh-CN": "生命回复 %"
+        },
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "craft-75",
+    "name": {
+      "en": "Blood Gloves",
+      "zh-TW": "Blood Gloves",
+      "zh-CN": "Blood Gloves"
+    },
+    "family": "blood",
+    "magicItemInput": {
+      "en": "Magic Heavy Gloves",
+      "zh-TW": "Magic Heavy Gloves",
+      "zh-CN": "Magic Heavy Gloves"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Nef Rune",
+        "zh-TW": "Nef Rune",
+        "zh-CN": "Nef Rune"
+      },
+      {
+        "en": "Perfect Ruby",
+        "zh-TW": "Perfect Ruby",
+        "zh-CN": "Perfect Ruby"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "value": 1
+      },
+      {
+        "key": "hp",
+        "label": {
+          "en": "Life",
+          "zh-TW": "生命值",
+          "zh-CN": "生命值"
+        },
+        "value": 10
+      },
+      {
+        "key": "crush",
+        "label": {
+          "en": "Crushing Blow %",
+          "zh-TW": "破碎打擊 %",
+          "zh-CN": "破碎打击 %"
+        },
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "craft-76",
+    "name": {
+      "en": "Blood Belt",
+      "zh-TW": "Blood Belt",
+      "zh-CN": "Blood Belt"
+    },
+    "family": "blood",
+    "magicItemInput": {
+      "en": "Magic Belt",
+      "zh-TW": "Magic Belt",
+      "zh-CN": "Magic Belt"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Tal Rune",
+        "zh-TW": "Tal Rune",
+        "zh-CN": "Tal Rune"
+      },
+      {
+        "en": "Perfect Ruby",
+        "zh-TW": "Perfect Ruby",
+        "zh-CN": "Perfect Ruby"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "value": 1
+      },
+      {
+        "key": "hp",
+        "label": {
+          "en": "Life",
+          "zh-TW": "生命值",
+          "zh-CN": "生命值"
+        },
+        "value": 10
+      },
+      {
+        "key": "openwounds",
+        "label": {
+          "en": "Open Wounds %",
+          "zh-TW": "撕裂傷口 %",
+          "zh-CN": "撕裂伤口 %"
+        },
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "craft-77",
+    "name": {
+      "en": "Blood Shield",
+      "zh-TW": "Blood Shield",
+      "zh-CN": "Blood Shield"
+    },
+    "family": "blood",
+    "magicItemInput": {
+      "en": "Magic Spiked Shield",
+      "zh-TW": "Magic Spiked Shield",
+      "zh-CN": "Magic Spiked Shield"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Ith Rune",
+        "zh-TW": "Ith Rune",
+        "zh-CN": "Ith Rune"
+      },
+      {
+        "en": "Perfect Ruby",
+        "zh-TW": "Perfect Ruby",
+        "zh-CN": "Perfect Ruby"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "value": 1
+      },
+      {
+        "key": "hp",
+        "label": {
+          "en": "Life",
+          "zh-TW": "生命值",
+          "zh-CN": "生命值"
+        },
+        "value": 10
+      },
+      {
+        "key": "thorns",
+        "label": {
+          "en": "Attacker Takes Damage",
+          "zh-TW": "攻擊者承受傷害",
+          "zh-CN": "攻击者承受伤害"
+        },
+        "value": 4
+      }
+    ]
+  },
+  {
+    "id": "craft-78",
+    "name": {
+      "en": "Blood Body",
+      "zh-TW": "Blood Body",
+      "zh-CN": "Blood Body"
+    },
+    "family": "blood",
+    "magicItemInput": {
+      "en": "Magic Plate Mail",
+      "zh-TW": "Magic Plate Mail",
+      "zh-CN": "Magic Plate Mail"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Thul Rune",
+        "zh-TW": "Thul Rune",
+        "zh-CN": "Thul Rune"
+      },
+      {
+        "en": "Perfect Ruby",
+        "zh-TW": "Perfect Ruby",
+        "zh-CN": "Perfect Ruby"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "value": 1
+      },
+      {
+        "key": "hp",
+        "label": {
+          "en": "Life",
+          "zh-TW": "生命值",
+          "zh-CN": "生命值"
+        },
+        "value": 10
+      },
+      {
+        "key": "demon-heal",
+        "label": {
+          "en": "demon-heal",
+          "zh-TW": "demon-heal",
+          "zh-CN": "demon-heal"
+        },
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "craft-79",
+    "name": {
+      "en": "Blood Amulet",
+      "zh-TW": "Blood Amulet",
+      "zh-CN": "Blood Amulet"
+    },
+    "family": "blood",
+    "magicItemInput": {
+      "en": "Magic Amulet",
+      "zh-TW": "Magic Amulet",
+      "zh-CN": "Magic Amulet"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Amn Rune",
+        "zh-TW": "Amn Rune",
+        "zh-CN": "Amn Rune"
+      },
+      {
+        "en": "Perfect Ruby",
+        "zh-TW": "Perfect Ruby",
+        "zh-CN": "Perfect Ruby"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "value": 1
+      },
+      {
+        "key": "hp",
+        "label": {
+          "en": "Life",
+          "zh-TW": "生命值",
+          "zh-CN": "生命值"
+        },
+        "value": 10
+      },
+      {
+        "key": "move1",
+        "label": {
+          "en": "move1",
+          "zh-TW": "move1",
+          "zh-CN": "move1"
+        },
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "craft-80",
+    "name": {
+      "en": "Blood Ring",
+      "zh-TW": "Blood Ring",
+      "zh-CN": "Blood Ring"
+    },
+    "family": "blood",
+    "magicItemInput": {
+      "en": "Magic Ring",
+      "zh-TW": "Magic Ring",
+      "zh-CN": "Magic Ring"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Sol Rune",
+        "zh-TW": "Sol Rune",
+        "zh-CN": "Sol Rune"
+      },
+      {
+        "en": "Perfect Ruby",
+        "zh-TW": "Perfect Ruby",
+        "zh-CN": "Perfect Ruby"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "value": 1
+      },
+      {
+        "key": "hp",
+        "label": {
+          "en": "Life",
+          "zh-TW": "生命值",
+          "zh-CN": "生命值"
+        },
+        "value": 10
+      },
+      {
+        "key": "str",
+        "label": {
+          "en": "Strength",
+          "zh-TW": "力量",
+          "zh-CN": "力量"
+        },
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "craft-81",
+    "name": {
+      "en": "Blood Weapon",
+      "zh-TW": "Blood Weapon",
+      "zh-CN": "Blood Weapon"
+    },
+    "family": "blood",
+    "magicItemInput": {
+      "en": "Magic Axe",
+      "zh-TW": "Magic Axe",
+      "zh-CN": "Magic Axe"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Ort Rune",
+        "zh-TW": "Ort Rune",
+        "zh-CN": "Ort Rune"
+      },
+      {
+        "en": "Perfect Ruby",
+        "zh-TW": "Perfect Ruby",
+        "zh-CN": "Perfect Ruby"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "value": 1
+      },
+      {
+        "key": "hp",
+        "label": {
+          "en": "Life",
+          "zh-TW": "生命值",
+          "zh-CN": "生命值"
+        },
+        "value": 10
+      },
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "value": 35
+      }
+    ]
+  },
+  {
+    "id": "craft-82",
+    "name": {
+      "en": "Caster Helm",
+      "zh-TW": "Caster Helm",
+      "zh-CN": "Caster Helm"
+    },
+    "family": "caster",
+    "magicItemInput": {
+      "en": "Magic Mask",
+      "zh-TW": "Magic Mask",
+      "zh-CN": "Magic Mask"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Nef Rune",
+        "zh-TW": "Nef Rune",
+        "zh-CN": "Nef Rune"
+      },
+      {
+        "en": "Perfect Amethyst",
+        "zh-TW": "Perfect Amethyst",
+        "zh-CN": "Perfect Amethyst"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "regen-mana",
+        "label": {
+          "en": "Mana Regenerated %",
+          "zh-TW": "魔力回復 %",
+          "zh-CN": "魔力回复 %"
+        },
+        "value": 4
+      },
+      {
+        "key": "mana",
+        "label": {
+          "en": "Mana",
+          "zh-TW": "魔力值",
+          "zh-CN": "魔力值"
+        },
+        "value": 10
+      },
+      {
+        "key": "manasteal",
+        "label": {
+          "en": "Mana Steal %",
+          "zh-TW": "魔力竊取 %",
+          "zh-CN": "魔力窃取 %"
+        },
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "craft-83",
+    "name": {
+      "en": "Caster Boots",
+      "zh-TW": "Caster Boots",
+      "zh-CN": "Caster Boots"
+    },
+    "family": "caster",
+    "magicItemInput": {
+      "en": "Magic Boots",
+      "zh-TW": "Magic Boots",
+      "zh-CN": "Magic Boots"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Thul Rune",
+        "zh-TW": "Thul Rune",
+        "zh-CN": "Thul Rune"
+      },
+      {
+        "en": "Perfect Amethyst",
+        "zh-TW": "Perfect Amethyst",
+        "zh-CN": "Perfect Amethyst"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "regen-mana",
+        "label": {
+          "en": "Mana Regenerated %",
+          "zh-TW": "魔力回復 %",
+          "zh-CN": "魔力回复 %"
+        },
+        "value": 4
+      },
+      {
+        "key": "mana",
+        "label": {
+          "en": "Mana",
+          "zh-TW": "魔力值",
+          "zh-CN": "魔力值"
+        },
+        "value": 10
+      },
+      {
+        "key": "mana%",
+        "label": {
+          "en": "Increase Maximum Mana %",
+          "zh-TW": "增加最大魔力值 %",
+          "zh-CN": "增加最大魔力值 %"
+        },
+        "value": 2
+      }
+    ]
+  },
+  {
+    "id": "craft-84",
+    "name": {
+      "en": "Caster Gloves",
+      "zh-TW": "Caster Gloves",
+      "zh-CN": "Caster Gloves"
+    },
+    "family": "caster",
+    "magicItemInput": {
+      "en": "Magic Leather Gloves",
+      "zh-TW": "Magic Leather Gloves",
+      "zh-CN": "Magic Leather Gloves"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Ort Rune",
+        "zh-TW": "Ort Rune",
+        "zh-CN": "Ort Rune"
+      },
+      {
+        "en": "Perfect Amethyst",
+        "zh-TW": "Perfect Amethyst",
+        "zh-CN": "Perfect Amethyst"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "regen-mana",
+        "label": {
+          "en": "Mana Regenerated %",
+          "zh-TW": "魔力回復 %",
+          "zh-CN": "魔力回复 %"
+        },
+        "value": 4
+      },
+      {
+        "key": "mana",
+        "label": {
+          "en": "Mana",
+          "zh-TW": "魔力值",
+          "zh-CN": "魔力值"
+        },
+        "value": 10
+      },
+      {
+        "key": "mana-kill",
+        "label": {
+          "en": "mana-kill",
+          "zh-TW": "mana-kill",
+          "zh-CN": "mana-kill"
+        },
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "craft-85",
+    "name": {
+      "en": "Caster Belt",
+      "zh-TW": "Caster Belt",
+      "zh-CN": "Caster Belt"
+    },
+    "family": "caster",
+    "magicItemInput": {
+      "en": "Magic Light Belt",
+      "zh-TW": "Magic Light Belt",
+      "zh-CN": "Magic Light Belt"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Ith Rune",
+        "zh-TW": "Ith Rune",
+        "zh-CN": "Ith Rune"
+      },
+      {
+        "en": "Perfect Amethyst",
+        "zh-TW": "Perfect Amethyst",
+        "zh-CN": "Perfect Amethyst"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "regen-mana",
+        "label": {
+          "en": "Mana Regenerated %",
+          "zh-TW": "魔力回復 %",
+          "zh-CN": "魔力回复 %"
+        },
+        "value": 4
+      },
+      {
+        "key": "mana",
+        "label": {
+          "en": "Mana",
+          "zh-TW": "魔力值",
+          "zh-CN": "魔力值"
+        },
+        "value": 10
+      },
+      {
+        "key": "cast1",
+        "label": {
+          "en": "cast1",
+          "zh-TW": "cast1",
+          "zh-CN": "cast1"
+        },
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "craft-86",
+    "name": {
+      "en": "Caster Shield",
+      "zh-TW": "Caster Shield",
+      "zh-CN": "Caster Shield"
+    },
+    "family": "caster",
+    "magicItemInput": {
+      "en": "Magic Small Shield",
+      "zh-TW": "Magic Small Shield",
+      "zh-CN": "Magic Small Shield"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Eth Rune",
+        "zh-TW": "Eth Rune",
+        "zh-CN": "Eth Rune"
+      },
+      {
+        "en": "Perfect Amethyst",
+        "zh-TW": "Perfect Amethyst",
+        "zh-CN": "Perfect Amethyst"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "regen-mana",
+        "label": {
+          "en": "Mana Regenerated %",
+          "zh-TW": "魔力回復 %",
+          "zh-CN": "魔力回复 %"
+        },
+        "value": 4
+      },
+      {
+        "key": "mana",
+        "label": {
+          "en": "Mana",
+          "zh-TW": "魔力值",
+          "zh-CN": "魔力值"
+        },
+        "value": 10
+      },
+      {
+        "key": "block",
+        "label": {
+          "en": "Increased Chance of Blocking %",
+          "zh-TW": "格擋機率 %",
+          "zh-CN": "格挡机率 %"
+        },
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "craft-87",
+    "name": {
+      "en": "Caster Body",
+      "zh-TW": "Caster Body",
+      "zh-CN": "Caster Body"
+    },
+    "family": "caster",
+    "magicItemInput": {
+      "en": "Magic Light Plate",
+      "zh-TW": "Magic Light Plate",
+      "zh-CN": "Magic Light Plate"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Tal Rune",
+        "zh-TW": "Tal Rune",
+        "zh-CN": "Tal Rune"
+      },
+      {
+        "en": "Perfect Amethyst",
+        "zh-TW": "Perfect Amethyst",
+        "zh-CN": "Perfect Amethyst"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "regen-mana",
+        "label": {
+          "en": "Mana Regenerated %",
+          "zh-TW": "魔力回復 %",
+          "zh-CN": "魔力回复 %"
+        },
+        "value": 4
+      },
+      {
+        "key": "mana",
+        "label": {
+          "en": "Mana",
+          "zh-TW": "魔力值",
+          "zh-CN": "魔力值"
+        },
+        "value": 10
+      },
+      {
+        "key": "mana-kill",
+        "label": {
+          "en": "mana-kill",
+          "zh-TW": "mana-kill",
+          "zh-CN": "mana-kill"
+        },
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "craft-88",
+    "name": {
+      "en": "Caster Amulet",
+      "zh-TW": "Caster Amulet",
+      "zh-CN": "Caster Amulet"
+    },
+    "family": "caster",
+    "magicItemInput": {
+      "en": "Magic Amulet",
+      "zh-TW": "Magic Amulet",
+      "zh-CN": "Magic Amulet"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Ral Rune",
+        "zh-TW": "Ral Rune",
+        "zh-CN": "Ral Rune"
+      },
+      {
+        "en": "Perfect Amethyst",
+        "zh-TW": "Perfect Amethyst",
+        "zh-CN": "Perfect Amethyst"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "regen-mana",
+        "label": {
+          "en": "Mana Regenerated %",
+          "zh-TW": "魔力回復 %",
+          "zh-CN": "魔力回复 %"
+        },
+        "value": 4
+      },
+      {
+        "key": "mana",
+        "label": {
+          "en": "Mana",
+          "zh-TW": "魔力值",
+          "zh-CN": "魔力值"
+        },
+        "value": 10
+      },
+      {
+        "key": "cast1",
+        "label": {
+          "en": "cast1",
+          "zh-TW": "cast1",
+          "zh-CN": "cast1"
+        },
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "craft-89",
+    "name": {
+      "en": "Caster Ring",
+      "zh-TW": "Caster Ring",
+      "zh-CN": "Caster Ring"
+    },
+    "family": "caster",
+    "magicItemInput": {
+      "en": "Magic Ring",
+      "zh-TW": "Magic Ring",
+      "zh-CN": "Magic Ring"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Amn Rune",
+        "zh-TW": "Amn Rune",
+        "zh-CN": "Amn Rune"
+      },
+      {
+        "en": "Perfect Amethyst",
+        "zh-TW": "Perfect Amethyst",
+        "zh-CN": "Perfect Amethyst"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "regen-mana",
+        "label": {
+          "en": "Mana Regenerated %",
+          "zh-TW": "魔力回復 %",
+          "zh-CN": "魔力回复 %"
+        },
+        "value": 4
+      },
+      {
+        "key": "mana",
+        "label": {
+          "en": "Mana",
+          "zh-TW": "魔力值",
+          "zh-CN": "魔力值"
+        },
+        "value": 10
+      },
+      {
+        "key": "enr",
+        "label": {
+          "en": "Energy",
+          "zh-TW": "精力",
+          "zh-CN": "精力"
+        },
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "craft-90",
+    "name": {
+      "en": "Caster Weapon",
+      "zh-TW": "Caster Weapon",
+      "zh-CN": "Caster Weapon"
+    },
+    "family": "caster",
+    "magicItemInput": {
+      "en": "Magic Rod",
+      "zh-TW": "Magic Rod",
+      "zh-CN": "Magic Rod"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Tir Rune",
+        "zh-TW": "Tir Rune",
+        "zh-CN": "Tir Rune"
+      },
+      {
+        "en": "Perfect Amethyst",
+        "zh-TW": "Perfect Amethyst",
+        "zh-CN": "Perfect Amethyst"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "regen-mana",
+        "label": {
+          "en": "Mana Regenerated %",
+          "zh-TW": "魔力回復 %",
+          "zh-CN": "魔力回复 %"
+        },
+        "value": 4
+      },
+      {
+        "key": "mana",
+        "label": {
+          "en": "Mana",
+          "zh-TW": "魔力值",
+          "zh-CN": "魔力值"
+        },
+        "value": 10
+      },
+      {
+        "key": "mana%",
+        "label": {
+          "en": "Increase Maximum Mana %",
+          "zh-TW": "增加最大魔力值 %",
+          "zh-CN": "增加最大魔力值 %"
+        },
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "craft-91",
+    "name": {
+      "en": "Safety Helm",
+      "zh-TW": "Safety Helm",
+      "zh-CN": "Safety Helm"
+    },
+    "family": "safety",
+    "magicItemInput": {
+      "en": "Magic Crown",
+      "zh-TW": "Magic Crown",
+      "zh-CN": "Magic Crown"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Ith Rune",
+        "zh-TW": "Ith Rune",
+        "zh-CN": "Ith Rune"
+      },
+      {
+        "en": "Perfect Emerald",
+        "zh-TW": "Perfect Emerald",
+        "zh-CN": "Perfect Emerald"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "red-dmg",
+        "label": {
+          "en": "Damage Reduced",
+          "zh-TW": "減少傷害",
+          "zh-CN": "减少伤害"
+        },
+        "value": 1
+      },
+      {
+        "key": "red-mag",
+        "label": {
+          "en": "Magic Damage Reduced",
+          "zh-TW": "減少魔法傷害",
+          "zh-CN": "减少魔法伤害"
+        },
+        "value": 1
+      },
+      {
+        "key": "res-ltng",
+        "label": {
+          "en": "Lightning Resist %",
+          "zh-TW": "閃電抗性 %",
+          "zh-CN": "闪电抗性 %"
+        },
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "craft-92",
+    "name": {
+      "en": "Safety Boots",
+      "zh-TW": "Safety Boots",
+      "zh-CN": "Safety Boots"
+    },
+    "family": "safety",
+    "magicItemInput": {
+      "en": "Magic Plated Boots",
+      "zh-TW": "Magic Plated Boots",
+      "zh-CN": "Magic Plated Boots"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Ort Rune",
+        "zh-TW": "Ort Rune",
+        "zh-CN": "Ort Rune"
+      },
+      {
+        "en": "Perfect Emerald",
+        "zh-TW": "Perfect Emerald",
+        "zh-CN": "Perfect Emerald"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "red-dmg",
+        "label": {
+          "en": "Damage Reduced",
+          "zh-TW": "減少傷害",
+          "zh-CN": "减少伤害"
+        },
+        "value": 1
+      },
+      {
+        "key": "red-mag",
+        "label": {
+          "en": "Magic Damage Reduced",
+          "zh-TW": "減少魔法傷害",
+          "zh-CN": "减少魔法伤害"
+        },
+        "value": 1
+      },
+      {
+        "key": "res-fire",
+        "label": {
+          "en": "Fire Resist %",
+          "zh-TW": "火焰抗性 %",
+          "zh-CN": "火焰抗性 %"
+        },
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "craft-93",
+    "name": {
+      "en": "Safety Gloves",
+      "zh-TW": "Safety Gloves",
+      "zh-CN": "Safety Gloves"
+    },
+    "family": "safety",
+    "magicItemInput": {
+      "en": "Magic Gauntlets",
+      "zh-TW": "Magic Gauntlets",
+      "zh-CN": "Magic Gauntlets"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Ral Rune",
+        "zh-TW": "Ral Rune",
+        "zh-CN": "Ral Rune"
+      },
+      {
+        "en": "Perfect Emerald",
+        "zh-TW": "Perfect Emerald",
+        "zh-CN": "Perfect Emerald"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "red-dmg",
+        "label": {
+          "en": "Damage Reduced",
+          "zh-TW": "減少傷害",
+          "zh-CN": "减少伤害"
+        },
+        "value": 1
+      },
+      {
+        "key": "red-mag",
+        "label": {
+          "en": "Magic Damage Reduced",
+          "zh-TW": "減少魔法傷害",
+          "zh-CN": "减少魔法伤害"
+        },
+        "value": 1
+      },
+      {
+        "key": "res-cold",
+        "label": {
+          "en": "Cold Resist %",
+          "zh-TW": "冷凍抗性 %",
+          "zh-CN": "冷冻抗性 %"
+        },
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "craft-94",
+    "name": {
+      "en": "Safety Belt",
+      "zh-TW": "Safety Belt",
+      "zh-CN": "Safety Belt"
+    },
+    "family": "safety",
+    "magicItemInput": {
+      "en": "Magic Sash",
+      "zh-TW": "Magic Sash",
+      "zh-CN": "Magic Sash"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Tal Rune",
+        "zh-TW": "Tal Rune",
+        "zh-CN": "Tal Rune"
+      },
+      {
+        "en": "Perfect Emerald",
+        "zh-TW": "Perfect Emerald",
+        "zh-CN": "Perfect Emerald"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "red-dmg",
+        "label": {
+          "en": "Damage Reduced",
+          "zh-TW": "減少傷害",
+          "zh-CN": "减少伤害"
+        },
+        "value": 1
+      },
+      {
+        "key": "red-mag",
+        "label": {
+          "en": "Magic Damage Reduced",
+          "zh-TW": "減少魔法傷害",
+          "zh-CN": "减少魔法伤害"
+        },
+        "value": 1
+      },
+      {
+        "key": "res-pois",
+        "label": {
+          "en": "Poison Resist %",
+          "zh-TW": "毒素抗性 %",
+          "zh-CN": "毒素抗性 %"
+        },
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "craft-95",
+    "name": {
+      "en": "Safety Shield",
+      "zh-TW": "Safety Shield",
+      "zh-CN": "Safety Shield"
+    },
+    "family": "safety",
+    "magicItemInput": {
+      "en": "Magic Kite Shield",
+      "zh-TW": "Magic Kite Shield",
+      "zh-CN": "Magic Kite Shield"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Nef Rune",
+        "zh-TW": "Nef Rune",
+        "zh-CN": "Nef Rune"
+      },
+      {
+        "en": "Perfect Emerald",
+        "zh-TW": "Perfect Emerald",
+        "zh-CN": "Perfect Emerald"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "red-dmg",
+        "label": {
+          "en": "Damage Reduced",
+          "zh-TW": "減少傷害",
+          "zh-CN": "减少伤害"
+        },
+        "value": 1
+      },
+      {
+        "key": "red-mag",
+        "label": {
+          "en": "Magic Damage Reduced",
+          "zh-TW": "減少魔法傷害",
+          "zh-CN": "减少魔法伤害"
+        },
+        "value": 1
+      },
+      {
+        "key": "res-mag",
+        "label": {
+          "en": "res-mag",
+          "zh-TW": "res-mag",
+          "zh-CN": "res-mag"
+        },
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "craft-96",
+    "name": {
+      "en": "Safety Body",
+      "zh-TW": "Safety Body",
+      "zh-CN": "Safety Body"
+    },
+    "family": "safety",
+    "magicItemInput": {
+      "en": "Magic Breast Plate",
+      "zh-TW": "Magic Breast Plate",
+      "zh-CN": "Magic Breast Plate"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Eth Rune",
+        "zh-TW": "Eth Rune",
+        "zh-CN": "Eth Rune"
+      },
+      {
+        "en": "Perfect Emerald",
+        "zh-TW": "Perfect Emerald",
+        "zh-CN": "Perfect Emerald"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "red-dmg",
+        "label": {
+          "en": "Damage Reduced",
+          "zh-TW": "減少傷害",
+          "zh-CN": "减少伤害"
+        },
+        "value": 1
+      },
+      {
+        "key": "red-mag",
+        "label": {
+          "en": "Magic Damage Reduced",
+          "zh-TW": "減少魔法傷害",
+          "zh-CN": "减少魔法伤害"
+        },
+        "value": 1
+      },
+      {
+        "key": "half-freeze",
+        "label": {
+          "en": "Half Freeze Duration",
+          "zh-TW": "減半冰凍持續時間",
+          "zh-CN": "减半冰冻持续时间"
+        },
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "craft-97",
+    "name": {
+      "en": "Safety Amulet",
+      "zh-TW": "Safety Amulet",
+      "zh-CN": "Safety Amulet"
+    },
+    "family": "safety",
+    "magicItemInput": {
+      "en": "Magic Amulet",
+      "zh-TW": "Magic Amulet",
+      "zh-CN": "Magic Amulet"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Thul Rune",
+        "zh-TW": "Thul Rune",
+        "zh-CN": "Thul Rune"
+      },
+      {
+        "en": "Perfect Emerald",
+        "zh-TW": "Perfect Emerald",
+        "zh-CN": "Perfect Emerald"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "red-dmg",
+        "label": {
+          "en": "Damage Reduced",
+          "zh-TW": "減少傷害",
+          "zh-CN": "减少伤害"
+        },
+        "value": 1
+      },
+      {
+        "key": "red-mag",
+        "label": {
+          "en": "Magic Damage Reduced",
+          "zh-TW": "減少魔法傷害",
+          "zh-CN": "减少魔法伤害"
+        },
+        "value": 1
+      },
+      {
+        "key": "block",
+        "label": {
+          "en": "Increased Chance of Blocking %",
+          "zh-TW": "格擋機率 %",
+          "zh-CN": "格挡机率 %"
+        },
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "craft-98",
+    "name": {
+      "en": "Safety Ring",
+      "zh-TW": "Safety Ring",
+      "zh-CN": "Safety Ring"
+    },
+    "family": "safety",
+    "magicItemInput": {
+      "en": "Magic Ring",
+      "zh-TW": "Magic Ring",
+      "zh-CN": "Magic Ring"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Amn Rune",
+        "zh-TW": "Amn Rune",
+        "zh-CN": "Amn Rune"
+      },
+      {
+        "en": "Perfect Emerald",
+        "zh-TW": "Perfect Emerald",
+        "zh-CN": "Perfect Emerald"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "red-dmg",
+        "label": {
+          "en": "Damage Reduced",
+          "zh-TW": "減少傷害",
+          "zh-CN": "减少伤害"
+        },
+        "value": 1
+      },
+      {
+        "key": "red-mag",
+        "label": {
+          "en": "Magic Damage Reduced",
+          "zh-TW": "減少魔法傷害",
+          "zh-CN": "减少魔法伤害"
+        },
+        "value": 1
+      },
+      {
+        "key": "vit",
+        "label": {
+          "en": "Vitality",
+          "zh-TW": "活力",
+          "zh-CN": "活力"
+        },
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "craft-99",
+    "name": {
+      "en": "Safety Weapon",
+      "zh-TW": "Safety Weapon",
+      "zh-CN": "Safety Weapon"
+    },
+    "family": "safety",
+    "magicItemInput": {
+      "en": "Magic Spear",
+      "zh-TW": "Magic Spear",
+      "zh-CN": "Magic Spear"
+    },
+    "additionalInputs": [
+      {
+        "en": "Jewel",
+        "zh-TW": "Jewel",
+        "zh-CN": "Jewel"
+      },
+      {
+        "en": "Sol Rune",
+        "zh-TW": "Sol Rune",
+        "zh-CN": "Sol Rune"
+      },
+      {
+        "en": "Perfect Emerald",
+        "zh-TW": "Perfect Emerald",
+        "zh-CN": "Perfect Emerald"
+      }
+    ],
+    "fixedProperties": [
+      {
+        "key": "red-dmg",
+        "label": {
+          "en": "Damage Reduced",
+          "zh-TW": "減少傷害",
+          "zh-CN": "减少伤害"
+        },
+        "value": 1
+      },
+      {
+        "key": "red-mag",
+        "label": {
+          "en": "Magic Damage Reduced",
+          "zh-TW": "減少魔法傷害",
+          "zh-CN": "减少魔法伤害"
+        },
+        "value": 1
+      },
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
+        },
+        "value": 5
+      }
+    ]
+  }
+]

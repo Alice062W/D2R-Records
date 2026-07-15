@@ -1,0 +1,1244 @@
+[
+  {
+    "id": "recipe-0",
+    "description": {
+      "en": "Staff of Kings + Amulet of the Viper -> Horadric Staff",
+      "zh-TW": "Staff of Kings + Amulet of the Viper -> Horadric Staff",
+      "zh-CN": "Staff of Kings + Amulet of the Viper -> Horadric Staff"
+    },
+    "category": "quests"
+  },
+  {
+    "id": "recipe-1",
+    "description": {
+      "en": "Khalim's Flail + Khalim's Heart + Khalim's Eye + Khalim's Brain -> Khalim's Will",
+      "zh-TW": "Khalim's Flail + Khalim's Heart + Khalim's Eye + Khalim's Brain -> Khalim's Will",
+      "zh-CN": "Khalim's Flail + Khalim's Heart + Khalim's Eye + Khalim's Brain -> Khalim's Will"
+    },
+    "category": "quests"
+  },
+  {
+    "id": "recipe-2",
+    "description": {
+      "en": "Wirt's Leg + Tome of Town Portal -> Portal to The Secret Cow Level",
+      "zh-TW": "Wirt's Leg + Tome of Town Portal -> Portal to The Secret Cow Level",
+      "zh-CN": "Wirt's Leg + Tome of Town Portal -> Portal to The Secret Cow Level"
+    },
+    "category": "quests"
+  },
+  {
+    "id": "recipe-3",
+    "description": {
+      "en": "3 Healing Potions (Any) + 3 Mana Potions (Any) + 1 Standard Gem (Any) -> Full Rejuvenation Potion",
+      "zh-TW": "3 Healing Potions (Any) + 3 Mana Potions (Any) + 1 Standard Gem (Any) -> Full Rejuvenation Potion",
+      "zh-CN": "3 Healing Potions (Any) + 3 Mana Potions (Any) + 1 Standard Gem (Any) -> Full Rejuvenation Potion"
+    },
+    "category": "consumables"
+  },
+  {
+    "id": "recipe-4",
+    "description": {
+      "en": "3 Healing Potions (Any) + 3 Mana Potions (Any)  + 1 Chipped Gem (Any) -> Rejuvenation Potion",
+      "zh-TW": "3 Healing Potions (Any) + 3 Mana Potions (Any)  + 1 Chipped Gem (Any) -> Rejuvenation Potion",
+      "zh-CN": "3 Healing Potions (Any) + 3 Mana Potions (Any)  + 1 Chipped Gem (Any) -> Rejuvenation Potion"
+    },
+    "category": "consumables"
+  },
+  {
+    "id": "recipe-5",
+    "description": {
+      "en": "3 Rejuvenation Potions -> Full Rejuvenation Potion",
+      "zh-TW": "3 Rejuvenation Potions -> Full Rejuvenation Potion",
+      "zh-CN": "3 Rejuvenation Potions -> Full Rejuvenation Potion"
+    },
+    "category": "consumables"
+  },
+  {
+    "id": "recipe-6",
+    "description": {
+      "en": "6 Perfect Gems (1 of each type) + 1 Magic Amulet -> Prismatic Amulet",
+      "zh-TW": "6 Perfect Gems (1 of each type) + 1 Magic Amulet -> Prismatic Amulet",
+      "zh-CN": "6 Perfect Gems (1 of each type) + 1 Magic Amulet -> Prismatic Amulet"
+    },
+    "category": "magicItemCreation"
+  },
+  {
+    "id": "recipe-7",
+    "description": {
+      "en": "1 Magic Ring + 1 Perfect Ruby + 1 Exploding Potion -> Garnet Ring",
+      "zh-TW": "1 Magic Ring + 1 Perfect Ruby + 1 Exploding Potion -> Garnet Ring",
+      "zh-CN": "1 Magic Ring + 1 Perfect Ruby + 1 Exploding Potion -> Garnet Ring"
+    },
+    "category": "magicItemCreation"
+  },
+  {
+    "id": "recipe-8",
+    "description": {
+      "en": "1 Magic Ring + 1 Perfect Sapphire + 1 Thawing Potion -> Cobalt Ring",
+      "zh-TW": "1 Magic Ring + 1 Perfect Sapphire + 1 Thawing Potion -> Cobalt Ring",
+      "zh-CN": "1 Magic Ring + 1 Perfect Sapphire + 1 Thawing Potion -> Cobalt Ring"
+    },
+    "category": "magicItemCreation"
+  },
+  {
+    "id": "recipe-9",
+    "description": {
+      "en": "1 Magic Ring + 1 Perfect Topaz + 1 Rejuvenation Potion -> Coral Ring",
+      "zh-TW": "1 Magic Ring + 1 Perfect Topaz + 1 Rejuvenation Potion -> Coral Ring",
+      "zh-CN": "1 Magic Ring + 1 Perfect Topaz + 1 Rejuvenation Potion -> Coral Ring"
+    },
+    "category": "magicItemCreation"
+  },
+  {
+    "id": "recipe-10",
+    "description": {
+      "en": "1 Magic Ring + 1 Standard Emerald + 1 Antidote Potion -> Jade Ring",
+      "zh-TW": "1 Magic Ring + 1 Standard Emerald + 1 Antidote Potion -> Jade Ring",
+      "zh-CN": "1 Magic Ring + 1 Standard Emerald + 1 Antidote Potion -> Jade Ring"
+    },
+    "category": "magicItemCreation"
+  },
+  {
+    "id": "recipe-11",
+    "description": {
+      "en": "1 Axe (Any) + 1 Dagger (Any) -> Throwing Axe",
+      "zh-TW": "1 Axe (Any) + 1 Dagger (Any) -> Throwing Axe",
+      "zh-CN": "1 Axe (Any) + 1 Dagger (Any) -> Throwing Axe"
+    },
+    "category": "consumables"
+  },
+  {
+    "id": "recipe-12",
+    "description": {
+      "en": "1 Spear (Any) + 1 Arrows -> Javelins",
+      "zh-TW": "1 Spear (Any) + 1 Arrows -> Javelins",
+      "zh-CN": "1 Spear (Any) + 1 Arrows -> Javelins"
+    },
+    "category": "consumables"
+  },
+  {
+    "id": "recipe-13",
+    "description": {
+      "en": "3 Magic Rings -> Magic Amulet",
+      "zh-TW": "3 Magic Rings -> Magic Amulet",
+      "zh-CN": "3 Magic Rings -> Magic Amulet"
+    },
+    "category": "magicItemCreation"
+  },
+  {
+    "id": "recipe-14",
+    "description": {
+      "en": "3 Magic Amulets -> Magic Ring",
+      "zh-TW": "3 Magic Amulets -> Magic Ring",
+      "zh-CN": "3 Magic Amulets -> Magic Ring"
+    },
+    "category": "magicItemCreation"
+  },
+  {
+    "id": "recipe-15",
+    "description": {
+      "en": "3 Standard Gems + 1 Socketed Weapon ->  Socketed Magic Weapon",
+      "zh-TW": "3 Standard Gems + 1 Socketed Weapon ->  Socketed Magic Weapon",
+      "zh-CN": "3 Standard Gems + 1 Socketed Weapon ->  Socketed Magic Weapon"
+    },
+    "category": "sockets"
+  },
+  {
+    "id": "recipe-16",
+    "description": {
+      "en": "3 Flawless Gems + 1 Magic Weapon -> Socketed Magic Weapon",
+      "zh-TW": "3 Flawless Gems + 1 Magic Weapon -> Socketed Magic Weapon",
+      "zh-CN": "3 Flawless Gems + 1 Magic Weapon -> Socketed Magic Weapon"
+    },
+    "category": "sockets"
+  },
+  {
+    "id": "recipe-17",
+    "description": {
+      "en": "1 Magic Shield + 1 Spiked Club + 2 Skulls (Any) -> Magic Shield of Spikes",
+      "zh-TW": "1 Magic Shield + 1 Spiked Club + 2 Skulls (Any) -> Magic Shield of Spikes",
+      "zh-CN": "1 Magic Shield + 1 Spiked Club + 2 Skulls (Any) -> Magic Shield of Spikes"
+    },
+    "category": "magicItemCreation"
+  },
+  {
+    "id": "recipe-18",
+    "description": {
+      "en": "4 Healing Potions (Any) + 1 Standard Ruby + 1 Magic Sword -> Sword of the Leech",
+      "zh-TW": "4 Healing Potions (Any) + 1 Standard Ruby + 1 Magic Sword -> Sword of the Leech",
+      "zh-CN": "4 Healing Potions (Any) + 1 Standard Ruby + 1 Magic Sword -> Sword of the Leech"
+    },
+    "category": "magicItemCreation"
+  },
+  {
+    "id": "recipe-19",
+    "description": {
+      "en": "1 Diamond (Any) + 1 Kris + 1 Staff + 1 Belt -> Savage Polearm",
+      "zh-TW": "1 Diamond (Any) + 1 Kris + 1 Staff + 1 Belt -> Savage Polearm",
+      "zh-CN": "1 Diamond (Any) + 1 Kris + 1 Staff + 1 Belt -> Savage Polearm"
+    },
+    "category": "magicItemCreation"
+  },
+  {
+    "id": "recipe-20",
+    "description": {
+      "en": "1 Strangling Gas Potion + 1 Healing Potion (Any) -> Antidote Potion",
+      "zh-TW": "1 Strangling Gas Potion + 1 Healing Potion (Any) -> Antidote Potion",
+      "zh-CN": "1 Strangling Gas Potion + 1 Healing Potion (Any) -> Antidote Potion"
+    },
+    "category": "consumables"
+  },
+  {
+    "id": "recipe-21",
+    "description": {
+      "en": "2 Arrows -> Bolts",
+      "zh-TW": "2 Arrows -> Bolts",
+      "zh-CN": "2 Arrows -> Bolts"
+    },
+    "category": "consumables"
+  },
+  {
+    "id": "recipe-22",
+    "description": {
+      "en": "2 Bolts -> Arrows",
+      "zh-TW": "2 Bolts -> Arrows",
+      "zh-CN": "2 Bolts -> Arrows"
+    },
+    "category": "consumables"
+  },
+  {
+    "id": "recipe-23",
+    "description": {
+      "en": "3 Chipped Amethysts -> Flawed Amethyst",
+      "zh-TW": "3 Chipped Amethysts -> Flawed Amethyst",
+      "zh-CN": "3 Chipped Amethysts -> Flawed Amethyst"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-24",
+    "description": {
+      "en": "3 Flawed Amethysts -> Standard Amethyst",
+      "zh-TW": "3 Flawed Amethysts -> Standard Amethyst",
+      "zh-CN": "3 Flawed Amethysts -> Standard Amethyst"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-25",
+    "description": {
+      "en": "3 Standard Amethysts -> Flawless Amethyst",
+      "zh-TW": "3 Standard Amethysts -> Flawless Amethyst",
+      "zh-CN": "3 Standard Amethysts -> Flawless Amethyst"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-26",
+    "description": {
+      "en": "3 Flawless Amethysts -> Perfect Amethyst",
+      "zh-TW": "3 Flawless Amethysts -> Perfect Amethyst",
+      "zh-CN": "3 Flawless Amethysts -> Perfect Amethyst"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-27",
+    "description": {
+      "en": "3 Chipped Rubies -> Flawed Ruby",
+      "zh-TW": "3 Chipped Rubies -> Flawed Ruby",
+      "zh-CN": "3 Chipped Rubies -> Flawed Ruby"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-28",
+    "description": {
+      "en": "3 Flawed Rubies -> Standard Ruby",
+      "zh-TW": "3 Flawed Rubies -> Standard Ruby",
+      "zh-CN": "3 Flawed Rubies -> Standard Ruby"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-29",
+    "description": {
+      "en": "3 Standard Rubies -> Flawless Ruby",
+      "zh-TW": "3 Standard Rubies -> Flawless Ruby",
+      "zh-CN": "3 Standard Rubies -> Flawless Ruby"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-30",
+    "description": {
+      "en": "3 Flawless Rubies -> Perfect Ruby",
+      "zh-TW": "3 Flawless Rubies -> Perfect Ruby",
+      "zh-CN": "3 Flawless Rubies -> Perfect Ruby"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-31",
+    "description": {
+      "en": "3 Chipped Sapphires -> Flawed Sapphire",
+      "zh-TW": "3 Chipped Sapphires -> Flawed Sapphire",
+      "zh-CN": "3 Chipped Sapphires -> Flawed Sapphire"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-32",
+    "description": {
+      "en": "3 Flawed Sapphires -> Standard Sapphire",
+      "zh-TW": "3 Flawed Sapphires -> Standard Sapphire",
+      "zh-CN": "3 Flawed Sapphires -> Standard Sapphire"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-33",
+    "description": {
+      "en": "3 Standard Sapphires -> Flawless Sapphire",
+      "zh-TW": "3 Standard Sapphires -> Flawless Sapphire",
+      "zh-CN": "3 Standard Sapphires -> Flawless Sapphire"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-34",
+    "description": {
+      "en": "3 Flawless Sapphires -> Perfect Sapphire",
+      "zh-TW": "3 Flawless Sapphires -> Perfect Sapphire",
+      "zh-CN": "3 Flawless Sapphires -> Perfect Sapphire"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-35",
+    "description": {
+      "en": "3 Chipped Topazes -> Flawed Topaz",
+      "zh-TW": "3 Chipped Topazes -> Flawed Topaz",
+      "zh-CN": "3 Chipped Topazes -> Flawed Topaz"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-36",
+    "description": {
+      "en": "3 Flawed Topazes -> Standard Topaz",
+      "zh-TW": "3 Flawed Topazes -> Standard Topaz",
+      "zh-CN": "3 Flawed Topazes -> Standard Topaz"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-37",
+    "description": {
+      "en": "3 Standard Topazes -> Flawless Topaz",
+      "zh-TW": "3 Standard Topazes -> Flawless Topaz",
+      "zh-CN": "3 Standard Topazes -> Flawless Topaz"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-38",
+    "description": {
+      "en": "3 Flawless Topazes -> Perfect Topaz",
+      "zh-TW": "3 Flawless Topazes -> Perfect Topaz",
+      "zh-CN": "3 Flawless Topazes -> Perfect Topaz"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-39",
+    "description": {
+      "en": "3 Chipped Emeralds -> Flawed Emerald",
+      "zh-TW": "3 Chipped Emeralds -> Flawed Emerald",
+      "zh-CN": "3 Chipped Emeralds -> Flawed Emerald"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-40",
+    "description": {
+      "en": "3 Flawed Emeralds -> Standard Emerald",
+      "zh-TW": "3 Flawed Emeralds -> Standard Emerald",
+      "zh-CN": "3 Flawed Emeralds -> Standard Emerald"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-41",
+    "description": {
+      "en": "3 Standard Emeralds -> Flawless Emerald",
+      "zh-TW": "3 Standard Emeralds -> Flawless Emerald",
+      "zh-CN": "3 Standard Emeralds -> Flawless Emerald"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-42",
+    "description": {
+      "en": "3 Flawless Emeralds -> Perfect Emerald",
+      "zh-TW": "3 Flawless Emeralds -> Perfect Emerald",
+      "zh-CN": "3 Flawless Emeralds -> Perfect Emerald"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-43",
+    "description": {
+      "en": "3 Chipped Diamonds -> Flawed Diamond",
+      "zh-TW": "3 Chipped Diamonds -> Flawed Diamond",
+      "zh-CN": "3 Chipped Diamonds -> Flawed Diamond"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-44",
+    "description": {
+      "en": "3 Flawed Diamonds -> Standard Diamond",
+      "zh-TW": "3 Flawed Diamonds -> Standard Diamond",
+      "zh-CN": "3 Flawed Diamonds -> Standard Diamond"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-45",
+    "description": {
+      "en": "3 Standard Diamonds -> Flawless Diamond",
+      "zh-TW": "3 Standard Diamonds -> Flawless Diamond",
+      "zh-CN": "3 Standard Diamonds -> Flawless Diamond"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-46",
+    "description": {
+      "en": "3 Flawless Diamonds -> Perfect Diamond",
+      "zh-TW": "3 Flawless Diamonds -> Perfect Diamond",
+      "zh-CN": "3 Flawless Diamonds -> Perfect Diamond"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-47",
+    "description": {
+      "en": "3 Chipped Skulls -> Flawed Skull",
+      "zh-TW": "3 Chipped Skulls -> Flawed Skull",
+      "zh-CN": "3 Chipped Skulls -> Flawed Skull"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-48",
+    "description": {
+      "en": "3 Flawed Skulls -> Standard Skull",
+      "zh-TW": "3 Flawed Skulls -> Standard Skull",
+      "zh-CN": "3 Flawed Skulls -> Standard Skull"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-49",
+    "description": {
+      "en": "3 Standard Skulls -> Flawless Skull",
+      "zh-TW": "3 Standard Skulls -> Flawless Skull",
+      "zh-CN": "3 Standard Skulls -> Flawless Skull"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-50",
+    "description": {
+      "en": "3 Flawless Skulls -> Perfect Skull",
+      "zh-TW": "3 Flawless Skulls -> Perfect Skull",
+      "zh-CN": "3 Flawless Skulls -> Perfect Skull"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-51",
+    "description": {
+      "en": "3 El Runes -> Eld Rune",
+      "zh-TW": "3 El Runes -> Eld Rune",
+      "zh-CN": "3 El Runes -> Eld Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-52",
+    "description": {
+      "en": "3 Eld Runes -> Tir Rune",
+      "zh-TW": "3 Eld Runes -> Tir Rune",
+      "zh-CN": "3 Eld Runes -> Tir Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-53",
+    "description": {
+      "en": "3 Tir Runes -> Nef Rune",
+      "zh-TW": "3 Tir Runes -> Nef Rune",
+      "zh-CN": "3 Tir Runes -> Nef Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-54",
+    "description": {
+      "en": "3 Nef Runes -> Eth Rune",
+      "zh-TW": "3 Nef Runes -> Eth Rune",
+      "zh-CN": "3 Nef Runes -> Eth Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-55",
+    "description": {
+      "en": "3 Eth Runes -> Ith Rune",
+      "zh-TW": "3 Eth Runes -> Ith Rune",
+      "zh-CN": "3 Eth Runes -> Ith Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-56",
+    "description": {
+      "en": "3 Ith Runes -> Tal Rune",
+      "zh-TW": "3 Ith Runes -> Tal Rune",
+      "zh-CN": "3 Ith Runes -> Tal Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-57",
+    "description": {
+      "en": "3 Tal Runes -> Ral Rune",
+      "zh-TW": "3 Tal Runes -> Ral Rune",
+      "zh-CN": "3 Tal Runes -> Ral Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-58",
+    "description": {
+      "en": "3 Ral Runes -> Ort Rune",
+      "zh-TW": "3 Ral Runes -> Ort Rune",
+      "zh-CN": "3 Ral Runes -> Ort Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-59",
+    "description": {
+      "en": "3 Ort Runes -> Thul Rune",
+      "zh-TW": "3 Ort Runes -> Thul Rune",
+      "zh-CN": "3 Ort Runes -> Thul Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-60",
+    "description": {
+      "en": "3 Perfect Gems (Any) + 1 Magic Item -> Re-rolled Magic Item",
+      "zh-TW": "3 Perfect Gems (Any) + 1 Magic Item -> Re-rolled Magic Item",
+      "zh-CN": "3 Perfect Gems (Any) + 1 Magic Item -> Re-rolled Magic Item"
+    },
+    "category": "magicItemRerolls"
+  },
+  {
+    "id": "recipe-61",
+    "description": {
+      "en": "6 Perfect Skulls + 1 Rare Item -> 1 Low Quality Rare Item",
+      "zh-TW": "6 Perfect Skulls + 1 Rare Item -> 1 Low Quality Rare Item",
+      "zh-CN": "6 Perfect Skulls + 1 Rare Item -> 1 Low Quality Rare Item"
+    },
+    "category": "magicItemRerolls"
+  },
+  {
+    "id": "recipe-62",
+    "description": {
+      "en": "1 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> 1 High Quality Rare Item",
+      "zh-TW": "1 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> 1 High Quality Rare Item",
+      "zh-CN": "1 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> 1 High Quality Rare Item"
+    },
+    "category": "magicItemRerolls"
+  },
+  {
+    "id": "recipe-63",
+    "description": {
+      "en": "3 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> Add 1 Socket to Rare Item",
+      "zh-TW": "3 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> Add 1 Socket to Rare Item",
+      "zh-CN": "3 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> Add 1 Socket to Rare Item"
+    },
+    "category": "magicItemRerolls"
+  },
+  {
+    "id": "recipe-100",
+    "description": {
+      "en": "3 Thul Runes + 1 Chipped Topaz -> Amn Rune",
+      "zh-TW": "3 Thul Runes + 1 Chipped Topaz -> Amn Rune",
+      "zh-CN": "3 Thul Runes + 1 Chipped Topaz -> Amn Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-101",
+    "description": {
+      "en": "3 Amn Runes + 1 Chipped Amethyst -> Sol Rune",
+      "zh-TW": "3 Amn Runes + 1 Chipped Amethyst -> Sol Rune",
+      "zh-CN": "3 Amn Runes + 1 Chipped Amethyst -> Sol Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-102",
+    "description": {
+      "en": "3 Sol Runes + 1 Chipped Sapphire -> Shael Rune",
+      "zh-TW": "3 Sol Runes + 1 Chipped Sapphire -> Shael Rune",
+      "zh-CN": "3 Sol Runes + 1 Chipped Sapphire -> Shael Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-103",
+    "description": {
+      "en": "3 Shael Runes + 1 Chipped Ruby -> Dol Rune",
+      "zh-TW": "3 Shael Runes + 1 Chipped Ruby -> Dol Rune",
+      "zh-CN": "3 Shael Runes + 1 Chipped Ruby -> Dol Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-104",
+    "description": {
+      "en": "3 Dol Runes + 1 Chipped Emerald -> Hel Rune",
+      "zh-TW": "3 Dol Runes + 1 Chipped Emerald -> Hel Rune",
+      "zh-CN": "3 Dol Runes + 1 Chipped Emerald -> Hel Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-105",
+    "description": {
+      "en": "3 Hel Runes + 1 Chipped Diamond -> Io Rune",
+      "zh-TW": "3 Hel Runes + 1 Chipped Diamond -> Io Rune",
+      "zh-CN": "3 Hel Runes + 1 Chipped Diamond -> Io Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-106",
+    "description": {
+      "en": "3 Io Runes + 1 Flawed Topaz -> Lum Rune",
+      "zh-TW": "3 Io Runes + 1 Flawed Topaz -> Lum Rune",
+      "zh-CN": "3 Io Runes + 1 Flawed Topaz -> Lum Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-107",
+    "description": {
+      "en": "3 Lum Runes + 1 Flawed Amethyst -> Ko Rune",
+      "zh-TW": "3 Lum Runes + 1 Flawed Amethyst -> Ko Rune",
+      "zh-CN": "3 Lum Runes + 1 Flawed Amethyst -> Ko Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-108",
+    "description": {
+      "en": "3 Ko Runes + 1 Flawed Sapphire -> Fal Rune",
+      "zh-TW": "3 Ko Runes + 1 Flawed Sapphire -> Fal Rune",
+      "zh-CN": "3 Ko Runes + 1 Flawed Sapphire -> Fal Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-109",
+    "description": {
+      "en": "3 Fal Runes + 1 Flawed Ruby -> Lem Rune",
+      "zh-TW": "3 Fal Runes + 1 Flawed Ruby -> Lem Rune",
+      "zh-CN": "3 Fal Runes + 1 Flawed Ruby -> Lem Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-110",
+    "description": {
+      "en": "3 Lem Runes + 1 Flawed Emerald -> Pul Rune",
+      "zh-TW": "3 Lem Runes + 1 Flawed Emerald -> Pul Rune",
+      "zh-CN": "3 Lem Runes + 1 Flawed Emerald -> Pul Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-111",
+    "description": {
+      "en": "2 Pul Runes + 1 Flawed Diamond -> Um Rune",
+      "zh-TW": "2 Pul Runes + 1 Flawed Diamond -> Um Rune",
+      "zh-CN": "2 Pul Runes + 1 Flawed Diamond -> Um Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-112",
+    "description": {
+      "en": "2 Um Runes + 1 Standard Topaz -> Mal Rune",
+      "zh-TW": "2 Um Runes + 1 Standard Topaz -> Mal Rune",
+      "zh-CN": "2 Um Runes + 1 Standard Topaz -> Mal Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-113",
+    "description": {
+      "en": "2 Mal Runes + 1 Standard Amethyst -> Ist Rune",
+      "zh-TW": "2 Mal Runes + 1 Standard Amethyst -> Ist Rune",
+      "zh-CN": "2 Mal Runes + 1 Standard Amethyst -> Ist Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-114",
+    "description": {
+      "en": "2 Ist Runes + 1 Standard Sapphire -> Gul Rune",
+      "zh-TW": "2 Ist Runes + 1 Standard Sapphire -> Gul Rune",
+      "zh-CN": "2 Ist Runes + 1 Standard Sapphire -> Gul Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-115",
+    "description": {
+      "en": "2 Gul Runes + 1 Standard Ruby -> Vex Rune",
+      "zh-TW": "2 Gul Runes + 1 Standard Ruby -> Vex Rune",
+      "zh-CN": "2 Gul Runes + 1 Standard Ruby -> Vex Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-116",
+    "description": {
+      "en": "2 Vex Runes + 1 Standard Emerald -> Ohm Rune",
+      "zh-TW": "2 Vex Runes + 1 Standard Emerald -> Ohm Rune",
+      "zh-CN": "2 Vex Runes + 1 Standard Emerald -> Ohm Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-117",
+    "description": {
+      "en": "2 Ohm Runes + 1 Standard Diamond -> Lo Rune",
+      "zh-TW": "2 Ohm Runes + 1 Standard Diamond -> Lo Rune",
+      "zh-CN": "2 Ohm Runes + 1 Standard Diamond -> Lo Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-118",
+    "description": {
+      "en": "2 Lo Runes + 1 Flawless Topaz -> Sur Rune",
+      "zh-TW": "2 Lo Runes + 1 Flawless Topaz -> Sur Rune",
+      "zh-CN": "2 Lo Runes + 1 Flawless Topaz -> Sur Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-119",
+    "description": {
+      "en": "2 Sur Runes + 1 Flawless Amethyst -> Ber Rune",
+      "zh-TW": "2 Sur Runes + 1 Flawless Amethyst -> Ber Rune",
+      "zh-CN": "2 Sur Runes + 1 Flawless Amethyst -> Ber Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-120",
+    "description": {
+      "en": "2 Ber Runes + 1 Flawless Sapphire -> Jah Rune",
+      "zh-TW": "2 Ber Runes + 1 Flawless Sapphire -> Jah Rune",
+      "zh-CN": "2 Ber Runes + 1 Flawless Sapphire -> Jah Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-121",
+    "description": {
+      "en": "2 Jah Runes + 1 Flawless Ruby -> Cham Rune",
+      "zh-TW": "2 Jah Runes + 1 Flawless Ruby -> Cham Rune",
+      "zh-CN": "2 Jah Runes + 1 Flawless Ruby -> Cham Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-122",
+    "description": {
+      "en": "2 Cham Runes + 1 Flawless Emerald -> Zod Rune",
+      "zh-TW": "2 Cham Runes + 1 Flawless Emerald -> Zod Rune",
+      "zh-CN": "2 Cham Runes + 1 Flawless Emerald -> Zod Rune"
+    },
+    "category": "runeGemUpgrade"
+  },
+  {
+    "id": "recipe-123",
+    "description": {
+      "en": "1 Tal Rune + 1 Thul Rune + 1 Perfect Topaz + 1 Normal Torso Armor -> Socketed Torso Armor",
+      "zh-TW": "1 Tal Rune + 1 Thul Rune + 1 Perfect Topaz + 1 Normal Torso Armor -> Socketed Torso Armor",
+      "zh-CN": "1 Tal Rune + 1 Thul Rune + 1 Perfect Topaz + 1 Normal Torso Armor -> Socketed Torso Armor"
+    },
+    "category": "sockets"
+  },
+  {
+    "id": "recipe-124",
+    "description": {
+      "en": "1 Ral Rune + 1 Amn Rune + 1 Perfect Amethyst + 1 Normal Weapon -> Socketed Weapon",
+      "zh-TW": "1 Ral Rune + 1 Amn Rune + 1 Perfect Amethyst + 1 Normal Weapon -> Socketed Weapon",
+      "zh-CN": "1 Ral Rune + 1 Amn Rune + 1 Perfect Amethyst + 1 Normal Weapon -> Socketed Weapon"
+    },
+    "category": "sockets"
+  },
+  {
+    "id": "recipe-125",
+    "description": {
+      "en": "1 Ral Rune + 1 Thul Rune + 1 Perfect Sapphire + 1 Normal Helm -> Socketed Helm",
+      "zh-TW": "1 Ral Rune + 1 Thul Rune + 1 Perfect Sapphire + 1 Normal Helm -> Socketed Helm",
+      "zh-CN": "1 Ral Rune + 1 Thul Rune + 1 Perfect Sapphire + 1 Normal Helm -> Socketed Helm"
+    },
+    "category": "sockets"
+  },
+  {
+    "id": "recipe-126",
+    "description": {
+      "en": "1 Tal Rune + 1 Amn Rune + 1 Perfect Ruby + 1 Normal Shield -> Socketed Shield",
+      "zh-TW": "1 Tal Rune + 1 Amn Rune + 1 Perfect Ruby + 1 Normal Shield -> Socketed Shield",
+      "zh-CN": "1 Tal Rune + 1 Amn Rune + 1 Perfect Ruby + 1 Normal Shield -> Socketed Shield"
+    },
+    "category": "sockets"
+  },
+  {
+    "id": "recipe-127",
+    "description": {
+      "en": "1 Eld Rune + 1 Chipped Gem (Any) + 1 Low Quality Weapon -> Normal Weapon",
+      "zh-TW": "1 Eld Rune + 1 Chipped Gem (Any) + 1 Low Quality Weapon -> Normal Weapon",
+      "zh-CN": "1 Eld Rune + 1 Chipped Gem (Any) + 1 Low Quality Weapon -> Normal Weapon"
+    },
+    "category": "itemUpgrade"
+  },
+  {
+    "id": "recipe-128",
+    "description": {
+      "en": "1 El Rune + 1 Chipped Gem (Any) + 1 Low Quality Armor -> Normal Armor",
+      "zh-TW": "1 El Rune + 1 Chipped Gem (Any) + 1 Low Quality Armor -> Normal Armor",
+      "zh-CN": "1 El Rune + 1 Chipped Gem (Any) + 1 Low Quality Armor -> Normal Armor"
+    },
+    "category": "itemUpgrade"
+  },
+  {
+    "id": "recipe-129",
+    "description": {
+      "en": "1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + 1 Normal Unique Weapon -> Exceptional Unique Weapon",
+      "zh-TW": "1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + 1 Normal Unique Weapon -> Exceptional Unique Weapon",
+      "zh-CN": "1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + 1 Normal Unique Weapon -> Exceptional Unique Weapon"
+    },
+    "category": "itemUpgrade"
+  },
+  {
+    "id": "recipe-130",
+    "description": {
+      "en": "1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Normal Unique Armor -> Exceptional Unique Armor",
+      "zh-TW": "1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Normal Unique Armor -> Exceptional Unique Armor",
+      "zh-CN": "1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Normal Unique Armor -> Exceptional Unique Armor"
+    },
+    "category": "itemUpgrade"
+  },
+  {
+    "id": "recipe-131",
+    "description": {
+      "en": "1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Unique Weapon -> Elite Unique Weapon",
+      "zh-TW": "1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Unique Weapon -> Elite Unique Weapon",
+      "zh-CN": "1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Unique Weapon -> Elite Unique Weapon"
+    },
+    "category": "itemUpgrade"
+  },
+  {
+    "id": "recipe-132",
+    "description": {
+      "en": "1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Unique Armor -> Elite Unique Armor",
+      "zh-TW": "1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Unique Armor -> Elite Unique Armor",
+      "zh-CN": "1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Unique Armor -> Elite Unique Armor"
+    },
+    "category": "itemUpgrade"
+  },
+  {
+    "id": "recipe-133",
+    "description": {
+      "en": "1 Ort Rune + 1 Amn Rune + 1 Perfect Sapphire + 1 Normal Rare Weapon -> Exceptional Rare Weapon",
+      "zh-TW": "1 Ort Rune + 1 Amn Rune + 1 Perfect Sapphire + 1 Normal Rare Weapon -> Exceptional Rare Weapon",
+      "zh-CN": "1 Ort Rune + 1 Amn Rune + 1 Perfect Sapphire + 1 Normal Rare Weapon -> Exceptional Rare Weapon"
+    },
+    "category": "itemUpgrade"
+  },
+  {
+    "id": "recipe-134",
+    "description": {
+      "en": "1 Ral Rune + 1 Thul Rune + 1 Perfect Amethyst + 1 Normal Rare Armor -> Exceptional Rare Armor",
+      "zh-TW": "1 Ral Rune + 1 Thul Rune + 1 Perfect Amethyst + 1 Normal Rare Armor -> Exceptional Rare Armor",
+      "zh-CN": "1 Ral Rune + 1 Thul Rune + 1 Perfect Amethyst + 1 Normal Rare Armor -> Exceptional Rare Armor"
+    },
+    "category": "itemUpgrade"
+  },
+  {
+    "id": "recipe-135",
+    "description": {
+      "en": "1 Fal Rune + 1 Um Rune + 1 Perfect Sapphire + 1 Exceptional Rare Weapon -> Elite Rare Weapon",
+      "zh-TW": "1 Fal Rune + 1 Um Rune + 1 Perfect Sapphire + 1 Exceptional Rare Weapon -> Elite Rare Weapon",
+      "zh-CN": "1 Fal Rune + 1 Um Rune + 1 Perfect Sapphire + 1 Exceptional Rare Weapon -> Elite Rare Weapon"
+    },
+    "category": "itemUpgrade"
+  },
+  {
+    "id": "recipe-136",
+    "description": {
+      "en": "1 Ko Rune + 1 Pul Rune + 1 Perfect Amethyst + 1 Exceptional Rare Armor -> Elite Rare Armor",
+      "zh-TW": "1 Ko Rune + 1 Pul Rune + 1 Perfect Amethyst + 1 Exceptional Rare Armor -> Elite Rare Armor",
+      "zh-CN": "1 Ko Rune + 1 Pul Rune + 1 Perfect Amethyst + 1 Exceptional Rare Armor -> Elite Rare Armor"
+    },
+    "category": "itemUpgrade"
+  },
+  {
+    "id": "recipe-137",
+    "description": {
+      "en": "1 Ort Rune + 1 Weapon -> Fully Repaired Weapon",
+      "zh-TW": "1 Ort Rune + 1 Weapon -> Fully Repaired Weapon",
+      "zh-CN": "1 Ort Rune + 1 Weapon -> Fully Repaired Weapon"
+    },
+    "category": "itemRepair"
+  },
+  {
+    "id": "recipe-138",
+    "description": {
+      "en": "1 Ral Rune + 1 Armor -> Fully Repaired Armor",
+      "zh-TW": "1 Ral Rune + 1 Armor -> Fully Repaired Armor",
+      "zh-CN": "1 Ral Rune + 1 Armor -> Fully Repaired Armor"
+    },
+    "category": "itemRepair"
+  },
+  {
+    "id": "recipe-139",
+    "description": {
+      "en": "1 Ort Rune + 1 Chipped Gem (Any) + 1 Weapon -> Fully Repaired and Recharged Weapon",
+      "zh-TW": "1 Ort Rune + 1 Chipped Gem (Any) + 1 Weapon -> Fully Repaired and Recharged Weapon",
+      "zh-CN": "1 Ort Rune + 1 Chipped Gem (Any) + 1 Weapon -> Fully Repaired and Recharged Weapon"
+    },
+    "category": "itemRepair"
+  },
+  {
+    "id": "recipe-140",
+    "description": {
+      "en": "1 Ral Rune + 1 Flawed Gem (Any) + 1 Armor -> Fully Repaired and Recharged Armor",
+      "zh-TW": "1 Ral Rune + 1 Flawed Gem (Any) + 1 Armor -> Fully Repaired and Recharged Armor",
+      "zh-CN": "1 Ral Rune + 1 Flawed Gem (Any) + 1 Armor -> Fully Repaired and Recharged Armor"
+    },
+    "category": "itemRepair"
+  },
+  {
+    "id": "recipe-141",
+    "description": {
+      "en": "1 Hel Rune + Scroll of Town Portal + 1 Socketed Item -> Clear Sockets on Item",
+      "zh-TW": "1 Hel Rune + Scroll of Town Portal + 1 Socketed Item -> Clear Sockets on Item",
+      "zh-CN": "1 Hel Rune + Scroll of Town Portal + 1 Socketed Item -> Clear Sockets on Item"
+    },
+    "category": "sockets"
+  },
+  {
+    "id": "recipe-147",
+    "description": {
+      "en": "3 Chipped Gems (Any) + 1 Magic Weapon -> Socketed Magic Weapon",
+      "zh-TW": "3 Chipped Gems (Any) + 1 Magic Weapon -> Socketed Magic Weapon",
+      "zh-CN": "3 Chipped Gems (Any) + 1 Magic Weapon -> Socketed Magic Weapon"
+    },
+    "category": "sockets"
+  },
+  {
+    "id": "recipe-148",
+    "description": {
+      "en": "1 Key of Terror + 1 Key of Hate + 1 Key of Destruction -> Portal to Matron's Den/Forgotten Sands/Furnace of Pain (Random)",
+      "zh-TW": "1 Key of Terror + 1 Key of Hate + 1 Key of Destruction -> Portal to Matron's Den/Forgotten Sands/Furnace of Pain (Random)",
+      "zh-CN": "1 Key of Terror + 1 Key of Hate + 1 Key of Destruction -> Portal to Matron's Den/Forgotten Sands/Furnace of Pain (Random)"
+    },
+    "category": "quests"
+  },
+  {
+    "id": "recipe-149",
+    "description": {
+      "en": "1 Diablo's Horn + 1 Baal's Eye + 1 Mephisto's Brain -> Portal to Tristram (Pandemonium Finale)",
+      "zh-TW": "1 Diablo's Horn + 1 Baal's Eye + 1 Mephisto's Brain -> Portal to Tristram (Pandemonium Finale)",
+      "zh-CN": "1 Diablo's Horn + 1 Baal's Eye + 1 Mephisto's Brain -> Portal to Tristram (Pandemonium Finale)"
+    },
+    "category": "quests"
+  },
+  {
+    "id": "recipe-150",
+    "description": {
+      "en": "1 Twisted Essence of Suffering + 1 Charged Essence of Hatred + 1 Burning Essence of Terror + 1 Festering Essence of Destruction -> Token of Absolution",
+      "zh-TW": "1 Twisted Essence of Suffering + 1 Charged Essence of Hatred + 1 Burning Essence of Terror + 1 Festering Essence of Destruction -> Token of Absolution",
+      "zh-CN": "1 Twisted Essence of Suffering + 1 Charged Essence of Hatred + 1 Burning Essence of Terror + 1 Festering Essence of Destruction -> Token of Absolution"
+    },
+    "category": "quests"
+  },
+  {
+    "id": "recipe-151",
+    "description": {
+      "en": "1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + 1 Normal Set Weapon -> Exceptional Set Weapon",
+      "zh-TW": "1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + 1 Normal Set Weapon -> Exceptional Set Weapon",
+      "zh-CN": "1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + 1 Normal Set Weapon -> Exceptional Set Weapon"
+    },
+    "category": "itemUpgrade"
+  },
+  {
+    "id": "recipe-152",
+    "description": {
+      "en": "1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Normal Set Armor -> Exceptional Set Armor",
+      "zh-TW": "1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Normal Set Armor -> Exceptional Set Armor",
+      "zh-CN": "1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Normal Set Armor -> Exceptional Set Armor"
+    },
+    "category": "itemUpgrade"
+  },
+  {
+    "id": "recipe-153",
+    "description": {
+      "en": "1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Set Weapon -> Elite Set Weapon",
+      "zh-TW": "1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Set Weapon -> Elite Set Weapon",
+      "zh-CN": "1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Set Weapon -> Elite Set Weapon"
+    },
+    "category": "itemUpgrade"
+  },
+  {
+    "id": "recipe-154",
+    "description": {
+      "en": "1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Set Armor -> Elite Set Armor",
+      "zh-TW": "1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Set Armor -> Elite Set Armor",
+      "zh-CN": "1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Set Armor -> Elite Set Armor"
+    },
+    "category": "itemUpgrade"
+  },
+  {
+    "id": "recipe-163",
+    "description": {
+      "en": "1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Small Charm -> Virulent Small Charm",
+      "zh-TW": "1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Small Charm -> Virulent Small Charm",
+      "zh-CN": "1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Small Charm -> Virulent Small Charm"
+    },
+    "category": "craftedGrandCharm"
+  },
+  {
+    "id": "recipe-164",
+    "description": {
+      "en": "1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Large Charm -> Virulent Large Charm",
+      "zh-TW": "1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Large Charm -> Virulent Large Charm",
+      "zh-CN": "1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Large Charm -> Virulent Large Charm"
+    },
+    "category": "craftedGrandCharm"
+  },
+  {
+    "id": "recipe-165",
+    "description": {
+      "en": "1 Ko Rune + 1 Perfect Emerald + 1 Uber Ancient Summon Material Act1 + 1 Rotting Fissure -> Virulent Rotting Fissure",
+      "zh-TW": "1 Ko Rune + 1 Perfect Emerald + 1 Uber Ancient Summon Material Act1 + 1 Rotting Fissure -> Virulent Rotting Fissure",
+      "zh-CN": "1 Ko Rune + 1 Perfect Emerald + 1 Uber Ancient Summon Material Act1 + 1 Rotting Fissure -> Virulent Rotting Fissure"
+    },
+    "category": "quests"
+  },
+  {
+    "id": "recipe-174",
+    "description": {
+      "en": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Small Charm -> Gelid Small Charm",
+      "zh-TW": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Small Charm -> Gelid Small Charm",
+      "zh-CN": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Small Charm -> Gelid Small Charm"
+    },
+    "category": "craftedGrandCharm"
+  },
+  {
+    "id": "recipe-175",
+    "description": {
+      "en": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Large Charm -> Gelid Large Charm",
+      "zh-TW": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Large Charm -> Gelid Large Charm",
+      "zh-CN": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Large Charm -> Gelid Large Charm"
+    },
+    "category": "craftedGrandCharm"
+  },
+  {
+    "id": "recipe-176",
+    "description": {
+      "en": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Grand Charm -> Gelid Grand Charm",
+      "zh-TW": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Grand Charm -> Gelid Grand Charm",
+      "zh-CN": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Grand Charm -> Gelid Grand Charm"
+    },
+    "category": "craftedGrandCharm"
+  },
+  {
+    "id": "recipe-177",
+    "description": {
+      "en": "1 Lum Rune + 1 Perfect Sapphire + 1 Uber Ancient Summon Material Act2 + 1 Cold Rupture -> Gelid Cold Rupture",
+      "zh-TW": "1 Lum Rune + 1 Perfect Sapphire + 1 Uber Ancient Summon Material Act2 + 1 Cold Rupture -> Gelid Cold Rupture",
+      "zh-CN": "1 Lum Rune + 1 Perfect Sapphire + 1 Uber Ancient Summon Material Act2 + 1 Cold Rupture -> Gelid Cold Rupture"
+    },
+    "category": "quests"
+  },
+  {
+    "id": "recipe-186",
+    "description": {
+      "en": "1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Small Charm -> Magnetic Small Charm",
+      "zh-TW": "1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Small Charm -> Magnetic Small Charm",
+      "zh-CN": "1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Small Charm -> Magnetic Small Charm"
+    },
+    "category": "craftedGrandCharm"
+  },
+  {
+    "id": "recipe-187",
+    "description": {
+      "en": "1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Large Charm -> Magnetic Large Charm",
+      "zh-TW": "1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Large Charm -> Magnetic Large Charm",
+      "zh-CN": "1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Large Charm -> Magnetic Large Charm"
+    },
+    "category": "craftedGrandCharm"
+  },
+  {
+    "id": "recipe-188",
+    "description": {
+      "en": "1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Grand Charm -> Magnetic Grand Charm",
+      "zh-TW": "1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Grand Charm -> Magnetic Grand Charm",
+      "zh-CN": "1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Grand Charm -> Magnetic Grand Charm"
+    },
+    "category": "craftedGrandCharm"
+  },
+  {
+    "id": "recipe-189",
+    "description": {
+      "en": "1 Fal Rune + 1 Perfect Topaz + 1 Uber Ancient Summon Material Act3 + 1 Crack of the Heavens -> Magnetic Crack of the Heavens",
+      "zh-TW": "1 Fal Rune + 1 Perfect Topaz + 1 Uber Ancient Summon Material Act3 + 1 Crack of the Heavens -> Magnetic Crack of the Heavens",
+      "zh-CN": "1 Fal Rune + 1 Perfect Topaz + 1 Uber Ancient Summon Material Act3 + 1 Crack of the Heavens -> Magnetic Crack of the Heavens"
+    },
+    "category": "quests"
+  },
+  {
+    "id": "recipe-198",
+    "description": {
+      "en": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Small Charm -> Incendiary Small Charm",
+      "zh-TW": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Small Charm -> Incendiary Small Charm",
+      "zh-CN": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Small Charm -> Incendiary Small Charm"
+    },
+    "category": "craftedGrandCharm"
+  },
+  {
+    "id": "recipe-199",
+    "description": {
+      "en": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Large Charm -> Incendiary Large Charm",
+      "zh-TW": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Large Charm -> Incendiary Large Charm",
+      "zh-CN": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Large Charm -> Incendiary Large Charm"
+    },
+    "category": "craftedGrandCharm"
+  },
+  {
+    "id": "recipe-200",
+    "description": {
+      "en": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Grand Charm -> Incendiary Grand Charm",
+      "zh-TW": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Grand Charm -> Incendiary Grand Charm",
+      "zh-CN": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Grand Charm -> Incendiary Grand Charm"
+    },
+    "category": "craftedGrandCharm"
+  },
+  {
+    "id": "recipe-201",
+    "description": {
+      "en": "1 Io Rune + 1 Perfect Ruby + 1 Uber Ancient Summon Material Act4 + 1 Flame Rift -> Incendiary Flame Rift",
+      "zh-TW": "1 Io Rune + 1 Perfect Ruby + 1 Uber Ancient Summon Material Act4 + 1 Flame Rift -> Incendiary Flame Rift",
+      "zh-CN": "1 Io Rune + 1 Perfect Ruby + 1 Uber Ancient Summon Material Act4 + 1 Flame Rift -> Incendiary Flame Rift"
+    },
+    "category": "quests"
+  },
+  {
+    "id": "recipe-210",
+    "description": {
+      "en": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Small Charm -> Breaching Small Charm",
+      "zh-TW": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Small Charm -> Breaching Small Charm",
+      "zh-CN": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Small Charm -> Breaching Small Charm"
+    },
+    "category": "craftedGrandCharm"
+  },
+  {
+    "id": "recipe-211",
+    "description": {
+      "en": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Large Charm -> Breaching Large Charm",
+      "zh-TW": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Large Charm -> Breaching Large Charm",
+      "zh-CN": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Large Charm -> Breaching Large Charm"
+    },
+    "category": "craftedGrandCharm"
+  },
+  {
+    "id": "recipe-212",
+    "description": {
+      "en": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Grand Charm -> Breaching Grand Charm",
+      "zh-TW": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Grand Charm -> Breaching Grand Charm",
+      "zh-CN": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Grand Charm -> Breaching Grand Charm"
+    },
+    "category": "craftedGrandCharm"
+  },
+  {
+    "id": "recipe-213",
+    "description": {
+      "en": "1 Pul Rune + 1 Perfect Amethyst + 1 Uber Ancient Summon Material Act5 + 1 Bone Break -> Breaching Bone Break",
+      "zh-TW": "1 Pul Rune + 1 Perfect Amethyst + 1 Uber Ancient Summon Material Act5 + 1 Bone Break -> Breaching Bone Break",
+      "zh-CN": "1 Pul Rune + 1 Perfect Amethyst + 1 Uber Ancient Summon Material Act5 + 1 Bone Break -> Breaching Bone Break"
+    },
+    "category": "quests"
+  },
+  {
+    "id": "recipe-222",
+    "description": {
+      "en": "1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Small Charm -> Mystical Small Charm",
+      "zh-TW": "1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Small Charm -> Mystical Small Charm",
+      "zh-CN": "1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Small Charm -> Mystical Small Charm"
+    },
+    "category": "craftedGrandCharm"
+  },
+  {
+    "id": "recipe-223",
+    "description": {
+      "en": "1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Large Charm -> Mystical Large Charm",
+      "zh-TW": "1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Large Charm -> Mystical Large Charm",
+      "zh-CN": "1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Large Charm -> Mystical Large Charm"
+    },
+    "category": "craftedGrandCharm"
+  },
+  {
+    "id": "recipe-224",
+    "description": {
+      "en": "1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Grand Charm -> Mystical Grand Charm",
+      "zh-TW": "1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Grand Charm -> Mystical Grand Charm",
+      "zh-CN": "1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Grand Charm -> Mystical Grand Charm"
+    },
+    "category": "craftedGrandCharm"
+  },
+  {
+    "id": "recipe-225",
+    "description": {
+      "en": "1 Mal Rune + 1 Perfect Diamond + 1 Uber Ancient Summon Material Act5 + 1 Black Cleft -> Mystical Black Cleft",
+      "zh-TW": "1 Mal Rune + 1 Perfect Diamond + 1 Uber Ancient Summon Material Act5 + 1 Black Cleft -> Mystical Black Cleft",
+      "zh-CN": "1 Mal Rune + 1 Perfect Diamond + 1 Uber Ancient Summon Material Act5 + 1 Black Cleft -> Mystical Black Cleft"
+    },
+    "category": "quests"
+  },
+  {
+    "id": "recipe-226",
+    "description": {
+      "en": "1 Uber Ancient Summon Material from Act 1 + Act2 + Act3 + Act 4 + Act 5 -> Portal to Colossal Summit",
+      "zh-TW": "1 Uber Ancient Summon Material from Act 1 + Act2 + Act3 + Act 4 + Act 5 -> Portal to Colossal Summit",
+      "zh-CN": "1 Uber Ancient Summon Material from Act 1 + Act2 + Act3 + Act 4 + Act 5 -> Portal to Colossal Summit"
+    },
+    "category": "quests"
+  }
+]

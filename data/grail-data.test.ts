@@ -3,6 +3,8 @@ import uniques from './uniques.json';
 import sets from './sets.json';
 import basesFull from './bases-full.json';
 import runewordsFull from './runewords-full.json';
+import cubeRecipesData from './cube-recipes.json';
+import craftedItemsData from './crafted-items.json';
 import { getCategoriesForKind, SLOT_ORDER } from '@/lib/grail/catalog';
 
 interface LocalizedText { en: string; 'zh-TW': string; 'zh-CN': string; }
@@ -279,5 +281,52 @@ describe('runes.json', () => {
     for (const r of runesData) {
       expect(r.name['zh-TW']).not.toBe('');
     }
+  });
+});
+
+describe('cube-recipes.json', () => {
+  // NOTE: the plan's task brief documented this as "157 enabled + 17 Crafted Grand
+  // Charm entries = 174", but that arithmetic double-counts: 157 is the total number
+  // of `enabled:1` entries in cubemain.json *including* the 36 Hit Power/Blood/
+  // Caster/Safety craft recipes (which are also enabled:1 but excluded here because
+  // they belong only in crafted-items.json). The real total is
+  // 157 (enabled) - 36 (excluded craft recipes) + 17 (Crafted Grand Charm) = 138,
+  // confirmed by reading vendor/d2data/json/cubemain.json directly.
+  it('has 138 entries (121 enabled non-craft + 17 Crafted Grand Charm entries)', () => {
+    expect(cubeRecipesData.length).toBe(138);
+  });
+
+  it('does not include the 36 Hit Power/Blood/Caster/Safety craft recipes (those are crafted-items.json only)', () => {
+    expect(cubeRecipesData.some(r => r.description.en.includes('Hit Power'))).toBe(false);
+  });
+
+  it('classifies a known rune-upgrade recipe correctly', () => {
+    const eld = cubeRecipesData.find(r => r.description.en === '3 El Runes -> Eld Rune');
+    expect(eld?.category).toBe('runeGemUpgrade');
+  });
+
+  it('classifies a known quest recipe correctly', () => {
+    const cow = cubeRecipesData.find(r => r.description.en.includes('Secret Cow Level'));
+    expect(cow?.category).toBe('quests');
+  });
+
+  it('classifies the Crafted Grand Charm entries correctly', () => {
+    const charmRecipes = cubeRecipesData.filter(r => r.category === 'craftedGrandCharm');
+    expect(charmRecipes.length).toBe(17);
+  });
+});
+
+describe('crafted-items.json', () => {
+  it('has 36 entries, 9 per family', () => {
+    expect(craftedItemsData.length).toBe(36);
+    for (const family of ['hitPower', 'blood', 'caster', 'safety']) {
+      expect(craftedItemsData.filter(c => c.family === family).length).toBe(9);
+    }
+  });
+
+  it('Hit Power Helm has the correct fixed properties', () => {
+    const helm = craftedItemsData.find(c => c.name.en === 'Hit Power Helm')!;
+    expect(helm.fixedProperties.length).toBe(3);
+    expect(helm.additionalInputs.map(i => i.en)).toEqual(['Jewel', 'Ith Rune', 'Perfect Sapphire']);
   });
 });
