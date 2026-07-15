@@ -152,17 +152,26 @@ _Spec: [docs/superpowers/specs/2026-07-14-base-runewords-maxsockets-design.md](.
 - [x] Runewords filterable list page
 - [x] Max Sockets page + full verification — final whole-branch review clean after one fix round (runeword locale rendering, recovered levelReq for 11 name-mismatched runewords)
 
-## Runes, Cube Recipes, Crafted Items, Magic Items, Rare Items 🔲
+## Runes, Cube Recipes, Crafted Items, Magic Items, Rare Items ✅
 
 _Spec: [docs/superpowers/specs/2026-07-15-runes-cube-crafted-design.md](../docs/superpowers/specs/2026-07-15-runes-cube-crafted-design.md) · Plan: [plans/runes-cube-crafted-magic-rare-implementation.md](./runes-cube-crafted-magic-rare-implementation.md)_
 
-- [ ] Vendor gems.json + cubemain.json
-- [ ] Generate data/runes.json (33 runes, stats, recipes, hand-transcribed drop rates)
-- [ ] Generate data/cube-recipes.json + data/crafted-items.json
-- [ ] Runes, Cube Recipes, Crafted Items pages
-- [ ] Vendor magicprefix.json + magicsuffix.json; generate data/magic-affixes.json
-- [ ] Magic Items / Rare Items category system + pages
-- [ ] Full verification + d2r.world spot-check (both batches)
+- [x] Vendor gems.json + cubemain.json
+- [x] Generate data/runes.json (33 runes, stats, recipes, hand-transcribed drop rates)
+- [x] Generate data/cube-recipes.json + data/crafted-items.json
+- [x] Runes, Cube Recipes, Crafted Items pages
+- [x] Vendor magicprefix.json + magicsuffix.json; generate data/magic-affixes.json
+- [x] Magic Items / Rare Items category system + pages
+- [x] Full verification + d2r.world spot-check — found/fixed 24 leaked raw property-code labels, added regression test; final whole-branch review clean
+
+## Item Inventory Icons 🔲
+
+_Spec: [docs/superpowers/specs/2026-07-15-item-icons-design.md](../docs/superpowers/specs/2026-07-15-item-icons-design.md) · Plan: [plans/item-icons-implementation.md](./item-icons-implementation.md)_
+
+- [ ] Merge 623 self-extracted `inv*.png` icons (from `add-item-icons` branch) + rewrite provenance README
+- [ ] Render icons in ItemStatCard
+- [ ] Render icons in GrailItemDetail
+- [ ] Full verification + browser spot-check
 
 ## Backlog / Ideas
 
@@ -187,3 +196,4 @@ _Spec: [docs/superpowers/specs/2026-07-15-runes-cube-crafted-design.md](../docs/
 | [unique-set-category-pages-implementation.md](./unique-set-category-pages-implementation.md) | Card-grid landing + real per-category routes for Unique/Set Items, matching d2r.world's actual flow |
 | [base-runewords-maxsockets-implementation.md](./base-runewords-maxsockets-implementation.md) | Base Items comparison tables, Runewords filterable list, generated Max Sockets table |
 | [runes-cube-crafted-magic-rare-implementation.md](./runes-cube-crafted-magic-rare-implementation.md) | Runes, Cube Recipes, Crafted Items, Magic Items, Rare Items — the final 5 Game Items sections |
+| [item-icons-implementation.md](./item-icons-implementation.md) | Render self-extracted item inventory icons on Unique/Set item cards and detail views |
