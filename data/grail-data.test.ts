@@ -194,6 +194,7 @@ describe('runewords-full.json', () => {
 });
 
 import maxSockets from './max-sockets.json';
+import runesData from './runes.json';
 
 describe('max-sockets.json', () => {
   it('has exactly 18 rows', () => {
@@ -232,5 +233,51 @@ describe('getCategoriesForKind', () => {
     const setCategories = getCategoriesForKind('set');
     const expectedOrder = SLOT_ORDER.filter(s => setCategories.includes(s));
     expect(setCategories).toEqual(expectedOrder);
+  });
+});
+
+describe('runes.json', () => {
+  it('has exactly 33 runes in order 1-33', () => {
+    expect(runesData.length).toBe(33);
+    expect(runesData.map(r => r.number)).toEqual(Array.from({ length: 33 }, (_, i) => i + 1));
+    expect(runesData[0].name.en).toBe('El');
+    expect(runesData[32].name.en).toBe('Zod');
+  });
+
+  it('El has the correct weapon/armor-helm/shield stats and no recipe', () => {
+    const el = runesData.find(r => r.name.en === 'El')!;
+    expect(el.levelReq).toBe(11);
+    expect(el.weaponStats.map(s => s.key)).toEqual(['light', 'att']);
+    expect(el.armorHelmStats.map(s => s.key)).toEqual(['light', 'ac']);
+    expect(el.recipe).toBeNull();
+  });
+
+  it('Eld has a simple 3x-previous-rune recipe (no gem)', () => {
+    const eld = runesData.find(r => r.name.en === 'Eld')!;
+    expect(eld.recipe).toEqual({ runeName: 'El', count: 3, gemName: null });
+  });
+
+  it('Amn has a gem-inclusive recipe (the first one)', () => {
+    const amn = runesData.find(r => r.name.en === 'Amn')!;
+    expect(amn.recipe).toEqual({ runeName: 'Thul', count: 3, gemName: 'Chipped Topaz' });
+  });
+
+  it('Um has a 2x-count recipe (the first 2x tier)', () => {
+    const um = runesData.find(r => r.name.en === 'Um')!;
+    expect(um.recipe).toEqual({ runeName: 'Pul', count: 2, gemName: 'Flawed Diamond' });
+  });
+
+  it('every rune has a dropRate with a monster, difficulty, and percent', () => {
+    for (const r of runesData) {
+      expect(r.dropRate.monster.length).toBeGreaterThan(0);
+      expect(['normal', 'nightmare', 'hell']).toContain(r.dropRate.difficulty);
+      expect(r.dropRate.percent).toBeGreaterThan(0);
+    }
+  });
+
+  it('zh-TW names are non-empty for every rune', () => {
+    for (const r of runesData) {
+      expect(r.name['zh-TW']).not.toBe('');
+    }
   });
 });

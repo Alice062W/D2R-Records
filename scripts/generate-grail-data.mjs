@@ -556,3 +556,151 @@ maxSocketsOut.push({
 
 writeFileSync(join(OUT, 'max-sockets.json'), JSON.stringify(maxSocketsOut, null, 2));
 console.log(`Wrote ${maxSocketsOut.length} max-sockets rows -> data/max-sockets.json`);
+
+const gemsData = JSON.parse(readFileSync(join(VENDOR, 'gems.json'), 'utf8'));
+
+// Order and level requirements verified directly against vendor/d2data/json/gems.json
+// this session (each rune's own `name`/mod fields), not hardcoded from memory.
+const RUNE_ORDER = [
+  'El', 'Eld', 'Tir', 'Nef', 'Eth', 'Ith', 'Tal', 'Ral', 'Ort', 'Thul',
+  'Amn', 'Sol', 'Shael', 'Dol', 'Hel', 'Io', 'Lum', 'Ko', 'Fal', 'Lem',
+  'Pul', 'Um', 'Mal', 'Ist', 'Gul', 'Vex', 'Ohm', 'Lo', 'Sur', 'Ber',
+  'Jah', 'Cham', 'Zod',
+];
+
+// Upgrade recipes read directly from cubemain.json's own description field (entries
+// 51-59 and 100-122) rather than assumed from the "always 3x previous" folk rule —
+// the count changes to 2x starting at Um (entry 111), and gem-inclusive recipes start
+// at Amn (entry 100). See Task 3 for cubemain.json's generic recipe parsing; this
+// table is Runes-specific because the Runes page shows the recipe inline per-rune
+// rather than as a separate recipe-list entry.
+const RUNE_RECIPES = {
+  Eld: { runeName: 'El', count: 3, gemName: null },
+  Tir: { runeName: 'Eld', count: 3, gemName: null },
+  Nef: { runeName: 'Tir', count: 3, gemName: null },
+  Eth: { runeName: 'Nef', count: 3, gemName: null },
+  Ith: { runeName: 'Eth', count: 3, gemName: null },
+  Tal: { runeName: 'Ith', count: 3, gemName: null },
+  Ral: { runeName: 'Tal', count: 3, gemName: null },
+  Ort: { runeName: 'Ral', count: 3, gemName: null },
+  Thul: { runeName: 'Ort', count: 3, gemName: null },
+  Amn: { runeName: 'Thul', count: 3, gemName: 'Chipped Topaz' },
+  Sol: { runeName: 'Amn', count: 3, gemName: 'Chipped Amethyst' },
+  Shael: { runeName: 'Sol', count: 3, gemName: 'Chipped Sapphire' },
+  Dol: { runeName: 'Shael', count: 3, gemName: 'Chipped Ruby' },
+  Hel: { runeName: 'Dol', count: 3, gemName: 'Chipped Emerald' },
+  Io: { runeName: 'Hel', count: 3, gemName: 'Chipped Diamond' },
+  Lum: { runeName: 'Io', count: 3, gemName: 'Flawed Topaz' },
+  Ko: { runeName: 'Lum', count: 3, gemName: 'Flawed Amethyst' },
+  Fal: { runeName: 'Ko', count: 3, gemName: 'Flawed Sapphire' },
+  Lem: { runeName: 'Fal', count: 3, gemName: 'Flawed Ruby' },
+  Pul: { runeName: 'Lem', count: 3, gemName: 'Flawed Emerald' },
+  Um: { runeName: 'Pul', count: 2, gemName: 'Flawed Diamond' },
+  Mal: { runeName: 'Um', count: 2, gemName: 'Standard Topaz' },
+  Ist: { runeName: 'Mal', count: 2, gemName: 'Standard Amethyst' },
+  Gul: { runeName: 'Ist', count: 2, gemName: 'Standard Sapphire' },
+  Vex: { runeName: 'Gul', count: 2, gemName: 'Standard Ruby' },
+  Ohm: { runeName: 'Vex', count: 2, gemName: 'Standard Emerald' },
+  Lo: { runeName: 'Ohm', count: 2, gemName: 'Standard Diamond' },
+  Sur: { runeName: 'Lo', count: 2, gemName: 'Flawless Topaz' },
+  Ber: { runeName: 'Sur', count: 2, gemName: 'Flawless Amethyst' },
+  Jah: { runeName: 'Ber', count: 2, gemName: 'Flawless Sapphire' },
+  Cham: { runeName: 'Jah', count: 2, gemName: 'Flawless Ruby' },
+  Zod: { runeName: 'Cham', count: 2, gemName: 'Flawless Emerald' },
+};
+
+// Drop-rate facts (monster, difficulty, percent) hand-transcribed from d2r.world's
+// published Runes page (https://d2r.world/en-US/info/item/runes) per explicit user
+// direction this session: these are deterministic outputs of Blizzard's own
+// treasure-class tables (game-mechanic facts, not creative content), and computing
+// them ourselves would require implementing a full treasure-class probability-cascade
+// engine against treasureclassex.json/tcprecalc.json — out of scope for this pass. If
+// that calculator is ever built, replace this hand-transcribed table with its output.
+const RUNE_DROP_RATES = {
+  El: { monster: 'The Countess', difficulty: 'normal', percent: 4.3 },
+  Eld: { monster: 'The Countess', difficulty: 'normal', percent: 2.87 },
+  Tir: { monster: 'The Countess', difficulty: 'normal', percent: 10.75 },
+  Nef: { monster: 'The Countess', difficulty: 'normal', percent: 7.17 },
+  Eth: { monster: 'The Countess', difficulty: 'normal', percent: 15.05 },
+  Ith: { monster: 'The Countess', difficulty: 'normal', percent: 10.03 },
+  Tal: { monster: 'The Countess', difficulty: 'normal', percent: 21.5 },
+  Ral: { monster: 'The Countess', difficulty: 'normal', percent: 14.33 },
+  Ort: { monster: 'The Countess', difficulty: 'nightmare', percent: 21.5 },
+  Thul: { monster: 'The Countess', difficulty: 'nightmare', percent: 14.33 },
+  Amn: { monster: 'The Countess', difficulty: 'nightmare', percent: 16.61 },
+  Sol: { monster: 'The Countess', difficulty: 'nightmare', percent: 11.08 },
+  Shael: { monster: 'The Countess', difficulty: 'nightmare', percent: 9.97 },
+  Dol: { monster: 'The Countess', difficulty: 'nightmare', percent: 6.65 },
+  Hel: { monster: 'The Countess', difficulty: 'nightmare', percent: 5.54 },
+  Io: { monster: 'The Countess', difficulty: 'nightmare', percent: 3.69 },
+  Lum: { monster: 'The Countess', difficulty: 'hell', percent: 2.92 },
+  Ko: { monster: 'The Countess', difficulty: 'hell', percent: 1.95 },
+  Fal: { monster: 'The Countess', difficulty: 'hell', percent: 1.5 },
+  Lem: { monster: 'The Countess', difficulty: 'hell', percent: 1.0 },
+  Pul: { monster: 'The Countess', difficulty: 'hell', percent: 0.76 },
+  Um: { monster: 'The Countess', difficulty: 'hell', percent: 0.51 },
+  Mal: { monster: 'The Countess', difficulty: 'hell', percent: 0.52 },
+  Ist: { monster: 'The Countess', difficulty: 'hell', percent: 0.35 },
+  Gul: { monster: 'Council Member', difficulty: 'hell', percent: 0.0048 },
+  Vex: { monster: 'Council Member', difficulty: 'hell', percent: 0.0032 },
+  Ohm: { monster: 'Council Member', difficulty: 'hell', percent: 0.0033 },
+  Lo: { monster: 'Council Member', difficulty: 'hell', percent: 0.0022 },
+  Sur: { monster: 'Council Member', difficulty: 'hell', percent: 0.0025 },
+  Ber: { monster: 'Council Member', difficulty: 'hell', percent: 0.0017 },
+  Jah: { monster: 'Council Member', difficulty: 'hell', percent: 0.0018 },
+  Cham: { monster: 'Council Member', difficulty: 'hell', percent: 0.0012 },
+  Zod: { monster: 'Nihlathak', difficulty: 'hell', percent: 0.00047 },
+};
+
+// Rune mod fields in gems.json are named "<prefix><n><suffix>" (e.g.
+// "weaponMod1Code", "weaponMod2Min") — the slot number sits *between* the prefix
+// and the field suffix, unlike the "<prefix><suffix><n>" pattern extractProps()
+// expects elsewhere in this file (e.g. "T1Code1"). So this reuses the same
+// code-alias/localization/key-disambiguation logic as extractProps() but with the
+// slot number in the right place for gems.json's column layout.
+function runeStatsFor(entry, prefix) {
+  const variable = [];
+  const fixed = [];
+  for (let n = 1; n <= 3; n++) {
+    const rawCode = entry[`${prefix}${n}Code`];
+    if (!rawCode) continue;
+    const code = CODE_ALIASES[rawCode] ?? rawCode;
+    const par = entry[`${prefix}${n}Param`];
+    const isSkillRef = SKILL_REF_PROPS.has(code);
+    const label = isSkillRef ? localizedLabelWithSkill(code, par) : localizedLabelFor(code);
+    const needsKeySuffix = (isSkillRef || KEY_ONLY_DISAMBIGUATE_PROPS.has(code)) && par !== undefined;
+    const key = needsKeySuffix ? `${code}:${par}` : code;
+    const min = entry[`${prefix}${n}Min`];
+    const max = entry[`${prefix}${n}Max`];
+    if (min !== undefined && max !== undefined) {
+      if (min === max) fixed.push({ key, label, value: min });
+      else variable.push({ key, label, min, max });
+      continue;
+    }
+    if (par !== undefined) {
+      fixed.push({ key, label, value: par });
+    }
+  }
+  return [...variable, ...fixed.map(f => ({ key: f.key, label: f.label, min: f.value, max: f.value }))];
+}
+
+const runesOut = RUNE_ORDER.map((name, i) => {
+  const entry = Object.values(gemsData).find(v => v.name === `${name} Rune`);
+  // gems.json has no level-requirement field for runes; that lives on the
+  // corresponding items.json entry (matched by rune code, e.g. "r01").
+  const itemEntry = Object.values(items).find(v => v.code === entry.code);
+  return {
+    id: `rune-${entry.code}`,
+    number: i + 1,
+    name: localizedItemName(name),
+    levelReq: itemEntry?.levelreq ?? 0,
+    weaponStats: runeStatsFor(entry, 'weaponMod'),
+    armorHelmStats: runeStatsFor(entry, 'helmMod'),
+    shieldStats: runeStatsFor(entry, 'shieldMod'),
+    recipe: RUNE_RECIPES[name] ?? null,
+    dropRate: RUNE_DROP_RATES[name],
+  };
+});
+
+writeFileSync(join(OUT, 'runes.json'), JSON.stringify(runesOut, null, 2));
+console.log(`Wrote ${runesOut.length} runes -> data/runes.json`);

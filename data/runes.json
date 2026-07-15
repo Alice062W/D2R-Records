@@ -1,0 +1,1896 @@
+[
+  {
+    "id": "rune-r01",
+    "number": 1,
+    "name": {
+      "en": "El",
+      "zh-TW": "El",
+      "zh-CN": "El"
+    },
+    "levelReq": 11,
+    "weaponStats": [
+      {
+        "key": "light",
+        "label": {
+          "en": "Light Radius",
+          "zh-TW": "光環半徑",
+          "zh-CN": "光环半径"
+        },
+        "min": 1,
+        "max": 1
+      },
+      {
+        "key": "att",
+        "label": {
+          "en": "Attack Rating",
+          "zh-TW": "攻擊等級",
+          "zh-CN": "攻击等级"
+        },
+        "min": 50,
+        "max": 50
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "light",
+        "label": {
+          "en": "Light Radius",
+          "zh-TW": "光環半徑",
+          "zh-CN": "光环半径"
+        },
+        "min": 1,
+        "max": 1
+      },
+      {
+        "key": "ac",
+        "label": {
+          "en": "Defense",
+          "zh-TW": "防禦力",
+          "zh-CN": "防御力"
+        },
+        "min": 15,
+        "max": 15
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "light",
+        "label": {
+          "en": "Light Radius",
+          "zh-TW": "光環半徑",
+          "zh-CN": "光环半径"
+        },
+        "min": 1,
+        "max": 1
+      },
+      {
+        "key": "ac",
+        "label": {
+          "en": "Defense",
+          "zh-TW": "防禦力",
+          "zh-CN": "防御力"
+        },
+        "min": 15,
+        "max": 15
+      }
+    ],
+    "recipe": null,
+    "dropRate": {
+      "monster": "The Countess",
+      "difficulty": "normal",
+      "percent": 4.3
+    }
+  },
+  {
+    "id": "rune-r02",
+    "number": 2,
+    "name": {
+      "en": "Eld",
+      "zh-TW": "Eld",
+      "zh-CN": "Eld"
+    },
+    "levelReq": 11,
+    "weaponStats": [
+      {
+        "key": "att-undead",
+        "label": {
+          "en": "att-undead",
+          "zh-TW": "att-undead",
+          "zh-CN": "att-undead"
+        },
+        "min": 50,
+        "max": 50
+      },
+      {
+        "key": "dmg-undead",
+        "label": {
+          "en": "Damage to Undead",
+          "zh-TW": "對不死系傷害",
+          "zh-CN": "对不死系伤害"
+        },
+        "min": 75,
+        "max": 75
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "stamdrain",
+        "label": {
+          "en": "Slower Stamina Drain %",
+          "zh-TW": "減緩耐力消耗 %",
+          "zh-CN": "减缓耐力消耗 %"
+        },
+        "min": 15,
+        "max": 15
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "block",
+        "label": {
+          "en": "Increased Chance of Blocking %",
+          "zh-TW": "格擋機率 %",
+          "zh-CN": "格挡机率 %"
+        },
+        "min": 7,
+        "max": 7
+      }
+    ],
+    "recipe": {
+      "runeName": "El",
+      "count": 3,
+      "gemName": null
+    },
+    "dropRate": {
+      "monster": "The Countess",
+      "difficulty": "normal",
+      "percent": 2.87
+    }
+  },
+  {
+    "id": "rune-r03",
+    "number": 3,
+    "name": {
+      "en": "Tir",
+      "zh-TW": "Tir",
+      "zh-CN": "Tir"
+    },
+    "levelReq": 13,
+    "weaponStats": [
+      {
+        "key": "mana-kill",
+        "label": {
+          "en": "mana-kill",
+          "zh-TW": "mana-kill",
+          "zh-CN": "mana-kill"
+        },
+        "min": 2,
+        "max": 2
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "mana-kill",
+        "label": {
+          "en": "mana-kill",
+          "zh-TW": "mana-kill",
+          "zh-CN": "mana-kill"
+        },
+        "min": 2,
+        "max": 2
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "mana-kill",
+        "label": {
+          "en": "mana-kill",
+          "zh-TW": "mana-kill",
+          "zh-CN": "mana-kill"
+        },
+        "min": 2,
+        "max": 2
+      }
+    ],
+    "recipe": {
+      "runeName": "Eld",
+      "count": 3,
+      "gemName": null
+    },
+    "dropRate": {
+      "monster": "The Countess",
+      "difficulty": "normal",
+      "percent": 10.75
+    }
+  },
+  {
+    "id": "rune-r04",
+    "number": 4,
+    "name": {
+      "en": "Nef",
+      "zh-TW": "Nef",
+      "zh-CN": "Nef"
+    },
+    "levelReq": 13,
+    "weaponStats": [
+      {
+        "key": "knock",
+        "label": {
+          "en": "Knockback",
+          "zh-TW": "擊退",
+          "zh-CN": "击退"
+        },
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "ac-miss",
+        "label": {
+          "en": "Defense vs. Missile",
+          "zh-TW": "對抗遠程攻擊防禦力",
+          "zh-CN": "对抗远程攻击防御力"
+        },
+        "min": 30,
+        "max": 30
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "ac-miss",
+        "label": {
+          "en": "Defense vs. Missile",
+          "zh-TW": "對抗遠程攻擊防禦力",
+          "zh-CN": "对抗远程攻击防御力"
+        },
+        "min": 30,
+        "max": 30
+      }
+    ],
+    "recipe": {
+      "runeName": "Tir",
+      "count": 3,
+      "gemName": null
+    },
+    "dropRate": {
+      "monster": "The Countess",
+      "difficulty": "normal",
+      "percent": 7.17
+    }
+  },
+  {
+    "id": "rune-r05",
+    "number": 5,
+    "name": {
+      "en": "Eth",
+      "zh-TW": "Eth",
+      "zh-CN": "Eth"
+    },
+    "levelReq": 15,
+    "weaponStats": [
+      {
+        "key": "reduce-ac",
+        "label": {
+          "en": "reduce-ac",
+          "zh-TW": "reduce-ac",
+          "zh-CN": "reduce-ac"
+        },
+        "min": 25,
+        "max": 25
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "regen-mana",
+        "label": {
+          "en": "Mana Regenerated %",
+          "zh-TW": "魔力回復 %",
+          "zh-CN": "魔力回复 %"
+        },
+        "min": 15,
+        "max": 15
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "regen-mana",
+        "label": {
+          "en": "Mana Regenerated %",
+          "zh-TW": "魔力回復 %",
+          "zh-CN": "魔力回复 %"
+        },
+        "min": 15,
+        "max": 15
+      }
+    ],
+    "recipe": {
+      "runeName": "Nef",
+      "count": 3,
+      "gemName": null
+    },
+    "dropRate": {
+      "monster": "The Countess",
+      "difficulty": "normal",
+      "percent": 15.05
+    }
+  },
+  {
+    "id": "rune-r06",
+    "number": 6,
+    "name": {
+      "en": "Ith",
+      "zh-TW": "Ith",
+      "zh-CN": "Ith"
+    },
+    "levelReq": 15,
+    "weaponStats": [
+      {
+        "key": "dmg-max",
+        "label": {
+          "en": "Maximum Damage",
+          "zh-TW": "最大傷害",
+          "zh-CN": "最大伤害"
+        },
+        "min": 9,
+        "max": 9
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "dmg-to-mana",
+        "label": {
+          "en": "Damage Taken Goes to Mana",
+          "zh-TW": "承受傷害轉換為魔力",
+          "zh-CN": "承受伤害转换为魔力"
+        },
+        "min": 15,
+        "max": 15
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "dmg-to-mana",
+        "label": {
+          "en": "Damage Taken Goes to Mana",
+          "zh-TW": "承受傷害轉換為魔力",
+          "zh-CN": "承受伤害转换为魔力"
+        },
+        "min": 15,
+        "max": 15
+      }
+    ],
+    "recipe": {
+      "runeName": "Eth",
+      "count": 3,
+      "gemName": null
+    },
+    "dropRate": {
+      "monster": "The Countess",
+      "difficulty": "normal",
+      "percent": 10.03
+    }
+  },
+  {
+    "id": "rune-r07",
+    "number": 7,
+    "name": {
+      "en": "Tal",
+      "zh-TW": "Tal",
+      "zh-CN": "Tal"
+    },
+    "levelReq": 17,
+    "weaponStats": [
+      {
+        "key": "dmg-pois",
+        "label": {
+          "en": "Poison Damage",
+          "zh-TW": "毒素傷害",
+          "zh-CN": "毒素伤害"
+        },
+        "min": 154,
+        "max": 154
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "res-pois",
+        "label": {
+          "en": "Poison Resist %",
+          "zh-TW": "毒素抗性 %",
+          "zh-CN": "毒素抗性 %"
+        },
+        "min": 30,
+        "max": 30
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "res-pois",
+        "label": {
+          "en": "Poison Resist %",
+          "zh-TW": "毒素抗性 %",
+          "zh-CN": "毒素抗性 %"
+        },
+        "min": 35,
+        "max": 35
+      }
+    ],
+    "recipe": {
+      "runeName": "Ith",
+      "count": 3,
+      "gemName": null
+    },
+    "dropRate": {
+      "monster": "The Countess",
+      "difficulty": "normal",
+      "percent": 21.5
+    }
+  },
+  {
+    "id": "rune-r08",
+    "number": 8,
+    "name": {
+      "en": "Ral",
+      "zh-TW": "Ral",
+      "zh-CN": "Ral"
+    },
+    "levelReq": 19,
+    "weaponStats": [
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "min": 5,
+        "max": 30
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "res-fire",
+        "label": {
+          "en": "Fire Resist %",
+          "zh-TW": "火焰抗性 %",
+          "zh-CN": "火焰抗性 %"
+        },
+        "min": 30,
+        "max": 30
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "res-fire",
+        "label": {
+          "en": "Fire Resist %",
+          "zh-TW": "火焰抗性 %",
+          "zh-CN": "火焰抗性 %"
+        },
+        "min": 35,
+        "max": 35
+      }
+    ],
+    "recipe": {
+      "runeName": "Tal",
+      "count": 3,
+      "gemName": null
+    },
+    "dropRate": {
+      "monster": "The Countess",
+      "difficulty": "normal",
+      "percent": 14.33
+    }
+  },
+  {
+    "id": "rune-r09",
+    "number": 9,
+    "name": {
+      "en": "Ort",
+      "zh-TW": "Ort",
+      "zh-CN": "Ort"
+    },
+    "levelReq": 21,
+    "weaponStats": [
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "min": 1,
+        "max": 50
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "res-ltng",
+        "label": {
+          "en": "Lightning Resist %",
+          "zh-TW": "閃電抗性 %",
+          "zh-CN": "闪电抗性 %"
+        },
+        "min": 30,
+        "max": 30
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "res-ltng",
+        "label": {
+          "en": "Lightning Resist %",
+          "zh-TW": "閃電抗性 %",
+          "zh-CN": "闪电抗性 %"
+        },
+        "min": 35,
+        "max": 35
+      }
+    ],
+    "recipe": {
+      "runeName": "Ral",
+      "count": 3,
+      "gemName": null
+    },
+    "dropRate": {
+      "monster": "The Countess",
+      "difficulty": "nightmare",
+      "percent": 21.5
+    }
+  },
+  {
+    "id": "rune-r10",
+    "number": 10,
+    "name": {
+      "en": "Thul",
+      "zh-TW": "Thul",
+      "zh-CN": "Thul"
+    },
+    "levelReq": 23,
+    "weaponStats": [
+      {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
+        },
+        "min": 3,
+        "max": 14
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "res-cold",
+        "label": {
+          "en": "Cold Resist %",
+          "zh-TW": "冷凍抗性 %",
+          "zh-CN": "冷冻抗性 %"
+        },
+        "min": 30,
+        "max": 30
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "res-cold",
+        "label": {
+          "en": "Cold Resist %",
+          "zh-TW": "冷凍抗性 %",
+          "zh-CN": "冷冻抗性 %"
+        },
+        "min": 35,
+        "max": 35
+      }
+    ],
+    "recipe": {
+      "runeName": "Ort",
+      "count": 3,
+      "gemName": null
+    },
+    "dropRate": {
+      "monster": "The Countess",
+      "difficulty": "nightmare",
+      "percent": 14.33
+    }
+  },
+  {
+    "id": "rune-r11",
+    "number": 11,
+    "name": {
+      "en": "Amn",
+      "zh-TW": "Amn",
+      "zh-CN": "Amn"
+    },
+    "levelReq": 25,
+    "weaponStats": [
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "min": 7,
+        "max": 7
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "thorns",
+        "label": {
+          "en": "Attacker Takes Damage",
+          "zh-TW": "攻擊者承受傷害",
+          "zh-CN": "攻击者承受伤害"
+        },
+        "min": 14,
+        "max": 14
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "thorns",
+        "label": {
+          "en": "Attacker Takes Damage",
+          "zh-TW": "攻擊者承受傷害",
+          "zh-CN": "攻击者承受伤害"
+        },
+        "min": 14,
+        "max": 14
+      }
+    ],
+    "recipe": {
+      "runeName": "Thul",
+      "count": 3,
+      "gemName": "Chipped Topaz"
+    },
+    "dropRate": {
+      "monster": "The Countess",
+      "difficulty": "nightmare",
+      "percent": 16.61
+    }
+  },
+  {
+    "id": "rune-r12",
+    "number": 12,
+    "name": {
+      "en": "Sol",
+      "zh-TW": "Sol",
+      "zh-CN": "Sol"
+    },
+    "levelReq": 27,
+    "weaponStats": [
+      {
+        "key": "dmg-min",
+        "label": {
+          "en": "Minimum Damage",
+          "zh-TW": "最小傷害",
+          "zh-CN": "最小伤害"
+        },
+        "min": 9,
+        "max": 9
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "red-dmg",
+        "label": {
+          "en": "Damage Reduced",
+          "zh-TW": "減少傷害",
+          "zh-CN": "减少伤害"
+        },
+        "min": 7,
+        "max": 7
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "red-dmg",
+        "label": {
+          "en": "Damage Reduced",
+          "zh-TW": "減少傷害",
+          "zh-CN": "减少伤害"
+        },
+        "min": 7,
+        "max": 7
+      }
+    ],
+    "recipe": {
+      "runeName": "Amn",
+      "count": 3,
+      "gemName": "Chipped Amethyst"
+    },
+    "dropRate": {
+      "monster": "The Countess",
+      "difficulty": "nightmare",
+      "percent": 11.08
+    }
+  },
+  {
+    "id": "rune-r13",
+    "number": 13,
+    "name": {
+      "en": "Shael",
+      "zh-TW": "Shael",
+      "zh-CN": "Shael"
+    },
+    "levelReq": 29,
+    "weaponStats": [
+      {
+        "key": "swing2",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "min": 20,
+        "max": 20
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "balance2",
+        "label": {
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
+        },
+        "min": 20,
+        "max": 20
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "block2",
+        "label": {
+          "en": "Faster Block Rate",
+          "zh-TW": "加快格擋速度",
+          "zh-CN": "加快格挡速度"
+        },
+        "min": 20,
+        "max": 20
+      }
+    ],
+    "recipe": {
+      "runeName": "Sol",
+      "count": 3,
+      "gemName": "Chipped Sapphire"
+    },
+    "dropRate": {
+      "monster": "The Countess",
+      "difficulty": "nightmare",
+      "percent": 9.97
+    }
+  },
+  {
+    "id": "rune-r14",
+    "number": 14,
+    "name": {
+      "en": "Dol",
+      "zh-TW": "Dol",
+      "zh-CN": "Dol"
+    },
+    "levelReq": 31,
+    "weaponStats": [
+      {
+        "key": "howl",
+        "label": {
+          "en": "howl",
+          "zh-TW": "howl",
+          "zh-CN": "howl"
+        },
+        "min": 32,
+        "max": 32
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "regen",
+        "label": {
+          "en": "Life Regenerated %",
+          "zh-TW": "生命回復 %",
+          "zh-CN": "生命回复 %"
+        },
+        "min": 7,
+        "max": 7
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "regen",
+        "label": {
+          "en": "Life Regenerated %",
+          "zh-TW": "生命回復 %",
+          "zh-CN": "生命回复 %"
+        },
+        "min": 7,
+        "max": 7
+      }
+    ],
+    "recipe": {
+      "runeName": "Shael",
+      "count": 3,
+      "gemName": "Chipped Ruby"
+    },
+    "dropRate": {
+      "monster": "The Countess",
+      "difficulty": "nightmare",
+      "percent": 6.65
+    }
+  },
+  {
+    "id": "rune-r15",
+    "number": 15,
+    "name": {
+      "en": "Hel",
+      "zh-TW": "Hel",
+      "zh-CN": "Hel"
+    },
+    "levelReq": 0,
+    "weaponStats": [
+      {
+        "key": "ease",
+        "label": {
+          "en": "Requirements %",
+          "zh-TW": "需求 %",
+          "zh-CN": "需求 %"
+        },
+        "min": -20,
+        "max": -20
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "ease",
+        "label": {
+          "en": "Requirements %",
+          "zh-TW": "需求 %",
+          "zh-CN": "需求 %"
+        },
+        "min": -15,
+        "max": -15
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "ease",
+        "label": {
+          "en": "Requirements %",
+          "zh-TW": "需求 %",
+          "zh-CN": "需求 %"
+        },
+        "min": -15,
+        "max": -15
+      }
+    ],
+    "recipe": {
+      "runeName": "Dol",
+      "count": 3,
+      "gemName": "Chipped Emerald"
+    },
+    "dropRate": {
+      "monster": "The Countess",
+      "difficulty": "nightmare",
+      "percent": 5.54
+    }
+  },
+  {
+    "id": "rune-r16",
+    "number": 16,
+    "name": {
+      "en": "Io",
+      "zh-TW": "Io",
+      "zh-CN": "Io"
+    },
+    "levelReq": 35,
+    "weaponStats": [
+      {
+        "key": "vit",
+        "label": {
+          "en": "Vitality",
+          "zh-TW": "活力",
+          "zh-CN": "活力"
+        },
+        "min": 10,
+        "max": 10
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "vit",
+        "label": {
+          "en": "Vitality",
+          "zh-TW": "活力",
+          "zh-CN": "活力"
+        },
+        "min": 10,
+        "max": 10
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "vit",
+        "label": {
+          "en": "Vitality",
+          "zh-TW": "活力",
+          "zh-CN": "活力"
+        },
+        "min": 10,
+        "max": 10
+      }
+    ],
+    "recipe": {
+      "runeName": "Hel",
+      "count": 3,
+      "gemName": "Chipped Diamond"
+    },
+    "dropRate": {
+      "monster": "The Countess",
+      "difficulty": "nightmare",
+      "percent": 3.69
+    }
+  },
+  {
+    "id": "rune-r17",
+    "number": 17,
+    "name": {
+      "en": "Lum",
+      "zh-TW": "Lum",
+      "zh-CN": "Lum"
+    },
+    "levelReq": 37,
+    "weaponStats": [
+      {
+        "key": "enr",
+        "label": {
+          "en": "Energy",
+          "zh-TW": "精力",
+          "zh-CN": "精力"
+        },
+        "min": 10,
+        "max": 10
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "enr",
+        "label": {
+          "en": "Energy",
+          "zh-TW": "精力",
+          "zh-CN": "精力"
+        },
+        "min": 10,
+        "max": 10
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "enr",
+        "label": {
+          "en": "Energy",
+          "zh-TW": "精力",
+          "zh-CN": "精力"
+        },
+        "min": 10,
+        "max": 10
+      }
+    ],
+    "recipe": {
+      "runeName": "Io",
+      "count": 3,
+      "gemName": "Flawed Topaz"
+    },
+    "dropRate": {
+      "monster": "The Countess",
+      "difficulty": "hell",
+      "percent": 2.92
+    }
+  },
+  {
+    "id": "rune-r18",
+    "number": 18,
+    "name": {
+      "en": "Ko",
+      "zh-TW": "Ko",
+      "zh-CN": "Ko"
+    },
+    "levelReq": 39,
+    "weaponStats": [
+      {
+        "key": "dex",
+        "label": {
+          "en": "Dexterity",
+          "zh-TW": "敏捷",
+          "zh-CN": "敏捷"
+        },
+        "min": 10,
+        "max": 10
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "dex",
+        "label": {
+          "en": "Dexterity",
+          "zh-TW": "敏捷",
+          "zh-CN": "敏捷"
+        },
+        "min": 10,
+        "max": 10
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "dex",
+        "label": {
+          "en": "Dexterity",
+          "zh-TW": "敏捷",
+          "zh-CN": "敏捷"
+        },
+        "min": 10,
+        "max": 10
+      }
+    ],
+    "recipe": {
+      "runeName": "Lum",
+      "count": 3,
+      "gemName": "Flawed Amethyst"
+    },
+    "dropRate": {
+      "monster": "The Countess",
+      "difficulty": "hell",
+      "percent": 1.95
+    }
+  },
+  {
+    "id": "rune-r19",
+    "number": 19,
+    "name": {
+      "en": "Fal",
+      "zh-TW": "Fal",
+      "zh-CN": "Fal"
+    },
+    "levelReq": 41,
+    "weaponStats": [
+      {
+        "key": "str",
+        "label": {
+          "en": "Strength",
+          "zh-TW": "力量",
+          "zh-CN": "力量"
+        },
+        "min": 10,
+        "max": 10
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "str",
+        "label": {
+          "en": "Strength",
+          "zh-TW": "力量",
+          "zh-CN": "力量"
+        },
+        "min": 10,
+        "max": 10
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "str",
+        "label": {
+          "en": "Strength",
+          "zh-TW": "力量",
+          "zh-CN": "力量"
+        },
+        "min": 10,
+        "max": 10
+      }
+    ],
+    "recipe": {
+      "runeName": "Ko",
+      "count": 3,
+      "gemName": "Flawed Sapphire"
+    },
+    "dropRate": {
+      "monster": "The Countess",
+      "difficulty": "hell",
+      "percent": 1.5
+    }
+  },
+  {
+    "id": "rune-r20",
+    "number": 20,
+    "name": {
+      "en": "Lem",
+      "zh-TW": "Lem",
+      "zh-CN": "Lem"
+    },
+    "levelReq": 43,
+    "weaponStats": [
+      {
+        "key": "gold%",
+        "label": {
+          "en": "Gold Find %",
+          "zh-TW": "額外金幣拾取率 %",
+          "zh-CN": "额外金币拾取率 %"
+        },
+        "min": 75,
+        "max": 75
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "gold%",
+        "label": {
+          "en": "Gold Find %",
+          "zh-TW": "額外金幣拾取率 %",
+          "zh-CN": "额外金币拾取率 %"
+        },
+        "min": 50,
+        "max": 50
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "gold%",
+        "label": {
+          "en": "Gold Find %",
+          "zh-TW": "額外金幣拾取率 %",
+          "zh-CN": "额外金币拾取率 %"
+        },
+        "min": 50,
+        "max": 50
+      }
+    ],
+    "recipe": {
+      "runeName": "Fal",
+      "count": 3,
+      "gemName": "Flawed Ruby"
+    },
+    "dropRate": {
+      "monster": "The Countess",
+      "difficulty": "hell",
+      "percent": 1
+    }
+  },
+  {
+    "id": "rune-r21",
+    "number": 21,
+    "name": {
+      "en": "Pul",
+      "zh-TW": "Pul",
+      "zh-CN": "Pul"
+    },
+    "levelReq": 45,
+    "weaponStats": [
+      {
+        "key": "att-demon",
+        "label": {
+          "en": "att-demon",
+          "zh-TW": "att-demon",
+          "zh-CN": "att-demon"
+        },
+        "min": 100,
+        "max": 100
+      },
+      {
+        "key": "dmg-demon",
+        "label": {
+          "en": "dmg-demon",
+          "zh-TW": "dmg-demon",
+          "zh-CN": "dmg-demon"
+        },
+        "min": 75,
+        "max": 75
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
+        },
+        "min": 30,
+        "max": 30
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
+        },
+        "min": 30,
+        "max": 30
+      }
+    ],
+    "recipe": {
+      "runeName": "Lem",
+      "count": 3,
+      "gemName": "Flawed Emerald"
+    },
+    "dropRate": {
+      "monster": "The Countess",
+      "difficulty": "hell",
+      "percent": 0.76
+    }
+  },
+  {
+    "id": "rune-r22",
+    "number": 22,
+    "name": {
+      "en": "Um",
+      "zh-TW": "Um",
+      "zh-CN": "Um"
+    },
+    "levelReq": 47,
+    "weaponStats": [
+      {
+        "key": "openwounds",
+        "label": {
+          "en": "Open Wounds %",
+          "zh-TW": "撕裂傷口 %",
+          "zh-CN": "撕裂伤口 %"
+        },
+        "min": 25,
+        "max": 25
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 15,
+        "max": 15
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 22,
+        "max": 22
+      }
+    ],
+    "recipe": {
+      "runeName": "Pul",
+      "count": 2,
+      "gemName": "Flawed Diamond"
+    },
+    "dropRate": {
+      "monster": "The Countess",
+      "difficulty": "hell",
+      "percent": 0.51
+    }
+  },
+  {
+    "id": "rune-r23",
+    "number": 23,
+    "name": {
+      "en": "Mal",
+      "zh-TW": "Mal",
+      "zh-CN": "Mal"
+    },
+    "levelReq": 49,
+    "weaponStats": [
+      {
+        "key": "noheal",
+        "label": {
+          "en": "noheal",
+          "zh-TW": "noheal",
+          "zh-CN": "noheal"
+        },
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "red-mag",
+        "label": {
+          "en": "Magic Damage Reduced",
+          "zh-TW": "減少魔法傷害",
+          "zh-CN": "减少魔法伤害"
+        },
+        "min": 7,
+        "max": 7
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "red-mag",
+        "label": {
+          "en": "Magic Damage Reduced",
+          "zh-TW": "減少魔法傷害",
+          "zh-CN": "减少魔法伤害"
+        },
+        "min": 7,
+        "max": 7
+      }
+    ],
+    "recipe": {
+      "runeName": "Um",
+      "count": 2,
+      "gemName": "Standard Topaz"
+    },
+    "dropRate": {
+      "monster": "The Countess",
+      "difficulty": "hell",
+      "percent": 0.52
+    }
+  },
+  {
+    "id": "rune-r24",
+    "number": 24,
+    "name": {
+      "en": "Ist",
+      "zh-TW": "Ist",
+      "zh-CN": "Ist"
+    },
+    "levelReq": 51,
+    "weaponStats": [
+      {
+        "key": "mag%",
+        "label": {
+          "en": "Magic Find %",
+          "zh-TW": "額外魔法物品尋獲率 %",
+          "zh-CN": "额外魔法物品寻获率 %"
+        },
+        "min": 30,
+        "max": 30
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "mag%",
+        "label": {
+          "en": "Magic Find %",
+          "zh-TW": "額外魔法物品尋獲率 %",
+          "zh-CN": "额外魔法物品寻获率 %"
+        },
+        "min": 25,
+        "max": 25
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "mag%",
+        "label": {
+          "en": "Magic Find %",
+          "zh-TW": "額外魔法物品尋獲率 %",
+          "zh-CN": "额外魔法物品寻获率 %"
+        },
+        "min": 25,
+        "max": 25
+      }
+    ],
+    "recipe": {
+      "runeName": "Mal",
+      "count": 2,
+      "gemName": "Standard Amethyst"
+    },
+    "dropRate": {
+      "monster": "The Countess",
+      "difficulty": "hell",
+      "percent": 0.35
+    }
+  },
+  {
+    "id": "rune-r25",
+    "number": 25,
+    "name": {
+      "en": "Gul",
+      "zh-TW": "Gul",
+      "zh-CN": "Gul"
+    },
+    "levelReq": 53,
+    "weaponStats": [
+      {
+        "key": "att%",
+        "label": {
+          "en": "Attack Rating %",
+          "zh-TW": "攻擊等級 %",
+          "zh-CN": "攻击等级 %"
+        },
+        "min": 20,
+        "max": 20
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "res-pois-max",
+        "label": {
+          "en": "res-pois-max",
+          "zh-TW": "res-pois-max",
+          "zh-CN": "res-pois-max"
+        },
+        "min": 5,
+        "max": 5
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "res-pois-max",
+        "label": {
+          "en": "res-pois-max",
+          "zh-TW": "res-pois-max",
+          "zh-CN": "res-pois-max"
+        },
+        "min": 5,
+        "max": 5
+      }
+    ],
+    "recipe": {
+      "runeName": "Ist",
+      "count": 2,
+      "gemName": "Standard Sapphire"
+    },
+    "dropRate": {
+      "monster": "Council Member",
+      "difficulty": "hell",
+      "percent": 0.0048
+    }
+  },
+  {
+    "id": "rune-r26",
+    "number": 26,
+    "name": {
+      "en": "Vex",
+      "zh-TW": "Vex",
+      "zh-CN": "Vex"
+    },
+    "levelReq": 55,
+    "weaponStats": [
+      {
+        "key": "manasteal",
+        "label": {
+          "en": "Mana Steal %",
+          "zh-TW": "魔力竊取 %",
+          "zh-CN": "魔力窃取 %"
+        },
+        "min": 7,
+        "max": 7
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "res-fire-max",
+        "label": {
+          "en": "res-fire-max",
+          "zh-TW": "res-fire-max",
+          "zh-CN": "res-fire-max"
+        },
+        "min": 5,
+        "max": 5
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "res-fire-max",
+        "label": {
+          "en": "res-fire-max",
+          "zh-TW": "res-fire-max",
+          "zh-CN": "res-fire-max"
+        },
+        "min": 5,
+        "max": 5
+      }
+    ],
+    "recipe": {
+      "runeName": "Gul",
+      "count": 2,
+      "gemName": "Standard Ruby"
+    },
+    "dropRate": {
+      "monster": "Council Member",
+      "difficulty": "hell",
+      "percent": 0.0032
+    }
+  },
+  {
+    "id": "rune-r27",
+    "number": 27,
+    "name": {
+      "en": "Ohm",
+      "zh-TW": "Ohm",
+      "zh-CN": "Ohm"
+    },
+    "levelReq": 57,
+    "weaponStats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 50,
+        "max": 50
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "res-cold-max",
+        "label": {
+          "en": "res-cold-max",
+          "zh-TW": "res-cold-max",
+          "zh-CN": "res-cold-max"
+        },
+        "min": 5,
+        "max": 5
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "res-cold-max",
+        "label": {
+          "en": "res-cold-max",
+          "zh-TW": "res-cold-max",
+          "zh-CN": "res-cold-max"
+        },
+        "min": 5,
+        "max": 5
+      }
+    ],
+    "recipe": {
+      "runeName": "Vex",
+      "count": 2,
+      "gemName": "Standard Emerald"
+    },
+    "dropRate": {
+      "monster": "Council Member",
+      "difficulty": "hell",
+      "percent": 0.0033
+    }
+  },
+  {
+    "id": "rune-r28",
+    "number": 28,
+    "name": {
+      "en": "Lo",
+      "zh-TW": "Lo",
+      "zh-CN": "Lo"
+    },
+    "levelReq": 59,
+    "weaponStats": [
+      {
+        "key": "deadly",
+        "label": {
+          "en": "Deadly Strike %",
+          "zh-TW": "致命一擊 %",
+          "zh-CN": "致命一击 %"
+        },
+        "min": 20,
+        "max": 20
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "res-ltng-max",
+        "label": {
+          "en": "res-ltng-max",
+          "zh-TW": "res-ltng-max",
+          "zh-CN": "res-ltng-max"
+        },
+        "min": 5,
+        "max": 5
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "res-ltng-max",
+        "label": {
+          "en": "res-ltng-max",
+          "zh-TW": "res-ltng-max",
+          "zh-CN": "res-ltng-max"
+        },
+        "min": 5,
+        "max": 5
+      }
+    ],
+    "recipe": {
+      "runeName": "Ohm",
+      "count": 2,
+      "gemName": "Standard Diamond"
+    },
+    "dropRate": {
+      "monster": "Council Member",
+      "difficulty": "hell",
+      "percent": 0.0022
+    }
+  },
+  {
+    "id": "rune-r29",
+    "number": 29,
+    "name": {
+      "en": "Sur",
+      "zh-TW": "Sur",
+      "zh-CN": "Sur"
+    },
+    "levelReq": 61,
+    "weaponStats": [
+      {
+        "key": "stupidity",
+        "label": {
+          "en": "stupidity",
+          "zh-TW": "stupidity",
+          "zh-CN": "stupidity"
+        },
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "mana%",
+        "label": {
+          "en": "Increase Maximum Mana %",
+          "zh-TW": "增加最大魔力值 %",
+          "zh-CN": "增加最大魔力值 %"
+        },
+        "min": 5,
+        "max": 5
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "mana",
+        "label": {
+          "en": "Mana",
+          "zh-TW": "魔力值",
+          "zh-CN": "魔力值"
+        },
+        "min": 50,
+        "max": 50
+      }
+    ],
+    "recipe": {
+      "runeName": "Lo",
+      "count": 2,
+      "gemName": "Flawless Topaz"
+    },
+    "dropRate": {
+      "monster": "Council Member",
+      "difficulty": "hell",
+      "percent": 0.0025
+    }
+  },
+  {
+    "id": "rune-r30",
+    "number": 30,
+    "name": {
+      "en": "Ber",
+      "zh-TW": "Ber",
+      "zh-CN": "Ber"
+    },
+    "levelReq": 63,
+    "weaponStats": [
+      {
+        "key": "crush",
+        "label": {
+          "en": "Crushing Blow %",
+          "zh-TW": "破碎打擊 %",
+          "zh-CN": "破碎打击 %"
+        },
+        "min": 20,
+        "max": 20
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "red-dmg%",
+        "label": {
+          "en": "Damage Reduced %",
+          "zh-TW": "減少傷害 %",
+          "zh-CN": "减少伤害 %"
+        },
+        "min": 8,
+        "max": 8
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "red-dmg%",
+        "label": {
+          "en": "Damage Reduced %",
+          "zh-TW": "減少傷害 %",
+          "zh-CN": "减少伤害 %"
+        },
+        "min": 8,
+        "max": 8
+      }
+    ],
+    "recipe": {
+      "runeName": "Sur",
+      "count": 2,
+      "gemName": "Flawless Amethyst"
+    },
+    "dropRate": {
+      "monster": "Council Member",
+      "difficulty": "hell",
+      "percent": 0.0017
+    }
+  },
+  {
+    "id": "rune-r31",
+    "number": 31,
+    "name": {
+      "en": "Jah",
+      "zh-TW": "Jah",
+      "zh-CN": "Jah"
+    },
+    "levelReq": 65,
+    "weaponStats": [
+      {
+        "key": "ignore-ac",
+        "label": {
+          "en": "Ignore Target Defense",
+          "zh-TW": "無視目標防禦力",
+          "zh-CN": "无视目标防御力"
+        },
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "hp%",
+        "label": {
+          "en": "Increase Maximum Life %",
+          "zh-TW": "增加最大生命值 %",
+          "zh-CN": "增加最大生命值 %"
+        },
+        "min": 5,
+        "max": 5
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "hp",
+        "label": {
+          "en": "Life",
+          "zh-TW": "生命值",
+          "zh-CN": "生命值"
+        },
+        "min": 50,
+        "max": 50
+      }
+    ],
+    "recipe": {
+      "runeName": "Ber",
+      "count": 2,
+      "gemName": "Flawless Sapphire"
+    },
+    "dropRate": {
+      "monster": "Council Member",
+      "difficulty": "hell",
+      "percent": 0.0018
+    }
+  },
+  {
+    "id": "rune-r32",
+    "number": 32,
+    "name": {
+      "en": "Cham",
+      "zh-TW": "Cham",
+      "zh-CN": "Cham"
+    },
+    "levelReq": 67,
+    "weaponStats": [
+      {
+        "key": "freeze",
+        "label": {
+          "en": "freeze",
+          "zh-TW": "freeze",
+          "zh-CN": "freeze"
+        },
+        "min": 3,
+        "max": 3
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "nofreeze",
+        "label": {
+          "en": "nofreeze",
+          "zh-TW": "nofreeze",
+          "zh-CN": "nofreeze"
+        },
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "nofreeze",
+        "label": {
+          "en": "nofreeze",
+          "zh-TW": "nofreeze",
+          "zh-CN": "nofreeze"
+        },
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "recipe": {
+      "runeName": "Jah",
+      "count": 2,
+      "gemName": "Flawless Ruby"
+    },
+    "dropRate": {
+      "monster": "Council Member",
+      "difficulty": "hell",
+      "percent": 0.0012
+    }
+  },
+  {
+    "id": "rune-r33",
+    "number": 33,
+    "name": {
+      "en": "Zod",
+      "zh-TW": "Zod",
+      "zh-CN": "Zod"
+    },
+    "levelReq": 69,
+    "weaponStats": [
+      {
+        "key": "indestruct",
+        "label": {
+          "en": "Indestructible",
+          "zh-TW": "不可破壞",
+          "zh-CN": "不可破坏"
+        },
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "armorHelmStats": [
+      {
+        "key": "indestruct",
+        "label": {
+          "en": "Indestructible",
+          "zh-TW": "不可破壞",
+          "zh-CN": "不可破坏"
+        },
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "shieldStats": [
+      {
+        "key": "indestruct",
+        "label": {
+          "en": "Indestructible",
+          "zh-TW": "不可破壞",
+          "zh-CN": "不可破坏"
+        },
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "recipe": {
+      "runeName": "Cham",
+      "count": 2,
+      "gemName": "Flawless Emerald"
+    },
+    "dropRate": {
+      "monster": "Nihlathak",
+      "difficulty": "hell",
+      "percent": 0.00047
+    }
+  }
+]
