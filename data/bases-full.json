@@ -2,6 +2,7 @@
   {
     "id": "base-hax",
     "slotCategory": "axes",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -62,6 +63,7 @@
   {
     "id": "base-axe",
     "slotCategory": "axes",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -122,6 +124,7 @@
   {
     "id": "base-2ax",
     "slotCategory": "axes",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -182,6 +185,7 @@
   {
     "id": "base-mpi",
     "slotCategory": "axes",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -242,6 +246,7 @@
   {
     "id": "base-wax",
     "slotCategory": "axes",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -302,6 +307,7 @@
   {
     "id": "base-lax",
     "slotCategory": "axes",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -362,6 +368,7 @@
   {
     "id": "base-bax",
     "slotCategory": "axes",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -422,6 +429,7 @@
   {
     "id": "base-btx",
     "slotCategory": "axes",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -482,6 +490,7 @@
   {
     "id": "base-gax",
     "slotCategory": "axes",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -542,6 +551,7 @@
   {
     "id": "base-gix",
     "slotCategory": "axes",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -602,6 +612,7 @@
   {
     "id": "base-wnd",
     "slotCategory": "wands",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -662,6 +673,7 @@
   {
     "id": "base-ywn",
     "slotCategory": "wands",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -722,6 +734,7 @@
   {
     "id": "base-bwn",
     "slotCategory": "wands",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -782,6 +795,7 @@
   {
     "id": "base-gwn",
     "slotCategory": "wands",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -842,6 +856,7 @@
   {
     "id": "base-clb",
     "slotCategory": "clubs",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -902,6 +917,7 @@
   {
     "id": "base-scp",
     "slotCategory": "scepters",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -962,6 +978,7 @@
   {
     "id": "base-gsc",
     "slotCategory": "scepters",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -1022,6 +1039,7 @@
   {
     "id": "base-wsp",
     "slotCategory": "scepters",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -1082,6 +1100,7 @@
   {
     "id": "base-spc",
     "slotCategory": "clubs",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -1142,6 +1161,7 @@
   {
     "id": "base-mac",
     "slotCategory": "maces",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -1202,6 +1222,7 @@
   {
     "id": "base-mst",
     "slotCategory": "maces",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -1262,6 +1283,7 @@
   {
     "id": "base-fla",
     "slotCategory": "maces",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -1322,6 +1344,7 @@
   {
     "id": "base-whm",
     "slotCategory": "hammers",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -1382,6 +1405,7 @@
   {
     "id": "base-mau",
     "slotCategory": "hammers",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -1442,6 +1466,7 @@
   {
     "id": "base-gma",
     "slotCategory": "hammers",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -1502,6 +1527,7 @@
   {
     "id": "base-ssd",
     "slotCategory": "swords",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -1562,6 +1588,7 @@
   {
     "id": "base-scm",
     "slotCategory": "swords",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -1622,6 +1649,7 @@
   {
     "id": "base-sbr",
     "slotCategory": "swords",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -1682,6 +1710,7 @@
   {
     "id": "base-flc",
     "slotCategory": "swords",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -1742,6 +1771,7 @@
   {
     "id": "base-crs",
     "slotCategory": "swords",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -1802,6 +1832,7 @@
   {
     "id": "base-bsd",
     "slotCategory": "swords",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -1862,6 +1893,7 @@
   {
     "id": "base-lsd",
     "slotCategory": "swords",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -1922,6 +1954,7 @@
   {
     "id": "base-wsd",
     "slotCategory": "swords",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -1982,6 +2015,7 @@
   {
     "id": "base-2hs",
     "slotCategory": "swords",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -2051,6 +2085,7 @@
   {
     "id": "base-clm",
     "slotCategory": "swords",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -2120,6 +2155,7 @@
   {
     "id": "base-gis",
     "slotCategory": "swords",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -2189,6 +2225,7 @@
   {
     "id": "base-bsw",
     "slotCategory": "swords",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -2258,6 +2295,7 @@
   {
     "id": "base-flb",
     "slotCategory": "swords",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -2327,6 +2365,7 @@
   {
     "id": "base-gsd",
     "slotCategory": "swords",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -2396,6 +2435,7 @@
   {
     "id": "base-dgr",
     "slotCategory": "daggers",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -2456,6 +2496,7 @@
   {
     "id": "base-dir",
     "slotCategory": "daggers",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -2516,6 +2557,7 @@
   {
     "id": "base-kri",
     "slotCategory": "daggers",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -2576,6 +2618,7 @@
   {
     "id": "base-bld",
     "slotCategory": "daggers",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -2636,6 +2679,7 @@
   {
     "id": "base-tkf",
     "slotCategory": "throwings",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -2696,6 +2740,7 @@
   {
     "id": "base-tax",
     "slotCategory": "throwings",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -2756,6 +2801,7 @@
   {
     "id": "base-bkf",
     "slotCategory": "throwings",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -2816,6 +2862,7 @@
   {
     "id": "base-bal",
     "slotCategory": "throwings",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -2876,6 +2923,7 @@
   {
     "id": "base-jav",
     "slotCategory": "javelins",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -2936,6 +2984,7 @@
   {
     "id": "base-pil",
     "slotCategory": "javelins",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -2996,6 +3045,7 @@
   {
     "id": "base-ssp",
     "slotCategory": "javelins",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -3056,6 +3106,7 @@
   {
     "id": "base-glv",
     "slotCategory": "javelins",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -3116,6 +3167,7 @@
   {
     "id": "base-tsp",
     "slotCategory": "javelins",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -3176,6 +3228,7 @@
   {
     "id": "base-spr",
     "slotCategory": "spears",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -3236,6 +3289,7 @@
   {
     "id": "base-tri",
     "slotCategory": "spears",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -3296,6 +3350,7 @@
   {
     "id": "base-brn",
     "slotCategory": "spears",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -3356,6 +3411,7 @@
   {
     "id": "base-spt",
     "slotCategory": "spears",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -3416,6 +3472,7 @@
   {
     "id": "base-pik",
     "slotCategory": "spears",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -3476,6 +3533,7 @@
   {
     "id": "base-bar",
     "slotCategory": "polearms",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -3536,6 +3594,7 @@
   {
     "id": "base-vou",
     "slotCategory": "polearms",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -3596,6 +3655,7 @@
   {
     "id": "base-scy",
     "slotCategory": "polearms",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -3656,6 +3716,7 @@
   {
     "id": "base-pax",
     "slotCategory": "polearms",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -3716,6 +3777,7 @@
   {
     "id": "base-hal",
     "slotCategory": "polearms",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -3776,6 +3838,7 @@
   {
     "id": "base-wsc",
     "slotCategory": "polearms",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -3836,6 +3899,7 @@
   {
     "id": "base-sst",
     "slotCategory": "staves",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -3896,6 +3960,7 @@
   {
     "id": "base-lst",
     "slotCategory": "staves",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -3956,6 +4021,7 @@
   {
     "id": "base-cst",
     "slotCategory": "staves",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -4016,6 +4082,7 @@
   {
     "id": "base-bst",
     "slotCategory": "staves",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -4076,6 +4143,7 @@
   {
     "id": "base-wst",
     "slotCategory": "staves",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -4136,6 +4204,7 @@
   {
     "id": "base-sbw",
     "slotCategory": "bows",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -4196,6 +4265,7 @@
   {
     "id": "base-hbw",
     "slotCategory": "bows",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -4256,6 +4326,7 @@
   {
     "id": "base-lbw",
     "slotCategory": "bows",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -4316,6 +4387,7 @@
   {
     "id": "base-cbw",
     "slotCategory": "bows",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -4376,6 +4448,7 @@
   {
     "id": "base-sbb",
     "slotCategory": "bows",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -4436,6 +4509,7 @@
   {
     "id": "base-lbb",
     "slotCategory": "bows",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -4496,6 +4570,7 @@
   {
     "id": "base-swb",
     "slotCategory": "bows",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -4556,6 +4631,7 @@
   {
     "id": "base-lwb",
     "slotCategory": "bows",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -4616,6 +4692,7 @@
   {
     "id": "base-lxb",
     "slotCategory": "crossbows",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -4676,6 +4753,7 @@
   {
     "id": "base-mxb",
     "slotCategory": "crossbows",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -4736,6 +4814,7 @@
   {
     "id": "base-hxb",
     "slotCategory": "crossbows",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -4796,6 +4875,7 @@
   {
     "id": "base-rxb",
     "slotCategory": "crossbows",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -4856,6 +4936,7 @@
   {
     "id": "base-d33",
     "slotCategory": "daggers",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -4882,6 +4963,7 @@
   {
     "id": "base-g33",
     "slotCategory": "daggers",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -4908,6 +4990,7 @@
   {
     "id": "base-leg",
     "slotCategory": "clubs",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -4934,6 +5017,7 @@
   {
     "id": "base-hdm",
     "slotCategory": "hammers",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -4960,6 +5044,7 @@
   {
     "id": "base-hfh",
     "slotCategory": "hammers",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -4986,6 +5071,7 @@
   {
     "id": "base-hst",
     "slotCategory": "staves",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -5012,6 +5098,7 @@
   {
     "id": "base-msf",
     "slotCategory": "staves",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -5038,6 +5125,7 @@
   {
     "id": "base-ktr",
     "slotCategory": "katars",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -5098,6 +5186,7 @@
   {
     "id": "base-wrb",
     "slotCategory": "katars",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -5158,6 +5247,7 @@
   {
     "id": "base-axf",
     "slotCategory": "katars",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -5218,6 +5308,7 @@
   {
     "id": "base-ces",
     "slotCategory": "katars",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -5278,6 +5369,7 @@
   {
     "id": "base-clw",
     "slotCategory": "katars",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -5338,6 +5430,7 @@
   {
     "id": "base-btl",
     "slotCategory": "katars",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -5398,6 +5491,7 @@
   {
     "id": "base-skr",
     "slotCategory": "katars",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -5458,6 +5552,7 @@
   {
     "id": "base-ob1",
     "slotCategory": "orbs",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -5518,6 +5613,7 @@
   {
     "id": "base-ob2",
     "slotCategory": "orbs",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -5578,6 +5674,7 @@
   {
     "id": "base-ob3",
     "slotCategory": "orbs",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -5638,6 +5735,7 @@
   {
     "id": "base-ob4",
     "slotCategory": "orbs",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -5698,6 +5796,7 @@
   {
     "id": "base-ob5",
     "slotCategory": "orbs",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -5758,6 +5857,7 @@
   {
     "id": "base-am1",
     "slotCategory": "bows",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -5818,6 +5918,7 @@
   {
     "id": "base-am2",
     "slotCategory": "bows",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -5878,6 +5979,7 @@
   {
     "id": "base-am3",
     "slotCategory": "spears",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -5938,6 +6040,7 @@
   {
     "id": "base-am4",
     "slotCategory": "spears",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -5998,6 +6101,7 @@
   {
     "id": "base-am5",
     "slotCategory": "javelins",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -6058,6 +6162,7 @@
   {
     "id": "base-cap",
     "slotCategory": "helms",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -6118,6 +6223,7 @@
   {
     "id": "base-skp",
     "slotCategory": "helms",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -6178,6 +6284,7 @@
   {
     "id": "base-hlm",
     "slotCategory": "helms",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -6238,6 +6345,7 @@
   {
     "id": "base-fhl",
     "slotCategory": "helms",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -6298,6 +6406,7 @@
   {
     "id": "base-ghm",
     "slotCategory": "helms",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -6358,6 +6467,7 @@
   {
     "id": "base-crn",
     "slotCategory": "helms",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -6418,6 +6528,7 @@
   {
     "id": "base-msk",
     "slotCategory": "helms",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -6478,6 +6589,7 @@
   {
     "id": "base-qui",
     "slotCategory": "armors",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -6538,6 +6650,7 @@
   {
     "id": "base-lea",
     "slotCategory": "armors",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -6598,6 +6711,7 @@
   {
     "id": "base-hla",
     "slotCategory": "armors",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -6658,6 +6772,7 @@
   {
     "id": "base-stu",
     "slotCategory": "armors",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -6718,6 +6833,7 @@
   {
     "id": "base-rng",
     "slotCategory": "armors",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -6778,6 +6894,7 @@
   {
     "id": "base-scl",
     "slotCategory": "armors",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -6838,6 +6955,7 @@
   {
     "id": "base-chn",
     "slotCategory": "armors",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -6898,6 +7016,7 @@
   {
     "id": "base-brs",
     "slotCategory": "armors",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -6958,6 +7077,7 @@
   {
     "id": "base-spl",
     "slotCategory": "armors",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -7018,6 +7138,7 @@
   {
     "id": "base-plt",
     "slotCategory": "armors",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -7078,6 +7199,7 @@
   {
     "id": "base-fld",
     "slotCategory": "armors",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -7138,6 +7260,7 @@
   {
     "id": "base-gth",
     "slotCategory": "armors",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -7198,6 +7321,7 @@
   {
     "id": "base-ful",
     "slotCategory": "armors",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -7258,6 +7382,7 @@
   {
     "id": "base-aar",
     "slotCategory": "armors",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -7318,6 +7443,7 @@
   {
     "id": "base-ltp",
     "slotCategory": "armors",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -7378,6 +7504,7 @@
   {
     "id": "base-buc",
     "slotCategory": "shields",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -7438,6 +7565,7 @@
   {
     "id": "base-sml",
     "slotCategory": "shields",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -7498,6 +7626,7 @@
   {
     "id": "base-lrg",
     "slotCategory": "shields",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -7558,6 +7687,7 @@
   {
     "id": "base-kit",
     "slotCategory": "shields",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -7618,6 +7748,7 @@
   {
     "id": "base-tow",
     "slotCategory": "shields",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -7678,6 +7809,7 @@
   {
     "id": "base-gts",
     "slotCategory": "shields",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -7738,6 +7870,7 @@
   {
     "id": "base-lgl",
     "slotCategory": "gloves",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -7798,6 +7931,7 @@
   {
     "id": "base-vgl",
     "slotCategory": "gloves",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -7858,6 +7992,7 @@
   {
     "id": "base-mgl",
     "slotCategory": "gloves",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -7918,6 +8053,7 @@
   {
     "id": "base-tgl",
     "slotCategory": "gloves",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -7978,6 +8114,7 @@
   {
     "id": "base-hgl",
     "slotCategory": "gloves",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -8038,6 +8175,7 @@
   {
     "id": "base-lbt",
     "slotCategory": "boots",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -8098,6 +8236,7 @@
   {
     "id": "base-vbt",
     "slotCategory": "boots",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -8158,6 +8297,7 @@
   {
     "id": "base-mbt",
     "slotCategory": "boots",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -8218,6 +8358,7 @@
   {
     "id": "base-tbt",
     "slotCategory": "boots",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -8278,6 +8419,7 @@
   {
     "id": "base-hbt",
     "slotCategory": "boots",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -8338,6 +8480,7 @@
   {
     "id": "base-lbl",
     "slotCategory": "belts",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -8398,6 +8541,7 @@
   {
     "id": "base-vbl",
     "slotCategory": "belts",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -8458,6 +8602,7 @@
   {
     "id": "base-mbl",
     "slotCategory": "belts",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -8518,6 +8663,7 @@
   {
     "id": "base-tbl",
     "slotCategory": "belts",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -8578,6 +8724,7 @@
   {
     "id": "base-hbl",
     "slotCategory": "belts",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -8638,6 +8785,7 @@
   {
     "id": "base-bhm",
     "slotCategory": "helms",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -8698,6 +8846,7 @@
   {
     "id": "base-bsh",
     "slotCategory": "shields",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -8758,6 +8907,7 @@
   {
     "id": "base-spk",
     "slotCategory": "shields",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -8818,6 +8968,7 @@
   {
     "id": "base-dr1",
     "slotCategory": "helms",
+    "subCategory": "druid",
     "grades": {
       "normal": {
         "name": {
@@ -8878,6 +9029,7 @@
   {
     "id": "base-dr2",
     "slotCategory": "helms",
+    "subCategory": "druid",
     "grades": {
       "normal": {
         "name": {
@@ -8938,6 +9090,7 @@
   {
     "id": "base-dr3",
     "slotCategory": "helms",
+    "subCategory": "druid",
     "grades": {
       "normal": {
         "name": {
@@ -8998,6 +9151,7 @@
   {
     "id": "base-dr4",
     "slotCategory": "helms",
+    "subCategory": "druid",
     "grades": {
       "normal": {
         "name": {
@@ -9058,6 +9212,7 @@
   {
     "id": "base-dr5",
     "slotCategory": "helms",
+    "subCategory": "druid",
     "grades": {
       "normal": {
         "name": {
@@ -9118,6 +9273,7 @@
   {
     "id": "base-ba1",
     "slotCategory": "helms",
+    "subCategory": "barbarian",
     "grades": {
       "normal": {
         "name": {
@@ -9178,6 +9334,7 @@
   {
     "id": "base-ba2",
     "slotCategory": "helms",
+    "subCategory": "barbarian",
     "grades": {
       "normal": {
         "name": {
@@ -9238,6 +9395,7 @@
   {
     "id": "base-ba3",
     "slotCategory": "helms",
+    "subCategory": "barbarian",
     "grades": {
       "normal": {
         "name": {
@@ -9298,6 +9456,7 @@
   {
     "id": "base-ba4",
     "slotCategory": "helms",
+    "subCategory": "barbarian",
     "grades": {
       "normal": {
         "name": {
@@ -9358,6 +9517,7 @@
   {
     "id": "base-ba5",
     "slotCategory": "helms",
+    "subCategory": "barbarian",
     "grades": {
       "normal": {
         "name": {
@@ -9418,6 +9578,7 @@
   {
     "id": "base-pa1",
     "slotCategory": "shields",
+    "subCategory": "paladin",
     "grades": {
       "normal": {
         "name": {
@@ -9478,6 +9639,7 @@
   {
     "id": "base-pa2",
     "slotCategory": "shields",
+    "subCategory": "paladin",
     "grades": {
       "normal": {
         "name": {
@@ -9538,6 +9700,7 @@
   {
     "id": "base-pa3",
     "slotCategory": "shields",
+    "subCategory": "paladin",
     "grades": {
       "normal": {
         "name": {
@@ -9598,6 +9761,7 @@
   {
     "id": "base-pa4",
     "slotCategory": "shields",
+    "subCategory": "paladin",
     "grades": {
       "normal": {
         "name": {
@@ -9658,6 +9822,7 @@
   {
     "id": "base-pa5",
     "slotCategory": "shields",
+    "subCategory": "paladin",
     "grades": {
       "normal": {
         "name": {
@@ -9718,6 +9883,7 @@
   {
     "id": "base-ne1",
     "slotCategory": "shields",
+    "subCategory": "shrunkenHeads",
     "grades": {
       "normal": {
         "name": {
@@ -9778,6 +9944,7 @@
   {
     "id": "base-ne2",
     "slotCategory": "shields",
+    "subCategory": "shrunkenHeads",
     "grades": {
       "normal": {
         "name": {
@@ -9838,6 +10005,7 @@
   {
     "id": "base-ne3",
     "slotCategory": "shields",
+    "subCategory": "shrunkenHeads",
     "grades": {
       "normal": {
         "name": {
@@ -9898,6 +10066,7 @@
   {
     "id": "base-ne4",
     "slotCategory": "shields",
+    "subCategory": "shrunkenHeads",
     "grades": {
       "normal": {
         "name": {
@@ -9958,6 +10127,7 @@
   {
     "id": "base-ne5",
     "slotCategory": "shields",
+    "subCategory": "shrunkenHeads",
     "grades": {
       "normal": {
         "name": {
@@ -10018,6 +10188,7 @@
   {
     "id": "base-ci0",
     "slotCategory": "helms",
+    "subCategory": "circlet",
     "grades": {
       "normal": {
         "name": {
@@ -10078,6 +10249,7 @@
   {
     "id": "base-ci1",
     "slotCategory": "helms",
+    "subCategory": "circlet",
     "grades": {
       "normal": {
         "name": {
@@ -10138,6 +10310,7 @@
   {
     "id": "base-wa1",
     "slotCategory": "grimoires",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -10198,6 +10371,7 @@
   {
     "id": "base-wa2",
     "slotCategory": "grimoires",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -10258,6 +10432,7 @@
   {
     "id": "base-wa3",
     "slotCategory": "grimoires",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -10318,6 +10493,7 @@
   {
     "id": "base-wa4",
     "slotCategory": "grimoires",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {
@@ -10378,6 +10554,7 @@
   {
     "id": "base-wa5",
     "slotCategory": "grimoires",
+    "subCategory": null,
     "grades": {
       "normal": {
         "name": {

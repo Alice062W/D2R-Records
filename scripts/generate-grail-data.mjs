@@ -547,11 +547,21 @@ function baseGradeFor(code) {
   };
 }
 
+const HELM_SUB_CATEGORY = { helm: null, circ: 'circlet', phlm: 'barbarian', pelt: 'druid' };
+const SHIELD_SUB_CATEGORY = { shie: null, ashd: 'paladin', head: 'shrunkenHeads' };
+
+function subCategoryFor(rawType) {
+  if (rawType in HELM_SUB_CATEGORY) return HELM_SUB_CATEGORY[rawType];
+  if (rawType in SHIELD_SUB_CATEGORY) return SHIELD_SUB_CATEGORY[rawType];
+  return null;
+}
+
 const basesFullOut = Object.entries(items)
   .filter(([code, v]) => v.normcode === code && TYPE_TO_SLOT[v.type])
   .map(([code, v]) => ({
     id: `base-${code}`,
     slotCategory: TYPE_TO_SLOT[v.type],
+    subCategory: subCategoryFor(v.type),
     grades: {
       normal: baseGradeFor(code),
       exceptional: v.ubercode && v.ubercode !== code ? baseGradeFor(v.ubercode) : null,

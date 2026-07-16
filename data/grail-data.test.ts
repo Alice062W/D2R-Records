@@ -170,6 +170,28 @@ describe('bases-full.json', () => {
   });
 });
 
+describe('bases-full.json subCategory (Helms/Shields sub-tabs)', () => {
+  it('tags each Helms-family item with the correct subCategory', () => {
+    const byId = Object.fromEntries(basesFull.map((b: { id: string; subCategory: string | null }) => [b.id, b.subCategory]));
+    expect(byId['base-cap']).toBeNull(); // Cap -> plain Helm
+    expect(byId['base-ci0']).toBe('circlet'); // Circlet
+    expect(byId['base-ba1']).toBe('barbarian'); // Jawbone Cap -> Barbarian Helm
+    expect(byId['base-dr1']).toBe('druid'); // Wolf Head -> Druid Pelt
+  });
+
+  it('tags each Shields-family item with the correct subCategory', () => {
+    const byId = Object.fromEntries(basesFull.map((b: { id: string; subCategory: string | null }) => [b.id, b.subCategory]));
+    expect(byId['base-buc']).toBeNull(); // Buckler -> plain Shield
+    expect(byId['base-pa1']).toBe('paladin'); // Targe -> Paladin Shield
+    expect(byId['base-ne1']).toBe('shrunkenHeads'); // Preserved Head -> Shrunken Head
+  });
+
+  it('every non-Helms/Shields entry has subCategory null', () => {
+    const others = basesFull.filter((b: { slotCategory: string }) => b.slotCategory !== 'helms' && b.slotCategory !== 'shields');
+    expect(others.every((b: { subCategory: string | null }) => b.subCategory === null)).toBe(true);
+  });
+});
+
 describe('runewords-full.json', () => {
   it('has 99 entries, matching every complete===1 entry in vendored runes.json (more than the 93 in the older curated runewords.json, which predates Vigilance/Ritual/Void/Authority/Coven/Hustle-split)', () => {
     expect(runewordsFull.length).toBe(99);

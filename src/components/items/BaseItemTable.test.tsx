@@ -16,7 +16,7 @@ function renderTable(line: BaseLine) {
 describe('BaseItemTable', () => {
   it('renders all three grade names and their 1h damage when present', () => {
     const line: BaseLine = {
-      id: 'base-hax', slotCategory: 'axes',
+      id: 'base-hax', slotCategory: 'axes', subCategory: null,
       grades: {
         normal: { name: 'Hand Axe', oneHandDamage: { min: 3, max: 6 }, twoHandDamage: null, levelReq: 0, requiredStrength: null, requiredDexterity: null, durability: 28, sockets: 2, qlvl: 3 },
         exceptional: { name: 'Hatchet', oneHandDamage: { min: 10, max: 21 }, twoHandDamage: null, levelReq: 19, requiredStrength: 25, requiredDexterity: null, durability: 28, sockets: 2, qlvl: 31 },
@@ -33,7 +33,7 @@ describe('BaseItemTable', () => {
 
   it('renders a dash for a missing grade tier', () => {
     const line: BaseLine = {
-      id: 'base-x', slotCategory: 'wands',
+      id: 'base-x', slotCategory: 'wands', subCategory: null,
       grades: {
         normal: { name: 'Yew Wand', oneHandDamage: null, twoHandDamage: null, levelReq: 0, requiredStrength: null, requiredDexterity: null, durability: 30, sockets: 1, qlvl: 1 },
         exceptional: null,
