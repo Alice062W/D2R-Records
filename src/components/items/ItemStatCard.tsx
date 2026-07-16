@@ -32,7 +32,7 @@ export default function ItemStatCard({ item }: { item: GrailItem }) {
             src={`/items/inv/${item.invFile}.png`}
             alt=""
             aria-hidden="true"
-            className="w-10 h-10 object-contain shrink-0"
+            className="w-20 h-20 object-contain shrink-0"
             onError={() => setIconFailed(true)}
           />
         )}
