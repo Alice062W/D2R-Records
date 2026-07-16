@@ -16,9 +16,20 @@ Confirmed derivable, mostly from data already vendored/generated in this project
   area list exactly (Pit Level 1/2, Mausoleum, Stony Tomb 1/2, Ancient Tunnels, Arachnid
   Lair, Swampy Pit 1/2/3, The Chaos Sanctuary, The Worldstone Keep 1/2/3, Throne of
   Destruction, etc.). No re-derivation needed — reuse this file directly.
-- **Which monsters appear per area, at Hell difficulty**: `vendor/d2data/json/levels.json`
-  (already vendored) has `umon1`-`umon4` fields per level giving the Hell-difficulty
-  monster codes. Cross-referencing the 32 alvl85 areas found 71 distinct monster codes.
+- **Which monsters appear per area, at Hell difficulty — REVISED, see below**:
+  `vendor/d2data/json/levels.json`'s `umon1`-`umon4` fields per level were initially
+  assumed sufficient for this, but cross-checking against d2r.world's real content
+  found they're **incomplete** for several areas (e.g. River of Flame's raw fields give
+  only 4 monster codes, while d2r.world's real list has 9, several with no match in the
+  raw fields at all — likely because the real spawn pool also includes boss/superunique
+  packs or theme-based extra monster pools not captured by the plain `umon{n}` fields,
+  which weren't identified in this vendored data during this session's research). Per
+  explicit user direction, the full area→monster→immunity table is instead
+  **hand-transcribed from d2r.world** as the source of truth (ground-truth data captured
+  this session, embedded in the implementation plan) — the same policy basis as the
+  Level Up guide. `monstats.json`'s Hell resistances are still used as an independent
+  cross-check for immunity values where a monster's code can be confidently identified,
+  but are no longer the sole/primary derivation path.
 - **Elemental immunity per monster**: a new file, `vendor/d2data/json/monstats.json`
   (not yet vendored), has each monster's Hell-difficulty elemental resistances
   (`ResFi(H)`, `ResCo(H)`, `ResLi(H)`, `ResPo(H)`) — a monster is immune to an element
@@ -47,19 +58,21 @@ Confirmed derivable, mostly from data already vendored/generated in this project
 
 ## Design
 
-- Vendor `vendor/d2data/json/monstats.json`.
-- Add a small, explicit, hand-transcribed `MONSTER_TYPES` map (71 entries: monster code →
-  `'animal' | 'demon' | 'undead'`) directly in the generator script, sourced from
-  d2r.world's own Alvl85 Areas page, with the source cited in a comment — this is
-  the ONLY hand-transcribed piece; area assignment, monster presence, and immunities
-  are all generator-derived.
-- Extend `scripts/generate-grail-data.mjs` to produce `data/alvl85-areas.json`: array of
-  `{ areaName: LocalizedText, monsters: { code: string; name: LocalizedText; type:
-  'animal' | 'demon' | 'undead'; immunities: { element: 'fire' | 'cold' | 'lightning' |
-  'poison'; starred: boolean }[] }[] }`, one entry per alvl85 area (from
-  `data/area-levels.json`), each listing its distinct Hell-difficulty monsters
-  (deduplicated — the same monster code may appear via multiple `umon{n}` slots or
-  across sub-level variants of one named area) with computed immunities.
+- A single hand-authored static TypeScript data file,
+  `src/lib/grail/alvl85Areas.ts`, containing the complete area → monster → type →
+  immunity table transcribed from d2r.world (32 areas, ~130 monster rows including
+  sub-monster/egg variants shown as flat rows — d2r.world's own indentation is a display
+  nicety, not a data relationship this project needs to model). Source cited in a code
+  comment, matching the Level Up guide's precedent. This does NOT go through
+  `scripts/generate-grail-data.mjs` (no reliable raw vendored source for the full
+  roster, confirmed above).
+- `vendor/d2data/json/monstats.json` is fetched for RESEARCH ONLY during
+  implementation (to spot-check a handful of immunity values against Hell-difficulty
+  resistances where a monster's code can be confidently identified) — it is not
+  vendored into the repo unless it ends up used as a real build input elsewhere; if
+  fetched only for this cross-check, delete it afterward rather than leaving an unused
+  vendored file (same convention already established in this project for
+  research-only fetches).
 - New page `/[locale]/monster/alvl85`: replaces the current `ComingSoonPage`
   placeholder, rendering a grouped list (area name as a sub-heading, followed by a
   small table of its monsters/type/immunities with the ★ marker), following this
@@ -70,21 +83,26 @@ Confirmed derivable, mostly from data already vendored/generated in this project
 - The remaining Misc page (FCR/FHR/FBR) — separate, final follow-up.
 - The `bar` Magic/Rare class-restriction taxonomy fix — separate, already-deferred
   follow-up.
-- Any change to `data/area-levels.json` or the Area Level page (this plan only reads
-  from that existing file).
-- Sub-monster variants shown as indented rows on d2r.world (e.g. "└ Rock Worm Egg" under
-  "Rock Worm") — investigate during implementation whether these appear in the same
-  `umon{n}` fields as their parent or need separate handling; if the distinction can't
-  be cleanly derived, list them as flat, undifferentiated monster rows rather than
-  guessing at a nesting relationship not present in the raw data.
+- Any change to `data/area-levels.json` or the Area Level page.
+- Modeling sub-monster/egg variants as a nested relationship — they're flat rows in the
+  hand-transcribed table, matching what's actually derivable (no clean parent-child
+  data relationship was found for these during research).
+- Fully re-deriving the area→monster roster from raw vendored data — investigated this
+  session and found `levels.json`'s `umon{n}` fields are incomplete for several areas
+  (confirmed: River of Flame's raw fields yield only 4 of the 9 real monsters); the true
+  mechanism (likely boss/superunique tables or theme-based extra pools) was not
+  identified and is out of scope for this pass.
 
 ## Testing plan
 
-- Generator tests: `data/alvl85-areas.json` has 32 entries (matching
-  `data/area-levels.json`'s alvl85 filter exactly); a spot-checked area (e.g. Pit Level
-  1) lists the correct monster set; a spot-checked monster (`vampire2`, confirmed
-  `ResCo(H): 120`, `ResFi(H): 33`, `ResLi(H): 25`, `ResPo(H): 50` during design
-  research) shows exactly one immunity — Cold, starred (120 ≥ 100 for the immunity
-  threshold, and 120 ≥ 117 for the ★ threshold) — and no other element listed.
+- Data test: the static table has exactly 32 area entries, and the total monster-row
+  count and content matches the hand-transcribed source exactly (spot-checked, not
+  exhaustively re-verified line-by-line in the test — the data literal itself is the
+  primary correctness artifact, same as the Level Up guide).
+- Component test: the page renders area names, monster rows, type, and immunity
+  (including the ★ marker) correctly for a sample area.
 - Manual + d2r.world spot-check: the built page's monster/immunity lists match
-  d2r.world's real content for a sample of areas, including the ★ marker logic.
+  d2r.world's real content for a sample of areas, including the ★ marker logic and the
+  "Night Lord" case (Undead in Ruined Temple/Disused Fane/Forgotten Reliquary vs. Animal
+  in Infernal Pit — both are real, distinct d2r.world rows, not a data error to
+  reconcile).
