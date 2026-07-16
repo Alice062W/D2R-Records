@@ -243,9 +243,14 @@ _Spec: [docs/superpowers/specs/2026-07-16-alvl85-areas-design.md](../docs/superp
 - [x] Alvl85 Areas data + page (hand-transcribed 32-area monster/type/immunity table)
 - [x] Full verification + d2r.world spot-check — all 32 areas match d2r.world exactly
 
+### FCR/FHR/FBR (Misc)
+_Spec: [docs/superpowers/specs/2026-07-16-fcr-fhr-fbr-design.md](../docs/superpowers/specs/2026-07-16-fcr-fhr-fbr-design.md) · Plan: [plans/fcr-fhr-fbr-implementation.md](./fcr-fhr-fbr-implementation.md)_
+
+- [ ] FCR/FHR/FBR data + page (hand-transcribed 10 class/form breakpoint tables)
+- [ ] Full verification + d2r.world spot-check
+
 ### Follow-up sub-projects (agreed order, not yet started)
 - `bar` class-restriction fallback expansion (deferred, needs a separate hand-authored class-equipment mechanism)
-- Remaining Misc page: FCR/FHR/FBR (formula-derived breakpoints, most complex)
 
 ## Backlog / Ideas
 
