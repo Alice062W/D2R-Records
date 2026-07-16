@@ -213,14 +213,14 @@ _Spec: [docs/superpowers/specs/2026-07-16-category-taxonomy-fix-design.md](../do
 - [x] i18n labels + category icons for new granular slugs
 - [x] Full verification + d2r.world spot-check — final whole-branch review clean
 
-## Set Items Taxonomy Fix 🔲
+## Set Items Taxonomy Fix ✅
 
 _Spec: [docs/superpowers/specs/2026-07-16-set-items-taxonomy-design.md](../docs/superpowers/specs/2026-07-16-set-items-taxonomy-design.md) · Plan: [plans/set-items-taxonomy-implementation.md](./set-items-taxonomy-implementation.md)_
 
-- [ ] Vendor sets.json + generate data/set-groups.json (set-level partial/full bonuses)
-- [ ] Set Items browse-by-name pages
-- [ ] Combine weapon categories into one Weapons tile (secondary category view)
-- [ ] Full verification + d2r.world spot-check
+- [x] Vendor sets.json + generate data/set-groups.json (set-level partial/full bonuses)
+- [x] Set Items browse-by-name pages
+- [x] Combine weapon categories into one Weapons tile (secondary category view) — fixed missing ranged weapon types during verification
+- [x] Full verification + d2r.world spot-check — final whole-branch review clean
 
 ### Follow-up sub-projects (agreed order, not yet started)
 - `bar` class-restriction fallback expansion (deferred, needs a separate hand-authored class-equipment mechanism)
