@@ -181,12 +181,12 @@ _Spec: [docs/superpowers/specs/2026-07-16-property-label-audit-design.md](../doc
 - [x] Broaden regression test to cover every data file (3 -> 8)
 - [x] d2r.world spot-check + verification doc — final whole-branch review clean
 
-## Item Icon Sizing Fix 🔲
+## Item Icon Sizing Fix ✅
 
 _Spec: [docs/superpowers/specs/2026-07-16-icon-sizing-design.md](../docs/superpowers/specs/2026-07-16-icon-sizing-design.md) · Plan: [plans/icon-sizing-implementation.md](./icon-sizing-implementation.md)_
 
-- [ ] Increase icon size 40px -> 80px in ItemStatCard and GrailItemDetail
-- [ ] Browser verification
+- [x] Increase icon size 40px -> 80px in ItemStatCard and GrailItemDetail
+- [x] Browser verification — confirmed on desktop and mobile widths, no distortion
 
 ### Follow-up sub-projects (agreed order, not yet started)
 - Category-grid icons (per-category representative icon on landing pages)
