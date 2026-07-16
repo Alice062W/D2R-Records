@@ -620,6 +620,13 @@ describe('set-groups.json', () => {
     expect(aldur.partialBonuses[1].stats[0]).toMatchObject({ key: 'mag%', min: 50, max: 50 });
     expect(aldur.partialBonuses[2].stats[0]).toMatchObject({ key: 'lifesteal', min: 10, max: 10 });
   });
+
+  it('has a non-empty repInvFile matching a real file in public/items/inv for every group', () => {
+    for (const group of setGroupsData) {
+      expect(group.repInvFile).not.toBe('');
+      expect(existsSync(join(process.cwd(), 'public/items/inv', `${group.repInvFile}.png`))).toBe(true);
+    }
+  });
 });
 
 import areaLevelsData from './area-levels.json';

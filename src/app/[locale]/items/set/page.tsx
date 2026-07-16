@@ -17,7 +17,7 @@ export default async function SetItemsPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations('Items');
-  const groups = setGroups.map(g => ({ slug: slugifySetName(g.setName.en), name: g.setName[locale as 'en' | 'zh-TW' | 'zh-CN'] }));
+  const groups = setGroups.map(g => ({ slug: slugifySetName(g.setName.en), name: g.setName[locale as 'en' | 'zh-TW' | 'zh-CN'], repInvFile: g.repInvFile }));
 
   return (
     <main className="flex flex-col items-center py-10 px-4 gap-8 flex-1 w-full">

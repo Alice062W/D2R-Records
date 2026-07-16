@@ -9,7 +9,7 @@ describe('SetGroupList', () => {
     render(
       <NextIntlClientProvider locale="en" messages={messages}>
         <SetGroupList
-          groups={[{ slug: 'aldurs-watchtower', name: "Aldur's Watchtower" }]}
+          groups={[{ slug: 'aldurs-watchtower', name: "Aldur's Watchtower", repInvFile: 'invskul' }]}
           basePath="/en/items/set"
         />
       </NextIntlClientProvider>
@@ -18,5 +18,24 @@ describe('SetGroupList', () => {
       'href',
       '/en/items/set/aldurs-watchtower'
     );
+  });
+
+  it('renders the representative icon when repInvFile is present', () => {
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <SetGroupList groups={[{ slug: 'aldurs-watchtower', name: "Aldur's Watchtower", repInvFile: 'invskul' }]} basePath="/en/items/set" />
+      </NextIntlClientProvider>
+    );
+    const img = screen.getByRole('img', { hidden: true }) as HTMLImageElement;
+    expect(img.src).toContain('/items/inv/invskul.png');
+  });
+
+  it('renders no icon when repInvFile is empty', () => {
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <SetGroupList groups={[{ slug: 'x', name: 'X', repInvFile: '' }]} basePath="/en/items/set" />
+      </NextIntlClientProvider>
+    );
+    expect(screen.queryByRole('img', { hidden: true })).not.toBeInTheDocument();
   });
 });

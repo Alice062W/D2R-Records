@@ -11,6 +11,7 @@
       "set-68",
       "set-66"
     ],
+    "repInvFile": "invtbt",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -133,6 +134,7 @@
       "set-50",
       "set-53"
     ],
+    "repInvFile": "invrin",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -220,6 +222,7 @@
       "set-60",
       "set-58"
     ],
+    "repInvFile": "invwst",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -307,6 +310,7 @@
       "set-54",
       "set-57"
     ],
+    "repInvFile": "invvbl",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -373,6 +377,7 @@
       "set-132",
       "set-133"
     ],
+    "repInvFile": "invvbl",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -444,6 +449,7 @@
       "set-45",
       "set-44"
     ],
+    "repInvFile": "inv2ax",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -524,6 +530,7 @@
       "set-115",
       "set-116"
     ],
+    "repInvFile": "invgsd",
     "partialBonuses": [],
     "fullSetBonuses": [
       {
@@ -621,6 +628,7 @@
       "set-28",
       "set-27"
     ],
+    "repInvFile": "invchn",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -717,6 +725,7 @@
       "set-1",
       "set-0"
     ],
+    "repInvFile": "invgsc",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -798,6 +807,7 @@
       "set-8",
       "set-6"
     ],
+    "repInvFile": "invsml",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -869,6 +879,7 @@
       "set-119",
       "set-117"
     ],
+    "repInvFile": "invstu",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -980,6 +991,7 @@
       "set-47",
       "set-49"
     ],
+    "repInvFile": "invlbl",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -1042,6 +1054,7 @@
       "set-81",
       "set-83"
     ],
+    "repInvFile": "invaar",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -1139,6 +1152,7 @@
       "set-101",
       "set-103"
     ],
+    "repInvFile": "invmac",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -1237,6 +1251,7 @@
       "set-138",
       "set-139"
     ],
+    "repInvFile": "invmsk",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -1348,6 +1363,7 @@
       "set-3",
       "set-5"
     ],
+    "repInvFile": "invbuc",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -1410,6 +1426,7 @@
       "set-110",
       "set-108"
     ],
+    "repInvFile": "invvou",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -1499,6 +1516,7 @@
       "set-75",
       "set-70"
     ],
+    "repInvFile": "invhbl",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -1615,6 +1633,7 @@
       "set-43",
       "set-42"
     ],
+    "repInvFile": "invcap",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -1722,6 +1741,7 @@
       "set-12",
       "set-10"
     ],
+    "repInvFile": "invcrn",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -1829,6 +1849,7 @@
       "set-13",
       "set-14"
     ],
+    "repInvFile": "invbrs",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -1927,6 +1948,7 @@
       "set-93",
       "set-90"
     ],
+    "repInvFile": "invam2",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -2024,6 +2046,7 @@
       "set-126",
       "set-125"
     ],
+    "repInvFile": "invcap",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -2111,6 +2134,7 @@
       "set-24",
       "set-22"
     ],
+    "repInvFile": "invcrn",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -2197,6 +2221,7 @@
       "set-121",
       "set-120"
     ],
+    "repInvFile": "invci0",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -2309,6 +2334,7 @@
       "set-65",
       "set-62"
     ],
+    "repInvFile": "invskr",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -2441,6 +2467,7 @@
       "set-107",
       "set-105"
     ],
+    "repInvFile": "invghm",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -2562,6 +2589,7 @@
       "set-113",
       "set-114"
     ],
+    "repInvFile": "invlsd",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -2646,6 +2674,7 @@
       "set-36",
       "set-39"
     ],
+    "repInvFile": "invhgl",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -2744,6 +2773,7 @@
       "set-79",
       "set-78"
     ],
+    "repInvFile": "invamu",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -2857,6 +2887,7 @@
       "set-31",
       "set-33"
     ],
+    "repInvFile": "invmpi",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -2945,6 +2976,7 @@
       "set-98",
       "set-95"
     ],
+    "repInvFile": "invmbl",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -3053,6 +3085,7 @@
       "set-86",
       "set-87"
     ],
+    "repInvFile": "invmgl",
     "partialBonuses": [
       {
         "piecesRequired": 2,
@@ -3185,6 +3218,7 @@
       "set-18",
       "set-20"
     ],
+    "repInvFile": "invlea",
     "partialBonuses": [
       {
         "piecesRequired": 2,

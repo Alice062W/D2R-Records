@@ -690,6 +690,7 @@ const setGroupsOut = Object.values(setsFullData)
     return {
       setName: localizedItemName(v.name),
       pieceIds,
+      repInvFile: setsOut.find(s => s.id === pieceIds[0])?.invFile ?? '',
       partialBonuses,
       fullSetBonuses,
     };

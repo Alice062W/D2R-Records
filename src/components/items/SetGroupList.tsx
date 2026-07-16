@@ -1,10 +1,28 @@
+'use client';
+
+import { useState } from 'react';
 import Link from 'next/link';
+
+function GroupIcon({ invFile }: { invFile: string }) {
+  const [iconFailed, setIconFailed] = useState(false);
+  if (!invFile || iconFailed) return null;
+  return (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      src={`/items/inv/${invFile}.png`}
+      alt="icon"
+      aria-hidden="true"
+      className="w-10 h-10 object-contain shrink-0"
+      onError={() => setIconFailed(true)}
+    />
+  );
+}
 
 export default function SetGroupList({
   groups,
   basePath,
 }: {
-  groups: { slug: string; name: string }[];
+  groups: { slug: string; name: string; repInvFile: string }[];
   basePath: string;
 }) {
   return (
@@ -13,8 +31,9 @@ export default function SetGroupList({
         <Link
           key={g.slug}
           href={`${basePath}/${g.slug}`}
-          className="flex items-center px-4 py-4 rounded-xl bg-zinc-900 border border-zinc-700 text-[#22ff55] font-semibold hover:border-amber-400 transition-colors"
+          className="flex items-center gap-3 px-4 py-4 rounded-xl bg-zinc-900 border border-zinc-700 text-[#22ff55] font-semibold hover:border-amber-400 transition-colors"
         >
+          <GroupIcon invFile={g.repInvFile} />
           {g.name}
         </Link>
       ))}
