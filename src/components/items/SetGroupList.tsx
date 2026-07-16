@@ -10,7 +10,7 @@ function GroupIcon({ invFile }: { invFile: string }) {
     // eslint-disable-next-line @next/next/no-img-element
     <img
       src={`/items/inv/${invFile}.png`}
-      alt="icon"
+      alt=""
       aria-hidden="true"
       className="w-10 h-10 object-contain shrink-0"
       onError={() => setIconFailed(true)}

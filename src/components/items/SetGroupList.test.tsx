@@ -21,21 +21,22 @@ describe('SetGroupList', () => {
   });
 
   it('renders the representative icon when repInvFile is present', () => {
-    render(
+    const { container } = render(
       <NextIntlClientProvider locale="en" messages={messages}>
         <SetGroupList groups={[{ slug: 'aldurs-watchtower', name: "Aldur's Watchtower", repInvFile: 'invskul' }]} basePath="/en/items/set" />
       </NextIntlClientProvider>
     );
-    const img = screen.getByRole('img', { hidden: true }) as HTMLImageElement;
+    const img = container.querySelector('img') as HTMLImageElement;
+    expect(img).not.toBeNull();
     expect(img.src).toContain('/items/inv/invskul.png');
   });
 
   it('renders no icon when repInvFile is empty', () => {
-    render(
+    const { container } = render(
       <NextIntlClientProvider locale="en" messages={messages}>
         <SetGroupList groups={[{ slug: 'x', name: 'X', repInvFile: '' }]} basePath="/en/items/set" />
       </NextIntlClientProvider>
     );
-    expect(screen.queryByRole('img', { hidden: true })).not.toBeInTheDocument();
+    expect(container.querySelector('img')).toBeNull();
   });
 });
