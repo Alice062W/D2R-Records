@@ -173,13 +173,13 @@ _Spec: [docs/superpowers/specs/2026-07-15-item-icons-design.md](../docs/superpow
 - [x] Render icons in GrailItemDetail
 - [x] Full verification + browser spot-check — final whole-branch review clean
 
-## Comprehensive Property-Label Audit 🔲
+## Comprehensive Property-Label Audit ✅
 
 _Spec: [docs/superpowers/specs/2026-07-16-property-label-audit-design.md](../docs/superpowers/specs/2026-07-16-property-label-audit-design.md) · Plan: [plans/property-label-audit-implementation.md](./property-label-audit-implementation.md)_
 
-- [ ] Research and add missing property labels (36 leaked codes across uniques/sets/runewords/magic-affixes)
-- [ ] Broaden regression test to cover every data file
-- [ ] d2r.world spot-check + verification doc
+- [x] Research and add missing property labels (34/36 leaked codes resolved across uniques/sets/runewords; `ethereal` excluded at source, `bloody`/`war`/`pierce-dmg` deliberately unmapped)
+- [x] Broaden regression test to cover every data file (3 -> 8)
+- [x] d2r.world spot-check + verification doc — final whole-branch review clean
 
 ### Follow-up sub-projects (agreed order, not yet started)
 - Icon sizing/styling pass (match d2r.world's sizing)
