@@ -164,14 +164,27 @@ _Spec: [docs/superpowers/specs/2026-07-15-runes-cube-crafted-design.md](../docs/
 - [x] Magic Items / Rare Items category system + pages
 - [x] Full verification + d2r.world spot-check — found/fixed 24 leaked raw property-code labels, added regression test; final whole-branch review clean
 
-## Item Inventory Icons 🔲
+## Item Inventory Icons ✅
 
 _Spec: [docs/superpowers/specs/2026-07-15-item-icons-design.md](../docs/superpowers/specs/2026-07-15-item-icons-design.md) · Plan: [plans/item-icons-implementation.md](./item-icons-implementation.md)_
 
-- [ ] Merge 623 self-extracted `inv*.png` icons (from `add-item-icons` branch) + rewrite provenance README
-- [ ] Render icons in ItemStatCard
-- [ ] Render icons in GrailItemDetail
-- [ ] Full verification + browser spot-check
+- [x] Merge 623 self-extracted `inv*.png` icons (from `add-item-icons` branch) + rewrite provenance README
+- [x] Render icons in ItemStatCard
+- [x] Render icons in GrailItemDetail
+- [x] Full verification + browser spot-check — final whole-branch review clean
+
+## Comprehensive Property-Label Audit 🔲
+
+_Spec: [docs/superpowers/specs/2026-07-16-property-label-audit-design.md](../docs/superpowers/specs/2026-07-16-property-label-audit-design.md) · Plan: [plans/property-label-audit-implementation.md](./property-label-audit-implementation.md)_
+
+- [ ] Research and add missing property labels (36 leaked codes across uniques/sets/runewords/magic-affixes)
+- [ ] Broaden regression test to cover every data file
+- [ ] d2r.world spot-check + verification doc
+
+### Follow-up sub-projects (agreed order, not yet started)
+- Icon sizing/styling pass (match d2r.world's sizing)
+- Category-grid icons (per-category representative icon on landing pages)
+- Full site audit vs. d2r.world (especially Misc: FCR/FHR/FBR, Alvl85 Areas, Area Level, Level Up)
 
 ## Backlog / Ideas
 
@@ -197,3 +210,4 @@ _Spec: [docs/superpowers/specs/2026-07-15-item-icons-design.md](../docs/superpow
 | [base-runewords-maxsockets-implementation.md](./base-runewords-maxsockets-implementation.md) | Base Items comparison tables, Runewords filterable list, generated Max Sockets table |
 | [runes-cube-crafted-magic-rare-implementation.md](./runes-cube-crafted-magic-rare-implementation.md) | Runes, Cube Recipes, Crafted Items, Magic Items, Rare Items — the final 5 Game Items sections |
 | [item-icons-implementation.md](./item-icons-implementation.md) | Render self-extracted item inventory icons on Unique/Set item cards and detail views |
+| [property-label-audit-implementation.md](./property-label-audit-implementation.md) | Close remaining leaked raw property codes across uniques/sets/runewords/magic-affixes; broaden regression test to every data file |
