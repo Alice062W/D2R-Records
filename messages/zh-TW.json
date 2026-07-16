@@ -190,18 +190,21 @@
     "affixAlvlLabel": "物品等級"
   },
   "AffixCategories": {
-    "amaz": "亞馬遜物品",
-    "armo": "通用護甲",
     "bar": "蠻族物品",
-    "blun": "鈍器",
-    "h2h": "爪類武器",
-    "mele": "近戰武器",
-    "miss": "遠程武器",
-    "rod": "死靈法師短杖",
-    "shld": "通用盾牌",
-    "staff": "通用長杖",
-    "thro": "投擲武器",
-    "weap": "通用武器"
+    "circlets": "冠冕",
+    "barbarianHelms": "蠻族頭盔",
+    "druidHelms": "德魯伊頭盔",
+    "paladinShields": "聖騎士盾牌",
+    "shrunkenHeads": "縮頭",
+    "smallCharms": "小型護身符",
+    "largeCharms": "中型護身符",
+    "grandCharms": "大型護身符",
+    "amazonSpears": "亞馬遜長矛",
+    "amazonBows": "亞馬遜弓",
+    "amazonJavelins": "亞馬遜標槍",
+    "assassinKatars": "刺客拳刃",
+    "throwingAxes": "投擲斧",
+    "throwingKnives": "投擲刀"
   },
   "BaseItems": {
     "grade_normal": "普通",

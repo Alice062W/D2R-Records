@@ -614,6 +614,27 @@ for (const category of SLOT_ORDER) {
   categoryIconsOut[category] = item.invfile;
 }
 
+// Every code below independently verified against vendor/d2data/json/items.json during
+// plan-writing (type, name, invfile, and on-disk PNG presence all confirmed) — not
+// guessed. Note amazonSpears/amazonBows/amazonJavelins reuse item codes am3/am1/am5
+// (Maiden Spear/Stag Bow/Maiden Javelin) rather than the raw type codes themselves
+// (aspe/abow/ajav are D2 item TYPES, not individual item codes with their own invfile).
+const MAGIC_ONLY_CATEGORY_ICON_CODES = {
+  circlets: 'ci0', barbarianHelms: 'ba1', druidHelms: 'dr1',
+  paladinShields: 'pa1', shrunkenHeads: 'ne1',
+  smallCharms: 'cm1', largeCharms: 'cm2', grandCharms: 'cm3',
+  amazonSpears: 'am3', amazonBows: 'am1', amazonJavelins: 'am5',
+  throwingAxes: 'tax', throwingKnives: 'tkf', assassinKatars: 'ktr',
+};
+
+for (const [slug, code] of Object.entries(MAGIC_ONLY_CATEGORY_ICON_CODES)) {
+  const item = items[code];
+  if (!item || !item.invfile) throw new Error(`No invfile found for magic-only category "${slug}" (code "${code}")`);
+  const iconPath = join(__dirname, '..', 'public', 'items', 'inv', `${item.invfile}.png`);
+  if (!existsSync(iconPath)) throw new Error(`Icon file missing for magic-only category "${slug}": ${item.invfile}.png`);
+  categoryIconsOut[slug] = item.invfile;
+}
+
 writeFileSync(join(OUT, 'category-icons.json'), JSON.stringify(categoryIconsOut, null, 2));
 console.log(`Wrote ${Object.keys(categoryIconsOut).length} category icons -> data/category-icons.json`);
 

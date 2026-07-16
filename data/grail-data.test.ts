@@ -450,7 +450,31 @@ describe('property labels (no leaked raw codes)', () => {
 
 describe('category-icons.json', () => {
   it('has exactly one entry per SLOT_ORDER category', () => {
-    expect(Object.keys(categoryIcons).sort()).toEqual([...SLOT_ORDER].sort());
+    for (const category of SLOT_ORDER) {
+      expect(Object.keys(categoryIcons)).toContain(category);
+    }
+  });
+
+  it('has a category-icons entry for every new granular Magic/Rare-only slug', () => {
+    // These slugs (introduced by the ancestor-closure category expansion) have no
+    // SLOT_ORDER/bases-full.json representative, so they need their own explicit
+    // entries in category-icons.json rather than falling out of the SLOT_ORDER loop.
+    const NEW_GRANULAR_SLUGS = [
+      'circlets', 'barbarianHelms', 'druidHelms', 'paladinShields', 'shrunkenHeads',
+      'smallCharms', 'largeCharms', 'grandCharms',
+      'amazonSpears', 'amazonBows', 'amazonJavelins', 'assassinKatars',
+      'throwingAxes', 'throwingKnives',
+    ];
+    const categories = new Set(
+      magicAffixesData.flatMap((a: { itemTypes: string[] }) => a.itemTypes)
+    );
+    for (const slug of NEW_GRANULAR_SLUGS) {
+      expect(categories.has(slug), `sanity check: "${slug}" should appear in magic-affixes.json`).toBe(true);
+      expect(
+        Object.prototype.hasOwnProperty.call(categoryIcons, slug),
+        `category "${slug}" has no entry in category-icons.json`
+      ).toBe(true);
+    }
   });
 
   it('every invFile has a matching PNG in public/items/inv/', () => {

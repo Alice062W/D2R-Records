@@ -190,18 +190,21 @@
     "affixAlvlLabel": "Alvl"
   },
   "AffixCategories": {
-    "amaz": "Amazon Items",
-    "armo": "Body Armor",
     "bar": "Barbarian Items",
-    "blun": "Blunt Weapons",
-    "h2h": "Claws",
-    "mele": "Melee Weapons",
-    "miss": "Missile Weapons",
-    "rod": "Necromancer Rods",
-    "shld": "Shields (General)",
-    "staff": "Staves (General)",
-    "thro": "Thrown Weapons",
-    "weap": "Weapons (General)"
+    "circlets": "Circlets",
+    "barbarianHelms": "Barbarian Helms",
+    "druidHelms": "Druid Helms",
+    "paladinShields": "Paladin Shields",
+    "shrunkenHeads": "Shrunken Heads",
+    "smallCharms": "Small Charms",
+    "largeCharms": "Large Charms",
+    "grandCharms": "Grand Charms",
+    "amazonSpears": "Amazon Spears",
+    "amazonBows": "Amazon Bows",
+    "amazonJavelins": "Amazon Javelins",
+    "assassinKatars": "Assassin Katars",
+    "throwingAxes": "Throwing Axes",
+    "throwingKnives": "Throwing Knives"
   },
   "BaseItems": {
     "grade_normal": "Normal",

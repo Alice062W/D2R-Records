@@ -203,17 +203,20 @@
     "qlvl": "物品等级"
   },
   "AffixCategories": {
-    "amaz": "亚马逊物品",
-    "armo": "通用护甲",
     "bar": "蛮族物品",
-    "blun": "钝器",
-    "h2h": "爪类武器",
-    "mele": "近战武器",
-    "miss": "远程武器",
-    "rod": "死灵法师短杖",
-    "shld": "通用盾牌",
-    "staff": "通用长杖",
-    "thro": "投掷武器",
-    "weap": "通用武器"
+    "circlets": "冠冕",
+    "barbarianHelms": "蛮族头盔",
+    "druidHelms": "德鲁伊头盔",
+    "paladinShields": "圣骑士盾牌",
+    "shrunkenHeads": "缩头",
+    "smallCharms": "小型护身符",
+    "largeCharms": "中型护身符",
+    "grandCharms": "大型护身符",
+    "amazonSpears": "亚马逊长矛",
+    "amazonBows": "亚马逊弓",
+    "amazonJavelins": "亚马逊标枪",
+    "assassinKatars": "刺客拳刃",
+    "throwingAxes": "投掷斧",
+    "throwingKnives": "投掷刀"
   }
 }

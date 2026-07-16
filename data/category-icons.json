@@ -26,5 +26,19 @@
   "bows": "invsbw",
   "crossbows": "invlxb",
   "javelins": "invjav",
-  "throwings": "invtkn"
+  "throwings": "invtkn",
+  "circlets": "invci0",
+  "barbarianHelms": "invba1",
+  "druidHelms": "invdr1",
+  "paladinShields": "invpa1",
+  "shrunkenHeads": "invne1",
+  "smallCharms": "invchm",
+  "largeCharms": "invwnd",
+  "grandCharms": "invsst",
+  "amazonSpears": "invam3",
+  "amazonBows": "invam1",
+  "amazonJavelins": "invam5",
+  "throwingAxes": "invtax",
+  "throwingKnives": "invtkn",
+  "assassinKatars": "invktr"
 }
