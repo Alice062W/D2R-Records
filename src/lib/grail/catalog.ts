@@ -125,6 +125,7 @@ const WEAPON_SLOTS_FOR_SET_COMBINATION = new Set([
   'swords', 'daggers', 'axes', 'polearms', 'spears',
   'clubs', 'maces', 'hammers', 'scepters', 'staves',
   'orbs', 'wands', 'katars', 'grimoires',
+  'bows', 'crossbows', 'javelins', 'throwings',
 ]);
 
 export function getCategoriesForKind(kind: 'unique' | 'set'): string[] {
