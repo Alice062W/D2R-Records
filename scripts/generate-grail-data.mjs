@@ -562,6 +562,7 @@ const basesFullOut = Object.entries(items)
     id: `base-${code}`,
     slotCategory: TYPE_TO_SLOT[v.type],
     subCategory: subCategoryFor(v.type),
+    invFile: v.invfile ?? '',
     grades: {
       normal: baseGradeFor(code),
       exceptional: v.ubercode && v.ubercode !== code ? baseGradeFor(v.ubercode) : null,

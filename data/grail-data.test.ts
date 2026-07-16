@@ -169,6 +169,13 @@ describe('bases-full.json', () => {
     const names = katars.map((k: { grades: { normal: { name: { en: string } } | null } }) => k.grades.normal?.name.en);
     expect(names).toContain('Katar');
   });
+
+  it('has a non-empty invFile matching a real file in public/items/inv for every line', () => {
+    for (const line of basesFull) {
+      expect(line.invFile).not.toBe('');
+      expect(existsSync(join(process.cwd(), 'public/items/inv', `${line.invFile}.png`))).toBe(true);
+    }
+  });
 });
 
 describe('bases-full.json subCategory (Helms/Shields sub-tabs)', () => {

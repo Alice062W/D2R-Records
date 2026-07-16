@@ -17,6 +17,7 @@ export interface BaseLine {
   id: string;
   slotCategory: string;
   subCategory: string | null;
+  invFile: string;
   grades: { normal: BaseGrade | null; exceptional: BaseGrade | null; elite: BaseGrade | null };
 }
 
@@ -38,6 +39,7 @@ export function getBaseLinesForCategory(category: string, locale: Locale): BaseL
       id: l.id,
       slotCategory: l.slotCategory,
       subCategory: l.subCategory,
+      invFile: l.invFile,
       grades: {
         normal: localizeGrade(l.grades.normal, locale),
         exceptional: localizeGrade(l.grades.exceptional, locale),
