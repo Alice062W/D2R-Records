@@ -93,16 +93,45 @@ Both underlying data sources already carry the information needed:
   - `scha`→`smallCharms`, `mcha`→`largeCharms`, `lcha`→`grandCharms` (replacing the
     single `charms` slug for Magic/Rare Items specifically — Unique/Set Items keep the
     single `charms` slug, confirmed unaffected)
-  - The remaining generic codes this session's earlier investigation couldn't resolve to
-    a real d2r.world category (`amaz` as a bare code, `armo`, `bar`, `blun`, `mele`,
-    `miss`, `rod`, `staff`, `weap` — i.e. whatever's left after the above splits) are
-    investigated during implementation: for each, check whether removing it entirely
-    from the map (falling through to no mapping, i.e. that raw code literally doesn't
-    occur in the real data once the more specific codes above are properly split out) or
-    whether it's a genuine remaining generic restriction with no more specific d2r.world
-    equivalent — do not force a fix onto every one of the original 12 if some turn out to
-    be genuinely generic restrictions with no real granular category (document any that
-    remain as a residual, smaller list, rather than assuming all 12 resolve).
+  - **Supertype expansion (the remaining 8-9 generic codes: `weap`, `armo`, `shld`,
+    `mele`, `miss`, `blun`, `rod`, `thro`, `amaz`)**: these are confirmed to be genuine
+    abstract supertype/class-restriction codes in `vendor/d2data/json/itemtypes.json`
+    (e.g. `weap`="Weapon", `armo`="Any Armor", `shld`="Any Shield" — itself a subtype of
+    `armo` — `mele`/`miss` are weapon subtypes of `weap`, `blun` is a subtype of `mele`,
+    `rod` a subtype of `blun`, `thro` a subtype of `weap`, `amaz` is an
+    Amazon-class-restriction wrapper). `itemtypes.json` encodes the real type hierarchy
+    via each type's `Equiv1`/`Equiv2` parent-link fields (e.g. `aspe` — Amazon Spear —
+    has `Equiv1: 'spea'` and `Equiv2: 'amaz'`, meaning it IS-A Spear AND IS-A Amazon
+    Item simultaneously). This means a supertype-restricted affix (e.g. one with
+    `itype1: 'weap'` and nothing else) genuinely applies to every leaf weapon category —
+    matching d2r.world's real behavior of showing that affix on every applicable specific
+    category page, not one generic catch-all tile. Fix: replace the flat
+    per-itype-code lookup with an ancestor-closure expansion — for each of the ~38 real
+    leaf category slugs (every specific code: `helm`, `pelt`, `phlm`, `circ`, `shie`,
+    `ashd`, `head`, `belt`, `boot`, `glov`, `ring`, `amul`, `scha`, `mcha`, `lcha`, `jewl`,
+    `swor`, `knif`, `axe`, `pole`, `spea`, `aspe`, `club`, `mace`, `hamm`, `scep`, `staf`,
+    `orb`, `wand`, `grim`, `h2h`, `bow`, `abow`, `xbow`, `jave`, `ajav`, `taxe`, `tkni`),
+    compute its full ancestor set by walking `Equiv1`/`Equiv2` links up
+    `itemtypes.json` until no further parent exists. An affix restricted to raw code `X`
+    (leaf or supertype) belongs to every leaf slug whose ancestor set contains `X` (a
+    leaf code trivially contains itself). This single mechanism handles ALL restriction
+    codes uniformly — no separate special-casing needed for "generic" vs "specific"
+    codes, and no residual generic-fallback list remains once this is in place.
+  - `bar` deserves a special note: unlike the codes above, it is NOT reached via
+    `itype{n}` at all in the real data (confirmed: zero `itype`-field occurrences across
+    all active affixes) and is NOT present in `itemtypes.json` at all — it's purely a
+    value of the affix's separate `class` field (a Barbarian-class restriction, handled
+    today by the existing class-based fallback added during the original Magic/Rare
+    build). Confirmed this is a genuinely different mechanism from the `itype`-based
+    ancestor tree (`amaz`'s equivalence-tree membership is a coincidence of how
+    Amazon-specific weapon types happen to be modeled as `itype` subtypes — Barbarian
+    restrictions aren't modeled the same way anywhere in the vendored data). Expanding
+    `class`-restricted affixes onto every category a given class can equip would need a
+    hand-authored "class → equippable categories" table (a materially different,
+    additional mechanism, not a reuse of the `itype` ancestor closure) — this is
+    explicitly OUT OF SCOPE for this pass; `bar` (and any other class-only restriction
+    code, if present) keeps today's generic-tile behavior. Documented here so it isn't
+    silently forgotten, but not implemented in this plan.
 - `messages/en.json`/`zh-TW.json`/`zh-CN.json`'s `AffixCategories` namespace gets new keys
   for every newly-introduced slug (`barbarianHelms`, `druidHelms`, `circlets`,
   `paladinShields`, `shrunkenHeads`, `amazonSpears`, `amazonBows`, `amazonJavelins`,
@@ -117,6 +146,10 @@ Both underlying data sources already carry the information needed:
 
 ## Non-goals
 
+- Class-restriction fallback expansion (`bar` and any other bare `class`-field
+  restriction with no `itype` presence) — needs a separate hand-authored
+  "class → equippable categories" mechanism, not a reuse of the `itype` ancestor
+  closure; stays as today's generic-tile behavior, flagged for a future pass.
 - Set Items' "combine all weapon categories into one Weapons tile" + "browse by full Set
   name" gaps — separate, already-agreed follow-up project.
 - The 4 unbuilt Misc pages (FCR/FHR/FBR, Alvl85 Areas, Area Level, Level Up) — separate,
@@ -134,9 +167,11 @@ Both underlying data sources already carry the information needed:
   `subCategory` matching their real D2 item family (spot-check at least one item per
   sub-category: a Circlet, a Barbarian Helm, a Druid Pelt, a Paladin Shield, a Shrunken
   Head). `data/magic-affixes.json`'s `itemTypes` include the new granular slugs where
-  expected, and a regression test confirms no unexpected residual generic code remains
-  unaccounted-for (extending the same "no leaked raw category" philosophy already used
-  for property labels, applied here to category slugs).
+  expected; a dedicated test for the ancestor-closure function confirms a supertype
+  code (e.g. `weap`) expands to every real leaf weapon slug, and a class+type combo
+  (e.g. `amaz` alone) expands to exactly `amazonSpears`/`amazonBows`/`amazonJavelins`. A
+  regression test confirms `bar` (and only `bar`, per the documented non-goal) remains
+  the sole unresolved generic code in the final output.
 - Component tests: the Base Items Helms/Shields pages render sub-tab filters and filter
   correctly; Magic/Rare category pages render the new granular tiles with working icons
   and labels in all 3 locales.
