@@ -230,9 +230,16 @@ _Spec: [docs/superpowers/specs/2026-07-16-area-level-design.md](../docs/superpow
 - [x] Area Level page (per-Act tabbed table)
 - [x] Full verification + d2r.world spot-check — found/fixed the "Moo Moo Farm"/Secret Cow Level internal-codename bug; final whole-branch review clean
 
+## Level Up (Misc) 🔲
+
+_Spec: [docs/superpowers/specs/2026-07-16-level-up-design.md](../docs/superpowers/specs/2026-07-16-level-up-design.md) · Plan: [plans/level-up-implementation.md](./level-up-implementation.md)_
+
+- [ ] Level Up data + page (hand-transcribed 14-row guide)
+- [ ] Full verification + d2r.world spot-check
+
 ### Follow-up sub-projects (agreed order, not yet started)
 - `bar` class-restriction fallback expansion (deferred, needs a separate hand-authored class-equipment mechanism)
-- Remaining Misc pages: Level Up (hand-transcribed curated guide), Alvl85 Areas (data-driven monster/immunity table), FCR/FHR/FBR (formula-derived breakpoints, most complex)
+- Remaining Misc pages: Alvl85 Areas (data-driven monster/immunity table), FCR/FHR/FBR (formula-derived breakpoints, most complex)
 
 ## Backlog / Ideas
 
@@ -265,3 +272,4 @@ _Spec: [docs/superpowers/specs/2026-07-16-area-level-design.md](../docs/superpow
 | [category-taxonomy-fix-implementation.md](./category-taxonomy-fix-implementation.md) | Base Items Helms/Shields sub-tabs + Magic/Rare granular category split via itemtypes.json ancestor-closure expansion |
 | [set-items-taxonomy-implementation.md](./set-items-taxonomy-implementation.md) | Set Items browse-by-name view (set-level partial/full bonuses) + combined Weapons category |
 | [area-level-implementation.md](./area-level-implementation.md) | Area Level Misc page — per-Act monster level table derived from levels.json |
+| [level-up-implementation.md](./level-up-implementation.md) | Level Up Misc page — hand-transcribed leveling guide |
