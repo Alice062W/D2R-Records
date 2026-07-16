@@ -203,8 +203,18 @@ _Spec: [docs/superpowers/specs/2026-07-16-katars-base-items-fix-design.md](../do
 - [x] Fix TYPE_TO_SLOT (h2h -> katars) so Base Items includes katars
 - [x] d2r.world spot-check — all 7 katar base items match exactly
 
+## Category Taxonomy Fix (Base Items sub-tabs + Magic/Rare granular split) 🔲
+
+_Spec: [docs/superpowers/specs/2026-07-16-category-taxonomy-fix-design.md](../docs/superpowers/specs/2026-07-16-category-taxonomy-fix-design.md) · Plan: [plans/category-taxonomy-fix-implementation.md](./category-taxonomy-fix-implementation.md)_
+
+- [ ] Add subCategory field to Base Items Helms/Shields entries
+- [ ] Base Items Helms/Shields sub-tab UI
+- [ ] Ancestor-closure resolver for Magic/Rare category expansion (itemtypes.json Equiv1/Equiv2)
+- [ ] i18n labels + category icons for new granular slugs
+- [ ] Full verification + d2r.world spot-check
+
 ### Follow-up sub-projects (agreed order, not yet started)
-- Sub-category taxonomy fix (bundled): Base Items' Shields (add Paladin Shields/Shrunken Heads/Grimoires sub-tabs) + Magic/Rare's 12 generic categories (split into Barbarian/Druid Helms, Circlets, Amazon Spears/Bows/Javelins, Sorceress Orbs, Necromancer Wands, Assassin Katars, Throwing Axes/Knives, Grand/Large/Small Charms) — then add icons for the newly-split categories
+- `bar` class-restriction fallback expansion (deferred, needs a separate hand-authored class-equipment mechanism)
 - Set Items taxonomy: combine weapon categories into one "Weapons" bucket (matching d2r.world); add the missing "browse by full Set name" view (Arctic Gear, Hsarus' Defense, etc. — previously deferred)
 - Full site audit vs. d2r.world for remaining pages (especially Misc: FCR/FHR/FBR, Alvl85 Areas, Area Level, Level Up — currently unbuilt placeholders)
 
@@ -236,3 +246,4 @@ _Spec: [docs/superpowers/specs/2026-07-16-katars-base-items-fix-design.md](../do
 | [icon-sizing-implementation.md](./icon-sizing-implementation.md) | Increase item inventory icon size from 40px to 80px to match d2r.world's presentation |
 | [category-icons-implementation.md](./category-icons-implementation.md) | Representative item icon per category tile on landing-page grids |
 | [katars-base-items-fix-implementation.md](./katars-base-items-fix-implementation.md) | Fix Katars missing from Base Items (wrong item-type code in TYPE_TO_SLOT) |
+| [category-taxonomy-fix-implementation.md](./category-taxonomy-fix-implementation.md) | Base Items Helms/Shields sub-tabs + Magic/Rare granular category split via itemtypes.json ancestor-closure expansion |
