@@ -255,6 +255,15 @@ _Spec: [docs/superpowers/specs/2026-07-16-bar-affix-exclusion-design.md](../docs
 - [x] Exclude malformed negative-charge affixes; remove bogus Barbarian Items category
 - [x] Full verification + d2r.world spot-check — no bar tile, matches d2r.world exactly
 
+### Icon Coverage Audit
+_Spec: [docs/superpowers/specs/2026-07-16-icon-coverage-audit-design.md](../docs/superpowers/specs/2026-07-16-icon-coverage-audit-design.md) · Plan: [plans/icon-coverage-audit-implementation.md](./icon-coverage-audit-implementation.md)_
+
+- [ ] Base Items icons (data already extracted — pure wiring)
+- [ ] Set Items browse-by-name index representative icon (pure wiring)
+- [ ] Rune icons (BLOCKED: needs 33 new icon files from Windows extraction)
+- [ ] Runeword rune-order icons (blocked on the same 33 files)
+- [ ] Full verification + d2r.world spot-check
+
 ## Backlog / Ideas
 
 - Batch appraisal (multiple items at once) — premium feature
