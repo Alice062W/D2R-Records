@@ -205,7 +205,12 @@
     "areaLevelAct2": "第二章",
     "areaLevelAct3": "第三章",
     "areaLevelAct4": "第四章",
-    "areaLevelAct5": "第五章"
+    "areaLevelAct5": "第五章",
+    "levelUpPageTitle": "升级指南",
+    "levelUpPageSubtitle": "浏览暗黑破坏神2：狱火重生中在各角色等级下能获得最大经验值的区域。",
+    "levelUpClvlLabel": "角色等级",
+    "levelUpDifficultyLabel": "难度",
+    "levelUpActLabel": "章节"
   },
   "BaseItems": {
     "grade_normal": "普通",

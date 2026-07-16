@@ -205,7 +205,12 @@
     "areaLevelAct2": "Act 2",
     "areaLevelAct3": "Act 3",
     "areaLevelAct4": "Act 4",
-    "areaLevelAct5": "Act 5"
+    "areaLevelAct5": "Act 5",
+    "levelUpPageTitle": "Level Up",
+    "levelUpPageSubtitle": "What level should you be to gain maximum experience in a given area, in Diablo II: Resurrected.",
+    "levelUpClvlLabel": "Character Level",
+    "levelUpDifficultyLabel": "Difficulty",
+    "levelUpActLabel": "Act"
   },
   "AffixCategories": {
     "bar": "Barbarian Items",

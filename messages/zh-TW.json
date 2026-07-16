@@ -205,7 +205,12 @@
     "areaLevelAct2": "第二章",
     "areaLevelAct3": "第三章",
     "areaLevelAct4": "第四章",
-    "areaLevelAct5": "第五章"
+    "areaLevelAct5": "第五章",
+    "levelUpPageTitle": "升級指南",
+    "levelUpPageSubtitle": "瀏覽暗黑破壞神2：獄火重生中在各角色等級下能獲得最大經驗值的區域。",
+    "levelUpClvlLabel": "角色等級",
+    "levelUpDifficultyLabel": "難度",
+    "levelUpActLabel": "章節"
   },
   "AffixCategories": {
     "bar": "蠻族物品",
