@@ -6,7 +6,10 @@ import runewordsFull from './runewords-full.json';
 import cubeRecipesData from './cube-recipes.json';
 import craftedItemsData from './crafted-items.json';
 import magicAffixesData from './magic-affixes.json';
+import categoryIcons from './category-icons.json';
 import { getCategoriesForKind, SLOT_ORDER } from '@/lib/grail/catalog';
+import { existsSync } from 'fs';
+import { join } from 'path';
 
 interface LocalizedText { en: string; 'zh-TW': string; 'zh-CN': string; }
 
@@ -413,5 +416,27 @@ describe('property labels (no leaked raw codes)', () => {
     for (const code of leaked) {
       expect(DELIBERATELY_UNMAPPED.has(code)).toBe(true);
     }
+  });
+});
+
+describe('category-icons.json', () => {
+  it('has exactly one entry per SLOT_ORDER category', () => {
+    expect(Object.keys(categoryIcons).sort()).toEqual([...SLOT_ORDER].sort());
+  });
+
+  it('every invFile has a matching PNG in public/items/inv/', () => {
+    for (const [category, invFile] of Object.entries(categoryIcons)) {
+      const path = join(process.cwd(), 'public', 'items', 'inv', `${invFile}.png`);
+      expect(existsSync(path), `missing icon for category "${category}": ${invFile}.png`).toBe(true);
+    }
+  });
+
+  it('resolves the expected representative icon for a sample of categories', () => {
+    expect(categoryIcons.axes).toBe('invhax');
+    expect(categoryIcons.rings).toBe('invrin');
+    expect(categoryIcons.amulets).toBe('invamu');
+    expect(categoryIcons.charms).toBe('invchm');
+    expect(categoryIcons.katars).toBe('invktr');
+    expect(categoryIcons.jewels).toBe('invgswe');
   });
 });

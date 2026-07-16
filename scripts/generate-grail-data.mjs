@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // scripts/generate-grail-data.mjs
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import * as OpenCC from 'opencc-js';
@@ -561,6 +561,51 @@ const basesFullOut = Object.entries(items)
 
 writeFileSync(join(OUT, 'bases-full.json'), JSON.stringify(basesFullOut, null, 2));
 console.log(`Wrote ${basesFullOut.length} base item lines -> data/bases-full.json`);
+
+// Mirrors src/lib/grail/catalog.ts's SLOT_ORDER export. This script is a plain .mjs
+// file and cannot import the TypeScript export directly, so it duplicates the
+// constant here (as it already does for other catalog-adjacent constants like
+// TYPE_TO_SLOT) — keep this in sync with SLOT_ORDER if that list ever changes.
+const SLOT_ORDER = [
+  'helms', 'armors', 'shields', 'belts', 'boots', 'gloves',
+  'rings', 'amulets', 'charms', 'jewels',
+  'swords', 'daggers', 'axes', 'polearms', 'spears',
+  'clubs', 'maces', 'hammers', 'scepters', 'staves',
+  'orbs', 'wands', 'grimoires', 'katars',
+  'bows', 'crossbows', 'javelins', 'throwings',
+];
+
+// A small number of SLOT_ORDER categories have no graded (normal/exceptional/elite)
+// entry in bases-full.json at all (rings/amulets/charms/jewels aren't tiered gear), and
+// katars need a different lookup (their D2 item *type* code is "h2h", which collides
+// with Assassin claims' generic type used elsewhere) — resolved via this explicit map
+// of { slotCategory: representative item code } instead of the bases-full.json lookup
+// used for every other category.
+const CATEGORY_ICON_CODE_OVERRIDES = {
+  rings: 'rin',
+  amulets: 'amu',
+  charms: 'cm1', // Small Charm — representative of the charms category
+  jewels: 'jew',
+  katars: 'ktr',
+};
+
+const categoryIconsOut = {};
+for (const category of SLOT_ORDER) {
+  let code = CATEGORY_ICON_CODE_OVERRIDES[category];
+  if (!code) {
+    const rep = basesFullOut.find(b => b.slotCategory === category);
+    if (!rep) throw new Error(`No representative base item found for category "${category}"`);
+    code = rep.id.replace('base-', '');
+  }
+  const item = items[code];
+  if (!item || !item.invfile) throw new Error(`No invfile found for category "${category}" (code "${code}")`);
+  const iconPath = join(__dirname, '..', 'public', 'items', 'inv', `${item.invfile}.png`);
+  if (!existsSync(iconPath)) throw new Error(`Icon file missing for category "${category}": ${item.invfile}.png`);
+  categoryIconsOut[category] = item.invfile;
+}
+
+writeFileSync(join(OUT, 'category-icons.json'), JSON.stringify(categoryIconsOut, null, 2));
+console.log(`Wrote ${Object.keys(categoryIconsOut).length} category icons -> data/category-icons.json`);
 
 writeFileSync(join(OUT, 'uniques.json'), JSON.stringify(uniquesOut, null, 2));
 writeFileSync(join(OUT, 'sets.json'), JSON.stringify(setsOut, null, 2));
