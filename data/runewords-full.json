@@ -886,7 +886,7 @@
     ],
     "sockets": 3,
     "itemTypes": [
-      "h2h"
+      "katars"
     ],
     "levelReq": 57,
     "ladderOnly": false,
@@ -4803,7 +4803,7 @@
     ],
     "sockets": 3,
     "itemTypes": [
-      "h2h"
+      "katars"
     ],
     "levelReq": 53,
     "ladderOnly": false,
@@ -5397,7 +5397,7 @@
     ],
     "sockets": 3,
     "itemTypes": [
-      "h2h"
+      "katars"
     ],
     "levelReq": 23,
     "ladderOnly": false,
