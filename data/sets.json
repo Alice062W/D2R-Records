@@ -2045,9 +2045,9 @@
       {
         "key": "fireskill",
         "label": {
-          "en": "fireskill",
-          "zh-TW": "fireskill",
-          "zh-CN": "fireskill"
+          "en": "Fire Skills",
+          "zh-TW": "火焰技能加成",
+          "zh-CN": "火焰技能加成"
         },
         "value": 1
       },
@@ -2186,9 +2186,9 @@
       {
         "key": "light-thorns",
         "label": {
-          "en": "light-thorns",
-          "zh-TW": "light-thorns",
-          "zh-CN": "light-thorns"
+          "en": "Attacker Takes Lightning Damage",
+          "zh-TW": "攻擊者承受閃電傷害",
+          "zh-CN": "攻击者承受闪电伤害"
         },
         "value": 5
       }
@@ -3874,9 +3874,9 @@
       {
         "key": "block3",
         "label": {
-          "en": "block3",
-          "zh-TW": "block3",
-          "zh-CN": "block3"
+          "en": "Faster Block Rate",
+          "zh-TW": "加快格擋速度",
+          "zh-CN": "加快格挡速度"
         },
         "value": 30
       }
@@ -5585,9 +5585,9 @@
       {
         "key": "dmg-mag",
         "label": {
-          "en": "dmg-mag",
-          "zh-TW": "dmg-mag",
-          "zh-CN": "dmg-mag"
+          "en": "Magic Damage",
+          "zh-TW": "魔法傷害",
+          "zh-CN": "魔法伤害"
         },
         "min": 250,
         "max": 361
@@ -6374,9 +6374,9 @@
       {
         "key": "light-thorns",
         "label": {
-          "en": "light-thorns",
-          "zh-TW": "light-thorns",
-          "zh-CN": "light-thorns"
+          "en": "Attacker Takes Lightning Damage",
+          "zh-TW": "攻擊者承受閃電傷害",
+          "zh-CN": "攻击者承受闪电伤害"
         },
         "value": 4
       }
@@ -6528,9 +6528,9 @@
       {
         "key": "magicarrow",
         "label": {
-          "en": "magicarrow",
-          "zh-TW": "magicarrow",
-          "zh-CN": "magicarrow"
+          "en": "Fires Magic Arrows",
+          "zh-TW": "發射魔法箭",
+          "zh-CN": "发射魔法箭"
         },
         "value": 1
       },
@@ -6548,9 +6548,9 @@
       {
         "key": "dmg-mag",
         "label": {
-          "en": "dmg-mag",
-          "zh-TW": "dmg-mag",
-          "zh-CN": "dmg-mag"
+          "en": "Magic Damage",
+          "zh-TW": "魔法傷害",
+          "zh-CN": "魔法伤害"
         },
         "min": 114,
         "max": 377
@@ -10937,9 +10937,9 @@
       {
         "key": "block3",
         "label": {
-          "en": "block3",
-          "zh-TW": "block3",
-          "zh-CN": "block3"
+          "en": "Faster Block Rate",
+          "zh-TW": "加快格擋速度",
+          "zh-CN": "加快格挡速度"
         },
         "value": 40
       },

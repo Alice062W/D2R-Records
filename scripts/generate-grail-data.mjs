@@ -82,6 +82,75 @@ const PROP_LABELS_EN = {
   'fire-min': 'Fire Damage (Min)', 'fire-max': 'Fire Damage (Max)',
   'cold-min': 'Cold Damage (Min)', 'cold-max': 'Cold Damage (Max)', 'cold-len': 'Cold Duration',
   'pois-min': 'Poison Damage (Min)', 'pois-max': 'Poison Damage (Max)', 'pois-len': 'Poison Duration',
+  // Property-label audit (comprehensive), round 2: codes confirmed via itemstatcost.json
+  // Stat-name matches and/or d2r.world spot-checks (see docs/superpowers/specs/
+  // 2026-07-16-property-label-audit-design.md and the task-1 report for the full
+  // evidence trail per code). `pierce` (item_pierce, "% Piercing Attack" on
+  // Buriza-Do Kyanon) is distinct from the already-mapped `ignore-ac` ("Ignore
+  // Target's Defense") — verified they're different raw codes on different items.
+  pierce: 'Piercing Attack %',
+  'pierce-immunity-cold': 'Monster Cold Immunity is Sundered',
+  'pierce-immunity-fire': 'Monster Fire Immunity is Sundered',
+  'pierce-immunity-light': 'Monster Lightning Immunity is Sundered',
+  'pierce-immunity-poison': 'Monster Poison Immunity is Sundered',
+  'pierce-immunity-damage': 'Monster Physical Immunity is Sundered',
+  'pierce-immunity-magic': 'Monster Magic Immunity is Sundered',
+  'abs-ltng%': 'Lightning Absorb %', 'abs-cold%': 'Cold Absorb %', 'abs-fire%': 'Fire Absorb %',
+  'abs-mag': 'Magic Absorb',
+  'res-all-max': 'Maximum All Resistances %',
+  'light-thorns': 'Attacker Takes Lightning Damage',
+  block3: 'Faster Block Rate',
+  magicarrow: 'Fires Magic Arrows', explosivearrow: 'Fires Explosive Arrows or Bolts',
+  'heal-kill': 'Life after each Kill',
+  // dmg-mag confirmed on Azurewrath/Ginther's Rift/Lightsabre etc. as "Adds X-Y
+  // Magic Damage" (a flat magic-damage-add stat, distinct from `abs-mag`/`extra-mag`).
+  'dmg-mag': 'Magic Damage',
+  // dmg-elem (item Hellrack: par references an internal element-index, not a
+  // skill id) renders on d2r.world as "Adds X-Y [Fire/Cold/Lightning] Damage"
+  // where the element is rolled at generation time — distinct from dmg-mag and
+  // the fixed per-element dmg-fire/dmg-cold/dmg-ltng codes.
+  'dmg-elem': 'Adds Random Elemental Damage',
+  fireskill: 'Fire Skills',
+  // "cheap" confirmed via d2r.world (Gheed's Fortune): "-% Extra Gold from
+  // Monsters" is the separate `gold%` code; this is the distinct "Reduces all
+  // Vendor Prices" stat.
+  cheap: 'Reduces all Vendor Prices %',
+  // "rip" confirmed via d2r.world (Nature's Peace, Tyrael's Might): exact in-game
+  // wording is "Slain Monsters Rest in Peace" (prevents corpse-based skills like
+  // Corpse Explosion/Revive from using the body).
+  rip: 'Slain Monsters Rest in Peace',
+  reanimate: 'Chance to Reanimate as Monster %',
+  'charge-noconsume': 'Chance to Not Consume Charges %',
+  'all-stats': 'All Attributes',
+  addxp: 'Experience Gained %',
+  // "randclassskill" (Hellfire Torch) grants a level to one random skill from
+  // ANY class; "skill-rand" (Ormus' Robes) grants a level to one random skill
+  // from the item's own restricted class — two distinct real mechanics,
+  // confirmed via d2r.world wording ("+ to Random Character Class Skill Levels"
+  // vs. "+ to a Random Sorceress Skill (Sorceress Only)").
+  randclassskill: 'Random Character Class Skill Levels',
+  'skill-rand': 'Random Class Skill Levels',
+  // "magdam-rand" (Opalvein) rolls one of several elemental-skill-damage-%/
+  // enhanced-damage-% mods at generation time (d2r.world shows it as a "One of
+  // the following:" block) — distinct from the fixed `dmg-mag`.
+  'magdam-rand': 'Random Elemental/Enhanced Damage %',
+  // "skilltab-war" only appears in this project's vendored data on a
+  // custom-class ("Warlock Only") item (Wraithstep) shown on d2r.world as a
+  // random one-of-several skill-tab roll — same unconfirmable-specific-tab-name
+  // situation as `skilltab` itself, so it shares that generic label and the
+  // same key-disambiguation treatment (see KEY_ONLY_DISAMBIGUATE_PROPS below)
+  // rather than guessing a tab name.
+  'skilltab-war': 'Skill Tab Bonus',
+  // att-und/dmg-und are short-form aliases of att-undead/dmg-undead used
+  // specifically in the "/lvl" (per-level-scaling) shape, e.g. Boneslayer
+  // Blade's "att-und/lvl" — confirmed same raw meaning via itemstatcost.json's
+  // undead-related Stat family and the item's sibling "dmg-und/lvl" entry.
+  'att-und': 'Attack Rating vs. Undead %',
+  'dmg-und': 'Damage to Undead',
+  // aura/kill-skill are skill-referencing base labels (see SKILL_REF_PROPS below);
+  // localizedLabelWithSkill appends "(<Skill/Aura Name>)" to this base text.
+  aura: 'Aura Level',
+  'kill-skill': 'Chance to Cast on Kill %',
 };
 
 // Hand-translated Traditional Chinese counterpart to PROP_LABELS_EN — same keys, same
@@ -143,6 +212,37 @@ const PROP_LABELS_ZH_TW = {
   'fire-min': '火焰傷害（最小）', 'fire-max': '火焰傷害（最大）',
   'cold-min': '冷凍傷害（最小）', 'cold-max': '冷凍傷害（最大）', 'cold-len': '冷凍持續時間',
   'pois-min': '毒素傷害（最小）', 'pois-max': '毒素傷害（最大）', 'pois-len': '毒素持續時間',
+  pierce: '穿透攻擊 %',
+  'pierce-immunity-cold': '解除怪物冷凍免疫',
+  'pierce-immunity-fire': '解除怪物火焰免疫',
+  'pierce-immunity-light': '解除怪物閃電免疫',
+  'pierce-immunity-poison': '解除怪物毒素免疫',
+  'pierce-immunity-damage': '解除怪物物理免疫',
+  'pierce-immunity-magic': '解除怪物魔法免疫',
+  'abs-ltng%': '閃電吸收 %', 'abs-cold%': '冷凍吸收 %', 'abs-fire%': '火焰吸收 %',
+  'abs-mag': '魔法吸收',
+  'res-all-max': '最大全抗性 %',
+  'light-thorns': '攻擊者承受閃電傷害',
+  block3: '加快格擋速度',
+  magicarrow: '發射魔法箭', explosivearrow: '發射爆炸箭矢',
+  'heal-kill': '擊殺後恢復生命值',
+  'dmg-mag': '魔法傷害',
+  'dmg-elem': '隨機元素傷害',
+  fireskill: '火焰技能加成',
+  cheap: '降低商店價格 %',
+  rip: '擊殺的怪物將安息',
+  reanimate: '復活成怪物機率 %',
+  'charge-noconsume': '有機率不消耗充能次數 %',
+  'all-stats': '全部屬性',
+  addxp: '增加經驗值 %',
+  randclassskill: '隨機職業技能加成',
+  'skill-rand': '隨機本職業技能加成',
+  'magdam-rand': '隨機元素/強化傷害 %',
+  'skilltab-war': '技能列加成',
+  'att-und': '對不死系攻擊等級 %',
+  'dmg-und': '對不死系傷害',
+  aura: '光環等級',
+  'kill-skill': '擊殺時觸發機率',
 };
 
 const LVL_SUFFIX = { en: ' (Based on Character Level)', 'zh-TW': '（依角色等級）' };
@@ -185,9 +285,15 @@ function localizedLabelFor(code) {
 // naming each of its four granted skills) — the specific skill is silently lost.
 // `Gethit-skill` (capital G) is a case-variant of `gethit-skill` in the source
 // data; normalized to the lowercase code so it's treated as the same stat.
+// `aura` and `kill-skill` were confirmed skill/aura-referencing during the
+// comprehensive property-label audit: Azurewrath's `aura` par is the literal
+// string "Sanctuary" (a Paladin aura name) and Executioner's Justice's
+// `kill-skill` par is the literal string "Decrepify" — the same
+// literal-skill-name shape SKILL_REF_PROPS already handles for skill/oskill
+// (verified directly against vendor/d2data/json/uniqueitems.json).
 const SKILL_REF_PROPS = new Set([
   'skill', 'oskill', 'charged', 'hit-skill', 'gethit-skill',
-  'death-skill', 'att-skill', 'levelup-skill',
+  'death-skill', 'att-skill', 'levelup-skill', 'aura', 'kill-skill',
 ]);
 const CODE_ALIASES = { 'Gethit-skill': 'gethit-skill' };
 
@@ -200,7 +306,10 @@ const CODE_ALIASES = { 'Gethit-skill': 'gethit-skill' };
 // the storage *key* (fixes real data loss — multiple tab bonuses on one item,
 // e.g. Jadetalon, would otherwise silently overwrite each other's logged
 // values) without claiming a specific tab name in the *label*.
-const KEY_ONLY_DISAMBIGUATE_PROPS = new Set(['skilltab']);
+// `skilltab-war` shares `skilltab`'s unconfirmable-specific-tab-name problem
+// (its only known vendored occurrence, Wraithstep, shows a random one-of-several
+// tab roll on d2r.world with no single resolvable tab name) — same treatment.
+const KEY_ONLY_DISAMBIGUATE_PROPS = new Set(['skilltab', 'skilltab-war']);
 
 function isNumericPar(par) {
   return typeof par === 'number' || (typeof par === 'string' && /^-?\d+$/.test(par));
@@ -302,6 +411,14 @@ function extractProps(entry, count, prefixes = { code: 'prop', par: 'par', min: 
   for (let n = 1; n <= count; n++) {
     const rawCode = entry[`${prefixes.code}${n}`];
     if (!rawCode) continue;
+    // "ethereal" is not a real granted magic property — itemstatcost.json has no
+    // matching Stat entry at all (unlike every other code here), and the vendored
+    // uniqueitems.json rows carrying it (e.g. Ethereal Edge) always pair it with
+    // `indestruct` as a min=max=1 flag, matching D2's actual mechanic where
+    // ethereal-ness is a separate item-quality bit, not a min/max-scored magic
+    // stat. Showing "Ethereal: 1" as a property line would be misleading, so it's
+    // excluded here rather than given a (necessarily made-up) label.
+    if (rawCode === 'ethereal') continue;
     const code = CODE_ALIASES[rawCode] ?? rawCode;
     const par = entry[`${prefixes.par}${n}`];
     const isSkillRef = SKILL_REF_PROPS.has(code);

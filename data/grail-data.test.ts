@@ -372,7 +372,13 @@ describe('property labels (no leaked raw codes)', () => {
   // - "war": corresponds to `passive_warmth` in itemstatcost.json, which carries no
   //   descstrpos/descfunc — i.e. no confirmable in-game display text — so it's left
   //   unmapped rather than guessed.
-  const DELIBERATELY_UNMAPPED = new Set(['pierce-dmg', 'war']);
+  // - "bloody": appears only on `version: 0` (pre-expansion/classic) vendored
+  //   uniqueitems.json rows (Swordback Hold, Gorefoot) alongside `openwounds` and
+  //   `thorns`, has no matching Stat entry anywhere in itemstatcost.json, and
+  //   doesn't appear at all on the current (expansion) d2r.world listings for
+  //   either item — likely a superseded/renamed classic-era code with no
+  //   confirmable modern wording, so it's left unmapped rather than guessed.
+  const DELIBERATELY_UNMAPPED = new Set(['pierce-dmg', 'war', 'bloody']);
 
   // A stat whose `label.en` is identical to its own code (the part of `key` before any
   // ":"-disambiguator) and looks like a raw internal property code (lowercase,

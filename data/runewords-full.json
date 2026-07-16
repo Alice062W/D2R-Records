@@ -182,11 +182,11 @@
         "value": 40
       },
       {
-        "key": "aura",
+        "key": "aura:Fanaticism",
         "label": {
-          "en": "aura",
-          "zh-TW": "aura",
-          "zh-CN": "aura"
+          "en": "Aura Level (Fanaticism)",
+          "zh-TW": "光環等級 (Fanaticism)",
+          "zh-CN": "光环等级 (Fanaticism)"
         },
         "value": 9
       },
@@ -371,11 +371,11 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "aura",
+        "key": "aura:Thorns",
         "label": {
-          "en": "aura",
-          "zh-TW": "aura",
-          "zh-CN": "aura"
+          "en": "Aura Level (Thorns)",
+          "zh-TW": "光環等級 (Thorns)",
+          "zh-CN": "光环等级 (Thorns)"
         },
         "min": 15,
         "max": 21
@@ -423,9 +423,9 @@
       {
         "key": "heal-kill",
         "label": {
-          "en": "heal-kill",
-          "zh-TW": "heal-kill",
-          "zh-CN": "heal-kill"
+          "en": "Life after each Kill",
+          "zh-TW": "擊殺後恢復生命值",
+          "zh-CN": "击杀后恢复生命值"
         },
         "value": 13
       },
@@ -523,9 +523,9 @@
       {
         "key": "explosivearrow",
         "label": {
-          "en": "explosivearrow",
-          "zh-TW": "explosivearrow",
-          "zh-CN": "explosivearrow"
+          "en": "Fires Explosive Arrows or Bolts",
+          "zh-TW": "發射爆炸箭矢",
+          "zh-CN": "发射爆炸箭矢"
         },
         "value": 15
       }
@@ -564,11 +564,11 @@
         "max": 15
       },
       {
-        "key": "kill-skill",
+        "key": "kill-skill:Poison Nova",
         "label": {
-          "en": "kill-skill",
-          "zh-TW": "kill-skill",
-          "zh-CN": "kill-skill"
+          "en": "Chance to Cast on Kill % (Poison Nova)",
+          "zh-TW": "擊殺時觸發機率 (Poison Nova)",
+          "zh-CN": "击杀时触发机率 (Poison Nova)"
         },
         "min": 50,
         "max": 20
@@ -615,9 +615,9 @@
       {
         "key": "all-stats",
         "label": {
-          "en": "all-stats",
-          "zh-TW": "all-stats",
-          "zh-CN": "all-stats"
+          "en": "All Attributes",
+          "zh-TW": "全部屬性",
+          "zh-CN": "全部属性"
         },
         "value": 30
       }
@@ -904,9 +904,9 @@
       {
         "key": "dmg-mag",
         "label": {
-          "en": "dmg-mag",
-          "zh-TW": "dmg-mag",
-          "zh-CN": "dmg-mag"
+          "en": "Magic Damage",
+          "zh-TW": "魔法傷害",
+          "zh-CN": "魔法伤害"
         },
         "min": 216,
         "max": 471
@@ -1014,9 +1014,9 @@
       {
         "key": "heal-kill",
         "label": {
-          "en": "heal-kill",
-          "zh-TW": "heal-kill",
-          "zh-CN": "heal-kill"
+          "en": "Life after each Kill",
+          "zh-TW": "擊殺後恢復生命值",
+          "zh-CN": "击杀后恢复生命值"
         },
         "min": 1,
         "max": 5
@@ -1075,9 +1075,9 @@
       {
         "key": "abs-mag",
         "label": {
-          "en": "abs-mag",
-          "zh-TW": "abs-mag",
-          "zh-CN": "abs-mag"
+          "en": "Magic Absorb",
+          "zh-TW": "魔法吸收",
+          "zh-CN": "魔法吸收"
         },
         "min": 9,
         "max": 11
@@ -1194,11 +1194,11 @@
         "value": 50
       },
       {
-        "key": "aura",
+        "key": "aura:Cleansing",
         "label": {
-          "en": "aura",
-          "zh-TW": "aura",
-          "zh-CN": "aura"
+          "en": "Aura Level (Cleansing)",
+          "zh-TW": "光環等級 (Cleansing)",
+          "zh-CN": "光环等级 (Cleansing)"
         },
         "value": 1
       }
@@ -1411,9 +1411,9 @@
       {
         "key": "dmg-mag",
         "label": {
-          "en": "dmg-mag",
-          "zh-TW": "dmg-mag",
-          "zh-CN": "dmg-mag"
+          "en": "Magic Damage",
+          "zh-TW": "魔法傷害",
+          "zh-CN": "魔法伤害"
         },
         "min": 100,
         "max": 180
@@ -1534,11 +1534,11 @@
     ],
     "fixedStats": [
       {
-        "key": "aura",
+        "key": "aura:Holy Freeze",
         "label": {
-          "en": "aura",
-          "zh-TW": "aura",
-          "zh-CN": "aura"
+          "en": "Aura Level (Holy Freeze)",
+          "zh-TW": "光環等級 (Holy Freeze)",
+          "zh-CN": "光环等级 (Holy Freeze)"
         },
         "value": 12
       },
@@ -1613,9 +1613,9 @@
       {
         "key": "all-stats",
         "label": {
-          "en": "all-stats",
-          "zh-TW": "all-stats",
-          "zh-CN": "all-stats"
+          "en": "All Attributes",
+          "zh-TW": "全部屬性",
+          "zh-CN": "全部属性"
         },
         "min": 3,
         "max": 5
@@ -1650,11 +1650,11 @@
         "value": 3
       },
       {
-        "key": "aura",
+        "key": "aura:Holy Fire",
         "label": {
-          "en": "aura",
-          "zh-TW": "aura",
-          "zh-CN": "aura"
+          "en": "Aura Level (Holy Fire)",
+          "zh-TW": "光環等級 (Holy Fire)",
+          "zh-CN": "光环等级 (Holy Fire)"
         },
         "value": 14
       }
@@ -1741,11 +1741,11 @@
         "value": 5
       },
       {
-        "key": "aura",
+        "key": "aura:Holy Shock",
         "label": {
-          "en": "aura",
-          "zh-TW": "aura",
-          "zh-CN": "aura"
+          "en": "Aura Level (Holy Shock)",
+          "zh-TW": "光環等級 (Holy Shock)",
+          "zh-CN": "光环等级 (Holy Shock)"
         },
         "value": 15
       }
@@ -1872,9 +1872,9 @@
       {
         "key": "all-stats",
         "label": {
-          "en": "all-stats",
-          "zh-TW": "all-stats",
-          "zh-CN": "all-stats"
+          "en": "All Attributes",
+          "zh-TW": "全部屬性",
+          "zh-CN": "全部属性"
         },
         "min": 5,
         "max": 10
@@ -1909,20 +1909,20 @@
         "value": 1
       },
       {
-        "key": "aura",
+        "key": "aura:Thorns",
         "label": {
-          "en": "aura",
-          "zh-TW": "aura",
-          "zh-CN": "aura"
+          "en": "Aura Level (Thorns)",
+          "zh-TW": "光環等級 (Thorns)",
+          "zh-CN": "光环等级 (Thorns)"
         },
         "value": 15
       },
       {
         "key": "cheap",
         "label": {
-          "en": "cheap",
-          "zh-TW": "cheap",
-          "zh-CN": "cheap"
+          "en": "Reduces all Vendor Prices %",
+          "zh-TW": "降低商店價格 %",
+          "zh-CN": "降低商店价格 %"
         },
         "value": 15
       }
@@ -1962,9 +1962,9 @@
       {
         "key": "heal-kill",
         "label": {
-          "en": "heal-kill",
-          "zh-TW": "heal-kill",
-          "zh-CN": "heal-kill"
+          "en": "Life after each Kill",
+          "zh-TW": "擊殺後恢復生命值",
+          "zh-CN": "击杀后恢复生命值"
         },
         "value": 14
       },
@@ -2197,11 +2197,11 @@
         "max": 260
       },
       {
-        "key": "aura",
+        "key": "aura:Defiance",
         "label": {
-          "en": "aura",
-          "zh-TW": "aura",
-          "zh-CN": "aura"
+          "en": "Aura Level (Defiance)",
+          "zh-TW": "光環等級 (Defiance)",
+          "zh-CN": "光环等级 (Defiance)"
         },
         "min": 13,
         "max": 16
@@ -2277,11 +2277,11 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "aura",
+        "key": "aura:Fanaticism",
         "label": {
-          "en": "aura",
-          "zh-TW": "aura",
-          "zh-CN": "aura"
+          "en": "Aura Level (Fanaticism)",
+          "zh-TW": "光環等級 (Fanaticism)",
+          "zh-CN": "光环等级 (Fanaticism)"
         },
         "min": 12,
         "max": 15
@@ -2337,9 +2337,9 @@
       {
         "key": "reanimate",
         "label": {
-          "en": "reanimate",
-          "zh-TW": "reanimate",
-          "zh-CN": "reanimate"
+          "en": "Chance to Reanimate as Monster %",
+          "zh-TW": "復活成怪物機率 %",
+          "zh-CN": "复活成怪物机率 %"
         },
         "value": 10
       }
@@ -2378,9 +2378,9 @@
       {
         "key": "dmg-mag",
         "label": {
-          "en": "dmg-mag",
-          "zh-TW": "dmg-mag",
-          "zh-CN": "dmg-mag"
+          "en": "Magic Damage",
+          "zh-TW": "魔法傷害",
+          "zh-CN": "魔法伤害"
         },
         "min": 180,
         "max": 200
@@ -2388,9 +2388,9 @@
       {
         "key": "dmg-elem",
         "label": {
-          "en": "dmg-elem",
-          "zh-TW": "dmg-elem",
-          "zh-CN": "dmg-elem"
+          "en": "Adds Random Elemental Damage",
+          "zh-TW": "隨機元素傷害",
+          "zh-CN": "随机元素伤害"
         },
         "min": 50,
         "max": 200
@@ -2423,15 +2423,6 @@
           "zh-CN": "防止怪物治疗"
         },
         "value": 1
-      },
-      {
-        "key": "ethereal",
-        "label": {
-          "en": "ethereal",
-          "zh-TW": "ethereal",
-          "zh-CN": "ethereal"
-        },
-        "value": 1
       }
     ]
   },
@@ -2455,11 +2446,11 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "aura",
+        "key": "aura:Resist Fire",
         "label": {
-          "en": "aura",
-          "zh-TW": "aura",
-          "zh-CN": "aura"
+          "en": "Aura Level (Resist Fire)",
+          "zh-TW": "光環等級 (Resist Fire)",
+          "zh-CN": "光环等级 (Resist Fire)"
         },
         "min": 4,
         "max": 8
@@ -2489,9 +2480,9 @@
       {
         "key": "fireskill",
         "label": {
-          "en": "fireskill",
-          "zh-TW": "fireskill",
-          "zh-CN": "fireskill"
+          "en": "Fire Skills",
+          "zh-TW": "火焰技能加成",
+          "zh-CN": "火焰技能加成"
         },
         "value": 3
       },
@@ -2842,9 +2833,9 @@
       {
         "key": "heal-kill",
         "label": {
-          "en": "heal-kill",
-          "zh-TW": "heal-kill",
-          "zh-CN": "heal-kill"
+          "en": "Life after each Kill",
+          "zh-TW": "擊殺後恢復生命值",
+          "zh-CN": "击杀后恢复生命值"
         },
         "min": 10,
         "max": 15
@@ -2913,9 +2904,9 @@
       {
         "key": "abs-ltng%",
         "label": {
-          "en": "abs-ltng%",
-          "zh-TW": "abs-ltng%",
-          "zh-CN": "abs-ltng%"
+          "en": "Lightning Absorb %",
+          "zh-TW": "閃電吸收 %",
+          "zh-CN": "闪电吸收 %"
         },
         "min": 10,
         "max": 15
@@ -2995,11 +2986,11 @@
         "value": 33
       },
       {
-        "key": "aura",
+        "key": "aura:Holy Fire",
         "label": {
-          "en": "aura",
-          "zh-TW": "aura",
-          "zh-CN": "aura"
+          "en": "Aura Level (Holy Fire)",
+          "zh-TW": "光環等級 (Holy Fire)",
+          "zh-CN": "光环等级 (Holy Fire)"
         },
         "value": 16
       },
@@ -3056,9 +3047,9 @@
       {
         "key": "dmg-elem",
         "label": {
-          "en": "dmg-elem",
-          "zh-TW": "dmg-elem",
-          "zh-CN": "dmg-elem"
+          "en": "Adds Random Elemental Damage",
+          "zh-TW": "隨機元素傷害",
+          "zh-CN": "随机元素伤害"
         },
         "min": 55,
         "max": 160
@@ -3086,11 +3077,11 @@
     ],
     "fixedStats": [
       {
-        "key": "aura",
+        "key": "aura:Vigor",
         "label": {
-          "en": "aura",
-          "zh-TW": "aura",
-          "zh-CN": "aura"
+          "en": "Aura Level (Vigor)",
+          "zh-TW": "光環等級 (Vigor)",
+          "zh-CN": "光环等级 (Vigor)"
         },
         "value": 10
       },
@@ -3246,9 +3237,9 @@
       {
         "key": "abs-cold%",
         "label": {
-          "en": "abs-cold%",
-          "zh-TW": "abs-cold%",
-          "zh-CN": "abs-cold%"
+          "en": "Cold Absorb %",
+          "zh-TW": "冷凍吸收 %",
+          "zh-CN": "冷冻吸收 %"
         },
         "min": 10,
         "max": 15
@@ -3560,11 +3551,11 @@
         "value": 10
       },
       {
-        "key": "aura",
+        "key": "aura:Fanaticism",
         "label": {
-          "en": "aura",
-          "zh-TW": "aura",
-          "zh-CN": "aura"
+          "en": "Aura Level (Fanaticism)",
+          "zh-TW": "光環等級 (Fanaticism)",
+          "zh-CN": "光环等级 (Fanaticism)"
         },
         "value": 1
       }
@@ -3633,11 +3624,11 @@
     ],
     "fixedStats": [
       {
-        "key": "aura",
+        "key": "aura:Holy Freeze",
         "label": {
-          "en": "aura",
-          "zh-TW": "aura",
-          "zh-CN": "aura"
+          "en": "Aura Level (Holy Freeze)",
+          "zh-TW": "光環等級 (Holy Freeze)",
+          "zh-CN": "光环等级 (Holy Freeze)"
         },
         "value": 18
       },
@@ -3692,11 +3683,11 @@
         "max": 325
       },
       {
-        "key": "kill-skill",
+        "key": "kill-skill:Chain Lightning",
         "label": {
-          "en": "kill-skill",
-          "zh-TW": "kill-skill",
-          "zh-CN": "kill-skill"
+          "en": "Chance to Cast on Kill % (Chain Lightning)",
+          "zh-TW": "擊殺時觸發機率 (Chain Lightning)",
+          "zh-CN": "击杀时触发机率 (Chain Lightning)"
         },
         "min": 50,
         "max": 20
@@ -3742,11 +3733,11 @@
         "value": 4
       },
       {
-        "key": "aura",
+        "key": "aura:Conviction",
         "label": {
-          "en": "aura",
-          "zh-TW": "aura",
-          "zh-CN": "aura"
+          "en": "Aura Level (Conviction)",
+          "zh-TW": "光環等級 (Conviction)",
+          "zh-CN": "光环等级 (Conviction)"
         },
         "value": 12
       }
@@ -3803,11 +3794,11 @@
         "max": 6
       },
       {
-        "key": "aura",
+        "key": "aura:Meditation",
         "label": {
-          "en": "aura",
-          "zh-TW": "aura",
-          "zh-CN": "aura"
+          "en": "Aura Level (Meditation)",
+          "zh-TW": "光環等級 (Meditation)",
+          "zh-CN": "光环等级 (Meditation)"
         },
         "min": 12,
         "max": 17
@@ -3835,9 +3826,9 @@
       {
         "key": "all-stats",
         "label": {
-          "en": "all-stats",
-          "zh-TW": "all-stats",
-          "zh-CN": "all-stats"
+          "en": "All Attributes",
+          "zh-TW": "全部屬性",
+          "zh-CN": "全部属性"
         },
         "value": 5
       }
@@ -4090,11 +4081,11 @@
         "value": 4
       },
       {
-        "key": "aura",
+        "key": "aura:Might",
         "label": {
-          "en": "aura",
-          "zh-TW": "aura",
-          "zh-CN": "aura"
+          "en": "Aura Level (Might)",
+          "zh-TW": "光環等級 (Might)",
+          "zh-CN": "光环等级 (Might)"
         },
         "value": 17
       }
@@ -4140,11 +4131,11 @@
         "max": 210
       },
       {
-        "key": "aura",
+        "key": "aura:Sanctuary",
         "label": {
-          "en": "aura",
-          "zh-TW": "aura",
-          "zh-CN": "aura"
+          "en": "Aura Level (Sanctuary)",
+          "zh-TW": "光環等級 (Sanctuary)",
+          "zh-CN": "光环等级 (Sanctuary)"
         },
         "min": 16,
         "max": 18
@@ -4174,9 +4165,9 @@
       {
         "key": "rip",
         "label": {
-          "en": "rip",
-          "zh-TW": "rip",
-          "zh-CN": "rip"
+          "en": "Slain Monsters Rest in Peace",
+          "zh-TW": "擊殺的怪物將安息",
+          "zh-CN": "击杀的怪物将安息"
         },
         "value": 1
       },
@@ -4213,9 +4204,9 @@
       {
         "key": "fireskill",
         "label": {
-          "en": "fireskill",
-          "zh-TW": "fireskill",
-          "zh-CN": "fireskill"
+          "en": "Fire Skills",
+          "zh-TW": "火焰技能加成",
+          "zh-CN": "火焰技能加成"
         },
         "value": 3
       },
@@ -4749,11 +4740,11 @@
         "max": 375
       },
       {
-        "key": "aura",
+        "key": "aura:Concentration",
         "label": {
-          "en": "aura",
-          "zh-TW": "aura",
-          "zh-CN": "aura"
+          "en": "Aura Level (Concentration)",
+          "zh-TW": "光環等級 (Concentration)",
+          "zh-CN": "光环等级 (Concentration)"
         },
         "min": 8,
         "max": 12
@@ -4772,9 +4763,9 @@
       {
         "key": "pierce",
         "label": {
-          "en": "pierce",
-          "zh-TW": "pierce",
-          "zh-CN": "pierce"
+          "en": "Piercing Attack %",
+          "zh-TW": "穿透攻擊 %",
+          "zh-CN": "穿透攻击 %"
         },
         "value": 100
       },
@@ -4871,9 +4862,9 @@
       {
         "key": "charge-noconsume",
         "label": {
-          "en": "charge-noconsume",
-          "zh-TW": "charge-noconsume",
-          "zh-CN": "charge-noconsume"
+          "en": "Chance to Not Consume Charges %",
+          "zh-TW": "有機率不消耗充能次數 %",
+          "zh-CN": "有机率不消耗充能次数 %"
         },
         "value": 50
       },
@@ -5089,9 +5080,9 @@
       {
         "key": "abs-mag",
         "label": {
-          "en": "abs-mag",
-          "zh-TW": "abs-mag",
-          "zh-CN": "abs-mag"
+          "en": "Magic Absorb",
+          "zh-TW": "魔法吸收",
+          "zh-CN": "魔法吸收"
         },
         "min": 10,
         "max": 15
@@ -5140,11 +5131,11 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "kill-skill",
+        "key": "kill-skill:enchant",
         "label": {
-          "en": "kill-skill",
-          "zh-TW": "kill-skill",
-          "zh-CN": "kill-skill"
+          "en": "Chance to Cast on Kill % (enchant)",
+          "zh-TW": "擊殺時觸發機率 (enchant)",
+          "zh-CN": "击杀时触发机率 (enchant)"
         },
         "min": 30,
         "max": 21
@@ -5602,11 +5593,11 @@
         "max": 40
       },
       {
-        "key": "aura",
+        "key": "aura:Redemption",
         "label": {
-          "en": "aura",
-          "zh-TW": "aura",
-          "zh-CN": "aura"
+          "en": "Aura Level (Redemption)",
+          "zh-TW": "光環等級 (Redemption)",
+          "zh-CN": "光环等级 (Redemption)"
         },
         "min": 10,
         "max": 15
@@ -5684,11 +5675,11 @@
         "max": 15
       },
       {
-        "key": "aura",
+        "key": "aura:Cleansing",
         "label": {
-          "en": "aura",
-          "zh-TW": "aura",
-          "zh-CN": "aura"
+          "en": "Aura Level (Cleansing)",
+          "zh-TW": "光環等級 (Cleansing)",
+          "zh-CN": "光环等级 (Cleansing)"
         },
         "min": 13,
         "max": 17
@@ -5766,11 +5757,11 @@
         "max": 300
       },
       {
-        "key": "aura",
+        "key": "aura:Concentration",
         "label": {
-          "en": "aura",
-          "zh-TW": "aura",
-          "zh-CN": "aura"
+          "en": "Aura Level (Concentration)",
+          "zh-TW": "光環等級 (Concentration)",
+          "zh-CN": "光环等级 (Concentration)"
         },
         "min": 16,
         "max": 20
@@ -6200,9 +6191,9 @@
       {
         "key": "dmg-mag",
         "label": {
-          "en": "dmg-mag",
-          "zh-TW": "dmg-mag",
-          "zh-CN": "dmg-mag"
+          "en": "Magic Damage",
+          "zh-TW": "魔法傷害",
+          "zh-CN": "魔法伤害"
         },
         "min": 160,
         "max": 250
@@ -6250,9 +6241,9 @@
       {
         "key": "all-stats",
         "label": {
-          "en": "all-stats",
-          "zh-TW": "all-stats",
-          "zh-CN": "all-stats"
+          "en": "All Attributes",
+          "zh-TW": "全部屬性",
+          "zh-CN": "全部属性"
         },
         "min": 5,
         "max": 10
@@ -6332,9 +6323,9 @@
       {
         "key": "heal-kill",
         "label": {
-          "en": "heal-kill",
-          "zh-TW": "heal-kill",
-          "zh-CN": "heal-kill"
+          "en": "Life after each Kill",
+          "zh-TW": "擊殺後恢復生命值",
+          "zh-CN": "击杀后恢复生命值"
         },
         "min": 3,
         "max": 5
@@ -6353,9 +6344,9 @@
       {
         "key": "rip",
         "label": {
-          "en": "rip",
-          "zh-TW": "rip",
-          "zh-CN": "rip"
+          "en": "Slain Monsters Rest in Peace",
+          "zh-TW": "擊殺的怪物將安息",
+          "zh-CN": "击杀的怪物将安息"
         },
         "value": 1
       }
@@ -6658,9 +6649,9 @@
       {
         "key": "abs-mag",
         "label": {
-          "en": "abs-mag",
-          "zh-TW": "abs-mag",
-          "zh-CN": "abs-mag"
+          "en": "Magic Absorb",
+          "zh-TW": "魔法吸收",
+          "zh-CN": "魔法吸收"
         },
         "min": 3,
         "max": 8
@@ -7120,9 +7111,9 @@
       {
         "key": "abs-fire%",
         "label": {
-          "en": "abs-fire%",
-          "zh-TW": "abs-fire%",
-          "zh-CN": "abs-fire%"
+          "en": "Fire Absorb %",
+          "zh-TW": "火焰吸收 %",
+          "zh-CN": "火焰吸收 %"
         },
         "min": 10,
         "max": 15
@@ -7587,9 +7578,9 @@
       {
         "key": "all-stats",
         "label": {
-          "en": "all-stats",
-          "zh-TW": "all-stats",
-          "zh-CN": "all-stats"
+          "en": "All Attributes",
+          "zh-TW": "全部屬性",
+          "zh-CN": "全部属性"
         },
         "min": 8,
         "max": 12
@@ -7882,9 +7873,9 @@
       {
         "key": "pierce",
         "label": {
-          "en": "pierce",
-          "zh-TW": "pierce",
-          "zh-CN": "pierce"
+          "en": "Piercing Attack %",
+          "zh-TW": "穿透攻擊 %",
+          "zh-CN": "穿透攻击 %"
         },
         "value": 33
       },
@@ -7960,9 +7951,9 @@
       {
         "key": "dmg-mag",
         "label": {
-          "en": "dmg-mag",
-          "zh-TW": "dmg-mag",
-          "zh-CN": "dmg-mag"
+          "en": "Magic Damage",
+          "zh-TW": "魔法傷害",
+          "zh-CN": "魔法伤害"
         },
         "min": 85,
         "max": 120

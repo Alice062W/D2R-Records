@@ -2727,9 +2727,9 @@
       {
         "key": "fireskill",
         "label": {
-          "en": "fireskill",
-          "zh-TW": "fireskill",
-          "zh-CN": "fireskill"
+          "en": "Fire Skills",
+          "zh-TW": "火焰技能加成",
+          "zh-CN": "火焰技能加成"
         },
         "value": 2
       }
@@ -4916,9 +4916,9 @@
       {
         "key": "fireskill",
         "label": {
-          "en": "fireskill",
-          "zh-TW": "fireskill",
-          "zh-CN": "fireskill"
+          "en": "Fire Skills",
+          "zh-TW": "火焰技能加成",
+          "zh-CN": "火焰技能加成"
         },
         "value": 2
       }
@@ -5184,9 +5184,9 @@
       {
         "key": "magicarrow",
         "label": {
-          "en": "magicarrow",
-          "zh-TW": "magicarrow",
-          "zh-CN": "magicarrow"
+          "en": "Fires Magic Arrows",
+          "zh-TW": "發射魔法箭",
+          "zh-CN": "发射魔法箭"
         },
         "value": 3
       }
@@ -5252,9 +5252,9 @@
       {
         "key": "explosivearrow",
         "label": {
-          "en": "explosivearrow",
-          "zh-TW": "explosivearrow",
-          "zh-CN": "explosivearrow"
+          "en": "Fires Explosive Arrows or Bolts",
+          "zh-TW": "發射爆炸箭矢",
+          "zh-CN": "发射爆炸箭矢"
         },
         "value": 3
       },
@@ -5425,9 +5425,9 @@
       {
         "key": "pierce",
         "label": {
-          "en": "pierce",
-          "zh-TW": "pierce",
-          "zh-CN": "pierce"
+          "en": "Piercing Attack %",
+          "zh-TW": "穿透攻擊 %",
+          "zh-CN": "穿透攻击 %"
         },
         "value": 25
       },
@@ -5505,9 +5505,9 @@
       {
         "key": "magicarrow",
         "label": {
-          "en": "magicarrow",
-          "zh-TW": "magicarrow",
-          "zh-CN": "magicarrow"
+          "en": "Fires Magic Arrows",
+          "zh-TW": "發射魔法箭",
+          "zh-CN": "发射魔法箭"
         },
         "value": 5
       },
@@ -5649,9 +5649,9 @@
       {
         "key": "fireskill",
         "label": {
-          "en": "fireskill",
-          "zh-TW": "fireskill",
-          "zh-CN": "fireskill"
+          "en": "Fire Skills",
+          "zh-TW": "火焰技能加成",
+          "zh-CN": "火焰技能加成"
         },
         "value": 1
       }
@@ -5867,9 +5867,9 @@
       {
         "key": "pierce",
         "label": {
-          "en": "pierce",
-          "zh-TW": "pierce",
-          "zh-CN": "pierce"
+          "en": "Piercing Attack %",
+          "zh-TW": "穿透攻擊 %",
+          "zh-CN": "穿透攻击 %"
         },
         "value": 50
       },
@@ -5952,9 +5952,9 @@
       {
         "key": "explosivearrow",
         "label": {
-          "en": "explosivearrow",
-          "zh-TW": "explosivearrow",
-          "zh-CN": "explosivearrow"
+          "en": "Fires Explosive Arrows or Bolts",
+          "zh-TW": "發射爆炸箭矢",
+          "zh-CN": "发射爆炸箭矢"
         },
         "value": 5
       },
@@ -6048,9 +6048,9 @@
       {
         "key": "pierce",
         "label": {
-          "en": "pierce",
-          "zh-TW": "pierce",
-          "zh-CN": "pierce"
+          "en": "Piercing Attack %",
+          "zh-TW": "穿透攻擊 %",
+          "zh-CN": "穿透攻击 %"
         },
         "value": 35
       },
@@ -6246,9 +6246,9 @@
       {
         "key": "light-thorns",
         "label": {
-          "en": "light-thorns",
-          "zh-TW": "light-thorns",
-          "zh-CN": "light-thorns"
+          "en": "Attacker Takes Lightning Damage",
+          "zh-TW": "攻擊者承受閃電傷害",
+          "zh-CN": "攻击者承受闪电伤害"
         },
         "value": 7
       },
@@ -7137,9 +7137,9 @@
       {
         "key": "res-all-max",
         "label": {
-          "en": "res-all-max",
-          "zh-TW": "res-all-max",
-          "zh-CN": "res-all-max"
+          "en": "Maximum All Resistances %",
+          "zh-TW": "最大全抗性 %",
+          "zh-CN": "最大全抗性 %"
         },
         "value": 5
       },
@@ -7305,9 +7305,9 @@
       {
         "key": "light-thorns",
         "label": {
-          "en": "light-thorns",
-          "zh-TW": "light-thorns",
-          "zh-CN": "light-thorns"
+          "en": "Attacker Takes Lightning Damage",
+          "zh-TW": "攻擊者承受閃電傷害",
+          "zh-CN": "攻击者承受闪电伤害"
         },
         "min": 10,
         "max": 14
@@ -8260,9 +8260,9 @@
       {
         "key": "light-thorns",
         "label": {
-          "en": "light-thorns",
-          "zh-TW": "light-thorns",
-          "zh-CN": "light-thorns"
+          "en": "Attacker Takes Lightning Damage",
+          "zh-TW": "攻擊者承受閃電傷害",
+          "zh-CN": "攻击者承受闪电伤害"
         },
         "value": 3
       }
@@ -9108,9 +9108,9 @@
       {
         "key": "fireskill",
         "label": {
-          "en": "fireskill",
-          "zh-TW": "fireskill",
-          "zh-CN": "fireskill"
+          "en": "Fire Skills",
+          "zh-TW": "火焰技能加成",
+          "zh-CN": "火焰技能加成"
         },
         "value": 1
       },
@@ -11776,9 +11776,9 @@
       {
         "key": "light-thorns",
         "label": {
-          "en": "light-thorns",
-          "zh-TW": "light-thorns",
-          "zh-CN": "light-thorns"
+          "en": "Attacker Takes Lightning Damage",
+          "zh-TW": "攻擊者承受閃電傷害",
+          "zh-CN": "攻击者承受闪电伤害"
         },
         "value": 15
       }
@@ -11850,18 +11850,18 @@
       {
         "key": "att-und/lvl",
         "label": {
-          "en": "att-und (Based on Character Level)",
-          "zh-TW": "att-und（依角色等級）",
-          "zh-CN": "att-und（依角色等级）"
+          "en": "Attack Rating vs. Undead % (Based on Character Level)",
+          "zh-TW": "對不死系攻擊等級 %（依角色等級）",
+          "zh-CN": "对不死系攻击等级 %（依角色等级）"
         },
         "value": 10
       },
       {
         "key": "dmg-und/lvl",
         "label": {
-          "en": "dmg-und (Based on Character Level)",
-          "zh-TW": "dmg-und（依角色等級）",
-          "zh-CN": "dmg-und（依角色等级）"
+          "en": "Damage to Undead (Based on Character Level)",
+          "zh-TW": "對不死系傷害（依角色等級）",
+          "zh-CN": "对不死系伤害（依角色等级）"
         },
         "value": 20
       },
@@ -13833,9 +13833,9 @@
       {
         "key": "fireskill",
         "label": {
-          "en": "fireskill",
-          "zh-TW": "fireskill",
-          "zh-CN": "fireskill"
+          "en": "Fire Skills",
+          "zh-TW": "火焰技能加成",
+          "zh-CN": "火焰技能加成"
         },
         "value": 3
       }
@@ -13971,9 +13971,9 @@
       {
         "key": "dmg-mag",
         "label": {
-          "en": "dmg-mag",
-          "zh-TW": "dmg-mag",
-          "zh-CN": "dmg-mag"
+          "en": "Magic Damage",
+          "zh-TW": "魔法傷害",
+          "zh-CN": "魔法伤害"
         },
         "min": 50,
         "max": 120
@@ -14514,9 +14514,9 @@
       {
         "key": "dmg-und/lvl",
         "label": {
-          "en": "dmg-und (Based on Character Level)",
-          "zh-TW": "dmg-und（依角色等級）",
-          "zh-CN": "dmg-und（依角色等级）"
+          "en": "Damage to Undead (Based on Character Level)",
+          "zh-TW": "對不死系傷害（依角色等級）",
+          "zh-CN": "对不死系伤害（依角色等级）"
         },
         "value": 60
       },
@@ -14541,9 +14541,9 @@
       {
         "key": "att-und/lvl",
         "label": {
-          "en": "att-und (Based on Character Level)",
-          "zh-TW": "att-und（依角色等級）",
-          "zh-CN": "att-und（依角色等级）"
+          "en": "Attack Rating vs. Undead % (Based on Character Level)",
+          "zh-TW": "對不死系攻擊等級 %（依角色等級）",
+          "zh-CN": "对不死系攻击等级 %（依角色等级）"
         },
         "value": 20
       }
@@ -14639,9 +14639,9 @@
       {
         "key": "light-thorns",
         "label": {
-          "en": "light-thorns",
-          "zh-TW": "light-thorns",
-          "zh-CN": "light-thorns"
+          "en": "Attacker Takes Lightning Damage",
+          "zh-TW": "攻擊者承受閃電傷害",
+          "zh-CN": "攻击者承受闪电伤害"
         },
         "value": 15
       },
@@ -15244,9 +15244,9 @@
       {
         "key": "light-thorns",
         "label": {
-          "en": "light-thorns",
-          "zh-TW": "light-thorns",
-          "zh-CN": "light-thorns"
+          "en": "Attacker Takes Lightning Damage",
+          "zh-TW": "攻擊者承受閃電傷害",
+          "zh-CN": "攻击者承受闪电伤害"
         },
         "value": 20
       },
@@ -16596,9 +16596,9 @@
       {
         "key": "light-thorns",
         "label": {
-          "en": "light-thorns",
-          "zh-TW": "light-thorns",
-          "zh-CN": "light-thorns"
+          "en": "Attacker Takes Lightning Damage",
+          "zh-TW": "攻擊者承受閃電傷害",
+          "zh-CN": "攻击者承受闪电伤害"
         },
         "value": 20
       },
@@ -17026,18 +17026,18 @@
       {
         "key": "explosivearrow",
         "label": {
-          "en": "explosivearrow",
-          "zh-TW": "explosivearrow",
-          "zh-CN": "explosivearrow"
+          "en": "Fires Explosive Arrows or Bolts",
+          "zh-TW": "發射爆炸箭矢",
+          "zh-CN": "发射爆炸箭矢"
         },
         "value": 7
       },
       {
         "key": "pierce",
         "label": {
-          "en": "pierce",
-          "zh-TW": "pierce",
-          "zh-CN": "pierce"
+          "en": "Piercing Attack %",
+          "zh-TW": "穿透攻擊 %",
+          "zh-CN": "穿透攻击 %"
         },
         "value": 50
       },
@@ -17213,9 +17213,9 @@
       {
         "key": "magicarrow",
         "label": {
-          "en": "magicarrow",
-          "zh-TW": "magicarrow",
-          "zh-CN": "magicarrow"
+          "en": "Fires Magic Arrows",
+          "zh-TW": "發射魔法箭",
+          "zh-CN": "发射魔法箭"
         },
         "value": 20
       },
@@ -17823,9 +17823,9 @@
       {
         "key": "pierce",
         "label": {
-          "en": "pierce",
-          "zh-TW": "pierce",
-          "zh-CN": "pierce"
+          "en": "Piercing Attack %",
+          "zh-TW": "穿透攻擊 %",
+          "zh-CN": "穿透攻击 %"
         },
         "value": 100
       },
@@ -17918,18 +17918,18 @@
       {
         "key": "pierce",
         "label": {
-          "en": "pierce",
-          "zh-TW": "pierce",
-          "zh-CN": "pierce"
+          "en": "Piercing Attack %",
+          "zh-TW": "穿透攻擊 %",
+          "zh-CN": "穿透攻击 %"
         },
         "value": 66
       },
       {
         "key": "explosivearrow",
         "label": {
-          "en": "explosivearrow",
-          "zh-TW": "explosivearrow",
-          "zh-CN": "explosivearrow"
+          "en": "Fires Explosive Arrows or Bolts",
+          "zh-TW": "發射爆炸箭矢",
+          "zh-CN": "发射爆炸箭矢"
         },
         "value": 6
       },
@@ -18577,9 +18577,9 @@
       {
         "key": "light-thorns",
         "label": {
-          "en": "light-thorns",
-          "zh-TW": "light-thorns",
-          "zh-CN": "light-thorns"
+          "en": "Attacker Takes Lightning Damage",
+          "zh-TW": "攻擊者承受閃電傷害",
+          "zh-CN": "攻击者承受闪电伤害"
         },
         "value": 25
       },
@@ -19623,9 +19623,9 @@
       {
         "key": "res-all-max",
         "label": {
-          "en": "res-all-max",
-          "zh-TW": "res-all-max",
-          "zh-CN": "res-all-max"
+          "en": "Maximum All Resistances %",
+          "zh-TW": "最大全抗性 %",
+          "zh-CN": "最大全抗性 %"
         },
         "value": 15
       },
@@ -20227,9 +20227,9 @@
       {
         "key": "light-thorns",
         "label": {
-          "en": "light-thorns",
-          "zh-TW": "light-thorns",
-          "zh-CN": "light-thorns"
+          "en": "Attacker Takes Lightning Damage",
+          "zh-TW": "攻擊者承受閃電傷害",
+          "zh-CN": "攻击者承受闪电伤害"
         },
         "value": 10
       }
@@ -21208,18 +21208,18 @@
       {
         "key": "att-und/lvl",
         "label": {
-          "en": "att-und (Based on Character Level)",
-          "zh-TW": "att-und（依角色等級）",
-          "zh-CN": "att-und（依角色等级）"
+          "en": "Attack Rating vs. Undead % (Based on Character Level)",
+          "zh-TW": "對不死系攻擊等級 %（依角色等級）",
+          "zh-CN": "对不死系攻击等级 %（依角色等级）"
         },
         "value": 16
       },
       {
         "key": "dmg-und/lvl",
         "label": {
-          "en": "dmg-und (Based on Character Level)",
-          "zh-TW": "dmg-und（依角色等級）",
-          "zh-CN": "dmg-und（依角色等级）"
+          "en": "Damage to Undead (Based on Character Level)",
+          "zh-TW": "對不死系傷害（依角色等級）",
+          "zh-CN": "对不死系伤害（依角色等级）"
         },
         "value": 16
       },
@@ -22130,9 +22130,9 @@
       {
         "key": "pierce",
         "label": {
-          "en": "pierce",
-          "zh-TW": "pierce",
-          "zh-CN": "pierce"
+          "en": "Piercing Attack %",
+          "zh-TW": "穿透攻擊 %",
+          "zh-CN": "穿透攻击 %"
         },
         "value": 33
       },
@@ -23101,9 +23101,9 @@
       {
         "key": "light-thorns",
         "label": {
-          "en": "light-thorns",
-          "zh-TW": "light-thorns",
-          "zh-CN": "light-thorns"
+          "en": "Attacker Takes Lightning Damage",
+          "zh-TW": "攻擊者承受閃電傷害",
+          "zh-CN": "攻击者承受闪电伤害"
         },
         "value": 10
       }
@@ -23706,9 +23706,9 @@
       {
         "key": "dmg-mag",
         "label": {
-          "en": "dmg-mag",
-          "zh-TW": "dmg-mag",
-          "zh-CN": "dmg-mag"
+          "en": "Magic Damage",
+          "zh-TW": "魔法傷害",
+          "zh-CN": "魔法伤害"
         },
         "min": 60,
         "max": 120
@@ -23776,9 +23776,9 @@
       {
         "key": "abs-ltng%",
         "label": {
-          "en": "abs-ltng%",
-          "zh-TW": "abs-ltng%",
-          "zh-CN": "abs-ltng%"
+          "en": "Lightning Absorb %",
+          "zh-TW": "閃電吸收 %",
+          "zh-CN": "闪电吸收 %"
         },
         "value": 25
       },
@@ -24201,9 +24201,9 @@
       {
         "key": "light-thorns",
         "label": {
-          "en": "light-thorns",
-          "zh-TW": "light-thorns",
-          "zh-CN": "light-thorns"
+          "en": "Attacker Takes Lightning Damage",
+          "zh-TW": "攻擊者承受閃電傷害",
+          "zh-CN": "攻击者承受闪电伤害"
         },
         "value": 27
       }
@@ -24608,9 +24608,9 @@
       {
         "key": "fireskill",
         "label": {
-          "en": "fireskill",
-          "zh-TW": "fireskill",
-          "zh-CN": "fireskill"
+          "en": "Fire Skills",
+          "zh-TW": "火焰技能加成",
+          "zh-CN": "火焰技能加成"
         },
         "value": 2
       },
@@ -24964,9 +24964,9 @@
       {
         "key": "abs-fire%",
         "label": {
-          "en": "abs-fire%",
-          "zh-TW": "abs-fire%",
-          "zh-CN": "abs-fire%"
+          "en": "Fire Absorb %",
+          "zh-TW": "火焰吸收 %",
+          "zh-CN": "火焰吸收 %"
         },
         "value": 15
       }
@@ -25043,9 +25043,9 @@
       {
         "key": "abs-cold%",
         "label": {
-          "en": "abs-cold%",
-          "zh-TW": "abs-cold%",
-          "zh-CN": "abs-cold%"
+          "en": "Cold Absorb %",
+          "zh-TW": "冷凍吸收 %",
+          "zh-CN": "冷冻吸收 %"
         },
         "value": 20
       },
@@ -25140,9 +25140,9 @@
       {
         "key": "light-thorns",
         "label": {
-          "en": "light-thorns",
-          "zh-TW": "light-thorns",
-          "zh-CN": "light-thorns"
+          "en": "Attacker Takes Lightning Damage",
+          "zh-TW": "攻擊者承受閃電傷害",
+          "zh-CN": "攻击者承受闪电伤害"
         },
         "value": 15
       }
@@ -26449,9 +26449,9 @@
       {
         "key": "heal-kill",
         "label": {
-          "en": "heal-kill",
-          "zh-TW": "heal-kill",
-          "zh-CN": "heal-kill"
+          "en": "Life after each Kill",
+          "zh-TW": "擊殺後恢復生命值",
+          "zh-CN": "击杀后恢复生命值"
         },
         "min": 7,
         "max": 13
@@ -26722,9 +26722,9 @@
       {
         "key": "pierce",
         "label": {
-          "en": "pierce",
-          "zh-TW": "pierce",
-          "zh-CN": "pierce"
+          "en": "Piercing Attack %",
+          "zh-TW": "穿透攻擊 %",
+          "zh-CN": "穿透攻击 %"
         },
         "value": 50
       },
@@ -26810,9 +26810,9 @@
       {
         "key": "pierce",
         "label": {
-          "en": "pierce",
-          "zh-TW": "pierce",
-          "zh-CN": "pierce"
+          "en": "Piercing Attack %",
+          "zh-TW": "穿透攻擊 %",
+          "zh-CN": "穿透攻击 %"
         },
         "value": 33
       },
@@ -27173,9 +27173,9 @@
       {
         "key": "heal-kill",
         "label": {
-          "en": "heal-kill",
-          "zh-TW": "heal-kill",
-          "zh-CN": "heal-kill"
+          "en": "Life after each Kill",
+          "zh-TW": "擊殺後恢復生命值",
+          "zh-CN": "击杀后恢复生命值"
         },
         "min": 10,
         "max": 14
@@ -27213,9 +27213,9 @@
       {
         "key": "reanimate",
         "label": {
-          "en": "reanimate",
-          "zh-TW": "reanimate",
-          "zh-CN": "reanimate"
+          "en": "Chance to Reanimate as Monster %",
+          "zh-TW": "復活成怪物機率 %",
+          "zh-CN": "复活成怪物机率 %"
         },
         "value": 10
       }
@@ -27267,9 +27267,9 @@
       {
         "key": "heal-kill",
         "label": {
-          "en": "heal-kill",
-          "zh-TW": "heal-kill",
-          "zh-CN": "heal-kill"
+          "en": "Life after each Kill",
+          "zh-TW": "擊殺後恢復生命值",
+          "zh-CN": "击杀后恢复生命值"
         },
         "min": 7,
         "max": 12
@@ -27381,9 +27381,9 @@
       {
         "key": "rip",
         "label": {
-          "en": "rip",
-          "zh-TW": "rip",
-          "zh-CN": "rip"
+          "en": "Slain Monsters Rest in Peace",
+          "zh-TW": "擊殺的怪物將安息",
+          "zh-CN": "击杀的怪物将安息"
         },
         "value": 1
       }
@@ -27421,9 +27421,9 @@
       {
         "key": "dmg-mag",
         "label": {
-          "en": "dmg-mag",
-          "zh-TW": "dmg-mag",
-          "zh-CN": "dmg-mag"
+          "en": "Magic Damage",
+          "zh-TW": "魔法傷害",
+          "zh-CN": "魔法伤害"
         },
         "min": 250,
         "max": 500
@@ -27439,11 +27439,11 @@
         "max": 270
       },
       {
-        "key": "aura",
+        "key": "aura:Sanctuary",
         "label": {
-          "en": "aura",
-          "zh-TW": "aura",
-          "zh-CN": "aura"
+          "en": "Aura Level (Sanctuary)",
+          "zh-TW": "光環等級 (Sanctuary)",
+          "zh-CN": "光环等级 (Sanctuary)"
         },
         "min": 10,
         "max": 13
@@ -27461,9 +27461,9 @@
       {
         "key": "all-stats",
         "label": {
-          "en": "all-stats",
-          "zh-TW": "all-stats",
-          "zh-CN": "all-stats"
+          "en": "All Attributes",
+          "zh-TW": "全部屬性",
+          "zh-CN": "全部属性"
         },
         "min": 5,
         "max": 10
@@ -27502,7 +27502,7 @@
     "statPriority": [
       "dmg-mag",
       "dmg%",
-      "aura",
+      "aura:Sanctuary",
       "dmg-cold",
       "all-stats"
     ]
@@ -28247,9 +28247,9 @@
       {
         "key": "rip",
         "label": {
-          "en": "rip",
-          "zh-TW": "rip",
-          "zh-CN": "rip"
+          "en": "Slain Monsters Rest in Peace",
+          "zh-TW": "擊殺的怪物將安息",
+          "zh-CN": "击杀的怪物将安息"
         },
         "value": 1
       },
@@ -28472,9 +28472,9 @@
       {
         "key": "heal-kill",
         "label": {
-          "en": "heal-kill",
-          "zh-TW": "heal-kill",
-          "zh-CN": "heal-kill"
+          "en": "Life after each Kill",
+          "zh-TW": "擊殺後恢復生命值",
+          "zh-CN": "击杀后恢复生命值"
         },
         "min": 6,
         "max": 9
@@ -28549,11 +28549,11 @@
         "max": 290
       },
       {
-        "key": "kill-skill",
+        "key": "kill-skill:Decrepify",
         "label": {
-          "en": "kill-skill",
-          "zh-TW": "kill-skill",
-          "zh-CN": "kill-skill"
+          "en": "Chance to Cast on Kill % (Decrepify)",
+          "zh-TW": "擊殺時觸發機率 (Decrepify)",
+          "zh-CN": "击杀时触发机率 (Decrepify)"
         },
         "min": 50,
         "max": 6
@@ -28591,7 +28591,7 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "kill-skill"
+      "kill-skill:Decrepify"
     ]
   },
   {
@@ -28630,9 +28630,9 @@
       {
         "key": "dmg-mag",
         "label": {
-          "en": "dmg-mag",
-          "zh-TW": "dmg-mag",
-          "zh-CN": "dmg-mag"
+          "en": "Magic Damage",
+          "zh-TW": "魔法傷害",
+          "zh-CN": "魔法伤害"
         },
         "min": 101,
         "max": 187
@@ -28790,9 +28790,9 @@
       {
         "key": "abs-ltng%",
         "label": {
-          "en": "abs-ltng%",
-          "zh-TW": "abs-ltng%",
-          "zh-CN": "abs-ltng%"
+          "en": "Lightning Absorb %",
+          "zh-TW": "閃電吸收 %",
+          "zh-CN": "闪电吸收 %"
         },
         "min": 10,
         "max": 20
@@ -29304,15 +29304,6 @@
         "value": 25
       },
       {
-        "key": "ethereal",
-        "label": {
-          "en": "ethereal",
-          "zh-TW": "ethereal",
-          "zh-CN": "ethereal"
-        },
-        "value": 1
-      },
-      {
         "key": "indestruct",
         "label": {
           "en": "Indestructible",
@@ -29599,9 +29590,9 @@
       {
         "key": "abs-cold%",
         "label": {
-          "en": "abs-cold%",
-          "zh-TW": "abs-cold%",
-          "zh-CN": "abs-cold%"
+          "en": "Cold Absorb %",
+          "zh-TW": "冷凍吸收 %",
+          "zh-CN": "冷冻吸收 %"
         },
         "min": 15,
         "max": 25
@@ -29682,9 +29673,9 @@
       {
         "key": "dmg-elem",
         "label": {
-          "en": "dmg-elem",
-          "zh-TW": "dmg-elem",
-          "zh-CN": "dmg-elem"
+          "en": "Adds Random Elemental Damage",
+          "zh-TW": "隨機元素傷害",
+          "zh-CN": "随机元素伤害"
         },
         "min": 63,
         "max": 324
@@ -30005,9 +29996,9 @@
       {
         "key": "magicarrow",
         "label": {
-          "en": "magicarrow",
-          "zh-TW": "magicarrow",
-          "zh-CN": "magicarrow"
+          "en": "Fires Magic Arrows",
+          "zh-TW": "發射魔法箭",
+          "zh-CN": "发射魔法箭"
         },
         "value": 11
       }
@@ -30086,9 +30077,9 @@
       {
         "key": "explosivearrow",
         "label": {
-          "en": "explosivearrow",
-          "zh-TW": "explosivearrow",
-          "zh-CN": "explosivearrow"
+          "en": "Fires Explosive Arrows or Bolts",
+          "zh-TW": "發射爆炸箭矢",
+          "zh-CN": "发射爆炸箭矢"
         },
         "value": 13
       }
@@ -30158,20 +30149,11 @@
       {
         "key": "dmg-mag",
         "label": {
-          "en": "dmg-mag",
-          "zh-TW": "dmg-mag",
-          "zh-CN": "dmg-mag"
+          "en": "Magic Damage",
+          "zh-TW": "魔法傷害",
+          "zh-CN": "魔法伤害"
         },
         "value": 108
-      },
-      {
-        "key": "ethereal",
-        "label": {
-          "en": "ethereal",
-          "zh-TW": "ethereal",
-          "zh-CN": "ethereal"
-        },
-        "value": 1
       },
       {
         "key": "indestruct",
@@ -30270,15 +30252,6 @@
           "zh-CN": "击中冰冻目标"
         },
         "value": 2
-      },
-      {
-        "key": "ethereal",
-        "label": {
-          "en": "ethereal",
-          "zh-TW": "ethereal",
-          "zh-CN": "ethereal"
-        },
-        "value": 1
       },
       {
         "key": "indestruct",
@@ -31297,9 +31270,9 @@
       {
         "key": "abs-fire%",
         "label": {
-          "en": "abs-fire%",
-          "zh-TW": "abs-fire%",
-          "zh-CN": "abs-fire%"
+          "en": "Fire Absorb %",
+          "zh-TW": "火焰吸收 %",
+          "zh-CN": "火焰吸收 %"
         },
         "min": 10,
         "max": 20
@@ -31809,9 +31782,9 @@
       {
         "key": "abs-fire%",
         "label": {
-          "en": "abs-fire%",
-          "zh-TW": "abs-fire%",
-          "zh-CN": "abs-fire%"
+          "en": "Fire Absorb %",
+          "zh-TW": "火焰吸收 %",
+          "zh-CN": "火焰吸收 %"
         },
         "min": 20,
         "max": 30
@@ -31861,9 +31834,9 @@
       {
         "key": "fireskill",
         "label": {
-          "en": "fireskill",
-          "zh-TW": "fireskill",
-          "zh-CN": "fireskill"
+          "en": "Fire Skills",
+          "zh-TW": "火焰技能加成",
+          "zh-CN": "火焰技能加成"
         },
         "value": 3
       }
@@ -32340,9 +32313,9 @@
       {
         "key": "skill-rand",
         "label": {
-          "en": "skill-rand",
-          "zh-TW": "skill-rand",
-          "zh-CN": "skill-rand"
+          "en": "Random Class Skill Levels",
+          "zh-TW": "隨機本職業技能加成",
+          "zh-CN": "随机本职业技能加成"
         },
         "min": 36,
         "max": 60
@@ -32415,9 +32388,9 @@
       {
         "key": "cheap",
         "label": {
-          "en": "cheap",
-          "zh-TW": "cheap",
-          "zh-CN": "cheap"
+          "en": "Reduces all Vendor Prices %",
+          "zh-TW": "降低商店價格 %",
+          "zh-CN": "降低商店价格 %"
         },
         "min": 10,
         "max": 15
@@ -32518,9 +32491,9 @@
       {
         "key": "light-thorns",
         "label": {
-          "en": "light-thorns",
-          "zh-TW": "light-thorns",
-          "zh-CN": "light-thorns"
+          "en": "Attacker Takes Lightning Damage",
+          "zh-TW": "攻擊者承受閃電傷害",
+          "zh-CN": "攻击者承受闪电伤害"
         },
         "value": 30
       },
@@ -32797,9 +32770,9 @@
       {
         "key": "heal-kill",
         "label": {
-          "en": "heal-kill",
-          "zh-TW": "heal-kill",
-          "zh-CN": "heal-kill"
+          "en": "Life after each Kill",
+          "zh-TW": "擊殺後恢復生命值",
+          "zh-CN": "击杀后恢复生命值"
         },
         "min": 5,
         "max": 10
@@ -32881,9 +32854,9 @@
       {
         "key": "abs-cold%",
         "label": {
-          "en": "abs-cold%",
-          "zh-TW": "abs-cold%",
-          "zh-CN": "abs-cold%"
+          "en": "Cold Absorb %",
+          "zh-TW": "冷凍吸收 %",
+          "zh-CN": "冷冻吸收 %"
         },
         "min": 7,
         "max": 15
@@ -34189,9 +34162,9 @@
       {
         "key": "dmg-mag",
         "label": {
-          "en": "dmg-mag",
-          "zh-TW": "dmg-mag",
-          "zh-CN": "dmg-mag"
+          "en": "Magic Damage",
+          "zh-TW": "魔法傷害",
+          "zh-CN": "魔法伤害"
         },
         "min": 80,
         "max": 240
@@ -34292,9 +34265,9 @@
       {
         "key": "all-stats",
         "label": {
-          "en": "all-stats",
-          "zh-TW": "all-stats",
-          "zh-CN": "all-stats"
+          "en": "All Attributes",
+          "zh-TW": "全部屬性",
+          "zh-CN": "全部属性"
         },
         "min": 10,
         "max": 20
@@ -34312,9 +34285,9 @@
       {
         "key": "addxp",
         "label": {
-          "en": "addxp",
-          "zh-TW": "addxp",
-          "zh-CN": "addxp"
+          "en": "Experience Gained %",
+          "zh-TW": "增加經驗值 %",
+          "zh-CN": "增加经验值 %"
         },
         "min": 5,
         "max": 10
@@ -34584,9 +34557,9 @@
       {
         "key": "abs-cold%",
         "label": {
-          "en": "abs-cold%",
-          "zh-TW": "abs-cold%",
-          "zh-CN": "abs-cold%"
+          "en": "Cold Absorb %",
+          "zh-TW": "冷凍吸收 %",
+          "zh-CN": "冷冻吸收 %"
         },
         "min": 5,
         "max": 15
@@ -34784,15 +34757,6 @@
           "zh-CN": "击杀后恢复魔力值"
         },
         "value": 15
-      },
-      {
-        "key": "ethereal",
-        "label": {
-          "en": "ethereal",
-          "zh-TW": "ethereal",
-          "zh-CN": "ethereal"
-        },
-        "value": 1
       }
     ],
     "setBonuses": [],
@@ -34968,9 +34932,9 @@
       {
         "key": "addxp",
         "label": {
-          "en": "addxp",
-          "zh-TW": "addxp",
-          "zh-CN": "addxp"
+          "en": "Experience Gained %",
+          "zh-TW": "增加經驗值 %",
+          "zh-CN": "增加经验值 %"
         },
         "value": 5
       }
@@ -35183,9 +35147,9 @@
       {
         "key": "heal-kill",
         "label": {
-          "en": "heal-kill",
-          "zh-TW": "heal-kill",
-          "zh-CN": "heal-kill"
+          "en": "Life after each Kill",
+          "zh-TW": "擊殺後恢復生命值",
+          "zh-CN": "击杀后恢复生命值"
         },
         "min": 5,
         "max": 7
@@ -35885,9 +35849,9 @@
       {
         "key": "randclassskill",
         "label": {
-          "en": "randclassskill",
-          "zh-TW": "randclassskill",
-          "zh-CN": "randclassskill"
+          "en": "Random Character Class Skill Levels",
+          "zh-TW": "隨機職業技能加成",
+          "zh-CN": "随机职业技能加成"
         },
         "min": 0,
         "max": 7
@@ -35895,9 +35859,9 @@
       {
         "key": "all-stats",
         "label": {
-          "en": "all-stats",
-          "zh-TW": "all-stats",
-          "zh-CN": "all-stats"
+          "en": "All Attributes",
+          "zh-TW": "全部屬性",
+          "zh-CN": "全部属性"
         },
         "min": 10,
         "max": 20
@@ -36426,9 +36390,9 @@
       {
         "key": "heal-kill",
         "label": {
-          "en": "heal-kill",
-          "zh-TW": "heal-kill",
-          "zh-CN": "heal-kill"
+          "en": "Life after each Kill",
+          "zh-TW": "擊殺後恢復生命值",
+          "zh-CN": "击杀后恢复生命值"
         },
         "min": 3,
         "max": 5
@@ -36645,9 +36609,9 @@
       {
         "key": "skilltab-war",
         "label": {
-          "en": "skilltab-war",
-          "zh-TW": "skilltab-war",
-          "zh-CN": "skilltab-war"
+          "en": "Skill Tab Bonus",
+          "zh-TW": "技能列加成",
+          "zh-CN": "技能列加成"
         },
         "value": 1
       },
@@ -36925,9 +36889,9 @@
       {
         "key": "heal-kill",
         "label": {
-          "en": "heal-kill",
-          "zh-TW": "heal-kill",
-          "zh-CN": "heal-kill"
+          "en": "Life after each Kill",
+          "zh-TW": "擊殺後恢復生命值",
+          "zh-CN": "击杀后恢复生命值"
         },
         "min": 1,
         "max": 3
@@ -36947,9 +36911,9 @@
       {
         "key": "magdam-rand",
         "label": {
-          "en": "magdam-rand",
-          "zh-TW": "magdam-rand",
-          "zh-CN": "magdam-rand"
+          "en": "Random Elemental/Enhanced Damage %",
+          "zh-TW": "隨機元素/強化傷害 %",
+          "zh-CN": "随机元素/强化伤害 %"
         },
         "value": 1
       },
@@ -37317,9 +37281,9 @@
       {
         "key": "pierce-immunity-cold",
         "label": {
-          "en": "pierce-immunity-cold",
-          "zh-TW": "pierce-immunity-cold",
-          "zh-CN": "pierce-immunity-cold"
+          "en": "Monster Cold Immunity is Sundered",
+          "zh-TW": "解除怪物冷凍免疫",
+          "zh-CN": "解除怪物冷冻免疫"
         },
         "value": 300
       }
@@ -37367,9 +37331,9 @@
       {
         "key": "pierce-immunity-fire",
         "label": {
-          "en": "pierce-immunity-fire",
-          "zh-TW": "pierce-immunity-fire",
-          "zh-CN": "pierce-immunity-fire"
+          "en": "Monster Fire Immunity is Sundered",
+          "zh-TW": "解除怪物火焰免疫",
+          "zh-CN": "解除怪物火焰免疫"
         },
         "value": 300
       }
@@ -37417,9 +37381,9 @@
       {
         "key": "pierce-immunity-light",
         "label": {
-          "en": "pierce-immunity-light",
-          "zh-TW": "pierce-immunity-light",
-          "zh-CN": "pierce-immunity-light"
+          "en": "Monster Lightning Immunity is Sundered",
+          "zh-TW": "解除怪物閃電免疫",
+          "zh-CN": "解除怪物闪电免疫"
         },
         "value": 300
       }
@@ -37467,9 +37431,9 @@
       {
         "key": "pierce-immunity-poison",
         "label": {
-          "en": "pierce-immunity-poison",
-          "zh-TW": "pierce-immunity-poison",
-          "zh-CN": "pierce-immunity-poison"
+          "en": "Monster Poison Immunity is Sundered",
+          "zh-TW": "解除怪物毒素免疫",
+          "zh-CN": "解除怪物毒素免疫"
         },
         "value": 300
       }
@@ -37517,9 +37481,9 @@
       {
         "key": "pierce-immunity-damage",
         "label": {
-          "en": "pierce-immunity-damage",
-          "zh-TW": "pierce-immunity-damage",
-          "zh-CN": "pierce-immunity-damage"
+          "en": "Monster Physical Immunity is Sundered",
+          "zh-TW": "解除怪物物理免疫",
+          "zh-CN": "解除怪物物理免疫"
         },
         "value": 300
       }
@@ -37567,9 +37531,9 @@
       {
         "key": "pierce-immunity-magic",
         "label": {
-          "en": "pierce-immunity-magic",
-          "zh-TW": "pierce-immunity-magic",
-          "zh-CN": "pierce-immunity-magic"
+          "en": "Monster Magic Immunity is Sundered",
+          "zh-TW": "解除怪物魔法免疫",
+          "zh-CN": "解除怪物魔法免疫"
         },
         "value": 300
       }
