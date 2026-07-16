@@ -41,4 +41,37 @@ describe('ItemStatCard', () => {
     );
     expect(screen.getByRole('heading', { name: 'Bare Item' })).toBeInTheDocument();
   });
+
+  it('renders an icon when invFile is present', () => {
+    const item: GrailItem = {
+      id: 'unique-0', code: 'hax', name: 'The Gnasher', kind: 'unique', setName: null,
+      levelReq: 5, baseName: 'Hand Axe', grade: 'normal', slotCategory: 'axes',
+      defense: null, requiredStrength: null, durability: 28, invFile: 'invhaxu',
+      stats: [], fixedStats: [], setBonuses: [], statPriority: [],
+    };
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <ItemStatCard item={item} />
+      </NextIntlClientProvider>
+    );
+    const img = document.querySelector('img');
+    expect(img).not.toBeNull();
+    expect(img?.getAttribute('src')).toBe('/items/inv/invhaxu.png');
+    expect(img?.getAttribute('alt')).toBe('');
+  });
+
+  it('renders no icon when invFile is empty', () => {
+    const item: GrailItem = {
+      id: 'unique-1', code: 'y', name: 'Bare Item', kind: 'unique', setName: null,
+      levelReq: 1, baseName: 'Base', grade: 'normal', slotCategory: 'helms',
+      defense: { min: 10, max: 12 }, requiredStrength: 20, durability: 40,
+      invFile: '', stats: [], fixedStats: [], setBonuses: [], statPriority: [],
+    };
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <ItemStatCard item={item} />
+      </NextIntlClientProvider>
+    );
+    expect(document.querySelector('img')).toBeNull();
+  });
 });
