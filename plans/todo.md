@@ -196,12 +196,12 @@ _Spec: [docs/superpowers/specs/2026-07-16-category-icons-design.md](../docs/supe
 - [x] Render icons in CategoryCardGrid
 - [x] Browser verification — confirmed on Base/Unique/Set (all 28) and Magic Items (25 mapped, 12 generic correctly icon-less) grids, desktop + mobile
 
-## Base Items Katars Fix 🔲
+## Base Items Katars Fix ✅
 
 _Spec: [docs/superpowers/specs/2026-07-16-katars-base-items-fix-design.md](../docs/superpowers/specs/2026-07-16-katars-base-items-fix-design.md) · Plan: [plans/katars-base-items-fix-implementation.md](./katars-base-items-fix-implementation.md)_
 
-- [ ] Fix TYPE_TO_SLOT (h2h -> katars) so Base Items includes katars
-- [ ] d2r.world spot-check
+- [x] Fix TYPE_TO_SLOT (h2h -> katars) so Base Items includes katars
+- [x] d2r.world spot-check — all 7 katar base items match exactly
 
 ### Follow-up sub-projects (agreed order, not yet started)
 - Sub-category taxonomy fix (bundled): Base Items' Shields (add Paladin Shields/Shrunken Heads/Grimoires sub-tabs) + Magic/Rare's 12 generic categories (split into Barbarian/Druid Helms, Circlets, Amazon Spears/Bows/Javelins, Sorceress Orbs, Necromancer Wands, Assassin Katars, Throwing Axes/Knives, Grand/Large/Small Charms) — then add icons for the newly-split categories
