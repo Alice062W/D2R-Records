@@ -249,8 +249,11 @@ _Spec: [docs/superpowers/specs/2026-07-16-fcr-fhr-fbr-design.md](../docs/superpo
 - [x] FCR/FHR/FBR data + page (hand-transcribed 10 class/form breakpoint tables)
 - [x] Full verification + d2r.world spot-check — all 10 class/forms match d2r.world exactly
 
-### Follow-up sub-projects (agreed order, not yet started)
-- `bar` class-restriction fallback expansion (deferred, needs a separate hand-authored class-equipment mechanism)
+### Bar Affix Exclusion
+_Spec: [docs/superpowers/specs/2026-07-16-bar-affix-exclusion-design.md](../docs/superpowers/specs/2026-07-16-bar-affix-exclusion-design.md) · Plan: [plans/bar-affix-exclusion-implementation.md](./bar-affix-exclusion-implementation.md)_
+
+- [ ] Exclude malformed negative-charge affixes; remove bogus Barbarian Items category
+- [ ] Full verification + d2r.world spot-check
 
 ## Backlog / Ideas
 
