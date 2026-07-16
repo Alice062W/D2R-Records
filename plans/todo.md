@@ -213,9 +213,17 @@ _Spec: [docs/superpowers/specs/2026-07-16-category-taxonomy-fix-design.md](../do
 - [x] i18n labels + category icons for new granular slugs
 - [x] Full verification + d2r.world spot-check — final whole-branch review clean
 
+## Set Items Taxonomy Fix 🔲
+
+_Spec: [docs/superpowers/specs/2026-07-16-set-items-taxonomy-design.md](../docs/superpowers/specs/2026-07-16-set-items-taxonomy-design.md) · Plan: [plans/set-items-taxonomy-implementation.md](./set-items-taxonomy-implementation.md)_
+
+- [ ] Vendor sets.json + generate data/set-groups.json (set-level partial/full bonuses)
+- [ ] Set Items browse-by-name pages
+- [ ] Combine weapon categories into one Weapons tile (secondary category view)
+- [ ] Full verification + d2r.world spot-check
+
 ### Follow-up sub-projects (agreed order, not yet started)
 - `bar` class-restriction fallback expansion (deferred, needs a separate hand-authored class-equipment mechanism)
-- Set Items taxonomy: combine weapon categories into one "Weapons" bucket (matching d2r.world); add the missing "browse by full Set name" view (Arctic Gear, Hsarus' Defense, etc. — previously deferred)
 - Full site audit vs. d2r.world for remaining pages (especially Misc: FCR/FHR/FBR, Alvl85 Areas, Area Level, Level Up — currently unbuilt placeholders)
 
 ## Backlog / Ideas
@@ -247,3 +255,4 @@ _Spec: [docs/superpowers/specs/2026-07-16-category-taxonomy-fix-design.md](../do
 | [category-icons-implementation.md](./category-icons-implementation.md) | Representative item icon per category tile on landing-page grids |
 | [katars-base-items-fix-implementation.md](./katars-base-items-fix-implementation.md) | Fix Katars missing from Base Items (wrong item-type code in TYPE_TO_SLOT) |
 | [category-taxonomy-fix-implementation.md](./category-taxonomy-fix-implementation.md) | Base Items Helms/Shields sub-tabs + Magic/Rare granular category split via itemtypes.json ancestor-closure expansion |
+| [set-items-taxonomy-implementation.md](./set-items-taxonomy-implementation.md) | Set Items browse-by-name view (set-level partial/full bonuses) + combined Weapons category |
