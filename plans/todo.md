@@ -196,9 +196,17 @@ _Spec: [docs/superpowers/specs/2026-07-16-category-icons-design.md](../docs/supe
 - [x] Render icons in CategoryCardGrid
 - [x] Browser verification — confirmed on Base/Unique/Set (all 28) and Magic Items (25 mapped, 12 generic correctly icon-less) grids, desktop + mobile
 
+## Base Items Katars Fix 🔲
+
+_Spec: [docs/superpowers/specs/2026-07-16-katars-base-items-fix-design.md](../docs/superpowers/specs/2026-07-16-katars-base-items-fix-design.md) · Plan: [plans/katars-base-items-fix-implementation.md](./katars-base-items-fix-implementation.md)_
+
+- [ ] Fix TYPE_TO_SLOT (h2h -> katars) so Base Items includes katars
+- [ ] d2r.world spot-check
+
 ### Follow-up sub-projects (agreed order, not yet started)
-- Magic/Rare category taxonomy fix (split 12 generic codes into d2r.world's real class-specific categories: Barbarian/Druid Helms, Circlets, Paladin Shields, Shrunken Heads, Amazon Spears/Bows/Javelins, Sorceress Orbs, Necromancer Wands, Assassin Katars, Throwing Axes/Knives, Grand/Large/Small Charms split) — then add icons for those
-- Full site audit vs. d2r.world (especially Misc: FCR/FHR/FBR, Alvl85 Areas, Area Level, Level Up)
+- Sub-category taxonomy fix (bundled): Base Items' Shields (add Paladin Shields/Shrunken Heads/Grimoires sub-tabs) + Magic/Rare's 12 generic categories (split into Barbarian/Druid Helms, Circlets, Amazon Spears/Bows/Javelins, Sorceress Orbs, Necromancer Wands, Assassin Katars, Throwing Axes/Knives, Grand/Large/Small Charms) — then add icons for the newly-split categories
+- Set Items taxonomy: combine weapon categories into one "Weapons" bucket (matching d2r.world); add the missing "browse by full Set name" view (Arctic Gear, Hsarus' Defense, etc. — previously deferred)
+- Full site audit vs. d2r.world for remaining pages (especially Misc: FCR/FHR/FBR, Alvl85 Areas, Area Level, Level Up — currently unbuilt placeholders)
 
 ## Backlog / Ideas
 
@@ -227,3 +235,4 @@ _Spec: [docs/superpowers/specs/2026-07-16-category-icons-design.md](../docs/supe
 | [property-label-audit-implementation.md](./property-label-audit-implementation.md) | Close remaining leaked raw property codes across uniques/sets/runewords/magic-affixes; broaden regression test to every data file |
 | [icon-sizing-implementation.md](./icon-sizing-implementation.md) | Increase item inventory icon size from 40px to 80px to match d2r.world's presentation |
 | [category-icons-implementation.md](./category-icons-implementation.md) | Representative item icon per category tile on landing-page grids |
+| [katars-base-items-fix-implementation.md](./katars-base-items-fix-implementation.md) | Fix Katars missing from Base Items (wrong item-type code in TYPE_TO_SLOT) |
