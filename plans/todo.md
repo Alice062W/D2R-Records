@@ -230,12 +230,12 @@ _Spec: [docs/superpowers/specs/2026-07-16-area-level-design.md](../docs/superpow
 - [x] Area Level page (per-Act tabbed table)
 - [x] Full verification + d2r.world spot-check — found/fixed the "Moo Moo Farm"/Secret Cow Level internal-codename bug; final whole-branch review clean
 
-## Level Up (Misc) 🔲
+## Level Up (Misc) ✅
 
 _Spec: [docs/superpowers/specs/2026-07-16-level-up-design.md](../docs/superpowers/specs/2026-07-16-level-up-design.md) · Plan: [plans/level-up-implementation.md](./level-up-implementation.md)_
 
-- [ ] Level Up data + page (hand-transcribed 14-row guide)
-- [ ] Full verification + d2r.world spot-check
+- [x] Level Up data + page (hand-transcribed 14-row guide)
+- [x] Full verification + d2r.world spot-check — all 14 rows match d2r.world exactly
 
 ### Follow-up sub-projects (agreed order, not yet started)
 - `bar` class-restriction fallback expansion (deferred, needs a separate hand-authored class-equipment mechanism)
