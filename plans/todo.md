@@ -258,8 +258,8 @@ _Spec: [docs/superpowers/specs/2026-07-16-bar-affix-exclusion-design.md](../docs
 ### Icon Coverage Audit
 _Spec: [docs/superpowers/specs/2026-07-16-icon-coverage-audit-design.md](../docs/superpowers/specs/2026-07-16-icon-coverage-audit-design.md) · Plan: [plans/icon-coverage-audit-implementation.md](./icon-coverage-audit-implementation.md)_
 
-- [ ] Base Items icons (data already extracted — pure wiring)
-- [ ] Set Items browse-by-name index representative icon (pure wiring)
+- [x] Base Items icons (data already extracted — pure wiring)
+- [x] Set Items browse-by-name index representative icon (pure wiring)
 - [ ] Rune icons (BLOCKED: needs 33 new icon files from Windows extraction)
 - [ ] Runeword rune-order icons (blocked on the same 33 files)
 - [ ] Full verification + d2r.world spot-check
