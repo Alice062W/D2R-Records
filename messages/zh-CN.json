@@ -210,7 +210,22 @@
     "levelUpPageSubtitle": "浏览暗黑破坏神2：狱火重生中在各角色等级下能获得最大经验值的区域。",
     "levelUpClvlLabel": "角色等级",
     "levelUpDifficultyLabel": "难度",
-    "levelUpActLabel": "章节"
+    "levelUpActLabel": "章节",
+    "alvl85PageTitle": "85 等区域怪物",
+    "alvl85PageSubtitle": "浏览暗黑破坏神2：狱火重生中每个 85 等区域的怪物种类与元素免疫。",
+    "alvl85StarNote": "★：火焰 / 冷冻 / 闪电 ≥ 117，毒素 ≥ 112",
+    "alvl85MonsterLabel": "怪物",
+    "alvl85TypeLabel": "种类",
+    "alvl85ImmunityLabel": "免疫",
+    "alvl85Type_animal": "动物",
+    "alvl85Type_demon": "恶魔",
+    "alvl85Type_undead": "不死系",
+    "alvl85Element_fire": "火",
+    "alvl85Element_cold": "冷",
+    "alvl85Element_lightning": "电",
+    "alvl85Element_poison": "毒",
+    "alvl85Element_magic": "魔",
+    "alvl85Element_physical": "物"
   },
   "BaseItems": {
     "grade_normal": "普通",

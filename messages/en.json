@@ -210,7 +210,22 @@
     "levelUpPageSubtitle": "What level should you be to gain maximum experience in a given area, in Diablo II: Resurrected.",
     "levelUpClvlLabel": "Character Level",
     "levelUpDifficultyLabel": "Difficulty",
-    "levelUpActLabel": "Act"
+    "levelUpActLabel": "Act",
+    "alvl85PageTitle": "Level 85 Areas' Monsters",
+    "alvl85PageSubtitle": "Monster type and elemental immunity in every Level 85 area, in Diablo II: Resurrected.",
+    "alvl85StarNote": "★: Fire / Cold / Lightning ≥ 117, Poison ≥ 112",
+    "alvl85MonsterLabel": "Monster",
+    "alvl85TypeLabel": "Type",
+    "alvl85ImmunityLabel": "Immunity",
+    "alvl85Type_animal": "Animal",
+    "alvl85Type_demon": "Demon",
+    "alvl85Type_undead": "Undead",
+    "alvl85Element_fire": "Fi",
+    "alvl85Element_cold": "Co",
+    "alvl85Element_lightning": "Li",
+    "alvl85Element_poison": "Po",
+    "alvl85Element_magic": "Ma",
+    "alvl85Element_physical": "Ph"
   },
   "AffixCategories": {
     "bar": "Barbarian Items",

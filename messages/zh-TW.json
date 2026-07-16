@@ -210,7 +210,22 @@
     "levelUpPageSubtitle": "瀏覽暗黑破壞神2：獄火重生中在各角色等級下能獲得最大經驗值的區域。",
     "levelUpClvlLabel": "角色等級",
     "levelUpDifficultyLabel": "難度",
-    "levelUpActLabel": "章節"
+    "levelUpActLabel": "章節",
+    "alvl85PageTitle": "85 等區域怪物",
+    "alvl85PageSubtitle": "瀏覽暗黑破壞神2：獄火重生中每個 85 等區域的怪物種類與元素免疫。",
+    "alvl85StarNote": "★：火焰 / 冷凍 / 閃電 ≥ 117，毒素 ≥ 112",
+    "alvl85MonsterLabel": "怪物",
+    "alvl85TypeLabel": "種類",
+    "alvl85ImmunityLabel": "免疫",
+    "alvl85Type_animal": "動物",
+    "alvl85Type_demon": "惡魔",
+    "alvl85Type_undead": "不死系",
+    "alvl85Element_fire": "火",
+    "alvl85Element_cold": "冷",
+    "alvl85Element_lightning": "電",
+    "alvl85Element_poison": "毒",
+    "alvl85Element_magic": "魔",
+    "alvl85Element_physical": "物"
   },
   "AffixCategories": {
     "bar": "蠻族物品",
