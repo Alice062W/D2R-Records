@@ -246,8 +246,8 @@ _Spec: [docs/superpowers/specs/2026-07-16-alvl85-areas-design.md](../docs/superp
 ### FCR/FHR/FBR (Misc)
 _Spec: [docs/superpowers/specs/2026-07-16-fcr-fhr-fbr-design.md](../docs/superpowers/specs/2026-07-16-fcr-fhr-fbr-design.md) · Plan: [plans/fcr-fhr-fbr-implementation.md](./fcr-fhr-fbr-implementation.md)_
 
-- [ ] FCR/FHR/FBR data + page (hand-transcribed 10 class/form breakpoint tables)
-- [ ] Full verification + d2r.world spot-check
+- [x] FCR/FHR/FBR data + page (hand-transcribed 10 class/form breakpoint tables)
+- [x] Full verification + d2r.world spot-check — all 10 class/forms match d2r.world exactly
 
 ### Follow-up sub-projects (agreed order, not yet started)
 - `bar` class-restriction fallback expansion (deferred, needs a separate hand-authored class-equipment mechanism)
