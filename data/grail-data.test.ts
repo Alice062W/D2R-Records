@@ -161,6 +161,13 @@ describe('bases-full.json', () => {
       }
     }
   });
+
+  it('includes katar base items (Katar, Wrist Blade, Hatchet Hands, Cestus, Claws)', () => {
+    const katars = basesFull.filter((b: { slotCategory: string }) => b.slotCategory === 'katars');
+    expect(katars.length).toBeGreaterThan(0);
+    const names = katars.map((k: { grades: { normal: { name: { en: string } } | null } }) => k.grades.normal?.name.en);
+    expect(names).toContain('Katar');
+  });
 });
 
 describe('runewords-full.json', () => {

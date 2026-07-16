@@ -5036,6 +5036,426 @@
     }
   },
   {
+    "id": "base-ktr",
+    "slotCategory": "katars",
+    "grades": {
+      "normal": {
+        "name": {
+          "en": "Katar",
+          "zh-TW": "拳劍",
+          "zh-CN": "拳剑"
+        },
+        "oneHandDamage": {
+          "min": 4,
+          "max": 7
+        },
+        "twoHandDamage": null,
+        "levelReq": 0,
+        "requiredStrength": 20,
+        "requiredDexterity": 20,
+        "durability": 48,
+        "sockets": 2,
+        "qlvl": 1
+      },
+      "exceptional": {
+        "name": {
+          "en": "Quhab",
+          "zh-TW": "格鬥刃",
+          "zh-CN": "格斗刃"
+        },
+        "oneHandDamage": {
+          "min": 11,
+          "max": 24
+        },
+        "twoHandDamage": null,
+        "levelReq": 21,
+        "requiredStrength": 57,
+        "requiredDexterity": 57,
+        "durability": 48,
+        "sockets": 3,
+        "qlvl": 28
+      },
+      "elite": {
+        "name": {
+          "en": "Suwayyah",
+          "zh-TW": "近身刃",
+          "zh-CN": "近身刃"
+        },
+        "oneHandDamage": {
+          "min": 39,
+          "max": 52
+        },
+        "twoHandDamage": null,
+        "levelReq": 44,
+        "requiredStrength": 99,
+        "requiredDexterity": 99,
+        "durability": 48,
+        "sockets": 3,
+        "qlvl": 59
+      }
+    }
+  },
+  {
+    "id": "base-wrb",
+    "slotCategory": "katars",
+    "grades": {
+      "normal": {
+        "name": {
+          "en": "Wrist Blade",
+          "zh-TW": "腕刃",
+          "zh-CN": "腕刃"
+        },
+        "oneHandDamage": {
+          "min": 5,
+          "max": 9
+        },
+        "twoHandDamage": null,
+        "levelReq": 0,
+        "requiredStrength": 33,
+        "requiredDexterity": 33,
+        "durability": 52,
+        "sockets": 2,
+        "qlvl": 9
+      },
+      "exceptional": {
+        "name": {
+          "en": "Wrist Spike",
+          "zh-TW": "腕刺",
+          "zh-CN": "腕刺"
+        },
+        "oneHandDamage": {
+          "min": 13,
+          "max": 27
+        },
+        "twoHandDamage": null,
+        "levelReq": 24,
+        "requiredStrength": 66,
+        "requiredDexterity": 66,
+        "durability": 56,
+        "sockets": 2,
+        "qlvl": 32
+      },
+      "elite": {
+        "name": {
+          "en": "Wrist Sword",
+          "zh-TW": "腕劍",
+          "zh-CN": "腕剑"
+        },
+        "oneHandDamage": {
+          "min": 34,
+          "max": 45
+        },
+        "twoHandDamage": null,
+        "levelReq": 46,
+        "requiredStrength": 105,
+        "requiredDexterity": 105,
+        "durability": 56,
+        "sockets": 3,
+        "qlvl": 62
+      }
+    }
+  },
+  {
+    "id": "base-axf",
+    "slotCategory": "katars",
+    "grades": {
+      "normal": {
+        "name": {
+          "en": "Hatchet Hands",
+          "zh-TW": "斧手",
+          "zh-CN": "斧手"
+        },
+        "oneHandDamage": {
+          "min": 2,
+          "max": 15
+        },
+        "twoHandDamage": null,
+        "levelReq": 0,
+        "requiredStrength": 37,
+        "requiredDexterity": 37,
+        "durability": 56,
+        "sockets": 2,
+        "qlvl": 12
+      },
+      "exceptional": {
+        "name": {
+          "en": "Fascia",
+          "zh-TW": "格鬥爪",
+          "zh-CN": "格斗爪"
+        },
+        "oneHandDamage": {
+          "min": 8,
+          "max": 37
+        },
+        "twoHandDamage": null,
+        "levelReq": 27,
+        "requiredStrength": 69,
+        "requiredDexterity": 69,
+        "durability": 64,
+        "sockets": 2,
+        "qlvl": 36
+      },
+      "elite": {
+        "name": {
+          "en": "War Fist",
+          "zh-TW": "戰拳",
+          "zh-CN": "战拳"
+        },
+        "oneHandDamage": {
+          "min": 44,
+          "max": 53
+        },
+        "twoHandDamage": null,
+        "levelReq": 51,
+        "requiredStrength": 108,
+        "requiredDexterity": 108,
+        "durability": 64,
+        "sockets": 2,
+        "qlvl": 68
+      }
+    }
+  },
+  {
+    "id": "base-ces",
+    "slotCategory": "katars",
+    "grades": {
+      "normal": {
+        "name": {
+          "en": "Cestus",
+          "zh-TW": "腰刀",
+          "zh-CN": "腰刀"
+        },
+        "oneHandDamage": {
+          "min": 7,
+          "max": 15
+        },
+        "twoHandDamage": null,
+        "levelReq": 0,
+        "requiredStrength": 42,
+        "requiredDexterity": 42,
+        "durability": 72,
+        "sockets": 2,
+        "qlvl": 15
+      },
+      "exceptional": {
+        "name": {
+          "en": "Hand Scythe",
+          "zh-TW": "手鐮",
+          "zh-CN": "手镰"
+        },
+        "oneHandDamage": {
+          "min": 16,
+          "max": 37
+        },
+        "twoHandDamage": null,
+        "levelReq": 30,
+        "requiredStrength": 73,
+        "requiredDexterity": 73,
+        "durability": 72,
+        "sockets": 2,
+        "qlvl": 41
+      },
+      "elite": {
+        "name": {
+          "en": "Battle Cestus",
+          "zh-TW": "鬥腰刀",
+          "zh-CN": "斗腰刀"
+        },
+        "oneHandDamage": {
+          "min": 36,
+          "max": 42
+        },
+        "twoHandDamage": null,
+        "levelReq": 54,
+        "requiredStrength": 110,
+        "requiredDexterity": 110,
+        "durability": 72,
+        "sockets": 2,
+        "qlvl": 73
+      }
+    }
+  },
+  {
+    "id": "base-clw",
+    "slotCategory": "katars",
+    "grades": {
+      "normal": {
+        "name": {
+          "en": "Claws",
+          "zh-TW": "爪",
+          "zh-CN": "爪"
+        },
+        "oneHandDamage": {
+          "min": 8,
+          "max": 15
+        },
+        "twoHandDamage": null,
+        "levelReq": 0,
+        "requiredStrength": 46,
+        "requiredDexterity": 46,
+        "durability": 64,
+        "sockets": 3,
+        "qlvl": 18
+      },
+      "exceptional": {
+        "name": {
+          "en": "Greater Claws",
+          "zh-TW": "巨爪",
+          "zh-CN": "巨爪"
+        },
+        "oneHandDamage": {
+          "min": 18,
+          "max": 37
+        },
+        "twoHandDamage": null,
+        "levelReq": 33,
+        "requiredStrength": 76,
+        "requiredDexterity": 76,
+        "durability": 52,
+        "sockets": 3,
+        "qlvl": 45
+      },
+      "elite": {
+        "name": {
+          "en": "Feral Claws",
+          "zh-TW": "猛禽爪",
+          "zh-CN": "猛禽爪"
+        },
+        "oneHandDamage": {
+          "min": 22,
+          "max": 53
+        },
+        "twoHandDamage": null,
+        "levelReq": 58,
+        "requiredStrength": 113,
+        "requiredDexterity": 113,
+        "durability": 52,
+        "sockets": 3,
+        "qlvl": 78
+      }
+    }
+  },
+  {
+    "id": "base-btl",
+    "slotCategory": "katars",
+    "grades": {
+      "normal": {
+        "name": {
+          "en": "Blade Talons",
+          "zh-TW": "刃爪",
+          "zh-CN": "刃爪"
+        },
+        "oneHandDamage": {
+          "min": 10,
+          "max": 14
+        },
+        "twoHandDamage": null,
+        "levelReq": 0,
+        "requiredStrength": 50,
+        "requiredDexterity": 50,
+        "durability": 69,
+        "sockets": 3,
+        "qlvl": 21
+      },
+      "exceptional": {
+        "name": {
+          "en": "Greater Talons",
+          "zh-TW": "巨鷹爪",
+          "zh-CN": "巨鹰爪"
+        },
+        "oneHandDamage": {
+          "min": 21,
+          "max": 35
+        },
+        "twoHandDamage": null,
+        "levelReq": 37,
+        "requiredStrength": 79,
+        "requiredDexterity": 79,
+        "durability": 69,
+        "sockets": 3,
+        "qlvl": 50
+      },
+      "elite": {
+        "name": {
+          "en": "Runic Talons",
+          "zh-TW": "符紋爪",
+          "zh-CN": "符纹爪"
+        },
+        "oneHandDamage": {
+          "min": 24,
+          "max": 44
+        },
+        "twoHandDamage": null,
+        "levelReq": 60,
+        "requiredStrength": 115,
+        "requiredDexterity": 115,
+        "durability": 69,
+        "sockets": 3,
+        "qlvl": 81
+      }
+    }
+  },
+  {
+    "id": "base-skr",
+    "slotCategory": "katars",
+    "grades": {
+      "normal": {
+        "name": {
+          "en": "Scissors Katar",
+          "zh-TW": "剪咬刃",
+          "zh-CN": "剪咬刃"
+        },
+        "oneHandDamage": {
+          "min": 9,
+          "max": 17
+        },
+        "twoHandDamage": null,
+        "levelReq": 0,
+        "requiredStrength": 55,
+        "requiredDexterity": 55,
+        "durability": 68,
+        "sockets": 3,
+        "qlvl": 24
+      },
+      "exceptional": {
+        "name": {
+          "en": "Scissors Quhab",
+          "zh-TW": "格鬥剪",
+          "zh-CN": "格斗剪"
+        },
+        "oneHandDamage": {
+          "min": 19,
+          "max": 40
+        },
+        "twoHandDamage": null,
+        "levelReq": 40,
+        "requiredStrength": 82,
+        "requiredDexterity": 82,
+        "durability": 68,
+        "sockets": 3,
+        "qlvl": 54
+      },
+      "elite": {
+        "name": {
+          "en": "Scissors Suwayyah",
+          "zh-TW": "近身剪",
+          "zh-CN": "近身剪"
+        },
+        "oneHandDamage": {
+          "min": 40,
+          "max": 51
+        },
+        "twoHandDamage": null,
+        "levelReq": 64,
+        "requiredStrength": 118,
+        "requiredDexterity": 118,
+        "durability": 68,
+        "sockets": 3,
+        "qlvl": 85
+      }
+    }
+  },
+  {
     "id": "base-ob1",
     "slotCategory": "orbs",
     "grades": {

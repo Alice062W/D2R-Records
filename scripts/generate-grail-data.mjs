@@ -370,7 +370,7 @@ const TYPE_TO_SLOT = {
   spea: 'spears', aspe: 'spears',
   club: 'clubs', mace: 'maces', hamm: 'hammers',
   scep: 'scepters', staf: 'staves', orb: 'orbs', wand: 'wands',
-  grim: 'grimoires', h2h2: 'katars',
+  grim: 'grimoires', h2h: 'katars', h2h2: 'katars',
   bow: 'bows', abow: 'bows', xbow: 'crossbows',
   jave: 'javelins', ajav: 'javelins',
   taxe: 'throwings', tkni: 'throwings',
