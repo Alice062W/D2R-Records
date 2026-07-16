@@ -1,6 +1,7 @@
 // src/components/grail/GrailItemDetail.tsx
 'use client';
 
+import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import type { GrailItem } from '@/lib/grail/catalog';
 import type { FindRecord } from '@/lib/grail/findsApi';
@@ -21,6 +22,7 @@ export default function GrailItemDetail({
 }) {
   const t = useTranslations('Grail');
   const sorted = sortFindsByRank(finds, item.statPriority);
+  const [iconFailed, setIconFailed] = useState(false);
 
   const itemStatRows: [string, string][] = [
     [t('baseLabel'), item.baseName],
@@ -33,10 +35,22 @@ export default function GrailItemDetail({
 
   return (
     <div className="bg-zinc-900 border border-zinc-700 rounded-xl p-6">
-      <div className="mb-1">
-        <h3 className={`text-lg font-bold ${NAME_COLOR[item.kind]}`}>{item.name}</h3>
-        <p className="text-xs text-zinc-400">{item.baseName}</p>
-        {item.setName && <p className="text-xs text-[#22ff55]">{item.setName}</p>}
+      <div className="mb-1 flex items-start gap-3">
+        {item.invFile && !iconFailed && (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={`/items/inv/${item.invFile}.png`}
+            alt=""
+            aria-hidden="true"
+            className="w-10 h-10 object-contain shrink-0"
+            onError={() => setIconFailed(true)}
+          />
+        )}
+        <div>
+          <h3 className={`text-lg font-bold ${NAME_COLOR[item.kind]}`}>{item.name}</h3>
+          <p className="text-xs text-zinc-400">{item.baseName}</p>
+          {item.setName && <p className="text-xs text-[#22ff55]">{item.setName}</p>}
+        </div>
       </div>
 
       <div className="mt-4">
