@@ -582,3 +582,29 @@ describe('set-groups.json', () => {
     expect(aldur.partialBonuses[2].stats[0]).toMatchObject({ key: 'lifesteal', min: 10, max: 10 });
   });
 });
+
+import areaLevelsData from './area-levels.json';
+
+describe('area-levels.json', () => {
+  it('has exactly 130 entries (138 total minus 8 administrative/town rows with MonLvlEx 0)', () => {
+    expect(areaLevelsData.length).toBe(130);
+  });
+
+  it('excludes known town/administrative areas', () => {
+    const names = areaLevelsData.map((a: { name: { en: string } }) => a.name.en);
+    for (const town of ['Rogue Encampment', 'Forgotten Tower', 'Lut Gholein', 'Harem Level 1', 'Kurast Docktown', 'The Pandemonium Fortress', 'Harrogath']) {
+      expect(names).not.toContain(town);
+    }
+  });
+
+  it("resolves Dark Wood's levels correctly", () => {
+    const darkWood = areaLevelsData.find((a: { name: { en: string } }) => a.name.en === 'Dark Wood')!;
+    expect(darkWood).toMatchObject({ act: 0, normal: 5, nightmare: 38, hell: 68 });
+    expect(darkWood.name['zh-TW']).not.toBe('');
+  });
+
+  it('is ordered by act, ascending', () => {
+    const acts = areaLevelsData.map((a: { act: number }) => a.act);
+    for (let i = 1; i < acts.length; i++) expect(acts[i]).toBeGreaterThanOrEqual(acts[i - 1]);
+  });
+});

@@ -1,0 +1,1562 @@
+[
+  {
+    "id": 2,
+    "name": {
+      "en": "Blood Moor",
+      "zh-TW": "鮮血荒地",
+      "zh-CN": "鲜血荒地"
+    },
+    "act": 0,
+    "normal": 1,
+    "nightmare": 36,
+    "hell": 67
+  },
+  {
+    "id": 3,
+    "name": {
+      "en": "Cold Plains",
+      "zh-TW": "冰冷之原",
+      "zh-CN": "冰冷之原"
+    },
+    "act": 0,
+    "normal": 2,
+    "nightmare": 36,
+    "hell": 68
+  },
+  {
+    "id": 4,
+    "name": {
+      "en": "Stony Field",
+      "zh-TW": "石塊曠野",
+      "zh-CN": "石块旷野"
+    },
+    "act": 0,
+    "normal": 4,
+    "nightmare": 37,
+    "hell": 68
+  },
+  {
+    "id": 5,
+    "name": {
+      "en": "Dark Wood",
+      "zh-TW": "黑暗森林",
+      "zh-CN": "黑暗森林"
+    },
+    "act": 0,
+    "normal": 5,
+    "nightmare": 38,
+    "hell": 68
+  },
+  {
+    "id": 6,
+    "name": {
+      "en": "Black Marsh",
+      "zh-TW": "黑色荒地",
+      "zh-CN": "黑色荒地"
+    },
+    "act": 0,
+    "normal": 6,
+    "nightmare": 38,
+    "hell": 69
+  },
+  {
+    "id": 7,
+    "name": {
+      "en": "Tamoe Highland",
+      "zh-TW": "泰摩高地",
+      "zh-CN": "泰摩高地"
+    },
+    "act": 0,
+    "normal": 8,
+    "nightmare": 39,
+    "hell": 69
+  },
+  {
+    "id": 8,
+    "name": {
+      "en": "Den of Evil",
+      "zh-TW": "邪惡洞窟",
+      "zh-CN": "邪恶洞窟"
+    },
+    "act": 0,
+    "normal": 1,
+    "nightmare": 36,
+    "hell": 79
+  },
+  {
+    "id": 9,
+    "name": {
+      "en": "Cave Level 1",
+      "zh-TW": "洞窟第一層",
+      "zh-CN": "洞窟第一层"
+    },
+    "act": 0,
+    "normal": 2,
+    "nightmare": 36,
+    "hell": 77
+  },
+  {
+    "id": 10,
+    "name": {
+      "en": "Underground Passage Level 1",
+      "zh-TW": "地底通道第一層",
+      "zh-CN": "地底通道第一层"
+    },
+    "act": 0,
+    "normal": 4,
+    "nightmare": 37,
+    "hell": 69
+  },
+  {
+    "id": 11,
+    "name": {
+      "en": "Hole Level 1",
+      "zh-TW": "地洞第一層",
+      "zh-CN": "地洞第一层"
+    },
+    "act": 0,
+    "normal": 5,
+    "nightmare": 38,
+    "hell": 80
+  },
+  {
+    "id": 12,
+    "name": {
+      "en": "Pit Level 1",
+      "zh-TW": "地穴第一層",
+      "zh-CN": "地穴第一层"
+    },
+    "act": 0,
+    "normal": 7,
+    "nightmare": 39,
+    "hell": 85
+  },
+  {
+    "id": 13,
+    "name": {
+      "en": "Cave Level 2",
+      "zh-TW": "洞窟第二層",
+      "zh-CN": "洞窟第二层"
+    },
+    "act": 0,
+    "normal": 2,
+    "nightmare": 37,
+    "hell": 78
+  },
+  {
+    "id": 14,
+    "name": {
+      "en": "Underground Passage Level 2",
+      "zh-TW": "地底通道第二層",
+      "zh-CN": "地底通道第二层"
+    },
+    "act": 0,
+    "normal": 4,
+    "nightmare": 38,
+    "hell": 85
+  },
+  {
+    "id": 15,
+    "name": {
+      "en": "Hole Level 2",
+      "zh-TW": "地洞第二層",
+      "zh-CN": "地洞第二层"
+    },
+    "act": 0,
+    "normal": 5,
+    "nightmare": 39,
+    "hell": 81
+  },
+  {
+    "id": 16,
+    "name": {
+      "en": "Pit Level 2",
+      "zh-TW": "地穴第二層",
+      "zh-CN": "地穴第二层"
+    },
+    "act": 0,
+    "normal": 7,
+    "nightmare": 40,
+    "hell": 85
+  },
+  {
+    "id": 17,
+    "name": {
+      "en": "Burial Grounds",
+      "zh-TW": "埋骨之地",
+      "zh-CN": "埋骨之地"
+    },
+    "act": 0,
+    "normal": 3,
+    "nightmare": 36,
+    "hell": 80
+  },
+  {
+    "id": 18,
+    "name": {
+      "en": "Crypt",
+      "zh-TW": "墓地",
+      "zh-CN": "墓地"
+    },
+    "act": 0,
+    "normal": 3,
+    "nightmare": 37,
+    "hell": 83
+  },
+  {
+    "id": 19,
+    "name": {
+      "en": "Mausoleum",
+      "zh-TW": "大陵寢",
+      "zh-CN": "大陵寝"
+    },
+    "act": 0,
+    "normal": 3,
+    "nightmare": 37,
+    "hell": 85
+  },
+  {
+    "id": 21,
+    "name": {
+      "en": "Tower Cellar Level 1",
+      "zh-TW": "高塔地牢第一層",
+      "zh-CN": "高塔地牢第一层"
+    },
+    "act": 0,
+    "normal": 7,
+    "nightmare": 38,
+    "hell": 75
+  },
+  {
+    "id": 22,
+    "name": {
+      "en": "Tower Cellar Level 2",
+      "zh-TW": "高塔地牢第二層",
+      "zh-CN": "高塔地牢第二层"
+    },
+    "act": 0,
+    "normal": 7,
+    "nightmare": 39,
+    "hell": 76
+  },
+  {
+    "id": 23,
+    "name": {
+      "en": "Tower Cellar Level 3",
+      "zh-TW": "高塔地牢第三層",
+      "zh-CN": "高塔地牢第三层"
+    },
+    "act": 0,
+    "normal": 7,
+    "nightmare": 40,
+    "hell": 77
+  },
+  {
+    "id": 24,
+    "name": {
+      "en": "Tower Cellar Level 4",
+      "zh-TW": "高塔地牢第四層",
+      "zh-CN": "高塔地牢第四层"
+    },
+    "act": 0,
+    "normal": 7,
+    "nightmare": 41,
+    "hell": 78
+  },
+  {
+    "id": 25,
+    "name": {
+      "en": "Tower Cellar Level 5",
+      "zh-TW": "高塔地牢第五層",
+      "zh-CN": "高塔地牢第五层"
+    },
+    "act": 0,
+    "normal": 7,
+    "nightmare": 42,
+    "hell": 79
+  },
+  {
+    "id": 26,
+    "name": {
+      "en": "Monastery Gate",
+      "zh-TW": "僧院大門",
+      "zh-CN": "僧院大门"
+    },
+    "act": 0,
+    "normal": 8,
+    "nightmare": 40,
+    "hell": 70
+  },
+  {
+    "id": 27,
+    "name": {
+      "en": "Outer Cloister",
+      "zh-TW": "外側迴廊",
+      "zh-CN": "外侧回廊"
+    },
+    "act": 0,
+    "normal": 9,
+    "nightmare": 40,
+    "hell": 70
+  },
+  {
+    "id": 28,
+    "name": {
+      "en": "Barracks",
+      "zh-TW": "軍營",
+      "zh-CN": "军营"
+    },
+    "act": 0,
+    "normal": 9,
+    "nightmare": 40,
+    "hell": 70
+  },
+  {
+    "id": 29,
+    "name": {
+      "en": "Jail Level 1",
+      "zh-TW": "監牢第一層",
+      "zh-CN": "监牢第一层"
+    },
+    "act": 0,
+    "normal": 10,
+    "nightmare": 41,
+    "hell": 71
+  },
+  {
+    "id": 30,
+    "name": {
+      "en": "Jail Level 2",
+      "zh-TW": "監牢第二層",
+      "zh-CN": "监牢第二层"
+    },
+    "act": 0,
+    "normal": 10,
+    "nightmare": 41,
+    "hell": 71
+  },
+  {
+    "id": 31,
+    "name": {
+      "en": "Jail Level 3",
+      "zh-TW": "監牢第三層",
+      "zh-CN": "监牢第三层"
+    },
+    "act": 0,
+    "normal": 10,
+    "nightmare": 41,
+    "hell": 71
+  },
+  {
+    "id": 32,
+    "name": {
+      "en": "Inner Cloister",
+      "zh-TW": "內側迴廊",
+      "zh-CN": "内侧回廊"
+    },
+    "act": 0,
+    "normal": 10,
+    "nightmare": 41,
+    "hell": 72
+  },
+  {
+    "id": 33,
+    "name": {
+      "en": "Cathedral",
+      "zh-TW": "大教堂",
+      "zh-CN": "大教堂"
+    },
+    "act": 0,
+    "normal": 11,
+    "nightmare": 42,
+    "hell": 72
+  },
+  {
+    "id": 34,
+    "name": {
+      "en": "Catacombs Level 1",
+      "zh-TW": "地下墓穴第一層",
+      "zh-CN": "地下墓穴第一层"
+    },
+    "act": 0,
+    "normal": 11,
+    "nightmare": 42,
+    "hell": 72
+  },
+  {
+    "id": 35,
+    "name": {
+      "en": "Catacombs Level 2",
+      "zh-TW": "地下墓穴第二層",
+      "zh-CN": "地下墓穴第二层"
+    },
+    "act": 0,
+    "normal": 11,
+    "nightmare": 42,
+    "hell": 73
+  },
+  {
+    "id": 36,
+    "name": {
+      "en": "Catacombs Level 3",
+      "zh-TW": "地下墓穴第三層",
+      "zh-CN": "地下墓穴第三层"
+    },
+    "act": 0,
+    "normal": 12,
+    "nightmare": 43,
+    "hell": 73
+  },
+  {
+    "id": 37,
+    "name": {
+      "en": "Catacombs Level 4",
+      "zh-TW": "地下墓穴第四層",
+      "zh-CN": "地下墓穴第四层"
+    },
+    "act": 0,
+    "normal": 12,
+    "nightmare": 43,
+    "hell": 73
+  },
+  {
+    "id": 38,
+    "name": {
+      "en": "Tristram",
+      "zh-TW": "崔斯特瑞姆",
+      "zh-CN": "崔斯特瑞姆"
+    },
+    "act": 0,
+    "normal": 6,
+    "nightmare": 39,
+    "hell": 76
+  },
+  {
+    "id": 39,
+    "name": {
+      "en": "Moo Moo Farm",
+      "zh-TW": "秘密母牛關卡",
+      "zh-CN": "秘密母牛关卡"
+    },
+    "act": 0,
+    "normal": 28,
+    "nightmare": 64,
+    "hell": 81
+  },
+  {
+    "id": 41,
+    "name": {
+      "en": "Rocky Waste",
+      "zh-TW": "碎石荒地",
+      "zh-CN": "碎石荒地"
+    },
+    "act": 1,
+    "normal": 14,
+    "nightmare": 43,
+    "hell": 75
+  },
+  {
+    "id": 42,
+    "name": {
+      "en": "Dry Hills",
+      "zh-TW": "乾燥的高地",
+      "zh-CN": "干燥的高地"
+    },
+    "act": 1,
+    "normal": 15,
+    "nightmare": 44,
+    "hell": 76
+  },
+  {
+    "id": 43,
+    "name": {
+      "en": "Far Oasis",
+      "zh-TW": "遙遠的綠洲",
+      "zh-CN": "遥远的绿洲"
+    },
+    "act": 1,
+    "normal": 16,
+    "nightmare": 45,
+    "hell": 76
+  },
+  {
+    "id": 44,
+    "name": {
+      "en": "Lost City",
+      "zh-TW": "遺失的城市",
+      "zh-CN": "遗失的城市"
+    },
+    "act": 1,
+    "normal": 17,
+    "nightmare": 46,
+    "hell": 77
+  },
+  {
+    "id": 45,
+    "name": {
+      "en": "Valley of Snakes",
+      "zh-TW": "群蛇峽谷",
+      "zh-CN": "群蛇峡谷"
+    },
+    "act": 1,
+    "normal": 18,
+    "nightmare": 46,
+    "hell": 77
+  },
+  {
+    "id": 46,
+    "name": {
+      "en": "Canyon of the Magi",
+      "zh-TW": "術士的峽谷",
+      "zh-CN": "术士的峡谷"
+    },
+    "act": 1,
+    "normal": 16,
+    "nightmare": 48,
+    "hell": 79
+  },
+  {
+    "id": 47,
+    "name": {
+      "en": "Sewers Level 1",
+      "zh-TW": "下水道第一層",
+      "zh-CN": "下水道第一层"
+    },
+    "act": 1,
+    "normal": 13,
+    "nightmare": 43,
+    "hell": 74
+  },
+  {
+    "id": 48,
+    "name": {
+      "en": "Sewers Level 2",
+      "zh-TW": "下水道第二層",
+      "zh-CN": "下水道第二层"
+    },
+    "act": 1,
+    "normal": 13,
+    "nightmare": 43,
+    "hell": 74
+  },
+  {
+    "id": 49,
+    "name": {
+      "en": "Sewers Level 3",
+      "zh-TW": "下水道第三層",
+      "zh-CN": "下水道第三层"
+    },
+    "act": 1,
+    "normal": 14,
+    "nightmare": 44,
+    "hell": 75
+  },
+  {
+    "id": 51,
+    "name": {
+      "en": "Harem Level 2",
+      "zh-TW": "女眷住處第二層",
+      "zh-CN": "女眷住处第二层"
+    },
+    "act": 1,
+    "normal": 13,
+    "nightmare": 47,
+    "hell": 78
+  },
+  {
+    "id": 52,
+    "name": {
+      "en": "Palace Cellar Level 1",
+      "zh-TW": "皇宮監牢第一層",
+      "zh-CN": "皇宫监牢第一层"
+    },
+    "act": 1,
+    "normal": 13,
+    "nightmare": 47,
+    "hell": 78
+  },
+  {
+    "id": 53,
+    "name": {
+      "en": "Palace Cellar Level 2",
+      "zh-TW": "皇宮監牢第二層",
+      "zh-CN": "皇宫监牢第二层"
+    },
+    "act": 1,
+    "normal": 13,
+    "nightmare": 47,
+    "hell": 78
+  },
+  {
+    "id": 54,
+    "name": {
+      "en": "Palace Cellar Level 3",
+      "zh-TW": "皇宮監牢第三層",
+      "zh-CN": "皇宫监牢第三层"
+    },
+    "act": 1,
+    "normal": 13,
+    "nightmare": 48,
+    "hell": 78
+  },
+  {
+    "id": 55,
+    "name": {
+      "en": "Stony Tomb Level 1",
+      "zh-TW": "石製古墓第一層",
+      "zh-CN": "石制古墓第一层"
+    },
+    "act": 1,
+    "normal": 12,
+    "nightmare": 44,
+    "hell": 85
+  },
+  {
+    "id": 56,
+    "name": {
+      "en": "Halls of the Dead Level 1",
+      "zh-TW": "死亡之殿第一層",
+      "zh-CN": "死亡之殿第一层"
+    },
+    "act": 1,
+    "normal": 12,
+    "nightmare": 44,
+    "hell": 79
+  },
+  {
+    "id": 57,
+    "name": {
+      "en": "Halls of the Dead Level 2",
+      "zh-TW": "死亡之殿第二層",
+      "zh-CN": "死亡之殿第二层"
+    },
+    "act": 1,
+    "normal": 13,
+    "nightmare": 45,
+    "hell": 81
+  },
+  {
+    "id": 58,
+    "name": {
+      "en": "Claw Viper Temple Level 1",
+      "zh-TW": "利爪腹蛇神殿第一層",
+      "zh-CN": "利爪腹蛇神殿第一层"
+    },
+    "act": 1,
+    "normal": 14,
+    "nightmare": 47,
+    "hell": 82
+  },
+  {
+    "id": 59,
+    "name": {
+      "en": "Stony Tomb Level 2",
+      "zh-TW": "石製古墓第二層",
+      "zh-CN": "石制古墓第二层"
+    },
+    "act": 1,
+    "normal": 12,
+    "nightmare": 44,
+    "hell": 85
+  },
+  {
+    "id": 60,
+    "name": {
+      "en": "Halls of the Dead Level 3",
+      "zh-TW": "死亡之殿第三層",
+      "zh-CN": "死亡之殿第三层"
+    },
+    "act": 1,
+    "normal": 13,
+    "nightmare": 45,
+    "hell": 82
+  },
+  {
+    "id": 61,
+    "name": {
+      "en": "Claw Viper Temple Level 2",
+      "zh-TW": "利爪腹蛇神殿第二層",
+      "zh-CN": "利爪腹蛇神殿第二层"
+    },
+    "act": 1,
+    "normal": 14,
+    "nightmare": 47,
+    "hell": 83
+  },
+  {
+    "id": 62,
+    "name": {
+      "en": "Maggot Lair Level 1",
+      "zh-TW": "蛆蟲巢穴第一層",
+      "zh-CN": "蛆虫巢穴第一层"
+    },
+    "act": 1,
+    "normal": 17,
+    "nightmare": 45,
+    "hell": 84
+  },
+  {
+    "id": 63,
+    "name": {
+      "en": "Maggot Lair Level 2",
+      "zh-TW": "蛆蟲巢穴第二層",
+      "zh-CN": "蛆虫巢穴第二层"
+    },
+    "act": 1,
+    "normal": 17,
+    "nightmare": 45,
+    "hell": 84
+  },
+  {
+    "id": 64,
+    "name": {
+      "en": "Maggot Lair Level 3",
+      "zh-TW": "蛆蟲巢穴第三層",
+      "zh-CN": "蛆虫巢穴第三层"
+    },
+    "act": 1,
+    "normal": 17,
+    "nightmare": 46,
+    "hell": 85
+  },
+  {
+    "id": 65,
+    "name": {
+      "en": "Ancient Tunnels",
+      "zh-TW": "古代通道",
+      "zh-CN": "古代通道"
+    },
+    "act": 1,
+    "normal": 17,
+    "nightmare": 46,
+    "hell": 85
+  },
+  {
+    "id": 66,
+    "name": {
+      "en": "Tal Rasha's Tomb",
+      "zh-TW": "塔.拉夏的古墓",
+      "zh-CN": "塔.拉夏的古墓"
+    },
+    "act": 1,
+    "normal": 17,
+    "nightmare": 49,
+    "hell": 80
+  },
+  {
+    "id": 67,
+    "name": {
+      "en": "Tal Rasha's Tomb",
+      "zh-TW": "塔.拉夏的古墓",
+      "zh-CN": "塔.拉夏的古墓"
+    },
+    "act": 1,
+    "normal": 17,
+    "nightmare": 49,
+    "hell": 80
+  },
+  {
+    "id": 68,
+    "name": {
+      "en": "Tal Rasha's Tomb",
+      "zh-TW": "塔.拉夏的古墓",
+      "zh-CN": "塔.拉夏的古墓"
+    },
+    "act": 1,
+    "normal": 17,
+    "nightmare": 49,
+    "hell": 80
+  },
+  {
+    "id": 69,
+    "name": {
+      "en": "Tal Rasha's Tomb",
+      "zh-TW": "塔.拉夏的古墓",
+      "zh-CN": "塔.拉夏的古墓"
+    },
+    "act": 1,
+    "normal": 17,
+    "nightmare": 49,
+    "hell": 80
+  },
+  {
+    "id": 70,
+    "name": {
+      "en": "Tal Rasha's Tomb",
+      "zh-TW": "塔.拉夏的古墓",
+      "zh-CN": "塔.拉夏的古墓"
+    },
+    "act": 1,
+    "normal": 17,
+    "nightmare": 49,
+    "hell": 80
+  },
+  {
+    "id": 71,
+    "name": {
+      "en": "Tal Rasha's Tomb",
+      "zh-TW": "塔.拉夏的古墓",
+      "zh-CN": "塔.拉夏的古墓"
+    },
+    "act": 1,
+    "normal": 17,
+    "nightmare": 49,
+    "hell": 80
+  },
+  {
+    "id": 72,
+    "name": {
+      "en": "Tal Rasha's Tomb",
+      "zh-TW": "塔.拉夏的古墓",
+      "zh-CN": "塔.拉夏的古墓"
+    },
+    "act": 1,
+    "normal": 17,
+    "nightmare": 49,
+    "hell": 80
+  },
+  {
+    "id": 73,
+    "name": {
+      "en": "Duriel's Lair",
+      "zh-TW": "都瑞爾的房間",
+      "zh-CN": "都瑞尔的房间"
+    },
+    "act": 1,
+    "normal": 17,
+    "nightmare": 49,
+    "hell": 80
+  },
+  {
+    "id": 74,
+    "name": {
+      "en": "Arcane Sanctuary",
+      "zh-TW": "神秘庇難所",
+      "zh-CN": "神秘庇难所"
+    },
+    "act": 1,
+    "normal": 14,
+    "nightmare": 48,
+    "hell": 79
+  },
+  {
+    "id": 76,
+    "name": {
+      "en": "Spider Forest",
+      "zh-TW": "蜘蛛森林",
+      "zh-CN": "蜘蛛森林"
+    },
+    "act": 2,
+    "normal": 21,
+    "nightmare": 49,
+    "hell": 79
+  },
+  {
+    "id": 77,
+    "name": {
+      "en": "Great Marsh",
+      "zh-TW": "龐大濕地",
+      "zh-CN": "庞大湿地"
+    },
+    "act": 2,
+    "normal": 21,
+    "nightmare": 50,
+    "hell": 80
+  },
+  {
+    "id": 78,
+    "name": {
+      "en": "Flayer Jungle",
+      "zh-TW": "剝皮叢林",
+      "zh-CN": "剥皮丛林"
+    },
+    "act": 2,
+    "normal": 22,
+    "nightmare": 50,
+    "hell": 80
+  },
+  {
+    "id": 79,
+    "name": {
+      "en": "Lower Kurast",
+      "zh-TW": "庫拉斯特下層",
+      "zh-CN": "库拉斯特下层"
+    },
+    "act": 2,
+    "normal": 22,
+    "nightmare": 52,
+    "hell": 80
+  },
+  {
+    "id": 80,
+    "name": {
+      "en": "Kurast Bazaar",
+      "zh-TW": "庫拉斯特商場",
+      "zh-CN": "库拉斯特商场"
+    },
+    "act": 2,
+    "normal": 22,
+    "nightmare": 52,
+    "hell": 81
+  },
+  {
+    "id": 81,
+    "name": {
+      "en": "Upper Kurast",
+      "zh-TW": "庫拉斯特上層",
+      "zh-CN": "库拉斯特上层"
+    },
+    "act": 2,
+    "normal": 23,
+    "nightmare": 52,
+    "hell": 81
+  },
+  {
+    "id": 82,
+    "name": {
+      "en": "Kurast Causeway",
+      "zh-TW": "庫拉斯特堤道",
+      "zh-CN": "库拉斯特堤道"
+    },
+    "act": 2,
+    "normal": 24,
+    "nightmare": 53,
+    "hell": 81
+  },
+  {
+    "id": 83,
+    "name": {
+      "en": "Travincal",
+      "zh-TW": "崔凡克",
+      "zh-CN": "崔凡克"
+    },
+    "act": 2,
+    "normal": 24,
+    "nightmare": 54,
+    "hell": 82
+  },
+  {
+    "id": 84,
+    "name": {
+      "en": "Arachnid Lair",
+      "zh-TW": "Arachnid Lair",
+      "zh-CN": "Arachnid Lair"
+    },
+    "act": 2,
+    "normal": 21,
+    "nightmare": 50,
+    "hell": 85
+  },
+  {
+    "id": 85,
+    "name": {
+      "en": "Spider Cavern",
+      "zh-TW": "蜘蛛洞窟",
+      "zh-CN": "蜘蛛洞窟"
+    },
+    "act": 2,
+    "normal": 21,
+    "nightmare": 50,
+    "hell": 79
+  },
+  {
+    "id": 86,
+    "name": {
+      "en": "Swampy Pit Level 1",
+      "zh-TW": "沼澤地洞第一層",
+      "zh-CN": "沼泽地洞第一层"
+    },
+    "act": 2,
+    "normal": 21,
+    "nightmare": 51,
+    "hell": 85
+  },
+  {
+    "id": 87,
+    "name": {
+      "en": "Swampy Pit Level 2",
+      "zh-TW": "沼澤地洞第二層",
+      "zh-CN": "沼泽地洞第二层"
+    },
+    "act": 2,
+    "normal": 21,
+    "nightmare": 51,
+    "hell": 85
+  },
+  {
+    "id": 88,
+    "name": {
+      "en": "Flayer Dungeon Level 1",
+      "zh-TW": "剝皮地窖第一層",
+      "zh-CN": "剥皮地窖第一层"
+    },
+    "act": 2,
+    "normal": 22,
+    "nightmare": 51,
+    "hell": 81
+  },
+  {
+    "id": 89,
+    "name": {
+      "en": "Flayer Dungeon Level 2",
+      "zh-TW": "剝皮地窖第二層",
+      "zh-CN": "剥皮地窖第二层"
+    },
+    "act": 2,
+    "normal": 22,
+    "nightmare": 51,
+    "hell": 82
+  },
+  {
+    "id": 90,
+    "name": {
+      "en": "Swampy Pit Level 3",
+      "zh-TW": "沼澤地洞第三層",
+      "zh-CN": "沼泽地洞第三层"
+    },
+    "act": 2,
+    "normal": 21,
+    "nightmare": 51,
+    "hell": 85
+  },
+  {
+    "id": 91,
+    "name": {
+      "en": "Flayer Dungeon Level 3",
+      "zh-TW": "剝皮地窖第三層",
+      "zh-CN": "剥皮地窖第三层"
+    },
+    "act": 2,
+    "normal": 22,
+    "nightmare": 51,
+    "hell": 83
+  },
+  {
+    "id": 92,
+    "name": {
+      "en": "Sewers Level 1",
+      "zh-TW": "下水道第一層",
+      "zh-CN": "下水道第一层"
+    },
+    "act": 2,
+    "normal": 23,
+    "nightmare": 52,
+    "hell": 85
+  },
+  {
+    "id": 93,
+    "name": {
+      "en": "Sewers Level 2",
+      "zh-TW": "下水道第二層",
+      "zh-CN": "下水道第二层"
+    },
+    "act": 2,
+    "normal": 24,
+    "nightmare": 53,
+    "hell": 85
+  },
+  {
+    "id": 94,
+    "name": {
+      "en": "Ruined Temple",
+      "zh-TW": "殘破神殿",
+      "zh-CN": "残破神殿"
+    },
+    "act": 2,
+    "normal": 23,
+    "nightmare": 53,
+    "hell": 85
+  },
+  {
+    "id": 95,
+    "name": {
+      "en": "Disused Fane",
+      "zh-TW": "廢棄的寺院",
+      "zh-CN": "废弃的寺院"
+    },
+    "act": 2,
+    "normal": 23,
+    "nightmare": 53,
+    "hell": 85
+  },
+  {
+    "id": 96,
+    "name": {
+      "en": "Forgotten Reliquary",
+      "zh-TW": "遺忘的聖物",
+      "zh-CN": "遗忘的圣物"
+    },
+    "act": 2,
+    "normal": 23,
+    "nightmare": 53,
+    "hell": 85
+  },
+  {
+    "id": 97,
+    "name": {
+      "en": "Forgotten Temple",
+      "zh-TW": "遺忘神殿",
+      "zh-CN": "遗忘神殿"
+    },
+    "act": 2,
+    "normal": 24,
+    "nightmare": 54,
+    "hell": 85
+  },
+  {
+    "id": 98,
+    "name": {
+      "en": "Ruined Fane",
+      "zh-TW": "殘破的寺院",
+      "zh-CN": "残破的寺院"
+    },
+    "act": 2,
+    "normal": 24,
+    "nightmare": 54,
+    "hell": 85
+  },
+  {
+    "id": 99,
+    "name": {
+      "en": "Disused Reliquary",
+      "zh-TW": "廢棄的聖物",
+      "zh-CN": "废弃的圣物"
+    },
+    "act": 2,
+    "normal": 24,
+    "nightmare": 54,
+    "hell": 85
+  },
+  {
+    "id": 100,
+    "name": {
+      "en": "Durance of Hate Level 1",
+      "zh-TW": "憎恨的囚牢第一層",
+      "zh-CN": "憎恨的囚牢第一层"
+    },
+    "act": 2,
+    "normal": 25,
+    "nightmare": 55,
+    "hell": 83
+  },
+  {
+    "id": 101,
+    "name": {
+      "en": "Durance of Hate Level 2",
+      "zh-TW": "憎恨的囚牢第二層",
+      "zh-CN": "憎恨的囚牢第二层"
+    },
+    "act": 2,
+    "normal": 25,
+    "nightmare": 55,
+    "hell": 83
+  },
+  {
+    "id": 102,
+    "name": {
+      "en": "Durance of Hate Level 3",
+      "zh-TW": "憎恨的囚牢第三層",
+      "zh-CN": "憎恨的囚牢第三层"
+    },
+    "act": 2,
+    "normal": 25,
+    "nightmare": 55,
+    "hell": 83
+  },
+  {
+    "id": 104,
+    "name": {
+      "en": "Outer Steppes",
+      "zh-TW": "郊外大草原",
+      "zh-CN": "郊外大草原"
+    },
+    "act": 3,
+    "normal": 26,
+    "nightmare": 56,
+    "hell": 82
+  },
+  {
+    "id": 105,
+    "name": {
+      "en": "Plains of Despair",
+      "zh-TW": "絕望平原",
+      "zh-CN": "绝望平原"
+    },
+    "act": 3,
+    "normal": 26,
+    "nightmare": 56,
+    "hell": 83
+  },
+  {
+    "id": 106,
+    "name": {
+      "en": "City of the Damned",
+      "zh-TW": "神罰之城",
+      "zh-CN": "神罚之城"
+    },
+    "act": 3,
+    "normal": 27,
+    "nightmare": 57,
+    "hell": 84
+  },
+  {
+    "id": 107,
+    "name": {
+      "en": "River of Flame",
+      "zh-TW": "火焰之河",
+      "zh-CN": "火焰之河"
+    },
+    "act": 3,
+    "normal": 27,
+    "nightmare": 57,
+    "hell": 85
+  },
+  {
+    "id": 108,
+    "name": {
+      "en": "The Chaos Sanctuary",
+      "zh-TW": "The Chaos Sanctuary",
+      "zh-CN": "The Chaos Sanctuary"
+    },
+    "act": 3,
+    "normal": 28,
+    "nightmare": 58,
+    "hell": 85
+  },
+  {
+    "id": 110,
+    "name": {
+      "en": "Bloody Foothills",
+      "zh-TW": "血腥丘陵",
+      "zh-CN": "血腥丘陵"
+    },
+    "act": 4,
+    "normal": 24,
+    "nightmare": 58,
+    "hell": 80
+  },
+  {
+    "id": 111,
+    "name": {
+      "en": "Frigid Highlands",
+      "zh-TW": "Frigid Highlands",
+      "zh-CN": "Frigid Highlands"
+    },
+    "act": 4,
+    "normal": 25,
+    "nightmare": 59,
+    "hell": 81
+  },
+  {
+    "id": 112,
+    "name": {
+      "en": "Arreat Plateau",
+      "zh-TW": "亞瑞特高原",
+      "zh-CN": "亚瑞特高原"
+    },
+    "act": 4,
+    "normal": 26,
+    "nightmare": 60,
+    "hell": 81
+  },
+  {
+    "id": 113,
+    "name": {
+      "en": "Crystalline Passage",
+      "zh-TW": "Crystalline Passage",
+      "zh-CN": "Crystalline Passage"
+    },
+    "act": 4,
+    "normal": 29,
+    "nightmare": 61,
+    "hell": 82
+  },
+  {
+    "id": 114,
+    "name": {
+      "en": "Frozen River",
+      "zh-TW": "Frozen River",
+      "zh-CN": "Frozen River"
+    },
+    "act": 4,
+    "normal": 29,
+    "nightmare": 61,
+    "hell": 83
+  },
+  {
+    "id": 115,
+    "name": {
+      "en": "Glacial Trail",
+      "zh-TW": "Glacial Trail",
+      "zh-CN": "Glacial Trail"
+    },
+    "act": 4,
+    "normal": 29,
+    "nightmare": 61,
+    "hell": 83
+  },
+  {
+    "id": 116,
+    "name": {
+      "en": "Drifter Cavern",
+      "zh-TW": "Drifter Cavern",
+      "zh-CN": "Drifter Cavern"
+    },
+    "act": 4,
+    "normal": 29,
+    "nightmare": 61,
+    "hell": 85
+  },
+  {
+    "id": 117,
+    "name": {
+      "en": "Frozen Tundra",
+      "zh-TW": "Frozen Tundra",
+      "zh-CN": "Frozen Tundra"
+    },
+    "act": 4,
+    "normal": 27,
+    "nightmare": 60,
+    "hell": 81
+  },
+  {
+    "id": 118,
+    "name": {
+      "en": "The Ancients' Way",
+      "zh-TW": "The Ancients' Way",
+      "zh-CN": "The Ancients' Way"
+    },
+    "act": 4,
+    "normal": 29,
+    "nightmare": 62,
+    "hell": 82
+  },
+  {
+    "id": 119,
+    "name": {
+      "en": "Icy Cellar",
+      "zh-TW": "Icy Cellar",
+      "zh-CN": "Icy Cellar"
+    },
+    "act": 4,
+    "normal": 29,
+    "nightmare": 62,
+    "hell": 85
+  },
+  {
+    "id": 120,
+    "name": {
+      "en": "Arreat Summit",
+      "zh-TW": "Arreat Summit",
+      "zh-CN": "Arreat Summit"
+    },
+    "act": 4,
+    "normal": 37,
+    "nightmare": 68,
+    "hell": 87
+  },
+  {
+    "id": 121,
+    "name": {
+      "en": "Nihlathak's Temple",
+      "zh-TW": "Nihlathak's Temple",
+      "zh-CN": "Nihlathak's Temple"
+    },
+    "act": 4,
+    "normal": 32,
+    "nightmare": 63,
+    "hell": 83
+  },
+  {
+    "id": 122,
+    "name": {
+      "en": "Halls of Anguish",
+      "zh-TW": "悲痛之廳",
+      "zh-CN": "悲痛之厅"
+    },
+    "act": 4,
+    "normal": 33,
+    "nightmare": 63,
+    "hell": 83
+  },
+  {
+    "id": 123,
+    "name": {
+      "en": "Halls of Pain",
+      "zh-TW": "Halls of Pain",
+      "zh-CN": "Halls of Pain"
+    },
+    "act": 4,
+    "normal": 34,
+    "nightmare": 64,
+    "hell": 84
+  },
+  {
+    "id": 124,
+    "name": {
+      "en": "Halls of Vaught",
+      "zh-TW": "瓦特之廳",
+      "zh-CN": "瓦特之厅"
+    },
+    "act": 4,
+    "normal": 36,
+    "nightmare": 64,
+    "hell": 84
+  },
+  {
+    "id": 125,
+    "name": {
+      "en": "Abaddon",
+      "zh-TW": "Abaddon",
+      "zh-CN": "Abaddon"
+    },
+    "act": 4,
+    "normal": 39,
+    "nightmare": 60,
+    "hell": 85
+  },
+  {
+    "id": 126,
+    "name": {
+      "en": "Pit of Acheron",
+      "zh-TW": "Pit of Acheron",
+      "zh-CN": "Pit of Acheron"
+    },
+    "act": 4,
+    "normal": 39,
+    "nightmare": 61,
+    "hell": 85
+  },
+  {
+    "id": 127,
+    "name": {
+      "en": "Infernal Pit",
+      "zh-TW": "Infernal Pit",
+      "zh-CN": "Infernal Pit"
+    },
+    "act": 4,
+    "normal": 39,
+    "nightmare": 62,
+    "hell": 85
+  },
+  {
+    "id": 128,
+    "name": {
+      "en": "The Worldstone Keep Level 1",
+      "zh-TW": "世界之石要塞第一層",
+      "zh-CN": "世界之石要塞第一层"
+    },
+    "act": 4,
+    "normal": 39,
+    "nightmare": 65,
+    "hell": 85
+  },
+  {
+    "id": 129,
+    "name": {
+      "en": "The Worldstone Keep Level 2",
+      "zh-TW": "世界之石要塞第二層",
+      "zh-CN": "世界之石要塞第二层"
+    },
+    "act": 4,
+    "normal": 40,
+    "nightmare": 65,
+    "hell": 85
+  },
+  {
+    "id": 130,
+    "name": {
+      "en": "The Worldstone Keep Level 3",
+      "zh-TW": "世界之石要塞第三層",
+      "zh-CN": "世界之石要塞第三层"
+    },
+    "act": 4,
+    "normal": 42,
+    "nightmare": 66,
+    "hell": 85
+  },
+  {
+    "id": 131,
+    "name": {
+      "en": "Throne of Destruction",
+      "zh-TW": "毀減的王座",
+      "zh-CN": "毁减的王座"
+    },
+    "act": 4,
+    "normal": 43,
+    "nightmare": 66,
+    "hell": 85
+  },
+  {
+    "id": 132,
+    "name": {
+      "en": "The Worldstone Chamber",
+      "zh-TW": "世界之石大殿",
+      "zh-CN": "世界之石大殿"
+    },
+    "act": 4,
+    "normal": 43,
+    "nightmare": 66,
+    "hell": 85
+  },
+  {
+    "id": 133,
+    "name": {
+      "en": "Matron's Den",
+      "zh-TW": "Matron's Den",
+      "zh-CN": "Matron's Den"
+    },
+    "act": 4,
+    "normal": 50,
+    "nightmare": 75,
+    "hell": 83
+  },
+  {
+    "id": 134,
+    "name": {
+      "en": "Forgotten Sands",
+      "zh-TW": "Forgotten Sands",
+      "zh-CN": "Forgotten Sands"
+    },
+    "act": 4,
+    "normal": 50,
+    "nightmare": 75,
+    "hell": 83
+  },
+  {
+    "id": 135,
+    "name": {
+      "en": "Furnace of Pain",
+      "zh-TW": "Furnace of Pain",
+      "zh-CN": "Furnace of Pain"
+    },
+    "act": 4,
+    "normal": 50,
+    "nightmare": 75,
+    "hell": 83
+  },
+  {
+    "id": 136,
+    "name": {
+      "en": "Tristram",
+      "zh-TW": "崔斯特瑞姆",
+      "zh-CN": "崔斯特瑞姆"
+    },
+    "act": 4,
+    "normal": 50,
+    "nightmare": 75,
+    "hell": 83
+  },
+  {
+    "id": 137,
+    "name": {
+      "en": "ColossalSummit",
+      "zh-TW": "ColossalSummit",
+      "zh-CN": "ColossalSummit"
+    },
+    "act": 4,
+    "normal": 37,
+    "nightmare": 68,
+    "hell": 87
+  }
+]

@@ -1255,3 +1255,20 @@ const magicAffixesOut = [
 
 writeFileSync(join(OUT, 'magic-affixes.json'), JSON.stringify(magicAffixesOut, null, 2));
 console.log(`Wrote ${magicAffixesOut.length} magic/rare affixes -> data/magic-affixes.json`);
+
+const levelsData = JSON.parse(readFileSync(join(VENDOR, 'levels.json'), 'utf8'));
+
+const areaLevelsOut = Object.values(levelsData)
+  .filter(v => v.Act !== undefined && v.Act >= 0 && v['*StringName'] && (v.MonLvlEx ?? 0) > 0)
+  .sort((a, b) => a.Act - b.Act || a.Id - b.Id)
+  .map(v => ({
+    id: v.Id,
+    name: localizedItemName(v['*StringName']),
+    act: v.Act,
+    normal: v.MonLvlEx,
+    nightmare: v['MonLvlEx(N)'],
+    hell: v['MonLvlEx(H)'],
+  }));
+
+writeFileSync(join(OUT, 'area-levels.json'), JSON.stringify(areaLevelsOut, null, 2));
+console.log(`Wrote ${areaLevelsOut.length} area levels -> data/area-levels.json`);

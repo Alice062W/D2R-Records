@@ -37,3 +37,7 @@ each individual item's own per-piece partial bonus): the set-wide partial bonuse
 unlocked at 2/3/4/5 pieces worn (`PCode{n}a`/`PMin{n}a`/`PMax{n}a`) and the full-set
 bonus unlocked when every piece is worn (`FCode1-8`/`FMin{n}`/`FMax{n}`), keyed by set
 name. Used for the Set Items "browse by full Set name" reference page.
+
+`levels.json` provides every game area's identity (`*StringName`, `Act`) and per-difficulty
+monster level (`MonLvlEx`/`MonLvlEx(N)`/`MonLvlEx(H)`), used for the Area Level reference
+page.
