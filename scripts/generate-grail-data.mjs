@@ -644,6 +644,60 @@ writeFileSync(join(OUT, 'sets.json'), JSON.stringify(setsOut, null, 2));
 console.log(`Wrote ${uniquesOut.length} unique items -> data/uniques.json`);
 console.log(`Wrote ${setsOut.length} set items -> data/sets.json`);
 
+const setsFullData = JSON.parse(readFileSync(join(VENDOR, 'sets.json'), 'utf8'));
+
+// The set-level partial-bonus fields are PCode{n}a/PMin{n}a/PMax{n}a where {n} IS the
+// piece-count tier itself (2,3,4,5), not a sequential 1..N counter — so this doesn't fit
+// the usual extractProps-style `{prefix}{n}` loop pattern and gets a direct per-tier
+// extraction instead.
+const setGroupsOut = Object.values(setsFullData)
+  .map(v => {
+    const pieceIds = setsOut.filter(s => s.setName.en === v.name).map(s => s.id);
+    if (pieceIds.length === 0) return null; // e.g. Warlord's Glory: zero spawnable pieces
+
+    const partialBonuses = [2, 3, 4, 5].flatMap(n => {
+      const rawCode = v[`PCode${n}a`];
+      if (!rawCode) return [];
+      const code = CODE_ALIASES[rawCode] ?? rawCode;
+      const par = v[`PParam${n}a`];
+      const isSkillRef = SKILL_REF_PROPS.has(code);
+      const label = isSkillRef ? localizedLabelWithSkill(code, par) : localizedLabelFor(code);
+      const needsKeySuffix = (isSkillRef || KEY_ONLY_DISAMBIGUATE_PROPS.has(code)) && par !== undefined;
+      const key = needsKeySuffix ? `${code}:${par}` : code;
+      const min = v[`PMin${n}a`];
+      const max = v[`PMax${n}a`];
+      if (min === undefined || max === undefined) return [];
+      return [{ piecesRequired: n, stats: [{ key, label, min, max }] }];
+    });
+
+    const fullSetBonuses = [];
+    for (let n = 1; n <= 8; n++) {
+      const rawCode = v[`FCode${n}`];
+      if (!rawCode || rawCode === 'state') continue;
+      const code = CODE_ALIASES[rawCode] ?? rawCode;
+      const par = v[`FParam${n}`];
+      const isSkillRef = SKILL_REF_PROPS.has(code);
+      const label = isSkillRef ? localizedLabelWithSkill(code, par) : localizedLabelFor(code);
+      const needsKeySuffix = (isSkillRef || KEY_ONLY_DISAMBIGUATE_PROPS.has(code)) && par !== undefined;
+      const key = needsKeySuffix ? `${code}:${par}` : code;
+      const min = v[`FMin${n}`];
+      const max = v[`FMax${n}`];
+      if (min === undefined || max === undefined) continue;
+      fullSetBonuses.push({ key, label, min, max });
+    }
+
+    return {
+      setName: localizedItemName(v.name),
+      pieceIds,
+      partialBonuses,
+      fullSetBonuses,
+    };
+  })
+  .filter(Boolean);
+
+writeFileSync(join(OUT, 'set-groups.json'), JSON.stringify(setGroupsOut, null, 2));
+console.log(`Wrote ${setGroupsOut.length} set groups -> data/set-groups.json`);
+
 // Runewords: the vendored runes.json's `complete === 1` entries are the source of
 // truth for which runewords exist and their full effect stats — it includes real
 // current runewords (e.g. Vigilance, Ritual, Void, Authority, Coven, and Hustle's

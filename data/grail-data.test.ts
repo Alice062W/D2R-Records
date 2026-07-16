@@ -10,6 +10,7 @@ import categoryIcons from './category-icons.json';
 import { getCategoriesForKind, SLOT_ORDER } from '@/lib/grail/catalog';
 import { existsSync } from 'fs';
 import { join } from 'path';
+import setGroupsData from './set-groups.json';
 
 interface LocalizedText { en: string; 'zh-TW': string; 'zh-CN': string; }
 
@@ -541,5 +542,41 @@ describe('magic-affixes.json ancestor-closure category expansion', () => {
       .filter(code => categories.has(code));
     expect(stillGeneric).toEqual([]);
     expect(categories.has('bar')).toBe(true);
+  });
+});
+
+describe('set-groups.json', () => {
+  it('has exactly 34 entries (Warlord\'s Glory has zero spawnable pieces, correctly excluded)', () => {
+    expect(setGroupsData.length).toBe(34);
+    expect(setGroupsData.some((g: { setName: { en: string } }) => g.setName.en === "Warlord's Glory")).toBe(false);
+  });
+
+  it('every entry has at least one piece id that exists in sets.json', () => {
+    const setIds = new Set(sets.map((s: { id: string }) => s.id));
+    for (const group of setGroupsData) {
+      expect(group.pieceIds.length).toBeGreaterThan(0);
+      for (const id of group.pieceIds) expect(setIds.has(id)).toBe(true);
+    }
+  });
+
+  it("resolves Aldur's Watchtower's full-set bonus correctly", () => {
+    const aldur = setGroupsData.find((g: { setName: { en: string } }) => g.setName.en === "Aldur's Watchtower")!;
+    const byKey = Object.fromEntries(aldur.fullSetBonuses.map((b: { key: string; min: number; max: number }) => [b.key, b]));
+    expect(byKey['res-all']).toMatchObject({ min: 50, max: 50 });
+    expect(byKey['dru']).toMatchObject({ min: 3, max: 3 });
+    expect(byKey['ac']).toMatchObject({ min: 150, max: 150 });
+    expect(byKey['manasteal']).toMatchObject({ min: 10, max: 10 });
+    expect(byKey['mana']).toMatchObject({ min: 150, max: 150 });
+    expect(byKey['dmg%']).toMatchObject({ min: 350, max: 350 });
+    // The "state"/"fullsetgeneric" cosmetic flag must not leak into the bonus list.
+    expect(aldur.fullSetBonuses.some((b: { key: string }) => b.key === 'state')).toBe(false);
+  });
+
+  it("resolves Aldur's Watchtower's partial bonuses (2/3/4-piece tiers)", () => {
+    const aldur = setGroupsData.find((g: { setName: { en: string } }) => g.setName.en === "Aldur's Watchtower")!;
+    expect(aldur.partialBonuses.map((p: { piecesRequired: number }) => p.piecesRequired)).toEqual([2, 3, 4]);
+    expect(aldur.partialBonuses[0].stats[0]).toMatchObject({ key: 'att%', min: 150, max: 150 });
+    expect(aldur.partialBonuses[1].stats[0]).toMatchObject({ key: 'mag%', min: 50, max: 50 });
+    expect(aldur.partialBonuses[2].stats[0]).toMatchObject({ key: 'lifesteal', min: 10, max: 10 });
   });
 });

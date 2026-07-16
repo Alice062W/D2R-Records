@@ -31,3 +31,9 @@ via direct comparison against d2r.world: an affix present on the Magic page with
 `rare` flag is absent from the Rare page for the same item type, and vice versa for a
 `rare: 1` entry appearing only on the Rare page — this is a real, curated subset
 distinction in the game's own item generation, not an artifact of stale/versioned data).
+
+`sets.json` provides set-LEVEL bonus data (distinct from `setitems.json`, which only has
+each individual item's own per-piece partial bonus): the set-wide partial bonuses
+unlocked at 2/3/4/5 pieces worn (`PCode{n}a`/`PMin{n}a`/`PMax{n}a`) and the full-set
+bonus unlocked when every piece is worn (`FCode1-8`/`FMin{n}`/`FMax{n}`), keyed by set
+name. Used for the Set Items "browse by full Set name" reference page.

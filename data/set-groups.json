@@ -1,0 +1,3253 @@
+[
+  {
+    "setName": {
+      "en": "Aldur's Watchtower",
+      "zh-TW": "艾爾多的守衛",
+      "zh-CN": "艾尔多的守卫"
+    },
+    "pieceIds": [
+      "set-69",
+      "set-67",
+      "set-68",
+      "set-66"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "att%",
+            "label": {
+              "en": "Attack Rating %",
+              "zh-TW": "攻擊等級 %",
+              "zh-CN": "攻击等级 %"
+            },
+            "min": 150,
+            "max": 150
+          }
+        ]
+      },
+      {
+        "piecesRequired": 3,
+        "stats": [
+          {
+            "key": "mag%",
+            "label": {
+              "en": "Magic Find %",
+              "zh-TW": "額外魔法物品尋獲率 %",
+              "zh-CN": "额外魔法物品寻获率 %"
+            },
+            "min": 50,
+            "max": 50
+          }
+        ]
+      },
+      {
+        "piecesRequired": 4,
+        "stats": [
+          {
+            "key": "lifesteal",
+            "label": {
+              "en": "Life Steal %",
+              "zh-TW": "生命竊取 %",
+              "zh-CN": "生命窃取 %"
+            },
+            "min": 10,
+            "max": 10
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 50,
+        "max": 50
+      },
+      {
+        "key": "dru",
+        "label": {
+          "en": "Druid Skill Levels",
+          "zh-TW": "德魯伊技能等級",
+          "zh-CN": "德鲁伊技能等级"
+        },
+        "min": 3,
+        "max": 3
+      },
+      {
+        "key": "ac",
+        "label": {
+          "en": "Defense",
+          "zh-TW": "防禦力",
+          "zh-CN": "防御力"
+        },
+        "min": 150,
+        "max": 150
+      },
+      {
+        "key": "manasteal",
+        "label": {
+          "en": "Mana Steal %",
+          "zh-TW": "魔力竊取 %",
+          "zh-CN": "魔力窃取 %"
+        },
+        "min": 10,
+        "max": 10
+      },
+      {
+        "key": "mana",
+        "label": {
+          "en": "Mana",
+          "zh-TW": "魔力值",
+          "zh-CN": "魔力值"
+        },
+        "min": 150,
+        "max": 150
+      },
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 350,
+        "max": 350
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "Angelical Raiment",
+      "zh-TW": "天上的衣服",
+      "zh-CN": "天上的衣服"
+    },
+    "pieceIds": [
+      "set-52",
+      "set-51",
+      "set-50",
+      "set-53"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "dex",
+            "label": {
+              "en": "Dexterity",
+              "zh-TW": "敏捷",
+              "zh-CN": "敏捷"
+            },
+            "min": 10,
+            "max": 10
+          }
+        ]
+      },
+      {
+        "piecesRequired": 3,
+        "stats": [
+          {
+            "key": "mana",
+            "label": {
+              "en": "Mana",
+              "zh-TW": "魔力值",
+              "zh-CN": "魔力值"
+            },
+            "min": 50,
+            "max": 50
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 25,
+        "max": 25
+      },
+      {
+        "key": "half-freeze",
+        "label": {
+          "en": "Half Freeze Duration",
+          "zh-TW": "減半冰凍持續時間",
+          "zh-CN": "减半冰冻持续时间"
+        },
+        "min": 1,
+        "max": 1
+      },
+      {
+        "key": "mag%",
+        "label": {
+          "en": "Magic Find %",
+          "zh-TW": "額外魔法物品尋獲率 %",
+          "zh-CN": "额外魔法物品寻获率 %"
+        },
+        "min": 40,
+        "max": 40
+      },
+      {
+        "key": "regen-mana",
+        "label": {
+          "en": "Mana Regenerated %",
+          "zh-TW": "魔力回復 %",
+          "zh-CN": "魔力回复 %"
+        },
+        "min": 8,
+        "max": 8
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "Arcanna's Tricks",
+      "zh-TW": "卡阿娜的詭計",
+      "zh-CN": "卡阿娜的诡计"
+    },
+    "pieceIds": [
+      "set-59",
+      "set-61",
+      "set-60",
+      "set-58"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "mana",
+            "label": {
+              "en": "Mana",
+              "zh-TW": "魔力值",
+              "zh-CN": "魔力值"
+            },
+            "min": 50,
+            "max": 50
+          }
+        ]
+      },
+      {
+        "piecesRequired": 3,
+        "stats": [
+          {
+            "key": "hp",
+            "label": {
+              "en": "Life",
+              "zh-TW": "生命值",
+              "zh-CN": "生命值"
+            },
+            "min": 50,
+            "max": 50
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "cast3",
+        "label": {
+          "en": "Faster Cast Rate",
+          "zh-TW": "加快施法速度",
+          "zh-CN": "加快施法速度"
+        },
+        "min": 20,
+        "max": 20
+      },
+      {
+        "key": "manasteal",
+        "label": {
+          "en": "Mana Steal %",
+          "zh-TW": "魔力竊取 %",
+          "zh-CN": "魔力窃取 %"
+        },
+        "min": 5,
+        "max": 5
+      },
+      {
+        "key": "mana",
+        "label": {
+          "en": "Mana",
+          "zh-TW": "魔力值",
+          "zh-CN": "魔力值"
+        },
+        "min": 25,
+        "max": 25
+      },
+      {
+        "key": "allskills",
+        "label": {
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
+        },
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "Arctic Gear",
+      "zh-TW": "北極裝置",
+      "zh-CN": "北极装置"
+    },
+    "pieceIds": [
+      "set-56",
+      "set-55",
+      "set-54",
+      "set-57"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "str",
+            "label": {
+              "en": "Strength",
+              "zh-TW": "力量",
+              "zh-CN": "力量"
+            },
+            "min": 5,
+            "max": 5
+          }
+        ]
+      },
+      {
+        "piecesRequired": 3,
+        "stats": [
+          {
+            "key": "hp",
+            "label": {
+              "en": "Life",
+              "zh-TW": "生命值",
+              "zh-CN": "生命值"
+            },
+            "min": 50,
+            "max": 50
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "cold-len",
+        "label": {
+          "en": "Cold Duration",
+          "zh-TW": "冷凍持續時間",
+          "zh-CN": "冷冻持续时间"
+        },
+        "min": 100,
+        "max": 100
+      },
+      {
+        "key": "nofreeze",
+        "label": {
+          "en": "Cannot Be Frozen",
+          "zh-TW": "不會被冰凍",
+          "zh-CN": "不会被冰冻"
+        },
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "Bane's Garments",
+      "zh-TW": "Bane's Garments",
+      "zh-CN": "Bane's Garments"
+    },
+    "pieceIds": [
+      "set-134",
+      "set-132",
+      "set-133"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "dmg%",
+            "label": {
+              "en": "Enhanced Damage %",
+              "zh-TW": "強化傷害 %",
+              "zh-CN": "强化伤害 %"
+            },
+            "min": 80,
+            "max": 80
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "allskills",
+        "label": {
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
+        },
+        "min": 1,
+        "max": 1
+      },
+      {
+        "key": "dex",
+        "label": {
+          "en": "Dexterity",
+          "zh-TW": "敏捷",
+          "zh-CN": "敏捷"
+        },
+        "min": 15,
+        "max": 15
+      },
+      {
+        "key": "cast1",
+        "label": {
+          "en": "Faster Cast Rate",
+          "zh-TW": "加快施法速度",
+          "zh-CN": "加快施法速度"
+        },
+        "min": 25,
+        "max": 25
+      },
+      {
+        "key": "mag%",
+        "label": {
+          "en": "Magic Find %",
+          "zh-TW": "額外魔法物品尋獲率 %",
+          "zh-CN": "额外魔法物品寻获率 %"
+        },
+        "min": 40,
+        "max": 40
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "Berserker's Garb",
+      "zh-TW": "狂戰士的軍火庫",
+      "zh-CN": "狂战士的军火库"
+    },
+    "pieceIds": [
+      "set-46",
+      "set-45",
+      "set-44"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "hp",
+            "label": {
+              "en": "Life",
+              "zh-TW": "生命值",
+              "zh-CN": "生命值"
+            },
+            "min": 50,
+            "max": 50
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "res-pois-len",
+        "label": {
+          "en": "Poison Length Reduced %",
+          "zh-TW": "減少毒素持續時間 %",
+          "zh-CN": "减少毒素持续时间 %"
+        },
+        "min": 75,
+        "max": 75
+      },
+      {
+        "key": "pois-min",
+        "label": {
+          "en": "Poison Damage (Min)",
+          "zh-TW": "毒素傷害（最小）",
+          "zh-CN": "毒素伤害（最小）"
+        },
+        "min": 16,
+        "max": 16
+      },
+      {
+        "key": "pois-max",
+        "label": {
+          "en": "Poison Damage (Max)",
+          "zh-TW": "毒素傷害（最大）",
+          "zh-CN": "毒素伤害（最大）"
+        },
+        "min": 32,
+        "max": 32
+      },
+      {
+        "key": "pois-len",
+        "label": {
+          "en": "Poison Duration",
+          "zh-TW": "毒素持續時間",
+          "zh-CN": "毒素持续时间"
+        },
+        "min": 75,
+        "max": 75
+      },
+      {
+        "key": "ac",
+        "label": {
+          "en": "Defense",
+          "zh-TW": "防禦力",
+          "zh-CN": "防御力"
+        },
+        "min": 75,
+        "max": 75
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "Bul-Kathos' Children",
+      "zh-TW": "布爾凱索的孩子",
+      "zh-CN": "布尔凯索的孩子"
+    },
+    "pieceIds": [
+      "set-115",
+      "set-116"
+    ],
+    "partialBonuses": [],
+    "fullSetBonuses": [
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "min": 200,
+        "max": 200
+      },
+      {
+        "key": "allskills",
+        "label": {
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
+        },
+        "min": 2,
+        "max": 2
+      },
+      {
+        "key": "att",
+        "label": {
+          "en": "Attack Rating",
+          "zh-TW": "攻擊等級",
+          "zh-CN": "攻击等级"
+        },
+        "min": 200,
+        "max": 200
+      },
+      {
+        "key": "ac",
+        "label": {
+          "en": "Defense",
+          "zh-TW": "防禦力",
+          "zh-CN": "防御力"
+        },
+        "min": 200,
+        "max": 200
+      },
+      {
+        "key": "dmg-undead",
+        "label": {
+          "en": "Damage to Undead",
+          "zh-TW": "對不死系傷害",
+          "zh-CN": "对不死系伤害"
+        },
+        "min": 200,
+        "max": 200
+      },
+      {
+        "key": "dmg-demon",
+        "label": {
+          "en": "Damage to Demons",
+          "zh-TW": "對惡魔傷害",
+          "zh-CN": "对恶魔伤害"
+        },
+        "min": 200,
+        "max": 200
+      },
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "min": 10,
+        "max": 10
+      },
+      {
+        "key": "deadly",
+        "label": {
+          "en": "Deadly Strike %",
+          "zh-TW": "致命一擊 %",
+          "zh-CN": "致命一击 %"
+        },
+        "min": 20,
+        "max": 20
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "Cathan's Traps",
+      "zh-TW": "卡珊的陷阱",
+      "zh-CN": "卡珊的陷阱"
+    },
+    "pieceIds": [
+      "set-26",
+      "set-25",
+      "set-29",
+      "set-28",
+      "set-27"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "dmg-fire",
+            "label": {
+              "en": "Fire Damage",
+              "zh-TW": "火焰傷害",
+              "zh-CN": "火焰伤害"
+            },
+            "min": 15,
+            "max": 20
+          }
+        ]
+      },
+      {
+        "piecesRequired": 3,
+        "stats": [
+          {
+            "key": "res-ltng",
+            "label": {
+              "en": "Lightning Resist %",
+              "zh-TW": "閃電抗性 %",
+              "zh-CN": "闪电抗性 %"
+            },
+            "min": 25,
+            "max": 25
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "att",
+        "label": {
+          "en": "Attack Rating",
+          "zh-TW": "攻擊等級",
+          "zh-CN": "攻击等级"
+        },
+        "min": 60,
+        "max": 60
+      },
+      {
+        "key": "red-mag",
+        "label": {
+          "en": "Magic Damage Reduced",
+          "zh-TW": "減少魔法傷害",
+          "zh-CN": "减少魔法伤害"
+        },
+        "min": 3,
+        "max": 3
+      },
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 25,
+        "max": 25
+      },
+      {
+        "key": "cast1",
+        "label": {
+          "en": "Faster Cast Rate",
+          "zh-TW": "加快施法速度",
+          "zh-CN": "加快施法速度"
+        },
+        "min": 10,
+        "max": 10
+      },
+      {
+        "key": "mana",
+        "label": {
+          "en": "Mana",
+          "zh-TW": "魔力值",
+          "zh-CN": "魔力值"
+        },
+        "min": 20,
+        "max": 20
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "Civerb's Vestments",
+      "zh-TW": "希弗伯的法衣",
+      "zh-CN": "希弗伯的法衣"
+    },
+    "pieceIds": [
+      "set-2",
+      "set-1",
+      "set-0"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "res-fire",
+            "label": {
+              "en": "Fire Resist %",
+              "zh-TW": "火焰抗性 %",
+              "zh-CN": "火焰抗性 %"
+            },
+            "min": 25,
+            "max": 25
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "str",
+        "label": {
+          "en": "Strength",
+          "zh-TW": "力量",
+          "zh-CN": "力量"
+        },
+        "min": 15,
+        "max": 15
+      },
+      {
+        "key": "dmg-undead",
+        "label": {
+          "en": "Damage to Undead",
+          "zh-TW": "對不死系傷害",
+          "zh-CN": "对不死系伤害"
+        },
+        "min": 200,
+        "max": 200
+      },
+      {
+        "key": "res-ltng",
+        "label": {
+          "en": "Lightning Resist %",
+          "zh-TW": "閃電抗性 %",
+          "zh-CN": "闪电抗性 %"
+        },
+        "min": 25,
+        "max": 25
+      },
+      {
+        "key": "att%",
+        "label": {
+          "en": "Attack Rating %",
+          "zh-TW": "攻擊等級 %",
+          "zh-CN": "攻击等级 %"
+        },
+        "min": 25,
+        "max": 25
+      },
+      {
+        "key": "ac",
+        "label": {
+          "en": "Defense",
+          "zh-TW": "防禦力",
+          "zh-CN": "防御力"
+        },
+        "min": 50,
+        "max": 50
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "Cleglaw's Brace",
+      "zh-TW": "克雷得勞的支柱",
+      "zh-CN": "克雷得劳的支柱"
+    },
+    "pieceIds": [
+      "set-7",
+      "set-8",
+      "set-6"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "ac",
+            "label": {
+              "en": "Defense",
+              "zh-TW": "防禦力",
+              "zh-CN": "防御力"
+            },
+            "min": 50,
+            "max": 50
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "ac",
+        "label": {
+          "en": "Defense",
+          "zh-TW": "防禦力",
+          "zh-CN": "防御力"
+        },
+        "min": 50,
+        "max": 50
+      },
+      {
+        "key": "manasteal",
+        "label": {
+          "en": "Mana Steal %",
+          "zh-TW": "魔力竊取 %",
+          "zh-CN": "魔力窃取 %"
+        },
+        "min": 6,
+        "max": 6
+      },
+      {
+        "key": "crush",
+        "label": {
+          "en": "Crushing Blow %",
+          "zh-TW": "破碎打擊 %",
+          "zh-CN": "破碎打击 %"
+        },
+        "min": 35,
+        "max": 35
+      },
+      {
+        "key": "swing2",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "min": 20,
+        "max": 20
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "Cow King's Leathers",
+      "zh-TW": "牛魔王之皮甲",
+      "zh-CN": "牛魔王之皮甲"
+    },
+    "pieceIds": [
+      "set-118",
+      "set-119",
+      "set-117"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "res-pois",
+            "label": {
+              "en": "Poison Resist %",
+              "zh-TW": "毒素抗性 %",
+              "zh-CN": "毒素抗性 %"
+            },
+            "min": 25,
+            "max": 25
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "stam",
+        "label": {
+          "en": "Stamina",
+          "zh-TW": "耐力",
+          "zh-CN": "耐力"
+        },
+        "min": 100,
+        "max": 100
+      },
+      {
+        "key": "str",
+        "label": {
+          "en": "Strength",
+          "zh-TW": "力量",
+          "zh-CN": "力量"
+        },
+        "min": 20,
+        "max": 20
+      },
+      {
+        "key": "gold%",
+        "label": {
+          "en": "Gold Find %",
+          "zh-TW": "額外金幣拾取率 %",
+          "zh-CN": "额外金币拾取率 %"
+        },
+        "min": 100,
+        "max": 100
+      },
+      {
+        "key": "mag%",
+        "label": {
+          "en": "Magic Find %",
+          "zh-TW": "額外魔法物品尋獲率 %",
+          "zh-CN": "额外魔法物品寻获率 %"
+        },
+        "min": 100,
+        "max": 100
+      },
+      {
+        "key": "gethit-skill:42",
+        "label": {
+          "en": "Chance to Cast When Struck (Static Field)",
+          "zh-TW": "受擊時觸發機率 (靜態力場)",
+          "zh-CN": "受击时触发机率 (静态力场)"
+        },
+        "min": 25,
+        "max": 5
+      },
+      {
+        "key": "swing3",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "min": 30,
+        "max": 30
+      },
+      {
+        "key": "hp",
+        "label": {
+          "en": "Life",
+          "zh-TW": "生命值",
+          "zh-CN": "生命值"
+        },
+        "min": 100,
+        "max": 100
+      },
+      {
+        "key": "allskills",
+        "label": {
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
+        },
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "Death's Disguise",
+      "zh-TW": "死亡的偽裝",
+      "zh-CN": "死亡的伪装"
+    },
+    "pieceIds": [
+      "set-48",
+      "set-47",
+      "set-49"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "lifesteal",
+            "label": {
+              "en": "Life Steal %",
+              "zh-TW": "生命竊取 %",
+              "zh-CN": "生命窃取 %"
+            },
+            "min": 8,
+            "max": 8
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "att%",
+        "label": {
+          "en": "Attack Rating %",
+          "zh-TW": "攻擊等級 %",
+          "zh-CN": "攻击等级 %"
+        },
+        "min": 40,
+        "max": 40
+      },
+      {
+        "key": "dmg-min",
+        "label": {
+          "en": "Minimum Damage",
+          "zh-TW": "最小傷害",
+          "zh-CN": "最小伤害"
+        },
+        "min": 10,
+        "max": 10
+      },
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 25,
+        "max": 25
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "Griswold's Legacy",
+      "zh-TW": "格瑞斯華爾德的傳奇",
+      "zh-CN": "格瑞斯华尔德的传奇"
+    },
+    "pieceIds": [
+      "set-82",
+      "set-84",
+      "set-81",
+      "set-83"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "str",
+            "label": {
+              "en": "Strength",
+              "zh-TW": "力量",
+              "zh-CN": "力量"
+            },
+            "min": 20,
+            "max": 20
+          }
+        ]
+      },
+      {
+        "piecesRequired": 3,
+        "stats": [
+          {
+            "key": "dex",
+            "label": {
+              "en": "Dexterity",
+              "zh-TW": "敏捷",
+              "zh-CN": "敏捷"
+            },
+            "min": 30,
+            "max": 30
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 50,
+        "max": 50
+      },
+      {
+        "key": "pal",
+        "label": {
+          "en": "Paladin Skill Levels",
+          "zh-TW": "聖騎士技能等級",
+          "zh-CN": "圣骑士技能等级"
+        },
+        "min": 3,
+        "max": 3
+      },
+      {
+        "key": "att",
+        "label": {
+          "en": "Attack Rating",
+          "zh-TW": "攻擊等級",
+          "zh-CN": "攻击等级"
+        },
+        "min": 200,
+        "max": 200
+      },
+      {
+        "key": "hp",
+        "label": {
+          "en": "Life",
+          "zh-TW": "生命值",
+          "zh-CN": "生命值"
+        },
+        "min": 150,
+        "max": 150
+      },
+      {
+        "key": "balance2",
+        "label": {
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
+        },
+        "min": 30,
+        "max": 30
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "Heaven's Brethren",
+      "zh-TW": "天堂的信徒",
+      "zh-CN": "天堂的信徒"
+    },
+    "pieceIds": [
+      "set-100",
+      "set-102",
+      "set-101",
+      "set-103"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "lifesteal",
+            "label": {
+              "en": "Life Steal %",
+              "zh-TW": "生命竊取 %",
+              "zh-CN": "生命窃取 %"
+            },
+            "min": 10,
+            "max": 10
+          }
+        ]
+      },
+      {
+        "piecesRequired": 3,
+        "stats": [
+          {
+            "key": "regen",
+            "label": {
+              "en": "Life Regenerated %",
+              "zh-TW": "生命回復 %",
+              "zh-CN": "生命回复 %"
+            },
+            "min": 30,
+            "max": 30
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 50,
+        "max": 50
+      },
+      {
+        "key": "allskills",
+        "label": {
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
+        },
+        "min": 2,
+        "max": 2
+      },
+      {
+        "key": "nofreeze",
+        "label": {
+          "en": "Cannot Be Frozen",
+          "zh-TW": "不會被冰凍",
+          "zh-CN": "不会被冰冻"
+        },
+        "min": 1,
+        "max": 1
+      },
+      {
+        "key": "light",
+        "label": {
+          "en": "Light Radius",
+          "zh-TW": "光環半徑",
+          "zh-CN": "光环半径"
+        },
+        "min": 5,
+        "max": 5
+      },
+      {
+        "key": "red-dmg%",
+        "label": {
+          "en": "Damage Reduced %",
+          "zh-TW": "減少傷害 %",
+          "zh-CN": "减少伤害 %"
+        },
+        "min": 24,
+        "max": 24
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "Horazon's Splendor",
+      "zh-TW": "Horazon's Splendor",
+      "zh-CN": "Horazon's Splendor"
+    },
+    "pieceIds": [
+      "set-135",
+      "set-136",
+      "set-137",
+      "set-138",
+      "set-139"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "dex",
+            "label": {
+              "en": "Dexterity",
+              "zh-TW": "敏捷",
+              "zh-CN": "敏捷"
+            },
+            "min": 20,
+            "max": 20
+          }
+        ]
+      },
+      {
+        "piecesRequired": 3,
+        "stats": [
+          {
+            "key": "enr",
+            "label": {
+              "en": "Energy",
+              "zh-TW": "精力",
+              "zh-CN": "精力"
+            },
+            "min": 30,
+            "max": 30
+          }
+        ]
+      },
+      {
+        "piecesRequired": 4,
+        "stats": [
+          {
+            "key": "ac",
+            "label": {
+              "en": "Defense",
+              "zh-TW": "防禦力",
+              "zh-CN": "防御力"
+            },
+            "min": 300,
+            "max": 300
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 50,
+        "max": 50
+      },
+      {
+        "key": "war",
+        "label": {
+          "en": "war",
+          "zh-TW": "war",
+          "zh-CN": "war"
+        },
+        "min": 3,
+        "max": 3
+      },
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 350,
+        "max": 350
+      },
+      {
+        "key": "mag%",
+        "label": {
+          "en": "Magic Find %",
+          "zh-TW": "額外魔法物品尋獲率 %",
+          "zh-CN": "额外魔法物品寻获率 %"
+        },
+        "min": 100,
+        "max": 100
+      },
+      {
+        "key": "oskill:Enchant",
+        "label": {
+          "en": "Skill Bonus (Enchant)",
+          "zh-TW": "技能加成 (Enchant)",
+          "zh-CN": "技能加成 (Enchant)"
+        },
+        "min": 30,
+        "max": 30
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "Hsarus' Defense",
+      "zh-TW": "哈斯拉柏的防禦",
+      "zh-CN": "哈斯拉柏的防御"
+    },
+    "pieceIds": [
+      "set-4",
+      "set-3",
+      "set-5"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "thorns",
+            "label": {
+              "en": "Attacker Takes Damage",
+              "zh-TW": "攻擊者承受傷害",
+              "zh-CN": "攻击者承受伤害"
+            },
+            "min": 5,
+            "max": 5
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "dmg-max",
+        "label": {
+          "en": "Maximum Damage",
+          "zh-TW": "最大傷害",
+          "zh-CN": "最大伤害"
+        },
+        "min": 5,
+        "max": 5
+      },
+      {
+        "key": "nofreeze",
+        "label": {
+          "en": "Cannot Be Frozen",
+          "zh-TW": "不會被冰凍",
+          "zh-CN": "不会被冰冻"
+        },
+        "min": 1,
+        "max": 1
+      },
+      {
+        "key": "res-ltng",
+        "label": {
+          "en": "Lightning Resist %",
+          "zh-TW": "閃電抗性 %",
+          "zh-CN": "闪电抗性 %"
+        },
+        "min": 25,
+        "max": 25
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "Hwanin's Majesty",
+      "zh-TW": "華寧的威嚴",
+      "zh-CN": "华宁的威严"
+    },
+    "pieceIds": [
+      "set-111",
+      "set-109",
+      "set-110",
+      "set-108"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "ac",
+            "label": {
+              "en": "Defense",
+              "zh-TW": "防禦力",
+              "zh-CN": "防御力"
+            },
+            "min": 100,
+            "max": 100
+          }
+        ]
+      },
+      {
+        "piecesRequired": 3,
+        "stats": [
+          {
+            "key": "ac",
+            "label": {
+              "en": "Defense",
+              "zh-TW": "防禦力",
+              "zh-CN": "防御力"
+            },
+            "min": 200,
+            "max": 200
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "allskills",
+        "label": {
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
+        },
+        "min": 2,
+        "max": 2
+      },
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "min": 20,
+        "max": 20
+      },
+      {
+        "key": "move3",
+        "label": {
+          "en": "Faster Run/Walk %",
+          "zh-TW": "加快跑走速度 %",
+          "zh-CN": "加快跑走速度 %"
+        },
+        "min": 30,
+        "max": 30
+      },
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 30,
+        "max": 30
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "Immortal King",
+      "zh-TW": "不朽之王",
+      "zh-CN": "不朽之王"
+    },
+    "pieceIds": [
+      "set-72",
+      "set-73",
+      "set-74",
+      "set-71",
+      "set-75",
+      "set-70"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "att",
+            "label": {
+              "en": "Attack Rating",
+              "zh-TW": "攻擊等級",
+              "zh-CN": "攻击等级"
+            },
+            "min": 50,
+            "max": 50
+          }
+        ]
+      },
+      {
+        "piecesRequired": 3,
+        "stats": [
+          {
+            "key": "att",
+            "label": {
+              "en": "Attack Rating",
+              "zh-TW": "攻擊等級",
+              "zh-CN": "攻击等级"
+            },
+            "min": 75,
+            "max": 75
+          }
+        ]
+      },
+      {
+        "piecesRequired": 4,
+        "stats": [
+          {
+            "key": "att",
+            "label": {
+              "en": "Attack Rating",
+              "zh-TW": "攻擊等級",
+              "zh-CN": "攻击等级"
+            },
+            "min": 125,
+            "max": 125
+          }
+        ]
+      },
+      {
+        "piecesRequired": 5,
+        "stats": [
+          {
+            "key": "att",
+            "label": {
+              "en": "Attack Rating",
+              "zh-TW": "攻擊等級",
+              "zh-CN": "攻击等级"
+            },
+            "min": 200,
+            "max": 200
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 50,
+        "max": 50
+      },
+      {
+        "key": "bar",
+        "label": {
+          "en": "Barbarian Skill Levels",
+          "zh-TW": "蠻族技能等級",
+          "zh-CN": "蛮族技能等级"
+        },
+        "min": 3,
+        "max": 3
+      },
+      {
+        "key": "hp",
+        "label": {
+          "en": "Life",
+          "zh-TW": "生命值",
+          "zh-CN": "生命值"
+        },
+        "min": 150,
+        "max": 150
+      },
+      {
+        "key": "red-mag",
+        "label": {
+          "en": "Magic Damage Reduced",
+          "zh-TW": "減少魔法傷害",
+          "zh-CN": "减少魔法伤害"
+        },
+        "min": 10,
+        "max": 10
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "Infernal Tools",
+      "zh-TW": "地獄的工具",
+      "zh-CN": "地狱的工具"
+    },
+    "pieceIds": [
+      "set-41",
+      "set-43",
+      "set-42"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "dmg-pois",
+            "label": {
+              "en": "Poison Damage",
+              "zh-TW": "毒素傷害",
+              "zh-CN": "毒素伤害"
+            },
+            "min": 25,
+            "max": 25
+          }
+        ]
+      },
+      {
+        "piecesRequired": 3,
+        "stats": [
+          {
+            "key": "mana",
+            "label": {
+              "en": "Mana",
+              "zh-TW": "魔力值",
+              "zh-CN": "魔力值"
+            },
+            "min": 10,
+            "max": 10
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "att%",
+        "label": {
+          "en": "Attack Rating %",
+          "zh-TW": "攻擊等級 %",
+          "zh-CN": "攻击等级 %"
+        },
+        "min": 20,
+        "max": 20
+      },
+      {
+        "key": "nec",
+        "label": {
+          "en": "Necromancer Skill Levels",
+          "zh-TW": "死靈法師技能等級",
+          "zh-CN": "死灵法师技能等级"
+        },
+        "min": 1,
+        "max": 1
+      },
+      {
+        "key": "openwounds",
+        "label": {
+          "en": "Open Wounds %",
+          "zh-TW": "撕裂傷口 %",
+          "zh-CN": "撕裂伤口 %"
+        },
+        "min": 20,
+        "max": 20
+      },
+      {
+        "key": "manasteal",
+        "label": {
+          "en": "Mana Steal %",
+          "zh-TW": "魔力竊取 %",
+          "zh-CN": "魔力窃取 %"
+        },
+        "min": 6,
+        "max": 6
+      },
+      {
+        "key": "mana%",
+        "label": {
+          "en": "Increase Maximum Mana %",
+          "zh-TW": "增加最大魔力值 %",
+          "zh-CN": "增加最大魔力值 %"
+        },
+        "min": 20,
+        "max": 20
+      },
+      {
+        "key": "nofreeze",
+        "label": {
+          "en": "Cannot Be Frozen",
+          "zh-TW": "不會被冰凍",
+          "zh-CN": "不会被冰冻"
+        },
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "Iratha's Finery",
+      "zh-TW": "依雷撒的精銑爐",
+      "zh-CN": "依雷撒的精铣炉"
+    },
+    "pieceIds": [
+      "set-11",
+      "set-9",
+      "set-12",
+      "set-10"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "ac",
+            "label": {
+              "en": "Defense",
+              "zh-TW": "防禦力",
+              "zh-CN": "防御力"
+            },
+            "min": 50,
+            "max": 50
+          }
+        ]
+      },
+      {
+        "piecesRequired": 3,
+        "stats": [
+          {
+            "key": "move2",
+            "label": {
+              "en": "Faster Run/Walk %",
+              "zh-TW": "加快跑走速度 %",
+              "zh-CN": "加快跑走速度 %"
+            },
+            "min": 20,
+            "max": 20
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 20,
+        "max": 20
+      },
+      {
+        "key": "res-fire-max",
+        "label": {
+          "en": "Maximum Fire Resist %",
+          "zh-TW": "最大火焰抗性 %",
+          "zh-CN": "最大火焰抗性 %"
+        },
+        "min": 10,
+        "max": 10
+      },
+      {
+        "key": "res-cold-max",
+        "label": {
+          "en": "Maximum Cold Resist %",
+          "zh-TW": "最大冷凍抗性 %",
+          "zh-CN": "最大冷冻抗性 %"
+        },
+        "min": 10,
+        "max": 10
+      },
+      {
+        "key": "res-ltng-max",
+        "label": {
+          "en": "Maximum Lightning Resist %",
+          "zh-TW": "最大閃電抗性 %",
+          "zh-CN": "最大闪电抗性 %"
+        },
+        "min": 10,
+        "max": 10
+      },
+      {
+        "key": "res-pois-max",
+        "label": {
+          "en": "Maximum Poison Resist %",
+          "zh-TW": "最大毒素抗性 %",
+          "zh-CN": "最大毒素抗性 %"
+        },
+        "min": 10,
+        "max": 10
+      },
+      {
+        "key": "dex",
+        "label": {
+          "en": "Dexterity",
+          "zh-TW": "敏捷",
+          "zh-CN": "敏捷"
+        },
+        "min": 15,
+        "max": 15
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "Isenhart's Armory",
+      "zh-TW": "依森哈德的武器室",
+      "zh-CN": "依森哈德的武器室"
+    },
+    "pieceIds": [
+      "set-15",
+      "set-16",
+      "set-13",
+      "set-14"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "str",
+            "label": {
+              "en": "Strength",
+              "zh-TW": "力量",
+              "zh-CN": "力量"
+            },
+            "min": 10,
+            "max": 10
+          }
+        ]
+      },
+      {
+        "piecesRequired": 3,
+        "stats": [
+          {
+            "key": "dex",
+            "label": {
+              "en": "Dexterity",
+              "zh-TW": "敏捷",
+              "zh-CN": "敏捷"
+            },
+            "min": 10,
+            "max": 10
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "min": 5,
+        "max": 5
+      },
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 10,
+        "max": 10
+      },
+      {
+        "key": "att%",
+        "label": {
+          "en": "Attack Rating %",
+          "zh-TW": "攻擊等級 %",
+          "zh-CN": "攻击等级 %"
+        },
+        "min": 35,
+        "max": 35
+      },
+      {
+        "key": "block",
+        "label": {
+          "en": "Increased Chance of Blocking %",
+          "zh-TW": "格擋機率 %",
+          "zh-CN": "格挡机率 %"
+        },
+        "min": 30,
+        "max": 30
+      },
+      {
+        "key": "move2",
+        "label": {
+          "en": "Faster Run/Walk %",
+          "zh-TW": "加快跑走速度 %",
+          "zh-CN": "加快跑走速度 %"
+        },
+        "min": 20,
+        "max": 20
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "M'avina's Battle Hymn",
+      "zh-TW": "馬維娜之戰鬥詩歌",
+      "zh-CN": "马维娜之战斗诗歌"
+    },
+    "pieceIds": [
+      "set-94",
+      "set-91",
+      "set-92",
+      "set-93",
+      "set-90"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "str",
+            "label": {
+              "en": "Strength",
+              "zh-TW": "力量",
+              "zh-CN": "力量"
+            },
+            "min": 20,
+            "max": 20
+          }
+        ]
+      },
+      {
+        "piecesRequired": 3,
+        "stats": [
+          {
+            "key": "dex",
+            "label": {
+              "en": "Dexterity",
+              "zh-TW": "敏捷",
+              "zh-CN": "敏捷"
+            },
+            "min": 30,
+            "max": 30
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 50,
+        "max": 50
+      },
+      {
+        "key": "ama",
+        "label": {
+          "en": "Amazon Skill Levels",
+          "zh-TW": "亞馬遜技能等級",
+          "zh-CN": "亚马逊技能等级"
+        },
+        "min": 3,
+        "max": 3
+      },
+      {
+        "key": "ac",
+        "label": {
+          "en": "Defense",
+          "zh-TW": "防禦力",
+          "zh-CN": "防御力"
+        },
+        "min": 100,
+        "max": 100
+      },
+      {
+        "key": "att",
+        "label": {
+          "en": "Attack Rating",
+          "zh-TW": "攻擊等級",
+          "zh-CN": "攻击等级"
+        },
+        "min": 100,
+        "max": 100
+      },
+      {
+        "key": "mag%",
+        "label": {
+          "en": "Magic Find %",
+          "zh-TW": "額外魔法物品尋獲率 %",
+          "zh-CN": "额外魔法物品寻获率 %"
+        },
+        "min": 100,
+        "max": 100
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "McAuley's Folly",
+      "zh-TW": "山德的愚行",
+      "zh-CN": "山德的愚行"
+    },
+    "pieceIds": [
+      "set-123",
+      "set-124",
+      "set-126",
+      "set-125"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "ac",
+            "label": {
+              "en": "Defense",
+              "zh-TW": "防禦力",
+              "zh-CN": "防御力"
+            },
+            "min": 50,
+            "max": 50
+          }
+        ]
+      },
+      {
+        "piecesRequired": 3,
+        "stats": [
+          {
+            "key": "att",
+            "label": {
+              "en": "Attack Rating",
+              "zh-TW": "攻擊等級",
+              "zh-CN": "攻击等级"
+            },
+            "min": 75,
+            "max": 75
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "allskills",
+        "label": {
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
+        },
+        "min": 1,
+        "max": 1
+      },
+      {
+        "key": "mag%",
+        "label": {
+          "en": "Magic Find %",
+          "zh-TW": "額外魔法物品尋獲率 %",
+          "zh-CN": "额外魔法物品寻获率 %"
+        },
+        "min": 50,
+        "max": 50
+      },
+      {
+        "key": "mana",
+        "label": {
+          "en": "Mana",
+          "zh-TW": "魔力值",
+          "zh-CN": "魔力值"
+        },
+        "min": 50,
+        "max": 50
+      },
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "min": 4,
+        "max": 4
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "Milabrega's Regalia",
+      "zh-TW": "米拉伯佳的雪茄",
+      "zh-CN": "米拉伯佳的雪茄"
+    },
+    "pieceIds": [
+      "set-23",
+      "set-21",
+      "set-24",
+      "set-22"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "att",
+            "label": {
+              "en": "Attack Rating",
+              "zh-TW": "攻擊等級",
+              "zh-CN": "攻击等级"
+            },
+            "min": 75,
+            "max": 75
+          }
+        ]
+      },
+      {
+        "piecesRequired": 3,
+        "stats": [
+          {
+            "key": "att",
+            "label": {
+              "en": "Attack Rating",
+              "zh-TW": "攻擊等級",
+              "zh-CN": "攻击等级"
+            },
+            "min": 125,
+            "max": 125
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "min": 8,
+        "max": 8
+      },
+      {
+        "key": "pal",
+        "label": {
+          "en": "Paladin Skill Levels",
+          "zh-TW": "聖騎士技能等級",
+          "zh-CN": "圣骑士技能等级"
+        },
+        "min": 2,
+        "max": 2
+      },
+      {
+        "key": "manasteal",
+        "label": {
+          "en": "Mana Steal %",
+          "zh-TW": "魔力竊取 %",
+          "zh-CN": "魔力窃取 %"
+        },
+        "min": 10,
+        "max": 10
+      },
+      {
+        "key": "res-pois",
+        "label": {
+          "en": "Poison Resist %",
+          "zh-TW": "毒素抗性 %",
+          "zh-CN": "毒素抗性 %"
+        },
+        "min": 15,
+        "max": 15
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "Naj's Ancient Set",
+      "zh-TW": "娜吉的古代遺跡",
+      "zh-CN": "娜吉的古代遗迹"
+    },
+    "pieceIds": [
+      "set-122",
+      "set-121",
+      "set-120"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "ac",
+            "label": {
+              "en": "Defense",
+              "zh-TW": "防禦力",
+              "zh-CN": "防御力"
+            },
+            "min": 175,
+            "max": 175
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "allskills",
+        "label": {
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
+        },
+        "min": 1,
+        "max": 1
+      },
+      {
+        "key": "regen",
+        "label": {
+          "en": "Life Regenerated %",
+          "zh-TW": "生命回復 %",
+          "zh-CN": "生命回复 %"
+        },
+        "min": 20,
+        "max": 20
+      },
+      {
+        "key": "dex",
+        "label": {
+          "en": "Dexterity",
+          "zh-TW": "敏捷",
+          "zh-CN": "敏捷"
+        },
+        "min": 15,
+        "max": 15
+      },
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 50,
+        "max": 50
+      },
+      {
+        "key": "str",
+        "label": {
+          "en": "Strength",
+          "zh-TW": "力量",
+          "zh-CN": "力量"
+        },
+        "min": 20,
+        "max": 20
+      },
+      {
+        "key": "mana",
+        "label": {
+          "en": "Mana",
+          "zh-TW": "魔力值",
+          "zh-CN": "魔力值"
+        },
+        "min": 100,
+        "max": 100
+      },
+      {
+        "key": "fireskill",
+        "label": {
+          "en": "Fire Skills",
+          "zh-TW": "火焰技能加成",
+          "zh-CN": "火焰技能加成"
+        },
+        "min": 2,
+        "max": 2
+      },
+      {
+        "key": "hp%",
+        "label": {
+          "en": "Increase Maximum Life %",
+          "zh-TW": "增加最大生命值 %",
+          "zh-CN": "增加最大生命值 %"
+        },
+        "min": 12,
+        "max": 12
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "Natalya's Odium",
+      "zh-TW": "娜塔亞的非難",
+      "zh-CN": "娜塔亚的非难"
+    },
+    "pieceIds": [
+      "set-63",
+      "set-64",
+      "set-65",
+      "set-62"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "red-mag",
+            "label": {
+              "en": "Magic Damage Reduced",
+              "zh-TW": "減少魔法傷害",
+              "zh-CN": "减少魔法伤害"
+            },
+            "min": 15,
+            "max": 15
+          }
+        ]
+      },
+      {
+        "piecesRequired": 3,
+        "stats": [
+          {
+            "key": "ac",
+            "label": {
+              "en": "Defense",
+              "zh-TW": "防禦力",
+              "zh-CN": "防御力"
+            },
+            "min": 200,
+            "max": 200
+          }
+        ]
+      },
+      {
+        "piecesRequired": 4,
+        "stats": [
+          {
+            "key": "res-pois",
+            "label": {
+              "en": "Poison Resist %",
+              "zh-TW": "毒素抗性 %",
+              "zh-CN": "毒素抗性 %"
+            },
+            "min": 20,
+            "max": 20
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 50,
+        "max": 50
+      },
+      {
+        "key": "ass",
+        "label": {
+          "en": "Assassin Skill Levels",
+          "zh-TW": "刺客技能等級",
+          "zh-CN": "刺客技能等级"
+        },
+        "min": 3,
+        "max": 3
+      },
+      {
+        "key": "ac",
+        "label": {
+          "en": "Defense",
+          "zh-TW": "防禦力",
+          "zh-CN": "防御力"
+        },
+        "min": 150,
+        "max": 150
+      },
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "min": 14,
+        "max": 14
+      },
+      {
+        "key": "manasteal",
+        "label": {
+          "en": "Mana Steal %",
+          "zh-TW": "魔力竊取 %",
+          "zh-CN": "魔力窃取 %"
+        },
+        "min": 14,
+        "max": 14
+      },
+      {
+        "key": "red-dmg%",
+        "label": {
+          "en": "Damage Reduced %",
+          "zh-TW": "減少傷害 %",
+          "zh-CN": "减少伤害 %"
+        },
+        "min": 30,
+        "max": 30
+      },
+      {
+        "key": "fade",
+        "label": {
+          "en": "fade",
+          "zh-TW": "fade",
+          "zh-CN": "fade"
+        },
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "Orphan's Call",
+      "zh-TW": "孤兒的呼喚",
+      "zh-CN": "孤儿的呼唤"
+    },
+    "pieceIds": [
+      "set-104",
+      "set-106",
+      "set-107",
+      "set-105"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "hp",
+            "label": {
+              "en": "Life",
+              "zh-TW": "生命值",
+              "zh-CN": "生命值"
+            },
+            "min": 35,
+            "max": 35
+          }
+        ]
+      },
+      {
+        "piecesRequired": 3,
+        "stats": [
+          {
+            "key": "thorns",
+            "label": {
+              "en": "Attacker Takes Damage",
+              "zh-TW": "攻擊者承受傷害",
+              "zh-CN": "攻击者承受伤害"
+            },
+            "min": 5,
+            "max": 5
+          }
+        ]
+      },
+      {
+        "piecesRequired": 4,
+        "stats": [
+          {
+            "key": "ac",
+            "label": {
+              "en": "Defense",
+              "zh-TW": "防禦力",
+              "zh-CN": "防御力"
+            },
+            "min": 100,
+            "max": 100
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "hp",
+        "label": {
+          "en": "Life",
+          "zh-TW": "生命值",
+          "zh-CN": "生命值"
+        },
+        "min": 50,
+        "max": 50
+      },
+      {
+        "key": "dex",
+        "label": {
+          "en": "Dexterity",
+          "zh-TW": "敏捷",
+          "zh-CN": "敏捷"
+        },
+        "min": 10,
+        "max": 10
+      },
+      {
+        "key": "str",
+        "label": {
+          "en": "Strength",
+          "zh-TW": "力量",
+          "zh-CN": "力量"
+        },
+        "min": 20,
+        "max": 20
+      },
+      {
+        "key": "ac",
+        "label": {
+          "en": "Defense",
+          "zh-TW": "防禦力",
+          "zh-CN": "防御力"
+        },
+        "min": 100,
+        "max": 100
+      },
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 15,
+        "max": 15
+      },
+      {
+        "key": "mag%",
+        "label": {
+          "en": "Magic Find %",
+          "zh-TW": "額外魔法物品尋獲率 %",
+          "zh-CN": "额外魔法物品寻获率 %"
+        },
+        "min": 80,
+        "max": 80
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "Sazabi's Grand Tribute",
+      "zh-TW": "沙撒璧的雄偉貢品",
+      "zh-CN": "沙撒璧的雄伟贡品"
+    },
+    "pieceIds": [
+      "set-112",
+      "set-113",
+      "set-114"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "move3",
+            "label": {
+              "en": "Faster Run/Walk %",
+              "zh-TW": "加快跑走速度 %",
+              "zh-CN": "加快跑走速度 %"
+            },
+            "min": 40,
+            "max": 40
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 30,
+        "max": 30
+      },
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "min": 15,
+        "max": 15
+      },
+      {
+        "key": "hp%",
+        "label": {
+          "en": "Increase Maximum Life %",
+          "zh-TW": "增加最大生命值 %",
+          "zh-CN": "增加最大生命值 %"
+        },
+        "min": 27,
+        "max": 27
+      },
+      {
+        "key": "allskills",
+        "label": {
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
+        },
+        "min": 1,
+        "max": 1
+      },
+      {
+        "key": "red-dmg%",
+        "label": {
+          "en": "Damage Reduced %",
+          "zh-TW": "減少傷害 %",
+          "zh-CN": "减少伤害 %"
+        },
+        "min": 16,
+        "max": 16
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "Sigon's Complete Steel",
+      "zh-TW": "西剛的全套刀劍",
+      "zh-CN": "西刚的全套刀剑"
+    },
+    "pieceIds": [
+      "set-35",
+      "set-40",
+      "set-38",
+      "set-37",
+      "set-36",
+      "set-39"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "lifesteal",
+            "label": {
+              "en": "Life Steal %",
+              "zh-TW": "生命竊取 %",
+              "zh-CN": "生命窃取 %"
+            },
+            "min": 10,
+            "max": 10
+          }
+        ]
+      },
+      {
+        "piecesRequired": 3,
+        "stats": [
+          {
+            "key": "ac",
+            "label": {
+              "en": "Defense",
+              "zh-TW": "防禦力",
+              "zh-CN": "防御力"
+            },
+            "min": 100,
+            "max": 100
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "res-fire",
+        "label": {
+          "en": "Fire Resist %",
+          "zh-TW": "火焰抗性 %",
+          "zh-CN": "火焰抗性 %"
+        },
+        "min": 12,
+        "max": 12
+      },
+      {
+        "key": "thorns",
+        "label": {
+          "en": "Attacker Takes Damage",
+          "zh-TW": "攻擊者承受傷害",
+          "zh-CN": "攻击者承受伤害"
+        },
+        "min": 12,
+        "max": 12
+      },
+      {
+        "key": "red-dmg",
+        "label": {
+          "en": "Damage Reduced",
+          "zh-TW": "減少傷害",
+          "zh-CN": "减少伤害"
+        },
+        "min": 7,
+        "max": 7
+      },
+      {
+        "key": "fire-max",
+        "label": {
+          "en": "Fire Damage (Max)",
+          "zh-TW": "火焰傷害（最大）",
+          "zh-CN": "火焰伤害（最大）"
+        },
+        "min": 24,
+        "max": 24
+      },
+      {
+        "key": "mana",
+        "label": {
+          "en": "Mana",
+          "zh-TW": "魔力值",
+          "zh-CN": "魔力值"
+        },
+        "min": 20,
+        "max": 20
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "Tal Rasha's Wrappings",
+      "zh-TW": "塔.拉夏的外袍",
+      "zh-CN": "塔.拉夏的外袍"
+    },
+    "pieceIds": [
+      "set-77",
+      "set-76",
+      "set-80",
+      "set-79",
+      "set-78"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "regen",
+            "label": {
+              "en": "Life Regenerated %",
+              "zh-TW": "生命回復 %",
+              "zh-CN": "生命回复 %"
+            },
+            "min": 10,
+            "max": 10
+          }
+        ]
+      },
+      {
+        "piecesRequired": 3,
+        "stats": [
+          {
+            "key": "mag%",
+            "label": {
+              "en": "Magic Find %",
+              "zh-TW": "額外魔法物品尋獲率 %",
+              "zh-CN": "额外魔法物品寻获率 %"
+            },
+            "min": 65,
+            "max": 65
+          }
+        ]
+      },
+      {
+        "piecesRequired": 4,
+        "stats": [
+          {
+            "key": "balance2",
+            "label": {
+              "en": "Faster Hit Recovery",
+              "zh-TW": "加快恢復速度",
+              "zh-CN": "加快恢复速度"
+            },
+            "min": 25,
+            "max": 25
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 50,
+        "max": 50
+      },
+      {
+        "key": "sor",
+        "label": {
+          "en": "Sorceress Skill Levels",
+          "zh-TW": "女巫技能等級",
+          "zh-CN": "女巫技能等级"
+        },
+        "min": 3,
+        "max": 3
+      },
+      {
+        "key": "ac",
+        "label": {
+          "en": "Defense",
+          "zh-TW": "防禦力",
+          "zh-CN": "防御力"
+        },
+        "min": 150,
+        "max": 150
+      },
+      {
+        "key": "hp",
+        "label": {
+          "en": "Life",
+          "zh-TW": "生命值",
+          "zh-CN": "生命值"
+        },
+        "min": 150,
+        "max": 150
+      },
+      {
+        "key": "ac-miss",
+        "label": {
+          "en": "Defense vs. Missile",
+          "zh-TW": "對抗遠程攻擊防禦力",
+          "zh-CN": "对抗远程攻击防御力"
+        },
+        "min": 50,
+        "max": 50
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "Tancred's Battlegear",
+      "zh-TW": "坦克雷的戰鬥工具",
+      "zh-CN": "坦克雷的战斗工具"
+    },
+    "pieceIds": [
+      "set-30",
+      "set-32",
+      "set-34",
+      "set-31",
+      "set-33"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "dmg-ltng",
+            "label": {
+              "en": "Lightning Damage",
+              "zh-TW": "閃電傷害",
+              "zh-CN": "闪电伤害"
+            },
+            "min": 15,
+            "max": 15
+          }
+        ]
+      },
+      {
+        "piecesRequired": 3,
+        "stats": [
+          {
+            "key": "lifesteal",
+            "label": {
+              "en": "Life Steal %",
+              "zh-TW": "生命竊取 %",
+              "zh-CN": "生命窃取 %"
+            },
+            "min": 5,
+            "max": 5
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "gold%",
+        "label": {
+          "en": "Gold Find %",
+          "zh-TW": "額外金幣拾取率 %",
+          "zh-CN": "额外金币拾取率 %"
+        },
+        "min": 75,
+        "max": 75
+      },
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 10,
+        "max": 10
+      },
+      {
+        "key": "slow",
+        "label": {
+          "en": "Slower Target %",
+          "zh-TW": "減緩目標速度 %",
+          "zh-CN": "减缓目标速度 %"
+        },
+        "min": 35,
+        "max": 35
+      },
+      {
+        "key": "manasteal",
+        "label": {
+          "en": "Mana Steal %",
+          "zh-TW": "魔力竊取 %",
+          "zh-CN": "魔力窃取 %"
+        },
+        "min": 5,
+        "max": 5
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "The Disciple",
+      "zh-TW": "門徒",
+      "zh-CN": "门徒"
+    },
+    "pieceIds": [
+      "set-99",
+      "set-96",
+      "set-97",
+      "set-98",
+      "set-95"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "ac",
+            "label": {
+              "en": "Defense",
+              "zh-TW": "防禦力",
+              "zh-CN": "防御力"
+            },
+            "min": 150,
+            "max": 150
+          }
+        ]
+      },
+      {
+        "piecesRequired": 3,
+        "stats": [
+          {
+            "key": "dmg-pois",
+            "label": {
+              "en": "Poison Damage",
+              "zh-TW": "毒素傷害",
+              "zh-CN": "毒素伤害"
+            },
+            "min": 75,
+            "max": 75
+          }
+        ]
+      },
+      {
+        "piecesRequired": 4,
+        "stats": [
+          {
+            "key": "str",
+            "label": {
+              "en": "Strength",
+              "zh-TW": "力量",
+              "zh-CN": "力量"
+            },
+            "min": 10,
+            "max": 10
+          }
+        ]
+      },
+      {
+        "piecesRequired": 5,
+        "stats": [
+          {
+            "key": "dex",
+            "label": {
+              "en": "Dexterity",
+              "zh-TW": "敏捷",
+              "zh-CN": "敏捷"
+            },
+            "min": 10,
+            "max": 10
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 50,
+        "max": 50
+      },
+      {
+        "key": "allskills",
+        "label": {
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
+        },
+        "min": 2,
+        "max": 2
+      },
+      {
+        "key": "mana",
+        "label": {
+          "en": "Mana",
+          "zh-TW": "魔力值",
+          "zh-CN": "魔力值"
+        },
+        "min": 100,
+        "max": 100
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "Trang-Oul's Avatar",
+      "zh-TW": "塔格奧的化身",
+      "zh-CN": "塔格奥的化身"
+    },
+    "pieceIds": [
+      "set-88",
+      "set-89",
+      "set-85",
+      "set-86",
+      "set-87"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "regen-mana",
+            "label": {
+              "en": "Mana Regenerated %",
+              "zh-TW": "魔力回復 %",
+              "zh-CN": "魔力回复 %"
+            },
+            "min": 15,
+            "max": 15
+          }
+        ]
+      },
+      {
+        "piecesRequired": 3,
+        "stats": [
+          {
+            "key": "regen-mana",
+            "label": {
+              "en": "Mana Regenerated %",
+              "zh-TW": "魔力回復 %",
+              "zh-CN": "魔力回复 %"
+            },
+            "min": 15,
+            "max": 15
+          }
+        ]
+      },
+      {
+        "piecesRequired": 4,
+        "stats": [
+          {
+            "key": "regen-mana",
+            "label": {
+              "en": "Mana Regenerated %",
+              "zh-TW": "魔力回復 %",
+              "zh-CN": "魔力回复 %"
+            },
+            "min": 15,
+            "max": 15
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 50,
+        "max": 50
+      },
+      {
+        "key": "nec",
+        "label": {
+          "en": "Necromancer Skill Levels",
+          "zh-TW": "死靈法師技能等級",
+          "zh-CN": "死灵法师技能等级"
+        },
+        "min": 3,
+        "max": 3
+      },
+      {
+        "key": "mana",
+        "label": {
+          "en": "Mana",
+          "zh-TW": "魔力值",
+          "zh-CN": "魔力值"
+        },
+        "min": 100,
+        "max": 100
+      },
+      {
+        "key": "ac",
+        "label": {
+          "en": "Defense",
+          "zh-TW": "防禦力",
+          "zh-CN": "防御力"
+        },
+        "min": 200,
+        "max": 200
+      },
+      {
+        "key": "regen-mana",
+        "label": {
+          "en": "Mana Regenerated %",
+          "zh-TW": "魔力回復 %",
+          "zh-CN": "魔力回复 %"
+        },
+        "min": 15,
+        "max": 15
+      },
+      {
+        "key": "oskill:Fire Mastery",
+        "label": {
+          "en": "Skill Bonus (Fire Mastery)",
+          "zh-TW": "技能加成 (Fire Mastery)",
+          "zh-CN": "技能加成 (Fire Mastery)"
+        },
+        "min": 3,
+        "max": 3
+      },
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "min": 20,
+        "max": 20
+      }
+    ]
+  },
+  {
+    "setName": {
+      "en": "Vidala's Rig",
+      "zh-TW": "維達拉的配備",
+      "zh-CN": "维达拉的配备"
+    },
+    "pieceIds": [
+      "set-19",
+      "set-17",
+      "set-18",
+      "set-20"
+    ],
+    "partialBonuses": [
+      {
+        "piecesRequired": 2,
+        "stats": [
+          {
+            "key": "att",
+            "label": {
+              "en": "Attack Rating",
+              "zh-TW": "攻擊等級",
+              "zh-CN": "攻击等级"
+            },
+            "min": 75,
+            "max": 75
+          }
+        ]
+      },
+      {
+        "piecesRequired": 3,
+        "stats": [
+          {
+            "key": "dex",
+            "label": {
+              "en": "Dexterity",
+              "zh-TW": "敏捷",
+              "zh-CN": "敏捷"
+            },
+            "min": 15,
+            "max": 15
+          }
+        ]
+      }
+    ],
+    "fullSetBonuses": [
+      {
+        "key": "freeze",
+        "label": {
+          "en": "Hit Freezes Target",
+          "zh-TW": "擊中冰凍目標",
+          "zh-CN": "击中冰冻目标"
+        },
+        "min": 1,
+        "max": 1
+      },
+      {
+        "key": "pierce",
+        "label": {
+          "en": "Piercing Attack %",
+          "zh-TW": "穿透攻擊 %",
+          "zh-CN": "穿透攻击 %"
+        },
+        "min": 50,
+        "max": 50
+      },
+      {
+        "key": "str",
+        "label": {
+          "en": "Strength",
+          "zh-TW": "力量",
+          "zh-CN": "力量"
+        },
+        "min": 10,
+        "max": 10
+      }
+    ]
+  }
+]
