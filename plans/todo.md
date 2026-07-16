@@ -181,8 +181,14 @@ _Spec: [docs/superpowers/specs/2026-07-16-property-label-audit-design.md](../doc
 - [x] Broaden regression test to cover every data file (3 -> 8)
 - [x] d2r.world spot-check + verification doc — final whole-branch review clean
 
+## Item Icon Sizing Fix 🔲
+
+_Spec: [docs/superpowers/specs/2026-07-16-icon-sizing-design.md](../docs/superpowers/specs/2026-07-16-icon-sizing-design.md) · Plan: [plans/icon-sizing-implementation.md](./icon-sizing-implementation.md)_
+
+- [ ] Increase icon size 40px -> 80px in ItemStatCard and GrailItemDetail
+- [ ] Browser verification
+
 ### Follow-up sub-projects (agreed order, not yet started)
-- Icon sizing/styling pass (match d2r.world's sizing)
 - Category-grid icons (per-category representative icon on landing pages)
 - Full site audit vs. d2r.world (especially Misc: FCR/FHR/FBR, Alvl85 Areas, Area Level, Level Up)
 
@@ -211,3 +217,4 @@ _Spec: [docs/superpowers/specs/2026-07-16-property-label-audit-design.md](../doc
 | [runes-cube-crafted-magic-rare-implementation.md](./runes-cube-crafted-magic-rare-implementation.md) | Runes, Cube Recipes, Crafted Items, Magic Items, Rare Items — the final 5 Game Items sections |
 | [item-icons-implementation.md](./item-icons-implementation.md) | Render self-extracted item inventory icons on Unique/Set item cards and detail views |
 | [property-label-audit-implementation.md](./property-label-audit-implementation.md) | Close remaining leaked raw property codes across uniques/sets/runewords/magic-affixes; broaden regression test to every data file |
+| [icon-sizing-implementation.md](./icon-sizing-implementation.md) | Increase item inventory icon size from 40px to 80px to match d2r.world's presentation |
