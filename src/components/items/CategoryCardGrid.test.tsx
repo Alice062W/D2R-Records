@@ -37,4 +37,16 @@ describe('CategoryCardGrid', () => {
       '/en/items/unique/bar'
     );
   });
+
+  it('renders an icon for a category present in the icon map', () => {
+    renderGrid(['helms']);
+    const img = document.querySelector('img');
+    expect(img).not.toBeNull();
+    expect(img?.getAttribute('alt')).toBe('');
+  });
+
+  it('renders no icon for a category absent from the icon map', () => {
+    renderGrid(['bar']);
+    expect(document.querySelector('img')).toBeNull();
+  });
 });
