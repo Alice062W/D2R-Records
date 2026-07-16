@@ -240,8 +240,8 @@ _Spec: [docs/superpowers/specs/2026-07-16-level-up-design.md](../docs/superpower
 ### Alvl85 Areas (Misc)
 _Spec: [docs/superpowers/specs/2026-07-16-alvl85-areas-design.md](../docs/superpowers/specs/2026-07-16-alvl85-areas-design.md) · Plan: [plans/alvl85-areas-implementation.md](./alvl85-areas-implementation.md)_
 
-- [ ] Alvl85 Areas data + page (hand-transcribed 32-area monster/type/immunity table)
-- [ ] Full verification + d2r.world spot-check
+- [x] Alvl85 Areas data + page (hand-transcribed 32-area monster/type/immunity table)
+- [x] Full verification + d2r.world spot-check — all 32 areas match d2r.world exactly
 
 ### Follow-up sub-projects (agreed order, not yet started)
 - `bar` class-restriction fallback expansion (deferred, needs a separate hand-authored class-equipment mechanism)
