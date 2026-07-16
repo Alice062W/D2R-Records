@@ -395,6 +395,35 @@ describe('magic-affixes.json', () => {
       expect(a.stats.length).toBeGreaterThan(0);
     }
   });
+
+  it('excludes malformed negative-charge "charged" entries (e.g. the 9 broken Barbarian suffixes)', () => {
+    const brokenNames = [
+      'of Howling', 'of Potion Finding', 'of Taunting', 'of Shouting',
+      'of Item Finding', 'of Battle Cry', 'of Battle Orders', 'of War Cry',
+      'of Battle Command',
+    ];
+    for (const name of brokenNames) {
+      const matches = magicAffixesData.filter(a => a.name.en === name);
+      // Each of these names has a valid sibling entry (a different id) elsewhere in
+      // the source data with a real item-type restriction (e.g. "of Howling" id 620,
+      // itype1 "phlm") — only the malformed negative-charge id (e.g. 621) should be
+      // gone, not every entry sharing that display name.
+      expect(matches.every(a => !a.itemTypes.includes('bar'))).toBe(true);
+    }
+    // No entry anywhere should carry the raw, unmapped "bar" class-code fallback.
+    expect(magicAffixesData.every(a => !a.itemTypes.includes('bar'))).toBe(true);
+  });
+
+  it('keeps valid itype-restricted "charged" entries even though their mod value is negative (e.g. Daggers\' "of Frozen Orbs")', () => {
+    // magicsuffix.json id 549 ("of Frozen Orbs") has mod1code "charged" with
+    // negative min/max (-20/-1), same as the malformed Barbarian rows — but it DOES
+    // carry an itype restriction (itype1 "knif" -> daggers/throwingKnives), so per
+    // hasMalformedNegativeCharge's scoping (missing itype is required, not just a
+    // negative value) it must be kept, not excluded.
+    const frozenOrbs = magicAffixesData.filter(a => a.name.en === 'of Frozen Orbs');
+    expect(frozenOrbs.length).toBeGreaterThan(0);
+    expect(frozenOrbs.some(a => a.itemTypes.includes('daggers'))).toBe(true);
+  });
 });
 
 describe('property labels (no leaked raw codes)', () => {
@@ -538,12 +567,15 @@ describe('magic-affixes.json ancestor-closure category expansion', () => {
     expect(categories.has('charms')).toBe(false);
   });
 
-  it('leaves bar as the only unresolved generic code', () => {
+  it('leaves no unresolved generic codes, including the now-excluded "bar" fallback', () => {
+    // "bar" used to be the one unresolved generic code left, produced only by the 9
+    // malformed negative-charge Barbarian suffix rows (class "bar", no itype fields).
+    // Those rows are now excluded entirely (see hasMalformedNegativeCharge in
+    // scripts/generate-grail-data.mjs), so "bar" should no longer appear at all.
     const categories = new Set(magicAffixesData.flatMap((a: { itemTypes: string[] }) => a.itemTypes));
-    const stillGeneric = ['amaz', 'armo', 'blun', 'h2h', 'mele', 'miss', 'rod', 'shld', 'staff', 'thro', 'weap']
+    const stillGeneric = ['amaz', 'armo', 'bar', 'blun', 'h2h', 'mele', 'miss', 'rod', 'shld', 'staff', 'thro', 'weap']
       .filter(code => categories.has(code));
     expect(stillGeneric).toEqual([]);
-    expect(categories.has('bar')).toBe(true);
   });
 });
 

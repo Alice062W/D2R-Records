@@ -35391,32 +35391,6 @@
     ]
   },
   {
-    "id": "suffix-621",
-    "name": {
-      "en": "of Howling",
-      "zh-TW": "狂嗥",
-      "zh-CN": "狂嗥"
-    },
-    "kind": "suffix",
-    "alvl": 14,
-    "itemTypes": [
-      "bar"
-    ],
-    "rareEligible": false,
-    "stats": [
-      {
-        "key": "charged:130",
-        "label": {
-          "en": "Charges (Howl)",
-          "zh-TW": "充能次數 (狂嗥)",
-          "zh-CN": "充能次数 (狂嗥)"
-        },
-        "min": -20,
-        "max": -6
-      }
-    ]
-  },
-  {
     "id": "suffix-622",
     "name": {
       "en": "of Potion Finding",
@@ -35439,32 +35413,6 @@
         },
         "min": -60,
         "max": -10
-      }
-    ]
-  },
-  {
-    "id": "suffix-623",
-    "name": {
-      "en": "of Potion Finding",
-      "zh-TW": "找尋葯劑",
-      "zh-CN": "找寻药剂"
-    },
-    "kind": "suffix",
-    "alvl": 14,
-    "itemTypes": [
-      "bar"
-    ],
-    "rareEligible": false,
-    "stats": [
-      {
-        "key": "charged:131",
-        "label": {
-          "en": "Charges (Find Potion)",
-          "zh-TW": "充能次數 (找尋葯劑)",
-          "zh-CN": "充能次数 (找寻药剂)"
-        },
-        "min": -20,
-        "max": -6
       }
     ]
   },
@@ -35495,32 +35443,6 @@
     ]
   },
   {
-    "id": "suffix-625",
-    "name": {
-      "en": "of Taunting",
-      "zh-TW": "嘲弄",
-      "zh-CN": "嘲弄"
-    },
-    "kind": "suffix",
-    "alvl": 24,
-    "itemTypes": [
-      "bar"
-    ],
-    "rareEligible": false,
-    "stats": [
-      {
-        "key": "charged:137",
-        "label": {
-          "en": "Charges (Taunt)",
-          "zh-TW": "充能次數 (嘲弄)",
-          "zh-CN": "充能次数 (嘲弄)"
-        },
-        "min": -20,
-        "max": -5
-      }
-    ]
-  },
-  {
     "id": "suffix-626",
     "name": {
       "en": "of Shouting",
@@ -35543,32 +35465,6 @@
         },
         "min": -60,
         "max": -8
-      }
-    ]
-  },
-  {
-    "id": "suffix-627",
-    "name": {
-      "en": "of Shouting",
-      "zh-TW": "大叫",
-      "zh-CN": "大叫"
-    },
-    "kind": "suffix",
-    "alvl": 24,
-    "itemTypes": [
-      "bar"
-    ],
-    "rareEligible": false,
-    "stats": [
-      {
-        "key": "charged:138",
-        "label": {
-          "en": "Charges (Shout)",
-          "zh-TW": "充能次數 (大叫)",
-          "zh-CN": "充能次数 (大叫)"
-        },
-        "min": -20,
-        "max": -5
       }
     ]
   },
@@ -35667,32 +35563,6 @@
     ]
   },
   {
-    "id": "suffix-631",
-    "name": {
-      "en": "of Item Finding",
-      "zh-TW": "找尋物品",
-      "zh-CN": "找寻物品"
-    },
-    "kind": "suffix",
-    "alvl": 36,
-    "itemTypes": [
-      "bar"
-    ],
-    "rareEligible": false,
-    "stats": [
-      {
-        "key": "charged:142",
-        "label": {
-          "en": "Charges (Find Item)",
-          "zh-TW": "充能次數 (找尋物品)",
-          "zh-CN": "充能次数 (找寻物品)"
-        },
-        "min": -20,
-        "max": -4
-      }
-    ]
-  },
-  {
     "id": "suffix-632",
     "name": {
       "en": "of Concentration",
@@ -35787,32 +35657,6 @@
     ]
   },
   {
-    "id": "suffix-635",
-    "name": {
-      "en": "of Battle Cry",
-      "zh-TW": "戰嗥",
-      "zh-CN": "战嗥"
-    },
-    "kind": "suffix",
-    "alvl": 48,
-    "itemTypes": [
-      "bar"
-    ],
-    "rareEligible": false,
-    "stats": [
-      {
-        "key": "charged:146",
-        "label": {
-          "en": "Charges (Battle Cry)",
-          "zh-TW": "充能次數 (戰嗥)",
-          "zh-CN": "充能次数 (战嗥)"
-        },
-        "min": -20,
-        "max": -3
-      }
-    ]
-  },
-  {
     "id": "suffix-636",
     "name": {
       "en": "of Battle Orders",
@@ -35835,32 +35679,6 @@
         },
         "min": -60,
         "max": -5
-      }
-    ]
-  },
-  {
-    "id": "suffix-637",
-    "name": {
-      "en": "of Battle Orders",
-      "zh-TW": "戰鬥體制",
-      "zh-CN": "战斗体制"
-    },
-    "kind": "suffix",
-    "alvl": 60,
-    "itemTypes": [
-      "bar"
-    ],
-    "rareEligible": false,
-    "stats": [
-      {
-        "key": "charged:149",
-        "label": {
-          "en": "Charges (Battle Orders)",
-          "zh-TW": "充能次數 (戰鬥體制)",
-          "zh-CN": "充能次数 (战斗体制)"
-        },
-        "min": -20,
-        "max": -2
       }
     ]
   },
@@ -35943,32 +35761,6 @@
     ]
   },
   {
-    "id": "suffix-641",
-    "name": {
-      "en": "of War Cry",
-      "zh-TW": "戰鬥狂嗥",
-      "zh-CN": "战斗狂嗥"
-    },
-    "kind": "suffix",
-    "alvl": 72,
-    "itemTypes": [
-      "bar"
-    ],
-    "rareEligible": false,
-    "stats": [
-      {
-        "key": "charged:154",
-        "label": {
-          "en": "Charges (War Cry)",
-          "zh-TW": "充能次數 (戰鬥狂嗥)",
-          "zh-CN": "充能次数 (战斗狂嗥)"
-        },
-        "min": -20,
-        "max": -1
-      }
-    ]
-  },
-  {
     "id": "suffix-642",
     "name": {
       "en": "of Battle Command",
@@ -35991,32 +35783,6 @@
         },
         "min": -60,
         "max": -3
-      }
-    ]
-  },
-  {
-    "id": "suffix-643",
-    "name": {
-      "en": "of Battle Command",
-      "zh-TW": "戰鬥指揮",
-      "zh-CN": "战斗指挥"
-    },
-    "kind": "suffix",
-    "alvl": 72,
-    "itemTypes": [
-      "bar"
-    ],
-    "rareEligible": false,
-    "stats": [
-      {
-        "key": "charged:155",
-        "label": {
-          "en": "Charges (Battle Command)",
-          "zh-TW": "充能次數 (戰鬥指揮)",
-          "zh-CN": "充能次数 (战斗指挥)"
-        },
-        "min": -20,
-        "max": -1
       }
     ]
   },

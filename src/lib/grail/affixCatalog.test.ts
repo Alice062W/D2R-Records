@@ -6,20 +6,12 @@ describe('affixCatalog', () => {
     const categories = getAffixCategories('magic');
     expect(categories).toContain('helms');
     expect(categories).toContain('rings');
-    expect(categories).toContain('bar');
   });
 
   it('rare categories are a subset of (or equal to) magic categories for the same itype set', () => {
     const magicCats = getAffixCategories('magic');
     const rareCats = getAffixCategories('rare');
     for (const cat of rareCats) expect(magicCats).toContain(cat);
-  });
-
-  it('a magic-only category with zero rare-eligible affixes is excluded from rare categories', () => {
-    // "bar" (Barbarian class-restricted affixes, e.g. "of Howling") has no
-    // rare-eligible entries in the real data.
-    const rareCats = getAffixCategories('rare');
-    expect(rareCats).not.toContain('bar');
   });
 
   it('getAffixesForCategory returns prefixes and suffixes for rings', () => {

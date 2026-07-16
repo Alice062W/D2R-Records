@@ -31,10 +31,10 @@ describe('CategoryCardGrid', () => {
   });
 
   it('falls back to AffixCategories for a category with no matching Grail slot key', () => {
-    renderGrid(['bar']);
-    expect(screen.getByRole('link', { name: 'Barbarian Items' })).toHaveAttribute(
+    renderGrid(['circlets']);
+    expect(screen.getByRole('link', { name: 'Circlets' })).toHaveAttribute(
       'href',
-      '/en/items/unique/bar'
+      '/en/items/unique/circlets'
     );
   });
 
@@ -46,7 +46,7 @@ describe('CategoryCardGrid', () => {
   });
 
   it('renders no icon for a category absent from the icon map', () => {
-    renderGrid(['bar']);
+    renderGrid(['weapons']);
     expect(document.querySelector('img')).toBeNull();
   });
 });

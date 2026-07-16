@@ -1227,9 +1227,43 @@ function extractMagicAffixStats(entry) {
 // frequency:0 v0 entry with level:5/levelreq:3, and the active frequency:4 v1
 // entry with level:12/levelreq:8. Using `levelreq` first (as an earlier draft
 // of this generator step assumed) would silently report the wrong number here.
+// magicprefix.json/magicsuffix.json's group-44 "charged"-mod entries are meant to
+// grant "Level X <Skill> (Y Charges)" — but a subset of these (9 confirmed for the
+// Barbarian class, e.g. "of Howling" id 621) have negative mod{n}min/mod{n}max
+// values (e.g. -20 to -6), which is nonsensical for a charge count, AND are missing
+// any itype restriction entirely (their valid, correctly-itype'd sibling entry, e.g.
+// "of Howling" id 620 with itype1 "phlm", is a separate row). Confirmed against
+// d2r.world directly: neither the malformed rows nor their valid siblings appear on
+// any of its Magic Items category pages, so this whole group-44 negative-charge
+// family is dead/non-functional data that d2r.world (and therefore this project)
+// excludes entirely, rather than guessing a category for it.
+function hasMalformedNegativeCharge(entry) {
+  // Restrict to rows with no itype restriction at all (itype1..itype7 all absent) —
+  // negative mod{n}min/mod{n}max on "charged" is actually the norm across the whole
+  // group-44 family (verified against the vendored data: nearly every itype-bearing
+  // "charged" row also has negative min/max, e.g. "of Frozen Orbs" id 549 with itype1
+  // "knif"), so a negative-value check alone would wrongly exclude hundreds of valid,
+  // itype-restricted affixes. The 9 confirmed-malformed Barbarian rows are uniquely
+  // identifiable by ALSO having no itype fields whatsoever (their restriction is
+  // expressed only via `class: "bar"`, which is what produces the raw "bar" fallback
+  // category — see itemTypesForAffix).
+  const hasAnyItype = [1, 2, 3, 4, 5, 6, 7].some(n => Boolean(entry[`itype${n}`]));
+  if (hasAnyItype) return false;
+  for (let n = 1; n <= 3; n++) {
+    if (entry[`mod${n}code`] !== 'charged') continue;
+    const min = entry[`mod${n}min`];
+    const max = entry[`mod${n}max`];
+    if (typeof min === 'number' && typeof max === 'number' && min < 0 && max < 0) {
+      return true;
+    }
+  }
+  return false;
+}
+
 function magicAffixesFrom(data, kind) {
   return Object.entries(data)
     .filter(([, v]) => (v.frequency ?? 0) > 0)
+    .filter(([, v]) => !hasMalformedNegativeCharge(v))
     .map(([id, v]) => {
       const { variable, fixed } = extractMagicAffixStats(v);
       return {
