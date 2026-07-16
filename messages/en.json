@@ -194,7 +194,18 @@
     "rarePageSubtitle": "Browse every rare item affix in Diablo II: Resurrected.",
     "affixPrefixesLabel": "Prefixes",
     "affixSuffixesLabel": "Suffixes",
-    "affixAlvlLabel": "Alvl"
+    "affixAlvlLabel": "Alvl",
+    "areaLevelPageTitle": "Area Level",
+    "areaLevelPageSubtitle": "Monster level by area and difficulty in Diablo II: Resurrected.",
+    "areaLevelNameLabel": "Level Name",
+    "areaLevelNormalLabel": "Normal",
+    "areaLevelNightmareLabel": "Nightmare",
+    "areaLevelHellLabel": "Hell",
+    "areaLevelAct1": "Act 1",
+    "areaLevelAct2": "Act 2",
+    "areaLevelAct3": "Act 3",
+    "areaLevelAct4": "Act 4",
+    "areaLevelAct5": "Act 5"
   },
   "AffixCategories": {
     "bar": "Barbarian Items",

@@ -194,7 +194,18 @@
     "rarePageSubtitle": "浏览暗黑破坏神2：狱火重生中所有的稀有物品词缀。",
     "affixPrefixesLabel": "前缀",
     "affixSuffixesLabel": "后缀",
-    "affixAlvlLabel": "物品等级"
+    "affixAlvlLabel": "物品等级",
+    "areaLevelPageTitle": "区域等级",
+    "areaLevelPageSubtitle": "浏览暗黑破坏神2：狱火重生中各区域在不同难度下的怪物等级。",
+    "areaLevelNameLabel": "区域名称",
+    "areaLevelNormalLabel": "普通",
+    "areaLevelNightmareLabel": "恶梦",
+    "areaLevelHellLabel": "地狱",
+    "areaLevelAct1": "第一章",
+    "areaLevelAct2": "第二章",
+    "areaLevelAct3": "第三章",
+    "areaLevelAct4": "第四章",
+    "areaLevelAct5": "第五章"
   },
   "BaseItems": {
     "grade_normal": "普通",

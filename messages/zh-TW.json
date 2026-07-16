@@ -194,7 +194,18 @@
     "rarePageSubtitle": "瀏覽暗黑破壞神2：獄火重生中所有的稀有物品詞綴。",
     "affixPrefixesLabel": "前綴",
     "affixSuffixesLabel": "後綴",
-    "affixAlvlLabel": "物品等級"
+    "affixAlvlLabel": "物品等級",
+    "areaLevelPageTitle": "區域等級",
+    "areaLevelPageSubtitle": "瀏覽暗黑破壞神2：獄火重生中各區域在不同難度下的怪物等級。",
+    "areaLevelNameLabel": "區域名稱",
+    "areaLevelNormalLabel": "普通",
+    "areaLevelNightmareLabel": "惡夢",
+    "areaLevelHellLabel": "地獄",
+    "areaLevelAct1": "第一章",
+    "areaLevelAct2": "第二章",
+    "areaLevelAct3": "第三章",
+    "areaLevelAct4": "第四章",
+    "areaLevelAct5": "第五章"
   },
   "AffixCategories": {
     "bar": "蠻族物品",
