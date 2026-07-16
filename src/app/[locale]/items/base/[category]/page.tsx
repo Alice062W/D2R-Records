@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { getBaseCategories, getBaseLinesForCategory } from '@/lib/grail/basesCatalog';
-import BaseItemTable from '@/components/items/BaseItemTable';
+import BaseCategoryList from '@/components/items/BaseCategoryList';
 
 export function generateStaticParams() {
   return routing.locales.flatMap(locale =>
@@ -40,9 +40,7 @@ export default async function BaseCategoryPage({
             {t('backToCategories')}
           </Link>
         </div>
-        <div className="flex flex-col gap-4">
-          {lines.map(line => <BaseItemTable key={line.id} line={line} />)}
-        </div>
+        <BaseCategoryList lines={lines} />
       </div>
     </main>
   );
