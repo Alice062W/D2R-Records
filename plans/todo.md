@@ -222,13 +222,13 @@ _Spec: [docs/superpowers/specs/2026-07-16-set-items-taxonomy-design.md](../docs/
 - [x] Combine weapon categories into one Weapons tile (secondary category view) — fixed missing ranged weapon types during verification
 - [x] Full verification + d2r.world spot-check — final whole-branch review clean
 
-## Area Level (Misc) 🔲
+## Area Level (Misc) ✅
 
 _Spec: [docs/superpowers/specs/2026-07-16-area-level-design.md](../docs/superpowers/specs/2026-07-16-area-level-design.md) · Plan: [plans/area-level-implementation.md](./area-level-implementation.md)_
 
-- [ ] Vendor levels.json + generate data/area-levels.json
-- [ ] Area Level page (per-Act tabbed table)
-- [ ] Full verification + d2r.world spot-check
+- [x] Vendor levels.json + generate data/area-levels.json
+- [x] Area Level page (per-Act tabbed table)
+- [x] Full verification + d2r.world spot-check — found/fixed the "Moo Moo Farm"/Secret Cow Level internal-codename bug; final whole-branch review clean
 
 ### Follow-up sub-projects (agreed order, not yet started)
 - `bar` class-restriction fallback expansion (deferred, needs a separate hand-authored class-equipment mechanism)
