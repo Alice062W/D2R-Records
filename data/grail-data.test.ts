@@ -405,9 +405,9 @@ describe('property labels (no leaked raw codes)', () => {
     return leaked;
   }
 
-  it('runes.json, crafted-items.json, and magic-affixes.json have no leaked raw property codes', () => {
+  it('no generated data file has an unexpected leaked raw property code', () => {
     const leaked = new Set<string>();
-    for (const data of [runesData, craftedItemsData, magicAffixesData]) {
+    for (const data of [uniques, sets, basesFull, runewordsFull, runesData, craftedItemsData, cubeRecipesData, magicAffixesData]) {
       for (const code of findLeakedRawCodes(data)) leaked.add(code);
     }
     for (const code of leaked) {
