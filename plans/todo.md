@@ -188,8 +188,16 @@ _Spec: [docs/superpowers/specs/2026-07-16-icon-sizing-design.md](../docs/superpo
 - [x] Increase icon size 40px -> 80px in ItemStatCard and GrailItemDetail
 - [x] Browser verification — confirmed on desktop and mobile widths, no distortion
 
+## Category-Grid Icons 🔲
+
+_Spec: [docs/superpowers/specs/2026-07-16-category-icons-design.md](../docs/superpowers/specs/2026-07-16-category-icons-design.md) · Plan: [plans/category-icons-implementation.md](./category-icons-implementation.md)_
+
+- [ ] Generate data/category-icons.json (28 SLOT_ORDER categories -> representative invFile)
+- [ ] Render icons in CategoryCardGrid
+- [ ] Browser verification
+
 ### Follow-up sub-projects (agreed order, not yet started)
-- Category-grid icons (per-category representative icon on landing pages)
+- Magic/Rare category taxonomy fix (split 12 generic codes into d2r.world's real class-specific categories: Barbarian/Druid Helms, Circlets, Paladin Shields, Shrunken Heads, Amazon Spears/Bows/Javelins, Sorceress Orbs, Necromancer Wands, Assassin Katars, Throwing Axes/Knives, Grand/Large/Small Charms split) — then add icons for those
 - Full site audit vs. d2r.world (especially Misc: FCR/FHR/FBR, Alvl85 Areas, Area Level, Level Up)
 
 ## Backlog / Ideas
@@ -218,3 +226,4 @@ _Spec: [docs/superpowers/specs/2026-07-16-icon-sizing-design.md](../docs/superpo
 | [item-icons-implementation.md](./item-icons-implementation.md) | Render self-extracted item inventory icons on Unique/Set item cards and detail views |
 | [property-label-audit-implementation.md](./property-label-audit-implementation.md) | Close remaining leaked raw property codes across uniques/sets/runewords/magic-affixes; broaden regression test to every data file |
 | [icon-sizing-implementation.md](./icon-sizing-implementation.md) | Increase item inventory icon size from 40px to 80px to match d2r.world's presentation |
+| [category-icons-implementation.md](./category-icons-implementation.md) | Representative item icon per category tile on landing-page grids |
