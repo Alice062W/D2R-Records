@@ -188,13 +188,13 @@ _Spec: [docs/superpowers/specs/2026-07-16-icon-sizing-design.md](../docs/superpo
 - [x] Increase icon size 40px -> 80px in ItemStatCard and GrailItemDetail
 - [x] Browser verification — confirmed on desktop and mobile widths, no distortion
 
-## Category-Grid Icons 🔲
+## Category-Grid Icons ✅
 
 _Spec: [docs/superpowers/specs/2026-07-16-category-icons-design.md](../docs/superpowers/specs/2026-07-16-category-icons-design.md) · Plan: [plans/category-icons-implementation.md](./category-icons-implementation.md)_
 
-- [ ] Generate data/category-icons.json (28 SLOT_ORDER categories -> representative invFile)
-- [ ] Render icons in CategoryCardGrid
-- [ ] Browser verification
+- [x] Generate data/category-icons.json (28 SLOT_ORDER categories -> representative invFile)
+- [x] Render icons in CategoryCardGrid
+- [x] Browser verification — confirmed on Base/Unique/Set (all 28) and Magic Items (25 mapped, 12 generic correctly icon-less) grids, desktop + mobile
 
 ### Follow-up sub-projects (agreed order, not yet started)
 - Magic/Rare category taxonomy fix (split 12 generic codes into d2r.world's real class-specific categories: Barbarian/Druid Helms, Circlets, Paladin Shields, Shrunken Heads, Amazon Spears/Bows/Javelins, Sorceress Orbs, Necromancer Wands, Assassin Katars, Throwing Axes/Knives, Grand/Large/Small Charms split) — then add icons for those
