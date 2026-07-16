@@ -125,3 +125,11 @@ export function getCategoriesForKind(kind: 'unique' | 'set'): (typeof SLOT_ORDER
   const items = ALL_ITEMS.filter(i => i.kind === kind);
   return SLOT_ORDER.filter(slot => items.some(i => i.slotCategory === slot));
 }
+
+export function slugifySetName(name: string): string {
+  return name
+    .toLowerCase()
+    .replace(/'/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
