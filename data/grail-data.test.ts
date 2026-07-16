@@ -469,3 +469,53 @@ describe('category-icons.json', () => {
     expect(categoryIcons.jewels).toBe('invgswe');
   });
 });
+
+describe('magic-affixes.json ancestor-closure category expansion', () => {
+  it('expands a weapon-supertype-restricted affix onto every leaf weapon category', () => {
+    // Any affix whose only restriction is the bare "weap" supertype code should appear
+    // on every leaf weapon slug (swords, axes, bows, etc.) after expansion.
+    const weapRestricted = magicAffixesData.filter((a: { itemTypes: string[] }) =>
+      a.itemTypes.includes('swords') && a.itemTypes.includes('bows') && a.itemTypes.includes('axes')
+    );
+    expect(weapRestricted.length).toBeGreaterThan(0);
+  });
+
+  it('expands an Amazon-class-only restriction onto exactly the three Amazon weapon categories', () => {
+    // NOTE: "of Slow Missiles" is not a unique name — magicsuffix.json id 476 has
+    // itype1: 'amaz' (the one this test targets) and a SEPARATE id 477 also named
+    // "of Slow Missiles" has itype1: 'glov' (Gloves) instead. Both become distinct
+    // entries in magic-affixes.json (this project doesn't dedupe by name), so find the
+    // specific one with 3 itemTypes, not just the first name match.
+    const amazVariant = magicAffixesData.find(
+      (a: { name: { en: string }; itemTypes: string[] }) =>
+        a.name.en === 'of Slow Missiles' && a.itemTypes.length === 3
+    );
+    expect(amazVariant).toBeDefined();
+    expect(amazVariant!.itemTypes.sort()).toEqual(['amazonBows', 'amazonJavelins', 'amazonSpears'].sort());
+  });
+
+  it('keeps class-specific weapon variants distinct from their base type', () => {
+    const auricShieldOnly = magicAffixesData.filter((a: { itemTypes: string[] }) =>
+      a.itemTypes.includes('paladinShields') && !a.itemTypes.includes('shields')
+    );
+    // A Paladin-Shield-only restriction should NOT also claim the generic "shields" slug
+    // unless the affix separately also restricts to the base shie code.
+    expect(auricShieldOnly.length).toBeGreaterThan(0);
+  });
+
+  it('resolves charm sizes into three distinct slugs', () => {
+    const categories = new Set(magicAffixesData.flatMap((a: { itemTypes: string[] }) => a.itemTypes));
+    expect(categories.has('smallCharms')).toBe(true);
+    expect(categories.has('largeCharms')).toBe(true);
+    expect(categories.has('grandCharms')).toBe(true);
+    expect(categories.has('charms')).toBe(false);
+  });
+
+  it('leaves bar as the only unresolved generic code', () => {
+    const categories = new Set(magicAffixesData.flatMap((a: { itemTypes: string[] }) => a.itemTypes));
+    const stillGeneric = ['amaz', 'armo', 'blun', 'h2h', 'mele', 'miss', 'rod', 'shld', 'staff', 'thro', 'weap']
+      .filter(code => categories.has(code));
+    expect(stillGeneric).toEqual([]);
+    expect(categories.has('bar')).toBe(true);
+  });
+});

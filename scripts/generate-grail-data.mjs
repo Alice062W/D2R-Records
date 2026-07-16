@@ -1010,12 +1010,93 @@ console.log(`Wrote ${craftedItemsOut.length} crafted items -> data/crafted-items
 const magicPrefixData = JSON.parse(readFileSync(join(VENDOR, 'magicprefix.json'), 'utf8'));
 const magicSuffixData = JSON.parse(readFileSync(join(VENDOR, 'magicsuffix.json'), 'utf8'));
 
+// The real, final Magic/Rare category slugs this project shows, and the raw D2 item-type
+// code each one is rooted at. Distinct from TYPE_TO_SLOT (used by uniques/sets/bases,
+// which intentionally stays coarser) — this map is granular on purpose, splitting
+// class-specific and size-specific variants that TYPE_TO_SLOT collapses.
+const MAGIC_LEAF_SLUGS = {
+  helm: 'helms', circ: 'circlets', phlm: 'barbarianHelms', pelt: 'druidHelms',
+  tors: 'armors',
+  shie: 'shields', ashd: 'paladinShields', head: 'shrunkenHeads',
+  belt: 'belts', boot: 'boots', glov: 'gloves',
+  ring: 'rings', amul: 'amulets',
+  scha: 'smallCharms', mcha: 'largeCharms', lcha: 'grandCharms',
+  jewl: 'jewels',
+  swor: 'swords', knif: 'daggers', axe: 'axes', pole: 'polearms',
+  spea: 'spears', aspe: 'amazonSpears',
+  club: 'clubs', mace: 'maces', hamm: 'hammers',
+  scep: 'scepters', staf: 'staves', orb: 'orbs', wand: 'wands',
+  grim: 'grimoires', h2h: 'assassinKatars',
+  bow: 'bows', abow: 'amazonBows', xbow: 'crossbows',
+  jave: 'javelins', ajav: 'amazonJavelins',
+  taxe: 'throwingAxes', tkni: 'throwingKnives',
+};
+
+// Ancestor closure: for each leaf raw code above, walk itemtypes.json's Equiv1/Equiv2
+// parent-links upward until no further parent exists, collecting every code reached
+// along the way (including the leaf's own code). An affix restricted to any one of
+// these ancestor codes (leaf-specific OR an abstract supertype like "weap"/"armo") is
+// considered to apply to that leaf category — this is how a bare "weap"-restricted
+// affix ends up expanded onto every real weapon category, matching d2r.world's actual
+// per-category affix listings instead of one generic "Weapons" bucket.
+function ancestorsOf(rawCode) {
+  const seen = new Set([rawCode]);
+  let frontier = [rawCode];
+  while (frontier.length > 0) {
+    const next = [];
+    for (const code of frontier) {
+      const entry = itemTypesData[code];
+      for (const parent of [entry?.Equiv1, entry?.Equiv2]) {
+        if (parent && !seen.has(parent)) {
+          seen.add(parent);
+          next.push(parent);
+        }
+      }
+    }
+    frontier = next;
+  }
+  return seen;
+}
+
+const LEAF_ANCESTORS = Object.fromEntries(
+  Object.entries(MAGIC_LEAF_SLUGS).map(([rawCode, slug]) => [slug, ancestorsOf(rawCode)])
+);
+
+// magicprefix.json has 9 Sorceress-only prefixes (Burning, Blazing, Volcanic, Sparking,
+// Charged, Powered, Chilling, Freezing, Glacial — ids 445-453) whose itype1 field is the
+// literal string "staff" (double-f). itemtypes.json has no code "staff" at all — only
+// "staf" (whose own ItemType label is "Staff"). Given each of those 9 entries also
+// restricts to itype2 "orb" (the Sorceress's other class-specific weapon type), this is
+// unambiguously a vendored-data typo for "staf", not a genuinely unmapped code. Alias it
+// rather than letting a real category silently fall back to a raw, unresolved code.
+const ITYPE_ALIASES = { staff: 'staf' };
+
+function expandItypeToSlugs(rawItype) {
+  const normalized = ITYPE_ALIASES[rawItype] ?? rawItype;
+  const slugs = [];
+  for (const [slug, ancestors] of Object.entries(LEAF_ANCESTORS)) {
+    if (ancestors.has(normalized)) slugs.push(slug);
+  }
+  return slugs;
+}
+
 function itemTypesForAffix(entry) {
-  const types = [];
+  const slugs = new Set();
   for (let n = 1; n <= 7; n++) {
     const itype = entry[`itype${n}`];
-    if (itype) types.push(TYPE_TO_SLOT[itype] ?? itype);
+    if (!itype) continue;
+    const expanded = expandItypeToSlugs(itype);
+    if (expanded.length > 0) {
+      for (const s of expanded) slugs.add(s);
+    } else {
+      // No leaf category's ancestor set reaches this code (e.g. "bar", a bare class
+      // restriction never expressed via itype at all in practice, or any other
+      // genuinely unmapped code) — fall back to the raw code itself, matching this
+      // project's established "don't guess, surface the gap" convention.
+      slugs.add(itype);
+    }
   }
+  const types = Array.from(slugs);
   // A handful of active suffixes (all Barbarian class-specific, e.g. "of
   // Howling") carry no itype{n} fields at all — their restriction is
   // expressed entirely via the `class` field instead. Fall back to that
