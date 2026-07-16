@@ -1258,17 +1258,29 @@ console.log(`Wrote ${magicAffixesOut.length} magic/rare affixes -> data/magic-af
 
 const levelsData = JSON.parse(readFileSync(join(VENDOR, 'levels.json'), 'utf8'));
 
+// levels.json's *StringName is the internal D2 dev codename for this level, not the
+// real in-game/player-facing name — a well-known exception (D2's own English game
+// client shows "The Secret Cow Level", never "Moo Moo Farm"). The Chinese localization
+// in localestrings-chi.json is keyed by the internal codename but already contains the
+// correct player-facing translation ("秘密母牛關卡" = "Secret Cow Level"), so only the
+// English override is needed here.
+const AREA_NAME_OVERRIDES_EN = { 'Moo Moo Farm': 'The Secret Cow Level' };
+
 const areaLevelsOut = Object.values(levelsData)
   .filter(v => v.Act !== undefined && v.Act >= 0 && v['*StringName'] && (v.MonLvlEx ?? 0) > 0)
   .sort((a, b) => a.Act - b.Act || a.Id - b.Id)
-  .map(v => ({
-    id: v.Id,
-    name: localizedItemName(v['*StringName']),
-    act: v.Act,
-    normal: v.MonLvlEx,
-    nightmare: v['MonLvlEx(N)'],
-    hell: v['MonLvlEx(H)'],
-  }));
+  .map(v => {
+    const localized = localizedItemName(v['*StringName']);
+    const enOverride = AREA_NAME_OVERRIDES_EN[v['*StringName']];
+    return {
+      id: v.Id,
+      name: enOverride ? { ...localized, en: enOverride } : localized,
+      act: v.Act,
+      normal: v.MonLvlEx,
+      nightmare: v['MonLvlEx(N)'],
+      hell: v['MonLvlEx(H)'],
+    };
+  });
 
 writeFileSync(join(OUT, 'area-levels.json'), JSON.stringify(areaLevelsOut, null, 2));
 console.log(`Wrote ${areaLevelsOut.length} area levels -> data/area-levels.json`);

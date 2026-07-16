@@ -603,6 +603,13 @@ describe('area-levels.json', () => {
     expect(darkWood.name['zh-TW']).not.toBe('');
   });
 
+  it('overrides the internal dev codename "Moo Moo Farm" with the real player-facing English name', () => {
+    expect(areaLevelsData.some((a: { name: { en: string } }) => a.name.en === 'Moo Moo Farm')).toBe(false);
+    const cowLevel = areaLevelsData.find((a: { name: { en: string } }) => a.name.en === 'The Secret Cow Level')!;
+    expect(cowLevel).toMatchObject({ act: 0, normal: 28, nightmare: 64, hell: 81 });
+    expect(cowLevel.name['zh-TW']).toBe('秘密母牛關卡');
+  });
+
   it('is ordered by act, ascending', () => {
     const acts = areaLevelsData.map((a: { act: number }) => a.act);
     for (let i = 1; i < acts.length; i++) expect(acts[i]).toBeGreaterThanOrEqual(acts[i - 1]);
