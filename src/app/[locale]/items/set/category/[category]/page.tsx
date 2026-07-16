@@ -5,6 +5,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import {
   getAllGrailItems,
   getCategoriesForKind,
+  getItemsForSetWeaponsCategory,
   localizeGrailItem,
   sortItemsForDisplay,
 } from '@/lib/grail/catalog';
@@ -24,18 +25,18 @@ export default async function SetCategoryPage({
   const { locale, category } = await params;
   setRequestLocale(locale);
 
-  if (!getCategoriesForKind('set').includes(category as ReturnType<typeof getCategoriesForKind>[number])) {
+  if (!getCategoriesForKind('set').includes(category)) {
     notFound();
   }
 
   const t = await getTranslations('Items');
   const tGrail = await getTranslations('Grail');
+  const loc = locale as 'en' | 'zh-TW' | 'zh-CN';
 
-  const items = sortItemsForDisplay(
-    getAllGrailItems()
-      .filter(i => i.kind === 'set' && i.slotCategory === category)
-      .map(i => localizeGrailItem(i, locale as 'en' | 'zh-TW' | 'zh-CN'))
-  );
+  const rawItems = category === 'weapons'
+    ? getItemsForSetWeaponsCategory()
+    : getAllGrailItems().filter(i => i.kind === 'set' && i.slotCategory === category);
+  const items = sortItemsForDisplay(rawItems.map(i => localizeGrailItem(i, loc)));
 
   return (
     <main className="flex flex-col items-center py-10 px-4 gap-6 flex-1 w-full">
@@ -46,7 +47,7 @@ export default async function SetCategoryPage({
       <div className="w-full max-w-4xl flex flex-col gap-4">
         <div className="flex items-center justify-between">
           <h2 className="text-xl font-semibold text-zinc-100">{tGrail(`slot_${category}`)}</h2>
-          <Link href={`/${locale}/items/set`} className="text-sm text-zinc-400 hover:text-amber-300 transition-colors">
+          <Link href={`/${locale}/items/set/category`} className="text-sm text-zinc-400 hover:text-amber-300 transition-colors">
             {t('backToCategories')}
           </Link>
         </div>

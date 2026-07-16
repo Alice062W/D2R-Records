@@ -66,6 +66,7 @@
     "slot_crossbows": "弩",
     "slot_javelins": "標槍",
     "slot_throwings": "投擲武器",
+    "slot_weapons": "武器",
     "copiesOne": "1 件",
     "copiesMany": "{count} 件",
     "bestLabel": "最佳 {stat}：{value}",

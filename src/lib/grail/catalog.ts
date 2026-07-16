@@ -121,9 +121,24 @@ export function sortItemsForDisplay(items: GrailItem[]): GrailItem[] {
   );
 }
 
-export function getCategoriesForKind(kind: 'unique' | 'set'): (typeof SLOT_ORDER)[number][] {
+const WEAPON_SLOTS_FOR_SET_COMBINATION = new Set([
+  'swords', 'daggers', 'axes', 'polearms', 'spears',
+  'clubs', 'maces', 'hammers', 'scepters', 'staves',
+  'orbs', 'wands', 'katars', 'grimoires',
+]);
+
+export function getCategoriesForKind(kind: 'unique' | 'set'): string[] {
   const items = ALL_ITEMS.filter(i => i.kind === kind);
-  return SLOT_ORDER.filter(slot => items.some(i => i.slotCategory === slot));
+  const populated = SLOT_ORDER.filter(slot => items.some(i => i.slotCategory === slot));
+  if (kind !== 'set') return populated;
+
+  const hasWeapon = populated.some(slot => WEAPON_SLOTS_FOR_SET_COMBINATION.has(slot));
+  const nonWeapon = populated.filter(slot => !WEAPON_SLOTS_FOR_SET_COMBINATION.has(slot));
+  return hasWeapon ? ['weapons', ...nonWeapon] : nonWeapon;
+}
+
+export function getItemsForSetWeaponsCategory(): RawGrailItem[] {
+  return ALL_ITEMS.filter(i => i.kind === 'set' && WEAPON_SLOTS_FOR_SET_COMBINATION.has(i.slotCategory));
 }
 
 export function slugifySetName(name: string): string {

@@ -66,6 +66,7 @@
     "slot_crossbows": "Crossbows",
     "slot_javelins": "Javelins",
     "slot_throwings": "Throwing Weapons",
+    "slot_weapons": "Weapons",
     "copiesOne": "1 copy",
     "copiesMany": "{count} copies",
     "bestLabel": "best {stat}: {value}",

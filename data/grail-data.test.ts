@@ -265,10 +265,12 @@ describe('getCategoriesForKind', () => {
     expect(setCategories).not.toContain('charms');
   });
 
-  it('preserves SLOT_ORDER ordering', () => {
+  it('preserves SLOT_ORDER ordering for non-weapon categories, with weapons tile first', () => {
     const setCategories = getCategoriesForKind('set');
-    const expectedOrder = SLOT_ORDER.filter(s => setCategories.includes(s));
-    expect(setCategories).toEqual(expectedOrder);
+    const nonWeaponCategories = setCategories.filter(c => c !== 'weapons');
+    const expectedOrder = SLOT_ORDER.filter(s => nonWeaponCategories.includes(s));
+    expect(nonWeaponCategories).toEqual(expectedOrder);
+    expect(setCategories[0]).toBe('weapons');
   });
 });
 
