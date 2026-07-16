@@ -237,9 +237,15 @@ _Spec: [docs/superpowers/specs/2026-07-16-level-up-design.md](../docs/superpower
 - [x] Level Up data + page (hand-transcribed 14-row guide)
 - [x] Full verification + d2r.world spot-check — all 14 rows match d2r.world exactly
 
+### Alvl85 Areas (Misc)
+_Spec: [docs/superpowers/specs/2026-07-16-alvl85-areas-design.md](../docs/superpowers/specs/2026-07-16-alvl85-areas-design.md) · Plan: [plans/alvl85-areas-implementation.md](./alvl85-areas-implementation.md)_
+
+- [ ] Alvl85 Areas data + page (hand-transcribed 32-area monster/type/immunity table)
+- [ ] Full verification + d2r.world spot-check
+
 ### Follow-up sub-projects (agreed order, not yet started)
 - `bar` class-restriction fallback expansion (deferred, needs a separate hand-authored class-equipment mechanism)
-- Remaining Misc pages: Alvl85 Areas (data-driven monster/immunity table), FCR/FHR/FBR (formula-derived breakpoints, most complex)
+- Remaining Misc page: FCR/FHR/FBR (formula-derived breakpoints, most complex)
 
 ## Backlog / Ideas
 
