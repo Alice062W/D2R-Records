@@ -252,8 +252,8 @@ _Spec: [docs/superpowers/specs/2026-07-16-fcr-fhr-fbr-design.md](../docs/superpo
 ### Bar Affix Exclusion
 _Spec: [docs/superpowers/specs/2026-07-16-bar-affix-exclusion-design.md](../docs/superpowers/specs/2026-07-16-bar-affix-exclusion-design.md) · Plan: [plans/bar-affix-exclusion-implementation.md](./bar-affix-exclusion-implementation.md)_
 
-- [ ] Exclude malformed negative-charge affixes; remove bogus Barbarian Items category
-- [ ] Full verification + d2r.world spot-check
+- [x] Exclude malformed negative-charge affixes; remove bogus Barbarian Items category
+- [x] Full verification + d2r.world spot-check — no bar tile, matches d2r.world exactly
 
 ## Backlog / Ideas
 
