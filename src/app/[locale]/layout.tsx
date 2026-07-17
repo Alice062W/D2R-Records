@@ -10,7 +10,7 @@ import '../globals.css';
 
 const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'] });
 const geistMono = Geist_Mono({ variable: '--font-geist-mono', subsets: ['latin'] });
-const cinzel = Cinzel({ variable: '--font-cinzel', weight: ['500', '700'], subsets: ['latin'] });
+const cinzel = Cinzel({ variable: '--font-cinzel-raw', weight: ['500', '700'], subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'D2R Institute',

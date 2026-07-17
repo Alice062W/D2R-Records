@@ -16,7 +16,7 @@
   --color-muted-dark: #6b5d45;
   --color-gold: #c9a227;
   --color-gold-bright: #f0d878;
-  --font-family-cinzel: var(--font-cinzel), serif;
+  --font-cinzel: var(--font-cinzel-raw), serif;
 }
 
 :root {
