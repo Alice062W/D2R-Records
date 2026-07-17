@@ -260,8 +260,9 @@ _Spec: [docs/superpowers/specs/2026-07-16-icon-coverage-audit-design.md](../docs
 
 - [x] Base Items icons (data already extracted — pure wiring)
 - [x] Set Items browse-by-name index representative icon (pure wiring)
-- [ ] Rune icons (BLOCKED: needs 33 new icon files from Windows extraction)
-- [ ] Runeword rune-order icons (blocked on the same 33 files)
+- [x] Rune icons (found + fixed a case-sensitivity bug in the delivered files along the way)
+- [x] Runeword rune-order icons
+- [x] Full verification + spot-check
 - [ ] Full verification + d2r.world spot-check
 
 ## Backlog / Ideas
