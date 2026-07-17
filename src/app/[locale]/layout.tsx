@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Geist, Geist_Mono } from 'next/font/google';
+import { Geist, Geist_Mono, Cinzel } from 'next/font/google';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -10,6 +10,7 @@ import '../globals.css';
 
 const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'] });
 const geistMono = Geist_Mono({ variable: '--font-geist-mono', subsets: ['latin'] });
+const cinzel = Cinzel({ variable: '--font-cinzel', weight: ['500', '700'], subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'D2R Institute',
@@ -39,9 +40,9 @@ export default async function LocaleLayout({
   return (
     <html
       lang={locale}
-      className={`dark ${geistSans.variable} ${geistMono.variable}`}
+      className={`dark ${geistSans.variable} ${geistMono.variable} ${cinzel.variable}`}
     >
-      <body className="min-h-screen flex flex-col bg-zinc-950 text-zinc-100 antialiased">
+      <body className="min-h-screen flex flex-col bg-ink-950 text-parchment antialiased">
         <NextIntlClientProvider messages={messages}>
           <SiteNavDrawer />
           {children}
