@@ -267,9 +267,9 @@ _Spec: [docs/superpowers/specs/2026-07-16-icon-coverage-audit-design.md](../docs
 ### Cube Recipes / Crafted Items Icons
 _Spec: [docs/superpowers/specs/2026-07-16-cube-crafted-icons-design.md](../docs/superpowers/specs/2026-07-16-cube-crafted-icons-design.md) · Plan: [plans/cube-crafted-icons-implementation.md](./cube-crafted-icons-implementation.md)_
 
-- [ ] Cube Recipes icons (ingredientIcons + outputIcon, resolved from cubemain.json's structured input/output codes)
-- [ ] Crafted Items icons (magicItemInputIcon + additionalInputIcons)
-- [ ] Full verification + spot-check
+- [x] Cube Recipes icons (ingredientIcons + outputIcon, resolved from cubemain.json's structured input/output codes)
+- [x] Crafted Items icons (magicItemInputIcon + additionalInputIcons)
+- [x] Full verification + spot-check
 
 ## Backlog / Ideas
 
