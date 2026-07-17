@@ -1,8 +1,26 @@
+'use client';
+
+import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import type runesJson from '../../../data/runes.json';
 
 type Rune = (typeof runesJson)[number];
 type Locale = 'en' | 'zh-TW' | 'zh-CN';
+
+function RuneIcon({ invFile }: { invFile: string }) {
+  const [iconFailed, setIconFailed] = useState(false);
+  if (!invFile || iconFailed) return null;
+  return (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      src={`/items/inv/${invFile}.png`}
+      alt=""
+      aria-hidden="true"
+      className="w-10 h-10 object-contain shrink-0"
+      onError={() => setIconFailed(true)}
+    />
+  );
+}
 
 export default function RuneList({ runes, locale }: { runes: Rune[]; locale: Locale }) {
   const t = useTranslations('Items');
@@ -12,7 +30,10 @@ export default function RuneList({ runes, locale }: { runes: Rune[]; locale: Loc
       {runes.map(rune => (
         <div key={rune.id} className="bg-zinc-900 border border-zinc-700 rounded-xl p-6">
           <div className="flex items-center justify-between">
-            <h3 className="text-lg font-bold text-[#cbb87f]">{rune.name[locale]}</h3>
+            <div className="flex items-center gap-3">
+              <RuneIcon invFile={rune.invFile} />
+              <h3 className="text-lg font-bold text-[#cbb87f]">{rune.name[locale]}</h3>
+            </div>
             <span className="text-xs text-zinc-500">#{rune.number}</span>
           </div>
           <div className="mt-2 text-sm text-zinc-300">

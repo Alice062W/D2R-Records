@@ -325,6 +325,13 @@ describe('runes.json', () => {
       expect(r.name['zh-TW']).not.toBe('');
     }
   });
+
+  it('has a non-empty invFile matching a real file in public/items/inv for every rune', () => {
+    for (const rune of runesData) {
+      expect(rune.invFile).not.toBe('');
+      expect(existsSync(join(process.cwd(), 'public/items/inv', `${rune.invFile}.png`))).toBe(true);
+    }
+  });
 });
 
 describe('cube-recipes.json', () => {

@@ -25,4 +25,26 @@ describe('RuneList', () => {
     );
     expect(screen.getByText(/Eld x3/)).toBeInTheDocument();
   });
+
+  it('renders the icon when the rune has an invFile', () => {
+    const rune = runes[0]; // El rune
+    const { container } = render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <RuneList runes={[rune]} locale="en" />
+      </NextIntlClientProvider>
+    );
+    const img = container.querySelector('img') as HTMLImageElement;
+    expect(img).not.toBeNull();
+    expect(img.src).toContain('/items/inv/invrEl.png');
+  });
+
+  it('renders no icon when invFile is empty', () => {
+    const rune = { ...runes[0], invFile: '' };
+    const { container } = render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <RuneList runes={[rune]} locale="en" />
+      </NextIntlClientProvider>
+    );
+    expect(container.querySelector('img')).toBeNull();
+  });
 });

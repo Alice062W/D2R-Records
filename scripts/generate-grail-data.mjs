@@ -967,6 +967,7 @@ const runesOut = RUNE_ORDER.map((name, i) => {
     number: i + 1,
     name: localizedItemName(name),
     levelReq: itemEntry?.levelreq ?? 0,
+    invFile: itemEntry?.invfile ?? '',
     weaponStats: runeStatsFor(entry, 'weaponMod'),
     armorHelmStats: runeStatsFor(entry, 'helmMod'),
     shieldStats: runeStatsFor(entry, 'shieldMod'),

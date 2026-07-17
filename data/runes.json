@@ -8,6 +8,7 @@
       "zh-CN": "El"
     },
     "levelReq": 11,
+    "invFile": "invrEl",
     "weaponStats": [
       {
         "key": "light",
@@ -90,6 +91,7 @@
       "zh-CN": "Eld"
     },
     "levelReq": 11,
+    "invFile": "invrEld",
     "weaponStats": [
       {
         "key": "att-undead",
@@ -156,6 +158,7 @@
       "zh-CN": "Tir"
     },
     "levelReq": 13,
+    "invFile": "invrTir",
     "weaponStats": [
       {
         "key": "mana-kill",
@@ -212,6 +215,7 @@
       "zh-CN": "Nef"
     },
     "levelReq": 13,
+    "invFile": "invrNef",
     "weaponStats": [
       {
         "key": "knock",
@@ -268,6 +272,7 @@
       "zh-CN": "Eth"
     },
     "levelReq": 15,
+    "invFile": "invrEth",
     "weaponStats": [
       {
         "key": "reduce-ac",
@@ -324,6 +329,7 @@
       "zh-CN": "Ith"
     },
     "levelReq": 15,
+    "invFile": "invrIth",
     "weaponStats": [
       {
         "key": "dmg-max",
@@ -380,6 +386,7 @@
       "zh-CN": "Tal"
     },
     "levelReq": 17,
+    "invFile": "invrTal",
     "weaponStats": [
       {
         "key": "dmg-pois",
@@ -436,6 +443,7 @@
       "zh-CN": "Ral"
     },
     "levelReq": 19,
+    "invFile": "invrRal",
     "weaponStats": [
       {
         "key": "dmg-fire",
@@ -492,6 +500,7 @@
       "zh-CN": "Ort"
     },
     "levelReq": 21,
+    "invFile": "invrOrt",
     "weaponStats": [
       {
         "key": "dmg-ltng",
@@ -548,6 +557,7 @@
       "zh-CN": "Thul"
     },
     "levelReq": 23,
+    "invFile": "invrThul",
     "weaponStats": [
       {
         "key": "dmg-cold",
@@ -604,6 +614,7 @@
       "zh-CN": "Amn"
     },
     "levelReq": 25,
+    "invFile": "invrAmn",
     "weaponStats": [
       {
         "key": "lifesteal",
@@ -660,6 +671,7 @@
       "zh-CN": "Sol"
     },
     "levelReq": 27,
+    "invFile": "invrSol",
     "weaponStats": [
       {
         "key": "dmg-min",
@@ -716,6 +728,7 @@
       "zh-CN": "Shael"
     },
     "levelReq": 29,
+    "invFile": "invrShae",
     "weaponStats": [
       {
         "key": "swing2",
@@ -772,6 +785,7 @@
       "zh-CN": "Dol"
     },
     "levelReq": 31,
+    "invFile": "invrDol",
     "weaponStats": [
       {
         "key": "howl",
@@ -828,6 +842,7 @@
       "zh-CN": "Hel"
     },
     "levelReq": 0,
+    "invFile": "invrHel",
     "weaponStats": [
       {
         "key": "ease",
@@ -884,6 +899,7 @@
       "zh-CN": "Io"
     },
     "levelReq": 35,
+    "invFile": "invrIo",
     "weaponStats": [
       {
         "key": "vit",
@@ -940,6 +956,7 @@
       "zh-CN": "Lum"
     },
     "levelReq": 37,
+    "invFile": "invrLum",
     "weaponStats": [
       {
         "key": "enr",
@@ -996,6 +1013,7 @@
       "zh-CN": "Ko"
     },
     "levelReq": 39,
+    "invFile": "invrKo",
     "weaponStats": [
       {
         "key": "dex",
@@ -1052,6 +1070,7 @@
       "zh-CN": "Fal"
     },
     "levelReq": 41,
+    "invFile": "invrFal",
     "weaponStats": [
       {
         "key": "str",
@@ -1108,6 +1127,7 @@
       "zh-CN": "Lem"
     },
     "levelReq": 43,
+    "invFile": "invrLem",
     "weaponStats": [
       {
         "key": "gold%",
@@ -1164,6 +1184,7 @@
       "zh-CN": "Pul"
     },
     "levelReq": 45,
+    "invFile": "invrPul",
     "weaponStats": [
       {
         "key": "att-demon",
@@ -1230,6 +1251,7 @@
       "zh-CN": "Um"
     },
     "levelReq": 47,
+    "invFile": "invrUm",
     "weaponStats": [
       {
         "key": "openwounds",
@@ -1286,6 +1308,7 @@
       "zh-CN": "Mal"
     },
     "levelReq": 49,
+    "invFile": "invrMal",
     "weaponStats": [
       {
         "key": "noheal",
@@ -1342,6 +1365,7 @@
       "zh-CN": "Ist"
     },
     "levelReq": 51,
+    "invFile": "invrIst",
     "weaponStats": [
       {
         "key": "mag%",
@@ -1398,6 +1422,7 @@
       "zh-CN": "Gul"
     },
     "levelReq": 53,
+    "invFile": "invrGul",
     "weaponStats": [
       {
         "key": "att%",
@@ -1454,6 +1479,7 @@
       "zh-CN": "Vex"
     },
     "levelReq": 55,
+    "invFile": "invrVex",
     "weaponStats": [
       {
         "key": "manasteal",
@@ -1510,6 +1536,7 @@
       "zh-CN": "Ohm"
     },
     "levelReq": 57,
+    "invFile": "invrOhm",
     "weaponStats": [
       {
         "key": "dmg%",
@@ -1566,6 +1593,7 @@
       "zh-CN": "Lo"
     },
     "levelReq": 59,
+    "invFile": "invrLo",
     "weaponStats": [
       {
         "key": "deadly",
@@ -1622,6 +1650,7 @@
       "zh-CN": "Sur"
     },
     "levelReq": 61,
+    "invFile": "invrSur",
     "weaponStats": [
       {
         "key": "stupidity",
@@ -1678,6 +1707,7 @@
       "zh-CN": "Ber"
     },
     "levelReq": 63,
+    "invFile": "invrBer",
     "weaponStats": [
       {
         "key": "crush",
@@ -1734,6 +1764,7 @@
       "zh-CN": "Jah"
     },
     "levelReq": 65,
+    "invFile": "invrJo",
     "weaponStats": [
       {
         "key": "ignore-ac",
@@ -1790,6 +1821,7 @@
       "zh-CN": "Cham"
     },
     "levelReq": 67,
+    "invFile": "invrCham",
     "weaponStats": [
       {
         "key": "freeze",
@@ -1846,6 +1878,7 @@
       "zh-CN": "Zod"
     },
     "levelReq": 69,
+    "invFile": "invrZod",
     "weaponStats": [
       {
         "key": "indestruct",
