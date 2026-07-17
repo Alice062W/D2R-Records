@@ -279,6 +279,12 @@ _Spec: [docs/superpowers/specs/2026-07-17-summoner-theme-restyle-design.md](../d
 - [x] Cinzel font on nav/tab chrome components
 - [x] Full verification + spot-check — found + fixed a font-cinzel Tailwind namespace bug
 
+### Icon BasePath Fix
+_Spec: [docs/superpowers/specs/2026-07-17-icon-basepath-fix-design.md](../docs/superpowers/specs/2026-07-17-icon-basepath-fix-design.md) · Plan: [plans/icon-basepath-fix-implementation.md](./icon-basepath-fix-implementation.md)_
+
+- [ ] BasePath helper + wire into all 10 icon-rendering files
+- [ ] Full verification + spot-check
+
 ## Backlog / Ideas
 
 - Batch appraisal (multiple items at once) — premium feature
