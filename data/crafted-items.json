@@ -12,6 +12,7 @@
       "zh-TW": "Magic Full Helm",
       "zh-CN": "Magic Full Helm"
     },
+    "magicItemInputIcon": "invfhl",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -28,6 +29,11 @@
         "zh-TW": "Perfect Sapphire",
         "zh-CN": "Perfect Sapphire"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrIth",
+      "invgsbe"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -76,6 +82,7 @@
       "zh-TW": "Magic Chain Boots",
       "zh-CN": "Magic Chain Boots"
     },
+    "magicItemInputIcon": "invmbt",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -92,6 +99,11 @@
         "zh-TW": "Perfect Sapphire",
         "zh-CN": "Perfect Sapphire"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrRal",
+      "invgsbe"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -140,6 +152,7 @@
       "zh-TW": "Magic Chain Gloves",
       "zh-CN": "Magic Chain Gloves"
     },
+    "magicItemInputIcon": "invmgl",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -156,6 +169,11 @@
         "zh-TW": "Perfect Sapphire",
         "zh-CN": "Perfect Sapphire"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrOrt",
+      "invgsbe"
     ],
     "fixedProperties": [
       {
@@ -204,6 +222,7 @@
       "zh-TW": "Magic Heavy Belt",
       "zh-CN": "Magic Heavy Belt"
     },
+    "magicItemInputIcon": "invtbl",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -220,6 +239,11 @@
         "zh-TW": "Perfect Sapphire",
         "zh-CN": "Perfect Sapphire"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrTal",
+      "invgsbe"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -268,6 +292,7 @@
       "zh-TW": "Magic Gothic Shield",
       "zh-CN": "Magic Gothic Shield"
     },
+    "magicItemInputIcon": "invgts",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -284,6 +309,11 @@
         "zh-TW": "Perfect Sapphire",
         "zh-CN": "Perfect Sapphire"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrEth",
+      "invgsbe"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -332,6 +362,7 @@
       "zh-TW": "Magic Field Plate",
       "zh-CN": "Magic Field Plate"
     },
+    "magicItemInputIcon": "invfld",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -348,6 +379,11 @@
         "zh-TW": "Perfect Sapphire",
         "zh-CN": "Perfect Sapphire"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrNef",
+      "invgsbe"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -396,6 +432,7 @@
       "zh-TW": "Magic Amulet",
       "zh-CN": "Magic Amulet"
     },
+    "magicItemInputIcon": "invamu",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -412,6 +449,11 @@
         "zh-TW": "Perfect Sapphire",
         "zh-CN": "Perfect Sapphire"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrThul",
+      "invgsbe"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -460,6 +502,7 @@
       "zh-TW": "Magic Ring",
       "zh-CN": "Magic Ring"
     },
+    "magicItemInputIcon": "invrin",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -476,6 +519,11 @@
         "zh-TW": "Perfect Sapphire",
         "zh-CN": "Perfect Sapphire"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrAmn",
+      "invgsbe"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -524,6 +572,7 @@
       "zh-TW": "Magic Blunt Weapon",
       "zh-CN": "Magic Blunt Weapon"
     },
+    "magicItemInputIcon": null,
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -540,6 +589,11 @@
         "zh-TW": "Perfect Sapphire",
         "zh-CN": "Perfect Sapphire"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrTir",
+      "invgsbe"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -588,6 +642,7 @@
       "zh-TW": "Magic Helm",
       "zh-CN": "Magic Helm"
     },
+    "magicItemInputIcon": "invhlm",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -604,6 +659,11 @@
         "zh-TW": "Perfect Ruby",
         "zh-CN": "Perfect Ruby"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrRal",
+      "invgsre"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -652,6 +712,7 @@
       "zh-TW": "Magic Light Plated Boots",
       "zh-CN": "Magic Light Plated Boots"
     },
+    "magicItemInputIcon": "invtbt",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -668,6 +729,11 @@
         "zh-TW": "Perfect Ruby",
         "zh-CN": "Perfect Ruby"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrEth",
+      "invgsre"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -716,6 +782,7 @@
       "zh-TW": "Magic Heavy Gloves",
       "zh-CN": "Magic Heavy Gloves"
     },
+    "magicItemInputIcon": "invvgl",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -732,6 +799,11 @@
         "zh-TW": "Perfect Ruby",
         "zh-CN": "Perfect Ruby"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrNef",
+      "invgsre"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -780,6 +852,7 @@
       "zh-TW": "Magic Belt",
       "zh-CN": "Magic Belt"
     },
+    "magicItemInputIcon": "invmbl",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -796,6 +869,11 @@
         "zh-TW": "Perfect Ruby",
         "zh-CN": "Perfect Ruby"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrTal",
+      "invgsre"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -844,6 +922,7 @@
       "zh-TW": "Magic Spiked Shield",
       "zh-CN": "Magic Spiked Shield"
     },
+    "magicItemInputIcon": "invspk",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -860,6 +939,11 @@
         "zh-TW": "Perfect Ruby",
         "zh-CN": "Perfect Ruby"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrIth",
+      "invgsre"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -908,6 +992,7 @@
       "zh-TW": "Magic Plate Mail",
       "zh-CN": "Magic Plate Mail"
     },
+    "magicItemInputIcon": "invplt",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -924,6 +1009,11 @@
         "zh-TW": "Perfect Ruby",
         "zh-CN": "Perfect Ruby"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrThul",
+      "invgsre"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -972,6 +1062,7 @@
       "zh-TW": "Magic Amulet",
       "zh-CN": "Magic Amulet"
     },
+    "magicItemInputIcon": "invamu",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -988,6 +1079,11 @@
         "zh-TW": "Perfect Ruby",
         "zh-CN": "Perfect Ruby"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrAmn",
+      "invgsre"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -1036,6 +1132,7 @@
       "zh-TW": "Magic Ring",
       "zh-CN": "Magic Ring"
     },
+    "magicItemInputIcon": "invrin",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -1052,6 +1149,11 @@
         "zh-TW": "Perfect Ruby",
         "zh-CN": "Perfect Ruby"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrSol",
+      "invgsre"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -1100,6 +1202,7 @@
       "zh-TW": "Magic Axe",
       "zh-CN": "Magic Axe"
     },
+    "magicItemInputIcon": "invhax",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -1116,6 +1219,11 @@
         "zh-TW": "Perfect Ruby",
         "zh-CN": "Perfect Ruby"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrOrt",
+      "invgsre"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -1164,6 +1272,7 @@
       "zh-TW": "Magic Mask",
       "zh-CN": "Magic Mask"
     },
+    "magicItemInputIcon": "invmsk",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -1180,6 +1289,11 @@
         "zh-TW": "Perfect Amethyst",
         "zh-CN": "Perfect Amethyst"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrNef",
+      "invgsve"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -1228,6 +1342,7 @@
       "zh-TW": "Magic Boots",
       "zh-CN": "Magic Boots"
     },
+    "magicItemInputIcon": "invlbt",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -1244,6 +1359,11 @@
         "zh-TW": "Perfect Amethyst",
         "zh-CN": "Perfect Amethyst"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrThul",
+      "invgsve"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -1292,6 +1412,7 @@
       "zh-TW": "Magic Leather Gloves",
       "zh-CN": "Magic Leather Gloves"
     },
+    "magicItemInputIcon": "invlgl",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -1308,6 +1429,11 @@
         "zh-TW": "Perfect Amethyst",
         "zh-CN": "Perfect Amethyst"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrOrt",
+      "invgsve"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -1356,6 +1482,7 @@
       "zh-TW": "Magic Light Belt",
       "zh-CN": "Magic Light Belt"
     },
+    "magicItemInputIcon": "invvbl",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -1372,6 +1499,11 @@
         "zh-TW": "Perfect Amethyst",
         "zh-CN": "Perfect Amethyst"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrIth",
+      "invgsve"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -1420,6 +1552,7 @@
       "zh-TW": "Magic Small Shield",
       "zh-CN": "Magic Small Shield"
     },
+    "magicItemInputIcon": "invsml",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -1436,6 +1569,11 @@
         "zh-TW": "Perfect Amethyst",
         "zh-CN": "Perfect Amethyst"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrEth",
+      "invgsve"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -1484,6 +1622,7 @@
       "zh-TW": "Magic Light Plate",
       "zh-CN": "Magic Light Plate"
     },
+    "magicItemInputIcon": "invltp",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -1500,6 +1639,11 @@
         "zh-TW": "Perfect Amethyst",
         "zh-CN": "Perfect Amethyst"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrTal",
+      "invgsve"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -1548,6 +1692,7 @@
       "zh-TW": "Magic Amulet",
       "zh-CN": "Magic Amulet"
     },
+    "magicItemInputIcon": "invamu",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -1564,6 +1709,11 @@
         "zh-TW": "Perfect Amethyst",
         "zh-CN": "Perfect Amethyst"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrRal",
+      "invgsve"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -1612,6 +1762,7 @@
       "zh-TW": "Magic Ring",
       "zh-CN": "Magic Ring"
     },
+    "magicItemInputIcon": "invrin",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -1628,6 +1779,11 @@
         "zh-TW": "Perfect Amethyst",
         "zh-CN": "Perfect Amethyst"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrAmn",
+      "invgsve"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -1676,6 +1832,7 @@
       "zh-TW": "Magic Rod",
       "zh-CN": "Magic Rod"
     },
+    "magicItemInputIcon": "invsst",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -1692,6 +1849,11 @@
         "zh-TW": "Perfect Amethyst",
         "zh-CN": "Perfect Amethyst"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrTir",
+      "invgsve"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -1740,6 +1902,7 @@
       "zh-TW": "Magic Crown",
       "zh-CN": "Magic Crown"
     },
+    "magicItemInputIcon": "invcrn",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -1756,6 +1919,11 @@
         "zh-TW": "Perfect Emerald",
         "zh-CN": "Perfect Emerald"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrIth",
+      "invgsge"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -1804,6 +1972,7 @@
       "zh-TW": "Magic Plated Boots",
       "zh-CN": "Magic Plated Boots"
     },
+    "magicItemInputIcon": "invhbt",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -1820,6 +1989,11 @@
         "zh-TW": "Perfect Emerald",
         "zh-CN": "Perfect Emerald"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrOrt",
+      "invgsge"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -1868,6 +2042,7 @@
       "zh-TW": "Magic Gauntlets",
       "zh-CN": "Magic Gauntlets"
     },
+    "magicItemInputIcon": "invhgl",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -1884,6 +2059,11 @@
         "zh-TW": "Perfect Emerald",
         "zh-CN": "Perfect Emerald"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrRal",
+      "invgsge"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -1932,6 +2112,7 @@
       "zh-TW": "Magic Sash",
       "zh-CN": "Magic Sash"
     },
+    "magicItemInputIcon": "invlbl",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -1948,6 +2129,11 @@
         "zh-TW": "Perfect Emerald",
         "zh-CN": "Perfect Emerald"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrTal",
+      "invgsge"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -1996,6 +2182,7 @@
       "zh-TW": "Magic Kite Shield",
       "zh-CN": "Magic Kite Shield"
     },
+    "magicItemInputIcon": "invkit",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -2012,6 +2199,11 @@
         "zh-TW": "Perfect Emerald",
         "zh-CN": "Perfect Emerald"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrNef",
+      "invgsge"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -2060,6 +2252,7 @@
       "zh-TW": "Magic Breast Plate",
       "zh-CN": "Magic Breast Plate"
     },
+    "magicItemInputIcon": "invbrs",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -2076,6 +2269,11 @@
         "zh-TW": "Perfect Emerald",
         "zh-CN": "Perfect Emerald"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrEth",
+      "invgsge"
     ],
     "fixedProperties": [
       {
@@ -2124,6 +2322,7 @@
       "zh-TW": "Magic Amulet",
       "zh-CN": "Magic Amulet"
     },
+    "magicItemInputIcon": "invamu",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -2140,6 +2339,11 @@
         "zh-TW": "Perfect Emerald",
         "zh-CN": "Perfect Emerald"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrThul",
+      "invgsge"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -2188,6 +2392,7 @@
       "zh-TW": "Magic Ring",
       "zh-CN": "Magic Ring"
     },
+    "magicItemInputIcon": "invrin",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -2204,6 +2409,11 @@
         "zh-TW": "Perfect Emerald",
         "zh-CN": "Perfect Emerald"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrAmn",
+      "invgsge"
     ],
     "fixedProperties": [],
     "variableProperties": [
@@ -2252,6 +2462,7 @@
       "zh-TW": "Magic Spear",
       "zh-CN": "Magic Spear"
     },
+    "magicItemInputIcon": "invspr",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -2268,6 +2479,11 @@
         "zh-TW": "Perfect Emerald",
         "zh-CN": "Perfect Emerald"
       }
+    ],
+    "additionalInputIcons": [
+      "invgswe",
+      "invrSol",
+      "invgsge"
     ],
     "fixedProperties": [],
     "variableProperties": [

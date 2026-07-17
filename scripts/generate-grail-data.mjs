@@ -1120,12 +1120,19 @@ const craftedItemsOut = Object.entries(cubeMainData)
     // Split on " -> " for the output name, and on " + " for the input list.
     const [inputsPart, outputName] = v.description.split(' -> ');
     const inputParts = inputsPart.split(' + ').map(p => p.replace(/^\d+\s*/, ''));
+    const rawInputs = [];
+    for (let n = 1; n <= 7; n++) {
+      if (v[`input ${n}`] === undefined) break;
+      rawInputs.push(v[`input ${n}`]);
+    }
     return {
       id: `craft-${id}`,
       name: localizedItemName(outputName),
       family: CRAFT_FAMILY_BY_ID[id],
       magicItemInput: localizedItemName(inputParts[0]),
+      magicItemInputIcon: resolveIconFor(rawInputs[0]),
       additionalInputs: inputParts.slice(1).map(localizedItemName),
+      additionalInputIcons: rawInputs.slice(1).map(resolveIconFor),
       fixedProperties: fixed,
       variableProperties: variable,
     };

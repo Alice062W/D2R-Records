@@ -1,3 +1,6 @@
+'use client';
+
+import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import type craftedItemsJson from '../../../data/crafted-items.json';
 
@@ -5,6 +8,21 @@ type CraftedItem = (typeof craftedItemsJson)[number];
 type Locale = 'en' | 'zh-TW' | 'zh-CN';
 
 const FAMILY_ORDER = ['hitPower', 'blood', 'caster', 'safety'] as const;
+
+function CraftIcon({ invFile, size = 'w-8 h-8' }: { invFile: string | null; size?: string }) {
+  const [iconFailed, setIconFailed] = useState(false);
+  if (!invFile || iconFailed) return null;
+  return (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      src={`/items/inv/${invFile}.png`}
+      alt=""
+      aria-hidden="true"
+      className={`${size} object-contain inline-block shrink-0`}
+      onError={() => setIconFailed(true)}
+    />
+  );
+}
 
 export default function CraftedItemList({ items, locale }: { items: CraftedItem[]; locale: Locale }) {
   const t = useTranslations('Items');
@@ -22,12 +40,21 @@ export default function CraftedItemList({ items, locale }: { items: CraftedItem[
             <div className="flex flex-col gap-3">
               {familyItems.map(item => (
                 <div key={item.id} className="bg-zinc-900 border border-zinc-700 rounded-xl p-6">
-                  <h3 className="text-lg font-bold text-[#cbb87f]">{item.name[locale]}</h3>
-                  <div className="mt-2 text-sm text-zinc-300">
-                    {t('craftedItemsInputLabel')}: {item.magicItemInput[locale]}
+                  <div className="flex items-center gap-2">
+                    <CraftIcon invFile={item.magicItemInputIcon} />
+                    <h3 className="text-lg font-bold text-[#cbb87f]">{item.name[locale]}</h3>
                   </div>
-                  <div className="text-sm text-zinc-300">
-                    {t('craftedItemsAdditionalInputsLabel')}: {item.additionalInputs.map(i => i[locale]).join(', ')}
+                  <div className="mt-2 text-sm text-zinc-300 flex items-center gap-2">
+                    {t('craftedItemsInputLabel')}: <CraftIcon invFile={item.magicItemInputIcon} size="w-5 h-5" /> {item.magicItemInput[locale]}
+                  </div>
+                  <div className="text-sm text-zinc-300 flex items-center gap-1 flex-wrap">
+                    {t('craftedItemsAdditionalInputsLabel')}:
+                    {item.additionalInputs.map((input, i) => (
+                      <span key={`${input[locale]}-${i}`} className="flex items-center gap-1">
+                        <CraftIcon invFile={item.additionalInputIcons[i]} size="w-5 h-5" />
+                        {input[locale]}{i < item.additionalInputs.length - 1 ? ',' : ''}
+                      </span>
+                    ))}
                   </div>
                   {item.fixedProperties.length > 0 && (
                     <div className="mt-3">

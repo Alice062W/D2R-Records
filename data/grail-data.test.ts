@@ -436,6 +436,23 @@ describe('crafted-items.json', () => {
     expect(helm.variableProperties.length).toBe(3);
     expect(helm.additionalInputs.map(i => i.en)).toEqual(['Jewel', 'Ith Rune', 'Perfect Sapphire']);
   });
+
+  it('Hit Power Helm resolves magicItemInputIcon and additionalInputIcons in order (Jewel, Ith Rune, Perfect Sapphire)', () => {
+    const helm = craftedItemsData.find(c => c.name.en === 'Hit Power Helm')!;
+    expect(helm.magicItemInputIcon).toBe('invfhl');
+    expect(helm.additionalInputIcons).toEqual(['invgswe', 'invrIth', 'invgsbe']);
+  });
+
+  it('every resolved icon across all crafted items corresponds to a real file in public/items/inv', () => {
+    for (const c of craftedItemsData) {
+      if (c.magicItemInputIcon) {
+        expect(existsSync(join(process.cwd(), 'public/items/inv', `${c.magicItemInputIcon}.png`))).toBe(true);
+      }
+      for (const icon of c.additionalInputIcons) {
+        if (icon) expect(existsSync(join(process.cwd(), 'public/items/inv', `${icon}.png`))).toBe(true);
+      }
+    }
+  });
 });
 
 describe('magic-affixes.json', () => {

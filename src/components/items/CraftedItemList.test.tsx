@@ -28,4 +28,32 @@ describe('CraftedItemList', () => {
     // fixedProperties is empty.
     expect(screen.getAllByText(/Attacker Takes Damage/).length).toBeGreaterThan(0);
   });
+
+  it('renders the magic-item-input icon next to the name, and one icon per additional input', () => {
+    const item = {
+      id: 'craft-64',
+      name: { en: 'Hit Power Helm', 'zh-TW': 'x', 'zh-CN': 'x' },
+      family: 'hitPower' as const,
+      magicItemInput: { en: 'Magic Full Helm', 'zh-TW': 'x', 'zh-CN': 'x' },
+      magicItemInputIcon: 'invfhl',
+      additionalInputs: [
+        { en: 'Jewel', 'zh-TW': 'x', 'zh-CN': 'x' },
+        { en: 'Ith Rune', 'zh-TW': 'x', 'zh-CN': 'x' },
+        { en: 'Perfect Sapphire', 'zh-TW': 'x', 'zh-CN': 'x' },
+      ],
+      additionalInputIcons: ['invgswe', 'invrIth', 'invgsbe'],
+      fixedProperties: [],
+      variableProperties: [],
+    };
+    const { container } = render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <CraftedItemList items={[item]} locale="en" />
+      </NextIntlClientProvider>
+    );
+    const srcs = Array.from(container.querySelectorAll('img')).map(i => (i as HTMLImageElement).src);
+    expect(srcs.some(s => s.includes('invfhl'))).toBe(true);
+    expect(srcs.some(s => s.includes('invgswe'))).toBe(true);
+    expect(srcs.some(s => s.includes('invrIth'))).toBe(true);
+    expect(srcs.some(s => s.includes('invgsbe'))).toBe(true);
+  });
 });
