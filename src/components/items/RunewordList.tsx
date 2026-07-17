@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import type runewordsFullJson from '../../../data/runewords-full.json';
+import { BASE_PATH } from '@/lib/basePath';
 
 type Runeword = (typeof runewordsFullJson)[number];
 
@@ -12,7 +13,7 @@ function RuneIcon({ invFile }: { invFile: string }) {
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
-      src={`/items/inv/${invFile}.png`}
+      src={`${BASE_PATH}/items/inv/${invFile}.png`}
       alt=""
       aria-hidden="true"
       className="w-6 h-6 object-contain inline-block"

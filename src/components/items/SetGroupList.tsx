@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import { BASE_PATH } from '@/lib/basePath';
 
 function GroupIcon({ invFile }: { invFile: string }) {
   const [iconFailed, setIconFailed] = useState(false);
@@ -9,7 +10,7 @@ function GroupIcon({ invFile }: { invFile: string }) {
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
-      src={`/items/inv/${invFile}.png`}
+      src={`${BASE_PATH}/items/inv/${invFile}.png`}
       alt=""
       aria-hidden="true"
       className="w-10 h-10 object-contain shrink-0"

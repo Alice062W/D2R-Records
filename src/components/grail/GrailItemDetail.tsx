@@ -6,6 +6,7 @@ import { useTranslations } from 'next-intl';
 import type { GrailItem } from '@/lib/grail/catalog';
 import type { FindRecord } from '@/lib/grail/findsApi';
 import { sortFindsByRank } from '@/lib/grail/bestCopy';
+import { BASE_PATH } from '@/lib/basePath';
 
 // Authentic D2 item-rarity text colors (verified against d2r.world's computed styles).
 const NAME_COLOR: Record<GrailItem['kind'], string> = {
@@ -39,7 +40,7 @@ export default function GrailItemDetail({
         {item.invFile && !iconFailed && (
           // eslint-disable-next-line @next/next/no-img-element
           <img
-            src={`/items/inv/${item.invFile}.png`}
+            src={`${BASE_PATH}/items/inv/${item.invFile}.png`}
             alt=""
             aria-hidden="true"
             className="w-20 h-20 object-contain shrink-0"

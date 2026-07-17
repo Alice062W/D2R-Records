@@ -14,6 +14,11 @@ const nextConfig: NextConfig = {
   images: { unoptimized: true },
   basePath,
   assetPrefix: basePath ? `${basePath}/` : undefined,
+  env: {
+    // Exposes the same basePath to plain <img>/<Image> src strings that Next's own
+    // routing/asset pipeline already handles automatically — see src/lib/basePath.ts.
+    NEXT_PUBLIC_BASE_PATH: basePath,
+  },
 };
 
 export default withNextIntl(nextConfig);

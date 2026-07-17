@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import type craftedItemsJson from '../../../data/crafted-items.json';
+import { BASE_PATH } from '@/lib/basePath';
 
 type CraftedItem = (typeof craftedItemsJson)[number];
 type Locale = 'en' | 'zh-TW' | 'zh-CN';
@@ -15,7 +16,7 @@ function CraftIcon({ invFile, size = 'w-8 h-8' }: { invFile: string | null; size
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
-      src={`/items/inv/${invFile}.png`}
+      src={`${BASE_PATH}/items/inv/${invFile}.png`}
       alt=""
       aria-hidden="true"
       className={`${size} object-contain inline-block shrink-0`}

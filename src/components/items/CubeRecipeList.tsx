@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import type cubeRecipesJson from '../../../data/cube-recipes.json';
+import { BASE_PATH } from '@/lib/basePath';
 
 type Recipe = (typeof cubeRecipesJson)[number];
 type Locale = 'en' | 'zh-TW' | 'zh-CN';
@@ -18,7 +19,7 @@ function RecipeIcon({ invFile }: { invFile: string }) {
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
-      src={`/items/inv/${invFile}.png`}
+      src={`${BASE_PATH}/items/inv/${invFile}.png`}
       alt=""
       aria-hidden="true"
       className="w-6 h-6 object-contain inline-block"

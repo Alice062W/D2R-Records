@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { appraise, getAllBases, type AppraiseResult } from '@/lib/appraise';
+import { BASE_PATH } from '@/lib/basePath';
 
 const BASES = getAllBases();
 
@@ -72,7 +73,7 @@ export default function AppraiserForm() {
         {selectedBase && (
           <div className="flex items-center gap-3 py-1">
             <Image
-              src={`/items/${selectedBase.code}.png`}
+              src={`${BASE_PATH}/items/${selectedBase.code}.png`}
               alt={selectedBase.name}
               width={40}
               height={40}
@@ -141,7 +142,7 @@ export default function AppraiserForm() {
           <div className="flex items-center gap-3 mb-4">
             {selectedBase && (
               <Image
-                src={`/items/${selectedBase.code}.png`}
+                src={`${BASE_PATH}/items/${selectedBase.code}.png`}
                 alt={selectedBase.name}
                 width={36}
                 height={36}

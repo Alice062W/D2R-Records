@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import type { BaseLine, BaseGrade } from '@/lib/grail/basesCatalog';
+import { BASE_PATH } from '@/lib/basePath';
 
 const GRADES = ['normal', 'exceptional', 'elite'] as const;
 
@@ -24,7 +25,7 @@ export default function BaseItemTable({ line }: { line: BaseLine }) {
         {line.invFile && !iconFailed && (
           // eslint-disable-next-line @next/next/no-img-element
           <img
-            src={`/items/inv/${line.invFile}.png`}
+            src={`${BASE_PATH}/items/inv/${line.invFile}.png`}
             alt=""
             aria-hidden="true"
             className="w-12 h-12 object-contain shrink-0"
