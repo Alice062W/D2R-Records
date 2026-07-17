@@ -639,6 +639,28 @@ for (const [slug, code] of Object.entries(MAGIC_ONLY_CATEGORY_ICON_CODES)) {
 writeFileSync(join(OUT, 'category-icons.json'), JSON.stringify(categoryIconsOut, null, 2));
 console.log(`Wrote ${Object.keys(categoryIconsOut).length} category icons -> data/category-icons.json`);
 
+// Resolves a raw cubemain.json input/output field (e.g. `"rin,mag,pre=372"`, `axe`,
+// `hst`) to one of this project's own already-extracted icon files in
+// public/items/inv/ — never by downloading or embedding an image from elsewhere.
+// Returns null for genuinely-unresolvable codes (broad supertypes, gem/potion
+// quality-tier-only codes, quest/portal display names, and the dynamic
+// usetype/useitem/any keywords) rather than guessing a representative icon.
+const CUBE_TYPE_ALIASES = { shld: 'shie', rod: 'staf' };
+
+function resolveIconFor(rawField) {
+  if (!rawField) return null;
+  const code = rawField.replace(/^"|"$/g, '').split(',')[0];
+  // Check the type->slot mapping first: a handful of D2 item-type codes (e.g. "axe")
+  // also happen to be the code of an actual craftable base item ("Axe" itself), so a
+  // naive direct-lookup-first order would resolve a generic "Axe (Any)" cube input to
+  // that one specific item's icon instead of the category's representative icon.
+  const aliased = CUBE_TYPE_ALIASES[code] ?? code;
+  const slot = TYPE_TO_SLOT[aliased];
+  if (slot && categoryIconsOut[slot]) return categoryIconsOut[slot];
+  if (items[code]?.invfile) return items[code].invfile;
+  return null;
+}
+
 writeFileSync(join(OUT, 'uniques.json'), JSON.stringify(uniquesOut, null, 2));
 writeFileSync(join(OUT, 'sets.json'), JSON.stringify(setsOut, null, 2));
 
@@ -1061,11 +1083,20 @@ const CRAFT_RECIPE_IDS = new Set(Array.from({ length: 36 }, (_, i) => 64 + i)); 
 
 const cubeRecipesOut = Object.entries(cubeMainData)
   .filter(([id, v]) => (v.enabled === 1 || RECIPE_CATEGORY[id] === 'craftedGrandCharm') && !CRAFT_RECIPE_IDS.has(Number(id)))
-  .map(([id, v]) => ({
-    id: `recipe-${id}`,
-    description: localizedItemName(v.description),
-    category: RECIPE_CATEGORY[id] ?? (() => { throw new Error(`Unclassified cube recipe id ${id}: "${v.description}"`); })(),
-  }));
+  .map(([id, v]) => {
+    const ingredientIcons = [];
+    for (let n = 1; n <= 7; n++) {
+      const icon = resolveIconFor(v[`input ${n}`]);
+      if (icon && !ingredientIcons.includes(icon)) ingredientIcons.push(icon);
+    }
+    return {
+      id: `recipe-${id}`,
+      description: localizedItemName(v.description),
+      category: RECIPE_CATEGORY[id] ?? (() => { throw new Error(`Unclassified cube recipe id ${id}: "${v.description}"`); })(),
+      ingredientIcons,
+      outputIcon: resolveIconFor(v.output),
+    };
+  });
 
 writeFileSync(join(OUT, 'cube-recipes.json'), JSON.stringify(cubeRecipesOut, null, 2));
 console.log(`Wrote ${cubeRecipesOut.length} cube recipes -> data/cube-recipes.json`);

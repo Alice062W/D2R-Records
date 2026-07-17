@@ -6,7 +6,12 @@
       "zh-TW": "Staff of Kings + Amulet of the Viper -> Horadric Staff",
       "zh-CN": "Staff of Kings + Amulet of the Viper -> Horadric Staff"
     },
-    "category": "quests"
+    "category": "quests",
+    "ingredientIcons": [
+      "invmsf",
+      "invvip"
+    ],
+    "outputIcon": "invhst"
   },
   {
     "id": "recipe-1",
@@ -15,7 +20,14 @@
       "zh-TW": "Khalim's Flail + Khalim's Heart + Khalim's Eye + Khalim's Brain -> Khalim's Will",
       "zh-CN": "Khalim's Flail + Khalim's Heart + Khalim's Eye + Khalim's Brain -> Khalim's Will"
     },
-    "category": "quests"
+    "category": "quests",
+    "ingredientIcons": [
+      "invqf1",
+      "invhrt",
+      "inveye",
+      "invbrnz"
+    ],
+    "outputIcon": "invqf2"
   },
   {
     "id": "recipe-2",
@@ -24,7 +36,12 @@
       "zh-TW": "Wirt's Leg + Tome of Town Portal -> Portal to The Secret Cow Level",
       "zh-CN": "Wirt's Leg + Tome of Town Portal -> Portal to The Secret Cow Level"
     },
-    "category": "quests"
+    "category": "quests",
+    "ingredientIcons": [
+      "invleg",
+      "invbbk"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-3",
@@ -33,7 +50,9 @@
       "zh-TW": "3 Healing Potions (Any) + 3 Mana Potions (Any) + 1 Standard Gem (Any) -> Full Rejuvenation Potion",
       "zh-CN": "3 Healing Potions (Any) + 3 Mana Potions (Any) + 1 Standard Gem (Any) -> Full Rejuvenation Potion"
     },
-    "category": "consumables"
+    "category": "consumables",
+    "ingredientIcons": [],
+    "outputIcon": "invvpl"
   },
   {
     "id": "recipe-4",
@@ -42,7 +61,9 @@
       "zh-TW": "3 Healing Potions (Any) + 3 Mana Potions (Any)  + 1 Chipped Gem (Any) -> Rejuvenation Potion",
       "zh-CN": "3 Healing Potions (Any) + 3 Mana Potions (Any)  + 1 Chipped Gem (Any) -> Rejuvenation Potion"
     },
-    "category": "consumables"
+    "category": "consumables",
+    "ingredientIcons": [],
+    "outputIcon": "invvps"
   },
   {
     "id": "recipe-5",
@@ -51,7 +72,11 @@
       "zh-TW": "3 Rejuvenation Potions -> Full Rejuvenation Potion",
       "zh-CN": "3 Rejuvenation Potions -> Full Rejuvenation Potion"
     },
-    "category": "consumables"
+    "category": "consumables",
+    "ingredientIcons": [
+      "invvps"
+    ],
+    "outputIcon": "invvpl"
   },
   {
     "id": "recipe-6",
@@ -60,7 +85,17 @@
       "zh-TW": "6 Perfect Gems (1 of each type) + 1 Magic Amulet -> Prismatic Amulet",
       "zh-CN": "6 Perfect Gems (1 of each type) + 1 Magic Amulet -> Prismatic Amulet"
     },
-    "category": "magicItemCreation"
+    "category": "magicItemCreation",
+    "ingredientIcons": [
+      "invamu",
+      "invgsve",
+      "invgsye",
+      "invgsbe",
+      "invgsge",
+      "invgsre",
+      "invgswe"
+    ],
+    "outputIcon": "invamu"
   },
   {
     "id": "recipe-7",
@@ -69,7 +104,13 @@
       "zh-TW": "1 Magic Ring + 1 Perfect Ruby + 1 Exploding Potion -> Garnet Ring",
       "zh-CN": "1 Magic Ring + 1 Perfect Ruby + 1 Exploding Potion -> Garnet Ring"
     },
-    "category": "magicItemCreation"
+    "category": "magicItemCreation",
+    "ingredientIcons": [
+      "invrin",
+      "invgsre",
+      "invopm"
+    ],
+    "outputIcon": "invrin"
   },
   {
     "id": "recipe-8",
@@ -78,7 +119,13 @@
       "zh-TW": "1 Magic Ring + 1 Perfect Sapphire + 1 Thawing Potion -> Cobalt Ring",
       "zh-CN": "1 Magic Ring + 1 Perfect Sapphire + 1 Thawing Potion -> Cobalt Ring"
     },
-    "category": "magicItemCreation"
+    "category": "magicItemCreation",
+    "ingredientIcons": [
+      "invrin",
+      "invgsbe",
+      "invyps"
+    ],
+    "outputIcon": "invrin"
   },
   {
     "id": "recipe-9",
@@ -87,7 +134,13 @@
       "zh-TW": "1 Magic Ring + 1 Perfect Topaz + 1 Rejuvenation Potion -> Coral Ring",
       "zh-CN": "1 Magic Ring + 1 Perfect Topaz + 1 Rejuvenation Potion -> Coral Ring"
     },
-    "category": "magicItemCreation"
+    "category": "magicItemCreation",
+    "ingredientIcons": [
+      "invrin",
+      "invgsye",
+      "invvps"
+    ],
+    "outputIcon": "invrin"
   },
   {
     "id": "recipe-10",
@@ -96,7 +149,13 @@
       "zh-TW": "1 Magic Ring + 1 Standard Emerald + 1 Antidote Potion -> Jade Ring",
       "zh-CN": "1 Magic Ring + 1 Standard Emerald + 1 Antidote Potion -> Jade Ring"
     },
-    "category": "magicItemCreation"
+    "category": "magicItemCreation",
+    "ingredientIcons": [
+      "invrin",
+      "invgsge",
+      "invnps"
+    ],
+    "outputIcon": "invrin"
   },
   {
     "id": "recipe-11",
@@ -105,7 +164,12 @@
       "zh-TW": "1 Axe (Any) + 1 Dagger (Any) -> Throwing Axe",
       "zh-CN": "1 Axe (Any) + 1 Dagger (Any) -> Throwing Axe"
     },
-    "category": "consumables"
+    "category": "consumables",
+    "ingredientIcons": [
+      "invhax",
+      "invdgr"
+    ],
+    "outputIcon": "invtax"
   },
   {
     "id": "recipe-12",
@@ -114,7 +178,12 @@
       "zh-TW": "1 Spear (Any) + 1 Arrows -> Javelins",
       "zh-CN": "1 Spear (Any) + 1 Arrows -> Javelins"
     },
-    "category": "consumables"
+    "category": "consumables",
+    "ingredientIcons": [
+      "invspr",
+      "invqvr"
+    ],
+    "outputIcon": "invjav"
   },
   {
     "id": "recipe-13",
@@ -123,7 +192,11 @@
       "zh-TW": "3 Magic Rings -> Magic Amulet",
       "zh-CN": "3 Magic Rings -> Magic Amulet"
     },
-    "category": "magicItemCreation"
+    "category": "magicItemCreation",
+    "ingredientIcons": [
+      "invrin"
+    ],
+    "outputIcon": "invamu"
   },
   {
     "id": "recipe-14",
@@ -132,7 +205,11 @@
       "zh-TW": "3 Magic Amulets -> Magic Ring",
       "zh-CN": "3 Magic Amulets -> Magic Ring"
     },
-    "category": "magicItemCreation"
+    "category": "magicItemCreation",
+    "ingredientIcons": [
+      "invamu"
+    ],
+    "outputIcon": "invrin"
   },
   {
     "id": "recipe-15",
@@ -141,7 +218,9 @@
       "zh-TW": "3 Standard Gems + 1 Socketed Weapon ->  Socketed Magic Weapon",
       "zh-CN": "3 Standard Gems + 1 Socketed Weapon ->  Socketed Magic Weapon"
     },
-    "category": "sockets"
+    "category": "sockets",
+    "ingredientIcons": [],
+    "outputIcon": null
   },
   {
     "id": "recipe-16",
@@ -150,7 +229,9 @@
       "zh-TW": "3 Flawless Gems + 1 Magic Weapon -> Socketed Magic Weapon",
       "zh-CN": "3 Flawless Gems + 1 Magic Weapon -> Socketed Magic Weapon"
     },
-    "category": "sockets"
+    "category": "sockets",
+    "ingredientIcons": [],
+    "outputIcon": null
   },
   {
     "id": "recipe-17",
@@ -159,7 +240,12 @@
       "zh-TW": "1 Magic Shield + 1 Spiked Club + 2 Skulls (Any) -> Magic Shield of Spikes",
       "zh-CN": "1 Magic Shield + 1 Spiked Club + 2 Skulls (Any) -> Magic Shield of Spikes"
     },
-    "category": "magicItemCreation"
+    "category": "magicItemCreation",
+    "ingredientIcons": [
+      "invbuc",
+      "invspc"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-18",
@@ -168,7 +254,11 @@
       "zh-TW": "4 Healing Potions (Any) + 1 Standard Ruby + 1 Magic Sword -> Sword of the Leech",
       "zh-CN": "4 Healing Potions (Any) + 1 Standard Ruby + 1 Magic Sword -> Sword of the Leech"
     },
-    "category": "magicItemCreation"
+    "category": "magicItemCreation",
+    "ingredientIcons": [
+      "invssd"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-19",
@@ -177,7 +267,13 @@
       "zh-TW": "1 Diamond (Any) + 1 Kris + 1 Staff + 1 Belt -> Savage Polearm",
       "zh-CN": "1 Diamond (Any) + 1 Kris + 1 Staff + 1 Belt -> Savage Polearm"
     },
-    "category": "magicItemCreation"
+    "category": "magicItemCreation",
+    "ingredientIcons": [
+      "invkrs",
+      "invsst",
+      "invlbl"
+    ],
+    "outputIcon": "invbar"
   },
   {
     "id": "recipe-20",
@@ -186,7 +282,11 @@
       "zh-TW": "1 Strangling Gas Potion + 1 Healing Potion (Any) -> Antidote Potion",
       "zh-CN": "1 Strangling Gas Potion + 1 Healing Potion (Any) -> Antidote Potion"
     },
-    "category": "consumables"
+    "category": "consumables",
+    "ingredientIcons": [
+      "invgps"
+    ],
+    "outputIcon": "invnps"
   },
   {
     "id": "recipe-21",
@@ -195,7 +295,11 @@
       "zh-TW": "2 Arrows -> Bolts",
       "zh-CN": "2 Arrows -> Bolts"
     },
-    "category": "consumables"
+    "category": "consumables",
+    "ingredientIcons": [
+      "invqvr"
+    ],
+    "outputIcon": "invcqv"
   },
   {
     "id": "recipe-22",
@@ -204,7 +308,11 @@
       "zh-TW": "2 Bolts -> Arrows",
       "zh-CN": "2 Bolts -> Arrows"
     },
-    "category": "consumables"
+    "category": "consumables",
+    "ingredientIcons": [
+      "invcqv"
+    ],
+    "outputIcon": "invqvr"
   },
   {
     "id": "recipe-23",
@@ -213,7 +321,11 @@
       "zh-TW": "3 Chipped Amethysts -> Flawed Amethyst",
       "zh-CN": "3 Chipped Amethysts -> Flawed Amethyst"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invgsva"
+    ],
+    "outputIcon": "invgsvb"
   },
   {
     "id": "recipe-24",
@@ -222,7 +334,11 @@
       "zh-TW": "3 Flawed Amethysts -> Standard Amethyst",
       "zh-CN": "3 Flawed Amethysts -> Standard Amethyst"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invgsvb"
+    ],
+    "outputIcon": "invgsvc"
   },
   {
     "id": "recipe-25",
@@ -231,7 +347,11 @@
       "zh-TW": "3 Standard Amethysts -> Flawless Amethyst",
       "zh-CN": "3 Standard Amethysts -> Flawless Amethyst"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invgsvc"
+    ],
+    "outputIcon": "invgsvd"
   },
   {
     "id": "recipe-26",
@@ -240,7 +360,11 @@
       "zh-TW": "3 Flawless Amethysts -> Perfect Amethyst",
       "zh-CN": "3 Flawless Amethysts -> Perfect Amethyst"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invgsvd"
+    ],
+    "outputIcon": "invgsve"
   },
   {
     "id": "recipe-27",
@@ -249,7 +373,11 @@
       "zh-TW": "3 Chipped Rubies -> Flawed Ruby",
       "zh-CN": "3 Chipped Rubies -> Flawed Ruby"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invgsra"
+    ],
+    "outputIcon": "invgsrb"
   },
   {
     "id": "recipe-28",
@@ -258,7 +386,11 @@
       "zh-TW": "3 Flawed Rubies -> Standard Ruby",
       "zh-CN": "3 Flawed Rubies -> Standard Ruby"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invgsrb"
+    ],
+    "outputIcon": "invgsrc"
   },
   {
     "id": "recipe-29",
@@ -267,7 +399,11 @@
       "zh-TW": "3 Standard Rubies -> Flawless Ruby",
       "zh-CN": "3 Standard Rubies -> Flawless Ruby"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invgsrc"
+    ],
+    "outputIcon": "invgsrd"
   },
   {
     "id": "recipe-30",
@@ -276,7 +412,11 @@
       "zh-TW": "3 Flawless Rubies -> Perfect Ruby",
       "zh-CN": "3 Flawless Rubies -> Perfect Ruby"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invgsrd"
+    ],
+    "outputIcon": "invgsre"
   },
   {
     "id": "recipe-31",
@@ -285,7 +425,11 @@
       "zh-TW": "3 Chipped Sapphires -> Flawed Sapphire",
       "zh-CN": "3 Chipped Sapphires -> Flawed Sapphire"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invgsba"
+    ],
+    "outputIcon": "invgsbb"
   },
   {
     "id": "recipe-32",
@@ -294,7 +438,11 @@
       "zh-TW": "3 Flawed Sapphires -> Standard Sapphire",
       "zh-CN": "3 Flawed Sapphires -> Standard Sapphire"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invgsbb"
+    ],
+    "outputIcon": "invgsbc"
   },
   {
     "id": "recipe-33",
@@ -303,7 +451,11 @@
       "zh-TW": "3 Standard Sapphires -> Flawless Sapphire",
       "zh-CN": "3 Standard Sapphires -> Flawless Sapphire"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invgsbc"
+    ],
+    "outputIcon": "invgsbd"
   },
   {
     "id": "recipe-34",
@@ -312,7 +464,11 @@
       "zh-TW": "3 Flawless Sapphires -> Perfect Sapphire",
       "zh-CN": "3 Flawless Sapphires -> Perfect Sapphire"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invgsbd"
+    ],
+    "outputIcon": "invgsbe"
   },
   {
     "id": "recipe-35",
@@ -321,7 +477,11 @@
       "zh-TW": "3 Chipped Topazes -> Flawed Topaz",
       "zh-CN": "3 Chipped Topazes -> Flawed Topaz"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invgsya"
+    ],
+    "outputIcon": "invgsyb"
   },
   {
     "id": "recipe-36",
@@ -330,7 +490,11 @@
       "zh-TW": "3 Flawed Topazes -> Standard Topaz",
       "zh-CN": "3 Flawed Topazes -> Standard Topaz"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invgsyb"
+    ],
+    "outputIcon": "invgsyc"
   },
   {
     "id": "recipe-37",
@@ -339,7 +503,11 @@
       "zh-TW": "3 Standard Topazes -> Flawless Topaz",
       "zh-CN": "3 Standard Topazes -> Flawless Topaz"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invgsyc"
+    ],
+    "outputIcon": "invgsyd"
   },
   {
     "id": "recipe-38",
@@ -348,7 +516,11 @@
       "zh-TW": "3 Flawless Topazes -> Perfect Topaz",
       "zh-CN": "3 Flawless Topazes -> Perfect Topaz"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invgsyd"
+    ],
+    "outputIcon": "invgsye"
   },
   {
     "id": "recipe-39",
@@ -357,7 +529,11 @@
       "zh-TW": "3 Chipped Emeralds -> Flawed Emerald",
       "zh-CN": "3 Chipped Emeralds -> Flawed Emerald"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invgsga"
+    ],
+    "outputIcon": "invgsgb"
   },
   {
     "id": "recipe-40",
@@ -366,7 +542,11 @@
       "zh-TW": "3 Flawed Emeralds -> Standard Emerald",
       "zh-CN": "3 Flawed Emeralds -> Standard Emerald"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invgsgb"
+    ],
+    "outputIcon": "invgsgc"
   },
   {
     "id": "recipe-41",
@@ -375,7 +555,11 @@
       "zh-TW": "3 Standard Emeralds -> Flawless Emerald",
       "zh-CN": "3 Standard Emeralds -> Flawless Emerald"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invgsgc"
+    ],
+    "outputIcon": "invgsgd"
   },
   {
     "id": "recipe-42",
@@ -384,7 +568,11 @@
       "zh-TW": "3 Flawless Emeralds -> Perfect Emerald",
       "zh-CN": "3 Flawless Emeralds -> Perfect Emerald"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invgsgd"
+    ],
+    "outputIcon": "invgsge"
   },
   {
     "id": "recipe-43",
@@ -393,7 +581,11 @@
       "zh-TW": "3 Chipped Diamonds -> Flawed Diamond",
       "zh-CN": "3 Chipped Diamonds -> Flawed Diamond"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invgswa"
+    ],
+    "outputIcon": "invgswb"
   },
   {
     "id": "recipe-44",
@@ -402,7 +594,11 @@
       "zh-TW": "3 Flawed Diamonds -> Standard Diamond",
       "zh-CN": "3 Flawed Diamonds -> Standard Diamond"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invgswb"
+    ],
+    "outputIcon": "invgswc"
   },
   {
     "id": "recipe-45",
@@ -411,7 +607,11 @@
       "zh-TW": "3 Standard Diamonds -> Flawless Diamond",
       "zh-CN": "3 Standard Diamonds -> Flawless Diamond"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invgswc"
+    ],
+    "outputIcon": "invgswd"
   },
   {
     "id": "recipe-46",
@@ -420,7 +620,11 @@
       "zh-TW": "3 Flawless Diamonds -> Perfect Diamond",
       "zh-CN": "3 Flawless Diamonds -> Perfect Diamond"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invgswd"
+    ],
+    "outputIcon": "invgswe"
   },
   {
     "id": "recipe-47",
@@ -429,7 +633,11 @@
       "zh-TW": "3 Chipped Skulls -> Flawed Skull",
       "zh-CN": "3 Chipped Skulls -> Flawed Skull"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invskc"
+    ],
+    "outputIcon": "invskf"
   },
   {
     "id": "recipe-48",
@@ -438,7 +646,11 @@
       "zh-TW": "3 Flawed Skulls -> Standard Skull",
       "zh-CN": "3 Flawed Skulls -> Standard Skull"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invskf"
+    ],
+    "outputIcon": "invsku"
   },
   {
     "id": "recipe-49",
@@ -447,7 +659,11 @@
       "zh-TW": "3 Standard Skulls -> Flawless Skull",
       "zh-CN": "3 Standard Skulls -> Flawless Skull"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invsku"
+    ],
+    "outputIcon": "invskl"
   },
   {
     "id": "recipe-50",
@@ -456,7 +672,11 @@
       "zh-TW": "3 Flawless Skulls -> Perfect Skull",
       "zh-CN": "3 Flawless Skulls -> Perfect Skull"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invskl"
+    ],
+    "outputIcon": "invskz"
   },
   {
     "id": "recipe-51",
@@ -465,7 +685,11 @@
       "zh-TW": "3 El Runes -> Eld Rune",
       "zh-CN": "3 El Runes -> Eld Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrEl"
+    ],
+    "outputIcon": "invrEld"
   },
   {
     "id": "recipe-52",
@@ -474,7 +698,11 @@
       "zh-TW": "3 Eld Runes -> Tir Rune",
       "zh-CN": "3 Eld Runes -> Tir Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrEld"
+    ],
+    "outputIcon": "invrTir"
   },
   {
     "id": "recipe-53",
@@ -483,7 +711,11 @@
       "zh-TW": "3 Tir Runes -> Nef Rune",
       "zh-CN": "3 Tir Runes -> Nef Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrTir"
+    ],
+    "outputIcon": "invrNef"
   },
   {
     "id": "recipe-54",
@@ -492,7 +724,11 @@
       "zh-TW": "3 Nef Runes -> Eth Rune",
       "zh-CN": "3 Nef Runes -> Eth Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrNef"
+    ],
+    "outputIcon": "invrEth"
   },
   {
     "id": "recipe-55",
@@ -501,7 +737,11 @@
       "zh-TW": "3 Eth Runes -> Ith Rune",
       "zh-CN": "3 Eth Runes -> Ith Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrEth"
+    ],
+    "outputIcon": "invrIth"
   },
   {
     "id": "recipe-56",
@@ -510,7 +750,11 @@
       "zh-TW": "3 Ith Runes -> Tal Rune",
       "zh-CN": "3 Ith Runes -> Tal Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrIth"
+    ],
+    "outputIcon": "invrTal"
   },
   {
     "id": "recipe-57",
@@ -519,7 +763,11 @@
       "zh-TW": "3 Tal Runes -> Ral Rune",
       "zh-CN": "3 Tal Runes -> Ral Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrTal"
+    ],
+    "outputIcon": "invrRal"
   },
   {
     "id": "recipe-58",
@@ -528,7 +776,11 @@
       "zh-TW": "3 Ral Runes -> Ort Rune",
       "zh-CN": "3 Ral Runes -> Ort Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrRal"
+    ],
+    "outputIcon": "invrOrt"
   },
   {
     "id": "recipe-59",
@@ -537,7 +789,11 @@
       "zh-TW": "3 Ort Runes -> Thul Rune",
       "zh-CN": "3 Ort Runes -> Thul Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrOrt"
+    ],
+    "outputIcon": "invrThul"
   },
   {
     "id": "recipe-60",
@@ -546,7 +802,9 @@
       "zh-TW": "3 Perfect Gems (Any) + 1 Magic Item -> Re-rolled Magic Item",
       "zh-CN": "3 Perfect Gems (Any) + 1 Magic Item -> Re-rolled Magic Item"
     },
-    "category": "magicItemRerolls"
+    "category": "magicItemRerolls",
+    "ingredientIcons": [],
+    "outputIcon": null
   },
   {
     "id": "recipe-61",
@@ -555,7 +813,11 @@
       "zh-TW": "6 Perfect Skulls + 1 Rare Item -> 1 Low Quality Rare Item",
       "zh-CN": "6 Perfect Skulls + 1 Rare Item -> 1 Low Quality Rare Item"
     },
-    "category": "magicItemRerolls"
+    "category": "magicItemRerolls",
+    "ingredientIcons": [
+      "invskz"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-62",
@@ -564,7 +826,11 @@
       "zh-TW": "1 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> 1 High Quality Rare Item",
       "zh-CN": "1 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> 1 High Quality Rare Item"
     },
-    "category": "magicItemRerolls"
+    "category": "magicItemRerolls",
+    "ingredientIcons": [
+      "invskz"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-63",
@@ -573,7 +839,11 @@
       "zh-TW": "3 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> Add 1 Socket to Rare Item",
       "zh-CN": "3 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> Add 1 Socket to Rare Item"
     },
-    "category": "magicItemRerolls"
+    "category": "magicItemRerolls",
+    "ingredientIcons": [
+      "invskz"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-100",
@@ -582,7 +852,12 @@
       "zh-TW": "3 Thul Runes + 1 Chipped Topaz -> Amn Rune",
       "zh-CN": "3 Thul Runes + 1 Chipped Topaz -> Amn Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrThul",
+      "invgsya"
+    ],
+    "outputIcon": "invrAmn"
   },
   {
     "id": "recipe-101",
@@ -591,7 +866,12 @@
       "zh-TW": "3 Amn Runes + 1 Chipped Amethyst -> Sol Rune",
       "zh-CN": "3 Amn Runes + 1 Chipped Amethyst -> Sol Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrAmn",
+      "invgsva"
+    ],
+    "outputIcon": "invrSol"
   },
   {
     "id": "recipe-102",
@@ -600,7 +880,12 @@
       "zh-TW": "3 Sol Runes + 1 Chipped Sapphire -> Shael Rune",
       "zh-CN": "3 Sol Runes + 1 Chipped Sapphire -> Shael Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrSol",
+      "invgsba"
+    ],
+    "outputIcon": "invrShae"
   },
   {
     "id": "recipe-103",
@@ -609,7 +894,12 @@
       "zh-TW": "3 Shael Runes + 1 Chipped Ruby -> Dol Rune",
       "zh-CN": "3 Shael Runes + 1 Chipped Ruby -> Dol Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrShae",
+      "invgsra"
+    ],
+    "outputIcon": "invrDol"
   },
   {
     "id": "recipe-104",
@@ -618,7 +908,12 @@
       "zh-TW": "3 Dol Runes + 1 Chipped Emerald -> Hel Rune",
       "zh-CN": "3 Dol Runes + 1 Chipped Emerald -> Hel Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrDol",
+      "invgsga"
+    ],
+    "outputIcon": "invrHel"
   },
   {
     "id": "recipe-105",
@@ -627,7 +922,12 @@
       "zh-TW": "3 Hel Runes + 1 Chipped Diamond -> Io Rune",
       "zh-CN": "3 Hel Runes + 1 Chipped Diamond -> Io Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrHel",
+      "invgswa"
+    ],
+    "outputIcon": "invrIo"
   },
   {
     "id": "recipe-106",
@@ -636,7 +936,12 @@
       "zh-TW": "3 Io Runes + 1 Flawed Topaz -> Lum Rune",
       "zh-CN": "3 Io Runes + 1 Flawed Topaz -> Lum Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrIo",
+      "invgsyb"
+    ],
+    "outputIcon": "invrLum"
   },
   {
     "id": "recipe-107",
@@ -645,7 +950,12 @@
       "zh-TW": "3 Lum Runes + 1 Flawed Amethyst -> Ko Rune",
       "zh-CN": "3 Lum Runes + 1 Flawed Amethyst -> Ko Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrLum",
+      "invgsvb"
+    ],
+    "outputIcon": "invrKo"
   },
   {
     "id": "recipe-108",
@@ -654,7 +964,12 @@
       "zh-TW": "3 Ko Runes + 1 Flawed Sapphire -> Fal Rune",
       "zh-CN": "3 Ko Runes + 1 Flawed Sapphire -> Fal Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrKo",
+      "invgsbb"
+    ],
+    "outputIcon": "invrFal"
   },
   {
     "id": "recipe-109",
@@ -663,7 +978,12 @@
       "zh-TW": "3 Fal Runes + 1 Flawed Ruby -> Lem Rune",
       "zh-CN": "3 Fal Runes + 1 Flawed Ruby -> Lem Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrFal",
+      "invgsrb"
+    ],
+    "outputIcon": "invrLem"
   },
   {
     "id": "recipe-110",
@@ -672,7 +992,12 @@
       "zh-TW": "3 Lem Runes + 1 Flawed Emerald -> Pul Rune",
       "zh-CN": "3 Lem Runes + 1 Flawed Emerald -> Pul Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrLem",
+      "invgsgb"
+    ],
+    "outputIcon": "invrPul"
   },
   {
     "id": "recipe-111",
@@ -681,7 +1006,12 @@
       "zh-TW": "2 Pul Runes + 1 Flawed Diamond -> Um Rune",
       "zh-CN": "2 Pul Runes + 1 Flawed Diamond -> Um Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrPul",
+      "invgswb"
+    ],
+    "outputIcon": "invrUm"
   },
   {
     "id": "recipe-112",
@@ -690,7 +1020,12 @@
       "zh-TW": "2 Um Runes + 1 Standard Topaz -> Mal Rune",
       "zh-CN": "2 Um Runes + 1 Standard Topaz -> Mal Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrUm",
+      "invgsyc"
+    ],
+    "outputIcon": "invrMal"
   },
   {
     "id": "recipe-113",
@@ -699,7 +1034,12 @@
       "zh-TW": "2 Mal Runes + 1 Standard Amethyst -> Ist Rune",
       "zh-CN": "2 Mal Runes + 1 Standard Amethyst -> Ist Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrMal",
+      "invgsvc"
+    ],
+    "outputIcon": "invrIst"
   },
   {
     "id": "recipe-114",
@@ -708,7 +1048,12 @@
       "zh-TW": "2 Ist Runes + 1 Standard Sapphire -> Gul Rune",
       "zh-CN": "2 Ist Runes + 1 Standard Sapphire -> Gul Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrIst",
+      "invgsbc"
+    ],
+    "outputIcon": "invrGul"
   },
   {
     "id": "recipe-115",
@@ -717,7 +1062,12 @@
       "zh-TW": "2 Gul Runes + 1 Standard Ruby -> Vex Rune",
       "zh-CN": "2 Gul Runes + 1 Standard Ruby -> Vex Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrGul",
+      "invgsrc"
+    ],
+    "outputIcon": "invrVex"
   },
   {
     "id": "recipe-116",
@@ -726,7 +1076,12 @@
       "zh-TW": "2 Vex Runes + 1 Standard Emerald -> Ohm Rune",
       "zh-CN": "2 Vex Runes + 1 Standard Emerald -> Ohm Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrVex",
+      "invgsgc"
+    ],
+    "outputIcon": "invrOhm"
   },
   {
     "id": "recipe-117",
@@ -735,7 +1090,12 @@
       "zh-TW": "2 Ohm Runes + 1 Standard Diamond -> Lo Rune",
       "zh-CN": "2 Ohm Runes + 1 Standard Diamond -> Lo Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrOhm",
+      "invgswc"
+    ],
+    "outputIcon": "invrLo"
   },
   {
     "id": "recipe-118",
@@ -744,7 +1104,12 @@
       "zh-TW": "2 Lo Runes + 1 Flawless Topaz -> Sur Rune",
       "zh-CN": "2 Lo Runes + 1 Flawless Topaz -> Sur Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrLo",
+      "invgsyd"
+    ],
+    "outputIcon": "invrSur"
   },
   {
     "id": "recipe-119",
@@ -753,7 +1118,12 @@
       "zh-TW": "2 Sur Runes + 1 Flawless Amethyst -> Ber Rune",
       "zh-CN": "2 Sur Runes + 1 Flawless Amethyst -> Ber Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrSur",
+      "invgsvd"
+    ],
+    "outputIcon": "invrBer"
   },
   {
     "id": "recipe-120",
@@ -762,7 +1132,12 @@
       "zh-TW": "2 Ber Runes + 1 Flawless Sapphire -> Jah Rune",
       "zh-CN": "2 Ber Runes + 1 Flawless Sapphire -> Jah Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrBer",
+      "invgsbd"
+    ],
+    "outputIcon": "invrJo"
   },
   {
     "id": "recipe-121",
@@ -771,7 +1146,12 @@
       "zh-TW": "2 Jah Runes + 1 Flawless Ruby -> Cham Rune",
       "zh-CN": "2 Jah Runes + 1 Flawless Ruby -> Cham Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrJo",
+      "invgsrd"
+    ],
+    "outputIcon": "invrCham"
   },
   {
     "id": "recipe-122",
@@ -780,7 +1160,12 @@
       "zh-TW": "2 Cham Runes + 1 Flawless Emerald -> Zod Rune",
       "zh-CN": "2 Cham Runes + 1 Flawless Emerald -> Zod Rune"
     },
-    "category": "runeGemUpgrade"
+    "category": "runeGemUpgrade",
+    "ingredientIcons": [
+      "invrCham",
+      "invgsgd"
+    ],
+    "outputIcon": "invrZod"
   },
   {
     "id": "recipe-123",
@@ -789,7 +1174,14 @@
       "zh-TW": "1 Tal Rune + 1 Thul Rune + 1 Perfect Topaz + 1 Normal Torso Armor -> Socketed Torso Armor",
       "zh-CN": "1 Tal Rune + 1 Thul Rune + 1 Perfect Topaz + 1 Normal Torso Armor -> Socketed Torso Armor"
     },
-    "category": "sockets"
+    "category": "sockets",
+    "ingredientIcons": [
+      "invqlt",
+      "invrTal",
+      "invrThul",
+      "invgsye"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-124",
@@ -798,7 +1190,13 @@
       "zh-TW": "1 Ral Rune + 1 Amn Rune + 1 Perfect Amethyst + 1 Normal Weapon -> Socketed Weapon",
       "zh-CN": "1 Ral Rune + 1 Amn Rune + 1 Perfect Amethyst + 1 Normal Weapon -> Socketed Weapon"
     },
-    "category": "sockets"
+    "category": "sockets",
+    "ingredientIcons": [
+      "invrRal",
+      "invrAmn",
+      "invgsve"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-125",
@@ -807,7 +1205,14 @@
       "zh-TW": "1 Ral Rune + 1 Thul Rune + 1 Perfect Sapphire + 1 Normal Helm -> Socketed Helm",
       "zh-CN": "1 Ral Rune + 1 Thul Rune + 1 Perfect Sapphire + 1 Normal Helm -> Socketed Helm"
     },
-    "category": "sockets"
+    "category": "sockets",
+    "ingredientIcons": [
+      "invcap",
+      "invrRal",
+      "invrThul",
+      "invgsbe"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-126",
@@ -816,7 +1221,14 @@
       "zh-TW": "1 Tal Rune + 1 Amn Rune + 1 Perfect Ruby + 1 Normal Shield -> Socketed Shield",
       "zh-CN": "1 Tal Rune + 1 Amn Rune + 1 Perfect Ruby + 1 Normal Shield -> Socketed Shield"
     },
-    "category": "sockets"
+    "category": "sockets",
+    "ingredientIcons": [
+      "invbuc",
+      "invrTal",
+      "invrAmn",
+      "invgsre"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-127",
@@ -825,7 +1237,11 @@
       "zh-TW": "1 Eld Rune + 1 Chipped Gem (Any) + 1 Low Quality Weapon -> Normal Weapon",
       "zh-CN": "1 Eld Rune + 1 Chipped Gem (Any) + 1 Low Quality Weapon -> Normal Weapon"
     },
-    "category": "itemUpgrade"
+    "category": "itemUpgrade",
+    "ingredientIcons": [
+      "invrEld"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-128",
@@ -834,7 +1250,11 @@
       "zh-TW": "1 El Rune + 1 Chipped Gem (Any) + 1 Low Quality Armor -> Normal Armor",
       "zh-CN": "1 El Rune + 1 Chipped Gem (Any) + 1 Low Quality Armor -> Normal Armor"
     },
-    "category": "itemUpgrade"
+    "category": "itemUpgrade",
+    "ingredientIcons": [
+      "invrEl"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-129",
@@ -843,7 +1263,13 @@
       "zh-TW": "1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + 1 Normal Unique Weapon -> Exceptional Unique Weapon",
       "zh-CN": "1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + 1 Normal Unique Weapon -> Exceptional Unique Weapon"
     },
-    "category": "itemUpgrade"
+    "category": "itemUpgrade",
+    "ingredientIcons": [
+      "invrRal",
+      "invrSol",
+      "invgsge"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-130",
@@ -852,7 +1278,13 @@
       "zh-TW": "1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Normal Unique Armor -> Exceptional Unique Armor",
       "zh-CN": "1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Normal Unique Armor -> Exceptional Unique Armor"
     },
-    "category": "itemUpgrade"
+    "category": "itemUpgrade",
+    "ingredientIcons": [
+      "invrTal",
+      "invrShae",
+      "invgswe"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-131",
@@ -861,7 +1293,13 @@
       "zh-TW": "1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Unique Weapon -> Elite Unique Weapon",
       "zh-CN": "1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Unique Weapon -> Elite Unique Weapon"
     },
-    "category": "itemUpgrade"
+    "category": "itemUpgrade",
+    "ingredientIcons": [
+      "invrLum",
+      "invrPul",
+      "invgsge"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-132",
@@ -870,7 +1308,13 @@
       "zh-TW": "1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Unique Armor -> Elite Unique Armor",
       "zh-CN": "1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Unique Armor -> Elite Unique Armor"
     },
-    "category": "itemUpgrade"
+    "category": "itemUpgrade",
+    "ingredientIcons": [
+      "invrKo",
+      "invrLem",
+      "invgswe"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-133",
@@ -879,7 +1323,13 @@
       "zh-TW": "1 Ort Rune + 1 Amn Rune + 1 Perfect Sapphire + 1 Normal Rare Weapon -> Exceptional Rare Weapon",
       "zh-CN": "1 Ort Rune + 1 Amn Rune + 1 Perfect Sapphire + 1 Normal Rare Weapon -> Exceptional Rare Weapon"
     },
-    "category": "itemUpgrade"
+    "category": "itemUpgrade",
+    "ingredientIcons": [
+      "invrOrt",
+      "invrAmn",
+      "invgsbe"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-134",
@@ -888,7 +1338,13 @@
       "zh-TW": "1 Ral Rune + 1 Thul Rune + 1 Perfect Amethyst + 1 Normal Rare Armor -> Exceptional Rare Armor",
       "zh-CN": "1 Ral Rune + 1 Thul Rune + 1 Perfect Amethyst + 1 Normal Rare Armor -> Exceptional Rare Armor"
     },
-    "category": "itemUpgrade"
+    "category": "itemUpgrade",
+    "ingredientIcons": [
+      "invrRal",
+      "invrThul",
+      "invgsve"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-135",
@@ -897,7 +1353,13 @@
       "zh-TW": "1 Fal Rune + 1 Um Rune + 1 Perfect Sapphire + 1 Exceptional Rare Weapon -> Elite Rare Weapon",
       "zh-CN": "1 Fal Rune + 1 Um Rune + 1 Perfect Sapphire + 1 Exceptional Rare Weapon -> Elite Rare Weapon"
     },
-    "category": "itemUpgrade"
+    "category": "itemUpgrade",
+    "ingredientIcons": [
+      "invrFal",
+      "invrUm",
+      "invgsbe"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-136",
@@ -906,7 +1368,13 @@
       "zh-TW": "1 Ko Rune + 1 Pul Rune + 1 Perfect Amethyst + 1 Exceptional Rare Armor -> Elite Rare Armor",
       "zh-CN": "1 Ko Rune + 1 Pul Rune + 1 Perfect Amethyst + 1 Exceptional Rare Armor -> Elite Rare Armor"
     },
-    "category": "itemUpgrade"
+    "category": "itemUpgrade",
+    "ingredientIcons": [
+      "invrKo",
+      "invrPul",
+      "invgsve"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-137",
@@ -915,7 +1383,11 @@
       "zh-TW": "1 Ort Rune + 1 Weapon -> Fully Repaired Weapon",
       "zh-CN": "1 Ort Rune + 1 Weapon -> Fully Repaired Weapon"
     },
-    "category": "itemRepair"
+    "category": "itemRepair",
+    "ingredientIcons": [
+      "invrOrt"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-138",
@@ -924,7 +1396,11 @@
       "zh-TW": "1 Ral Rune + 1 Armor -> Fully Repaired Armor",
       "zh-CN": "1 Ral Rune + 1 Armor -> Fully Repaired Armor"
     },
-    "category": "itemRepair"
+    "category": "itemRepair",
+    "ingredientIcons": [
+      "invrRal"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-139",
@@ -933,7 +1409,11 @@
       "zh-TW": "1 Ort Rune + 1 Chipped Gem (Any) + 1 Weapon -> Fully Repaired and Recharged Weapon",
       "zh-CN": "1 Ort Rune + 1 Chipped Gem (Any) + 1 Weapon -> Fully Repaired and Recharged Weapon"
     },
-    "category": "itemRepair"
+    "category": "itemRepair",
+    "ingredientIcons": [
+      "invrOrt"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-140",
@@ -942,7 +1422,11 @@
       "zh-TW": "1 Ral Rune + 1 Flawed Gem (Any) + 1 Armor -> Fully Repaired and Recharged Armor",
       "zh-CN": "1 Ral Rune + 1 Flawed Gem (Any) + 1 Armor -> Fully Repaired and Recharged Armor"
     },
-    "category": "itemRepair"
+    "category": "itemRepair",
+    "ingredientIcons": [
+      "invrRal"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-141",
@@ -951,7 +1435,12 @@
       "zh-TW": "1 Hel Rune + Scroll of Town Portal + 1 Socketed Item -> Clear Sockets on Item",
       "zh-CN": "1 Hel Rune + Scroll of Town Portal + 1 Socketed Item -> Clear Sockets on Item"
     },
-    "category": "sockets"
+    "category": "sockets",
+    "ingredientIcons": [
+      "invrHel",
+      "invbsc"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-147",
@@ -960,7 +1449,9 @@
       "zh-TW": "3 Chipped Gems (Any) + 1 Magic Weapon -> Socketed Magic Weapon",
       "zh-CN": "3 Chipped Gems (Any) + 1 Magic Weapon -> Socketed Magic Weapon"
     },
-    "category": "sockets"
+    "category": "sockets",
+    "ingredientIcons": [],
+    "outputIcon": null
   },
   {
     "id": "recipe-148",
@@ -969,7 +1460,11 @@
       "zh-TW": "1 Key of Terror + 1 Key of Hate + 1 Key of Destruction -> Portal to Matron's Den/Forgotten Sands/Furnace of Pain (Random)",
       "zh-CN": "1 Key of Terror + 1 Key of Hate + 1 Key of Destruction -> Portal to Matron's Den/Forgotten Sands/Furnace of Pain (Random)"
     },
-    "category": "quests"
+    "category": "quests",
+    "ingredientIcons": [
+      "invmph"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-149",
@@ -978,7 +1473,13 @@
       "zh-TW": "1 Diablo's Horn + 1 Baal's Eye + 1 Mephisto's Brain -> Portal to Tristram (Pandemonium Finale)",
       "zh-CN": "1 Diablo's Horn + 1 Baal's Eye + 1 Mephisto's Brain -> Portal to Tristram (Pandemonium Finale)"
     },
-    "category": "quests"
+    "category": "quests",
+    "ingredientIcons": [
+      "invfang",
+      "inveye",
+      "invbrnz"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-150",
@@ -987,7 +1488,14 @@
       "zh-TW": "1 Twisted Essence of Suffering + 1 Charged Essence of Hatred + 1 Burning Essence of Terror + 1 Festering Essence of Destruction -> Token of Absolution",
       "zh-CN": "1 Twisted Essence of Suffering + 1 Charged Essence of Hatred + 1 Burning Essence of Terror + 1 Festering Essence of Destruction -> Token of Absolution"
     },
-    "category": "quests"
+    "category": "quests",
+    "ingredientIcons": [
+      "invtes",
+      "invceh",
+      "invbet",
+      "invfed"
+    ],
+    "outputIcon": "invtoa"
   },
   {
     "id": "recipe-151",
@@ -996,7 +1504,13 @@
       "zh-TW": "1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + 1 Normal Set Weapon -> Exceptional Set Weapon",
       "zh-CN": "1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + 1 Normal Set Weapon -> Exceptional Set Weapon"
     },
-    "category": "itemUpgrade"
+    "category": "itemUpgrade",
+    "ingredientIcons": [
+      "invrRal",
+      "invrSol",
+      "invgsge"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-152",
@@ -1005,7 +1519,13 @@
       "zh-TW": "1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Normal Set Armor -> Exceptional Set Armor",
       "zh-CN": "1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Normal Set Armor -> Exceptional Set Armor"
     },
-    "category": "itemUpgrade"
+    "category": "itemUpgrade",
+    "ingredientIcons": [
+      "invrTal",
+      "invrShae",
+      "invgswe"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-153",
@@ -1014,7 +1534,13 @@
       "zh-TW": "1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Set Weapon -> Elite Set Weapon",
       "zh-CN": "1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Set Weapon -> Elite Set Weapon"
     },
-    "category": "itemUpgrade"
+    "category": "itemUpgrade",
+    "ingredientIcons": [
+      "invrLum",
+      "invrPul",
+      "invgsge"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-154",
@@ -1023,7 +1549,13 @@
       "zh-TW": "1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Set Armor -> Elite Set Armor",
       "zh-CN": "1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Set Armor -> Elite Set Armor"
     },
-    "category": "itemUpgrade"
+    "category": "itemUpgrade",
+    "ingredientIcons": [
+      "invrKo",
+      "invrLem",
+      "invgswe"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-163",
@@ -1032,7 +1564,14 @@
       "zh-TW": "1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Small Charm -> Virulent Small Charm",
       "zh-CN": "1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Small Charm -> Virulent Small Charm"
     },
-    "category": "craftedGrandCharm"
+    "category": "craftedGrandCharm",
+    "ingredientIcons": [
+      "invchm",
+      "invrKo",
+      "invgsge",
+      "invtoa"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-164",
@@ -1041,7 +1580,14 @@
       "zh-TW": "1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Large Charm -> Virulent Large Charm",
       "zh-CN": "1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Large Charm -> Virulent Large Charm"
     },
-    "category": "craftedGrandCharm"
+    "category": "craftedGrandCharm",
+    "ingredientIcons": [
+      "invchm",
+      "invrKo",
+      "invgsge",
+      "invtoa"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-165",
@@ -1050,7 +1596,13 @@
       "zh-TW": "1 Ko Rune + 1 Perfect Emerald + 1 Uber Ancient Summon Material Act1 + 1 Rotting Fissure -> Virulent Rotting Fissure",
       "zh-CN": "1 Ko Rune + 1 Perfect Emerald + 1 Uber Ancient Summon Material Act1 + 1 Rotting Fissure -> Virulent Rotting Fissure"
     },
-    "category": "quests"
+    "category": "quests",
+    "ingredientIcons": [
+      "invrKo",
+      "invgsge",
+      "invtoa"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-174",
@@ -1059,7 +1611,14 @@
       "zh-TW": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Small Charm -> Gelid Small Charm",
       "zh-CN": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Small Charm -> Gelid Small Charm"
     },
-    "category": "craftedGrandCharm"
+    "category": "craftedGrandCharm",
+    "ingredientIcons": [
+      "invchm",
+      "invrLum",
+      "invgsbe",
+      "invtoa"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-175",
@@ -1068,7 +1627,14 @@
       "zh-TW": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Large Charm -> Gelid Large Charm",
       "zh-CN": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Large Charm -> Gelid Large Charm"
     },
-    "category": "craftedGrandCharm"
+    "category": "craftedGrandCharm",
+    "ingredientIcons": [
+      "invchm",
+      "invrLum",
+      "invgsbe",
+      "invtoa"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-176",
@@ -1077,7 +1643,14 @@
       "zh-TW": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Grand Charm -> Gelid Grand Charm",
       "zh-CN": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Grand Charm -> Gelid Grand Charm"
     },
-    "category": "craftedGrandCharm"
+    "category": "craftedGrandCharm",
+    "ingredientIcons": [
+      "invchm",
+      "invrLum",
+      "invgsbe",
+      "invtoa"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-177",
@@ -1086,7 +1659,13 @@
       "zh-TW": "1 Lum Rune + 1 Perfect Sapphire + 1 Uber Ancient Summon Material Act2 + 1 Cold Rupture -> Gelid Cold Rupture",
       "zh-CN": "1 Lum Rune + 1 Perfect Sapphire + 1 Uber Ancient Summon Material Act2 + 1 Cold Rupture -> Gelid Cold Rupture"
     },
-    "category": "quests"
+    "category": "quests",
+    "ingredientIcons": [
+      "invrLum",
+      "invgsbe",
+      "invtoa"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-186",
@@ -1095,7 +1674,14 @@
       "zh-TW": "1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Small Charm -> Magnetic Small Charm",
       "zh-CN": "1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Small Charm -> Magnetic Small Charm"
     },
-    "category": "craftedGrandCharm"
+    "category": "craftedGrandCharm",
+    "ingredientIcons": [
+      "invchm",
+      "invrFal",
+      "invgsye",
+      "invtoa"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-187",
@@ -1104,7 +1690,14 @@
       "zh-TW": "1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Large Charm -> Magnetic Large Charm",
       "zh-CN": "1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Large Charm -> Magnetic Large Charm"
     },
-    "category": "craftedGrandCharm"
+    "category": "craftedGrandCharm",
+    "ingredientIcons": [
+      "invchm",
+      "invrFal",
+      "invgsye",
+      "invtoa"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-188",
@@ -1113,7 +1706,14 @@
       "zh-TW": "1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Grand Charm -> Magnetic Grand Charm",
       "zh-CN": "1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Grand Charm -> Magnetic Grand Charm"
     },
-    "category": "craftedGrandCharm"
+    "category": "craftedGrandCharm",
+    "ingredientIcons": [
+      "invchm",
+      "invrFal",
+      "invgsye",
+      "invtoa"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-189",
@@ -1122,7 +1722,13 @@
       "zh-TW": "1 Fal Rune + 1 Perfect Topaz + 1 Uber Ancient Summon Material Act3 + 1 Crack of the Heavens -> Magnetic Crack of the Heavens",
       "zh-CN": "1 Fal Rune + 1 Perfect Topaz + 1 Uber Ancient Summon Material Act3 + 1 Crack of the Heavens -> Magnetic Crack of the Heavens"
     },
-    "category": "quests"
+    "category": "quests",
+    "ingredientIcons": [
+      "invrFal",
+      "invgsye",
+      "invtoa"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-198",
@@ -1131,7 +1737,14 @@
       "zh-TW": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Small Charm -> Incendiary Small Charm",
       "zh-CN": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Small Charm -> Incendiary Small Charm"
     },
-    "category": "craftedGrandCharm"
+    "category": "craftedGrandCharm",
+    "ingredientIcons": [
+      "invchm",
+      "invrIo",
+      "invgsre",
+      "invtoa"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-199",
@@ -1140,7 +1753,14 @@
       "zh-TW": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Large Charm -> Incendiary Large Charm",
       "zh-CN": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Large Charm -> Incendiary Large Charm"
     },
-    "category": "craftedGrandCharm"
+    "category": "craftedGrandCharm",
+    "ingredientIcons": [
+      "invchm",
+      "invrIo",
+      "invgsre",
+      "invtoa"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-200",
@@ -1149,7 +1769,14 @@
       "zh-TW": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Grand Charm -> Incendiary Grand Charm",
       "zh-CN": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Grand Charm -> Incendiary Grand Charm"
     },
-    "category": "craftedGrandCharm"
+    "category": "craftedGrandCharm",
+    "ingredientIcons": [
+      "invchm",
+      "invrIo",
+      "invgsre",
+      "invtoa"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-201",
@@ -1158,7 +1785,13 @@
       "zh-TW": "1 Io Rune + 1 Perfect Ruby + 1 Uber Ancient Summon Material Act4 + 1 Flame Rift -> Incendiary Flame Rift",
       "zh-CN": "1 Io Rune + 1 Perfect Ruby + 1 Uber Ancient Summon Material Act4 + 1 Flame Rift -> Incendiary Flame Rift"
     },
-    "category": "quests"
+    "category": "quests",
+    "ingredientIcons": [
+      "invrIo",
+      "invgsre",
+      "invtoa"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-210",
@@ -1167,7 +1800,14 @@
       "zh-TW": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Small Charm -> Breaching Small Charm",
       "zh-CN": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Small Charm -> Breaching Small Charm"
     },
-    "category": "craftedGrandCharm"
+    "category": "craftedGrandCharm",
+    "ingredientIcons": [
+      "invchm",
+      "invrPul",
+      "invgsve",
+      "invtoa"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-211",
@@ -1176,7 +1816,14 @@
       "zh-TW": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Large Charm -> Breaching Large Charm",
       "zh-CN": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Large Charm -> Breaching Large Charm"
     },
-    "category": "craftedGrandCharm"
+    "category": "craftedGrandCharm",
+    "ingredientIcons": [
+      "invchm",
+      "invrPul",
+      "invgsve",
+      "invtoa"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-212",
@@ -1185,7 +1832,14 @@
       "zh-TW": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Grand Charm -> Breaching Grand Charm",
       "zh-CN": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Grand Charm -> Breaching Grand Charm"
     },
-    "category": "craftedGrandCharm"
+    "category": "craftedGrandCharm",
+    "ingredientIcons": [
+      "invchm",
+      "invrPul",
+      "invgsve",
+      "invtoa"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-213",
@@ -1194,7 +1848,13 @@
       "zh-TW": "1 Pul Rune + 1 Perfect Amethyst + 1 Uber Ancient Summon Material Act5 + 1 Bone Break -> Breaching Bone Break",
       "zh-CN": "1 Pul Rune + 1 Perfect Amethyst + 1 Uber Ancient Summon Material Act5 + 1 Bone Break -> Breaching Bone Break"
     },
-    "category": "quests"
+    "category": "quests",
+    "ingredientIcons": [
+      "invrPul",
+      "invgsve",
+      "invtoa"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-222",
@@ -1203,7 +1863,14 @@
       "zh-TW": "1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Small Charm -> Mystical Small Charm",
       "zh-CN": "1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Small Charm -> Mystical Small Charm"
     },
-    "category": "craftedGrandCharm"
+    "category": "craftedGrandCharm",
+    "ingredientIcons": [
+      "invchm",
+      "invrMal",
+      "invgswe",
+      "invtoa"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-223",
@@ -1212,7 +1879,14 @@
       "zh-TW": "1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Large Charm -> Mystical Large Charm",
       "zh-CN": "1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Large Charm -> Mystical Large Charm"
     },
-    "category": "craftedGrandCharm"
+    "category": "craftedGrandCharm",
+    "ingredientIcons": [
+      "invchm",
+      "invrMal",
+      "invgswe",
+      "invtoa"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-224",
@@ -1221,7 +1895,14 @@
       "zh-TW": "1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Grand Charm -> Mystical Grand Charm",
       "zh-CN": "1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Grand Charm -> Mystical Grand Charm"
     },
-    "category": "craftedGrandCharm"
+    "category": "craftedGrandCharm",
+    "ingredientIcons": [
+      "invchm",
+      "invrMal",
+      "invgswe",
+      "invtoa"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-225",
@@ -1230,7 +1911,13 @@
       "zh-TW": "1 Mal Rune + 1 Perfect Diamond + 1 Uber Ancient Summon Material Act5 + 1 Black Cleft -> Mystical Black Cleft",
       "zh-CN": "1 Mal Rune + 1 Perfect Diamond + 1 Uber Ancient Summon Material Act5 + 1 Black Cleft -> Mystical Black Cleft"
     },
-    "category": "quests"
+    "category": "quests",
+    "ingredientIcons": [
+      "invrMal",
+      "invgswe",
+      "invtoa"
+    ],
+    "outputIcon": null
   },
   {
     "id": "recipe-226",
@@ -1239,6 +1926,10 @@
       "zh-TW": "1 Uber Ancient Summon Material from Act 1 + Act2 + Act3 + Act 4 + Act 5 -> Portal to Colossal Summit",
       "zh-CN": "1 Uber Ancient Summon Material from Act 1 + Act2 + Act3 + Act 4 + Act 5 -> Portal to Colossal Summit"
     },
-    "category": "quests"
+    "category": "quests",
+    "ingredientIcons": [
+      "invjbi"
+    ],
+    "outputIcon": null
   }
 ]

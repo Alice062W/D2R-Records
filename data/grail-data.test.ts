@@ -383,6 +383,41 @@ describe('cube-recipes.json', () => {
     const charmRecipes = cubeRecipesData.filter(r => r.category === 'craftedGrandCharm');
     expect(charmRecipes.length).toBe(17);
   });
+
+  it('resolves ingredientIcons and outputIcon for a simple 2-input recipe (Staff of Kings + Amulet of the Viper -> Horadric Staff)', () => {
+    const r = cubeRecipesData.find(r => r.description.en === 'Staff of Kings + Amulet of the Viper -> Horadric Staff')!;
+    expect(r.ingredientIcons).toEqual(['invmsf', 'invvip']);
+    expect(r.outputIcon).toBe('invhst');
+  });
+
+  it('deduplicates and does NOT positionally match description segments for the Prismatic Amulet recipe (7 raw inputs, 2 description segments)', () => {
+    const r = cubeRecipesData.find(r => r.description.en === '6 Perfect Gems (1 of each type) + 1 Magic Amulet -> Prismatic Amulet')!;
+    expect(r.ingredientIcons).toEqual(['invamu', 'invgsve', 'invgsye', 'invgsbe', 'invgsge', 'invgsre', 'invgswe']);
+    expect(r.outputIcon).toBe('invamu');
+  });
+
+  it('resolves an abstract item-type code to its category representative icon (Throwing Axe: Axe (Any) + Dagger (Any))', () => {
+    const r = cubeRecipesData.find(r => r.description.en === '1 Axe (Any) + 1 Dagger (Any) -> Throwing Axe')!;
+    expect(r.ingredientIcons).toEqual(['invhax', 'invdgr']);
+    expect(r.outputIcon).toBe('invtax');
+  });
+
+  it('leaves outputIcon null for a quest/portal recipe with no real item code (Wirt\'s Leg -> Secret Cow Level portal)', () => {
+    const r = cubeRecipesData.find(r => r.description.en === "Wirt's Leg + Tome of Town Portal -> Portal to The Secret Cow Level")!;
+    expect(r.ingredientIcons).toEqual(['invleg', 'invbbk']);
+    expect(r.outputIcon).toBeNull();
+  });
+
+  it('every resolved icon in every recipe corresponds to a real file in public/items/inv', () => {
+    for (const r of cubeRecipesData) {
+      for (const icon of r.ingredientIcons) {
+        expect(existsSync(join(process.cwd(), 'public/items/inv', `${icon}.png`))).toBe(true);
+      }
+      if (r.outputIcon) {
+        expect(existsSync(join(process.cwd(), 'public/items/inv', `${r.outputIcon}.png`))).toBe(true);
+      }
+    }
+  });
 });
 
 describe('crafted-items.json', () => {
