@@ -282,8 +282,8 @@ _Spec: [docs/superpowers/specs/2026-07-17-summoner-theme-restyle-design.md](../d
 ### Icon BasePath Fix
 _Spec: [docs/superpowers/specs/2026-07-17-icon-basepath-fix-design.md](../docs/superpowers/specs/2026-07-17-icon-basepath-fix-design.md) · Plan: [plans/icon-basepath-fix-implementation.md](./icon-basepath-fix-implementation.md)_
 
-- [ ] BasePath helper + wire into all 10 icon-rendering files
-- [ ] Full verification + spot-check
+- [x] BasePath helper + wire into all 10 icon-rendering files
+- [x] Full verification + spot-check — verified in both normal and GitHub Pages build modes
 
 ## Backlog / Ideas
 
