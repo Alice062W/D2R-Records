@@ -733,6 +733,23 @@ function normalizeRunewordName(name) {
     .toLowerCase();
 }
 
+// A rune name (e.g. "Jah") -> its real invFile (e.g. "invrJah"), derived directly
+// from items.json's "<Name> Rune" entries — independent of RUNE_ORDER (defined later
+// in this file) so this can be computed before runewordsFullOut needs it.
+const RUNE_INVFILE_BY_NAME = Object.fromEntries(
+  Object.values(items)
+    .filter(v => typeof v.name === 'string' && v.name.endsWith(' Rune'))
+    .map(v => [v.name.replace(/ Rune$/, ''), v.invfile])
+);
+
+// Known vendor-data quirk: runes.json's "*RunesUsed" for Wealth is "LmKoTir" — an
+// upstream typo missing the "u" in "Lum" (every other runeword spells it out
+// correctly, e.g. Beast's "BerTirUmMalLum"). This pre-existing typo already
+// produces runes: ['Lm', 'Ko', 'Tir'] for Wealth. Alias it here so the invFile
+// lookup still resolves to the real Lum icon; the underlying rune-name typo
+// itself is out of scope for this task.
+const RUNE_NAME_ALIASES = { Lm: 'Lum' };
+
 const runewordsFullOut = Object.entries(runesData)
   .filter(([, v]) => v.complete === 1)
   .map(([name, v]) => {
@@ -743,6 +760,7 @@ const runewordsFullOut = Object.entries(runesData)
       id: `runeword-${v.Name}`,
       name: localizedItemName(name),
       runes: runeNames,
+      runeInvFiles: runeNames.map(rn => RUNE_INVFILE_BY_NAME[RUNE_NAME_ALIASES[rn] ?? rn] ?? ''),
       sockets: runeNames.length,
       itemTypes: itemTypesFor(v.itype1),
       levelReq: curated?.level ?? 0,

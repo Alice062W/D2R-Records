@@ -28,6 +28,8 @@ function TestPage() {
   );
 }
 
+const baseRunewordFixture = runewordsFull.find(r => r.name.en === 'Enigma')!;
+
 describe('RunewordFilters + RunewordList', () => {
   it('shows all 93 runewords with no filter active', () => {
     render(<TestPage />);
@@ -49,5 +51,18 @@ describe('RunewordFilters + RunewordList', () => {
     if (fourSocketRuneword) {
       expect(screen.queryByText(fourSocketRuneword.name.en)).not.toBeInTheDocument();
     }
+  });
+
+  it('renders one icon per rune in rune order', () => {
+    const rw = { ...baseRunewordFixture, runes: ['Ral', 'Ort', 'Tal'], runeInvFiles: ['invrRal', 'invrOrt', 'invrTal'] };
+    const { container } = render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <RunewordList runewords={[rw]} locale="en" />
+      </NextIntlClientProvider>
+    );
+    const imgs = Array.from(container.querySelectorAll('img')) as HTMLImageElement[];
+    expect(imgs.map(i => i.src)).toEqual(
+      expect.arrayContaining([expect.stringContaining('invrRal'), expect.stringContaining('invrOrt'), expect.stringContaining('invrTal')])
+    );
   });
 });

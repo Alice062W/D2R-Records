@@ -234,6 +234,25 @@ describe('runewords-full.json', () => {
     const vigilance = runewordsFull.find(r => r.name.en === 'Vigilance')!;
     expect(vigilance.levelReq).toBe(0);
   });
+
+  it('has a runeInvFiles entry per rune, in the same order, for every runeword', () => {
+    for (const rw of runewordsFull) {
+      expect(rw.runeInvFiles.length).toBe(rw.runes.length);
+      for (const invFile of rw.runeInvFiles) {
+        expect(invFile).not.toBe('');
+        expect(existsSync(join(process.cwd(), 'public/items/inv', `${invFile}.png`))).toBe(true);
+      }
+    }
+  });
+
+  it("Enigma's runeInvFiles resolve to the real Jah/Ith/Ber icon files, in order", () => {
+    // Note: the vendored game data's invfile for the Jah rune is "invrJo" (not the
+    // naively-expected "invrJah") — this is the same value data/runes.json already
+    // uses (see Task 3), and it's the only Jah icon file that actually exists on
+    // disk under public/items/inv.
+    const enigma = runewordsFull.find(r => r.name.en === 'Enigma')!;
+    expect(enigma.runeInvFiles).toEqual(['invrJo', 'invrIth', 'invrBer']);
+  });
 });
 
 import maxSockets from './max-sockets.json';

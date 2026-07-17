@@ -1,7 +1,25 @@
+'use client';
+
+import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import type runewordsFullJson from '../../../data/runewords-full.json';
 
 type Runeword = (typeof runewordsFullJson)[number];
+
+function RuneIcon({ invFile }: { invFile: string }) {
+  const [iconFailed, setIconFailed] = useState(false);
+  if (!invFile || iconFailed) return null;
+  return (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      src={`/items/inv/${invFile}.png`}
+      alt=""
+      aria-hidden="true"
+      className="w-6 h-6 object-contain inline-block"
+      onError={() => setIconFailed(true)}
+    />
+  );
+}
 
 export default function RunewordList({ runewords, locale }: { runewords: Runeword[]; locale: 'en' | 'zh-TW' | 'zh-CN' }) {
   const t = useTranslations('Items');
@@ -18,8 +36,16 @@ export default function RunewordList({ runewords, locale }: { runewords: Runewor
               </span>
             )}
           </div>
-          <div className="mt-2 text-sm text-zinc-300 flex flex-col gap-0.5">
-            <div>{t('runewordsRunesLabel')}: {rw.runes.join(' + ')}</div>
+          <div className="mt-2 text-sm text-zinc-300 flex flex-col gap-1">
+            <div className="flex items-center gap-2 flex-wrap">
+              <span>{t('runewordsRunesLabel')}:</span>
+              {rw.runes.map((rune, i) => (
+                <span key={`${rune}-${i}`} className="flex items-center gap-1">
+                  <RuneIcon invFile={rw.runeInvFiles[i]} />
+                  {rune}
+                </span>
+              ))}
+            </div>
             <div>{t('runewordsSocketsLabel')}: {rw.sockets}</div>
             <div>{t('runewordsBaseTypesLabel')}: {rw.itemTypes.join(', ')}</div>
             {rw.levelReq > 0 && <div>{t('runewordsLevelReqLabel')}: {rw.levelReq}</div>}

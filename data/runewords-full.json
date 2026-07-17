@@ -11,6 +11,11 @@
       "Ort",
       "Tal"
     ],
+    "runeInvFiles": [
+      "invrRal",
+      "invrOrt",
+      "invrTal"
+    ],
     "sockets": 3,
     "itemTypes": [
       "shld"
@@ -68,6 +73,11 @@
       "Hel",
       "Shael",
       "Ral"
+    ],
+    "runeInvFiles": [
+      "invrHel",
+      "invrShae",
+      "invrRal"
     ],
     "sockets": 3,
     "itemTypes": [
@@ -132,6 +142,13 @@
       "Um",
       "Mal",
       "Lum"
+    ],
+    "runeInvFiles": [
+      "invrBer",
+      "invrTir",
+      "invrUm",
+      "invrMal",
+      "invrLum"
     ],
     "sockets": 5,
     "itemTypes": [
@@ -222,6 +239,11 @@
       "Io",
       "Nef"
     ],
+    "runeInvFiles": [
+      "invrThul",
+      "invrIo",
+      "invrNef"
+    ],
     "sockets": 3,
     "itemTypes": [
       "clubs"
@@ -300,6 +322,11 @@
       "Um",
       "Um"
     ],
+    "runeInvFiles": [
+      "invrSol",
+      "invrUm",
+      "invrUm"
+    ],
     "sockets": 3,
     "itemTypes": [
       "armors"
@@ -362,6 +389,12 @@
       "Ohm",
       "Sur",
       "Eth"
+    ],
+    "runeInvFiles": [
+      "invrRal",
+      "invrOhm",
+      "invrSur",
+      "invrEth"
     ],
     "sockets": 4,
     "itemTypes": [
@@ -452,6 +485,12 @@
       "Lo",
       "Mal",
       "Gul"
+    ],
+    "runeInvFiles": [
+      "invrJo",
+      "invrLo",
+      "invrMal",
+      "invrGul"
     ],
     "sockets": 4,
     "itemTypes": [
@@ -546,6 +585,14 @@
       "Zod",
       "Eth"
     ],
+    "runeInvFiles": [
+      "invrVex",
+      "invrHel",
+      "invrEl",
+      "invrEld",
+      "invrZod",
+      "invrEth"
+    ],
     "sockets": 6,
     "itemTypes": [
       "weap"
@@ -635,6 +682,11 @@
       "Io",
       "Sol"
     ],
+    "runeInvFiles": [
+      "invrShae",
+      "invrIo",
+      "invrSol"
+    ],
     "sockets": 3,
     "itemTypes": [
       "helms"
@@ -707,6 +759,13 @@
       "Mal",
       "Ist",
       "Ohm"
+    ],
+    "runeInvFiles": [
+      "invrAmn",
+      "invrRal",
+      "invrMal",
+      "invrIst",
+      "invrOhm"
     ],
     "sockets": 5,
     "itemTypes": [
@@ -799,6 +858,12 @@
       "Ber",
       "Ist"
     ],
+    "runeInvFiles": [
+      "invrDol",
+      "invrUm",
+      "invrBer",
+      "invrIst"
+    ],
     "sockets": 4,
     "itemTypes": [
       "armors"
@@ -883,6 +948,11 @@
       "Fal",
       "Ohm",
       "Um"
+    ],
+    "runeInvFiles": [
+      "invrFal",
+      "invrOhm",
+      "invrUm"
     ],
     "sockets": 3,
     "itemTypes": [
@@ -974,6 +1044,11 @@
       "Ral",
       "Io"
     ],
+    "runeInvFiles": [
+      "invrIst",
+      "invrRal",
+      "invrIo"
+    ],
     "sockets": 3,
     "itemTypes": [
       "helms"
@@ -1054,6 +1129,11 @@
       "Shael",
       "Um",
       "Tir"
+    ],
+    "runeInvFiles": [
+      "invrShae",
+      "invrUm",
+      "invrTir"
     ],
     "sockets": 3,
     "itemTypes": [
@@ -1146,6 +1226,11 @@
       "Io",
       "Tal"
     ],
+    "runeInvFiles": [
+      "invrShae",
+      "invrIo",
+      "invrTal"
+    ],
     "sockets": 3,
     "itemTypes": [
       "helms"
@@ -1217,6 +1302,13 @@
       "Vex",
       "Ort",
       "Gul"
+    ],
+    "runeInvFiles": [
+      "invrHel",
+      "invrEl",
+      "invrVex",
+      "invrOrt",
+      "invrGul"
     ],
     "sockets": 5,
     "itemTypes": [
@@ -1307,6 +1399,11 @@
       "Lem",
       "Ist",
       "Io"
+    ],
+    "runeInvFiles": [
+      "invrLem",
+      "invrIst",
+      "invrIo"
     ],
     "sockets": 3,
     "itemTypes": [
@@ -1401,6 +1498,13 @@
       "Jah",
       "Ko"
     ],
+    "runeInvFiles": [
+      "invrVex",
+      "invrLo",
+      "invrBer",
+      "invrJo",
+      "invrKo"
+    ],
     "sockets": 5,
     "itemTypes": [
       "polearms"
@@ -1494,6 +1598,13 @@
       "Lo",
       "Cham"
     ],
+    "runeInvFiles": [
+      "invrHel",
+      "invrOhm",
+      "invrUm",
+      "invrLo",
+      "invrCham"
+    ],
     "sockets": 5,
     "itemTypes": [
       "axes"
@@ -1583,6 +1694,11 @@
       "Lo",
       "Sol"
     ],
+    "runeInvFiles": [
+      "invrSur",
+      "invrLo",
+      "invrSol"
+    ],
     "sockets": 3,
     "itemTypes": [
       "armors"
@@ -1671,6 +1787,11 @@
       "Io",
       "Jah",
       "Pul"
+    ],
+    "runeInvFiles": [
+      "invrIo",
+      "invrJo",
+      "invrPul"
     ],
     "sockets": 3,
     "itemTypes": [
@@ -1763,6 +1884,11 @@
       "Um",
       "Thul"
     ],
+    "runeInvFiles": [
+      "invrShae",
+      "invrUm",
+      "invrThul"
+    ],
     "sockets": 3,
     "itemTypes": [
       "armors"
@@ -1852,6 +1978,11 @@
       "Tal",
       "Amn"
     ],
+    "runeInvFiles": [
+      "invrTir",
+      "invrTal",
+      "invrAmn"
+    ],
     "sockets": 3,
     "itemTypes": [
       "miss"
@@ -1940,6 +2071,11 @@
       "Ith",
       "Ber"
     ],
+    "runeInvFiles": [
+      "invrJo",
+      "invrIth",
+      "invrBer"
+    ],
     "sockets": 3,
     "itemTypes": [
       "armors"
@@ -2027,6 +2163,11 @@
       "Ral",
       "Sur"
     ],
+    "runeInvFiles": [
+      "invrPul",
+      "invrRal",
+      "invrSur"
+    ],
     "sockets": 3,
     "itemTypes": [
       "armors"
@@ -2089,6 +2230,13 @@
       "Ist",
       "Sol",
       "Sur"
+    ],
+    "runeInvFiles": [
+      "invrAmn",
+      "invrBer",
+      "invrIst",
+      "invrSol",
+      "invrSur"
     ],
     "sockets": 5,
     "itemTypes": [
@@ -2178,6 +2326,12 @@
       "Ohm",
       "Ist",
       "Dol"
+    ],
+    "runeInvFiles": [
+      "invrVex",
+      "invrOhm",
+      "invrIst",
+      "invrDol"
     ],
     "sockets": 4,
     "itemTypes": [
@@ -2269,6 +2423,12 @@
       "Lem",
       "Eld"
     ],
+    "runeInvFiles": [
+      "invrOhm",
+      "invrJo",
+      "invrLem",
+      "invrEld"
+    ],
     "sockets": 4,
     "itemTypes": [
       "miss"
@@ -2358,6 +2518,12 @@
       "Ort",
       "Jah"
     ],
+    "runeInvFiles": [
+      "invrFal",
+      "invrOhm",
+      "invrOrt",
+      "invrJo"
+    ],
     "sockets": 4,
     "itemTypes": [
       "axes"
@@ -2437,6 +2603,11 @@
       "Nef",
       "Pul",
       "Vex"
+    ],
+    "runeInvFiles": [
+      "invrNef",
+      "invrPul",
+      "invrVex"
     ],
     "sockets": 3,
     "itemTypes": [
@@ -2518,6 +2689,12 @@
       "Sol",
       "Dol",
       "Lo"
+    ],
+    "runeInvFiles": [
+      "invrEl",
+      "invrSol",
+      "invrDol",
+      "invrLo"
     ],
     "sockets": 4,
     "itemTypes": [
@@ -2608,6 +2785,11 @@
       "Gul",
       "Eth"
     ],
+    "runeInvFiles": [
+      "invrJo",
+      "invrGul",
+      "invrEth"
+    ],
     "sockets": 3,
     "itemTypes": [
       "mele"
@@ -2692,6 +2874,11 @@
       "Fal",
       "Um",
       "Pul"
+    ],
+    "runeInvFiles": [
+      "invrFal",
+      "invrUm",
+      "invrPul"
     ],
     "sockets": 3,
     "itemTypes": [
@@ -2782,6 +2969,13 @@
       "Lo",
       "Mal",
       "Ral"
+    ],
+    "runeInvFiles": [
+      "invrEth",
+      "invrTir",
+      "invrLo",
+      "invrMal",
+      "invrRal"
     ],
     "sockets": 5,
     "itemTypes": [
@@ -2874,6 +3068,11 @@
       "Io",
       "Ort"
     ],
+    "runeInvFiles": [
+      "invrShae",
+      "invrIo",
+      "invrOrt"
+    ],
     "sockets": 3,
     "itemTypes": [
       "helms"
@@ -2936,6 +3135,12 @@
       "Cham",
       "Amn",
       "Lo"
+    ],
+    "runeInvFiles": [
+      "invrSur",
+      "invrCham",
+      "invrAmn",
+      "invrLo"
     ],
     "sockets": 4,
     "itemTypes": [
@@ -3026,6 +3231,12 @@
       "Ith",
       "Sol",
       "Ko"
+    ],
+    "runeInvFiles": [
+      "invrTir",
+      "invrIth",
+      "invrSol",
+      "invrKo"
     ],
     "sockets": 4,
     "itemTypes": [
@@ -3118,6 +3329,12 @@
       "Pul",
       "Thul"
     ],
+    "runeInvFiles": [
+      "invrKo",
+      "invrVex",
+      "invrPul",
+      "invrThul"
+    ],
     "sockets": 4,
     "itemTypes": [
       "staves"
@@ -3207,6 +3424,11 @@
       "Io",
       "Thul"
     ],
+    "runeInvFiles": [
+      "invrShae",
+      "invrIo",
+      "invrThul"
+    ],
     "sockets": 3,
     "itemTypes": [
       "helms"
@@ -3278,6 +3500,12 @@
       "Ral",
       "Ort",
       "Tal"
+    ],
+    "runeInvFiles": [
+      "invrEth",
+      "invrRal",
+      "invrOrt",
+      "invrTal"
     ],
     "sockets": 4,
     "itemTypes": [
@@ -3369,6 +3597,13 @@
       "Tir",
       "Sol"
     ],
+    "runeInvFiles": [
+      "invrAmn",
+      "invrEl",
+      "invrIth",
+      "invrTir",
+      "invrSol"
+    ],
     "sockets": 5,
     "itemTypes": [
       "mele"
@@ -3445,6 +3680,11 @@
       "Ko",
       "Eld"
     ],
+    "runeInvFiles": [
+      "invrShae",
+      "invrKo",
+      "invrEld"
+    ],
     "sockets": 3,
     "itemTypes": [
       "armors"
@@ -3512,6 +3752,11 @@
       "Ko",
       "Eld"
     ],
+    "runeInvFiles": [
+      "invrShae",
+      "invrKo",
+      "invrEld"
+    ],
     "sockets": 3,
     "itemTypes": [
       "weap"
@@ -3573,6 +3818,12 @@
       "Shael",
       "Jah",
       "Lo"
+    ],
+    "runeInvFiles": [
+      "invrAmn",
+      "invrShae",
+      "invrJo",
+      "invrLo"
     ],
     "sockets": 4,
     "itemTypes": [
@@ -3665,6 +3916,12 @@
       "Ber",
       "Ist"
     ],
+    "runeInvFiles": [
+      "invrBer",
+      "invrMal",
+      "invrBer",
+      "invrIst"
+    ],
     "sockets": 4,
     "itemTypes": [
       "polearms"
@@ -3756,6 +4013,12 @@
       "Tal",
       "Sol"
     ],
+    "runeInvFiles": [
+      "invrRal",
+      "invrTir",
+      "invrTal",
+      "invrSol"
+    ],
     "sockets": 4,
     "itemTypes": [
       "polearms"
@@ -3846,6 +4109,11 @@
       "Ral",
       "Thul"
     ],
+    "runeInvFiles": [
+      "invrAmn",
+      "invrRal",
+      "invrThul"
+    ],
     "sockets": 3,
     "itemTypes": [
       "swords"
@@ -3922,6 +4190,12 @@
       "Um",
       "Gul",
       "Fal"
+    ],
+    "runeInvFiles": [
+      "invrMal",
+      "invrUm",
+      "invrGul",
+      "invrFal"
     ],
     "sockets": 4,
     "itemTypes": [
@@ -4013,6 +4287,14 @@
       "Jah",
       "Ber"
     ],
+    "runeInvFiles": [
+      "invrJo",
+      "invrMal",
+      "invrJo",
+      "invrSur",
+      "invrJo",
+      "invrBer"
+    ],
     "sockets": 6,
     "itemTypes": [
       "swords"
@@ -4102,6 +4384,11 @@
       "Amn",
       "Lem",
       "Ko"
+    ],
+    "runeInvFiles": [
+      "invrAmn",
+      "invrLem",
+      "invrKo"
     ],
     "sockets": 3,
     "itemTypes": [
@@ -4193,6 +4480,10 @@
       "Tir",
       "Ral"
     ],
+    "runeInvFiles": [
+      "invrTir",
+      "invrRal"
+    ],
     "sockets": 2,
     "itemTypes": [
       "staves"
@@ -4269,6 +4560,11 @@
       "Lum",
       "Fal"
     ],
+    "runeInvFiles": [
+      "invrHel",
+      "invrLum",
+      "invrFal"
+    ],
     "sockets": 3,
     "itemTypes": [
       "armors"
@@ -4344,6 +4640,10 @@
       "Ort",
       "Sol"
     ],
+    "runeInvFiles": [
+      "invrOrt",
+      "invrSol"
+    ],
     "sockets": 2,
     "itemTypes": [
       "helms"
@@ -4401,6 +4701,11 @@
       "Ith",
       "El",
       "Eth"
+    ],
+    "runeInvFiles": [
+      "invrIth",
+      "invrEl",
+      "invrEth"
     ],
     "sockets": 3,
     "itemTypes": [
@@ -4478,6 +4783,11 @@
       "Ko",
       "Nef"
     ],
+    "runeInvFiles": [
+      "invrShae",
+      "invrKo",
+      "invrNef"
+    ],
     "sockets": 3,
     "itemTypes": [
       "miss"
@@ -4554,6 +4864,12 @@
       "Io",
       "Sol",
       "Eth"
+    ],
+    "runeInvFiles": [
+      "invrLum",
+      "invrIo",
+      "invrSol",
+      "invrEth"
     ],
     "sockets": 4,
     "itemTypes": [
@@ -4640,6 +4956,11 @@
       "Cham",
       "Fal"
     ],
+    "runeInvFiles": [
+      "invrIo",
+      "invrCham",
+      "invrFal"
+    ],
     "sockets": 3,
     "itemTypes": [
       "helms"
@@ -4722,6 +5043,13 @@
       "Thul",
       "Ith"
     ],
+    "runeInvFiles": [
+      "invrCham",
+      "invrShae",
+      "invrGul",
+      "invrThul",
+      "invrIth"
+    ],
     "sockets": 5,
     "itemTypes": [
       "miss"
@@ -4800,6 +5128,11 @@
       "Mal",
       "Gul",
       "Amn"
+    ],
+    "runeInvFiles": [
+      "invrMal",
+      "invrGul",
+      "invrAmn"
     ],
     "sockets": 3,
     "itemTypes": [
@@ -4891,6 +5224,11 @@
       "Amn",
       "Nef"
     ],
+    "runeInvFiles": [
+      "invrHel",
+      "invrAmn",
+      "invrNef"
+    ],
     "sockets": 3,
     "itemTypes": [
       "armors"
@@ -4950,6 +5288,10 @@
     "runes": [
       "Nef",
       "Tir"
+    ],
+    "runeInvFiles": [
+      "invrNef",
+      "invrTir"
     ],
     "sockets": 2,
     "itemTypes": [
@@ -5029,6 +5371,12 @@
       "Pul",
       "Mal",
       "Lum"
+    ],
+    "runeInvFiles": [
+      "invrShae",
+      "invrPul",
+      "invrMal",
+      "invrLum"
     ],
     "sockets": 4,
     "itemTypes": [
@@ -5123,6 +5471,13 @@
       "Eth",
       "Fal"
     ],
+    "runeInvFiles": [
+      "invrHel",
+      "invrKo",
+      "invrThul",
+      "invrEth",
+      "invrFal"
+    ],
     "sockets": 5,
     "itemTypes": [
       "polearms"
@@ -5215,6 +5570,14 @@
       "Io",
       "Nef"
     ],
+    "runeInvFiles": [
+      "invrZod",
+      "invrIst",
+      "invrLem",
+      "invrLum",
+      "invrIo",
+      "invrNef"
+    ],
     "sockets": 6,
     "itemTypes": [
       "staves"
@@ -5306,6 +5669,12 @@
       "Eld",
       "Lem"
     ],
+    "runeInvFiles": [
+      "invrDol",
+      "invrOrt",
+      "invrEld",
+      "invrLem"
+    ],
     "sockets": 4,
     "itemTypes": [
       "weap"
@@ -5395,6 +5764,11 @@
       "Ort",
       "Thul"
     ],
+    "runeInvFiles": [
+      "invrTal",
+      "invrOrt",
+      "invrThul"
+    ],
     "sockets": 3,
     "itemTypes": [
       "katars"
@@ -5483,6 +5857,11 @@
       "Thul",
       "Amn"
     ],
+    "runeInvFiles": [
+      "invrShae",
+      "invrThul",
+      "invrAmn"
+    ],
     "sockets": 3,
     "itemTypes": [
       "armors"
@@ -5544,6 +5923,12 @@
       "Vex",
       "Lo",
       "Jah"
+    ],
+    "runeInvFiles": [
+      "invrVex",
+      "invrVex",
+      "invrLo",
+      "invrJo"
     ],
     "sockets": 4,
     "itemTypes": [
@@ -5637,6 +6022,11 @@
       "Shael",
       "Um"
     ],
+    "runeInvFiles": [
+      "invrCham",
+      "invrShae",
+      "invrUm"
+    ],
     "sockets": 3,
     "itemTypes": [
       "swords"
@@ -5729,6 +6119,12 @@
       "Io",
       "Lo"
     ],
+    "runeInvFiles": [
+      "invrCham",
+      "invrSur",
+      "invrIo",
+      "invrLo"
+    ],
     "sockets": 4,
     "itemTypes": [
       "polearms"
@@ -5819,6 +6215,11 @@
       "Gul",
       "Eld"
     ],
+    "runeInvFiles": [
+      "invrRal",
+      "invrGul",
+      "invrEld"
+    ],
     "sockets": 3,
     "itemTypes": [
       "armors"
@@ -5878,6 +6279,10 @@
     "runes": [
       "Mal",
       "Tir"
+    ],
+    "runeInvFiles": [
+      "invrMal",
+      "invrTir"
     ],
     "sockets": 2,
     "itemTypes": [
@@ -5967,6 +6372,11 @@
       "Sol",
       "Ith"
     ],
+    "runeInvFiles": [
+      "invrNef",
+      "invrSol",
+      "invrIth"
+    ],
     "sockets": 3,
     "itemTypes": [
       "helms"
@@ -6043,6 +6453,11 @@
       "Mal",
       "Ith"
     ],
+    "runeInvFiles": [
+      "invrOrt",
+      "invrMal",
+      "invrIth"
+    ],
     "sockets": 3,
     "itemTypes": [
       "armors"
@@ -6103,6 +6518,10 @@
     "runes": [
       "Shael",
       "Eth"
+    ],
+    "runeInvFiles": [
+      "invrShae",
+      "invrEth"
     ],
     "sockets": 2,
     "itemTypes": [
@@ -6180,6 +6599,12 @@
       "Ko",
       "Lem",
       "Gul"
+    ],
+    "runeInvFiles": [
+      "invrHel",
+      "invrKo",
+      "invrLem",
+      "invrGul"
     ],
     "sockets": 4,
     "itemTypes": [
@@ -6273,6 +6698,11 @@
       "Shael",
       "Ohm"
     ],
+    "runeInvFiles": [
+      "invrAmn",
+      "invrShae",
+      "invrOhm"
+    ],
     "sockets": 3,
     "itemTypes": [
       "daggers"
@@ -6363,6 +6793,11 @@
       "Ko",
       "Ko",
       "Mal"
+    ],
+    "runeInvFiles": [
+      "invrKo",
+      "invrKo",
+      "invrMal"
     ],
     "sockets": 3,
     "itemTypes": [
@@ -6456,6 +6891,14 @@
       "Tir",
       "Vex"
     ],
+    "runeInvFiles": [
+      "invrDol",
+      "invrEld",
+      "invrHel",
+      "invrIst",
+      "invrTir",
+      "invrVex"
+    ],
     "sockets": 6,
     "itemTypes": [
       "weap"
@@ -6540,6 +6983,10 @@
       "Nef",
       "Lum"
     ],
+    "runeInvFiles": [
+      "invrNef",
+      "invrLum"
+    ],
     "sockets": 2,
     "itemTypes": [
       "armors"
@@ -6618,6 +7065,12 @@
       "Thul",
       "Ort",
       "Amn"
+    ],
+    "runeInvFiles": [
+      "invrTal",
+      "invrThul",
+      "invrOrt",
+      "invrAmn"
     ],
     "sockets": 4,
     "itemTypes": [
@@ -6707,6 +7160,10 @@
       "Eth",
       "Lum"
     ],
+    "runeInvFiles": [
+      "invrEth",
+      "invrLum"
+    ],
     "sockets": 2,
     "itemTypes": [
       "shld"
@@ -6793,6 +7250,10 @@
       "Tal",
       "Eth"
     ],
+    "runeInvFiles": [
+      "invrTal",
+      "invrEth"
+    ],
     "sockets": 2,
     "itemTypes": [
       "armors"
@@ -6868,6 +7329,10 @@
       "Tir",
       "El"
     ],
+    "runeInvFiles": [
+      "invrTir",
+      "invrEl"
+    ],
     "sockets": 2,
     "itemTypes": [
       "swords"
@@ -6935,6 +7400,12 @@
       "Um",
       "Pul",
       "Lum"
+    ],
+    "runeInvFiles": [
+      "invrShae",
+      "invrUm",
+      "invrPul",
+      "invrLum"
     ],
     "sockets": 4,
     "itemTypes": [
@@ -7023,6 +7494,10 @@
       "Amn",
       "Tir"
     ],
+    "runeInvFiles": [
+      "invrAmn",
+      "invrTir"
+    ],
     "sockets": 2,
     "itemTypes": [
       "mele"
@@ -7080,6 +7555,11 @@
       "Shael",
       "Io",
       "Ral"
+    ],
+    "runeInvFiles": [
+      "invrShae",
+      "invrIo",
+      "invrRal"
     ],
     "sockets": 3,
     "itemTypes": [
@@ -7142,6 +7622,11 @@
       "Shael",
       "Thul",
       "Lem"
+    ],
+    "runeInvFiles": [
+      "invrShae",
+      "invrThul",
+      "invrLem"
     ],
     "sockets": 3,
     "itemTypes": [
@@ -7206,6 +7691,14 @@
       "Eld",
       "El",
       "Hel"
+    ],
+    "runeInvFiles": [
+      "invrFal",
+      "invrIo",
+      "invrIth",
+      "invrEld",
+      "invrEl",
+      "invrHel"
     ],
     "sockets": 6,
     "itemTypes": [
@@ -7296,6 +7789,11 @@
       "Dol",
       "Mal"
     ],
+    "runeInvFiles": [
+      "invrTal",
+      "invrDol",
+      "invrMal"
+    ],
     "sockets": 3,
     "itemTypes": [
       "weap"
@@ -7364,6 +7862,10 @@
     "runes": [
       "Dol",
       "Gul"
+    ],
+    "runeInvFiles": [
+      "invrDol",
+      "invrGul"
     ],
     "sockets": 2,
     "itemTypes": [
@@ -7457,6 +7959,12 @@
       "El",
       "Eld"
     ],
+    "runeInvFiles": [
+      "invrLem",
+      "invrKo",
+      "invrEl",
+      "invrEld"
+    ],
     "sockets": 4,
     "itemTypes": [
       "swords"
@@ -7548,6 +8056,11 @@
       "Zod",
       "Ist"
     ],
+    "runeInvFiles": [
+      "invrThul",
+      "invrZod",
+      "invrIst"
+    ],
     "sockets": 3,
     "itemTypes": [
       "daggers"
@@ -7629,6 +8142,11 @@
       "Ko",
       "Tir"
     ],
+    "runeInvFiles": [
+      "invrLum",
+      "invrKo",
+      "invrTir"
+    ],
     "sockets": 3,
     "itemTypes": [
       "armors"
@@ -7667,6 +8185,10 @@
     "runes": [
       "Dol",
       "Io"
+    ],
+    "runeInvFiles": [
+      "invrDol",
+      "invrIo"
     ],
     "sockets": 2,
     "itemTypes": [
@@ -7751,6 +8273,10 @@
     "runes": [
       "Sur",
       "El"
+    ],
+    "runeInvFiles": [
+      "invrSur",
+      "invrEl"
     ],
     "sockets": 2,
     "itemTypes": [
@@ -7841,6 +8367,11 @@
       "Ith",
       "Eld"
     ],
+    "runeInvFiles": [
+      "invrPul",
+      "invrIth",
+      "invrEld"
+    ],
     "sockets": 3,
     "itemTypes": [
       "helms"
@@ -7920,6 +8451,12 @@
       "Lum",
       "Ber",
       "Mal"
+    ],
+    "runeInvFiles": [
+      "invrPul",
+      "invrLum",
+      "invrBer",
+      "invrMal"
     ],
     "sockets": 4,
     "itemTypes": [
@@ -8010,6 +8547,10 @@
     "runes": [
       "Ort",
       "Eth"
+    ],
+    "runeInvFiles": [
+      "invrOrt",
+      "invrEth"
     ],
     "sockets": 2,
     "itemTypes": [
