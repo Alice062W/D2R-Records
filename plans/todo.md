@@ -274,10 +274,10 @@ _Spec: [docs/superpowers/specs/2026-07-16-cube-crafted-icons-design.md](../docs/
 ### Summoner-Theme Restyle
 _Spec: [docs/superpowers/specs/2026-07-17-summoner-theme-restyle-design.md](../docs/superpowers/specs/2026-07-17-summoner-theme-restyle-design.md) · Plan: [plans/summoner-theme-restyle-implementation.md](./summoner-theme-restyle-implementation.md)_
 
-- [ ] Theme tokens, Cinzel font, and base layout colors
-- [ ] Mechanical class-name sweep (zinc-*/amber-* -> Summoner-theme tokens)
-- [ ] Cinzel font on nav/tab chrome components
-- [ ] Full verification + spot-check
+- [x] Theme tokens, Cinzel font, and base layout colors
+- [x] Mechanical class-name sweep (zinc-*/amber-* -> Summoner-theme tokens)
+- [x] Cinzel font on nav/tab chrome components
+- [x] Full verification + spot-check — found + fixed a font-cinzel Tailwind namespace bug
 
 ## Backlog / Ideas
 
