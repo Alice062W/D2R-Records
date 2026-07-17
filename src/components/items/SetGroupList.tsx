@@ -31,7 +31,7 @@ export default function SetGroupList({
         <Link
           key={g.slug}
           href={`${basePath}/${g.slug}`}
-          className="flex items-center gap-3 px-4 py-4 rounded-xl bg-panel border border-panel-border text-[#22ff55] font-semibold hover:border-gold transition-colors"
+          className="flex items-center gap-3 px-4 py-4 rounded-xl bg-panel border border-panel-border text-[#22ff55] font-semibold font-cinzel hover:border-gold transition-colors"
         >
           <GroupIcon invFile={g.repInvFile} />
           {g.name}

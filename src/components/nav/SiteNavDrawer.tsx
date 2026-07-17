@@ -59,7 +59,7 @@ export default function SiteNavDrawer() {
         </button>
         <Link
           href={linkHref('')}
-          className="text-sm font-semibold text-parchment-bright hover:text-gold-bright transition-colors"
+          className="text-sm font-semibold font-cinzel text-parchment-bright hover:text-gold-bright transition-colors"
         >
           D2R Institute
         </Link>
@@ -141,7 +141,7 @@ function NavLink({
     <Link
       href={href}
       onClick={onNavigate}
-      className={`px-3 py-2 rounded-lg text-sm hover:bg-panel-alt transition-colors ${colorClass ?? 'text-parchment hover:text-gold-bright'}`}
+      className={`px-3 py-2 rounded-lg text-sm font-cinzel hover:bg-panel-alt transition-colors ${colorClass ?? 'text-parchment hover:text-gold-bright'}`}
     >
       {children}
     </Link>

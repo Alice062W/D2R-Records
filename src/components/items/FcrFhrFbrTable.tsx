@@ -29,7 +29,7 @@ export default function FcrFhrFbrTable({ tables }: { tables: TableData[] }) {
             type="button"
             aria-current={tbl.id === selectedId ? 'true' : undefined}
             onClick={() => setSelectedId(tbl.id)}
-            className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+            className={`px-3 py-1.5 rounded-lg text-sm font-medium font-cinzel transition-colors ${
               tbl.id === selectedId
                 ? 'bg-gold/20 text-gold-bright'
                 : 'bg-panel-alt text-parchment hover:text-gold-bright'

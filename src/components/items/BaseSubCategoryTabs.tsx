@@ -20,7 +20,7 @@ export default function BaseSubCategoryTabs({
         <button
           key={opt ?? 'all'}
           onClick={() => onSelect(opt)}
-          className={`px-3 py-1.5 rounded-lg text-sm border transition-colors ${
+          className={`px-3 py-1.5 rounded-lg text-sm font-cinzel border transition-colors ${
             selected === opt
               ? 'border-gold text-gold-bright bg-panel-alt'
               : 'border-panel-border text-parchment hover:border-gold hover:text-gold-bright'

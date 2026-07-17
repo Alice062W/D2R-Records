@@ -19,7 +19,7 @@ export default function RunewordFilters({
   const socketOptions = [2, 3, 4, 5, 6];
 
   function pill(active: boolean) {
-    return `px-3 py-1.5 rounded-lg text-sm transition-colors ${
+    return `px-3 py-1.5 rounded-lg text-sm font-cinzel transition-colors ${
       active
         ? 'bg-gold text-ink-950 font-semibold'
         : 'bg-panel border border-panel-border text-parchment hover:bg-panel-alt'

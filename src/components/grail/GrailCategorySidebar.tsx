@@ -48,7 +48,7 @@ export default function GrailCategorySidebar({
                 : 'text-parchment hover:bg-panel-alt'
             }`}
           >
-            <span>{t(`slot_${slot}`)}</span>
+            <span className="font-cinzel">{t(`slot_${slot}`)}</span>
             <span className={`text-xs ${active ? 'text-panel-alt' : 'text-muted'}`}>
               {found}/{total}
             </span>
@@ -69,7 +69,7 @@ export default function GrailCategorySidebar({
           onClick={() => setMobileOpen(v => !v)}
           className="w-full flex items-center justify-between px-3 py-2 rounded-lg border border-panel-border bg-panel text-sm text-parchment-bright"
         >
-          <span>{activeSlot ? t(`slot_${activeSlot}`) : t('categoriesLabel')}</span>
+          <span className="font-cinzel">{activeSlot ? t(`slot_${activeSlot}`) : t('categoriesLabel')}</span>
           <span className="text-muted">{mobileOpen ? '▲' : '▼'}</span>
         </button>
         {mobileOpen && (
