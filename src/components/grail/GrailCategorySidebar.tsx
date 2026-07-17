@@ -44,12 +44,12 @@ export default function GrailCategorySidebar({
             aria-current={active ? 'true' : undefined}
             className={`flex items-center justify-between px-3 py-2 rounded-lg text-sm text-left transition-colors ${
               active
-                ? 'bg-amber-500 text-zinc-950 font-semibold'
-                : 'text-zinc-300 hover:bg-zinc-800'
+                ? 'bg-gold text-ink-950 font-semibold'
+                : 'text-parchment hover:bg-panel-alt'
             }`}
           >
             <span>{t(`slot_${slot}`)}</span>
-            <span className={`text-xs ${active ? 'text-zinc-800' : 'text-zinc-500'}`}>
+            <span className={`text-xs ${active ? 'text-panel-alt' : 'text-muted'}`}>
               {found}/{total}
             </span>
           </button>
@@ -67,13 +67,13 @@ export default function GrailCategorySidebar({
       <div className="md:hidden">
         <button
           onClick={() => setMobileOpen(v => !v)}
-          className="w-full flex items-center justify-between px-3 py-2 rounded-lg border border-zinc-700 bg-zinc-900 text-sm text-zinc-200"
+          className="w-full flex items-center justify-between px-3 py-2 rounded-lg border border-panel-border bg-panel text-sm text-parchment-bright"
         >
           <span>{activeSlot ? t(`slot_${activeSlot}`) : t('categoriesLabel')}</span>
-          <span className="text-zinc-500">{mobileOpen ? '▲' : '▼'}</span>
+          <span className="text-muted">{mobileOpen ? '▲' : '▼'}</span>
         </button>
         {mobileOpen && (
-          <div className="mt-1 border border-zinc-700 rounded-lg bg-zinc-900 p-1 max-h-80 overflow-y-auto">
+          <div className="mt-1 border border-panel-border rounded-lg bg-panel p-1 max-h-80 overflow-y-auto">
             {list}
           </div>
         )}

@@ -25,8 +25,8 @@ export default function CategoryItemList({ items }: { items: GrailItem[] }) {
               aria-pressed={activeGrade === grade}
               className={`px-3 py-1.5 rounded-lg text-sm transition-colors ${
                 activeGrade === grade
-                  ? 'bg-amber-500 text-zinc-950 font-semibold'
-                  : 'bg-zinc-900 border border-zinc-700 text-zinc-300 hover:bg-zinc-800'
+                  ? 'bg-gold text-ink-950 font-semibold'
+                  : 'bg-panel border border-panel-border text-parchment hover:bg-panel-alt'
               }`}
             >
               {t(`grade_${grade}`)}

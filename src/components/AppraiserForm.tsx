@@ -8,10 +8,10 @@ import { appraise, getAllBases, type AppraiseResult } from '@/lib/appraise';
 const BASES = getAllBases();
 
 const TIER_STYLES: Record<number, string> = {
-  1: 'border-amber-400 bg-amber-950/40 text-amber-300',
+  1: 'border-gold bg-gold/10 text-gold-bright',
   2: 'border-green-500 bg-green-950/40 text-green-300',
   3: 'border-blue-500 bg-blue-950/40 text-blue-300',
-  4: 'border-zinc-600 bg-zinc-900 text-zinc-400',
+  4: 'border-panel-border-light bg-panel text-muted',
 };
 
 const TIER_ICON: Record<number, string> = {
@@ -46,14 +46,14 @@ export default function AppraiserForm() {
   return (
     <div className="w-full max-w-2xl mx-auto px-4">
       {/* ── Inputs ── */}
-      <div className="flex flex-col gap-4 bg-zinc-900 border border-zinc-700 rounded-xl p-6">
+      <div className="flex flex-col gap-4 bg-panel border border-panel-border rounded-xl p-6">
         {/* Base item selector */}
         <div className="flex flex-col gap-1">
-          <label className="text-xs font-semibold uppercase tracking-wider text-zinc-400">
+          <label className="text-xs font-semibold uppercase tracking-wider text-muted">
             {t('itemBase')}
           </label>
           <select
-            className="bg-zinc-800 border border-zinc-600 rounded-lg px-3 py-2 text-zinc-100 focus:outline-none focus:border-amber-400"
+            className="bg-panel-alt border border-panel-border-light rounded-lg px-3 py-2 text-parchment-bright focus:outline-none focus:border-gold"
             value={baseCode}
             onChange={e => { setBaseCode(e.target.value); setResult(null); setSockets(Math.min(sockets, BASES.find(b=>b.code===e.target.value)?.maxSockets ?? 6)); }}
           >
@@ -79,18 +79,18 @@ export default function AppraiserForm() {
               className="rounded"
               onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
             />
-            <span className="text-sm text-zinc-300">{selectedBase.name}</span>
+            <span className="text-sm text-parchment">{selectedBase.name}</span>
           </div>
         )}
 
         {/* Sockets + Ethereal row */}
         <div className="flex gap-4 flex-wrap">
           <div className="flex flex-col gap-1 flex-1 min-w-[120px]">
-            <label className="text-xs font-semibold uppercase tracking-wider text-zinc-400">
+            <label className="text-xs font-semibold uppercase tracking-wider text-muted">
               {t('sockets')}
             </label>
             <select
-              className="bg-zinc-800 border border-zinc-600 rounded-lg px-3 py-2 text-zinc-100 focus:outline-none focus:border-amber-400"
+              className="bg-panel-alt border border-panel-border-light rounded-lg px-3 py-2 text-parchment-bright focus:outline-none focus:border-gold"
               value={sockets}
               onChange={e => { setSockets(Number(e.target.value)); setResult(null); }}
             >
@@ -101,13 +101,13 @@ export default function AppraiserForm() {
           </div>
 
           <div className="flex flex-col gap-1 flex-1 min-w-[120px]">
-            <label className="text-xs font-semibold uppercase tracking-wider text-zinc-400">
+            <label className="text-xs font-semibold uppercase tracking-wider text-muted">
               {t('itemLevel')}
             </label>
             <input
               type="number"
               min={1} max={99}
-              className="bg-zinc-800 border border-zinc-600 rounded-lg px-3 py-2 text-zinc-100 focus:outline-none focus:border-amber-400"
+              className="bg-panel-alt border border-panel-border-light rounded-lg px-3 py-2 text-parchment-bright focus:outline-none focus:border-gold"
               value={ilvl}
               onChange={e => { setIlvl(Number(e.target.value)); setResult(null); }}
             />
@@ -121,7 +121,7 @@ export default function AppraiserForm() {
                 onChange={e => { setEthereal(e.target.checked); setResult(null); }}
                 className="w-4 h-4 accent-amber-400"
               />
-              <span className="text-sm text-zinc-200">{t('ethereal')}</span>
+              <span className="text-sm text-parchment-bright">{t('ethereal')}</span>
             </label>
           </div>
         </div>
@@ -129,7 +129,7 @@ export default function AppraiserForm() {
         <button
           onClick={handleAppraise}
           disabled={!baseCode}
-          className="mt-2 w-full py-3 rounded-xl font-bold text-sm uppercase tracking-wider bg-amber-500 text-zinc-950 hover:bg-amber-400 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+          className="mt-2 w-full py-3 rounded-xl font-bold text-sm uppercase tracking-wider bg-gold text-ink-950 hover:bg-gold-bright disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
         >
           {t('appraise')}
         </button>
@@ -153,7 +153,7 @@ export default function AppraiserForm() {
             <div>
               <div className="text-xl font-bold">{result.tierLabel}</div>
               {selectedBase && (
-                <div className="text-xs text-zinc-400 mt-0.5">
+                <div className="text-xs text-muted mt-0.5">
                   {selectedBase.name} · {sockets}{t('socketsShort')} {ethereal ? `· ${t('eth')}` : ''}
                 </div>
               )}
@@ -161,31 +161,31 @@ export default function AppraiserForm() {
           </div>
 
           {result.ethNote && (
-            <div className="mb-3 text-xs bg-zinc-800/60 border border-zinc-600 rounded-lg px-3 py-2 text-amber-300">
+            <div className="mb-3 text-xs bg-panel-alt/60 border border-panel-border-light rounded-lg px-3 py-2 text-gold-bright">
               ⚡ {result.ethNote}
             </div>
           )}
 
           {result.socketNote && (
-            <div className="mb-3 text-xs bg-zinc-800/60 border border-zinc-600 rounded-lg px-3 py-2 text-blue-300">
+            <div className="mb-3 text-xs bg-panel-alt/60 border border-panel-border-light rounded-lg px-3 py-2 text-blue-300">
               ℹ {result.socketNote}
             </div>
           )}
 
           {result.matchedRunewords.length > 0 ? (
             <>
-              <div className="text-xs font-semibold uppercase tracking-wider text-zinc-400 mb-2">
+              <div className="text-xs font-semibold uppercase tracking-wider text-muted mb-2">
                 {t('eligibleRunewords')}
               </div>
               <div className="flex flex-col gap-2">
                 {result.matchedRunewords.map(rw => (
                   <div
                     key={rw.name}
-                    className="flex items-center justify-between bg-zinc-800/60 border border-zinc-700 rounded-lg px-3 py-2 gap-3"
+                    className="flex items-center justify-between bg-panel-alt/60 border border-panel-border rounded-lg px-3 py-2 gap-3"
                   >
                     <div>
-                      <span className="font-semibold text-zinc-100">{rw.name}</span>
-                      <span className="ml-2 text-xs text-zinc-400">
+                      <span className="font-semibold text-parchment-bright">{rw.name}</span>
+                      <span className="ml-2 text-xs text-muted">
                         [{rw.runes.join(' · ')}]
                       </span>
                       <div className="flex gap-2 mt-0.5">
@@ -205,7 +205,7 @@ export default function AppraiserForm() {
                       href={traderieUrl(rw.name)}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="shrink-0 text-xs px-3 py-1.5 rounded-lg border border-zinc-600 text-zinc-300 hover:border-amber-400 hover:text-amber-300 transition-colors"
+                      className="shrink-0 text-xs px-3 py-1.5 rounded-lg border border-panel-border-light text-parchment hover:border-gold hover:text-gold-bright transition-colors"
                     >
                       {t('viewTraderie')} ↗
                     </a>
@@ -214,7 +214,7 @@ export default function AppraiserForm() {
               </div>
             </>
           ) : (
-            <div className="text-sm text-zinc-500 italic">
+            <div className="text-sm text-muted italic">
               {t('noRunewords')}
             </div>
           )}

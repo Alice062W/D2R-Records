@@ -19,8 +19,8 @@ export default async function CraftedItemsPage({
   return (
     <main className="flex flex-col items-center py-10 px-4 gap-8 flex-1 w-full">
       <div className="text-center">
-        <h1 className="text-3xl font-bold tracking-tight text-zinc-100">{t('craftedItemsPageTitle')}</h1>
-        <p className="mt-2 text-sm text-zinc-400 max-w-md">{t('craftedItemsPageSubtitle')}</p>
+        <h1 className="text-3xl font-bold tracking-tight text-parchment-bright">{t('craftedItemsPageTitle')}</h1>
+        <p className="mt-2 text-sm text-muted max-w-md">{t('craftedItemsPageSubtitle')}</p>
       </div>
       <div className="w-full max-w-4xl">
         <CraftedItemList items={craftedItems} locale={locale as 'en' | 'zh-TW' | 'zh-CN'} />

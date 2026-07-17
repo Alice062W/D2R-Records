@@ -41,13 +41,13 @@ export default async function SetCategoryPage({
   return (
     <main className="flex flex-col items-center py-10 px-4 gap-6 flex-1 w-full">
       <div className="text-center">
-        <h1 className="text-3xl font-bold tracking-tight text-zinc-100">{t('setPageTitle')}</h1>
-        <p className="mt-2 text-sm text-zinc-400 max-w-md">{t('setPageSubtitle')}</p>
+        <h1 className="text-3xl font-bold tracking-tight text-parchment-bright">{t('setPageTitle')}</h1>
+        <p className="mt-2 text-sm text-muted max-w-md">{t('setPageSubtitle')}</p>
       </div>
       <div className="w-full max-w-4xl flex flex-col gap-4">
         <div className="flex items-center justify-between">
-          <h2 className="text-xl font-semibold text-zinc-100">{tGrail(`slot_${category}`)}</h2>
-          <Link href={`/${locale}/items/set/category`} className="text-sm text-zinc-400 hover:text-amber-300 transition-colors">
+          <h2 className="text-xl font-semibold text-parchment-bright">{tGrail(`slot_${category}`)}</h2>
+          <Link href={`/${locale}/items/set/category`} className="text-sm text-muted hover:text-gold-bright transition-colors">
             {t('backToCategories')}
           </Link>
         </div>

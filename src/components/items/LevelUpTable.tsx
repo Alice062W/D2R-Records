@@ -13,19 +13,19 @@ export default function LevelUpTable({ rows }: { rows: LevelUpRow[] }) {
   const t = useTranslations('Items');
 
   return (
-    <div className="bg-zinc-900 border border-zinc-700 rounded-xl p-6 overflow-x-auto w-full">
+    <div className="bg-panel border border-panel-border rounded-xl p-6 overflow-x-auto w-full">
       <table className="w-full text-sm">
         <thead>
           <tr>
-            <th className="text-left text-xs uppercase text-zinc-500 pb-2">{t('levelUpClvlLabel')}</th>
-            <th className="text-left text-xs uppercase text-zinc-500 pb-2 px-3">{t('levelUpDifficultyLabel')}</th>
-            <th className="text-left text-xs uppercase text-zinc-500 pb-2 px-3">{t('levelUpActLabel')}</th>
+            <th className="text-left text-xs uppercase text-muted pb-2">{t('levelUpClvlLabel')}</th>
+            <th className="text-left text-xs uppercase text-muted pb-2 px-3">{t('levelUpDifficultyLabel')}</th>
+            <th className="text-left text-xs uppercase text-muted pb-2 px-3">{t('levelUpActLabel')}</th>
           </tr>
         </thead>
-        <tbody className="text-zinc-300">
+        <tbody className="text-parchment">
           {rows.map((row, i) => (
             <tr key={i}>
-              <td className="py-1 text-zinc-100 font-semibold">{row.clvlMin} - {row.clvlMax}</td>
+              <td className="py-1 text-parchment-bright font-semibold">{row.clvlMin} - {row.clvlMax}</td>
               <td className="py-1 px-3">{t(DIFFICULTY_LABEL_KEY[row.difficulty])}</td>
               <td className="py-1 px-3">{t(ACT_LABEL_KEY[row.act - 1])}</td>
             </tr>

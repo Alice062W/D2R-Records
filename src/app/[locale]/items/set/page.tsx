@@ -22,12 +22,12 @@ export default async function SetItemsPage({
   return (
     <main className="flex flex-col items-center py-10 px-4 gap-8 flex-1 w-full">
       <div className="text-center">
-        <h1 className="text-3xl font-bold tracking-tight text-zinc-100">{t('setGroupsPageTitle')}</h1>
-        <p className="mt-2 text-sm text-zinc-400 max-w-md">{t('setGroupsPageSubtitle')}</p>
+        <h1 className="text-3xl font-bold tracking-tight text-parchment-bright">{t('setGroupsPageTitle')}</h1>
+        <p className="mt-2 text-sm text-muted max-w-md">{t('setGroupsPageSubtitle')}</p>
       </div>
       <div className="w-full max-w-4xl flex flex-col gap-4">
         <div className="flex justify-end">
-          <Link href={`/${locale}/items/set/category`} className="text-sm text-zinc-400 hover:text-amber-300 transition-colors">
+          <Link href={`/${locale}/items/set/category`} className="text-sm text-muted hover:text-gold-bright transition-colors">
             {t('browseByCategory')}
           </Link>
         </div>

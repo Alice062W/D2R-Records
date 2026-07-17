@@ -27,16 +27,16 @@ export default function RunewordList({ runewords, locale }: { runewords: Runewor
   return (
     <div className="flex flex-col gap-4 w-full">
       {runewords.map(rw => (
-        <div key={rw.id} className="bg-zinc-900 border border-zinc-700 rounded-xl p-6">
+        <div key={rw.id} className="bg-panel border border-panel-border rounded-xl p-6">
           <div className="flex items-center justify-between">
             <h3 className="text-lg font-bold text-[#cbb87f]">{rw.name[locale]}</h3>
             {rw.ladderOnly && (
-              <span className="text-xs px-2 py-1 rounded bg-zinc-800 text-zinc-400">
+              <span className="text-xs px-2 py-1 rounded bg-panel-alt text-muted">
                 {t('runewordsLadderOnly')}
               </span>
             )}
           </div>
-          <div className="mt-2 text-sm text-zinc-300 flex flex-col gap-1">
+          <div className="mt-2 text-sm text-parchment flex flex-col gap-1">
             <div className="flex items-center gap-2 flex-wrap">
               <span>{t('runewordsRunesLabel')}:</span>
               {rw.runes.map((rune, i) => (

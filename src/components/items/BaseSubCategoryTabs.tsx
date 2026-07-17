@@ -22,8 +22,8 @@ export default function BaseSubCategoryTabs({
           onClick={() => onSelect(opt)}
           className={`px-3 py-1.5 rounded-lg text-sm border transition-colors ${
             selected === opt
-              ? 'border-amber-400 text-amber-300 bg-zinc-800'
-              : 'border-zinc-700 text-zinc-300 hover:border-amber-400 hover:text-amber-300'
+              ? 'border-gold text-gold-bright bg-panel-alt'
+              : 'border-panel-border text-parchment hover:border-gold hover:text-gold-bright'
           }`}
         >
           {t(`baseSubTab_${opt ?? 'all'}`)}

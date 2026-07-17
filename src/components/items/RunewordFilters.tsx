@@ -21,8 +21,8 @@ export default function RunewordFilters({
   function pill(active: boolean) {
     return `px-3 py-1.5 rounded-lg text-sm transition-colors ${
       active
-        ? 'bg-amber-500 text-zinc-950 font-semibold'
-        : 'bg-zinc-900 border border-zinc-700 text-zinc-300 hover:bg-zinc-800'
+        ? 'bg-gold text-ink-950 font-semibold'
+        : 'bg-panel border border-panel-border text-parchment hover:bg-panel-alt'
     }`;
   }
 

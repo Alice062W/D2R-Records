@@ -25,12 +25,12 @@ export default function SetGroupDetail({
         {pieces.map(piece => <ItemStatCard key={piece.id} item={piece} />)}
       </div>
 
-      <div className="bg-zinc-900 border border-zinc-700 rounded-xl p-6">
-        <h3 className="text-lg font-semibold text-zinc-100 mb-3">{t('setPartialBonusLabel')}</h3>
+      <div className="bg-panel border border-panel-border rounded-xl p-6">
+        <h3 className="text-lg font-semibold text-parchment-bright mb-3">{t('setPartialBonusLabel')}</h3>
         <div className="flex flex-col gap-2">
           {partialBonuses.map(p => (
             <div key={p.piecesRequired} className="text-sm">
-              <span className="text-zinc-500">
+              <span className="text-muted">
                 <span>{p.piecesRequired}</span> {t('setPiecesRequiredLabel')}:{' '}
               </span>
               <span className="text-[#22ff55]">
@@ -39,7 +39,7 @@ export default function SetGroupDetail({
             </div>
           ))}
         </div>
-        <h3 className="text-lg font-semibold text-zinc-100 mt-5 mb-3">{t('setFullBonusLabel')}</h3>
+        <h3 className="text-lg font-semibold text-parchment-bright mt-5 mb-3">{t('setFullBonusLabel')}</h3>
         <div className="flex flex-col gap-1 text-sm text-[#22ff55]">
           {fullSetBonuses.map(s => (
             <div key={s.key}>{s.label}: {s.min === s.max ? s.min : `${s.min}–${s.max}`}</div>

@@ -24,7 +24,7 @@ export default function ItemStatCard({ item }: { item: GrailItem }) {
   ];
 
   return (
-    <div className="bg-zinc-900 border border-zinc-700 rounded-xl p-6">
+    <div className="bg-panel border border-panel-border rounded-xl p-6">
       <div className="mb-1 flex items-start gap-3">
         {item.invFile && !iconFailed && (
           // eslint-disable-next-line @next/next/no-img-element
@@ -43,17 +43,17 @@ export default function ItemStatCard({ item }: { item: GrailItem }) {
       </div>
 
       <div className="mt-4">
-        <h4 className="text-xs font-semibold uppercase tracking-wider text-zinc-500 mb-1">{t('itemStats')}</h4>
-        <div className="text-sm text-zinc-300 flex flex-col gap-0.5">
+        <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('itemStats')}</h4>
+        <div className="text-sm text-parchment flex flex-col gap-0.5">
           {itemStatRows.map(([label, value]) => (
-            <div key={label}>{label}: <span className="text-zinc-100">{value}</span></div>
+            <div key={label}>{label}: <span className="text-parchment-bright">{value}</span></div>
           ))}
         </div>
       </div>
 
       {(item.stats.length > 0 || item.fixedStats.length > 0) && (
         <div className="mt-4">
-          <h4 className="text-xs font-semibold uppercase tracking-wider text-zinc-500 mb-1">{t('magicProperties')}</h4>
+          <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('magicProperties')}</h4>
           <div className="text-sm text-[#8080f3] flex flex-col gap-0.5">
             {item.stats.map(stat => (
               <div key={stat.key}>{stat.label}: {stat.min}–{stat.max}</div>
@@ -67,7 +67,7 @@ export default function ItemStatCard({ item }: { item: GrailItem }) {
 
       {item.setBonuses.length > 0 && (
         <div className="mt-4">
-          <h4 className="text-xs font-semibold uppercase tracking-wider text-zinc-500 mb-1">{t('setBonusesLabel')}</h4>
+          <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('setBonusesLabel')}</h4>
           <div className="text-sm text-[#22ff55] flex flex-col gap-0.5">
             {item.setBonuses.map((b, i) => (
               <div key={`${b.key}-${i}`}>{b.label}: {b.min === b.max ? b.min : `${b.min}–${b.max}`}</div>

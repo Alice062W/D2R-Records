@@ -15,8 +15,8 @@ export default function AreaLevelPage() {
   return (
     <main className="flex flex-col items-center py-10 px-4 gap-6 flex-1 w-full">
       <div className="text-center">
-        <h1 className="text-3xl font-bold tracking-tight text-zinc-100">{t('areaLevelPageTitle')}</h1>
-        <p className="mt-2 text-sm text-zinc-400 max-w-md">{t('areaLevelPageSubtitle')}</p>
+        <h1 className="text-3xl font-bold tracking-tight text-parchment-bright">{t('areaLevelPageTitle')}</h1>
+        <p className="mt-2 text-sm text-muted max-w-md">{t('areaLevelPageSubtitle')}</p>
       </div>
       <div className="w-full max-w-4xl flex flex-col gap-4">
         <div className="flex flex-wrap gap-2">
@@ -26,8 +26,8 @@ export default function AreaLevelPage() {
               onClick={() => setSelectedAct(i)}
               className={`px-3 py-1.5 rounded-lg text-sm border transition-colors ${
                 selectedAct === i
-                  ? 'border-amber-400 text-amber-300 bg-zinc-800'
-                  : 'border-zinc-700 text-zinc-300 hover:border-amber-400 hover:text-amber-300'
+                  ? 'border-gold text-gold-bright bg-panel-alt'
+                  : 'border-panel-border text-parchment hover:border-gold hover:text-gold-bright'
               }`}
             >
               {t(key)}

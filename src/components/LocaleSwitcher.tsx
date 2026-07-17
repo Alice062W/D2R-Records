@@ -29,8 +29,8 @@ export default function LocaleSwitcher() {
           onClick={() => switchLocale(l.code)}
           className={`px-2.5 py-1 rounded text-xs font-medium transition-colors ${
             locale === l.code
-              ? 'bg-amber-500 text-zinc-950'
-              : 'text-zinc-400 hover:text-zinc-200'
+              ? 'bg-gold text-ink-950'
+              : 'text-muted hover:text-parchment-bright'
           }`}
         >
           {l.label}

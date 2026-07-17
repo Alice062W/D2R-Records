@@ -38,7 +38,7 @@ export default async function SetGroupPage({
     <main className="flex flex-col items-center py-10 px-4 gap-6 flex-1 w-full">
       <div className="w-full max-w-4xl flex flex-col gap-4">
         <div className="flex items-center justify-end">
-          <Link href={`/${locale}/items/set`} className="text-sm text-zinc-400 hover:text-amber-300 transition-colors">
+          <Link href={`/${locale}/items/set`} className="text-sm text-muted hover:text-gold-bright transition-colors">
             {t('backToCategories')}
           </Link>
         </div>

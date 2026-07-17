@@ -6,15 +6,15 @@ function AffixSection({ title, affixes }: { title: string; affixes: Affix[] }) {
   if (affixes.length === 0) return null;
   return (
     <div>
-      <h3 className="text-lg font-semibold text-zinc-100 mb-2">{title}</h3>
+      <h3 className="text-lg font-semibold text-parchment-bright mb-2">{title}</h3>
       <div className="flex flex-col gap-1">
         {affixes.map((a, i) => (
           <div
             key={`${a.name}-${i}`}
-            className="flex items-center justify-between bg-zinc-900 border border-zinc-700 rounded-lg px-4 py-2 text-sm"
+            className="flex items-center justify-between bg-panel border border-panel-border rounded-lg px-4 py-2 text-sm"
           >
             <span className="text-[#cbb87f] font-semibold">{a.name}</span>
-            <span className="text-zinc-500 text-xs">
+            <span className="text-muted text-xs">
               {t('affixAlvlLabel')} {a.alvl}
             </span>
             <span className="text-[#8080f3]">

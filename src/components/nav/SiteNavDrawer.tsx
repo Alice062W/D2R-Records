@@ -47,11 +47,11 @@ export default function SiteNavDrawer() {
 
   return (
     <>
-      <div className="flex items-center border-b border-zinc-800 px-4 py-3 gap-3">
+      <div className="flex items-center border-b border-panel-border-dark px-4 py-3 gap-3">
         <button
           onClick={() => setOpen(true)}
           aria-label={t('openMenu')}
-          className="text-zinc-300 hover:text-amber-300 transition-colors"
+          className="text-parchment hover:text-gold-bright transition-colors"
         >
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
             <path d="M4 6h16M4 12h16M4 18h16" strokeLinecap="round" />
@@ -59,7 +59,7 @@ export default function SiteNavDrawer() {
         </button>
         <Link
           href={linkHref('')}
-          className="text-sm font-semibold text-zinc-200 hover:text-amber-300 transition-colors"
+          className="text-sm font-semibold text-parchment-bright hover:text-gold-bright transition-colors"
         >
           D2R Institute
         </Link>
@@ -72,11 +72,11 @@ export default function SiteNavDrawer() {
             onClick={close}
             className="absolute inset-0 bg-black/60"
           />
-          <nav className="relative w-72 max-w-[80vw] h-full bg-zinc-950 border-r border-zinc-800 overflow-y-auto p-4 flex flex-col gap-6">
+          <nav className="relative w-72 max-w-[80vw] h-full bg-ink-950 border-r border-panel-border-dark overflow-y-auto p-4 flex flex-col gap-6">
             <button
               onClick={close}
               aria-label={t('closeMenu')}
-              className="self-end text-zinc-400 hover:text-amber-300 transition-colors"
+              className="self-end text-muted hover:text-gold-bright transition-colors"
             >
               ✕
             </button>
@@ -118,7 +118,7 @@ export default function SiteNavDrawer() {
 function NavGroup({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <div className="flex flex-col gap-1">
-      <h3 className="text-xs font-semibold uppercase tracking-wider text-zinc-500 px-3 mb-1">
+      <h3 className="text-xs font-semibold uppercase tracking-wider text-muted px-3 mb-1">
         {title}
       </h3>
       {children}
@@ -141,7 +141,7 @@ function NavLink({
     <Link
       href={href}
       onClick={onNavigate}
-      className={`px-3 py-2 rounded-lg text-sm hover:bg-zinc-800 transition-colors ${colorClass ?? 'text-zinc-300 hover:text-amber-300'}`}
+      className={`px-3 py-2 rounded-lg text-sm hover:bg-panel-alt transition-colors ${colorClass ?? 'text-parchment hover:text-gold-bright'}`}
     >
       {children}
     </Link>

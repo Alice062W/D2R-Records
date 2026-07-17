@@ -18,11 +18,11 @@ export default async function Home({
   return (
     <main className="flex flex-col items-center py-10 px-4 gap-8 flex-1">
       <div className="text-center">
-        <h1 className="text-3xl font-bold tracking-tight text-zinc-100">
+        <h1 className="text-3xl font-bold tracking-tight text-parchment-bright">
           {t('title')}
         </h1>
-        <p className="mt-1 text-amber-400 font-semibold">{t('subtitle')}</p>
-        <p className="mt-2 text-sm text-zinc-400 max-w-md">{t('description')}</p>
+        <p className="mt-1 text-gold font-semibold">{t('subtitle')}</p>
+        <p className="mt-2 text-sm text-muted max-w-md">{t('description')}</p>
       </div>
 
       <AppraiserForm />

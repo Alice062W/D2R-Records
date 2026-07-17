@@ -34,20 +34,20 @@ export default function CraftedItemList({ items, locale }: { items: CraftedItem[
         if (familyItems.length === 0) return null;
         return (
           <div key={family}>
-            <h2 className="text-xl font-semibold text-zinc-100 mb-3">
+            <h2 className="text-xl font-semibold text-parchment-bright mb-3">
               {t(`craftedItemsFamily_${family}`)}
             </h2>
             <div className="flex flex-col gap-3">
               {familyItems.map(item => (
-                <div key={item.id} className="bg-zinc-900 border border-zinc-700 rounded-xl p-6">
+                <div key={item.id} className="bg-panel border border-panel-border rounded-xl p-6">
                   <div className="flex items-center gap-2">
                     <CraftIcon invFile={item.magicItemInputIcon} />
                     <h3 className="text-lg font-bold text-[#cbb87f]">{item.name[locale]}</h3>
                   </div>
-                  <div className="mt-2 text-sm text-zinc-300 flex items-center gap-2">
+                  <div className="mt-2 text-sm text-parchment flex items-center gap-2">
                     {t('craftedItemsInputLabel')}: <CraftIcon invFile={item.magicItemInputIcon} size="w-5 h-5" /> {item.magicItemInput[locale]}
                   </div>
-                  <div className="text-sm text-zinc-300 flex items-center gap-1 flex-wrap">
+                  <div className="text-sm text-parchment flex items-center gap-1 flex-wrap">
                     {t('craftedItemsAdditionalInputsLabel')}:
                     {item.additionalInputs.map((input, i) => (
                       <span key={`${input[locale]}-${i}`} className="flex items-center gap-1">
@@ -58,7 +58,7 @@ export default function CraftedItemList({ items, locale }: { items: CraftedItem[
                   </div>
                   {item.fixedProperties.length > 0 && (
                     <div className="mt-3">
-                      <h4 className="text-xs font-semibold uppercase tracking-wider text-zinc-500 mb-1">
+                      <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">
                         {t('craftedItemsFixedPropertiesLabel')}
                       </h4>
                       <div className="text-sm text-[#8080f3] flex flex-col gap-0.5">
@@ -68,7 +68,7 @@ export default function CraftedItemList({ items, locale }: { items: CraftedItem[
                   )}
                   {item.variableProperties.length > 0 && (
                     <div className="mt-3">
-                      <h4 className="text-xs font-semibold uppercase tracking-wider text-zinc-500 mb-1">
+                      <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">
                         {t('craftedItemsVariablePropertiesLabel')}
                       </h4>
                       <div className="text-sm text-[#8080f3] flex flex-col gap-0.5">

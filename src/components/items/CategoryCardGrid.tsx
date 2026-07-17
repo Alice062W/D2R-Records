@@ -42,7 +42,7 @@ export default function CategoryCardGrid({
         <Link
           key={category}
           href={`${basePath}/${category}`}
-          className="flex flex-col items-center justify-center gap-2 px-4 py-6 rounded-xl bg-zinc-900 border border-zinc-700 text-sm font-semibold text-zinc-200 hover:border-amber-400 hover:text-amber-300 transition-colors"
+          className="flex flex-col items-center justify-center gap-2 px-4 py-6 rounded-xl bg-panel border border-panel-border text-sm font-semibold text-parchment-bright hover:border-gold hover:text-gold-bright transition-colors"
         >
           <CategoryIcon category={category} />
           {labelFor(category)}
