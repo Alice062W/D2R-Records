@@ -301,10 +301,10 @@ _Spec: [docs/superpowers/specs/2026-07-18-auras-page-update-design.md](../docs/s
 ### Unique/Set/Runeword Stat Color Highlighting
 _Spec: [docs/superpowers/specs/2026-07-18-stat-color-highlighting-design.md](../docs/superpowers/specs/2026-07-18-stat-color-highlighting-design.md) · Plan: [plans/stat-color-highlighting-implementation.md](./stat-color-highlighting-implementation.md)_
 
-- [ ] Generator — attach isSkillRef to stat output
-- [ ] Thread isSkillRef through catalog.ts types
-- [ ] Apply the three-color scheme in ItemStatCard and RunewordList
-- [ ] Full verification + d2r.world spot-check
+- [x] Generator — attach isSkillRef to stat output
+- [x] Thread isSkillRef through catalog.ts types
+- [x] Apply the three-color scheme in ItemStatCard and RunewordList
+- [x] Full verification + d2r.world spot-check
 
 ## Backlog / Ideas
 
