@@ -25,6 +25,7 @@ const MISC_LINKS = [
   ['misc_areaLevel', 'monster/area-level'],
   ['misc_levelUp', 'character/level-up'],
   ['misc_maxSockets', 'misc/max-sockets'],
+  ['misc_auras', 'character/auras'],
 ] as const;
 
 const TOOL_LINKS = [
