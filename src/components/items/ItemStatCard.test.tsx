@@ -74,4 +74,30 @@ describe('ItemStatCard', () => {
     );
     expect(document.querySelector('img')).toBeNull();
   });
+
+  it('colors variable stats yellow, fixed stats blue, and skill-ref stats pink regardless of which array they are in', () => {
+    const item: GrailItem = {
+      id: 'unique-2', code: 'x', name: 'Test Item', kind: 'unique', setName: null,
+      levelReq: 1, baseName: 'Base', grade: 'normal', slotCategory: 'axes',
+      defense: null, requiredStrength: null, durability: null, invFile: '',
+      stats: [
+        { key: 'dmg%', label: 'Enhanced Damage %', min: 60, max: 70, isSkillRef: false },
+        { key: 'skill:1', label: 'Level 1-20 Fireball', min: 1, max: 20, isSkillRef: true },
+      ],
+      fixedStats: [
+        { key: 'str', label: 'Strength', value: 8, isSkillRef: false },
+        { key: 'oskill:2', label: 'Combat Skills', value: 2, isSkillRef: true },
+      ],
+      setBonuses: [], statPriority: [],
+    };
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <ItemStatCard item={item} />
+      </NextIntlClientProvider>
+    );
+    expect(screen.getByText(/Enhanced Damage %/).closest('div')).toHaveClass('text-[#fff818]');
+    expect(screen.getByText(/Level 1-20 Fireball/).closest('div')).toHaveClass('text-[#ff4a69]');
+    expect(screen.getByText(/Strength/).closest('div')).toHaveClass('text-[#8080f3]');
+    expect(screen.getByText(/Combat Skills/).closest('div')).toHaveClass('text-[#ff4a69]');
+  });
 });

@@ -65,4 +65,23 @@ describe('RunewordFilters + RunewordList', () => {
       expect.arrayContaining([expect.stringContaining('invrRal'), expect.stringContaining('invrOrt'), expect.stringContaining('invrTal')])
     );
   });
+
+  it('colors variable stats yellow, fixed stats blue, and skill-ref stats pink', () => {
+    const rw = {
+      ...baseRunewordFixture,
+      stats: [{ key: 'dmg%', label: { en: 'Enhanced Damage %', 'zh-TW': 'x', 'zh-CN': 'x' }, min: 100, max: 150, isSkillRef: false }],
+      fixedStats: [
+        { key: 'str', label: { en: 'Strength', 'zh-TW': 'x', 'zh-CN': 'x' }, value: 20, isSkillRef: false },
+        { key: 'oskill:1', label: { en: 'All Skill Levels', 'zh-TW': 'x', 'zh-CN': 'x' }, value: 2, isSkillRef: true },
+      ],
+    };
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <RunewordList runewords={[rw]} locale="en" />
+      </NextIntlClientProvider>
+    );
+    expect(screen.getByText(/Enhanced Damage %/).closest('div')).toHaveClass('text-[#fff818]');
+    expect(screen.getByText(/Strength/).closest('div')).toHaveClass('text-[#8080f3]');
+    expect(screen.getByText(/All Skill Levels/).closest('div')).toHaveClass('text-[#ff4a69]');
+  });
 });

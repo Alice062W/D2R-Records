@@ -53,12 +53,16 @@ export default function RunewordList({ runewords, locale }: { runewords: Runewor
           </div>
           {(rw.stats.length > 0 || rw.fixedStats.length > 0) && (
             <div className="mt-4">
-              <div className="text-sm text-[#8080f3] flex flex-col gap-0.5">
+              <div className="text-sm flex flex-col gap-0.5">
                 {rw.stats.map(stat => (
-                  <div key={stat.key}>{stat.label[locale]}: {stat.min}–{stat.max}</div>
+                  <div key={stat.key} className={stat.isSkillRef ? 'text-[#ff4a69]' : 'text-[#fff818]'}>
+                    {stat.label[locale]}: {stat.min}–{stat.max}
+                  </div>
                 ))}
                 {rw.fixedStats.map(f => (
-                  <div key={f.key}>{f.label[locale]}: {f.value}</div>
+                  <div key={f.key} className={f.isSkillRef ? 'text-[#ff4a69]' : 'text-[#8080f3]'}>
+                    {f.label[locale]}: {f.value}
+                  </div>
                 ))}
               </div>
             </div>
