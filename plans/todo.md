@@ -298,6 +298,14 @@ _Spec: [docs/superpowers/specs/2026-07-18-auras-page-update-design.md](../docs/s
 - [x] Remove Paladin wording + add per-level radius table
 - [x] Full verification + spot-check
 
+### Unique/Set/Runeword Stat Color Highlighting
+_Spec: [docs/superpowers/specs/2026-07-18-stat-color-highlighting-design.md](../docs/superpowers/specs/2026-07-18-stat-color-highlighting-design.md) · Plan: [plans/stat-color-highlighting-implementation.md](./stat-color-highlighting-implementation.md)_
+
+- [ ] Generator — attach isSkillRef to stat output
+- [ ] Thread isSkillRef through catalog.ts types
+- [ ] Apply the three-color scheme in ItemStatCard and RunewordList
+- [ ] Full verification + d2r.world spot-check
+
 ## Backlog / Ideas
 
 - Batch appraisal (multiple items at once) — premium feature
