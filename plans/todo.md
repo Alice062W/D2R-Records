@@ -295,8 +295,8 @@ _Spec: [docs/superpowers/specs/2026-07-18-auras-page-design.md](../docs/superpow
 ### Auras Page Update
 _Spec: [docs/superpowers/specs/2026-07-18-auras-page-update-design.md](../docs/superpowers/specs/2026-07-18-auras-page-update-design.md) · Plan: [plans/auras-page-update-implementation.md](./auras-page-update-implementation.md)_
 
-- [ ] Remove Paladin wording + add per-level radius table
-- [ ] Full verification + spot-check
+- [x] Remove Paladin wording + add per-level radius table
+- [x] Full verification + spot-check
 
 ## Backlog / Ideas
 
