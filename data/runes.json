@@ -18,7 +18,8 @@
           "zh-CN": "光环半径"
         },
         "min": 1,
-        "max": 1
+        "max": 1,
+        "isSkillRef": false
       },
       {
         "key": "att",
@@ -28,7 +29,8 @@
           "zh-CN": "攻击等级"
         },
         "min": 50,
-        "max": 50
+        "max": 50,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -40,7 +42,8 @@
           "zh-CN": "光环半径"
         },
         "min": 1,
-        "max": 1
+        "max": 1,
+        "isSkillRef": false
       },
       {
         "key": "ac",
@@ -50,7 +53,8 @@
           "zh-CN": "防御力"
         },
         "min": 15,
-        "max": 15
+        "max": 15,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -62,7 +66,8 @@
           "zh-CN": "光环半径"
         },
         "min": 1,
-        "max": 1
+        "max": 1,
+        "isSkillRef": false
       },
       {
         "key": "ac",
@@ -72,7 +77,8 @@
           "zh-CN": "防御力"
         },
         "min": 15,
-        "max": 15
+        "max": 15,
+        "isSkillRef": false
       }
     ],
     "recipe": null,
@@ -101,7 +107,8 @@
           "zh-CN": "对不死系攻击等级 %"
         },
         "min": 50,
-        "max": 50
+        "max": 50,
+        "isSkillRef": false
       },
       {
         "key": "dmg-undead",
@@ -111,7 +118,8 @@
           "zh-CN": "对不死系伤害"
         },
         "min": 75,
-        "max": 75
+        "max": 75,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -123,7 +131,8 @@
           "zh-CN": "减缓耐力消耗 %"
         },
         "min": 15,
-        "max": 15
+        "max": 15,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -135,7 +144,8 @@
           "zh-CN": "格挡机率 %"
         },
         "min": 7,
-        "max": 7
+        "max": 7,
+        "isSkillRef": false
       }
     ],
     "recipe": {
@@ -168,7 +178,8 @@
           "zh-CN": "击杀后恢复魔力值"
         },
         "min": 2,
-        "max": 2
+        "max": 2,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -180,7 +191,8 @@
           "zh-CN": "击杀后恢复魔力值"
         },
         "min": 2,
-        "max": 2
+        "max": 2,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -192,7 +204,8 @@
           "zh-CN": "击杀后恢复魔力值"
         },
         "min": 2,
-        "max": 2
+        "max": 2,
+        "isSkillRef": false
       }
     ],
     "recipe": {
@@ -225,7 +238,8 @@
           "zh-CN": "击退"
         },
         "min": 1,
-        "max": 1
+        "max": 1,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -237,7 +251,8 @@
           "zh-CN": "对抗远程攻击防御力"
         },
         "min": 30,
-        "max": 30
+        "max": 30,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -249,7 +264,8 @@
           "zh-CN": "对抗远程攻击防御力"
         },
         "min": 30,
-        "max": 30
+        "max": 30,
+        "isSkillRef": false
       }
     ],
     "recipe": {
@@ -282,7 +298,8 @@
           "zh-CN": "降低目标防御力 %"
         },
         "min": 25,
-        "max": 25
+        "max": 25,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -294,7 +311,8 @@
           "zh-CN": "魔力回复 %"
         },
         "min": 15,
-        "max": 15
+        "max": 15,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -306,7 +324,8 @@
           "zh-CN": "魔力回复 %"
         },
         "min": 15,
-        "max": 15
+        "max": 15,
+        "isSkillRef": false
       }
     ],
     "recipe": {
@@ -339,7 +358,8 @@
           "zh-CN": "最大伤害"
         },
         "min": 9,
-        "max": 9
+        "max": 9,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -351,7 +371,8 @@
           "zh-CN": "承受伤害转换为魔力"
         },
         "min": 15,
-        "max": 15
+        "max": 15,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -363,7 +384,8 @@
           "zh-CN": "承受伤害转换为魔力"
         },
         "min": 15,
-        "max": 15
+        "max": 15,
+        "isSkillRef": false
       }
     ],
     "recipe": {
@@ -396,7 +418,8 @@
           "zh-CN": "毒素伤害"
         },
         "min": 154,
-        "max": 154
+        "max": 154,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -408,7 +431,8 @@
           "zh-CN": "毒素抗性 %"
         },
         "min": 30,
-        "max": 30
+        "max": 30,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -420,7 +444,8 @@
           "zh-CN": "毒素抗性 %"
         },
         "min": 35,
-        "max": 35
+        "max": 35,
+        "isSkillRef": false
       }
     ],
     "recipe": {
@@ -453,7 +478,8 @@
           "zh-CN": "火焰伤害"
         },
         "min": 5,
-        "max": 30
+        "max": 30,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -465,7 +491,8 @@
           "zh-CN": "火焰抗性 %"
         },
         "min": 30,
-        "max": 30
+        "max": 30,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -477,7 +504,8 @@
           "zh-CN": "火焰抗性 %"
         },
         "min": 35,
-        "max": 35
+        "max": 35,
+        "isSkillRef": false
       }
     ],
     "recipe": {
@@ -510,7 +538,8 @@
           "zh-CN": "闪电伤害"
         },
         "min": 1,
-        "max": 50
+        "max": 50,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -522,7 +551,8 @@
           "zh-CN": "闪电抗性 %"
         },
         "min": 30,
-        "max": 30
+        "max": 30,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -534,7 +564,8 @@
           "zh-CN": "闪电抗性 %"
         },
         "min": 35,
-        "max": 35
+        "max": 35,
+        "isSkillRef": false
       }
     ],
     "recipe": {
@@ -567,7 +598,8 @@
           "zh-CN": "冷冻伤害"
         },
         "min": 3,
-        "max": 14
+        "max": 14,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -579,7 +611,8 @@
           "zh-CN": "冷冻抗性 %"
         },
         "min": 30,
-        "max": 30
+        "max": 30,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -591,7 +624,8 @@
           "zh-CN": "冷冻抗性 %"
         },
         "min": 35,
-        "max": 35
+        "max": 35,
+        "isSkillRef": false
       }
     ],
     "recipe": {
@@ -624,7 +658,8 @@
           "zh-CN": "生命窃取 %"
         },
         "min": 7,
-        "max": 7
+        "max": 7,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -636,7 +671,8 @@
           "zh-CN": "攻击者承受伤害"
         },
         "min": 14,
-        "max": 14
+        "max": 14,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -648,7 +684,8 @@
           "zh-CN": "攻击者承受伤害"
         },
         "min": 14,
-        "max": 14
+        "max": 14,
+        "isSkillRef": false
       }
     ],
     "recipe": {
@@ -681,7 +718,8 @@
           "zh-CN": "最小伤害"
         },
         "min": 9,
-        "max": 9
+        "max": 9,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -693,7 +731,8 @@
           "zh-CN": "减少伤害"
         },
         "min": 7,
-        "max": 7
+        "max": 7,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -705,7 +744,8 @@
           "zh-CN": "减少伤害"
         },
         "min": 7,
-        "max": 7
+        "max": 7,
+        "isSkillRef": false
       }
     ],
     "recipe": {
@@ -738,7 +778,8 @@
           "zh-CN": "加快攻击速度"
         },
         "min": 20,
-        "max": 20
+        "max": 20,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -750,7 +791,8 @@
           "zh-CN": "加快恢复速度"
         },
         "min": 20,
-        "max": 20
+        "max": 20,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -762,7 +804,8 @@
           "zh-CN": "加快格挡速度"
         },
         "min": 20,
-        "max": 20
+        "max": 20,
+        "isSkillRef": false
       }
     ],
     "recipe": {
@@ -795,7 +838,8 @@
           "zh-CN": "击中使怪物逃跑 %"
         },
         "min": 32,
-        "max": 32
+        "max": 32,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -807,7 +851,8 @@
           "zh-CN": "生命回复 %"
         },
         "min": 7,
-        "max": 7
+        "max": 7,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -819,7 +864,8 @@
           "zh-CN": "生命回复 %"
         },
         "min": 7,
-        "max": 7
+        "max": 7,
+        "isSkillRef": false
       }
     ],
     "recipe": {
@@ -852,7 +898,8 @@
           "zh-CN": "需求 %"
         },
         "min": -20,
-        "max": -20
+        "max": -20,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -864,7 +911,8 @@
           "zh-CN": "需求 %"
         },
         "min": -15,
-        "max": -15
+        "max": -15,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -876,7 +924,8 @@
           "zh-CN": "需求 %"
         },
         "min": -15,
-        "max": -15
+        "max": -15,
+        "isSkillRef": false
       }
     ],
     "recipe": {
@@ -909,7 +958,8 @@
           "zh-CN": "活力"
         },
         "min": 10,
-        "max": 10
+        "max": 10,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -921,7 +971,8 @@
           "zh-CN": "活力"
         },
         "min": 10,
-        "max": 10
+        "max": 10,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -933,7 +984,8 @@
           "zh-CN": "活力"
         },
         "min": 10,
-        "max": 10
+        "max": 10,
+        "isSkillRef": false
       }
     ],
     "recipe": {
@@ -966,7 +1018,8 @@
           "zh-CN": "精力"
         },
         "min": 10,
-        "max": 10
+        "max": 10,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -978,7 +1031,8 @@
           "zh-CN": "精力"
         },
         "min": 10,
-        "max": 10
+        "max": 10,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -990,7 +1044,8 @@
           "zh-CN": "精力"
         },
         "min": 10,
-        "max": 10
+        "max": 10,
+        "isSkillRef": false
       }
     ],
     "recipe": {
@@ -1023,7 +1078,8 @@
           "zh-CN": "敏捷"
         },
         "min": 10,
-        "max": 10
+        "max": 10,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -1035,7 +1091,8 @@
           "zh-CN": "敏捷"
         },
         "min": 10,
-        "max": 10
+        "max": 10,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -1047,7 +1104,8 @@
           "zh-CN": "敏捷"
         },
         "min": 10,
-        "max": 10
+        "max": 10,
+        "isSkillRef": false
       }
     ],
     "recipe": {
@@ -1080,7 +1138,8 @@
           "zh-CN": "力量"
         },
         "min": 10,
-        "max": 10
+        "max": 10,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -1092,7 +1151,8 @@
           "zh-CN": "力量"
         },
         "min": 10,
-        "max": 10
+        "max": 10,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -1104,7 +1164,8 @@
           "zh-CN": "力量"
         },
         "min": 10,
-        "max": 10
+        "max": 10,
+        "isSkillRef": false
       }
     ],
     "recipe": {
@@ -1137,7 +1198,8 @@
           "zh-CN": "额外金币拾取率 %"
         },
         "min": 75,
-        "max": 75
+        "max": 75,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -1149,7 +1211,8 @@
           "zh-CN": "额外金币拾取率 %"
         },
         "min": 50,
-        "max": 50
+        "max": 50,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -1161,7 +1224,8 @@
           "zh-CN": "额外金币拾取率 %"
         },
         "min": 50,
-        "max": 50
+        "max": 50,
+        "isSkillRef": false
       }
     ],
     "recipe": {
@@ -1194,7 +1258,8 @@
           "zh-CN": "对恶魔攻击等级 %"
         },
         "min": 100,
-        "max": 100
+        "max": 100,
+        "isSkillRef": false
       },
       {
         "key": "dmg-demon",
@@ -1204,7 +1269,8 @@
           "zh-CN": "对恶魔伤害"
         },
         "min": 75,
-        "max": 75
+        "max": 75,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -1216,7 +1282,8 @@
           "zh-CN": "强化防御力 %"
         },
         "min": 30,
-        "max": 30
+        "max": 30,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -1228,7 +1295,8 @@
           "zh-CN": "强化防御力 %"
         },
         "min": 30,
-        "max": 30
+        "max": 30,
+        "isSkillRef": false
       }
     ],
     "recipe": {
@@ -1261,7 +1329,8 @@
           "zh-CN": "撕裂伤口 %"
         },
         "min": 25,
-        "max": 25
+        "max": 25,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -1273,7 +1342,8 @@
           "zh-CN": "全抗性"
         },
         "min": 15,
-        "max": 15
+        "max": 15,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -1285,7 +1355,8 @@
           "zh-CN": "全抗性"
         },
         "min": 22,
-        "max": 22
+        "max": 22,
+        "isSkillRef": false
       }
     ],
     "recipe": {
@@ -1318,7 +1389,8 @@
           "zh-CN": "防止怪物治疗"
         },
         "min": 1,
-        "max": 1
+        "max": 1,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -1330,7 +1402,8 @@
           "zh-CN": "减少魔法伤害"
         },
         "min": 7,
-        "max": 7
+        "max": 7,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -1342,7 +1415,8 @@
           "zh-CN": "减少魔法伤害"
         },
         "min": 7,
-        "max": 7
+        "max": 7,
+        "isSkillRef": false
       }
     ],
     "recipe": {
@@ -1375,7 +1449,8 @@
           "zh-CN": "额外魔法物品寻获率 %"
         },
         "min": 30,
-        "max": 30
+        "max": 30,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -1387,7 +1462,8 @@
           "zh-CN": "额外魔法物品寻获率 %"
         },
         "min": 25,
-        "max": 25
+        "max": 25,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -1399,7 +1475,8 @@
           "zh-CN": "额外魔法物品寻获率 %"
         },
         "min": 25,
-        "max": 25
+        "max": 25,
+        "isSkillRef": false
       }
     ],
     "recipe": {
@@ -1432,7 +1509,8 @@
           "zh-CN": "攻击等级 %"
         },
         "min": 20,
-        "max": 20
+        "max": 20,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -1444,7 +1522,8 @@
           "zh-CN": "最大毒素抗性 %"
         },
         "min": 5,
-        "max": 5
+        "max": 5,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -1456,7 +1535,8 @@
           "zh-CN": "最大毒素抗性 %"
         },
         "min": 5,
-        "max": 5
+        "max": 5,
+        "isSkillRef": false
       }
     ],
     "recipe": {
@@ -1489,7 +1569,8 @@
           "zh-CN": "魔力窃取 %"
         },
         "min": 7,
-        "max": 7
+        "max": 7,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -1501,7 +1582,8 @@
           "zh-CN": "最大火焰抗性 %"
         },
         "min": 5,
-        "max": 5
+        "max": 5,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -1513,7 +1595,8 @@
           "zh-CN": "最大火焰抗性 %"
         },
         "min": 5,
-        "max": 5
+        "max": 5,
+        "isSkillRef": false
       }
     ],
     "recipe": {
@@ -1546,7 +1629,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 50,
-        "max": 50
+        "max": 50,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -1558,7 +1642,8 @@
           "zh-CN": "最大冷冻抗性 %"
         },
         "min": 5,
-        "max": 5
+        "max": 5,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -1570,7 +1655,8 @@
           "zh-CN": "最大冷冻抗性 %"
         },
         "min": 5,
-        "max": 5
+        "max": 5,
+        "isSkillRef": false
       }
     ],
     "recipe": {
@@ -1603,7 +1689,8 @@
           "zh-CN": "致命一击 %"
         },
         "min": 20,
-        "max": 20
+        "max": 20,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -1615,7 +1702,8 @@
           "zh-CN": "最大闪电抗性 %"
         },
         "min": 5,
-        "max": 5
+        "max": 5,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -1627,7 +1715,8 @@
           "zh-CN": "最大闪电抗性 %"
         },
         "min": 5,
-        "max": 5
+        "max": 5,
+        "isSkillRef": false
       }
     ],
     "recipe": {
@@ -1660,7 +1749,8 @@
           "zh-CN": "击中致盲目标"
         },
         "min": 1,
-        "max": 1
+        "max": 1,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -1672,7 +1762,8 @@
           "zh-CN": "增加最大魔力值 %"
         },
         "min": 5,
-        "max": 5
+        "max": 5,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -1684,7 +1775,8 @@
           "zh-CN": "魔力值"
         },
         "min": 50,
-        "max": 50
+        "max": 50,
+        "isSkillRef": false
       }
     ],
     "recipe": {
@@ -1717,7 +1809,8 @@
           "zh-CN": "破碎打击 %"
         },
         "min": 20,
-        "max": 20
+        "max": 20,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -1729,7 +1822,8 @@
           "zh-CN": "减少伤害 %"
         },
         "min": 8,
-        "max": 8
+        "max": 8,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -1741,7 +1835,8 @@
           "zh-CN": "减少伤害 %"
         },
         "min": 8,
-        "max": 8
+        "max": 8,
+        "isSkillRef": false
       }
     ],
     "recipe": {
@@ -1774,7 +1869,8 @@
           "zh-CN": "无视目标防御力"
         },
         "min": 1,
-        "max": 1
+        "max": 1,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -1786,7 +1882,8 @@
           "zh-CN": "增加最大生命值 %"
         },
         "min": 5,
-        "max": 5
+        "max": 5,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -1798,7 +1895,8 @@
           "zh-CN": "生命值"
         },
         "min": 50,
-        "max": 50
+        "max": 50,
+        "isSkillRef": false
       }
     ],
     "recipe": {
@@ -1831,7 +1929,8 @@
           "zh-CN": "击中冰冻目标"
         },
         "min": 3,
-        "max": 3
+        "max": 3,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -1843,7 +1942,8 @@
           "zh-CN": "不会被冰冻"
         },
         "min": 1,
-        "max": 1
+        "max": 1,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -1855,7 +1955,8 @@
           "zh-CN": "不会被冰冻"
         },
         "min": 1,
-        "max": 1
+        "max": 1,
+        "isSkillRef": false
       }
     ],
     "recipe": {
@@ -1888,7 +1989,8 @@
           "zh-CN": "不可破坏"
         },
         "min": 1,
-        "max": 1
+        "max": 1,
+        "isSkillRef": false
       }
     ],
     "armorHelmStats": [
@@ -1900,7 +2002,8 @@
           "zh-CN": "不可破坏"
         },
         "min": 1,
-        "max": 1
+        "max": 1,
+        "isSkillRef": false
       }
     ],
     "shieldStats": [
@@ -1912,7 +2015,8 @@
           "zh-CN": "不可破坏"
         },
         "min": 1,
-        "max": 1
+        "max": 1,
+        "isSkillRef": false
       }
     ],
     "recipe": {

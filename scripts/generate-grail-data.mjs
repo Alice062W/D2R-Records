@@ -691,7 +691,7 @@ const setGroupsOut = Object.values(setsFullData)
       const min = v[`PMin${n}a`];
       const max = v[`PMax${n}a`];
       if (min === undefined || max === undefined) return [];
-      return [{ piecesRequired: n, stats: [{ key, label, min, max }] }];
+      return [{ piecesRequired: n, stats: [{ key, label, min, max, isSkillRef }] }];
     });
 
     const fullSetBonuses = [];
@@ -707,7 +707,7 @@ const setGroupsOut = Object.values(setsFullData)
       const min = v[`FMin${n}`];
       const max = v[`FMax${n}`];
       if (min === undefined || max === undefined) continue;
-      fullSetBonuses.push({ key, label, min, max });
+      fullSetBonuses.push({ key, label, min, max, isSkillRef });
     }
 
     return {
@@ -987,15 +987,15 @@ function runeStatsFor(entry, prefix) {
     const min = entry[`${prefix}${n}Min`];
     const max = entry[`${prefix}${n}Max`];
     if (min !== undefined && max !== undefined) {
-      if (min === max) fixed.push({ key, label, value: min });
-      else variable.push({ key, label, min, max });
+      if (min === max) fixed.push({ key, label, value: min, isSkillRef });
+      else variable.push({ key, label, min, max, isSkillRef });
       continue;
     }
     if (par !== undefined) {
-      fixed.push({ key, label, value: par });
+      fixed.push({ key, label, value: par, isSkillRef });
     }
   }
-  return [...variable, ...fixed.map(f => ({ key: f.key, label: f.label, min: f.value, max: f.value }))];
+  return [...variable, ...fixed.map(f => ({ key: f.key, label: f.label, min: f.value, max: f.value, isSkillRef: f.isSkillRef }))];
 }
 
 const runesOut = RUNE_ORDER.map((name, i) => {
@@ -1046,12 +1046,12 @@ function extractCraftModProps(entry, count) {
     const min = entry[`mod ${n} min`];
     const max = entry[`mod ${n} max`];
     if (min !== undefined && max !== undefined) {
-      if (min === max) fixed.push({ key, label, value: min });
-      else variable.push({ key, label, min, max });
+      if (min === max) fixed.push({ key, label, value: min, isSkillRef });
+      else variable.push({ key, label, min, max, isSkillRef });
       continue;
     }
     if (par !== undefined) {
-      fixed.push({ key, label, value: par });
+      fixed.push({ key, label, value: par, isSkillRef });
     }
   }
   return { variable, fixed };
@@ -1260,8 +1260,8 @@ function extractMagicAffixStats(entry) {
     const min = entry[`mod${n}min`];
     const max = entry[`mod${n}max`];
     if (min !== undefined && max !== undefined) {
-      if (min === max) fixed.push({ key, label, value: min });
-      else variable.push({ key, label, min, max });
+      if (min === max) fixed.push({ key, label, value: min, isSkillRef });
+      else variable.push({ key, label, min, max, isSkillRef });
       continue;
     }
     // Some mods (e.g. "sock" on Artificer's/Jeweler's, "ac/lvl" on Miocene)
@@ -1269,14 +1269,14 @@ function extractMagicAffixStats(entry) {
     // shape extractProps already handles for uniqueitems.json/setitems.json.
     // Without this fallback these affixes silently end up with zero stats.
     if (par !== undefined) {
-      fixed.push({ key, label, value: par });
+      fixed.push({ key, label, value: par, isSkillRef });
       continue;
     }
     // "of Ages" (suffix 404, mod1code "indestruct") has no min/max/param at
     // all — a bare boolean flag prop, unlike uniqueitems.json's indestruct
     // entries which always carry min1===max1===1. Surface it the same way
     // (value: 1) rather than silently dropping the affix's only stat.
-    fixed.push({ key, label, value: 1 });
+    fixed.push({ key, label, value: 1, isSkillRef });
   }
   return { variable, fixed };
 }
@@ -1337,7 +1337,7 @@ function magicAffixesFrom(data, kind) {
         alvl: v.level ?? v.levelreq ?? 0,
         itemTypes: itemTypesForAffix(v),
         rareEligible: v.rare === 1,
-        stats: [...variable, ...fixed.map(f => ({ key: f.key, label: f.label, min: f.value, max: f.value }))],
+        stats: [...variable, ...fixed.map(f => ({ key: f.key, label: f.label, min: f.value, max: f.value, isSkillRef: f.isSkillRef }))],
       };
     });
 }

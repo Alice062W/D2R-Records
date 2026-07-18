@@ -24,7 +24,8 @@
               "zh-CN": "攻击等级 %"
             },
             "min": 150,
-            "max": 150
+            "max": 150,
+            "isSkillRef": false
           }
         ]
       },
@@ -39,7 +40,8 @@
               "zh-CN": "额外魔法物品寻获率 %"
             },
             "min": 50,
-            "max": 50
+            "max": 50,
+            "isSkillRef": false
           }
         ]
       },
@@ -54,7 +56,8 @@
               "zh-CN": "生命窃取 %"
             },
             "min": 10,
-            "max": 10
+            "max": 10,
+            "isSkillRef": false
           }
         ]
       }
@@ -68,7 +71,8 @@
           "zh-CN": "全抗性"
         },
         "min": 50,
-        "max": 50
+        "max": 50,
+        "isSkillRef": false
       },
       {
         "key": "dru",
@@ -78,7 +82,8 @@
           "zh-CN": "德鲁伊技能等级"
         },
         "min": 3,
-        "max": 3
+        "max": 3,
+        "isSkillRef": true
       },
       {
         "key": "ac",
@@ -88,7 +93,8 @@
           "zh-CN": "防御力"
         },
         "min": 150,
-        "max": 150
+        "max": 150,
+        "isSkillRef": false
       },
       {
         "key": "manasteal",
@@ -98,7 +104,8 @@
           "zh-CN": "魔力窃取 %"
         },
         "min": 10,
-        "max": 10
+        "max": 10,
+        "isSkillRef": false
       },
       {
         "key": "mana",
@@ -108,7 +115,8 @@
           "zh-CN": "魔力值"
         },
         "min": 150,
-        "max": 150
+        "max": 150,
+        "isSkillRef": false
       },
       {
         "key": "dmg%",
@@ -118,7 +126,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 350,
-        "max": 350
+        "max": 350,
+        "isSkillRef": false
       }
     ]
   },
@@ -147,7 +156,8 @@
               "zh-CN": "敏捷"
             },
             "min": 10,
-            "max": 10
+            "max": 10,
+            "isSkillRef": false
           }
         ]
       },
@@ -162,7 +172,8 @@
               "zh-CN": "魔力值"
             },
             "min": 50,
-            "max": 50
+            "max": 50,
+            "isSkillRef": false
           }
         ]
       }
@@ -176,7 +187,8 @@
           "zh-CN": "全抗性"
         },
         "min": 25,
-        "max": 25
+        "max": 25,
+        "isSkillRef": false
       },
       {
         "key": "half-freeze",
@@ -186,7 +198,8 @@
           "zh-CN": "减半冰冻持续时间"
         },
         "min": 1,
-        "max": 1
+        "max": 1,
+        "isSkillRef": false
       },
       {
         "key": "mag%",
@@ -196,7 +209,8 @@
           "zh-CN": "额外魔法物品寻获率 %"
         },
         "min": 40,
-        "max": 40
+        "max": 40,
+        "isSkillRef": false
       },
       {
         "key": "regen-mana",
@@ -206,7 +220,8 @@
           "zh-CN": "魔力回复 %"
         },
         "min": 8,
-        "max": 8
+        "max": 8,
+        "isSkillRef": false
       }
     ]
   },
@@ -235,7 +250,8 @@
               "zh-CN": "魔力值"
             },
             "min": 50,
-            "max": 50
+            "max": 50,
+            "isSkillRef": false
           }
         ]
       },
@@ -250,7 +266,8 @@
               "zh-CN": "生命值"
             },
             "min": 50,
-            "max": 50
+            "max": 50,
+            "isSkillRef": false
           }
         ]
       }
@@ -264,7 +281,8 @@
           "zh-CN": "加快施法速度"
         },
         "min": 20,
-        "max": 20
+        "max": 20,
+        "isSkillRef": false
       },
       {
         "key": "manasteal",
@@ -274,7 +292,8 @@
           "zh-CN": "魔力窃取 %"
         },
         "min": 5,
-        "max": 5
+        "max": 5,
+        "isSkillRef": false
       },
       {
         "key": "mana",
@@ -284,7 +303,8 @@
           "zh-CN": "魔力值"
         },
         "min": 25,
-        "max": 25
+        "max": 25,
+        "isSkillRef": false
       },
       {
         "key": "allskills",
@@ -294,7 +314,8 @@
           "zh-CN": "全部技能"
         },
         "min": 1,
-        "max": 1
+        "max": 1,
+        "isSkillRef": false
       }
     ]
   },
@@ -323,7 +344,8 @@
               "zh-CN": "力量"
             },
             "min": 5,
-            "max": 5
+            "max": 5,
+            "isSkillRef": false
           }
         ]
       },
@@ -338,7 +360,8 @@
               "zh-CN": "生命值"
             },
             "min": 50,
-            "max": 50
+            "max": 50,
+            "isSkillRef": false
           }
         ]
       }
@@ -352,7 +375,8 @@
           "zh-CN": "冷冻持续时间"
         },
         "min": 100,
-        "max": 100
+        "max": 100,
+        "isSkillRef": false
       },
       {
         "key": "nofreeze",
@@ -362,7 +386,8 @@
           "zh-CN": "不会被冰冻"
         },
         "min": 1,
-        "max": 1
+        "max": 1,
+        "isSkillRef": false
       }
     ]
   },
@@ -390,7 +415,8 @@
               "zh-CN": "强化伤害 %"
             },
             "min": 80,
-            "max": 80
+            "max": 80,
+            "isSkillRef": false
           }
         ]
       }
@@ -404,7 +430,8 @@
           "zh-CN": "全部技能"
         },
         "min": 1,
-        "max": 1
+        "max": 1,
+        "isSkillRef": false
       },
       {
         "key": "dex",
@@ -414,7 +441,8 @@
           "zh-CN": "敏捷"
         },
         "min": 15,
-        "max": 15
+        "max": 15,
+        "isSkillRef": false
       },
       {
         "key": "cast1",
@@ -424,7 +452,8 @@
           "zh-CN": "加快施法速度"
         },
         "min": 25,
-        "max": 25
+        "max": 25,
+        "isSkillRef": false
       },
       {
         "key": "mag%",
@@ -434,7 +463,8 @@
           "zh-CN": "额外魔法物品寻获率 %"
         },
         "min": 40,
-        "max": 40
+        "max": 40,
+        "isSkillRef": false
       }
     ]
   },
@@ -462,7 +492,8 @@
               "zh-CN": "生命值"
             },
             "min": 50,
-            "max": 50
+            "max": 50,
+            "isSkillRef": false
           }
         ]
       }
@@ -476,7 +507,8 @@
           "zh-CN": "减少毒素持续时间 %"
         },
         "min": 75,
-        "max": 75
+        "max": 75,
+        "isSkillRef": false
       },
       {
         "key": "pois-min",
@@ -486,7 +518,8 @@
           "zh-CN": "毒素伤害（最小）"
         },
         "min": 16,
-        "max": 16
+        "max": 16,
+        "isSkillRef": false
       },
       {
         "key": "pois-max",
@@ -496,7 +529,8 @@
           "zh-CN": "毒素伤害（最大）"
         },
         "min": 32,
-        "max": 32
+        "max": 32,
+        "isSkillRef": false
       },
       {
         "key": "pois-len",
@@ -506,7 +540,8 @@
           "zh-CN": "毒素持续时间"
         },
         "min": 75,
-        "max": 75
+        "max": 75,
+        "isSkillRef": false
       },
       {
         "key": "ac",
@@ -516,7 +551,8 @@
           "zh-CN": "防御力"
         },
         "min": 75,
-        "max": 75
+        "max": 75,
+        "isSkillRef": false
       }
     ]
   },
@@ -541,7 +577,8 @@
           "zh-CN": "火焰伤害"
         },
         "min": 200,
-        "max": 200
+        "max": 200,
+        "isSkillRef": false
       },
       {
         "key": "allskills",
@@ -551,7 +588,8 @@
           "zh-CN": "全部技能"
         },
         "min": 2,
-        "max": 2
+        "max": 2,
+        "isSkillRef": false
       },
       {
         "key": "att",
@@ -561,7 +599,8 @@
           "zh-CN": "攻击等级"
         },
         "min": 200,
-        "max": 200
+        "max": 200,
+        "isSkillRef": false
       },
       {
         "key": "ac",
@@ -571,7 +610,8 @@
           "zh-CN": "防御力"
         },
         "min": 200,
-        "max": 200
+        "max": 200,
+        "isSkillRef": false
       },
       {
         "key": "dmg-undead",
@@ -581,7 +621,8 @@
           "zh-CN": "对不死系伤害"
         },
         "min": 200,
-        "max": 200
+        "max": 200,
+        "isSkillRef": false
       },
       {
         "key": "dmg-demon",
@@ -591,7 +632,8 @@
           "zh-CN": "对恶魔伤害"
         },
         "min": 200,
-        "max": 200
+        "max": 200,
+        "isSkillRef": false
       },
       {
         "key": "lifesteal",
@@ -601,7 +643,8 @@
           "zh-CN": "生命窃取 %"
         },
         "min": 10,
-        "max": 10
+        "max": 10,
+        "isSkillRef": false
       },
       {
         "key": "deadly",
@@ -611,7 +654,8 @@
           "zh-CN": "致命一击 %"
         },
         "min": 20,
-        "max": 20
+        "max": 20,
+        "isSkillRef": false
       }
     ]
   },
@@ -641,7 +685,8 @@
               "zh-CN": "火焰伤害"
             },
             "min": 15,
-            "max": 20
+            "max": 20,
+            "isSkillRef": false
           }
         ]
       },
@@ -656,7 +701,8 @@
               "zh-CN": "闪电抗性 %"
             },
             "min": 25,
-            "max": 25
+            "max": 25,
+            "isSkillRef": false
           }
         ]
       }
@@ -670,7 +716,8 @@
           "zh-CN": "攻击等级"
         },
         "min": 60,
-        "max": 60
+        "max": 60,
+        "isSkillRef": false
       },
       {
         "key": "red-mag",
@@ -680,7 +727,8 @@
           "zh-CN": "减少魔法伤害"
         },
         "min": 3,
-        "max": 3
+        "max": 3,
+        "isSkillRef": false
       },
       {
         "key": "res-all",
@@ -690,7 +738,8 @@
           "zh-CN": "全抗性"
         },
         "min": 25,
-        "max": 25
+        "max": 25,
+        "isSkillRef": false
       },
       {
         "key": "cast1",
@@ -700,7 +749,8 @@
           "zh-CN": "加快施法速度"
         },
         "min": 10,
-        "max": 10
+        "max": 10,
+        "isSkillRef": false
       },
       {
         "key": "mana",
@@ -710,7 +760,8 @@
           "zh-CN": "魔力值"
         },
         "min": 20,
-        "max": 20
+        "max": 20,
+        "isSkillRef": false
       }
     ]
   },
@@ -738,7 +789,8 @@
               "zh-CN": "火焰抗性 %"
             },
             "min": 25,
-            "max": 25
+            "max": 25,
+            "isSkillRef": false
           }
         ]
       }
@@ -752,7 +804,8 @@
           "zh-CN": "力量"
         },
         "min": 15,
-        "max": 15
+        "max": 15,
+        "isSkillRef": false
       },
       {
         "key": "dmg-undead",
@@ -762,7 +815,8 @@
           "zh-CN": "对不死系伤害"
         },
         "min": 200,
-        "max": 200
+        "max": 200,
+        "isSkillRef": false
       },
       {
         "key": "res-ltng",
@@ -772,7 +826,8 @@
           "zh-CN": "闪电抗性 %"
         },
         "min": 25,
-        "max": 25
+        "max": 25,
+        "isSkillRef": false
       },
       {
         "key": "att%",
@@ -782,7 +837,8 @@
           "zh-CN": "攻击等级 %"
         },
         "min": 25,
-        "max": 25
+        "max": 25,
+        "isSkillRef": false
       },
       {
         "key": "ac",
@@ -792,7 +848,8 @@
           "zh-CN": "防御力"
         },
         "min": 50,
-        "max": 50
+        "max": 50,
+        "isSkillRef": false
       }
     ]
   },
@@ -820,7 +877,8 @@
               "zh-CN": "防御力"
             },
             "min": 50,
-            "max": 50
+            "max": 50,
+            "isSkillRef": false
           }
         ]
       }
@@ -834,7 +892,8 @@
           "zh-CN": "防御力"
         },
         "min": 50,
-        "max": 50
+        "max": 50,
+        "isSkillRef": false
       },
       {
         "key": "manasteal",
@@ -844,7 +903,8 @@
           "zh-CN": "魔力窃取 %"
         },
         "min": 6,
-        "max": 6
+        "max": 6,
+        "isSkillRef": false
       },
       {
         "key": "crush",
@@ -854,7 +914,8 @@
           "zh-CN": "破碎打击 %"
         },
         "min": 35,
-        "max": 35
+        "max": 35,
+        "isSkillRef": false
       },
       {
         "key": "swing2",
@@ -864,7 +925,8 @@
           "zh-CN": "加快攻击速度"
         },
         "min": 20,
-        "max": 20
+        "max": 20,
+        "isSkillRef": false
       }
     ]
   },
@@ -892,7 +954,8 @@
               "zh-CN": "毒素抗性 %"
             },
             "min": 25,
-            "max": 25
+            "max": 25,
+            "isSkillRef": false
           }
         ]
       }
@@ -906,7 +969,8 @@
           "zh-CN": "耐力"
         },
         "min": 100,
-        "max": 100
+        "max": 100,
+        "isSkillRef": false
       },
       {
         "key": "str",
@@ -916,7 +980,8 @@
           "zh-CN": "力量"
         },
         "min": 20,
-        "max": 20
+        "max": 20,
+        "isSkillRef": false
       },
       {
         "key": "gold%",
@@ -926,7 +991,8 @@
           "zh-CN": "额外金币拾取率 %"
         },
         "min": 100,
-        "max": 100
+        "max": 100,
+        "isSkillRef": false
       },
       {
         "key": "mag%",
@@ -936,7 +1002,8 @@
           "zh-CN": "额外魔法物品寻获率 %"
         },
         "min": 100,
-        "max": 100
+        "max": 100,
+        "isSkillRef": false
       },
       {
         "key": "gethit-skill:42",
@@ -946,7 +1013,8 @@
           "zh-CN": "受击时触发机率 (静态力场)"
         },
         "min": 25,
-        "max": 5
+        "max": 5,
+        "isSkillRef": true
       },
       {
         "key": "swing3",
@@ -956,7 +1024,8 @@
           "zh-CN": "加快攻击速度"
         },
         "min": 30,
-        "max": 30
+        "max": 30,
+        "isSkillRef": false
       },
       {
         "key": "hp",
@@ -966,7 +1035,8 @@
           "zh-CN": "生命值"
         },
         "min": 100,
-        "max": 100
+        "max": 100,
+        "isSkillRef": false
       },
       {
         "key": "allskills",
@@ -976,7 +1046,8 @@
           "zh-CN": "全部技能"
         },
         "min": 1,
-        "max": 1
+        "max": 1,
+        "isSkillRef": false
       }
     ]
   },
@@ -1004,7 +1075,8 @@
               "zh-CN": "生命窃取 %"
             },
             "min": 8,
-            "max": 8
+            "max": 8,
+            "isSkillRef": false
           }
         ]
       }
@@ -1018,7 +1090,8 @@
           "zh-CN": "攻击等级 %"
         },
         "min": 40,
-        "max": 40
+        "max": 40,
+        "isSkillRef": false
       },
       {
         "key": "dmg-min",
@@ -1028,7 +1101,8 @@
           "zh-CN": "最小伤害"
         },
         "min": 10,
-        "max": 10
+        "max": 10,
+        "isSkillRef": false
       },
       {
         "key": "res-all",
@@ -1038,7 +1112,8 @@
           "zh-CN": "全抗性"
         },
         "min": 25,
-        "max": 25
+        "max": 25,
+        "isSkillRef": false
       }
     ]
   },
@@ -1067,7 +1142,8 @@
               "zh-CN": "力量"
             },
             "min": 20,
-            "max": 20
+            "max": 20,
+            "isSkillRef": false
           }
         ]
       },
@@ -1082,7 +1158,8 @@
               "zh-CN": "敏捷"
             },
             "min": 30,
-            "max": 30
+            "max": 30,
+            "isSkillRef": false
           }
         ]
       }
@@ -1096,7 +1173,8 @@
           "zh-CN": "全抗性"
         },
         "min": 50,
-        "max": 50
+        "max": 50,
+        "isSkillRef": false
       },
       {
         "key": "pal",
@@ -1106,7 +1184,8 @@
           "zh-CN": "圣骑士技能等级"
         },
         "min": 3,
-        "max": 3
+        "max": 3,
+        "isSkillRef": true
       },
       {
         "key": "att",
@@ -1116,7 +1195,8 @@
           "zh-CN": "攻击等级"
         },
         "min": 200,
-        "max": 200
+        "max": 200,
+        "isSkillRef": false
       },
       {
         "key": "hp",
@@ -1126,7 +1206,8 @@
           "zh-CN": "生命值"
         },
         "min": 150,
-        "max": 150
+        "max": 150,
+        "isSkillRef": false
       },
       {
         "key": "balance2",
@@ -1136,7 +1217,8 @@
           "zh-CN": "加快恢复速度"
         },
         "min": 30,
-        "max": 30
+        "max": 30,
+        "isSkillRef": false
       }
     ]
   },
@@ -1165,7 +1247,8 @@
               "zh-CN": "生命窃取 %"
             },
             "min": 10,
-            "max": 10
+            "max": 10,
+            "isSkillRef": false
           }
         ]
       },
@@ -1180,7 +1263,8 @@
               "zh-CN": "生命回复 %"
             },
             "min": 30,
-            "max": 30
+            "max": 30,
+            "isSkillRef": false
           }
         ]
       }
@@ -1194,7 +1278,8 @@
           "zh-CN": "全抗性"
         },
         "min": 50,
-        "max": 50
+        "max": 50,
+        "isSkillRef": false
       },
       {
         "key": "allskills",
@@ -1204,7 +1289,8 @@
           "zh-CN": "全部技能"
         },
         "min": 2,
-        "max": 2
+        "max": 2,
+        "isSkillRef": false
       },
       {
         "key": "nofreeze",
@@ -1214,7 +1300,8 @@
           "zh-CN": "不会被冰冻"
         },
         "min": 1,
-        "max": 1
+        "max": 1,
+        "isSkillRef": false
       },
       {
         "key": "light",
@@ -1224,7 +1311,8 @@
           "zh-CN": "光环半径"
         },
         "min": 5,
-        "max": 5
+        "max": 5,
+        "isSkillRef": false
       },
       {
         "key": "red-dmg%",
@@ -1234,7 +1322,8 @@
           "zh-CN": "减少伤害 %"
         },
         "min": 24,
-        "max": 24
+        "max": 24,
+        "isSkillRef": false
       }
     ]
   },
@@ -1264,7 +1353,8 @@
               "zh-CN": "敏捷"
             },
             "min": 20,
-            "max": 20
+            "max": 20,
+            "isSkillRef": false
           }
         ]
       },
@@ -1279,7 +1369,8 @@
               "zh-CN": "精力"
             },
             "min": 30,
-            "max": 30
+            "max": 30,
+            "isSkillRef": false
           }
         ]
       },
@@ -1294,7 +1385,8 @@
               "zh-CN": "防御力"
             },
             "min": 300,
-            "max": 300
+            "max": 300,
+            "isSkillRef": false
           }
         ]
       }
@@ -1308,7 +1400,8 @@
           "zh-CN": "全抗性"
         },
         "min": 50,
-        "max": 50
+        "max": 50,
+        "isSkillRef": false
       },
       {
         "key": "war",
@@ -1318,7 +1411,8 @@
           "zh-CN": "war"
         },
         "min": 3,
-        "max": 3
+        "max": 3,
+        "isSkillRef": false
       },
       {
         "key": "dmg%",
@@ -1328,7 +1422,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 350,
-        "max": 350
+        "max": 350,
+        "isSkillRef": false
       },
       {
         "key": "mag%",
@@ -1338,7 +1433,8 @@
           "zh-CN": "额外魔法物品寻获率 %"
         },
         "min": 100,
-        "max": 100
+        "max": 100,
+        "isSkillRef": false
       },
       {
         "key": "oskill:Enchant",
@@ -1348,7 +1444,8 @@
           "zh-CN": "技能加成 (Enchant)"
         },
         "min": 30,
-        "max": 30
+        "max": 30,
+        "isSkillRef": true
       }
     ]
   },
@@ -1376,7 +1473,8 @@
               "zh-CN": "攻击者承受伤害"
             },
             "min": 5,
-            "max": 5
+            "max": 5,
+            "isSkillRef": false
           }
         ]
       }
@@ -1390,7 +1488,8 @@
           "zh-CN": "最大伤害"
         },
         "min": 5,
-        "max": 5
+        "max": 5,
+        "isSkillRef": false
       },
       {
         "key": "nofreeze",
@@ -1400,7 +1499,8 @@
           "zh-CN": "不会被冰冻"
         },
         "min": 1,
-        "max": 1
+        "max": 1,
+        "isSkillRef": false
       },
       {
         "key": "res-ltng",
@@ -1410,7 +1510,8 @@
           "zh-CN": "闪电抗性 %"
         },
         "min": 25,
-        "max": 25
+        "max": 25,
+        "isSkillRef": false
       }
     ]
   },
@@ -1439,7 +1540,8 @@
               "zh-CN": "防御力"
             },
             "min": 100,
-            "max": 100
+            "max": 100,
+            "isSkillRef": false
           }
         ]
       },
@@ -1454,7 +1556,8 @@
               "zh-CN": "防御力"
             },
             "min": 200,
-            "max": 200
+            "max": 200,
+            "isSkillRef": false
           }
         ]
       }
@@ -1468,7 +1571,8 @@
           "zh-CN": "全部技能"
         },
         "min": 2,
-        "max": 2
+        "max": 2,
+        "isSkillRef": false
       },
       {
         "key": "lifesteal",
@@ -1478,7 +1582,8 @@
           "zh-CN": "生命窃取 %"
         },
         "min": 20,
-        "max": 20
+        "max": 20,
+        "isSkillRef": false
       },
       {
         "key": "move3",
@@ -1488,7 +1593,8 @@
           "zh-CN": "加快跑走速度 %"
         },
         "min": 30,
-        "max": 30
+        "max": 30,
+        "isSkillRef": false
       },
       {
         "key": "res-all",
@@ -1498,7 +1604,8 @@
           "zh-CN": "全抗性"
         },
         "min": 30,
-        "max": 30
+        "max": 30,
+        "isSkillRef": false
       }
     ]
   },
@@ -1529,7 +1636,8 @@
               "zh-CN": "攻击等级"
             },
             "min": 50,
-            "max": 50
+            "max": 50,
+            "isSkillRef": false
           }
         ]
       },
@@ -1544,7 +1652,8 @@
               "zh-CN": "攻击等级"
             },
             "min": 75,
-            "max": 75
+            "max": 75,
+            "isSkillRef": false
           }
         ]
       },
@@ -1559,7 +1668,8 @@
               "zh-CN": "攻击等级"
             },
             "min": 125,
-            "max": 125
+            "max": 125,
+            "isSkillRef": false
           }
         ]
       },
@@ -1574,7 +1684,8 @@
               "zh-CN": "攻击等级"
             },
             "min": 200,
-            "max": 200
+            "max": 200,
+            "isSkillRef": false
           }
         ]
       }
@@ -1588,7 +1699,8 @@
           "zh-CN": "全抗性"
         },
         "min": 50,
-        "max": 50
+        "max": 50,
+        "isSkillRef": false
       },
       {
         "key": "bar",
@@ -1598,7 +1710,8 @@
           "zh-CN": "蛮族技能等级"
         },
         "min": 3,
-        "max": 3
+        "max": 3,
+        "isSkillRef": true
       },
       {
         "key": "hp",
@@ -1608,7 +1721,8 @@
           "zh-CN": "生命值"
         },
         "min": 150,
-        "max": 150
+        "max": 150,
+        "isSkillRef": false
       },
       {
         "key": "red-mag",
@@ -1618,7 +1732,8 @@
           "zh-CN": "减少魔法伤害"
         },
         "min": 10,
-        "max": 10
+        "max": 10,
+        "isSkillRef": false
       }
     ]
   },
@@ -1646,7 +1761,8 @@
               "zh-CN": "毒素伤害"
             },
             "min": 25,
-            "max": 25
+            "max": 25,
+            "isSkillRef": false
           }
         ]
       },
@@ -1661,7 +1777,8 @@
               "zh-CN": "魔力值"
             },
             "min": 10,
-            "max": 10
+            "max": 10,
+            "isSkillRef": false
           }
         ]
       }
@@ -1675,7 +1792,8 @@
           "zh-CN": "攻击等级 %"
         },
         "min": 20,
-        "max": 20
+        "max": 20,
+        "isSkillRef": false
       },
       {
         "key": "nec:0",
@@ -1685,7 +1803,8 @@
           "zh-CN": "死灵法师技能等级 (攻击)"
         },
         "min": 1,
-        "max": 1
+        "max": 1,
+        "isSkillRef": true
       },
       {
         "key": "openwounds",
@@ -1695,7 +1814,8 @@
           "zh-CN": "撕裂伤口 %"
         },
         "min": 20,
-        "max": 20
+        "max": 20,
+        "isSkillRef": false
       },
       {
         "key": "manasteal",
@@ -1705,7 +1825,8 @@
           "zh-CN": "魔力窃取 %"
         },
         "min": 6,
-        "max": 6
+        "max": 6,
+        "isSkillRef": false
       },
       {
         "key": "mana%",
@@ -1715,7 +1836,8 @@
           "zh-CN": "增加最大魔力值 %"
         },
         "min": 20,
-        "max": 20
+        "max": 20,
+        "isSkillRef": false
       },
       {
         "key": "nofreeze",
@@ -1725,7 +1847,8 @@
           "zh-CN": "不会被冰冻"
         },
         "min": 1,
-        "max": 1
+        "max": 1,
+        "isSkillRef": false
       }
     ]
   },
@@ -1754,7 +1877,8 @@
               "zh-CN": "防御力"
             },
             "min": 50,
-            "max": 50
+            "max": 50,
+            "isSkillRef": false
           }
         ]
       },
@@ -1769,7 +1893,8 @@
               "zh-CN": "加快跑走速度 %"
             },
             "min": 20,
-            "max": 20
+            "max": 20,
+            "isSkillRef": false
           }
         ]
       }
@@ -1783,7 +1908,8 @@
           "zh-CN": "全抗性"
         },
         "min": 20,
-        "max": 20
+        "max": 20,
+        "isSkillRef": false
       },
       {
         "key": "res-fire-max",
@@ -1793,7 +1919,8 @@
           "zh-CN": "最大火焰抗性 %"
         },
         "min": 10,
-        "max": 10
+        "max": 10,
+        "isSkillRef": false
       },
       {
         "key": "res-cold-max",
@@ -1803,7 +1930,8 @@
           "zh-CN": "最大冷冻抗性 %"
         },
         "min": 10,
-        "max": 10
+        "max": 10,
+        "isSkillRef": false
       },
       {
         "key": "res-ltng-max",
@@ -1813,7 +1941,8 @@
           "zh-CN": "最大闪电抗性 %"
         },
         "min": 10,
-        "max": 10
+        "max": 10,
+        "isSkillRef": false
       },
       {
         "key": "res-pois-max",
@@ -1823,7 +1952,8 @@
           "zh-CN": "最大毒素抗性 %"
         },
         "min": 10,
-        "max": 10
+        "max": 10,
+        "isSkillRef": false
       },
       {
         "key": "dex",
@@ -1833,7 +1963,8 @@
           "zh-CN": "敏捷"
         },
         "min": 15,
-        "max": 15
+        "max": 15,
+        "isSkillRef": false
       }
     ]
   },
@@ -1862,7 +1993,8 @@
               "zh-CN": "力量"
             },
             "min": 10,
-            "max": 10
+            "max": 10,
+            "isSkillRef": false
           }
         ]
       },
@@ -1877,7 +2009,8 @@
               "zh-CN": "敏捷"
             },
             "min": 10,
-            "max": 10
+            "max": 10,
+            "isSkillRef": false
           }
         ]
       }
@@ -1891,7 +2024,8 @@
           "zh-CN": "生命窃取 %"
         },
         "min": 5,
-        "max": 5
+        "max": 5,
+        "isSkillRef": false
       },
       {
         "key": "res-all",
@@ -1901,7 +2035,8 @@
           "zh-CN": "全抗性"
         },
         "min": 10,
-        "max": 10
+        "max": 10,
+        "isSkillRef": false
       },
       {
         "key": "att%",
@@ -1911,7 +2046,8 @@
           "zh-CN": "攻击等级 %"
         },
         "min": 35,
-        "max": 35
+        "max": 35,
+        "isSkillRef": false
       },
       {
         "key": "block",
@@ -1921,7 +2057,8 @@
           "zh-CN": "格挡机率 %"
         },
         "min": 30,
-        "max": 30
+        "max": 30,
+        "isSkillRef": false
       },
       {
         "key": "move2",
@@ -1931,7 +2068,8 @@
           "zh-CN": "加快跑走速度 %"
         },
         "min": 20,
-        "max": 20
+        "max": 20,
+        "isSkillRef": false
       }
     ]
   },
@@ -1961,7 +2099,8 @@
               "zh-CN": "力量"
             },
             "min": 20,
-            "max": 20
+            "max": 20,
+            "isSkillRef": false
           }
         ]
       },
@@ -1976,7 +2115,8 @@
               "zh-CN": "敏捷"
             },
             "min": 30,
-            "max": 30
+            "max": 30,
+            "isSkillRef": false
           }
         ]
       }
@@ -1990,7 +2130,8 @@
           "zh-CN": "全抗性"
         },
         "min": 50,
-        "max": 50
+        "max": 50,
+        "isSkillRef": false
       },
       {
         "key": "ama",
@@ -2000,7 +2141,8 @@
           "zh-CN": "亚马逊技能等级"
         },
         "min": 3,
-        "max": 3
+        "max": 3,
+        "isSkillRef": true
       },
       {
         "key": "ac",
@@ -2010,7 +2152,8 @@
           "zh-CN": "防御力"
         },
         "min": 100,
-        "max": 100
+        "max": 100,
+        "isSkillRef": false
       },
       {
         "key": "att",
@@ -2020,7 +2163,8 @@
           "zh-CN": "攻击等级"
         },
         "min": 100,
-        "max": 100
+        "max": 100,
+        "isSkillRef": false
       },
       {
         "key": "mag%",
@@ -2030,7 +2174,8 @@
           "zh-CN": "额外魔法物品寻获率 %"
         },
         "min": 100,
-        "max": 100
+        "max": 100,
+        "isSkillRef": false
       }
     ]
   },
@@ -2059,7 +2204,8 @@
               "zh-CN": "防御力"
             },
             "min": 50,
-            "max": 50
+            "max": 50,
+            "isSkillRef": false
           }
         ]
       },
@@ -2074,7 +2220,8 @@
               "zh-CN": "攻击等级"
             },
             "min": 75,
-            "max": 75
+            "max": 75,
+            "isSkillRef": false
           }
         ]
       }
@@ -2088,7 +2235,8 @@
           "zh-CN": "全部技能"
         },
         "min": 1,
-        "max": 1
+        "max": 1,
+        "isSkillRef": false
       },
       {
         "key": "mag%",
@@ -2098,7 +2246,8 @@
           "zh-CN": "额外魔法物品寻获率 %"
         },
         "min": 50,
-        "max": 50
+        "max": 50,
+        "isSkillRef": false
       },
       {
         "key": "mana",
@@ -2108,7 +2257,8 @@
           "zh-CN": "魔力值"
         },
         "min": 50,
-        "max": 50
+        "max": 50,
+        "isSkillRef": false
       },
       {
         "key": "lifesteal",
@@ -2118,7 +2268,8 @@
           "zh-CN": "生命窃取 %"
         },
         "min": 4,
-        "max": 4
+        "max": 4,
+        "isSkillRef": false
       }
     ]
   },
@@ -2147,7 +2298,8 @@
               "zh-CN": "攻击等级"
             },
             "min": 75,
-            "max": 75
+            "max": 75,
+            "isSkillRef": false
           }
         ]
       },
@@ -2162,7 +2314,8 @@
               "zh-CN": "攻击等级"
             },
             "min": 125,
-            "max": 125
+            "max": 125,
+            "isSkillRef": false
           }
         ]
       }
@@ -2176,7 +2329,8 @@
           "zh-CN": "生命窃取 %"
         },
         "min": 8,
-        "max": 8
+        "max": 8,
+        "isSkillRef": false
       },
       {
         "key": "pal:0",
@@ -2186,7 +2340,8 @@
           "zh-CN": "圣骑士技能等级 (攻击)"
         },
         "min": 2,
-        "max": 2
+        "max": 2,
+        "isSkillRef": true
       },
       {
         "key": "manasteal",
@@ -2196,7 +2351,8 @@
           "zh-CN": "魔力窃取 %"
         },
         "min": 10,
-        "max": 10
+        "max": 10,
+        "isSkillRef": false
       },
       {
         "key": "res-pois",
@@ -2206,7 +2362,8 @@
           "zh-CN": "毒素抗性 %"
         },
         "min": 15,
-        "max": 15
+        "max": 15,
+        "isSkillRef": false
       }
     ]
   },
@@ -2234,7 +2391,8 @@
               "zh-CN": "防御力"
             },
             "min": 175,
-            "max": 175
+            "max": 175,
+            "isSkillRef": false
           }
         ]
       }
@@ -2248,7 +2406,8 @@
           "zh-CN": "全部技能"
         },
         "min": 1,
-        "max": 1
+        "max": 1,
+        "isSkillRef": false
       },
       {
         "key": "regen",
@@ -2258,7 +2417,8 @@
           "zh-CN": "生命回复 %"
         },
         "min": 20,
-        "max": 20
+        "max": 20,
+        "isSkillRef": false
       },
       {
         "key": "dex",
@@ -2268,7 +2428,8 @@
           "zh-CN": "敏捷"
         },
         "min": 15,
-        "max": 15
+        "max": 15,
+        "isSkillRef": false
       },
       {
         "key": "res-all",
@@ -2278,7 +2439,8 @@
           "zh-CN": "全抗性"
         },
         "min": 50,
-        "max": 50
+        "max": 50,
+        "isSkillRef": false
       },
       {
         "key": "str",
@@ -2288,7 +2450,8 @@
           "zh-CN": "力量"
         },
         "min": 20,
-        "max": 20
+        "max": 20,
+        "isSkillRef": false
       },
       {
         "key": "mana",
@@ -2298,7 +2461,8 @@
           "zh-CN": "魔力值"
         },
         "min": 100,
-        "max": 100
+        "max": 100,
+        "isSkillRef": false
       },
       {
         "key": "fireskill",
@@ -2308,7 +2472,8 @@
           "zh-CN": "火焰技能加成"
         },
         "min": 2,
-        "max": 2
+        "max": 2,
+        "isSkillRef": false
       },
       {
         "key": "hp%",
@@ -2318,7 +2483,8 @@
           "zh-CN": "增加最大生命值 %"
         },
         "min": 12,
-        "max": 12
+        "max": 12,
+        "isSkillRef": false
       }
     ]
   },
@@ -2347,7 +2513,8 @@
               "zh-CN": "减少魔法伤害"
             },
             "min": 15,
-            "max": 15
+            "max": 15,
+            "isSkillRef": false
           }
         ]
       },
@@ -2362,7 +2529,8 @@
               "zh-CN": "防御力"
             },
             "min": 200,
-            "max": 200
+            "max": 200,
+            "isSkillRef": false
           }
         ]
       },
@@ -2377,7 +2545,8 @@
               "zh-CN": "毒素抗性 %"
             },
             "min": 20,
-            "max": 20
+            "max": 20,
+            "isSkillRef": false
           }
         ]
       }
@@ -2391,7 +2560,8 @@
           "zh-CN": "全抗性"
         },
         "min": 50,
-        "max": 50
+        "max": 50,
+        "isSkillRef": false
       },
       {
         "key": "ass",
@@ -2401,7 +2571,8 @@
           "zh-CN": "刺客技能等级"
         },
         "min": 3,
-        "max": 3
+        "max": 3,
+        "isSkillRef": true
       },
       {
         "key": "ac",
@@ -2411,7 +2582,8 @@
           "zh-CN": "防御力"
         },
         "min": 150,
-        "max": 150
+        "max": 150,
+        "isSkillRef": false
       },
       {
         "key": "lifesteal",
@@ -2421,7 +2593,8 @@
           "zh-CN": "生命窃取 %"
         },
         "min": 14,
-        "max": 14
+        "max": 14,
+        "isSkillRef": false
       },
       {
         "key": "manasteal",
@@ -2431,7 +2604,8 @@
           "zh-CN": "魔力窃取 %"
         },
         "min": 14,
-        "max": 14
+        "max": 14,
+        "isSkillRef": false
       },
       {
         "key": "red-dmg%",
@@ -2441,7 +2615,8 @@
           "zh-CN": "减少伤害 %"
         },
         "min": 30,
-        "max": 30
+        "max": 30,
+        "isSkillRef": false
       },
       {
         "key": "fade",
@@ -2451,7 +2626,8 @@
           "zh-CN": "fade"
         },
         "min": 1,
-        "max": 1
+        "max": 1,
+        "isSkillRef": false
       }
     ]
   },
@@ -2480,7 +2656,8 @@
               "zh-CN": "生命值"
             },
             "min": 35,
-            "max": 35
+            "max": 35,
+            "isSkillRef": false
           }
         ]
       },
@@ -2495,7 +2672,8 @@
               "zh-CN": "攻击者承受伤害"
             },
             "min": 5,
-            "max": 5
+            "max": 5,
+            "isSkillRef": false
           }
         ]
       },
@@ -2510,7 +2688,8 @@
               "zh-CN": "防御力"
             },
             "min": 100,
-            "max": 100
+            "max": 100,
+            "isSkillRef": false
           }
         ]
       }
@@ -2524,7 +2703,8 @@
           "zh-CN": "生命值"
         },
         "min": 50,
-        "max": 50
+        "max": 50,
+        "isSkillRef": false
       },
       {
         "key": "dex",
@@ -2534,7 +2714,8 @@
           "zh-CN": "敏捷"
         },
         "min": 10,
-        "max": 10
+        "max": 10,
+        "isSkillRef": false
       },
       {
         "key": "str",
@@ -2544,7 +2725,8 @@
           "zh-CN": "力量"
         },
         "min": 20,
-        "max": 20
+        "max": 20,
+        "isSkillRef": false
       },
       {
         "key": "ac",
@@ -2554,7 +2736,8 @@
           "zh-CN": "防御力"
         },
         "min": 100,
-        "max": 100
+        "max": 100,
+        "isSkillRef": false
       },
       {
         "key": "res-all",
@@ -2564,7 +2747,8 @@
           "zh-CN": "全抗性"
         },
         "min": 15,
-        "max": 15
+        "max": 15,
+        "isSkillRef": false
       },
       {
         "key": "mag%",
@@ -2574,7 +2758,8 @@
           "zh-CN": "额外魔法物品寻获率 %"
         },
         "min": 80,
-        "max": 80
+        "max": 80,
+        "isSkillRef": false
       }
     ]
   },
@@ -2602,7 +2787,8 @@
               "zh-CN": "加快跑走速度 %"
             },
             "min": 40,
-            "max": 40
+            "max": 40,
+            "isSkillRef": false
           }
         ]
       }
@@ -2616,7 +2802,8 @@
           "zh-CN": "全抗性"
         },
         "min": 30,
-        "max": 30
+        "max": 30,
+        "isSkillRef": false
       },
       {
         "key": "lifesteal",
@@ -2626,7 +2813,8 @@
           "zh-CN": "生命窃取 %"
         },
         "min": 15,
-        "max": 15
+        "max": 15,
+        "isSkillRef": false
       },
       {
         "key": "hp%",
@@ -2636,7 +2824,8 @@
           "zh-CN": "增加最大生命值 %"
         },
         "min": 27,
-        "max": 27
+        "max": 27,
+        "isSkillRef": false
       },
       {
         "key": "allskills",
@@ -2646,7 +2835,8 @@
           "zh-CN": "全部技能"
         },
         "min": 1,
-        "max": 1
+        "max": 1,
+        "isSkillRef": false
       },
       {
         "key": "red-dmg%",
@@ -2656,7 +2846,8 @@
           "zh-CN": "减少伤害 %"
         },
         "min": 16,
-        "max": 16
+        "max": 16,
+        "isSkillRef": false
       }
     ]
   },
@@ -2687,7 +2878,8 @@
               "zh-CN": "生命窃取 %"
             },
             "min": 10,
-            "max": 10
+            "max": 10,
+            "isSkillRef": false
           }
         ]
       },
@@ -2702,7 +2894,8 @@
               "zh-CN": "防御力"
             },
             "min": 100,
-            "max": 100
+            "max": 100,
+            "isSkillRef": false
           }
         ]
       }
@@ -2716,7 +2909,8 @@
           "zh-CN": "火焰抗性 %"
         },
         "min": 12,
-        "max": 12
+        "max": 12,
+        "isSkillRef": false
       },
       {
         "key": "thorns",
@@ -2726,7 +2920,8 @@
           "zh-CN": "攻击者承受伤害"
         },
         "min": 12,
-        "max": 12
+        "max": 12,
+        "isSkillRef": false
       },
       {
         "key": "red-dmg",
@@ -2736,7 +2931,8 @@
           "zh-CN": "减少伤害"
         },
         "min": 7,
-        "max": 7
+        "max": 7,
+        "isSkillRef": false
       },
       {
         "key": "fire-max",
@@ -2746,7 +2942,8 @@
           "zh-CN": "火焰伤害（最大）"
         },
         "min": 24,
-        "max": 24
+        "max": 24,
+        "isSkillRef": false
       },
       {
         "key": "mana",
@@ -2756,7 +2953,8 @@
           "zh-CN": "魔力值"
         },
         "min": 20,
-        "max": 20
+        "max": 20,
+        "isSkillRef": false
       }
     ]
   },
@@ -2786,7 +2984,8 @@
               "zh-CN": "生命回复 %"
             },
             "min": 10,
-            "max": 10
+            "max": 10,
+            "isSkillRef": false
           }
         ]
       },
@@ -2801,7 +3000,8 @@
               "zh-CN": "额外魔法物品寻获率 %"
             },
             "min": 65,
-            "max": 65
+            "max": 65,
+            "isSkillRef": false
           }
         ]
       },
@@ -2816,7 +3016,8 @@
               "zh-CN": "加快恢复速度"
             },
             "min": 25,
-            "max": 25
+            "max": 25,
+            "isSkillRef": false
           }
         ]
       }
@@ -2830,7 +3031,8 @@
           "zh-CN": "全抗性"
         },
         "min": 50,
-        "max": 50
+        "max": 50,
+        "isSkillRef": false
       },
       {
         "key": "sor",
@@ -2840,7 +3042,8 @@
           "zh-CN": "女巫技能等级"
         },
         "min": 3,
-        "max": 3
+        "max": 3,
+        "isSkillRef": true
       },
       {
         "key": "ac",
@@ -2850,7 +3053,8 @@
           "zh-CN": "防御力"
         },
         "min": 150,
-        "max": 150
+        "max": 150,
+        "isSkillRef": false
       },
       {
         "key": "hp",
@@ -2860,7 +3064,8 @@
           "zh-CN": "生命值"
         },
         "min": 150,
-        "max": 150
+        "max": 150,
+        "isSkillRef": false
       },
       {
         "key": "ac-miss",
@@ -2870,7 +3075,8 @@
           "zh-CN": "对抗远程攻击防御力"
         },
         "min": 50,
-        "max": 50
+        "max": 50,
+        "isSkillRef": false
       }
     ]
   },
@@ -2900,7 +3106,8 @@
               "zh-CN": "闪电伤害"
             },
             "min": 15,
-            "max": 15
+            "max": 15,
+            "isSkillRef": false
           }
         ]
       },
@@ -2915,7 +3122,8 @@
               "zh-CN": "生命窃取 %"
             },
             "min": 5,
-            "max": 5
+            "max": 5,
+            "isSkillRef": false
           }
         ]
       }
@@ -2929,7 +3137,8 @@
           "zh-CN": "额外金币拾取率 %"
         },
         "min": 75,
-        "max": 75
+        "max": 75,
+        "isSkillRef": false
       },
       {
         "key": "res-all",
@@ -2939,7 +3148,8 @@
           "zh-CN": "全抗性"
         },
         "min": 10,
-        "max": 10
+        "max": 10,
+        "isSkillRef": false
       },
       {
         "key": "slow",
@@ -2949,7 +3159,8 @@
           "zh-CN": "减缓目标速度 %"
         },
         "min": 35,
-        "max": 35
+        "max": 35,
+        "isSkillRef": false
       },
       {
         "key": "manasteal",
@@ -2959,7 +3170,8 @@
           "zh-CN": "魔力窃取 %"
         },
         "min": 5,
-        "max": 5
+        "max": 5,
+        "isSkillRef": false
       }
     ]
   },
@@ -2989,7 +3201,8 @@
               "zh-CN": "防御力"
             },
             "min": 150,
-            "max": 150
+            "max": 150,
+            "isSkillRef": false
           }
         ]
       },
@@ -3004,7 +3217,8 @@
               "zh-CN": "毒素伤害"
             },
             "min": 75,
-            "max": 75
+            "max": 75,
+            "isSkillRef": false
           }
         ]
       },
@@ -3019,7 +3233,8 @@
               "zh-CN": "力量"
             },
             "min": 10,
-            "max": 10
+            "max": 10,
+            "isSkillRef": false
           }
         ]
       },
@@ -3034,7 +3249,8 @@
               "zh-CN": "敏捷"
             },
             "min": 10,
-            "max": 10
+            "max": 10,
+            "isSkillRef": false
           }
         ]
       }
@@ -3048,7 +3264,8 @@
           "zh-CN": "全抗性"
         },
         "min": 50,
-        "max": 50
+        "max": 50,
+        "isSkillRef": false
       },
       {
         "key": "allskills",
@@ -3058,7 +3275,8 @@
           "zh-CN": "全部技能"
         },
         "min": 2,
-        "max": 2
+        "max": 2,
+        "isSkillRef": false
       },
       {
         "key": "mana",
@@ -3068,7 +3286,8 @@
           "zh-CN": "魔力值"
         },
         "min": 100,
-        "max": 100
+        "max": 100,
+        "isSkillRef": false
       }
     ]
   },
@@ -3098,7 +3317,8 @@
               "zh-CN": "魔力回复 %"
             },
             "min": 15,
-            "max": 15
+            "max": 15,
+            "isSkillRef": false
           }
         ]
       },
@@ -3113,7 +3333,8 @@
               "zh-CN": "魔力回复 %"
             },
             "min": 15,
-            "max": 15
+            "max": 15,
+            "isSkillRef": false
           }
         ]
       },
@@ -3128,7 +3349,8 @@
               "zh-CN": "魔力回复 %"
             },
             "min": 15,
-            "max": 15
+            "max": 15,
+            "isSkillRef": false
           }
         ]
       }
@@ -3142,7 +3364,8 @@
           "zh-CN": "全抗性"
         },
         "min": 50,
-        "max": 50
+        "max": 50,
+        "isSkillRef": false
       },
       {
         "key": "nec",
@@ -3152,7 +3375,8 @@
           "zh-CN": "死灵法师技能等级"
         },
         "min": 3,
-        "max": 3
+        "max": 3,
+        "isSkillRef": true
       },
       {
         "key": "mana",
@@ -3162,7 +3386,8 @@
           "zh-CN": "魔力值"
         },
         "min": 100,
-        "max": 100
+        "max": 100,
+        "isSkillRef": false
       },
       {
         "key": "ac",
@@ -3172,7 +3397,8 @@
           "zh-CN": "防御力"
         },
         "min": 200,
-        "max": 200
+        "max": 200,
+        "isSkillRef": false
       },
       {
         "key": "regen-mana",
@@ -3182,7 +3408,8 @@
           "zh-CN": "魔力回复 %"
         },
         "min": 15,
-        "max": 15
+        "max": 15,
+        "isSkillRef": false
       },
       {
         "key": "oskill:Fire Mastery",
@@ -3192,7 +3419,8 @@
           "zh-CN": "技能加成 (Fire Mastery)"
         },
         "min": 3,
-        "max": 3
+        "max": 3,
+        "isSkillRef": true
       },
       {
         "key": "lifesteal",
@@ -3202,7 +3430,8 @@
           "zh-CN": "生命窃取 %"
         },
         "min": 20,
-        "max": 20
+        "max": 20,
+        "isSkillRef": false
       }
     ]
   },
@@ -3231,7 +3460,8 @@
               "zh-CN": "攻击等级"
             },
             "min": 75,
-            "max": 75
+            "max": 75,
+            "isSkillRef": false
           }
         ]
       },
@@ -3246,7 +3476,8 @@
               "zh-CN": "敏捷"
             },
             "min": 15,
-            "max": 15
+            "max": 15,
+            "isSkillRef": false
           }
         ]
       }
@@ -3260,7 +3491,8 @@
           "zh-CN": "击中冰冻目标"
         },
         "min": 1,
-        "max": 1
+        "max": 1,
+        "isSkillRef": false
       },
       {
         "key": "pierce",
@@ -3270,7 +3502,8 @@
           "zh-CN": "穿透攻击 %"
         },
         "min": 50,
-        "max": 50
+        "max": 50,
+        "isSkillRef": false
       },
       {
         "key": "str",
@@ -3280,7 +3513,8 @@
           "zh-CN": "力量"
         },
         "min": 10,
-        "max": 10
+        "max": 10,
+        "isSkillRef": false
       }
     ]
   }
