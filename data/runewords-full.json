@@ -31,7 +31,8 @@
           "zh-TW": "冷凍抗性 %",
           "zh-CN": "冷冻抗性 %"
         },
-        "value": 30
+        "value": 30,
+        "isSkillRef": false
       },
       {
         "key": "res-all",
@@ -40,7 +41,8 @@
           "zh-TW": "全抗性",
           "zh-CN": "全抗性"
         },
-        "value": 13
+        "value": 13,
+        "isSkillRef": false
       },
       {
         "key": "ac%",
@@ -49,7 +51,8 @@
           "zh-TW": "強化防禦力 %",
           "zh-CN": "强化防御力 %"
         },
-        "value": 50
+        "value": 50,
+        "isSkillRef": false
       },
       {
         "key": "dmg-to-mana",
@@ -58,7 +61,8 @@
           "zh-TW": "承受傷害轉換為魔力",
           "zh-CN": "承受伤害转换为魔力"
         },
-        "value": 10
+        "value": 10,
+        "isSkillRef": false
       }
     ]
   },
@@ -94,7 +98,8 @@
           "zh-CN": "受击时触发机率 (Psychic Ward)"
         },
         "min": 2,
-        "max": 10
+        "max": 10,
+        "isSkillRef": true
       },
       {
         "key": "hit-skill:Miasma Chains",
@@ -104,7 +109,8 @@
           "zh-CN": "攻击时触发机率 (Miasma Chains)"
         },
         "min": 10,
-        "max": 15
+        "max": 15,
+        "isSkillRef": true
       },
       {
         "key": "dmg%",
@@ -114,7 +120,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 40,
-        "max": 60
+        "max": 60,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -125,7 +132,8 @@
           "zh-TW": "war",
           "zh-CN": "war"
         },
-        "value": 2
+        "value": 2,
+        "isSkillRef": false
       }
     ]
   },
@@ -165,7 +173,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 240,
-        "max": 270
+        "max": 270,
+        "isSkillRef": false
       },
       {
         "key": "str",
@@ -175,7 +184,8 @@
           "zh-CN": "力量"
         },
         "min": 25,
-        "max": 40
+        "max": 40,
+        "isSkillRef": false
       },
       {
         "key": "charged:Summon Grizzly",
@@ -185,7 +195,8 @@
           "zh-CN": "充能次数 (Summon Grizzly)"
         },
         "min": 5,
-        "max": 13
+        "max": 13,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -196,7 +207,8 @@
           "zh-TW": "加快攻擊速度",
           "zh-CN": "加快攻击速度"
         },
-        "value": 40
+        "value": 40,
+        "isSkillRef": false
       },
       {
         "key": "aura:Fanaticism",
@@ -205,7 +217,8 @@
           "zh-TW": "光環等級 (Fanaticism)",
           "zh-CN": "光环等级 (Fanaticism)"
         },
-        "value": 9
+        "value": 9,
+        "isSkillRef": true
       },
       {
         "key": "oskill:Wearbear",
@@ -214,7 +227,8 @@
           "zh-TW": "技能加成 (Wearbear)",
           "zh-CN": "技能加成 (Wearbear)"
         },
-        "value": 3
+        "value": 3,
+        "isSkillRef": true
       },
       {
         "key": "oskill:Shape Shifting",
@@ -223,7 +237,8 @@
           "zh-TW": "技能加成 (Shape Shifting)",
           "zh-CN": "技能加成 (Shape Shifting)"
         },
-        "value": 3
+        "value": 3,
+        "isSkillRef": true
       }
     ]
   },
@@ -259,7 +274,8 @@
           "zh-CN": "充能次数 (尸体爆炸)"
         },
         "min": 12,
-        "max": 4
+        "max": 4,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -270,7 +286,8 @@
           "zh-TW": "破碎打擊 %",
           "zh-CN": "破碎打击 %"
         },
-        "value": 40
+        "value": 40,
+        "isSkillRef": false
       },
       {
         "key": "dmg%",
@@ -279,7 +296,8 @@
           "zh-TW": "強化傷害 %",
           "zh-CN": "强化伤害 %"
         },
-        "value": 120
+        "value": 120,
+        "isSkillRef": false
       },
       {
         "key": "swing2",
@@ -288,7 +306,8 @@
           "zh-TW": "加快攻擊速度",
           "zh-CN": "加快攻击速度"
         },
-        "value": 15
+        "value": 15,
+        "isSkillRef": false
       },
       {
         "key": "red-mag",
@@ -297,7 +316,8 @@
           "zh-TW": "減少魔法傷害",
           "zh-CN": "减少魔法伤害"
         },
-        "value": 2
+        "value": 2,
+        "isSkillRef": false
       },
       {
         "key": "att",
@@ -306,7 +326,8 @@
           "zh-TW": "攻擊等級",
           "zh-CN": "攻击等级"
         },
-        "value": 200
+        "value": 200,
+        "isSkillRef": false
       }
     ]
   },
@@ -342,7 +363,8 @@
           "zh-CN": "攻击时触发机率 (Bone Spear)"
         },
         "min": 15,
-        "max": 10
+        "max": 10,
+        "isSkillRef": true
       },
       {
         "key": "gethit-skill:Bone Armor",
@@ -352,7 +374,8 @@
           "zh-CN": "受击时触发机率 (Bone Armor)"
         },
         "min": 15,
-        "max": 10
+        "max": 10,
+        "isSkillRef": true
       },
       {
         "key": "mana",
@@ -362,7 +385,8 @@
           "zh-CN": "魔力值"
         },
         "min": 100,
-        "max": 150
+        "max": 150,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -373,7 +397,8 @@
           "zh-TW": "死靈法師技能等級",
           "zh-CN": "死灵法师技能等级"
         },
-        "value": 2
+        "value": 2,
+        "isSkillRef": true
       }
     ]
   },
@@ -411,7 +436,8 @@
           "zh-CN": "光环等级 (Thorns)"
         },
         "min": 15,
-        "max": 21
+        "max": 21,
+        "isSkillRef": true
       },
       {
         "key": "extra-pois",
@@ -421,7 +447,8 @@
           "zh-CN": "毒素技能伤害 %"
         },
         "min": 25,
-        "max": 50
+        "max": 50,
+        "isSkillRef": false
       },
       {
         "key": "charged:Spirit of Barbs",
@@ -431,7 +458,8 @@
           "zh-CN": "充能次数 (倒刺之魂)"
         },
         "min": 33,
-        "max": 13
+        "max": 13,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -442,7 +470,8 @@
           "zh-TW": "加快恢復速度",
           "zh-CN": "加快恢复速度"
         },
-        "value": 50
+        "value": 50,
+        "isSkillRef": false
       },
       {
         "key": "ac",
@@ -451,7 +480,8 @@
           "zh-TW": "防禦力",
           "zh-CN": "防御力"
         },
-        "value": 300
+        "value": 300,
+        "isSkillRef": false
       },
       {
         "key": "heal-kill",
@@ -460,7 +490,8 @@
           "zh-TW": "擊殺後恢復生命值",
           "zh-CN": "击杀后恢复生命值"
         },
-        "value": 13
+        "value": 13,
+        "isSkillRef": false
       },
       {
         "key": "res-pois",
@@ -469,7 +500,8 @@
           "zh-TW": "毒素抗性 %",
           "zh-CN": "毒素抗性 %"
         },
-        "value": 100
+        "value": 100,
+        "isSkillRef": false
       }
     ]
   },
@@ -507,7 +539,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 260,
-        "max": 340
+        "max": 340,
+        "isSkillRef": false
       },
       {
         "key": "dmg-demon",
@@ -517,7 +550,8 @@
           "zh-CN": "对恶魔伤害"
         },
         "min": 280,
-        "max": 330
+        "max": 330,
+        "isSkillRef": false
       },
       {
         "key": "hit-skill:Bone Spear",
@@ -527,7 +561,8 @@
           "zh-CN": "攻击时触发机率 (Bone Spear)"
         },
         "min": 100,
-        "max": 18
+        "max": 18,
+        "isSkillRef": true
       },
       {
         "key": "gethit-skill:Amplify Damage",
@@ -537,7 +572,8 @@
           "zh-CN": "受击时触发机率 (Amplify Damage)"
         },
         "min": 35,
-        "max": 14
+        "max": 14,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -548,7 +584,8 @@
           "zh-TW": "擊退",
           "zh-CN": "击退"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       },
       {
         "key": "noheal",
@@ -557,7 +594,8 @@
           "zh-TW": "防止怪物治療",
           "zh-CN": "防止怪物治疗"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       },
       {
         "key": "explosivearrow",
@@ -566,7 +604,8 @@
           "zh-TW": "發射爆炸箭矢",
           "zh-CN": "发射爆炸箭矢"
         },
-        "value": 15
+        "value": 15,
+        "isSkillRef": false
       }
     ]
   },
@@ -608,7 +647,8 @@
           "zh-CN": "生命窃取 %"
         },
         "min": 12,
-        "max": 15
+        "max": 15,
+        "isSkillRef": false
       },
       {
         "key": "kill-skill:Poison Nova",
@@ -618,7 +658,8 @@
           "zh-CN": "击杀时触发机率 (Poison Nova)"
         },
         "min": 50,
-        "max": 20
+        "max": 20,
+        "isSkillRef": true
       },
       {
         "key": "dmg%",
@@ -628,7 +669,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 350,
-        "max": 400
+        "max": 400,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -639,7 +681,8 @@
           "zh-TW": "加快攻擊速度",
           "zh-CN": "加快攻击速度"
         },
-        "value": 60
+        "value": 60,
+        "isSkillRef": false
       },
       {
         "key": "dmg-undead",
@@ -648,7 +691,8 @@
           "zh-TW": "對不死系傷害",
           "zh-CN": "对不死系伤害"
         },
-        "value": 125
+        "value": 125,
+        "isSkillRef": false
       },
       {
         "key": "noheal",
@@ -657,7 +701,8 @@
           "zh-TW": "防止怪物治療",
           "zh-CN": "防止怪物治疗"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       },
       {
         "key": "all-stats",
@@ -666,7 +711,8 @@
           "zh-TW": "全部屬性",
           "zh-CN": "全部属性"
         },
-        "value": 30
+        "value": 30,
+        "isSkillRef": false
       }
     ]
   },
@@ -702,7 +748,8 @@
           "zh-CN": "强化防御力 %"
         },
         "min": 75,
-        "max": 100
+        "max": 100,
+        "isSkillRef": false
       },
       {
         "key": "red-dmg%",
@@ -712,7 +759,8 @@
           "zh-CN": "减少伤害 %"
         },
         "min": 10,
-        "max": 15
+        "max": 15,
+        "isSkillRef": false
       },
       {
         "key": "lifesteal",
@@ -722,7 +770,8 @@
           "zh-CN": "生命窃取 %"
         },
         "min": 4,
-        "max": 6
+        "max": 6,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -733,7 +782,8 @@
           "zh-TW": "增加最大生命值 %",
           "zh-CN": "增加最大生命值 %"
         },
-        "value": 5
+        "value": 5,
+        "isSkillRef": false
       },
       {
         "key": "regen",
@@ -742,7 +792,8 @@
           "zh-TW": "生命回復 %",
           "zh-CN": "生命回复 %"
         },
-        "value": 30
+        "value": 30,
+        "isSkillRef": false
       }
     ]
   },
@@ -782,7 +833,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 200,
-        "max": 240
+        "max": 240,
+        "isSkillRef": false
       },
       {
         "key": "oskill:Battle Command",
@@ -792,7 +844,8 @@
           "zh-CN": "技能加成 (Battle Command)"
         },
         "min": 2,
-        "max": 6
+        "max": 6,
+        "isSkillRef": true
       },
       {
         "key": "oskill:Battle Orders",
@@ -802,7 +855,8 @@
           "zh-CN": "技能加成 (Battle Orders)"
         },
         "min": 1,
-        "max": 6
+        "max": 6,
+        "isSkillRef": true
       },
       {
         "key": "oskill:Battle Cry",
@@ -812,7 +866,8 @@
           "zh-CN": "技能加成 (Battle Cry)"
         },
         "min": 1,
-        "max": 4
+        "max": 4,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -823,7 +878,8 @@
           "zh-TW": "加快攻擊速度",
           "zh-CN": "加快攻击速度"
         },
-        "value": 40
+        "value": 40,
+        "isSkillRef": false
       },
       {
         "key": "allskills",
@@ -832,7 +888,8 @@
           "zh-TW": "全部技能",
           "zh-CN": "全部技能"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       },
       {
         "key": "regen",
@@ -841,7 +898,8 @@
           "zh-TW": "生命回復 %",
           "zh-CN": "生命回复 %"
         },
-        "value": 12
+        "value": 12,
+        "isSkillRef": false
       }
     ]
   },
@@ -879,7 +937,8 @@
           "zh-TW": "全抗性",
           "zh-CN": "全抗性"
         },
-        "value": 50
+        "value": 50,
+        "isSkillRef": false
       },
       {
         "key": "ac%",
@@ -888,7 +947,8 @@
           "zh-TW": "強化防禦力 %",
           "zh-CN": "强化防御力 %"
         },
-        "value": 70
+        "value": 70,
+        "isSkillRef": false
       },
       {
         "key": "dmg-demon",
@@ -897,7 +957,8 @@
           "zh-TW": "對惡魔傷害",
           "zh-CN": "对恶魔伤害"
         },
-        "value": 200
+        "value": 200,
+        "isSkillRef": false
       },
       {
         "key": "dmg-undead",
@@ -906,7 +967,8 @@
           "zh-TW": "對不死系傷害",
           "zh-CN": "对不死系伤害"
         },
-        "value": 100
+        "value": 100,
+        "isSkillRef": false
       },
       {
         "key": "lifesteal",
@@ -915,7 +977,8 @@
           "zh-TW": "生命竊取 %",
           "zh-CN": "生命窃取 %"
         },
-        "value": 8
+        "value": 8,
+        "isSkillRef": false
       },
       {
         "key": "allskills",
@@ -924,7 +987,8 @@
           "zh-TW": "全部技能",
           "zh-CN": "全部技能"
         },
-        "value": 2
+        "value": 2,
+        "isSkillRef": false
       },
       {
         "key": "str",
@@ -933,7 +997,8 @@
           "zh-TW": "力量",
           "zh-CN": "力量"
         },
-        "value": 20
+        "value": 20,
+        "isSkillRef": false
       }
     ]
   },
@@ -969,7 +1034,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 240,
-        "max": 290
+        "max": 290,
+        "isSkillRef": false
       },
       {
         "key": "dmg-mag",
@@ -979,7 +1045,8 @@
           "zh-CN": "魔法伤害"
         },
         "min": 216,
-        "max": 471
+        "max": 471,
+        "isSkillRef": false
       },
       {
         "key": "hit-skill:Frozen Orb",
@@ -989,7 +1056,8 @@
           "zh-CN": "攻击时触发机率 (Frozen Orb)"
         },
         "min": 9,
-        "max": 11
+        "max": 11,
+        "isSkillRef": true
       },
       {
         "key": "hit-skill:Charged Bolt",
@@ -999,7 +1067,8 @@
           "zh-CN": "攻击时触发机率 (Charged Bolt)"
         },
         "min": 11,
-        "max": 9
+        "max": 9,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -1010,7 +1079,8 @@
           "zh-TW": "擊殺惡魔後恢復生命值",
           "zh-CN": "击杀恶魔后恢复生命值"
         },
-        "value": 15
+        "value": 15,
+        "isSkillRef": false
       },
       {
         "key": "oskill:Whirlwind",
@@ -1019,7 +1089,8 @@
           "zh-TW": "技能加成 (Whirlwind)",
           "zh-CN": "技能加成 (Whirlwind)"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": true
       },
       {
         "key": "swing2",
@@ -1028,7 +1099,8 @@
           "zh-TW": "加快攻擊速度",
           "zh-CN": "加快攻击速度"
         },
-        "value": 35
+        "value": 35,
+        "isSkillRef": false
       }
     ]
   },
@@ -1064,7 +1136,8 @@
           "zh-CN": "受击时触发机率 (Sigil Lethargy)"
         },
         "min": 5,
-        "max": 10
+        "max": 10,
+        "isSkillRef": true
       },
       {
         "key": "ac%",
@@ -1074,7 +1147,8 @@
           "zh-CN": "强化防御力 %"
         },
         "min": 30,
-        "max": 50
+        "max": 50,
+        "isSkillRef": false
       },
       {
         "key": "mag%",
@@ -1084,7 +1158,8 @@
           "zh-CN": "额外魔法物品寻获率 %"
         },
         "min": 1,
-        "max": 15
+        "max": 15,
+        "isSkillRef": false
       },
       {
         "key": "heal-kill",
@@ -1094,7 +1169,8 @@
           "zh-CN": "击杀后恢复生命值"
         },
         "min": 1,
-        "max": 5
+        "max": 5,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -1105,7 +1181,8 @@
           "zh-TW": "全部技能",
           "zh-CN": "全部技能"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       },
       {
         "key": "cast1",
@@ -1114,7 +1191,8 @@
           "zh-TW": "加快施法速度",
           "zh-CN": "加快施法速度"
         },
-        "value": 20
+        "value": 20,
+        "isSkillRef": false
       }
     ]
   },
@@ -1150,7 +1228,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 180,
-        "max": 220
+        "max": 220,
+        "isSkillRef": false
       },
       {
         "key": "abs-mag",
@@ -1160,7 +1239,8 @@
           "zh-CN": "魔法吸收"
         },
         "min": 9,
-        "max": 11
+        "max": 11,
+        "isSkillRef": false
       },
       {
         "key": "charged:Summon Spirit Wolf",
@@ -1170,7 +1250,8 @@
           "zh-CN": "充能次数 (Summon Spirit Wolf)"
         },
         "min": 30,
-        "max": 18
+        "max": 18,
+        "isSkillRef": true
       },
       {
         "key": "hit-skill:Static Field",
@@ -1180,7 +1261,8 @@
           "zh-CN": "攻击时触发机率 (Static Field)"
         },
         "min": 7,
-        "max": 13
+        "max": 13,
+        "isSkillRef": true
       },
       {
         "key": "hit-skill:Chain Lightning",
@@ -1190,7 +1272,8 @@
           "zh-CN": "攻击时触发机率 (Chain Lightning)"
         },
         "min": 10,
-        "max": 17
+        "max": 17,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -1201,7 +1284,8 @@
           "zh-TW": "降低敵方閃電抗性 %",
           "zh-CN": "降低敌方闪电抗性 %"
         },
-        "value": 35
+        "value": 35,
+        "isSkillRef": false
       },
       {
         "key": "ignore-ac",
@@ -1210,7 +1294,8 @@
           "zh-TW": "無視目標防禦力",
           "zh-CN": "无视目标防御力"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       }
     ]
   },
@@ -1246,7 +1331,8 @@
           "zh-CN": "强化防御力 %"
         },
         "min": 75,
-        "max": 100
+        "max": 100,
+        "isSkillRef": false
       },
       {
         "key": "res-pois",
@@ -1256,7 +1342,8 @@
           "zh-CN": "毒素抗性 %"
         },
         "min": 10,
-        "max": 30
+        "max": 30,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -1267,7 +1354,8 @@
           "zh-TW": "增加最大生命值 %",
           "zh-CN": "增加最大生命值 %"
         },
-        "value": 5
+        "value": 5,
+        "isSkillRef": false
       },
       {
         "key": "res-pois-len",
@@ -1276,7 +1364,8 @@
           "zh-TW": "減少毒素持續時間 %",
           "zh-CN": "减少毒素持续时间 %"
         },
-        "value": 50
+        "value": 50,
+        "isSkillRef": false
       },
       {
         "key": "aura:Cleansing",
@@ -1285,7 +1374,8 @@
           "zh-TW": "光環等級 (Cleansing)",
           "zh-CN": "光环等级 (Cleansing)"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": true
       }
     ]
   },
@@ -1325,7 +1415,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 300,
-        "max": 385
+        "max": 385,
+        "isSkillRef": false
       },
       {
         "key": "charged:BloodGolem",
@@ -1335,7 +1426,8 @@
           "zh-CN": "充能次数 (血石魔)"
         },
         "min": 15,
-        "max": 22
+        "max": 22,
+        "isSkillRef": true
       },
       {
         "key": "att-skill:Glacial Spike",
@@ -1345,7 +1437,8 @@
           "zh-CN": "攻击等级（技能） (Glacial Spike)"
         },
         "min": 25,
-        "max": 18
+        "max": 18,
+        "isSkillRef": true
       },
       {
         "key": "death-skill:Chain Lightning",
@@ -1355,7 +1448,8 @@
           "zh-CN": "死亡时触发机率 % (Chain Lightning)"
         },
         "min": 100,
-        "max": 44
+        "max": 44,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -1366,7 +1460,8 @@
           "zh-TW": "致命一擊 %（依角色等級）",
           "zh-CN": "致命一击 %（依角色等级）"
         },
-        "value": 4
+        "value": 4,
+        "isSkillRef": false
       },
       {
         "key": "crush",
@@ -1375,7 +1470,8 @@
           "zh-TW": "破碎打擊 %",
           "zh-CN": "破碎打击 %"
         },
-        "value": 50
+        "value": 50,
+        "isSkillRef": false
       },
       {
         "key": "indestruct",
@@ -1384,7 +1480,8 @@
           "zh-TW": "不可破壞",
           "zh-CN": "不可破坏"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       }
     ]
   },
@@ -1420,7 +1517,8 @@
           "zh-CN": "攻击时触发机率 (Confuse)"
         },
         "min": 11,
-        "max": 18
+        "max": 18,
+        "isSkillRef": true
       },
       {
         "key": "charged:Attract",
@@ -1430,7 +1528,8 @@
           "zh-CN": "充能次数 (Attract)"
         },
         "min": 60,
-        "max": 17
+        "max": 17,
+        "isSkillRef": true
       },
       {
         "key": "gethit-skill:Terror",
@@ -1440,7 +1539,8 @@
           "zh-CN": "受击时触发机率 (Terror)"
         },
         "min": 14,
-        "max": 13
+        "max": 13,
+        "isSkillRef": true
       },
       {
         "key": "gethit-skill:Mind Blast",
@@ -1450,7 +1550,8 @@
           "zh-CN": "受击时触发机率 (Mind Blast)"
         },
         "min": 6,
-        "max": 14
+        "max": 14,
+        "isSkillRef": true
       },
       {
         "key": "gethit-skill:Delerium Change",
@@ -1460,7 +1561,8 @@
           "zh-CN": "受击时触发机率 (Delerium Change)"
         },
         "min": 1,
-        "max": 50
+        "max": 50,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -1471,7 +1573,8 @@
           "zh-TW": "防禦力",
           "zh-CN": "防御力"
         },
-        "value": 261
+        "value": 261,
+        "isSkillRef": false
       },
       {
         "key": "allskills",
@@ -1480,7 +1583,8 @@
           "zh-TW": "全部技能",
           "zh-CN": "全部技能"
         },
-        "value": 2
+        "value": 2,
+        "isSkillRef": false
       }
     ]
   },
@@ -1520,7 +1624,8 @@
           "zh-CN": "魔法伤害"
         },
         "min": 100,
-        "max": 180
+        "max": 180,
+        "isSkillRef": false
       },
       {
         "key": "hit-skill:Molten Boulder",
@@ -1530,7 +1635,8 @@
           "zh-CN": "攻击时触发机率 (Molten Boulder)"
         },
         "min": 5,
-        "max": 23
+        "max": 23,
+        "isSkillRef": true
       },
       {
         "key": "death-skill:Meteor",
@@ -1540,7 +1646,8 @@
           "zh-CN": "死亡时触发机率 % (Meteor)"
         },
         "min": 100,
-        "max": 45
+        "max": 45,
+        "isSkillRef": true
       },
       {
         "key": "att-skill:Nova",
@@ -1550,7 +1657,8 @@
           "zh-CN": "攻击等级（技能） (Nova)"
         },
         "min": 15,
-        "max": 22
+        "max": 22,
+        "isSkillRef": true
       },
       {
         "key": "hit-skill:Volcano",
@@ -1560,7 +1668,8 @@
           "zh-CN": "攻击时触发机率 (Volcano)"
         },
         "min": 23,
-        "max": 12
+        "max": 12,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -1571,7 +1680,8 @@
           "zh-TW": "強化傷害 %",
           "zh-CN": "强化伤害 %"
         },
-        "value": 350
+        "value": 350,
+        "isSkillRef": false
       },
       {
         "key": "noheal",
@@ -1580,7 +1690,8 @@
           "zh-TW": "防止怪物治療",
           "zh-CN": "防止怪物治疗"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       }
     ]
   },
@@ -1620,7 +1731,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 280,
-        "max": 320
+        "max": 320,
+        "isSkillRef": false
       },
       {
         "key": "pierce-cold",
@@ -1630,7 +1742,8 @@
           "zh-CN": "降低敌方冷冻抗性 %"
         },
         "min": 40,
-        "max": 60
+        "max": 60,
+        "isSkillRef": false
       },
       {
         "key": "hit-skill:Volcano",
@@ -1640,7 +1753,8 @@
           "zh-CN": "攻击时触发机率 (Volcano)"
         },
         "min": 5,
-        "max": 18
+        "max": 18,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -1651,7 +1765,8 @@
           "zh-TW": "光環等級 (Holy Freeze)",
           "zh-CN": "光环等级 (Holy Freeze)"
         },
-        "value": 12
+        "value": 12,
+        "isSkillRef": true
       },
       {
         "key": "swing2",
@@ -1660,7 +1775,8 @@
           "zh-TW": "加快攻擊速度",
           "zh-CN": "加快攻击速度"
         },
-        "value": 45
+        "value": 45,
+        "isSkillRef": false
       },
       {
         "key": "noheal",
@@ -1669,7 +1785,8 @@
           "zh-TW": "防止怪物治療",
           "zh-CN": "防止怪物治疗"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       },
       {
         "key": "allskills",
@@ -1678,7 +1795,8 @@
           "zh-TW": "全部技能",
           "zh-CN": "全部技能"
         },
-        "value": 2
+        "value": 2,
+        "isSkillRef": false
       }
     ]
   },
@@ -1714,7 +1832,8 @@
           "zh-CN": "攻击时触发机率 (九头蛇)"
         },
         "min": 12,
-        "max": 15
+        "max": 15,
+        "isSkillRef": true
       },
       {
         "key": "gethit-skill:Venom",
@@ -1724,7 +1843,8 @@
           "zh-CN": "受击时触发机率 (Venom)"
         },
         "min": 20,
-        "max": 18
+        "max": 18,
+        "isSkillRef": true
       },
       {
         "key": "all-stats",
@@ -1734,7 +1854,8 @@
           "zh-CN": "全部属性"
         },
         "min": 3,
-        "max": 5
+        "max": 5,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -1745,7 +1866,8 @@
           "zh-TW": "防禦力",
           "zh-CN": "防御力"
         },
-        "value": 360
+        "value": 360,
+        "isSkillRef": false
       },
       {
         "key": "ac-miss",
@@ -1754,7 +1876,8 @@
           "zh-TW": "對抗遠程攻擊防禦力",
           "zh-CN": "对抗远程攻击防御力"
         },
-        "value": 230
+        "value": 230,
+        "isSkillRef": false
       },
       {
         "key": "str/lvl",
@@ -1763,7 +1886,8 @@
           "zh-TW": "力量（依角色等級）",
           "zh-CN": "力量（依角色等级）"
         },
-        "value": 3
+        "value": 3,
+        "isSkillRef": false
       },
       {
         "key": "aura:Holy Fire",
@@ -1772,7 +1896,8 @@
           "zh-TW": "光環等級 (Holy Fire)",
           "zh-CN": "光环等级 (Holy Fire)"
         },
-        "value": 14
+        "value": 14,
+        "isSkillRef": true
       }
     ]
   },
@@ -1808,7 +1933,8 @@
           "zh-CN": "防御力"
         },
         "min": 150,
-        "max": 220
+        "max": 220,
+        "isSkillRef": false
       },
       {
         "key": "gethit-skill:Confuse",
@@ -1818,7 +1944,8 @@
           "zh-CN": "受击时触发机率 (Confuse)"
         },
         "min": 10,
-        "max": 15
+        "max": 15,
+        "isSkillRef": true
       },
       {
         "key": "res-all",
@@ -1828,7 +1955,8 @@
           "zh-CN": "全抗性"
         },
         "min": 5,
-        "max": 20
+        "max": 20,
+        "isSkillRef": false
       },
       {
         "key": "balance3",
@@ -1838,7 +1966,8 @@
           "zh-CN": "加快恢复速度"
         },
         "min": 20,
-        "max": 30
+        "max": 30,
+        "isSkillRef": false
       },
       {
         "key": "mag%",
@@ -1848,7 +1977,8 @@
           "zh-CN": "额外魔法物品寻获率 %"
         },
         "min": 12,
-        "max": 25
+        "max": 25,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -1859,7 +1989,8 @@
           "zh-TW": "魔力值（依角色等級）",
           "zh-CN": "魔力值（依角色等级）"
         },
-        "value": 5
+        "value": 5,
+        "isSkillRef": false
       },
       {
         "key": "aura:Holy Shock",
@@ -1868,7 +1999,8 @@
           "zh-TW": "光環等級 (Holy Shock)",
           "zh-CN": "光环等级 (Holy Shock)"
         },
-        "value": 15
+        "value": 15,
+        "isSkillRef": true
       }
     ]
   },
@@ -1904,7 +2036,8 @@
           "zh-CN": "冷冻伤害"
         },
         "min": 37,
-        "max": 133
+        "max": 133,
+        "isSkillRef": false
       },
       {
         "key": "dmg%",
@@ -1914,7 +2047,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 10,
-        "max": 20
+        "max": 20,
+        "isSkillRef": false
       },
       {
         "key": "ac%",
@@ -1924,7 +2058,8 @@
           "zh-CN": "强化防御力 %"
         },
         "min": 150,
-        "max": 200
+        "max": 200,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -1935,7 +2070,8 @@
           "zh-TW": "加快恢復速度",
           "zh-CN": "加快恢复速度"
         },
-        "value": 20
+        "value": 20,
+        "isSkillRef": false
       },
       {
         "key": "openwounds",
@@ -1944,7 +2080,8 @@
           "zh-TW": "撕裂傷口 %",
           "zh-CN": "撕裂伤口 %"
         },
-        "value": 33
+        "value": 33,
+        "isSkillRef": false
       },
       {
         "key": "crush",
@@ -1953,7 +2090,8 @@
           "zh-TW": "破碎打擊 %",
           "zh-CN": "破碎打击 %"
         },
-        "value": 15
+        "value": 15,
+        "isSkillRef": false
       },
       {
         "key": "stamdrain",
@@ -1962,7 +2100,8 @@
           "zh-TW": "減緩耐力消耗 %",
           "zh-CN": "减缓耐力消耗 %"
         },
-        "value": -20
+        "value": -20,
+        "isSkillRef": false
       }
     ]
   },
@@ -1998,7 +2137,8 @@
           "zh-CN": "对恶魔伤害"
         },
         "min": 320,
-        "max": 380
+        "max": 380,
+        "isSkillRef": false
       },
       {
         "key": "all-stats",
@@ -2008,7 +2148,8 @@
           "zh-CN": "全部属性"
         },
         "min": 5,
-        "max": 10
+        "max": 10,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -2019,7 +2160,8 @@
           "zh-TW": "對不死系傷害",
           "zh-CN": "对不死系伤害"
         },
-        "value": 280
+        "value": 280,
+        "isSkillRef": false
       },
       {
         "key": "swing2",
@@ -2028,7 +2170,8 @@
           "zh-TW": "加快攻擊速度",
           "zh-CN": "加快攻击速度"
         },
-        "value": 35
+        "value": 35,
+        "isSkillRef": false
       },
       {
         "key": "noheal",
@@ -2037,7 +2180,8 @@
           "zh-TW": "防止怪物治療",
           "zh-CN": "防止怪物治疗"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       },
       {
         "key": "aura:Thorns",
@@ -2046,7 +2190,8 @@
           "zh-TW": "光環等級 (Thorns)",
           "zh-CN": "光环等级 (Thorns)"
         },
-        "value": 15
+        "value": 15,
+        "isSkillRef": true
       },
       {
         "key": "cheap",
@@ -2055,7 +2200,8 @@
           "zh-TW": "降低商店價格 %",
           "zh-CN": "降低商店价格 %"
         },
-        "value": 15
+        "value": 15,
+        "isSkillRef": false
       }
     ]
   },
@@ -2091,7 +2237,8 @@
           "zh-CN": "防御力"
         },
         "min": 750,
-        "max": 775
+        "max": 775,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -2102,7 +2249,8 @@
           "zh-TW": "擊殺後恢復生命值",
           "zh-CN": "击杀后恢复生命值"
         },
-        "value": 14
+        "value": 14,
+        "isSkillRef": false
       },
       {
         "key": "move2",
@@ -2111,7 +2259,8 @@
           "zh-TW": "加快跑走速度 %",
           "zh-CN": "加快跑走速度 %"
         },
-        "value": 45
+        "value": 45,
+        "isSkillRef": false
       },
       {
         "key": "str/lvl",
@@ -2120,7 +2269,8 @@
           "zh-TW": "力量（依角色等級）",
           "zh-CN": "力量（依角色等级）"
         },
-        "value": 6
+        "value": 6,
+        "isSkillRef": false
       },
       {
         "key": "allskills",
@@ -2129,7 +2279,8 @@
           "zh-TW": "全部技能",
           "zh-CN": "全部技能"
         },
-        "value": 2
+        "value": 2,
+        "isSkillRef": false
       },
       {
         "key": "mag%/lvl",
@@ -2138,7 +2289,8 @@
           "zh-TW": "額外魔法物品尋獲率 %（依角色等級）",
           "zh-CN": "额外魔法物品寻获率 %（依角色等级）"
         },
-        "value": 8
+        "value": 8,
+        "isSkillRef": false
       },
       {
         "key": "oskill:Teleport",
@@ -2147,7 +2299,8 @@
           "zh-TW": "技能加成 (Teleport)",
           "zh-CN": "技能加成 (Teleport)"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": true
       }
     ]
   },
@@ -2183,7 +2336,8 @@
           "zh-CN": "攻击时触发机率 (Fire Ball)"
         },
         "min": 5,
-        "max": 15
+        "max": 15,
+        "isSkillRef": true
       },
       {
         "key": "gethit-skill:Blaze",
@@ -2193,7 +2347,8 @@
           "zh-CN": "受击时触发机率 (Blaze)"
         },
         "min": 5,
-        "max": 15
+        "max": 15,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -2204,7 +2359,8 @@
           "zh-TW": "女巫技能等級",
           "zh-CN": "女巫技能等级"
         },
-        "value": 2
+        "value": 2,
+        "isSkillRef": true
       },
       {
         "key": "oskill:Warmth",
@@ -2213,7 +2369,8 @@
           "zh-TW": "技能加成 (Warmth)",
           "zh-CN": "技能加成 (Warmth)"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": true
       }
     ]
   },
@@ -2253,7 +2410,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 260,
-        "max": 310
+        "max": 310,
+        "isSkillRef": false
       },
       {
         "key": "charged:Revive",
@@ -2263,7 +2421,8 @@
           "zh-CN": "充能次数 (Revive)"
         },
         "min": 88,
-        "max": 8
+        "max": 8,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -2274,7 +2433,8 @@
           "zh-TW": "不可破壞",
           "zh-CN": "不可破坏"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       },
       {
         "key": "slow",
@@ -2283,7 +2443,8 @@
           "zh-TW": "減緩目標速度 %",
           "zh-CN": "减缓目标速度 %"
         },
-        "value": 33
+        "value": 33,
+        "isSkillRef": false
       },
       {
         "key": "regen",
@@ -2292,7 +2453,8 @@
           "zh-TW": "生命回復 %",
           "zh-CN": "生命回复 %"
         },
-        "value": 16
+        "value": 16,
+        "isSkillRef": false
       },
       {
         "key": "regen-mana",
@@ -2301,7 +2463,8 @@
           "zh-TW": "魔力回復 %",
           "zh-CN": "魔力回复 %"
         },
-        "value": 16
+        "value": 16,
+        "isSkillRef": false
       },
       {
         "key": "nofreeze",
@@ -2310,7 +2473,8 @@
           "zh-TW": "不會被冰凍",
           "zh-CN": "不会被冰冻"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       }
     ]
   },
@@ -2348,7 +2512,8 @@
           "zh-CN": "强化防御力 %"
         },
         "min": 220,
-        "max": 260
+        "max": 260,
+        "isSkillRef": false
       },
       {
         "key": "aura:Defiance",
@@ -2358,7 +2523,8 @@
           "zh-CN": "光环等级 (Defiance)"
         },
         "min": 13,
-        "max": 16
+        "max": 16,
+        "isSkillRef": true
       },
       {
         "key": "hit-skill:Life Tap",
@@ -2368,7 +2534,8 @@
           "zh-CN": "攻击时触发机率 (Life Tap)"
         },
         "min": 15,
-        "max": 5
+        "max": 5,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -2379,7 +2546,8 @@
           "zh-TW": "加快格擋速度",
           "zh-CN": "加快格挡速度"
         },
-        "value": 30
+        "value": 30,
+        "isSkillRef": false
       },
       {
         "key": "freeze",
@@ -2388,7 +2556,8 @@
           "zh-TW": "擊中冰凍目標",
           "zh-CN": "击中冰冻目标"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       },
       {
         "key": "skilltab:10",
@@ -2397,7 +2566,8 @@
           "zh-TW": "技能列加成",
           "zh-CN": "技能列加成"
         },
-        "value": 2
+        "value": 2,
+        "isSkillRef": false
       },
       {
         "key": "rep-dur",
@@ -2406,7 +2576,8 @@
           "zh-TW": "修復耐久度",
           "zh-CN": "修复耐久度"
         },
-        "value": 25
+        "value": 25,
+        "isSkillRef": false
       }
     ]
   },
@@ -2444,7 +2615,8 @@
           "zh-CN": "光环等级 (Fanaticism)"
         },
         "min": 12,
-        "max": 15
+        "max": 15,
+        "isSkillRef": true
       },
       {
         "key": "allskills",
@@ -2454,7 +2626,8 @@
           "zh-CN": "全部技能"
         },
         "min": 1,
-        "max": 2
+        "max": 2,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -2465,7 +2638,8 @@
           "zh-TW": "強化傷害 %",
           "zh-CN": "强化伤害 %"
         },
-        "value": 280
+        "value": 280,
+        "isSkillRef": false
       },
       {
         "key": "att%",
@@ -2474,7 +2648,8 @@
           "zh-TW": "攻擊等級 %",
           "zh-CN": "攻击等级 %"
         },
-        "value": 300
+        "value": 300,
+        "isSkillRef": false
       },
       {
         "key": "dmg-fire",
@@ -2483,7 +2658,8 @@
           "zh-TW": "火焰傷害",
           "zh-CN": "火焰伤害"
         },
-        "value": 120
+        "value": 120,
+        "isSkillRef": false
       },
       {
         "key": "res-all",
@@ -2492,7 +2668,8 @@
           "zh-TW": "全抗性",
           "zh-CN": "全抗性"
         },
-        "value": 15
+        "value": 15,
+        "isSkillRef": false
       },
       {
         "key": "reanimate",
@@ -2501,7 +2678,8 @@
           "zh-TW": "復活成怪物機率 %",
           "zh-CN": "复活成怪物机率 %"
         },
-        "value": 10
+        "value": 10,
+        "isSkillRef": false
       }
     ]
   },
@@ -2539,7 +2717,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 270,
-        "max": 320
+        "max": 320,
+        "isSkillRef": false
       },
       {
         "key": "dmg-mag",
@@ -2549,7 +2728,8 @@
           "zh-CN": "魔法伤害"
         },
         "min": 180,
-        "max": 200
+        "max": 200,
+        "isSkillRef": false
       },
       {
         "key": "dmg-elem",
@@ -2559,7 +2739,8 @@
           "zh-CN": "随机元素伤害"
         },
         "min": 50,
-        "max": 200
+        "max": 200,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -2570,7 +2751,8 @@
           "zh-TW": "生命竊取 %",
           "zh-CN": "生命窃取 %"
         },
-        "value": 12
+        "value": 12,
+        "isSkillRef": false
       },
       {
         "key": "swing2",
@@ -2579,7 +2761,8 @@
           "zh-TW": "加快攻擊速度",
           "zh-CN": "加快攻击速度"
         },
-        "value": 30
+        "value": 30,
+        "isSkillRef": false
       },
       {
         "key": "noheal",
@@ -2588,7 +2771,8 @@
           "zh-TW": "防止怪物治療",
           "zh-CN": "防止怪物治疗"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       }
     ]
   },
@@ -2624,7 +2808,8 @@
           "zh-CN": "光环等级 (Resist Fire)"
         },
         "min": 4,
-        "max": 8
+        "max": 8,
+        "isSkillRef": true
       },
       {
         "key": "pierce-fire",
@@ -2634,7 +2819,8 @@
           "zh-CN": "降低敌方火焰抗性 %"
         },
         "min": 10,
-        "max": 15
+        "max": 15,
+        "isSkillRef": false
       },
       {
         "key": "mana",
@@ -2644,7 +2830,8 @@
           "zh-CN": "魔力值"
         },
         "min": 50,
-        "max": 75
+        "max": 75,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -2655,7 +2842,8 @@
           "zh-TW": "火焰技能加成",
           "zh-CN": "火焰技能加成"
         },
-        "value": 3
+        "value": 3,
+        "isSkillRef": false
       },
       {
         "key": "half-freeze",
@@ -2664,7 +2852,8 @@
           "zh-TW": "減半冰凍持續時間",
           "zh-CN": "减半冰冻持续时间"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       },
       {
         "key": "res-pois-len",
@@ -2673,7 +2862,8 @@
           "zh-TW": "減少毒素持續時間 %",
           "zh-CN": "减少毒素持续时间 %"
         },
-        "value": 50
+        "value": 50,
+        "isSkillRef": false
       }
     ]
   },
@@ -2711,7 +2901,8 @@
           "zh-CN": "受击时触发机率 (Chilling Armor)"
         },
         "min": 20,
-        "max": 15
+        "max": 15,
+        "isSkillRef": true
       },
       {
         "key": "hp/lvl",
@@ -2721,7 +2912,8 @@
           "zh-CN": "生命值（依角色等级）"
         },
         "min": 8,
-        "max": 12
+        "max": 12,
+        "isSkillRef": false
       },
       {
         "key": "res-all",
@@ -2731,7 +2923,8 @@
           "zh-CN": "全抗性"
         },
         "min": 25,
-        "max": 30
+        "max": 30,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -2742,7 +2935,8 @@
           "zh-TW": "強化防禦力 %",
           "zh-CN": "强化防御力 %"
         },
-        "value": 200
+        "value": 200,
+        "isSkillRef": false
       },
       {
         "key": "dmg%",
@@ -2751,7 +2945,8 @@
           "zh-TW": "強化傷害 %",
           "zh-CN": "强化伤害 %"
         },
-        "value": 300
+        "value": 300,
+        "isSkillRef": false
       },
       {
         "key": "cast3",
@@ -2760,7 +2955,8 @@
           "zh-TW": "加快施法速度",
           "zh-CN": "加快施法速度"
         },
-        "value": 25
+        "value": 25,
+        "isSkillRef": false
       },
       {
         "key": "dmg-to-mana",
@@ -2769,7 +2965,8 @@
           "zh-TW": "承受傷害轉換為魔力",
           "zh-CN": "承受伤害转换为魔力"
         },
-        "value": 12
+        "value": 12,
+        "isSkillRef": false
       }
     ]
   },
@@ -2805,7 +3002,8 @@
           "zh-TW": "強化傷害 %",
           "zh-CN": "强化伤害 %"
         },
-        "value": 209
+        "value": 209,
+        "isSkillRef": false
       },
       {
         "key": "swing2",
@@ -2814,7 +3012,8 @@
           "zh-TW": "加快攻擊速度",
           "zh-CN": "加快攻击速度"
         },
-        "value": 40
+        "value": 40,
+        "isSkillRef": false
       },
       {
         "key": "noheal",
@@ -2823,7 +3022,8 @@
           "zh-TW": "防止怪物治療",
           "zh-CN": "防止怪物治疗"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       },
       {
         "key": "openwounds",
@@ -2832,7 +3032,8 @@
           "zh-TW": "撕裂傷口 %",
           "zh-CN": "撕裂伤口 %"
         },
-        "value": 66
+        "value": 66,
+        "isSkillRef": false
       },
       {
         "key": "lifesteal",
@@ -2841,7 +3042,8 @@
           "zh-TW": "生命竊取 %",
           "zh-CN": "生命窃取 %"
         },
-        "value": 6
+        "value": 6,
+        "isSkillRef": false
       },
       {
         "key": "deadly",
@@ -2850,7 +3052,8 @@
           "zh-TW": "致命一擊 %",
           "zh-CN": "致命一击 %"
         },
-        "value": 33
+        "value": 33,
+        "isSkillRef": false
       },
       {
         "key": "skill:147",
@@ -2859,7 +3062,8 @@
           "zh-TW": "技能加成 (狂亂)",
           "zh-CN": "技能加成 (狂乱)"
         },
-        "value": 5
+        "value": 5,
+        "isSkillRef": true
       }
     ]
   },
@@ -2895,7 +3099,8 @@
           "zh-CN": "强化防御力 %"
         },
         "min": 170,
-        "max": 230
+        "max": 230,
+        "isSkillRef": false
       },
       {
         "key": "gethit-skill:Dim Vision",
@@ -2905,7 +3110,8 @@
           "zh-CN": "受击时触发机率 (Dim Vision)"
         },
         "min": 15,
-        "max": 3
+        "max": 3,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -2916,7 +3122,8 @@
           "zh-TW": "全抗性",
           "zh-CN": "全抗性"
         },
-        "value": 30
+        "value": 30,
+        "isSkillRef": false
       },
       {
         "key": "balance2",
@@ -2925,7 +3132,8 @@
           "zh-TW": "加快恢復速度",
           "zh-CN": "加快恢复速度"
         },
-        "value": 10
+        "value": 10,
+        "isSkillRef": false
       },
       {
         "key": "dmg-to-mana",
@@ -2934,7 +3142,8 @@
           "zh-TW": "承受傷害轉換為魔力",
           "zh-CN": "承受伤害转换为魔力"
         },
-        "value": 5
+        "value": 5,
+        "isSkillRef": false
       },
       {
         "key": "light",
@@ -2943,7 +3152,8 @@
           "zh-TW": "光環半徑",
           "zh-CN": "光环半径"
         },
-        "value": -3
+        "value": -3,
+        "isSkillRef": false
       },
       {
         "key": "half-freeze",
@@ -2952,7 +3162,8 @@
           "zh-TW": "減半冰凍持續時間",
           "zh-CN": "减半冰冻持续时间"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       }
     ]
   },
@@ -2992,7 +3203,8 @@
           "zh-CN": "最大伤害"
         },
         "min": 340,
-        "max": 400
+        "max": 400,
+        "isSkillRef": false
       },
       {
         "key": "swing3",
@@ -3002,7 +3214,8 @@
           "zh-CN": "加快攻击速度"
         },
         "min": 30,
-        "max": 40
+        "max": 40,
+        "isSkillRef": false
       },
       {
         "key": "hit-skill:Venom",
@@ -3012,7 +3225,8 @@
           "zh-CN": "攻击时触发机率 (Venom)"
         },
         "min": 35,
-        "max": 15
+        "max": 15,
+        "isSkillRef": true
       },
       {
         "key": "pierce-pois",
@@ -3022,7 +3236,8 @@
           "zh-CN": "降低敌方毒素抗性 %"
         },
         "min": 20,
-        "max": 25
+        "max": 25,
+        "isSkillRef": false
       },
       {
         "key": "heal-kill",
@@ -3032,7 +3247,8 @@
           "zh-CN": "击杀后恢复生命值"
         },
         "min": 10,
-        "max": 15
+        "max": 15,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -3043,7 +3259,8 @@
           "zh-TW": "dmg-dem（依角色等級）",
           "zh-CN": "dmg-dem（依角色等级）"
         },
-        "value": 15
+        "value": 15,
+        "isSkillRef": false
       },
       {
         "key": "ignore-ac",
@@ -3052,7 +3269,8 @@
           "zh-TW": "無視目標防禦力",
           "zh-CN": "无视目标防御力"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       }
     ]
   },
@@ -3088,7 +3306,8 @@
           "zh-CN": "强化防御力 %"
         },
         "min": 75,
-        "max": 100
+        "max": 100,
+        "isSkillRef": false
       },
       {
         "key": "res-ltng",
@@ -3098,7 +3317,8 @@
           "zh-CN": "闪电抗性 %"
         },
         "min": 10,
-        "max": 30
+        "max": 30,
+        "isSkillRef": false
       },
       {
         "key": "abs-ltng%",
@@ -3108,7 +3328,8 @@
           "zh-CN": "闪电吸收 %"
         },
         "min": 10,
-        "max": 15
+        "max": 15,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -3119,7 +3340,8 @@
           "zh-TW": "增加最大生命值 %",
           "zh-CN": "增加最大生命值 %"
         },
-        "value": 5
+        "value": 5,
+        "isSkillRef": false
       }
     ]
   },
@@ -3157,7 +3379,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 280,
-        "max": 330
+        "max": 330,
+        "isSkillRef": false
       },
       {
         "key": "levelup-skill:Blaze",
@@ -3167,7 +3390,8 @@
           "zh-CN": "升级时触发机率 % (Blaze)"
         },
         "min": 100,
-        "max": 36
+        "max": 36,
+        "isSkillRef": true
       },
       {
         "key": "death-skill:Meteor",
@@ -3177,7 +3401,8 @@
           "zh-CN": "死亡时触发机率 % (Meteor)"
         },
         "min": 100,
-        "max": 48
+        "max": 48,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -3188,7 +3413,8 @@
           "zh-TW": "加快攻擊速度",
           "zh-CN": "加快攻击速度"
         },
-        "value": 33
+        "value": 33,
+        "isSkillRef": false
       },
       {
         "key": "aura:Holy Fire",
@@ -3197,7 +3423,8 @@
           "zh-TW": "光環等級 (Holy Fire)",
           "zh-CN": "光环等级 (Holy Fire)"
         },
-        "value": 16
+        "value": 16,
+        "isSkillRef": true
       },
       {
         "key": "ignore-ac",
@@ -3206,7 +3433,8 @@
           "zh-TW": "無視目標防禦力",
           "zh-CN": "无视目标防御力"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       },
       {
         "key": "pierce-fire",
@@ -3215,7 +3443,8 @@
           "zh-TW": "降低敵方火焰抗性 %",
           "zh-CN": "降低敌方火焰抗性 %"
         },
-        "value": 20
+        "value": 20,
+        "isSkillRef": false
       }
     ]
   },
@@ -3253,7 +3482,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 200,
-        "max": 275
+        "max": 275,
+        "isSkillRef": false
       },
       {
         "key": "dmg-elem",
@@ -3263,7 +3493,8 @@
           "zh-CN": "随机元素伤害"
         },
         "min": 55,
-        "max": 160
+        "max": 160,
+        "isSkillRef": false
       },
       {
         "key": "charged:Revive",
@@ -3273,7 +3504,8 @@
           "zh-CN": "充能次数 (Revive)"
         },
         "min": 25,
-        "max": 20
+        "max": 20,
+        "isSkillRef": true
       },
       {
         "key": "oskill:Valkyrie",
@@ -3283,7 +3515,8 @@
           "zh-CN": "技能加成 (女武神)"
         },
         "min": 2,
-        "max": 6
+        "max": 6,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -3294,7 +3527,8 @@
           "zh-TW": "光環等級 (Vigor)",
           "zh-CN": "光环等级 (Vigor)"
         },
-        "value": 10
+        "value": 10,
+        "isSkillRef": true
       },
       {
         "key": "regen-mana",
@@ -3303,7 +3537,8 @@
           "zh-TW": "魔力回復 %",
           "zh-CN": "魔力回复 %"
         },
-        "value": 20
+        "value": 20,
+        "isSkillRef": false
       },
       {
         "key": "light",
@@ -3312,7 +3547,8 @@
           "zh-TW": "光環半徑",
           "zh-CN": "光环半径"
         },
-        "value": 2
+        "value": 2,
+        "isSkillRef": false
       }
     ]
   },
@@ -3350,7 +3586,8 @@
           "zh-CN": "充能次数 (橡木智者)"
         },
         "min": 25,
-        "max": 4
+        "max": 4,
+        "isSkillRef": true
       },
       {
         "key": "res-all",
@@ -3360,7 +3597,8 @@
           "zh-CN": "全抗性"
         },
         "min": 30,
-        "max": 40
+        "max": 40,
+        "isSkillRef": false
       },
       {
         "key": "charged:Raven",
@@ -3370,7 +3608,8 @@
           "zh-CN": "充能次数 (渡鸟之)"
         },
         "min": 60,
-        "max": 14
+        "max": 14,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -3381,7 +3620,8 @@
           "zh-TW": "加快施法速度",
           "zh-CN": "加快施法速度"
         },
-        "value": 40
+        "value": 40,
+        "isSkillRef": false
       },
       {
         "key": "mana%",
@@ -3390,7 +3630,8 @@
           "zh-TW": "增加最大魔力值 %",
           "zh-CN": "增加最大魔力值 %"
         },
-        "value": 15
+        "value": 15,
+        "isSkillRef": false
       },
       {
         "key": "allskills",
@@ -3399,7 +3640,8 @@
           "zh-TW": "全部技能",
           "zh-CN": "全部技能"
         },
-        "value": 3
+        "value": 3,
+        "isSkillRef": false
       },
       {
         "key": "regen",
@@ -3408,7 +3650,8 @@
           "zh-TW": "生命回復 %",
           "zh-CN": "生命回复 %"
         },
-        "value": 20
+        "value": 20,
+        "isSkillRef": false
       }
     ]
   },
@@ -3444,7 +3687,8 @@
           "zh-CN": "强化防御力 %"
         },
         "min": 75,
-        "max": 100
+        "max": 100,
+        "isSkillRef": false
       },
       {
         "key": "res-cold",
@@ -3454,7 +3698,8 @@
           "zh-CN": "冷冻抗性 %"
         },
         "min": 10,
-        "max": 30
+        "max": 30,
+        "isSkillRef": false
       },
       {
         "key": "abs-cold%",
@@ -3464,7 +3709,8 @@
           "zh-CN": "冷冻吸收 %"
         },
         "min": 10,
-        "max": 15
+        "max": 15,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -3475,7 +3721,8 @@
           "zh-TW": "增加最大生命值 %",
           "zh-CN": "增加最大生命值 %"
         },
-        "value": 5
+        "value": 5,
+        "isSkillRef": false
       },
       {
         "key": "nofreeze",
@@ -3484,7 +3731,8 @@
           "zh-TW": "不會被冰凍",
           "zh-CN": "不会被冰冻"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       }
     ]
   },
@@ -3522,7 +3770,8 @@
           "zh-CN": "闪电伤害"
         },
         "min": 20,
-        "max": 60
+        "max": 60,
+        "isSkillRef": false
       },
       {
         "key": "charged:53",
@@ -3532,7 +3781,8 @@
           "zh-CN": "充能次数 (连锁闪电)"
         },
         "min": 60,
-        "max": 7
+        "max": 7,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -3543,7 +3793,8 @@
           "zh-TW": "強化傷害 %",
           "zh-CN": "强化伤害 %"
         },
-        "value": 60
+        "value": 60,
+        "isSkillRef": false
       },
       {
         "key": "dmg-max",
@@ -3552,7 +3803,8 @@
           "zh-TW": "最大傷害",
           "zh-CN": "最大伤害"
         },
-        "value": 10
+        "value": 10,
+        "isSkillRef": false
       },
       {
         "key": "res-ltng",
@@ -3561,7 +3813,8 @@
           "zh-TW": "閃電抗性 %",
           "zh-CN": "闪电抗性 %"
         },
-        "value": 60
+        "value": 60,
+        "isSkillRef": false
       },
       {
         "key": "res-ltng-max",
@@ -3570,7 +3823,8 @@
           "zh-TW": "最大閃電抗性 %",
           "zh-CN": "最大闪电抗性 %"
         },
-        "value": 5
+        "value": 5,
+        "isSkillRef": false
       },
       {
         "key": "skill:118",
@@ -3579,7 +3833,8 @@
           "zh-TW": "技能加成 (神聖衝擊)",
           "zh-CN": "技能加成 (神圣冲击)"
         },
-        "value": 3
+        "value": 3,
+        "isSkillRef": true
       }
     ]
   },
@@ -3619,7 +3874,8 @@
           "zh-TW": "強化傷害 %",
           "zh-CN": "强化伤害 %"
         },
-        "value": 160
+        "value": 160,
+        "isSkillRef": false
       },
       {
         "key": "regen",
@@ -3628,7 +3884,8 @@
           "zh-TW": "生命回復 %",
           "zh-CN": "生命回复 %"
         },
-        "value": 10
+        "value": 10,
+        "isSkillRef": false
       },
       {
         "key": "allskills",
@@ -3637,7 +3894,8 @@
           "zh-TW": "全部技能",
           "zh-CN": "全部技能"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       },
       {
         "key": "att",
@@ -3646,7 +3904,8 @@
           "zh-TW": "攻擊等級",
           "zh-CN": "攻击等级"
         },
-        "value": 200
+        "value": 200,
+        "isSkillRef": false
       },
       {
         "key": "deadly",
@@ -3655,7 +3914,8 @@
           "zh-TW": "致命一擊 %",
           "zh-CN": "致命一击 %"
         },
-        "value": 25
+        "value": 25,
+        "isSkillRef": false
       },
       {
         "key": "str",
@@ -3664,7 +3924,8 @@
           "zh-TW": "力量",
           "zh-CN": "力量"
         },
-        "value": 10
+        "value": 10,
+        "isSkillRef": false
       }
     ]
   },
@@ -3700,7 +3961,8 @@
           "zh-TW": "加快跑走速度 %",
           "zh-CN": "加快跑走速度 %"
         },
-        "value": 65
+        "value": 65,
+        "isSkillRef": false
       },
       {
         "key": "stamdrain",
@@ -3709,7 +3971,8 @@
           "zh-TW": "減緩耐力消耗 %",
           "zh-CN": "减缓耐力消耗 %"
         },
-        "value": 35
+        "value": 35,
+        "isSkillRef": false
       },
       {
         "key": "swing2",
@@ -3718,7 +3981,8 @@
           "zh-TW": "加快攻擊速度",
           "zh-CN": "加快攻击速度"
         },
-        "value": 40
+        "value": 40,
+        "isSkillRef": false
       },
       {
         "key": "res-all",
@@ -3727,7 +3991,8 @@
           "zh-TW": "全抗性",
           "zh-CN": "全抗性"
         },
-        "value": 10
+        "value": 10,
+        "isSkillRef": false
       },
       {
         "key": "oskill:Evade",
@@ -3736,7 +4001,8 @@
           "zh-TW": "技能加成 (Evade)",
           "zh-CN": "技能加成 (Evade)"
         },
-        "value": 6
+        "value": 6,
+        "isSkillRef": true
       }
     ]
   },
@@ -3772,7 +4038,8 @@
           "zh-CN": "攻击时触发机率 (Quickness)"
         },
         "min": 5,
-        "max": 1
+        "max": 1,
+        "isSkillRef": true
       },
       {
         "key": "dmg%",
@@ -3782,7 +4049,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 180,
-        "max": 200
+        "max": 200,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -3793,7 +4061,8 @@
           "zh-TW": "加快攻擊速度",
           "zh-CN": "加快攻击速度"
         },
-        "value": 10
+        "value": 10,
+        "isSkillRef": false
       },
       {
         "key": "aura:Fanaticism",
@@ -3802,7 +4071,8 @@
           "zh-TW": "光環等級 (Fanaticism)",
           "zh-CN": "光环等级 (Fanaticism)"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": true
       }
     ]
   },
@@ -3840,7 +4110,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 140,
-        "max": 210
+        "max": 210,
+        "isSkillRef": false
       },
       {
         "key": "extra-cold",
@@ -3850,7 +4121,8 @@
           "zh-CN": "冷冻技能伤害 %"
         },
         "min": 25,
-        "max": 30
+        "max": 30,
+        "isSkillRef": false
       },
       {
         "key": "hit-skill:Frost Nova",
@@ -3860,7 +4132,8 @@
           "zh-CN": "攻击时触发机率 (Frost Nova)"
         },
         "min": 25,
-        "max": 22
+        "max": 22,
+        "isSkillRef": true
       },
       {
         "key": "levelup-skill:Blizzard",
@@ -3870,7 +4143,8 @@
           "zh-CN": "升级时触发机率 % (Blizzard)"
         },
         "min": 100,
-        "max": 40
+        "max": 40,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -3881,7 +4155,8 @@
           "zh-TW": "光環等級 (Holy Freeze)",
           "zh-CN": "光环等级 (Holy Freeze)"
         },
-        "value": 18
+        "value": 18,
+        "isSkillRef": true
       },
       {
         "key": "pierce-cold",
@@ -3890,7 +4165,8 @@
           "zh-TW": "降低敵方冷凍抗性 %",
           "zh-CN": "降低敌方冷冻抗性 %"
         },
-        "value": 20
+        "value": 20,
+        "isSkillRef": false
       },
       {
         "key": "gold%/lvl",
@@ -3899,7 +4175,8 @@
           "zh-TW": "額外金幣拾取率 %（依角色等級）",
           "zh-CN": "额外金币拾取率 %（依角色等级）"
         },
-        "value": 25
+        "value": 25,
+        "isSkillRef": false
       }
     ]
   },
@@ -3937,7 +4214,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 255,
-        "max": 325
+        "max": 325,
+        "isSkillRef": false
       },
       {
         "key": "kill-skill:Chain Lightning",
@@ -3947,7 +4225,8 @@
           "zh-CN": "击杀时触发机率 (Chain Lightning)"
         },
         "min": 50,
-        "max": 20
+        "max": 20,
+        "isSkillRef": true
       },
       {
         "key": "pierce-ltng",
@@ -3957,7 +4236,8 @@
           "zh-CN": "降低敌方闪电抗性 %"
         },
         "min": 45,
-        "max": 55
+        "max": 55,
+        "isSkillRef": false
       },
       {
         "key": "charged:Cyclone Armor",
@@ -3967,7 +4247,8 @@
           "zh-CN": "充能次数 (Cyclone Armor)"
         },
         "min": 30,
-        "max": 21
+        "max": 21,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -3978,7 +4259,8 @@
           "zh-TW": "加快跑走速度 %",
           "zh-CN": "加快跑走速度 %"
         },
-        "value": 35
+        "value": 35,
+        "isSkillRef": false
       },
       {
         "key": "vit/lvl",
@@ -3987,7 +4269,8 @@
           "zh-TW": "活力（依角色等級）",
           "zh-CN": "活力（依角色等级）"
         },
-        "value": 4
+        "value": 4,
+        "isSkillRef": false
       },
       {
         "key": "aura:Conviction",
@@ -3996,7 +4279,8 @@
           "zh-TW": "光環等級 (Conviction)",
           "zh-CN": "光环等级 (Conviction)"
         },
-        "value": 12
+        "value": 12,
+        "isSkillRef": true
       }
     ]
   },
@@ -4034,7 +4318,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 200,
-        "max": 260
+        "max": 260,
+        "isSkillRef": false
       },
       {
         "key": "att%",
@@ -4044,7 +4329,8 @@
           "zh-CN": "攻击等级 %"
         },
         "min": 180,
-        "max": 250
+        "max": 250,
+        "isSkillRef": false
       },
       {
         "key": "oskill:Critical Strike",
@@ -4054,7 +4340,8 @@
           "zh-CN": "技能加成 (Critical Strike)"
         },
         "min": 1,
-        "max": 6
+        "max": 6,
+        "isSkillRef": true
       },
       {
         "key": "aura:Meditation",
@@ -4064,7 +4351,8 @@
           "zh-CN": "光环等级 (Meditation)"
         },
         "min": 12,
-        "max": 17
+        "max": 17,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -4075,7 +4363,8 @@
           "zh-TW": "額外魔法物品尋獲率 %",
           "zh-CN": "额外魔法物品寻获率 %"
         },
-        "value": 23
+        "value": 23,
+        "isSkillRef": false
       },
       {
         "key": "cast2",
@@ -4084,7 +4373,8 @@
           "zh-TW": "加快施法速度",
           "zh-CN": "加快施法速度"
         },
-        "value": 35
+        "value": 35,
+        "isSkillRef": false
       },
       {
         "key": "all-stats",
@@ -4093,7 +4383,8 @@
           "zh-TW": "全部屬性",
           "zh-CN": "全部属性"
         },
-        "value": 5
+        "value": 5,
+        "isSkillRef": false
       }
     ]
   },
@@ -4129,7 +4420,8 @@
           "zh-TW": "強化傷害 %",
           "zh-CN": "强化伤害 %"
         },
-        "value": 100
+        "value": 100,
+        "isSkillRef": false
       },
       {
         "key": "att",
@@ -4138,7 +4430,8 @@
           "zh-TW": "攻擊等級",
           "zh-CN": "攻击等级"
         },
-        "value": 150
+        "value": 150,
+        "isSkillRef": false
       },
       {
         "key": "dmg-demon",
@@ -4147,7 +4440,8 @@
           "zh-TW": "對惡魔傷害",
           "zh-CN": "对恶魔伤害"
         },
-        "value": 100
+        "value": 100,
+        "isSkillRef": false
       },
       {
         "key": "dmg-undead",
@@ -4156,7 +4450,8 @@
           "zh-TW": "對不死系傷害",
           "zh-CN": "对不死系伤害"
         },
-        "value": 50
+        "value": 50,
+        "isSkillRef": false
       },
       {
         "key": "att-demon",
@@ -4165,7 +4460,8 @@
           "zh-TW": "對惡魔攻擊等級 %",
           "zh-CN": "对恶魔攻击等级 %"
         },
-        "value": 100
+        "value": 100,
+        "isSkillRef": false
       },
       {
         "key": "att-undead",
@@ -4174,7 +4470,8 @@
           "zh-TW": "對不死系攻擊等級 %",
           "zh-CN": "对不死系攻击等级 %"
         },
-        "value": 100
+        "value": 100,
+        "isSkillRef": false
       }
     ]
   },
@@ -4212,7 +4509,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 230,
-        "max": 270
+        "max": 270,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -4223,7 +4521,8 @@
           "zh-TW": "加快攻擊速度",
           "zh-CN": "加快攻击速度"
         },
-        "value": 30
+        "value": 30,
+        "isSkillRef": false
       },
       {
         "key": "reduce-ac",
@@ -4232,7 +4531,8 @@
           "zh-TW": "降低目標防禦力 %",
           "zh-CN": "降低目标防御力 %"
         },
-        "value": 25
+        "value": 25,
+        "isSkillRef": false
       },
       {
         "key": "crush",
@@ -4241,7 +4541,8 @@
           "zh-TW": "破碎打擊 %",
           "zh-CN": "破碎打击 %"
         },
-        "value": 33
+        "value": 33,
+        "isSkillRef": false
       },
       {
         "key": "openwounds",
@@ -4250,7 +4551,8 @@
           "zh-TW": "撕裂傷口 %",
           "zh-CN": "撕裂伤口 %"
         },
-        "value": 25
+        "value": 25,
+        "isSkillRef": false
       },
       {
         "key": "oskill:Vengeance",
@@ -4259,7 +4561,8 @@
           "zh-TW": "技能加成 (Vengeance)",
           "zh-CN": "技能加成 (Vengeance)"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": true
       },
       {
         "key": "gold%",
@@ -4268,7 +4571,8 @@
           "zh-TW": "額外金幣拾取率 %",
           "zh-CN": "额外金币拾取率 %"
         },
-        "value": 40
+        "value": 40,
+        "isSkillRef": false
       }
     ]
   },
@@ -4310,7 +4614,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 330,
-        "max": 375
+        "max": 375,
+        "isSkillRef": false
       },
       {
         "key": "hit-skill:Life Tap",
@@ -4320,7 +4625,8 @@
           "zh-CN": "攻击时触发机率 (Life Tap)"
         },
         "min": 10,
-        "max": 18
+        "max": 18,
+        "isSkillRef": true
       },
       {
         "key": "gethit-skill:Fade",
@@ -4330,7 +4636,8 @@
           "zh-CN": "受击时触发机率 (Fade)"
         },
         "min": 6,
-        "max": 11
+        "max": 11,
+        "isSkillRef": true
       },
       {
         "key": "crush",
@@ -4340,7 +4647,8 @@
           "zh-CN": "破碎打击 %"
         },
         "min": 40,
-        "max": 50
+        "max": 50,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -4351,7 +4659,8 @@
           "zh-TW": "攻擊等級（技能） (Charged Bolt)",
           "zh-CN": "攻击等级（技能） (Charged Bolt)"
         },
-        "value": 20
+        "value": 20,
+        "isSkillRef": true
       },
       {
         "key": "mag%/lvl",
@@ -4360,7 +4669,8 @@
           "zh-TW": "額外魔法物品尋獲率 %（依角色等級）",
           "zh-CN": "额外魔法物品寻获率 %（依角色等级）"
         },
-        "value": 4
+        "value": 4,
+        "isSkillRef": false
       },
       {
         "key": "aura:Might",
@@ -4369,7 +4679,8 @@
           "zh-TW": "光環等級 (Might)",
           "zh-CN": "光环等级 (Might)"
         },
-        "value": 17
+        "value": 17,
+        "isSkillRef": true
       }
     ]
   },
@@ -4405,7 +4716,8 @@
           "zh-CN": "冷冻伤害"
         },
         "min": 130,
-        "max": 180
+        "max": 180,
+        "isSkillRef": false
       },
       {
         "key": "dmg-fire",
@@ -4415,7 +4727,8 @@
           "zh-CN": "火焰伤害"
         },
         "min": 150,
-        "max": 210
+        "max": 210,
+        "isSkillRef": false
       },
       {
         "key": "aura:Sanctuary",
@@ -4425,7 +4738,8 @@
           "zh-CN": "光环等级 (Sanctuary)"
         },
         "min": 16,
-        "max": 18
+        "max": 18,
+        "isSkillRef": true
       },
       {
         "key": "hit-skill:Decrepify",
@@ -4435,7 +4749,8 @@
           "zh-CN": "攻击时触发机率 (Decrepify)"
         },
         "min": 20,
-        "max": 15
+        "max": 15,
+        "isSkillRef": true
       },
       {
         "key": "ac-miss",
@@ -4445,7 +4760,8 @@
           "zh-CN": "对抗远程攻击防御力"
         },
         "min": 200,
-        "max": 250
+        "max": 250,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -4456,7 +4772,8 @@
           "zh-TW": "擊殺的怪物將安息",
           "zh-CN": "击杀的怪物将安息"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       },
       {
         "key": "reduce-ac",
@@ -4465,7 +4782,8 @@
           "zh-TW": "降低目標防禦力 %",
           "zh-CN": "降低目标防御力 %"
         },
-        "value": 50
+        "value": 50,
+        "isSkillRef": false
       }
     ]
   },
@@ -4499,7 +4817,8 @@
           "zh-TW": "火焰技能加成",
           "zh-CN": "火焰技能加成"
         },
-        "value": 3
+        "value": 3,
+        "isSkillRef": false
       },
       {
         "key": "ac/lvl",
@@ -4508,7 +4827,8 @@
           "zh-TW": "每等級防禦力",
           "zh-CN": "每等级防御力"
         },
-        "value": 16
+        "value": 16,
+        "isSkillRef": false
       },
       {
         "key": "res-cold",
@@ -4517,7 +4837,8 @@
           "zh-TW": "冷凍抗性 %",
           "zh-CN": "冷冻抗性 %"
         },
-        "value": 33
+        "value": 33,
+        "isSkillRef": false
       },
       {
         "key": "skill:41",
@@ -4526,7 +4847,8 @@
           "zh-TW": "技能加成 (地獄之火)",
           "zh-CN": "技能加成 (地狱之火)"
         },
-        "value": 3
+        "value": 3,
+        "isSkillRef": true
       },
       {
         "key": "skill:36",
@@ -4535,7 +4857,8 @@
           "zh-TW": "技能加成 (火彈)",
           "zh-CN": "技能加成 (火弹)"
         },
-        "value": 3
+        "value": 3,
+        "isSkillRef": true
       },
       {
         "key": "skill:37",
@@ -4544,7 +4867,8 @@
           "zh-TW": "技能加成 (暖氣)",
           "zh-CN": "技能加成 (暖气)"
         },
-        "value": 3
+        "value": 3,
+        "isSkillRef": true
       }
     ]
   },
@@ -4580,7 +4904,8 @@
           "zh-TW": "力量",
           "zh-CN": "力量"
         },
-        "value": 15
+        "value": 15,
+        "isSkillRef": false
       },
       {
         "key": "vit",
@@ -4589,7 +4914,8 @@
           "zh-TW": "活力",
           "zh-CN": "活力"
         },
-        "value": 20
+        "value": 20,
+        "isSkillRef": false
       },
       {
         "key": "dex",
@@ -4598,7 +4924,8 @@
           "zh-TW": "敏捷",
           "zh-CN": "敏捷"
         },
-        "value": 15
+        "value": 15,
+        "isSkillRef": false
       },
       {
         "key": "dmg%",
@@ -4607,7 +4934,8 @@
           "zh-TW": "強化傷害 %",
           "zh-CN": "强化伤害 %"
         },
-        "value": 20
+        "value": 20,
+        "isSkillRef": false
       },
       {
         "key": "hp",
@@ -4616,7 +4944,8 @@
           "zh-TW": "生命值",
           "zh-CN": "生命值"
         },
-        "value": 50
+        "value": 50,
+        "isSkillRef": false
       },
       {
         "key": "res-all",
@@ -4625,7 +4954,8 @@
           "zh-TW": "全抗性",
           "zh-CN": "全抗性"
         },
-        "value": 30
+        "value": 30,
+        "isSkillRef": false
       }
     ]
   },
@@ -4659,7 +4989,8 @@
           "zh-TW": "精力",
           "zh-CN": "精力"
         },
-        "value": 10
+        "value": 10,
+        "isSkillRef": false
       },
       {
         "key": "allskills",
@@ -4668,7 +4999,8 @@
           "zh-TW": "全部技能",
           "zh-CN": "全部技能"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       },
       {
         "key": "light",
@@ -4677,7 +5009,8 @@
           "zh-TW": "光環半徑",
           "zh-CN": "光环半径"
         },
-        "value": 2
+        "value": 2,
+        "isSkillRef": false
       },
       {
         "key": "mana-kill",
@@ -4686,7 +5019,8 @@
           "zh-TW": "擊殺後恢復魔力值",
           "zh-CN": "击杀后恢复魔力值"
         },
-        "value": 2
+        "value": 2,
+        "isSkillRef": false
       }
     ]
   },
@@ -4722,7 +5056,8 @@
           "zh-TW": "撕裂傷口 %",
           "zh-CN": "撕裂伤口 %"
         },
-        "value": 100
+        "value": 100,
+        "isSkillRef": false
       },
       {
         "key": "dmg-ac",
@@ -4731,7 +5066,8 @@
           "zh-TW": "傷害降低目標防禦力",
           "zh-CN": "伤害降低目标防御力"
         },
-        "value": -100
+        "value": -100,
+        "isSkillRef": false
       },
       {
         "key": "noheal",
@@ -4740,7 +5076,8 @@
           "zh-TW": "防止怪物治療",
           "zh-CN": "防止怪物治疗"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       },
       {
         "key": "dmg%",
@@ -4749,7 +5086,8 @@
           "zh-TW": "強化傷害 %",
           "zh-CN": "强化伤害 %"
         },
-        "value": 33
+        "value": 33,
+        "isSkillRef": false
       },
       {
         "key": "light",
@@ -4758,7 +5096,8 @@
           "zh-TW": "光環半徑",
           "zh-CN": "光环半径"
         },
-        "value": -1
+        "value": -1,
+        "isSkillRef": false
       },
       {
         "key": "regen",
@@ -4767,7 +5106,8 @@
           "zh-TW": "生命回復 %",
           "zh-CN": "生命回复 %"
         },
-        "value": -5
+        "value": -5,
+        "isSkillRef": false
       }
     ]
   },
@@ -4803,7 +5143,8 @@
           "zh-TW": "強化傷害 %",
           "zh-CN": "强化伤害 %"
         },
-        "value": 50
+        "value": 50,
+        "isSkillRef": false
       },
       {
         "key": "skilltab:0",
@@ -4812,7 +5153,8 @@
           "zh-TW": "技能列加成",
           "zh-CN": "技能列加成"
         },
-        "value": 3
+        "value": 3,
+        "isSkillRef": false
       },
       {
         "key": "skill:9",
@@ -4821,7 +5163,8 @@
           "zh-TW": "技能加成 (致命攻擊)",
           "zh-CN": "技能加成 (致命攻击)"
         },
-        "value": 3
+        "value": 3,
+        "isSkillRef": true
       },
       {
         "key": "skill:13",
@@ -4830,7 +5173,8 @@
           "zh-TW": "技能加成 (閃避)",
           "zh-CN": "技能加成 (闪避)"
         },
-        "value": 3
+        "value": 3,
+        "isSkillRef": true
       },
       {
         "key": "skill:17",
@@ -4839,7 +5183,8 @@
           "zh-TW": "技能加成 (慢速箭)",
           "zh-CN": "技能加成 (慢速箭)"
         },
-        "value": 3
+        "value": 3,
+        "isSkillRef": true
       },
       {
         "key": "dmg-undead",
@@ -4848,7 +5193,8 @@
           "zh-TW": "對不死系傷害",
           "zh-CN": "对不死系伤害"
         },
-        "value": 300
+        "value": 300,
+        "isSkillRef": false
       }
     ]
   },
@@ -4886,7 +5232,8 @@
           "zh-TW": "增加最大魔力值 %",
           "zh-CN": "增加最大魔力值 %"
         },
-        "value": 20
+        "value": 20,
+        "isSkillRef": false
       },
       {
         "key": "red-mag",
@@ -4895,7 +5242,8 @@
           "zh-TW": "減少魔法傷害",
           "zh-CN": "减少魔法伤害"
         },
-        "value": 7
+        "value": 7,
+        "isSkillRef": false
       },
       {
         "key": "ac%",
@@ -4904,7 +5252,8 @@
           "zh-TW": "強化防禦力 %",
           "zh-CN": "强化防御力 %"
         },
-        "value": 50
+        "value": 50,
+        "isSkillRef": false
       },
       {
         "key": "cast2",
@@ -4913,7 +5262,8 @@
           "zh-TW": "加快施法速度",
           "zh-CN": "加快施法速度"
         },
-        "value": 33
+        "value": 33,
+        "isSkillRef": false
       },
       {
         "key": "sor",
@@ -4922,7 +5272,8 @@
           "zh-TW": "女巫技能等級",
           "zh-CN": "女巫技能等级"
         },
-        "value": 3
+        "value": 3,
+        "isSkillRef": true
       },
       {
         "key": "skill:58",
@@ -4931,7 +5282,8 @@
           "zh-TW": "技能加成 (能量護盾)",
           "zh-CN": "技能加成 (能量护盾)"
         },
-        "value": 3
+        "value": 3,
+        "isSkillRef": true
       },
       {
         "key": "skill:42",
@@ -4940,7 +5292,8 @@
           "zh-TW": "技能加成 (靜態力場)",
           "zh-CN": "技能加成 (静态力场)"
         },
-        "value": 2
+        "value": 2,
+        "isSkillRef": true
       }
     ]
   },
@@ -4976,7 +5329,8 @@
           "zh-CN": "攻击时触发机率 (Mark of the Bear)"
         },
         "min": 100,
-        "max": 1
+        "max": 1,
+        "isSkillRef": true
       },
       {
         "key": "hit-skill:Mark of the Wolf",
@@ -4986,7 +5340,8 @@
           "zh-CN": "攻击时触发机率 (Mark of the Wolf)"
         },
         "min": 100,
-        "max": 1
+        "max": 1,
+        "isSkillRef": true
       },
       {
         "key": "ac%",
@@ -4996,7 +5351,8 @@
           "zh-CN": "强化防御力 %"
         },
         "min": 50,
-        "max": 80
+        "max": 80,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -5007,7 +5363,8 @@
           "zh-TW": "技能列加成",
           "zh-CN": "技能列加成"
         },
-        "value": 5
+        "value": 5,
+        "isSkillRef": false
       },
       {
         "key": "res-all",
@@ -5016,7 +5373,8 @@
           "zh-TW": "全抗性",
           "zh-CN": "全抗性"
         },
-        "value": 10
+        "value": 10,
+        "isSkillRef": false
       },
       {
         "key": "crush",
@@ -5025,7 +5383,8 @@
           "zh-TW": "破碎打擊 %",
           "zh-CN": "破碎打击 %"
         },
-        "value": 25
+        "value": 25,
+        "isSkillRef": false
       }
     ]
   },
@@ -5065,7 +5424,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 325,
-        "max": 375
+        "max": 375,
+        "isSkillRef": false
       },
       {
         "key": "aura:Concentration",
@@ -5075,7 +5435,8 @@
           "zh-CN": "光环等级 (Concentration)"
         },
         "min": 8,
-        "max": 12
+        "max": 12,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -5086,7 +5447,8 @@
           "zh-TW": "全部技能",
           "zh-CN": "全部技能"
         },
-        "value": 3
+        "value": 3,
+        "isSkillRef": false
       },
       {
         "key": "pierce",
@@ -5095,7 +5457,8 @@
           "zh-TW": "穿透攻擊 %",
           "zh-CN": "穿透攻击 %"
         },
-        "value": 100
+        "value": 100,
+        "isSkillRef": false
       },
       {
         "key": "vit",
@@ -5104,7 +5467,8 @@
           "zh-TW": "活力",
           "zh-CN": "活力"
         },
-        "value": 24
+        "value": 24,
+        "isSkillRef": false
       },
       {
         "key": "res-all",
@@ -5113,7 +5477,8 @@
           "zh-TW": "全抗性",
           "zh-CN": "全抗性"
         },
-        "value": 40
+        "value": 40,
+        "isSkillRef": false
       }
     ]
   },
@@ -5149,7 +5514,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 200,
-        "max": 250
+        "max": 250,
+        "isSkillRef": false
       },
       {
         "key": "extra-fire",
@@ -5159,7 +5525,8 @@
           "zh-CN": "火焰技能伤害 %"
         },
         "min": 8,
-        "max": 15
+        "max": 15,
+        "isSkillRef": false
       },
       {
         "key": "extra-cold",
@@ -5169,7 +5536,8 @@
           "zh-CN": "冷冻技能伤害 %"
         },
         "min": 8,
-        "max": 15
+        "max": 15,
+        "isSkillRef": false
       },
       {
         "key": "extra-ltng",
@@ -5179,7 +5547,8 @@
           "zh-CN": "闪电技能伤害 %"
         },
         "min": 8,
-        "max": 15
+        "max": 15,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -5190,7 +5559,8 @@
           "zh-TW": "技能列加成",
           "zh-CN": "技能列加成"
         },
-        "value": 2
+        "value": 2,
+        "isSkillRef": false
       },
       {
         "key": "charge-noconsume",
@@ -5199,7 +5569,8 @@
           "zh-TW": "有機率不消耗充能次數 %",
           "zh-CN": "有机率不消耗充能次数 %"
         },
-        "value": 50
+        "value": 50,
+        "isSkillRef": false
       },
       {
         "key": "swing2",
@@ -5208,7 +5579,8 @@
           "zh-TW": "加快攻擊速度",
           "zh-CN": "加快攻击速度"
         },
-        "value": 20
+        "value": 20,
+        "isSkillRef": false
       }
     ]
   },
@@ -5244,7 +5616,8 @@
           "zh-CN": "攻击时触发机率 (Taunt)"
         },
         "min": 10,
-        "max": 1
+        "max": 1,
+        "isSkillRef": true
       },
       {
         "key": "gethit-skill:Howl",
@@ -5254,7 +5627,8 @@
           "zh-CN": "受击时触发机率 (Howl)"
         },
         "min": 3,
-        "max": 1
+        "max": 1,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -5265,7 +5639,8 @@
           "zh-TW": "蠻族技能等級",
           "zh-CN": "蛮族技能等级"
         },
-        "value": 2
+        "value": 2,
+        "isSkillRef": true
       },
       {
         "key": "regen",
@@ -5274,7 +5649,8 @@
           "zh-TW": "生命回復 %",
           "zh-CN": "生命回复 %"
         },
-        "value": 10
+        "value": 10,
+        "isSkillRef": false
       }
     ]
   },
@@ -5308,7 +5684,8 @@
           "zh-CN": "充能次数 (Cloak of Shadows)"
         },
         "min": 9,
-        "max": 13
+        "max": 13,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -5319,7 +5696,8 @@
           "zh-TW": "強化防禦力 %",
           "zh-CN": "强化防御力 %"
         },
-        "value": 50
+        "value": 50,
+        "isSkillRef": false
       },
       {
         "key": "ac",
@@ -5328,7 +5706,8 @@
           "zh-TW": "防禦力",
           "zh-CN": "防御力"
         },
-        "value": 10
+        "value": 10,
+        "isSkillRef": false
       },
       {
         "key": "light",
@@ -5337,7 +5716,8 @@
           "zh-TW": "光環半徑",
           "zh-CN": "光环半径"
         },
-        "value": -3
+        "value": -3,
+        "isSkillRef": false
       },
       {
         "key": "gold%",
@@ -5346,7 +5726,8 @@
           "zh-TW": "額外金幣拾取率 %",
           "zh-CN": "额外金币拾取率 %"
         },
-        "value": -33
+        "value": -33,
+        "isSkillRef": false
       },
       {
         "key": "str",
@@ -5355,7 +5736,8 @@
           "zh-TW": "力量",
           "zh-CN": "力量"
         },
-        "value": 5
+        "value": 5,
+        "isSkillRef": false
       }
     ]
   },
@@ -5393,7 +5775,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 210,
-        "max": 340
+        "max": 340,
+        "isSkillRef": false
       },
       {
         "key": "hit-skill:Bone Spirit",
@@ -5403,7 +5786,8 @@
           "zh-CN": "攻击时触发机率 (Bone Spirit)"
         },
         "min": 30,
-        "max": 20
+        "max": 20,
+        "isSkillRef": true
       },
       {
         "key": "charged:IronGolem",
@@ -5413,7 +5797,8 @@
           "zh-CN": "充能次数 (铁石魔)"
         },
         "min": 14,
-        "max": 17
+        "max": 17,
+        "isSkillRef": true
       },
       {
         "key": "charged:Heart of Wolverine",
@@ -5423,7 +5808,8 @@
           "zh-CN": "充能次数 (狼獾之心)"
         },
         "min": 20,
-        "max": 16
+        "max": 16,
+        "isSkillRef": true
       },
       {
         "key": "abs-mag",
@@ -5433,7 +5819,8 @@
           "zh-CN": "魔法吸收"
         },
         "min": 10,
-        "max": 15
+        "max": 15,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -5444,7 +5831,8 @@
           "zh-TW": "加快攻擊速度",
           "zh-CN": "加快攻击速度"
         },
-        "value": 30
+        "value": 30,
+        "isSkillRef": false
       },
       {
         "key": "indestruct",
@@ -5453,7 +5841,8 @@
           "zh-TW": "不可破壞",
           "zh-CN": "不可破坏"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       }
     ]
   },
@@ -5493,7 +5882,8 @@
           "zh-CN": "击杀时触发机率 (enchant)"
         },
         "min": 30,
-        "max": 21
+        "max": 21,
+        "isSkillRef": true
       },
       {
         "key": "ac",
@@ -5503,7 +5893,8 @@
           "zh-CN": "防御力"
         },
         "min": 200,
-        "max": 300
+        "max": 300,
+        "isSkillRef": false
       },
       {
         "key": "res-all",
@@ -5513,7 +5904,8 @@
           "zh-CN": "全抗性"
         },
         "min": 20,
-        "max": 30
+        "max": 30,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -5524,7 +5916,8 @@
           "zh-TW": "強化傷害 %",
           "zh-CN": "强化伤害 %"
         },
-        "value": 370
+        "value": 370,
+        "isSkillRef": false
       },
       {
         "key": "crush",
@@ -5533,7 +5926,8 @@
           "zh-TW": "破碎打擊 %",
           "zh-CN": "破碎打击 %"
         },
-        "value": 40
+        "value": 40,
+        "isSkillRef": false
       },
       {
         "key": "pierce-fire",
@@ -5542,7 +5936,8 @@
           "zh-TW": "降低敵方火焰抗性 %",
           "zh-CN": "降低敌方火焰抗性 %"
         },
-        "value": 25
+        "value": 25,
+        "isSkillRef": false
       },
       {
         "key": "balance3",
@@ -5551,7 +5946,8 @@
           "zh-TW": "加快恢復速度",
           "zh-CN": "加快恢复速度"
         },
-        "value": 40
+        "value": 40,
+        "isSkillRef": false
       }
     ]
   },
@@ -5593,7 +5989,8 @@
           "zh-CN": "受击时触发机率 (Weaken)"
         },
         "min": 24,
-        "max": 10
+        "max": 10,
+        "isSkillRef": true
       },
       {
         "key": "res-all",
@@ -5603,7 +6000,8 @@
           "zh-CN": "全抗性"
         },
         "min": 60,
-        "max": 70
+        "max": 70,
+        "isSkillRef": false
       },
       {
         "key": "hp%",
@@ -5613,7 +6011,8 @@
           "zh-CN": "增加最大生命值 %"
         },
         "min": 15,
-        "max": 25
+        "max": 25,
+        "isSkillRef": false
       },
       {
         "key": "regen-mana",
@@ -5623,7 +6022,8 @@
           "zh-CN": "魔力回复 %"
         },
         "min": 15,
-        "max": 30
+        "max": 30,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -5634,7 +6034,8 @@
           "zh-TW": "全部技能",
           "zh-CN": "全部技能"
         },
-        "value": 4
+        "value": 4,
+        "isSkillRef": false
       },
       {
         "key": "cast3",
@@ -5643,7 +6044,8 @@
           "zh-TW": "加快施法速度",
           "zh-CN": "加快施法速度"
         },
-        "value": 65
+        "value": 65,
+        "isSkillRef": false
       },
       {
         "key": "balance3",
@@ -5652,7 +6054,8 @@
           "zh-TW": "加快恢復速度",
           "zh-CN": "加快恢复速度"
         },
-        "value": 60
+        "value": 60,
+        "isSkillRef": false
       }
     ]
   },
@@ -5690,7 +6093,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 160,
-        "max": 210
+        "max": 210,
+        "isSkillRef": false
       },
       {
         "key": "att%",
@@ -5700,7 +6104,8 @@
           "zh-CN": "攻击等级 %"
         },
         "min": 50,
-        "max": 80
+        "max": 80,
+        "isSkillRef": false
       },
       {
         "key": "charged:Heart of Wolverine",
@@ -5710,7 +6115,8 @@
           "zh-CN": "充能次数 (狼獾之心)"
         },
         "min": 12,
-        "max": 3
+        "max": 3,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -5721,7 +6127,8 @@
           "zh-TW": "技能加成 (Zeal)",
           "zh-CN": "技能加成 (Zeal)"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": true
       },
       {
         "key": "oskill:Berserk",
@@ -5730,7 +6137,8 @@
           "zh-TW": "技能加成 (狂戰士)",
           "zh-CN": "技能加成 (狂战士)"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": true
       },
       {
         "key": "swing2",
@@ -5739,7 +6147,8 @@
           "zh-TW": "加快攻擊速度",
           "zh-CN": "加快攻击速度"
         },
-        "value": 25
+        "value": 25,
+        "isSkillRef": false
       },
       {
         "key": "stupidity",
@@ -5748,7 +6157,8 @@
           "zh-TW": "擊中致盲目標",
           "zh-CN": "击中致盲目标"
         },
-        "value": 10
+        "value": 10,
+        "isSkillRef": false
       }
     ]
   },
@@ -5784,7 +6194,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 40,
-        "max": 80
+        "max": 80,
+        "isSkillRef": false
       },
       {
         "key": "dmg-fire",
@@ -5794,7 +6205,8 @@
           "zh-CN": "火焰伤害"
         },
         "min": 12,
-        "max": 32
+        "max": 32,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -5805,7 +6217,8 @@
           "zh-TW": "攻擊等級 %",
           "zh-CN": "攻击等级 %"
         },
-        "value": 10
+        "value": 10,
+        "isSkillRef": false
       },
       {
         "key": "res-all",
@@ -5814,7 +6227,8 @@
           "zh-TW": "全抗性",
           "zh-CN": "全抗性"
         },
-        "value": 15
+        "value": 15,
+        "isSkillRef": false
       },
       {
         "key": "str",
@@ -5823,7 +6237,8 @@
           "zh-TW": "力量",
           "zh-CN": "力量"
         },
-        "value": 6
+        "value": 6,
+        "isSkillRef": false
       },
       {
         "key": "dex",
@@ -5832,7 +6247,8 @@
           "zh-TW": "敏捷",
           "zh-CN": "敏捷"
         },
-        "value": 6
+        "value": 6,
+        "isSkillRef": false
       },
       {
         "key": "block2",
@@ -5841,7 +6257,8 @@
           "zh-TW": "加快格擋速度",
           "zh-CN": "加快格挡速度"
         },
-        "value": 30
+        "value": 30,
+        "isSkillRef": false
       }
     ]
   },
@@ -5877,7 +6294,8 @@
           "zh-CN": "攻击时触发机率 (女武神)"
         },
         "min": 2,
-        "max": 15
+        "max": 15,
+        "isSkillRef": true
       },
       {
         "key": "gethit-skill:Slow Missiles",
@@ -5887,7 +6305,8 @@
           "zh-CN": "受击时触发机率 (Slow Missiles)"
         },
         "min": 4,
-        "max": 5
+        "max": 5,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -5898,7 +6317,8 @@
           "zh-TW": "亞馬遜技能等級",
           "zh-CN": "亚马逊技能等级"
         },
-        "value": 2
+        "value": 2,
+        "isSkillRef": true
       },
       {
         "key": "oskill:Critical Strike",
@@ -5907,7 +6327,8 @@
           "zh-TW": "技能加成 (Critical Strike)",
           "zh-CN": "技能加成 (Critical Strike)"
         },
-        "value": 2
+        "value": 2,
+        "isSkillRef": true
       }
     ]
   },
@@ -5945,7 +6366,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 350,
-        "max": 400
+        "max": 400,
+        "isSkillRef": false
       },
       {
         "key": "ac-miss",
@@ -5955,7 +6377,8 @@
           "zh-CN": "对抗远程攻击防御力"
         },
         "min": 350,
-        "max": 400
+        "max": 400,
+        "isSkillRef": false
       },
       {
         "key": "hit-skill:Firestorm",
@@ -5965,7 +6388,8 @@
           "zh-CN": "攻击时触发机率 (Firestorm)"
         },
         "min": 40,
-        "max": 22
+        "max": 22,
+        "isSkillRef": true
       },
       {
         "key": "levelup-skill:Blaze",
@@ -5975,7 +6399,8 @@
           "zh-CN": "升级时触发机率 % (Blaze)"
         },
         "min": 100,
-        "max": 40
+        "max": 40,
+        "isSkillRef": true
       },
       {
         "key": "aura:Redemption",
@@ -5985,7 +6410,8 @@
           "zh-CN": "光环等级 (Redemption)"
         },
         "min": 10,
-        "max": 15
+        "max": 15,
+        "isSkillRef": true
       },
       {
         "key": "abs-fire",
@@ -5995,7 +6421,8 @@
           "zh-CN": "火焰吸收"
         },
         "min": 15,
-        "max": 21
+        "max": 21,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -6006,7 +6433,8 @@
           "zh-TW": "降低敵方火焰抗性 %",
           "zh-CN": "降低敌方火焰抗性 %"
         },
-        "value": 28
+        "value": 28,
+        "isSkillRef": false
       }
     ]
   },
@@ -6042,7 +6470,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 220,
-        "max": 320
+        "max": 320,
+        "isSkillRef": false
       },
       {
         "key": "gethit-skill:Lower Resist",
@@ -6052,7 +6481,8 @@
           "zh-CN": "受击时触发机率 (Lower Resist)"
         },
         "min": 20,
-        "max": 12
+        "max": 12,
+        "isSkillRef": true
       },
       {
         "key": "hit-skill:Poison Nova",
@@ -6062,7 +6492,8 @@
           "zh-CN": "攻击时触发机率 (Poison Nova)"
         },
         "min": 25,
-        "max": 15
+        "max": 15,
+        "isSkillRef": true
       },
       {
         "key": "aura:Cleansing",
@@ -6072,7 +6503,8 @@
           "zh-CN": "光环等级 (Cleansing)"
         },
         "min": 13,
-        "max": 17
+        "max": 17,
+        "isSkillRef": true
       },
       {
         "key": "allskills",
@@ -6082,7 +6514,8 @@
           "zh-CN": "全部技能"
         },
         "min": 1,
-        "max": 2
+        "max": 2,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -6093,7 +6526,8 @@
           "zh-TW": "降低敵方毒素抗性 %",
           "zh-CN": "降低敌方毒素抗性 %"
         },
-        "value": 23
+        "value": 23,
+        "isSkillRef": false
       },
       {
         "key": "deadly/lvl",
@@ -6102,7 +6536,8 @@
           "zh-TW": "致命一擊 %（依角色等級）",
           "zh-CN": "致命一击 %（依角色等级）"
         },
-        "value": 3
+        "value": 3,
+        "isSkillRef": false
       }
     ]
   },
@@ -6140,7 +6575,8 @@
           "zh-CN": "闪电伤害"
         },
         "min": 50,
-        "max": 280
+        "max": 280,
+        "isSkillRef": false
       },
       {
         "key": "att%",
@@ -6150,7 +6586,8 @@
           "zh-CN": "攻击等级 %"
         },
         "min": 260,
-        "max": 300
+        "max": 300,
+        "isSkillRef": false
       },
       {
         "key": "aura:Concentration",
@@ -6160,7 +6597,8 @@
           "zh-CN": "光环等级 (Concentration)"
         },
         "min": 16,
-        "max": 20
+        "max": 20,
+        "isSkillRef": true
       },
       {
         "key": "gethit-skill:Fire Wall",
@@ -6170,7 +6608,8 @@
           "zh-CN": "受击时触发机率 (Fire Wall)"
         },
         "min": 25,
-        "max": 17
+        "max": 17,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -6181,7 +6620,8 @@
           "zh-TW": "dmg-dem（依角色等級）",
           "zh-CN": "dmg-dem（依角色等级）"
         },
-        "value": 8
+        "value": 8,
+        "isSkillRef": false
       },
       {
         "key": "regen",
@@ -6190,7 +6630,8 @@
           "zh-TW": "生命回復 %",
           "zh-CN": "生命回复 %"
         },
-        "value": 8
+        "value": 8,
+        "isSkillRef": false
       },
       {
         "key": "gold%/lvl",
@@ -6199,7 +6640,8 @@
           "zh-TW": "額外金幣拾取率 %（依角色等級）",
           "zh-CN": "额外金币拾取率 %（依角色等级）"
         },
-        "value": 15
+        "value": 15,
+        "isSkillRef": false
       }
     ]
   },
@@ -6235,7 +6677,8 @@
           "zh-CN": "攻击时触发机率 (Holy Bolt)"
         },
         "min": 100,
-        "max": 5
+        "max": 5,
+        "isSkillRef": true
       },
       {
         "key": "hp",
@@ -6245,7 +6688,8 @@
           "zh-CN": "生命值"
         },
         "min": 100,
-        "max": 150
+        "max": 150,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -6256,7 +6700,8 @@
           "zh-TW": "聖騎士技能等級",
           "zh-CN": "圣骑士技能等级"
         },
-        "value": 2
+        "value": 2,
+        "isSkillRef": true
       },
       {
         "key": "dmg-undead",
@@ -6265,7 +6710,8 @@
           "zh-TW": "對不死系傷害",
           "zh-CN": "对不死系伤害"
         },
-        "value": 50
+        "value": 50,
+        "isSkillRef": false
       }
     ]
   },
@@ -6299,7 +6745,8 @@
           "zh-CN": "强化防御力 %"
         },
         "min": 140,
-        "max": 170
+        "max": 170,
+        "isSkillRef": false
       },
       {
         "key": "res-all",
@@ -6309,7 +6756,8 @@
           "zh-CN": "全抗性"
         },
         "min": 25,
-        "max": 35
+        "max": 35,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -6320,7 +6768,8 @@
           "zh-TW": "減少魔法傷害",
           "zh-CN": "减少魔法伤害"
         },
-        "value": 10
+        "value": 10,
+        "isSkillRef": false
       },
       {
         "key": "red-dmg",
@@ -6329,7 +6778,8 @@
           "zh-TW": "減少傷害",
           "zh-CN": "减少伤害"
         },
-        "value": 3
+        "value": 3,
+        "isSkillRef": false
       },
       {
         "key": "balance2",
@@ -6338,7 +6788,8 @@
           "zh-TW": "加快恢復速度",
           "zh-CN": "加快恢复速度"
         },
-        "value": 25
+        "value": 25,
+        "isSkillRef": false
       },
       {
         "key": "rep-dur",
@@ -6347,7 +6798,8 @@
           "zh-TW": "修復耐久度",
           "zh-CN": "修复耐久度"
         },
-        "value": 25
+        "value": 25,
+        "isSkillRef": false
       },
       {
         "key": "light",
@@ -6356,7 +6808,8 @@
           "zh-TW": "光環半徑",
           "zh-CN": "光环半径"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       }
     ]
   },
@@ -6392,7 +6845,8 @@
           "zh-TW": "光環半徑",
           "zh-CN": "光环半径"
         },
-        "value": 5
+        "value": 5,
+        "isSkillRef": false
       },
       {
         "key": "enr",
@@ -6401,7 +6855,8 @@
           "zh-TW": "精力",
           "zh-CN": "精力"
         },
-        "value": 10
+        "value": 10,
+        "isSkillRef": false
       },
       {
         "key": "vit",
@@ -6410,7 +6865,8 @@
           "zh-TW": "活力",
           "zh-CN": "活力"
         },
-        "value": 10
+        "value": 10,
+        "isSkillRef": false
       },
       {
         "key": "red-mag",
@@ -6419,7 +6875,8 @@
           "zh-TW": "減少魔法傷害",
           "zh-CN": "减少魔法伤害"
         },
-        "value": 3
+        "value": 3,
+        "isSkillRef": false
       },
       {
         "key": "mana",
@@ -6428,7 +6885,8 @@
           "zh-TW": "魔力值",
           "zh-CN": "魔力值"
         },
-        "value": 33
+        "value": 33,
+        "isSkillRef": false
       },
       {
         "key": "ac%",
@@ -6437,7 +6895,8 @@
           "zh-TW": "強化防禦力 %",
           "zh-CN": "强化防御力 %"
         },
-        "value": 75
+        "value": 75,
+        "isSkillRef": false
       }
     ]
   },
@@ -6473,7 +6932,8 @@
           "zh-CN": "攻击时触发机率 (Twister)"
         },
         "min": 5,
-        "max": 15
+        "max": 15,
+        "isSkillRef": true
       },
       {
         "key": "gethit-skill:Cyclone Armor",
@@ -6483,7 +6943,8 @@
           "zh-CN": "受击时触发机率 (Cyclone Armor)"
         },
         "min": 5,
-        "max": 15
+        "max": 15,
+        "isSkillRef": true
       },
       {
         "key": "mana",
@@ -6493,7 +6954,8 @@
           "zh-CN": "魔力值"
         },
         "min": 100,
-        "max": 150
+        "max": 150,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -6504,7 +6966,8 @@
           "zh-TW": "德魯伊技能等級",
           "zh-CN": "德鲁伊技能等级"
         },
-        "value": 2
+        "value": 2,
+        "isSkillRef": true
       }
     ]
   },
@@ -6538,7 +7001,8 @@
           "zh-TW": "加快格擋速度",
           "zh-CN": "加快格挡速度"
         },
-        "value": 20
+        "value": 20,
+        "isSkillRef": false
       },
       {
         "key": "block",
@@ -6547,7 +7011,8 @@
           "zh-TW": "格擋機率 %",
           "zh-CN": "格挡机率 %"
         },
-        "value": 20
+        "value": 20,
+        "isSkillRef": false
       },
       {
         "key": "res-all",
@@ -6556,7 +7021,8 @@
           "zh-TW": "全抗性",
           "zh-CN": "全抗性"
         },
-        "value": 25
+        "value": 25,
+        "isSkillRef": false
       },
       {
         "key": "nofreeze",
@@ -6565,7 +7031,8 @@
           "zh-TW": "不會被冰凍",
           "zh-CN": "不会被冰冻"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       },
       {
         "key": "gold%",
@@ -6574,7 +7041,8 @@
           "zh-TW": "額外金幣拾取率 %",
           "zh-CN": "额外金币拾取率 %"
         },
-        "value": 50
+        "value": 50,
+        "isSkillRef": false
       },
       {
         "key": "mag%",
@@ -6583,7 +7051,8 @@
           "zh-TW": "額外魔法物品尋獲率 %",
           "zh-CN": "额外魔法物品寻获率 %"
         },
-        "value": 25
+        "value": 25,
+        "isSkillRef": false
       }
     ]
   },
@@ -6621,7 +7090,8 @@
           "zh-CN": "魔法伤害"
         },
         "min": 160,
-        "max": 250
+        "max": 250,
+        "isSkillRef": false
       },
       {
         "key": "dmg-fire",
@@ -6631,7 +7101,8 @@
           "zh-CN": "火焰伤害"
         },
         "min": 60,
-        "max": 180
+        "max": 180,
+        "isSkillRef": false
       },
       {
         "key": "hit-skill:Tornado",
@@ -6641,7 +7112,8 @@
           "zh-CN": "攻击时触发机率 (Tornado)"
         },
         "min": 20,
-        "max": 16
+        "max": 16,
+        "isSkillRef": true
       },
       {
         "key": "att-skill:Frozen Orb",
@@ -6651,7 +7123,8 @@
           "zh-CN": "攻击等级（技能） (Frozen Orb)"
         },
         "min": 16,
-        "max": 21
+        "max": 21,
+        "isSkillRef": true
       },
       {
         "key": "charged:Iron Maiden",
@@ -6661,7 +7134,8 @@
           "zh-CN": "充能次数 (Iron Maiden)"
         },
         "min": 40,
-        "max": 15
+        "max": 15,
+        "isSkillRef": true
       },
       {
         "key": "all-stats",
@@ -6671,7 +7145,8 @@
           "zh-CN": "全部属性"
         },
         "min": 5,
-        "max": 10
+        "max": 10,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -6682,7 +7157,8 @@
           "zh-TW": "承受傷害轉換為魔力",
           "zh-CN": "承受伤害转换为魔力"
         },
-        "value": 38
+        "value": 38,
+        "isSkillRef": false
       }
     ]
   },
@@ -6718,7 +7194,8 @@
           "zh-CN": "受击时触发机率 (Sigil Death)"
         },
         "min": 13,
-        "max": 1
+        "max": 1,
+        "isSkillRef": true
       },
       {
         "key": "dmg%",
@@ -6728,7 +7205,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 200,
-        "max": 270
+        "max": 270,
+        "isSkillRef": false
       },
       {
         "key": "dmg-demon",
@@ -6738,7 +7216,8 @@
           "zh-CN": "对恶魔伤害"
         },
         "min": 150,
-        "max": 250
+        "max": 250,
+        "isSkillRef": false
       },
       {
         "key": "att%",
@@ -6748,7 +7227,8 @@
           "zh-CN": "攻击等级 %"
         },
         "min": 200,
-        "max": 260
+        "max": 260,
+        "isSkillRef": false
       },
       {
         "key": "heal-kill",
@@ -6758,7 +7238,8 @@
           "zh-CN": "击杀后恢复生命值"
         },
         "min": 3,
-        "max": 5
+        "max": 5,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -6769,7 +7250,8 @@
           "zh-TW": "加快攻擊速度",
           "zh-CN": "加快攻击速度"
         },
-        "value": 20
+        "value": 20,
+        "isSkillRef": false
       },
       {
         "key": "rip",
@@ -6778,7 +7260,8 @@
           "zh-TW": "擊殺的怪物將安息",
           "zh-CN": "击杀的怪物将安息"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       }
     ]
   },
@@ -6814,7 +7297,8 @@
           "zh-CN": "强化防御力 %"
         },
         "min": 130,
-        "max": 160
+        "max": 160,
+        "isSkillRef": false
       },
       {
         "key": "res-all",
@@ -6824,7 +7308,8 @@
           "zh-CN": "全抗性"
         },
         "min": 50,
-        "max": 70
+        "max": 70,
+        "isSkillRef": false
       },
       {
         "key": "charged:Slow Missiles",
@@ -6834,7 +7319,8 @@
           "zh-CN": "充能次数 (Slow Missiles)"
         },
         "min": 60,
-        "max": 12
+        "max": 12,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -6845,7 +7331,8 @@
           "zh-TW": "格擋機率 %",
           "zh-CN": "格挡机率 %"
         },
-        "value": 20
+        "value": 20,
+        "isSkillRef": false
       },
       {
         "key": "block2",
@@ -6854,7 +7341,8 @@
           "zh-TW": "加快格擋速度",
           "zh-CN": "加快格挡速度"
         },
-        "value": 20
+        "value": 20,
+        "isSkillRef": false
       },
       {
         "key": "ac-miss",
@@ -6863,7 +7351,8 @@
           "zh-TW": "對抗遠程攻擊防禦力",
           "zh-CN": "对抗远程攻击防御力"
         },
-        "value": 250
+        "value": 250,
+        "isSkillRef": false
       },
       {
         "key": "balance2",
@@ -6872,7 +7361,8 @@
           "zh-TW": "加快恢復速度",
           "zh-CN": "加快恢复速度"
         },
-        "value": 20
+        "value": 20,
+        "isSkillRef": false
       }
     ]
   },
@@ -6914,7 +7404,8 @@
           "zh-TW": "魔力竊取 %",
           "zh-CN": "魔力窃取 %"
         },
-        "value": 4
+        "value": 4,
+        "isSkillRef": false
       },
       {
         "key": "stupidity",
@@ -6923,7 +7414,8 @@
           "zh-TW": "擊中致盲目標",
           "zh-CN": "击中致盲目标"
         },
-        "value": 33
+        "value": 33,
+        "isSkillRef": false
       },
       {
         "key": "dmg%",
@@ -6932,7 +7424,8 @@
           "zh-TW": "強化傷害 %",
           "zh-CN": "强化伤害 %"
         },
-        "value": 200
+        "value": 200,
+        "isSkillRef": false
       },
       {
         "key": "swing2",
@@ -6941,7 +7434,8 @@
           "zh-TW": "加快攻擊速度",
           "zh-CN": "加快攻击速度"
         },
-        "value": 20
+        "value": 20,
+        "isSkillRef": false
       },
       {
         "key": "res-all",
@@ -6950,7 +7444,8 @@
           "zh-TW": "全抗性",
           "zh-CN": "全抗性"
         },
-        "value": 75
+        "value": 75,
+        "isSkillRef": false
       },
       {
         "key": "allskills",
@@ -6959,7 +7454,8 @@
           "zh-TW": "全部技能",
           "zh-CN": "全部技能"
         },
-        "value": 2
+        "value": 2,
+        "isSkillRef": false
       },
       {
         "key": "balance2",
@@ -6968,7 +7464,8 @@
           "zh-TW": "加快恢復速度",
           "zh-CN": "加快恢复速度"
         },
-        "value": 20
+        "value": 20,
+        "isSkillRef": false
       }
     ]
   },
@@ -7002,7 +7499,8 @@
           "zh-CN": "充能次数 (削弱)"
         },
         "min": 18,
-        "max": 6
+        "max": 6,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -7013,7 +7511,8 @@
           "zh-TW": "對抗遠程攻擊防禦力",
           "zh-CN": "对抗远程攻击防御力"
         },
-        "value": 250
+        "value": 250,
+        "isSkillRef": false
       },
       {
         "key": "ac%",
@@ -7022,7 +7521,8 @@
           "zh-TW": "強化防禦力 %",
           "zh-CN": "强化防御力 %"
         },
-        "value": 75
+        "value": 75,
+        "isSkillRef": false
       },
       {
         "key": "res-all",
@@ -7031,7 +7531,8 @@
           "zh-TW": "全抗性",
           "zh-CN": "全抗性"
         },
-        "value": 50
+        "value": 50,
+        "isSkillRef": false
       },
       {
         "key": "balance2",
@@ -7040,7 +7541,8 @@
           "zh-TW": "加快恢復速度",
           "zh-CN": "加快恢复速度"
         },
-        "value": 20
+        "value": 20,
+        "isSkillRef": false
       },
       {
         "key": "light",
@@ -7049,7 +7551,8 @@
           "zh-TW": "光環半徑",
           "zh-CN": "光环半径"
         },
-        "value": -1
+        "value": -1,
+        "isSkillRef": false
       }
     ]
   },
@@ -7087,7 +7590,8 @@
           "zh-CN": "魔力值"
         },
         "min": 89,
-        "max": 112
+        "max": 112,
+        "isSkillRef": false
       },
       {
         "key": "cast3",
@@ -7097,7 +7601,8 @@
           "zh-CN": "加快施法速度"
         },
         "min": 25,
-        "max": 35
+        "max": 35,
+        "isSkillRef": false
       },
       {
         "key": "abs-mag",
@@ -7107,7 +7612,8 @@
           "zh-CN": "魔法吸收"
         },
         "min": 3,
-        "max": 8
+        "max": 8,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -7118,7 +7624,8 @@
           "zh-TW": "加快恢復速度",
           "zh-CN": "加快恢复速度"
         },
-        "value": 55
+        "value": 55,
+        "isSkillRef": false
       },
       {
         "key": "ac-miss",
@@ -7127,7 +7634,8 @@
           "zh-TW": "對抗遠程攻擊防禦力",
           "zh-CN": "对抗远程攻击防御力"
         },
-        "value": 250
+        "value": 250,
+        "isSkillRef": false
       },
       {
         "key": "vit",
@@ -7136,7 +7644,8 @@
           "zh-TW": "活力",
           "zh-CN": "活力"
         },
-        "value": 22
+        "value": 22,
+        "isSkillRef": false
       },
       {
         "key": "allskills",
@@ -7145,7 +7654,8 @@
           "zh-TW": "全部技能",
           "zh-CN": "全部技能"
         },
-        "value": 2
+        "value": 2,
+        "isSkillRef": false
       }
     ]
   },
@@ -7179,7 +7689,8 @@
           "zh-CN": "强化防御力 %"
         },
         "min": 60,
-        "max": 100
+        "max": 100,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -7190,7 +7701,8 @@
           "zh-TW": "光環半徑",
           "zh-CN": "光环半径"
         },
-        "value": 3
+        "value": 3,
+        "isSkillRef": false
       },
       {
         "key": "gold%",
@@ -7199,7 +7711,8 @@
           "zh-TW": "額外金幣拾取率 %",
           "zh-CN": "额外金币拾取率 %"
         },
-        "value": 50
+        "value": 50,
+        "isSkillRef": false
       },
       {
         "key": "mag%",
@@ -7208,7 +7721,8 @@
           "zh-TW": "額外魔法物品尋獲率 %",
           "zh-CN": "额外魔法物品寻获率 %"
         },
-        "value": 20
+        "value": 20,
+        "isSkillRef": false
       },
       {
         "key": "block2",
@@ -7217,7 +7731,8 @@
           "zh-TW": "加快格擋速度",
           "zh-CN": "加快格挡速度"
         },
-        "value": 20
+        "value": 20,
+        "isSkillRef": false
       },
       {
         "key": "cast2",
@@ -7226,7 +7741,8 @@
           "zh-TW": "加快施法速度",
           "zh-CN": "加快施法速度"
         },
-        "value": 10
+        "value": 10,
+        "isSkillRef": false
       },
       {
         "key": "allskills",
@@ -7235,7 +7751,8 @@
           "zh-TW": "全部技能",
           "zh-CN": "全部技能"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       }
     ]
   },
@@ -7269,7 +7786,8 @@
           "zh-TW": "減少魔法傷害",
           "zh-CN": "减少魔法伤害"
         },
-        "value": 3
+        "value": 3,
+        "isSkillRef": false
       },
       {
         "key": "dex",
@@ -7278,7 +7796,8 @@
           "zh-TW": "敏捷",
           "zh-CN": "敏捷"
         },
-        "value": 6
+        "value": 6,
+        "isSkillRef": false
       },
       {
         "key": "stam",
@@ -7287,7 +7806,8 @@
           "zh-TW": "耐力",
           "zh-CN": "耐力"
         },
-        "value": 15
+        "value": 15,
+        "isSkillRef": false
       },
       {
         "key": "move2",
@@ -7296,7 +7816,8 @@
           "zh-TW": "加快跑走速度 %",
           "zh-CN": "加快跑走速度 %"
         },
-        "value": 25
+        "value": 25,
+        "isSkillRef": false
       },
       {
         "key": "cast2",
@@ -7305,7 +7826,8 @@
           "zh-TW": "加快施法速度",
           "zh-CN": "加快施法速度"
         },
-        "value": 25
+        "value": 25,
+        "isSkillRef": false
       },
       {
         "key": "balance2",
@@ -7314,7 +7836,8 @@
           "zh-TW": "加快恢復速度",
           "zh-CN": "加快恢复速度"
         },
-        "value": 25
+        "value": 25,
+        "isSkillRef": false
       }
     ]
   },
@@ -7348,7 +7871,8 @@
           "zh-TW": "加快攻擊速度",
           "zh-CN": "加快攻击速度"
         },
-        "value": 25
+        "value": 25,
+        "isSkillRef": false
       },
       {
         "key": "dmg-min",
@@ -7357,7 +7881,8 @@
           "zh-TW": "最小傷害",
           "zh-CN": "最小伤害"
         },
-        "value": 3
+        "value": 3,
+        "isSkillRef": false
       },
       {
         "key": "dmg-max",
@@ -7366,7 +7891,8 @@
           "zh-TW": "最大傷害",
           "zh-CN": "最大伤害"
         },
-        "value": 3
+        "value": 3,
+        "isSkillRef": false
       },
       {
         "key": "openwounds",
@@ -7375,7 +7901,8 @@
           "zh-TW": "撕裂傷口 %",
           "zh-CN": "撕裂伤口 %"
         },
-        "value": 50
+        "value": 50,
+        "isSkillRef": false
       },
       {
         "key": "dmg%",
@@ -7384,7 +7911,8 @@
           "zh-TW": "強化傷害 %",
           "zh-CN": "强化伤害 %"
         },
-        "value": 20
+        "value": 20,
+        "isSkillRef": false
       }
     ]
   },
@@ -7422,7 +7950,8 @@
           "zh-CN": "强化防御力 %"
         },
         "min": 220,
-        "max": 260
+        "max": 260,
+        "isSkillRef": false
       },
       {
         "key": "charged:Molten Boulder",
@@ -7432,7 +7961,8 @@
           "zh-CN": "充能次数 (Molten Boulder)"
         },
         "min": 80,
-        "max": 16
+        "max": 16,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -7443,7 +7973,8 @@
           "zh-TW": "充能次數 (Clay Golem)",
           "zh-CN": "充能次数 (Clay Golem)"
         },
-        "value": 16
+        "value": 16,
+        "isSkillRef": true
       },
       {
         "key": "ac-miss",
@@ -7452,7 +7983,8 @@
           "zh-TW": "對抗遠程攻擊防禦力",
           "zh-CN": "对抗远程攻击防御力"
         },
-        "value": 300
+        "value": 300,
+        "isSkillRef": false
       },
       {
         "key": "str",
@@ -7461,7 +7993,8 @@
           "zh-TW": "力量",
           "zh-CN": "力量"
         },
-        "value": 16
+        "value": 16,
+        "isSkillRef": false
       },
       {
         "key": "vit",
@@ -7470,7 +8003,8 @@
           "zh-TW": "活力",
           "zh-CN": "活力"
         },
-        "value": 16
+        "value": 16,
+        "isSkillRef": false
       },
       {
         "key": "balance2",
@@ -7479,7 +8013,8 @@
           "zh-TW": "加快恢復速度",
           "zh-CN": "加快恢复速度"
         },
-        "value": 40
+        "value": 40,
+        "isSkillRef": false
       }
     ]
   },
@@ -7513,7 +8048,8 @@
           "zh-TW": "力量",
           "zh-CN": "力量"
         },
-        "value": 20
+        "value": 20,
+        "isSkillRef": false
       },
       {
         "key": "dmg%",
@@ -7522,7 +8058,8 @@
           "zh-TW": "強化傷害 %",
           "zh-CN": "强化伤害 %"
         },
-        "value": 35
+        "value": 35,
+        "isSkillRef": false
       },
       {
         "key": "vit",
@@ -7531,7 +8068,8 @@
           "zh-TW": "活力",
           "zh-CN": "活力"
         },
-        "value": 10
+        "value": 10,
+        "isSkillRef": false
       },
       {
         "key": "crush",
@@ -7540,7 +8078,8 @@
           "zh-TW": "破碎打擊 %",
           "zh-CN": "破碎打击 %"
         },
-        "value": 25
+        "value": 25,
+        "isSkillRef": false
       }
     ]
   },
@@ -7576,7 +8115,8 @@
           "zh-CN": "强化防御力 %"
         },
         "min": 75,
-        "max": 100
+        "max": 100,
+        "isSkillRef": false
       },
       {
         "key": "res-fire",
@@ -7586,7 +8126,8 @@
           "zh-CN": "火焰抗性 %"
         },
         "min": 10,
-        "max": 30
+        "max": 30,
+        "isSkillRef": false
       },
       {
         "key": "abs-fire%",
@@ -7596,7 +8137,8 @@
           "zh-CN": "火焰吸收 %"
         },
         "min": 10,
-        "max": 15
+        "max": 15,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -7607,7 +8149,8 @@
           "zh-TW": "增加最大生命值 %",
           "zh-CN": "增加最大生命值 %"
         },
-        "value": 5
+        "value": 5,
+        "isSkillRef": false
       }
     ]
   },
@@ -7643,7 +8186,8 @@
           "zh-CN": "攻击时触发机率 (Venom)"
         },
         "min": 25,
-        "max": 15
+        "max": 15,
+        "isSkillRef": true
       },
       {
         "key": "gethit-skill:Fade",
@@ -7653,7 +8197,8 @@
           "zh-CN": "受击时触发机率 (Fade)"
         },
         "min": 5,
-        "max": 15
+        "max": 15,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -7664,7 +8209,8 @@
           "zh-TW": "刺客技能等級",
           "zh-CN": "刺客技能等级"
         },
-        "value": 2
+        "value": 2,
+        "isSkillRef": true
       },
       {
         "key": "swing2",
@@ -7673,7 +8219,8 @@
           "zh-TW": "加快攻擊速度",
           "zh-CN": "加快攻击速度"
         },
-        "value": 45
+        "value": 45,
+        "isSkillRef": false
       }
     ]
   },
@@ -7715,7 +8262,8 @@
           "zh-CN": "加快攻击速度"
         },
         "min": 20,
-        "max": 30
+        "max": 30,
+        "isSkillRef": false
       },
       {
         "key": "dmg%",
@@ -7725,7 +8273,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 300,
-        "max": 350
+        "max": 350,
+        "isSkillRef": false
       },
       {
         "key": "lifesteal",
@@ -7735,7 +8284,8 @@
           "zh-CN": "生命窃取 %"
         },
         "min": 8,
-        "max": 10
+        "max": 10,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -7746,7 +8296,8 @@
           "zh-TW": "技能列加成",
           "zh-CN": "技能列加成"
         },
-        "value": 3
+        "value": 3,
+        "isSkillRef": false
       },
       {
         "key": "hit-skill:Taunt",
@@ -7755,7 +8306,8 @@
           "zh-TW": "攻擊時觸發機率 (Taunt)",
           "zh-CN": "攻击时触发机率 (Taunt)"
         },
-        "value": 18
+        "value": 18,
+        "isSkillRef": true
       },
       {
         "key": "red-dmg",
@@ -7764,7 +8316,8 @@
           "zh-TW": "減少傷害",
           "zh-CN": "减少伤害"
         },
-        "value": 8
+        "value": 8,
+        "isSkillRef": false
       },
       {
         "key": "noheal",
@@ -7773,7 +8326,8 @@
           "zh-TW": "防止怪物治療",
           "zh-CN": "防止怪物治疗"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       }
     ]
   },
@@ -7809,7 +8363,8 @@
           "zh-CN": "充能次数 (毒爆)"
         },
         "min": 27,
-        "max": 15
+        "max": 15,
+        "isSkillRef": true
       },
       {
         "key": "charged:92",
@@ -7819,7 +8374,8 @@
           "zh-CN": "充能次数 (剧毒新星)"
         },
         "min": 11,
-        "max": 13
+        "max": 13,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -7830,7 +8386,8 @@
           "zh-TW": "毒素傷害",
           "zh-CN": "毒素伤害"
         },
-        "value": 312
+        "value": 312,
+        "isSkillRef": false
       },
       {
         "key": "ignore-ac",
@@ -7839,7 +8396,8 @@
           "zh-TW": "無視目標防禦力",
           "zh-CN": "无视目标防御力"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       },
       {
         "key": "manasteal",
@@ -7848,7 +8406,8 @@
           "zh-TW": "魔力竊取 %",
           "zh-CN": "魔力窃取 %"
         },
-        "value": 7
+        "value": 7,
+        "isSkillRef": false
       }
     ]
   },
@@ -7882,7 +8441,8 @@
           "zh-CN": "受击时触发机率 (Ring of Fire)"
         },
         "min": 5,
-        "max": 10
+        "max": 10,
+        "isSkillRef": true
       },
       {
         "key": "hp",
@@ -7892,7 +8452,8 @@
           "zh-CN": "生命值"
         },
         "min": 20,
-        "max": 40
+        "max": 40,
+        "isSkillRef": false
       },
       {
         "key": "mana",
@@ -7902,7 +8463,8 @@
           "zh-CN": "魔力值"
         },
         "min": 20,
-        "max": 40
+        "max": 40,
+        "isSkillRef": false
       },
       {
         "key": "res-all",
@@ -7912,7 +8474,8 @@
           "zh-CN": "全抗性"
         },
         "min": 25,
-        "max": 35
+        "max": 35,
+        "isSkillRef": false
       },
       {
         "key": "ac%",
@@ -7922,7 +8485,8 @@
           "zh-CN": "强化防御力 %"
         },
         "min": 75,
-        "max": 100
+        "max": 100,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -7933,7 +8497,8 @@
           "zh-TW": "加快跑走速度 %",
           "zh-CN": "加快跑走速度 %"
         },
-        "value": 10
+        "value": 10,
+        "isSkillRef": false
       },
       {
         "key": "block2",
@@ -7942,7 +8507,8 @@
           "zh-TW": "加快格擋速度",
           "zh-CN": "加快格挡速度"
         },
-        "value": 30
+        "value": 30,
+        "isSkillRef": false
       }
     ]
   },
@@ -7980,7 +8546,8 @@
           "zh-CN": "对恶魔伤害"
         },
         "min": 220,
-        "max": 350
+        "max": 350,
+        "isSkillRef": false
       },
       {
         "key": "dmg-undead",
@@ -7990,7 +8557,8 @@
           "zh-CN": "对不死系伤害"
         },
         "min": 280,
-        "max": 300
+        "max": 300,
+        "isSkillRef": false
       },
       {
         "key": "dmg-cold",
@@ -8000,7 +8568,8 @@
           "zh-CN": "冷冻伤害"
         },
         "min": 100,
-        "max": 220
+        "max": 220,
+        "isSkillRef": false
       },
       {
         "key": "hit-skill:Ice Blast",
@@ -8010,7 +8579,8 @@
           "zh-CN": "攻击时触发机率 (Ice Blast)"
         },
         "min": 18,
-        "max": 20
+        "max": 20,
+        "isSkillRef": true
       },
       {
         "key": "hit-skill:Frozen Orb",
@@ -8020,7 +8590,8 @@
           "zh-CN": "攻击时触发机率 (Frozen Orb)"
         },
         "min": 15,
-        "max": 13
+        "max": 13,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -8031,7 +8602,8 @@
           "zh-TW": "降低敵方冷凍抗性 %",
           "zh-CN": "降低敌方冷冻抗性 %"
         },
-        "value": 24
+        "value": 24,
+        "isSkillRef": false
       },
       {
         "key": "nofreeze",
@@ -8040,7 +8612,8 @@
           "zh-TW": "不會被冰凍",
           "zh-CN": "不会被冰冻"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       }
     ]
   },
@@ -8076,7 +8649,8 @@
           "zh-CN": "魔法技能伤害 %"
         },
         "min": 10,
-        "max": 15
+        "max": 15,
+        "isSkillRef": false
       },
       {
         "key": "oskill:Abyss",
@@ -8086,7 +8660,8 @@
           "zh-CN": "技能加成 (Abyss)"
         },
         "min": 1,
-        "max": 3
+        "max": 3,
+        "isSkillRef": true
       },
       {
         "key": "all-stats",
@@ -8096,7 +8671,8 @@
           "zh-CN": "全部属性"
         },
         "min": 8,
-        "max": 12
+        "max": 12,
+        "isSkillRef": false
       },
       {
         "key": "charged:Decrepify",
@@ -8106,7 +8682,8 @@
           "zh-CN": "充能次数 (Decrepify)"
         },
         "min": 35,
-        "max": 4
+        "max": 4,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -8117,7 +8694,8 @@
           "zh-TW": "全部技能",
           "zh-CN": "全部技能"
         },
-        "value": 2
+        "value": 2,
+        "isSkillRef": false
       },
       {
         "key": "cast2",
@@ -8126,7 +8704,8 @@
           "zh-TW": "加快施法速度",
           "zh-CN": "加快施法速度"
         },
-        "value": 40
+        "value": 40,
+        "isSkillRef": false
       }
     ]
   },
@@ -8162,7 +8741,8 @@
           "zh-TW": "額外金幣拾取率 %",
           "zh-CN": "额外金币拾取率 %"
         },
-        "value": 250
+        "value": 250,
+        "isSkillRef": false
       },
       {
         "key": "mag%",
@@ -8171,7 +8751,8 @@
           "zh-TW": "額外魔法物品尋獲率 %",
           "zh-CN": "额外魔法物品寻获率 %"
         },
-        "value": 100
+        "value": 100,
+        "isSkillRef": false
       }
     ]
   },
@@ -8205,7 +8786,8 @@
           "zh-TW": "技能列加成",
           "zh-CN": "技能列加成"
         },
-        "value": 3
+        "value": 3,
+        "isSkillRef": false
       },
       {
         "key": "red-mag",
@@ -8214,7 +8796,8 @@
           "zh-TW": "減少魔法傷害",
           "zh-CN": "减少魔法伤害"
         },
-        "value": 4
+        "value": 4,
+        "isSkillRef": false
       },
       {
         "key": "cast2",
@@ -8223,7 +8806,8 @@
           "zh-TW": "加快施法速度",
           "zh-CN": "加快施法速度"
         },
-        "value": 20
+        "value": 20,
+        "isSkillRef": false
       },
       {
         "key": "mana",
@@ -8232,7 +8816,8 @@
           "zh-TW": "魔力值",
           "zh-CN": "魔力值"
         },
-        "value": 13
+        "value": 13,
+        "isSkillRef": false
       },
       {
         "key": "skill:68",
@@ -8241,7 +8826,8 @@
           "zh-TW": "技能加成 (白骨裝甲)",
           "zh-CN": "技能加成 (白骨装甲)"
         },
-        "value": 3
+        "value": 3,
+        "isSkillRef": true
       },
       {
         "key": "skill:84",
@@ -8250,7 +8836,8 @@
           "zh-TW": "技能加成 (骨矛)",
           "zh-CN": "技能加成 (骨矛)"
         },
-        "value": 2
+        "value": 2,
+        "isSkillRef": true
       },
       {
         "key": "skill:69",
@@ -8259,7 +8846,8 @@
           "zh-TW": "技能加成 (支配骷髏)",
           "zh-CN": "技能加成 (支配骷髅)"
         },
-        "value": 4
+        "value": 4,
+        "isSkillRef": true
       }
     ]
   },
@@ -8293,7 +8881,8 @@
           "zh-CN": "强化伤害 %"
         },
         "min": 120,
-        "max": 160
+        "max": 160,
+        "isSkillRef": false
       },
       {
         "key": "hit-skill:Tornado",
@@ -8303,7 +8892,8 @@
           "zh-CN": "攻击时触发机率 (Tornado)"
         },
         "min": 10,
-        "max": 9
+        "max": 9,
+        "isSkillRef": true
       },
       {
         "key": "charged:240",
@@ -8313,7 +8903,8 @@
           "zh-CN": "充能次数 (Twister)"
         },
         "min": 127,
-        "max": 13
+        "max": 13,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -8324,7 +8915,8 @@
           "zh-TW": "加快攻擊速度",
           "zh-CN": "加快攻击速度"
         },
-        "value": 40
+        "value": 40,
+        "isSkillRef": false
       },
       {
         "key": "move2",
@@ -8333,7 +8925,8 @@
           "zh-TW": "加快跑走速度 %",
           "zh-CN": "加快跑走速度 %"
         },
-        "value": 20
+        "value": 20,
+        "isSkillRef": false
       },
       {
         "key": "reduce-ac",
@@ -8342,7 +8935,8 @@
           "zh-TW": "降低目標防禦力 %",
           "zh-CN": "降低目标防御力 %"
         },
-        "value": 50
+        "value": 50,
+        "isSkillRef": false
       },
       {
         "key": "balance2",
@@ -8351,7 +8945,8 @@
           "zh-TW": "加快恢復速度",
           "zh-CN": "加快恢复速度"
         },
-        "value": 15
+        "value": 15,
+        "isSkillRef": false
       }
     ]
   },
@@ -8387,7 +8982,8 @@
           "zh-CN": "魔力窃取 %"
         },
         "min": 4,
-        "max": 8
+        "max": 8,
+        "isSkillRef": false
       },
       {
         "key": "att%",
@@ -8397,7 +8993,8 @@
           "zh-CN": "攻击等级 %"
         },
         "min": 15,
-        "max": 25
+        "max": 25,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -8408,7 +9005,8 @@
           "zh-TW": "穿透攻擊 %",
           "zh-CN": "穿透攻击 %"
         },
-        "value": 33
+        "value": 33,
+        "isSkillRef": false
       },
       {
         "key": "mana-kill",
@@ -8417,7 +9015,8 @@
           "zh-TW": "擊殺後恢復魔力值",
           "zh-CN": "击杀后恢复魔力值"
         },
-        "value": 5
+        "value": 5,
+        "isSkillRef": false
       },
       {
         "key": "nofreeze",
@@ -8426,7 +9025,8 @@
           "zh-TW": "不會被冰凍",
           "zh-CN": "不会被冰冻"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       },
       {
         "key": "enr",
@@ -8435,7 +9035,8 @@
           "zh-TW": "精力",
           "zh-CN": "精力"
         },
-        "value": 10
+        "value": 10,
+        "isSkillRef": false
       }
     ]
   },
@@ -8473,7 +9074,8 @@
           "zh-CN": "对不死系伤害"
         },
         "min": 250,
-        "max": 300
+        "max": 300,
+        "isSkillRef": false
       },
       {
         "key": "dmg-ltng",
@@ -8483,7 +9085,8 @@
           "zh-CN": "闪电伤害"
         },
         "min": 41,
-        "max": 240
+        "max": 240,
+        "isSkillRef": false
       },
       {
         "key": "dmg-mag",
@@ -8493,7 +9096,8 @@
           "zh-CN": "魔法伤害"
         },
         "min": 85,
-        "max": 120
+        "max": 120,
+        "isSkillRef": false
       },
       {
         "key": "hit-skill:Life Tap",
@@ -8503,7 +9107,8 @@
           "zh-CN": "攻击时触发机率 (Life Tap)"
         },
         "min": 5,
-        "max": 10
+        "max": 10,
+        "isSkillRef": true
       },
       {
         "key": "hit-skill:Decrepify",
@@ -8513,7 +9118,8 @@
           "zh-CN": "攻击时触发机率 (Decrepify)"
         },
         "min": 30,
-        "max": 1
+        "max": 1,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -8524,7 +9130,8 @@
           "zh-TW": "對惡魔傷害",
           "zh-CN": "对恶魔伤害"
         },
-        "value": 300
+        "value": 300,
+        "isSkillRef": false
       },
       {
         "key": "nofreeze",
@@ -8533,7 +9140,8 @@
           "zh-TW": "不會被冰凍",
           "zh-CN": "不会被冰冻"
         },
-        "value": 1
+        "value": 1,
+        "isSkillRef": false
       }
     ]
   },
@@ -8567,7 +9175,8 @@
           "zh-CN": "受击时触发机率 (Twister)"
         },
         "min": 7,
-        "max": 1
+        "max": 1,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -8578,7 +9187,8 @@
           "zh-TW": "加快跑走速度 %",
           "zh-CN": "加快跑走速度 %"
         },
-        "value": 25
+        "value": 25,
+        "isSkillRef": false
       },
       {
         "key": "swing2",
@@ -8587,7 +9197,8 @@
           "zh-TW": "加快攻擊速度",
           "zh-CN": "加快攻击速度"
         },
-        "value": 25
+        "value": 25,
+        "isSkillRef": false
       },
       {
         "key": "dmg%",
@@ -8596,7 +9207,8 @@
           "zh-TW": "強化傷害 %",
           "zh-CN": "强化伤害 %"
         },
-        "value": 33
+        "value": 33,
+        "isSkillRef": false
       },
       {
         "key": "att",
@@ -8605,7 +9217,8 @@
           "zh-TW": "攻擊等級",
           "zh-CN": "攻击等级"
         },
-        "value": 66
+        "value": 66,
+        "isSkillRef": false
       },
       {
         "key": "ac",
@@ -8614,7 +9227,8 @@
           "zh-TW": "防禦力",
           "zh-CN": "防御力"
         },
-        "value": 25
+        "value": 25,
+        "isSkillRef": false
       }
     ]
   }

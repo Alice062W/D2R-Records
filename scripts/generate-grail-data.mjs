@@ -294,6 +294,7 @@ function localizedLabelFor(code) {
 const SKILL_REF_PROPS = new Set([
   'skill', 'oskill', 'charged', 'hit-skill', 'gethit-skill',
   'death-skill', 'att-skill', 'levelup-skill', 'aura', 'kill-skill',
+  'ama', 'ass', 'bar', 'dru', 'nec', 'pal', 'sor',
 ]);
 const CODE_ALIASES = { 'Gethit-skill': 'gethit-skill' };
 
@@ -433,8 +434,8 @@ function extractProps(entry, count, prefixes = { code: 'prop', par: 'par', min: 
     const min = entry[`${prefixes.min}${n}`];
     const max = entry[`${prefixes.max}${n}`];
     if (min !== undefined && max !== undefined) {
-      if (min === max) fixed.push({ key, label, value: min });
-      else variable.push({ key, label, min, max });
+      if (min === max) fixed.push({ key, label, value: min, isSkillRef });
+      else variable.push({ key, label, min, max, isSkillRef });
       continue;
     }
     // Some props (level-scaling stats like hp/lvl, dmg/lvl; also sock,
@@ -444,7 +445,7 @@ function extractProps(entry, count, prefixes = { code: 'prop', par: 'par', min: 
     // (Based on Character Level) and Windforce's scaling max damage
     // disappear entirely.
     if (par !== undefined) {
-      fixed.push({ key, label, value: par });
+      fixed.push({ key, label, value: par, isSkillRef });
     }
   }
   return { variable, fixed };
@@ -468,14 +469,14 @@ function extractSetBonuses(entry) {
       const min = entry[`amin${n}${suffix}`];
       const max = entry[`amax${n}${suffix}`];
       if (min !== undefined && max !== undefined) {
-        bonuses.push({ key, label, min, max });
+        bonuses.push({ key, label, min, max, isSkillRef });
         continue;
       }
       // Same par-only case as extractProps (level-scaling bonuses like
       // att/lvl, ac/lvl) — surface as a fixed min===max entry rather than
       // silently dropping the bonus line.
       if (par !== undefined) {
-        bonuses.push({ key, label, min: par, max: par });
+        bonuses.push({ key, label, min: par, max: par, isSkillRef });
       }
     }
   }

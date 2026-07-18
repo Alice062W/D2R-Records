@@ -611,6 +611,36 @@ describe('category-icons.json', () => {
   });
 });
 
+describe('isSkillRef on generated stats', () => {
+  it('marks a known skill-granting unique stat as isSkillRef, and a known plain stat as not', () => {
+    // "Iros Torch" (unique club) — confirmed directly against data/uniques.json
+    // this session: fixedStats include "Necromancer Skill Levels" (a skill-ref
+    // stat) and "Life Steal %"/"Light Radius"/"Energy"/"Mana Regenerated %"
+    // (plain stats); stats (variable) includes "Fire Damage" (plain, 5-9).
+    const irosTorch = uniques.find(u => u.name.en === 'Iros Torch')!;
+    const skillStat = irosTorch.fixedStats.find(f => f.label.en === 'Necromancer Skill Levels')!;
+    expect(skillStat.isSkillRef).toBe(true);
+    const plainFixed = irosTorch.fixedStats.find(f => f.label.en === 'Light Radius')!;
+    expect(plainFixed.isSkillRef).toBe(false);
+    const plainVariable = irosTorch.stats.find(s => s.label.en === 'Fire Damage')!;
+    expect(plainVariable.isSkillRef).toBe(false);
+  });
+
+  it("marks a known skill-granting runeword stat as isSkillRef (Enigma's Teleport charge)", () => {
+    // Confirmed directly against data/runewords-full.json this session: Enigma's
+    // fixedStats include "Skill Bonus (Teleport)" — a skill/oskill/charged-coded
+    // stat (SKILL_REF_PROPS) — alongside plain stats like "Faster Run/Walk %".
+    // "All Skills" is a separate "allskills" code, NOT in SKILL_REF_PROPS (it's a
+    // flat bonus, not a specific-skill reference), so it stays isSkillRef: false —
+    // don't assert it as skill-ref.
+    const enigma = runewordsFull.find(r => r.name.en === 'Enigma')!;
+    const skillStat = enigma.fixedStats.find(f => f.label.en === 'Skill Bonus (Teleport)')!;
+    expect(skillStat.isSkillRef).toBe(true);
+    const plainStat = enigma.fixedStats.find(f => f.label.en === 'Faster Run/Walk %')!;
+    expect(plainStat.isSkillRef).toBe(false);
+  });
+});
+
 describe('magic-affixes.json ancestor-closure category expansion', () => {
   it('expands a weapon-supertype-restricted affix onto every leaf weapon category', () => {
     // Any affix whose only restriction is the bare "weap" supertype code should appear
