@@ -28,4 +28,29 @@ describe('SetGroupDetail', () => {
     expect(screen.getByText(/All Resistances: 50/)).toBeInTheDocument();
     expect(screen.getByText('2')).toBeInTheDocument();
   });
+
+  it('colors full-set bonuses by isSkillRef and variable/fixed status', () => {
+    const piece: GrailItem = {
+      id: 'set-2', code: 'yyy', name: 'Tal Rasha Piece', kind: 'set', setName: 'Tal Rasha',
+      levelReq: 65, baseName: 'Crystal', grade: 'exceptional', slotCategory: 'orb',
+      defense: null, requiredStrength: null, durability: 50, invFile: '',
+      stats: [], fixedStats: [], setBonuses: [], statPriority: [],
+    };
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <SetGroupDetail
+          setName="Tal Rasha"
+          pieces={[piece]}
+          partialBonuses={[{ piecesRequired: 3, stats: [{ key: 'mag%', label: 'Magic Find %', min: 20, max: 40, isSkillRef: false }] }]}
+          fullSetBonuses={[
+            { key: 'sor', label: 'Sorceress Skill Levels', min: 3, max: 3, isSkillRef: true },
+            { key: 'res-all', label: 'All Resistances', min: 50, max: 50, isSkillRef: false },
+          ]}
+        />
+      </NextIntlClientProvider>
+    );
+    expect(screen.getByText(/Sorceress Skill Levels: 3/)).toHaveClass('text-[#ff4a69]');
+    expect(screen.getByText(/All Resistances: 50/)).toHaveClass('text-[#22ff55]');
+    expect(screen.getByText(/Magic Find %: 20–40/)).toHaveClass('text-[#fff818]');
+  });
 });
