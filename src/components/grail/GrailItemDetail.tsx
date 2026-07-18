@@ -66,12 +66,16 @@ export default function GrailItemDetail({
       {(item.stats.length > 0 || item.fixedStats.length > 0) && (
         <div className="mt-4">
           <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('magicProperties')}</h4>
-          <div className="text-sm text-[#8080f3] flex flex-col gap-0.5">
+          <div className="text-sm flex flex-col gap-0.5">
             {item.stats.map(stat => (
-              <div key={stat.key}>{stat.label}: {stat.min}–{stat.max}</div>
+              <div key={stat.key} className={stat.isSkillRef ? 'text-[#ff4a69]' : 'text-[#fff818]'}>
+                {stat.label}: {stat.min}–{stat.max}
+              </div>
             ))}
             {item.fixedStats.map(f => (
-              <div key={f.key}>{f.label}: {f.value}</div>
+              <div key={f.key} className={f.isSkillRef ? 'text-[#ff4a69]' : 'text-[#8080f3]'}>
+                {f.label}: {f.value}
+              </div>
             ))}
           </div>
         </div>
@@ -80,9 +84,14 @@ export default function GrailItemDetail({
       {item.setBonuses.length > 0 && (
         <div className="mt-4">
           <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('setBonusesLabel')}</h4>
-          <div className="text-sm text-[#22ff55] flex flex-col gap-0.5">
+          <div className="text-sm flex flex-col gap-0.5">
             {item.setBonuses.map((b, i) => (
-              <div key={`${b.key}-${i}`}>{b.label}: {b.min === b.max ? b.min : `${b.min}–${b.max}`}</div>
+              <div
+                key={`${b.key}-${i}`}
+                className={b.isSkillRef ? 'text-[#ff4a69]' : b.min === b.max ? 'text-[#22ff55]' : 'text-[#fff818]'}
+              >
+                {b.label}: {b.min === b.max ? b.min : `${b.min}–${b.max}`}
+              </div>
             ))}
           </div>
         </div>

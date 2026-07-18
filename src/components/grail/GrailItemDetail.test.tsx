@@ -42,4 +42,33 @@ describe('GrailItemDetail', () => {
     );
     expect(document.querySelector('img')).toBeNull();
   });
+
+  it('colors stats by variable/fixed status and isSkillRef', () => {
+    const item: GrailItem = {
+      ...baseItem,
+      stats: [
+        { key: 'dmg%', label: 'Enhanced Damage %', min: 60, max: 70, isSkillRef: false },
+        { key: 'skill:1', label: 'Level 1-20 Fireball', min: 1, max: 20, isSkillRef: true },
+      ],
+      fixedStats: [
+        { key: 'str', label: 'Strength', value: 8, isSkillRef: false },
+        { key: 'oskill:2', label: 'Combat Skills', value: 2, isSkillRef: true },
+      ],
+      setBonuses: [
+        { key: 'res-all', label: 'All Resistances', min: 50, max: 50, isSkillRef: false },
+        { key: 'sor', label: 'Sorceress Skill Levels', min: 3, max: 3, isSkillRef: true },
+      ],
+    };
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <GrailItemDetail item={item} finds={[]} />
+      </NextIntlClientProvider>
+    );
+    expect(screen.getByText(/Enhanced Damage %/).closest('div')).toHaveClass('text-[#fff818]');
+    expect(screen.getByText(/Level 1-20 Fireball/).closest('div')).toHaveClass('text-[#ff4a69]');
+    expect(screen.getByText(/Strength/).closest('div')).toHaveClass('text-[#8080f3]');
+    expect(screen.getByText(/Combat Skills/).closest('div')).toHaveClass('text-[#ff4a69]');
+    expect(screen.getByText(/All Resistances/).closest('div')).toHaveClass('text-[#22ff55]');
+    expect(screen.getByText(/Sorceress Skill Levels/).closest('div')).toHaveClass('text-[#ff4a69]');
+  });
 });
