@@ -292,6 +292,12 @@ _Spec: [docs/superpowers/specs/2026-07-18-auras-page-design.md](../docs/superpow
 - [x] Page, component, i18n, and nav entry
 - [x] Full verification + spot-check
 
+### Auras Page Update
+_Spec: [docs/superpowers/specs/2026-07-18-auras-page-update-design.md](../docs/superpowers/specs/2026-07-18-auras-page-update-design.md) · Plan: [plans/auras-page-update-implementation.md](./auras-page-update-implementation.md)_
+
+- [ ] Remove Paladin wording + add per-level radius table
+- [ ] Full verification + spot-check
+
 ## Backlog / Ideas
 
 - Batch appraisal (multiple items at once) — premium feature
