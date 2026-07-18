@@ -18,8 +18,8 @@ describe('SetGroupDetail', () => {
         <SetGroupDetail
           setName="Aldur's Watchtower"
           pieces={[piece]}
-          partialBonuses={[{ piecesRequired: 2, stats: [{ key: 'att%', label: 'Attack Rating %', min: 150, max: 150 }] }]}
-          fullSetBonuses={[{ key: 'res-all', label: 'All Resistances', min: 50, max: 50 }]}
+          partialBonuses={[{ piecesRequired: 2, stats: [{ key: 'att%', label: 'Attack Rating %', min: 150, max: 150, isSkillRef: false }] }]}
+          fullSetBonuses={[{ key: 'res-all', label: 'All Resistances', min: 50, max: 50, isSkillRef: false }]}
         />
       </NextIntlClientProvider>
     );

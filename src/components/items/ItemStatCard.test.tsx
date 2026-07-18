@@ -11,8 +11,8 @@ describe('ItemStatCard', () => {
       id: 'unique-0', code: 'hax', name: 'The Gnasher', kind: 'unique', setName: null,
       levelReq: 5, baseName: 'Hand Axe', grade: 'normal', slotCategory: 'axes',
       defense: null, requiredStrength: null, durability: 28, invFile: 'invhaxu',
-      stats: [{ key: 'dmg%', label: 'Enhanced Damage %', min: 60, max: 70 }],
-      fixedStats: [{ key: 'str', label: 'Strength', value: 8 }],
+      stats: [{ key: 'dmg%', label: 'Enhanced Damage %', min: 60, max: 70, isSkillRef: false }],
+      fixedStats: [{ key: 'str', label: 'Strength', value: 8, isSkillRef: false }],
       setBonuses: [], statPriority: ['dmg%'],
     };
     render(

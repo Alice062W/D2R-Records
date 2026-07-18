@@ -14,12 +14,14 @@ export interface RawGrailStat {
   label: LocalizedText;
   min: number;
   max: number;
+  isSkillRef: boolean;
 }
 
 export interface RawGrailFixedStat {
   key: string;
   label: LocalizedText;
   value: number;
+  isSkillRef: boolean;
 }
 
 export interface RawGrailItem {
@@ -47,12 +49,14 @@ export interface GrailStat {
   label: string;
   min: number;
   max: number;
+  isSkillRef: boolean;
 }
 
 export interface GrailFixedStat {
   key: string;
   label: string;
   value: number;
+  isSkillRef: boolean;
 }
 
 export interface GrailItem {
@@ -96,9 +100,9 @@ export function localizeGrailItem(item: RawGrailItem, locale: Locale): GrailItem
     requiredStrength: item.requiredStrength,
     durability: item.durability,
     invFile: item.invFile,
-    stats: item.stats.map(s => ({ key: s.key, label: s.label[locale], min: s.min, max: s.max })),
-    fixedStats: item.fixedStats.map(f => ({ key: f.key, label: f.label[locale], value: f.value })),
-    setBonuses: item.setBonuses.map(b => ({ key: b.key, label: b.label[locale], min: b.min, max: b.max })),
+    stats: item.stats.map(s => ({ key: s.key, label: s.label[locale], min: s.min, max: s.max, isSkillRef: s.isSkillRef })),
+    fixedStats: item.fixedStats.map(f => ({ key: f.key, label: f.label[locale], value: f.value, isSkillRef: f.isSkillRef })),
+    setBonuses: item.setBonuses.map(b => ({ key: b.key, label: b.label[locale], min: b.min, max: b.max, isSkillRef: b.isSkillRef })),
     statPriority: item.statPriority,
   };
 }

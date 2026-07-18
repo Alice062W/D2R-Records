@@ -30,9 +30,9 @@ export default async function SetGroupPage({
     .map(i => localizeGrailItem(i, loc));
   const partialBonuses = group.partialBonuses.map(p => ({
     piecesRequired: p.piecesRequired,
-    stats: p.stats.map(s => ({ key: s.key, label: s.label[loc], min: s.min, max: s.max })),
+    stats: p.stats.map(s => ({ key: s.key, label: s.label[loc], min: s.min, max: s.max, isSkillRef: s.isSkillRef })),
   }));
-  const fullSetBonuses = group.fullSetBonuses.map(s => ({ key: s.key, label: s.label[loc], min: s.min, max: s.max }));
+  const fullSetBonuses = group.fullSetBonuses.map(s => ({ key: s.key, label: s.label[loc], min: s.min, max: s.max, isSkillRef: s.isSkillRef }));
 
   return (
     <main className="flex flex-col items-center py-10 px-4 gap-6 flex-1 w-full">
