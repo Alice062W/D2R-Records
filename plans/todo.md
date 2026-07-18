@@ -288,9 +288,9 @@ _Spec: [docs/superpowers/specs/2026-07-17-icon-basepath-fix-design.md](../docs/s
 ### Auras Reference Page
 _Spec: [docs/superpowers/specs/2026-07-18-auras-page-design.md](../docs/superpowers/specs/2026-07-18-auras-page-design.md) · Plan: [plans/auras-page-implementation.md](./auras-page-implementation.md)_
 
-- [ ] Assets + data file (20 Paladin auras, icons + visuals from user's own extraction)
-- [ ] Page, component, i18n, and nav entry
-- [ ] Full verification + spot-check
+- [x] Assets + data file (20 Paladin auras, icons + visuals from user's own extraction)
+- [x] Page, component, i18n, and nav entry
+- [x] Full verification + spot-check
 
 ## Backlog / Ideas
 
