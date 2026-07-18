@@ -285,6 +285,13 @@ _Spec: [docs/superpowers/specs/2026-07-17-icon-basepath-fix-design.md](../docs/s
 - [x] BasePath helper + wire into all 10 icon-rendering files
 - [x] Full verification + spot-check — verified in both normal and GitHub Pages build modes
 
+### Auras Reference Page
+_Spec: [docs/superpowers/specs/2026-07-18-auras-page-design.md](../docs/superpowers/specs/2026-07-18-auras-page-design.md) · Plan: [plans/auras-page-implementation.md](./auras-page-implementation.md)_
+
+- [ ] Assets + data file (20 Paladin auras, icons + visuals from user's own extraction)
+- [ ] Page, component, i18n, and nav entry
+- [ ] Full verification + spot-check
+
 ## Backlog / Ideas
 
 - Batch appraisal (multiple items at once) — premium feature
