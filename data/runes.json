@@ -83,7 +83,11 @@
     ],
     "recipe": null,
     "dropRate": {
-      "monster": "The Countess",
+      "monster": {
+        "en": "The Countess",
+        "zh-TW": "女伯爵",
+        "zh-CN": "女伯爵"
+      },
       "difficulty": "normal",
       "percent": 4.3
     }
@@ -154,7 +158,11 @@
       "gemName": null
     },
     "dropRate": {
-      "monster": "The Countess",
+      "monster": {
+        "en": "The Countess",
+        "zh-TW": "女伯爵",
+        "zh-CN": "女伯爵"
+      },
       "difficulty": "normal",
       "percent": 2.87
     }
@@ -214,7 +222,11 @@
       "gemName": null
     },
     "dropRate": {
-      "monster": "The Countess",
+      "monster": {
+        "en": "The Countess",
+        "zh-TW": "女伯爵",
+        "zh-CN": "女伯爵"
+      },
       "difficulty": "normal",
       "percent": 10.75
     }
@@ -274,7 +286,11 @@
       "gemName": null
     },
     "dropRate": {
-      "monster": "The Countess",
+      "monster": {
+        "en": "The Countess",
+        "zh-TW": "女伯爵",
+        "zh-CN": "女伯爵"
+      },
       "difficulty": "normal",
       "percent": 7.17
     }
@@ -334,7 +350,11 @@
       "gemName": null
     },
     "dropRate": {
-      "monster": "The Countess",
+      "monster": {
+        "en": "The Countess",
+        "zh-TW": "女伯爵",
+        "zh-CN": "女伯爵"
+      },
       "difficulty": "normal",
       "percent": 15.05
     }
@@ -394,7 +414,11 @@
       "gemName": null
     },
     "dropRate": {
-      "monster": "The Countess",
+      "monster": {
+        "en": "The Countess",
+        "zh-TW": "女伯爵",
+        "zh-CN": "女伯爵"
+      },
       "difficulty": "normal",
       "percent": 10.03
     }
@@ -454,7 +478,11 @@
       "gemName": null
     },
     "dropRate": {
-      "monster": "The Countess",
+      "monster": {
+        "en": "The Countess",
+        "zh-TW": "女伯爵",
+        "zh-CN": "女伯爵"
+      },
       "difficulty": "normal",
       "percent": 21.5
     }
@@ -514,7 +542,11 @@
       "gemName": null
     },
     "dropRate": {
-      "monster": "The Countess",
+      "monster": {
+        "en": "The Countess",
+        "zh-TW": "女伯爵",
+        "zh-CN": "女伯爵"
+      },
       "difficulty": "normal",
       "percent": 14.33
     }
@@ -574,7 +606,11 @@
       "gemName": null
     },
     "dropRate": {
-      "monster": "The Countess",
+      "monster": {
+        "en": "The Countess",
+        "zh-TW": "女伯爵",
+        "zh-CN": "女伯爵"
+      },
       "difficulty": "nightmare",
       "percent": 21.5
     }
@@ -634,7 +670,11 @@
       "gemName": null
     },
     "dropRate": {
-      "monster": "The Countess",
+      "monster": {
+        "en": "The Countess",
+        "zh-TW": "女伯爵",
+        "zh-CN": "女伯爵"
+      },
       "difficulty": "nightmare",
       "percent": 14.33
     }
@@ -691,10 +731,18 @@
     "recipe": {
       "runeName": "Thul",
       "count": 3,
-      "gemName": "Chipped Topaz"
+      "gemName": {
+        "en": "Chipped Topaz",
+        "zh-TW": "碎裂的黃寶石",
+        "zh-CN": "碎裂的黄宝石"
+      }
     },
     "dropRate": {
-      "monster": "The Countess",
+      "monster": {
+        "en": "The Countess",
+        "zh-TW": "女伯爵",
+        "zh-CN": "女伯爵"
+      },
       "difficulty": "nightmare",
       "percent": 16.61
     }
@@ -751,10 +799,18 @@
     "recipe": {
       "runeName": "Amn",
       "count": 3,
-      "gemName": "Chipped Amethyst"
+      "gemName": {
+        "en": "Chipped Amethyst",
+        "zh-TW": "碎裂的紫寶石",
+        "zh-CN": "碎裂的紫宝石"
+      }
     },
     "dropRate": {
-      "monster": "The Countess",
+      "monster": {
+        "en": "The Countess",
+        "zh-TW": "女伯爵",
+        "zh-CN": "女伯爵"
+      },
       "difficulty": "nightmare",
       "percent": 11.08
     }
@@ -811,10 +867,18 @@
     "recipe": {
       "runeName": "Sol",
       "count": 3,
-      "gemName": "Chipped Sapphire"
+      "gemName": {
+        "en": "Chipped Sapphire",
+        "zh-TW": "碎裂的藍寶石",
+        "zh-CN": "碎裂的蓝宝石"
+      }
     },
     "dropRate": {
-      "monster": "The Countess",
+      "monster": {
+        "en": "The Countess",
+        "zh-TW": "女伯爵",
+        "zh-CN": "女伯爵"
+      },
       "difficulty": "nightmare",
       "percent": 9.97
     }
@@ -871,10 +935,18 @@
     "recipe": {
       "runeName": "Shael",
       "count": 3,
-      "gemName": "Chipped Ruby"
+      "gemName": {
+        "en": "Chipped Ruby",
+        "zh-TW": "碎裂的紅寶石",
+        "zh-CN": "碎裂的红宝石"
+      }
     },
     "dropRate": {
-      "monster": "The Countess",
+      "monster": {
+        "en": "The Countess",
+        "zh-TW": "女伯爵",
+        "zh-CN": "女伯爵"
+      },
       "difficulty": "nightmare",
       "percent": 6.65
     }
@@ -931,10 +1003,18 @@
     "recipe": {
       "runeName": "Dol",
       "count": 3,
-      "gemName": "Chipped Emerald"
+      "gemName": {
+        "en": "Chipped Emerald",
+        "zh-TW": "碎裂的綠寶石",
+        "zh-CN": "碎裂的绿宝石"
+      }
     },
     "dropRate": {
-      "monster": "The Countess",
+      "monster": {
+        "en": "The Countess",
+        "zh-TW": "女伯爵",
+        "zh-CN": "女伯爵"
+      },
       "difficulty": "nightmare",
       "percent": 5.54
     }
@@ -991,10 +1071,18 @@
     "recipe": {
       "runeName": "Hel",
       "count": 3,
-      "gemName": "Chipped Diamond"
+      "gemName": {
+        "en": "Chipped Diamond",
+        "zh-TW": "碎裂的鑽石",
+        "zh-CN": "碎裂的钻石"
+      }
     },
     "dropRate": {
-      "monster": "The Countess",
+      "monster": {
+        "en": "The Countess",
+        "zh-TW": "女伯爵",
+        "zh-CN": "女伯爵"
+      },
       "difficulty": "nightmare",
       "percent": 3.69
     }
@@ -1051,10 +1139,18 @@
     "recipe": {
       "runeName": "Io",
       "count": 3,
-      "gemName": "Flawed Topaz"
+      "gemName": {
+        "en": "Flawed Topaz",
+        "zh-TW": "裂開的黃寶石",
+        "zh-CN": "裂开的黄宝石"
+      }
     },
     "dropRate": {
-      "monster": "The Countess",
+      "monster": {
+        "en": "The Countess",
+        "zh-TW": "女伯爵",
+        "zh-CN": "女伯爵"
+      },
       "difficulty": "hell",
       "percent": 2.92
     }
@@ -1111,10 +1207,18 @@
     "recipe": {
       "runeName": "Lum",
       "count": 3,
-      "gemName": "Flawed Amethyst"
+      "gemName": {
+        "en": "Flawed Amethyst",
+        "zh-TW": "裂開的紫寶石",
+        "zh-CN": "裂开的紫宝石"
+      }
     },
     "dropRate": {
-      "monster": "The Countess",
+      "monster": {
+        "en": "The Countess",
+        "zh-TW": "女伯爵",
+        "zh-CN": "女伯爵"
+      },
       "difficulty": "hell",
       "percent": 1.95
     }
@@ -1171,10 +1275,18 @@
     "recipe": {
       "runeName": "Ko",
       "count": 3,
-      "gemName": "Flawed Sapphire"
+      "gemName": {
+        "en": "Flawed Sapphire",
+        "zh-TW": "裂開的藍寶石",
+        "zh-CN": "裂开的蓝宝石"
+      }
     },
     "dropRate": {
-      "monster": "The Countess",
+      "monster": {
+        "en": "The Countess",
+        "zh-TW": "女伯爵",
+        "zh-CN": "女伯爵"
+      },
       "difficulty": "hell",
       "percent": 1.5
     }
@@ -1231,10 +1343,18 @@
     "recipe": {
       "runeName": "Fal",
       "count": 3,
-      "gemName": "Flawed Ruby"
+      "gemName": {
+        "en": "Flawed Ruby",
+        "zh-TW": "裂開的紅寶石",
+        "zh-CN": "裂开的红宝石"
+      }
     },
     "dropRate": {
-      "monster": "The Countess",
+      "monster": {
+        "en": "The Countess",
+        "zh-TW": "女伯爵",
+        "zh-CN": "女伯爵"
+      },
       "difficulty": "hell",
       "percent": 1
     }
@@ -1302,10 +1422,18 @@
     "recipe": {
       "runeName": "Lem",
       "count": 3,
-      "gemName": "Flawed Emerald"
+      "gemName": {
+        "en": "Flawed Emerald",
+        "zh-TW": "裂開的綠寶石",
+        "zh-CN": "裂开的绿宝石"
+      }
     },
     "dropRate": {
-      "monster": "The Countess",
+      "monster": {
+        "en": "The Countess",
+        "zh-TW": "女伯爵",
+        "zh-CN": "女伯爵"
+      },
       "difficulty": "hell",
       "percent": 0.76
     }
@@ -1362,10 +1490,18 @@
     "recipe": {
       "runeName": "Pul",
       "count": 2,
-      "gemName": "Flawed Diamond"
+      "gemName": {
+        "en": "Flawed Diamond",
+        "zh-TW": "裂開的鑽石",
+        "zh-CN": "裂开的钻石"
+      }
     },
     "dropRate": {
-      "monster": "The Countess",
+      "monster": {
+        "en": "The Countess",
+        "zh-TW": "女伯爵",
+        "zh-CN": "女伯爵"
+      },
       "difficulty": "hell",
       "percent": 0.51
     }
@@ -1422,10 +1558,18 @@
     "recipe": {
       "runeName": "Um",
       "count": 2,
-      "gemName": "Standard Topaz"
+      "gemName": {
+        "en": "Topaz",
+        "zh-TW": "黃寶石",
+        "zh-CN": "黄宝石"
+      }
     },
     "dropRate": {
-      "monster": "The Countess",
+      "monster": {
+        "en": "The Countess",
+        "zh-TW": "女伯爵",
+        "zh-CN": "女伯爵"
+      },
       "difficulty": "hell",
       "percent": 0.52
     }
@@ -1482,10 +1626,18 @@
     "recipe": {
       "runeName": "Mal",
       "count": 2,
-      "gemName": "Standard Amethyst"
+      "gemName": {
+        "en": "Amethyst",
+        "zh-TW": "紫寶石",
+        "zh-CN": "紫宝石"
+      }
     },
     "dropRate": {
-      "monster": "The Countess",
+      "monster": {
+        "en": "The Countess",
+        "zh-TW": "女伯爵",
+        "zh-CN": "女伯爵"
+      },
       "difficulty": "hell",
       "percent": 0.35
     }
@@ -1542,10 +1694,18 @@
     "recipe": {
       "runeName": "Ist",
       "count": 2,
-      "gemName": "Standard Sapphire"
+      "gemName": {
+        "en": "Sapphire",
+        "zh-TW": "藍寶石",
+        "zh-CN": "蓝宝石"
+      }
     },
     "dropRate": {
-      "monster": "Council Member",
+      "monster": {
+        "en": "Council Member",
+        "zh-TW": "議會成員",
+        "zh-CN": "议会成员"
+      },
       "difficulty": "hell",
       "percent": 0.0048
     }
@@ -1602,10 +1762,18 @@
     "recipe": {
       "runeName": "Gul",
       "count": 2,
-      "gemName": "Standard Ruby"
+      "gemName": {
+        "en": "Ruby",
+        "zh-TW": "紅寶石",
+        "zh-CN": "红宝石"
+      }
     },
     "dropRate": {
-      "monster": "Council Member",
+      "monster": {
+        "en": "Council Member",
+        "zh-TW": "議會成員",
+        "zh-CN": "议会成员"
+      },
       "difficulty": "hell",
       "percent": 0.0032
     }
@@ -1662,10 +1830,18 @@
     "recipe": {
       "runeName": "Vex",
       "count": 2,
-      "gemName": "Standard Emerald"
+      "gemName": {
+        "en": "Emerald",
+        "zh-TW": "綠寶石",
+        "zh-CN": "绿宝石"
+      }
     },
     "dropRate": {
-      "monster": "Council Member",
+      "monster": {
+        "en": "Council Member",
+        "zh-TW": "議會成員",
+        "zh-CN": "议会成员"
+      },
       "difficulty": "hell",
       "percent": 0.0033
     }
@@ -1722,10 +1898,18 @@
     "recipe": {
       "runeName": "Ohm",
       "count": 2,
-      "gemName": "Standard Diamond"
+      "gemName": {
+        "en": "Diamond",
+        "zh-TW": "鑽石",
+        "zh-CN": "钻石"
+      }
     },
     "dropRate": {
-      "monster": "Council Member",
+      "monster": {
+        "en": "Council Member",
+        "zh-TW": "議會成員",
+        "zh-CN": "议会成员"
+      },
       "difficulty": "hell",
       "percent": 0.0022
     }
@@ -1782,10 +1966,18 @@
     "recipe": {
       "runeName": "Lo",
       "count": 2,
-      "gemName": "Flawless Topaz"
+      "gemName": {
+        "en": "Flawless Topaz",
+        "zh-TW": "無暇疵的黃寶石",
+        "zh-CN": "无暇疵的黄宝石"
+      }
     },
     "dropRate": {
-      "monster": "Council Member",
+      "monster": {
+        "en": "Council Member",
+        "zh-TW": "議會成員",
+        "zh-CN": "议会成员"
+      },
       "difficulty": "hell",
       "percent": 0.0025
     }
@@ -1842,10 +2034,18 @@
     "recipe": {
       "runeName": "Sur",
       "count": 2,
-      "gemName": "Flawless Amethyst"
+      "gemName": {
+        "en": "Flawless Amethyst",
+        "zh-TW": "無暇疵的紫寶石",
+        "zh-CN": "无暇疵的紫宝石"
+      }
     },
     "dropRate": {
-      "monster": "Council Member",
+      "monster": {
+        "en": "Council Member",
+        "zh-TW": "議會成員",
+        "zh-CN": "议会成员"
+      },
       "difficulty": "hell",
       "percent": 0.0017
     }
@@ -1902,10 +2102,18 @@
     "recipe": {
       "runeName": "Ber",
       "count": 2,
-      "gemName": "Flawless Sapphire"
+      "gemName": {
+        "en": "Flawless Sapphire",
+        "zh-TW": "無暇疵的藍寶石",
+        "zh-CN": "无暇疵的蓝宝石"
+      }
     },
     "dropRate": {
-      "monster": "Council Member",
+      "monster": {
+        "en": "Council Member",
+        "zh-TW": "議會成員",
+        "zh-CN": "议会成员"
+      },
       "difficulty": "hell",
       "percent": 0.0018
     }
@@ -1962,10 +2170,18 @@
     "recipe": {
       "runeName": "Jah",
       "count": 2,
-      "gemName": "Flawless Ruby"
+      "gemName": {
+        "en": "Flawless Ruby",
+        "zh-TW": "無暇疵的紅寶石",
+        "zh-CN": "无暇疵的红宝石"
+      }
     },
     "dropRate": {
-      "monster": "Council Member",
+      "monster": {
+        "en": "Council Member",
+        "zh-TW": "議會成員",
+        "zh-CN": "议会成员"
+      },
       "difficulty": "hell",
       "percent": 0.0012
     }
@@ -2022,10 +2238,18 @@
     "recipe": {
       "runeName": "Cham",
       "count": 2,
-      "gemName": "Flawless Emerald"
+      "gemName": {
+        "en": "Flawless Emerald",
+        "zh-TW": "無暇疵的綠寶石",
+        "zh-CN": "无暇疵的绿宝石"
+      }
     },
     "dropRate": {
-      "monster": "Nihlathak",
+      "monster": {
+        "en": "Nihlathak",
+        "zh-TW": "尼拉塞克",
+        "zh-CN": "尼拉塞克"
+      },
       "difficulty": "hell",
       "percent": 0.00047
     }

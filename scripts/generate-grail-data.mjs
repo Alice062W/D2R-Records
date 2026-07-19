@@ -773,6 +773,43 @@ const RUNE_INVFILE_BY_NAME = Object.fromEntries(
 // itself is out of scope for this task.
 const RUNE_NAME_ALIASES = { Lm: 'Lum' };
 
+// vendor/d2data's chi[] table (a general game-string dump) is missing or
+// wrong for most runeword names — many runeword-name strings just aren't in
+// the vendored client snapshot, and a few resolve to an unrelated "X of Y"
+// grammatical form used elsewhere in the game text. Verified directly against
+// d2r.world's own zh-TW pages this session (fetched both the en-US and zh-TW
+// /info/item/runewords pages, matched entries by their shared #slug anchor,
+// e.g. #enigma -> "謎團" on the zh-TW page) rather than translated by hand.
+// zh-CN is still derived via toZhCn() below, consistent with every other
+// name in this file — d2r.world has no zh-CN edition to cross-check against.
+const RUNEWORD_NAME_OVERRIDES = {
+  "Ancients' Pledge": '先祖之契', Authority: '權威', Beast: '野獸', Black: '黑錘',
+  Bone: '骸骨', Bramble: '刺藤', Brand: '烙印', 'Breath of the Dying': '死亡呼吸',
+  Bulwark: '壁壘', 'Call to Arms': '戰爭召喚', 'Chains of Honor': '榮耀之鍊',
+  Chaos: '混沌', Coven: '巫師會', Cure: '治癒', Death: '死神', Delirium: '精神錯亂',
+  Destruction: '毀滅', Doom: '末日', Dragon: '飛龍', Dream: '夢境', Duress: '強制',
+  Edge: '邊緣', Enigma: '謎團', Enlightenment: '教化', Eternity: '永恆', Exile: '流亡',
+  Faith: '信心', Famine: '饑荒', 'Flickering Flame': '閃爍火焰', Fortitude: '剛毅',
+  Fury: '狂怒', Gloom: '幽暗', Grief: '悔恨', Ground: '接地', 'Hand of Justice': '正義之手',
+  Harmony: '和諧', 'Heart of the Oak': '橡樹之心', Hearth: '火爐', 'Holy Thunder': '神聖雷擊',
+  Honor: '榮耀', Ice: '寒冰', Infinity: '無限', Insight: '靈光', "King's Grace": '王者的慈悲',
+  Kingslayer: '弒王者', 'Last Wish': '最後遺願', Lawbringer: '執法者', Leaf: '葉子',
+  Lionheart: '獅子心', Lore: '知識', Malice: '怨恨', Melody: '旋律', Memory: '記憶',
+  Metamorphosis: '變化', Mist: '迷霧', Mosaic: '嵌飾', Myth: '神話', Nadir: '天底',
+  Oath: '誓約', Obedience: '遵從', Obsession: '執念', Passion: '熱情', Pattern: '圖紋',
+  Peace: '和平', Phoenix: '鳳凰', Plague: '瘟疫', Pride: '驕傲', Principle: '原則',
+  Prudence: '謹慎', Radiance: '光輝', Rain: '降雨', Rhyme: '聲韻', Rift: '裂隙',
+  Ritual: '儀式', Sanctuary: '聖堂', Silence: '寂靜', Smoke: '煙霧', Spirit: '精神',
+  Splendor: '燦爛', Stealth: '隱密', Steel: '鋼鐵', Stone: '石塊', Strength: '力量',
+  Temper: '和緩', Treachery: '背信', 'Unbending Will': '不屈意志', Venom: '劇毒',
+  Vigilance: '戒慎', 'Voice of Reason': '理性之聲', Void: '虛無', Wealth: '財富',
+  White: '蒼白', Wind: '輕風', Wisdom: '智慧', Wrath: '憤怒', Zephyr: '和風',
+};
+function localizedRunewordName(englishName) {
+  const zhTw = RUNEWORD_NAME_OVERRIDES[englishName] ?? chi[englishName] ?? englishName;
+  return { en: englishName, 'zh-TW': zhTw, 'zh-CN': toZhCn(zhTw) };
+}
+
 const runewordsFullOut = Object.entries(runesData)
   .filter(([, v]) => v.complete === 1)
   .map(([name, v]) => {
@@ -781,7 +818,7 @@ const runewordsFullOut = Object.entries(runesData)
     const curated = runewordsCurated.find(r => normalizeRunewordName(r.name) === normalizeRunewordName(name));
     return {
       id: `runeword-${v.Name}`,
-      name: localizedItemName(name),
+      name: localizedRunewordName(name),
       runes: runeNames,
       runeInvFiles: runeNames.map(rn => RUNE_INVFILE_BY_NAME[RUNE_NAME_ALIASES[rn] ?? rn] ?? ''),
       sockets: runeNames.length,
@@ -873,6 +910,19 @@ console.log(`Wrote ${maxSocketsOut.length} max-sockets rows -> data/max-sockets.
 
 const gemsData = JSON.parse(readFileSync(join(VENDOR, 'gems.json'), 'utf8'));
 
+// gems.json is keyed by internal code (e.g. "gcy"), but RUNE_RECIPES below is
+// written against gem display names (e.g. "Chipped Topaz") for readability.
+// Build a name -> code index so recipe gem names can resolve through the same
+// chi[code] localization path item base names use, instead of staying English.
+const GEM_NAME_TO_CODE = Object.fromEntries(
+  Object.values(gemsData).map(g => [g.name, g.code])
+);
+function localizedGemName(englishName) {
+  const code = GEM_NAME_TO_CODE[englishName];
+  if (!code) throw new Error(`No gem code found for gem name "${englishName}"`);
+  return localizedBaseName(code, englishName);
+}
+
 // Order and level requirements verified directly against vendor/d2data/json/gems.json
 // this session (each rune's own `name`/mod fields), not hardcoded from memory.
 const RUNE_ORDER = [
@@ -910,12 +960,12 @@ const RUNE_RECIPES = {
   Lem: { runeName: 'Fal', count: 3, gemName: 'Flawed Ruby' },
   Pul: { runeName: 'Lem', count: 3, gemName: 'Flawed Emerald' },
   Um: { runeName: 'Pul', count: 2, gemName: 'Flawed Diamond' },
-  Mal: { runeName: 'Um', count: 2, gemName: 'Standard Topaz' },
-  Ist: { runeName: 'Mal', count: 2, gemName: 'Standard Amethyst' },
-  Gul: { runeName: 'Ist', count: 2, gemName: 'Standard Sapphire' },
-  Vex: { runeName: 'Gul', count: 2, gemName: 'Standard Ruby' },
-  Ohm: { runeName: 'Vex', count: 2, gemName: 'Standard Emerald' },
-  Lo: { runeName: 'Ohm', count: 2, gemName: 'Standard Diamond' },
+  Mal: { runeName: 'Um', count: 2, gemName: 'Topaz' },
+  Ist: { runeName: 'Mal', count: 2, gemName: 'Amethyst' },
+  Gul: { runeName: 'Ist', count: 2, gemName: 'Sapphire' },
+  Vex: { runeName: 'Gul', count: 2, gemName: 'Ruby' },
+  Ohm: { runeName: 'Vex', count: 2, gemName: 'Emerald' },
+  Lo: { runeName: 'Ohm', count: 2, gemName: 'Diamond' },
   Sur: { runeName: 'Lo', count: 2, gemName: 'Flawless Topaz' },
   Ber: { runeName: 'Sur', count: 2, gemName: 'Flawless Amethyst' },
   Jah: { runeName: 'Ber', count: 2, gemName: 'Flawless Sapphire' },
@@ -1003,6 +1053,7 @@ const runesOut = RUNE_ORDER.map((name, i) => {
   // gems.json has no level-requirement field for runes; that lives on the
   // corresponding items.json entry (matched by rune code, e.g. "r01").
   const itemEntry = Object.values(items).find(v => v.code === entry.code);
+  const rawRecipe = RUNE_RECIPES[name] ?? null;
   return {
     id: `rune-${entry.code}`,
     number: i + 1,
@@ -1012,8 +1063,15 @@ const runesOut = RUNE_ORDER.map((name, i) => {
     weaponStats: runeStatsFor(entry, 'weaponMod'),
     armorHelmStats: runeStatsFor(entry, 'helmMod'),
     shieldStats: runeStatsFor(entry, 'shieldMod'),
-    recipe: RUNE_RECIPES[name] ?? null,
-    dropRate: RUNE_DROP_RATES[name],
+    // runeName is intentionally left as a plain string, not LocalizedText — rune
+    // names are kept in Latin script across all three locales (see rune.name
+    // above: {en, zh-TW, zh-CN} are always identical for runes). gemName does get
+    // a real Chinese translation in-game, so it's localized via localizedGemName.
+    recipe: rawRecipe && { ...rawRecipe, gemName: rawRecipe.gemName ? localizedGemName(rawRecipe.gemName) : null },
+    // monster is a proper name that does have real chi[] entries (Council
+    // Member, Nihlathak, The Countess all resolve), unlike gemName's raw
+    // fallback risk above — localize it the same way item/gem names are.
+    dropRate: { ...RUNE_DROP_RATES[name], monster: localizedItemName(RUNE_DROP_RATES[name].monster) },
   };
 });
 
@@ -1113,6 +1171,32 @@ const CRAFT_FAMILY_BY_ID = {
   96: 'safety', 97: 'safety', 98: 'safety', 99: 'safety',
 };
 
+// Crafted item output names (e.g. "Hit Power Helm") are synthetic labels this
+// script builds from the cube recipe's family + base type, not literal game
+// strings, so chi[] never has them. Verified against d2r.world's zh-TW crafted
+// items page this session (each card shows the Chinese name with the English
+// name in parentheses as a subtitle, e.g. "重擊系手工護身符 (Hit Power Amulet)");
+// d2r.world calls the armor slot "Body Armor" where this project's own name
+// just says "Body" (same item, matched by family + slot, not a different key).
+const CRAFTED_ITEM_NAME_OVERRIDES = {
+  'Blood Amulet': '血腥系手工護身符', 'Blood Belt': '血腥系手工腰帶', 'Blood Body': '血腥系手工護甲',
+  'Blood Boots': '血腥系手工鞋子', 'Blood Gloves': '血腥系手工手套', 'Blood Helm': '血腥系手工頭盔',
+  'Blood Ring': '血腥系手工戒指', 'Blood Shield': '血腥系手工盾牌', 'Blood Weapon': '血腥系手工武器',
+  'Caster Amulet': '施法系手工護身符', 'Caster Belt': '施法系手工腰帶', 'Caster Body': '施法系手工護甲',
+  'Caster Boots': '施法系手工鞋子', 'Caster Gloves': '施法系手工手套', 'Caster Helm': '施法系手工頭盔',
+  'Caster Ring': '施法系手工戒指', 'Caster Shield': '施法系手工盾牌', 'Caster Weapon': '施法系手工武器',
+  'Hit Power Amulet': '重擊系手工護身符', 'Hit Power Belt': '重擊系手工腰帶', 'Hit Power Body': '重擊系手工護甲',
+  'Hit Power Boots': '重擊系手工鞋子', 'Hit Power Gloves': '重擊系手工手套', 'Hit Power Helm': '重擊系手工頭盔',
+  'Hit Power Ring': '重擊系手工戒指', 'Hit Power Shield': '重擊系手工盾牌', 'Hit Power Weapon': '重擊系手工武器',
+  'Safety Amulet': '防護系手工護身符', 'Safety Belt': '防護系手工腰帶', 'Safety Body': '防護系手工護甲',
+  'Safety Boots': '防護系手工鞋子', 'Safety Gloves': '防護系手工手套', 'Safety Helm': '防護系手工頭盔',
+  'Safety Ring': '防護系手工戒指', 'Safety Shield': '防護系手工盾牌', 'Safety Weapon': '防護系手工武器',
+};
+function localizedCraftedItemName(englishName) {
+  const zhTw = CRAFTED_ITEM_NAME_OVERRIDES[englishName] ?? chi[englishName] ?? englishName;
+  return { en: englishName, 'zh-TW': zhTw, 'zh-CN': toZhCn(zhTw) };
+}
+
 const craftedItemsOut = Object.entries(cubeMainData)
   .filter(([id]) => CRAFT_RECIPE_IDS.has(Number(id)))
   .map(([id, v]) => {
@@ -1128,7 +1212,7 @@ const craftedItemsOut = Object.entries(cubeMainData)
     }
     return {
       id: `craft-${id}`,
-      name: localizedItemName(outputName),
+      name: localizedCraftedItemName(outputName),
       family: CRAFT_FAMILY_BY_ID[id],
       magicItemInput: localizedItemName(inputParts[0]),
       magicItemInputIcon: resolveIconFor(rawInputs[0]),

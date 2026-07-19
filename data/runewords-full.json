@@ -3,8 +3,8 @@
     "id": "runeword-Runeword1",
     "name": {
       "en": "Ancients' Pledge",
-      "zh-TW": "Ancients' Pledge",
-      "zh-CN": "Ancients' Pledge"
+      "zh-TW": "先祖之契",
+      "zh-CN": "先祖之契"
     },
     "runes": [
       "Ral",
@@ -70,8 +70,8 @@
     "id": "runeword-Runeword3",
     "name": {
       "en": "Authority",
-      "zh-TW": "Authority",
-      "zh-CN": "Authority"
+      "zh-TW": "權威",
+      "zh-CN": "权威"
     },
     "runes": [
       "Hel",
@@ -141,8 +141,8 @@
     "id": "runeword-Runeword4",
     "name": {
       "en": "Beast",
-      "zh-TW": "野獸之",
-      "zh-CN": "野兽之"
+      "zh-TW": "野獸",
+      "zh-CN": "野兽"
     },
     "runes": [
       "Ber",
@@ -246,8 +246,8 @@
     "id": "runeword-Runeword6",
     "name": {
       "en": "Black",
-      "zh-TW": "黑色之",
-      "zh-CN": "黑色之"
+      "zh-TW": "黑錘",
+      "zh-CN": "黑锤"
     },
     "runes": [
       "Thul",
@@ -335,8 +335,8 @@
     "id": "runeword-Runeword8",
     "name": {
       "en": "Bone",
-      "zh-TW": "白骨之",
-      "zh-CN": "白骨之"
+      "zh-TW": "骸骨",
+      "zh-CN": "骸骨"
     },
     "runes": [
       "Sol",
@@ -406,8 +406,8 @@
     "id": "runeword-Runeword9",
     "name": {
       "en": "Bramble",
-      "zh-TW": "野薔薇之",
-      "zh-CN": "野蔷薇之"
+      "zh-TW": "刺藤",
+      "zh-CN": "刺藤"
     },
     "runes": [
       "Ral",
@@ -509,8 +509,8 @@
     "id": "runeword-Runeword10",
     "name": {
       "en": "Brand",
-      "zh-TW": "Brand",
-      "zh-CN": "Brand"
+      "zh-TW": "烙印",
+      "zh-CN": "烙印"
     },
     "runes": [
       "Jah",
@@ -613,8 +613,8 @@
     "id": "runeword-Runeword11",
     "name": {
       "en": "Breath of the Dying",
-      "zh-TW": "Breath of the Dying",
-      "zh-CN": "Breath of the Dying"
+      "zh-TW": "死亡呼吸",
+      "zh-CN": "死亡呼吸"
     },
     "runes": [
       "Vex",
@@ -720,8 +720,8 @@
     "id": "runeword-Runeword179",
     "name": {
       "en": "Bulwark",
-      "zh-TW": "Bulwark",
-      "zh-CN": "Bulwark"
+      "zh-TW": "壁壘",
+      "zh-CN": "壁垒"
     },
     "runes": [
       "Shael",
@@ -801,8 +801,8 @@
     "id": "runeword-Runeword13",
     "name": {
       "en": "Call to Arms",
-      "zh-TW": "Call to Arms",
-      "zh-CN": "Call to Arms"
+      "zh-TW": "戰爭召喚",
+      "zh-CN": "战争召唤"
     },
     "runes": [
       "Amn",
@@ -907,8 +907,8 @@
     "id": "runeword-Runeword14",
     "name": {
       "en": "Chains of Honor",
-      "zh-TW": "Chains of Honor",
-      "zh-CN": "Chains of Honor"
+      "zh-TW": "榮耀之鍊",
+      "zh-CN": "荣耀之炼"
     },
     "runes": [
       "Dol",
@@ -1006,8 +1006,8 @@
     "id": "runeword-Runeword16",
     "name": {
       "en": "Chaos",
-      "zh-TW": "混沌之",
-      "zh-CN": "混沌之"
+      "zh-TW": "混沌",
+      "zh-CN": "混沌"
     },
     "runes": [
       "Fal",
@@ -1108,8 +1108,8 @@
     "id": "runeword-Runeword180",
     "name": {
       "en": "Coven",
-      "zh-TW": "Coven",
-      "zh-CN": "Coven"
+      "zh-TW": "巫師會",
+      "zh-CN": "巫师会"
     },
     "runes": [
       "Ist",
@@ -1303,8 +1303,8 @@
     "id": "runeword-Runeword178",
     "name": {
       "en": "Cure",
-      "zh-TW": "Cure",
-      "zh-CN": "Cure"
+      "zh-TW": "治癒",
+      "zh-CN": "治愈"
     },
     "runes": [
       "Shael",
@@ -1383,8 +1383,8 @@
     "id": "runeword-Runeword20",
     "name": {
       "en": "Death",
-      "zh-TW": "死亡之",
-      "zh-CN": "死亡之"
+      "zh-TW": "死神",
+      "zh-CN": "死神"
     },
     "runes": [
       "Hel",
@@ -1489,8 +1489,8 @@
     "id": "runeword-Runeword22",
     "name": {
       "en": "Delirium",
-      "zh-TW": "Delirium",
-      "zh-CN": "Delirium"
+      "zh-TW": "精神錯亂",
+      "zh-CN": "精神错乱"
     },
     "runes": [
       "Lem",
@@ -1592,8 +1592,8 @@
     "id": "runeword-Runeword25",
     "name": {
       "en": "Destruction",
-      "zh-TW": "Destruction",
-      "zh-CN": "Destruction"
+      "zh-TW": "毀滅",
+      "zh-CN": "毁灭"
     },
     "runes": [
       "Vex",
@@ -1699,8 +1699,8 @@
     "id": "runeword-Runeword26",
     "name": {
       "en": "Doom",
-      "zh-TW": "毀滅之",
-      "zh-CN": "毁灭之"
+      "zh-TW": "末日",
+      "zh-CN": "末日"
     },
     "runes": [
       "Hel",
@@ -1804,8 +1804,8 @@
     "id": "runeword-Runeword27",
     "name": {
       "en": "Dragon",
-      "zh-TW": "龍之",
-      "zh-CN": "龙之"
+      "zh-TW": "飛龍",
+      "zh-CN": "飞龙"
     },
     "runes": [
       "Sur",
@@ -1905,8 +1905,8 @@
     "id": "runeword-Runeword29",
     "name": {
       "en": "Dream",
-      "zh-TW": "Dream",
-      "zh-CN": "Dream"
+      "zh-TW": "夢境",
+      "zh-CN": "梦境"
     },
     "runes": [
       "Io",
@@ -2008,8 +2008,8 @@
     "id": "runeword-Runeword30",
     "name": {
       "en": "Duress",
-      "zh-TW": "Duress",
-      "zh-CN": "Duress"
+      "zh-TW": "強制",
+      "zh-CN": "强制"
     },
     "runes": [
       "Shael",
@@ -2109,8 +2109,8 @@
     "id": "runeword-Runeword31",
     "name": {
       "en": "Edge",
-      "zh-TW": "Edge",
-      "zh-CN": "Edge"
+      "zh-TW": "邊緣",
+      "zh-CN": "边缘"
     },
     "runes": [
       "Tir",
@@ -2209,8 +2209,8 @@
     "id": "runeword-Runeword33",
     "name": {
       "en": "Enigma",
-      "zh-TW": "Enigma",
-      "zh-CN": "Enigma"
+      "zh-TW": "謎團",
+      "zh-CN": "谜团"
     },
     "runes": [
       "Jah",
@@ -2308,8 +2308,8 @@
     "id": "runeword-Runeword34",
     "name": {
       "en": "Enlightenment",
-      "zh-TW": "Enlightenment",
-      "zh-CN": "Enlightenment"
+      "zh-TW": "教化",
+      "zh-CN": "教化"
     },
     "runes": [
       "Pul",
@@ -2378,8 +2378,8 @@
     "id": "runeword-Runeword36",
     "name": {
       "en": "Eternity",
-      "zh-TW": "Eternity",
-      "zh-CN": "Eternity"
+      "zh-TW": "永恆",
+      "zh-CN": "永恒"
     },
     "runes": [
       "Amn",
@@ -2482,8 +2482,8 @@
     "id": "runeword-Runeword37",
     "name": {
       "en": "Exile",
-      "zh-TW": "Exile",
-      "zh-CN": "Exile"
+      "zh-TW": "流亡",
+      "zh-CN": "流亡"
     },
     "runes": [
       "Vex",
@@ -2585,8 +2585,8 @@
     "id": "runeword-Runeword38",
     "name": {
       "en": "Faith",
-      "zh-TW": "Faith",
-      "zh-CN": "Faith"
+      "zh-TW": "信心",
+      "zh-CN": "信心"
     },
     "runes": [
       "Ohm",
@@ -2687,8 +2687,8 @@
     "id": "runeword-Runeword39",
     "name": {
       "en": "Famine",
-      "zh-TW": "Famine",
-      "zh-CN": "Famine"
+      "zh-TW": "饑荒",
+      "zh-CN": "饥荒"
     },
     "runes": [
       "Fal",
@@ -2780,8 +2780,8 @@
     "id": "runeword-Runeword40",
     "name": {
       "en": "Flickering Flame",
-      "zh-TW": "Flickering Flame",
-      "zh-CN": "Flickering Flame"
+      "zh-TW": "閃爍火焰",
+      "zh-CN": "闪烁火焰"
     },
     "runes": [
       "Nef",
@@ -2871,8 +2871,8 @@
     "id": "runeword-Runeword41",
     "name": {
       "en": "Fortitude",
-      "zh-TW": "Fortitude",
-      "zh-CN": "Fortitude"
+      "zh-TW": "剛毅",
+      "zh-CN": "刚毅"
     },
     "runes": [
       "El",
@@ -2974,8 +2974,8 @@
     "id": "runeword-Runeword44",
     "name": {
       "en": "Fury",
-      "zh-TW": "Fury",
-      "zh-CN": "Fury"
+      "zh-TW": "狂怒",
+      "zh-CN": "狂怒"
     },
     "runes": [
       "Jah",
@@ -3071,8 +3071,8 @@
     "id": "runeword-Runeword45",
     "name": {
       "en": "Gloom",
-      "zh-TW": "Gloom",
-      "zh-CN": "Gloom"
+      "zh-TW": "幽暗",
+      "zh-CN": "幽暗"
     },
     "runes": [
       "Fal",
@@ -3171,8 +3171,8 @@
     "id": "runeword-Runeword47",
     "name": {
       "en": "Grief",
-      "zh-TW": "Grief",
-      "zh-CN": "Grief"
+      "zh-TW": "悔恨",
+      "zh-CN": "悔恨"
     },
     "runes": [
       "Eth",
@@ -3278,8 +3278,8 @@
     "id": "runeword-Runeword175",
     "name": {
       "en": "Ground",
-      "zh-TW": "Ground",
-      "zh-CN": "Ground"
+      "zh-TW": "接地",
+      "zh-CN": "接地"
     },
     "runes": [
       "Shael",
@@ -3349,8 +3349,8 @@
     "id": "runeword-Runeword48",
     "name": {
       "en": "Hand of Justice",
-      "zh-TW": "Hand of Justice",
-      "zh-CN": "Hand of Justice"
+      "zh-TW": "正義之手",
+      "zh-CN": "正义之手"
     },
     "runes": [
       "Sur",
@@ -3452,8 +3452,8 @@
     "id": "runeword-Runeword49",
     "name": {
       "en": "Harmony",
-      "zh-TW": "Harmony",
-      "zh-CN": "Harmony"
+      "zh-TW": "和諧",
+      "zh-CN": "和谐"
     },
     "runes": [
       "Tir",
@@ -3556,8 +3556,8 @@
     "id": "runeword-Runeword51",
     "name": {
       "en": "Heart of the Oak",
-      "zh-TW": "Heart of the Oak",
-      "zh-CN": "Heart of the Oak"
+      "zh-TW": "橡樹之心",
+      "zh-CN": "橡树之心"
     },
     "runes": [
       "Ko",
@@ -3659,8 +3659,8 @@
     "id": "runeword-Runeword177",
     "name": {
       "en": "Hearth",
-      "zh-TW": "Hearth",
-      "zh-CN": "Hearth"
+      "zh-TW": "火爐",
+      "zh-CN": "火炉"
     },
     "runes": [
       "Shael",
@@ -3740,8 +3740,8 @@
     "id": "runeword-Runeword54",
     "name": {
       "en": "Holy Thunder",
-      "zh-TW": "Holy Thunder",
-      "zh-CN": "Holy Thunder"
+      "zh-TW": "神聖雷擊",
+      "zh-CN": "神圣雷击"
     },
     "runes": [
       "Eth",
@@ -3842,8 +3842,8 @@
     "id": "runeword-Runeword55",
     "name": {
       "en": "Honor",
-      "zh-TW": "Honor",
-      "zh-CN": "Honor"
+      "zh-TW": "榮耀",
+      "zh-CN": "荣耀"
     },
     "runes": [
       "Amn",
@@ -4080,8 +4080,8 @@
     "id": "runeword-Runeword59",
     "name": {
       "en": "Ice",
-      "zh-TW": "Ice",
-      "zh-CN": "Ice"
+      "zh-TW": "寒冰",
+      "zh-CN": "寒冰"
     },
     "runes": [
       "Amn",
@@ -4184,8 +4184,8 @@
     "id": "runeword-Runeword60",
     "name": {
       "en": "Infinity",
-      "zh-TW": "Infinity",
-      "zh-CN": "Infinity"
+      "zh-TW": "無限",
+      "zh-CN": "无限"
     },
     "runes": [
       "Ber",
@@ -4288,8 +4288,8 @@
     "id": "runeword-Runeword62",
     "name": {
       "en": "Insight",
-      "zh-TW": "Insight",
-      "zh-CN": "Insight"
+      "zh-TW": "靈光",
+      "zh-CN": "灵光"
     },
     "runes": [
       "Ral",
@@ -4392,8 +4392,8 @@
     "id": "runeword-Runeword65",
     "name": {
       "en": "King's Grace",
-      "zh-TW": "King's Grace",
-      "zh-CN": "King's Grace"
+      "zh-TW": "王者的慈悲",
+      "zh-CN": "王者的慈悲"
     },
     "runes": [
       "Amn",
@@ -4479,8 +4479,8 @@
     "id": "runeword-Runeword66",
     "name": {
       "en": "Kingslayer",
-      "zh-TW": "Kingslayer",
-      "zh-CN": "Kingslayer"
+      "zh-TW": "弒王者",
+      "zh-CN": "弑王者"
     },
     "runes": [
       "Mal",
@@ -4580,8 +4580,8 @@
     "id": "runeword-Runeword69",
     "name": {
       "en": "Last Wish",
-      "zh-TW": "Last Wish",
-      "zh-CN": "Last Wish"
+      "zh-TW": "最後遺願",
+      "zh-CN": "最后遗愿"
     },
     "runes": [
       "Jah",
@@ -4688,8 +4688,8 @@
     "id": "runeword-Runeword71",
     "name": {
       "en": "Lawbringer",
-      "zh-TW": "Lawbringer",
-      "zh-CN": "Lawbringer"
+      "zh-TW": "執法者",
+      "zh-CN": "执法者"
     },
     "runes": [
       "Amn",
@@ -4791,8 +4791,8 @@
     "id": "runeword-Runeword72",
     "name": {
       "en": "Leaf",
-      "zh-TW": "Leaf",
-      "zh-CN": "Leaf"
+      "zh-TW": "葉子",
+      "zh-CN": "叶子"
     },
     "runes": [
       "Tir",
@@ -4876,8 +4876,8 @@
     "id": "runeword-Runeword74",
     "name": {
       "en": "Lionheart",
-      "zh-TW": "Lionheart",
-      "zh-CN": "Lionheart"
+      "zh-TW": "獅子心",
+      "zh-CN": "狮子心"
     },
     "runes": [
       "Hel",
@@ -4963,8 +4963,8 @@
     "id": "runeword-Runeword75",
     "name": {
       "en": "Lore",
-      "zh-TW": "Lore",
-      "zh-CN": "Lore"
+      "zh-TW": "知識",
+      "zh-CN": "知识"
     },
     "runes": [
       "Ort",
@@ -5028,8 +5028,8 @@
     "id": "runeword-Runeword81",
     "name": {
       "en": "Malice",
-      "zh-TW": "Malice",
-      "zh-CN": "Malice"
+      "zh-TW": "怨恨",
+      "zh-CN": "怨恨"
     },
     "runes": [
       "Ith",
@@ -5115,8 +5115,8 @@
     "id": "runeword-Runeword82",
     "name": {
       "en": "Melody",
-      "zh-TW": "Melody",
-      "zh-CN": "Melody"
+      "zh-TW": "旋律",
+      "zh-CN": "旋律"
     },
     "runes": [
       "Shael",
@@ -5202,8 +5202,8 @@
     "id": "runeword-Runeword83",
     "name": {
       "en": "Memory",
-      "zh-TW": "Memory",
-      "zh-CN": "Memory"
+      "zh-TW": "記憶",
+      "zh-CN": "记忆"
     },
     "runes": [
       "Lum",
@@ -5301,8 +5301,8 @@
     "id": "runeword-Runeword174",
     "name": {
       "en": "Metamorphosis",
-      "zh-TW": "Metamorphosis",
-      "zh-CN": "Metamorphosis"
+      "zh-TW": "變化",
+      "zh-CN": "变化"
     },
     "runes": [
       "Io",
@@ -5392,8 +5392,8 @@
     "id": "runeword-Runeword84",
     "name": {
       "en": "Mist",
-      "zh-TW": "Mist",
-      "zh-CN": "Mist"
+      "zh-TW": "迷霧",
+      "zh-CN": "迷雾"
     },
     "runes": [
       "Cham",
@@ -5486,8 +5486,8 @@
     "id": "runeword-Runeword173",
     "name": {
       "en": "Mosaic",
-      "zh-TW": "Mosaic",
-      "zh-CN": "Mosaic"
+      "zh-TW": "嵌飾",
+      "zh-CN": "嵌饰"
     },
     "runes": [
       "Mal",
@@ -5588,8 +5588,8 @@
     "id": "runeword-Runeword87",
     "name": {
       "en": "Myth",
-      "zh-TW": "Myth",
-      "zh-CN": "Myth"
+      "zh-TW": "神話",
+      "zh-CN": "神话"
     },
     "runes": [
       "Hel",
@@ -5658,8 +5658,8 @@
     "id": "runeword-Runeword88",
     "name": {
       "en": "Nadir",
-      "zh-TW": "Nadir",
-      "zh-CN": "Nadir"
+      "zh-TW": "天底",
+      "zh-CN": "天底"
     },
     "runes": [
       "Nef",
@@ -5745,8 +5745,8 @@
     "id": "runeword-Runeword91",
     "name": {
       "en": "Oath",
-      "zh-TW": "Oath",
-      "zh-CN": "Oath"
+      "zh-TW": "誓約",
+      "zh-CN": "誓约"
     },
     "runes": [
       "Shael",
@@ -5850,8 +5850,8 @@
     "id": "runeword-Runeword92",
     "name": {
       "en": "Obedience",
-      "zh-TW": "Obedience",
-      "zh-CN": "Obedience"
+      "zh-TW": "遵從",
+      "zh-CN": "遵从"
     },
     "runes": [
       "Hel",
@@ -5955,8 +5955,8 @@
     "id": "runeword-Runeword94",
     "name": {
       "en": "Obsession",
-      "zh-TW": "Obsession",
-      "zh-CN": "Obsession"
+      "zh-TW": "執念",
+      "zh-CN": "执念"
     },
     "runes": [
       "Zod",
@@ -6063,8 +6063,8 @@
     "id": "runeword-Runeword95",
     "name": {
       "en": "Passion",
-      "zh-TW": "Passion",
-      "zh-CN": "Passion"
+      "zh-TW": "熱情",
+      "zh-CN": "热情"
     },
     "runes": [
       "Dol",
@@ -6166,8 +6166,8 @@
     "id": "runeword-Runeword97",
     "name": {
       "en": "Pattern",
-      "zh-TW": "Pattern",
-      "zh-CN": "Pattern"
+      "zh-TW": "圖紋",
+      "zh-CN": "图纹"
     },
     "runes": [
       "Tal",
@@ -6266,8 +6266,8 @@
     "id": "runeword-Runeword98",
     "name": {
       "en": "Peace",
-      "zh-TW": "Peace",
-      "zh-CN": "Peace"
+      "zh-TW": "和平",
+      "zh-CN": "和平"
     },
     "runes": [
       "Shael",
@@ -6336,8 +6336,8 @@
     "id": "runeword-Runeword103",
     "name": {
       "en": "Phoenix",
-      "zh-TW": "Phoenix",
-      "zh-CN": "Phoenix"
+      "zh-TW": "鳳凰",
+      "zh-CN": "凤凰"
     },
     "runes": [
       "Vex",
@@ -6442,8 +6442,8 @@
     "id": "runeword-Runeword106",
     "name": {
       "en": "Plague",
-      "zh-TW": "瘟疫之",
-      "zh-CN": "瘟疫之"
+      "zh-TW": "瘟疫",
+      "zh-CN": "瘟疫"
     },
     "runes": [
       "Cham",
@@ -6545,8 +6545,8 @@
     "id": "runeword-Runeword109",
     "name": {
       "en": "Pride",
-      "zh-TW": "Pride",
-      "zh-CN": "Pride"
+      "zh-TW": "驕傲",
+      "zh-CN": "骄傲"
     },
     "runes": [
       "Cham",
@@ -6649,8 +6649,8 @@
     "id": "runeword-Runeword110",
     "name": {
       "en": "Principle",
-      "zh-TW": "Principle",
-      "zh-CN": "Principle"
+      "zh-TW": "原則",
+      "zh-CN": "原则"
     },
     "runes": [
       "Ral",
@@ -6719,8 +6719,8 @@
     "id": "runeword-Runeword112",
     "name": {
       "en": "Prudence",
-      "zh-TW": "Prudence",
-      "zh-CN": "Prudence"
+      "zh-TW": "謹慎",
+      "zh-CN": "谨慎"
     },
     "runes": [
       "Mal",
@@ -6817,8 +6817,8 @@
     "id": "runeword-Runeword116",
     "name": {
       "en": "Radiance",
-      "zh-TW": "Radiance",
-      "zh-CN": "Radiance"
+      "zh-TW": "光輝",
+      "zh-CN": "光辉"
     },
     "runes": [
       "Nef",
@@ -6904,8 +6904,8 @@
     "id": "runeword-Runeword117",
     "name": {
       "en": "Rain",
-      "zh-TW": "Rain",
-      "zh-CN": "Rain"
+      "zh-TW": "降雨",
+      "zh-CN": "降雨"
     },
     "runes": [
       "Ort",
@@ -6975,8 +6975,8 @@
     "id": "runeword-Runeword120",
     "name": {
       "en": "Rhyme",
-      "zh-TW": "Rhyme",
-      "zh-CN": "Rhyme"
+      "zh-TW": "聲韻",
+      "zh-CN": "声韵"
     },
     "runes": [
       "Shael",
@@ -7060,8 +7060,8 @@
     "id": "runeword-Runeword121",
     "name": {
       "en": "Rift",
-      "zh-TW": "破開之",
-      "zh-CN": "破开之"
+      "zh-TW": "裂隙",
+      "zh-CN": "裂隙"
     },
     "runes": [
       "Hel",
@@ -7166,8 +7166,8 @@
     "id": "runeword-Runeword182",
     "name": {
       "en": "Ritual",
-      "zh-TW": "Ritual",
-      "zh-CN": "Ritual"
+      "zh-TW": "儀式",
+      "zh-CN": "仪式"
     },
     "runes": [
       "Amn",
@@ -7269,8 +7269,8 @@
     "id": "runeword-Runeword122",
     "name": {
       "en": "Sanctuary",
-      "zh-TW": "Sanctuary",
-      "zh-CN": "Sanctuary"
+      "zh-TW": "聖堂",
+      "zh-CN": "圣堂"
     },
     "runes": [
       "Ko",
@@ -7370,8 +7370,8 @@
     "id": "runeword-Runeword126",
     "name": {
       "en": "Silence",
-      "zh-TW": "Silence",
-      "zh-CN": "Silence"
+      "zh-TW": "寂靜",
+      "zh-CN": "寂静"
     },
     "runes": [
       "Dol",
@@ -7473,8 +7473,8 @@
     "id": "runeword-Runeword128",
     "name": {
       "en": "Smoke",
-      "zh-TW": "Smoke",
-      "zh-CN": "Smoke"
+      "zh-TW": "煙霧",
+      "zh-CN": "烟雾"
     },
     "runes": [
       "Nef",
@@ -7560,8 +7560,8 @@
     "id": "runeword-Runeword130",
     "name": {
       "en": "Spirit",
-      "zh-TW": "精神之",
-      "zh-CN": "精神之"
+      "zh-TW": "精神",
+      "zh-CN": "精神"
     },
     "runes": [
       "Tal",
@@ -7663,8 +7663,8 @@
     "id": "runeword-Runeword131",
     "name": {
       "en": "Splendor",
-      "zh-TW": "Splendor",
-      "zh-CN": "Splendor"
+      "zh-TW": "燦爛",
+      "zh-CN": "灿烂"
     },
     "runes": [
       "Eth",
@@ -7760,8 +7760,8 @@
     "id": "runeword-Runeword133",
     "name": {
       "en": "Stealth",
-      "zh-TW": "Stealth",
-      "zh-CN": "Stealth"
+      "zh-TW": "隱密",
+      "zh-CN": "隐密"
     },
     "runes": [
       "Tal",
@@ -7845,8 +7845,8 @@
     "id": "runeword-Runeword134",
     "name": {
       "en": "Steel",
-      "zh-TW": "鋼之",
-      "zh-CN": "钢之"
+      "zh-TW": "鋼鐵",
+      "zh-CN": "钢铁"
     },
     "runes": [
       "Tir",
@@ -7920,8 +7920,8 @@
     "id": "runeword-Runeword137",
     "name": {
       "en": "Stone",
-      "zh-TW": "石塊之",
-      "zh-CN": "石块之"
+      "zh-TW": "石塊",
+      "zh-CN": "石块"
     },
     "runes": [
       "Shael",
@@ -8022,8 +8022,8 @@
     "id": "runeword-Runeword139",
     "name": {
       "en": "Strength",
-      "zh-TW": "Strength",
-      "zh-CN": "Strength"
+      "zh-TW": "力量",
+      "zh-CN": "力量"
     },
     "runes": [
       "Amn",
@@ -8087,8 +8087,8 @@
     "id": "runeword-Runeword176",
     "name": {
       "en": "Temper",
-      "zh-TW": "Temper",
-      "zh-CN": "Temper"
+      "zh-TW": "和緩",
+      "zh-CN": "和缓"
     },
     "runes": [
       "Shael",
@@ -8158,8 +8158,8 @@
     "id": "runeword-Runeword148",
     "name": {
       "en": "Treachery",
-      "zh-TW": "Treachery",
-      "zh-CN": "Treachery"
+      "zh-TW": "背信",
+      "zh-CN": "背信"
     },
     "runes": [
       "Shael",
@@ -8228,8 +8228,8 @@
     "id": "runeword-Runeword151",
     "name": {
       "en": "Unbending Will",
-      "zh-TW": "Unbending Will",
-      "zh-CN": "Unbending Will"
+      "zh-TW": "不屈意志",
+      "zh-CN": "不屈意志"
     },
     "runes": [
       "Fal",
@@ -8335,8 +8335,8 @@
     "id": "runeword-Runeword154",
     "name": {
       "en": "Venom",
-      "zh-TW": "Venom",
-      "zh-CN": "Venom"
+      "zh-TW": "劇毒",
+      "zh-CN": "剧毒"
     },
     "runes": [
       "Tal",
@@ -8415,8 +8415,8 @@
     "id": "runeword-Runeword181",
     "name": {
       "en": "Vigilance",
-      "zh-TW": "Vigilance",
-      "zh-CN": "Vigilance"
+      "zh-TW": "戒慎",
+      "zh-CN": "戒慎"
     },
     "runes": [
       "Dol",
@@ -8516,8 +8516,8 @@
     "id": "runeword-Runeword99",
     "name": {
       "en": "Voice of Reason",
-      "zh-TW": "Voice of Reason",
-      "zh-CN": "Voice of Reason"
+      "zh-TW": "理性之聲",
+      "zh-CN": "理性之声"
     },
     "runes": [
       "Lem",
@@ -8621,8 +8621,8 @@
     "id": "runeword-Runeword157",
     "name": {
       "en": "Void",
-      "zh-TW": "Void",
-      "zh-CN": "Void"
+      "zh-TW": "虛無",
+      "zh-CN": "虚无"
     },
     "runes": [
       "Thul",
@@ -8713,8 +8713,8 @@
     "id": "runeword-Runeword160",
     "name": {
       "en": "Wealth",
-      "zh-TW": "Wealth",
-      "zh-CN": "Wealth"
+      "zh-TW": "財富",
+      "zh-CN": "财富"
     },
     "runes": [
       "Lm",
@@ -8760,8 +8760,8 @@
     "id": "runeword-Runeword162",
     "name": {
       "en": "White",
-      "zh-TW": "White",
-      "zh-CN": "White"
+      "zh-TW": "蒼白",
+      "zh-CN": "苍白"
     },
     "runes": [
       "Dol",
@@ -8855,8 +8855,8 @@
     "id": "runeword-Runeword163",
     "name": {
       "en": "Wind",
-      "zh-TW": "風之",
-      "zh-CN": "风之"
+      "zh-TW": "輕風",
+      "zh-CN": "轻风"
     },
     "runes": [
       "Sur",
@@ -8954,8 +8954,8 @@
     "id": "runeword-Runeword165",
     "name": {
       "en": "Wisdom",
-      "zh-TW": "Wisdom",
-      "zh-CN": "Wisdom"
+      "zh-TW": "智慧",
+      "zh-CN": "智慧"
     },
     "runes": [
       "Pul",
@@ -9044,8 +9044,8 @@
     "id": "runeword-Runeword168",
     "name": {
       "en": "Wrath",
-      "zh-TW": "忿怒之",
-      "zh-CN": "忿怒之"
+      "zh-TW": "憤怒",
+      "zh-CN": "愤怒"
     },
     "runes": [
       "Pul",
@@ -9149,8 +9149,8 @@
     "id": "runeword-Runeword170",
     "name": {
       "en": "Zephyr",
-      "zh-TW": "Zephyr",
-      "zh-CN": "Zephyr"
+      "zh-TW": "和風",
+      "zh-CN": "和风"
     },
     "runes": [
       "Ort",

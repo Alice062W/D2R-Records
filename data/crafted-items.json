@@ -3,8 +3,8 @@
     "id": "craft-64",
     "name": {
       "en": "Hit Power Helm",
-      "zh-TW": "Hit Power Helm",
-      "zh-CN": "Hit Power Helm"
+      "zh-TW": "重擊系手工頭盔",
+      "zh-CN": "重击系手工头盔"
     },
     "family": "hitPower",
     "magicItemInput": {
@@ -76,8 +76,8 @@
     "id": "craft-65",
     "name": {
       "en": "Hit Power Boots",
-      "zh-TW": "Hit Power Boots",
-      "zh-CN": "Hit Power Boots"
+      "zh-TW": "重擊系手工鞋子",
+      "zh-CN": "重击系手工鞋子"
     },
     "family": "hitPower",
     "magicItemInput": {
@@ -149,8 +149,8 @@
     "id": "craft-66",
     "name": {
       "en": "Hit Power Gloves",
-      "zh-TW": "Hit Power Gloves",
-      "zh-CN": "Hit Power Gloves"
+      "zh-TW": "重擊系手工手套",
+      "zh-CN": "重击系手工手套"
     },
     "family": "hitPower",
     "magicItemInput": {
@@ -222,8 +222,8 @@
     "id": "craft-67",
     "name": {
       "en": "Hit Power Belt",
-      "zh-TW": "Hit Power Belt",
-      "zh-CN": "Hit Power Belt"
+      "zh-TW": "重擊系手工腰帶",
+      "zh-CN": "重击系手工腰带"
     },
     "family": "hitPower",
     "magicItemInput": {
@@ -295,8 +295,8 @@
     "id": "craft-68",
     "name": {
       "en": "Hit Power Shield",
-      "zh-TW": "Hit Power Shield",
-      "zh-CN": "Hit Power Shield"
+      "zh-TW": "重擊系手工盾牌",
+      "zh-CN": "重击系手工盾牌"
     },
     "family": "hitPower",
     "magicItemInput": {
@@ -368,8 +368,8 @@
     "id": "craft-69",
     "name": {
       "en": "Hit Power Body",
-      "zh-TW": "Hit Power Body",
-      "zh-CN": "Hit Power Body"
+      "zh-TW": "重擊系手工護甲",
+      "zh-CN": "重击系手工护甲"
     },
     "family": "hitPower",
     "magicItemInput": {
@@ -441,8 +441,8 @@
     "id": "craft-70",
     "name": {
       "en": "Hit Power Amulet",
-      "zh-TW": "Hit Power Amulet",
-      "zh-CN": "Hit Power Amulet"
+      "zh-TW": "重擊系手工護身符",
+      "zh-CN": "重击系手工护身符"
     },
     "family": "hitPower",
     "magicItemInput": {
@@ -514,8 +514,8 @@
     "id": "craft-71",
     "name": {
       "en": "Hit Power Ring",
-      "zh-TW": "Hit Power Ring",
-      "zh-CN": "Hit Power Ring"
+      "zh-TW": "重擊系手工戒指",
+      "zh-CN": "重击系手工戒指"
     },
     "family": "hitPower",
     "magicItemInput": {
@@ -587,8 +587,8 @@
     "id": "craft-72",
     "name": {
       "en": "Hit Power Weapon",
-      "zh-TW": "Hit Power Weapon",
-      "zh-CN": "Hit Power Weapon"
+      "zh-TW": "重擊系手工武器",
+      "zh-CN": "重击系手工武器"
     },
     "family": "hitPower",
     "magicItemInput": {
@@ -660,8 +660,8 @@
     "id": "craft-73",
     "name": {
       "en": "Blood Helm",
-      "zh-TW": "Blood Helm",
-      "zh-CN": "Blood Helm"
+      "zh-TW": "血腥系手工頭盔",
+      "zh-CN": "血腥系手工头盔"
     },
     "family": "blood",
     "magicItemInput": {
@@ -733,8 +733,8 @@
     "id": "craft-74",
     "name": {
       "en": "Blood Boots",
-      "zh-TW": "Blood Boots",
-      "zh-CN": "Blood Boots"
+      "zh-TW": "血腥系手工鞋子",
+      "zh-CN": "血腥系手工鞋子"
     },
     "family": "blood",
     "magicItemInput": {
@@ -806,8 +806,8 @@
     "id": "craft-75",
     "name": {
       "en": "Blood Gloves",
-      "zh-TW": "Blood Gloves",
-      "zh-CN": "Blood Gloves"
+      "zh-TW": "血腥系手工手套",
+      "zh-CN": "血腥系手工手套"
     },
     "family": "blood",
     "magicItemInput": {
@@ -879,8 +879,8 @@
     "id": "craft-76",
     "name": {
       "en": "Blood Belt",
-      "zh-TW": "Blood Belt",
-      "zh-CN": "Blood Belt"
+      "zh-TW": "血腥系手工腰帶",
+      "zh-CN": "血腥系手工腰带"
     },
     "family": "blood",
     "magicItemInput": {
@@ -952,8 +952,8 @@
     "id": "craft-77",
     "name": {
       "en": "Blood Shield",
-      "zh-TW": "Blood Shield",
-      "zh-CN": "Blood Shield"
+      "zh-TW": "血腥系手工盾牌",
+      "zh-CN": "血腥系手工盾牌"
     },
     "family": "blood",
     "magicItemInput": {
@@ -1025,8 +1025,8 @@
     "id": "craft-78",
     "name": {
       "en": "Blood Body",
-      "zh-TW": "Blood Body",
-      "zh-CN": "Blood Body"
+      "zh-TW": "血腥系手工護甲",
+      "zh-CN": "血腥系手工护甲"
     },
     "family": "blood",
     "magicItemInput": {
@@ -1098,8 +1098,8 @@
     "id": "craft-79",
     "name": {
       "en": "Blood Amulet",
-      "zh-TW": "Blood Amulet",
-      "zh-CN": "Blood Amulet"
+      "zh-TW": "血腥系手工護身符",
+      "zh-CN": "血腥系手工护身符"
     },
     "family": "blood",
     "magicItemInput": {
@@ -1171,8 +1171,8 @@
     "id": "craft-80",
     "name": {
       "en": "Blood Ring",
-      "zh-TW": "Blood Ring",
-      "zh-CN": "Blood Ring"
+      "zh-TW": "血腥系手工戒指",
+      "zh-CN": "血腥系手工戒指"
     },
     "family": "blood",
     "magicItemInput": {
@@ -1244,8 +1244,8 @@
     "id": "craft-81",
     "name": {
       "en": "Blood Weapon",
-      "zh-TW": "Blood Weapon",
-      "zh-CN": "Blood Weapon"
+      "zh-TW": "血腥系手工武器",
+      "zh-CN": "血腥系手工武器"
     },
     "family": "blood",
     "magicItemInput": {
@@ -1317,8 +1317,8 @@
     "id": "craft-82",
     "name": {
       "en": "Caster Helm",
-      "zh-TW": "Caster Helm",
-      "zh-CN": "Caster Helm"
+      "zh-TW": "施法系手工頭盔",
+      "zh-CN": "施法系手工头盔"
     },
     "family": "caster",
     "magicItemInput": {
@@ -1390,8 +1390,8 @@
     "id": "craft-83",
     "name": {
       "en": "Caster Boots",
-      "zh-TW": "Caster Boots",
-      "zh-CN": "Caster Boots"
+      "zh-TW": "施法系手工鞋子",
+      "zh-CN": "施法系手工鞋子"
     },
     "family": "caster",
     "magicItemInput": {
@@ -1463,8 +1463,8 @@
     "id": "craft-84",
     "name": {
       "en": "Caster Gloves",
-      "zh-TW": "Caster Gloves",
-      "zh-CN": "Caster Gloves"
+      "zh-TW": "施法系手工手套",
+      "zh-CN": "施法系手工手套"
     },
     "family": "caster",
     "magicItemInput": {
@@ -1536,8 +1536,8 @@
     "id": "craft-85",
     "name": {
       "en": "Caster Belt",
-      "zh-TW": "Caster Belt",
-      "zh-CN": "Caster Belt"
+      "zh-TW": "施法系手工腰帶",
+      "zh-CN": "施法系手工腰带"
     },
     "family": "caster",
     "magicItemInput": {
@@ -1609,8 +1609,8 @@
     "id": "craft-86",
     "name": {
       "en": "Caster Shield",
-      "zh-TW": "Caster Shield",
-      "zh-CN": "Caster Shield"
+      "zh-TW": "施法系手工盾牌",
+      "zh-CN": "施法系手工盾牌"
     },
     "family": "caster",
     "magicItemInput": {
@@ -1682,8 +1682,8 @@
     "id": "craft-87",
     "name": {
       "en": "Caster Body",
-      "zh-TW": "Caster Body",
-      "zh-CN": "Caster Body"
+      "zh-TW": "施法系手工護甲",
+      "zh-CN": "施法系手工护甲"
     },
     "family": "caster",
     "magicItemInput": {
@@ -1755,8 +1755,8 @@
     "id": "craft-88",
     "name": {
       "en": "Caster Amulet",
-      "zh-TW": "Caster Amulet",
-      "zh-CN": "Caster Amulet"
+      "zh-TW": "施法系手工護身符",
+      "zh-CN": "施法系手工护身符"
     },
     "family": "caster",
     "magicItemInput": {
@@ -1828,8 +1828,8 @@
     "id": "craft-89",
     "name": {
       "en": "Caster Ring",
-      "zh-TW": "Caster Ring",
-      "zh-CN": "Caster Ring"
+      "zh-TW": "施法系手工戒指",
+      "zh-CN": "施法系手工戒指"
     },
     "family": "caster",
     "magicItemInput": {
@@ -1901,8 +1901,8 @@
     "id": "craft-90",
     "name": {
       "en": "Caster Weapon",
-      "zh-TW": "Caster Weapon",
-      "zh-CN": "Caster Weapon"
+      "zh-TW": "施法系手工武器",
+      "zh-CN": "施法系手工武器"
     },
     "family": "caster",
     "magicItemInput": {
@@ -1974,8 +1974,8 @@
     "id": "craft-91",
     "name": {
       "en": "Safety Helm",
-      "zh-TW": "Safety Helm",
-      "zh-CN": "Safety Helm"
+      "zh-TW": "防護系手工頭盔",
+      "zh-CN": "防护系手工头盔"
     },
     "family": "safety",
     "magicItemInput": {
@@ -2047,8 +2047,8 @@
     "id": "craft-92",
     "name": {
       "en": "Safety Boots",
-      "zh-TW": "Safety Boots",
-      "zh-CN": "Safety Boots"
+      "zh-TW": "防護系手工鞋子",
+      "zh-CN": "防护系手工鞋子"
     },
     "family": "safety",
     "magicItemInput": {
@@ -2120,8 +2120,8 @@
     "id": "craft-93",
     "name": {
       "en": "Safety Gloves",
-      "zh-TW": "Safety Gloves",
-      "zh-CN": "Safety Gloves"
+      "zh-TW": "防護系手工手套",
+      "zh-CN": "防护系手工手套"
     },
     "family": "safety",
     "magicItemInput": {
@@ -2193,8 +2193,8 @@
     "id": "craft-94",
     "name": {
       "en": "Safety Belt",
-      "zh-TW": "Safety Belt",
-      "zh-CN": "Safety Belt"
+      "zh-TW": "防護系手工腰帶",
+      "zh-CN": "防护系手工腰带"
     },
     "family": "safety",
     "magicItemInput": {
@@ -2266,8 +2266,8 @@
     "id": "craft-95",
     "name": {
       "en": "Safety Shield",
-      "zh-TW": "Safety Shield",
-      "zh-CN": "Safety Shield"
+      "zh-TW": "防護系手工盾牌",
+      "zh-CN": "防护系手工盾牌"
     },
     "family": "safety",
     "magicItemInput": {
@@ -2339,8 +2339,8 @@
     "id": "craft-96",
     "name": {
       "en": "Safety Body",
-      "zh-TW": "Safety Body",
-      "zh-CN": "Safety Body"
+      "zh-TW": "防護系手工護甲",
+      "zh-CN": "防护系手工护甲"
     },
     "family": "safety",
     "magicItemInput": {
@@ -2412,8 +2412,8 @@
     "id": "craft-97",
     "name": {
       "en": "Safety Amulet",
-      "zh-TW": "Safety Amulet",
-      "zh-CN": "Safety Amulet"
+      "zh-TW": "防護系手工護身符",
+      "zh-CN": "防护系手工护身符"
     },
     "family": "safety",
     "magicItemInput": {
@@ -2485,8 +2485,8 @@
     "id": "craft-98",
     "name": {
       "en": "Safety Ring",
-      "zh-TW": "Safety Ring",
-      "zh-CN": "Safety Ring"
+      "zh-TW": "防護系手工戒指",
+      "zh-CN": "防护系手工戒指"
     },
     "family": "safety",
     "magicItemInput": {
@@ -2558,8 +2558,8 @@
     "id": "craft-99",
     "name": {
       "en": "Safety Weapon",
-      "zh-TW": "Safety Weapon",
-      "zh-CN": "Safety Weapon"
+      "zh-TW": "防護系手工武器",
+      "zh-CN": "防护系手工武器"
     },
     "family": "safety",
     "magicItemInput": {

@@ -321,22 +321,37 @@ describe('runes.json', () => {
     expect(eld.recipe).toEqual({ runeName: 'El', count: 3, gemName: null });
   });
 
-  it('Amn has a gem-inclusive recipe (the first one)', () => {
+  it('Amn has a gem-inclusive recipe (the first one), gemName localized', () => {
     const amn = runesData.find(r => r.name.en === 'Amn')!;
-    expect(amn.recipe).toEqual({ runeName: 'Thul', count: 3, gemName: 'Chipped Topaz' });
+    expect(amn.recipe).toEqual({
+      runeName: 'Thul',
+      count: 3,
+      gemName: { en: 'Chipped Topaz', 'zh-TW': '碎裂的黃寶石', 'zh-CN': '碎裂的黄宝石' },
+    });
   });
 
-  it('Um has a 2x-count recipe (the first 2x tier)', () => {
+  it('Um has a 2x-count recipe (the first 2x tier), gemName localized', () => {
     const um = runesData.find(r => r.name.en === 'Um')!;
-    expect(um.recipe).toEqual({ runeName: 'Pul', count: 2, gemName: 'Flawed Diamond' });
+    expect(um.recipe).toEqual({
+      runeName: 'Pul',
+      count: 2,
+      gemName: { en: 'Flawed Diamond', 'zh-TW': '裂開的鑽石', 'zh-CN': '裂开的钻石' },
+    });
   });
 
-  it('every rune has a dropRate with a monster, difficulty, and percent', () => {
+  it('every rune has a dropRate with a localized monster, difficulty, and percent', () => {
     for (const r of runesData) {
-      expect(r.dropRate.monster.length).toBeGreaterThan(0);
+      expect(r.dropRate.monster.en.length).toBeGreaterThan(0);
+      expect(r.dropRate.monster['zh-TW'].length).toBeGreaterThan(0);
+      expect(r.dropRate.monster['zh-CN'].length).toBeGreaterThan(0);
       expect(['normal', 'nightmare', 'hell']).toContain(r.dropRate.difficulty);
       expect(r.dropRate.percent).toBeGreaterThan(0);
     }
+  });
+
+  it("The Countess' drop rate monster name is localized (not raw English)", () => {
+    const el = runesData.find(r => r.name.en === 'El')!;
+    expect(el.dropRate.monster).toEqual({ en: 'The Countess', 'zh-TW': '女伯爵', 'zh-CN': '女伯爵' });
   });
 
   it('zh-TW names are non-empty for every rune', () => {

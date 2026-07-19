@@ -16,6 +16,7 @@ export default function RunewordFilters({
   onSocketsChange: (sockets: number | null) => void;
 }) {
   const t = useTranslations('Items');
+  const tGrail = useTranslations('Grail');
   const socketOptions = [2, 3, 4, 5, 6];
 
   function pill(active: boolean) {
@@ -34,7 +35,7 @@ export default function RunewordFilters({
         </button>
         {itemTypes.map(type => (
           <button key={type} onClick={() => onTypeChange(type)} className={pill(activeType === type)}>
-            {type}
+            {tGrail(`slot_${type}` as never)}
           </button>
         ))}
       </div>

@@ -24,6 +24,7 @@ function RuneIcon({ invFile }: { invFile: string }) {
 
 export default function RunewordList({ runewords, locale }: { runewords: Runeword[]; locale: 'en' | 'zh-TW' | 'zh-CN' }) {
   const t = useTranslations('Items');
+  const tGrail = useTranslations('Grail');
 
   return (
     <div className="flex flex-col gap-4 w-full">
@@ -48,7 +49,7 @@ export default function RunewordList({ runewords, locale }: { runewords: Runewor
               ))}
             </div>
             <div>{t('runewordsSocketsLabel')}: {rw.sockets}</div>
-            <div>{t('runewordsBaseTypesLabel')}: {rw.itemTypes.join(', ')}</div>
+            <div>{t('runewordsBaseTypesLabel')}: {rw.itemTypes.map(type => tGrail(`slot_${type}` as never)).join(', ')}</div>
             {rw.levelReq > 0 && <div>{t('runewordsLevelReqLabel')}: {rw.levelReq}</div>}
           </div>
           {(rw.stats.length > 0 || rw.fixedStats.length > 0) && (

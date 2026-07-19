@@ -39,7 +39,7 @@ describe('RunewordFilters + RunewordList', () => {
 
   it('filters by item type', () => {
     render(<TestPage />);
-    fireEvent.click(screen.getByRole('button', { name: 'shld' }));
+    fireEvent.click(screen.getByRole('button', { name: 'Shields' }));
     expect(screen.queryByText('Enigma')).not.toBeInTheDocument(); // Enigma requires armors, not shld
   });
 

@@ -1,15 +1,16 @@
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import type { Alvl85Area } from '@/lib/grail/alvl85Areas';
 
 export default function Alvl85AreaList({ areas }: { areas: Alvl85Area[] }) {
   const t = useTranslations('Items');
+  const locale = useLocale() as 'en' | 'zh-TW' | 'zh-CN';
 
   return (
     <div className="flex flex-col gap-6 w-full">
       <p className="text-xs text-muted">{t('alvl85StarNote')}</p>
       {areas.map(area => (
-        <div key={area.areaName} className="bg-panel border border-panel-border rounded-xl p-6">
-          <h3 className="text-lg font-bold text-parchment-bright mb-3">{area.areaName}</h3>
+        <div key={area.areaName.en} className="bg-panel border border-panel-border rounded-xl p-6">
+          <h3 className="text-lg font-bold text-parchment-bright mb-3">{area.areaName[locale]}</h3>
           {area.monsters.length > 0 && (
             <table className="w-full text-sm">
               <thead>
@@ -21,8 +22,8 @@ export default function Alvl85AreaList({ areas }: { areas: Alvl85Area[] }) {
               </thead>
               <tbody className="text-parchment">
                 {area.monsters.map((monster, i) => (
-                  <tr key={`${monster.name}-${i}`}>
-                    <td className="py-1 text-parchment-bright font-semibold">{monster.name}</td>
+                  <tr key={`${monster.name.en}-${i}`}>
+                    <td className="py-1 text-parchment-bright font-semibold">{monster.name[locale]}</td>
                     <td className="py-1 px-3">{t(`alvl85Type_${monster.type}`)}</td>
                     <td className="py-1 px-3">
                       {monster.immunities.map(imm => (

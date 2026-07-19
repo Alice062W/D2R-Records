@@ -8,8 +8,8 @@ import type { Alvl85Area } from '@/lib/grail/alvl85Areas';
 describe('Alvl85AreaList', () => {
   it('renders area name, monster name/type, and starred immunity', () => {
     const areas: Alvl85Area[] = [{
-      areaName: 'Ruined Temple',
-      monsters: [{ name: 'Night Lord', type: 'undead', immunities: [{ element: 'cold', value: 120, starred: true }] }],
+      areaName: { en: 'Ruined Temple', 'zh-TW': 'x', 'zh-CN': 'x' },
+      monsters: [{ name: { en: 'Night Lord', 'zh-TW': 'x', 'zh-CN': 'x' }, type: 'undead', immunities: [{ element: 'cold', value: 120, starred: true }] }],
     }];
     render(
       <NextIntlClientProvider locale="en" messages={messages}>
@@ -25,7 +25,7 @@ describe('Alvl85AreaList', () => {
 
   it('renders a monster with no immunities without error', () => {
     const areas: Alvl85Area[] = [{
-      areaName: 'The Worldstone Chamber',
+      areaName: { en: 'The Worldstone Chamber', 'zh-TW': 'x', 'zh-CN': 'x' },
       monsters: [],
     }];
     render(
@@ -34,5 +34,20 @@ describe('Alvl85AreaList', () => {
       </NextIntlClientProvider>
     );
     expect(screen.getByText('The Worldstone Chamber')).toBeInTheDocument();
+  });
+
+  it('renders localized area and monster names for zh-TW', () => {
+    const areas: Alvl85Area[] = [{
+      areaName: { en: 'Mausoleum', 'zh-TW': '大陵墓', 'zh-CN': '大陵墓' },
+      monsters: [{ name: { en: 'Skeleton', 'zh-TW': '骷髏', 'zh-CN': '骷髅' }, type: 'undead', immunities: [] }],
+    }];
+    render(
+      <NextIntlClientProvider locale="zh-TW" messages={messages}>
+        <Alvl85AreaList areas={areas} />
+      </NextIntlClientProvider>
+    );
+    expect(screen.getByText('大陵墓')).toBeInTheDocument();
+    expect(screen.getByText('骷髏')).toBeInTheDocument();
+    expect(screen.queryByText('Mausoleum')).not.toBeInTheDocument();
   });
 });
