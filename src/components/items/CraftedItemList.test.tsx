@@ -1,20 +1,36 @@
 import { describe, it, expect } from 'vitest';
-import { render, screen } from '@testing-library/react';
+import { render, screen, fireEvent } from '@testing-library/react';
 import { NextIntlClientProvider } from 'next-intl';
 import CraftedItemList from './CraftedItemList';
 import messages from '../../../messages/en.json';
 import craftedItems from '../../../data/crafted-items.json';
 
 describe('CraftedItemList', () => {
-  it('renders all 4 families with their recipes', () => {
+  it('shows all 4 family tabs, defaulting to Hit Power', () => {
     render(
       <NextIntlClientProvider locale="en" messages={messages}>
         <CraftedItemList items={craftedItems} locale="en" />
       </NextIntlClientProvider>
     );
-    expect(screen.getByText('Hit Power')).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'Hit Power' })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'Blood' })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'Caster' })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'Safety' })).toBeInTheDocument();
     expect(screen.getByText('Hit Power Helm')).toBeInTheDocument();
-    expect(screen.getByText('Safety')).toBeInTheDocument();
+    expect(screen.queryByText('Blood Helm')).not.toBeInTheDocument();
+  });
+
+  it('switches the visible family when a different tab is clicked, showing only that family', () => {
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <CraftedItemList items={craftedItems} locale="en" />
+      </NextIntlClientProvider>
+    );
+    fireEvent.click(screen.getByRole('button', { name: 'Blood' }));
+    expect(screen.getByText('Blood Helm')).toBeInTheDocument();
+    expect(screen.queryByText('Hit Power Helm')).not.toBeInTheDocument();
+    expect(screen.queryByText('Caster Helm')).not.toBeInTheDocument();
+    expect(screen.queryByText('Safety Helm')).not.toBeInTheDocument();
   });
 
   it('renders both fixed and variable properties for an item, not just fixed', () => {
