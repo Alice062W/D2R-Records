@@ -765,6 +765,24 @@ const RUNE_INVFILE_BY_NAME = Object.fromEntries(
     .map(v => [v.name.replace(/ Rune$/, ''), v.invfile])
 );
 
+// Rune names are transliterated, real Chinese strings in chi[] — but keyed by
+// the rune's internal item CODE ("r01".."r33"), not by its English name
+// ("El" isn't a chi[] key at all; chi["r01"] is "符文：艾爾" — "Rune: El").
+// localizedItemName(name) was silently falling back to English for every
+// rune across this whole file (the main Runes page, every runeword's rune
+// list, and rune upgrade recipes) because it only ever looked up by name.
+const RUNE_CODE_BY_NAME = Object.fromEntries(
+  Object.values(items)
+    .filter(v => typeof v.name === 'string' && v.name.endsWith(' Rune'))
+    .map(v => [v.name.replace(/ Rune$/, ''), v.code])
+);
+function localizedRuneName(englishName) {
+  const code = RUNE_CODE_BY_NAME[englishName];
+  const raw = code ? chi[code] : undefined;
+  const zhTw = raw ? raw.replace(/^符文：/, '') : englishName;
+  return { en: englishName, 'zh-TW': zhTw, 'zh-CN': toZhCn(zhTw) };
+}
+
 // Known vendor-data quirk: runes.json's "*RunesUsed" for Wealth is "LmKoTir" — an
 // upstream typo missing the "u" in "Lum" (every other runeword spells it out
 // correctly, e.g. Beast's "BerTirUmMalLum"). This pre-existing typo already
@@ -819,7 +837,7 @@ const runewordsFullOut = Object.entries(runesData)
     return {
       id: `runeword-${v.Name}`,
       name: localizedRunewordName(name),
-      runes: runeNames,
+      runes: runeNames.map(rn => localizedRuneName(RUNE_NAME_ALIASES[rn] ?? rn)),
       runeInvFiles: runeNames.map(rn => RUNE_INVFILE_BY_NAME[RUNE_NAME_ALIASES[rn] ?? rn] ?? ''),
       sockets: runeNames.length,
       itemTypes: itemTypesFor(v.itype1),
@@ -1057,17 +1075,17 @@ const runesOut = RUNE_ORDER.map((name, i) => {
   return {
     id: `rune-${entry.code}`,
     number: i + 1,
-    name: localizedItemName(name),
+    name: localizedRuneName(name),
     levelReq: itemEntry?.levelreq ?? 0,
     invFile: itemEntry?.invfile ?? '',
     weaponStats: runeStatsFor(entry, 'weaponMod'),
     armorHelmStats: runeStatsFor(entry, 'helmMod'),
     shieldStats: runeStatsFor(entry, 'shieldMod'),
-    // runeName is intentionally left as a plain string, not LocalizedText — rune
-    // names are kept in Latin script across all three locales (see rune.name
-    // above: {en, zh-TW, zh-CN} are always identical for runes). gemName does get
-    // a real Chinese translation in-game, so it's localized via localizedGemName.
-    recipe: rawRecipe && { ...rawRecipe, gemName: rawRecipe.gemName ? localizedGemName(rawRecipe.gemName) : null },
+    recipe: rawRecipe && {
+      ...rawRecipe,
+      runeName: localizedRuneName(rawRecipe.runeName),
+      gemName: rawRecipe.gemName ? localizedGemName(rawRecipe.gemName) : null,
+    },
     // monster is a proper name that does have real chi[] entries (Council
     // Member, Nihlathak, The Countess all resolve), unlike gemName's raw
     // fallback risk above — localize it the same way item/gem names are.
@@ -1140,6 +1158,216 @@ for (const id of [163,164,174,175,176,186,187,188,198,199,200,210,211,212,222,22
 
 const CRAFT_RECIPE_IDS = new Set(Array.from({ length: 36 }, (_, i) => 64 + i)); // 64-99
 
+// cubemain.json's `description` is a whole compound sentence ("3 Healing
+// Potions (Any) + 1 Standard Gem (Any) -> Rejuvenation Potion"), never a
+// literal chi[] key on its own — localizedItemName(v.description) always
+// fell back to English for all 138 recipes. Decompose into individual
+// ingredient/output phrases and localize each through the same code-based
+// lookups already used elsewhere in this file (items.json name->code,
+// GEM_NAME_TO_CODE, RUNE_CODE_BY_NAME), falling back to a small hand-checked
+// override table for generic category/quality words and one-off compounds
+// that have no single matching item-database entry.
+const GENERAL_ITEM_NAME_TO_CODE = {};
+for (const v of Object.values(items)) {
+  if (typeof v.name !== 'string') continue;
+  // Prefer a code that actually has a chi[] translation — items.json often
+  // has several entries sharing a display name (e.g. "Healing Potion" on
+  // both "hpo" and "hp3"), and only some of those codes are in chi[].
+  const existing = GENERAL_ITEM_NAME_TO_CODE[v.name];
+  if (existing === undefined || (!chi[existing] && chi[v.code])) {
+    GENERAL_ITEM_NAME_TO_CODE[v.name] = v.code;
+  }
+}
+
+// Verified against messages/zh-TW.json's existing slot_* labels (generic
+// weapon/armor category words already translated and shown elsewhere on the
+// site) plus direct chi[] spot-checks for quality/quantity qualifier words
+// and the handful of compound recipe outputs/ingredients with no single
+// item-database entry (colored rings are crafted-item outputs, Worldstone
+// Shards/Stone of Jordan/cow-level portal are quest text, not lootable
+// item names in this vendor snapshot).
+const CUBE_RECIPE_WORD_OVERRIDES = {
+  // generic base-type category words (singular), matching messages/zh-TW.json slot_*
+  Dagger: '匕首', Ring: '戒指', Amulet: '項鍊', Belt: '腰帶', Staff: '法杖', Spear: '長矛',
+  Shield: '盾牌', Weapon: '武器', Sword: '劍', Helm: '頭盔', Gloves: '手套', Boots: '靴子',
+  Mace: '釘頭錘', Club: '棍棒', Scepter: '權杖', Javelin: '標槍', Javelins: '標槍',
+  Crossbow: '弩', Bow: '弓', Jewel: '珠寶', Axe: '斧頭', Polearm: '長柄武器', Wand: '魔杖',
+  Armor: '護甲', 'Torso Armor': '軀幹護甲', Charm: '護身符', Item: '物品',
+  Gem: '寶石', Skull: '頭骨', Arrows: '箭矢', Bolts: '弩箭',
+  // quality/rarity words
+  Magic: '魔法', Rare: '稀有', Normal: '普通', Set: '套裝', Unique: '獨特',
+  Exceptional: '優良', Elite: '精英', Socketed: '有插槽的', 'Low Quality': '低品質',
+  'High Quality': '高品質', 'Fully Repaired': '完全修復的',
+  'Fully Repaired and Recharged': '完全修復並充能的', 'Re-rolled Magic': '重新隨機的魔法',
+  // gem tier prefixes (matches chi[]'s own wording, e.g. 碎裂的黃寶石 for Chipped Topaz)
+  Chipped: '碎裂的', Flawed: '裂開的', Flawless: '無暇疵的', Perfect: '完美的', Standard: '',
+  // qualifiers
+  '(Any)': '(任一)', '(1 of each type)': '(各一種)',
+  // one-off compounds without a single matching item-database entry
+  'Cobalt Ring': '鈷藍戒指', 'Garnet Ring': '石榴石戒指', 'Coral Ring': '珊瑚戒指',
+  'Jade Ring': '玉戒指', 'Prismatic Amulet': '虹光項鍊', 'Savage Polearm': '野蠻長柄武器',
+  'Socketed Magic Weapon': '有插槽的魔法武器', 'Magic Shield of Spikes': '尖刺魔法盾牌',
+  'Sword of the Leech': '水蛭之劍', 'Stone of Jordan': '約旦之石',
+  'Western Worldstone Shard': '西方世界之石碎片', 'Eastern Worldstone Shard': '東方世界之石碎片',
+  'Southern Worldstone Shard': '南方世界之石碎片', 'Deep Worldstone Shard': '深層世界之石碎片',
+  'Northern Worldstone Shard': '北方世界之石碎片',
+  'Portal to The Secret Cow Level': '通往秘密牛牛關的傳送門',
+  'Portal to Colossal Summit': '通往巨神峰頂的傳送門',
+  'Portal to Tristram (Pandemonium Finale)': '通往特里斯特姆的傳送門（萬魔終局）',
+  'Add 1 Socket to Rare Item': '為稀有物品增加 1 個插槽',
+  'Clear Sockets on Item': '清除物品上的插槽',
+};
+
+// items.json spells the dagger-class weapon "Kriss"; cubemain.json's recipe
+// text spells it "Kris" — a real name mismatch between two vendor files, not
+// a translation gap, so it's aliased here rather than added as a translated
+// override (keeps it flowing through the same code-lookup path as everything else).
+const RECIPE_PHRASE_ALIASES = { Kris: 'Kriss' };
+
+function localizedRecipePhrase(rawPhrase) {
+  const phrase = rawPhrase.trim();
+  if (!phrase) return phrase;
+
+  // Split off a leading quantity number (kept as-is — digits are locale-neutral).
+  const qtyMatch = phrase.match(/^(\d+)\s+(.+)$/);
+  const qtyPrefix = qtyMatch ? `${qtyMatch[1]} ` : '';
+  let rest = qtyMatch ? qtyMatch[2] : phrase;
+
+  // Split off a trailing "(Any)" / "(1 of each type)" qualifier and
+  // translate it once, up front, so every branch below picks it up uniformly.
+  const qualMatch = rest.match(/^(.+?)\s*(\((?:Any|1 of each type)\))$/);
+  const rawQualifier = qualMatch ? qualMatch[2] : '';
+  const qualifier = CUBE_RECIPE_WORD_OVERRIDES[rawQualifier] ?? rawQualifier;
+  if (qualMatch) rest = qualMatch[1].trim();
+
+  rest = RECIPE_PHRASE_ALIASES[rest] ?? rest;
+
+  // A rune name, singular or plural ("El Rune" / "El Runes").
+  const runeMatch = rest.match(/^(\w+) Runes?$/);
+  if (runeMatch && RUNE_CODE_BY_NAME[runeMatch[1]]) {
+    const runeZh = localizedRuneName(runeMatch[1])['zh-TW'];
+    return qtyPrefix + runeZh + '符文' + qualifier;
+  }
+
+  // A specific gem/skull name, singular or plural, with a quality-tier prefix
+  // ("Chipped Topaz" / "Chipped Topazes", "Perfect Skull" / "Perfect Skulls").
+  // The mid tier has NO prefix in gems.json itself (it's just "Emerald", not
+  // "Standard Emerald" — "Standard" is a word this recipe text adds), so that
+  // tier looks up the bare color/type word instead.
+  const gemMatch = rest.match(/^(Chipped|Flawed|Flawless|Perfect|Standard) (\w+)$/);
+  if (gemMatch) {
+    const [, tier, base] = gemMatch;
+    // Plural forms: Rubies/Topazes/Sapphires/Amethysts/Diamonds/Skulls/Emeralds.
+    const singularBases = [base, base.replace(/ies$/, 'y'), base.replace(/([sz])es$/, '$1'), base.replace(/s$/, '')];
+    for (const base2 of singularBases) {
+      const lookupName = tier === 'Standard' ? base2 : `${tier} ${base2}`;
+      if (GEM_NAME_TO_CODE[lookupName]) return qtyPrefix + localizedGemName(lookupName)['zh-TW'] + qualifier;
+    }
+  }
+  // "Standard/Chipped/... Gem" generic (no specific type) — not itself a gem
+  // code, so build it from the tier-prefix override + the generic gem word.
+  const genericGemMatch = rest.match(/^(Chipped|Flawed|Flawless|Perfect|Standard) Gems?$/);
+  if (genericGemMatch) {
+    return qtyPrefix + (CUBE_RECIPE_WORD_OVERRIDES[genericGemMatch[1]] ?? '') + '寶石' + qualifier;
+  }
+
+  // Exact literal match (quest items, named uniques, potions — anything with
+  // a single real items.json entry), trying the plural-stripped form too.
+  // A raw chi[rest] lookup is only trusted for 2+-word phrases — a single
+  // English word risks matching an unrelated grammatical fragment elsewhere
+  // in chi[]'s string dump (see the categoryPart guard below for a concrete
+  // example: "Rift" alone resolves to an unrelated fragment, not the item
+  // "Flame Rift"). GENERAL_ITEM_NAME_TO_CODE is matched against real,
+  // complete item names regardless of word count, so it's not restricted.
+  for (const candidate of [rest, rest.replace(/s$/, '')]) {
+    if (candidate.includes(' ') && chi[candidate]) return qtyPrefix + chi[candidate] + qualifier;
+    const code = GENERAL_ITEM_NAME_TO_CODE[candidate];
+    if (code && chi[code]) return qtyPrefix + chi[code] + qualifier;
+  }
+
+  // Manual override, whole phrase.
+  if (CUBE_RECIPE_WORD_OVERRIDES[rest]) return qtyPrefix + CUBE_RECIPE_WORD_OVERRIDES[rest] + qualifier;
+
+  // Greedily consumes a word list left-to-right against a dictionary,
+  // preferring the longest matching chunk at each position (so "Low
+  // Quality" matches as one 2-word override, not "Low" + "Quality"
+  // separately). Returns null if any word can't be resolved at all.
+  function greedyTranslateWords(words, dict) {
+    let i = 0;
+    let out = '';
+    while (i < words.length) {
+      let matched = false;
+      for (let len = Math.min(4, words.length - i); len >= 1; len--) {
+        const chunk = words.slice(i, i + len).join(' ');
+        if (dict[chunk] !== undefined) {
+          out += dict[chunk];
+          i += len;
+          matched = true;
+          break;
+        }
+      }
+      if (!matched) return null;
+    }
+    return out;
+  }
+
+  // "<Quality word(s)> <Category word(s)>", e.g. "Exceptional Rare Armor",
+  // "Normal Torso Armor", "Fully Repaired and Recharged Weapon", "High
+  // Quality Rare Item". The category tail is tried as a full multi-word
+  // item-database lookup first (so "Grand Charm" resolves to its own real
+  // chi[] translation "超大型護身符", not just the generic "Charm" word).
+  // Tries the widest possible category tail first (so "Grand Charm" is
+  // checked as one unit — and wins its own specific chi[] translation —
+  // before ever falling back to the single generic word "Charm").
+  const words = rest.split(' ');
+  let bestCategoryMatch = null; // widest resolvable category tail found so far
+  for (let splitAt = 1; splitAt <= words.length - 1; splitAt++) {
+    const qualityWords = words.slice(0, splitAt);
+    const categoryPart = words.slice(splitAt).join(' ');
+    // chi[] is a raw dump of every game string, including short fragments
+    // used to build OTHER sentences elsewhere ("Rift" alone resolves to an
+    // unrelated "X-of-" grammatical fragment, not the item "Flame Rift") —
+    // a single English word matching it is a real false-positive risk, so
+    // only trust a raw chi[]/item-code lookup here for 2+-word phrases
+    // (specific enough to be an actual compound item name) and require a
+    // single trailing word to come from the hand-vetted override table.
+    let categoryZh;
+    if (categoryPart.includes(' ')) {
+      categoryZh = chi[categoryPart];
+      if (categoryZh === undefined) {
+        const code = GENERAL_ITEM_NAME_TO_CODE[categoryPart];
+        if (code && chi[code]) categoryZh = chi[code];
+      }
+    }
+    categoryZh ??= CUBE_RECIPE_WORD_OVERRIDES[categoryPart]
+      ?? (categoryPart.endsWith('s') ? CUBE_RECIPE_WORD_OVERRIDES[categoryPart.slice(0, -1)] : undefined);
+    if (categoryZh === undefined) continue;
+    bestCategoryMatch ??= { qualityWords, categoryZh }; // first hit = widest, since splitAt grows
+    const qualityZh = greedyTranslateWords(qualityWords, CUBE_RECIPE_WORD_OVERRIDES);
+    if (qualityZh !== null) return qtyPrefix + qualityZh + categoryZh + qualifier;
+  }
+
+  // No quality-word translation covered the full prefix (e.g. "Breaching",
+  // "Gelid" — modern charm-affix prefixes with no chi[] entry to verify
+  // against, left in English rather than guessed) — fall back to the widest
+  // category phrase that DID resolve, keeping its untranslated quality
+  // words as literal English rather than losing the specific match
+  // entirely (e.g. "Breaching Grand Charm" -> "Breaching 超大型護身符").
+  if (bestCategoryMatch) {
+    return qtyPrefix + bestCategoryMatch.qualityWords.join(' ') + ' ' + bestCategoryMatch.categoryZh + qualifier;
+  }
+
+  return qtyPrefix + rest + (rawQualifier ? ` ${rawQualifier}` : ''); // Unresolved — keep original English.
+}
+
+function localizedRecipeDescription(rawDescription) {
+  const [inputsPart, outputPart] = rawDescription.split(/\s*->\s*/);
+  const zhInputs = inputsPart.split(/\s*\+\s*/).map(localizedRecipePhrase).join(' + ');
+  const zhOutput = outputPart !== undefined ? localizedRecipePhrase(outputPart) : undefined;
+  const zhTw = zhOutput !== undefined ? `${zhInputs} -> ${zhOutput}` : zhInputs;
+  return { en: rawDescription, 'zh-TW': zhTw, 'zh-CN': toZhCn(zhTw) };
+}
+
 const cubeRecipesOut = Object.entries(cubeMainData)
   .filter(([id, v]) => (v.enabled === 1 || RECIPE_CATEGORY[id] === 'craftedGrandCharm') && !CRAFT_RECIPE_IDS.has(Number(id)))
   .map(([id, v]) => {
@@ -1150,7 +1378,7 @@ const cubeRecipesOut = Object.entries(cubeMainData)
     }
     return {
       id: `recipe-${id}`,
-      description: localizedItemName(v.description),
+      description: localizedRecipeDescription(v.description),
       category: RECIPE_CATEGORY[id] ?? (() => { throw new Error(`Unclassified cube recipe id ${id}: "${v.description}"`); })(),
       ingredientIcons,
       outputIcon: resolveIconFor(v.output),

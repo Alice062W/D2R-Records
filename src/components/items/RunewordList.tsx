@@ -42,9 +42,9 @@ export default function RunewordList({ runewords, locale }: { runewords: Runewor
             <div className="flex items-center gap-2 flex-wrap">
               <span>{t('runewordsRunesLabel')}:</span>
               {rw.runes.map((rune, i) => (
-                <span key={`${rune}-${i}`} className="flex items-center gap-1">
+                <span key={`${rune.en}-${i}`} className="flex items-center gap-1">
                   <RuneIcon invFile={rw.runeInvFiles[i]} />
-                  {rune}
+                  {rune[locale]}
                 </span>
               ))}
             </div>
@@ -57,7 +57,7 @@ export default function RunewordList({ runewords, locale }: { runewords: Runewor
               <div className="text-sm flex flex-col gap-0.5">
                 {rw.stats.map(stat => (
                   <div key={stat.key} className={stat.isSkillRef ? 'text-[#ff4a69]' : 'text-[#fff818]'}>
-                    {stat.label[locale]}: {stat.min}–{stat.max}
+                    {stat.label[locale]}: {stat.min}–{stat.max} <span aria-hidden="true">🎲</span>
                   </div>
                 ))}
                 {rw.fixedStats.map(f => (

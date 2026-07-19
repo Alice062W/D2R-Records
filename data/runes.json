@@ -4,8 +4,8 @@
     "number": 1,
     "name": {
       "en": "El",
-      "zh-TW": "El",
-      "zh-CN": "El"
+      "zh-TW": "艾爾",
+      "zh-CN": "艾尔"
     },
     "levelReq": 11,
     "invFile": "invrEl",
@@ -97,8 +97,8 @@
     "number": 2,
     "name": {
       "en": "Eld",
-      "zh-TW": "Eld",
-      "zh-CN": "Eld"
+      "zh-TW": "艾德",
+      "zh-CN": "艾德"
     },
     "levelReq": 11,
     "invFile": "invrEld",
@@ -153,7 +153,11 @@
       }
     ],
     "recipe": {
-      "runeName": "El",
+      "runeName": {
+        "en": "El",
+        "zh-TW": "艾爾",
+        "zh-CN": "艾尔"
+      },
       "count": 3,
       "gemName": null
     },
@@ -172,8 +176,8 @@
     "number": 3,
     "name": {
       "en": "Tir",
-      "zh-TW": "Tir",
-      "zh-CN": "Tir"
+      "zh-TW": "特爾",
+      "zh-CN": "特尔"
     },
     "levelReq": 13,
     "invFile": "invrTir",
@@ -217,7 +221,11 @@
       }
     ],
     "recipe": {
-      "runeName": "Eld",
+      "runeName": {
+        "en": "Eld",
+        "zh-TW": "艾德",
+        "zh-CN": "艾德"
+      },
       "count": 3,
       "gemName": null
     },
@@ -236,8 +244,8 @@
     "number": 4,
     "name": {
       "en": "Nef",
-      "zh-TW": "Nef",
-      "zh-CN": "Nef"
+      "zh-TW": "那夫",
+      "zh-CN": "那夫"
     },
     "levelReq": 13,
     "invFile": "invrNef",
@@ -281,7 +289,11 @@
       }
     ],
     "recipe": {
-      "runeName": "Tir",
+      "runeName": {
+        "en": "Tir",
+        "zh-TW": "特爾",
+        "zh-CN": "特尔"
+      },
       "count": 3,
       "gemName": null
     },
@@ -300,8 +312,8 @@
     "number": 5,
     "name": {
       "en": "Eth",
-      "zh-TW": "Eth",
-      "zh-CN": "Eth"
+      "zh-TW": "愛斯",
+      "zh-CN": "爱斯"
     },
     "levelReq": 15,
     "invFile": "invrEth",
@@ -345,7 +357,11 @@
       }
     ],
     "recipe": {
-      "runeName": "Nef",
+      "runeName": {
+        "en": "Nef",
+        "zh-TW": "那夫",
+        "zh-CN": "那夫"
+      },
       "count": 3,
       "gemName": null
     },
@@ -364,8 +380,8 @@
     "number": 6,
     "name": {
       "en": "Ith",
-      "zh-TW": "Ith",
-      "zh-CN": "Ith"
+      "zh-TW": "伊司",
+      "zh-CN": "伊司"
     },
     "levelReq": 15,
     "invFile": "invrIth",
@@ -409,7 +425,11 @@
       }
     ],
     "recipe": {
-      "runeName": "Eth",
+      "runeName": {
+        "en": "Eth",
+        "zh-TW": "愛斯",
+        "zh-CN": "爱斯"
+      },
       "count": 3,
       "gemName": null
     },
@@ -428,8 +448,8 @@
     "number": 7,
     "name": {
       "en": "Tal",
-      "zh-TW": "Tal",
-      "zh-CN": "Tal"
+      "zh-TW": "塔爾",
+      "zh-CN": "塔尔"
     },
     "levelReq": 17,
     "invFile": "invrTal",
@@ -473,7 +493,11 @@
       }
     ],
     "recipe": {
-      "runeName": "Ith",
+      "runeName": {
+        "en": "Ith",
+        "zh-TW": "伊司",
+        "zh-CN": "伊司"
+      },
       "count": 3,
       "gemName": null
     },
@@ -492,8 +516,8 @@
     "number": 8,
     "name": {
       "en": "Ral",
-      "zh-TW": "Ral",
-      "zh-CN": "Ral"
+      "zh-TW": "拉爾",
+      "zh-CN": "拉尔"
     },
     "levelReq": 19,
     "invFile": "invrRal",
@@ -537,7 +561,11 @@
       }
     ],
     "recipe": {
-      "runeName": "Tal",
+      "runeName": {
+        "en": "Tal",
+        "zh-TW": "塔爾",
+        "zh-CN": "塔尔"
+      },
       "count": 3,
       "gemName": null
     },
@@ -556,8 +584,8 @@
     "number": 9,
     "name": {
       "en": "Ort",
-      "zh-TW": "Ort",
-      "zh-CN": "Ort"
+      "zh-TW": "歐特",
+      "zh-CN": "欧特"
     },
     "levelReq": 21,
     "invFile": "invrOrt",
@@ -601,7 +629,11 @@
       }
     ],
     "recipe": {
-      "runeName": "Ral",
+      "runeName": {
+        "en": "Ral",
+        "zh-TW": "拉爾",
+        "zh-CN": "拉尔"
+      },
       "count": 3,
       "gemName": null
     },
@@ -620,8 +652,8 @@
     "number": 10,
     "name": {
       "en": "Thul",
-      "zh-TW": "Thul",
-      "zh-CN": "Thul"
+      "zh-TW": "書爾",
+      "zh-CN": "书尔"
     },
     "levelReq": 23,
     "invFile": "invrThul",
@@ -665,7 +697,11 @@
       }
     ],
     "recipe": {
-      "runeName": "Ort",
+      "runeName": {
+        "en": "Ort",
+        "zh-TW": "歐特",
+        "zh-CN": "欧特"
+      },
       "count": 3,
       "gemName": null
     },
@@ -684,8 +720,8 @@
     "number": 11,
     "name": {
       "en": "Amn",
-      "zh-TW": "Amn",
-      "zh-CN": "Amn"
+      "zh-TW": "安姆",
+      "zh-CN": "安姆"
     },
     "levelReq": 25,
     "invFile": "invrAmn",
@@ -729,7 +765,11 @@
       }
     ],
     "recipe": {
-      "runeName": "Thul",
+      "runeName": {
+        "en": "Thul",
+        "zh-TW": "書爾",
+        "zh-CN": "书尔"
+      },
       "count": 3,
       "gemName": {
         "en": "Chipped Topaz",
@@ -752,8 +792,8 @@
     "number": 12,
     "name": {
       "en": "Sol",
-      "zh-TW": "Sol",
-      "zh-CN": "Sol"
+      "zh-TW": "索爾",
+      "zh-CN": "索尔"
     },
     "levelReq": 27,
     "invFile": "invrSol",
@@ -797,7 +837,11 @@
       }
     ],
     "recipe": {
-      "runeName": "Amn",
+      "runeName": {
+        "en": "Amn",
+        "zh-TW": "安姆",
+        "zh-CN": "安姆"
+      },
       "count": 3,
       "gemName": {
         "en": "Chipped Amethyst",
@@ -820,8 +864,8 @@
     "number": 13,
     "name": {
       "en": "Shael",
-      "zh-TW": "Shael",
-      "zh-CN": "Shael"
+      "zh-TW": "夏",
+      "zh-CN": "夏"
     },
     "levelReq": 29,
     "invFile": "invrShae",
@@ -865,7 +909,11 @@
       }
     ],
     "recipe": {
-      "runeName": "Sol",
+      "runeName": {
+        "en": "Sol",
+        "zh-TW": "索爾",
+        "zh-CN": "索尔"
+      },
       "count": 3,
       "gemName": {
         "en": "Chipped Sapphire",
@@ -888,8 +936,8 @@
     "number": 14,
     "name": {
       "en": "Dol",
-      "zh-TW": "Dol",
-      "zh-CN": "Dol"
+      "zh-TW": "多爾",
+      "zh-CN": "多尔"
     },
     "levelReq": 31,
     "invFile": "invrDol",
@@ -933,7 +981,11 @@
       }
     ],
     "recipe": {
-      "runeName": "Shael",
+      "runeName": {
+        "en": "Shael",
+        "zh-TW": "夏",
+        "zh-CN": "夏"
+      },
       "count": 3,
       "gemName": {
         "en": "Chipped Ruby",
@@ -956,8 +1008,8 @@
     "number": 15,
     "name": {
       "en": "Hel",
-      "zh-TW": "Hel",
-      "zh-CN": "Hel"
+      "zh-TW": "海爾",
+      "zh-CN": "海尔"
     },
     "levelReq": 0,
     "invFile": "invrHel",
@@ -1001,7 +1053,11 @@
       }
     ],
     "recipe": {
-      "runeName": "Dol",
+      "runeName": {
+        "en": "Dol",
+        "zh-TW": "多爾",
+        "zh-CN": "多尔"
+      },
       "count": 3,
       "gemName": {
         "en": "Chipped Emerald",
@@ -1024,8 +1080,8 @@
     "number": 16,
     "name": {
       "en": "Io",
-      "zh-TW": "Io",
-      "zh-CN": "Io"
+      "zh-TW": "破",
+      "zh-CN": "破"
     },
     "levelReq": 35,
     "invFile": "invrIo",
@@ -1069,7 +1125,11 @@
       }
     ],
     "recipe": {
-      "runeName": "Hel",
+      "runeName": {
+        "en": "Hel",
+        "zh-TW": "海爾",
+        "zh-CN": "海尔"
+      },
       "count": 3,
       "gemName": {
         "en": "Chipped Diamond",
@@ -1092,8 +1152,8 @@
     "number": 17,
     "name": {
       "en": "Lum",
-      "zh-TW": "Lum",
-      "zh-CN": "Lum"
+      "zh-TW": "盧姆",
+      "zh-CN": "卢姆"
     },
     "levelReq": 37,
     "invFile": "invrLum",
@@ -1137,7 +1197,11 @@
       }
     ],
     "recipe": {
-      "runeName": "Io",
+      "runeName": {
+        "en": "Io",
+        "zh-TW": "破",
+        "zh-CN": "破"
+      },
       "count": 3,
       "gemName": {
         "en": "Flawed Topaz",
@@ -1160,8 +1224,8 @@
     "number": 18,
     "name": {
       "en": "Ko",
-      "zh-TW": "Ko",
-      "zh-CN": "Ko"
+      "zh-TW": "科",
+      "zh-CN": "科"
     },
     "levelReq": 39,
     "invFile": "invrKo",
@@ -1205,7 +1269,11 @@
       }
     ],
     "recipe": {
-      "runeName": "Lum",
+      "runeName": {
+        "en": "Lum",
+        "zh-TW": "盧姆",
+        "zh-CN": "卢姆"
+      },
       "count": 3,
       "gemName": {
         "en": "Flawed Amethyst",
@@ -1228,8 +1296,8 @@
     "number": 19,
     "name": {
       "en": "Fal",
-      "zh-TW": "Fal",
-      "zh-CN": "Fal"
+      "zh-TW": "法爾",
+      "zh-CN": "法尔"
     },
     "levelReq": 41,
     "invFile": "invrFal",
@@ -1273,7 +1341,11 @@
       }
     ],
     "recipe": {
-      "runeName": "Ko",
+      "runeName": {
+        "en": "Ko",
+        "zh-TW": "科",
+        "zh-CN": "科"
+      },
       "count": 3,
       "gemName": {
         "en": "Flawed Sapphire",
@@ -1296,8 +1368,8 @@
     "number": 20,
     "name": {
       "en": "Lem",
-      "zh-TW": "Lem",
-      "zh-CN": "Lem"
+      "zh-TW": "藍姆",
+      "zh-CN": "蓝姆"
     },
     "levelReq": 43,
     "invFile": "invrLem",
@@ -1341,7 +1413,11 @@
       }
     ],
     "recipe": {
-      "runeName": "Fal",
+      "runeName": {
+        "en": "Fal",
+        "zh-TW": "法爾",
+        "zh-CN": "法尔"
+      },
       "count": 3,
       "gemName": {
         "en": "Flawed Ruby",
@@ -1364,8 +1440,8 @@
     "number": 21,
     "name": {
       "en": "Pul",
-      "zh-TW": "Pul",
-      "zh-CN": "Pul"
+      "zh-TW": "普爾",
+      "zh-CN": "普尔"
     },
     "levelReq": 45,
     "invFile": "invrPul",
@@ -1420,7 +1496,11 @@
       }
     ],
     "recipe": {
-      "runeName": "Lem",
+      "runeName": {
+        "en": "Lem",
+        "zh-TW": "藍姆",
+        "zh-CN": "蓝姆"
+      },
       "count": 3,
       "gemName": {
         "en": "Flawed Emerald",
@@ -1443,8 +1523,8 @@
     "number": 22,
     "name": {
       "en": "Um",
-      "zh-TW": "Um",
-      "zh-CN": "Um"
+      "zh-TW": "烏姆",
+      "zh-CN": "乌姆"
     },
     "levelReq": 47,
     "invFile": "invrUm",
@@ -1488,7 +1568,11 @@
       }
     ],
     "recipe": {
-      "runeName": "Pul",
+      "runeName": {
+        "en": "Pul",
+        "zh-TW": "普爾",
+        "zh-CN": "普尔"
+      },
       "count": 2,
       "gemName": {
         "en": "Flawed Diamond",
@@ -1511,8 +1595,8 @@
     "number": 23,
     "name": {
       "en": "Mal",
-      "zh-TW": "Mal",
-      "zh-CN": "Mal"
+      "zh-TW": "馬爾",
+      "zh-CN": "马尔"
     },
     "levelReq": 49,
     "invFile": "invrMal",
@@ -1556,7 +1640,11 @@
       }
     ],
     "recipe": {
-      "runeName": "Um",
+      "runeName": {
+        "en": "Um",
+        "zh-TW": "烏姆",
+        "zh-CN": "乌姆"
+      },
       "count": 2,
       "gemName": {
         "en": "Topaz",
@@ -1579,8 +1667,8 @@
     "number": 24,
     "name": {
       "en": "Ist",
-      "zh-TW": "Ist",
-      "zh-CN": "Ist"
+      "zh-TW": "伊司特",
+      "zh-CN": "伊司特"
     },
     "levelReq": 51,
     "invFile": "invrIst",
@@ -1624,7 +1712,11 @@
       }
     ],
     "recipe": {
-      "runeName": "Mal",
+      "runeName": {
+        "en": "Mal",
+        "zh-TW": "馬爾",
+        "zh-CN": "马尔"
+      },
       "count": 2,
       "gemName": {
         "en": "Amethyst",
@@ -1647,8 +1739,8 @@
     "number": 25,
     "name": {
       "en": "Gul",
-      "zh-TW": "Gul",
-      "zh-CN": "Gul"
+      "zh-TW": "古爾",
+      "zh-CN": "古尔"
     },
     "levelReq": 53,
     "invFile": "invrGul",
@@ -1692,7 +1784,11 @@
       }
     ],
     "recipe": {
-      "runeName": "Ist",
+      "runeName": {
+        "en": "Ist",
+        "zh-TW": "伊司特",
+        "zh-CN": "伊司特"
+      },
       "count": 2,
       "gemName": {
         "en": "Sapphire",
@@ -1715,8 +1811,8 @@
     "number": 26,
     "name": {
       "en": "Vex",
-      "zh-TW": "Vex",
-      "zh-CN": "Vex"
+      "zh-TW": "伐克斯",
+      "zh-CN": "伐克斯"
     },
     "levelReq": 55,
     "invFile": "invrVex",
@@ -1760,7 +1856,11 @@
       }
     ],
     "recipe": {
-      "runeName": "Gul",
+      "runeName": {
+        "en": "Gul",
+        "zh-TW": "古爾",
+        "zh-CN": "古尔"
+      },
       "count": 2,
       "gemName": {
         "en": "Ruby",
@@ -1783,8 +1883,8 @@
     "number": 27,
     "name": {
       "en": "Ohm",
-      "zh-TW": "Ohm",
-      "zh-CN": "Ohm"
+      "zh-TW": "歐姆",
+      "zh-CN": "欧姆"
     },
     "levelReq": 57,
     "invFile": "invrOhm",
@@ -1828,7 +1928,11 @@
       }
     ],
     "recipe": {
-      "runeName": "Vex",
+      "runeName": {
+        "en": "Vex",
+        "zh-TW": "伐克斯",
+        "zh-CN": "伐克斯"
+      },
       "count": 2,
       "gemName": {
         "en": "Emerald",
@@ -1851,8 +1955,8 @@
     "number": 28,
     "name": {
       "en": "Lo",
-      "zh-TW": "Lo",
-      "zh-CN": "Lo"
+      "zh-TW": "羅",
+      "zh-CN": "罗"
     },
     "levelReq": 59,
     "invFile": "invrLo",
@@ -1896,7 +2000,11 @@
       }
     ],
     "recipe": {
-      "runeName": "Ohm",
+      "runeName": {
+        "en": "Ohm",
+        "zh-TW": "歐姆",
+        "zh-CN": "欧姆"
+      },
       "count": 2,
       "gemName": {
         "en": "Diamond",
@@ -1919,8 +2027,8 @@
     "number": 29,
     "name": {
       "en": "Sur",
-      "zh-TW": "Sur",
-      "zh-CN": "Sur"
+      "zh-TW": "瑟",
+      "zh-CN": "瑟"
     },
     "levelReq": 61,
     "invFile": "invrSur",
@@ -1964,7 +2072,11 @@
       }
     ],
     "recipe": {
-      "runeName": "Lo",
+      "runeName": {
+        "en": "Lo",
+        "zh-TW": "羅",
+        "zh-CN": "罗"
+      },
       "count": 2,
       "gemName": {
         "en": "Flawless Topaz",
@@ -1987,8 +2099,8 @@
     "number": 30,
     "name": {
       "en": "Ber",
-      "zh-TW": "Ber",
-      "zh-CN": "Ber"
+      "zh-TW": "貝",
+      "zh-CN": "贝"
     },
     "levelReq": 63,
     "invFile": "invrBer",
@@ -2032,7 +2144,11 @@
       }
     ],
     "recipe": {
-      "runeName": "Sur",
+      "runeName": {
+        "en": "Sur",
+        "zh-TW": "瑟",
+        "zh-CN": "瑟"
+      },
       "count": 2,
       "gemName": {
         "en": "Flawless Amethyst",
@@ -2055,8 +2171,8 @@
     "number": 31,
     "name": {
       "en": "Jah",
-      "zh-TW": "Jah",
-      "zh-CN": "Jah"
+      "zh-TW": "喬",
+      "zh-CN": "乔"
     },
     "levelReq": 65,
     "invFile": "invrJo",
@@ -2100,7 +2216,11 @@
       }
     ],
     "recipe": {
-      "runeName": "Ber",
+      "runeName": {
+        "en": "Ber",
+        "zh-TW": "貝",
+        "zh-CN": "贝"
+      },
       "count": 2,
       "gemName": {
         "en": "Flawless Sapphire",
@@ -2123,8 +2243,8 @@
     "number": 32,
     "name": {
       "en": "Cham",
-      "zh-TW": "Cham",
-      "zh-CN": "Cham"
+      "zh-TW": "查姆",
+      "zh-CN": "查姆"
     },
     "levelReq": 67,
     "invFile": "invrCham",
@@ -2168,7 +2288,11 @@
       }
     ],
     "recipe": {
-      "runeName": "Jah",
+      "runeName": {
+        "en": "Jah",
+        "zh-TW": "喬",
+        "zh-CN": "乔"
+      },
       "count": 2,
       "gemName": {
         "en": "Flawless Ruby",
@@ -2191,8 +2315,8 @@
     "number": 33,
     "name": {
       "en": "Zod",
-      "zh-TW": "Zod",
-      "zh-CN": "Zod"
+      "zh-TW": "薩德",
+      "zh-CN": "萨德"
     },
     "levelReq": 69,
     "invFile": "invrZod",
@@ -2236,7 +2360,11 @@
       }
     ],
     "recipe": {
-      "runeName": "Cham",
+      "runeName": {
+        "en": "Cham",
+        "zh-TW": "查姆",
+        "zh-CN": "查姆"
+      },
       "count": 2,
       "gemName": {
         "en": "Flawless Emerald",

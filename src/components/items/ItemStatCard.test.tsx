@@ -100,4 +100,34 @@ describe('ItemStatCard', () => {
     expect(screen.getByText(/Strength/).closest('div')).toHaveClass('text-[#8080f3]');
     expect(screen.getByText(/Combat Skills/).closest('div')).toHaveClass('text-[#ff4a69]');
   });
+
+  it('marks variable stats (including skill-ref ones) with a dice icon, but not fixed stats', () => {
+    const item: GrailItem = {
+      id: 'unique-3', code: 'x', name: 'Test Item', kind: 'unique', setName: null,
+      levelReq: 1, baseName: 'Base', grade: 'normal', slotCategory: 'axes',
+      defense: null, requiredStrength: null, durability: null, invFile: '',
+      stats: [
+        { key: 'dmg%', label: 'Enhanced Damage %', min: 60, max: 70, isSkillRef: false },
+        { key: 'skill:1', label: 'Level 1-20 Fireball', min: 1, max: 20, isSkillRef: true },
+      ],
+      fixedStats: [
+        { key: 'oskill:2', label: 'Combat Skills', value: 2, isSkillRef: true },
+      ],
+      setBonuses: [
+        { key: 'res-all', label: 'All Resistances', min: 50, max: 50, isSkillRef: false },
+        { key: 'sor', label: 'Sorceress Skill Levels', min: 3, max: 6, isSkillRef: true },
+      ],
+      statPriority: [],
+    };
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <ItemStatCard item={item} />
+      </NextIntlClientProvider>
+    );
+    expect(screen.getByText(/Enhanced Damage %/).closest('div')).toHaveTextContent('🎲');
+    expect(screen.getByText(/Level 1-20 Fireball/).closest('div')).toHaveTextContent('🎲');
+    expect(screen.getByText(/Combat Skills/).closest('div')).not.toHaveTextContent('🎲');
+    expect(screen.getByText(/All Resistances/).closest('div')).not.toHaveTextContent('🎲');
+    expect(screen.getByText(/Sorceress Skill Levels/).closest('div')).toHaveTextContent('🎲');
+  });
 });

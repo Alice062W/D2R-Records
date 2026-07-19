@@ -39,6 +39,7 @@ export default function SetGroupDetail({
                     {i > 0 && ', '}
                     <span className={s.isSkillRef ? 'text-[#ff4a69]' : s.min === s.max ? 'text-[#22ff55]' : 'text-[#fff818]'}>
                       {s.label}: {s.min === s.max ? s.min : `${s.min}–${s.max}`}
+                      {s.min !== s.max && <> <span aria-hidden="true">🎲</span></>}
                     </span>
                   </span>
                 ))}
@@ -51,6 +52,7 @@ export default function SetGroupDetail({
           {fullSetBonuses.map(s => (
             <div key={s.key} className={s.isSkillRef ? 'text-[#ff4a69]' : s.min === s.max ? 'text-[#22ff55]' : 'text-[#fff818]'}>
               {s.label}: {s.min === s.max ? s.min : `${s.min}–${s.max}`}
+              {s.min !== s.max && <> <span aria-hidden="true">🎲</span></>}
             </div>
           ))}
         </div>

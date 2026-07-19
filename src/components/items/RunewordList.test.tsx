@@ -54,7 +54,15 @@ describe('RunewordFilters + RunewordList', () => {
   });
 
   it('renders one icon per rune in rune order', () => {
-    const rw = { ...baseRunewordFixture, runes: ['Ral', 'Ort', 'Tal'], runeInvFiles: ['invrRal', 'invrOrt', 'invrTal'] };
+    const rw = {
+      ...baseRunewordFixture,
+      runes: [
+        { en: 'Ral', 'zh-TW': '拉爾', 'zh-CN': '拉尔' },
+        { en: 'Ort', 'zh-TW': '歐特', 'zh-CN': '欧特' },
+        { en: 'Tal', 'zh-TW': '塔爾', 'zh-CN': '塔尔' },
+      ],
+      runeInvFiles: ['invrRal', 'invrOrt', 'invrTal'],
+    };
     const { container } = render(
       <NextIntlClientProvider locale="en" messages={messages}>
         <RunewordList runewords={[rw]} locale="en" />

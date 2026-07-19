@@ -7,9 +7,21 @@
       "zh-CN": "先祖之契"
     },
     "runes": [
-      "Ral",
-      "Ort",
-      "Tal"
+      {
+        "en": "Ral",
+        "zh-TW": "拉爾",
+        "zh-CN": "拉尔"
+      },
+      {
+        "en": "Ort",
+        "zh-TW": "歐特",
+        "zh-CN": "欧特"
+      },
+      {
+        "en": "Tal",
+        "zh-TW": "塔爾",
+        "zh-CN": "塔尔"
+      }
     ],
     "runeInvFiles": [
       "invrRal",
@@ -74,9 +86,21 @@
       "zh-CN": "权威"
     },
     "runes": [
-      "Hel",
-      "Shael",
-      "Ral"
+      {
+        "en": "Hel",
+        "zh-TW": "海爾",
+        "zh-CN": "海尔"
+      },
+      {
+        "en": "Shael",
+        "zh-TW": "夏",
+        "zh-CN": "夏"
+      },
+      {
+        "en": "Ral",
+        "zh-TW": "拉爾",
+        "zh-CN": "拉尔"
+      }
     ],
     "runeInvFiles": [
       "invrHel",
@@ -145,11 +169,31 @@
       "zh-CN": "野兽"
     },
     "runes": [
-      "Ber",
-      "Tir",
-      "Um",
-      "Mal",
-      "Lum"
+      {
+        "en": "Ber",
+        "zh-TW": "貝",
+        "zh-CN": "贝"
+      },
+      {
+        "en": "Tir",
+        "zh-TW": "特爾",
+        "zh-CN": "特尔"
+      },
+      {
+        "en": "Um",
+        "zh-TW": "烏姆",
+        "zh-CN": "乌姆"
+      },
+      {
+        "en": "Mal",
+        "zh-TW": "馬爾",
+        "zh-CN": "马尔"
+      },
+      {
+        "en": "Lum",
+        "zh-TW": "盧姆",
+        "zh-CN": "卢姆"
+      }
     ],
     "runeInvFiles": [
       "invrBer",
@@ -250,9 +294,21 @@
       "zh-CN": "黑锤"
     },
     "runes": [
-      "Thul",
-      "Io",
-      "Nef"
+      {
+        "en": "Thul",
+        "zh-TW": "書爾",
+        "zh-CN": "书尔"
+      },
+      {
+        "en": "Io",
+        "zh-TW": "破",
+        "zh-CN": "破"
+      },
+      {
+        "en": "Nef",
+        "zh-TW": "那夫",
+        "zh-CN": "那夫"
+      }
     ],
     "runeInvFiles": [
       "invrThul",
@@ -339,9 +395,21 @@
       "zh-CN": "骸骨"
     },
     "runes": [
-      "Sol",
-      "Um",
-      "Um"
+      {
+        "en": "Sol",
+        "zh-TW": "索爾",
+        "zh-CN": "索尔"
+      },
+      {
+        "en": "Um",
+        "zh-TW": "烏姆",
+        "zh-CN": "乌姆"
+      },
+      {
+        "en": "Um",
+        "zh-TW": "烏姆",
+        "zh-CN": "乌姆"
+      }
     ],
     "runeInvFiles": [
       "invrSol",
@@ -410,10 +478,26 @@
       "zh-CN": "刺藤"
     },
     "runes": [
-      "Ral",
-      "Ohm",
-      "Sur",
-      "Eth"
+      {
+        "en": "Ral",
+        "zh-TW": "拉爾",
+        "zh-CN": "拉尔"
+      },
+      {
+        "en": "Ohm",
+        "zh-TW": "歐姆",
+        "zh-CN": "欧姆"
+      },
+      {
+        "en": "Sur",
+        "zh-TW": "瑟",
+        "zh-CN": "瑟"
+      },
+      {
+        "en": "Eth",
+        "zh-TW": "愛斯",
+        "zh-CN": "爱斯"
+      }
     ],
     "runeInvFiles": [
       "invrRal",
@@ -513,10 +597,26 @@
       "zh-CN": "烙印"
     },
     "runes": [
-      "Jah",
-      "Lo",
-      "Mal",
-      "Gul"
+      {
+        "en": "Jah",
+        "zh-TW": "喬",
+        "zh-CN": "乔"
+      },
+      {
+        "en": "Lo",
+        "zh-TW": "羅",
+        "zh-CN": "罗"
+      },
+      {
+        "en": "Mal",
+        "zh-TW": "馬爾",
+        "zh-CN": "马尔"
+      },
+      {
+        "en": "Gul",
+        "zh-TW": "古爾",
+        "zh-CN": "古尔"
+      }
     ],
     "runeInvFiles": [
       "invrJo",
@@ -617,12 +717,36 @@
       "zh-CN": "死亡呼吸"
     },
     "runes": [
-      "Vex",
-      "Hel",
-      "El",
-      "Eld",
-      "Zod",
-      "Eth"
+      {
+        "en": "Vex",
+        "zh-TW": "伐克斯",
+        "zh-CN": "伐克斯"
+      },
+      {
+        "en": "Hel",
+        "zh-TW": "海爾",
+        "zh-CN": "海尔"
+      },
+      {
+        "en": "El",
+        "zh-TW": "艾爾",
+        "zh-CN": "艾尔"
+      },
+      {
+        "en": "Eld",
+        "zh-TW": "艾德",
+        "zh-CN": "艾德"
+      },
+      {
+        "en": "Zod",
+        "zh-TW": "薩德",
+        "zh-CN": "萨德"
+      },
+      {
+        "en": "Eth",
+        "zh-TW": "愛斯",
+        "zh-CN": "爱斯"
+      }
     ],
     "runeInvFiles": [
       "invrVex",
@@ -724,9 +848,21 @@
       "zh-CN": "壁垒"
     },
     "runes": [
-      "Shael",
-      "Io",
-      "Sol"
+      {
+        "en": "Shael",
+        "zh-TW": "夏",
+        "zh-CN": "夏"
+      },
+      {
+        "en": "Io",
+        "zh-TW": "破",
+        "zh-CN": "破"
+      },
+      {
+        "en": "Sol",
+        "zh-TW": "索爾",
+        "zh-CN": "索尔"
+      }
     ],
     "runeInvFiles": [
       "invrShae",
@@ -805,11 +941,31 @@
       "zh-CN": "战争召唤"
     },
     "runes": [
-      "Amn",
-      "Ral",
-      "Mal",
-      "Ist",
-      "Ohm"
+      {
+        "en": "Amn",
+        "zh-TW": "安姆",
+        "zh-CN": "安姆"
+      },
+      {
+        "en": "Ral",
+        "zh-TW": "拉爾",
+        "zh-CN": "拉尔"
+      },
+      {
+        "en": "Mal",
+        "zh-TW": "馬爾",
+        "zh-CN": "马尔"
+      },
+      {
+        "en": "Ist",
+        "zh-TW": "伊司特",
+        "zh-CN": "伊司特"
+      },
+      {
+        "en": "Ohm",
+        "zh-TW": "歐姆",
+        "zh-CN": "欧姆"
+      }
     ],
     "runeInvFiles": [
       "invrAmn",
@@ -911,10 +1067,26 @@
       "zh-CN": "荣耀之炼"
     },
     "runes": [
-      "Dol",
-      "Um",
-      "Ber",
-      "Ist"
+      {
+        "en": "Dol",
+        "zh-TW": "多爾",
+        "zh-CN": "多尔"
+      },
+      {
+        "en": "Um",
+        "zh-TW": "烏姆",
+        "zh-CN": "乌姆"
+      },
+      {
+        "en": "Ber",
+        "zh-TW": "貝",
+        "zh-CN": "贝"
+      },
+      {
+        "en": "Ist",
+        "zh-TW": "伊司特",
+        "zh-CN": "伊司特"
+      }
     ],
     "runeInvFiles": [
       "invrDol",
@@ -1010,9 +1182,21 @@
       "zh-CN": "混沌"
     },
     "runes": [
-      "Fal",
-      "Ohm",
-      "Um"
+      {
+        "en": "Fal",
+        "zh-TW": "法爾",
+        "zh-CN": "法尔"
+      },
+      {
+        "en": "Ohm",
+        "zh-TW": "歐姆",
+        "zh-CN": "欧姆"
+      },
+      {
+        "en": "Um",
+        "zh-TW": "烏姆",
+        "zh-CN": "乌姆"
+      }
     ],
     "runeInvFiles": [
       "invrFal",
@@ -1112,9 +1296,21 @@
       "zh-CN": "巫师会"
     },
     "runes": [
-      "Ist",
-      "Ral",
-      "Io"
+      {
+        "en": "Ist",
+        "zh-TW": "伊司特",
+        "zh-CN": "伊司特"
+      },
+      {
+        "en": "Ral",
+        "zh-TW": "拉爾",
+        "zh-CN": "拉尔"
+      },
+      {
+        "en": "Io",
+        "zh-TW": "破",
+        "zh-CN": "破"
+      }
     ],
     "runeInvFiles": [
       "invrIst",
@@ -1204,9 +1400,21 @@
       "zh-CN": "新月"
     },
     "runes": [
-      "Shael",
-      "Um",
-      "Tir"
+      {
+        "en": "Shael",
+        "zh-TW": "夏",
+        "zh-CN": "夏"
+      },
+      {
+        "en": "Um",
+        "zh-TW": "烏姆",
+        "zh-CN": "乌姆"
+      },
+      {
+        "en": "Tir",
+        "zh-TW": "特爾",
+        "zh-CN": "特尔"
+      }
     ],
     "runeInvFiles": [
       "invrShae",
@@ -1307,9 +1515,21 @@
       "zh-CN": "治愈"
     },
     "runes": [
-      "Shael",
-      "Io",
-      "Tal"
+      {
+        "en": "Shael",
+        "zh-TW": "夏",
+        "zh-CN": "夏"
+      },
+      {
+        "en": "Io",
+        "zh-TW": "破",
+        "zh-CN": "破"
+      },
+      {
+        "en": "Tal",
+        "zh-TW": "塔爾",
+        "zh-CN": "塔尔"
+      }
     ],
     "runeInvFiles": [
       "invrShae",
@@ -1387,11 +1607,31 @@
       "zh-CN": "死神"
     },
     "runes": [
-      "Hel",
-      "El",
-      "Vex",
-      "Ort",
-      "Gul"
+      {
+        "en": "Hel",
+        "zh-TW": "海爾",
+        "zh-CN": "海尔"
+      },
+      {
+        "en": "El",
+        "zh-TW": "艾爾",
+        "zh-CN": "艾尔"
+      },
+      {
+        "en": "Vex",
+        "zh-TW": "伐克斯",
+        "zh-CN": "伐克斯"
+      },
+      {
+        "en": "Ort",
+        "zh-TW": "歐特",
+        "zh-CN": "欧特"
+      },
+      {
+        "en": "Gul",
+        "zh-TW": "古爾",
+        "zh-CN": "古尔"
+      }
     ],
     "runeInvFiles": [
       "invrHel",
@@ -1493,9 +1733,21 @@
       "zh-CN": "精神错乱"
     },
     "runes": [
-      "Lem",
-      "Ist",
-      "Io"
+      {
+        "en": "Lem",
+        "zh-TW": "藍姆",
+        "zh-CN": "蓝姆"
+      },
+      {
+        "en": "Ist",
+        "zh-TW": "伊司特",
+        "zh-CN": "伊司特"
+      },
+      {
+        "en": "Io",
+        "zh-TW": "破",
+        "zh-CN": "破"
+      }
     ],
     "runeInvFiles": [
       "invrLem",
@@ -1596,11 +1848,31 @@
       "zh-CN": "毁灭"
     },
     "runes": [
-      "Vex",
-      "Lo",
-      "Ber",
-      "Jah",
-      "Ko"
+      {
+        "en": "Vex",
+        "zh-TW": "伐克斯",
+        "zh-CN": "伐克斯"
+      },
+      {
+        "en": "Lo",
+        "zh-TW": "羅",
+        "zh-CN": "罗"
+      },
+      {
+        "en": "Ber",
+        "zh-TW": "貝",
+        "zh-CN": "贝"
+      },
+      {
+        "en": "Jah",
+        "zh-TW": "喬",
+        "zh-CN": "乔"
+      },
+      {
+        "en": "Ko",
+        "zh-TW": "科",
+        "zh-CN": "科"
+      }
     ],
     "runeInvFiles": [
       "invrVex",
@@ -1703,11 +1975,31 @@
       "zh-CN": "末日"
     },
     "runes": [
-      "Hel",
-      "Ohm",
-      "Um",
-      "Lo",
-      "Cham"
+      {
+        "en": "Hel",
+        "zh-TW": "海爾",
+        "zh-CN": "海尔"
+      },
+      {
+        "en": "Ohm",
+        "zh-TW": "歐姆",
+        "zh-CN": "欧姆"
+      },
+      {
+        "en": "Um",
+        "zh-TW": "烏姆",
+        "zh-CN": "乌姆"
+      },
+      {
+        "en": "Lo",
+        "zh-TW": "羅",
+        "zh-CN": "罗"
+      },
+      {
+        "en": "Cham",
+        "zh-TW": "查姆",
+        "zh-CN": "查姆"
+      }
     ],
     "runeInvFiles": [
       "invrHel",
@@ -1808,9 +2100,21 @@
       "zh-CN": "飞龙"
     },
     "runes": [
-      "Sur",
-      "Lo",
-      "Sol"
+      {
+        "en": "Sur",
+        "zh-TW": "瑟",
+        "zh-CN": "瑟"
+      },
+      {
+        "en": "Lo",
+        "zh-TW": "羅",
+        "zh-CN": "罗"
+      },
+      {
+        "en": "Sol",
+        "zh-TW": "索爾",
+        "zh-CN": "索尔"
+      }
     ],
     "runeInvFiles": [
       "invrSur",
@@ -1909,9 +2213,21 @@
       "zh-CN": "梦境"
     },
     "runes": [
-      "Io",
-      "Jah",
-      "Pul"
+      {
+        "en": "Io",
+        "zh-TW": "破",
+        "zh-CN": "破"
+      },
+      {
+        "en": "Jah",
+        "zh-TW": "喬",
+        "zh-CN": "乔"
+      },
+      {
+        "en": "Pul",
+        "zh-TW": "普爾",
+        "zh-CN": "普尔"
+      }
     ],
     "runeInvFiles": [
       "invrIo",
@@ -2012,9 +2328,21 @@
       "zh-CN": "强制"
     },
     "runes": [
-      "Shael",
-      "Um",
-      "Thul"
+      {
+        "en": "Shael",
+        "zh-TW": "夏",
+        "zh-CN": "夏"
+      },
+      {
+        "en": "Um",
+        "zh-TW": "烏姆",
+        "zh-CN": "乌姆"
+      },
+      {
+        "en": "Thul",
+        "zh-TW": "書爾",
+        "zh-CN": "书尔"
+      }
     ],
     "runeInvFiles": [
       "invrShae",
@@ -2113,9 +2441,21 @@
       "zh-CN": "边缘"
     },
     "runes": [
-      "Tir",
-      "Tal",
-      "Amn"
+      {
+        "en": "Tir",
+        "zh-TW": "特爾",
+        "zh-CN": "特尔"
+      },
+      {
+        "en": "Tal",
+        "zh-TW": "塔爾",
+        "zh-CN": "塔尔"
+      },
+      {
+        "en": "Amn",
+        "zh-TW": "安姆",
+        "zh-CN": "安姆"
+      }
     ],
     "runeInvFiles": [
       "invrTir",
@@ -2213,9 +2553,21 @@
       "zh-CN": "谜团"
     },
     "runes": [
-      "Jah",
-      "Ith",
-      "Ber"
+      {
+        "en": "Jah",
+        "zh-TW": "喬",
+        "zh-CN": "乔"
+      },
+      {
+        "en": "Ith",
+        "zh-TW": "伊司",
+        "zh-CN": "伊司"
+      },
+      {
+        "en": "Ber",
+        "zh-TW": "貝",
+        "zh-CN": "贝"
+      }
     ],
     "runeInvFiles": [
       "invrJo",
@@ -2312,9 +2664,21 @@
       "zh-CN": "教化"
     },
     "runes": [
-      "Pul",
-      "Ral",
-      "Sur"
+      {
+        "en": "Pul",
+        "zh-TW": "普爾",
+        "zh-CN": "普尔"
+      },
+      {
+        "en": "Ral",
+        "zh-TW": "拉爾",
+        "zh-CN": "拉尔"
+      },
+      {
+        "en": "Sur",
+        "zh-TW": "瑟",
+        "zh-CN": "瑟"
+      }
     ],
     "runeInvFiles": [
       "invrPul",
@@ -2382,11 +2746,31 @@
       "zh-CN": "永恒"
     },
     "runes": [
-      "Amn",
-      "Ber",
-      "Ist",
-      "Sol",
-      "Sur"
+      {
+        "en": "Amn",
+        "zh-TW": "安姆",
+        "zh-CN": "安姆"
+      },
+      {
+        "en": "Ber",
+        "zh-TW": "貝",
+        "zh-CN": "贝"
+      },
+      {
+        "en": "Ist",
+        "zh-TW": "伊司特",
+        "zh-CN": "伊司特"
+      },
+      {
+        "en": "Sol",
+        "zh-TW": "索爾",
+        "zh-CN": "索尔"
+      },
+      {
+        "en": "Sur",
+        "zh-TW": "瑟",
+        "zh-CN": "瑟"
+      }
     ],
     "runeInvFiles": [
       "invrAmn",
@@ -2486,10 +2870,26 @@
       "zh-CN": "流亡"
     },
     "runes": [
-      "Vex",
-      "Ohm",
-      "Ist",
-      "Dol"
+      {
+        "en": "Vex",
+        "zh-TW": "伐克斯",
+        "zh-CN": "伐克斯"
+      },
+      {
+        "en": "Ohm",
+        "zh-TW": "歐姆",
+        "zh-CN": "欧姆"
+      },
+      {
+        "en": "Ist",
+        "zh-TW": "伊司特",
+        "zh-CN": "伊司特"
+      },
+      {
+        "en": "Dol",
+        "zh-TW": "多爾",
+        "zh-CN": "多尔"
+      }
     ],
     "runeInvFiles": [
       "invrVex",
@@ -2589,10 +2989,26 @@
       "zh-CN": "信心"
     },
     "runes": [
-      "Ohm",
-      "Jah",
-      "Lem",
-      "Eld"
+      {
+        "en": "Ohm",
+        "zh-TW": "歐姆",
+        "zh-CN": "欧姆"
+      },
+      {
+        "en": "Jah",
+        "zh-TW": "喬",
+        "zh-CN": "乔"
+      },
+      {
+        "en": "Lem",
+        "zh-TW": "藍姆",
+        "zh-CN": "蓝姆"
+      },
+      {
+        "en": "Eld",
+        "zh-TW": "艾德",
+        "zh-CN": "艾德"
+      }
     ],
     "runeInvFiles": [
       "invrOhm",
@@ -2691,10 +3107,26 @@
       "zh-CN": "饥荒"
     },
     "runes": [
-      "Fal",
-      "Ohm",
-      "Ort",
-      "Jah"
+      {
+        "en": "Fal",
+        "zh-TW": "法爾",
+        "zh-CN": "法尔"
+      },
+      {
+        "en": "Ohm",
+        "zh-TW": "歐姆",
+        "zh-CN": "欧姆"
+      },
+      {
+        "en": "Ort",
+        "zh-TW": "歐特",
+        "zh-CN": "欧特"
+      },
+      {
+        "en": "Jah",
+        "zh-TW": "喬",
+        "zh-CN": "乔"
+      }
     ],
     "runeInvFiles": [
       "invrFal",
@@ -2784,9 +3216,21 @@
       "zh-CN": "闪烁火焰"
     },
     "runes": [
-      "Nef",
-      "Pul",
-      "Vex"
+      {
+        "en": "Nef",
+        "zh-TW": "那夫",
+        "zh-CN": "那夫"
+      },
+      {
+        "en": "Pul",
+        "zh-TW": "普爾",
+        "zh-CN": "普尔"
+      },
+      {
+        "en": "Vex",
+        "zh-TW": "伐克斯",
+        "zh-CN": "伐克斯"
+      }
     ],
     "runeInvFiles": [
       "invrNef",
@@ -2875,10 +3319,26 @@
       "zh-CN": "刚毅"
     },
     "runes": [
-      "El",
-      "Sol",
-      "Dol",
-      "Lo"
+      {
+        "en": "El",
+        "zh-TW": "艾爾",
+        "zh-CN": "艾尔"
+      },
+      {
+        "en": "Sol",
+        "zh-TW": "索爾",
+        "zh-CN": "索尔"
+      },
+      {
+        "en": "Dol",
+        "zh-TW": "多爾",
+        "zh-CN": "多尔"
+      },
+      {
+        "en": "Lo",
+        "zh-TW": "羅",
+        "zh-CN": "罗"
+      }
     ],
     "runeInvFiles": [
       "invrEl",
@@ -2978,9 +3438,21 @@
       "zh-CN": "狂怒"
     },
     "runes": [
-      "Jah",
-      "Gul",
-      "Eth"
+      {
+        "en": "Jah",
+        "zh-TW": "喬",
+        "zh-CN": "乔"
+      },
+      {
+        "en": "Gul",
+        "zh-TW": "古爾",
+        "zh-CN": "古尔"
+      },
+      {
+        "en": "Eth",
+        "zh-TW": "愛斯",
+        "zh-CN": "爱斯"
+      }
     ],
     "runeInvFiles": [
       "invrJo",
@@ -3075,9 +3547,21 @@
       "zh-CN": "幽暗"
     },
     "runes": [
-      "Fal",
-      "Um",
-      "Pul"
+      {
+        "en": "Fal",
+        "zh-TW": "法爾",
+        "zh-CN": "法尔"
+      },
+      {
+        "en": "Um",
+        "zh-TW": "烏姆",
+        "zh-CN": "乌姆"
+      },
+      {
+        "en": "Pul",
+        "zh-TW": "普爾",
+        "zh-CN": "普尔"
+      }
     ],
     "runeInvFiles": [
       "invrFal",
@@ -3175,11 +3659,31 @@
       "zh-CN": "悔恨"
     },
     "runes": [
-      "Eth",
-      "Tir",
-      "Lo",
-      "Mal",
-      "Ral"
+      {
+        "en": "Eth",
+        "zh-TW": "愛斯",
+        "zh-CN": "爱斯"
+      },
+      {
+        "en": "Tir",
+        "zh-TW": "特爾",
+        "zh-CN": "特尔"
+      },
+      {
+        "en": "Lo",
+        "zh-TW": "羅",
+        "zh-CN": "罗"
+      },
+      {
+        "en": "Mal",
+        "zh-TW": "馬爾",
+        "zh-CN": "马尔"
+      },
+      {
+        "en": "Ral",
+        "zh-TW": "拉爾",
+        "zh-CN": "拉尔"
+      }
     ],
     "runeInvFiles": [
       "invrEth",
@@ -3282,9 +3786,21 @@
       "zh-CN": "接地"
     },
     "runes": [
-      "Shael",
-      "Io",
-      "Ort"
+      {
+        "en": "Shael",
+        "zh-TW": "夏",
+        "zh-CN": "夏"
+      },
+      {
+        "en": "Io",
+        "zh-TW": "破",
+        "zh-CN": "破"
+      },
+      {
+        "en": "Ort",
+        "zh-TW": "歐特",
+        "zh-CN": "欧特"
+      }
     ],
     "runeInvFiles": [
       "invrShae",
@@ -3353,10 +3869,26 @@
       "zh-CN": "正义之手"
     },
     "runes": [
-      "Sur",
-      "Cham",
-      "Amn",
-      "Lo"
+      {
+        "en": "Sur",
+        "zh-TW": "瑟",
+        "zh-CN": "瑟"
+      },
+      {
+        "en": "Cham",
+        "zh-TW": "查姆",
+        "zh-CN": "查姆"
+      },
+      {
+        "en": "Amn",
+        "zh-TW": "安姆",
+        "zh-CN": "安姆"
+      },
+      {
+        "en": "Lo",
+        "zh-TW": "羅",
+        "zh-CN": "罗"
+      }
     ],
     "runeInvFiles": [
       "invrSur",
@@ -3456,10 +3988,26 @@
       "zh-CN": "和谐"
     },
     "runes": [
-      "Tir",
-      "Ith",
-      "Sol",
-      "Ko"
+      {
+        "en": "Tir",
+        "zh-TW": "特爾",
+        "zh-CN": "特尔"
+      },
+      {
+        "en": "Ith",
+        "zh-TW": "伊司",
+        "zh-CN": "伊司"
+      },
+      {
+        "en": "Sol",
+        "zh-TW": "索爾",
+        "zh-CN": "索尔"
+      },
+      {
+        "en": "Ko",
+        "zh-TW": "科",
+        "zh-CN": "科"
+      }
     ],
     "runeInvFiles": [
       "invrTir",
@@ -3560,10 +4108,26 @@
       "zh-CN": "橡树之心"
     },
     "runes": [
-      "Ko",
-      "Vex",
-      "Pul",
-      "Thul"
+      {
+        "en": "Ko",
+        "zh-TW": "科",
+        "zh-CN": "科"
+      },
+      {
+        "en": "Vex",
+        "zh-TW": "伐克斯",
+        "zh-CN": "伐克斯"
+      },
+      {
+        "en": "Pul",
+        "zh-TW": "普爾",
+        "zh-CN": "普尔"
+      },
+      {
+        "en": "Thul",
+        "zh-TW": "書爾",
+        "zh-CN": "书尔"
+      }
     ],
     "runeInvFiles": [
       "invrKo",
@@ -3663,9 +4227,21 @@
       "zh-CN": "火炉"
     },
     "runes": [
-      "Shael",
-      "Io",
-      "Thul"
+      {
+        "en": "Shael",
+        "zh-TW": "夏",
+        "zh-CN": "夏"
+      },
+      {
+        "en": "Io",
+        "zh-TW": "破",
+        "zh-CN": "破"
+      },
+      {
+        "en": "Thul",
+        "zh-TW": "書爾",
+        "zh-CN": "书尔"
+      }
     ],
     "runeInvFiles": [
       "invrShae",
@@ -3744,10 +4320,26 @@
       "zh-CN": "神圣雷击"
     },
     "runes": [
-      "Eth",
-      "Ral",
-      "Ort",
-      "Tal"
+      {
+        "en": "Eth",
+        "zh-TW": "愛斯",
+        "zh-CN": "爱斯"
+      },
+      {
+        "en": "Ral",
+        "zh-TW": "拉爾",
+        "zh-CN": "拉尔"
+      },
+      {
+        "en": "Ort",
+        "zh-TW": "歐特",
+        "zh-CN": "欧特"
+      },
+      {
+        "en": "Tal",
+        "zh-TW": "塔爾",
+        "zh-CN": "塔尔"
+      }
     ],
     "runeInvFiles": [
       "invrEth",
@@ -3846,11 +4438,31 @@
       "zh-CN": "荣耀"
     },
     "runes": [
-      "Amn",
-      "El",
-      "Ith",
-      "Tir",
-      "Sol"
+      {
+        "en": "Amn",
+        "zh-TW": "安姆",
+        "zh-CN": "安姆"
+      },
+      {
+        "en": "El",
+        "zh-TW": "艾爾",
+        "zh-CN": "艾尔"
+      },
+      {
+        "en": "Ith",
+        "zh-TW": "伊司",
+        "zh-CN": "伊司"
+      },
+      {
+        "en": "Tir",
+        "zh-TW": "特爾",
+        "zh-CN": "特尔"
+      },
+      {
+        "en": "Sol",
+        "zh-TW": "索爾",
+        "zh-CN": "索尔"
+      }
     ],
     "runeInvFiles": [
       "invrAmn",
@@ -3937,9 +4549,21 @@
       "zh-CN": "Hustle (armor)"
     },
     "runes": [
-      "Shael",
-      "Ko",
-      "Eld"
+      {
+        "en": "Shael",
+        "zh-TW": "夏",
+        "zh-CN": "夏"
+      },
+      {
+        "en": "Ko",
+        "zh-TW": "科",
+        "zh-CN": "科"
+      },
+      {
+        "en": "Eld",
+        "zh-TW": "艾德",
+        "zh-CN": "艾德"
+      }
     ],
     "runeInvFiles": [
       "invrShae",
@@ -4014,9 +4638,21 @@
       "zh-CN": "Hustle (weapon)"
     },
     "runes": [
-      "Shael",
-      "Ko",
-      "Eld"
+      {
+        "en": "Shael",
+        "zh-TW": "夏",
+        "zh-CN": "夏"
+      },
+      {
+        "en": "Ko",
+        "zh-TW": "科",
+        "zh-CN": "科"
+      },
+      {
+        "en": "Eld",
+        "zh-TW": "艾德",
+        "zh-CN": "艾德"
+      }
     ],
     "runeInvFiles": [
       "invrShae",
@@ -4084,10 +4720,26 @@
       "zh-CN": "寒冰"
     },
     "runes": [
-      "Amn",
-      "Shael",
-      "Jah",
-      "Lo"
+      {
+        "en": "Amn",
+        "zh-TW": "安姆",
+        "zh-CN": "安姆"
+      },
+      {
+        "en": "Shael",
+        "zh-TW": "夏",
+        "zh-CN": "夏"
+      },
+      {
+        "en": "Jah",
+        "zh-TW": "喬",
+        "zh-CN": "乔"
+      },
+      {
+        "en": "Lo",
+        "zh-TW": "羅",
+        "zh-CN": "罗"
+      }
     ],
     "runeInvFiles": [
       "invrAmn",
@@ -4188,10 +4840,26 @@
       "zh-CN": "无限"
     },
     "runes": [
-      "Ber",
-      "Mal",
-      "Ber",
-      "Ist"
+      {
+        "en": "Ber",
+        "zh-TW": "貝",
+        "zh-CN": "贝"
+      },
+      {
+        "en": "Mal",
+        "zh-TW": "馬爾",
+        "zh-CN": "马尔"
+      },
+      {
+        "en": "Ber",
+        "zh-TW": "貝",
+        "zh-CN": "贝"
+      },
+      {
+        "en": "Ist",
+        "zh-TW": "伊司特",
+        "zh-CN": "伊司特"
+      }
     ],
     "runeInvFiles": [
       "invrBer",
@@ -4292,10 +4960,26 @@
       "zh-CN": "灵光"
     },
     "runes": [
-      "Ral",
-      "Tir",
-      "Tal",
-      "Sol"
+      {
+        "en": "Ral",
+        "zh-TW": "拉爾",
+        "zh-CN": "拉尔"
+      },
+      {
+        "en": "Tir",
+        "zh-TW": "特爾",
+        "zh-CN": "特尔"
+      },
+      {
+        "en": "Tal",
+        "zh-TW": "塔爾",
+        "zh-CN": "塔尔"
+      },
+      {
+        "en": "Sol",
+        "zh-TW": "索爾",
+        "zh-CN": "索尔"
+      }
     ],
     "runeInvFiles": [
       "invrRal",
@@ -4396,9 +5080,21 @@
       "zh-CN": "王者的慈悲"
     },
     "runes": [
-      "Amn",
-      "Ral",
-      "Thul"
+      {
+        "en": "Amn",
+        "zh-TW": "安姆",
+        "zh-CN": "安姆"
+      },
+      {
+        "en": "Ral",
+        "zh-TW": "拉爾",
+        "zh-CN": "拉尔"
+      },
+      {
+        "en": "Thul",
+        "zh-TW": "書爾",
+        "zh-CN": "书尔"
+      }
     ],
     "runeInvFiles": [
       "invrAmn",
@@ -4483,10 +5179,26 @@
       "zh-CN": "弑王者"
     },
     "runes": [
-      "Mal",
-      "Um",
-      "Gul",
-      "Fal"
+      {
+        "en": "Mal",
+        "zh-TW": "馬爾",
+        "zh-CN": "马尔"
+      },
+      {
+        "en": "Um",
+        "zh-TW": "烏姆",
+        "zh-CN": "乌姆"
+      },
+      {
+        "en": "Gul",
+        "zh-TW": "古爾",
+        "zh-CN": "古尔"
+      },
+      {
+        "en": "Fal",
+        "zh-TW": "法爾",
+        "zh-CN": "法尔"
+      }
     ],
     "runeInvFiles": [
       "invrMal",
@@ -4584,12 +5296,36 @@
       "zh-CN": "最后遗愿"
     },
     "runes": [
-      "Jah",
-      "Mal",
-      "Jah",
-      "Sur",
-      "Jah",
-      "Ber"
+      {
+        "en": "Jah",
+        "zh-TW": "喬",
+        "zh-CN": "乔"
+      },
+      {
+        "en": "Mal",
+        "zh-TW": "馬爾",
+        "zh-CN": "马尔"
+      },
+      {
+        "en": "Jah",
+        "zh-TW": "喬",
+        "zh-CN": "乔"
+      },
+      {
+        "en": "Sur",
+        "zh-TW": "瑟",
+        "zh-CN": "瑟"
+      },
+      {
+        "en": "Jah",
+        "zh-TW": "喬",
+        "zh-CN": "乔"
+      },
+      {
+        "en": "Ber",
+        "zh-TW": "貝",
+        "zh-CN": "贝"
+      }
     ],
     "runeInvFiles": [
       "invrJo",
@@ -4692,9 +5428,21 @@
       "zh-CN": "执法者"
     },
     "runes": [
-      "Amn",
-      "Lem",
-      "Ko"
+      {
+        "en": "Amn",
+        "zh-TW": "安姆",
+        "zh-CN": "安姆"
+      },
+      {
+        "en": "Lem",
+        "zh-TW": "藍姆",
+        "zh-CN": "蓝姆"
+      },
+      {
+        "en": "Ko",
+        "zh-TW": "科",
+        "zh-CN": "科"
+      }
     ],
     "runeInvFiles": [
       "invrAmn",
@@ -4795,8 +5543,16 @@
       "zh-CN": "叶子"
     },
     "runes": [
-      "Tir",
-      "Ral"
+      {
+        "en": "Tir",
+        "zh-TW": "特爾",
+        "zh-CN": "特尔"
+      },
+      {
+        "en": "Ral",
+        "zh-TW": "拉爾",
+        "zh-CN": "拉尔"
+      }
     ],
     "runeInvFiles": [
       "invrTir",
@@ -4880,9 +5636,21 @@
       "zh-CN": "狮子心"
     },
     "runes": [
-      "Hel",
-      "Lum",
-      "Fal"
+      {
+        "en": "Hel",
+        "zh-TW": "海爾",
+        "zh-CN": "海尔"
+      },
+      {
+        "en": "Lum",
+        "zh-TW": "盧姆",
+        "zh-CN": "卢姆"
+      },
+      {
+        "en": "Fal",
+        "zh-TW": "法爾",
+        "zh-CN": "法尔"
+      }
     ],
     "runeInvFiles": [
       "invrHel",
@@ -4967,8 +5735,16 @@
       "zh-CN": "知识"
     },
     "runes": [
-      "Ort",
-      "Sol"
+      {
+        "en": "Ort",
+        "zh-TW": "歐特",
+        "zh-CN": "欧特"
+      },
+      {
+        "en": "Sol",
+        "zh-TW": "索爾",
+        "zh-CN": "索尔"
+      }
     ],
     "runeInvFiles": [
       "invrOrt",
@@ -5032,9 +5808,21 @@
       "zh-CN": "怨恨"
     },
     "runes": [
-      "Ith",
-      "El",
-      "Eth"
+      {
+        "en": "Ith",
+        "zh-TW": "伊司",
+        "zh-CN": "伊司"
+      },
+      {
+        "en": "El",
+        "zh-TW": "艾爾",
+        "zh-CN": "艾尔"
+      },
+      {
+        "en": "Eth",
+        "zh-TW": "愛斯",
+        "zh-CN": "爱斯"
+      }
     ],
     "runeInvFiles": [
       "invrIth",
@@ -5119,9 +5907,21 @@
       "zh-CN": "旋律"
     },
     "runes": [
-      "Shael",
-      "Ko",
-      "Nef"
+      {
+        "en": "Shael",
+        "zh-TW": "夏",
+        "zh-CN": "夏"
+      },
+      {
+        "en": "Ko",
+        "zh-TW": "科",
+        "zh-CN": "科"
+      },
+      {
+        "en": "Nef",
+        "zh-TW": "那夫",
+        "zh-CN": "那夫"
+      }
     ],
     "runeInvFiles": [
       "invrShae",
@@ -5206,10 +6006,26 @@
       "zh-CN": "记忆"
     },
     "runes": [
-      "Lum",
-      "Io",
-      "Sol",
-      "Eth"
+      {
+        "en": "Lum",
+        "zh-TW": "盧姆",
+        "zh-CN": "卢姆"
+      },
+      {
+        "en": "Io",
+        "zh-TW": "破",
+        "zh-CN": "破"
+      },
+      {
+        "en": "Sol",
+        "zh-TW": "索爾",
+        "zh-CN": "索尔"
+      },
+      {
+        "en": "Eth",
+        "zh-TW": "愛斯",
+        "zh-CN": "爱斯"
+      }
     ],
     "runeInvFiles": [
       "invrLum",
@@ -5305,9 +6121,21 @@
       "zh-CN": "变化"
     },
     "runes": [
-      "Io",
-      "Cham",
-      "Fal"
+      {
+        "en": "Io",
+        "zh-TW": "破",
+        "zh-CN": "破"
+      },
+      {
+        "en": "Cham",
+        "zh-TW": "查姆",
+        "zh-CN": "查姆"
+      },
+      {
+        "en": "Fal",
+        "zh-TW": "法爾",
+        "zh-CN": "法尔"
+      }
     ],
     "runeInvFiles": [
       "invrIo",
@@ -5396,11 +6224,31 @@
       "zh-CN": "迷雾"
     },
     "runes": [
-      "Cham",
-      "Shael",
-      "Gul",
-      "Thul",
-      "Ith"
+      {
+        "en": "Cham",
+        "zh-TW": "查姆",
+        "zh-CN": "查姆"
+      },
+      {
+        "en": "Shael",
+        "zh-TW": "夏",
+        "zh-CN": "夏"
+      },
+      {
+        "en": "Gul",
+        "zh-TW": "古爾",
+        "zh-CN": "古尔"
+      },
+      {
+        "en": "Thul",
+        "zh-TW": "書爾",
+        "zh-CN": "书尔"
+      },
+      {
+        "en": "Ith",
+        "zh-TW": "伊司",
+        "zh-CN": "伊司"
+      }
     ],
     "runeInvFiles": [
       "invrCham",
@@ -5490,9 +6338,21 @@
       "zh-CN": "嵌饰"
     },
     "runes": [
-      "Mal",
-      "Gul",
-      "Amn"
+      {
+        "en": "Mal",
+        "zh-TW": "馬爾",
+        "zh-CN": "马尔"
+      },
+      {
+        "en": "Gul",
+        "zh-TW": "古爾",
+        "zh-CN": "古尔"
+      },
+      {
+        "en": "Amn",
+        "zh-TW": "安姆",
+        "zh-CN": "安姆"
+      }
     ],
     "runeInvFiles": [
       "invrMal",
@@ -5592,9 +6452,21 @@
       "zh-CN": "神话"
     },
     "runes": [
-      "Hel",
-      "Amn",
-      "Nef"
+      {
+        "en": "Hel",
+        "zh-TW": "海爾",
+        "zh-CN": "海尔"
+      },
+      {
+        "en": "Amn",
+        "zh-TW": "安姆",
+        "zh-CN": "安姆"
+      },
+      {
+        "en": "Nef",
+        "zh-TW": "那夫",
+        "zh-CN": "那夫"
+      }
     ],
     "runeInvFiles": [
       "invrHel",
@@ -5662,8 +6534,16 @@
       "zh-CN": "天底"
     },
     "runes": [
-      "Nef",
-      "Tir"
+      {
+        "en": "Nef",
+        "zh-TW": "那夫",
+        "zh-CN": "那夫"
+      },
+      {
+        "en": "Tir",
+        "zh-TW": "特爾",
+        "zh-CN": "特尔"
+      }
     ],
     "runeInvFiles": [
       "invrNef",
@@ -5749,10 +6629,26 @@
       "zh-CN": "誓约"
     },
     "runes": [
-      "Shael",
-      "Pul",
-      "Mal",
-      "Lum"
+      {
+        "en": "Shael",
+        "zh-TW": "夏",
+        "zh-CN": "夏"
+      },
+      {
+        "en": "Pul",
+        "zh-TW": "普爾",
+        "zh-CN": "普尔"
+      },
+      {
+        "en": "Mal",
+        "zh-TW": "馬爾",
+        "zh-CN": "马尔"
+      },
+      {
+        "en": "Lum",
+        "zh-TW": "盧姆",
+        "zh-CN": "卢姆"
+      }
     ],
     "runeInvFiles": [
       "invrShae",
@@ -5854,11 +6750,31 @@
       "zh-CN": "遵从"
     },
     "runes": [
-      "Hel",
-      "Ko",
-      "Thul",
-      "Eth",
-      "Fal"
+      {
+        "en": "Hel",
+        "zh-TW": "海爾",
+        "zh-CN": "海尔"
+      },
+      {
+        "en": "Ko",
+        "zh-TW": "科",
+        "zh-CN": "科"
+      },
+      {
+        "en": "Thul",
+        "zh-TW": "書爾",
+        "zh-CN": "书尔"
+      },
+      {
+        "en": "Eth",
+        "zh-TW": "愛斯",
+        "zh-CN": "爱斯"
+      },
+      {
+        "en": "Fal",
+        "zh-TW": "法爾",
+        "zh-CN": "法尔"
+      }
     ],
     "runeInvFiles": [
       "invrHel",
@@ -5959,12 +6875,36 @@
       "zh-CN": "执念"
     },
     "runes": [
-      "Zod",
-      "Ist",
-      "Lem",
-      "Lum",
-      "Io",
-      "Nef"
+      {
+        "en": "Zod",
+        "zh-TW": "薩德",
+        "zh-CN": "萨德"
+      },
+      {
+        "en": "Ist",
+        "zh-TW": "伊司特",
+        "zh-CN": "伊司特"
+      },
+      {
+        "en": "Lem",
+        "zh-TW": "藍姆",
+        "zh-CN": "蓝姆"
+      },
+      {
+        "en": "Lum",
+        "zh-TW": "盧姆",
+        "zh-CN": "卢姆"
+      },
+      {
+        "en": "Io",
+        "zh-TW": "破",
+        "zh-CN": "破"
+      },
+      {
+        "en": "Nef",
+        "zh-TW": "那夫",
+        "zh-CN": "那夫"
+      }
     ],
     "runeInvFiles": [
       "invrZod",
@@ -6067,10 +7007,26 @@
       "zh-CN": "热情"
     },
     "runes": [
-      "Dol",
-      "Ort",
-      "Eld",
-      "Lem"
+      {
+        "en": "Dol",
+        "zh-TW": "多爾",
+        "zh-CN": "多尔"
+      },
+      {
+        "en": "Ort",
+        "zh-TW": "歐特",
+        "zh-CN": "欧特"
+      },
+      {
+        "en": "Eld",
+        "zh-TW": "艾德",
+        "zh-CN": "艾德"
+      },
+      {
+        "en": "Lem",
+        "zh-TW": "藍姆",
+        "zh-CN": "蓝姆"
+      }
     ],
     "runeInvFiles": [
       "invrDol",
@@ -6170,9 +7126,21 @@
       "zh-CN": "图纹"
     },
     "runes": [
-      "Tal",
-      "Ort",
-      "Thul"
+      {
+        "en": "Tal",
+        "zh-TW": "塔爾",
+        "zh-CN": "塔尔"
+      },
+      {
+        "en": "Ort",
+        "zh-TW": "歐特",
+        "zh-CN": "欧特"
+      },
+      {
+        "en": "Thul",
+        "zh-TW": "書爾",
+        "zh-CN": "书尔"
+      }
     ],
     "runeInvFiles": [
       "invrTal",
@@ -6270,9 +7238,21 @@
       "zh-CN": "和平"
     },
     "runes": [
-      "Shael",
-      "Thul",
-      "Amn"
+      {
+        "en": "Shael",
+        "zh-TW": "夏",
+        "zh-CN": "夏"
+      },
+      {
+        "en": "Thul",
+        "zh-TW": "書爾",
+        "zh-CN": "书尔"
+      },
+      {
+        "en": "Amn",
+        "zh-TW": "安姆",
+        "zh-CN": "安姆"
+      }
     ],
     "runeInvFiles": [
       "invrShae",
@@ -6340,10 +7320,26 @@
       "zh-CN": "凤凰"
     },
     "runes": [
-      "Vex",
-      "Vex",
-      "Lo",
-      "Jah"
+      {
+        "en": "Vex",
+        "zh-TW": "伐克斯",
+        "zh-CN": "伐克斯"
+      },
+      {
+        "en": "Vex",
+        "zh-TW": "伐克斯",
+        "zh-CN": "伐克斯"
+      },
+      {
+        "en": "Lo",
+        "zh-TW": "羅",
+        "zh-CN": "罗"
+      },
+      {
+        "en": "Jah",
+        "zh-TW": "喬",
+        "zh-CN": "乔"
+      }
     ],
     "runeInvFiles": [
       "invrVex",
@@ -6446,9 +7442,21 @@
       "zh-CN": "瘟疫"
     },
     "runes": [
-      "Cham",
-      "Shael",
-      "Um"
+      {
+        "en": "Cham",
+        "zh-TW": "查姆",
+        "zh-CN": "查姆"
+      },
+      {
+        "en": "Shael",
+        "zh-TW": "夏",
+        "zh-CN": "夏"
+      },
+      {
+        "en": "Um",
+        "zh-TW": "烏姆",
+        "zh-CN": "乌姆"
+      }
     ],
     "runeInvFiles": [
       "invrCham",
@@ -6549,10 +7557,26 @@
       "zh-CN": "骄傲"
     },
     "runes": [
-      "Cham",
-      "Sur",
-      "Io",
-      "Lo"
+      {
+        "en": "Cham",
+        "zh-TW": "查姆",
+        "zh-CN": "查姆"
+      },
+      {
+        "en": "Sur",
+        "zh-TW": "瑟",
+        "zh-CN": "瑟"
+      },
+      {
+        "en": "Io",
+        "zh-TW": "破",
+        "zh-CN": "破"
+      },
+      {
+        "en": "Lo",
+        "zh-TW": "羅",
+        "zh-CN": "罗"
+      }
     ],
     "runeInvFiles": [
       "invrCham",
@@ -6653,9 +7677,21 @@
       "zh-CN": "原则"
     },
     "runes": [
-      "Ral",
-      "Gul",
-      "Eld"
+      {
+        "en": "Ral",
+        "zh-TW": "拉爾",
+        "zh-CN": "拉尔"
+      },
+      {
+        "en": "Gul",
+        "zh-TW": "古爾",
+        "zh-CN": "古尔"
+      },
+      {
+        "en": "Eld",
+        "zh-TW": "艾德",
+        "zh-CN": "艾德"
+      }
     ],
     "runeInvFiles": [
       "invrRal",
@@ -6723,8 +7759,16 @@
       "zh-CN": "谨慎"
     },
     "runes": [
-      "Mal",
-      "Tir"
+      {
+        "en": "Mal",
+        "zh-TW": "馬爾",
+        "zh-CN": "马尔"
+      },
+      {
+        "en": "Tir",
+        "zh-TW": "特爾",
+        "zh-CN": "特尔"
+      }
     ],
     "runeInvFiles": [
       "invrMal",
@@ -6821,9 +7865,21 @@
       "zh-CN": "光辉"
     },
     "runes": [
-      "Nef",
-      "Sol",
-      "Ith"
+      {
+        "en": "Nef",
+        "zh-TW": "那夫",
+        "zh-CN": "那夫"
+      },
+      {
+        "en": "Sol",
+        "zh-TW": "索爾",
+        "zh-CN": "索尔"
+      },
+      {
+        "en": "Ith",
+        "zh-TW": "伊司",
+        "zh-CN": "伊司"
+      }
     ],
     "runeInvFiles": [
       "invrNef",
@@ -6908,9 +7964,21 @@
       "zh-CN": "降雨"
     },
     "runes": [
-      "Ort",
-      "Mal",
-      "Ith"
+      {
+        "en": "Ort",
+        "zh-TW": "歐特",
+        "zh-CN": "欧特"
+      },
+      {
+        "en": "Mal",
+        "zh-TW": "馬爾",
+        "zh-CN": "马尔"
+      },
+      {
+        "en": "Ith",
+        "zh-TW": "伊司",
+        "zh-CN": "伊司"
+      }
     ],
     "runeInvFiles": [
       "invrOrt",
@@ -6979,8 +8047,16 @@
       "zh-CN": "声韵"
     },
     "runes": [
-      "Shael",
-      "Eth"
+      {
+        "en": "Shael",
+        "zh-TW": "夏",
+        "zh-CN": "夏"
+      },
+      {
+        "en": "Eth",
+        "zh-TW": "愛斯",
+        "zh-CN": "爱斯"
+      }
     ],
     "runeInvFiles": [
       "invrShae",
@@ -7064,10 +8140,26 @@
       "zh-CN": "裂隙"
     },
     "runes": [
-      "Hel",
-      "Ko",
-      "Lem",
-      "Gul"
+      {
+        "en": "Hel",
+        "zh-TW": "海爾",
+        "zh-CN": "海尔"
+      },
+      {
+        "en": "Ko",
+        "zh-TW": "科",
+        "zh-CN": "科"
+      },
+      {
+        "en": "Lem",
+        "zh-TW": "藍姆",
+        "zh-CN": "蓝姆"
+      },
+      {
+        "en": "Gul",
+        "zh-TW": "古爾",
+        "zh-CN": "古尔"
+      }
     ],
     "runeInvFiles": [
       "invrHel",
@@ -7170,9 +8262,21 @@
       "zh-CN": "仪式"
     },
     "runes": [
-      "Amn",
-      "Shael",
-      "Ohm"
+      {
+        "en": "Amn",
+        "zh-TW": "安姆",
+        "zh-CN": "安姆"
+      },
+      {
+        "en": "Shael",
+        "zh-TW": "夏",
+        "zh-CN": "夏"
+      },
+      {
+        "en": "Ohm",
+        "zh-TW": "歐姆",
+        "zh-CN": "欧姆"
+      }
     ],
     "runeInvFiles": [
       "invrAmn",
@@ -7273,9 +8377,21 @@
       "zh-CN": "圣堂"
     },
     "runes": [
-      "Ko",
-      "Ko",
-      "Mal"
+      {
+        "en": "Ko",
+        "zh-TW": "科",
+        "zh-CN": "科"
+      },
+      {
+        "en": "Ko",
+        "zh-TW": "科",
+        "zh-CN": "科"
+      },
+      {
+        "en": "Mal",
+        "zh-TW": "馬爾",
+        "zh-CN": "马尔"
+      }
     ],
     "runeInvFiles": [
       "invrKo",
@@ -7374,12 +8490,36 @@
       "zh-CN": "寂静"
     },
     "runes": [
-      "Dol",
-      "Eld",
-      "Hel",
-      "Ist",
-      "Tir",
-      "Vex"
+      {
+        "en": "Dol",
+        "zh-TW": "多爾",
+        "zh-CN": "多尔"
+      },
+      {
+        "en": "Eld",
+        "zh-TW": "艾德",
+        "zh-CN": "艾德"
+      },
+      {
+        "en": "Hel",
+        "zh-TW": "海爾",
+        "zh-CN": "海尔"
+      },
+      {
+        "en": "Ist",
+        "zh-TW": "伊司特",
+        "zh-CN": "伊司特"
+      },
+      {
+        "en": "Tir",
+        "zh-TW": "特爾",
+        "zh-CN": "特尔"
+      },
+      {
+        "en": "Vex",
+        "zh-TW": "伐克斯",
+        "zh-CN": "伐克斯"
+      }
     ],
     "runeInvFiles": [
       "invrDol",
@@ -7477,8 +8617,16 @@
       "zh-CN": "烟雾"
     },
     "runes": [
-      "Nef",
-      "Lum"
+      {
+        "en": "Nef",
+        "zh-TW": "那夫",
+        "zh-CN": "那夫"
+      },
+      {
+        "en": "Lum",
+        "zh-TW": "盧姆",
+        "zh-CN": "卢姆"
+      }
     ],
     "runeInvFiles": [
       "invrNef",
@@ -7564,10 +8712,26 @@
       "zh-CN": "精神"
     },
     "runes": [
-      "Tal",
-      "Thul",
-      "Ort",
-      "Amn"
+      {
+        "en": "Tal",
+        "zh-TW": "塔爾",
+        "zh-CN": "塔尔"
+      },
+      {
+        "en": "Thul",
+        "zh-TW": "書爾",
+        "zh-CN": "书尔"
+      },
+      {
+        "en": "Ort",
+        "zh-TW": "歐特",
+        "zh-CN": "欧特"
+      },
+      {
+        "en": "Amn",
+        "zh-TW": "安姆",
+        "zh-CN": "安姆"
+      }
     ],
     "runeInvFiles": [
       "invrTal",
@@ -7667,8 +8831,16 @@
       "zh-CN": "灿烂"
     },
     "runes": [
-      "Eth",
-      "Lum"
+      {
+        "en": "Eth",
+        "zh-TW": "愛斯",
+        "zh-CN": "爱斯"
+      },
+      {
+        "en": "Lum",
+        "zh-TW": "盧姆",
+        "zh-CN": "卢姆"
+      }
     ],
     "runeInvFiles": [
       "invrEth",
@@ -7764,8 +8936,16 @@
       "zh-CN": "隐密"
     },
     "runes": [
-      "Tal",
-      "Eth"
+      {
+        "en": "Tal",
+        "zh-TW": "塔爾",
+        "zh-CN": "塔尔"
+      },
+      {
+        "en": "Eth",
+        "zh-TW": "愛斯",
+        "zh-CN": "爱斯"
+      }
     ],
     "runeInvFiles": [
       "invrTal",
@@ -7849,8 +9029,16 @@
       "zh-CN": "钢铁"
     },
     "runes": [
-      "Tir",
-      "El"
+      {
+        "en": "Tir",
+        "zh-TW": "特爾",
+        "zh-CN": "特尔"
+      },
+      {
+        "en": "El",
+        "zh-TW": "艾爾",
+        "zh-CN": "艾尔"
+      }
     ],
     "runeInvFiles": [
       "invrTir",
@@ -7924,10 +9112,26 @@
       "zh-CN": "石块"
     },
     "runes": [
-      "Shael",
-      "Um",
-      "Pul",
-      "Lum"
+      {
+        "en": "Shael",
+        "zh-TW": "夏",
+        "zh-CN": "夏"
+      },
+      {
+        "en": "Um",
+        "zh-TW": "烏姆",
+        "zh-CN": "乌姆"
+      },
+      {
+        "en": "Pul",
+        "zh-TW": "普爾",
+        "zh-CN": "普尔"
+      },
+      {
+        "en": "Lum",
+        "zh-TW": "盧姆",
+        "zh-CN": "卢姆"
+      }
     ],
     "runeInvFiles": [
       "invrShae",
@@ -8026,8 +9230,16 @@
       "zh-CN": "力量"
     },
     "runes": [
-      "Amn",
-      "Tir"
+      {
+        "en": "Amn",
+        "zh-TW": "安姆",
+        "zh-CN": "安姆"
+      },
+      {
+        "en": "Tir",
+        "zh-TW": "特爾",
+        "zh-CN": "特尔"
+      }
     ],
     "runeInvFiles": [
       "invrAmn",
@@ -8091,9 +9303,21 @@
       "zh-CN": "和缓"
     },
     "runes": [
-      "Shael",
-      "Io",
-      "Ral"
+      {
+        "en": "Shael",
+        "zh-TW": "夏",
+        "zh-CN": "夏"
+      },
+      {
+        "en": "Io",
+        "zh-TW": "破",
+        "zh-CN": "破"
+      },
+      {
+        "en": "Ral",
+        "zh-TW": "拉爾",
+        "zh-CN": "拉尔"
+      }
     ],
     "runeInvFiles": [
       "invrShae",
@@ -8162,9 +9386,21 @@
       "zh-CN": "背信"
     },
     "runes": [
-      "Shael",
-      "Thul",
-      "Lem"
+      {
+        "en": "Shael",
+        "zh-TW": "夏",
+        "zh-CN": "夏"
+      },
+      {
+        "en": "Thul",
+        "zh-TW": "書爾",
+        "zh-CN": "书尔"
+      },
+      {
+        "en": "Lem",
+        "zh-TW": "藍姆",
+        "zh-CN": "蓝姆"
+      }
     ],
     "runeInvFiles": [
       "invrShae",
@@ -8232,12 +9468,36 @@
       "zh-CN": "不屈意志"
     },
     "runes": [
-      "Fal",
-      "Io",
-      "Ith",
-      "Eld",
-      "El",
-      "Hel"
+      {
+        "en": "Fal",
+        "zh-TW": "法爾",
+        "zh-CN": "法尔"
+      },
+      {
+        "en": "Io",
+        "zh-TW": "破",
+        "zh-CN": "破"
+      },
+      {
+        "en": "Ith",
+        "zh-TW": "伊司",
+        "zh-CN": "伊司"
+      },
+      {
+        "en": "Eld",
+        "zh-TW": "艾德",
+        "zh-CN": "艾德"
+      },
+      {
+        "en": "El",
+        "zh-TW": "艾爾",
+        "zh-CN": "艾尔"
+      },
+      {
+        "en": "Hel",
+        "zh-TW": "海爾",
+        "zh-CN": "海尔"
+      }
     ],
     "runeInvFiles": [
       "invrFal",
@@ -8339,9 +9599,21 @@
       "zh-CN": "剧毒"
     },
     "runes": [
-      "Tal",
-      "Dol",
-      "Mal"
+      {
+        "en": "Tal",
+        "zh-TW": "塔爾",
+        "zh-CN": "塔尔"
+      },
+      {
+        "en": "Dol",
+        "zh-TW": "多爾",
+        "zh-CN": "多尔"
+      },
+      {
+        "en": "Mal",
+        "zh-TW": "馬爾",
+        "zh-CN": "马尔"
+      }
     ],
     "runeInvFiles": [
       "invrTal",
@@ -8419,8 +9691,16 @@
       "zh-CN": "戒慎"
     },
     "runes": [
-      "Dol",
-      "Gul"
+      {
+        "en": "Dol",
+        "zh-TW": "多爾",
+        "zh-CN": "多尔"
+      },
+      {
+        "en": "Gul",
+        "zh-TW": "古爾",
+        "zh-CN": "古尔"
+      }
     ],
     "runeInvFiles": [
       "invrDol",
@@ -8520,10 +9800,26 @@
       "zh-CN": "理性之声"
     },
     "runes": [
-      "Lem",
-      "Ko",
-      "El",
-      "Eld"
+      {
+        "en": "Lem",
+        "zh-TW": "藍姆",
+        "zh-CN": "蓝姆"
+      },
+      {
+        "en": "Ko",
+        "zh-TW": "科",
+        "zh-CN": "科"
+      },
+      {
+        "en": "El",
+        "zh-TW": "艾爾",
+        "zh-CN": "艾尔"
+      },
+      {
+        "en": "Eld",
+        "zh-TW": "艾德",
+        "zh-CN": "艾德"
+      }
     ],
     "runeInvFiles": [
       "invrLem",
@@ -8625,9 +9921,21 @@
       "zh-CN": "虚无"
     },
     "runes": [
-      "Thul",
-      "Zod",
-      "Ist"
+      {
+        "en": "Thul",
+        "zh-TW": "書爾",
+        "zh-CN": "书尔"
+      },
+      {
+        "en": "Zod",
+        "zh-TW": "薩德",
+        "zh-CN": "萨德"
+      },
+      {
+        "en": "Ist",
+        "zh-TW": "伊司特",
+        "zh-CN": "伊司特"
+      }
     ],
     "runeInvFiles": [
       "invrThul",
@@ -8717,9 +10025,21 @@
       "zh-CN": "财富"
     },
     "runes": [
-      "Lm",
-      "Ko",
-      "Tir"
+      {
+        "en": "Lum",
+        "zh-TW": "盧姆",
+        "zh-CN": "卢姆"
+      },
+      {
+        "en": "Ko",
+        "zh-TW": "科",
+        "zh-CN": "科"
+      },
+      {
+        "en": "Tir",
+        "zh-TW": "特爾",
+        "zh-CN": "特尔"
+      }
     ],
     "runeInvFiles": [
       "invrLum",
@@ -8764,8 +10084,16 @@
       "zh-CN": "苍白"
     },
     "runes": [
-      "Dol",
-      "Io"
+      {
+        "en": "Dol",
+        "zh-TW": "多爾",
+        "zh-CN": "多尔"
+      },
+      {
+        "en": "Io",
+        "zh-TW": "破",
+        "zh-CN": "破"
+      }
     ],
     "runeInvFiles": [
       "invrDol",
@@ -8859,8 +10187,16 @@
       "zh-CN": "轻风"
     },
     "runes": [
-      "Sur",
-      "El"
+      {
+        "en": "Sur",
+        "zh-TW": "瑟",
+        "zh-CN": "瑟"
+      },
+      {
+        "en": "El",
+        "zh-TW": "艾爾",
+        "zh-CN": "艾尔"
+      }
     ],
     "runeInvFiles": [
       "invrSur",
@@ -8958,9 +10294,21 @@
       "zh-CN": "智慧"
     },
     "runes": [
-      "Pul",
-      "Ith",
-      "Eld"
+      {
+        "en": "Pul",
+        "zh-TW": "普爾",
+        "zh-CN": "普尔"
+      },
+      {
+        "en": "Ith",
+        "zh-TW": "伊司",
+        "zh-CN": "伊司"
+      },
+      {
+        "en": "Eld",
+        "zh-TW": "艾德",
+        "zh-CN": "艾德"
+      }
     ],
     "runeInvFiles": [
       "invrPul",
@@ -9048,10 +10396,26 @@
       "zh-CN": "愤怒"
     },
     "runes": [
-      "Pul",
-      "Lum",
-      "Ber",
-      "Mal"
+      {
+        "en": "Pul",
+        "zh-TW": "普爾",
+        "zh-CN": "普尔"
+      },
+      {
+        "en": "Lum",
+        "zh-TW": "盧姆",
+        "zh-CN": "卢姆"
+      },
+      {
+        "en": "Ber",
+        "zh-TW": "貝",
+        "zh-CN": "贝"
+      },
+      {
+        "en": "Mal",
+        "zh-TW": "馬爾",
+        "zh-CN": "马尔"
+      }
     ],
     "runeInvFiles": [
       "invrPul",
@@ -9153,8 +10517,16 @@
       "zh-CN": "和风"
     },
     "runes": [
-      "Ort",
-      "Eth"
+      {
+        "en": "Ort",
+        "zh-TW": "歐特",
+        "zh-CN": "欧特"
+      },
+      {
+        "en": "Eth",
+        "zh-TW": "愛斯",
+        "zh-CN": "爱斯"
+      }
     ],
     "runeInvFiles": [
       "invrOrt",

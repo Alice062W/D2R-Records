@@ -69,7 +69,7 @@ export default function GrailItemDetail({
           <div className="text-sm flex flex-col gap-0.5">
             {item.stats.map(stat => (
               <div key={stat.key} className={stat.isSkillRef ? 'text-[#ff4a69]' : 'text-[#fff818]'}>
-                {stat.label}: {stat.min}–{stat.max}
+                {stat.label}: {stat.min}–{stat.max} <span aria-hidden="true">🎲</span>
               </div>
             ))}
             {item.fixedStats.map(f => (
@@ -91,6 +91,7 @@ export default function GrailItemDetail({
                 className={b.isSkillRef ? 'text-[#ff4a69]' : b.min === b.max ? 'text-[#22ff55]' : 'text-[#fff818]'}
               >
                 {b.label}: {b.min === b.max ? b.min : `${b.min}–${b.max}`}
+                {b.min !== b.max && <> <span aria-hidden="true">🎲</span></>}
               </div>
             ))}
           </div>

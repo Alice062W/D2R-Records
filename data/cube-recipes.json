@@ -3,8 +3,8 @@
     "id": "recipe-0",
     "description": {
       "en": "Staff of Kings + Amulet of the Viper -> Horadric Staff",
-      "zh-TW": "Staff of Kings + Amulet of the Viper -> Horadric Staff",
-      "zh-CN": "Staff of Kings + Amulet of the Viper -> Horadric Staff"
+      "zh-TW": "國王之杖 + 蝮蛇護符 -> 赫拉迪克法杖",
+      "zh-CN": "国王之杖 + 蝮蛇护符 -> 赫拉迪克法杖"
     },
     "category": "quests",
     "ingredientIcons": [
@@ -17,8 +17,8 @@
     "id": "recipe-1",
     "description": {
       "en": "Khalim's Flail + Khalim's Heart + Khalim's Eye + Khalim's Brain -> Khalim's Will",
-      "zh-TW": "Khalim's Flail + Khalim's Heart + Khalim's Eye + Khalim's Brain -> Khalim's Will",
-      "zh-CN": "Khalim's Flail + Khalim's Heart + Khalim's Eye + Khalim's Brain -> Khalim's Will"
+      "zh-TW": "克林姆的連枷 + 克林姆的心臟 + 克林姆的眼球 + 克林姆的大腦 -> 克林姆的意志",
+      "zh-CN": "克林姆的连枷 + 克林姆的心脏 + 克林姆的眼球 + 克林姆的大脑 -> 克林姆的意志"
     },
     "category": "quests",
     "ingredientIcons": [
@@ -33,8 +33,8 @@
     "id": "recipe-2",
     "description": {
       "en": "Wirt's Leg + Tome of Town Portal -> Portal to The Secret Cow Level",
-      "zh-TW": "Wirt's Leg + Tome of Town Portal -> Portal to The Secret Cow Level",
-      "zh-CN": "Wirt's Leg + Tome of Town Portal -> Portal to The Secret Cow Level"
+      "zh-TW": "維特之腳 + 城鎮傳送之書 -> 通往秘密牛牛關的傳送門",
+      "zh-CN": "维特之脚 + 城镇传送之书 -> 通往秘密牛牛关的传送门"
     },
     "category": "quests",
     "ingredientIcons": [
@@ -47,8 +47,8 @@
     "id": "recipe-3",
     "description": {
       "en": "3 Healing Potions (Any) + 3 Mana Potions (Any) + 1 Standard Gem (Any) -> Full Rejuvenation Potion",
-      "zh-TW": "3 Healing Potions (Any) + 3 Mana Potions (Any) + 1 Standard Gem (Any) -> Full Rejuvenation Potion",
-      "zh-CN": "3 Healing Potions (Any) + 3 Mana Potions (Any) + 1 Standard Gem (Any) -> Full Rejuvenation Potion"
+      "zh-TW": "3 治療葯劑(任一) + 3 法力葯劑(任一) + 1 寶石(任一) -> 全面回復活力葯劑",
+      "zh-CN": "3 治疗药剂(任一) + 3 法力药剂(任一) + 1 宝石(任一) -> 全面回复活力药剂"
     },
     "category": "consumables",
     "ingredientIcons": [],
@@ -58,8 +58,8 @@
     "id": "recipe-4",
     "description": {
       "en": "3 Healing Potions (Any) + 3 Mana Potions (Any)  + 1 Chipped Gem (Any) -> Rejuvenation Potion",
-      "zh-TW": "3 Healing Potions (Any) + 3 Mana Potions (Any)  + 1 Chipped Gem (Any) -> Rejuvenation Potion",
-      "zh-CN": "3 Healing Potions (Any) + 3 Mana Potions (Any)  + 1 Chipped Gem (Any) -> Rejuvenation Potion"
+      "zh-TW": "3 治療葯劑(任一) + 3 法力葯劑(任一) + 1 碎裂的寶石(任一) -> 回復活力葯劑",
+      "zh-CN": "3 治疗药剂(任一) + 3 法力药剂(任一) + 1 碎裂的宝石(任一) -> 回复活力药剂"
     },
     "category": "consumables",
     "ingredientIcons": [],
@@ -69,8 +69,8 @@
     "id": "recipe-5",
     "description": {
       "en": "3 Rejuvenation Potions -> Full Rejuvenation Potion",
-      "zh-TW": "3 Rejuvenation Potions -> Full Rejuvenation Potion",
-      "zh-CN": "3 Rejuvenation Potions -> Full Rejuvenation Potion"
+      "zh-TW": "3 回復活力葯劑 -> 全面回復活力葯劑",
+      "zh-CN": "3 回复活力药剂 -> 全面回复活力药剂"
     },
     "category": "consumables",
     "ingredientIcons": [
@@ -82,8 +82,8 @@
     "id": "recipe-6",
     "description": {
       "en": "6 Perfect Gems (1 of each type) + 1 Magic Amulet -> Prismatic Amulet",
-      "zh-TW": "6 Perfect Gems (1 of each type) + 1 Magic Amulet -> Prismatic Amulet",
-      "zh-CN": "6 Perfect Gems (1 of each type) + 1 Magic Amulet -> Prismatic Amulet"
+      "zh-TW": "6 完美的寶石(各一種) + 1 魔法項鍊 -> 虹光項鍊",
+      "zh-CN": "6 完美的宝石(各一种) + 1 魔法项链 -> 虹光项链"
     },
     "category": "magicItemCreation",
     "ingredientIcons": [
@@ -101,8 +101,8 @@
     "id": "recipe-7",
     "description": {
       "en": "1 Magic Ring + 1 Perfect Ruby + 1 Exploding Potion -> Garnet Ring",
-      "zh-TW": "1 Magic Ring + 1 Perfect Ruby + 1 Exploding Potion -> Garnet Ring",
-      "zh-CN": "1 Magic Ring + 1 Perfect Ruby + 1 Exploding Potion -> Garnet Ring"
+      "zh-TW": "1 魔法戒指 + 1 完美的紅寶石 + 1 爆炸葯劑 -> 石榴石戒指",
+      "zh-CN": "1 魔法戒指 + 1 完美的红宝石 + 1 爆炸药剂 -> 石榴石戒指"
     },
     "category": "magicItemCreation",
     "ingredientIcons": [
@@ -116,8 +116,8 @@
     "id": "recipe-8",
     "description": {
       "en": "1 Magic Ring + 1 Perfect Sapphire + 1 Thawing Potion -> Cobalt Ring",
-      "zh-TW": "1 Magic Ring + 1 Perfect Sapphire + 1 Thawing Potion -> Cobalt Ring",
-      "zh-CN": "1 Magic Ring + 1 Perfect Sapphire + 1 Thawing Potion -> Cobalt Ring"
+      "zh-TW": "1 魔法戒指 + 1 完美的藍寶石 + 1 融解葯劑 -> 鈷藍戒指",
+      "zh-CN": "1 魔法戒指 + 1 完美的蓝宝石 + 1 融解药剂 -> 钴蓝戒指"
     },
     "category": "magicItemCreation",
     "ingredientIcons": [
@@ -131,8 +131,8 @@
     "id": "recipe-9",
     "description": {
       "en": "1 Magic Ring + 1 Perfect Topaz + 1 Rejuvenation Potion -> Coral Ring",
-      "zh-TW": "1 Magic Ring + 1 Perfect Topaz + 1 Rejuvenation Potion -> Coral Ring",
-      "zh-CN": "1 Magic Ring + 1 Perfect Topaz + 1 Rejuvenation Potion -> Coral Ring"
+      "zh-TW": "1 魔法戒指 + 1 完美的黃寶石 + 1 回復活力葯劑 -> 珊瑚戒指",
+      "zh-CN": "1 魔法戒指 + 1 完美的黄宝石 + 1 回复活力药剂 -> 珊瑚戒指"
     },
     "category": "magicItemCreation",
     "ingredientIcons": [
@@ -146,8 +146,8 @@
     "id": "recipe-10",
     "description": {
       "en": "1 Magic Ring + 1 Standard Emerald + 1 Antidote Potion -> Jade Ring",
-      "zh-TW": "1 Magic Ring + 1 Standard Emerald + 1 Antidote Potion -> Jade Ring",
-      "zh-CN": "1 Magic Ring + 1 Standard Emerald + 1 Antidote Potion -> Jade Ring"
+      "zh-TW": "1 魔法戒指 + 1 綠寶石 + 1 解毒葯劑 -> 玉戒指",
+      "zh-CN": "1 魔法戒指 + 1 绿宝石 + 1 解毒药剂 -> 玉戒指"
     },
     "category": "magicItemCreation",
     "ingredientIcons": [
@@ -161,8 +161,8 @@
     "id": "recipe-11",
     "description": {
       "en": "1 Axe (Any) + 1 Dagger (Any) -> Throwing Axe",
-      "zh-TW": "1 Axe (Any) + 1 Dagger (Any) -> Throwing Axe",
-      "zh-CN": "1 Axe (Any) + 1 Dagger (Any) -> Throwing Axe"
+      "zh-TW": "1 斧(任一) + 1 匕首(任一) -> 飛斧",
+      "zh-CN": "1 斧(任一) + 1 匕首(任一) -> 飞斧"
     },
     "category": "consumables",
     "ingredientIcons": [
@@ -175,8 +175,8 @@
     "id": "recipe-12",
     "description": {
       "en": "1 Spear (Any) + 1 Arrows -> Javelins",
-      "zh-TW": "1 Spear (Any) + 1 Arrows -> Javelins",
-      "zh-CN": "1 Spear (Any) + 1 Arrows -> Javelins"
+      "zh-TW": "1 長矛(任一) + 1 箭矢 -> 標槍",
+      "zh-CN": "1 长矛(任一) + 1 箭矢 -> 标枪"
     },
     "category": "consumables",
     "ingredientIcons": [
@@ -189,8 +189,8 @@
     "id": "recipe-13",
     "description": {
       "en": "3 Magic Rings -> Magic Amulet",
-      "zh-TW": "3 Magic Rings -> Magic Amulet",
-      "zh-CN": "3 Magic Rings -> Magic Amulet"
+      "zh-TW": "3 魔法戒指 -> 魔法項鍊",
+      "zh-CN": "3 魔法戒指 -> 魔法项链"
     },
     "category": "magicItemCreation",
     "ingredientIcons": [
@@ -202,8 +202,8 @@
     "id": "recipe-14",
     "description": {
       "en": "3 Magic Amulets -> Magic Ring",
-      "zh-TW": "3 Magic Amulets -> Magic Ring",
-      "zh-CN": "3 Magic Amulets -> Magic Ring"
+      "zh-TW": "3 魔法項鍊 -> 魔法戒指",
+      "zh-CN": "3 魔法项链 -> 魔法戒指"
     },
     "category": "magicItemCreation",
     "ingredientIcons": [
@@ -215,8 +215,8 @@
     "id": "recipe-15",
     "description": {
       "en": "3 Standard Gems + 1 Socketed Weapon ->  Socketed Magic Weapon",
-      "zh-TW": "3 Standard Gems + 1 Socketed Weapon ->  Socketed Magic Weapon",
-      "zh-CN": "3 Standard Gems + 1 Socketed Weapon ->  Socketed Magic Weapon"
+      "zh-TW": "3 寶石 + 1 有插槽的武器 -> 有插槽的魔法武器",
+      "zh-CN": "3 宝石 + 1 有插槽的武器 -> 有插槽的魔法武器"
     },
     "category": "sockets",
     "ingredientIcons": [],
@@ -226,8 +226,8 @@
     "id": "recipe-16",
     "description": {
       "en": "3 Flawless Gems + 1 Magic Weapon -> Socketed Magic Weapon",
-      "zh-TW": "3 Flawless Gems + 1 Magic Weapon -> Socketed Magic Weapon",
-      "zh-CN": "3 Flawless Gems + 1 Magic Weapon -> Socketed Magic Weapon"
+      "zh-TW": "3 無暇疵的寶石 + 1 魔法武器 -> 有插槽的魔法武器",
+      "zh-CN": "3 无暇疵的宝石 + 1 魔法武器 -> 有插槽的魔法武器"
     },
     "category": "sockets",
     "ingredientIcons": [],
@@ -237,8 +237,8 @@
     "id": "recipe-17",
     "description": {
       "en": "1 Magic Shield + 1 Spiked Club + 2 Skulls (Any) -> Magic Shield of Spikes",
-      "zh-TW": "1 Magic Shield + 1 Spiked Club + 2 Skulls (Any) -> Magic Shield of Spikes",
-      "zh-CN": "1 Magic Shield + 1 Spiked Club + 2 Skulls (Any) -> Magic Shield of Spikes"
+      "zh-TW": "1 魔法盾牌 + 1 狼牙棒 + 2 骷髏(任一) -> 尖刺魔法盾牌",
+      "zh-CN": "1 魔法盾牌 + 1 狼牙棒 + 2 骷髅(任一) -> 尖刺魔法盾牌"
     },
     "category": "magicItemCreation",
     "ingredientIcons": [
@@ -251,8 +251,8 @@
     "id": "recipe-18",
     "description": {
       "en": "4 Healing Potions (Any) + 1 Standard Ruby + 1 Magic Sword -> Sword of the Leech",
-      "zh-TW": "4 Healing Potions (Any) + 1 Standard Ruby + 1 Magic Sword -> Sword of the Leech",
-      "zh-CN": "4 Healing Potions (Any) + 1 Standard Ruby + 1 Magic Sword -> Sword of the Leech"
+      "zh-TW": "4 治療葯劑(任一) + 1 紅寶石 + 1 魔法劍 -> 水蛭之劍",
+      "zh-CN": "4 治疗药剂(任一) + 1 红宝石 + 1 魔法剑 -> 水蛭之剑"
     },
     "category": "magicItemCreation",
     "ingredientIcons": [
@@ -264,8 +264,8 @@
     "id": "recipe-19",
     "description": {
       "en": "1 Diamond (Any) + 1 Kris + 1 Staff + 1 Belt -> Savage Polearm",
-      "zh-TW": "1 Diamond (Any) + 1 Kris + 1 Staff + 1 Belt -> Savage Polearm",
-      "zh-CN": "1 Diamond (Any) + 1 Kris + 1 Staff + 1 Belt -> Savage Polearm"
+      "zh-TW": "1 鑽石(任一) + 1 波形刀 + 1 法杖 + 1 扣帶 -> 野蠻長柄武器",
+      "zh-CN": "1 钻石(任一) + 1 波形刀 + 1 法杖 + 1 扣带 -> 野蛮长柄武器"
     },
     "category": "magicItemCreation",
     "ingredientIcons": [
@@ -279,8 +279,8 @@
     "id": "recipe-20",
     "description": {
       "en": "1 Strangling Gas Potion + 1 Healing Potion (Any) -> Antidote Potion",
-      "zh-TW": "1 Strangling Gas Potion + 1 Healing Potion (Any) -> Antidote Potion",
-      "zh-CN": "1 Strangling Gas Potion + 1 Healing Potion (Any) -> Antidote Potion"
+      "zh-TW": "1 勒頸瓦斯葯劑 + 1 治療葯劑(任一) -> 解毒葯劑",
+      "zh-CN": "1 勒颈瓦斯药剂 + 1 治疗药剂(任一) -> 解毒药剂"
     },
     "category": "consumables",
     "ingredientIcons": [
@@ -292,8 +292,8 @@
     "id": "recipe-21",
     "description": {
       "en": "2 Arrows -> Bolts",
-      "zh-TW": "2 Arrows -> Bolts",
-      "zh-CN": "2 Arrows -> Bolts"
+      "zh-TW": "2 箭矢 -> 十字弓彈",
+      "zh-CN": "2 箭矢 -> 十字弓弹"
     },
     "category": "consumables",
     "ingredientIcons": [
@@ -305,8 +305,8 @@
     "id": "recipe-22",
     "description": {
       "en": "2 Bolts -> Arrows",
-      "zh-TW": "2 Bolts -> Arrows",
-      "zh-CN": "2 Bolts -> Arrows"
+      "zh-TW": "2 十字弓彈 -> 箭矢",
+      "zh-CN": "2 十字弓弹 -> 箭矢"
     },
     "category": "consumables",
     "ingredientIcons": [
@@ -318,8 +318,8 @@
     "id": "recipe-23",
     "description": {
       "en": "3 Chipped Amethysts -> Flawed Amethyst",
-      "zh-TW": "3 Chipped Amethysts -> Flawed Amethyst",
-      "zh-CN": "3 Chipped Amethysts -> Flawed Amethyst"
+      "zh-TW": "3 碎裂的紫寶石 -> 裂開的紫寶石",
+      "zh-CN": "3 碎裂的紫宝石 -> 裂开的紫宝石"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -331,8 +331,8 @@
     "id": "recipe-24",
     "description": {
       "en": "3 Flawed Amethysts -> Standard Amethyst",
-      "zh-TW": "3 Flawed Amethysts -> Standard Amethyst",
-      "zh-CN": "3 Flawed Amethysts -> Standard Amethyst"
+      "zh-TW": "3 裂開的紫寶石 -> 紫寶石",
+      "zh-CN": "3 裂开的紫宝石 -> 紫宝石"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -344,8 +344,8 @@
     "id": "recipe-25",
     "description": {
       "en": "3 Standard Amethysts -> Flawless Amethyst",
-      "zh-TW": "3 Standard Amethysts -> Flawless Amethyst",
-      "zh-CN": "3 Standard Amethysts -> Flawless Amethyst"
+      "zh-TW": "3 紫寶石 -> 無暇疵的紫寶石",
+      "zh-CN": "3 紫宝石 -> 无暇疵的紫宝石"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -357,8 +357,8 @@
     "id": "recipe-26",
     "description": {
       "en": "3 Flawless Amethysts -> Perfect Amethyst",
-      "zh-TW": "3 Flawless Amethysts -> Perfect Amethyst",
-      "zh-CN": "3 Flawless Amethysts -> Perfect Amethyst"
+      "zh-TW": "3 無暇疵的紫寶石 -> 完美的紫寶石",
+      "zh-CN": "3 无暇疵的紫宝石 -> 完美的紫宝石"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -370,8 +370,8 @@
     "id": "recipe-27",
     "description": {
       "en": "3 Chipped Rubies -> Flawed Ruby",
-      "zh-TW": "3 Chipped Rubies -> Flawed Ruby",
-      "zh-CN": "3 Chipped Rubies -> Flawed Ruby"
+      "zh-TW": "3 碎裂的紅寶石 -> 裂開的紅寶石",
+      "zh-CN": "3 碎裂的红宝石 -> 裂开的红宝石"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -383,8 +383,8 @@
     "id": "recipe-28",
     "description": {
       "en": "3 Flawed Rubies -> Standard Ruby",
-      "zh-TW": "3 Flawed Rubies -> Standard Ruby",
-      "zh-CN": "3 Flawed Rubies -> Standard Ruby"
+      "zh-TW": "3 裂開的紅寶石 -> 紅寶石",
+      "zh-CN": "3 裂开的红宝石 -> 红宝石"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -396,8 +396,8 @@
     "id": "recipe-29",
     "description": {
       "en": "3 Standard Rubies -> Flawless Ruby",
-      "zh-TW": "3 Standard Rubies -> Flawless Ruby",
-      "zh-CN": "3 Standard Rubies -> Flawless Ruby"
+      "zh-TW": "3 紅寶石 -> 無暇疵的紅寶石",
+      "zh-CN": "3 红宝石 -> 无暇疵的红宝石"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -409,8 +409,8 @@
     "id": "recipe-30",
     "description": {
       "en": "3 Flawless Rubies -> Perfect Ruby",
-      "zh-TW": "3 Flawless Rubies -> Perfect Ruby",
-      "zh-CN": "3 Flawless Rubies -> Perfect Ruby"
+      "zh-TW": "3 無暇疵的紅寶石 -> 完美的紅寶石",
+      "zh-CN": "3 无暇疵的红宝石 -> 完美的红宝石"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -422,8 +422,8 @@
     "id": "recipe-31",
     "description": {
       "en": "3 Chipped Sapphires -> Flawed Sapphire",
-      "zh-TW": "3 Chipped Sapphires -> Flawed Sapphire",
-      "zh-CN": "3 Chipped Sapphires -> Flawed Sapphire"
+      "zh-TW": "3 碎裂的藍寶石 -> 裂開的藍寶石",
+      "zh-CN": "3 碎裂的蓝宝石 -> 裂开的蓝宝石"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -435,8 +435,8 @@
     "id": "recipe-32",
     "description": {
       "en": "3 Flawed Sapphires -> Standard Sapphire",
-      "zh-TW": "3 Flawed Sapphires -> Standard Sapphire",
-      "zh-CN": "3 Flawed Sapphires -> Standard Sapphire"
+      "zh-TW": "3 裂開的藍寶石 -> 藍寶石",
+      "zh-CN": "3 裂开的蓝宝石 -> 蓝宝石"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -448,8 +448,8 @@
     "id": "recipe-33",
     "description": {
       "en": "3 Standard Sapphires -> Flawless Sapphire",
-      "zh-TW": "3 Standard Sapphires -> Flawless Sapphire",
-      "zh-CN": "3 Standard Sapphires -> Flawless Sapphire"
+      "zh-TW": "3 藍寶石 -> 無暇疵的藍寶石",
+      "zh-CN": "3 蓝宝石 -> 无暇疵的蓝宝石"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -461,8 +461,8 @@
     "id": "recipe-34",
     "description": {
       "en": "3 Flawless Sapphires -> Perfect Sapphire",
-      "zh-TW": "3 Flawless Sapphires -> Perfect Sapphire",
-      "zh-CN": "3 Flawless Sapphires -> Perfect Sapphire"
+      "zh-TW": "3 無暇疵的藍寶石 -> 完美的藍寶石",
+      "zh-CN": "3 无暇疵的蓝宝石 -> 完美的蓝宝石"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -474,8 +474,8 @@
     "id": "recipe-35",
     "description": {
       "en": "3 Chipped Topazes -> Flawed Topaz",
-      "zh-TW": "3 Chipped Topazes -> Flawed Topaz",
-      "zh-CN": "3 Chipped Topazes -> Flawed Topaz"
+      "zh-TW": "3 碎裂的黃寶石 -> 裂開的黃寶石",
+      "zh-CN": "3 碎裂的黄宝石 -> 裂开的黄宝石"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -487,8 +487,8 @@
     "id": "recipe-36",
     "description": {
       "en": "3 Flawed Topazes -> Standard Topaz",
-      "zh-TW": "3 Flawed Topazes -> Standard Topaz",
-      "zh-CN": "3 Flawed Topazes -> Standard Topaz"
+      "zh-TW": "3 裂開的黃寶石 -> 黃寶石",
+      "zh-CN": "3 裂开的黄宝石 -> 黄宝石"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -500,8 +500,8 @@
     "id": "recipe-37",
     "description": {
       "en": "3 Standard Topazes -> Flawless Topaz",
-      "zh-TW": "3 Standard Topazes -> Flawless Topaz",
-      "zh-CN": "3 Standard Topazes -> Flawless Topaz"
+      "zh-TW": "3 黃寶石 -> 無暇疵的黃寶石",
+      "zh-CN": "3 黄宝石 -> 无暇疵的黄宝石"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -513,8 +513,8 @@
     "id": "recipe-38",
     "description": {
       "en": "3 Flawless Topazes -> Perfect Topaz",
-      "zh-TW": "3 Flawless Topazes -> Perfect Topaz",
-      "zh-CN": "3 Flawless Topazes -> Perfect Topaz"
+      "zh-TW": "3 無暇疵的黃寶石 -> 完美的黃寶石",
+      "zh-CN": "3 无暇疵的黄宝石 -> 完美的黄宝石"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -526,8 +526,8 @@
     "id": "recipe-39",
     "description": {
       "en": "3 Chipped Emeralds -> Flawed Emerald",
-      "zh-TW": "3 Chipped Emeralds -> Flawed Emerald",
-      "zh-CN": "3 Chipped Emeralds -> Flawed Emerald"
+      "zh-TW": "3 碎裂的綠寶石 -> 裂開的綠寶石",
+      "zh-CN": "3 碎裂的绿宝石 -> 裂开的绿宝石"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -539,8 +539,8 @@
     "id": "recipe-40",
     "description": {
       "en": "3 Flawed Emeralds -> Standard Emerald",
-      "zh-TW": "3 Flawed Emeralds -> Standard Emerald",
-      "zh-CN": "3 Flawed Emeralds -> Standard Emerald"
+      "zh-TW": "3 裂開的綠寶石 -> 綠寶石",
+      "zh-CN": "3 裂开的绿宝石 -> 绿宝石"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -552,8 +552,8 @@
     "id": "recipe-41",
     "description": {
       "en": "3 Standard Emeralds -> Flawless Emerald",
-      "zh-TW": "3 Standard Emeralds -> Flawless Emerald",
-      "zh-CN": "3 Standard Emeralds -> Flawless Emerald"
+      "zh-TW": "3 綠寶石 -> 無暇疵的綠寶石",
+      "zh-CN": "3 绿宝石 -> 无暇疵的绿宝石"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -565,8 +565,8 @@
     "id": "recipe-42",
     "description": {
       "en": "3 Flawless Emeralds -> Perfect Emerald",
-      "zh-TW": "3 Flawless Emeralds -> Perfect Emerald",
-      "zh-CN": "3 Flawless Emeralds -> Perfect Emerald"
+      "zh-TW": "3 無暇疵的綠寶石 -> 完美的綠寶石",
+      "zh-CN": "3 无暇疵的绿宝石 -> 完美的绿宝石"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -578,8 +578,8 @@
     "id": "recipe-43",
     "description": {
       "en": "3 Chipped Diamonds -> Flawed Diamond",
-      "zh-TW": "3 Chipped Diamonds -> Flawed Diamond",
-      "zh-CN": "3 Chipped Diamonds -> Flawed Diamond"
+      "zh-TW": "3 碎裂的鑽石 -> 裂開的鑽石",
+      "zh-CN": "3 碎裂的钻石 -> 裂开的钻石"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -591,8 +591,8 @@
     "id": "recipe-44",
     "description": {
       "en": "3 Flawed Diamonds -> Standard Diamond",
-      "zh-TW": "3 Flawed Diamonds -> Standard Diamond",
-      "zh-CN": "3 Flawed Diamonds -> Standard Diamond"
+      "zh-TW": "3 裂開的鑽石 -> 鑽石",
+      "zh-CN": "3 裂开的钻石 -> 钻石"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -604,8 +604,8 @@
     "id": "recipe-45",
     "description": {
       "en": "3 Standard Diamonds -> Flawless Diamond",
-      "zh-TW": "3 Standard Diamonds -> Flawless Diamond",
-      "zh-CN": "3 Standard Diamonds -> Flawless Diamond"
+      "zh-TW": "3 鑽石 -> 無暇疵的鑽石",
+      "zh-CN": "3 钻石 -> 无暇疵的钻石"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -617,8 +617,8 @@
     "id": "recipe-46",
     "description": {
       "en": "3 Flawless Diamonds -> Perfect Diamond",
-      "zh-TW": "3 Flawless Diamonds -> Perfect Diamond",
-      "zh-CN": "3 Flawless Diamonds -> Perfect Diamond"
+      "zh-TW": "3 無暇疵的鑽石 -> 完美的鑽石",
+      "zh-CN": "3 无暇疵的钻石 -> 完美的钻石"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -630,8 +630,8 @@
     "id": "recipe-47",
     "description": {
       "en": "3 Chipped Skulls -> Flawed Skull",
-      "zh-TW": "3 Chipped Skulls -> Flawed Skull",
-      "zh-CN": "3 Chipped Skulls -> Flawed Skull"
+      "zh-TW": "3 碎裂的骷髏 -> 裂開的骷髏",
+      "zh-CN": "3 碎裂的骷髅 -> 裂开的骷髅"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -643,8 +643,8 @@
     "id": "recipe-48",
     "description": {
       "en": "3 Flawed Skulls -> Standard Skull",
-      "zh-TW": "3 Flawed Skulls -> Standard Skull",
-      "zh-CN": "3 Flawed Skulls -> Standard Skull"
+      "zh-TW": "3 裂開的骷髏 -> 骷髏",
+      "zh-CN": "3 裂开的骷髅 -> 骷髅"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -656,8 +656,8 @@
     "id": "recipe-49",
     "description": {
       "en": "3 Standard Skulls -> Flawless Skull",
-      "zh-TW": "3 Standard Skulls -> Flawless Skull",
-      "zh-CN": "3 Standard Skulls -> Flawless Skull"
+      "zh-TW": "3 骷髏 -> 無暇疵的骷髏",
+      "zh-CN": "3 骷髅 -> 无暇疵的骷髅"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -669,8 +669,8 @@
     "id": "recipe-50",
     "description": {
       "en": "3 Flawless Skulls -> Perfect Skull",
-      "zh-TW": "3 Flawless Skulls -> Perfect Skull",
-      "zh-CN": "3 Flawless Skulls -> Perfect Skull"
+      "zh-TW": "3 無暇疵的骷髏 -> 完美的骷髏",
+      "zh-CN": "3 无暇疵的骷髅 -> 完美的骷髅"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -682,8 +682,8 @@
     "id": "recipe-51",
     "description": {
       "en": "3 El Runes -> Eld Rune",
-      "zh-TW": "3 El Runes -> Eld Rune",
-      "zh-CN": "3 El Runes -> Eld Rune"
+      "zh-TW": "3 艾爾符文 -> 艾德符文",
+      "zh-CN": "3 艾尔符文 -> 艾德符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -695,8 +695,8 @@
     "id": "recipe-52",
     "description": {
       "en": "3 Eld Runes -> Tir Rune",
-      "zh-TW": "3 Eld Runes -> Tir Rune",
-      "zh-CN": "3 Eld Runes -> Tir Rune"
+      "zh-TW": "3 艾德符文 -> 特爾符文",
+      "zh-CN": "3 艾德符文 -> 特尔符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -708,8 +708,8 @@
     "id": "recipe-53",
     "description": {
       "en": "3 Tir Runes -> Nef Rune",
-      "zh-TW": "3 Tir Runes -> Nef Rune",
-      "zh-CN": "3 Tir Runes -> Nef Rune"
+      "zh-TW": "3 特爾符文 -> 那夫符文",
+      "zh-CN": "3 特尔符文 -> 那夫符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -721,8 +721,8 @@
     "id": "recipe-54",
     "description": {
       "en": "3 Nef Runes -> Eth Rune",
-      "zh-TW": "3 Nef Runes -> Eth Rune",
-      "zh-CN": "3 Nef Runes -> Eth Rune"
+      "zh-TW": "3 那夫符文 -> 愛斯符文",
+      "zh-CN": "3 那夫符文 -> 爱斯符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -734,8 +734,8 @@
     "id": "recipe-55",
     "description": {
       "en": "3 Eth Runes -> Ith Rune",
-      "zh-TW": "3 Eth Runes -> Ith Rune",
-      "zh-CN": "3 Eth Runes -> Ith Rune"
+      "zh-TW": "3 愛斯符文 -> 伊司符文",
+      "zh-CN": "3 爱斯符文 -> 伊司符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -747,8 +747,8 @@
     "id": "recipe-56",
     "description": {
       "en": "3 Ith Runes -> Tal Rune",
-      "zh-TW": "3 Ith Runes -> Tal Rune",
-      "zh-CN": "3 Ith Runes -> Tal Rune"
+      "zh-TW": "3 伊司符文 -> 塔爾符文",
+      "zh-CN": "3 伊司符文 -> 塔尔符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -760,8 +760,8 @@
     "id": "recipe-57",
     "description": {
       "en": "3 Tal Runes -> Ral Rune",
-      "zh-TW": "3 Tal Runes -> Ral Rune",
-      "zh-CN": "3 Tal Runes -> Ral Rune"
+      "zh-TW": "3 塔爾符文 -> 拉爾符文",
+      "zh-CN": "3 塔尔符文 -> 拉尔符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -773,8 +773,8 @@
     "id": "recipe-58",
     "description": {
       "en": "3 Ral Runes -> Ort Rune",
-      "zh-TW": "3 Ral Runes -> Ort Rune",
-      "zh-CN": "3 Ral Runes -> Ort Rune"
+      "zh-TW": "3 拉爾符文 -> 歐特符文",
+      "zh-CN": "3 拉尔符文 -> 欧特符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -786,8 +786,8 @@
     "id": "recipe-59",
     "description": {
       "en": "3 Ort Runes -> Thul Rune",
-      "zh-TW": "3 Ort Runes -> Thul Rune",
-      "zh-CN": "3 Ort Runes -> Thul Rune"
+      "zh-TW": "3 歐特符文 -> 書爾符文",
+      "zh-CN": "3 欧特符文 -> 书尔符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -799,8 +799,8 @@
     "id": "recipe-60",
     "description": {
       "en": "3 Perfect Gems (Any) + 1 Magic Item -> Re-rolled Magic Item",
-      "zh-TW": "3 Perfect Gems (Any) + 1 Magic Item -> Re-rolled Magic Item",
-      "zh-CN": "3 Perfect Gems (Any) + 1 Magic Item -> Re-rolled Magic Item"
+      "zh-TW": "3 完美的寶石(任一) + 1 魔法物品 -> 重新隨機的魔法物品",
+      "zh-CN": "3 完美的宝石(任一) + 1 魔法物品 -> 重新随机的魔法物品"
     },
     "category": "magicItemRerolls",
     "ingredientIcons": [],
@@ -810,8 +810,8 @@
     "id": "recipe-61",
     "description": {
       "en": "6 Perfect Skulls + 1 Rare Item -> 1 Low Quality Rare Item",
-      "zh-TW": "6 Perfect Skulls + 1 Rare Item -> 1 Low Quality Rare Item",
-      "zh-CN": "6 Perfect Skulls + 1 Rare Item -> 1 Low Quality Rare Item"
+      "zh-TW": "6 完美的骷髏 + 1 稀有物品 -> 1 低品質稀有物品",
+      "zh-CN": "6 完美的骷髅 + 1 稀有物品 -> 1 低品质稀有物品"
     },
     "category": "magicItemRerolls",
     "ingredientIcons": [
@@ -823,8 +823,8 @@
     "id": "recipe-62",
     "description": {
       "en": "1 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> 1 High Quality Rare Item",
-      "zh-TW": "1 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> 1 High Quality Rare Item",
-      "zh-CN": "1 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> 1 High Quality Rare Item"
+      "zh-TW": "1 完美的骷髏 + 1 稀有物品 + 1 約旦之石 -> 1 高品質稀有物品",
+      "zh-CN": "1 完美的骷髅 + 1 稀有物品 + 1 约旦之石 -> 1 高品质稀有物品"
     },
     "category": "magicItemRerolls",
     "ingredientIcons": [
@@ -836,8 +836,8 @@
     "id": "recipe-63",
     "description": {
       "en": "3 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> Add 1 Socket to Rare Item",
-      "zh-TW": "3 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> Add 1 Socket to Rare Item",
-      "zh-CN": "3 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> Add 1 Socket to Rare Item"
+      "zh-TW": "3 完美的骷髏 + 1 稀有物品 + 1 約旦之石 -> 為稀有物品增加 1 個插槽",
+      "zh-CN": "3 完美的骷髅 + 1 稀有物品 + 1 约旦之石 -> 为稀有物品增加 1 个插槽"
     },
     "category": "magicItemRerolls",
     "ingredientIcons": [
@@ -849,8 +849,8 @@
     "id": "recipe-100",
     "description": {
       "en": "3 Thul Runes + 1 Chipped Topaz -> Amn Rune",
-      "zh-TW": "3 Thul Runes + 1 Chipped Topaz -> Amn Rune",
-      "zh-CN": "3 Thul Runes + 1 Chipped Topaz -> Amn Rune"
+      "zh-TW": "3 書爾符文 + 1 碎裂的黃寶石 -> 安姆符文",
+      "zh-CN": "3 书尔符文 + 1 碎裂的黄宝石 -> 安姆符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -863,8 +863,8 @@
     "id": "recipe-101",
     "description": {
       "en": "3 Amn Runes + 1 Chipped Amethyst -> Sol Rune",
-      "zh-TW": "3 Amn Runes + 1 Chipped Amethyst -> Sol Rune",
-      "zh-CN": "3 Amn Runes + 1 Chipped Amethyst -> Sol Rune"
+      "zh-TW": "3 安姆符文 + 1 碎裂的紫寶石 -> 索爾符文",
+      "zh-CN": "3 安姆符文 + 1 碎裂的紫宝石 -> 索尔符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -877,8 +877,8 @@
     "id": "recipe-102",
     "description": {
       "en": "3 Sol Runes + 1 Chipped Sapphire -> Shael Rune",
-      "zh-TW": "3 Sol Runes + 1 Chipped Sapphire -> Shael Rune",
-      "zh-CN": "3 Sol Runes + 1 Chipped Sapphire -> Shael Rune"
+      "zh-TW": "3 索爾符文 + 1 碎裂的藍寶石 -> 夏符文",
+      "zh-CN": "3 索尔符文 + 1 碎裂的蓝宝石 -> 夏符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -891,8 +891,8 @@
     "id": "recipe-103",
     "description": {
       "en": "3 Shael Runes + 1 Chipped Ruby -> Dol Rune",
-      "zh-TW": "3 Shael Runes + 1 Chipped Ruby -> Dol Rune",
-      "zh-CN": "3 Shael Runes + 1 Chipped Ruby -> Dol Rune"
+      "zh-TW": "3 夏符文 + 1 碎裂的紅寶石 -> 多爾符文",
+      "zh-CN": "3 夏符文 + 1 碎裂的红宝石 -> 多尔符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -905,8 +905,8 @@
     "id": "recipe-104",
     "description": {
       "en": "3 Dol Runes + 1 Chipped Emerald -> Hel Rune",
-      "zh-TW": "3 Dol Runes + 1 Chipped Emerald -> Hel Rune",
-      "zh-CN": "3 Dol Runes + 1 Chipped Emerald -> Hel Rune"
+      "zh-TW": "3 多爾符文 + 1 碎裂的綠寶石 -> 海爾符文",
+      "zh-CN": "3 多尔符文 + 1 碎裂的绿宝石 -> 海尔符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -919,8 +919,8 @@
     "id": "recipe-105",
     "description": {
       "en": "3 Hel Runes + 1 Chipped Diamond -> Io Rune",
-      "zh-TW": "3 Hel Runes + 1 Chipped Diamond -> Io Rune",
-      "zh-CN": "3 Hel Runes + 1 Chipped Diamond -> Io Rune"
+      "zh-TW": "3 海爾符文 + 1 碎裂的鑽石 -> 破符文",
+      "zh-CN": "3 海尔符文 + 1 碎裂的钻石 -> 破符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -933,8 +933,8 @@
     "id": "recipe-106",
     "description": {
       "en": "3 Io Runes + 1 Flawed Topaz -> Lum Rune",
-      "zh-TW": "3 Io Runes + 1 Flawed Topaz -> Lum Rune",
-      "zh-CN": "3 Io Runes + 1 Flawed Topaz -> Lum Rune"
+      "zh-TW": "3 破符文 + 1 裂開的黃寶石 -> 盧姆符文",
+      "zh-CN": "3 破符文 + 1 裂开的黄宝石 -> 卢姆符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -947,8 +947,8 @@
     "id": "recipe-107",
     "description": {
       "en": "3 Lum Runes + 1 Flawed Amethyst -> Ko Rune",
-      "zh-TW": "3 Lum Runes + 1 Flawed Amethyst -> Ko Rune",
-      "zh-CN": "3 Lum Runes + 1 Flawed Amethyst -> Ko Rune"
+      "zh-TW": "3 盧姆符文 + 1 裂開的紫寶石 -> 科符文",
+      "zh-CN": "3 卢姆符文 + 1 裂开的紫宝石 -> 科符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -961,8 +961,8 @@
     "id": "recipe-108",
     "description": {
       "en": "3 Ko Runes + 1 Flawed Sapphire -> Fal Rune",
-      "zh-TW": "3 Ko Runes + 1 Flawed Sapphire -> Fal Rune",
-      "zh-CN": "3 Ko Runes + 1 Flawed Sapphire -> Fal Rune"
+      "zh-TW": "3 科符文 + 1 裂開的藍寶石 -> 法爾符文",
+      "zh-CN": "3 科符文 + 1 裂开的蓝宝石 -> 法尔符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -975,8 +975,8 @@
     "id": "recipe-109",
     "description": {
       "en": "3 Fal Runes + 1 Flawed Ruby -> Lem Rune",
-      "zh-TW": "3 Fal Runes + 1 Flawed Ruby -> Lem Rune",
-      "zh-CN": "3 Fal Runes + 1 Flawed Ruby -> Lem Rune"
+      "zh-TW": "3 法爾符文 + 1 裂開的紅寶石 -> 藍姆符文",
+      "zh-CN": "3 法尔符文 + 1 裂开的红宝石 -> 蓝姆符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -989,8 +989,8 @@
     "id": "recipe-110",
     "description": {
       "en": "3 Lem Runes + 1 Flawed Emerald -> Pul Rune",
-      "zh-TW": "3 Lem Runes + 1 Flawed Emerald -> Pul Rune",
-      "zh-CN": "3 Lem Runes + 1 Flawed Emerald -> Pul Rune"
+      "zh-TW": "3 藍姆符文 + 1 裂開的綠寶石 -> 普爾符文",
+      "zh-CN": "3 蓝姆符文 + 1 裂开的绿宝石 -> 普尔符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -1003,8 +1003,8 @@
     "id": "recipe-111",
     "description": {
       "en": "2 Pul Runes + 1 Flawed Diamond -> Um Rune",
-      "zh-TW": "2 Pul Runes + 1 Flawed Diamond -> Um Rune",
-      "zh-CN": "2 Pul Runes + 1 Flawed Diamond -> Um Rune"
+      "zh-TW": "2 普爾符文 + 1 裂開的鑽石 -> 烏姆符文",
+      "zh-CN": "2 普尔符文 + 1 裂开的钻石 -> 乌姆符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -1017,8 +1017,8 @@
     "id": "recipe-112",
     "description": {
       "en": "2 Um Runes + 1 Standard Topaz -> Mal Rune",
-      "zh-TW": "2 Um Runes + 1 Standard Topaz -> Mal Rune",
-      "zh-CN": "2 Um Runes + 1 Standard Topaz -> Mal Rune"
+      "zh-TW": "2 烏姆符文 + 1 黃寶石 -> 馬爾符文",
+      "zh-CN": "2 乌姆符文 + 1 黄宝石 -> 马尔符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -1031,8 +1031,8 @@
     "id": "recipe-113",
     "description": {
       "en": "2 Mal Runes + 1 Standard Amethyst -> Ist Rune",
-      "zh-TW": "2 Mal Runes + 1 Standard Amethyst -> Ist Rune",
-      "zh-CN": "2 Mal Runes + 1 Standard Amethyst -> Ist Rune"
+      "zh-TW": "2 馬爾符文 + 1 紫寶石 -> 伊司特符文",
+      "zh-CN": "2 马尔符文 + 1 紫宝石 -> 伊司特符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -1045,8 +1045,8 @@
     "id": "recipe-114",
     "description": {
       "en": "2 Ist Runes + 1 Standard Sapphire -> Gul Rune",
-      "zh-TW": "2 Ist Runes + 1 Standard Sapphire -> Gul Rune",
-      "zh-CN": "2 Ist Runes + 1 Standard Sapphire -> Gul Rune"
+      "zh-TW": "2 伊司特符文 + 1 藍寶石 -> 古爾符文",
+      "zh-CN": "2 伊司特符文 + 1 蓝宝石 -> 古尔符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -1059,8 +1059,8 @@
     "id": "recipe-115",
     "description": {
       "en": "2 Gul Runes + 1 Standard Ruby -> Vex Rune",
-      "zh-TW": "2 Gul Runes + 1 Standard Ruby -> Vex Rune",
-      "zh-CN": "2 Gul Runes + 1 Standard Ruby -> Vex Rune"
+      "zh-TW": "2 古爾符文 + 1 紅寶石 -> 伐克斯符文",
+      "zh-CN": "2 古尔符文 + 1 红宝石 -> 伐克斯符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -1073,8 +1073,8 @@
     "id": "recipe-116",
     "description": {
       "en": "2 Vex Runes + 1 Standard Emerald -> Ohm Rune",
-      "zh-TW": "2 Vex Runes + 1 Standard Emerald -> Ohm Rune",
-      "zh-CN": "2 Vex Runes + 1 Standard Emerald -> Ohm Rune"
+      "zh-TW": "2 伐克斯符文 + 1 綠寶石 -> 歐姆符文",
+      "zh-CN": "2 伐克斯符文 + 1 绿宝石 -> 欧姆符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -1087,8 +1087,8 @@
     "id": "recipe-117",
     "description": {
       "en": "2 Ohm Runes + 1 Standard Diamond -> Lo Rune",
-      "zh-TW": "2 Ohm Runes + 1 Standard Diamond -> Lo Rune",
-      "zh-CN": "2 Ohm Runes + 1 Standard Diamond -> Lo Rune"
+      "zh-TW": "2 歐姆符文 + 1 鑽石 -> 羅符文",
+      "zh-CN": "2 欧姆符文 + 1 钻石 -> 罗符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -1101,8 +1101,8 @@
     "id": "recipe-118",
     "description": {
       "en": "2 Lo Runes + 1 Flawless Topaz -> Sur Rune",
-      "zh-TW": "2 Lo Runes + 1 Flawless Topaz -> Sur Rune",
-      "zh-CN": "2 Lo Runes + 1 Flawless Topaz -> Sur Rune"
+      "zh-TW": "2 羅符文 + 1 無暇疵的黃寶石 -> 瑟符文",
+      "zh-CN": "2 罗符文 + 1 无暇疵的黄宝石 -> 瑟符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -1115,8 +1115,8 @@
     "id": "recipe-119",
     "description": {
       "en": "2 Sur Runes + 1 Flawless Amethyst -> Ber Rune",
-      "zh-TW": "2 Sur Runes + 1 Flawless Amethyst -> Ber Rune",
-      "zh-CN": "2 Sur Runes + 1 Flawless Amethyst -> Ber Rune"
+      "zh-TW": "2 瑟符文 + 1 無暇疵的紫寶石 -> 貝符文",
+      "zh-CN": "2 瑟符文 + 1 无暇疵的紫宝石 -> 贝符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -1129,8 +1129,8 @@
     "id": "recipe-120",
     "description": {
       "en": "2 Ber Runes + 1 Flawless Sapphire -> Jah Rune",
-      "zh-TW": "2 Ber Runes + 1 Flawless Sapphire -> Jah Rune",
-      "zh-CN": "2 Ber Runes + 1 Flawless Sapphire -> Jah Rune"
+      "zh-TW": "2 貝符文 + 1 無暇疵的藍寶石 -> 喬符文",
+      "zh-CN": "2 贝符文 + 1 无暇疵的蓝宝石 -> 乔符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -1143,8 +1143,8 @@
     "id": "recipe-121",
     "description": {
       "en": "2 Jah Runes + 1 Flawless Ruby -> Cham Rune",
-      "zh-TW": "2 Jah Runes + 1 Flawless Ruby -> Cham Rune",
-      "zh-CN": "2 Jah Runes + 1 Flawless Ruby -> Cham Rune"
+      "zh-TW": "2 喬符文 + 1 無暇疵的紅寶石 -> 查姆符文",
+      "zh-CN": "2 乔符文 + 1 无暇疵的红宝石 -> 查姆符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -1157,8 +1157,8 @@
     "id": "recipe-122",
     "description": {
       "en": "2 Cham Runes + 1 Flawless Emerald -> Zod Rune",
-      "zh-TW": "2 Cham Runes + 1 Flawless Emerald -> Zod Rune",
-      "zh-CN": "2 Cham Runes + 1 Flawless Emerald -> Zod Rune"
+      "zh-TW": "2 查姆符文 + 1 無暇疵的綠寶石 -> 薩德符文",
+      "zh-CN": "2 查姆符文 + 1 无暇疵的绿宝石 -> 萨德符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -1171,8 +1171,8 @@
     "id": "recipe-123",
     "description": {
       "en": "1 Tal Rune + 1 Thul Rune + 1 Perfect Topaz + 1 Normal Torso Armor -> Socketed Torso Armor",
-      "zh-TW": "1 Tal Rune + 1 Thul Rune + 1 Perfect Topaz + 1 Normal Torso Armor -> Socketed Torso Armor",
-      "zh-CN": "1 Tal Rune + 1 Thul Rune + 1 Perfect Topaz + 1 Normal Torso Armor -> Socketed Torso Armor"
+      "zh-TW": "1 塔爾符文 + 1 書爾符文 + 1 完美的黃寶石 + 1 普通軀幹護甲 -> 有插槽的軀幹護甲",
+      "zh-CN": "1 塔尔符文 + 1 书尔符文 + 1 完美的黄宝石 + 1 普通躯干护甲 -> 有插槽的躯干护甲"
     },
     "category": "sockets",
     "ingredientIcons": [
@@ -1187,8 +1187,8 @@
     "id": "recipe-124",
     "description": {
       "en": "1 Ral Rune + 1 Amn Rune + 1 Perfect Amethyst + 1 Normal Weapon -> Socketed Weapon",
-      "zh-TW": "1 Ral Rune + 1 Amn Rune + 1 Perfect Amethyst + 1 Normal Weapon -> Socketed Weapon",
-      "zh-CN": "1 Ral Rune + 1 Amn Rune + 1 Perfect Amethyst + 1 Normal Weapon -> Socketed Weapon"
+      "zh-TW": "1 拉爾符文 + 1 安姆符文 + 1 完美的紫寶石 + 1 普通武器 -> 有插槽的武器",
+      "zh-CN": "1 拉尔符文 + 1 安姆符文 + 1 完美的紫宝石 + 1 普通武器 -> 有插槽的武器"
     },
     "category": "sockets",
     "ingredientIcons": [
@@ -1202,8 +1202,8 @@
     "id": "recipe-125",
     "description": {
       "en": "1 Ral Rune + 1 Thul Rune + 1 Perfect Sapphire + 1 Normal Helm -> Socketed Helm",
-      "zh-TW": "1 Ral Rune + 1 Thul Rune + 1 Perfect Sapphire + 1 Normal Helm -> Socketed Helm",
-      "zh-CN": "1 Ral Rune + 1 Thul Rune + 1 Perfect Sapphire + 1 Normal Helm -> Socketed Helm"
+      "zh-TW": "1 拉爾符文 + 1 書爾符文 + 1 完美的藍寶石 + 1 普通頭盔 -> 有插槽的頭盔",
+      "zh-CN": "1 拉尔符文 + 1 书尔符文 + 1 完美的蓝宝石 + 1 普通头盔 -> 有插槽的头盔"
     },
     "category": "sockets",
     "ingredientIcons": [
@@ -1218,8 +1218,8 @@
     "id": "recipe-126",
     "description": {
       "en": "1 Tal Rune + 1 Amn Rune + 1 Perfect Ruby + 1 Normal Shield -> Socketed Shield",
-      "zh-TW": "1 Tal Rune + 1 Amn Rune + 1 Perfect Ruby + 1 Normal Shield -> Socketed Shield",
-      "zh-CN": "1 Tal Rune + 1 Amn Rune + 1 Perfect Ruby + 1 Normal Shield -> Socketed Shield"
+      "zh-TW": "1 塔爾符文 + 1 安姆符文 + 1 完美的紅寶石 + 1 普通盾牌 -> 有插槽的盾牌",
+      "zh-CN": "1 塔尔符文 + 1 安姆符文 + 1 完美的红宝石 + 1 普通盾牌 -> 有插槽的盾牌"
     },
     "category": "sockets",
     "ingredientIcons": [
@@ -1234,8 +1234,8 @@
     "id": "recipe-127",
     "description": {
       "en": "1 Eld Rune + 1 Chipped Gem (Any) + 1 Low Quality Weapon -> Normal Weapon",
-      "zh-TW": "1 Eld Rune + 1 Chipped Gem (Any) + 1 Low Quality Weapon -> Normal Weapon",
-      "zh-CN": "1 Eld Rune + 1 Chipped Gem (Any) + 1 Low Quality Weapon -> Normal Weapon"
+      "zh-TW": "1 艾德符文 + 1 碎裂的寶石(任一) + 1 低品質武器 -> 普通武器",
+      "zh-CN": "1 艾德符文 + 1 碎裂的宝石(任一) + 1 低品质武器 -> 普通武器"
     },
     "category": "itemUpgrade",
     "ingredientIcons": [
@@ -1247,8 +1247,8 @@
     "id": "recipe-128",
     "description": {
       "en": "1 El Rune + 1 Chipped Gem (Any) + 1 Low Quality Armor -> Normal Armor",
-      "zh-TW": "1 El Rune + 1 Chipped Gem (Any) + 1 Low Quality Armor -> Normal Armor",
-      "zh-CN": "1 El Rune + 1 Chipped Gem (Any) + 1 Low Quality Armor -> Normal Armor"
+      "zh-TW": "1 艾爾符文 + 1 碎裂的寶石(任一) + 1 低品質護甲 -> 普通護甲",
+      "zh-CN": "1 艾尔符文 + 1 碎裂的宝石(任一) + 1 低品质护甲 -> 普通护甲"
     },
     "category": "itemUpgrade",
     "ingredientIcons": [
@@ -1260,8 +1260,8 @@
     "id": "recipe-129",
     "description": {
       "en": "1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + 1 Normal Unique Weapon -> Exceptional Unique Weapon",
-      "zh-TW": "1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + 1 Normal Unique Weapon -> Exceptional Unique Weapon",
-      "zh-CN": "1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + 1 Normal Unique Weapon -> Exceptional Unique Weapon"
+      "zh-TW": "1 拉爾符文 + 1 索爾符文 + 1 完美的綠寶石 + 1 普通獨特武器 -> 優良獨特武器",
+      "zh-CN": "1 拉尔符文 + 1 索尔符文 + 1 完美的绿宝石 + 1 普通独特武器 -> 优良独特武器"
     },
     "category": "itemUpgrade",
     "ingredientIcons": [
@@ -1275,8 +1275,8 @@
     "id": "recipe-130",
     "description": {
       "en": "1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Normal Unique Armor -> Exceptional Unique Armor",
-      "zh-TW": "1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Normal Unique Armor -> Exceptional Unique Armor",
-      "zh-CN": "1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Normal Unique Armor -> Exceptional Unique Armor"
+      "zh-TW": "1 塔爾符文 + 1 夏符文 + 1 完美的鑽石 + 1 普通獨特護甲 -> 優良獨特護甲",
+      "zh-CN": "1 塔尔符文 + 1 夏符文 + 1 完美的钻石 + 1 普通独特护甲 -> 优良独特护甲"
     },
     "category": "itemUpgrade",
     "ingredientIcons": [
@@ -1290,8 +1290,8 @@
     "id": "recipe-131",
     "description": {
       "en": "1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Unique Weapon -> Elite Unique Weapon",
-      "zh-TW": "1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Unique Weapon -> Elite Unique Weapon",
-      "zh-CN": "1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Unique Weapon -> Elite Unique Weapon"
+      "zh-TW": "1 盧姆符文 + 1 普爾符文 + 1 完美的綠寶石 + 1 優良獨特武器 -> 精英獨特武器",
+      "zh-CN": "1 卢姆符文 + 1 普尔符文 + 1 完美的绿宝石 + 1 优良独特武器 -> 精英独特武器"
     },
     "category": "itemUpgrade",
     "ingredientIcons": [
@@ -1305,8 +1305,8 @@
     "id": "recipe-132",
     "description": {
       "en": "1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Unique Armor -> Elite Unique Armor",
-      "zh-TW": "1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Unique Armor -> Elite Unique Armor",
-      "zh-CN": "1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Unique Armor -> Elite Unique Armor"
+      "zh-TW": "1 科符文 + 1 藍姆符文 + 1 完美的鑽石 + 1 優良獨特護甲 -> 精英獨特護甲",
+      "zh-CN": "1 科符文 + 1 蓝姆符文 + 1 完美的钻石 + 1 优良独特护甲 -> 精英独特护甲"
     },
     "category": "itemUpgrade",
     "ingredientIcons": [
@@ -1320,8 +1320,8 @@
     "id": "recipe-133",
     "description": {
       "en": "1 Ort Rune + 1 Amn Rune + 1 Perfect Sapphire + 1 Normal Rare Weapon -> Exceptional Rare Weapon",
-      "zh-TW": "1 Ort Rune + 1 Amn Rune + 1 Perfect Sapphire + 1 Normal Rare Weapon -> Exceptional Rare Weapon",
-      "zh-CN": "1 Ort Rune + 1 Amn Rune + 1 Perfect Sapphire + 1 Normal Rare Weapon -> Exceptional Rare Weapon"
+      "zh-TW": "1 歐特符文 + 1 安姆符文 + 1 完美的藍寶石 + 1 普通稀有武器 -> 優良稀有武器",
+      "zh-CN": "1 欧特符文 + 1 安姆符文 + 1 完美的蓝宝石 + 1 普通稀有武器 -> 优良稀有武器"
     },
     "category": "itemUpgrade",
     "ingredientIcons": [
@@ -1335,8 +1335,8 @@
     "id": "recipe-134",
     "description": {
       "en": "1 Ral Rune + 1 Thul Rune + 1 Perfect Amethyst + 1 Normal Rare Armor -> Exceptional Rare Armor",
-      "zh-TW": "1 Ral Rune + 1 Thul Rune + 1 Perfect Amethyst + 1 Normal Rare Armor -> Exceptional Rare Armor",
-      "zh-CN": "1 Ral Rune + 1 Thul Rune + 1 Perfect Amethyst + 1 Normal Rare Armor -> Exceptional Rare Armor"
+      "zh-TW": "1 拉爾符文 + 1 書爾符文 + 1 完美的紫寶石 + 1 普通稀有護甲 -> 優良稀有護甲",
+      "zh-CN": "1 拉尔符文 + 1 书尔符文 + 1 完美的紫宝石 + 1 普通稀有护甲 -> 优良稀有护甲"
     },
     "category": "itemUpgrade",
     "ingredientIcons": [
@@ -1350,8 +1350,8 @@
     "id": "recipe-135",
     "description": {
       "en": "1 Fal Rune + 1 Um Rune + 1 Perfect Sapphire + 1 Exceptional Rare Weapon -> Elite Rare Weapon",
-      "zh-TW": "1 Fal Rune + 1 Um Rune + 1 Perfect Sapphire + 1 Exceptional Rare Weapon -> Elite Rare Weapon",
-      "zh-CN": "1 Fal Rune + 1 Um Rune + 1 Perfect Sapphire + 1 Exceptional Rare Weapon -> Elite Rare Weapon"
+      "zh-TW": "1 法爾符文 + 1 烏姆符文 + 1 完美的藍寶石 + 1 優良稀有武器 -> 精英稀有武器",
+      "zh-CN": "1 法尔符文 + 1 乌姆符文 + 1 完美的蓝宝石 + 1 优良稀有武器 -> 精英稀有武器"
     },
     "category": "itemUpgrade",
     "ingredientIcons": [
@@ -1365,8 +1365,8 @@
     "id": "recipe-136",
     "description": {
       "en": "1 Ko Rune + 1 Pul Rune + 1 Perfect Amethyst + 1 Exceptional Rare Armor -> Elite Rare Armor",
-      "zh-TW": "1 Ko Rune + 1 Pul Rune + 1 Perfect Amethyst + 1 Exceptional Rare Armor -> Elite Rare Armor",
-      "zh-CN": "1 Ko Rune + 1 Pul Rune + 1 Perfect Amethyst + 1 Exceptional Rare Armor -> Elite Rare Armor"
+      "zh-TW": "1 科符文 + 1 普爾符文 + 1 完美的紫寶石 + 1 優良稀有護甲 -> 精英稀有護甲",
+      "zh-CN": "1 科符文 + 1 普尔符文 + 1 完美的紫宝石 + 1 优良稀有护甲 -> 精英稀有护甲"
     },
     "category": "itemUpgrade",
     "ingredientIcons": [
@@ -1380,8 +1380,8 @@
     "id": "recipe-137",
     "description": {
       "en": "1 Ort Rune + 1 Weapon -> Fully Repaired Weapon",
-      "zh-TW": "1 Ort Rune + 1 Weapon -> Fully Repaired Weapon",
-      "zh-CN": "1 Ort Rune + 1 Weapon -> Fully Repaired Weapon"
+      "zh-TW": "1 歐特符文 + 1 武器 -> 完全修復的武器",
+      "zh-CN": "1 欧特符文 + 1 武器 -> 完全修复的武器"
     },
     "category": "itemRepair",
     "ingredientIcons": [
@@ -1393,8 +1393,8 @@
     "id": "recipe-138",
     "description": {
       "en": "1 Ral Rune + 1 Armor -> Fully Repaired Armor",
-      "zh-TW": "1 Ral Rune + 1 Armor -> Fully Repaired Armor",
-      "zh-CN": "1 Ral Rune + 1 Armor -> Fully Repaired Armor"
+      "zh-TW": "1 拉爾符文 + 1 護甲 -> 完全修復的護甲",
+      "zh-CN": "1 拉尔符文 + 1 护甲 -> 完全修复的护甲"
     },
     "category": "itemRepair",
     "ingredientIcons": [
@@ -1406,8 +1406,8 @@
     "id": "recipe-139",
     "description": {
       "en": "1 Ort Rune + 1 Chipped Gem (Any) + 1 Weapon -> Fully Repaired and Recharged Weapon",
-      "zh-TW": "1 Ort Rune + 1 Chipped Gem (Any) + 1 Weapon -> Fully Repaired and Recharged Weapon",
-      "zh-CN": "1 Ort Rune + 1 Chipped Gem (Any) + 1 Weapon -> Fully Repaired and Recharged Weapon"
+      "zh-TW": "1 歐特符文 + 1 碎裂的寶石(任一) + 1 武器 -> 完全修復並充能的武器",
+      "zh-CN": "1 欧特符文 + 1 碎裂的宝石(任一) + 1 武器 -> 完全修复并充能的武器"
     },
     "category": "itemRepair",
     "ingredientIcons": [
@@ -1419,8 +1419,8 @@
     "id": "recipe-140",
     "description": {
       "en": "1 Ral Rune + 1 Flawed Gem (Any) + 1 Armor -> Fully Repaired and Recharged Armor",
-      "zh-TW": "1 Ral Rune + 1 Flawed Gem (Any) + 1 Armor -> Fully Repaired and Recharged Armor",
-      "zh-CN": "1 Ral Rune + 1 Flawed Gem (Any) + 1 Armor -> Fully Repaired and Recharged Armor"
+      "zh-TW": "1 拉爾符文 + 1 裂開的寶石(任一) + 1 護甲 -> 完全修復並充能的護甲",
+      "zh-CN": "1 拉尔符文 + 1 裂开的宝石(任一) + 1 护甲 -> 完全修复并充能的护甲"
     },
     "category": "itemRepair",
     "ingredientIcons": [
@@ -1432,8 +1432,8 @@
     "id": "recipe-141",
     "description": {
       "en": "1 Hel Rune + Scroll of Town Portal + 1 Socketed Item -> Clear Sockets on Item",
-      "zh-TW": "1 Hel Rune + Scroll of Town Portal + 1 Socketed Item -> Clear Sockets on Item",
-      "zh-CN": "1 Hel Rune + Scroll of Town Portal + 1 Socketed Item -> Clear Sockets on Item"
+      "zh-TW": "1 海爾符文 + 城鎮傳送卷軸 + 1 有插槽的物品 -> 清除物品上的插槽",
+      "zh-CN": "1 海尔符文 + 城镇传送卷轴 + 1 有插槽的物品 -> 清除物品上的插槽"
     },
     "category": "sockets",
     "ingredientIcons": [
@@ -1446,8 +1446,8 @@
     "id": "recipe-147",
     "description": {
       "en": "3 Chipped Gems (Any) + 1 Magic Weapon -> Socketed Magic Weapon",
-      "zh-TW": "3 Chipped Gems (Any) + 1 Magic Weapon -> Socketed Magic Weapon",
-      "zh-CN": "3 Chipped Gems (Any) + 1 Magic Weapon -> Socketed Magic Weapon"
+      "zh-TW": "3 碎裂的寶石(任一) + 1 魔法武器 -> 有插槽的魔法武器",
+      "zh-CN": "3 碎裂的宝石(任一) + 1 魔法武器 -> 有插槽的魔法武器"
     },
     "category": "sockets",
     "ingredientIcons": [],
@@ -1457,8 +1457,8 @@
     "id": "recipe-148",
     "description": {
       "en": "1 Key of Terror + 1 Key of Hate + 1 Key of Destruction -> Portal to Matron's Den/Forgotten Sands/Furnace of Pain (Random)",
-      "zh-TW": "1 Key of Terror + 1 Key of Hate + 1 Key of Destruction -> Portal to Matron's Den/Forgotten Sands/Furnace of Pain (Random)",
-      "zh-CN": "1 Key of Terror + 1 Key of Hate + 1 Key of Destruction -> Portal to Matron's Den/Forgotten Sands/Furnace of Pain (Random)"
+      "zh-TW": "1 恐懼之鑰 + 1 憎恨之鑰 + 1 毀滅之鑰 -> Portal to Matron's Den/Forgotten Sands/Furnace of Pain (Random)",
+      "zh-CN": "1 恐惧之钥 + 1 憎恨之钥 + 1 毁灭之钥 -> Portal to Matron's Den/Forgotten Sands/Furnace of Pain (Random)"
     },
     "category": "quests",
     "ingredientIcons": [
@@ -1470,8 +1470,8 @@
     "id": "recipe-149",
     "description": {
       "en": "1 Diablo's Horn + 1 Baal's Eye + 1 Mephisto's Brain -> Portal to Tristram (Pandemonium Finale)",
-      "zh-TW": "1 Diablo's Horn + 1 Baal's Eye + 1 Mephisto's Brain -> Portal to Tristram (Pandemonium Finale)",
-      "zh-CN": "1 Diablo's Horn + 1 Baal's Eye + 1 Mephisto's Brain -> Portal to Tristram (Pandemonium Finale)"
+      "zh-TW": "1 暗黑破壞神之角 + 1 巴爾之眼 + 1 曼菲斯托之腦 -> 通往特里斯特姆的傳送門（萬魔終局）",
+      "zh-CN": "1 暗黑破坏神之角 + 1 巴尔之眼 + 1 曼菲斯托之脑 -> 通往特里斯特姆的传送门（万魔终局）"
     },
     "category": "quests",
     "ingredientIcons": [
@@ -1485,8 +1485,8 @@
     "id": "recipe-150",
     "description": {
       "en": "1 Twisted Essence of Suffering + 1 Charged Essence of Hatred + 1 Burning Essence of Terror + 1 Festering Essence of Destruction -> Token of Absolution",
-      "zh-TW": "1 Twisted Essence of Suffering + 1 Charged Essence of Hatred + 1 Burning Essence of Terror + 1 Festering Essence of Destruction -> Token of Absolution",
-      "zh-CN": "1 Twisted Essence of Suffering + 1 Charged Essence of Hatred + 1 Burning Essence of Terror + 1 Festering Essence of Destruction -> Token of Absolution"
+      "zh-TW": "1 扭曲的苦痛精华 + 1 Charged Essence of Hatred + 1 燃烧的恐惧精华 + 1 溃烂的毁灭精华 -> 右键点击以重设属性/技能点数。\n赦免徽章",
+      "zh-CN": "1 扭曲的苦痛精华 + 1 Charged Essence of Hatred + 1 燃烧的恐惧精华 + 1 溃烂的毁灭精华 -> 右键点击以重设属性/技能点数。\n赦免徽章"
     },
     "category": "quests",
     "ingredientIcons": [
@@ -1501,8 +1501,8 @@
     "id": "recipe-151",
     "description": {
       "en": "1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + 1 Normal Set Weapon -> Exceptional Set Weapon",
-      "zh-TW": "1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + 1 Normal Set Weapon -> Exceptional Set Weapon",
-      "zh-CN": "1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + 1 Normal Set Weapon -> Exceptional Set Weapon"
+      "zh-TW": "1 拉爾符文 + 1 索爾符文 + 1 完美的綠寶石 + 1 普通套裝武器 -> 優良套裝武器",
+      "zh-CN": "1 拉尔符文 + 1 索尔符文 + 1 完美的绿宝石 + 1 普通套装武器 -> 优良套装武器"
     },
     "category": "itemUpgrade",
     "ingredientIcons": [
@@ -1516,8 +1516,8 @@
     "id": "recipe-152",
     "description": {
       "en": "1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Normal Set Armor -> Exceptional Set Armor",
-      "zh-TW": "1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Normal Set Armor -> Exceptional Set Armor",
-      "zh-CN": "1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Normal Set Armor -> Exceptional Set Armor"
+      "zh-TW": "1 塔爾符文 + 1 夏符文 + 1 完美的鑽石 + 1 普通套裝護甲 -> 優良套裝護甲",
+      "zh-CN": "1 塔尔符文 + 1 夏符文 + 1 完美的钻石 + 1 普通套装护甲 -> 优良套装护甲"
     },
     "category": "itemUpgrade",
     "ingredientIcons": [
@@ -1531,8 +1531,8 @@
     "id": "recipe-153",
     "description": {
       "en": "1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Set Weapon -> Elite Set Weapon",
-      "zh-TW": "1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Set Weapon -> Elite Set Weapon",
-      "zh-CN": "1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Set Weapon -> Elite Set Weapon"
+      "zh-TW": "1 盧姆符文 + 1 普爾符文 + 1 完美的綠寶石 + 1 優良套裝武器 -> 精英套裝武器",
+      "zh-CN": "1 卢姆符文 + 1 普尔符文 + 1 完美的绿宝石 + 1 优良套装武器 -> 精英套装武器"
     },
     "category": "itemUpgrade",
     "ingredientIcons": [
@@ -1546,8 +1546,8 @@
     "id": "recipe-154",
     "description": {
       "en": "1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Set Armor -> Elite Set Armor",
-      "zh-TW": "1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Set Armor -> Elite Set Armor",
-      "zh-CN": "1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Set Armor -> Elite Set Armor"
+      "zh-TW": "1 科符文 + 1 藍姆符文 + 1 完美的鑽石 + 1 優良套裝護甲 -> 精英套裝護甲",
+      "zh-CN": "1 科符文 + 1 蓝姆符文 + 1 完美的钻石 + 1 优良套装护甲 -> 精英套装护甲"
     },
     "category": "itemUpgrade",
     "ingredientIcons": [
@@ -1561,8 +1561,8 @@
     "id": "recipe-163",
     "description": {
       "en": "1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Small Charm -> Virulent Small Charm",
-      "zh-TW": "1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Small Charm -> Virulent Small Charm",
-      "zh-CN": "1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Small Charm -> Virulent Small Charm"
+      "zh-TW": "1 科符文 + 1 完美的綠寶石 + 1 西方世界之石碎片 + 1 小護身符 -> Virulent 小護身符",
+      "zh-CN": "1 科符文 + 1 完美的绿宝石 + 1 西方世界之石碎片 + 1 小护身符 -> Virulent 小护身符"
     },
     "category": "craftedGrandCharm",
     "ingredientIcons": [
@@ -1577,8 +1577,8 @@
     "id": "recipe-164",
     "description": {
       "en": "1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Large Charm -> Virulent Large Charm",
-      "zh-TW": "1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Large Charm -> Virulent Large Charm",
-      "zh-CN": "1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Large Charm -> Virulent Large Charm"
+      "zh-TW": "1 科符文 + 1 完美的綠寶石 + 1 西方世界之石碎片 + 1 大型護身符 -> Virulent 大型護身符",
+      "zh-CN": "1 科符文 + 1 完美的绿宝石 + 1 西方世界之石碎片 + 1 大型护身符 -> Virulent 大型护身符"
     },
     "category": "craftedGrandCharm",
     "ingredientIcons": [
@@ -1593,8 +1593,8 @@
     "id": "recipe-165",
     "description": {
       "en": "1 Ko Rune + 1 Perfect Emerald + 1 Uber Ancient Summon Material Act1 + 1 Rotting Fissure -> Virulent Rotting Fissure",
-      "zh-TW": "1 Ko Rune + 1 Perfect Emerald + 1 Uber Ancient Summon Material Act1 + 1 Rotting Fissure -> Virulent Rotting Fissure",
-      "zh-CN": "1 Ko Rune + 1 Perfect Emerald + 1 Uber Ancient Summon Material Act1 + 1 Rotting Fissure -> Virulent Rotting Fissure"
+      "zh-TW": "1 科符文 + 1 完美的綠寶石 + 1 Uber Ancient Summon Material Act1 + 1 Rotting Fissure -> Virulent Rotting Fissure",
+      "zh-CN": "1 科符文 + 1 完美的绿宝石 + 1 Uber Ancient Summon Material Act1 + 1 Rotting Fissure -> Virulent Rotting Fissure"
     },
     "category": "quests",
     "ingredientIcons": [
@@ -1608,8 +1608,8 @@
     "id": "recipe-174",
     "description": {
       "en": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Small Charm -> Gelid Small Charm",
-      "zh-TW": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Small Charm -> Gelid Small Charm",
-      "zh-CN": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Small Charm -> Gelid Small Charm"
+      "zh-TW": "1 盧姆符文 + 1 完美的藍寶石 + 1 東方世界之石碎片 + 1 小護身符 -> Gelid 小護身符",
+      "zh-CN": "1 卢姆符文 + 1 完美的蓝宝石 + 1 东方世界之石碎片 + 1 小护身符 -> Gelid 小护身符"
     },
     "category": "craftedGrandCharm",
     "ingredientIcons": [
@@ -1624,8 +1624,8 @@
     "id": "recipe-175",
     "description": {
       "en": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Large Charm -> Gelid Large Charm",
-      "zh-TW": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Large Charm -> Gelid Large Charm",
-      "zh-CN": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Large Charm -> Gelid Large Charm"
+      "zh-TW": "1 盧姆符文 + 1 完美的藍寶石 + 1 東方世界之石碎片 + 1 大型護身符 -> Gelid 大型護身符",
+      "zh-CN": "1 卢姆符文 + 1 完美的蓝宝石 + 1 东方世界之石碎片 + 1 大型护身符 -> Gelid 大型护身符"
     },
     "category": "craftedGrandCharm",
     "ingredientIcons": [
@@ -1640,8 +1640,8 @@
     "id": "recipe-176",
     "description": {
       "en": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Grand Charm -> Gelid Grand Charm",
-      "zh-TW": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Grand Charm -> Gelid Grand Charm",
-      "zh-CN": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Grand Charm -> Gelid Grand Charm"
+      "zh-TW": "1 盧姆符文 + 1 完美的藍寶石 + 1 東方世界之石碎片 + 1 超大型護身符 -> Gelid 超大型護身符",
+      "zh-CN": "1 卢姆符文 + 1 完美的蓝宝石 + 1 东方世界之石碎片 + 1 超大型护身符 -> Gelid 超大型护身符"
     },
     "category": "craftedGrandCharm",
     "ingredientIcons": [
@@ -1656,8 +1656,8 @@
     "id": "recipe-177",
     "description": {
       "en": "1 Lum Rune + 1 Perfect Sapphire + 1 Uber Ancient Summon Material Act2 + 1 Cold Rupture -> Gelid Cold Rupture",
-      "zh-TW": "1 Lum Rune + 1 Perfect Sapphire + 1 Uber Ancient Summon Material Act2 + 1 Cold Rupture -> Gelid Cold Rupture",
-      "zh-CN": "1 Lum Rune + 1 Perfect Sapphire + 1 Uber Ancient Summon Material Act2 + 1 Cold Rupture -> Gelid Cold Rupture"
+      "zh-TW": "1 盧姆符文 + 1 完美的藍寶石 + 1 Uber Ancient Summon Material Act2 + 1 Cold Rupture -> Gelid Cold Rupture",
+      "zh-CN": "1 卢姆符文 + 1 完美的蓝宝石 + 1 Uber Ancient Summon Material Act2 + 1 Cold Rupture -> Gelid Cold Rupture"
     },
     "category": "quests",
     "ingredientIcons": [
@@ -1671,8 +1671,8 @@
     "id": "recipe-186",
     "description": {
       "en": "1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Small Charm -> Magnetic Small Charm",
-      "zh-TW": "1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Small Charm -> Magnetic Small Charm",
-      "zh-CN": "1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Small Charm -> Magnetic Small Charm"
+      "zh-TW": "1 法爾符文 + 1 完美的黃寶石 + 1 南方世界之石碎片 + 1 小護身符 -> Magnetic 小護身符",
+      "zh-CN": "1 法尔符文 + 1 完美的黄宝石 + 1 南方世界之石碎片 + 1 小护身符 -> Magnetic 小护身符"
     },
     "category": "craftedGrandCharm",
     "ingredientIcons": [
@@ -1687,8 +1687,8 @@
     "id": "recipe-187",
     "description": {
       "en": "1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Large Charm -> Magnetic Large Charm",
-      "zh-TW": "1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Large Charm -> Magnetic Large Charm",
-      "zh-CN": "1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Large Charm -> Magnetic Large Charm"
+      "zh-TW": "1 法爾符文 + 1 完美的黃寶石 + 1 南方世界之石碎片 + 1 大型護身符 -> Magnetic 大型護身符",
+      "zh-CN": "1 法尔符文 + 1 完美的黄宝石 + 1 南方世界之石碎片 + 1 大型护身符 -> Magnetic 大型护身符"
     },
     "category": "craftedGrandCharm",
     "ingredientIcons": [
@@ -1703,8 +1703,8 @@
     "id": "recipe-188",
     "description": {
       "en": "1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Grand Charm -> Magnetic Grand Charm",
-      "zh-TW": "1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Grand Charm -> Magnetic Grand Charm",
-      "zh-CN": "1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Grand Charm -> Magnetic Grand Charm"
+      "zh-TW": "1 法爾符文 + 1 完美的黃寶石 + 1 南方世界之石碎片 + 1 超大型護身符 -> Magnetic 超大型護身符",
+      "zh-CN": "1 法尔符文 + 1 完美的黄宝石 + 1 南方世界之石碎片 + 1 超大型护身符 -> Magnetic 超大型护身符"
     },
     "category": "craftedGrandCharm",
     "ingredientIcons": [
@@ -1719,8 +1719,8 @@
     "id": "recipe-189",
     "description": {
       "en": "1 Fal Rune + 1 Perfect Topaz + 1 Uber Ancient Summon Material Act3 + 1 Crack of the Heavens -> Magnetic Crack of the Heavens",
-      "zh-TW": "1 Fal Rune + 1 Perfect Topaz + 1 Uber Ancient Summon Material Act3 + 1 Crack of the Heavens -> Magnetic Crack of the Heavens",
-      "zh-CN": "1 Fal Rune + 1 Perfect Topaz + 1 Uber Ancient Summon Material Act3 + 1 Crack of the Heavens -> Magnetic Crack of the Heavens"
+      "zh-TW": "1 法爾符文 + 1 完美的黃寶石 + 1 Uber Ancient Summon Material Act3 + 1 Crack of the Heavens -> Magnetic Crack of the Heavens",
+      "zh-CN": "1 法尔符文 + 1 完美的黄宝石 + 1 Uber Ancient Summon Material Act3 + 1 Crack of the Heavens -> Magnetic Crack of the Heavens"
     },
     "category": "quests",
     "ingredientIcons": [
@@ -1734,8 +1734,8 @@
     "id": "recipe-198",
     "description": {
       "en": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Small Charm -> Incendiary Small Charm",
-      "zh-TW": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Small Charm -> Incendiary Small Charm",
-      "zh-CN": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Small Charm -> Incendiary Small Charm"
+      "zh-TW": "1 破符文 + 1 完美的紅寶石 + 1 深層世界之石碎片 + 1 小護身符 -> Incendiary 小護身符",
+      "zh-CN": "1 破符文 + 1 完美的红宝石 + 1 深层世界之石碎片 + 1 小护身符 -> Incendiary 小护身符"
     },
     "category": "craftedGrandCharm",
     "ingredientIcons": [
@@ -1750,8 +1750,8 @@
     "id": "recipe-199",
     "description": {
       "en": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Large Charm -> Incendiary Large Charm",
-      "zh-TW": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Large Charm -> Incendiary Large Charm",
-      "zh-CN": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Large Charm -> Incendiary Large Charm"
+      "zh-TW": "1 破符文 + 1 完美的紅寶石 + 1 深層世界之石碎片 + 1 大型護身符 -> Incendiary 大型護身符",
+      "zh-CN": "1 破符文 + 1 完美的红宝石 + 1 深层世界之石碎片 + 1 大型护身符 -> Incendiary 大型护身符"
     },
     "category": "craftedGrandCharm",
     "ingredientIcons": [
@@ -1766,8 +1766,8 @@
     "id": "recipe-200",
     "description": {
       "en": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Grand Charm -> Incendiary Grand Charm",
-      "zh-TW": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Grand Charm -> Incendiary Grand Charm",
-      "zh-CN": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Grand Charm -> Incendiary Grand Charm"
+      "zh-TW": "1 破符文 + 1 完美的紅寶石 + 1 深層世界之石碎片 + 1 超大型護身符 -> Incendiary 超大型護身符",
+      "zh-CN": "1 破符文 + 1 完美的红宝石 + 1 深层世界之石碎片 + 1 超大型护身符 -> Incendiary 超大型护身符"
     },
     "category": "craftedGrandCharm",
     "ingredientIcons": [
@@ -1782,8 +1782,8 @@
     "id": "recipe-201",
     "description": {
       "en": "1 Io Rune + 1 Perfect Ruby + 1 Uber Ancient Summon Material Act4 + 1 Flame Rift -> Incendiary Flame Rift",
-      "zh-TW": "1 Io Rune + 1 Perfect Ruby + 1 Uber Ancient Summon Material Act4 + 1 Flame Rift -> Incendiary Flame Rift",
-      "zh-CN": "1 Io Rune + 1 Perfect Ruby + 1 Uber Ancient Summon Material Act4 + 1 Flame Rift -> Incendiary Flame Rift"
+      "zh-TW": "1 破符文 + 1 完美的紅寶石 + 1 Uber Ancient Summon Material Act4 + 1 Flame Rift -> Incendiary Flame Rift",
+      "zh-CN": "1 破符文 + 1 完美的红宝石 + 1 Uber Ancient Summon Material Act4 + 1 Flame Rift -> Incendiary Flame Rift"
     },
     "category": "quests",
     "ingredientIcons": [
@@ -1797,8 +1797,8 @@
     "id": "recipe-210",
     "description": {
       "en": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Small Charm -> Breaching Small Charm",
-      "zh-TW": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Small Charm -> Breaching Small Charm",
-      "zh-CN": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Small Charm -> Breaching Small Charm"
+      "zh-TW": "1 普爾符文 + 1 完美的紫寶石 + 1 北方世界之石碎片 + 1 小護身符 -> Breaching 小護身符",
+      "zh-CN": "1 普尔符文 + 1 完美的紫宝石 + 1 北方世界之石碎片 + 1 小护身符 -> Breaching 小护身符"
     },
     "category": "craftedGrandCharm",
     "ingredientIcons": [
@@ -1813,8 +1813,8 @@
     "id": "recipe-211",
     "description": {
       "en": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Large Charm -> Breaching Large Charm",
-      "zh-TW": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Large Charm -> Breaching Large Charm",
-      "zh-CN": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Large Charm -> Breaching Large Charm"
+      "zh-TW": "1 普爾符文 + 1 完美的紫寶石 + 1 北方世界之石碎片 + 1 大型護身符 -> Breaching 大型護身符",
+      "zh-CN": "1 普尔符文 + 1 完美的紫宝石 + 1 北方世界之石碎片 + 1 大型护身符 -> Breaching 大型护身符"
     },
     "category": "craftedGrandCharm",
     "ingredientIcons": [
@@ -1829,8 +1829,8 @@
     "id": "recipe-212",
     "description": {
       "en": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Grand Charm -> Breaching Grand Charm",
-      "zh-TW": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Grand Charm -> Breaching Grand Charm",
-      "zh-CN": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Grand Charm -> Breaching Grand Charm"
+      "zh-TW": "1 普爾符文 + 1 完美的紫寶石 + 1 北方世界之石碎片 + 1 超大型護身符 -> Breaching 超大型護身符",
+      "zh-CN": "1 普尔符文 + 1 完美的紫宝石 + 1 北方世界之石碎片 + 1 超大型护身符 -> Breaching 超大型护身符"
     },
     "category": "craftedGrandCharm",
     "ingredientIcons": [
@@ -1845,8 +1845,8 @@
     "id": "recipe-213",
     "description": {
       "en": "1 Pul Rune + 1 Perfect Amethyst + 1 Uber Ancient Summon Material Act5 + 1 Bone Break -> Breaching Bone Break",
-      "zh-TW": "1 Pul Rune + 1 Perfect Amethyst + 1 Uber Ancient Summon Material Act5 + 1 Bone Break -> Breaching Bone Break",
-      "zh-CN": "1 Pul Rune + 1 Perfect Amethyst + 1 Uber Ancient Summon Material Act5 + 1 Bone Break -> Breaching Bone Break"
+      "zh-TW": "1 普爾符文 + 1 完美的紫寶石 + 1 Uber Ancient Summon Material Act5 + 1 Bone Break -> Breaching Bone Break",
+      "zh-CN": "1 普尔符文 + 1 完美的紫宝石 + 1 Uber Ancient Summon Material Act5 + 1 Bone Break -> Breaching Bone Break"
     },
     "category": "quests",
     "ingredientIcons": [
@@ -1860,8 +1860,8 @@
     "id": "recipe-222",
     "description": {
       "en": "1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Small Charm -> Mystical Small Charm",
-      "zh-TW": "1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Small Charm -> Mystical Small Charm",
-      "zh-CN": "1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Small Charm -> Mystical Small Charm"
+      "zh-TW": "1 馬爾符文 + 1 完美的鑽石 + 1 北方世界之石碎片 + 1 小護身符 -> Mystical 小護身符",
+      "zh-CN": "1 马尔符文 + 1 完美的钻石 + 1 北方世界之石碎片 + 1 小护身符 -> Mystical 小护身符"
     },
     "category": "craftedGrandCharm",
     "ingredientIcons": [
@@ -1876,8 +1876,8 @@
     "id": "recipe-223",
     "description": {
       "en": "1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Large Charm -> Mystical Large Charm",
-      "zh-TW": "1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Large Charm -> Mystical Large Charm",
-      "zh-CN": "1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Large Charm -> Mystical Large Charm"
+      "zh-TW": "1 馬爾符文 + 1 完美的鑽石 + 1 北方世界之石碎片 + 1 大型護身符 -> Mystical 大型護身符",
+      "zh-CN": "1 马尔符文 + 1 完美的钻石 + 1 北方世界之石碎片 + 1 大型护身符 -> Mystical 大型护身符"
     },
     "category": "craftedGrandCharm",
     "ingredientIcons": [
@@ -1892,8 +1892,8 @@
     "id": "recipe-224",
     "description": {
       "en": "1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Grand Charm -> Mystical Grand Charm",
-      "zh-TW": "1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Grand Charm -> Mystical Grand Charm",
-      "zh-CN": "1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Grand Charm -> Mystical Grand Charm"
+      "zh-TW": "1 馬爾符文 + 1 完美的鑽石 + 1 北方世界之石碎片 + 1 超大型護身符 -> Mystical 超大型護身符",
+      "zh-CN": "1 马尔符文 + 1 完美的钻石 + 1 北方世界之石碎片 + 1 超大型护身符 -> Mystical 超大型护身符"
     },
     "category": "craftedGrandCharm",
     "ingredientIcons": [
@@ -1908,8 +1908,8 @@
     "id": "recipe-225",
     "description": {
       "en": "1 Mal Rune + 1 Perfect Diamond + 1 Uber Ancient Summon Material Act5 + 1 Black Cleft -> Mystical Black Cleft",
-      "zh-TW": "1 Mal Rune + 1 Perfect Diamond + 1 Uber Ancient Summon Material Act5 + 1 Black Cleft -> Mystical Black Cleft",
-      "zh-CN": "1 Mal Rune + 1 Perfect Diamond + 1 Uber Ancient Summon Material Act5 + 1 Black Cleft -> Mystical Black Cleft"
+      "zh-TW": "1 馬爾符文 + 1 完美的鑽石 + 1 Uber Ancient Summon Material Act5 + 1 Black Cleft -> Mystical Black Cleft",
+      "zh-CN": "1 马尔符文 + 1 完美的钻石 + 1 Uber Ancient Summon Material Act5 + 1 Black Cleft -> Mystical Black Cleft"
     },
     "category": "quests",
     "ingredientIcons": [
@@ -1923,8 +1923,8 @@
     "id": "recipe-226",
     "description": {
       "en": "1 Uber Ancient Summon Material from Act 1 + Act2 + Act3 + Act 4 + Act 5 -> Portal to Colossal Summit",
-      "zh-TW": "1 Uber Ancient Summon Material from Act 1 + Act2 + Act3 + Act 4 + Act 5 -> Portal to Colossal Summit",
-      "zh-CN": "1 Uber Ancient Summon Material from Act 1 + Act2 + Act3 + Act 4 + Act 5 -> Portal to Colossal Summit"
+      "zh-TW": "1 Uber Ancient Summon Material from Act 1 + Act2 + Act3 + Act 4 + Act 5 -> 通往巨神峰頂的傳送門",
+      "zh-CN": "1 Uber Ancient Summon Material from Act 1 + Act2 + Act3 + Act 4 + Act 5 -> 通往巨神峰顶的传送门"
     },
     "category": "quests",
     "ingredientIcons": [

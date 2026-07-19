@@ -208,7 +208,8 @@ describe('runewords-full.json', () => {
   it('Enigma has the correct runes, sockets, and a non-empty stat list', () => {
     const enigma = runewordsFull.find(r => r.name.en === 'Enigma')!;
     expect(enigma).toBeTruthy();
-    expect(enigma.runes).toEqual(['Jah', 'Ith', 'Ber']);
+    expect(enigma.runes.map(r => r.en)).toEqual(['Jah', 'Ith', 'Ber']);
+    expect(enigma.runes.map(r => r['zh-TW'])).toEqual(['喬', '伊司', '貝']);
     expect(enigma.sockets).toBe(3);
     expect(enigma.stats.length + enigma.fixedStats.length).toBeGreaterThan(0);
   });
@@ -316,27 +317,37 @@ describe('runes.json', () => {
     expect(el.recipe).toBeNull();
   });
 
-  it('Eld has a simple 3x-previous-rune recipe (no gem)', () => {
+  it('Eld has a simple 3x-previous-rune recipe (no gem), runeName localized', () => {
     const eld = runesData.find(r => r.name.en === 'Eld')!;
-    expect(eld.recipe).toEqual({ runeName: 'El', count: 3, gemName: null });
+    expect(eld.recipe).toEqual({
+      runeName: { en: 'El', 'zh-TW': '艾爾', 'zh-CN': '艾尔' },
+      count: 3,
+      gemName: null,
+    });
   });
 
-  it('Amn has a gem-inclusive recipe (the first one), gemName localized', () => {
+  it('Amn has a gem-inclusive recipe (the first one), runeName and gemName localized', () => {
     const amn = runesData.find(r => r.name.en === 'Amn')!;
     expect(amn.recipe).toEqual({
-      runeName: 'Thul',
+      runeName: { en: 'Thul', 'zh-TW': '書爾', 'zh-CN': '书尔' },
       count: 3,
       gemName: { en: 'Chipped Topaz', 'zh-TW': '碎裂的黃寶石', 'zh-CN': '碎裂的黄宝石' },
     });
   });
 
-  it('Um has a 2x-count recipe (the first 2x tier), gemName localized', () => {
+  it('Um has a 2x-count recipe (the first 2x tier), runeName and gemName localized', () => {
     const um = runesData.find(r => r.name.en === 'Um')!;
     expect(um.recipe).toEqual({
-      runeName: 'Pul',
+      runeName: { en: 'Pul', 'zh-TW': '普爾', 'zh-CN': '普尔' },
       count: 2,
       gemName: { en: 'Flawed Diamond', 'zh-TW': '裂開的鑽石', 'zh-CN': '裂开的钻石' },
     });
+  });
+
+  it('every rune name is localized (not falling back to English)', () => {
+    for (const r of runesData) {
+      expect(r.name['zh-TW']).not.toBe(r.name.en);
+    }
   });
 
   it('every rune has a dropRate with a localized monster, difficulty, and percent', () => {
@@ -431,6 +442,38 @@ describe('cube-recipes.json', () => {
       if (r.outputIcon) {
         expect(existsSync(join(process.cwd(), 'public/items/inv', `${r.outputIcon}.png`))).toBe(true);
       }
+    }
+  });
+
+  it('localizes a simple literal-name recipe description (Staff of Kings + Amulet of the Viper -> Horadric Staff)', () => {
+    const r = cubeRecipesData.find(r => r.description.en === 'Staff of Kings + Amulet of the Viper -> Horadric Staff')!;
+    expect(r.description['zh-TW']).toBe('國王之杖 + 蝮蛇護符 -> 赫拉迪克法杖');
+  });
+
+  it('localizes a quantity + qualifier + gem-tier recipe description (rejuvenation potion)', () => {
+    const r = cubeRecipesData.find(r =>
+      r.description.en === '3 Healing Potions (Any) + 3 Mana Potions (Any)  + 1 Chipped Gem (Any) -> Rejuvenation Potion'
+    )!;
+    expect(r.description['zh-TW']).not.toMatch(/[A-Za-z]{2,}/);
+  });
+
+  it('localizes a rune-upgrade recipe description (3 El Runes -> Eld Rune)', () => {
+    const eld = cubeRecipesData.find(r => r.description.en === '3 El Runes -> Eld Rune')!;
+    expect(eld.description['zh-TW']).toBe('3 艾爾符文 -> 艾德符文');
+  });
+
+  it('resolves a specific charm-size compound ("Grand Charm") to its own real translation, not the generic word for "Charm", and leaves the unverifiable "Breaching" prefix in English rather than guessing', () => {
+    const r = cubeRecipesData.find(r => r.description.en.endsWith('-> Breaching Grand Charm'))!;
+    expect(r.description['zh-TW']).toBe(
+      '1 普爾符文 + 1 完美的紫寶石 + 1 北方世界之石碎片 + 1 超大型護身符 -> Breaching 超大型護身符'
+    );
+  });
+
+  it('every recipe description is present for all three locales (no undefined/empty strings)', () => {
+    for (const r of cubeRecipesData) {
+      expect(r.description.en.length).toBeGreaterThan(0);
+      expect(r.description['zh-TW'].length).toBeGreaterThan(0);
+      expect(r.description['zh-CN'].length).toBeGreaterThan(0);
     }
   });
 });

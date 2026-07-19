@@ -62,7 +62,7 @@ export default function RuneList({ runes, locale }: { runes: Rune[]; locale: Loc
           </div>
           {rune.recipe && (
             <div className="mt-3 text-sm text-muted">
-              {t('runesRecipeLabel')}: {rune.recipe.runeName} x{rune.recipe.count}
+              {t('runesRecipeLabel')}: {rune.recipe.runeName[locale]} x{rune.recipe.count}
               {rune.recipe.gemName ? ` + ${rune.recipe.gemName[locale]}` : ''}
             </div>
           )}
