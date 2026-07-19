@@ -1,4 +1,4 @@
-import { supabase } from './supabaseClient';
+import { getSupabase } from './supabaseClient';
 
 export interface FindRecord {
   id: string;
@@ -45,6 +45,8 @@ function rowToRecord(row: FindRow): FindRecord {
 }
 
 export async function listFinds(): Promise<FindRecord[]> {
+  const supabase = getSupabase();
+  if (!supabase) throw new Error('Grail sign-in is not configured');
   const { data, error } = await supabase
     .from('finds')
     .select('id, item_code, item_id, item_kind, stat_values, ethereal, found_act, found_area, found_at, notes, created_at')
@@ -64,6 +66,8 @@ export async function insertFind(input: {
   foundAt: string;
   notes: string;
 }): Promise<void> {
+  const supabase = getSupabase();
+  if (!supabase) throw new Error('Grail sign-in is not configured');
   const { data: sessionData } = await supabase.auth.getSession();
   const userId = sessionData.session?.user.id;
   if (!userId) throw new Error('Not signed in');
