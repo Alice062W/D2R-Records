@@ -92,4 +92,40 @@ describe('RunewordFilters + RunewordList', () => {
     expect(screen.getByText(/Strength/).closest('div')).toHaveClass('text-[#8080f3]');
     expect(screen.getByText(/All Skill Levels/).closest('div')).toHaveClass('text-[#ff4a69]');
   });
+
+  describe('owned checkbox', () => {
+    it('renders no checkbox when signed out', async () => {
+      vi.resetModules();
+      vi.doMock('@/lib/grail/useOwnedItems', () => ({
+        useOwnedItems: () => ({ userId: null, loading: false, ownedIds: new Set(), toggle: vi.fn(), error: null }),
+      }));
+      const { default: RunewordList } = await import('./RunewordList');
+      render(
+        <NextIntlClientProvider locale="en" messages={messages}>
+          <RunewordList runewords={[baseRunewordFixture]} locale="en" />
+        </NextIntlClientProvider>
+      );
+      expect(screen.queryByRole('checkbox')).not.toBeInTheDocument();
+    });
+
+    it('renders a checked checkbox for an owned runeword and calls toggle with its id and kind "runeword"', async () => {
+      const toggle = vi.fn();
+      vi.resetModules();
+      vi.doMock('@/lib/grail/useOwnedItems', () => ({
+        useOwnedItems: () => ({
+          userId: 'user-1', loading: false, ownedIds: new Set([baseRunewordFixture.id]), toggle, error: null,
+        }),
+      }));
+      const { default: RunewordList } = await import('./RunewordList');
+      render(
+        <NextIntlClientProvider locale="en" messages={messages}>
+          <RunewordList runewords={[baseRunewordFixture]} locale="en" />
+        </NextIntlClientProvider>
+      );
+      const checkbox = screen.getByRole('checkbox');
+      expect(checkbox).toBeChecked();
+      fireEvent.click(checkbox);
+      expect(toggle).toHaveBeenCalledWith(baseRunewordFixture.id, 'runeword');
+    });
+  });
 });

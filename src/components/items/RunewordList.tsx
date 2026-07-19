@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import type runewordsFullJson from '../../../data/runewords-full.json';
 import { BASE_PATH } from '@/lib/basePath';
+import { useOwnedItems } from '@/lib/grail/useOwnedItems';
 
 type Runeword = (typeof runewordsFullJson)[number];
 
@@ -25,6 +26,7 @@ function RuneIcon({ invFile }: { invFile: string }) {
 export default function RunewordList({ runewords, locale }: { runewords: Runeword[]; locale: 'en' | 'zh-TW' | 'zh-CN' }) {
   const t = useTranslations('Items');
   const tGrail = useTranslations('Grail');
+  const { userId, ownedIds, toggle } = useOwnedItems();
 
   return (
     <div className="flex flex-col gap-4 w-full">
@@ -32,11 +34,24 @@ export default function RunewordList({ runewords, locale }: { runewords: Runewor
         <div key={rw.id} className="bg-panel border border-panel-border rounded-xl p-6">
           <div className="flex items-center justify-between">
             <h3 className="text-lg font-bold text-[#cbb87f]">{rw.name[locale]}</h3>
-            {rw.ladderOnly && (
-              <span className="text-xs px-2 py-1 rounded bg-panel-alt text-muted">
-                {t('runewordsLadderOnly')}
-              </span>
-            )}
+            <div className="flex items-center gap-2">
+              {rw.ladderOnly && (
+                <span className="text-xs px-2 py-1 rounded bg-panel-alt text-muted">
+                  {t('runewordsLadderOnly')}
+                </span>
+              )}
+              {userId && (
+                <label className="flex items-center cursor-pointer select-none">
+                  <input
+                    type="checkbox"
+                    checked={ownedIds.has(rw.id)}
+                    onChange={() => toggle(rw.id, 'runeword')}
+                    className="w-4 h-4 accent-amber-400"
+                    aria-label={tGrail('ownedCheckboxLabel')}
+                  />
+                </label>
+              )}
+            </div>
           </div>
           <div className="mt-2 text-sm text-parchment flex flex-col gap-1">
             <div className="flex items-center gap-2 flex-wrap">
