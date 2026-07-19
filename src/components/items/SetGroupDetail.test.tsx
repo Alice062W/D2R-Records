@@ -1,5 +1,5 @@
-import { describe, it, expect } from 'vitest';
-import { render, screen } from '@testing-library/react';
+import { describe, it, expect, vi } from 'vitest';
+import { render, screen, fireEvent } from '@testing-library/react';
 import { NextIntlClientProvider } from 'next-intl';
 import SetGroupDetail from './SetGroupDetail';
 import type { GrailItem } from '@/lib/grail/catalog';
@@ -52,5 +52,49 @@ describe('SetGroupDetail', () => {
     expect(screen.getByText(/Sorceress Skill Levels: 3/)).toHaveClass('text-[#ff4a69]');
     expect(screen.getByText(/All Resistances: 50/)).toHaveClass('text-[#22ff55]');
     expect(screen.getByText(/Magic Find %: 20–40/)).toHaveClass('text-[#fff818]');
+  });
+});
+
+describe('SetGroupDetail — collected/missing filter', () => {
+  const pieceA: GrailItem = {
+    id: 'set-1', code: 'a', name: 'Piece A', kind: 'set', setName: 'Test Set',
+    levelReq: 1, baseName: 'Boots', grade: 'exceptional', slotCategory: 'boots',
+    defense: null, requiredStrength: null, durability: null, invFile: '',
+    stats: [], fixedStats: [], setBonuses: [], statPriority: [],
+  };
+  const pieceB: GrailItem = { ...pieceA, id: 'set-2', name: 'Piece B' };
+
+  it('shows no filter control when signed out', async () => {
+    vi.resetModules();
+    vi.doMock('@/lib/grail/useOwnedItems', () => ({
+      useOwnedItems: () => ({ userId: null, loading: false, ownedIds: new Set(), toggle: vi.fn(), error: null }),
+    }));
+    const { default: SetGroupDetailMocked } = await import('./SetGroupDetail');
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <SetGroupDetailMocked setName="Test Set" pieces={[pieceA, pieceB]} partialBonuses={[]} fullSetBonuses={[]} />
+      </NextIntlClientProvider>
+    );
+    expect(screen.queryByRole('button', { name: 'Collected' })).not.toBeInTheDocument();
+    vi.doUnmock('@/lib/grail/useOwnedItems');
+  });
+
+  it('filters pieces to only owned ones when "Collected" is clicked', async () => {
+    vi.resetModules();
+    vi.doMock('@/lib/grail/useOwnedItems', () => ({
+      useOwnedItems: () => ({
+        userId: 'user-1', loading: false, ownedIds: new Set(['set-1']), toggle: vi.fn(), error: null,
+      }),
+    }));
+    const { default: SetGroupDetailMocked } = await import('./SetGroupDetail');
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <SetGroupDetailMocked setName="Test Set" pieces={[pieceA, pieceB]} partialBonuses={[]} fullSetBonuses={[]} />
+      </NextIntlClientProvider>
+    );
+    fireEvent.click(screen.getByRole('button', { name: 'Collected' }));
+    expect(screen.getByText('Piece A')).toBeInTheDocument();
+    expect(screen.queryByText('Piece B')).not.toBeInTheDocument();
+    vi.doUnmock('@/lib/grail/useOwnedItems');
   });
 });
