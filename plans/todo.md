@@ -309,16 +309,16 @@ _Spec: [docs/superpowers/specs/2026-07-18-stat-color-highlighting-design.md](../
 ### Owned-Item Checkboxes (Set/Unique/Runeword pages)
 _Spec: [docs/superpowers/specs/2026-07-19-owned-items-tracker-design.md](../docs/superpowers/specs/2026-07-19-owned-items-tracker-design.md) · Plan: [docs/superpowers/plans/2026-07-19-owned-items-tracker-implementation.md](../docs/superpowers/plans/2026-07-19-owned-items-tracker-implementation.md)_
 
-- [ ] Resilient Supabase client (never throw on missing config)
-- [ ] owned_items migration doc + ownedItemsApi data layer
-- [ ] useOwnedItems hook
-- [ ] i18n keys
-- [ ] Checkbox on ItemStatCard (Unique + Set pieces)
-- [ ] Checkbox on RunewordList
-- [ ] Collected/Missing filter on CategoryItemList (Unique pages)
-- [ ] Collected/Missing filter on SetGroupDetail (Set pages)
-- [ ] Collected/Missing filter on Runewords page
-- [ ] Full verification + spot-check
+- [x] Resilient Supabase client (never throw on missing config)
+- [x] owned_items migration doc + ownedItemsApi data layer
+- [x] useOwnedItems hook
+- [x] i18n keys
+- [x] Checkbox on ItemStatCard (Unique + Set pieces)
+- [x] Checkbox on RunewordList
+- [x] Collected/Missing filter on CategoryItemList (Unique pages)
+- [x] Collected/Missing filter on SetGroupDetail (Set pages)
+- [x] Collected/Missing filter on Runewords page
+- [x] Full verification + spot-check (signed-out state automated; signed-in flow needs a manual check by a real Google account — see verification doc)
 
 ## Backlog / Ideas
 
