@@ -1,8 +1,13 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect, vi } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
 import { NextIntlClientProvider } from 'next-intl';
 import SiteNavDrawer from './SiteNavDrawer';
 import messages from '../../../messages/en.json';
+
+vi.mock('next/navigation', () => ({
+  useRouter: () => ({ push: vi.fn() }),
+  usePathname: () => '/en',
+}));
 
 function renderDrawer() {
   return render(
@@ -43,11 +48,17 @@ describe('SiteNavDrawer', () => {
       ['Level Up', '/en/character/level-up'],
       ['Max Sockets', '/en/misc/max-sockets'],
       ['Appraiser', '/en'],
-      ['Grail Tracker', '/en/grail'],
       ['About Us', '/en/about'],
     ];
     for (const [label, href] of expectedLinks) {
       expect(screen.getByRole('link', { name: label })).toHaveAttribute('href', href);
+    }
+    // "Grail Tracker" appears both in the drawer's "Our Tools" group and in the
+    // always-visible top-right bar, so it resolves to two links, not one.
+    const grailLinks = screen.getAllByRole('link', { name: 'Grail Tracker' });
+    expect(grailLinks).toHaveLength(2);
+    for (const link of grailLinks) {
+      expect(link).toHaveAttribute('href', '/en/grail');
     }
   });
 
@@ -65,5 +76,14 @@ describe('SiteNavDrawer', () => {
     fireEvent.click(screen.getByRole('button', { name: 'Open menu' }));
     fireEvent.click(screen.getByRole('link', { name: 'Unique Items' }));
     expect(screen.queryByRole('link', { name: 'Set Items' })).not.toBeInTheDocument();
+  });
+
+  it('shows the support link, Grail Tracker, and locale switcher in the top bar regardless of drawer state', () => {
+    renderDrawer();
+    expect(screen.getByRole('link', { name: /Support this tool/ })).toHaveAttribute('href', 'https://ko-fi.com');
+    expect(screen.getAllByRole('link', { name: 'Grail Tracker' })[0]).toHaveAttribute('href', '/en/grail');
+    expect(screen.getByRole('button', { name: 'EN' })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: '繁中' })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: '简中' })).toBeInTheDocument();
   });
 });

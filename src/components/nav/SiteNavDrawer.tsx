@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
+import LocaleSwitcher from '@/components/LocaleSwitcher';
 
 // Third element is the authentic D2/d2r.world rarity-tint color for that section's nav
 // label (verified against d2r.world's own computed styles) — omitted where d2r.world
@@ -35,6 +36,7 @@ const TOOL_LINKS = [
 
 export default function SiteNavDrawer() {
   const t = useTranslations('Nav');
+  const tFooter = useTranslations('Footer');
   const locale = useLocale();
   const [open, setOpen] = useState(false);
 
@@ -48,22 +50,41 @@ export default function SiteNavDrawer() {
 
   return (
     <>
-      <div className="flex items-center border-b border-panel-border-dark px-4 py-3 gap-3">
-        <button
-          onClick={() => setOpen(true)}
-          aria-label={t('openMenu')}
-          className="text-parchment hover:text-gold-bright transition-colors"
-        >
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <path d="M4 6h16M4 12h16M4 18h16" strokeLinecap="round" />
-          </svg>
-        </button>
-        <Link
-          href={linkHref('')}
-          className="text-sm font-semibold font-cinzel text-parchment-bright hover:text-gold-bright transition-colors"
-        >
-          D2R Institute
-        </Link>
+      <div className="flex items-center justify-between border-b border-panel-border-dark px-4 py-3 gap-3">
+        <div className="flex items-center gap-3">
+          <button
+            onClick={() => setOpen(true)}
+            aria-label={t('openMenu')}
+            className="text-parchment hover:text-gold-bright transition-colors"
+          >
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M4 6h16M4 12h16M4 18h16" strokeLinecap="round" />
+            </svg>
+          </button>
+          <Link
+            href={linkHref('')}
+            className="text-sm font-semibold font-cinzel text-parchment-bright hover:text-gold-bright transition-colors"
+          >
+            D2R Institute
+          </Link>
+        </div>
+        <div className="hidden sm:flex items-center gap-3">
+          <a
+            href="https://ko-fi.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-panel-border text-muted text-sm hover:border-gold hover:text-gold-bright transition-colors"
+          >
+            ☕ {tFooter('support')}
+          </a>
+          <Link
+            href={linkHref('grail')}
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-panel-border text-muted text-sm hover:border-gold hover:text-gold-bright transition-colors"
+          >
+            {tFooter('grailLink')}
+          </Link>
+          <LocaleSwitcher />
+        </div>
       </div>
 
       {open && (
