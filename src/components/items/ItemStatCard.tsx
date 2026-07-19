@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import type { GrailItem } from '@/lib/grail/catalog';
 import { BASE_PATH } from '@/lib/basePath';
+import { useOwnedItems } from '@/lib/grail/useOwnedItems';
 
 // Authentic D2 item-rarity text colors (verified against d2r.world's computed styles).
 const NAME_COLOR: Record<GrailItem['kind'], string> = {
@@ -14,6 +15,7 @@ const NAME_COLOR: Record<GrailItem['kind'], string> = {
 export default function ItemStatCard({ item }: { item: GrailItem }) {
   const t = useTranslations('Grail');
   const [iconFailed, setIconFailed] = useState(false);
+  const { userId, ownedIds, toggle } = useOwnedItems();
 
   const itemStatRows: [string, string][] = [
     [t('baseLabel'), item.baseName],
@@ -37,9 +39,22 @@ export default function ItemStatCard({ item }: { item: GrailItem }) {
             onError={() => setIconFailed(true)}
           />
         )}
-        <div>
-          <h3 className={`text-lg font-bold ${NAME_COLOR[item.kind]}`}>{item.name}</h3>
-          {item.setName && <p className="text-xs text-[#22ff55]">{item.setName}</p>}
+        <div className="flex-1 flex items-start justify-between gap-2">
+          <div>
+            <h3 className={`text-lg font-bold ${NAME_COLOR[item.kind]}`}>{item.name}</h3>
+            {item.setName && <p className="text-xs text-[#22ff55]">{item.setName}</p>}
+          </div>
+          {userId && (
+            <label className="flex items-center gap-1.5 cursor-pointer select-none shrink-0">
+              <input
+                type="checkbox"
+                checked={ownedIds.has(item.id)}
+                onChange={() => toggle(item.id, item.kind)}
+                className="w-4 h-4 accent-amber-400"
+                aria-label={t('ownedCheckboxLabel')}
+              />
+            </label>
+          )}
         </div>
       </div>
 

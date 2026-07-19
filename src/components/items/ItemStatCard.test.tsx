@@ -1,5 +1,5 @@
-import { describe, it, expect } from 'vitest';
-import { render, screen } from '@testing-library/react';
+import { describe, it, expect, vi } from 'vitest';
+import { render, screen, fireEvent } from '@testing-library/react';
 import { NextIntlClientProvider } from 'next-intl';
 import ItemStatCard from './ItemStatCard';
 import type { GrailItem } from '@/lib/grail/catalog';
@@ -129,5 +129,60 @@ describe('ItemStatCard', () => {
     expect(screen.getByText(/Combat Skills/).closest('div')).not.toHaveTextContent('🎲');
     expect(screen.getByText(/All Resistances/).closest('div')).not.toHaveTextContent('🎲');
     expect(screen.getByText(/Sorceress Skill Levels/).closest('div')).toHaveTextContent('🎲');
+  });
+
+  describe('owned checkbox', () => {
+    const baseItem: GrailItem = {
+      id: 'unique-99', code: 'x', name: 'Test Item', kind: 'unique', setName: null,
+      levelReq: 1, baseName: 'Base', grade: 'normal', slotCategory: 'axes',
+      defense: null, requiredStrength: null, durability: null, invFile: '',
+      stats: [], fixedStats: [], setBonuses: [], statPriority: [],
+    };
+
+    it('renders no checkbox when signed out', async () => {
+      vi.resetModules();
+      vi.doMock('@/lib/grail/useOwnedItems', () => ({
+        useOwnedItems: () => ({ userId: null, loading: false, ownedIds: new Set(), toggle: vi.fn(), error: null }),
+      }));
+      const { default: ItemStatCard } = await import('./ItemStatCard');
+      render(
+        <NextIntlClientProvider locale="en" messages={messages}>
+          <ItemStatCard item={baseItem} />
+        </NextIntlClientProvider>
+      );
+      expect(screen.queryByRole('checkbox')).not.toBeInTheDocument();
+    });
+
+    it('renders an unchecked checkbox for an unowned item when signed in', async () => {
+      vi.resetModules();
+      vi.doMock('@/lib/grail/useOwnedItems', () => ({
+        useOwnedItems: () => ({ userId: 'user-1', loading: false, ownedIds: new Set(), toggle: vi.fn(), error: null }),
+      }));
+      const { default: ItemStatCard } = await import('./ItemStatCard');
+      render(
+        <NextIntlClientProvider locale="en" messages={messages}>
+          <ItemStatCard item={baseItem} />
+        </NextIntlClientProvider>
+      );
+      expect(screen.getByRole('checkbox')).not.toBeChecked();
+    });
+
+    it('renders a checked checkbox for an owned item, and calls toggle with the item id and kind on click', async () => {
+      const toggle = vi.fn();
+      vi.resetModules();
+      vi.doMock('@/lib/grail/useOwnedItems', () => ({
+        useOwnedItems: () => ({ userId: 'user-1', loading: false, ownedIds: new Set(['unique-99']), toggle, error: null }),
+      }));
+      const { default: ItemStatCard } = await import('./ItemStatCard');
+      render(
+        <NextIntlClientProvider locale="en" messages={messages}>
+          <ItemStatCard item={baseItem} />
+        </NextIntlClientProvider>
+      );
+      const checkbox = screen.getByRole('checkbox');
+      expect(checkbox).toBeChecked();
+      fireEvent.click(checkbox);
+      expect(toggle).toHaveBeenCalledWith('unique-99', 'unique');
+    });
   });
 });
