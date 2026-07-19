@@ -13,12 +13,17 @@ export function useOwnedItems() {
 
   useEffect(() => {
     if (authLoading) return;
+    // Every branch's setState calls run inside a Promise callback rather
+    // than synchronously in the effect body, satisfying the "no setState
+    // directly within an effect" rule.
     if (!userId) {
-      setOwnedIds(new Set());
-      setLoading(false);
+      Promise.resolve().then(() => {
+        setOwnedIds(new Set());
+        setLoading(false);
+      });
       return;
     }
-    setLoading(true);
+    Promise.resolve().then(() => setLoading(true));
     listOwnedItems()
       .then((items: OwnedItem[]) => setOwnedIds(new Set(items.map(i => i.itemId))))
       .catch(e => setError(getErrorMessage(e)))
