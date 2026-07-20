@@ -133,9 +133,9 @@
   },
   {
     "setName": {
-      "en": "Angelical Raiment",
-      "zh-TW": "天上的衣服",
-      "zh-CN": "天上的衣服"
+      "en": "Angelic Raiment",
+      "zh-TW": "天使的衣裝",
+      "zh-CN": "天使的衣装"
     },
     "pieceIds": [
       "set-52",
@@ -470,9 +470,9 @@
   },
   {
     "setName": {
-      "en": "Berserker's Garb",
-      "zh-TW": "狂戰士的軍火庫",
-      "zh-CN": "狂战士的军火库"
+      "en": "Berserker's Arsenal",
+      "zh-TW": "狂戰士的武裝",
+      "zh-CN": "狂战士的武装"
     },
     "pieceIds": [
       "set-46",
@@ -2181,7 +2181,7 @@
   },
   {
     "setName": {
-      "en": "McAuley's Folly",
+      "en": "Sander's Folly",
       "zh-TW": "山德的愚行",
       "zh-CN": "山德的愚行"
     },
@@ -2369,9 +2369,9 @@
   },
   {
     "setName": {
-      "en": "Naj's Ancient Set",
-      "zh-TW": "娜吉的古代遺跡",
-      "zh-CN": "娜吉的古代遗迹"
+      "en": "Naj's Ancient Vestige",
+      "zh-TW": "娜吉的上古遺物",
+      "zh-CN": "娜吉的上古遗物"
     },
     "pieceIds": [
       "set-122",

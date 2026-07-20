@@ -289,7 +289,7 @@
     "id": "set-68",
     "code": "9mt",
     "name": {
-      "en": "Aldur's Gauntlet",
+      "en": "Aldur's Rhythm",
       "zh-TW": "艾爾多的律動",
       "zh-CN": "艾尔多的律动"
     },
@@ -572,9 +572,9 @@
     },
     "kind": "set",
     "setName": {
-      "en": "Angelical Raiment",
-      "zh-TW": "天上的衣服",
-      "zh-CN": "天上的衣服"
+      "en": "Angelic Raiment",
+      "zh-TW": "天使的衣裝",
+      "zh-CN": "天使的衣装"
     },
     "levelReq": 12,
     "baseName": {
@@ -647,9 +647,9 @@
     },
     "kind": "set",
     "setName": {
-      "en": "Angelical Raiment",
-      "zh-TW": "天上的衣服",
-      "zh-CN": "天上的衣服"
+      "en": "Angelic Raiment",
+      "zh-TW": "天使的衣裝",
+      "zh-CN": "天使的衣装"
     },
     "levelReq": 12,
     "baseName": {
@@ -725,9 +725,9 @@
     },
     "kind": "set",
     "setName": {
-      "en": "Angelical Raiment",
-      "zh-TW": "天上的衣服",
-      "zh-CN": "天上的衣服"
+      "en": "Angelic Raiment",
+      "zh-TW": "天使的衣裝",
+      "zh-CN": "天使的衣装"
     },
     "levelReq": 12,
     "baseName": {
@@ -800,9 +800,9 @@
     },
     "kind": "set",
     "setName": {
-      "en": "Angelical Raiment",
-      "zh-TW": "天上的衣服",
-      "zh-CN": "天上的衣服"
+      "en": "Angelic Raiment",
+      "zh-TW": "天使的衣裝",
+      "zh-CN": "天使的衣装"
     },
     "levelReq": 12,
     "baseName": {
@@ -1714,9 +1714,9 @@
     },
     "kind": "set",
     "setName": {
-      "en": "Berserker's Garb",
-      "zh-TW": "狂戰士的軍火庫",
-      "zh-CN": "狂战士的军火库"
+      "en": "Berserker's Arsenal",
+      "zh-TW": "狂戰士的武裝",
+      "zh-CN": "狂战士的武装"
     },
     "levelReq": 3,
     "baseName": {
@@ -1778,9 +1778,9 @@
     },
     "kind": "set",
     "setName": {
-      "en": "Berserker's Garb",
-      "zh-TW": "狂戰士的軍火庫",
-      "zh-CN": "狂战士的军火库"
+      "en": "Berserker's Arsenal",
+      "zh-TW": "狂戰士的武裝",
+      "zh-CN": "狂战士的武装"
     },
     "levelReq": 3,
     "baseName": {
@@ -1845,9 +1845,9 @@
     },
     "kind": "set",
     "setName": {
-      "en": "Berserker's Garb",
-      "zh-TW": "狂戰士的軍火庫",
-      "zh-CN": "狂战士的军火库"
+      "en": "Berserker's Arsenal",
+      "zh-TW": "狂戰士的武裝",
+      "zh-CN": "狂战士的武装"
     },
     "levelReq": 3,
     "baseName": {
@@ -2917,9 +2917,9 @@
     "id": "set-119",
     "code": "vbt",
     "name": {
-      "en": "Cow King's Hoofs",
-      "zh-TW": "牛魔王之蹄",
-      "zh-CN": "牛魔王之蹄"
+      "en": "Cow King's Hooves",
+      "zh-TW": "牛王之蹄",
+      "zh-CN": "牛王之蹄"
     },
     "kind": "set",
     "setName": {
@@ -3717,9 +3717,9 @@
     "id": "set-83",
     "code": "7ws",
     "name": {
-      "en": "Griswolds's Redemption",
-      "zh-TW": "格瑞斯華爾德的救贖",
-      "zh-CN": "格瑞斯华尔德的救赎"
+      "en": "Griswold's Redemption",
+      "zh-TW": "格里斯瓦德的救贖",
+      "zh-CN": "格里斯瓦德的救赎"
     },
     "kind": "set",
     "setName": {
@@ -3924,9 +3924,9 @@
     "id": "set-102",
     "code": "xrs",
     "name": {
-      "en": "Haemosu's Adament",
-      "zh-TW": "黑摩蘇的堅決",
-      "zh-CN": "黑摩苏的坚决"
+      "en": "Haemosu's Adamant",
+      "zh-TW": "解慕漱的堅決",
+      "zh-CN": "解慕漱的坚决"
     },
     "kind": "set",
     "setName": {
@@ -4009,9 +4009,9 @@
     "id": "set-101",
     "code": "uts",
     "name": {
-      "en": "Heaven's Taebaek",
-      "zh-TW": "泰比克的光榮",
-      "zh-CN": "泰比克的光荣"
+      "en": "Taebaek's Glory",
+      "zh-TW": "太白山的榮光",
+      "zh-CN": "太白山的荣光"
     },
     "kind": "set",
     "setName": {
@@ -5106,9 +5106,9 @@
     "id": "set-110",
     "code": "mbl",
     "name": {
-      "en": "Hwanin's Seal",
-      "zh-TW": "華寧的祝福",
-      "zh-CN": "华宁的祝福"
+      "en": "Hwanin's Blessing",
+      "zh-TW": "桓因的祝福",
+      "zh-CN": "桓因的祝福"
     },
     "kind": "set",
     "setName": {
@@ -7490,13 +7490,13 @@
     "id": "set-123",
     "code": "cap",
     "name": {
-      "en": "McAuley's Paragon",
+      "en": "Sander's Paragon",
       "zh-TW": "山德的模範",
       "zh-CN": "山德的模范"
     },
     "kind": "set",
     "setName": {
-      "en": "McAuley's Folly",
+      "en": "Sander's Folly",
       "zh-TW": "山德的愚行",
       "zh-CN": "山德的愚行"
     },
@@ -7555,13 +7555,13 @@
     "id": "set-124",
     "code": "vbt",
     "name": {
-      "en": "McAuley's Riprap",
+      "en": "Sander's Riprap",
       "zh-TW": "山德的碎石",
       "zh-CN": "山德的碎石"
     },
     "kind": "set",
     "setName": {
-      "en": "McAuley's Folly",
+      "en": "Sander's Folly",
       "zh-TW": "山德的愚行",
       "zh-CN": "山德的愚行"
     },
@@ -7630,13 +7630,13 @@
     "id": "set-126",
     "code": "bwn",
     "name": {
-      "en": "McAuley's Superstition",
+      "en": "Sander's Superstition",
       "zh-TW": "山德的迷信",
       "zh-CN": "山德的迷信"
     },
     "kind": "set",
     "setName": {
-      "en": "McAuley's Folly",
+      "en": "Sander's Folly",
       "zh-TW": "山德的愚行",
       "zh-CN": "山德的愚行"
     },
@@ -7716,13 +7716,13 @@
     "id": "set-125",
     "code": "vgl",
     "name": {
-      "en": "McAuley's Taboo",
+      "en": "Sander's Taboo",
       "zh-TW": "山德的禁忌",
       "zh-CN": "山德的禁忌"
     },
     "kind": "set",
     "setName": {
-      "en": "McAuley's Folly",
+      "en": "Sander's Folly",
       "zh-TW": "山德的愚行",
       "zh-CN": "山德的愚行"
     },
@@ -8077,9 +8077,9 @@
     },
     "kind": "set",
     "setName": {
-      "en": "Naj's Ancient Set",
-      "zh-TW": "娜吉的古代遺跡",
-      "zh-CN": "娜吉的古代遗迹"
+      "en": "Naj's Ancient Vestige",
+      "zh-TW": "娜吉的上古遺物",
+      "zh-CN": "娜吉的上古遗物"
     },
     "levelReq": 28,
     "baseName": {
@@ -8168,9 +8168,9 @@
     },
     "kind": "set",
     "setName": {
-      "en": "Naj's Ancient Set",
-      "zh-TW": "娜吉的古代遺跡",
-      "zh-CN": "娜吉的古代遗迹"
+      "en": "Naj's Ancient Vestige",
+      "zh-TW": "娜吉的上古遺物",
+      "zh-CN": "娜吉的上古遗物"
     },
     "levelReq": 71,
     "baseName": {
@@ -8263,9 +8263,9 @@
     },
     "kind": "set",
     "setName": {
-      "en": "Naj's Ancient Set",
-      "zh-TW": "娜吉的古代遺跡",
-      "zh-CN": "娜吉的古代遗迹"
+      "en": "Naj's Ancient Vestige",
+      "zh-TW": "娜吉的上古遺物",
+      "zh-CN": "娜吉的上古遗物"
     },
     "levelReq": 78,
     "baseName": {
@@ -9806,9 +9806,9 @@
     "id": "set-76",
     "code": "zmb",
     "name": {
-      "en": "Tal Rasha's Fire-Spun Cloth",
-      "zh-TW": "塔.拉夏的纖細衣服",
-      "zh-CN": "塔.拉夏的纤细衣服"
+      "en": "Tal Rasha's Fine-Spun Cloth",
+      "zh-TW": "塔拉夏的精織腰布",
+      "zh-CN": "塔拉夏的精织腰布"
     },
     "kind": "set",
     "setName": {
@@ -10013,9 +10013,9 @@
     "id": "set-79",
     "code": "uth",
     "name": {
-      "en": "Tal Rasha's Howling Wind",
-      "zh-TW": "塔.拉夏的守護",
-      "zh-CN": "塔.拉夏的守护"
+      "en": "Tal Rasha's Guardianship",
+      "zh-TW": "塔拉夏的守護",
+      "zh-CN": "塔拉夏的守护"
     },
     "kind": "set",
     "setName": {
@@ -11547,9 +11547,9 @@
     "id": "set-107",
     "code": "xml",
     "name": {
-      "en": "Wihtstan's Guard",
-      "zh-TW": "惠斯坦的武裝",
-      "zh-CN": "惠斯坦的武装"
+      "en": "Sigon's Guard",
+      "zh-TW": "西剛的守護",
+      "zh-CN": "西刚的守护"
     },
     "kind": "set",
     "setName": {

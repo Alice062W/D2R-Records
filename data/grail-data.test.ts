@@ -83,7 +83,7 @@ describe('generated grail catalog', () => {
   });
 
   it('disambiguates skill-referencing stats by naming the specific skill', () => {
-    const maelstromwrath = uniques.find(i => i.name.en === 'Maelstromwrath')!;
+    const maelstromwrath = uniques.find(i => i.name.en === 'Maelstrom')!;
     const labels = maelstromwrath.stats.filter(s => s.key.startsWith('skill:')).map(s => s.label.en);
     expect(labels).toEqual([
       'Skill Bonus (Corpse Explosion)',
@@ -671,11 +671,13 @@ describe('category-icons.json', () => {
 
 describe('isSkillRef on generated stats', () => {
   it('marks a known skill-granting unique stat as isSkillRef, and a known plain stat as not', () => {
-    // "Iros Torch" (unique club) — confirmed directly against data/uniques.json
-    // this session: fixedStats include "Necromancer Skill Levels" (a skill-ref
-    // stat) and "Life Steal %"/"Light Radius"/"Energy"/"Mana Regenerated %"
-    // (plain stats); stats (variable) includes "Fire Damage" (plain, 5-9).
-    const irosTorch = uniques.find(u => u.name.en === 'Iros Torch')!;
+    // "Torch of Iro" (unique club; vendor data's "Iros Torch" was a typo,
+    // corrected against d2r.world) — confirmed directly against
+    // data/uniques.json this session: fixedStats include "Necromancer Skill
+    // Levels" (a skill-ref stat) and "Life Steal %"/"Light Radius"/"Energy"/
+    // "Mana Regenerated %" (plain stats); stats (variable) includes "Fire
+    // Damage" (plain, 5-9).
+    const irosTorch = uniques.find(u => u.name.en === 'Torch of Iro')!;
     const skillStat = irosTorch.fixedStats.find(f => f.label.en === 'Necromancer Skill Levels')!;
     expect(skillStat.isSkillRef).toBe(true);
     const plainFixed = irosTorch.fixedStats.find(f => f.label.en === 'Light Radius')!;

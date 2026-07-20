@@ -467,7 +467,7 @@
     "id": "unique-5",
     "code": "lax",
     "name": {
-      "en": "Fechmars Axe",
+      "en": "Axe of Fechmar",
       "zh-TW": "費屈瑪之斧",
       "zh-CN": "费屈玛之斧"
     },
@@ -621,9 +621,9 @@
     "id": "unique-7",
     "code": "btx",
     "name": {
-      "en": "The Chieftan",
-      "zh-TW": "族長",
-      "zh-CN": "族长"
+      "en": "The Chieftain",
+      "zh-TW": "酋長",
+      "zh-CN": "酋长"
     },
     "kind": "unique",
     "setName": null,
@@ -801,9 +801,9 @@
     "id": "unique-9",
     "code": "gix",
     "name": {
-      "en": "The Humongous",
-      "zh-TW": "巨大無比",
-      "zh-CN": "巨大无比"
+      "en": "Humongous",
+      "zh-TW": "巨無霸",
+      "zh-CN": "巨无霸"
     },
     "kind": "unique",
     "setName": null,
@@ -897,9 +897,9 @@
     "id": "unique-10",
     "code": "wnd",
     "name": {
-      "en": "Iros Torch",
-      "zh-TW": "衣洛的火炬",
-      "zh-CN": "衣洛的火炬"
+      "en": "Torch of Iro",
+      "zh-TW": "伊洛的火炬",
+      "zh-CN": "伊洛的火炬"
     },
     "kind": "unique",
     "setName": null,
@@ -989,7 +989,7 @@
     "id": "unique-11",
     "code": "ywn",
     "name": {
-      "en": "Maelstromwrath",
+      "en": "Maelstrom",
       "zh-TW": "漩渦",
       "zh-CN": "漩涡"
     },
@@ -1229,9 +1229,9 @@
     "id": "unique-13",
     "code": "gwn",
     "name": {
-      "en": "Umes Lament",
-      "zh-TW": "烏米的慟哭",
-      "zh-CN": "乌米的恸哭"
+      "en": "Ume's Lament",
+      "zh-TW": "梅花嘆",
+      "zh-CN": "梅花叹"
     },
     "kind": "unique",
     "setName": null,
@@ -1989,9 +1989,9 @@
     "id": "unique-21",
     "code": "fla",
     "name": {
-      "en": "The Generals Tan Do Li Ga",
-      "zh-TW": "坦-杜-裡-嘎將軍",
-      "zh-CN": "坦-杜-里-嘎将军"
+      "en": "The General's Tan Do Li Ga",
+      "zh-TW": "將軍的連枷",
+      "zh-CN": "将军的连枷"
     },
     "kind": "unique",
     "setName": null,
@@ -2185,7 +2185,7 @@
     "id": "unique-23",
     "code": "mau",
     "name": {
-      "en": "Bonesob",
+      "en": "Bonesnap",
       "zh-TW": "碎骨",
       "zh-CN": "碎骨"
     },
@@ -2339,9 +2339,9 @@
     "id": "unique-25",
     "code": "ssd",
     "name": {
-      "en": "Rixots Keen",
-      "zh-TW": "瑞克撒特的輓歌",
-      "zh-CN": "瑞克撒特的挽歌"
+      "en": "Rixot's Keen",
+      "zh-TW": "瑞克塞斯的利刃",
+      "zh-CN": "瑞克塞斯的利刃"
     },
     "kind": "unique",
     "setName": null,
@@ -2529,9 +2529,9 @@
     "id": "unique-27",
     "code": "sbr",
     "name": {
-      "en": "Krintizs Skewer",
-      "zh-TW": "格林提斯的肉叉",
-      "zh-CN": "格林提斯的肉叉"
+      "en": "Skewer of Krintiz",
+      "zh-TW": "克里維茲的肉叉",
+      "zh-CN": "克里维兹的肉叉"
     },
     "kind": "unique",
     "setName": null,
@@ -2715,9 +2715,9 @@
     "id": "unique-30",
     "code": "bsd",
     "name": {
-      "en": "Griswolds Edge",
-      "zh-TW": "格理斯瓦得的銳利",
-      "zh-CN": "格理斯瓦得的锐利"
+      "en": "Griswold's Edge",
+      "zh-TW": "格里斯瓦德之刃",
+      "zh-CN": "格里斯瓦德之刃"
     },
     "kind": "unique",
     "setName": null,
@@ -2935,9 +2935,9 @@
     "id": "unique-32",
     "code": "wsd",
     "name": {
-      "en": "Culwens Point",
-      "zh-TW": "庫爾溫的尖端",
-      "zh-CN": "库尔温的尖端"
+      "en": "Culwen's Point",
+      "zh-TW": "庫爾溫的尖刃",
+      "zh-CN": "库尔温的尖刃"
     },
     "kind": "unique",
     "setName": null,
@@ -3203,9 +3203,9 @@
     "id": "unique-35",
     "code": "gis",
     "name": {
-      "en": "Kinemils Awl",
-      "zh-TW": "金麥爾的錐子",
-      "zh-CN": "金麦尔的锥子"
+      "en": "Kinemil's Awl",
+      "zh-TW": "金麥爾的鑽錐",
+      "zh-CN": "金麦尔的钻锥"
     },
     "kind": "unique",
     "setName": null,
@@ -4309,9 +4309,9 @@
     "id": "unique-48",
     "code": "bar",
     "name": {
-      "en": "Dimoaks Hew",
-      "zh-TW": "迪馬克之劈砍",
-      "zh-CN": "迪马克之劈砍"
+      "en": "Dimoak's Hew",
+      "zh-TW": "迪馬克的砍刀",
+      "zh-CN": "迪马克的砍刀"
     },
     "kind": "unique",
     "setName": null,
@@ -5061,9 +5061,9 @@
     "id": "unique-56",
     "code": "cst",
     "name": {
-      "en": "Lazarus Spire",
-      "zh-TW": "拉撒羅斯之螺旋",
-      "zh-CN": "拉撒罗斯之螺旋"
+      "en": "Spire of Lazarus",
+      "zh-TW": "拉撒雷茲之杖",
+      "zh-CN": "拉撒雷兹之杖"
     },
     "kind": "unique",
     "setName": null,
@@ -6425,9 +6425,9 @@
     "id": "unique-70",
     "code": "rxb",
     "name": {
-      "en": "Doomspittle",
-      "zh-TW": "毀滅投石者",
-      "zh-CN": "毁灭投石者"
+      "en": "Doomslinger",
+      "zh-TW": "毀滅投索",
+      "zh-CN": "毁灭投索"
     },
     "kind": "unique",
     "setName": null,
@@ -7292,9 +7292,9 @@
     "id": "unique-80",
     "code": "lea",
     "name": {
-      "en": "Blinkbats Form",
-      "zh-TW": "眨眼蝙蝠的外觀",
-      "zh-CN": "眨眼蝙蝠的外观"
+      "en": "Blinkbat's Form",
+      "zh-TW": "閃蝠之軀",
+      "zh-CN": "闪蝠之躯"
     },
     "kind": "unique",
     "setName": null,
@@ -7844,9 +7844,9 @@
     "id": "unique-86",
     "code": "brs",
     "name": {
-      "en": "Venomsward",
-      "zh-TW": "毒液牢房",
-      "zh-CN": "毒液牢房"
+      "en": "Venom Ward",
+      "zh-TW": "毒之守禦",
+      "zh-CN": "毒之守御"
     },
     "kind": "unique",
     "setName": null,
@@ -8330,9 +8330,9 @@
     "id": "unique-92",
     "code": "aar",
     "name": {
-      "en": "Victors Silk",
-      "zh-TW": "勝利者之絲綢",
-      "zh-CN": "胜利者之丝绸"
+      "en": "Silks of the Victor",
+      "zh-TW": "勝利者的絲綢",
+      "zh-CN": "胜利者的丝绸"
     },
     "kind": "unique",
     "setName": null,
@@ -10350,7 +10350,7 @@
     "id": "unique-112",
     "code": "lbl",
     "name": {
-      "en": "Lenyms Cord",
+      "en": "Lenymo",
       "zh-TW": "雷尼摩",
       "zh-CN": "雷尼摩"
     },
@@ -12079,7 +12079,7 @@
     "id": "unique-132",
     "code": "9mp",
     "name": {
-      "en": "Pompe's Wrath",
+      "en": "Pompeii's Wrath",
       "zh-TW": "龐貝之怒",
       "zh-CN": "庞贝之怒"
     },
@@ -12723,7 +12723,7 @@
     "id": "unique-138",
     "code": "9gi",
     "name": {
-      "en": "The Minataur",
+      "en": "The Minotaur",
       "zh-TW": "牛頭怪",
       "zh-CN": "牛头怪"
     },
@@ -15175,9 +15175,9 @@
     "id": "unique-161",
     "code": "9wd",
     "name": {
-      "en": "The Atlantian",
-      "zh-TW": "亞特拉斯",
-      "zh-CN": "亚特拉斯"
+      "en": "The Atlantean",
+      "zh-TW": "亞特蘭提恩",
+      "zh-CN": "亚特兰提恩"
     },
     "kind": "unique",
     "setName": null,
@@ -17891,7 +17891,7 @@
     "id": "unique-187",
     "code": "8ws",
     "name": {
-      "en": "Skullcollector",
+      "en": "Skull Collector",
       "zh-TW": "骷髏收集者",
       "zh-CN": "骷髅收集者"
     },
@@ -18349,9 +18349,9 @@
     "id": "unique-192",
     "code": "8s8",
     "name": {
-      "en": "Whichwild String",
-      "zh-TW": "狂野之弦",
-      "zh-CN": "狂野之弦"
+      "en": "Witchwild String",
+      "zh-TW": "狂巫之弦",
+      "zh-CN": "狂巫之弦"
     },
     "kind": "unique",
     "setName": null,
@@ -18677,9 +18677,9 @@
     "id": "unique-195",
     "code": "8lw",
     "name": {
-      "en": "Godstrike Arch",
-      "zh-TW": "金擊圓弧",
-      "zh-CN": "金击圆弧"
+      "en": "Goldstrike Arch",
+      "zh-TW": "金擊之拱",
+      "zh-CN": "金击之拱"
     },
     "kind": "unique",
     "setName": null,
@@ -18895,9 +18895,9 @@
     "id": "unique-197",
     "code": "8mx",
     "name": {
-      "en": "Pus Spiter",
-      "zh-TW": "毒液怪",
-      "zh-CN": "毒液怪"
+      "en": "Pus Spitter",
+      "zh-TW": "吐膿毒弩",
+      "zh-CN": "吐脓毒弩"
     },
     "kind": "unique",
     "setName": null,
@@ -19225,9 +19225,9 @@
     "id": "unique-201",
     "code": "xap",
     "name": {
-      "en": "Peasent Crown",
-      "zh-TW": "粗野之冠",
-      "zh-CN": "粗野之冠"
+      "en": "Peasant Crown",
+      "zh-TW": "農夫王冠",
+      "zh-CN": "农夫王冠"
     },
     "kind": "unique",
     "setName": null,
@@ -19637,9 +19637,9 @@
     "id": "unique-205",
     "code": "xhm",
     "name": {
-      "en": "Valkiry Wing",
-      "zh-TW": "女神之翼",
-      "zh-CN": "女神之翼"
+      "en": "Valkyrie Wing",
+      "zh-TW": "女武神之翼",
+      "zh-CN": "女武神之翼"
     },
     "kind": "unique",
     "setName": null,
@@ -19930,7 +19930,7 @@
     "id": "unique-208",
     "code": "xh9",
     "name": {
-      "en": "Vampiregaze",
+      "en": "Vampire Gaze",
       "zh-TW": "吸血鬼的凝視",
       "zh-CN": "吸血鬼的凝视"
     },
@@ -20215,7 +20215,7 @@
     "id": "unique-211",
     "code": "xla",
     "name": {
-      "en": "Skin of the Flayerd One",
+      "en": "Skin of the Flayed One",
       "zh-TW": "剝皮者之皮",
       "zh-CN": "剥皮者之皮"
     },
@@ -20314,9 +20314,9 @@
     "id": "unique-212",
     "code": "xtu",
     "name": {
-      "en": "Ironpelt",
-      "zh-TW": "擲鐵",
-      "zh-CN": "掷铁"
+      "en": "Iron Pelt",
+      "zh-TW": "鋼鐵獸皮",
+      "zh-CN": "钢铁兽皮"
     },
     "kind": "unique",
     "setName": null,
@@ -20413,7 +20413,7 @@
     "id": "unique-213",
     "code": "xng",
     "name": {
-      "en": "Spiritforge",
+      "en": "Spirit Forge",
       "zh-TW": "靈魂熔爐",
       "zh-CN": "灵魂熔炉"
     },
@@ -21461,9 +21461,9 @@
     "id": "unique-223",
     "code": "xtp",
     "name": {
-      "en": "Que-Hegan's Wisdon",
-      "zh-TW": "魁黑剛的智慧",
-      "zh-CN": "魁黑刚的智慧"
+      "en": "Que-Hegan's Wisdom",
+      "zh-TW": "教宗的智慧",
+      "zh-CN": "教宗的智慧"
     },
     "kind": "unique",
     "setName": null,
@@ -21653,9 +21653,9 @@
     "id": "unique-225",
     "code": "xml",
     "name": {
-      "en": "Mosers Blessed Circle",
-      "zh-TW": "摩西祝福之環",
-      "zh-CN": "摩西祝福之环"
+      "en": "Moser's Blessed Circle",
+      "zh-TW": "摩瑟的祝福之圓",
+      "zh-CN": "摩瑟的祝福之圆"
     },
     "kind": "unique",
     "setName": null,
@@ -22008,7 +22008,7 @@
     "id": "unique-228",
     "code": "xow",
     "name": {
-      "en": "Kerke's Sanctuary",
+      "en": "Gerke's Sanctuary",
       "zh-TW": "基爾克的聖堂",
       "zh-CN": "基尔克的圣堂"
     },
@@ -22119,9 +22119,9 @@
     "id": "unique-229",
     "code": "xts",
     "name": {
-      "en": "Radimant's Sphere",
-      "zh-TW": "羅達門特之球體",
-      "zh-CN": "罗达门特之球体"
+      "en": "Radament's Sphere",
+      "zh-TW": "羅達門特的領域",
+      "zh-CN": "罗达门特的领域"
     },
     "kind": "unique",
     "setName": null,
@@ -22721,9 +22721,9 @@
     "id": "unique-235",
     "code": "xtg",
     "name": {
-      "en": "Lavagout",
-      "zh-TW": "熔岩角羊",
-      "zh-CN": "熔岩角羊"
+      "en": "Lava Gout",
+      "zh-TW": "熔岩之痛",
+      "zh-CN": "熔岩之痛"
     },
     "kind": "unique",
     "setName": null,
@@ -23264,7 +23264,7 @@
     "id": "unique-240",
     "code": "xtb",
     "name": {
-      "en": "Wartraveler",
+      "en": "War Traveler",
       "zh-TW": "戰爭旅者",
       "zh-CN": "战争旅者"
     },
@@ -23395,7 +23395,7 @@
     "id": "unique-241",
     "code": "xhb",
     "name": {
-      "en": "Gorerider",
+      "en": "Gore Rider",
       "zh-TW": "蝕肉騎士",
       "zh-CN": "蚀肉骑士"
     },
@@ -23706,7 +23706,7 @@
     "id": "unique-244",
     "code": "zmb",
     "name": {
-      "en": "Gloomstrap",
+      "en": "Gloom's Trap",
       "zh-TW": "陰影陷阱",
       "zh-CN": "阴影陷阱"
     },
@@ -23920,7 +23920,7 @@
     "id": "unique-246",
     "code": "zhb",
     "name": {
-      "en": "Thudergod's Vigor",
+      "en": "Thundergod's Vigor",
       "zh-TW": "雷神之力",
       "zh-CN": "雷神之力"
     },
@@ -26115,9 +26115,9 @@
     "id": "unique-268",
     "code": "rin",
     "name": {
-      "en": "Bul Katho's Wedding Band",
-      "zh-TW": "布爾凱索之戒",
-      "zh-CN": "布尔凯索之戒"
+      "en": "Bul-Kathos' Wedding Band",
+      "zh-TW": "布爾凱索的婚戒",
+      "zh-CN": "布尔凯索的婚戒"
     },
     "kind": "unique",
     "setName": null,
@@ -28341,9 +28341,9 @@
     "id": "unique-290",
     "code": "7sm",
     "name": {
-      "en": "Djinnslayer",
-      "zh-TW": "魔靈殺手",
-      "zh-CN": "魔灵杀手"
+      "en": "Djinn Slayer",
+      "zh-TW": "巨靈殺手",
+      "zh-CN": "巨灵杀手"
     },
     "kind": "unique",
     "setName": null,
@@ -28646,7 +28646,7 @@
     "id": "unique-293",
     "code": "6rx",
     "name": {
-      "en": "Gutsiphon",
+      "en": "Gut Siphon",
       "zh-TW": "內臟吸管",
       "zh-CN": "内脏吸管"
     },
@@ -28730,9 +28730,9 @@
     "id": "unique-294",
     "code": "7ha",
     "name": {
-      "en": "Razoredge",
-      "zh-TW": "刀鋒邊緣",
-      "zh-CN": "刀锋边缘"
+      "en": "Razor's Edge",
+      "zh-TW": "剃刀銳斧",
+      "zh-CN": "剃刀锐斧"
     },
     "kind": "unique",
     "setName": null,
@@ -28812,9 +28812,9 @@
     "id": "unique-296",
     "code": "7sp",
     "name": {
-      "en": "Demonlimb",
-      "zh-TW": "惡魔爪牙",
-      "zh-CN": "恶魔爪牙"
+      "en": "Demon Limb",
+      "zh-TW": "惡魔肢體",
+      "zh-CN": "恶魔肢体"
     },
     "kind": "unique",
     "setName": null,
@@ -28922,7 +28922,7 @@
     "id": "unique-297",
     "code": "ulm",
     "name": {
-      "en": "Steelshade",
+      "en": "Steel Shade",
       "zh-TW": "鋼影",
       "zh-CN": "钢影"
     },
@@ -29146,7 +29146,7 @@
     "id": "unique-299",
     "code": "7gw",
     "name": {
-      "en": "Deaths's Web",
+      "en": "Death's Web",
       "zh-TW": "死亡之網",
       "zh-CN": "死亡之网"
     },
@@ -29832,7 +29832,7 @@
     "id": "unique-308",
     "code": "7wb",
     "name": {
-      "en": "Jadetalon",
+      "en": "Jade Talon",
       "zh-TW": "碧玉爪",
       "zh-CN": "碧玉爪"
     },
@@ -29932,7 +29932,7 @@
     "id": "unique-309",
     "code": "uhb",
     "name": {
-      "en": "Shadowdancer",
+      "en": "Shadow Dancer",
       "zh-TW": "影舞者",
       "zh-CN": "影舞者"
     },
@@ -30031,9 +30031,9 @@
     "id": "unique-310",
     "code": "drb",
     "name": {
-      "en": "Cerebus",
-      "zh-TW": "地獄之吻",
-      "zh-CN": "地狱之吻"
+      "en": "Cerebus' Bite",
+      "zh-TW": "地獄犬之咬",
+      "zh-CN": "地狱犬之咬"
     },
     "kind": "unique",
     "setName": null,
@@ -30265,7 +30265,7 @@
     "id": "unique-312",
     "code": "umg",
     "name": {
-      "en": "Souldrain",
+      "en": "Soul Drainer",
       "zh-TW": "吸魂者",
       "zh-CN": "吸魂者"
     },
@@ -30356,7 +30356,7 @@
     "id": "unique-313",
     "code": "72a",
     "name": {
-      "en": "Runemaster",
+      "en": "Rune Master",
       "zh-TW": "符文大師",
       "zh-CN": "符文大师"
     },
@@ -30430,9 +30430,9 @@
     "id": "unique-314",
     "code": "7wa",
     "name": {
-      "en": "Deathcleaver",
-      "zh-TW": "死亡之刀",
-      "zh-CN": "死亡之刀"
+      "en": "Death Cleaver",
+      "zh-TW": "死亡劈斧",
+      "zh-CN": "死亡劈斧"
     },
     "kind": "unique",
     "setName": null,
@@ -30778,7 +30778,7 @@
     "id": "unique-319",
     "code": "rin",
     "name": {
-      "en": "Wisp",
+      "en": "Wisp Projector",
       "zh-TW": "鬼火投射者",
       "zh-CN": "鬼火投射者"
     },
@@ -31596,9 +31596,9 @@
     "id": "unique-327",
     "code": "drd",
     "name": {
-      "en": "Spiritkeeper",
-      "zh-TW": "靈魂看守者",
-      "zh-CN": "灵魂看守者"
+      "en": "Spirit Keeper",
+      "zh-TW": "魂靈守衛者",
+      "zh-CN": "魂灵守卫者"
     },
     "kind": "unique",
     "setName": null,
@@ -31920,7 +31920,7 @@
     "id": "unique-330",
     "code": "nef",
     "name": {
-      "en": "Darkforge Spawn",
+      "en": "Darkforce Spawn",
       "zh-TW": "魔力肇生",
       "zh-CN": "魔力肇生"
     },
@@ -32105,9 +32105,9 @@
     "id": "unique-332",
     "code": "amb",
     "name": {
-      "en": "Bloodraven's Charge",
-      "zh-TW": "血鳥的襲擊",
-      "zh-CN": "血鸟的袭击"
+      "en": "Blood Raven's Charge",
+      "zh-TW": "血鴉之擊",
+      "zh-CN": "血鸦之击"
     },
     "kind": "unique",
     "setName": null,
@@ -32287,7 +32287,7 @@
     "id": "unique-334",
     "code": "7cs",
     "name": {
-      "en": "Shadowkiller",
+      "en": "Shadow Killer",
       "zh-TW": "影殺者",
       "zh-CN": "影杀者"
     },
@@ -32941,9 +32941,9 @@
     "id": "unique-342",
     "code": "7p7",
     "name": {
-      "en": "Steelpillar",
-      "zh-TW": "鐵柱",
-      "zh-CN": "铁柱"
+      "en": "Steel Pillar",
+      "zh-TW": "鋼鐵之柱",
+      "zh-CN": "钢铁之柱"
     },
     "kind": "unique",
     "setName": null,
@@ -33519,9 +33519,9 @@
     "id": "unique-348",
     "code": "uul",
     "name": {
-      "en": "Steel Carapice",
-      "zh-TW": "鋼鐵鎧甲",
-      "zh-CN": "钢铁铠甲"
+      "en": "Steel Carapace",
+      "zh-TW": "鋼鐵甲殼",
+      "zh-CN": "钢铁甲壳"
     },
     "kind": "unique",
     "setName": null,
@@ -34070,7 +34070,7 @@
     "id": "unique-354",
     "code": "obf",
     "name": {
-      "en": "Fathom",
+      "en": "Death's Fathom",
       "zh-TW": "死亡深度",
       "zh-CN": "死亡深度"
     },
@@ -35310,9 +35310,9 @@
     "id": "unique-367",
     "code": "obc",
     "name": {
-      "en": "Eschuta's temper",
-      "zh-TW": "艾斯屈塔的脾氣",
-      "zh-CN": "艾斯屈塔的脾气"
+      "en": "Eschuta's Temper",
+      "zh-TW": "艾斯屈塔的憤怒",
+      "zh-CN": "艾斯屈塔的愤怒"
     },
     "kind": "unique",
     "setName": null,
@@ -36183,9 +36183,9 @@
     "id": "unique-376",
     "code": "umc",
     "name": {
-      "en": "Verdugo's Hearty Cord",
-      "zh-TW": "維爾登戈的心結",
-      "zh-CN": "维尔登戈的心结"
+      "en": "Verdungo's Hearty Cord",
+      "zh-TW": "伐頓戈的強韌腰索",
+      "zh-CN": "伐顿戈的强韧腰索"
     },
     "kind": "unique",
     "setName": null,
@@ -36394,9 +36394,9 @@
     "id": "unique-379",
     "code": "uh9",
     "name": {
-      "en": "Giantskull",
-      "zh-TW": "巨骷髏",
-      "zh-CN": "巨骷髅"
+      "en": "Giant Skull",
+      "zh-TW": "巨大顱骨",
+      "zh-CN": "巨大颅骨"
     },
     "kind": "unique",
     "setName": null,
@@ -36995,9 +36995,9 @@
     "id": "unique-385",
     "code": "7gm",
     "name": {
-      "en": "Earthshifter",
-      "zh-TW": "大地變形者",
-      "zh-CN": "大地变形者"
+      "en": "Earth Shifter",
+      "zh-TW": "撼地者",
+      "zh-CN": "撼地者"
     },
     "kind": "unique",
     "setName": null,
@@ -37101,7 +37101,7 @@
     "id": "unique-386",
     "code": "7gl",
     "name": {
-      "en": "Wraithflight",
+      "en": "Wraith Flight",
       "zh-TW": "死靈夜翔",
       "zh-CN": "死灵夜翔"
     },
@@ -37369,7 +37369,7 @@
     "id": "unique-389",
     "code": "7sc",
     "name": {
-      "en": "The Reedeemer",
+      "en": "The Redeemer",
       "zh-TW": "懺悔者",
       "zh-CN": "忏悔者"
     },
@@ -37499,9 +37499,9 @@
     "id": "unique-390",
     "code": "ush",
     "name": {
-      "en": "Headhunter's Glory",
-      "zh-TW": "獵頭人的榮耀",
-      "zh-CN": "猎头人的荣耀"
+      "en": "Head Hunter's Glory",
+      "zh-TW": "獵頭者的榮耀",
+      "zh-CN": "猎头者的荣耀"
     },
     "kind": "unique",
     "setName": null,
@@ -38396,9 +38396,9 @@
     "id": "unique-408",
     "code": "waf",
     "name": {
-      "en": "Ars Al'Diablolos",
-      "zh-TW": "Ars Al'Diablolos",
-      "zh-CN": "Ars Al'Diablolos"
+      "en": "Ars Al'Diabolos",
+      "zh-TW": "艾迪亞布羅斯學術",
+      "zh-CN": "艾迪亚布罗斯学术"
     },
     "kind": "unique",
     "setName": null,

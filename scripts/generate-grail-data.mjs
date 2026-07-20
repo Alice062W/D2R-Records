@@ -341,6 +341,53 @@ function localizedLabelWithSkill(code, par) {
   };
 }
 
+// vendor/d2data's uniqueitems.json/setitems.json `index`/`set` fields (the
+// English names themselves) contain outright typos in ~90 entries (e.g.
+// "Fechmars Axe" for the real "Axe of Fechmar", "The Chieftan" for "The
+// Chieftain") — confirmed against d2r.world's en-US pages this session.
+// Corrected here rather than in the vendored snapshot itself, mirroring
+// RUNE_NAME_ALIASES below for the same class of vendor-data typo.
+const ITEM_ENGLISH_NAME_ALIASES = {
+  'Aldur\'s Gauntlet': "Aldur's Rhythm", 'Angelical Raiment': "Angelic Raiment",
+  'Ars Al\'Diablolos': "Ars Al'Diabolos", 'Berserker\'s Garb': "Berserker's Arsenal",
+  'Blinkbats Form': "Blinkbat's Form", 'Bloodraven\'s Charge': "Blood Raven's Charge", 'Bonesob': "Bonesnap",
+  'Bul Katho\'s Wedding Band': "Bul-Kathos' Wedding Band", 'Cerebus': "Cerebus' Bite",
+  'Cow King\'s Hoofs': "Cow King's Hooves", 'Culwens Point': "Culwen's Point",
+  'Darkforge Spawn': "Darkforce Spawn", 'Deathcleaver': "Death Cleaver", 'Deaths\'s Web': "Death's Web",
+  'Demonlimb': "Demon Limb", 'Dimoaks Hew': "Dimoak's Hew", 'Djinnslayer': "Djinn Slayer",
+  'Doomspittle': "Doomslinger", 'Earthshifter': "Earth Shifter", 'Eschuta\'s temper': "Eschuta's Temper",
+  'Fathom': "Death's Fathom", 'Fechmars Axe': "Axe of Fechmar", 'Giantskull': "Giant Skull",
+  'Gloomstrap': "Gloom's Trap", 'Godstrike Arch': "Goldstrike Arch", 'Gorerider': "Gore Rider",
+  'Griswolds Edge': "Griswold's Edge", 'Griswolds\'s Redemption': "Griswold's Redemption",
+  'Gutsiphon': "Gut Siphon", 'Haemosu\'s Adament': "Haemosu's Adamant",
+  'Headhunter\'s Glory': "Head Hunter's Glory", 'Heaven\'s Taebaek': "Taebaek's Glory",
+  'Hwanin\'s Seal': "Hwanin's Blessing", 'Ironpelt': "Iron Pelt", 'Iros Torch': "Torch of Iro",
+  'Jadetalon': "Jade Talon", 'Kerke\'s Sanctuary': "Gerke's Sanctuary", 'Kinemils Awl': "Kinemil's Awl",
+  'Krintizs Skewer': "Skewer of Krintiz", 'Lavagout': "Lava Gout", 'Lazarus Spire': "Spire of Lazarus",
+  'Lenyms Cord': "Lenymo", 'Maelstromwrath': "Maelstrom", 'McAuley\'s Folly': "Sander's Folly",
+  'McAuley\'s Paragon': "Sander's Paragon", 'McAuley\'s Riprap': "Sander's Riprap",
+  'McAuley\'s Superstition': "Sander's Superstition", 'McAuley\'s Taboo': "Sander's Taboo",
+  'Mosers Blessed Circle': "Moser's Blessed Circle", 'Naj\'s Ancient Set': "Naj's Ancient Vestige",
+  'Peasent Crown': "Peasant Crown", 'Pompe\'s Wrath': "Pompeii's Wrath", 'Pus Spiter': "Pus Spitter",
+  'Que-Hegan\'s Wisdon': "Que-Hegan's Wisdom", 'Radimant\'s Sphere': "Radament's Sphere",
+  'Razoredge': "Razor's Edge", 'Rixots Keen': "Rixot's Keen", 'Runemaster': "Rune Master",
+  'Shadowdancer': "Shadow Dancer", 'Shadowkiller': "Shadow Killer",
+  'Skin of the Flayerd One': "Skin of the Flayed One", 'Skullcollector': "Skull Collector",
+  'Souldrain': "Soul Drainer", 'Spiritforge': "Spirit Forge", 'Spiritkeeper': "Spirit Keeper",
+  'Steel Carapice': "Steel Carapace", 'Steelpillar': "Steel Pillar", 'Steelshade': "Steel Shade",
+  'Tal Rasha\'s Fire-Spun Cloth': "Tal Rasha's Fine-Spun Cloth",
+  'Tal Rasha\'s Howling Wind': "Tal Rasha's Guardianship", 'The Atlantian': "The Atlantean",
+  'The Chieftan': "The Chieftain", 'The Generals Tan Do Li Ga': "The General's Tan Do Li Ga",
+  'The Humongous': "Humongous", 'The Minataur': "The Minotaur", 'The Reedeemer': "The Redeemer",
+  'Thudergod\'s Vigor': "Thundergod's Vigor", 'Umes Lament': "Ume's Lament", 'Valkiry Wing': "Valkyrie Wing",
+  'Vampiregaze': "Vampire Gaze", 'Venomsward': "Venom Ward", 'Verdugo\'s Hearty Cord': "Verdungo's Hearty Cord",
+  'Victors Silk': "Silks of the Victor", 'Wartraveler': "War Traveler", 'Whichwild String': "Witchwild String",
+  'Wihtstan\'s Guard': "Sigon's Guard", 'Wisp': "Wisp Projector", 'Wraithflight': "Wraith Flight",
+};
+function correctEnglishName(raw) {
+  return ITEM_ENGLISH_NAME_ALIASES[raw] ?? raw;
+}
+
 // vendor/d2data's chi[] table is a general game-string dump and is stale or
 // inconsistent for a large share of Unique/Set item and set names (e.g. it
 // held two different spellings of "Civerb's Ward" in the same file). Verified
@@ -422,6 +469,32 @@ const ITEM_NAME_OVERRIDES = {
   'Venom Grip': "劇毒之握", 'Vidala\'s Barb': "維達拉的倒刺", 'Vidala\'s Fetlock': "維達拉的足距", 'Vidala\'s Snare': "維達拉的圈套",
   'Viperfork': "蛇魔叉", 'Wall of the Eyeless': "無眼者之牆", 'Widowmaker': "絕命", 'Witherstring': "凋萎之弦",
   'Wizendraw': "凋謝弓弦", 'Woestave': "悲哀護杖", 'Wormskull': "蠕蟲頭骨", 'Wraithstep': "怨靈步伐",
+  // Chinese names for the corrected (post-ITEM_ENGLISH_NAME_ALIASES) forms above.
+  'Aldur\'s Rhythm': "艾爾多的律動", 'Angelic Raiment': "天使的衣裝", 'Ars Al\'Diabolos': "艾迪亞布羅斯學術",
+  'Axe of Fechmar': "費屈瑪之斧", 'Berserker\'s Arsenal': "狂戰士的武裝", 'Blinkbat\'s Form': "閃蝠之軀",
+  'Blood Raven\'s Charge': "血鴉之擊", 'Bonesnap': "碎骨", 'Bul-Kathos\' Wedding Band': "布爾凱索的婚戒",
+  'Cerebus\' Bite': "地獄犬之咬", 'Cow King\'s Hooves': "牛王之蹄", 'Culwen\'s Point': "庫爾溫的尖刃", 'Darkforce Spawn': "魔力肇生",
+  'Death Cleaver': "死亡劈斧", 'Death\'s Fathom': "死亡深度", 'Death\'s Web': "死亡之網", 'Demon Limb': "惡魔肢體",
+  'Dimoak\'s Hew': "迪馬克的砍刀", 'Djinn Slayer': "巨靈殺手", 'Doomslinger': "毀滅投索", 'Earth Shifter': "撼地者",
+  'Eschuta\'s Temper': "艾斯屈塔的憤怒", 'Gerke\'s Sanctuary': "基爾克的聖堂", 'Giant Skull': "巨大顱骨", 'Gloom\'s Trap': "陰影陷阱",
+  'Goldstrike Arch': "金擊之拱", 'Gore Rider': "蝕肉騎士", 'Griswold\'s Edge': "格里斯瓦德之刃",
+  'Griswold\'s Redemption': "格里斯瓦德的救贖", 'Gut Siphon': "內臟吸管", 'Haemosu\'s Adamant': "解慕漱的堅決",
+  'Head Hunter\'s Glory': "獵頭者的榮耀", 'Humongous': "巨無霸", 'Hwanin\'s Blessing': "桓因的祝福", 'Iron Pelt': "鋼鐵獸皮",
+  'Jade Talon': "碧玉爪", 'Kinemil\'s Awl': "金麥爾的鑽錐", 'Lava Gout': "熔岩之痛", 'Lenymo': "雷尼摩", 'Maelstrom': "漩渦",
+  'Moser\'s Blessed Circle': "摩瑟的祝福之圓", 'Naj\'s Ancient Vestige': "娜吉的上古遺物", 'Peasant Crown': "農夫王冠",
+  'Pompeii\'s Wrath': "龐貝之怒", 'Pus Spitter': "吐膿毒弩", 'Que-Hegan\'s Wisdom': "教宗的智慧",
+  'Radament\'s Sphere': "羅達門特的領域", 'Razor\'s Edge': "剃刀銳斧", 'Rixot\'s Keen': "瑞克塞斯的利刃", 'Rune Master': "符文大師",
+  'Sander\'s Folly': "山德的愚行", 'Sander\'s Paragon': "山德的模範", 'Sander\'s Riprap': "山德的碎石",
+  'Sander\'s Superstition': "山德的迷信", 'Sander\'s Taboo': "山德的禁忌", 'Shadow Dancer': "影舞者", 'Shadow Killer': "影殺者",
+  'Sigon\'s Guard': "西剛的守護", 'Silks of the Victor': "勝利者的絲綢", 'Skewer of Krintiz': "克里維茲的肉叉",
+  'Skin of the Flayed One': "剝皮者之皮", 'Skull Collector': "骷髏收集者", 'Soul Drainer': "吸魂者",
+  'Spire of Lazarus': "拉撒雷茲之杖", 'Spirit Forge': "靈魂熔爐", 'Spirit Keeper': "魂靈守衛者", 'Steel Carapace': "鋼鐵甲殼",
+  'Steel Pillar': "鋼鐵之柱", 'Steel Shade': "鋼影", 'Taebaek\'s Glory': "太白山的榮光",
+  'Tal Rasha\'s Fine-Spun Cloth': "塔拉夏的精織腰布", 'Tal Rasha\'s Guardianship': "塔拉夏的守護", 'The Atlantean': "亞特蘭提恩",
+  'The Chieftain': "酋長", 'The General\'s Tan Do Li Ga': "將軍的連枷", 'The Minotaur': "牛頭怪", 'The Redeemer': "懺悔者",
+  'Thundergod\'s Vigor': "雷神之力", 'Torch of Iro': "伊洛的火炬", 'Ume\'s Lament': "梅花嘆", 'Valkyrie Wing': "女武神之翼",
+  'Vampire Gaze': "吸血鬼的凝視", 'Venom Ward': "毒之守禦", 'Verdungo\'s Hearty Cord': "伐頓戈的強韌腰索", 'War Traveler': "戰爭旅者",
+  'Wisp Projector': "鬼火投射者", 'Witchwild String': "狂巫之弦", 'Wraith Flight': "死靈夜翔",
 };
 
 // Item/set names and base names: localestrings-chi.json is keyed by the exact
@@ -429,8 +502,9 @@ const ITEM_NAME_OVERRIDES = {
 // base item codes directly) — see vendor/d2data/README.md. ~95% coverage
 // (verified); the miss is newer DLC content not yet in this localization
 // snapshot, and falls back to the English text per the fallback policy.
-function localizedItemName(englishName) {
-  const zhTw = ITEM_NAME_OVERRIDES[englishName] ?? chi[englishName] ?? englishName;
+function localizedItemName(rawEnglishName) {
+  const englishName = correctEnglishName(rawEnglishName);
+  const zhTw = ITEM_NAME_OVERRIDES[englishName] ?? chi[englishName] ?? chi[rawEnglishName] ?? englishName;
   return { en: englishName, 'zh-TW': zhTw, 'zh-CN': toZhCn(zhTw) };
 }
 
@@ -759,7 +833,7 @@ const setsFullData = JSON.parse(readFileSync(join(VENDOR, 'sets.json'), 'utf8'))
 // extraction instead.
 const setGroupsOut = Object.values(setsFullData)
   .map(v => {
-    const pieceIds = setsOut.filter(s => s.setName.en === v.name).map(s => s.id);
+    const pieceIds = setsOut.filter(s => s.setName.en === correctEnglishName(v.name)).map(s => s.id);
     if (pieceIds.length === 0) return null; // e.g. Warlord's Glory: zero spawnable pieces
 
     const partialBonuses = [2, 3, 4, 5].flatMap(n => {
