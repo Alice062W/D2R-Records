@@ -23,7 +23,10 @@ function isLocalizedText(v: unknown): v is LocalizedText {
 
 describe('generated grail catalog', () => {
   it('has the expected item counts', () => {
-    expect(uniques.length).toBe(403);
+    // 402, not 403: "Amulet of the Viper" (code vip) is excluded — a
+    // vestigial spawnable=1 entry with no real treasure-class placement
+    // that d2r.world's own catalog omits too.
+    expect(uniques.length).toBe(402);
     expect(sets.length).toBe(135);
   });
 

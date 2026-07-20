@@ -11338,64 +11338,6 @@
     "statPriority": []
   },
   {
-    "id": "unique-123",
-    "code": "vip",
-    "name": {
-      "en": "Amulet of the Viper",
-      "zh-TW": "蝮蛇護符",
-      "zh-CN": "蝮蛇护符"
-    },
-    "kind": "unique",
-    "setName": null,
-    "levelReq": 0,
-    "baseName": {
-      "en": "Amulet of the Viper",
-      "zh-TW": "赫拉迪克之杖頂端",
-      "zh-CN": "赫拉迪克之杖顶端"
-    },
-    "grade": "normal",
-    "slotCategory": "amulets",
-    "defense": null,
-    "requiredStrength": null,
-    "durability": null,
-    "invFile": "invvip",
-    "stats": [],
-    "fixedStats": [
-      {
-        "key": "mana",
-        "label": {
-          "en": "Mana",
-          "zh-TW": "魔力值",
-          "zh-CN": "魔力值"
-        },
-        "value": 10,
-        "isSkillRef": false
-      },
-      {
-        "key": "res-pois",
-        "label": {
-          "en": "Poison Resist %",
-          "zh-TW": "毒素抗性 %",
-          "zh-CN": "毒素抗性 %"
-        },
-        "value": 25,
-        "isSkillRef": false
-      },
-      {
-        "key": "hp",
-        "label": {
-          "en": "Life",
-          "zh-TW": "生命值",
-          "zh-CN": "生命值"
-        },
-        "value": 10,
-        "isSkillRef": false
-      }
-    ],
-    "setBonuses": [],
-    "statPriority": []
-  },
-  {
     "id": "unique-124",
     "code": "msf",
     "name": {

@@ -645,8 +645,14 @@ function extractSetBonuses(entry) {
   return bonuses;
 }
 
+// "Amulet of the Viper" (code vip) carries spawnable=1 but lvl/lvl req=0 and
+// no real treasure-class placement — a vestigial leftover never actually
+// reachable through normal drop tables. d2r.world's Unique Items catalog
+// correctly omits it; excluded here to match.
+const UNSPAWNABLE_UNIQUE_CODES = new Set(['vip']);
+
 const uniquesOut = Object.entries(uniqueItems)
-  .filter(([, v]) => v.spawnable === 1)
+  .filter(([, v]) => v.spawnable === 1 && !UNSPAWNABLE_UNIQUE_CODES.has(v.code))
   .map(([id, v]) => {
     const { variable, fixed } = extractProps(v, 10, { code: 'prop', par: 'par', min: 'min', max: 'max' });
     return {
