@@ -146,6 +146,22 @@ export function getItemsForSetWeaponsCategory(): RawGrailItem[] {
   return ALL_ITEMS.filter(i => i.kind === 'set' && WEAPON_SLOTS_FOR_SET_COMBINATION.has(i.slotCategory));
 }
 
+// Item ids grouped by the same category buckets getCategoriesForKind()
+// names (including the collapsed 'weapons' bucket for 'set') — lets a
+// category grid compute "X of Y owned" without re-deriving the weapons
+// special-case itself.
+export function getItemIdsByCategory(kind: 'unique' | 'set'): Record<string, string[]> {
+  const categories = getCategoriesForKind(kind);
+  const result: Record<string, string[]> = {};
+  for (const category of categories) {
+    const items = kind === 'set' && category === 'weapons'
+      ? getItemsForSetWeaponsCategory()
+      : ALL_ITEMS.filter(i => i.kind === kind && i.slotCategory === category);
+    result[category] = items.map(i => i.id);
+  }
+  return result;
+}
+
 export function slugifySetName(name: string): string {
   return name
     .toLowerCase()

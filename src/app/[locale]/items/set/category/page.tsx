@@ -1,6 +1,6 @@
 import { routing } from '@/i18n/routing';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { getCategoriesForKind } from '@/lib/grail/catalog';
+import { getCategoriesForKind, getItemIdsByCategory } from '@/lib/grail/catalog';
 import CategoryCardGrid from '@/components/items/CategoryCardGrid';
 
 export function generateStaticParams() {
@@ -16,6 +16,7 @@ export default async function SetCategoryLandingPage({
   setRequestLocale(locale);
   const t = await getTranslations('Items');
   const categories = getCategoriesForKind('set');
+  const itemIdsByCategory = getItemIdsByCategory('set');
 
   return (
     <main className="flex flex-col items-center py-10 px-4 gap-8 flex-1 w-full">
@@ -24,7 +25,7 @@ export default async function SetCategoryLandingPage({
         <p className="mt-2 text-sm text-muted max-w-md">{t('setPageSubtitle')}</p>
       </div>
       <div className="w-full max-w-4xl">
-        <CategoryCardGrid categories={categories} basePath={`/${locale}/items/set/category`} />
+        <CategoryCardGrid categories={categories} basePath={`/${locale}/items/set/category`} itemIdsByCategory={itemIdsByCategory} />
       </div>
     </main>
   );

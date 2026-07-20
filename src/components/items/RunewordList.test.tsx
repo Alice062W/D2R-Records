@@ -127,5 +127,35 @@ describe('RunewordFilters + RunewordList', () => {
       fireEvent.click(checkbox);
       expect(toggle).toHaveBeenCalledWith(baseRunewordFixture.id, 'runeword');
     });
+
+    it('highlights the card background when the runeword is owned', async () => {
+      vi.resetModules();
+      vi.doMock('@/lib/grail/useOwnedItems', () => ({
+        useOwnedItems: () => ({
+          userId: 'user-1', loading: false, ownedIds: new Set([baseRunewordFixture.id]), toggle: vi.fn(), error: null,
+        }),
+      }));
+      const { default: RunewordList } = await import('./RunewordList');
+      render(
+        <NextIntlClientProvider locale="en" messages={messages}>
+          <RunewordList runewords={[baseRunewordFixture]} locale="en" />
+        </NextIntlClientProvider>
+      );
+      expect(screen.getByText(baseRunewordFixture.name.en).closest('div.rounded-xl')).toHaveClass('bg-green-950/30');
+    });
+
+    it('does not highlight the card background when the runeword is not owned', async () => {
+      vi.resetModules();
+      vi.doMock('@/lib/grail/useOwnedItems', () => ({
+        useOwnedItems: () => ({ userId: 'user-1', loading: false, ownedIds: new Set(), toggle: vi.fn(), error: null }),
+      }));
+      const { default: RunewordList } = await import('./RunewordList');
+      render(
+        <NextIntlClientProvider locale="en" messages={messages}>
+          <RunewordList runewords={[baseRunewordFixture]} locale="en" />
+        </NextIntlClientProvider>
+      );
+      expect(screen.getByText(baseRunewordFixture.name.en).closest('div.rounded-xl')).toHaveClass('bg-panel');
+    });
   });
 });

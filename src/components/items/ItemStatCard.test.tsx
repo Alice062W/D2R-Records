@@ -184,5 +184,33 @@ describe('ItemStatCard', () => {
       fireEvent.click(checkbox);
       expect(toggle).toHaveBeenCalledWith('unique-99', 'unique');
     });
+
+    it('highlights the card background when the item is owned', async () => {
+      vi.resetModules();
+      vi.doMock('@/lib/grail/useOwnedItems', () => ({
+        useOwnedItems: () => ({ userId: 'user-1', loading: false, ownedIds: new Set(['unique-99']), toggle: vi.fn(), error: null }),
+      }));
+      const { default: ItemStatCard } = await import('./ItemStatCard');
+      const { container } = render(
+        <NextIntlClientProvider locale="en" messages={messages}>
+          <ItemStatCard item={baseItem} />
+        </NextIntlClientProvider>
+      );
+      expect(container.firstChild).toHaveClass('bg-green-950/30');
+    });
+
+    it('does not highlight the card background when the item is not owned', async () => {
+      vi.resetModules();
+      vi.doMock('@/lib/grail/useOwnedItems', () => ({
+        useOwnedItems: () => ({ userId: 'user-1', loading: false, ownedIds: new Set(), toggle: vi.fn(), error: null }),
+      }));
+      const { default: ItemStatCard } = await import('./ItemStatCard');
+      const { container } = render(
+        <NextIntlClientProvider locale="en" messages={messages}>
+          <ItemStatCard item={baseItem} />
+        </NextIntlClientProvider>
+      );
+      expect(container.firstChild).toHaveClass('bg-panel');
+    });
   });
 });

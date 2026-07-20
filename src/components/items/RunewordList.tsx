@@ -31,8 +31,10 @@ export default function RunewordList({ runewords, locale }: { runewords: Runewor
   return (
     <div className="flex flex-col gap-4 w-full">
       {error && <p className="text-sm text-red-400">{error}</p>}
-      {runewords.map(rw => (
-        <div key={rw.id} className="bg-panel border border-panel-border rounded-xl p-6">
+      {runewords.map(rw => {
+        const owned = userId && ownedIds.has(rw.id);
+        return (
+        <div key={rw.id} className={`border rounded-xl p-6 ${owned ? 'bg-green-950/30 border-green-600/50' : 'bg-panel border-panel-border'}`}>
           <div className="flex items-center justify-between">
             <h3 className="text-lg font-bold text-[#cbb87f]">{rw.name[locale]}</h3>
             <div className="flex items-center gap-2">
@@ -85,7 +87,8 @@ export default function RunewordList({ runewords, locale }: { runewords: Runewor
             </div>
           )}
         </div>
-      ))}
+        );
+      })}
     </div>
   );
 }

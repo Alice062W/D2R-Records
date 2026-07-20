@@ -26,8 +26,10 @@ export default function ItemStatCard({ item }: { item: GrailItem }) {
     ...(item.durability != null ? [[t('durabilityLabel'), String(item.durability)] as [string, string]] : []),
   ];
 
+  const owned = userId && ownedIds.has(item.id);
+
   return (
-    <div className="bg-panel border border-panel-border rounded-xl p-6">
+    <div className={`border rounded-xl p-6 ${owned ? 'bg-green-950/30 border-green-600/50' : 'bg-panel border-panel-border'}`}>
       <div className="mb-1 flex items-start gap-3">
         {item.invFile && !iconFailed && (
           // eslint-disable-next-line @next/next/no-img-element

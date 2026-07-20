@@ -5,6 +5,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import runewordsFull from '../../../../../data/runewords-full.json';
 import RunewordFilters from '@/components/items/RunewordFilters';
 import RunewordList from '@/components/items/RunewordList';
+import CollectionBadge from '@/components/items/CollectionBadge';
 import { useOwnedItems } from '@/lib/grail/useOwnedItems';
 
 const ALL_ITEM_TYPES = Array.from(new Set(runewordsFull.flatMap(rw => rw.itemTypes))).sort();
@@ -20,10 +21,21 @@ export default function RunewordsPage() {
   const [ownedFilter, setOwnedFilter] = useState<OwnedFilter>('all');
   const { userId, ownedIds } = useOwnedItems();
 
-  let filtered = runewordsFull.filter(rw =>
+  // The current type+socket combination, before the owned filter is
+  // applied — this is what the status box below reports progress for,
+  // independent of whether the visible list is further narrowed to
+  // Collected/Missing.
+  const combinationItems = runewordsFull.filter(rw =>
     (!activeType || rw.itemTypes.includes(activeType)) &&
     (!activeSockets || rw.sockets === activeSockets)
   );
+  const combinationOwnedCount = combinationItems.filter(rw => ownedIds.has(rw.id)).length;
+  const combinationLabel = [
+    activeType ? tGrail(`slot_${activeType}` as never) : null,
+    activeSockets ? `${activeSockets} ${t('runewordsSocketsLabel')}` : null,
+  ].filter(Boolean).join(' · ') || t('runewordsCombinationAllLabel');
+
+  let filtered = combinationItems;
   if (userId && ownedFilter !== 'all') {
     filtered = filtered.filter(rw =>
       ownedFilter === 'collected' ? ownedIds.has(rw.id) : !ownedIds.has(rw.id)
@@ -52,6 +64,12 @@ export default function RunewordsPage() {
           activeSockets={activeSockets}
           onSocketsChange={setActiveSockets}
         />
+        {userId && (
+          <div className="bg-panel border border-panel-border rounded-xl p-4 flex items-center justify-between gap-3">
+            <span className="text-sm font-cinzel text-parchment-bright">{combinationLabel}</span>
+            <CollectionBadge owned={combinationOwnedCount} total={combinationItems.length} />
+          </div>
+        )}
         {userId && (
           <div className="flex flex-wrap gap-2">
             {OWNED_FILTERS.map(f => (
