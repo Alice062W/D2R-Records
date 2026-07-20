@@ -62,7 +62,10 @@ describe('RunewordsPage — combination status box', () => {
       </NextIntlClientProvider>
     );
     expect(screen.getByText('All Runewords')).toBeInTheDocument();
-    expect(screen.getByText(`1/${runewordsFull.length} (${Math.round((1 / runewordsFull.length) * 100)}%)`)).toBeInTheDocument();
+    // Both the overall "Your Collection" summary bar and the current
+    // (unfiltered) combination box show the same count here, since with no
+    // type/socket filter active the combination *is* every runeword.
+    expect(screen.getAllByText(`1/${runewordsFull.length} (${Math.round((1 / runewordsFull.length) * 100)}%)`)).toHaveLength(2);
   });
 
   it('updates the combination label and counts when a socket-count filter is selected', async () => {
@@ -94,6 +97,8 @@ describe('RunewordsPage — combination status box', () => {
         <RunewordsPage />
       </NextIntlClientProvider>
     );
-    expect(screen.getByText(/Complete!/)).toBeInTheDocument();
+    // Both the overall summary bar and the current (unfiltered)
+    // combination box are at 100% here.
+    expect(screen.getAllByText(/Complete!/)).toHaveLength(2);
   });
 });

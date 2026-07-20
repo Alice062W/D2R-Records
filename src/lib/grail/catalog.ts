@@ -162,6 +162,12 @@ export function getItemIdsByCategory(kind: 'unique' | 'set'): Record<string, str
   return result;
 }
 
+// Every item id for a kind, regardless of category — used for the
+// page-level "your collection: X/Y" summary on the Unique/Set landing pages.
+export function getAllItemIdsForKind(kind: 'unique' | 'set'): string[] {
+  return ALL_ITEMS.filter(i => i.kind === kind).map(i => i.id);
+}
+
 export function slugifySetName(name: string): string {
   return name
     .toLowerCase()

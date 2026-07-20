@@ -18,15 +18,20 @@ describe('CollectionBadge', () => {
     expect(container).toBeEmptyDOMElement();
   });
 
-  it('shows an x/y (z%) badge when partially collected', () => {
+  it('shows an amber-styled x/y (z%) badge when partially collected', () => {
     renderBadge(3, 10);
-    expect(screen.getByText('3/10 (30%)')).toBeInTheDocument();
+    const badge = screen.getByText('3/10 (30%)');
+    expect(badge).toBeInTheDocument();
+    expect(badge).toHaveClass('bg-amber-500/10');
     expect(screen.queryByText(/Complete!/)).not.toBeInTheDocument();
   });
 
-  it('shows an x/y (z%) badge (0%) when nothing is collected yet', () => {
+  it('shows a plain muted x/y (0%) badge, visually distinct from the partial-progress style, when nothing is collected yet', () => {
     renderBadge(0, 5);
-    expect(screen.getByText('0/5 (0%)')).toBeInTheDocument();
+    const badge = screen.getByText('0/5 (0%)');
+    expect(badge).toBeInTheDocument();
+    expect(badge).toHaveClass('bg-panel-alt');
+    expect(badge).not.toHaveClass('bg-amber-500/10');
   });
 
   it('shows the fancy "Complete!" badge instead of x/y when owned equals total', () => {

@@ -6,9 +6,11 @@ import runewordsFull from '../../../../../data/runewords-full.json';
 import RunewordFilters from '@/components/items/RunewordFilters';
 import RunewordList from '@/components/items/RunewordList';
 import CollectionBadge from '@/components/items/CollectionBadge';
+import CollectionSummaryBar from '@/components/items/CollectionSummaryBar';
 import { useOwnedItems } from '@/lib/grail/useOwnedItems';
 
 const ALL_ITEM_TYPES = Array.from(new Set(runewordsFull.flatMap(rw => rw.itemTypes))).sort();
+const ALL_RUNEWORD_IDS = runewordsFull.map(rw => rw.id);
 const OWNED_FILTERS = ['all', 'collected', 'missing'] as const;
 type OwnedFilter = (typeof OWNED_FILTERS)[number];
 
@@ -57,6 +59,7 @@ export default function RunewordsPage() {
         <p className="mt-2 text-sm text-muted max-w-md">{t('runewordsPageSubtitle')}</p>
       </div>
       <div className="w-full max-w-4xl flex flex-col gap-6">
+        <CollectionSummaryBar itemIds={ALL_RUNEWORD_IDS} />
         <RunewordFilters
           itemTypes={ALL_ITEM_TYPES}
           activeType={activeType}

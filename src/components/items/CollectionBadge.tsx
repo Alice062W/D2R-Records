@@ -20,8 +20,15 @@ export default function CollectionBadge({ owned, total }: { owned: number; total
   }
 
   const percent = Math.round((owned / total) * 100);
+  const started = owned > 0;
   return (
-    <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold bg-panel-alt border border-panel-border text-muted">
+    <span
+      className={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold border ${
+        started
+          ? 'bg-amber-500/10 border-amber-500/40 text-amber-300'
+          : 'bg-panel-alt border-panel-border text-muted'
+      }`}
+    >
       {owned}/{total} ({percent}%)
     </span>
   );

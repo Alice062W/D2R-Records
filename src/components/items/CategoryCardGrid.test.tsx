@@ -70,7 +70,7 @@ describe('CategoryCardGrid', () => {
     expect(screen.getByRole('link')).toHaveClass('bg-panel');
   });
 
-  it('shows a partial x/y badge (no highlight) when some but not all items in a category are owned', async () => {
+  it('shows a partial x/y badge with a distinct amber highlight (different from both empty and complete) when some but not all items in a category are owned', async () => {
     vi.resetModules();
     vi.doMock('@/lib/grail/useOwnedItems', () => ({
       useOwnedItems: () => ({
@@ -84,7 +84,25 @@ describe('CategoryCardGrid', () => {
       </NextIntlClientProvider>
     );
     expect(screen.getByText('1/2 (50%)')).toBeInTheDocument();
+    expect(screen.getByRole('link')).toHaveClass('bg-amber-950/20');
+    expect(screen.getByRole('link')).not.toHaveClass('bg-panel');
+    expect(screen.getByRole('link')).not.toHaveClass('bg-green-950/30');
+  });
+
+  it('shows a plain muted badge with the default (unhighlighted) background when nothing in the category is owned yet', async () => {
+    vi.resetModules();
+    vi.doMock('@/lib/grail/useOwnedItems', () => ({
+      useOwnedItems: () => ({ userId: 'user-1', loading: false, ownedIds: new Set(), toggle: vi.fn(), error: null }),
+    }));
+    const { default: CategoryCardGridMocked } = await import('./CategoryCardGrid');
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <CategoryCardGridMocked categories={['helms']} basePath="/en/items/unique" itemIdsByCategory={{ helms: ['unique-1', 'unique-2'] }} />
+      </NextIntlClientProvider>
+    );
+    expect(screen.getByText('0/2 (0%)')).toBeInTheDocument();
     expect(screen.getByRole('link')).toHaveClass('bg-panel');
+    expect(screen.getByRole('link')).not.toHaveClass('bg-amber-950/20');
   });
 
   it('shows the complete badge and highlight when every item in a category is owned', async () => {

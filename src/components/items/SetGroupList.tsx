@@ -15,7 +15,7 @@ function GroupIcon({ invFile }: { invFile: string }) {
       src={`${BASE_PATH}/items/inv/${invFile}.png`}
       alt=""
       aria-hidden="true"
-      className="w-10 h-10 object-contain shrink-0"
+      className="w-12 h-12 object-contain shrink-0"
       onError={() => setIconFailed(true)}
     />
   );
@@ -31,21 +31,25 @@ export default function SetGroupList({
   const { userId, ownedIds } = useOwnedItems();
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 w-full">
+    // Matches CategoryCardGrid's layout (same breakpoints, centered
+    // icon-over-label tile) so the two Set browsing modes look consistent.
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 w-full">
       {groups.map(g => {
+        const total = g.pieceIds.length;
         const owned = g.pieceIds.filter(id => ownedIds.has(id)).length;
-        const complete = userId && g.pieceIds.length > 0 && owned === g.pieceIds.length;
+        const complete = userId && total > 0 && owned === total;
+        const partial = userId && total > 0 && owned > 0 && owned < total;
         return (
           <Link
             key={g.slug}
             href={`${basePath}/${g.slug}`}
-            className={`flex items-center gap-3 px-4 py-4 rounded-xl border text-[#22ff55] font-semibold font-cinzel hover:border-gold transition-colors ${
-              complete ? 'bg-green-950/30 border-green-600/50' : 'bg-panel border-panel-border'
+            className={`flex flex-col items-center justify-center gap-2 px-4 py-6 rounded-xl border text-sm text-center text-[#22ff55] font-semibold font-cinzel hover:border-gold transition-colors ${
+              complete ? 'bg-green-950/30 border-green-600/50' : partial ? 'bg-amber-950/20 border-amber-600/40' : 'bg-panel border-panel-border'
             }`}
           >
             <GroupIcon invFile={g.repInvFile} />
-            <span className="flex-1">{g.name}</span>
-            {userId && <CollectionBadge owned={owned} total={g.pieceIds.length} />}
+            {g.name}
+            {userId && <CollectionBadge owned={owned} total={total} />}
           </Link>
         );
       })}

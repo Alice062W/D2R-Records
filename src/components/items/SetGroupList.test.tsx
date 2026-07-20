@@ -59,7 +59,7 @@ describe('SetGroupList', () => {
     });
   });
 
-  it('shows a partial x/y badge (no highlight) when some but not all pieces are owned', async () => {
+  it('shows a partial x/y badge with a distinct amber highlight when some but not all pieces are owned', async () => {
     vi.resetModules();
     vi.doMock('@/lib/grail/useOwnedItems', () => ({
       useOwnedItems: () => ({
@@ -76,7 +76,8 @@ describe('SetGroupList', () => {
       </NextIntlClientProvider>
     );
     expect(screen.getByText('1/2 (50%)')).toBeInTheDocument();
-    expect(screen.getByRole('link')).toHaveClass('bg-panel');
+    expect(screen.getByRole('link')).toHaveClass('bg-amber-950/20');
+    expect(screen.getByRole('link')).not.toHaveClass('bg-panel');
   });
 
   it('shows the complete badge and highlight when every piece is owned', async () => {

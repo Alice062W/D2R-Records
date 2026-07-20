@@ -48,14 +48,16 @@ export default function CategoryCardGrid({
     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 w-full">
       {categories.map(category => {
         const ids = itemIdsByCategory?.[category];
+        const total = ids?.length ?? 0;
         const owned = ids ? ids.filter(id => ownedIds.has(id)).length : 0;
-        const complete = userId && ids && ids.length > 0 && owned === ids.length;
+        const complete = userId && total > 0 && owned === total;
+        const partial = userId && total > 0 && owned > 0 && owned < total;
         return (
           <Link
             key={category}
             href={`${basePath}/${category}`}
             className={`flex flex-col items-center justify-center gap-2 px-4 py-6 rounded-xl border text-sm font-semibold font-cinzel text-parchment-bright hover:border-gold hover:text-gold-bright transition-colors ${
-              complete ? 'bg-green-950/30 border-green-600/50' : 'bg-panel border-panel-border'
+              complete ? 'bg-green-950/30 border-green-600/50' : partial ? 'bg-amber-950/20 border-amber-600/40' : 'bg-panel border-panel-border'
             }`}
           >
             <CategoryIcon category={category} />

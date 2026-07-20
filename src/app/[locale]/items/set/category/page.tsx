@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { routing } from '@/i18n/routing';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { getCategoriesForKind, getItemIdsByCategory } from '@/lib/grail/catalog';
@@ -24,7 +25,12 @@ export default async function SetCategoryLandingPage({
         <h1 className="text-3xl font-bold tracking-tight text-parchment-bright">{t('setPageTitle')}</h1>
         <p className="mt-2 text-sm text-muted max-w-md">{t('setPageSubtitle')}</p>
       </div>
-      <div className="w-full max-w-4xl">
+      <div className="w-full max-w-4xl flex flex-col gap-4">
+        <div className="flex justify-end">
+          <Link href={`/${locale}/items/set`} className="text-sm text-muted hover:text-gold-bright transition-colors">
+            {t('browseByName')}
+          </Link>
+        </div>
         <CategoryCardGrid categories={categories} basePath={`/${locale}/items/set/category`} itemIdsByCategory={itemIdsByCategory} />
       </div>
     </main>

@@ -4,6 +4,7 @@ import Link from 'next/link';
 import setGroups from '../../../../../data/set-groups.json';
 import { slugifySetName } from '@/lib/grail/catalog';
 import SetGroupList from '@/components/items/SetGroupList';
+import CollectionSummaryBar from '@/components/items/CollectionSummaryBar';
 
 export function generateStaticParams() {
   return routing.locales.map(locale => ({ locale }));
@@ -31,6 +32,7 @@ export default async function SetItemsPage({
         <p className="mt-2 text-sm text-muted max-w-md">{t('setGroupsPageSubtitle')}</p>
       </div>
       <div className="w-full max-w-4xl flex flex-col gap-4">
+        <CollectionSummaryBar itemIds={groups.flatMap(g => g.pieceIds)} />
         <div className="flex justify-end">
           <Link href={`/${locale}/items/set/category`} className="text-sm text-muted hover:text-gold-bright transition-colors">
             {t('browseByCategory')}
