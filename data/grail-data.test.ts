@@ -785,12 +785,18 @@ describe('set-groups.json', () => {
     expect(aldur.fullSetBonuses.some((b: { key: string }) => b.key === 'state')).toBe(false);
   });
 
-  it("resolves Aldur's Watchtower's partial bonuses (2/3/4-piece tiers)", () => {
+  it("resolves Aldur's Watchtower's partial bonuses (2/3-piece tiers only)", () => {
+    // Aldur's Watchtower has exactly 4 pieces. vendor data carries a
+    // PCode4a ('lifesteal') partial-bonus field, but a partial tier whose
+    // piece count equals the set's total piece count is mechanically
+    // unreachable in-game — owning all 4 pieces always activates the Full
+    // Set bonus path instead of "partial(4)". Confirmed against d2r.world
+    // this session: neither the game nor d2r.world shows this tier or its
+    // Life Steal stat anywhere; only the 2- and 3-piece tiers are real.
     const aldur = setGroupsData.find((g: { setName: { en: string } }) => g.setName.en === "Aldur's Watchtower")!;
-    expect(aldur.partialBonuses.map((p: { piecesRequired: number }) => p.piecesRequired)).toEqual([2, 3, 4]);
+    expect(aldur.partialBonuses.map((p: { piecesRequired: number }) => p.piecesRequired)).toEqual([2, 3]);
     expect(aldur.partialBonuses[0].stats[0]).toMatchObject({ key: 'att%', min: 150, max: 150 });
     expect(aldur.partialBonuses[1].stats[0]).toMatchObject({ key: 'mag%', min: 50, max: 50 });
-    expect(aldur.partialBonuses[2].stats[0]).toMatchObject({ key: 'lifesteal', min: 10, max: 10 });
   });
 
   it('has a non-empty repInvFile matching a real file in public/items/inv for every group', () => {

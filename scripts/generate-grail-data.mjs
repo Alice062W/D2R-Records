@@ -920,7 +920,14 @@ const setGroupsOut = Object.values(setsFullData)
     const pieceIds = setsOut.filter(s => s.setName.en === correctEnglishName(v.name)).map(s => s.id);
     if (pieceIds.length === 0) return null; // e.g. Warlord's Glory: zero spawnable pieces
 
-    const partialBonuses = [2, 3, 4, 5].flatMap(n => {
+    // A partial-bonus tier whose piece count equals the set's total piece
+    // count is mechanically unreachable in-game: reaching all pieces always
+    // activates the Full Set bonus path instead of "partial(N)", so vendor
+    // data's PCode{total}a field (when present) never actually applies to a
+    // player and isn't shown on d2r.world either — verified against Aldur's
+    // Watchtower this session, which carries an unused PCode4a: 'lifesteal'
+    // (a 4-piece set) that neither displays in-game nor on d2r.world.
+    const partialBonuses = [2, 3, 4, 5].filter(n => n < pieceIds.length).flatMap(n => {
       const rawCode = v[`PCode${n}a`];
       if (!rawCode) return [];
       const code = CODE_ALIASES[rawCode] ?? rawCode;

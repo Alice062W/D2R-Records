@@ -44,22 +44,6 @@
             "isSkillRef": false
           }
         ]
-      },
-      {
-        "piecesRequired": 4,
-        "stats": [
-          {
-            "key": "lifesteal",
-            "label": {
-              "en": "Life Steal %",
-              "zh-TW": "生命竊取 %",
-              "zh-CN": "生命窃取 %"
-            },
-            "min": 10,
-            "max": 10,
-            "isSkillRef": false
-          }
-        ]
       }
     ],
     "fullSetBonuses": [
@@ -1765,22 +1749,6 @@
             "isSkillRef": false
           }
         ]
-      },
-      {
-        "piecesRequired": 3,
-        "stats": [
-          {
-            "key": "mana",
-            "label": {
-              "en": "Mana",
-              "zh-TW": "魔力值",
-              "zh-CN": "魔力值"
-            },
-            "min": 10,
-            "max": 10,
-            "isSkillRef": false
-          }
-        ]
       }
     ],
     "fullSetBonuses": [
@@ -2533,22 +2501,6 @@
             "isSkillRef": false
           }
         ]
-      },
-      {
-        "piecesRequired": 4,
-        "stats": [
-          {
-            "key": "res-pois",
-            "label": {
-              "en": "Poison Resist %",
-              "zh-TW": "毒素抗性 %",
-              "zh-CN": "毒素抗性 %"
-            },
-            "min": 20,
-            "max": 20,
-            "isSkillRef": false
-          }
-        ]
       }
     ],
     "fullSetBonuses": [
@@ -2673,22 +2625,6 @@
             },
             "min": 5,
             "max": 5,
-            "isSkillRef": false
-          }
-        ]
-      },
-      {
-        "piecesRequired": 4,
-        "stats": [
-          {
-            "key": "ac",
-            "label": {
-              "en": "Defense",
-              "zh-TW": "防禦力",
-              "zh-CN": "防御力"
-            },
-            "min": 100,
-            "max": 100,
             "isSkillRef": false
           }
         ]
@@ -3231,22 +3167,6 @@
               "en": "Strength",
               "zh-TW": "力量",
               "zh-CN": "力量"
-            },
-            "min": 10,
-            "max": 10,
-            "isSkillRef": false
-          }
-        ]
-      },
-      {
-        "piecesRequired": 5,
-        "stats": [
-          {
-            "key": "dex",
-            "label": {
-              "en": "Dexterity",
-              "zh-TW": "敏捷",
-              "zh-CN": "敏捷"
             },
             "min": 10,
             "max": 10,
