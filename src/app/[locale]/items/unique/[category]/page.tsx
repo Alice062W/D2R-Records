@@ -3,8 +3,8 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import {
-  getAllGrailItems,
   getCategoriesForKind,
+  itemsForUniqueCategory,
   localizeGrailItem,
   sortItemsForDisplay,
 } from '@/lib/grail/catalog';
@@ -32,9 +32,7 @@ export default async function UniqueCategoryPage({
   const tGrail = await getTranslations('Grail');
 
   const items = sortItemsForDisplay(
-    getAllGrailItems()
-      .filter(i => i.kind === 'unique' && i.slotCategory === category)
-      .map(i => localizeGrailItem(i, locale as 'en' | 'zh-TW' | 'zh-CN'))
+    itemsForUniqueCategory(category).map(i => localizeGrailItem(i, locale as 'en' | 'zh-TW' | 'zh-CN'))
   );
 
   return (

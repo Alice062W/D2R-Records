@@ -132,9 +132,21 @@ const WEAPON_SLOTS_FOR_SET_COMBINATION = new Set([
   'bows', 'crossbows', 'javelins', 'throwings',
 ]);
 
+// d2r.world's Unique Items browser doesn't give grimoires (a Necromancer
+// off-hand book item type added in a later D2R patch) their own category —
+// it lists them under Shields. Matched here for the Unique category grid
+// only; Set/Magic/Rare/Base categorization is untouched.
+const UNIQUE_CATEGORY_MERGES: Record<string, string> = { grimoires: 'shields' };
+function displaySlotForUnique(slotCategory: string): string {
+  return UNIQUE_CATEGORY_MERGES[slotCategory] ?? slotCategory;
+}
+
 export function getCategoriesForKind(kind: 'unique' | 'set'): string[] {
   const items = ALL_ITEMS.filter(i => i.kind === kind);
-  const populated = SLOT_ORDER.filter(slot => items.some(i => i.slotCategory === slot));
+  const slotOf = kind === 'unique'
+    ? (i: RawGrailItem) => displaySlotForUnique(i.slotCategory)
+    : (i: RawGrailItem) => i.slotCategory;
+  const populated = SLOT_ORDER.filter(slot => items.some(i => slotOf(i) === slot));
   if (kind !== 'set') return populated;
 
   const hasWeapon = populated.some(slot => WEAPON_SLOTS_FOR_SET_COMBINATION.has(slot));
@@ -156,10 +168,18 @@ export function getItemIdsByCategory(kind: 'unique' | 'set'): Record<string, str
   for (const category of categories) {
     const items = kind === 'set' && category === 'weapons'
       ? getItemsForSetWeaponsCategory()
-      : ALL_ITEMS.filter(i => i.kind === kind && i.slotCategory === category);
+      : kind === 'unique'
+        ? ALL_ITEMS.filter(i => i.kind === 'unique' && displaySlotForUnique(i.slotCategory) === category)
+        : ALL_ITEMS.filter(i => i.kind === kind && i.slotCategory === category);
     result[category] = items.map(i => i.id);
   }
   return result;
+}
+
+// Exposed for the Unique per-category detail page, which filters
+// ALL_ITEMS by category directly rather than through getItemIdsByCategory.
+export function itemsForUniqueCategory(category: string): RawGrailItem[] {
+  return ALL_ITEMS.filter(i => i.kind === 'unique' && displaySlotForUnique(i.slotCategory) === category);
 }
 
 // Every item id for a kind, regardless of category — used for the

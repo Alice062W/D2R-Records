@@ -349,6 +349,9 @@ function localizedLabelWithSkill(code, par) {
 // RUNE_NAME_ALIASES below for the same class of vendor-data typo.
 const ITEM_ENGLISH_NAME_ALIASES = {
   'Aldur\'s Gauntlet': "Aldur's Rhythm", 'Angelical Raiment': "Angelic Raiment",
+  'Cutthroat1': "Bartuc's Cut-Throat", 'War Bonnet': "Biggin's Bonnet",
+  'Ironward': "Astreon's Iron Ward", 'Irices Shard': 'Spectral Shard', 'Mindrend': 'Skull Splitter',
+  'Rimeraven': 'Raven Claw',
   'Ars Al\'Diablolos': "Ars Al'Diabolos", 'Berserker\'s Garb': "Berserker's Arsenal",
   'Blinkbats Form': "Blinkbat's Form", 'Bloodraven\'s Charge': "Blood Raven's Charge", 'Bonesob': "Bonesnap",
   'Bul Katho\'s Wedding Band': "Bul-Kathos' Wedding Band", 'Cerebus': "Cerebus' Bite",
@@ -470,6 +473,8 @@ const ITEM_NAME_OVERRIDES = {
   'Viperfork': "蛇魔叉", 'Wall of the Eyeless': "無眼者之牆", 'Widowmaker': "絕命", 'Witherstring': "凋萎之弦",
   'Wizendraw': "凋謝弓弦", 'Woestave': "悲哀護杖", 'Wormskull': "蠕蟲頭骨", 'Wraithstep': "怨靈步伐",
   // Chinese names for the corrected (post-ITEM_ENGLISH_NAME_ALIASES) forms above.
+  'Astreon\'s Iron Ward': "愛斯特龍的鐵衛", 'Bartuc\'s Cut-Throat': "霸圖克的割喉爪", 'Biggin\'s Bonnet': "畢格因的軟帽",
+  'Raven Claw': "掠鴉之爪", 'Skull Splitter': "劈顱斧", 'Spectral Shard': "虹彩裂片",
   'Aldur\'s Rhythm': "艾爾多的律動", 'Angelic Raiment': "天使的衣裝", 'Ars Al\'Diabolos': "艾迪亞布羅斯學術",
   'Axe of Fechmar': "費屈瑪之斧", 'Berserker\'s Arsenal': "狂戰士的武裝", 'Blinkbat\'s Form': "閃蝠之軀",
   'Blood Raven\'s Charge': "血鴉之擊", 'Bonesnap': "碎骨", 'Bul-Kathos\' Wedding Band': "布爾凱索的婚戒",

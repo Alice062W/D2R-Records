@@ -259,9 +259,9 @@
     "id": "unique-3",
     "code": "mpi",
     "name": {
-      "en": "Mindrend",
-      "zh-TW": "切開骷髏",
-      "zh-CN": "切开骷髅"
+      "en": "Skull Splitter",
+      "zh-TW": "劈顱斧",
+      "zh-CN": "劈颅斧"
     },
     "kind": "unique",
     "setName": null,
@@ -3793,9 +3793,9 @@
     "id": "unique-42",
     "code": "bld",
     "name": {
-      "en": "Irices Shard",
-      "zh-TW": "妖怪碎片",
-      "zh-CN": "妖怪碎片"
+      "en": "Spectral Shard",
+      "zh-TW": "虹彩裂片",
+      "zh-CN": "虹彩裂片"
     },
     "kind": "unique",
     "setName": null,
@@ -5563,9 +5563,9 @@
     "id": "unique-61",
     "code": "lbw",
     "name": {
-      "en": "Rimeraven",
-      "zh-TW": "渡鳥之爪",
-      "zh-CN": "渡鸟之爪"
+      "en": "Raven Claw",
+      "zh-TW": "掠鴉之爪",
+      "zh-CN": "掠鸦之爪"
     },
     "kind": "unique",
     "setName": null,
@@ -6507,7 +6507,7 @@
     "id": "unique-71",
     "code": "cap",
     "name": {
-      "en": "War Bonnet",
+      "en": "Biggin's Bonnet",
       "zh-TW": "畢格因的軟帽",
       "zh-CN": "毕格因的软帽"
     },
@@ -27898,9 +27898,9 @@
     "id": "unique-286",
     "code": "9tw",
     "name": {
-      "en": "Cutthroat1",
-      "zh-TW": "巴特克的猛擊",
-      "zh-CN": "巴特克的猛击"
+      "en": "Bartuc's Cut-Throat",
+      "zh-TW": "霸圖克的割喉爪",
+      "zh-CN": "霸图克的割喉爪"
     },
     "kind": "unique",
     "setName": null,
@@ -36483,9 +36483,9 @@
     "id": "unique-380",
     "code": "7ws",
     "name": {
-      "en": "Ironward",
-      "zh-TW": "愛斯特龍之鐵的保護區",
-      "zh-CN": "爱斯特龙之铁的保护区"
+      "en": "Astreon's Iron Ward",
+      "zh-TW": "愛斯特龍的鐵衛",
+      "zh-CN": "爱斯特龙的铁卫"
     },
     "kind": "unique",
     "setName": null,

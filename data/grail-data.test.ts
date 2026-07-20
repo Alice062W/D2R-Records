@@ -281,8 +281,8 @@ describe('max-sockets.json', () => {
 });
 
 describe('getCategoriesForKind', () => {
-  it('returns all 28 SLOT_ORDER categories for uniques', () => {
-    expect(getCategoriesForKind('unique')).toEqual([...SLOT_ORDER]);
+  it('returns all SLOT_ORDER categories for uniques except grimoires, which is folded into shields to match d2r.world', () => {
+    expect(getCategoriesForKind('unique')).toEqual(SLOT_ORDER.filter(slot => slot !== 'grimoires'));
   });
 
   it('returns a strict subset for sets, excluding categories with no set items', () => {
