@@ -1007,22 +1007,33 @@ const setGroupsOut = Object.values(setsFullData)
     // player and isn't shown on d2r.world either — verified against Aldur's
     // Watchtower this session, which carries an unused PCode4a: 'lifesteal'
     // (a 4-piece set) that neither displays in-game nor on d2r.world.
+    // Each piece-count tier can carry more than one stat via suffix letters
+    // a/b/c/d (same pattern as the per-item aprop{n}{suffix} partial bonus
+    // fields extractSetBonuses reads) — not just 'a'. Confirmed against
+    // d2r.world this session: Cathan's Traps' 2-piece tier grants BOTH
+    // "Adds 15-20 fire damage" (PCode2a) and "Regenerate Mana 16%"
+    // (PCode2b), but this loop previously only ever read suffix 'a',
+    // silently dropping the 'b' stat on 9 sets across ~13 tiers.
     const partialBonuses = [2, 3, 4, 5].filter(n => n < pieceIds.length).flatMap(n => {
-      const rawCode = v[`PCode${n}a`];
-      if (!rawCode) return [];
-      const code = CODE_ALIASES[rawCode] ?? rawCode;
-      const par = v[`PParam${n}a`];
-      const isSkillRef = SKILL_REF_PROPS.has(code);
-      const label = isSkillRef ? localizedLabelWithSkill(code, par) : localizedLabelFor(code);
-      const needsKeySuffix = (isSkillRef || KEY_ONLY_DISAMBIGUATE_PROPS.has(code)) && par !== undefined;
-      const key = needsKeySuffix ? `${code}:${par}` : code;
-      let min = v[`PMin${n}a`];
-      let max = v[`PMax${n}a`];
-      const dmgPois = scaleDmgPoisWithPar(code, par, min, max);
-      const effectiveLabel = dmgPois ? dmgPois.label : label;
-      if (dmgPois) ({ min, max } = dmgPois);
-      if (min === undefined || max === undefined) return [];
-      return [{ piecesRequired: n, stats: [{ key, label: effectiveLabel, min, max, isSkillRef }] }];
+      const stats = ['a', 'b', 'c', 'd'].flatMap(suffix => {
+        const rawCode = v[`PCode${n}${suffix}`];
+        if (!rawCode) return [];
+        const code = CODE_ALIASES[rawCode] ?? rawCode;
+        const par = v[`PParam${n}${suffix}`];
+        const isSkillRef = SKILL_REF_PROPS.has(code);
+        const label = isSkillRef ? localizedLabelWithSkill(code, par) : localizedLabelFor(code);
+        const needsKeySuffix = (isSkillRef || KEY_ONLY_DISAMBIGUATE_PROPS.has(code)) && par !== undefined;
+        const key = needsKeySuffix ? `${code}:${par}` : code;
+        let min = v[`PMin${n}${suffix}`];
+        let max = v[`PMax${n}${suffix}`];
+        const dmgPois = scaleDmgPoisWithPar(code, par, min, max);
+        const effectiveLabel = dmgPois ? dmgPois.label : label;
+        if (dmgPois) ({ min, max } = dmgPois);
+        if (min === undefined || max === undefined) return [];
+        return [{ key, label: effectiveLabel, min, max, isSkillRef }];
+      });
+      if (stats.length === 0) return [];
+      return [{ piecesRequired: n, stats }];
     });
 
     const fullSetBonuses = [];

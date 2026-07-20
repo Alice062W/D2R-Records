@@ -252,6 +252,17 @@
             "min": 50,
             "max": 50,
             "isSkillRef": false
+          },
+          {
+            "key": "regen-mana",
+            "label": {
+              "en": "Mana Regenerated %",
+              "zh-TW": "魔力回復 %",
+              "zh-CN": "魔力回复 %"
+            },
+            "min": 12,
+            "max": 12,
+            "isSkillRef": false
           }
         ]
       }
@@ -660,6 +671,17 @@
             "min": 15,
             "max": 20,
             "isSkillRef": false
+          },
+          {
+            "key": "regen-mana",
+            "label": {
+              "en": "Mana Regenerated %",
+              "zh-TW": "魔力回復 %",
+              "zh-CN": "魔力回复 %"
+            },
+            "min": 16,
+            "max": 16,
+            "isSkillRef": false
           }
         ]
       },
@@ -928,6 +950,17 @@
             },
             "min": 25,
             "max": 25,
+            "isSkillRef": false
+          },
+          {
+            "key": "ac",
+            "label": {
+              "en": "Defense",
+              "zh-TW": "防禦力",
+              "zh-CN": "防御力"
+            },
+            "min": 100,
+            "max": 100,
             "isSkillRef": false
           }
         ]
@@ -1852,6 +1885,17 @@
             "min": 20,
             "max": 20,
             "isSkillRef": false
+          },
+          {
+            "key": "pierce",
+            "label": {
+              "en": "Piercing Attack %",
+              "zh-TW": "穿透攻擊 %",
+              "zh-CN": "穿透攻击 %"
+            },
+            "min": 24,
+            "max": 24,
+            "isSkillRef": false
           }
         ]
       }
@@ -2272,6 +2316,17 @@
             },
             "min": 125,
             "max": 125,
+            "isSkillRef": false
+          },
+          {
+            "key": "nofreeze",
+            "label": {
+              "en": "Cannot Be Frozen",
+              "zh-TW": "不會被冰凍",
+              "zh-CN": "不会被冰冻"
+            },
+            "min": 1,
+            "max": 1,
             "isSkillRef": false
           }
         ]
@@ -2713,6 +2768,17 @@
             },
             "min": 40,
             "max": 40,
+            "isSkillRef": false
+          },
+          {
+            "key": "res-pois-len",
+            "label": {
+              "en": "Poison Length Reduced %",
+              "zh-TW": "減少毒素持續時間 %",
+              "zh-CN": "减少毒素持续时间 %"
+            },
+            "min": 75,
+            "max": 75,
             "isSkillRef": false
           }
         ]
@@ -3228,6 +3294,17 @@
             "min": 15,
             "max": 15,
             "isSkillRef": false
+          },
+          {
+            "key": "oskill:Fire Ball",
+            "label": {
+              "en": "Skill Bonus (Fire Ball)",
+              "zh-TW": "技能加成 (Fire Ball)",
+              "zh-CN": "技能加成 (Fire Ball)"
+            },
+            "min": 18,
+            "max": 18,
+            "isSkillRef": true
           }
         ]
       },
@@ -3244,6 +3321,17 @@
             "min": 15,
             "max": 15,
             "isSkillRef": false
+          },
+          {
+            "key": "oskill:Fire Wall",
+            "label": {
+              "en": "Skill Bonus (Fire Wall)",
+              "zh-TW": "技能加成 (Fire Wall)",
+              "zh-CN": "技能加成 (Fire Wall)"
+            },
+            "min": 13,
+            "max": 13,
+            "isSkillRef": true
           }
         ]
       },
@@ -3260,6 +3348,17 @@
             "min": 15,
             "max": 15,
             "isSkillRef": false
+          },
+          {
+            "key": "oskill:Meteor",
+            "label": {
+              "en": "Skill Bonus (Meteor)",
+              "zh-TW": "技能加成 (Meteor)",
+              "zh-CN": "技能加成 (Meteor)"
+            },
+            "min": 10,
+            "max": 10,
+            "isSkillRef": true
           }
         ]
       }
@@ -3370,6 +3469,17 @@
             },
             "min": 75,
             "max": 75,
+            "isSkillRef": false
+          },
+          {
+            "key": "manasteal",
+            "label": {
+              "en": "Mana Steal %",
+              "zh-TW": "魔力竊取 %",
+              "zh-CN": "魔力窃取 %"
+            },
+            "min": 7,
+            "max": 7,
             "isSkillRef": false
           }
         ]
