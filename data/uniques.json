@@ -70,7 +70,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-1",
@@ -153,7 +154,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-2",
@@ -256,7 +258,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-3",
@@ -363,7 +366,8 @@
       "att",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-4",
@@ -466,7 +470,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-5",
@@ -539,7 +544,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-6",
@@ -622,7 +628,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-7",
@@ -707,7 +714,8 @@
       "res-all",
       "dmg-ltng"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-8",
@@ -804,7 +812,8 @@
       "dmg%",
       "dmg-fire"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-9",
@@ -901,7 +910,8 @@
       "dmg-max",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-10",
@@ -994,7 +1004,8 @@
     "statPriority": [
       "dmg-fire"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-11",
@@ -1123,7 +1134,8 @@
       "skill:66",
       "skill:76"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-12",
@@ -1236,7 +1248,8 @@
     "statPriority": [
       "mana"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-13",
@@ -1325,7 +1338,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-14",
@@ -1418,7 +1432,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-15",
@@ -1511,7 +1526,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-16",
@@ -1630,7 +1646,8 @@
       "dmg-undead",
       "skill:111"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-17",
@@ -1739,7 +1756,8 @@
       "dmg%",
       "skill:110"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-18",
@@ -1812,7 +1830,8 @@
     "statPriority": [
       "thorns"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-19",
@@ -1905,7 +1924,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-20",
@@ -2004,7 +2024,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-21",
@@ -2107,7 +2128,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-22",
@@ -2202,7 +2224,8 @@
       "att",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-23",
@@ -2285,7 +2308,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-24",
@@ -2358,7 +2382,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-25",
@@ -2447,7 +2472,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-26",
@@ -2550,7 +2576,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-27",
@@ -2643,7 +2670,8 @@
     "statPriority": [
       "dmg-norm"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-28",
@@ -2738,7 +2766,8 @@
       "dmg%",
       "dmg-cold"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-30",
@@ -2845,7 +2874,8 @@
       "fire-max",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-31",
@@ -2960,7 +2990,8 @@
       "dmg%",
       "dmg-fire"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-32",
@@ -3053,7 +3084,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-33",
@@ -3146,7 +3178,8 @@
     "statPriority": [
       "dmg-cold"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-34",
@@ -3231,7 +3264,8 @@
       "manasteal",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-35",
@@ -3328,7 +3362,8 @@
       "fire-max",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-36",
@@ -3421,7 +3456,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-37",
@@ -3494,7 +3530,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-38",
@@ -3587,7 +3624,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-39",
@@ -3656,7 +3694,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-40",
@@ -3745,7 +3784,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-41",
@@ -3828,7 +3868,8 @@
     "statPriority": [
       "att"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-42",
@@ -3897,7 +3938,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-43",
@@ -3980,7 +4022,8 @@
     "statPriority": [
       "dmg-fire"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-44",
@@ -4073,7 +4116,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-45",
@@ -4158,7 +4202,8 @@
       "lifesteal",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-46",
@@ -4237,7 +4282,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-47",
@@ -4350,7 +4396,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-48",
@@ -4419,7 +4466,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-49",
@@ -4514,7 +4562,8 @@
       "dmg%",
       "dur"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-50",
@@ -4607,7 +4656,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-51",
@@ -4692,7 +4742,8 @@
       "dmg%",
       "att"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-52",
@@ -4805,7 +4856,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-53",
@@ -4894,7 +4946,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-54",
@@ -5007,7 +5060,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-55",
@@ -5110,7 +5164,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-56",
@@ -5233,7 +5288,8 @@
     "statPriority": [
       "dmg-ltng"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-57",
@@ -5326,7 +5382,8 @@
     "statPriority": [
       "dmg-fire"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-58",
@@ -5435,7 +5492,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-59",
@@ -5524,7 +5582,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-60",
@@ -5617,7 +5676,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-61",
@@ -5700,7 +5760,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-62",
@@ -5793,7 +5854,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-63",
@@ -5888,7 +5950,8 @@
       "dmg-ltng",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-64",
@@ -6005,7 +6068,8 @@
       "dmg%",
       "pierce-cold"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-65",
@@ -6122,7 +6186,8 @@
       "att",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-66",
@@ -6205,7 +6270,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-67",
@@ -6294,7 +6360,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-68",
@@ -6383,7 +6450,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-69",
@@ -6488,7 +6556,8 @@
       "dmg%",
       "dmg-fire"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-70",
@@ -6571,7 +6640,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-71",
@@ -6653,7 +6723,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-72",
@@ -6719,7 +6790,8 @@
     "statPriority": [
       "mag%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-73",
@@ -6801,7 +6873,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-74",
@@ -6899,7 +6972,8 @@
       "ac",
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-75",
@@ -6981,7 +7055,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-76",
@@ -7073,7 +7148,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-77",
@@ -7191,7 +7267,8 @@
       "ac%",
       "att-undead"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-78",
@@ -7273,7 +7350,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-79",
@@ -7365,7 +7443,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-80",
@@ -7457,7 +7536,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-81",
@@ -7569,7 +7649,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-82",
@@ -7661,7 +7742,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-83",
@@ -7757,7 +7839,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-84",
@@ -7843,7 +7926,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-85",
@@ -7923,7 +8007,8 @@
       "dmg-ltng",
       "light-thorns"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-86",
@@ -8009,7 +8094,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-87",
@@ -8095,7 +8181,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-88",
@@ -8171,7 +8258,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-89",
@@ -8257,7 +8345,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-90",
@@ -8329,7 +8418,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-91",
@@ -8415,7 +8505,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-92",
@@ -8491,7 +8582,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-93",
@@ -8583,7 +8675,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-94",
@@ -8701,7 +8794,8 @@
       "ac%",
       "dur"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-95",
@@ -8819,7 +8913,8 @@
       "ac%",
       "dur"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-96",
@@ -8939,7 +9034,8 @@
       "ac%",
       "dur"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-97",
@@ -9035,7 +9131,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-98",
@@ -9143,7 +9240,8 @@
       "bloody",
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-99",
@@ -9271,7 +9369,8 @@
       "ac%",
       "dur"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-100",
@@ -9379,7 +9478,8 @@
       "ac%",
       "dur"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-101",
@@ -9475,7 +9575,8 @@
     "statPriority": [
       "res-all"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-102",
@@ -9571,7 +9672,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-103",
@@ -9667,7 +9769,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-104",
@@ -9765,7 +9868,8 @@
       "mag%",
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-105",
@@ -9863,7 +9967,8 @@
       "dmg-fire",
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-106",
@@ -9951,7 +10056,8 @@
       "dmg-cold",
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-107",
@@ -10049,7 +10155,8 @@
       "dmg-fire",
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-108",
@@ -10157,7 +10264,8 @@
       "bloody",
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-109",
@@ -10253,7 +10361,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-110",
@@ -10349,7 +10458,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-111",
@@ -10455,7 +10565,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-112",
@@ -10527,7 +10638,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-113",
@@ -10623,7 +10735,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-114",
@@ -10719,7 +10832,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-115",
@@ -10817,7 +10931,8 @@
       "ac%",
       "gold%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-116",
@@ -10923,7 +11038,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-117",
@@ -11006,7 +11122,8 @@
     "statPriority": [
       "dmg-fire"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-118",
@@ -11119,7 +11236,8 @@
       "cold-max",
       "cold-len"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-119",
@@ -11228,7 +11346,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-120",
@@ -11303,7 +11422,8 @@
       "att",
       "mag%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-121",
@@ -11378,7 +11498,8 @@
       "manasteal",
       "regen"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-122",
@@ -11457,7 +11578,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-124",
@@ -11506,7 +11628,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-125",
@@ -11585,7 +11708,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-126",
@@ -11654,7 +11778,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-127",
@@ -11723,7 +11848,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-128",
@@ -11812,7 +11938,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-129",
@@ -11917,7 +12044,8 @@
       "gethit-skill:44",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-130",
@@ -12012,7 +12140,8 @@
       "dmg%",
       "dmg-norm"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-131",
@@ -12145,7 +12274,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-132",
@@ -12232,7 +12362,8 @@
       "dmg-fire",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-133",
@@ -12327,7 +12458,8 @@
       "hit-skill:92",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-134",
@@ -12416,7 +12548,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-135",
@@ -12557,7 +12690,8 @@
       "charged:101",
       "charged:225"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-136",
@@ -12678,7 +12812,8 @@
       "dmg-norm",
       "gethit-skill:38"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-137",
@@ -12795,7 +12930,8 @@
       "charged:101",
       "gethit-skill:101"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-138",
@@ -12902,7 +13038,8 @@
       "dmg-norm",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-139",
@@ -12991,7 +13128,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-140",
@@ -13090,7 +13228,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-141",
@@ -13225,7 +13364,8 @@
       "gethit-skill:93",
       "gethit-skill:88"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-142",
@@ -13338,7 +13478,8 @@
     "statPriority": [
       "charged:150"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-143",
@@ -13431,7 +13572,8 @@
     "statPriority": [
       "att%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-144",
@@ -13556,7 +13698,8 @@
       "hit-skill:59",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-145",
@@ -13667,7 +13810,8 @@
       "att",
       "dmg-norm"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-146",
@@ -13804,7 +13948,8 @@
       "dmg-norm",
       "hit-skill:121"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-147",
@@ -13929,7 +14074,8 @@
       "dmg-norm",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-148",
@@ -14028,7 +14174,8 @@
       "dmg-norm",
       "charged:64"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-149",
@@ -14141,7 +14288,8 @@
       "charged:56",
       "dmg-norm"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-150",
@@ -14250,7 +14398,8 @@
       "dmg%",
       "charged:48"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-151",
@@ -14353,7 +14502,8 @@
     "statPriority": [
       "hit-skill:234"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-152",
@@ -14456,7 +14606,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-153",
@@ -14567,7 +14718,8 @@
       "dmg%",
       "charged:66"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-154",
@@ -14694,7 +14846,8 @@
       "skill:127",
       "skill:151"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-155",
@@ -14797,7 +14950,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-156",
@@ -14904,7 +15058,8 @@
       "dmg-norm",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-157",
@@ -14999,7 +15154,8 @@
       "dmg%",
       "dex"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-158",
@@ -15096,7 +15252,8 @@
       "dmg-mag",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-159",
@@ -15175,7 +15332,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-160",
@@ -15270,7 +15428,8 @@
       "hit-skill:92",
       "dmg-norm"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-161",
@@ -15383,7 +15542,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-162",
@@ -15476,7 +15636,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-163",
@@ -15573,7 +15734,8 @@
       "hit-skill:64",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-164",
@@ -15668,7 +15830,8 @@
       "hit-skill:66",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-165",
@@ -15795,7 +15958,8 @@
       "dmg-ltng",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-166",
@@ -15906,7 +16070,8 @@
       "charged:52",
       "charged:51"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-167",
@@ -16031,7 +16196,8 @@
       "res-all",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-168",
@@ -16146,7 +16312,8 @@
       "dmg%",
       "dmg-norm"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-169",
@@ -16251,7 +16418,8 @@
       "dmg-norm",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-170",
@@ -16364,7 +16532,8 @@
     "statPriority": [
       "dmg-norm"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-171",
@@ -16449,7 +16618,8 @@
       "dmg-ltng",
       "gethit-skill:38"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-172",
@@ -16562,7 +16732,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-173",
@@ -16657,7 +16828,8 @@
       "dmg-norm",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-174",
@@ -16762,7 +16934,8 @@
       "dmg%",
       "att"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-175",
@@ -16847,7 +17020,8 @@
       "dmg-norm",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-176",
@@ -16972,7 +17146,8 @@
       "dmg-norm",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-177",
@@ -17065,7 +17240,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-178",
@@ -17158,7 +17334,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-179",
@@ -17253,7 +17430,8 @@
       "dru",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-180",
@@ -17360,7 +17538,8 @@
       "dmg%",
       "att"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-181",
@@ -17457,7 +17636,8 @@
       "dmg-norm",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-182",
@@ -17584,7 +17764,8 @@
       "dmg%",
       "att"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-183",
@@ -17683,7 +17864,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-184",
@@ -17808,7 +17990,8 @@
       "dmg-norm",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-185",
@@ -17923,7 +18106,8 @@
       "res-all",
       "hp%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-186",
@@ -18012,7 +18196,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-187",
@@ -18081,7 +18266,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-188",
@@ -18188,7 +18374,8 @@
       "dmg%",
       "hit-skill:56"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-189",
@@ -18283,7 +18470,8 @@
       "dmg%",
       "lifesteal"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-190",
@@ -18378,7 +18566,8 @@
       "dmg%",
       "dmg-fire"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-191",
@@ -18475,7 +18664,8 @@
       "dmg%",
       "dmg-cold"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-192",
@@ -18570,7 +18760,8 @@
       "hit-skill:66",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-193",
@@ -18677,7 +18868,8 @@
       "dmg-min",
       "dmg-max"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-194",
@@ -18806,7 +18998,8 @@
       "dmg-norm",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-195",
@@ -18917,7 +19110,8 @@
       "dmg-demon",
       "hit-skill:121"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-196",
@@ -19026,7 +19220,8 @@
       "dmg-max",
       "dmg-ltng"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-197",
@@ -19143,7 +19338,8 @@
       "gethit-skill:92",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-198",
@@ -19260,7 +19456,8 @@
       "dmg%",
       "dmg-cold"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-199",
@@ -19359,7 +19556,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-201",
@@ -19455,7 +19653,8 @@
     "statPriority": [
       "regen"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-202",
@@ -19567,7 +19766,8 @@
       "res-fire",
       "res-cold"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-203",
@@ -19665,7 +19865,8 @@
       "ac%",
       "mag%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-204",
@@ -19775,7 +19976,8 @@
       "charged:264",
       "res-fire"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-205",
@@ -19865,7 +20067,8 @@
       "ama",
       "mana-kill"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-206",
@@ -19975,7 +20178,8 @@
       "ac%",
       "gold%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-207",
@@ -20071,7 +20275,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-208",
@@ -20185,7 +20390,8 @@
       "red-mag",
       "dmg-cold"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-209",
@@ -20271,7 +20477,8 @@
     "statPriority": [
       "red-mag"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-210",
@@ -20359,7 +20566,8 @@
       "res-all",
       "red-mag"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-211",
@@ -20459,7 +20667,8 @@
       "lifesteal",
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-212",
@@ -20559,7 +20768,8 @@
       "red-dmg",
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-213",
@@ -20667,7 +20877,8 @@
       "dmg-fire",
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-214",
@@ -20765,7 +20976,8 @@
       "ac%",
       "*charged"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-215",
@@ -20841,7 +21053,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-216",
@@ -20977,7 +21190,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-217",
@@ -21073,7 +21287,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-218",
@@ -21179,7 +21394,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-219",
@@ -21289,7 +21505,8 @@
       "ac",
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-220",
@@ -21405,7 +21622,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-221",
@@ -21505,7 +21723,8 @@
       "ac%",
       "dmg-demon"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-222",
@@ -21617,7 +21836,8 @@
       "dmg-fire",
       "charged:74"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-223",
@@ -21725,7 +21945,8 @@
       "red-mag",
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-224",
@@ -21811,7 +22032,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-225",
@@ -21897,7 +22119,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-226",
@@ -22029,7 +22252,8 @@
       "gethit-skill:59",
       "gethit-skill:245"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-227",
@@ -22169,7 +22393,8 @@
       "gethit-skill:48",
       "gethit-skill:62"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-228",
@@ -22281,7 +22506,8 @@
       "ac%",
       "res-all"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-229",
@@ -22399,7 +22625,8 @@
       "ac%",
       "charged:83"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-230",
@@ -22507,7 +22734,8 @@
       "mana-kill",
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-231",
@@ -22603,7 +22831,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-232",
@@ -22711,7 +22940,8 @@
       "ac",
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-233",
@@ -22801,7 +23031,8 @@
       "att-undead",
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-234",
@@ -22889,7 +23120,8 @@
       "manasteal",
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-235",
@@ -22999,7 +23231,8 @@
       "ac%",
       "dmg-fire"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-236",
@@ -23101,7 +23334,8 @@
       "hit-skill:56",
       "hit-skill:225"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-237",
@@ -23233,7 +23467,8 @@
       "gold%",
       "gethit-skill:46"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-238",
@@ -23351,7 +23586,8 @@
       "ac%",
       "hp"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-239",
@@ -23437,7 +23673,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-240",
@@ -23569,7 +23806,8 @@
       "dmg-norm",
       "thorns"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-241",
@@ -23685,7 +23923,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-242",
@@ -23787,7 +24026,8 @@
       "lifesteal",
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-243",
@@ -23883,7 +24123,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-244",
@@ -23979,7 +24220,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-245",
@@ -24099,7 +24341,8 @@
       "dmg-cold",
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-246",
@@ -24229,7 +24472,8 @@
       "dmg-ltng",
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-248",
@@ -24351,7 +24595,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-249",
@@ -24453,7 +24698,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-250",
@@ -24583,7 +24829,8 @@
       "red-mag",
       "red-dmg"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-251",
@@ -24673,7 +24920,8 @@
       "allskills",
       "red-dmg"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-252",
@@ -24791,7 +25039,8 @@
       "ac%",
       "gethit-skill:72"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-253",
@@ -24913,7 +25162,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-254",
@@ -25018,7 +25268,8 @@
       "dmg-fire",
       "att-skill:47"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-255",
@@ -25141,7 +25392,8 @@
     "statPriority": [
       "dmg-fire"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-256",
@@ -25268,7 +25520,8 @@
       "dmg-fire",
       "dmg-cold"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-257",
@@ -25405,7 +25658,8 @@
       "dmg%",
       "dmg-ltng"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-258",
@@ -25520,7 +25774,8 @@
       "dmg%",
       "hit-skill:66"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-259",
@@ -25663,7 +25918,8 @@
       "dmg%",
       "dmg-norm"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-260",
@@ -25772,7 +26028,8 @@
       "hit-skill:72",
       "lifesteal"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-261",
@@ -25895,7 +26152,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-262",
@@ -25984,7 +26242,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-264",
@@ -26111,7 +26370,8 @@
       "gethit-skill:38",
       "dmg-ltng"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-265",
@@ -26200,7 +26460,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-266",
@@ -26313,7 +26574,8 @@
     "statPriority": [
       "manasteal"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-268",
@@ -26386,7 +26648,8 @@
     "statPriority": [
       "lifesteal"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-269",
@@ -26465,7 +26728,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-270",
@@ -26560,7 +26824,8 @@
       "gethit-skill:56",
       "dmg-fire"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-271",
@@ -26655,7 +26920,8 @@
       "manasteal",
       "lifesteal"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-272",
@@ -26748,7 +27014,8 @@
     "statPriority": [
       "res-all"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-273",
@@ -26841,7 +27108,8 @@
     "statPriority": [
       "hit-skill:66"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-274",
@@ -26934,7 +27202,8 @@
     "statPriority": [
       "red-mag"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-275",
@@ -27031,7 +27300,8 @@
       "dex",
       "att"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-276",
@@ -27124,7 +27394,8 @@
     "statPriority": [
       "dmg-ltng"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-277",
@@ -27219,7 +27490,8 @@
       "res-all",
       "gethit-skill:76"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-279",
@@ -27347,7 +27619,8 @@
       "ac%",
       "lifesteal"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-280",
@@ -27473,7 +27746,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-281",
@@ -27610,7 +27884,8 @@
       "lifesteal",
       "dmg-norm"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-282",
@@ -27737,7 +28012,8 @@
       "manasteal",
       "dmg-norm"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-283",
@@ -27864,7 +28140,8 @@
       "lifesteal",
       "dmg-norm"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-284",
@@ -27987,7 +28264,8 @@
     "statPriority": [
       "gethit-skill:54"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-285",
@@ -28113,7 +28391,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-286",
@@ -28240,7 +28519,8 @@
       "lifesteal",
       "dmg-norm"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-287",
@@ -28366,7 +28646,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-288",
@@ -28471,7 +28752,8 @@
       "dmg%",
       "lifesteal"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-289",
@@ -28560,7 +28842,8 @@
       "charged:BloodGolem",
       "heal-kill"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-290",
@@ -28674,7 +28957,8 @@
       "manasteal",
       "sock"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-291",
@@ -28773,7 +29057,8 @@
       "lifesteal",
       "manasteal"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-292",
@@ -28868,7 +29153,8 @@
       "dmg%",
       "hit-skill:Nova"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-293",
@@ -28953,7 +29239,8 @@
       "dmg%",
       "lifesteal"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-294",
@@ -29036,7 +29323,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-296",
@@ -29147,7 +29435,8 @@
       "charged:Enchant",
       "res-fire"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-297",
@@ -29228,7 +29517,8 @@
       "manasteal",
       "regen"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-298",
@@ -29373,7 +29663,8 @@
       "heal-kill",
       "sock"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-299",
@@ -29462,7 +29753,8 @@
       "mana-kill",
       "skilltab:7"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-300",
@@ -29549,7 +29841,8 @@
       "res-pois",
       "charged:Oak Sage"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-301",
@@ -29670,7 +29963,8 @@
       "dmg-cold",
       "all-stats"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-302",
@@ -29781,7 +30075,8 @@
       "att-demon",
       "att-undead"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-304",
@@ -29884,7 +30179,8 @@
     "statPriority": [
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-306",
@@ -29969,7 +30265,8 @@
       "dmg%",
       "hit-skill:Tornado"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-307",
@@ -30066,7 +30363,8 @@
       "str",
       "dmg"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-308",
@@ -30167,7 +30465,8 @@
       "skilltab:19",
       "skilltab:20"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-309",
@@ -30267,7 +30566,8 @@
       "dex",
       "skilltab:19"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-310",
@@ -30371,7 +30671,8 @@
       "att%",
       "skill:feral rage"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-311",
@@ -30503,7 +30804,8 @@
       "res-all",
       "str"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-312",
@@ -30595,7 +30897,8 @@
       "lifesteal",
       "hit-skill:Weaken"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-313",
@@ -30670,7 +30973,8 @@
       "dmg%",
       "sock"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-314",
@@ -30755,7 +31059,8 @@
       "dmg%",
       "heal-kill"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-315",
@@ -30840,7 +31145,8 @@
       "dmg%",
       "kill-skill:Decrepify"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-316",
@@ -30930,7 +31236,8 @@
       "ac",
       "skilltab:2"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-317",
@@ -31022,7 +31329,8 @@
       "red-dmg%",
       "str"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-319",
@@ -31124,7 +31432,8 @@
       "charged:Heart of Wolverine",
       "charged:Spirit of Barbs"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-320",
@@ -31211,7 +31520,8 @@
       "lifesteal",
       "charged:Plague Javelin"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-321",
@@ -31316,7 +31626,8 @@
       "dmg%",
       "hit-skill:Amplify Damage"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-322",
@@ -31413,7 +31724,8 @@
       "pierce-ltng",
       "pierce-cold"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-323",
@@ -31512,7 +31824,8 @@
       "hit-skill:Poison Explosion",
       "res-pois"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-324",
@@ -31623,7 +31936,8 @@
       "demon-heal",
       "att"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-325",
@@ -31739,7 +32053,8 @@
       "skilltab:13",
       "skilltab:14"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-326",
@@ -31848,7 +32163,8 @@
       "lifesteal",
       "dmg-cold"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-327",
@@ -31962,7 +32278,8 @@
       "abs-cold%",
       "dru"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-328",
@@ -32061,7 +32378,8 @@
       "att%",
       "charged:Immolation Arrow"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-329",
@@ -32175,7 +32493,8 @@
       "att%",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-330",
@@ -32277,7 +32596,8 @@
       "skilltab:7",
       "skilltab:8"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-331",
@@ -32362,7 +32682,8 @@
       "dmg%",
       "oskill:Guided Arrow"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-332",
@@ -32451,7 +32772,8 @@
       "skilltab:0",
       "charged:Revive"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-333",
@@ -32546,7 +32868,8 @@
       "dmg%",
       "manasteal"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-334",
@@ -32643,7 +32966,8 @@
       "mana-kill",
       "hit-skill:Frost Nova"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-335",
@@ -32742,7 +33066,8 @@
       "dmg-cold",
       "dmg-ltng"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-336",
@@ -32832,7 +33157,8 @@
       "extra-ltng",
       "pierce-ltng"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-337",
@@ -32907,7 +33233,8 @@
       "dmg%",
       "hit-skill:Twister"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-338",
@@ -33016,7 +33343,8 @@
       "hit-skill:Lightning",
       "skilltab:2"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-340",
@@ -33115,7 +33443,8 @@
       "lifesteal",
       "dmg-ltng"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-341",
@@ -33207,7 +33536,8 @@
       "nec",
       "res-all"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-342",
@@ -33302,7 +33632,8 @@
       "dmg%",
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-343",
@@ -33414,7 +33745,8 @@
       "abs-cold",
       "extra-cold"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-344",
@@ -33536,7 +33868,8 @@
       "red-dmg%",
       "sock"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-345",
@@ -33678,7 +34011,8 @@
       "charged:278",
       "lifesteal"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-347",
@@ -33790,7 +34124,8 @@
       "str",
       "dmg-fire"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-348",
@@ -33904,7 +34239,8 @@
       "regen-mana",
       "gethit-skill:Iron Maiden"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-349",
@@ -34008,7 +34344,8 @@
       "death-skill:Nova",
       "res-cold"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-350",
@@ -34110,7 +34447,8 @@
       "enr",
       "pierce-fire"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-351",
@@ -34221,7 +34559,8 @@
       "skill:Bone Spirit",
       "skill:Bone Wall"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-353",
@@ -34346,7 +34685,8 @@
       "vit",
       "oskill:Inferno"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-354",
@@ -34433,7 +34773,8 @@
       "res-fire",
       "res-ltng"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-355",
@@ -34574,7 +34915,8 @@
       "oskill:Shape Shifting",
       "oskill:Feral Rage"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-356",
@@ -34678,7 +35020,8 @@
       "block",
       "gethit-skill:Fade"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-357",
@@ -34756,7 +35099,8 @@
       "ac",
       "res-all"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-358",
@@ -34872,7 +35216,8 @@
       "regen-mana",
       "skill-rand"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-359",
@@ -34938,7 +35283,8 @@
       "gold%",
       "cheap"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-360",
@@ -35059,7 +35405,8 @@
       "dmg-ltng",
       "abs-ltng"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-361",
@@ -35171,7 +35518,8 @@
       "skill:Battle Orders",
       "skill:Battle Command"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-363",
@@ -35269,7 +35617,8 @@
       "ac%",
       "red-dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-364",
@@ -35373,7 +35722,8 @@
       "heal-kill",
       "str"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-365",
@@ -35482,7 +35832,8 @@
       "abs-cold%",
       "oskill:Arctic Blast"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-366",
@@ -35598,7 +35949,8 @@
       "vit",
       "skilltab:10"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-367",
@@ -35687,7 +36039,8 @@
       "extra-ltng",
       "enr"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-368",
@@ -35800,7 +36153,8 @@
       "skill:Wake of Fire Sentry",
       "skill:Inferno Sentry"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-369",
@@ -35932,7 +36286,8 @@
       "str",
       "vit"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-370",
@@ -36076,7 +36431,8 @@
       "str",
       "skill:Skeleton Mastery"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-371",
@@ -36195,7 +36551,8 @@
       "sock",
       "pal"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-373",
@@ -36293,7 +36650,8 @@
       "ac%",
       "charged:Venom"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-374",
@@ -36389,7 +36747,8 @@
     "statPriority": [
       "lifesteal"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-375",
@@ -36479,7 +36838,8 @@
       "charged:IronGolem",
       "charged:Iron Maiden"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-376",
@@ -36583,7 +36943,8 @@
       "red-dmg%",
       "regen"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-378",
@@ -36692,7 +37053,8 @@
       "charged:Plague Poppy",
       "hit-skill:Twister"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-379",
@@ -36782,7 +37144,8 @@
       "str",
       "sock"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-380",
@@ -36915,7 +37278,8 @@
       "dmg",
       "skilltab:9"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-381",
@@ -36992,7 +37356,8 @@
       "res-all",
       "addxp"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-382",
@@ -37087,7 +37452,8 @@
       "dmg%",
       "allskills"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-383",
@@ -37186,7 +37552,8 @@
       "mag%",
       "charged:Raven"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-384",
@@ -37299,7 +37666,8 @@
       "abs-cold%",
       "dmg-cold"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-385",
@@ -37406,7 +37774,8 @@
       "hit-skill:Eruption",
       "charged:Volcano"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-386",
@@ -37481,7 +37850,8 @@
       "dmg%",
       "lifesteal"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-387",
@@ -37578,7 +37948,8 @@
       "charged:Corpse Explosion",
       "hit-skill:Bone Spear"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-388",
@@ -37677,7 +38048,8 @@
       "ac",
       "red-mag"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-389",
@@ -37808,7 +38180,8 @@
       "skill:Holy Bolt",
       "dmg"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-390",
@@ -37913,7 +38286,8 @@
       "res-fire",
       "heal-kill"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-391",
@@ -37993,7 +38367,8 @@
       "str",
       "dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-392",
@@ -38071,7 +38446,8 @@
       "extra-ltng",
       "death-skill:Chain Lightning"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-393",
@@ -38149,7 +38525,8 @@
       "extra-cold",
       "death-skill:Blizzard"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-394",
@@ -38227,7 +38604,8 @@
       "extra-fire",
       "death-skill:Meteor"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-395",
@@ -38304,7 +38682,8 @@
       "extra-pois",
       "death-skill:Poison Nova"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-396",
@@ -38382,7 +38761,8 @@
       "extra-ltng",
       "levelup-skill:Nova"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-397",
@@ -38460,7 +38840,8 @@
       "extra-cold",
       "levelup-skill:Frost Nova"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-398",
@@ -38538,7 +38919,8 @@
       "extra-fire",
       "levelup-skill:Blaze"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-399",
@@ -38615,7 +38997,8 @@
       "extra-pois",
       "levelup-skill:Venom"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-400",
@@ -38716,7 +39099,8 @@
       "hit-skill:197",
       "charged:Hydra"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-408",
@@ -38854,7 +39238,8 @@
       "res-fire",
       "skill:Apocalypse"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-409",
@@ -38992,7 +39377,8 @@
       "ac%",
       "red-dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-410",
@@ -39130,7 +39516,8 @@
       "pierce-mag",
       "mag%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-411",
@@ -39280,7 +39667,8 @@
       "heal-kill",
       "res-all"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-412",
@@ -39397,7 +39785,8 @@
       "dmg%",
       "manasteal"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-413",
@@ -39497,7 +39886,8 @@
       "dex",
       "enr"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-414",
@@ -39618,7 +40008,8 @@
       "skill:Bind Demon",
       "mag%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-415",
@@ -39715,7 +40106,8 @@
       "enr",
       "mag%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-416",
@@ -39814,7 +40206,8 @@
       "heal-kill",
       "mana-kill"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-417",
@@ -39916,7 +40309,8 @@
       "mana%",
       "red-mag"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-418",
@@ -40033,7 +40427,8 @@
       "res-all",
       "gold%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-419",
@@ -40145,7 +40540,8 @@
       "ac%",
       "mana-kill"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-426",
@@ -40198,7 +40594,8 @@
     "statPriority": [
       "res-cold"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-427",
@@ -40247,11 +40644,150 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": {
-      "en": "This item rolls a random bonus affix on top of the stats shown, which this site cannot currently display — see d2r.world for the full affix pool.",
-      "zh-TW": "此物品除了以上顯示的屬性外，還會隨機獲得一項額外的加成屬性，本站目前無法顯示——完整的隨機屬性池請參考 d2r.world。",
-      "zh-CN": "此物品除了以上显示的属性外，还会随机获得一项额外的加成属性，本站目前无法显示——完整的随机属性池请参考 d2r.world。"
-    }
+    "note": null,
+    "statPools": [
+      {
+        "options": [
+          {
+            "key": "extra-cold",
+            "label": {
+              "en": "Cold Skill Damage %",
+              "zh-TW": "冷凍技能傷害 %",
+              "zh-CN": "冷冻技能伤害 %"
+            },
+            "min": 5,
+            "max": 15,
+            "isSkillRef": false
+          },
+          {
+            "key": "enemy-res-cold%",
+            "label": {
+              "en": "Enemy Cold Resist %",
+              "zh-TW": "敵人冷凍抗性 %",
+              "zh-CN": "敌人冷冻抗性 %"
+            },
+            "min": -10,
+            "max": -5,
+            "isSkillRef": false
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "key": "mag%",
+            "label": {
+              "en": "Magic Find %",
+              "zh-TW": "額外魔法物品尋獲率 %",
+              "zh-CN": "额外魔法物品寻获率 %"
+            },
+            "min": 14,
+            "max": 25,
+            "isSkillRef": false
+          },
+          {
+            "key": "gold%",
+            "label": {
+              "en": "Gold Find %",
+              "zh-TW": "額外金幣拾取率 %",
+              "zh-CN": "额外金币拾取率 %"
+            },
+            "min": 20,
+            "max": 55,
+            "isSkillRef": false
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "key": "hp",
+            "label": {
+              "en": "Life",
+              "zh-TW": "生命值",
+              "zh-CN": "生命值"
+            },
+            "min": 10,
+            "max": 65,
+            "isSkillRef": false
+          },
+          {
+            "key": "mana",
+            "label": {
+              "en": "Mana",
+              "zh-TW": "魔力值",
+              "zh-CN": "魔力值"
+            },
+            "min": 10,
+            "max": 75,
+            "isSkillRef": false
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "key": "move1",
+            "label": {
+              "en": "Faster Run/Walk %",
+              "zh-TW": "加快跑走速度 %",
+              "zh-CN": "加快跑走速度 %"
+            },
+            "min": 5,
+            "max": 10,
+            "isSkillRef": false
+          },
+          {
+            "key": "balance1",
+            "label": {
+              "en": "Faster Hit Recovery",
+              "zh-TW": "加快恢復速度",
+              "zh-CN": "加快恢复速度"
+            },
+            "min": 12,
+            "max": 24,
+            "isSkillRef": false
+          },
+          {
+            "key": "all-stats",
+            "label": {
+              "en": "All Attributes",
+              "zh-TW": "全部屬性",
+              "zh-CN": "全部属性"
+            },
+            "min": 3,
+            "max": 8,
+            "isSkillRef": false
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "key": "red-mag",
+            "label": {
+              "en": "Magic Damage Reduced",
+              "zh-TW": "減少魔法傷害",
+              "zh-CN": "减少魔法伤害"
+            },
+            "min": 5,
+            "max": 10,
+            "isSkillRef": false
+          },
+          {
+            "key": "red-dmg",
+            "label": {
+              "en": "Damage Reduced",
+              "zh-TW": "減少傷害",
+              "zh-CN": "减少伤害"
+            },
+            "min": 5,
+            "max": 10,
+            "isSkillRef": false
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "unique-428",
@@ -40304,7 +40840,8 @@
     "statPriority": [
       "res-fire"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-429",
@@ -40357,7 +40894,8 @@
     "statPriority": [
       "res-ltng"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-430",
@@ -40410,7 +40948,8 @@
     "statPriority": [
       "res-pois"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-431",
@@ -40463,7 +41002,8 @@
     "statPriority": [
       "red-dmg%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-432",
@@ -40516,7 +41056,8 @@
     "statPriority": [
       "res-mag"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "unique-433",
@@ -40565,11 +41106,150 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": {
-      "en": "This item rolls a random bonus affix on top of the stats shown, which this site cannot currently display — see d2r.world for the full affix pool.",
-      "zh-TW": "此物品除了以上顯示的屬性外，還會隨機獲得一項額外的加成屬性，本站目前無法顯示——完整的隨機屬性池請參考 d2r.world。",
-      "zh-CN": "此物品除了以上显示的属性外，还会随机获得一项额外的加成属性，本站目前无法显示——完整的随机属性池请参考 d2r.world。"
-    }
+    "note": null,
+    "statPools": [
+      {
+        "options": [
+          {
+            "key": "extra-fire",
+            "label": {
+              "en": "Fire Skill Damage %",
+              "zh-TW": "火焰技能傷害 %",
+              "zh-CN": "火焰技能伤害 %"
+            },
+            "min": 5,
+            "max": 15,
+            "isSkillRef": false
+          },
+          {
+            "key": "enemy-res-fire%",
+            "label": {
+              "en": "Enemy Fire Resist %",
+              "zh-TW": "敵人火焰抗性 %",
+              "zh-CN": "敌人火焰抗性 %"
+            },
+            "min": -10,
+            "max": -5,
+            "isSkillRef": false
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "key": "mag%",
+            "label": {
+              "en": "Magic Find %",
+              "zh-TW": "額外魔法物品尋獲率 %",
+              "zh-CN": "额外魔法物品寻获率 %"
+            },
+            "min": 14,
+            "max": 25,
+            "isSkillRef": false
+          },
+          {
+            "key": "gold%",
+            "label": {
+              "en": "Gold Find %",
+              "zh-TW": "額外金幣拾取率 %",
+              "zh-CN": "额外金币拾取率 %"
+            },
+            "min": 20,
+            "max": 55,
+            "isSkillRef": false
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "key": "hp",
+            "label": {
+              "en": "Life",
+              "zh-TW": "生命值",
+              "zh-CN": "生命值"
+            },
+            "min": 10,
+            "max": 65,
+            "isSkillRef": false
+          },
+          {
+            "key": "mana",
+            "label": {
+              "en": "Mana",
+              "zh-TW": "魔力值",
+              "zh-CN": "魔力值"
+            },
+            "min": 10,
+            "max": 75,
+            "isSkillRef": false
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "key": "move1",
+            "label": {
+              "en": "Faster Run/Walk %",
+              "zh-TW": "加快跑走速度 %",
+              "zh-CN": "加快跑走速度 %"
+            },
+            "min": 5,
+            "max": 10,
+            "isSkillRef": false
+          },
+          {
+            "key": "balance1",
+            "label": {
+              "en": "Faster Hit Recovery",
+              "zh-TW": "加快恢復速度",
+              "zh-CN": "加快恢复速度"
+            },
+            "min": 12,
+            "max": 24,
+            "isSkillRef": false
+          },
+          {
+            "key": "all-stats",
+            "label": {
+              "en": "All Attributes",
+              "zh-TW": "全部屬性",
+              "zh-CN": "全部属性"
+            },
+            "min": 3,
+            "max": 8,
+            "isSkillRef": false
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "key": "red-mag",
+            "label": {
+              "en": "Magic Damage Reduced",
+              "zh-TW": "減少魔法傷害",
+              "zh-CN": "减少魔法伤害"
+            },
+            "min": 5,
+            "max": 10,
+            "isSkillRef": false
+          },
+          {
+            "key": "red-dmg",
+            "label": {
+              "en": "Damage Reduced",
+              "zh-TW": "減少傷害",
+              "zh-CN": "减少伤害"
+            },
+            "min": 5,
+            "max": 10,
+            "isSkillRef": false
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "unique-434",
@@ -40618,11 +41298,150 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": {
-      "en": "This item rolls a random bonus affix on top of the stats shown, which this site cannot currently display — see d2r.world for the full affix pool.",
-      "zh-TW": "此物品除了以上顯示的屬性外，還會隨機獲得一項額外的加成屬性，本站目前無法顯示——完整的隨機屬性池請參考 d2r.world。",
-      "zh-CN": "此物品除了以上显示的属性外，还会随机获得一项额外的加成属性，本站目前无法显示——完整的随机属性池请参考 d2r.world。"
-    }
+    "note": null,
+    "statPools": [
+      {
+        "options": [
+          {
+            "key": "extra-ltng",
+            "label": {
+              "en": "Lightning Skill Damage %",
+              "zh-TW": "閃電技能傷害 %",
+              "zh-CN": "闪电技能伤害 %"
+            },
+            "min": 5,
+            "max": 15,
+            "isSkillRef": false
+          },
+          {
+            "key": "enemy-res-ltng%",
+            "label": {
+              "en": "Enemy Lightning Resist %",
+              "zh-TW": "敵人電擊抗性 %",
+              "zh-CN": "敌人电击抗性 %"
+            },
+            "min": -10,
+            "max": -5,
+            "isSkillRef": false
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "key": "mag%",
+            "label": {
+              "en": "Magic Find %",
+              "zh-TW": "額外魔法物品尋獲率 %",
+              "zh-CN": "额外魔法物品寻获率 %"
+            },
+            "min": 14,
+            "max": 25,
+            "isSkillRef": false
+          },
+          {
+            "key": "gold%",
+            "label": {
+              "en": "Gold Find %",
+              "zh-TW": "額外金幣拾取率 %",
+              "zh-CN": "额外金币拾取率 %"
+            },
+            "min": 20,
+            "max": 55,
+            "isSkillRef": false
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "key": "hp",
+            "label": {
+              "en": "Life",
+              "zh-TW": "生命值",
+              "zh-CN": "生命值"
+            },
+            "min": 10,
+            "max": 65,
+            "isSkillRef": false
+          },
+          {
+            "key": "mana",
+            "label": {
+              "en": "Mana",
+              "zh-TW": "魔力值",
+              "zh-CN": "魔力值"
+            },
+            "min": 10,
+            "max": 75,
+            "isSkillRef": false
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "key": "move1",
+            "label": {
+              "en": "Faster Run/Walk %",
+              "zh-TW": "加快跑走速度 %",
+              "zh-CN": "加快跑走速度 %"
+            },
+            "min": 5,
+            "max": 10,
+            "isSkillRef": false
+          },
+          {
+            "key": "balance1",
+            "label": {
+              "en": "Faster Hit Recovery",
+              "zh-TW": "加快恢復速度",
+              "zh-CN": "加快恢复速度"
+            },
+            "min": 12,
+            "max": 24,
+            "isSkillRef": false
+          },
+          {
+            "key": "all-stats",
+            "label": {
+              "en": "All Attributes",
+              "zh-TW": "全部屬性",
+              "zh-CN": "全部属性"
+            },
+            "min": 3,
+            "max": 8,
+            "isSkillRef": false
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "key": "red-mag",
+            "label": {
+              "en": "Magic Damage Reduced",
+              "zh-TW": "減少魔法傷害",
+              "zh-CN": "减少魔法伤害"
+            },
+            "min": 5,
+            "max": 10,
+            "isSkillRef": false
+          },
+          {
+            "key": "red-dmg",
+            "label": {
+              "en": "Damage Reduced",
+              "zh-TW": "減少傷害",
+              "zh-CN": "减少伤害"
+            },
+            "min": 5,
+            "max": 10,
+            "isSkillRef": false
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "unique-435",
@@ -40671,11 +41490,150 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": {
-      "en": "This item rolls a random bonus affix on top of the stats shown, which this site cannot currently display — see d2r.world for the full affix pool.",
-      "zh-TW": "此物品除了以上顯示的屬性外，還會隨機獲得一項額外的加成屬性，本站目前無法顯示——完整的隨機屬性池請參考 d2r.world。",
-      "zh-CN": "此物品除了以上显示的属性外，还会随机获得一项额外的加成属性，本站目前无法显示——完整的随机属性池请参考 d2r.world。"
-    }
+    "note": null,
+    "statPools": [
+      {
+        "options": [
+          {
+            "key": "extra-pois",
+            "label": {
+              "en": "Poison Skill Damage %",
+              "zh-TW": "毒素技能傷害 %",
+              "zh-CN": "毒素技能伤害 %"
+            },
+            "min": 5,
+            "max": 15,
+            "isSkillRef": false
+          },
+          {
+            "key": "enemy-res-pois%",
+            "label": {
+              "en": "Enemy Poison Resist %",
+              "zh-TW": "敵人毒素抗性 %",
+              "zh-CN": "敌人毒素抗性 %"
+            },
+            "min": -10,
+            "max": -5,
+            "isSkillRef": false
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "key": "mag%",
+            "label": {
+              "en": "Magic Find %",
+              "zh-TW": "額外魔法物品尋獲率 %",
+              "zh-CN": "额外魔法物品寻获率 %"
+            },
+            "min": 14,
+            "max": 25,
+            "isSkillRef": false
+          },
+          {
+            "key": "gold%",
+            "label": {
+              "en": "Gold Find %",
+              "zh-TW": "額外金幣拾取率 %",
+              "zh-CN": "额外金币拾取率 %"
+            },
+            "min": 20,
+            "max": 55,
+            "isSkillRef": false
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "key": "hp",
+            "label": {
+              "en": "Life",
+              "zh-TW": "生命值",
+              "zh-CN": "生命值"
+            },
+            "min": 10,
+            "max": 65,
+            "isSkillRef": false
+          },
+          {
+            "key": "mana",
+            "label": {
+              "en": "Mana",
+              "zh-TW": "魔力值",
+              "zh-CN": "魔力值"
+            },
+            "min": 10,
+            "max": 75,
+            "isSkillRef": false
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "key": "move1",
+            "label": {
+              "en": "Faster Run/Walk %",
+              "zh-TW": "加快跑走速度 %",
+              "zh-CN": "加快跑走速度 %"
+            },
+            "min": 5,
+            "max": 10,
+            "isSkillRef": false
+          },
+          {
+            "key": "balance1",
+            "label": {
+              "en": "Faster Hit Recovery",
+              "zh-TW": "加快恢復速度",
+              "zh-CN": "加快恢复速度"
+            },
+            "min": 12,
+            "max": 24,
+            "isSkillRef": false
+          },
+          {
+            "key": "all-stats",
+            "label": {
+              "en": "All Attributes",
+              "zh-TW": "全部屬性",
+              "zh-CN": "全部属性"
+            },
+            "min": 3,
+            "max": 8,
+            "isSkillRef": false
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "key": "red-mag",
+            "label": {
+              "en": "Magic Damage Reduced",
+              "zh-TW": "減少魔法傷害",
+              "zh-CN": "减少魔法伤害"
+            },
+            "min": 5,
+            "max": 10,
+            "isSkillRef": false
+          },
+          {
+            "key": "red-dmg",
+            "label": {
+              "en": "Damage Reduced",
+              "zh-TW": "減少傷害",
+              "zh-CN": "减少伤害"
+            },
+            "min": 5,
+            "max": 10,
+            "isSkillRef": false
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "unique-436",
@@ -40724,11 +41682,150 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": {
-      "en": "This item rolls a random bonus affix on top of the stats shown, which this site cannot currently display — see d2r.world for the full affix pool.",
-      "zh-TW": "此物品除了以上顯示的屬性外，還會隨機獲得一項額外的加成屬性，本站目前無法顯示——完整的隨機屬性池請參考 d2r.world。",
-      "zh-CN": "此物品除了以上显示的属性外，还会随机获得一项额外的加成属性，本站目前无法显示——完整的随机属性池请参考 d2r.world。"
-    }
+    "note": null,
+    "statPools": [
+      {
+        "options": [
+          {
+            "key": "dmg%",
+            "label": {
+              "en": "Enhanced Damage %",
+              "zh-TW": "強化傷害 %",
+              "zh-CN": "强化伤害 %"
+            },
+            "min": 75,
+            "max": 100,
+            "isSkillRef": false
+          },
+          {
+            "key": "enemy-res-phys%",
+            "label": {
+              "en": "Enemy Physical Resist %",
+              "zh-TW": "敵人物理傷害抗性 %",
+              "zh-CN": "敌人物理伤害抗性 %"
+            },
+            "min": -10,
+            "max": -5,
+            "isSkillRef": false
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "key": "mag%",
+            "label": {
+              "en": "Magic Find %",
+              "zh-TW": "額外魔法物品尋獲率 %",
+              "zh-CN": "额外魔法物品寻获率 %"
+            },
+            "min": 14,
+            "max": 25,
+            "isSkillRef": false
+          },
+          {
+            "key": "gold%",
+            "label": {
+              "en": "Gold Find %",
+              "zh-TW": "額外金幣拾取率 %",
+              "zh-CN": "额外金币拾取率 %"
+            },
+            "min": 20,
+            "max": 55,
+            "isSkillRef": false
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "key": "hp",
+            "label": {
+              "en": "Life",
+              "zh-TW": "生命值",
+              "zh-CN": "生命值"
+            },
+            "min": 10,
+            "max": 65,
+            "isSkillRef": false
+          },
+          {
+            "key": "mana",
+            "label": {
+              "en": "Mana",
+              "zh-TW": "魔力值",
+              "zh-CN": "魔力值"
+            },
+            "min": 10,
+            "max": 75,
+            "isSkillRef": false
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "key": "move1",
+            "label": {
+              "en": "Faster Run/Walk %",
+              "zh-TW": "加快跑走速度 %",
+              "zh-CN": "加快跑走速度 %"
+            },
+            "min": 5,
+            "max": 10,
+            "isSkillRef": false
+          },
+          {
+            "key": "balance1",
+            "label": {
+              "en": "Faster Hit Recovery",
+              "zh-TW": "加快恢復速度",
+              "zh-CN": "加快恢复速度"
+            },
+            "min": 12,
+            "max": 24,
+            "isSkillRef": false
+          },
+          {
+            "key": "all-stats",
+            "label": {
+              "en": "All Attributes",
+              "zh-TW": "全部屬性",
+              "zh-CN": "全部属性"
+            },
+            "min": 3,
+            "max": 8,
+            "isSkillRef": false
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "key": "red-mag",
+            "label": {
+              "en": "Magic Damage Reduced",
+              "zh-TW": "減少魔法傷害",
+              "zh-CN": "减少魔法伤害"
+            },
+            "min": 5,
+            "max": 10,
+            "isSkillRef": false
+          },
+          {
+            "key": "red-dmg",
+            "label": {
+              "en": "Damage Reduced",
+              "zh-TW": "減少傷害",
+              "zh-CN": "减少伤害"
+            },
+            "min": 5,
+            "max": 10,
+            "isSkillRef": false
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "unique-437",
@@ -40777,10 +41874,149 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": {
-      "en": "This item rolls a random bonus affix on top of the stats shown, which this site cannot currently display — see d2r.world for the full affix pool.",
-      "zh-TW": "此物品除了以上顯示的屬性外，還會隨機獲得一項額外的加成屬性，本站目前無法顯示——完整的隨機屬性池請參考 d2r.world。",
-      "zh-CN": "此物品除了以上显示的属性外，还会随机获得一项额外的加成属性，本站目前无法显示——完整的随机属性池请参考 d2r.world。"
-    }
+    "note": null,
+    "statPools": [
+      {
+        "options": [
+          {
+            "key": "extra-mag",
+            "label": {
+              "en": "Magic Skill Damage %",
+              "zh-TW": "魔法技能傷害 %",
+              "zh-CN": "魔法技能伤害 %"
+            },
+            "min": 10,
+            "max": 15,
+            "isSkillRef": false
+          },
+          {
+            "key": "enemy-res-mag%",
+            "label": {
+              "en": "Enemy Magic Resist %",
+              "zh-TW": "敵人魔法抗性 %",
+              "zh-CN": "敌人魔法抗性 %"
+            },
+            "min": -10,
+            "max": -5,
+            "isSkillRef": false
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "key": "mag%",
+            "label": {
+              "en": "Magic Find %",
+              "zh-TW": "額外魔法物品尋獲率 %",
+              "zh-CN": "额外魔法物品寻获率 %"
+            },
+            "min": 14,
+            "max": 25,
+            "isSkillRef": false
+          },
+          {
+            "key": "gold%",
+            "label": {
+              "en": "Gold Find %",
+              "zh-TW": "額外金幣拾取率 %",
+              "zh-CN": "额外金币拾取率 %"
+            },
+            "min": 20,
+            "max": 55,
+            "isSkillRef": false
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "key": "hp",
+            "label": {
+              "en": "Life",
+              "zh-TW": "生命值",
+              "zh-CN": "生命值"
+            },
+            "min": 10,
+            "max": 65,
+            "isSkillRef": false
+          },
+          {
+            "key": "mana",
+            "label": {
+              "en": "Mana",
+              "zh-TW": "魔力值",
+              "zh-CN": "魔力值"
+            },
+            "min": 10,
+            "max": 75,
+            "isSkillRef": false
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "key": "move1",
+            "label": {
+              "en": "Faster Run/Walk %",
+              "zh-TW": "加快跑走速度 %",
+              "zh-CN": "加快跑走速度 %"
+            },
+            "min": 5,
+            "max": 10,
+            "isSkillRef": false
+          },
+          {
+            "key": "balance1",
+            "label": {
+              "en": "Faster Hit Recovery",
+              "zh-TW": "加快恢復速度",
+              "zh-CN": "加快恢复速度"
+            },
+            "min": 12,
+            "max": 24,
+            "isSkillRef": false
+          },
+          {
+            "key": "all-stats",
+            "label": {
+              "en": "All Attributes",
+              "zh-TW": "全部屬性",
+              "zh-CN": "全部属性"
+            },
+            "min": 3,
+            "max": 8,
+            "isSkillRef": false
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "key": "red-mag",
+            "label": {
+              "en": "Magic Damage Reduced",
+              "zh-TW": "減少魔法傷害",
+              "zh-CN": "减少魔法伤害"
+            },
+            "min": 5,
+            "max": 10,
+            "isSkillRef": false
+          },
+          {
+            "key": "red-dmg",
+            "label": {
+              "en": "Damage Reduced",
+              "zh-TW": "減少傷害",
+              "zh-CN": "减少伤害"
+            },
+            "min": 5,
+            "max": 10,
+            "isSkillRef": false
+          }
+        ]
+      }
+    ]
   }
 ]

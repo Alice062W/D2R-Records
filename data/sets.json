@@ -141,7 +141,8 @@
     "statPriority": [
       "res-fire"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-67",
@@ -285,7 +286,8 @@
     "statPriority": [
       "res-ltng"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-68",
@@ -430,7 +432,8 @@
       "dmg-ltng",
       "sock"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-66",
@@ -564,7 +567,8 @@
     "statPriority": [
       "res-cold"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-52",
@@ -640,7 +644,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-51",
@@ -719,7 +724,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-50",
@@ -795,7 +801,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-53",
@@ -871,7 +878,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-59",
@@ -947,7 +955,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-61",
@@ -1026,7 +1035,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-60",
@@ -1105,7 +1115,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-58",
@@ -1181,7 +1192,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-56",
@@ -1260,7 +1272,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-55",
@@ -1343,7 +1356,8 @@
     "statPriority": [
       "ac%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-54",
@@ -1419,7 +1433,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-57",
@@ -1498,7 +1513,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-134",
@@ -1566,7 +1582,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-132",
@@ -1642,7 +1659,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-133",
@@ -1721,7 +1739,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-46",
@@ -1786,7 +1805,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-45",
@@ -1854,7 +1874,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-44",
@@ -1922,7 +1943,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-115",
@@ -1995,7 +2017,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-116",
@@ -2078,7 +2101,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-26",
@@ -2157,7 +2181,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-25",
@@ -2233,7 +2258,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-29",
@@ -2298,7 +2324,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-28",
@@ -2374,7 +2401,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-27",
@@ -2442,7 +2470,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-2",
@@ -2511,7 +2540,8 @@
     "statPriority": [
       "dmg-max"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-1",
@@ -2587,7 +2617,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-0",
@@ -2666,7 +2697,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-7",
@@ -2734,7 +2766,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-8",
@@ -2802,7 +2835,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-6",
@@ -2867,7 +2901,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-118",
@@ -2947,7 +2982,8 @@
     "statPriority": [
       "gethit-skill:53"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-119",
@@ -3039,7 +3075,8 @@
       "ac",
       "dmg-fire"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-117",
@@ -3115,7 +3152,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-99",
@@ -3191,7 +3229,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-100",
@@ -3270,7 +3309,8 @@
       "hit-skill:44",
       "dmg-fire"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-48",
@@ -3338,7 +3378,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-47",
@@ -3406,7 +3447,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-49",
@@ -3471,7 +3513,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-82",
@@ -3557,7 +3600,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-84",
@@ -3643,7 +3687,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-81",
@@ -3757,7 +3802,8 @@
       "ac%",
       "mag%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-83",
@@ -3880,7 +3926,8 @@
       "dmg%",
       "sock"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-104",
@@ -3966,7 +4013,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-102",
@@ -4052,7 +4100,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-101",
@@ -4158,7 +4207,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-135",
@@ -4263,7 +4313,8 @@
       "str",
       "red-mag"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-136",
@@ -4405,7 +4456,8 @@
       "res-fire",
       "res-ltng"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-137",
@@ -4535,7 +4587,8 @@
       "dmg-fire",
       "hp"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-138",
@@ -4651,7 +4704,8 @@
       "dex",
       "res-mag"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-139",
@@ -4777,7 +4831,8 @@
       "vit",
       "hp"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-4",
@@ -4845,7 +4900,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-3",
@@ -4913,7 +4969,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-5",
@@ -4981,7 +5038,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-111",
@@ -5080,7 +5138,8 @@
       "hit-skill:45",
       "dmg-ltng"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-109",
@@ -5160,7 +5219,8 @@
     "statPriority": [
       "gethit-skill:42"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-110",
@@ -5240,7 +5300,8 @@
     "statPriority": [
       "dmg-ltng"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-108",
@@ -5316,7 +5377,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-72",
@@ -5448,7 +5510,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-73",
@@ -5584,7 +5647,8 @@
     "statPriority": [
       "gethit-skill:38"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-74",
@@ -5705,7 +5769,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-71",
@@ -5837,7 +5902,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-75",
@@ -6000,7 +6066,8 @@
     "statPriority": [
       "crush"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-70",
@@ -6100,7 +6167,8 @@
     "statPriority": [
       "mag%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-41",
@@ -6168,7 +6236,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-43",
@@ -6247,7 +6316,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-42",
@@ -6312,7 +6382,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-11",
@@ -6380,7 +6451,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-9",
@@ -6445,7 +6517,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-12",
@@ -6513,7 +6586,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-10",
@@ -6581,7 +6655,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-15",
@@ -6649,7 +6724,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-16",
@@ -6717,7 +6793,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-13",
@@ -6782,7 +6859,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-14",
@@ -6850,7 +6928,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-96",
@@ -6940,7 +7019,8 @@
     "statPriority": [
       "hit-skill:101"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-94",
@@ -7047,7 +7127,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-91",
@@ -7161,7 +7242,8 @@
       "gethit-skill:55",
       "red-mag"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-92",
@@ -7286,7 +7368,8 @@
       "ac",
       "dmg-cold"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-93",
@@ -7374,7 +7457,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-90",
@@ -7484,7 +7568,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-106",
@@ -7570,7 +7655,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-123",
@@ -7636,7 +7722,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-124",
@@ -7712,7 +7799,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-126",
@@ -7799,7 +7887,8 @@
     "statPriority": [
       "dmg-cold"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-125",
@@ -7881,7 +7970,8 @@
       "ac",
       "dmg-pois"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-23",
@@ -7949,7 +8039,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-21",
@@ -8028,7 +8119,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-24",
@@ -8096,7 +8188,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-22",
@@ -8159,7 +8252,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-122",
@@ -8251,7 +8345,8 @@
       "dmg-fire",
       "gethit-skill:53"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-121",
@@ -8347,7 +8442,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-120",
@@ -8456,7 +8552,8 @@
       "charged:54",
       "dmg-ltng"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-63",
@@ -8563,7 +8660,8 @@
     "statPriority": [
       "dmg-fire"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-64",
@@ -8665,7 +8763,8 @@
       "ac",
       "sock"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-65",
@@ -8769,7 +8868,8 @@
       "res-cold",
       "res-ltng"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-62",
@@ -8865,7 +8965,8 @@
       "str",
       "res-all"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-103",
@@ -8965,7 +9066,8 @@
     "statPriority": [
       "hit-skill:72"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-97",
@@ -9045,7 +9147,8 @@
     "statPriority": [
       "stam"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-112",
@@ -9152,7 +9255,8 @@
     "statPriority": [
       "dmg-cold"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-113",
@@ -9242,7 +9346,8 @@
     "statPriority": [
       "hp"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-114",
@@ -9324,7 +9429,8 @@
       "res-fire",
       "res-ltng"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-35",
@@ -9392,7 +9498,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-40",
@@ -9448,7 +9555,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-38",
@@ -9527,7 +9635,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-37",
@@ -9595,7 +9704,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-36",
@@ -9663,7 +9773,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-39",
@@ -9731,7 +9842,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-98",
@@ -9815,7 +9927,8 @@
       "gethit-skill:48",
       "dmg-pois"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-77",
@@ -9914,7 +10027,8 @@
     "statPriority": [
       "dmg-ltng"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-76",
@@ -10027,7 +10141,8 @@
     "statPriority": [
       "mag%"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-80",
@@ -10123,7 +10238,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-79",
@@ -10241,7 +10357,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-78",
@@ -10397,7 +10514,8 @@
       "skill:Lightning Mastery",
       "skill:Cold Mastery"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-30",
@@ -10473,7 +10591,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-32",
@@ -10552,7 +10671,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-34",
@@ -10620,7 +10740,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-31",
@@ -10688,7 +10809,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-33",
@@ -10764,7 +10886,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-95",
@@ -10843,7 +10966,8 @@
       "res-pois",
       "thorns"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-88",
@@ -10931,7 +11055,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-89",
@@ -11055,7 +11180,8 @@
       "ac",
       "mana"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-85",
@@ -11145,7 +11271,8 @@
     "statPriority": [
       "ac"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-86",
@@ -11264,7 +11391,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-87",
@@ -11397,7 +11525,8 @@
     "statPriority": [
       "res-fire"
     ],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-19",
@@ -11476,7 +11605,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-17",
@@ -11541,7 +11671,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-18",
@@ -11609,7 +11740,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-20",
@@ -11674,7 +11806,8 @@
       }
     ],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-107",
@@ -11760,7 +11893,8 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   },
   {
     "id": "set-105",
@@ -11836,6 +11970,7 @@
     ],
     "setBonuses": [],
     "statPriority": [],
-    "note": null
+    "note": null,
+    "statPools": []
   }
 ]

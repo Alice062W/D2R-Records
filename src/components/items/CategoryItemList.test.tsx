@@ -11,7 +11,7 @@ function makeItem(id: string, name: string): GrailItem {
     id, code: id, name, kind: 'unique', setName: null,
     levelReq: 1, baseName: 'Base', grade: 'normal', slotCategory: 'axes',
     defense: null, requiredStrength: null, durability: null, invFile: '',
-    stats: [], fixedStats: [], setBonuses: [], statPriority: [], note: null,
+    stats: [], fixedStats: [], setBonuses: [], statPriority: [], note: null, statPools: [],
   };
 }
 

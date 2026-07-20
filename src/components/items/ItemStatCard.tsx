@@ -83,6 +83,23 @@ export default function ItemStatCard({ item }: { item: GrailItem }) {
         </div>
       )}
 
+      {item.statPools.length > 0 && (
+        <div className="mt-4 flex flex-col gap-3">
+          {item.statPools.map((pool, i) => (
+            <div key={i}>
+              <p className="text-xs text-muted mb-0.5">{t('randomAffixPoolLabel')}</p>
+              <div className="text-sm flex flex-col gap-0.5">
+                {pool.options.map(opt => (
+                  <div key={opt.key} className={opt.isSkillRef ? 'text-[#ff4a69]' : 'text-[#fff818]'}>
+                    {opt.label}: {opt.min}–{opt.max} <span aria-hidden="true">🎲</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+
       {item.note && (
         <p className="mt-4 text-xs text-muted italic">{item.note}</p>
       )}

@@ -13,7 +13,7 @@ describe('ItemStatCard', () => {
       defense: null, requiredStrength: null, durability: 28, invFile: 'invhaxu',
       stats: [{ key: 'dmg%', label: 'Enhanced Damage %', min: 60, max: 70, isSkillRef: false }],
       fixedStats: [{ key: 'str', label: 'Strength', value: 8, isSkillRef: false }],
-      setBonuses: [], statPriority: ['dmg%'], note: null,
+      setBonuses: [], statPriority: ['dmg%'], note: null, statPools: [],
     };
     render(
       <NextIntlClientProvider locale="en" messages={messages}>
@@ -32,7 +32,7 @@ describe('ItemStatCard', () => {
       id: 'unique-1', code: 'y', name: 'Bare Item', kind: 'unique', setName: null,
       levelReq: 1, baseName: 'Base', grade: 'normal', slotCategory: 'helms',
       defense: { min: 10, max: 12 }, requiredStrength: 20, durability: 40,
-      invFile: '', stats: [], fixedStats: [], setBonuses: [], statPriority: [], note: null,
+      invFile: '', stats: [], fixedStats: [], setBonuses: [], statPriority: [], note: null, statPools: [],
     };
     render(
       <NextIntlClientProvider locale="en" messages={messages}>
@@ -47,7 +47,7 @@ describe('ItemStatCard', () => {
       id: 'unique-0', code: 'hax', name: 'The Gnasher', kind: 'unique', setName: null,
       levelReq: 5, baseName: 'Hand Axe', grade: 'normal', slotCategory: 'axes',
       defense: null, requiredStrength: null, durability: 28, invFile: 'invhaxu',
-      stats: [], fixedStats: [], setBonuses: [], statPriority: [], note: null,
+      stats: [], fixedStats: [], setBonuses: [], statPriority: [], note: null, statPools: [],
     };
     render(
       <NextIntlClientProvider locale="en" messages={messages}>
@@ -65,7 +65,7 @@ describe('ItemStatCard', () => {
       id: 'unique-1', code: 'y', name: 'Bare Item', kind: 'unique', setName: null,
       levelReq: 1, baseName: 'Base', grade: 'normal', slotCategory: 'helms',
       defense: { min: 10, max: 12 }, requiredStrength: 20, durability: 40,
-      invFile: '', stats: [], fixedStats: [], setBonuses: [], statPriority: [], note: null,
+      invFile: '', stats: [], fixedStats: [], setBonuses: [], statPriority: [], note: null, statPools: [],
     };
     render(
       <NextIntlClientProvider locale="en" messages={messages}>
@@ -88,7 +88,7 @@ describe('ItemStatCard', () => {
         { key: 'str', label: 'Strength', value: 8, isSkillRef: false },
         { key: 'oskill:2', label: 'Combat Skills', value: 2, isSkillRef: true },
       ],
-      setBonuses: [], statPriority: [], note: null,
+      setBonuses: [], statPriority: [], note: null, statPools: [],
     };
     render(
       <NextIntlClientProvider locale="en" messages={messages}>
@@ -117,7 +117,7 @@ describe('ItemStatCard', () => {
         { key: 'res-all', label: 'All Resistances', min: 50, max: 50, isSkillRef: false },
         { key: 'sor', label: 'Sorceress Skill Levels', min: 3, max: 6, isSkillRef: true },
       ],
-      statPriority: [], note: null,
+      statPriority: [], note: null, statPools: [],
     };
     render(
       <NextIntlClientProvider locale="en" messages={messages}>
@@ -136,7 +136,7 @@ describe('ItemStatCard', () => {
       id: 'unique-99', code: 'x', name: 'Test Item', kind: 'unique', setName: null,
       levelReq: 1, baseName: 'Base', grade: 'normal', slotCategory: 'axes',
       defense: null, requiredStrength: null, durability: null, invFile: '',
-      stats: [], fixedStats: [], setBonuses: [], statPriority: [], note: null,
+      stats: [], fixedStats: [], setBonuses: [], statPriority: [], note: null, statPools: [],
     };
 
     it('renders no checkbox when signed out', async () => {

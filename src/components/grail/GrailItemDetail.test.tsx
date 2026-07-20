@@ -9,7 +9,7 @@ const baseItem: GrailItem = {
   id: 'unique-0', code: 'hax', name: 'The Gnasher', kind: 'unique', setName: null,
   levelReq: 5, baseName: 'Hand Axe', grade: 'normal', slotCategory: 'axes',
   defense: null, requiredStrength: null, durability: 28, invFile: 'invhaxu',
-  stats: [], fixedStats: [], setBonuses: [], statPriority: [], note: null,
+  stats: [], fixedStats: [], setBonuses: [], statPriority: [], note: null, statPools: [],
 };
 
 describe('GrailItemDetail', () => {

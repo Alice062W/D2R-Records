@@ -58,6 +58,12 @@ const PROP_LABELS_EN = {
   'pierce-cold': 'Enemy Cold Resistance %', 'pierce-pois': 'Enemy Poison Resistance %', 'pierce-mag': 'Enemy Magic Resistance %',
   'extra-cold': 'Cold Skill Damage %', 'extra-fire': 'Fire Skill Damage %',
   'extra-ltng': 'Lightning Skill Damage %', 'extra-mag': 'Magic Skill Damage %', 'extra-pois': 'Poison Skill Damage %',
+  // Not real D2 stat codes — invented keys for the Renewed-charm affix pools
+  // (RENEWED_CHARM_POOLS below), hand-transcribed from d2r.world since this
+  // "enemy resistance reduced" effect isn't in this vendor snapshot at all.
+  'enemy-res-cold%': 'Enemy Cold Resist %', 'enemy-res-fire%': 'Enemy Fire Resist %',
+  'enemy-res-ltng%': 'Enemy Lightning Resist %', 'enemy-res-pois%': 'Enemy Poison Resist %',
+  'enemy-res-mag%': 'Enemy Magic Resist %', 'enemy-res-phys%': 'Enemy Physical Resist %',
   light: 'Light Radius', 'half-freeze': 'Half Freeze Duration',
   freeze: 'Hit Freezes Target', nofreeze: 'Cannot Be Frozen',
   howl: 'Hit Causes Monster to Flee %', stupidity: 'Hit Blinds Target',
@@ -192,6 +198,9 @@ const PROP_LABELS_ZH_TW = {
   'pierce-cold': '降低敵方冷凍抗性 %', 'pierce-pois': '降低敵方毒素抗性 %', 'pierce-mag': '降低敵方魔法抗性 %',
   'extra-cold': '冷凍技能傷害 %', 'extra-fire': '火焰技能傷害 %',
   'extra-ltng': '閃電技能傷害 %', 'extra-mag': '魔法技能傷害 %', 'extra-pois': '毒素技能傷害 %',
+  'enemy-res-cold%': '敵人冷凍抗性 %', 'enemy-res-fire%': '敵人火焰抗性 %',
+  'enemy-res-ltng%': '敵人電擊抗性 %', 'enemy-res-pois%': '敵人毒素抗性 %',
+  'enemy-res-mag%': '敵人魔法抗性 %', 'enemy-res-phys%': '敵人物理傷害抗性 %',
   light: '光環半徑', 'half-freeze': '減半冰凍持續時間',
   freeze: '擊中冰凍目標', nofreeze: '不會被冰凍',
   howl: '擊中使怪物逃跑 %', stupidity: '擊中致盲目標',
@@ -683,15 +692,33 @@ const UNSPAWNABLE_UNIQUE_CODES = new Set(['vip']);
 // etc. — see ITEM_ENGLISH_NAME_ALIASES below) is spawnable: undefined in
 // vendor data (obtained only via an in-game "renewal" recipe, not a normal
 // drop), but they're real, current items d2r.world lists — included here by
-// *ID despite the spawnable filter. RENEWED_CHARM_NOTE is attached via
-// RENEWED_CHARM_IDS below since their bonus-affix roll isn't resolvable from
-// this vendor snapshot (see the "-Affix" skip in extractProps above).
-const RENEWED_CHARM_IDS = new Set(['427', '433', '434', '435', '436', '437']);
-
-const RENEWED_CHARM_NOTE = {
-  en: 'This item rolls a random bonus affix on top of the stats shown, which this site cannot currently display — see d2r.world for the full affix pool.',
-  'zh-TW': '此物品除了以上顯示的屬性外，還會隨機獲得一項額外的加成屬性，本站目前無法顯示——完整的隨機屬性池請參考 d2r.world。',
+// *ID despite the spawnable filter.
+//
+// Each one rolls one random option from 5 fixed pools on top of its base
+// stats. That mechanic isn't represented anywhere in this vendor snapshot
+// (the "-Affix" props skipped in extractProps above turned out to be an
+// unrelated marker system, not the real pool) — hand-transcribed from
+// d2r.world's zh-TW charms page this session instead, mirroring the existing
+// RUNEWORD_NAME_OVERRIDES precedent for vendor gaps. Pools 2-5 are identical
+// across all six charms; only pool 1 (the charm's own element) differs.
+function pool(...options) {
+  return { options: options.map(([key, min, max]) => ({ key, label: localizedLabelFor(key), min, max, isSkillRef: false })) };
+}
+const RENEWED_CHARM_SHARED_POOLS = [
+  pool(['mag%', 14, 25], ['gold%', 20, 55]),
+  pool(['hp', 10, 65], ['mana', 10, 75]),
+  pool(['move1', 5, 10], ['balance1', 12, 24], ['all-stats', 3, 8]),
+  pool(['red-mag', 5, 10], ['red-dmg', 5, 10]),
+];
+const RENEWED_CHARM_POOLS = {
+  427: [pool(['extra-cold', 5, 15], ['enemy-res-cold%', -10, -5]), ...RENEWED_CHARM_SHARED_POOLS],
+  433: [pool(['extra-fire', 5, 15], ['enemy-res-fire%', -10, -5]), ...RENEWED_CHARM_SHARED_POOLS],
+  434: [pool(['extra-ltng', 5, 15], ['enemy-res-ltng%', -10, -5]), ...RENEWED_CHARM_SHARED_POOLS],
+  435: [pool(['extra-pois', 5, 15], ['enemy-res-pois%', -10, -5]), ...RENEWED_CHARM_SHARED_POOLS],
+  436: [pool(['dmg%', 75, 100], ['enemy-res-phys%', -10, -5]), ...RENEWED_CHARM_SHARED_POOLS],
+  437: [pool(['extra-mag', 10, 15], ['enemy-res-mag%', -10, -5]), ...RENEWED_CHARM_SHARED_POOLS],
 };
+const RENEWED_CHARM_IDS = new Set(Object.keys(RENEWED_CHARM_POOLS));
 
 const uniquesOut = Object.entries(uniqueItems)
   .filter(([id, v]) => (v.spawnable === 1 || RENEWED_CHARM_IDS.has(id)) && !UNSPAWNABLE_UNIQUE_CODES.has(v.code))
@@ -710,9 +737,8 @@ const uniquesOut = Object.entries(uniqueItems)
       fixedStats: fixed,
       setBonuses: [],
       statPriority: variable.map(s => s.key),
-      note: RENEWED_CHARM_IDS.has(id)
-        ? { en: RENEWED_CHARM_NOTE.en, 'zh-TW': RENEWED_CHARM_NOTE['zh-TW'], 'zh-CN': toZhCn(RENEWED_CHARM_NOTE['zh-TW']) }
-        : null,
+      note: null,
+      statPools: RENEWED_CHARM_POOLS[id] ?? [],
     };
   });
 
@@ -734,6 +760,7 @@ const setsOut = Object.entries(setItemsRaw)
       setBonuses: extractSetBonuses(v),
       statPriority: variable.map(s => s.key),
       note: null,
+      statPools: [],
     };
   });
 
