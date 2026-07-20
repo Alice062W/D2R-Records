@@ -3366,11 +3366,11 @@
       {
         "key": "dmg-pois",
         "label": {
-          "en": "Poison Damage",
-          "zh-TW": "毒素傷害",
-          "zh-CN": "毒素伤害"
+          "en": "Adds Poison Damage over 6 Seconds",
+          "zh-TW": "增加毒素傷害，持續 6 秒",
+          "zh-CN": "增加毒素伤害，持续 6 秒"
         },
-        "value": 192,
+        "value": 113,
         "isSkillRef": false
       },
       {
@@ -3798,11 +3798,11 @@
       {
         "key": "dmg-pois",
         "label": {
-          "en": "Poison Damage",
-          "zh-TW": "毒素傷害",
-          "zh-CN": "毒素伤害"
+          "en": "Adds Poison Damage over 4 Seconds",
+          "zh-TW": "增加毒素傷害，持續 4 秒",
+          "zh-CN": "增加毒素伤害，持续 4 秒"
         },
-        "value": 460,
+        "value": 180,
         "isSkillRef": false
       },
       {
@@ -5064,11 +5064,11 @@
       {
         "key": "dmg-pois",
         "label": {
-          "en": "Poison Damage",
-          "zh-TW": "毒素傷害",
-          "zh-CN": "毒素伤害"
+          "en": "Adds Poison Damage over 3 Seconds",
+          "zh-TW": "增加毒素傷害，持續 3 秒",
+          "zh-CN": "增加毒素伤害，持续 3 秒"
         },
-        "value": 40,
+        "value": 12,
         "isSkillRef": false
       },
       {
@@ -6352,11 +6352,11 @@
       {
         "key": "dmg-pois",
         "label": {
-          "en": "Poison Damage",
-          "zh-TW": "毒素傷害",
-          "zh-CN": "毒素伤害"
+          "en": "Adds Poison Damage over 3 Seconds",
+          "zh-TW": "增加毒素傷害，持續 3 秒",
+          "zh-CN": "增加毒素伤害，持续 3 秒"
         },
-        "value": 102,
+        "value": 30,
         "isSkillRef": false
       },
       {
@@ -7007,11 +7007,11 @@
       {
         "key": "dmg-pois",
         "label": {
-          "en": "Poison Damage",
-          "zh-TW": "毒素傷害",
-          "zh-CN": "毒素伤害"
+          "en": "Adds Poison Damage over 8 Seconds",
+          "zh-TW": "增加毒素傷害，持續 8 秒",
+          "zh-CN": "增加毒素伤害，持续 8 秒"
         },
-        "value": 102,
+        "value": 80,
         "isSkillRef": false
       }
     ],
@@ -10645,11 +10645,11 @@
       {
         "key": "dmg-pois",
         "label": {
-          "en": "Poison Damage",
-          "zh-TW": "毒素傷害",
-          "zh-CN": "毒素伤害"
+          "en": "Adds Poison Damage over 3 Seconds",
+          "zh-TW": "增加毒素傷害，持續 3 秒",
+          "zh-CN": "增加毒素伤害，持续 3 秒"
         },
-        "value": 40,
+        "value": 12,
         "isSkillRef": false
       },
       {
@@ -12397,11 +12397,11 @@
       {
         "key": "dmg-pois",
         "label": {
-          "en": "Poison Damage",
-          "zh-TW": "毒素傷害",
-          "zh-CN": "毒素伤害"
+          "en": "Adds Poison Damage over 10 Seconds",
+          "zh-TW": "增加毒素傷害，持續 10 秒",
+          "zh-CN": "增加毒素伤害，持续 10 秒"
         },
-        "value": 256,
+        "value": 250,
         "isSkillRef": false
       },
       {
@@ -13756,11 +13756,11 @@
       {
         "key": "dmg-pois",
         "label": {
-          "en": "Poison Damage",
-          "zh-TW": "毒素傷害",
-          "zh-CN": "毒素伤害"
+          "en": "Adds Poison Damage over 4 Seconds",
+          "zh-TW": "增加毒素傷害，持續 4 秒",
+          "zh-CN": "增加毒素伤害，持续 4 秒"
         },
-        "value": 409,
+        "value": 160,
         "isSkillRef": false
       }
     ],
@@ -15347,11 +15347,11 @@
       {
         "key": "dmg-pois",
         "label": {
-          "en": "Poison Damage",
-          "zh-TW": "毒素傷害",
-          "zh-CN": "毒素伤害"
+          "en": "Adds Poison Damage over 8 Seconds",
+          "zh-TW": "增加毒素傷害，持續 8 秒",
+          "zh-CN": "增加毒素伤害，持续 8 秒"
         },
-        "value": 384,
+        "value": 300,
         "isSkillRef": false
       },
       {
@@ -15769,11 +15769,11 @@
       {
         "key": "dmg-pois",
         "label": {
-          "en": "Poison Damage",
-          "zh-TW": "毒素傷害",
-          "zh-CN": "毒素伤害"
+          "en": "Adds Poison Damage over 6 Seconds",
+          "zh-TW": "增加毒素傷害，持續 6 秒",
+          "zh-CN": "增加毒素伤害，持续 6 秒"
         },
-        "value": 426,
+        "value": 250,
         "isSkillRef": false
       },
       {
@@ -16452,11 +16452,11 @@
       {
         "key": "dmg-pois",
         "label": {
-          "en": "Poison Damage",
-          "zh-TW": "毒素傷害",
-          "zh-CN": "毒素伤害"
+          "en": "Adds Poison Damage over 10 Seconds",
+          "zh-TW": "增加毒素傷害，持續 10 秒",
+          "zh-CN": "增加毒素伤害，持续 10 秒"
         },
-        "value": 500,
+        "value": 488,
         "isSkillRef": false
       },
       {
@@ -19246,11 +19246,11 @@
       {
         "key": "dmg-pois",
         "label": {
-          "en": "Poison Damage",
-          "zh-TW": "毒素傷害",
-          "zh-CN": "毒素伤害"
+          "en": "Adds Poison Damage over 8 Seconds",
+          "zh-TW": "增加毒素傷害，持續 8 秒",
+          "zh-CN": "增加毒素伤害，持续 8 秒"
         },
-        "value": 192,
+        "value": 150,
         "isSkillRef": false
       },
       {
@@ -22524,11 +22524,11 @@
       {
         "key": "dmg-pois",
         "label": {
-          "en": "Poison Damage",
-          "zh-TW": "毒素傷害",
-          "zh-CN": "毒素伤害"
+          "en": "Adds Poison Damage over 4 Seconds",
+          "zh-TW": "增加毒素傷害，持續 4 秒",
+          "zh-CN": "增加毒素伤害，持续 4 秒"
         },
-        "value": 204,
+        "value": 80,
         "isSkillRef": false
       },
       {
@@ -22869,11 +22869,11 @@
       {
         "key": "dmg-pois",
         "label": {
-          "en": "Poison Damage",
-          "zh-TW": "毒素傷害",
-          "zh-CN": "毒素伤害"
+          "en": "Adds Poison Damage over 4 Seconds",
+          "zh-TW": "增加毒素傷害，持續 4 秒",
+          "zh-CN": "增加毒素伤害，持续 4 秒"
         },
-        "value": 153,
+        "value": 60,
         "isSkillRef": false
       },
       {
@@ -27018,11 +27018,11 @@
       {
         "key": "dmg-pois",
         "label": {
-          "en": "Poison Damage",
-          "zh-TW": "毒素傷害",
-          "zh-CN": "毒素伤害"
+          "en": "Adds Poison Damage over 4 Seconds",
+          "zh-TW": "增加毒素傷害，持續 4 秒",
+          "zh-CN": "增加毒素伤害，持续 4 秒"
         },
-        "value": 102,
+        "value": 40,
         "isSkillRef": false
       },
       {
@@ -31468,11 +31468,11 @@
       {
         "key": "dmg-pois",
         "label": {
-          "en": "Poison Damage",
-          "zh-TW": "毒素傷害",
-          "zh-CN": "毒素伤害"
+          "en": "Adds Poison Damage over 10 Seconds",
+          "zh-TW": "增加毒素傷害，持續 10 秒",
+          "zh-CN": "增加毒素伤害，持续 10 秒"
         },
-        "value": 300,
+        "value": 293,
         "isSkillRef": false
       }
     ],
@@ -31761,11 +31761,11 @@
       {
         "key": "dmg-pois",
         "label": {
-          "en": "Poison Damage",
-          "zh-TW": "毒素傷害",
-          "zh-CN": "毒素伤害"
+          "en": "Adds Poison Damage over 10 Seconds",
+          "zh-TW": "增加毒素傷害，持續 10 秒",
+          "zh-CN": "增加毒素伤害，持续 10 秒"
         },
-        "value": 333,
+        "value": 325,
         "isSkillRef": false
       },
       {
@@ -37371,11 +37371,11 @@
       {
         "key": "dmg-pois",
         "label": {
-          "en": "Poison Damage",
-          "zh-TW": "毒素傷害",
-          "zh-CN": "毒素伤害"
+          "en": "Adds Poison Damage over 10 Seconds",
+          "zh-TW": "增加毒素傷害，持續 10 秒",
+          "zh-CN": "增加毒素伤害，持续 10 秒"
         },
-        "value": 403,
+        "value": 394,
         "isSkillRef": false
       },
       {
@@ -38630,11 +38630,11 @@
       {
         "key": "dmg-pois",
         "label": {
-          "en": "Poison Damage",
-          "zh-TW": "毒素傷害",
-          "zh-CN": "毒素伤害"
+          "en": "Adds Poison Damage over 2 Seconds",
+          "zh-TW": "增加毒素傷害，持續 2 秒",
+          "zh-CN": "增加毒素伤害，持续 2 秒"
         },
-        "value": 187,
+        "value": 37,
         "isSkillRef": false
       }
     ],
@@ -38945,11 +38945,11 @@
       {
         "key": "dmg-pois",
         "label": {
-          "en": "Poison Damage",
-          "zh-TW": "毒素傷害",
-          "zh-CN": "毒素伤害"
+          "en": "Adds Poison Damage over 2 Seconds",
+          "zh-TW": "增加毒素傷害，持續 2 秒",
+          "zh-CN": "增加毒素伤害，持续 2 秒"
         },
-        "value": 187,
+        "value": 37,
         "isSkillRef": false
       }
     ],

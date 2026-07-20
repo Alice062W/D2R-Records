@@ -622,12 +622,7 @@ function mergePoisonDamageOverTime(fixed) {
   const min = Math.round(minEntry.value * frames / 256);
   const max = Math.round(maxEntry.value * frames / 256);
   const rest = fixed.filter(s => !['pois-min', 'pois-max', 'pois-len'].includes(s.key));
-  const label = {
-    en: `Adds Poison Damage over ${seconds} Seconds`,
-    'zh-TW': `增加毒素傷害，持續 ${seconds} 秒`,
-    'zh-CN': `增加毒素伤害，持续 ${seconds} 秒`,
-  };
-  const stat = { key: 'pois-dot', label, isSkillRef: false };
+  const stat = { key: 'pois-dot', label: poisonDamageOverTimeLabel(seconds), isSkillRef: false };
   return min === max
     ? { fixed: [...rest, { ...stat, value: min }], variable: [] }
     : { fixed: rest, variable: [{ ...stat, min, max }] };
@@ -647,12 +642,31 @@ function mergePoisonDamageOverTimeFlat(bonuses) {
   const min = Math.round(minEntry.min * frames / 256);
   const max = Math.round(maxEntry.min * frames / 256);
   const rest = bonuses.filter(s => !['pois-min', 'pois-max', 'pois-len'].includes(s.key));
-  const label = {
+  return [...rest, { key: 'pois-dot', label: poisonDamageOverTimeLabel(seconds), min, max, isSkillRef: false }];
+}
+
+function poisonDamageOverTimeLabel(seconds) {
+  return {
     en: `Adds Poison Damage over ${seconds} Seconds`,
     'zh-TW': `增加毒素傷害，持續 ${seconds} 秒`,
     'zh-CN': `增加毒素伤害，持续 ${seconds} 秒`,
   };
-  return [...rest, { key: 'pois-dot', label, min, max, isSkillRef: false }];
+}
+
+// A second, distinct encoding of the same "poison damage over N seconds"
+// mechanic mergePoisonDamageOverTime[Flat] above handles: a single dmg-pois
+// prop carrying BOTH a `par` (duration in frames) AND its own min/max,
+// rather than three separate pois-min/pois-max/pois-len props. Confirmed
+// against d2r.world's Infernal Tools 2-piece bonus this session: vendor
+// PCode2a=dmg-pois, PParam2a=80, PMin2a=PMax2a=25 -> d2r.world shows "+8
+// poison damage over 3 seconds": round(25*80/256)=8, round(80/25)=3s — same
+// value/256 scaling as the three-prop form, just packaged differently.
+// Every dmg-pois occurrence in vendor data (~20 unique/set items) carries a
+// par, so this always applies when the code matches, not just sometimes.
+function scaleDmgPoisWithPar(code, par, min, max) {
+  if (code !== 'dmg-pois' || par === undefined || min === undefined || max === undefined) return null;
+  const seconds = Math.round(par / 25);
+  return { min: Math.round(min * par / 256), max: Math.round(max * par / 256), label: poisonDamageOverTimeLabel(seconds) };
 }
 
 function extractProps(entry, count, prefixes = { code: 'prop', par: 'par', min: 'min', max: 'max' }) {
@@ -689,11 +703,14 @@ function extractProps(entry, count, prefixes = { code: 'prop', par: 'par', min: 
     // values, so a second skill's entered value silently overwrites the first's.
     const needsKeySuffix = (isSkillRef || KEY_ONLY_DISAMBIGUATE_PROPS.has(code)) && par !== undefined;
     const key = needsKeySuffix ? `${code}:${par}` : code;
-    const min = entry[`${prefixes.min}${n}`];
-    const max = entry[`${prefixes.max}${n}`];
+    let min = entry[`${prefixes.min}${n}`];
+    let max = entry[`${prefixes.max}${n}`];
+    const dmgPois = scaleDmgPoisWithPar(code, par, min, max);
+    const effectiveLabel = dmgPois ? dmgPois.label : label;
+    if (dmgPois) ({ min, max } = dmgPois);
     if (min !== undefined && max !== undefined) {
-      if (min === max) fixed.push({ key, label, value: min, isSkillRef });
-      else variable.push({ key, label, min, max, isSkillRef });
+      if (min === max) fixed.push({ key, label: effectiveLabel, value: min, isSkillRef });
+      else variable.push({ key, label: effectiveLabel, min, max, isSkillRef });
       continue;
     }
     // Some props (level-scaling stats like hp/lvl, dmg/lvl; also sock,
@@ -725,10 +742,13 @@ function extractSetBonuses(entry) {
       const label = isSkillRef ? localizedLabelWithSkill(code, par) : localizedLabelFor(code);
       const needsKeySuffix = (isSkillRef || KEY_ONLY_DISAMBIGUATE_PROPS.has(code)) && par !== undefined;
       const key = needsKeySuffix ? `${code}:${par}` : code;
-      const min = entry[`amin${n}${suffix}`];
-      const max = entry[`amax${n}${suffix}`];
+      let min = entry[`amin${n}${suffix}`];
+      let max = entry[`amax${n}${suffix}`];
+      const dmgPois = scaleDmgPoisWithPar(code, par, min, max);
+      const effectiveLabel = dmgPois ? dmgPois.label : label;
+      if (dmgPois) ({ min, max } = dmgPois);
       if (min !== undefined && max !== undefined) {
-        bonuses.push({ key, label, min, max, isSkillRef });
+        bonuses.push({ key, label: effectiveLabel, min, max, isSkillRef });
         continue;
       }
       // Same par-only case as extractProps (level-scaling bonuses like
@@ -996,10 +1016,13 @@ const setGroupsOut = Object.values(setsFullData)
       const label = isSkillRef ? localizedLabelWithSkill(code, par) : localizedLabelFor(code);
       const needsKeySuffix = (isSkillRef || KEY_ONLY_DISAMBIGUATE_PROPS.has(code)) && par !== undefined;
       const key = needsKeySuffix ? `${code}:${par}` : code;
-      const min = v[`PMin${n}a`];
-      const max = v[`PMax${n}a`];
+      let min = v[`PMin${n}a`];
+      let max = v[`PMax${n}a`];
+      const dmgPois = scaleDmgPoisWithPar(code, par, min, max);
+      const effectiveLabel = dmgPois ? dmgPois.label : label;
+      if (dmgPois) ({ min, max } = dmgPois);
       if (min === undefined || max === undefined) return [];
-      return [{ piecesRequired: n, stats: [{ key, label, min, max, isSkillRef }] }];
+      return [{ piecesRequired: n, stats: [{ key, label: effectiveLabel, min, max, isSkillRef }] }];
     });
 
     const fullSetBonuses = [];
@@ -1012,10 +1035,13 @@ const setGroupsOut = Object.values(setsFullData)
       const label = isSkillRef ? localizedLabelWithSkill(code, par) : localizedLabelFor(code);
       const needsKeySuffix = (isSkillRef || KEY_ONLY_DISAMBIGUATE_PROPS.has(code)) && par !== undefined;
       const key = needsKeySuffix ? `${code}:${par}` : code;
-      const min = v[`FMin${n}`];
-      const max = v[`FMax${n}`];
+      let min = v[`FMin${n}`];
+      let max = v[`FMax${n}`];
+      const dmgPois = scaleDmgPoisWithPar(code, par, min, max);
+      const effectiveLabel = dmgPois ? dmgPois.label : label;
+      if (dmgPois) ({ min, max } = dmgPois);
       if (min !== undefined && max !== undefined) {
-        fullSetBonuses.push({ key, label, min, max, isSkillRef });
+        fullSetBonuses.push({ key, label: effectiveLabel, min, max, isSkillRef });
         continue;
       }
       // Same par-only case as extractProps/extractSetBonuses (level-scaling

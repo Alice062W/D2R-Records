@@ -1729,12 +1729,12 @@
           {
             "key": "dmg-pois",
             "label": {
-              "en": "Poison Damage",
-              "zh-TW": "毒素傷害",
-              "zh-CN": "毒素伤害"
+              "en": "Adds Poison Damage over 3 Seconds",
+              "zh-TW": "增加毒素傷害，持續 3 秒",
+              "zh-CN": "增加毒素伤害，持续 3 秒"
             },
-            "min": 25,
-            "max": 25,
+            "min": 8,
+            "max": 8,
             "isSkillRef": false
           }
         ]
@@ -3137,12 +3137,12 @@
           {
             "key": "dmg-pois",
             "label": {
-              "en": "Poison Damage",
-              "zh-TW": "毒素傷害",
-              "zh-CN": "毒素伤害"
+              "en": "Adds Poison Damage over 3 Seconds",
+              "zh-TW": "增加毒素傷害，持續 3 秒",
+              "zh-CN": "增加毒素伤害，持续 3 秒"
             },
-            "min": 75,
-            "max": 75,
+            "min": 22,
+            "max": 22,
             "isSkillRef": false
           }
         ]

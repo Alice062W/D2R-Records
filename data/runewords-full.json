@@ -9654,11 +9654,11 @@
       {
         "key": "dmg-pois",
         "label": {
-          "en": "Poison Damage",
-          "zh-TW": "毒素傷害",
-          "zh-CN": "毒素伤害"
+          "en": "Adds Poison Damage over 7 Seconds",
+          "zh-TW": "增加毒素傷害，持續 7 秒",
+          "zh-CN": "增加毒素伤害，持续 7 秒"
         },
-        "value": 312,
+        "value": 213,
         "isSkillRef": false
       },
       {
