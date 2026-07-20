@@ -406,36 +406,6 @@
     ],
     "fixedStats": [
       {
-        "key": "pois-min",
-        "label": {
-          "en": "Poison Damage (Min)",
-          "zh-TW": "毒素傷害（最小）",
-          "zh-CN": "毒素伤害（最小）"
-        },
-        "value": 128,
-        "isSkillRef": false
-      },
-      {
-        "key": "pois-max",
-        "label": {
-          "en": "Poison Damage (Max)",
-          "zh-TW": "毒素傷害（最大）",
-          "zh-CN": "毒素伤害（最大）"
-        },
-        "value": 128,
-        "isSkillRef": false
-      },
-      {
-        "key": "pois-len",
-        "label": {
-          "en": "Poison Duration",
-          "zh-TW": "毒素持續時間",
-          "zh-CN": "毒素持续时间"
-        },
-        "value": 75,
-        "isSkillRef": false
-      },
-      {
         "key": "att",
         "label": {
           "en": "Attack Rating",
@@ -464,6 +434,16 @@
         },
         "value": 30,
         "isSkillRef": false
+      },
+      {
+        "key": "pois-dot",
+        "label": {
+          "en": "Adds Poison Damage over 3 Seconds",
+          "zh-TW": "增加毒素傷害，持續 3 秒",
+          "zh-CN": "增加毒素伤害，持续 3 秒"
+        },
+        "isSkillRef": false,
+        "value": 38
       }
     ],
     "setBonuses": [],
@@ -2921,6 +2901,17 @@
         "min": 25,
         "max": 75,
         "isSkillRef": false
+      },
+      {
+        "key": "pois-dot",
+        "label": {
+          "en": "Adds Poison Damage over 6 Seconds",
+          "zh-TW": "增加毒素傷害，持續 6 秒",
+          "zh-CN": "增加毒素伤害，持续 6 秒"
+        },
+        "isSkillRef": false,
+        "min": 28,
+        "max": 56
       }
     ],
     "fixedStats": [
@@ -2945,36 +2936,6 @@
         "isSkillRef": false
       },
       {
-        "key": "pois-min",
-        "label": {
-          "en": "Poison Damage (Min)",
-          "zh-TW": "毒素傷害（最小）",
-          "zh-CN": "毒素伤害（最小）"
-        },
-        "value": 48,
-        "isSkillRef": false
-      },
-      {
-        "key": "pois-max",
-        "label": {
-          "en": "Poison Damage (Max)",
-          "zh-TW": "毒素傷害（最大）",
-          "zh-CN": "毒素伤害（最大）"
-        },
-        "value": 96,
-        "isSkillRef": false
-      },
-      {
-        "key": "pois-len",
-        "label": {
-          "en": "Poison Duration",
-          "zh-TW": "毒素持續時間",
-          "zh-CN": "毒素持续时间"
-        },
-        "value": 150,
-        "isSkillRef": false
-      },
-      {
         "key": "fireskill",
         "label": {
           "en": "Fire Skills",
@@ -2988,7 +2949,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "dmg-fire"
+      "dmg-fire",
+      "pois-dot"
     ],
     "note": null,
     "statPools": []

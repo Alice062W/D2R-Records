@@ -596,6 +596,65 @@ function baseFieldsFor(code) {
   };
 }
 
+// D2 encodes a "poison damage over N seconds" tooltip line as three separate
+// raw props (pois-min/pois-max/pois-len) rather than the single stat every
+// display (including d2r.world) actually shows — pois-len is a frame count
+// (25 frames/sec) and pois-min/pois-max are scaled by pois-len/256, not the
+// literal displayed damage. Verified this session against Berserker's
+// Arsenal's full-set bonus: raw pois-min=16 pois-max=32 pois-len=75 frames
+// -> d2r.world shows "Adds 5-9 Poison Damage over 3 Seconds":
+// round(16*75/256)=5, round(32*75/256)=9, 75/25=3s. Previously rendered as
+// three confusing separate lines ("Poison Damage (Min): 16", "... (Max):
+// 32", "Poison Duration: 75") with the raw, un-scaled numbers.
+// Takes a `fixed` array (as produced by extractProps/extractSetBonuses/the
+// FCode loop); returns { fixed, variable } with the three poison-DoT props
+// removed from `fixed` and replaced by one proper ranged stat — routed to
+// `variable` when min !== max, or folded back into `fixed` (as value) when
+// they happen to be equal, matching this file's established fixed/variable
+// split convention (see the "variable stats have min !== max" invariant).
+function mergePoisonDamageOverTime(fixed) {
+  const minEntry = fixed.find(s => s.key === 'pois-min');
+  const maxEntry = fixed.find(s => s.key === 'pois-max');
+  const lenEntry = fixed.find(s => s.key === 'pois-len');
+  if (!minEntry || !maxEntry || !lenEntry) return { fixed, variable: [] };
+  const frames = lenEntry.value;
+  const seconds = Math.round(frames / 25);
+  const min = Math.round(minEntry.value * frames / 256);
+  const max = Math.round(maxEntry.value * frames / 256);
+  const rest = fixed.filter(s => !['pois-min', 'pois-max', 'pois-len'].includes(s.key));
+  const label = {
+    en: `Adds Poison Damage over ${seconds} Seconds`,
+    'zh-TW': `增加毒素傷害，持續 ${seconds} 秒`,
+    'zh-CN': `增加毒素伤害，持续 ${seconds} 秒`,
+  };
+  const stat = { key: 'pois-dot', label, isSkillRef: false };
+  return min === max
+    ? { fixed: [...rest, { ...stat, value: min }], variable: [] }
+    : { fixed: rest, variable: [{ ...stat, min, max }] };
+}
+
+// Same merge, for the flat {key,label,min,max,isSkillRef} shape used by
+// extractSetBonuses and the fullSetBonuses/partialBonuses loops (which never
+// split into separate fixed/variable arrays — a min===max entry there is
+// just a range whose ends happen to be equal).
+function mergePoisonDamageOverTimeFlat(bonuses) {
+  const minEntry = bonuses.find(s => s.key === 'pois-min');
+  const maxEntry = bonuses.find(s => s.key === 'pois-max');
+  const lenEntry = bonuses.find(s => s.key === 'pois-len');
+  if (!minEntry || !maxEntry || !lenEntry) return bonuses;
+  const frames = lenEntry.min;
+  const seconds = Math.round(frames / 25);
+  const min = Math.round(minEntry.min * frames / 256);
+  const max = Math.round(maxEntry.min * frames / 256);
+  const rest = bonuses.filter(s => !['pois-min', 'pois-max', 'pois-len'].includes(s.key));
+  const label = {
+    en: `Adds Poison Damage over ${seconds} Seconds`,
+    'zh-TW': `增加毒素傷害，持續 ${seconds} 秒`,
+    'zh-CN': `增加毒素伤害，持续 ${seconds} 秒`,
+  };
+  return [...rest, { key: 'pois-dot', label, min, max, isSkillRef: false }];
+}
+
 function extractProps(entry, count, prefixes = { code: 'prop', par: 'par', min: 'min', max: 'max' }) {
   const variable = [];
   const fixed = [];
@@ -647,7 +706,8 @@ function extractProps(entry, count, prefixes = { code: 'prop', par: 'par', min: 
       fixed.push({ key, label, value: par, isSkillRef });
     }
   }
-  return { variable, fixed };
+  const merged = mergePoisonDamageOverTime(fixed);
+  return { variable: [...variable, ...merged.variable], fixed: merged.fixed };
 }
 
 // Set-only bonus props unlocked by wearing multiple pieces of the set. Suffix letters
@@ -679,7 +739,7 @@ function extractSetBonuses(entry) {
       }
     }
   }
-  return bonuses;
+  return mergePoisonDamageOverTimeFlat(bonuses);
 }
 
 // "Amulet of the Viper" (code vip) carries spawnable=1 but lvl/lvl req=0 and
@@ -954,8 +1014,18 @@ const setGroupsOut = Object.values(setsFullData)
       const key = needsKeySuffix ? `${code}:${par}` : code;
       const min = v[`FMin${n}`];
       const max = v[`FMax${n}`];
-      if (min === undefined || max === undefined) continue;
-      fullSetBonuses.push({ key, label, min, max, isSkillRef });
+      if (min !== undefined && max !== undefined) {
+        fullSetBonuses.push({ key, label, min, max, isSkillRef });
+        continue;
+      }
+      // Same par-only case as extractProps/extractSetBonuses (level-scaling
+      // bonuses like dmg-cold/lvl) — surface as a fixed min===max entry
+      // rather than silently dropping the bonus line. Confirmed against
+      // d2r.world this session: Arctic Gear and Vidala's Rig both have an
+      // FCode1 dmg-cold/lvl full-set bonus that this loop was dropping.
+      if (par !== undefined) {
+        fullSetBonuses.push({ key, label, min: par, max: par, isSkillRef });
+      }
     }
 
     return {
@@ -963,7 +1033,7 @@ const setGroupsOut = Object.values(setsFullData)
       pieceIds,
       repInvFile: setsOut.find(s => s.id === pieceIds[0])?.invFile ?? '',
       partialBonuses,
-      fullSetBonuses,
+      fullSetBonuses: mergePoisonDamageOverTimeFlat(fullSetBonuses),
     };
   })
   .filter(Boolean);

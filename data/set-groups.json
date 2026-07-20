@@ -352,6 +352,17 @@
     ],
     "fullSetBonuses": [
       {
+        "key": "dmg-cold/lvl",
+        "label": {
+          "en": "Cold Damage (Based on Character Level)",
+          "zh-TW": "冷凍傷害（依角色等級）",
+          "zh-CN": "冷冻伤害（依角色等级）"
+        },
+        "min": 16,
+        "max": 16,
+        "isSkillRef": false
+      },
+      {
         "key": "cold-len",
         "label": {
           "en": "Cold Duration",
@@ -495,39 +506,6 @@
         "isSkillRef": false
       },
       {
-        "key": "pois-min",
-        "label": {
-          "en": "Poison Damage (Min)",
-          "zh-TW": "毒素傷害（最小）",
-          "zh-CN": "毒素伤害（最小）"
-        },
-        "min": 16,
-        "max": 16,
-        "isSkillRef": false
-      },
-      {
-        "key": "pois-max",
-        "label": {
-          "en": "Poison Damage (Max)",
-          "zh-TW": "毒素傷害（最大）",
-          "zh-CN": "毒素伤害（最大）"
-        },
-        "min": 32,
-        "max": 32,
-        "isSkillRef": false
-      },
-      {
-        "key": "pois-len",
-        "label": {
-          "en": "Poison Duration",
-          "zh-TW": "毒素持續時間",
-          "zh-CN": "毒素持续时间"
-        },
-        "min": 75,
-        "max": 75,
-        "isSkillRef": false
-      },
-      {
         "key": "ac",
         "label": {
           "en": "Defense",
@@ -536,6 +514,17 @@
         },
         "min": 75,
         "max": 75,
+        "isSkillRef": false
+      },
+      {
+        "key": "pois-dot",
+        "label": {
+          "en": "Adds Poison Damage over 3 Seconds",
+          "zh-TW": "增加毒素傷害，持續 3 秒",
+          "zh-CN": "增加毒素伤害，持续 3 秒"
+        },
+        "min": 5,
+        "max": 9,
         "isSkillRef": false
       }
     ]
@@ -3403,6 +3392,17 @@
       }
     ],
     "fullSetBonuses": [
+      {
+        "key": "dmg-cold/lvl",
+        "label": {
+          "en": "Cold Damage (Based on Character Level)",
+          "zh-TW": "冷凍傷害（依角色等級）",
+          "zh-CN": "冷冻伤害（依角色等级）"
+        },
+        "min": 12,
+        "max": 12,
+        "isSkillRef": false
+      },
       {
         "key": "freeze",
         "label": {
