@@ -1029,8 +1029,19 @@ const setGroupsOut = Object.values(setsFullData)
         const dmgPois = scaleDmgPoisWithPar(code, par, min, max);
         const effectiveLabel = dmgPois ? dmgPois.label : label;
         if (dmgPois) ({ min, max } = dmgPois);
-        if (min === undefined || max === undefined) return [];
-        return [{ key, label: effectiveLabel, min, max, isSkillRef }];
+        if (min !== undefined && max !== undefined) {
+          return [{ key, label: effectiveLabel, min, max, isSkillRef }];
+        }
+        // Same par-only case as extractProps/extractSetBonuses/fullSetBonuses
+        // (level-scaling bonuses like dmg-ltng/lvl) — surface as a fixed
+        // min===max entry rather than silently dropping the tier's stat.
+        // Confirmed against d2r.world this session: Milabrega's Regalia's
+        // 2-piece tier grants a dmg-ltng/lvl bonus (PCode2b, PParam2b=16,
+        // no PMin2b/PMax2b) that this loop was dropping entirely.
+        if (par !== undefined) {
+          return [{ key, label: effectiveLabel, min: par, max: par, isSkillRef }];
+        }
+        return [];
       });
       if (stats.length === 0) return [];
       return [{ piecesRequired: n, stats }];

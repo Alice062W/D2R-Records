@@ -1271,6 +1271,17 @@
             "min": 30,
             "max": 30,
             "isSkillRef": false
+          },
+          {
+            "key": "dmg-fire/lvl",
+            "label": {
+              "en": "Fire Damage (Based on Character Level)",
+              "zh-TW": "火焰傷害（依角色等級）",
+              "zh-CN": "火焰伤害（依角色等级）"
+            },
+            "min": 24,
+            "max": 24,
+            "isSkillRef": false
           }
         ]
       }
@@ -2301,6 +2312,17 @@
             "min": 75,
             "max": 75,
             "isSkillRef": false
+          },
+          {
+            "key": "dmg-ltng/lvl",
+            "label": {
+              "en": "Lightning Damage (Based on Character Level)",
+              "zh-TW": "閃電傷害（依角色等級）",
+              "zh-CN": "闪电伤害（依角色等级）"
+            },
+            "min": 16,
+            "max": 16,
+            "isSkillRef": false
           }
         ]
       },
@@ -2404,6 +2426,17 @@
             },
             "min": 175,
             "max": 175,
+            "isSkillRef": false
+          },
+          {
+            "key": "mag%/lvl",
+            "label": {
+              "en": "Magic Find % (Based on Character Level)",
+              "zh-TW": "額外魔法物品尋獲率 %（依角色等級）",
+              "zh-CN": "额外魔法物品寻获率 %（依角色等级）"
+            },
+            "min": 12,
+            "max": 12,
             "isSkillRef": false
           }
         ]
