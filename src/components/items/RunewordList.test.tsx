@@ -105,10 +105,10 @@ describe('RunewordFilters + RunewordList', () => {
           <RunewordList runewords={[baseRunewordFixture]} locale="en" />
         </NextIntlClientProvider>
       );
-      expect(screen.queryByRole('checkbox')).not.toBeInTheDocument();
+      expect(screen.queryByRole('switch')).not.toBeInTheDocument();
     });
 
-    it('renders a checked checkbox for an owned runeword and calls toggle with its id and kind "runeword"', async () => {
+    it('renders an owned toggle ("Collected") for an owned runeword and calls toggle with its id and kind "runeword"', async () => {
       const toggle = vi.fn();
       vi.resetModules();
       vi.doMock('@/lib/grail/useOwnedItems', () => ({
@@ -122,9 +122,10 @@ describe('RunewordFilters + RunewordList', () => {
           <RunewordList runewords={[baseRunewordFixture]} locale="en" />
         </NextIntlClientProvider>
       );
-      const checkbox = screen.getByRole('checkbox');
-      expect(checkbox).toBeChecked();
-      fireEvent.click(checkbox);
+      const toggleButton = screen.getByRole('switch');
+      expect(toggleButton).toHaveAttribute('aria-checked', 'true');
+      expect(toggleButton).toHaveTextContent('Collected');
+      fireEvent.click(toggleButton);
       expect(toggle).toHaveBeenCalledWith(baseRunewordFixture.id, 'runeword');
     });
 

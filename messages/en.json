@@ -34,7 +34,7 @@
     "signInPrompt": "Sign in to view your grail tracker.",
     "signInGoogle": "Sign in with Google",
     "signOut": "Sign out",
-    "ownedCheckboxLabel": "I own this",
+    "markOwnedLabel": "Mark as Owned",
     "filterAll": "All",
     "filterCollected": "Collected",
     "filterMissing": "Missing",

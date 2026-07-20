@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import type { GrailItem } from '@/lib/grail/catalog';
 import { BASE_PATH } from '@/lib/basePath';
 import { useOwnedItems } from '@/lib/grail/useOwnedItems';
+import OwnedToggle from './OwnedToggle';
 
 // Authentic D2 item-rarity text colors (verified against d2r.world's computed styles).
 const NAME_COLOR: Record<GrailItem['kind'], string> = {
@@ -48,15 +49,7 @@ export default function ItemStatCard({ item }: { item: GrailItem }) {
           </div>
           {userId && (
             <div className="flex flex-col items-end gap-1 shrink-0">
-              <label className="flex items-center gap-1.5 cursor-pointer select-none">
-                <input
-                  type="checkbox"
-                  checked={ownedIds.has(item.id)}
-                  onChange={() => toggle(item.id, item.kind)}
-                  className="w-4 h-4 accent-amber-400"
-                  aria-label={t('ownedCheckboxLabel')}
-                />
-              </label>
+              <OwnedToggle owned={!!owned} onToggle={() => toggle(item.id, item.kind)} />
               {error && <p className="text-xs text-red-400 max-w-[140px] text-right">{error}</p>}
             </div>
           )}

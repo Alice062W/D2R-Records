@@ -150,10 +150,10 @@ describe('ItemStatCard', () => {
           <ItemStatCard item={baseItem} />
         </NextIntlClientProvider>
       );
-      expect(screen.queryByRole('checkbox')).not.toBeInTheDocument();
+      expect(screen.queryByRole('switch')).not.toBeInTheDocument();
     });
 
-    it('renders an unchecked checkbox for an unowned item when signed in', async () => {
+    it('renders an unowned toggle ("Mark as Owned") for an unowned item when signed in', async () => {
       vi.resetModules();
       vi.doMock('@/lib/grail/useOwnedItems', () => ({
         useOwnedItems: () => ({ userId: 'user-1', loading: false, ownedIds: new Set(), toggle: vi.fn(), error: null }),
@@ -164,10 +164,12 @@ describe('ItemStatCard', () => {
           <ItemStatCard item={baseItem} />
         </NextIntlClientProvider>
       );
-      expect(screen.getByRole('checkbox')).not.toBeChecked();
+      const toggleButton = screen.getByRole('switch');
+      expect(toggleButton).toHaveAttribute('aria-checked', 'false');
+      expect(toggleButton).toHaveTextContent('Mark as Owned');
     });
 
-    it('renders a checked checkbox for an owned item, and calls toggle with the item id and kind on click', async () => {
+    it('renders an owned toggle ("Collected") for an owned item, and calls toggle with the item id and kind on click', async () => {
       const toggle = vi.fn();
       vi.resetModules();
       vi.doMock('@/lib/grail/useOwnedItems', () => ({
@@ -179,9 +181,10 @@ describe('ItemStatCard', () => {
           <ItemStatCard item={baseItem} />
         </NextIntlClientProvider>
       );
-      const checkbox = screen.getByRole('checkbox');
-      expect(checkbox).toBeChecked();
-      fireEvent.click(checkbox);
+      const toggleButton = screen.getByRole('switch');
+      expect(toggleButton).toHaveAttribute('aria-checked', 'true');
+      expect(toggleButton).toHaveTextContent('Collected');
+      fireEvent.click(toggleButton);
       expect(toggle).toHaveBeenCalledWith('unique-99', 'unique');
     });
 

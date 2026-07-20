@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import type runewordsFullJson from '../../../data/runewords-full.json';
 import { BASE_PATH } from '@/lib/basePath';
 import { useOwnedItems } from '@/lib/grail/useOwnedItems';
+import OwnedToggle from './OwnedToggle';
 
 type Runeword = (typeof runewordsFullJson)[number];
 
@@ -43,17 +44,7 @@ export default function RunewordList({ runewords, locale }: { runewords: Runewor
                   {t('runewordsLadderOnly')}
                 </span>
               )}
-              {userId && (
-                <label className="flex items-center cursor-pointer select-none">
-                  <input
-                    type="checkbox"
-                    checked={ownedIds.has(rw.id)}
-                    onChange={() => toggle(rw.id, 'runeword')}
-                    className="w-4 h-4 accent-amber-400"
-                    aria-label={tGrail('ownedCheckboxLabel')}
-                  />
-                </label>
-              )}
+              {userId && <OwnedToggle owned={!!owned} onToggle={() => toggle(rw.id, 'runeword')} />}
             </div>
           </div>
           <div className="mt-2 text-sm text-parchment flex flex-col gap-1">

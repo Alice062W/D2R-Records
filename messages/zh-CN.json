@@ -34,7 +34,7 @@
     "signInPrompt": "登入以查看你的圣杯追踪器。",
     "signInGoogle": "使用 Google 登入",
     "signOut": "登出",
-    "ownedCheckboxLabel": "我拥有这个",
+    "markOwnedLabel": "标记为拥有",
     "filterAll": "全部",
     "filterCollected": "已收集",
     "filterMissing": "未收集",
