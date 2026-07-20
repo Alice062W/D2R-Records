@@ -355,6 +355,9 @@ const ITEM_ENGLISH_NAME_ALIASES = {
   'PreCrafted Cold Rupture': 'Latent Cold Rupture', 'PreCrafted Flame Rift': 'Latent Flame Rift',
   'PreCrafted Crack of the Heavens': 'Latent Crack of the Heavens', 'PreCrafted Rotting Fissure': 'Latent Rotting Fissure',
   'PreCrafted Bone Break': 'Latent Bone Break', 'PreCrafted Black Cleft': 'Latent Black Cleft',
+  'Crafted Cold Rupture': 'Renewed Cold Rupture', 'Crafted Flame Rift': 'Renewed Flame Rift',
+  'Crafted Crack of the Heavens': 'Renewed Crack of the Heavens', 'Crafted Rotting Fissure': 'Renewed Rotting Fissure',
+  'Crafted Bone Break': 'Renewed Bone Break', 'Crafted Black Cleft': 'Renewed Black Cleft',
   'Ars Al\'Diablolos': "Ars Al'Diabolos", 'Berserker\'s Garb': "Berserker's Arsenal",
   'Blinkbats Form': "Blinkbat's Form", 'Bloodraven\'s Charge': "Blood Raven's Charge", 'Bonesob': "Bonesnap",
   'Bul Katho\'s Wedding Band': "Bul-Kathos' Wedding Band", 'Cerebus': "Cerebus' Bite",
@@ -481,6 +484,9 @@ const ITEM_NAME_OVERRIDES = {
   'Latent Cold Rupture': "潛伏冰寒裂縫", 'Latent Flame Rift': "潛伏火焰裂隙",
   'Latent Crack of the Heavens': "潛伏天堂裂擊", 'Latent Rotting Fissure': "潛伏腐敗裂痕",
   'Latent Bone Break': "潛伏分筋裂骨", 'Latent Black Cleft': "潛伏漆黑裂口",
+  'Renewed Cold Rupture': "新生冰寒裂縫", 'Renewed Flame Rift': "新生火焰裂隙",
+  'Renewed Crack of the Heavens': "新生天堂裂擊", 'Renewed Rotting Fissure': "新生腐敗裂痕",
+  'Renewed Bone Break': "新生分筋裂骨", 'Renewed Black Cleft': "新生漆黑裂口",
   'Aldur\'s Rhythm': "艾爾多的律動", 'Angelic Raiment': "天使的衣裝", 'Ars Al\'Diabolos': "艾迪亞布羅斯學術",
   'Axe of Fechmar': "費屈瑪之斧", 'Berserker\'s Arsenal': "狂戰士的武裝", 'Blinkbat\'s Form': "閃蝠之軀",
   'Blood Raven\'s Charge': "血鴉之擊", 'Bonesnap': "碎骨", 'Bul-Kathos\' Wedding Band': "布爾凱索的婚戒",
@@ -519,9 +525,16 @@ function localizedItemName(rawEnglishName) {
   return { en: englishName, 'zh-TW': zhTw, 'zh-CN': toZhCn(zhTw) };
 }
 
+// cs2 ("Crafted Sunder Charm" — the Renewed-tier Metamorphic charm base) is
+// visually and functionally the same Grand Charm as cm3, just under an
+// internal placeholder name with no chi[] entry of its own — reuse cm3's.
+const BASE_CODE_ALIASES = { cs2: 'cm3' };
+
 function localizedBaseName(code, englishFallback) {
-  const zhTw = chi[code] ?? englishFallback;
-  return { en: englishFallback, 'zh-TW': zhTw, 'zh-CN': toZhCn(zhTw) };
+  const lookupCode = BASE_CODE_ALIASES[code] ?? code;
+  const englishName = BASE_CODE_ALIASES[code] ? (items[lookupCode]?.name ?? englishFallback) : englishFallback;
+  const zhTw = chi[lookupCode] ?? englishName;
+  return { en: englishName, 'zh-TW': zhTw, 'zh-CN': toZhCn(zhTw) };
 }
 
 // type code (items.json .type) -> slot category. Every code observed across
@@ -533,7 +546,7 @@ const TYPE_TO_SLOT = {
   shie: 'shields', ashd: 'shields', head: 'shields',
   belt: 'belts', boot: 'boots', glov: 'gloves',
   ring: 'rings', amul: 'amulets',
-  scha: 'charms', mcha: 'charms', lcha: 'charms',
+  scha: 'charms', mcha: 'charms', lcha: 'charms', csch: 'charms',
   jewl: 'jewels',
   swor: 'swords', knif: 'daggers', axe: 'axes', pole: 'polearms',
   spea: 'spears', aspe: 'spears',
@@ -588,6 +601,15 @@ function extractProps(entry, count, prefixes = { code: 'prop', par: 'par', min: 
     // stat. Showing "Ethereal: 1" as a property line would be misleading, so it's
     // excluded here rather than given a (necessarily made-up) label.
     if (rawCode === 'ethereal') continue;
+    // "<Family>-Affix1".."Affix6" (e.g. "Gelid-Affix1") on the Renewed-tier
+    // Metamorphic charms (Crafted Cold Rupture etc.) are NOT the charm's own
+    // stats — they're min=max=1 boolean tags an unrelated cross-item tracking
+    // system reads elsewhere in the game data. The charm's real bonus roll
+    // (the "pick one of N affixes" pool d2r.world shows) isn't present
+    // anywhere in this vendor snapshot, so there's nothing accurate to show
+    // for it — surfaced instead as a plain-text note (RENEWED_CHARM_NOTE_IDS)
+    // rather than rendering these meaningless raw codes.
+    if (/^[A-Za-z]+-Affix\d$/.test(rawCode)) continue;
     const code = CODE_ALIASES[rawCode] ?? rawCode;
     const par = entry[`${prefixes.par}${n}`];
     const isSkillRef = SKILL_REF_PROPS.has(code);
@@ -657,8 +679,22 @@ function extractSetBonuses(entry) {
 // correctly omits it; excluded here to match.
 const UNSPAWNABLE_UNIQUE_CODES = new Set(['vip']);
 
+// The "Renewed" tier of the six Metamorphic charms (Crafted Cold Rupture,
+// etc. — see ITEM_ENGLISH_NAME_ALIASES below) is spawnable: undefined in
+// vendor data (obtained only via an in-game "renewal" recipe, not a normal
+// drop), but they're real, current items d2r.world lists — included here by
+// *ID despite the spawnable filter. RENEWED_CHARM_NOTE is attached via
+// RENEWED_CHARM_IDS below since their bonus-affix roll isn't resolvable from
+// this vendor snapshot (see the "-Affix" skip in extractProps above).
+const RENEWED_CHARM_IDS = new Set(['427', '433', '434', '435', '436', '437']);
+
+const RENEWED_CHARM_NOTE = {
+  en: 'This item rolls a random bonus affix on top of the stats shown, which this site cannot currently display — see d2r.world for the full affix pool.',
+  'zh-TW': '此物品除了以上顯示的屬性外，還會隨機獲得一項額外的加成屬性，本站目前無法顯示——完整的隨機屬性池請參考 d2r.world。',
+};
+
 const uniquesOut = Object.entries(uniqueItems)
-  .filter(([, v]) => v.spawnable === 1 && !UNSPAWNABLE_UNIQUE_CODES.has(v.code))
+  .filter(([id, v]) => (v.spawnable === 1 || RENEWED_CHARM_IDS.has(id)) && !UNSPAWNABLE_UNIQUE_CODES.has(v.code))
   .map(([id, v]) => {
     const { variable, fixed } = extractProps(v, 10, { code: 'prop', par: 'par', min: 'min', max: 'max' });
     return {
@@ -674,6 +710,9 @@ const uniquesOut = Object.entries(uniqueItems)
       fixedStats: fixed,
       setBonuses: [],
       statPriority: variable.map(s => s.key),
+      note: RENEWED_CHARM_IDS.has(id)
+        ? { en: RENEWED_CHARM_NOTE.en, 'zh-TW': RENEWED_CHARM_NOTE['zh-TW'], 'zh-CN': toZhCn(RENEWED_CHARM_NOTE['zh-TW']) }
+        : null,
     };
   });
 
@@ -694,6 +733,7 @@ const setsOut = Object.entries(setItemsRaw)
       fixedStats: fixed,
       setBonuses: extractSetBonuses(v),
       statPriority: variable.map(s => s.key),
+      note: null,
     };
   });
 

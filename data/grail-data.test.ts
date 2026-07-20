@@ -23,10 +23,11 @@ function isLocalizedText(v: unknown): v is LocalizedText {
 
 describe('generated grail catalog', () => {
   it('has the expected item counts', () => {
-    // 402, not 403: "Amulet of the Viper" (code vip) is excluded — a
-    // vestigial spawnable=1 entry with no real treasure-class placement
-    // that d2r.world's own catalog omits too.
-    expect(uniques.length).toBe(402);
+    // 408: 403 - 1 ("Amulet of the Viper", a vestigial spawnable=1 entry
+    // with no real treasure-class placement, excluded to match d2r.world)
+    // + 6 (the "Renewed" tier of the Metamorphic charms, spawnable:
+    // undefined in vendor data but real current items, included by *ID).
+    expect(uniques.length).toBe(408);
     expect(sets.length).toBe(135);
   });
 

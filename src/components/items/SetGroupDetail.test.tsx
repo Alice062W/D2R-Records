@@ -11,7 +11,7 @@ describe('SetGroupDetail', () => {
       id: 'set-1', code: 'xxx', name: "Aldur's Advance", kind: 'set', setName: "Aldur's Watchtower",
       levelReq: 45, baseName: 'Battle Boots', grade: 'exceptional', slotCategory: 'boots',
       defense: null, requiredStrength: 95, durability: 18, invFile: '',
-      stats: [], fixedStats: [], setBonuses: [], statPriority: [],
+      stats: [], fixedStats: [], setBonuses: [], statPriority: [], note: null,
     };
     render(
       <NextIntlClientProvider locale="en" messages={messages}>
@@ -34,7 +34,7 @@ describe('SetGroupDetail', () => {
       id: 'set-2', code: 'yyy', name: 'Tal Rasha Piece', kind: 'set', setName: 'Tal Rasha',
       levelReq: 65, baseName: 'Crystal', grade: 'exceptional', slotCategory: 'orb',
       defense: null, requiredStrength: null, durability: 50, invFile: '',
-      stats: [], fixedStats: [], setBonuses: [], statPriority: [],
+      stats: [], fixedStats: [], setBonuses: [], statPriority: [], note: null,
     };
     render(
       <NextIntlClientProvider locale="en" messages={messages}>
@@ -60,7 +60,7 @@ describe('SetGroupDetail — collected/missing filter', () => {
     id: 'set-1', code: 'a', name: 'Piece A', kind: 'set', setName: 'Test Set',
     levelReq: 1, baseName: 'Boots', grade: 'exceptional', slotCategory: 'boots',
     defense: null, requiredStrength: null, durability: null, invFile: '',
-    stats: [], fixedStats: [], setBonuses: [], statPriority: [],
+    stats: [], fixedStats: [], setBonuses: [], statPriority: [], note: null,
   };
   const pieceB: GrailItem = { ...pieceA, id: 'set-2', name: 'Piece B' };
 

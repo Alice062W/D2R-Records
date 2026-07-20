@@ -83,6 +83,10 @@ export default function ItemStatCard({ item }: { item: GrailItem }) {
         </div>
       )}
 
+      {item.note && (
+        <p className="mt-4 text-xs text-muted italic">{item.note}</p>
+      )}
+
       {item.setBonuses.length > 0 && (
         <div className="mt-4">
           <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('setBonusesLabel')}</h4>

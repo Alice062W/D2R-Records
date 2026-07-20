@@ -69,7 +69,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-1",
@@ -151,7 +152,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-2",
@@ -253,7 +255,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-3",
@@ -359,7 +362,8 @@
       "ltng-max",
       "att",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-4",
@@ -461,7 +465,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-5",
@@ -533,7 +538,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-6",
@@ -615,7 +621,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-7",
@@ -699,7 +706,8 @@
     "statPriority": [
       "res-all",
       "dmg-ltng"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-8",
@@ -795,7 +803,8 @@
       "manasteal",
       "dmg%",
       "dmg-fire"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-9",
@@ -891,7 +900,8 @@
       "str",
       "dmg-max",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-10",
@@ -983,7 +993,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg-fire"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-11",
@@ -1111,7 +1122,8 @@
       "skill:77",
       "skill:66",
       "skill:76"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-12",
@@ -1223,7 +1235,8 @@
     "setBonuses": [],
     "statPriority": [
       "mana"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-13",
@@ -1311,7 +1324,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-14",
@@ -1403,7 +1417,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-15",
@@ -1495,7 +1510,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-16",
@@ -1613,7 +1629,8 @@
       "dmg%",
       "dmg-undead",
       "skill:111"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-17",
@@ -1721,7 +1738,8 @@
       "dmg-cold",
       "dmg%",
       "skill:110"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-18",
@@ -1793,7 +1811,8 @@
     "setBonuses": [],
     "statPriority": [
       "thorns"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-19",
@@ -1885,7 +1904,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-20",
@@ -1983,7 +2003,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-21",
@@ -2085,7 +2106,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-22",
@@ -2179,7 +2201,8 @@
     "statPriority": [
       "att",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-23",
@@ -2261,7 +2284,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-24",
@@ -2333,7 +2357,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-25",
@@ -2421,7 +2446,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-26",
@@ -2523,7 +2549,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-27",
@@ -2615,7 +2642,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg-norm"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-28",
@@ -2709,7 +2737,8 @@
     "statPriority": [
       "dmg%",
       "dmg-cold"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-30",
@@ -2815,7 +2844,8 @@
       "fire-min",
       "fire-max",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-31",
@@ -2929,7 +2959,8 @@
     "statPriority": [
       "dmg%",
       "dmg-fire"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-32",
@@ -3021,7 +3052,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-33",
@@ -3113,7 +3145,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg-cold"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-34",
@@ -3197,7 +3230,8 @@
     "statPriority": [
       "manasteal",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-35",
@@ -3293,7 +3327,8 @@
       "att",
       "fire-max",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-36",
@@ -3385,7 +3420,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-37",
@@ -3457,7 +3493,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-38",
@@ -3549,7 +3586,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-39",
@@ -3617,7 +3655,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-40",
@@ -3705,7 +3744,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-41",
@@ -3787,7 +3827,8 @@
     "setBonuses": [],
     "statPriority": [
       "att"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-42",
@@ -3855,7 +3896,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-43",
@@ -3937,7 +3979,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg-fire"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-44",
@@ -4029,7 +4072,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-45",
@@ -4113,7 +4157,8 @@
     "statPriority": [
       "lifesteal",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-46",
@@ -4191,7 +4236,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-47",
@@ -4303,7 +4349,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-48",
@@ -4371,7 +4418,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-49",
@@ -4465,7 +4513,8 @@
     "statPriority": [
       "dmg%",
       "dur"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-50",
@@ -4557,7 +4606,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-51",
@@ -4641,7 +4691,8 @@
     "statPriority": [
       "dmg%",
       "att"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-52",
@@ -4753,7 +4804,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-53",
@@ -4841,7 +4893,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-54",
@@ -4953,7 +5006,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-55",
@@ -5055,7 +5109,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-56",
@@ -5177,7 +5232,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg-ltng"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-57",
@@ -5269,7 +5325,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg-fire"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-58",
@@ -5377,7 +5434,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-59",
@@ -5465,7 +5523,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-60",
@@ -5557,7 +5616,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-61",
@@ -5639,7 +5699,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-62",
@@ -5731,7 +5792,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-63",
@@ -5825,7 +5887,8 @@
     "statPriority": [
       "dmg-ltng",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-64",
@@ -5941,7 +6004,8 @@
       "att",
       "dmg%",
       "pierce-cold"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-65",
@@ -6057,7 +6121,8 @@
       "fire-max",
       "att",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-66",
@@ -6139,7 +6204,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-67",
@@ -6227,7 +6293,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-68",
@@ -6315,7 +6382,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-69",
@@ -6419,7 +6487,8 @@
     "statPriority": [
       "dmg%",
       "dmg-fire"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-70",
@@ -6501,7 +6570,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-71",
@@ -6582,7 +6652,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-72",
@@ -6647,7 +6718,8 @@
     "setBonuses": [],
     "statPriority": [
       "mag%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-73",
@@ -6728,7 +6800,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-74",
@@ -6825,7 +6898,8 @@
     "statPriority": [
       "ac",
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-75",
@@ -6906,7 +6980,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-76",
@@ -6997,7 +7072,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-77",
@@ -7114,7 +7190,8 @@
     "statPriority": [
       "ac%",
       "att-undead"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-78",
@@ -7195,7 +7272,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-79",
@@ -7286,7 +7364,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-80",
@@ -7377,7 +7456,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-81",
@@ -7488,7 +7568,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-82",
@@ -7579,7 +7660,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-83",
@@ -7674,7 +7756,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-84",
@@ -7759,7 +7842,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-85",
@@ -7838,7 +7922,8 @@
       "ac%",
       "dmg-ltng",
       "light-thorns"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-86",
@@ -7923,7 +8008,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-87",
@@ -8008,7 +8094,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-88",
@@ -8083,7 +8170,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-89",
@@ -8168,7 +8256,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-90",
@@ -8239,7 +8328,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-91",
@@ -8324,7 +8414,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-92",
@@ -8399,7 +8490,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-93",
@@ -8490,7 +8582,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-94",
@@ -8607,7 +8700,8 @@
     "statPriority": [
       "ac%",
       "dur"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-95",
@@ -8724,7 +8818,8 @@
     "statPriority": [
       "ac%",
       "dur"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-96",
@@ -8843,7 +8938,8 @@
       "dmg-ltng",
       "ac%",
       "dur"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-97",
@@ -8938,7 +9034,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-98",
@@ -9045,7 +9142,8 @@
     "statPriority": [
       "bloody",
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-99",
@@ -9172,7 +9270,8 @@
     "statPriority": [
       "ac%",
       "dur"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-100",
@@ -9279,7 +9378,8 @@
     "statPriority": [
       "ac%",
       "dur"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-101",
@@ -9374,7 +9474,8 @@
     "setBonuses": [],
     "statPriority": [
       "res-all"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-102",
@@ -9469,7 +9570,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-103",
@@ -9564,7 +9666,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-104",
@@ -9661,7 +9764,8 @@
     "statPriority": [
       "mag%",
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-105",
@@ -9758,7 +9862,8 @@
     "statPriority": [
       "dmg-fire",
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-106",
@@ -9845,7 +9950,8 @@
     "statPriority": [
       "dmg-cold",
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-107",
@@ -9942,7 +10048,8 @@
     "statPriority": [
       "dmg-fire",
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-108",
@@ -10049,7 +10156,8 @@
     "statPriority": [
       "bloody",
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-109",
@@ -10144,7 +10252,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-110",
@@ -10239,7 +10348,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-111",
@@ -10344,7 +10454,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-112",
@@ -10415,7 +10526,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-113",
@@ -10510,7 +10622,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-114",
@@ -10605,7 +10718,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-115",
@@ -10702,7 +10816,8 @@
     "statPriority": [
       "ac%",
       "gold%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-116",
@@ -10807,7 +10922,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-117",
@@ -10889,7 +11005,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg-fire"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-118",
@@ -11001,7 +11118,8 @@
       "cold-min",
       "cold-max",
       "cold-len"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-119",
@@ -11109,7 +11227,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-120",
@@ -11183,7 +11302,8 @@
     "statPriority": [
       "att",
       "mag%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-121",
@@ -11257,7 +11377,8 @@
     "statPriority": [
       "manasteal",
       "regen"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-122",
@@ -11335,7 +11456,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-124",
@@ -11383,7 +11505,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-125",
@@ -11461,7 +11584,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-126",
@@ -11529,7 +11653,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-127",
@@ -11597,7 +11722,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-128",
@@ -11685,7 +11811,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-129",
@@ -11789,7 +11916,8 @@
     "statPriority": [
       "gethit-skill:44",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-130",
@@ -11883,7 +12011,8 @@
     "statPriority": [
       "dmg%",
       "dmg-norm"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-131",
@@ -12015,7 +12144,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-132",
@@ -12101,7 +12231,8 @@
       "hit-skill:244",
       "dmg-fire",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-133",
@@ -12195,7 +12326,8 @@
     "statPriority": [
       "hit-skill:92",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-134",
@@ -12283,7 +12415,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-135",
@@ -12423,7 +12556,8 @@
       "charged:87",
       "charged:101",
       "charged:225"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-136",
@@ -12543,7 +12677,8 @@
       "dmg-ltng",
       "dmg-norm",
       "gethit-skill:38"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-137",
@@ -12659,7 +12794,8 @@
       "dmg%",
       "charged:101",
       "gethit-skill:101"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-138",
@@ -12765,7 +12901,8 @@
       "str",
       "dmg-norm",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-139",
@@ -12853,7 +12990,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-140",
@@ -12951,7 +13089,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-141",
@@ -13085,7 +13224,8 @@
     "statPriority": [
       "gethit-skill:93",
       "gethit-skill:88"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-142",
@@ -13197,7 +13337,8 @@
     "setBonuses": [],
     "statPriority": [
       "charged:150"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-143",
@@ -13289,7 +13430,8 @@
     "setBonuses": [],
     "statPriority": [
       "att%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-144",
@@ -13413,7 +13555,8 @@
     "statPriority": [
       "hit-skill:59",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-145",
@@ -13523,7 +13666,8 @@
       "dmg%",
       "att",
       "dmg-norm"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-146",
@@ -13659,7 +13803,8 @@
       "dmg%",
       "dmg-norm",
       "hit-skill:121"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-147",
@@ -13783,7 +13928,8 @@
     "statPriority": [
       "dmg-norm",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-148",
@@ -13881,7 +14027,8 @@
       "dmg%",
       "dmg-norm",
       "charged:64"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-149",
@@ -13993,7 +14140,8 @@
       "dmg%",
       "charged:56",
       "dmg-norm"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-150",
@@ -14101,7 +14249,8 @@
       "dmg-ltng",
       "dmg%",
       "charged:48"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-151",
@@ -14203,7 +14352,8 @@
     "setBonuses": [],
     "statPriority": [
       "hit-skill:234"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-152",
@@ -14305,7 +14455,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-153",
@@ -14415,7 +14566,8 @@
       "dmg-norm",
       "dmg%",
       "charged:66"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-154",
@@ -14541,7 +14693,8 @@
       "dmg-norm",
       "skill:127",
       "skill:151"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-155",
@@ -14643,7 +14796,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-156",
@@ -14749,7 +14903,8 @@
       "charged:62",
       "dmg-norm",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-157",
@@ -14843,7 +14998,8 @@
     "statPriority": [
       "dmg%",
       "dex"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-158",
@@ -14939,7 +15095,8 @@
       "red-mag",
       "dmg-mag",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-159",
@@ -15017,7 +15174,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-160",
@@ -15111,7 +15269,8 @@
     "statPriority": [
       "hit-skill:92",
       "dmg-norm"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-161",
@@ -15223,7 +15382,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-162",
@@ -15315,7 +15475,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-163",
@@ -15411,7 +15572,8 @@
       "dmg-cold",
       "hit-skill:64",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-164",
@@ -15505,7 +15667,8 @@
     "statPriority": [
       "hit-skill:66",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-165",
@@ -15631,7 +15794,8 @@
       "hit-skill:121",
       "dmg-ltng",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-166",
@@ -15741,7 +15905,8 @@
       "dmg%",
       "charged:52",
       "charged:51"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-167",
@@ -15865,7 +16030,8 @@
     "statPriority": [
       "res-all",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-168",
@@ -15979,7 +16145,8 @@
     "statPriority": [
       "dmg%",
       "dmg-norm"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-169",
@@ -16083,7 +16250,8 @@
     "statPriority": [
       "dmg-norm",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-170",
@@ -16195,7 +16363,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg-norm"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-171",
@@ -16279,7 +16448,8 @@
     "statPriority": [
       "dmg-ltng",
       "gethit-skill:38"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-172",
@@ -16391,7 +16561,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-173",
@@ -16485,7 +16656,8 @@
     "statPriority": [
       "dmg-norm",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-174",
@@ -16589,7 +16761,8 @@
     "statPriority": [
       "dmg%",
       "att"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-175",
@@ -16673,7 +16846,8 @@
     "statPriority": [
       "dmg-norm",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-176",
@@ -16797,7 +16971,8 @@
     "statPriority": [
       "dmg-norm",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-177",
@@ -16889,7 +17064,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-178",
@@ -16981,7 +17157,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-179",
@@ -17075,7 +17252,8 @@
     "statPriority": [
       "dru",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-180",
@@ -17181,7 +17359,8 @@
       "dmg-norm",
       "dmg%",
       "att"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-181",
@@ -17277,7 +17456,8 @@
       "att",
       "dmg-norm",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-182",
@@ -17403,7 +17583,8 @@
       "dmg-fire",
       "dmg%",
       "att"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-183",
@@ -17501,7 +17682,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-184",
@@ -17625,7 +17807,8 @@
     "statPriority": [
       "dmg-norm",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-185",
@@ -17739,7 +17922,8 @@
     "statPriority": [
       "res-all",
       "hp%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-186",
@@ -17827,7 +18011,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-187",
@@ -17895,7 +18080,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-188",
@@ -18001,7 +18187,8 @@
       "dmg-ltng",
       "dmg%",
       "hit-skill:56"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-189",
@@ -18095,7 +18282,8 @@
     "statPriority": [
       "dmg%",
       "lifesteal"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-190",
@@ -18189,7 +18377,8 @@
     "statPriority": [
       "dmg%",
       "dmg-fire"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-191",
@@ -18285,7 +18474,8 @@
       "skill:26",
       "dmg%",
       "dmg-cold"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-192",
@@ -18379,7 +18569,8 @@
     "statPriority": [
       "hit-skill:66",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-193",
@@ -18485,7 +18676,8 @@
       "dmg%",
       "dmg-min",
       "dmg-max"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-194",
@@ -18613,7 +18805,8 @@
       "att",
       "dmg-norm",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-195",
@@ -18723,7 +18916,8 @@
       "dmg-undead",
       "dmg-demon",
       "hit-skill:121"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-196",
@@ -18831,7 +19025,8 @@
       "mag%",
       "dmg-max",
       "dmg-ltng"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-197",
@@ -18947,7 +19142,8 @@
       "hit-skill:91",
       "gethit-skill:92",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-198",
@@ -19063,7 +19259,8 @@
       "ac",
       "dmg%",
       "dmg-cold"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-199",
@@ -19161,7 +19358,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-201",
@@ -19256,7 +19454,8 @@
     "setBonuses": [],
     "statPriority": [
       "regen"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-202",
@@ -19367,7 +19566,8 @@
       "ac%",
       "res-fire",
       "res-cold"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-203",
@@ -19464,7 +19664,8 @@
     "statPriority": [
       "ac%",
       "mag%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-204",
@@ -19573,7 +19774,8 @@
       "gethit-skill:71",
       "charged:264",
       "res-fire"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-205",
@@ -19662,7 +19864,8 @@
       "ac%",
       "ama",
       "mana-kill"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-206",
@@ -19771,7 +19974,8 @@
       "lifesteal",
       "ac%",
       "gold%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-207",
@@ -19866,7 +20070,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-208",
@@ -19979,7 +20184,8 @@
       "red-dmg%",
       "red-mag",
       "dmg-cold"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-209",
@@ -20064,7 +20270,8 @@
     "setBonuses": [],
     "statPriority": [
       "red-mag"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-210",
@@ -20151,7 +20358,8 @@
     "statPriority": [
       "res-all",
       "red-mag"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-211",
@@ -20250,7 +20458,8 @@
       "regen",
       "lifesteal",
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-212",
@@ -20349,7 +20558,8 @@
       "red-mag",
       "red-dmg",
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-213",
@@ -20456,7 +20666,8 @@
     "statPriority": [
       "dmg-fire",
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-214",
@@ -20553,7 +20764,8 @@
     "statPriority": [
       "ac%",
       "*charged"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-215",
@@ -20628,7 +20840,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-216",
@@ -20763,7 +20976,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-217",
@@ -20858,7 +21072,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-218",
@@ -20963,7 +21178,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-219",
@@ -21072,7 +21288,8 @@
       "thorns",
       "ac",
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-220",
@@ -21187,7 +21404,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-221",
@@ -21286,7 +21504,8 @@
       "att-demon",
       "ac%",
       "dmg-demon"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-222",
@@ -21397,7 +21616,8 @@
       "ac%",
       "dmg-fire",
       "charged:74"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-223",
@@ -21504,7 +21724,8 @@
     "statPriority": [
       "red-mag",
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-224",
@@ -21589,7 +21810,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-225",
@@ -21674,7 +21896,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-226",
@@ -21805,7 +22028,8 @@
       "ac%",
       "gethit-skill:59",
       "gethit-skill:245"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-227",
@@ -21944,7 +22168,8 @@
       "gethit-skill:44",
       "gethit-skill:48",
       "gethit-skill:62"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-228",
@@ -22055,7 +22280,8 @@
       "red-mag",
       "ac%",
       "res-all"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-229",
@@ -22172,7 +22398,8 @@
     "statPriority": [
       "ac%",
       "charged:83"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-230",
@@ -22279,7 +22506,8 @@
     "statPriority": [
       "mana-kill",
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-231",
@@ -22374,7 +22602,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-232",
@@ -22481,7 +22710,8 @@
     "statPriority": [
       "ac",
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-233",
@@ -22570,7 +22800,8 @@
       "dmg-undead",
       "att-undead",
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-234",
@@ -22657,7 +22888,8 @@
     "statPriority": [
       "manasteal",
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-235",
@@ -22766,7 +22998,8 @@
       "hit-skill:52",
       "ac%",
       "dmg-fire"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-236",
@@ -22867,7 +23100,8 @@
       "ac%",
       "hit-skill:56",
       "hit-skill:225"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-237",
@@ -22998,7 +23232,8 @@
       "ac%",
       "gold%",
       "gethit-skill:46"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-238",
@@ -23115,7 +23350,8 @@
     "statPriority": [
       "ac%",
       "hp"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-239",
@@ -23200,7 +23436,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-240",
@@ -23331,7 +23568,8 @@
       "ac%",
       "dmg-norm",
       "thorns"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-241",
@@ -23446,7 +23684,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-242",
@@ -23547,7 +23786,8 @@
       "red-dmg%",
       "lifesteal",
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-243",
@@ -23642,7 +23882,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-244",
@@ -23737,7 +23978,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-245",
@@ -23856,7 +24098,8 @@
       "gethit-skill:59",
       "dmg-cold",
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-246",
@@ -23985,7 +24228,8 @@
       "gethit-skill:121",
       "dmg-ltng",
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-248",
@@ -24106,7 +24350,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-249",
@@ -24207,7 +24452,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-250",
@@ -24336,7 +24582,8 @@
       "ac%",
       "red-mag",
       "red-dmg"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-251",
@@ -24425,7 +24672,8 @@
       "ac%",
       "allskills",
       "red-dmg"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-252",
@@ -24542,7 +24790,8 @@
     "statPriority": [
       "ac%",
       "gethit-skill:72"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-253",
@@ -24663,7 +24912,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-254",
@@ -24767,7 +25017,8 @@
     "statPriority": [
       "dmg-fire",
       "att-skill:47"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-255",
@@ -24889,7 +25140,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg-fire"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-256",
@@ -25015,7 +25267,8 @@
       "dmg-ltng",
       "dmg-fire",
       "dmg-cold"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-257",
@@ -25151,7 +25404,8 @@
       "hit-skill:42",
       "dmg%",
       "dmg-ltng"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-258",
@@ -25265,7 +25519,8 @@
     "statPriority": [
       "dmg%",
       "hit-skill:66"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-259",
@@ -25407,7 +25662,8 @@
       "manasteal",
       "dmg%",
       "dmg-norm"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-260",
@@ -25515,7 +25771,8 @@
       "dmg-norm",
       "hit-skill:72",
       "lifesteal"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-261",
@@ -25637,7 +25894,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-262",
@@ -25725,7 +25983,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-264",
@@ -25851,7 +26110,8 @@
       "dmg%",
       "gethit-skill:38",
       "dmg-ltng"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-265",
@@ -25939,7 +26199,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-266",
@@ -26051,7 +26312,8 @@
     "setBonuses": [],
     "statPriority": [
       "manasteal"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-268",
@@ -26123,7 +26385,8 @@
     "setBonuses": [],
     "statPriority": [
       "lifesteal"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-269",
@@ -26201,7 +26464,8 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": []
+    "statPriority": [],
+    "note": null
   },
   {
     "id": "unique-270",
@@ -26295,7 +26559,8 @@
     "statPriority": [
       "gethit-skill:56",
       "dmg-fire"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-271",
@@ -26389,7 +26654,8 @@
     "statPriority": [
       "manasteal",
       "lifesteal"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-272",
@@ -26481,7 +26747,8 @@
     "setBonuses": [],
     "statPriority": [
       "res-all"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-273",
@@ -26573,7 +26840,8 @@
     "setBonuses": [],
     "statPriority": [
       "hit-skill:66"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-274",
@@ -26665,7 +26933,8 @@
     "setBonuses": [],
     "statPriority": [
       "red-mag"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-275",
@@ -26761,7 +27030,8 @@
       "dmg-cold",
       "dex",
       "att"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-276",
@@ -26853,7 +27123,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg-ltng"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-277",
@@ -26947,7 +27218,8 @@
     "statPriority": [
       "res-all",
       "gethit-skill:76"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-279",
@@ -27074,7 +27346,8 @@
     "statPriority": [
       "ac%",
       "lifesteal"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-280",
@@ -27199,7 +27472,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-281",
@@ -27335,7 +27609,8 @@
       "dmg%",
       "lifesteal",
       "dmg-norm"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-282",
@@ -27461,7 +27736,8 @@
       "dmg%",
       "manasteal",
       "dmg-norm"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-283",
@@ -27587,7 +27863,8 @@
       "dmg%",
       "lifesteal",
       "dmg-norm"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-284",
@@ -27709,7 +27986,8 @@
     "setBonuses": [],
     "statPriority": [
       "gethit-skill:54"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-285",
@@ -27834,7 +28112,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-286",
@@ -27960,7 +28239,8 @@
       "dmg%",
       "lifesteal",
       "dmg-norm"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-287",
@@ -28085,7 +28365,8 @@
     "setBonuses": [],
     "statPriority": [
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-288",
@@ -28189,7 +28470,8 @@
     "statPriority": [
       "dmg%",
       "lifesteal"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-289",
@@ -28277,7 +28559,8 @@
       "lifesteal",
       "charged:BloodGolem",
       "heal-kill"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-290",
@@ -28390,7 +28673,8 @@
       "abs-ltng",
       "manasteal",
       "sock"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-291",
@@ -28488,7 +28772,8 @@
       "att",
       "lifesteal",
       "manasteal"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-292",
@@ -28582,7 +28867,8 @@
     "statPriority": [
       "dmg%",
       "hit-skill:Nova"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-293",
@@ -28666,7 +28952,8 @@
     "statPriority": [
       "dmg%",
       "lifesteal"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-294",
@@ -28748,7 +29035,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-296",
@@ -28858,7 +29146,8 @@
       "lifesteal",
       "charged:Enchant",
       "res-fire"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-297",
@@ -28938,7 +29227,8 @@
       "abs-fire",
       "manasteal",
       "regen"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-298",
@@ -29082,7 +29372,8 @@
       "att-undead",
       "heal-kill",
       "sock"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-299",
@@ -29170,7 +29461,8 @@
       "heal-kill",
       "mana-kill",
       "skilltab:7"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-300",
@@ -29256,7 +29548,8 @@
       "red-dmg",
       "res-pois",
       "charged:Oak Sage"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-301",
@@ -29376,7 +29669,8 @@
       "aura:Sanctuary",
       "dmg-cold",
       "all-stats"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-302",
@@ -29486,7 +29780,8 @@
       "dmg-undead",
       "att-demon",
       "att-undead"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-304",
@@ -29588,7 +29883,8 @@
     "setBonuses": [],
     "statPriority": [
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-306",
@@ -29672,7 +29968,8 @@
     "statPriority": [
       "dmg%",
       "hit-skill:Tornado"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-307",
@@ -29768,7 +30065,8 @@
       "dmg%",
       "str",
       "dmg"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-308",
@@ -29868,7 +30166,8 @@
       "res-all",
       "skilltab:19",
       "skilltab:20"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-309",
@@ -29967,7 +30266,8 @@
       "ac%",
       "dex",
       "skilltab:19"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-310",
@@ -30070,7 +30370,8 @@
       "lifesteal",
       "att%",
       "skill:feral rage"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-311",
@@ -30201,7 +30502,8 @@
       "dmg-demon",
       "res-all",
       "str"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-312",
@@ -30292,7 +30594,8 @@
       "manasteal",
       "lifesteal",
       "hit-skill:Weaken"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-313",
@@ -30366,7 +30669,8 @@
     "statPriority": [
       "dmg%",
       "sock"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-314",
@@ -30450,7 +30754,8 @@
     "statPriority": [
       "dmg%",
       "heal-kill"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-315",
@@ -30534,7 +30839,8 @@
     "statPriority": [
       "dmg%",
       "kill-skill:Decrepify"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-316",
@@ -30623,7 +30929,8 @@
       "res-all",
       "ac",
       "skilltab:2"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-317",
@@ -30714,7 +31021,8 @@
       "ac",
       "red-dmg%",
       "str"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-319",
@@ -30815,7 +31123,8 @@
       "charged:Oak Sage",
       "charged:Heart of Wolverine",
       "charged:Spirit of Barbs"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-320",
@@ -30901,7 +31210,8 @@
       "dmg%",
       "lifesteal",
       "charged:Plague Javelin"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-321",
@@ -31005,7 +31315,8 @@
     "statPriority": [
       "dmg%",
       "hit-skill:Amplify Damage"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-322",
@@ -31101,7 +31412,8 @@
       "pierce-fire",
       "pierce-ltng",
       "pierce-cold"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-323",
@@ -31199,7 +31511,8 @@
       "att",
       "hit-skill:Poison Explosion",
       "res-pois"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-324",
@@ -31309,7 +31622,8 @@
       "dmg-demon",
       "demon-heal",
       "att"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-325",
@@ -31424,7 +31738,8 @@
       "skilltab:12",
       "skilltab:13",
       "skilltab:14"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-326",
@@ -31532,7 +31847,8 @@
       "hit-skill:Decrepify",
       "lifesteal",
       "dmg-cold"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-327",
@@ -31645,7 +31961,8 @@
       "res-fire",
       "abs-cold%",
       "dru"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-328",
@@ -31743,7 +32060,8 @@
       "dmg-elem",
       "att%",
       "charged:Immolation Arrow"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-329",
@@ -31856,7 +32174,8 @@
       "red-mag",
       "att%",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-330",
@@ -31957,7 +32276,8 @@
       "skilltab:6",
       "skilltab:7",
       "skilltab:8"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-331",
@@ -32041,7 +32361,8 @@
     "statPriority": [
       "dmg%",
       "oskill:Guided Arrow"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-332",
@@ -32129,7 +32450,8 @@
       "att%",
       "skilltab:0",
       "charged:Revive"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-333",
@@ -32223,7 +32545,8 @@
     "statPriority": [
       "dmg%",
       "manasteal"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-334",
@@ -32319,7 +32642,8 @@
       "dmg%",
       "mana-kill",
       "hit-skill:Frost Nova"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-335",
@@ -32417,7 +32741,8 @@
       "dmg-fire",
       "dmg-cold",
       "dmg-ltng"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-336",
@@ -32506,7 +32831,8 @@
       "ac",
       "extra-ltng",
       "pierce-ltng"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-337",
@@ -32580,7 +32906,8 @@
     "statPriority": [
       "dmg%",
       "hit-skill:Twister"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-338",
@@ -32688,7 +33015,8 @@
       "dmg-ltng",
       "hit-skill:Lightning",
       "skilltab:2"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-340",
@@ -32786,7 +33114,8 @@
       "dmg-fire",
       "lifesteal",
       "dmg-ltng"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-341",
@@ -32877,7 +33206,8 @@
       "gethit-skill:Terror",
       "nec",
       "res-all"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-342",
@@ -32971,7 +33301,8 @@
     "statPriority": [
       "dmg%",
       "ac%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-343",
@@ -33082,7 +33413,8 @@
       "dex",
       "abs-cold",
       "extra-cold"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-344",
@@ -33203,7 +33535,8 @@
       "ac",
       "red-dmg%",
       "sock"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-345",
@@ -33344,7 +33677,8 @@
       "str",
       "charged:278",
       "lifesteal"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-347",
@@ -33455,7 +33789,8 @@
       "abs-fire%",
       "str",
       "dmg-fire"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-348",
@@ -33568,7 +33903,8 @@
       "res-cold",
       "regen-mana",
       "gethit-skill:Iron Maiden"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-349",
@@ -33671,7 +34007,8 @@
       "lifesteal",
       "death-skill:Nova",
       "res-cold"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-350",
@@ -33772,7 +34109,8 @@
       "res-all",
       "enr",
       "pierce-fire"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-351",
@@ -33882,7 +34220,8 @@
       "skill:Bone Spear",
       "skill:Bone Spirit",
       "skill:Bone Wall"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-353",
@@ -34006,7 +34345,8 @@
       "str",
       "vit",
       "oskill:Inferno"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-354",
@@ -34092,7 +34432,8 @@
       "extra-cold",
       "res-fire",
       "res-ltng"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-355",
@@ -34232,7 +34573,8 @@
       "charged:Summon Fenris",
       "oskill:Shape Shifting",
       "oskill:Feral Rage"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-356",
@@ -34335,7 +34677,8 @@
       "res-all",
       "block",
       "gethit-skill:Fade"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-357",
@@ -34412,7 +34755,8 @@
     "statPriority": [
       "ac",
       "res-all"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-358",
@@ -34527,7 +34871,8 @@
       "extra-ltng",
       "regen-mana",
       "skill-rand"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-359",
@@ -34592,7 +34937,8 @@
       "mag%",
       "gold%",
       "cheap"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-360",
@@ -34712,7 +35058,8 @@
       "hit-skill:Tornado",
       "dmg-ltng",
       "abs-ltng"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-361",
@@ -34823,7 +35170,8 @@
       "regen",
       "skill:Battle Orders",
       "skill:Battle Command"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-363",
@@ -34920,7 +35268,8 @@
     "statPriority": [
       "ac%",
       "red-dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-364",
@@ -35023,7 +35372,8 @@
       "hit-skill:Life Tap",
       "heal-kill",
       "str"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-365",
@@ -35131,7 +35481,8 @@
       "dmg-cold",
       "abs-cold%",
       "oskill:Arctic Blast"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-366",
@@ -35246,7 +35597,8 @@
       "str",
       "vit",
       "skilltab:10"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-367",
@@ -35334,7 +35686,8 @@
       "extra-fire",
       "extra-ltng",
       "enr"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-368",
@@ -35446,7 +35799,8 @@
       "res-fire",
       "skill:Wake of Fire Sentry",
       "skill:Inferno Sentry"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-369",
@@ -35577,7 +35931,8 @@
       "res-pois",
       "str",
       "vit"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-370",
@@ -35720,7 +36075,8 @@
       "charged:Life Tap",
       "str",
       "skill:Skeleton Mastery"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-371",
@@ -35838,7 +36194,8 @@
       "demon-heal",
       "sock",
       "pal"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-373",
@@ -35935,7 +36292,8 @@
     "statPriority": [
       "ac%",
       "charged:Venom"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-374",
@@ -36030,7 +36388,8 @@
     "setBonuses": [],
     "statPriority": [
       "lifesteal"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-375",
@@ -36119,7 +36478,8 @@
       "att",
       "charged:IronGolem",
       "charged:Iron Maiden"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-376",
@@ -36222,7 +36582,8 @@
       "stam",
       "red-dmg%",
       "regen"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-378",
@@ -36330,7 +36691,8 @@
       "lifesteal",
       "charged:Plague Poppy",
       "hit-skill:Twister"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-379",
@@ -36419,7 +36781,8 @@
       "ac",
       "str",
       "sock"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-380",
@@ -36551,7 +36914,8 @@
       "red-dmg",
       "dmg",
       "skilltab:9"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-381",
@@ -36627,7 +36991,8 @@
       "all-stats",
       "res-all",
       "addxp"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-382",
@@ -36721,7 +37086,8 @@
     "statPriority": [
       "dmg%",
       "allskills"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-383",
@@ -36819,7 +37185,8 @@
       "dmg-ltng",
       "mag%",
       "charged:Raven"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-384",
@@ -36931,7 +37298,8 @@
       "att%",
       "abs-cold%",
       "dmg-cold"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-385",
@@ -37037,7 +37405,8 @@
       "dmg%",
       "hit-skill:Eruption",
       "charged:Volcano"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-386",
@@ -37111,7 +37480,8 @@
     "statPriority": [
       "dmg%",
       "lifesteal"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-387",
@@ -37207,7 +37577,8 @@
       "dmg%",
       "charged:Corpse Explosion",
       "hit-skill:Bone Spear"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-388",
@@ -37305,7 +37676,8 @@
       "allskills",
       "ac",
       "red-mag"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-389",
@@ -37435,7 +37807,8 @@
       "skill:Redemption",
       "skill:Holy Bolt",
       "dmg"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-390",
@@ -37539,7 +37912,8 @@
       "sock",
       "res-fire",
       "heal-kill"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-391",
@@ -37618,7 +37992,8 @@
       "ac",
       "str",
       "dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-392",
@@ -37695,7 +38070,8 @@
       "pierce-ltng",
       "extra-ltng",
       "death-skill:Chain Lightning"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-393",
@@ -37772,7 +38148,8 @@
       "pierce-cold",
       "extra-cold",
       "death-skill:Blizzard"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-394",
@@ -37849,7 +38226,8 @@
       "pierce-fire",
       "extra-fire",
       "death-skill:Meteor"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-395",
@@ -37925,7 +38303,8 @@
       "pierce-pois",
       "extra-pois",
       "death-skill:Poison Nova"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-396",
@@ -38002,7 +38381,8 @@
       "pierce-ltng",
       "extra-ltng",
       "levelup-skill:Nova"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-397",
@@ -38079,7 +38459,8 @@
       "pierce-cold",
       "extra-cold",
       "levelup-skill:Frost Nova"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-398",
@@ -38156,7 +38537,8 @@
       "pierce-fire",
       "extra-fire",
       "levelup-skill:Blaze"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-399",
@@ -38232,7 +38614,8 @@
       "pierce-pois",
       "extra-pois",
       "levelup-skill:Venom"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-400",
@@ -38332,7 +38715,8 @@
       "res-all",
       "hit-skill:197",
       "charged:Hydra"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-408",
@@ -38469,7 +38853,8 @@
       "mana-kill",
       "res-fire",
       "skill:Apocalypse"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-409",
@@ -38606,7 +38991,8 @@
       "skill:Consume",
       "ac%",
       "red-dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-410",
@@ -38743,7 +39129,8 @@
       "ac%",
       "pierce-mag",
       "mag%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-411",
@@ -38892,7 +39279,8 @@
       "vit",
       "heal-kill",
       "res-all"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-412",
@@ -39008,7 +39396,8 @@
       "hit-skill:Amplify Damage",
       "dmg%",
       "manasteal"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-413",
@@ -39107,7 +39496,8 @@
       "ac",
       "dex",
       "enr"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-414",
@@ -39227,7 +39617,8 @@
       "skill:Blood Boil",
       "skill:Bind Demon",
       "mag%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-415",
@@ -39323,7 +39714,8 @@
       "pierce-mag",
       "enr",
       "mag%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-416",
@@ -39421,7 +39813,8 @@
       "res-all",
       "heal-kill",
       "mana-kill"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-417",
@@ -39522,7 +39915,8 @@
       "res-ltng",
       "mana%",
       "red-mag"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-418",
@@ -39638,7 +40032,8 @@
       "pierce-mag",
       "res-all",
       "gold%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-419",
@@ -39749,7 +40144,8 @@
       "pierce-mag",
       "ac%",
       "mana-kill"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-426",
@@ -39801,7 +40197,61 @@
     "setBonuses": [],
     "statPriority": [
       "res-cold"
-    ]
+    ],
+    "note": null
+  },
+  {
+    "id": "unique-427",
+    "code": "cs2",
+    "name": {
+      "en": "Renewed Cold Rupture",
+      "zh-TW": "新生冰寒裂縫",
+      "zh-CN": "新生冰寒裂缝"
+    },
+    "kind": "unique",
+    "setName": null,
+    "levelReq": 75,
+    "baseName": {
+      "en": "Grand Charm",
+      "zh-TW": "超大型護身符",
+      "zh-CN": "超大型护身符"
+    },
+    "grade": "normal",
+    "slotCategory": "charms",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invsst",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "pierce-immunity-cold",
+        "label": {
+          "en": "Monster Cold Immunity is Sundered",
+          "zh-TW": "解除怪物冷凍免疫",
+          "zh-CN": "解除怪物冷冻免疫"
+        },
+        "value": 300,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-cold",
+        "label": {
+          "en": "Cold Resist %",
+          "zh-TW": "冷凍抗性 %",
+          "zh-CN": "冷冻抗性 %"
+        },
+        "value": -70,
+        "isSkillRef": false
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": [],
+    "note": {
+      "en": "This item rolls a random bonus affix on top of the stats shown, which this site cannot currently display — see d2r.world for the full affix pool.",
+      "zh-TW": "此物品除了以上顯示的屬性外，還會隨機獲得一項額外的加成屬性，本站目前無法顯示——完整的隨機屬性池請參考 d2r.world。",
+      "zh-CN": "此物品除了以上显示的属性外，还会随机获得一项额外的加成属性，本站目前无法显示——完整的随机属性池请参考 d2r.world。"
+    }
   },
   {
     "id": "unique-428",
@@ -39853,7 +40303,8 @@
     "setBonuses": [],
     "statPriority": [
       "res-fire"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-429",
@@ -39905,7 +40356,8 @@
     "setBonuses": [],
     "statPriority": [
       "res-ltng"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-430",
@@ -39957,7 +40409,8 @@
     "setBonuses": [],
     "statPriority": [
       "res-pois"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-431",
@@ -40009,7 +40462,8 @@
     "setBonuses": [],
     "statPriority": [
       "red-dmg%"
-    ]
+    ],
+    "note": null
   },
   {
     "id": "unique-432",
@@ -40061,6 +40515,272 @@
     "setBonuses": [],
     "statPriority": [
       "res-mag"
-    ]
+    ],
+    "note": null
+  },
+  {
+    "id": "unique-433",
+    "code": "cs2",
+    "name": {
+      "en": "Renewed Flame Rift",
+      "zh-TW": "新生火焰裂隙",
+      "zh-CN": "新生火焰裂隙"
+    },
+    "kind": "unique",
+    "setName": null,
+    "levelReq": 75,
+    "baseName": {
+      "en": "Grand Charm",
+      "zh-TW": "超大型護身符",
+      "zh-CN": "超大型护身符"
+    },
+    "grade": "normal",
+    "slotCategory": "charms",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invsst",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "pierce-immunity-fire",
+        "label": {
+          "en": "Monster Fire Immunity is Sundered",
+          "zh-TW": "解除怪物火焰免疫",
+          "zh-CN": "解除怪物火焰免疫"
+        },
+        "value": 300,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-fire",
+        "label": {
+          "en": "Fire Resist %",
+          "zh-TW": "火焰抗性 %",
+          "zh-CN": "火焰抗性 %"
+        },
+        "value": -70,
+        "isSkillRef": false
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": [],
+    "note": {
+      "en": "This item rolls a random bonus affix on top of the stats shown, which this site cannot currently display — see d2r.world for the full affix pool.",
+      "zh-TW": "此物品除了以上顯示的屬性外，還會隨機獲得一項額外的加成屬性，本站目前無法顯示——完整的隨機屬性池請參考 d2r.world。",
+      "zh-CN": "此物品除了以上显示的属性外，还会随机获得一项额外的加成属性，本站目前无法显示——完整的随机属性池请参考 d2r.world。"
+    }
+  },
+  {
+    "id": "unique-434",
+    "code": "cs2",
+    "name": {
+      "en": "Renewed Crack of the Heavens",
+      "zh-TW": "新生天堂裂擊",
+      "zh-CN": "新生天堂裂击"
+    },
+    "kind": "unique",
+    "setName": null,
+    "levelReq": 75,
+    "baseName": {
+      "en": "Grand Charm",
+      "zh-TW": "超大型護身符",
+      "zh-CN": "超大型护身符"
+    },
+    "grade": "normal",
+    "slotCategory": "charms",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invsst",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "pierce-immunity-light",
+        "label": {
+          "en": "Monster Lightning Immunity is Sundered",
+          "zh-TW": "解除怪物閃電免疫",
+          "zh-CN": "解除怪物闪电免疫"
+        },
+        "value": 300,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-ltng",
+        "label": {
+          "en": "Lightning Resist %",
+          "zh-TW": "閃電抗性 %",
+          "zh-CN": "闪电抗性 %"
+        },
+        "value": -70,
+        "isSkillRef": false
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": [],
+    "note": {
+      "en": "This item rolls a random bonus affix on top of the stats shown, which this site cannot currently display — see d2r.world for the full affix pool.",
+      "zh-TW": "此物品除了以上顯示的屬性外，還會隨機獲得一項額外的加成屬性，本站目前無法顯示——完整的隨機屬性池請參考 d2r.world。",
+      "zh-CN": "此物品除了以上显示的属性外，还会随机获得一项额外的加成属性，本站目前无法显示——完整的随机属性池请参考 d2r.world。"
+    }
+  },
+  {
+    "id": "unique-435",
+    "code": "cs2",
+    "name": {
+      "en": "Renewed Rotting Fissure",
+      "zh-TW": "新生腐敗裂痕",
+      "zh-CN": "新生腐败裂痕"
+    },
+    "kind": "unique",
+    "setName": null,
+    "levelReq": 75,
+    "baseName": {
+      "en": "Grand Charm",
+      "zh-TW": "超大型護身符",
+      "zh-CN": "超大型护身符"
+    },
+    "grade": "normal",
+    "slotCategory": "charms",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invsst",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "pierce-immunity-poison",
+        "label": {
+          "en": "Monster Poison Immunity is Sundered",
+          "zh-TW": "解除怪物毒素免疫",
+          "zh-CN": "解除怪物毒素免疫"
+        },
+        "value": 300,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-pois",
+        "label": {
+          "en": "Poison Resist %",
+          "zh-TW": "毒素抗性 %",
+          "zh-CN": "毒素抗性 %"
+        },
+        "value": -70,
+        "isSkillRef": false
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": [],
+    "note": {
+      "en": "This item rolls a random bonus affix on top of the stats shown, which this site cannot currently display — see d2r.world for the full affix pool.",
+      "zh-TW": "此物品除了以上顯示的屬性外，還會隨機獲得一項額外的加成屬性，本站目前無法顯示——完整的隨機屬性池請參考 d2r.world。",
+      "zh-CN": "此物品除了以上显示的属性外，还会随机获得一项额外的加成属性，本站目前无法显示——完整的随机属性池请参考 d2r.world。"
+    }
+  },
+  {
+    "id": "unique-436",
+    "code": "cs2",
+    "name": {
+      "en": "Renewed Bone Break",
+      "zh-TW": "新生分筋裂骨",
+      "zh-CN": "新生分筋裂骨"
+    },
+    "kind": "unique",
+    "setName": null,
+    "levelReq": 75,
+    "baseName": {
+      "en": "Grand Charm",
+      "zh-TW": "超大型護身符",
+      "zh-CN": "超大型护身符"
+    },
+    "grade": "normal",
+    "slotCategory": "charms",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invsst",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "pierce-immunity-damage",
+        "label": {
+          "en": "Monster Physical Immunity is Sundered",
+          "zh-TW": "解除怪物物理免疫",
+          "zh-CN": "解除怪物物理免疫"
+        },
+        "value": 300,
+        "isSkillRef": false
+      },
+      {
+        "key": "red-dmg%",
+        "label": {
+          "en": "Damage Reduced %",
+          "zh-TW": "減少傷害 %",
+          "zh-CN": "减少伤害 %"
+        },
+        "value": -10,
+        "isSkillRef": false
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": [],
+    "note": {
+      "en": "This item rolls a random bonus affix on top of the stats shown, which this site cannot currently display — see d2r.world for the full affix pool.",
+      "zh-TW": "此物品除了以上顯示的屬性外，還會隨機獲得一項額外的加成屬性，本站目前無法顯示——完整的隨機屬性池請參考 d2r.world。",
+      "zh-CN": "此物品除了以上显示的属性外，还会随机获得一项额外的加成属性，本站目前无法显示——完整的随机属性池请参考 d2r.world。"
+    }
+  },
+  {
+    "id": "unique-437",
+    "code": "cs2",
+    "name": {
+      "en": "Renewed Black Cleft",
+      "zh-TW": "新生漆黑裂口",
+      "zh-CN": "新生漆黑裂口"
+    },
+    "kind": "unique",
+    "setName": null,
+    "levelReq": 75,
+    "baseName": {
+      "en": "Grand Charm",
+      "zh-TW": "超大型護身符",
+      "zh-CN": "超大型护身符"
+    },
+    "grade": "normal",
+    "slotCategory": "charms",
+    "defense": null,
+    "requiredStrength": null,
+    "durability": null,
+    "invFile": "invsst",
+    "stats": [],
+    "fixedStats": [
+      {
+        "key": "pierce-immunity-magic",
+        "label": {
+          "en": "Monster Magic Immunity is Sundered",
+          "zh-TW": "解除怪物魔法免疫",
+          "zh-CN": "解除怪物魔法免疫"
+        },
+        "value": 300,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-mag",
+        "label": {
+          "en": "Magic Resist %",
+          "zh-TW": "魔法抗性 %",
+          "zh-CN": "魔法抗性 %"
+        },
+        "value": -45,
+        "isSkillRef": false
+      }
+    ],
+    "setBonuses": [],
+    "statPriority": [],
+    "note": {
+      "en": "This item rolls a random bonus affix on top of the stats shown, which this site cannot currently display — see d2r.world for the full affix pool.",
+      "zh-TW": "此物品除了以上顯示的屬性外，還會隨機獲得一項額外的加成屬性，本站目前無法顯示——完整的隨機屬性池請參考 d2r.world。",
+      "zh-CN": "此物品除了以上显示的属性外，还会随机获得一项额外的加成属性，本站目前无法显示——完整的随机属性池请参考 d2r.world。"
+    }
   }
 ]

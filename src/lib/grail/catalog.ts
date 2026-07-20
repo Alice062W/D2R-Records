@@ -42,6 +42,7 @@ export interface RawGrailItem {
   fixedStats: RawGrailFixedStat[];
   setBonuses: RawGrailStat[];
   statPriority: string[];
+  note: LocalizedText | null;
 }
 
 export interface GrailStat {
@@ -77,6 +78,7 @@ export interface GrailItem {
   fixedStats: GrailFixedStat[];
   setBonuses: GrailStat[];
   statPriority: string[];
+  note: string | null;
 }
 
 const ALL_ITEMS: RawGrailItem[] = [...(uniques as RawGrailItem[]), ...(sets as RawGrailItem[])];
@@ -104,6 +106,7 @@ export function localizeGrailItem(item: RawGrailItem, locale: Locale): GrailItem
     fixedStats: item.fixedStats.map(f => ({ key: f.key, label: f.label[locale], value: f.value, isSkillRef: f.isSkillRef })),
     setBonuses: item.setBonuses.map(b => ({ key: b.key, label: b.label[locale], min: b.min, max: b.max, isSkillRef: b.isSkillRef })),
     statPriority: item.statPriority,
+    note: item.note ? item.note[locale] : null,
   };
 }
 
