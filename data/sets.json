@@ -8854,9 +8854,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "value": 50,
         "isSkillRef": false

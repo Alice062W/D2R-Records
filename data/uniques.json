@@ -4468,9 +4468,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "min": 20,
         "max": 40,
@@ -8680,9 +8680,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "min": 8,
         "max": 12,
@@ -8799,9 +8799,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "min": 10,
         "max": 15,
@@ -8929,9 +8929,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "min": 10,
         "max": 15,
@@ -9245,9 +9245,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "min": 15,
         "max": 20,
@@ -9374,9 +9374,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "min": 80,
         "max": 100,
@@ -12748,9 +12748,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "value": 50,
         "isSkillRef": false
@@ -14023,9 +14023,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "value": 20,
         "isSkillRef": false
@@ -14452,9 +14452,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "value": 50,
         "isSkillRef": false
@@ -14556,9 +14556,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "value": 40,
         "isSkillRef": false
@@ -14794,9 +14794,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "value": 30,
         "isSkillRef": false
@@ -14880,9 +14880,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "value": 50,
         "isSkillRef": false
@@ -15200,9 +15200,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "value": 40,
         "isSkillRef": false
@@ -15432,9 +15432,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "value": 100,
         "isSkillRef": false
@@ -16883,9 +16883,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "value": 15,
         "isSkillRef": false
@@ -17939,9 +17939,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "value": 100,
         "isSkillRef": false
@@ -20605,9 +20605,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "value": 30,
         "isSkillRef": false
@@ -20696,9 +20696,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "value": 125,
         "isSkillRef": false
@@ -21140,9 +21140,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "value": 100,
         "isSkillRef": false
@@ -21217,9 +21217,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "value": 60,
         "isSkillRef": false
@@ -21453,9 +21453,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "value": 15,
         "isSkillRef": false
@@ -21562,9 +21562,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "value": 50,
         "isSkillRef": false
@@ -22336,9 +22336,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "value": 40,
         "isSkillRef": false
@@ -22443,9 +22443,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "value": 100,
         "isSkillRef": false
@@ -22574,9 +22574,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "value": 20,
         "isSkillRef": false
@@ -23179,9 +23179,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "value": 20,
         "isSkillRef": false
@@ -23281,9 +23281,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "value": 15,
         "isSkillRef": false
@@ -23733,9 +23733,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "value": 30,
         "isSkillRef": false
@@ -23863,9 +23863,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "value": 10,
         "isSkillRef": false
@@ -23973,9 +23973,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "value": 10,
         "isSkillRef": false
@@ -24640,9 +24640,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "value": 20,
         "isSkillRef": false
@@ -24747,9 +24747,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "value": 103,
         "isSkillRef": false
@@ -24958,9 +24958,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "value": 45,
         "isSkillRef": false
@@ -25332,9 +25332,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "value": 25,
         "isSkillRef": false
@@ -25468,9 +25468,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "value": 100,
         "isSkillRef": false
@@ -35546,9 +35546,9 @@
       {
         "key": "dur",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
         },
         "value": 250,
         "isSkillRef": false
