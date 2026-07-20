@@ -4,8 +4,8 @@
     "code": "xtb",
     "name": {
       "en": "Aldur's Advance",
-      "zh-TW": "艾爾多的成長",
-      "zh-CN": "艾尔多的成长"
+      "zh-TW": "艾爾多的進擊",
+      "zh-CN": "艾尔多的进击"
     },
     "kind": "set",
     "setName": {
@@ -567,8 +567,8 @@
     "code": "rin",
     "name": {
       "en": "Angelic Halo",
-      "zh-TW": "天使之光",
-      "zh-CN": "天使之光"
+      "zh-TW": "天使的光暈",
+      "zh-CN": "天使的光晕"
     },
     "kind": "set",
     "setName": {
@@ -795,8 +795,8 @@
     "code": "amu",
     "name": {
       "en": "Angelic Wings",
-      "zh-TW": "天使之翼",
-      "zh-CN": "天使之翼"
+      "zh-TW": "天使的翅膀",
+      "zh-CN": "天使的翅膀"
     },
     "kind": "set",
     "setName": {
@@ -876,8 +876,8 @@
     "kind": "set",
     "setName": {
       "en": "Arcanna's Tricks",
-      "zh-TW": "卡阿娜的詭計",
-      "zh-CN": "卡阿娜的诡计"
+      "zh-TW": "阿卡娜的詭計",
+      "zh-CN": "阿卡娜的诡计"
     },
     "levelReq": 15,
     "baseName": {
@@ -951,8 +951,8 @@
     "kind": "set",
     "setName": {
       "en": "Arcanna's Tricks",
-      "zh-TW": "卡阿娜的詭計",
-      "zh-CN": "卡阿娜的诡计"
+      "zh-TW": "阿卡娜的詭計",
+      "zh-CN": "阿卡娜的诡计"
     },
     "levelReq": 15,
     "baseName": {
@@ -1029,8 +1029,8 @@
     "kind": "set",
     "setName": {
       "en": "Arcanna's Tricks",
-      "zh-TW": "卡阿娜的詭計",
-      "zh-CN": "卡阿娜的诡计"
+      "zh-TW": "阿卡娜的詭計",
+      "zh-CN": "阿卡娜的诡计"
     },
     "levelReq": 15,
     "baseName": {
@@ -1101,14 +1101,14 @@
     "code": "amu",
     "name": {
       "en": "Arcanna's Sign",
-      "zh-TW": "阿卡娜的符號",
-      "zh-CN": "阿卡娜的符号"
+      "zh-TW": "阿卡娜的符印",
+      "zh-CN": "阿卡娜的符印"
     },
     "kind": "set",
     "setName": {
       "en": "Arcanna's Tricks",
-      "zh-TW": "卡阿娜的詭計",
-      "zh-CN": "卡阿娜的诡计"
+      "zh-TW": "阿卡娜的詭計",
+      "zh-CN": "阿卡娜的诡计"
     },
     "levelReq": 15,
     "baseName": {
@@ -1176,14 +1176,14 @@
     "code": "vbl",
     "name": {
       "en": "Arctic Binding",
-      "zh-TW": "北極捆縛",
-      "zh-CN": "北极捆缚"
+      "zh-TW": "北極捆索",
+      "zh-CN": "北极捆索"
     },
     "kind": "set",
     "setName": {
       "en": "Arctic Gear",
-      "zh-TW": "北極裝置",
-      "zh-CN": "北极装置"
+      "zh-TW": "北極裝備",
+      "zh-CN": "北极装备"
     },
     "levelReq": 2,
     "baseName": {
@@ -1260,8 +1260,8 @@
     "kind": "set",
     "setName": {
       "en": "Arctic Gear",
-      "zh-TW": "北極裝置",
-      "zh-CN": "北极装置"
+      "zh-TW": "北極裝備",
+      "zh-CN": "北极装备"
     },
     "levelReq": 2,
     "baseName": {
@@ -1342,8 +1342,8 @@
     "kind": "set",
     "setName": {
       "en": "Arctic Gear",
-      "zh-TW": "北極裝置",
-      "zh-CN": "北极装置"
+      "zh-TW": "北極裝備",
+      "zh-CN": "北极装备"
     },
     "levelReq": 2,
     "baseName": {
@@ -1417,8 +1417,8 @@
     "kind": "set",
     "setName": {
       "en": "Arctic Gear",
-      "zh-TW": "北極裝置",
-      "zh-CN": "北极装置"
+      "zh-TW": "北極裝備",
+      "zh-CN": "北极装备"
     },
     "levelReq": 2,
     "baseName": {
@@ -1489,14 +1489,14 @@
     "code": "vbl",
     "name": {
       "en": "Bane's Authority",
-      "zh-TW": "Bane's Authority",
-      "zh-CN": "Bane's Authority"
+      "zh-TW": "貝恩的權威",
+      "zh-CN": "贝恩的权威"
     },
     "kind": "set",
     "setName": {
       "en": "Bane's Garments",
-      "zh-TW": "Bane's Garments",
-      "zh-CN": "Bane's Garments"
+      "zh-TW": "貝恩的衣裝",
+      "zh-CN": "贝恩的衣装"
     },
     "levelReq": 8,
     "baseName": {
@@ -1556,14 +1556,14 @@
     "code": "kri",
     "name": {
       "en": "Bane's Oathmaker",
-      "zh-TW": "Bane's Oathmaker",
-      "zh-CN": "Bane's Oathmaker"
+      "zh-TW": "貝恩的立誓者",
+      "zh-CN": "贝恩的立誓者"
     },
     "kind": "set",
     "setName": {
       "en": "Bane's Garments",
-      "zh-TW": "Bane's Garments",
-      "zh-CN": "Bane's Garments"
+      "zh-TW": "貝恩的衣裝",
+      "zh-CN": "贝恩的衣装"
     },
     "levelReq": 8,
     "baseName": {
@@ -1631,14 +1631,14 @@
     "code": "hla",
     "name": {
       "en": "Bane's Wraithskin",
-      "zh-TW": "Bane's Wraithskin",
-      "zh-CN": "Bane's Wraithskin"
+      "zh-TW": "貝恩的靈膚",
+      "zh-CN": "贝恩的灵肤"
     },
     "kind": "set",
     "setName": {
       "en": "Bane's Garments",
-      "zh-TW": "Bane's Garments",
-      "zh-CN": "Bane's Garments"
+      "zh-TW": "貝恩的衣裝",
+      "zh-CN": "贝恩的衣装"
     },
     "levelReq": 8,
     "baseName": {
@@ -1709,8 +1709,8 @@
     "code": "2ax",
     "name": {
       "en": "Berserker's Hatchet",
-      "zh-TW": "狂戰士的手斧",
-      "zh-CN": "狂战士的手斧"
+      "zh-TW": "狂戰士手斧",
+      "zh-CN": "狂战士手斧"
     },
     "kind": "set",
     "setName": {
@@ -1773,8 +1773,8 @@
     "code": "spl",
     "name": {
       "en": "Berserker's Hauberk",
-      "zh-TW": "狂戰士的鎖子甲",
-      "zh-CN": "狂战士的锁子甲"
+      "zh-TW": "狂戰士鎖子甲",
+      "zh-CN": "狂战士锁子甲"
     },
     "kind": "set",
     "setName": {
@@ -1840,8 +1840,8 @@
     "code": "hlm",
     "name": {
       "en": "Berserker's Headgear",
-      "zh-TW": "狂戰士的頭戴",
-      "zh-CN": "狂战士的头戴"
+      "zh-TW": "狂戰士頭盔",
+      "zh-CN": "狂战士头盔"
     },
     "kind": "set",
     "setName": {
@@ -1907,14 +1907,14 @@
     "code": "7gd",
     "name": {
       "en": "Bul-Kathos' Sacred Charge",
-      "zh-TW": "布爾凱索的神聖代價",
-      "zh-CN": "布尔凯索的神圣代价"
+      "zh-TW": "布爾凱索的神聖職責",
+      "zh-CN": "布尔凯索的神圣职责"
     },
     "kind": "set",
     "setName": {
       "en": "Bul-Kathos' Children",
-      "zh-TW": "布爾凱索的孩子",
-      "zh-CN": "布尔凯索的孩子"
+      "zh-TW": "布爾凱索的子嗣",
+      "zh-CN": "布尔凯索的子嗣"
     },
     "levelReq": 61,
     "baseName": {
@@ -1985,8 +1985,8 @@
     "kind": "set",
     "setName": {
       "en": "Bul-Kathos' Children",
-      "zh-TW": "布爾凱索的孩子",
-      "zh-CN": "布尔凯索的孩子"
+      "zh-TW": "布爾凱索的子嗣",
+      "zh-CN": "布尔凯索的子嗣"
     },
     "levelReq": 54,
     "baseName": {
@@ -2061,14 +2061,14 @@
     "code": "chn",
     "name": {
       "en": "Cathan's Mesh",
-      "zh-TW": "卡珊之網",
-      "zh-CN": "卡珊之网"
+      "zh-TW": "卡珊的網衣",
+      "zh-CN": "卡珊的网衣"
     },
     "kind": "set",
     "setName": {
       "en": "Cathan's Traps",
-      "zh-TW": "卡珊的陷阱",
-      "zh-CN": "卡珊的陷阱"
+      "zh-TW": "卡珊的衣著",
+      "zh-CN": "卡珊的衣着"
     },
     "levelReq": 11,
     "baseName": {
@@ -2139,14 +2139,14 @@
     "code": "bst",
     "name": {
       "en": "Cathan's Rule",
-      "zh-TW": "卡珊之尺",
-      "zh-CN": "卡珊之尺"
+      "zh-TW": "卡珊的尺杖",
+      "zh-CN": "卡珊的尺杖"
     },
     "kind": "set",
     "setName": {
       "en": "Cathan's Traps",
-      "zh-TW": "卡珊的陷阱",
-      "zh-CN": "卡珊的陷阱"
+      "zh-TW": "卡珊的衣著",
+      "zh-CN": "卡珊的衣着"
     },
     "levelReq": 11,
     "baseName": {
@@ -2220,8 +2220,8 @@
     "kind": "set",
     "setName": {
       "en": "Cathan's Traps",
-      "zh-TW": "卡珊的陷阱",
-      "zh-CN": "卡珊的陷阱"
+      "zh-TW": "卡珊的衣著",
+      "zh-CN": "卡珊的衣着"
     },
     "levelReq": 11,
     "baseName": {
@@ -2284,8 +2284,8 @@
     "kind": "set",
     "setName": {
       "en": "Cathan's Traps",
-      "zh-TW": "卡珊的陷阱",
-      "zh-CN": "卡珊的陷阱"
+      "zh-TW": "卡珊的衣著",
+      "zh-CN": "卡珊的衣着"
     },
     "levelReq": 11,
     "baseName": {
@@ -2359,8 +2359,8 @@
     "kind": "set",
     "setName": {
       "en": "Cathan's Traps",
-      "zh-TW": "卡珊的陷阱",
-      "zh-CN": "卡珊的陷阱"
+      "zh-TW": "卡珊的衣著",
+      "zh-CN": "卡珊的衣着"
     },
     "levelReq": 11,
     "baseName": {
@@ -2420,14 +2420,14 @@
     "code": "gsc",
     "name": {
       "en": "Civerb's Cudgel",
-      "zh-TW": "希弗伯的短棍",
-      "zh-CN": "希弗伯的短棍"
+      "zh-TW": "克維雷布的短棍",
+      "zh-CN": "克维雷布的短棍"
     },
     "kind": "set",
     "setName": {
       "en": "Civerb's Vestments",
-      "zh-TW": "希弗伯的法衣",
-      "zh-CN": "希弗伯的法衣"
+      "zh-TW": "克維雷布的法衣",
+      "zh-CN": "克维雷布的法衣"
     },
     "levelReq": 9,
     "baseName": {
@@ -2488,14 +2488,14 @@
     "code": "amu",
     "name": {
       "en": "Civerb's Icon",
-      "zh-TW": "希弗伯的圖案",
-      "zh-CN": "希弗伯的图案"
+      "zh-TW": "克維雷布的聖像",
+      "zh-CN": "克维雷布的圣像"
     },
     "kind": "set",
     "setName": {
       "en": "Civerb's Vestments",
-      "zh-TW": "希弗伯的法衣",
-      "zh-CN": "希弗伯的法衣"
+      "zh-TW": "克維雷布的法衣",
+      "zh-CN": "克维雷布的法衣"
     },
     "levelReq": 9,
     "baseName": {
@@ -2563,14 +2563,14 @@
     "code": "lrg",
     "name": {
       "en": "Civerb's Ward",
-      "zh-TW": "希弗柏的防護",
-      "zh-CN": "希弗柏的防护"
+      "zh-TW": "克維雷布的防護",
+      "zh-CN": "克维雷布的防护"
     },
     "kind": "set",
     "setName": {
       "en": "Civerb's Vestments",
-      "zh-TW": "希弗伯的法衣",
-      "zh-CN": "希弗伯的法衣"
+      "zh-TW": "克維雷布的法衣",
+      "zh-CN": "克维雷布的法衣"
     },
     "levelReq": 9,
     "baseName": {
@@ -2641,14 +2641,14 @@
     "code": "sml",
     "name": {
       "en": "Cleglaw's Claw",
-      "zh-TW": "克雷得勞之爪",
-      "zh-CN": "克雷得劳之爪"
+      "zh-TW": "克雷德勞之爪",
+      "zh-CN": "克雷德劳之爪"
     },
     "kind": "set",
     "setName": {
       "en": "Cleglaw's Brace",
-      "zh-TW": "克雷得勞的支柱",
-      "zh-CN": "克雷得劳的支柱"
+      "zh-TW": "克雷德勞的防備",
+      "zh-CN": "克雷德劳的防备"
     },
     "levelReq": 4,
     "baseName": {
@@ -2708,14 +2708,14 @@
     "code": "mgl",
     "name": {
       "en": "Cleglaw's Pincers",
-      "zh-TW": "克雷得勞之鉗",
-      "zh-CN": "克雷得劳之钳"
+      "zh-TW": "克雷德勞之鉗",
+      "zh-CN": "克雷德劳之钳"
     },
     "kind": "set",
     "setName": {
       "en": "Cleglaw's Brace",
-      "zh-TW": "克雷得勞的支柱",
-      "zh-CN": "克雷得劳的支柱"
+      "zh-TW": "克雷德勞的防備",
+      "zh-CN": "克雷德劳的防备"
     },
     "levelReq": 4,
     "baseName": {
@@ -2775,14 +2775,14 @@
     "code": "lsd",
     "name": {
       "en": "Cleglaw's Tooth",
-      "zh-TW": "克雷得勞之牙",
-      "zh-CN": "克雷得劳之牙"
+      "zh-TW": "克雷德勞之牙",
+      "zh-CN": "克雷德劳之牙"
     },
     "kind": "set",
     "setName": {
       "en": "Cleglaw's Brace",
-      "zh-TW": "克雷得勞的支柱",
-      "zh-CN": "克雷得劳的支柱"
+      "zh-TW": "克雷德勞的防備",
+      "zh-CN": "克雷德劳的防备"
     },
     "levelReq": 4,
     "baseName": {
@@ -2839,14 +2839,14 @@
     "code": "stu",
     "name": {
       "en": "Cow King's Hide",
-      "zh-TW": "牛魔王之皮",
-      "zh-CN": "牛魔王之皮"
+      "zh-TW": "牛王之皮",
+      "zh-CN": "牛王之皮"
     },
     "kind": "set",
     "setName": {
       "en": "Cow King's Leathers",
-      "zh-TW": "牛魔王之皮甲",
-      "zh-CN": "牛魔王之皮甲"
+      "zh-TW": "牛王皮甲",
+      "zh-CN": "牛王皮甲"
     },
     "levelReq": 18,
     "baseName": {
@@ -2924,8 +2924,8 @@
     "kind": "set",
     "setName": {
       "en": "Cow King's Leathers",
-      "zh-TW": "牛魔王之皮甲",
-      "zh-CN": "牛魔王之皮甲"
+      "zh-TW": "牛王皮甲",
+      "zh-CN": "牛王皮甲"
     },
     "levelReq": 13,
     "baseName": {
@@ -3009,14 +3009,14 @@
     "code": "xap",
     "name": {
       "en": "Cow King's Horns",
-      "zh-TW": "牛魔王之角",
-      "zh-CN": "牛魔王之角"
+      "zh-TW": "牛王之角",
+      "zh-CN": "牛王之角"
     },
     "kind": "set",
     "setName": {
       "en": "Cow King's Leathers",
-      "zh-TW": "牛魔王之皮甲",
-      "zh-CN": "牛魔王之皮甲"
+      "zh-TW": "牛王皮甲",
+      "zh-CN": "牛王皮甲"
     },
     "levelReq": 25,
     "baseName": {
@@ -3084,8 +3084,8 @@
     "code": "umc",
     "name": {
       "en": "Credendum",
-      "zh-TW": "信條",
-      "zh-CN": "信条"
+      "zh-TW": "守信條",
+      "zh-CN": "守信条"
     },
     "kind": "set",
     "setName": {
@@ -3159,14 +3159,14 @@
     "code": "7ma",
     "name": {
       "en": "Dangoon's Teaching",
-      "zh-TW": "丹弓的教導",
-      "zh-CN": "丹弓的教导"
+      "zh-TW": "檀君的教導",
+      "zh-CN": "檀君的教导"
     },
     "kind": "set",
     "setName": {
       "en": "Heaven's Brethren",
-      "zh-TW": "天堂的信徒",
-      "zh-CN": "天堂的信徒"
+      "zh-TW": "天堂的同胞",
+      "zh-CN": "天堂的同胞"
     },
     "levelReq": 68,
     "baseName": {
@@ -3237,8 +3237,8 @@
     "code": "lbl",
     "name": {
       "en": "Death's Guard",
-      "zh-TW": "死亡的守護",
-      "zh-CN": "死亡的守护"
+      "zh-TW": "死亡之護",
+      "zh-CN": "死亡之护"
     },
     "kind": "set",
     "setName": {
@@ -3435,14 +3435,14 @@
     "code": "xar",
     "name": {
       "en": "Griswold's Heart",
-      "zh-TW": "格瑞斯華爾德之心",
-      "zh-CN": "格瑞斯华尔德之心"
+      "zh-TW": "格里斯瓦德之心",
+      "zh-CN": "格里斯瓦德之心"
     },
     "kind": "set",
     "setName": {
       "en": "Griswold's Legacy",
-      "zh-TW": "格瑞斯華爾德的傳奇",
-      "zh-CN": "格瑞斯华尔德的传奇"
+      "zh-TW": "格里斯瓦德的傳奇",
+      "zh-CN": "格里斯瓦德的传奇"
     },
     "levelReq": 45,
     "baseName": {
@@ -3520,14 +3520,14 @@
     "code": "paf",
     "name": {
       "en": "Griswold's Honor",
-      "zh-TW": "格瑞斯華爾德的榮耀",
-      "zh-CN": "格瑞斯华尔德的荣耀"
+      "zh-TW": "格里斯瓦德的榮耀",
+      "zh-CN": "格里斯瓦德的荣耀"
     },
     "kind": "set",
     "setName": {
       "en": "Griswold's Legacy",
-      "zh-TW": "格瑞斯華爾德的傳奇",
-      "zh-CN": "格瑞斯华尔德的传奇"
+      "zh-TW": "格里斯瓦德的傳奇",
+      "zh-CN": "格里斯瓦德的传奇"
     },
     "levelReq": 68,
     "baseName": {
@@ -3605,14 +3605,14 @@
     "code": "urn",
     "name": {
       "en": "Griswold's Valor",
-      "zh-TW": "格瑞斯華爾德的勇氣",
-      "zh-CN": "格瑞斯华尔德的勇气"
+      "zh-TW": "格里斯瓦德的勇氣",
+      "zh-CN": "格里斯瓦德的勇气"
     },
     "kind": "set",
     "setName": {
       "en": "Griswold's Legacy",
-      "zh-TW": "格瑞斯華爾德的傳奇",
-      "zh-CN": "格瑞斯华尔德的传奇"
+      "zh-TW": "格里斯瓦德的傳奇",
+      "zh-CN": "格里斯瓦德的传奇"
     },
     "levelReq": 69,
     "baseName": {
@@ -3724,8 +3724,8 @@
     "kind": "set",
     "setName": {
       "en": "Griswold's Legacy",
-      "zh-TW": "格瑞斯華爾德的傳奇",
-      "zh-CN": "格瑞斯华尔德的传奇"
+      "zh-TW": "格里斯瓦德的傳奇",
+      "zh-CN": "格里斯瓦德的传奇"
     },
     "levelReq": 53,
     "baseName": {
@@ -3931,8 +3931,8 @@
     "kind": "set",
     "setName": {
       "en": "Heaven's Brethren",
-      "zh-TW": "天堂的信徒",
-      "zh-CN": "天堂的信徒"
+      "zh-TW": "天堂的同胞",
+      "zh-CN": "天堂的同胞"
     },
     "levelReq": 44,
     "baseName": {
@@ -4016,8 +4016,8 @@
     "kind": "set",
     "setName": {
       "en": "Heaven's Brethren",
-      "zh-TW": "天堂的信徒",
-      "zh-CN": "天堂的信徒"
+      "zh-TW": "天堂的同胞",
+      "zh-CN": "天堂的同胞"
     },
     "levelReq": 81,
     "baseName": {
@@ -4115,14 +4115,14 @@
     "code": "usk",
     "name": {
       "en": "Horazon's Countenance",
-      "zh-TW": "Horazon's Countenance",
-      "zh-CN": "Horazon's Countenance"
+      "zh-TW": "赫拉森的面容",
+      "zh-CN": "赫拉森的面容"
     },
     "kind": "set",
     "setName": {
       "en": "Horazon's Splendor",
-      "zh-TW": "Horazon's Splendor",
-      "zh-CN": "Horazon's Splendor"
+      "zh-TW": "赫拉森的輝煌",
+      "zh-CN": "赫拉森的辉煌"
     },
     "levelReq": 62,
     "baseName": {
@@ -4219,14 +4219,14 @@
     "code": "xpl",
     "name": {
       "en": "Horazon's Dominion",
-      "zh-TW": "Horazon's Dominion",
-      "zh-CN": "Horazon's Dominion"
+      "zh-TW": "赫拉森的統治",
+      "zh-CN": "赫拉森的统治"
     },
     "kind": "set",
     "setName": {
       "en": "Horazon's Splendor",
-      "zh-TW": "Horazon's Splendor",
-      "zh-CN": "Horazon's Splendor"
+      "zh-TW": "赫拉森的輝煌",
+      "zh-CN": "赫拉森的辉煌"
     },
     "levelReq": 55,
     "baseName": {
@@ -4360,14 +4360,14 @@
     "code": "xlg",
     "name": {
       "en": "Horazon's Hold",
-      "zh-TW": "Horazon's Hold",
-      "zh-CN": "Horazon's Hold"
+      "zh-TW": "赫拉森的掌控",
+      "zh-CN": "赫拉森的掌控"
     },
     "kind": "set",
     "setName": {
       "en": "Horazon's Splendor",
-      "zh-TW": "Horazon's Splendor",
-      "zh-CN": "Horazon's Splendor"
+      "zh-TW": "赫拉森的輝煌",
+      "zh-CN": "赫拉森的辉煌"
     },
     "levelReq": 48,
     "baseName": {
@@ -4489,14 +4489,14 @@
     "code": "utb",
     "name": {
       "en": "Horazon's Legacy",
-      "zh-TW": "Horazon's Legacy",
-      "zh-CN": "Horazon's Legacy"
+      "zh-TW": "赫拉森的傳承",
+      "zh-CN": "赫拉森的传承"
     },
     "kind": "set",
     "setName": {
       "en": "Horazon's Splendor",
-      "zh-TW": "Horazon's Splendor",
-      "zh-CN": "Horazon's Splendor"
+      "zh-TW": "赫拉森的輝煌",
+      "zh-CN": "赫拉森的辉煌"
     },
     "levelReq": 67,
     "baseName": {
@@ -4604,14 +4604,14 @@
     "code": "wad",
     "name": {
       "en": "Horazon's Secrets",
-      "zh-TW": "Horazon's Secrets",
-      "zh-CN": "Horazon's Secrets"
+      "zh-TW": "赫拉森的秘密",
+      "zh-CN": "赫拉森的秘密"
     },
     "kind": "set",
     "setName": {
       "en": "Horazon's Splendor",
-      "zh-TW": "Horazon's Splendor",
-      "zh-CN": "Horazon's Splendor"
+      "zh-TW": "赫拉森的輝煌",
+      "zh-CN": "赫拉森的辉煌"
     },
     "levelReq": 57,
     "baseName": {
@@ -4729,14 +4729,14 @@
     "code": "buc",
     "name": {
       "en": "Hsarus' Iron Fist",
-      "zh-TW": "哈斯拉柏的鐵拳",
-      "zh-CN": "哈斯拉柏的铁拳"
+      "zh-TW": "海沙魯的鐵拳",
+      "zh-CN": "海沙鲁的铁拳"
     },
     "kind": "set",
     "setName": {
       "en": "Hsarus' Defense",
-      "zh-TW": "哈斯拉柏的防禦",
-      "zh-CN": "哈斯拉柏的防御"
+      "zh-TW": "海沙魯的鐵禦",
+      "zh-CN": "海沙鲁的铁御"
     },
     "levelReq": 3,
     "baseName": {
@@ -4796,14 +4796,14 @@
     "code": "mbt",
     "name": {
       "en": "Hsarus' Iron Heel",
-      "zh-TW": "哈斯拉柏的鐵後跟",
-      "zh-CN": "哈斯拉柏的铁后跟"
+      "zh-TW": "海沙魯的鐵跟",
+      "zh-CN": "海沙鲁的铁跟"
     },
     "kind": "set",
     "setName": {
       "en": "Hsarus' Defense",
-      "zh-TW": "哈斯拉柏的防禦",
-      "zh-CN": "哈斯拉柏的防御"
+      "zh-TW": "海沙魯的鐵禦",
+      "zh-CN": "海沙鲁的铁御"
     },
     "levelReq": 3,
     "baseName": {
@@ -4863,14 +4863,14 @@
     "code": "mbl",
     "name": {
       "en": "Hsarus' Iron Stay",
-      "zh-TW": "哈斯拉柏的鐵胸衣",
-      "zh-CN": "哈斯拉柏的铁胸衣"
+      "zh-TW": "海沙魯的鐵扣",
+      "zh-CN": "海沙鲁的铁扣"
     },
     "kind": "set",
     "setName": {
       "en": "Hsarus' Defense",
-      "zh-TW": "哈斯拉柏的防禦",
-      "zh-CN": "哈斯拉柏的防御"
+      "zh-TW": "海沙魯的鐵禦",
+      "zh-CN": "海沙鲁的铁御"
     },
     "levelReq": 3,
     "baseName": {
@@ -4930,14 +4930,14 @@
     "code": "9vo",
     "name": {
       "en": "Hwanin's Justice",
-      "zh-TW": "華寧的正義",
-      "zh-CN": "华宁的正义"
+      "zh-TW": "桓因的制裁",
+      "zh-CN": "桓因的制裁"
     },
     "kind": "set",
     "setName": {
       "en": "Hwanin's Majesty",
-      "zh-TW": "華寧的威嚴",
-      "zh-CN": "华宁的威严"
+      "zh-TW": "桓因的威嚴",
+      "zh-CN": "桓因的威严"
     },
     "levelReq": 28,
     "baseName": {
@@ -5028,14 +5028,14 @@
     "code": "xcl",
     "name": {
       "en": "Hwanin's Refuge",
-      "zh-TW": "華寧的保護",
-      "zh-CN": "华宁的保护"
+      "zh-TW": "桓因的庇佑",
+      "zh-CN": "桓因的庇佑"
     },
     "kind": "set",
     "setName": {
       "en": "Hwanin's Majesty",
-      "zh-TW": "華寧的威嚴",
-      "zh-CN": "华宁的威严"
+      "zh-TW": "桓因的威嚴",
+      "zh-CN": "桓因的威严"
     },
     "levelReq": 30,
     "baseName": {
@@ -5113,8 +5113,8 @@
     "kind": "set",
     "setName": {
       "en": "Hwanin's Majesty",
-      "zh-TW": "華寧的威嚴",
-      "zh-CN": "华宁的威严"
+      "zh-TW": "桓因的威嚴",
+      "zh-CN": "桓因的威严"
     },
     "levelReq": 35,
     "baseName": {
@@ -5186,14 +5186,14 @@
     "code": "xrn",
     "name": {
       "en": "Hwanin's Splendor",
-      "zh-TW": "華寧的光輝",
-      "zh-CN": "华宁的光辉"
+      "zh-TW": "桓因的光輝",
+      "zh-CN": "桓因的光辉"
     },
     "kind": "set",
     "setName": {
       "en": "Hwanin's Majesty",
-      "zh-TW": "華寧的威嚴",
-      "zh-CN": "华宁的威严"
+      "zh-TW": "桓因的威嚴",
+      "zh-CN": "桓因的威严"
     },
     "levelReq": 45,
     "baseName": {
@@ -5261,8 +5261,8 @@
     "code": "zhb",
     "name": {
       "en": "Immortal King's Detail",
-      "zh-TW": "不朽之王的瑣事",
-      "zh-CN": "不朽之王的琐事"
+      "zh-TW": "不朽之王的扈從",
+      "zh-CN": "不朽之王的扈从"
     },
     "kind": "set",
     "setName": {
@@ -5392,8 +5392,8 @@
     "code": "xhg",
     "name": {
       "en": "Immortal King's Forge",
-      "zh-TW": "不朽之王的融爐",
-      "zh-CN": "不朽之王的融炉"
+      "zh-TW": "不朽之王的熔爐",
+      "zh-CN": "不朽之王的熔炉"
     },
     "kind": "set",
     "setName": {
@@ -6039,14 +6039,14 @@
     "code": "cap",
     "name": {
       "en": "Infernal Cranium",
-      "zh-TW": "地獄頭骨",
-      "zh-CN": "地狱头骨"
+      "zh-TW": "煉獄頭骨",
+      "zh-CN": "炼狱头骨"
     },
     "kind": "set",
     "setName": {
       "en": "Infernal Tools",
-      "zh-TW": "地獄的工具",
-      "zh-CN": "地狱的工具"
+      "zh-TW": "煉獄器具",
+      "zh-CN": "炼狱器具"
     },
     "levelReq": 5,
     "baseName": {
@@ -6106,14 +6106,14 @@
     "code": "tbl",
     "name": {
       "en": "Infernal Sign",
-      "zh-TW": "地獄符號",
-      "zh-CN": "地狱符号"
+      "zh-TW": "煉獄符印",
+      "zh-CN": "炼狱符印"
     },
     "kind": "set",
     "setName": {
       "en": "Infernal Tools",
-      "zh-TW": "地獄的工具",
-      "zh-CN": "地狱的工具"
+      "zh-TW": "煉獄器具",
+      "zh-CN": "炼狱器具"
     },
     "levelReq": 5,
     "baseName": {
@@ -6184,14 +6184,14 @@
     "code": "gwn",
     "name": {
       "en": "Infernal Torch",
-      "zh-TW": "地獄火炬",
-      "zh-CN": "地狱火炬"
+      "zh-TW": "煉獄火炬",
+      "zh-CN": "炼狱火炬"
     },
     "kind": "set",
     "setName": {
       "en": "Infernal Tools",
-      "zh-TW": "地獄的工具",
-      "zh-CN": "地狱的工具"
+      "zh-TW": "煉獄器具",
+      "zh-CN": "炼狱器具"
     },
     "levelReq": 5,
     "baseName": {
@@ -6248,14 +6248,14 @@
     "code": "crn",
     "name": {
       "en": "Iratha's Coil",
-      "zh-TW": "依雷撒的線圈",
-      "zh-CN": "依雷撒的线圈"
+      "zh-TW": "依雷撒的盤頂",
+      "zh-CN": "依雷撒的盘顶"
     },
     "kind": "set",
     "setName": {
       "en": "Iratha's Finery",
-      "zh-TW": "依雷撒的精銑爐",
-      "zh-CN": "依雷撒的精铣炉"
+      "zh-TW": "依雷撒的華服",
+      "zh-CN": "依雷撒的华服"
     },
     "levelReq": 15,
     "baseName": {
@@ -6321,8 +6321,8 @@
     "kind": "set",
     "setName": {
       "en": "Iratha's Finery",
-      "zh-TW": "依雷撒的精銑爐",
-      "zh-CN": "依雷撒的精铣炉"
+      "zh-TW": "依雷撒的華服",
+      "zh-CN": "依雷撒的华服"
     },
     "levelReq": 15,
     "baseName": {
@@ -6379,14 +6379,14 @@
     "code": "tbl",
     "name": {
       "en": "Iratha's Cord",
-      "zh-TW": "依雷撒之繩",
-      "zh-CN": "依雷撒之绳"
+      "zh-TW": "依雷撒的腰繩",
+      "zh-CN": "依雷撒的腰绳"
     },
     "kind": "set",
     "setName": {
       "en": "Iratha's Finery",
-      "zh-TW": "依雷撒的精銑爐",
-      "zh-CN": "依雷撒的精铣炉"
+      "zh-TW": "依雷撒的華服",
+      "zh-CN": "依雷撒的华服"
     },
     "levelReq": 15,
     "baseName": {
@@ -6446,14 +6446,14 @@
     "code": "tgl",
     "name": {
       "en": "Iratha's Cuff",
-      "zh-TW": "依雷撒的袖口",
-      "zh-CN": "依雷撒的袖口"
+      "zh-TW": "依雷撒的袖銬",
+      "zh-CN": "依雷撒的袖铐"
     },
     "kind": "set",
     "setName": {
       "en": "Iratha's Finery",
-      "zh-TW": "依雷撒的精銑爐",
-      "zh-CN": "依雷撒的精铣炉"
+      "zh-TW": "依雷撒的華服",
+      "zh-CN": "依雷撒的华服"
     },
     "levelReq": 15,
     "baseName": {
@@ -6513,14 +6513,14 @@
     "code": "brs",
     "name": {
       "en": "Isenhart's Case",
-      "zh-TW": "依森哈德的外殼",
-      "zh-CN": "依森哈德的外壳"
+      "zh-TW": "依森哈特的外殼",
+      "zh-CN": "依森哈特的外壳"
     },
     "kind": "set",
     "setName": {
       "en": "Isenhart's Armory",
-      "zh-TW": "依森哈德的武器室",
-      "zh-CN": "依森哈德的武器室"
+      "zh-TW": "依森哈特的軍械",
+      "zh-CN": "依森哈特的军械"
     },
     "levelReq": 8,
     "baseName": {
@@ -6580,14 +6580,14 @@
     "code": "fhl",
     "name": {
       "en": "Isenhart's Horns",
-      "zh-TW": "依森哈德的號角",
-      "zh-CN": "依森哈德的号角"
+      "zh-TW": "依森哈特的角盔",
+      "zh-CN": "依森哈特的角盔"
     },
     "kind": "set",
     "setName": {
       "en": "Isenhart's Armory",
-      "zh-TW": "依森哈德的武器室",
-      "zh-CN": "依森哈德的武器室"
+      "zh-TW": "依森哈特的軍械",
+      "zh-CN": "依森哈特的军械"
     },
     "levelReq": 8,
     "baseName": {
@@ -6647,14 +6647,14 @@
     "code": "bsd",
     "name": {
       "en": "Isenhart's Lightbrand",
-      "zh-TW": "依森哈德的光之烙鐵",
-      "zh-CN": "依森哈德的光之烙铁"
+      "zh-TW": "依森哈特的光之烙鐵",
+      "zh-CN": "依森哈特的光之烙铁"
     },
     "kind": "set",
     "setName": {
       "en": "Isenhart's Armory",
-      "zh-TW": "依森哈德的武器室",
-      "zh-CN": "依森哈德的武器室"
+      "zh-TW": "依森哈特的軍械",
+      "zh-CN": "依森哈特的军械"
     },
     "levelReq": 8,
     "baseName": {
@@ -6711,14 +6711,14 @@
     "code": "gts",
     "name": {
       "en": "Isenhart's Parry",
-      "zh-TW": "依森哈德的閃避",
-      "zh-CN": "依森哈德的闪避"
+      "zh-TW": "依森哈特的招架",
+      "zh-CN": "依森哈特的招架"
     },
     "kind": "set",
     "setName": {
       "en": "Isenhart's Armory",
-      "zh-TW": "依森哈德的武器室",
-      "zh-CN": "依森哈德的武器室"
+      "zh-TW": "依森哈特的軍械",
+      "zh-CN": "依森哈特的军械"
     },
     "levelReq": 8,
     "baseName": {
@@ -6778,8 +6778,8 @@
     "code": "ulg",
     "name": {
       "en": "Laying of Hands",
-      "zh-TW": "手掌的安置",
-      "zh-CN": "手掌的安置"
+      "zh-TW": "按手禮",
+      "zh-CN": "按手礼"
     },
     "kind": "set",
     "setName": {
@@ -6867,8 +6867,8 @@
     "code": "amc",
     "name": {
       "en": "M'avina's Caster",
-      "zh-TW": "馬維娜的施展",
-      "zh-CN": "马维娜的施展"
+      "zh-TW": "馬維娜的強弓",
+      "zh-CN": "马维娜的强弓"
     },
     "kind": "set",
     "setName": {
@@ -7798,14 +7798,14 @@
     "code": "crn",
     "name": {
       "en": "Milabrega's Diadem",
-      "zh-TW": "米拉伯佳的王冠",
-      "zh-CN": "米拉伯佳的王冠"
+      "zh-TW": "米拉伯佳權冠",
+      "zh-CN": "米拉伯佳权冠"
     },
     "kind": "set",
     "setName": {
       "en": "Milabrega's Regalia",
-      "zh-TW": "米拉伯佳的雪茄",
-      "zh-CN": "米拉伯佳的雪茄"
+      "zh-TW": "米拉伯佳戰裝",
+      "zh-CN": "米拉伯佳战装"
     },
     "levelReq": 17,
     "baseName": {
@@ -7871,8 +7871,8 @@
     "kind": "set",
     "setName": {
       "en": "Milabrega's Regalia",
-      "zh-TW": "米拉伯佳的雪茄",
-      "zh-CN": "米拉伯佳的雪茄"
+      "zh-TW": "米拉伯佳戰裝",
+      "zh-CN": "米拉伯佳战装"
     },
     "levelReq": 17,
     "baseName": {
@@ -7943,14 +7943,14 @@
     "code": "aar",
     "name": {
       "en": "Milabrega's Robe",
-      "zh-TW": "米拉伯佳之袍",
-      "zh-CN": "米拉伯佳之袍"
+      "zh-TW": "米拉伯佳外袍",
+      "zh-CN": "米拉伯佳外袍"
     },
     "kind": "set",
     "setName": {
       "en": "Milabrega's Regalia",
-      "zh-TW": "米拉伯佳的雪茄",
-      "zh-CN": "米拉伯佳的雪茄"
+      "zh-TW": "米拉伯佳戰裝",
+      "zh-CN": "米拉伯佳战装"
     },
     "levelReq": 17,
     "baseName": {
@@ -8010,14 +8010,14 @@
     "code": "wsp",
     "name": {
       "en": "Milabrega's Rod",
-      "zh-TW": "米拉伯佳之杖",
-      "zh-CN": "米拉伯佳之杖"
+      "zh-TW": "米拉伯佳節杖",
+      "zh-CN": "米拉伯佳节杖"
     },
     "kind": "set",
     "setName": {
       "en": "Milabrega's Regalia",
-      "zh-TW": "米拉伯佳的雪茄",
-      "zh-CN": "米拉伯佳的雪茄"
+      "zh-TW": "米拉伯佳戰裝",
+      "zh-CN": "米拉伯佳战装"
     },
     "levelReq": 17,
     "baseName": {
@@ -8072,8 +8072,8 @@
     "code": "ci0",
     "name": {
       "en": "Naj's Circlet",
-      "zh-TW": "娜吉的小環",
-      "zh-CN": "娜吉的小环"
+      "zh-TW": "娜吉的頭環",
+      "zh-CN": "娜吉的头环"
     },
     "kind": "set",
     "setName": {
@@ -8163,8 +8163,8 @@
     "code": "ult",
     "name": {
       "en": "Naj's Light Plate",
-      "zh-TW": "娜吉的輕鎧甲",
-      "zh-CN": "娜吉的轻铠甲"
+      "zh-TW": "娜吉的輕鎧",
+      "zh-CN": "娜吉的轻铠"
     },
     "kind": "set",
     "setName": {
@@ -8258,8 +8258,8 @@
     "code": "6cs",
     "name": {
       "en": "Naj's Puzzler",
-      "zh-TW": "娜吉解迷杖",
-      "zh-CN": "娜吉解迷杖"
+      "zh-TW": "娜吉的解謎杖",
+      "zh-CN": "娜吉的解谜杖"
     },
     "kind": "set",
     "setName": {
@@ -8366,8 +8366,8 @@
     "code": "7qr",
     "name": {
       "en": "Natalya's Mark",
-      "zh-TW": "娜塔亞的記號",
-      "zh-CN": "娜塔亚的记号"
+      "zh-TW": "娜塔亞的印記",
+      "zh-CN": "娜塔亚的印记"
     },
     "kind": "set",
     "setName": {
@@ -8771,14 +8771,14 @@
     "code": "uhm",
     "name": {
       "en": "Ondal's Almighty",
-      "zh-TW": "安戴爾的全靈",
-      "zh-CN": "安戴尔的全灵"
+      "zh-TW": "溫達的全靈",
+      "zh-CN": "温达的全灵"
     },
     "kind": "set",
     "setName": {
       "en": "Heaven's Brethren",
-      "zh-TW": "天堂的信徒",
-      "zh-CN": "天堂的信徒"
+      "zh-TW": "天堂的同胞",
+      "zh-CN": "天堂的同胞"
     },
     "levelReq": 69,
     "baseName": {
@@ -8870,8 +8870,8 @@
     "code": "xlb",
     "name": {
       "en": "Rite of Passage",
-      "zh-TW": "儀式的走道",
-      "zh-CN": "仪式的走道"
+      "zh-TW": "入門式",
+      "zh-CN": "入门式"
     },
     "kind": "set",
     "setName": {
@@ -8949,14 +8949,14 @@
     "code": "7ls",
     "name": {
       "en": "Sazabi's Cobalt Redeemer",
-      "zh-TW": "沙撒璧的懺悔之鈷",
-      "zh-CN": "沙撒璧的忏悔之钴"
+      "zh-TW": "沙薩比的救贖鈷劍",
+      "zh-CN": "沙萨比的救赎钴剑"
     },
     "kind": "set",
     "setName": {
       "en": "Sazabi's Grand Tribute",
-      "zh-TW": "沙撒璧的雄偉貢品",
-      "zh-CN": "沙撒璧的雄伟贡品"
+      "zh-TW": "沙薩比的崇高禮讚",
+      "zh-CN": "沙萨比的崇高礼赞"
     },
     "levelReq": 73,
     "baseName": {
@@ -9055,14 +9055,14 @@
     "code": "upl",
     "name": {
       "en": "Sazabi's Ghost Liberator",
-      "zh-TW": "沙撒璧的鬼魂釋放者",
-      "zh-CN": "沙撒璧的鬼魂释放者"
+      "zh-TW": "沙薩比的解靈框體",
+      "zh-CN": "沙萨比的解灵框体"
     },
     "kind": "set",
     "setName": {
       "en": "Sazabi's Grand Tribute",
-      "zh-TW": "沙撒璧的雄偉貢品",
-      "zh-CN": "沙撒璧的雄伟贡品"
+      "zh-TW": "沙薩比的崇高禮讚",
+      "zh-CN": "沙萨比的崇高礼赞"
     },
     "levelReq": 67,
     "baseName": {
@@ -9144,14 +9144,14 @@
     "code": "xhl",
     "name": {
       "en": "Sazabi's Mental Sheath",
-      "zh-TW": "沙撒璧的精神之鞘",
-      "zh-CN": "沙撒璧的精神之鞘"
+      "zh-TW": "沙薩比的精神護罩",
+      "zh-CN": "沙萨比的精神护罩"
     },
     "kind": "set",
     "setName": {
       "en": "Sazabi's Grand Tribute",
-      "zh-TW": "沙撒璧的雄偉貢品",
-      "zh-CN": "沙撒璧的雄伟贡品"
+      "zh-TW": "沙薩比的崇高禮讚",
+      "zh-CN": "沙萨比的崇高礼赞"
     },
     "levelReq": 43,
     "baseName": {
@@ -9231,8 +9231,8 @@
     "kind": "set",
     "setName": {
       "en": "Sigon's Complete Steel",
-      "zh-TW": "西剛的全套刀劍",
-      "zh-CN": "西刚的全套刀剑"
+      "zh-TW": "西剛的全套鋼甲",
+      "zh-CN": "西刚的全套钢甲"
     },
     "levelReq": 6,
     "baseName": {
@@ -9298,8 +9298,8 @@
     "kind": "set",
     "setName": {
       "en": "Sigon's Complete Steel",
-      "zh-TW": "西剛的全套刀劍",
-      "zh-CN": "西刚的全套刀剑"
+      "zh-TW": "西剛的全套鋼甲",
+      "zh-CN": "西刚的全套钢甲"
     },
     "levelReq": 6,
     "baseName": {
@@ -9347,14 +9347,14 @@
     "code": "hbt",
     "name": {
       "en": "Sigon's Sabot",
-      "zh-TW": "西剛的木鞋",
-      "zh-CN": "西刚的木鞋"
+      "zh-TW": "西剛的硬靴",
+      "zh-CN": "西刚的硬靴"
     },
     "kind": "set",
     "setName": {
       "en": "Sigon's Complete Steel",
-      "zh-TW": "西剛的全套刀劍",
-      "zh-CN": "西刚的全套刀剑"
+      "zh-TW": "西剛的全套鋼甲",
+      "zh-CN": "西刚的全套钢甲"
     },
     "levelReq": 6,
     "baseName": {
@@ -9425,14 +9425,14 @@
     "code": "gth",
     "name": {
       "en": "Sigon's Shelter",
-      "zh-TW": "西剛的遮蔽",
-      "zh-CN": "西刚的遮蔽"
+      "zh-TW": "西剛的庇護",
+      "zh-CN": "西刚的庇护"
     },
     "kind": "set",
     "setName": {
       "en": "Sigon's Complete Steel",
-      "zh-TW": "西剛的全套刀劍",
-      "zh-CN": "西刚的全套刀剑"
+      "zh-TW": "西剛的全套鋼甲",
+      "zh-CN": "西刚的全套钢甲"
     },
     "levelReq": 6,
     "baseName": {
@@ -9492,14 +9492,14 @@
     "code": "ghm",
     "name": {
       "en": "Sigon's Visor",
-      "zh-TW": "西剛之面甲",
-      "zh-CN": "西刚之面甲"
+      "zh-TW": "西剛的護面",
+      "zh-CN": "西刚的护面"
     },
     "kind": "set",
     "setName": {
       "en": "Sigon's Complete Steel",
-      "zh-TW": "西剛的全套刀劍",
-      "zh-CN": "西刚的全套刀剑"
+      "zh-TW": "西剛的全套鋼甲",
+      "zh-CN": "西刚的全套钢甲"
     },
     "levelReq": 6,
     "baseName": {
@@ -9559,14 +9559,14 @@
     "code": "hbl",
     "name": {
       "en": "Sigon's Wrap",
-      "zh-TW": "西剛的披肩",
-      "zh-CN": "西刚的披肩"
+      "zh-TW": "西剛的裹腰",
+      "zh-CN": "西刚的裹腰"
     },
     "kind": "set",
     "setName": {
       "en": "Sigon's Complete Steel",
-      "zh-TW": "西剛的全套刀劍",
-      "zh-CN": "西刚的全套刀剑"
+      "zh-TW": "西剛的全套鋼甲",
+      "zh-CN": "西刚的全套钢甲"
     },
     "levelReq": 6,
     "baseName": {
@@ -9709,14 +9709,14 @@
     "code": "amu",
     "name": {
       "en": "Tal Rasha's Adjudication",
-      "zh-TW": "塔.拉夏的判決",
-      "zh-CN": "塔.拉夏的判决"
+      "zh-TW": "塔拉夏的判決",
+      "zh-CN": "塔拉夏的判决"
     },
     "kind": "set",
     "setName": {
       "en": "Tal Rasha's Wrappings",
-      "zh-TW": "塔.拉夏的外袍",
-      "zh-CN": "塔.拉夏的外袍"
+      "zh-TW": "塔拉夏的外袍",
+      "zh-CN": "塔拉夏的外袍"
     },
     "levelReq": 67,
     "baseName": {
@@ -9813,8 +9813,8 @@
     "kind": "set",
     "setName": {
       "en": "Tal Rasha's Wrappings",
-      "zh-TW": "塔.拉夏的外袍",
-      "zh-CN": "塔.拉夏的外袍"
+      "zh-TW": "塔拉夏的外袍",
+      "zh-CN": "塔拉夏的外袍"
     },
     "levelReq": 53,
     "baseName": {
@@ -9919,14 +9919,14 @@
     "code": "xsk",
     "name": {
       "en": "Tal Rasha's Horadric Crest",
-      "zh-TW": "塔.拉夏的赫拉迪克紋章",
-      "zh-CN": "塔.拉夏的赫拉迪克纹章"
+      "zh-TW": "塔拉夏的赫拉迪姆之冠",
+      "zh-CN": "塔拉夏的赫拉迪姆之冠"
     },
     "kind": "set",
     "setName": {
       "en": "Tal Rasha's Wrappings",
-      "zh-TW": "塔.拉夏的外袍",
-      "zh-CN": "塔.拉夏的外袍"
+      "zh-TW": "塔拉夏的外袍",
+      "zh-CN": "塔拉夏的外袍"
     },
     "levelReq": 66,
     "baseName": {
@@ -10020,8 +10020,8 @@
     "kind": "set",
     "setName": {
       "en": "Tal Rasha's Wrappings",
-      "zh-TW": "塔.拉夏的外袍",
-      "zh-CN": "塔.拉夏的外袍"
+      "zh-TW": "塔拉夏的外袍",
+      "zh-CN": "塔拉夏的外袍"
     },
     "levelReq": 71,
     "baseName": {
@@ -10131,14 +10131,14 @@
     "code": "oba",
     "name": {
       "en": "Tal Rasha's Lidless Eye",
-      "zh-TW": "塔.拉夏的判決",
-      "zh-CN": "塔.拉夏的判决"
+      "zh-TW": "塔拉夏的警惕之眼",
+      "zh-CN": "塔拉夏的警惕之眼"
     },
     "kind": "set",
     "setName": {
       "en": "Tal Rasha's Wrappings",
-      "zh-TW": "塔.拉夏的外袍",
-      "zh-CN": "塔.拉夏的外袍"
+      "zh-TW": "塔拉夏的外袍",
+      "zh-CN": "塔拉夏的外袍"
     },
     "levelReq": 65,
     "baseName": {
@@ -10286,14 +10286,14 @@
     "code": "mpi",
     "name": {
       "en": "Tancred's Crowbill",
-      "zh-TW": "坦克雷的鴉嘴鉗",
-      "zh-CN": "坦克雷的鸦嘴钳"
+      "zh-TW": "坦克雷的鴉嘴鎬",
+      "zh-CN": "坦克雷的鸦嘴镐"
     },
     "kind": "set",
     "setName": {
       "en": "Tancred's Battlegear",
-      "zh-TW": "坦克雷的戰鬥工具",
-      "zh-CN": "坦克雷的战斗工具"
+      "zh-TW": "坦克雷的戰裝",
+      "zh-CN": "坦克雷的战装"
     },
     "levelReq": 20,
     "baseName": {
@@ -10361,14 +10361,14 @@
     "code": "lbt",
     "name": {
       "en": "Tancred's Hobnails",
-      "zh-TW": "坦克雷的平頭釘",
-      "zh-CN": "坦克雷的平头钉"
+      "zh-TW": "坦克雷的釘靴",
+      "zh-CN": "坦克雷的钉靴"
     },
     "kind": "set",
     "setName": {
       "en": "Tancred's Battlegear",
-      "zh-TW": "坦克雷的戰鬥工具",
-      "zh-CN": "坦克雷的战斗工具"
+      "zh-TW": "坦克雷的戰裝",
+      "zh-CN": "坦克雷的战装"
     },
     "levelReq": 20,
     "baseName": {
@@ -10439,14 +10439,14 @@
     "code": "bhm",
     "name": {
       "en": "Tancred's Skull",
-      "zh-TW": "坦克雷之骷髏",
-      "zh-CN": "坦克雷之骷髅"
+      "zh-TW": "坦克雷的顱骨",
+      "zh-CN": "坦克雷的颅骨"
     },
     "kind": "set",
     "setName": {
       "en": "Tancred's Battlegear",
-      "zh-TW": "坦克雷的戰鬥工具",
-      "zh-CN": "坦克雷的战斗工具"
+      "zh-TW": "坦克雷的戰裝",
+      "zh-CN": "坦克雷的战装"
     },
     "levelReq": 20,
     "baseName": {
@@ -10512,8 +10512,8 @@
     "kind": "set",
     "setName": {
       "en": "Tancred's Battlegear",
-      "zh-TW": "坦克雷的戰鬥工具",
-      "zh-CN": "坦克雷的战斗工具"
+      "zh-TW": "坦克雷的戰裝",
+      "zh-CN": "坦克雷的战装"
     },
     "levelReq": 20,
     "baseName": {
@@ -10579,8 +10579,8 @@
     "kind": "set",
     "setName": {
       "en": "Tancred's Battlegear",
-      "zh-TW": "坦克雷的戰鬥工具",
-      "zh-CN": "坦克雷的战斗工具"
+      "zh-TW": "坦克雷的戰裝",
+      "zh-CN": "坦克雷的战装"
     },
     "levelReq": 20,
     "baseName": {
@@ -10648,8 +10648,8 @@
     "code": "amu",
     "name": {
       "en": "Telling of Beads",
-      "zh-TW": "述說之珠",
-      "zh-CN": "述说之珠"
+      "zh-TW": "誦唸珠",
+      "zh-CN": "诵念珠"
     },
     "kind": "set",
     "setName": {
@@ -10726,8 +10726,8 @@
     "code": "xmg",
     "name": {
       "en": "Trang-Oul's Claws",
-      "zh-TW": "塔格奧之手",
-      "zh-CN": "塔格奥之手"
+      "zh-TW": "塔格奧之爪",
+      "zh-CN": "塔格奥之爪"
     },
     "kind": "set",
     "setName": {
@@ -10813,8 +10813,8 @@
     "code": "utc",
     "name": {
       "en": "Trang-Oul's Girth",
-      "zh-TW": "塔格奧之束帶",
-      "zh-CN": "塔格奥之束带"
+      "zh-TW": "塔格奧之腹",
+      "zh-CN": "塔格奥之腹"
     },
     "kind": "set",
     "setName": {
@@ -10936,8 +10936,8 @@
     "code": "uh9",
     "name": {
       "en": "Trang-Oul's Guise",
-      "zh-TW": "塔格奧之外裝",
-      "zh-CN": "塔格奥之外装"
+      "zh-TW": "塔格奧之容",
+      "zh-CN": "塔格奥之容"
     },
     "kind": "set",
     "setName": {
@@ -11353,8 +11353,8 @@
     "code": "lbb",
     "name": {
       "en": "Vidala's Barb",
-      "zh-TW": "維達拉之倒刺",
-      "zh-CN": "维达拉之倒刺"
+      "zh-TW": "維達拉的倒刺",
+      "zh-CN": "维达拉的倒刺"
     },
     "kind": "set",
     "setName": {
@@ -11417,8 +11417,8 @@
     "code": "tbt",
     "name": {
       "en": "Vidala's Fetlock",
-      "zh-TW": "維達拉的距毛",
-      "zh-CN": "维达拉的距毛"
+      "zh-TW": "維達拉的足距",
+      "zh-CN": "维达拉的足距"
     },
     "kind": "set",
     "setName": {
@@ -11484,8 +11484,8 @@
     "code": "amu",
     "name": {
       "en": "Vidala's Snare",
-      "zh-TW": "維達拉的陷阱",
-      "zh-CN": "维达拉的陷阱"
+      "zh-TW": "維達拉的圈套",
+      "zh-CN": "维达拉的圈套"
     },
     "kind": "set",
     "setName": {

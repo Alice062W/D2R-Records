@@ -341,13 +341,96 @@ function localizedLabelWithSkill(code, par) {
   };
 }
 
+// vendor/d2data's chi[] table is a general game-string dump and is stale or
+// inconsistent for a large share of Unique/Set item and set names (e.g. it
+// held two different spellings of "Civerb's Ward" in the same file). Verified
+// directly against d2r.world's own zh-TW pages this session (scraped every
+// Unique category and every Set page, matched entries by the English name
+// shown in parentheses next to each Chinese name) rather than translated by
+// hand. Covers unique item names, set piece names, and set names — all three
+// flow through localizedItemName below. zh-CN is still derived via toZhCn().
+const ITEM_NAME_OVERRIDES = {
+  'Aldur\'s Advance': "艾爾多的進擊", 'Alma Negra': "黑魂", 'Andariel\'s Visage': "安達莉爾的面貌", 'Angelic Halo': "天使的光暈",
+  'Angelic Wings': "天使的翅膀", 'Annihilus': "滅絕", 'Arcanna\'s Sign': "阿卡娜的符印", 'Arcanna\'s Tricks': "阿卡娜的詭計",
+  'Arctic Binding': "北極捆索", 'Arctic Gear': "北極裝備", 'Arm of King Leoric': "李奧瑞克王的手骨",
+  'Ars Dul\'Mephistos': "杜墨菲斯托斯學術", 'Ars Tor\'Baalos': "托巴爾羅斯學術", 'Athena\'s Wrath': "雅典娜之怒", 'Azurewrath': "碧藍怒火",
+  'Bane\'s Authority': "貝恩的權威", 'Bane\'s Garments': "貝恩的衣裝", 'Bane\'s Oathmaker': "貝恩的立誓者",
+  'Bane\'s Wraithskin': "貝恩的靈膚", 'Berserker\'s Hatchet': "狂戰士手斧", 'Berserker\'s Hauberk': "狂戰士鎖子甲",
+  'Berserker\'s Headgear': "狂戰士頭盔", 'Bing Sz Wang': "冰之王", 'Blackhorn\'s Face': "黑荊角面具",
+  'Blackleach Blade': "黑蛭長刀", 'Blacktongue': "黑舌", 'Bladebuckle': "刀鋒扣帶", 'Blastbark': "爆裂咆哮",
+  'Bloodletter': "放血者", 'Bloodpact Shard': "血誓碎片", 'Bloodrise': "血升", 'Bloodthief': "血賊", 'Boneshade': "骸骨陰影",
+  'Boneslayer Blade': "斬骨者之斧", 'Brainhew': "劈腦", 'Bul-Kathos\' Children': "布爾凱索的子嗣",
+  'Bul-Kathos\' Sacred Charge': "布爾凱索的神聖職責", 'Buriza-Do Kyanon': "暴雪砲弩", 'Butcher\'s Pupil': "屠夫的徒弟",
+  'Bverrit Keep': "布雷維特要塞", 'Carin Shard': "凱林碎片", 'Cathan\'s Mesh': "卡珊的網衣", 'Cathan\'s Rule': "卡珊的尺杖",
+  'Cathan\'s Traps': "卡珊的衣著", 'Chromatic Ire': "炫彩之怒", 'Civerb\'s Cudgel': "克維雷布的短棍", 'Civerb\'s Icon': "克維雷布的聖像",
+  'Civerb\'s Vestments': "克維雷布的法衣", 'Civerb\'s Ward': "克維雷布的防護", 'Cleglaw\'s Brace': "克雷德勞的防備",
+  'Cleglaw\'s Claw': "克雷德勞之爪", 'Cleglaw\'s Pincers': "克雷德勞之鉗", 'Cleglaw\'s Tooth': "克雷德勞之牙", 'Cliffkiller': "懸崖殺手",
+  'Coif of Glory': "光榮罩盔", 'Corpsemourn': "屍慟", 'Cow King\'s Hide': "牛王之皮", 'Cow King\'s Horns': "牛王之角",
+  'Cow King\'s Leathers': "牛王皮甲", 'Crainte Vomir': "恐懼之嘔", 'Credendum': "守信條", 'Crow Caw': "鴉啼",
+  'Crown of Ages': "歲月之冠", 'Crushflange': "碎擊釘錘", 'Dangoon\'s Teaching': "檀君的教導", 'Darkglow': "暗光",
+  'Death\'s Guard': "死亡之護", 'Deathbit': "死亡尖鑽", 'Demon Machine': "惡魔機弩", 'Demon\'s Arch': "惡魔之拱",
+  'Demonhorn\'s Edge': "惡魔角尖", 'Doombringer': "末日使者", 'Dracul\'s Grasp': "德古拉之握", 'Dreadfang': "懼牙",
+  'Duriel\'s Shell': "都瑞爾之殼", 'Eaglehorn': "鷹角弓", 'Earthshaker': "震地者", 'Endlesshail': "無盡冰雹",
+  'Entropy Locket': "無序墜盒", 'Ethereal Edge': "無形之刃", 'Felloak': "魔橡樹", 'Flamebellow': "火嚎", 'Fleshrender': "血肉撕裂者",
+  'Frostwind': "霜風", 'Gheed\'s Fortune': "基德的財運", 'Gheed\'s Wager': "基德的賭注", 'Ghostflame': "鬼火",
+  'Ghoulhide': "食屍鬼之皮", 'Gimmershred': "吉默削斧", 'Ginther\'s Rift': "金瑟的裂隙", 'Gleamscythe': "閃耀鐮刀",
+  'Goblin Toe': "哥布林腳趾", 'Goldskin': "黃金之膚", 'Goldwrap': "黃金裹腰", 'Goreshovel': "血鍬", 'Gravepalm': "墓穴手掌",
+  'Greyform': "灰暮之形", 'Griffon\'s Eye': "獅鷲之眼", 'Grim\'s Burning Dead': "懼焰亡靈", 'Griswold\'s Heart': "格里斯瓦德之心",
+  'Griswold\'s Honor': "格里斯瓦德的榮耀", 'Griswold\'s Legacy': "格里斯瓦德的傳奇", 'Griswold\'s Valor': "格里斯瓦德的勇氣",
+  'Guardian Naga': "那伽守護者", 'Halaberd\'s Reign': "海拉柏德的國度", 'Hand of Blessed Light': "聖光之手", 'Heart Carver': "刨心者",
+  'Heaven\'s Brethren': "天堂的同胞", 'Hellcast': "地獄擲弩", 'Hellclap': "地獄轟鳴", 'Hellmouth': "地獄之口", 'Hellrack': "地獄刑具",
+  'Hellslayer': "地獄殺戮者", 'Hexfire': "妖火", 'Homunculus': "魔胎", 'Hone Sundan': "骨寸斷",
+  'Horazon\'s Countenance': "赫拉森的面容", 'Horazon\'s Dominion': "赫拉森的統治", 'Horazon\'s Hold': "赫拉森的掌控",
+  'Horazon\'s Legacy': "赫拉森的傳承", 'Horazon\'s Secrets': "赫拉森的秘密", 'Horazon\'s Splendor': "赫拉森的輝煌",
+  'Horizon\'s Tornado': "地平線的龍捲風", 'Hsarus\' Defense': "海沙魯的鐵禦", 'Hsarus\' Iron Fist': "海沙魯的鐵拳",
+  'Hsarus\' Iron Heel': "海沙魯的鐵跟", 'Hsarus\' Iron Stay': "海沙魯的鐵扣", 'Husoldal Evo': "血肉吞食者",
+  'Hwanin\'s Justice': "桓因的制裁", 'Hwanin\'s Majesty': "桓因的威嚴", 'Hwanin\'s Refuge': "桓因的庇佑",
+  'Hwanin\'s Splendor': "桓因的光輝", 'Iceblink': "冰晶", 'Ichorsting': "膿毒之刺", 'Immortal King\'s Detail': "不朽之王的扈從",
+  'Immortal King\'s Forge': "不朽之王的熔爐", 'Infernal Cranium': "煉獄頭骨", 'Infernal Sign': "煉獄符印",
+  'Infernal Tools': "煉獄器具", 'Infernal Torch': "煉獄火炬", 'Iratha\'s Coil': "依雷撒的盤頂", 'Iratha\'s Cord': "依雷撒的腰繩",
+  'Iratha\'s Cuff': "依雷撒的袖銬", 'Iratha\'s Finery': "依雷撒的華服", 'Isenhart\'s Armory': "依森哈特的軍械",
+  'Isenhart\'s Case': "依森哈特的外殼", 'Isenhart\'s Horns': "依森哈特的角盔", 'Isenhart\'s Lightbrand': "依森哈特的光之烙鐵",
+  'Isenhart\'s Parry': "依森哈特的招架", 'Jalal\'s Mane': "加爾的鬃毛", 'Knell Striker': "喪鐘敲擊者", 'Langer Briser': "蘭古布利薩",
+  'Laying of Hands': "按手禮", 'Leadcrow': "鉛烏鴉", 'Leviathan': "利維坦", 'Lycander\'s Aim': "萊坎德的準頭",
+  'Lycander\'s Flank': "萊坎德的側翼", 'M\'avina\'s Caster': "馬維娜的強弓", 'Manald Heal': "瑪那德的治療",
+  'Mang Song\'s Lesson': "曼宋的教誨", 'Measured Wrath': "審慎之怒", 'Messerschmidt\'s Reaver': "梅希斯密特之劫掠者",
+  'Milabrega\'s Diadem': "米拉伯佳權冠", 'Milabrega\'s Regalia': "米拉伯佳戰裝", 'Milabrega\'s Robe': "米拉伯佳外袍",
+  'Milabrega\'s Rod': "米拉伯佳節杖", 'Moonfall': "月落", 'Naj\'s Circlet': "娜吉的頭環", 'Naj\'s Light Plate': "娜吉的輕鎧",
+  'Naj\'s Puzzler': "娜吉的解謎杖", 'Natalya\'s Mark': "娜塔亞的印記", 'Nature\'s Peace': "自然祥和", 'Nord\'s Tenderizer': "北地肉鎚",
+  'Nosferatu\'s Coil': "吸血鬼王之圈", 'Ondal\'s Almighty': "溫達的全靈", 'Ondal\'s Wisdom': "溫達的智慧", 'Opalvein': "蛋白石脈",
+  'Ormus\' Robes': "奧瑪斯之袍", 'Pierre Tombale Couant': "墓石長戟", 'Pluckeye': "奪人目", 'Rakescar': "耙痕",
+  'Rattlecage': "震骨", 'Ravenlore': "掠鴉之王", 'Razorswitch': "剃刀杖", 'Razortine': "剃刀叉", 'Ripsaw': "齒鋸",
+  'Rite of Passage': "入門式", 'Rockfleece': "石羊毛", 'Rockstopper': "石禦", 'Rusthandle': "鏽蝕把手",
+  'Sazabi\'s Cobalt Redeemer': "沙薩比的救贖鈷劍", 'Sazabi\'s Ghost Liberator': "沙薩比的解靈框體",
+  'Sazabi\'s Grand Tribute': "沙薩比的崇高禮讚", 'Sazabi\'s Mental Sheath': "沙薩比的精神護罩", 'Shadowfang': "暗影之牙",
+  'Shaftstop': "箭止", 'Sigon\'s Complete Steel': "西剛的全套鋼甲", 'Sigon\'s Sabot': "西剛的硬靴", 'Sigon\'s Shelter': "西剛的庇護",
+  'Sigon\'s Visor': "西剛的護面", 'Sigon\'s Wrap': "西剛的裹腰", 'Skullder\'s Ire': "斯寇德的憤怒", 'Sling': "投索",
+  'Snowclash': "冰雪交織", 'Soul Harvest': "靈魂收割者", 'Soulflay': "剝魂", 'Sparking Mail': "電光之甲", 'Spike Thorn': "尖刺荊棘",
+  'Spire of Honor': "榮耀尖塔", 'Stealskull': "盜竊顱盔", 'Steelclash': "鋼鐵衝擊", 'Steeldriver': "打鋼鎚", 'Stoneraven': "石鴉",
+  'Stormguild': "風暴同盟", 'Stormlash': "暴風之鞭", 'Stoutnail': "特粗鐵釘", 'Suicide Branch': "自殘枝椏",
+  'Swordback Hold': "劍棘之盾", 'Tal Rasha\'s Adjudication': "塔拉夏的判決", 'Tal Rasha\'s Horadric Crest': "塔拉夏的赫拉迪姆之冠",
+  'Tal Rasha\'s Lidless Eye': "塔拉夏的警惕之眼", 'Tal Rasha\'s Wrappings': "塔拉夏的外袍", 'Tancred\'s Battlegear': "坦克雷的戰裝",
+  'Tancred\'s Crowbill': "坦克雷的鴉嘴鎬", 'Tancred\'s Hobnails': "坦克雷的釘靴", 'Tancred\'s Skull': "坦克雷的顱骨",
+  'Tearhaunch': "裂臀", 'Telling of Beads': "誦唸珠", 'Templar\'s Might': "聖堂騎士之力", 'The Battlebranch': "戰鬥枝椏",
+  'The Dragon Chang': "龍槍", 'The Eye of Etlich': "艾利曲之眼", 'The Gavel of Pain': "痛苦之槌",
+  'The Gladiator\'s Bane': "鬥士之禍", 'The Gnasher': "噬咬者", 'The Grandfather': "高祖", 'The Grim Reaper': "猙獰奪魂者",
+  'The Impaler': "刺穿者", 'The Iron Jang Bong': "鐵長棒", 'The Jade Tan Do': "玉匕", 'The Oculus': "核瞳",
+  'The Patriarch': "尊父", 'The Reaper\'s Toll': "死神喪鐘", 'The Rising Sun': "旭日東升", 'The Scalper': "頭皮剝斧",
+  'The Tannr Gorerod': "坦納血杖", 'The Vile Husk': "兇邪軀殼", 'The Ward': "庇護結界", 'Thunderstroke': "雷霆之擊",
+  'Todesfaelle Flamme': "死落之火", 'Trang-Oul\'s Claws': "塔格奧之爪", 'Trang-Oul\'s Girth': "塔格奧之腹",
+  'Trang-Oul\'s Guise': "塔格奧之容", 'Treads of Cthon': "凱松的足靴", 'Twitchthroe': "抽動掙扎", 'Tyrael\'s Might': "泰瑞爾之力",
+  'Venom Grip': "劇毒之握", 'Vidala\'s Barb': "維達拉的倒刺", 'Vidala\'s Fetlock': "維達拉的足距", 'Vidala\'s Snare': "維達拉的圈套",
+  'Viperfork': "蛇魔叉", 'Wall of the Eyeless': "無眼者之牆", 'Widowmaker': "絕命", 'Witherstring': "凋萎之弦",
+  'Wizendraw': "凋謝弓弦", 'Woestave': "悲哀護杖", 'Wormskull': "蠕蟲頭骨", 'Wraithstep': "怨靈步伐",
+};
+
 // Item/set names and base names: localestrings-chi.json is keyed by the exact
 // English string used elsewhere in the source data (item `index` names verbatim,
 // base item codes directly) — see vendor/d2data/README.md. ~95% coverage
 // (verified); the miss is newer DLC content not yet in this localization
 // snapshot, and falls back to the English text per the fallback policy.
 function localizedItemName(englishName) {
-  const zhTw = chi[englishName] ?? englishName;
+  const zhTw = ITEM_NAME_OVERRIDES[englishName] ?? chi[englishName] ?? englishName;
   return { en: englishName, 'zh-TW': zhTw, 'zh-CN': toZhCn(zhTw) };
 }
 
