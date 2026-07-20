@@ -26,10 +26,11 @@ function RuneIcon({ invFile }: { invFile: string }) {
 export default function RunewordList({ runewords, locale }: { runewords: Runeword[]; locale: 'en' | 'zh-TW' | 'zh-CN' }) {
   const t = useTranslations('Items');
   const tGrail = useTranslations('Grail');
-  const { userId, ownedIds, toggle } = useOwnedItems();
+  const { userId, ownedIds, toggle, error } = useOwnedItems();
 
   return (
     <div className="flex flex-col gap-4 w-full">
+      {error && <p className="text-sm text-red-400">{error}</p>}
       {runewords.map(rw => (
         <div key={rw.id} className="bg-panel border border-panel-border rounded-xl p-6">
           <div className="flex items-center justify-between">

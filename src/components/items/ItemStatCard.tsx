@@ -15,7 +15,7 @@ const NAME_COLOR: Record<GrailItem['kind'], string> = {
 export default function ItemStatCard({ item }: { item: GrailItem }) {
   const t = useTranslations('Grail');
   const [iconFailed, setIconFailed] = useState(false);
-  const { userId, ownedIds, toggle } = useOwnedItems();
+  const { userId, ownedIds, toggle, error } = useOwnedItems();
 
   const itemStatRows: [string, string][] = [
     [t('baseLabel'), item.baseName],
@@ -45,15 +45,18 @@ export default function ItemStatCard({ item }: { item: GrailItem }) {
             {item.setName && <p className="text-xs text-[#22ff55]">{item.setName}</p>}
           </div>
           {userId && (
-            <label className="flex items-center gap-1.5 cursor-pointer select-none shrink-0">
-              <input
-                type="checkbox"
-                checked={ownedIds.has(item.id)}
-                onChange={() => toggle(item.id, item.kind)}
-                className="w-4 h-4 accent-amber-400"
-                aria-label={t('ownedCheckboxLabel')}
-              />
-            </label>
+            <div className="flex flex-col items-end gap-1 shrink-0">
+              <label className="flex items-center gap-1.5 cursor-pointer select-none">
+                <input
+                  type="checkbox"
+                  checked={ownedIds.has(item.id)}
+                  onChange={() => toggle(item.id, item.kind)}
+                  className="w-4 h-4 accent-amber-400"
+                  aria-label={t('ownedCheckboxLabel')}
+                />
+              </label>
+              {error && <p className="text-xs text-red-400 max-w-[140px] text-right">{error}</p>}
+            </div>
           )}
         </div>
       </div>

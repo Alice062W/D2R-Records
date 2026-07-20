@@ -11,6 +11,13 @@ create table public.owned_items (
   primary key (user_id, item_id)
 );
 
+-- Table-level privileges: required because this project disables automatic
+-- Data API exposure of new tables ("Automatically expose new tables" off) —
+-- same reason 0001_finds.sql grants these. Without this, every insert/select/
+-- delete fails with a permission error before RLS is ever evaluated, even
+-- though the policies below are otherwise correct.
+grant select, insert, delete on table public.owned_items to authenticated;
+
 alter table public.owned_items enable row level security;
 
 create policy "select own owned_items" on public.owned_items
