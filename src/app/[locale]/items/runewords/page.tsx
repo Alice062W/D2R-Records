@@ -13,6 +13,8 @@ const ALL_ITEM_TYPES = Array.from(new Set(runewordsFull.flatMap(rw => rw.itemTyp
 const ALL_RUNEWORD_IDS = runewordsFull.map(rw => rw.id);
 const OWNED_FILTERS = ['all', 'collected', 'missing'] as const;
 type OwnedFilter = (typeof OWNED_FILTERS)[number];
+const SORT_OPTIONS = ['default', 'ownedFirst', 'missingFirst'] as const;
+type SortOption = (typeof SORT_OPTIONS)[number];
 
 export default function RunewordsPage() {
   const t = useTranslations('Items');
@@ -21,6 +23,7 @@ export default function RunewordsPage() {
   const [activeType, setActiveType] = useState<string | null>(null);
   const [activeSockets, setActiveSockets] = useState<number | null>(null);
   const [ownedFilter, setOwnedFilter] = useState<OwnedFilter>('all');
+  const [sortOption, setSortOption] = useState<SortOption>('default');
   const { userId, ownedIds } = useOwnedItems();
 
   // The current type+socket combination, before the owned filter is
@@ -42,6 +45,13 @@ export default function RunewordsPage() {
     filtered = filtered.filter(rw =>
       ownedFilter === 'collected' ? ownedIds.has(rw.id) : !ownedIds.has(rw.id)
     );
+  }
+  if (userId && sortOption !== 'default') {
+    filtered = [...filtered].sort((a, b) => {
+      const aOwned = ownedIds.has(a.id) ? 1 : 0;
+      const bOwned = ownedIds.has(b.id) ? 1 : 0;
+      return sortOption === 'ownedFirst' ? bOwned - aOwned : aOwned - bOwned;
+    });
   }
 
   function pill(active: boolean) {
@@ -74,17 +84,31 @@ export default function RunewordsPage() {
           </div>
         )}
         {userId && (
-          <div className="flex flex-wrap gap-2">
-            {OWNED_FILTERS.map(f => (
-              <button
-                key={f}
-                onClick={() => setOwnedFilter(f)}
-                aria-pressed={ownedFilter === f}
-                className={pill(ownedFilter === f)}
-              >
-                {tGrail(`filter${f.charAt(0).toUpperCase()}${f.slice(1)}` as 'filterAll' | 'filterCollected' | 'filterMissing')}
-              </button>
-            ))}
+          <div className="flex flex-wrap items-center gap-3">
+            <div className="flex flex-wrap gap-2">
+              {OWNED_FILTERS.map(f => (
+                <button
+                  key={f}
+                  onClick={() => setOwnedFilter(f)}
+                  aria-pressed={ownedFilter === f}
+                  className={pill(ownedFilter === f)}
+                >
+                  {tGrail(`filter${f.charAt(0).toUpperCase()}${f.slice(1)}` as 'filterAll' | 'filterCollected' | 'filterMissing')}
+                </button>
+              ))}
+            </div>
+            <select
+              value={sortOption}
+              onChange={e => setSortOption(e.target.value as SortOption)}
+              aria-label={tGrail('sortDefault')}
+              className="px-3 py-1.5 rounded-lg text-sm bg-panel border border-panel-border text-parchment"
+            >
+              {SORT_OPTIONS.map(opt => (
+                <option key={opt} value={opt}>
+                  {tGrail(`sort${opt.charAt(0).toUpperCase()}${opt.slice(1)}` as 'sortDefault' | 'sortOwnedFirst' | 'sortMissingFirst')}
+                </option>
+              ))}
+            </select>
           </div>
         )}
         <RunewordList runewords={filtered} locale={locale} />
