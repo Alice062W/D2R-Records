@@ -1492,7 +1492,7 @@
           "zh-TW": "降低敵方閃電抗性 %",
           "zh-CN": "降低敌方闪电抗性 %"
         },
-        "value": 35,
+        "value": -35,
         "isSkillRef": false
       },
       {
@@ -2033,8 +2033,8 @@
           "zh-TW": "降低敵方冷凍抗性 %",
           "zh-CN": "降低敌方冷冻抗性 %"
         },
-        "min": 40,
-        "max": 60,
+        "min": -60,
+        "max": -40,
         "isSkillRef": false
       },
       {
@@ -3262,8 +3262,8 @@
           "zh-TW": "降低敵方火焰抗性 %",
           "zh-CN": "降低敌方火焰抗性 %"
         },
-        "min": 10,
-        "max": 15,
+        "min": -15,
+        "max": -10,
         "isSkillRef": false
       },
       {
@@ -3739,8 +3739,8 @@
           "zh-TW": "降低敵方毒素抗性 %",
           "zh-CN": "降低敌方毒素抗性 %"
         },
-        "min": 20,
-        "max": 25,
+        "min": -25,
+        "max": -20,
         "isSkillRef": false
       },
       {
@@ -3975,7 +3975,7 @@
           "zh-TW": "降低敵方火焰抗性 %",
           "zh-CN": "降低敌方火焰抗性 %"
         },
-        "value": 20,
+        "value": -20,
         "isSkillRef": false
       }
     ]
@@ -4817,7 +4817,7 @@
           "zh-TW": "降低敵方冷凍抗性 %",
           "zh-CN": "降低敌方冷冻抗性 %"
         },
-        "value": 20,
+        "value": -20,
         "isSkillRef": false
       },
       {
@@ -4903,8 +4903,8 @@
           "zh-TW": "降低敵方閃電抗性 %",
           "zh-CN": "降低敌方闪电抗性 %"
         },
-        "min": 45,
-        "max": 55,
+        "min": -55,
+        "max": -45,
         "isSkillRef": false
       },
       {
@@ -6852,7 +6852,7 @@
           "zh-TW": "降低敵方火焰抗性 %",
           "zh-CN": "降低敌方火焰抗性 %"
         },
-        "value": 25,
+        "value": -25,
         "isSkillRef": false
       },
       {
@@ -7429,7 +7429,7 @@
           "zh-TW": "降低敵方火焰抗性 %",
           "zh-CN": "降低敌方火焰抗性 %"
         },
-        "value": 28,
+        "value": -28,
         "isSkillRef": false
       }
     ]
@@ -7534,7 +7534,7 @@
           "zh-TW": "降低敵方毒素抗性 %",
           "zh-CN": "降低敌方毒素抗性 %"
         },
-        "value": 23,
+        "value": -23,
         "isSkillRef": false
       },
       {
@@ -9898,7 +9898,7 @@
           "zh-TW": "降低敵方冷凍抗性 %",
           "zh-CN": "降低敌方冷冻抗性 %"
         },
-        "value": 24,
+        "value": -24,
         "isSkillRef": false
       },
       {

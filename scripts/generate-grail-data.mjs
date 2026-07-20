@@ -663,6 +663,20 @@ function poisonDamageOverTimeLabel(seconds) {
 // value/256 scaling as the three-prop form, just packaged differently.
 // Every dmg-pois occurrence in vendor data (~20 unique/set items) carries a
 // par, so this always applies when the code matches, not just sometimes.
+// vendor data stores "Enemy <Element> Resistance %" (pierce-fire/cold/ltng/
+// pois/mag) as a positive magnitude, but it's a resistance PENALTY inflicted
+// on the enemy — the existing zh-TW labels already say "降低敵方X抗性 %"
+// (Reduce Enemy X Resistance %), and d2r.world displays it negative
+// ("-3-5%"), but the raw positive number was shown as-is, reading backward
+// (as if increasing the enemy's resistance). Confirmed against d2r.world's
+// Rainbow Facet jewels this session. Negate at extraction so every caller
+// gets the corrected sign for free.
+const PIERCE_RESIST_CODES = new Set(['pierce-fire', 'pierce-cold', 'pierce-ltng', 'pierce-pois', 'pierce-mag']);
+function negatePierceResist(code, min, max) {
+  if (!PIERCE_RESIST_CODES.has(code) || min === undefined || max === undefined) return null;
+  return { min: -max, max: -min };
+}
+
 function scaleDmgPoisWithPar(code, par, min, max) {
   if (code !== 'dmg-pois' || par === undefined || min === undefined || max === undefined) return null;
   const seconds = Math.round(par / 25);
@@ -708,6 +722,8 @@ function extractProps(entry, count, prefixes = { code: 'prop', par: 'par', min: 
     const dmgPois = scaleDmgPoisWithPar(code, par, min, max);
     const effectiveLabel = dmgPois ? dmgPois.label : label;
     if (dmgPois) ({ min, max } = dmgPois);
+    const pierceNeg = negatePierceResist(code, min, max);
+    if (pierceNeg) ({ min, max } = pierceNeg);
     if (min !== undefined && max !== undefined) {
       if (min === max) fixed.push({ key, label: effectiveLabel, value: min, isSkillRef });
       else variable.push({ key, label: effectiveLabel, min, max, isSkillRef });
