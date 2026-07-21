@@ -11277,17 +11277,6 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "mana",
-        "label": {
-          "en": "Mana",
-          "zh-TW": "魔力值",
-          "zh-CN": "魔力值"
-        },
-        "min": 89,
-        "max": 112,
-        "isSkillRef": false
-      },
-      {
         "key": "cast3",
         "label": {
           "en": "Faster Cast Rate",
@@ -11296,6 +11285,17 @@
         },
         "min": 25,
         "max": 35,
+        "isSkillRef": false
+      },
+      {
+        "key": "mana",
+        "label": {
+          "en": "Mana",
+          "zh-TW": "魔力值",
+          "zh-CN": "魔力值"
+        },
+        "min": 89,
+        "max": 112,
         "isSkillRef": false
       },
       {
@@ -11308,9 +11308,41 @@
         "min": 3,
         "max": 8,
         "isSkillRef": false
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage (Weapons Only)",
+          "zh-TW": "閃電傷害（僅限武器）",
+          "zh-CN": "闪电伤害（僅限武器）"
+        },
+        "min": 1,
+        "max": 50,
+        "isSkillRef": false
+      },
+      {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage (Weapons Only)",
+          "zh-TW": "冷凍傷害（僅限武器）",
+          "zh-CN": "冷冻伤害（僅限武器）"
+        },
+        "min": 3,
+        "max": 14,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
+      {
+        "key": "allskills",
+        "label": {
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
+        },
+        "value": 2,
+        "isSkillRef": false
+      },
       {
         "key": "balance3",
         "label": {
@@ -11319,16 +11351,6 @@
           "zh-CN": "加快恢复速度"
         },
         "value": 55,
-        "isSkillRef": false
-      },
-      {
-        "key": "ac-miss",
-        "label": {
-          "en": "Defense vs. Missile",
-          "zh-TW": "對抗遠程攻擊防禦力",
-          "zh-CN": "对抗远程攻击防御力"
-        },
-        "value": 250,
         "isSkillRef": false
       },
       {
@@ -11342,13 +11364,73 @@
         "isSkillRef": false
       },
       {
-        "key": "allskills",
+        "key": "ac-miss",
         "label": {
-          "en": "All Skills",
-          "zh-TW": "全部技能",
-          "zh-CN": "全部技能"
+          "en": "Defense vs. Missile",
+          "zh-TW": "對抗遠程攻擊防禦力",
+          "zh-CN": "对抗远程攻击防御力"
         },
-        "value": 2,
+        "value": 250,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-ltng",
+        "label": {
+          "en": "Lightning Resist % (Shields Only)",
+          "zh-TW": "閃電抗性 %（僅限盾牌）",
+          "zh-CN": "闪电抗性 %（僅限盾牌）"
+        },
+        "value": 35,
+        "isSkillRef": false
+      },
+      {
+        "key": "thorns",
+        "label": {
+          "en": "Attacker Takes Damage (Shields Only)",
+          "zh-TW": "攻擊者承受傷害（僅限盾牌）",
+          "zh-CN": "攻击者承受伤害（僅限盾牌）"
+        },
+        "value": 14,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-cold",
+        "label": {
+          "en": "Cold Resist % (Shields Only)",
+          "zh-TW": "冷凍抗性 %（僅限盾牌）",
+          "zh-CN": "冷冻抗性 %（僅限盾牌）"
+        },
+        "value": 35,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-pois",
+        "label": {
+          "en": "Poison Resist % (Shields Only)",
+          "zh-TW": "毒素抗性 %（僅限盾牌）",
+          "zh-CN": "毒素抗性 %（僅限盾牌）"
+        },
+        "value": 35,
+        "isSkillRef": false
+      },
+      {
+        "key": "pois-dot",
+        "label": {
+          "en": "Adds Poison Damage over 5 Seconds (Weapons Only)",
+          "zh-TW": "增加毒素傷害，持續 5 秒（僅限武器）",
+          "zh-CN": "增加毒素伤害，持续 5 秒（僅限武器）"
+        },
+        "value": 75,
+        "isSkillRef": false
+      },
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal % (Weapons Only)",
+          "zh-TW": "生命竊取 %（僅限武器）",
+          "zh-CN": "生命窃取 %（僅限武器）"
+        },
+        "value": 7,
         "isSkillRef": false
       }
     ]
@@ -11397,13 +11479,53 @@
     ],
     "fixedStats": [
       {
-        "key": "light",
+        "key": "allskills",
         "label": {
-          "en": "Light Radius",
-          "zh-TW": "光環半徑",
-          "zh-CN": "光环半径"
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
         },
-        "value": 3,
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "cast2",
+        "label": {
+          "en": "Faster Cast Rate",
+          "zh-TW": "加快施法速度",
+          "zh-CN": "加快施法速度"
+        },
+        "value": 10,
+        "isSkillRef": false
+      },
+      {
+        "key": "block2",
+        "label": {
+          "en": "Faster Block Rate",
+          "zh-TW": "加快格擋速度",
+          "zh-CN": "加快格挡速度"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "enr",
+        "label": {
+          "en": "Energy",
+          "zh-TW": "精力",
+          "zh-CN": "精力"
+        },
+        "value": 10,
+        "isSkillRef": false
+      },
+      {
+        "key": "regen-mana",
+        "label": {
+          "en": "Mana Regenerated %",
+          "zh-TW": "魔力回復 %",
+          "zh-CN": "魔力回复 %"
+        },
+        "value": 15,
         "isSkillRef": false
       },
       {
@@ -11427,33 +11549,13 @@
         "isSkillRef": false
       },
       {
-        "key": "block2",
+        "key": "light",
         "label": {
-          "en": "Faster Block Rate",
-          "zh-TW": "加快格擋速度",
-          "zh-CN": "加快格挡速度"
+          "en": "Light Radius",
+          "zh-TW": "光環半徑",
+          "zh-CN": "光环半径"
         },
-        "value": 20,
-        "isSkillRef": false
-      },
-      {
-        "key": "cast2",
-        "label": {
-          "en": "Faster Cast Rate",
-          "zh-TW": "加快施法速度",
-          "zh-CN": "加快施法速度"
-        },
-        "value": 10,
-        "isSkillRef": false
-      },
-      {
-        "key": "allskills",
-        "label": {
-          "en": "All Skills",
-          "zh-TW": "全部技能",
-          "zh-CN": "全部技能"
-        },
-        "value": 1,
+        "value": 3,
         "isSkillRef": false
       }
     ]
@@ -11515,6 +11617,26 @@
           "en": "Stamina",
           "zh-TW": "耐力",
           "zh-CN": "耐力"
+        },
+        "value": 15,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-pois",
+        "label": {
+          "en": "Poison Resist %",
+          "zh-TW": "毒素抗性 %",
+          "zh-CN": "毒素抗性 %"
+        },
+        "value": 30,
+        "isSkillRef": false
+      },
+      {
+        "key": "regen-mana",
+        "label": {
+          "en": "Mana Regenerated %",
+          "zh-TW": "魔力回復 %",
+          "zh-CN": "魔力回复 %"
         },
         "value": 15,
         "isSkillRef": false
@@ -11583,13 +11705,13 @@
     "stats": [],
     "fixedStats": [
       {
-        "key": "swing2",
+        "key": "dmg%",
         "label": {
-          "en": "Faster Attack Rate",
-          "zh-TW": "加快攻擊速度",
-          "zh-CN": "加快攻击速度"
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
         },
-        "value": 25,
+        "value": 20,
         "isSkillRef": false
       },
       {
@@ -11613,6 +11735,16 @@
         "isSkillRef": false
       },
       {
+        "key": "att",
+        "label": {
+          "en": "Attack Rating",
+          "zh-TW": "攻擊等級",
+          "zh-CN": "攻击等级"
+        },
+        "value": 50,
+        "isSkillRef": false
+      },
+      {
         "key": "openwounds",
         "label": {
           "en": "Open Wounds %",
@@ -11623,13 +11755,33 @@
         "isSkillRef": false
       },
       {
-        "key": "dmg%",
+        "key": "swing2",
         "label": {
-          "en": "Enhanced Damage %",
-          "zh-TW": "強化傷害 %",
-          "zh-CN": "强化伤害 %"
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
         },
-        "value": 20,
+        "value": 25,
+        "isSkillRef": false
+      },
+      {
+        "key": "mana-kill",
+        "label": {
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
+        },
+        "value": 2,
+        "isSkillRef": false
+      },
+      {
+        "key": "light",
+        "label": {
+          "en": "Light Radius",
+          "zh-TW": "光環半徑",
+          "zh-CN": "光环半径"
+        },
+        "value": 1,
         "isSkillRef": false
       }
     ]
@@ -11683,8 +11835,8 @@
           "zh-TW": "強化防禦力 %",
           "zh-CN": "强化防御力 %"
         },
-        "min": 220,
-        "max": 260,
+        "min": 250,
+        "max": 290,
         "isSkillRef": false
       },
       {
@@ -11701,14 +11853,14 @@
     ],
     "fixedStats": [
       {
-        "key": "charged:Clay Golem",
+        "key": "balance2",
         "label": {
-          "en": "Charges (Clay Golem)",
-          "zh-TW": "充能次數 (Clay Golem)",
-          "zh-CN": "充能次数 (Clay Golem)"
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
         },
-        "value": 16,
-        "isSkillRef": true
+        "value": 60,
+        "isSkillRef": false
       },
       {
         "key": "ac-miss",
@@ -11741,14 +11893,34 @@
         "isSkillRef": false
       },
       {
-        "key": "balance2",
+        "key": "enr",
         "label": {
-          "en": "Faster Hit Recovery",
-          "zh-TW": "加快恢復速度",
-          "zh-CN": "加快恢复速度"
+          "en": "Energy",
+          "zh-TW": "精力",
+          "zh-CN": "精力"
         },
-        "value": 40,
+        "value": 10,
         "isSkillRef": false
+      },
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "value": 15,
+        "isSkillRef": false
+      },
+      {
+        "key": "charged:Clay Golem",
+        "label": {
+          "en": "Charges (Clay Golem)",
+          "zh-TW": "充能次數 (Clay Golem)",
+          "zh-CN": "充能次数 (Clay Golem)"
+        },
+        "value": 16,
+        "isSkillRef": true
       }
     ]
   },
@@ -11784,16 +11956,6 @@
     "stats": [],
     "fixedStats": [
       {
-        "key": "str",
-        "label": {
-          "en": "Strength",
-          "zh-TW": "力量",
-          "zh-CN": "力量"
-        },
-        "value": 20,
-        "isSkillRef": false
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -11804,16 +11966,6 @@
         "isSkillRef": false
       },
       {
-        "key": "vit",
-        "label": {
-          "en": "Vitality",
-          "zh-TW": "活力",
-          "zh-CN": "活力"
-        },
-        "value": 10,
-        "isSkillRef": false
-      },
-      {
         "key": "crush",
         "label": {
           "en": "Crushing Blow %",
@@ -11821,6 +11973,46 @@
           "zh-CN": "破碎打击 %"
         },
         "value": 25,
+        "isSkillRef": false
+      },
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "value": 7,
+        "isSkillRef": false
+      },
+      {
+        "key": "mana-kill",
+        "label": {
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
+        },
+        "value": 2,
+        "isSkillRef": false
+      },
+      {
+        "key": "str",
+        "label": {
+          "en": "Strength",
+          "zh-TW": "力量",
+          "zh-CN": "力量"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "vit",
+        "label": {
+          "en": "Vitality",
+          "zh-TW": "活力",
+          "zh-CN": "活力"
+        },
+        "value": 10,
         "isSkillRef": false
       }
     ]
@@ -11879,8 +12071,8 @@
           "zh-TW": "火焰抗性 %",
           "zh-CN": "火焰抗性 %"
         },
-        "min": 10,
-        "max": 30,
+        "min": 40,
+        "max": 60,
         "isSkillRef": false
       },
       {
@@ -11896,6 +12088,26 @@
       }
     ],
     "fixedStats": [
+      {
+        "key": "balance1",
+        "label": {
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "vit",
+        "label": {
+          "en": "Vitality",
+          "zh-TW": "活力",
+          "zh-CN": "活力"
+        },
+        "value": 10,
+        "isSkillRef": false
+      },
       {
         "key": "hp%",
         "label": {
