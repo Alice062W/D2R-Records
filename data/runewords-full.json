@@ -6154,6 +6154,28 @@
     "ladderOnly": true,
     "stats": [
       {
+        "key": "levelup-skill:Blizzard",
+        "label": {
+          "en": "Chance to Cast on Level-Up % (Blizzard)",
+          "zh-TW": "升級時觸發機率 % (Blizzard)",
+          "zh-CN": "升级时触发机率 % (Blizzard)"
+        },
+        "min": 100,
+        "max": 40,
+        "isSkillRef": true
+      },
+      {
+        "key": "hit-skill:Frost Nova",
+        "label": {
+          "en": "Chance to Cast on Striking (Frost Nova)",
+          "zh-TW": "攻擊時觸發機率 (Frost Nova)",
+          "zh-CN": "攻击时触发机率 (Frost Nova)"
+        },
+        "min": 25,
+        "max": 22,
+        "isSkillRef": true
+      },
+      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -6174,28 +6196,6 @@
         "min": 25,
         "max": 30,
         "isSkillRef": false
-      },
-      {
-        "key": "hit-skill:Frost Nova",
-        "label": {
-          "en": "Chance to Cast on Striking (Frost Nova)",
-          "zh-TW": "攻擊時觸發機率 (Frost Nova)",
-          "zh-CN": "攻击时触发机率 (Frost Nova)"
-        },
-        "min": 25,
-        "max": 22,
-        "isSkillRef": true
-      },
-      {
-        "key": "levelup-skill:Blizzard",
-        "label": {
-          "en": "Chance to Cast on Level-Up % (Blizzard)",
-          "zh-TW": "升級時觸發機率 % (Blizzard)",
-          "zh-CN": "升级时触发机率 % (Blizzard)"
-        },
-        "min": 100,
-        "max": 40,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -6210,6 +6210,26 @@
         "isSkillRef": true
       },
       {
+        "key": "swing2",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "ignore-ac",
+        "label": {
+          "en": "Ignore Target Defense",
+          "zh-TW": "無視目標防禦力",
+          "zh-CN": "无视目标防御力"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
         "key": "pierce-cold",
         "label": {
           "en": "Enemy Cold Resistance %",
@@ -6217,6 +6237,26 @@
           "zh-CN": "降低敌方冷冻抗性 %"
         },
         "value": -20,
+        "isSkillRef": false
+      },
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "value": 7,
+        "isSkillRef": false
+      },
+      {
+        "key": "deadly",
+        "label": {
+          "en": "Deadly Strike %",
+          "zh-TW": "致命一擊 %",
+          "zh-CN": "致命一击 %"
+        },
+        "value": 20,
         "isSkillRef": false
       },
       {
@@ -6274,17 +6314,6 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "dmg%",
-        "label": {
-          "en": "Enhanced Damage %",
-          "zh-TW": "強化傷害 %",
-          "zh-CN": "强化伤害 %"
-        },
-        "min": 255,
-        "max": 325,
-        "isSkillRef": false
-      },
-      {
         "key": "kill-skill:Chain Lightning",
         "label": {
           "en": "Chance to Cast on Kill % (Chain Lightning)",
@@ -6294,6 +6323,17 @@
         "min": 50,
         "max": 20,
         "isSkillRef": true
+      },
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 255,
+        "max": 325,
+        "isSkillRef": false
       },
       {
         "key": "pierce-ltng",
@@ -6320,6 +6360,16 @@
     ],
     "fixedStats": [
       {
+        "key": "aura:Conviction",
+        "label": {
+          "en": "Aura Level (Conviction)",
+          "zh-TW": "光環等級 (Conviction)",
+          "zh-CN": "光环等级 (Conviction)"
+        },
+        "value": 12,
+        "isSkillRef": true
+      },
+      {
         "key": "move3",
         "label": {
           "en": "Faster Run/Walk %",
@@ -6327,6 +6377,26 @@
           "zh-CN": "加快跑走速度 %"
         },
         "value": 35,
+        "isSkillRef": false
+      },
+      {
+        "key": "crush",
+        "label": {
+          "en": "Crushing Blow %",
+          "zh-TW": "破碎打擊 %",
+          "zh-CN": "破碎打击 %"
+        },
+        "value": 40,
+        "isSkillRef": false
+      },
+      {
+        "key": "noheal",
+        "label": {
+          "en": "Prevent Monster Heal",
+          "zh-TW": "防止怪物治療",
+          "zh-CN": "防止怪物治疗"
+        },
+        "value": 1,
         "isSkillRef": false
       },
       {
@@ -6340,14 +6410,14 @@
         "isSkillRef": false
       },
       {
-        "key": "aura:Conviction",
+        "key": "mag%",
         "label": {
-          "en": "Aura Level (Conviction)",
-          "zh-TW": "光環等級 (Conviction)",
-          "zh-CN": "光环等级 (Conviction)"
+          "en": "Magic Find %",
+          "zh-TW": "額外魔法物品尋獲率 %",
+          "zh-CN": "额外魔法物品寻获率 %"
         },
-        "value": 12,
-        "isSkillRef": true
+        "value": 30,
+        "isSkillRef": false
       }
     ]
   },
@@ -6394,6 +6464,17 @@
     "ladderOnly": true,
     "stats": [
       {
+        "key": "aura:Meditation",
+        "label": {
+          "en": "Aura Level (Meditation)",
+          "zh-TW": "光環等級 (Meditation)",
+          "zh-CN": "光环等级 (Meditation)"
+        },
+        "min": 12,
+        "max": 17,
+        "isSkillRef": true
+      },
+      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -6416,6 +6497,17 @@
         "isSkillRef": false
       },
       {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "min": 5,
+        "max": 30,
+        "isSkillRef": false
+      },
+      {
         "key": "oskill:Critical Strike",
         "label": {
           "en": "Skill Bonus (Critical Strike)",
@@ -6425,30 +6517,9 @@
         "min": 1,
         "max": 6,
         "isSkillRef": true
-      },
-      {
-        "key": "aura:Meditation",
-        "label": {
-          "en": "Aura Level (Meditation)",
-          "zh-TW": "光環等級 (Meditation)",
-          "zh-CN": "光环等级 (Meditation)"
-        },
-        "min": 12,
-        "max": 17,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
-      {
-        "key": "mag%",
-        "label": {
-          "en": "Magic Find %",
-          "zh-TW": "額外魔法物品尋獲率 %",
-          "zh-CN": "额外魔法物品寻获率 %"
-        },
-        "value": 23,
-        "isSkillRef": false
-      },
       {
         "key": "cast2",
         "label": {
@@ -6460,6 +6531,26 @@
         "isSkillRef": false
       },
       {
+        "key": "dmg-min",
+        "label": {
+          "en": "Minimum Damage",
+          "zh-TW": "最小傷害",
+          "zh-CN": "最小伤害"
+        },
+        "value": 9,
+        "isSkillRef": false
+      },
+      {
+        "key": "pois-dot",
+        "label": {
+          "en": "Adds Poison Damage over 5 Seconds",
+          "zh-TW": "增加毒素傷害，持續 5 秒",
+          "zh-CN": "增加毒素伤害，持续 5 秒"
+        },
+        "value": 75,
+        "isSkillRef": false
+      },
+      {
         "key": "all-stats",
         "label": {
           "en": "All Attributes",
@@ -6467,6 +6558,26 @@
           "zh-CN": "全部属性"
         },
         "value": 5,
+        "isSkillRef": false
+      },
+      {
+        "key": "mana-kill",
+        "label": {
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
+        },
+        "value": 2,
+        "isSkillRef": false
+      },
+      {
+        "key": "mag%",
+        "label": {
+          "en": "Magic Find %",
+          "zh-TW": "額外魔法物品尋獲率 %",
+          "zh-CN": "额外魔法物品寻获率 %"
+        },
+        "value": 23,
         "isSkillRef": false
       }
     ]
@@ -6506,7 +6617,30 @@
     ],
     "levelReq": 25,
     "ladderOnly": false,
-    "stats": [],
+    "stats": [
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "min": 5,
+        "max": 30,
+        "isSkillRef": false
+      },
+      {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
+        },
+        "min": 3,
+        "max": 14,
+        "isSkillRef": false
+      }
+    ],
     "fixedStats": [
       {
         "key": "dmg%",
@@ -6516,16 +6650,6 @@
           "zh-CN": "强化伤害 %"
         },
         "value": 100,
-        "isSkillRef": false
-      },
-      {
-        "key": "att",
-        "label": {
-          "en": "Attack Rating",
-          "zh-TW": "攻擊等級",
-          "zh-CN": "攻击等级"
-        },
-        "value": 150,
         "isSkillRef": false
       },
       {
@@ -6549,6 +6673,16 @@
         "isSkillRef": false
       },
       {
+        "key": "att",
+        "label": {
+          "en": "Attack Rating",
+          "zh-TW": "攻擊等級",
+          "zh-CN": "攻击等级"
+        },
+        "value": 150,
+        "isSkillRef": false
+      },
+      {
         "key": "att-demon",
         "label": {
           "en": "Attack Rating vs. Demons",
@@ -6566,6 +6700,16 @@
           "zh-CN": "对不死系攻击等级"
         },
         "value": 100,
+        "isSkillRef": false
+      },
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "value": 7,
         "isSkillRef": false
       }
     ]
