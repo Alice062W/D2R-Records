@@ -8076,28 +8076,6 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "hit-skill:Mark of the Bear",
-        "label": {
-          "en": "Chance to Cast on Striking (Mark of the Bear)",
-          "zh-TW": "攻擊時觸發機率 (Mark of the Bear)",
-          "zh-CN": "攻击时触发机率 (Mark of the Bear)"
-        },
-        "min": 100,
-        "max": 1,
-        "isSkillRef": true
-      },
-      {
-        "key": "hit-skill:Mark of the Wolf",
-        "label": {
-          "en": "Chance to Cast on Striking (Mark of the Wolf)",
-          "zh-TW": "攻擊時觸發機率 (Mark of the Wolf)",
-          "zh-CN": "攻击时触发机率 (Mark of the Wolf)"
-        },
-        "min": 100,
-        "max": 1,
-        "isSkillRef": true
-      },
-      {
         "key": "ac%",
         "label": {
           "en": "Enhanced Defense %",
@@ -8111,6 +8089,26 @@
     ],
     "fixedStats": [
       {
+        "key": "mark-wolf",
+        "label": {
+          "en": "Werewolf Strikes Grant Mark for 180 Seconds",
+          "zh-TW": "狼人攻擊賦予持續 180 秒的印記",
+          "zh-CN": "狼人攻击赋予持续 180 秒的印记"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "mark-bear",
+        "label": {
+          "en": "Werebear Strikes Grant Mark for 180 Seconds",
+          "zh-TW": "熊人攻擊賦予持續 180 秒的印記",
+          "zh-CN": "熊人攻击赋予持续 180 秒的印记"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
         "key": "skilltab:16",
         "label": {
           "en": "Skill Tab Bonus",
@@ -8118,6 +8116,36 @@
           "zh-CN": "技能列加成"
         },
         "value": 5,
+        "isSkillRef": false
+      },
+      {
+        "key": "crush",
+        "label": {
+          "en": "Crushing Blow %",
+          "zh-TW": "破碎打擊 %",
+          "zh-CN": "破碎打击 %"
+        },
+        "value": 25,
+        "isSkillRef": false
+      },
+      {
+        "key": "str",
+        "label": {
+          "en": "Strength",
+          "zh-TW": "力量",
+          "zh-CN": "力量"
+        },
+        "value": 10,
+        "isSkillRef": false
+      },
+      {
+        "key": "vit",
+        "label": {
+          "en": "Vitality",
+          "zh-TW": "活力",
+          "zh-CN": "活力"
+        },
+        "value": 10,
         "isSkillRef": false
       },
       {
@@ -8131,13 +8159,53 @@
         "isSkillRef": false
       },
       {
-        "key": "crush",
+        "key": "nofreeze",
         "label": {
-          "en": "Crushing Blow %",
-          "zh-TW": "破碎打擊 %",
-          "zh-CN": "破碎打击 %"
+          "en": "Cannot Be Frozen",
+          "zh-TW": "不會被冰凍",
+          "zh-CN": "不会被冰冻"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "att%",
+        "label": {
+          "en": "Attack Rating % (Mark of the Wolf)",
+          "zh-TW": "攻擊等級 %（狼形印記）",
+          "zh-CN": "攻击等级 %（狼形印記）"
+        },
+        "value": 30,
+        "isSkillRef": false
+      },
+      {
+        "key": "hp%",
+        "label": {
+          "en": "Increase Maximum Life % (Mark of the Wolf)",
+          "zh-TW": "增加最大生命值 %（狼形印記）",
+          "zh-CN": "增加最大生命值 %（狼形印記）"
+        },
+        "value": 40,
+        "isSkillRef": false
+      },
+      {
+        "key": "swing2",
+        "label": {
+          "en": "Faster Attack Rate (Mark of the Bear)",
+          "zh-TW": "加快攻擊速度（熊形印記）",
+          "zh-CN": "加快攻击速度（熊形印記）"
         },
         "value": 25,
+        "isSkillRef": false
+      },
+      {
+        "key": "red-dmg%",
+        "label": {
+          "en": "Damage Reduced % (Mark of the Bear)",
+          "zh-TW": "減少傷害 %（熊形印記）",
+          "zh-CN": "减少伤害 %（熊形印記）"
+        },
+        "value": 20,
         "isSkillRef": false
       }
     ]

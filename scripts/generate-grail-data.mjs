@@ -1234,6 +1234,11 @@ function rwStat(code, min, max, par) {
 const ITEM_TYPE_QUALIFIER_ZH = {
   'Armor Only': '僅限盔甲', 'Shields Only': '僅限盾牌', 'Helms Only': '僅限頭盔',
   'Body Armor Only': '僅限身體護甲', 'Weapons Only': '僅限武器',
+  // Metamorphosis grants these only while the wearer carries the buff applied
+  // by their own werewolf/werebear strikes (d2r.world's "Mark of the Wolf" /
+  // "Mark of the Bear" sub-headings) — reuses the same qualifier-suffix
+  // mechanism as the base-item-type qualifiers above.
+  'Mark of the Wolf': '狼形印記', 'Mark of the Bear': '熊形印記',
 };
 function rwStatQualified(stat, qualifierEn) {
   const qualifierZh = ITEM_TYPE_QUALIFIER_ZH[qualifierEn];
@@ -1897,6 +1902,37 @@ const RUNEWORD_STAT_OVERRIDES = {
     rwStat('regen', 10, 10),
     rwStat('thorns', 14, 14),
     rwStat('ease', -15, -15),
+  ],
+  Metamorphosis: [
+    {
+      key: 'mark-wolf',
+      label: {
+        en: 'Werewolf Strikes Grant Mark for 180 Seconds',
+        'zh-TW': '狼人攻擊賦予持續 180 秒的印記',
+        'zh-CN': '狼人攻击赋予持续 180 秒的印记',
+      },
+      min: 1, max: 1, isSkillRef: false,
+    },
+    {
+      key: 'mark-bear',
+      label: {
+        en: 'Werebear Strikes Grant Mark for 180 Seconds',
+        'zh-TW': '熊人攻擊賦予持續 180 秒的印記',
+        'zh-CN': '熊人攻击赋予持续 180 秒的印记',
+      },
+      min: 1, max: 1, isSkillRef: false,
+    },
+    rwStat('skilltab', 5, 5, 16),
+    rwStat('crush', 25, 25),
+    rwStat('str', 10, 10),
+    rwStat('vit', 10, 10),
+    rwStat('res-all', 10, 10),
+    rwStat('nofreeze', 1, 1),
+    rwStat('ac%', 50, 80),
+    rwStatQualified(rwStat('att%', 30, 30), 'Mark of the Wolf'),
+    rwStatQualified(rwStat('hp%', 40, 40), 'Mark of the Wolf'),
+    rwStatQualified(rwStat('swing2', 25, 25), 'Mark of the Bear'),
+    rwStatQualified(rwStat('red-dmg%', 20, 20), 'Mark of the Bear'),
   ],
   Mist: [
     rwStat('aura', 8, 12, 'Concentration'),
