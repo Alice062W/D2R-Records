@@ -5571,8 +5571,8 @@
           "zh-TW": "冷凍抗性 %",
           "zh-CN": "冷冻抗性 %"
         },
-        "min": 10,
-        "max": 30,
+        "min": 40,
+        "max": 60,
         "isSkillRef": false
       },
       {
@@ -5588,6 +5588,26 @@
       }
     ],
     "fixedStats": [
+      {
+        "key": "balance1",
+        "label": {
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "vit",
+        "label": {
+          "en": "Vitality",
+          "zh-TW": "活力",
+          "zh-CN": "活力"
+        },
+        "value": 10,
+        "isSkillRef": false
+      },
       {
         "key": "hp%",
         "label": {
@@ -5653,22 +5673,33 @@
     "ladderOnly": false,
     "stats": [
       {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "min": 5,
+        "max": 30,
+        "isSkillRef": false
+      },
+      {
         "key": "dmg-ltng",
         "label": {
           "en": "Lightning Damage",
           "zh-TW": "閃電傷害",
           "zh-CN": "闪电伤害"
         },
-        "min": 20,
-        "max": 60,
+        "min": 21,
+        "max": 110,
         "isSkillRef": false
       },
       {
-        "key": "charged:53",
+        "key": "charged:Chain Lightning",
         "label": {
           "en": "Charges (Chain Lightning)",
-          "zh-TW": "充能次數 (連鎖閃電)",
-          "zh-CN": "充能次数 (连锁闪电)"
+          "zh-TW": "充能次數 (Chain Lightning)",
+          "zh-CN": "充能次数 (Chain Lightning)"
         },
         "min": 60,
         "max": 7,
@@ -5684,6 +5715,26 @@
           "zh-CN": "强化伤害 %"
         },
         "value": 60,
+        "isSkillRef": false
+      },
+      {
+        "key": "reduce-ac",
+        "label": {
+          "en": "Reduce Target Defense %",
+          "zh-TW": "降低目標防禦力 %",
+          "zh-CN": "降低目标防御力 %"
+        },
+        "value": 25,
+        "isSkillRef": false
+      },
+      {
+        "key": "pois-dot",
+        "label": {
+          "en": "Adds Poison Damage over 5 Seconds",
+          "zh-TW": "增加毒素傷害，持續 5 秒",
+          "zh-CN": "增加毒素伤害，持续 5 秒"
+        },
+        "value": 75,
         "isSkillRef": false
       },
       {
@@ -5717,11 +5768,11 @@
         "isSkillRef": false
       },
       {
-        "key": "skill:118",
+        "key": "skill:Holy Shock",
         "label": {
           "en": "Skill Bonus (Holy Shock)",
-          "zh-TW": "技能加成 (神聖衝擊)",
-          "zh-CN": "技能加成 (神圣冲击)"
+          "zh-TW": "技能加成 (Holy Shock)",
+          "zh-CN": "技能加成 (Holy Shock)"
         },
         "value": 3,
         "isSkillRef": true
@@ -5788,33 +5839,23 @@
         "isSkillRef": false
       },
       {
-        "key": "regen",
+        "key": "dmg-min",
         "label": {
-          "en": "Replenish Life",
-          "zh-TW": "補充生命值",
-          "zh-CN": "补充生命值"
+          "en": "Minimum Damage",
+          "zh-TW": "最小傷害",
+          "zh-CN": "最小伤害"
         },
-        "value": 10,
+        "value": 9,
         "isSkillRef": false
       },
       {
-        "key": "allskills",
+        "key": "dmg-max",
         "label": {
-          "en": "All Skills",
-          "zh-TW": "全部技能",
-          "zh-CN": "全部技能"
+          "en": "Maximum Damage",
+          "zh-TW": "最大傷害",
+          "zh-CN": "最大伤害"
         },
-        "value": 1,
-        "isSkillRef": false
-      },
-      {
-        "key": "att",
-        "label": {
-          "en": "Attack Rating",
-          "zh-TW": "攻擊等級",
-          "zh-CN": "攻击等级"
-        },
-        "value": 200,
+        "value": 9,
         "isSkillRef": false
       },
       {
@@ -5828,6 +5869,46 @@
         "isSkillRef": false
       },
       {
+        "key": "att",
+        "label": {
+          "en": "Attack Rating",
+          "zh-TW": "攻擊等級",
+          "zh-CN": "攻击等级"
+        },
+        "value": 250,
+        "isSkillRef": false
+      },
+      {
+        "key": "allskills",
+        "label": {
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "value": 7,
+        "isSkillRef": false
+      },
+      {
+        "key": "regen",
+        "label": {
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
+        },
+        "value": 10,
+        "isSkillRef": false
+      },
+      {
         "key": "str",
         "label": {
           "en": "Strength",
@@ -5835,6 +5916,26 @@
           "zh-CN": "力量"
         },
         "value": 10,
+        "isSkillRef": false
+      },
+      {
+        "key": "light",
+        "label": {
+          "en": "Light Radius",
+          "zh-TW": "光環半徑",
+          "zh-CN": "光环半径"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "mana-kill",
+        "label": {
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
+        },
+        "value": 2,
         "isSkillRef": false
       }
     ]
