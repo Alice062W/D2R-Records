@@ -6790,6 +6790,16 @@
         "isSkillRef": false
       },
       {
+        "key": "att%",
+        "label": {
+          "en": "Attack Rating %",
+          "zh-TW": "攻擊等級 %",
+          "zh-CN": "攻击等级 %"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
         "key": "crush",
         "label": {
           "en": "Crushing Blow %",
@@ -6806,7 +6816,7 @@
           "zh-TW": "撕裂傷口 %",
           "zh-CN": "撕裂伤口 %"
         },
-        "value": 25,
+        "value": 50,
         "isSkillRef": false
       },
       {
@@ -6818,6 +6828,26 @@
         },
         "value": 1,
         "isSkillRef": true
+      },
+      {
+        "key": "noheal",
+        "label": {
+          "en": "Prevent Monster Heal",
+          "zh-TW": "防止怪物治療",
+          "zh-CN": "防止怪物治疗"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "str",
+        "label": {
+          "en": "Strength",
+          "zh-TW": "力量",
+          "zh-CN": "力量"
+        },
+        "value": 10,
+        "isSkillRef": false
       },
       {
         "key": "gold%",
@@ -6886,15 +6916,15 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "dmg%",
+        "key": "gethit-skill:Fade",
         "label": {
-          "en": "Enhanced Damage %",
-          "zh-TW": "強化傷害 %",
-          "zh-CN": "强化伤害 %"
+          "en": "Chance to Cast When Struck (Fade)",
+          "zh-TW": "受擊時觸發機率 (Fade)",
+          "zh-CN": "受击时触发机率 (Fade)"
         },
-        "min": 330,
-        "max": 375,
-        "isSkillRef": false
+        "min": 6,
+        "max": 11,
+        "isSkillRef": true
       },
       {
         "key": "hit-skill:Life Tap",
@@ -6908,15 +6938,15 @@
         "isSkillRef": true
       },
       {
-        "key": "gethit-skill:Fade",
+        "key": "dmg%",
         "label": {
-          "en": "Chance to Cast When Struck (Fade)",
-          "zh-TW": "受擊時觸發機率 (Fade)",
-          "zh-CN": "受击时触发机率 (Fade)"
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
         },
-        "min": 6,
-        "max": 11,
-        "isSkillRef": true
+        "min": 330,
+        "max": 375,
+        "isSkillRef": false
       },
       {
         "key": "crush",
@@ -6925,8 +6955,8 @@
           "zh-TW": "破碎打擊 %",
           "zh-CN": "破碎打击 %"
         },
-        "min": 40,
-        "max": 50,
+        "min": 60,
+        "max": 70,
         "isSkillRef": false
       }
     ],
@@ -6942,16 +6972,6 @@
         "isSkillRef": true
       },
       {
-        "key": "mag%/lvl",
-        "label": {
-          "en": "Magic Find % (Based on Character Level)",
-          "zh-TW": "額外魔法物品尋獲率 %（依角色等級）",
-          "zh-CN": "额外魔法物品寻获率 %（依角色等级）"
-        },
-        "value": 4,
-        "isSkillRef": false
-      },
-      {
         "key": "aura:Might",
         "label": {
           "en": "Aura Level (Might)",
@@ -6960,6 +6980,46 @@
         },
         "value": 17,
         "isSkillRef": true
+      },
+      {
+        "key": "ignore-ac",
+        "label": {
+          "en": "Ignore Target Defense",
+          "zh-TW": "無視目標防禦力",
+          "zh-CN": "无视目标防御力"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "noheal",
+        "label": {
+          "en": "Prevent Monster Heal",
+          "zh-TW": "防止怪物治療",
+          "zh-CN": "防止怪物治疗"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "stupidity",
+        "label": {
+          "en": "Hit Blinds Target",
+          "zh-TW": "擊中致盲目標",
+          "zh-CN": "击中致盲目标"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "mag%/lvl",
+        "label": {
+          "en": "Magic Find % (Based on Character Level)",
+          "zh-TW": "額外魔法物品尋獲率 %（依角色等級）",
+          "zh-CN": "额外魔法物品寻获率 %（依角色等级）"
+        },
+        "value": 4,
+        "isSkillRef": false
       }
     ]
   },
@@ -7000,26 +7060,15 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "dmg-cold",
+        "key": "hit-skill:Decrepify",
         "label": {
-          "en": "Cold Damage",
-          "zh-TW": "冷凍傷害",
-          "zh-CN": "冷冻伤害"
+          "en": "Chance to Cast on Striking (Decrepify)",
+          "zh-TW": "攻擊時觸發機率 (Decrepify)",
+          "zh-CN": "攻击时触发机率 (Decrepify)"
         },
-        "min": 130,
-        "max": 180,
-        "isSkillRef": false
-      },
-      {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 150,
-        "max": 210,
-        "isSkillRef": false
+        "min": 20,
+        "max": 15,
+        "isSkillRef": true
       },
       {
         "key": "aura:Sanctuary",
@@ -7033,15 +7082,26 @@
         "isSkillRef": true
       },
       {
-        "key": "hit-skill:Decrepify",
+        "key": "dmg-fire",
         "label": {
-          "en": "Chance to Cast on Striking (Decrepify)",
-          "zh-TW": "攻擊時觸發機率 (Decrepify)",
-          "zh-CN": "攻击时触发机率 (Decrepify)"
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
         },
-        "min": 20,
-        "max": 15,
-        "isSkillRef": true
+        "min": 150,
+        "max": 210,
+        "isSkillRef": false
+      },
+      {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
+        },
+        "min": 130,
+        "max": 180,
+        "isSkillRef": false
       },
       {
         "key": "ac-miss",
@@ -7057,6 +7117,26 @@
     ],
     "fixedStats": [
       {
+        "key": "reduce-ac",
+        "label": {
+          "en": "Reduce Target Defense %",
+          "zh-TW": "降低目標防禦力 %",
+          "zh-CN": "降低目标防御力 %"
+        },
+        "value": 50,
+        "isSkillRef": false
+      },
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "value": 7,
+        "isSkillRef": false
+      },
+      {
         "key": "rip",
         "label": {
           "en": "Slain Monsters Rest in Peace",
@@ -7067,13 +7147,23 @@
         "isSkillRef": false
       },
       {
-        "key": "reduce-ac",
+        "key": "dex",
         "label": {
-          "en": "Reduce Target Defense %",
-          "zh-TW": "降低目標防禦力 %",
-          "zh-CN": "降低目标防御力 %"
+          "en": "Dexterity",
+          "zh-TW": "敏捷",
+          "zh-CN": "敏捷"
         },
-        "value": 50,
+        "value": 10,
+        "isSkillRef": false
+      },
+      {
+        "key": "gold%",
+        "label": {
+          "en": "Gold Find %",
+          "zh-TW": "額外金幣拾取率 %",
+          "zh-CN": "额外金币拾取率 %"
+        },
+        "value": 75,
         "isSkillRef": false
       }
     ]
@@ -7107,7 +7197,19 @@
     ],
     "levelReq": 19,
     "ladderOnly": false,
-    "stats": [],
+    "stats": [
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "min": 5,
+        "max": 30,
+        "isSkillRef": false
+      }
+    ],
     "fixedStats": [
       {
         "key": "fireskill",
@@ -7117,6 +7219,46 @@
           "zh-CN": "火焰技能加成"
         },
         "value": 3,
+        "isSkillRef": false
+      },
+      {
+        "key": "skill:Fire Bolt",
+        "label": {
+          "en": "Skill Bonus (Fire Bolt)",
+          "zh-TW": "技能加成 (Fire Bolt)",
+          "zh-CN": "技能加成 (Fire Bolt)"
+        },
+        "value": 3,
+        "isSkillRef": true
+      },
+      {
+        "key": "skill:Inferno",
+        "label": {
+          "en": "Skill Bonus (Inferno)",
+          "zh-TW": "技能加成 (Inferno)",
+          "zh-CN": "技能加成 (Inferno)"
+        },
+        "value": 3,
+        "isSkillRef": true
+      },
+      {
+        "key": "skill:Warmth",
+        "label": {
+          "en": "Skill Bonus (Warmth)",
+          "zh-TW": "技能加成 (Warmth)",
+          "zh-CN": "技能加成 (Warmth)"
+        },
+        "value": 3,
+        "isSkillRef": true
+      },
+      {
+        "key": "mana-kill",
+        "label": {
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
+        },
+        "value": 2,
         "isSkillRef": false
       },
       {
@@ -7138,36 +7280,6 @@
         },
         "value": 33,
         "isSkillRef": false
-      },
-      {
-        "key": "skill:41",
-        "label": {
-          "en": "Skill Bonus (Inferno)",
-          "zh-TW": "技能加成 (地獄之火)",
-          "zh-CN": "技能加成 (地狱之火)"
-        },
-        "value": 3,
-        "isSkillRef": true
-      },
-      {
-        "key": "skill:36",
-        "label": {
-          "en": "Skill Bonus (Fire Bolt)",
-          "zh-TW": "技能加成 (火彈)",
-          "zh-CN": "技能加成 (火弹)"
-        },
-        "value": 3,
-        "isSkillRef": true
-      },
-      {
-        "key": "skill:37",
-        "label": {
-          "en": "Skill Bonus (Warmth)",
-          "zh-TW": "技能加成 (暖氣)",
-          "zh-CN": "技能加成 (暖气)"
-        },
-        "value": 3,
-        "isSkillRef": true
       }
     ]
   },
