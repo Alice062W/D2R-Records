@@ -12157,17 +12157,6 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "hit-skill:Venom",
-        "label": {
-          "en": "Chance to Cast on Striking (Venom)",
-          "zh-TW": "攻擊時觸發機率 (Venom)",
-          "zh-CN": "攻击时触发机率 (Venom)"
-        },
-        "min": 25,
-        "max": 15,
-        "isSkillRef": true
-      },
-      {
         "key": "gethit-skill:Fade",
         "label": {
           "en": "Chance to Cast When Struck (Fade)",
@@ -12175,6 +12164,17 @@
           "zh-CN": "受击时触发机率 (Fade)"
         },
         "min": 5,
+        "max": 15,
+        "isSkillRef": true
+      },
+      {
+        "key": "hit-skill:Venom",
+        "label": {
+          "en": "Chance to Cast on Striking (Venom)",
+          "zh-TW": "攻擊時觸發機率 (Venom)",
+          "zh-CN": "攻击时触发机率 (Venom)"
+        },
+        "min": 25,
         "max": 15,
         "isSkillRef": true
       }
@@ -12198,6 +12198,36 @@
           "zh-CN": "加快攻击速度"
         },
         "value": 45,
+        "isSkillRef": false
+      },
+      {
+        "key": "balance2",
+        "label": {
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-cold",
+        "label": {
+          "en": "Cold Resist %",
+          "zh-TW": "冷凍抗性 %",
+          "zh-CN": "冷冻抗性 %"
+        },
+        "value": 30,
+        "isSkillRef": false
+      },
+      {
+        "key": "gold%",
+        "label": {
+          "en": "Gold Find %",
+          "zh-TW": "額外金幣拾取率 %",
+          "zh-CN": "额外金币拾取率 %"
+        },
+        "value": 50,
         "isSkillRef": false
       }
     ]
@@ -12292,6 +12322,16 @@
     ],
     "fixedStats": [
       {
+        "key": "hit-skill:Taunt",
+        "label": {
+          "en": "Chance to Cast on Striking (Taunt)",
+          "zh-TW": "攻擊時觸發機率 (Taunt)",
+          "zh-CN": "攻击时触发机率 (Taunt)"
+        },
+        "value": 18,
+        "isSkillRef": true
+      },
+      {
         "key": "skilltab:12",
         "label": {
           "en": "Skill Tab Bonus",
@@ -12302,14 +12342,74 @@
         "isSkillRef": false
       },
       {
-        "key": "hit-skill:Taunt",
+        "key": "dmg-max",
         "label": {
-          "en": "Chance to Cast on Striking (Taunt)",
-          "zh-TW": "攻擊時觸發機率 (Taunt)",
-          "zh-CN": "攻击时触发机率 (Taunt)"
+          "en": "Maximum Damage",
+          "zh-TW": "最大傷害",
+          "zh-CN": "最大伤害"
         },
-        "value": 18,
-        "isSkillRef": true
+        "value": 9,
+        "isSkillRef": false
+      },
+      {
+        "key": "att",
+        "label": {
+          "en": "Attack Rating",
+          "zh-TW": "攻擊等級",
+          "zh-CN": "攻击等级"
+        },
+        "value": 50,
+        "isSkillRef": false
+      },
+      {
+        "key": "dmg-undead",
+        "label": {
+          "en": "Damage to Undead",
+          "zh-TW": "對不死系傷害",
+          "zh-CN": "对不死系伤害"
+        },
+        "value": 75,
+        "isSkillRef": false
+      },
+      {
+        "key": "att-und",
+        "label": {
+          "en": "Attack Rating vs. Undead",
+          "zh-TW": "對不死系攻擊等級",
+          "zh-CN": "对不死系攻击等级"
+        },
+        "value": 50,
+        "isSkillRef": false
+      },
+      {
+        "key": "noheal",
+        "label": {
+          "en": "Prevent Monster Heal",
+          "zh-TW": "防止怪物治療",
+          "zh-CN": "防止怪物治疗"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "str",
+        "label": {
+          "en": "Strength",
+          "zh-TW": "力量",
+          "zh-CN": "力量"
+        },
+        "value": 10,
+        "isSkillRef": false
+      },
+      {
+        "key": "vit",
+        "label": {
+          "en": "Vitality",
+          "zh-TW": "活力",
+          "zh-CN": "活力"
+        },
+        "value": 10,
+        "isSkillRef": false
       },
       {
         "key": "red-dmg",
@@ -12322,13 +12422,23 @@
         "isSkillRef": false
       },
       {
-        "key": "noheal",
+        "key": "light",
         "label": {
-          "en": "Prevent Monster Heal",
-          "zh-TW": "防止怪物治療",
-          "zh-CN": "防止怪物治疗"
+          "en": "Light Radius",
+          "zh-TW": "光環半徑",
+          "zh-CN": "光环半径"
         },
         "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "ease",
+        "label": {
+          "en": "Requirements %",
+          "zh-TW": "需求 %",
+          "zh-CN": "需求 %"
+        },
+        "value": -20,
         "isSkillRef": false
       }
     ]
@@ -12370,22 +12480,22 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "charged:83",
+        "key": "charged:Poison Explosion",
         "label": {
           "en": "Charges (Poison Explosion)",
-          "zh-TW": "充能次數 (毒爆)",
-          "zh-CN": "充能次数 (毒爆)"
+          "zh-TW": "充能次數 (Poison Explosion)",
+          "zh-CN": "充能次数 (Poison Explosion)"
         },
         "min": 27,
         "max": 15,
         "isSkillRef": true
       },
       {
-        "key": "charged:92",
+        "key": "charged:Poison Nova",
         "label": {
           "en": "Charges (Poison Nova)",
-          "zh-TW": "充能次數 (劇毒新星)",
-          "zh-CN": "充能次数 (剧毒新星)"
+          "zh-TW": "充能次數 (Poison Nova)",
+          "zh-CN": "充能次数 (Poison Nova)"
         },
         "min": 11,
         "max": 13,
@@ -12394,13 +12504,23 @@
     ],
     "fixedStats": [
       {
-        "key": "dmg-pois",
+        "key": "howl",
         "label": {
-          "en": "Adds Poison Damage over 7 Seconds",
-          "zh-TW": "增加毒素傷害，持續 7 秒",
-          "zh-CN": "增加毒素伤害，持续 7 秒"
+          "en": "Hit Causes Monster to Flee %",
+          "zh-TW": "擊中使怪物逃跑 %",
+          "zh-CN": "击中使怪物逃跑 %"
         },
-        "value": 213,
+        "value": 25,
+        "isSkillRef": false
+      },
+      {
+        "key": "noheal",
+        "label": {
+          "en": "Prevent Monster Heal",
+          "zh-TW": "防止怪物治療",
+          "zh-CN": "防止怪物治疗"
+        },
+        "value": 1,
         "isSkillRef": false
       },
       {
@@ -12421,6 +12541,16 @@
           "zh-CN": "魔力窃取 %"
         },
         "value": 7,
+        "isSkillRef": false
+      },
+      {
+        "key": "pois-dot",
+        "label": {
+          "en": "Adds Poison Damage over 6 Seconds",
+          "zh-TW": "增加毒素傷害，持續 6 秒",
+          "zh-CN": "增加毒素伤害，持续 6 秒"
+        },
+        "value": 273,
         "isSkillRef": false
       }
     ]
@@ -12467,6 +12597,17 @@
         "isSkillRef": true
       },
       {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
+        },
+        "min": 75,
+        "max": 100,
+        "isSkillRef": false
+      },
+      {
         "key": "hp",
         "label": {
           "en": "Life",
@@ -12498,17 +12639,6 @@
         "min": 25,
         "max": 35,
         "isSkillRef": false
-      },
-      {
-        "key": "ac%",
-        "label": {
-          "en": "Enhanced Defense %",
-          "zh-TW": "強化防禦力 %",
-          "zh-CN": "强化防御力 %"
-        },
-        "min": 75,
-        "max": 100,
-        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -12530,6 +12660,26 @@
           "zh-CN": "加快格挡速度"
         },
         "value": 30,
+        "isSkillRef": false
+      },
+      {
+        "key": "regen",
+        "label": {
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
+        },
+        "value": 7,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-pois-max",
+        "label": {
+          "en": "Maximum Poison Resist %",
+          "zh-TW": "最大毒素抗性 %",
+          "zh-CN": "最大毒素抗性 %"
+        },
+        "value": 5,
         "isSkillRef": false
       }
     ]
@@ -12577,6 +12727,28 @@
     "ladderOnly": true,
     "stats": [
       {
+        "key": "hit-skill:Frozen Orb",
+        "label": {
+          "en": "Chance to Cast on Striking (Frozen Orb)",
+          "zh-TW": "攻擊時觸發機率 (Frozen Orb)",
+          "zh-CN": "攻击时触发机率 (Frozen Orb)"
+        },
+        "min": 15,
+        "max": 13,
+        "isSkillRef": true
+      },
+      {
+        "key": "hit-skill:Ice Blast",
+        "label": {
+          "en": "Chance to Cast on Striking (Ice Blast)",
+          "zh-TW": "攻擊時觸發機率 (Ice Blast)",
+          "zh-CN": "攻击时触发机率 (Ice Blast)"
+        },
+        "min": 18,
+        "max": 20,
+        "isSkillRef": true
+      },
+      {
         "key": "dmg-demon",
         "label": {
           "en": "Damage to Demons",
@@ -12594,8 +12766,8 @@
           "zh-TW": "對不死系傷害",
           "zh-CN": "对不死系伤害"
         },
-        "min": 280,
-        "max": 300,
+        "min": 355,
+        "max": 375,
         "isSkillRef": false
       },
       {
@@ -12608,31 +12780,29 @@
         "min": 100,
         "max": 220,
         "isSkillRef": false
-      },
-      {
-        "key": "hit-skill:Ice Blast",
-        "label": {
-          "en": "Chance to Cast on Striking (Ice Blast)",
-          "zh-TW": "攻擊時觸發機率 (Ice Blast)",
-          "zh-CN": "攻击时触发机率 (Ice Blast)"
-        },
-        "min": 18,
-        "max": 20,
-        "isSkillRef": true
-      },
-      {
-        "key": "hit-skill:Frozen Orb",
-        "label": {
-          "en": "Chance to Cast on Striking (Frozen Orb)",
-          "zh-TW": "攻擊時觸發機率 (Frozen Orb)",
-          "zh-CN": "攻击时触发机率 (Frozen Orb)"
-        },
-        "min": 15,
-        "max": 13,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
+      {
+        "key": "att",
+        "label": {
+          "en": "Attack Rating",
+          "zh-TW": "攻擊等級",
+          "zh-CN": "攻击等级"
+        },
+        "value": 50,
+        "isSkillRef": false
+      },
+      {
+        "key": "att-und",
+        "label": {
+          "en": "Attack Rating vs. Undead",
+          "zh-TW": "對不死系攻擊等級",
+          "zh-CN": "对不死系攻击等级"
+        },
+        "value": 50,
+        "isSkillRef": false
+      },
       {
         "key": "pierce-cold",
         "label": {
@@ -12644,11 +12814,41 @@
         "isSkillRef": false
       },
       {
+        "key": "dex",
+        "label": {
+          "en": "Dexterity",
+          "zh-TW": "敏捷",
+          "zh-CN": "敏捷"
+        },
+        "value": 10,
+        "isSkillRef": false
+      },
+      {
         "key": "nofreeze",
         "label": {
           "en": "Cannot Be Frozen",
           "zh-TW": "不會被冰凍",
           "zh-CN": "不会被冰冻"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "gold%",
+        "label": {
+          "en": "Gold Find %",
+          "zh-TW": "額外金幣拾取率 %",
+          "zh-CN": "额外金币拾取率 %"
+        },
+        "value": 75,
+        "isSkillRef": false
+      },
+      {
+        "key": "light",
+        "label": {
+          "en": "Light Radius",
+          "zh-TW": "光環半徑",
+          "zh-CN": "光环半径"
         },
         "value": 1,
         "isSkillRef": false
@@ -12725,6 +12925,17 @@
         "isSkillRef": false
       },
       {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
+        },
+        "min": 3,
+        "max": 14,
+        "isSkillRef": false
+      },
+      {
         "key": "charged:Decrepify",
         "label": {
           "en": "Charges (Decrepify)",
@@ -12755,6 +12966,26 @@
           "zh-CN": "加快施法速度"
         },
         "value": 40,
+        "isSkillRef": false
+      },
+      {
+        "key": "indestruct",
+        "label": {
+          "en": "Indestructible",
+          "zh-TW": "不可破壞",
+          "zh-CN": "不可破坏"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "mag%",
+        "label": {
+          "en": "Magic Find %",
+          "zh-TW": "額外魔法物品尋獲率 %",
+          "zh-CN": "额外魔法物品寻获率 %"
+        },
+        "value": 30,
         "isSkillRef": false
       }
     ]
@@ -12814,6 +13045,26 @@
           "zh-CN": "额外魔法物品寻获率 %"
         },
         "value": 100,
+        "isSkillRef": false
+      },
+      {
+        "key": "mana-kill",
+        "label": {
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
+        },
+        "value": 2,
+        "isSkillRef": false
+      },
+      {
+        "key": "dex",
+        "label": {
+          "en": "Dexterity",
+          "zh-TW": "敏捷",
+          "zh-CN": "敏捷"
+        },
+        "value": 10,
         "isSkillRef": false
       }
     ]
