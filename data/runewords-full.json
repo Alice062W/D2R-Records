@@ -10146,13 +10146,13 @@
     ],
     "fixedStats": [
       {
-        "key": "red-mag",
+        "key": "balance2",
         "label": {
-          "en": "Magic Damage Reduced",
-          "zh-TW": "減少魔法傷害",
-          "zh-CN": "减少魔法伤害"
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
         },
-        "value": 10,
+        "value": 25,
         "isSkillRef": false
       },
       {
@@ -10166,23 +10166,23 @@
         "isSkillRef": false
       },
       {
-        "key": "balance2",
+        "key": "red-mag",
         "label": {
-          "en": "Faster Hit Recovery",
-          "zh-TW": "加快恢復速度",
-          "zh-CN": "加快恢复速度"
+          "en": "Magic Damage Reduced",
+          "zh-TW": "減少魔法傷害",
+          "zh-CN": "减少魔法伤害"
         },
-        "value": 25,
+        "value": 17,
         "isSkillRef": false
       },
       {
-        "key": "rep-dur",
+        "key": "mana-kill",
         "label": {
-          "en": "Repairs Durability",
-          "zh-TW": "修復耐久度",
-          "zh-CN": "修复耐久度"
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
         },
-        "value": 25,
+        "value": 2,
         "isSkillRef": false
       },
       {
@@ -10193,6 +10193,16 @@
           "zh-CN": "光环半径"
         },
         "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "rep-dur",
+        "label": {
+          "en": "Repairs Durability",
+          "zh-TW": "修復耐久度",
+          "zh-CN": "修复耐久度"
+        },
+        "value": 25,
         "isSkillRef": false
       }
     ]
@@ -10235,13 +10245,23 @@
     "stats": [],
     "fixedStats": [
       {
-        "key": "light",
+        "key": "ac%",
         "label": {
-          "en": "Light Radius",
-          "zh-TW": "光環半徑",
-          "zh-CN": "光环半径"
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
         },
-        "value": 5,
+        "value": 75,
+        "isSkillRef": false
+      },
+      {
+        "key": "ac-miss",
+        "label": {
+          "en": "Defense vs. Missile",
+          "zh-TW": "對抗遠程攻擊防禦力",
+          "zh-CN": "对抗远程攻击防御力"
+        },
+        "value": 30,
         "isSkillRef": false
       },
       {
@@ -10265,6 +10285,16 @@
         "isSkillRef": false
       },
       {
+        "key": "dmg-to-mana",
+        "label": {
+          "en": "Damage Taken Goes to Mana",
+          "zh-TW": "承受傷害轉換為魔力",
+          "zh-CN": "承受伤害转换为魔力"
+        },
+        "value": 15,
+        "isSkillRef": false
+      },
+      {
         "key": "red-mag",
         "label": {
           "en": "Magic Damage Reduced",
@@ -10285,13 +10315,23 @@
         "isSkillRef": false
       },
       {
-        "key": "ac%",
+        "key": "red-dmg",
         "label": {
-          "en": "Enhanced Defense %",
-          "zh-TW": "強化防禦力 %",
-          "zh-CN": "强化防御力 %"
+          "en": "Damage Reduced",
+          "zh-TW": "減少傷害",
+          "zh-CN": "减少伤害"
         },
-        "value": 75,
+        "value": 7,
+        "isSkillRef": false
+      },
+      {
+        "key": "light",
+        "label": {
+          "en": "Light Radius",
+          "zh-TW": "光環半徑",
+          "zh-CN": "光环半径"
+        },
+        "value": 5,
         "isSkillRef": false
       }
     ]
@@ -10333,22 +10373,22 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "hit-skill:Twister",
+        "key": "gethit-skill:Cyclone Armor",
         "label": {
-          "en": "Chance to Cast on Striking (Twister)",
-          "zh-TW": "攻擊時觸發機率 (Twister)",
-          "zh-CN": "攻击时触发机率 (Twister)"
+          "en": "Chance to Cast When Struck (Cyclone Armor)",
+          "zh-TW": "受擊時觸發機率 (Cyclone Armor)",
+          "zh-CN": "受击时触发机率 (Cyclone Armor)"
         },
         "min": 5,
         "max": 15,
         "isSkillRef": true
       },
       {
-        "key": "gethit-skill:Cyclone Armor",
+        "key": "hit-skill:Twister",
         "label": {
-          "en": "Chance to Cast When Struck (Cyclone Armor)",
-          "zh-TW": "受擊時觸發機率 (Cyclone Armor)",
-          "zh-CN": "受击时触发机率 (Cyclone Armor)"
+          "en": "Chance to Cast on Striking (Twister)",
+          "zh-TW": "攻擊時觸發機率 (Twister)",
+          "zh-CN": "攻击时触发机率 (Twister)"
         },
         "min": 5,
         "max": 15,
@@ -10376,6 +10416,36 @@
         },
         "value": 2,
         "isSkillRef": true
+      },
+      {
+        "key": "res-ltng",
+        "label": {
+          "en": "Lightning Resist %",
+          "zh-TW": "閃電抗性 %",
+          "zh-CN": "闪电抗性 %"
+        },
+        "value": 30,
+        "isSkillRef": false
+      },
+      {
+        "key": "red-mag",
+        "label": {
+          "en": "Magic Damage Reduced",
+          "zh-TW": "減少魔法傷害",
+          "zh-CN": "减少魔法伤害"
+        },
+        "value": 7,
+        "isSkillRef": false
+      },
+      {
+        "key": "dmg-to-mana",
+        "label": {
+          "en": "Damage Taken Goes to Mana",
+          "zh-TW": "承受傷害轉換為魔力",
+          "zh-CN": "承受伤害转换为魔力"
+        },
+        "value": 15,
+        "isSkillRef": false
       }
     ]
   },
@@ -10411,16 +10481,6 @@
     "stats": [],
     "fixedStats": [
       {
-        "key": "block2",
-        "label": {
-          "en": "Faster Block Rate",
-          "zh-TW": "加快格擋速度",
-          "zh-CN": "加快格挡速度"
-        },
-        "value": 20,
-        "isSkillRef": false
-      },
-      {
         "key": "block",
         "label": {
           "en": "Increased Chance of Blocking %",
@@ -10431,6 +10491,16 @@
         "isSkillRef": false
       },
       {
+        "key": "block2",
+        "label": {
+          "en": "Faster Block Rate",
+          "zh-TW": "加快格擋速度",
+          "zh-CN": "加快格挡速度"
+        },
+        "value": 40,
+        "isSkillRef": false
+      },
+      {
         "key": "res-all",
         "label": {
           "en": "All Resistances",
@@ -10438,6 +10508,16 @@
           "zh-CN": "全抗性"
         },
         "value": 25,
+        "isSkillRef": false
+      },
+      {
+        "key": "regen-mana",
+        "label": {
+          "en": "Mana Regenerated %",
+          "zh-TW": "魔力回復 %",
+          "zh-CN": "魔力回复 %"
+        },
+        "value": 15,
         "isSkillRef": false
       },
       {
@@ -10515,28 +10595,6 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "dmg-mag",
-        "label": {
-          "en": "Magic Damage",
-          "zh-TW": "魔法傷害",
-          "zh-CN": "魔法伤害"
-        },
-        "min": 160,
-        "max": 250,
-        "isSkillRef": false
-      },
-      {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 60,
-        "max": 180,
-        "isSkillRef": false
-      },
-      {
         "key": "hit-skill:Tornado",
         "label": {
           "en": "Chance to Cast on Striking (Tornado)",
@@ -10559,15 +10617,26 @@
         "isSkillRef": true
       },
       {
-        "key": "charged:Iron Maiden",
+        "key": "dmg-mag",
         "label": {
-          "en": "Charges (Iron Maiden)",
-          "zh-TW": "充能次數 (Iron Maiden)",
-          "zh-CN": "充能次数 (Iron Maiden)"
+          "en": "Magic Damage",
+          "zh-TW": "魔法傷害",
+          "zh-CN": "魔法伤害"
         },
-        "min": 40,
-        "max": 15,
-        "isSkillRef": true
+        "min": 160,
+        "max": 250,
+        "isSkillRef": false
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "min": 60,
+        "max": 180,
+        "isSkillRef": false
       },
       {
         "key": "all-stats",
@@ -10579,9 +10648,40 @@
         "min": 5,
         "max": 10,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:Iron Maiden",
+        "label": {
+          "en": "Charges (Iron Maiden)",
+          "zh-TW": "充能次數 (Iron Maiden)",
+          "zh-CN": "充能次数 (Iron Maiden)"
+        },
+        "min": 40,
+        "max": 15,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
+      {
+        "key": "att%",
+        "label": {
+          "en": "Attack Rating %",
+          "zh-TW": "攻擊等級 %",
+          "zh-CN": "攻击等级 %"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "dex",
+        "label": {
+          "en": "Dexterity",
+          "zh-TW": "敏捷",
+          "zh-CN": "敏捷"
+        },
+        "value": 10,
+        "isSkillRef": false
+      },
       {
         "key": "dmg-to-mana",
         "label": {
@@ -10590,6 +10690,16 @@
           "zh-CN": "承受伤害转换为魔力"
         },
         "value": 38,
+        "isSkillRef": false
+      },
+      {
+        "key": "gold%",
+        "label": {
+          "en": "Gold Find %",
+          "zh-TW": "額外金幣拾取率 %",
+          "zh-CN": "额外金币拾取率 %"
+        },
+        "value": 75,
         "isSkillRef": false
       }
     ]
