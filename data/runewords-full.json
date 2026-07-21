@@ -10741,11 +10741,11 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "gethit-skill:Sigil Death",
+        "key": "gethit-skill:Sigil: Death",
         "label": {
-          "en": "Chance to Cast When Struck (Sigil Death)",
-          "zh-TW": "受擊時觸發機率 (Sigil Death)",
-          "zh-CN": "受击时触发机率 (Sigil Death)"
+          "en": "Chance to Cast When Struck (Sigil: Death)",
+          "zh-TW": "受擊時觸發機率 (Sigil: Death)",
+          "zh-CN": "受击时触发机率 (Sigil: Death)"
         },
         "min": 13,
         "max": 1,
@@ -10763,17 +10763,6 @@
         "isSkillRef": false
       },
       {
-        "key": "dmg-demon",
-        "label": {
-          "en": "Damage to Demons",
-          "zh-TW": "對惡魔傷害",
-          "zh-CN": "对恶魔伤害"
-        },
-        "min": 150,
-        "max": 250,
-        "isSkillRef": false
-      },
-      {
         "key": "att%",
         "label": {
           "en": "Attack Rating %",
@@ -10782,6 +10771,17 @@
         },
         "min": 200,
         "max": 260,
+        "isSkillRef": false
+      },
+      {
+        "key": "dmg-demon",
+        "label": {
+          "en": "Damage to Demons",
+          "zh-TW": "對惡魔傷害",
+          "zh-CN": "对恶魔伤害"
+        },
+        "min": 150,
+        "max": 250,
         "isSkillRef": false
       },
       {
@@ -10815,6 +10815,16 @@
           "zh-CN": "击杀的怪物将安息"
         },
         "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "value": 7,
         "isSkillRef": false
       }
     ]
@@ -10891,11 +10901,11 @@
     ],
     "fixedStats": [
       {
-        "key": "block",
+        "key": "balance2",
         "label": {
-          "en": "Increased Chance of Blocking %",
-          "zh-TW": "格擋機率 %",
-          "zh-CN": "格挡机率 %"
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
         },
         "value": 20,
         "isSkillRef": false
@@ -10911,6 +10921,16 @@
         "isSkillRef": false
       },
       {
+        "key": "block",
+        "label": {
+          "en": "Increased Chance of Blocking %",
+          "zh-TW": "格擋機率 %",
+          "zh-CN": "格挡机率 %"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
         "key": "ac-miss",
         "label": {
           "en": "Defense vs. Missile",
@@ -10921,13 +10941,23 @@
         "isSkillRef": false
       },
       {
-        "key": "balance2",
+        "key": "dex",
         "label": {
-          "en": "Faster Hit Recovery",
-          "zh-TW": "加快恢復速度",
-          "zh-CN": "加快恢复速度"
+          "en": "Dexterity",
+          "zh-TW": "敏捷",
+          "zh-CN": "敏捷"
         },
         "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "red-mag",
+        "label": {
+          "en": "Magic Damage Reduced",
+          "zh-TW": "減少魔法傷害",
+          "zh-CN": "减少魔法伤害"
+        },
+        "value": 7,
         "isSkillRef": false
       }
     ]
@@ -10988,26 +11018,6 @@
     "stats": [],
     "fixedStats": [
       {
-        "key": "manasteal",
-        "label": {
-          "en": "Mana Steal %",
-          "zh-TW": "魔力竊取 %",
-          "zh-CN": "魔力窃取 %"
-        },
-        "value": 4,
-        "isSkillRef": false
-      },
-      {
-        "key": "stupidity",
-        "label": {
-          "en": "Hit Blinds Target",
-          "zh-TW": "擊中致盲目標",
-          "zh-CN": "击中致盲目标"
-        },
-        "value": 33,
-        "isSkillRef": false
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -11015,6 +11025,26 @@
           "zh-CN": "强化伤害 %"
         },
         "value": 200,
+        "isSkillRef": false
+      },
+      {
+        "key": "dmg-undead",
+        "label": {
+          "en": "Damage to Undead",
+          "zh-TW": "對不死系傷害",
+          "zh-CN": "对不死系伤害"
+        },
+        "value": 75,
+        "isSkillRef": false
+      },
+      {
+        "key": "ease",
+        "label": {
+          "en": "Requirements %",
+          "zh-TW": "需求 %",
+          "zh-CN": "需求 %"
+        },
+        "value": -20,
         "isSkillRef": false
       },
       {
@@ -11028,13 +11058,13 @@
         "isSkillRef": false
       },
       {
-        "key": "res-all",
+        "key": "att-und",
         "label": {
-          "en": "All Resistances",
-          "zh-TW": "全抗性",
-          "zh-CN": "全抗性"
+          "en": "Attack Rating vs. Undead",
+          "zh-TW": "對不死系攻擊等級",
+          "zh-CN": "对不死系攻击等级"
         },
-        "value": 75,
+        "value": 50,
         "isSkillRef": false
       },
       {
@@ -11048,6 +11078,16 @@
         "isSkillRef": false
       },
       {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "value": 75,
+        "isSkillRef": false
+      },
+      {
         "key": "balance2",
         "label": {
           "en": "Faster Hit Recovery",
@@ -11055,6 +11095,36 @@
           "zh-CN": "加快恢复速度"
         },
         "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "manasteal",
+        "label": {
+          "en": "Mana Steal %",
+          "zh-TW": "魔力竊取 %",
+          "zh-CN": "魔力窃取 %"
+        },
+        "value": 11,
+        "isSkillRef": false
+      },
+      {
+        "key": "howl",
+        "label": {
+          "en": "Hit Causes Monster to Flee %",
+          "zh-TW": "擊中使怪物逃跑 %",
+          "zh-CN": "击中使怪物逃跑 %"
+        },
+        "value": 25,
+        "isSkillRef": false
+      },
+      {
+        "key": "stupidity",
+        "label": {
+          "en": "Hit Blinds Target",
+          "zh-TW": "擊中致盲目標",
+          "zh-CN": "击中致盲目标"
+        },
+        "value": 33,
         "isSkillRef": false
       }
     ]
@@ -11090,11 +11160,11 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "charged:72",
+        "key": "charged:Weaken",
         "label": {
           "en": "Charges (Weaken)",
-          "zh-TW": "充能次數 (削弱)",
-          "zh-CN": "充能次数 (削弱)"
+          "zh-TW": "充能次數 (Weaken)",
+          "zh-CN": "充能次数 (Weaken)"
         },
         "min": 18,
         "max": 6,
@@ -11103,16 +11173,6 @@
     ],
     "fixedStats": [
       {
-        "key": "ac-miss",
-        "label": {
-          "en": "Defense vs. Missile",
-          "zh-TW": "對抗遠程攻擊防禦力",
-          "zh-CN": "对抗远程攻击防御力"
-        },
-        "value": 250,
-        "isSkillRef": false
-      },
-      {
         "key": "ac%",
         "label": {
           "en": "Enhanced Defense %",
@@ -11120,6 +11180,16 @@
           "zh-CN": "强化防御力 %"
         },
         "value": 75,
+        "isSkillRef": false
+      },
+      {
+        "key": "ac-miss",
+        "label": {
+          "en": "Defense vs. Missile",
+          "zh-TW": "對抗遠程攻擊防禦力",
+          "zh-CN": "对抗远程攻击防御力"
+        },
+        "value": 250,
         "isSkillRef": false
       },
       {
@@ -11140,6 +11210,16 @@
           "zh-CN": "加快恢复速度"
         },
         "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "enr",
+        "label": {
+          "en": "Energy",
+          "zh-TW": "精力",
+          "zh-CN": "精力"
+        },
+        "value": 10,
         "isSkillRef": false
       },
       {
