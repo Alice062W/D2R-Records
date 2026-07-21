@@ -8747,15 +8747,26 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "kill-skill:enchant",
+        "key": "kill-skill:Enchant",
         "label": {
-          "en": "Chance to Cast on Kill % (enchant)",
-          "zh-TW": "擊殺時觸發機率 (enchant)",
-          "zh-CN": "击杀时触发机率 (enchant)"
+          "en": "Chance to Cast on Kill % (Enchant)",
+          "zh-TW": "擊殺時觸發機率 (Enchant)",
+          "zh-CN": "击杀时触发机率 (Enchant)"
         },
         "min": 30,
         "max": 21,
         "isSkillRef": true
+      },
+      {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
+        },
+        "min": 3,
+        "max": 14,
+        "isSkillRef": false
       },
       {
         "key": "ac",
@@ -8782,6 +8793,16 @@
     ],
     "fixedStats": [
       {
+        "key": "balance3",
+        "label": {
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
+        },
+        "value": 40,
+        "isSkillRef": false
+      },
+      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -8792,13 +8813,13 @@
         "isSkillRef": false
       },
       {
-        "key": "crush",
+        "key": "reduce-ac",
         "label": {
-          "en": "Crushing Blow %",
-          "zh-TW": "破碎打擊 %",
-          "zh-CN": "破碎打击 %"
+          "en": "Reduce Target Defense %",
+          "zh-TW": "降低目標防禦力 %",
+          "zh-CN": "降低目标防御力 %"
         },
-        "value": 40,
+        "value": 25,
         "isSkillRef": false
       },
       {
@@ -8812,13 +8833,43 @@
         "isSkillRef": false
       },
       {
-        "key": "balance3",
+        "key": "crush",
         "label": {
-          "en": "Faster Hit Recovery",
-          "zh-TW": "加快恢復速度",
-          "zh-CN": "加快恢复速度"
+          "en": "Crushing Blow %",
+          "zh-TW": "破碎打擊 %",
+          "zh-CN": "破碎打击 %"
         },
         "value": 40,
+        "isSkillRef": false
+      },
+      {
+        "key": "str",
+        "label": {
+          "en": "Strength",
+          "zh-TW": "力量",
+          "zh-CN": "力量"
+        },
+        "value": 10,
+        "isSkillRef": false
+      },
+      {
+        "key": "dex",
+        "label": {
+          "en": "Dexterity",
+          "zh-TW": "敏捷",
+          "zh-CN": "敏捷"
+        },
+        "value": 10,
+        "isSkillRef": false
+      },
+      {
+        "key": "ease",
+        "label": {
+          "en": "Requirements %",
+          "zh-TW": "需求 %",
+          "zh-CN": "需求 %"
+        },
+        "value": -20,
         "isSkillRef": false
       }
     ]
@@ -8889,17 +8940,6 @@
         "isSkillRef": true
       },
       {
-        "key": "res-all",
-        "label": {
-          "en": "All Resistances",
-          "zh-TW": "全抗性",
-          "zh-CN": "全抗性"
-        },
-        "min": 60,
-        "max": 70,
-        "isSkillRef": false
-      },
-      {
         "key": "hp%",
         "label": {
           "en": "Increase Maximum Life %",
@@ -8920,9 +8960,30 @@
         "min": 15,
         "max": 30,
         "isSkillRef": false
+      },
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 60,
+        "max": 70,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
+      {
+        "key": "indestruct",
+        "label": {
+          "en": "Indestructible",
+          "zh-TW": "不可破壞",
+          "zh-CN": "不可破坏"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
       {
         "key": "allskills",
         "label": {
@@ -8951,6 +9012,56 @@
           "zh-CN": "加快恢复速度"
         },
         "value": 60,
+        "isSkillRef": false
+      },
+      {
+        "key": "knock",
+        "label": {
+          "en": "Knockback",
+          "zh-TW": "擊退",
+          "zh-CN": "击退"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "vit",
+        "label": {
+          "en": "Vitality",
+          "zh-TW": "活力",
+          "zh-CN": "活力"
+        },
+        "value": 10,
+        "isSkillRef": false
+      },
+      {
+        "key": "enr",
+        "label": {
+          "en": "Energy",
+          "zh-TW": "精力",
+          "zh-CN": "精力"
+        },
+        "value": 10,
+        "isSkillRef": false
+      },
+      {
+        "key": "gold%",
+        "label": {
+          "en": "Gold Find %",
+          "zh-TW": "額外金幣拾取率 %",
+          "zh-CN": "额外金币拾取率 %"
+        },
+        "value": 75,
+        "isSkillRef": false
+      },
+      {
+        "key": "mag%",
+        "label": {
+          "en": "Magic Find %",
+          "zh-TW": "額外魔法物品尋獲率 %",
+          "zh-CN": "额外魔法物品寻获率 %"
+        },
+        "value": 30,
         "isSkillRef": false
       }
     ]
@@ -9020,6 +9131,17 @@
         "isSkillRef": false
       },
       {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "min": 1,
+        "max": 50,
+        "isSkillRef": false
+      },
+      {
         "key": "charged:Heart of Wolverine",
         "label": {
           "en": "Charges (Heart of Wolverine)",
@@ -9033,14 +9155,34 @@
     ],
     "fixedStats": [
       {
-        "key": "oskill:Zeal",
+        "key": "swing2",
         "label": {
-          "en": "Skill Bonus (Zeal)",
-          "zh-TW": "技能加成 (Zeal)",
-          "zh-CN": "技能加成 (Zeal)"
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
         },
-        "value": 1,
-        "isSkillRef": true
+        "value": 25,
+        "isSkillRef": false
+      },
+      {
+        "key": "dmg-undead",
+        "label": {
+          "en": "Damage to Undead",
+          "zh-TW": "對不死系傷害",
+          "zh-CN": "对不死系伤害"
+        },
+        "value": 75,
+        "isSkillRef": false
+      },
+      {
+        "key": "att-und",
+        "label": {
+          "en": "Attack Rating vs. Undead",
+          "zh-TW": "對不死系攻擊等級",
+          "zh-CN": "对不死系攻击等级"
+        },
+        "value": 50,
+        "isSkillRef": false
       },
       {
         "key": "oskill:Berserk",
@@ -9053,14 +9195,14 @@
         "isSkillRef": true
       },
       {
-        "key": "swing2",
+        "key": "oskill:Zeal",
         "label": {
-          "en": "Faster Attack Rate",
-          "zh-TW": "加快攻擊速度",
-          "zh-CN": "加快攻击速度"
+          "en": "Skill Bonus (Zeal)",
+          "zh-TW": "技能加成 (Zeal)",
+          "zh-CN": "技能加成 (Zeal)"
         },
-        "value": 25,
-        "isSkillRef": false
+        "value": 1,
+        "isSkillRef": true
       },
       {
         "key": "stupidity",
@@ -9070,6 +9212,26 @@
           "zh-CN": "击中致盲目标"
         },
         "value": 10,
+        "isSkillRef": false
+      },
+      {
+        "key": "howl",
+        "label": {
+          "en": "Hit Causes Monster to Flee %",
+          "zh-TW": "擊中使怪物逃跑 %",
+          "zh-CN": "击中使怪物逃跑 %"
+        },
+        "value": 25,
+        "isSkillRef": false
+      },
+      {
+        "key": "gold%",
+        "label": {
+          "en": "Gold Find %",
+          "zh-TW": "額外金幣拾取率 %",
+          "zh-CN": "额外金币拾取率 %"
+        },
+        "value": 75,
         "isSkillRef": false
       }
     ]
@@ -9131,9 +9293,41 @@
         "min": 12,
         "max": 32,
         "isSkillRef": false
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "min": 1,
+        "max": 50,
+        "isSkillRef": false
+      },
+      {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
+        },
+        "min": 3,
+        "max": 14,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
+      {
+        "key": "block2",
+        "label": {
+          "en": "Faster Block Rate",
+          "zh-TW": "加快格擋速度",
+          "zh-CN": "加快格挡速度"
+        },
+        "value": 30,
+        "isSkillRef": false
+      },
       {
         "key": "att%",
         "label": {
@@ -9145,13 +9339,13 @@
         "isSkillRef": false
       },
       {
-        "key": "res-all",
+        "key": "pois-dot",
         "label": {
-          "en": "All Resistances",
-          "zh-TW": "全抗性",
-          "zh-CN": "全抗性"
+          "en": "Adds Poison Damage over 5 Seconds",
+          "zh-TW": "增加毒素傷害，持續 5 秒",
+          "zh-CN": "增加毒素伤害，持续 5 秒"
         },
-        "value": 15,
+        "value": 75,
         "isSkillRef": false
       },
       {
@@ -9175,13 +9369,13 @@
         "isSkillRef": false
       },
       {
-        "key": "block2",
+        "key": "res-all",
         "label": {
-          "en": "Faster Block Rate",
-          "zh-TW": "加快格擋速度",
-          "zh-CN": "加快格挡速度"
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
         },
-        "value": 30,
+        "value": 15,
         "isSkillRef": false
       }
     ]
@@ -9223,17 +9417,6 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "hit-skill:Valkyrie",
-        "label": {
-          "en": "Chance to Cast on Striking (Valkyrie)",
-          "zh-TW": "攻擊時觸發機率 (女武神)",
-          "zh-CN": "攻击时触发机率 (女武神)"
-        },
-        "min": 2,
-        "max": 15,
-        "isSkillRef": true
-      },
-      {
         "key": "gethit-skill:Slow Missiles",
         "label": {
           "en": "Chance to Cast When Struck (Slow Missiles)",
@@ -9242,6 +9425,17 @@
         },
         "min": 4,
         "max": 5,
+        "isSkillRef": true
+      },
+      {
+        "key": "hit-skill:Valkyrie",
+        "label": {
+          "en": "Chance to Cast on Striking (Valkyrie)",
+          "zh-TW": "攻擊時觸發機率 (女武神)",
+          "zh-CN": "攻击时触发机率 (女武神)"
+        },
+        "min": 2,
+        "max": 15,
         "isSkillRef": true
       }
     ],
@@ -9257,6 +9451,16 @@
         "isSkillRef": true
       },
       {
+        "key": "balance2",
+        "label": {
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
         "key": "oskill:Critical Strike",
         "label": {
           "en": "Skill Bonus (Critical Strike)",
@@ -9265,6 +9469,26 @@
         },
         "value": 2,
         "isSkillRef": true
+      },
+      {
+        "key": "res-cold",
+        "label": {
+          "en": "Cold Resist %",
+          "zh-TW": "冷凍抗性 %",
+          "zh-CN": "冷冻抗性 %"
+        },
+        "value": 30,
+        "isSkillRef": false
+      },
+      {
+        "key": "thorns",
+        "label": {
+          "en": "Attacker Takes Damage",
+          "zh-TW": "攻擊者承受傷害",
+          "zh-CN": "攻击者承受伤害"
+        },
+        "value": 14,
+        "isSkillRef": false
       }
     ]
   },
