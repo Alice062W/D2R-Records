@@ -79,7 +79,7 @@ const PROP_LABELS_EN = {
   'rep-quant': 'Replenishes Quantity', 'rep-dur': 'Repairs Durability', stack: 'Increased Stack Size',
   ama: 'Amazon Skill Levels', ass: 'Assassin Skill Levels', bar: 'Barbarian Skill Levels',
   dru: 'Druid Skill Levels', nec: 'Necromancer Skill Levels', pal: 'Paladin Skill Levels',
-  sor: 'Sorceress Skill Levels', 'mana%': 'Increase Maximum Mana %', 'hp%': 'Increase Maximum Life %',
+  sor: 'Sorceress Skill Levels', war: 'Warlock Skill Levels', 'mana%': 'Increase Maximum Mana %', 'hp%': 'Increase Maximum Life %',
   // Adds elemental damage is split across two separate stat IDs (min/max) in the
   // source data for these elements — unlike dmg-cold/dmg-fire/dmg-ltng-as-single-id
   // patterns seen elsewhere, so each half renders as its own line rather than a
@@ -216,7 +216,7 @@ const PROP_LABELS_ZH_TW = {
   'rep-quant': '補充數量', 'rep-dur': '修復耐久度', stack: '增加堆疊上限',
   ama: '亞馬遜技能等級', ass: '刺客技能等級', bar: '蠻族技能等級',
   dru: '德魯伊技能等級', nec: '死靈法師技能等級', pal: '聖騎士技能等級',
-  sor: '女巫技能等級', 'mana%': '增加最大魔力值 %', 'hp%': '增加最大生命值 %',
+  sor: '女巫技能等級', war: '術士技能等級', 'mana%': '增加最大魔力值 %', 'hp%': '增加最大生命值 %',
   'ltng-min': '閃電傷害（最小）', 'ltng-max': '閃電傷害（最大）',
   'fire-min': '火焰傷害（最小）', 'fire-max': '火焰傷害（最大）',
   'cold-min': '冷凍傷害（最小）', 'cold-max': '冷凍傷害（最大）', 'cold-len': '冷凍持續時間',
@@ -1253,6 +1253,49 @@ function rwStatQualified(stat, qualifierEn) {
 // partially-captured ones are deliberately left on vendor data rather than
 // guessed at.
 const RUNEWORD_STAT_OVERRIDES = {
+  "Ancients' Pledge": [
+    rwStat('ac%', 50, 50),
+    rwStat('res-cold', 30, 30),
+    rwStat('res-fire', 35, 35),
+    rwStat('res-ltng', 35, 35),
+    rwStat('res-pois', 35, 35),
+    rwStat('res-all', 13, 13),
+    rwStat('dmg-to-mana', 10, 10),
+  ],
+  Authority: [
+    rwStat('hit-skill', 10, 15, 'Miasma Chain'),
+    rwStat('gethit-skill', 2, 10, 'Psychic Ward'),
+    rwStat('war', 2, 2),
+    rwStat('balance2', 20, 20),
+    rwStat('dmg%', 40, 60),
+    rwStat('res-fire', 30, 30),
+    rwStat('ease', -15, -15),
+  ],
+  Beast: [
+    rwStat('aura', 9, 9, 'Fanaticism'),
+    rwStat('swing2', 40, 40),
+    rwStat('dmg%', 240, 270),
+    rwStat('crush', 20, 20),
+    rwStat('openwounds', 25, 25),
+    rwStat('oskill', 3, 3, 'Werebear'),
+    rwStat('oskill', 3, 3, 'Lycanthropy'),
+    rwStat('noheal', 1, 1),
+    rwStat('str', 25, 40),
+    rwStat('enr', 10, 10),
+    rwStat('mana-kill', 2, 2),
+    rwStat('charged', 5, 13, 'Summon Grizzly'),
+  ],
+  Black: [
+    rwStat('dmg%', 120, 120),
+    rwStat('crush', 40, 40),
+    rwStat('att', 200, 200),
+    rwStat('dmg-cold', 3, 14),
+    rwStat('vit', 10, 10),
+    rwStat('swing2', 15, 15),
+    rwStat('knock', 1, 1),
+    rwStat('red-mag', 2, 2),
+    rwStat('charged', 12, 4, 'Corpse Explosion'),
+  ],
   Bone: [
     rwStat('gethit-skill', 15, 10, 'Bone Armor'),
     rwStat('hit-skill', 15, 10, 'Bone Spear'),

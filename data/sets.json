@@ -4277,9 +4277,9 @@
       {
         "key": "war",
         "label": {
-          "en": "war",
-          "zh-TW": "war",
-          "zh-CN": "war"
+          "en": "Warlock Skill Levels",
+          "zh-TW": "術士技能等級",
+          "zh-CN": "术士技能等级"
         },
         "value": 1,
         "isSkillRef": false

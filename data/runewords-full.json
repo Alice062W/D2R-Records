@@ -37,6 +37,16 @@
     "stats": [],
     "fixedStats": [
       {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
+        },
+        "value": 50,
+        "isSkillRef": false
+      },
+      {
         "key": "res-cold",
         "label": {
           "en": "Cold Resist %",
@@ -47,6 +57,36 @@
         "isSkillRef": false
       },
       {
+        "key": "res-fire",
+        "label": {
+          "en": "Fire Resist %",
+          "zh-TW": "火焰抗性 %",
+          "zh-CN": "火焰抗性 %"
+        },
+        "value": 35,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-ltng",
+        "label": {
+          "en": "Lightning Resist %",
+          "zh-TW": "閃電抗性 %",
+          "zh-CN": "闪电抗性 %"
+        },
+        "value": 35,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-pois",
+        "label": {
+          "en": "Poison Resist %",
+          "zh-TW": "毒素抗性 %",
+          "zh-CN": "毒素抗性 %"
+        },
+        "value": 35,
+        "isSkillRef": false
+      },
+      {
         "key": "res-all",
         "label": {
           "en": "All Resistances",
@@ -54,16 +94,6 @@
           "zh-CN": "全抗性"
         },
         "value": 13,
-        "isSkillRef": false
-      },
-      {
-        "key": "ac%",
-        "label": {
-          "en": "Enhanced Defense %",
-          "zh-TW": "強化防禦力 %",
-          "zh-CN": "强化防御力 %"
-        },
-        "value": 50,
         "isSkillRef": false
       },
       {
@@ -115,6 +145,17 @@
     "ladderOnly": false,
     "stats": [
       {
+        "key": "hit-skill:Miasma Chain",
+        "label": {
+          "en": "Chance to Cast on Striking (Miasma Chain)",
+          "zh-TW": "攻擊時觸發機率 (Miasma Chain)",
+          "zh-CN": "攻击时触发机率 (Miasma Chain)"
+        },
+        "min": 10,
+        "max": 15,
+        "isSkillRef": true
+      },
+      {
         "key": "gethit-skill:Psychic Ward",
         "label": {
           "en": "Chance to Cast When Struck (Psychic Ward)",
@@ -123,17 +164,6 @@
         },
         "min": 2,
         "max": 10,
-        "isSkillRef": true
-      },
-      {
-        "key": "hit-skill:Miasma Chains",
-        "label": {
-          "en": "Chance to Cast on Striking (Miasma Chains)",
-          "zh-TW": "攻擊時觸發機率 (Miasma Chains)",
-          "zh-CN": "攻击时触发机率 (Miasma Chains)"
-        },
-        "min": 10,
-        "max": 15,
         "isSkillRef": true
       },
       {
@@ -152,11 +182,41 @@
       {
         "key": "war",
         "label": {
-          "en": "war",
-          "zh-TW": "war",
-          "zh-CN": "war"
+          "en": "Warlock Skill Levels",
+          "zh-TW": "術士技能等級",
+          "zh-CN": "术士技能等级"
         },
         "value": 2,
+        "isSkillRef": false
+      },
+      {
+        "key": "balance2",
+        "label": {
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-fire",
+        "label": {
+          "en": "Fire Resist %",
+          "zh-TW": "火焰抗性 %",
+          "zh-CN": "火焰抗性 %"
+        },
+        "value": 30,
+        "isSkillRef": false
+      },
+      {
+        "key": "ease",
+        "label": {
+          "en": "Requirements %",
+          "zh-TW": "需求 %",
+          "zh-CN": "需求 %"
+        },
+        "value": -15,
         "isSkillRef": false
       }
     ]
@@ -245,16 +305,6 @@
     ],
     "fixedStats": [
       {
-        "key": "swing2",
-        "label": {
-          "en": "Faster Attack Rate",
-          "zh-TW": "加快攻擊速度",
-          "zh-CN": "加快攻击速度"
-        },
-        "value": 40,
-        "isSkillRef": false
-      },
-      {
         "key": "aura:Fanaticism",
         "label": {
           "en": "Aura Level (Fanaticism)",
@@ -265,24 +315,84 @@
         "isSkillRef": true
       },
       {
-        "key": "oskill:Wearbear",
+        "key": "swing2",
         "label": {
-          "en": "Skill Bonus (Wearbear)",
-          "zh-TW": "技能加成 (Wearbear)",
-          "zh-CN": "技能加成 (Wearbear)"
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "value": 40,
+        "isSkillRef": false
+      },
+      {
+        "key": "crush",
+        "label": {
+          "en": "Crushing Blow %",
+          "zh-TW": "破碎打擊 %",
+          "zh-CN": "破碎打击 %"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "openwounds",
+        "label": {
+          "en": "Open Wounds %",
+          "zh-TW": "撕裂傷口 %",
+          "zh-CN": "撕裂伤口 %"
+        },
+        "value": 25,
+        "isSkillRef": false
+      },
+      {
+        "key": "oskill:Werebear",
+        "label": {
+          "en": "Skill Bonus (Werebear)",
+          "zh-TW": "技能加成 (Werebear)",
+          "zh-CN": "技能加成 (Werebear)"
         },
         "value": 3,
         "isSkillRef": true
       },
       {
-        "key": "oskill:Shape Shifting",
+        "key": "oskill:Lycanthropy",
         "label": {
-          "en": "Skill Bonus (Shape Shifting)",
-          "zh-TW": "技能加成 (Shape Shifting)",
-          "zh-CN": "技能加成 (Shape Shifting)"
+          "en": "Skill Bonus (Lycanthropy)",
+          "zh-TW": "技能加成 (Lycanthropy)",
+          "zh-CN": "技能加成 (Lycanthropy)"
         },
         "value": 3,
         "isSkillRef": true
+      },
+      {
+        "key": "noheal",
+        "label": {
+          "en": "Prevent Monster Heal",
+          "zh-TW": "防止怪物治療",
+          "zh-CN": "防止怪物治疗"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "enr",
+        "label": {
+          "en": "Energy",
+          "zh-TW": "精力",
+          "zh-CN": "精力"
+        },
+        "value": 10,
+        "isSkillRef": false
+      },
+      {
+        "key": "mana-kill",
+        "label": {
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
+        },
+        "value": 2,
+        "isSkillRef": false
       }
     ]
   },
@@ -323,11 +433,22 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "charged:74",
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
+        },
+        "min": 3,
+        "max": 14,
+        "isSkillRef": false
+      },
+      {
+        "key": "charged:Corpse Explosion",
         "label": {
           "en": "Charges (Corpse Explosion)",
-          "zh-TW": "充能次數 (屍體爆炸)",
-          "zh-CN": "充能次数 (尸体爆炸)"
+          "zh-TW": "充能次數 (Corpse Explosion)",
+          "zh-CN": "充能次数 (Corpse Explosion)"
         },
         "min": 12,
         "max": 4,
@@ -335,6 +456,16 @@
       }
     ],
     "fixedStats": [
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "value": 120,
+        "isSkillRef": false
+      },
       {
         "key": "crush",
         "label": {
@@ -346,13 +477,23 @@
         "isSkillRef": false
       },
       {
-        "key": "dmg%",
+        "key": "att",
         "label": {
-          "en": "Enhanced Damage %",
-          "zh-TW": "強化傷害 %",
-          "zh-CN": "强化伤害 %"
+          "en": "Attack Rating",
+          "zh-TW": "攻擊等級",
+          "zh-CN": "攻击等级"
         },
-        "value": 120,
+        "value": 200,
+        "isSkillRef": false
+      },
+      {
+        "key": "vit",
+        "label": {
+          "en": "Vitality",
+          "zh-TW": "活力",
+          "zh-CN": "活力"
+        },
+        "value": 10,
         "isSkillRef": false
       },
       {
@@ -366,6 +507,16 @@
         "isSkillRef": false
       },
       {
+        "key": "knock",
+        "label": {
+          "en": "Knockback",
+          "zh-TW": "擊退",
+          "zh-CN": "击退"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
         "key": "red-mag",
         "label": {
           "en": "Magic Damage Reduced",
@@ -373,16 +524,6 @@
           "zh-CN": "减少魔法伤害"
         },
         "value": 2,
-        "isSkillRef": false
-      },
-      {
-        "key": "att",
-        "label": {
-          "en": "Attack Rating",
-          "zh-TW": "攻擊等級",
-          "zh-CN": "攻击等级"
-        },
-        "value": 200,
         "isSkillRef": false
       }
     ]
