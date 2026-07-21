@@ -9546,15 +9546,15 @@
         "isSkillRef": false
       },
       {
-        "key": "ac-miss",
+        "key": "levelup-skill:Blaze",
         "label": {
-          "en": "Defense vs. Missile",
-          "zh-TW": "對抗遠程攻擊防禦力",
-          "zh-CN": "对抗远程攻击防御力"
+          "en": "Chance to Cast on Level-Up % (Blaze)",
+          "zh-TW": "升級時觸發機率 % (Blaze)",
+          "zh-CN": "升级时触发机率 % (Blaze)"
         },
-        "min": 350,
-        "max": 400,
-        "isSkillRef": false
+        "min": 100,
+        "max": 40,
+        "isSkillRef": true
       },
       {
         "key": "hit-skill:Firestorm",
@@ -9568,15 +9568,15 @@
         "isSkillRef": true
       },
       {
-        "key": "levelup-skill:Blaze",
+        "key": "abs-fire",
         "label": {
-          "en": "Chance to Cast on Level-Up % (Blaze)",
-          "zh-TW": "升級時觸發機率 % (Blaze)",
-          "zh-CN": "升级时触发机率 % (Blaze)"
+          "en": "Fire Absorb",
+          "zh-TW": "火焰吸收",
+          "zh-CN": "火焰吸收"
         },
-        "min": 100,
-        "max": 40,
-        "isSkillRef": true
+        "min": 15,
+        "max": 21,
+        "isSkillRef": false
       },
       {
         "key": "aura:Redemption",
@@ -9590,14 +9590,14 @@
         "isSkillRef": true
       },
       {
-        "key": "abs-fire",
+        "key": "ac-miss",
         "label": {
-          "en": "Fire Absorb",
-          "zh-TW": "火焰吸收",
-          "zh-CN": "火焰吸收"
+          "en": "Defense vs. Missile",
+          "zh-TW": "對抗遠程攻擊防禦力",
+          "zh-CN": "对抗远程攻击防御力"
         },
-        "min": 15,
-        "max": 21,
+        "min": 350,
+        "max": 400,
         "isSkillRef": false
       }
     ],
@@ -9610,6 +9610,66 @@
           "zh-CN": "降低敌方火焰抗性 %"
         },
         "value": -28,
+        "isSkillRef": false
+      },
+      {
+        "key": "hp",
+        "label": {
+          "en": "Life (Shields Only)",
+          "zh-TW": "生命值（僅限盾牌）",
+          "zh-CN": "生命值（僅限盾牌）"
+        },
+        "value": 50,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-ltng-max",
+        "label": {
+          "en": "Maximum Lightning Resist % (Shields Only)",
+          "zh-TW": "最大閃電抗性 %（僅限盾牌）",
+          "zh-CN": "最大闪电抗性 %（僅限盾牌）"
+        },
+        "value": 5,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-fire-max",
+        "label": {
+          "en": "Maximum Fire Resist % (Shields Only)",
+          "zh-TW": "最大火焰抗性 %（僅限盾牌）",
+          "zh-CN": "最大火焰抗性 %（僅限盾牌）"
+        },
+        "value": 10,
+        "isSkillRef": false
+      },
+      {
+        "key": "ignore-ac",
+        "label": {
+          "en": "Ignore Target Defense (Weapons Only)",
+          "zh-TW": "無視目標防禦力（僅限武器）",
+          "zh-CN": "无视目标防御力（僅限武器）"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "manasteal",
+        "label": {
+          "en": "Mana Steal % (Weapons Only)",
+          "zh-TW": "魔力竊取 %（僅限武器）",
+          "zh-CN": "魔力窃取 %（僅限武器）"
+        },
+        "value": 14,
+        "isSkillRef": false
+      },
+      {
+        "key": "deadly",
+        "label": {
+          "en": "Deadly Strike % (Weapons Only)",
+          "zh-TW": "致命一擊 %（僅限武器）",
+          "zh-CN": "致命一击 %（僅限武器）"
+        },
+        "value": 20,
         "isSkillRef": false
       }
     ]
@@ -9650,17 +9710,6 @@
     "levelReq": 67,
     "ladderOnly": false,
     "stats": [
-      {
-        "key": "dmg%",
-        "label": {
-          "en": "Enhanced Damage %",
-          "zh-TW": "強化傷害 %",
-          "zh-CN": "强化伤害 %"
-        },
-        "min": 220,
-        "max": 320,
-        "isSkillRef": false
-      },
       {
         "key": "gethit-skill:Lower Resist",
         "label": {
@@ -9704,9 +9753,30 @@
         "min": 1,
         "max": 2,
         "isSkillRef": false
+      },
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 220,
+        "max": 320,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
+      {
+        "key": "swing2",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
       {
         "key": "pierce-pois",
         "label": {
@@ -9723,6 +9793,26 @@
           "en": "Deadly Strike % (Based on Character Level)",
           "zh-TW": "致命一擊 %（依角色等級）",
           "zh-CN": "致命一击 %（依角色等级）"
+        },
+        "value": 3,
+        "isSkillRef": false
+      },
+      {
+        "key": "openwounds",
+        "label": {
+          "en": "Open Wounds %",
+          "zh-TW": "撕裂傷口 %",
+          "zh-CN": "撕裂伤口 %"
+        },
+        "value": 25,
+        "isSkillRef": false
+      },
+      {
+        "key": "freeze",
+        "label": {
+          "en": "Hit Freezes Target",
+          "zh-TW": "擊中冰凍目標",
+          "zh-CN": "击中冰冻目标"
         },
         "value": 3,
         "isSkillRef": false
@@ -9772,26 +9862,15 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "dmg-ltng",
+        "key": "gethit-skill:Fire Wall",
         "label": {
-          "en": "Lightning Damage",
-          "zh-TW": "閃電傷害",
-          "zh-CN": "闪电伤害"
+          "en": "Chance to Cast When Struck (Fire Wall)",
+          "zh-TW": "受擊時觸發機率 (Fire Wall)",
+          "zh-CN": "受击时触发机率 (Fire Wall)"
         },
-        "min": 50,
-        "max": 280,
-        "isSkillRef": false
-      },
-      {
-        "key": "att%",
-        "label": {
-          "en": "Attack Rating %",
-          "zh-TW": "攻擊等級 %",
-          "zh-CN": "攻击等级 %"
-        },
-        "min": 260,
-        "max": 300,
-        "isSkillRef": false
+        "min": 25,
+        "max": 17,
+        "isSkillRef": true
       },
       {
         "key": "aura:Concentration",
@@ -9805,26 +9884,77 @@
         "isSkillRef": true
       },
       {
-        "key": "gethit-skill:Fire Wall",
+        "key": "att%",
         "label": {
-          "en": "Chance to Cast When Struck (Fire Wall)",
-          "zh-TW": "受擊時觸發機率 (Fire Wall)",
-          "zh-CN": "受击时触发机率 (Fire Wall)"
+          "en": "Attack Rating %",
+          "zh-TW": "攻擊等級 %",
+          "zh-CN": "攻击等级 %"
         },
-        "min": 25,
-        "max": 17,
-        "isSkillRef": true
+        "min": 260,
+        "max": 300,
+        "isSkillRef": false
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "min": 50,
+        "max": 280,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
       {
-        "key": "dmg-dem/lvl",
+        "key": "dmg-demon/lvl",
         "label": {
-          "en": "dmg-dem (Based on Character Level)",
-          "zh-TW": "dmg-dem（依角色等級）",
-          "zh-CN": "dmg-dem（依角色等级）"
+          "en": "Damage to Demons (Based on Character Level)",
+          "zh-TW": "對惡魔傷害（依角色等級）",
+          "zh-CN": "对恶魔伤害（依角色等级）"
         },
         "value": 8,
+        "isSkillRef": false
+      },
+      {
+        "key": "deadly",
+        "label": {
+          "en": "Deadly Strike %",
+          "zh-TW": "致命一擊 %",
+          "zh-CN": "致命一击 %"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "stupidity",
+        "label": {
+          "en": "Hit Blinds Target",
+          "zh-TW": "擊中致盲目標",
+          "zh-CN": "击中致盲目标"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "freeze",
+        "label": {
+          "en": "Hit Freezes Target",
+          "zh-TW": "擊中冰凍目標",
+          "zh-CN": "击中冰冻目标"
+        },
+        "value": 3,
+        "isSkillRef": false
+      },
+      {
+        "key": "vit",
+        "label": {
+          "en": "Vitality",
+          "zh-TW": "活力",
+          "zh-CN": "活力"
+        },
+        "value": 10,
         "isSkillRef": false
       },
       {
@@ -9927,6 +10057,36 @@
           "zh-CN": "对不死系伤害"
         },
         "value": 50,
+        "isSkillRef": false
+      },
+      {
+        "key": "stamdrain",
+        "label": {
+          "en": "Slower Stamina Drain %",
+          "zh-TW": "減緩耐力消耗 %",
+          "zh-CN": "减缓耐力消耗 %"
+        },
+        "value": -15,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-pois-max",
+        "label": {
+          "en": "Maximum Poison Resist %",
+          "zh-TW": "最大毒素抗性 %",
+          "zh-CN": "最大毒素抗性 %"
+        },
+        "value": 5,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-fire",
+        "label": {
+          "en": "Fire Resist %",
+          "zh-TW": "火焰抗性 %",
+          "zh-CN": "火焰抗性 %"
+        },
+        "value": 30,
         "isSkillRef": false
       }
     ]
