@@ -1192,7 +1192,7 @@ const RUNEWORD_NAME_OVERRIDES = {
   Faith: '信心', Famine: '饑荒', 'Flickering Flame': '閃爍火焰', Fortitude: '剛毅',
   Fury: '狂怒', Gloom: '幽暗', Grief: '悔恨', Ground: '接地', 'Hand of Justice': '正義之手',
   Harmony: '和諧', 'Heart of the Oak': '橡樹之心', Hearth: '火爐', 'Holy Thunder': '神聖雷擊',
-  Honor: '榮耀', Ice: '寒冰', Infinity: '無限', Insight: '靈光', "King's Grace": '王者的慈悲',
+  Honor: '榮耀', Hysteria: '歇斯底里', Ice: '寒冰', Infinity: '無限', Insight: '靈光', "King's Grace": '王者的慈悲',
   Kingslayer: '弒王者', 'Last Wish': '最後遺願', Lawbringer: '執法者', Leaf: '葉子',
   Lionheart: '獅子心', Lore: '知識', Malice: '怨恨', Melody: '旋律', Memory: '記憶',
   Metamorphosis: '變化', Mist: '迷霧', Mosaic: '嵌飾', Myth: '神話', Nadir: '天底',
@@ -1241,13 +1241,22 @@ const ITEM_TYPE_QUALIFIER_ZH = {
   'Mark of the Wolf': '狼形印記', 'Mark of the Bear': '熊形印記',
 };
 function rwStatQualified(stat, qualifierEn) {
-  const qualifierZh = ITEM_TYPE_QUALIFIER_ZH[qualifierEn];
+  const qualifierZhTw = ITEM_TYPE_QUALIFIER_ZH[qualifierEn];
   return {
     ...stat,
+    // Suffix the key too, not just the label — Hysteria has the same base
+    // code (swing2) appearing under two different qualifiers, which would
+    // otherwise collide as duplicate React list keys.
+    key: `${stat.key}:${qualifierEn}`,
     label: {
       en: `${stat.label.en} (${qualifierEn})`,
-      'zh-TW': `${stat.label['zh-TW']}（${qualifierZh}）`,
-      'zh-CN': `${stat.label['zh-CN']}（${qualifierZh}）`,
+      'zh-TW': `${stat.label['zh-TW']}（${qualifierZhTw}）`,
+      // Previously reused the zh-TW qualifier text verbatim, leaving
+      // traditional characters (e.g. 僅限盔甲) inside otherwise-simplified
+      // zh-CN labels for every qualified stat (Dragon/Dream/Phoenix/Spirit/
+      // Fortitude) — run it through the same simplification pass as the
+      // rest of the zh-CN label.
+      'zh-CN': `${stat.label['zh-CN']}（${toZhCn(qualifierZhTw)}）`,
     },
   };
 }
@@ -1903,6 +1912,21 @@ const RUNEWORD_STAT_OVERRIDES = {
     rwStat('thorns', 14, 14),
     rwStat('ease', -15, -15),
   ],
+  Hysteria: [
+    rwStat('dex', 10, 10),
+    rwStatQualified(rwStat('move2', 65, 65), 'Body Armor Only'),
+    rwStatQualified(rwStat('swing2', 40, 40), 'Body Armor Only'),
+    rwStatQualified(rwStat('balance2', 20, 20), 'Body Armor Only'),
+    rwStatQualified(rwStat('oskill', 6, 6, 'Evade'), 'Body Armor Only'),
+    rwStatQualified(rwStat('stamdrain', -50, -50), 'Body Armor Only'),
+    rwStatQualified(rwStat('res-all', 10, 10), 'Body Armor Only'),
+    rwStatQualified(rwStat('hit-skill', 5, 1, 'Burst of Speed'), 'Weapons Only'),
+    rwStatQualified(rwStat('aura', 1, 1, 'Fanaticism'), 'Weapons Only'),
+    rwStatQualified(rwStat('swing2', 30, 30), 'Weapons Only'),
+    rwStatQualified(rwStat('dmg%', 180, 200), 'Weapons Only'),
+    rwStatQualified(rwStat('dmg-undead', 75, 75), 'Weapons Only'),
+    rwStatQualified(rwStat('att-und', 50, 50), 'Weapons Only'),
+  ],
   Metamorphosis: [
     {
       key: 'mark-wolf',
@@ -2411,23 +2435,34 @@ const RUNEWORD_STAT_OVERRIDES = {
   ],
 };
 
+// d2r.world merges the vendor's two separate "Hustle (armor)"/"Hustle
+// (weapon)" entries (itype1 'tors' and 'weap' respectively — same 3 runes,
+// same required level) into a single runeword shown as "Hysteria", with
+// base-type-conditional stats. Skip the "(weapon)" half as a standalone
+// entry; the "(armor)" half is renamed and given merged itemTypes below.
+const HYSTERIA_ARMOR_KEY = 'Hustle (armor)';
+const HYSTERIA_WEAPON_KEY = 'Hustle (weapon)';
+
 const runewordsFullOut = Object.entries(runesData)
   .filter(([, v]) => v.complete === 1)
+  .filter(([name]) => name !== HYSTERIA_WEAPON_KEY)
   .map(([name, v]) => {
+    const isHysteria = name === HYSTERIA_ARMOR_KEY;
+    const outputName = isHysteria ? 'Hysteria' : name;
     const runeNames = v['*RunesUsed'].match(/[A-Z][a-z]+/g) ?? [];
     const vendorExtracted = extractProps(v, 8, { code: 'T1Code', par: 'T1Param', min: 'T1Min', max: 'T1Max' });
-    const override = RUNEWORD_STAT_OVERRIDES[name];
+    const override = RUNEWORD_STAT_OVERRIDES[outputName];
     const { variable, fixed } = override
       ? { variable: override.filter(s => s.min !== s.max), fixed: override.filter(s => s.min === s.max).map(s => ({ key: s.key, label: s.label, value: s.min, isSkillRef: s.isSkillRef })) }
       : vendorExtracted;
-    const curated = runewordsCurated.find(r => normalizeRunewordName(r.name) === normalizeRunewordName(name));
+    const curated = runewordsCurated.find(r => normalizeRunewordName(r.name) === normalizeRunewordName(outputName));
     return {
       id: `runeword-${v.Name}`,
-      name: localizedRunewordName(name),
+      name: localizedRunewordName(outputName),
       runes: runeNames.map(rn => localizedRuneName(RUNE_NAME_ALIASES[rn] ?? rn)),
       runeInvFiles: runeNames.map(rn => RUNE_INVFILE_BY_NAME[RUNE_NAME_ALIASES[rn] ?? rn] ?? ''),
       sockets: runeNames.length,
-      itemTypes: itemTypesFor(v.itype1),
+      itemTypes: isHysteria ? [...itemTypesFor(v.itype1), 'weap'] : itemTypesFor(v.itype1),
       levelReq: curated?.level ?? 0,
       ladderOnly: curated?.ladderOnly ?? false,
       stats: variable,

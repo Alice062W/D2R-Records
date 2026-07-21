@@ -205,8 +205,19 @@ describe('bases-full.json subCategory (Helms/Shields sub-tabs)', () => {
 });
 
 describe('runewords-full.json', () => {
-  it('has 99 entries, matching every complete===1 entry in vendored runes.json (more than the 93 in the older curated runewords.json, which predates Vigilance/Ritual/Void/Authority/Coven/Hustle-split)', () => {
-    expect(runewordsFull.length).toBe(99);
+  it('has 98 entries: every complete===1 entry in vendored runes.json, minus the "Hustle (armor)"/"Hustle (weapon)" pair which d2r.world displays as a single merged "Hysteria" runeword (more than the 93 in the older curated runewords.json, which predates Vigilance/Ritual/Void/Authority/Coven/Hustle-split)', () => {
+    expect(runewordsFull.length).toBe(98);
+  });
+
+  it('Hysteria merges the vendor\'s split "Hustle (armor)"/"Hustle (weapon)" entries into one, with base-type-qualified stats for both halves', () => {
+    const hysteria = runewordsFull.find(r => r.name.en === 'Hysteria')!;
+    expect(hysteria).toBeTruthy();
+    expect(hysteria.runes.map(r => r.en)).toEqual(['Shael', 'Ko', 'Eld']);
+    expect(hysteria.itemTypes).toEqual(['armors', 'weap']);
+    expect(hysteria.ladderOnly).toBe(true);
+    const allLabels = hysteria.fixedStats.map(s => s.label.en).concat(hysteria.stats.map(s => s.label.en));
+    expect(allLabels.some(l => l.includes('Body Armor Only'))).toBe(true);
+    expect(allLabels.some(l => l.includes('Weapons Only'))).toBe(true);
   });
 
   it('Enigma has the correct runes, sockets, and a non-empty stat list', () => {

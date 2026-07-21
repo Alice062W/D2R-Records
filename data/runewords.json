@@ -1700,9 +1700,9 @@
     "tier": 3
   },
   {
-    "name": "Hustle",
-    "nameTW": "活力",
-    "nameCN": "活力",
+    "name": "Hysteria",
+    "nameTW": "歇斯底里",
+    "nameCN": "歇斯底里",
     "sockets": 3,
     "itemTypes": [
       "Body Armor",
@@ -1714,7 +1714,7 @@
       "Eld"
     ],
     "level": 39,
-    "ladderOnly": false,
+    "ladderOnly": true,
     "d2rOnly": true,
     "tier": 2
   },
