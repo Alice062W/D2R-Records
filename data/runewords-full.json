@@ -8050,6 +8050,17 @@
     "ladderOnly": false,
     "stats": [
       {
+        "key": "aura:Concentration",
+        "label": {
+          "en": "Aura Level (Concentration)",
+          "zh-TW": "光環等級 (Concentration)",
+          "zh-CN": "光环等级 (Concentration)"
+        },
+        "min": 8,
+        "max": 12,
+        "isSkillRef": true
+      },
+      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -8061,15 +8072,15 @@
         "isSkillRef": false
       },
       {
-        "key": "aura:Concentration",
+        "key": "dmg-cold",
         "label": {
-          "en": "Aura Level (Concentration)",
-          "zh-TW": "光環等級 (Concentration)",
-          "zh-CN": "光环等级 (Concentration)"
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
         },
-        "min": 8,
-        "max": 12,
-        "isSkillRef": true
+        "min": 3,
+        "max": 14,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -8084,6 +8095,16 @@
         "isSkillRef": false
       },
       {
+        "key": "swing2",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
         "key": "pierce",
         "label": {
           "en": "Piercing Attack %",
@@ -8091,6 +8112,36 @@
           "zh-CN": "穿透攻击 %"
         },
         "value": 100,
+        "isSkillRef": false
+      },
+      {
+        "key": "dmg-max",
+        "label": {
+          "en": "Maximum Damage",
+          "zh-TW": "最大傷害",
+          "zh-CN": "最大伤害"
+        },
+        "value": 9,
+        "isSkillRef": false
+      },
+      {
+        "key": "att%",
+        "label": {
+          "en": "Attack Rating %",
+          "zh-TW": "攻擊等級 %",
+          "zh-CN": "攻击等级 %"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "freeze",
+        "label": {
+          "en": "Hit Freezes Target",
+          "zh-TW": "擊中冰凍目標",
+          "zh-CN": "击中冰冻目标"
+        },
+        "value": 3,
         "isSkillRef": false
       },
       {
@@ -8163,17 +8214,6 @@
         "isSkillRef": false
       },
       {
-        "key": "extra-fire",
-        "label": {
-          "en": "Fire Skill Damage %",
-          "zh-TW": "火焰技能傷害 %",
-          "zh-CN": "火焰技能伤害 %"
-        },
-        "min": 8,
-        "max": 15,
-        "isSkillRef": false
-      },
-      {
         "key": "extra-cold",
         "label": {
           "en": "Cold Skill Damage %",
@@ -8194,19 +8234,20 @@
         "min": 8,
         "max": 15,
         "isSkillRef": false
+      },
+      {
+        "key": "extra-fire",
+        "label": {
+          "en": "Fire Skill Damage %",
+          "zh-TW": "火焰技能傷害 %",
+          "zh-CN": "火焰技能伤害 %"
+        },
+        "min": 8,
+        "max": 15,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
-      {
-        "key": "skilltab:20",
-        "label": {
-          "en": "Skill Tab Bonus",
-          "zh-TW": "技能列加成",
-          "zh-CN": "技能列加成"
-        },
-        "value": 2,
-        "isSkillRef": false
-      },
       {
         "key": "charge-noconsume",
         "label": {
@@ -8218,6 +8259,16 @@
         "isSkillRef": false
       },
       {
+        "key": "skilltab:20",
+        "label": {
+          "en": "Skill Tab Bonus",
+          "zh-TW": "技能列加成",
+          "zh-CN": "技能列加成"
+        },
+        "value": 2,
+        "isSkillRef": false
+      },
+      {
         "key": "swing2",
         "label": {
           "en": "Faster Attack Rate",
@@ -8225,6 +8276,36 @@
           "zh-CN": "加快攻击速度"
         },
         "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "att%",
+        "label": {
+          "en": "Attack Rating %",
+          "zh-TW": "攻擊等級 %",
+          "zh-CN": "攻击等级 %"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "value": 7,
+        "isSkillRef": false
+      },
+      {
+        "key": "noheal",
+        "label": {
+          "en": "Prevent Monster Heal",
+          "zh-TW": "防止怪物治療",
+          "zh-CN": "防止怪物治疗"
+        },
+        "value": 1,
         "isSkillRef": false
       }
     ]
@@ -8266,17 +8347,6 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "hit-skill:Taunt",
-        "label": {
-          "en": "Chance to Cast on Striking (Taunt)",
-          "zh-TW": "攻擊時觸發機率 (Taunt)",
-          "zh-CN": "攻击时触发机率 (Taunt)"
-        },
-        "min": 10,
-        "max": 1,
-        "isSkillRef": true
-      },
-      {
         "key": "gethit-skill:Howl",
         "label": {
           "en": "Chance to Cast When Struck (Howl)",
@@ -8284,6 +8354,17 @@
           "zh-CN": "受击时触发机率 (Howl)"
         },
         "min": 3,
+        "max": 1,
+        "isSkillRef": true
+      },
+      {
+        "key": "hit-skill:Taunt",
+        "label": {
+          "en": "Chance to Cast on Striking (Taunt)",
+          "zh-TW": "攻擊時觸發機率 (Taunt)",
+          "zh-CN": "攻击时触发机率 (Taunt)"
+        },
+        "min": 10,
         "max": 1,
         "isSkillRef": true
       }
@@ -8300,6 +8381,16 @@
         "isSkillRef": true
       },
       {
+        "key": "ac-miss",
+        "label": {
+          "en": "Defense vs. Missile",
+          "zh-TW": "對抗遠程攻擊防禦力",
+          "zh-CN": "对抗远程攻击防御力"
+        },
+        "value": 30,
+        "isSkillRef": false
+      },
+      {
         "key": "regen",
         "label": {
           "en": "Replenish Life",
@@ -8307,6 +8398,26 @@
           "zh-CN": "补充生命值"
         },
         "value": 10,
+        "isSkillRef": false
+      },
+      {
+        "key": "thorns",
+        "label": {
+          "en": "Attacker Takes Damage",
+          "zh-TW": "攻擊者承受傷害",
+          "zh-CN": "攻击者承受伤害"
+        },
+        "value": 14,
+        "isSkillRef": false
+      },
+      {
+        "key": "ease",
+        "label": {
+          "en": "Requirements %",
+          "zh-TW": "需求 %",
+          "zh-CN": "需求 %"
+        },
+        "value": -15,
         "isSkillRef": false
       }
     ]
@@ -8342,7 +8453,7 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "charged:264",
+        "key": "charged:Cloak of Shadows",
         "label": {
           "en": "Charges (Cloak of Shadows)",
           "zh-TW": "充能次數 (Cloak of Shadows)",
@@ -8375,13 +8486,33 @@
         "isSkillRef": false
       },
       {
-        "key": "light",
+        "key": "ac-miss",
         "label": {
-          "en": "Light Radius",
-          "zh-TW": "光環半徑",
-          "zh-CN": "光环半径"
+          "en": "Defense vs. Missile",
+          "zh-TW": "對抗遠程攻擊防禦力",
+          "zh-CN": "对抗远程攻击防御力"
         },
-        "value": -3,
+        "value": 30,
+        "isSkillRef": false
+      },
+      {
+        "key": "mana-kill",
+        "label": {
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
+        },
+        "value": 2,
+        "isSkillRef": false
+      },
+      {
+        "key": "str",
+        "label": {
+          "en": "Strength",
+          "zh-TW": "力量",
+          "zh-CN": "力量"
+        },
+        "value": 5,
         "isSkillRef": false
       },
       {
@@ -8395,13 +8526,13 @@
         "isSkillRef": false
       },
       {
-        "key": "str",
+        "key": "light",
         "label": {
-          "en": "Strength",
-          "zh-TW": "力量",
-          "zh-CN": "力量"
+          "en": "Light Radius",
+          "zh-TW": "光環半徑",
+          "zh-CN": "光环半径"
         },
-        "value": 5,
+        "value": -3,
         "isSkillRef": false
       }
     ]
@@ -8449,17 +8580,6 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "dmg%",
-        "label": {
-          "en": "Enhanced Damage %",
-          "zh-TW": "強化傷害 %",
-          "zh-CN": "强化伤害 %"
-        },
-        "min": 210,
-        "max": 340,
-        "isSkillRef": false
-      },
-      {
         "key": "hit-skill:Bone Spirit",
         "label": {
           "en": "Chance to Cast on Striking (Bone Spirit)",
@@ -8471,15 +8591,26 @@
         "isSkillRef": true
       },
       {
-        "key": "charged:IronGolem",
+        "key": "dmg%",
         "label": {
-          "en": "Charges (IronGolem)",
-          "zh-TW": "充能次數 (鐵石魔)",
-          "zh-CN": "充能次数 (铁石魔)"
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
         },
-        "min": 14,
-        "max": 17,
-        "isSkillRef": true
+        "min": 210,
+        "max": 340,
+        "isSkillRef": false
+      },
+      {
+        "key": "abs-mag",
+        "label": {
+          "en": "Magic Absorb",
+          "zh-TW": "魔法吸收",
+          "zh-CN": "魔法吸收"
+        },
+        "min": 10,
+        "max": 15,
+        "isSkillRef": false
       },
       {
         "key": "charged:Heart of Wolverine",
@@ -8493,28 +8624,18 @@
         "isSkillRef": true
       },
       {
-        "key": "abs-mag",
+        "key": "charged:Iron Golem",
         "label": {
-          "en": "Magic Absorb",
-          "zh-TW": "魔法吸收",
-          "zh-CN": "魔法吸收"
+          "en": "Charges (Iron Golem)",
+          "zh-TW": "充能次數 (Iron Golem)",
+          "zh-CN": "充能次数 (Iron Golem)"
         },
-        "min": 10,
-        "max": 15,
-        "isSkillRef": false
+        "min": 14,
+        "max": 17,
+        "isSkillRef": true
       }
     ],
     "fixedStats": [
-      {
-        "key": "swing1",
-        "label": {
-          "en": "Faster Attack Rate",
-          "zh-TW": "加快攻擊速度",
-          "zh-CN": "加快攻击速度"
-        },
-        "value": 30,
-        "isSkillRef": false
-      },
       {
         "key": "indestruct",
         "label": {
@@ -8523,6 +8644,56 @@
           "zh-CN": "不可破坏"
         },
         "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "swing1",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "value": 50,
+        "isSkillRef": false
+      },
+      {
+        "key": "dmg-demon",
+        "label": {
+          "en": "Damage to Demons",
+          "zh-TW": "對惡魔傷害",
+          "zh-CN": "对恶魔伤害"
+        },
+        "value": 75,
+        "isSkillRef": false
+      },
+      {
+        "key": "att-demon",
+        "label": {
+          "en": "Attack Rating vs. Demons",
+          "zh-TW": "對惡魔攻擊等級",
+          "zh-CN": "对恶魔攻击等级"
+        },
+        "value": 100,
+        "isSkillRef": false
+      },
+      {
+        "key": "noheal",
+        "label": {
+          "en": "Prevent Monster Heal",
+          "zh-TW": "防止怪物治療",
+          "zh-CN": "防止怪物治疗"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "enr",
+        "label": {
+          "en": "Energy",
+          "zh-TW": "精力",
+          "zh-CN": "精力"
+        },
+        "value": 10,
         "isSkillRef": false
       }
     ]
