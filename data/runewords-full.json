@@ -424,22 +424,22 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "hit-skill:Bone Spear",
+        "key": "gethit-skill:Bone Armor",
         "label": {
-          "en": "Chance to Cast on Striking (Bone Spear)",
-          "zh-TW": "攻擊時觸發機率 (Bone Spear)",
-          "zh-CN": "攻击时触发机率 (Bone Spear)"
+          "en": "Chance to Cast When Struck (Bone Armor)",
+          "zh-TW": "受擊時觸發機率 (Bone Armor)",
+          "zh-CN": "受击时触发机率 (Bone Armor)"
         },
         "min": 15,
         "max": 10,
         "isSkillRef": true
       },
       {
-        "key": "gethit-skill:Bone Armor",
+        "key": "hit-skill:Bone Spear",
         "label": {
-          "en": "Chance to Cast When Struck (Bone Armor)",
-          "zh-TW": "受擊時觸發機率 (Bone Armor)",
-          "zh-CN": "受击时触发机率 (Bone Armor)"
+          "en": "Chance to Cast on Striking (Bone Spear)",
+          "zh-TW": "攻擊時觸發機率 (Bone Spear)",
+          "zh-CN": "攻击时触发机率 (Bone Spear)"
         },
         "min": 15,
         "max": 10,
@@ -467,6 +467,26 @@
         },
         "value": 2,
         "isSkillRef": true
+      },
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "value": 30,
+        "isSkillRef": false
+      },
+      {
+        "key": "red-dmg",
+        "label": {
+          "en": "Damage Reduced",
+          "zh-TW": "減少傷害",
+          "zh-CN": "减少伤害"
+        },
+        "value": 7,
+        "isSkillRef": false
       }
     ]
   },
@@ -568,13 +588,43 @@
         "isSkillRef": false
       },
       {
-        "key": "heal-kill",
+        "key": "mana%",
         "label": {
-          "en": "Life after each Kill",
-          "zh-TW": "擊殺後恢復生命值",
-          "zh-CN": "击杀后恢复生命值"
+          "en": "Increase Maximum Mana %",
+          "zh-TW": "增加最大魔力值 %",
+          "zh-CN": "增加最大魔力值 %"
         },
-        "value": 13,
+        "value": 5,
+        "isSkillRef": false
+      },
+      {
+        "key": "regen-mana",
+        "label": {
+          "en": "Mana Regenerated %",
+          "zh-TW": "魔力回復 %",
+          "zh-CN": "魔力回复 %"
+        },
+        "value": 15,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-cold-max",
+        "label": {
+          "en": "Maximum Cold Resist %",
+          "zh-TW": "最大冷凍抗性 %",
+          "zh-CN": "最大冷冻抗性 %"
+        },
+        "value": 5,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-fire",
+        "label": {
+          "en": "Fire Resist %",
+          "zh-TW": "火焰抗性 %",
+          "zh-CN": "火焰抗性 %"
+        },
+        "value": 30,
         "isSkillRef": false
       },
       {
@@ -585,6 +635,16 @@
           "zh-CN": "毒素抗性 %"
         },
         "value": 100,
+        "isSkillRef": false
+      },
+      {
+        "key": "heal-kill",
+        "label": {
+          "en": "Life after each Kill",
+          "zh-TW": "擊殺後恢復生命值",
+          "zh-CN": "击杀后恢复生命值"
+        },
+        "value": 13,
         "isSkillRef": false
       }
     ]
@@ -877,6 +937,17 @@
     "ladderOnly": false,
     "stats": [
       {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "min": 4,
+        "max": 6,
+        "isSkillRef": false
+      },
+      {
         "key": "ac%",
         "label": {
           "en": "Enhanced Defense %",
@@ -897,20 +968,29 @@
         "min": 10,
         "max": 15,
         "isSkillRef": false
-      },
-      {
-        "key": "lifesteal",
-        "label": {
-          "en": "Life Steal %",
-          "zh-TW": "生命竊取 %",
-          "zh-CN": "生命窃取 %"
-        },
-        "min": 4,
-        "max": 6,
-        "isSkillRef": false
       }
     ],
     "fixedStats": [
+      {
+        "key": "balance2",
+        "label": {
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "vit",
+        "label": {
+          "en": "Vitality",
+          "zh-TW": "活力",
+          "zh-CN": "活力"
+        },
+        "value": 10,
+        "isSkillRef": false
+      },
       {
         "key": "hp%",
         "label": {
@@ -929,6 +1009,16 @@
           "zh-CN": "生命回复 %"
         },
         "value": 30,
+        "isSkillRef": false
+      },
+      {
+        "key": "red-dmg",
+        "label": {
+          "en": "Damage Reduced",
+          "zh-TW": "減少傷害",
+          "zh-CN": "减少伤害"
+        },
+        "value": 7,
         "isSkillRef": false
       }
     ]
@@ -1103,23 +1193,13 @@
     "stats": [],
     "fixedStats": [
       {
-        "key": "res-all",
+        "key": "allskills",
         "label": {
-          "en": "All Resistances",
-          "zh-TW": "全抗性",
-          "zh-CN": "全抗性"
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
         },
-        "value": 50,
-        "isSkillRef": false
-      },
-      {
-        "key": "ac%",
-        "label": {
-          "en": "Enhanced Defense %",
-          "zh-TW": "強化防禦力 %",
-          "zh-CN": "强化防御力 %"
-        },
-        "value": 70,
+        "value": 2,
         "isSkillRef": false
       },
       {
@@ -1153,13 +1233,13 @@
         "isSkillRef": false
       },
       {
-        "key": "allskills",
+        "key": "ac%",
         "label": {
-          "en": "All Skills",
-          "zh-TW": "全部技能",
-          "zh-CN": "全部技能"
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
         },
-        "value": 2,
+        "value": 70,
         "isSkillRef": false
       },
       {
@@ -1170,6 +1250,46 @@
           "zh-CN": "力量"
         },
         "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "regen",
+        "label": {
+          "en": "Life Regenerated %",
+          "zh-TW": "生命回復 %",
+          "zh-CN": "生命回复 %"
+        },
+        "value": 7,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "value": 65,
+        "isSkillRef": false
+      },
+      {
+        "key": "red-dmg%",
+        "label": {
+          "en": "Damage Reduced %",
+          "zh-TW": "減少傷害 %",
+          "zh-CN": "减少伤害 %"
+        },
+        "value": 8,
+        "isSkillRef": false
+      },
+      {
+        "key": "mag%",
+        "label": {
+          "en": "Magic Find %",
+          "zh-TW": "額外魔法物品尋獲率 %",
+          "zh-CN": "额外魔法物品寻获率 %"
+        },
+        "value": 25,
         "isSkillRef": false
       }
     ]
@@ -1211,28 +1331,6 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "dmg%",
-        "label": {
-          "en": "Enhanced Damage %",
-          "zh-TW": "強化傷害 %",
-          "zh-CN": "强化伤害 %"
-        },
-        "min": 240,
-        "max": 290,
-        "isSkillRef": false
-      },
-      {
-        "key": "dmg-mag",
-        "label": {
-          "en": "Magic Damage",
-          "zh-TW": "魔法傷害",
-          "zh-CN": "魔法伤害"
-        },
-        "min": 216,
-        "max": 471,
-        "isSkillRef": false
-      },
-      {
         "key": "hit-skill:Frozen Orb",
         "label": {
           "en": "Chance to Cast on Striking (Frozen Orb)",
@@ -1253,17 +1351,49 @@
         "min": 11,
         "max": 9,
         "isSkillRef": true
+      },
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 290,
+        "max": 340,
+        "isSkillRef": false
+      },
+      {
+        "key": "dmg-mag",
+        "label": {
+          "en": "Magic Damage",
+          "zh-TW": "魔法傷害",
+          "zh-CN": "魔法伤害"
+        },
+        "min": 216,
+        "max": 471,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
       {
-        "key": "demon-heal",
+        "key": "swing2",
         "label": {
-          "en": "Life after Demon Kill",
-          "zh-TW": "擊殺惡魔後恢復生命值",
-          "zh-CN": "击杀恶魔后恢复生命值"
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
         },
-        "value": 15,
+        "value": 35,
+        "isSkillRef": false
+      },
+      {
+        "key": "openwounds",
+        "label": {
+          "en": "Open Wounds %",
+          "zh-TW": "撕裂傷口 %",
+          "zh-CN": "撕裂伤口 %"
+        },
+        "value": 25,
         "isSkillRef": false
       },
       {
@@ -1277,13 +1407,23 @@
         "isSkillRef": true
       },
       {
-        "key": "swing2",
+        "key": "str",
         "label": {
-          "en": "Faster Attack Rate",
-          "zh-TW": "加快攻擊速度",
-          "zh-CN": "加快攻击速度"
+          "en": "Strength",
+          "zh-TW": "力量",
+          "zh-CN": "力量"
         },
-        "value": 35,
+        "value": 10,
+        "isSkillRef": false
+      },
+      {
+        "key": "demon-heal",
+        "label": {
+          "en": "Life after Demon Kill",
+          "zh-TW": "擊殺惡魔後恢復生命值",
+          "zh-CN": "击杀恶魔后恢复生命值"
+        },
+        "value": 15,
         "isSkillRef": false
       }
     ]
@@ -1561,12 +1701,42 @@
           "zh-TW": "毒素抗性 %",
           "zh-CN": "毒素抗性 %"
         },
-        "min": 10,
-        "max": 30,
+        "min": 40,
+        "max": 60,
         "isSkillRef": false
       }
     ],
     "fixedStats": [
+      {
+        "key": "aura:Cleansing",
+        "label": {
+          "en": "Aura Level (Cleansing)",
+          "zh-TW": "光環等級 (Cleansing)",
+          "zh-CN": "光环等级 (Cleansing)"
+        },
+        "value": 1,
+        "isSkillRef": true
+      },
+      {
+        "key": "balance2",
+        "label": {
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "vit",
+        "label": {
+          "en": "Vitality",
+          "zh-TW": "活力",
+          "zh-CN": "活力"
+        },
+        "value": 10,
+        "isSkillRef": false
+      },
       {
         "key": "hp%",
         "label": {
@@ -1586,16 +1756,6 @@
         },
         "value": 50,
         "isSkillRef": false
-      },
-      {
-        "key": "aura:Cleansing",
-        "label": {
-          "en": "Aura Level (Cleansing)",
-          "zh-TW": "光環等級 (Cleansing)",
-          "zh-CN": "光环等级 (Cleansing)"
-        },
-        "value": 1,
-        "isSkillRef": true
       }
     ]
   },

@@ -1210,11 +1210,103 @@ function localizedRunewordName(englishName) {
   return { en: englishName, 'zh-TW': zhTw, 'zh-CN': toZhCn(zhTw) };
 }
 
+// vendor/d2data's runes.json caps every runeword at 8 stat slots
+// (T1Code1..T1Code8 — there is no T1Code9+ field in the source at all), but
+// several current-patch runewords genuinely have more properties than that,
+// and a handful of the 8-or-fewer ones have outright wrong values. Verified
+// against d2r.world's en-US runewords page this session, item by item.
+// RUNEWORD_STAT_OVERRIDES fully replaces (not merges) a runeword's stats
+// list when present, since partial-merging against an 8-slot-capped source
+// is more error-prone than just specifying the complete, correct list.
+function rwStat(code, min, max, par) {
+  const resolvedCode = CODE_ALIASES[code] ?? code;
+  const isSkillRef = SKILL_REF_PROPS.has(resolvedCode);
+  const label = isSkillRef ? localizedLabelWithSkill(resolvedCode, par) : localizedLabelFor(resolvedCode);
+  const needsKeySuffix = (isSkillRef || KEY_ONLY_DISAMBIGUATE_PROPS.has(resolvedCode)) && par !== undefined;
+  const key = needsKeySuffix ? `${resolvedCode}:${par}` : resolvedCode;
+  return { key, label, min, max, isSkillRef };
+}
+// Verified complete, untruncated against d2r.world's en-US runewords page
+// this session (name-by-name, cross-checked against vendor's own partial
+// list to confirm every additional/corrected stat). Only runewords with a
+// fully visible stat block (no screenshot cutoff) are included here —
+// partially-captured ones are deliberately left on vendor data rather than
+// guessed at.
+const RUNEWORD_STAT_OVERRIDES = {
+  Bone: [
+    rwStat('gethit-skill', 15, 10, 'Bone Armor'),
+    rwStat('hit-skill', 15, 10, 'Bone Spear'),
+    rwStat('nec', 2, 2),
+    rwStat('mana', 100, 150),
+    rwStat('res-all', 30, 30),
+    rwStat('red-dmg', 7, 7),
+  ],
+  Bramble: [
+    rwStat('aura', 15, 21, 'Thorns'),
+    rwStat('balance2', 50, 50),
+    rwStat('extra-pois', 25, 50),
+    rwStat('ac', 300, 300),
+    rwStat('mana%', 5, 5),
+    rwStat('regen-mana', 15, 15),
+    rwStat('res-cold-max', 5, 5),
+    rwStat('res-fire', 30, 30),
+    rwStat('res-pois', 100, 100),
+    rwStat('heal-kill', 13, 13),
+    rwStat('charged', 33, 13, 'Spirit of Barbs'),
+  ],
+  Bulwark: [
+    rwStat('balance2', 20, 20),
+    rwStat('lifesteal', 4, 6),
+    rwStat('ac%', 75, 100),
+    rwStat('vit', 10, 10),
+    rwStat('hp%', 5, 5),
+    rwStat('regen', 30, 30),
+    rwStat('red-dmg', 7, 7),
+    rwStat('red-dmg%', 10, 15),
+  ],
+  'Chains of Honor': [
+    rwStat('allskills', 2, 2),
+    rwStat('dmg-demon', 200, 200),
+    rwStat('dmg-undead', 100, 100),
+    rwStat('lifesteal', 8, 8),
+    rwStat('ac%', 70, 70),
+    rwStat('str', 20, 20),
+    rwStat('regen', 7, 7),
+    rwStat('res-all', 65, 65),
+    rwStat('red-dmg%', 8, 8),
+    rwStat('mag%', 25, 25),
+  ],
+  Chaos: [
+    rwStat('hit-skill', 9, 11, 'Frozen Orb'),
+    rwStat('hit-skill', 11, 9, 'Charged Bolt'),
+    rwStat('swing2', 35, 35),
+    rwStat('dmg%', 290, 340),
+    rwStat('dmg-mag', 216, 471),
+    rwStat('openwounds', 25, 25),
+    rwStat('oskill', 1, 1, 'Whirlwind'),
+    rwStat('str', 10, 10),
+    rwStat('demon-heal', 15, 15),
+  ],
+  Cure: [
+    rwStat('aura', 1, 1, 'Cleansing'),
+    rwStat('balance2', 20, 20),
+    rwStat('ac%', 75, 100),
+    rwStat('vit', 10, 10),
+    rwStat('hp%', 5, 5),
+    rwStat('res-pois', 40, 60),
+    rwStat('res-pois-len', 50, 50),
+  ],
+};
+
 const runewordsFullOut = Object.entries(runesData)
   .filter(([, v]) => v.complete === 1)
   .map(([name, v]) => {
     const runeNames = v['*RunesUsed'].match(/[A-Z][a-z]+/g) ?? [];
-    const { variable, fixed } = extractProps(v, 7, { code: 'T1Code', par: 'T1Param', min: 'T1Min', max: 'T1Max' });
+    const vendorExtracted = extractProps(v, 8, { code: 'T1Code', par: 'T1Param', min: 'T1Min', max: 'T1Max' });
+    const override = RUNEWORD_STAT_OVERRIDES[name];
+    const { variable, fixed } = override
+      ? { variable: override.filter(s => s.min !== s.max), fixed: override.filter(s => s.min === s.max).map(s => ({ key: s.key, label: s.label, value: s.min, isSkillRef: s.isSkillRef })) }
+      : vendorExtracted;
     const curated = runewordsCurated.find(r => normalizeRunewordName(r.name) === normalizeRunewordName(name));
     return {
       id: `runeword-${v.Name}`,
