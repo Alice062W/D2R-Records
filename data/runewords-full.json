@@ -7321,13 +7321,43 @@
     "stats": [],
     "fixedStats": [
       {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "ease",
+        "label": {
+          "en": "Requirements %",
+          "zh-TW": "需求 %",
+          "zh-CN": "需求 %"
+        },
+        "value": -15,
+        "isSkillRef": false
+      },
+      {
         "key": "str",
         "label": {
           "en": "Strength",
           "zh-TW": "力量",
           "zh-CN": "力量"
         },
-        "value": 15,
+        "value": 25,
+        "isSkillRef": false
+      },
+      {
+        "key": "enr",
+        "label": {
+          "en": "Energy",
+          "zh-TW": "精力",
+          "zh-CN": "精力"
+        },
+        "value": 10,
         "isSkillRef": false
       },
       {
@@ -7348,16 +7378,6 @@
           "zh-CN": "敏捷"
         },
         "value": 15,
-        "isSkillRef": false
-      },
-      {
-        "key": "dmg%",
-        "label": {
-          "en": "Enhanced Damage %",
-          "zh-TW": "強化傷害 %",
-          "zh-CN": "强化伤害 %"
-        },
-        "value": 20,
         "isSkillRef": false
       },
       {
@@ -7414,16 +7434,6 @@
     "stats": [],
     "fixedStats": [
       {
-        "key": "enr",
-        "label": {
-          "en": "Energy",
-          "zh-TW": "精力",
-          "zh-CN": "精力"
-        },
-        "value": 10,
-        "isSkillRef": false
-      },
-      {
         "key": "allskills",
         "label": {
           "en": "All Skills",
@@ -7434,13 +7444,13 @@
         "isSkillRef": false
       },
       {
-        "key": "light",
+        "key": "enr",
         "label": {
-          "en": "Light Radius",
-          "zh-TW": "光環半徑",
-          "zh-CN": "光环半径"
+          "en": "Energy",
+          "zh-TW": "精力",
+          "zh-CN": "精力"
         },
-        "value": 2,
+        "value": 10,
         "isSkillRef": false
       },
       {
@@ -7449,6 +7459,36 @@
           "en": "Mana after Kill",
           "zh-TW": "擊殺後恢復魔力值",
           "zh-CN": "击杀后恢复魔力值"
+        },
+        "value": 2,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-ltng",
+        "label": {
+          "en": "Lightning Resist %",
+          "zh-TW": "閃電抗性 %",
+          "zh-CN": "闪电抗性 %"
+        },
+        "value": 30,
+        "isSkillRef": false
+      },
+      {
+        "key": "red-dmg",
+        "label": {
+          "en": "Damage Reduced",
+          "zh-TW": "減少傷害",
+          "zh-CN": "减少伤害"
+        },
+        "value": 7,
+        "isSkillRef": false
+      },
+      {
+        "key": "light",
+        "label": {
+          "en": "Light Radius",
+          "zh-TW": "光環半徑",
+          "zh-CN": "光环半径"
         },
         "value": 2,
         "isSkillRef": false
@@ -7493,6 +7533,26 @@
     "stats": [],
     "fixedStats": [
       {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "value": 33,
+        "isSkillRef": false
+      },
+      {
+        "key": "dmg-max",
+        "label": {
+          "en": "Maximum Damage",
+          "zh-TW": "最大傷害",
+          "zh-CN": "最大伤害"
+        },
+        "value": 9,
+        "isSkillRef": false
+      },
+      {
         "key": "openwounds",
         "label": {
           "en": "Open Wounds %",
@@ -7500,6 +7560,16 @@
           "zh-CN": "撕裂伤口 %"
         },
         "value": 100,
+        "isSkillRef": false
+      },
+      {
+        "key": "reduce-ac",
+        "label": {
+          "en": "Reduce Target Defense %",
+          "zh-TW": "降低目標防禦力 %",
+          "zh-CN": "降低目标防御力 %"
+        },
+        "value": 25,
         "isSkillRef": false
       },
       {
@@ -7523,23 +7593,13 @@
         "isSkillRef": false
       },
       {
-        "key": "dmg%",
+        "key": "att",
         "label": {
-          "en": "Enhanced Damage %",
-          "zh-TW": "強化傷害 %",
-          "zh-CN": "强化伤害 %"
+          "en": "Attack Rating",
+          "zh-TW": "攻擊等級",
+          "zh-CN": "攻击等级"
         },
-        "value": 33,
-        "isSkillRef": false
-      },
-      {
-        "key": "light",
-        "label": {
-          "en": "Light Radius",
-          "zh-TW": "光環半徑",
-          "zh-CN": "光环半径"
-        },
-        "value": -1,
+        "value": 50,
         "isSkillRef": false
       },
       {
@@ -7602,6 +7662,16 @@
         "isSkillRef": false
       },
       {
+        "key": "dmg-undead",
+        "label": {
+          "en": "Damage to Undead",
+          "zh-TW": "對不死系傷害",
+          "zh-CN": "对不死系伤害"
+        },
+        "value": 300,
+        "isSkillRef": false
+      },
+      {
         "key": "skilltab:0",
         "label": {
           "en": "Skill Tab Bonus",
@@ -7612,43 +7682,63 @@
         "isSkillRef": false
       },
       {
-        "key": "skill:9",
+        "key": "skill:Critical Strike",
         "label": {
           "en": "Skill Bonus (Critical Strike)",
-          "zh-TW": "技能加成 (致命攻擊)",
-          "zh-CN": "技能加成 (致命攻击)"
+          "zh-TW": "技能加成 (Critical Strike)",
+          "zh-CN": "技能加成 (Critical Strike)"
         },
         "value": 3,
         "isSkillRef": true
       },
       {
-        "key": "skill:13",
+        "key": "skill:Dodge",
         "label": {
           "en": "Skill Bonus (Dodge)",
-          "zh-TW": "技能加成 (閃避)",
-          "zh-CN": "技能加成 (闪避)"
+          "zh-TW": "技能加成 (Dodge)",
+          "zh-CN": "技能加成 (Dodge)"
         },
         "value": 3,
         "isSkillRef": true
       },
       {
-        "key": "skill:17",
+        "key": "skill:Slow Missiles",
         "label": {
           "en": "Skill Bonus (Slow Missiles)",
-          "zh-TW": "技能加成 (慢速箭)",
-          "zh-CN": "技能加成 (慢速箭)"
+          "zh-TW": "技能加成 (Slow Missiles)",
+          "zh-CN": "技能加成 (Slow Missiles)"
         },
         "value": 3,
         "isSkillRef": true
       },
       {
-        "key": "dmg-undead",
+        "key": "swing2",
         "label": {
-          "en": "Damage to Undead",
-          "zh-TW": "對不死系傷害",
-          "zh-CN": "对不死系伤害"
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
         },
-        "value": 300,
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "dex",
+        "label": {
+          "en": "Dexterity",
+          "zh-TW": "敏捷",
+          "zh-CN": "敏捷"
+        },
+        "value": 10,
+        "isSkillRef": false
+      },
+      {
+        "key": "knock",
+        "label": {
+          "en": "Knockback",
+          "zh-TW": "擊退",
+          "zh-CN": "击退"
+        },
+        "value": 1,
         "isSkillRef": false
       }
     ]
@@ -7697,6 +7787,26 @@
     "stats": [],
     "fixedStats": [
       {
+        "key": "sor",
+        "label": {
+          "en": "Sorceress Skill Levels",
+          "zh-TW": "女巫技能等級",
+          "zh-CN": "女巫技能等级"
+        },
+        "value": 3,
+        "isSkillRef": true
+      },
+      {
+        "key": "cast2",
+        "label": {
+          "en": "Faster Cast Rate",
+          "zh-TW": "加快施法速度",
+          "zh-CN": "加快施法速度"
+        },
+        "value": 33,
+        "isSkillRef": false
+      },
+      {
         "key": "mana%",
         "label": {
           "en": "Increase Maximum Mana %",
@@ -7704,6 +7814,66 @@
           "zh-CN": "增加最大魔力值 %"
         },
         "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "skill:Energy Shield",
+        "label": {
+          "en": "Skill Bonus (Energy Shield)",
+          "zh-TW": "技能加成 (Energy Shield)",
+          "zh-CN": "技能加成 (Energy Shield)"
+        },
+        "value": 3,
+        "isSkillRef": true
+      },
+      {
+        "key": "skill:Static Field",
+        "label": {
+          "en": "Skill Bonus (Static Field)",
+          "zh-TW": "技能加成 (Static Field)",
+          "zh-CN": "技能加成 (Static Field)"
+        },
+        "value": 2,
+        "isSkillRef": true
+      },
+      {
+        "key": "enr",
+        "label": {
+          "en": "Energy",
+          "zh-TW": "精力",
+          "zh-CN": "精力"
+        },
+        "value": 10,
+        "isSkillRef": false
+      },
+      {
+        "key": "vit",
+        "label": {
+          "en": "Vitality",
+          "zh-TW": "活力",
+          "zh-CN": "活力"
+        },
+        "value": 10,
+        "isSkillRef": false
+      },
+      {
+        "key": "dmg-min",
+        "label": {
+          "en": "Minimum Damage",
+          "zh-TW": "最小傷害",
+          "zh-CN": "最小伤害"
+        },
+        "value": 9,
+        "isSkillRef": false
+      },
+      {
+        "key": "reduce-ac",
+        "label": {
+          "en": "Reduce Target Defense %",
+          "zh-TW": "降低目標防禦力 %",
+          "zh-CN": "降低目标防御力 %"
+        },
+        "value": 25,
         "isSkillRef": false
       },
       {
@@ -7725,46 +7895,6 @@
         },
         "value": 50,
         "isSkillRef": false
-      },
-      {
-        "key": "cast2",
-        "label": {
-          "en": "Faster Cast Rate",
-          "zh-TW": "加快施法速度",
-          "zh-CN": "加快施法速度"
-        },
-        "value": 33,
-        "isSkillRef": false
-      },
-      {
-        "key": "sor",
-        "label": {
-          "en": "Sorceress Skill Levels",
-          "zh-TW": "女巫技能等級",
-          "zh-CN": "女巫技能等级"
-        },
-        "value": 3,
-        "isSkillRef": true
-      },
-      {
-        "key": "skill:58",
-        "label": {
-          "en": "Skill Bonus (Energy Shield)",
-          "zh-TW": "技能加成 (能量護盾)",
-          "zh-CN": "技能加成 (能量护盾)"
-        },
-        "value": 3,
-        "isSkillRef": true
-      },
-      {
-        "key": "skill:42",
-        "label": {
-          "en": "Skill Bonus (Static Field)",
-          "zh-TW": "技能加成 (靜態力場)",
-          "zh-CN": "技能加成 (静态力场)"
-        },
-        "value": 2,
-        "isSkillRef": true
       }
     ]
   },
