@@ -13101,6 +13101,26 @@
     "stats": [],
     "fixedStats": [
       {
+        "key": "howl",
+        "label": {
+          "en": "Hit Causes Monster to Flee %",
+          "zh-TW": "擊中使怪物逃跑 %",
+          "zh-CN": "击中使怪物逃跑 %"
+        },
+        "value": 25,
+        "isSkillRef": false
+      },
+      {
+        "key": "vit",
+        "label": {
+          "en": "Vitality",
+          "zh-TW": "活力",
+          "zh-CN": "活力"
+        },
+        "value": 10,
+        "isSkillRef": false
+      },
+      {
         "key": "skilltab:7",
         "label": {
           "en": "Skill Tab Bonus",
@@ -13109,6 +13129,36 @@
         },
         "value": 3,
         "isSkillRef": false
+      },
+      {
+        "key": "skill:Bone Armor",
+        "label": {
+          "en": "Skill Bonus (Bone Armor)",
+          "zh-TW": "技能加成 (Bone Armor)",
+          "zh-CN": "技能加成 (Bone Armor)"
+        },
+        "value": 3,
+        "isSkillRef": true
+      },
+      {
+        "key": "skill:Bone Spear",
+        "label": {
+          "en": "Skill Bonus (Bone Spear)",
+          "zh-TW": "技能加成 (Bone Spear)",
+          "zh-CN": "技能加成 (Bone Spear)"
+        },
+        "value": 2,
+        "isSkillRef": true
+      },
+      {
+        "key": "skill:Skeleton Mastery",
+        "label": {
+          "en": "Skill Bonus (Skeleton Mastery)",
+          "zh-TW": "技能加成 (Skeleton Mastery)",
+          "zh-CN": "技能加成 (Skeleton Mastery)"
+        },
+        "value": 4,
+        "isSkillRef": true
       },
       {
         "key": "red-mag",
@@ -13139,36 +13189,6 @@
         },
         "value": 13,
         "isSkillRef": false
-      },
-      {
-        "key": "skill:68",
-        "label": {
-          "en": "Skill Bonus (Bone Armor)",
-          "zh-TW": "技能加成 (白骨裝甲)",
-          "zh-CN": "技能加成 (白骨装甲)"
-        },
-        "value": 3,
-        "isSkillRef": true
-      },
-      {
-        "key": "skill:84",
-        "label": {
-          "en": "Skill Bonus (Bone Spear)",
-          "zh-TW": "技能加成 (骨矛)",
-          "zh-CN": "技能加成 (骨矛)"
-        },
-        "value": 2,
-        "isSkillRef": true
-      },
-      {
-        "key": "skill:69",
-        "label": {
-          "en": "Skill Bonus (Skeleton Mastery)",
-          "zh-TW": "技能加成 (支配骷髏)",
-          "zh-CN": "技能加成 (支配骷髅)"
-        },
-        "value": 4,
-        "isSkillRef": true
       }
     ]
   },
@@ -13203,17 +13223,6 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "dmg%",
-        "label": {
-          "en": "Enhanced Damage %",
-          "zh-TW": "強化傷害 %",
-          "zh-CN": "强化伤害 %"
-        },
-        "min": 120,
-        "max": 160,
-        "isSkillRef": false
-      },
-      {
         "key": "hit-skill:Tornado",
         "label": {
           "en": "Chance to Cast on Striking (Tornado)",
@@ -13225,7 +13234,18 @@
         "isSkillRef": true
       },
       {
-        "key": "charged:240",
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 120,
+        "max": 160,
+        "isSkillRef": false
+      },
+      {
+        "key": "charged:Twister",
         "label": {
           "en": "Charges (Twister)",
           "zh-TW": "充能次數 (Twister)",
@@ -13238,6 +13258,16 @@
     ],
     "fixedStats": [
       {
+        "key": "move2",
+        "label": {
+          "en": "Faster Run/Walk %",
+          "zh-TW": "加快跑走速度 %",
+          "zh-CN": "加快跑走速度 %"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
         "key": "swing2",
         "label": {
           "en": "Faster Attack Rate",
@@ -13248,13 +13278,13 @@
         "isSkillRef": false
       },
       {
-        "key": "move2",
+        "key": "balance2",
         "label": {
-          "en": "Faster Run/Walk %",
-          "zh-TW": "加快跑走速度 %",
-          "zh-CN": "加快跑走速度 %"
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
         },
-        "value": 20,
+        "value": 15,
         "isSkillRef": false
       },
       {
@@ -13268,13 +13298,33 @@
         "isSkillRef": false
       },
       {
-        "key": "balance2",
+        "key": "att",
         "label": {
-          "en": "Faster Hit Recovery",
-          "zh-TW": "加快恢復速度",
-          "zh-CN": "加快恢复速度"
+          "en": "Attack Rating",
+          "zh-TW": "攻擊等級",
+          "zh-CN": "攻击等级"
         },
-        "value": 15,
+        "value": 50,
+        "isSkillRef": false
+      },
+      {
+        "key": "stupidity",
+        "label": {
+          "en": "Hit Blinds Target",
+          "zh-TW": "擊中致盲目標",
+          "zh-CN": "击中致盲目标"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "light",
+        "label": {
+          "en": "Light Radius",
+          "zh-TW": "光環半徑",
+          "zh-CN": "光环半径"
+        },
+        "value": 1,
         "isSkillRef": false
       }
     ]
@@ -13316,17 +13366,6 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "manasteal",
-        "label": {
-          "en": "Mana Steal %",
-          "zh-TW": "魔力竊取 %",
-          "zh-CN": "魔力窃取 %"
-        },
-        "min": 4,
-        "max": 8,
-        "isSkillRef": false
-      },
-      {
         "key": "att%",
         "label": {
           "en": "Attack Rating %",
@@ -13335,6 +13374,17 @@
         },
         "min": 15,
         "max": 25,
+        "isSkillRef": false
+      },
+      {
+        "key": "manasteal",
+        "label": {
+          "en": "Mana Steal %",
+          "zh-TW": "魔力竊取 %",
+          "zh-CN": "魔力窃取 %"
+        },
+        "min": 4,
+        "max": 8,
         "isSkillRef": false
       }
     ],
@@ -13350,13 +13400,33 @@
         "isSkillRef": false
       },
       {
-        "key": "mana-kill",
+        "key": "ac%",
         "label": {
-          "en": "Mana after Kill",
-          "zh-TW": "擊殺後恢復魔力值",
-          "zh-CN": "击杀后恢复魔力值"
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
         },
-        "value": 5,
+        "value": 30,
+        "isSkillRef": false
+      },
+      {
+        "key": "enr",
+        "label": {
+          "en": "Energy",
+          "zh-TW": "精力",
+          "zh-CN": "精力"
+        },
+        "value": 10,
+        "isSkillRef": false
+      },
+      {
+        "key": "stamdrain",
+        "label": {
+          "en": "Slower Stamina Drain %",
+          "zh-TW": "減緩耐力消耗 %",
+          "zh-CN": "减缓耐力消耗 %"
+        },
+        "value": -15,
         "isSkillRef": false
       },
       {
@@ -13370,13 +13440,23 @@
         "isSkillRef": false
       },
       {
-        "key": "enr",
+        "key": "mana-kill",
         "label": {
-          "en": "Energy",
-          "zh-TW": "精力",
-          "zh-CN": "精力"
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
         },
-        "value": 10,
+        "value": 5,
+        "isSkillRef": false
+      },
+      {
+        "key": "dmg-to-mana",
+        "label": {
+          "en": "Damage Taken Goes to Mana",
+          "zh-TW": "承受傷害轉換為魔力",
+          "zh-CN": "承受伤害转换为魔力"
+        },
+        "value": 15,
         "isSkillRef": false
       }
     ]
@@ -13424,6 +13504,28 @@
     "ladderOnly": true,
     "stats": [
       {
+        "key": "hit-skill:Decrepify",
+        "label": {
+          "en": "Chance to Cast on Striking (Decrepify)",
+          "zh-TW": "攻擊時觸發機率 (Decrepify)",
+          "zh-CN": "攻击时触发机率 (Decrepify)"
+        },
+        "min": 30,
+        "max": 1,
+        "isSkillRef": true
+      },
+      {
+        "key": "hit-skill:Life Tap",
+        "label": {
+          "en": "Chance to Cast on Striking (Life Tap)",
+          "zh-TW": "攻擊時觸發機率 (Life Tap)",
+          "zh-CN": "攻击时触发机率 (Life Tap)"
+        },
+        "min": 5,
+        "max": 10,
+        "isSkillRef": true
+      },
+      {
         "key": "dmg-undead",
         "label": {
           "en": "Damage to Undead",
@@ -13432,17 +13534,6 @@
         },
         "min": 250,
         "max": 300,
-        "isSkillRef": false
-      },
-      {
-        "key": "dmg-ltng",
-        "label": {
-          "en": "Lightning Damage",
-          "zh-TW": "閃電傷害",
-          "zh-CN": "闪电伤害"
-        },
-        "min": 41,
-        "max": 240,
         "isSkillRef": false
       },
       {
@@ -13457,26 +13548,15 @@
         "isSkillRef": false
       },
       {
-        "key": "hit-skill:Life Tap",
+        "key": "dmg-ltng",
         "label": {
-          "en": "Chance to Cast on Striking (Life Tap)",
-          "zh-TW": "攻擊時觸發機率 (Life Tap)",
-          "zh-CN": "攻击时触发机率 (Life Tap)"
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
         },
-        "min": 5,
-        "max": 10,
-        "isSkillRef": true
-      },
-      {
-        "key": "hit-skill:Decrepify",
-        "label": {
-          "en": "Chance to Cast on Striking (Decrepify)",
-          "zh-TW": "攻擊時觸發機率 (Decrepify)",
-          "zh-CN": "攻击时触发机率 (Decrepify)"
-        },
-        "min": 30,
-        "max": 1,
-        "isSkillRef": true
+        "min": 41,
+        "max": 240,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
@@ -13488,6 +13568,46 @@
           "zh-CN": "对恶魔伤害"
         },
         "value": 300,
+        "isSkillRef": false
+      },
+      {
+        "key": "att-demon",
+        "label": {
+          "en": "Attack Rating vs. Demons",
+          "zh-TW": "對惡魔攻擊等級",
+          "zh-CN": "对恶魔攻击等级"
+        },
+        "value": 100,
+        "isSkillRef": false
+      },
+      {
+        "key": "crush",
+        "label": {
+          "en": "Crushing Blow %",
+          "zh-TW": "破碎打擊 %",
+          "zh-CN": "破碎打击 %"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "noheal",
+        "label": {
+          "en": "Prevent Monster Heal",
+          "zh-TW": "防止怪物治療",
+          "zh-CN": "防止怪物治疗"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "enr",
+        "label": {
+          "en": "Energy",
+          "zh-TW": "精力",
+          "zh-CN": "精力"
+        },
+        "value": 10,
         "isSkillRef": false
       },
       {
@@ -13533,7 +13653,18 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "gethit-skill:240",
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "min": 1,
+        "max": 50,
+        "isSkillRef": false
+      },
+      {
+        "key": "gethit-skill:Twister",
         "label": {
           "en": "Chance to Cast When Struck (Twister)",
           "zh-TW": "受擊時觸發機率 (Twister)",
@@ -13545,26 +13676,6 @@
       }
     ],
     "fixedStats": [
-      {
-        "key": "move2",
-        "label": {
-          "en": "Faster Run/Walk %",
-          "zh-TW": "加快跑走速度 %",
-          "zh-CN": "加快跑走速度 %"
-        },
-        "value": 25,
-        "isSkillRef": false
-      },
-      {
-        "key": "swing2",
-        "label": {
-          "en": "Faster Attack Rate",
-          "zh-TW": "加快攻擊速度",
-          "zh-CN": "加快攻击速度"
-        },
-        "value": 25,
-        "isSkillRef": false
-      },
       {
         "key": "dmg%",
         "label": {
@@ -13586,11 +13697,41 @@
         "isSkillRef": false
       },
       {
+        "key": "reduce-ac",
+        "label": {
+          "en": "Reduce Target Defense %",
+          "zh-TW": "降低目標防禦力 %",
+          "zh-CN": "降低目标防御力 %"
+        },
+        "value": 25,
+        "isSkillRef": false
+      },
+      {
         "key": "ac",
         "label": {
           "en": "Defense",
           "zh-TW": "防禦力",
           "zh-CN": "防御力"
+        },
+        "value": 25,
+        "isSkillRef": false
+      },
+      {
+        "key": "move2",
+        "label": {
+          "en": "Faster Run/Walk %",
+          "zh-TW": "加快跑走速度 %",
+          "zh-CN": "加快跑走速度 %"
+        },
+        "value": 25,
+        "isSkillRef": false
+      },
+      {
+        "key": "swing2",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
         },
         "value": 25,
         "isSkillRef": false
