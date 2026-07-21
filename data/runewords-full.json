@@ -692,6 +692,28 @@
     "ladderOnly": true,
     "stats": [
       {
+        "key": "gethit-skill:Amplify Damage",
+        "label": {
+          "en": "Chance to Cast When Struck (Amplify Damage)",
+          "zh-TW": "受擊時觸發機率 (Amplify Damage)",
+          "zh-CN": "受击时触发机率 (Amplify Damage)"
+        },
+        "min": 35,
+        "max": 14,
+        "isSkillRef": true
+      },
+      {
+        "key": "hit-skill:Bone Spear",
+        "label": {
+          "en": "Chance to Cast on Striking (Bone Spear)",
+          "zh-TW": "攻擊時觸發機率 (Bone Spear)",
+          "zh-CN": "攻击时触发机率 (Bone Spear)"
+        },
+        "min": 100,
+        "max": 18,
+        "isSkillRef": true
+      },
+      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -712,39 +734,37 @@
         "min": 280,
         "max": 330,
         "isSkillRef": false
-      },
-      {
-        "key": "hit-skill:Bone Spear",
-        "label": {
-          "en": "Chance to Cast on Striking (Bone Spear)",
-          "zh-TW": "攻擊時觸發機率 (Bone Spear)",
-          "zh-CN": "攻击时触发机率 (Bone Spear)"
-        },
-        "min": 100,
-        "max": 18,
-        "isSkillRef": true
-      },
-      {
-        "key": "gethit-skill:Amplify Damage",
-        "label": {
-          "en": "Chance to Cast When Struck (Amplify Damage)",
-          "zh-TW": "受擊時觸發機率 (Amplify Damage)",
-          "zh-CN": "受击时触发机率 (Amplify Damage)"
-        },
-        "min": 35,
-        "max": 14,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
       {
-        "key": "knock",
+        "key": "ignore-ac",
         "label": {
-          "en": "Knockback",
-          "zh-TW": "擊退",
-          "zh-CN": "击退"
+          "en": "Ignore Target Defense",
+          "zh-TW": "無視目標防禦力",
+          "zh-CN": "无视目标防御力"
         },
         "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "att%",
+        "label": {
+          "en": "Attack Rating %",
+          "zh-TW": "攻擊等級 %",
+          "zh-CN": "攻击等级 %"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "deadly",
+        "label": {
+          "en": "Deadly Strike %",
+          "zh-TW": "致命一擊 %",
+          "zh-CN": "致命一击 %"
+        },
+        "value": 20,
         "isSkillRef": false
       },
       {
@@ -753,6 +773,16 @@
           "en": "Prevent Monster Heal",
           "zh-TW": "防止怪物治療",
           "zh-CN": "防止怪物治疗"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "knock",
+        "label": {
+          "en": "Knockback",
+          "zh-TW": "擊退",
+          "zh-CN": "击退"
         },
         "value": 1,
         "isSkillRef": false
@@ -824,17 +854,6 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "lifesteal",
-        "label": {
-          "en": "Life Steal %",
-          "zh-TW": "生命竊取 %",
-          "zh-CN": "生命窃取 %"
-        },
-        "min": 12,
-        "max": 15,
-        "isSkillRef": false
-      },
-      {
         "key": "kill-skill:Poison Nova",
         "label": {
           "en": "Chance to Cast on Kill % (Poison Nova)",
@@ -855,9 +874,30 @@
         "min": 350,
         "max": 400,
         "isSkillRef": false
+      },
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "min": 12,
+        "max": 15,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
+      {
+        "key": "indestruct",
+        "label": {
+          "en": "Indestructible",
+          "zh-TW": "不可破壞",
+          "zh-CN": "不可破坏"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
       {
         "key": "swing2",
         "label": {
@@ -875,7 +915,47 @@
           "zh-TW": "對不死系傷害",
           "zh-CN": "对不死系伤害"
         },
-        "value": 125,
+        "value": 200,
+        "isSkillRef": false
+      },
+      {
+        "key": "reduce-ac",
+        "label": {
+          "en": "Reduce Target Defense %",
+          "zh-TW": "降低目標防禦力 %",
+          "zh-CN": "降低目标防御力 %"
+        },
+        "value": 25,
+        "isSkillRef": false
+      },
+      {
+        "key": "att",
+        "label": {
+          "en": "Attack Rating",
+          "zh-TW": "攻擊等級",
+          "zh-CN": "攻击等级"
+        },
+        "value": 50,
+        "isSkillRef": false
+      },
+      {
+        "key": "att-und",
+        "label": {
+          "en": "Attack Rating vs. Undead %",
+          "zh-TW": "對不死系攻擊等級 %",
+          "zh-CN": "对不死系攻击等级 %"
+        },
+        "value": 50,
+        "isSkillRef": false
+      },
+      {
+        "key": "manasteal",
+        "label": {
+          "en": "Mana Steal %",
+          "zh-TW": "魔力竊取 %",
+          "zh-CN": "魔力窃取 %"
+        },
+        "value": 7,
         "isSkillRef": false
       },
       {
@@ -896,6 +976,26 @@
           "zh-CN": "全部属性"
         },
         "value": 30,
+        "isSkillRef": false
+      },
+      {
+        "key": "light",
+        "label": {
+          "en": "Light Radius",
+          "zh-TW": "光環半徑",
+          "zh-CN": "光环半径"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "ease",
+        "label": {
+          "en": "Requirements %",
+          "zh-TW": "需求 %",
+          "zh-CN": "需求 %"
+        },
+        "value": -20,
         "isSkillRef": false
       }
     ]
@@ -1078,8 +1178,19 @@
           "zh-TW": "強化傷害 %",
           "zh-CN": "强化伤害 %"
         },
-        "min": 200,
-        "max": 240,
+        "min": 250,
+        "max": 290,
+        "isSkillRef": false
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "min": 5,
+        "max": 30,
         "isSkillRef": false
       },
       {
@@ -1118,6 +1229,16 @@
     ],
     "fixedStats": [
       {
+        "key": "allskills",
+        "label": {
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
         "key": "swing2",
         "label": {
           "en": "Faster Attack Rate",
@@ -1128,11 +1249,21 @@
         "isSkillRef": false
       },
       {
-        "key": "allskills",
+        "key": "lifesteal",
         "label": {
-          "en": "All Skills",
-          "zh-TW": "全部技能",
-          "zh-CN": "全部技能"
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "value": 7,
+        "isSkillRef": false
+      },
+      {
+        "key": "noheal",
+        "label": {
+          "en": "Prevent Monster Heal",
+          "zh-TW": "防止怪物治療",
+          "zh-CN": "防止怪物治疗"
         },
         "value": 1,
         "isSkillRef": false
@@ -1145,6 +1276,16 @@
           "zh-CN": "生命回复 %"
         },
         "value": 12,
+        "isSkillRef": false
+      },
+      {
+        "key": "mag%",
+        "label": {
+          "en": "Magic Find %",
+          "zh-TW": "額外魔法物品尋獲率 %",
+          "zh-CN": "额外魔法物品寻获率 %"
+        },
+        "value": 30,
         "isSkillRef": false
       }
     ]
@@ -1465,11 +1606,11 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "gethit-skill:Sigil Lethargy",
+        "key": "gethit-skill:Sigil: Lethargy",
         "label": {
-          "en": "Chance to Cast When Struck (Sigil Lethargy)",
-          "zh-TW": "受擊時觸發機率 (Sigil Lethargy)",
-          "zh-CN": "受击时触发机率 (Sigil Lethargy)"
+          "en": "Chance to Cast When Struck (Sigil: Lethargy)",
+          "zh-TW": "受擊時觸發機率 (Sigil: Lethargy)",
+          "zh-CN": "受击时触发机率 (Sigil: Lethargy)"
         },
         "min": 5,
         "max": 10,
@@ -1487,17 +1628,6 @@
         "isSkillRef": false
       },
       {
-        "key": "mag%",
-        "label": {
-          "en": "Magic Find %",
-          "zh-TW": "額外魔法物品尋獲率 %",
-          "zh-CN": "额外魔法物品寻获率 %"
-        },
-        "min": 1,
-        "max": 15,
-        "isSkillRef": false
-      },
-      {
         "key": "heal-kill",
         "label": {
           "en": "Life after each Kill",
@@ -1506,6 +1636,17 @@
         },
         "min": 1,
         "max": 5,
+        "isSkillRef": false
+      },
+      {
+        "key": "mag%",
+        "label": {
+          "en": "Magic Find %",
+          "zh-TW": "額外魔法物品尋獲率 %",
+          "zh-CN": "额外魔法物品寻获率 %"
+        },
+        "min": 26,
+        "max": 40,
         "isSkillRef": false
       }
     ],
@@ -1528,6 +1669,26 @@
           "zh-CN": "加快施法速度"
         },
         "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-fire",
+        "label": {
+          "en": "Fire Resist %",
+          "zh-TW": "火焰抗性 %",
+          "zh-CN": "火焰抗性 %"
+        },
+        "value": 30,
+        "isSkillRef": false
+      },
+      {
+        "key": "vit",
+        "label": {
+          "en": "Vitality",
+          "zh-TW": "活力",
+          "zh-CN": "活力"
+        },
+        "value": 10,
         "isSkillRef": false
       }
     ]
@@ -1643,6 +1804,36 @@
           "zh-CN": "无视目标防御力"
         },
         "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "swing3",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "openwounds",
+        "label": {
+          "en": "Open Wounds %",
+          "zh-TW": "撕裂傷口 %",
+          "zh-CN": "撕裂伤口 %"
+        },
+        "value": 25,
+        "isSkillRef": false
+      },
+      {
+        "key": "mana-kill",
+        "label": {
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
+        },
+        "value": 2,
         "isSkillRef": false
       }
     ]
@@ -1808,25 +1999,14 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "dmg%",
+        "key": "death-skill:Chain Lightning",
         "label": {
-          "en": "Enhanced Damage %",
-          "zh-TW": "強化傷害 %",
-          "zh-CN": "强化伤害 %"
+          "en": "Chance to Cast on Death % (Chain Lightning)",
+          "zh-TW": "死亡時觸發機率 % (Chain Lightning)",
+          "zh-CN": "死亡时触发机率 % (Chain Lightning)"
         },
-        "min": 300,
-        "max": 385,
-        "isSkillRef": false
-      },
-      {
-        "key": "charged:BloodGolem",
-        "label": {
-          "en": "Charges (BloodGolem)",
-          "zh-TW": "充能次數 (血石魔)",
-          "zh-CN": "充能次数 (血石魔)"
-        },
-        "min": 15,
-        "max": 22,
+        "min": 100,
+        "max": 44,
         "isSkillRef": true
       },
       {
@@ -1841,26 +2021,78 @@
         "isSkillRef": true
       },
       {
-        "key": "death-skill:Chain Lightning",
+        "key": "dmg%",
         "label": {
-          "en": "Chance to Cast on Death % (Chain Lightning)",
-          "zh-TW": "死亡時觸發機率 % (Chain Lightning)",
-          "zh-CN": "死亡时触发机率 % (Chain Lightning)"
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
         },
-        "min": 100,
-        "max": 44,
+        "min": 300,
+        "max": 385,
+        "isSkillRef": false
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "min": 1,
+        "max": 50,
+        "isSkillRef": false
+      },
+      {
+        "key": "charged:Blood Golem",
+        "label": {
+          "en": "Charges (Blood Golem)",
+          "zh-TW": "充能次數 (Blood Golem)",
+          "zh-CN": "充能次数 (Blood Golem)"
+        },
+        "min": 15,
+        "max": 22,
         "isSkillRef": true
       }
     ],
     "fixedStats": [
       {
-        "key": "deadly/lvl",
+        "key": "indestruct",
         "label": {
-          "en": "Deadly Strike % (Based on Character Level)",
-          "zh-TW": "致命一擊 %（依角色等級）",
-          "zh-CN": "致命一击 %（依角色等级）"
+          "en": "Indestructible",
+          "zh-TW": "不可破壞",
+          "zh-CN": "不可破坏"
         },
-        "value": 4,
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "att%",
+        "label": {
+          "en": "Attack Rating %",
+          "zh-TW": "攻擊等級 %",
+          "zh-CN": "攻击等级 %"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "att",
+        "label": {
+          "en": "Attack Rating",
+          "zh-TW": "攻擊等級",
+          "zh-CN": "攻击等级"
+        },
+        "value": 50,
+        "isSkillRef": false
+      },
+      {
+        "key": "manasteal",
+        "label": {
+          "en": "Mana Steal %",
+          "zh-TW": "魔力竊取 %",
+          "zh-CN": "魔力窃取 %"
+        },
+        "value": 7,
         "isSkillRef": false
       },
       {
@@ -1874,13 +2106,33 @@
         "isSkillRef": false
       },
       {
-        "key": "indestruct",
+        "key": "deadly/lvl",
         "label": {
-          "en": "Indestructible",
-          "zh-TW": "不可破壞",
-          "zh-CN": "不可破坏"
+          "en": "Deadly Strike % (Based on Character Level)",
+          "zh-TW": "致命一擊 %（依角色等級）",
+          "zh-CN": "致命一击 %（依角色等级）"
+        },
+        "value": 4,
+        "isSkillRef": false
+      },
+      {
+        "key": "light",
+        "label": {
+          "en": "Light Radius",
+          "zh-TW": "光環半徑",
+          "zh-CN": "光环半径"
         },
         "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "ease",
+        "label": {
+          "en": "Requirements %",
+          "zh-TW": "需求 %",
+          "zh-CN": "需求 %"
+        },
+        "value": -20,
         "isSkillRef": false
       }
     ]
@@ -1922,6 +2174,39 @@
     "ladderOnly": false,
     "stats": [
       {
+        "key": "gethit-skill:Delirium",
+        "label": {
+          "en": "Chance to Cast When Struck (Delirium)",
+          "zh-TW": "受擊時觸發機率 (Delirium)",
+          "zh-CN": "受击时触发机率 (Delirium)"
+        },
+        "min": 1,
+        "max": 50,
+        "isSkillRef": true
+      },
+      {
+        "key": "gethit-skill:Mind Blast",
+        "label": {
+          "en": "Chance to Cast When Struck (Mind Blast)",
+          "zh-TW": "受擊時觸發機率 (Mind Blast)",
+          "zh-CN": "受击时触发机率 (Mind Blast)"
+        },
+        "min": 6,
+        "max": 14,
+        "isSkillRef": true
+      },
+      {
+        "key": "gethit-skill:Terror",
+        "label": {
+          "en": "Chance to Cast When Struck (Terror)",
+          "zh-TW": "受擊時觸發機率 (Terror)",
+          "zh-CN": "受击时触发机率 (Terror)"
+        },
+        "min": 14,
+        "max": 13,
+        "isSkillRef": true
+      },
+      {
         "key": "hit-skill:Confuse",
         "label": {
           "en": "Chance to Cast on Striking (Confuse)",
@@ -1942,42 +2227,19 @@
         "min": 60,
         "max": 17,
         "isSkillRef": true
-      },
-      {
-        "key": "gethit-skill:Terror",
-        "label": {
-          "en": "Chance to Cast When Struck (Terror)",
-          "zh-TW": "受擊時觸發機率 (Terror)",
-          "zh-CN": "受击时触发机率 (Terror)"
-        },
-        "min": 14,
-        "max": 13,
-        "isSkillRef": true
-      },
-      {
-        "key": "gethit-skill:Mind Blast",
-        "label": {
-          "en": "Chance to Cast When Struck (Mind Blast)",
-          "zh-TW": "受擊時觸發機率 (Mind Blast)",
-          "zh-CN": "受击时触发机率 (Mind Blast)"
-        },
-        "min": 6,
-        "max": 14,
-        "isSkillRef": true
-      },
-      {
-        "key": "gethit-skill:Delerium Change",
-        "label": {
-          "en": "Chance to Cast When Struck (Delerium Change)",
-          "zh-TW": "受擊時觸發機率 (Delerium Change)",
-          "zh-CN": "受击时触发机率 (Delerium Change)"
-        },
-        "min": 1,
-        "max": 50,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
+      {
+        "key": "allskills",
+        "label": {
+          "en": "All Skills",
+          "zh-TW": "全部技能",
+          "zh-CN": "全部技能"
+        },
+        "value": 2,
+        "isSkillRef": false
+      },
       {
         "key": "ac",
         "label": {
@@ -1989,13 +2251,33 @@
         "isSkillRef": false
       },
       {
-        "key": "allskills",
+        "key": "vit",
         "label": {
-          "en": "All Skills",
-          "zh-TW": "全部技能",
-          "zh-CN": "全部技能"
+          "en": "Vitality",
+          "zh-TW": "活力",
+          "zh-CN": "活力"
         },
-        "value": 2,
+        "value": 10,
+        "isSkillRef": false
+      },
+      {
+        "key": "gold%",
+        "label": {
+          "en": "Gold Find %",
+          "zh-TW": "額外金幣拾取率 %",
+          "zh-CN": "额外金币拾取率 %"
+        },
+        "value": 50,
+        "isSkillRef": false
+      },
+      {
+        "key": "mag%",
+        "label": {
+          "en": "Magic Find %",
+          "zh-TW": "額外魔法物品尋獲率 %",
+          "zh-CN": "额外魔法物品寻获率 %"
+        },
+        "value": 25,
         "isSkillRef": false
       }
     ]
@@ -2124,6 +2406,56 @@
         },
         "value": 1,
         "isSkillRef": false
+      },
+      {
+        "key": "ignore-ac",
+        "label": {
+          "en": "Ignore Target Defense",
+          "zh-TW": "無視目標防禦力",
+          "zh-CN": "无视目标防御力"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "manasteal",
+        "label": {
+          "en": "Mana Steal %",
+          "zh-TW": "魔力竊取 %",
+          "zh-CN": "魔力窃取 %"
+        },
+        "value": 7,
+        "isSkillRef": false
+      },
+      {
+        "key": "crush",
+        "label": {
+          "en": "Crushing Blow %",
+          "zh-TW": "破碎打擊 %",
+          "zh-CN": "破碎打击 %"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "deadly",
+        "label": {
+          "en": "Deadly Strike %",
+          "zh-TW": "致命一擊 %",
+          "zh-CN": "致命一击 %"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "dex",
+        "label": {
+          "en": "Dexterity",
+          "zh-TW": "敏捷",
+          "zh-CN": "敏捷"
+        },
+        "value": 10,
+        "isSkillRef": false
       }
     ]
   },
@@ -2182,8 +2514,8 @@
           "zh-TW": "強化傷害 %",
           "zh-CN": "强化伤害 %"
         },
-        "min": 280,
-        "max": 320,
+        "min": 330,
+        "max": 370,
         "isSkillRef": false
       },
       {
@@ -2248,6 +2580,46 @@
           "zh-CN": "全部技能"
         },
         "value": 2,
+        "isSkillRef": false
+      },
+      {
+        "key": "deadly",
+        "label": {
+          "en": "Deadly Strike %",
+          "zh-TW": "致命一擊 %",
+          "zh-CN": "致命一击 %"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "openwounds",
+        "label": {
+          "en": "Open Wounds %",
+          "zh-TW": "撕裂傷口 %",
+          "zh-CN": "撕裂伤口 %"
+        },
+        "value": 25,
+        "isSkillRef": false
+      },
+      {
+        "key": "freeze",
+        "label": {
+          "en": "Hit Freezes Target",
+          "zh-TW": "擊中冰凍目標",
+          "zh-CN": "击中冰冻目标"
+        },
+        "value": 3,
+        "isSkillRef": false
+      },
+      {
+        "key": "ease",
+        "label": {
+          "en": "Requirements %",
+          "zh-TW": "需求 %",
+          "zh-CN": "需求 %"
+        },
+        "value": -20,
         "isSkillRef": false
       }
     ]
