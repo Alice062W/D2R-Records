@@ -9844,9 +9844,9 @@
       {
         "key": "att-demon",
         "label": {
-          "en": "Attack Rating vs. Demons %",
-          "zh-TW": "對惡魔攻擊等級 %",
-          "zh-CN": "对恶魔攻击等级 %"
+          "en": "Attack Rating vs. Demons",
+          "zh-TW": "對惡魔攻擊等級",
+          "zh-CN": "对恶魔攻击等级"
         },
         "min": 25,
         "max": 50,
@@ -9903,9 +9903,9 @@
       {
         "key": "att-demon",
         "label": {
-          "en": "Attack Rating vs. Demons %",
-          "zh-TW": "對惡魔攻擊等級 %",
-          "zh-CN": "对恶魔攻击等级 %"
+          "en": "Attack Rating vs. Demons",
+          "zh-TW": "對惡魔攻擊等級",
+          "zh-CN": "对恶魔攻击等级"
         },
         "min": 51,
         "max": 100,
@@ -9961,9 +9961,9 @@
       {
         "key": "att-demon",
         "label": {
-          "en": "Attack Rating vs. Demons %",
-          "zh-TW": "對惡魔攻擊等級 %",
-          "zh-CN": "对恶魔攻击等级 %"
+          "en": "Attack Rating vs. Demons",
+          "zh-TW": "對惡魔攻擊等級",
+          "zh-CN": "对恶魔攻击等级"
         },
         "min": 101,
         "max": 150,
@@ -10019,9 +10019,9 @@
       {
         "key": "att-demon",
         "label": {
-          "en": "Attack Rating vs. Demons %",
-          "zh-TW": "對惡魔攻擊等級 %",
-          "zh-CN": "对恶魔攻击等级 %"
+          "en": "Attack Rating vs. Demons",
+          "zh-TW": "對惡魔攻擊等級",
+          "zh-CN": "对恶魔攻击等级"
         },
         "min": 151,
         "max": 200,
@@ -10077,9 +10077,9 @@
       {
         "key": "att-demon",
         "label": {
-          "en": "Attack Rating vs. Demons %",
-          "zh-TW": "對惡魔攻擊等級 %",
-          "zh-CN": "对恶魔攻击等级 %"
+          "en": "Attack Rating vs. Demons",
+          "zh-TW": "對惡魔攻擊等級",
+          "zh-CN": "对恶魔攻击等级"
         },
         "min": 201,
         "max": 300,
@@ -10135,9 +10135,9 @@
       {
         "key": "att-demon",
         "label": {
-          "en": "Attack Rating vs. Demons %",
-          "zh-TW": "對惡魔攻擊等級 %",
-          "zh-CN": "对恶魔攻击等级 %"
+          "en": "Attack Rating vs. Demons",
+          "zh-TW": "對惡魔攻擊等級",
+          "zh-CN": "对恶魔攻击等级"
         },
         "min": 301,
         "max": 400,
@@ -10173,9 +10173,9 @@
       {
         "key": "att-demon",
         "label": {
-          "en": "Attack Rating vs. Demons %",
-          "zh-TW": "對惡魔攻擊等級 %",
-          "zh-CN": "对恶魔攻击等级 %"
+          "en": "Attack Rating vs. Demons",
+          "zh-TW": "對惡魔攻擊等級",
+          "zh-CN": "对恶魔攻击等级"
         },
         "min": 25,
         "max": 50,
@@ -16166,9 +16166,9 @@
       {
         "key": "att-undead",
         "label": {
-          "en": "Attack Rating vs. Undead %",
-          "zh-TW": "對不死系攻擊等級 %",
-          "zh-CN": "对不死系攻击等级 %"
+          "en": "Attack Rating vs. Undead",
+          "zh-TW": "對不死系攻擊等級",
+          "zh-CN": "对不死系攻击等级"
         },
         "min": 25,
         "max": 75,
@@ -16224,9 +16224,9 @@
       {
         "key": "att-undead",
         "label": {
-          "en": "Attack Rating vs. Undead %",
-          "zh-TW": "對不死系攻擊等級 %",
-          "zh-CN": "对不死系攻击等级 %"
+          "en": "Attack Rating vs. Undead",
+          "zh-TW": "對不死系攻擊等級",
+          "zh-CN": "对不死系攻击等级"
         },
         "min": 76,
         "max": 175,
@@ -16282,9 +16282,9 @@
       {
         "key": "att-undead",
         "label": {
-          "en": "Attack Rating vs. Undead %",
-          "zh-TW": "對不死系攻擊等級 %",
-          "zh-CN": "对不死系攻击等级 %"
+          "en": "Attack Rating vs. Undead",
+          "zh-TW": "對不死系攻擊等級",
+          "zh-CN": "对不死系攻击等级"
         },
         "min": 175,
         "max": 250,
@@ -16340,9 +16340,9 @@
       {
         "key": "att-undead",
         "label": {
-          "en": "Attack Rating vs. Undead %",
-          "zh-TW": "對不死系攻擊等級 %",
-          "zh-CN": "对不死系攻击等级 %"
+          "en": "Attack Rating vs. Undead",
+          "zh-TW": "對不死系攻擊等級",
+          "zh-CN": "对不死系攻击等级"
         },
         "min": 251,
         "max": 325,
@@ -16398,9 +16398,9 @@
       {
         "key": "att-undead",
         "label": {
-          "en": "Attack Rating vs. Undead %",
-          "zh-TW": "對不死系攻擊等級 %",
-          "zh-CN": "对不死系攻击等级 %"
+          "en": "Attack Rating vs. Undead",
+          "zh-TW": "對不死系攻擊等級",
+          "zh-CN": "对不死系攻击等级"
         },
         "min": 326,
         "max": 450,
@@ -16436,9 +16436,9 @@
       {
         "key": "att-undead",
         "label": {
-          "en": "Attack Rating vs. Undead %",
-          "zh-TW": "對不死系攻擊等級 %",
-          "zh-CN": "对不死系攻击等级 %"
+          "en": "Attack Rating vs. Undead",
+          "zh-TW": "對不死系攻擊等級",
+          "zh-CN": "对不死系攻击等级"
         },
         "min": 25,
         "max": 50,
@@ -26188,9 +26188,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "min": 3,
         "max": 5,
@@ -26219,9 +26219,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "min": 3,
         "max": 5,
@@ -26268,9 +26268,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "min": 3,
         "max": 5,
@@ -26297,9 +26297,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "min": 6,
         "max": 10,
@@ -26325,9 +26325,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "min": 6,
         "max": 9,
@@ -26354,9 +26354,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "min": 11,
         "max": 15,
@@ -26381,9 +26381,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "min": 1,
         "max": 4,
@@ -40345,9 +40345,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "min": 2,
         "max": 2,

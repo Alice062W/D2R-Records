@@ -601,9 +601,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "value": 6,
         "isSkillRef": false
@@ -1072,9 +1072,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "value": 4,
         "isSkillRef": false
@@ -2584,9 +2584,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "value": 4,
         "isSkillRef": false
@@ -5337,9 +5337,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "value": 20,
         "isSkillRef": false
@@ -7504,9 +7504,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "value": 10,
         "isSkillRef": false
@@ -9334,9 +9334,9 @@
       {
         "key": "att-demon",
         "label": {
-          "en": "Attack Rating vs. Demons %",
-          "zh-TW": "對惡魔攻擊等級 %",
-          "zh-CN": "对恶魔攻击等级 %"
+          "en": "Attack Rating vs. Demons",
+          "zh-TW": "對惡魔攻擊等級",
+          "zh-CN": "对恶魔攻击等级"
         },
         "value": 300,
         "isSkillRef": false
@@ -11125,9 +11125,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "value": 5,
         "isSkillRef": false
@@ -11259,9 +11259,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "value": 5,
         "isSkillRef": false
@@ -11513,9 +11513,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "min": 15,
         "max": 15,

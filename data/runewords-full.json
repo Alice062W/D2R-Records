@@ -941,9 +941,9 @@
       {
         "key": "att-und",
         "label": {
-          "en": "Attack Rating vs. Undead %",
-          "zh-TW": "對不死系攻擊等級 %",
-          "zh-CN": "对不死系攻击等级 %"
+          "en": "Attack Rating vs. Undead",
+          "zh-TW": "對不死系攻擊等級",
+          "zh-CN": "对不死系攻击等级"
         },
         "value": 50,
         "isSkillRef": false
@@ -1104,9 +1104,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "value": 30,
         "isSkillRef": false
@@ -1271,9 +1271,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "value": 12,
         "isSkillRef": false
@@ -1396,9 +1396,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "value": 7,
         "isSkillRef": false
@@ -3575,9 +3575,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "value": 16,
         "isSkillRef": false
@@ -3794,9 +3794,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "value": 7,
         "isSkillRef": false
@@ -3952,9 +3952,9 @@
       {
         "key": "att-und",
         "label": {
-          "en": "Attack Rating vs. Undead %",
-          "zh-TW": "對不死系攻擊等級 %",
-          "zh-CN": "对不死系攻击等级 %"
+          "en": "Attack Rating vs. Undead",
+          "zh-TW": "對不死系攻擊等級",
+          "zh-CN": "对不死系攻击等级"
         },
         "value": 50,
         "isSkillRef": false
@@ -4371,6 +4371,96 @@
         },
         "value": 12,
         "isSkillRef": false
+      },
+      {
+        "key": "light",
+        "label": {
+          "en": "Light Radius",
+          "zh-TW": "光環半徑",
+          "zh-CN": "光环半径"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "red-dmg",
+        "label": {
+          "en": "Damage Reduced (Body Armor Only)",
+          "zh-TW": "減少傷害（僅限身體護甲）",
+          "zh-CN": "减少伤害（僅限身體護甲）"
+        },
+        "value": 7,
+        "isSkillRef": false
+      },
+      {
+        "key": "ac",
+        "label": {
+          "en": "Defense (Body Armor Only)",
+          "zh-TW": "防禦力（僅限身體護甲）",
+          "zh-CN": "防御力（僅限身體護甲）"
+        },
+        "value": 15,
+        "isSkillRef": false
+      },
+      {
+        "key": "regen",
+        "label": {
+          "en": "Replenish Life (Body Armor Only)",
+          "zh-TW": "補充生命值（僅限身體護甲）",
+          "zh-CN": "补充生命值（僅限身體護甲）"
+        },
+        "value": 7,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-ltng-max",
+        "label": {
+          "en": "Maximum Lightning Resist % (Body Armor Only)",
+          "zh-TW": "最大閃電抗性 %（僅限身體護甲）",
+          "zh-CN": "最大闪电抗性 %（僅限身體護甲）"
+        },
+        "value": 5,
+        "isSkillRef": false
+      },
+      {
+        "key": "dmg-min",
+        "label": {
+          "en": "Minimum Damage (Weapons Only)",
+          "zh-TW": "最小傷害（僅限武器）",
+          "zh-CN": "最小伤害（僅限武器）"
+        },
+        "value": 9,
+        "isSkillRef": false
+      },
+      {
+        "key": "att",
+        "label": {
+          "en": "Attack Rating (Weapons Only)",
+          "zh-TW": "攻擊等級（僅限武器）",
+          "zh-CN": "攻击等级（僅限武器）"
+        },
+        "value": 50,
+        "isSkillRef": false
+      },
+      {
+        "key": "howl",
+        "label": {
+          "en": "Hit Causes Monster to Flee % (Weapons Only)",
+          "zh-TW": "擊中使怪物逃跑 %（僅限武器）",
+          "zh-CN": "击中使怪物逃跑 %（僅限武器）"
+        },
+        "value": 25,
+        "isSkillRef": false
+      },
+      {
+        "key": "deadly",
+        "label": {
+          "en": "Deadly Strike % (Weapons Only)",
+          "zh-TW": "致命一擊 %（僅限武器）",
+          "zh-CN": "致命一击 %（僅限武器）"
+        },
+        "value": 20,
+        "isSkillRef": false
       }
     ]
   },
@@ -4472,14 +4562,44 @@
         "isSkillRef": false
       },
       {
-        "key": "skill:147",
+        "key": "skill:Frenzy",
         "label": {
           "en": "Skill Bonus (Frenzy)",
-          "zh-TW": "技能加成 (狂亂)",
-          "zh-CN": "技能加成 (狂乱)"
+          "zh-TW": "技能加成 (Frenzy)",
+          "zh-CN": "技能加成 (Frenzy)"
         },
         "value": 5,
         "isSkillRef": true
+      },
+      {
+        "key": "ignore-ac",
+        "label": {
+          "en": "Ignore Target Defense",
+          "zh-TW": "無視目標防禦力",
+          "zh-CN": "无视目标防御力"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "reduce-ac",
+        "label": {
+          "en": "Reduce Target Defense %",
+          "zh-TW": "降低目標防禦力 %",
+          "zh-CN": "降低目标防御力 %"
+        },
+        "value": 25,
+        "isSkillRef": false
+      },
+      {
+        "key": "att%",
+        "label": {
+          "en": "Attack Rating %",
+          "zh-TW": "攻擊等級 %",
+          "zh-CN": "攻击等级 %"
+        },
+        "value": 20,
+        "isSkillRef": false
       }
     ]
   },
@@ -4526,8 +4646,8 @@
           "zh-TW": "強化防禦力 %",
           "zh-CN": "强化防御力 %"
         },
-        "min": 170,
-        "max": 230,
+        "min": 200,
+        "max": 260,
         "isSkillRef": false
       },
       {
@@ -4550,7 +4670,7 @@
           "zh-TW": "全抗性",
           "zh-CN": "全抗性"
         },
-        "value": 30,
+        "value": 45,
         "isSkillRef": false
       },
       {
@@ -4591,6 +4711,16 @@
           "zh-CN": "减半冰冻持续时间"
         },
         "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "str",
+        "label": {
+          "en": "Strength",
+          "zh-TW": "力量",
+          "zh-CN": "力量"
+        },
+        "value": 10,
         "isSkillRef": false
       }
     ]
@@ -4644,15 +4774,15 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "dmg",
+        "key": "hit-skill:Venom",
         "label": {
-          "en": "Maximum Damage",
-          "zh-TW": "最大傷害",
-          "zh-CN": "最大伤害"
+          "en": "Chance to Cast on Striking (Venom)",
+          "zh-TW": "攻擊時觸發機率 (Venom)",
+          "zh-CN": "攻击时触发机率 (Venom)"
         },
-        "min": 340,
-        "max": 400,
-        "isSkillRef": false
+        "min": 35,
+        "max": 15,
+        "isSkillRef": true
       },
       {
         "key": "swing3",
@@ -4666,15 +4796,26 @@
         "isSkillRef": false
       },
       {
-        "key": "hit-skill:Venom",
+        "key": "dmg",
         "label": {
-          "en": "Chance to Cast on Striking (Venom)",
-          "zh-TW": "攻擊時觸發機率 (Venom)",
-          "zh-CN": "攻击时触发机率 (Venom)"
+          "en": "Maximum Damage",
+          "zh-TW": "最大傷害",
+          "zh-CN": "最大伤害"
         },
-        "min": 35,
-        "max": 15,
-        "isSkillRef": true
+        "min": 340,
+        "max": 400,
+        "isSkillRef": false
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "min": 5,
+        "max": 30,
+        "isSkillRef": false
       },
       {
         "key": "pierce-pois",
@@ -4701,16 +4842,6 @@
     ],
     "fixedStats": [
       {
-        "key": "dmg-dem/lvl",
-        "label": {
-          "en": "dmg-dem (Based on Character Level)",
-          "zh-TW": "dmg-dem（依角色等級）",
-          "zh-CN": "dmg-dem（依角色等级）"
-        },
-        "value": 15,
-        "isSkillRef": false
-      },
-      {
         "key": "ignore-ac",
         "label": {
           "en": "Ignore Target Defense",
@@ -4718,6 +4849,56 @@
           "zh-CN": "无视目标防御力"
         },
         "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "reduce-ac",
+        "label": {
+          "en": "Reduce Target Defense %",
+          "zh-TW": "降低目標防禦力 %",
+          "zh-CN": "降低目标防御力 %"
+        },
+        "value": 25,
+        "isSkillRef": false
+      },
+      {
+        "key": "dmg-demon/lvl",
+        "label": {
+          "en": "Damage to Demons (Based on Character Level)",
+          "zh-TW": "對惡魔傷害（依角色等級）",
+          "zh-CN": "对恶魔伤害（依角色等级）"
+        },
+        "value": 15,
+        "isSkillRef": false
+      },
+      {
+        "key": "deadly",
+        "label": {
+          "en": "Deadly Strike %",
+          "zh-TW": "致命一擊 %",
+          "zh-CN": "致命一击 %"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "noheal",
+        "label": {
+          "en": "Prevent Monster Heal",
+          "zh-TW": "防止怪物治療",
+          "zh-CN": "防止怪物治疗"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "mana-kill",
+        "label": {
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
+        },
+        "value": 2,
         "isSkillRef": false
       }
     ]
@@ -4776,8 +4957,8 @@
           "zh-TW": "閃電抗性 %",
           "zh-CN": "闪电抗性 %"
         },
-        "min": 10,
-        "max": 30,
+        "min": 40,
+        "max": 60,
         "isSkillRef": false
       },
       {
@@ -4793,6 +4974,26 @@
       }
     ],
     "fixedStats": [
+      {
+        "key": "balance1",
+        "label": {
+          "en": "Faster Hit Recovery",
+          "zh-TW": "加快恢復速度",
+          "zh-CN": "加快恢复速度"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "vit",
+        "label": {
+          "en": "Vitality",
+          "zh-TW": "活力",
+          "zh-CN": "活力"
+        },
+        "value": 10,
+        "isSkillRef": false
+      },
       {
         "key": "hp%",
         "label": {
@@ -4848,17 +5049,6 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "dmg%",
-        "label": {
-          "en": "Enhanced Damage %",
-          "zh-TW": "強化傷害 %",
-          "zh-CN": "强化伤害 %"
-        },
-        "min": 280,
-        "max": 330,
-        "isSkillRef": false
-      },
-      {
         "key": "levelup-skill:Blaze",
         "label": {
           "en": "Chance to Cast on Level-Up % (Blaze)",
@@ -4879,19 +5069,20 @@
         "min": 100,
         "max": 48,
         "isSkillRef": true
+      },
+      {
+        "key": "dmg%",
+        "label": {
+          "en": "Enhanced Damage %",
+          "zh-TW": "強化傷害 %",
+          "zh-CN": "强化伤害 %"
+        },
+        "min": 280,
+        "max": 330,
+        "isSkillRef": false
       }
     ],
     "fixedStats": [
-      {
-        "key": "swing2",
-        "label": {
-          "en": "Faster Attack Rate",
-          "zh-TW": "加快攻擊速度",
-          "zh-CN": "加快攻击速度"
-        },
-        "value": 33,
-        "isSkillRef": false
-      },
       {
         "key": "aura:Holy Fire",
         "label": {
@@ -4901,6 +5092,16 @@
         },
         "value": 16,
         "isSkillRef": true
+      },
+      {
+        "key": "swing2",
+        "label": {
+          "en": "Faster Attack Rate",
+          "zh-TW": "加快攻擊速度",
+          "zh-CN": "加快攻击速度"
+        },
+        "value": 33,
+        "isSkillRef": false
       },
       {
         "key": "ignore-ac",
@@ -4913,6 +5114,16 @@
         "isSkillRef": false
       },
       {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "value": 7,
+        "isSkillRef": false
+      },
+      {
         "key": "pierce-fire",
         "label": {
           "en": "Enemy Fire Resistance %",
@@ -4920,6 +5131,36 @@
           "zh-CN": "降低敌方火焰抗性 %"
         },
         "value": -20,
+        "isSkillRef": false
+      },
+      {
+        "key": "deadly",
+        "label": {
+          "en": "Deadly Strike %",
+          "zh-TW": "致命一擊 %",
+          "zh-CN": "致命一击 %"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "stupidity",
+        "label": {
+          "en": "Hit Blinds Target",
+          "zh-TW": "擊中致盲目標",
+          "zh-CN": "击中致盲目标"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "freeze",
+        "label": {
+          "en": "Hit Freezes Target",
+          "zh-TW": "擊中冰凍目標",
+          "zh-CN": "击中冰冻目标"
+        },
+        "value": 3,
         "isSkillRef": false
       }
     ]
@@ -4978,26 +5219,37 @@
         "isSkillRef": false
       },
       {
-        "key": "dmg-elem",
+        "key": "dmg-ltng",
         "label": {
-          "en": "Adds Random Elemental Damage",
-          "zh-TW": "隨機元素傷害",
-          "zh-CN": "随机元素伤害"
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
         },
         "min": 55,
         "max": 160,
         "isSkillRef": false
       },
       {
-        "key": "charged:Revive",
+        "key": "dmg-fire",
         "label": {
-          "en": "Charges (Revive)",
-          "zh-TW": "充能次數 (Revive)",
-          "zh-CN": "充能次数 (Revive)"
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
         },
-        "min": 25,
-        "max": 20,
-        "isSkillRef": true
+        "min": 55,
+        "max": 160,
+        "isSkillRef": false
+      },
+      {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
+        },
+        "min": 55,
+        "max": 160,
+        "isSkillRef": false
       },
       {
         "key": "oskill:Valkyrie",
@@ -5008,6 +5260,17 @@
         },
         "min": 2,
         "max": 6,
+        "isSkillRef": true
+      },
+      {
+        "key": "charged:Revive",
+        "label": {
+          "en": "Charges (Revive)",
+          "zh-TW": "充能次數 (Revive)",
+          "zh-CN": "充能次数 (Revive)"
+        },
+        "min": 25,
+        "max": 20,
         "isSkillRef": true
       }
     ],
@@ -5023,6 +5286,36 @@
         "isSkillRef": true
       },
       {
+        "key": "dmg-min",
+        "label": {
+          "en": "Minimum Damage",
+          "zh-TW": "最小傷害",
+          "zh-CN": "最小伤害"
+        },
+        "value": 9,
+        "isSkillRef": false
+      },
+      {
+        "key": "dmg-max",
+        "label": {
+          "en": "Maximum Damage",
+          "zh-TW": "最大傷害",
+          "zh-CN": "最大伤害"
+        },
+        "value": 9,
+        "isSkillRef": false
+      },
+      {
+        "key": "dex",
+        "label": {
+          "en": "Dexterity",
+          "zh-TW": "敏捷",
+          "zh-CN": "敏捷"
+        },
+        "value": 10,
+        "isSkillRef": false
+      },
+      {
         "key": "regen-mana",
         "label": {
           "en": "Mana Regenerated %",
@@ -5030,6 +5323,16 @@
           "zh-CN": "魔力回复 %"
         },
         "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "mana-kill",
+        "label": {
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
+        },
+        "value": 2,
         "isSkillRef": false
       },
       {
@@ -5087,15 +5390,15 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "charged:Oak Sage",
+        "key": "dmg-cold",
         "label": {
-          "en": "Charges (Oak Sage)",
-          "zh-TW": "充能次數 (橡木智者)",
-          "zh-CN": "充能次数 (橡木智者)"
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
         },
-        "min": 25,
-        "max": 4,
-        "isSkillRef": true
+        "min": 3,
+        "max": 14,
+        "isSkillRef": false
       },
       {
         "key": "res-all",
@@ -5107,6 +5410,17 @@
         "min": 30,
         "max": 40,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:Oak Sage",
+        "label": {
+          "en": "Charges (Oak Sage)",
+          "zh-TW": "充能次數 (橡木智者)",
+          "zh-CN": "充能次数 (橡木智者)"
+        },
+        "min": 25,
+        "max": 4,
+        "isSkillRef": true
       },
       {
         "key": "charged:Raven",
@@ -5122,26 +5436,6 @@
     ],
     "fixedStats": [
       {
-        "key": "cast2",
-        "label": {
-          "en": "Faster Cast Rate",
-          "zh-TW": "加快施法速度",
-          "zh-CN": "加快施法速度"
-        },
-        "value": 40,
-        "isSkillRef": false
-      },
-      {
-        "key": "mana%",
-        "label": {
-          "en": "Increase Maximum Mana %",
-          "zh-TW": "增加最大魔力值 %",
-          "zh-CN": "增加最大魔力值 %"
-        },
-        "value": 15,
-        "isSkillRef": false
-      },
-      {
         "key": "allskills",
         "label": {
           "en": "All Skills",
@@ -5152,13 +5446,73 @@
         "isSkillRef": false
       },
       {
+        "key": "cast2",
+        "label": {
+          "en": "Faster Cast Rate",
+          "zh-TW": "加快施法速度",
+          "zh-CN": "加快施法速度"
+        },
+        "value": 40,
+        "isSkillRef": false
+      },
+      {
+        "key": "dmg-demon",
+        "label": {
+          "en": "Damage to Demons",
+          "zh-TW": "對惡魔傷害",
+          "zh-CN": "对恶魔伤害"
+        },
+        "value": 75,
+        "isSkillRef": false
+      },
+      {
+        "key": "att-demon",
+        "label": {
+          "en": "Attack Rating vs. Demons",
+          "zh-TW": "對惡魔攻擊等級",
+          "zh-CN": "对恶魔攻击等级"
+        },
+        "value": 100,
+        "isSkillRef": false
+      },
+      {
+        "key": "manasteal",
+        "label": {
+          "en": "Mana Steal %",
+          "zh-TW": "魔力竊取 %",
+          "zh-CN": "魔力窃取 %"
+        },
+        "value": 7,
+        "isSkillRef": false
+      },
+      {
+        "key": "dex",
+        "label": {
+          "en": "Dexterity",
+          "zh-TW": "敏捷",
+          "zh-CN": "敏捷"
+        },
+        "value": 10,
+        "isSkillRef": false
+      },
+      {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "mana%",
+        "label": {
+          "en": "Increase Maximum Mana %",
+          "zh-TW": "增加最大魔力值 %",
+          "zh-CN": "增加最大魔力值 %"
+        },
+        "value": 15,
         "isSkillRef": false
       }
     ]
@@ -5436,9 +5790,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "value": 10,
         "isSkillRef": false
@@ -6096,9 +6450,9 @@
       {
         "key": "att-demon",
         "label": {
-          "en": "Attack Rating vs. Demons %",
-          "zh-TW": "對惡魔攻擊等級 %",
-          "zh-CN": "对恶魔攻击等级 %"
+          "en": "Attack Rating vs. Demons",
+          "zh-TW": "對惡魔攻擊等級",
+          "zh-CN": "对恶魔攻击等级"
         },
         "value": 100,
         "isSkillRef": false
@@ -6106,9 +6460,9 @@
       {
         "key": "att-undead",
         "label": {
-          "en": "Attack Rating vs. Undead %",
-          "zh-TW": "對不死系攻擊等級 %",
-          "zh-CN": "对不死系攻击等级 %"
+          "en": "Attack Rating vs. Undead",
+          "zh-TW": "對不死系攻擊等級",
+          "zh-CN": "对不死系攻击等级"
         },
         "value": 100,
         "isSkillRef": false
@@ -6834,9 +7188,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "value": -5,
         "isSkillRef": false
@@ -7461,9 +7815,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "value": 10,
         "isSkillRef": false
@@ -8594,9 +8948,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "value": 8,
         "isSkillRef": false

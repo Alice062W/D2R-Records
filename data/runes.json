@@ -106,9 +106,9 @@
       {
         "key": "att-undead",
         "label": {
-          "en": "Attack Rating vs. Undead %",
-          "zh-TW": "對不死系攻擊等級 %",
-          "zh-CN": "对不死系攻击等级 %"
+          "en": "Attack Rating vs. Undead",
+          "zh-TW": "對不死系攻擊等級",
+          "zh-CN": "对不死系攻击等级"
         },
         "min": 50,
         "max": 50,
@@ -958,9 +958,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "min": 7,
         "max": 7,
@@ -971,9 +971,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "min": 7,
         "max": 7,
@@ -1449,9 +1449,9 @@
       {
         "key": "att-demon",
         "label": {
-          "en": "Attack Rating vs. Demons %",
-          "zh-TW": "對惡魔攻擊等級 %",
-          "zh-CN": "对恶魔攻击等级 %"
+          "en": "Attack Rating vs. Demons",
+          "zh-TW": "對惡魔攻擊等級",
+          "zh-CN": "对恶魔攻击等级"
         },
         "min": 100,
         "max": 100,

@@ -206,9 +206,9 @@
       {
         "key": "att-undead",
         "label": {
-          "en": "Attack Rating vs. Undead %",
-          "zh-TW": "對不死系攻擊等級 %",
-          "zh-CN": "对不死系攻击等级 %"
+          "en": "Attack Rating vs. Undead",
+          "zh-TW": "對不死系攻擊等級",
+          "zh-CN": "对不死系攻击等级"
         },
         "value": 40,
         "isSkillRef": false
@@ -1701,9 +1701,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "value": 10,
         "isSkillRef": false
@@ -7153,9 +7153,9 @@
       {
         "key": "att-undead",
         "label": {
-          "en": "Attack Rating vs. Undead %",
-          "zh-TW": "對不死系攻擊等級 %",
-          "zh-CN": "对不死系攻击等级 %"
+          "en": "Attack Rating vs. Undead",
+          "zh-TW": "對不死系攻擊等級",
+          "zh-CN": "对不死系攻击等级"
         },
         "min": 50,
         "max": 100,
@@ -7591,9 +7591,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "value": 5,
         "isSkillRef": false
@@ -8627,9 +8627,9 @@
       {
         "key": "att-undead",
         "label": {
-          "en": "Attack Rating vs. Undead %",
-          "zh-TW": "對不死系攻擊等級 %",
-          "zh-CN": "对不死系攻击等级 %"
+          "en": "Attack Rating vs. Undead",
+          "zh-TW": "對不死系攻擊等級",
+          "zh-CN": "对不死系攻击等级"
         },
         "value": 100,
         "isSkillRef": false
@@ -10675,9 +10675,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "value": 5,
         "isSkillRef": false
@@ -11424,9 +11424,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "min": 5,
         "max": 8,
@@ -12460,9 +12460,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "value": 20,
         "isSkillRef": false
@@ -12838,9 +12838,9 @@
       {
         "key": "att-und/lvl",
         "label": {
-          "en": "Attack Rating vs. Undead % (Based on Character Level)",
-          "zh-TW": "對不死系攻擊等級 %（依角色等級）",
-          "zh-CN": "对不死系攻击等级 %（依角色等级）"
+          "en": "Attack Rating vs. Undead (Based on Character Level)",
+          "zh-TW": "對不死系攻擊等級（依角色等級）",
+          "zh-CN": "对不死系攻击等级（依角色等级）"
         },
         "value": 10,
         "isSkillRef": false
@@ -13160,9 +13160,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "value": 5,
         "isSkillRef": false
@@ -13502,9 +13502,9 @@
       {
         "key": "att-demon",
         "label": {
-          "en": "Attack Rating vs. Demons %",
-          "zh-TW": "對惡魔攻擊等級 %",
-          "zh-CN": "对恶魔攻击等级 %"
+          "en": "Attack Rating vs. Demons",
+          "zh-TW": "對惡魔攻擊等級",
+          "zh-CN": "对恶魔攻击等级"
         },
         "value": 200,
         "isSkillRef": false
@@ -15779,9 +15779,9 @@
       {
         "key": "att-und/lvl",
         "label": {
-          "en": "Attack Rating vs. Undead % (Based on Character Level)",
-          "zh-TW": "對不死系攻擊等級 %（依角色等級）",
-          "zh-CN": "对不死系攻击等级 %（依角色等级）"
+          "en": "Attack Rating vs. Undead (Based on Character Level)",
+          "zh-TW": "對不死系攻擊等級（依角色等級）",
+          "zh-CN": "对不死系攻击等级（依角色等级）"
         },
         "value": 20,
         "isSkillRef": false
@@ -17055,9 +17055,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "value": 20,
         "isSkillRef": false
@@ -17564,9 +17564,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "value": 20,
         "isSkillRef": false
@@ -19056,9 +19056,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "value": 12,
         "isSkillRef": false
@@ -19550,9 +19550,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "min": 6,
         "max": 12,
@@ -20417,9 +20417,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "value": 10,
         "isSkillRef": false
@@ -20560,9 +20560,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "min": 15,
         "max": 25,
@@ -21522,9 +21522,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "value": 10,
         "isSkillRef": false
@@ -21616,9 +21616,9 @@
       {
         "key": "att-demon",
         "label": {
-          "en": "Attack Rating vs. Demons %",
-          "zh-TW": "對惡魔攻擊等級 %",
-          "zh-CN": "对恶魔攻击等级 %"
+          "en": "Attack Rating vs. Demons",
+          "zh-TW": "對惡魔攻擊等級",
+          "zh-CN": "对恶魔攻击等级"
         },
         "min": 200,
         "max": 250,
@@ -22433,9 +22433,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "value": 15,
         "isSkillRef": false
@@ -22945,9 +22945,9 @@
       {
         "key": "att-undead",
         "label": {
-          "en": "Attack Rating vs. Undead %",
-          "zh-TW": "對不死系攻擊等級 %",
-          "zh-CN": "对不死系攻击等级 %"
+          "en": "Attack Rating vs. Undead",
+          "zh-TW": "對不死系攻擊等級",
+          "zh-CN": "对不死系攻击等级"
         },
         "min": 100,
         "max": 200,
@@ -23049,9 +23049,9 @@
       {
         "key": "att-und/lvl",
         "label": {
-          "en": "Attack Rating vs. Undead % (Based on Character Level)",
-          "zh-TW": "對不死系攻擊等級 %（依角色等級）",
-          "zh-CN": "对不死系攻击等级 %（依角色等级）"
+          "en": "Attack Rating vs. Undead (Based on Character Level)",
+          "zh-TW": "對不死系攻擊等級（依角色等級）",
+          "zh-CN": "对不死系攻击等级（依角色等级）"
         },
         "value": 16,
         "isSkillRef": false
@@ -26773,9 +26773,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "value": 10,
         "isSkillRef": false
@@ -28866,9 +28866,9 @@
       {
         "key": "att-demon",
         "label": {
-          "en": "Attack Rating vs. Demons %",
-          "zh-TW": "對惡魔攻擊等級 %",
-          "zh-CN": "对恶魔攻击等级 %"
+          "en": "Attack Rating vs. Demons",
+          "zh-TW": "對惡魔攻擊等級",
+          "zh-CN": "对恶魔攻击等级"
         },
         "min": 200,
         "max": 300,
@@ -29462,9 +29462,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "min": 10,
         "max": 18,
@@ -29552,9 +29552,9 @@
       {
         "key": "att-undead",
         "label": {
-          "en": "Attack Rating vs. Undead %",
-          "zh-TW": "對不死系攻擊等級 %",
-          "zh-CN": "对不死系攻击等级 %"
+          "en": "Attack Rating vs. Undead",
+          "zh-TW": "對不死系攻擊等級",
+          "zh-CN": "对不死系攻击等级"
         },
         "min": 250,
         "max": 350,
@@ -29987,9 +29987,9 @@
       {
         "key": "att-demon",
         "label": {
-          "en": "Attack Rating vs. Demons %",
-          "zh-TW": "對惡魔攻擊等級 %",
-          "zh-CN": "对恶魔攻击等级 %"
+          "en": "Attack Rating vs. Demons",
+          "zh-TW": "對惡魔攻擊等級",
+          "zh-CN": "对恶魔攻击等级"
         },
         "min": 150,
         "max": 250,
@@ -29998,9 +29998,9 @@
       {
         "key": "att-undead",
         "label": {
-          "en": "Attack Rating vs. Undead %",
-          "zh-TW": "對不死系攻擊等級 %",
-          "zh-CN": "对不死系攻击等级 %"
+          "en": "Attack Rating vs. Undead",
+          "zh-TW": "對不死系攻擊等級",
+          "zh-CN": "对不死系攻击等级"
         },
         "min": 150,
         "max": 250,
@@ -35410,9 +35410,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "min": 15,
         "max": 23,
@@ -36876,9 +36876,9 @@
       {
         "key": "regen",
         "label": {
-          "en": "Life Regenerated %",
-          "zh-TW": "生命回復 %",
-          "zh-CN": "生命回复 %"
+          "en": "Replenish Life",
+          "zh-TW": "補充生命值",
+          "zh-CN": "补充生命值"
         },
         "min": 10,
         "max": 13,
