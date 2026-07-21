@@ -2734,6 +2734,46 @@
         },
         "value": 14,
         "isSkillRef": true
+      },
+      {
+        "key": "mana%",
+        "label": {
+          "en": "Increase Maximum Mana % (Armor Only)",
+          "zh-TW": "增加最大魔力值 %（僅限盔甲）",
+          "zh-CN": "增加最大魔力值 %（僅限盔甲）"
+        },
+        "value": 5,
+        "isSkillRef": false
+      },
+      {
+        "key": "mana",
+        "label": {
+          "en": "Mana (Shields Only)",
+          "zh-TW": "魔力值（僅限盾牌）",
+          "zh-CN": "魔力值（僅限盾牌）"
+        },
+        "value": 50,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-ltng-max",
+        "label": {
+          "en": "Maximum Lightning Resist %",
+          "zh-TW": "最大閃電抗性 %",
+          "zh-CN": "最大闪电抗性 %"
+        },
+        "value": 5,
+        "isSkillRef": false
+      },
+      {
+        "key": "red-dmg",
+        "label": {
+          "en": "Damage Reduced",
+          "zh-TW": "減少傷害",
+          "zh-CN": "减少伤害"
+        },
+        "value": 7,
+        "isSkillRef": false
       }
     ]
   },
@@ -2774,17 +2814,6 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "ac",
-        "label": {
-          "en": "Defense",
-          "zh-TW": "防禦力",
-          "zh-CN": "防御力"
-        },
-        "min": 150,
-        "max": 220,
-        "isSkillRef": false
-      },
-      {
         "key": "gethit-skill:Confuse",
         "label": {
           "en": "Chance to Cast When Struck (Confuse)",
@@ -2796,14 +2825,14 @@
         "isSkillRef": true
       },
       {
-        "key": "res-all",
+        "key": "ac",
         "label": {
-          "en": "All Resistances",
-          "zh-TW": "全抗性",
-          "zh-CN": "全抗性"
+          "en": "Defense",
+          "zh-TW": "防禦力",
+          "zh-CN": "防御力"
         },
-        "min": 5,
-        "max": 20,
+        "min": 150,
+        "max": 220,
         "isSkillRef": false
       },
       {
@@ -2815,6 +2844,17 @@
         },
         "min": 20,
         "max": 30,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 5,
+        "max": 20,
         "isSkillRef": false
       },
       {
@@ -2831,6 +2871,16 @@
     ],
     "fixedStats": [
       {
+        "key": "aura:Holy Shock",
+        "label": {
+          "en": "Aura Level (Holy Shock)",
+          "zh-TW": "光環等級 (Holy Shock)",
+          "zh-CN": "光环等级 (Holy Shock)"
+        },
+        "value": 15,
+        "isSkillRef": true
+      },
+      {
         "key": "mana/lvl",
         "label": {
           "en": "Mana (Based on Character Level)",
@@ -2841,14 +2891,44 @@
         "isSkillRef": false
       },
       {
-        "key": "aura:Holy Shock",
+        "key": "ac%",
         "label": {
-          "en": "Aura Level (Holy Shock)",
-          "zh-TW": "光環等級 (Holy Shock)",
-          "zh-CN": "光环等级 (Holy Shock)"
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
         },
-        "value": 15,
-        "isSkillRef": true
+        "value": 30,
+        "isSkillRef": false
+      },
+      {
+        "key": "vit",
+        "label": {
+          "en": "Vitality",
+          "zh-TW": "活力",
+          "zh-CN": "活力"
+        },
+        "value": 10,
+        "isSkillRef": false
+      },
+      {
+        "key": "hp%",
+        "label": {
+          "en": "Increase Maximum Life % (Helms Only)",
+          "zh-TW": "增加最大生命值 %（僅限頭盔）",
+          "zh-CN": "增加最大生命值 %（僅限頭盔）"
+        },
+        "value": 5,
+        "isSkillRef": false
+      },
+      {
+        "key": "hp",
+        "label": {
+          "en": "Life (Shields Only)",
+          "zh-TW": "生命值（僅限盾牌）",
+          "zh-CN": "生命值（僅限盾牌）"
+        },
+        "value": 50,
+        "isSkillRef": false
       }
     ]
   },
@@ -2930,7 +3010,7 @@
           "zh-TW": "加快恢復速度",
           "zh-CN": "加快恢复速度"
         },
-        "value": 20,
+        "value": 40,
         "isSkillRef": false
       },
       {
@@ -2961,6 +3041,46 @@
           "zh-CN": "减缓耐力消耗 %"
         },
         "value": -20,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-cold",
+        "label": {
+          "en": "Cold Resist %",
+          "zh-TW": "冷凍抗性 %",
+          "zh-CN": "冷冻抗性 %"
+        },
+        "value": 45,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-ltng",
+        "label": {
+          "en": "Lightning Resist %",
+          "zh-TW": "閃電抗性 %",
+          "zh-CN": "闪电抗性 %"
+        },
+        "value": 15,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-fire",
+        "label": {
+          "en": "Fire Resist %",
+          "zh-TW": "火焰抗性 %",
+          "zh-CN": "火焰抗性 %"
+        },
+        "value": 15,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-pois",
+        "label": {
+          "en": "Poison Resist %",
+          "zh-TW": "毒素抗性 %",
+          "zh-CN": "毒素抗性 %"
+        },
+        "value": 15,
         "isSkillRef": false
       }
     ]
@@ -3074,6 +3194,36 @@
         },
         "value": 15,
         "isSkillRef": false
+      },
+      {
+        "key": "pois-dot",
+        "label": {
+          "en": "Adds Poison Damage over 5 Seconds",
+          "zh-TW": "增加毒素傷害，持續 5 秒",
+          "zh-CN": "增加毒素伤害，持续 5 秒"
+        },
+        "value": 75,
+        "isSkillRef": false
+      },
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "value": 7,
+        "isSkillRef": false
+      },
+      {
+        "key": "mana-kill",
+        "label": {
+          "en": "Mana after Kill",
+          "zh-TW": "擊殺後恢復魔力值",
+          "zh-CN": "击杀后恢复魔力值"
+        },
+        "value": 2,
+        "isSkillRef": false
       }
     ]
   },
@@ -3185,6 +3335,36 @@
         },
         "value": 1,
         "isSkillRef": true
+      },
+      {
+        "key": "hp%",
+        "label": {
+          "en": "Increase Maximum Life %",
+          "zh-TW": "增加最大生命值 %",
+          "zh-CN": "增加最大生命值 %"
+        },
+        "value": 5,
+        "isSkillRef": false
+      },
+      {
+        "key": "red-dmg%",
+        "label": {
+          "en": "Damage Reduced %",
+          "zh-TW": "減少傷害 %",
+          "zh-CN": "减少伤害 %"
+        },
+        "value": 8,
+        "isSkillRef": false
+      },
+      {
+        "key": "dmg-to-mana",
+        "label": {
+          "en": "Damage Taken Goes to Mana",
+          "zh-TW": "承受傷害轉換為魔力",
+          "zh-CN": "承受伤害转换为魔力"
+        },
+        "value": 15,
+        "isSkillRef": false
       }
     ]
   },
@@ -3267,6 +3447,36 @@
         },
         "value": 1,
         "isSkillRef": true
+      },
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
+        },
+        "value": 30,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-fire",
+        "label": {
+          "en": "Fire Resist %",
+          "zh-TW": "火焰抗性 %",
+          "zh-CN": "火焰抗性 %"
+        },
+        "value": 30,
+        "isSkillRef": false
+      },
+      {
+        "key": "red-dmg",
+        "label": {
+          "en": "Damage Reduced",
+          "zh-TW": "減少傷害",
+          "zh-CN": "减少伤害"
+        },
+        "value": 7,
+        "isSkillRef": false
       }
     ]
   },
@@ -3391,6 +3601,56 @@
         },
         "value": 1,
         "isSkillRef": false
+      },
+      {
+        "key": "dmg-min",
+        "label": {
+          "en": "Minimum Damage",
+          "zh-TW": "最小傷害",
+          "zh-CN": "最小伤害"
+        },
+        "value": 9,
+        "isSkillRef": false
+      },
+      {
+        "key": "lifesteal",
+        "label": {
+          "en": "Life Steal %",
+          "zh-TW": "生命竊取 %",
+          "zh-CN": "生命窃取 %"
+        },
+        "value": 7,
+        "isSkillRef": false
+      },
+      {
+        "key": "crush",
+        "label": {
+          "en": "Crushing Blow %",
+          "zh-TW": "破碎打擊 %",
+          "zh-CN": "破碎打击 %"
+        },
+        "value": 20,
+        "isSkillRef": false
+      },
+      {
+        "key": "stupidity",
+        "label": {
+          "en": "Hit Blinds Target",
+          "zh-TW": "擊中致盲目標",
+          "zh-CN": "击中致盲目标"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "mag%",
+        "label": {
+          "en": "Magic Find %",
+          "zh-TW": "額外魔法物品尋獲率 %",
+          "zh-CN": "额外魔法物品寻获率 %"
+        },
+        "value": 30,
+        "isSkillRef": false
       }
     ]
   },
@@ -3510,6 +3770,46 @@
         },
         "value": 25,
         "isSkillRef": false
+      },
+      {
+        "key": "res-cold-max",
+        "label": {
+          "en": "Maximum Cold Resist %",
+          "zh-TW": "最大冷凍抗性 %",
+          "zh-CN": "最大冷冻抗性 %"
+        },
+        "value": 5,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-fire-max",
+        "label": {
+          "en": "Maximum Fire Resist %",
+          "zh-TW": "最大火焰抗性 %",
+          "zh-CN": "最大火焰抗性 %"
+        },
+        "value": 5,
+        "isSkillRef": false
+      },
+      {
+        "key": "regen",
+        "label": {
+          "en": "Life Regenerated %",
+          "zh-TW": "生命回復 %",
+          "zh-CN": "生命回复 %"
+        },
+        "value": 7,
+        "isSkillRef": false
+      },
+      {
+        "key": "mag%",
+        "label": {
+          "en": "Magic Find %",
+          "zh-TW": "額外魔法物品尋獲率 %",
+          "zh-CN": "额外魔法物品寻获率 %"
+        },
+        "value": 25,
+        "isSkillRef": false
       }
     ]
   },
@@ -3586,7 +3886,7 @@
           "zh-TW": "強化傷害 %",
           "zh-CN": "强化伤害 %"
         },
-        "value": 280,
+        "value": 330,
         "isSkillRef": false
       },
       {
@@ -3627,6 +3927,46 @@
           "zh-CN": "复活成怪物机率 %"
         },
         "value": 10,
+        "isSkillRef": false
+      },
+      {
+        "key": "ignore-ac",
+        "label": {
+          "en": "Ignore Target Defense",
+          "zh-TW": "無視目標防禦力",
+          "zh-CN": "无视目标防御力"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "dmg-undead",
+        "label": {
+          "en": "Damage to Undead",
+          "zh-TW": "對不死系傷害",
+          "zh-CN": "对不死系伤害"
+        },
+        "value": 75,
+        "isSkillRef": false
+      },
+      {
+        "key": "att-und",
+        "label": {
+          "en": "Attack Rating vs. Undead %",
+          "zh-TW": "對不死系攻擊等級 %",
+          "zh-CN": "对不死系攻击等级 %"
+        },
+        "value": 50,
+        "isSkillRef": false
+      },
+      {
+        "key": "gold%",
+        "label": {
+          "en": "Gold Find %",
+          "zh-TW": "額外金幣拾取率 %",
+          "zh-CN": "额外金币拾取率 %"
+        },
+        "value": 75,
         "isSkillRef": false
       }
     ]
@@ -3680,8 +4020,8 @@
           "zh-TW": "強化傷害 %",
           "zh-CN": "强化伤害 %"
         },
-        "min": 270,
-        "max": 320,
+        "min": 320,
+        "max": 370,
         "isSkillRef": false
       },
       {
@@ -3696,11 +4036,33 @@
         "isSkillRef": false
       },
       {
-        "key": "dmg-elem",
+        "key": "dmg-fire",
         "label": {
-          "en": "Adds Random Elemental Damage",
-          "zh-TW": "隨機元素傷害",
-          "zh-CN": "随机元素伤害"
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "min": 50,
+        "max": 200,
+        "isSkillRef": false
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "min": 51,
+        "max": 250,
+        "isSkillRef": false
+      },
+      {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
         },
         "min": 50,
         "max": 200,
@@ -3736,6 +4098,26 @@
           "zh-CN": "防止怪物治疗"
         },
         "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "ignore-ac",
+        "label": {
+          "en": "Ignore Target Defense",
+          "zh-TW": "無視目標防禦力",
+          "zh-CN": "无视目标防御力"
+        },
+        "value": 1,
+        "isSkillRef": false
+      },
+      {
+        "key": "str",
+        "label": {
+          "en": "Strength",
+          "zh-TW": "力量",
+          "zh-CN": "力量"
+        },
+        "value": 10,
         "isSkillRef": false
       }
     ]
@@ -3839,6 +4221,36 @@
           "zh-CN": "减少毒素持续时间 %"
         },
         "value": 50,
+        "isSkillRef": false
+      },
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "強化防禦力 %",
+          "zh-CN": "强化防御力 %"
+        },
+        "value": 30,
+        "isSkillRef": false
+      },
+      {
+        "key": "ac-miss",
+        "label": {
+          "en": "Defense vs. Missile",
+          "zh-TW": "對抗遠程攻擊防禦力",
+          "zh-CN": "对抗远程攻击防御力"
+        },
+        "value": 30,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-fire-max",
+        "label": {
+          "en": "Maximum Fire Resist %",
+          "zh-TW": "最大火焰抗性 %",
+          "zh-CN": "最大火焰抗性 %"
+        },
+        "value": 5,
         "isSkillRef": false
       }
     ]
