@@ -9,6 +9,7 @@ import {
   sortItemsForDisplay,
 } from '@/lib/grail/catalog';
 import CategoryItemList from '@/components/items/CategoryItemList';
+import CollectionSummaryBar from '@/components/items/CollectionSummaryBar';
 
 export function generateStaticParams() {
   return routing.locales.flatMap(locale =>
@@ -48,6 +49,7 @@ export default async function UniqueCategoryPage({
             {t('backToCategories')}
           </Link>
         </div>
+        <CollectionSummaryBar itemIds={items.map(i => i.id)} />
         <CategoryItemList items={items} />
       </div>
     </main>
