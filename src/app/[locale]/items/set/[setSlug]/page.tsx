@@ -5,6 +5,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import setGroups from '../../../../../../data/set-groups.json';
 import { getAllGrailItems, localizeGrailItem, slugifySetName } from '@/lib/grail/catalog';
 import SetGroupDetail from '@/components/items/SetGroupDetail';
+import CollectionSummaryBar from '@/components/items/CollectionSummaryBar';
 
 export function generateStaticParams() {
   return routing.locales.flatMap(locale =>
@@ -42,6 +43,7 @@ export default async function SetGroupPage({
             {t('backToCategories')}
           </Link>
         </div>
+        <CollectionSummaryBar itemIds={pieces.map(i => i.id)} />
         <SetGroupDetail
           setName={group.setName[loc]}
           pieces={pieces}
