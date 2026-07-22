@@ -22,12 +22,12 @@ export default function LocaleSwitcher() {
   }
 
   return (
-    <div className="flex items-center gap-1">
+    <div className="flex items-center gap-0.5 sm:gap-1">
       {LOCALES.map(l => (
         <button
           key={l.code}
           onClick={() => switchLocale(l.code)}
-          className={`px-2.5 py-1 rounded text-xs font-medium transition-colors ${
+          className={`px-1.5 py-1 sm:px-2.5 rounded text-xs font-medium whitespace-nowrap transition-colors ${
             locale === l.code
               ? 'bg-gold text-ink-950'
               : 'text-muted hover:text-parchment-bright'

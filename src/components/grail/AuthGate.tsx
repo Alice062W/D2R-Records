@@ -3,7 +3,13 @@
 import { useTranslations } from 'next-intl';
 import { useGrailAuth, signInWithGoogle, signOut } from '@/lib/grail/useGrailAuth';
 
-export default function AuthGate({ children }: { children: React.ReactNode }) {
+export default function AuthGate({
+  children,
+  signInPrompt,
+}: {
+  children: React.ReactNode;
+  signInPrompt?: string;
+}) {
   const t = useTranslations('Grail');
   const { userId, loading } = useGrailAuth();
 
@@ -14,7 +20,7 @@ export default function AuthGate({ children }: { children: React.ReactNode }) {
   if (!userId) {
     return (
       <div className="flex flex-col items-center gap-4 py-16">
-        <p className="text-muted">{t('signInPrompt')}</p>
+        <p className="text-muted">{signInPrompt ?? t('signInPrompt')}</p>
         <button
           onClick={() => signInWithGoogle()}
           className="px-4 py-2 rounded-lg bg-gold text-ink-950 font-semibold text-sm hover:bg-gold-bright transition-colors"

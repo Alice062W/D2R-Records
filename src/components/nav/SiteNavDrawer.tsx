@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
 import LocaleSwitcher from '@/components/LocaleSwitcher';
+import AccountButton from '@/components/grail/AccountButton';
 
 // Third element is the authentic D2/d2r.world rarity-tint color for that section's nav
 // label (verified against d2r.world's own computed styles) — omitted where d2r.world
@@ -63,26 +64,21 @@ export default function SiteNavDrawer() {
           </button>
           <Link
             href={linkHref('')}
-            className="text-sm font-semibold font-cinzel text-parchment-bright hover:text-gold-bright transition-colors"
+            className="text-xs sm:text-sm font-semibold font-cinzel text-parchment-bright hover:text-gold-bright transition-colors whitespace-nowrap"
           >
             D2R Institute
           </Link>
         </div>
-        <div className="hidden sm:flex items-center gap-3">
+        <div className="flex items-center gap-2 sm:gap-3">
           <a
             href="https://ko-fi.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-panel-border text-muted text-sm hover:border-gold hover:text-gold-bright transition-colors"
+            className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-panel-border text-muted text-sm hover:border-gold hover:text-gold-bright transition-colors"
           >
             ☕ {tFooter('support')}
           </a>
-          <Link
-            href={linkHref('grail')}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-panel-border text-muted text-sm hover:border-gold hover:text-gold-bright transition-colors"
-          >
-            {tFooter('grailLink')}
-          </Link>
+          <AccountButton />
           <LocaleSwitcher />
         </div>
       </div>

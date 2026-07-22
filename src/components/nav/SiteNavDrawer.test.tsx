@@ -53,13 +53,9 @@ describe('SiteNavDrawer', () => {
     for (const [label, href] of expectedLinks) {
       expect(screen.getByRole('link', { name: label })).toHaveAttribute('href', href);
     }
-    // "Grail Tracker" appears both in the drawer's "Our Tools" group and in the
-    // always-visible top-right bar, so it resolves to two links, not one.
-    const grailLinks = screen.getAllByRole('link', { name: 'Grail Tracker' });
-    expect(grailLinks).toHaveLength(2);
-    for (const link of grailLinks) {
-      expect(link).toHaveAttribute('href', '/en/grail');
-    }
+    // "Grail Tracker" now only appears in the drawer's "Our Tools" group —
+    // the top-right bar shows a Login/account control instead (see below).
+    expect(screen.getByRole('link', { name: 'Grail Tracker' })).toHaveAttribute('href', '/en/grail');
   });
 
   it('closes when the backdrop is clicked', () => {
@@ -78,10 +74,13 @@ describe('SiteNavDrawer', () => {
     expect(screen.queryByRole('link', { name: 'Set Items' })).not.toBeInTheDocument();
   });
 
-  it('shows the support link, Grail Tracker, and locale switcher in the top bar regardless of drawer state', () => {
+  it('shows the support link, account control, and locale switcher in the top bar regardless of drawer state', async () => {
     renderDrawer();
     expect(screen.getByRole('link', { name: /Support this tool/ })).toHaveAttribute('href', 'https://ko-fi.com');
-    expect(screen.getAllByRole('link', { name: 'Grail Tracker' })[0]).toHaveAttribute('href', '/en/grail');
+    // Signed out (no Supabase env vars in the test environment) — the
+    // account control renders as a Login button, not the old Grail
+    // Tracker link.
+    expect(await screen.findByRole('button', { name: 'Login' })).toBeInTheDocument();
     expect(screen.getByRole('button', { name: 'EN' })).toBeInTheDocument();
     expect(screen.getByRole('button', { name: '繁中' })).toBeInTheDocument();
     expect(screen.getByRole('button', { name: '简中' })).toBeInTheDocument();
