@@ -17,6 +17,16 @@ describe('RuneList', () => {
     expect(screen.getAllByText(/^#\d+$/).length).toBe(33);
   });
 
+  it('gives each rune card an id matching its rune id, for RuneMap to scroll to', () => {
+    const { container } = render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <RuneList runes={runes} locale="en" />
+      </NextIntlClientProvider>
+    );
+    expect(container.querySelector('#rune-r01')).not.toBeNull(); // El
+    expect(container.querySelector('#rune-r33')).not.toBeNull(); // Zod
+  });
+
   it('shows the recipe for a rune that has one, and none for El', () => {
     render(
       <NextIntlClientProvider locale="en" messages={messages}>

@@ -29,7 +29,11 @@ export default function RuneList({ runes, locale }: { runes: Rune[]; locale: Loc
   return (
     <div className="flex flex-col gap-4 w-full">
       {runes.map(rune => (
-        <div key={rune.id} className="bg-panel border border-panel-border rounded-xl p-6">
+        <div
+          key={rune.id}
+          id={rune.id}
+          className="bg-panel border border-panel-border rounded-xl p-6 scroll-mt-4"
+        >
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <RuneIcon invFile={rune.invFile} />
