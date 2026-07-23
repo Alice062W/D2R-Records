@@ -5,6 +5,9 @@ import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
 import LocaleSwitcher from '@/components/LocaleSwitcher';
 import AccountButton from '@/components/grail/AccountButton';
+import runewordsFull from '../../../data/runewords-full.json';
+import { getAllItemIdsForKind } from '@/lib/grail/catalog';
+import { useOwnedItems } from '@/lib/grail/useOwnedItems';
 
 // Third element is the authentic D2/d2r.world rarity-tint color for that section's nav
 // label (verified against d2r.world's own computed styles) — omitted where d2r.world
@@ -35,11 +38,30 @@ const TOOL_LINKS = [
   ['tool_grailTracker', 'grail'],
 ] as const;
 
+const ALL_UNIQUE_IDS = getAllItemIdsForKind('unique');
+const ALL_SET_IDS = getAllItemIdsForKind('set');
+const ALL_RUNEWORD_IDS = runewordsFull.map(rw => rw.id);
+
+// Nav-link key -> the full id list used to compute its "X%" collection
+// badge (only shown once signed in). Every other GAME_ITEM_LINKS entry has
+// no percentage.
+const PERCENT_ID_LISTS: Partial<Record<string, string[]>> = {
+  item_unique: ALL_UNIQUE_IDS,
+  item_set: ALL_SET_IDS,
+  item_runewords: ALL_RUNEWORD_IDS,
+};
+
+function completionPercent(ids: string[], ownedIds: Set<string>): number {
+  if (ids.length === 0) return 0;
+  return Math.round((ids.filter(id => ownedIds.has(id)).length / ids.length) * 100);
+}
+
 export default function SiteNavDrawer() {
   const t = useTranslations('Nav');
   const tFooter = useTranslations('Footer');
   const locale = useLocale();
   const [open, setOpen] = useState(false);
+  const { userId, ownedIds } = useOwnedItems();
 
   function close() {
     setOpen(false);
@@ -100,11 +122,15 @@ export default function SiteNavDrawer() {
             </button>
 
             <NavGroup title={t('group_gameItems')}>
-              {GAME_ITEM_LINKS.map(([key, path, colorClass]) => (
-                <NavLink key={key} href={linkHref(path)} onNavigate={close} colorClass={colorClass}>
-                  {t(key)}
-                </NavLink>
-              ))}
+              {GAME_ITEM_LINKS.map(([key, path, colorClass]) => {
+                const idList = PERCENT_ID_LISTS[key];
+                const percent = userId && idList ? completionPercent(idList, ownedIds) : undefined;
+                return (
+                  <NavLink key={key} href={linkHref(path)} onNavigate={close} colorClass={colorClass} percent={percent}>
+                    {t(key)}
+                  </NavLink>
+                );
+              })}
             </NavGroup>
 
             <NavGroup title={t('group_misc')}>
@@ -149,19 +175,24 @@ function NavLink({
   onNavigate,
   children,
   colorClass,
+  percent,
 }: {
   href: string;
   onNavigate: () => void;
   children: React.ReactNode;
   colorClass?: string;
+  percent?: number;
 }) {
   return (
     <Link
       href={href}
       onClick={onNavigate}
-      className={`px-3 py-2 rounded-lg text-sm font-cinzel hover:bg-panel-alt transition-colors ${colorClass ?? 'text-parchment hover:text-gold-bright'}`}
+      className={`px-3 py-2 rounded-lg text-sm font-cinzel hover:bg-panel-alt transition-colors flex items-center justify-between gap-2 ${colorClass ?? 'text-parchment hover:text-gold-bright'}`}
     >
-      {children}
+      <span>{children}</span>
+      {percent !== undefined && (
+        <span className="text-xs font-sans font-normal text-muted">{percent}%</span>
+      )}
     </Link>
   );
 }

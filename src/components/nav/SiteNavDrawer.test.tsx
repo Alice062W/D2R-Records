@@ -3,6 +3,8 @@ import { render, screen, fireEvent } from '@testing-library/react';
 import { NextIntlClientProvider } from 'next-intl';
 import SiteNavDrawer from './SiteNavDrawer';
 import messages from '../../../messages/en.json';
+import { getAllItemIdsForKind } from '@/lib/grail/catalog';
+import runewordsFull from '../../../data/runewords-full.json';
 
 vi.mock('next/navigation', () => ({
   useRouter: () => ({ push: vi.fn() }),
@@ -84,5 +86,32 @@ describe('SiteNavDrawer', () => {
     expect(screen.getByRole('button', { name: 'EN' })).toBeInTheDocument();
     expect(screen.getByRole('button', { name: '繁中' })).toBeInTheDocument();
     expect(screen.getByRole('button', { name: '简中' })).toBeInTheDocument();
+  });
+
+  it('shows a collection completion % next to Unique/Set/Runewords when signed in, and none for other game-item links', async () => {
+    vi.resetModules();
+    const allUniqueIds = getAllItemIdsForKind('unique');
+    const allRunewordIds = runewordsFull.map(rw => rw.id);
+    // Own every unique (100%), no set items (0%), and roughly a third of
+    // runewords, to exercise rounding on a non-clean fraction.
+    const owned = new Set([...allUniqueIds, ...allRunewordIds.slice(0, Math.round(allRunewordIds.length / 3))]);
+    const expectedRunewordPercent = Math.round((Math.round(allRunewordIds.length / 3) / allRunewordIds.length) * 100);
+
+    vi.doMock('@/lib/grail/useOwnedItems', () => ({
+      useOwnedItems: () => ({ userId: 'user-1', loading: false, ownedIds: owned, toggle: vi.fn(), error: null }),
+    }));
+    const { default: SiteNavDrawerSignedIn } = await import('./SiteNavDrawer');
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <SiteNavDrawerSignedIn />
+      </NextIntlClientProvider>
+    );
+    fireEvent.click(screen.getByRole('button', { name: 'Open menu' }));
+
+    expect(screen.getByRole('link', { name: /Unique Items/ })).toHaveTextContent('100%');
+    expect(screen.getByRole('link', { name: /Set Items/ })).toHaveTextContent('0%');
+    expect(screen.getByRole('link', { name: /Runewords/ })).toHaveTextContent(`${expectedRunewordPercent}%`);
+    // Links with no percentage tracking (e.g. Base Items) show no "%" text.
+    expect(screen.getByRole('link', { name: 'Base Items' })).not.toHaveTextContent('%');
   });
 });
