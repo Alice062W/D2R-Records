@@ -8,11 +8,51 @@ import { useGrailAuth } from '@/lib/grail/useGrailAuth';
 import { useProfile } from '@/lib/grail/useProfile';
 import { useOwnedItems } from '@/lib/grail/useOwnedItems';
 import { getErrorMessage } from '@/lib/grail/errors';
+import type { Server, GameMode, Platform } from '@/lib/grail/profileApi';
 import AuthGate from './AuthGate';
 import ProfileAvatar from './ProfileAvatar';
 import CollectionBadge from '../items/CollectionBadge';
 
 const AVATAR_PRESETS = ['⚔️', '🛡️', '🔥', '❄️', '⚡', '☠️', '🏹', '🧙', '🐺', '💀', '👹', '🗡️'];
+
+const SERVER_OPTIONS: Server[] = ['us', 'europe', 'asia', 'china'];
+const MODE_OPTIONS: GameMode[] = ['hardcore', 'softcore'];
+const PLATFORM_OPTIONS: Platform[] = ['pc', 'ps', 'xbox', 'ns'];
+
+// Generic pill-button choice group, shared by Server/Mode/Platform/Seasonal
+// below — clicking a pill saves immediately (same auto-save pattern as the
+// avatar picker), no separate Save button needed.
+function ChoicePills<T extends string>({
+  options,
+  value,
+  onSelect,
+  labelFor,
+}: {
+  options: T[];
+  value: T | null | undefined;
+  onSelect: (choice: T) => void;
+  labelFor: (option: T) => string;
+}) {
+  return (
+    <div className="flex flex-wrap gap-2">
+      {options.map(option => (
+        <button
+          key={option}
+          type="button"
+          onClick={() => onSelect(option)}
+          aria-pressed={value === option}
+          className={`px-3 py-1.5 rounded-lg text-sm font-cinzel border transition-colors ${
+            value === option
+              ? 'bg-gold text-ink-950 font-semibold border-gold'
+              : 'bg-panel border-panel-border text-parchment hover:border-gold'
+          }`}
+        >
+          {labelFor(option)}
+        </button>
+      ))}
+    </div>
+  );
+}
 
 const ALL_UNIQUE_IDS = getAllItemIdsForKind('unique');
 const ALL_SET_IDS = getAllItemIdsForKind('set');
@@ -54,6 +94,15 @@ function ProfileContentInner() {
     setLocalError(null);
     try {
       await save({ avatarChoice: choice });
+    } catch (e) {
+      setLocalError(getErrorMessage(e));
+    }
+  }
+
+  async function handleSaveGameSetting(patch: Partial<{ server: Server; gameMode: GameMode; platform: Platform; seasonal: boolean }>) {
+    setLocalError(null);
+    try {
+      await save(patch);
     } catch (e) {
       setLocalError(getErrorMessage(e));
     }
@@ -134,6 +183,50 @@ function ProfileContentInner() {
           </button>
         </div>
         {savedMessage && <p className="text-sm text-green-400">{savedMessage}</p>}
+      </section>
+
+      <section className="flex flex-col gap-5">
+        <h2 className="text-lg font-cinzel text-parchment-bright">{t('gameSettingsTitle')}</h2>
+
+        <div className="flex flex-col gap-2">
+          <span className="text-sm text-muted">{t('serverLabel')}</span>
+          <ChoicePills
+            options={SERVER_OPTIONS}
+            value={profile?.server}
+            onSelect={server => handleSaveGameSetting({ server })}
+            labelFor={option => t(`server_${option}`)}
+          />
+        </div>
+
+        <div className="flex flex-col gap-2">
+          <span className="text-sm text-muted">{t('modeLabel')}</span>
+          <ChoicePills
+            options={MODE_OPTIONS}
+            value={profile?.gameMode}
+            onSelect={gameMode => handleSaveGameSetting({ gameMode })}
+            labelFor={option => t(`mode_${option}`)}
+          />
+        </div>
+
+        <div className="flex flex-col gap-2">
+          <span className="text-sm text-muted">{t('platformLabel')}</span>
+          <ChoicePills
+            options={PLATFORM_OPTIONS}
+            value={profile?.platform}
+            onSelect={platform => handleSaveGameSetting({ platform })}
+            labelFor={option => t(`platform_${option}`)}
+          />
+        </div>
+
+        <div className="flex flex-col gap-2">
+          <span className="text-sm text-muted">{t('seasonalLabel')}</span>
+          <ChoicePills
+            options={['yes', 'no'] as const}
+            value={profile?.seasonal === true ? 'yes' : profile?.seasonal === false ? 'no' : null}
+            onSelect={choice => handleSaveGameSetting({ seasonal: choice === 'yes' })}
+            labelFor={option => t(`seasonal_${option}`)}
+          />
+        </div>
       </section>
 
       {(localError ?? profileError) && <p className="text-sm text-red-400">{localError ?? profileError}</p>}

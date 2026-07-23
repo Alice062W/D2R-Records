@@ -30,16 +30,24 @@ describe('useProfile', () => {
 
   it('fetches the profile once signed in', async () => {
     mockUseGrailAuth.mockReturnValue({ userId: 'user-1', loading: false });
-    mockGetProfile.mockResolvedValue({ battletag: 'Player#1234', avatarChoice: '⚔️' });
+    mockGetProfile.mockResolvedValue({
+      battletag: 'Player#1234', avatarChoice: '⚔️',
+      server: 'us', gameMode: 'hardcore', platform: 'pc', seasonal: true,
+    });
     const { useProfile } = await import('./useProfile');
     const { result } = renderHook(() => useProfile());
     await waitFor(() => expect(result.current.loading).toBe(false));
-    expect(result.current.profile).toEqual({ battletag: 'Player#1234', avatarChoice: '⚔️' });
+    expect(result.current.profile).toEqual({
+      battletag: 'Player#1234', avatarChoice: '⚔️',
+      server: 'us', gameMode: 'hardcore', platform: 'pc', seasonal: true,
+    });
   });
 
   it('save() optimistically updates the store, then calls upsertProfile with the merged patch', async () => {
     mockUseGrailAuth.mockReturnValue({ userId: 'user-1', loading: false });
-    mockGetProfile.mockResolvedValue({ battletag: null, avatarChoice: null });
+    mockGetProfile.mockResolvedValue({
+      battletag: null, avatarChoice: null, server: null, gameMode: null, platform: null, seasonal: null,
+    });
     mockUpsertProfile.mockResolvedValue(undefined);
     const { useProfile } = await import('./useProfile');
     const { result } = renderHook(() => useProfile());
@@ -49,8 +57,31 @@ describe('useProfile', () => {
       await result.current.save({ avatarChoice: '🔥' });
     });
 
-    expect(result.current.profile).toEqual({ battletag: null, avatarChoice: '🔥' });
-    expect(mockUpsertProfile).toHaveBeenCalledWith({ battletag: null, avatarChoice: '🔥' });
+    const expected = {
+      battletag: null, avatarChoice: '🔥', server: null, gameMode: null, platform: null, seasonal: null,
+    };
+    expect(result.current.profile).toEqual(expected);
+    expect(mockUpsertProfile).toHaveBeenCalledWith(expected);
+  });
+
+  it('save() merges a game-settings patch (server/mode/platform/seasonal) onto the existing profile', async () => {
+    mockUseGrailAuth.mockReturnValue({ userId: 'user-1', loading: false });
+    mockGetProfile.mockResolvedValue({
+      battletag: 'Player#1234', avatarChoice: null, server: null, gameMode: null, platform: null, seasonal: null,
+    });
+    mockUpsertProfile.mockResolvedValue(undefined);
+    const { useProfile } = await import('./useProfile');
+    const { result } = renderHook(() => useProfile());
+    await waitFor(() => expect(result.current.loading).toBe(false));
+
+    await act(async () => {
+      await result.current.save({ server: 'europe', gameMode: 'softcore', platform: 'ns', seasonal: false });
+    });
+
+    expect(result.current.profile).toEqual({
+      battletag: 'Player#1234', avatarChoice: null,
+      server: 'europe', gameMode: 'softcore', platform: 'ns', seasonal: false,
+    });
   });
 
   it('reverts the profile and sets an error message when the API call fails', async () => {

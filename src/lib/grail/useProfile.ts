@@ -66,6 +66,10 @@ export function useProfile() {
     const next: Profile = {
       battletag: store.profile?.battletag ?? null,
       avatarChoice: store.profile?.avatarChoice ?? null,
+      server: store.profile?.server ?? null,
+      gameMode: store.profile?.gameMode ?? null,
+      platform: store.profile?.platform ?? null,
+      seasonal: store.profile?.seasonal ?? null,
       ...patch,
     };
     const previous = store.profile;
