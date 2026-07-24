@@ -84,9 +84,11 @@ export default function CraftedItemList({ items, locale }: { items: CraftedItem[
                 <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">
                   {t('craftedItemsFixedPropertiesLabel')}
                 </h4>
-                <div className="text-sm text-[#8080f3] flex flex-col gap-0.5">
+                <div className="text-sm flex flex-col gap-0.5">
                   {(item.fixedProperties as FixedStatEntry[]).map(f => (
-                    <div key={f.key}>{f.composed ? f.label[locale] : `${f.label[locale]}: ${f.value == null ? f.value : signedValue(f.value, f.signed)}`}</div>
+                    <div key={f.key} className={f.isSkillRef ? 'text-[#ff4a69]' : 'text-[#8080f3]'}>
+                      {f.composed ? f.label[locale] : `${f.label[locale]}: ${f.value == null ? f.value : signedValue(f.value, f.signed)}`}
+                    </div>
                   ))}
                 </div>
               </div>
@@ -96,8 +98,12 @@ export default function CraftedItemList({ items, locale }: { items: CraftedItem[
                 <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">
                   {t('craftedItemsVariablePropertiesLabel')}
                 </h4>
-                <div className="text-sm text-[#8080f3] flex flex-col gap-0.5">
-                  {(item.variableProperties as VariableStatEntry[]).map(s => <div key={s.key}>{s.label[locale]}: {signedRange(s.min, s.max, s.signed)}</div>)}
+                <div className="text-sm flex flex-col gap-0.5">
+                  {(item.variableProperties as VariableStatEntry[]).map(s => (
+                    <div key={s.key} className={s.isSkillRef ? 'text-[#ff4a69]' : 'text-[#fff818]'}>
+                      {s.label[locale]}: {signedRange(s.min, s.max, s.signed)} <span aria-hidden="true">🎲</span>
+                    </div>
+                  ))}
                 </div>
               </div>
             )}

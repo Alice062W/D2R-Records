@@ -3353,7 +3353,23 @@ const CUBE_RECIPE_WORD_OVERRIDES = {
   Dagger: '匕首', Ring: '戒指', Amulet: '項鍊', Belt: '腰帶', Staff: '法杖', Spear: '長矛',
   Shield: '盾牌', Weapon: '武器', Sword: '劍', Helm: '頭盔', Gloves: '手套', Boots: '靴子',
   Mace: '釘頭錘', Club: '棍棒', Scepter: '權杖', Javelin: '標槍', Javelins: '標槍',
-  Crossbow: '弩', Bow: '弓', Jewel: '珠寶', Axe: '斧頭', Polearm: '長柄武器', Wand: '魔杖',
+  Crossbow: '弩', Bow: '弓', Jewel: '珠寶', Axe: '斧頭', Polearm: '長柄武器', Wand: '魔杖', Blunt: '鈍器',
+  // "Rod" (itemtypes.json code "rod") is the Staves-and-Rods weapon
+  // supertype ("Magic Rod" recipe input for Caster Weapon) — no items.json
+  // instance of this exact name exists to look up via chi[], so hand-added
+  // here like the other generic category words above.
+  Rod: '短杖',
+  // Single-word base-item-type category words used as a crafted-item recipe's
+  // "Magic <Type>" input (e.g. "Magic Mask") — the quality+category splitting
+  // logic below only trusts single trailing words from THIS table (not a raw
+  // chi[]/GENERAL_ITEM_NAME_TO_CODE lookup, to avoid false-positive fragment
+  // matches elsewhere in chi[]'s string dump), so these need adding here even
+  // though items.json/chi[] already has each one individually verified
+  // (msk/crn/hgl/lbl codes -> 面具/皇冠/鐵手套/飾帶). "Magic Plated Boots"
+  // is a 2-word category tail referring to item code "hbt" (items.json's own
+  // name "Greaves", chi['hbt']="護脛") — cubemain.json's description text
+  // calls it "Plated Boots" instead, a vendor-file name mismatch.
+  Mask: '面具', Crown: '皇冠', Gauntlets: '鐵手套', Sash: '飾帶', 'Plated Boots': '護脛',
   Armor: '護甲', 'Torso Armor': '軀幹護甲', Charm: '護身符', Item: '物品',
   Gem: '寶石', Skull: '頭骨', Arrows: '箭矢', Bolts: '弩箭',
   // quality/rarity words
@@ -3384,7 +3400,11 @@ const CUBE_RECIPE_WORD_OVERRIDES = {
 // text spells it "Kris" — a real name mismatch between two vendor files, not
 // a translation gap, so it's aliased here rather than added as a translated
 // override (keeps it flowing through the same code-lookup path as everything else).
-const RECIPE_PHRASE_ALIASES = { Kris: 'Kriss' };
+// cubemain.json's recipe text calls item code "hbt" (items.json's own name:
+// "Greaves") "Plated Boots" instead — a real name mismatch between the two
+// vendor files, same class of issue as Kris/Kriss above. Aliased so it
+// resolves through chi['hbt'] ("護脛") rather than falling back to English.
+const RECIPE_PHRASE_ALIASES = { Kris: 'Kriss', 'Plated Boots': 'Greaves' };
 
 function localizedRecipePhrase(rawPhrase) {
   const phrase = rawPhrase.trim();
@@ -3604,6 +3624,21 @@ function applyCraftModOverrides(id, stats) {
   return stats.map(s => (overrides[s.key] ? { ...s, ...overrides[s.key] } : s));
 }
 
+// `localizedItemName` (chi[] keyed by literal item NAME) doesn't resolve
+// generic ingredient phrases like "Magic Helm" or "Jewel"/"Ral Rune" —
+// those aren't real item names, they're recipe-description phrases chi[]
+// has no matching key for, so they silently fell back to raw English on
+// d2r.world's zh-TW Crafted Items page. `localizedRecipePhrase` (below,
+// already used for the Cube Recipes page's ingredient list) is the
+// battle-tested phrase parser for exactly this — reuse it here instead of
+// re-solving the same problem. Confirmed against d2r.world's zh-TW crafted
+// items page this session: "Magic Helm"/"Jewel"/"Ral Rune"/"Perfect Ruby"
+// all resolve correctly through it.
+function localizedCraftInput(rawPhrase) {
+  const zhTw = localizedRecipePhrase(rawPhrase);
+  return { en: rawPhrase, 'zh-TW': zhTw, 'zh-CN': toZhCn(zhTw) };
+}
+
 const craftedItemsOut = Object.entries(cubeMainData)
   .filter(([id]) => CRAFT_RECIPE_IDS.has(Number(id)))
   .map(([id, v]) => {
@@ -3622,9 +3657,9 @@ const craftedItemsOut = Object.entries(cubeMainData)
       id: `craft-${id}`,
       name: localizedCraftedItemName(outputName),
       family: CRAFT_FAMILY_BY_ID[id],
-      magicItemInput: localizedItemName(inputParts[0]),
+      magicItemInput: localizedCraftInput(inputParts[0]),
       magicItemInputIcon: resolveIconFor(rawInputs[0]),
-      additionalInputs: inputParts.slice(1).map(localizedItemName),
+      additionalInputs: inputParts.slice(1).map(localizedCraftInput),
       additionalInputIcons: rawInputs.slice(1).map(resolveIconFor),
       fixedProperties: fixed,
       variableProperties: variable,

@@ -9,25 +9,25 @@
     "family": "hitPower",
     "magicItemInput": {
       "en": "Magic Full Helm",
-      "zh-TW": "Magic Full Helm",
-      "zh-CN": "Magic Full Helm"
+      "zh-TW": "魔法高級頭盔",
+      "zh-CN": "魔法高级头盔"
     },
     "magicItemInputIcon": "invfhl",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Ith Rune",
-        "zh-TW": "Ith Rune",
-        "zh-CN": "Ith Rune"
+        "zh-TW": "伊司符文",
+        "zh-CN": "伊司符文"
       },
       {
         "en": "Perfect Sapphire",
-        "zh-TW": "Perfect Sapphire",
-        "zh-CN": "Perfect Sapphire"
+        "zh-TW": "完美的藍寶石",
+        "zh-CN": "完美的蓝宝石"
       }
     ],
     "additionalInputIcons": [
@@ -85,25 +85,25 @@
     "family": "hitPower",
     "magicItemInput": {
       "en": "Magic Chain Boots",
-      "zh-TW": "Magic Chain Boots",
-      "zh-CN": "Magic Chain Boots"
+      "zh-TW": "魔法鎖鍊靴",
+      "zh-CN": "魔法锁链靴"
     },
     "magicItemInputIcon": "invmbt",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Ral Rune",
-        "zh-TW": "Ral Rune",
-        "zh-CN": "Ral Rune"
+        "zh-TW": "拉爾符文",
+        "zh-CN": "拉尔符文"
       },
       {
         "en": "Perfect Sapphire",
-        "zh-TW": "Perfect Sapphire",
-        "zh-CN": "Perfect Sapphire"
+        "zh-TW": "完美的藍寶石",
+        "zh-CN": "完美的蓝宝石"
       }
     ],
     "additionalInputIcons": [
@@ -161,25 +161,25 @@
     "family": "hitPower",
     "magicItemInput": {
       "en": "Magic Chain Gloves",
-      "zh-TW": "Magic Chain Gloves",
-      "zh-CN": "Magic Chain Gloves"
+      "zh-TW": "魔法鎖鍊手套",
+      "zh-CN": "魔法锁链手套"
     },
     "magicItemInputIcon": "invmgl",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Ort Rune",
-        "zh-TW": "Ort Rune",
-        "zh-CN": "Ort Rune"
+        "zh-TW": "歐特符文",
+        "zh-CN": "欧特符文"
       },
       {
         "en": "Perfect Sapphire",
-        "zh-TW": "Perfect Sapphire",
-        "zh-CN": "Perfect Sapphire"
+        "zh-TW": "完美的藍寶石",
+        "zh-CN": "完美的蓝宝石"
       }
     ],
     "additionalInputIcons": [
@@ -236,25 +236,25 @@
     "family": "hitPower",
     "magicItemInput": {
       "en": "Magic Heavy Belt",
-      "zh-TW": "Magic Heavy Belt",
-      "zh-CN": "Magic Heavy Belt"
+      "zh-TW": "魔法重扣帶",
+      "zh-CN": "魔法重扣带"
     },
     "magicItemInputIcon": "invtbl",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Tal Rune",
-        "zh-TW": "Tal Rune",
-        "zh-CN": "Tal Rune"
+        "zh-TW": "塔爾符文",
+        "zh-CN": "塔尔符文"
       },
       {
         "en": "Perfect Sapphire",
-        "zh-TW": "Perfect Sapphire",
-        "zh-CN": "Perfect Sapphire"
+        "zh-TW": "完美的藍寶石",
+        "zh-CN": "完美的蓝宝石"
       }
     ],
     "additionalInputIcons": [
@@ -312,25 +312,25 @@
     "family": "hitPower",
     "magicItemInput": {
       "en": "Magic Gothic Shield",
-      "zh-TW": "Magic Gothic Shield",
-      "zh-CN": "Magic Gothic Shield"
+      "zh-TW": "魔法哥德盾牌",
+      "zh-CN": "魔法哥德盾牌"
     },
     "magicItemInputIcon": "invgts",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Eth Rune",
-        "zh-TW": "Eth Rune",
-        "zh-CN": "Eth Rune"
+        "zh-TW": "愛斯符文",
+        "zh-CN": "爱斯符文"
       },
       {
         "en": "Perfect Sapphire",
-        "zh-TW": "Perfect Sapphire",
-        "zh-CN": "Perfect Sapphire"
+        "zh-TW": "完美的藍寶石",
+        "zh-CN": "完美的蓝宝石"
       }
     ],
     "additionalInputIcons": [
@@ -388,25 +388,25 @@
     "family": "hitPower",
     "magicItemInput": {
       "en": "Magic Field Plate",
-      "zh-TW": "Magic Field Plate",
-      "zh-CN": "Magic Field Plate"
+      "zh-TW": "魔法實戰鎧甲",
+      "zh-CN": "魔法实战铠甲"
     },
     "magicItemInputIcon": "invfld",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Nef Rune",
-        "zh-TW": "Nef Rune",
-        "zh-CN": "Nef Rune"
+        "zh-TW": "那夫符文",
+        "zh-CN": "那夫符文"
       },
       {
         "en": "Perfect Sapphire",
-        "zh-TW": "Perfect Sapphire",
-        "zh-CN": "Perfect Sapphire"
+        "zh-TW": "完美的藍寶石",
+        "zh-CN": "完美的蓝宝石"
       }
     ],
     "additionalInputIcons": [
@@ -464,25 +464,25 @@
     "family": "hitPower",
     "magicItemInput": {
       "en": "Magic Amulet",
-      "zh-TW": "Magic Amulet",
-      "zh-CN": "Magic Amulet"
+      "zh-TW": "魔法項鍊",
+      "zh-CN": "魔法项链"
     },
     "magicItemInputIcon": "invamu",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Thul Rune",
-        "zh-TW": "Thul Rune",
-        "zh-CN": "Thul Rune"
+        "zh-TW": "書爾符文",
+        "zh-CN": "书尔符文"
       },
       {
         "en": "Perfect Sapphire",
-        "zh-TW": "Perfect Sapphire",
-        "zh-CN": "Perfect Sapphire"
+        "zh-TW": "完美的藍寶石",
+        "zh-CN": "完美的蓝宝石"
       }
     ],
     "additionalInputIcons": [
@@ -540,25 +540,25 @@
     "family": "hitPower",
     "magicItemInput": {
       "en": "Magic Ring",
-      "zh-TW": "Magic Ring",
-      "zh-CN": "Magic Ring"
+      "zh-TW": "魔法戒指",
+      "zh-CN": "魔法戒指"
     },
     "magicItemInputIcon": "invrin",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Amn Rune",
-        "zh-TW": "Amn Rune",
-        "zh-CN": "Amn Rune"
+        "zh-TW": "安姆符文",
+        "zh-CN": "安姆符文"
       },
       {
         "en": "Perfect Sapphire",
-        "zh-TW": "Perfect Sapphire",
-        "zh-CN": "Perfect Sapphire"
+        "zh-TW": "完美的藍寶石",
+        "zh-CN": "完美的蓝宝石"
       }
     ],
     "additionalInputIcons": [
@@ -616,25 +616,25 @@
     "family": "hitPower",
     "magicItemInput": {
       "en": "Magic Blunt Weapon",
-      "zh-TW": "Magic Blunt Weapon",
-      "zh-CN": "Magic Blunt Weapon"
+      "zh-TW": "魔法鈍器武器",
+      "zh-CN": "魔法钝器武器"
     },
     "magicItemInputIcon": null,
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Tir Rune",
-        "zh-TW": "Tir Rune",
-        "zh-CN": "Tir Rune"
+        "zh-TW": "特爾符文",
+        "zh-CN": "特尔符文"
       },
       {
         "en": "Perfect Sapphire",
-        "zh-TW": "Perfect Sapphire",
-        "zh-CN": "Perfect Sapphire"
+        "zh-TW": "完美的藍寶石",
+        "zh-CN": "完美的蓝宝石"
       }
     ],
     "additionalInputIcons": [
@@ -692,25 +692,25 @@
     "family": "blood",
     "magicItemInput": {
       "en": "Magic Helm",
-      "zh-TW": "Magic Helm",
-      "zh-CN": "Magic Helm"
+      "zh-TW": "魔法頭盔",
+      "zh-CN": "魔法头盔"
     },
     "magicItemInputIcon": "invhlm",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Ral Rune",
-        "zh-TW": "Ral Rune",
-        "zh-CN": "Ral Rune"
+        "zh-TW": "拉爾符文",
+        "zh-CN": "拉尔符文"
       },
       {
         "en": "Perfect Ruby",
-        "zh-TW": "Perfect Ruby",
-        "zh-CN": "Perfect Ruby"
+        "zh-TW": "完美的紅寶石",
+        "zh-CN": "完美的红宝石"
       }
     ],
     "additionalInputIcons": [
@@ -768,25 +768,25 @@
     "family": "blood",
     "magicItemInput": {
       "en": "Magic Light Plated Boots",
-      "zh-TW": "Magic Light Plated Boots",
-      "zh-CN": "Magic Light Plated Boots"
+      "zh-TW": "魔法輕型金屬靴",
+      "zh-CN": "魔法轻型金属靴"
     },
     "magicItemInputIcon": "invtbt",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Eth Rune",
-        "zh-TW": "Eth Rune",
-        "zh-CN": "Eth Rune"
+        "zh-TW": "愛斯符文",
+        "zh-CN": "爱斯符文"
       },
       {
         "en": "Perfect Ruby",
-        "zh-TW": "Perfect Ruby",
-        "zh-CN": "Perfect Ruby"
+        "zh-TW": "完美的紅寶石",
+        "zh-CN": "完美的红宝石"
       }
     ],
     "additionalInputIcons": [
@@ -844,25 +844,25 @@
     "family": "blood",
     "magicItemInput": {
       "en": "Magic Heavy Gloves",
-      "zh-TW": "Magic Heavy Gloves",
-      "zh-CN": "Magic Heavy Gloves"
+      "zh-TW": "魔法重手套",
+      "zh-CN": "魔法重手套"
     },
     "magicItemInputIcon": "invvgl",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Nef Rune",
-        "zh-TW": "Nef Rune",
-        "zh-CN": "Nef Rune"
+        "zh-TW": "那夫符文",
+        "zh-CN": "那夫符文"
       },
       {
         "en": "Perfect Ruby",
-        "zh-TW": "Perfect Ruby",
-        "zh-CN": "Perfect Ruby"
+        "zh-TW": "完美的紅寶石",
+        "zh-CN": "完美的红宝石"
       }
     ],
     "additionalInputIcons": [
@@ -920,25 +920,25 @@
     "family": "blood",
     "magicItemInput": {
       "en": "Magic Belt",
-      "zh-TW": "Magic Belt",
-      "zh-CN": "Magic Belt"
+      "zh-TW": "魔法腰帶",
+      "zh-CN": "魔法腰带"
     },
     "magicItemInputIcon": "invmbl",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Tal Rune",
-        "zh-TW": "Tal Rune",
-        "zh-CN": "Tal Rune"
+        "zh-TW": "塔爾符文",
+        "zh-CN": "塔尔符文"
       },
       {
         "en": "Perfect Ruby",
-        "zh-TW": "Perfect Ruby",
-        "zh-CN": "Perfect Ruby"
+        "zh-TW": "完美的紅寶石",
+        "zh-CN": "完美的红宝石"
       }
     ],
     "additionalInputIcons": [
@@ -996,25 +996,25 @@
     "family": "blood",
     "magicItemInput": {
       "en": "Magic Spiked Shield",
-      "zh-TW": "Magic Spiked Shield",
-      "zh-CN": "Magic Spiked Shield"
+      "zh-TW": "魔法尖刺盾牌",
+      "zh-CN": "魔法尖刺盾牌"
     },
     "magicItemInputIcon": "invspk",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Ith Rune",
-        "zh-TW": "Ith Rune",
-        "zh-CN": "Ith Rune"
+        "zh-TW": "伊司符文",
+        "zh-CN": "伊司符文"
       },
       {
         "en": "Perfect Ruby",
-        "zh-TW": "Perfect Ruby",
-        "zh-CN": "Perfect Ruby"
+        "zh-TW": "完美的紅寶石",
+        "zh-CN": "完美的红宝石"
       }
     ],
     "additionalInputIcons": [
@@ -1072,25 +1072,25 @@
     "family": "blood",
     "magicItemInput": {
       "en": "Magic Plate Mail",
-      "zh-TW": "Magic Plate Mail",
-      "zh-CN": "Magic Plate Mail"
+      "zh-TW": "魔法鎧甲",
+      "zh-CN": "魔法铠甲"
     },
     "magicItemInputIcon": "invplt",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Thul Rune",
-        "zh-TW": "Thul Rune",
-        "zh-CN": "Thul Rune"
+        "zh-TW": "書爾符文",
+        "zh-CN": "书尔符文"
       },
       {
         "en": "Perfect Ruby",
-        "zh-TW": "Perfect Ruby",
-        "zh-CN": "Perfect Ruby"
+        "zh-TW": "完美的紅寶石",
+        "zh-CN": "完美的红宝石"
       }
     ],
     "additionalInputIcons": [
@@ -1148,25 +1148,25 @@
     "family": "blood",
     "magicItemInput": {
       "en": "Magic Amulet",
-      "zh-TW": "Magic Amulet",
-      "zh-CN": "Magic Amulet"
+      "zh-TW": "魔法項鍊",
+      "zh-CN": "魔法项链"
     },
     "magicItemInputIcon": "invamu",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Amn Rune",
-        "zh-TW": "Amn Rune",
-        "zh-CN": "Amn Rune"
+        "zh-TW": "安姆符文",
+        "zh-CN": "安姆符文"
       },
       {
         "en": "Perfect Ruby",
-        "zh-TW": "Perfect Ruby",
-        "zh-CN": "Perfect Ruby"
+        "zh-TW": "完美的紅寶石",
+        "zh-CN": "完美的红宝石"
       }
     ],
     "additionalInputIcons": [
@@ -1224,25 +1224,25 @@
     "family": "blood",
     "magicItemInput": {
       "en": "Magic Ring",
-      "zh-TW": "Magic Ring",
-      "zh-CN": "Magic Ring"
+      "zh-TW": "魔法戒指",
+      "zh-CN": "魔法戒指"
     },
     "magicItemInputIcon": "invrin",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Sol Rune",
-        "zh-TW": "Sol Rune",
-        "zh-CN": "Sol Rune"
+        "zh-TW": "索爾符文",
+        "zh-CN": "索尔符文"
       },
       {
         "en": "Perfect Ruby",
-        "zh-TW": "Perfect Ruby",
-        "zh-CN": "Perfect Ruby"
+        "zh-TW": "完美的紅寶石",
+        "zh-CN": "完美的红宝石"
       }
     ],
     "additionalInputIcons": [
@@ -1300,25 +1300,25 @@
     "family": "blood",
     "magicItemInput": {
       "en": "Magic Axe",
-      "zh-TW": "Magic Axe",
-      "zh-CN": "Magic Axe"
+      "zh-TW": "魔法斧頭",
+      "zh-CN": "魔法斧头"
     },
     "magicItemInputIcon": "invhax",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Ort Rune",
-        "zh-TW": "Ort Rune",
-        "zh-CN": "Ort Rune"
+        "zh-TW": "歐特符文",
+        "zh-CN": "欧特符文"
       },
       {
         "en": "Perfect Ruby",
-        "zh-TW": "Perfect Ruby",
-        "zh-CN": "Perfect Ruby"
+        "zh-TW": "完美的紅寶石",
+        "zh-CN": "完美的红宝石"
       }
     ],
     "additionalInputIcons": [
@@ -1376,25 +1376,25 @@
     "family": "caster",
     "magicItemInput": {
       "en": "Magic Mask",
-      "zh-TW": "Magic Mask",
-      "zh-CN": "Magic Mask"
+      "zh-TW": "魔法面具",
+      "zh-CN": "魔法面具"
     },
     "magicItemInputIcon": "invmsk",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Nef Rune",
-        "zh-TW": "Nef Rune",
-        "zh-CN": "Nef Rune"
+        "zh-TW": "那夫符文",
+        "zh-CN": "那夫符文"
       },
       {
         "en": "Perfect Amethyst",
-        "zh-TW": "Perfect Amethyst",
-        "zh-CN": "Perfect Amethyst"
+        "zh-TW": "完美的紫寶石",
+        "zh-CN": "完美的紫宝石"
       }
     ],
     "additionalInputIcons": [
@@ -1452,25 +1452,25 @@
     "family": "caster",
     "magicItemInput": {
       "en": "Magic Boots",
-      "zh-TW": "Magic Boots",
-      "zh-CN": "Magic Boots"
+      "zh-TW": "魔法靴子",
+      "zh-CN": "魔法靴子"
     },
     "magicItemInputIcon": "invlbt",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Thul Rune",
-        "zh-TW": "Thul Rune",
-        "zh-CN": "Thul Rune"
+        "zh-TW": "書爾符文",
+        "zh-CN": "书尔符文"
       },
       {
         "en": "Perfect Amethyst",
-        "zh-TW": "Perfect Amethyst",
-        "zh-CN": "Perfect Amethyst"
+        "zh-TW": "完美的紫寶石",
+        "zh-CN": "完美的紫宝石"
       }
     ],
     "additionalInputIcons": [
@@ -1528,25 +1528,25 @@
     "family": "caster",
     "magicItemInput": {
       "en": "Magic Leather Gloves",
-      "zh-TW": "Magic Leather Gloves",
-      "zh-CN": "Magic Leather Gloves"
+      "zh-TW": "魔法皮手套",
+      "zh-CN": "魔法皮手套"
     },
     "magicItemInputIcon": "invlgl",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Ort Rune",
-        "zh-TW": "Ort Rune",
-        "zh-CN": "Ort Rune"
+        "zh-TW": "歐特符文",
+        "zh-CN": "欧特符文"
       },
       {
         "en": "Perfect Amethyst",
-        "zh-TW": "Perfect Amethyst",
-        "zh-CN": "Perfect Amethyst"
+        "zh-TW": "完美的紫寶石",
+        "zh-CN": "完美的紫宝石"
       }
     ],
     "additionalInputIcons": [
@@ -1604,25 +1604,25 @@
     "family": "caster",
     "magicItemInput": {
       "en": "Magic Light Belt",
-      "zh-TW": "Magic Light Belt",
-      "zh-CN": "Magic Light Belt"
+      "zh-TW": "魔法輕扣帶",
+      "zh-CN": "魔法轻扣带"
     },
     "magicItemInputIcon": "invvbl",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Ith Rune",
-        "zh-TW": "Ith Rune",
-        "zh-CN": "Ith Rune"
+        "zh-TW": "伊司符文",
+        "zh-CN": "伊司符文"
       },
       {
         "en": "Perfect Amethyst",
-        "zh-TW": "Perfect Amethyst",
-        "zh-CN": "Perfect Amethyst"
+        "zh-TW": "完美的紫寶石",
+        "zh-CN": "完美的紫宝石"
       }
     ],
     "additionalInputIcons": [
@@ -1680,25 +1680,25 @@
     "family": "caster",
     "magicItemInput": {
       "en": "Magic Small Shield",
-      "zh-TW": "Magic Small Shield",
-      "zh-CN": "Magic Small Shield"
+      "zh-TW": "魔法小盾牌",
+      "zh-CN": "魔法小盾牌"
     },
     "magicItemInputIcon": "invsml",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Eth Rune",
-        "zh-TW": "Eth Rune",
-        "zh-CN": "Eth Rune"
+        "zh-TW": "愛斯符文",
+        "zh-CN": "爱斯符文"
       },
       {
         "en": "Perfect Amethyst",
-        "zh-TW": "Perfect Amethyst",
-        "zh-CN": "Perfect Amethyst"
+        "zh-TW": "完美的紫寶石",
+        "zh-CN": "完美的紫宝石"
       }
     ],
     "additionalInputIcons": [
@@ -1756,25 +1756,25 @@
     "family": "caster",
     "magicItemInput": {
       "en": "Magic Light Plate",
-      "zh-TW": "Magic Light Plate",
-      "zh-CN": "Magic Light Plate"
+      "zh-TW": "魔法輕型裝甲",
+      "zh-CN": "魔法轻型装甲"
     },
     "magicItemInputIcon": "invltp",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Tal Rune",
-        "zh-TW": "Tal Rune",
-        "zh-CN": "Tal Rune"
+        "zh-TW": "塔爾符文",
+        "zh-CN": "塔尔符文"
       },
       {
         "en": "Perfect Amethyst",
-        "zh-TW": "Perfect Amethyst",
-        "zh-CN": "Perfect Amethyst"
+        "zh-TW": "完美的紫寶石",
+        "zh-CN": "完美的紫宝石"
       }
     ],
     "additionalInputIcons": [
@@ -1832,25 +1832,25 @@
     "family": "caster",
     "magicItemInput": {
       "en": "Magic Amulet",
-      "zh-TW": "Magic Amulet",
-      "zh-CN": "Magic Amulet"
+      "zh-TW": "魔法項鍊",
+      "zh-CN": "魔法项链"
     },
     "magicItemInputIcon": "invamu",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Ral Rune",
-        "zh-TW": "Ral Rune",
-        "zh-CN": "Ral Rune"
+        "zh-TW": "拉爾符文",
+        "zh-CN": "拉尔符文"
       },
       {
         "en": "Perfect Amethyst",
-        "zh-TW": "Perfect Amethyst",
-        "zh-CN": "Perfect Amethyst"
+        "zh-TW": "完美的紫寶石",
+        "zh-CN": "完美的紫宝石"
       }
     ],
     "additionalInputIcons": [
@@ -1908,25 +1908,25 @@
     "family": "caster",
     "magicItemInput": {
       "en": "Magic Ring",
-      "zh-TW": "Magic Ring",
-      "zh-CN": "Magic Ring"
+      "zh-TW": "魔法戒指",
+      "zh-CN": "魔法戒指"
     },
     "magicItemInputIcon": "invrin",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Amn Rune",
-        "zh-TW": "Amn Rune",
-        "zh-CN": "Amn Rune"
+        "zh-TW": "安姆符文",
+        "zh-CN": "安姆符文"
       },
       {
         "en": "Perfect Amethyst",
-        "zh-TW": "Perfect Amethyst",
-        "zh-CN": "Perfect Amethyst"
+        "zh-TW": "完美的紫寶石",
+        "zh-CN": "完美的紫宝石"
       }
     ],
     "additionalInputIcons": [
@@ -1984,25 +1984,25 @@
     "family": "caster",
     "magicItemInput": {
       "en": "Magic Rod",
-      "zh-TW": "Magic Rod",
-      "zh-CN": "Magic Rod"
+      "zh-TW": "魔法短杖",
+      "zh-CN": "魔法短杖"
     },
     "magicItemInputIcon": "invsst",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Tir Rune",
-        "zh-TW": "Tir Rune",
-        "zh-CN": "Tir Rune"
+        "zh-TW": "特爾符文",
+        "zh-CN": "特尔符文"
       },
       {
         "en": "Perfect Amethyst",
-        "zh-TW": "Perfect Amethyst",
-        "zh-CN": "Perfect Amethyst"
+        "zh-TW": "完美的紫寶石",
+        "zh-CN": "完美的紫宝石"
       }
     ],
     "additionalInputIcons": [
@@ -2060,25 +2060,25 @@
     "family": "safety",
     "magicItemInput": {
       "en": "Magic Crown",
-      "zh-TW": "Magic Crown",
-      "zh-CN": "Magic Crown"
+      "zh-TW": "魔法皇冠",
+      "zh-CN": "魔法皇冠"
     },
     "magicItemInputIcon": "invcrn",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Ith Rune",
-        "zh-TW": "Ith Rune",
-        "zh-CN": "Ith Rune"
+        "zh-TW": "伊司符文",
+        "zh-CN": "伊司符文"
       },
       {
         "en": "Perfect Emerald",
-        "zh-TW": "Perfect Emerald",
-        "zh-CN": "Perfect Emerald"
+        "zh-TW": "完美的綠寶石",
+        "zh-CN": "完美的绿宝石"
       }
     ],
     "additionalInputIcons": [
@@ -2136,25 +2136,25 @@
     "family": "safety",
     "magicItemInput": {
       "en": "Magic Plated Boots",
-      "zh-TW": "Magic Plated Boots",
-      "zh-CN": "Magic Plated Boots"
+      "zh-TW": "魔法護脛",
+      "zh-CN": "魔法护胫"
     },
     "magicItemInputIcon": "invhbt",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Ort Rune",
-        "zh-TW": "Ort Rune",
-        "zh-CN": "Ort Rune"
+        "zh-TW": "歐特符文",
+        "zh-CN": "欧特符文"
       },
       {
         "en": "Perfect Emerald",
-        "zh-TW": "Perfect Emerald",
-        "zh-CN": "Perfect Emerald"
+        "zh-TW": "完美的綠寶石",
+        "zh-CN": "完美的绿宝石"
       }
     ],
     "additionalInputIcons": [
@@ -2212,25 +2212,25 @@
     "family": "safety",
     "magicItemInput": {
       "en": "Magic Gauntlets",
-      "zh-TW": "Magic Gauntlets",
-      "zh-CN": "Magic Gauntlets"
+      "zh-TW": "魔法鐵手套",
+      "zh-CN": "魔法铁手套"
     },
     "magicItemInputIcon": "invhgl",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Ral Rune",
-        "zh-TW": "Ral Rune",
-        "zh-CN": "Ral Rune"
+        "zh-TW": "拉爾符文",
+        "zh-CN": "拉尔符文"
       },
       {
         "en": "Perfect Emerald",
-        "zh-TW": "Perfect Emerald",
-        "zh-CN": "Perfect Emerald"
+        "zh-TW": "完美的綠寶石",
+        "zh-CN": "完美的绿宝石"
       }
     ],
     "additionalInputIcons": [
@@ -2288,25 +2288,25 @@
     "family": "safety",
     "magicItemInput": {
       "en": "Magic Sash",
-      "zh-TW": "Magic Sash",
-      "zh-CN": "Magic Sash"
+      "zh-TW": "魔法飾帶",
+      "zh-CN": "魔法饰带"
     },
     "magicItemInputIcon": "invlbl",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Tal Rune",
-        "zh-TW": "Tal Rune",
-        "zh-CN": "Tal Rune"
+        "zh-TW": "塔爾符文",
+        "zh-CN": "塔尔符文"
       },
       {
         "en": "Perfect Emerald",
-        "zh-TW": "Perfect Emerald",
-        "zh-CN": "Perfect Emerald"
+        "zh-TW": "完美的綠寶石",
+        "zh-CN": "完美的绿宝石"
       }
     ],
     "additionalInputIcons": [
@@ -2364,25 +2364,25 @@
     "family": "safety",
     "magicItemInput": {
       "en": "Magic Kite Shield",
-      "zh-TW": "Magic Kite Shield",
-      "zh-CN": "Magic Kite Shield"
+      "zh-TW": "魔法輕盾",
+      "zh-CN": "魔法轻盾"
     },
     "magicItemInputIcon": "invkit",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Nef Rune",
-        "zh-TW": "Nef Rune",
-        "zh-CN": "Nef Rune"
+        "zh-TW": "那夫符文",
+        "zh-CN": "那夫符文"
       },
       {
         "en": "Perfect Emerald",
-        "zh-TW": "Perfect Emerald",
-        "zh-CN": "Perfect Emerald"
+        "zh-TW": "完美的綠寶石",
+        "zh-CN": "完美的绿宝石"
       }
     ],
     "additionalInputIcons": [
@@ -2440,25 +2440,25 @@
     "family": "safety",
     "magicItemInput": {
       "en": "Magic Breast Plate",
-      "zh-TW": "Magic Breast Plate",
-      "zh-CN": "Magic Breast Plate"
+      "zh-TW": "魔法胸甲",
+      "zh-CN": "魔法胸甲"
     },
     "magicItemInputIcon": "invbrs",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Eth Rune",
-        "zh-TW": "Eth Rune",
-        "zh-CN": "Eth Rune"
+        "zh-TW": "愛斯符文",
+        "zh-CN": "爱斯符文"
       },
       {
         "en": "Perfect Emerald",
-        "zh-TW": "Perfect Emerald",
-        "zh-CN": "Perfect Emerald"
+        "zh-TW": "完美的綠寶石",
+        "zh-CN": "完美的绿宝石"
       }
     ],
     "additionalInputIcons": [
@@ -2516,25 +2516,25 @@
     "family": "safety",
     "magicItemInput": {
       "en": "Magic Amulet",
-      "zh-TW": "Magic Amulet",
-      "zh-CN": "Magic Amulet"
+      "zh-TW": "魔法項鍊",
+      "zh-CN": "魔法项链"
     },
     "magicItemInputIcon": "invamu",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Thul Rune",
-        "zh-TW": "Thul Rune",
-        "zh-CN": "Thul Rune"
+        "zh-TW": "書爾符文",
+        "zh-CN": "书尔符文"
       },
       {
         "en": "Perfect Emerald",
-        "zh-TW": "Perfect Emerald",
-        "zh-CN": "Perfect Emerald"
+        "zh-TW": "完美的綠寶石",
+        "zh-CN": "完美的绿宝石"
       }
     ],
     "additionalInputIcons": [
@@ -2592,25 +2592,25 @@
     "family": "safety",
     "magicItemInput": {
       "en": "Magic Ring",
-      "zh-TW": "Magic Ring",
-      "zh-CN": "Magic Ring"
+      "zh-TW": "魔法戒指",
+      "zh-CN": "魔法戒指"
     },
     "magicItemInputIcon": "invrin",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Amn Rune",
-        "zh-TW": "Amn Rune",
-        "zh-CN": "Amn Rune"
+        "zh-TW": "安姆符文",
+        "zh-CN": "安姆符文"
       },
       {
         "en": "Perfect Emerald",
-        "zh-TW": "Perfect Emerald",
-        "zh-CN": "Perfect Emerald"
+        "zh-TW": "完美的綠寶石",
+        "zh-CN": "完美的绿宝石"
       }
     ],
     "additionalInputIcons": [
@@ -2668,25 +2668,25 @@
     "family": "safety",
     "magicItemInput": {
       "en": "Magic Spear",
-      "zh-TW": "Magic Spear",
-      "zh-CN": "Magic Spear"
+      "zh-TW": "魔法長矛",
+      "zh-CN": "魔法长矛"
     },
     "magicItemInputIcon": "invspr",
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "Jewel",
-        "zh-CN": "Jewel"
+        "zh-TW": "寶石",
+        "zh-CN": "宝石"
       },
       {
         "en": "Sol Rune",
-        "zh-TW": "Sol Rune",
-        "zh-CN": "Sol Rune"
+        "zh-TW": "索爾符文",
+        "zh-CN": "索尔符文"
       },
       {
         "en": "Perfect Emerald",
-        "zh-TW": "Perfect Emerald",
-        "zh-CN": "Perfect Emerald"
+        "zh-TW": "完美的綠寶石",
+        "zh-CN": "完美的绿宝石"
       }
     ],
     "additionalInputIcons": [
