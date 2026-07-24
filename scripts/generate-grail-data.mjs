@@ -612,7 +612,31 @@ function baseFieldsFor(code) {
 // `variable` when min !== max, or folded back into `fixed` (as value) when
 // they happen to be equal, matching this file's established fixed/variable
 // split convention (see the "variable stats have min !== max" invariant).
+// D2's engine sums multiple instances of the same flat (no-par, no
+// disambiguating suffix) stat on one item rather than showing them as
+// separate lines — confirmed against Swordback Hold, whose raw uniqueitems.json
+// row literally has two "thorns" props (min=max=5 each): d2r.world shows one
+// combined "Attacker Takes Damage of 10" line, not two "...of 5" lines.
+// Codes that legitimately repeat with a *different* meaning each time (skill/
+// oskill/hit-skill/gethit-skill/skilltab/charged — always par-disambiguated,
+// see needsKeySuffix above) already get distinct keys and are untouched here.
+function sumDuplicateFixedStats(fixed) {
+  const seen = new Map();
+  const order = [];
+  for (const s of fixed) {
+    if (seen.has(s.key)) {
+      seen.get(s.key).value += s.value;
+    } else {
+      const copy = { ...s };
+      seen.set(s.key, copy);
+      order.push(copy);
+    }
+  }
+  return order;
+}
+
 function mergePoisonDamageOverTime(fixed) {
+  fixed = sumDuplicateFixedStats(fixed);
   const minEntry = fixed.find(s => s.key === 'pois-min');
   const maxEntry = fixed.find(s => s.key === 'pois-max');
   const lenEntry = fixed.find(s => s.key === 'pois-len');
@@ -697,6 +721,14 @@ function extractProps(entry, count, prefixes = { code: 'prop', par: 'par', min: 
     // stat. Showing "Ethereal: 1" as a property line would be misleading, so it's
     // excluded here rather than given a (necessarily made-up) label.
     if (rawCode === 'ethereal') continue;
+    // "bloody" (Swordback Hold, Gorefoot — the only two occurrences in
+    // uniqueitems.json) is likewise not a real displayed magic property: it
+    // has no itemstatcost.json Stat entry, and d2r.world's Magic Properties
+    // list for both items (audited against MyInput/MyData/unique_all this
+    // session) shows no corresponding line at all. Previously leaked to
+    // users verbatim as "bloody: 3-5" for lack of a label — excluded here
+    // rather than fabricating a display string for an internal-only flag.
+    if (rawCode === 'bloody') continue;
     // "<Family>-Affix1".."Affix6" (e.g. "Gelid-Affix1") on the Renewed-tier
     // Metamorphic charms (Crafted Cold Rupture etc.) are NOT the charm's own
     // stats — they're min=max=1 boolean tags an unrelated cross-item tracking

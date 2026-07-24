@@ -9123,17 +9123,6 @@
     "invFile": "invspku",
     "stats": [
       {
-        "key": "bloody",
-        "label": {
-          "en": "bloody",
-          "zh-TW": "bloody",
-          "zh-CN": "bloody"
-        },
-        "min": 3,
-        "max": 5,
-        "isSkillRef": false
-      },
-      {
         "key": "ac%",
         "label": {
           "en": "Enhanced Defense %",
@@ -9153,7 +9142,7 @@
           "zh-TW": "攻擊者承受傷害",
           "zh-CN": "攻击者承受伤害"
         },
-        "value": 5,
+        "value": 10,
         "isSkillRef": false
       },
       {
@@ -9177,16 +9166,6 @@
         "isSkillRef": false
       },
       {
-        "key": "thorns",
-        "label": {
-          "en": "Attacker Takes Damage",
-          "zh-TW": "攻擊者承受傷害",
-          "zh-CN": "攻击者承受伤害"
-        },
-        "value": 5,
-        "isSkillRef": false
-      },
-      {
         "key": "ac",
         "label": {
           "en": "Defense",
@@ -9199,7 +9178,6 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "bloody",
       "ac%"
     ],
     "note": null,
@@ -10147,17 +10125,6 @@
     "invFile": "invvbt",
     "stats": [
       {
-        "key": "bloody",
-        "label": {
-          "en": "bloody",
-          "zh-TW": "bloody",
-          "zh-CN": "bloody"
-        },
-        "min": 3,
-        "max": 5,
-        "isSkillRef": false
-      },
-      {
         "key": "ac%",
         "label": {
           "en": "Enhanced Defense %",
@@ -10223,7 +10190,6 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "bloody",
       "ac%"
     ],
     "note": null,
