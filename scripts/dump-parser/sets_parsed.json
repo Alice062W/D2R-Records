@@ -1,0 +1,6307 @@
+{
+  "aldurs_watchtower": {
+    "slug": "aldurs_watchtower",
+    "setName": "Aldur's Watchtower",
+    "partialBonusRaw": [
+      "150% Bonus to Attack Rating (2)",
+      "50% Better Chance of Getting Magic Items (3)"
+    ],
+    "fullBonusRaw": [
+      "+3 to Druid Skill Levels",
+      "+350% Enhanced Damage",
+      "150% Bonus to Attack Rating",
+      "50% Better Chance of Getting Magic Items",
+      "10% Mana stolen per hit",
+      "All Resistances +50",
+      "+150 Defense",
+      "+150 to Mana",
+      "Character Displays Aura Effect"
+    ],
+    "pieces": {
+      "aldurs_stony_gaze": {
+        "name": "Aldur's Stony Gaze",
+        "slug": "aldurs_stony_gaze",
+        "itemStats": {
+          "Base": "Hunter's Guise",
+          "Grade": "Exceptional",
+          "Defense": "157-171",
+          "Required Level": "36",
+          "Required Strength": "56",
+          "Durability": "20",
+          "(Druid Only)": ""
+        },
+        "stats": [
+          "+90 Defense",
+          "+25% Faster Hit Recovery",
+          "Regenerate Mana 17%",
+          "Cold Resist +40-50%",
+          "Socketed (2)",
+          "+5 to Light Radius",
+          "+15 to Energy (2)",
+          "+15 to Energy (3)",
+          "+15 to Energy (Completed Set)"
+        ]
+      },
+      "aldurs_advance": {
+        "name": "Aldur's Advance",
+        "slug": "aldurs_advance",
+        "itemStats": {
+          "Base": "Battle Boots",
+          "Grade": "Exceptional",
+          "Defense": "39-47",
+          "Required Level": "45",
+          "Required Strength": "95",
+          "Kick Damage": "37 to 64"
+        },
+        "stats": [
+          "Indestructible",
+          "+40% Faster Run/Walk",
+          "+180 Maximum Stamina",
+          "+10% Damage Taken Goes To Mana",
+          "Heal Stamina Plus 32%",
+          "+50 to Life",
+          "Fire Resist +40-50%",
+          "+15 to Dexterity (2)",
+          "+15 to Dexterity (3)",
+          "+15 to Dexterity (Completed Set)"
+        ]
+      },
+      "aldurs_rhythm": {
+        "name": "Aldur's Rhythm",
+        "slug": "aldurs_rhythm",
+        "itemStats": {
+          "Base": "Jagged Star",
+          "Grade": "Exceptional",
+          "One-Hand Damage": "60 to 93",
+          "Required Level": "42",
+          "Required Strength": "74",
+          "Durability": "72",
+          "Base Weapon Speed": "10"
+        },
+        "stats": [
+          "+200% Damage to Demons",
+          "+50% Damage to Undead",
+          "Adds 40-62 damage",
+          "Adds 50-75 lightning damage",
+          "+30% Increased Attack Speed",
+          "10% Life stolen per hit",
+          "5% Mana stolen per hit",
+          "Socketed ( 2-3 )",
+          "+15 to Strength (2)",
+          "+15 to Strength (3)",
+          "+15 to Strength (Completed Set)"
+        ]
+      },
+      "aldurs_deception": {
+        "name": "Aldur's Deception",
+        "slug": "aldurs_deception",
+        "itemStats": {
+          "Base": "Shadow Plate",
+          "Grade": "Elite",
+          "Defense": "746-857",
+          "Required Level": "76",
+          "Required Strength": "115",
+          "Durability": "70"
+        },
+        "stats": [
+          "+300 Defense",
+          "Requirements -50%",
+          "Lightning Resist +40-50%",
+          "+15 to Dexterity",
+          "+20 to Strength",
+          "+1 to Elemental Skills (Druid Only)",
+          "+1 to Shape Shifting Skills (Druid Only)",
+          "+15 to Vitality (2)",
+          "+15 to Vitality (3)",
+          "+15 to Vitality (Completed Set)"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "艾爾多的守衛",
+      "partialBonusRaw": [
+        "150% 準確率加成 (2)",
+        "尋獲魔法物品機率提高 50% (3)"
+      ],
+      "fullBonusRaw": [
+        "+3 德魯伊技能等級",
+        "+350% 傷害強化",
+        "150% 準確率加成",
+        "尋獲魔法物品機率提高 50%",
+        "擊中竊取 10% 法力",
+        "所有抗性 +50",
+        "+150 防禦",
+        "+150 法力",
+        "角色顯示光環效果"
+      ],
+      "pieces": {
+        "aldurs_stony_gaze": {
+          "name": "艾爾多的冷酷凝視",
+          "itemStats": {
+            "基礎": "獵人面罩",
+            "級別": "卓越",
+            "防禦": "157-171",
+            "需要等級": "36",
+            "需要力量": "56",
+            "耐久度": "20",
+            "(德魯伊專用)": ""
+          },
+          "stats": [
+            "+90 防禦",
+            "+25% 打擊恢復",
+            "法力恢復 17%",
+            "冰寒抗性 +40-50%",
+            "鑲孔（2）",
+            "照亮範圍 +5",
+            "+15 能量 (2)",
+            "+15 能量 (3)",
+            "+15 能量 (全套)"
+          ]
+        },
+        "aldurs_advance": {
+          "name": "艾爾多的進擊",
+          "itemStats": {
+            "基礎": "戰鬥靴",
+            "級別": "卓越",
+            "防禦": "39-47",
+            "需要等級": "45",
+            "需要力量": "95",
+            "踢擊傷害": "37 - 64 點"
+          },
+          "stats": [
+            "永不毀損",
+            "+40% 跑步 / 行走速度",
+            "+180 精力上限",
+            "+10% 受到的傷害轉為法力",
+            "精力恢復 +32%",
+            "+50 生命",
+            "火焰抗性 +40-50%",
+            "+15 敏捷 (2)",
+            "+15 敏捷 (3)",
+            "+15 敏捷 (全套)"
+          ]
+        },
+        "aldurs_rhythm": {
+          "name": "艾爾多的律動",
+          "itemStats": {
+            "基礎": "鋸齒釘頭鎚",
+            "級別": "卓越",
+            "單手傷害": "60 - 93 點",
+            "需要等級": "42",
+            "需要力量": "74",
+            "耐久度": "72",
+            "武器基本速度": "[10]"
+          },
+          "stats": [
+            "+200% 對惡魔的傷害",
+            "+50% 對不死怪物的傷害",
+            "附加 40 - 62 傷害",
+            "附加 50 - 75 電擊傷害",
+            "攻擊速度 +30%",
+            "擊中竊取 10% 生命",
+            "擊中竊取 5% 法力",
+            "鑲孔（ 2-3 ）",
+            "+15 力量 (2)",
+            "+15 力量 (3)",
+            "+15 力量 (全套)"
+          ]
+        },
+        "aldurs_deception": {
+          "name": "艾爾多的欺暪",
+          "itemStats": {
+            "基礎": "暗影鎧甲",
+            "級別": "精英",
+            "防禦": "746-857",
+            "需要等級": "76",
+            "需要力量": "115",
+            "耐久度": "70"
+          },
+          "stats": [
+            "+300 防禦",
+            "需求 -50%",
+            "電擊抗性 +40-50%",
+            "+15 敏捷",
+            "+20 力量",
+            "+1 元素技能 （只限德魯伊）",
+            "+1 變形技能 （只限德魯伊）",
+            "+15 體能 (2)",
+            "+15 體能 (3)",
+            "+15 體能 (全套)"
+          ]
+        }
+      }
+    }
+  },
+  "angelic_raiment": {
+    "slug": "angelic_raiment",
+    "setName": "Angelic Raiment",
+    "partialBonusRaw": [
+      "+10 to Dexterity (2)",
+      "+50 to Mana (3)"
+    ],
+    "fullBonusRaw": [
+      "Half Freeze Duration",
+      "All Resistances +25",
+      "40% Better Chance of Getting Magic Items",
+      "Regenerate Mana 8%",
+      "+10 to Dexterity",
+      "+50 to Mana"
+    ],
+    "pieces": {
+      "angelic_mantle": {
+        "name": "Angelic Mantle",
+        "slug": "angelic_mantle",
+        "itemStats": {
+          "Base": "Ring Mail",
+          "Grade": "Normal",
+          "Defense": "218",
+          "Required Level": "12",
+          "Required Strength": "36",
+          "Durability": "26"
+        },
+        "stats": [
+          "+40% Enhanced Defense",
+          "Damage Reduced by 3",
+          "+150 Defense (2)",
+          "Fire Resist +50% (3)"
+        ]
+      },
+      "angelic_sickle": {
+        "name": "Angelic Sickle",
+        "slug": "angelic_sickle",
+        "itemStats": {
+          "Base": "Sabre",
+          "Grade": "Normal",
+          "One-Hand Damage": "5 to 14",
+          "Required Level": "12",
+          "Required Strength": "25",
+          "Required Dexterity": "25",
+          "Durability": "32",
+          "Base Weapon Speed": "-10"
+        },
+        "stats": [
+          "+250% Damage to Undead",
+          "+75 to Attack Rating",
+          "+75% Enhanced Damage (2)",
+          "+30% Increased Attack Speed (3)"
+        ]
+      },
+      "angelic_halo": {
+        "name": "Angelic Halo",
+        "slug": "angelic_halo",
+        "itemStats": {
+          "Base": "Ring",
+          "Grade": "Normal",
+          "Required Level": "12"
+        },
+        "stats": [
+          "Replenish Life +6",
+          "+20 to Life",
+          "+(144-1188) to Attack Rating (Based on Character Level) (2)",
+          "50% Better Chance of Getting Magic Items (3)"
+        ]
+      },
+      "angelic_wings": {
+        "name": "Angelic Wings",
+        "slug": "angelic_wings",
+        "itemStats": {
+          "Base": "Amulet",
+          "Grade": "Normal",
+          "Required Level": "12"
+        },
+        "stats": [
+          "+20% Damage Taken Goes To Mana",
+          "+3 to Light Radius",
+          "+75 to Life (2)",
+          "+1 to All Skills (3)"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "天使的衣裝",
+      "partialBonusRaw": [
+        "+10 敏捷 (2)",
+        "+50 法力 (3)"
+      ],
+      "fullBonusRaw": [
+        "被凍結的時效減半",
+        "所有抗性 +25",
+        "尋獲魔法物品機率提高 40%",
+        "法力恢復 8%",
+        "+10 敏捷",
+        "+50 法力"
+      ],
+      "pieces": {
+        "angelic_mantle": {
+          "name": "天使的披風",
+          "itemStats": {
+            "基礎": "環甲",
+            "級別": "普通",
+            "防禦": "218",
+            "需要等級": "12",
+            "需要力量": "36",
+            "耐久度": "26"
+          },
+          "stats": [
+            "+40% 防禦強化",
+            "傷害降低 3",
+            "+150 防禦 (2)",
+            "火焰抗性 +50% (3)"
+          ]
+        },
+        "angelic_sickle": {
+          "name": "天使的鐮刀",
+          "itemStats": {
+            "基礎": "軍刀",
+            "級別": "普通",
+            "單手傷害": "5 - 14 點",
+            "需要等級": "12",
+            "需要力量": "25",
+            "需要敏捷": "25",
+            "耐久度": "32",
+            "武器基本速度": "[-10]"
+          },
+          "stats": [
+            "+250% 對不死怪物的傷害",
+            "+75 準確率",
+            "+75% 傷害強化 (2)",
+            "攻擊速度 +30% (3)"
+          ]
+        },
+        "angelic_halo": {
+          "name": "天使的光暈",
+          "itemStats": {
+            "基礎": "戒指",
+            "級別": "普通",
+            "需要等級": "12"
+          },
+          "stats": [
+            "生命回復 +6",
+            "+20 生命",
+            "+(144-1188) 準確率 （依角色等級而定） (2)",
+            "尋獲魔法物品機率提高 50% (3)"
+          ]
+        },
+        "angelic_wings": {
+          "name": "天使的翅膀",
+          "itemStats": {
+            "基礎": "護身符",
+            "級別": "普通",
+            "需要等級": "12"
+          },
+          "stats": [
+            "+20% 受到的傷害轉為法力",
+            "照亮範圍 +3",
+            "+75 生命 (2)",
+            "+1 所有技能 (3)"
+          ]
+        }
+      }
+    }
+  },
+  "arcannas_tricks": {
+    "slug": "arcannas_tricks",
+    "setName": "Arcanna's Tricks",
+    "partialBonusRaw": [
+      "+50 to Mana (2)",
+      "+50 to Life (3)",
+      "Regenerate Mana 12% (3)"
+    ],
+    "fullBonusRaw": [
+      "+1 to All Skills",
+      "+20% Faster Cast Rate",
+      "5% Mana stolen per hit",
+      "+50 to Life",
+      "+75 to Mana",
+      "Regenerate Mana 12%"
+    ],
+    "pieces": {
+      "arcannas_head": {
+        "name": "Arcanna's Head",
+        "slug": "arcannas_head",
+        "itemStats": {
+          "Base": "Skull Cap",
+          "Grade": "Normal",
+          "Defense": "(11-305)-(14-308)",
+          "Required Level": "15",
+          "Required Strength": "15",
+          "Durability": "18"
+        },
+        "stats": [
+          "Replenish Life +4",
+          "Attacker Takes Damage of 2",
+          "+(3-297) Defense (Based on Character Level) (2)",
+          "Lightning Resist +15% (3)"
+        ]
+      },
+      "arcannas_flesh": {
+        "name": "Arcanna's Flesh",
+        "slug": "arcannas_flesh",
+        "itemStats": {
+          "Base": "Light Plate",
+          "Grade": "Normal",
+          "Defense": "190-207",
+          "Required Level": "15",
+          "Required Strength": "41",
+          "Durability": "60"
+        },
+        "stats": [
+          "+2 to Light Radius",
+          "Damage Reduced by 3",
+          "+100 Defense (2)",
+          "+10 to Energy (3)"
+        ]
+      },
+      "arcannas_deathwand": {
+        "name": "Arcanna's Deathwand",
+        "slug": "arcannas_deathwand",
+        "itemStats": {
+          "Base": "War Staff",
+          "Grade": "Normal",
+          "Two-Hand Damage": "12 to 28",
+          "Required Level": "15",
+          "Durability": "50",
+          "Base Weapon Speed": "20"
+        },
+        "stats": [
+          "+1 to Sorceress Skill Levels",
+          "+25% Deadly Strike",
+          "+50% Damage to Undead",
+          "+50 to Mana (2)",
+          "Regenerate Mana 5% (3)"
+        ]
+      },
+      "arcannas_sign": {
+        "name": "Arcanna's Sign",
+        "slug": "arcannas_sign",
+        "itemStats": {
+          "Base": "Amulet",
+          "Grade": "Normal",
+          "Required Level": "15"
+        },
+        "stats": [
+          "Regenerate Mana 20%",
+          "+15 to Mana",
+          "50% Better Chance of Getting Magic Items (2)",
+          "Fire Resist +20% (3)"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "阿卡娜的詭計",
+      "partialBonusRaw": [
+        "+50 法力 (2)",
+        "+50 生命 (3)",
+        "法力恢復 12% (3)"
+      ],
+      "fullBonusRaw": [
+        "+1 所有技能",
+        "+20% 施法速度",
+        "擊中竊取 5% 法力",
+        "+50 生命",
+        "+75 法力",
+        "法力恢復 12%"
+      ],
+      "pieces": {
+        "arcannas_head": {
+          "name": "阿卡娜的頭",
+          "itemStats": {
+            "基礎": "顱帽",
+            "級別": "普通",
+            "防禦": "(11-305)-(14-308)",
+            "需要等級": "15",
+            "需要力量": "15",
+            "耐久度": "18"
+          },
+          "stats": [
+            "生命回復 +4",
+            "攻擊者反傷：2",
+            "+(3-297) 防禦 （依角色等級而定） (2)",
+            "電擊抗性 +15% (3)"
+          ]
+        },
+        "arcannas_flesh": {
+          "name": "阿卡娜的血肉",
+          "itemStats": {
+            "基礎": "輕型鎧甲",
+            "級別": "普通",
+            "防禦": "190-207",
+            "需要等級": "15",
+            "需要力量": "41",
+            "耐久度": "60"
+          },
+          "stats": [
+            "照亮範圍 +2",
+            "傷害降低 3",
+            "+100 防禦 (2)",
+            "+10 能量 (3)"
+          ]
+        },
+        "arcannas_deathwand": {
+          "name": "阿卡娜的死亡之杖",
+          "itemStats": {
+            "基礎": "征戰法杖",
+            "級別": "普通",
+            "雙手傷害": "12 - 28 點",
+            "需要等級": "15",
+            "耐久度": "50",
+            "武器基本速度": "[20]"
+          },
+          "stats": [
+            "+1 魔法使技能等級",
+            "+25% 致命打擊",
+            "+50% 對不死怪物的傷害",
+            "+50 法力 (2)",
+            "法力恢復 5% (3)"
+          ]
+        },
+        "arcannas_sign": {
+          "name": "阿卡娜的符印",
+          "itemStats": {
+            "基礎": "護身符",
+            "級別": "普通",
+            "需要等級": "15"
+          },
+          "stats": [
+            "法力恢復 20%",
+            "+15 法力",
+            "尋獲魔法物品機率提高 50% (2)",
+            "火焰抗性 +20% (3)"
+          ]
+        }
+      }
+    }
+  },
+  "arctic_gear": {
+    "slug": "arctic_gear",
+    "setName": "Arctic Gear",
+    "partialBonusRaw": [
+      "+5 to Strength (2)",
+      "+50 to Life (3)"
+    ],
+    "fullBonusRaw": [
+      "+(2-198) to Maximum Cold Damage (Based on Character Level)",
+      "+5 to Strength",
+      "+50 to Life",
+      "Cannot Be Frozen"
+    ],
+    "pieces": {
+      "arctic_furs": {
+        "name": "Arctic Furs",
+        "slug": "arctic_furs",
+        "itemStats": {
+          "Base": "Quilted Armor",
+          "Grade": "Normal",
+          "Defense": "(48-342)-(54-348)",
+          "Required Level": "2",
+          "Required Strength": "12",
+          "Durability": "20"
+        },
+        "stats": [
+          "+275-325% Enhanced Defense",
+          "All Resistances +10",
+          "+(3-297) Defense (Based on Character Level) (2)",
+          "Cold Resist +15% (3)"
+        ]
+      },
+      "arctic_binding": {
+        "name": "Arctic Binding",
+        "slug": "arctic_binding",
+        "itemStats": {
+          "Base": "Light Belt",
+          "Grade": "Normal",
+          "Defense": "33",
+          "Required Level": "2",
+          "Durability": "14"
+        },
+        "stats": [
+          "Cold Resist +40%",
+          "+30 Defense",
+          "40% Better Chance of Getting Magic Items (2)",
+          "Cold Resist +10% (3)"
+        ]
+      },
+      "arctic_mitts": {
+        "name": "Arctic Mitts",
+        "slug": "arctic_mitts",
+        "itemStats": {
+          "Base": "Light Gauntlets",
+          "Grade": "Normal",
+          "Defense": "9-11",
+          "Required Level": "2",
+          "Required Strength": "45",
+          "Durability": "18"
+        },
+        "stats": [
+          "+20 to Life",
+          "+10% Increased Attack Speed",
+          "+50 to Attack Rating (2)",
+          "+10 to Dexterity (3)"
+        ]
+      },
+      "arctic_horn": {
+        "name": "Arctic Horn",
+        "slug": "arctic_horn",
+        "itemStats": {
+          "Base": "Short War Bow",
+          "Grade": "Normal",
+          "Two-Hand Damage": "9 to 21",
+          "Required Level": "2",
+          "Required Strength": "35",
+          "Required Dexterity": "55",
+          "Base Weapon Speed": "0"
+        },
+        "stats": [
+          "+50% Enhanced Damage",
+          "20% Bonus to Attack Rating",
+          "+(8-792) to Attack Rating (Based on Character Level) (2)",
+          "Adds 20-30 cold damage (3)"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "北極裝備",
+      "partialBonusRaw": [
+        "+5 力量 (2)",
+        "+50 生命 (3)"
+      ],
+      "fullBonusRaw": [
+        "+(2-198) 冰寒傷害最大值 （依角色等級而定）",
+        "+5 力量",
+        "+50 生命",
+        "無法凍結"
+      ],
+      "pieces": {
+        "arctic_furs": {
+          "name": "北極毛皮",
+          "itemStats": {
+            "基礎": "棉布甲",
+            "級別": "普通",
+            "防禦": "(48-342)-(54-348)",
+            "需要等級": "2",
+            "需要力量": "12",
+            "耐久度": "20"
+          },
+          "stats": [
+            "+275-325% 防禦強化",
+            "所有抗性 +10",
+            "+(3-297) 防禦 （依角色等級而定） (2)",
+            "冰寒抗性 +15% (3)"
+          ]
+        },
+        "arctic_binding": {
+          "name": "北極捆索",
+          "itemStats": {
+            "基礎": "輕腰帶",
+            "級別": "普通",
+            "防禦": "33",
+            "需要等級": "2",
+            "耐久度": "14"
+          },
+          "stats": [
+            "冰寒抗性 +40%",
+            "+30 防禦",
+            "尋獲魔法物品機率提高 40% (2)",
+            "冰寒抗性 +10% (3)"
+          ]
+        },
+        "arctic_mitts": {
+          "name": "北極手套",
+          "itemStats": {
+            "基礎": "輕型護手",
+            "級別": "普通",
+            "防禦": "9-11",
+            "需要等級": "2",
+            "需要力量": "45",
+            "耐久度": "18"
+          },
+          "stats": [
+            "+20 生命",
+            "攻擊速度 +10%",
+            "+50 準確率 (2)",
+            "+10 敏捷 (3)"
+          ]
+        },
+        "arctic_horn": {
+          "name": "北極號角",
+          "itemStats": {
+            "基礎": "征戰短弓",
+            "級別": "普通",
+            "雙手傷害": "9 - 21 點",
+            "需要等級": "2",
+            "需要力量": "35",
+            "需要敏捷": "55",
+            "武器基本速度": "[0]"
+          },
+          "stats": [
+            "+50% 傷害強化",
+            "20% 準確率加成",
+            "+(8-792) 準確率 （依角色等級而定） (2)",
+            "附加 20 - 30 冰寒傷害 (3)"
+          ]
+        }
+      }
+    }
+  },
+  "banes_garments": {
+    "slug": "banes_garments",
+    "setName": "Bane's Garments",
+    "partialBonusRaw": [
+      "+80% Enhanced Damage (2)"
+    ],
+    "fullBonusRaw": [
+      "+80% Enhanced Damage",
+      "+1 to All Skills",
+      "+15 to Dexterity",
+      "+25% Faster Cast Rate",
+      "40% Better Chance of Getting Magic Items"
+    ],
+    "pieces": {
+      "banes_wraithskin": {
+        "name": "Bane's Wraithskin",
+        "slug": "banes_wraithskin",
+        "itemStats": {
+          "Base": "Hard Leather Armor",
+          "Grade": "Normal",
+          "Defense": "71-74",
+          "Required Level": "8",
+          "Required Strength": "20",
+          "Durability": "28"
+        },
+        "stats": [
+          "+50 Defense",
+          "Magic Resist +30%",
+          "+25% Faster Hit Recovery (2)",
+          "+(8-792) to Attack Rating (Based on Character Level) (3)"
+        ]
+      },
+      "banes_authority": {
+        "name": "Bane's Authority",
+        "slug": "banes_authority",
+        "itemStats": {
+          "Base": "Light Belt",
+          "Grade": "Normal",
+          "Defense": "3",
+          "Belt Size": "+4 Slots",
+          "Required Level": "8",
+          "Durability": "14"
+        },
+        "stats": [
+          "+10% Faster Cast Rate",
+          "+20 to Life",
+          "+15 to Energy (3)"
+        ]
+      },
+      "banes_oathmaker": {
+        "name": "Bane's Oathmaker",
+        "slug": "banes_oathmaker",
+        "itemStats": {
+          "Base": "Kris",
+          "Grade": "Normal",
+          "One-Hand Damage": "2 to 11",
+          "Required Level": "8",
+          "Required Dexterity": "23",
+          "Base Weapon Speed": "-20"
+        },
+        "stats": [
+          "+20% Faster Run/Walk",
+          "+(1-99) to Maximum Damage (Based on Character Level)",
+          "+3 to Mana after each Kill (2)",
+          "+30% Deadly Strike (3)"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "貝恩的衣裝",
+      "partialBonusRaw": [
+        "+80% 傷害強化 (2)"
+      ],
+      "fullBonusRaw": [
+        "+80% 傷害強化",
+        "+1 所有技能",
+        "+15 敏捷",
+        "+25% 施法速度",
+        "尋獲魔法物品機率提高 40%"
+      ],
+      "pieces": {
+        "banes_wraithskin": {
+          "name": "貝恩的靈膚",
+          "itemStats": {
+            "基礎": "硬皮甲",
+            "級別": "普通",
+            "防禦": "71-74",
+            "需要等級": "8",
+            "需要力量": "20",
+            "耐久度": "28"
+          },
+          "stats": [
+            "+50 防禦",
+            "魔法抗性 +30%",
+            "+25% 打擊恢復 (2)",
+            "+(8-792) 準確率 （依角色等級而定） (3)"
+          ]
+        },
+        "banes_authority": {
+          "name": "貝恩的權威",
+          "itemStats": {
+            "基礎": "輕腰帶",
+            "級別": "普通",
+            "防禦": "3",
+            "腰帶空間": "+4 格",
+            "需要等級": "8",
+            "耐久度": "14"
+          },
+          "stats": [
+            "+10% 施法速度",
+            "+20 生命",
+            "+15 能量 (3)"
+          ]
+        },
+        "banes_oathmaker": {
+          "name": "貝恩的立誓者",
+          "itemStats": {
+            "基礎": "波刃匕首",
+            "級別": "普通",
+            "單手傷害": "2 - 11 點",
+            "需要等級": "8",
+            "需要敏捷": "23",
+            "武器基本速度": "[-20]"
+          },
+          "stats": [
+            "+20% 跑步 / 行走速度",
+            "+(1-99) 最大傷害 （依角色等級而定）",
+            "+3 擊殺法力恢復 (2)",
+            "+30% 致命打擊 (3)"
+          ]
+        }
+      }
+    }
+  },
+  "berserkers_arsenal": {
+    "slug": "berserkers_arsenal",
+    "setName": "Berserker's Arsenal",
+    "partialBonusRaw": [
+      "+50 to Life (2)"
+    ],
+    "fullBonusRaw": [
+      "+50 to Life",
+      "+75 Defense",
+      "Poison Length Reduced by 75%",
+      "Adds 5-9 poison damage over 3 seconds"
+    ],
+    "pieces": {
+      "berserkers_headgear": {
+        "name": "Berserker's Headgear",
+        "slug": "berserkers_headgear",
+        "itemStats": {
+          "Base": "Helm",
+          "Grade": "Normal",
+          "Defense": "30-33",
+          "Required Level": "3",
+          "Required Strength": "26",
+          "Durability": "24"
+        },
+        "stats": [
+          "+15 Defense",
+          "Fire Resist +25%",
+          "+(48-792) to Attack Rating (Based on Character Level) (2)"
+        ]
+      },
+      "berserkers_hauberk": {
+        "name": "Berserker's Hauberk",
+        "slug": "berserkers_hauberk",
+        "itemStats": {
+          "Base": "Splint Mail",
+          "Grade": "Normal",
+          "Defense": "(93-387)-(98-392)",
+          "Required Level": "3",
+          "Required Strength": "51",
+          "Durability": "30"
+        },
+        "stats": [
+          "+1 to Barbarian Skill Levels",
+          "Magic Damage Reduced by 2",
+          "+(3-297) Defense (Based on Character Level) (2)"
+        ]
+      },
+      "berserkers_hatchet": {
+        "name": "Berserker's Hatchet",
+        "slug": "berserkers_hatchet",
+        "itemStats": {
+          "Base": "Double Axe",
+          "Grade": "Normal",
+          "One-Hand Damage": "7 to 19",
+          "Required Level": "3",
+          "Required Strength": "43",
+          "Durability": "24",
+          "Base Weapon Speed": "10"
+        },
+        "stats": [
+          "30% Bonus to Attack Rating",
+          "5% Mana stolen per hit",
+          "+50% Enhanced Damage (2)"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "狂戰士的武裝",
+      "partialBonusRaw": [
+        "+50 生命 (2)"
+      ],
+      "fullBonusRaw": [
+        "+50 生命",
+        "+75 防禦",
+        "中毒的時效縮短 75%",
+        "附加 5 - 9 毒素傷害，時效 3 秒"
+      ],
+      "pieces": {
+        "berserkers_headgear": {
+          "name": "狂戰士頭盔",
+          "itemStats": {
+            "基礎": "頭盔",
+            "級別": "普通",
+            "防禦": "30-33",
+            "需要等級": "3",
+            "需要力量": "26",
+            "耐久度": "24"
+          },
+          "stats": [
+            "+15 防禦",
+            "火焰抗性 +25%",
+            "+(48-792) 準確率 （依角色等級而定） (2)"
+          ]
+        },
+        "berserkers_hauberk": {
+          "name": "狂戰士鎖子甲",
+          "itemStats": {
+            "基礎": "板甲",
+            "級別": "普通",
+            "防禦": "(93-387)-(98-392)",
+            "需要等級": "3",
+            "需要力量": "51",
+            "耐久度": "30"
+          },
+          "stats": [
+            "+1 野蠻人技能等級",
+            "魔法傷害降低 2",
+            "+(3-297) 防禦 （依角色等級而定） (2)"
+          ]
+        },
+        "berserkers_hatchet": {
+          "name": "狂戰士手斧",
+          "itemStats": {
+            "基礎": "雙刃斧",
+            "級別": "普通",
+            "單手傷害": "7 - 19 點",
+            "需要等級": "3",
+            "需要力量": "43",
+            "耐久度": "24",
+            "武器基本速度": "[10]"
+          },
+          "stats": [
+            "30% 準確率加成",
+            "擊中竊取 5% 法力",
+            "+50% 傷害強化 (2)"
+          ]
+        }
+      }
+    }
+  },
+  "bulkathos_children": {
+    "slug": "bulkathos_children",
+    "setName": "Bul-Kathos' Children",
+    "partialBonusRaw": [
+      "+2 to All Skill Levels",
+      "+200 to Attack Rating",
+      "+200% Damage to Demons",
+      "+200% Damage to Undead",
+      "+200 fire damage",
+      "10% Life stolen per hit",
+      "+20% Deadly Strike",
+      "+200 Defense"
+    ],
+    "fullBonusRaw": [],
+    "pieces": {
+      "bulkathos_sacred_charge": {
+        "name": "Bul-Kathos' Sacred Charge",
+        "slug": "bulkathos_sacred_charge",
+        "itemStats": {
+          "Base": "Colossus Blade",
+          "Grade": "Elite",
+          "One-Hand Damage": "75 to 195",
+          "Two-Hand Damage": "174 to 345",
+          "Required Level": "63",
+          "Required Strength": "189",
+          "Required Dexterity": "110",
+          "Durability": "50",
+          "Base Weapon Speed": "5"
+        },
+        "stats": [
+          "+200% Enhanced Damage",
+          "+35% Chance of Crushing Blow",
+          "All Resistances +20",
+          "+20% Increased Attack Speed",
+          "Knockback"
+        ]
+      },
+      "bulkathos_tribal_guardian": {
+        "name": "Bul-Kathos' Tribal Guardian",
+        "slug": "bulkathos_tribal_guardian",
+        "itemStats": {
+          "Base": "Mythical Sword",
+          "Grade": "Elite",
+          "One-Hand Damage": "120 to 150",
+          "Required Level": "66",
+          "Required Strength": "147",
+          "Required Dexterity": "124",
+          "Durability": "44",
+          "Base Weapon Speed": "0"
+        },
+        "stats": [
+          "+200% Enhanced Damage",
+          "+50 poison damage over 2 seconds",
+          "Fire Resist +50%",
+          "+20 to Strength",
+          "+20% Increased Attack Speed"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "布爾凱索的子嗣",
+      "partialBonusRaw": [
+        "+2 所有技能等級",
+        "+200 準確率",
+        "+200% 對惡魔的傷害",
+        "+200% 對不死怪物的傷害",
+        "+200 火焰傷害",
+        "擊中竊取 10% 生命",
+        "+20% 致命打擊",
+        "+200 防禦"
+      ],
+      "fullBonusRaw": [],
+      "pieces": {
+        "bulkathos_sacred_charge": {
+          "name": "布爾凱索的神聖職責",
+          "itemStats": {
+            "基礎": "巨神刃",
+            "級別": "精英",
+            "單手傷害": "75 - 195 點",
+            "雙手傷害": "174 - 345 點",
+            "需要等級": "63",
+            "需要力量": "189",
+            "需要敏捷": "110",
+            "耐久度": "50",
+            "武器基本速度": "[5]"
+          },
+          "stats": [
+            "+200% 傷害強化",
+            "+35% 機率造成粉碎打擊",
+            "所有抗性 +20",
+            "攻擊速度 +20%",
+            "擊退"
+          ]
+        },
+        "bulkathos_tribal_guardian": {
+          "name": "布爾凱索的部族守護",
+          "itemStats": {
+            "基礎": "秘儀劍",
+            "級別": "精英",
+            "單手傷害": "120 - 150 點",
+            "需要等級": "66",
+            "需要力量": "147",
+            "需要敏捷": "124",
+            "耐久度": "44",
+            "武器基本速度": "[0]"
+          },
+          "stats": [
+            "+200% 傷害強化",
+            "+50 毒素傷害，時效 2 秒",
+            "火焰抗性 +50%",
+            "+20 力量",
+            "攻擊速度 +20%"
+          ]
+        }
+      }
+    }
+  },
+  "cathans_traps": {
+    "slug": "cathans_traps",
+    "setName": "Cathan's Traps",
+    "partialBonusRaw": [
+      "Adds 15-20 fire damage (2)",
+      "Regenerate Mana 16% (2)",
+      "Lightning Resist +25% (3)"
+    ],
+    "fullBonusRaw": [
+      "+10% Faster Cast Rate",
+      "+60 to Attack Rating",
+      "Adds 15-20 fire damage",
+      "+20 to Mana",
+      "Regenerate Mana 16%",
+      "Lightning Resist +25%",
+      "All Resistances +25",
+      "Magic Damage Reduced by 3"
+    ],
+    "pieces": {
+      "cathans_visage": {
+        "name": "Cathan's Visage",
+        "slug": "cathans_visage",
+        "itemStats": {
+          "Base": "Mask",
+          "Grade": "Normal",
+          "Defense": "(11-207)-(29-225)",
+          "Required Level": "11",
+          "Required Strength": "23",
+          "Durability": "20"
+        },
+        "stats": [
+          "Cold Resist +25%",
+          "+20 to Mana",
+          "+(2-198) Defense (Based on Character Level) (2)"
+        ]
+      },
+      "cathans_mesh": {
+        "name": "Cathan's Mesh",
+        "slug": "cathans_mesh",
+        "itemStats": {
+          "Base": "Chain Mail",
+          "Grade": "Normal",
+          "Defense": "87-90",
+          "Required Level": "11",
+          "Required Strength": "24",
+          "Durability": "45"
+        },
+        "stats": [
+          "+15 Defense",
+          "Requirements -50%",
+          "Attacker Takes Damage of 5 (2)",
+          "Fire Resist +30% (3)"
+        ]
+      },
+      "cathans_rule": {
+        "name": "Cathan's Rule",
+        "slug": "cathans_rule",
+        "itemStats": {
+          "Base": "Battle Staff",
+          "Grade": "Normal",
+          "Two-Hand Damage": "6 to 13",
+          "Required Level": "11",
+          "Durability": "40",
+          "Base Weapon Speed": "0"
+        },
+        "stats": [
+          "+1 to Fire Skills",
+          "+10 to Maximum Fire Damage",
+          "+50% Damage to Undead",
+          "+50 to Mana (2)",
+          "All Resistances +10 (3)"
+        ]
+      },
+      "cathans_sigil": {
+        "name": "Cathan's Sigil",
+        "slug": "cathans_sigil",
+        "itemStats": {
+          "Base": "Amulet",
+          "Grade": "Normal",
+          "Required Level": "11"
+        },
+        "stats": [
+          "Attacker Takes Lightning Damage of 5",
+          "+10% Faster Hit Recovery",
+          "+50 to Attack Rating (2)",
+          "25% Better Chance of Getting Magic Items (3)"
+        ]
+      },
+      "cathans_seal": {
+        "name": "Cathan's Seal",
+        "slug": "cathans_seal",
+        "itemStats": {
+          "Base": "Ring",
+          "Grade": "Normal",
+          "Required Level": "11"
+        },
+        "stats": [
+          "6% Life stolen per hit",
+          "Damage Reduced by 2",
+          "+10 to Strength (2)"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "卡珊的衣著",
+      "partialBonusRaw": [
+        "附加 15 - 20 火焰傷害 (2)",
+        "法力恢復 16% (2)",
+        "電擊抗性 +25% (3)"
+      ],
+      "fullBonusRaw": [
+        "+10% 施法速度",
+        "+60 準確率",
+        "附加 15 - 20 火焰傷害",
+        "+20 法力",
+        "法力恢復 16%",
+        "電擊抗性 +25%",
+        "所有抗性 +25",
+        "魔法傷害降低 3"
+      ],
+      "pieces": {
+        "cathans_visage": {
+          "name": "卡珊的容貌",
+          "itemStats": {
+            "基礎": "面具",
+            "級別": "普通",
+            "防禦": "(11-207)-(29-225)",
+            "需要等級": "11",
+            "需要力量": "23",
+            "耐久度": "20"
+          },
+          "stats": [
+            "冰寒抗性 +25%",
+            "+20 法力",
+            "+(2-198) 防禦 （依角色等級而定） (2)"
+          ]
+        },
+        "cathans_mesh": {
+          "name": "卡珊的網衣",
+          "itemStats": {
+            "基礎": "鎖鍊甲",
+            "級別": "普通",
+            "防禦": "87-90",
+            "需要等級": "11",
+            "需要力量": "24",
+            "耐久度": "45"
+          },
+          "stats": [
+            "+15 防禦",
+            "需求 -50%",
+            "攻擊者反傷：5 (2)",
+            "火焰抗性 +30% (3)"
+          ]
+        },
+        "cathans_rule": {
+          "name": "卡珊的尺杖",
+          "itemStats": {
+            "基礎": "戰鬥法杖",
+            "級別": "普通",
+            "雙手傷害": "6 - 13 點",
+            "需要等級": "11",
+            "耐久度": "40",
+            "武器基本速度": "[0]"
+          },
+          "stats": [
+            "+1 火焰技能",
+            "+10 火焰傷害最大值",
+            "+50% 對不死怪物的傷害",
+            "+50 法力 (2)",
+            "所有抗性 +10 (3)"
+          ]
+        },
+        "cathans_sigil": {
+          "name": "卡珊的魔咒",
+          "itemStats": {
+            "基礎": "護身符",
+            "級別": "普通",
+            "需要等級": "11"
+          },
+          "stats": [
+            "攻擊者受到 5 點電擊傷害",
+            "+10% 打擊恢復",
+            "+50 準確率 (2)",
+            "尋獲魔法物品機率提高 25% (3)"
+          ]
+        },
+        "cathans_seal": {
+          "name": "卡珊的封印",
+          "itemStats": {
+            "基礎": "戒指",
+            "級別": "普通",
+            "需要等級": "11"
+          },
+          "stats": [
+            "擊中竊取 6% 生命",
+            "傷害降低 2",
+            "+10 力量 (2)"
+          ]
+        }
+      }
+    }
+  },
+  "civerbs_vestments": {
+    "slug": "civerbs_vestments",
+    "setName": "Civerb's Vestments",
+    "partialBonusRaw": [
+      "Fire Resist +25% (2)"
+    ],
+    "fullBonusRaw": [
+      "25% Bonus to Attack Rating",
+      "+200% Damage to Undead",
+      "+50 Defense",
+      "+15 to Strength",
+      "Lightning Resist +25%",
+      "Fire Resist +25%"
+    ],
+    "pieces": {
+      "civerbs_cudgel": {
+        "name": "Civerb's Cudgel",
+        "slug": "civerbs_cudgel",
+        "itemStats": {
+          "Base": "Grand Scepter",
+          "Grade": "Normal",
+          "One-Hand Damage": "8 to (36-140)",
+          "Required Level": "9",
+          "Required Strength": "37",
+          "Durability": "60",
+          "Base Weapon Speed": "10"
+        },
+        "stats": [
+          "+(1-99) to Maximum Damage (Based on Character Level)",
+          "+17-23 to Maximum Damage",
+          "+50% Damage to Undead",
+          "+75 to Attack Rating"
+        ]
+      },
+      "civerbs_icon": {
+        "name": "Civerb's Icon",
+        "slug": "civerbs_icon",
+        "itemStats": {
+          "Base": "Amulet",
+          "Grade": "Normal",
+          "Required Level": "9"
+        },
+        "stats": [
+          "Replenish Life +4",
+          "Regenerate Mana 40%",
+          "Cold Resist +25% (2)",
+          "+25 Defense (Completed Set)"
+        ]
+      },
+      "civerbs_ward": {
+        "name": "Civerb's Ward",
+        "slug": "civerbs_ward",
+        "itemStats": {
+          "Base": "Large Shield",
+          "Grade": "Normal",
+          "Defense": "27-29",
+          "Required Level": "9",
+          "Required Strength": "34",
+          "Durability": "24",
+          "Chance to Block": "47%",
+          "Smite Damage": "2 to 4"
+        },
+        "stats": [
+          "+15 Defense",
+          "15% Increased Chance of Blocking",
+          "+21-22 to Mana (Civerb's Icon)",
+          "Poison Resist +25-26% (Civerb's Cudgel)"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "克維雷布的法衣",
+      "partialBonusRaw": [
+        "火焰抗性 +25% (2)"
+      ],
+      "fullBonusRaw": [
+        "25% 準確率加成",
+        "+200% 對不死怪物的傷害",
+        "+50 防禦",
+        "+15 力量",
+        "電擊抗性 +25%",
+        "火焰抗性 +25%"
+      ],
+      "pieces": {
+        "civerbs_cudgel": {
+          "name": "克維雷布的短棍",
+          "itemStats": {
+            "基礎": "莊嚴權杖",
+            "級別": "普通",
+            "單手傷害": "8 - (36-140) 點",
+            "需要等級": "9",
+            "需要力量": "37",
+            "耐久度": "60",
+            "武器基本速度": "[10]"
+          },
+          "stats": [
+            "+(1-99) 最大傷害 （依角色等級而定）",
+            "+17-23 最大傷害",
+            "+50% 對不死怪物的傷害",
+            "+75 準確率"
+          ]
+        },
+        "civerbs_icon": {
+          "name": "克維雷布的聖像",
+          "itemStats": {
+            "基礎": "護身符",
+            "級別": "普通",
+            "需要等級": "9"
+          },
+          "stats": [
+            "生命回復 +4",
+            "法力恢復 40%",
+            "冰寒抗性 +25% (2)",
+            "+25 防禦 (全套)"
+          ]
+        },
+        "civerbs_ward": {
+          "name": "克維雷布的防護",
+          "itemStats": {
+            "基礎": "大型盾",
+            "級別": "普通",
+            "防禦": "27-29",
+            "需要等級": "9",
+            "需要力量": "34",
+            "耐久度": "24",
+            "格擋機率": "47%",
+            "重擊傷害": "2 - 4 點"
+          },
+          "stats": [
+            "+15 防禦",
+            "格擋機率提高 15%",
+            "+21-22 法力 (克維雷布的聖像)",
+            "毒素抗性 +25-26% (克維雷布的短棍)"
+          ]
+        }
+      }
+    }
+  },
+  "cleglaws_brace": {
+    "slug": "cleglaws_brace",
+    "setName": "Cleglaw's Brace",
+    "partialBonusRaw": [
+      "+50 Defense (2)"
+    ],
+    "fullBonusRaw": [
+      "+100 Defense",
+      "+35% Chance of Crushing Blow",
+      "6% Mana stolen per hit",
+      "+20% Increased Attack Speed"
+    ],
+    "pieces": {
+      "cleglaws_tooth": {
+        "name": "Cleglaw's Tooth",
+        "slug": "cleglaws_tooth",
+        "itemStats": {
+          "Base": "Long Sword",
+          "Grade": "Normal",
+          "One-Hand Damage": "3 to (20-142)",
+          "Required Level": "4",
+          "Required Strength": "55",
+          "Required Dexterity": "39",
+          "Durability": "44",
+          "Base Weapon Speed": "-10"
+        },
+        "stats": [
+          "+50% Deadly Strike",
+          "30% Bonus to Attack Rating",
+          "+(1-123) to Maximum Damage (Based on Character Level) (2)"
+        ]
+      },
+      "cleglaws_pincers": {
+        "name": "Cleglaw's Pincers",
+        "slug": "cleglaws_pincers",
+        "itemStats": {
+          "Base": "Chain Gloves",
+          "Grade": "Normal",
+          "Defense": "8-9",
+          "Required Level": "4",
+          "Required Strength": "25",
+          "Durability": "16"
+        },
+        "stats": [
+          "Slows Target by 25%",
+          "Knockback",
+          "+(10-990) to Attack Rating (Based on Character Level) (2)"
+        ]
+      },
+      "cleglaws_claw": {
+        "name": "Cleglaw's Claw",
+        "slug": "cleglaws_claw",
+        "itemStats": {
+          "Base": "Small Shield",
+          "Grade": "Normal",
+          "Defense": "25-27",
+          "Required Level": "4",
+          "Required Strength": "22",
+          "Durability": "16",
+          "Smite Damage": "2 to 3",
+          "Chance to Block": "25%"
+        },
+        "stats": [
+          "Poison Length Reduced by 75%",
+          "+17 Defense",
+          "All Resistances +15 (2)"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "克雷德勞的防備",
+      "partialBonusRaw": [
+        "+50 防禦 (2)"
+      ],
+      "fullBonusRaw": [
+        "+100 防禦",
+        "+35% 機率造成粉碎打擊",
+        "擊中竊取 6% 法力",
+        "攻擊速度 +20%"
+      ],
+      "pieces": {
+        "cleglaws_tooth": {
+          "name": "克雷德勞之牙",
+          "itemStats": {
+            "基礎": "長劍",
+            "級別": "普通",
+            "單手傷害": "3 - (20-142) 點",
+            "需要等級": "4",
+            "需要力量": "55",
+            "需要敏捷": "39",
+            "耐久度": "44",
+            "武器基本速度": "[-10]"
+          },
+          "stats": [
+            "+50% 致命打擊",
+            "30% 準確率加成",
+            "+(1-123) 最大傷害 （依角色等級而定） (2)"
+          ]
+        },
+        "cleglaws_pincers": {
+          "name": "克雷德勞之鉗",
+          "itemStats": {
+            "基礎": "鍊甲手套",
+            "級別": "普通",
+            "防禦": "8-9",
+            "需要等級": "4",
+            "需要力量": "25",
+            "耐久度": "16"
+          },
+          "stats": [
+            "使目標減慢 25%",
+            "擊退",
+            "+(10-990) 準確率 （依角色等級而定） (2)"
+          ]
+        },
+        "cleglaws_claw": {
+          "name": "克雷德勞之爪",
+          "itemStats": {
+            "基礎": "小型盾",
+            "級別": "普通",
+            "防禦": "25-27",
+            "需要等級": "4",
+            "需要力量": "22",
+            "耐久度": "16",
+            "重擊傷害": "2 - 3 點",
+            "格擋機率": "25%"
+          },
+          "stats": [
+            "中毒的時效縮短 75%",
+            "+17 防禦",
+            "所有抗性 +15 (2)"
+          ]
+        }
+      }
+    }
+  },
+  "cow_kings_leathers": {
+    "slug": "cow_kings_leathers",
+    "setName": "Cow King's Leathers",
+    "partialBonusRaw": [
+      "+100 Defense (2)",
+      "Poison Resist +25% (2)"
+    ],
+    "fullBonusRaw": [
+      "25% Chance to cast level 5 Static Field when struck",
+      "+1 to All Skills",
+      "+30% Increased Attack Speed",
+      "+100 Defense",
+      "+20 to Strength",
+      "+100 to Life",
+      "+100 Maximum Stamina",
+      "Poison Resist +25%",
+      "100% Extra Gold from Monsters",
+      "100% Better Chance of Getting Magic Items"
+    ],
+    "pieces": {
+      "cow_kings_hide": {
+        "name": "Cow King's Hide",
+        "slug": "cow_kings_hide",
+        "itemStats": {
+          "Base": "Studded Leather",
+          "Grade": "Normal",
+          "Defense": "57",
+          "Required Level": "18",
+          "Required Strength": "27",
+          "Durability": "32"
+        },
+        "stats": [
+          "+60% Enhanced Defense",
+          "18% Chance to cast level 5 Chain Lightning when struck",
+          "All Resistances +18",
+          "+30 to Life"
+        ]
+      },
+      "cow_kings_hooves": {
+        "name": "Cow King's Hooves",
+        "slug": "cow_kings_hooves",
+        "itemStats": {
+          "Base": "Heavy Boots",
+          "Grade": "Normal",
+          "Defense": "30-41",
+          "Required Level": "13",
+          "Required Strength": "18",
+          "Durability": "14",
+          "Kick Damage": "4 to 10"
+        },
+        "stats": [
+          "+25-35 Defense",
+          "+30% Faster Run/Walk",
+          "Adds 25-35 fire damage",
+          "+20 to Dexterity",
+          "25% Better Chance of Getting Magic Items"
+        ]
+      },
+      "cow_kings_horns": {
+        "name": "Cow King's Horns",
+        "slug": "cow_kings_horns",
+        "itemStats": {
+          "Base": "War Hat",
+          "Grade": "Exceptional",
+          "Defense": "120-128",
+          "Required Level": "25",
+          "Required Strength": "20",
+          "Durability": "12"
+        },
+        "stats": [
+          "+75 Defense",
+          "Half Freeze Duration",
+          "Attacker Takes Damage of 10",
+          "+35% Damage Taken Goes To Mana"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "牛王皮甲",
+      "partialBonusRaw": [
+        "+100 防禦 (2)",
+        "毒素抗性 +25% (2)"
+      ],
+      "fullBonusRaw": [
+        "被擊中時有 25% 機率施展等級 5 靜電力場",
+        "+1 所有技能",
+        "攻擊速度 +30%",
+        "+100 防禦",
+        "+20 力量",
+        "+100 生命",
+        "+100 精力上限",
+        "毒素抗性 +25%",
+        "怪物金幣掉落量提高 100%",
+        "尋獲魔法物品機率提高 100%"
+      ],
+      "pieces": {
+        "cow_kings_hide": {
+          "name": "牛王之皮",
+          "itemStats": {
+            "基礎": "鑲釘皮甲",
+            "級別": "普通",
+            "防禦": "57",
+            "需要等級": "18",
+            "需要力量": "27",
+            "耐久度": "32"
+          },
+          "stats": [
+            "+60% 防禦強化",
+            "被擊中時有 18% 機率施展等級 5 連鎖閃電",
+            "所有抗性 +18",
+            "+30 生命"
+          ]
+        },
+        "cow_kings_hooves": {
+          "name": "牛王之蹄",
+          "itemStats": {
+            "基礎": "重靴",
+            "級別": "普通",
+            "防禦": "30-41",
+            "需要等級": "13",
+            "需要力量": "18",
+            "耐久度": "14",
+            "踢擊傷害": "4 - 10 點"
+          },
+          "stats": [
+            "+25-35 防禦",
+            "+30% 跑步 / 行走速度",
+            "附加 25 - 35 火焰傷害",
+            "+20 敏捷",
+            "尋獲魔法物品機率提高 25%"
+          ]
+        },
+        "cow_kings_horns": {
+          "name": "牛王之角",
+          "itemStats": {
+            "基礎": "戰帽",
+            "級別": "卓越",
+            "防禦": "120-128",
+            "需要等級": "25",
+            "需要力量": "20",
+            "耐久度": "12"
+          },
+          "stats": [
+            "+75 防禦",
+            "被凍結的時效減半",
+            "攻擊者反傷：10",
+            "+35% 受到的傷害轉為法力"
+          ]
+        }
+      }
+    }
+  },
+  "deaths_disguise": {
+    "slug": "deaths_disguise",
+    "setName": "Death's Disguise",
+    "partialBonusRaw": [
+      "8% Life stolen per hit (2)"
+    ],
+    "fullBonusRaw": [
+      "8% Life stolen per hit",
+      "40% Bonus to Attack Rating",
+      "All Resistances +25",
+      "+10 to Minimum Damage"
+    ],
+    "pieces": {
+      "deaths_touch": {
+        "name": "Death's Touch",
+        "slug": "deaths_touch",
+        "itemStats": {
+          "Base": "War Sword",
+          "Grade": "Normal",
+          "One-Hand Damage": "10 to 25",
+          "Required Level": "6",
+          "Required Strength": "71",
+          "Required Dexterity": "45",
+          "Durability": "44",
+          "Base Weapon Speed": "0"
+        },
+        "stats": [
+          "+25% Enhanced Damage",
+          "4% Life stolen per hit",
+          "Adds 25-75 cold damage (2)"
+        ]
+      },
+      "deaths_hand": {
+        "name": "Death's Hand",
+        "slug": "deaths_hand",
+        "itemStats": {
+          "Base": "Leather Gloves",
+          "Grade": "Normal",
+          "Defense": "2-3",
+          "Required Level": "6",
+          "Durability": "12"
+        },
+        "stats": [
+          "Poison Length Reduced by 75%",
+          "Poison Resist +50%",
+          "+30% Increased Attack Speed (2)"
+        ]
+      },
+      "deaths_guard": {
+        "name": "Death's Guard",
+        "slug": "deaths_guard",
+        "itemStats": {
+          "Base": "Sash",
+          "Grade": "Normal",
+          "Defense": "22",
+          "Required Level": "6",
+          "Durability": "12",
+          "Belt Size": "+4 Slots"
+        },
+        "stats": [
+          "Cannot Be Frozen",
+          "+20 Defense",
+          "All Resistances +15 (2)"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "死亡的偽裝",
+      "partialBonusRaw": [
+        "擊中竊取 8% 生命 (2)"
+      ],
+      "fullBonusRaw": [
+        "擊中竊取 8% 生命",
+        "40% 準確率加成",
+        "所有抗性 +25",
+        "+10 最小傷害"
+      ],
+      "pieces": {
+        "deaths_touch": {
+          "name": "死亡之觸",
+          "itemStats": {
+            "基礎": "征戰劍",
+            "級別": "普通",
+            "單手傷害": "10 - 25 點",
+            "需要等級": "6",
+            "需要力量": "71",
+            "需要敏捷": "45",
+            "耐久度": "44",
+            "武器基本速度": "[0]"
+          },
+          "stats": [
+            "+25% 傷害強化",
+            "擊中竊取 4% 生命",
+            "附加 25 - 75 冰寒傷害 (2)"
+          ]
+        },
+        "deaths_hand": {
+          "name": "死亡之手",
+          "itemStats": {
+            "基礎": "皮革手套",
+            "級別": "普通",
+            "防禦": "2-3",
+            "需要等級": "6",
+            "耐久度": "12"
+          },
+          "stats": [
+            "中毒的時效縮短 75%",
+            "毒素抗性 +50%",
+            "攻擊速度 +30% (2)"
+          ]
+        },
+        "deaths_guard": {
+          "name": "死亡之護",
+          "itemStats": {
+            "基礎": "束帶",
+            "級別": "普通",
+            "防禦": "22",
+            "需要等級": "6",
+            "耐久度": "12",
+            "腰帶空間": "+4 格"
+          },
+          "stats": [
+            "無法凍結",
+            "+20 防禦",
+            "所有抗性 +15 (2)"
+          ]
+        }
+      }
+    }
+  },
+  "griswolds_legacy": {
+    "slug": "griswolds_legacy",
+    "setName": "Griswold's Legacy",
+    "partialBonusRaw": [
+      "+20 to Strength (2)",
+      "+30 to Dexterity (3)"
+    ],
+    "fullBonusRaw": [
+      "+3 to Paladin Skill Levels",
+      "+30% Faster Hit Recovery",
+      "+200 to Attack Rating",
+      "+20 to Strength",
+      "+30 to Dexterity",
+      "+150 to Life",
+      "All Resistances +50",
+      "Character Displays Aura Effect"
+    ],
+    "pieces": {
+      "griswolds_heart": {
+        "name": "Griswold's Heart",
+        "slug": "griswolds_heart",
+        "itemStats": {
+          "Base": "Ornate Plate",
+          "Grade": "Exceptional",
+          "Defense": "917-950",
+          "Required Level": "45",
+          "Required Strength": "102",
+          "Durability": "60"
+        },
+        "stats": [
+          "+500 Defense",
+          "Requirements -40%",
+          "+20 to Strength",
+          "+2 to Defensive Auras (Paladin Only)",
+          "Socketed (3)"
+        ]
+      },
+      "griswolds_valor": {
+        "name": "Griswold's Valor",
+        "slug": "griswolds_valor",
+        "itemStats": {
+          "Base": "Corona",
+          "Grade": "Elite",
+          "Defense": "249-290",
+          "Required Level": "69",
+          "Required Strength": "105",
+          "Durability": "50"
+        },
+        "stats": [
+          "+50-75% Enhanced Defense",
+          "All Resistances +5",
+          "20-30% Better Chance of Getting Magic Items",
+          "Requirements -40%",
+          "+(0-24) Absorbs Cold Damage (Based on Character Level)",
+          "Socketed (2)",
+          "+2 to Offensive Auras (Paladin Only) (2)"
+        ]
+      },
+      "griswolds_redemption": {
+        "name": "Griswold's Redemption",
+        "slug": "griswolds_redemption",
+        "itemStats": {
+          "Base": "Caduceus",
+          "Grade": "Elite",
+          "One-Hand Damage": "(131-145) to (169-186)",
+          "Required Level": "66",
+          "Required Strength": "78",
+          "Required Dexterity": "56",
+          "Durability": "70",
+          "Base Weapon Speed": "-10"
+        },
+        "stats": [
+          "+200-240% Enhanced Damage",
+          "+250% Damage to Undead",
+          "Requirements -20%",
+          "+40% Increased Attack Speed",
+          "Socketed ( 3-4 )",
+          "+2 to Combat Skills (Paladin Only) (2)",
+          "Adds 10-20 damage (3)",
+          "Adds 10-20 damage (Completed Set)"
+        ]
+      },
+      "griswolds_honor": {
+        "name": "Griswold's Honor",
+        "slug": "griswolds_honor",
+        "itemStats": {
+          "Base": "Vortex Shield",
+          "Grade": "Elite",
+          "Defense": "290-333",
+          "Required Level": "68",
+          "Required Strength": "148",
+          "Durability": "90",
+          "Chance to Block": "69%",
+          "Smite Damage": "5 to 87",
+          "(Paladin Only)": ""
+        },
+        "stats": [
+          "+65% Faster Block Rate",
+          "20% Increased Chance of Blocking",
+          "+108 Defense",
+          "All Resistances +45",
+          "Socketed (3)"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "格里斯瓦德的傳奇",
+      "partialBonusRaw": [
+        "+20 力量 (2)",
+        "+30 敏捷 (3)"
+      ],
+      "fullBonusRaw": [
+        "+3 聖騎士技能等級",
+        "+30% 打擊恢復",
+        "+200 準確率",
+        "+20 力量",
+        "+30 敏捷",
+        "+150 生命",
+        "所有抗性 +50",
+        "角色顯示光環效果"
+      ],
+      "pieces": {
+        "griswolds_heart": {
+          "name": "格里斯瓦德之心",
+          "itemStats": {
+            "基礎": "華麗戰甲",
+            "級別": "卓越",
+            "防禦": "917-950",
+            "需要等級": "45",
+            "需要力量": "102",
+            "耐久度": "60"
+          },
+          "stats": [
+            "+500 防禦",
+            "需求 -40%",
+            "+20 力量",
+            "+2 防禦靈氣 （只限聖騎士）",
+            "鑲孔（3）"
+          ]
+        },
+        "griswolds_valor": {
+          "name": "格里斯瓦德的勇氣",
+          "itemStats": {
+            "基礎": "日冕之冠",
+            "級別": "精英",
+            "防禦": "249-290",
+            "需要等級": "69",
+            "需要力量": "105",
+            "耐久度": "50"
+          },
+          "stats": [
+            "+50-75% 防禦強化",
+            "所有抗性 +5",
+            "尋獲魔法物品機率提高 20-30%",
+            "需求 -40%",
+            "+(0-24) 冰寒傷害吸收 （依角色等級而定）",
+            "鑲孔（2）",
+            "+2 攻擊靈氣 （只限聖騎士） (2)"
+          ]
+        },
+        "griswolds_redemption": {
+          "name": "格里斯瓦德的救贖",
+          "itemStats": {
+            "基礎": "神使權杖",
+            "級別": "精英",
+            "單手傷害": "(131-145) - (169-186) 點",
+            "需要等級": "66",
+            "需要力量": "78",
+            "需要敏捷": "56",
+            "耐久度": "70",
+            "武器基本速度": "[-10]"
+          },
+          "stats": [
+            "+200-240% 傷害強化",
+            "+250% 對不死怪物的傷害",
+            "需求 -20%",
+            "攻擊速度 +40%",
+            "鑲孔（ 3-4 ）",
+            "+2 戰鬥技能 （只限聖騎士） (2)",
+            "附加 10 - 20 傷害 (3)",
+            "附加 10 - 20 傷害 (全套)"
+          ]
+        },
+        "griswolds_honor": {
+          "name": "格里斯瓦德的榮耀",
+          "itemStats": {
+            "基礎": "渦旋盾",
+            "級別": "精英",
+            "防禦": "290-333",
+            "需要等級": "68",
+            "需要力量": "148",
+            "耐久度": "90",
+            "格擋機率": "69%",
+            "重擊傷害": "5 - 87 點",
+            "(聖騎士專用)": ""
+          },
+          "stats": [
+            "+65% 格擋速度",
+            "格擋機率提高 20%",
+            "+108 防禦",
+            "所有抗性 +45",
+            "鑲孔（3）"
+          ]
+        }
+      }
+    }
+  },
+  "heavens_brethren": {
+    "slug": "heavens_brethren",
+    "setName": "Heaven's Brethren",
+    "partialBonusRaw": [
+      "Heal Stamina Plus 50% (2)",
+      "Replenish Life +20 (3)"
+    ],
+    "fullBonusRaw": [
+      "+2 to All Skills",
+      "Replenish Life +20",
+      "Heal Stamina Plus 50%",
+      "All Resistances +50",
+      "Cannot Be Frozen",
+      "+5 to Light Radius"
+    ],
+    "pieces": {
+      "haemosus_adamant": {
+        "name": "Haemosu's Adamant",
+        "slug": "haemosus_adamant",
+        "itemStats": {
+          "Base": "Cuirass",
+          "Grade": "Exceptional",
+          "Defense": "688-702",
+          "Required Level": "44",
+          "Required Strength": "52",
+          "Durability": "50"
+        },
+        "stats": [
+          "+500 Defense",
+          "+40 Defense vs. Melee",
+          "+35 Defense vs. Missile",
+          "Requirements -20%",
+          "+75 to Life"
+        ]
+      },
+      "dangoons_teaching": {
+        "name": "Dangoon's Teaching",
+        "slug": "dangoons_teaching",
+        "itemStats": {
+          "Base": "Reinforced Mace",
+          "Grade": "Elite",
+          "One-Hand Damage": "41 to (50-197)",
+          "Required Level": "68",
+          "Required Strength": "145",
+          "Required Dexterity": "46",
+          "Durability": "60",
+          "Base Weapon Speed": "0"
+        },
+        "stats": [
+          "+(1-148) to Maximum Damage (Based on Character Level)",
+          "+50% Damage to Undead",
+          "+40% Increased Attack Speed",
+          "10% Chance to cast level 3 Frost Nova on striking",
+          "Adds 20-30 fire damage"
+        ]
+      },
+      "taebaeks_glory": {
+        "name": "Taebaek's Glory",
+        "slug": "taebaeks_glory",
+        "itemStats": {
+          "Base": "Ward",
+          "Grade": "Elite",
+          "Defense": "203-220",
+          "Required Level": "81",
+          "Required Strength": "185",
+          "Chance to Block": "69%",
+          "Smite Damage": "11 to 35"
+        },
+        "stats": [
+          "+50 Defense",
+          "25% Increased Chance of Blocking",
+          "Lightning Resist +30%",
+          "Indestructible",
+          "+30% Faster Block Rate",
+          "+100 to Mana",
+          "Attacker Takes Damage of 30"
+        ]
+      },
+      "ondals_almighty": {
+        "name": "Ondal's Almighty",
+        "slug": "ondals_almighty",
+        "itemStats": {
+          "Base": "Spired Helm",
+          "Grade": "Elite",
+          "Defense": "164-209",
+          "Required Level": "69",
+          "Required Strength": "116",
+          "Durability": "40"
+        },
+        "stats": [
+          "10% Chance to cast level 3 Weaken on striking",
+          "+24% Faster Hit Recovery",
+          "Requirements -40%",
+          "+50 Defense",
+          "+15 to Dexterity",
+          "+10 to Strength"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "天堂的同胞",
+      "partialBonusRaw": [
+        "精力恢復 +50% (2)",
+        "生命回復 +20 (3)"
+      ],
+      "fullBonusRaw": [
+        "+2 所有技能",
+        "生命回復 +20",
+        "精力恢復 +50%",
+        "所有抗性 +50",
+        "無法凍結",
+        "照亮範圍 +5"
+      ],
+      "pieces": {
+        "haemosus_adamant": {
+          "name": "解慕漱的堅決",
+          "itemStats": {
+            "基礎": "護胸甲",
+            "級別": "卓越",
+            "防禦": "688-702",
+            "需要等級": "44",
+            "需要力量": "52",
+            "耐久度": "50"
+          },
+          "stats": [
+            "+500 防禦",
+            "+40 對近戰防禦",
+            "+35 對遠程防禦",
+            "需求 -20%",
+            "+75 生命"
+          ]
+        },
+        "dangoons_teaching": {
+          "name": "檀君的教導",
+          "itemStats": {
+            "基礎": "強化釘鎚",
+            "級別": "精英",
+            "單手傷害": "41 - (50-197) 點",
+            "需要等級": "68",
+            "需要力量": "145",
+            "需要敏捷": "46",
+            "耐久度": "60",
+            "武器基本速度": "[0]"
+          },
+          "stats": [
+            "+(1-148) 最大傷害 （依角色等級而定）",
+            "+50% 對不死怪物的傷害",
+            "攻擊速度 +40%",
+            "擊中時有 10% 機率施展等級 3 冰霜新星",
+            "附加 20 - 30 火焰傷害"
+          ]
+        },
+        "taebaeks_glory": {
+          "name": "太白山的榮光",
+          "itemStats": {
+            "基礎": "庇護盾",
+            "級別": "精英",
+            "防禦": "203-220",
+            "需要等級": "81",
+            "需要力量": "185",
+            "格擋機率": "69%",
+            "重擊傷害": "11 - 35 點"
+          },
+          "stats": [
+            "+50 防禦",
+            "格擋機率提高 25%",
+            "電擊抗性 +30%",
+            "永不毀損",
+            "+30% 格擋速度",
+            "+100 法力",
+            "攻擊者反傷：30"
+          ]
+        },
+        "ondals_almighty": {
+          "name": "溫達的全靈",
+          "itemStats": {
+            "基礎": "巨角頭盔",
+            "級別": "精英",
+            "防禦": "164-209",
+            "需要等級": "69",
+            "需要力量": "116",
+            "耐久度": "40"
+          },
+          "stats": [
+            "擊中時有 10% 機率施展等級 3 削弱",
+            "+24% 打擊恢復",
+            "需求 -40%",
+            "+50 防禦",
+            "+15 敏捷",
+            "+10 力量"
+          ]
+        }
+      }
+    }
+  },
+  "horazons_splendor": {
+    "slug": "horazons_splendor",
+    "setName": "Horazon's Splendor",
+    "partialBonusRaw": [
+      "+20 to Dexterity (2)",
+      "+30 to Energy (3)",
+      "+300 Defense (4)"
+    ],
+    "fullBonusRaw": [
+      "+20 to Dexterity",
+      "+30 to Energy",
+      "+300 Defense",
+      "+3 to Warlock Skill Levels",
+      "+350% Enhanced Damage",
+      "+30 to Enchant",
+      "All Resistances +50",
+      "100% Better Chance of Getting Magic Items",
+      "Character Displays Aura Effect"
+    ],
+    "pieces": {
+      "horazons_countenance": {
+        "name": "Horazon's Countenance",
+        "slug": "horazons_countenance",
+        "itemStats": {
+          "Base": "Demonhead",
+          "Grade": "Elite",
+          "Defense": "101-154",
+          "Required Level": "62",
+          "Required Strength": "102",
+          "Durability": "20"
+        },
+        "stats": [
+          "+1 to Warlock Skill Levels",
+          "+10-20 to Strength",
+          "Magic Damage Reduced by 7-10",
+          "(1-99)% Bonus to Attack Rating (Based on Character Level)",
+          "Increase Maximum Life 5% (2)",
+          "+15 to Strength (4)"
+        ]
+      },
+      "horazons_dominion": {
+        "name": "Horazon's Dominion",
+        "slug": "horazons_dominion",
+        "itemStats": {
+          "Base": "Russet Armor",
+          "Grade": "Elite",
+          "Defense": "427-488",
+          "Required Level": "55",
+          "Required Strength": "97",
+          "Durability": "30"
+        },
+        "stats": [
+          "+2 to Demon Skills (Warlock Only)",
+          "+75-100 to Mana",
+          "Cold Resist +15-25%",
+          "Lightning Resist +15-25%",
+          "Fire Resist +15-25%",
+          "Poison Resist +25% (2)",
+          "+15 to Vitality (4)"
+        ]
+      },
+      "horazons_hold": {
+        "name": "Horazon's Hold",
+        "slug": "horazons_hold",
+        "itemStats": {
+          "Base": "Demonhide Gloves",
+          "Grade": "Elite",
+          "Defense": "28-35",
+          "Required Level": "48",
+          "Required Strength": "20",
+          "Durability": "12"
+        },
+        "stats": [
+          "+95-150 to Attack Rating",
+          "Adds 140-270 fire damage",
+          "+10% Chance of Crushing Blow",
+          "+10-15 to Dexterity",
+          "+30-40 to Life",
+          "+30% Increased Attack Speed (2)",
+          "7% Mana stolen per hit (3)",
+          "7% Life stolen per hit (4)"
+        ]
+      },
+      "horazons_legacy": {
+        "name": "Horazon's Legacy",
+        "slug": "horazons_legacy",
+        "itemStats": {
+          "Base": "Mirrored Boots",
+          "Grade": "Elite",
+          "Defense": "59-68",
+          "Required Level": "67",
+          "Required Strength": "115",
+          "Durability": "18"
+        },
+        "stats": [
+          "+30% Faster Run/Walk",
+          "+10-15 to Strength",
+          "+10-15 to Dexterity",
+          "Magic Resist +20-30%",
+          "Cannot Be Frozen",
+          "Requirements -30%",
+          "+10% Faster Run/Walk (2)"
+        ]
+      },
+      "horazons_secrets": {
+        "name": "Horazon's Secrets",
+        "slug": "horazons_secrets",
+        "itemStats": {
+          "Base": "Occult Codex",
+          "Grade": "Elite",
+          "Defense": "98-142",
+          "Required Level": "57",
+          "Required Strength": "91",
+          "Durability": "20",
+          "Chance to Block": "53%",
+          "(Warlock Only)": ""
+        },
+        "stats": [
+          "+2 to Eldritch Skills",
+          "+30% Faster Hit Recovery",
+          "20% Increased Chance of Blocking",
+          "+20-30 to Vitality",
+          "+30-50 to Life",
+          "Poison Length Reduced by 75% (2)",
+          "-25% to Enemy Fire Resistance (3)",
+          "+15 to Energy (4)"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "赫拉森的輝煌",
+      "partialBonusRaw": [
+        "+20 敏捷 (2)",
+        "+30 能量 (3)",
+        "+300 防禦 (4)"
+      ],
+      "fullBonusRaw": [
+        "+20 敏捷",
+        "+30 能量",
+        "+300 防禦",
+        "+3 術士技能",
+        "+350% 傷害強化",
+        "+30 至 附魔",
+        "所有抗性 +50",
+        "尋獲魔法物品機率提高 100%",
+        "角色顯示光環效果"
+      ],
+      "pieces": {
+        "horazons_countenance": {
+          "name": "赫拉森的面容",
+          "itemStats": {
+            "基礎": "惡魔頭骨",
+            "級別": "精英",
+            "防禦": "101-154",
+            "需要等級": "62",
+            "需要力量": "102",
+            "耐久度": "20"
+          },
+          "stats": [
+            "+1 術士技能",
+            "+10-20 力量",
+            "魔法傷害降低 7-10",
+            "(1-99)% 準確率加成 （依角色等級而定）",
+            "生命上限提高 5% (2)",
+            "+15 力量 (4)"
+          ]
+        },
+        "horazons_dominion": {
+          "name": "赫拉森的統治",
+          "itemStats": {
+            "基礎": "赤褐戰甲",
+            "級別": "精英",
+            "防禦": "427-488",
+            "需要等級": "55",
+            "需要力量": "97",
+            "耐久度": "30"
+          },
+          "stats": [
+            "+2 惡魔技能 （只限術士）",
+            "+75-100 法力",
+            "冰寒抗性 +15-25%",
+            "電擊抗性 +15-25%",
+            "火焰抗性 +15-25%",
+            "毒素抗性 +25% (2)",
+            "+15 體能 (4)"
+          ]
+        },
+        "horazons_hold": {
+          "name": "赫拉森的掌控",
+          "itemStats": {
+            "基礎": "魔皮手套",
+            "級別": "精英",
+            "防禦": "28-35",
+            "需要等級": "48",
+            "需要力量": "20",
+            "耐久度": "12"
+          },
+          "stats": [
+            "+95-150 準確率",
+            "附加 140 - 270 火焰傷害",
+            "+10% 機率造成粉碎打擊",
+            "+10-15 敏捷",
+            "+30-40 生命",
+            "攻擊速度 +30% (2)",
+            "擊中竊取 7% 法力 (3)",
+            "擊中竊取 7% 生命 (4)"
+          ]
+        },
+        "horazons_legacy": {
+          "name": "赫拉森的傳承",
+          "itemStats": {
+            "基礎": "幻鏡戰靴",
+            "級別": "精英",
+            "防禦": "59-68",
+            "需要等級": "67",
+            "需要力量": "115",
+            "耐久度": "18"
+          },
+          "stats": [
+            "+30% 跑步 / 行走速度",
+            "+10-15 力量",
+            "+10-15 敏捷",
+            "魔法抗性 +20-30%",
+            "無法凍結",
+            "需求 -30%",
+            "+10% 跑步 / 行走速度 (2)"
+          ]
+        },
+        "horazons_secrets": {
+          "name": "赫拉森的秘密",
+          "itemStats": {
+            "基礎": "神秘寶典",
+            "級別": "精英",
+            "防禦": "98-142",
+            "需要等級": "57",
+            "需要力量": "91",
+            "耐久度": "20",
+            "格擋機率": "53%",
+            "(術士專用)": ""
+          },
+          "stats": [
+            "+2 邪異技能",
+            "+30% 打擊恢復",
+            "格擋機率提高 20%",
+            "+20-30 體能",
+            "+30-50 生命",
+            "中毒的時效縮短 75% (2)",
+            "敵人火焰抗性 -25% (3)",
+            "+15 能量 (4)"
+          ]
+        }
+      }
+    }
+  },
+  "hsarus_defense": {
+    "slug": "hsarus_defense",
+    "setName": "Hsarus' Defense",
+    "partialBonusRaw": [
+      "Attacker Takes Damage of 5 (2)"
+    ],
+    "fullBonusRaw": [
+      "Attacker Takes Damage of 5",
+      "Cannot Be Frozen",
+      "Lightning Resist +25%",
+      "+5 to Maximum Damage"
+    ],
+    "pieces": {
+      "hsarus_iron_fist": {
+        "name": "Hsarus' Iron Fist",
+        "slug": "hsarus_iron_fist",
+        "itemStats": {
+          "Base": "Buckler",
+          "Grade": "Normal",
+          "Defense": "(6-251)-(8-253)",
+          "Required Level": "3",
+          "Required Strength": "12",
+          "Durability": "12",
+          "Smite Damage": "1 to 3",
+          "Chance to Block": "20%"
+        },
+        "stats": [
+          "Damage Reduced by 2",
+          "+10 to Strength",
+          "+(2-247) Defense (Based on Character Level) (2)"
+        ]
+      },
+      "hsarus_iron_stay": {
+        "name": "Hsarus' Iron Stay",
+        "slug": "hsarus_iron_stay",
+        "itemStats": {
+          "Base": "Belt",
+          "Grade": "Normal",
+          "Defense": "7-252",
+          "Required Level": "3",
+          "Required Strength": "25",
+          "Durability": "16",
+          "Belt Size": "+8 Slots"
+        },
+        "stats": [
+          "Cold Resist +20%",
+          "+20 to Life",
+          "+(2-247) Defense (Based on Character Level) (2)"
+        ]
+      },
+      "hsarus_iron_heel": {
+        "name": "Hsarus' Iron Heel",
+        "slug": "hsarus_iron_heel",
+        "itemStats": {
+          "Base": "Chain Boots",
+          "Grade": "Normal",
+          "Defense": "8-9",
+          "Required Level": "3",
+          "Required Strength": "30",
+          "Durability": "16",
+          "Kick Damage": "6 to 12"
+        },
+        "stats": [
+          "+20% Faster Run/Walk",
+          "Fire Resist +25%",
+          "+(10-990) to Attack Rating (Based on Character Level) (2)"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "海沙魯的鐵禦",
+      "partialBonusRaw": [
+        "攻擊者反傷：5 (2)"
+      ],
+      "fullBonusRaw": [
+        "攻擊者反傷：5",
+        "無法凍結",
+        "電擊抗性 +25%",
+        "+5 最大傷害"
+      ],
+      "pieces": {
+        "hsarus_iron_fist": {
+          "name": "海沙魯的鐵拳",
+          "itemStats": {
+            "基礎": "小圓盾",
+            "級別": "普通",
+            "防禦": "(6-251)-(8-253)",
+            "需要等級": "3",
+            "需要力量": "12",
+            "耐久度": "12",
+            "重擊傷害": "1 - 3 點",
+            "格擋機率": "20%"
+          },
+          "stats": [
+            "傷害降低 2",
+            "+10 力量",
+            "+(2-247) 防禦 （依角色等級而定） (2)"
+          ]
+        },
+        "hsarus_iron_stay": {
+          "name": "海沙魯的鐵扣",
+          "itemStats": {
+            "基礎": "腰帶",
+            "級別": "普通",
+            "防禦": "7-252",
+            "需要等級": "3",
+            "需要力量": "25",
+            "耐久度": "16",
+            "腰帶空間": "+8 格"
+          },
+          "stats": [
+            "冰寒抗性 +20%",
+            "+20 生命",
+            "+(2-247) 防禦 （依角色等級而定） (2)"
+          ]
+        },
+        "hsarus_iron_heel": {
+          "name": "海沙魯的鐵跟",
+          "itemStats": {
+            "基礎": "鎖鍊靴",
+            "級別": "普通",
+            "防禦": "8-9",
+            "需要等級": "3",
+            "需要力量": "30",
+            "耐久度": "16",
+            "踢擊傷害": "6 - 12 點"
+          },
+          "stats": [
+            "+20% 跑步 / 行走速度",
+            "火焰抗性 +25%",
+            "+(10-990) 準確率 （依角色等級而定） (2)"
+          ]
+        }
+      }
+    }
+  },
+  "hwanins_majesty": {
+    "slug": "hwanins_majesty",
+    "setName": "Hwanin's Majesty",
+    "partialBonusRaw": [
+      "+100 Defense (2)",
+      "Additional +200 Defense (3)"
+    ],
+    "fullBonusRaw": [
+      "+2 to All Skills",
+      "+30% Faster Run/Walk",
+      "20% Life stolen per hit",
+      "+300 Defense",
+      "All Resistances +30"
+    ],
+    "pieces": {
+      "hwanins_blessing": {
+        "name": "Hwanin's Blessing",
+        "slug": "hwanins_blessing",
+        "itemStats": {
+          "Base": "Belt",
+          "Grade": "Normal",
+          "Defense": "6-153",
+          "Required Level": "35",
+          "Required Strength": "25",
+          "Durability": "16",
+          "Belt Size": "+8 Slots"
+        },
+        "stats": [
+          "+(1-148) Defense (Based on Character Level)",
+          "Adds 3-33 lightning damage",
+          "Prevent Monster Heal",
+          "+12% Damage Taken Goes To Mana"
+        ]
+      },
+      "hwanins_splendor": {
+        "name": "Hwanin's Splendor",
+        "slug": "hwanins_splendor",
+        "itemStats": {
+          "Base": "Grand Crown",
+          "Grade": "Exceptional",
+          "Defense": "228",
+          "Required Level": "45",
+          "Required Strength": "103",
+          "Durability": "50"
+        },
+        "stats": [
+          "+100% Enhanced Defense",
+          "Replenish Life +20",
+          "Magic Damage Reduced by 10",
+          "Cold Resist +37%"
+        ]
+      },
+      "hwanins_justice": {
+        "name": "Hwanin's Justice",
+        "slug": "hwanins_justice",
+        "itemStats": {
+          "Base": "Bill",
+          "Grade": "Exceptional",
+          "Two-Hand Damage": "42 to 159",
+          "Required Level": "28",
+          "Required Strength": "95",
+          "Base Weapon Speed": "0"
+        },
+        "stats": [
+          "+200% Enhanced Damage",
+          "Adds 5-25 lightning damage",
+          "+40% Increased Attack Speed",
+          "+330 to Attack Rating",
+          "Indestructible",
+          "10% Chance to cast level 3 Ice Blast on striking"
+        ]
+      },
+      "hwanins_refuge": {
+        "name": "Hwanin's Refuge",
+        "slug": "hwanins_refuge",
+        "itemStats": {
+          "Base": "Tigulated Mail",
+          "Grade": "Exceptional",
+          "Defense": "376-390",
+          "Required Level": "30",
+          "Required Strength": "86",
+          "Durability": "36"
+        },
+        "stats": [
+          "+200 Defense",
+          "10% Chance to cast level 3 Static Field when struck",
+          "Poison Resist +27%",
+          "+100 to Life"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "桓因的威嚴",
+      "partialBonusRaw": [
+        "+100 防禦 (2)",
+        "額外 +200 防禦 (3)"
+      ],
+      "fullBonusRaw": [
+        "+2 所有技能",
+        "+30% 跑步 / 行走速度",
+        "擊中竊取 20% 生命",
+        "+300 防禦",
+        "所有抗性 +30"
+      ],
+      "pieces": {
+        "hwanins_blessing": {
+          "name": "桓因的祝福",
+          "itemStats": {
+            "基礎": "腰帶",
+            "級別": "普通",
+            "防禦": "6-153",
+            "需要等級": "35",
+            "需要力量": "25",
+            "耐久度": "16",
+            "腰帶空間": "+8 格"
+          },
+          "stats": [
+            "+(1-148) 防禦 （依角色等級而定）",
+            "附加 3 - 33 電擊傷害",
+            "防止怪物自療",
+            "+12% 受到的傷害轉為法力"
+          ]
+        },
+        "hwanins_splendor": {
+          "name": "桓因的光輝",
+          "itemStats": {
+            "基礎": "莊嚴王冠",
+            "級別": "卓越",
+            "防禦": "228",
+            "需要等級": "45",
+            "需要力量": "103",
+            "耐久度": "50"
+          },
+          "stats": [
+            "+100% 防禦強化",
+            "生命回復 +20",
+            "魔法傷害降低 10",
+            "冰寒抗性 +37%"
+          ]
+        },
+        "hwanins_justice": {
+          "name": "桓因的制裁",
+          "itemStats": {
+            "基礎": "長柄鍥",
+            "級別": "卓越",
+            "雙手傷害": "42 - 159 點",
+            "需要等級": "28",
+            "需要力量": "95",
+            "武器基本速度": "[0]"
+          },
+          "stats": [
+            "+200% 傷害強化",
+            "附加 5 - 25 電擊傷害",
+            "攻擊速度 +40%",
+            "+330 準確率",
+            "永不毀損",
+            "擊中時有 10% 機率施展等級 3 寒冰球"
+          ]
+        },
+        "hwanins_refuge": {
+          "name": "桓因的庇佑",
+          "itemStats": {
+            "基礎": "鎖鱗戰甲",
+            "級別": "卓越",
+            "防禦": "376-390",
+            "需要等級": "30",
+            "需要力量": "86",
+            "耐久度": "36"
+          },
+          "stats": [
+            "+200 防禦",
+            "被擊中時有 10% 機率施展等級 3 靜電力場",
+            "毒素抗性 +27%",
+            "+100 生命"
+          ]
+        }
+      }
+    }
+  },
+  "immortal_king": {
+    "slug": "immortal_king",
+    "setName": "Immortal King",
+    "partialBonusRaw": [
+      "+50 to Attack Rating (2)",
+      "Additional +75 to Attack Rating (3)",
+      "Additional +125 to Attack Rating (4)",
+      "Additional +200 to Attack Rating (5)"
+    ],
+    "fullBonusRaw": [
+      "+3 to Barbarian Skill Levels",
+      "+450 to Attack Rating",
+      "+150 to Life",
+      "All Resistances +50",
+      "Magic Damage Reduced by 10",
+      "Character Displays Aura Effect"
+    ],
+    "pieces": {
+      "immortal_kings_will": {
+        "name": "Immortal King's Will",
+        "slug": "immortal_kings_will",
+        "itemStats": {
+          "Base": "Avenger Guard",
+          "Grade": "Normal",
+          "Defense": "160-175",
+          "Required Level": "47",
+          "Required Strength": "65",
+          "Durability": "55",
+          "(Barbarian Only)": ""
+        },
+        "stats": [
+          "+4 to Light Radius",
+          "+125 Defense",
+          "37% Extra Gold from Monsters",
+          "25-40% Better Chance of Getting Magic Items",
+          "+2 to Warcries (Barbarian Only)",
+          "Socketed (2)"
+        ]
+      },
+      "immortal_kings_detail": {
+        "name": "Immortal King's Detail",
+        "slug": "immortal_kings_detail",
+        "itemStats": {
+          "Base": "War Belt",
+          "Grade": "Exceptional",
+          "Defense": "247",
+          "Required Level": "29",
+          "Required Strength": "110",
+          "Durability": "24",
+          "Belt Size": "+12 Slots"
+        },
+        "stats": [
+          "+36 Defense",
+          "Lightning Resist +31%",
+          "Fire Resist +28%",
+          "+25 to Strength",
+          "+105 Defense (2)",
+          "+25% Faster Hit Recovery (3)",
+          "+100% Enhanced Defense (4)",
+          "Physical Damage Received Reduced by 20% (5)",
+          "+2 to Masteries (Barbarian Only) (Completed Set)"
+        ]
+      },
+      "immortal_kings_forge": {
+        "name": "Immortal King's Forge",
+        "slug": "immortal_kings_forge",
+        "itemStats": {
+          "Base": "War Gauntlets",
+          "Grade": "Exceptional",
+          "Defense": "228-238",
+          "Required Level": "30",
+          "Required Strength": "110",
+          "Durability": "24"
+        },
+        "stats": [
+          "+65 Defense",
+          "12% Chance to cast level 4 Charged Bolt when struck",
+          "+20 to Dexterity",
+          "+20 to Strength",
+          "+25% Increased Attack Speed (2)",
+          "+120 Defense (3)",
+          "10% Life stolen per hit (4)",
+          "10% Mana stolen per hit (5)",
+          "Freezes target +2 (Completed Set)"
+        ]
+      },
+      "immortal_kings_pillar": {
+        "name": "Immortal King's Pillar",
+        "slug": "immortal_kings_pillar",
+        "itemStats": {
+          "Base": "War Boots",
+          "Grade": "Exceptional",
+          "Defense": "278-288",
+          "Required Level": "31",
+          "Required Strength": "125",
+          "Durability": "24",
+          "Kick Damage": "39 to 80"
+        },
+        "stats": [
+          "+75 Defense",
+          "+40% Faster Run/Walk",
+          "+110 to Attack Rating",
+          "+44 to Life",
+          "25% Better Chance of Getting Magic Items (2)",
+          "+2 to Combat Skills (Barbarian Only) (3)",
+          "+160 Defense (4)",
+          "Half Freeze Duration (5)"
+        ]
+      },
+      "immortal_kings_stone_crusher": {
+        "name": "Immortal King's Stone Crusher",
+        "slug": "immortal_kings_stone_crusher",
+        "itemStats": {
+          "Base": "Ogre Maul",
+          "Grade": "Elite",
+          "Two-Hand Damage": "231 to 318",
+          "Required Level": "76",
+          "Required Strength": "225",
+          "Base Weapon Speed": "10"
+        },
+        "stats": [
+          "+200% Enhanced Damage",
+          "+200% Damage to Demons",
+          "+250% Damage to Undead",
+          "+40% Increased Attack Speed",
+          "Indestructible",
+          "+35-40% Chance of Crushing Blow",
+          "Socketed (2)",
+          "Adds 211-397 fire damage (2)",
+          "Adds 7-477 lightning damage (3)",
+          "Adds 127-364 cold damage (4)",
+          "+204 poison damage over 6 seconds (5)",
+          "Adds 250-361 magic damage (Completed Set)"
+        ]
+      },
+      "immortal_kings_soul_cage": {
+        "name": "Immortal King's Soul Cage",
+        "slug": "immortal_kings_soul_cage",
+        "itemStats": {
+          "Base": "Sacred Armor",
+          "Grade": "Elite",
+          "Defense": "1301",
+          "Required Level": "76",
+          "Required Strength": "232",
+          "Durability": "60"
+        },
+        "stats": [
+          "+400 Defense",
+          "5% Chance to cast level 5 Enchant when struck",
+          "Poison Resist +50%",
+          "+2 to Combat Skills (Barbarian Only)",
+          "+25% Faster Hit Recovery (2)",
+          "Cold Resist +40% (3)",
+          "Fire Resist +40% (4)",
+          "Lightning Resist +40% (5)",
+          "+50% Enhanced Defense (Completed Set)"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "不朽之王",
+      "partialBonusRaw": [
+        "+50 準確率 (2)",
+        "額外 +75 準確率 (3)",
+        "額外 +125 準確率 (4)",
+        "額外 +200 準確率 (5)"
+      ],
+      "fullBonusRaw": [
+        "+3 野蠻人技能等級",
+        "+450 準確率",
+        "+150 生命",
+        "所有抗性 +50",
+        "魔法傷害降低 10",
+        "角色顯示光環效果"
+      ],
+      "pieces": {
+        "immortal_kings_will": {
+          "name": "不朽之王的意志",
+          "itemStats": {
+            "基礎": "復仇者護盔",
+            "級別": "普通",
+            "防禦": "160-175",
+            "需要等級": "47",
+            "需要力量": "65",
+            "耐久度": "55",
+            "(野蠻人專用)": ""
+          },
+          "stats": [
+            "照亮範圍 +4",
+            "+125 防禦",
+            "怪物金幣掉落量提高 37%",
+            "尋獲魔法物品機率提高 25-40%",
+            "+2 戰吼 （只限野蠻人）",
+            "鑲孔（2）"
+          ]
+        },
+        "immortal_kings_detail": {
+          "name": "不朽之王的扈從",
+          "itemStats": {
+            "基礎": "征戰腰帶",
+            "級別": "卓越",
+            "防禦": "247",
+            "需要等級": "29",
+            "需要力量": "110",
+            "耐久度": "24",
+            "腰帶空間": "+12 格"
+          },
+          "stats": [
+            "+36 防禦",
+            "電擊抗性 +31%",
+            "火焰抗性 +28%",
+            "+25 力量",
+            "+105 防禦 (2)",
+            "+25% 打擊恢復 (3)",
+            "+100% 防禦強化 (4)",
+            "受到的物理傷害降低 20% (5)",
+            "+2 戰鬥專精 （只限野蠻人） (全套)"
+          ]
+        },
+        "immortal_kings_forge": {
+          "name": "不朽之王的熔爐",
+          "itemStats": {
+            "基礎": "征戰護手",
+            "級別": "卓越",
+            "防禦": "228-238",
+            "需要等級": "30",
+            "需要力量": "110",
+            "耐久度": "24"
+          },
+          "stats": [
+            "+65 防禦",
+            "被擊中時有 12% 機率施展等級 4 電能彈",
+            "+20 敏捷",
+            "+20 力量",
+            "攻擊速度 +25% (2)",
+            "+120 防禦 (3)",
+            "擊中竊取 10% 生命 (4)",
+            "擊中竊取 10% 法力 (5)",
+            "凍結目標 +2 (全套)"
+          ]
+        },
+        "immortal_kings_pillar": {
+          "name": "不朽之王之柱",
+          "itemStats": {
+            "基礎": "征戰靴",
+            "級別": "卓越",
+            "防禦": "278-288",
+            "需要等級": "31",
+            "需要力量": "125",
+            "耐久度": "24",
+            "踢擊傷害": "39 - 80 點"
+          },
+          "stats": [
+            "+75 防禦",
+            "+40% 跑步 / 行走速度",
+            "+110 準確率",
+            "+44 生命",
+            "尋獲魔法物品機率提高 25% (2)",
+            "+2 戰鬥技能 （只限野蠻人） (3)",
+            "+160 防禦 (4)",
+            "被凍結的時效減半 (5)"
+          ]
+        },
+        "immortal_kings_stone_crusher": {
+          "name": "不朽之王的碎魂者",
+          "itemStats": {
+            "基礎": "巨魔重鎚",
+            "級別": "精英",
+            "雙手傷害": "231 - 318 點",
+            "需要等級": "76",
+            "需要力量": "225",
+            "武器基本速度": "[10]"
+          },
+          "stats": [
+            "+200% 傷害強化",
+            "+200% 對惡魔的傷害",
+            "+250% 對不死怪物的傷害",
+            "攻擊速度 +40%",
+            "永不毀損",
+            "+35-40% 機率造成粉碎打擊",
+            "鑲孔（2）",
+            "附加 211 - 397 火焰傷害 (2)",
+            "附加 7 - 477 電擊傷害 (3)",
+            "附加 127 - 364 冰寒傷害 (4)",
+            "+204 毒素傷害，時效 6 秒 (5)",
+            "附加 250 - 361 魔法傷害 (全套)"
+          ]
+        },
+        "immortal_kings_soul_cage": {
+          "name": "不朽之王的靈魂牢籠",
+          "itemStats": {
+            "基礎": "神聖戰甲",
+            "級別": "精英",
+            "防禦": "1301",
+            "需要等級": "76",
+            "需要力量": "232",
+            "耐久度": "60"
+          },
+          "stats": [
+            "+400 防禦",
+            "被擊中時有 5% 機率施展等級 5 附魔",
+            "毒素抗性 +50%",
+            "+2 戰鬥技能 （只限野蠻人）",
+            "+25% 打擊恢復 (2)",
+            "冰寒抗性 +40% (3)",
+            "火焰抗性 +40% (4)",
+            "電擊抗性 +40% (5)",
+            "+50% 防禦強化 (全套)"
+          ]
+        }
+      }
+    }
+  },
+  "infernal_tools": {
+    "slug": "infernal_tools",
+    "setName": "Infernal Tools",
+    "partialBonusRaw": [
+      "+8 poison damage over 3 seconds (2)"
+    ],
+    "fullBonusRaw": [
+      "+8 poison damage over 3 seconds",
+      "+20% Chance of Open Wounds",
+      "+1 to Necromancer Skill Levels",
+      "20% Bonus to Attack Rating",
+      "6% Mana stolen per hit",
+      "Increase Maximum Mana 20%",
+      "Cannot Be Frozen"
+    ],
+    "pieces": {
+      "infernal_cranium": {
+        "name": "Infernal Cranium",
+        "slug": "infernal_cranium",
+        "itemStats": {
+          "Base": "Cap",
+          "Grade": "Normal",
+          "Defense": "(5-201)-(7-203)",
+          "Required Level": "5",
+          "Durability": "12"
+        },
+        "stats": [
+          "+20% Damage Taken Goes To Mana",
+          "All Resistances +10",
+          "+(2-198) Defense (Based on Character Level) (2)"
+        ]
+      },
+      "infernal_sign": {
+        "name": "Infernal Sign",
+        "slug": "infernal_sign",
+        "itemStats": {
+          "Base": "Heavy Belt",
+          "Grade": "Normal",
+          "Defense": "31",
+          "Required Level": "5",
+          "Required Strength": "45",
+          "Durability": "18",
+          "Belt Size": "+8 Slots"
+        },
+        "stats": [
+          "+25 Defense",
+          "+20 to Life",
+          "Poison Resist +25% (2)",
+          "Half Freeze Duration (3)"
+        ]
+      },
+      "infernal_torch": {
+        "name": "Infernal Torch",
+        "slug": "infernal_torch",
+        "itemStats": {
+          "Base": "Grim Wand",
+          "Grade": "Normal",
+          "One-Hand Damage": "13 to 14",
+          "Required Level": "5",
+          "Durability": "15",
+          "Base Weapon Speed": "0"
+        },
+        "stats": [
+          "+1 to Necromancer Skill Levels",
+          "+8 to Minimum Damage",
+          "+150% Damage to Undead",
+          "+(10-990) to Attack Rating (Based on Character Level) (2)"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "煉獄器具",
+      "partialBonusRaw": [
+        "+8 毒素傷害，時效 3 秒 (2)"
+      ],
+      "fullBonusRaw": [
+        "+8 毒素傷害，時效 3 秒",
+        "+20% 機率造成開放傷口",
+        "+1 死靈法師技能等級",
+        "20% 準確率加成",
+        "擊中竊取 6% 法力",
+        "法力上限提高 20%",
+        "無法凍結"
+      ],
+      "pieces": {
+        "infernal_cranium": {
+          "name": "煉獄頭骨",
+          "itemStats": {
+            "基礎": "便帽",
+            "級別": "普通",
+            "防禦": "(5-201)-(7-203)",
+            "需要等級": "5",
+            "耐久度": "12"
+          },
+          "stats": [
+            "+20% 受到的傷害轉為法力",
+            "所有抗性 +10",
+            "+(2-198) 防禦 （依角色等級而定） (2)"
+          ]
+        },
+        "infernal_sign": {
+          "name": "煉獄符印",
+          "itemStats": {
+            "基礎": "厚腰帶",
+            "級別": "普通",
+            "防禦": "31",
+            "需要等級": "5",
+            "需要力量": "45",
+            "耐久度": "18",
+            "腰帶空間": "+8 格"
+          },
+          "stats": [
+            "+25 防禦",
+            "+20 生命",
+            "毒素抗性 +25% (2)",
+            "被凍結的時效減半 (3)"
+          ]
+        },
+        "infernal_torch": {
+          "name": "煉獄火炬",
+          "itemStats": {
+            "基礎": "陰森魔杖",
+            "級別": "普通",
+            "單手傷害": "13 - 14 點",
+            "需要等級": "5",
+            "耐久度": "15",
+            "武器基本速度": "[0]"
+          },
+          "stats": [
+            "+1 死靈法師技能等級",
+            "+8 最小傷害",
+            "+150% 對不死怪物的傷害",
+            "+(10-990) 準確率 （依角色等級而定） (2)"
+          ]
+        }
+      }
+    }
+  },
+  "irathas_finery": {
+    "slug": "irathas_finery",
+    "setName": "Iratha's Finery",
+    "partialBonusRaw": [
+      "+50 Defense (2)",
+      "+20% Faster Run/Walk (3)",
+      "+24% Piercing Attack (3)"
+    ],
+    "fullBonusRaw": [
+      "+20% Faster Run/Walk",
+      "+24% Piercing Attack",
+      "+50 Defense",
+      "+15 to Dexterity",
+      "+10% to Maximum Poison Resist",
+      "+10% to Maximum Cold Resist",
+      "+10% to Maximum Lightning Resist",
+      "+10% to Maximum Fire Resist",
+      "All Resistances +20"
+    ],
+    "pieces": {
+      "irathas_coil": {
+        "name": "Iratha's Coil",
+        "slug": "irathas_coil",
+        "itemStats": {
+          "Base": "Crown",
+          "Grade": "Normal",
+          "Defense": "(27-223)-(47-243)",
+          "Required Level": "15",
+          "Required Strength": "55",
+          "Durability": "50"
+        },
+        "stats": [
+          "Lightning Resist +30%",
+          "Fire Resist +30%",
+          "+(2-198) Defense (Based on Character Level) (2)"
+        ]
+      },
+      "irathas_collar": {
+        "name": "Iratha's Collar",
+        "slug": "irathas_collar",
+        "itemStats": {
+          "Base": "Amulet",
+          "Grade": "Normal",
+          "Required Level": "15"
+        },
+        "stats": [
+          "Poison Length Reduced by 75%",
+          "Poison Resist +30%",
+          "All Resistances +15 (2)"
+        ]
+      },
+      "irathas_cord": {
+        "name": "Iratha's Cord",
+        "slug": "irathas_cord",
+        "itemStats": {
+          "Base": "Heavy Belt",
+          "Grade": "Normal",
+          "Defense": "31",
+          "Required Level": "15",
+          "Required Strength": "45",
+          "Durability": "18",
+          "Belt Size": "+8 Slots"
+        },
+        "stats": [
+          "+25 Defense",
+          "+5 to Minimum Damage",
+          "+10 to Dexterity (2)"
+        ]
+      },
+      "irathas_cuff": {
+        "name": "Iratha's Cuff",
+        "slug": "irathas_cuff",
+        "itemStats": {
+          "Base": "Light Gauntlets",
+          "Grade": "Normal",
+          "Defense": "9-11",
+          "Required Level": "15",
+          "Required Strength": "45",
+          "Durability": "18"
+        },
+        "stats": [
+          "Half Freeze Duration",
+          "Cold Resist +30%",
+          "+20% Increased Attack Speed (2)"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "依雷撒的華服",
+      "partialBonusRaw": [
+        "+50 防禦 (2)",
+        "+20% 跑步 / 行走速度 (3)",
+        "+24% 穿透攻擊 (3)"
+      ],
+      "fullBonusRaw": [
+        "+20% 跑步 / 行走速度",
+        "+24% 穿透攻擊",
+        "+50 防禦",
+        "+15 敏捷",
+        "毒素抗性上限 +10%",
+        "冰寒抗性上限 +10%",
+        "電擊抗性上限 +10%",
+        "火焰抗性上限 +10%",
+        "所有抗性 +20"
+      ],
+      "pieces": {
+        "irathas_coil": {
+          "name": "依雷撒的盤頂",
+          "itemStats": {
+            "基礎": "王冠",
+            "級別": "普通",
+            "防禦": "(27-223)-(47-243)",
+            "需要等級": "15",
+            "需要力量": "55",
+            "耐久度": "50"
+          },
+          "stats": [
+            "電擊抗性 +30%",
+            "火焰抗性 +30%",
+            "+(2-198) 防禦 （依角色等級而定） (2)"
+          ]
+        },
+        "irathas_collar": {
+          "name": "依雷撒的項圈",
+          "itemStats": {
+            "基礎": "護身符",
+            "級別": "普通",
+            "需要等級": "15"
+          },
+          "stats": [
+            "中毒的時效縮短 75%",
+            "毒素抗性 +30%",
+            "所有抗性 +15 (2)"
+          ]
+        },
+        "irathas_cord": {
+          "name": "依雷撒的腰繩",
+          "itemStats": {
+            "基礎": "厚腰帶",
+            "級別": "普通",
+            "防禦": "31",
+            "需要等級": "15",
+            "需要力量": "45",
+            "耐久度": "18",
+            "腰帶空間": "+8 格"
+          },
+          "stats": [
+            "+25 防禦",
+            "+5 最小傷害",
+            "+10 敏捷 (2)"
+          ]
+        },
+        "irathas_cuff": {
+          "name": "依雷撒的袖銬",
+          "itemStats": {
+            "基礎": "輕型護手",
+            "級別": "普通",
+            "防禦": "9-11",
+            "需要等級": "15",
+            "需要力量": "45",
+            "耐久度": "18"
+          },
+          "stats": [
+            "被凍結的時效減半",
+            "冰寒抗性 +30%",
+            "攻擊速度 +20% (2)"
+          ]
+        }
+      }
+    }
+  },
+  "isenharts_armory": {
+    "slug": "isenharts_armory",
+    "setName": "Isenhart's Armory",
+    "partialBonusRaw": [
+      "+10 to Strength (2)",
+      "+10 to Dexterity (3)"
+    ],
+    "fullBonusRaw": [
+      "+10 to Strength",
+      "+10 to Dexterity",
+      "+20% Faster Run/Walk",
+      "30% Increased Chance of Blocking",
+      "35% Bonus to Attack Rating",
+      "5% Life stolen per hit",
+      "All Resistances +10"
+    ],
+    "pieces": {
+      "isenharts_lightbrand": {
+        "name": "Isenhart's Lightbrand",
+        "slug": "isenharts_lightbrand",
+        "itemStats": {
+          "Base": "Broad Sword",
+          "Grade": "Normal",
+          "One-Hand Damage": "17 to 18",
+          "Required Level": "8",
+          "Required Strength": "48",
+          "Durability": "32",
+          "Base Weapon Speed": "0"
+        },
+        "stats": [
+          "+10 to Minimum Damage",
+          "+20% Increased Attack Speed",
+          "+(5-495) to Attack Rating (Based on Character Level) (2)"
+        ]
+      },
+      "isenharts_horns": {
+        "name": "Isenhart's Horns",
+        "slug": "isenharts_horns",
+        "itemStats": {
+          "Base": "Full Helm",
+          "Grade": "Normal",
+          "Defense": "23-26",
+          "Required Level": "8",
+          "Required Strength": "41",
+          "Durability": "30"
+        },
+        "stats": [
+          "Damage Reduced by 2",
+          "+6 to Dexterity",
+          "All Resistances +8 (2)"
+        ]
+      },
+      "isenharts_case": {
+        "name": "Isenhart's Case",
+        "slug": "isenharts_case",
+        "itemStats": {
+          "Base": "Breast Plate",
+          "Grade": "Normal",
+          "Defense": "(107-303)-(110-306)",
+          "Required Level": "8",
+          "Required Strength": "30",
+          "Durability": "50"
+        },
+        "stats": [
+          "Magic Damage Reduced by 2",
+          "+40 Defense",
+          "+(2-198) Defense (Based on Character Level) (2)"
+        ]
+      },
+      "isenharts_parry": {
+        "name": "Isenhart's Parry",
+        "slug": "isenharts_parry",
+        "itemStats": {
+          "Base": "Gothic Shield",
+          "Grade": "Normal",
+          "Defense": "70-75",
+          "Chance to Block": "36%",
+          "Smite Damage": "2 to 6",
+          "Required Level": "8",
+          "Required Strength": "60",
+          "Durability": "40"
+        },
+        "stats": [
+          "Attacker Takes Lightning Damage of 4",
+          "+40 Defense",
+          "All Resistances +8 (2)"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "依森哈特的軍械",
+      "partialBonusRaw": [
+        "+10 力量 (2)",
+        "+10 敏捷 (3)"
+      ],
+      "fullBonusRaw": [
+        "+10 力量",
+        "+10 敏捷",
+        "+20% 跑步 / 行走速度",
+        "格擋機率提高 30%",
+        "35% 準確率加成",
+        "擊中竊取 5% 生命",
+        "所有抗性 +10"
+      ],
+      "pieces": {
+        "isenharts_lightbrand": {
+          "name": "依森哈特的光之烙鐵",
+          "itemStats": {
+            "基礎": "闊劍",
+            "級別": "普通",
+            "單手傷害": "17 - 18 點",
+            "需要等級": "8",
+            "需要力量": "48",
+            "耐久度": "32",
+            "武器基本速度": "[0]"
+          },
+          "stats": [
+            "+10 最小傷害",
+            "攻擊速度 +20%",
+            "+(5-495) 準確率 （依角色等級而定） (2)"
+          ]
+        },
+        "isenharts_horns": {
+          "name": "依森哈特的角盔",
+          "itemStats": {
+            "基礎": "全罩盔",
+            "級別": "普通",
+            "防禦": "23-26",
+            "需要等級": "8",
+            "需要力量": "41",
+            "耐久度": "30"
+          },
+          "stats": [
+            "傷害降低 2",
+            "+6 敏捷",
+            "所有抗性 +8 (2)"
+          ]
+        },
+        "isenharts_case": {
+          "name": "依森哈特的外殼",
+          "itemStats": {
+            "基礎": "胸鎧",
+            "級別": "普通",
+            "防禦": "(107-303)-(110-306)",
+            "需要等級": "8",
+            "需要力量": "30",
+            "耐久度": "50"
+          },
+          "stats": [
+            "魔法傷害降低 2",
+            "+40 防禦",
+            "+(2-198) 防禦 （依角色等級而定） (2)"
+          ]
+        },
+        "isenharts_parry": {
+          "name": "依森哈特的招架",
+          "itemStats": {
+            "基礎": "哥德盾",
+            "級別": "普通",
+            "防禦": "70-75",
+            "格擋機率": "36%",
+            "重擊傷害": "2 - 6 點",
+            "需要等級": "8",
+            "需要力量": "60",
+            "耐久度": "40"
+          },
+          "stats": [
+            "攻擊者受到 4 點電擊傷害",
+            "+40 防禦",
+            "所有抗性 +8 (2)"
+          ]
+        }
+      }
+    }
+  },
+  "mavinas_battle_hymn": {
+    "slug": "mavinas_battle_hymn",
+    "setName": "M'avina's Battle Hymn",
+    "partialBonusRaw": [
+      "+20 to Strength (2)",
+      "+30 to Dexterity (3)"
+    ],
+    "fullBonusRaw": [
+      "+3 to Amazon Skill Levels",
+      "+20 to Strength",
+      "+30 to Dexterity",
+      "All Resistances +50",
+      "+100 Defense",
+      "+100 to Attack Rating",
+      "100% Better Chance of Getting Magic Items",
+      "Character Displays Aura Effect"
+    ],
+    "pieces": {
+      "mavinas_icy_clutch": {
+        "name": "M'avina's Icy Clutch",
+        "slug": "mavinas_icy_clutch",
+        "itemStats": {
+          "Base": "Battle Gauntlets",
+          "Grade": "Exceptional",
+          "Defense": "84-97",
+          "Required Level": "32",
+          "Required Strength": "88",
+          "Durability": "18"
+        },
+        "stats": [
+          "+45-50 Defense",
+          "Adds 6-18 cold damage",
+          "Half Freeze Duration",
+          "56% Extra Gold from Monsters",
+          "+10 to Strength",
+          "+15 to Dexterity",
+          "Adds 131-252 cold damage (4)",
+          "+20% to Cold Skill Damage (Completed Set)"
+        ]
+      },
+      "mavinas_tenet": {
+        "name": "M'avina's Tenet",
+        "slug": "mavinas_tenet",
+        "itemStats": {
+          "Base": "Sharkskin Belt",
+          "Grade": "Exceptional",
+          "Defense": "81-86",
+          "Required Level": "45",
+          "Required Strength": "20",
+          "Durability": "14",
+          "Belt Size": "+12 Slots"
+        },
+        "stats": [
+          "+50 Defense",
+          "+20% Faster Run/Walk",
+          "+5 to Light Radius",
+          "5% Mana stolen per hit",
+          "All Resistances +25 (4)"
+        ]
+      },
+      "mavinas_true_sight": {
+        "name": "M'avina's True Sight",
+        "slug": "mavinas_true_sight",
+        "itemStats": {
+          "Base": "Diadem",
+          "Grade": "Elite",
+          "Defense": "200-210",
+          "Required Level": "64",
+          "Durability": "20"
+        },
+        "stats": [
+          "+150 Defense",
+          "Replenish Life +10",
+          "+25 to Mana",
+          "+30% Increased Attack Speed",
+          "+1 to All Skills (2)",
+          "50% Bonus to Attack Rating (3)",
+          "All Resistances +25 (4)"
+        ]
+      },
+      "mavinas_caster": {
+        "name": "M'avina's Caster",
+        "slug": "mavinas_caster",
+        "itemStats": {
+          "Base": "Grand Matron Bow",
+          "Grade": "Elite",
+          "Two-Hand Damage": "40 to 207",
+          "Required Level": "70",
+          "Required Strength": "108",
+          "Required Dexterity": "152",
+          "Base Weapon Speed": "10",
+          "(Amazon Only)": ""
+        },
+        "stats": [
+          "+188% Enhanced Damage",
+          "+40% Increased Attack Speed",
+          "+50 to Attack Rating",
+          "Fires Magic Arrows Level 1",
+          "Adds 114-377 magic damage (2)",
+          "10% Chance to cast level 15 Nova on striking (3)",
+          "+2 to Bow and Crossbow Skills (Amazon Only) (4)"
+        ]
+      },
+      "mavinas_embrace": {
+        "name": "M'avina's Embrace",
+        "slug": "mavinas_embrace",
+        "itemStats": {
+          "Base": "Kraken Shell",
+          "Grade": "Elite",
+          "Defense": "(771-1163)-(877-1269)",
+          "Required Level": "70",
+          "Required Strength": "122",
+          "Durability": "48"
+        },
+        "stats": [
+          "Requirements -30%",
+          "10% Chance to cast level 3 Glacial Spike when struck",
+          "Magic Damage Reduced by 5-12",
+          "+(4-396) Defense (Based on Character Level)",
+          "+2 to Passive and Magic Skills (Amazon Only)",
+          "+350 Defense",
+          "+30% Faster Hit Recovery (3)"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "馬維娜之戰鬥詩歌",
+      "partialBonusRaw": [
+        "+20 力量 (2)",
+        "+30 敏捷 (3)"
+      ],
+      "fullBonusRaw": [
+        "+3 亞馬遜技能等級",
+        "+20 力量",
+        "+30 敏捷",
+        "所有抗性 +50",
+        "+100 防禦",
+        "+100 準確率",
+        "尋獲魔法物品機率提高 100%",
+        "角色顯示光環效果"
+      ],
+      "pieces": {
+        "mavinas_icy_clutch": {
+          "name": "馬維娜的冰握",
+          "itemStats": {
+            "基礎": "戰鬥護手",
+            "級別": "卓越",
+            "防禦": "84-97",
+            "需要等級": "32",
+            "需要力量": "88",
+            "耐久度": "18"
+          },
+          "stats": [
+            "+45-50 防禦",
+            "附加 6 - 18 冰寒傷害",
+            "被凍結的時效減半",
+            "怪物金幣掉落量提高 56%",
+            "+10 力量",
+            "+15 敏捷",
+            "附加 131 - 252 冰寒傷害 (4)",
+            "+20% 冰寒技能傷害 (全套)"
+          ]
+        },
+        "mavinas_tenet": {
+          "name": "馬維娜的教義",
+          "itemStats": {
+            "基礎": "鯊皮腰帶",
+            "級別": "卓越",
+            "防禦": "81-86",
+            "需要等級": "45",
+            "需要力量": "20",
+            "耐久度": "14",
+            "腰帶空間": "+12 格"
+          },
+          "stats": [
+            "+50 防禦",
+            "+20% 跑步 / 行走速度",
+            "照亮範圍 +5",
+            "擊中竊取 5% 法力",
+            "所有抗性 +25 (4)"
+          ]
+        },
+        "mavinas_true_sight": {
+          "name": "馬維娜的真實之眼",
+          "itemStats": {
+            "基礎": "權冠",
+            "級別": "精英",
+            "防禦": "200-210",
+            "需要等級": "64",
+            "耐久度": "20"
+          },
+          "stats": [
+            "+150 防禦",
+            "生命回復 +10",
+            "+25 法力",
+            "攻擊速度 +30%",
+            "+1 所有技能 (2)",
+            "50% 準確率加成 (3)",
+            "所有抗性 +25 (4)"
+          ]
+        },
+        "mavinas_caster": {
+          "name": "馬維娜的強弓",
+          "itemStats": {
+            "基礎": "主母之弓",
+            "級別": "精英",
+            "雙手傷害": "40 - 207 點",
+            "需要等級": "70",
+            "需要力量": "108",
+            "需要敏捷": "152",
+            "武器基本速度": "[10]",
+            "(亞馬遜專用)": ""
+          },
+          "stats": [
+            "+188% 傷害強化",
+            "攻擊速度 +40%",
+            "+50 準確率",
+            "射出魔法箭矢 Level 1",
+            "附加 114 - 377 魔法傷害 (2)",
+            "擊中時有 10% 機率施展等級 15 閃電新星 (3)",
+            "+2 弓與弩技能 （只限亞馬遜） (4)"
+          ]
+        },
+        "mavinas_embrace": {
+          "name": "馬維娜的擁抱",
+          "itemStats": {
+            "基礎": "海怪之殼",
+            "級別": "精英",
+            "防禦": "(771-1163)-(877-1269)",
+            "需要等級": "70",
+            "需要力量": "122",
+            "耐久度": "48"
+          },
+          "stats": [
+            "需求 -30%",
+            "被擊中時有 10% 機率施展等級 3 冰川之槍",
+            "魔法傷害降低 5-12",
+            "+(4-396) 防禦 （依角色等級而定）",
+            "+2 被動與魔法技能 （只限亞馬遜）",
+            "+350 防禦",
+            "+30% 打擊恢復 (3)"
+          ]
+        }
+      }
+    }
+  },
+  "milabregas_regalia": {
+    "slug": "milabregas_regalia",
+    "setName": "Milabrega's Regalia",
+    "partialBonusRaw": [
+      "+75 to Attack Rating (2)",
+      "+(2-198) lightning damage (Based on Character Level) (2)",
+      "Additional +125 to Attack Rating (3)",
+      "Cannot Be Frozen (3)"
+    ],
+    "fullBonusRaw": [
+      "+2 to Paladin Skill Levels",
+      "+200 to Attack Rating",
+      "+(2-198) lightning damage (Based on Character Level)",
+      "10% Mana stolen per hit",
+      "8% Life stolen per hit",
+      "Poison Resist +15%",
+      "Cannot Be Frozen"
+    ],
+    "pieces": {
+      "milabregas_diadem": {
+        "name": "Milabrega's Diadem",
+        "slug": "milabregas_diadem",
+        "itemStats": {
+          "Base": "Crown",
+          "Grade": "Normal",
+          "Defense": "25-45",
+          "Required Level": "17",
+          "Required Strength": "55",
+          "Durability": "50"
+        },
+        "stats": [
+          "+15 to Mana",
+          "+15 to Life",
+          "Cold Resist +40% (2)"
+        ]
+      },
+      "milabregas_robe": {
+        "name": "Milabrega's Robe",
+        "slug": "milabregas_robe",
+        "itemStats": {
+          "Base": "Ancient Armor",
+          "Grade": "Normal",
+          "Defense": "468",
+          "Required Level": "17",
+          "Required Strength": "100",
+          "Durability": "60"
+        },
+        "stats": [
+          "Damage Reduced by 2",
+          "Attacker Takes Damage of 3",
+          "+100% Enhanced Defense (2)"
+        ]
+      },
+      "milabregas_orb": {
+        "name": "Milabrega's Orb",
+        "slug": "milabregas_orb",
+        "itemStats": {
+          "Base": "Kite Shield",
+          "Grade": "Normal",
+          "Defense": "53",
+          "Chance to Block": "28%",
+          "Smite Damage": "2 to 5",
+          "Required Level": "17",
+          "Required Strength": "47",
+          "Durability": "30"
+        },
+        "stats": [
+          "+25 Defense",
+          "20% Better Chance of Getting Magic Items",
+          "+50 to Life (2)",
+          "+50% Enhanced Defense (3)"
+        ]
+      },
+      "milabregas_rod": {
+        "name": "Milabrega's Rod",
+        "slug": "milabregas_rod",
+        "itemStats": {
+          "Base": "War Scepter",
+          "Grade": "Normal",
+          "One-Hand Damage": "15 to 25",
+          "Required Level": "17",
+          "Required Strength": "55",
+          "Durability": "70",
+          "Base Weapon Speed": "-10"
+        },
+        "stats": [
+          "+50% Enhanced Damage",
+          "+50% Damage to Undead",
+          "+1 to Paladin Skill Levels",
+          "+2 to Light Radius"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "米拉伯佳戰裝",
+      "partialBonusRaw": [
+        "+75 準確率 (2)",
+        "+(2-198) 電擊傷害 （依角色等級而定） (2)",
+        "額外 +125 準確率 (3)",
+        "無法凍結 (3)"
+      ],
+      "fullBonusRaw": [
+        "+2 聖騎士技能等級",
+        "+200 準確率",
+        "+(2-198) 電擊傷害 （依角色等級而定）",
+        "擊中竊取 10% 法力",
+        "擊中竊取 8% 生命",
+        "毒素抗性 +15%",
+        "無法凍結"
+      ],
+      "pieces": {
+        "milabregas_diadem": {
+          "name": "米拉伯佳權冠",
+          "itemStats": {
+            "基礎": "王冠",
+            "級別": "普通",
+            "防禦": "25-45",
+            "需要等級": "17",
+            "需要力量": "55",
+            "耐久度": "50"
+          },
+          "stats": [
+            "+15 法力",
+            "+15 生命",
+            "冰寒抗性 +40% (2)"
+          ]
+        },
+        "milabregas_robe": {
+          "name": "米拉伯佳外袍",
+          "itemStats": {
+            "基礎": "上古鎧甲",
+            "級別": "普通",
+            "防禦": "468",
+            "需要等級": "17",
+            "需要力量": "100",
+            "耐久度": "60"
+          },
+          "stats": [
+            "傷害降低 2",
+            "攻擊者反傷：3",
+            "+100% 防禦強化 (2)"
+          ]
+        },
+        "milabregas_orb": {
+          "name": "米拉伯佳之球",
+          "itemStats": {
+            "基礎": "鳶盾",
+            "級別": "普通",
+            "防禦": "53",
+            "格擋機率": "28%",
+            "重擊傷害": "2 - 5 點",
+            "需要等級": "17",
+            "需要力量": "47",
+            "耐久度": "30"
+          },
+          "stats": [
+            "+25 防禦",
+            "尋獲魔法物品機率提高 20%",
+            "+50 生命 (2)",
+            "+50% 防禦強化 (3)"
+          ]
+        },
+        "milabregas_rod": {
+          "name": "米拉伯佳節杖",
+          "itemStats": {
+            "基礎": "征戰權杖",
+            "級別": "普通",
+            "單手傷害": "15 - 25 點",
+            "需要等級": "17",
+            "需要力量": "55",
+            "耐久度": "70",
+            "武器基本速度": "[-10]"
+          },
+          "stats": [
+            "+50% 傷害強化",
+            "+50% 對不死怪物的傷害",
+            "+1 聖騎士技能等級",
+            "照亮範圍 +2"
+          ]
+        }
+      }
+    }
+  },
+  "najs_ancient_vestige": {
+    "slug": "najs_ancient_vestige",
+    "setName": "Naj's Ancient Vestige",
+    "partialBonusRaw": [
+      "+175 Defense (2)",
+      "(1-148)% Better Chance of Getting Magic Items (Based on Character Level) (2)"
+    ],
+    "fullBonusRaw": [
+      "+1 to All Skills",
+      "+2 to Fire Skills",
+      "+175 Defense",
+      "+20 to Strength",
+      "+15 to Dexterity",
+      "Increase Maximum Life 12%",
+      "Replenish Life +20",
+      "+100 to Mana",
+      "All Resistances +50",
+      "(1-148)% Better Chance of Getting Magic Items (Based on Character Level)"
+    ],
+    "pieces": {
+      "najs_circlet": {
+        "name": "Naj's Circlet",
+        "slug": "najs_circlet",
+        "itemStats": {
+          "Base": "Circlet",
+          "Grade": "Normal",
+          "Defense": "95-105",
+          "Required Level": "28",
+          "Durability": "35"
+        },
+        "stats": [
+          "+75 Defense",
+          "Adds 25-35 fire damage",
+          "12% Chance to cast level 5 Chain Lightning when struck",
+          "+15 to Strength",
+          "+5 to Light Radius"
+        ]
+      },
+      "najs_light_plate": {
+        "name": "Naj's Light Plate",
+        "slug": "najs_light_plate",
+        "itemStats": {
+          "Base": "Hellforge Plate",
+          "Grade": "Elite",
+          "Defense": "721-830",
+          "Required Level": "71",
+          "Required Strength": "79",
+          "Durability": "60"
+        },
+        "stats": [
+          "+300 Defense",
+          "Requirements -60%",
+          "+45% Damage Taken Goes To Mana",
+          "+1 to All Skills",
+          "All Resistances +25",
+          "+65 to Life"
+        ]
+      },
+      "najs_puzzler": {
+        "name": "Naj's Puzzler",
+        "slug": "najs_puzzler",
+        "itemStats": {
+          "Base": "Elder Staff",
+          "Grade": "Elite",
+          "Two-Hand Damage": "200 to 232",
+          "Required Level": "78",
+          "Required Strength": "44",
+          "Required Dexterity": "37",
+          "Durability": "35",
+          "Base Weapon Speed": "0"
+        },
+        "stats": [
+          "+150% Enhanced Damage",
+          "+50% Damage to Undead",
+          "Adds 6-45 lightning damage",
+          "+30% Faster Cast Rate",
+          "+1 to All Skills",
+          "+70 to Mana",
+          "+35 to Energy",
+          "Level 11 Teleport (69 Charges)"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "娜吉的上古遺物",
+      "partialBonusRaw": [
+        "+175 防禦 (2)",
+        "尋獲魔法物品機率提高 (1-148)% （依角色等級而定） (2)"
+      ],
+      "fullBonusRaw": [
+        "+1 所有技能",
+        "+2 火焰技能",
+        "+175 防禦",
+        "+20 力量",
+        "+15 敏捷",
+        "生命上限提高 12%",
+        "生命回復 +20",
+        "+100 法力",
+        "所有抗性 +50",
+        "尋獲魔法物品機率提高 (1-148)% （依角色等級而定）"
+      ],
+      "pieces": {
+        "najs_circlet": {
+          "name": "娜吉的頭環",
+          "itemStats": {
+            "基礎": "頭環",
+            "級別": "普通",
+            "防禦": "95-105",
+            "需要等級": "28",
+            "耐久度": "35"
+          },
+          "stats": [
+            "+75 防禦",
+            "附加 25 - 35 火焰傷害",
+            "被擊中時有 12% 機率施展等級 5 連鎖閃電",
+            "+15 力量",
+            "照亮範圍 +5"
+          ]
+        },
+        "najs_light_plate": {
+          "name": "娜吉的輕鎧",
+          "itemStats": {
+            "基礎": "地獄鍛甲",
+            "級別": "精英",
+            "防禦": "721-830",
+            "需要等級": "71",
+            "需要力量": "79",
+            "耐久度": "60"
+          },
+          "stats": [
+            "+300 防禦",
+            "需求 -60%",
+            "+45% 受到的傷害轉為法力",
+            "+1 所有技能",
+            "所有抗性 +25",
+            "+65 生命"
+          ]
+        },
+        "najs_puzzler": {
+          "name": "娜吉的解謎杖",
+          "itemStats": {
+            "基礎": "長者法杖",
+            "級別": "精英",
+            "雙手傷害": "200 - 232 點",
+            "需要等級": "78",
+            "需要力量": "44",
+            "需要敏捷": "37",
+            "耐久度": "35",
+            "武器基本速度": "[0]"
+          },
+          "stats": [
+            "+150% 傷害強化",
+            "+50% 對不死怪物的傷害",
+            "附加 6 - 45 電擊傷害",
+            "+30% 施法速度",
+            "+1 所有技能",
+            "+70 法力",
+            "+35 能量",
+            "等級 11 傳送術 （69 次）"
+          ]
+        }
+      }
+    }
+  },
+  "natalyas_odium": {
+    "slug": "natalyas_odium",
+    "setName": "Natalya's Odium",
+    "partialBonusRaw": [
+      "Magic Damage Reduced by 15 (2)",
+      "+200 Defense (3)"
+    ],
+    "fullBonusRaw": [
+      "+3 to Assassin Skill Levels",
+      "+350 Defense",
+      "14% Life stolen per hit",
+      "14% Mana stolen per hit",
+      "All Resistances +50",
+      "Physical Damage Received Reduced by 30%",
+      "Magic Damage Reduced by 15",
+      "Character Displays Fade Effect"
+    ],
+    "pieces": {
+      "natalyas_totem": {
+        "name": "Natalya's Totem",
+        "slug": "natalyas_totem",
+        "itemStats": {
+          "Base": "Grim Helm",
+          "Grade": "Exceptional",
+          "Defense": "195-300",
+          "Required Level": "59",
+          "Required Strength": "58",
+          "Durability": "40"
+        },
+        "stats": [
+          "+135-175 Defense",
+          "All Resistances +10-20",
+          "+20-30 to Dexterity",
+          "+10-20 to Strength",
+          "Magic Damage Reduced by 3"
+        ]
+      },
+      "natalyas_soul": {
+        "name": "Natalya's Soul",
+        "slug": "natalyas_soul",
+        "itemStats": {
+          "Base": "Mesh Boots",
+          "Grade": "Exceptional",
+          "Defense": "112-169",
+          "Required Level": "25",
+          "Required Strength": "65",
+          "Durability": "66",
+          "Kick Damage": "23 to 52"
+        },
+        "stats": [
+          "+75-125 Defense",
+          "+40% Faster Run/Walk",
+          "Heal Stamina Plus (0-24)% (Based on Character Level)",
+          "Cold Resist +15-25%",
+          "Lightning Resist +15-25%"
+        ]
+      },
+      "natalyas_mark": {
+        "name": "Natalya's Mark",
+        "slug": "natalyas_mark",
+        "itemStats": {
+          "Base": "Scissors Suwayyah",
+          "Grade": "Elite",
+          "One-Hand Damage": "120 to 153",
+          "Required Level": "79",
+          "Required Strength": "118",
+          "Required Dexterity": "118",
+          "Durability": "68",
+          "Base Weapon Speed": "0",
+          "(Assassin Only)": ""
+        },
+        "stats": [
+          "+200% Enhanced Damage",
+          "+200% Damage to Undead",
+          "+200% Damage to Demons",
+          "Adds 12-17 fire damage",
+          "Ignore Target's Defense",
+          "+40% Increased Attack Speed",
+          "+50 cold damage"
+        ]
+      },
+      "natalyas_shadow": {
+        "name": "Natalya's Shadow",
+        "slug": "natalyas_shadow",
+        "itemStats": {
+          "Base": "Loricated Mail",
+          "Grade": "Elite",
+          "Defense": "540-721",
+          "Required Level": "73",
+          "Required Strength": "149",
+          "Durability": "36"
+        },
+        "stats": [
+          "+150-225 Defense",
+          "+(1-99) to Life (Based on Character Level)",
+          "Poison Length Reduced by 75%",
+          "Poison Resist +25%",
+          "+2 to Shadow Disciplines (Assassin Only)",
+          "Socketed ( 1-3 )"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "娜塔亞的非難",
+      "partialBonusRaw": [
+        "魔法傷害降低 15 (2)",
+        "+200 防禦 (3)"
+      ],
+      "fullBonusRaw": [
+        "+3 刺客技能等級",
+        "+350 防禦",
+        "擊中竊取 14% 生命",
+        "擊中竊取 14% 法力",
+        "所有抗性 +50",
+        "受到的物理傷害降低 30%",
+        "魔法傷害降低 15",
+        "角色顯示虛影效果"
+      ],
+      "pieces": {
+        "natalyas_totem": {
+          "name": "娜塔亞的圖騰",
+          "itemStats": {
+            "基礎": "陰森頭盔",
+            "級別": "卓越",
+            "防禦": "195-300",
+            "需要等級": "59",
+            "需要力量": "58",
+            "耐久度": "40"
+          },
+          "stats": [
+            "+135-175 防禦",
+            "所有抗性 +10-20",
+            "+20-30 敏捷",
+            "+10-20 力量",
+            "魔法傷害降低 3"
+          ]
+        },
+        "natalyas_soul": {
+          "name": "娜塔亞的靈魂",
+          "itemStats": {
+            "基礎": "鐵網靴",
+            "級別": "卓越",
+            "防禦": "112-169",
+            "需要等級": "25",
+            "需要力量": "65",
+            "耐久度": "66",
+            "踢擊傷害": "23 - 52 點"
+          },
+          "stats": [
+            "+75-125 防禦",
+            "+40% 跑步 / 行走速度",
+            "精力恢復 +(0-24)% （依角色等級而定）",
+            "冰寒抗性 +15-25%",
+            "電擊抗性 +15-25%"
+          ]
+        },
+        "natalyas_mark": {
+          "name": "娜塔亞的印記",
+          "itemStats": {
+            "基礎": "穿擊剪刃",
+            "級別": "精英",
+            "單手傷害": "120 - 153 點",
+            "需要等級": "79",
+            "需要力量": "118",
+            "需要敏捷": "118",
+            "耐久度": "68",
+            "武器基本速度": "[0]",
+            "(刺客專用)": ""
+          },
+          "stats": [
+            "+200% 傷害強化",
+            "+200% 對不死怪物的傷害",
+            "+200% 對惡魔的傷害",
+            "附加 12 - 17 火焰傷害",
+            "無視目標防禦",
+            "攻擊速度 +40%",
+            "+50 冰寒傷害"
+          ]
+        },
+        "natalyas_shadow": {
+          "name": "娜塔亞的影子",
+          "itemStats": {
+            "基礎": "綴鱗戰甲",
+            "級別": "精英",
+            "防禦": "540-721",
+            "需要等級": "73",
+            "需要力量": "149",
+            "耐久度": "36"
+          },
+          "stats": [
+            "+150-225 防禦",
+            "+(1-99) 生命 （依角色等級而定）",
+            "中毒的時效縮短 75%",
+            "毒素抗性 +25%",
+            "+2 暗影修行 （只限刺客）",
+            "鑲孔（ 1-3 ）"
+          ]
+        }
+      }
+    }
+  },
+  "orphans_call": {
+    "slug": "orphans_call",
+    "setName": "Orphan's Call",
+    "partialBonusRaw": [
+      "+35 to Life (2)",
+      "Attacker Takes Damage of 5 (3)"
+    ],
+    "fullBonusRaw": [
+      "+85 to Life",
+      "Attacker Takes Damage of 5",
+      "All Resistances +15",
+      "+100 Defense",
+      "+10 to Dexterity",
+      "+20 to Strength",
+      "80% Better Chance of Getting Magic Items"
+    ],
+    "pieces": {
+      "guillaumes_face": {
+        "name": "Guillaume's Face",
+        "slug": "guillaumes_face",
+        "itemStats": {
+          "Base": "Winged Helm",
+          "Grade": "Exceptional",
+          "Defense": "217",
+          "Required Level": "34",
+          "Required Strength": "115",
+          "Durability": "40"
+        },
+        "stats": [
+          "+120% Enhanced Defense",
+          "+30% Faster Hit Recovery",
+          "+15% Deadly Strike",
+          "+35% Chance of Crushing Blow",
+          "+15 to Strength"
+        ]
+      },
+      "whitstans_guard": {
+        "name": "Whitstan's Guard",
+        "slug": "whitstans_guard",
+        "itemStats": {
+          "Base": "Round Shield",
+          "Grade": "Exceptional",
+          "Defense": "154",
+          "Required Level": "29",
+          "Required Strength": "53",
+          "Durability": "64",
+          "Chance to Block": "87%",
+          "Smite Damage": "7 to 14"
+        },
+        "stats": [
+          "+175% Enhanced Defense",
+          "Half Freeze Duration",
+          "+40% Faster Block Rate",
+          "55% Increased Chance of Blocking",
+          "+5 to Light Radius"
+        ]
+      },
+      "magnus_skin": {
+        "name": "Magnus' Skin",
+        "slug": "magnus_skin",
+        "itemStats": {
+          "Base": "Sharkskin Gloves",
+          "Grade": "Exceptional",
+          "Defense": "60",
+          "Required Level": "37",
+          "Required Strength": "20",
+          "Durability": "14"
+        },
+        "stats": [
+          "+50% Enhanced Defense",
+          "+20% Increased Attack Speed",
+          "+100 to Attack Rating",
+          "+3 to Light Radius",
+          "Fire Resist +15%"
+        ]
+      },
+      "wilhelms_pride": {
+        "name": "Wilhelm's Pride",
+        "slug": "wilhelms_pride",
+        "itemStats": {
+          "Base": "Battle Belt",
+          "Grade": "Exceptional",
+          "Defense": "75",
+          "Required Level": "42",
+          "Required Strength": "88",
+          "Durability": "18",
+          "Belt Size": "+12 Slots"
+        },
+        "stats": [
+          "+75% Enhanced Defense",
+          "5% Life stolen per hit",
+          "5% Mana stolen per hit",
+          "Cold Resist +10%"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "孤兒的呼喚",
+      "partialBonusRaw": [
+        "+35 生命 (2)",
+        "攻擊者反傷：5 (3)"
+      ],
+      "fullBonusRaw": [
+        "+85 生命",
+        "攻擊者反傷：5",
+        "所有抗性 +15",
+        "+100 防禦",
+        "+10 敏捷",
+        "+20 力量",
+        "尋獲魔法物品機率提高 80%"
+      ],
+      "pieces": {
+        "guillaumes_face": {
+          "name": "吉永之臉",
+          "itemStats": {
+            "基礎": "翼盔",
+            "級別": "卓越",
+            "防禦": "217",
+            "需要等級": "34",
+            "需要力量": "115",
+            "耐久度": "40"
+          },
+          "stats": [
+            "+120% 防禦強化",
+            "+30% 打擊恢復",
+            "+15% 致命打擊",
+            "+35% 機率造成粉碎打擊",
+            "+15 力量"
+          ]
+        },
+        "whitstans_guard": {
+          "name": "惠斯坦的守護",
+          "itemStats": {
+            "基礎": "圓型盾",
+            "級別": "卓越",
+            "防禦": "154",
+            "需要等級": "29",
+            "需要力量": "53",
+            "耐久度": "64",
+            "格擋機率": "87%",
+            "重擊傷害": "7 - 14 點"
+          },
+          "stats": [
+            "+175% 防禦強化",
+            "被凍結的時效減半",
+            "+40% 格擋速度",
+            "格擋機率提高 55%",
+            "照亮範圍 +5"
+          ]
+        },
+        "magnus_skin": {
+          "name": "馬格納斯之皮",
+          "itemStats": {
+            "基礎": "鯊皮手套",
+            "級別": "卓越",
+            "防禦": "60",
+            "需要等級": "37",
+            "需要力量": "20",
+            "耐久度": "14"
+          },
+          "stats": [
+            "+50% 防禦強化",
+            "攻擊速度 +20%",
+            "+100 準確率",
+            "照亮範圍 +3",
+            "火焰抗性 +15%"
+          ]
+        },
+        "wilhelms_pride": {
+          "name": "威廉的自尊",
+          "itemStats": {
+            "基礎": "戰鬥腰帶",
+            "級別": "卓越",
+            "防禦": "75",
+            "需要等級": "42",
+            "需要力量": "88",
+            "耐久度": "18",
+            "腰帶空間": "+12 格"
+          },
+          "stats": [
+            "+75% 防禦強化",
+            "擊中竊取 5% 生命",
+            "擊中竊取 5% 法力",
+            "冰寒抗性 +10%"
+          ]
+        }
+      }
+    }
+  },
+  "sanders_folly": {
+    "slug": "sanders_folly",
+    "setName": "Sander's Folly",
+    "partialBonusRaw": [
+      "+50 Defense (2)",
+      "+75 to Attack Rating (3)"
+    ],
+    "fullBonusRaw": [
+      "+50 Defense",
+      "+75 to Attack Rating",
+      "+1 to All Skills",
+      "4% Life stolen per hit",
+      "+50 to Mana",
+      "50% Better Chance of Getting Magic Items"
+    ],
+    "pieces": {
+      "sanders_paragon": {
+        "name": "Sander's Paragon",
+        "slug": "sanders_paragon",
+        "itemStats": {
+          "Base": "Cap",
+          "Grade": "Normal",
+          "Defense": "(4-102)-(6-104)",
+          "Required Level": "25",
+          "Durability": "12"
+        },
+        "stats": [
+          "+(1-99) Defense (Based on Character Level)",
+          "Attacker Takes Damage of 8",
+          "35% Better Chance of Getting Magic Items"
+        ]
+      },
+      "sanders_superstition": {
+        "name": "Sander's Superstition",
+        "slug": "sanders_superstition",
+        "itemStats": {
+          "Base": "Bone Wand",
+          "Grade": "Normal",
+          "One-Hand Damage": "5 to 12",
+          "Required Level": "25",
+          "Durability": "15",
+          "Base Weapon Speed": "-20"
+        },
+        "stats": [
+          "+75% Enhanced Damage",
+          "+50% Damage to Undead",
+          "+20% Faster Cast Rate",
+          "+25 to Mana",
+          "8% Mana stolen per hit",
+          "Adds 25-75 cold damage"
+        ]
+      },
+      "sanders_taboo": {
+        "name": "Sander's Taboo",
+        "slug": "sanders_taboo",
+        "itemStats": {
+          "Base": "Heavy Gloves",
+          "Grade": "Normal",
+          "Defense": "25-31",
+          "Required Level": "28",
+          "Durability": "14"
+        },
+        "stats": [
+          "Adds 9-11 poison damage over 3 seconds",
+          "+20-25 Defense",
+          "+40 to Life",
+          "+20% Increased Attack Speed"
+        ]
+      },
+      "sanders_riprap": {
+        "name": "Sander's Riprap",
+        "slug": "sanders_riprap",
+        "itemStats": {
+          "Base": "Heavy Boots",
+          "Grade": "Normal",
+          "Defense": "5-6",
+          "Required Level": "20",
+          "Required Strength": "18",
+          "Durability": "14",
+          "Kick Damage": "4 to 10"
+        },
+        "stats": [
+          "+40% Faster Run/Walk",
+          "+100 to Attack Rating",
+          "+10 to Dexterity",
+          "+5 to Strength"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "山德的愚行",
+      "partialBonusRaw": [
+        "+50 防禦 (2)",
+        "+75 準確率 (3)"
+      ],
+      "fullBonusRaw": [
+        "+50 防禦",
+        "+75 準確率",
+        "+1 所有技能",
+        "擊中竊取 4% 生命",
+        "+50 法力",
+        "尋獲魔法物品機率提高 50%"
+      ],
+      "pieces": {
+        "sanders_paragon": {
+          "name": "山德的模範",
+          "itemStats": {
+            "基礎": "便帽",
+            "級別": "普通",
+            "防禦": "(4-102)-(6-104)",
+            "需要等級": "25",
+            "耐久度": "12"
+          },
+          "stats": [
+            "+(1-99) 防禦 （依角色等級而定）",
+            "攻擊者反傷：8",
+            "尋獲魔法物品機率提高 35%"
+          ]
+        },
+        "sanders_superstition": {
+          "name": "山德的迷信",
+          "itemStats": {
+            "基礎": "骸骨魔杖",
+            "級別": "普通",
+            "單手傷害": "5 - 12 點",
+            "需要等級": "25",
+            "耐久度": "15",
+            "武器基本速度": "[-20]"
+          },
+          "stats": [
+            "+75% 傷害強化",
+            "+50% 對不死怪物的傷害",
+            "+20% 施法速度",
+            "+25 法力",
+            "擊中竊取 8% 法力",
+            "附加 25 - 75 冰寒傷害"
+          ]
+        },
+        "sanders_taboo": {
+          "name": "山德的禁忌",
+          "itemStats": {
+            "基礎": "厚皮手套",
+            "級別": "普通",
+            "防禦": "25-31",
+            "需要等級": "28",
+            "耐久度": "14"
+          },
+          "stats": [
+            "附加 9 - 11 毒素傷害，時效 3 秒",
+            "+20-25 防禦",
+            "+40 生命",
+            "攻擊速度 +20%"
+          ]
+        },
+        "sanders_riprap": {
+          "name": "山德的碎石",
+          "itemStats": {
+            "基礎": "重靴",
+            "級別": "普通",
+            "防禦": "5-6",
+            "需要等級": "20",
+            "需要力量": "18",
+            "耐久度": "14",
+            "踢擊傷害": "4 - 10 點"
+          },
+          "stats": [
+            "+40% 跑步 / 行走速度",
+            "+100 準確率",
+            "+10 敏捷",
+            "+5 力量"
+          ]
+        }
+      }
+    }
+  },
+  "sazabis_grand_tribute": {
+    "slug": "sazabis_grand_tribute",
+    "setName": "Sazabi's Grand Tribute",
+    "partialBonusRaw": [
+      "+40% Faster Run/Walk (2)",
+      "Poison Length Reduced by 75% (2)"
+    ],
+    "fullBonusRaw": [
+      "+1 to All Skills",
+      "+40% Faster Run/Walk",
+      "15% Life stolen per hit",
+      "Increase Maximum Life 27%",
+      "All Resistances +30",
+      "Physical Damage Received Reduced by 16%",
+      "Poison Length Reduced by 75%"
+    ],
+    "pieces": {
+      "sazabis_mental_sheath": {
+        "name": "Sazabi's Mental Sheath",
+        "slug": "sazabis_mental_sheath",
+        "itemStats": {
+          "Base": "Basinet",
+          "Grade": "Exceptional",
+          "Defense": "175-184",
+          "Required Level": "43",
+          "Required Strength": "82",
+          "Durability": "30"
+        },
+        "stats": [
+          "+1 to All Skills",
+          "Lightning Resist +15-20%",
+          "Fire Resist +15-20%",
+          "+100 Defense"
+        ]
+      },
+      "sazabis_cobalt_redeemer": {
+        "name": "Sazabi's Cobalt Redeemer",
+        "slug": "sazabis_cobalt_redeemer",
+        "itemStats": {
+          "Base": "Cryptic Sword",
+          "Grade": "Elite",
+          "One-Hand Damage": "12 to 192",
+          "Required Level": "73",
+          "Required Strength": "99",
+          "Required Dexterity": "109",
+          "Base Weapon Speed": "-10"
+        },
+        "stats": [
+          "+150% Enhanced Damage",
+          "+318% Damage to Demons",
+          "Adds 25-35 cold damage",
+          "+40% Increased Attack Speed",
+          "Indestructible",
+          "+15 to Dexterity",
+          "+5 to Strength"
+        ]
+      },
+      "sazabis_ghost_liberator": {
+        "name": "Sazabi's Ghost Liberator",
+        "slug": "sazabis_ghost_liberator",
+        "itemStats": {
+          "Base": "Balrog Skin",
+          "Grade": "Elite",
+          "Defense": "810-917",
+          "Required Level": "67",
+          "Required Strength": "165",
+          "Durability": "30"
+        },
+        "stats": [
+          "+400 Defense",
+          "+30% Faster Hit Recovery",
+          "+300 to Attack Rating against Demons",
+          "+25 to Strength",
+          "+50-75 to Life"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "沙薩比的崇高禮讚",
+      "partialBonusRaw": [
+        "+40% 跑步 / 行走速度 (2)",
+        "中毒的時效縮短 75% (2)"
+      ],
+      "fullBonusRaw": [
+        "+1 所有技能",
+        "+40% 跑步 / 行走速度",
+        "擊中竊取 15% 生命",
+        "生命上限提高 27%",
+        "所有抗性 +30",
+        "受到的物理傷害降低 16%",
+        "中毒的時效縮短 75%"
+      ],
+      "pieces": {
+        "sazabis_mental_sheath": {
+          "name": "沙薩比的精神護罩",
+          "itemStats": {
+            "基礎": "輕盔",
+            "級別": "卓越",
+            "防禦": "175-184",
+            "需要等級": "43",
+            "需要力量": "82",
+            "耐久度": "30"
+          },
+          "stats": [
+            "+1 所有技能",
+            "電擊抗性 +15-20%",
+            "火焰抗性 +15-20%",
+            "+100 防禦"
+          ]
+        },
+        "sazabis_cobalt_redeemer": {
+          "name": "沙薩比的救贖鈷劍",
+          "itemStats": {
+            "基礎": "絕秘劍",
+            "級別": "精英",
+            "單手傷害": "12 - 192 點",
+            "需要等級": "73",
+            "需要力量": "99",
+            "需要敏捷": "109",
+            "武器基本速度": "[-10]"
+          },
+          "stats": [
+            "+150% 傷害強化",
+            "+318% 對惡魔的傷害",
+            "附加 25 - 35 冰寒傷害",
+            "攻擊速度 +40%",
+            "永不毀損",
+            "+15 敏捷",
+            "+5 力量"
+          ]
+        },
+        "sazabis_ghost_liberator": {
+          "name": "沙薩比的解靈框體",
+          "itemStats": {
+            "基礎": "炎魔皮板甲",
+            "級別": "精英",
+            "防禦": "810-917",
+            "需要等級": "67",
+            "需要力量": "165",
+            "耐久度": "30"
+          },
+          "stats": [
+            "+400 防禦",
+            "+30% 打擊恢復",
+            "+300 對惡魔的準確率",
+            "+25 力量",
+            "+50-75 生命"
+          ]
+        }
+      }
+    }
+  },
+  "sigons_complete_steel": {
+    "slug": "sigons_complete_steel",
+    "setName": "Sigon's Complete Steel",
+    "partialBonusRaw": [
+      "10% Life stolen per hit (2)",
+      "+100 Defense (3)"
+    ],
+    "fullBonusRaw": [
+      "10% Life stolen per hit",
+      "+100 Defense",
+      "+20 to Mana",
+      "Fire Resist +12%",
+      "+24 to Maximum Fire Damage",
+      "Attacker Takes Damage of 12",
+      "Damage Reduced by 7"
+    ],
+    "pieces": {
+      "sigons_visor": {
+        "name": "Sigon's Visor",
+        "slug": "sigons_visor",
+        "itemStats": {
+          "Base": "Great Helm",
+          "Grade": "Normal",
+          "Defense": "55-60",
+          "Required Level": "6",
+          "Required Strength": "63",
+          "Durability": "40"
+        },
+        "stats": [
+          "+25 Defense",
+          "+30 to Mana",
+          "+(8-792) to Attack Rating (Based on Character Level) (2)"
+        ]
+      },
+      "sigons_shelter": {
+        "name": "Sigon's Shelter",
+        "slug": "sigons_shelter",
+        "itemStats": {
+          "Base": "Gothic Plate",
+          "Grade": "Normal",
+          "Defense": "170",
+          "Required Level": "6",
+          "Required Strength": "70",
+          "Durability": "55"
+        },
+        "stats": [
+          "+25% Enhanced Defense",
+          "Lightning Resist +30%",
+          "Attacker Takes Damage of 20 (2)"
+        ]
+      },
+      "sigons_sabot": {
+        "name": "Sigon's Sabot",
+        "slug": "sigons_sabot",
+        "itemStats": {
+          "Base": "Greaves",
+          "Grade": "Normal",
+          "Defense": "12-15",
+          "Required Level": "6",
+          "Required Strength": "70",
+          "Durability": "24",
+          "Kick Damage": "10 to 20"
+        },
+        "stats": [
+          "+20% Faster Run/Walk",
+          "Cold Resist +40%",
+          "+50 to Attack Rating (2)",
+          "50% Better Chance of Getting Magic Items (3)"
+        ]
+      },
+      "sigons_guard": {
+        "name": "Sigon's Guard",
+        "slug": "sigons_guard",
+        "itemStats": {
+          "Base": "Tower Shield",
+          "Grade": "Normal",
+          "Defense": "22-25",
+          "Chance to Block": "64%",
+          "Smite Damage": "1 to 5",
+          "Required Level": "6",
+          "Required Strength": "75",
+          "Durability": "60"
+        },
+        "stats": [
+          "+1 to All Skills",
+          "20% Increased Chance of Blocking"
+        ]
+      },
+      "sigons_wrap": {
+        "name": "Sigon's Wrap",
+        "slug": "sigons_wrap",
+        "itemStats": {
+          "Base": "Plated Belt",
+          "Grade": "Normal",
+          "Defense": "(10-206)-(13-209)",
+          "Required Level": "6",
+          "Required Strength": "60",
+          "Durability": "24",
+          "Belt Size": "+12 Slots"
+        },
+        "stats": [
+          "Fire Resist +20%",
+          "+20 to Life",
+          "+(2-198) Defense (Based on Character Level) (2)"
+        ]
+      },
+      "sigons_gage": {
+        "name": "Sigon's Gage",
+        "slug": "sigons_gage",
+        "itemStats": {
+          "Base": "Gauntlets",
+          "Grade": "Normal",
+          "Defense": "12-15",
+          "Required Level": "6",
+          "Required Strength": "60",
+          "Durability": "24"
+        },
+        "stats": [
+          "+20 to Attack Rating",
+          "+10 to Strength",
+          "+30% Increased Attack Speed (2)"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "西剛的全套鋼甲",
+      "partialBonusRaw": [
+        "擊中竊取 10% 生命 (2)",
+        "+100 防禦 (3)"
+      ],
+      "fullBonusRaw": [
+        "擊中竊取 10% 生命",
+        "+100 防禦",
+        "+20 法力",
+        "火焰抗性 +12%",
+        "+24 火焰傷害最大值",
+        "攻擊者反傷：12",
+        "傷害降低 7"
+      ],
+      "pieces": {
+        "sigons_visor": {
+          "name": "西剛的護面",
+          "itemStats": {
+            "基礎": "重盔",
+            "級別": "普通",
+            "防禦": "55-60",
+            "需要等級": "6",
+            "需要力量": "63",
+            "耐久度": "40"
+          },
+          "stats": [
+            "+25 防禦",
+            "+30 法力",
+            "+(8-792) 準確率 （依角色等級而定） (2)"
+          ]
+        },
+        "sigons_shelter": {
+          "name": "西剛的庇護",
+          "itemStats": {
+            "基礎": "哥德鎧甲",
+            "級別": "普通",
+            "防禦": "170",
+            "需要等級": "6",
+            "需要力量": "70",
+            "耐久度": "55"
+          },
+          "stats": [
+            "+25% 防禦強化",
+            "電擊抗性 +30%",
+            "攻擊者反傷：20 (2)"
+          ]
+        },
+        "sigons_sabot": {
+          "name": "西剛的硬靴",
+          "itemStats": {
+            "基礎": "護脛",
+            "級別": "普通",
+            "防禦": "12-15",
+            "需要等級": "6",
+            "需要力量": "70",
+            "耐久度": "24",
+            "踢擊傷害": "10 - 20 點"
+          },
+          "stats": [
+            "+20% 跑步 / 行走速度",
+            "冰寒抗性 +40%",
+            "+50 準確率 (2)",
+            "尋獲魔法物品機率提高 50% (3)"
+          ]
+        },
+        "sigons_guard": {
+          "name": "西剛的守護",
+          "itemStats": {
+            "基礎": "塔盾",
+            "級別": "普通",
+            "防禦": "22-25",
+            "格擋機率": "64%",
+            "重擊傷害": "1 - 5 點",
+            "需要等級": "6",
+            "需要力量": "75",
+            "耐久度": "60"
+          },
+          "stats": [
+            "+1 所有技能",
+            "格擋機率提高 20%"
+          ]
+        },
+        "sigons_wrap": {
+          "name": "西剛的裹腰",
+          "itemStats": {
+            "基礎": "鎧甲腰帶",
+            "級別": "普通",
+            "防禦": "(10-206)-(13-209)",
+            "需要等級": "6",
+            "需要力量": "60",
+            "耐久度": "24",
+            "腰帶空間": "+12 格"
+          },
+          "stats": [
+            "火焰抗性 +20%",
+            "+20 生命",
+            "+(2-198) 防禦 （依角色等級而定） (2)"
+          ]
+        },
+        "sigons_gage": {
+          "name": "西剛的挑戰",
+          "itemStats": {
+            "基礎": "鋼鐵護手",
+            "級別": "普通",
+            "防禦": "12-15",
+            "需要等級": "6",
+            "需要力量": "60",
+            "耐久度": "24"
+          },
+          "stats": [
+            "+20 準確率",
+            "+10 力量",
+            "攻擊速度 +30% (2)"
+          ]
+        }
+      }
+    }
+  },
+  "tal_rashas_wrappings": {
+    "slug": "tal_rashas_wrappings",
+    "setName": "Tal Rasha's Wrappings",
+    "partialBonusRaw": [
+      "Replenish Life +10 (2)",
+      "65% Better Chance of Getting Magic Items (3)",
+      "+25% Faster Hit Recovery (4)"
+    ],
+    "fullBonusRaw": [
+      "+3 to Sorceress Skill Levels",
+      "Replenish Life +10",
+      "65% Better Chance of Getting Magic Items",
+      "+25% Faster Hit Recovery",
+      "+150 to Life",
+      "All Resistances +50",
+      "+50 Defense vs. Missile",
+      "+150 Defense",
+      "Character Displays Aura Effect"
+    ],
+    "pieces": {
+      "tal_rashas_adjudication": {
+        "name": "Tal Rasha's Adjudication",
+        "slug": "tal_rashas_adjudication",
+        "itemStats": {
+          "Base": "Amulet",
+          "Grade": "Normal",
+          "Required Level": "67"
+        },
+        "stats": [
+          "+2 to Sorceress Skill Levels",
+          "Lightning Resist +33%",
+          "Adds 3-32 lightning damage",
+          "+42 to Mana",
+          "+50 to Life",
+          "+10% Faster Cast Rate (4)"
+        ]
+      },
+      "tal_rashas_lidless_eye": {
+        "name": "Tal Rasha's Lidless Eye",
+        "slug": "tal_rashas_lidless_eye",
+        "itemStats": {
+          "Base": "Swirling Crystal",
+          "Grade": "Exceptional",
+          "One-Hand Damage": "18 to 42",
+          "Required Level": "65",
+          "Durability": "50",
+          "Base Weapon Speed": "10",
+          "(Sorceress Only)": ""
+        },
+        "stats": [
+          "+20% Faster Cast Rate",
+          "+77 to Mana",
+          "+57 to Life",
+          "+10 to Energy",
+          "+1-2 to Lightning Mastery (Sorceress Only)",
+          "+1-2 to Fire Mastery (Sorceress Only)",
+          "+1-2 to Cold Mastery (Sorceress Only)",
+          "+1 to Sorceress Skill Levels (2)",
+          "-15% to Enemy Fire Resistance (3)",
+          "-15% to Enemy Lightning Resistance (4)",
+          "+15% to Cold Skill Damage (Completed Set)"
+        ]
+      },
+      "tal_rashas_horadric_crest": {
+        "name": "Tal Rasha's Horadric Crest",
+        "slug": "tal_rashas_horadric_crest",
+        "itemStats": {
+          "Base": "Death Mask",
+          "Grade": "Exceptional",
+          "Defense": "99-131",
+          "Required Level": "66",
+          "Required Strength": "55",
+          "Durability": "20"
+        },
+        "stats": [
+          "10% Life stolen per hit",
+          "10% Mana stolen per hit",
+          "All Resistances +15",
+          "+45 Defense",
+          "+30 to Mana",
+          "+60 to Life"
+        ]
+      },
+      "tal_rashas_finespun_cloth": {
+        "name": "Tal Rasha's Fine-Spun Cloth",
+        "slug": "tal_rashas_finespun_cloth",
+        "itemStats": {
+          "Base": "Mesh Belt",
+          "Grade": "Exceptional",
+          "Defense": "95-100",
+          "Required Level": "53",
+          "Required Strength": "47",
+          "Durability": "16",
+          "Belt Size": "+12 Slots"
+        },
+        "stats": [
+          "Requirements -20%",
+          "+37% Damage Taken Goes To Mana",
+          "+30 to Mana",
+          "+20 to Dexterity",
+          "10-15% Better Chance of Getting Magic Items",
+          "+60 Defense (2)",
+          "+10% Faster Cast Rate (3)"
+        ]
+      },
+      "tal_rashas_guardianship": {
+        "name": "Tal Rasha's Guardianship",
+        "slug": "tal_rashas_guardianship",
+        "itemStats": {
+          "Base": "Lacquered Plate",
+          "Grade": "Elite",
+          "Defense": "833-941",
+          "Required Level": "71",
+          "Required Strength": "84",
+          "Durability": "55"
+        },
+        "stats": [
+          "+400 Defense",
+          "Requirements -60%",
+          "Magic Damage Reduced by 15",
+          "Cold Resist +40%",
+          "Lightning Resist +40%",
+          "Fire Resist +40%",
+          "88% Better Chance of Getting Magic Items",
+          "+10% Faster Cast Rate (2)"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "塔拉夏的外袍",
+      "partialBonusRaw": [
+        "生命回復 +10 (2)",
+        "尋獲魔法物品機率提高 65% (3)",
+        "+25% 打擊恢復 (4)"
+      ],
+      "fullBonusRaw": [
+        "+3 魔法使技能等級",
+        "生命回復 +10",
+        "尋獲魔法物品機率提高 65%",
+        "+25% 打擊恢復",
+        "+150 生命",
+        "所有抗性 +50",
+        "+50 對遠程防禦",
+        "+150 防禦",
+        "角色顯示光環效果"
+      ],
+      "pieces": {
+        "tal_rashas_adjudication": {
+          "name": "塔拉夏的判決",
+          "itemStats": {
+            "基礎": "護身符",
+            "級別": "普通",
+            "需要等級": "67"
+          },
+          "stats": [
+            "+2 魔法使技能等級",
+            "電擊抗性 +33%",
+            "附加 3 - 32 電擊傷害",
+            "+42 法力",
+            "+50 生命",
+            "+10% 施法速度 (4)"
+          ]
+        },
+        "tal_rashas_lidless_eye": {
+          "name": "塔拉夏的警惕之眼",
+          "itemStats": {
+            "基礎": "渦流水晶",
+            "級別": "卓越",
+            "單手傷害": "18 - 42 點",
+            "需要等級": "65",
+            "耐久度": "50",
+            "武器基本速度": "[10]",
+            "(魔法使專用)": ""
+          },
+          "stats": [
+            "+20% 施法速度",
+            "+77 法力",
+            "+57 生命",
+            "+10 能量",
+            "+1-2 至 閃電專精 （只限魔法使）",
+            "+1-2 至 火焰專精 （只限魔法使）",
+            "+1-2 至 冰寒專精 （只限魔法使）",
+            "+1 魔法使技能等級 (2)",
+            "敵人火焰抗性 -15% (3)",
+            "敵人電擊抗性 -15% (4)",
+            "+15% 冰寒技能傷害 (全套)"
+          ]
+        },
+        "tal_rashas_horadric_crest": {
+          "name": "塔拉夏的赫拉迪姆之冠",
+          "itemStats": {
+            "基礎": "死亡面具",
+            "級別": "卓越",
+            "防禦": "99-131",
+            "需要等級": "66",
+            "需要力量": "55",
+            "耐久度": "20"
+          },
+          "stats": [
+            "擊中竊取 10% 生命",
+            "擊中竊取 10% 法力",
+            "所有抗性 +15",
+            "+45 防禦",
+            "+30 法力",
+            "+60 生命"
+          ]
+        },
+        "tal_rashas_finespun_cloth": {
+          "name": "塔拉夏的精織腰布",
+          "itemStats": {
+            "基礎": "鐵網腰帶",
+            "級別": "卓越",
+            "防禦": "95-100",
+            "需要等級": "53",
+            "需要力量": "47",
+            "耐久度": "16",
+            "腰帶空間": "+12 格"
+          },
+          "stats": [
+            "需求 -20%",
+            "+37% 受到的傷害轉為法力",
+            "+30 法力",
+            "+20 敏捷",
+            "尋獲魔法物品機率提高 10-15%",
+            "+60 防禦 (2)",
+            "+10% 施法速度 (3)"
+          ]
+        },
+        "tal_rashas_guardianship": {
+          "name": "塔拉夏的守護",
+          "itemStats": {
+            "基礎": "漆護鎧甲",
+            "級別": "精英",
+            "防禦": "833-941",
+            "需要等級": "71",
+            "需要力量": "84",
+            "耐久度": "55"
+          },
+          "stats": [
+            "+400 防禦",
+            "需求 -60%",
+            "魔法傷害降低 15",
+            "冰寒抗性 +40%",
+            "電擊抗性 +40%",
+            "火焰抗性 +40%",
+            "尋獲魔法物品機率提高 88%",
+            "+10% 施法速度 (2)"
+          ]
+        }
+      }
+    }
+  },
+  "tancreds_battlegear": {
+    "slug": "tancreds_battlegear",
+    "setName": "Tancred's Battlegear",
+    "partialBonusRaw": [
+      "+15 lightning damage (2)",
+      "5% Life stolen per hit (3)"
+    ],
+    "fullBonusRaw": [
+      "+15 lightning damage",
+      "5% Life stolen per hit",
+      "Slows Target by 35%",
+      "5% Mana stolen per hit",
+      "All Resistances +10",
+      "75% Extra Gold from Monsters"
+    ],
+    "pieces": {
+      "tancreds_skull": {
+        "name": "Tancred's Skull",
+        "slug": "tancreds_skull",
+        "itemStats": {
+          "Base": "Bone Helm",
+          "Grade": "Normal",
+          "Defense": "33-36",
+          "Required Level": "20",
+          "Required Strength": "25",
+          "Durability": "40"
+        },
+        "stats": [
+          "+10% Enhanced Damage",
+          "+40 to Attack Rating",
+          "All Resistances +10 (2)"
+        ]
+      },
+      "tancreds_spine": {
+        "name": "Tancred's Spine",
+        "slug": "tancreds_spine",
+        "itemStats": {
+          "Base": "Full Plate Mail",
+          "Grade": "Normal",
+          "Defense": "(152-348)-(163-359)",
+          "Required Level": "20",
+          "Required Strength": "80",
+          "Durability": "70"
+        },
+        "stats": [
+          "+40 to Life",
+          "+15 to Strength",
+          "+(2-198) Defense (Based on Character Level) (2)"
+        ]
+      },
+      "tancreds_hobnails": {
+        "name": "Tancred's Hobnails",
+        "slug": "tancreds_hobnails",
+        "itemStats": {
+          "Base": "Boots",
+          "Grade": "Normal",
+          "Defense": "2-3",
+          "Required Level": "20",
+          "Durability": "12",
+          "Kick Damage": "3 to 8"
+        },
+        "stats": [
+          "Heal Stamina Plus 25%",
+          "+10 to Dexterity",
+          "+30% Faster Run/Walk (2)",
+          "+10 to Strength (3)"
+        ]
+      },
+      "tancreds_crowbill": {
+        "name": "Tancred's Crowbill",
+        "slug": "tancreds_crowbill",
+        "itemStats": {
+          "Base": "Military Pick",
+          "Grade": "Normal",
+          "One-Hand Damage": "12 to 19",
+          "Required Level": "20",
+          "Required Strength": "49",
+          "Required Dexterity": "33",
+          "Durability": "26",
+          "Base Weapon Speed": "-10"
+        },
+        "stats": [
+          "+80% Enhanced Damage",
+          "+75 to Attack Rating",
+          "+20 to Mana (2)",
+          "+20% Increased Attack Speed (3)"
+        ]
+      },
+      "tancreds_weird": {
+        "name": "Tancred's Weird",
+        "slug": "tancreds_weird",
+        "itemStats": {
+          "Base": "Amulet",
+          "Grade": "Normal",
+          "Required Level": "20"
+        },
+        "stats": [
+          "Damage Reduced by 2",
+          "Magic Damage Reduced by 1",
+          "78% Better Chance of Getting Magic Items (2)",
+          "+60 to Attack Rating (3)"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "坦克雷的戰裝",
+      "partialBonusRaw": [
+        "+15 電擊傷害 (2)",
+        "擊中竊取 5% 生命 (3)"
+      ],
+      "fullBonusRaw": [
+        "+15 電擊傷害",
+        "擊中竊取 5% 生命",
+        "使目標減慢 35%",
+        "擊中竊取 5% 法力",
+        "所有抗性 +10",
+        "怪物金幣掉落量提高 75%"
+      ],
+      "pieces": {
+        "tancreds_skull": {
+          "name": "坦克雷的顱骨",
+          "itemStats": {
+            "基礎": "骸骨頭盔",
+            "級別": "普通",
+            "防禦": "33-36",
+            "需要等級": "20",
+            "需要力量": "25",
+            "耐久度": "40"
+          },
+          "stats": [
+            "+10% 傷害強化",
+            "+40 準確率",
+            "所有抗性 +10 (2)"
+          ]
+        },
+        "tancreds_spine": {
+          "name": "坦克雷的脊柱",
+          "itemStats": {
+            "基礎": "全身鎧甲",
+            "級別": "普通",
+            "防禦": "(152-348)-(163-359)",
+            "需要等級": "20",
+            "需要力量": "80",
+            "耐久度": "70"
+          },
+          "stats": [
+            "+40 生命",
+            "+15 力量",
+            "+(2-198) 防禦 （依角色等級而定） (2)"
+          ]
+        },
+        "tancreds_hobnails": {
+          "name": "坦克雷的釘靴",
+          "itemStats": {
+            "基礎": "皮靴",
+            "級別": "普通",
+            "防禦": "2-3",
+            "需要等級": "20",
+            "耐久度": "12",
+            "踢擊傷害": "3 - 8 點"
+          },
+          "stats": [
+            "精力恢復 +25%",
+            "+10 敏捷",
+            "+30% 跑步 / 行走速度 (2)",
+            "+10 力量 (3)"
+          ]
+        },
+        "tancreds_crowbill": {
+          "name": "坦克雷的鴉嘴鎬",
+          "itemStats": {
+            "基礎": "軍用鎬",
+            "級別": "普通",
+            "單手傷害": "12 - 19 點",
+            "需要等級": "20",
+            "需要力量": "49",
+            "需要敏捷": "33",
+            "耐久度": "26",
+            "武器基本速度": "[-10]"
+          },
+          "stats": [
+            "+80% 傷害強化",
+            "+75 準確率",
+            "+20 法力 (2)",
+            "攻擊速度 +20% (3)"
+          ]
+        },
+        "tancreds_weird": {
+          "name": "坦克雷的怪誕",
+          "itemStats": {
+            "基礎": "護身符",
+            "級別": "普通",
+            "需要等級": "20"
+          },
+          "stats": [
+            "傷害降低 2",
+            "魔法傷害降低 1",
+            "尋獲魔法物品機率提高 78% (2)",
+            "+60 準確率 (3)"
+          ]
+        }
+      }
+    }
+  },
+  "the_disciple": {
+    "slug": "the_disciple",
+    "setName": "The Disciple",
+    "partialBonusRaw": [
+      "+150 Defense (2)",
+      "+22 poison damage over 3 seconds (3)",
+      "+10 to Strength (4)"
+    ],
+    "fullBonusRaw": [
+      "+150 Defense",
+      "+22 poison damage over 3 seconds",
+      "+10 to Strength",
+      "+2 to All Skills",
+      "All Resistances +50",
+      "+100 to Mana"
+    ],
+    "pieces": {
+      "telling_of_beads": {
+        "name": "Telling of Beads",
+        "slug": "telling_of_beads",
+        "itemStats": {
+          "Base": "Amulet",
+          "Grade": "Normal",
+          "Required Level": "30"
+        },
+        "stats": [
+          "+1 to All Skills",
+          "Poison Resist +35-50%",
+          "Cold Resist +18%",
+          "Attacker Takes Damage of 8-10"
+        ]
+      },
+      "rite_of_passage": {
+        "name": "Rite of Passage",
+        "slug": "rite_of_passage",
+        "itemStats": {
+          "Base": "Demonhide Boots",
+          "Grade": "Exceptional",
+          "Defense": "53-60",
+          "Required Level": "29",
+          "Required Strength": "20",
+          "Durability": "12",
+          "Kick Damage": "26 to 46"
+        },
+        "stats": [
+          "+25 Defense",
+          "+30% Faster Run/Walk",
+          "+15-25 Maximum Stamina",
+          "Half Freeze Duration"
+        ]
+      },
+      "laying_of_hands": {
+        "name": "Laying of Hands",
+        "slug": "laying_of_hands",
+        "itemStats": {
+          "Base": "Bramble Mitts",
+          "Grade": "Elite",
+          "Defense": "79-87",
+          "Required Level": "63",
+          "Required Strength": "50",
+          "Durability": "12"
+        },
+        "stats": [
+          "+25 Defense",
+          "+20% Increased Attack Speed",
+          "+350% Damage to Demons",
+          "Fire Resist +50%",
+          "10% Chance to cast level 3 Holy Bolt on striking"
+        ]
+      },
+      "dark_adherent": {
+        "name": "Dark Adherent",
+        "slug": "dark_adherent",
+        "itemStats": {
+          "Base": "Dusk Shroud",
+          "Grade": "Elite",
+          "Defense": "666-882",
+          "Required Level": "49",
+          "Required Strength": "77",
+          "Durability": "20"
+        },
+        "stats": [
+          "+305-415 Defense",
+          "Fire Resist +24%",
+          "25% Chance to cast level 3 Nova when struck",
+          "Adds 24-34 poison damage over 2 seconds"
+        ]
+      },
+      "credendum": {
+        "name": "Credendum",
+        "slug": "credendum",
+        "itemStats": {
+          "Base": "Mithril Coil",
+          "Grade": "Elite",
+          "Defense": "108-115",
+          "Required Level": "65",
+          "Required Strength": "106",
+          "Durability": "16",
+          "Belt Size": "+12 Slots"
+        },
+        "stats": [
+          "+50 Defense",
+          "All Resistances +15",
+          "+10 to Dexterity",
+          "+10 to Strength"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "門徒",
+      "partialBonusRaw": [
+        "+150 防禦 (2)",
+        "+22 毒素傷害，時效 3 秒 (3)",
+        "+10 力量 (4)"
+      ],
+      "fullBonusRaw": [
+        "+150 防禦",
+        "+22 毒素傷害，時效 3 秒",
+        "+10 力量",
+        "+2 所有技能",
+        "所有抗性 +50",
+        "+100 法力"
+      ],
+      "pieces": {
+        "telling_of_beads": {
+          "name": "誦唸珠",
+          "itemStats": {
+            "基礎": "護身符",
+            "級別": "普通",
+            "需要等級": "30"
+          },
+          "stats": [
+            "+1 所有技能",
+            "毒素抗性 +35-50%",
+            "冰寒抗性 +18%",
+            "攻擊者反傷： 8-10"
+          ]
+        },
+        "rite_of_passage": {
+          "name": "入門式",
+          "itemStats": {
+            "基礎": "魔皮長靴",
+            "級別": "卓越",
+            "防禦": "53-60",
+            "需要等級": "29",
+            "需要力量": "20",
+            "耐久度": "12",
+            "踢擊傷害": "26 - 46 點"
+          },
+          "stats": [
+            "+25 防禦",
+            "+30% 跑步 / 行走速度",
+            "+15-25 精力上限",
+            "被凍結的時效減半"
+          ]
+        },
+        "laying_of_hands": {
+          "name": "按手禮",
+          "itemStats": {
+            "基礎": "荊棘手套",
+            "級別": "精英",
+            "防禦": "79-87",
+            "需要等級": "63",
+            "需要力量": "50",
+            "耐久度": "12"
+          },
+          "stats": [
+            "+25 防禦",
+            "攻擊速度 +20%",
+            "+350% 對惡魔的傷害",
+            "火焰抗性 +50%",
+            "擊中時有 10% 機率施展等級 3 聖光彈"
+          ]
+        },
+        "dark_adherent": {
+          "name": "隱門徒",
+          "itemStats": {
+            "基礎": "灰暮罩衣",
+            "級別": "精英",
+            "防禦": "666-882",
+            "需要等級": "49",
+            "需要力量": "77",
+            "耐久度": "20"
+          },
+          "stats": [
+            "+305-415 防禦",
+            "火焰抗性 +24%",
+            "被擊中時有 25% 機率施展等級 3 閃電新星",
+            "附加 24 - 34 毒素傷害，時效 2 秒"
+          ]
+        },
+        "credendum": {
+          "name": "守信條",
+          "itemStats": {
+            "基礎": "秘銀腰帶",
+            "級別": "精英",
+            "防禦": "108-115",
+            "需要等級": "65",
+            "需要力量": "106",
+            "耐久度": "16",
+            "腰帶空間": "+12 格"
+          },
+          "stats": [
+            "+50 防禦",
+            "所有抗性 +15",
+            "+10 敏捷",
+            "+10 力量"
+          ]
+        }
+      }
+    }
+  },
+  "trangouls_avatar": {
+    "slug": "trangouls_avatar",
+    "setName": "Trang-Oul's Avatar",
+    "partialBonusRaw": [
+      "+18 to Fire Ball (2)",
+      "Regenerate Mana 15% (2)",
+      "+13 to Fire Wall (3)",
+      "Additional Regenerate Mana 15% (3)",
+      "Additional Regenerate Mana 15% (4)",
+      "+10 to Meteor (4)"
+    ],
+    "fullBonusRaw": [
+      "+3 to Necromancer Skill Levels",
+      "20% Life stolen per hit",
+      "+3 to Fire Mastery",
+      "+10 to Meteor",
+      "+13 to Fire Wall",
+      "+18 to Fire Ball",
+      "+200 Defense",
+      "+100 to Mana",
+      "Regenerate Mana 60%",
+      "All Resistances +50",
+      "Character Displays as Vampire"
+    ],
+    "pieces": {
+      "trangouls_scales": {
+        "name": "Trang-Oul's Scales",
+        "slug": "trangouls_scales",
+        "itemStats": {
+          "Base": "Chaos Armor",
+          "Grade": "Exceptional",
+          "Defense": "857",
+          "Required Level": "49",
+          "Required Strength": "84",
+          "Durability": "70"
+        },
+        "stats": [
+          "+150% Enhanced Defense",
+          "Requirements -40%",
+          "+40% Faster Run/Walk",
+          "Poison Resist +40%",
+          "+100 Defense vs. Missile",
+          "+2 to Summoning Skills (Necromancer Only)",
+          "Lightning Resist +50% (3)",
+          "Physical Damage Received Reduced by 25% (Completed Set)"
+        ]
+      },
+      "trangouls_wing": {
+        "name": "Trang-Oul's Wing",
+        "slug": "trangouls_wing",
+        "itemStats": {
+          "Base": "Cantor Trophy",
+          "Grade": "Exceptional",
+          "Defense": "175-189",
+          "Required Level": "54",
+          "Required Strength": "50",
+          "Durability": "20",
+          "Chance to Block": "60%",
+          "(Necromancer Only)": ""
+        },
+        "stats": [
+          "+125 Defense",
+          "30% Increased Chance of Blocking",
+          "Poison Resist +40%",
+          "Fire Resist +38-45%",
+          "+15 to Dexterity",
+          "+25 to Strength",
+          "+2 to Poison and Bone Skills (Necromancer Only)",
+          "-25% to Enemy Poison Resistance (3)",
+          "Replenish Life +15 (4)"
+        ]
+      },
+      "trangouls_claws": {
+        "name": "Trang-Oul's Claws",
+        "slug": "trangouls_claws",
+        "itemStats": {
+          "Base": "Heavy Bracers",
+          "Grade": "Exceptional",
+          "Defense": "67-74",
+          "Required Level": "45",
+          "Required Strength": "58",
+          "Durability": "16"
+        },
+        "stats": [
+          "+20% Faster Cast Rate",
+          "Cold Resist +30%",
+          "+30 Defense",
+          "+25% to Poison Skill Damage",
+          "+2 to Curses (Necromancer Only)"
+        ]
+      },
+      "trangouls_guise": {
+        "name": "Trang-Oul's Guise",
+        "slug": "trangouls_guise",
+        "itemStats": {
+          "Base": "Bone Visage",
+          "Grade": "Elite",
+          "Defense": "180-257",
+          "Required Level": "65",
+          "Required Strength": "106",
+          "Durability": "40"
+        },
+        "stats": [
+          "+25% Faster Hit Recovery",
+          "Replenish Life +5",
+          "+80-100 Defense",
+          "+150 to Mana",
+          "Attacker Takes Damage of 20"
+        ]
+      },
+      "trangouls_girth": {
+        "name": "Trang-Oul's Girth",
+        "slug": "trangouls_girth",
+        "itemStats": {
+          "Base": "Troll Belt",
+          "Grade": "Elite",
+          "Defense": "134-166",
+          "Required Level": "62",
+          "Required Strength": "91",
+          "Durability": "18",
+          "Belt Size": "+12 Slots"
+        },
+        "stats": [
+          "+75-100 Defense",
+          "Requirements -40%",
+          "Cannot Be Frozen",
+          "Replenish Life +5",
+          "+25-50 to Mana",
+          "+30 Maximum Stamina",
+          "+66 to Life",
+          "Cold Resist +40% (3)"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "塔格奧的化身",
+      "partialBonusRaw": [
+        "+18 至 火球術 (2)",
+        "法力恢復 15% (2)",
+        "+13 至 火牆術 (3)",
+        "額外 法力恢復 15% (3)",
+        "額外 法力恢復 15% (4)",
+        "+10 至 隕石術 (4)"
+      ],
+      "fullBonusRaw": [
+        "+3 死靈法師技能等級",
+        "擊中竊取 20% 生命",
+        "+3 至 火焰專精",
+        "+10 至 隕石術",
+        "+13 至 火牆術",
+        "+18 至 火球術",
+        "+200 防禦",
+        "+100 法力",
+        "法力恢復 60%",
+        "所有抗性 +50",
+        "角色變成吸血鬼造型"
+      ],
+      "pieces": {
+        "trangouls_scales": {
+          "name": "塔格奧之鱗",
+          "itemStats": {
+            "基礎": "混沌戰甲",
+            "級別": "卓越",
+            "防禦": "857",
+            "需要等級": "49",
+            "需要力量": "84",
+            "耐久度": "70"
+          },
+          "stats": [
+            "+150% 防禦強化",
+            "需求 -40%",
+            "+40% 跑步 / 行走速度",
+            "毒素抗性 +40%",
+            "+100 對遠程防禦",
+            "+2 召喚技能 （只限死靈法師）",
+            "電擊抗性 +50% (3)",
+            "受到的物理傷害降低 25% (全套)"
+          ]
+        },
+        "trangouls_wing": {
+          "name": "塔格奧之翼",
+          "itemStats": {
+            "基礎": "領唱者首級",
+            "級別": "卓越",
+            "防禦": "175-189",
+            "需要等級": "54",
+            "需要力量": "50",
+            "耐久度": "20",
+            "格擋機率": "60%",
+            "(死靈法師專用)": ""
+          },
+          "stats": [
+            "+125 防禦",
+            "格擋機率提高 30%",
+            "毒素抗性 +40%",
+            "火焰抗性 +38-45%",
+            "+15 敏捷",
+            "+25 力量",
+            "+2 毒素與骸骨技能 （只限死靈法師）",
+            "敵人毒素抗性 -25% (3)",
+            "生命回復 +15 (4)"
+          ]
+        },
+        "trangouls_claws": {
+          "name": "塔格奧之爪",
+          "itemStats": {
+            "基礎": "重型護腕",
+            "級別": "卓越",
+            "防禦": "67-74",
+            "需要等級": "45",
+            "需要力量": "58",
+            "耐久度": "16"
+          },
+          "stats": [
+            "+20% 施法速度",
+            "冰寒抗性 +30%",
+            "+30 防禦",
+            "+25% 毒素技能傷害",
+            "+2 詛咒 （只限死靈法師）"
+          ]
+        },
+        "trangouls_guise": {
+          "name": "塔格奧之容",
+          "itemStats": {
+            "基礎": "骸骨面罩",
+            "級別": "精英",
+            "防禦": "180-257",
+            "需要等級": "65",
+            "需要力量": "106",
+            "耐久度": "40"
+          },
+          "stats": [
+            "+25% 打擊恢復",
+            "生命回復 +5",
+            "+80-100 防禦",
+            "+150 法力",
+            "攻擊者反傷：20"
+          ]
+        },
+        "trangouls_girth": {
+          "name": "塔格奧之腹",
+          "itemStats": {
+            "基礎": "食人妖腰帶",
+            "級別": "精英",
+            "防禦": "134-166",
+            "需要等級": "62",
+            "需要力量": "91",
+            "耐久度": "18",
+            "腰帶空間": "+12 格"
+          },
+          "stats": [
+            "+75-100 防禦",
+            "需求 -40%",
+            "無法凍結",
+            "生命回復 +5",
+            "+25-50 法力",
+            "+30 精力上限",
+            "+66 生命",
+            "冰寒抗性 +40% (3)"
+          ]
+        }
+      }
+    }
+  },
+  "vidalas_rig": {
+    "slug": "vidalas_rig",
+    "setName": "Vidala's Rig",
+    "partialBonusRaw": [
+      "+75 to Attack Rating (2)",
+      "7% Mana stolen per hit (2)",
+      "+15 to Dexterity (3)"
+    ],
+    "fullBonusRaw": [
+      "+50% Piercing Attack",
+      "+75 to Attack Rating",
+      "+(1-148) to Maximum Cold Damage (Based on Character Level)",
+      "7% Mana stolen per hit",
+      "Freezes target",
+      "+10 to Strength",
+      "+15 to Dexterity"
+    ],
+    "pieces": {
+      "vidalas_barb": {
+        "name": "Vidala's Barb",
+        "slug": "vidalas_barb",
+        "itemStats": {
+          "Base": "Long Battle Bow",
+          "Grade": "Normal",
+          "Two-Hand Damage": "3 to 18",
+          "Required Level": "14",
+          "Required Strength": "40",
+          "Required Dexterity": "50",
+          "Base Weapon Speed": "10"
+        },
+        "stats": [
+          "Adds 1-20 lightning damage",
+          "+(8-792) to Attack Rating (Based on Character Level) (2)"
+        ]
+      },
+      "vidalas_ambush": {
+        "name": "Vidala's Ambush",
+        "slug": "vidalas_ambush",
+        "itemStats": {
+          "Base": "Leather Armor",
+          "Grade": "Normal",
+          "Defense": "(66-311)-(69-314)",
+          "Required Level": "14",
+          "Required Strength": "15",
+          "Durability": "24"
+        },
+        "stats": [
+          "+50 Defense",
+          "+11 to Dexterity",
+          "Fire Resist +24% (2)",
+          "+(2-247) Defense (Based on Character Level) (3)"
+        ]
+      },
+      "vidalas_fetlock": {
+        "name": "Vidala's Fetlock",
+        "slug": "vidalas_fetlock",
+        "itemStats": {
+          "Base": "Light Plated Boots",
+          "Grade": "Normal",
+          "Defense": "9-11",
+          "Required Level": "14",
+          "Required Strength": "50",
+          "Durability": "18",
+          "Kick Damage": "8 to 16"
+        },
+        "stats": [
+          "+30% Faster Run/Walk",
+          "+150 Maximum Stamina",
+          "All Resistances +8 (2)"
+        ]
+      },
+      "vidalas_snare": {
+        "name": "Vidala's Snare",
+        "slug": "vidalas_snare",
+        "itemStats": {
+          "Base": "Amulet",
+          "Grade": "Normal",
+          "Required Level": "14"
+        },
+        "stats": [
+          "Cold Resist +20%",
+          "+15 to Life",
+          "50% Better Chance of Getting Magic Items (2)"
+        ]
+      }
+    },
+    "zh_TW": {
+      "setName": "維達拉的配備",
+      "partialBonusRaw": [
+        "+75 準確率 (2)",
+        "擊中竊取 7% 法力 (2)",
+        "+15 敏捷 (3)"
+      ],
+      "fullBonusRaw": [
+        "+50% 穿透攻擊",
+        "+75 準確率",
+        "+(1-148) 冰寒傷害最大值 （依角色等級而定）",
+        "擊中竊取 7% 法力",
+        "凍結目標",
+        "+10 力量",
+        "+15 敏捷"
+      ],
+      "pieces": {
+        "vidalas_barb": {
+          "name": "維達拉的倒刺",
+          "itemStats": {
+            "基礎": "戰鬥長弓",
+            "級別": "普通",
+            "雙手傷害": "3 - 18 點",
+            "需要等級": "14",
+            "需要力量": "40",
+            "需要敏捷": "50",
+            "武器基本速度": "[10]"
+          },
+          "stats": [
+            "附加 1 - 20 電擊傷害",
+            "+(8-792) 準確率 （依角色等級而定） (2)"
+          ]
+        },
+        "vidalas_ambush": {
+          "name": "維達拉的突襲",
+          "itemStats": {
+            "基礎": "皮革甲",
+            "級別": "普通",
+            "防禦": "(66-311)-(69-314)",
+            "需要等級": "14",
+            "需要力量": "15",
+            "耐久度": "24"
+          },
+          "stats": [
+            "+50 防禦",
+            "+11 敏捷",
+            "火焰抗性 +24% (2)",
+            "+(2-247) 防禦 （依角色等級而定） (3)"
+          ]
+        },
+        "vidalas_fetlock": {
+          "name": "維達拉的足距",
+          "itemStats": {
+            "基礎": "輕鎧靴",
+            "級別": "普通",
+            "防禦": "9-11",
+            "需要等級": "14",
+            "需要力量": "50",
+            "耐久度": "18",
+            "踢擊傷害": "8 - 16 點"
+          },
+          "stats": [
+            "+30% 跑步 / 行走速度",
+            "+150 精力上限",
+            "所有抗性 +8 (2)"
+          ]
+        },
+        "vidalas_snare": {
+          "name": "維達拉的圈套",
+          "itemStats": {
+            "基礎": "護身符",
+            "級別": "普通",
+            "需要等級": "14"
+          },
+          "stats": [
+            "冰寒抗性 +20%",
+            "+15 生命",
+            "尋獲魔法物品機率提高 50% (2)"
+          ]
+        }
+      }
+    }
+  }
+}
