@@ -62,7 +62,9 @@ export default function CategoryItemList({ items }: { items: GrailItem[] }) {
           ))}
         </div>
       )}
-      {activeItems.map(item => <ItemStatCard key={item.id} item={item} />)}
+      <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-4">
+        {activeItems.map(item => <ItemStatCard key={item.id} item={item} />)}
+      </div>
     </div>
   );
 }

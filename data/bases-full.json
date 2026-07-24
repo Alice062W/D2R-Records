@@ -6577,14 +6577,11 @@
           "min": 3,
           "max": 5
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 0,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 12,
         "sockets": 2,
         "qlvl": 1
@@ -6599,14 +6596,11 @@
           "min": 45,
           "max": 53
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 22,
         "requiredStrength": 20,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 12,
         "sockets": 2,
         "qlvl": 34
@@ -6621,14 +6615,11 @@
           "min": 98,
           "max": 141
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 43,
         "requiredStrength": 50,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 12,
         "sockets": 2,
         "qlvl": 58
@@ -6651,14 +6642,11 @@
           "min": 8,
           "max": 11
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 15,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 18,
         "sockets": 2,
         "qlvl": 5
@@ -6673,14 +6661,11 @@
           "min": 52,
           "max": 62
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 43,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 18,
         "sockets": 2,
         "qlvl": 37
@@ -6695,14 +6680,11 @@
           "min": 101,
           "max": 145
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 47,
         "requiredStrength": 84,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 18,
         "sockets": 2,
         "qlvl": 63
@@ -6725,14 +6707,11 @@
           "min": 15,
           "max": 18
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 26,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 24,
         "sockets": 2,
         "qlvl": 11
@@ -6747,14 +6726,11 @@
           "min": 63,
           "max": 72
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 59,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 24,
         "sockets": 2,
         "qlvl": 42
@@ -6769,14 +6745,11 @@
           "min": 105,
           "max": 149
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 51,
         "requiredStrength": 109,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 24,
         "sockets": 2,
         "qlvl": 68
@@ -6799,14 +6772,11 @@
           "min": 23,
           "max": 26
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 41,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 30,
         "sockets": 2,
         "qlvl": 15
@@ -6821,14 +6791,11 @@
           "min": 75,
           "max": 84
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 82,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 30,
         "sockets": 2,
         "qlvl": 45
@@ -6843,14 +6810,11 @@
           "min": 110,
           "max": 154
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 40,
         "requiredStrength": 142,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 30,
         "sockets": 2,
         "qlvl": 54
@@ -6873,14 +6837,11 @@
           "min": 30,
           "max": 35
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 63,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 40,
         "sockets": 3,
         "qlvl": 23
@@ -6895,14 +6856,11 @@
           "min": 85,
           "max": 98
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 115,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 40,
         "sockets": 3,
         "qlvl": 51
@@ -6917,14 +6875,11 @@
           "min": 114,
           "max": 159
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 59,
         "requiredStrength": 192,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 40,
         "sockets": 3,
         "qlvl": 79
@@ -6947,14 +6902,11 @@
           "min": 25,
           "max": 45
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 55,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 50,
         "sockets": 3,
         "qlvl": 29
@@ -6969,14 +6921,11 @@
           "min": 78,
           "max": 113
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 103,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 50,
         "sockets": 3,
         "qlvl": 55
@@ -6991,14 +6940,11 @@
           "min": 111,
           "max": 165
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 66,
         "requiredStrength": 174,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 50,
         "sockets": 3,
         "qlvl": 85
@@ -7021,14 +6967,11 @@
           "min": 9,
           "max": 27
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 23,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 3,
         "qlvl": 19
@@ -7043,14 +6986,11 @@
           "min": 54,
           "max": 86
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 55,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 3,
         "qlvl": 48
@@ -7065,14 +7005,11 @@
           "min": 101,
           "max": 154
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 55,
         "requiredStrength": 102,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 3,
         "qlvl": 74
@@ -7095,14 +7032,11 @@
           "min": 8,
           "max": 11
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 12,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 1
@@ -7117,14 +7051,11 @@
           "min": 102,
           "max": 117
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 22,
         "requiredStrength": 38,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 34
@@ -7139,14 +7070,11 @@
           "min": 361,
           "max": 467
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 49,
         "requiredStrength": 77,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 4,
         "qlvl": 65
@@ -7169,14 +7097,11 @@
           "min": 14,
           "max": 17
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 15,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 24,
         "sockets": 2,
         "qlvl": 3
@@ -7191,14 +7116,11 @@
           "min": 111,
           "max": 126
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 24,
         "requiredStrength": 43,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 24,
         "sockets": 2,
         "qlvl": 36
@@ -7213,14 +7135,11 @@
           "min": 364,
           "max": 470
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 50,
         "requiredStrength": 84,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 24,
         "sockets": 4,
         "qlvl": 67
@@ -7243,14 +7162,11 @@
           "min": 21,
           "max": 24
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 20,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 28,
         "sockets": 2,
         "qlvl": 5
@@ -7265,14 +7181,11 @@
           "min": 122,
           "max": 136
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 50,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 28,
         "sockets": 2,
         "qlvl": 37
@@ -7287,14 +7200,11 @@
           "min": 369,
           "max": 474
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 51,
         "requiredStrength": 95,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 28,
         "sockets": 4,
         "qlvl": 68
@@ -7317,14 +7227,11 @@
           "min": 32,
           "max": 35
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 27,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 32,
         "sockets": 2,
         "qlvl": 8
@@ -7339,14 +7246,11 @@
           "min": 138,
           "max": 153
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 61,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 32,
         "sockets": 2,
         "qlvl": 40
@@ -7361,14 +7265,11 @@
           "min": 375,
           "max": 481
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 53,
         "requiredStrength": 111,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 32,
         "sockets": 4,
         "qlvl": 70
@@ -7391,14 +7292,11 @@
           "min": 45,
           "max": 48
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 36,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 26,
         "sockets": 3,
         "qlvl": 11
@@ -7413,14 +7311,11 @@
           "min": 158,
           "max": 172
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 74,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 26,
         "sockets": 3,
         "qlvl": 42
@@ -7435,14 +7330,11 @@
           "min": 383,
           "max": 489
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 54,
         "requiredStrength": 131,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 26,
         "sockets": 4,
         "qlvl": 72
@@ -7465,14 +7357,11 @@
           "min": 57,
           "max": 60
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 44,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 36,
         "sockets": 2,
         "qlvl": 13
@@ -7487,14 +7376,11 @@
           "min": 176,
           "max": 190
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 86,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 36,
         "sockets": 3,
         "qlvl": 43
@@ -7509,14 +7395,11 @@
           "min": 390,
           "max": 496
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 55,
         "requiredStrength": 149,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 36,
         "sockets": 4,
         "qlvl": 73
@@ -7539,14 +7422,11 @@
           "min": 72,
           "max": 75
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 48,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 45,
         "sockets": 2,
         "qlvl": 15
@@ -7561,14 +7441,11 @@
           "min": 198,
           "max": 213
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 92,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 45,
         "sockets": 3,
         "qlvl": 45
@@ -7583,14 +7460,11 @@
           "min": 399,
           "max": 505
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 47,
         "requiredStrength": 158,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 45,
         "sockets": 4,
         "qlvl": 62
@@ -7613,14 +7487,11 @@
           "min": 65,
           "max": 68
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 30,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 50,
         "sockets": 3,
         "qlvl": 18
@@ -7635,14 +7506,11 @@
           "min": 188,
           "max": 202
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 65,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 50,
         "sockets": 3,
         "qlvl": 47
@@ -7657,14 +7525,11 @@
           "min": 395,
           "max": 501
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 56,
         "requiredStrength": 118,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 50,
         "sockets": 4,
         "qlvl": 75
@@ -7687,14 +7552,11 @@
           "min": 90,
           "max": 95
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 51,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 30,
         "sockets": 2,
         "qlvl": 20
@@ -7709,14 +7571,11 @@
           "min": 225,
           "max": 243
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 97,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 30,
         "sockets": 3,
         "qlvl": 49
@@ -7731,14 +7590,11 @@
           "min": 410,
           "max": 517
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 57,
         "requiredStrength": 165,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 30,
         "sockets": 4,
         "qlvl": 76
@@ -7761,14 +7617,11 @@
           "min": 108,
           "max": 116
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 65,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 60,
         "sockets": 2,
         "qlvl": 24
@@ -7783,14 +7636,11 @@
           "min": 252,
           "max": 274
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 118,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 60,
         "sockets": 3,
         "qlvl": 52
@@ -7805,14 +7655,11 @@
           "min": 421,
           "max": 530
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 59,
         "requiredStrength": 196,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 60,
         "sockets": 4,
         "qlvl": 78
@@ -7835,14 +7682,11 @@
           "min": 101,
           "max": 105
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 55,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 48,
         "sockets": 2,
         "qlvl": 28
@@ -7857,14 +7701,11 @@
           "min": 242,
           "max": 258
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 103,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 48,
         "sockets": 3,
         "qlvl": 55
@@ -7879,14 +7720,11 @@
           "min": 417,
           "max": 523
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 61,
         "requiredStrength": 174,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 48,
         "sockets": 4,
         "qlvl": 81
@@ -7909,14 +7747,11 @@
           "min": 128,
           "max": 135
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 70,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 55,
         "sockets": 4,
         "qlvl": 32
@@ -7931,14 +7766,11 @@
           "min": 282,
           "max": 303
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 125,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 55,
         "sockets": 4,
         "qlvl": 58
@@ -7953,14 +7785,11 @@
           "min": 433,
           "max": 541
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 62,
         "requiredStrength": 208,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 55,
         "sockets": 4,
         "qlvl": 82
@@ -7983,14 +7812,11 @@
           "min": 150,
           "max": 161
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 80,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 70,
         "sockets": 4,
         "qlvl": 37
@@ -8005,14 +7831,11 @@
           "min": 315,
           "max": 342
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 140,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 70,
         "sockets": 4,
         "qlvl": 61
@@ -8027,14 +7850,11 @@
           "min": 446,
           "max": 557
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 64,
         "requiredStrength": 230,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 70,
         "sockets": 4,
         "qlvl": 83
@@ -8057,14 +7877,11 @@
           "min": 218,
           "max": 233
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 100,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 60,
         "sockets": 4,
         "qlvl": 40
@@ -8079,14 +7896,11 @@
           "min": 417,
           "max": 450
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 170,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 60,
         "sockets": 4,
         "qlvl": 64
@@ -8101,14 +7915,11 @@
           "min": 487,
           "max": 600
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 66,
         "requiredStrength": 232,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 60,
         "sockets": 4,
         "qlvl": 85
@@ -8131,14 +7942,11 @@
           "min": 90,
           "max": 107
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 41,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 60,
         "sockets": 3,
         "qlvl": 35
@@ -8153,14 +7961,11 @@
           "min": 225,
           "max": 261
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 55,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 60,
         "sockets": 3,
         "qlvl": 60
@@ -8175,14 +7980,11 @@
           "min": 410,
           "max": 524
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 63,
         "requiredStrength": 103,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 60,
         "sockets": 4,
         "qlvl": 84
@@ -8212,7 +8014,7 @@
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 12,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 12,
         "sockets": 1,
         "qlvl": 1
@@ -8234,7 +8036,7 @@
         "twoHandDamage": null,
         "levelReq": 22,
         "requiredStrength": 38,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 68,
         "sockets": 1,
         "qlvl": 34
@@ -8256,7 +8058,7 @@
         "twoHandDamage": null,
         "levelReq": 43,
         "requiredStrength": 77,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 88,
         "sockets": 2,
         "qlvl": 58
@@ -8286,7 +8088,7 @@
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 22,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 16,
         "sockets": 2,
         "qlvl": 5
@@ -8308,7 +8110,7 @@
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 53,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 64,
         "sockets": 2,
         "qlvl": 37
@@ -8330,7 +8132,7 @@
         "twoHandDamage": null,
         "levelReq": 45,
         "requiredStrength": 100,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 84,
         "sockets": 2,
         "qlvl": 61
@@ -8360,7 +8162,7 @@
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 34,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 24,
         "sockets": 3,
         "qlvl": 11
@@ -8382,7 +8184,7 @@
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 71,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 62,
         "sockets": 3,
         "qlvl": 42
@@ -8404,7 +8206,7 @@
         "twoHandDamage": null,
         "levelReq": 48,
         "requiredStrength": 127,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 82,
         "sockets": 3,
         "qlvl": 64
@@ -8434,7 +8236,7 @@
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 47,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 30,
         "sockets": 3,
         "qlvl": 15
@@ -8456,7 +8258,7 @@
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 91,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 76,
         "sockets": 3,
         "qlvl": 45
@@ -8478,7 +8280,7 @@
         "twoHandDamage": null,
         "levelReq": 54,
         "requiredStrength": 156,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 86,
         "sockets": 4,
         "qlvl": 72
@@ -8508,7 +8310,7 @@
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 75,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 60,
         "sockets": 3,
         "qlvl": 22
@@ -8530,7 +8332,7 @@
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 133,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 72,
         "sockets": 3,
         "qlvl": 50
@@ -8552,7 +8354,7 @@
         "twoHandDamage": null,
         "levelReq": 59,
         "requiredStrength": 219,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 92,
         "sockets": 4,
         "qlvl": 79
@@ -8582,7 +8384,7 @@
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 60,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 40,
         "sockets": 3,
         "qlvl": 30
@@ -8604,7 +8406,7 @@
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 110,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 80,
         "sockets": 3,
         "qlvl": 56
@@ -8626,7 +8428,7 @@
         "twoHandDamage": null,
         "levelReq": 63,
         "requiredStrength": 185,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 100,
         "sockets": 4,
         "qlvl": 84
@@ -8649,14 +8451,11 @@
           "min": 2,
           "max": 3
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 0,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 12,
         "sockets": 0,
         "qlvl": 3
@@ -8671,14 +8470,11 @@
           "min": 28,
           "max": 35
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 21,
         "requiredStrength": 20,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 12,
         "sockets": 0,
         "qlvl": 33
@@ -8693,14 +8489,11 @@
           "min": 54,
           "max": 62
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 42,
         "requiredStrength": 50,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 12,
         "sockets": 0,
         "qlvl": 57
@@ -8723,14 +8516,11 @@
           "min": 5,
           "max": 6
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 0,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 14,
         "sockets": 0,
         "qlvl": 7
@@ -8745,14 +8535,11 @@
           "min": 33,
           "max": 39
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 20,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 14,
         "sockets": 0,
         "qlvl": 39
@@ -8767,14 +8554,11 @@
           "min": 56,
           "max": 65
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 47,
         "requiredStrength": 50,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 14,
         "sockets": 0,
         "qlvl": 63
@@ -8797,14 +8581,11 @@
           "min": 8,
           "max": 9
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 25,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 16,
         "sockets": 0,
         "qlvl": 12
@@ -8819,14 +8600,11 @@
           "min": 37,
           "max": 44
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 58,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 16,
         "sockets": 0,
         "qlvl": 43
@@ -8841,14 +8619,11 @@
           "min": 59,
           "max": 67
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 51,
         "requiredStrength": 106,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 16,
         "sockets": 0,
         "qlvl": 69
@@ -8871,14 +8646,11 @@
           "min": 9,
           "max": 11
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 45,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 18,
         "sockets": 0,
         "qlvl": 20
@@ -8893,14 +8665,11 @@
           "min": 39,
           "max": 47
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 88,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 18,
         "sockets": 0,
         "qlvl": 49
@@ -8915,14 +8684,11 @@
           "min": 59,
           "max": 68
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 57,
         "requiredStrength": 151,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 18,
         "sockets": 0,
         "qlvl": 76
@@ -8945,14 +8711,11 @@
           "min": 12,
           "max": 15
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 60,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 24,
         "sockets": 0,
         "qlvl": 27
@@ -8967,14 +8730,11 @@
           "min": 43,
           "max": 53
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 110,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 24,
         "sockets": 0,
         "qlvl": 54
@@ -8989,14 +8749,11 @@
           "min": 62,
           "max": 71
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 64,
         "requiredStrength": 185,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 24,
         "sockets": 0,
         "qlvl": 85
@@ -9026,7 +8783,7 @@
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 0,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 12,
         "sockets": 0,
         "qlvl": 3
@@ -9048,7 +8805,7 @@
         "twoHandDamage": null,
         "levelReq": 24,
         "requiredStrength": 20,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 12,
         "sockets": 0,
         "qlvl": 36
@@ -9070,7 +8827,7 @@
         "twoHandDamage": null,
         "levelReq": 45,
         "requiredStrength": 50,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 12,
         "sockets": 0,
         "qlvl": 60
@@ -9100,7 +8857,7 @@
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 18,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 14,
         "sockets": 0,
         "qlvl": 7
@@ -9122,7 +8879,7 @@
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 47,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 14,
         "sockets": 0,
         "qlvl": 39
@@ -9144,7 +8901,7 @@
         "twoHandDamage": null,
         "levelReq": 49,
         "requiredStrength": 91,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 14,
         "sockets": 0,
         "qlvl": 66
@@ -9174,7 +8931,7 @@
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 30,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 16,
         "sockets": 0,
         "qlvl": 12
@@ -9196,7 +8953,7 @@
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 65,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 16,
         "sockets": 0,
         "qlvl": 43
@@ -9218,7 +8975,7 @@
         "twoHandDamage": null,
         "levelReq": 54,
         "requiredStrength": 118,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 16,
         "sockets": 0,
         "qlvl": 72
@@ -9248,7 +9005,7 @@
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 50,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 18,
         "sockets": 0,
         "qlvl": 20
@@ -9270,7 +9027,7 @@
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 95,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 18,
         "sockets": 0,
         "qlvl": 49
@@ -9292,7 +9049,7 @@
         "twoHandDamage": null,
         "levelReq": 60,
         "requiredStrength": 163,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 18,
         "sockets": 0,
         "qlvl": 81
@@ -9322,7 +9079,7 @@
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 70,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 24,
         "sockets": 0,
         "qlvl": 27
@@ -9344,7 +9101,7 @@
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 125,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 24,
         "sockets": 0,
         "qlvl": 54
@@ -9366,7 +9123,7 @@
         "twoHandDamage": null,
         "levelReq": 65,
         "requiredStrength": 208,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 24,
         "sockets": 0,
         "qlvl": 85
@@ -9389,14 +9146,11 @@
           "min": 2,
           "max": 2
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 0,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 12,
         "sockets": 0,
         "qlvl": 3
@@ -9411,14 +9165,11 @@
           "min": 29,
           "max": 34
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 24,
         "requiredStrength": 20,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 12,
         "sockets": 0,
         "qlvl": 36
@@ -9433,14 +9184,11 @@
           "min": 55,
           "max": 62
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 46,
         "requiredStrength": 50,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 12,
         "sockets": 0,
         "qlvl": 61
@@ -9463,14 +9211,11 @@
           "min": 3,
           "max": 3
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 0,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 14,
         "sockets": 0,
         "qlvl": 7
@@ -9485,14 +9230,11 @@
           "min": 31,
           "max": 36
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 20,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 14,
         "sockets": 0,
         "qlvl": 39
@@ -9507,14 +9249,11 @@
           "min": 56,
           "max": 63
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 51,
         "requiredStrength": 50,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 14,
         "sockets": 0,
         "qlvl": 68
@@ -9537,14 +9276,11 @@
           "min": 5,
           "max": 5
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 25,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 16,
         "sockets": 0,
         "qlvl": 12
@@ -9559,14 +9295,11 @@
           "min": 35,
           "max": 40
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 58,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 16,
         "sockets": 0,
         "qlvl": 43
@@ -9581,14 +9314,11 @@
           "min": 58,
           "max": 65
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 56,
         "requiredStrength": 106,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 16,
         "sockets": 0,
         "qlvl": 75
@@ -9611,14 +9341,11 @@
           "min": 6,
           "max": 6
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 45,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 18,
         "sockets": 0,
         "qlvl": 20
@@ -9633,14 +9360,11 @@
           "min": 37,
           "max": 42
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 88,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 18,
         "sockets": 0,
         "qlvl": 49
@@ -9655,14 +9379,11 @@
           "min": 59,
           "max": 66
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 62,
         "requiredStrength": 151,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 18,
         "sockets": 0,
         "qlvl": 82
@@ -9685,14 +9406,11 @@
           "min": 8,
           "max": 11
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 60,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 24,
         "sockets": 0,
         "qlvl": 27
@@ -9707,14 +9425,11 @@
           "min": 41,
           "max": 52
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 110,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 24,
         "sockets": 0,
         "qlvl": 54
@@ -9729,14 +9444,11 @@
           "min": 61,
           "max": 71
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 67,
         "requiredStrength": 185,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 24,
         "sockets": 0,
         "qlvl": 85
@@ -9759,14 +9471,11 @@
           "min": 33,
           "max": 36
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 25,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 40,
         "sockets": 2,
         "qlvl": 22
@@ -9781,14 +9490,11 @@
           "min": 60,
           "max": 125
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 58,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 40,
         "sockets": 2,
         "qlvl": 50
@@ -9803,14 +9509,11 @@
           "min": 100,
           "max": 157
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 63,
         "requiredStrength": 106,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 40,
         "sockets": 3,
         "qlvl": 84
@@ -9840,7 +9543,7 @@
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 25,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 40,
         "sockets": 2,
         "qlvl": 19
@@ -9862,7 +9565,7 @@
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 58,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 70,
         "sockets": 2,
         "qlvl": 48
@@ -9884,7 +9587,7 @@
         "twoHandDamage": null,
         "levelReq": 57,
         "requiredStrength": 106,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 74,
         "sockets": 3,
         "qlvl": 76
@@ -9914,7 +9617,7 @@
         "twoHandDamage": null,
         "levelReq": 0,
         "requiredStrength": 30,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 40,
         "sockets": 2,
         "qlvl": 11
@@ -9936,7 +9639,7 @@
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 65,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 55,
         "sockets": 2,
         "qlvl": 42
@@ -9958,7 +9661,7 @@
         "twoHandDamage": null,
         "levelReq": 51,
         "requiredStrength": 118,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 83,
         "sockets": 3,
         "qlvl": 68
@@ -9981,14 +9684,11 @@
           "min": 8,
           "max": 11
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 3,
         "requiredStrength": 16,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 3,
         "qlvl": 4
@@ -10003,14 +9703,11 @@
           "min": 52,
           "max": 62
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 26,
         "requiredStrength": 44,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 3,
         "qlvl": 35
@@ -10025,14 +9722,11 @@
           "min": 101,
           "max": 145
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 46,
         "requiredStrength": 86,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 3,
         "qlvl": 62
@@ -10055,14 +9749,11 @@
           "min": 4,
           "max": 15
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 6,
         "requiredStrength": 20,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 3,
         "qlvl": 8
@@ -10077,14 +9768,11 @@
           "min": 46,
           "max": 68
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 30,
         "requiredStrength": 50,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 3,
         "qlvl": 40
@@ -10099,14 +9787,11 @@
           "min": 98,
           "max": 147
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 51,
         "requiredStrength": 95,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 3,
         "qlvl": 69
@@ -10129,14 +9814,11 @@
           "min": 18,
           "max": 24
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 12,
         "requiredStrength": 24,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 3,
         "qlvl": 16
@@ -10151,14 +9833,11 @@
           "min": 67,
           "max": 81
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 29,
         "requiredStrength": 56,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 3,
         "qlvl": 46
@@ -10173,14 +9852,11 @@
           "min": 107,
           "max": 152
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 57,
         "requiredStrength": 104,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 3,
         "qlvl": 76
@@ -10203,14 +9879,11 @@
           "min": 12,
           "max": 28
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 15,
         "requiredStrength": 28,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 3,
         "qlvl": 20
@@ -10225,14 +9898,11 @@
           "min": 58,
           "max": 87
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 32,
         "requiredStrength": 62,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 3,
         "qlvl": 50
@@ -10247,14 +9917,11 @@
           "min": 103,
           "max": 155
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 62,
         "requiredStrength": 113,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 3,
         "qlvl": 83
@@ -10277,14 +9944,11 @@
           "min": 22,
           "max": 35
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 18,
         "requiredStrength": 30,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 3,
         "qlvl": 24
@@ -10299,14 +9963,11 @@
           "min": 73,
           "max": 98
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 41,
         "requiredStrength": 65,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 3,
         "qlvl": 55
@@ -10321,14 +9982,11 @@
           "min": 109,
           "max": 159
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 66,
         "requiredStrength": 118,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 3,
         "qlvl": 85
@@ -10351,14 +10009,11 @@
           "min": 10,
           "max": 15
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 3,
         "requiredStrength": 25,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 25,
         "sockets": 3,
         "qlvl": 4
@@ -10373,14 +10028,11 @@
           "min": 55,
           "max": 68
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 25,
         "requiredStrength": 58,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 25,
         "sockets": 3,
         "qlvl": 33
@@ -10395,14 +10047,11 @@
           "min": 102,
           "max": 147
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 45,
         "requiredStrength": 106,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 25,
         "sockets": 3,
         "qlvl": 60
@@ -10425,14 +10074,11 @@
           "min": 15,
           "max": 20
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 6,
         "requiredStrength": 35,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 35,
         "sockets": 3,
         "qlvl": 8
@@ -10447,14 +10093,11 @@
           "min": 63,
           "max": 75
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 29,
         "requiredStrength": 73,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 35,
         "sockets": 3,
         "qlvl": 38
@@ -10469,14 +10112,11 @@
           "min": 105,
           "max": 150
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 49,
         "requiredStrength": 129,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 35,
         "sockets": 3,
         "qlvl": 66
@@ -10499,14 +10139,11 @@
           "min": 25,
           "max": 30
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 12,
         "requiredStrength": 45,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 45,
         "sockets": 3,
         "qlvl": 16
@@ -10521,14 +10158,11 @@
           "min": 78,
           "max": 90
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 29,
         "requiredStrength": 88,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 45,
         "sockets": 3,
         "qlvl": 44
@@ -10543,14 +10177,11 @@
           "min": 111,
           "max": 156
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 54,
         "requiredStrength": 151,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 45,
         "sockets": 3,
         "qlvl": 73
@@ -10573,14 +10204,11 @@
           "min": 30,
           "max": 35
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 15,
         "requiredStrength": 55,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 50,
         "sockets": 3,
         "qlvl": 20
@@ -10595,14 +10223,11 @@
           "min": 85,
           "max": 98
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 32,
         "requiredStrength": 103,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 50,
         "sockets": 3,
         "qlvl": 49
@@ -10617,14 +10242,11 @@
           "min": 114,
           "max": 159
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 60,
         "requiredStrength": 174,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 50,
         "sockets": 3,
         "qlvl": 80
@@ -10647,14 +10269,11 @@
           "min": 35,
           "max": 50
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 18,
         "requiredStrength": 65,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 55,
         "sockets": 3,
         "qlvl": 24
@@ -10669,14 +10288,11 @@
           "min": 93,
           "max": 120
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 40,
         "requiredStrength": 118,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 55,
         "sockets": 3,
         "qlvl": 54
@@ -10691,14 +10307,11 @@
           "min": 117,
           "max": 168
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 65,
         "requiredStrength": 196,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 55,
         "sockets": 3,
         "qlvl": 85
@@ -10728,7 +10341,7 @@
         "twoHandDamage": null,
         "levelReq": 3,
         "requiredStrength": 16,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 4,
         "qlvl": 4
@@ -10750,7 +10363,7 @@
         "twoHandDamage": null,
         "levelReq": 26,
         "requiredStrength": 44,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 4,
         "qlvl": 35
@@ -10772,7 +10385,7 @@
         "twoHandDamage": null,
         "levelReq": 47,
         "requiredStrength": 86,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 45,
         "sockets": 4,
         "qlvl": 63
@@ -10802,7 +10415,7 @@
         "twoHandDamage": null,
         "levelReq": 6,
         "requiredStrength": 26,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 30,
         "sockets": 4,
         "qlvl": 8
@@ -10824,7 +10437,7 @@
         "twoHandDamage": null,
         "levelReq": 30,
         "requiredStrength": 59,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 30,
         "sockets": 4,
         "qlvl": 40
@@ -10846,7 +10459,7 @@
         "twoHandDamage": null,
         "levelReq": 52,
         "requiredStrength": 109,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 68,
         "sockets": 4,
         "qlvl": 70
@@ -10876,7 +10489,7 @@
         "twoHandDamage": null,
         "levelReq": 12,
         "requiredStrength": 40,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 40,
         "sockets": 4,
         "qlvl": 16
@@ -10898,7 +10511,7 @@
         "twoHandDamage": null,
         "levelReq": 34,
         "requiredStrength": 69,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 40,
         "sockets": 4,
         "qlvl": 46
@@ -10920,7 +10533,7 @@
         "twoHandDamage": null,
         "levelReq": 55,
         "requiredStrength": 124,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 55,
         "sockets": 4,
         "qlvl": 74
@@ -10950,7 +10563,7 @@
         "twoHandDamage": null,
         "levelReq": 15,
         "requiredStrength": 50,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 50,
         "sockets": 4,
         "qlvl": 20
@@ -10972,7 +10585,7 @@
         "twoHandDamage": null,
         "levelReq": 38,
         "requiredStrength": 89,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 50,
         "sockets": 4,
         "qlvl": 51
@@ -10994,7 +10607,7 @@
         "twoHandDamage": null,
         "levelReq": 61,
         "requiredStrength": 142,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 65,
         "sockets": 4,
         "qlvl": 82
@@ -11024,7 +10637,7 @@
         "twoHandDamage": null,
         "levelReq": 18,
         "requiredStrength": 65,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 60,
         "sockets": 4,
         "qlvl": 24
@@ -11046,7 +10659,7 @@
         "twoHandDamage": null,
         "levelReq": 41,
         "requiredStrength": 114,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 60,
         "sockets": 4,
         "qlvl": 55
@@ -11068,7 +10681,7 @@
         "twoHandDamage": null,
         "levelReq": 66,
         "requiredStrength": 148,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 90,
         "sockets": 4,
         "qlvl": 85
@@ -11091,14 +10704,11 @@
           "min": 2,
           "max": 5
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 3,
         "requiredStrength": 12,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 4
@@ -11113,14 +10723,11 @@
           "min": 38,
           "max": 48
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 24,
         "requiredStrength": 38,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 33
@@ -11135,14 +10742,11 @@
           "min": 95,
           "max": 139
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 44,
         "requiredStrength": 77,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 59
@@ -11165,14 +10769,11 @@
           "min": 4,
           "max": 8
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 6,
         "requiredStrength": 14,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 8
@@ -11187,14 +10788,11 @@
           "min": 41,
           "max": 52
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 29,
         "requiredStrength": 41,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 39
@@ -11209,14 +10807,11 @@
           "min": 96,
           "max": 141
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 50,
         "requiredStrength": 82,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 67
@@ -11239,14 +10834,11 @@
           "min": 6,
           "max": 10
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 12,
         "requiredStrength": 18,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 16
@@ -11261,14 +10853,11 @@
           "min": 44,
           "max": 55
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 33,
         "requiredStrength": 47,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 45
@@ -11283,14 +10872,11 @@
           "min": 98,
           "max": 142
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 49,
         "requiredStrength": 91,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 66
@@ -11313,14 +10899,11 @@
           "min": 10,
           "max": 16
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 15,
         "requiredStrength": 20,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 20
@@ -11335,14 +10918,11 @@
           "min": 50,
           "max": 64
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 36,
         "requiredStrength": 50,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 49
@@ -11357,14 +10937,11 @@
           "min": 100,
           "max": 146
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 60,
         "requiredStrength": 95,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 81
@@ -11387,14 +10964,11 @@
           "min": 15,
           "max": 20
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 18,
         "requiredStrength": 25,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 24
@@ -11409,14 +10983,11 @@
           "min": 58,
           "max": 70
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 40,
         "requiredStrength": 58,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 54
@@ -11431,14 +11002,11 @@
           "min": 103,
           "max": 148
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 65,
         "requiredStrength": 106,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 85
@@ -11461,14 +11029,11 @@
           "min": 20,
           "max": 30
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 16,
         "requiredStrength": 0,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 35,
         "sockets": 2,
         "qlvl": 24
@@ -11483,14 +11048,11 @@
           "min": 40,
           "max": 50
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 52,
         "requiredStrength": 0,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 25,
         "sockets": 3,
         "qlvl": 70
@@ -11505,14 +11067,11 @@
           "min": 50,
           "max": 60
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 64,
         "requiredStrength": 0,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 3,
         "qlvl": 85
@@ -11535,14 +11094,11 @@
           "min": 30,
           "max": 40
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 39,
         "requiredStrength": 0,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 30,
         "sockets": 2,
         "qlvl": 52
@@ -11557,14 +11113,11 @@
           "min": 40,
           "max": 50
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 52,
         "requiredStrength": 0,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 25,
         "sockets": 3,
         "qlvl": 70
@@ -11579,14 +11132,11 @@
           "min": 50,
           "max": 60
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 64,
         "requiredStrength": 0,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 3,
         "qlvl": 85
@@ -11609,14 +11159,11 @@
           "min": 2,
           "max": 5
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 3,
         "requiredStrength": 12,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 4
@@ -11631,14 +11178,11 @@
           "min": 38,
           "max": 48
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 24,
         "requiredStrength": 38,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 33
@@ -11653,14 +11197,11 @@
           "min": 95,
           "max": 139
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 44,
         "requiredStrength": 77,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 59
@@ -11683,14 +11224,11 @@
           "min": 4,
           "max": 8
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 6,
         "requiredStrength": 14,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 8
@@ -11705,14 +11243,11 @@
           "min": 41,
           "max": 52
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 29,
         "requiredStrength": 41,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 39
@@ -11727,14 +11262,11 @@
           "min": 96,
           "max": 141
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 49,
         "requiredStrength": 82,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 67
@@ -11757,14 +11289,11 @@
           "min": 6,
           "max": 10
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 12,
         "requiredStrength": 18,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 16
@@ -11779,14 +11308,11 @@
           "min": 44,
           "max": 55
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 33,
         "requiredStrength": 47,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 45
@@ -11801,14 +11327,11 @@
           "min": 98,
           "max": 142
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 50,
         "requiredStrength": 91,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 66
@@ -11831,14 +11354,11 @@
           "min": 10,
           "max": 16
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 15,
         "requiredStrength": 20,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 20
@@ -11853,14 +11373,11 @@
           "min": 50,
           "max": 64
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 36,
         "requiredStrength": 50,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 49
@@ -11875,14 +11392,11 @@
           "min": 100,
           "max": 146
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 60,
         "requiredStrength": 95,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 81
@@ -11905,14 +11419,11 @@
           "min": 15,
           "max": 20
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 18,
         "requiredStrength": 25,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 24
@@ -11927,14 +11438,11 @@
           "min": 58,
           "max": 70
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 40,
         "requiredStrength": 58,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 54
@@ -11949,14 +11457,11 @@
           "min": 103,
           "max": 148
         },
-        "oneHandDamage": {
-          "min": 0,
-          "max": 0
-        },
+        "oneHandDamage": null,
         "twoHandDamage": null,
         "levelReq": 65,
         "requiredStrength": 106,
-        "requiredDexterity": 0,
+        "requiredDexterity": null,
         "durability": 20,
         "sockets": 2,
         "qlvl": 85

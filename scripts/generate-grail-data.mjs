@@ -880,7 +880,7 @@ function baseFieldsFor(code) {
     // unique/set item generation. Confirmed against d2r.world's Bonehew page
     // this session (needs Dex: 75, Two-Hand Damage: 28-145) which our site
     // previously omitted entirely for every weapon-type unique/set item.
-    requiredDexterity: base?.reqdex ?? null,
+    requiredDexterity: base?.reqdex || null,
     ...(base ? damageFor(base) : { oneHandDamage: null, twoHandDamage: null }),
     weaponSpeed: base ? WEAPON_BASE_SPEED[englishBaseName] ?? null : null,
     durability: base?.durability ?? null,
@@ -1258,13 +1258,16 @@ const setsOut = Object.entries(setItemsRaw)
     };
   });
 
+// Non-weapon base items (armor, belts, jewelry, etc.) store mindam/maxdam/
+// 2handmindam/2handmaxdam/reqdex as literal 0 in vendor data rather than
+// omitting the fields — a naive `!= null` check treated that as a real
+// "0-0 damage"/"0 Dexterity" value, showing a spurious "One-Hand Damage:
+// 0–0" and "Required Dexterity: 0" row on every armor-slot unique/set item.
+// Confirmed against d2r.world's Hwanin's Refuge (Body Armor) this session,
+// which shows neither row at all. Treat 0 the same as absent.
 function damageFor(entry) {
-  const oneHand = entry.mindam != null && entry.maxdam != null
-    ? { min: entry.mindam, max: entry.maxdam }
-    : null;
-  const twoHand = entry['2handmindam'] != null && entry['2handmaxdam'] != null
-    ? { min: entry['2handmindam'], max: entry['2handmaxdam'] }
-    : null;
+  const oneHand = entry.mindam ? { min: entry.mindam, max: entry.maxdam } : null;
+  const twoHand = entry['2handmindam'] ? { min: entry['2handmindam'], max: entry['2handmaxdam'] } : null;
   return { oneHandDamage: oneHand, twoHandDamage: twoHand };
 }
 
@@ -1288,7 +1291,7 @@ function baseGradeFor(code) {
     ...damageFor(entry),
     levelReq: entry.levelreq ?? null,
     requiredStrength: entry.reqstr ?? null,
-    requiredDexterity: entry.reqdex ?? null,
+    requiredDexterity: entry.reqdex || null,
     durability: entry.durability ?? null,
     sockets: entry.gemsockets ?? null,
     qlvl: entry.level ?? null,

@@ -8011,17 +8011,8 @@
       "max": 5
     },
     "requiredStrength": 0,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 12,
@@ -8112,17 +8103,8 @@
       "max": 11
     },
     "requiredStrength": 15,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 18,
@@ -8195,17 +8177,8 @@
       "max": 18
     },
     "requiredStrength": 26,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 24,
@@ -8296,17 +8269,8 @@
       "max": 26
     },
     "requiredStrength": 41,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 30,
@@ -8414,17 +8378,8 @@
       "max": 36
     },
     "requiredStrength": 25,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 40,
@@ -8515,17 +8470,8 @@
       "max": 35
     },
     "requiredStrength": 63,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 40,
@@ -8627,17 +8573,8 @@
       "max": 45
     },
     "requiredStrength": 55,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 50,
@@ -8767,17 +8704,8 @@
       "max": 27
     },
     "requiredStrength": 23,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 20,
@@ -8868,17 +8796,8 @@
       "max": 11
     },
     "requiredStrength": 12,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 20,
@@ -8980,17 +8899,8 @@
       "max": 17
     },
     "requiredStrength": 15,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 24,
@@ -9092,17 +9002,8 @@
       "max": 24
     },
     "requiredStrength": 20,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 28,
@@ -9226,17 +9127,8 @@
       "max": 35
     },
     "requiredStrength": 27,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 32,
@@ -9338,17 +9230,8 @@
       "max": 48
     },
     "requiredStrength": 36,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 26,
@@ -9454,17 +9337,8 @@
       "max": 60
     },
     "requiredStrength": 44,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 36,
@@ -9559,17 +9433,8 @@
       "max": 75
     },
     "requiredStrength": 48,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 45,
@@ -9657,17 +9522,8 @@
       "max": 68
     },
     "requiredStrength": 30,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 50,
@@ -9762,17 +9618,8 @@
       "max": 95
     },
     "requiredStrength": 51,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 30,
@@ -9867,17 +9714,8 @@
       "max": 116
     },
     "requiredStrength": 65,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 60,
@@ -9961,17 +9799,8 @@
       "max": 105
     },
     "requiredStrength": 55,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 48,
@@ -10066,17 +9895,8 @@
       "max": 135
     },
     "requiredStrength": 70,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 55,
@@ -10156,17 +9976,8 @@
       "max": 161
     },
     "requiredStrength": 80,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 70,
@@ -10261,17 +10072,8 @@
       "max": 233
     },
     "requiredStrength": 100,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 60,
@@ -10355,17 +10157,8 @@
       "max": 107
     },
     "requiredStrength": 41,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 60,
@@ -10467,7 +10260,7 @@
       "max": 6
     },
     "requiredStrength": 12,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 1,
@@ -10607,7 +10400,7 @@
       "max": 10
     },
     "requiredStrength": 22,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 2,
@@ -10747,7 +10540,7 @@
       "max": 14
     },
     "requiredStrength": 34,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 2,
@@ -10889,7 +10682,7 @@
       "max": 30
     },
     "requiredStrength": 25,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 3,
@@ -11005,7 +10798,7 @@
       "max": 25
     },
     "requiredStrength": 30,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 5,
@@ -11110,7 +10903,7 @@
       "max": 18
     },
     "requiredStrength": 47,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 2,
@@ -11261,7 +11054,7 @@
       "max": 25
     },
     "requiredStrength": 75,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 1,
@@ -11390,7 +11183,7 @@
       "max": 35
     },
     "requiredStrength": 60,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 2,
@@ -11506,17 +11299,8 @@
       "max": 3
     },
     "requiredStrength": 0,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 12,
@@ -11622,17 +11406,8 @@
       "max": 6
     },
     "requiredStrength": 0,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 14,
@@ -11738,17 +11513,8 @@
       "max": 9
     },
     "requiredStrength": 25,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 16,
@@ -11856,17 +11622,8 @@
       "max": 11
     },
     "requiredStrength": 45,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 18,
@@ -11974,17 +11731,8 @@
       "max": 15
     },
     "requiredStrength": 60,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 24,
@@ -12081,7 +11829,7 @@
       "max": 3
     },
     "requiredStrength": 0,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 3,
@@ -12199,7 +11947,7 @@
       "max": 6
     },
     "requiredStrength": 18,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 4,
@@ -12315,7 +12063,7 @@
       "max": 9
     },
     "requiredStrength": 30,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 6,
@@ -12431,7 +12179,7 @@
       "max": 11
     },
     "requiredStrength": 50,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 8,
@@ -12547,7 +12295,7 @@
       "max": 15
     },
     "requiredStrength": 70,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 10,
@@ -12674,17 +12422,8 @@
       "max": 2
     },
     "requiredStrength": 0,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 12,
@@ -12764,17 +12503,8 @@
       "max": 3
     },
     "requiredStrength": 0,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 14,
@@ -12880,17 +12610,8 @@
       "max": 5
     },
     "requiredStrength": 25,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 16,
@@ -12996,17 +12717,8 @@
       "max": 6
     },
     "requiredStrength": 45,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 18,
@@ -13114,17 +12826,8 @@
       "max": 11
     },
     "requiredStrength": 60,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 24,
@@ -23293,17 +22996,8 @@
       "max": 53
     },
     "requiredStrength": 20,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 12,
@@ -23409,17 +23103,8 @@
       "max": 62
     },
     "requiredStrength": 43,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 18,
@@ -23542,17 +23227,8 @@
       "max": 72
     },
     "requiredStrength": 59,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 24,
@@ -23660,17 +23336,8 @@
       "max": 84
     },
     "requiredStrength": 82,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 30,
@@ -23787,17 +23454,8 @@
       "max": 98
     },
     "requiredStrength": 115,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 40,
@@ -23896,17 +23554,8 @@
       "max": 113
     },
     "requiredStrength": 103,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 50,
@@ -24027,17 +23676,8 @@
       "max": 86
     },
     "requiredStrength": 55,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 20,
@@ -24143,17 +23783,8 @@
       "max": 125
     },
     "requiredStrength": 58,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 40,
@@ -24278,17 +23909,8 @@
       "max": 117
     },
     "requiredStrength": 38,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 20,
@@ -24383,17 +24005,8 @@
       "max": 126
     },
     "requiredStrength": 43,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 24,
@@ -24490,17 +24103,8 @@
       "max": 136
     },
     "requiredStrength": 50,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 28,
@@ -24610,17 +24214,8 @@
       "max": 153
     },
     "requiredStrength": 61,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 32,
@@ -24730,17 +24325,8 @@
       "max": 172
     },
     "requiredStrength": 74,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 26,
@@ -24859,17 +24445,8 @@
       "max": 190
     },
     "requiredStrength": 86,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 36,
@@ -24977,17 +24554,8 @@
       "max": 213
     },
     "requiredStrength": 92,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 45,
@@ -25071,17 +24639,8 @@
       "max": 202
     },
     "requiredStrength": 65,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 50,
@@ -25231,17 +24790,8 @@
       "max": 243
     },
     "requiredStrength": 97,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 30,
@@ -25347,17 +24897,8 @@
       "max": 274
     },
     "requiredStrength": 118,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 60,
@@ -25474,17 +25015,8 @@
       "max": 258
     },
     "requiredStrength": 103,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 48,
@@ -25605,17 +25137,8 @@
       "max": 303
     },
     "requiredStrength": 125,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 55,
@@ -25743,17 +25266,8 @@
       "max": 342
     },
     "requiredStrength": 140,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 70,
@@ -25863,17 +25377,8 @@
       "max": 450
     },
     "requiredStrength": 170,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 60,
@@ -25992,17 +25497,8 @@
       "max": 261
     },
     "requiredStrength": 55,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 60,
@@ -26121,7 +25617,7 @@
       "max": 49
     },
     "requiredStrength": 38,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 8,
@@ -26226,7 +25722,7 @@
       "max": 55
     },
     "requiredStrength": 53,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 7,
@@ -26331,7 +25827,7 @@
       "max": 61
     },
     "requiredStrength": 71,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 11,
@@ -26482,7 +25978,7 @@
       "max": 67
     },
     "requiredStrength": 91,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 15,
@@ -26639,7 +26135,7 @@
       "max": 78
     },
     "requiredStrength": 133,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 10,
@@ -26772,7 +26268,7 @@
       "max": 93
     },
     "requiredStrength": 110,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 12,
@@ -26910,7 +26406,7 @@
       "max": 150
     },
     "requiredStrength": 58,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 14,
@@ -27039,7 +26535,7 @@
       "max": 78
     },
     "requiredStrength": 65,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 18,
@@ -27155,17 +26651,8 @@
       "max": 35
     },
     "requiredStrength": 20,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 12,
@@ -27284,17 +26771,8 @@
       "max": 39
     },
     "requiredStrength": 20,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 14,
@@ -27393,17 +26871,8 @@
       "max": 44
     },
     "requiredStrength": 58,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 16,
@@ -27500,17 +26969,8 @@
       "max": 47
     },
     "requiredStrength": 88,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 18,
@@ -27629,17 +27089,8 @@
       "max": 53
     },
     "requiredStrength": 110,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 24,
@@ -27747,7 +27198,7 @@
       "max": 35
     },
     "requiredStrength": 20,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 26,
@@ -27900,7 +27351,7 @@
       "max": 39
     },
     "requiredStrength": 47,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 28,
@@ -28040,7 +27491,7 @@
       "max": 44
     },
     "requiredStrength": 65,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 23,
@@ -28145,7 +27596,7 @@
       "max": 47
     },
     "requiredStrength": 95,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 37,
@@ -28300,7 +27751,7 @@
       "max": 53
     },
     "requiredStrength": 125,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 39,
@@ -28438,17 +27889,8 @@
       "max": 34
     },
     "requiredStrength": 20,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 12,
@@ -28560,17 +28002,8 @@
       "max": 36
     },
     "requiredStrength": 20,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 14,
@@ -28676,17 +28109,8 @@
       "max": 40
     },
     "requiredStrength": 58,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 16,
@@ -28792,17 +28216,8 @@
       "max": 42
     },
     "requiredStrength": 88,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 18,
@@ -28932,17 +28347,8 @@
       "max": 52
     },
     "requiredStrength": 110,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 24,
@@ -29083,17 +28489,8 @@
       "max": 141
     },
     "requiredStrength": 50,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 12,
@@ -29228,17 +28625,8 @@
       "max": 159
     },
     "requiredStrength": 192,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 40,
@@ -29351,17 +28739,8 @@
       "max": 481
     },
     "requiredStrength": 111,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 32,
@@ -29504,17 +28883,8 @@
       "max": 517
     },
     "requiredStrength": 165,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 30,
@@ -29613,7 +28983,7 @@
       "max": 123
     },
     "requiredStrength": 100,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 17,
@@ -29751,7 +29121,7 @@
       "max": 148
     },
     "requiredStrength": 156,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 12,
@@ -32573,17 +31943,8 @@
       "max": 120
     },
     "requiredStrength": 118,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 55,
@@ -32724,17 +32085,8 @@
       "max": 70
     },
     "requiredStrength": 58,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 20,
@@ -33476,7 +32828,7 @@
       "max": 168
     },
     "requiredStrength": 89,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 20,
@@ -33775,17 +33127,8 @@
       "max": 98
     },
     "requiredStrength": 65,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 20,
@@ -34859,17 +34202,8 @@
       "max": 149
     },
     "requiredStrength": 109,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 24,
@@ -36060,7 +35394,7 @@
       "max": 71
     },
     "requiredStrength": 208,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 83,
@@ -36180,17 +35514,8 @@
       "max": 145
     },
     "requiredStrength": 86,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 20,
@@ -36304,17 +35629,8 @@
       "max": 600
     },
     "requiredStrength": 232,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 60,
@@ -36459,17 +35775,8 @@
       "max": 67
     },
     "requiredStrength": 106,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 16,
@@ -36976,17 +36283,8 @@
       "max": 523
     },
     "requiredStrength": 174,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 48,
@@ -37787,17 +37085,8 @@
       "max": 156
     },
     "requiredStrength": 151,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 45,
@@ -38052,17 +37341,8 @@
       "max": 152
     },
     "requiredStrength": 104,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 20,
@@ -38304,7 +37584,7 @@
       "max": 164
     },
     "requiredStrength": 109,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 49,
@@ -38439,17 +37719,8 @@
       "max": 148
     },
     "requiredStrength": 106,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 20,
@@ -39120,17 +38391,8 @@
       "max": 60
     },
     "requiredStrength": 0,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 20,
@@ -39567,17 +38829,8 @@
       "max": 146
     },
     "requiredStrength": 95,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 20,
@@ -39791,17 +39044,8 @@
       "max": 159
     },
     "requiredStrength": 192,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 40,
@@ -39924,17 +39168,8 @@
       "max": 165
     },
     "requiredStrength": 174,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 50,
@@ -40068,17 +39303,8 @@
       "max": 154
     },
     "requiredStrength": 102,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 20,
@@ -40232,7 +39458,7 @@
       "max": 193
     },
     "requiredStrength": 142,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 46,
@@ -40365,17 +39591,8 @@
       "max": 557
     },
     "requiredStrength": 230,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 70,
@@ -40498,7 +39715,7 @@
       "max": 161
     },
     "requiredStrength": 219,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 18,
@@ -40618,17 +39835,8 @@
       "max": 155
     },
     "requiredStrength": 113,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 20,
@@ -41132,17 +40340,8 @@
       "max": 150
     },
     "requiredStrength": 129,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 35,
@@ -41295,7 +40494,7 @@
       "max": 170
     },
     "requiredStrength": 185,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 11,
@@ -41417,17 +40616,8 @@
       "max": 50
     },
     "requiredStrength": 0,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 25,
@@ -41513,17 +40703,8 @@
       "max": 467
     },
     "requiredStrength": 77,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 20,
@@ -41863,17 +41044,8 @@
       "max": 159
     },
     "requiredStrength": 174,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 50,
@@ -41996,7 +41168,7 @@
       "max": 163
     },
     "requiredStrength": 118,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 26,
@@ -42114,17 +41286,8 @@
       "max": 65
     },
     "requiredStrength": 50,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 14,
@@ -42366,17 +41529,8 @@
       "max": 600
     },
     "requiredStrength": 232,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 60,
@@ -42745,7 +41899,7 @@
       "max": 65
     },
     "requiredStrength": 91,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 60,
@@ -42900,7 +42054,7 @@
       "max": 67
     },
     "requiredStrength": 118,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 69,
@@ -43205,17 +42359,8 @@
       "max": 62
     },
     "requiredStrength": 50,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 12,
@@ -43321,17 +42466,8 @@
       "max": 63
     },
     "requiredStrength": 50,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 14,
@@ -43534,17 +42670,8 @@
       "max": 65
     },
     "requiredStrength": 106,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 16,
@@ -43775,17 +42902,8 @@
       "max": 157
     },
     "requiredStrength": 106,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 40,
@@ -45093,7 +44211,7 @@
       "max": 173
     },
     "requiredStrength": 106,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 24,
@@ -45218,17 +44336,8 @@
       "max": 71
     },
     "requiredStrength": 185,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 24,
@@ -46108,17 +45217,8 @@
       "max": 148
     },
     "requiredStrength": 106,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 20,
@@ -46267,17 +45367,8 @@
       "max": 146
     },
     "requiredStrength": 95,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 20,
@@ -46426,17 +45517,8 @@
       "max": 141
     },
     "requiredStrength": 82,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 20,
@@ -46585,17 +45667,8 @@
       "max": 48
     },
     "requiredStrength": 38,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 20,
@@ -46903,7 +45976,7 @@
       "max": 68
     },
     "requiredStrength": 163,
-    "requiredDexterity": 0,
+    "requiredDexterity": null,
     "oneHandDamage": {
       "min": {
         "low": 50,
@@ -47494,17 +46567,8 @@
       "max": 66
     },
     "requiredStrength": 151,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 18,
@@ -47632,17 +46696,8 @@
       "max": 86
     },
     "requiredStrength": 55,
-    "requiredDexterity": 0,
-    "oneHandDamage": {
-      "min": {
-        "low": 0,
-        "high": 0
-      },
-      "max": {
-        "low": 0,
-        "high": 0
-      }
-    },
+    "requiredDexterity": null,
+    "oneHandDamage": null,
     "twoHandDamage": null,
     "weaponSpeed": null,
     "durability": 20,

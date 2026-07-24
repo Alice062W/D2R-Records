@@ -32,7 +32,7 @@ export default function RuneList({ runes, locale }: { runes: Rune[]; locale: Loc
   const t = useTranslations('Items');
 
   return (
-    <div className="flex flex-col gap-4 w-full">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full">
       {runes.map(rune => (
         <div
           key={rune.id}

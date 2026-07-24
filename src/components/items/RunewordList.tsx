@@ -33,6 +33,7 @@ export default function RunewordList({ runewords, locale }: { runewords: Runewor
   return (
     <div className="flex flex-col gap-4 w-full">
       {error && <p className="text-sm text-red-400">{error}</p>}
+      <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-4">
       {runewords.map(rw => {
         const owned = userId && ownedIds.has(rw.id);
         return (
@@ -81,6 +82,7 @@ export default function RunewordList({ runewords, locale }: { runewords: Runewor
         </div>
         );
       })}
+      </div>
     </div>
   );
 }
