@@ -349,7 +349,7 @@ _Plan: [myinput-data-accuracy-implementation.md](./myinput-data-accuracy-impleme
 - [x] Task 5: Base Items data audit (fixed missing defense field + 6 name typos)
 - [x] Task 6: Misc pages spot-check (FCR/FHR/FBR, Level Up, Area Level, Alvl85 — confirmed, zero discrepancies)
 - [x] Task 7: Icon/image upgrade (already 100% covered; MyData assets are a different asset class — hero-shot renders, not backfill source)
-- [ ] Task 8: Final whole-site verification + push to GitHub
+- [x] Task 8: Final whole-site verification + push to GitHub (fixed AffixCategories i18n fallback bug found in browser console check; tsc/eslint/vitest/build all clean)
 
 ---
 
