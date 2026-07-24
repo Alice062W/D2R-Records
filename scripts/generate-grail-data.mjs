@@ -752,12 +752,38 @@ const BASE_ENGLISH_NAME_ALIASES = {
   'Mithral Point': 'Mithril Point',
   Kriss: 'Kris',
   Stilleto: 'Stiletto',
+  // 8l8 (normcode lbb, exceptional Long Battle Bow): every published source
+  // (diablo.fandom.com, diablo2.io) names this "Large Siege Bow" -- no game
+  // item is ever called "Long Siege Bow". The dump's text was right; vendor's
+  // items.json has the typo. No name collision with another code, so this is
+  // safe as a plain string alias (see BASE_CODE_ENGLISH_NAME_ALIASES below for
+  // the two cases that needed code-scoping instead).
+  'Long Siege Bow': 'Large Siege Bow',
+};
+
+// Code-scoped corrections for vendor names that collide with a *different*,
+// correctly-named item elsewhere in items.json -- a plain name->name alias
+// would wrongly rename that other item too, so these are keyed by base code.
+// Confirmed against diablo.fandom.com/wiki and diablo2.io during Task 5
+// research (myinput-data-accuracy plan):
+//   pad "Ancient Shield" -> "Kurast Shield": vendor's items.json mislabels
+//     the elite Paladin shield (pad, def 154-172/str124/dur55/qlvl74/lvl55)
+//     with the name that rightfully belongs to code xts, a different item
+//     (the elite Gothic Shield, def 80-93/str110/dur80/qlvl56/lvl25). The
+//     d2r.world dump's "Kurast Shield" text for pad matches every published
+//     source's stats for that exact item.
+//   xar "Ornate Armor" -> "Ornate Plate": vendor's items.json name doesn't
+//     match any published source; every wiki/database lists the exceptional
+//     Ancient Armor tier as "Ornate Plate", matching the d2r.world dump.
+const BASE_CODE_ENGLISH_NAME_ALIASES = {
+  pad: 'Kurast Shield',
+  xar: 'Ornate Plate',
 };
 
 function localizedBaseName(code, englishFallback) {
   const lookupCode = BASE_CODE_ALIASES[code] ?? code;
   const rawEnglishName = BASE_CODE_ALIASES[code] ? (items[lookupCode]?.name ?? englishFallback) : englishFallback;
-  const englishName = BASE_ENGLISH_NAME_ALIASES[rawEnglishName] ?? rawEnglishName;
+  const englishName = BASE_CODE_ENGLISH_NAME_ALIASES[code] ?? BASE_ENGLISH_NAME_ALIASES[rawEnglishName] ?? rawEnglishName;
   const zhTw = chi[lookupCode] ?? englishName;
   return { en: englishName, 'zh-TW': zhTw, 'zh-CN': toZhCn(zhTw) };
 }
