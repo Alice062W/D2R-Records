@@ -1673,6 +1673,12 @@ const RUNEWORD_STAT_OVERRIDES = {
     rwStat('manasteal', 11, 11),
     rwStat('howl', 25, 25),
     rwStat('stupidity', 33, 33),
+    // Two trailing stats missing from last session's audit -- confirmed
+    // present on d2r.world (MyInput/MyData full-crawl dump, runewords.decoded.html
+    // #silence): "+2 to Mana after each Kill" and "30% Better Chance of
+    // Getting Magic Items".
+    rwStat('mana-kill', 2, 2),
+    rwStat('mag%', 30, 30),
   ],
   Smoke: [
     rwStat('ac%', 75, 75),
@@ -1733,6 +1739,10 @@ const RUNEWORD_STAT_OVERRIDES = {
     rwStat('dmg-to-mana', 38, 38),
     rwStat('gold%', 75, 75),
     rwStat('charged', 40, 15, 'Iron Maiden'),
+    // Trailing stat missing from last session's audit -- confirmed present on
+    // d2r.world (MyInput/MyData full-crawl dump, runewords.decoded.html #rift):
+    // "Requirements -20%".
+    rwStat('ease', -20, -20),
   ],
   Prudence: [
     rwStat('balance2', 25, 25),
