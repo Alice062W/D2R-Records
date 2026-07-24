@@ -290,17 +290,6 @@
         "min": 25,
         "max": 40,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:Summon Grizzly",
-        "label": {
-          "en": "Charges (Summon Grizzly)",
-          "zh-TW": "充能次數 (召喚灰熊)",
-          "zh-CN": "充能次数 (召唤灰熊)"
-        },
-        "min": 5,
-        "max": 13,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -393,6 +382,17 @@
         },
         "value": 2,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:Summon Grizzly",
+        "label": {
+          "en": "Level 13 Summon Grizzly (5 Charges)",
+          "zh-TW": "等級 13 召喚灰熊（5 次）",
+          "zh-CN": "等级 13 召唤灰熊（5 次）"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       }
     ]
   },
@@ -442,17 +442,6 @@
         "min": 3,
         "max": 14,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:Corpse Explosion",
-        "label": {
-          "en": "Charges (Corpse Explosion)",
-          "zh-TW": "充能次數 (屍爆)",
-          "zh-CN": "充能次数 (尸爆)"
-        },
-        "min": 12,
-        "max": 4,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -525,6 +514,17 @@
         },
         "value": 2,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:Corpse Explosion",
+        "label": {
+          "en": "Level 4 Corpse Explosion (12 Charges)",
+          "zh-TW": "等級 4 屍爆（12 次）",
+          "zh-CN": "等级 4 尸爆（12 次）"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       }
     ]
   },
@@ -694,17 +694,6 @@
         "min": 25,
         "max": 50,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:Spirit of Barbs",
-        "label": {
-          "en": "Charges (Spirit of Barbs)",
-          "zh-TW": "充能次數 (荊棘之靈)",
-          "zh-CN": "充能次数 (荆棘之灵)"
-        },
-        "min": 33,
-        "max": 13,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -787,6 +776,17 @@
         },
         "value": 13,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:Spirit of Barbs",
+        "label": {
+          "en": "Level 13 Spirit of Barbs (33 Charges)",
+          "zh-TW": "等級 13 荊棘之靈（33 次）",
+          "zh-CN": "等级 13 荆棘之灵（33 次）"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       }
     ]
   },
@@ -1891,17 +1891,6 @@
         "min": 9,
         "max": 11,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:Summon Spirit Wolf",
-        "label": {
-          "en": "Charges (Summon Spirit Wolf)",
-          "zh-TW": "充能次數 (召喚幽靈狼)",
-          "zh-CN": "充能次数 (召唤幽灵狼)"
-        },
-        "min": 30,
-        "max": 18,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -1924,6 +1913,17 @@
         },
         "value": 1,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:Summon Spirit Wolf",
+        "label": {
+          "en": "Level 18 Summon Spirit Wolf (30 Charges)",
+          "zh-TW": "等級 18 召喚幽靈狼（30 次）",
+          "zh-CN": "等级 18 召唤幽灵狼（30 次）"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       },
       {
         "key": "hit-skill:Static Field",
@@ -2140,17 +2140,6 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "att-skill:Glacial Spike",
-        "label": {
-          "en": "Attack Rating (skill) (Glacial Spike)",
-          "zh-TW": "攻擊等級（技能） (冰川之槍)",
-          "zh-CN": "攻击等级（技能） (冰川之枪)"
-        },
-        "min": 25,
-        "max": 18,
-        "isSkillRef": true
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -2171,17 +2160,6 @@
         "min": 1,
         "max": 50,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:Blood Golem",
-        "label": {
-          "en": "Charges (Blood Golem)",
-          "zh-TW": "充能次數 (鮮血魔像)",
-          "zh-CN": "充能次数 (鲜血魔像)"
-        },
-        "min": 15,
-        "max": 22,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -2191,6 +2169,17 @@
           "en": "100% Chance to cast level 44 Chain Lightning on death",
           "zh-TW": "當你死亡時有 100% 機率施展等級 44 連鎖閃電",
           "zh-CN": "当你死亡时有 100% 机率施展等级 44 连锁闪电"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "att-skill:Glacial Spike",
+        "label": {
+          "en": "25% Chance to cast level 18 Glacial Spike on attack",
+          "zh-TW": "攻擊時有 25% 機率施展等級 18 冰川之槍",
+          "zh-CN": "攻击时有 25% 机率施展等级 18 冰川之枪"
         },
         "value": 0,
         "isSkillRef": false,
@@ -2267,6 +2256,17 @@
         "isSkillRef": false
       },
       {
+        "key": "charged:Blood Golem",
+        "label": {
+          "en": "Level 22 Blood Golem (15 Charges)",
+          "zh-TW": "等級 22 鮮血魔像（15 次）",
+          "zh-CN": "等级 22 鲜血魔像（15 次）"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
         "key": "ease",
         "label": {
           "en": "Requirements %",
@@ -2313,19 +2313,7 @@
     ],
     "levelReq": 51,
     "ladderOnly": false,
-    "stats": [
-      {
-        "key": "charged:Attract",
-        "label": {
-          "en": "Charges (Attract)",
-          "zh-TW": "充能次數 (致命吸引)",
-          "zh-CN": "充能次数 (致命吸引)"
-        },
-        "min": 60,
-        "max": 17,
-        "isSkillRef": true
-      }
-    ],
+    "stats": [],
     "fixedStats": [
       {
         "key": "gethit-skill:Delirium",
@@ -2420,6 +2408,17 @@
         },
         "value": 25,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:Attract",
+        "label": {
+          "en": "Level 17 Attract (60 Charges)",
+          "zh-TW": "等級 17 致命吸引（60 次）",
+          "zh-CN": "等级 17 致命吸引（60 次）"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       }
     ]
   },
@@ -2481,17 +2480,6 @@
         "min": 100,
         "max": 180,
         "isSkillRef": false
-      },
-      {
-        "key": "att-skill:Nova",
-        "label": {
-          "en": "Attack Rating (skill) (Nova)",
-          "zh-TW": "攻擊等級（技能） (閃電新星)",
-          "zh-CN": "攻击等级（技能） (闪电新星)"
-        },
-        "min": 15,
-        "max": 22,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -2522,6 +2510,17 @@
           "en": "100% Chance to cast level 45 Meteor on death",
           "zh-TW": "當你死亡時有 100% 機率施展等級 45 隕石術",
           "zh-CN": "当你死亡时有 100% 机率施展等级 45 陨石术"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "att-skill:Nova",
+        "label": {
+          "en": "15% Chance to cast level 22 Nova on attack",
+          "zh-TW": "攻擊時有 15% 機率施展等級 22 閃電新星",
+          "zh-CN": "攻击时有 15% 机率施展等级 22 闪电新星"
         },
         "value": 0,
         "isSkillRef": false,
@@ -3678,17 +3677,6 @@
         "min": 260,
         "max": 310,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:Revive",
-        "label": {
-          "en": "Charges (Revive)",
-          "zh-TW": "充能次數 (重生)",
-          "zh-CN": "充能次数 (重生)"
-        },
-        "min": 88,
-        "max": 8,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -3711,6 +3699,17 @@
         },
         "value": 33,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:Revive",
+        "label": {
+          "en": "Level 8 Revive (88 Charges)",
+          "zh-TW": "等級 8 重生（88 次）",
+          "zh-CN": "等级 8 重生（88 次）"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       },
       {
         "key": "regen",
@@ -5401,17 +5400,6 @@
         "min": 2,
         "max": 6,
         "isSkillRef": true
-      },
-      {
-        "key": "charged:Revive",
-        "label": {
-          "en": "Charges (Revive)",
-          "zh-TW": "充能次數 (重生)",
-          "zh-CN": "充能次数 (重生)"
-        },
-        "min": 25,
-        "max": 20,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -5484,6 +5472,17 @@
         },
         "value": 2,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:Revive",
+        "label": {
+          "en": "Level 20 Revive (25 Charges)",
+          "zh-TW": "等級 20 重生（25 次）",
+          "zh-CN": "等级 20 重生（25 次）"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       }
     ]
   },
@@ -5550,28 +5549,6 @@
         "min": 30,
         "max": 40,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:Oak Sage",
-        "label": {
-          "en": "Charges (Oak Sage)",
-          "zh-TW": "充能次數 (橡木智者)",
-          "zh-CN": "充能次数 (橡木智者)"
-        },
-        "min": 25,
-        "max": 4,
-        "isSkillRef": true
-      },
-      {
-        "key": "charged:Raven",
-        "label": {
-          "en": "Charges (Raven)",
-          "zh-TW": "充能次數 (掠鴉)",
-          "zh-CN": "充能次数 (掠鸦)"
-        },
-        "min": 60,
-        "max": 14,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -5654,6 +5631,28 @@
         },
         "value": 15,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:Oak Sage",
+        "label": {
+          "en": "Level 4 Oak Sage (25 Charges)",
+          "zh-TW": "等級 4 橡木智者（25 次）",
+          "zh-CN": "等级 4 橡木智者（25 次）"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "charged:Raven",
+        "label": {
+          "en": "Level 14 Raven (60 Charges)",
+          "zh-TW": "等級 14 掠鴉（60 次）",
+          "zh-CN": "等级 14 掠鸦（60 次）"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       }
     ]
   },
@@ -5833,17 +5832,6 @@
         "min": 21,
         "max": 110,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:Chain Lightning",
-        "label": {
-          "en": "Charges (Chain Lightning)",
-          "zh-TW": "充能次數 (連鎖閃電)",
-          "zh-CN": "充能次数 (连锁闪电)"
-        },
-        "min": 60,
-        "max": 7,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -5916,6 +5904,17 @@
         },
         "value": 3,
         "isSkillRef": true
+      },
+      {
+        "key": "charged:Chain Lightning",
+        "label": {
+          "en": "Level 7 Chain Lightning (60 Charges)",
+          "zh-TW": "等級 7 連鎖閃電（60 次）",
+          "zh-CN": "等级 7 连锁闪电（60 次）"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       }
     ]
   },
@@ -6476,17 +6475,6 @@
         "min": -55,
         "max": -45,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:Cyclone Armor",
-        "label": {
-          "en": "Charges (Cyclone Armor)",
-          "zh-TW": "充能次數 (氣旋護甲)",
-          "zh-CN": "充能次数 (气旋护甲)"
-        },
-        "min": 30,
-        "max": 21,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -6560,6 +6548,17 @@
         },
         "value": 30,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:Cyclone Armor",
+        "label": {
+          "en": "Level 21 Cyclone Armor (30 Charges)",
+          "zh-TW": "等級 21 氣旋護甲（30 次）",
+          "zh-CN": "等级 21 气旋护甲（30 次）"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       }
     ]
   },
@@ -7106,12 +7105,13 @@
       {
         "key": "att-skill:Charged Bolt",
         "label": {
-          "en": "Attack Rating (skill) (Charged Bolt)",
-          "zh-TW": "攻擊等級（技能） (電能彈)",
-          "zh-CN": "攻击等级（技能） (电能弹)"
+          "en": "20% Chance to cast level 20 Charged Bolt on attack",
+          "zh-TW": "攻擊時有 20% 機率施展等級 20 電能彈",
+          "zh-CN": "攻击时有 20% 机率施展等级 20 电能弹"
         },
-        "value": 20,
-        "isSkillRef": true
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       },
       {
         "key": "aura:Might",
@@ -8660,19 +8660,7 @@
     ],
     "levelReq": 13,
     "ladderOnly": false,
-    "stats": [
-      {
-        "key": "charged:Cloak of Shadows",
-        "label": {
-          "en": "Charges (Cloak of Shadows)",
-          "zh-TW": "充能次數 (魔影斗蓬)",
-          "zh-CN": "充能次数 (魔影斗蓬)"
-        },
-        "min": 9,
-        "max": 13,
-        "isSkillRef": true
-      }
-    ],
+    "stats": [],
     "fixedStats": [
       {
         "key": "ac%",
@@ -8703,6 +8691,17 @@
         },
         "value": 30,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:Cloak of Shadows",
+        "label": {
+          "en": "Level 13 Cloak of Shadows (9 Charges)",
+          "zh-TW": "等級 13 魔影斗蓬（9 次）",
+          "zh-CN": "等级 13 魔影斗蓬（9 次）"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       },
       {
         "key": "mana-kill",
@@ -8809,28 +8808,6 @@
         "min": 10,
         "max": 15,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:Heart of Wolverine",
-        "label": {
-          "en": "Charges (Heart of Wolverine)",
-          "zh-TW": "充能次數 (狼獾之心)",
-          "zh-CN": "充能次数 (狼獾之心)"
-        },
-        "min": 20,
-        "max": 16,
-        "isSkillRef": true
-      },
-      {
-        "key": "charged:Iron Golem",
-        "label": {
-          "en": "Charges (Iron Golem)",
-          "zh-TW": "充能次數 (鋼鐵魔像)",
-          "zh-CN": "充能次数 (钢铁魔像)"
-        },
-        "min": 14,
-        "max": 17,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -8904,6 +8881,28 @@
         },
         "value": 10,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:Heart of Wolverine",
+        "label": {
+          "en": "Level 16 Heart of Wolverine (20 Charges)",
+          "zh-TW": "等級 16 狼獾之心（20 次）",
+          "zh-CN": "等级 16 狼獾之心（20 次）"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "charged:Iron Golem",
+        "label": {
+          "en": "Level 17 Iron Golem (14 Charges)",
+          "zh-TW": "等級 17 鋼鐵魔像（14 次）",
+          "zh-CN": "等级 17 钢铁魔像（14 次）"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       }
     ]
   },
@@ -9349,17 +9348,6 @@
         "min": 1,
         "max": 50,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:Heart of Wolverine",
-        "label": {
-          "en": "Charges (Heart of Wolverine)",
-          "zh-TW": "充能次數 (狼獾之心)",
-          "zh-CN": "充能次数 (狼獾之心)"
-        },
-        "min": 12,
-        "max": 3,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -9442,6 +9430,17 @@
         },
         "value": 75,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:Heart of Wolverine",
+        "label": {
+          "en": "Level 3 Heart of Wolverine (12 Charges)",
+          "zh-TW": "等級 3 狼獾之心（12 次）",
+          "zh-CN": "等级 3 狼獾之心（12 次）"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       }
     ]
   },
@@ -10803,17 +10802,6 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "att-skill:Frozen Orb",
-        "label": {
-          "en": "Attack Rating (skill) (Frozen Orb)",
-          "zh-TW": "攻擊等級（技能） (冰封球)",
-          "zh-CN": "攻击等级（技能） (冰封球)"
-        },
-        "min": 16,
-        "max": 21,
-        "isSkillRef": true
-      },
-      {
         "key": "dmg-mag",
         "label": {
           "en": "Magic Damage",
@@ -10845,17 +10833,6 @@
         "min": 5,
         "max": 10,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:Iron Maiden",
-        "label": {
-          "en": "Charges (Iron Maiden)",
-          "zh-TW": "充能次數 (攻擊反噬)",
-          "zh-CN": "充能次数 (攻击反噬)"
-        },
-        "min": 40,
-        "max": 15,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -10865,6 +10842,17 @@
           "en": "20% Chance to cast level 16 Tornado on striking",
           "zh-TW": "擊中時有 20% 機率施展等級 16 龍捲風",
           "zh-CN": "击中时有 20% 机率施展等级 16 龙卷风"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "att-skill:Frozen Orb",
+        "label": {
+          "en": "16% Chance to cast level 21 Frozen Orb on attack",
+          "zh-TW": "攻擊時有 16% 機率施展等級 21 冰封球",
+          "zh-CN": "攻击时有 16% 机率施展等级 21 冰封球"
         },
         "value": 0,
         "isSkillRef": false,
@@ -10909,6 +10897,17 @@
         },
         "value": 75,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:Iron Maiden",
+        "label": {
+          "en": "Level 15 Iron Maiden (40 Charges)",
+          "zh-TW": "等級 15 攻擊反噬（40 次）",
+          "zh-CN": "等级 15 攻击反噬（40 次）"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       },
       {
         "key": "ease",
@@ -11104,17 +11103,6 @@
         "min": 50,
         "max": 70,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:Slow Missiles",
-        "label": {
-          "en": "Charges (Slow Missiles)",
-          "zh-TW": "充能次數 (緩箭術)",
-          "zh-CN": "充能次数 (缓箭术)"
-        },
-        "min": 60,
-        "max": 12,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -11177,6 +11165,17 @@
         },
         "value": 7,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:Slow Missiles",
+        "label": {
+          "en": "Level 12 Slow Missiles (60 Charges)",
+          "zh-TW": "等級 12 緩箭術（60 次）",
+          "zh-CN": "等级 12 缓箭术（60 次）"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       }
     ]
   },
@@ -11396,19 +11395,7 @@
     ],
     "levelReq": 37,
     "ladderOnly": false,
-    "stats": [
-      {
-        "key": "charged:Weaken",
-        "label": {
-          "en": "Charges (Weaken)",
-          "zh-TW": "充能次數 (削弱)",
-          "zh-CN": "充能次数 (削弱)"
-        },
-        "min": 18,
-        "max": 6,
-        "isSkillRef": true
-      }
-    ],
+    "stats": [],
     "fixedStats": [
       {
         "key": "ac%",
@@ -11449,6 +11436,17 @@
         },
         "value": 20,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:Weaken",
+        "label": {
+          "en": "Level 6 Weaken (18 Charges)",
+          "zh-TW": "等級 6 削弱（18 次）",
+          "zh-CN": "等级 6 削弱（18 次）"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       },
       {
         "key": "enr",
@@ -12076,17 +12074,6 @@
         "min": 250,
         "max": 290,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:Molten Boulder",
-        "label": {
-          "en": "Charges (Molten Boulder)",
-          "zh-TW": "充能次數 (熔火巨石)",
-          "zh-CN": "充能次数 (熔火巨石)"
-        },
-        "min": 80,
-        "max": 16,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -12151,14 +12138,26 @@
         "isSkillRef": false
       },
       {
+        "key": "charged:Molten Boulder",
+        "label": {
+          "en": "Level 16 Molten Boulder (80 Charges)",
+          "zh-TW": "等級 16 熔火巨石（80 次）",
+          "zh-CN": "等级 16 熔火巨石（80 次）"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
         "key": "charged:Clay Golem",
         "label": {
-          "en": "Charges (Clay Golem)",
-          "zh-TW": "充能次數 (黏土魔像)",
-          "zh-CN": "充能次数 (黏土魔像)"
+          "en": "Level 16 Clay Golem (16 Charges)",
+          "zh-TW": "等級 16 黏土魔像（16 次）",
+          "zh-CN": "等级 16 黏土魔像（16 次）"
         },
-        "value": 16,
-        "isSkillRef": true
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       }
     ]
   },
@@ -12716,30 +12715,7 @@
     ],
     "levelReq": 49,
     "ladderOnly": false,
-    "stats": [
-      {
-        "key": "charged:Poison Explosion",
-        "label": {
-          "en": "Charges (Poison Explosion)",
-          "zh-TW": "充能次數 (毒爆)",
-          "zh-CN": "充能次数 (毒爆)"
-        },
-        "min": 27,
-        "max": 15,
-        "isSkillRef": true
-      },
-      {
-        "key": "charged:Poison Nova",
-        "label": {
-          "en": "Charges (Poison Nova)",
-          "zh-TW": "充能次數 (劇毒新星)",
-          "zh-CN": "充能次数 (剧毒新星)"
-        },
-        "min": 11,
-        "max": 13,
-        "isSkillRef": true
-      }
-    ],
+    "stats": [],
     "fixedStats": [
       {
         "key": "howl",
@@ -12780,6 +12756,28 @@
         },
         "value": 7,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:Poison Explosion",
+        "label": {
+          "en": "Level 15 Poison Explosion (27 Charges)",
+          "zh-TW": "等級 15 毒爆（27 次）",
+          "zh-CN": "等级 15 毒爆（27 次）"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "charged:Poison Nova",
+        "label": {
+          "en": "Level 13 Poison Nova (11 Charges)",
+          "zh-TW": "等級 13 劇毒新星（11 次）",
+          "zh-CN": "等级 13 剧毒新星（11 次）"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       },
       {
         "key": "pois-dot",
@@ -13172,17 +13170,6 @@
         "min": 3,
         "max": 14,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:Decrepify",
-        "label": {
-          "en": "Charges (Decrepify)",
-          "zh-TW": "充能次數 (衰老)",
-          "zh-CN": "充能次数 (衰老)"
-        },
-        "min": 35,
-        "max": 4,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -13225,6 +13212,17 @@
         },
         "value": 30,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:Decrepify",
+        "label": {
+          "en": "Level 4 Decrepify (35 Charges)",
+          "zh-TW": "等級 4 衰老（35 次）",
+          "zh-CN": "等级 4 衰老（35 次）"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       }
     ]
   },
@@ -13470,17 +13468,6 @@
         "min": 120,
         "max": 160,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:Twister",
-        "label": {
-          "en": "Charges (Twister)",
-          "zh-TW": "充能次數 (旋風術)",
-          "zh-CN": "充能次数 (旋风术)"
-        },
-        "min": 127,
-        "max": 13,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -13564,6 +13551,17 @@
         },
         "value": 1,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:Twister",
+        "label": {
+          "en": "Level 13 Twister (127 Charges)",
+          "zh-TW": "等級 13 旋風術（127 次）",
+          "zh-CN": "等级 13 旋风术（127 次）"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       }
     ]
   },

@@ -41,7 +41,10 @@ export interface RawGrailItem {
   grade: 'normal' | 'exceptional' | 'elite';
   slotCategory: string;
   defense: { min: number; max: number } | null;
+  oneHandDamage: { min: number; max: number } | null;
+  twoHandDamage: { min: number; max: number } | null;
   requiredStrength: number | null;
+  requiredDexterity: number | null;
   durability: number | null;
   invFile: string;
   stats: RawGrailStat[];
@@ -80,7 +83,10 @@ export interface GrailItem {
   grade: 'normal' | 'exceptional' | 'elite';
   slotCategory: string;
   defense: { min: number; max: number } | null;
+  oneHandDamage: { min: number; max: number } | null;
+  twoHandDamage: { min: number; max: number } | null;
   requiredStrength: number | null;
+  requiredDexterity: number | null;
   durability: number | null;
   invFile: string;
   stats: GrailStat[];
@@ -109,7 +115,10 @@ export function localizeGrailItem(item: RawGrailItem, locale: Locale): GrailItem
     grade: item.grade,
     slotCategory: item.slotCategory,
     defense: item.defense,
+    oneHandDamage: item.oneHandDamage,
+    twoHandDamage: item.twoHandDamage,
     requiredStrength: item.requiredStrength,
+    requiredDexterity: item.requiredDexterity,
     durability: item.durability,
     invFile: item.invFile,
     stats: item.stats.map(s => ({ key: s.key, label: s.label[locale], min: s.min, max: s.max, isSkillRef: s.isSkillRef, composed: s.composed })),

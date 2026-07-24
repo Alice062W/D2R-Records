@@ -35,7 +35,7 @@ const PROP_LABELS_EN = {
   'dmg-norm': 'Damage', 'dmg-fire': 'Fire Damage', 'dmg-cold': 'Cold Damage',
   'dmg-ltng': 'Lightning Damage', 'dmg-pois': 'Poison Damage', 'dmg-undead': 'Damage to Undead',
   'dmg-demon': 'Damage to Demons',
-  att: 'Attack Rating', 'att%': 'Attack Rating %', 'att-skill': 'Attack Rating (skill)',
+  att: 'Attack Rating', 'att%': 'Attack Rating %',
   'att-undead': 'Attack Rating vs. Undead', 'att-demon': 'Attack Rating vs. Demons',
   crush: 'Crushing Blow %', deadly: 'Deadly Strike %', openwounds: 'Open Wounds %',
   thorns: 'Attacker Takes Damage', ease: 'Requirements %',
@@ -175,7 +175,7 @@ const PROP_LABELS_ZH_TW = {
   'dmg-norm': '傷害', 'dmg-fire': '火焰傷害', 'dmg-cold': '冷凍傷害',
   'dmg-ltng': '閃電傷害', 'dmg-pois': '毒素傷害', 'dmg-undead': '對不死系傷害',
   'dmg-demon': '對惡魔傷害',
-  att: '攻擊等級', 'att%': '攻擊等級 %', 'att-skill': '攻擊等級（技能）',
+  att: '攻擊等級', 'att%': '攻擊等級 %',
   'att-undead': '對不死系攻擊等級', 'att-demon': '對惡魔攻擊等級',
   crush: '破碎打擊 %', deadly: '致命一擊 %', openwounds: '撕裂傷口 %',
   thorns: '攻擊者承受傷害', ease: '需求 %',
@@ -426,14 +426,20 @@ function localizedLabelWithSkill(code, par) {
 // cast level 15 Miasma Chain on striking" / "擊中時有 10% 機率施展等級 15
 // 瘴氣鎖鏈" — zh-TW picked the majority (34 vs 4) attested wording for
 // hit-skill's trigger where the dump had two inconsistent translations).
-const CHANCE_TO_CAST_CODES = new Set(['hit-skill', 'gethit-skill', 'death-skill', 'levelup-skill', 'kill-skill']);
+// `att-skill` is a distinct chance-to-cast-on-attack mechanic from `hit-skill`
+// (chance-to-cast-on-striking) — same min%/max-level shape but a different
+// trigger phrase. Confirmed against d2r.world's Todesfaelle Flamme
+// ("10% Chance to cast level 6 Fire Ball on attack" / zh-TW "攻擊時有 10%
+// 機率施展等級 6 火球術") and Opalvein ("2% Chance to cast level 15 Flame Wave
+// on attack" / zh-TW "攻擊時有 2% 機率施展等級 15 烈焰湧浪") this session.
+const CHANCE_TO_CAST_CODES = new Set(['hit-skill', 'gethit-skill', 'death-skill', 'levelup-skill', 'kill-skill', 'att-skill']);
 const CHANCE_TO_CAST_TRIGGER_EN = {
   'hit-skill': 'on striking', 'gethit-skill': 'when struck', 'death-skill': 'on death',
-  'levelup-skill': 'on level up', 'kill-skill': 'on kill',
+  'levelup-skill': 'on level up', 'kill-skill': 'on kill', 'att-skill': 'on attack',
 };
 const CHANCE_TO_CAST_TRIGGER_ZH_TW = {
   'hit-skill': '擊中時', 'gethit-skill': '被擊中時', 'death-skill': '當你死亡時',
-  'levelup-skill': '當你升級時', 'kill-skill': '當你殺敵時',
+  'levelup-skill': '當你升級時', 'kill-skill': '當你殺敵時', 'att-skill': '攻擊時',
 };
 function chanceToCastEntry(code, par, min, max) {
   if (!CHANCE_TO_CAST_CODES.has(code) || min === undefined || max === undefined) return null;
@@ -444,6 +450,27 @@ function chanceToCastEntry(code, par, min, max) {
       en: `${min}% Chance to cast level ${max} ${skill.en} ${CHANCE_TO_CAST_TRIGGER_EN[code]}`,
       'zh-TW': zhTw,
       'zh-CN': toZhCn(zhTw),
+    },
+    composed: true,
+  };
+}
+
+// Same shape of bug as chanceToCastEntry above: the "charged" code's two
+// vendor numbers are `charges = min` and `skill level = max`, not a real
+// min/max range. Confirmed against d2r.world's Bonehew (par='Corpse
+// Explosion', min=30, max=14) this session, which shows "Level 14 Corpse
+// Explosion (30 Charges)" — previously rendered as "Charges (Corpse
+// Explosion): 30–14 🎲". Trigger-agnostic wording confirmed against
+// MyInput/MyData/runewords_all's en-US/zh-TW dumps (e.g. "Level 4 / Corpse
+// Explosion / (12 Charges)" / "等級 4 / 屍爆 / （12 次）").
+function chargedEntry(code, par, min, max) {
+  if (code !== 'charged' || min === undefined || max === undefined) return null;
+  const skill = localizedSkillName(par);
+  return {
+    label: {
+      en: `Level ${max} ${skill.en} (${min} Charges)`,
+      'zh-TW': `等級 ${max} ${skill['zh-TW']}（${min} 次）`,
+      'zh-CN': `等级 ${max} ${skill['zh-CN']}（${min} 次）`,
     },
     composed: true,
   };
@@ -725,6 +752,14 @@ function baseFieldsFor(code) {
       ? { min: base.minac, max: base.maxac }
       : null,
     requiredStrength: base?.reqstr ?? null,
+    // requiredDexterity/one-hand/two-hand damage: baseGradeFor() (used for the
+    // separate Base Items comparison table) already extracted these same
+    // vendor fields via damageFor() — they were just never wired into
+    // unique/set item generation. Confirmed against d2r.world's Bonehew page
+    // this session (needs Dex: 75, Two-Hand Damage: 28-145) which our site
+    // previously omitted entirely for every weapon-type unique/set item.
+    requiredDexterity: base?.reqdex ?? null,
+    ...(base ? damageFor(base) : { oneHandDamage: null, twoHandDamage: null }),
     durability: base?.durability ?? null,
   };
 }
@@ -889,6 +924,11 @@ function extractProps(entry, count, prefixes = { code: 'prop', par: 'par', min: 
       fixed.push({ key, label: chanceToCast.label, value: null, isSkillRef: false, composed: true });
       continue;
     }
+    const charged = chargedEntry(code, par, min, max);
+    if (charged) {
+      fixed.push({ key, label: charged.label, value: null, isSkillRef: false, composed: true });
+      continue;
+    }
     const dmgPois = scaleDmgPoisWithPar(code, par, min, max);
     const effectiveLabel = dmgPois ? dmgPois.label : label;
     if (dmgPois) ({ min, max } = dmgPois);
@@ -933,6 +973,11 @@ function extractSetBonuses(entry) {
       const chanceToCast = chanceToCastEntry(code, par, min, max);
       if (chanceToCast) {
         bonuses.push({ key, label: chanceToCast.label, min: 0, max: 0, isSkillRef: false, composed: true });
+        continue;
+      }
+      const charged = chargedEntry(code, par, min, max);
+      if (charged) {
+        bonuses.push({ key, label: charged.label, min: 0, max: 0, isSkillRef: false, composed: true });
         continue;
       }
       const dmgPois = scaleDmgPoisWithPar(code, par, min, max);
@@ -1263,6 +1308,10 @@ const setGroupsOut = Object.values(setsFullData)
         if (chanceToCast) {
           return [{ key, label: chanceToCast.label, min: 0, max: 0, isSkillRef: false, composed: true }];
         }
+        const charged = chargedEntry(code, par, min, max);
+        if (charged) {
+          return [{ key, label: charged.label, min: 0, max: 0, isSkillRef: false, composed: true }];
+        }
         const dmgPois = scaleDmgPoisWithPar(code, par, min, max);
         const effectiveLabel = dmgPois ? dmgPois.label : label;
         if (dmgPois) ({ min, max } = dmgPois);
@@ -1299,6 +1348,11 @@ const setGroupsOut = Object.values(setsFullData)
       const chanceToCast = chanceToCastEntry(code, par, min, max);
       if (chanceToCast) {
         fullSetBonuses.push({ key, label: chanceToCast.label, min: 0, max: 0, isSkillRef: false, composed: true });
+        continue;
+      }
+      const charged = chargedEntry(code, par, min, max);
+      if (charged) {
+        fullSetBonuses.push({ key, label: charged.label, min: 0, max: 0, isSkillRef: false, composed: true });
         continue;
       }
       const dmgPois = scaleDmgPoisWithPar(code, par, min, max);
@@ -1458,6 +1512,10 @@ function rwStat(code, min, max, par) {
   const chanceToCast = chanceToCastEntry(resolvedCode, par, min, max);
   if (chanceToCast) {
     return { key, label: chanceToCast.label, min: 0, max: 0, isSkillRef: false, composed: true };
+  }
+  const charged = chargedEntry(resolvedCode, par, min, max);
+  if (charged) {
+    return { key, label: charged.label, min: 0, max: 0, isSkillRef: false, composed: true };
   }
   const isSkillRef = SKILL_REF_PROPS.has(resolvedCode);
   const label = isSkillRef ? localizedLabelWithSkill(resolvedCode, par) : localizedLabelFor(resolvedCode);
@@ -2928,6 +2986,11 @@ function runeStatsFor(entry, prefix) {
       fixed.push({ key, label: chanceToCast.label, value: 0, isSkillRef: false, composed: true });
       continue;
     }
+    const charged = chargedEntry(code, par, min, max);
+    if (charged) {
+      fixed.push({ key, label: charged.label, value: 0, isSkillRef: false, composed: true });
+      continue;
+    }
     // dmg-pois carries a par-encoded duration (frames) rather than being a
     // literal displayed min/max, same as everywhere else in this file (see
     // scaleDmgPoisWithPar above) — Tal Rune's weapon mod is exactly this case:
@@ -3014,6 +3077,11 @@ function extractCraftModProps(entry, count) {
     const chanceToCast = chanceToCastEntry(code, par, min, max);
     if (chanceToCast) {
       fixed.push({ key, label: chanceToCast.label, value: null, isSkillRef: false, composed: true });
+      continue;
+    }
+    const charged = chargedEntry(code, par, min, max);
+    if (charged) {
+      fixed.push({ key, label: charged.label, value: null, isSkillRef: false, composed: true });
       continue;
     }
     if (min !== undefined && max !== undefined) {

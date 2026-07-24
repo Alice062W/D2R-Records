@@ -10,7 +10,7 @@ describe('SetGroupDetail', () => {
     const piece: GrailItem = {
       id: 'set-1', code: 'xxx', name: "Aldur's Advance", kind: 'set', setName: "Aldur's Watchtower",
       levelReq: 45, baseName: 'Battle Boots', grade: 'exceptional', slotCategory: 'boots',
-      defense: null, requiredStrength: 95, durability: 18, invFile: '',
+      defense: null, oneHandDamage: null, twoHandDamage: null, requiredStrength: 95, requiredDexterity: null, durability: 18, invFile: '',
       stats: [], fixedStats: [], setBonuses: [], statPriority: [], note: null, statPools: [],
     };
     render(
@@ -33,7 +33,7 @@ describe('SetGroupDetail', () => {
     const piece: GrailItem = {
       id: 'set-2', code: 'yyy', name: 'Tal Rasha Piece', kind: 'set', setName: 'Tal Rasha',
       levelReq: 65, baseName: 'Crystal', grade: 'exceptional', slotCategory: 'orb',
-      defense: null, requiredStrength: null, durability: 50, invFile: '',
+      defense: null, oneHandDamage: null, twoHandDamage: null, requiredStrength: null, requiredDexterity: null, durability: 50, invFile: '',
       stats: [], fixedStats: [], setBonuses: [], statPriority: [], note: null, statPools: [],
     };
     render(
@@ -59,7 +59,7 @@ describe('SetGroupDetail — collected/missing filter', () => {
   const pieceA: GrailItem = {
     id: 'set-1', code: 'a', name: 'Piece A', kind: 'set', setName: 'Test Set',
     levelReq: 1, baseName: 'Boots', grade: 'exceptional', slotCategory: 'boots',
-    defense: null, requiredStrength: null, durability: null, invFile: '',
+    defense: null, oneHandDamage: null, twoHandDamage: null, requiredStrength: null, requiredDexterity: null, durability: null, invFile: '',
     stats: [], fixedStats: [], setBonuses: [], statPriority: [], note: null, statPools: [],
   };
   const pieceB: GrailItem = { ...pieceA, id: 'set-2', name: 'Piece B' };

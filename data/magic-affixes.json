@@ -31048,9 +31048,9 @@
       {
         "key": "att-skill:36",
         "label": {
-          "en": "Attack Rating (skill) (Fire Bolt)",
-          "zh-TW": "攻擊等級（技能） (火彈)",
-          "zh-CN": "攻击等级（技能） (火弹)"
+          "en": "att-skill (Fire Bolt)",
+          "zh-TW": "att-skill (火彈)",
+          "zh-CN": "att-skill (火弹)"
         },
         "min": 5,
         "max": 3,
@@ -31095,9 +31095,9 @@
       {
         "key": "att-skill:36",
         "label": {
-          "en": "Attack Rating (skill) (Fire Bolt)",
-          "zh-TW": "攻擊等級（技能） (火彈)",
-          "zh-CN": "攻击等级（技能） (火弹)"
+          "en": "att-skill (Fire Bolt)",
+          "zh-TW": "att-skill (火彈)",
+          "zh-CN": "att-skill (火弹)"
         },
         "min": 10,
         "max": 4,
@@ -31262,9 +31262,9 @@
       {
         "key": "att-skill:39",
         "label": {
-          "en": "Attack Rating (skill) (Ice Bolt)",
-          "zh-TW": "攻擊等級（技能） (冰彈)",
-          "zh-CN": "攻击等级（技能） (冰弹)"
+          "en": "att-skill (Ice Bolt)",
+          "zh-TW": "att-skill (冰彈)",
+          "zh-CN": "att-skill (冰弹)"
         },
         "min": 5,
         "max": 3,
@@ -31559,9 +31559,9 @@
       {
         "key": "att-skill:49",
         "label": {
-          "en": "Attack Rating (skill) (Lightning)",
-          "zh-TW": "攻擊等級（技能） (閃電)",
-          "zh-CN": "攻击等级（技能） (闪电)"
+          "en": "att-skill (Lightning)",
+          "zh-TW": "att-skill (閃電)",
+          "zh-CN": "att-skill (闪电)"
         },
         "min": 5,
         "max": 3,
@@ -31655,9 +31655,9 @@
       {
         "key": "att-skill:53",
         "label": {
-          "en": "Attack Rating (skill) (Chain Lightning)",
-          "zh-TW": "攻擊等級（技能） (連鎖閃電)",
-          "zh-CN": "攻击等级（技能） (连锁闪电)"
+          "en": "att-skill (Chain Lightning)",
+          "zh-TW": "att-skill (連鎖閃電)",
+          "zh-CN": "att-skill (连锁闪电)"
         },
         "min": 5,
         "max": 3,
@@ -31704,9 +31704,9 @@
       {
         "key": "att-skill:53",
         "label": {
-          "en": "Attack Rating (skill) (Chain Lightning)",
-          "zh-TW": "攻擊等級（技能） (連鎖閃電)",
-          "zh-CN": "攻击等级（技能） (连锁闪电)"
+          "en": "att-skill (Chain Lightning)",
+          "zh-TW": "att-skill (連鎖閃電)",
+          "zh-CN": "att-skill (连锁闪电)"
         },
         "min": 8,
         "max": 3,
@@ -31753,9 +31753,9 @@
       {
         "key": "att-skill:53",
         "label": {
-          "en": "Attack Rating (skill) (Chain Lightning)",
-          "zh-TW": "攻擊等級（技能） (連鎖閃電)",
-          "zh-CN": "攻击等级（技能） (连锁闪电)"
+          "en": "att-skill (Chain Lightning)",
+          "zh-TW": "att-skill (連鎖閃電)",
+          "zh-CN": "att-skill (连锁闪电)"
         },
         "min": 8,
         "max": 5,

@@ -19,6 +19,12 @@
     "slotCategory": "axes",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 3,
+      "max": 6
+    },
+    "twoHandDamage": null,
     "durability": 28,
     "invFile": "invhaxu",
     "stats": [
@@ -93,6 +99,12 @@
     "slotCategory": "axes",
     "defense": null,
     "requiredStrength": 32,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 4,
+      "max": 11
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invaxeu",
     "stats": [
@@ -177,6 +189,12 @@
     "slotCategory": "axes",
     "defense": null,
     "requiredStrength": 43,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 5,
+      "max": 13
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "inv2ax",
     "stats": [
@@ -281,6 +299,12 @@
     "slotCategory": "axes",
     "defense": null,
     "requiredStrength": 49,
+    "requiredDexterity": 33,
+    "oneHandDamage": {
+      "min": 7,
+      "max": 11
+    },
+    "twoHandDamage": null,
     "durability": 26,
     "invFile": "invmpiu",
     "stats": [
@@ -389,6 +413,12 @@
     "slotCategory": "axes",
     "defense": null,
     "requiredStrength": 67,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 10,
+      "max": 18
+    },
+    "twoHandDamage": null,
     "durability": 26,
     "invFile": "invwax",
     "stats": [
@@ -473,6 +503,12 @@
     "slotCategory": "axes",
     "defense": null,
     "requiredStrength": 35,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 6,
+      "max": 13
+    },
     "durability": 30,
     "invFile": "invlax",
     "stats": [
@@ -547,6 +583,12 @@
     "slotCategory": "axes",
     "defense": null,
     "requiredStrength": 48,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 10,
+      "max": 18
+    },
     "durability": 35,
     "invFile": "invbrx",
     "stats": [
@@ -631,6 +673,12 @@
     "slotCategory": "axes",
     "defense": null,
     "requiredStrength": 54,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 12,
+      "max": 32
+    },
     "durability": 40,
     "invFile": "invbtxu",
     "stats": [
@@ -717,6 +765,12 @@
     "slotCategory": "axes",
     "defense": null,
     "requiredStrength": 63,
+    "requiredDexterity": 39,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 9,
+      "max": 30
+    },
     "durability": 50,
     "invFile": "invgaxu",
     "stats": [
@@ -815,6 +869,12 @@
     "slotCategory": "axes",
     "defense": null,
     "requiredStrength": 70,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 22,
+      "max": 45
+    },
     "durability": 50,
     "invFile": "invgix",
     "stats": [
@@ -913,6 +973,12 @@
     "slotCategory": "wands",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 2,
+      "max": 4
+    },
+    "twoHandDamage": null,
     "durability": 15,
     "invFile": "invwndu",
     "stats": [
@@ -1007,6 +1073,12 @@
     "slotCategory": "wands",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 2,
+      "max": 8
+    },
+    "twoHandDamage": null,
     "durability": 15,
     "invFile": "invywn",
     "stats": [
@@ -1137,6 +1209,12 @@
     "slotCategory": "wands",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 3,
+      "max": 7
+    },
+    "twoHandDamage": null,
     "durability": 15,
     "invFile": "invbwnu",
     "stats": [
@@ -1251,6 +1329,12 @@
     "slotCategory": "wands",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 5,
+      "max": 11
+    },
+    "twoHandDamage": null,
     "durability": 15,
     "invFile": "invgwn",
     "stats": [],
@@ -1341,6 +1425,12 @@
     "slotCategory": "clubs",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 1,
+      "max": 6
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invclbu",
     "stats": [
@@ -1435,6 +1525,12 @@
     "slotCategory": "scepters",
     "defense": null,
     "requiredStrength": 25,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 6,
+      "max": 11
+    },
+    "twoHandDamage": null,
     "durability": 50,
     "invFile": "invscp",
     "stats": [
@@ -1529,6 +1625,12 @@
     "slotCategory": "scepters",
     "defense": null,
     "requiredStrength": 37,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 8,
+      "max": 18
+    },
+    "twoHandDamage": null,
     "durability": 60,
     "invFile": "invgsc",
     "stats": [
@@ -1649,6 +1751,12 @@
     "slotCategory": "scepters",
     "defense": null,
     "requiredStrength": 55,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 10,
+      "max": 17
+    },
+    "twoHandDamage": null,
     "durability": 70,
     "invFile": "invwsp",
     "stats": [
@@ -1759,6 +1867,12 @@
     "slotCategory": "clubs",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 5,
+      "max": 8
+    },
+    "twoHandDamage": null,
     "durability": 36,
     "invFile": "invspcu",
     "stats": [
@@ -1833,6 +1947,12 @@
     "slotCategory": "maces",
     "defense": null,
     "requiredStrength": 27,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 3,
+      "max": 10
+    },
+    "twoHandDamage": null,
     "durability": 60,
     "invFile": "invmac",
     "stats": [
@@ -1927,6 +2047,12 @@
     "slotCategory": "maces",
     "defense": null,
     "requiredStrength": 36,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 7,
+      "max": 16
+    },
+    "twoHandDamage": null,
     "durability": 72,
     "invFile": "invmstu",
     "stats": [],
@@ -2027,6 +2153,12 @@
     "slotCategory": "maces",
     "defense": null,
     "requiredStrength": 41,
+    "requiredDexterity": 35,
+    "oneHandDamage": {
+      "min": 1,
+      "max": 24
+    },
+    "twoHandDamage": null,
     "durability": 30,
     "invFile": "invfla",
     "stats": [
@@ -2131,6 +2263,12 @@
     "slotCategory": "hammers",
     "defense": null,
     "requiredStrength": 53,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 19,
+      "max": 29
+    },
+    "twoHandDamage": null,
     "durability": 55,
     "invFile": "invwhm",
     "stats": [
@@ -2227,6 +2365,12 @@
     "slotCategory": "hammers",
     "defense": null,
     "requiredStrength": 69,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 30,
+      "max": 43
+    },
     "durability": 60,
     "invFile": "invmauu",
     "stats": [
@@ -2311,6 +2455,12 @@
     "slotCategory": "hammers",
     "defense": null,
     "requiredStrength": 99,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 38,
+      "max": 58
+    },
     "durability": 60,
     "invFile": "invgma",
     "stats": [
@@ -2385,6 +2535,12 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 2,
+      "max": 7
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invssd",
     "stats": [],
@@ -2475,6 +2631,12 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": 21,
+    "oneHandDamage": {
+      "min": 2,
+      "max": 6
+    },
+    "twoHandDamage": null,
     "durability": 22,
     "invFile": "invscmu",
     "stats": [
@@ -2579,6 +2741,12 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 25,
+    "requiredDexterity": 25,
+    "oneHandDamage": {
+      "min": 3,
+      "max": 8
+    },
+    "twoHandDamage": null,
     "durability": 32,
     "invFile": "inv9sbu",
     "stats": [
@@ -2673,6 +2841,12 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 33,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 9,
+      "max": 17
+    },
+    "twoHandDamage": null,
     "durability": 32,
     "invFile": "invflcu",
     "stats": [
@@ -2769,6 +2943,12 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 48,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 7,
+      "max": 14
+    },
+    "twoHandDamage": null,
     "durability": 32,
     "invFile": "invbsdu",
     "stats": [
@@ -2877,6 +3057,12 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 55,
+    "requiredDexterity": 39,
+    "oneHandDamage": {
+      "min": 3,
+      "max": 19
+    },
+    "twoHandDamage": null,
     "durability": 44,
     "invFile": "invlsdu",
     "stats": [
@@ -2975,6 +3161,12 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 71,
+    "requiredDexterity": 45,
+    "oneHandDamage": {
+      "min": 8,
+      "max": 20
+    },
+    "twoHandDamage": null,
     "durability": 44,
     "invFile": "invwsd",
     "stats": [
@@ -3069,6 +3261,15 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 35,
+    "requiredDexterity": 27,
+    "oneHandDamage": {
+      "min": 2,
+      "max": 9
+    },
+    "twoHandDamage": {
+      "min": 8,
+      "max": 17
+    },
     "durability": 44,
     "invFile": "inv2hsu",
     "stats": [
@@ -3163,6 +3364,15 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 47,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 5,
+      "max": 12
+    },
+    "twoHandDamage": {
+      "min": 13,
+      "max": 30
+    },
     "durability": 50,
     "invFile": "invclm",
     "stats": [
@@ -3249,6 +3459,15 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 56,
+    "requiredDexterity": 34,
+    "oneHandDamage": {
+      "min": 3,
+      "max": 16
+    },
+    "twoHandDamage": {
+      "min": 9,
+      "max": 28
+    },
     "durability": 50,
     "invFile": "invgisu",
     "stats": [
@@ -3347,6 +3566,15 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 62,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 7,
+      "max": 19
+    },
+    "twoHandDamage": {
+      "min": 20,
+      "max": 28
+    },
     "durability": 40,
     "invFile": "invbswu",
     "stats": [
@@ -3441,6 +3669,15 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 70,
+    "requiredDexterity": 49,
+    "oneHandDamage": {
+      "min": 9,
+      "max": 15
+    },
+    "twoHandDamage": {
+      "min": 13,
+      "max": 26
+    },
     "durability": 50,
     "invFile": "invflb",
     "stats": [
@@ -3515,6 +3752,15 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 100,
+    "requiredDexterity": 60,
+    "oneHandDamage": {
+      "min": 12,
+      "max": 20
+    },
+    "twoHandDamage": {
+      "min": 25,
+      "max": 42
+    },
     "durability": 50,
     "invFile": "invgsdu",
     "stats": [
@@ -3609,6 +3855,12 @@
     "slotCategory": "daggers",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 1,
+      "max": 4
+    },
+    "twoHandDamage": null,
     "durability": 16,
     "invFile": "invdgr",
     "stats": [],
@@ -3679,6 +3931,12 @@
     "slotCategory": "daggers",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": 25,
+    "oneHandDamage": {
+      "min": 3,
+      "max": 9
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "invdir",
     "stats": [],
@@ -3769,6 +4027,12 @@
     "slotCategory": "daggers",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": 45,
+    "oneHandDamage": {
+      "min": 2,
+      "max": 11
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invkrsu",
     "stats": [
@@ -3853,6 +4117,12 @@
     "slotCategory": "daggers",
     "defense": null,
     "requiredStrength": 35,
+    "requiredDexterity": 51,
+    "oneHandDamage": {
+      "min": 4,
+      "max": 15
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invbld",
     "stats": [],
@@ -3923,6 +4193,12 @@
     "slotCategory": "spears",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": 20,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 3,
+      "max": 15
+    },
     "durability": 30,
     "invFile": "invspr",
     "stats": [
@@ -4007,6 +4283,12 @@
     "slotCategory": "spears",
     "defense": null,
     "requiredStrength": 38,
+    "requiredDexterity": 24,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 9,
+      "max": 15
+    },
     "durability": 35,
     "invFile": "invtriu",
     "stats": [
@@ -4101,6 +4383,12 @@
     "slotCategory": "spears",
     "defense": null,
     "requiredStrength": 40,
+    "requiredDexterity": 50,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 7,
+      "max": 17
+    },
     "durability": 28,
     "invFile": "invbrn",
     "stats": [
@@ -4187,6 +4475,12 @@
     "slotCategory": "spears",
     "defense": null,
     "requiredStrength": 54,
+    "requiredDexterity": 35,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 15,
+      "max": 23
+    },
     "durability": 28,
     "invFile": "invspt",
     "stats": [],
@@ -4267,6 +4561,12 @@
     "slotCategory": "spears",
     "defense": null,
     "requiredStrength": 60,
+    "requiredDexterity": 45,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 14,
+      "max": 63
+    },
     "durability": 25,
     "invFile": "invpik",
     "stats": [
@@ -4381,6 +4681,12 @@
     "slotCategory": "polearms",
     "defense": null,
     "requiredStrength": 40,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 1,
+      "max": 27
+    },
     "durability": 50,
     "invFile": "invbar",
     "stats": [],
@@ -4451,6 +4757,12 @@
     "slotCategory": "polearms",
     "defense": null,
     "requiredStrength": 50,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 6,
+      "max": 21
+    },
     "durability": 50,
     "invFile": "invvou",
     "stats": [
@@ -4547,6 +4859,12 @@
     "slotCategory": "polearms",
     "defense": null,
     "requiredStrength": 41,
+    "requiredDexterity": 41,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 8,
+      "max": 20
+    },
     "durability": 65,
     "invFile": "invscyu",
     "stats": [
@@ -4641,6 +4959,12 @@
     "slotCategory": "polearms",
     "defense": null,
     "requiredStrength": 62,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 18,
+      "max": 39
+    },
     "durability": 65,
     "invFile": "invpax",
     "stats": [
@@ -4727,6 +5051,12 @@
     "slotCategory": "polearms",
     "defense": null,
     "requiredStrength": 75,
+    "requiredDexterity": 47,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 12,
+      "max": 45
+    },
     "durability": 55,
     "invFile": "invhal",
     "stats": [
@@ -4841,6 +5171,12 @@
     "slotCategory": "polearms",
     "defense": null,
     "requiredStrength": 80,
+    "requiredDexterity": 80,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 15,
+      "max": 36
+    },
     "durability": 55,
     "invFile": "invwsc",
     "stats": [],
@@ -4931,6 +5267,12 @@
     "slotCategory": "staves",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 1,
+      "max": 5
+    },
     "durability": 20,
     "invFile": "invsst",
     "stats": [
@@ -5045,6 +5387,12 @@
     "slotCategory": "staves",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 2,
+      "max": 8
+    },
     "durability": 30,
     "invFile": "invlst",
     "stats": [
@@ -5149,6 +5497,12 @@
     "slotCategory": "staves",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 4,
+      "max": 12
+    },
     "durability": 35,
     "invFile": "invcstu",
     "stats": [
@@ -5273,6 +5627,12 @@
     "slotCategory": "staves",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 6,
+      "max": 13
+    },
     "durability": 40,
     "invFile": "invbst",
     "stats": [
@@ -5367,6 +5727,12 @@
     "slotCategory": "staves",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 12,
+      "max": 28
+    },
     "durability": 50,
     "invFile": "invwst",
     "stats": [],
@@ -5477,6 +5843,12 @@
     "slotCategory": "bows",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": 15,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 1,
+      "max": 4
+    },
     "durability": 20,
     "invFile": "invsbw",
     "stats": [],
@@ -5567,6 +5939,12 @@
     "slotCategory": "bows",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": 28,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 2,
+      "max": 6
+    },
     "durability": 32,
     "invFile": "invhbw",
     "stats": [
@@ -5661,6 +6039,12 @@
     "slotCategory": "bows",
     "defense": null,
     "requiredStrength": 22,
+    "requiredDexterity": 19,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 3,
+      "max": 10
+    },
     "durability": 28,
     "invFile": "invlbw",
     "stats": [
@@ -5745,6 +6129,12 @@
     "slotCategory": "bows",
     "defense": null,
     "requiredStrength": 25,
+    "requiredDexterity": 35,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 4,
+      "max": 8
+    },
     "durability": 36,
     "invFile": "invcbwu",
     "stats": [
@@ -5839,6 +6229,12 @@
     "slotCategory": "bows",
     "defense": null,
     "requiredStrength": 30,
+    "requiredDexterity": 40,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 5,
+      "max": 11
+    },
     "durability": 40,
     "invFile": "invsbbu",
     "stats": [
@@ -5935,6 +6331,12 @@
     "slotCategory": "bows",
     "defense": null,
     "requiredStrength": 40,
+    "requiredDexterity": 50,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 3,
+      "max": 18
+    },
     "durability": 44,
     "invFile": "invlbb",
     "stats": [
@@ -6053,6 +6455,12 @@
     "slotCategory": "bows",
     "defense": null,
     "requiredStrength": 35,
+    "requiredDexterity": 55,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 6,
+      "max": 14
+    },
     "durability": 48,
     "invFile": "invswbu",
     "stats": [
@@ -6171,6 +6579,12 @@
     "slotCategory": "bows",
     "defense": null,
     "requiredStrength": 50,
+    "requiredDexterity": 65,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 3,
+      "max": 23
+    },
     "durability": 55,
     "invFile": "invlwb",
     "stats": [
@@ -6255,6 +6669,12 @@
     "slotCategory": "crossbows",
     "defense": null,
     "requiredStrength": 21,
+    "requiredDexterity": 27,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 6,
+      "max": 9
+    },
     "durability": 30,
     "invFile": "invlxbu",
     "stats": [],
@@ -6345,6 +6765,12 @@
     "slotCategory": "crossbows",
     "defense": null,
     "requiredStrength": 40,
+    "requiredDexterity": 33,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 9,
+      "max": 16
+    },
     "durability": 40,
     "invFile": "invmxbu",
     "stats": [],
@@ -6435,6 +6861,12 @@
     "slotCategory": "crossbows",
     "defense": null,
     "requiredStrength": 60,
+    "requiredDexterity": 40,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 14,
+      "max": 26
+    },
     "durability": 50,
     "invFile": "invhxbu",
     "stats": [
@@ -6541,6 +6973,12 @@
     "slotCategory": "crossbows",
     "defense": null,
     "requiredStrength": 40,
+    "requiredDexterity": 50,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 6,
+      "max": 12
+    },
     "durability": 40,
     "invFile": "invrxbu",
     "stats": [
@@ -6628,6 +7066,12 @@
       "max": 5
     },
     "requiredStrength": 0,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 12,
     "invFile": "invcapu",
     "stats": [],
@@ -6711,6 +7155,12 @@
       "max": 11
     },
     "requiredStrength": 15,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 18,
     "invFile": "invskp",
     "stats": [
@@ -6778,6 +7228,12 @@
       "max": 18
     },
     "requiredStrength": 26,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invhlmu",
     "stats": [],
@@ -6861,6 +7317,12 @@
       "max": 26
     },
     "requiredStrength": 41,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 30,
     "invFile": "invfhlu",
     "stats": [
@@ -6960,6 +7422,12 @@
       "max": 36
     },
     "requiredStrength": 25,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 40,
     "invFile": "invbhmu",
     "stats": [],
@@ -7043,6 +7511,12 @@
       "max": 35
     },
     "requiredStrength": 63,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 40,
     "invFile": "invghm",
     "stats": [],
@@ -7136,6 +7610,12 @@
       "max": 45
     },
     "requiredStrength": 55,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 50,
     "invFile": "invcrn",
     "stats": [
@@ -7255,6 +7735,12 @@
       "max": 27
     },
     "requiredStrength": 23,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "invmsk",
     "stats": [],
@@ -7338,6 +7824,12 @@
       "max": 11
     },
     "requiredStrength": 12,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "invqlt",
     "stats": [],
@@ -7431,6 +7923,12 @@
       "max": 17
     },
     "requiredStrength": 15,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invlea",
     "stats": [],
@@ -7524,6 +8022,12 @@
       "max": 24
     },
     "requiredStrength": 20,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 28,
     "invFile": "invhla",
     "stats": [],
@@ -7637,6 +8141,12 @@
       "max": 35
     },
     "requiredStrength": 27,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 32,
     "invFile": "invstu",
     "stats": [],
@@ -7730,6 +8240,12 @@
       "max": 48
     },
     "requiredStrength": 36,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 26,
     "invFile": "invrng",
     "stats": [
@@ -7827,6 +8343,12 @@
       "max": 60
     },
     "requiredStrength": 44,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 36,
     "invFile": "invscl",
     "stats": [
@@ -7914,6 +8436,12 @@
       "max": 75
     },
     "requiredStrength": 48,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 45,
     "invFile": "invchn",
     "stats": [
@@ -7995,6 +8523,12 @@
       "max": 68
     },
     "requiredStrength": 30,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 50,
     "invFile": "invbrs",
     "stats": [
@@ -8082,6 +8616,12 @@
       "max": 95
     },
     "requiredStrength": 51,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 30,
     "invFile": "invspl",
     "stats": [
@@ -8169,6 +8709,12 @@
       "max": 116
     },
     "requiredStrength": 65,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 60,
     "invFile": "invplt",
     "stats": [
@@ -8246,6 +8792,12 @@
       "max": 105
     },
     "requiredStrength": 55,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 48,
     "invFile": "invfld",
     "stats": [
@@ -8333,6 +8885,12 @@
       "max": 135
     },
     "requiredStrength": 70,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 55,
     "invFile": "invgth",
     "stats": [],
@@ -8406,6 +8964,12 @@
       "max": 161
     },
     "requiredStrength": 80,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 70,
     "invFile": "invfulu",
     "stats": [
@@ -8493,6 +9057,12 @@
       "max": 233
     },
     "requiredStrength": 100,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 60,
     "invFile": "invaaru",
     "stats": [
@@ -8570,6 +9140,12 @@
       "max": 107
     },
     "requiredStrength": 41,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 60,
     "invFile": "invltp",
     "stats": [],
@@ -8663,6 +9239,12 @@
       "max": 6
     },
     "requiredStrength": 12,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 1,
+      "max": 3
+    },
+    "twoHandDamage": null,
     "durability": 12,
     "invFile": "invbucu",
     "stats": [
@@ -8782,6 +9364,12 @@
       "max": 10
     },
     "requiredStrength": 22,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 2,
+      "max": 3
+    },
+    "twoHandDamage": null,
     "durability": 16,
     "invFile": "invsmlu",
     "stats": [
@@ -8901,6 +9489,12 @@
       "max": 14
     },
     "requiredStrength": 34,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 2,
+      "max": 4
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invlrgu",
     "stats": [
@@ -9022,6 +9616,12 @@
       "max": 30
     },
     "requiredStrength": 25,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 3,
+      "max": 6
+    },
+    "twoHandDamage": null,
     "durability": 40,
     "invFile": "invbshu",
     "stats": [
@@ -9119,6 +9719,12 @@
       "max": 25
     },
     "requiredStrength": 30,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 5,
+      "max": 9
+    },
+    "twoHandDamage": null,
     "durability": 40,
     "invFile": "invspku",
     "stats": [
@@ -9206,6 +9812,12 @@
       "max": 18
     },
     "requiredStrength": 47,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 2,
+      "max": 5
+    },
+    "twoHandDamage": null,
     "durability": 30,
     "invFile": "invkitu",
     "stats": [
@@ -9335,6 +9947,12 @@
       "max": 25
     },
     "requiredStrength": 75,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 1,
+      "max": 5
+    },
+    "twoHandDamage": null,
     "durability": 60,
     "invFile": "invtowu",
     "stats": [
@@ -9444,6 +10062,12 @@
       "max": 35
     },
     "requiredStrength": 60,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 2,
+      "max": 6
+    },
+    "twoHandDamage": null,
     "durability": 40,
     "invFile": "invgtsu",
     "stats": [
@@ -9541,6 +10165,12 @@
       "max": 3
     },
     "requiredStrength": 0,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 12,
     "invFile": "invlgl",
     "stats": [
@@ -9638,6 +10268,12 @@
       "max": 6
     },
     "requiredStrength": 0,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 14,
     "invFile": "invvgl",
     "stats": [
@@ -9735,6 +10371,12 @@
       "max": 9
     },
     "requiredStrength": 25,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 16,
     "invFile": "invmgl",
     "stats": [
@@ -9834,6 +10476,12 @@
       "max": 11
     },
     "requiredStrength": 45,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 18,
     "invFile": "invtgl",
     "stats": [
@@ -9933,6 +10581,12 @@
       "max": 15
     },
     "requiredStrength": 60,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invhgl",
     "stats": [
@@ -10022,6 +10676,12 @@
       "max": 3
     },
     "requiredStrength": 0,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 3,
+      "max": 8
+    },
+    "twoHandDamage": null,
     "durability": 12,
     "invFile": "invlbt",
     "stats": [
@@ -10121,6 +10781,12 @@
       "max": 6
     },
     "requiredStrength": 18,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 4,
+      "max": 10
+    },
+    "twoHandDamage": null,
     "durability": 14,
     "invFile": "invvbt",
     "stats": [
@@ -10218,6 +10884,12 @@
       "max": 9
     },
     "requiredStrength": 30,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 6,
+      "max": 12
+    },
+    "twoHandDamage": null,
     "durability": 16,
     "invFile": "invmbt",
     "stats": [
@@ -10315,6 +10987,12 @@
       "max": 11
     },
     "requiredStrength": 50,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 8,
+      "max": 16
+    },
+    "twoHandDamage": null,
     "durability": 18,
     "invFile": "invtbt",
     "stats": [
@@ -10412,6 +11090,12 @@
       "max": 15
     },
     "requiredStrength": 70,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 10,
+      "max": 20
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invhbt",
     "stats": [
@@ -10519,6 +11203,12 @@
       "max": 2
     },
     "requiredStrength": 0,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 12,
     "invFile": "invlbl",
     "stats": [],
@@ -10592,6 +11282,12 @@
       "max": 3
     },
     "requiredStrength": 0,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 14,
     "invFile": "invvbl",
     "stats": [
@@ -10689,6 +11385,12 @@
       "max": 5
     },
     "requiredStrength": 25,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 16,
     "invFile": "invmbl",
     "stats": [
@@ -10786,6 +11488,12 @@
       "max": 6
     },
     "requiredStrength": 45,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 18,
     "invFile": "invtbl",
     "stats": [
@@ -10885,6 +11593,12 @@
       "max": 11
     },
     "requiredStrength": 60,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invhbl",
     "stats": [
@@ -10989,6 +11703,9 @@
     "slotCategory": "amulets",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invamu",
     "stats": [
@@ -11073,6 +11790,9 @@
     "slotCategory": "amulets",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invamu",
     "stats": [
@@ -11187,6 +11907,9 @@
     "slotCategory": "amulets",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invamu",
     "stats": [],
@@ -11297,6 +12020,9 @@
     "slotCategory": "rings",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invrin",
     "stats": [
@@ -11373,6 +12099,9 @@
     "slotCategory": "rings",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invrin",
     "stats": [
@@ -11449,6 +12178,9 @@
     "slotCategory": "rings",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invrin",
     "stats": [],
@@ -11529,6 +12261,12 @@
     "slotCategory": "staves",
     "defense": null,
     "requiredStrength": 25,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 10,
+      "max": 15
+    },
     "durability": 45,
     "invFile": "invmsf",
     "stats": [],
@@ -11579,6 +12317,12 @@
     "slotCategory": "staves",
     "defense": null,
     "requiredStrength": 30,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 12,
+      "max": 20
+    },
     "durability": 50,
     "invFile": "invhst",
     "stats": [],
@@ -11659,6 +12403,12 @@
     "slotCategory": "hammers",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 6,
+      "max": 15
+    },
+    "twoHandDamage": null,
     "durability": 55,
     "invFile": "invhfh",
     "stats": [],
@@ -11729,6 +12479,12 @@
     "slotCategory": "maces",
     "defense": null,
     "requiredStrength": 41,
+    "requiredDexterity": 35,
+    "oneHandDamage": {
+      "min": 1,
+      "max": 15
+    },
+    "twoHandDamage": null,
     "durability": 30,
     "invFile": "invqf1",
     "stats": [],
@@ -11799,6 +12555,12 @@
     "slotCategory": "maces",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 1,
+      "max": 15
+    },
+    "twoHandDamage": null,
     "durability": 30,
     "invFile": "invqf2",
     "stats": [],
@@ -11889,6 +12651,12 @@
     "slotCategory": "axes",
     "defense": null,
     "requiredStrength": 25,
+    "requiredDexterity": 25,
+    "oneHandDamage": {
+      "min": 10,
+      "max": 21
+    },
+    "twoHandDamage": null,
     "durability": 28,
     "invFile": "invhaxu",
     "stats": [
@@ -11995,6 +12763,12 @@
     "slotCategory": "axes",
     "defense": null,
     "requiredStrength": 68,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 10,
+      "max": 33
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invaxeu",
     "stats": [
@@ -12091,6 +12865,12 @@
     "slotCategory": "axes",
     "defense": null,
     "requiredStrength": 85,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 13,
+      "max": 38
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "inv2ax",
     "stats": [
@@ -12225,6 +13005,12 @@
     "slotCategory": "axes",
     "defense": null,
     "requiredStrength": 94,
+    "requiredDexterity": 70,
+    "oneHandDamage": {
+      "min": 14,
+      "max": 34
+    },
+    "twoHandDamage": null,
     "durability": 26,
     "invFile": "invmpiu",
     "stats": [
@@ -12312,6 +13098,12 @@
     "slotCategory": "axes",
     "defense": null,
     "requiredStrength": 121,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 16,
+      "max": 45
+    },
+    "twoHandDamage": null,
     "durability": 26,
     "invFile": "invwax",
     "stats": [
@@ -12407,6 +13199,12 @@
     "slotCategory": "axes",
     "defense": null,
     "requiredStrength": 73,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 14,
+      "max": 34
+    },
     "durability": 30,
     "invFile": "invlax",
     "stats": [],
@@ -12497,6 +13295,12 @@
     "slotCategory": "axes",
     "defense": null,
     "requiredStrength": 92,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 21,
+      "max": 49
+    },
     "durability": 35,
     "invFile": "invbrx",
     "stats": [
@@ -12510,50 +13314,6 @@
         "min": 12,
         "max": 15,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:54",
-        "label": {
-          "en": "Charges (Teleport)",
-          "zh-TW": "充能次數 (傳送)",
-          "zh-CN": "充能次数 (传送)"
-        },
-        "min": 20,
-        "max": 1,
-        "isSkillRef": true
-      },
-      {
-        "key": "charged:87",
-        "label": {
-          "en": "Charges (Decrepify)",
-          "zh-TW": "充能次數 (衰老)",
-          "zh-CN": "充能次数 (衰老)"
-        },
-        "min": 30,
-        "max": 3,
-        "isSkillRef": true
-      },
-      {
-        "key": "charged:101",
-        "label": {
-          "en": "Charges (Holy Bolt)",
-          "zh-TW": "充能次數 (聖光彈)",
-          "zh-CN": "充能次数 (圣光弹)"
-        },
-        "min": 100,
-        "max": 10,
-        "isSkillRef": true
-      },
-      {
-        "key": "charged:225",
-        "label": {
-          "en": "Charges (Firestorm)",
-          "zh-TW": "充能次數 (變形術)",
-          "zh-CN": "充能次数 (变形术)"
-        },
-        "min": 60,
-        "max": 12,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -12606,15 +13366,55 @@
         },
         "value": 25,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:54",
+        "label": {
+          "en": "Level 1 Teleport (20 Charges)",
+          "zh-TW": "等級 1 傳送（20 次）",
+          "zh-CN": "等级 1 传送（20 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "charged:87",
+        "label": {
+          "en": "Level 3 Decrepify (30 Charges)",
+          "zh-TW": "等級 3 衰老（30 次）",
+          "zh-CN": "等级 3 衰老（30 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "charged:101",
+        "label": {
+          "en": "Level 10 Holy Bolt (100 Charges)",
+          "zh-TW": "等級 10 聖光彈（100 次）",
+          "zh-CN": "等级 10 圣光弹（100 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "charged:225",
+        "label": {
+          "en": "Level 12 Firestorm (60 Charges)",
+          "zh-TW": "等級 12 變形術（60 次）",
+          "zh-CN": "等级 12 变形术（60 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "red-mag",
-      "charged:54",
-      "charged:87",
-      "charged:101",
-      "charged:225"
+      "red-mag"
     ],
     "note": null,
     "statPools": []
@@ -12639,6 +13439,12 @@
     "slotCategory": "axes",
     "defense": null,
     "requiredStrength": 101,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 24,
+      "max": 77
+    },
     "durability": 40,
     "invFile": "inv9btu",
     "stats": [
@@ -12758,6 +13564,12 @@
     "slotCategory": "axes",
     "defense": null,
     "requiredStrength": 115,
+    "requiredDexterity": 79,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 18,
+      "max": 70
+    },
     "durability": 50,
     "invFile": "invgaxu",
     "stats": [
@@ -12771,17 +13583,6 @@
         "min": 180,
         "max": 220,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:101",
-        "label": {
-          "en": "Charges (Holy Bolt)",
-          "zh-TW": "充能次數 (聖光彈)",
-          "zh-CN": "充能次数 (圣光弹)"
-        },
-        "min": 200,
-        "max": 20,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -12836,6 +13637,17 @@
         "isSkillRef": false
       },
       {
+        "key": "charged:101",
+        "label": {
+          "en": "Level 20 Holy Bolt (200 Charges)",
+          "zh-TW": "等級 20 聖光彈（200 次）",
+          "zh-CN": "等级 20 圣光弹（200 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
         "key": "gethit-skill:101",
         "label": {
           "en": "50% Chance to cast level 0 Holy Bolt when struck",
@@ -12849,8 +13661,7 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg%",
-      "charged:101"
+      "dmg%"
     ],
     "note": null,
     "statPools": []
@@ -12875,6 +13686,12 @@
     "slotCategory": "axes",
     "defense": null,
     "requiredStrength": 125,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 43,
+      "max": 85
+    },
     "durability": 50,
     "invFile": "inv9giu",
     "stats": [
@@ -12983,6 +13800,12 @@
     "slotCategory": "wands",
     "defense": null,
     "requiredStrength": 25,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 8,
+      "max": 18
+    },
+    "twoHandDamage": null,
     "durability": 15,
     "invFile": "invwnd",
     "stats": [],
@@ -13073,6 +13896,12 @@
     "slotCategory": "wands",
     "defense": null,
     "requiredStrength": 25,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 8,
+      "max": 24
+    },
+    "twoHandDamage": null,
     "durability": 15,
     "invFile": "invywn",
     "stats": [],
@@ -13173,6 +14002,12 @@
     "slotCategory": "wands",
     "defense": null,
     "requiredStrength": 25,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 10,
+      "max": 22
+    },
+    "twoHandDamage": null,
     "durability": 15,
     "invFile": "invbwnu",
     "stats": [],
@@ -13305,21 +14140,15 @@
     "slotCategory": "wands",
     "defense": null,
     "requiredStrength": 25,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 13,
+      "max": 29
+    },
+    "twoHandDamage": null,
     "durability": 15,
     "invFile": "inv9gwu",
-    "stats": [
-      {
-        "key": "charged:150",
-        "label": {
-          "en": "Charges (Grim Ward)",
-          "zh-TW": "充能次數 (殘酷嚇阻)",
-          "zh-CN": "充能次数 (残酷吓阻)"
-        },
-        "min": 30,
-        "max": 13,
-        "isSkillRef": true
-      }
-    ],
+    "stats": [],
     "fixedStats": [
       {
         "key": "skilltab:6",
@@ -13390,12 +14219,21 @@
         },
         "value": 2,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:150",
+        "label": {
+          "en": "Level 13 Grim Ward (30 Charges)",
+          "zh-TW": "等級 13 殘酷嚇阻（30 次）",
+          "zh-CN": "等级 13 残酷吓阻（30 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       }
     ],
     "setBonuses": [],
-    "statPriority": [
-      "charged:150"
-    ],
+    "statPriority": [],
     "note": null,
     "statPools": []
   },
@@ -13419,6 +14257,12 @@
     "slotCategory": "clubs",
     "defense": null,
     "requiredStrength": 25,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 6,
+      "max": 21
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invclbu",
     "stats": [
@@ -13513,6 +14357,12 @@
     "slotCategory": "scepters",
     "defense": null,
     "requiredStrength": 58,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 13,
+      "max": 24
+    },
+    "twoHandDamage": null,
     "durability": 50,
     "invFile": "invscp",
     "stats": [
@@ -13638,6 +14488,12 @@
     "slotCategory": "scepters",
     "defense": null,
     "requiredStrength": 76,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 14,
+      "max": 36
+    },
+    "twoHandDamage": null,
     "durability": 60,
     "invFile": "invgsc",
     "stats": [
@@ -13748,6 +14604,12 @@
     "slotCategory": "scepters",
     "defense": null,
     "requiredStrength": 103,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 16,
+      "max": 38
+    },
+    "twoHandDamage": null,
     "durability": 70,
     "invFile": "invwsp",
     "stats": [
@@ -13885,6 +14747,12 @@
     "slotCategory": "clubs",
     "defense": null,
     "requiredStrength": 30,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 13,
+      "max": 25
+    },
+    "twoHandDamage": null,
     "durability": 36,
     "invFile": "invspcu",
     "stats": [
@@ -14011,6 +14879,12 @@
     "slotCategory": "maces",
     "defense": null,
     "requiredStrength": 61,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 15,
+      "max": 23
+    },
+    "twoHandDamage": null,
     "durability": 60,
     "invFile": "invmac",
     "stats": [
@@ -14046,17 +14920,6 @@
         "min": 5,
         "max": 10,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:64",
-        "label": {
-          "en": "Charges (Frozen Orb)",
-          "zh-TW": "充能次數 (冰封球)",
-          "zh-CN": "充能次数 (冰封球)"
-        },
-        "min": 50,
-        "max": 9,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -14079,14 +14942,24 @@
         },
         "value": 3,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:64",
+        "label": {
+          "en": "Level 9 Frozen Orb (50 Charges)",
+          "zh-TW": "等級 9 冰封球（50 次）",
+          "zh-CN": "等级 9 冰封球（50 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "dmg-cold",
       "dmg%",
-      "dmg-norm",
-      "charged:64"
+      "dmg-norm"
     ],
     "note": null,
     "statPools": []
@@ -14111,6 +14984,12 @@
     "slotCategory": "maces",
     "defense": null,
     "requiredStrength": 74,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 20,
+      "max": 31
+    },
+    "twoHandDamage": null,
     "durability": 72,
     "invFile": "invmstu",
     "stats": [
@@ -14148,17 +15027,6 @@
         "isSkillRef": false
       },
       {
-        "key": "charged:56",
-        "label": {
-          "en": "Charges (Meteor)",
-          "zh-TW": "充能次數 (隕石)",
-          "zh-CN": "充能次数 (陨石)"
-        },
-        "min": 60,
-        "max": 11,
-        "isSkillRef": true
-      },
-      {
         "key": "dmg-norm",
         "label": {
           "en": "Damage",
@@ -14191,6 +15059,17 @@
         },
         "value": 2,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:56",
+        "label": {
+          "en": "Level 11 Meteor (60 Charges)",
+          "zh-TW": "等級 11 隕石（60 次）",
+          "zh-CN": "等级 11 陨石（60 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       }
     ],
     "setBonuses": [],
@@ -14198,7 +15077,6 @@
       "dmg-fire",
       "red-mag",
       "dmg%",
-      "charged:56",
       "dmg-norm"
     ],
     "note": null,
@@ -14224,6 +15102,12 @@
     "slotCategory": "maces",
     "defense": null,
     "requiredStrength": 82,
+    "requiredDexterity": 73,
+    "oneHandDamage": {
+      "min": 13,
+      "max": 35
+    },
+    "twoHandDamage": null,
     "durability": 30,
     "invFile": "invfla",
     "stats": [
@@ -14248,17 +15132,6 @@
         "min": 160,
         "max": 200,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:48",
-        "label": {
-          "en": "Charges (Nova)",
-          "zh-TW": "充能次數 (新星)",
-          "zh-CN": "充能次数 (新星)"
-        },
-        "min": 80,
-        "max": 15,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -14302,13 +15175,23 @@
         },
         "value": 20,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:48",
+        "label": {
+          "en": "Level 15 Nova (80 Charges)",
+          "zh-TW": "等級 15 新星（80 次）",
+          "zh-CN": "等级 15 新星（80 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "dmg-ltng",
-      "dmg%",
-      "charged:48"
+      "dmg%"
     ],
     "note": null,
     "statPools": []
@@ -14333,6 +15216,12 @@
     "slotCategory": "hammers",
     "defense": null,
     "requiredStrength": 100,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 35,
+      "max": 58
+    },
+    "twoHandDamage": null,
     "durability": 55,
     "invFile": "invwhm",
     "stats": [],
@@ -14434,6 +15323,12 @@
     "slotCategory": "hammers",
     "defense": null,
     "requiredStrength": 124,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 53,
+      "max": 78
+    },
     "durability": 60,
     "invFile": "invmau",
     "stats": [
@@ -14538,6 +15433,12 @@
     "slotCategory": "hammers",
     "defense": null,
     "requiredStrength": 169,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 61,
+      "max": 99
+    },
     "durability": 60,
     "invFile": "inv9gmu",
     "stats": [
@@ -14562,17 +15463,6 @@
         "min": 130,
         "max": 160,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:66",
-        "label": {
-          "en": "Charges (Amplify Damage)",
-          "zh-TW": "充能次數 (傷害加深)",
-          "zh-CN": "充能次数 (伤害加深)"
-        },
-        "min": 3,
-        "max": 8,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -14617,13 +15507,23 @@
         },
         "value": 1,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:66",
+        "label": {
+          "en": "Level 8 Amplify Damage (3 Charges)",
+          "zh-TW": "等級 8 傷害加深（3 次）",
+          "zh-CN": "等级 8 伤害加深（3 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "dmg-norm",
-      "dmg%",
-      "charged:66"
+      "dmg%"
     ],
     "note": null,
     "statPools": []
@@ -14648,6 +15548,12 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 25,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 8,
+      "max": 22
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invssd",
     "stats": [
@@ -14776,6 +15682,12 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 25,
+    "requiredDexterity": 52,
+    "oneHandDamage": {
+      "min": 8,
+      "max": 21
+    },
+    "twoHandDamage": null,
     "durability": 22,
     "invFile": "invscmu",
     "stats": [
@@ -14880,20 +15792,15 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 58,
+    "requiredDexterity": 58,
+    "oneHandDamage": {
+      "min": 10,
+      "max": 24
+    },
+    "twoHandDamage": null,
     "durability": 32,
     "invFile": "invsbru",
     "stats": [
-      {
-        "key": "charged:62",
-        "label": {
-          "en": "Charges (Hydra)",
-          "zh-TW": "充能次數 (九頭海蛇)",
-          "zh-CN": "充能次数 (九头海蛇)"
-        },
-        "min": 36,
-        "max": 6,
-        "isSkillRef": true
-      },
       {
         "key": "dmg-norm",
         "label": {
@@ -14918,6 +15825,17 @@
       }
     ],
     "fixedStats": [
+      {
+        "key": "charged:62",
+        "label": {
+          "en": "Level 6 Hydra (36 Charges)",
+          "zh-TW": "等級 6 九頭海蛇（36 次）",
+          "zh-CN": "等级 6 九头海蛇（36 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
+      },
       {
         "key": "ignore-ac",
         "label": {
@@ -14961,7 +15879,6 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "charged:62",
       "dmg-norm",
       "dmg%"
     ],
@@ -14988,6 +15905,12 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 70,
+    "requiredDexterity": 42,
+    "oneHandDamage": {
+      "min": 16,
+      "max": 35
+    },
+    "twoHandDamage": null,
     "durability": 32,
     "invFile": "invflc",
     "stats": [
@@ -15084,6 +16007,12 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 85,
+    "requiredDexterity": 60,
+    "oneHandDamage": {
+      "min": 13,
+      "max": 35
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "inv9cru",
     "stats": [
@@ -15182,6 +16111,12 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 92,
+    "requiredDexterity": 43,
+    "oneHandDamage": {
+      "min": 16,
+      "max": 34
+    },
+    "twoHandDamage": null,
     "durability": 32,
     "invFile": "invbsd",
     "stats": [],
@@ -15262,6 +16197,12 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 103,
+    "requiredDexterity": 79,
+    "oneHandDamage": {
+      "min": 10,
+      "max": 42
+    },
+    "twoHandDamage": null,
     "durability": 44,
     "invFile": "inv9lsu",
     "stats": [
@@ -15357,6 +16298,12 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 127,
+    "requiredDexterity": 88,
+    "oneHandDamage": {
+      "min": 18,
+      "max": 43
+    },
+    "twoHandDamage": null,
     "durability": 44,
     "invFile": "invwsd",
     "stats": [
@@ -15471,6 +16418,15 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 73,
+    "requiredDexterity": 61,
+    "oneHandDamage": {
+      "min": 8,
+      "max": 26
+    },
+    "twoHandDamage": {
+      "min": 18,
+      "max": 40
+    },
     "durability": 44,
     "invFile": "inv2hsu",
     "stats": [
@@ -15565,6 +16521,15 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 91,
+    "requiredDexterity": 20,
+    "oneHandDamage": {
+      "min": 13,
+      "max": 30
+    },
+    "twoHandDamage": {
+      "min": 26,
+      "max": 61
+    },
     "durability": 50,
     "invFile": "invclm",
     "stats": [
@@ -15662,6 +16627,15 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 104,
+    "requiredDexterity": 71,
+    "oneHandDamage": {
+      "min": 10,
+      "max": 37
+    },
+    "twoHandDamage": {
+      "min": 19,
+      "max": 58
+    },
     "durability": 50,
     "invFile": "invgisu",
     "stats": [
@@ -15757,6 +16731,15 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 113,
+    "requiredDexterity": 20,
+    "oneHandDamage": {
+      "min": 14,
+      "max": 40
+    },
+    "twoHandDamage": {
+      "min": 39,
+      "max": 60
+    },
     "durability": 40,
     "invFile": "invbswu",
     "stats": [
@@ -15884,6 +16867,15 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 125,
+    "requiredDexterity": 94,
+    "oneHandDamage": {
+      "min": 19,
+      "max": 35
+    },
+    "twoHandDamage": {
+      "min": 29,
+      "max": 54
+    },
     "durability": 50,
     "invFile": "inv9fbu",
     "stats": [
@@ -15899,17 +16891,6 @@
         "isSkillRef": false
       },
       {
-        "key": "att-skill:47",
-        "label": {
-          "en": "Attack Rating (skill) (Fire Ball)",
-          "zh-TW": "攻擊等級（技能） (火球)",
-          "zh-CN": "攻击等级（技能） (火球)"
-        },
-        "min": 10,
-        "max": 6,
-        "isSkillRef": true
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -15919,28 +16900,6 @@
         "min": 120,
         "max": 160,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:52",
-        "label": {
-          "en": "Charges (Enchant)",
-          "zh-TW": "充能次數 (強化)",
-          "zh-CN": "充能次数 (强化)"
-        },
-        "min": 45,
-        "max": 10,
-        "isSkillRef": true
-      },
-      {
-        "key": "charged:51",
-        "label": {
-          "en": "Charges (Fire Wall)",
-          "zh-TW": "充能次數 (火牆)",
-          "zh-CN": "充能次数 (火墙)"
-        },
-        "min": 20,
-        "max": 10,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -15963,15 +16922,45 @@
         },
         "value": 10,
         "isSkillRef": false
+      },
+      {
+        "key": "att-skill:47",
+        "label": {
+          "en": "10% Chance to cast level 6 Fire Ball on attack",
+          "zh-TW": "攻擊時有 10% 機率施展等級 6 火球",
+          "zh-CN": "攻击时有 10% 机率施展等级 6 火球"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "charged:52",
+        "label": {
+          "en": "Level 10 Enchant (45 Charges)",
+          "zh-TW": "等級 10 強化（45 次）",
+          "zh-CN": "等级 10 强化（45 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "charged:51",
+        "label": {
+          "en": "Level 10 Fire Wall (20 Charges)",
+          "zh-TW": "等級 10 火牆（20 次）",
+          "zh-CN": "等级 10 火墙（20 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "dmg-fire",
-      "att-skill:47",
-      "dmg%",
-      "charged:52",
-      "charged:51"
+      "dmg%"
     ],
     "note": null,
     "statPools": []
@@ -15996,6 +16985,15 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 170,
+    "requiredDexterity": 110,
+    "oneHandDamage": {
+      "min": 24,
+      "max": 40
+    },
+    "twoHandDamage": {
+      "min": 47,
+      "max": 80
+    },
     "durability": 50,
     "invFile": "invgsdu",
     "stats": [
@@ -16122,6 +17120,12 @@
     "slotCategory": "daggers",
     "defense": null,
     "requiredStrength": 25,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 6,
+      "max": 18
+    },
+    "twoHandDamage": null,
     "durability": 16,
     "invFile": "invdgr",
     "stats": [
@@ -16238,6 +17242,12 @@
     "slotCategory": "daggers",
     "defense": null,
     "requiredStrength": 25,
+    "requiredDexterity": 58,
+    "oneHandDamage": {
+      "min": 10,
+      "max": 26
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "invdir",
     "stats": [
@@ -16344,6 +17354,12 @@
     "slotCategory": "daggers",
     "defense": null,
     "requiredStrength": 25,
+    "requiredDexterity": 88,
+    "oneHandDamage": {
+      "min": 15,
+      "max": 31
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invkrsu",
     "stats": [
@@ -16458,6 +17474,12 @@
     "slotCategory": "daggers",
     "defense": null,
     "requiredStrength": 47,
+    "requiredDexterity": 97,
+    "oneHandDamage": {
+      "min": 19,
+      "max": 36
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "inv9blu",
     "stats": [
@@ -16543,6 +17565,12 @@
     "slotCategory": "spears",
     "defense": null,
     "requiredStrength": 25,
+    "requiredDexterity": 25,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 10,
+      "max": 37
+    },
     "durability": 30,
     "invFile": "invspr",
     "stats": [
@@ -16657,6 +17685,12 @@
     "slotCategory": "spears",
     "defense": null,
     "requiredStrength": 77,
+    "requiredDexterity": 25,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 19,
+      "max": 37
+    },
     "durability": 35,
     "invFile": "invtriu",
     "stats": [
@@ -16753,6 +17787,12 @@
     "slotCategory": "spears",
     "defense": null,
     "requiredStrength": 80,
+    "requiredDexterity": 95,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 16,
+      "max": 40
+    },
     "durability": 28,
     "invFile": "inv9bru",
     "stats": [
@@ -16859,6 +17899,12 @@
     "slotCategory": "spears",
     "defense": null,
     "requiredStrength": 101,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 29,
+      "max": 59
+    },
     "durability": 28,
     "invFile": "invspt",
     "stats": [
@@ -16945,6 +17991,12 @@
     "slotCategory": "spears",
     "defense": null,
     "requiredStrength": 110,
+    "requiredDexterity": 88,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 27,
+      "max": 114
+    },
     "durability": 25,
     "invFile": "invpik",
     "stats": [
@@ -17071,6 +18123,12 @@
     "slotCategory": "polearms",
     "defense": null,
     "requiredStrength": 80,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 6,
+      "max": 58
+    },
     "durability": 50,
     "invFile": "invbar",
     "stats": [
@@ -17165,6 +18223,12 @@
     "slotCategory": "polearms",
     "defense": null,
     "requiredStrength": 95,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 14,
+      "max": 53
+    },
     "durability": 50,
     "invFile": "invvou",
     "stats": [
@@ -17260,6 +18324,12 @@
     "slotCategory": "polearms",
     "defense": null,
     "requiredStrength": 82,
+    "requiredDexterity": 82,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 18,
+      "max": 45
+    },
     "durability": 65,
     "invFile": "inv9s8u",
     "stats": [
@@ -17356,6 +18426,12 @@
     "slotCategory": "polearms",
     "defense": null,
     "requiredStrength": 113,
+    "requiredDexterity": 67,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 34,
+      "max": 75
+    },
     "durability": 65,
     "invFile": "invpax",
     "stats": [
@@ -17464,6 +18540,12 @@
     "slotCategory": "polearms",
     "defense": null,
     "requiredStrength": 133,
+    "requiredDexterity": 91,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 13,
+      "max": 85
+    },
     "durability": 55,
     "invFile": "invhal",
     "stats": [
@@ -17562,6 +18644,12 @@
     "slotCategory": "polearms",
     "defense": null,
     "requiredStrength": 140,
+    "requiredDexterity": 140,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 30,
+      "max": 70
+    },
     "durability": 55,
     "invFile": "invwsc",
     "stats": [
@@ -17690,6 +18778,12 @@
     "slotCategory": "staves",
     "defense": null,
     "requiredStrength": 25,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 6,
+      "max": 21
+    },
     "durability": 20,
     "invFile": "invsst",
     "stats": [],
@@ -17790,6 +18884,12 @@
     "slotCategory": "staves",
     "defense": null,
     "requiredStrength": 25,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 8,
+      "max": 26
+    },
     "durability": 30,
     "invFile": "invlst",
     "stats": [
@@ -17916,6 +19016,12 @@
     "slotCategory": "staves",
     "defense": null,
     "requiredStrength": 25,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 11,
+      "max": 32
+    },
     "durability": 35,
     "invFile": "invcstu",
     "stats": [
@@ -18032,6 +19138,12 @@
     "slotCategory": "staves",
     "defense": null,
     "requiredStrength": 25,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 14,
+      "max": 34
+    },
     "durability": 40,
     "invFile": "invbst",
     "stats": [],
@@ -18122,6 +19234,12 @@
     "slotCategory": "staves",
     "defense": null,
     "requiredStrength": 25,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 24,
+      "max": 58
+    },
     "durability": 50,
     "invFile": "inv8wsu",
     "stats": [],
@@ -18192,6 +19310,12 @@
     "slotCategory": "bows",
     "defense": null,
     "requiredStrength": 25,
+    "requiredDexterity": 43,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 6,
+      "max": 19
+    },
     "durability": 20,
     "invFile": "invsbw",
     "stats": [
@@ -18299,6 +19423,12 @@
     "slotCategory": "bows",
     "defense": null,
     "requiredStrength": 25,
+    "requiredDexterity": 62,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 8,
+      "max": 22
+    },
     "durability": 32,
     "invFile": "invhbw",
     "stats": [
@@ -18395,6 +19525,12 @@
     "slotCategory": "bows",
     "defense": null,
     "requiredStrength": 53,
+    "requiredDexterity": 49,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 10,
+      "max": 29
+    },
     "durability": 28,
     "invFile": "inv8lbu",
     "stats": [
@@ -18491,6 +19627,12 @@
     "slotCategory": "bows",
     "defense": null,
     "requiredStrength": 58,
+    "requiredDexterity": 73,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 11,
+      "max": 26
+    },
     "durability": 36,
     "invFile": "invcbwu",
     "stats": [
@@ -18589,6 +19731,12 @@
     "slotCategory": "bows",
     "defense": null,
     "requiredStrength": 65,
+    "requiredDexterity": 80,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 13,
+      "max": 30
+    },
     "durability": 40,
     "invFile": "inv8s8u",
     "stats": [
@@ -18684,6 +19832,12 @@
     "slotCategory": "bows",
     "defense": null,
     "requiredStrength": 80,
+    "requiredDexterity": 95,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 10,
+      "max": 42
+    },
     "durability": 44,
     "invFile": "invlbb",
     "stats": [
@@ -18792,6 +19946,12 @@
     "slotCategory": "bows",
     "defense": null,
     "requiredStrength": 73,
+    "requiredDexterity": 103,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 14,
+      "max": 35
+    },
     "durability": 48,
     "invFile": "invswbu",
     "stats": [
@@ -18922,6 +20082,12 @@
     "slotCategory": "bows",
     "defense": null,
     "requiredStrength": 95,
+    "requiredDexterity": 118,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 10,
+      "max": 50
+    },
     "durability": 55,
     "invFile": "invlwb",
     "stats": [
@@ -19033,6 +20199,12 @@
     "slotCategory": "crossbows",
     "defense": null,
     "requiredStrength": 52,
+    "requiredDexterity": 61,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 14,
+      "max": 27
+    },
     "durability": 30,
     "invFile": "inv8lxu",
     "stats": [
@@ -19143,6 +20315,12 @@
     "slotCategory": "crossbows",
     "defense": null,
     "requiredStrength": 80,
+    "requiredDexterity": 70,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 20,
+      "max": 42
+    },
     "durability": 40,
     "invFile": "inv8mxu",
     "stats": [
@@ -19259,6 +20437,12 @@
     "slotCategory": "crossbows",
     "defense": null,
     "requiredStrength": 110,
+    "requiredDexterity": 80,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 33,
+      "max": 55
+    },
     "durability": 50,
     "invFile": "invhxbu",
     "stats": [
@@ -19377,6 +20561,12 @@
     "slotCategory": "crossbows",
     "defense": null,
     "requiredStrength": 80,
+    "requiredDexterity": 95,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 14,
+      "max": 32
+    },
     "durability": 40,
     "invFile": "invrxbu",
     "stats": [],
@@ -19480,6 +20670,12 @@
       "max": 53
     },
     "requiredStrength": 20,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 12,
     "invFile": "invcap",
     "stats": [
@@ -19577,6 +20773,12 @@
       "max": 62
     },
     "requiredStrength": 43,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 18,
     "invFile": "invxkpu",
     "stats": [
@@ -19690,6 +20892,12 @@
       "max": 72
     },
     "requiredStrength": 59,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invhlmu",
     "stats": [
@@ -19789,20 +20997,15 @@
       "max": 84
     },
     "requiredStrength": 82,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 30,
     "invFile": "invfhlu",
     "stats": [
-      {
-        "key": "charged:264",
-        "label": {
-          "en": "Charges (Cloak of Shadows)",
-          "zh-TW": "充能次數 (武器格擋)",
-          "zh-CN": "充能次数 (武器格挡)"
-        },
-        "min": 30,
-        "max": 5,
-        "isSkillRef": true
-      },
       {
         "key": "res-fire",
         "label": {
@@ -19866,11 +21069,21 @@
         "value": null,
         "isSkillRef": false,
         "composed": true
+      },
+      {
+        "key": "charged:264",
+        "label": {
+          "en": "Level 5 Cloak of Shadows (30 Charges)",
+          "zh-TW": "等級 5 武器格擋（30 次）",
+          "zh-CN": "等级 5 武器格挡（30 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "charged:264",
       "res-fire"
     ],
     "note": null,
@@ -19899,6 +21112,12 @@
       "max": 98
     },
     "requiredStrength": 115,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 40,
     "invFile": "invghm",
     "stats": [
@@ -19990,6 +21209,12 @@
       "max": 113
     },
     "requiredStrength": 103,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 50,
     "invFile": "invxrnu",
     "stats": [
@@ -20101,6 +21326,12 @@
       "max": 86
     },
     "requiredStrength": 55,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "invmsk",
     "stats": [
@@ -20198,6 +21429,12 @@
       "max": 125
     },
     "requiredStrength": 58,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 40,
     "invFile": "invbhmu",
     "stats": [
@@ -20313,6 +21550,12 @@
       "max": 117
     },
     "requiredStrength": 38,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "invqlt",
     "stats": [
@@ -20400,6 +21643,12 @@
       "max": 126
     },
     "requiredStrength": 43,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invlea",
     "stats": [
@@ -20489,6 +21738,12 @@
       "max": 136
     },
     "requiredStrength": 50,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 28,
     "invFile": "invhla",
     "stats": [
@@ -20590,6 +21845,12 @@
       "max": 153
     },
     "requiredStrength": 61,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 32,
     "invFile": "invxtuu",
     "stats": [
@@ -20691,6 +21952,12 @@
       "max": 172
     },
     "requiredStrength": 74,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 26,
     "invFile": "invrng",
     "stats": [
@@ -20800,6 +22067,12 @@
       "max": 190
     },
     "requiredStrength": 86,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 36,
     "invFile": "invscl",
     "stats": [
@@ -20899,6 +22172,12 @@
       "max": 213
     },
     "requiredStrength": 92,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 45,
     "invFile": "invchn",
     "stats": [
@@ -20976,6 +22255,12 @@
       "max": 202
     },
     "requiredStrength": 65,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 50,
     "invFile": "invbrs",
     "stats": [
@@ -21113,6 +22398,12 @@
       "max": 243
     },
     "requiredStrength": 97,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 30,
     "invFile": "invspl",
     "stats": [
@@ -21210,6 +22501,12 @@
       "max": 274
     },
     "requiredStrength": 118,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 60,
     "invFile": "invplt",
     "stats": [
@@ -21317,6 +22614,12 @@
       "max": 258
     },
     "requiredStrength": 103,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 48,
     "invFile": "invfld",
     "stats": [
@@ -21428,6 +22731,12 @@
       "max": 303
     },
     "requiredStrength": 125,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 55,
     "invFile": "invgth",
     "stats": [
@@ -21545,6 +22854,12 @@
       "max": 342
     },
     "requiredStrength": 140,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 70,
     "invFile": "invful",
     "stats": [
@@ -21646,6 +22961,12 @@
       "max": 450
     },
     "requiredStrength": 170,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 60,
     "invFile": "invxaru",
     "stats": [
@@ -21670,17 +22991,6 @@
         "min": 12,
         "max": 36,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:74",
-        "label": {
-          "en": "Charges (Corpse Explosion)",
-          "zh-TW": "充能次數 (屍體爆炸)",
-          "zh-CN": "充能次数 (尸体爆炸)"
-        },
-        "min": 40,
-        "max": 5,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -21724,13 +23034,23 @@
         "value": null,
         "isSkillRef": false,
         "composed": true
+      },
+      {
+        "key": "charged:74",
+        "label": {
+          "en": "Level 5 Corpse Explosion (40 Charges)",
+          "zh-TW": "等級 5 屍體爆炸（40 次）",
+          "zh-CN": "等级 5 尸体爆炸（40 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "ac%",
-      "dmg-fire",
-      "charged:74"
+      "dmg-fire"
     ],
     "note": null,
     "statPools": []
@@ -21758,6 +23078,12 @@
       "max": 261
     },
     "requiredStrength": 55,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 60,
     "invFile": "invltp",
     "stats": [
@@ -21867,6 +23193,12 @@
       "max": 49
     },
     "requiredStrength": 38,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 8,
+      "max": 12
+    },
+    "twoHandDamage": null,
     "durability": 68,
     "invFile": "invbucu",
     "stats": [
@@ -21954,6 +23286,12 @@
       "max": 55
     },
     "requiredStrength": 53,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 7,
+      "max": 14
+    },
+    "twoHandDamage": null,
     "durability": 64,
     "invFile": "invxmlu",
     "stats": [
@@ -22041,6 +23379,12 @@
       "max": 61
     },
     "requiredStrength": 71,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 11,
+      "max": 15
+    },
+    "twoHandDamage": null,
     "durability": 62,
     "invFile": "invxrgu",
     "stats": [
@@ -22172,6 +23516,12 @@
       "max": 67
     },
     "requiredStrength": 91,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 15,
+      "max": 24
+    },
+    "twoHandDamage": null,
     "durability": 76,
     "invFile": "invkitu",
     "stats": [
@@ -22310,6 +23660,12 @@
       "max": 78
     },
     "requiredStrength": 133,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 10,
+      "max": 17
+    },
+    "twoHandDamage": null,
     "durability": 72,
     "invFile": "invtowu",
     "stats": [
@@ -22423,6 +23779,12 @@
       "max": 93
     },
     "requiredStrength": 110,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 12,
+      "max": 16
+    },
+    "twoHandDamage": null,
     "durability": 80,
     "invFile": "invgtsu",
     "stats": [
@@ -22436,17 +23798,6 @@
         "min": 160,
         "max": 200,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:83",
-        "label": {
-          "en": "Charges (Poison Explosion)",
-          "zh-TW": "充能次數 (毒爆)",
-          "zh-CN": "充能次数 (毒爆)"
-        },
-        "min": 40,
-        "max": 6,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -22502,6 +23853,17 @@
         "isSkillRef": false
       },
       {
+        "key": "charged:83",
+        "label": {
+          "en": "Level 6 Poison Explosion (40 Charges)",
+          "zh-TW": "等級 6 毒爆（40 次）",
+          "zh-CN": "等级 6 毒爆（40 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
         "key": "dur",
         "label": {
           "en": "Durability %",
@@ -22514,8 +23876,7 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "ac%",
-      "charged:83"
+      "ac%"
     ],
     "note": null,
     "statPools": []
@@ -22543,6 +23904,12 @@
       "max": 150
     },
     "requiredStrength": 58,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 14,
+      "max": 20
+    },
+    "twoHandDamage": null,
     "durability": 70,
     "invFile": "invxshu",
     "stats": [
@@ -22652,6 +24019,12 @@
       "max": 78
     },
     "requiredStrength": 65,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 18,
+      "max": 35
+    },
+    "twoHandDamage": null,
     "durability": 55,
     "invFile": "invxpku",
     "stats": [
@@ -22749,6 +24122,12 @@
       "max": 35
     },
     "requiredStrength": 20,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 12,
     "invFile": "invlgl",
     "stats": [
@@ -22858,6 +24237,12 @@
       "max": 39
     },
     "requiredStrength": 20,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 14,
     "invFile": "invvgl",
     "stats": [
@@ -22949,6 +24334,12 @@
       "max": 44
     },
     "requiredStrength": 58,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 16,
     "invFile": "invmgl",
     "stats": [
@@ -23038,6 +24429,12 @@
       "max": 47
     },
     "requiredStrength": 88,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 18,
     "invFile": "invtgl",
     "stats": [
@@ -23148,6 +24545,12 @@
       "max": 53
     },
     "requiredStrength": 110,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invhgl",
     "stats": [
@@ -23249,6 +24652,12 @@
       "max": 35
     },
     "requiredStrength": 20,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 26,
+      "max": 46
+    },
+    "twoHandDamage": null,
     "durability": 12,
     "invFile": "invlbt",
     "stats": [
@@ -23381,6 +24790,12 @@
       "max": 39
     },
     "requiredStrength": 47,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 28,
+      "max": 50
+    },
+    "twoHandDamage": null,
     "durability": 14,
     "invFile": "invvbt",
     "stats": [
@@ -23500,6 +24915,12 @@
       "max": 44
     },
     "requiredStrength": 65,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 23,
+      "max": 52
+    },
+    "twoHandDamage": null,
     "durability": 16,
     "invFile": "invmbt",
     "stats": [
@@ -23587,6 +25008,12 @@
       "max": 47
     },
     "requiredStrength": 95,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 37,
+      "max": 64
+    },
+    "twoHandDamage": null,
     "durability": 18,
     "invFile": "invtbt",
     "stats": [
@@ -23720,6 +25147,12 @@
       "max": 53
     },
     "requiredStrength": 125,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 39,
+      "max": 80
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invhbt",
     "stats": [
@@ -23837,6 +25270,12 @@
       "max": 34
     },
     "requiredStrength": 20,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 12,
     "invFile": "invlbl",
     "stats": [
@@ -23940,6 +25379,12 @@
       "max": 36
     },
     "requiredStrength": 20,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 14,
     "invFile": "invvbl",
     "stats": [
@@ -24037,6 +25482,12 @@
       "max": 40
     },
     "requiredStrength": 58,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 16,
     "invFile": "invmbl",
     "stats": [
@@ -24134,6 +25585,12 @@
       "max": 42
     },
     "requiredStrength": 88,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 18,
     "invFile": "invtbl",
     "stats": [
@@ -24254,6 +25711,12 @@
       "max": 52
     },
     "requiredStrength": 110,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invhbl",
     "stats": [
@@ -24384,6 +25847,12 @@
       "max": 141
     },
     "requiredStrength": 50,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 12,
     "invFile": "invcap",
     "stats": [],
@@ -24507,6 +25976,12 @@
       "max": 159
     },
     "requiredStrength": 192,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 40,
     "invFile": "invghm",
     "stats": [],
@@ -24610,6 +26085,12 @@
       "max": 481
     },
     "requiredStrength": 111,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 32,
     "invFile": "invstu",
     "stats": [
@@ -24741,6 +26222,12 @@
       "max": 517
     },
     "requiredStrength": 165,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 30,
     "invFile": "invspl",
     "stats": [
@@ -24832,6 +26319,12 @@
       "max": 123
     },
     "requiredStrength": 100,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 17,
+      "max": 29
+    },
+    "twoHandDamage": null,
     "durability": 84,
     "invFile": "invsmlu",
     "stats": [
@@ -24950,6 +26443,12 @@
       "max": 148
     },
     "requiredStrength": 156,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 12,
+      "max": 34
+    },
+    "twoHandDamage": null,
     "durability": 86,
     "invFile": "invkitu",
     "stats": [],
@@ -25070,6 +26569,12 @@
     "slotCategory": "axes",
     "defense": null,
     "requiredStrength": 189,
+    "requiredDexterity": 33,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 49,
+      "max": 137
+    },
     "durability": 40,
     "invFile": "invbtxu",
     "stats": [
@@ -25083,17 +26588,6 @@
         "min": 150,
         "max": 250,
         "isSkillRef": false
-      },
-      {
-        "key": "att-skill:47",
-        "label": {
-          "en": "Attack Rating (skill) (Fire Ball)",
-          "zh-TW": "攻擊等級（技能） (火球)",
-          "zh-CN": "攻击等级（技能） (火球)"
-        },
-        "min": 10,
-        "max": 0,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -25146,12 +26640,22 @@
         },
         "value": 100,
         "isSkillRef": false
+      },
+      {
+        "key": "att-skill:47",
+        "label": {
+          "en": "10% Chance to cast level 0 Fire Ball on attack",
+          "zh-TW": "攻擊時有 10% 機率施展等級 0 火球",
+          "zh-CN": "攻击时有 10% 机率施展等级 0 火球"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-fire",
-      "att-skill:47"
+      "dmg-fire"
     ],
     "note": null,
     "statPools": []
@@ -25176,6 +26680,12 @@
     "slotCategory": "axes",
     "defense": null,
     "requiredStrength": 167,
+    "requiredDexterity": 59,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 59,
+      "max": 94
+    },
     "durability": 50,
     "invFile": "invgaxu",
     "stats": [
@@ -25300,6 +26810,12 @@
     "slotCategory": "maces",
     "defense": null,
     "requiredStrength": 153,
+    "requiredDexterity": 44,
+    "oneHandDamage": {
+      "min": 43,
+      "max": 53
+    },
+    "twoHandDamage": null,
     "durability": 72,
     "invFile": "invmstu",
     "stats": [
@@ -25428,6 +26944,12 @@
     "slotCategory": "hammers",
     "defense": null,
     "requiredStrength": 189,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 50,
+      "max": 61
+    },
+    "twoHandDamage": null,
     "durability": 65,
     "invFile": "invwhm",
     "stats": [
@@ -25565,6 +27087,12 @@
     "slotCategory": "hammers",
     "defense": null,
     "requiredStrength": 253,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 33,
+      "max": 180
+    },
     "durability": 60,
     "invFile": "invgma",
     "stats": [
@@ -25680,20 +27208,15 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 25,
+    "requiredDexterity": 136,
+    "oneHandDamage": {
+      "min": 31,
+      "max": 35
+    },
+    "twoHandDamage": null,
     "durability": 0,
     "invFile": "invcrsu",
     "stats": [
-      {
-        "key": "att-skill:53",
-        "label": {
-          "en": "Attack Rating (skill) (Chain Lightning)",
-          "zh-TW": "攻擊等級（技能） (連鎖閃電)",
-          "zh-CN": "攻击等级（技能） (连锁闪电)"
-        },
-        "min": 5,
-        "max": 0,
-        "isSkillRef": true
-      },
       {
         "key": "dmg-mag",
         "label": {
@@ -25762,6 +27285,17 @@
         "isSkillRef": false
       },
       {
+        "key": "att-skill:53",
+        "label": {
+          "en": "5% Chance to cast level 0 Chain Lightning on attack",
+          "zh-TW": "攻擊時有 5% 機率施展等級 0 連鎖閃電",
+          "zh-CN": "攻击时有 5% 机率施展等级 0 连锁闪电"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
         "key": "ignore-ac",
         "label": {
           "en": "Ignore Target Defense",
@@ -25794,7 +27328,6 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "att-skill:53",
       "dmg-mag",
       "dmg-ltng",
       "manasteal",
@@ -25824,6 +27357,15 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 163,
+    "requiredDexterity": 103,
+    "oneHandDamage": {
+      "min": 24,
+      "max": 54
+    },
+    "twoHandDamage": {
+      "min": 71,
+      "max": 83
+    },
     "durability": 40,
     "invFile": "invbswu",
     "stats": [
@@ -25933,6 +27475,15 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 189,
+    "requiredDexterity": 110,
+    "oneHandDamage": {
+      "min": 25,
+      "max": 65
+    },
+    "twoHandDamage": {
+      "min": 58,
+      "max": 115
+    },
     "durability": 50,
     "invFile": "invgsdu",
     "stats": [
@@ -26057,6 +27608,12 @@
     "slotCategory": "daggers",
     "defense": null,
     "requiredStrength": 38,
+    "requiredDexterity": 75,
+    "oneHandDamage": {
+      "min": 23,
+      "max": 49
+    },
+    "twoHandDamage": null,
     "durability": 26,
     "invFile": "invdgr",
     "stats": [],
@@ -26147,6 +27704,12 @@
     "slotCategory": "polearms",
     "defense": null,
     "requiredStrength": 188,
+    "requiredDexterity": 140,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 40,
+      "max": 114
+    },
     "durability": 55,
     "invFile": "invwsc",
     "stats": [
@@ -26275,6 +27838,12 @@
     "slotCategory": "bows",
     "defense": null,
     "requiredStrength": 97,
+    "requiredDexterity": 121,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 15,
+      "max": 63
+    },
     "durability": 44,
     "invFile": "invlbb",
     "stats": [],
@@ -26365,6 +27934,12 @@
     "slotCategory": "bows",
     "defense": null,
     "requiredStrength": 134,
+    "requiredDexterity": 167,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 10,
+      "max": 68
+    },
     "durability": 55,
     "invFile": "invlwb",
     "stats": [
@@ -26479,6 +28054,9 @@
     "slotCategory": "rings",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invrin",
     "stats": [
@@ -26553,6 +28131,9 @@
     "slotCategory": "amulets",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invamu",
     "stats": [],
@@ -26633,6 +28214,9 @@
     "slotCategory": "amulets",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invamu",
     "stats": [
@@ -26728,6 +28312,9 @@
     "slotCategory": "amulets",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invamu",
     "stats": [
@@ -26824,6 +28411,9 @@
     "slotCategory": "amulets",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invamu",
     "stats": [
@@ -26918,6 +28508,9 @@
     "slotCategory": "amulets",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invamu",
     "stats": [],
@@ -27009,6 +28602,9 @@
     "slotCategory": "rings",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invrin",
     "stats": [
@@ -27103,6 +28699,9 @@
     "slotCategory": "rings",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invrin",
     "stats": [
@@ -27201,6 +28800,9 @@
     "slotCategory": "amulets",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invamu",
     "stats": [
@@ -27295,6 +28897,9 @@
     "slotCategory": "amulets",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invamu",
     "stats": [
@@ -27393,6 +28998,12 @@
       "max": 120
     },
     "requiredStrength": 118,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 55,
     "invFile": "invba5",
     "stats": [
@@ -27522,6 +29133,12 @@
       "max": 70
     },
     "requiredStrength": 58,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "invne5",
     "stats": [
@@ -27646,6 +29263,12 @@
     "slotCategory": "javelins",
     "defense": null,
     "requiredStrength": 25,
+    "requiredDexterity": 109,
+    "oneHandDamage": {
+      "min": 18,
+      "max": 35
+    },
+    "twoHandDamage": null,
     "durability": 6,
     "invFile": "invam5",
     "stats": [
@@ -27784,6 +29407,12 @@
     "slotCategory": "bows",
     "defense": null,
     "requiredStrength": 73,
+    "requiredDexterity": 110,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 19,
+      "max": 41
+    },
     "durability": 55,
     "invFile": "invam2",
     "stats": [
@@ -27912,6 +29541,12 @@
     "slotCategory": "spears",
     "defense": null,
     "requiredStrength": 115,
+    "requiredDexterity": 98,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 42,
+      "max": 101
+    },
     "durability": 25,
     "invFile": "invam4",
     "stats": [
@@ -28040,6 +29675,12 @@
     "slotCategory": "orbs",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 18,
+      "max": 42
+    },
+    "twoHandDamage": null,
     "durability": 50,
     "invFile": "invob5",
     "stats": [],
@@ -28164,6 +29805,12 @@
       "max": 168
     },
     "requiredStrength": 89,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 20,
+      "max": 28
+    },
+    "twoHandDamage": null,
     "durability": 50,
     "invFile": "invpa4",
     "stats": [
@@ -28288,6 +29935,12 @@
     "slotCategory": "katars",
     "defense": null,
     "requiredStrength": 79,
+    "requiredDexterity": 79,
+    "oneHandDamage": {
+      "min": 21,
+      "max": 35
+    },
+    "twoHandDamage": null,
     "durability": 69,
     "invFile": "invclw",
     "stats": [
@@ -28419,6 +30072,12 @@
       "max": 98
     },
     "requiredStrength": 65,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "invdr5",
     "stats": [
@@ -28543,6 +30202,12 @@
     "slotCategory": "throwings",
     "defense": null,
     "requiredStrength": 25,
+    "requiredDexterity": 80,
+    "oneHandDamage": {
+      "min": 11,
+      "max": 22
+    },
+    "twoHandDamage": null,
     "durability": 15,
     "invFile": "invtax",
     "stats": [
@@ -28649,6 +30314,12 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 109,
+    "requiredDexterity": 122,
+    "oneHandDamage": {
+      "min": 33,
+      "max": 45
+    },
+    "twoHandDamage": null,
     "durability": 32,
     "invFile": "invsbru",
     "stats": [
@@ -28675,17 +30346,6 @@
         "isSkillRef": false
       },
       {
-        "key": "charged:BloodGolem",
-        "label": {
-          "en": "Charges (BloodGolem)",
-          "zh-TW": "充能次數 (血石魔)",
-          "zh-CN": "充能次数 (血石魔)"
-        },
-        "min": 9,
-        "max": 15,
-        "isSkillRef": true
-      },
-      {
         "key": "heal-kill",
         "label": {
           "en": "Life after each Kill",
@@ -28698,6 +30358,17 @@
       }
     ],
     "fixedStats": [
+      {
+        "key": "charged:BloodGolem",
+        "label": {
+          "en": "Level 15 BloodGolem (9 Charges)",
+          "zh-TW": "等級 15 血石魔（9 次）",
+          "zh-CN": "等级 15 血石魔（9 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
+      },
       {
         "key": "openwounds",
         "label": {
@@ -28713,7 +30384,6 @@
     "statPriority": [
       "dmg%",
       "lifesteal",
-      "charged:BloodGolem",
       "heal-kill"
     ],
     "note": null,
@@ -28739,6 +30409,12 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 138,
+    "requiredDexterity": 95,
+    "oneHandDamage": {
+      "min": 26,
+      "max": 46
+    },
+    "twoHandDamage": null,
     "durability": 22,
     "invFile": "invscmu",
     "stats": [
@@ -28854,6 +30530,12 @@
     "slotCategory": "throwings",
     "defense": null,
     "requiredStrength": 25,
+    "requiredDexterity": 52,
+    "oneHandDamage": {
+      "min": 8,
+      "max": 16
+    },
+    "twoHandDamage": null,
     "durability": 6,
     "invFile": "invtkn",
     "stats": [
@@ -28954,6 +30636,12 @@
     "slotCategory": "throwings",
     "defense": null,
     "requiredStrength": 45,
+    "requiredDexterity": 142,
+    "oneHandDamage": {
+      "min": 27,
+      "max": 35
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "invtk3",
     "stats": [
@@ -29049,6 +30737,12 @@
     "slotCategory": "crossbows",
     "defense": null,
     "requiredStrength": 141,
+    "requiredDexterity": 98,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 26,
+      "max": 40
+    },
     "durability": 40,
     "invFile": "invrxbu",
     "stats": [
@@ -29135,6 +30829,12 @@
     "slotCategory": "axes",
     "defense": null,
     "requiredStrength": 125,
+    "requiredDexterity": 67,
+    "oneHandDamage": {
+      "min": 33,
+      "max": 58
+    },
+    "twoHandDamage": null,
     "durability": 28,
     "invFile": "invhaxu",
     "stats": [
@@ -29219,6 +30919,12 @@
     "slotCategory": "clubs",
     "defense": null,
     "requiredStrength": 133,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 32,
+      "max": 58
+    },
+    "twoHandDamage": null,
     "durability": 65,
     "invFile": "invspcu",
     "stats": [
@@ -29256,17 +30962,6 @@
         "isSkillRef": false
       },
       {
-        "key": "charged:Enchant",
-        "label": {
-          "en": "Charges (Enchant)",
-          "zh-TW": "充能次數 (附魔)",
-          "zh-CN": "充能次数 (附魔)"
-        },
-        "min": 20,
-        "max": 23,
-        "isSkillRef": true
-      },
-      {
         "key": "res-fire",
         "label": {
           "en": "Fire Resist %",
@@ -29279,6 +30974,17 @@
       }
     ],
     "fixedStats": [
+      {
+        "key": "charged:Enchant",
+        "label": {
+          "en": "Level 23 Enchant (20 Charges)",
+          "zh-TW": "等級 23 附魔（20 次）",
+          "zh-CN": "等级 23 附魔（20 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
+      },
       {
         "key": "rep-dur",
         "label": {
@@ -29305,7 +31011,6 @@
       "dmg%",
       "dmg-fire",
       "lifesteal",
-      "charged:Enchant",
       "res-fire"
     ],
     "note": null,
@@ -29334,6 +31039,12 @@
       "max": 149
     },
     "requiredStrength": 109,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invhlmu",
     "stats": [
@@ -29413,6 +31124,12 @@
     "slotCategory": "polearms",
     "defense": null,
     "requiredStrength": 165,
+    "requiredDexterity": 103,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 33,
+      "max": 150
+    },
     "durability": 65,
     "invFile": "invpax",
     "stats": [
@@ -29559,6 +31276,12 @@
     "slotCategory": "wands",
     "defense": null,
     "requiredStrength": 25,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 22,
+      "max": 28
+    },
+    "twoHandDamage": null,
     "durability": 18,
     "invFile": "invgwn",
     "stats": [
@@ -29649,6 +31372,9 @@
     "slotCategory": "rings",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invrin",
     "stats": [
@@ -29673,17 +31399,6 @@
         "min": 20,
         "max": 30,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:Oak Sage",
-        "label": {
-          "en": "Charges (Oak Sage)",
-          "zh-TW": "充能次數 (橡木智者)",
-          "zh-CN": "充能次数 (橡木智者)"
-        },
-        "min": 27,
-        "max": 5,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -29706,13 +31421,23 @@
         },
         "value": 1,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:Oak Sage",
+        "label": {
+          "en": "Level 5 Oak Sage (27 Charges)",
+          "zh-TW": "等級 5 橡木智者（27 次）",
+          "zh-CN": "等级 5 橡木智者（27 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "red-dmg",
-      "res-pois",
-      "charged:Oak Sage"
+      "res-pois"
     ],
     "note": null,
     "statPools": []
@@ -29737,6 +31462,12 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 25,
+    "requiredDexterity": 136,
+    "oneHandDamage": {
+      "min": 31,
+      "max": 35
+    },
+    "twoHandDamage": null,
     "durability": 0,
     "invFile": "invcrs",
     "stats": [
@@ -29859,6 +31590,9 @@
     "slotCategory": "amulets",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invamu2",
     "stats": [
@@ -29971,6 +31705,12 @@
     "slotCategory": "daggers",
     "defense": null,
     "requiredStrength": 42,
+    "requiredDexterity": 86,
+    "oneHandDamage": {
+      "min": 15,
+      "max": 57
+    },
+    "twoHandDamage": null,
     "durability": 36,
     "invFile": "invkrsu",
     "stats": [
@@ -30075,6 +31815,12 @@
     "slotCategory": "maces",
     "defense": null,
     "requiredStrength": 125,
+    "requiredDexterity": 77,
+    "oneHandDamage": {
+      "min": 3,
+      "max": 80
+    },
+    "twoHandDamage": null,
     "durability": 65,
     "invFile": "invfla",
     "stats": [
@@ -30160,6 +31906,12 @@
     "slotCategory": "hammers",
     "defense": null,
     "requiredStrength": 189,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 50,
+      "max": 61
+    },
+    "twoHandDamage": null,
     "durability": 65,
     "invFile": "invwhm",
     "stats": [
@@ -30258,6 +32010,12 @@
     "slotCategory": "katars",
     "defense": null,
     "requiredStrength": 105,
+    "requiredDexterity": 105,
+    "oneHandDamage": {
+      "min": 34,
+      "max": 45
+    },
+    "twoHandDamage": null,
     "durability": 56,
     "invFile": "invktr",
     "stats": [
@@ -30363,6 +32121,12 @@
       "max": 71
     },
     "requiredStrength": 208,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 83,
+      "max": 149
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invhbt",
     "stats": [
@@ -30464,6 +32228,12 @@
       "max": 145
     },
     "requiredStrength": 86,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "invdr1",
     "stats": [
@@ -30569,6 +32339,12 @@
       "max": 600
     },
     "requiredStrength": 232,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 60,
     "invFile": "invaaru",
     "stats": [
@@ -30702,6 +32478,12 @@
       "max": 67
     },
     "requiredStrength": 106,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 16,
     "invFile": "invmgl",
     "stats": [
@@ -30791,6 +32573,12 @@
     "slotCategory": "axes",
     "defense": null,
     "requiredStrength": 145,
+    "requiredDexterity": 45,
+    "oneHandDamage": {
+      "min": 33,
+      "max": 66
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "inv2ax",
     "stats": [
@@ -30867,6 +32655,12 @@
     "slotCategory": "axes",
     "defense": null,
     "requiredStrength": 138,
+    "requiredDexterity": 59,
+    "oneHandDamage": {
+      "min": 24,
+      "max": 71
+    },
+    "twoHandDamage": null,
     "durability": 26,
     "invFile": "invwax",
     "stats": [
@@ -30953,6 +32747,12 @@
     "slotCategory": "axes",
     "defense": null,
     "requiredStrength": 164,
+    "requiredDexterity": 55,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 60,
+      "max": 124
+    },
     "durability": 50,
     "invFile": "invgix",
     "stats": [
@@ -31038,6 +32838,12 @@
     "slotCategory": "spears",
     "defense": null,
     "requiredStrength": 114,
+    "requiredDexterity": 142,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 65,
+      "max": 95
+    },
     "durability": 28,
     "invFile": "invam3",
     "stats": [
@@ -31132,6 +32938,12 @@
       "max": 523
     },
     "requiredStrength": 174,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 48,
     "invFile": "invfld",
     "stats": [
@@ -31222,6 +33034,9 @@
     "slotCategory": "rings",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invrin",
     "stats": [
@@ -31246,39 +33061,6 @@
         "min": 10,
         "max": 20,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:Oak Sage",
-        "label": {
-          "en": "Charges (Oak Sage)",
-          "zh-TW": "充能次數 (橡木智者)",
-          "zh-CN": "充能次数 (橡木智者)"
-        },
-        "min": 15,
-        "max": 2,
-        "isSkillRef": true
-      },
-      {
-        "key": "charged:Heart of Wolverine",
-        "label": {
-          "en": "Charges (Heart of Wolverine)",
-          "zh-TW": "充能次數 (狼獾之心)",
-          "zh-CN": "充能次数 (狼獾之心)"
-        },
-        "min": 13,
-        "max": 5,
-        "isSkillRef": true
-      },
-      {
-        "key": "charged:Spirit of Barbs",
-        "label": {
-          "en": "Charges (Spirit of Barbs)",
-          "zh-TW": "充能次數 (荊棘之靈)",
-          "zh-CN": "充能次数 (荆棘之灵)"
-        },
-        "min": 11,
-        "max": 7,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -31292,15 +33074,45 @@
         "value": null,
         "isSkillRef": false,
         "composed": true
+      },
+      {
+        "key": "charged:Oak Sage",
+        "label": {
+          "en": "Level 2 Oak Sage (15 Charges)",
+          "zh-TW": "等級 2 橡木智者（15 次）",
+          "zh-CN": "等级 2 橡木智者（15 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "charged:Heart of Wolverine",
+        "label": {
+          "en": "Level 5 Heart of Wolverine (13 Charges)",
+          "zh-TW": "等級 5 狼獾之心（13 次）",
+          "zh-CN": "等级 5 狼獾之心（13 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "charged:Spirit of Barbs",
+        "label": {
+          "en": "Level 7 Spirit of Barbs (11 Charges)",
+          "zh-TW": "等級 7 荊棘之靈（11 次）",
+          "zh-CN": "等级 7 荆棘之灵（11 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "abs-ltng%",
-      "mag%",
-      "charged:Oak Sage",
-      "charged:Heart of Wolverine",
-      "charged:Spirit of Barbs"
+      "mag%"
     ],
     "note": null,
     "statPools": []
@@ -31325,6 +33137,12 @@
     "slotCategory": "javelins",
     "defense": null,
     "requiredStrength": 76,
+    "requiredDexterity": 145,
+    "oneHandDamage": {
+      "min": 27,
+      "max": 35
+    },
+    "twoHandDamage": null,
     "durability": 18,
     "invFile": "invtsp",
     "stats": [
@@ -31349,17 +33167,6 @@
         "min": 9,
         "max": 15,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:Plague Javelin",
-        "label": {
-          "en": "Charges (Plague Javelin)",
-          "zh-TW": "充能次數 (Plague Javelin)",
-          "zh-CN": "充能次数 (Plague Javelin)"
-        },
-        "min": 60,
-        "max": 11,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -31382,13 +33189,23 @@
         },
         "value": 293,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:Plague Javelin",
+        "label": {
+          "en": "Level 11 Plague Javelin (60 Charges)",
+          "zh-TW": "等級 11 Plague Javelin（60 次）",
+          "zh-CN": "等级 11 Plague Javelin（60 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "lifesteal",
-      "charged:Plague Javelin"
+      "lifesteal"
     ],
     "note": null,
     "statPools": []
@@ -31413,6 +33230,12 @@
     "slotCategory": "throwings",
     "defense": null,
     "requiredStrength": 96,
+    "requiredDexterity": 122,
+    "oneHandDamage": {
+      "min": 11,
+      "max": 56
+    },
+    "twoHandDamage": null,
     "durability": 16,
     "invFile": "invbal",
     "stats": [
@@ -31518,6 +33341,12 @@
     "slotCategory": "staves",
     "defense": null,
     "requiredStrength": 34,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 83,
+      "max": 99
+    },
     "durability": 26,
     "invFile": "inv8wsu",
     "stats": [
@@ -31616,6 +33445,12 @@
     "slotCategory": "spears",
     "defense": null,
     "requiredStrength": 132,
+    "requiredDexterity": 134,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 42,
+      "max": 92
+    },
     "durability": 28,
     "invFile": "invbrn",
     "stats": [
@@ -31715,6 +33550,12 @@
     "slotCategory": "axes",
     "defense": null,
     "requiredStrength": 166,
+    "requiredDexterity": 65,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 62,
+      "max": 110
+    },
     "durability": 35,
     "invFile": "invbrx",
     "stats": [
@@ -31830,6 +33671,12 @@
       "max": 156
     },
     "requiredStrength": 151,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 45,
     "invFile": "invba3",
     "stats": [
@@ -31944,6 +33791,12 @@
     "slotCategory": "polearms",
     "defense": null,
     "requiredStrength": 152,
+    "requiredDexterity": 118,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 12,
+      "max": 141
+    },
     "durability": 65,
     "invFile": "invscy",
     "stats": [
@@ -32056,6 +33909,12 @@
       "max": 152
     },
     "requiredStrength": 104,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "invdr3",
     "stats": [
@@ -32168,6 +34027,12 @@
     "slotCategory": "crossbows",
     "defense": null,
     "requiredStrength": 163,
+    "requiredDexterity": 77,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 32,
+      "max": 91
+    },
     "durability": 50,
     "invFile": "invhxbu",
     "stats": [
@@ -32203,17 +34068,6 @@
         "min": 100,
         "max": 150,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:Immolation Arrow",
-        "label": {
-          "en": "Charges (Immolation Arrow)",
-          "zh-TW": "充能次數 (Immolation Arrow)",
-          "zh-CN": "充能次数 (Immolation Arrow)"
-        },
-        "min": 150,
-        "max": 18,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -32236,14 +34090,24 @@
         },
         "value": 2,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:Immolation Arrow",
+        "label": {
+          "en": "Level 18 Immolation Arrow (150 Charges)",
+          "zh-TW": "等級 18 Immolation Arrow（150 次）",
+          "zh-CN": "等级 18 Immolation Arrow（150 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "dmg%",
       "dmg-elem",
-      "att%",
-      "charged:Immolation Arrow"
+      "att%"
     ],
     "note": null,
     "statPools": []
@@ -32271,6 +34135,12 @@
       "max": 164
     },
     "requiredStrength": 109,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 35,
+      "max": 58
+    },
+    "twoHandDamage": null,
     "durability": 68,
     "invFile": "invpa2",
     "stats": [
@@ -32386,6 +34256,12 @@
       "max": 148
     },
     "requiredStrength": 106,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "invne5",
     "stats": [
@@ -32486,6 +34362,12 @@
     "slotCategory": "bows",
     "defense": null,
     "requiredStrength": 72,
+    "requiredDexterity": 146,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 20,
+      "max": 53
+    },
     "durability": 48,
     "invFile": "invswbu",
     "stats": [
@@ -32572,6 +34454,12 @@
     "slotCategory": "bows",
     "defense": null,
     "requiredStrength": 87,
+    "requiredDexterity": 187,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 20,
+      "max": 47
+    },
     "durability": 48,
     "invFile": "invswbu",
     "stats": [
@@ -32607,17 +34495,6 @@
         "min": 2,
         "max": 4,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:Revive",
-        "label": {
-          "en": "Charges (Revive)",
-          "zh-TW": "充能次數 (重生)",
-          "zh-CN": "充能次数 (重生)"
-        },
-        "min": 30,
-        "max": 5,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -32630,14 +34507,24 @@
         },
         "value": 13,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:Revive",
+        "label": {
+          "en": "Level 5 Revive (30 Charges)",
+          "zh-TW": "等級 5 重生（30 次）",
+          "zh-CN": "等级 5 重生（30 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "dmg%",
       "att%",
-      "skilltab:0",
-      "charged:Revive"
+      "skilltab:0"
     ],
     "note": null,
     "statPools": []
@@ -32662,6 +34549,12 @@
     "slotCategory": "daggers",
     "defense": null,
     "requiredStrength": 65,
+    "requiredDexterity": 67,
+    "oneHandDamage": {
+      "min": 31,
+      "max": 47
+    },
+    "twoHandDamage": null,
     "durability": 47,
     "invFile": "invbld",
     "stats": [
@@ -32758,6 +34651,12 @@
     "slotCategory": "katars",
     "defense": null,
     "requiredStrength": 110,
+    "requiredDexterity": 110,
+    "oneHandDamage": {
+      "min": 36,
+      "max": 42
+    },
+    "twoHandDamage": null,
     "durability": 72,
     "invFile": "invaxfu",
     "stats": [
@@ -32855,6 +34754,12 @@
     "slotCategory": "throwings",
     "defense": null,
     "requiredStrength": 88,
+    "requiredDexterity": 108,
+    "oneHandDamage": {
+      "min": 17,
+      "max": 65
+    },
+    "twoHandDamage": null,
     "durability": 15,
     "invFile": "invtax",
     "stats": [
@@ -32958,6 +34863,12 @@
       "max": 60
     },
     "requiredStrength": 0,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "invci3",
     "stats": [
@@ -33046,6 +34957,12 @@
     "slotCategory": "hammers",
     "defense": null,
     "requiredStrength": 225,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 77,
+      "max": 106
+    },
     "durability": 60,
     "invFile": "invmau",
     "stats": [
@@ -33121,6 +35038,12 @@
     "slotCategory": "javelins",
     "defense": null,
     "requiredStrength": 107,
+    "requiredDexterity": 151,
+    "oneHandDamage": {
+      "min": 30,
+      "max": 54
+    },
+    "twoHandDamage": null,
     "durability": 6,
     "invFile": "invam5",
     "stats": [
@@ -33230,6 +35153,12 @@
     "slotCategory": "javelins",
     "defense": null,
     "requiredStrength": 127,
+    "requiredDexterity": 95,
+    "oneHandDamage": {
+      "min": 33,
+      "max": 63
+    },
+    "twoHandDamage": null,
     "durability": 14,
     "invFile": "invssp",
     "stats": [
@@ -33333,6 +35262,12 @@
       "max": 146
     },
     "requiredStrength": 95,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "invne4",
     "stats": [
@@ -33422,6 +35357,12 @@
     "slotCategory": "spears",
     "defense": null,
     "requiredStrength": 165,
+    "requiredDexterity": 106,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 33,
+      "max": 178
+    },
     "durability": 25,
     "invFile": "invpik",
     "stats": [
@@ -33521,6 +35462,12 @@
       "max": 159
     },
     "requiredStrength": 192,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 40,
     "invFile": "invghm",
     "stats": [
@@ -33634,6 +35581,12 @@
       "max": 165
     },
     "requiredStrength": 174,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 50,
     "invFile": "invcrn",
     "stats": [
@@ -33757,6 +35710,12 @@
       "max": 154
     },
     "requiredStrength": 102,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "invmsk",
     "stats": [
@@ -33781,17 +35740,6 @@
         "min": 25,
         "max": 30,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:278",
-        "label": {
-          "en": "Charges (Venom)",
-          "zh-TW": "充能次數 (刀刃之盾)",
-          "zh-CN": "充能次数 (刀刃之盾)"
-        },
-        "min": 20,
-        "max": 3,
-        "isSkillRef": true
       },
       {
         "key": "lifesteal",
@@ -33858,6 +35806,17 @@
         "composed": true
       },
       {
+        "key": "charged:278",
+        "label": {
+          "en": "Level 3 Venom (20 Charges)",
+          "zh-TW": "等級 3 刀刃之盾（20 次）",
+          "zh-CN": "等级 3 刀刃之盾（20 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
         "key": "res-fire",
         "label": {
           "en": "Fire Resist %",
@@ -33872,7 +35831,6 @@
     "statPriority": [
       "ac%",
       "str",
-      "charged:278",
       "lifesteal"
     ],
     "note": null,
@@ -33901,6 +35859,12 @@
       "max": 193
     },
     "requiredStrength": 142,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 46,
+      "max": 46
+    },
+    "twoHandDamage": null,
     "durability": 65,
     "invFile": "invpa4",
     "stats": [
@@ -34014,6 +35978,12 @@
       "max": 557
     },
     "requiredStrength": 230,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 70,
     "invFile": "invful",
     "stats": [
@@ -34128,6 +36098,12 @@
       "max": 161
     },
     "requiredStrength": 219,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 18,
+      "max": 28
+    },
+    "twoHandDamage": null,
     "durability": 92,
     "invFile": "invtowu",
     "stats": [
@@ -34231,6 +36207,12 @@
       "max": 155
     },
     "requiredStrength": 113,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "invdr4",
     "stats": [
@@ -34331,6 +36313,12 @@
     "slotCategory": "wands",
     "defense": null,
     "requiredStrength": 25,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 10,
+      "max": 31
+    },
+    "twoHandDamage": null,
     "durability": 17,
     "invFile": "invbwnu",
     "stats": [
@@ -34443,6 +36431,15 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 185,
+    "requiredDexterity": 87,
+    "oneHandDamage": {
+      "min": 15,
+      "max": 75
+    },
+    "twoHandDamage": {
+      "min": 55,
+      "max": 118
+    },
     "durability": 50,
     "invFile": "invgisu",
     "stats": [
@@ -34568,6 +36565,12 @@
     "slotCategory": "orbs",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 30,
+      "max": 53
+    },
+    "twoHandDamage": null,
     "durability": 50,
     "invFile": "invob5",
     "stats": [
@@ -34659,6 +36662,12 @@
       "max": 150
     },
     "requiredStrength": 129,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 35,
     "invFile": "invba2",
     "stats": [
@@ -34729,17 +36738,6 @@
         "isSkillRef": true
       },
       {
-        "key": "charged:Summon Fenris",
-        "label": {
-          "en": "Charges (Summon Fenris)",
-          "zh-TW": "充能次數 (Summon Fenris)",
-          "zh-CN": "充能次数 (Summon Fenris)"
-        },
-        "min": 18,
-        "max": 15,
-        "isSkillRef": true
-      },
-      {
         "key": "oskill:Shape Shifting",
         "label": {
           "en": "Skill Bonus (Shape Shifting)",
@@ -34762,7 +36760,19 @@
         "isSkillRef": true
       }
     ],
-    "fixedStats": [],
+    "fixedStats": [
+      {
+        "key": "charged:Summon Fenris",
+        "label": {
+          "en": "Level 15 Summon Fenris (18 Charges)",
+          "zh-TW": "等級 15 Summon Fenris（18 次）",
+          "zh-CN": "等级 15 Summon Fenris（18 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
+      }
+    ],
     "setBonuses": [],
     "statPriority": [
       "ac%",
@@ -34771,7 +36781,6 @@
       "dex",
       "vit",
       "oskill:Wearwolf",
-      "charged:Summon Fenris",
       "oskill:Shape Shifting",
       "oskill:Feral Rage"
     ],
@@ -34801,6 +36810,12 @@
       "max": 170
     },
     "requiredStrength": 185,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 11,
+      "max": 35
+    },
+    "twoHandDamage": null,
     "durability": 100,
     "invFile": "invgtsu",
     "stats": [
@@ -34905,6 +36920,12 @@
       "max": 50
     },
     "requiredStrength": 0,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 25,
     "invFile": "invci2",
     "stats": [
@@ -34984,6 +37005,12 @@
       "max": 467
     },
     "requiredStrength": 77,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "invqlt",
     "stats": [
@@ -35098,6 +37125,9 @@
     "slotCategory": "charms",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invsst",
     "stats": [
@@ -35165,6 +37195,12 @@
     "slotCategory": "maces",
     "defense": null,
     "requiredStrength": 125,
+    "requiredDexterity": 77,
+    "oneHandDamage": {
+      "min": 3,
+      "max": 80
+    },
+    "twoHandDamage": null,
     "durability": 65,
     "invFile": "invfla",
     "stats": [
@@ -35288,6 +37324,12 @@
       "max": 159
     },
     "requiredStrength": 174,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 50,
     "invFile": "invba4",
     "stats": [
@@ -35401,6 +37443,12 @@
       "max": 163
     },
     "requiredStrength": 118,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 26,
+      "max": 40
+    },
+    "twoHandDamage": null,
     "durability": 83,
     "invFile": "invspku",
     "stats": [
@@ -35500,6 +37548,12 @@
       "max": 65
     },
     "requiredStrength": 50,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 14,
     "invFile": "invvgl",
     "stats": [
@@ -35601,6 +37655,12 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 99,
+    "requiredDexterity": 109,
+    "oneHandDamage": {
+      "min": 5,
+      "max": 77
+    },
+    "twoHandDamage": null,
     "durability": 44,
     "invFile": "invlsdu",
     "stats": [
@@ -35714,6 +37774,12 @@
       "max": 600
     },
     "requiredStrength": 232,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 60,
     "invFile": "invaaru",
     "stats": [
@@ -35828,6 +37894,12 @@
     "slotCategory": "orbs",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 18,
+      "max": 50
+    },
+    "twoHandDamage": null,
     "durability": 30,
     "invFile": "invob2",
     "stats": [
@@ -35918,6 +37990,12 @@
     "slotCategory": "katars",
     "defense": null,
     "requiredStrength": 113,
+    "requiredDexterity": 113,
+    "oneHandDamage": {
+      "min": 22,
+      "max": 53
+    },
+    "twoHandDamage": null,
     "durability": 52,
     "invFile": "invclw",
     "stats": [
@@ -36035,6 +38113,12 @@
       "max": 65
     },
     "requiredStrength": 91,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 60,
+      "max": 110
+    },
+    "twoHandDamage": null,
     "durability": 14,
     "invFile": "invvbt",
     "stats": [
@@ -36168,6 +38252,12 @@
       "max": 67
     },
     "requiredStrength": 118,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 69,
+      "max": 118
+    },
+    "twoHandDamage": null,
     "durability": 16,
     "invFile": "invmbt",
     "stats": [
@@ -36181,28 +38271,6 @@
         "min": 170,
         "max": 200,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:Bone Prison",
-        "label": {
-          "en": "Charges (Bone Prison)",
-          "zh-TW": "充能次數 (骨牢)",
-          "zh-CN": "充能次数 (骨牢)"
-        },
-        "min": 13,
-        "max": 33,
-        "isSkillRef": true
-      },
-      {
-        "key": "charged:Life Tap",
-        "label": {
-          "en": "Charges (Life Tap)",
-          "zh-TW": "充能次數 (偷取生命)",
-          "zh-CN": "充能次数 (偷取生命)"
-        },
-        "min": 10,
-        "max": 12,
-        "isSkillRef": true
       },
       {
         "key": "str",
@@ -36237,6 +38305,28 @@
         },
         "value": 20,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:Bone Prison",
+        "label": {
+          "en": "Level 33 Bone Prison (13 Charges)",
+          "zh-TW": "等級 33 骨牢（13 次）",
+          "zh-CN": "等级 33 骨牢（13 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "charged:Life Tap",
+        "label": {
+          "en": "Level 12 Life Tap (10 Charges)",
+          "zh-TW": "等級 12 偷取生命（10 次）",
+          "zh-CN": "等级 12 偷取生命（10 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       },
       {
         "key": "regen-stam",
@@ -36282,8 +38372,6 @@
     "setBonuses": [],
     "statPriority": [
       "ac%",
-      "charged:Bone Prison",
-      "charged:Life Tap",
       "str",
       "skill:Skeleton Mastery"
     ],
@@ -36310,6 +38398,12 @@
     "slotCategory": "scepters",
     "defense": null,
     "requiredStrength": 125,
+    "requiredDexterity": 65,
+    "oneHandDamage": {
+      "min": 40,
+      "max": 52
+    },
+    "twoHandDamage": null,
     "durability": 50,
     "invFile": "invscp",
     "stats": [
@@ -36433,6 +38527,12 @@
       "max": 62
     },
     "requiredStrength": 50,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 12,
     "invFile": "invlbl",
     "stats": [
@@ -36446,17 +38546,6 @@
         "min": 90,
         "max": 120,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:Venom",
-        "label": {
-          "en": "Charges (Venom)",
-          "zh-TW": "充能次數 (淬毒)",
-          "zh-CN": "充能次数 (淬毒)"
-        },
-        "min": 11,
-        "max": 3,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -36469,6 +38558,17 @@
         },
         "value": 20,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:Venom",
+        "label": {
+          "en": "Level 3 Venom (11 Charges)",
+          "zh-TW": "等級 3 淬毒（11 次）",
+          "zh-CN": "等级 3 淬毒（11 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       },
       {
         "key": "allskills",
@@ -36503,8 +38603,7 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "ac%",
-      "charged:Venom"
+      "ac%"
     ],
     "note": null,
     "statPools": []
@@ -36532,6 +38631,12 @@
       "max": 63
     },
     "requiredStrength": 50,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 14,
     "invFile": "invvbl",
     "stats": [
@@ -36626,6 +38731,9 @@
     "slotCategory": "amulets",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invamu",
     "stats": [
@@ -36661,38 +38769,37 @@
         "min": 400,
         "max": 450,
         "isSkillRef": false
-      },
+      }
+    ],
+    "fixedStats": [
       {
         "key": "charged:IronGolem",
         "label": {
-          "en": "Charges (IronGolem)",
-          "zh-TW": "充能次數 (鐵石魔)",
-          "zh-CN": "充能次数 (铁石魔)"
+          "en": "Level 22 IronGolem (11 Charges)",
+          "zh-TW": "等級 22 鐵石魔（11 次）",
+          "zh-CN": "等级 22 铁石魔（11 次）"
         },
-        "min": 11,
-        "max": 22,
-        "isSkillRef": true
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       },
       {
         "key": "charged:Iron Maiden",
         "label": {
-          "en": "Charges (Iron Maiden)",
-          "zh-TW": "充能次數 (攻擊反噬)",
-          "zh-CN": "充能次数 (攻击反噬)"
+          "en": "Level 12 Iron Maiden (20 Charges)",
+          "zh-TW": "等級 12 攻擊反噬（20 次）",
+          "zh-CN": "等级 12 攻击反噬（20 次）"
         },
-        "min": 20,
-        "max": 12,
-        "isSkillRef": true
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       }
     ],
-    "fixedStats": [],
     "setBonuses": [],
     "statPriority": [
       "ac",
       "res-all",
-      "att",
-      "charged:IronGolem",
-      "charged:Iron Maiden"
+      "att"
     ],
     "note": null,
     "statPools": []
@@ -36720,6 +38827,12 @@
       "max": 65
     },
     "requiredStrength": 106,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 16,
     "invFile": "invmbl",
     "stats": [
@@ -36822,6 +38935,9 @@
     "slotCategory": "rings",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invrin",
     "stats": [
@@ -36846,17 +38962,6 @@
         "min": 6,
         "max": 9,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:Plague Poppy",
-        "label": {
-          "en": "Charges (Plague Poppy)",
-          "zh-TW": "充能次數 (Plague Poppy)",
-          "zh-CN": "充能次数 (Plague Poppy)"
-        },
-        "min": 15,
-        "max": 21,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -36876,6 +38981,17 @@
           "en": "10% Chance to cast level 10 Poison Nova when struck",
           "zh-TW": "被擊中時有 10% 機率施展等級 10 劇毒新星",
           "zh-CN": "被击中时有 10% 机率施展等级 10 剧毒新星"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "charged:Plague Poppy",
+        "label": {
+          "en": "Level 21 Plague Poppy (15 Charges)",
+          "zh-TW": "等級 21 Plague Poppy（15 次）",
+          "zh-CN": "等级 21 Plague Poppy（15 次）"
         },
         "value": null,
         "isSkillRef": false,
@@ -36906,8 +39022,7 @@
     "setBonuses": [],
     "statPriority": [
       "ac-miss",
-      "lifesteal",
-      "charged:Plague Poppy"
+      "lifesteal"
     ],
     "note": null,
     "statPools": []
@@ -36935,6 +39050,12 @@
       "max": 157
     },
     "requiredStrength": 106,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 40,
     "invFile": "invbhm",
     "stats": [
@@ -37023,6 +39144,12 @@
     "slotCategory": "scepters",
     "defense": null,
     "requiredStrength": 97,
+    "requiredDexterity": 70,
+    "oneHandDamage": {
+      "min": 37,
+      "max": 43
+    },
+    "twoHandDamage": null,
     "durability": 70,
     "invFile": "invwsp",
     "stats": [
@@ -37157,6 +39284,9 @@
     "slotCategory": "charms",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invmss",
     "stats": [
@@ -37235,6 +39365,12 @@
     "slotCategory": "spears",
     "defense": null,
     "requiredStrength": 155,
+    "requiredDexterity": 120,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 35,
+      "max": 119
+    },
     "durability": 30,
     "invFile": "invspr",
     "stats": [
@@ -37331,6 +39467,12 @@
     "slotCategory": "axes",
     "defense": null,
     "requiredStrength": 133,
+    "requiredDexterity": 54,
+    "oneHandDamage": {
+      "min": 30,
+      "max": 48
+    },
+    "twoHandDamage": null,
     "durability": 26,
     "invFile": "invmpiu",
     "stats": [
@@ -37366,17 +39508,6 @@
         "min": 20,
         "max": 50,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:Raven",
-        "label": {
-          "en": "Charges (Raven)",
-          "zh-TW": "充能次數 (掠鴉)",
-          "zh-CN": "充能次数 (掠鸦)"
-        },
-        "min": 15,
-        "max": 8,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -37399,14 +39530,24 @@
         },
         "value": 25,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:Raven",
+        "label": {
+          "en": "Level 8 Raven (15 Charges)",
+          "zh-TW": "等級 8 掠鴉（15 次）",
+          "zh-CN": "等级 8 掠鸦（15 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "dmg%",
       "dmg-ltng",
-      "mag%",
-      "charged:Raven"
+      "mag%"
     ],
     "note": null,
     "statPools": []
@@ -37431,6 +39572,12 @@
     "slotCategory": "clubs",
     "defense": null,
     "requiredStrength": 88,
+    "requiredDexterity": 43,
+    "oneHandDamage": {
+      "min": 35,
+      "max": 43
+    },
+    "twoHandDamage": null,
     "durability": 55,
     "invFile": "invclbu",
     "stats": [
@@ -37455,17 +39602,6 @@
         "min": 2,
         "max": 4,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:Blizzard",
-        "label": {
-          "en": "Charges (Blizzard)",
-          "zh-TW": "充能次數 (暴風雪)",
-          "zh-CN": "充能次数 (暴风雪)"
-        },
-        "min": 12,
-        "max": 16,
-        "isSkillRef": true
       },
       {
         "key": "att%",
@@ -37511,13 +39647,23 @@
         },
         "value": 25,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:Blizzard",
+        "label": {
+          "en": "Level 16 Blizzard (12 Charges)",
+          "zh-TW": "等級 16 暴風雪（12 次）",
+          "zh-CN": "等级 16 暴风雪（12 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "dmg%",
       "freeze",
-      "charged:Blizzard",
       "att%",
       "abs-cold%",
       "dmg-cold"
@@ -37545,6 +39691,12 @@
     "slotCategory": "hammers",
     "defense": null,
     "requiredStrength": 253,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 33,
+      "max": 180
+    },
     "durability": 60,
     "invFile": "invgma",
     "stats": [
@@ -37558,17 +39710,6 @@
         "min": 250,
         "max": 300,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:Volcano",
-        "label": {
-          "en": "Charges (Volcano)",
-          "zh-TW": "充能次數 (火山噴發)",
-          "zh-CN": "充能次数 (火山喷发)"
-        },
-        "min": 30,
-        "max": 14,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -37604,6 +39745,17 @@
         "isSkillRef": false
       },
       {
+        "key": "charged:Volcano",
+        "label": {
+          "en": "Level 14 Volcano (30 Charges)",
+          "zh-TW": "等級 14 火山噴發（30 次）",
+          "zh-CN": "等级 14 火山喷发（30 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
         "key": "skilltab:17",
         "label": {
           "en": "Skill Tab Bonus",
@@ -37626,8 +39778,7 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg%",
-      "charged:Volcano"
+      "dmg%"
     ],
     "note": null,
     "statPools": []
@@ -37652,6 +39803,12 @@
     "slotCategory": "javelins",
     "defense": null,
     "requiredStrength": 89,
+    "requiredDexterity": 137,
+    "oneHandDamage": {
+      "min": 19,
+      "max": 60
+    },
+    "twoHandDamage": null,
     "durability": 16,
     "invFile": "invglv",
     "stats": [
@@ -37728,6 +39885,12 @@
     "slotCategory": "polearms",
     "defense": null,
     "requiredStrength": 195,
+    "requiredDexterity": 75,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 28,
+      "max": 145
+    },
     "durability": 50,
     "invFile": "invbar",
     "stats": [
@@ -37741,17 +39904,6 @@
         "min": 270,
         "max": 320,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:Corpse Explosion",
-        "label": {
-          "en": "Charges (Corpse Explosion)",
-          "zh-TW": "充能次數 (屍爆)",
-          "zh-CN": "充能次数 (尸爆)"
-        },
-        "min": 30,
-        "max": 14,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -37764,6 +39916,17 @@
         },
         "value": 30,
         "isSkillRef": false
+      },
+      {
+        "key": "charged:Corpse Explosion",
+        "label": {
+          "en": "Level 14 Corpse Explosion (30 Charges)",
+          "zh-TW": "等級 14 屍爆（30 次）",
+          "zh-CN": "等级 14 尸爆（30 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       },
       {
         "key": "hit-skill:Bone Spear",
@@ -37799,8 +39962,7 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg%",
-      "charged:Corpse Explosion"
+      "dmg%"
     ],
     "note": null,
     "statPools": []
@@ -37825,6 +39987,12 @@
     "slotCategory": "staves",
     "defense": null,
     "requiredStrength": 44,
+    "requiredDexterity": 37,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 80,
+      "max": 93
+    },
     "durability": 35,
     "invFile": "invcstu",
     "stats": [
@@ -37925,6 +40093,12 @@
     "slotCategory": "scepters",
     "defense": null,
     "requiredStrength": 125,
+    "requiredDexterity": 65,
+    "oneHandDamage": {
+      "min": 40,
+      "max": 52
+    },
+    "twoHandDamage": null,
     "durability": 50,
     "invFile": "invscp",
     "stats": [
@@ -38060,6 +40234,12 @@
       "max": 173
     },
     "requiredStrength": 106,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 24,
+      "max": 38
+    },
+    "twoHandDamage": null,
     "durability": 74,
     "invFile": "invbshu",
     "stats": [
@@ -38166,6 +40346,12 @@
       "max": 71
     },
     "requiredStrength": 185,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invhgl",
     "stats": [
@@ -38244,6 +40430,9 @@
     "slotCategory": "jewels",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invgswe",
     "stats": [
@@ -38323,6 +40512,9 @@
     "slotCategory": "jewels",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invgswe",
     "stats": [
@@ -38402,6 +40594,9 @@
     "slotCategory": "jewels",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invgswe",
     "stats": [
@@ -38481,6 +40676,9 @@
     "slotCategory": "jewels",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invgswe",
     "stats": [
@@ -38558,6 +40756,9 @@
     "slotCategory": "jewels",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invgswe",
     "stats": [
@@ -38637,6 +40838,9 @@
     "slotCategory": "jewels",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invgswe",
     "stats": [
@@ -38716,6 +40920,9 @@
     "slotCategory": "jewels",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invgswe",
     "stats": [
@@ -38795,6 +41002,9 @@
     "slotCategory": "jewels",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invgswe",
     "stats": [
@@ -38872,6 +41082,9 @@
     "slotCategory": "charms",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invtrch",
     "stats": [
@@ -38907,17 +41120,6 @@
         "min": 10,
         "max": 20,
         "isSkillRef": false
-      },
-      {
-        "key": "charged:Hydra",
-        "label": {
-          "en": "Charges (Hydra)",
-          "zh-TW": "充能次數 (多頭蛇)",
-          "zh-CN": "充能次数 (多头蛇)"
-        },
-        "min": 10,
-        "max": 30,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -38941,14 +41143,24 @@
         "value": null,
         "isSkillRef": false,
         "composed": true
+      },
+      {
+        "key": "charged:Hydra",
+        "label": {
+          "en": "Level 30 Hydra (10 Charges)",
+          "zh-TW": "等級 30 多頭蛇（10 次）",
+          "zh-CN": "等级 30 多头蛇（10 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "randclassskill",
       "all-stats",
-      "res-all",
-      "charged:Hydra"
+      "res-all"
     ],
     "note": null,
     "statPools": []
@@ -38976,6 +41188,12 @@
       "max": 148
     },
     "requiredStrength": 106,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "invbbb",
     "stats": [
@@ -39114,6 +41332,12 @@
       "max": 146
     },
     "requiredStrength": 95,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "invbbb",
     "stats": [
@@ -39252,6 +41476,12 @@
       "max": 141
     },
     "requiredStrength": 82,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "invbbb",
     "stats": [
@@ -39390,6 +41620,12 @@
       "max": 48
     },
     "requiredStrength": 38,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "invbbb",
     "stats": [
@@ -39537,6 +41773,15 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 175,
+    "requiredDexterity": 100,
+    "oneHandDamage": {
+      "min": 22,
+      "max": 56
+    },
+    "twoHandDamage": {
+      "min": 50,
+      "max": 94
+    },
     "durability": 44,
     "invFile": "inv2hsu",
     "stats": [
@@ -39657,6 +41902,12 @@
       "max": 68
     },
     "requiredStrength": 163,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 50,
+      "max": 145
+    },
+    "twoHandDamage": null,
     "durability": 18,
     "invFile": "invtbt",
     "stats": [
@@ -39755,6 +42006,12 @@
     "slotCategory": "daggers",
     "defense": null,
     "requiredStrength": 55,
+    "requiredDexterity": 98,
+    "oneHandDamage": {
+      "min": 37,
+      "max": 53
+    },
+    "twoHandDamage": null,
     "durability": 55,
     "invFile": "invdir",
     "stats": [
@@ -39877,6 +42134,9 @@
     "slotCategory": "rings",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invrin",
     "stats": [
@@ -39975,20 +42235,12 @@
     "slotCategory": "rings",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invrin",
     "stats": [
-      {
-        "key": "att-skill:Flame Wave",
-        "label": {
-          "en": "Attack Rating (skill) (Flame Wave)",
-          "zh-TW": "攻擊等級（技能） (烈焰湧浪)",
-          "zh-CN": "攻击等级（技能） (烈焰涌浪)"
-        },
-        "min": 2,
-        "max": 15,
-        "isSkillRef": true
-      },
       {
         "key": "res-all",
         "label": {
@@ -40025,6 +42277,17 @@
     ],
     "fixedStats": [
       {
+        "key": "att-skill:Flame Wave",
+        "label": {
+          "en": "2% Chance to cast level 15 Flame Wave on attack",
+          "zh-TW": "攻擊時有 2% 機率施展等級 15 烈焰湧浪",
+          "zh-CN": "攻击时有 2% 机率施展等级 15 烈焰涌浪"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
         "key": "magdam-rand",
         "label": {
           "en": "Random Elemental/Enhanced Damage %",
@@ -40047,7 +42310,6 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "att-skill:Flame Wave",
       "res-all",
       "heal-kill",
       "mana-kill"
@@ -40075,6 +42337,9 @@
     "slotCategory": "amulets",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invamu",
     "stats": [
@@ -40181,6 +42446,12 @@
       "max": 66
     },
     "requiredStrength": 151,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 18,
     "invFile": "invtbl",
     "stats": [
@@ -40299,6 +42570,12 @@
       "max": 86
     },
     "requiredStrength": 55,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "invmsk",
     "stats": [
@@ -40409,6 +42686,9 @@
     "slotCategory": "charms",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invsst",
     "stats": [
@@ -40463,6 +42743,9 @@
     "slotCategory": "charms",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invsst",
     "stats": [],
@@ -40655,6 +42938,9 @@
     "slotCategory": "charms",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invsst",
     "stats": [
@@ -40709,6 +42995,9 @@
     "slotCategory": "charms",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invsst",
     "stats": [
@@ -40763,6 +43052,9 @@
     "slotCategory": "charms",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invsst",
     "stats": [
@@ -40817,6 +43109,9 @@
     "slotCategory": "charms",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invsst",
     "stats": [
@@ -40871,6 +43166,9 @@
     "slotCategory": "charms",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invsst",
     "stats": [
@@ -40925,6 +43223,9 @@
     "slotCategory": "charms",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invsst",
     "stats": [],
@@ -41117,6 +43418,9 @@
     "slotCategory": "charms",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invsst",
     "stats": [],
@@ -41309,6 +43613,9 @@
     "slotCategory": "charms",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invsst",
     "stats": [],
@@ -41501,6 +43808,9 @@
     "slotCategory": "charms",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invsst",
     "stats": [],
@@ -41693,6 +44003,9 @@
     "slotCategory": "charms",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invsst",
     "stats": [],

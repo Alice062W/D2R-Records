@@ -26,6 +26,12 @@
       "max": 47
     },
     "requiredStrength": 95,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 37,
+      "max": 64
+    },
+    "twoHandDamage": null,
     "durability": 18,
     "invFile": "invtbt",
     "stats": [
@@ -171,6 +177,12 @@
       "max": 557
     },
     "requiredStrength": 230,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 70,
     "invFile": "invful",
     "stats": [
@@ -313,6 +325,12 @@
     "slotCategory": "maces",
     "defense": null,
     "requiredStrength": 74,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 20,
+      "max": 31
+    },
+    "twoHandDamage": null,
     "durability": 72,
     "invFile": "invmst",
     "stats": [
@@ -462,6 +480,12 @@
       "max": 81
     },
     "requiredStrength": 56,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "invdr3",
     "stats": [
@@ -594,6 +618,9 @@
     "slotCategory": "rings",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invrin",
     "stats": [],
@@ -674,6 +701,12 @@
       "max": 48
     },
     "requiredStrength": 36,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 26,
     "invFile": "invrng",
     "stats": [],
@@ -751,6 +784,12 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 25,
+    "requiredDexterity": 25,
+    "oneHandDamage": {
+      "min": 3,
+      "max": 8
+    },
+    "twoHandDamage": null,
     "durability": 32,
     "invFile": "invsbr",
     "stats": [],
@@ -828,6 +867,9 @@
     "slotCategory": "amulets",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invamu",
     "stats": [],
@@ -905,6 +947,12 @@
     "slotCategory": "staves",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 12,
+      "max": 28
+    },
     "durability": 50,
     "invFile": "invwst",
     "stats": [],
@@ -985,6 +1033,12 @@
       "max": 107
     },
     "requiredStrength": 41,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 60,
     "invFile": "invltp",
     "stats": [],
@@ -1065,6 +1119,12 @@
       "max": 11
     },
     "requiredStrength": 15,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 18,
     "invFile": "invskp",
     "stats": [],
@@ -1142,6 +1202,9 @@
     "slotCategory": "amulets",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invamu",
     "stats": [],
@@ -1222,6 +1285,12 @@
       "max": 3
     },
     "requiredStrength": 0,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 14,
     "invFile": "invvbl",
     "stats": [],
@@ -1302,6 +1371,12 @@
       "max": 11
     },
     "requiredStrength": 12,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "invqlt",
     "stats": [
@@ -1383,6 +1458,12 @@
     "slotCategory": "bows",
     "defense": null,
     "requiredStrength": 35,
+    "requiredDexterity": 55,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 6,
+      "max": 14
+    },
     "durability": 48,
     "invFile": "invswb",
     "stats": [],
@@ -1463,6 +1544,12 @@
       "max": 11
     },
     "requiredStrength": 45,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 18,
     "invFile": "invtgl",
     "stats": [],
@@ -1543,6 +1630,12 @@
       "max": 3
     },
     "requiredStrength": 0,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 14,
     "invFile": "invvbl",
     "stats": [],
@@ -1609,6 +1702,12 @@
     "slotCategory": "daggers",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": 45,
+    "oneHandDamage": {
+      "min": 2,
+      "max": 11
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invdgr",
     "stats": [],
@@ -1689,6 +1788,12 @@
       "max": 24
     },
     "requiredStrength": 20,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 28,
     "invFile": "invhla",
     "stats": [],
@@ -1766,6 +1871,12 @@
     "slotCategory": "axes",
     "defense": null,
     "requiredStrength": 43,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 5,
+      "max": 13
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "inv2ax",
     "stats": [],
@@ -1835,6 +1946,12 @@
       "max": 95
     },
     "requiredStrength": 51,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 30,
     "invFile": "invspl",
     "stats": [],
@@ -1904,6 +2021,12 @@
       "max": 18
     },
     "requiredStrength": 26,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invhlm",
     "stats": [],
@@ -1970,6 +2093,15 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 189,
+    "requiredDexterity": 110,
+    "oneHandDamage": {
+      "min": 25,
+      "max": 65
+    },
+    "twoHandDamage": {
+      "min": 58,
+      "max": 115
+    },
     "durability": 50,
     "invFile": "invgsd",
     "stats": [],
@@ -2044,6 +2176,12 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 147,
+    "requiredDexterity": 124,
+    "oneHandDamage": {
+      "min": 40,
+      "max": 50
+    },
+    "twoHandDamage": null,
     "durability": 44,
     "invFile": "invwsd",
     "stats": [],
@@ -2131,6 +2269,12 @@
       "max": 75
     },
     "requiredStrength": 48,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 45,
     "invFile": "invchn",
     "stats": [],
@@ -2208,6 +2352,12 @@
     "slotCategory": "staves",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 6,
+      "max": 13
+    },
     "durability": 40,
     "invFile": "invbst",
     "stats": [],
@@ -2285,6 +2435,9 @@
     "slotCategory": "rings",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invrin",
     "stats": [],
@@ -2351,6 +2504,9 @@
     "slotCategory": "amulets",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invamu",
     "stats": [],
@@ -2431,6 +2587,12 @@
       "max": 27
     },
     "requiredStrength": 23,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "invmsk",
     "stats": [],
@@ -2497,6 +2659,12 @@
     "slotCategory": "scepters",
     "defense": null,
     "requiredStrength": 37,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 8,
+      "max": 18
+    },
+    "twoHandDamage": null,
     "durability": 60,
     "invFile": "invgsc",
     "stats": [
@@ -2567,6 +2735,9 @@
     "slotCategory": "amulets",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invamu",
     "stats": [],
@@ -2647,6 +2818,12 @@
       "max": 14
     },
     "requiredStrength": 34,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 2,
+      "max": 4
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invlrg",
     "stats": [],
@@ -2727,6 +2904,12 @@
       "max": 10
     },
     "requiredStrength": 22,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 2,
+      "max": 3
+    },
+    "twoHandDamage": null,
     "durability": 16,
     "invFile": "invsml",
     "stats": [],
@@ -2796,6 +2979,12 @@
       "max": 9
     },
     "requiredStrength": 25,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 16,
     "invFile": "invmgl",
     "stats": [],
@@ -2862,6 +3051,12 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 55,
+    "requiredDexterity": 39,
+    "oneHandDamage": {
+      "min": 3,
+      "max": 19
+    },
+    "twoHandDamage": null,
     "durability": 44,
     "invFile": "invlsd",
     "stats": [],
@@ -2931,6 +3126,12 @@
       "max": 35
     },
     "requiredStrength": 27,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 32,
     "invFile": "invstu",
     "stats": [],
@@ -3009,6 +3210,12 @@
       "max": 6
     },
     "requiredStrength": 18,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 4,
+      "max": 10
+    },
+    "twoHandDamage": null,
     "durability": 14,
     "invFile": "invvbt",
     "stats": [
@@ -3102,6 +3309,12 @@
       "max": 53
     },
     "requiredStrength": 20,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 12,
     "invFile": "invcap",
     "stats": [],
@@ -3179,6 +3392,12 @@
       "max": 65
     },
     "requiredStrength": 106,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 16,
     "invFile": "invmbl",
     "stats": [],
@@ -3253,6 +3472,12 @@
     "slotCategory": "maces",
     "defense": null,
     "requiredStrength": 145,
+    "requiredDexterity": 46,
+    "oneHandDamage": {
+      "min": 41,
+      "max": 49
+    },
+    "twoHandDamage": null,
     "durability": 60,
     "invFile": "invmac",
     "stats": [
@@ -3335,6 +3560,12 @@
       "max": 2
     },
     "requiredStrength": 0,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 12,
     "invFile": "invlbl",
     "stats": [],
@@ -3404,6 +3635,12 @@
       "max": 3
     },
     "requiredStrength": 0,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 12,
     "invFile": "invlgl",
     "stats": [],
@@ -3470,6 +3707,12 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 71,
+    "requiredDexterity": 45,
+    "oneHandDamage": {
+      "min": 8,
+      "max": 20
+    },
+    "twoHandDamage": null,
     "durability": 44,
     "invFile": "invwsd",
     "stats": [],
@@ -3539,6 +3782,12 @@
       "max": 450
     },
     "requiredStrength": 170,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 60,
     "invFile": "invaar",
     "stats": [],
@@ -3626,6 +3875,12 @@
       "max": 225
     },
     "requiredStrength": 148,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 5,
+      "max": 87
+    },
+    "twoHandDamage": null,
     "durability": 90,
     "invFile": "invpa5",
     "stats": [],
@@ -3713,6 +3968,12 @@
       "max": 165
     },
     "requiredStrength": 174,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 50,
     "invFile": "invcrn",
     "stats": [
@@ -3825,6 +4086,12 @@
     "slotCategory": "scepters",
     "defense": null,
     "requiredStrength": 97,
+    "requiredDexterity": 70,
+    "oneHandDamage": {
+      "min": 37,
+      "max": 43
+    },
+    "twoHandDamage": null,
     "durability": 70,
     "invFile": "invwsp",
     "stats": [
@@ -3952,6 +4219,12 @@
       "max": 98
     },
     "requiredStrength": 115,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 40,
     "invFile": "invghm",
     "stats": [],
@@ -4039,6 +4312,12 @@
       "max": 202
     },
     "requiredStrength": 65,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 50,
     "invFile": "invbrs",
     "stats": [],
@@ -4126,6 +4405,12 @@
       "max": 170
     },
     "requiredStrength": 185,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 11,
+      "max": 35
+    },
+    "twoHandDamage": null,
     "durability": 100,
     "invFile": "invgts",
     "stats": [],
@@ -4233,6 +4518,12 @@
       "max": 154
     },
     "requiredStrength": 102,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "invmsk",
     "stats": [
@@ -4339,6 +4630,12 @@
       "max": 243
     },
     "requiredStrength": 97,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 30,
     "invFile": "invspl",
     "stats": [
@@ -4482,6 +4779,12 @@
       "max": 35
     },
     "requiredStrength": 20,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 12,
     "invFile": "invlgl",
     "stats": [
@@ -4613,6 +4916,12 @@
       "max": 68
     },
     "requiredStrength": 163,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 50,
+      "max": 145
+    },
+    "twoHandDamage": null,
     "durability": 18,
     "invFile": "invtbt",
     "stats": [
@@ -4730,6 +5039,12 @@
       "max": 142
     },
     "requiredStrength": 91,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "invbbb",
     "stats": [
@@ -4857,6 +5172,12 @@
       "max": 6
     },
     "requiredStrength": 12,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 1,
+      "max": 3
+    },
+    "twoHandDamage": null,
     "durability": 12,
     "invFile": "invbuc",
     "stats": [],
@@ -4926,6 +5247,12 @@
       "max": 9
     },
     "requiredStrength": 30,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 6,
+      "max": 12
+    },
+    "twoHandDamage": null,
     "durability": 16,
     "invFile": "invmbt",
     "stats": [],
@@ -4995,6 +5322,12 @@
       "max": 5
     },
     "requiredStrength": 25,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 16,
     "invFile": "invmbl",
     "stats": [],
@@ -5061,6 +5394,12 @@
     "slotCategory": "polearms",
     "defense": null,
     "requiredStrength": 95,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 14,
+      "max": 53
+    },
     "durability": 50,
     "invFile": "invvou",
     "stats": [
@@ -5163,6 +5502,12 @@
       "max": 190
     },
     "requiredStrength": 86,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 36,
     "invFile": "invscl",
     "stats": [],
@@ -5241,6 +5586,12 @@
       "max": 5
     },
     "requiredStrength": 25,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 16,
     "invFile": "invmbl",
     "stats": [
@@ -5322,6 +5673,12 @@
       "max": 113
     },
     "requiredStrength": 103,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 50,
     "invFile": "invcrn",
     "stats": [],
@@ -5399,6 +5756,12 @@
       "max": 52
     },
     "requiredStrength": 110,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invhbl",
     "stats": [],
@@ -5532,6 +5895,12 @@
       "max": 53
     },
     "requiredStrength": 110,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invhgl",
     "stats": [],
@@ -5666,6 +6035,12 @@
       "max": 53
     },
     "requiredStrength": 125,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 39,
+      "max": 80
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invhbt",
     "stats": [],
@@ -5788,6 +6163,12 @@
       "max": 600
     },
     "requiredStrength": 232,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 60,
     "invFile": "invaar",
     "stats": [],
@@ -5919,6 +6300,12 @@
     "slotCategory": "hammers",
     "defense": null,
     "requiredStrength": 225,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 77,
+      "max": 106
+    },
     "durability": 60,
     "invFile": "invmau",
     "stats": [
@@ -6086,6 +6473,12 @@
       "max": 50
     },
     "requiredStrength": 65,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 55,
     "invFile": "invba5",
     "stats": [
@@ -6187,6 +6580,12 @@
       "max": 5
     },
     "requiredStrength": 0,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 12,
     "invFile": "invcap",
     "stats": [],
@@ -6256,6 +6655,12 @@
       "max": 6
     },
     "requiredStrength": 45,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 18,
     "invFile": "invtbl",
     "stats": [],
@@ -6333,6 +6738,12 @@
     "slotCategory": "wands",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 5,
+      "max": 11
+    },
+    "twoHandDamage": null,
     "durability": 15,
     "invFile": "invgwn",
     "stats": [],
@@ -6402,6 +6813,12 @@
       "max": 45
     },
     "requiredStrength": 55,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 50,
     "invFile": "invcrn",
     "stats": [],
@@ -6468,6 +6885,9 @@
     "slotCategory": "amulets",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invamu",
     "stats": [],
@@ -6537,6 +6957,12 @@
       "max": 6
     },
     "requiredStrength": 45,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 18,
     "invFile": "invtbl",
     "stats": [],
@@ -6606,6 +7032,12 @@
       "max": 11
     },
     "requiredStrength": 45,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 18,
     "invFile": "invtgl",
     "stats": [],
@@ -6675,6 +7107,12 @@
       "max": 68
     },
     "requiredStrength": 30,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 50,
     "invFile": "invbrs",
     "stats": [],
@@ -6744,6 +7182,12 @@
       "max": 26
     },
     "requiredStrength": 41,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 30,
     "invFile": "invfhl",
     "stats": [],
@@ -6810,6 +7254,12 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 48,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 7,
+      "max": 14
+    },
+    "twoHandDamage": null,
     "durability": 32,
     "invFile": "invbsd",
     "stats": [],
@@ -6879,6 +7329,12 @@
       "max": 35
     },
     "requiredStrength": 60,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 2,
+      "max": 6
+    },
+    "twoHandDamage": null,
     "durability": 40,
     "invFile": "invgts",
     "stats": [],
@@ -6948,6 +7404,12 @@
       "max": 62
     },
     "requiredStrength": 50,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 12,
     "invFile": "invlgl",
     "stats": [],
@@ -7033,6 +7495,12 @@
     "slotCategory": "bows",
     "defense": null,
     "requiredStrength": 108,
+    "requiredDexterity": 152,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 14,
+      "max": 72
+    },
     "durability": 55,
     "invFile": "invam2",
     "stats": [],
@@ -7145,6 +7613,12 @@
       "max": 523
     },
     "requiredStrength": 174,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 48,
     "invFile": "invfld",
     "stats": [
@@ -7259,6 +7733,12 @@
       "max": 47
     },
     "requiredStrength": 88,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 18,
     "invFile": "invtgl",
     "stats": [
@@ -7385,6 +7865,12 @@
       "max": 36
     },
     "requiredStrength": 20,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 14,
     "invFile": "invvbl",
     "stats": [],
@@ -7474,6 +7960,12 @@
       "max": 60
     },
     "requiredStrength": 0,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "invci3",
     "stats": [],
@@ -7585,6 +8077,12 @@
       "max": 39
     },
     "requiredStrength": 20,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 14,
     "invFile": "invvgl",
     "stats": [],
@@ -7672,6 +8170,12 @@
       "max": 5
     },
     "requiredStrength": 0,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 12,
     "invFile": "invcap",
     "stats": [],
@@ -7739,6 +8243,12 @@
       "max": 6
     },
     "requiredStrength": 18,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 4,
+      "max": 10
+    },
+    "twoHandDamage": null,
     "durability": 14,
     "invFile": "invvbt",
     "stats": [],
@@ -7813,6 +8323,12 @@
     "slotCategory": "wands",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 3,
+      "max": 7
+    },
+    "twoHandDamage": null,
     "durability": 15,
     "invFile": "invbwn",
     "stats": [
@@ -7904,6 +8420,12 @@
       "max": 6
     },
     "requiredStrength": 0,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 14,
     "invFile": "invvgl",
     "stats": [
@@ -7987,6 +8509,12 @@
       "max": 45
     },
     "requiredStrength": 55,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 50,
     "invFile": "invcrn",
     "stats": [],
@@ -8056,6 +8584,12 @@
       "max": 18
     },
     "requiredStrength": 47,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 2,
+      "max": 5
+    },
+    "twoHandDamage": null,
     "durability": 30,
     "invFile": "invkit",
     "stats": [],
@@ -8136,6 +8670,12 @@
       "max": 233
     },
     "requiredStrength": 100,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 60,
     "invFile": "invaar",
     "stats": [],
@@ -8202,6 +8742,12 @@
     "slotCategory": "scepters",
     "defense": null,
     "requiredStrength": 55,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 10,
+      "max": 17
+    },
+    "twoHandDamage": null,
     "durability": 70,
     "invFile": "invwsp",
     "stats": [],
@@ -8269,6 +8815,12 @@
       "max": 30
     },
     "requiredStrength": 0,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 35,
     "invFile": "invci0",
     "stats": [
@@ -8361,6 +8913,12 @@
       "max": 530
     },
     "requiredStrength": 196,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 60,
     "invFile": "invplt",
     "stats": [],
@@ -8455,20 +9013,15 @@
     "slotCategory": "staves",
     "defense": null,
     "requiredStrength": 44,
+    "requiredDexterity": 37,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 80,
+      "max": 93
+    },
     "durability": 35,
     "invFile": "invcst",
     "stats": [
-      {
-        "key": "charged:54",
-        "label": {
-          "en": "Charges (Teleport)",
-          "zh-TW": "充能次數 (傳送)",
-          "zh-CN": "充能次数 (传送)"
-        },
-        "min": 69,
-        "max": 11,
-        "isSkillRef": true
-      },
       {
         "key": "dmg-ltng",
         "label": {
@@ -8503,6 +9056,17 @@
         "isSkillRef": false
       },
       {
+        "key": "charged:54",
+        "label": {
+          "en": "Level 11 Teleport (69 Charges)",
+          "zh-TW": "等級 11 傳送（69 次）",
+          "zh-CN": "等级 11 传送（69 次）"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
         "key": "cast3",
         "label": {
           "en": "Faster Cast Rate",
@@ -8535,7 +9099,6 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "charged:54",
       "dmg-ltng"
     ],
     "note": null,
@@ -8565,6 +9128,12 @@
     "slotCategory": "katars",
     "defense": null,
     "requiredStrength": 118,
+    "requiredDexterity": 118,
+    "oneHandDamage": {
+      "min": 40,
+      "max": 51
+    },
+    "twoHandDamage": null,
     "durability": 68,
     "invFile": "invskr",
     "stats": [
@@ -8676,6 +9245,12 @@
       "max": 496
     },
     "requiredStrength": 149,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 36,
     "invFile": "invscl",
     "stats": [
@@ -8779,6 +9354,12 @@
       "max": 44
     },
     "requiredStrength": 65,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 23,
+      "max": 52
+    },
+    "twoHandDamage": null,
     "durability": 16,
     "invFile": "invmbt",
     "stats": [
@@ -8884,6 +9465,12 @@
       "max": 125
     },
     "requiredStrength": 58,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 40,
     "invFile": "invbhm",
     "stats": [
@@ -8981,6 +9568,12 @@
       "max": 159
     },
     "requiredStrength": 192,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 40,
     "invFile": "invghm",
     "stats": [],
@@ -9079,6 +9672,12 @@
       "max": 35
     },
     "requiredStrength": 20,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 26,
+      "max": 46
+    },
+    "twoHandDamage": null,
     "durability": 12,
     "invFile": "invlbt",
     "stats": [
@@ -9157,6 +9756,12 @@
     "slotCategory": "swords",
     "defense": null,
     "requiredStrength": 99,
+    "requiredDexterity": 109,
+    "oneHandDamage": {
+      "min": 5,
+      "max": 77
+    },
+    "twoHandDamage": null,
     "durability": 44,
     "invFile": "invlsd",
     "stats": [
@@ -9268,6 +9873,12 @@
       "max": 517
     },
     "requiredStrength": 165,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 30,
     "invFile": "invspl",
     "stats": [
@@ -9359,6 +9970,12 @@
       "max": 84
     },
     "requiredStrength": 82,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 30,
     "invFile": "invfhl",
     "stats": [
@@ -9442,6 +10059,12 @@
       "max": 15
     },
     "requiredStrength": 60,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invhgl",
     "stats": [],
@@ -9511,6 +10134,12 @@
       "max": 25
     },
     "requiredStrength": 75,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 1,
+      "max": 5
+    },
+    "twoHandDamage": null,
     "durability": 60,
     "invFile": "invtow",
     "stats": [],
@@ -9568,6 +10197,12 @@
       "max": 15
     },
     "requiredStrength": 70,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 10,
+      "max": 20
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invhbt",
     "stats": [],
@@ -9648,6 +10283,12 @@
       "max": 135
     },
     "requiredStrength": 70,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 55,
     "invFile": "invgth",
     "stats": [],
@@ -9717,6 +10358,12 @@
       "max": 35
     },
     "requiredStrength": 63,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 40,
     "invFile": "invghm",
     "stats": [],
@@ -9786,6 +10433,12 @@
       "max": 11
     },
     "requiredStrength": 60,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invhbl",
     "stats": [],
@@ -9855,6 +10508,12 @@
       "max": 467
     },
     "requiredStrength": 77,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "invqlt",
     "stats": [
@@ -9936,6 +10595,9 @@
     "slotCategory": "amulets",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invamu",
     "stats": [
@@ -10039,6 +10701,12 @@
       "max": 40
     },
     "requiredStrength": 58,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 16,
     "invFile": "invmbl",
     "stats": [
@@ -10153,6 +10821,12 @@
       "max": 86
     },
     "requiredStrength": 55,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "invmsk",
     "stats": [],
@@ -10250,6 +10924,12 @@
       "max": 541
     },
     "requiredStrength": 208,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 55,
     "invFile": "invgth",
     "stats": [],
@@ -10366,6 +11046,12 @@
     "slotCategory": "orbs",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": {
+      "min": 18,
+      "max": 42
+    },
+    "twoHandDamage": null,
     "durability": 50,
     "invFile": "invob5",
     "stats": [
@@ -10523,6 +11209,12 @@
     "slotCategory": "axes",
     "defense": null,
     "requiredStrength": 49,
+    "requiredDexterity": 33,
+    "oneHandDamage": {
+      "min": 7,
+      "max": 11
+    },
+    "twoHandDamage": null,
     "durability": 26,
     "invFile": "invmpi",
     "stats": [],
@@ -10603,6 +11295,12 @@
       "max": 3
     },
     "requiredStrength": 0,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 3,
+      "max": 8
+    },
+    "twoHandDamage": null,
     "durability": 12,
     "invFile": "invlbt",
     "stats": [],
@@ -10683,6 +11381,12 @@
       "max": 36
     },
     "requiredStrength": 25,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 40,
     "invFile": "invbhm",
     "stats": [],
@@ -10752,6 +11456,12 @@
       "max": 161
     },
     "requiredStrength": 80,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 70,
     "invFile": "invful",
     "stats": [],
@@ -10818,6 +11528,9 @@
     "slotCategory": "amulets",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invamu",
     "stats": [],
@@ -10895,6 +11608,9 @@
     "slotCategory": "amulets",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invamu",
     "stats": [
@@ -10978,6 +11694,12 @@
       "max": 44
     },
     "requiredStrength": 58,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 16,
     "invFile": "invmgl",
     "stats": [],
@@ -11067,6 +11789,12 @@
       "max": 66
     },
     "requiredStrength": 151,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 18,
     "invFile": "invtbl",
     "stats": [
@@ -11192,6 +11920,12 @@
       "max": 157
     },
     "requiredStrength": 106,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 40,
     "invFile": "invbhm",
     "stats": [
@@ -11283,6 +12017,12 @@
       "max": 342
     },
     "requiredStrength": 140,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 70,
     "invFile": "invful",
     "stats": [],
@@ -11403,6 +12143,12 @@
       "max": 64
     },
     "requiredStrength": 50,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 20,
     "invFile": "invne4",
     "stats": [
@@ -11537,6 +12283,12 @@
       "max": 17
     },
     "requiredStrength": 15,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 24,
     "invFile": "invlea",
     "stats": [],
@@ -11614,6 +12366,12 @@
     "slotCategory": "bows",
     "defense": null,
     "requiredStrength": 40,
+    "requiredDexterity": 50,
+    "oneHandDamage": null,
+    "twoHandDamage": {
+      "min": 3,
+      "max": 18
+    },
     "durability": 44,
     "invFile": "invlbb",
     "stats": [],
@@ -11683,6 +12441,12 @@
       "max": 11
     },
     "requiredStrength": 50,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 8,
+      "max": 16
+    },
+    "twoHandDamage": null,
     "durability": 18,
     "invFile": "invtbt",
     "stats": [],
@@ -11749,6 +12513,9 @@
     "slotCategory": "amulets",
     "defense": null,
     "requiredStrength": null,
+    "requiredDexterity": null,
+    "oneHandDamage": null,
+    "twoHandDamage": null,
     "durability": null,
     "invFile": "invamu",
     "stats": [],
@@ -11818,6 +12585,12 @@
       "max": 55
     },
     "requiredStrength": 53,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 7,
+      "max": 14
+    },
+    "twoHandDamage": null,
     "durability": 64,
     "invFile": "invsml",
     "stats": [],
@@ -11905,6 +12678,12 @@
       "max": 42
     },
     "requiredStrength": 88,
+    "requiredDexterity": 0,
+    "oneHandDamage": {
+      "min": 0,
+      "max": 0
+    },
+    "twoHandDamage": null,
     "durability": 18,
     "invFile": "invtbl",
     "stats": [],
