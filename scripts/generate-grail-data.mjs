@@ -1229,10 +1229,17 @@ const RUNE_CODE_BY_NAME = Object.fromEntries(
     .filter(v => typeof v.name === 'string' && v.name.endsWith(' Rune'))
     .map(v => [v.name.replace(/ Rune$/, ''), v.code])
 );
+// chi["r16"] (Io Rune) is itself a vendor-data typo — "符文：破" ("Rune:
+// Broken") rather than a real transliteration of "Io". Confirmed against
+// MyInput/MyData/runes_all/site/zh-TW/info/item/runes.decoded.html, whose
+// Io entry (rune #16) reads "埃歐\nIo" both in the nav list and the table
+// row. Overridden here rather than patched in chi[] itself, same as this
+// file's other hand-checked corrections to individual vendor strings.
+const RUNE_NAME_ZH_TW_OVERRIDES = { Io: '埃歐' };
 function localizedRuneName(englishName) {
   const code = RUNE_CODE_BY_NAME[englishName];
   const raw = code ? chi[code] : undefined;
-  const zhTw = raw ? raw.replace(/^符文：/, '') : englishName;
+  const zhTw = RUNE_NAME_ZH_TW_OVERRIDES[englishName] ?? (raw ? raw.replace(/^符文：/, '') : englishName);
   return { en: englishName, 'zh-TW': zhTw, 'zh-CN': toZhCn(zhTw) };
 }
 
@@ -2757,6 +2764,20 @@ function runeStatsFor(entry, prefix) {
     const key = needsKeySuffix ? `${code}:${par}` : code;
     const min = entry[`${prefix}${n}Min`];
     const max = entry[`${prefix}${n}Max`];
+    // dmg-pois carries a par-encoded duration (frames) rather than being a
+    // literal displayed min/max, same as everywhere else in this file (see
+    // scaleDmgPoisWithPar above) — Tal Rune's weapon mod is exactly this case:
+    // raw weaponMod1Code=dmg-pois, Param=125, Min=Max=154, but
+    // MyInput/MyData/runes_all/site/en-US/info/item/runes.decoded.html shows
+    // "+75 poison damage over 5 seconds" for Tal (round(154*125/256)=75,
+    // round(125/25)=5s) — un-scaled, this rendered as a nonsensical "154
+    // Poison Damage" line.
+    const scaled = scaleDmgPoisWithPar(code, par, min, max);
+    if (scaled) {
+      if (scaled.min === scaled.max) fixed.push({ key, label: scaled.label, value: scaled.min, isSkillRef });
+      else variable.push({ key, label: scaled.label, min: scaled.min, max: scaled.max, isSkillRef });
+      continue;
+    }
     if (min !== undefined && max !== undefined) {
       if (min === max) fixed.push({ key, label, value: min, isSkillRef });
       else variable.push({ key, label, min, max, isSkillRef });
@@ -2850,10 +2871,16 @@ for (const id of [23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43
 }
 for (const id of [0,1,2,148,149,150,165,177,189,201,213,225,226]) RECIPE_CATEGORY[id] = 'quests';
 for (const id of [3,4,5,11,12,20,21,22]) RECIPE_CATEGORY[id] = 'consumables';
-for (const id of [15,16,123,124,125,126,141,147]) RECIPE_CATEGORY[id] = 'sockets';
+// id 63 ("Add 1 Socket to Rare Item") is grouped under the Sockets page's
+// "Sockets" section on d2r.world (MyInput/MyData/recipes_all/site/en-US/
+// info/item/recipes/sockets.decoded.html: "Add 1 Socket to Rare Item = Perfect
+// Skull x3 + Rare Item + The Stone of Jordan", listed right alongside the
+// other socketing recipes, not under Magic Item Rerolls), not
+// magicItemRerolls as previously classified.
+for (const id of [15,16,63,123,124,125,126,141,147]) RECIPE_CATEGORY[id] = 'sockets';
 for (const id of [127,128,129,130,131,132,133,134,135,136,151,152,153,154]) RECIPE_CATEGORY[id] = 'itemUpgrade';
 for (const id of [137,138,139,140]) RECIPE_CATEGORY[id] = 'itemRepair';
-for (const id of [60,61,62,63]) RECIPE_CATEGORY[id] = 'magicItemRerolls';
+for (const id of [60,61,62]) RECIPE_CATEGORY[id] = 'magicItemRerolls';
 for (const id of [6,7,8,9,10,13,14,17,18,19]) RECIPE_CATEGORY[id] = 'magicItemCreation';
 for (const id of [163,164,174,175,176,186,187,188,198,199,200,210,211,212,222,223,224]) {
   RECIPE_CATEGORY[id] = 'craftedGrandCharm';
@@ -3128,10 +3155,28 @@ function localizedCraftedItemName(englishName) {
   return { en: englishName, 'zh-TW': zhTw, 'zh-CN': toZhCn(zhTw) };
 }
 
+// cubemain.json's own "mod 3 max" for recipe 65 (Hit Power Boots) is 60, but
+// MyInput/MyData/crafted_all/site/en-US/info/item/crafted.decoded.html shows
+// "+25-50 Defense vs. Melee" for this exact item (every sibling Hit Power
+// piece's defense/damage range is confirmed to match cubemain.json exactly,
+// so this is an isolated vendor-data typo on Boots alone, not a systematic
+// scaling issue). Overridden per-recipe/per-key rather than patched in
+// cubemain.json itself, same pattern as this file's other hand-checked
+// corrections to individual vendor values.
+const CRAFT_MOD_OVERRIDES = {
+  65: { 'ac-hth': { max: 50 } },
+};
+function applyCraftModOverrides(id, stats) {
+  const overrides = CRAFT_MOD_OVERRIDES[id];
+  if (!overrides) return stats;
+  return stats.map(s => (overrides[s.key] ? { ...s, ...overrides[s.key] } : s));
+}
+
 const craftedItemsOut = Object.entries(cubeMainData)
   .filter(([id]) => CRAFT_RECIPE_IDS.has(Number(id)))
   .map(([id, v]) => {
-    const { variable, fixed } = extractCraftModProps(v, 3);
+    const { variable: rawVariable, fixed } = extractCraftModProps(v, 3);
+    const variable = applyCraftModOverrides(Number(id), rawVariable);
     // The craft recipe description is "<Magic Item Input> + 1 Jewel + <Rune> + <Gem> -> <Output Name>".
     // Split on " -> " for the output name, and on " + " for the input list.
     const [inputsPart, outputName] = v.description.split(' -> ');

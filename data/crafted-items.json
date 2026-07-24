@@ -140,7 +140,7 @@
           "zh-CN": "对抗近战攻击防御力"
         },
         "min": 25,
-        "max": 60,
+        "max": 50,
         "isSkillRef": false
       }
     ]

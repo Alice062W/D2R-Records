@@ -839,7 +839,7 @@
       "zh-TW": "3 完美的骷髏 + 1 稀有物品 + 1 約旦之石 -> 為稀有物品增加 1 個插槽",
       "zh-CN": "3 完美的骷髅 + 1 稀有物品 + 1 约旦之石 -> 为稀有物品增加 1 个插槽"
     },
-    "category": "magicItemRerolls",
+    "category": "sockets",
     "ingredientIcons": [
       "invskz"
     ],
@@ -919,8 +919,8 @@
     "id": "recipe-105",
     "description": {
       "en": "3 Hel Runes + 1 Chipped Diamond -> Io Rune",
-      "zh-TW": "3 海爾符文 + 1 碎裂的鑽石 -> 破符文",
-      "zh-CN": "3 海尔符文 + 1 碎裂的钻石 -> 破符文"
+      "zh-TW": "3 海爾符文 + 1 碎裂的鑽石 -> 埃歐符文",
+      "zh-CN": "3 海尔符文 + 1 碎裂的钻石 -> 埃欧符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -933,8 +933,8 @@
     "id": "recipe-106",
     "description": {
       "en": "3 Io Runes + 1 Flawed Topaz -> Lum Rune",
-      "zh-TW": "3 破符文 + 1 裂開的黃寶石 -> 盧姆符文",
-      "zh-CN": "3 破符文 + 1 裂开的黄宝石 -> 卢姆符文"
+      "zh-TW": "3 埃歐符文 + 1 裂開的黃寶石 -> 盧姆符文",
+      "zh-CN": "3 埃欧符文 + 1 裂开的黄宝石 -> 卢姆符文"
     },
     "category": "runeGemUpgrade",
     "ingredientIcons": [
@@ -1734,8 +1734,8 @@
     "id": "recipe-198",
     "description": {
       "en": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Small Charm -> Incendiary Small Charm",
-      "zh-TW": "1 破符文 + 1 完美的紅寶石 + 1 深層世界之石碎片 + 1 小護身符 -> Incendiary 小護身符",
-      "zh-CN": "1 破符文 + 1 完美的红宝石 + 1 深层世界之石碎片 + 1 小护身符 -> Incendiary 小护身符"
+      "zh-TW": "1 埃歐符文 + 1 完美的紅寶石 + 1 深層世界之石碎片 + 1 小護身符 -> Incendiary 小護身符",
+      "zh-CN": "1 埃欧符文 + 1 完美的红宝石 + 1 深层世界之石碎片 + 1 小护身符 -> Incendiary 小护身符"
     },
     "category": "craftedGrandCharm",
     "ingredientIcons": [
@@ -1750,8 +1750,8 @@
     "id": "recipe-199",
     "description": {
       "en": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Large Charm -> Incendiary Large Charm",
-      "zh-TW": "1 破符文 + 1 完美的紅寶石 + 1 深層世界之石碎片 + 1 大型護身符 -> Incendiary 大型護身符",
-      "zh-CN": "1 破符文 + 1 完美的红宝石 + 1 深层世界之石碎片 + 1 大型护身符 -> Incendiary 大型护身符"
+      "zh-TW": "1 埃歐符文 + 1 完美的紅寶石 + 1 深層世界之石碎片 + 1 大型護身符 -> Incendiary 大型護身符",
+      "zh-CN": "1 埃欧符文 + 1 完美的红宝石 + 1 深层世界之石碎片 + 1 大型护身符 -> Incendiary 大型护身符"
     },
     "category": "craftedGrandCharm",
     "ingredientIcons": [
@@ -1766,8 +1766,8 @@
     "id": "recipe-200",
     "description": {
       "en": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Grand Charm -> Incendiary Grand Charm",
-      "zh-TW": "1 破符文 + 1 完美的紅寶石 + 1 深層世界之石碎片 + 1 超大型護身符 -> Incendiary 超大型護身符",
-      "zh-CN": "1 破符文 + 1 完美的红宝石 + 1 深层世界之石碎片 + 1 超大型护身符 -> Incendiary 超大型护身符"
+      "zh-TW": "1 埃歐符文 + 1 完美的紅寶石 + 1 深層世界之石碎片 + 1 超大型護身符 -> Incendiary 超大型護身符",
+      "zh-CN": "1 埃欧符文 + 1 完美的红宝石 + 1 深层世界之石碎片 + 1 超大型护身符 -> Incendiary 超大型护身符"
     },
     "category": "craftedGrandCharm",
     "ingredientIcons": [
@@ -1782,8 +1782,8 @@
     "id": "recipe-201",
     "description": {
       "en": "1 Io Rune + 1 Perfect Ruby + 1 Uber Ancient Summon Material Act4 + 1 Flame Rift -> Incendiary Flame Rift",
-      "zh-TW": "1 破符文 + 1 完美的紅寶石 + 1 Uber Ancient Summon Material Act4 + 1 Flame Rift -> Incendiary Flame Rift",
-      "zh-CN": "1 破符文 + 1 完美的红宝石 + 1 Uber Ancient Summon Material Act4 + 1 Flame Rift -> Incendiary Flame Rift"
+      "zh-TW": "1 埃歐符文 + 1 完美的紅寶石 + 1 Uber Ancient Summon Material Act4 + 1 Flame Rift -> Incendiary Flame Rift",
+      "zh-CN": "1 埃欧符文 + 1 完美的红宝石 + 1 Uber Ancient Summon Material Act4 + 1 Flame Rift -> Incendiary Flame Rift"
     },
     "category": "quests",
     "ingredientIcons": [

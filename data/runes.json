@@ -457,12 +457,12 @@
       {
         "key": "dmg-pois",
         "label": {
-          "en": "Poison Damage",
-          "zh-TW": "毒素傷害",
-          "zh-CN": "毒素伤害"
+          "en": "Adds Poison Damage over 5 Seconds",
+          "zh-TW": "增加毒素傷害，持續 5 秒",
+          "zh-CN": "增加毒素伤害，持续 5 秒"
         },
-        "min": 154,
-        "max": 154,
+        "min": 75,
+        "max": 75,
         "isSkillRef": false
       }
     ],
@@ -1080,8 +1080,8 @@
     "number": 16,
     "name": {
       "en": "Io",
-      "zh-TW": "破",
-      "zh-CN": "破"
+      "zh-TW": "埃歐",
+      "zh-CN": "埃欧"
     },
     "levelReq": 35,
     "invFile": "invrIo",
@@ -1199,8 +1199,8 @@
     "recipe": {
       "runeName": {
         "en": "Io",
-        "zh-TW": "破",
-        "zh-CN": "破"
+        "zh-TW": "埃歐",
+        "zh-CN": "埃欧"
       },
       "count": 3,
       "gemName": {
