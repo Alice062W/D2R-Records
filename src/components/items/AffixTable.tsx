@@ -1,26 +1,103 @@
+'use client';
+
+import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import type { Affix } from '@/lib/grail/affixCatalog';
 
-function AffixSection({ title, affixes }: { title: string; affixes: Affix[] }) {
+interface AffixGroup {
+  name: string;
+  // Tiers sorted by alvl descending; tiers[0] is the max-tier shown collapsed
+  // (matches d2r.world's "(Max) Magic Properties" collapsed-row behavior).
+  tiers: Affix[];
+}
+
+function groupAffixes(affixes: Affix[]): AffixGroup[] {
+  const byName = new Map<string, Affix[]>();
+  for (const a of affixes) {
+    const existing = byName.get(a.name);
+    if (existing) existing.push(a);
+    else byName.set(a.name, [a]);
+  }
+  return Array.from(byName.entries()).map(([name, tiers]) => ({
+    name,
+    tiers: [...tiers].sort((a, b) => b.alvl - a.alvl),
+  }));
+}
+
+function AffixRow({ group }: { group: AffixGroup }) {
   const t = useTranslations('Items');
+  const tCat = useTranslations('AffixCategories');
+  const [expanded, setExpanded] = useState(false);
+  const maxTier = group.tiers[0];
+  const hasMultipleTiers = group.tiers.length > 1;
+  // Not every raw item-type slug has an AffixCategories translation entry --
+  // most (e.g. "rings", "boots") are plain English words already, only the
+  // ambiguous/compound ones (e.g. "barbarianHelms") get a dedicated label.
+  const categoryLabel = (it: string) => (tCat.has(it) ? tCat(it) : it.charAt(0).toUpperCase() + it.slice(1));
+
+  return (
+    <div className="bg-panel border border-panel-border rounded-lg overflow-hidden">
+      <button
+        type="button"
+        onClick={() => hasMultipleTiers && setExpanded(e => !e)}
+        aria-expanded={hasMultipleTiers ? expanded : undefined}
+        disabled={!hasMultipleTiers}
+        className="w-full flex items-center justify-between px-4 py-2 text-sm text-left disabled:cursor-default enabled:hover:bg-panel-alt transition-colors"
+      >
+        <span className="flex items-center gap-2">
+          {hasMultipleTiers ? (
+            <span
+              className="text-muted text-xs transition-transform inline-block"
+              style={{ transform: expanded ? 'rotate(90deg)' : 'rotate(0deg)' }}
+              aria-hidden="true"
+            >
+              ▶
+            </span>
+          ) : (
+            <span className="w-3" aria-hidden="true" />
+          )}
+          <span className="text-[#cbb87f] font-semibold">{group.name}</span>
+        </span>
+        <span className="text-muted text-xs">
+          {t('affixAlvlLabel')} {maxTier.alvl}
+        </span>
+        <span className="text-[#8080f3]">
+          {maxTier.min}–{maxTier.max}
+        </span>
+      </button>
+      {hasMultipleTiers && expanded && (
+        <div className="flex flex-col border-t border-panel-border">
+          {group.tiers.map((tier, i) => (
+            <div
+              key={`${tier.alvl}-${i}`}
+              className="flex items-center justify-between px-4 py-2 pl-9 text-xs bg-panel-alt/50 border-b border-panel-border last:border-b-0"
+            >
+              <span className="text-muted truncate max-w-[45%]" title={tier.itemTypes.map(categoryLabel).join(', ')}>
+                {tier.itemTypes.map(categoryLabel).join(', ')}
+              </span>
+              <span className="text-muted">
+                {t('affixAlvlLabel')} {tier.alvl}
+              </span>
+              <span className="text-[#8080f3]">
+                {tier.min}–{tier.max}
+              </span>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function AffixSection({ title, affixes }: { title: string; affixes: Affix[] }) {
   if (affixes.length === 0) return null;
+  const groups = groupAffixes(affixes);
   return (
     <div>
       <h3 className="text-lg font-semibold text-parchment-bright mb-2">{title}</h3>
       <div className="flex flex-col gap-1">
-        {affixes.map((a, i) => (
-          <div
-            key={`${a.name}-${i}`}
-            className="flex items-center justify-between bg-panel border border-panel-border rounded-lg px-4 py-2 text-sm"
-          >
-            <span className="text-[#cbb87f] font-semibold">{a.name}</span>
-            <span className="text-muted text-xs">
-              {t('affixAlvlLabel')} {a.alvl}
-            </span>
-            <span className="text-[#8080f3]">
-              {a.min}–{a.max}
-            </span>
-          </div>
+        {groups.map(group => (
+          <AffixRow key={group.name} group={group} />
         ))}
       </div>
     </div>

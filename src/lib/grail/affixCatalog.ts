@@ -8,6 +8,7 @@ export interface Affix {
   alvl: number;
   min: number;
   max: number;
+  itemTypes: string[];
 }
 
 export function getAffixCategories(kind: AffixKind): string[] {
@@ -27,7 +28,13 @@ export function getAffixesForCategory(
   );
   const toAffix = (a: (typeof magicAffixesFull)[number]): Affix => {
     const stat = a.stats[0];
-    return { name: a.name[locale], alvl: a.alvl, min: stat?.min ?? 0, max: stat?.max ?? 0 };
+    return {
+      name: a.name[locale],
+      alvl: a.alvl,
+      min: stat?.min ?? 0,
+      max: stat?.max ?? 0,
+      itemTypes: a.itemTypes,
+    };
   };
   return {
     prefixes: relevant.filter(a => a.kind === 'prefix').map(toAffix),
