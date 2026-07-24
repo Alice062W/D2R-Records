@@ -321,7 +321,7 @@
       "zh-TW": "3 碎裂的紫寶石 -> 裂開的紫寶石",
       "zh-CN": "3 碎裂的紫宝石 -> 裂开的紫宝石"
     },
-    "category": "runeGemUpgrade",
+    "category": "gemUpgrade",
     "ingredientIcons": [
       "invgsva"
     ],
@@ -334,7 +334,7 @@
       "zh-TW": "3 裂開的紫寶石 -> 紫寶石",
       "zh-CN": "3 裂开的紫宝石 -> 紫宝石"
     },
-    "category": "runeGemUpgrade",
+    "category": "gemUpgrade",
     "ingredientIcons": [
       "invgsvb"
     ],
@@ -347,7 +347,7 @@
       "zh-TW": "3 紫寶石 -> 無暇疵的紫寶石",
       "zh-CN": "3 紫宝石 -> 无暇疵的紫宝石"
     },
-    "category": "runeGemUpgrade",
+    "category": "gemUpgrade",
     "ingredientIcons": [
       "invgsvc"
     ],
@@ -360,7 +360,7 @@
       "zh-TW": "3 無暇疵的紫寶石 -> 完美的紫寶石",
       "zh-CN": "3 无暇疵的紫宝石 -> 完美的紫宝石"
     },
-    "category": "runeGemUpgrade",
+    "category": "gemUpgrade",
     "ingredientIcons": [
       "invgsvd"
     ],
@@ -373,7 +373,7 @@
       "zh-TW": "3 碎裂的紅寶石 -> 裂開的紅寶石",
       "zh-CN": "3 碎裂的红宝石 -> 裂开的红宝石"
     },
-    "category": "runeGemUpgrade",
+    "category": "gemUpgrade",
     "ingredientIcons": [
       "invgsra"
     ],
@@ -386,7 +386,7 @@
       "zh-TW": "3 裂開的紅寶石 -> 紅寶石",
       "zh-CN": "3 裂开的红宝石 -> 红宝石"
     },
-    "category": "runeGemUpgrade",
+    "category": "gemUpgrade",
     "ingredientIcons": [
       "invgsrb"
     ],
@@ -399,7 +399,7 @@
       "zh-TW": "3 紅寶石 -> 無暇疵的紅寶石",
       "zh-CN": "3 红宝石 -> 无暇疵的红宝石"
     },
-    "category": "runeGemUpgrade",
+    "category": "gemUpgrade",
     "ingredientIcons": [
       "invgsrc"
     ],
@@ -412,7 +412,7 @@
       "zh-TW": "3 無暇疵的紅寶石 -> 完美的紅寶石",
       "zh-CN": "3 无暇疵的红宝石 -> 完美的红宝石"
     },
-    "category": "runeGemUpgrade",
+    "category": "gemUpgrade",
     "ingredientIcons": [
       "invgsrd"
     ],
@@ -425,7 +425,7 @@
       "zh-TW": "3 碎裂的藍寶石 -> 裂開的藍寶石",
       "zh-CN": "3 碎裂的蓝宝石 -> 裂开的蓝宝石"
     },
-    "category": "runeGemUpgrade",
+    "category": "gemUpgrade",
     "ingredientIcons": [
       "invgsba"
     ],
@@ -438,7 +438,7 @@
       "zh-TW": "3 裂開的藍寶石 -> 藍寶石",
       "zh-CN": "3 裂开的蓝宝石 -> 蓝宝石"
     },
-    "category": "runeGemUpgrade",
+    "category": "gemUpgrade",
     "ingredientIcons": [
       "invgsbb"
     ],
@@ -451,7 +451,7 @@
       "zh-TW": "3 藍寶石 -> 無暇疵的藍寶石",
       "zh-CN": "3 蓝宝石 -> 无暇疵的蓝宝石"
     },
-    "category": "runeGemUpgrade",
+    "category": "gemUpgrade",
     "ingredientIcons": [
       "invgsbc"
     ],
@@ -464,7 +464,7 @@
       "zh-TW": "3 無暇疵的藍寶石 -> 完美的藍寶石",
       "zh-CN": "3 无暇疵的蓝宝石 -> 完美的蓝宝石"
     },
-    "category": "runeGemUpgrade",
+    "category": "gemUpgrade",
     "ingredientIcons": [
       "invgsbd"
     ],
@@ -477,7 +477,7 @@
       "zh-TW": "3 碎裂的黃寶石 -> 裂開的黃寶石",
       "zh-CN": "3 碎裂的黄宝石 -> 裂开的黄宝石"
     },
-    "category": "runeGemUpgrade",
+    "category": "gemUpgrade",
     "ingredientIcons": [
       "invgsya"
     ],
@@ -490,7 +490,7 @@
       "zh-TW": "3 裂開的黃寶石 -> 黃寶石",
       "zh-CN": "3 裂开的黄宝石 -> 黄宝石"
     },
-    "category": "runeGemUpgrade",
+    "category": "gemUpgrade",
     "ingredientIcons": [
       "invgsyb"
     ],
@@ -503,7 +503,7 @@
       "zh-TW": "3 黃寶石 -> 無暇疵的黃寶石",
       "zh-CN": "3 黄宝石 -> 无暇疵的黄宝石"
     },
-    "category": "runeGemUpgrade",
+    "category": "gemUpgrade",
     "ingredientIcons": [
       "invgsyc"
     ],
@@ -516,7 +516,7 @@
       "zh-TW": "3 無暇疵的黃寶石 -> 完美的黃寶石",
       "zh-CN": "3 无暇疵的黄宝石 -> 完美的黄宝石"
     },
-    "category": "runeGemUpgrade",
+    "category": "gemUpgrade",
     "ingredientIcons": [
       "invgsyd"
     ],
@@ -529,7 +529,7 @@
       "zh-TW": "3 碎裂的綠寶石 -> 裂開的綠寶石",
       "zh-CN": "3 碎裂的绿宝石 -> 裂开的绿宝石"
     },
-    "category": "runeGemUpgrade",
+    "category": "gemUpgrade",
     "ingredientIcons": [
       "invgsga"
     ],
@@ -542,7 +542,7 @@
       "zh-TW": "3 裂開的綠寶石 -> 綠寶石",
       "zh-CN": "3 裂开的绿宝石 -> 绿宝石"
     },
-    "category": "runeGemUpgrade",
+    "category": "gemUpgrade",
     "ingredientIcons": [
       "invgsgb"
     ],
@@ -555,7 +555,7 @@
       "zh-TW": "3 綠寶石 -> 無暇疵的綠寶石",
       "zh-CN": "3 绿宝石 -> 无暇疵的绿宝石"
     },
-    "category": "runeGemUpgrade",
+    "category": "gemUpgrade",
     "ingredientIcons": [
       "invgsgc"
     ],
@@ -568,7 +568,7 @@
       "zh-TW": "3 無暇疵的綠寶石 -> 完美的綠寶石",
       "zh-CN": "3 无暇疵的绿宝石 -> 完美的绿宝石"
     },
-    "category": "runeGemUpgrade",
+    "category": "gemUpgrade",
     "ingredientIcons": [
       "invgsgd"
     ],
@@ -581,7 +581,7 @@
       "zh-TW": "3 碎裂的鑽石 -> 裂開的鑽石",
       "zh-CN": "3 碎裂的钻石 -> 裂开的钻石"
     },
-    "category": "runeGemUpgrade",
+    "category": "gemUpgrade",
     "ingredientIcons": [
       "invgswa"
     ],
@@ -594,7 +594,7 @@
       "zh-TW": "3 裂開的鑽石 -> 鑽石",
       "zh-CN": "3 裂开的钻石 -> 钻石"
     },
-    "category": "runeGemUpgrade",
+    "category": "gemUpgrade",
     "ingredientIcons": [
       "invgswb"
     ],
@@ -607,7 +607,7 @@
       "zh-TW": "3 鑽石 -> 無暇疵的鑽石",
       "zh-CN": "3 钻石 -> 无暇疵的钻石"
     },
-    "category": "runeGemUpgrade",
+    "category": "gemUpgrade",
     "ingredientIcons": [
       "invgswc"
     ],
@@ -620,7 +620,7 @@
       "zh-TW": "3 無暇疵的鑽石 -> 完美的鑽石",
       "zh-CN": "3 无暇疵的钻石 -> 完美的钻石"
     },
-    "category": "runeGemUpgrade",
+    "category": "gemUpgrade",
     "ingredientIcons": [
       "invgswd"
     ],
@@ -633,7 +633,7 @@
       "zh-TW": "3 碎裂的骷髏 -> 裂開的骷髏",
       "zh-CN": "3 碎裂的骷髅 -> 裂开的骷髅"
     },
-    "category": "runeGemUpgrade",
+    "category": "gemUpgrade",
     "ingredientIcons": [
       "invskc"
     ],
@@ -646,7 +646,7 @@
       "zh-TW": "3 裂開的骷髏 -> 骷髏",
       "zh-CN": "3 裂开的骷髅 -> 骷髅"
     },
-    "category": "runeGemUpgrade",
+    "category": "gemUpgrade",
     "ingredientIcons": [
       "invskf"
     ],
@@ -659,7 +659,7 @@
       "zh-TW": "3 骷髏 -> 無暇疵的骷髏",
       "zh-CN": "3 骷髅 -> 无暇疵的骷髅"
     },
-    "category": "runeGemUpgrade",
+    "category": "gemUpgrade",
     "ingredientIcons": [
       "invsku"
     ],
@@ -672,7 +672,7 @@
       "zh-TW": "3 無暇疵的骷髏 -> 完美的骷髏",
       "zh-CN": "3 无暇疵的骷髅 -> 完美的骷髅"
     },
-    "category": "runeGemUpgrade",
+    "category": "gemUpgrade",
     "ingredientIcons": [
       "invskl"
     ],
@@ -685,7 +685,7 @@
       "zh-TW": "3 艾爾符文 -> 艾德符文",
       "zh-CN": "3 艾尔符文 -> 艾德符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrEl"
     ],
@@ -698,7 +698,7 @@
       "zh-TW": "3 艾德符文 -> 特爾符文",
       "zh-CN": "3 艾德符文 -> 特尔符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrEld"
     ],
@@ -711,7 +711,7 @@
       "zh-TW": "3 特爾符文 -> 那夫符文",
       "zh-CN": "3 特尔符文 -> 那夫符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrTir"
     ],
@@ -724,7 +724,7 @@
       "zh-TW": "3 那夫符文 -> 愛斯符文",
       "zh-CN": "3 那夫符文 -> 爱斯符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrNef"
     ],
@@ -737,7 +737,7 @@
       "zh-TW": "3 愛斯符文 -> 伊司符文",
       "zh-CN": "3 爱斯符文 -> 伊司符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrEth"
     ],
@@ -750,7 +750,7 @@
       "zh-TW": "3 伊司符文 -> 塔爾符文",
       "zh-CN": "3 伊司符文 -> 塔尔符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrIth"
     ],
@@ -763,7 +763,7 @@
       "zh-TW": "3 塔爾符文 -> 拉爾符文",
       "zh-CN": "3 塔尔符文 -> 拉尔符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrTal"
     ],
@@ -776,7 +776,7 @@
       "zh-TW": "3 拉爾符文 -> 歐特符文",
       "zh-CN": "3 拉尔符文 -> 欧特符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrRal"
     ],
@@ -789,7 +789,7 @@
       "zh-TW": "3 歐特符文 -> 書爾符文",
       "zh-CN": "3 欧特符文 -> 书尔符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrOrt"
     ],
@@ -852,7 +852,7 @@
       "zh-TW": "3 書爾符文 + 1 碎裂的黃寶石 -> 安姆符文",
       "zh-CN": "3 书尔符文 + 1 碎裂的黄宝石 -> 安姆符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrThul",
       "invgsya"
@@ -866,7 +866,7 @@
       "zh-TW": "3 安姆符文 + 1 碎裂的紫寶石 -> 索爾符文",
       "zh-CN": "3 安姆符文 + 1 碎裂的紫宝石 -> 索尔符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrAmn",
       "invgsva"
@@ -880,7 +880,7 @@
       "zh-TW": "3 索爾符文 + 1 碎裂的藍寶石 -> 夏符文",
       "zh-CN": "3 索尔符文 + 1 碎裂的蓝宝石 -> 夏符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrSol",
       "invgsba"
@@ -894,7 +894,7 @@
       "zh-TW": "3 夏符文 + 1 碎裂的紅寶石 -> 多爾符文",
       "zh-CN": "3 夏符文 + 1 碎裂的红宝石 -> 多尔符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrShae",
       "invgsra"
@@ -908,7 +908,7 @@
       "zh-TW": "3 多爾符文 + 1 碎裂的綠寶石 -> 海爾符文",
       "zh-CN": "3 多尔符文 + 1 碎裂的绿宝石 -> 海尔符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrDol",
       "invgsga"
@@ -922,7 +922,7 @@
       "zh-TW": "3 海爾符文 + 1 碎裂的鑽石 -> 埃歐符文",
       "zh-CN": "3 海尔符文 + 1 碎裂的钻石 -> 埃欧符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrHel",
       "invgswa"
@@ -936,7 +936,7 @@
       "zh-TW": "3 埃歐符文 + 1 裂開的黃寶石 -> 盧姆符文",
       "zh-CN": "3 埃欧符文 + 1 裂开的黄宝石 -> 卢姆符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrIo",
       "invgsyb"
@@ -950,7 +950,7 @@
       "zh-TW": "3 盧姆符文 + 1 裂開的紫寶石 -> 科符文",
       "zh-CN": "3 卢姆符文 + 1 裂开的紫宝石 -> 科符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrLum",
       "invgsvb"
@@ -964,7 +964,7 @@
       "zh-TW": "3 科符文 + 1 裂開的藍寶石 -> 法爾符文",
       "zh-CN": "3 科符文 + 1 裂开的蓝宝石 -> 法尔符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrKo",
       "invgsbb"
@@ -978,7 +978,7 @@
       "zh-TW": "3 法爾符文 + 1 裂開的紅寶石 -> 藍姆符文",
       "zh-CN": "3 法尔符文 + 1 裂开的红宝石 -> 蓝姆符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrFal",
       "invgsrb"
@@ -992,7 +992,7 @@
       "zh-TW": "3 藍姆符文 + 1 裂開的綠寶石 -> 普爾符文",
       "zh-CN": "3 蓝姆符文 + 1 裂开的绿宝石 -> 普尔符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrLem",
       "invgsgb"
@@ -1006,7 +1006,7 @@
       "zh-TW": "2 普爾符文 + 1 裂開的鑽石 -> 烏姆符文",
       "zh-CN": "2 普尔符文 + 1 裂开的钻石 -> 乌姆符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrPul",
       "invgswb"
@@ -1020,7 +1020,7 @@
       "zh-TW": "2 烏姆符文 + 1 黃寶石 -> 馬爾符文",
       "zh-CN": "2 乌姆符文 + 1 黄宝石 -> 马尔符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrUm",
       "invgsyc"
@@ -1034,7 +1034,7 @@
       "zh-TW": "2 馬爾符文 + 1 紫寶石 -> 伊司特符文",
       "zh-CN": "2 马尔符文 + 1 紫宝石 -> 伊司特符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrMal",
       "invgsvc"
@@ -1048,7 +1048,7 @@
       "zh-TW": "2 伊司特符文 + 1 藍寶石 -> 古爾符文",
       "zh-CN": "2 伊司特符文 + 1 蓝宝石 -> 古尔符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrIst",
       "invgsbc"
@@ -1062,7 +1062,7 @@
       "zh-TW": "2 古爾符文 + 1 紅寶石 -> 伐克斯符文",
       "zh-CN": "2 古尔符文 + 1 红宝石 -> 伐克斯符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrGul",
       "invgsrc"
@@ -1076,7 +1076,7 @@
       "zh-TW": "2 伐克斯符文 + 1 綠寶石 -> 歐姆符文",
       "zh-CN": "2 伐克斯符文 + 1 绿宝石 -> 欧姆符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrVex",
       "invgsgc"
@@ -1090,7 +1090,7 @@
       "zh-TW": "2 歐姆符文 + 1 鑽石 -> 羅符文",
       "zh-CN": "2 欧姆符文 + 1 钻石 -> 罗符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrOhm",
       "invgswc"
@@ -1104,7 +1104,7 @@
       "zh-TW": "2 羅符文 + 1 無暇疵的黃寶石 -> 瑟符文",
       "zh-CN": "2 罗符文 + 1 无暇疵的黄宝石 -> 瑟符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrLo",
       "invgsyd"
@@ -1118,7 +1118,7 @@
       "zh-TW": "2 瑟符文 + 1 無暇疵的紫寶石 -> 貝符文",
       "zh-CN": "2 瑟符文 + 1 无暇疵的紫宝石 -> 贝符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrSur",
       "invgsvd"
@@ -1132,7 +1132,7 @@
       "zh-TW": "2 貝符文 + 1 無暇疵的藍寶石 -> 喬符文",
       "zh-CN": "2 贝符文 + 1 无暇疵的蓝宝石 -> 乔符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrBer",
       "invgsbd"
@@ -1146,7 +1146,7 @@
       "zh-TW": "2 喬符文 + 1 無暇疵的紅寶石 -> 查姆符文",
       "zh-CN": "2 乔符文 + 1 无暇疵的红宝石 -> 查姆符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrJo",
       "invgsrd"
@@ -1160,7 +1160,7 @@
       "zh-TW": "2 查姆符文 + 1 無暇疵的綠寶石 -> 薩德符文",
       "zh-CN": "2 查姆符文 + 1 无暇疵的绿宝石 -> 萨德符文"
     },
-    "category": "runeGemUpgrade",
+    "category": "runeUpgrade",
     "ingredientIcons": [
       "invrCham",
       "invgsgd"

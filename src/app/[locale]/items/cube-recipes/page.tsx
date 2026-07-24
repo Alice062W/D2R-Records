@@ -5,12 +5,24 @@ import CubeRecipeCategoryGrid from '@/components/items/CubeRecipeCategoryGrid';
 
 // Same category order as data/cube-recipes.json's category buckets.
 const CATEGORY_ORDER = [
-  'runeGemUpgrade', 'quests', 'consumables', 'sockets', 'itemUpgrade',
+  'gemUpgrade', 'runeUpgrade', 'quests', 'consumables', 'sockets', 'itemUpgrade',
   'itemRepair', 'magicItemRerolls', 'magicItemCreation', 'craftedGrandCharm',
 ] as const;
 
 export function generateStaticParams() {
   return routing.locales.map(locale => ({ locale }));
+}
+
+// No single vendor field designates a "representative" icon per recipe
+// category, so derive one from the category's own recipes: the first
+// recipe with an output icon (preferred, since it's the recipe's actual
+// result), falling back to its first ingredient icon.
+function iconFor(categoryRecipes: typeof recipes) {
+  for (const r of categoryRecipes) {
+    if (r.outputIcon) return r.outputIcon;
+    if (r.ingredientIcons.length > 0) return r.ingredientIcons[0];
+  }
+  return null;
 }
 
 export default async function CubeRecipesPage({
@@ -23,7 +35,10 @@ export default async function CubeRecipesPage({
   const t = await getTranslations('Items');
 
   const categories = CATEGORY_ORDER
-    .map(category => ({ category, count: recipes.filter(r => r.category === category).length }))
+    .map(category => {
+      const items = recipes.filter(r => r.category === category);
+      return { category, count: items.length, icon: iconFor(items) };
+    })
     .filter(c => c.count > 0);
 
   return (

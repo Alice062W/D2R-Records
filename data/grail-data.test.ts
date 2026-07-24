@@ -417,7 +417,12 @@ describe('cube-recipes.json', () => {
 
   it('classifies a known rune-upgrade recipe correctly', () => {
     const eld = cubeRecipesData.find(r => r.description.en === '3 El Runes -> Eld Rune');
-    expect(eld?.category).toBe('runeGemUpgrade');
+    expect(eld?.category).toBe('runeUpgrade');
+  });
+
+  it('classifies a known gem-upgrade recipe correctly (split out of the former runeGemUpgrade bucket)', () => {
+    const flawedAmethyst = cubeRecipesData.find(r => r.description.en === '3 Chipped Amethysts -> Flawed Amethyst');
+    expect(flawedAmethyst?.category).toBe('gemUpgrade');
   });
 
   it('classifies a known quest recipe correctly', () => {

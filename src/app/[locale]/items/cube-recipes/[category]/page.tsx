@@ -6,7 +6,7 @@ import recipes from '../../../../../../data/cube-recipes.json';
 import CubeRecipeList from '@/components/items/CubeRecipeList';
 
 const CATEGORY_ORDER = [
-  'runeGemUpgrade', 'quests', 'consumables', 'sockets', 'itemUpgrade',
+  'gemUpgrade', 'runeUpgrade', 'quests', 'consumables', 'sockets', 'itemUpgrade',
   'itemRepair', 'magicItemRerolls', 'magicItemCreation', 'craftedGrandCharm',
 ] as const;
 

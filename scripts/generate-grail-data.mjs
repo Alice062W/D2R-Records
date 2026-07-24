@@ -3325,10 +3325,18 @@ const cubeMainData = JSON.parse(readFileSync(join(VENDOR, 'cubemain.json'), 'utf
 // cubemain.json's own object keys (its numeric string ids). Spot-checked against
 // the vendored file's `description` text this session.
 const RECIPE_CATEGORY = {};
-for (const id of [23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,
-                   51,52,53,54,55,56,57,58,59,100,101,102,103,104,105,106,107,108,109,110,111,112,113,
+// Split from a single "Rune & Gem Upgrade" bucket (60 recipes — by far the
+// largest category page) into two: ids 23-50 are gem-tier upgrades ("3
+// Chipped X -> Flawed X" etc.), ids 51-59/100-122 are rune-tier upgrades
+// ("3 El Runes -> Eld Rune" etc.) — confirmed via cubemain.json's own
+// description text (every recipe in the second range mentions "Rune",
+// none in the first).
+for (const id of [23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50]) {
+  RECIPE_CATEGORY[id] = 'gemUpgrade';
+}
+for (const id of [51,52,53,54,55,56,57,58,59,100,101,102,103,104,105,106,107,108,109,110,111,112,113,
                    114,115,116,117,118,119,120,121,122]) {
-  RECIPE_CATEGORY[id] = 'runeGemUpgrade';
+  RECIPE_CATEGORY[id] = 'runeUpgrade';
 }
 for (const id of [0,1,2,148,149,150,165,177,189,201,213,225,226]) RECIPE_CATEGORY[id] = 'quests';
 for (const id of [3,4,5,11,12,20,21,22]) RECIPE_CATEGORY[id] = 'consumables';

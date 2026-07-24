@@ -7,7 +7,7 @@ import recipes from '../../../data/cube-recipes.json';
 
 describe('CubeRecipeList', () => {
   it('renders every recipe passed to it (category grouping now lives in the page route)', () => {
-    const category = recipes.filter(r => r.category === 'runeGemUpgrade');
+    const category = recipes.filter(r => r.category === 'runeUpgrade');
     render(
       <NextIntlClientProvider locale="en" messages={messages}>
         <CubeRecipeList recipes={category} locale="en" />
