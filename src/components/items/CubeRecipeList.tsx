@@ -38,7 +38,7 @@ export default function CubeRecipeList({ recipes, locale }: { recipes: Recipe[];
               )}
             </div>
           )}
-          {r.description[locale]}
+          {r.description[locale].replace(/->/g, '→')}
         </div>
       ))}
     </div>

@@ -1424,6 +1424,18 @@ console.log(`Wrote ${Object.keys(categoryIconsOut).length} category icons -> dat
 // usetype/useitem/any keywords) rather than guessing a representative icon.
 const CUBE_TYPE_ALIASES = { shld: 'shie', rod: 'staf' };
 
+// cubemain.json encodes an input's required quantity as a "qty=N" token
+// within the same comma-separated field as the code itself (e.g. "input 1":
+// "gcv,qty=3" for "3 Chipped Amethysts"), not a separate column — defaults
+// to 1 when absent (e.g. "rod,mag" — 1 Magic Rod). Confirmed directly
+// against vendor/d2data/json/cubemain.json ids 23 (gem upgrade) and 51
+// (rune upgrade) this session.
+function quantityFor(rawField) {
+  if (!rawField) return 1;
+  const match = rawField.replace(/^"|"$/g, '').match(/qty=(\d+)/);
+  return match ? Number(match[1]) : 1;
+}
+
 function resolveIconFor(rawField) {
   if (!rawField) return null;
   const code = rawField.replace(/^"|"$/g, '').split(',')[0];
@@ -3590,10 +3602,16 @@ function localizedRecipeDescription(rawDescription) {
 const cubeRecipesOut = Object.entries(cubeMainData)
   .filter(([id, v]) => (v.enabled === 1 || RECIPE_CATEGORY[id] === 'craftedGrandCharm') && !CRAFT_RECIPE_IDS.has(Number(id)))
   .map(([id, v]) => {
+    // Repeat an ingredient's icon `qty` times (e.g. 3 icons for "3 Chipped
+    // Amethysts") rather than collapsing to one — this is the actual
+    // required count, not just a distinct-ingredients list.
     const ingredientIcons = [];
     for (let n = 1; n <= 7; n++) {
-      const icon = resolveIconFor(v[`input ${n}`]);
-      if (icon && !ingredientIcons.includes(icon)) ingredientIcons.push(icon);
+      const rawInput = v[`input ${n}`];
+      const icon = resolveIconFor(rawInput);
+      if (!icon) continue;
+      const qty = quantityFor(rawInput);
+      for (let i = 0; i < qty; i++) ingredientIcons.push(icon);
     }
     return {
       id: `recipe-${id}`,

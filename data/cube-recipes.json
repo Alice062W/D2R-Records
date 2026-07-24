@@ -74,6 +74,8 @@
     },
     "category": "consumables",
     "ingredientIcons": [
+      "invvps",
+      "invvps",
       "invvps"
     ],
     "outputIcon": "invvpl"
@@ -194,6 +196,8 @@
     },
     "category": "magicItemCreation",
     "ingredientIcons": [
+      "invrin",
+      "invrin",
       "invrin"
     ],
     "outputIcon": "invamu"
@@ -207,6 +211,8 @@
     },
     "category": "magicItemCreation",
     "ingredientIcons": [
+      "invamu",
+      "invamu",
       "invamu"
     ],
     "outputIcon": "invrin"
@@ -297,6 +303,7 @@
     },
     "category": "consumables",
     "ingredientIcons": [
+      "invqvr",
       "invqvr"
     ],
     "outputIcon": "invcqv"
@@ -310,6 +317,7 @@
     },
     "category": "consumables",
     "ingredientIcons": [
+      "invcqv",
       "invcqv"
     ],
     "outputIcon": "invqvr"
@@ -323,6 +331,8 @@
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
+      "invgsva",
+      "invgsva",
       "invgsva"
     ],
     "outputIcon": "invgsvb"
@@ -336,6 +346,8 @@
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
+      "invgsvb",
+      "invgsvb",
       "invgsvb"
     ],
     "outputIcon": "invgsvc"
@@ -349,6 +361,8 @@
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
+      "invgsvc",
+      "invgsvc",
       "invgsvc"
     ],
     "outputIcon": "invgsvd"
@@ -362,6 +376,8 @@
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
+      "invgsvd",
+      "invgsvd",
       "invgsvd"
     ],
     "outputIcon": "invgsve"
@@ -375,6 +391,8 @@
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
+      "invgsra",
+      "invgsra",
       "invgsra"
     ],
     "outputIcon": "invgsrb"
@@ -388,6 +406,8 @@
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
+      "invgsrb",
+      "invgsrb",
       "invgsrb"
     ],
     "outputIcon": "invgsrc"
@@ -401,6 +421,8 @@
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
+      "invgsrc",
+      "invgsrc",
       "invgsrc"
     ],
     "outputIcon": "invgsrd"
@@ -414,6 +436,8 @@
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
+      "invgsrd",
+      "invgsrd",
       "invgsrd"
     ],
     "outputIcon": "invgsre"
@@ -427,6 +451,8 @@
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
+      "invgsba",
+      "invgsba",
       "invgsba"
     ],
     "outputIcon": "invgsbb"
@@ -440,6 +466,8 @@
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
+      "invgsbb",
+      "invgsbb",
       "invgsbb"
     ],
     "outputIcon": "invgsbc"
@@ -453,6 +481,8 @@
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
+      "invgsbc",
+      "invgsbc",
       "invgsbc"
     ],
     "outputIcon": "invgsbd"
@@ -466,6 +496,8 @@
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
+      "invgsbd",
+      "invgsbd",
       "invgsbd"
     ],
     "outputIcon": "invgsbe"
@@ -479,6 +511,8 @@
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
+      "invgsya",
+      "invgsya",
       "invgsya"
     ],
     "outputIcon": "invgsyb"
@@ -492,6 +526,8 @@
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
+      "invgsyb",
+      "invgsyb",
       "invgsyb"
     ],
     "outputIcon": "invgsyc"
@@ -505,6 +541,8 @@
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
+      "invgsyc",
+      "invgsyc",
       "invgsyc"
     ],
     "outputIcon": "invgsyd"
@@ -518,6 +556,8 @@
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
+      "invgsyd",
+      "invgsyd",
       "invgsyd"
     ],
     "outputIcon": "invgsye"
@@ -531,6 +571,8 @@
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
+      "invgsga",
+      "invgsga",
       "invgsga"
     ],
     "outputIcon": "invgsgb"
@@ -544,6 +586,8 @@
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
+      "invgsgb",
+      "invgsgb",
       "invgsgb"
     ],
     "outputIcon": "invgsgc"
@@ -557,6 +601,8 @@
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
+      "invgsgc",
+      "invgsgc",
       "invgsgc"
     ],
     "outputIcon": "invgsgd"
@@ -570,6 +616,8 @@
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
+      "invgsgd",
+      "invgsgd",
       "invgsgd"
     ],
     "outputIcon": "invgsge"
@@ -583,6 +631,8 @@
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
+      "invgswa",
+      "invgswa",
       "invgswa"
     ],
     "outputIcon": "invgswb"
@@ -596,6 +646,8 @@
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
+      "invgswb",
+      "invgswb",
       "invgswb"
     ],
     "outputIcon": "invgswc"
@@ -609,6 +661,8 @@
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
+      "invgswc",
+      "invgswc",
       "invgswc"
     ],
     "outputIcon": "invgswd"
@@ -622,6 +676,8 @@
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
+      "invgswd",
+      "invgswd",
       "invgswd"
     ],
     "outputIcon": "invgswe"
@@ -635,6 +691,8 @@
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
+      "invskc",
+      "invskc",
       "invskc"
     ],
     "outputIcon": "invskf"
@@ -648,6 +706,8 @@
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
+      "invskf",
+      "invskf",
       "invskf"
     ],
     "outputIcon": "invsku"
@@ -661,6 +721,8 @@
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
+      "invsku",
+      "invsku",
       "invsku"
     ],
     "outputIcon": "invskl"
@@ -674,6 +736,8 @@
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
+      "invskl",
+      "invskl",
       "invskl"
     ],
     "outputIcon": "invskz"
@@ -687,6 +751,8 @@
     },
     "category": "runeUpgrade",
     "ingredientIcons": [
+      "invrEl",
+      "invrEl",
       "invrEl"
     ],
     "outputIcon": "invrEld"
@@ -700,6 +766,8 @@
     },
     "category": "runeUpgrade",
     "ingredientIcons": [
+      "invrEld",
+      "invrEld",
       "invrEld"
     ],
     "outputIcon": "invrTir"
@@ -713,6 +781,8 @@
     },
     "category": "runeUpgrade",
     "ingredientIcons": [
+      "invrTir",
+      "invrTir",
       "invrTir"
     ],
     "outputIcon": "invrNef"
@@ -726,6 +796,8 @@
     },
     "category": "runeUpgrade",
     "ingredientIcons": [
+      "invrNef",
+      "invrNef",
       "invrNef"
     ],
     "outputIcon": "invrEth"
@@ -739,6 +811,8 @@
     },
     "category": "runeUpgrade",
     "ingredientIcons": [
+      "invrEth",
+      "invrEth",
       "invrEth"
     ],
     "outputIcon": "invrIth"
@@ -752,6 +826,8 @@
     },
     "category": "runeUpgrade",
     "ingredientIcons": [
+      "invrIth",
+      "invrIth",
       "invrIth"
     ],
     "outputIcon": "invrTal"
@@ -765,6 +841,8 @@
     },
     "category": "runeUpgrade",
     "ingredientIcons": [
+      "invrTal",
+      "invrTal",
       "invrTal"
     ],
     "outputIcon": "invrRal"
@@ -778,6 +856,8 @@
     },
     "category": "runeUpgrade",
     "ingredientIcons": [
+      "invrRal",
+      "invrRal",
       "invrRal"
     ],
     "outputIcon": "invrOrt"
@@ -791,6 +871,8 @@
     },
     "category": "runeUpgrade",
     "ingredientIcons": [
+      "invrOrt",
+      "invrOrt",
       "invrOrt"
     ],
     "outputIcon": "invrThul"
@@ -815,6 +897,11 @@
     },
     "category": "magicItemRerolls",
     "ingredientIcons": [
+      "invskz",
+      "invskz",
+      "invskz",
+      "invskz",
+      "invskz",
       "invskz"
     ],
     "outputIcon": null
@@ -841,6 +928,8 @@
     },
     "category": "sockets",
     "ingredientIcons": [
+      "invskz",
+      "invskz",
       "invskz"
     ],
     "outputIcon": null
@@ -854,6 +943,8 @@
     },
     "category": "runeUpgrade",
     "ingredientIcons": [
+      "invrThul",
+      "invrThul",
       "invrThul",
       "invgsya"
     ],
@@ -869,6 +960,8 @@
     "category": "runeUpgrade",
     "ingredientIcons": [
       "invrAmn",
+      "invrAmn",
+      "invrAmn",
       "invgsva"
     ],
     "outputIcon": "invrSol"
@@ -882,6 +975,8 @@
     },
     "category": "runeUpgrade",
     "ingredientIcons": [
+      "invrSol",
+      "invrSol",
       "invrSol",
       "invgsba"
     ],
@@ -897,6 +992,8 @@
     "category": "runeUpgrade",
     "ingredientIcons": [
       "invrShae",
+      "invrShae",
+      "invrShae",
       "invgsra"
     ],
     "outputIcon": "invrDol"
@@ -910,6 +1007,8 @@
     },
     "category": "runeUpgrade",
     "ingredientIcons": [
+      "invrDol",
+      "invrDol",
       "invrDol",
       "invgsga"
     ],
@@ -925,6 +1024,8 @@
     "category": "runeUpgrade",
     "ingredientIcons": [
       "invrHel",
+      "invrHel",
+      "invrHel",
       "invgswa"
     ],
     "outputIcon": "invrIo"
@@ -938,6 +1039,8 @@
     },
     "category": "runeUpgrade",
     "ingredientIcons": [
+      "invrIo",
+      "invrIo",
       "invrIo",
       "invgsyb"
     ],
@@ -953,6 +1056,8 @@
     "category": "runeUpgrade",
     "ingredientIcons": [
       "invrLum",
+      "invrLum",
+      "invrLum",
       "invgsvb"
     ],
     "outputIcon": "invrKo"
@@ -966,6 +1071,8 @@
     },
     "category": "runeUpgrade",
     "ingredientIcons": [
+      "invrKo",
+      "invrKo",
       "invrKo",
       "invgsbb"
     ],
@@ -981,6 +1088,8 @@
     "category": "runeUpgrade",
     "ingredientIcons": [
       "invrFal",
+      "invrFal",
+      "invrFal",
       "invgsrb"
     ],
     "outputIcon": "invrLem"
@@ -994,6 +1103,8 @@
     },
     "category": "runeUpgrade",
     "ingredientIcons": [
+      "invrLem",
+      "invrLem",
       "invrLem",
       "invgsgb"
     ],
@@ -1009,6 +1120,7 @@
     "category": "runeUpgrade",
     "ingredientIcons": [
       "invrPul",
+      "invrPul",
       "invgswb"
     ],
     "outputIcon": "invrUm"
@@ -1022,6 +1134,7 @@
     },
     "category": "runeUpgrade",
     "ingredientIcons": [
+      "invrUm",
       "invrUm",
       "invgsyc"
     ],
@@ -1037,6 +1150,7 @@
     "category": "runeUpgrade",
     "ingredientIcons": [
       "invrMal",
+      "invrMal",
       "invgsvc"
     ],
     "outputIcon": "invrIst"
@@ -1050,6 +1164,7 @@
     },
     "category": "runeUpgrade",
     "ingredientIcons": [
+      "invrIst",
       "invrIst",
       "invgsbc"
     ],
@@ -1065,6 +1180,7 @@
     "category": "runeUpgrade",
     "ingredientIcons": [
       "invrGul",
+      "invrGul",
       "invgsrc"
     ],
     "outputIcon": "invrVex"
@@ -1078,6 +1194,7 @@
     },
     "category": "runeUpgrade",
     "ingredientIcons": [
+      "invrVex",
       "invrVex",
       "invgsgc"
     ],
@@ -1093,6 +1210,7 @@
     "category": "runeUpgrade",
     "ingredientIcons": [
       "invrOhm",
+      "invrOhm",
       "invgswc"
     ],
     "outputIcon": "invrLo"
@@ -1106,6 +1224,7 @@
     },
     "category": "runeUpgrade",
     "ingredientIcons": [
+      "invrLo",
       "invrLo",
       "invgsyd"
     ],
@@ -1121,6 +1240,7 @@
     "category": "runeUpgrade",
     "ingredientIcons": [
       "invrSur",
+      "invrSur",
       "invgsvd"
     ],
     "outputIcon": "invrBer"
@@ -1134,6 +1254,7 @@
     },
     "category": "runeUpgrade",
     "ingredientIcons": [
+      "invrBer",
       "invrBer",
       "invgsbd"
     ],
@@ -1149,6 +1270,7 @@
     "category": "runeUpgrade",
     "ingredientIcons": [
       "invrJo",
+      "invrJo",
       "invgsrd"
     ],
     "outputIcon": "invrCham"
@@ -1162,6 +1284,7 @@
     },
     "category": "runeUpgrade",
     "ingredientIcons": [
+      "invrCham",
       "invrCham",
       "invgsgd"
     ],
@@ -1462,6 +1585,8 @@
     },
     "category": "quests",
     "ingredientIcons": [
+      "invmph",
+      "invmph",
       "invmph"
     ],
     "outputIcon": null
@@ -1915,6 +2040,8 @@
     "ingredientIcons": [
       "invrMal",
       "invgswe",
+      "invtoa",
+      "invtoa",
       "invtoa"
     ],
     "outputIcon": null
@@ -1928,6 +2055,10 @@
     },
     "category": "quests",
     "ingredientIcons": [
+      "invjbi",
+      "invjbi",
+      "invjbi",
+      "invjbi",
       "invjbi"
     ],
     "outputIcon": null

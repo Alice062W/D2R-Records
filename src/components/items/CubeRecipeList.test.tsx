@@ -13,7 +13,7 @@ describe('CubeRecipeList', () => {
         <CubeRecipeList recipes={category} locale="en" />
       </NextIntlClientProvider>
     );
-    expect(screen.getByText('3 El Runes -> Eld Rune')).toBeInTheDocument();
+    expect(screen.getByText('3 El Runes → Eld Rune')).toBeInTheDocument();
   });
 
   it('renders ingredient and output icons alongside the existing description text', () => {
@@ -29,12 +29,30 @@ describe('CubeRecipeList', () => {
         <CubeRecipeList recipes={[recipe]} locale="en" />
       </NextIntlClientProvider>
     );
-    expect(screen.getByText('Staff of Kings + Amulet of the Viper -> Horadric Staff')).toBeInTheDocument();
+    expect(screen.getByText('Staff of Kings + Amulet of the Viper → Horadric Staff')).toBeInTheDocument();
     const imgs = container.querySelectorAll('img');
     const srcs = Array.from(imgs).map(i => (i as HTMLImageElement).src);
     expect(srcs.some(s => s.includes('invmsf'))).toBe(true);
     expect(srcs.some(s => s.includes('invvip'))).toBe(true);
     expect(srcs.some(s => s.includes('invhst'))).toBe(true);
+  });
+
+  it('repeats an ingredient icon per its required quantity (e.g. 3 icons for "3 Chipped Amethysts")', () => {
+    const recipe = {
+      id: 'recipe-23',
+      description: { en: '3 Chipped Amethysts -> Flawed Amethyst', 'zh-TW': 'x', 'zh-CN': 'x' },
+      category: 'gemUpgrade' as const,
+      ingredientIcons: ['invgsva', 'invgsva', 'invgsva'],
+      outputIcon: 'invgsvb',
+    };
+    const { container } = render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <CubeRecipeList recipes={[recipe]} locale="en" />
+      </NextIntlClientProvider>
+    );
+    const srcs = Array.from(container.querySelectorAll('img')).map(i => (i as HTMLImageElement).src);
+    expect(srcs.filter(s => s.includes('invgsva')).length).toBe(3);
+    expect(screen.getByText('3 Chipped Amethysts → Flawed Amethyst')).toBeInTheDocument();
   });
 
   it('renders no output icon when outputIcon is null', () => {
