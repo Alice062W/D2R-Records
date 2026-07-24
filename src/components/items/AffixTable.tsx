@@ -27,13 +27,23 @@ function groupAffixes(affixes: Affix[]): AffixGroup[] {
 function AffixRow({ group }: { group: AffixGroup }) {
   const t = useTranslations('Items');
   const tCat = useTranslations('AffixCategories');
+  const tGrail = useTranslations('Grail');
   const [expanded, setExpanded] = useState(false);
   const maxTier = group.tiers[0];
   const hasMultipleTiers = group.tiers.length > 1;
-  // Not every raw item-type slug has an AffixCategories translation entry --
-  // most (e.g. "rings", "boots") are plain English words already, only the
-  // ambiguous/compound ones (e.g. "barbarianHelms") get a dedicated label.
-  const categoryLabel = (it: string) => (tCat.has(it) ? tCat(it) : it.charAt(0).toUpperCase() + it.slice(1));
+  // AffixCategories only holds the ambiguous/compound slugs (e.g.
+  // "barbarianHelms") that have no equivalent elsewhere. The plain ones
+  // (e.g. "rings", "boots") already have complete translations under
+  // Grail's slot_* keys (used by the main category nav) — reuse those
+  // instead of duplicating ~24 strings across 3 locales. Untranslated
+  // slugs (shouldn't happen, but just in case) fall back to a
+  // capitalized raw string rather than triggering a missing-message error.
+  const categoryLabel = (it: string) => {
+    if (tCat.has(it)) return tCat(it);
+    const slotKey = `slot_${it}`;
+    if (tGrail.has(slotKey)) return tGrail(slotKey as never);
+    return it.charAt(0).toUpperCase() + it.slice(1);
+  };
 
   return (
     <div className="bg-panel border border-panel-border rounded-lg overflow-hidden">

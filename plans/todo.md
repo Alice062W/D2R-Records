@@ -328,6 +328,29 @@ _Spec: [docs/superpowers/specs/2026-07-19-owned-items-tracker-design.md](../docs
 - Discord integration / community translator program
 - Russian translation (zh-TW zh-CN + KO first)
 
+### Marketing / Launch (revisit once the collection-tracker feature is fully ready)
+_Plan: [reddit-launch-plan.md](./reddit-launch-plan.md)_
+
+- [ ] Confirm collection-tracker feature is fully live and polished
+- [ ] Pull r/diablo2 + r/D2R self-promo rules
+- [ ] Draft Reddit post (title/body) + screenshot/GIF
+- [ ] User logs into Reddit in the Browser pane; Claude fills in post form; user gives go-ahead to submit
+- [ ] Monitor/reply to comments in the first hour or two after posting
+- [ ] Repeat a lighter version for relevant D2R Discord servers
+
+## MyInput/MyData Accuracy & Restructure (in progress)
+_Plan: [myinput-data-accuracy-implementation.md](./myinput-data-accuracy-implementation.md)_
+
+- [x] Task 0: Parser infrastructure + Runewords validation (fixed Silence + Rift gaps)
+- [x] Task 1: Unique Items data audit (408 items — fixed leaked 'bloody' code + duplicate thorns bug)
+- [x] Task 2: Set Items data audit (135 items, 34 sets — fixed levelReq/name-collision/Heaven's Brethren bugs)
+- [x] Task 3: Magic/Rare Items data audit + grouped/expandable affix UI restructure (AffixTable rebuilt)
+- [x] Task 4: Crafted Items, Cube Recipes, Runes data audit (fixed Tal/Io rune bugs, Hit Power Boots, cube recipe 63)
+- [x] Task 5: Base Items data audit (fixed missing defense field + 6 name typos)
+- [x] Task 6: Misc pages spot-check (FCR/FHR/FBR, Level Up, Area Level, Alvl85 — confirmed, zero discrepancies)
+- [x] Task 7: Icon/image upgrade (already 100% covered; MyData assets are a different asset class — hero-shot renders, not backfill source)
+- [ ] Task 8: Final whole-site verification + push to GitHub
+
 ---
 
 ## Implementation Plans

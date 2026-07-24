@@ -43,3 +43,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 scripts/dump-parser/*_parsed.json
+
+# raw d2r.world crawl dump (342M, source data only — not deployed)
+/MyInput/
+/.claude/
