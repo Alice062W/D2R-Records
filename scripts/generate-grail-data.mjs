@@ -300,10 +300,16 @@ function localizedLabelFor(code) {
 // `kill-skill` par is the literal string "Decrepify" — the same
 // literal-skill-name shape SKILL_REF_PROPS already handles for skill/oskill
 // (verified directly against vendor/d2data/json/uniqueitems.json).
+// Note: the seven class-wide skill-tab codes (ama/ass/bar/dru/nec/pal/sor,
+// "+X to <Class> Skill Levels") are deliberately NOT in this set even though
+// they carry a `par` field. Their `par` isn't a meaningful skill reference —
+// it resolves to skill id 0 ("Attack", the game engine's placeholder/default
+// skill), which is why these used to render as e.g. "Paladin Skill Levels
+// (Attack): 2" instead of the correct "+2 to Paladin Skill Levels". Confirmed
+// against d2r.world's Milabrega's Regalia this session.
 const SKILL_REF_PROPS = new Set([
   'skill', 'oskill', 'charged', 'hit-skill', 'gethit-skill',
   'death-skill', 'att-skill', 'levelup-skill', 'aura', 'kill-skill',
-  'ama', 'ass', 'bar', 'dru', 'nec', 'pal', 'sor',
 ]);
 const CODE_ALIASES = { 'Gethit-skill': 'gethit-skill' };
 
@@ -325,10 +331,68 @@ function isNumericPar(par) {
   return typeof par === 'number' || (typeof par === 'string' && /^-?\d+$/.test(par));
 }
 
+// localestrings-chi.json's par is not a skill/aura NAME — it's whatever
+// literal string this codebase's own rwStat()/vendor uniqueitems.json/
+// setitems.json calls happen to pass (a real skill name, an aura name, or
+// occasionally a custom "Warlock"-class mod skill invented by this
+// project's data source). chi[] is keyed by internal short codes, never by
+// these literal display names, so a plain `chi[String(par)]` lookup always
+// misses and silently fell back to the English name — e.g. zh-TW pages
+// showed "攻擊時觸發機率 (Miasma Chains): ..." with the skill name left in
+// English. Hand-verified against MyInput/MyData's en-US/zh-TW runeword and
+// unique/set item dumps this session (positional cross-reference of the two
+// locales' decoded pages, not guessed) — extend as needed for names not yet
+// covered; anything missing here falls back to English rather than showing
+// a wrong translation.
+const SKILL_NAME_ZH_TW_OVERRIDES = {
+  Abyss: '深淵裂口', 'Amplify Damage': '傷害加深', Attract: '致命吸引',
+  'Battle Command': '戰鬥指揮', 'Battle Cry': '戰鬥怒吼', 'Battle Orders': '戰鬥命令',
+  Berserk: '狂暴之擊', Blaze: '熾烈之徑', Blizzard: '暴風雪', 'Blood Golem': '鮮血魔像',
+  'Bone Armor': '骸骨護甲', 'Bone Spear': '骨矛', 'Bone Spirit': '骸骨之魂',
+  'Burst of Speed': '速度爆發', 'Chain Lightning': '連鎖閃電', 'Charged Bolt': '電能彈',
+  'Chilling Armor': '寒冰甲', 'Clay Golem': '黏土魔像', Cleansing: '淨化',
+  'Cloak of Shadows': '魔影斗蓬', Concentration: '專注', Confuse: '混亂',
+  Conviction: '信念', 'Corpse Explosion': '屍爆', 'Critical Strike': '致命攻勢',
+  'Cyclone Armor': '氣旋護甲', Decrepify: '衰老', Defiance: '反抗', Delirium: '精神錯亂',
+  'Dim Vision': '昏暗視野', Dodge: '閃躲', Enchant: '附魔', 'Energy Shield': '能量護盾',
+  Evade: '閃避', Fade: '影散', Fanaticism: '狂熱', 'Fire Ball': '火球術',
+  'Fire Bolt': '火焰彈', 'Fire Wall': '火牆術', Firestorm: '火焰風暴', Frenzy: '狂亂連擊',
+  'Frost Nova': '冰霜新星', 'Frozen Orb': '冰封球', 'Glacial Spike': '冰川之槍',
+  'Heart of Wolverine': '狼獾之心', 'Holy Bolt': '聖光彈', 'Holy Fire': '神聖火焰',
+  'Holy Freeze': '神聖冰凍', 'Holy Shock': '神聖電擊', Howl: '狂嗥', Hydra: '多頭蛇',
+  'Ice Blast': '寒冰球', Inferno: '煉獄之火', 'Iron Golem': '鋼鐵魔像',
+  'Iron Maiden': '攻擊反噬', 'Life Tap': '偷取生命', 'Lower Resist': '降低抗性',
+  Lycanthropy: '變形術', Meditation: '冥想', Meteor: '隕石術',
+  'Miasma Chain': '瘴氣鎖鏈', 'Miasma Chains': '瘴氣鎖鏈', Might: '力量',
+  'Mind Blast': '心靈震爆', 'Molten Boulder': '熔火巨石', Nova: '閃電新星',
+  'Oak Sage': '橡木智者', 'Poison Explosion': '毒爆', 'Poison Nova': '劇毒新星',
+  'Psychic Ward': '靈能護盾', Raven: '掠鴉', Redemption: '救贖', 'Resist Fire': '抗火',
+  Revive: '重生', 'Ring of Fire': '火焰之環', Sanctuary: '庇護',
+  'Sigil: Death': '咒印：死亡', 'Sigil: Lethargy': '咒印：昏沉',
+  'Skeleton Mastery': '骷髏專精', 'Slow Missiles': '緩箭術', 'Spirit of Barbs': '荊棘之靈',
+  'Static Field': '靜電力場', 'Summon Grizzly': '召喚灰熊',
+  'Summon Spirit Wolf': '召喚幽靈狼', Taunt: '嘲諷', Teleport: '傳送術', Terror: '恐懼',
+  Thorns: '荊棘', Tornado: '龍捲風', Twister: '旋風術', Valkyrie: '女武神',
+  Vengeance: '復仇打擊', Venom: '淬毒', Vigor: '活力', Volcano: '火山噴發',
+  Warmth: '暖流', Weaken: '削弱', Werebear: '熊人變化', Whirlwind: '旋風斬',
+  Zeal: '熱忱打擊',
+  'Bone Prison': '骨牢', Fissure: '裂地之火', 'Fist of the Heavens': '天堂之拳',
+  'Flame Wave': '烈焰湧浪', 'Frozen Armor': '冰封甲', Lightning: '閃電箭',
+};
+
 function skillNameForLocale(par, locale) {
   if (locale === 'zh-TW') {
-    if (isNumericPar(par)) return chi[`skillname${par}`] ?? skillNameForLocale(par, 'en');
-    return chi[String(par)] ?? String(par);
+    // ids 0-220 key as "skillname{id}" (lowercase) in localestrings-chi.json;
+    // ids 222+ (the Assassin/Druid LoD expansion range) key as capitalized
+    // "Skillname{id}" instead — confirmed via direct inspection of the
+    // vendor file this session (159 lowercase keys spanning 0-220, 61
+    // capitalized keys spanning 222-357, zero overlap). The lowercase-only
+    // lookup previously missed every id in the capitalized range, silently
+    // falling back to English for the entire Assassin/Druid class.
+    if (isNumericPar(par)) {
+      return chi[`skillname${par}`] ?? chi[`Skillname${par}`] ?? skillNameForLocale(par, 'en');
+    }
+    return SKILL_NAME_ZH_TW_OVERRIDES[String(par)] ?? chi[String(par)] ?? String(par);
   }
   if (!isNumericPar(par)) return String(par);
   return skills[String(par)]?.skill ?? String(par);
@@ -347,6 +411,41 @@ function localizedLabelWithSkill(code, par) {
     en: `${base.en} (${skillName.en})`,
     'zh-TW': `${base['zh-TW']} (${skillName['zh-TW']})`,
     'zh-CN': `${base['zh-CN']} (${skillName['zh-CN']})`,
+  };
+}
+
+// The vendor data's two numbers for these five "Chance to Cast" codes are NOT
+// a min/max range — they're `chance% = min` and `skill level = max`. Every
+// generic min/max extraction path in this file previously treated them like
+// any other range stat, rendering e.g. "Chance to Cast When Struck: 10–3 🎲"
+// instead of the correct single sentence. Confirmed against d2r.world's
+// Hwanin's Majesty (gethit-skill min=10 max=3 par='Static Field') this
+// session, which shows "10% Chance to cast level 3 Static Field when
+// struck". Trigger-phrase wording (both EN and zh-TW) confirmed against
+// MyInput/MyData/runewords_all's en-US/zh-TW dumps (e.g. "10% Chance to
+// cast level 15 Miasma Chain on striking" / "擊中時有 10% 機率施展等級 15
+// 瘴氣鎖鏈" — zh-TW picked the majority (34 vs 4) attested wording for
+// hit-skill's trigger where the dump had two inconsistent translations).
+const CHANCE_TO_CAST_CODES = new Set(['hit-skill', 'gethit-skill', 'death-skill', 'levelup-skill', 'kill-skill']);
+const CHANCE_TO_CAST_TRIGGER_EN = {
+  'hit-skill': 'on striking', 'gethit-skill': 'when struck', 'death-skill': 'on death',
+  'levelup-skill': 'on level up', 'kill-skill': 'on kill',
+};
+const CHANCE_TO_CAST_TRIGGER_ZH_TW = {
+  'hit-skill': '擊中時', 'gethit-skill': '被擊中時', 'death-skill': '當你死亡時',
+  'levelup-skill': '當你升級時', 'kill-skill': '當你殺敵時',
+};
+function chanceToCastEntry(code, par, min, max) {
+  if (!CHANCE_TO_CAST_CODES.has(code) || min === undefined || max === undefined) return null;
+  const skill = localizedSkillName(par);
+  const zhTw = `${CHANCE_TO_CAST_TRIGGER_ZH_TW[code]}有 ${min}% 機率施展等級 ${max} ${skill['zh-TW']}`;
+  return {
+    label: {
+      en: `${min}% Chance to cast level ${max} ${skill.en} ${CHANCE_TO_CAST_TRIGGER_EN[code]}`,
+      'zh-TW': zhTw,
+      'zh-CN': toZhCn(zhTw),
+    },
+    composed: true,
   };
 }
 
@@ -785,6 +884,11 @@ function extractProps(entry, count, prefixes = { code: 'prop', par: 'par', min: 
     const key = needsKeySuffix ? `${code}:${par}` : code;
     let min = entry[`${prefixes.min}${n}`];
     let max = entry[`${prefixes.max}${n}`];
+    const chanceToCast = chanceToCastEntry(code, par, min, max);
+    if (chanceToCast) {
+      fixed.push({ key, label: chanceToCast.label, value: null, isSkillRef: false, composed: true });
+      continue;
+    }
     const dmgPois = scaleDmgPoisWithPar(code, par, min, max);
     const effectiveLabel = dmgPois ? dmgPois.label : label;
     if (dmgPois) ({ min, max } = dmgPois);
@@ -826,6 +930,11 @@ function extractSetBonuses(entry) {
       const key = needsKeySuffix ? `${code}:${par}` : code;
       let min = entry[`amin${n}${suffix}`];
       let max = entry[`amax${n}${suffix}`];
+      const chanceToCast = chanceToCastEntry(code, par, min, max);
+      if (chanceToCast) {
+        bonuses.push({ key, label: chanceToCast.label, min: 0, max: 0, isSkillRef: false, composed: true });
+        continue;
+      }
       const dmgPois = scaleDmgPoisWithPar(code, par, min, max);
       const effectiveLabel = dmgPois ? dmgPois.label : label;
       if (dmgPois) ({ min, max } = dmgPois);
@@ -1150,6 +1259,10 @@ const setGroupsOut = Object.values(setsFullData)
         const key = needsKeySuffix ? `${code}:${par}` : code;
         let min = v[`PMin${n}${suffix}`];
         let max = v[`PMax${n}${suffix}`];
+        const chanceToCast = chanceToCastEntry(code, par, min, max);
+        if (chanceToCast) {
+          return [{ key, label: chanceToCast.label, min: 0, max: 0, isSkillRef: false, composed: true }];
+        }
         const dmgPois = scaleDmgPoisWithPar(code, par, min, max);
         const effectiveLabel = dmgPois ? dmgPois.label : label;
         if (dmgPois) ({ min, max } = dmgPois);
@@ -1183,6 +1296,11 @@ const setGroupsOut = Object.values(setsFullData)
       const key = needsKeySuffix ? `${code}:${par}` : code;
       let min = v[`FMin${n}`];
       let max = v[`FMax${n}`];
+      const chanceToCast = chanceToCastEntry(code, par, min, max);
+      if (chanceToCast) {
+        fullSetBonuses.push({ key, label: chanceToCast.label, min: 0, max: 0, isSkillRef: false, composed: true });
+        continue;
+      }
       const dmgPois = scaleDmgPoisWithPar(code, par, min, max);
       const effectiveLabel = dmgPois ? dmgPois.label : label;
       if (dmgPois) ({ min, max } = dmgPois);
@@ -1335,10 +1453,14 @@ function localizedRunewordName(englishName) {
 // is more error-prone than just specifying the complete, correct list.
 function rwStat(code, min, max, par) {
   const resolvedCode = CODE_ALIASES[code] ?? code;
+  const needsKeySuffixBase = (SKILL_REF_PROPS.has(resolvedCode) || KEY_ONLY_DISAMBIGUATE_PROPS.has(resolvedCode)) && par !== undefined;
+  const key = needsKeySuffixBase ? `${resolvedCode}:${par}` : resolvedCode;
+  const chanceToCast = chanceToCastEntry(resolvedCode, par, min, max);
+  if (chanceToCast) {
+    return { key, label: chanceToCast.label, min: 0, max: 0, isSkillRef: false, composed: true };
+  }
   const isSkillRef = SKILL_REF_PROPS.has(resolvedCode);
   const label = isSkillRef ? localizedLabelWithSkill(resolvedCode, par) : localizedLabelFor(resolvedCode);
-  const needsKeySuffix = (isSkillRef || KEY_ONLY_DISAMBIGUATE_PROPS.has(resolvedCode)) && par !== undefined;
-  const key = needsKeySuffix ? `${resolvedCode}:${par}` : resolvedCode;
   return { key, label, min, max, isSkillRef };
 }
 // A few runewords grant a stat only when socketed into one of several
@@ -2578,7 +2700,7 @@ const runewordsFullOut = Object.entries(runesData)
     const vendorExtracted = extractProps(v, 8, { code: 'T1Code', par: 'T1Param', min: 'T1Min', max: 'T1Max' });
     const override = RUNEWORD_STAT_OVERRIDES[outputName];
     const { variable, fixed } = override
-      ? { variable: override.filter(s => s.min !== s.max), fixed: override.filter(s => s.min === s.max).map(s => ({ key: s.key, label: s.label, value: s.min, isSkillRef: s.isSkillRef })) }
+      ? { variable: override.filter(s => s.min !== s.max), fixed: override.filter(s => s.min === s.max).map(s => ({ key: s.key, label: s.label, value: s.min, isSkillRef: s.isSkillRef, composed: s.composed })) }
       : vendorExtracted;
     const curated = runewordsCurated.find(r => normalizeRunewordName(r.name) === normalizeRunewordName(outputName));
     return {
@@ -2801,6 +2923,11 @@ function runeStatsFor(entry, prefix) {
     const key = needsKeySuffix ? `${code}:${par}` : code;
     const min = entry[`${prefix}${n}Min`];
     const max = entry[`${prefix}${n}Max`];
+    const chanceToCast = chanceToCastEntry(code, par, min, max);
+    if (chanceToCast) {
+      fixed.push({ key, label: chanceToCast.label, value: 0, isSkillRef: false, composed: true });
+      continue;
+    }
     // dmg-pois carries a par-encoded duration (frames) rather than being a
     // literal displayed min/max, same as everywhere else in this file (see
     // scaleDmgPoisWithPar above) — Tal Rune's weapon mod is exactly this case:
@@ -2824,7 +2951,7 @@ function runeStatsFor(entry, prefix) {
       fixed.push({ key, label, value: par, isSkillRef });
     }
   }
-  return [...variable, ...fixed.map(f => ({ key: f.key, label: f.label, min: f.value, max: f.value, isSkillRef: f.isSkillRef }))];
+  return [...variable, ...fixed.map(f => ({ key: f.key, label: f.label, min: f.value, max: f.value, isSkillRef: f.isSkillRef, composed: f.composed }))];
 }
 
 const runesOut = RUNE_ORDER.map((name, i) => {
@@ -2877,11 +3004,18 @@ function extractCraftModProps(entry, count) {
     const needsKeySuffix = (isSkillRef || KEY_ONLY_DISAMBIGUATE_PROPS.has(code)) && par !== undefined;
     const key = needsKeySuffix ? `${code}:${par}` : code;
     // Same fixed/variable split as extractProps: a mod with an equal min/max
-    // is a single fixed value; a genuine range (e.g. Hit Power Helm's
-    // "gethit-skill" mod has min:5, max:4) must be preserved as a range
-    // rather than collapsed to one of its endpoints.
+    // is a single fixed value; a genuine range must be preserved as a range
+    // rather than collapsed to one of its endpoints. Hit Power Helm's
+    // "gethit-skill" mod (min:5, max:4) is NOT actually such a range though —
+    // it's chance%=5/level=4, handled by chanceToCastEntry below instead of
+    // falling into this generic path (previously rendered "5-4 🎲").
     const min = entry[`mod ${n} min`];
     const max = entry[`mod ${n} max`];
+    const chanceToCast = chanceToCastEntry(code, par, min, max);
+    if (chanceToCast) {
+      fixed.push({ key, label: chanceToCast.label, value: null, isSkillRef: false, composed: true });
+      continue;
+    }
     if (min !== undefined && max !== undefined) {
       if (min === max) fixed.push({ key, label, value: min, isSkillRef });
       else variable.push({ key, label, min, max, isSkillRef });

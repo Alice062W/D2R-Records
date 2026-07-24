@@ -67,7 +67,7 @@
         },
         "min": 3,
         "max": 3,
-        "isSkillRef": true
+        "isSkillRef": false
       },
       {
         "key": "ac",
@@ -1014,13 +1014,14 @@
       {
         "key": "gethit-skill:42",
         "label": {
-          "en": "Chance to Cast When Struck (Static Field)",
-          "zh-TW": "受擊時觸發機率 (靜態力場)",
-          "zh-CN": "受击时触发机率 (静态力场)"
+          "en": "25% Chance to cast level 5 Static Field when struck",
+          "zh-TW": "被擊中時有 25% 機率施展等級 5 靜態力場",
+          "zh-CN": "被击中时有 25% 机率施展等级 5 静态力场"
         },
-        "min": 25,
-        "max": 5,
-        "isSkillRef": true
+        "min": 0,
+        "max": 0,
+        "isSkillRef": false,
+        "composed": true
       },
       {
         "key": "swing3",
@@ -1191,7 +1192,7 @@
         },
         "min": 3,
         "max": 3,
-        "isSkillRef": true
+        "isSkillRef": false
       },
       {
         "key": "att",
@@ -1435,8 +1436,8 @@
         "key": "oskill:Enchant",
         "label": {
           "en": "Skill Bonus (Enchant)",
-          "zh-TW": "技能加成 (Enchant)",
-          "zh-CN": "技能加成 (Enchant)"
+          "zh-TW": "技能加成 (附魔)",
+          "zh-CN": "技能加成 (附魔)"
         },
         "min": 30,
         "max": 30,
@@ -1706,7 +1707,7 @@
         },
         "min": 3,
         "max": 3,
-        "isSkillRef": true
+        "isSkillRef": false
       },
       {
         "key": "hp",
@@ -1775,15 +1776,15 @@
         "isSkillRef": false
       },
       {
-        "key": "nec:0",
+        "key": "nec",
         "label": {
-          "en": "Necromancer Skill Levels (Attack)",
-          "zh-TW": "死靈法師技能等級 (攻擊)",
-          "zh-CN": "死灵法师技能等级 (攻击)"
+          "en": "Necromancer Skill Levels",
+          "zh-TW": "死靈法師技能等級",
+          "zh-CN": "死灵法师技能等级"
         },
         "min": 1,
         "max": 1,
-        "isSkillRef": true
+        "isSkillRef": false
       },
       {
         "key": "openwounds",
@@ -2132,7 +2133,7 @@
         },
         "min": 3,
         "max": 3,
-        "isSkillRef": true
+        "isSkillRef": false
       },
       {
         "key": "ac",
@@ -2345,15 +2346,15 @@
         "isSkillRef": false
       },
       {
-        "key": "pal:0",
+        "key": "pal",
         "label": {
-          "en": "Paladin Skill Levels (Attack)",
-          "zh-TW": "聖騎士技能等級 (攻擊)",
-          "zh-CN": "圣骑士技能等级 (攻击)"
+          "en": "Paladin Skill Levels",
+          "zh-TW": "聖騎士技能等級",
+          "zh-CN": "圣骑士技能等级"
         },
         "min": 2,
         "max": 2,
-        "isSkillRef": true
+        "isSkillRef": false
       },
       {
         "key": "manasteal",
@@ -2579,7 +2580,7 @@
         },
         "min": 3,
         "max": 3,
-        "isSkillRef": true
+        "isSkillRef": false
       },
       {
         "key": "ac",
@@ -3045,7 +3046,7 @@
         },
         "min": 3,
         "max": 3,
-        "isSkillRef": true
+        "isSkillRef": false
       },
       {
         "key": "ac",
@@ -3310,8 +3311,8 @@
             "key": "oskill:Fire Ball",
             "label": {
               "en": "Skill Bonus (Fire Ball)",
-              "zh-TW": "技能加成 (Fire Ball)",
-              "zh-CN": "技能加成 (Fire Ball)"
+              "zh-TW": "技能加成 (火球術)",
+              "zh-CN": "技能加成 (火球术)"
             },
             "min": 18,
             "max": 18,
@@ -3337,8 +3338,8 @@
             "key": "oskill:Fire Wall",
             "label": {
               "en": "Skill Bonus (Fire Wall)",
-              "zh-TW": "技能加成 (Fire Wall)",
-              "zh-CN": "技能加成 (Fire Wall)"
+              "zh-TW": "技能加成 (火牆術)",
+              "zh-CN": "技能加成 (火墙术)"
             },
             "min": 13,
             "max": 13,
@@ -3364,8 +3365,8 @@
             "key": "oskill:Meteor",
             "label": {
               "en": "Skill Bonus (Meteor)",
-              "zh-TW": "技能加成 (Meteor)",
-              "zh-CN": "技能加成 (Meteor)"
+              "zh-TW": "技能加成 (隕石術)",
+              "zh-CN": "技能加成 (陨石术)"
             },
             "min": 10,
             "max": 10,
@@ -3395,7 +3396,7 @@
         },
         "min": 3,
         "max": 3,
-        "isSkillRef": true
+        "isSkillRef": false
       },
       {
         "key": "mana",

@@ -76,7 +76,7 @@ export default function ItemStatCard({ item }: { item: GrailItem }) {
             ))}
             {item.fixedStats.map(f => (
               <div key={f.key} className={f.isSkillRef ? 'text-[#ff4a69]' : 'text-[#8080f3]'}>
-                {f.label}: {f.value}
+                {f.composed ? f.label : `${f.label}: ${f.value}`}
               </div>
             ))}
           </div>
@@ -113,8 +113,12 @@ export default function ItemStatCard({ item }: { item: GrailItem }) {
                 key={`${b.key}-${i}`}
                 className={b.isSkillRef ? 'text-[#ff4a69]' : b.min === b.max ? 'text-[#22ff55]' : 'text-[#fff818]'}
               >
-                {b.label}: {b.min === b.max ? b.min : `${b.min}–${b.max}`}
-                {b.min !== b.max && <> <span aria-hidden="true">🎲</span></>}
+                {b.composed ? b.label : (
+                  <>
+                    {b.label}: {b.min === b.max ? b.min : `${b.min}–${b.max}`}
+                    {b.min !== b.max && <> <span aria-hidden="true">🎲</span></>}
+                  </>
+                )}
               </div>
             ))}
           </div>

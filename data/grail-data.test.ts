@@ -39,10 +39,15 @@ describe('generated grail catalog', () => {
   it('variable stats have min !== max, fixed stats have min === max collapsed to value', () => {
     for (const item of [...uniques, ...sets] as {
       stats: { min: number; max: number }[];
-      fixedStats: { value: number }[];
+      fixedStats: { value: number | null; composed?: boolean }[];
     }[]) {
       for (const s of item.stats) expect(s.min).not.toBe(s.max);
-      for (const f of item.fixedStats) expect(typeof f.value).toBe('number');
+      for (const f of item.fixedStats) {
+        // "Chance to cast" stats compose their whole sentence into the
+        // label (chance%/skill-level baked in) and carry no separate value.
+        if (f.composed) expect(f.value).toBe(null);
+        else expect(typeof f.value).toBe('number');
+      }
     }
   });
 
@@ -503,10 +508,14 @@ describe('crafted-items.json', () => {
 
   it('Hit Power Helm has the correct fixed and variable properties', () => {
     const helm = craftedItemsData.find(c => c.name.en === 'Hit Power Helm')!;
-    // cubemain.json id 64's 3 mods are all genuine ranges (min !== max):
-    // gethit-skill (min:5, max:4), thorns (min:3, max:7), ac-miss (min:25, max:50).
-    expect(helm.fixedProperties.length).toBe(0);
-    expect(helm.variableProperties.length).toBe(3);
+    // cubemain.json id 64's gethit-skill mod (min:5, max:4) is chance%=5,
+    // level=4 — not a genuine range — and composes into a single fixed
+    // "chance to cast" sentence rather than a fake "5-4" range. thorns
+    // (min:3, max:7) and ac-miss (min:25, max:50) are the two real ranges.
+    expect(helm.fixedProperties.length).toBe(1);
+    expect((helm.fixedProperties[0] as { composed?: boolean }).composed).toBe(true);
+    expect(helm.fixedProperties[0].label.en).toBe('5% Chance to cast level 4 Frost Nova when struck');
+    expect(helm.variableProperties.length).toBe(2);
     expect(helm.additionalInputs.map(i => i.en)).toEqual(['Jewel', 'Ith Rune', 'Perfect Sapphire']);
   });
 
@@ -686,19 +695,21 @@ describe('category-icons.json', () => {
 
 describe('isSkillRef on generated stats', () => {
   it('marks a known skill-granting unique stat as isSkillRef, and a known plain stat as not', () => {
-    // "Torch of Iro" (unique club; vendor data's "Iros Torch" was a typo,
-    // corrected against d2r.world) — confirmed directly against
-    // data/uniques.json this session: fixedStats include "Necromancer Skill
-    // Levels" (a skill-ref stat) and "Life Steal %"/"Light Radius"/"Energy"/
-    // "Mana Regenerated %" (plain stats); stats (variable) includes "Fire
-    // Damage" (plain, 5-9).
-    const irosTorch = uniques.find(u => u.name.en === 'Torch of Iro')!;
-    const skillStat = irosTorch.fixedStats.find(f => f.label.en === 'Necromancer Skill Levels')!;
+    // "Ume's Lament" — confirmed directly against data/uniques.json this
+    // session: fixedStats include "Skill Bonus (Terror)" (a genuine oskill
+    // stat, SKILL_REF_PROPS) alongside plain stats like "Mana". Class-wide
+    // "+X to <Class> Skill Levels" stats (e.g. "Necromancer Skill Levels")
+    // are deliberately NOT skill-ref — their `par` doesn't identify a real
+    // skill (see SKILL_REF_PROPS's comment: it resolves to skill id 0,
+    // "Attack", which is why these used to wrongly render as e.g.
+    // "Paladin Skill Levels (Attack): 2").
+    const umesLament = uniques.find(u => u.name.en === "Ume's Lament")!;
+    const skillStat = umesLament.fixedStats.find(f => f.label.en === 'Skill Bonus (Terror)')!;
     expect(skillStat.isSkillRef).toBe(true);
-    const plainFixed = irosTorch.fixedStats.find(f => f.label.en === 'Light Radius')!;
+    const classStat = umesLament.fixedStats.find(f => f.label.en === 'Necromancer Skill Levels')!;
+    expect(classStat.isSkillRef).toBe(false);
+    const plainFixed = umesLament.fixedStats.find(f => f.label.en === 'Mana')!;
     expect(plainFixed.isSkillRef).toBe(false);
-    const plainVariable = irosTorch.stats.find(s => s.label.en === 'Fire Damage')!;
-    expect(plainVariable.isSkillRef).toBe(false);
   });
 
   it("marks a known skill-granting runeword stat as isSkillRef (Enigma's Teleport charge)", () => {

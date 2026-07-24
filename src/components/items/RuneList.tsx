@@ -7,6 +7,10 @@ import { BASE_PATH } from '@/lib/basePath';
 
 type Rune = (typeof runesJson)[number];
 type Locale = 'en' | 'zh-TW' | 'zh-CN';
+// Same JSON-module type-inference widening as CraftedItemList.tsx — an
+// optional `composed` field (only present on "chance to cast" entries)
+// makes runes.json's stat-array element type non-uniform.
+type RuneStatEntry = { key: string; label: Record<Locale, string>; min: number; max: number; isSkillRef: boolean; composed?: boolean };
 
 function RuneIcon({ invFile }: { invFile: string }) {
   const [iconFailed, setIconFailed] = useState(false);
@@ -48,19 +52,19 @@ export default function RuneList({ runes, locale }: { runes: Rune[]; locale: Loc
             <div>
               <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('runesWeaponLabel')}</h4>
               <div className="text-[#8080f3] flex flex-col gap-0.5">
-                {rune.weaponStats.map(s => <div key={s.key}>{s.label[locale]}: {s.min}</div>)}
+                {(rune.weaponStats as RuneStatEntry[]).map(s => <div key={s.key}>{s.composed ? s.label[locale] : `${s.label[locale]}: ${s.min}`}</div>)}
               </div>
             </div>
             <div>
               <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('runesArmorHelmLabel')}</h4>
               <div className="text-[#8080f3] flex flex-col gap-0.5">
-                {rune.armorHelmStats.map(s => <div key={s.key}>{s.label[locale]}: {s.min}</div>)}
+                {(rune.armorHelmStats as RuneStatEntry[]).map(s => <div key={s.key}>{s.composed ? s.label[locale] : `${s.label[locale]}: ${s.min}`}</div>)}
               </div>
             </div>
             <div>
               <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('runesShieldLabel')}</h4>
               <div className="text-[#8080f3] flex flex-col gap-0.5">
-                {rune.shieldStats.map(s => <div key={s.key}>{s.label[locale]}: {s.min}</div>)}
+                {(rune.shieldStats as RuneStatEntry[]).map(s => <div key={s.key}>{s.composed ? s.label[locale] : `${s.label[locale]}: ${s.min}`}</div>)}
               </div>
             </div>
           </div>

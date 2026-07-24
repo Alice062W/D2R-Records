@@ -145,28 +145,6 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "hit-skill:Miasma Chain",
-        "label": {
-          "en": "Chance to Cast on Striking (Miasma Chain)",
-          "zh-TW": "攻擊時觸發機率 (Miasma Chain)",
-          "zh-CN": "攻击时触发机率 (Miasma Chain)"
-        },
-        "min": 10,
-        "max": 15,
-        "isSkillRef": true
-      },
-      {
-        "key": "gethit-skill:Psychic Ward",
-        "label": {
-          "en": "Chance to Cast When Struck (Psychic Ward)",
-          "zh-TW": "受擊時觸發機率 (Psychic Ward)",
-          "zh-CN": "受击时触发机率 (Psychic Ward)"
-        },
-        "min": 2,
-        "max": 10,
-        "isSkillRef": true
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -179,6 +157,28 @@
       }
     ],
     "fixedStats": [
+      {
+        "key": "hit-skill:Miasma Chain",
+        "label": {
+          "en": "10% Chance to cast level 15 Miasma Chain on striking",
+          "zh-TW": "擊中時有 10% 機率施展等級 15 瘴氣鎖鏈",
+          "zh-CN": "击中时有 10% 机率施展等级 15 瘴气锁链"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "gethit-skill:Psychic Ward",
+        "label": {
+          "en": "2% Chance to cast level 10 Psychic Ward when struck",
+          "zh-TW": "被擊中時有 2% 機率施展等級 10 靈能護盾",
+          "zh-CN": "被击中时有 2% 机率施展等级 10 灵能护盾"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
       {
         "key": "war",
         "label": {
@@ -295,8 +295,8 @@
         "key": "charged:Summon Grizzly",
         "label": {
           "en": "Charges (Summon Grizzly)",
-          "zh-TW": "充能次數 (Summon Grizzly)",
-          "zh-CN": "充能次数 (Summon Grizzly)"
+          "zh-TW": "充能次數 (召喚灰熊)",
+          "zh-CN": "充能次数 (召唤灰熊)"
         },
         "min": 5,
         "max": 13,
@@ -308,8 +308,8 @@
         "key": "aura:Fanaticism",
         "label": {
           "en": "Aura Level (Fanaticism)",
-          "zh-TW": "光環等級 (Fanaticism)",
-          "zh-CN": "光环等级 (Fanaticism)"
+          "zh-TW": "光環等級 (狂熱)",
+          "zh-CN": "光环等级 (狂热)"
         },
         "value": 9,
         "isSkillRef": true
@@ -348,8 +348,8 @@
         "key": "oskill:Werebear",
         "label": {
           "en": "Skill Bonus (Werebear)",
-          "zh-TW": "技能加成 (Werebear)",
-          "zh-CN": "技能加成 (Werebear)"
+          "zh-TW": "技能加成 (熊人變化)",
+          "zh-CN": "技能加成 (熊人变化)"
         },
         "value": 3,
         "isSkillRef": true
@@ -358,8 +358,8 @@
         "key": "oskill:Lycanthropy",
         "label": {
           "en": "Skill Bonus (Lycanthropy)",
-          "zh-TW": "技能加成 (Lycanthropy)",
-          "zh-CN": "技能加成 (Lycanthropy)"
+          "zh-TW": "技能加成 (變形術)",
+          "zh-CN": "技能加成 (变形术)"
         },
         "value": 3,
         "isSkillRef": true
@@ -447,8 +447,8 @@
         "key": "charged:Corpse Explosion",
         "label": {
           "en": "Charges (Corpse Explosion)",
-          "zh-TW": "充能次數 (Corpse Explosion)",
-          "zh-CN": "充能次数 (Corpse Explosion)"
+          "zh-TW": "充能次數 (屍爆)",
+          "zh-CN": "充能次数 (尸爆)"
         },
         "min": 12,
         "max": 4,
@@ -565,28 +565,6 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "gethit-skill:Bone Armor",
-        "label": {
-          "en": "Chance to Cast When Struck (Bone Armor)",
-          "zh-TW": "受擊時觸發機率 (Bone Armor)",
-          "zh-CN": "受击时触发机率 (Bone Armor)"
-        },
-        "min": 15,
-        "max": 10,
-        "isSkillRef": true
-      },
-      {
-        "key": "hit-skill:Bone Spear",
-        "label": {
-          "en": "Chance to Cast on Striking (Bone Spear)",
-          "zh-TW": "攻擊時觸發機率 (Bone Spear)",
-          "zh-CN": "攻击时触发机率 (Bone Spear)"
-        },
-        "min": 15,
-        "max": 10,
-        "isSkillRef": true
-      },
-      {
         "key": "mana",
         "label": {
           "en": "Mana",
@@ -600,6 +578,28 @@
     ],
     "fixedStats": [
       {
+        "key": "gethit-skill:Bone Armor",
+        "label": {
+          "en": "15% Chance to cast level 10 Bone Armor when struck",
+          "zh-TW": "被擊中時有 15% 機率施展等級 10 骸骨護甲",
+          "zh-CN": "被击中时有 15% 机率施展等级 10 骸骨护甲"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "hit-skill:Bone Spear",
+        "label": {
+          "en": "15% Chance to cast level 10 Bone Spear on striking",
+          "zh-TW": "擊中時有 15% 機率施展等級 10 骨矛",
+          "zh-CN": "击中时有 15% 机率施展等级 10 骨矛"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
         "key": "nec",
         "label": {
           "en": "Necromancer Skill Levels",
@@ -607,7 +607,7 @@
           "zh-CN": "死灵法师技能等级"
         },
         "value": 2,
-        "isSkillRef": true
+        "isSkillRef": false
       },
       {
         "key": "res-all",
@@ -677,8 +677,8 @@
         "key": "aura:Thorns",
         "label": {
           "en": "Aura Level (Thorns)",
-          "zh-TW": "光環等級 (Thorns)",
-          "zh-CN": "光环等级 (Thorns)"
+          "zh-TW": "光環等級 (荊棘)",
+          "zh-CN": "光环等级 (荆棘)"
         },
         "min": 15,
         "max": 21,
@@ -699,8 +699,8 @@
         "key": "charged:Spirit of Barbs",
         "label": {
           "en": "Charges (Spirit of Barbs)",
-          "zh-TW": "充能次數 (倒刺之魂)",
-          "zh-CN": "充能次数 (倒刺之魂)"
+          "zh-TW": "充能次數 (荊棘之靈)",
+          "zh-CN": "充能次数 (荆棘之灵)"
         },
         "min": 33,
         "max": 13,
@@ -833,28 +833,6 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "gethit-skill:Amplify Damage",
-        "label": {
-          "en": "Chance to Cast When Struck (Amplify Damage)",
-          "zh-TW": "受擊時觸發機率 (Amplify Damage)",
-          "zh-CN": "受击时触发机率 (Amplify Damage)"
-        },
-        "min": 35,
-        "max": 14,
-        "isSkillRef": true
-      },
-      {
-        "key": "hit-skill:Bone Spear",
-        "label": {
-          "en": "Chance to Cast on Striking (Bone Spear)",
-          "zh-TW": "攻擊時觸發機率 (Bone Spear)",
-          "zh-CN": "攻击时触发机率 (Bone Spear)"
-        },
-        "min": 100,
-        "max": 18,
-        "isSkillRef": true
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -878,6 +856,28 @@
       }
     ],
     "fixedStats": [
+      {
+        "key": "gethit-skill:Amplify Damage",
+        "label": {
+          "en": "35% Chance to cast level 14 Amplify Damage when struck",
+          "zh-TW": "被擊中時有 35% 機率施展等級 14 傷害加深",
+          "zh-CN": "被击中时有 35% 机率施展等级 14 伤害加深"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "hit-skill:Bone Spear",
+        "label": {
+          "en": "100% Chance to cast level 18 Bone Spear on striking",
+          "zh-TW": "擊中時有 100% 機率施展等級 18 骨矛",
+          "zh-CN": "击中时有 100% 机率施展等级 18 骨矛"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
       {
         "key": "ignore-ac",
         "label": {
@@ -995,17 +995,6 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "kill-skill:Poison Nova",
-        "label": {
-          "en": "Chance to Cast on Kill % (Poison Nova)",
-          "zh-TW": "擊殺時觸發機率 (Poison Nova)",
-          "zh-CN": "击杀时触发机率 (Poison Nova)"
-        },
-        "min": 50,
-        "max": 20,
-        "isSkillRef": true
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -1029,6 +1018,17 @@
       }
     ],
     "fixedStats": [
+      {
+        "key": "kill-skill:Poison Nova",
+        "label": {
+          "en": "50% Chance to cast level 20 Poison Nova on kill",
+          "zh-TW": "當你殺敵時有 50% 機率施展等級 20 劇毒新星",
+          "zh-CN": "当你杀敌时有 50% 机率施展等级 20 剧毒新星"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
       {
         "key": "indestruct",
         "label": {
@@ -1338,8 +1338,8 @@
         "key": "oskill:Battle Command",
         "label": {
           "en": "Skill Bonus (Battle Command)",
-          "zh-TW": "技能加成 (Battle Command)",
-          "zh-CN": "技能加成 (Battle Command)"
+          "zh-TW": "技能加成 (戰鬥指揮)",
+          "zh-CN": "技能加成 (战斗指挥)"
         },
         "min": 2,
         "max": 6,
@@ -1349,8 +1349,8 @@
         "key": "oskill:Battle Orders",
         "label": {
           "en": "Skill Bonus (Battle Orders)",
-          "zh-TW": "技能加成 (Battle Orders)",
-          "zh-CN": "技能加成 (Battle Orders)"
+          "zh-TW": "技能加成 (戰鬥命令)",
+          "zh-CN": "技能加成 (战斗命令)"
         },
         "min": 1,
         "max": 6,
@@ -1360,8 +1360,8 @@
         "key": "oskill:Battle Cry",
         "label": {
           "en": "Skill Bonus (Battle Cry)",
-          "zh-TW": "技能加成 (Battle Cry)",
-          "zh-CN": "技能加成 (Battle Cry)"
+          "zh-TW": "技能加成 (戰鬥怒吼)",
+          "zh-CN": "技能加成 (战斗怒吼)"
         },
         "min": 1,
         "max": 4,
@@ -1613,28 +1613,6 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "hit-skill:Frozen Orb",
-        "label": {
-          "en": "Chance to Cast on Striking (Frozen Orb)",
-          "zh-TW": "攻擊時觸發機率 (Frozen Orb)",
-          "zh-CN": "攻击时触发机率 (Frozen Orb)"
-        },
-        "min": 9,
-        "max": 11,
-        "isSkillRef": true
-      },
-      {
-        "key": "hit-skill:Charged Bolt",
-        "label": {
-          "en": "Chance to Cast on Striking (Charged Bolt)",
-          "zh-TW": "攻擊時觸發機率 (Charged Bolt)",
-          "zh-CN": "攻击时触发机率 (Charged Bolt)"
-        },
-        "min": 11,
-        "max": 9,
-        "isSkillRef": true
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -1659,6 +1637,28 @@
     ],
     "fixedStats": [
       {
+        "key": "hit-skill:Frozen Orb",
+        "label": {
+          "en": "9% Chance to cast level 11 Frozen Orb on striking",
+          "zh-TW": "擊中時有 9% 機率施展等級 11 冰封球",
+          "zh-CN": "击中时有 9% 机率施展等级 11 冰封球"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "hit-skill:Charged Bolt",
+        "label": {
+          "en": "11% Chance to cast level 9 Charged Bolt on striking",
+          "zh-TW": "擊中時有 11% 機率施展等級 9 電能彈",
+          "zh-CN": "击中时有 11% 机率施展等级 9 电能弹"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
         "key": "swing2",
         "label": {
           "en": "Faster Attack Rate",
@@ -1682,8 +1682,8 @@
         "key": "oskill:Whirlwind",
         "label": {
           "en": "Skill Bonus (Whirlwind)",
-          "zh-TW": "技能加成 (Whirlwind)",
-          "zh-CN": "技能加成 (Whirlwind)"
+          "zh-TW": "技能加成 (旋風斬)",
+          "zh-CN": "技能加成 (旋风斩)"
         },
         "value": 1,
         "isSkillRef": true
@@ -1747,17 +1747,6 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "gethit-skill:Sigil: Lethargy",
-        "label": {
-          "en": "Chance to Cast When Struck (Sigil: Lethargy)",
-          "zh-TW": "受擊時觸發機率 (Sigil: Lethargy)",
-          "zh-CN": "受击时触发机率 (Sigil: Lethargy)"
-        },
-        "min": 5,
-        "max": 10,
-        "isSkillRef": true
-      },
-      {
         "key": "ac%",
         "label": {
           "en": "Enhanced Defense %",
@@ -1792,6 +1781,17 @@
       }
     ],
     "fixedStats": [
+      {
+        "key": "gethit-skill:Sigil: Lethargy",
+        "label": {
+          "en": "5% Chance to cast level 10 Sigil: Lethargy when struck",
+          "zh-TW": "被擊中時有 5% 機率施展等級 10 咒印：昏沉",
+          "zh-CN": "被击中时有 5% 机率施展等级 10 咒印：昏沉"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
       {
         "key": "allskills",
         "label": {
@@ -1896,33 +1896,11 @@
         "key": "charged:Summon Spirit Wolf",
         "label": {
           "en": "Charges (Summon Spirit Wolf)",
-          "zh-TW": "充能次數 (Summon Spirit Wolf)",
-          "zh-CN": "充能次数 (Summon Spirit Wolf)"
+          "zh-TW": "充能次數 (召喚幽靈狼)",
+          "zh-CN": "充能次数 (召唤幽灵狼)"
         },
         "min": 30,
         "max": 18,
-        "isSkillRef": true
-      },
-      {
-        "key": "hit-skill:Static Field",
-        "label": {
-          "en": "Chance to Cast on Striking (Static Field)",
-          "zh-TW": "攻擊時觸發機率 (Static Field)",
-          "zh-CN": "攻击时触发机率 (Static Field)"
-        },
-        "min": 7,
-        "max": 13,
-        "isSkillRef": true
-      },
-      {
-        "key": "hit-skill:Chain Lightning",
-        "label": {
-          "en": "Chance to Cast on Striking (Chain Lightning)",
-          "zh-TW": "攻擊時觸發機率 (Chain Lightning)",
-          "zh-CN": "攻击时触发机率 (Chain Lightning)"
-        },
-        "min": 10,
-        "max": 17,
         "isSkillRef": true
       }
     ],
@@ -1946,6 +1924,28 @@
         },
         "value": 1,
         "isSkillRef": false
+      },
+      {
+        "key": "hit-skill:Static Field",
+        "label": {
+          "en": "7% Chance to cast level 13 Static Field on striking",
+          "zh-TW": "擊中時有 7% 機率施展等級 13 靜電力場",
+          "zh-CN": "击中时有 7% 机率施展等级 13 静电力场"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "hit-skill:Chain Lightning",
+        "label": {
+          "en": "10% Chance to cast level 17 Chain Lightning on striking",
+          "zh-TW": "擊中時有 10% 機率施展等級 17 連鎖閃電",
+          "zh-CN": "击中时有 10% 机率施展等级 17 连锁闪电"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       },
       {
         "key": "swing3",
@@ -2043,8 +2043,8 @@
         "key": "aura:Cleansing",
         "label": {
           "en": "Aura Level (Cleansing)",
-          "zh-TW": "光環等級 (Cleansing)",
-          "zh-CN": "光环等级 (Cleansing)"
+          "zh-TW": "光環等級 (淨化)",
+          "zh-CN": "光环等级 (净化)"
         },
         "value": 1,
         "isSkillRef": true
@@ -2140,22 +2140,11 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "death-skill:Chain Lightning",
-        "label": {
-          "en": "Chance to Cast on Death % (Chain Lightning)",
-          "zh-TW": "死亡時觸發機率 % (Chain Lightning)",
-          "zh-CN": "死亡时触发机率 % (Chain Lightning)"
-        },
-        "min": 100,
-        "max": 44,
-        "isSkillRef": true
-      },
-      {
         "key": "att-skill:Glacial Spike",
         "label": {
           "en": "Attack Rating (skill) (Glacial Spike)",
-          "zh-TW": "攻擊等級（技能） (Glacial Spike)",
-          "zh-CN": "攻击等级（技能） (Glacial Spike)"
+          "zh-TW": "攻擊等級（技能） (冰川之槍)",
+          "zh-CN": "攻击等级（技能） (冰川之枪)"
         },
         "min": 25,
         "max": 18,
@@ -2187,8 +2176,8 @@
         "key": "charged:Blood Golem",
         "label": {
           "en": "Charges (Blood Golem)",
-          "zh-TW": "充能次數 (Blood Golem)",
-          "zh-CN": "充能次数 (Blood Golem)"
+          "zh-TW": "充能次數 (鮮血魔像)",
+          "zh-CN": "充能次数 (鲜血魔像)"
         },
         "min": 15,
         "max": 22,
@@ -2196,6 +2185,17 @@
       }
     ],
     "fixedStats": [
+      {
+        "key": "death-skill:Chain Lightning",
+        "label": {
+          "en": "100% Chance to cast level 44 Chain Lightning on death",
+          "zh-TW": "當你死亡時有 100% 機率施展等級 44 連鎖閃電",
+          "zh-CN": "当你死亡时有 100% 机率施展等级 44 连锁闪电"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
       {
         "key": "indestruct",
         "label": {
@@ -2315,55 +2315,11 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "gethit-skill:Delirium",
-        "label": {
-          "en": "Chance to Cast When Struck (Delirium)",
-          "zh-TW": "受擊時觸發機率 (Delirium)",
-          "zh-CN": "受击时触发机率 (Delirium)"
-        },
-        "min": 1,
-        "max": 50,
-        "isSkillRef": true
-      },
-      {
-        "key": "gethit-skill:Mind Blast",
-        "label": {
-          "en": "Chance to Cast When Struck (Mind Blast)",
-          "zh-TW": "受擊時觸發機率 (Mind Blast)",
-          "zh-CN": "受击时触发机率 (Mind Blast)"
-        },
-        "min": 6,
-        "max": 14,
-        "isSkillRef": true
-      },
-      {
-        "key": "gethit-skill:Terror",
-        "label": {
-          "en": "Chance to Cast When Struck (Terror)",
-          "zh-TW": "受擊時觸發機率 (Terror)",
-          "zh-CN": "受击时触发机率 (Terror)"
-        },
-        "min": 14,
-        "max": 13,
-        "isSkillRef": true
-      },
-      {
-        "key": "hit-skill:Confuse",
-        "label": {
-          "en": "Chance to Cast on Striking (Confuse)",
-          "zh-TW": "攻擊時觸發機率 (Confuse)",
-          "zh-CN": "攻击时触发机率 (Confuse)"
-        },
-        "min": 11,
-        "max": 18,
-        "isSkillRef": true
-      },
-      {
         "key": "charged:Attract",
         "label": {
           "en": "Charges (Attract)",
-          "zh-TW": "充能次數 (Attract)",
-          "zh-CN": "充能次数 (Attract)"
+          "zh-TW": "充能次數 (致命吸引)",
+          "zh-CN": "充能次数 (致命吸引)"
         },
         "min": 60,
         "max": 17,
@@ -2371,6 +2327,50 @@
       }
     ],
     "fixedStats": [
+      {
+        "key": "gethit-skill:Delirium",
+        "label": {
+          "en": "1% Chance to cast level 50 Delirium when struck",
+          "zh-TW": "被擊中時有 1% 機率施展等級 50 精神錯亂",
+          "zh-CN": "被击中时有 1% 机率施展等级 50 精神错乱"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "gethit-skill:Mind Blast",
+        "label": {
+          "en": "6% Chance to cast level 14 Mind Blast when struck",
+          "zh-TW": "被擊中時有 6% 機率施展等級 14 心靈震爆",
+          "zh-CN": "被击中时有 6% 机率施展等级 14 心灵震爆"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "gethit-skill:Terror",
+        "label": {
+          "en": "14% Chance to cast level 13 Terror when struck",
+          "zh-TW": "被擊中時有 14% 機率施展等級 13 恐懼",
+          "zh-CN": "被击中时有 14% 机率施展等级 13 恐惧"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "hit-skill:Confuse",
+        "label": {
+          "en": "11% Chance to cast level 18 Confuse on striking",
+          "zh-TW": "擊中時有 11% 機率施展等級 18 混亂",
+          "zh-CN": "击中时有 11% 机率施展等级 18 混乱"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
       {
         "key": "allskills",
         "label": {
@@ -2483,47 +2483,14 @@
         "isSkillRef": false
       },
       {
-        "key": "hit-skill:Molten Boulder",
-        "label": {
-          "en": "Chance to Cast on Striking (Molten Boulder)",
-          "zh-TW": "攻擊時觸發機率 (Molten Boulder)",
-          "zh-CN": "攻击时触发机率 (Molten Boulder)"
-        },
-        "min": 5,
-        "max": 23,
-        "isSkillRef": true
-      },
-      {
-        "key": "death-skill:Meteor",
-        "label": {
-          "en": "Chance to Cast on Death % (Meteor)",
-          "zh-TW": "死亡時觸發機率 % (Meteor)",
-          "zh-CN": "死亡时触发机率 % (Meteor)"
-        },
-        "min": 100,
-        "max": 45,
-        "isSkillRef": true
-      },
-      {
         "key": "att-skill:Nova",
         "label": {
           "en": "Attack Rating (skill) (Nova)",
-          "zh-TW": "攻擊等級（技能） (Nova)",
-          "zh-CN": "攻击等级（技能） (Nova)"
+          "zh-TW": "攻擊等級（技能） (閃電新星)",
+          "zh-CN": "攻击等级（技能） (闪电新星)"
         },
         "min": 15,
         "max": 22,
-        "isSkillRef": true
-      },
-      {
-        "key": "hit-skill:Volcano",
-        "label": {
-          "en": "Chance to Cast on Striking (Volcano)",
-          "zh-TW": "攻擊時觸發機率 (Volcano)",
-          "zh-CN": "攻击时触发机率 (Volcano)"
-        },
-        "min": 23,
-        "max": 12,
         "isSkillRef": true
       }
     ],
@@ -2537,6 +2504,39 @@
         },
         "value": 350,
         "isSkillRef": false
+      },
+      {
+        "key": "hit-skill:Molten Boulder",
+        "label": {
+          "en": "5% Chance to cast level 23 Molten Boulder on striking",
+          "zh-TW": "擊中時有 5% 機率施展等級 23 熔火巨石",
+          "zh-CN": "击中时有 5% 机率施展等级 23 熔火巨石"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "death-skill:Meteor",
+        "label": {
+          "en": "100% Chance to cast level 45 Meteor on death",
+          "zh-TW": "當你死亡時有 100% 機率施展等級 45 隕石術",
+          "zh-CN": "当你死亡时有 100% 机率施展等级 45 陨石术"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "hit-skill:Volcano",
+        "label": {
+          "en": "23% Chance to cast level 12 Volcano on striking",
+          "zh-TW": "擊中時有 23% 機率施展等級 12 火山噴發",
+          "zh-CN": "击中时有 23% 机率施展等级 12 火山喷发"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       },
       {
         "key": "noheal",
@@ -2669,17 +2669,6 @@
         "min": -60,
         "max": -40,
         "isSkillRef": false
-      },
-      {
-        "key": "hit-skill:Volcano",
-        "label": {
-          "en": "Chance to Cast on Striking (Volcano)",
-          "zh-TW": "攻擊時觸發機率 (Volcano)",
-          "zh-CN": "攻击时触发机率 (Volcano)"
-        },
-        "min": 5,
-        "max": 18,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -2687,8 +2676,8 @@
         "key": "aura:Holy Freeze",
         "label": {
           "en": "Aura Level (Holy Freeze)",
-          "zh-TW": "光環等級 (Holy Freeze)",
-          "zh-CN": "光环等级 (Holy Freeze)"
+          "zh-TW": "光環等級 (神聖冰凍)",
+          "zh-CN": "光环等级 (神圣冰冻)"
         },
         "value": 12,
         "isSkillRef": true
@@ -2722,6 +2711,17 @@
         },
         "value": 2,
         "isSkillRef": false
+      },
+      {
+        "key": "hit-skill:Volcano",
+        "label": {
+          "en": "5% Chance to cast level 18 Volcano on striking",
+          "zh-TW": "擊中時有 5% 機率施展等級 18 火山噴發",
+          "zh-CN": "击中时有 5% 机率施展等级 18 火山喷发"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       },
       {
         "key": "deadly",
@@ -2802,28 +2802,6 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "hit-skill:Hydra",
-        "label": {
-          "en": "Chance to Cast on Striking (Hydra)",
-          "zh-TW": "攻擊時觸發機率 (九頭蛇)",
-          "zh-CN": "攻击时触发机率 (九头蛇)"
-        },
-        "min": 12,
-        "max": 15,
-        "isSkillRef": true
-      },
-      {
-        "key": "gethit-skill:Venom",
-        "label": {
-          "en": "Chance to Cast When Struck (Venom)",
-          "zh-TW": "受擊時觸發機率 (Venom)",
-          "zh-CN": "受击时触发机率 (Venom)"
-        },
-        "min": 20,
-        "max": 18,
-        "isSkillRef": true
-      },
-      {
         "key": "all-stats",
         "label": {
           "en": "All Attributes",
@@ -2867,11 +2845,33 @@
         "isSkillRef": false
       },
       {
+        "key": "hit-skill:Hydra",
+        "label": {
+          "en": "12% Chance to cast level 15 Hydra on striking",
+          "zh-TW": "擊中時有 12% 機率施展等級 15 多頭蛇",
+          "zh-CN": "击中时有 12% 机率施展等级 15 多头蛇"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "gethit-skill:Venom",
+        "label": {
+          "en": "20% Chance to cast level 18 Venom when struck",
+          "zh-TW": "被擊中時有 20% 機率施展等級 18 淬毒",
+          "zh-CN": "被击中时有 20% 机率施展等级 18 淬毒"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
         "key": "aura:Holy Fire",
         "label": {
           "en": "Aura Level (Holy Fire)",
-          "zh-TW": "光環等級 (Holy Fire)",
-          "zh-CN": "光环等级 (Holy Fire)"
+          "zh-TW": "光環等級 (神聖火焰)",
+          "zh-CN": "光环等级 (神圣火焰)"
         },
         "value": 14,
         "isSkillRef": true
@@ -2955,17 +2955,6 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "gethit-skill:Confuse",
-        "label": {
-          "en": "Chance to Cast When Struck (Confuse)",
-          "zh-TW": "受擊時觸發機率 (Confuse)",
-          "zh-CN": "受击时触发机率 (Confuse)"
-        },
-        "min": 10,
-        "max": 15,
-        "isSkillRef": true
-      },
-      {
         "key": "ac",
         "label": {
           "en": "Defense",
@@ -3012,11 +3001,22 @@
     ],
     "fixedStats": [
       {
+        "key": "gethit-skill:Confuse",
+        "label": {
+          "en": "10% Chance to cast level 15 Confuse when struck",
+          "zh-TW": "被擊中時有 10% 機率施展等級 15 混亂",
+          "zh-CN": "被击中时有 10% 机率施展等级 15 混乱"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
         "key": "aura:Holy Shock",
         "label": {
           "en": "Aura Level (Holy Shock)",
-          "zh-TW": "光環等級 (Holy Shock)",
-          "zh-CN": "光环等级 (Holy Shock)"
+          "zh-TW": "光環等級 (神聖電擊)",
+          "zh-CN": "光环等级 (神圣电击)"
         },
         "value": 15,
         "isSkillRef": true
@@ -3320,8 +3320,8 @@
         "key": "aura:Thorns",
         "label": {
           "en": "Aura Level (Thorns)",
-          "zh-TW": "光環等級 (Thorns)",
-          "zh-CN": "光环等级 (Thorns)"
+          "zh-TW": "光環等級 (荊棘)",
+          "zh-CN": "光环等级 (荆棘)"
         },
         "value": 15,
         "isSkillRef": true
@@ -3471,8 +3471,8 @@
         "key": "oskill:Teleport",
         "label": {
           "en": "Skill Bonus (Teleport)",
-          "zh-TW": "技能加成 (Teleport)",
-          "zh-CN": "技能加成 (Teleport)"
+          "zh-TW": "技能加成 (傳送術)",
+          "zh-CN": "技能加成 (传送术)"
         },
         "value": 1,
         "isSkillRef": true
@@ -3544,31 +3544,30 @@
     ],
     "levelReq": 45,
     "ladderOnly": false,
-    "stats": [
+    "stats": [],
+    "fixedStats": [
       {
         "key": "hit-skill:Fire Ball",
         "label": {
-          "en": "Chance to Cast on Striking (Fire Ball)",
-          "zh-TW": "攻擊時觸發機率 (Fire Ball)",
-          "zh-CN": "攻击时触发机率 (Fire Ball)"
+          "en": "5% Chance to cast level 15 Fire Ball on striking",
+          "zh-TW": "擊中時有 5% 機率施展等級 15 火球術",
+          "zh-CN": "击中时有 5% 机率施展等级 15 火球术"
         },
-        "min": 5,
-        "max": 15,
-        "isSkillRef": true
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       },
       {
         "key": "gethit-skill:Blaze",
         "label": {
-          "en": "Chance to Cast When Struck (Blaze)",
-          "zh-TW": "受擊時觸發機率 (Blaze)",
-          "zh-CN": "受击时触发机率 (Blaze)"
+          "en": "5% Chance to cast level 15 Blaze when struck",
+          "zh-TW": "被擊中時有 5% 機率施展等級 15 熾烈之徑",
+          "zh-CN": "被击中时有 5% 机率施展等级 15 炽烈之径"
         },
-        "min": 5,
-        "max": 15,
-        "isSkillRef": true
-      }
-    ],
-    "fixedStats": [
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
       {
         "key": "sor",
         "label": {
@@ -3577,14 +3576,14 @@
           "zh-CN": "女巫技能等级"
         },
         "value": 2,
-        "isSkillRef": true
+        "isSkillRef": false
       },
       {
         "key": "oskill:Warmth",
         "label": {
           "en": "Skill Bonus (Warmth)",
-          "zh-TW": "技能加成 (Warmth)",
-          "zh-CN": "技能加成 (Warmth)"
+          "zh-TW": "技能加成 (暖流)",
+          "zh-CN": "技能加成 (暖流)"
         },
         "value": 1,
         "isSkillRef": true
@@ -3684,8 +3683,8 @@
         "key": "charged:Revive",
         "label": {
           "en": "Charges (Revive)",
-          "zh-TW": "充能次數 (Revive)",
-          "zh-CN": "充能次数 (Revive)"
+          "zh-TW": "充能次數 (重生)",
+          "zh-CN": "充能次数 (重生)"
         },
         "min": 88,
         "max": 8,
@@ -3852,22 +3851,11 @@
         "key": "aura:Defiance",
         "label": {
           "en": "Aura Level (Defiance)",
-          "zh-TW": "光環等級 (Defiance)",
-          "zh-CN": "光环等级 (Defiance)"
+          "zh-TW": "光環等級 (反抗)",
+          "zh-CN": "光环等级 (反抗)"
         },
         "min": 13,
         "max": 16,
-        "isSkillRef": true
-      },
-      {
-        "key": "hit-skill:Life Tap",
-        "label": {
-          "en": "Chance to Cast on Striking (Life Tap)",
-          "zh-TW": "攻擊時觸發機率 (Life Tap)",
-          "zh-CN": "攻击时触发机率 (Life Tap)"
-        },
-        "min": 15,
-        "max": 5,
         "isSkillRef": true
       }
     ],
@@ -3901,6 +3889,17 @@
         },
         "value": 2,
         "isSkillRef": false
+      },
+      {
+        "key": "hit-skill:Life Tap",
+        "label": {
+          "en": "15% Chance to cast level 5 Life Tap on striking",
+          "zh-TW": "擊中時有 15% 機率施展等級 5 偷取生命",
+          "zh-CN": "击中时有 15% 机率施展等级 5 偷取生命"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       },
       {
         "key": "rep-dur",
@@ -4000,8 +3999,8 @@
         "key": "aura:Fanaticism",
         "label": {
           "en": "Aura Level (Fanaticism)",
-          "zh-TW": "光環等級 (Fanaticism)",
-          "zh-CN": "光环等级 (Fanaticism)"
+          "zh-TW": "光環等級 (狂熱)",
+          "zh-CN": "光环等级 (狂热)"
         },
         "min": 12,
         "max": 15,
@@ -4303,8 +4302,8 @@
         "key": "aura:Resist Fire",
         "label": {
           "en": "Aura Level (Resist Fire)",
-          "zh-TW": "光環等級 (Resist Fire)",
-          "zh-CN": "光环等级 (Resist Fire)"
+          "zh-TW": "光環等級 (抗火)",
+          "zh-CN": "光环等级 (抗火)"
         },
         "min": 4,
         "max": 8,
@@ -4439,17 +4438,6 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "gethit-skill:Chilling Armor",
-        "label": {
-          "en": "Chance to Cast When Struck (Chilling Armor)",
-          "zh-TW": "受擊時觸發機率 (Chilling Armor)",
-          "zh-CN": "受击时触发机率 (Chilling Armor)"
-        },
-        "min": 20,
-        "max": 15,
-        "isSkillRef": true
-      },
-      {
         "key": "hp/lvl",
         "label": {
           "en": "Life (Based on Character Level)",
@@ -4502,6 +4490,17 @@
         },
         "value": 25,
         "isSkillRef": false
+      },
+      {
+        "key": "gethit-skill:Chilling Armor",
+        "label": {
+          "en": "20% Chance to cast level 15 Chilling Armor when struck",
+          "zh-TW": "被擊中時有 20% 機率施展等級 15 寒冰甲",
+          "zh-CN": "被击中时有 20% 机率施展等级 15 寒冰甲"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       },
       {
         "key": "dmg-to-mana",
@@ -4706,8 +4705,8 @@
         "key": "skill:Frenzy",
         "label": {
           "en": "Skill Bonus (Frenzy)",
-          "zh-TW": "技能加成 (Frenzy)",
-          "zh-CN": "技能加成 (Frenzy)"
+          "zh-TW": "技能加成 (狂亂連擊)",
+          "zh-CN": "技能加成 (狂乱连击)"
         },
         "value": 5,
         "isSkillRef": true
@@ -4790,17 +4789,6 @@
         "min": 200,
         "max": 260,
         "isSkillRef": false
-      },
-      {
-        "key": "gethit-skill:Dim Vision",
-        "label": {
-          "en": "Chance to Cast When Struck (Dim Vision)",
-          "zh-TW": "受擊時觸發機率 (Dim Vision)",
-          "zh-CN": "受击时触发机率 (Dim Vision)"
-        },
-        "min": 15,
-        "max": 3,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -4813,6 +4801,17 @@
         },
         "value": 45,
         "isSkillRef": false
+      },
+      {
+        "key": "gethit-skill:Dim Vision",
+        "label": {
+          "en": "15% Chance to cast level 3 Dim Vision when struck",
+          "zh-TW": "被擊中時有 15% 機率施展等級 3 昏暗視野",
+          "zh-CN": "被击中时有 15% 机率施展等级 3 昏暗视野"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       },
       {
         "key": "balance2",
@@ -4915,17 +4914,6 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "hit-skill:Venom",
-        "label": {
-          "en": "Chance to Cast on Striking (Venom)",
-          "zh-TW": "攻擊時觸發機率 (Venom)",
-          "zh-CN": "攻击时触发机率 (Venom)"
-        },
-        "min": 35,
-        "max": 15,
-        "isSkillRef": true
-      },
-      {
         "key": "swing3",
         "label": {
           "en": "Faster Attack Rate",
@@ -4982,6 +4970,17 @@
       }
     ],
     "fixedStats": [
+      {
+        "key": "hit-skill:Venom",
+        "label": {
+          "en": "35% Chance to cast level 15 Venom on striking",
+          "zh-TW": "擊中時有 35% 機率施展等級 15 淬毒",
+          "zh-CN": "击中时有 35% 机率施展等级 15 淬毒"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
       {
         "key": "ignore-ac",
         "label": {
@@ -5190,28 +5189,6 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "levelup-skill:Blaze",
-        "label": {
-          "en": "Chance to Cast on Level-Up % (Blaze)",
-          "zh-TW": "升級時觸發機率 % (Blaze)",
-          "zh-CN": "升级时触发机率 % (Blaze)"
-        },
-        "min": 100,
-        "max": 36,
-        "isSkillRef": true
-      },
-      {
-        "key": "death-skill:Meteor",
-        "label": {
-          "en": "Chance to Cast on Death % (Meteor)",
-          "zh-TW": "死亡時觸發機率 % (Meteor)",
-          "zh-CN": "死亡时触发机率 % (Meteor)"
-        },
-        "min": 100,
-        "max": 48,
-        "isSkillRef": true
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -5225,11 +5202,33 @@
     ],
     "fixedStats": [
       {
+        "key": "levelup-skill:Blaze",
+        "label": {
+          "en": "100% Chance to cast level 36 Blaze on level up",
+          "zh-TW": "當你升級時有 100% 機率施展等級 36 熾烈之徑",
+          "zh-CN": "当你升级时有 100% 机率施展等级 36 炽烈之径"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "death-skill:Meteor",
+        "label": {
+          "en": "100% Chance to cast level 48 Meteor on death",
+          "zh-TW": "當你死亡時有 100% 機率施展等級 48 隕石術",
+          "zh-CN": "当你死亡时有 100% 机率施展等级 48 陨石术"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
         "key": "aura:Holy Fire",
         "label": {
           "en": "Aura Level (Holy Fire)",
-          "zh-TW": "光環等級 (Holy Fire)",
-          "zh-CN": "光环等级 (Holy Fire)"
+          "zh-TW": "光環等級 (神聖火焰)",
+          "zh-CN": "光环等级 (神圣火焰)"
         },
         "value": 16,
         "isSkillRef": true
@@ -5407,8 +5406,8 @@
         "key": "charged:Revive",
         "label": {
           "en": "Charges (Revive)",
-          "zh-TW": "充能次數 (Revive)",
-          "zh-CN": "充能次数 (Revive)"
+          "zh-TW": "充能次數 (重生)",
+          "zh-CN": "充能次数 (重生)"
         },
         "min": 25,
         "max": 20,
@@ -5420,8 +5419,8 @@
         "key": "aura:Vigor",
         "label": {
           "en": "Aura Level (Vigor)",
-          "zh-TW": "光環等級 (Vigor)",
-          "zh-CN": "光环等级 (Vigor)"
+          "zh-TW": "光環等級 (活力)",
+          "zh-CN": "光环等级 (活力)"
         },
         "value": 10,
         "isSkillRef": true
@@ -5567,8 +5566,8 @@
         "key": "charged:Raven",
         "label": {
           "en": "Charges (Raven)",
-          "zh-TW": "充能次數 (渡鳥之)",
-          "zh-CN": "充能次数 (渡鸟之)"
+          "zh-TW": "充能次數 (掠鴉)",
+          "zh-CN": "充能次数 (掠鸦)"
         },
         "min": 60,
         "max": 14,
@@ -5839,8 +5838,8 @@
         "key": "charged:Chain Lightning",
         "label": {
           "en": "Charges (Chain Lightning)",
-          "zh-TW": "充能次數 (Chain Lightning)",
-          "zh-CN": "充能次数 (Chain Lightning)"
+          "zh-TW": "充能次數 (連鎖閃電)",
+          "zh-CN": "充能次数 (连锁闪电)"
         },
         "min": 60,
         "max": 7,
@@ -5912,8 +5911,8 @@
         "key": "skill:Holy Shock",
         "label": {
           "en": "Skill Bonus (Holy Shock)",
-          "zh-TW": "技能加成 (Holy Shock)",
-          "zh-CN": "技能加成 (Holy Shock)"
+          "zh-TW": "技能加成 (神聖電擊)",
+          "zh-CN": "技能加成 (神圣电击)"
         },
         "value": 3,
         "isSkillRef": true
@@ -6119,17 +6118,6 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "hit-skill:Burst of Speed:Weapons Only",
-        "label": {
-          "en": "Chance to Cast on Striking (Burst of Speed) (Weapons Only)",
-          "zh-TW": "攻擊時觸發機率 (Burst of Speed)（僅限武器）",
-          "zh-CN": "攻击时触发机率 (Burst of Speed)（仅限武器）"
-        },
-        "min": 5,
-        "max": 1,
-        "isSkillRef": true
-      },
-      {
         "key": "dmg%:Weapons Only",
         "label": {
           "en": "Enhanced Damage % (Weapons Only)",
@@ -6186,8 +6174,8 @@
         "key": "oskill:Evade:Body Armor Only",
         "label": {
           "en": "Skill Bonus (Evade) (Body Armor Only)",
-          "zh-TW": "技能加成 (Evade)（僅限身體護甲）",
-          "zh-CN": "技能加成 (Evade)（仅限身体护甲）"
+          "zh-TW": "技能加成 (閃避)（僅限身體護甲）",
+          "zh-CN": "技能加成 (闪避)（仅限身体护甲）"
         },
         "value": 6,
         "isSkillRef": true
@@ -6213,11 +6201,22 @@
         "isSkillRef": false
       },
       {
+        "key": "hit-skill:Burst of Speed:Weapons Only",
+        "label": {
+          "en": "5% Chance to cast level 1 Burst of Speed on striking (Weapons Only)",
+          "zh-TW": "擊中時有 5% 機率施展等級 1 速度爆發（僅限武器）",
+          "zh-CN": "击中时有 5% 机率施展等级 1 速度爆发（仅限武器）"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
         "key": "aura:Fanaticism:Weapons Only",
         "label": {
           "en": "Aura Level (Fanaticism) (Weapons Only)",
-          "zh-TW": "光環等級 (Fanaticism)（僅限武器）",
-          "zh-CN": "光环等级 (Fanaticism)（仅限武器）"
+          "zh-TW": "光環等級 (狂熱)（僅限武器）",
+          "zh-CN": "光环等级 (狂热)（仅限武器）"
         },
         "value": 1,
         "isSkillRef": true
@@ -6297,28 +6296,6 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "levelup-skill:Blizzard",
-        "label": {
-          "en": "Chance to Cast on Level-Up % (Blizzard)",
-          "zh-TW": "升級時觸發機率 % (Blizzard)",
-          "zh-CN": "升级时触发机率 % (Blizzard)"
-        },
-        "min": 100,
-        "max": 40,
-        "isSkillRef": true
-      },
-      {
-        "key": "hit-skill:Frost Nova",
-        "label": {
-          "en": "Chance to Cast on Striking (Frost Nova)",
-          "zh-TW": "攻擊時觸發機率 (Frost Nova)",
-          "zh-CN": "攻击时触发机率 (Frost Nova)"
-        },
-        "min": 25,
-        "max": 22,
-        "isSkillRef": true
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -6343,11 +6320,33 @@
     ],
     "fixedStats": [
       {
+        "key": "levelup-skill:Blizzard",
+        "label": {
+          "en": "100% Chance to cast level 40 Blizzard on level up",
+          "zh-TW": "當你升級時有 100% 機率施展等級 40 暴風雪",
+          "zh-CN": "当你升级时有 100% 机率施展等级 40 暴风雪"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "hit-skill:Frost Nova",
+        "label": {
+          "en": "25% Chance to cast level 22 Frost Nova on striking",
+          "zh-TW": "擊中時有 25% 機率施展等級 22 冰霜新星",
+          "zh-CN": "击中时有 25% 机率施展等级 22 冰霜新星"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
         "key": "aura:Holy Freeze",
         "label": {
           "en": "Aura Level (Holy Freeze)",
-          "zh-TW": "光環等級 (Holy Freeze)",
-          "zh-CN": "光环等级 (Holy Freeze)"
+          "zh-TW": "光環等級 (神聖冰凍)",
+          "zh-CN": "光环等级 (神圣冰冻)"
         },
         "value": 18,
         "isSkillRef": true
@@ -6457,17 +6456,6 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "kill-skill:Chain Lightning",
-        "label": {
-          "en": "Chance to Cast on Kill % (Chain Lightning)",
-          "zh-TW": "擊殺時觸發機率 (Chain Lightning)",
-          "zh-CN": "击杀时触发机率 (Chain Lightning)"
-        },
-        "min": 50,
-        "max": 20,
-        "isSkillRef": true
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -6493,8 +6481,8 @@
         "key": "charged:Cyclone Armor",
         "label": {
           "en": "Charges (Cyclone Armor)",
-          "zh-TW": "充能次數 (Cyclone Armor)",
-          "zh-CN": "充能次数 (Cyclone Armor)"
+          "zh-TW": "充能次數 (氣旋護甲)",
+          "zh-CN": "充能次数 (气旋护甲)"
         },
         "min": 30,
         "max": 21,
@@ -6503,11 +6491,22 @@
     ],
     "fixedStats": [
       {
+        "key": "kill-skill:Chain Lightning",
+        "label": {
+          "en": "50% Chance to cast level 20 Chain Lightning on kill",
+          "zh-TW": "當你殺敵時有 50% 機率施展等級 20 連鎖閃電",
+          "zh-CN": "当你杀敌时有 50% 机率施展等级 20 连锁闪电"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
         "key": "aura:Conviction",
         "label": {
           "en": "Aura Level (Conviction)",
-          "zh-TW": "光環等級 (Conviction)",
-          "zh-CN": "光环等级 (Conviction)"
+          "zh-TW": "光環等級 (信念)",
+          "zh-CN": "光环等级 (信念)"
         },
         "value": 12,
         "isSkillRef": true
@@ -6610,8 +6609,8 @@
         "key": "aura:Meditation",
         "label": {
           "en": "Aura Level (Meditation)",
-          "zh-TW": "光環等級 (Meditation)",
-          "zh-CN": "光环等级 (Meditation)"
+          "zh-TW": "光環等級 (冥想)",
+          "zh-CN": "光环等级 (冥想)"
         },
         "min": 12,
         "max": 17,
@@ -6654,8 +6653,8 @@
         "key": "oskill:Critical Strike",
         "label": {
           "en": "Skill Bonus (Critical Strike)",
-          "zh-TW": "技能加成 (Critical Strike)",
-          "zh-CN": "技能加成 (Critical Strike)"
+          "zh-TW": "技能加成 (致命攻勢)",
+          "zh-CN": "技能加成 (致命攻势)"
         },
         "min": 1,
         "max": 6,
@@ -6966,8 +6965,8 @@
         "key": "oskill:Vengeance",
         "label": {
           "en": "Skill Bonus (Vengeance)",
-          "zh-TW": "技能加成 (Vengeance)",
-          "zh-CN": "技能加成 (Vengeance)"
+          "zh-TW": "技能加成 (復仇打擊)",
+          "zh-CN": "技能加成 (复仇打击)"
         },
         "value": 1,
         "isSkillRef": true
@@ -7059,28 +7058,6 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "gethit-skill:Fade",
-        "label": {
-          "en": "Chance to Cast When Struck (Fade)",
-          "zh-TW": "受擊時觸發機率 (Fade)",
-          "zh-CN": "受击时触发机率 (Fade)"
-        },
-        "min": 6,
-        "max": 11,
-        "isSkillRef": true
-      },
-      {
-        "key": "hit-skill:Life Tap",
-        "label": {
-          "en": "Chance to Cast on Striking (Life Tap)",
-          "zh-TW": "攻擊時觸發機率 (Life Tap)",
-          "zh-CN": "攻击时触发机率 (Life Tap)"
-        },
-        "min": 10,
-        "max": 18,
-        "isSkillRef": true
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -7105,11 +7082,33 @@
     ],
     "fixedStats": [
       {
+        "key": "gethit-skill:Fade",
+        "label": {
+          "en": "6% Chance to cast level 11 Fade when struck",
+          "zh-TW": "被擊中時有 6% 機率施展等級 11 影散",
+          "zh-CN": "被击中时有 6% 机率施展等级 11 影散"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "hit-skill:Life Tap",
+        "label": {
+          "en": "10% Chance to cast level 18 Life Tap on striking",
+          "zh-TW": "擊中時有 10% 機率施展等級 18 偷取生命",
+          "zh-CN": "击中时有 10% 机率施展等级 18 偷取生命"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
         "key": "att-skill:Charged Bolt",
         "label": {
           "en": "Attack Rating (skill) (Charged Bolt)",
-          "zh-TW": "攻擊等級（技能） (Charged Bolt)",
-          "zh-CN": "攻击等级（技能） (Charged Bolt)"
+          "zh-TW": "攻擊等級（技能） (電能彈)",
+          "zh-CN": "攻击等级（技能） (电能弹)"
         },
         "value": 20,
         "isSkillRef": true
@@ -7118,8 +7117,8 @@
         "key": "aura:Might",
         "label": {
           "en": "Aura Level (Might)",
-          "zh-TW": "光環等級 (Might)",
-          "zh-CN": "光环等级 (Might)"
+          "zh-TW": "光環等級 (力量)",
+          "zh-CN": "光环等级 (力量)"
         },
         "value": 17,
         "isSkillRef": true
@@ -7203,22 +7202,11 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "hit-skill:Decrepify",
-        "label": {
-          "en": "Chance to Cast on Striking (Decrepify)",
-          "zh-TW": "攻擊時觸發機率 (Decrepify)",
-          "zh-CN": "攻击时触发机率 (Decrepify)"
-        },
-        "min": 20,
-        "max": 15,
-        "isSkillRef": true
-      },
-      {
         "key": "aura:Sanctuary",
         "label": {
           "en": "Aura Level (Sanctuary)",
-          "zh-TW": "光環等級 (Sanctuary)",
-          "zh-CN": "光环等级 (Sanctuary)"
+          "zh-TW": "光環等級 (庇護)",
+          "zh-CN": "光环等级 (庇护)"
         },
         "min": 16,
         "max": 18,
@@ -7259,6 +7247,17 @@
       }
     ],
     "fixedStats": [
+      {
+        "key": "hit-skill:Decrepify",
+        "label": {
+          "en": "20% Chance to cast level 15 Decrepify on striking",
+          "zh-TW": "擊中時有 20% 機率施展等級 15 衰老",
+          "zh-CN": "击中时有 20% 机率施展等级 15 衰老"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
       {
         "key": "reduce-ac",
         "label": {
@@ -7368,8 +7367,8 @@
         "key": "skill:Fire Bolt",
         "label": {
           "en": "Skill Bonus (Fire Bolt)",
-          "zh-TW": "技能加成 (Fire Bolt)",
-          "zh-CN": "技能加成 (Fire Bolt)"
+          "zh-TW": "技能加成 (火焰彈)",
+          "zh-CN": "技能加成 (火焰弹)"
         },
         "value": 3,
         "isSkillRef": true
@@ -7378,8 +7377,8 @@
         "key": "skill:Inferno",
         "label": {
           "en": "Skill Bonus (Inferno)",
-          "zh-TW": "技能加成 (Inferno)",
-          "zh-CN": "技能加成 (Inferno)"
+          "zh-TW": "技能加成 (煉獄之火)",
+          "zh-CN": "技能加成 (炼狱之火)"
         },
         "value": 3,
         "isSkillRef": true
@@ -7388,8 +7387,8 @@
         "key": "skill:Warmth",
         "label": {
           "en": "Skill Bonus (Warmth)",
-          "zh-TW": "技能加成 (Warmth)",
-          "zh-CN": "技能加成 (Warmth)"
+          "zh-TW": "技能加成 (暖流)",
+          "zh-CN": "技能加成 (暖流)"
         },
         "value": 3,
         "isSkillRef": true
@@ -7828,8 +7827,8 @@
         "key": "skill:Critical Strike",
         "label": {
           "en": "Skill Bonus (Critical Strike)",
-          "zh-TW": "技能加成 (Critical Strike)",
-          "zh-CN": "技能加成 (Critical Strike)"
+          "zh-TW": "技能加成 (致命攻勢)",
+          "zh-CN": "技能加成 (致命攻势)"
         },
         "value": 3,
         "isSkillRef": true
@@ -7838,8 +7837,8 @@
         "key": "skill:Dodge",
         "label": {
           "en": "Skill Bonus (Dodge)",
-          "zh-TW": "技能加成 (Dodge)",
-          "zh-CN": "技能加成 (Dodge)"
+          "zh-TW": "技能加成 (閃躲)",
+          "zh-CN": "技能加成 (闪躲)"
         },
         "value": 3,
         "isSkillRef": true
@@ -7848,8 +7847,8 @@
         "key": "skill:Slow Missiles",
         "label": {
           "en": "Skill Bonus (Slow Missiles)",
-          "zh-TW": "技能加成 (Slow Missiles)",
-          "zh-CN": "技能加成 (Slow Missiles)"
+          "zh-TW": "技能加成 (緩箭術)",
+          "zh-CN": "技能加成 (缓箭术)"
         },
         "value": 3,
         "isSkillRef": true
@@ -7937,7 +7936,7 @@
           "zh-CN": "女巫技能等级"
         },
         "value": 3,
-        "isSkillRef": true
+        "isSkillRef": false
       },
       {
         "key": "cast2",
@@ -7963,8 +7962,8 @@
         "key": "skill:Energy Shield",
         "label": {
           "en": "Skill Bonus (Energy Shield)",
-          "zh-TW": "技能加成 (Energy Shield)",
-          "zh-CN": "技能加成 (Energy Shield)"
+          "zh-TW": "技能加成 (能量護盾)",
+          "zh-CN": "技能加成 (能量护盾)"
         },
         "value": 3,
         "isSkillRef": true
@@ -7973,8 +7972,8 @@
         "key": "skill:Static Field",
         "label": {
           "en": "Skill Bonus (Static Field)",
-          "zh-TW": "技能加成 (Static Field)",
-          "zh-CN": "技能加成 (Static Field)"
+          "zh-TW": "技能加成 (靜電力場)",
+          "zh-CN": "技能加成 (静电力场)"
         },
         "value": 2,
         "isSkillRef": true
@@ -8264,8 +8263,8 @@
         "key": "aura:Concentration",
         "label": {
           "en": "Aura Level (Concentration)",
-          "zh-TW": "光環等級 (Concentration)",
-          "zh-CN": "光环等级 (Concentration)"
+          "zh-TW": "光環等級 (專注)",
+          "zh-CN": "光环等级 (专注)"
         },
         "min": 8,
         "max": 12,
@@ -8556,31 +8555,30 @@
     ],
     "levelReq": 25,
     "ladderOnly": false,
-    "stats": [
+    "stats": [],
+    "fixedStats": [
       {
         "key": "gethit-skill:Howl",
         "label": {
-          "en": "Chance to Cast When Struck (Howl)",
-          "zh-TW": "受擊時觸發機率 (Howl)",
-          "zh-CN": "受击时触发机率 (Howl)"
+          "en": "3% Chance to cast level 1 Howl when struck",
+          "zh-TW": "被擊中時有 3% 機率施展等級 1 狂嗥",
+          "zh-CN": "被击中时有 3% 机率施展等级 1 狂嗥"
         },
-        "min": 3,
-        "max": 1,
-        "isSkillRef": true
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       },
       {
         "key": "hit-skill:Taunt",
         "label": {
-          "en": "Chance to Cast on Striking (Taunt)",
-          "zh-TW": "攻擊時觸發機率 (Taunt)",
-          "zh-CN": "攻击时触发机率 (Taunt)"
+          "en": "10% Chance to cast level 1 Taunt on striking",
+          "zh-TW": "擊中時有 10% 機率施展等級 1 嘲諷",
+          "zh-CN": "击中时有 10% 机率施展等级 1 嘲讽"
         },
-        "min": 10,
-        "max": 1,
-        "isSkillRef": true
-      }
-    ],
-    "fixedStats": [
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
       {
         "key": "bar",
         "label": {
@@ -8589,7 +8587,7 @@
           "zh-CN": "蛮族技能等级"
         },
         "value": 2,
-        "isSkillRef": true
+        "isSkillRef": false
       },
       {
         "key": "ac-miss",
@@ -8667,8 +8665,8 @@
         "key": "charged:Cloak of Shadows",
         "label": {
           "en": "Charges (Cloak of Shadows)",
-          "zh-TW": "充能次數 (Cloak of Shadows)",
-          "zh-CN": "充能次数 (Cloak of Shadows)"
+          "zh-TW": "充能次數 (魔影斗蓬)",
+          "zh-CN": "充能次数 (魔影斗蓬)"
         },
         "min": 9,
         "max": 13,
@@ -8791,17 +8789,6 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "hit-skill:Bone Spirit",
-        "label": {
-          "en": "Chance to Cast on Striking (Bone Spirit)",
-          "zh-TW": "攻擊時觸發機率 (Bone Spirit)",
-          "zh-CN": "攻击时触发机率 (Bone Spirit)"
-        },
-        "min": 30,
-        "max": 20,
-        "isSkillRef": true
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -8838,8 +8825,8 @@
         "key": "charged:Iron Golem",
         "label": {
           "en": "Charges (Iron Golem)",
-          "zh-TW": "充能次數 (Iron Golem)",
-          "zh-CN": "充能次数 (Iron Golem)"
+          "zh-TW": "充能次數 (鋼鐵魔像)",
+          "zh-CN": "充能次数 (钢铁魔像)"
         },
         "min": 14,
         "max": 17,
@@ -8847,6 +8834,17 @@
       }
     ],
     "fixedStats": [
+      {
+        "key": "hit-skill:Bone Spirit",
+        "label": {
+          "en": "30% Chance to cast level 20 Bone Spirit on striking",
+          "zh-TW": "擊中時有 30% 機率施展等級 20 骸骨之魂",
+          "zh-CN": "击中时有 30% 机率施展等级 20 骸骨之魂"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
       {
         "key": "indestruct",
         "label": {
@@ -8958,17 +8956,6 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "kill-skill:Enchant",
-        "label": {
-          "en": "Chance to Cast on Kill % (Enchant)",
-          "zh-TW": "擊殺時觸發機率 (Enchant)",
-          "zh-CN": "击杀时触发机率 (Enchant)"
-        },
-        "min": 30,
-        "max": 21,
-        "isSkillRef": true
-      },
-      {
         "key": "dmg-cold",
         "label": {
           "en": "Cold Damage",
@@ -9003,6 +8990,17 @@
       }
     ],
     "fixedStats": [
+      {
+        "key": "kill-skill:Enchant",
+        "label": {
+          "en": "30% Chance to cast level 21 Enchant on kill",
+          "zh-TW": "當你殺敵時有 30% 機率施展等級 21 附魔",
+          "zh-CN": "当你杀敌时有 30% 机率施展等级 21 附魔"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
       {
         "key": "balance3",
         "label": {
@@ -9140,17 +9138,6 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "gethit-skill:Weaken",
-        "label": {
-          "en": "Chance to Cast When Struck (Weaken)",
-          "zh-TW": "受擊時觸發機率 (Weaken)",
-          "zh-CN": "受击时触发机率 (Weaken)"
-        },
-        "min": 24,
-        "max": 10,
-        "isSkillRef": true
-      },
-      {
         "key": "hp%",
         "label": {
           "en": "Increase Maximum Life %",
@@ -9194,6 +9181,17 @@
         },
         "value": 1,
         "isSkillRef": false
+      },
+      {
+        "key": "gethit-skill:Weaken",
+        "label": {
+          "en": "24% Chance to cast level 10 Weaken when struck",
+          "zh-TW": "被擊中時有 24% 機率施展等級 10 削弱",
+          "zh-CN": "被击中时有 24% 机率施展等级 10 削弱"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       },
       {
         "key": "allskills",
@@ -9399,8 +9397,8 @@
         "key": "oskill:Berserk",
         "label": {
           "en": "Skill Bonus (Berserk)",
-          "zh-TW": "技能加成 (狂戰士)",
-          "zh-CN": "技能加成 (狂战士)"
+          "zh-TW": "技能加成 (狂暴之擊)",
+          "zh-CN": "技能加成 (狂暴之击)"
         },
         "value": 1,
         "isSkillRef": true
@@ -9409,8 +9407,8 @@
         "key": "oskill:Zeal",
         "label": {
           "en": "Skill Bonus (Zeal)",
-          "zh-TW": "技能加成 (Zeal)",
-          "zh-CN": "技能加成 (Zeal)"
+          "zh-TW": "技能加成 (熱忱打擊)",
+          "zh-CN": "技能加成 (热忱打击)"
         },
         "value": 1,
         "isSkillRef": true
@@ -9626,31 +9624,30 @@
     ],
     "levelReq": 29,
     "ladderOnly": false,
-    "stats": [
+    "stats": [],
+    "fixedStats": [
       {
         "key": "gethit-skill:Slow Missiles",
         "label": {
-          "en": "Chance to Cast When Struck (Slow Missiles)",
-          "zh-TW": "受擊時觸發機率 (Slow Missiles)",
-          "zh-CN": "受击时触发机率 (Slow Missiles)"
+          "en": "4% Chance to cast level 5 Slow Missiles when struck",
+          "zh-TW": "被擊中時有 4% 機率施展等級 5 緩箭術",
+          "zh-CN": "被击中时有 4% 机率施展等级 5 缓箭术"
         },
-        "min": 4,
-        "max": 5,
-        "isSkillRef": true
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       },
       {
         "key": "hit-skill:Valkyrie",
         "label": {
-          "en": "Chance to Cast on Striking (Valkyrie)",
-          "zh-TW": "攻擊時觸發機率 (女武神)",
-          "zh-CN": "攻击时触发机率 (女武神)"
+          "en": "2% Chance to cast level 15 Valkyrie on striking",
+          "zh-TW": "擊中時有 2% 機率施展等級 15 女武神",
+          "zh-CN": "击中时有 2% 机率施展等级 15 女武神"
         },
-        "min": 2,
-        "max": 15,
-        "isSkillRef": true
-      }
-    ],
-    "fixedStats": [
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
       {
         "key": "ama",
         "label": {
@@ -9659,7 +9656,7 @@
           "zh-CN": "亚马逊技能等级"
         },
         "value": 2,
-        "isSkillRef": true
+        "isSkillRef": false
       },
       {
         "key": "balance2",
@@ -9675,8 +9672,8 @@
         "key": "oskill:Critical Strike",
         "label": {
           "en": "Skill Bonus (Critical Strike)",
-          "zh-TW": "技能加成 (Critical Strike)",
-          "zh-CN": "技能加成 (Critical Strike)"
+          "zh-TW": "技能加成 (致命攻勢)",
+          "zh-CN": "技能加成 (致命攻势)"
         },
         "value": 2,
         "isSkillRef": true
@@ -9757,28 +9754,6 @@
         "isSkillRef": false
       },
       {
-        "key": "levelup-skill:Blaze",
-        "label": {
-          "en": "Chance to Cast on Level-Up % (Blaze)",
-          "zh-TW": "升級時觸發機率 % (Blaze)",
-          "zh-CN": "升级时触发机率 % (Blaze)"
-        },
-        "min": 100,
-        "max": 40,
-        "isSkillRef": true
-      },
-      {
-        "key": "hit-skill:Firestorm",
-        "label": {
-          "en": "Chance to Cast on Striking (Firestorm)",
-          "zh-TW": "攻擊時觸發機率 (Firestorm)",
-          "zh-CN": "攻击时触发机率 (Firestorm)"
-        },
-        "min": 40,
-        "max": 22,
-        "isSkillRef": true
-      },
-      {
         "key": "abs-fire",
         "label": {
           "en": "Fire Absorb",
@@ -9793,8 +9768,8 @@
         "key": "aura:Redemption",
         "label": {
           "en": "Aura Level (Redemption)",
-          "zh-TW": "光環等級 (Redemption)",
-          "zh-CN": "光环等级 (Redemption)"
+          "zh-TW": "光環等級 (救贖)",
+          "zh-CN": "光环等级 (救赎)"
         },
         "min": 10,
         "max": 15,
@@ -9813,6 +9788,28 @@
       }
     ],
     "fixedStats": [
+      {
+        "key": "levelup-skill:Blaze",
+        "label": {
+          "en": "100% Chance to cast level 40 Blaze on level up",
+          "zh-TW": "當你升級時有 100% 機率施展等級 40 熾烈之徑",
+          "zh-CN": "当你升级时有 100% 机率施展等级 40 炽烈之径"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "hit-skill:Firestorm",
+        "label": {
+          "en": "40% Chance to cast level 22 Firestorm on striking",
+          "zh-TW": "擊中時有 40% 機率施展等級 22 火焰風暴",
+          "zh-CN": "击中时有 40% 机率施展等级 22 火焰风暴"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
       {
         "key": "pierce-fire",
         "label": {
@@ -9922,33 +9919,11 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "gethit-skill:Lower Resist",
-        "label": {
-          "en": "Chance to Cast When Struck (Lower Resist)",
-          "zh-TW": "受擊時觸發機率 (Lower Resist)",
-          "zh-CN": "受击时触发机率 (Lower Resist)"
-        },
-        "min": 20,
-        "max": 12,
-        "isSkillRef": true
-      },
-      {
-        "key": "hit-skill:Poison Nova",
-        "label": {
-          "en": "Chance to Cast on Striking (Poison Nova)",
-          "zh-TW": "攻擊時觸發機率 (Poison Nova)",
-          "zh-CN": "攻击时触发机率 (Poison Nova)"
-        },
-        "min": 25,
-        "max": 15,
-        "isSkillRef": true
-      },
-      {
         "key": "aura:Cleansing",
         "label": {
           "en": "Aura Level (Cleansing)",
-          "zh-TW": "光環等級 (Cleansing)",
-          "zh-CN": "光环等级 (Cleansing)"
+          "zh-TW": "光環等級 (淨化)",
+          "zh-CN": "光环等级 (净化)"
         },
         "min": 13,
         "max": 17,
@@ -9978,6 +9953,28 @@
       }
     ],
     "fixedStats": [
+      {
+        "key": "gethit-skill:Lower Resist",
+        "label": {
+          "en": "20% Chance to cast level 12 Lower Resist when struck",
+          "zh-TW": "被擊中時有 20% 機率施展等級 12 降低抗性",
+          "zh-CN": "被击中时有 20% 机率施展等级 12 降低抗性"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "hit-skill:Poison Nova",
+        "label": {
+          "en": "25% Chance to cast level 15 Poison Nova on striking",
+          "zh-TW": "擊中時有 25% 機率施展等級 15 劇毒新星",
+          "zh-CN": "击中时有 25% 机率施展等级 15 剧毒新星"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
       {
         "key": "swing2",
         "label": {
@@ -10073,22 +10070,11 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "gethit-skill:Fire Wall",
-        "label": {
-          "en": "Chance to Cast When Struck (Fire Wall)",
-          "zh-TW": "受擊時觸發機率 (Fire Wall)",
-          "zh-CN": "受击时触发机率 (Fire Wall)"
-        },
-        "min": 25,
-        "max": 17,
-        "isSkillRef": true
-      },
-      {
         "key": "aura:Concentration",
         "label": {
           "en": "Aura Level (Concentration)",
-          "zh-TW": "光環等級 (Concentration)",
-          "zh-CN": "光环等级 (Concentration)"
+          "zh-TW": "光環等級 (專注)",
+          "zh-CN": "光环等级 (专注)"
         },
         "min": 16,
         "max": 20,
@@ -10118,6 +10104,17 @@
       }
     ],
     "fixedStats": [
+      {
+        "key": "gethit-skill:Fire Wall",
+        "label": {
+          "en": "25% Chance to cast level 17 Fire Wall when struck",
+          "zh-TW": "被擊中時有 25% 機率施展等級 17 火牆術",
+          "zh-CN": "被击中时有 25% 机率施展等级 17 火墙术"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
       {
         "key": "dmg-demon/lvl",
         "label": {
@@ -10227,17 +10224,6 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "hit-skill:Holy Bolt",
-        "label": {
-          "en": "Chance to Cast on Striking (Holy Bolt)",
-          "zh-TW": "攻擊時觸發機率 (Holy Bolt)",
-          "zh-CN": "攻击时触发机率 (Holy Bolt)"
-        },
-        "min": 100,
-        "max": 5,
-        "isSkillRef": true
-      },
-      {
         "key": "hp",
         "label": {
           "en": "Life",
@@ -10251,6 +10237,17 @@
     ],
     "fixedStats": [
       {
+        "key": "hit-skill:Holy Bolt",
+        "label": {
+          "en": "100% Chance to cast level 5 Holy Bolt on striking",
+          "zh-TW": "擊中時有 100% 機率施展等級 5 聖光彈",
+          "zh-CN": "击中时有 100% 机率施展等级 5 圣光弹"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
         "key": "pal",
         "label": {
           "en": "Paladin Skill Levels",
@@ -10258,7 +10255,7 @@
           "zh-CN": "圣骑士技能等级"
         },
         "value": 2,
-        "isSkillRef": true
+        "isSkillRef": false
       },
       {
         "key": "dmg-undead",
@@ -10584,28 +10581,6 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "gethit-skill:Cyclone Armor",
-        "label": {
-          "en": "Chance to Cast When Struck (Cyclone Armor)",
-          "zh-TW": "受擊時觸發機率 (Cyclone Armor)",
-          "zh-CN": "受击时触发机率 (Cyclone Armor)"
-        },
-        "min": 5,
-        "max": 15,
-        "isSkillRef": true
-      },
-      {
-        "key": "hit-skill:Twister",
-        "label": {
-          "en": "Chance to Cast on Striking (Twister)",
-          "zh-TW": "攻擊時觸發機率 (Twister)",
-          "zh-CN": "攻击时触发机率 (Twister)"
-        },
-        "min": 5,
-        "max": 15,
-        "isSkillRef": true
-      },
-      {
         "key": "mana",
         "label": {
           "en": "Mana",
@@ -10619,6 +10594,28 @@
     ],
     "fixedStats": [
       {
+        "key": "gethit-skill:Cyclone Armor",
+        "label": {
+          "en": "5% Chance to cast level 15 Cyclone Armor when struck",
+          "zh-TW": "被擊中時有 5% 機率施展等級 15 氣旋護甲",
+          "zh-CN": "被击中时有 5% 机率施展等级 15 气旋护甲"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "hit-skill:Twister",
+        "label": {
+          "en": "5% Chance to cast level 15 Twister on striking",
+          "zh-TW": "擊中時有 5% 機率施展等級 15 旋風術",
+          "zh-CN": "击中时有 5% 机率施展等级 15 旋风术"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
         "key": "dru",
         "label": {
           "en": "Druid Skill Levels",
@@ -10626,7 +10623,7 @@
           "zh-CN": "德鲁伊技能等级"
         },
         "value": 2,
-        "isSkillRef": true
+        "isSkillRef": false
       },
       {
         "key": "res-ltng",
@@ -10806,22 +10803,11 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "hit-skill:Tornado",
-        "label": {
-          "en": "Chance to Cast on Striking (Tornado)",
-          "zh-TW": "攻擊時觸發機率 (Tornado)",
-          "zh-CN": "攻击时触发机率 (Tornado)"
-        },
-        "min": 20,
-        "max": 16,
-        "isSkillRef": true
-      },
-      {
         "key": "att-skill:Frozen Orb",
         "label": {
           "en": "Attack Rating (skill) (Frozen Orb)",
-          "zh-TW": "攻擊等級（技能） (Frozen Orb)",
-          "zh-CN": "攻击等级（技能） (Frozen Orb)"
+          "zh-TW": "攻擊等級（技能） (冰封球)",
+          "zh-CN": "攻击等级（技能） (冰封球)"
         },
         "min": 16,
         "max": 21,
@@ -10864,8 +10850,8 @@
         "key": "charged:Iron Maiden",
         "label": {
           "en": "Charges (Iron Maiden)",
-          "zh-TW": "充能次數 (Iron Maiden)",
-          "zh-CN": "充能次数 (Iron Maiden)"
+          "zh-TW": "充能次數 (攻擊反噬)",
+          "zh-CN": "充能次数 (攻击反噬)"
         },
         "min": 40,
         "max": 15,
@@ -10873,6 +10859,17 @@
       }
     ],
     "fixedStats": [
+      {
+        "key": "hit-skill:Tornado",
+        "label": {
+          "en": "20% Chance to cast level 16 Tornado on striking",
+          "zh-TW": "擊中時有 20% 機率施展等級 16 龍捲風",
+          "zh-CN": "击中时有 20% 机率施展等级 16 龙卷风"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
       {
         "key": "att%",
         "label": {
@@ -10962,17 +10959,6 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "gethit-skill:Sigil: Death",
-        "label": {
-          "en": "Chance to Cast When Struck (Sigil: Death)",
-          "zh-TW": "受擊時觸發機率 (Sigil: Death)",
-          "zh-CN": "受击时触发机率 (Sigil: Death)"
-        },
-        "min": 13,
-        "max": 1,
-        "isSkillRef": true
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -11018,6 +11004,17 @@
       }
     ],
     "fixedStats": [
+      {
+        "key": "gethit-skill:Sigil: Death",
+        "label": {
+          "en": "13% Chance to cast level 1 Sigil: Death when struck",
+          "zh-TW": "被擊中時有 13% 機率施展等級 1 咒印：死亡",
+          "zh-CN": "被击中时有 13% 机率施展等级 1 咒印：死亡"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
       {
         "key": "swing1",
         "label": {
@@ -11112,8 +11109,8 @@
         "key": "charged:Slow Missiles",
         "label": {
           "en": "Charges (Slow Missiles)",
-          "zh-TW": "充能次數 (Slow Missiles)",
-          "zh-CN": "充能次数 (Slow Missiles)"
+          "zh-TW": "充能次數 (緩箭術)",
+          "zh-CN": "充能次数 (缓箭术)"
         },
         "min": 60,
         "max": 12,
@@ -11404,8 +11401,8 @@
         "key": "charged:Weaken",
         "label": {
           "en": "Charges (Weaken)",
-          "zh-TW": "充能次數 (Weaken)",
-          "zh-CN": "充能次数 (Weaken)"
+          "zh-TW": "充能次數 (削弱)",
+          "zh-CN": "充能次数 (削弱)"
         },
         "min": 18,
         "max": 6,
@@ -12084,8 +12081,8 @@
         "key": "charged:Molten Boulder",
         "label": {
           "en": "Charges (Molten Boulder)",
-          "zh-TW": "充能次數 (Molten Boulder)",
-          "zh-CN": "充能次数 (Molten Boulder)"
+          "zh-TW": "充能次數 (熔火巨石)",
+          "zh-CN": "充能次数 (熔火巨石)"
         },
         "min": 80,
         "max": 16,
@@ -12157,8 +12154,8 @@
         "key": "charged:Clay Golem",
         "label": {
           "en": "Charges (Clay Golem)",
-          "zh-TW": "充能次數 (Clay Golem)",
-          "zh-CN": "充能次数 (Clay Golem)"
+          "zh-TW": "充能次數 (黏土魔像)",
+          "zh-CN": "充能次数 (黏土魔像)"
         },
         "value": 16,
         "isSkillRef": true
@@ -12396,31 +12393,30 @@
     ],
     "levelReq": 43,
     "ladderOnly": false,
-    "stats": [
+    "stats": [],
+    "fixedStats": [
       {
         "key": "gethit-skill:Fade",
         "label": {
-          "en": "Chance to Cast When Struck (Fade)",
-          "zh-TW": "受擊時觸發機率 (Fade)",
-          "zh-CN": "受击时触发机率 (Fade)"
+          "en": "5% Chance to cast level 15 Fade when struck",
+          "zh-TW": "被擊中時有 5% 機率施展等級 15 影散",
+          "zh-CN": "被击中时有 5% 机率施展等级 15 影散"
         },
-        "min": 5,
-        "max": 15,
-        "isSkillRef": true
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       },
       {
         "key": "hit-skill:Venom",
         "label": {
-          "en": "Chance to Cast on Striking (Venom)",
-          "zh-TW": "攻擊時觸發機率 (Venom)",
-          "zh-CN": "攻击时触发机率 (Venom)"
+          "en": "25% Chance to cast level 15 Venom on striking",
+          "zh-TW": "擊中時有 25% 機率施展等級 15 淬毒",
+          "zh-CN": "击中时有 25% 机率施展等级 15 淬毒"
         },
-        "min": 25,
-        "max": 15,
-        "isSkillRef": true
-      }
-    ],
-    "fixedStats": [
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
       {
         "key": "ass",
         "label": {
@@ -12429,7 +12425,7 @@
           "zh-CN": "刺客技能等级"
         },
         "value": 2,
-        "isSkillRef": true
+        "isSkillRef": false
       },
       {
         "key": "swing2",
@@ -12565,12 +12561,13 @@
       {
         "key": "hit-skill:Taunt",
         "label": {
-          "en": "Chance to Cast on Striking (Taunt)",
-          "zh-TW": "攻擊時觸發機率 (Taunt)",
-          "zh-CN": "攻击时触发机率 (Taunt)"
+          "en": "18% Chance to cast level 18 Taunt on striking",
+          "zh-TW": "擊中時有 18% 機率施展等級 18 嘲諷",
+          "zh-CN": "击中时有 18% 机率施展等级 18 嘲讽"
         },
-        "value": 18,
-        "isSkillRef": true
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       },
       {
         "key": "skilltab:12",
@@ -12724,8 +12721,8 @@
         "key": "charged:Poison Explosion",
         "label": {
           "en": "Charges (Poison Explosion)",
-          "zh-TW": "充能次數 (Poison Explosion)",
-          "zh-CN": "充能次数 (Poison Explosion)"
+          "zh-TW": "充能次數 (毒爆)",
+          "zh-CN": "充能次数 (毒爆)"
         },
         "min": 27,
         "max": 15,
@@ -12735,8 +12732,8 @@
         "key": "charged:Poison Nova",
         "label": {
           "en": "Charges (Poison Nova)",
-          "zh-TW": "充能次數 (Poison Nova)",
-          "zh-CN": "充能次数 (Poison Nova)"
+          "zh-TW": "充能次數 (劇毒新星)",
+          "zh-CN": "充能次数 (剧毒新星)"
         },
         "min": 11,
         "max": 13,
@@ -12827,17 +12824,6 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "gethit-skill:Ring of Fire",
-        "label": {
-          "en": "Chance to Cast When Struck (Ring of Fire)",
-          "zh-TW": "受擊時觸發機率 (Ring of Fire)",
-          "zh-CN": "受击时触发机率 (Ring of Fire)"
-        },
-        "min": 5,
-        "max": 10,
-        "isSkillRef": true
-      },
-      {
         "key": "ac%",
         "label": {
           "en": "Enhanced Defense %",
@@ -12883,6 +12869,17 @@
       }
     ],
     "fixedStats": [
+      {
+        "key": "gethit-skill:Ring of Fire",
+        "label": {
+          "en": "5% Chance to cast level 10 Ring of Fire when struck",
+          "zh-TW": "被擊中時有 5% 機率施展等級 10 火焰之環",
+          "zh-CN": "被击中时有 5% 机率施展等级 10 火焰之环"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
       {
         "key": "move2",
         "label": {
@@ -12968,28 +12965,6 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "hit-skill:Frozen Orb",
-        "label": {
-          "en": "Chance to Cast on Striking (Frozen Orb)",
-          "zh-TW": "攻擊時觸發機率 (Frozen Orb)",
-          "zh-CN": "攻击时触发机率 (Frozen Orb)"
-        },
-        "min": 15,
-        "max": 13,
-        "isSkillRef": true
-      },
-      {
-        "key": "hit-skill:Ice Blast",
-        "label": {
-          "en": "Chance to Cast on Striking (Ice Blast)",
-          "zh-TW": "攻擊時觸發機率 (Ice Blast)",
-          "zh-CN": "攻击时触发机率 (Ice Blast)"
-        },
-        "min": 18,
-        "max": 20,
-        "isSkillRef": true
-      },
-      {
         "key": "dmg-demon",
         "label": {
           "en": "Damage to Demons",
@@ -13024,6 +12999,28 @@
       }
     ],
     "fixedStats": [
+      {
+        "key": "hit-skill:Frozen Orb",
+        "label": {
+          "en": "15% Chance to cast level 13 Frozen Orb on striking",
+          "zh-TW": "擊中時有 15% 機率施展等級 13 冰封球",
+          "zh-CN": "击中时有 15% 机率施展等级 13 冰封球"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "hit-skill:Ice Blast",
+        "label": {
+          "en": "18% Chance to cast level 20 Ice Blast on striking",
+          "zh-TW": "擊中時有 18% 機率施展等級 20 寒冰球",
+          "zh-CN": "击中时有 18% 机率施展等级 20 寒冰球"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
       {
         "key": "att",
         "label": {
@@ -13147,8 +13144,8 @@
         "key": "oskill:Abyss",
         "label": {
           "en": "Skill Bonus (Abyss)",
-          "zh-TW": "技能加成 (Abyss)",
-          "zh-CN": "技能加成 (Abyss)"
+          "zh-TW": "技能加成 (深淵裂口)",
+          "zh-CN": "技能加成 (深渊裂口)"
         },
         "min": 1,
         "max": 3,
@@ -13180,8 +13177,8 @@
         "key": "charged:Decrepify",
         "label": {
           "en": "Charges (Decrepify)",
-          "zh-TW": "充能次數 (Decrepify)",
-          "zh-CN": "充能次数 (Decrepify)"
+          "zh-TW": "充能次數 (衰老)",
+          "zh-CN": "充能次数 (衰老)"
         },
         "min": 35,
         "max": 4,
@@ -13375,8 +13372,8 @@
         "key": "skill:Bone Armor",
         "label": {
           "en": "Skill Bonus (Bone Armor)",
-          "zh-TW": "技能加成 (Bone Armor)",
-          "zh-CN": "技能加成 (Bone Armor)"
+          "zh-TW": "技能加成 (骸骨護甲)",
+          "zh-CN": "技能加成 (骸骨护甲)"
         },
         "value": 3,
         "isSkillRef": true
@@ -13385,8 +13382,8 @@
         "key": "skill:Bone Spear",
         "label": {
           "en": "Skill Bonus (Bone Spear)",
-          "zh-TW": "技能加成 (Bone Spear)",
-          "zh-CN": "技能加成 (Bone Spear)"
+          "zh-TW": "技能加成 (骨矛)",
+          "zh-CN": "技能加成 (骨矛)"
         },
         "value": 2,
         "isSkillRef": true
@@ -13395,8 +13392,8 @@
         "key": "skill:Skeleton Mastery",
         "label": {
           "en": "Skill Bonus (Skeleton Mastery)",
-          "zh-TW": "技能加成 (Skeleton Mastery)",
-          "zh-CN": "技能加成 (Skeleton Mastery)"
+          "zh-TW": "技能加成 (骷髏專精)",
+          "zh-CN": "技能加成 (骷髅专精)"
         },
         "value": 4,
         "isSkillRef": true
@@ -13464,17 +13461,6 @@
     "ladderOnly": false,
     "stats": [
       {
-        "key": "hit-skill:Tornado",
-        "label": {
-          "en": "Chance to Cast on Striking (Tornado)",
-          "zh-TW": "攻擊時觸發機率 (Tornado)",
-          "zh-CN": "攻击时触发机率 (Tornado)"
-        },
-        "min": 10,
-        "max": 9,
-        "isSkillRef": true
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -13489,8 +13475,8 @@
         "key": "charged:Twister",
         "label": {
           "en": "Charges (Twister)",
-          "zh-TW": "充能次數 (Twister)",
-          "zh-CN": "充能次数 (Twister)"
+          "zh-TW": "充能次數 (旋風術)",
+          "zh-CN": "充能次数 (旋风术)"
         },
         "min": 127,
         "max": 13,
@@ -13498,6 +13484,17 @@
       }
     ],
     "fixedStats": [
+      {
+        "key": "hit-skill:Tornado",
+        "label": {
+          "en": "10% Chance to cast level 9 Tornado on striking",
+          "zh-TW": "擊中時有 10% 機率施展等級 9 龍捲風",
+          "zh-CN": "击中时有 10% 机率施展等级 9 龙卷风"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
       {
         "key": "move2",
         "label": {
@@ -13745,28 +13742,6 @@
     "ladderOnly": true,
     "stats": [
       {
-        "key": "hit-skill:Decrepify",
-        "label": {
-          "en": "Chance to Cast on Striking (Decrepify)",
-          "zh-TW": "攻擊時觸發機率 (Decrepify)",
-          "zh-CN": "攻击时触发机率 (Decrepify)"
-        },
-        "min": 30,
-        "max": 1,
-        "isSkillRef": true
-      },
-      {
-        "key": "hit-skill:Life Tap",
-        "label": {
-          "en": "Chance to Cast on Striking (Life Tap)",
-          "zh-TW": "攻擊時觸發機率 (Life Tap)",
-          "zh-CN": "攻击时触发机率 (Life Tap)"
-        },
-        "min": 5,
-        "max": 10,
-        "isSkillRef": true
-      },
-      {
         "key": "dmg-undead",
         "label": {
           "en": "Damage to Undead",
@@ -13801,6 +13776,28 @@
       }
     ],
     "fixedStats": [
+      {
+        "key": "hit-skill:Decrepify",
+        "label": {
+          "en": "30% Chance to cast level 1 Decrepify on striking",
+          "zh-TW": "擊中時有 30% 機率施展等級 1 衰老",
+          "zh-CN": "击中时有 30% 机率施展等级 1 衰老"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
+        "key": "hit-skill:Life Tap",
+        "label": {
+          "en": "5% Chance to cast level 10 Life Tap on striking",
+          "zh-TW": "擊中時有 5% 機率施展等級 10 偷取生命",
+          "zh-CN": "击中时有 5% 机率施展等级 10 偷取生命"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
+      },
       {
         "key": "dmg-demon",
         "label": {
@@ -13903,17 +13900,6 @@
         "min": 1,
         "max": 50,
         "isSkillRef": false
-      },
-      {
-        "key": "gethit-skill:Twister",
-        "label": {
-          "en": "Chance to Cast When Struck (Twister)",
-          "zh-TW": "受擊時觸發機率 (Twister)",
-          "zh-CN": "受击时触发机率 (Twister)"
-        },
-        "min": 7,
-        "max": 1,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -13976,6 +13962,17 @@
         },
         "value": 25,
         "isSkillRef": false
+      },
+      {
+        "key": "gethit-skill:Twister",
+        "label": {
+          "en": "7% Chance to cast level 1 Twister when struck",
+          "zh-TW": "被擊中時有 7% 機率施展等級 1 旋風術",
+          "zh-CN": "被击中时有 7% 机率施展等级 1 旋风术"
+        },
+        "value": 0,
+        "isSkillRef": false,
+        "composed": true
       }
     ]
   }

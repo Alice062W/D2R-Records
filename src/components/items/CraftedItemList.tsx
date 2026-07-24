@@ -7,6 +7,12 @@ import { BASE_PATH } from '@/lib/basePath';
 
 type CraftedItem = (typeof craftedItemsJson)[number];
 type Locale = 'en' | 'zh-TW' | 'zh-CN';
+// crafted-items.json's fixedProperties/variableProperties element shapes are
+// inferred per-entry from the raw JSON, so an optional field like `composed`
+// (present only on "chance to cast" entries) produces a non-uniform union
+// across the array instead of a single optional-field type. Widen explicitly
+// rather than fighting JSON-module type inference.
+type FixedStatEntry = { key: string; label: Record<Locale, string>; value?: number | null; isSkillRef: boolean; composed?: boolean };
 
 const FAMILY_ORDER = ['hitPower', 'blood', 'caster', 'safety'] as const;
 
@@ -77,7 +83,9 @@ export default function CraftedItemList({ items, locale }: { items: CraftedItem[
                   {t('craftedItemsFixedPropertiesLabel')}
                 </h4>
                 <div className="text-sm text-[#8080f3] flex flex-col gap-0.5">
-                  {item.fixedProperties.map(f => <div key={f.key}>{f.label[locale]}: {f.value}</div>)}
+                  {(item.fixedProperties as FixedStatEntry[]).map(f => (
+                    <div key={f.key}>{f.composed ? f.label[locale] : `${f.label[locale]}: ${f.value}`}</div>
+                  ))}
                 </div>
               </div>
             )}

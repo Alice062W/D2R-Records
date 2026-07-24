@@ -35,19 +35,20 @@
       "invrIth",
       "invgsbe"
     ],
-    "fixedProperties": [],
-    "variableProperties": [
+    "fixedProperties": [
       {
         "key": "gethit-skill:44",
         "label": {
-          "en": "Chance to Cast When Struck (Frost Nova)",
-          "zh-TW": "受擊時觸發機率 (霜之新星)",
-          "zh-CN": "受击时触发机率 (霜之新星)"
+          "en": "5% Chance to cast level 4 Frost Nova when struck",
+          "zh-TW": "被擊中時有 5% 機率施展等級 4 霜之新星",
+          "zh-CN": "被击中时有 5% 机率施展等级 4 霜之新星"
         },
-        "min": 5,
-        "max": 4,
-        "isSkillRef": true
-      },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
+      }
+    ],
+    "variableProperties": [
       {
         "key": "thorns",
         "label": {
@@ -108,19 +109,20 @@
       "invrRal",
       "invgsbe"
     ],
-    "fixedProperties": [],
-    "variableProperties": [
+    "fixedProperties": [
       {
         "key": "gethit-skill:44",
         "label": {
-          "en": "Chance to Cast When Struck (Frost Nova)",
-          "zh-TW": "受擊時觸發機率 (霜之新星)",
-          "zh-CN": "受击时触发机率 (霜之新星)"
+          "en": "5% Chance to cast level 4 Frost Nova when struck",
+          "zh-TW": "被擊中時有 5% 機率施展等級 4 霜之新星",
+          "zh-CN": "被击中时有 5% 机率施展等级 4 霜之新星"
         },
-        "min": 5,
-        "max": 4,
-        "isSkillRef": true
-      },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
+      }
+    ],
+    "variableProperties": [
       {
         "key": "thorns",
         "label": {
@@ -183,6 +185,17 @@
     ],
     "fixedProperties": [
       {
+        "key": "gethit-skill:44",
+        "label": {
+          "en": "5% Chance to cast level 4 Frost Nova when struck",
+          "zh-TW": "被擊中時有 5% 機率施展等級 4 霜之新星",
+          "zh-CN": "被击中时有 5% 机率施展等级 4 霜之新星"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
         "key": "knock",
         "label": {
           "en": "Knockback",
@@ -194,17 +207,6 @@
       }
     ],
     "variableProperties": [
-      {
-        "key": "gethit-skill:44",
-        "label": {
-          "en": "Chance to Cast When Struck (Frost Nova)",
-          "zh-TW": "受擊時觸發機率 (霜之新星)",
-          "zh-CN": "受击时触发机率 (霜之新星)"
-        },
-        "min": 5,
-        "max": 4,
-        "isSkillRef": true
-      },
       {
         "key": "thorns",
         "label": {
@@ -254,19 +256,20 @@
       "invrTal",
       "invgsbe"
     ],
-    "fixedProperties": [],
-    "variableProperties": [
+    "fixedProperties": [
       {
         "key": "gethit-skill:44",
         "label": {
-          "en": "Chance to Cast When Struck (Frost Nova)",
-          "zh-TW": "受擊時觸發機率 (霜之新星)",
-          "zh-CN": "受击时触发机率 (霜之新星)"
+          "en": "5% Chance to cast level 4 Frost Nova when struck",
+          "zh-TW": "被擊中時有 5% 機率施展等級 4 霜之新星",
+          "zh-CN": "被击中时有 5% 机率施展等级 4 霜之新星"
         },
-        "min": 5,
-        "max": 4,
-        "isSkillRef": true
-      },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
+      }
+    ],
+    "variableProperties": [
       {
         "key": "thorns",
         "label": {
@@ -327,19 +330,20 @@
       "invrEth",
       "invgsbe"
     ],
-    "fixedProperties": [],
-    "variableProperties": [
+    "fixedProperties": [
       {
         "key": "gethit-skill:44",
         "label": {
-          "en": "Chance to Cast When Struck (Frost Nova)",
-          "zh-TW": "受擊時觸發機率 (霜之新星)",
-          "zh-CN": "受击时触发机率 (霜之新星)"
+          "en": "5% Chance to cast level 4 Frost Nova when struck",
+          "zh-TW": "被擊中時有 5% 機率施展等級 4 霜之新星",
+          "zh-CN": "被击中时有 5% 机率施展等级 4 霜之新星"
         },
-        "min": 5,
-        "max": 4,
-        "isSkillRef": true
-      },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
+      }
+    ],
+    "variableProperties": [
       {
         "key": "thorns",
         "label": {
@@ -400,19 +404,20 @@
       "invrNef",
       "invgsbe"
     ],
-    "fixedProperties": [],
-    "variableProperties": [
+    "fixedProperties": [
       {
         "key": "gethit-skill:44",
         "label": {
-          "en": "Chance to Cast When Struck (Frost Nova)",
-          "zh-TW": "受擊時觸發機率 (霜之新星)",
-          "zh-CN": "受击时触发机率 (霜之新星)"
+          "en": "5% Chance to cast level 4 Frost Nova when struck",
+          "zh-TW": "被擊中時有 5% 機率施展等級 4 霜之新星",
+          "zh-CN": "被击中时有 5% 机率施展等级 4 霜之新星"
         },
-        "min": 5,
-        "max": 4,
-        "isSkillRef": true
-      },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
+      }
+    ],
+    "variableProperties": [
       {
         "key": "thorns",
         "label": {
@@ -473,19 +478,20 @@
       "invrThul",
       "invgsbe"
     ],
-    "fixedProperties": [],
-    "variableProperties": [
+    "fixedProperties": [
       {
         "key": "gethit-skill:44",
         "label": {
-          "en": "Chance to Cast When Struck (Frost Nova)",
-          "zh-TW": "受擊時觸發機率 (霜之新星)",
-          "zh-CN": "受击时触发机率 (霜之新星)"
+          "en": "5% Chance to cast level 4 Frost Nova when struck",
+          "zh-TW": "被擊中時有 5% 機率施展等級 4 霜之新星",
+          "zh-CN": "被击中时有 5% 机率施展等级 4 霜之新星"
         },
-        "min": 5,
-        "max": 4,
-        "isSkillRef": true
-      },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
+      }
+    ],
+    "variableProperties": [
       {
         "key": "thorns",
         "label": {
@@ -546,19 +552,20 @@
       "invrAmn",
       "invgsbe"
     ],
-    "fixedProperties": [],
-    "variableProperties": [
+    "fixedProperties": [
       {
         "key": "gethit-skill:44",
         "label": {
-          "en": "Chance to Cast When Struck (Frost Nova)",
-          "zh-TW": "受擊時觸發機率 (霜之新星)",
-          "zh-CN": "受击时触发机率 (霜之新星)"
+          "en": "5% Chance to cast level 4 Frost Nova when struck",
+          "zh-TW": "被擊中時有 5% 機率施展等級 4 霜之新星",
+          "zh-CN": "被击中时有 5% 机率施展等级 4 霜之新星"
         },
-        "min": 5,
-        "max": 4,
-        "isSkillRef": true
-      },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
+      }
+    ],
+    "variableProperties": [
       {
         "key": "thorns",
         "label": {
@@ -619,19 +626,20 @@
       "invrTir",
       "invgsbe"
     ],
-    "fixedProperties": [],
-    "variableProperties": [
+    "fixedProperties": [
       {
         "key": "gethit-skill:44",
         "label": {
-          "en": "Chance to Cast When Struck (Frost Nova)",
-          "zh-TW": "受擊時觸發機率 (霜之新星)",
-          "zh-CN": "受击时触发机率 (霜之新星)"
+          "en": "5% Chance to cast level 4 Frost Nova when struck",
+          "zh-TW": "被擊中時有 5% 機率施展等級 4 霜之新星",
+          "zh-CN": "被击中时有 5% 机率施展等级 4 霜之新星"
         },
-        "min": 5,
-        "max": 4,
-        "isSkillRef": true
-      },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
+      }
+    ],
+    "variableProperties": [
       {
         "key": "thorns",
         "label": {

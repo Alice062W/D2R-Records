@@ -73,8 +73,12 @@ export default function SetGroupDetail({
                   <span key={s.key}>
                     {i > 0 && ', '}
                     <span className={s.isSkillRef ? 'text-[#ff4a69]' : s.min === s.max ? 'text-[#22ff55]' : 'text-[#fff818]'}>
-                      {s.label}: {s.min === s.max ? s.min : `${s.min}–${s.max}`}
-                      {s.min !== s.max && <> <span aria-hidden="true">🎲</span></>}
+                      {s.composed ? s.label : (
+                        <>
+                          {s.label}: {s.min === s.max ? s.min : `${s.min}–${s.max}`}
+                          {s.min !== s.max && <> <span aria-hidden="true">🎲</span></>}
+                        </>
+                      )}
                     </span>
                   </span>
                 ))}
@@ -86,8 +90,12 @@ export default function SetGroupDetail({
         <div className="flex flex-col gap-1 text-sm">
           {fullSetBonuses.map(s => (
             <div key={s.key} className={s.isSkillRef ? 'text-[#ff4a69]' : s.min === s.max ? 'text-[#22ff55]' : 'text-[#fff818]'}>
-              {s.label}: {s.min === s.max ? s.min : `${s.min}–${s.max}`}
-              {s.min !== s.max && <> <span aria-hidden="true">🎲</span></>}
+              {s.composed ? s.label : (
+                <>
+                  {s.label}: {s.min === s.max ? s.min : `${s.min}–${s.max}`}
+                  {s.min !== s.max && <> <span aria-hidden="true">🎲</span></>}
+                </>
+              )}
             </div>
           ))}
         </div>

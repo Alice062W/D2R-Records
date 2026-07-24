@@ -917,7 +917,7 @@
           "zh-CN": "女巫技能等级"
         },
         "value": 1,
-        "isSkillRef": true
+        "isSkillRef": false
       },
       {
         "key": "deadly",
@@ -1857,7 +1857,7 @@
           "zh-CN": "蛮族技能等级"
         },
         "value": 1,
-        "isSkillRef": true
+        "isSkillRef": false
       }
     ],
     "setBonuses": [
@@ -2933,19 +2933,7 @@
     "requiredStrength": 27,
     "durability": 32,
     "invFile": "invstu",
-    "stats": [
-      {
-        "key": "gethit-skill:53",
-        "label": {
-          "en": "Chance to Cast When Struck (Chain Lightning)",
-          "zh-TW": "受擊時觸發機率 (連鎖閃電)",
-          "zh-CN": "受击时触发机率 (连锁闪电)"
-        },
-        "min": 18,
-        "max": 5,
-        "isSkillRef": true
-      }
-    ],
+    "stats": [],
     "fixedStats": [
       {
         "key": "res-all",
@@ -2976,12 +2964,21 @@
         },
         "value": 30,
         "isSkillRef": false
+      },
+      {
+        "key": "gethit-skill:53",
+        "label": {
+          "en": "18% Chance to cast level 5 Chain Lightning when struck",
+          "zh-TW": "被擊中時有 18% 機率施展等級 5 連鎖閃電",
+          "zh-CN": "被击中时有 18% 机率施展等级 5 连锁闪电"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       }
     ],
     "setBonuses": [],
-    "statPriority": [
-      "gethit-skill:53"
-    ],
+    "statPriority": [],
     "note": null,
     "statPools": []
   },
@@ -3260,17 +3257,6 @@
     "invFile": "invmac",
     "stats": [
       {
-        "key": "hit-skill:44",
-        "label": {
-          "en": "Chance to Cast on Striking (Frost Nova)",
-          "zh-TW": "攻擊時觸發機率 (霜之新星)",
-          "zh-CN": "攻击时触发机率 (霜之新星)"
-        },
-        "min": 10,
-        "max": 3,
-        "isSkillRef": true
-      },
-      {
         "key": "dmg-fire",
         "label": {
           "en": "Fire Damage",
@@ -3302,11 +3288,21 @@
         },
         "value": 40,
         "isSkillRef": false
+      },
+      {
+        "key": "hit-skill:44",
+        "label": {
+          "en": "10% Chance to cast level 3 Frost Nova on striking",
+          "zh-TW": "擊中時有 10% 機率施展等級 3 霜之新星",
+          "zh-CN": "击中时有 10% 机率施展等级 3 霜之新星"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "hit-skill:44",
       "dmg-fire"
     ],
     "note": null,
@@ -5069,17 +5065,6 @@
     "invFile": "invvou",
     "stats": [
       {
-        "key": "hit-skill:45",
-        "label": {
-          "en": "Chance to Cast on Striking (Ice Blast)",
-          "zh-TW": "攻擊時觸發機率 (冰風暴)",
-          "zh-CN": "攻击时触发机率 (冰风暴)"
-        },
-        "min": 10,
-        "max": 3,
-        "isSkillRef": true
-      },
-      {
         "key": "dmg-ltng",
         "label": {
           "en": "Lightning Damage",
@@ -5113,6 +5098,17 @@
         "isSkillRef": false
       },
       {
+        "key": "hit-skill:45",
+        "label": {
+          "en": "10% Chance to cast level 3 Ice Blast on striking",
+          "zh-TW": "擊中時有 10% 機率施展等級 3 冰風暴",
+          "zh-CN": "击中时有 10% 机率施展等级 3 冰风暴"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
+      },
+      {
         "key": "swing3",
         "label": {
           "en": "Faster Attack Rate",
@@ -5135,7 +5131,6 @@
     ],
     "setBonuses": [],
     "statPriority": [
-      "hit-skill:45",
       "dmg-ltng"
     ],
     "note": null,
@@ -5170,19 +5165,7 @@
     "requiredStrength": 86,
     "durability": 36,
     "invFile": "invscl",
-    "stats": [
-      {
-        "key": "gethit-skill:42",
-        "label": {
-          "en": "Chance to Cast When Struck (Static Field)",
-          "zh-TW": "受擊時觸發機率 (靜態力場)",
-          "zh-CN": "受击时触发机率 (静态力场)"
-        },
-        "min": 10,
-        "max": 3,
-        "isSkillRef": true
-      }
-    ],
+    "stats": [],
     "fixedStats": [
       {
         "key": "ac",
@@ -5213,12 +5196,21 @@
         },
         "value": 100,
         "isSkillRef": false
+      },
+      {
+        "key": "gethit-skill:42",
+        "label": {
+          "en": "10% Chance to cast level 3 Static Field when struck",
+          "zh-TW": "被擊中時有 10% 機率施展等級 3 靜態力場",
+          "zh-CN": "被击中时有 10% 机率施展等级 3 静态力场"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       }
     ],
     "setBonuses": [],
-    "statPriority": [
-      "gethit-skill:42"
-    ],
+    "statPriority": [],
     "note": null,
     "statPools": []
   },
@@ -5542,19 +5534,7 @@
     "requiredStrength": 110,
     "durability": 24,
     "invFile": "invhgl",
-    "stats": [
-      {
-        "key": "gethit-skill:38",
-        "label": {
-          "en": "Chance to Cast When Struck (Charged Bolt)",
-          "zh-TW": "受擊時觸發機率 (充能彈)",
-          "zh-CN": "受击时触发机率 (充能弹)"
-        },
-        "min": 12,
-        "max": 4,
-        "isSkillRef": true
-      }
-    ],
+    "stats": [],
     "fixedStats": [
       {
         "key": "ac",
@@ -5585,6 +5565,17 @@
         },
         "value": 20,
         "isSkillRef": false
+      },
+      {
+        "key": "gethit-skill:38",
+        "label": {
+          "en": "12% Chance to cast level 4 Charged Bolt when struck",
+          "zh-TW": "被擊中時有 12% 機率施展等級 4 充能彈",
+          "zh-CN": "被击中时有 12% 机率施展等级 4 充能弹"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       }
     ],
     "setBonuses": [
@@ -5644,9 +5635,7 @@
         "isSkillRef": false
       }
     ],
-    "statPriority": [
-      "gethit-skill:38"
-    ],
+    "statPriority": [],
     "note": null,
     "statPools": []
   },
@@ -5816,12 +5805,13 @@
       {
         "key": "gethit-skill:52",
         "label": {
-          "en": "Chance to Cast When Struck (Enchant)",
-          "zh-TW": "受擊時觸發機率 (強化)",
-          "zh-CN": "受击时触发机率 (强化)"
+          "en": "5% Chance to cast level 5 Enchant when struck",
+          "zh-TW": "被擊中時有 5% 機率施展等級 5 強化",
+          "zh-CN": "被击中时有 5% 机率施展等级 5 强化"
         },
-        "value": 5,
-        "isSkillRef": true
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       },
       {
         "key": "skilltab:12",
@@ -6365,7 +6355,7 @@
           "zh-CN": "死灵法师技能等级"
         },
         "value": 1,
-        "isSkillRef": true
+        "isSkillRef": false
       }
     ],
     "setBonuses": [
@@ -6960,19 +6950,7 @@
     "requiredStrength": 50,
     "durability": 12,
     "invFile": "invlgl",
-    "stats": [
-      {
-        "key": "hit-skill:101",
-        "label": {
-          "en": "Chance to Cast on Striking (Holy Bolt)",
-          "zh-TW": "攻擊時觸發機率 (聖光彈)",
-          "zh-CN": "攻击时触发机率 (圣光弹)"
-        },
-        "min": 10,
-        "max": 3,
-        "isSkillRef": true
-      }
-    ],
+    "stats": [],
     "fixedStats": [
       {
         "key": "ac",
@@ -7013,12 +6991,21 @@
         },
         "value": 350,
         "isSkillRef": false
+      },
+      {
+        "key": "hit-skill:101",
+        "label": {
+          "en": "10% Chance to cast level 3 Holy Bolt on striking",
+          "zh-TW": "擊中時有 10% 機率施展等級 3 聖光彈",
+          "zh-CN": "击中时有 10% 机率施展等级 3 圣光弹"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       }
     ],
     "setBonuses": [],
-    "statPriority": [
-      "hit-skill:101"
-    ],
+    "statPriority": [],
     "note": null,
     "statPools": []
   },
@@ -7106,13 +7093,14 @@
       {
         "key": "hit-skill:Nova",
         "label": {
-          "en": "Chance to Cast on Striking (Nova)",
-          "zh-TW": "攻擊時觸發機率 (Nova)",
-          "zh-CN": "攻击时触发机率 (Nova)"
+          "en": "10% Chance to cast level 15 Nova on striking",
+          "zh-TW": "擊中時有 10% 機率施展等級 15 閃電新星",
+          "zh-CN": "击中时有 10% 机率施展等级 15 闪电新星"
         },
-        "min": 10,
-        "max": 15,
-        "isSkillRef": true
+        "min": 0,
+        "max": 0,
+        "isSkillRef": false,
+        "composed": true
       },
       {
         "key": "skilltab:0",
@@ -7161,17 +7149,6 @@
     "invFile": "invfld",
     "stats": [
       {
-        "key": "gethit-skill:55",
-        "label": {
-          "en": "Chance to Cast When Struck (Glacial Spike)",
-          "zh-TW": "受擊時觸發機率 (冰尖柱)",
-          "zh-CN": "受击时触发机率 (冰尖柱)"
-        },
-        "min": 10,
-        "max": 3,
-        "isSkillRef": true
-      },
-      {
         "key": "red-mag",
         "label": {
           "en": "Magic Damage Reduced",
@@ -7184,6 +7161,17 @@
       }
     ],
     "fixedStats": [
+      {
+        "key": "gethit-skill:55",
+        "label": {
+          "en": "10% Chance to cast level 3 Glacial Spike when struck",
+          "zh-TW": "被擊中時有 10% 機率施展等級 3 冰尖柱",
+          "zh-CN": "被击中时有 10% 机率施展等级 3 冰尖柱"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
+      },
       {
         "key": "ease",
         "label": {
@@ -7239,7 +7227,6 @@
       }
     ],
     "statPriority": [
-      "gethit-skill:55",
       "red-mag"
     ],
     "note": null,
@@ -8227,7 +8214,7 @@
           "zh-CN": "圣骑士技能等级"
         },
         "value": 1,
-        "isSkillRef": true
+        "isSkillRef": false
       },
       {
         "key": "dmg%",
@@ -8295,17 +8282,6 @@
         "min": 25,
         "max": 35,
         "isSkillRef": false
-      },
-      {
-        "key": "gethit-skill:53",
-        "label": {
-          "en": "Chance to Cast When Struck (Chain Lightning)",
-          "zh-TW": "受擊時觸發機率 (連鎖閃電)",
-          "zh-CN": "受击时触发机率 (连锁闪电)"
-        },
-        "min": 12,
-        "max": 5,
-        "isSkillRef": true
       }
     ],
     "fixedStats": [
@@ -8338,12 +8314,22 @@
         },
         "value": 15,
         "isSkillRef": false
+      },
+      {
+        "key": "gethit-skill:53",
+        "label": {
+          "en": "12% Chance to cast level 5 Chain Lightning when struck",
+          "zh-TW": "被擊中時有 12% 機率施展等級 5 連鎖閃電",
+          "zh-CN": "被击中时有 12% 机率施展等级 5 连锁闪电"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-fire",
-      "gethit-skill:53"
+      "dmg-fire"
     ],
     "note": null,
     "statPools": []
@@ -8997,19 +8983,7 @@
     "requiredStrength": 192,
     "durability": 40,
     "invFile": "invghm",
-    "stats": [
-      {
-        "key": "hit-skill:72",
-        "label": {
-          "en": "Chance to Cast on Striking (Weaken)",
-          "zh-TW": "攻擊時觸發機率 (削弱)",
-          "zh-CN": "攻击时触发机率 (削弱)"
-        },
-        "min": 10,
-        "max": 3,
-        "isSkillRef": true
-      }
-    ],
+    "stats": [],
     "fixedStats": [
       {
         "key": "ac",
@@ -9030,6 +9004,17 @@
         },
         "value": -40,
         "isSkillRef": false
+      },
+      {
+        "key": "hit-skill:72",
+        "label": {
+          "en": "10% Chance to cast level 3 Weaken on striking",
+          "zh-TW": "擊中時有 10% 機率施展等級 3 削弱",
+          "zh-CN": "击中时有 10% 机率施展等级 3 削弱"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       },
       {
         "key": "str",
@@ -9063,9 +9048,7 @@
       }
     ],
     "setBonuses": [],
-    "statPriority": [
-      "hit-skill:72"
-    ],
+    "statPriority": [],
     "note": null,
     "statPools": []
   },
@@ -9887,17 +9870,6 @@
         "isSkillRef": false
       },
       {
-        "key": "gethit-skill:48",
-        "label": {
-          "en": "Chance to Cast When Struck (Nova)",
-          "zh-TW": "受擊時觸發機率 (新星)",
-          "zh-CN": "受击时触发机率 (新星)"
-        },
-        "min": 25,
-        "max": 3,
-        "isSkillRef": true
-      },
-      {
         "key": "dmg-pois",
         "label": {
           "en": "Adds Poison Damage over 2 Seconds",
@@ -9919,12 +9891,22 @@
         },
         "value": 24,
         "isSkillRef": false
+      },
+      {
+        "key": "gethit-skill:48",
+        "label": {
+          "en": "25% Chance to cast level 3 Nova when struck",
+          "zh-TW": "被擊中時有 25% 機率施展等級 3 新星",
+          "zh-CN": "被击中时有 25% 机率施展等级 3 新星"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "composed": true
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "ac",
-      "gethit-skill:48",
       "dmg-pois"
     ],
     "note": null,
@@ -9988,7 +9970,7 @@
           "zh-CN": "女巫技能等级"
         },
         "value": 2,
-        "isSkillRef": true
+        "isSkillRef": false
       },
       {
         "key": "hp",
@@ -10473,7 +10455,7 @@
         },
         "min": 1,
         "max": 1,
-        "isSkillRef": true
+        "isSkillRef": false
       },
       {
         "key": "pierce-fire",

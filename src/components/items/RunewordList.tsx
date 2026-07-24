@@ -71,7 +71,7 @@ export default function RunewordList({ runewords, locale }: { runewords: Runewor
                 ))}
                 {rw.fixedStats.map(f => (
                   <div key={f.key} className={f.isSkillRef ? 'text-[#ff4a69]' : 'text-[#8080f3]'}>
-                    {f.label[locale]}: {f.value}
+                    {f.composed ? f.label[locale] : `${f.label[locale]}: ${f.value}`}
                   </div>
                 ))}
               </div>

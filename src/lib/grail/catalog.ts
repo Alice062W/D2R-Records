@@ -15,13 +15,19 @@ export interface RawGrailStat {
   min: number;
   max: number;
   isSkillRef: boolean;
+  // Set for "chance to cast" stats whose label is already a complete
+  // sentence (e.g. "10% Chance to cast level 3 Static Field when struck")
+  // — min/max are meaningless placeholders for these and must not be
+  // rendered as a range/dice.
+  composed?: boolean;
 }
 
 export interface RawGrailFixedStat {
   key: string;
   label: LocalizedText;
-  value: number;
+  value: number | null;
   isSkillRef: boolean;
+  composed?: boolean;
 }
 
 export interface RawGrailItem {
@@ -52,13 +58,15 @@ export interface GrailStat {
   min: number;
   max: number;
   isSkillRef: boolean;
+  composed?: boolean;
 }
 
 export interface GrailFixedStat {
   key: string;
   label: string;
-  value: number;
+  value: number | null;
   isSkillRef: boolean;
+  composed?: boolean;
 }
 
 export interface GrailItem {
@@ -104,13 +112,13 @@ export function localizeGrailItem(item: RawGrailItem, locale: Locale): GrailItem
     requiredStrength: item.requiredStrength,
     durability: item.durability,
     invFile: item.invFile,
-    stats: item.stats.map(s => ({ key: s.key, label: s.label[locale], min: s.min, max: s.max, isSkillRef: s.isSkillRef })),
-    fixedStats: item.fixedStats.map(f => ({ key: f.key, label: f.label[locale], value: f.value, isSkillRef: f.isSkillRef })),
-    setBonuses: item.setBonuses.map(b => ({ key: b.key, label: b.label[locale], min: b.min, max: b.max, isSkillRef: b.isSkillRef })),
+    stats: item.stats.map(s => ({ key: s.key, label: s.label[locale], min: s.min, max: s.max, isSkillRef: s.isSkillRef, composed: s.composed })),
+    fixedStats: item.fixedStats.map(f => ({ key: f.key, label: f.label[locale], value: f.value, isSkillRef: f.isSkillRef, composed: f.composed })),
+    setBonuses: item.setBonuses.map(b => ({ key: b.key, label: b.label[locale], min: b.min, max: b.max, isSkillRef: b.isSkillRef, composed: b.composed })),
     statPriority: item.statPriority,
     note: item.note ? item.note[locale] : null,
     statPools: item.statPools.map(p => ({
-      options: p.options.map(s => ({ key: s.key, label: s.label[locale], min: s.min, max: s.max, isSkillRef: s.isSkillRef })),
+      options: p.options.map(s => ({ key: s.key, label: s.label[locale], min: s.min, max: s.max, isSkillRef: s.isSkillRef, composed: s.composed })),
     })),
   };
 }
