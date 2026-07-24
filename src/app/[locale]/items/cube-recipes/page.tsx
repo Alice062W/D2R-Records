@@ -1,7 +1,13 @@
 import { routing } from '@/i18n/routing';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import CubeRecipeList from '@/components/items/CubeRecipeList';
 import recipes from '../../../../../data/cube-recipes.json';
+import CubeRecipeCategoryGrid from '@/components/items/CubeRecipeCategoryGrid';
+
+// Same category order as data/cube-recipes.json's category buckets.
+const CATEGORY_ORDER = [
+  'runeGemUpgrade', 'quests', 'consumables', 'sockets', 'itemUpgrade',
+  'itemRepair', 'magicItemRerolls', 'magicItemCreation', 'craftedGrandCharm',
+] as const;
 
 export function generateStaticParams() {
   return routing.locales.map(locale => ({ locale }));
@@ -16,6 +22,10 @@ export default async function CubeRecipesPage({
   setRequestLocale(locale);
   const t = await getTranslations('Items');
 
+  const categories = CATEGORY_ORDER
+    .map(category => ({ category, count: recipes.filter(r => r.category === category).length }))
+    .filter(c => c.count > 0);
+
   return (
     <main className="flex flex-col items-center py-10 px-4 gap-8 flex-1 w-full">
       <div className="text-center">
@@ -23,7 +33,7 @@ export default async function CubeRecipesPage({
         <p className="mt-2 text-sm text-muted max-w-md">{t('cubeRecipesPageSubtitle')}</p>
       </div>
       <div className="w-full max-w-4xl">
-        <CubeRecipeList recipes={recipes} locale={locale as 'en' | 'zh-TW' | 'zh-CN'} />
+        <CubeRecipeCategoryGrid categories={categories} basePath={`/${locale}/items/cube-recipes`} />
       </div>
     </main>
   );

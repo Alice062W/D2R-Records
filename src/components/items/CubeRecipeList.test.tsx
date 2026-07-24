@@ -6,15 +6,14 @@ import messages from '../../../messages/en.json';
 import recipes from '../../../data/cube-recipes.json';
 
 describe('CubeRecipeList', () => {
-  it('renders all populated category sections with their recipes', () => {
+  it('renders every recipe passed to it (category grouping now lives in the page route)', () => {
+    const category = recipes.filter(r => r.category === 'runeGemUpgrade');
     render(
       <NextIntlClientProvider locale="en" messages={messages}>
-        <CubeRecipeList recipes={recipes} locale="en" />
+        <CubeRecipeList recipes={category} locale="en" />
       </NextIntlClientProvider>
     );
-    expect(screen.getByText('Rune & Gem Upgrade')).toBeInTheDocument();
     expect(screen.getByText('3 El Runes -> Eld Rune')).toBeInTheDocument();
-    expect(screen.getByText('Crafted Grand Charm')).toBeInTheDocument();
   });
 
   it('renders ingredient and output icons alongside the existing description text', () => {
