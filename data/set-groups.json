@@ -1246,14 +1246,14 @@
         "piecesRequired": 2,
         "stats": [
           {
-            "key": "lifesteal",
+            "key": "regen-stam",
             "label": {
-              "en": "Life Steal %",
-              "zh-TW": "生命竊取 %",
-              "zh-CN": "生命窃取 %"
+              "en": "Stamina Regenerated %",
+              "zh-TW": "耐力回復 %",
+              "zh-CN": "耐力回复 %"
             },
-            "min": 10,
-            "max": 10,
+            "min": 50,
+            "max": 50,
             "isSkillRef": false
           }
         ]
@@ -1268,36 +1268,14 @@
               "zh-TW": "補充生命值",
               "zh-CN": "补充生命值"
             },
-            "min": 30,
-            "max": 30,
-            "isSkillRef": false
-          },
-          {
-            "key": "dmg-fire/lvl",
-            "label": {
-              "en": "Fire Damage (Based on Character Level)",
-              "zh-TW": "火焰傷害（依角色等級）",
-              "zh-CN": "火焰伤害（依角色等级）"
-            },
-            "min": 24,
-            "max": 24,
+            "min": 20,
+            "max": 20,
             "isSkillRef": false
           }
         ]
       }
     ],
     "fullSetBonuses": [
-      {
-        "key": "res-all",
-        "label": {
-          "en": "All Resistances",
-          "zh-TW": "全抗性",
-          "zh-CN": "全抗性"
-        },
-        "min": 50,
-        "max": 50,
-        "isSkillRef": false
-      },
       {
         "key": "allskills",
         "label": {
@@ -1307,6 +1285,17 @@
         },
         "min": 2,
         "max": 2,
+        "isSkillRef": false
+      },
+      {
+        "key": "res-all",
+        "label": {
+          "en": "All Resistances",
+          "zh-TW": "全抗性",
+          "zh-CN": "全抗性"
+        },
+        "min": 50,
+        "max": 50,
         "isSkillRef": false
       },
       {
@@ -1329,17 +1318,6 @@
         },
         "min": 5,
         "max": 5,
-        "isSkillRef": false
-      },
-      {
-        "key": "red-dmg%",
-        "label": {
-          "en": "Damage Reduced %",
-          "zh-TW": "減少傷害 %",
-          "zh-CN": "减少伤害 %"
-        },
-        "min": 24,
-        "max": 24,
         "isSkillRef": false
       }
     ]

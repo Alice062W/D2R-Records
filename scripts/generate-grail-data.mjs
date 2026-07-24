@@ -400,7 +400,16 @@ const ITEM_ENGLISH_NAME_ALIASES = {
   'Thudergod\'s Vigor': "Thundergod's Vigor", 'Umes Lament': "Ume's Lament", 'Valkiry Wing': "Valkyrie Wing",
   'Vampiregaze': "Vampire Gaze", 'Venomsward': "Venom Ward", 'Verdugo\'s Hearty Cord': "Verdungo's Hearty Cord",
   'Victors Silk': "Silks of the Victor", 'Wartraveler': "War Traveler", 'Whichwild String': "Witchwild String",
-  'Wihtstan\'s Guard': "Sigon's Guard", 'Wisp': "Wisp Projector", 'Wraithflight': "Wraith Flight",
+  'Wisp': "Wisp Projector", 'Wraithflight': "Wraith Flight",
+  // Set-item index typos/placeholders (verified against d2r.world's set pages
+  // this session, same class of bug as the unique-item entries above). Prior
+  // to this fix, "Wihtstan's Guard" (Orphan's Call, code xml) was wrongly
+  // aliased to "Sigon's Guard" -- a name collision with the real Sigon's
+  // Guard (Sigon's Complete Steel, code tow), which made two different set
+  // pieces display identically and silently hid Orphan's Call's real piece
+  // name. "Spiritual Custodian" (The Disciple, code uui) is setitems.txt's
+  // internal placeholder name; d2r.world always displays "Dark Adherent".
+  'Wihtstan\'s Guard': "Whitstan's Guard", 'Spiritual Custodian': "Dark Adherent",
 };
 function correctEnglishName(raw) {
   return ITEM_ENGLISH_NAME_ALIASES[raw] ?? raw;
@@ -433,7 +442,7 @@ const ITEM_NAME_OVERRIDES = {
   'Coif of Glory': "光榮罩盔", 'Corpsemourn': "屍慟", 'Cow King\'s Hide': "牛王之皮", 'Cow King\'s Horns': "牛王之角",
   'Cow King\'s Leathers': "牛王皮甲", 'Crainte Vomir': "恐懼之嘔", 'Credendum': "守信條", 'Crow Caw': "鴉啼",
   'Crown of Ages': "歲月之冠", 'Crushflange': "碎擊釘錘", 'Dangoon\'s Teaching': "檀君的教導", 'Darkglow': "暗光",
-  'Death\'s Guard': "死亡之護", 'Deathbit': "死亡尖鑽", 'Demon Machine': "惡魔機弩", 'Demon\'s Arch': "惡魔之拱",
+  'Dark Adherent': "隱門徒", 'Death\'s Guard': "死亡之護", 'Deathbit': "死亡尖鑽", 'Demon Machine': "惡魔機弩", 'Demon\'s Arch': "惡魔之拱",
   'Demonhorn\'s Edge': "惡魔角尖", 'Doombringer': "末日使者", 'Dracul\'s Grasp': "德古拉之握", 'Dreadfang': "懼牙",
   'Duriel\'s Shell': "都瑞爾之殼", 'Eaglehorn': "鷹角弓", 'Earthshaker': "震地者", 'Endlesshail': "無盡冰雹",
   'Entropy Locket': "無序墜盒", 'Ethereal Edge': "無形之刃", 'Felloak': "魔橡樹", 'Flamebellow': "火嚎", 'Fleshrender': "血肉撕裂者",
@@ -520,7 +529,7 @@ const ITEM_NAME_OVERRIDES = {
   'The Chieftain': "酋長", 'The General\'s Tan Do Li Ga': "將軍的連枷", 'The Minotaur': "牛頭怪", 'The Redeemer': "懺悔者",
   'Thundergod\'s Vigor': "雷神之力", 'Torch of Iro': "伊洛的火炬", 'Ume\'s Lament': "梅花嘆", 'Valkyrie Wing': "女武神之翼",
   'Vampire Gaze': "吸血鬼的凝視", 'Venom Ward': "毒之守禦", 'Verdungo\'s Hearty Cord': "伐頓戈的強韌腰索", 'War Traveler': "戰爭旅者",
-  'Wisp Projector': "鬼火投射者", 'Witchwild String': "狂巫之弦", 'Wraith Flight': "死靈夜翔",
+  'Whitstan\'s Guard': "惠斯坦的守護", 'Wisp Projector': "鬼火投射者", 'Witchwild String': "狂巫之弦", 'Wraith Flight': "死靈夜翔",
 };
 
 // Item/set names and base names: localestrings-chi.json is keyed by the exact
@@ -880,7 +889,15 @@ const setsOut = Object.entries(setItemsRaw)
       name: localizedItemName(v.index),
       kind: 'set',
       setName: v.set ? localizedItemName(v.set) : null,
-      levelReq: v['lvl req'] ?? 0,
+      // A set item's effective character-level requirement is whichever is
+      // higher: setitems.txt's own "lvl req" column, or the base item's own
+      // levelreq. For 6 of the 135 pieces the base item's levelreq is the
+      // higher (and actually binding) value, but setitems.txt's lower "lvl
+      // req" was being used verbatim -- confirmed against d2r.world's
+      // displayed "Required Level" for every one of those 6 (e.g. Bul-Kathos'
+      // Sacred Charge: setitems.txt lvl req=61, but base Colossus Blade's own
+      // levelreq=63, and d2r.world shows Required Level 63).
+      levelReq: Math.max(v['lvl req'] ?? 0, items[v.item]?.levelreq ?? 0),
       ...baseFieldsFor(v.item),
       invFile: v.invfile || items[v.item]?.invfile || '',
       stats: variable,
@@ -1038,6 +1055,28 @@ console.log(`Wrote ${uniquesOut.length} unique items -> data/uniques.json`);
 console.log(`Wrote ${setsOut.length} set items -> data/sets.json`);
 
 const setsFullData = JSON.parse(readFileSync(join(VENDOR, 'sets.json'), 'utf8'));
+
+// vendor/d2data's sets.json entry for Heaven's Brethren is stale/wrong -- it grants
+// lifesteal (2pc), regen+dmg-fire/lvl (3pc), and a full-set bonus including red-dmg%
+// that d2r.world's own Heaven's Brethren page (MyInput/MyData/sets_all's
+// heavens_brethren.decoded.html, verified this session) does not show at all. The
+// dump instead shows: 2pc "Heal Stamina Plus 50%", 3pc "Replenish Life +20", full
+// "+2 to All Skills / All Resistances +50 / Cannot Be Frozen / +5 to Light Radius"
+// (the dump's full-bonus bullet list also re-lists the 2pc/3pc stats cumulatively,
+// same convention as every other set page, so those two are excluded from the
+// full-exclusive set below). Overriding with the d2r.world-verified fields rather
+// than the vendor snapshot's values.
+if (setsFullData["Heaven's Brethren"]) {
+  Object.assign(setsFullData["Heaven's Brethren"], {
+    PCode2a: 'regen-stam', PMin2a: 50, PMax2a: 50,
+    PCode3a: 'regen', PMin3a: 20, PMax3a: 20, PCode3b: undefined, PParam3b: undefined,
+    FCode1: 'allskills', FMin1: 2, FMax1: 2,
+    FCode2: 'res-all', FMin2: 50, FMax2: 50,
+    FCode3: 'nofreeze', FMin3: 1, FMax3: 1,
+    FCode4: 'light', FMin4: 5, FMax4: 5,
+    FCode5: undefined, FMin5: undefined, FMax5: undefined,
+  });
+}
 
 // The set-level partial-bonus fields are PCode{n}a/PMin{n}a/PMax{n}a where {n} IS the
 // piece-count tier itself (2,3,4,5), not a sequential 1..N counter — so this doesn't fit

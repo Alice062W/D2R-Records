@@ -1960,7 +1960,7 @@
       "zh-TW": "布爾凱索的子嗣",
       "zh-CN": "布尔凯索的子嗣"
     },
-    "levelReq": 61,
+    "levelReq": 63,
     "baseName": {
       "en": "Colossus Blade",
       "zh-TW": "巨神之刃",
@@ -2034,7 +2034,7 @@
       "zh-TW": "布爾凱索的子嗣",
       "zh-CN": "布尔凯索的子嗣"
     },
-    "levelReq": 54,
+    "levelReq": 66,
     "baseName": {
       "en": "Mythical Sword",
       "zh-TW": "秘儀之劍",
@@ -3819,7 +3819,7 @@
       "zh-TW": "格里斯瓦德的傳奇",
       "zh-CN": "格里斯瓦德的传奇"
     },
-    "levelReq": 53,
+    "levelReq": 66,
     "baseName": {
       "en": "Caduceus",
       "zh-TW": "神使之杖",
@@ -7474,7 +7474,7 @@
       "zh-TW": "馬維娜之戰鬥詩歌",
       "zh-CN": "马维娜之战斗诗歌"
     },
-    "levelReq": 59,
+    "levelReq": 64,
     "baseName": {
       "en": "Diadem",
       "zh-TW": "權冠",
@@ -9849,9 +9849,9 @@
     "id": "set-98",
     "code": "uui",
     "name": {
-      "en": "Spiritual Custodian",
-      "zh-TW": "黑暗信徒",
-      "zh-CN": "黑暗信徒"
+      "en": "Dark Adherent",
+      "zh-TW": "隱門徒",
+      "zh-CN": "隐门徒"
     },
     "kind": "set",
     "setName": {
@@ -9859,7 +9859,7 @@
       "zh-TW": "門徒",
       "zh-CN": "门徒"
     },
-    "levelReq": 43,
+    "levelReq": 49,
     "baseName": {
       "en": "Dusk Shroud",
       "zh-TW": "灰暮壽衣",
@@ -11072,7 +11072,7 @@
       "zh-TW": "塔格奧的化身",
       "zh-CN": "塔格奥的化身"
     },
-    "levelReq": 47,
+    "levelReq": 62,
     "baseName": {
       "en": "Troll Belt",
       "zh-TW": "洞穴巨魔腰帶",
@@ -11813,9 +11813,9 @@
     "id": "set-107",
     "code": "xml",
     "name": {
-      "en": "Sigon's Guard",
-      "zh-TW": "西剛的守護",
-      "zh-CN": "西刚的守护"
+      "en": "Whitstan's Guard",
+      "zh-TW": "惠斯坦的守護",
+      "zh-CN": "惠斯坦的守护"
     },
     "kind": "set",
     "setName": {
