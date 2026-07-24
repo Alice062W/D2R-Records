@@ -11,6 +11,7 @@
           "zh-TW": "手斧",
           "zh-CN": "手斧"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 3,
           "max": 6
@@ -29,6 +30,7 @@
           "zh-TW": "小斧",
           "zh-CN": "小斧"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 10,
           "max": 21
@@ -47,6 +49,7 @@
           "zh-TW": "戰鉞 ",
           "zh-CN": "战钺 "
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 33,
           "max": 58
@@ -73,6 +76,7 @@
           "zh-TW": "斧",
           "zh-CN": "斧"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 4,
           "max": 11
@@ -91,6 +95,7 @@
           "zh-TW": "切肉斧",
           "zh-CN": "切肉斧"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 10,
           "max": 33
@@ -109,6 +114,7 @@
           "zh-TW": "彎月斧",
           "zh-CN": "弯月斧"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 38,
           "max": 60
@@ -135,6 +141,7 @@
           "zh-TW": "雙刃斧",
           "zh-CN": "双刃斧"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 5,
           "max": 13
@@ -153,6 +160,7 @@
           "zh-TW": "強化雙斧",
           "zh-CN": "强化双斧"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 13,
           "max": 38
@@ -171,6 +179,7 @@
           "zh-TW": "雙頭斧",
           "zh-CN": "双头斧"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 33,
           "max": 66
@@ -197,6 +206,7 @@
           "zh-TW": "軍用鍬",
           "zh-CN": "军用锹"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 7,
           "max": 11
@@ -215,6 +225,7 @@
           "zh-TW": "喙鉗",
           "zh-CN": "喙钳"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 14,
           "max": 34
@@ -233,6 +244,7 @@
           "zh-TW": "戰刺",
           "zh-CN": "战刺"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 30,
           "max": 48
@@ -259,6 +271,7 @@
           "zh-TW": "巨戰斧",
           "zh-CN": "巨战斧"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 10,
           "max": 18
@@ -277,6 +290,7 @@
           "zh-TW": "納卡",
           "zh-CN": "纳卡"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 16,
           "max": 45
@@ -295,6 +309,7 @@
           "zh-TW": "狂戰士斧",
           "zh-CN": "狂战士斧"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 24,
           "max": 71
@@ -321,6 +336,7 @@
           "zh-TW": "巨斧",
           "zh-CN": "巨斧"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 6,
@@ -339,6 +355,7 @@
           "zh-TW": "軍斧",
           "zh-CN": "军斧"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 14,
@@ -357,6 +374,7 @@
           "zh-TW": "猛禽斧",
           "zh-CN": "猛禽斧"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 25,
@@ -383,6 +401,7 @@
           "zh-TW": "闊斧",
           "zh-CN": "阔斧"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 10,
@@ -401,6 +420,7 @@
           "zh-TW": "鉤斧",
           "zh-CN": "钩斧"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 21,
@@ -419,6 +439,7 @@
           "zh-TW": "銀刃斧",
           "zh-CN": "银刃斧"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 62,
@@ -445,6 +466,7 @@
           "zh-TW": "戰鬥斧",
           "zh-CN": "战斗斧"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 12,
@@ -463,6 +485,7 @@
           "zh-TW": "戰鬥斧",
           "zh-CN": "战斗斧"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 24,
@@ -481,6 +504,7 @@
           "zh-TW": "斬首斧",
           "zh-CN": "斩首斧"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 49,
@@ -507,6 +531,7 @@
           "zh-TW": "卓越之斧",
           "zh-CN": "卓越之斧"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 9,
@@ -525,6 +550,7 @@
           "zh-TW": "哥德之斧",
           "zh-CN": "哥德之斧"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 18,
@@ -543,6 +569,7 @@
           "zh-TW": "豪傑斧",
           "zh-CN": "豪杰斧"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 59,
@@ -569,6 +596,7 @@
           "zh-TW": "大斧",
           "zh-CN": "大斧"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 22,
@@ -587,6 +615,7 @@
           "zh-TW": "古代之斧",
           "zh-CN": "古代之斧"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 43,
@@ -605,6 +634,7 @@
           "zh-TW": "榮光之斧",
           "zh-CN": "荣光之斧"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 60,
@@ -631,6 +661,7 @@
           "zh-TW": "法杖",
           "zh-CN": "法杖"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 2,
           "max": 4
@@ -649,6 +680,7 @@
           "zh-TW": "燒焦之杖",
           "zh-CN": "烧焦之杖"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 8,
           "max": 18
@@ -667,6 +699,7 @@
           "zh-TW": "洗鍊法杖",
           "zh-CN": "洗炼法杖"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 18,
           "max": 33
@@ -693,6 +726,7 @@
           "zh-TW": "紫杉之杖",
           "zh-CN": "紫杉之杖"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 2,
           "max": 8
@@ -711,6 +745,7 @@
           "zh-TW": "淨化之杖",
           "zh-CN": "净化之杖"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 8,
           "max": 24
@@ -729,6 +764,7 @@
           "zh-TW": "鬼魂法杖",
           "zh-CN": "鬼魂法杖"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 20,
           "max": 40
@@ -755,6 +791,7 @@
           "zh-TW": "骨杖",
           "zh-CN": "骨杖"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 3,
           "max": 7
@@ -773,6 +810,7 @@
           "zh-TW": "古墓之杖",
           "zh-CN": "古墓之杖"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 10,
           "max": 22
@@ -791,6 +829,7 @@
           "zh-TW": "巫妖法杖",
           "zh-CN": "巫妖法杖"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 10,
           "max": 31
@@ -817,6 +856,7 @@
           "zh-TW": "殘酷之杖",
           "zh-CN": "残酷之杖"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 5,
           "max": 11
@@ -835,6 +875,7 @@
           "zh-TW": "墓地之杖",
           "zh-CN": "墓地之杖"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 13,
           "max": 29
@@ -853,6 +894,7 @@
           "zh-TW": "破隱法杖",
           "zh-CN": "破隐法杖"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 22,
           "max": 28
@@ -879,6 +921,7 @@
           "zh-TW": "木棒",
           "zh-CN": "木棒"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 1,
           "max": 6
@@ -897,6 +940,7 @@
           "zh-TW": "棍棒",
           "zh-CN": "棍棒"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 6,
           "max": 21
@@ -915,6 +959,7 @@
           "zh-TW": "戰儀杖",
           "zh-CN": "战仪杖"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 35,
           "max": 43
@@ -941,6 +986,7 @@
           "zh-TW": "權杖",
           "zh-CN": "权杖"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 6,
           "max": 11
@@ -959,6 +1005,7 @@
           "zh-TW": "符文權杖",
           "zh-CN": "符文权杖"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 13,
           "max": 24
@@ -977,6 +1024,7 @@
           "zh-TW": "強威權杖",
           "zh-CN": "强威权杖"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 40,
           "max": 52
@@ -1003,6 +1051,7 @@
           "zh-TW": "雄偉權杖",
           "zh-CN": "雄伟权杖"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 8,
           "max": 18
@@ -1021,6 +1070,7 @@
           "zh-TW": "聖水噴杖",
           "zh-CN": "圣水喷杖"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 14,
           "max": 36
@@ -1039,6 +1089,7 @@
           "zh-TW": "熾天使法杖",
           "zh-CN": "炽天使法杖"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 45,
           "max": 54
@@ -1065,6 +1116,7 @@
           "zh-TW": "巨戰權杖",
           "zh-CN": "巨战权杖"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 10,
           "max": 17
@@ -1083,6 +1135,7 @@
           "zh-TW": "神屬權杖",
           "zh-CN": "神属权杖"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 16,
           "max": 38
@@ -1101,6 +1154,7 @@
           "zh-TW": "神使之杖",
           "zh-CN": "神使之杖"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 37,
           "max": 43
@@ -1127,6 +1181,7 @@
           "zh-TW": "狼牙棒",
           "zh-CN": "狼牙棒"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 5,
           "max": 8
@@ -1145,6 +1200,7 @@
           "zh-TW": "倒鉤鎚",
           "zh-CN": "倒钩锤"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 13,
           "max": 25
@@ -1163,6 +1219,7 @@
           "zh-TW": "暴君之棒",
           "zh-CN": "暴君之棒"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 32,
           "max": 58
@@ -1189,6 +1246,7 @@
           "zh-TW": "釘頭錘",
           "zh-CN": "钉头锤"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 3,
           "max": 10
@@ -1207,6 +1265,7 @@
           "zh-TW": "凸緣釘頭錘",
           "zh-CN": "凸缘钉头锤"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 15,
           "max": 23
@@ -1225,6 +1284,7 @@
           "zh-TW": "強化釘頭錘",
           "zh-CN": "强化钉头锤"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 41,
           "max": 49
@@ -1251,6 +1311,7 @@
           "zh-TW": "流星鎚",
           "zh-CN": "流星锤"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 7,
           "max": 16
@@ -1269,6 +1330,7 @@
           "zh-TW": "鋸齒流星鎚",
           "zh-CN": "锯齿流星锤"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 20,
           "max": 31
@@ -1287,6 +1349,7 @@
           "zh-TW": "惡魔流星錘",
           "zh-CN": "恶魔流星锤"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 43,
           "max": 53
@@ -1313,6 +1376,7 @@
           "zh-TW": "連枷",
           "zh-CN": "连枷"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 1,
           "max": 24
@@ -1331,6 +1395,7 @@
           "zh-TW": "鐵皮鞭",
           "zh-CN": "铁皮鞭"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 13,
           "max": 35
@@ -1349,6 +1414,7 @@
           "zh-TW": "天罰之錘",
           "zh-CN": "天罚之锤"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 3,
           "max": 80
@@ -1375,6 +1441,7 @@
           "zh-TW": "巨戰鐵鎚",
           "zh-CN": "巨战铁锤"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 19,
           "max": 29
@@ -1393,6 +1460,7 @@
           "zh-TW": "戰鬥鐵鎚",
           "zh-CN": "战斗铁锤"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 35,
           "max": 58
@@ -1411,6 +1479,7 @@
           "zh-TW": "傳說之鎚",
           "zh-CN": "传说之锤"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 50,
           "max": 61
@@ -1437,6 +1506,7 @@
           "zh-TW": "大木棍",
           "zh-CN": "大木棍"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 30,
@@ -1455,6 +1525,7 @@
           "zh-TW": "巨戰木棍",
           "zh-CN": "巨战木棍"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 53,
@@ -1473,6 +1544,7 @@
           "zh-TW": "食人魔之錘",
           "zh-CN": "食人魔之锤"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 77,
@@ -1499,6 +1571,7 @@
           "zh-TW": "卓越巨棍",
           "zh-CN": "卓越巨棍"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 38,
@@ -1517,6 +1590,7 @@
           "zh-TW": "戰槌",
           "zh-CN": "战槌"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 61,
@@ -1535,6 +1609,7 @@
           "zh-TW": "雷錘",
           "zh-CN": "雷锤"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 33,
@@ -1561,6 +1636,7 @@
           "zh-TW": "短劍",
           "zh-CN": "短剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 2,
           "max": 7
@@ -1579,6 +1655,7 @@
           "zh-TW": "羅馬短劍",
           "zh-CN": "罗马短剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 8,
           "max": 22
@@ -1597,6 +1674,7 @@
           "zh-TW": "短劍",
           "zh-CN": "短剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 31,
           "max": 59
@@ -1623,6 +1701,7 @@
           "zh-TW": "彎刀",
           "zh-CN": "弯刀"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 2,
           "max": 6
@@ -1641,6 +1720,7 @@
           "zh-TW": "微彎劍",
           "zh-CN": "微弯剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 8,
           "max": 21
@@ -1659,6 +1739,7 @@
           "zh-TW": "土耳其劍",
           "zh-CN": "土耳其剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 26,
           "max": 46
@@ -1685,6 +1766,7 @@
           "zh-TW": "軍刀",
           "zh-CN": "军刀"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 3,
           "max": 8
@@ -1703,6 +1785,7 @@
           "zh-TW": "虛偽之刃",
           "zh-CN": "虚伪之刃"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 10,
           "max": 24
@@ -1721,6 +1804,7 @@
           "zh-TW": "優雅之劍",
           "zh-CN": "优雅之剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 33,
           "max": 45
@@ -1747,6 +1831,7 @@
           "zh-TW": "彎形大刀",
           "zh-CN": "弯形大刀"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 9,
           "max": 17
@@ -1765,6 +1850,7 @@
           "zh-TW": "圓月彎刀",
           "zh-CN": "圆月弯刀"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 16,
           "max": 35
@@ -1783,6 +1869,7 @@
           "zh-TW": "九頭蛇刃",
           "zh-CN": "九头蛇刃"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 28,
           "max": 68
@@ -1809,6 +1896,7 @@
           "zh-TW": "水晶劍",
           "zh-CN": "水晶剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 5,
           "max": 15
@@ -1827,6 +1915,7 @@
           "zh-TW": "空間之刃",
           "zh-CN": "空间之刃"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 13,
           "max": 35
@@ -1845,6 +1934,7 @@
           "zh-TW": "幻化之刃",
           "zh-CN": "幻化之刃"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 31,
           "max": 35
@@ -1871,6 +1961,7 @@
           "zh-TW": "闊劍",
           "zh-CN": "阔剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 7,
           "max": 14
@@ -1889,6 +1980,7 @@
           "zh-TW": "戰鬥劍",
           "zh-CN": "战斗剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 16,
           "max": 34
@@ -1907,6 +1999,7 @@
           "zh-TW": "征服之劍",
           "zh-CN": "征服之剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 37,
           "max": 53
@@ -1933,6 +2026,7 @@
           "zh-TW": "長劍",
           "zh-CN": "长剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 3,
           "max": 19
@@ -1951,6 +2045,7 @@
           "zh-TW": "符文劍",
           "zh-CN": "符文剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 10,
           "max": 42
@@ -1969,6 +2064,7 @@
           "zh-TW": "神秘之劍",
           "zh-CN": "神秘之剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 5,
           "max": 77
@@ -1995,6 +2091,7 @@
           "zh-TW": "巨戰之劍",
           "zh-CN": "巨战之剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 8,
           "max": 20
@@ -2013,6 +2110,7 @@
           "zh-TW": "古代之劍",
           "zh-CN": "古代之剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 18,
           "max": 43
@@ -2031,6 +2129,7 @@
           "zh-TW": "秘儀之劍",
           "zh-CN": "秘仪之剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 40,
           "max": 50
@@ -2057,6 +2156,7 @@
           "zh-TW": "雙手劍",
           "zh-CN": "双手剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 2,
           "max": 9
@@ -2078,6 +2178,7 @@
           "zh-TW": "斬鐵劍",
           "zh-CN": "斩铁剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 8,
           "max": 26
@@ -2099,6 +2200,7 @@
           "zh-TW": "傳說之劍",
           "zh-CN": "传说之剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 22,
           "max": 56
@@ -2128,6 +2230,7 @@
           "zh-TW": "雙刃大刀",
           "zh-CN": "双刃大刀"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 5,
           "max": 12
@@ -2149,6 +2252,7 @@
           "zh-TW": "雙刃鐮",
           "zh-CN": "双刃镰"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 13,
           "max": 30
@@ -2170,6 +2274,7 @@
           "zh-TW": "高地之劍",
           "zh-CN": "高地之剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 22,
           "max": 62
@@ -2199,6 +2304,7 @@
           "zh-TW": "大劍",
           "zh-CN": "大剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 3,
           "max": 16
@@ -2220,6 +2326,7 @@
           "zh-TW": "長牙劍",
           "zh-CN": "长牙剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 10,
           "max": 37
@@ -2241,6 +2348,7 @@
           "zh-TW": "炎魔之刃",
           "zh-CN": "炎魔之刃"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 15,
           "max": 75
@@ -2270,6 +2378,7 @@
           "zh-TW": "巨劍",
           "zh-CN": "巨剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 7,
           "max": 19
@@ -2291,6 +2400,7 @@
           "zh-TW": "哥德劍",
           "zh-CN": "哥德剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 14,
           "max": 40
@@ -2312,6 +2422,7 @@
           "zh-TW": "冠軍之劍",
           "zh-CN": "冠军之剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 24,
           "max": 54
@@ -2341,6 +2452,7 @@
           "zh-TW": "雙手飾劍",
           "zh-CN": "双手饰剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 9,
           "max": 15
@@ -2362,6 +2474,7 @@
           "zh-TW": "瑞韓德之劍",
           "zh-CN": "瑞韩德之剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 19,
           "max": 35
@@ -2379,10 +2492,11 @@
       },
       "elite": {
         "name": {
-          "en": "Colossal Sword",
+          "en": "Colossus Sword",
           "zh-TW": "巨神之劍",
           "zh-CN": "巨神之剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 26,
           "max": 70
@@ -2412,6 +2526,7 @@
           "zh-TW": "卓越之劍",
           "zh-CN": "卓越之剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 12,
           "max": 20
@@ -2433,6 +2548,7 @@
           "zh-TW": "死刑之劍",
           "zh-CN": "死刑之剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 24,
           "max": 40
@@ -2454,6 +2570,7 @@
           "zh-TW": "巨神之刃",
           "zh-CN": "巨神之刃"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 25,
           "max": 65
@@ -2483,6 +2600,7 @@
           "zh-TW": "匕首",
           "zh-CN": "匕首"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 1,
           "max": 4
@@ -2501,6 +2619,7 @@
           "zh-TW": "銳匕",
           "zh-CN": "锐匕"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 6,
           "max": 18
@@ -2519,6 +2638,7 @@
           "zh-TW": "骸骨小刀",
           "zh-CN": "骸骨小刀"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 23,
           "max": 49
@@ -2545,6 +2665,7 @@
           "zh-TW": "長匕首",
           "zh-CN": "长匕首"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 3,
           "max": 9
@@ -2563,6 +2684,7 @@
           "zh-TW": "詩歌匕首",
           "zh-CN": "诗歌匕首"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 10,
           "max": 26
@@ -2577,10 +2699,11 @@
       },
       "elite": {
         "name": {
-          "en": "Mithral Point",
+          "en": "Mithril Point",
           "zh-TW": "秘銀小刀",
           "zh-CN": "秘银小刀"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 37,
           "max": 53
@@ -2603,10 +2726,11 @@
     "grades": {
       "normal": {
         "name": {
-          "en": "Kriss",
+          "en": "Kris",
           "zh-TW": "波形刀",
           "zh-CN": "波形刀"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 2,
           "max": 11
@@ -2625,6 +2749,7 @@
           "zh-TW": "強波刀",
           "zh-CN": "强波刀"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 15,
           "max": 31
@@ -2643,6 +2768,7 @@
           "zh-TW": "齒緣小刀",
           "zh-CN": "齿缘小刀"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 15,
           "max": 57
@@ -2669,6 +2795,7 @@
           "zh-TW": "短刀",
           "zh-CN": "短刀"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 4,
           "max": 15
@@ -2683,10 +2810,11 @@
       },
       "exceptional": {
         "name": {
-          "en": "Stilleto",
+          "en": "Stiletto",
           "zh-TW": "小劍",
           "zh-CN": "小剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 19,
           "max": 36
@@ -2705,6 +2833,7 @@
           "zh-TW": "傳說尖刺",
           "zh-CN": "传说尖刺"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 31,
           "max": 47
@@ -2731,6 +2860,7 @@
           "zh-TW": "飛刀",
           "zh-CN": "飞刀"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 2,
           "max": 3
@@ -2749,6 +2879,7 @@
           "zh-TW": "戰鬥飛鏢",
           "zh-CN": "战斗飞镖"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 8,
           "max": 16
@@ -2767,6 +2898,7 @@
           "zh-TW": "飛刀",
           "zh-CN": "飞刀"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 23,
           "max": 54
@@ -2793,6 +2925,7 @@
           "zh-TW": "飛斧",
           "zh-CN": "飞斧"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 4,
           "max": 7
@@ -2811,6 +2944,7 @@
           "zh-TW": "法蘭飛斧",
           "zh-CN": "法兰飞斧"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 11,
           "max": 22
@@ -2829,6 +2963,7 @@
           "zh-TW": "飛斧",
           "zh-CN": "飞斧"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 17,
           "max": 65
@@ -2855,6 +2990,7 @@
           "zh-TW": "平衡小刀",
           "zh-CN": "平衡小刀"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 1,
           "max": 8
@@ -2873,6 +3009,7 @@
           "zh-TW": "巨戰飛鏢",
           "zh-CN": "巨战飞镖"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 6,
           "max": 24
@@ -2891,6 +3028,7 @@
           "zh-TW": "翼刀",
           "zh-CN": "翼刀"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 27,
           "max": 35
@@ -2917,6 +3055,7 @@
           "zh-TW": "平衡斧",
           "zh-CN": "平衡斧"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 5,
           "max": 10
@@ -2935,6 +3074,7 @@
           "zh-TW": "短戰戟",
           "zh-CN": "短战戟"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 13,
           "max": 27
@@ -2953,6 +3093,7 @@
           "zh-TW": "翼斧",
           "zh-CN": "翼斧"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 11,
           "max": 56
@@ -2979,6 +3120,7 @@
           "zh-TW": "標槍",
           "zh-CN": "标枪"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 1,
           "max": 5
@@ -2997,6 +3139,7 @@
           "zh-TW": "巨戰標槍",
           "zh-CN": "巨战标枪"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 6,
           "max": 19
@@ -3015,6 +3158,7 @@
           "zh-TW": "亥伯龍之槍",
           "zh-CN": "亥伯龙之枪"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 21,
           "max": 57
@@ -3041,6 +3185,7 @@
           "zh-TW": "短鏢槍",
           "zh-CN": "短镖枪"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 4,
           "max": 9
@@ -3059,6 +3204,7 @@
           "zh-TW": "卓越標槍",
           "zh-CN": "卓越标枪"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 11,
           "max": 26
@@ -3077,6 +3223,7 @@
           "zh-TW": "冥河標槍",
           "zh-CN": "冥河标枪"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 14,
           "max": 64
@@ -3103,6 +3250,7 @@
           "zh-TW": "短矛",
           "zh-CN": "短矛"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 2,
           "max": 13
@@ -3121,6 +3269,7 @@
           "zh-TW": "銳矛",
           "zh-CN": "锐矛"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 8,
           "max": 32
@@ -3139,6 +3288,7 @@
           "zh-TW": "炎魔長矛",
           "zh-CN": "炎魔长矛"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 33,
           "max": 63
@@ -3165,6 +3315,7 @@
           "zh-TW": "大長刀",
           "zh-CN": "大长刀"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 5,
           "max": 17
@@ -3183,6 +3334,7 @@
           "zh-TW": "闊針長矛",
           "zh-CN": "阔针长矛"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 13,
           "max": 38
@@ -3201,6 +3353,7 @@
           "zh-TW": "鬼魂尖槍",
           "zh-CN": "鬼魂尖枪"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 19,
           "max": 60
@@ -3227,6 +3380,7 @@
           "zh-TW": "飛矛",
           "zh-CN": "飞矛"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 5,
           "max": 15
@@ -3245,6 +3399,7 @@
           "zh-TW": "魚叉",
           "zh-CN": "鱼叉"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 13,
           "max": 35
@@ -3263,6 +3418,7 @@
           "zh-TW": "翼魚叉",
           "zh-CN": "翼鱼叉"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 27,
           "max": 35
@@ -3289,6 +3445,7 @@
           "zh-TW": "長矛",
           "zh-CN": "长矛"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 3,
@@ -3307,6 +3464,7 @@
           "zh-TW": "巨戰長矛",
           "zh-CN": "巨战长矛"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 10,
@@ -3325,6 +3483,7 @@
           "zh-TW": "亥伯龍之矛",
           "zh-CN": "亥伯龙之矛"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 35,
@@ -3351,6 +3510,7 @@
           "zh-TW": "三叉戟",
           "zh-CN": "三叉戟"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 9,
@@ -3369,6 +3529,7 @@
           "zh-TW": "魔鬼之叉",
           "zh-CN": "魔鬼之叉"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 19,
@@ -3387,6 +3548,7 @@
           "zh-TW": "冥河之槍",
           "zh-CN": "冥河之枪"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 29,
@@ -3413,6 +3575,7 @@
           "zh-TW": "叉",
           "zh-CN": "叉"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 7,
@@ -3431,6 +3594,7 @@
           "zh-TW": "巨戰之叉",
           "zh-CN": "巨战之叉"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 16,
@@ -3449,6 +3613,7 @@
           "zh-TW": "刺人槍",
           "zh-CN": "刺人枪"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 42,
@@ -3475,6 +3640,7 @@
           "zh-TW": "大戰戟",
           "zh-CN": "大战戟"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 15,
@@ -3493,6 +3659,7 @@
           "zh-TW": "三叉長槍",
           "zh-CN": "三叉长枪"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 29,
@@ -3511,6 +3678,7 @@
           "zh-TW": "鬼魂之矛",
           "zh-CN": "鬼魂之矛"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 18,
@@ -3537,6 +3705,7 @@
           "zh-TW": "矛",
           "zh-CN": "矛"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 14,
@@ -3555,6 +3724,7 @@
           "zh-TW": "長槍",
           "zh-CN": "长枪"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 27,
@@ -3573,6 +3743,7 @@
           "zh-TW": "戰槍",
           "zh-CN": "战枪"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 33,
@@ -3599,6 +3770,7 @@
           "zh-TW": "大砍刀",
           "zh-CN": "大砍刀"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 1,
@@ -3617,6 +3789,7 @@
           "zh-TW": "羅佳柏斧",
           "zh-CN": "罗佳柏斧"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 6,
@@ -3635,6 +3808,7 @@
           "zh-TW": "食人魔之斧",
           "zh-CN": "食人魔之斧"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 28,
@@ -3661,6 +3835,7 @@
           "zh-TW": "鉤鐮槍",
           "zh-CN": "钩镰枪"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 6,
@@ -3679,6 +3854,7 @@
           "zh-TW": "比爾長刀",
           "zh-CN": "比尔长刀"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 14,
@@ -3697,6 +3873,7 @@
           "zh-TW": "巨神之斧",
           "zh-CN": "巨神之斧"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 17,
@@ -3723,6 +3900,7 @@
           "zh-TW": "鐮刀",
           "zh-CN": "镰刀"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 8,
@@ -3741,6 +3919,7 @@
           "zh-TW": "戰鬥鐮刀",
           "zh-CN": "战斗镰刀"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 18,
@@ -3759,6 +3938,7 @@
           "zh-TW": "銳利之斧",
           "zh-CN": "锐利之斧"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 12,
@@ -3785,6 +3965,7 @@
           "zh-TW": "長柄戰斧",
           "zh-CN": "长柄战斧"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 18,
@@ -3803,6 +3984,7 @@
           "zh-TW": "戰戟",
           "zh-CN": "战戟"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 34,
@@ -3821,6 +4003,7 @@
           "zh-TW": "神秘之斧",
           "zh-CN": "神秘之斧"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 33,
@@ -3847,6 +4030,7 @@
           "zh-TW": "長戟",
           "zh-CN": "长戟"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 12,
@@ -3865,6 +4049,7 @@
           "zh-TW": "雙鋒戰戟",
           "zh-CN": "双锋战戟"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 13,
@@ -3883,6 +4068,7 @@
           "zh-TW": "巨長斧",
           "zh-CN": "巨长斧"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 46,
@@ -3909,6 +4095,7 @@
           "zh-TW": "巨戰鐮刀",
           "zh-CN": "巨战镰刀"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 15,
@@ -3927,6 +4114,7 @@
           "zh-TW": "殘酷鐮刀",
           "zh-CN": "残酷镰刀"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 30,
@@ -3945,6 +4133,7 @@
           "zh-TW": "鮫尾巨斧",
           "zh-CN": "鲛尾巨斧"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 40,
@@ -3971,6 +4160,7 @@
           "zh-TW": "短棍",
           "zh-CN": "短棍"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 1,
@@ -3989,6 +4179,7 @@
           "zh-TW": "喬木棒",
           "zh-CN": "乔木棒"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 6,
@@ -4007,6 +4198,7 @@
           "zh-TW": "手杖",
           "zh-CN": "手杖"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 69,
@@ -4033,6 +4225,7 @@
           "zh-TW": "長棍",
           "zh-CN": "长棍"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 2,
@@ -4051,6 +4244,7 @@
           "zh-TW": "六尺棍",
           "zh-CN": "六尺棍"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 8,
@@ -4069,6 +4263,7 @@
           "zh-TW": "鐘乳石之杖",
           "zh-CN": "钟乳石之杖"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 75,
@@ -4095,6 +4290,7 @@
           "zh-TW": "多節棍",
           "zh-CN": "多节棍"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 4,
@@ -4113,6 +4309,7 @@
           "zh-TW": "杉木之棍",
           "zh-CN": "杉木之棍"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 11,
@@ -4131,6 +4328,7 @@
           "zh-TW": "長老之杖",
           "zh-CN": "长老之杖"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 80,
@@ -4157,6 +4355,7 @@
           "zh-TW": "戰鬥法杖",
           "zh-CN": "战斗法杖"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 6,
@@ -4175,6 +4374,7 @@
           "zh-TW": "哥德之棍",
           "zh-CN": "哥德之棍"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 14,
@@ -4193,6 +4393,7 @@
           "zh-TW": "樹皮之杖",
           "zh-CN": "树皮之杖"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 65,
@@ -4219,6 +4420,7 @@
           "zh-TW": "巨戰法杖",
           "zh-CN": "巨战法杖"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 12,
@@ -4237,6 +4439,7 @@
           "zh-TW": "符文之棍",
           "zh-CN": "符文之棍"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 24,
@@ -4255,6 +4458,7 @@
           "zh-TW": "執政官之杖",
           "zh-CN": "执政官之杖"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 83,
@@ -4281,6 +4485,7 @@
           "zh-TW": "短弓",
           "zh-CN": "短弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 1,
@@ -4299,6 +4504,7 @@
           "zh-TW": "鋒銳之弓",
           "zh-CN": "锋锐之弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 6,
@@ -4317,6 +4523,7 @@
           "zh-TW": "蜘蛛弓",
           "zh-CN": "蜘蛛弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 23,
@@ -4343,6 +4550,7 @@
           "zh-TW": "獵弓",
           "zh-CN": "猎弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 2,
@@ -4361,6 +4569,7 @@
           "zh-TW": "剃刀之弓",
           "zh-CN": "剃刀之弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 8,
@@ -4379,6 +4588,7 @@
           "zh-TW": "刀鋒弓",
           "zh-CN": "刀锋弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 21,
@@ -4405,6 +4615,7 @@
           "zh-TW": "長弓",
           "zh-CN": "长弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 3,
@@ -4423,6 +4634,7 @@
           "zh-TW": "杉木弓",
           "zh-CN": "杉木弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 10,
@@ -4441,6 +4653,7 @@
           "zh-TW": "陰影弓",
           "zh-CN": "阴影弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 15,
@@ -4467,6 +4680,7 @@
           "zh-TW": "組合弓",
           "zh-CN": "组合弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 4,
@@ -4485,6 +4699,7 @@
           "zh-TW": "雙弓",
           "zh-CN": "双弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 11,
@@ -4503,6 +4718,7 @@
           "zh-TW": "巨弓",
           "zh-CN": "巨弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 12,
@@ -4529,6 +4745,7 @@
           "zh-TW": "短戰鬥弓",
           "zh-CN": "短战斗弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 5,
@@ -4547,6 +4764,7 @@
           "zh-TW": "短攻城弓",
           "zh-CN": "短攻城弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 13,
@@ -4565,6 +4783,7 @@
           "zh-TW": "鑽石弓",
           "zh-CN": "钻石弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 33,
@@ -4591,6 +4810,7 @@
           "zh-TW": "長戰鬥弓",
           "zh-CN": "长战斗弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 3,
@@ -4609,6 +4829,7 @@
           "zh-TW": "長攻城弓",
           "zh-CN": "长攻城弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 10,
@@ -4627,6 +4848,7 @@
           "zh-TW": "十字軍之弓",
           "zh-CN": "十字军之弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 15,
@@ -4653,6 +4875,7 @@
           "zh-TW": "短巨戰弓",
           "zh-CN": "短巨战弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 6,
@@ -4671,6 +4894,7 @@
           "zh-TW": "符文之弓",
           "zh-CN": "符文之弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 14,
@@ -4689,6 +4913,7 @@
           "zh-TW": "庇護之弓",
           "zh-CN": "庇护之弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 20,
@@ -4715,6 +4940,7 @@
           "zh-TW": "長巨戰弓",
           "zh-CN": "长巨战弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 3,
@@ -4733,6 +4959,7 @@
           "zh-TW": "哥德弓",
           "zh-CN": "哥德弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 10,
@@ -4751,6 +4978,7 @@
           "zh-TW": "九頭蛇弓",
           "zh-CN": "九头蛇弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 10,
@@ -4777,6 +5005,7 @@
           "zh-TW": "輕十字弓",
           "zh-CN": "轻十字弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 6,
@@ -4795,6 +5024,7 @@
           "zh-TW": "石弓",
           "zh-CN": "石弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 14,
@@ -4813,6 +5043,7 @@
           "zh-TW": "彈丸弓",
           "zh-CN": "弹丸弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 28,
@@ -4839,6 +5070,7 @@
           "zh-TW": "十字弓",
           "zh-CN": "十字弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 9,
@@ -4857,6 +5089,7 @@
           "zh-TW": "攻城十字弓",
           "zh-CN": "攻城十字弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 20,
@@ -4875,6 +5108,7 @@
           "zh-TW": "蛇魔女十字弓",
           "zh-CN": "蛇魔女十字弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 25,
@@ -4901,6 +5135,7 @@
           "zh-TW": "重十字弓",
           "zh-CN": "重十字弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 14,
@@ -4919,6 +5154,7 @@
           "zh-TW": "弩弓",
           "zh-CN": "弩弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 33,
@@ -4937,6 +5173,7 @@
           "zh-TW": "巨神十字弓",
           "zh-CN": "巨神十字弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 32,
@@ -4963,6 +5200,7 @@
           "zh-TW": "連射十字弓",
           "zh-CN": "连射十字弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 6,
@@ -4981,6 +5219,7 @@
           "zh-TW": "巧工弩",
           "zh-CN": "巧工弩"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 14,
@@ -4999,6 +5238,7 @@
           "zh-TW": "惡魔十字弓",
           "zh-CN": "恶魔十字弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 26,
@@ -5025,6 +5265,7 @@
           "zh-TW": "吉得賓誘餌",
           "zh-CN": "吉得宾诱饵"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 1,
           "max": 2
@@ -5053,6 +5294,7 @@
           "zh-TW": "吉得賓",
           "zh-CN": "吉得宾"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 3,
           "max": 7
@@ -5081,6 +5323,7 @@
           "zh-TW": "維特之腳",
           "zh-CN": "维特之脚"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 2,
           "max": 8
@@ -5109,6 +5352,7 @@
           "zh-TW": "赫拉迪克.馬勒斯",
           "zh-CN": "赫拉迪克.马勒斯"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 6,
           "max": 15
@@ -5137,6 +5381,7 @@
           "zh-TW": "地獄熔爐鐵鎚",
           "zh-CN": "地狱熔炉铁锤"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 6,
           "max": 15
@@ -5165,6 +5410,7 @@
           "zh-TW": "赫拉迪克之杖",
           "zh-CN": "赫拉迪克之杖"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 12,
@@ -5193,6 +5439,7 @@
           "zh-TW": "赫拉迪克之杖的轉軸",
           "zh-CN": "赫拉迪克之杖的转轴"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 10,
@@ -5221,6 +5468,7 @@
           "zh-TW": "拳劍",
           "zh-CN": "拳剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 4,
           "max": 7
@@ -5239,6 +5487,7 @@
           "zh-TW": "格鬥刃",
           "zh-CN": "格斗刃"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 11,
           "max": 24
@@ -5257,6 +5506,7 @@
           "zh-TW": "近身刃",
           "zh-CN": "近身刃"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 39,
           "max": 52
@@ -5283,6 +5533,7 @@
           "zh-TW": "腕刃",
           "zh-CN": "腕刃"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 5,
           "max": 9
@@ -5301,6 +5552,7 @@
           "zh-TW": "腕刺",
           "zh-CN": "腕刺"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 13,
           "max": 27
@@ -5319,6 +5571,7 @@
           "zh-TW": "腕劍",
           "zh-CN": "腕剑"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 34,
           "max": 45
@@ -5345,6 +5598,7 @@
           "zh-TW": "斧手",
           "zh-CN": "斧手"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 2,
           "max": 15
@@ -5363,6 +5617,7 @@
           "zh-TW": "格鬥爪",
           "zh-CN": "格斗爪"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 8,
           "max": 37
@@ -5381,6 +5636,7 @@
           "zh-TW": "戰拳",
           "zh-CN": "战拳"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 44,
           "max": 53
@@ -5407,6 +5663,7 @@
           "zh-TW": "腰刀",
           "zh-CN": "腰刀"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 7,
           "max": 15
@@ -5425,6 +5682,7 @@
           "zh-TW": "手鐮",
           "zh-CN": "手镰"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 16,
           "max": 37
@@ -5443,6 +5701,7 @@
           "zh-TW": "鬥腰刀",
           "zh-CN": "斗腰刀"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 36,
           "max": 42
@@ -5469,6 +5728,7 @@
           "zh-TW": "爪",
           "zh-CN": "爪"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 8,
           "max": 15
@@ -5487,6 +5747,7 @@
           "zh-TW": "巨爪",
           "zh-CN": "巨爪"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 18,
           "max": 37
@@ -5505,6 +5766,7 @@
           "zh-TW": "猛禽爪",
           "zh-CN": "猛禽爪"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 22,
           "max": 53
@@ -5531,6 +5793,7 @@
           "zh-TW": "刃爪",
           "zh-CN": "刃爪"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 10,
           "max": 14
@@ -5549,6 +5812,7 @@
           "zh-TW": "巨鷹爪",
           "zh-CN": "巨鹰爪"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 21,
           "max": 35
@@ -5567,6 +5831,7 @@
           "zh-TW": "符紋爪",
           "zh-CN": "符纹爪"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 24,
           "max": 44
@@ -5593,6 +5858,7 @@
           "zh-TW": "剪咬刃",
           "zh-CN": "剪咬刃"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 9,
           "max": 17
@@ -5611,6 +5877,7 @@
           "zh-TW": "格鬥剪",
           "zh-CN": "格斗剪"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 19,
           "max": 40
@@ -5629,6 +5896,7 @@
           "zh-TW": "近身剪",
           "zh-CN": "近身剪"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 40,
           "max": 51
@@ -5655,6 +5923,7 @@
           "zh-TW": "鷹之法珠",
           "zh-CN": "鹰之法珠"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 2,
           "max": 5
@@ -5673,6 +5942,7 @@
           "zh-TW": "靈光法珠",
           "zh-CN": "灵光法珠"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 8,
           "max": 21
@@ -5691,6 +5961,7 @@
           "zh-TW": "天堂之石",
           "zh-CN": "天堂之石"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 21,
           "max": 46
@@ -5717,6 +5988,7 @@
           "zh-TW": "神聖天球",
           "zh-CN": "神圣天球"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 3,
           "max": 8
@@ -5735,6 +6007,7 @@
           "zh-TW": "水晶天球",
           "zh-CN": "水晶天球"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 10,
           "max": 26
@@ -5753,6 +6026,7 @@
           "zh-TW": "怪異之球",
           "zh-CN": "怪异之球"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 18,
           "max": 50
@@ -5779,6 +6053,7 @@
           "zh-TW": "攏煙之球",
           "zh-CN": "拢烟之球"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 4,
           "max": 10
@@ -5797,6 +6072,7 @@
           "zh-TW": "雲霧之球",
           "zh-CN": "云雾之球"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 11,
           "max": 29
@@ -5815,6 +6091,7 @@
           "zh-TW": "惡魔之心",
           "zh-CN": "恶魔之心"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 23,
           "max": 55
@@ -5841,6 +6118,7 @@
           "zh-TW": "握扣法珠",
           "zh-CN": "握扣法珠"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 5,
           "max": 12
@@ -5859,6 +6137,7 @@
           "zh-TW": "閃耀之球",
           "zh-CN": "闪耀之球"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 13,
           "max": 32
@@ -5877,6 +6156,7 @@
           "zh-TW": "漩渦球",
           "zh-CN": "漩涡球"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 12,
           "max": 66
@@ -5903,6 +6183,7 @@
           "zh-TW": "傑瑞德之石",
           "zh-CN": "杰瑞德之石"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 8,
           "max": 18
@@ -5921,6 +6202,7 @@
           "zh-TW": "渦流水晶",
           "zh-CN": "涡流水晶"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 18,
           "max": 42
@@ -5939,6 +6221,7 @@
           "zh-TW": "次元碎片",
           "zh-CN": "次元碎片"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 30,
           "max": 53
@@ -5965,6 +6248,7 @@
           "zh-TW": "男性之弓",
           "zh-CN": "男性之弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 7,
@@ -5983,6 +6267,7 @@
           "zh-TW": "灰木之弓",
           "zh-CN": "灰木之弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 16,
@@ -6001,6 +6286,7 @@
           "zh-TW": "女族長之弓",
           "zh-CN": "女族长之弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 20,
@@ -6027,6 +6313,7 @@
           "zh-TW": "反射之弓",
           "zh-CN": "反射之弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 9,
@@ -6045,6 +6332,7 @@
           "zh-TW": "祭典之弓",
           "zh-CN": "祭典之弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 19,
@@ -6063,6 +6351,7 @@
           "zh-TW": "大院長之弓",
           "zh-CN": "大院长之弓"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 14,
@@ -6089,6 +6378,7 @@
           "zh-TW": "女士之矛",
           "zh-CN": "女士之矛"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 18,
@@ -6107,6 +6397,7 @@
           "zh-TW": "祭典之矛",
           "zh-CN": "祭典之矛"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 34,
@@ -6125,6 +6416,7 @@
           "zh-TW": "女族長之矛",
           "zh-CN": "女族长之矛"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 65,
@@ -6151,6 +6443,7 @@
           "zh-TW": "女士長矛",
           "zh-CN": "女士长矛"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 23,
@@ -6169,6 +6462,7 @@
           "zh-TW": "祭典之長矛",
           "zh-CN": "祭典之长矛"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 42,
@@ -6187,6 +6481,7 @@
           "zh-TW": "女族長之長矛",
           "zh-CN": "女族长之长矛"
         },
+        "defense": null,
         "oneHandDamage": null,
         "twoHandDamage": {
           "min": 37,
@@ -6213,6 +6508,7 @@
           "zh-TW": "女士鏢槍",
           "zh-CN": "女士镖枪"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 8,
           "max": 14
@@ -6231,6 +6527,7 @@
           "zh-TW": "祭典之鏢槍",
           "zh-CN": "祭典之镖枪"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 18,
           "max": 35
@@ -6249,6 +6546,7 @@
           "zh-TW": "女族長之鏢槍",
           "zh-CN": "女族长之镖枪"
         },
+        "defense": null,
         "oneHandDamage": {
           "min": 30,
           "max": 54
@@ -6275,6 +6573,10 @@
           "zh-TW": "帽子",
           "zh-CN": "帽子"
         },
+        "defense": {
+          "min": 3,
+          "max": 5
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -6293,6 +6595,10 @@
           "zh-TW": "戰帽",
           "zh-CN": "战帽"
         },
+        "defense": {
+          "min": 45,
+          "max": 53
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -6310,6 +6616,10 @@
           "en": "Shako",
           "zh-TW": "軍帽",
           "zh-CN": "军帽"
+        },
+        "defense": {
+          "min": 98,
+          "max": 141
         },
         "oneHandDamage": {
           "min": 0,
@@ -6337,6 +6647,10 @@
           "zh-TW": "骷髏帽",
           "zh-CN": "骷髅帽"
         },
+        "defense": {
+          "min": 8,
+          "max": 11
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -6355,6 +6669,10 @@
           "zh-TW": "輕便頭盔",
           "zh-CN": "轻便头盔"
         },
+        "defense": {
+          "min": 52,
+          "max": 62
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -6372,6 +6690,10 @@
           "en": "Hydraskull",
           "zh-TW": "九頭蛇頭蓋骨圓帽",
           "zh-CN": "九头蛇头盖骨圆帽"
+        },
+        "defense": {
+          "min": 101,
+          "max": 145
         },
         "oneHandDamage": {
           "min": 0,
@@ -6399,6 +6721,10 @@
           "zh-TW": "頭盔",
           "zh-CN": "头盔"
         },
+        "defense": {
+          "min": 15,
+          "max": 18
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -6417,6 +6743,10 @@
           "zh-TW": "無頰頭盔",
           "zh-CN": "无颊头盔"
         },
+        "defense": {
+          "min": 63,
+          "max": 72
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -6434,6 +6764,10 @@
           "en": "Armet",
           "zh-TW": "活動頭盔",
           "zh-CN": "活动头盔"
+        },
+        "defense": {
+          "min": 105,
+          "max": 149
         },
         "oneHandDamage": {
           "min": 0,
@@ -6461,6 +6795,10 @@
           "zh-TW": "高級頭盔",
           "zh-CN": "高级头盔"
         },
+        "defense": {
+          "min": 23,
+          "max": 26
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -6479,6 +6817,10 @@
           "zh-TW": "輕鋼盔",
           "zh-CN": "轻钢盔"
         },
+        "defense": {
+          "min": 75,
+          "max": 84
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -6496,6 +6838,10 @@
           "en": "Giant Conch",
           "zh-TW": "巨貝頭盔",
           "zh-CN": "巨贝头盔"
+        },
+        "defense": {
+          "min": 110,
+          "max": 154
         },
         "oneHandDamage": {
           "min": 0,
@@ -6523,6 +6869,10 @@
           "zh-TW": "卓越頭盔",
           "zh-CN": "卓越头盔"
         },
+        "defense": {
+          "min": 30,
+          "max": 35
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -6541,6 +6891,10 @@
           "zh-TW": "翼盔",
           "zh-CN": "翼盔"
         },
+        "defense": {
+          "min": 85,
+          "max": 98
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -6558,6 +6912,10 @@
           "en": "Spired Helm",
           "zh-TW": "螺旋頭盔",
           "zh-CN": "螺旋头盔"
+        },
+        "defense": {
+          "min": 114,
+          "max": 159
         },
         "oneHandDamage": {
           "min": 0,
@@ -6585,6 +6943,10 @@
           "zh-TW": "皇冠",
           "zh-CN": "皇冠"
         },
+        "defense": {
+          "min": 25,
+          "max": 45
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -6603,6 +6965,10 @@
           "zh-TW": "巨皇冠",
           "zh-CN": "巨皇冠"
         },
+        "defense": {
+          "min": 78,
+          "max": 113
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -6620,6 +6986,10 @@
           "en": "Corona",
           "zh-TW": "頭冠",
           "zh-CN": "头冠"
+        },
+        "defense": {
+          "min": 111,
+          "max": 165
         },
         "oneHandDamage": {
           "min": 0,
@@ -6647,6 +7017,10 @@
           "zh-TW": "面具",
           "zh-CN": "面具"
         },
+        "defense": {
+          "min": 9,
+          "max": 27
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -6665,6 +7039,10 @@
           "zh-TW": "死亡面具",
           "zh-CN": "死亡面具"
         },
+        "defense": {
+          "min": 54,
+          "max": 86
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -6682,6 +7060,10 @@
           "en": "Demonhead",
           "zh-TW": "惡魔頭蓋骨面具",
           "zh-CN": "恶魔头盖骨面具"
+        },
+        "defense": {
+          "min": 101,
+          "max": 154
         },
         "oneHandDamage": {
           "min": 0,
@@ -6709,6 +7091,10 @@
           "zh-TW": "布甲",
           "zh-CN": "布甲"
         },
+        "defense": {
+          "min": 8,
+          "max": 11
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -6727,6 +7113,10 @@
           "zh-TW": "鬼魂戰甲",
           "zh-CN": "鬼魂战甲"
         },
+        "defense": {
+          "min": 102,
+          "max": 117
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -6744,6 +7134,10 @@
           "en": "Dusk Shroud",
           "zh-TW": "灰暮壽衣",
           "zh-CN": "灰暮寿衣"
+        },
+        "defense": {
+          "min": 361,
+          "max": 467
         },
         "oneHandDamage": {
           "min": 0,
@@ -6771,6 +7165,10 @@
           "zh-TW": "皮甲",
           "zh-CN": "皮甲"
         },
+        "defense": {
+          "min": 14,
+          "max": 17
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -6789,6 +7187,10 @@
           "zh-TW": "海蛇皮甲",
           "zh-CN": "海蛇皮甲"
         },
+        "defense": {
+          "min": 111,
+          "max": 126
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -6806,6 +7208,10 @@
           "en": "Wyrmhide",
           "zh-TW": "古龍皮",
           "zh-CN": "古龙皮"
+        },
+        "defense": {
+          "min": 364,
+          "max": 470
         },
         "oneHandDamage": {
           "min": 0,
@@ -6833,6 +7239,10 @@
           "zh-TW": "硬皮甲",
           "zh-CN": "硬皮甲"
         },
+        "defense": {
+          "min": 21,
+          "max": 24
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -6851,6 +7261,10 @@
           "zh-TW": "魔皮戰甲",
           "zh-CN": "魔皮战甲"
         },
+        "defense": {
+          "min": 122,
+          "max": 136
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -6868,6 +7282,10 @@
           "en": "Scarab Husk",
           "zh-TW": "聖甲蟲殼皮甲",
           "zh-CN": "圣甲虫壳皮甲"
+        },
+        "defense": {
+          "min": 369,
+          "max": 474
         },
         "oneHandDamage": {
           "min": 0,
@@ -6895,6 +7313,10 @@
           "zh-TW": "鑲嵌甲",
           "zh-CN": "镶嵌甲"
         },
+        "defense": {
+          "min": 32,
+          "max": 35
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -6913,6 +7335,10 @@
           "zh-TW": "攀繞戰甲",
           "zh-CN": "攀绕战甲"
         },
+        "defense": {
+          "min": 138,
+          "max": 153
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -6930,6 +7356,10 @@
           "en": "Wire Fleece",
           "zh-TW": "線羊毛皮甲",
           "zh-CN": "线羊毛皮甲"
+        },
+        "defense": {
+          "min": 375,
+          "max": 481
         },
         "oneHandDamage": {
           "min": 0,
@@ -6957,6 +7387,10 @@
           "zh-TW": "鎖環甲",
           "zh-CN": "锁环甲"
         },
+        "defense": {
+          "min": 45,
+          "max": 48
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -6975,6 +7409,10 @@
           "zh-TW": "連扣戰甲",
           "zh-CN": "连扣战甲"
         },
+        "defense": {
+          "min": 158,
+          "max": 172
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -6992,6 +7430,10 @@
           "en": "Diamond Mail",
           "zh-TW": "鑽石鎖子甲",
           "zh-CN": "钻石锁子甲"
+        },
+        "defense": {
+          "min": 383,
+          "max": 489
         },
         "oneHandDamage": {
           "min": 0,
@@ -7019,6 +7461,10 @@
           "zh-TW": "鱗甲",
           "zh-CN": "鳞甲"
         },
+        "defense": {
+          "min": 57,
+          "max": 60
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -7037,6 +7483,10 @@
           "zh-TW": "提格萊特戰甲",
           "zh-CN": "提格莱特战甲"
         },
+        "defense": {
+          "min": 176,
+          "max": 190
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -7054,6 +7504,10 @@
           "en": "Loricated Mail",
           "zh-TW": "甲殼鎧鱗甲",
           "zh-CN": "甲壳铠鳞甲"
+        },
+        "defense": {
+          "min": 390,
+          "max": 496
         },
         "oneHandDamage": {
           "min": 0,
@@ -7081,6 +7535,10 @@
           "zh-TW": "鎖子甲",
           "zh-CN": "锁子甲"
         },
+        "defense": {
+          "min": 72,
+          "max": 75
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -7099,6 +7557,10 @@
           "zh-TW": "織網戰甲",
           "zh-CN": "织网战甲"
         },
+        "defense": {
+          "min": 198,
+          "max": 213
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -7116,6 +7578,10 @@
           "en": "Boneweave",
           "zh-TW": "骸骨鏈甲",
           "zh-CN": "骸骨链甲"
+        },
+        "defense": {
+          "min": 399,
+          "max": 505
         },
         "oneHandDamage": {
           "min": 0,
@@ -7143,6 +7609,10 @@
           "zh-TW": "胸甲",
           "zh-CN": "胸甲"
         },
+        "defense": {
+          "min": 65,
+          "max": 68
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -7161,6 +7631,10 @@
           "zh-TW": "護胸甲",
           "zh-CN": "护胸甲"
         },
+        "defense": {
+          "min": 188,
+          "max": 202
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -7178,6 +7652,10 @@
           "en": "Great Hauberk",
           "zh-TW": "巨型鱗鎧胸甲",
           "zh-CN": "巨型鳞铠胸甲"
+        },
+        "defense": {
+          "min": 395,
+          "max": 501
         },
         "oneHandDamage": {
           "min": 0,
@@ -7205,6 +7683,10 @@
           "zh-TW": "板甲",
           "zh-CN": "板甲"
         },
+        "defense": {
+          "min": 90,
+          "max": 95
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -7223,6 +7705,10 @@
           "zh-TW": "羅瑟戰甲",
           "zh-CN": "罗瑟战甲"
         },
+        "defense": {
+          "min": 225,
+          "max": 243
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -7240,6 +7726,10 @@
           "en": "Balrog Skin",
           "zh-TW": "炎魔皮板甲",
           "zh-CN": "炎魔皮板甲"
+        },
+        "defense": {
+          "min": 410,
+          "max": 517
         },
         "oneHandDamage": {
           "min": 0,
@@ -7267,6 +7757,10 @@
           "zh-TW": "鎧甲",
           "zh-CN": "铠甲"
         },
+        "defense": {
+          "min": 108,
+          "max": 116
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -7285,6 +7779,10 @@
           "zh-TW": "聖堂武士外袍",
           "zh-CN": "圣堂武士外袍"
         },
+        "defense": {
+          "min": 252,
+          "max": 274
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -7302,6 +7800,10 @@
           "en": "Hellforge Plate",
           "zh-TW": "地獄鍛甲",
           "zh-CN": "地狱锻甲"
+        },
+        "defense": {
+          "min": 421,
+          "max": 530
         },
         "oneHandDamage": {
           "min": 0,
@@ -7329,6 +7831,10 @@
           "zh-TW": "實戰鎧甲",
           "zh-CN": "实战铠甲"
         },
+        "defense": {
+          "min": 101,
+          "max": 105
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -7347,6 +7853,10 @@
           "zh-TW": "鯊齒戰甲",
           "zh-CN": "鲨齿战甲"
         },
+        "defense": {
+          "min": 242,
+          "max": 258
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -7364,6 +7874,10 @@
           "en": "Kraken Shell",
           "zh-TW": "海妖殼甲",
           "zh-CN": "海妖壳甲"
+        },
+        "defense": {
+          "min": 417,
+          "max": 523
         },
         "oneHandDamage": {
           "min": 0,
@@ -7391,6 +7905,10 @@
           "zh-TW": "哥德戰甲",
           "zh-CN": "哥德战甲"
         },
+        "defense": {
+          "min": 128,
+          "max": 135
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -7409,6 +7927,10 @@
           "zh-TW": "凸紋戰甲",
           "zh-CN": "凸纹战甲"
         },
+        "defense": {
+          "min": 282,
+          "max": 303
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -7426,6 +7948,10 @@
           "en": "Lacquered Plate",
           "zh-TW": "漆甲",
           "zh-CN": "漆甲"
+        },
+        "defense": {
+          "min": 433,
+          "max": 541
         },
         "oneHandDamage": {
           "min": 0,
@@ -7453,6 +7979,10 @@
           "zh-TW": "高級戰甲",
           "zh-CN": "高级战甲"
         },
+        "defense": {
+          "min": 150,
+          "max": 161
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -7471,6 +8001,10 @@
           "zh-TW": "混沌戰甲",
           "zh-CN": "混沌战甲"
         },
+        "defense": {
+          "min": 315,
+          "max": 342
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -7488,6 +8022,10 @@
           "en": "Shadow Plate",
           "zh-TW": "陰影鎧甲",
           "zh-CN": "阴影铠甲"
+        },
+        "defense": {
+          "min": 446,
+          "max": 557
         },
         "oneHandDamage": {
           "min": 0,
@@ -7515,6 +8053,10 @@
           "zh-TW": "古代裝甲",
           "zh-CN": "古代装甲"
         },
+        "defense": {
+          "min": 218,
+          "max": 233
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -7533,6 +8075,10 @@
           "zh-TW": "華麗戰甲",
           "zh-CN": "华丽战甲"
         },
+        "defense": {
+          "min": 417,
+          "max": 450
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -7550,6 +8096,10 @@
           "en": "Sacred Armor",
           "zh-TW": "神聖盔甲",
           "zh-CN": "神圣盔甲"
+        },
+        "defense": {
+          "min": 487,
+          "max": 600
         },
         "oneHandDamage": {
           "min": 0,
@@ -7577,6 +8127,10 @@
           "zh-TW": "輕型裝甲",
           "zh-CN": "轻型装甲"
         },
+        "defense": {
+          "min": 90,
+          "max": 107
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -7595,6 +8149,10 @@
           "zh-TW": "法師鎧甲",
           "zh-CN": "法师铠甲"
         },
+        "defense": {
+          "min": 225,
+          "max": 261
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -7612,6 +8170,10 @@
           "en": "Archon Plate",
           "zh-TW": "執政官鎧甲",
           "zh-CN": "执政官铠甲"
+        },
+        "defense": {
+          "min": 410,
+          "max": 524
         },
         "oneHandDamage": {
           "min": 0,
@@ -7639,6 +8201,10 @@
           "zh-TW": "圓盾",
           "zh-CN": "圆盾"
         },
+        "defense": {
+          "min": 4,
+          "max": 6
+        },
         "oneHandDamage": {
           "min": 1,
           "max": 3
@@ -7657,6 +8223,10 @@
           "zh-TW": "防禦盾",
           "zh-CN": "防御盾"
         },
+        "defense": {
+          "min": 41,
+          "max": 49
+        },
         "oneHandDamage": {
           "min": 8,
           "max": 12
@@ -7674,6 +8244,10 @@
           "en": "Heater",
           "zh-TW": "防寒圓盾",
           "zh-CN": "防寒圆盾"
+        },
+        "defense": {
+          "min": 95,
+          "max": 110
         },
         "oneHandDamage": {
           "min": 16,
@@ -7701,6 +8275,10 @@
           "zh-TW": "小盾牌",
           "zh-CN": "小盾牌"
         },
+        "defense": {
+          "min": 8,
+          "max": 10
+        },
         "oneHandDamage": {
           "min": 2,
           "max": 3
@@ -7719,6 +8297,10 @@
           "zh-TW": "圓型盾",
           "zh-CN": "圆型盾"
         },
+        "defense": {
+          "min": 47,
+          "max": 55
+        },
         "oneHandDamage": {
           "min": 7,
           "max": 14
@@ -7736,6 +8318,10 @@
           "en": "Luna",
           "zh-TW": "月精靈護盾",
           "zh-CN": "月精灵护盾"
+        },
+        "defense": {
+          "min": 108,
+          "max": 123
         },
         "oneHandDamage": {
           "min": 17,
@@ -7763,6 +8349,10 @@
           "zh-TW": "大盾牌",
           "zh-CN": "大盾牌"
         },
+        "defense": {
+          "min": 12,
+          "max": 14
+        },
         "oneHandDamage": {
           "min": 2,
           "max": 4
@@ -7781,6 +8371,10 @@
           "zh-TW": "鱗盾",
           "zh-CN": "鳞盾"
         },
+        "defense": {
+          "min": 53,
+          "max": 61
+        },
         "oneHandDamage": {
           "min": 11,
           "max": 15
@@ -7798,6 +8392,10 @@
           "en": "Hyperion",
           "zh-TW": "亥伯龍盾",
           "zh-CN": "亥伯龙盾"
+        },
+        "defense": {
+          "min": 119,
+          "max": 135
         },
         "oneHandDamage": {
           "min": 14,
@@ -7825,6 +8423,10 @@
           "zh-TW": "輕盾",
           "zh-CN": "轻盾"
         },
+        "defense": {
+          "min": 16,
+          "max": 18
+        },
         "oneHandDamage": {
           "min": 2,
           "max": 5
@@ -7843,6 +8445,10 @@
           "zh-TW": "龍盾",
           "zh-CN": "龙盾"
         },
+        "defense": {
+          "min": 59,
+          "max": 67
+        },
         "oneHandDamage": {
           "min": 15,
           "max": 24
@@ -7860,6 +8466,10 @@
           "en": "Monarch",
           "zh-TW": "統治者大盾",
           "zh-CN": "统治者大盾"
+        },
+        "defense": {
+          "min": 133,
+          "max": 148
         },
         "oneHandDamage": {
           "min": 12,
@@ -7887,6 +8497,10 @@
           "zh-TW": "塔盾",
           "zh-CN": "塔盾"
         },
+        "defense": {
+          "min": 22,
+          "max": 25
+        },
         "oneHandDamage": {
           "min": 1,
           "max": 5
@@ -7905,6 +8519,10 @@
           "zh-TW": "大盾",
           "zh-CN": "大盾"
         },
+        "defense": {
+          "min": 68,
+          "max": 78
+        },
         "oneHandDamage": {
           "min": 10,
           "max": 17
@@ -7922,6 +8540,10 @@
           "en": "Aegis",
           "zh-TW": "塔盾",
           "zh-CN": "塔盾"
+        },
+        "defense": {
+          "min": 145,
+          "max": 161
         },
         "oneHandDamage": {
           "min": 18,
@@ -7949,6 +8571,10 @@
           "zh-TW": "哥德盾牌",
           "zh-CN": "哥德盾牌"
         },
+        "defense": {
+          "min": 30,
+          "max": 35
+        },
         "oneHandDamage": {
           "min": 2,
           "max": 6
@@ -7967,6 +8593,10 @@
           "zh-TW": "古代之盾",
           "zh-CN": "古代之盾"
         },
+        "defense": {
+          "min": 80,
+          "max": 93
+        },
         "oneHandDamage": {
           "min": 12,
           "max": 16
@@ -7984,6 +8614,10 @@
           "en": "Ward",
           "zh-TW": "保護盾牌",
           "zh-CN": "保护盾牌"
+        },
+        "defense": {
+          "min": 153,
+          "max": 170
         },
         "oneHandDamage": {
           "min": 11,
@@ -8011,6 +8645,10 @@
           "zh-TW": "皮手套",
           "zh-CN": "皮手套"
         },
+        "defense": {
+          "min": 2,
+          "max": 3
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -8029,6 +8667,10 @@
           "zh-TW": "魔皮手套",
           "zh-CN": "魔皮手套"
         },
+        "defense": {
+          "min": 28,
+          "max": 35
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -8046,6 +8688,10 @@
           "en": "Bramble Mitts",
           "zh-TW": "荊棘連指手套",
           "zh-CN": "荆棘连指手套"
+        },
+        "defense": {
+          "min": 54,
+          "max": 62
         },
         "oneHandDamage": {
           "min": 0,
@@ -8073,6 +8719,10 @@
           "zh-TW": "重手套",
           "zh-CN": "重手套"
         },
+        "defense": {
+          "min": 5,
+          "max": 6
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -8091,6 +8741,10 @@
           "zh-TW": "鯊魚皮套",
           "zh-CN": "鲨鱼皮套"
         },
+        "defense": {
+          "min": 33,
+          "max": 39
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -8108,6 +8762,10 @@
           "en": "Vampirebone Gloves",
           "zh-TW": "吸血鬼骸骨手套",
           "zh-CN": "吸血鬼骸骨手套"
+        },
+        "defense": {
+          "min": 56,
+          "max": 65
         },
         "oneHandDamage": {
           "min": 0,
@@ -8135,6 +8793,10 @@
           "zh-TW": "鎖鍊手套",
           "zh-CN": "锁链手套"
         },
+        "defense": {
+          "min": 8,
+          "max": 9
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -8153,6 +8815,10 @@
           "zh-TW": "重型手鐲",
           "zh-CN": "重型手镯"
         },
+        "defense": {
+          "min": 37,
+          "max": 44
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -8170,6 +8836,10 @@
           "en": "Vambraces",
           "zh-TW": "吸血鬼手套",
           "zh-CN": "吸血鬼手套"
+        },
+        "defense": {
+          "min": 59,
+          "max": 67
         },
         "oneHandDamage": {
           "min": 0,
@@ -8197,6 +8867,10 @@
           "zh-TW": "輕型鐵手套",
           "zh-CN": "轻型铁手套"
         },
+        "defense": {
+          "min": 9,
+          "max": 11
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -8215,6 +8889,10 @@
           "zh-TW": "戰場手套",
           "zh-CN": "战场手套"
         },
+        "defense": {
+          "min": 39,
+          "max": 47
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -8232,6 +8910,10 @@
           "en": "Crusader Gauntlets",
           "zh-TW": "十字軍鐵手套",
           "zh-CN": "十字军铁手套"
+        },
+        "defense": {
+          "min": 59,
+          "max": 68
         },
         "oneHandDamage": {
           "min": 0,
@@ -8259,6 +8941,10 @@
           "zh-TW": "鐵手套",
           "zh-CN": "铁手套"
         },
+        "defense": {
+          "min": 12,
+          "max": 15
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -8277,6 +8963,10 @@
           "zh-TW": "巨戰手套",
           "zh-CN": "巨战手套"
         },
+        "defense": {
+          "min": 43,
+          "max": 53
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -8294,6 +8984,10 @@
           "en": "Ogre Gauntlets",
           "zh-TW": "食人魔鐵手套",
           "zh-CN": "食人魔铁手套"
+        },
+        "defense": {
+          "min": 62,
+          "max": 71
         },
         "oneHandDamage": {
           "min": 0,
@@ -8321,6 +9015,10 @@
           "zh-TW": "皮靴",
           "zh-CN": "皮靴"
         },
+        "defense": {
+          "min": 2,
+          "max": 3
+        },
         "oneHandDamage": {
           "min": 3,
           "max": 8
@@ -8339,6 +9037,10 @@
           "zh-TW": "魔皮靴",
           "zh-CN": "魔皮靴"
         },
+        "defense": {
+          "min": 28,
+          "max": 35
+        },
         "oneHandDamage": {
           "min": 26,
           "max": 46
@@ -8356,6 +9058,10 @@
           "en": "Wyrmhide Boots",
           "zh-TW": "飛龍皮靴",
           "zh-CN": "飞龙皮靴"
+        },
+        "defense": {
+          "min": 54,
+          "max": 62
         },
         "oneHandDamage": {
           "min": 65,
@@ -8383,6 +9089,10 @@
           "zh-TW": "重靴",
           "zh-CN": "重靴"
         },
+        "defense": {
+          "min": 5,
+          "max": 6
+        },
         "oneHandDamage": {
           "min": 4,
           "max": 10
@@ -8401,6 +9111,10 @@
           "zh-TW": "鯊皮之靴",
           "zh-CN": "鲨皮之靴"
         },
+        "defense": {
+          "min": 33,
+          "max": 39
+        },
         "oneHandDamage": {
           "min": 28,
           "max": 50
@@ -8418,6 +9132,10 @@
           "en": "Scarabshell Boots",
           "zh-TW": "聖甲蟲殼靴",
           "zh-CN": "圣甲虫壳靴"
+        },
+        "defense": {
+          "min": 56,
+          "max": 65
         },
         "oneHandDamage": {
           "min": 60,
@@ -8445,6 +9163,10 @@
           "zh-TW": "鎖鍊靴",
           "zh-CN": "锁链靴"
         },
+        "defense": {
+          "min": 8,
+          "max": 9
+        },
         "oneHandDamage": {
           "min": 6,
           "max": 12
@@ -8463,6 +9185,10 @@
           "zh-TW": "織網之靴",
           "zh-CN": "织网之靴"
         },
+        "defense": {
+          "min": 37,
+          "max": 44
+        },
         "oneHandDamage": {
           "min": 23,
           "max": 52
@@ -8480,6 +9206,10 @@
           "en": "Boneweave Boots",
           "zh-TW": "骸骨靴",
           "zh-CN": "骸骨靴"
+        },
+        "defense": {
+          "min": 59,
+          "max": 67
         },
         "oneHandDamage": {
           "min": 69,
@@ -8507,6 +9237,10 @@
           "zh-TW": "輕型金屬靴",
           "zh-CN": "轻型金属靴"
         },
+        "defense": {
+          "min": 9,
+          "max": 11
+        },
         "oneHandDamage": {
           "min": 8,
           "max": 16
@@ -8525,6 +9259,10 @@
           "zh-TW": "戰場之靴",
           "zh-CN": "战场之靴"
         },
+        "defense": {
+          "min": 39,
+          "max": 47
+        },
         "oneHandDamage": {
           "min": 37,
           "max": 64
@@ -8542,6 +9280,10 @@
           "en": "Mirrored Boots",
           "zh-TW": "鏡化靴",
           "zh-CN": "镜化靴"
+        },
+        "defense": {
+          "min": 59,
+          "max": 68
         },
         "oneHandDamage": {
           "min": 50,
@@ -8569,6 +9311,10 @@
           "zh-TW": "護脛",
           "zh-CN": "护胫"
         },
+        "defense": {
+          "min": 12,
+          "max": 15
+        },
         "oneHandDamage": {
           "min": 10,
           "max": 20
@@ -8587,6 +9333,10 @@
           "zh-TW": "巨戰之靴",
           "zh-CN": "巨战之靴"
         },
+        "defense": {
+          "min": 43,
+          "max": 53
+        },
         "oneHandDamage": {
           "min": 39,
           "max": 80
@@ -8604,6 +9354,10 @@
           "en": "Myrmidon Greaves",
           "zh-TW": "極速靴",
           "zh-CN": "极速靴"
+        },
+        "defense": {
+          "min": 62,
+          "max": 71
         },
         "oneHandDamage": {
           "min": 83,
@@ -8631,6 +9385,10 @@
           "zh-TW": "飾帶",
           "zh-CN": "饰带"
         },
+        "defense": {
+          "min": 2,
+          "max": 2
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -8649,6 +9407,10 @@
           "zh-TW": "魔皮勳帶",
           "zh-CN": "魔皮勋带"
         },
+        "defense": {
+          "min": 29,
+          "max": 34
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -8666,6 +9428,10 @@
           "en": "Spiderweb Sash",
           "zh-TW": "蛛網腰帶",
           "zh-CN": "蛛网腰带"
+        },
+        "defense": {
+          "min": 55,
+          "max": 62
         },
         "oneHandDamage": {
           "min": 0,
@@ -8693,6 +9459,10 @@
           "zh-TW": "輕扣帶",
           "zh-CN": "轻扣带"
         },
+        "defense": {
+          "min": 3,
+          "max": 3
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -8711,6 +9481,10 @@
           "zh-TW": "鯊皮腰帶",
           "zh-CN": "鲨皮腰带"
         },
+        "defense": {
+          "min": 31,
+          "max": 36
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -8728,6 +9502,10 @@
           "en": "Vampirefang Belt",
           "zh-TW": "吸血鬼燎牙腰帶",
           "zh-CN": "吸血鬼燎牙腰带"
+        },
+        "defense": {
+          "min": 56,
+          "max": 63
         },
         "oneHandDamage": {
           "min": 0,
@@ -8755,6 +9533,10 @@
           "zh-TW": "扣帶",
           "zh-CN": "扣带"
         },
+        "defense": {
+          "min": 5,
+          "max": 5
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -8773,6 +9555,10 @@
           "zh-TW": "織網腰帶",
           "zh-CN": "织网腰带"
         },
+        "defense": {
+          "min": 35,
+          "max": 40
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -8790,6 +9576,10 @@
           "en": "Mithril Coil",
           "zh-TW": "秘銀腰帶",
           "zh-CN": "秘银腰带"
+        },
+        "defense": {
+          "min": 58,
+          "max": 65
         },
         "oneHandDamage": {
           "min": 0,
@@ -8817,6 +9607,10 @@
           "zh-TW": "重扣帶",
           "zh-CN": "重扣带"
         },
+        "defense": {
+          "min": 6,
+          "max": 6
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -8835,6 +9629,10 @@
           "zh-TW": "戰場腰帶",
           "zh-CN": "战场腰带"
         },
+        "defense": {
+          "min": 37,
+          "max": 42
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -8852,6 +9650,10 @@
           "en": "Troll Belt",
           "zh-TW": "洞穴巨魔腰帶",
           "zh-CN": "洞穴巨魔腰带"
+        },
+        "defense": {
+          "min": 59,
+          "max": 66
         },
         "oneHandDamage": {
           "min": 0,
@@ -8879,6 +9681,10 @@
           "zh-TW": "金屬扣帶",
           "zh-CN": "金属扣带"
         },
+        "defense": {
+          "min": 8,
+          "max": 11
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -8897,6 +9703,10 @@
           "zh-TW": "巨戰腰帶",
           "zh-CN": "巨战腰带"
         },
+        "defense": {
+          "min": 41,
+          "max": 52
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -8914,6 +9724,10 @@
           "en": "Colossus Girdle",
           "zh-TW": "巨神腰帶",
           "zh-CN": "巨神腰带"
+        },
+        "defense": {
+          "min": 61,
+          "max": 71
         },
         "oneHandDamage": {
           "min": 0,
@@ -8941,6 +9755,10 @@
           "zh-TW": "白骨頭盔",
           "zh-CN": "白骨头盔"
         },
+        "defense": {
+          "min": 33,
+          "max": 36
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -8959,6 +9777,10 @@
           "zh-TW": "殘酷頭盔",
           "zh-CN": "残酷头盔"
         },
+        "defense": {
+          "min": 60,
+          "max": 125
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -8976,6 +9798,10 @@
           "en": "Bone Visage",
           "zh-TW": "骸骨面罩",
           "zh-CN": "骸骨面罩"
+        },
+        "defense": {
+          "min": 100,
+          "max": 157
         },
         "oneHandDamage": {
           "min": 0,
@@ -9003,6 +9829,10 @@
           "zh-TW": "白骨盾牌",
           "zh-CN": "白骨盾牌"
         },
+        "defense": {
+          "min": 10,
+          "max": 30
+        },
         "oneHandDamage": {
           "min": 3,
           "max": 6
@@ -9021,6 +9851,10 @@
           "zh-TW": "冷酷之盾",
           "zh-CN": "冷酷之盾"
         },
+        "defense": {
+          "min": 50,
+          "max": 150
+        },
         "oneHandDamage": {
           "min": 14,
           "max": 20
@@ -9038,6 +9872,10 @@
           "en": "Troll Nest",
           "zh-TW": "洞穴巨魔巢穴骨盾",
           "zh-CN": "洞穴巨魔巢穴骨盾"
+        },
+        "defense": {
+          "min": 158,
+          "max": 173
         },
         "oneHandDamage": {
           "min": 24,
@@ -9065,6 +9903,10 @@
           "zh-TW": "尖刺盾牌",
           "zh-CN": "尖刺盾牌"
         },
+        "defense": {
+          "min": 15,
+          "max": 25
+        },
         "oneHandDamage": {
           "min": 5,
           "max": 9
@@ -9083,6 +9925,10 @@
           "zh-TW": "倒刺護盾",
           "zh-CN": "倒刺护盾"
         },
+        "defense": {
+          "min": 58,
+          "max": 78
+        },
         "oneHandDamage": {
           "min": 18,
           "max": 35
@@ -9100,6 +9946,10 @@
           "en": "Blade Barrier",
           "zh-TW": "刀刃刺盾",
           "zh-CN": "刀刃刺盾"
+        },
+        "defense": {
+          "min": 147,
+          "max": 163
         },
         "oneHandDamage": {
           "min": 26,
@@ -9127,6 +9977,10 @@
           "zh-TW": "狼頭",
           "zh-CN": "狼头"
         },
+        "defense": {
+          "min": 8,
+          "max": 11
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -9145,6 +9999,10 @@
           "zh-TW": "阿爾發頭盔",
           "zh-CN": "阿尔发头盔"
         },
+        "defense": {
+          "min": 52,
+          "max": 62
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -9162,6 +10020,10 @@
           "en": "Blood Spirit",
           "zh-TW": "血腥之靈",
           "zh-CN": "血腥之灵"
+        },
+        "defense": {
+          "min": 101,
+          "max": 145
         },
         "oneHandDamage": {
           "min": 0,
@@ -9189,6 +10051,10 @@
           "zh-TW": "飛鷹頭盔",
           "zh-CN": "飞鹰头盔"
         },
+        "defense": {
+          "min": 4,
+          "max": 15
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -9203,9 +10069,13 @@
       },
       "exceptional": {
         "name": {
-          "en": "Griffon Headress",
+          "en": "Griffon Headdress",
           "zh-TW": "獅鷲獸頭帶",
           "zh-CN": "狮鹫兽头带"
+        },
+        "defense": {
+          "min": 46,
+          "max": 68
         },
         "oneHandDamage": {
           "min": 0,
@@ -9224,6 +10094,10 @@
           "en": "Sun Spirit",
           "zh-TW": "太陽之靈",
           "zh-CN": "太阳之灵"
+        },
+        "defense": {
+          "min": 98,
+          "max": 147
         },
         "oneHandDamage": {
           "min": 0,
@@ -9251,6 +10125,10 @@
           "zh-TW": "鹿角",
           "zh-CN": "鹿角"
         },
+        "defense": {
+          "min": 18,
+          "max": 24
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -9269,6 +10147,10 @@
           "zh-TW": "獵人的偽裝",
           "zh-CN": "猎人的伪装"
         },
+        "defense": {
+          "min": 67,
+          "max": 81
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -9286,6 +10168,10 @@
           "en": "Earth Spirit",
           "zh-TW": "大地之靈",
           "zh-CN": "大地之灵"
+        },
+        "defense": {
+          "min": 107,
+          "max": 152
         },
         "oneHandDamage": {
           "min": 0,
@@ -9313,6 +10199,10 @@
           "zh-TW": "獵鷹面具",
           "zh-CN": "猎鹰面具"
         },
+        "defense": {
+          "min": 12,
+          "max": 28
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -9331,6 +10221,10 @@
           "zh-TW": "神聖羽毛頭帶",
           "zh-CN": "神圣羽毛头带"
         },
+        "defense": {
+          "min": 58,
+          "max": 87
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -9348,6 +10242,10 @@
           "en": "Sky Spirit",
           "zh-TW": "天空之靈",
           "zh-CN": "天空之灵"
+        },
+        "defense": {
+          "min": 103,
+          "max": 155
         },
         "oneHandDamage": {
           "min": 0,
@@ -9375,6 +10273,10 @@
           "zh-TW": "靈魂狼頭面具",
           "zh-CN": "灵魂狼头面具"
         },
+        "defense": {
+          "min": 22,
+          "max": 35
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -9393,6 +10295,10 @@
           "zh-TW": "圖騰面具狼盔",
           "zh-CN": "图腾面具狼盔"
         },
+        "defense": {
+          "min": 73,
+          "max": 98
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -9410,6 +10316,10 @@
           "en": "Dream Spirit",
           "zh-TW": "幽夢之靈",
           "zh-CN": "幽梦之灵"
+        },
+        "defense": {
+          "min": 109,
+          "max": 159
         },
         "oneHandDamage": {
           "min": 0,
@@ -9437,6 +10347,10 @@
           "zh-TW": "顎骨帽",
           "zh-CN": "腭骨帽"
         },
+        "defense": {
+          "min": 10,
+          "max": 15
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -9455,6 +10369,10 @@
           "zh-TW": "顎骨面甲",
           "zh-CN": "腭骨面甲"
         },
+        "defense": {
+          "min": 55,
+          "max": 68
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -9472,6 +10390,10 @@
           "en": "Carnage Helm",
           "zh-TW": "屠殺頭盔",
           "zh-CN": "屠杀头盔"
+        },
+        "defense": {
+          "min": 102,
+          "max": 147
         },
         "oneHandDamage": {
           "min": 0,
@@ -9499,6 +10421,10 @@
           "zh-TW": "尖牙盔",
           "zh-CN": "尖牙盔"
         },
+        "defense": {
+          "min": 15,
+          "max": 20
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -9517,6 +10443,10 @@
           "zh-TW": "獅頭尖盔",
           "zh-CN": "狮头尖盔"
         },
+        "defense": {
+          "min": 63,
+          "max": 75
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -9534,6 +10464,10 @@
           "en": "Fury Visor",
           "zh-TW": "暴怒面甲",
           "zh-CN": "暴怒面甲"
+        },
+        "defense": {
+          "min": 105,
+          "max": 150
         },
         "oneHandDamage": {
           "min": 0,
@@ -9561,6 +10495,10 @@
           "zh-TW": "角盔",
           "zh-CN": "角盔"
         },
+        "defense": {
+          "min": 25,
+          "max": 30
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -9579,6 +10517,10 @@
           "zh-TW": "狂怒面具刺盔",
           "zh-CN": "狂怒面具刺盔"
         },
+        "defense": {
+          "min": 78,
+          "max": 90
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -9596,6 +10538,10 @@
           "en": "Destroyer Helm",
           "zh-TW": "毀滅者頭盔",
           "zh-CN": "毁灭者头盔"
+        },
+        "defense": {
+          "min": 111,
+          "max": 156
         },
         "oneHandDamage": {
           "min": 0,
@@ -9623,6 +10569,10 @@
           "zh-TW": "突擊盔",
           "zh-CN": "突击盔"
         },
+        "defense": {
+          "min": 30,
+          "max": 35
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -9641,6 +10591,10 @@
           "zh-TW": "蠻族頭盔",
           "zh-CN": "蛮族头盔"
         },
+        "defense": {
+          "min": 85,
+          "max": 98
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -9658,6 +10612,10 @@
           "en": "Conqueror Crown",
           "zh-TW": "征服者皇冠面甲",
           "zh-CN": "征服者皇冠面甲"
+        },
+        "defense": {
+          "min": 114,
+          "max": 159
         },
         "oneHandDamage": {
           "min": 0,
@@ -9685,6 +10643,10 @@
           "zh-TW": "復仇者之盔",
           "zh-CN": "复仇者之盔"
         },
+        "defense": {
+          "min": 35,
+          "max": 50
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -9703,6 +10665,10 @@
           "zh-TW": "殺手防護面甲",
           "zh-CN": "杀手防护面甲"
         },
+        "defense": {
+          "min": 93,
+          "max": 120
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -9720,6 +10686,10 @@
           "en": "Guardian Crown",
           "zh-TW": "守護者皇冠面甲",
           "zh-CN": "守护者皇冠面甲"
+        },
+        "defense": {
+          "min": 117,
+          "max": 168
         },
         "oneHandDamage": {
           "min": 0,
@@ -9747,6 +10717,10 @@
           "zh-TW": "小盾",
           "zh-CN": "小盾"
         },
+        "defense": {
+          "min": 8,
+          "max": 12
+        },
         "oneHandDamage": {
           "min": 2,
           "max": 6
@@ -9765,6 +10739,10 @@
           "zh-TW": "亞克南圓盾",
           "zh-CN": "亚克南圆盾"
         },
+        "defense": {
+          "min": 101,
+          "max": 125
+        },
         "oneHandDamage": {
           "min": 12,
           "max": 16
@@ -9782,6 +10760,10 @@
           "en": "Sacred Targe",
           "zh-TW": "神聖小盾",
           "zh-CN": "神圣小盾"
+        },
+        "defense": {
+          "min": 126,
+          "max": 158
         },
         "oneHandDamage": {
           "min": 22,
@@ -9809,6 +10791,10 @@
           "zh-TW": "輕圓盾",
           "zh-CN": "轻圆盾"
         },
+        "defense": {
+          "min": 10,
+          "max": 18
+        },
         "oneHandDamage": {
           "min": 2,
           "max": 8
@@ -9827,6 +10813,10 @@
           "zh-TW": "亞克南輕圓盾",
           "zh-CN": "亚克南轻圆盾"
         },
+        "defense": {
+          "min": 113,
+          "max": 137
+        },
         "oneHandDamage": {
           "min": 15,
           "max": 20
@@ -9844,6 +10834,10 @@
           "en": "Sacred Rondache",
           "zh-TW": "神聖輕圓盾",
           "zh-CN": "神圣轻圆盾"
+        },
+        "defense": {
+          "min": 138,
+          "max": 164
         },
         "oneHandDamage": {
           "min": 35,
@@ -9871,6 +10865,10 @@
           "zh-TW": "紋章盾",
           "zh-CN": "纹章盾"
         },
+        "defense": {
+          "min": 16,
+          "max": 26
+        },
         "oneHandDamage": {
           "min": 3,
           "max": 9
@@ -9889,6 +10887,10 @@
           "zh-TW": "防護者盾牌",
           "zh-CN": "防护者盾牌"
         },
+        "defense": {
+          "min": 129,
+          "max": 153
+        },
         "oneHandDamage": {
           "min": 18,
           "max": 24
@@ -9906,6 +10908,10 @@
           "en": "Ancient Shield",
           "zh-TW": "庫拉斯特之盾",
           "zh-CN": "库拉斯特之盾"
+        },
+        "defense": {
+          "min": 154,
+          "max": 172
         },
         "oneHandDamage": {
           "min": 10,
@@ -9933,6 +10939,10 @@
           "zh-TW": "艾文之盾",
           "zh-CN": "艾文之盾"
         },
+        "defense": {
+          "min": 26,
+          "max": 36
+        },
         "oneHandDamage": {
           "min": 4,
           "max": 10
@@ -9951,6 +10961,10 @@
           "zh-TW": "飾金盾牌",
           "zh-CN": "饰金盾牌"
         },
+        "defense": {
+          "min": 144,
+          "max": 168
+        },
         "oneHandDamage": {
           "min": 20,
           "max": 28
@@ -9968,6 +10982,10 @@
           "en": "Zakarum Shield",
           "zh-TW": "撒卡蘭姆盾牌",
           "zh-CN": "撒卡兰姆盾牌"
+        },
+        "defense": {
+          "min": 169,
+          "max": 193
         },
         "oneHandDamage": {
           "min": 46,
@@ -9995,6 +11013,10 @@
           "zh-TW": "皇冠之盾",
           "zh-CN": "皇冠之盾"
         },
+        "defense": {
+          "min": 30,
+          "max": 40
+        },
         "oneHandDamage": {
           "min": 4,
           "max": 12
@@ -10013,6 +11035,10 @@
           "zh-TW": "皇家盾牌",
           "zh-CN": "皇家盾牌"
         },
+        "defense": {
+          "min": 156,
+          "max": 181
+        },
         "oneHandDamage": {
           "min": 24,
           "max": 32
@@ -10030,6 +11056,10 @@
           "en": "Vortex Shield",
           "zh-TW": "旋風盾",
           "zh-CN": "旋风盾"
+        },
+        "defense": {
+          "min": 182,
+          "max": 225
         },
         "oneHandDamage": {
           "min": 5,
@@ -10057,6 +11087,10 @@
           "zh-TW": "防腐之首",
           "zh-CN": "防腐之首"
         },
+        "defense": {
+          "min": 2,
+          "max": 5
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -10075,6 +11109,10 @@
           "zh-TW": "木乃伊印記",
           "zh-CN": "木乃伊印记"
         },
+        "defense": {
+          "min": 38,
+          "max": 48
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -10092,6 +11130,10 @@
           "en": "Minion Skull",
           "zh-TW": "隨侍之骨",
           "zh-CN": "随侍之骨"
+        },
+        "defense": {
+          "min": 95,
+          "max": 139
         },
         "oneHandDamage": {
           "min": 0,
@@ -10119,6 +11161,10 @@
           "zh-TW": "僵屍之首",
           "zh-CN": "僵尸之首"
         },
+        "defense": {
+          "min": 4,
+          "max": 8
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -10137,6 +11183,10 @@
           "zh-TW": "物神印記",
           "zh-CN": "物神印记"
         },
+        "defense": {
+          "min": 41,
+          "max": 52
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -10154,6 +11204,10 @@
           "en": "Hellspawn Skull",
           "zh-TW": "地獄爪牙之骨",
           "zh-CN": "地狱爪牙之骨"
+        },
+        "defense": {
+          "min": 96,
+          "max": 141
         },
         "oneHandDamage": {
           "min": 0,
@@ -10181,6 +11235,10 @@
           "zh-TW": "揭露者之首",
           "zh-CN": "揭露者之首"
         },
+        "defense": {
+          "min": 6,
+          "max": 10
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -10199,6 +11257,10 @@
           "zh-TW": "司事印記",
           "zh-CN": "司事印记"
         },
+        "defense": {
+          "min": 44,
+          "max": 55
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -10216,6 +11278,10 @@
           "en": "Overseer Skull",
           "zh-TW": "監視者之骨",
           "zh-CN": "监视者之骨"
+        },
+        "defense": {
+          "min": 98,
+          "max": 142
         },
         "oneHandDamage": {
           "min": 0,
@@ -10243,6 +11309,10 @@
           "zh-TW": "石像鬼之首",
           "zh-CN": "石像鬼之首"
         },
+        "defense": {
+          "min": 10,
+          "max": 16
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -10261,6 +11331,10 @@
           "zh-TW": "領唱者印記",
           "zh-CN": "领唱者印记"
         },
+        "defense": {
+          "min": 50,
+          "max": 64
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -10278,6 +11352,10 @@
           "en": "Succubus Skull",
           "zh-TW": "女妖之骨",
           "zh-CN": "女妖之骨"
+        },
+        "defense": {
+          "min": 100,
+          "max": 146
         },
         "oneHandDamage": {
           "min": 0,
@@ -10305,6 +11383,10 @@
           "zh-TW": "惡魔之首",
           "zh-CN": "恶魔之首"
         },
+        "defense": {
+          "min": 15,
+          "max": 20
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -10319,9 +11401,13 @@
       },
       "exceptional": {
         "name": {
-          "en": "Heirophant Trophy",
+          "en": "Hierophant Trophy",
           "zh-TW": "祭司印記",
           "zh-CN": "祭司印记"
+        },
+        "defense": {
+          "min": 58,
+          "max": 70
         },
         "oneHandDamage": {
           "min": 0,
@@ -10340,6 +11426,10 @@
           "en": "Bloodlord Skull",
           "zh-TW": "血王之骨",
           "zh-CN": "血王之骨"
+        },
+        "defense": {
+          "min": 103,
+          "max": 148
         },
         "oneHandDamage": {
           "min": 0,
@@ -10367,6 +11457,10 @@
           "zh-TW": "頭飾",
           "zh-CN": "头饰"
         },
+        "defense": {
+          "min": 20,
+          "max": 30
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -10385,6 +11479,10 @@
           "zh-TW": "三重冠",
           "zh-CN": "三重冠"
         },
+        "defense": {
+          "min": 40,
+          "max": 50
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -10402,6 +11500,10 @@
           "en": "Diadem",
           "zh-TW": "權冠",
           "zh-CN": "权冠"
+        },
+        "defense": {
+          "min": 50,
+          "max": 60
         },
         "oneHandDamage": {
           "min": 0,
@@ -10429,6 +11531,10 @@
           "zh-TW": "寶冠",
           "zh-CN": "宝冠"
         },
+        "defense": {
+          "min": 30,
+          "max": 40
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -10447,6 +11553,10 @@
           "zh-TW": "三重冠",
           "zh-CN": "三重冠"
         },
+        "defense": {
+          "min": 40,
+          "max": 50
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -10464,6 +11574,10 @@
           "en": "Diadem",
           "zh-TW": "權冠",
           "zh-CN": "权冠"
+        },
+        "defense": {
+          "min": 50,
+          "max": 60
         },
         "oneHandDamage": {
           "min": 0,
@@ -10491,6 +11605,10 @@
           "zh-TW": "Old Book",
           "zh-CN": "Old Book"
         },
+        "defense": {
+          "min": 2,
+          "max": 5
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -10509,6 +11627,10 @@
           "zh-TW": "Burnt Text",
           "zh-CN": "Burnt Text"
         },
+        "defense": {
+          "min": 38,
+          "max": 48
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -10526,6 +11648,10 @@
           "en": "Forgotten Volume",
           "zh-TW": "Forgotten Volume",
           "zh-CN": "Forgotten Volume"
+        },
+        "defense": {
+          "min": 95,
+          "max": 139
         },
         "oneHandDamage": {
           "min": 0,
@@ -10553,6 +11679,10 @@
           "zh-TW": "Tome",
           "zh-CN": "Tome"
         },
+        "defense": {
+          "min": 4,
+          "max": 8
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -10571,6 +11701,10 @@
           "zh-TW": "Dark Tome",
           "zh-CN": "Dark Tome"
         },
+        "defense": {
+          "min": 41,
+          "max": 52
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -10588,6 +11722,10 @@
           "en": "Occult Tome",
           "zh-TW": "Occult Tome",
           "zh-CN": "Occult Tome"
+        },
+        "defense": {
+          "min": 96,
+          "max": 141
         },
         "oneHandDamage": {
           "min": 0,
@@ -10615,6 +11753,10 @@
           "zh-TW": "Codex",
           "zh-CN": "Codex"
         },
+        "defense": {
+          "min": 6,
+          "max": 10
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -10633,6 +11775,10 @@
           "zh-TW": "Dark Codex",
           "zh-CN": "Dark Codex"
         },
+        "defense": {
+          "min": 44,
+          "max": 55
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -10650,6 +11796,10 @@
           "en": "Occult Codex",
           "zh-TW": "Occult Codex",
           "zh-CN": "Occult Codex"
+        },
+        "defense": {
+          "min": 98,
+          "max": 142
         },
         "oneHandDamage": {
           "min": 0,
@@ -10677,6 +11827,10 @@
           "zh-TW": "Compendium",
           "zh-CN": "Compendium"
         },
+        "defense": {
+          "min": 10,
+          "max": 16
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -10695,6 +11849,10 @@
           "zh-TW": "Possessed Compendium",
           "zh-CN": "Possessed Compendium"
         },
+        "defense": {
+          "min": 50,
+          "max": 64
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -10712,6 +11870,10 @@
           "en": "Blasphemous Compendium",
           "zh-TW": "Blasphemous Compendium",
           "zh-CN": "Blasphemous Compendium"
+        },
+        "defense": {
+          "min": 100,
+          "max": 146
         },
         "oneHandDamage": {
           "min": 0,
@@ -10739,6 +11901,10 @@
           "zh-TW": "Grimoire",
           "zh-CN": "Grimoire"
         },
+        "defense": {
+          "min": 15,
+          "max": 20
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -10757,6 +11923,10 @@
           "zh-TW": "Possessed Grimoire",
           "zh-CN": "Possessed Grimoire"
         },
+        "defense": {
+          "min": 58,
+          "max": 70
+        },
         "oneHandDamage": {
           "min": 0,
           "max": 0
@@ -10774,6 +11944,10 @@
           "en": "Blasphemous Grimoire",
           "zh-TW": "Blasphemous Grimoire",
           "zh-CN": "Blasphemous Grimoire"
+        },
+        "defense": {
+          "min": 103,
+          "max": 148
         },
         "oneHandDamage": {
           "min": 0,

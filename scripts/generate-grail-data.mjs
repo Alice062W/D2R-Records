@@ -548,9 +548,34 @@ function localizedItemName(rawEnglishName) {
 // internal placeholder name with no chi[] entry of its own — reuse cm3's.
 const BASE_CODE_ALIASES = { cs2: 'cm3' };
 
+// Base-item-name typos in vendor/d2data's items.json, corrected here rather
+// than in the vendored snapshot itself (same convention as
+// ITEM_ENGLISH_NAME_ALIASES above). Found during Task 5 (myinput-data-accuracy
+// plan) by diffing all 508 base-item rows in MyInput/MyData/base_all's decoded
+// d2r.world dump against vendor/d2data -- every non-name field (defense,
+// damage, str/dex req, durability, sockets, qlvl, levelReq) matched exactly
+// for each of these codes, isolating the mismatch to a single-word spelling
+// difference:
+//   dr7 "Griffon Headress" -> "Griffon Headdress" (missing letter)
+//   nea "Heirophant Trophy" -> "Hierophant Trophy" (transposed letters)
+//   7fb "Colossal Sword" -> "Colossus Sword" (matches the sibling "Colossus
+//     Blade" tier and the game's actual elite Flamberge-chain item name)
+//   7di "Mithral Point" -> "Mithril Point" (misspelled fantasy-metal name)
+//   kri "Kriss" -> "Kris" (extra letter)
+//   9bl "Stilleto" -> "Stiletto" (doubled letter)
+const BASE_ENGLISH_NAME_ALIASES = {
+  'Griffon Headress': 'Griffon Headdress',
+  'Heirophant Trophy': 'Hierophant Trophy',
+  'Colossal Sword': 'Colossus Sword',
+  'Mithral Point': 'Mithril Point',
+  Kriss: 'Kris',
+  Stilleto: 'Stiletto',
+};
+
 function localizedBaseName(code, englishFallback) {
   const lookupCode = BASE_CODE_ALIASES[code] ?? code;
-  const englishName = BASE_CODE_ALIASES[code] ? (items[lookupCode]?.name ?? englishFallback) : englishFallback;
+  const rawEnglishName = BASE_CODE_ALIASES[code] ? (items[lookupCode]?.name ?? englishFallback) : englishFallback;
+  const englishName = BASE_ENGLISH_NAME_ALIASES[rawEnglishName] ?? rawEnglishName;
   const zhTw = chi[lookupCode] ?? englishName;
   return { en: englishName, 'zh-TW': zhTw, 'zh-CN': toZhCn(zhTw) };
 }
@@ -924,6 +949,18 @@ function baseGradeFor(code) {
   if (!entry) return null;
   return {
     name: localizedBaseName(code, entry.name ?? code),
+    // Defense range was previously omitted entirely from bases-full.json for
+    // armor/helm/shield/belt/boot/glove families (Task 5, myinput-data-accuracy
+    // plan) -- the Base Items comparison table showed no defense row at all
+    // for any armor-type category. baseFieldsFor() above already surfaces
+    // minac/maxac this same way for unique/set items, so this vendor data was
+    // already trusted; it just wasn't wired into the bases-full.json path.
+    // Cross-checked against MyInput/MyData/base_all's decoded d2r.world dump
+    // (508 base item rows, all 23 categories, both locales) -- every defense
+    // value here matches the dump exactly.
+    defense: entry.minac != null && entry.maxac != null
+      ? { min: entry.minac, max: entry.maxac }
+      : null,
     ...damageFor(entry),
     levelReq: entry.levelreq ?? null,
     requiredStrength: entry.reqstr ?? null,

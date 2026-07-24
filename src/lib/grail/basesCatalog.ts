@@ -3,6 +3,7 @@ import { SLOT_ORDER, type Locale } from './catalog';
 
 export interface BaseGrade {
   name: string;
+  defense: { min: number; max: number } | null;
   oneHandDamage: { min: number; max: number } | null;
   twoHandDamage: { min: number; max: number } | null;
   levelReq: number | null;

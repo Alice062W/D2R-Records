@@ -10,6 +10,9 @@ const GRADES = ['normal', 'exceptional', 'elite'] as const;
 function fmtDamage(d: BaseGrade['oneHandDamage']) {
   return d ? `${d.min} - ${d.max}` : '-';
 }
+function fmtDefense(d: BaseGrade['defense']) {
+  return d ? `${d.min} - ${d.max}` : '-';
+}
 function fmtNum(n: number | null) {
   return n != null ? String(n) : '-';
 }
@@ -46,6 +49,7 @@ export default function BaseItemTable({ line }: { line: BaseLine }) {
           </tr>
         </thead>
         <tbody className="text-parchment">
+          <tr><td className="text-muted">{t('defense')}</td>{present.map(g => <td key={g} className="px-3">{fmtDefense(line.grades[g]!.defense)}</td>)}</tr>
           <tr><td className="text-muted">{t('oneHandDamage')}</td>{present.map(g => <td key={g} className="px-3">{fmtDamage(line.grades[g]!.oneHandDamage)}</td>)}</tr>
           <tr><td className="text-muted">{t('twoHandDamage')}</td>{present.map(g => <td key={g} className="px-3">{fmtDamage(line.grades[g]!.twoHandDamage)}</td>)}</tr>
           <tr><td className="text-muted">{t('levelReq')}</td>{present.map(g => <td key={g} className="px-3">{fmtNum(line.grades[g]!.levelReq)}</td>)}</tr>
