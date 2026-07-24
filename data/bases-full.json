@@ -4825,7 +4825,7 @@
       },
       "exceptional": {
         "name": {
-          "en": "Long Siege Bow",
+          "en": "Large Siege Bow",
           "zh-TW": "長攻城弓",
           "zh-CN": "长攻城弓"
         },
@@ -8071,7 +8071,7 @@
       },
       "exceptional": {
         "name": {
-          "en": "Ornate Armor",
+          "en": "Ornate Plate",
           "zh-TW": "華麗戰甲",
           "zh-CN": "华丽战甲"
         },
@@ -10905,7 +10905,7 @@
       },
       "elite": {
         "name": {
-          "en": "Ancient Shield",
+          "en": "Kurast Shield",
           "zh-TW": "庫拉斯特之盾",
           "zh-CN": "库拉斯特之盾"
         },
