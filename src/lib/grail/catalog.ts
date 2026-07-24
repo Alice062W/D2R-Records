@@ -9,6 +9,14 @@ export interface LocalizedText {
 
 export type Locale = 'en' | 'zh-TW' | 'zh-CN';
 
+// Enhanced-Damage-scaled weapon damage: each end of the base damage range
+// becomes its own (low-high) sub-range once the item's own dmg% roll is
+// applied. low === high when the item has no random dmg% stat.
+export interface DamageRange {
+  min: { low: number; high: number };
+  max: { low: number; high: number };
+}
+
 export interface RawGrailStat {
   key: string;
   label: LocalizedText;
@@ -20,6 +28,7 @@ export interface RawGrailStat {
   // — min/max are meaningless placeholders for these and must not be
   // rendered as a range/dice.
   composed?: boolean;
+  signed?: boolean;
 }
 
 export interface RawGrailFixedStat {
@@ -28,6 +37,7 @@ export interface RawGrailFixedStat {
   value: number | null;
   isSkillRef: boolean;
   composed?: boolean;
+  signed?: boolean;
 }
 
 export interface RawGrailItem {
@@ -41,10 +51,11 @@ export interface RawGrailItem {
   grade: 'normal' | 'exceptional' | 'elite';
   slotCategory: string;
   defense: { min: number; max: number } | null;
-  oneHandDamage: { min: number; max: number } | null;
-  twoHandDamage: { min: number; max: number } | null;
+  oneHandDamage: DamageRange | null;
+  twoHandDamage: DamageRange | null;
   requiredStrength: number | null;
   requiredDexterity: number | null;
+  weaponSpeed: number | null;
   durability: number | null;
   invFile: string;
   stats: RawGrailStat[];
@@ -62,6 +73,7 @@ export interface GrailStat {
   max: number;
   isSkillRef: boolean;
   composed?: boolean;
+  signed?: boolean;
 }
 
 export interface GrailFixedStat {
@@ -70,6 +82,7 @@ export interface GrailFixedStat {
   value: number | null;
   isSkillRef: boolean;
   composed?: boolean;
+  signed?: boolean;
 }
 
 export interface GrailItem {
@@ -83,10 +96,11 @@ export interface GrailItem {
   grade: 'normal' | 'exceptional' | 'elite';
   slotCategory: string;
   defense: { min: number; max: number } | null;
-  oneHandDamage: { min: number; max: number } | null;
-  twoHandDamage: { min: number; max: number } | null;
+  oneHandDamage: DamageRange | null;
+  twoHandDamage: DamageRange | null;
   requiredStrength: number | null;
   requiredDexterity: number | null;
+  weaponSpeed: number | null;
   durability: number | null;
   invFile: string;
   stats: GrailStat[];
@@ -119,15 +133,16 @@ export function localizeGrailItem(item: RawGrailItem, locale: Locale): GrailItem
     twoHandDamage: item.twoHandDamage,
     requiredStrength: item.requiredStrength,
     requiredDexterity: item.requiredDexterity,
+    weaponSpeed: item.weaponSpeed,
     durability: item.durability,
     invFile: item.invFile,
-    stats: item.stats.map(s => ({ key: s.key, label: s.label[locale], min: s.min, max: s.max, isSkillRef: s.isSkillRef, composed: s.composed })),
-    fixedStats: item.fixedStats.map(f => ({ key: f.key, label: f.label[locale], value: f.value, isSkillRef: f.isSkillRef, composed: f.composed })),
-    setBonuses: item.setBonuses.map(b => ({ key: b.key, label: b.label[locale], min: b.min, max: b.max, isSkillRef: b.isSkillRef, composed: b.composed })),
+    stats: item.stats.map(s => ({ key: s.key, label: s.label[locale], min: s.min, max: s.max, isSkillRef: s.isSkillRef, composed: s.composed, signed: s.signed })),
+    fixedStats: item.fixedStats.map(f => ({ key: f.key, label: f.label[locale], value: f.value, isSkillRef: f.isSkillRef, composed: f.composed, signed: f.signed })),
+    setBonuses: item.setBonuses.map(b => ({ key: b.key, label: b.label[locale], min: b.min, max: b.max, isSkillRef: b.isSkillRef, composed: b.composed, signed: b.signed })),
     statPriority: item.statPriority,
     note: item.note ? item.note[locale] : null,
     statPools: item.statPools.map(p => ({
-      options: p.options.map(s => ({ key: s.key, label: s.label[locale], min: s.min, max: s.max, isSkillRef: s.isSkillRef, composed: s.composed })),
+      options: p.options.map(s => ({ key: s.key, label: s.label[locale], min: s.min, max: s.max, isSkillRef: s.isSkillRef, composed: s.composed, signed: s.signed })),
     })),
   };
 }

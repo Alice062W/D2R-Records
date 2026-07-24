@@ -531,7 +531,8 @@
         },
         "min": 5,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "armorHelmStats": [
@@ -599,7 +600,8 @@
         },
         "min": 1,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "armorHelmStats": [
@@ -667,7 +669,8 @@
         },
         "min": 3,
         "max": 14,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "armorHelmStats": [

@@ -8,7 +8,7 @@ import messages from '../../../messages/en.json';
 const baseItem: GrailItem = {
   id: 'unique-0', code: 'hax', name: 'The Gnasher', kind: 'unique', setName: null,
   levelReq: 5, baseName: 'Hand Axe', grade: 'normal', slotCategory: 'axes',
-  defense: null, oneHandDamage: null, twoHandDamage: null, requiredStrength: null, requiredDexterity: null, durability: 28, invFile: 'invhaxu',
+  defense: null, oneHandDamage: null, twoHandDamage: null, requiredStrength: null, requiredDexterity: null, weaponSpeed: null, durability: 28, invFile: 'invhaxu',
   stats: [], fixedStats: [], setBonuses: [], statPriority: [], note: null, statPools: [],
 };
 

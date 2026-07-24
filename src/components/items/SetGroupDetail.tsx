@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import ItemStatCard from './ItemStatCard';
 import type { GrailItem, GrailStat } from '@/lib/grail/catalog';
 import { useOwnedItems } from '@/lib/grail/useOwnedItems';
+import { signedRange, signedValue } from '@/lib/grail/formatStat';
 
 const OWNED_FILTERS = ['all', 'collected', 'missing'] as const;
 type OwnedFilter = (typeof OWNED_FILTERS)[number];
@@ -75,7 +76,7 @@ export default function SetGroupDetail({
                     <span className={s.isSkillRef ? 'text-[#ff4a69]' : s.min === s.max ? 'text-[#22ff55]' : 'text-[#fff818]'}>
                       {s.composed ? s.label : (
                         <>
-                          {s.label}: {s.min === s.max ? s.min : `${s.min}–${s.max}`}
+                          {s.label}: {s.min === s.max ? signedValue(s.min, s.signed) : signedRange(s.min, s.max, s.signed)}
                           {s.min !== s.max && <> <span aria-hidden="true">🎲</span></>}
                         </>
                       )}
@@ -92,7 +93,7 @@ export default function SetGroupDetail({
             <div key={s.key} className={s.isSkillRef ? 'text-[#ff4a69]' : s.min === s.max ? 'text-[#22ff55]' : 'text-[#fff818]'}>
               {s.composed ? s.label : (
                 <>
-                  {s.label}: {s.min === s.max ? s.min : `${s.min}–${s.max}`}
+                  {s.label}: {s.min === s.max ? signedValue(s.min, s.signed) : signedRange(s.min, s.max, s.signed)}
                   {s.min !== s.max && <> <span aria-hidden="true">🎲</span></>}
                 </>
               )}

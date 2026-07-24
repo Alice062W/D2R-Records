@@ -22,7 +22,8 @@
         },
         "min": 3,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -49,7 +50,8 @@
         },
         "min": 6,
         "max": 9,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -76,7 +78,8 @@
         },
         "min": 10,
         "max": 12,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -103,7 +106,8 @@
         },
         "min": 13,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -130,7 +134,8 @@
         },
         "min": 16,
         "max": 22,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -157,7 +162,8 @@
         },
         "min": 23,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -184,7 +190,8 @@
         },
         "min": 33,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -211,7 +218,8 @@
         },
         "min": 44,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -238,7 +246,8 @@
         },
         "min": 60,
         "max": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -265,7 +274,8 @@
         },
         "min": 2,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -292,7 +302,8 @@
         },
         "min": 4,
         "max": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -319,7 +330,8 @@
         },
         "min": 8,
         "max": 12,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -346,7 +358,8 @@
         },
         "min": 13,
         "max": 18,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -373,7 +386,8 @@
         },
         "min": 20,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -400,7 +414,8 @@
         },
         "min": 30,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -427,7 +442,8 @@
         },
         "min": 45,
         "max": 60,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -481,7 +497,8 @@
         },
         "min": 4,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -508,7 +525,8 @@
         },
         "min": 15,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -535,7 +553,8 @@
         },
         "min": 20,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -562,7 +581,8 @@
         },
         "min": 5,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -589,7 +609,8 @@
         },
         "min": 9,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -616,7 +637,8 @@
         },
         "min": 21,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -643,7 +665,8 @@
         },
         "min": 41,
         "max": 64,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -681,7 +704,8 @@
         },
         "min": 10,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -719,7 +743,8 @@
         },
         "min": 21,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -757,7 +782,8 @@
         },
         "min": 31,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -795,7 +821,8 @@
         },
         "min": 41,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -833,7 +860,8 @@
         },
         "min": 51,
         "max": 65,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -871,7 +899,8 @@
         },
         "min": 66,
         "max": 80,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -909,7 +938,8 @@
         },
         "min": 81,
         "max": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -947,7 +977,8 @@
         },
         "min": 101,
         "max": 200,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -1046,7 +1077,8 @@
         },
         "min": 3,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -1077,7 +1109,8 @@
         },
         "min": 6,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -1104,7 +1137,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -1185,7 +1219,8 @@
         },
         "min": 5,
         "max": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -1212,7 +1247,8 @@
         },
         "min": 7,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -1239,7 +1275,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -1401,7 +1438,8 @@
         },
         "min": 1,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -1428,7 +1466,8 @@
         },
         "min": 5,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -1455,7 +1494,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -1482,7 +1522,8 @@
         },
         "min": 3,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -1509,7 +1550,8 @@
         },
         "min": 5,
         "max": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -1536,7 +1578,8 @@
         },
         "min": 7,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -1563,7 +1606,8 @@
         },
         "min": 9,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -1590,7 +1634,8 @@
         },
         "min": 11,
         "max": 12,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -1617,7 +1662,8 @@
         },
         "min": 13,
         "max": 14,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -1725,7 +1771,8 @@
         },
         "min": 4,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -1752,7 +1799,8 @@
         },
         "min": 6,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -1860,7 +1908,8 @@
         },
         "min": 1,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -1887,7 +1936,8 @@
         },
         "min": 6,
         "max": 9,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -1914,7 +1964,8 @@
         },
         "min": 11,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -1962,7 +2013,8 @@
         },
         "min": 10,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -2010,7 +2062,8 @@
         },
         "min": 21,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -2057,7 +2110,8 @@
         },
         "min": 31,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -2104,7 +2158,8 @@
         },
         "min": 41,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -2151,7 +2206,8 @@
         },
         "min": 51,
         "max": 65,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -2198,7 +2254,8 @@
         },
         "min": 66,
         "max": 80,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -2245,7 +2302,8 @@
         },
         "min": 81,
         "max": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -2292,7 +2350,8 @@
         },
         "min": 101,
         "max": 200,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -2339,7 +2398,8 @@
         },
         "min": 201,
         "max": 300,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -2366,7 +2426,8 @@
         },
         "min": 5,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -2393,7 +2454,8 @@
         },
         "min": 11,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -2420,7 +2482,8 @@
         },
         "min": 21,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -2447,7 +2510,8 @@
         },
         "min": 31,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -2480,7 +2544,8 @@
         },
         "min": 7,
         "max": 12,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -2507,7 +2572,8 @@
         },
         "min": 7,
         "max": 12,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -2588,7 +2654,8 @@
         },
         "min": 10,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -2615,7 +2682,8 @@
         },
         "min": 12,
         "max": 24,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -2642,7 +2710,8 @@
         },
         "min": 25,
         "max": 36,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -2669,7 +2738,8 @@
         },
         "min": 37,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -2696,7 +2766,8 @@
         },
         "min": 8,
         "max": 16,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -2723,7 +2794,8 @@
         },
         "min": 17,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -2750,7 +2822,8 @@
         },
         "min": 26,
         "max": 32,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -2777,7 +2850,8 @@
         },
         "min": 4,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -2804,7 +2878,8 @@
         },
         "min": 9,
         "max": 16,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -2836,7 +2911,8 @@
         },
         "min": 5,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -2864,7 +2940,8 @@
         },
         "min": 11,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -2893,7 +2970,8 @@
         },
         "min": 11,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -2921,7 +2999,8 @@
         },
         "min": 21,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -2948,7 +3027,8 @@
         },
         "min": 10,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -2975,7 +3055,8 @@
         },
         "min": 16,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -3002,7 +3083,8 @@
         },
         "min": 6,
         "max": 12,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -3029,7 +3111,8 @@
         },
         "min": 13,
         "max": 27,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -3056,7 +3139,8 @@
         },
         "min": 28,
         "max": 42,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -3083,7 +3167,8 @@
         },
         "min": 43,
         "max": 57,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -3110,7 +3195,8 @@
         },
         "min": 58,
         "max": 72,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -3137,7 +3223,8 @@
         },
         "min": 73,
         "max": 87,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -3164,7 +3251,8 @@
         },
         "min": 88,
         "max": 102,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -3191,7 +3279,8 @@
         },
         "min": 103,
         "max": 117,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -3218,7 +3307,8 @@
         },
         "min": 118,
         "max": 132,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -3245,7 +3335,8 @@
         },
         "min": 4,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -3272,7 +3363,8 @@
         },
         "min": 6,
         "max": 12,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -3299,7 +3391,8 @@
         },
         "min": 13,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -3326,7 +3419,8 @@
         },
         "min": 26,
         "max": 38,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -3353,7 +3447,8 @@
         },
         "min": 39,
         "max": 51,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -3380,7 +3475,8 @@
         },
         "min": 52,
         "max": 64,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -3407,7 +3503,8 @@
         },
         "min": 65,
         "max": 77,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -3434,7 +3531,8 @@
         },
         "min": 2,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -3461,7 +3559,8 @@
         },
         "min": 6,
         "max": 12,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -3488,7 +3587,8 @@
         },
         "min": 13,
         "max": 24,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -3515,7 +3615,8 @@
         },
         "min": 25,
         "max": 36,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -3566,7 +3667,8 @@
         },
         "min": 10,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -3615,7 +3717,8 @@
         },
         "min": 21,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -3664,7 +3767,8 @@
         },
         "min": 41,
         "max": 60,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -3713,7 +3817,8 @@
         },
         "min": 61,
         "max": 80,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -3762,7 +3867,8 @@
         },
         "min": 81,
         "max": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -3811,7 +3917,8 @@
         },
         "min": 101,
         "max": 120,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -3858,7 +3965,8 @@
         },
         "min": 121,
         "max": 150,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -3905,7 +4013,8 @@
         },
         "min": 151,
         "max": 300,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -3952,7 +4061,8 @@
         },
         "min": 301,
         "max": 450,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -3979,7 +4089,8 @@
         },
         "min": 10,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -4006,7 +4117,8 @@
         },
         "min": 21,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -4033,7 +4145,8 @@
         },
         "min": 41,
         "max": 60,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -4060,7 +4173,8 @@
         },
         "min": 61,
         "max": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -4087,7 +4201,8 @@
         },
         "min": 10,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-max",
@@ -4098,7 +4213,8 @@
         },
         "min": 1,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -4125,7 +4241,8 @@
         },
         "min": 21,
         "max": 48,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-max",
@@ -4136,7 +4253,8 @@
         },
         "min": 4,
         "max": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -4163,7 +4281,8 @@
         },
         "min": 49,
         "max": 76,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-max",
@@ -4174,7 +4293,8 @@
         },
         "min": 7,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -4201,7 +4321,8 @@
         },
         "min": 10,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-max",
@@ -4212,7 +4333,8 @@
         },
         "min": 1,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -4239,7 +4361,8 @@
         },
         "min": 21,
         "max": 48,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-max",
@@ -4250,7 +4373,8 @@
         },
         "min": 4,
         "max": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -4277,7 +4401,8 @@
         },
         "min": 10,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-max",
@@ -4288,7 +4413,8 @@
         },
         "min": 1,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -4335,7 +4461,8 @@
         },
         "min": 10,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg%",
@@ -4346,7 +4473,8 @@
         },
         "min": 10,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -4393,7 +4521,8 @@
         },
         "min": 21,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg%",
@@ -4404,7 +4533,8 @@
         },
         "min": 21,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -4451,7 +4581,8 @@
         },
         "min": 41,
         "max": 60,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg%",
@@ -4462,7 +4593,8 @@
         },
         "min": 31,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -4509,7 +4641,8 @@
         },
         "min": 61,
         "max": 80,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg%",
@@ -4520,7 +4653,8 @@
         },
         "min": 41,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -4567,7 +4701,8 @@
         },
         "min": 81,
         "max": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg%",
@@ -4578,7 +4713,8 @@
         },
         "min": 51,
         "max": 65,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -4625,7 +4761,8 @@
         },
         "min": 101,
         "max": 120,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg%",
@@ -4636,7 +4773,8 @@
         },
         "min": 66,
         "max": 80,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -4683,7 +4821,8 @@
         },
         "min": 121,
         "max": 150,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg%",
@@ -4694,7 +4833,8 @@
         },
         "min": 81,
         "max": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -4741,7 +4881,8 @@
         },
         "min": 151,
         "max": 250,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg%",
@@ -4752,7 +4893,8 @@
         },
         "min": 101,
         "max": 150,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -4799,7 +4941,8 @@
         },
         "min": 251,
         "max": 300,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg%",
@@ -4810,7 +4953,8 @@
         },
         "min": 151,
         "max": 200,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -5189,7 +5333,8 @@
         },
         "min": 1,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -5216,7 +5361,8 @@
         },
         "min": 5,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -5243,7 +5389,8 @@
         },
         "min": 8,
         "max": 12,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -5297,7 +5444,8 @@
         },
         "min": 2,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -5324,7 +5472,8 @@
         },
         "min": 4,
         "max": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -5353,7 +5502,8 @@
         },
         "min": 5,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -5382,7 +5532,8 @@
         },
         "min": 11,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -5409,7 +5560,8 @@
         },
         "min": 3,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -5436,7 +5588,8 @@
         },
         "min": 3,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -5463,7 +5616,8 @@
         },
         "min": 8,
         "max": 13,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -5490,7 +5644,8 @@
         },
         "min": 14,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -5517,7 +5672,8 @@
         },
         "min": 21,
         "max": 26,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -5544,7 +5700,8 @@
         },
         "min": 27,
         "max": 33,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -5571,7 +5728,8 @@
         },
         "min": 34,
         "max": 39,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -5598,7 +5756,8 @@
         },
         "min": 40,
         "max": 46,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -5625,7 +5784,8 @@
         },
         "min": 47,
         "max": 52,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -5652,7 +5812,8 @@
         },
         "min": 53,
         "max": 59,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -5679,7 +5840,8 @@
         },
         "min": 2,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -5706,7 +5868,8 @@
         },
         "min": 5,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -5733,7 +5896,8 @@
         },
         "min": 8,
         "max": 12,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -5760,7 +5924,8 @@
         },
         "min": 13,
         "max": 18,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -5787,7 +5952,8 @@
         },
         "min": 19,
         "max": 23,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -5814,7 +5980,8 @@
         },
         "min": 24,
         "max": 29,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -5841,7 +6008,8 @@
         },
         "min": 30,
         "max": 34,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -5868,7 +6036,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -5895,7 +6064,8 @@
         },
         "min": 3,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -5922,7 +6092,8 @@
         },
         "min": 8,
         "max": 12,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -5949,7 +6120,8 @@
         },
         "min": 13,
         "max": 17,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -5993,7 +6165,8 @@
         },
         "min": 3,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -6030,7 +6203,8 @@
         },
         "min": 5,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -6067,7 +6241,8 @@
         },
         "min": 11,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -6117,7 +6292,8 @@
         },
         "min": 11,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -6150,7 +6326,8 @@
         },
         "min": 21,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -6183,7 +6360,8 @@
         },
         "min": 31,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -6212,7 +6390,8 @@
         },
         "min": 31,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -6245,7 +6424,8 @@
         },
         "min": 41,
         "max": 60,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -6278,7 +6458,8 @@
         },
         "min": 61,
         "max": 90,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -6311,7 +6492,8 @@
         },
         "min": 91,
         "max": 120,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -6338,7 +6520,8 @@
         },
         "min": 5,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -6365,7 +6548,8 @@
         },
         "min": 11,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -6392,7 +6576,8 @@
         },
         "min": 16,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -6419,7 +6604,8 @@
         },
         "min": 3,
         "max": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -6446,7 +6632,8 @@
         },
         "min": 8,
         "max": 12,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -6473,7 +6660,8 @@
         },
         "min": 13,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -6500,7 +6688,8 @@
         },
         "min": 3,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -6527,7 +6716,8 @@
         },
         "min": 6,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -6554,7 +6744,8 @@
         },
         "min": 3,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -6584,7 +6775,8 @@
         },
         "min": 3,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -6614,7 +6806,8 @@
         },
         "min": 8,
         "max": 11,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -6644,7 +6837,8 @@
         },
         "min": 12,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -6674,7 +6868,8 @@
         },
         "min": 16,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -6704,7 +6899,8 @@
         },
         "min": 21,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -6732,7 +6928,8 @@
         },
         "min": 3,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -6760,7 +6957,8 @@
         },
         "min": 8,
         "max": 11,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -6788,7 +6986,8 @@
         },
         "min": 12,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -6816,7 +7015,8 @@
         },
         "min": 16,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -6844,7 +7044,8 @@
         },
         "min": 21,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -6871,7 +7072,8 @@
         },
         "min": 3,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -6898,7 +7100,8 @@
         },
         "min": 8,
         "max": 11,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -6925,7 +7128,8 @@
         },
         "min": 12,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -6952,7 +7156,8 @@
         },
         "min": 5,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -6979,7 +7184,8 @@
         },
         "min": 11,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7006,7 +7212,8 @@
         },
         "min": 7,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7033,7 +7240,8 @@
         },
         "min": 16,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7060,7 +7268,8 @@
         },
         "min": 21,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7087,7 +7296,8 @@
         },
         "min": 26,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7114,7 +7324,8 @@
         },
         "min": 4,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7141,7 +7352,8 @@
         },
         "min": 8,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7168,7 +7380,8 @@
         },
         "min": 11,
         "max": 12,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7195,7 +7408,8 @@
         },
         "min": 13,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7222,7 +7436,8 @@
         },
         "min": 3,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7249,7 +7464,8 @@
         },
         "min": 6,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7276,7 +7492,8 @@
         },
         "min": 8,
         "max": 9,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7303,7 +7520,8 @@
         },
         "min": 10,
         "max": 11,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7364,7 +7582,8 @@
         },
         "min": 5,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7405,7 +7624,8 @@
         },
         "min": 11,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7452,7 +7672,8 @@
         },
         "min": 11,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7493,7 +7714,8 @@
         },
         "min": 21,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7540,7 +7762,8 @@
         },
         "min": 21,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7573,7 +7796,8 @@
         },
         "min": 31,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7600,7 +7824,8 @@
         },
         "min": 5,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7627,7 +7852,8 @@
         },
         "min": 16,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7654,7 +7880,8 @@
         },
         "min": 7,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7681,7 +7908,8 @@
         },
         "min": 16,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7708,7 +7936,8 @@
         },
         "min": 21,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7735,7 +7964,8 @@
         },
         "min": 26,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7762,7 +7992,8 @@
         },
         "min": 4,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7789,7 +8020,8 @@
         },
         "min": 8,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7816,7 +8048,8 @@
         },
         "min": 11,
         "max": 12,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7843,7 +8076,8 @@
         },
         "min": 13,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7870,7 +8104,8 @@
         },
         "min": 3,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7897,7 +8132,8 @@
         },
         "min": 6,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7924,7 +8160,8 @@
         },
         "min": 8,
         "max": 9,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7951,7 +8188,8 @@
         },
         "min": 10,
         "max": 11,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -7992,7 +8230,8 @@
         },
         "min": 11,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -8039,7 +8278,8 @@
         },
         "min": 11,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -8080,7 +8320,8 @@
         },
         "min": 21,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -8127,7 +8368,8 @@
         },
         "min": 21,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -8160,7 +8402,8 @@
         },
         "min": 31,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -8187,7 +8430,8 @@
         },
         "min": 5,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -8214,7 +8458,8 @@
         },
         "min": 16,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -8241,7 +8486,8 @@
         },
         "min": 7,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -8268,7 +8514,8 @@
         },
         "min": 16,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -8295,7 +8542,8 @@
         },
         "min": 21,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -8322,7 +8570,8 @@
         },
         "min": 26,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -8349,7 +8598,8 @@
         },
         "min": 4,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -8376,7 +8626,8 @@
         },
         "min": 8,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -8403,7 +8654,8 @@
         },
         "min": 11,
         "max": 12,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -8430,7 +8682,8 @@
         },
         "min": 13,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -8457,7 +8710,8 @@
         },
         "min": 3,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -8484,7 +8738,8 @@
         },
         "min": 6,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -8511,7 +8766,8 @@
         },
         "min": 8,
         "max": 9,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -8538,7 +8794,8 @@
         },
         "min": 10,
         "max": 11,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -8599,7 +8856,8 @@
         },
         "min": 5,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -8640,7 +8898,8 @@
         },
         "min": 11,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -8687,7 +8946,8 @@
         },
         "min": 11,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -8728,7 +8988,8 @@
         },
         "min": 21,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -8775,7 +9036,8 @@
         },
         "min": 21,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -8808,7 +9070,8 @@
         },
         "min": 31,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -8835,7 +9098,8 @@
         },
         "min": 5,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -8862,7 +9126,8 @@
         },
         "min": 16,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -8889,7 +9154,8 @@
         },
         "min": 7,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -8916,7 +9182,8 @@
         },
         "min": 16,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -8943,7 +9210,8 @@
         },
         "min": 21,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -8970,7 +9238,8 @@
         },
         "min": 26,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -8997,7 +9266,8 @@
         },
         "min": 4,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -9024,7 +9294,8 @@
         },
         "min": 8,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -9051,7 +9322,8 @@
         },
         "min": 11,
         "max": 12,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -9078,7 +9350,8 @@
         },
         "min": 13,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -9105,7 +9378,8 @@
         },
         "min": 3,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -9132,7 +9406,8 @@
         },
         "min": 6,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -9159,7 +9434,8 @@
         },
         "min": 8,
         "max": 9,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -9186,7 +9462,8 @@
         },
         "min": 10,
         "max": 11,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -9247,7 +9524,8 @@
         },
         "min": 5,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -9288,7 +9566,8 @@
         },
         "min": 11,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -9335,7 +9614,8 @@
         },
         "min": 11,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -9376,7 +9656,8 @@
         },
         "min": 21,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -9423,7 +9704,8 @@
         },
         "min": 21,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -9456,7 +9738,8 @@
         },
         "min": 31,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -9483,7 +9766,8 @@
         },
         "min": 5,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -9510,7 +9794,8 @@
         },
         "min": 16,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -9607,7 +9892,8 @@
         },
         "min": 2,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -9634,7 +9920,8 @@
         },
         "min": 1,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -9690,7 +9977,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -9850,7 +10138,8 @@
         },
         "min": 25,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-demon",
@@ -9861,7 +10150,8 @@
         },
         "min": 10,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -9909,7 +10199,8 @@
         },
         "min": 51,
         "max": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-demon",
@@ -9920,7 +10211,8 @@
         },
         "min": 26,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -9967,7 +10259,8 @@
         },
         "min": 101,
         "max": 150,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-demon",
@@ -9978,7 +10271,8 @@
         },
         "min": 51,
         "max": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -10025,7 +10319,8 @@
         },
         "min": 151,
         "max": 200,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-demon",
@@ -10036,7 +10331,8 @@
         },
         "min": 101,
         "max": 150,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -10083,7 +10379,8 @@
         },
         "min": 201,
         "max": 300,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-demon",
@@ -10094,7 +10391,8 @@
         },
         "min": 151,
         "max": 200,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -10141,7 +10439,8 @@
         },
         "min": 301,
         "max": 400,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-demon",
@@ -10152,7 +10451,8 @@
         },
         "min": 201,
         "max": 300,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -10179,7 +10479,8 @@
         },
         "min": 25,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-demon",
@@ -10190,7 +10491,8 @@
         },
         "min": 25,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -14054,7 +14356,8 @@
         },
         "min": 6,
         "max": 9,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-max",
@@ -14065,7 +14368,8 @@
         },
         "min": 19,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-len",
@@ -14123,7 +14427,8 @@
         },
         "min": 10,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-max",
@@ -14134,7 +14439,8 @@
         },
         "min": 31,
         "max": 45,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-len",
@@ -14192,7 +14498,8 @@
         },
         "min": 16,
         "max": 23,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-max",
@@ -14203,7 +14510,8 @@
         },
         "min": 46,
         "max": 90,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-len",
@@ -14261,7 +14569,8 @@
         },
         "min": 24,
         "max": 45,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-max",
@@ -14272,7 +14581,8 @@
         },
         "min": 91,
         "max": 140,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-len",
@@ -14331,7 +14641,8 @@
         },
         "min": 16,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-max",
@@ -14342,7 +14653,8 @@
         },
         "min": 31,
         "max": 60,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -14389,7 +14701,8 @@
         },
         "min": 26,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-max",
@@ -14400,7 +14713,8 @@
         },
         "min": 61,
         "max": 90,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -14447,7 +14761,8 @@
         },
         "min": 51,
         "max": 80,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-max",
@@ -14458,7 +14773,8 @@
         },
         "min": 91,
         "max": 130,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -14505,7 +14821,8 @@
         },
         "min": 81,
         "max": 120,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-max",
@@ -14516,7 +14833,8 @@
         },
         "min": 131,
         "max": 180,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -14563,7 +14881,8 @@
         },
         "min": 121,
         "max": 170,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-max",
@@ -14574,7 +14893,8 @@
         },
         "min": 181,
         "max": 240,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -14622,7 +14942,8 @@
         },
         "min": 49,
         "max": 120,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -14680,7 +15001,8 @@
         },
         "min": 121,
         "max": 180,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -14738,7 +15060,8 @@
         },
         "min": 181,
         "max": 260,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -14796,7 +15119,8 @@
         },
         "min": 261,
         "max": 360,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -14854,7 +15178,8 @@
         },
         "min": 361,
         "max": 480,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -16065,7 +16390,8 @@
         },
         "min": 20,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -16095,7 +16421,8 @@
         },
         "min": 41,
         "max": 80,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -16125,7 +16452,8 @@
         },
         "min": 81,
         "max": 120,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -16172,7 +16500,8 @@
         },
         "min": 25,
         "max": 75,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-undead",
@@ -16183,7 +16512,8 @@
         },
         "min": 25,
         "max": 75,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -16230,7 +16560,8 @@
         },
         "min": 76,
         "max": 175,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-undead",
@@ -16241,7 +16572,8 @@
         },
         "min": 76,
         "max": 125,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -16288,7 +16620,8 @@
         },
         "min": 175,
         "max": 250,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-undead",
@@ -16299,7 +16632,8 @@
         },
         "min": 126,
         "max": 200,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -16346,7 +16680,8 @@
         },
         "min": 251,
         "max": 325,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-undead",
@@ -16357,7 +16692,8 @@
         },
         "min": 201,
         "max": 275,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -16404,7 +16740,8 @@
         },
         "min": 326,
         "max": 450,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-undead",
@@ -16415,7 +16752,8 @@
         },
         "min": 276,
         "max": 350,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -16442,7 +16780,8 @@
         },
         "min": 25,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-undead",
@@ -16453,7 +16792,8 @@
         },
         "min": 25,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -16514,7 +16854,8 @@
         },
         "min": 5,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -16865,7 +17206,8 @@
         },
         "min": 2,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-len",
@@ -16914,7 +17256,8 @@
         },
         "min": 2,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-max",
@@ -16925,7 +17268,8 @@
         },
         "min": 4,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-len",
@@ -16963,7 +17307,8 @@
         },
         "min": 5,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-max",
@@ -16974,7 +17319,8 @@
         },
         "min": 9,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-len",
@@ -17012,7 +17358,8 @@
         },
         "min": 8,
         "max": 13,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-max",
@@ -17023,7 +17370,8 @@
         },
         "min": 16,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-len",
@@ -17061,7 +17409,8 @@
         },
         "min": 2,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-max",
@@ -17072,7 +17421,8 @@
         },
         "min": 3,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-len",
@@ -17110,7 +17460,8 @@
         },
         "min": 4,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-max",
@@ -17121,7 +17472,8 @@
         },
         "min": 6,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-len",
@@ -17159,7 +17511,8 @@
         },
         "min": 6,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-max",
@@ -17170,7 +17523,8 @@
         },
         "min": 11,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-len",
@@ -17208,7 +17562,8 @@
         },
         "min": 11,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-max",
@@ -17219,7 +17574,8 @@
         },
         "min": 21,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-len",
@@ -17257,7 +17613,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-max",
@@ -17268,7 +17625,8 @@
         },
         "min": 2,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-len",
@@ -17306,7 +17664,8 @@
         },
         "min": 3,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-max",
@@ -17317,7 +17676,8 @@
         },
         "min": 5,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-len",
@@ -17355,7 +17715,8 @@
         },
         "min": 5,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-max",
@@ -17366,7 +17727,8 @@
         },
         "min": 9,
         "max": 14,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-len",
@@ -17404,7 +17766,8 @@
         },
         "min": 8,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-max",
@@ -17415,7 +17778,8 @@
         },
         "min": 15,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-len",
@@ -17453,7 +17817,8 @@
         },
         "min": 2,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-min",
@@ -17491,7 +17856,8 @@
         },
         "min": 2,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-max",
@@ -17502,7 +17868,8 @@
         },
         "min": 4,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -17529,7 +17896,8 @@
         },
         "min": 4,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-max",
@@ -17540,7 +17908,8 @@
         },
         "min": 8,
         "max": 19,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -17567,7 +17936,8 @@
         },
         "min": 8,
         "max": 18,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-max",
@@ -17578,7 +17948,8 @@
         },
         "min": 20,
         "max": 36,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -17605,7 +17976,8 @@
         },
         "min": 2,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-min",
@@ -17643,7 +18015,8 @@
         },
         "min": 2,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-max",
@@ -17654,7 +18027,8 @@
         },
         "min": 4,
         "max": 12,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -17681,7 +18055,8 @@
         },
         "min": 4,
         "max": 9,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-max",
@@ -17692,7 +18067,8 @@
         },
         "min": 13,
         "max": 27,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -17719,7 +18095,8 @@
         },
         "min": 10,
         "max": 27,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-max",
@@ -17730,7 +18107,8 @@
         },
         "min": 28,
         "max": 43,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -17757,7 +18135,8 @@
         },
         "min": 2,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-min",
@@ -17795,7 +18174,8 @@
         },
         "min": 2,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-max",
@@ -17806,7 +18186,8 @@
         },
         "min": 4,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -17833,7 +18214,8 @@
         },
         "min": 4,
         "max": 9,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-max",
@@ -17844,7 +18226,8 @@
         },
         "min": 11,
         "max": 19,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -17871,7 +18254,8 @@
         },
         "min": 10,
         "max": 19,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-max",
@@ -17882,7 +18266,8 @@
         },
         "min": 20,
         "max": 29,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -17909,7 +18294,8 @@
         },
         "min": 4,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -17947,7 +18333,8 @@
         },
         "min": 6,
         "max": 17,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -17985,7 +18372,8 @@
         },
         "min": 18,
         "max": 44,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -18023,7 +18411,8 @@
         },
         "min": 45,
         "max": 79,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -18061,7 +18450,8 @@
         },
         "min": 5,
         "max": 9,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -18099,7 +18489,8 @@
         },
         "min": 10,
         "max": 26,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -18137,7 +18528,8 @@
         },
         "min": 27,
         "max": 58,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -18175,7 +18567,8 @@
         },
         "min": 59,
         "max": 90,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -18213,7 +18606,8 @@
         },
         "min": 6,
         "max": 11,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -18251,7 +18645,8 @@
         },
         "min": 12,
         "max": 24,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -18289,7 +18684,8 @@
         },
         "min": 25,
         "max": 43,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -18327,7 +18723,8 @@
         },
         "min": 44,
         "max": 71,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -18733,7 +19130,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -18935,7 +19333,8 @@
         },
         "min": 101,
         "max": 200,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -18982,7 +19381,8 @@
         },
         "min": 201,
         "max": 300,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -19037,7 +19437,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -19072,7 +19473,8 @@
         },
         "min": 1,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -19123,7 +19525,8 @@
         },
         "min": 1,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -19150,7 +19553,8 @@
         },
         "min": 2,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -19205,7 +19609,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -19240,7 +19645,8 @@
         },
         "min": 1,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -19291,7 +19697,8 @@
         },
         "min": 1,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -19318,7 +19725,8 @@
         },
         "min": 2,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -19373,7 +19781,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -19408,7 +19817,8 @@
         },
         "min": 1,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -19459,7 +19869,8 @@
         },
         "min": 1,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -19486,7 +19897,8 @@
         },
         "min": 2,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -19541,7 +19953,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -19576,7 +19989,8 @@
         },
         "min": 1,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -19627,7 +20041,8 @@
         },
         "min": 1,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -19654,7 +20069,8 @@
         },
         "min": 2,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -19709,7 +20125,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -19744,7 +20161,8 @@
         },
         "min": 1,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -19795,7 +20213,8 @@
         },
         "min": 1,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -19822,7 +20241,8 @@
         },
         "min": 2,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -19877,7 +20297,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -19912,7 +20333,8 @@
         },
         "min": 1,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -19963,7 +20385,8 @@
         },
         "min": 1,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -19990,7 +20413,8 @@
         },
         "min": 2,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -20494,7 +20918,8 @@
         },
         "min": 2,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "Virulent-Affix1",
@@ -20505,7 +20930,8 @@
         },
         "min": 0,
         "max": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "Virulent-Affix2",
@@ -20516,7 +20942,8 @@
         },
         "min": 0,
         "max": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -20543,7 +20970,8 @@
         },
         "min": 2,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "Gelid-Affix1",
@@ -20554,7 +20982,8 @@
         },
         "min": 0,
         "max": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "Gelid-Affix2",
@@ -20565,7 +20994,8 @@
         },
         "min": 0,
         "max": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -20592,7 +21022,8 @@
         },
         "min": 2,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "Magnetic-Affix1",
@@ -20603,7 +21034,8 @@
         },
         "min": 0,
         "max": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "Magnetic-Affix2",
@@ -20614,7 +21046,8 @@
         },
         "min": 0,
         "max": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -20641,7 +21074,8 @@
         },
         "min": 2,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "Incendiary-Affix1",
@@ -20652,7 +21086,8 @@
         },
         "min": 0,
         "max": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "Incendiary-Affix2",
@@ -20663,7 +21098,8 @@
         },
         "min": 0,
         "max": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -20690,7 +21126,8 @@
         },
         "min": 2,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "Breaching-Affix1",
@@ -20701,7 +21138,8 @@
         },
         "min": 0,
         "max": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "Breaching-Affix2",
@@ -20712,7 +21150,8 @@
         },
         "min": 0,
         "max": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -20739,7 +21178,8 @@
         },
         "min": 2,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "Mystical-Affix1",
@@ -20750,7 +21190,8 @@
         },
         "min": 0,
         "max": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "Mystical-Affix2",
@@ -20761,7 +21202,8 @@
         },
         "min": 0,
         "max": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -20908,7 +21350,8 @@
         },
         "min": 10,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -21004,7 +21447,8 @@
         },
         "min": 4,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -21036,7 +21480,8 @@
         },
         "min": 8,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -21159,7 +21604,8 @@
         },
         "min": 4,
         "max": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -21255,7 +21701,8 @@
         },
         "min": 4,
         "max": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -21354,7 +21801,8 @@
         },
         "min": 4,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -21387,7 +21835,8 @@
         },
         "min": 6,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -21475,7 +21924,8 @@
         },
         "min": 4,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -21504,7 +21954,8 @@
         },
         "min": 6,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -21531,7 +21982,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -21630,7 +22082,8 @@
         },
         "min": 4,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -21663,7 +22116,8 @@
         },
         "min": 6,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -21751,7 +22205,8 @@
         },
         "min": 4,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -21780,7 +22235,8 @@
         },
         "min": 6,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -21807,7 +22263,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -21906,7 +22363,8 @@
         },
         "min": 4,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -21939,7 +22397,8 @@
         },
         "min": 6,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -22027,7 +22486,8 @@
         },
         "min": 4,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -22056,7 +22516,8 @@
         },
         "min": 6,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -22083,7 +22544,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -22147,7 +22609,8 @@
         },
         "min": -25,
         "max": -40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -22180,7 +22643,8 @@
         },
         "min": -10,
         "max": -20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -22213,7 +22677,8 @@
         },
         "min": 1,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -22246,7 +22711,8 @@
         },
         "min": 4,
         "max": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -22278,7 +22744,8 @@
         },
         "min": 7,
         "max": 9,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -22310,7 +22777,8 @@
         },
         "min": 10,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -22337,7 +22805,8 @@
         },
         "min": 1,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -22764,7 +23233,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-min",
@@ -22833,7 +23303,8 @@
         },
         "min": 3,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-min",
@@ -22902,7 +23373,8 @@
         },
         "min": 2,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-max",
@@ -22913,7 +23385,8 @@
         },
         "min": 4,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-len",
@@ -22967,7 +23440,8 @@
         },
         "min": 5,
         "max": 9,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-max",
@@ -22978,7 +23452,8 @@
         },
         "min": 16,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-len",
@@ -23017,7 +23492,8 @@
         },
         "min": 3,
         "max": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-min",
@@ -23066,7 +23542,8 @@
         },
         "min": 3,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-min",
@@ -23171,7 +23648,8 @@
         },
         "min": 2,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-min",
@@ -23229,7 +23707,8 @@
         },
         "min": 1,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-max",
@@ -23240,7 +23719,8 @@
         },
         "min": 6,
         "max": 11,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -23287,7 +23767,8 @@
         },
         "min": 5,
         "max": 9,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-max",
@@ -23298,7 +23779,8 @@
         },
         "min": 10,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -23341,7 +23823,8 @@
         },
         "min": 10,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-max",
@@ -23352,7 +23835,8 @@
         },
         "min": 21,
         "max": 75,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -23381,7 +23865,8 @@
         },
         "min": 2,
         "max": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-min",
@@ -23419,7 +23904,8 @@
         },
         "min": 1,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-max",
@@ -23430,7 +23916,8 @@
         },
         "min": 6,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -23477,7 +23964,8 @@
         },
         "min": 6,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -23535,7 +24023,8 @@
         },
         "min": 9,
         "max": 16,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -23593,7 +24082,8 @@
         },
         "min": 17,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -23647,7 +24137,8 @@
         },
         "min": 1,
         "max": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-max",
@@ -23658,7 +24149,8 @@
         },
         "min": 41,
         "max": 120,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -23687,7 +24179,8 @@
         },
         "min": 11,
         "max": 23,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -23725,7 +24218,8 @@
         },
         "min": 10,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -23879,7 +24373,8 @@
         },
         "min": 3,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -23926,7 +24421,8 @@
         },
         "min": 5,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -23973,7 +24469,8 @@
         },
         "min": 8,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -24020,7 +24517,8 @@
         },
         "min": 11,
         "max": 14,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -24067,7 +24565,8 @@
         },
         "min": 15,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -24114,7 +24613,8 @@
         },
         "min": 21,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -24161,7 +24661,8 @@
         },
         "min": 41,
         "max": 63,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -24193,7 +24694,8 @@
         },
         "min": 3,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -24220,7 +24722,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -24247,7 +24750,8 @@
         },
         "min": 2,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -24274,7 +24778,8 @@
         },
         "min": 4,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -24301,7 +24806,8 @@
         },
         "min": 6,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -24328,7 +24834,8 @@
         },
         "min": 7,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -24355,7 +24862,8 @@
         },
         "min": 9,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -24382,7 +24890,8 @@
         },
         "min": 11,
         "max": 12,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -24463,7 +24972,8 @@
         },
         "min": 3,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -24490,7 +25000,8 @@
         },
         "min": 5,
         "max": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -24517,7 +25028,8 @@
         },
         "min": 7,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -24598,7 +25110,8 @@
         },
         "min": 3,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -24625,7 +25138,8 @@
         },
         "min": 2,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -24652,7 +25166,8 @@
         },
         "min": 6,
         "max": 9,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -24679,7 +25194,8 @@
         },
         "min": 11,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -24726,7 +25242,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -24773,7 +25290,8 @@
         },
         "min": 3,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -24820,7 +25338,8 @@
         },
         "min": 5,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -24867,7 +25386,8 @@
         },
         "min": 9,
         "max": 14,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -24914,7 +25434,8 @@
         },
         "min": 15,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -24943,7 +25464,8 @@
         },
         "min": 2,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -24972,7 +25494,8 @@
         },
         "min": 4,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -25001,7 +25524,8 @@
         },
         "min": 6,
         "max": 9,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -25030,7 +25554,8 @@
         },
         "min": 10,
         "max": 13,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -25057,7 +25582,8 @@
         },
         "min": 1,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -25084,7 +25610,8 @@
         },
         "min": 5,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -25361,7 +25888,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -25392,7 +25920,8 @@
         },
         "min": 3,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -25423,7 +25952,8 @@
         },
         "min": 6,
         "max": 9,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -25454,7 +25984,8 @@
         },
         "min": 10,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -25485,7 +26016,8 @@
         },
         "min": 16,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -25516,7 +26048,8 @@
         },
         "min": 21,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -25544,7 +26077,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -25572,7 +26106,8 @@
         },
         "min": 3,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -25600,7 +26135,8 @@
         },
         "min": 6,
         "max": 9,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -25628,7 +26164,8 @@
         },
         "min": 10,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -25656,7 +26193,8 @@
         },
         "min": 16,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -25684,7 +26222,8 @@
         },
         "min": 2,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -25712,7 +26251,8 @@
         },
         "min": 4,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -25740,7 +26280,8 @@
         },
         "min": 6,
         "max": 9,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -25768,7 +26309,8 @@
         },
         "min": 10,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -25795,7 +26337,8 @@
         },
         "min": 3,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -25822,7 +26365,8 @@
         },
         "min": 2,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -25876,7 +26420,8 @@
         },
         "min": 5,
         "max": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -25903,7 +26448,8 @@
         },
         "min": 4,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -25957,7 +26503,8 @@
         },
         "min": 1,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -26194,7 +26741,8 @@
         },
         "min": 3,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -26225,7 +26773,8 @@
         },
         "min": 3,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -26274,7 +26823,8 @@
         },
         "min": 3,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -26303,7 +26853,8 @@
         },
         "min": 6,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -26331,7 +26882,8 @@
         },
         "min": 6,
         "max": 9,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -26360,7 +26912,8 @@
         },
         "min": 11,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -26387,7 +26940,8 @@
         },
         "min": 1,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -26459,7 +27013,8 @@
         },
         "min": 25,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -26490,7 +27045,8 @@
         },
         "min": 41,
         "max": 80,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -26517,7 +27073,8 @@
         },
         "min": 10,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -26544,7 +27101,8 @@
         },
         "min": 21,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -26571,7 +27129,8 @@
         },
         "min": 31,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -26598,7 +27157,8 @@
         },
         "min": 5,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -26625,7 +27185,8 @@
         },
         "min": 11,
         "max": 22,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -26652,7 +27213,8 @@
         },
         "min": 5,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -26679,7 +27241,8 @@
         },
         "min": 10,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -26710,7 +27273,8 @@
         },
         "min": 5,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -26740,7 +27304,8 @@
         },
         "min": 16,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -26767,7 +27332,8 @@
         },
         "min": 16,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -26796,7 +27362,8 @@
         },
         "min": 26,
         "max": 35,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -26823,7 +27390,8 @@
         },
         "min": 3,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -26850,7 +27418,8 @@
         },
         "min": 6,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -26877,7 +27446,8 @@
         },
         "min": 5,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -26908,7 +27478,8 @@
         },
         "min": 1,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -26939,7 +27510,8 @@
         },
         "min": 4,
         "max": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -26970,7 +27542,8 @@
         },
         "min": 7,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -27001,7 +27574,8 @@
         },
         "min": 11,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -27032,7 +27606,8 @@
         },
         "min": 16,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -27063,7 +27638,8 @@
         },
         "min": 21,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -27090,7 +27666,8 @@
         },
         "min": 1,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -27117,7 +27694,8 @@
         },
         "min": 4,
         "max": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -27144,7 +27722,8 @@
         },
         "min": 7,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -27171,7 +27750,8 @@
         },
         "min": 11,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -27198,7 +27778,8 @@
         },
         "min": 16,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -27229,7 +27810,8 @@
         },
         "min": 1,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -27260,7 +27842,8 @@
         },
         "min": 4,
         "max": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -27291,7 +27874,8 @@
         },
         "min": 7,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -27322,7 +27906,8 @@
         },
         "min": 11,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -27349,7 +27934,8 @@
         },
         "min": 1,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -27576,7 +28162,8 @@
         },
         "min": 1,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -27607,7 +28194,8 @@
         },
         "min": 6,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -27638,7 +28226,8 @@
         },
         "min": 11,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -27669,7 +28258,8 @@
         },
         "min": 21,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -27700,7 +28290,8 @@
         },
         "min": 31,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -27731,7 +28322,8 @@
         },
         "min": 41,
         "max": 60,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -27762,7 +28354,8 @@
         },
         "min": 61,
         "max": 80,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -27793,7 +28386,8 @@
         },
         "min": 81,
         "max": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -27824,7 +28418,8 @@
         },
         "min": 1,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -27855,7 +28450,8 @@
         },
         "min": 6,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -27886,7 +28482,8 @@
         },
         "min": 11,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -27917,7 +28514,8 @@
         },
         "min": 21,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -27948,7 +28546,8 @@
         },
         "min": 31,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -27979,7 +28578,8 @@
         },
         "min": 41,
         "max": 60,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28013,7 +28613,8 @@
         },
         "min": 1,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28047,7 +28648,8 @@
         },
         "min": 6,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28081,7 +28683,8 @@
         },
         "min": 11,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28115,7 +28718,8 @@
         },
         "min": 21,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28149,7 +28753,8 @@
         },
         "min": 31,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28176,7 +28781,8 @@
         },
         "min": 5,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28203,7 +28809,8 @@
         },
         "min": 11,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28230,7 +28837,8 @@
         },
         "min": 16,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28257,7 +28865,8 @@
         },
         "min": 21,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28284,7 +28893,8 @@
         },
         "min": 26,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28311,7 +28921,8 @@
         },
         "min": 31,
         "max": 35,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28338,7 +28949,8 @@
         },
         "min": 36,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28365,7 +28977,8 @@
         },
         "min": 41,
         "max": 45,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28392,7 +29005,8 @@
         },
         "min": 46,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28419,7 +29033,8 @@
         },
         "min": 6,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28446,7 +29061,8 @@
         },
         "min": 11,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28473,7 +29089,8 @@
         },
         "min": 16,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28500,7 +29117,8 @@
         },
         "min": 21,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28527,7 +29145,8 @@
         },
         "min": 26,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28554,7 +29173,8 @@
         },
         "min": 31,
         "max": 35,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28581,7 +29201,8 @@
         },
         "min": 5,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28608,7 +29229,8 @@
         },
         "min": 11,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28635,7 +29257,8 @@
         },
         "min": 16,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28662,7 +29285,8 @@
         },
         "min": 3,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28689,7 +29313,8 @@
         },
         "min": 9,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28736,7 +29361,8 @@
         },
         "min": 4,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28779,7 +29405,8 @@
         },
         "min": 6,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28822,7 +29449,8 @@
         },
         "min": 8,
         "max": 9,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28850,7 +29478,8 @@
         },
         "min": 3,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28878,7 +29507,8 @@
         },
         "min": 5,
         "max": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28906,7 +29536,8 @@
         },
         "min": 7,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -28980,7 +29611,8 @@
         },
         "min": 4,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -29023,7 +29655,8 @@
         },
         "min": 6,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -29066,7 +29699,8 @@
         },
         "min": 8,
         "max": 9,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -29094,7 +29728,8 @@
         },
         "min": 3,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -29122,7 +29757,8 @@
         },
         "min": 5,
         "max": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -29150,7 +29786,8 @@
         },
         "min": 7,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -29445,7 +30082,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -29476,7 +30114,8 @@
         },
         "min": 3,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -29507,7 +30146,8 @@
         },
         "min": 6,
         "max": 9,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -29538,7 +30178,8 @@
         },
         "min": 10,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -29569,7 +30210,8 @@
         },
         "min": 16,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -29600,7 +30242,8 @@
         },
         "min": 21,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -29630,7 +30273,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -29660,7 +30304,8 @@
         },
         "min": 3,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -29690,7 +30335,8 @@
         },
         "min": 6,
         "max": 9,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -29720,7 +30366,8 @@
         },
         "min": 10,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -29750,7 +30397,8 @@
         },
         "min": 16,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -29798,7 +30446,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -29846,7 +30495,8 @@
         },
         "min": 3,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -29894,7 +30544,8 @@
         },
         "min": 6,
         "max": 9,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -29938,7 +30589,8 @@
         },
         "min": 10,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -29965,7 +30617,8 @@
         },
         "min": 3,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -29992,7 +30645,8 @@
         },
         "min": 2,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -30046,7 +30700,8 @@
         },
         "min": 5,
         "max": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -30073,7 +30728,8 @@
         },
         "min": 4,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -30127,7 +30783,8 @@
         },
         "min": 1,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -30238,7 +30895,8 @@
         },
         "min": 80,
         "max": 90,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "move3",
@@ -31007,7 +31665,8 @@
         },
         "min": 10,
         "max": 8,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -31054,7 +31713,8 @@
         },
         "min": 5,
         "max": 3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -31101,7 +31761,8 @@
         },
         "min": 10,
         "max": 4,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -31141,7 +31802,8 @@
         },
         "min": 10,
         "max": 3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -31181,7 +31843,8 @@
         },
         "min": 12,
         "max": 4,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -31221,7 +31884,8 @@
         },
         "min": 14,
         "max": 5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -31268,7 +31932,8 @@
         },
         "min": 5,
         "max": 3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -31307,7 +31972,8 @@
         },
         "min": 5,
         "max": 3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -31354,7 +32020,8 @@
         },
         "min": 10,
         "max": 3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -31401,7 +32068,8 @@
         },
         "min": 12,
         "max": 4,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -31440,7 +32108,8 @@
         },
         "min": 10,
         "max": 3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -31479,7 +32148,8 @@
         },
         "min": 12,
         "max": 4,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -31518,7 +32188,8 @@
         },
         "min": 14,
         "max": 5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -31565,7 +32236,8 @@
         },
         "min": 5,
         "max": 3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -31612,7 +32284,8 @@
         },
         "min": 50,
         "max": 1,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -31661,7 +32334,8 @@
         },
         "min": 5,
         "max": 3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -31710,7 +32384,8 @@
         },
         "min": 8,
         "max": 3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -31759,7 +32434,8 @@
         },
         "min": 8,
         "max": 5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -31799,7 +32475,8 @@
         },
         "min": 10,
         "max": 3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -31839,7 +32516,8 @@
         },
         "min": 14,
         "max": 3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -31879,7 +32557,8 @@
         },
         "min": 18,
         "max": 3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -31906,7 +32585,8 @@
         },
         "min": 10,
         "max": 3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -31935,7 +32615,8 @@
         },
         "min": -30,
         "max": -10,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -31962,7 +32643,8 @@
         },
         "min": -20,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -31991,7 +32673,8 @@
         },
         "min": -30,
         "max": -10,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32018,7 +32701,8 @@
         },
         "min": -20,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32049,7 +32733,8 @@
         },
         "min": -30,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32076,7 +32761,8 @@
         },
         "min": -20,
         "max": -4,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32106,7 +32792,8 @@
         },
         "min": -60,
         "max": -7,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32133,7 +32820,8 @@
         },
         "min": -20,
         "max": -4,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32162,7 +32850,8 @@
         },
         "min": -30,
         "max": -8,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32189,7 +32878,8 @@
         },
         "min": -20,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32218,7 +32908,8 @@
         },
         "min": -30,
         "max": -8,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32245,7 +32936,8 @@
         },
         "min": -20,
         "max": -4,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32275,7 +32967,8 @@
         },
         "min": -60,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32302,7 +32995,8 @@
         },
         "min": -20,
         "max": -4,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32330,7 +33024,8 @@
         },
         "min": -60,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32357,7 +33052,8 @@
         },
         "min": -20,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32386,7 +33082,8 @@
         },
         "min": -30,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32413,7 +33110,8 @@
         },
         "min": -20,
         "max": -4,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32442,7 +33140,8 @@
         },
         "min": -30,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32470,7 +33169,8 @@
         },
         "min": -20,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32500,7 +33200,8 @@
         },
         "min": -60,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32527,7 +33228,8 @@
         },
         "min": -20,
         "max": -4,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32555,7 +33257,8 @@
         },
         "min": -60,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32582,7 +33285,8 @@
         },
         "min": -20,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32611,7 +33315,8 @@
         },
         "min": -30,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32638,7 +33343,8 @@
         },
         "min": -20,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32667,7 +33373,8 @@
         },
         "min": -30,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32694,7 +33401,8 @@
         },
         "min": -20,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32724,7 +33432,8 @@
         },
         "min": -60,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32751,7 +33460,8 @@
         },
         "min": -20,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32779,7 +33489,8 @@
         },
         "min": -60,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32806,7 +33517,8 @@
         },
         "min": -20,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32835,7 +33547,8 @@
         },
         "min": -30,
         "max": -4,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32862,7 +33575,8 @@
         },
         "min": -20,
         "max": -2,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32892,7 +33606,8 @@
         },
         "min": -60,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32919,7 +33634,8 @@
         },
         "min": -20,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32948,7 +33664,8 @@
         },
         "min": -30,
         "max": -4,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -32975,7 +33692,8 @@
         },
         "min": -20,
         "max": -2,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33005,7 +33723,8 @@
         },
         "min": -60,
         "max": -4,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33032,7 +33751,8 @@
         },
         "min": -20,
         "max": -2,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33060,7 +33780,8 @@
         },
         "min": -60,
         "max": -4,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33087,7 +33808,8 @@
         },
         "min": -20,
         "max": -2,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33115,7 +33837,8 @@
         },
         "min": -30,
         "max": -10,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33144,7 +33867,8 @@
         },
         "min": -20,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33172,7 +33896,8 @@
         },
         "min": -30,
         "max": -10,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33203,7 +33928,8 @@
         },
         "min": -20,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33231,7 +33957,8 @@
         },
         "min": -30,
         "max": -10,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33259,7 +33986,8 @@
         },
         "min": -20,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33287,7 +34015,8 @@
         },
         "min": -30,
         "max": -10,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33316,7 +34045,8 @@
         },
         "min": -20,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33344,7 +34074,8 @@
         },
         "min": -30,
         "max": -8,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33375,7 +34106,8 @@
         },
         "min": -20,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33403,7 +34135,8 @@
         },
         "min": -30,
         "max": -8,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33434,7 +34167,8 @@
         },
         "min": -20,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33462,7 +34196,8 @@
         },
         "min": -30,
         "max": -8,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33492,7 +34227,8 @@
         },
         "min": -20,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33520,7 +34256,8 @@
         },
         "min": -30,
         "max": -8,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33551,7 +34288,8 @@
         },
         "min": -20,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33579,7 +34317,8 @@
         },
         "min": -30,
         "max": -7,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33606,7 +34345,8 @@
         },
         "min": -20,
         "max": -4,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33634,7 +34374,8 @@
         },
         "min": -30,
         "max": -7,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33665,7 +34406,8 @@
         },
         "min": -20,
         "max": -4,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33693,7 +34435,8 @@
         },
         "min": -30,
         "max": -7,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33723,7 +34466,8 @@
         },
         "min": -20,
         "max": -4,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33751,7 +34495,8 @@
         },
         "min": -30,
         "max": -7,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33780,7 +34525,8 @@
         },
         "min": -20,
         "max": -4,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33808,7 +34554,8 @@
         },
         "min": -30,
         "max": -7,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33837,7 +34584,8 @@
         },
         "min": -20,
         "max": -4,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33865,7 +34613,8 @@
         },
         "min": -30,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33892,7 +34641,8 @@
         },
         "min": -20,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33920,7 +34670,8 @@
         },
         "min": -20,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33963,7 +34714,8 @@
         },
         "min": -10,
         "max": -1,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -33991,7 +34743,8 @@
         },
         "min": -30,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34021,7 +34774,8 @@
         },
         "min": -20,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34049,7 +34803,8 @@
         },
         "min": -30,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34077,7 +34832,8 @@
         },
         "min": -20,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34105,7 +34861,8 @@
         },
         "min": -30,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34133,7 +34890,8 @@
         },
         "min": -20,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34161,7 +34919,8 @@
         },
         "min": -30,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34190,7 +34949,8 @@
         },
         "min": -20,
         "max": -2,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34218,7 +34978,8 @@
         },
         "min": -30,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34246,7 +35007,8 @@
         },
         "min": -20,
         "max": -2,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34274,7 +35036,8 @@
         },
         "min": -30,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34304,7 +35067,8 @@
         },
         "min": -20,
         "max": -2,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34332,7 +35096,8 @@
         },
         "min": -30,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34360,7 +35125,8 @@
         },
         "min": -20,
         "max": -2,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34388,7 +35154,8 @@
         },
         "min": -30,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34415,7 +35182,8 @@
         },
         "min": -20,
         "max": -2,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34443,7 +35211,8 @@
         },
         "min": -30,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34470,7 +35239,8 @@
         },
         "min": -20,
         "max": -1,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34498,7 +35268,8 @@
         },
         "min": -30,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34526,7 +35297,8 @@
         },
         "min": -20,
         "max": -1,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34556,7 +35328,8 @@
         },
         "min": -60,
         "max": -10,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34588,7 +35361,8 @@
         },
         "min": -20,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34618,7 +35392,8 @@
         },
         "min": -60,
         "max": -10,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34645,7 +35420,8 @@
         },
         "min": -20,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34675,7 +35451,8 @@
         },
         "min": -60,
         "max": -10,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34702,7 +35479,8 @@
         },
         "min": -20,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34732,7 +35510,8 @@
         },
         "min": -60,
         "max": -10,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34760,7 +35539,8 @@
         },
         "min": -20,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34790,7 +35570,8 @@
         },
         "min": -60,
         "max": -8,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34818,7 +35599,8 @@
         },
         "min": -20,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34848,7 +35630,8 @@
         },
         "min": -60,
         "max": -8,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34875,7 +35658,8 @@
         },
         "min": -20,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34904,7 +35688,8 @@
         },
         "min": -60,
         "max": -8,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34933,7 +35718,8 @@
         },
         "min": -20,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34963,7 +35749,8 @@
         },
         "min": -60,
         "max": -8,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -34990,7 +35777,8 @@
         },
         "min": -20,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35020,7 +35808,8 @@
         },
         "min": -60,
         "max": -8,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35048,7 +35837,8 @@
         },
         "min": -20,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35078,7 +35868,8 @@
         },
         "min": -60,
         "max": -7,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35108,7 +35899,8 @@
         },
         "min": -20,
         "max": -4,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35138,7 +35930,8 @@
         },
         "min": -60,
         "max": -7,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35168,7 +35961,8 @@
         },
         "min": -20,
         "max": -4,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35198,7 +35992,8 @@
         },
         "min": -60,
         "max": -7,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35227,7 +36022,8 @@
         },
         "min": -20,
         "max": -4,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35257,7 +36053,8 @@
         },
         "min": -60,
         "max": -7,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35285,7 +36082,8 @@
         },
         "min": -20,
         "max": -4,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35315,7 +36113,8 @@
         },
         "min": -60,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35343,7 +36142,8 @@
         },
         "min": -20,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35373,7 +36173,8 @@
         },
         "min": -60,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35401,7 +36202,8 @@
         },
         "min": -20,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35431,7 +36233,8 @@
         },
         "min": -60,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35463,7 +36266,8 @@
         },
         "min": -20,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35493,7 +36297,8 @@
         },
         "min": -60,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35523,7 +36328,8 @@
         },
         "min": -20,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35553,7 +36359,8 @@
         },
         "min": -60,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35581,7 +36388,8 @@
         },
         "min": -20,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35611,7 +36419,8 @@
         },
         "min": -60,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35640,7 +36449,8 @@
         },
         "min": -20,
         "max": -2,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35670,7 +36480,8 @@
         },
         "min": -60,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35700,7 +36511,8 @@
         },
         "min": -20,
         "max": -2,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35730,7 +36542,8 @@
         },
         "min": -60,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35758,7 +36571,8 @@
         },
         "min": -20,
         "max": -2,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35788,7 +36602,8 @@
         },
         "min": -60,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35815,7 +36630,8 @@
         },
         "min": -20,
         "max": -2,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35845,7 +36661,8 @@
         },
         "min": -60,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35872,7 +36689,8 @@
         },
         "min": -20,
         "max": -1,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35902,7 +36720,8 @@
         },
         "min": -60,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35929,7 +36748,8 @@
         },
         "min": -20,
         "max": -1,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35959,7 +36779,8 @@
         },
         "min": -60,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -35987,7 +36808,8 @@
         },
         "min": -20,
         "max": -1,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36017,7 +36839,8 @@
         },
         "min": -60,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36044,7 +36867,8 @@
         },
         "min": -20,
         "max": -1,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36074,7 +36898,8 @@
         },
         "min": -60,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36101,7 +36926,8 @@
         },
         "min": -20,
         "max": -1,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36129,7 +36955,8 @@
         },
         "min": -30,
         "max": -10,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36172,7 +36999,8 @@
         },
         "min": -20,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36200,7 +37028,8 @@
         },
         "min": -30,
         "max": -8,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36228,7 +37057,8 @@
         },
         "min": -20,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36256,7 +37086,8 @@
         },
         "min": -30,
         "max": -7,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36299,7 +37130,8 @@
         },
         "min": -20,
         "max": -4,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36327,7 +37159,8 @@
         },
         "min": -30,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36356,7 +37189,8 @@
         },
         "min": -20,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36384,7 +37218,8 @@
         },
         "min": -30,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36411,7 +37246,8 @@
         },
         "min": -20,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36439,7 +37275,8 @@
         },
         "min": -30,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36471,7 +37308,8 @@
         },
         "min": -20,
         "max": -2,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36499,7 +37337,8 @@
         },
         "min": -30,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36526,7 +37365,8 @@
         },
         "min": -20,
         "max": -1,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36553,7 +37393,8 @@
         },
         "min": -60,
         "max": -10,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36596,7 +37437,8 @@
         },
         "min": -20,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36623,7 +37465,8 @@
         },
         "min": -60,
         "max": -10,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36650,7 +37493,8 @@
         },
         "min": -60,
         "max": -10,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36677,7 +37521,8 @@
         },
         "min": -60,
         "max": -8,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36704,7 +37549,8 @@
         },
         "min": -60,
         "max": -8,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36731,7 +37577,8 @@
         },
         "min": -60,
         "max": -7,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36774,7 +37621,8 @@
         },
         "min": -20,
         "max": -4,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36801,7 +37649,8 @@
         },
         "min": -60,
         "max": -7,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36828,7 +37677,8 @@
         },
         "min": -60,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36871,7 +37721,8 @@
         },
         "min": -20,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36898,7 +37749,8 @@
         },
         "min": -60,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36925,7 +37777,8 @@
         },
         "min": -60,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36952,7 +37805,8 @@
         },
         "min": -60,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -36979,7 +37833,8 @@
         },
         "min": -20,
         "max": -2,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -37006,7 +37861,8 @@
         },
         "min": -60,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -37033,7 +37889,8 @@
         },
         "min": -60,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -37060,7 +37917,8 @@
         },
         "min": -30,
         "max": -10,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -37087,7 +37945,8 @@
         },
         "min": -20,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -37114,7 +37973,8 @@
         },
         "min": -30,
         "max": -8,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -37141,7 +38001,8 @@
         },
         "min": -20,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -37168,7 +38029,8 @@
         },
         "min": -30,
         "max": -7,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -37195,7 +38057,8 @@
         },
         "min": -20,
         "max": -4,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -37222,7 +38085,8 @@
         },
         "min": -30,
         "max": -7,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -37249,7 +38113,8 @@
         },
         "min": -20,
         "max": -4,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -37276,7 +38141,8 @@
         },
         "min": -30,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -37304,7 +38170,8 @@
         },
         "min": -20,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -37331,7 +38198,8 @@
         },
         "min": -30,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -37358,7 +38226,8 @@
         },
         "min": -20,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -37385,7 +38254,8 @@
         },
         "min": -30,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -37413,7 +38283,8 @@
         },
         "min": -20,
         "max": -2,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -37440,7 +38311,8 @@
         },
         "min": -30,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -37467,7 +38339,8 @@
         },
         "min": -20,
         "max": -1,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -37494,7 +38367,8 @@
         },
         "min": -30,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -37522,7 +38396,8 @@
         },
         "min": -20,
         "max": -1,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -37569,7 +38444,8 @@
         },
         "min": 5,
         "max": 1,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -37596,7 +38472,8 @@
         },
         "min": 2,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-max",
@@ -37607,7 +38484,8 @@
         },
         "min": 6,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-len",
@@ -37645,7 +38523,8 @@
         },
         "min": 4,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-max",
@@ -37656,7 +38535,8 @@
         },
         "min": 11,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-len",
@@ -37694,7 +38574,8 @@
         },
         "min": 4,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-max",
@@ -37705,7 +38586,8 @@
         },
         "min": 11,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -37732,7 +38614,8 @@
         },
         "min": 11,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-max",
@@ -37743,7 +38626,8 @@
         },
         "min": 31,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -37770,7 +38654,8 @@
         },
         "min": 21,
         "max": 60,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -37808,7 +38693,8 @@
         },
         "min": 61,
         "max": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -37846,7 +38732,8 @@
         },
         "min": 4,
         "max": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -37873,7 +38760,8 @@
         },
         "min": 7,
         "max": 9,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -37900,7 +38788,8 @@
         },
         "min": 4,
         "max": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -37927,7 +38816,8 @@
         },
         "min": 7,
         "max": 9,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -37954,7 +38844,8 @@
         },
         "min": 5,
         "max": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -37981,7 +38872,8 @@
         },
         "min": 7,
         "max": 9,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -38089,7 +38981,8 @@
         },
         "min": 3,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -38570,7 +39463,8 @@
         },
         "min": 3,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-min",
@@ -38619,7 +39513,8 @@
         },
         "min": 5,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-min",
@@ -38668,7 +39563,8 @@
         },
         "min": 4,
         "max": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-max",
@@ -38679,7 +39575,8 @@
         },
         "min": 8,
         "max": 11,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-len",
@@ -38717,7 +39614,8 @@
         },
         "min": 2,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-min",
@@ -38766,7 +39664,8 @@
         },
         "min": 4,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-min",
@@ -38815,7 +39714,8 @@
         },
         "min": 6,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-min",
@@ -38864,7 +39764,8 @@
         },
         "min": 4,
         "max": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-max",
@@ -38875,7 +39776,8 @@
         },
         "min": 9,
         "max": 12,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-len",
@@ -38962,7 +39864,8 @@
         },
         "min": 3,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-min",
@@ -39011,7 +39914,8 @@
         },
         "min": 5,
         "max": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-min",
@@ -39060,7 +39964,8 @@
         },
         "min": 4,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-max",
@@ -39071,7 +39976,8 @@
         },
         "min": 7,
         "max": 9,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-len",
@@ -39147,7 +40053,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-max",
@@ -39185,7 +40092,8 @@
         },
         "min": 2,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-max",
@@ -39196,7 +40104,8 @@
         },
         "min": 4,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -39223,7 +40132,8 @@
         },
         "min": 4,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-max",
@@ -39234,7 +40144,8 @@
         },
         "min": 8,
         "max": 14,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -39299,7 +40210,8 @@
         },
         "min": 3,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-min",
@@ -39337,7 +40249,8 @@
         },
         "min": 3,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-max",
@@ -39348,7 +40261,8 @@
         },
         "min": 6,
         "max": 11,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -39375,7 +40289,8 @@
         },
         "min": 6,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-max",
@@ -39386,7 +40301,8 @@
         },
         "min": 12,
         "max": 17,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -39451,7 +40367,8 @@
         },
         "min": 3,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-min",
@@ -39489,7 +40406,8 @@
         },
         "min": 3,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-max",
@@ -39500,7 +40418,8 @@
         },
         "min": 5,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -39527,7 +40446,8 @@
         },
         "min": 5,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-max",
@@ -39538,7 +40458,8 @@
         },
         "min": 9,
         "max": 13,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -39565,7 +40486,8 @@
         },
         "min": 2,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -39603,7 +40525,8 @@
         },
         "min": 4,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -39641,7 +40564,8 @@
         },
         "min": 8,
         "max": 21,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -39679,7 +40603,8 @@
         },
         "min": 22,
         "max": 33,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -39717,7 +40642,8 @@
         },
         "min": 3,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -39755,7 +40681,8 @@
         },
         "min": 6,
         "max": 13,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -39793,7 +40720,8 @@
         },
         "min": 14,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -39831,7 +40759,8 @@
         },
         "min": 26,
         "max": 38,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -39869,7 +40798,8 @@
         },
         "min": 3,
         "max": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -39907,7 +40837,8 @@
         },
         "min": 7,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -39945,7 +40876,8 @@
         },
         "min": 11,
         "max": 18,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -39983,7 +40915,8 @@
         },
         "min": 19,
         "max": 28,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-min",
@@ -40229,7 +41162,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -40323,7 +41257,8 @@
         },
         "min": 1,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -40452,7 +41387,8 @@
         },
         "min": 2,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -40479,7 +41415,8 @@
         },
         "min": 4,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -40533,7 +41470,8 @@
         },
         "min": 2,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -40560,7 +41498,8 @@
         },
         "min": 4,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -40642,7 +41581,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -40677,7 +41617,8 @@
         },
         "min": 1,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -40728,7 +41669,8 @@
         },
         "min": 1,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -40755,7 +41697,8 @@
         },
         "min": 2,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -40810,7 +41753,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -40845,7 +41789,8 @@
         },
         "min": 1,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -40896,7 +41841,8 @@
         },
         "min": 1,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -40923,7 +41869,8 @@
         },
         "min": 2,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -40978,7 +41925,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -41013,7 +41961,8 @@
         },
         "min": 1,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -41064,7 +42013,8 @@
         },
         "min": 1,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -41091,7 +42041,8 @@
         },
         "min": 2,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -41146,7 +42097,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -41181,7 +42133,8 @@
         },
         "min": 1,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -41232,7 +42185,8 @@
         },
         "min": 1,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -41259,7 +42213,8 @@
         },
         "min": 2,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -41314,7 +42269,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -41349,7 +42305,8 @@
         },
         "min": 1,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -41400,7 +42357,8 @@
         },
         "min": 1,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -41427,7 +42385,8 @@
         },
         "min": 2,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -41482,7 +42441,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -41517,7 +42477,8 @@
         },
         "min": 1,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -41568,7 +42529,8 @@
         },
         "min": 1,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -41595,7 +42557,8 @@
         },
         "min": 2,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -41625,7 +42588,8 @@
         },
         "min": -60,
         "max": -10,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -41652,7 +42616,8 @@
         },
         "min": -20,
         "max": -6,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -41682,7 +42647,8 @@
         },
         "min": -60,
         "max": -8,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -41710,7 +42676,8 @@
         },
         "min": -20,
         "max": -5,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -41740,7 +42707,8 @@
         },
         "min": -60,
         "max": -7,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -41770,7 +42738,8 @@
         },
         "min": -20,
         "max": -4,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -41800,7 +42769,8 @@
         },
         "min": -60,
         "max": -3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   },
@@ -41827,7 +42797,8 @@
         },
         "min": -20,
         "max": -1,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": false
       }
     ]
   }

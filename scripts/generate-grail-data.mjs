@@ -313,6 +313,37 @@ const SKILL_REF_PROPS = new Set([
 ]);
 const CODE_ALIASES = { 'Gethit-skill': 'gethit-skill' };
 
+// Codes whose positive values d2r.world always shows with an explicit "+"
+// sign (either as "+X to Label"/"+X% Label", or as "Label +X" — this
+// project's own "Label: Value" layout doesn't distinguish prefix/suffix
+// position, so both collapse to "show + before the number"). Negative
+// values already render their own "-" via plain JS number-to-string
+// conversion, so this only ever adds a "+", never removes a "-".
+// Hand-verified against MyInput/MyData's en-US runeword/unique/set dumps
+// this session (e.g. Chains of Honor: "+2 to All Skills", "+200% Damage to
+// Demons", "+70% Enhanced Defense", "+20 to Strength", "Replenish Life +7",
+// "All Resistances +65"). Codes with no direct dump evidence are left out
+// deliberately rather than guessed — most of those are percentage-rate/
+// sentence/flag stats that read correctly without a plus (e.g. "8% Life
+// stolen per hit", "Requirements -15%", "Adds 5-30 fire damage").
+const ADDITIVE_SIGN_CODES = new Set([
+  'str', 'dex', 'vit', 'enr',
+  'ac%', 'ac-hth', 'ac-miss',
+  'dmg%', 'dmg-min', 'dmg-max', 'dmg-undead', 'dmg-demon', 'dmg-und',
+  'att', 'att%', 'att-undead', 'att-demon', 'att-und',
+  'deadly', 'crush', 'openwounds', 'pierce',
+  'cast1', 'cast2', 'cast3', 'balance1', 'balance2', 'balance3',
+  'move1', 'move2', 'move3', 'block2', 'swing1', 'swing2', 'swing3',
+  'light', 'allskills', 'skill', 'oskill',
+  'ama', 'ass', 'bar', 'dru', 'nec', 'pal', 'sor', 'war',
+  'skilltab', 'skilltab-war', 'skill-rand', 'randclassskill',
+  'heal-kill', 'mana-kill', 'demon-heal', 'addxp',
+  'abs-mag', 'abs-ltng', 'abs-cold', 'abs-fire', 'abs-ltng%', 'abs-cold%', 'abs-fire%',
+  'res-all', 'res-cold', 'res-fire', 'res-ltng', 'res-pois', 'res-mag',
+  'res-all-max', 'res-fire-max', 'res-cold-max', 'res-ltng-max', 'res-pois-max',
+  'regen', 'howl',
+]);
+
 // `skilltab`'s `par` identifies a specific skill *tab* (e.g. Necromancer
 // Curses), the same collision-prone shape as SKILL_REF_PROPS above — but
 // unlike individual skills, none of skills.json/skilldesc.json/playerclass.json
@@ -471,6 +502,31 @@ function chargedEntry(code, par, min, max) {
       en: `Level ${max} ${skill.en} (${min} Charges)`,
       'zh-TW': `等級 ${max} ${skill['zh-TW']}（${min} 次）`,
       'zh-CN': `等级 ${max} ${skill['zh-CN']}（${min} 次）`,
+    },
+    composed: true,
+  };
+}
+
+// "reanimate" (Chance to Reanimate as Monster %) previously showed a bare
+// percentage with no monster name at all — its `par` field is a numeric
+// monster id, but this project's vendor snapshot has no monster-name data
+// source (no monstats.json equivalent) to resolve it generically. Tomb
+// Reaver is the ONLY unique/set item using this code in the whole vendor
+// snapshot (confirmed: single occurrence, par=1), so hand-verified directly
+// against d2r.world's Tomb Reaver page instead: "10% Reanimate as: Returned"
+// / zh-TW "10% 機率將目標復生為：返世亡靈".
+const REANIMATE_MONSTER_NAMES = {
+  1: { en: 'Returned', 'zh-TW': '返世亡靈' },
+};
+function reanimateEntry(code, par, min, max) {
+  if (code !== 'reanimate' || min === undefined || max === undefined || min !== max) return null;
+  const monster = REANIMATE_MONSTER_NAMES[par];
+  if (!monster) return null;
+  return {
+    label: {
+      en: `${min}% Reanimate as: ${monster.en}`,
+      'zh-TW': `${min}% 機率將目標復生為：${monster['zh-TW']}`,
+      'zh-CN': `${min}% 机率将目标复生为：${toZhCn(monster['zh-TW'])}`,
     },
     composed: true,
   };
@@ -741,6 +797,72 @@ function gradeFor(code) {
   return 'normal';
 }
 
+// Weapon base speed ("Base Weapon Speed" on d2r.world) has no equivalent
+// field in this project's vendored snapshot at all (no WeaponClass table),
+// and it's a property of the base item TYPE, not of individual unique/set
+// items, so it can't be derived from anything already extracted. Built by
+// cross-referencing every unique/set item's own "Base Weapon Speed" value
+// across MyInput/MyData's en-US dump this session (265 item blocks, 211
+// distinct base names, zero conflicting values across items sharing a
+// base) — confirmed against d2r.world's Tomb Reaver page ("Cryptic Axe": 10)
+// among others. Non-weapon bases (armor/shields/jewelry) intentionally
+// have no entry here.
+const WEAPON_BASE_SPEED = {
+  "Ancient Axe": 10, "Ancient Sword": 0, "Arbalest": -10, "Archon Staff": 10,
+  "Ataghan": -20, "Axe": 10, "Ballista": 10, "Balrog Blade": 0,
+  "Balrog Spear": 10, "Barbed Club": 0, "Bardiche": 10, "Bastard Sword": 10,
+  "Battle Axe": 10, "Battle Cestus": -10, "Battle Dart": 0, "Battle Hammer": 20,
+  "Battle Scythe": -10, "Battle Staff": 0, "Battle Sword": 0, "Bearded Axe": 0,
+  "Bec-de-Corbin": 0, "Berserker Axe": 0, "Bill": 0, "Blade": -10,
+  "Bone Knife": -20, "Bone Wand": -20, "Brandistock": -20, "Broad Axe": 0,
+  "Broad Sword": 0, "Burnt Wand": 0, "Caduceus": -10, "Cedar Bow": 0,
+  "Cedar Staff": 10, "Ceremonial Bow": 10, "Ceremonial Javelin": -10, "Ceremonial Pike": 20,
+  "Champion Axe": -10, "Champion Sword": -10, "Chu-Ko-Nu": -60, "Cinquedeas": -20,
+  "Claymore": 10, "Cleaver": 10, "Club": -10, "Colossus Blade": 5,
+  "Colossus Crossbow": 10, "Composite Bow": -10, "Crossbow": 0, "Crowbill": -10,
+  "Crusader Bow": 10, "Cryptic Axe": 10, "Cryptic Sword": -10, "Cudgel": -10,
+  "Cutlass": -30, "Dacian Falx": 10, "Dagger": -20, "Decapitator": 10,
+  "Demon Crossbow": -60, "Devil Star": 10, "Dimensional Blade": 0, "Dimensional Shard": 10,
+  "Dirk": 0, "Divine Scepter": -10, "Double Axe": 10, "Double Bow": -10,
+  "Edge Bow": 5, "Elder Staff": 0, "Eldritch Orb": -10, "Elegant Blade": -10,
+  "Espandon": 0, "Ettin Axe": 10, "Executioner Sword": 10, "Falchion": 20,
+  "Fanged Knife": -20, "Feral Claws": -20, "Flail": -10, "Flamberge": -10,
+  "Flanged Mace": 0, "Flying Axe": 10, "Francisca": 10, "Fuscina": 0,
+  "Ghost Glaive": 20, "Giant Axe": 10, "Giant Sword": 0, "Giant Thresher": -10,
+  "Gladius": 0, "Glorious Axe": 10, "Gnarled Staff": 10, "Gothic Axe": -10,
+  "Gothic Bow": 10, "Gothic Staff": 0, "Gothic Sword": 10, "Grand Matron Bow": 10,
+  "Grand Scepter": 10, "Grave Wand": 0, "Great Axe": -10, "Great Maul": 20,
+  "Great Sword": 10, "Greater Talons": -30, "Grim Scythe": -10, "Grim Wand": 0,
+  "Halberd": 0, "Hand Axe": 0, "Hatchet": 0, "Heavy Crossbow": 10,
+  "Holy Water Sprinkler": 10, "Hunter's Bow": -10, "Hydra Bow": 10, "Hyperion Spear": -10,
+  "Jagged Star": 10, "Jo Staff": -10, "Knout": -10, "Kris": -20,
+  "Lance": 20, "Large Axe": -10, "Large Siege Bow": 10, "Legend Spike": -10,
+  "Legend Sword": -15, "Legendary Mallet": 20, "Lich Wand": -20, "Light Crossbow": -10,
+  "Lochaber Axe": 10, "Long Battle Bow": 10, "Long Bow": 0, "Long Staff": 0,
+  "Long Sword": -10, "Long War Bow": 10, "Mace": 0, "Mancatcher": -20,
+  "Martel de Fer": 20, "Matriarchal Bow": -10, "Matriarchal Javelin": -10, "Matriarchal Spear": 0,
+  "Maul": 10, "Mighty Scepter": 0, "Military Axe": -10, "Military Pick": -10,
+  "Mithril Point": 0, "Morning Star": 10, "Mythical Sword": 0, "Naga": 0,
+  "Ogre Axe": 0, "Ogre Maul": 10, "Partizan": 10, "Petrified Wand": 10,
+  "Phase Blade": -30, "Pike": 20, "Poignard": -20, "Poleaxe": 10,
+  "Quarterstaff": 0, "Razor Bow": -10, "Reinforced Mace": 0, "Repeating Crossbow": -40,
+  "Rondel": 0, "Rune Bow": 0, "Rune Scepter": 0, "Rune Staff": 20,
+  "Rune Sword": -10, "Sabre": -10, "Scepter": 0, "Scimitar": -20,
+  "Scissors Suwayyah": 0, "Scourge": -10, "Scythe": -10, "Shamshir": -10,
+  "Short Battle Bow": 0, "Short Bow": 5, "Short Siege Bow": 0, "Short Staff": -10,
+  "Short Sword": 0, "Short War Bow": 0, "Siege Crossbow": 0, "Silver-edged Axe": 0,
+  "Spear": -10, "Spetum": 0, "Spiked Club": 0, "Stiletto": -10,
+  "Swirling Crystal": 10, "Tabar": 10, "Thresher": -10, "Thunder Maul": 20,
+  "Tomahawk": 0, "Tomb Wand": -20, "Trident": 0, "Truncheon": -10,
+  "Tulwar": 20, "Tusk Sword": 0, "Twin Axe": 10, "Two-Handed Sword": 0,
+  "Tyrant Club": 0, "Unearthed Wand": 0, "Voulge": 0, "Wand": 0,
+  "War Axe": 0, "War Club": 10, "War Fork": -20, "War Hammer": 20,
+  "War Pike": 20, "War Scepter": -10, "War Scythe": -10, "War Spear": -10,
+  "War Spike": -10, "War Staff": 20, "War Sword": 0, "Ward Bow": 0,
+  "Winged Axe": -10, "Winged Harpoon": -10, "Winged Knife": -20, "Wrist Sword": -10,
+  "Yari": 0, "Yew Wand": 10, "Zweihander": -10,
+};
+
 function baseFieldsFor(code) {
   const base = items[code];
   const englishBaseName = base?.name ?? code;
@@ -760,6 +882,7 @@ function baseFieldsFor(code) {
     // previously omitted entirely for every weapon-type unique/set item.
     requiredDexterity: base?.reqdex ?? null,
     ...(base ? damageFor(base) : { oneHandDamage: null, twoHandDamage: null }),
+    weaponSpeed: base ? WEAPON_BASE_SPEED[englishBaseName] ?? null : null,
     durability: base?.durability ?? null,
   };
 }
@@ -929,14 +1052,19 @@ function extractProps(entry, count, prefixes = { code: 'prop', par: 'par', min: 
       fixed.push({ key, label: charged.label, value: null, isSkillRef: false, composed: true });
       continue;
     }
+    const reanimate = reanimateEntry(code, par, min, max);
+    if (reanimate) {
+      fixed.push({ key, label: reanimate.label, value: null, isSkillRef: false, composed: true });
+      continue;
+    }
     const dmgPois = scaleDmgPoisWithPar(code, par, min, max);
     const effectiveLabel = dmgPois ? dmgPois.label : label;
     if (dmgPois) ({ min, max } = dmgPois);
     const pierceNeg = negatePierceResist(code, min, max);
     if (pierceNeg) ({ min, max } = pierceNeg);
     if (min !== undefined && max !== undefined) {
-      if (min === max) fixed.push({ key, label: effectiveLabel, value: min, isSkillRef });
-      else variable.push({ key, label: effectiveLabel, min, max, isSkillRef });
+      if (min === max) fixed.push({ key, label: effectiveLabel, value: min, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) });
+      else variable.push({ key, label: effectiveLabel, min, max, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) });
       continue;
     }
     // Some props (level-scaling stats like hp/lvl, dmg/lvl; also sock,
@@ -946,7 +1074,7 @@ function extractProps(entry, count, prefixes = { code: 'prop', par: 'par', min: 
     // (Based on Character Level) and Windforce's scaling max damage
     // disappear entirely.
     if (par !== undefined) {
-      fixed.push({ key, label, value: par, isSkillRef });
+      fixed.push({ key, label, value: par, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) });
     }
   }
   const merged = mergePoisonDamageOverTime(fixed);
@@ -980,18 +1108,23 @@ function extractSetBonuses(entry) {
         bonuses.push({ key, label: charged.label, min: 0, max: 0, isSkillRef: false, composed: true });
         continue;
       }
+      const reanimate = reanimateEntry(code, par, min, max);
+      if (reanimate) {
+        bonuses.push({ key, label: reanimate.label, min: 0, max: 0, isSkillRef: false, composed: true });
+        continue;
+      }
       const dmgPois = scaleDmgPoisWithPar(code, par, min, max);
       const effectiveLabel = dmgPois ? dmgPois.label : label;
       if (dmgPois) ({ min, max } = dmgPois);
       if (min !== undefined && max !== undefined) {
-        bonuses.push({ key, label: effectiveLabel, min, max, isSkillRef });
+        bonuses.push({ key, label: effectiveLabel, min, max, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) });
         continue;
       }
       // Same par-only case as extractProps (level-scaling bonuses like
       // att/lvl, ac/lvl) — surface as a fixed min===max entry rather than
       // silently dropping the bonus line.
       if (par !== undefined) {
-        bonuses.push({ key, label, min: par, max: par, isSkillRef });
+        bonuses.push({ key, label, min: par, max: par, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) });
       }
     }
   }
@@ -1018,7 +1151,7 @@ const UNSPAWNABLE_UNIQUE_CODES = new Set(['vip']);
 // RUNEWORD_NAME_OVERRIDES precedent for vendor gaps. Pools 2-5 are identical
 // across all six charms; only pool 1 (the charm's own element) differs.
 function pool(...options) {
-  return { options: options.map(([key, min, max]) => ({ key, label: localizedLabelFor(key), min, max, isSkillRef: false })) };
+  return { options: options.map(([key, min, max]) => ({ key, label: localizedLabelFor(key), min, max, isSkillRef: false, signed: ADDITIVE_SIGN_CODES.has(key) })) };
 }
 const RENEWED_CHARM_SHARED_POOLS = [
   pool(['mag%', 14, 25], ['gold%', 20, 55]),
@@ -1036,10 +1169,41 @@ const RENEWED_CHARM_POOLS = {
 };
 const RENEWED_CHARM_IDS = new Set(Object.keys(RENEWED_CHARM_POOLS));
 
+// d2r.world's weapon damage rows aren't the base item's flat damage — they
+// fold in the item's own Enhanced Damage % roll, showing each end of the
+// base range as its own (low-high) sub-range. Confirmed against Tomb Reaver
+// this session: base Cryptic Axe two-hand damage 33-150, item's own
+// "+200-280% Enhanced Damage" -> d2r.world shows "(99-125) to (450-570)"
+// (round(33*3.00)=99, round(33*3.80)=125, round(150*3.00)=450,
+// round(150*3.80)=570). Previously showed the flat unscaled base range
+// (33-150) with no regard for the item's own dmg% roll at all. When an item
+// has no dmg% stat (or a fixed/non-random one), low===high and this
+// collapses back to a single plain range — ItemStatCard renders that case
+// without the extra parentheses.
+function findDmgPercent(variable, fixed) {
+  const v = variable.find(s => s.key === 'dmg%');
+  if (v) return { min: v.min, max: v.max };
+  const f = fixed.find(s => s.key === 'dmg%');
+  if (f) return { min: f.value, max: f.value };
+  return null;
+}
+function scaleDamageRange(raw, edStat) {
+  if (!raw) return null;
+  const edMin = edStat?.min ?? 0;
+  const edMax = edStat?.max ?? 0;
+  const scale = (v, ed) => Math.round(v * (1 + ed / 100));
+  return {
+    min: { low: scale(raw.min, edMin), high: scale(raw.min, edMax) },
+    max: { low: scale(raw.max, edMin), high: scale(raw.max, edMax) },
+  };
+}
+
 const uniquesOut = Object.entries(uniqueItems)
   .filter(([id, v]) => (v.spawnable === 1 || RENEWED_CHARM_IDS.has(id)) && !UNSPAWNABLE_UNIQUE_CODES.has(v.code))
   .map(([id, v]) => {
     const { variable, fixed } = extractProps(v, 10, { code: 'prop', par: 'par', min: 'min', max: 'max' });
+    const fields = baseFieldsFor(v.code);
+    const edStat = findDmgPercent(variable, fixed);
     return {
       id: `unique-${id}`,
       code: v.code,
@@ -1047,7 +1211,9 @@ const uniquesOut = Object.entries(uniqueItems)
       kind: 'unique',
       setName: null,
       levelReq: v['lvl req'] ?? 0,
-      ...baseFieldsFor(v.code),
+      ...fields,
+      oneHandDamage: scaleDamageRange(fields.oneHandDamage, edStat),
+      twoHandDamage: scaleDamageRange(fields.twoHandDamage, edStat),
       invFile: v.invfile || items[v.code]?.invfile || '',
       stats: variable,
       fixedStats: fixed,
@@ -1062,6 +1228,8 @@ const setsOut = Object.entries(setItemsRaw)
   .filter(([, v]) => v.spawnable === 1)
   .map(([, v]) => {
     const { variable, fixed } = extractProps(v, 7, { code: 'prop', par: 'par', min: 'min', max: 'max' });
+    const fields = baseFieldsFor(v.item);
+    const edStat = findDmgPercent(variable, fixed);
     return {
       id: `set-${v['*ID']}`,
       code: v.item,
@@ -1077,7 +1245,9 @@ const setsOut = Object.entries(setItemsRaw)
       // Sacred Charge: setitems.txt lvl req=61, but base Colossus Blade's own
       // levelreq=63, and d2r.world shows Required Level 63).
       levelReq: Math.max(v['lvl req'] ?? 0, items[v.item]?.levelreq ?? 0),
-      ...baseFieldsFor(v.item),
+      ...fields,
+      oneHandDamage: scaleDamageRange(fields.oneHandDamage, edStat),
+      twoHandDamage: scaleDamageRange(fields.twoHandDamage, edStat),
       invFile: v.invfile || items[v.item]?.invfile || '',
       stats: variable,
       fixedStats: fixed,
@@ -1312,11 +1482,15 @@ const setGroupsOut = Object.values(setsFullData)
         if (charged) {
           return [{ key, label: charged.label, min: 0, max: 0, isSkillRef: false, composed: true }];
         }
+        const reanimate = reanimateEntry(code, par, min, max);
+        if (reanimate) {
+          return [{ key, label: reanimate.label, min: 0, max: 0, isSkillRef: false, composed: true }];
+        }
         const dmgPois = scaleDmgPoisWithPar(code, par, min, max);
         const effectiveLabel = dmgPois ? dmgPois.label : label;
         if (dmgPois) ({ min, max } = dmgPois);
         if (min !== undefined && max !== undefined) {
-          return [{ key, label: effectiveLabel, min, max, isSkillRef }];
+          return [{ key, label: effectiveLabel, min, max, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) }];
         }
         // Same par-only case as extractProps/extractSetBonuses/fullSetBonuses
         // (level-scaling bonuses like dmg-ltng/lvl) — surface as a fixed
@@ -1325,7 +1499,7 @@ const setGroupsOut = Object.values(setsFullData)
         // 2-piece tier grants a dmg-ltng/lvl bonus (PCode2b, PParam2b=16,
         // no PMin2b/PMax2b) that this loop was dropping entirely.
         if (par !== undefined) {
-          return [{ key, label: effectiveLabel, min: par, max: par, isSkillRef }];
+          return [{ key, label: effectiveLabel, min: par, max: par, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) }];
         }
         return [];
       });
@@ -1355,11 +1529,16 @@ const setGroupsOut = Object.values(setsFullData)
         fullSetBonuses.push({ key, label: charged.label, min: 0, max: 0, isSkillRef: false, composed: true });
         continue;
       }
+      const reanimate = reanimateEntry(code, par, min, max);
+      if (reanimate) {
+        fullSetBonuses.push({ key, label: reanimate.label, min: 0, max: 0, isSkillRef: false, composed: true });
+        continue;
+      }
       const dmgPois = scaleDmgPoisWithPar(code, par, min, max);
       const effectiveLabel = dmgPois ? dmgPois.label : label;
       if (dmgPois) ({ min, max } = dmgPois);
       if (min !== undefined && max !== undefined) {
-        fullSetBonuses.push({ key, label: effectiveLabel, min, max, isSkillRef });
+        fullSetBonuses.push({ key, label: effectiveLabel, min, max, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) });
         continue;
       }
       // Same par-only case as extractProps/extractSetBonuses (level-scaling
@@ -1368,7 +1547,7 @@ const setGroupsOut = Object.values(setsFullData)
       // d2r.world this session: Arctic Gear and Vidala's Rig both have an
       // FCode1 dmg-cold/lvl full-set bonus that this loop was dropping.
       if (par !== undefined) {
-        fullSetBonuses.push({ key, label, min: par, max: par, isSkillRef });
+        fullSetBonuses.push({ key, label, min: par, max: par, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) });
       }
     }
 
@@ -1517,9 +1696,13 @@ function rwStat(code, min, max, par) {
   if (charged) {
     return { key, label: charged.label, min: 0, max: 0, isSkillRef: false, composed: true };
   }
+  const reanimate = reanimateEntry(resolvedCode, par, min, max);
+  if (reanimate) {
+    return { key, label: reanimate.label, min: 0, max: 0, isSkillRef: false, composed: true };
+  }
   const isSkillRef = SKILL_REF_PROPS.has(resolvedCode);
   const label = isSkillRef ? localizedLabelWithSkill(resolvedCode, par) : localizedLabelFor(resolvedCode);
-  return { key, label, min, max, isSkillRef };
+  return { key, label, min, max, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(resolvedCode) };
 }
 // A few runewords grant a stat only when socketed into one of several
 // allowed base-item types (e.g. Dragon's "Increase Maximum Mana 5%" applies
@@ -2758,7 +2941,7 @@ const runewordsFullOut = Object.entries(runesData)
     const vendorExtracted = extractProps(v, 8, { code: 'T1Code', par: 'T1Param', min: 'T1Min', max: 'T1Max' });
     const override = RUNEWORD_STAT_OVERRIDES[outputName];
     const { variable, fixed } = override
-      ? { variable: override.filter(s => s.min !== s.max), fixed: override.filter(s => s.min === s.max).map(s => ({ key: s.key, label: s.label, value: s.min, isSkillRef: s.isSkillRef, composed: s.composed })) }
+      ? { variable: override.filter(s => s.min !== s.max), fixed: override.filter(s => s.min === s.max).map(s => ({ key: s.key, label: s.label, value: s.min, isSkillRef: s.isSkillRef, composed: s.composed, signed: s.signed })) }
       : vendorExtracted;
     const curated = runewordsCurated.find(r => normalizeRunewordName(r.name) === normalizeRunewordName(outputName));
     return {
@@ -2991,6 +3174,11 @@ function runeStatsFor(entry, prefix) {
       fixed.push({ key, label: charged.label, value: 0, isSkillRef: false, composed: true });
       continue;
     }
+    const reanimate = reanimateEntry(code, par, min, max);
+    if (reanimate) {
+      fixed.push({ key, label: reanimate.label, value: 0, isSkillRef: false, composed: true });
+      continue;
+    }
     // dmg-pois carries a par-encoded duration (frames) rather than being a
     // literal displayed min/max, same as everywhere else in this file (see
     // scaleDmgPoisWithPar above) — Tal Rune's weapon mod is exactly this case:
@@ -3006,12 +3194,12 @@ function runeStatsFor(entry, prefix) {
       continue;
     }
     if (min !== undefined && max !== undefined) {
-      if (min === max) fixed.push({ key, label, value: min, isSkillRef });
-      else variable.push({ key, label, min, max, isSkillRef });
+      if (min === max) fixed.push({ key, label, value: min, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) });
+      else variable.push({ key, label, min, max, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) });
       continue;
     }
     if (par !== undefined) {
-      fixed.push({ key, label, value: par, isSkillRef });
+      fixed.push({ key, label, value: par, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) });
     }
   }
   return [...variable, ...fixed.map(f => ({ key: f.key, label: f.label, min: f.value, max: f.value, isSkillRef: f.isSkillRef, composed: f.composed }))];
@@ -3084,13 +3272,18 @@ function extractCraftModProps(entry, count) {
       fixed.push({ key, label: charged.label, value: null, isSkillRef: false, composed: true });
       continue;
     }
+    const reanimate = reanimateEntry(code, par, min, max);
+    if (reanimate) {
+      fixed.push({ key, label: reanimate.label, value: null, isSkillRef: false, composed: true });
+      continue;
+    }
     if (min !== undefined && max !== undefined) {
-      if (min === max) fixed.push({ key, label, value: min, isSkillRef });
-      else variable.push({ key, label, min, max, isSkillRef });
+      if (min === max) fixed.push({ key, label, value: min, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) });
+      else variable.push({ key, label, min, max, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) });
       continue;
     }
     if (par !== undefined) {
-      fixed.push({ key, label, value: par, isSkillRef });
+      fixed.push({ key, label, value: par, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) });
     }
   }
   return { variable, fixed };
@@ -3559,8 +3752,8 @@ function extractMagicAffixStats(entry) {
     const min = entry[`mod${n}min`];
     const max = entry[`mod${n}max`];
     if (min !== undefined && max !== undefined) {
-      if (min === max) fixed.push({ key, label, value: min, isSkillRef });
-      else variable.push({ key, label, min, max, isSkillRef });
+      if (min === max) fixed.push({ key, label, value: min, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) });
+      else variable.push({ key, label, min, max, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) });
       continue;
     }
     // Some mods (e.g. "sock" on Artificer's/Jeweler's, "ac/lvl" on Miocene)
@@ -3568,7 +3761,7 @@ function extractMagicAffixStats(entry) {
     // shape extractProps already handles for uniqueitems.json/setitems.json.
     // Without this fallback these affixes silently end up with zero stats.
     if (par !== undefined) {
-      fixed.push({ key, label, value: par, isSkillRef });
+      fixed.push({ key, label, value: par, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) });
       continue;
     }
     // "of Ages" (suffix 404, mod1code "indestruct") has no min/max/param at

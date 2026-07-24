@@ -25,7 +25,8 @@
             },
             "min": 150,
             "max": 150,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": true
           }
         ]
       },
@@ -41,7 +42,8 @@
             },
             "min": 50,
             "max": 50,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       }
@@ -56,7 +58,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dru",
@@ -67,7 +70,8 @@
         },
         "min": 3,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "ac",
@@ -78,7 +82,8 @@
         },
         "min": 150,
         "max": 150,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "manasteal",
@@ -89,7 +94,8 @@
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "mana",
@@ -100,7 +106,8 @@
         },
         "min": 150,
         "max": 150,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "dmg%",
@@ -111,7 +118,8 @@
         },
         "min": 350,
         "max": 350,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -141,7 +149,8 @@
             },
             "min": 10,
             "max": 10,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": true
           }
         ]
       },
@@ -157,7 +166,8 @@
             },
             "min": 50,
             "max": 50,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       }
@@ -172,7 +182,8 @@
         },
         "min": 25,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "half-freeze",
@@ -183,7 +194,8 @@
         },
         "min": 1,
         "max": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "mag%",
@@ -194,7 +206,8 @@
         },
         "min": 40,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "regen-mana",
@@ -205,7 +218,8 @@
         },
         "min": 8,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -235,7 +249,8 @@
             },
             "min": 50,
             "max": 50,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       },
@@ -251,7 +266,8 @@
             },
             "min": 50,
             "max": 50,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           },
           {
             "key": "regen-mana",
@@ -262,7 +278,8 @@
             },
             "min": 12,
             "max": 12,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       }
@@ -277,7 +294,8 @@
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "manasteal",
@@ -288,7 +306,8 @@
         },
         "min": 5,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "mana",
@@ -299,7 +318,8 @@
         },
         "min": 25,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "allskills",
@@ -310,7 +330,8 @@
         },
         "min": 1,
         "max": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -340,7 +361,8 @@
             },
             "min": 5,
             "max": 5,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": true
           }
         ]
       },
@@ -356,7 +378,8 @@
             },
             "min": 50,
             "max": 50,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       }
@@ -371,7 +394,8 @@
         },
         "min": 16,
         "max": 16,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cold-len",
@@ -382,7 +406,8 @@
         },
         "min": 100,
         "max": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "nofreeze",
@@ -393,7 +418,8 @@
         },
         "min": 1,
         "max": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -422,7 +448,8 @@
             },
             "min": 80,
             "max": 80,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": true
           }
         ]
       }
@@ -437,7 +464,8 @@
         },
         "min": 1,
         "max": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dex",
@@ -448,7 +476,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "cast1",
@@ -459,7 +488,8 @@
         },
         "min": 25,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "mag%",
@@ -470,7 +500,8 @@
         },
         "min": 40,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -499,7 +530,8 @@
             },
             "min": 50,
             "max": 50,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       }
@@ -514,7 +546,8 @@
         },
         "min": 75,
         "max": 75,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ac",
@@ -525,7 +558,8 @@
         },
         "min": 75,
         "max": 75,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "pois-dot",
@@ -562,7 +596,8 @@
         },
         "min": 200,
         "max": 200,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "allskills",
@@ -573,7 +608,8 @@
         },
         "min": 2,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "att",
@@ -584,7 +620,8 @@
         },
         "min": 200,
         "max": 200,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "ac",
@@ -595,7 +632,8 @@
         },
         "min": 200,
         "max": 200,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "dmg-undead",
@@ -606,7 +644,8 @@
         },
         "min": 200,
         "max": 200,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-demon",
@@ -617,7 +656,8 @@
         },
         "min": 200,
         "max": 200,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "lifesteal",
@@ -628,7 +668,8 @@
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "deadly",
@@ -639,7 +680,8 @@
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -670,7 +712,8 @@
             },
             "min": 15,
             "max": 20,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           },
           {
             "key": "regen-mana",
@@ -681,7 +724,8 @@
             },
             "min": 16,
             "max": 16,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       },
@@ -697,7 +741,8 @@
             },
             "min": 25,
             "max": 25,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": true
           }
         ]
       }
@@ -712,7 +757,8 @@
         },
         "min": 60,
         "max": 60,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "red-mag",
@@ -723,7 +769,8 @@
         },
         "min": 3,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-all",
@@ -734,7 +781,8 @@
         },
         "min": 25,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "cast1",
@@ -745,7 +793,8 @@
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "mana",
@@ -756,7 +805,8 @@
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -785,7 +835,8 @@
             },
             "min": 25,
             "max": 25,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": true
           }
         ]
       }
@@ -800,7 +851,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-undead",
@@ -811,7 +863,8 @@
         },
         "min": 200,
         "max": 200,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-ltng",
@@ -822,7 +875,8 @@
         },
         "min": 25,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "att%",
@@ -833,7 +887,8 @@
         },
         "min": 25,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "ac",
@@ -844,7 +899,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -873,7 +929,8 @@
             },
             "min": 50,
             "max": 50,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       }
@@ -888,7 +945,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "manasteal",
@@ -899,7 +957,8 @@
         },
         "min": 6,
         "max": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "crush",
@@ -910,7 +969,8 @@
         },
         "min": 35,
         "max": 35,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "swing2",
@@ -921,7 +981,8 @@
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -950,7 +1011,8 @@
             },
             "min": 25,
             "max": 25,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": true
           },
           {
             "key": "ac",
@@ -961,7 +1023,8 @@
             },
             "min": 100,
             "max": 100,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       }
@@ -976,7 +1039,8 @@
         },
         "min": 100,
         "max": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "str",
@@ -987,7 +1051,8 @@
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "gold%",
@@ -998,7 +1063,8 @@
         },
         "min": 100,
         "max": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "mag%",
@@ -1009,7 +1075,8 @@
         },
         "min": 100,
         "max": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "gethit-skill:42",
@@ -1032,7 +1099,8 @@
         },
         "min": 30,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "hp",
@@ -1043,7 +1111,8 @@
         },
         "min": 100,
         "max": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "allskills",
@@ -1054,7 +1123,8 @@
         },
         "min": 1,
         "max": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -1083,7 +1153,8 @@
             },
             "min": 8,
             "max": 8,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       }
@@ -1098,7 +1169,8 @@
         },
         "min": 40,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-min",
@@ -1109,7 +1181,8 @@
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-all",
@@ -1120,7 +1193,8 @@
         },
         "min": 25,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -1150,7 +1224,8 @@
             },
             "min": 20,
             "max": 20,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": true
           }
         ]
       },
@@ -1166,7 +1241,8 @@
             },
             "min": 30,
             "max": 30,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": true
           }
         ]
       }
@@ -1181,7 +1257,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "pal",
@@ -1192,7 +1269,8 @@
         },
         "min": 3,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "att",
@@ -1203,7 +1281,8 @@
         },
         "min": 200,
         "max": 200,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "hp",
@@ -1214,7 +1293,8 @@
         },
         "min": 150,
         "max": 150,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "balance2",
@@ -1225,7 +1305,8 @@
         },
         "min": 30,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -1255,7 +1336,8 @@
             },
             "min": 50,
             "max": 50,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       },
@@ -1271,7 +1353,8 @@
             },
             "min": 20,
             "max": 20,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": true
           }
         ]
       }
@@ -1286,7 +1369,8 @@
         },
         "min": 2,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-all",
@@ -1297,7 +1381,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "nofreeze",
@@ -1308,7 +1393,8 @@
         },
         "min": 1,
         "max": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "light",
@@ -1319,7 +1405,8 @@
         },
         "min": 5,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -1350,7 +1437,8 @@
             },
             "min": 20,
             "max": 20,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": true
           }
         ]
       },
@@ -1366,7 +1454,8 @@
             },
             "min": 30,
             "max": 30,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": true
           }
         ]
       },
@@ -1382,7 +1471,8 @@
             },
             "min": 300,
             "max": 300,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       }
@@ -1397,7 +1487,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "war",
@@ -1408,7 +1499,8 @@
         },
         "min": 3,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg%",
@@ -1419,7 +1511,8 @@
         },
         "min": 350,
         "max": 350,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "mag%",
@@ -1430,7 +1523,8 @@
         },
         "min": 100,
         "max": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "oskill:Enchant",
@@ -1441,7 +1535,8 @@
         },
         "min": 30,
         "max": 30,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": true
       }
     ]
   },
@@ -1470,7 +1565,8 @@
             },
             "min": 5,
             "max": 5,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       }
@@ -1485,7 +1581,8 @@
         },
         "min": 5,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "nofreeze",
@@ -1496,7 +1593,8 @@
         },
         "min": 1,
         "max": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-ltng",
@@ -1507,7 +1605,8 @@
         },
         "min": 25,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -1537,7 +1636,8 @@
             },
             "min": 100,
             "max": 100,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       },
@@ -1553,7 +1653,8 @@
             },
             "min": 200,
             "max": 200,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       }
@@ -1568,7 +1669,8 @@
         },
         "min": 2,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "lifesteal",
@@ -1579,7 +1681,8 @@
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "move3",
@@ -1590,7 +1693,8 @@
         },
         "min": 30,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-all",
@@ -1601,7 +1705,8 @@
         },
         "min": 30,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -1633,7 +1738,8 @@
             },
             "min": 50,
             "max": 50,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": true
           }
         ]
       },
@@ -1649,7 +1755,8 @@
             },
             "min": 75,
             "max": 75,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": true
           }
         ]
       },
@@ -1665,7 +1772,8 @@
             },
             "min": 125,
             "max": 125,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": true
           }
         ]
       },
@@ -1681,7 +1789,8 @@
             },
             "min": 200,
             "max": 200,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": true
           }
         ]
       }
@@ -1696,7 +1805,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "bar",
@@ -1707,7 +1817,8 @@
         },
         "min": 3,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "hp",
@@ -1718,7 +1829,8 @@
         },
         "min": 150,
         "max": 150,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "red-mag",
@@ -1729,7 +1841,8 @@
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -1758,7 +1871,8 @@
             },
             "min": 8,
             "max": 8,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       }
@@ -1773,7 +1887,8 @@
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "nec",
@@ -1784,7 +1899,8 @@
         },
         "min": 1,
         "max": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "openwounds",
@@ -1795,7 +1911,8 @@
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "manasteal",
@@ -1806,7 +1923,8 @@
         },
         "min": 6,
         "max": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "mana%",
@@ -1817,7 +1935,8 @@
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "nofreeze",
@@ -1828,7 +1947,8 @@
         },
         "min": 1,
         "max": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -1858,7 +1978,8 @@
             },
             "min": 50,
             "max": 50,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       },
@@ -1874,7 +1995,8 @@
             },
             "min": 20,
             "max": 20,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": true
           },
           {
             "key": "pierce",
@@ -1885,7 +2007,8 @@
             },
             "min": 24,
             "max": 24,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": true
           }
         ]
       }
@@ -1900,7 +2023,8 @@
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-fire-max",
@@ -1911,7 +2035,8 @@
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-cold-max",
@@ -1922,7 +2047,8 @@
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-ltng-max",
@@ -1933,7 +2059,8 @@
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-pois-max",
@@ -1944,7 +2071,8 @@
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dex",
@@ -1955,7 +2083,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -1985,7 +2114,8 @@
             },
             "min": 10,
             "max": 10,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": true
           }
         ]
       },
@@ -2001,7 +2131,8 @@
             },
             "min": 10,
             "max": 10,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": true
           }
         ]
       }
@@ -2016,7 +2147,8 @@
         },
         "min": 5,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-all",
@@ -2027,7 +2159,8 @@
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "att%",
@@ -2038,7 +2171,8 @@
         },
         "min": 35,
         "max": 35,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "block",
@@ -2049,7 +2183,8 @@
         },
         "min": 30,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "move2",
@@ -2060,7 +2195,8 @@
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -2091,7 +2227,8 @@
             },
             "min": 20,
             "max": 20,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": true
           }
         ]
       },
@@ -2107,7 +2244,8 @@
             },
             "min": 30,
             "max": 30,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": true
           }
         ]
       }
@@ -2122,7 +2260,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "ama",
@@ -2133,7 +2272,8 @@
         },
         "min": 3,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "ac",
@@ -2144,7 +2284,8 @@
         },
         "min": 100,
         "max": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "att",
@@ -2155,7 +2296,8 @@
         },
         "min": 100,
         "max": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "mag%",
@@ -2166,7 +2308,8 @@
         },
         "min": 100,
         "max": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -2196,7 +2339,8 @@
             },
             "min": 50,
             "max": 50,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       },
@@ -2212,7 +2356,8 @@
             },
             "min": 75,
             "max": 75,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": true
           }
         ]
       }
@@ -2227,7 +2372,8 @@
         },
         "min": 1,
         "max": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "mag%",
@@ -2238,7 +2384,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "mana",
@@ -2249,7 +2396,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "lifesteal",
@@ -2260,7 +2408,8 @@
         },
         "min": 4,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -2290,7 +2439,8 @@
             },
             "min": 75,
             "max": 75,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": true
           },
           {
             "key": "dmg-ltng/lvl",
@@ -2301,7 +2451,8 @@
             },
             "min": 16,
             "max": 16,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       },
@@ -2317,7 +2468,8 @@
             },
             "min": 125,
             "max": 125,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": true
           },
           {
             "key": "nofreeze",
@@ -2328,7 +2480,8 @@
             },
             "min": 1,
             "max": 1,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       }
@@ -2343,7 +2496,8 @@
         },
         "min": 8,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "pal",
@@ -2354,7 +2508,8 @@
         },
         "min": 2,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "manasteal",
@@ -2365,7 +2520,8 @@
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-pois",
@@ -2376,7 +2532,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -2405,7 +2562,8 @@
             },
             "min": 175,
             "max": 175,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           },
           {
             "key": "mag%/lvl",
@@ -2416,7 +2574,8 @@
             },
             "min": 12,
             "max": 12,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       }
@@ -2431,7 +2590,8 @@
         },
         "min": 1,
         "max": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "regen",
@@ -2442,7 +2602,8 @@
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dex",
@@ -2453,7 +2614,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-all",
@@ -2464,7 +2626,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "str",
@@ -2475,7 +2638,8 @@
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "mana",
@@ -2486,7 +2650,8 @@
         },
         "min": 100,
         "max": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fireskill",
@@ -2497,7 +2662,8 @@
         },
         "min": 2,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "hp%",
@@ -2508,7 +2674,8 @@
         },
         "min": 12,
         "max": 12,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -2538,7 +2705,8 @@
             },
             "min": 15,
             "max": 15,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       },
@@ -2554,7 +2722,8 @@
             },
             "min": 200,
             "max": 200,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       }
@@ -2569,7 +2738,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "ass",
@@ -2580,7 +2750,8 @@
         },
         "min": 3,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "ac",
@@ -2591,7 +2762,8 @@
         },
         "min": 150,
         "max": 150,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "lifesteal",
@@ -2602,7 +2774,8 @@
         },
         "min": 14,
         "max": 14,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "manasteal",
@@ -2613,7 +2786,8 @@
         },
         "min": 14,
         "max": 14,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "red-dmg%",
@@ -2624,7 +2798,8 @@
         },
         "min": 30,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fade",
@@ -2635,7 +2810,8 @@
         },
         "min": 1,
         "max": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -2665,7 +2841,8 @@
             },
             "min": 35,
             "max": 35,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       },
@@ -2681,7 +2858,8 @@
             },
             "min": 5,
             "max": 5,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       }
@@ -2696,7 +2874,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "dex",
@@ -2707,7 +2886,8 @@
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "str",
@@ -2718,7 +2898,8 @@
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "ac",
@@ -2729,7 +2910,8 @@
         },
         "min": 100,
         "max": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-all",
@@ -2740,7 +2922,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "mag%",
@@ -2751,7 +2934,8 @@
         },
         "min": 80,
         "max": 80,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -2780,7 +2964,8 @@
             },
             "min": 40,
             "max": 40,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": true
           },
           {
             "key": "res-pois-len",
@@ -2791,7 +2976,8 @@
             },
             "min": 75,
             "max": 75,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       }
@@ -2806,7 +2992,8 @@
         },
         "min": 30,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "lifesteal",
@@ -2817,7 +3004,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "hp%",
@@ -2828,7 +3016,8 @@
         },
         "min": 27,
         "max": 27,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "allskills",
@@ -2839,7 +3028,8 @@
         },
         "min": 1,
         "max": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "red-dmg%",
@@ -2850,7 +3040,8 @@
         },
         "min": 16,
         "max": 16,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -2882,7 +3073,8 @@
             },
             "min": 10,
             "max": 10,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       },
@@ -2898,7 +3090,8 @@
             },
             "min": 100,
             "max": 100,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       }
@@ -2913,7 +3106,8 @@
         },
         "min": 12,
         "max": 12,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "thorns",
@@ -2924,7 +3118,8 @@
         },
         "min": 12,
         "max": 12,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "red-dmg",
@@ -2935,7 +3130,8 @@
         },
         "min": 7,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-max",
@@ -2946,7 +3142,8 @@
         },
         "min": 24,
         "max": 24,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "mana",
@@ -2957,7 +3154,8 @@
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -2988,7 +3186,8 @@
             },
             "min": 10,
             "max": 10,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": true
           }
         ]
       },
@@ -3004,7 +3203,8 @@
             },
             "min": 65,
             "max": 65,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       },
@@ -3020,7 +3220,8 @@
             },
             "min": 25,
             "max": 25,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": true
           }
         ]
       }
@@ -3035,7 +3236,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "sor",
@@ -3046,7 +3248,8 @@
         },
         "min": 3,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "ac",
@@ -3057,7 +3260,8 @@
         },
         "min": 150,
         "max": 150,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "hp",
@@ -3068,7 +3272,8 @@
         },
         "min": 150,
         "max": 150,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ac-miss",
@@ -3079,7 +3284,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   },
@@ -3110,7 +3316,8 @@
             },
             "min": 15,
             "max": 15,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       },
@@ -3126,7 +3333,8 @@
             },
             "min": 5,
             "max": 5,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       }
@@ -3141,7 +3349,8 @@
         },
         "min": 75,
         "max": 75,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-all",
@@ -3152,7 +3361,8 @@
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "slow",
@@ -3163,7 +3373,8 @@
         },
         "min": 35,
         "max": 35,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "manasteal",
@@ -3174,7 +3385,8 @@
         },
         "min": 5,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -3205,7 +3417,8 @@
             },
             "min": 150,
             "max": 150,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       },
@@ -3221,7 +3434,8 @@
             },
             "min": 22,
             "max": 22,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       },
@@ -3237,7 +3451,8 @@
             },
             "min": 10,
             "max": 10,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": true
           }
         ]
       }
@@ -3252,7 +3467,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "allskills",
@@ -3263,7 +3479,8 @@
         },
         "min": 2,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "mana",
@@ -3274,7 +3491,8 @@
         },
         "min": 100,
         "max": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -3305,7 +3523,8 @@
             },
             "min": 15,
             "max": 15,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           },
           {
             "key": "oskill:Fire Ball",
@@ -3316,7 +3535,8 @@
             },
             "min": 18,
             "max": 18,
-            "isSkillRef": true
+            "isSkillRef": true,
+            "signed": true
           }
         ]
       },
@@ -3332,7 +3552,8 @@
             },
             "min": 15,
             "max": 15,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           },
           {
             "key": "oskill:Fire Wall",
@@ -3343,7 +3564,8 @@
             },
             "min": 13,
             "max": 13,
-            "isSkillRef": true
+            "isSkillRef": true,
+            "signed": true
           }
         ]
       },
@@ -3359,7 +3581,8 @@
             },
             "min": 15,
             "max": 15,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           },
           {
             "key": "oskill:Meteor",
@@ -3370,7 +3593,8 @@
             },
             "min": 10,
             "max": 10,
-            "isSkillRef": true
+            "isSkillRef": true,
+            "signed": true
           }
         ]
       }
@@ -3385,7 +3609,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "nec",
@@ -3396,7 +3621,8 @@
         },
         "min": 3,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "mana",
@@ -3407,7 +3633,8 @@
         },
         "min": 100,
         "max": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ac",
@@ -3418,7 +3645,8 @@
         },
         "min": 200,
         "max": 200,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "regen-mana",
@@ -3429,7 +3657,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "oskill:Fire Mastery",
@@ -3440,7 +3669,8 @@
         },
         "min": 3,
         "max": 3,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": true
       },
       {
         "key": "lifesteal",
@@ -3451,7 +3681,8 @@
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ]
   },
@@ -3481,7 +3712,8 @@
             },
             "min": 75,
             "max": 75,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": true
           },
           {
             "key": "manasteal",
@@ -3492,7 +3724,8 @@
             },
             "min": 7,
             "max": 7,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": false
           }
         ]
       },
@@ -3508,7 +3741,8 @@
             },
             "min": 15,
             "max": 15,
-            "isSkillRef": false
+            "isSkillRef": false,
+            "signed": true
           }
         ]
       }
@@ -3523,7 +3757,8 @@
         },
         "min": 12,
         "max": 12,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "freeze",
@@ -3534,7 +3769,8 @@
         },
         "min": 1,
         "max": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "pierce",
@@ -3545,7 +3781,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "str",
@@ -3556,7 +3793,8 @@
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ]
   }

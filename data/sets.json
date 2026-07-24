@@ -28,10 +28,17 @@
     "requiredStrength": 95,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 37,
-      "max": 64
+      "min": {
+        "low": 37,
+        "high": 37
+      },
+      "max": {
+        "low": 64,
+        "high": 64
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 18,
     "invFile": "invtbt",
     "stats": [
@@ -44,7 +51,8 @@
         },
         "min": 40,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "fixedStats": [
@@ -56,7 +64,8 @@
           "zh-CN": "不可破坏"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "regen-stam",
@@ -66,7 +75,8 @@
           "zh-CN": "耐力回复 %"
         },
         "value": 32,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "hp",
@@ -76,7 +86,8 @@
           "zh-CN": "生命值"
         },
         "value": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "dmg-to-mana",
@@ -86,7 +97,8 @@
           "zh-CN": "承受伤害转换为魔力"
         },
         "value": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "move3",
@@ -96,7 +108,8 @@
           "zh-CN": "加快跑走速度 %"
         },
         "value": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "stam",
@@ -106,7 +119,8 @@
           "zh-CN": "耐力"
         },
         "value": 180,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -119,7 +133,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dex",
@@ -130,7 +145,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dex",
@@ -141,7 +157,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [
@@ -179,10 +196,17 @@
     "requiredStrength": 230,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 70,
     "invFile": "invful",
     "stats": [
@@ -195,7 +219,8 @@
         },
         "min": 40,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "fixedStats": [
@@ -207,7 +232,8 @@
           "zh-CN": "防御力"
         },
         "value": 300,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "skilltab:16",
@@ -217,7 +243,8 @@
           "zh-CN": "技能列加成"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "str",
@@ -227,7 +254,8 @@
           "zh-CN": "力量"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dex",
@@ -237,7 +265,8 @@
           "zh-CN": "敏捷"
         },
         "value": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "ease",
@@ -247,7 +276,8 @@
           "zh-CN": "需求 %"
         },
         "value": -50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "skilltab:17",
@@ -257,7 +287,8 @@
           "zh-CN": "技能列加成"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -270,7 +301,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "vit",
@@ -281,7 +313,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "vit",
@@ -292,7 +325,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [
@@ -327,10 +361,17 @@
     "requiredStrength": 74,
     "requiredDexterity": null,
     "oneHandDamage": {
-      "min": 20,
-      "max": 31
+      "min": {
+        "low": 20,
+        "high": 20
+      },
+      "max": {
+        "low": 31,
+        "high": 31
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": 10,
     "durability": 72,
     "invFile": "invmst",
     "stats": [
@@ -343,7 +384,8 @@
         },
         "min": 40,
         "max": 62,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "dmg-ltng",
@@ -354,7 +396,8 @@
         },
         "min": 50,
         "max": 75,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "sock",
@@ -365,7 +408,8 @@
         },
         "min": 2,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "fixedStats": [
@@ -377,7 +421,8 @@
           "zh-CN": "生命窃取 %"
         },
         "value": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "swing3",
@@ -387,7 +432,8 @@
           "zh-CN": "加快攻击速度"
         },
         "value": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-demon",
@@ -397,7 +443,8 @@
           "zh-CN": "对恶魔伤害"
         },
         "value": 200,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "manasteal",
@@ -407,7 +454,8 @@
           "zh-CN": "魔力窃取 %"
         },
         "value": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -420,7 +468,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "str",
@@ -431,7 +480,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "str",
@@ -442,7 +492,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [
@@ -482,10 +533,17 @@
     "requiredStrength": 56,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 20,
     "invFile": "invdr3",
     "stats": [
@@ -498,7 +556,8 @@
         },
         "min": 40,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "fixedStats": [
@@ -510,7 +569,8 @@
           "zh-CN": "防御力"
         },
         "value": 90,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "regen-mana",
@@ -520,7 +580,8 @@
           "zh-CN": "魔力回复 %"
         },
         "value": 17,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "light",
@@ -530,7 +591,8 @@
           "zh-CN": "光环半径"
         },
         "value": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "balance3",
@@ -540,7 +602,8 @@
           "zh-CN": "加快恢复速度"
         },
         "value": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "sock",
@@ -550,7 +613,8 @@
           "zh-CN": "插槽数"
         },
         "value": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -563,7 +627,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "enr",
@@ -574,7 +639,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "enr",
@@ -585,7 +651,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [
@@ -621,6 +688,7 @@
     "requiredDexterity": null,
     "oneHandDamage": null,
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": null,
     "invFile": "invrin",
     "stats": [],
@@ -633,7 +701,8 @@
           "zh-CN": "补充生命值"
         },
         "value": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "hp",
@@ -643,7 +712,8 @@
           "zh-CN": "生命值"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -656,7 +726,8 @@
         },
         "min": 24,
         "max": 24,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "mag%",
@@ -667,7 +738,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -703,10 +775,17 @@
     "requiredStrength": 36,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 26,
     "invFile": "invrng",
     "stats": [],
@@ -719,7 +798,8 @@
           "zh-CN": "减少伤害"
         },
         "value": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ac%",
@@ -729,7 +809,8 @@
           "zh-CN": "强化防御力 %"
         },
         "value": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -742,7 +823,8 @@
         },
         "min": 150,
         "max": 150,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-fire",
@@ -753,7 +835,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -786,10 +869,17 @@
     "requiredStrength": 25,
     "requiredDexterity": 25,
     "oneHandDamage": {
-      "min": 3,
-      "max": 8
+      "min": {
+        "low": 3,
+        "high": 3
+      },
+      "max": {
+        "low": 8,
+        "high": 8
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 32,
     "invFile": "invsbr",
     "stats": [],
@@ -802,7 +892,8 @@
           "zh-CN": "攻击等级"
         },
         "value": 75,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-undead",
@@ -812,7 +903,8 @@
           "zh-CN": "对不死系伤害"
         },
         "value": 250,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -825,7 +917,8 @@
         },
         "min": 75,
         "max": 75,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "swing3",
@@ -836,7 +929,8 @@
         },
         "min": 30,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -870,6 +964,7 @@
     "requiredDexterity": null,
     "oneHandDamage": null,
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": null,
     "invFile": "invamu",
     "stats": [],
@@ -882,7 +977,8 @@
           "zh-CN": "光环半径"
         },
         "value": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-to-mana",
@@ -892,7 +988,8 @@
           "zh-CN": "承受伤害转换为魔力"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -905,7 +1002,8 @@
         },
         "min": 75,
         "max": 75,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "allskills",
@@ -916,7 +1014,8 @@
         },
         "min": 1,
         "max": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -950,9 +1049,16 @@
     "requiredDexterity": null,
     "oneHandDamage": null,
     "twoHandDamage": {
-      "min": 12,
-      "max": 28
+      "min": {
+        "low": 12,
+        "high": 12
+      },
+      "max": {
+        "low": 28,
+        "high": 28
+      }
     },
+    "weaponSpeed": 20,
     "durability": 50,
     "invFile": "invwst",
     "stats": [],
@@ -965,7 +1071,8 @@
           "zh-CN": "女巫技能等级"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "deadly",
@@ -975,7 +1082,8 @@
           "zh-CN": "致命一击 %"
         },
         "value": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -988,7 +1096,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "regen-mana",
@@ -999,7 +1108,8 @@
         },
         "min": 5,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -1035,10 +1145,17 @@
     "requiredStrength": 41,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 60,
     "invFile": "invltp",
     "stats": [],
@@ -1051,7 +1168,8 @@
           "zh-CN": "光环半径"
         },
         "value": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "red-dmg",
@@ -1061,7 +1179,8 @@
           "zh-CN": "减少伤害"
         },
         "value": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -1074,7 +1193,8 @@
         },
         "min": 100,
         "max": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "enr",
@@ -1085,7 +1205,8 @@
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -1121,10 +1242,17 @@
     "requiredStrength": 15,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 18,
     "invFile": "invskp",
     "stats": [],
@@ -1137,7 +1265,8 @@
           "zh-CN": "补充生命值"
         },
         "value": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "thorns",
@@ -1147,7 +1276,8 @@
           "zh-CN": "攻击者承受伤害"
         },
         "value": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -1160,7 +1290,8 @@
         },
         "min": 24,
         "max": 24,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-ltng",
@@ -1171,7 +1302,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -1205,6 +1337,7 @@
     "requiredDexterity": null,
     "oneHandDamage": null,
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": null,
     "invFile": "invamu",
     "stats": [],
@@ -1217,7 +1350,8 @@
           "zh-CN": "魔力值"
         },
         "value": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "regen-mana",
@@ -1227,7 +1361,8 @@
           "zh-CN": "魔力回复 %"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -1240,7 +1375,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-fire",
@@ -1251,7 +1387,8 @@
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -1287,10 +1424,17 @@
     "requiredStrength": 0,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 14,
     "invFile": "invvbl",
     "stats": [],
@@ -1303,7 +1447,8 @@
           "zh-CN": "冷冻抗性 %"
         },
         "value": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "ac",
@@ -1313,7 +1458,8 @@
           "zh-CN": "防御力"
         },
         "value": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -1326,7 +1472,8 @@
         },
         "min": 40,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-cold",
@@ -1337,7 +1484,8 @@
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -1373,10 +1521,17 @@
     "requiredStrength": 12,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 20,
     "invFile": "invqlt",
     "stats": [
@@ -1389,7 +1544,8 @@
         },
         "min": 275,
         "max": 325,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "fixedStats": [
@@ -1401,7 +1557,8 @@
           "zh-CN": "全抗性"
         },
         "value": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -1414,7 +1571,8 @@
         },
         "min": 24,
         "max": 24,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-cold",
@@ -1425,7 +1583,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [
@@ -1461,9 +1620,16 @@
     "requiredDexterity": 55,
     "oneHandDamage": null,
     "twoHandDamage": {
-      "min": 6,
-      "max": 14
+      "min": {
+        "low": 9,
+        "high": 9
+      },
+      "max": {
+        "low": 21,
+        "high": 21
+      }
     },
+    "weaponSpeed": 0,
     "durability": 48,
     "invFile": "invswb",
     "stats": [],
@@ -1476,7 +1642,8 @@
           "zh-CN": "攻击等级 %"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg%",
@@ -1486,7 +1653,8 @@
           "zh-CN": "强化伤害 %"
         },
         "value": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -1499,7 +1667,8 @@
         },
         "min": 16,
         "max": 16,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "dmg-cold",
@@ -1510,7 +1679,8 @@
         },
         "min": 20,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -1546,10 +1716,17 @@
     "requiredStrength": 45,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 18,
     "invFile": "invtgl",
     "stats": [],
@@ -1562,7 +1739,8 @@
           "zh-CN": "生命值"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "swing1",
@@ -1572,7 +1750,8 @@
           "zh-CN": "加快攻击速度"
         },
         "value": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -1585,7 +1764,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dex",
@@ -1596,7 +1776,8 @@
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -1632,10 +1813,17 @@
     "requiredStrength": 0,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 14,
     "invFile": "invvbl",
     "stats": [],
@@ -1648,7 +1836,8 @@
           "zh-CN": "加快施法速度"
         },
         "value": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "hp",
@@ -1658,7 +1847,8 @@
           "zh-CN": "生命值"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -1671,7 +1861,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -1704,10 +1895,17 @@
     "requiredStrength": null,
     "requiredDexterity": 45,
     "oneHandDamage": {
-      "min": 2,
-      "max": 11
+      "min": {
+        "low": 2,
+        "high": 2
+      },
+      "max": {
+        "low": 11,
+        "high": 11
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 24,
     "invFile": "invdgr",
     "stats": [],
@@ -1720,7 +1918,8 @@
           "zh-CN": "加快跑走速度 %"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg/lvl",
@@ -1730,7 +1929,8 @@
           "zh-CN": "最大伤害（依角色等级）"
         },
         "value": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -1743,7 +1943,8 @@
         },
         "min": 3,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "deadly",
@@ -1754,7 +1955,8 @@
         },
         "min": 30,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -1790,10 +1992,17 @@
     "requiredStrength": 20,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 28,
     "invFile": "invhla",
     "stats": [],
@@ -1806,7 +2015,8 @@
           "zh-CN": "防御力"
         },
         "value": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-mag",
@@ -1816,7 +2026,8 @@
           "zh-CN": "魔法抗性 %"
         },
         "value": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -1829,7 +2040,8 @@
         },
         "min": 25,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "att/lvl",
@@ -1840,7 +2052,8 @@
         },
         "min": 16,
         "max": 16,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -1873,10 +2086,17 @@
     "requiredStrength": 43,
     "requiredDexterity": null,
     "oneHandDamage": {
-      "min": 5,
-      "max": 13
+      "min": {
+        "low": 5,
+        "high": 5
+      },
+      "max": {
+        "low": 13,
+        "high": 13
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": 10,
     "durability": 24,
     "invFile": "inv2ax",
     "stats": [],
@@ -1889,7 +2109,8 @@
           "zh-CN": "攻击等级 %"
         },
         "value": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "manasteal",
@@ -1899,7 +2120,8 @@
           "zh-CN": "魔力窃取 %"
         },
         "value": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -1912,7 +2134,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -1948,10 +2171,17 @@
     "requiredStrength": 51,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 30,
     "invFile": "invspl",
     "stats": [],
@@ -1964,7 +2194,8 @@
           "zh-CN": "减少魔法伤害"
         },
         "value": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "bar",
@@ -1974,7 +2205,8 @@
           "zh-CN": "蛮族技能等级"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -1987,7 +2219,8 @@
         },
         "min": 24,
         "max": 24,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -2023,10 +2256,17 @@
     "requiredStrength": 26,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 24,
     "invFile": "invhlm",
     "stats": [],
@@ -2039,7 +2279,8 @@
           "zh-CN": "防御力"
         },
         "value": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-fire",
@@ -2049,7 +2290,8 @@
           "zh-CN": "火焰抗性 %"
         },
         "value": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -2062,7 +2304,8 @@
         },
         "min": 16,
         "max": 16,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -2095,13 +2338,26 @@
     "requiredStrength": 189,
     "requiredDexterity": 110,
     "oneHandDamage": {
-      "min": 25,
-      "max": 65
+      "min": {
+        "low": 75,
+        "high": 75
+      },
+      "max": {
+        "low": 195,
+        "high": 195
+      }
     },
     "twoHandDamage": {
-      "min": 58,
-      "max": 115
+      "min": {
+        "low": 174,
+        "high": 174
+      },
+      "max": {
+        "low": 345,
+        "high": 345
+      }
     },
+    "weaponSpeed": 5,
     "durability": 50,
     "invFile": "invgsd",
     "stats": [],
@@ -2114,7 +2370,8 @@
           "zh-CN": "破碎打击 %"
         },
         "value": 35,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-all",
@@ -2124,7 +2381,8 @@
           "zh-CN": "全抗性"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "swing2",
@@ -2134,7 +2392,8 @@
           "zh-CN": "加快攻击速度"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg%",
@@ -2144,7 +2403,8 @@
           "zh-CN": "强化伤害 %"
         },
         "value": 200,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [],
@@ -2178,10 +2438,17 @@
     "requiredStrength": 147,
     "requiredDexterity": 124,
     "oneHandDamage": {
-      "min": 40,
-      "max": 50
+      "min": {
+        "low": 120,
+        "high": 120
+      },
+      "max": {
+        "low": 150,
+        "high": 150
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": 0,
     "durability": 44,
     "invFile": "invwsd",
     "stats": [],
@@ -2194,7 +2461,8 @@
           "zh-CN": "火焰抗性 %"
         },
         "value": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-pois",
@@ -2204,7 +2472,8 @@
           "zh-CN": "增加毒素伤害，持续 2 秒"
         },
         "value": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "swing2",
@@ -2214,7 +2483,8 @@
           "zh-CN": "加快攻击速度"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "str",
@@ -2224,7 +2494,8 @@
           "zh-CN": "力量"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg%",
@@ -2234,7 +2505,8 @@
           "zh-CN": "强化伤害 %"
         },
         "value": 200,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [],
@@ -2271,10 +2543,17 @@
     "requiredStrength": 48,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 45,
     "invFile": "invchn",
     "stats": [],
@@ -2287,7 +2566,8 @@
           "zh-CN": "防御力"
         },
         "value": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ease",
@@ -2297,7 +2577,8 @@
           "zh-CN": "需求 %"
         },
         "value": -50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -2310,7 +2591,8 @@
         },
         "min": 5,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-fire",
@@ -2321,7 +2603,8 @@
         },
         "min": 30,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -2355,9 +2638,16 @@
     "requiredDexterity": null,
     "oneHandDamage": null,
     "twoHandDamage": {
-      "min": 6,
-      "max": 13
+      "min": {
+        "low": 6,
+        "high": 6
+      },
+      "max": {
+        "low": 13,
+        "high": 13
+      }
     },
+    "weaponSpeed": 0,
     "durability": 40,
     "invFile": "invbst",
     "stats": [],
@@ -2370,7 +2660,8 @@
           "zh-CN": "火焰技能加成"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "fire-max",
@@ -2380,7 +2671,8 @@
           "zh-CN": "火焰伤害（最大）"
         },
         "value": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -2393,7 +2685,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-all",
@@ -2404,7 +2697,8 @@
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -2438,6 +2732,7 @@
     "requiredDexterity": null,
     "oneHandDamage": null,
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": null,
     "invFile": "invrin",
     "stats": [],
@@ -2450,7 +2745,8 @@
           "zh-CN": "生命窃取 %"
         },
         "value": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "red-dmg",
@@ -2460,7 +2756,8 @@
           "zh-CN": "减少伤害"
         },
         "value": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -2473,7 +2770,8 @@
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -2507,6 +2805,7 @@
     "requiredDexterity": null,
     "oneHandDamage": null,
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": null,
     "invFile": "invamu",
     "stats": [],
@@ -2519,7 +2818,8 @@
           "zh-CN": "加快恢复速度"
         },
         "value": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "light-thorns",
@@ -2529,7 +2829,8 @@
           "zh-CN": "攻击者承受闪电伤害"
         },
         "value": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -2542,7 +2843,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "mag%",
@@ -2553,7 +2855,8 @@
         },
         "min": 25,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -2589,10 +2892,17 @@
     "requiredStrength": 23,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 20,
     "invFile": "invmsk",
     "stats": [],
@@ -2605,7 +2915,8 @@
           "zh-CN": "魔力值"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-cold",
@@ -2615,7 +2926,8 @@
           "zh-CN": "冷冻抗性 %"
         },
         "value": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -2628,7 +2940,8 @@
         },
         "min": 16,
         "max": 16,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -2661,10 +2974,17 @@
     "requiredStrength": 37,
     "requiredDexterity": null,
     "oneHandDamage": {
-      "min": 8,
-      "max": 18
+      "min": {
+        "low": 8,
+        "high": 8
+      },
+      "max": {
+        "low": 18,
+        "high": 18
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": 10,
     "durability": 60,
     "invFile": "invgsc",
     "stats": [
@@ -2677,7 +2997,8 @@
         },
         "min": 17,
         "max": 23,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "fixedStats": [
@@ -2689,7 +3010,8 @@
           "zh-CN": "攻击等级"
         },
         "value": 75,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -2702,7 +3024,8 @@
         },
         "min": 8,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [
@@ -2738,6 +3061,7 @@
     "requiredDexterity": null,
     "oneHandDamage": null,
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": null,
     "invFile": "invamu",
     "stats": [],
@@ -2750,7 +3074,8 @@
           "zh-CN": "魔力回复 %"
         },
         "value": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "regen",
@@ -2760,7 +3085,8 @@
           "zh-CN": "补充生命值"
         },
         "value": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -2773,7 +3099,8 @@
         },
         "min": 25,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "ac",
@@ -2784,7 +3111,8 @@
         },
         "min": 25,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -2820,10 +3148,17 @@
     "requiredStrength": 34,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 2,
-      "max": 4
+      "min": {
+        "low": 2,
+        "high": 2
+      },
+      "max": {
+        "low": 4,
+        "high": 4
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 24,
     "invFile": "invlrg",
     "stats": [],
@@ -2836,7 +3171,8 @@
           "zh-CN": "防御力"
         },
         "value": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "block",
@@ -2846,7 +3182,8 @@
           "zh-CN": "格挡机率 %"
         },
         "value": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -2859,7 +3196,8 @@
         },
         "min": 21,
         "max": 22,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-pois",
@@ -2870,7 +3208,8 @@
         },
         "min": 25,
         "max": 26,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -2906,10 +3245,17 @@
     "requiredStrength": 22,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 2,
-      "max": 3
+      "min": {
+        "low": 2,
+        "high": 2
+      },
+      "max": {
+        "low": 3,
+        "high": 3
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 16,
     "invFile": "invsml",
     "stats": [],
@@ -2922,7 +3268,8 @@
           "zh-CN": "防御力"
         },
         "value": 17,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-pois-len",
@@ -2932,7 +3279,8 @@
           "zh-CN": "减少毒素持续时间 %"
         },
         "value": 75,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -2945,7 +3293,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -2981,10 +3330,17 @@
     "requiredStrength": 25,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 16,
     "invFile": "invmgl",
     "stats": [],
@@ -2997,7 +3353,8 @@
           "zh-CN": "击退"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "slow",
@@ -3007,7 +3364,8 @@
           "zh-CN": "减缓目标速度 %"
         },
         "value": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -3020,7 +3378,8 @@
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -3053,10 +3412,17 @@
     "requiredStrength": 55,
     "requiredDexterity": 39,
     "oneHandDamage": {
-      "min": 3,
-      "max": 19
+      "min": {
+        "low": 3,
+        "high": 3
+      },
+      "max": {
+        "low": 19,
+        "high": 19
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": -10,
     "durability": 44,
     "invFile": "invlsd",
     "stats": [],
@@ -3069,7 +3435,8 @@
           "zh-CN": "攻击等级 %"
         },
         "value": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "deadly",
@@ -3079,7 +3446,8 @@
           "zh-CN": "致命一击 %"
         },
         "value": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -3092,7 +3460,8 @@
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -3128,10 +3497,17 @@
     "requiredStrength": 27,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 32,
     "invFile": "invstu",
     "stats": [],
@@ -3144,7 +3520,8 @@
           "zh-CN": "全抗性"
         },
         "value": 18,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "ac%",
@@ -3154,7 +3531,8 @@
           "zh-CN": "强化防御力 %"
         },
         "value": 60,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "hp",
@@ -3164,7 +3542,8 @@
           "zh-CN": "生命值"
         },
         "value": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "gethit-skill:53",
@@ -3212,10 +3591,17 @@
     "requiredStrength": 18,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 4,
-      "max": 10
+      "min": {
+        "low": 4,
+        "high": 4
+      },
+      "max": {
+        "low": 10,
+        "high": 10
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 14,
     "invFile": "invvbt",
     "stats": [
@@ -3228,7 +3614,8 @@
         },
         "min": 25,
         "max": 35,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "dmg-fire",
@@ -3239,7 +3626,8 @@
         },
         "min": 25,
         "max": 35,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "fixedStats": [
@@ -3251,7 +3639,8 @@
           "zh-CN": "加快跑走速度 %"
         },
         "value": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "mag%",
@@ -3261,7 +3650,8 @@
           "zh-CN": "额外魔法物品寻获率 %"
         },
         "value": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "dex",
@@ -3271,7 +3661,8 @@
           "zh-CN": "敏捷"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [],
@@ -3311,10 +3702,17 @@
     "requiredStrength": 20,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 12,
     "invFile": "invcap",
     "stats": [],
@@ -3327,7 +3725,8 @@
           "zh-CN": "防御力"
         },
         "value": 75,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "half-freeze",
@@ -3337,7 +3736,8 @@
           "zh-CN": "减半冰冻持续时间"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "dmg-to-mana",
@@ -3347,7 +3747,8 @@
           "zh-CN": "承受伤害转换为魔力"
         },
         "value": 35,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "thorns",
@@ -3357,7 +3758,8 @@
           "zh-CN": "攻击者承受伤害"
         },
         "value": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [],
@@ -3394,10 +3796,17 @@
     "requiredStrength": 106,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 16,
     "invFile": "invmbl",
     "stats": [],
@@ -3410,7 +3819,8 @@
           "zh-CN": "防御力"
         },
         "value": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "str",
@@ -3420,7 +3830,8 @@
           "zh-CN": "力量"
         },
         "value": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dex",
@@ -3430,7 +3841,8 @@
           "zh-CN": "敏捷"
         },
         "value": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-all",
@@ -3440,7 +3852,8 @@
           "zh-CN": "全抗性"
         },
         "value": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [],
@@ -3474,10 +3887,17 @@
     "requiredStrength": 145,
     "requiredDexterity": 46,
     "oneHandDamage": {
-      "min": 41,
-      "max": 49
+      "min": {
+        "low": 41,
+        "high": 41
+      },
+      "max": {
+        "low": 49,
+        "high": 49
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": 0,
     "durability": 60,
     "invFile": "invmac",
     "stats": [
@@ -3490,7 +3910,8 @@
         },
         "min": 20,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "fixedStats": [
@@ -3502,7 +3923,8 @@
           "zh-CN": "最大伤害（依角色等级）"
         },
         "value": 12,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "swing3",
@@ -3512,7 +3934,8 @@
           "zh-CN": "加快攻击速度"
         },
         "value": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "hit-skill:44",
@@ -3562,10 +3985,17 @@
     "requiredStrength": 0,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 12,
     "invFile": "invlbl",
     "stats": [],
@@ -3578,7 +4008,8 @@
           "zh-CN": "防御力"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "nofreeze",
@@ -3588,7 +4019,8 @@
           "zh-CN": "不会被冰冻"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -3601,7 +4033,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -3637,10 +4070,17 @@
     "requiredStrength": 0,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 12,
     "invFile": "invlgl",
     "stats": [],
@@ -3653,7 +4093,8 @@
           "zh-CN": "毒素抗性 %"
         },
         "value": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-pois-len",
@@ -3663,7 +4104,8 @@
           "zh-CN": "减少毒素持续时间 %"
         },
         "value": 75,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -3676,7 +4118,8 @@
         },
         "min": 30,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -3709,10 +4152,17 @@
     "requiredStrength": 71,
     "requiredDexterity": 45,
     "oneHandDamage": {
-      "min": 8,
-      "max": 20
+      "min": {
+        "low": 10,
+        "high": 10
+      },
+      "max": {
+        "low": 25,
+        "high": 25
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": 0,
     "durability": 44,
     "invFile": "invwsd",
     "stats": [],
@@ -3725,7 +4175,8 @@
           "zh-CN": "强化伤害 %"
         },
         "value": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "lifesteal",
@@ -3735,7 +4186,8 @@
           "zh-CN": "生命窃取 %"
         },
         "value": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -3748,7 +4200,8 @@
         },
         "min": 25,
         "max": 75,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -3784,10 +4237,17 @@
     "requiredStrength": 170,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 60,
     "invFile": "invaar",
     "stats": [],
@@ -3800,7 +4260,8 @@
           "zh-CN": "防御力"
         },
         "value": 500,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "skilltab:11",
@@ -3810,7 +4271,8 @@
           "zh-CN": "技能列加成"
         },
         "value": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "sock",
@@ -3820,7 +4282,8 @@
           "zh-CN": "插槽数"
         },
         "value": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "str",
@@ -3830,7 +4293,8 @@
           "zh-CN": "力量"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "ease",
@@ -3840,7 +4304,8 @@
           "zh-CN": "需求 %"
         },
         "value": -40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [],
@@ -3877,10 +4342,17 @@
     "requiredStrength": 148,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 5,
-      "max": 87
+      "min": {
+        "low": 5,
+        "high": 5
+      },
+      "max": {
+        "low": 87,
+        "high": 87
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 90,
     "invFile": "invpa5",
     "stats": [],
@@ -3893,7 +4365,8 @@
           "zh-CN": "防御力"
         },
         "value": 108,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "sock",
@@ -3903,7 +4376,8 @@
           "zh-CN": "插槽数"
         },
         "value": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "block2",
@@ -3913,7 +4387,8 @@
           "zh-CN": "加快格挡速度"
         },
         "value": 65,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "block",
@@ -3923,7 +4398,8 @@
           "zh-CN": "格挡机率 %"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-all",
@@ -3933,7 +4409,8 @@
           "zh-CN": "全抗性"
         },
         "value": 45,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [],
@@ -3970,10 +4447,17 @@
     "requiredStrength": 174,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 50,
     "invFile": "invcrn",
     "stats": [
@@ -3986,7 +4470,8 @@
         },
         "min": 50,
         "max": 75,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "mag%",
@@ -3997,7 +4482,8 @@
         },
         "min": 20,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "fixedStats": [
@@ -4009,7 +4495,8 @@
           "zh-CN": "冷冻吸收（依角色等级）"
         },
         "value": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "sock",
@@ -4019,7 +4506,8 @@
           "zh-CN": "插槽数"
         },
         "value": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ease",
@@ -4029,7 +4517,8 @@
           "zh-CN": "需求 %"
         },
         "value": -40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-all",
@@ -4039,7 +4528,8 @@
           "zh-CN": "全抗性"
         },
         "value": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -4052,7 +4542,8 @@
         },
         "min": 2,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [
@@ -4088,10 +4579,17 @@
     "requiredStrength": 97,
     "requiredDexterity": 70,
     "oneHandDamage": {
-      "min": 37,
-      "max": 43
+      "min": {
+        "low": 111,
+        "high": 126
+      },
+      "max": {
+        "low": 129,
+        "high": 146
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": -10,
     "durability": 70,
     "invFile": "invwsp",
     "stats": [
@@ -4104,7 +4602,8 @@
         },
         "min": 200,
         "max": 240,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "sock",
@@ -4115,7 +4614,8 @@
         },
         "min": 3,
         "max": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "fixedStats": [
@@ -4127,7 +4627,8 @@
           "zh-CN": "加快攻击速度"
         },
         "value": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-undead",
@@ -4137,7 +4638,8 @@
           "zh-CN": "对不死系伤害"
         },
         "value": 200,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "ease",
@@ -4147,7 +4649,8 @@
           "zh-CN": "需求 %"
         },
         "value": -20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -4160,7 +4663,8 @@
         },
         "min": 2,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-norm",
@@ -4171,7 +4675,8 @@
         },
         "min": 10,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "dmg-norm",
@@ -4182,7 +4687,8 @@
         },
         "min": 10,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [
@@ -4221,10 +4727,17 @@
     "requiredStrength": 115,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 40,
     "invFile": "invghm",
     "stats": [],
@@ -4237,7 +4750,8 @@
           "zh-CN": "强化防御力 %"
         },
         "value": 120,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "balance3",
@@ -4247,7 +4761,8 @@
           "zh-CN": "加快恢复速度"
         },
         "value": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "crush",
@@ -4257,7 +4772,8 @@
           "zh-CN": "破碎打击 %"
         },
         "value": 35,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "deadly",
@@ -4267,7 +4783,8 @@
           "zh-CN": "致命一击 %"
         },
         "value": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "str",
@@ -4277,7 +4794,8 @@
           "zh-CN": "力量"
         },
         "value": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [],
@@ -4314,10 +4832,17 @@
     "requiredStrength": 65,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 50,
     "invFile": "invbrs",
     "stats": [],
@@ -4330,7 +4855,8 @@
           "zh-CN": "防御力"
         },
         "value": 500,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ac-miss",
@@ -4340,7 +4866,8 @@
           "zh-CN": "对抗远程攻击防御力"
         },
         "value": 35,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "hp",
@@ -4350,7 +4877,8 @@
           "zh-CN": "生命值"
         },
         "value": 75,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ac-hth",
@@ -4360,7 +4888,8 @@
           "zh-CN": "对抗近战攻击防御力"
         },
         "value": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "ease",
@@ -4370,7 +4899,8 @@
           "zh-CN": "需求 %"
         },
         "value": -20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [],
@@ -4407,10 +4937,17 @@
     "requiredStrength": 185,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 11,
-      "max": 35
+      "min": {
+        "low": 11,
+        "high": 11
+      },
+      "max": {
+        "low": 35,
+        "high": 35
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 100,
     "invFile": "invgts",
     "stats": [],
@@ -4423,7 +4960,8 @@
           "zh-CN": "防御力"
         },
         "value": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "mana",
@@ -4433,7 +4971,8 @@
           "zh-CN": "魔力值"
         },
         "value": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-ltng",
@@ -4443,7 +4982,8 @@
           "zh-CN": "闪电抗性 %"
         },
         "value": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "thorns",
@@ -4453,7 +4993,8 @@
           "zh-CN": "攻击者承受伤害"
         },
         "value": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "indestruct",
@@ -4463,7 +5004,8 @@
           "zh-CN": "不可破坏"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "block",
@@ -4473,7 +5015,8 @@
           "zh-CN": "格挡机率 %"
         },
         "value": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "block3",
@@ -4483,7 +5026,8 @@
           "zh-CN": "加快格挡速度"
         },
         "value": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [],
@@ -4520,10 +5064,17 @@
     "requiredStrength": 102,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 20,
     "invFile": "invmsk",
     "stats": [
@@ -4536,7 +5087,8 @@
         },
         "min": 10,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "red-mag",
@@ -4547,7 +5099,8 @@
         },
         "min": 7,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "fixedStats": [
@@ -4559,7 +5112,8 @@
           "zh-CN": "攻击等级 %（依角色等级）"
         },
         "value": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "war",
@@ -4569,7 +5123,8 @@
           "zh-CN": "术士技能等级"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -4582,7 +5137,8 @@
         },
         "min": 5,
         "max": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "str",
@@ -4593,7 +5149,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [
@@ -4632,10 +5189,17 @@
     "requiredStrength": 97,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 30,
     "invFile": "invspl",
     "stats": [
@@ -4648,7 +5212,8 @@
         },
         "min": 75,
         "max": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "mana",
@@ -4659,7 +5224,8 @@
         },
         "min": 75,
         "max": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-cold",
@@ -4670,7 +5236,8 @@
         },
         "min": 15,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-fire",
@@ -4681,7 +5248,8 @@
         },
         "min": 15,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-ltng",
@@ -4692,7 +5260,8 @@
         },
         "min": 15,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "fixedStats": [
@@ -4704,7 +5273,8 @@
           "zh-CN": "技能列加成"
         },
         "value": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -4717,7 +5287,8 @@
         },
         "min": 25,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "vit",
@@ -4728,7 +5299,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "red-dmg%",
@@ -4739,7 +5311,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [
@@ -4781,10 +5354,17 @@
     "requiredStrength": 20,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 12,
     "invFile": "invlgl",
     "stats": [
@@ -4797,7 +5377,8 @@
         },
         "min": 95,
         "max": 150,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dex",
@@ -4808,7 +5389,8 @@
         },
         "min": 10,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-fire",
@@ -4819,7 +5401,8 @@
         },
         "min": 140,
         "max": 270,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "hp",
@@ -4830,7 +5413,8 @@
         },
         "min": 30,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "fixedStats": [
@@ -4842,7 +5426,8 @@
           "zh-CN": "破碎打击 %"
         },
         "value": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -4855,7 +5440,8 @@
         },
         "min": 30,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "manasteal",
@@ -4866,7 +5452,8 @@
         },
         "min": 7,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "lifesteal",
@@ -4877,7 +5464,8 @@
         },
         "min": 7,
         "max": 7,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [
@@ -4918,10 +5506,17 @@
     "requiredStrength": 163,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 50,
-      "max": 145
+      "min": {
+        "low": 50,
+        "high": 50
+      },
+      "max": {
+        "low": 145,
+        "high": 145
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 18,
     "invFile": "invtbt",
     "stats": [
@@ -4934,7 +5529,8 @@
         },
         "min": 10,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dex",
@@ -4945,7 +5541,8 @@
         },
         "min": 10,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-mag",
@@ -4956,7 +5553,8 @@
         },
         "min": 20,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "fixedStats": [
@@ -4968,7 +5566,8 @@
           "zh-CN": "加快跑走速度 %"
         },
         "value": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "nofreeze",
@@ -4978,7 +5577,8 @@
           "zh-CN": "不会被冰冻"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ease",
@@ -4988,7 +5588,8 @@
           "zh-CN": "需求 %"
         },
         "value": -30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -5001,7 +5602,8 @@
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [
@@ -5041,10 +5643,17 @@
     "requiredStrength": 91,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 20,
     "invFile": "invbbb",
     "stats": [
@@ -5057,7 +5666,8 @@
         },
         "min": 20,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "hp",
@@ -5068,7 +5678,8 @@
         },
         "min": 30,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "fixedStats": [
@@ -5080,7 +5691,8 @@
           "zh-CN": "技能列加成"
         },
         "value": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "balance1",
@@ -5090,7 +5702,8 @@
           "zh-CN": "加快恢复速度"
         },
         "value": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "block",
@@ -5100,7 +5713,8 @@
           "zh-CN": "格挡机率 %"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -5113,7 +5727,8 @@
         },
         "min": 75,
         "max": 75,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "pierce-fire",
@@ -5124,7 +5739,8 @@
         },
         "min": 25,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "enr",
@@ -5135,7 +5751,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [
@@ -5174,10 +5791,17 @@
     "requiredStrength": 12,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 1,
-      "max": 3
+      "min": {
+        "low": 1,
+        "high": 1
+      },
+      "max": {
+        "low": 3,
+        "high": 3
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 12,
     "invFile": "invbuc",
     "stats": [],
@@ -5190,7 +5814,8 @@
           "zh-CN": "减少伤害"
         },
         "value": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "str",
@@ -5200,7 +5825,8 @@
           "zh-CN": "力量"
         },
         "value": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -5213,7 +5839,8 @@
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -5249,10 +5876,17 @@
     "requiredStrength": 30,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 6,
-      "max": 12
+      "min": {
+        "low": 6,
+        "high": 6
+      },
+      "max": {
+        "low": 12,
+        "high": 12
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 16,
     "invFile": "invmbt",
     "stats": [],
@@ -5265,7 +5899,8 @@
           "zh-CN": "火焰抗性 %"
         },
         "value": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "move2",
@@ -5275,7 +5910,8 @@
           "zh-CN": "加快跑走速度 %"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -5288,7 +5924,8 @@
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -5324,10 +5961,17 @@
     "requiredStrength": 25,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 16,
     "invFile": "invmbl",
     "stats": [],
@@ -5340,7 +5984,8 @@
           "zh-CN": "冷冻抗性 %"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "hp",
@@ -5350,7 +5995,8 @@
           "zh-CN": "生命值"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -5363,7 +6009,8 @@
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -5397,9 +6044,16 @@
     "requiredDexterity": null,
     "oneHandDamage": null,
     "twoHandDamage": {
-      "min": 14,
-      "max": 53
+      "min": {
+        "low": 42,
+        "high": 42
+      },
+      "max": {
+        "low": 159,
+        "high": 159
+      }
     },
+    "weaponSpeed": 0,
     "durability": 50,
     "invFile": "invvou",
     "stats": [
@@ -5412,7 +6066,8 @@
         },
         "min": 5,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "fixedStats": [
@@ -5424,7 +6079,8 @@
           "zh-CN": "攻击等级"
         },
         "value": 330,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "indestruct",
@@ -5434,7 +6090,8 @@
           "zh-CN": "不可破坏"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "hit-skill:45",
@@ -5455,7 +6112,8 @@
           "zh-CN": "加快攻击速度"
         },
         "value": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg%",
@@ -5465,7 +6123,8 @@
           "zh-CN": "强化伤害 %"
         },
         "value": 200,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [],
@@ -5504,10 +6163,17 @@
     "requiredStrength": 86,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 36,
     "invFile": "invscl",
     "stats": [],
@@ -5520,7 +6186,8 @@
           "zh-CN": "防御力"
         },
         "value": 200,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-pois",
@@ -5530,7 +6197,8 @@
           "zh-CN": "毒素抗性 %"
         },
         "value": 27,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "hp",
@@ -5540,7 +6208,8 @@
           "zh-CN": "生命值"
         },
         "value": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "gethit-skill:42",
@@ -5588,10 +6257,17 @@
     "requiredStrength": 25,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 16,
     "invFile": "invmbl",
     "stats": [
@@ -5604,7 +6280,8 @@
         },
         "min": 3,
         "max": 33,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "fixedStats": [
@@ -5616,7 +6293,8 @@
           "zh-CN": "防止怪物治疗"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ac/lvl",
@@ -5626,7 +6304,8 @@
           "zh-CN": "每等级防御力"
         },
         "value": 12,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "dmg-to-mana",
@@ -5636,7 +6315,8 @@
           "zh-CN": "承受伤害转换为魔力"
         },
         "value": 12,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [],
@@ -5675,10 +6355,17 @@
     "requiredStrength": 103,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 50,
     "invFile": "invcrn",
     "stats": [],
@@ -5691,7 +6378,8 @@
           "zh-CN": "补充生命值"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "red-mag",
@@ -5701,7 +6389,8 @@
           "zh-CN": "减少魔法伤害"
         },
         "value": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-cold",
@@ -5711,7 +6400,8 @@
           "zh-CN": "冷冻抗性 %"
         },
         "value": 37,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "ac%",
@@ -5721,7 +6411,8 @@
           "zh-CN": "强化防御力 %"
         },
         "value": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [],
@@ -5758,10 +6449,17 @@
     "requiredStrength": 110,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 24,
     "invFile": "invhbl",
     "stats": [],
@@ -5774,7 +6472,8 @@
           "zh-CN": "防御力"
         },
         "value": 36,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-fire",
@@ -5784,7 +6483,8 @@
           "zh-CN": "火焰抗性 %"
         },
         "value": 28,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-ltng",
@@ -5794,7 +6494,8 @@
           "zh-CN": "闪电抗性 %"
         },
         "value": 31,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "str",
@@ -5804,7 +6505,8 @@
           "zh-CN": "力量"
         },
         "value": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -5817,7 +6519,8 @@
         },
         "min": 105,
         "max": 105,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "balance2",
@@ -5828,7 +6531,8 @@
         },
         "min": 25,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "ac%",
@@ -5839,7 +6543,8 @@
         },
         "min": 100,
         "max": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "red-dmg%",
@@ -5850,7 +6555,8 @@
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "skilltab:13",
@@ -5861,7 +6567,8 @@
         },
         "min": 2,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -5897,10 +6604,17 @@
     "requiredStrength": 110,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 24,
     "invFile": "invhgl",
     "stats": [],
@@ -5913,7 +6627,8 @@
           "zh-CN": "防御力"
         },
         "value": 65,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "str",
@@ -5923,7 +6638,8 @@
           "zh-CN": "力量"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dex",
@@ -5933,7 +6649,8 @@
           "zh-CN": "敏捷"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "gethit-skill:38",
@@ -5957,7 +6674,8 @@
         },
         "min": 25,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "ac",
@@ -5968,7 +6686,8 @@
         },
         "min": 120,
         "max": 120,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "lifesteal",
@@ -5979,7 +6698,8 @@
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "manasteal",
@@ -5990,7 +6710,8 @@
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "freeze",
@@ -6001,7 +6722,8 @@
         },
         "min": 2,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -6037,10 +6759,17 @@
     "requiredStrength": 125,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 39,
-      "max": 80
+      "min": {
+        "low": 39,
+        "high": 39
+      },
+      "max": {
+        "low": 80,
+        "high": 80
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 24,
     "invFile": "invhbt",
     "stats": [],
@@ -6053,7 +6782,8 @@
           "zh-CN": "防御力"
         },
         "value": 75,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "move3",
@@ -6063,7 +6793,8 @@
           "zh-CN": "加快跑走速度 %"
         },
         "value": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "att",
@@ -6073,7 +6804,8 @@
           "zh-CN": "攻击等级"
         },
         "value": 110,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "hp",
@@ -6083,7 +6815,8 @@
           "zh-CN": "生命值"
         },
         "value": 44,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -6096,7 +6829,8 @@
         },
         "min": 25,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "skilltab:12",
@@ -6107,7 +6841,8 @@
         },
         "min": 2,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "ac",
@@ -6118,7 +6853,8 @@
         },
         "min": 160,
         "max": 160,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "half-freeze",
@@ -6129,7 +6865,8 @@
         },
         "min": 1,
         "max": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -6165,10 +6902,17 @@
     "requiredStrength": 232,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 60,
     "invFile": "invaar",
     "stats": [],
@@ -6181,7 +6925,8 @@
           "zh-CN": "防御力"
         },
         "value": 400,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "gethit-skill:52",
@@ -6202,7 +6947,8 @@
           "zh-CN": "技能列加成"
         },
         "value": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-pois",
@@ -6212,7 +6958,8 @@
           "zh-CN": "毒素抗性 %"
         },
         "value": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -6225,7 +6972,8 @@
         },
         "min": 25,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-cold",
@@ -6236,7 +6984,8 @@
         },
         "min": 40,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-fire",
@@ -6247,7 +6996,8 @@
         },
         "min": 40,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-ltng",
@@ -6258,7 +7008,8 @@
         },
         "min": 40,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "ac%",
@@ -6269,7 +7020,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -6303,9 +7055,16 @@
     "requiredDexterity": null,
     "oneHandDamage": null,
     "twoHandDamage": {
-      "min": 77,
-      "max": 106
+      "min": {
+        "low": 231,
+        "high": 231
+      },
+      "max": {
+        "low": 318,
+        "high": 318
+      }
     },
+    "weaponSpeed": 10,
     "durability": 60,
     "invFile": "invmau",
     "stats": [
@@ -6318,7 +7077,8 @@
         },
         "min": 35,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "fixedStats": [
@@ -6330,7 +7090,8 @@
           "zh-CN": "不可破坏"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "swing3",
@@ -6340,7 +7101,8 @@
           "zh-CN": "加快攻击速度"
         },
         "value": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-demon",
@@ -6350,7 +7112,8 @@
           "zh-CN": "对恶魔伤害"
         },
         "value": 200,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-undead",
@@ -6360,7 +7123,8 @@
           "zh-CN": "对不死系伤害"
         },
         "value": 200,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg%",
@@ -6370,7 +7134,8 @@
           "zh-CN": "强化伤害 %"
         },
         "value": 200,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "sock",
@@ -6380,7 +7145,8 @@
           "zh-CN": "插槽数"
         },
         "value": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -6393,7 +7159,8 @@
         },
         "min": 211,
         "max": 397,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "dmg-ltng",
@@ -6404,7 +7171,8 @@
         },
         "min": 7,
         "max": 477,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "dmg-cold",
@@ -6415,7 +7183,8 @@
         },
         "min": 127,
         "max": 364,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "dmg-pois",
@@ -6426,7 +7195,8 @@
         },
         "min": 204,
         "max": 204,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "dmg-mag",
@@ -6437,7 +7207,8 @@
         },
         "min": 250,
         "max": 361,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [
@@ -6475,10 +7246,17 @@
     "requiredStrength": 65,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 55,
     "invFile": "invba5",
     "stats": [
@@ -6491,7 +7269,8 @@
         },
         "min": 25,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "fixedStats": [
@@ -6503,7 +7282,8 @@
           "zh-CN": "防御力"
         },
         "value": 125,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "gold%",
@@ -6513,7 +7293,8 @@
           "zh-CN": "额外金币拾取率 %"
         },
         "value": 37,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "skilltab:14",
@@ -6523,7 +7304,8 @@
           "zh-CN": "技能列加成"
         },
         "value": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "light",
@@ -6533,7 +7315,8 @@
           "zh-CN": "光环半径"
         },
         "value": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "sock",
@@ -6543,7 +7326,8 @@
           "zh-CN": "插槽数"
         },
         "value": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [],
@@ -6582,10 +7366,17 @@
     "requiredStrength": 0,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 12,
     "invFile": "invcap",
     "stats": [],
@@ -6598,7 +7389,8 @@
           "zh-CN": "全抗性"
         },
         "value": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-to-mana",
@@ -6608,7 +7400,8 @@
           "zh-CN": "承受伤害转换为魔力"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -6621,7 +7414,8 @@
         },
         "min": 16,
         "max": 16,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -6657,10 +7451,17 @@
     "requiredStrength": 45,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 18,
     "invFile": "invtbl",
     "stats": [],
@@ -6673,7 +7474,8 @@
           "zh-CN": "防御力"
         },
         "value": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "hp",
@@ -6683,7 +7485,8 @@
           "zh-CN": "生命值"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -6696,7 +7499,8 @@
         },
         "min": 25,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "half-freeze",
@@ -6707,7 +7511,8 @@
         },
         "min": 1,
         "max": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -6740,10 +7545,17 @@
     "requiredStrength": null,
     "requiredDexterity": null,
     "oneHandDamage": {
-      "min": 5,
-      "max": 11
+      "min": {
+        "low": 5,
+        "high": 5
+      },
+      "max": {
+        "low": 11,
+        "high": 11
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": 0,
     "durability": 15,
     "invFile": "invgwn",
     "stats": [],
@@ -6756,7 +7568,8 @@
           "zh-CN": "最小伤害"
         },
         "value": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "nec",
@@ -6766,7 +7579,8 @@
           "zh-CN": "死灵法师技能等级"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -6779,7 +7593,8 @@
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -6815,10 +7630,17 @@
     "requiredStrength": 55,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 50,
     "invFile": "invcrn",
     "stats": [],
@@ -6831,7 +7653,8 @@
           "zh-CN": "火焰抗性 %"
         },
         "value": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-ltng",
@@ -6841,7 +7664,8 @@
           "zh-CN": "闪电抗性 %"
         },
         "value": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -6854,7 +7678,8 @@
         },
         "min": 16,
         "max": 16,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -6888,6 +7713,7 @@
     "requiredDexterity": null,
     "oneHandDamage": null,
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": null,
     "invFile": "invamu",
     "stats": [],
@@ -6900,7 +7726,8 @@
           "zh-CN": "毒素抗性 %"
         },
         "value": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-pois-len",
@@ -6910,7 +7737,8 @@
           "zh-CN": "减少毒素持续时间 %"
         },
         "value": 75,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -6923,7 +7751,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -6959,10 +7788,17 @@
     "requiredStrength": 45,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 18,
     "invFile": "invtbl",
     "stats": [],
@@ -6975,7 +7811,8 @@
           "zh-CN": "防御力"
         },
         "value": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "dmg-min",
@@ -6985,7 +7822,8 @@
           "zh-CN": "最小伤害"
         },
         "value": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -6998,7 +7836,8 @@
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -7034,10 +7873,17 @@
     "requiredStrength": 45,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 18,
     "invFile": "invtgl",
     "stats": [],
@@ -7050,7 +7896,8 @@
           "zh-CN": "冷冻抗性 %"
         },
         "value": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "half-freeze",
@@ -7060,7 +7907,8 @@
           "zh-CN": "减半冰冻持续时间"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -7073,7 +7921,8 @@
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -7109,10 +7958,17 @@
     "requiredStrength": 30,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 50,
     "invFile": "invbrs",
     "stats": [],
@@ -7125,7 +7981,8 @@
           "zh-CN": "防御力"
         },
         "value": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "red-mag",
@@ -7135,7 +7992,8 @@
           "zh-CN": "减少魔法伤害"
         },
         "value": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -7148,7 +8006,8 @@
         },
         "min": 16,
         "max": 16,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -7184,10 +8043,17 @@
     "requiredStrength": 41,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 30,
     "invFile": "invfhl",
     "stats": [],
@@ -7200,7 +8066,8 @@
           "zh-CN": "敏捷"
         },
         "value": 6,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "red-dmg",
@@ -7210,7 +8077,8 @@
           "zh-CN": "减少伤害"
         },
         "value": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -7223,7 +8091,8 @@
         },
         "min": 8,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -7256,10 +8125,17 @@
     "requiredStrength": 48,
     "requiredDexterity": null,
     "oneHandDamage": {
-      "min": 7,
-      "max": 14
+      "min": {
+        "low": 7,
+        "high": 7
+      },
+      "max": {
+        "low": 14,
+        "high": 14
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": 0,
     "durability": 32,
     "invFile": "invbsd",
     "stats": [],
@@ -7272,7 +8148,8 @@
           "zh-CN": "最小伤害"
         },
         "value": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "swing2",
@@ -7282,7 +8159,8 @@
           "zh-CN": "加快攻击速度"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -7295,7 +8173,8 @@
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -7331,10 +8210,17 @@
     "requiredStrength": 60,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 2,
-      "max": 6
+      "min": {
+        "low": 2,
+        "high": 2
+      },
+      "max": {
+        "low": 6,
+        "high": 6
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 40,
     "invFile": "invgts",
     "stats": [],
@@ -7347,7 +8233,8 @@
           "zh-CN": "防御力"
         },
         "value": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "light-thorns",
@@ -7357,7 +8244,8 @@
           "zh-CN": "攻击者承受闪电伤害"
         },
         "value": 4,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -7370,7 +8258,8 @@
         },
         "min": 8,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -7406,10 +8295,17 @@
     "requiredStrength": 50,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 12,
     "invFile": "invlgl",
     "stats": [],
@@ -7422,7 +8318,8 @@
           "zh-CN": "防御力"
         },
         "value": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "swing2",
@@ -7432,7 +8329,8 @@
           "zh-CN": "加快攻击速度"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-fire",
@@ -7442,7 +8340,8 @@
           "zh-CN": "火焰抗性 %"
         },
         "value": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-demon",
@@ -7452,7 +8351,8 @@
           "zh-CN": "对恶魔伤害"
         },
         "value": 350,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "hit-skill:101",
@@ -7498,9 +8398,16 @@
     "requiredDexterity": 152,
     "oneHandDamage": null,
     "twoHandDamage": {
-      "min": 14,
-      "max": 72
+      "min": {
+        "low": 40,
+        "high": 40
+      },
+      "max": {
+        "low": 207,
+        "high": 207
+      }
     },
+    "weaponSpeed": 10,
     "durability": 55,
     "invFile": "invam2",
     "stats": [],
@@ -7513,7 +8420,8 @@
           "zh-CN": "强化伤害 %"
         },
         "value": 188,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "swing3",
@@ -7523,7 +8431,8 @@
           "zh-CN": "加快攻击速度"
         },
         "value": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "magicarrow",
@@ -7533,7 +8442,8 @@
           "zh-CN": "发射魔法箭"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "att",
@@ -7543,7 +8453,8 @@
           "zh-CN": "攻击等级"
         },
         "value": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -7556,7 +8467,8 @@
         },
         "min": 114,
         "max": 377,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "hit-skill:Nova",
@@ -7579,7 +8491,8 @@
         },
         "min": 2,
         "max": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -7615,10 +8528,17 @@
     "requiredStrength": 174,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 48,
     "invFile": "invfld",
     "stats": [
@@ -7631,7 +8551,8 @@
         },
         "min": 5,
         "max": 12,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "fixedStats": [
@@ -7654,7 +8575,8 @@
           "zh-CN": "需求 %"
         },
         "value": -30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "skilltab:1",
@@ -7664,7 +8586,8 @@
           "zh-CN": "技能列加成"
         },
         "value": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "ac/lvl",
@@ -7674,7 +8597,8 @@
           "zh-CN": "每等级防御力"
         },
         "value": 32,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ac",
@@ -7684,7 +8608,8 @@
           "zh-CN": "防御力"
         },
         "value": 350,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -7697,7 +8622,8 @@
         },
         "min": 30,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [
@@ -7735,10 +8661,17 @@
     "requiredStrength": 88,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 18,
     "invFile": "invtgl",
     "stats": [
@@ -7751,7 +8684,8 @@
         },
         "min": 45,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "dmg-cold",
@@ -7762,7 +8696,8 @@
         },
         "min": 6,
         "max": 18,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "fixedStats": [
@@ -7774,7 +8709,8 @@
           "zh-CN": "减半冰冻持续时间"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "gold%",
@@ -7784,7 +8720,8 @@
           "zh-CN": "额外金币拾取率 %"
         },
         "value": 56,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "str",
@@ -7794,7 +8731,8 @@
           "zh-CN": "力量"
         },
         "value": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dex",
@@ -7804,7 +8742,8 @@
           "zh-CN": "敏捷"
         },
         "value": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -7817,7 +8756,8 @@
         },
         "min": 131,
         "max": 252,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "extra-cold",
@@ -7828,7 +8768,8 @@
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [
@@ -7867,10 +8808,17 @@
     "requiredStrength": 20,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 14,
     "invFile": "invvbl",
     "stats": [],
@@ -7883,7 +8831,8 @@
           "zh-CN": "防御力"
         },
         "value": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "move2",
@@ -7893,7 +8842,8 @@
           "zh-CN": "加快跑走速度 %"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "manasteal",
@@ -7903,7 +8853,8 @@
           "zh-CN": "魔力窃取 %"
         },
         "value": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "light",
@@ -7913,7 +8864,8 @@
           "zh-CN": "光环半径"
         },
         "value": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -7926,7 +8878,8 @@
         },
         "min": 25,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -7962,10 +8915,17 @@
     "requiredStrength": 0,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 20,
     "invFile": "invci3",
     "stats": [],
@@ -7978,7 +8938,8 @@
           "zh-CN": "防御力"
         },
         "value": 150,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "regen",
@@ -7988,7 +8949,8 @@
           "zh-CN": "补充生命值"
         },
         "value": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "swing2",
@@ -7998,7 +8960,8 @@
           "zh-CN": "加快攻击速度"
         },
         "value": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "mana",
@@ -8008,7 +8971,8 @@
           "zh-CN": "魔力值"
         },
         "value": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -8021,7 +8985,8 @@
         },
         "min": 1,
         "max": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "att%",
@@ -8032,7 +8997,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-all",
@@ -8043,7 +9009,8 @@
         },
         "min": 25,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -8079,10 +9046,17 @@
     "requiredStrength": 20,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 14,
     "invFile": "invvgl",
     "stats": [],
@@ -8095,7 +9069,8 @@
           "zh-CN": "强化防御力 %"
         },
         "value": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-fire",
@@ -8105,7 +9080,8 @@
           "zh-CN": "火焰抗性 %"
         },
         "value": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "swing2",
@@ -8115,7 +9091,8 @@
           "zh-CN": "加快攻击速度"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "light",
@@ -8125,7 +9102,8 @@
           "zh-CN": "光环半径"
         },
         "value": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "att",
@@ -8135,7 +9113,8 @@
           "zh-CN": "攻击等级"
         },
         "value": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [],
@@ -8172,10 +9151,17 @@
     "requiredStrength": 0,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 12,
     "invFile": "invcap",
     "stats": [],
@@ -8188,7 +9174,8 @@
           "zh-CN": "额外魔法物品寻获率 %"
         },
         "value": 35,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "thorns",
@@ -8198,7 +9185,8 @@
           "zh-CN": "攻击者承受伤害"
         },
         "value": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ac/lvl",
@@ -8208,7 +9196,8 @@
           "zh-CN": "每等级防御力"
         },
         "value": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [],
@@ -8245,10 +9234,17 @@
     "requiredStrength": 18,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 4,
-      "max": 10
+      "min": {
+        "low": 4,
+        "high": 4
+      },
+      "max": {
+        "low": 10,
+        "high": 10
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 14,
     "invFile": "invvbt",
     "stats": [],
@@ -8261,7 +9257,8 @@
           "zh-CN": "加快跑走速度 %"
         },
         "value": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "att",
@@ -8271,7 +9268,8 @@
           "zh-CN": "攻击等级"
         },
         "value": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "str",
@@ -8281,7 +9279,8 @@
           "zh-CN": "力量"
         },
         "value": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dex",
@@ -8291,7 +9290,8 @@
           "zh-CN": "敏捷"
         },
         "value": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [],
@@ -8325,10 +9325,17 @@
     "requiredStrength": null,
     "requiredDexterity": null,
     "oneHandDamage": {
-      "min": 3,
-      "max": 7
+      "min": {
+        "low": 5,
+        "high": 5
+      },
+      "max": {
+        "low": 12,
+        "high": 12
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": -20,
     "durability": 15,
     "invFile": "invbwn",
     "stats": [
@@ -8341,7 +9348,8 @@
         },
         "min": 25,
         "max": 75,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "fixedStats": [
@@ -8353,7 +9361,8 @@
           "zh-CN": "强化伤害 %"
         },
         "value": 75,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "mana",
@@ -8363,7 +9372,8 @@
           "zh-CN": "魔力值"
         },
         "value": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "manasteal",
@@ -8373,7 +9383,8 @@
           "zh-CN": "魔力窃取 %"
         },
         "value": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cast3",
@@ -8383,7 +9394,8 @@
           "zh-CN": "加快施法速度"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [],
@@ -8422,10 +9434,17 @@
     "requiredStrength": 0,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 14,
     "invFile": "invvgl",
     "stats": [
@@ -8438,7 +9457,8 @@
         },
         "min": 20,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "dmg-pois",
@@ -8449,7 +9469,8 @@
         },
         "min": 9,
         "max": 11,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "fixedStats": [
@@ -8461,7 +9482,8 @@
           "zh-CN": "加快攻击速度"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "hp",
@@ -8471,7 +9493,8 @@
           "zh-CN": "生命值"
         },
         "value": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [],
@@ -8511,10 +9534,17 @@
     "requiredStrength": 55,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 50,
     "invFile": "invcrn",
     "stats": [],
@@ -8527,7 +9557,8 @@
           "zh-CN": "生命值"
         },
         "value": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "mana",
@@ -8537,7 +9568,8 @@
           "zh-CN": "魔力值"
         },
         "value": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -8550,7 +9582,8 @@
         },
         "min": 40,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -8586,10 +9619,17 @@
     "requiredStrength": 47,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 2,
-      "max": 5
+      "min": {
+        "low": 2,
+        "high": 2
+      },
+      "max": {
+        "low": 5,
+        "high": 5
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 30,
     "invFile": "invkit",
     "stats": [],
@@ -8602,7 +9642,8 @@
           "zh-CN": "额外魔法物品寻获率 %"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ac",
@@ -8612,7 +9653,8 @@
           "zh-CN": "防御力"
         },
         "value": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -8625,7 +9667,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ac%",
@@ -8636,7 +9679,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -8672,10 +9716,17 @@
     "requiredStrength": 100,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 60,
     "invFile": "invaar",
     "stats": [],
@@ -8688,7 +9739,8 @@
           "zh-CN": "攻击者承受伤害"
         },
         "value": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "red-dmg",
@@ -8698,7 +9750,8 @@
           "zh-CN": "减少伤害"
         },
         "value": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -8711,7 +9764,8 @@
         },
         "min": 100,
         "max": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -8744,10 +9798,17 @@
     "requiredStrength": 55,
     "requiredDexterity": null,
     "oneHandDamage": {
-      "min": 10,
-      "max": 17
+      "min": {
+        "low": 15,
+        "high": 15
+      },
+      "max": {
+        "low": 26,
+        "high": 26
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": -10,
     "durability": 70,
     "invFile": "invwsp",
     "stats": [],
@@ -8760,7 +9821,8 @@
           "zh-CN": "圣骑士技能等级"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg%",
@@ -8770,7 +9832,8 @@
           "zh-CN": "强化伤害 %"
         },
         "value": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "light",
@@ -8780,7 +9843,8 @@
           "zh-CN": "光环半径"
         },
         "value": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [],
@@ -8817,10 +9881,17 @@
     "requiredStrength": 0,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 35,
     "invFile": "invci0",
     "stats": [
@@ -8833,7 +9904,8 @@
         },
         "min": 25,
         "max": 35,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "fixedStats": [
@@ -8845,7 +9917,8 @@
           "zh-CN": "防御力"
         },
         "value": 75,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "light",
@@ -8855,7 +9928,8 @@
           "zh-CN": "光环半径"
         },
         "value": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "str",
@@ -8865,7 +9939,8 @@
           "zh-CN": "力量"
         },
         "value": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "gethit-skill:53",
@@ -8915,10 +9990,17 @@
     "requiredStrength": 196,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 60,
     "invFile": "invplt",
     "stats": [],
@@ -8931,7 +10013,8 @@
           "zh-CN": "需求 %"
         },
         "value": -60,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "hp",
@@ -8941,7 +10024,8 @@
           "zh-CN": "生命值"
         },
         "value": 65,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-all",
@@ -8951,7 +10035,8 @@
           "zh-CN": "全抗性"
         },
         "value": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-to-mana",
@@ -8961,7 +10046,8 @@
           "zh-CN": "承受伤害转换为魔力"
         },
         "value": 45,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "allskills",
@@ -8971,7 +10057,8 @@
           "zh-CN": "全部技能"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "ac",
@@ -8981,7 +10068,8 @@
           "zh-CN": "防御力"
         },
         "value": 300,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [],
@@ -9016,9 +10104,16 @@
     "requiredDexterity": 37,
     "oneHandDamage": null,
     "twoHandDamage": {
-      "min": 80,
-      "max": 93
+      "min": {
+        "low": 200,
+        "high": 200
+      },
+      "max": {
+        "low": 233,
+        "high": 233
+      }
     },
+    "weaponSpeed": 0,
     "durability": 35,
     "invFile": "invcst",
     "stats": [
@@ -9031,7 +10126,8 @@
         },
         "min": 6,
         "max": 45,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "fixedStats": [
@@ -9043,7 +10139,8 @@
           "zh-CN": "精力"
         },
         "value": 35,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg%",
@@ -9053,7 +10150,8 @@
           "zh-CN": "强化伤害 %"
         },
         "value": 150,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "charged:54",
@@ -9074,7 +10172,8 @@
           "zh-CN": "加快施法速度"
         },
         "value": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "mana",
@@ -9084,7 +10183,8 @@
           "zh-CN": "魔力值"
         },
         "value": 70,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "allskills",
@@ -9094,7 +10194,8 @@
           "zh-CN": "全部技能"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [],
@@ -9130,10 +10231,17 @@
     "requiredStrength": 118,
     "requiredDexterity": 118,
     "oneHandDamage": {
-      "min": 40,
-      "max": 51
+      "min": {
+        "low": 120,
+        "high": 120
+      },
+      "max": {
+        "low": 153,
+        "high": 153
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": 0,
     "durability": 68,
     "invFile": "invskr",
     "stats": [
@@ -9146,7 +10254,8 @@
         },
         "min": 12,
         "max": 17,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "fixedStats": [
@@ -9158,7 +10267,8 @@
           "zh-CN": "加快攻击速度"
         },
         "value": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg%",
@@ -9168,7 +10278,8 @@
           "zh-CN": "强化伤害 %"
         },
         "value": 200,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "ignore-ac",
@@ -9178,7 +10289,8 @@
           "zh-CN": "无视目标防御力"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "dmg-cold",
@@ -9188,7 +10300,8 @@
           "zh-CN": "冷冻伤害"
         },
         "value": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "dmg-undead",
@@ -9198,7 +10311,8 @@
           "zh-CN": "对不死系伤害"
         },
         "value": 200,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-demon",
@@ -9208,7 +10322,8 @@
           "zh-CN": "对恶魔伤害"
         },
         "value": 200,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [],
@@ -9247,10 +10362,17 @@
     "requiredStrength": 149,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 36,
     "invFile": "invscl",
     "stats": [
@@ -9263,7 +10385,8 @@
         },
         "min": 150,
         "max": 225,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "sock",
@@ -9274,7 +10397,8 @@
         },
         "min": 1,
         "max": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "fixedStats": [
@@ -9286,7 +10410,8 @@
           "zh-CN": "生命值（依角色等级）"
         },
         "value": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "skilltab:19",
@@ -9296,7 +10421,8 @@
           "zh-CN": "技能列加成"
         },
         "value": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-pois-len",
@@ -9306,7 +10432,8 @@
           "zh-CN": "减少毒素持续时间 %"
         },
         "value": 75,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-pois",
@@ -9316,7 +10443,8 @@
           "zh-CN": "毒素抗性 %"
         },
         "value": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [],
@@ -9356,10 +10484,17 @@
     "requiredStrength": 65,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 23,
-      "max": 52
+      "min": {
+        "low": 23,
+        "high": 23
+      },
+      "max": {
+        "low": 52,
+        "high": 52
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 16,
     "invFile": "invmbt",
     "stats": [
@@ -9372,7 +10507,8 @@
         },
         "min": 75,
         "max": 125,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-cold",
@@ -9383,7 +10519,8 @@
         },
         "min": 15,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-ltng",
@@ -9394,7 +10531,8 @@
         },
         "min": 15,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "fixedStats": [
@@ -9406,7 +10544,8 @@
           "zh-CN": "加快跑走速度 %"
         },
         "value": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "regen-stam/lvl",
@@ -9416,7 +10555,8 @@
           "zh-CN": "耐力回复 %（依角色等级）"
         },
         "value": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "dur",
@@ -9426,7 +10566,8 @@
           "zh-CN": "耐久度 %"
         },
         "value": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [],
@@ -9467,10 +10608,17 @@
     "requiredStrength": 58,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 40,
     "invFile": "invbhm",
     "stats": [
@@ -9483,7 +10631,8 @@
         },
         "min": 135,
         "max": 175,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "dex",
@@ -9494,7 +10643,8 @@
         },
         "min": 20,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "str",
@@ -9505,7 +10655,8 @@
         },
         "min": 10,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-all",
@@ -9516,7 +10667,8 @@
         },
         "min": 10,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "fixedStats": [
@@ -9528,7 +10680,8 @@
           "zh-CN": "减少魔法伤害"
         },
         "value": 3,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [],
@@ -9570,10 +10723,17 @@
     "requiredStrength": 192,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 40,
     "invFile": "invghm",
     "stats": [],
@@ -9586,7 +10746,8 @@
           "zh-CN": "防御力"
         },
         "value": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ease",
@@ -9596,7 +10757,8 @@
           "zh-CN": "需求 %"
         },
         "value": -40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "hit-skill:72",
@@ -9617,7 +10779,8 @@
           "zh-CN": "力量"
         },
         "value": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dex",
@@ -9627,7 +10790,8 @@
           "zh-CN": "敏捷"
         },
         "value": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "balance3",
@@ -9637,7 +10801,8 @@
           "zh-CN": "加快恢复速度"
         },
         "value": 24,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [],
@@ -9674,10 +10839,17 @@
     "requiredStrength": 20,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 26,
-      "max": 46
+      "min": {
+        "low": 26,
+        "high": 26
+      },
+      "max": {
+        "low": 46,
+        "high": 46
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 12,
     "invFile": "invlbt",
     "stats": [
@@ -9690,7 +10862,8 @@
         },
         "min": 15,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "fixedStats": [
@@ -9702,7 +10875,8 @@
           "zh-CN": "防御力"
         },
         "value": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "move3",
@@ -9712,7 +10886,8 @@
           "zh-CN": "加快跑走速度 %"
         },
         "value": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "half-freeze",
@@ -9722,7 +10897,8 @@
           "zh-CN": "减半冰冻持续时间"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [],
@@ -9758,10 +10934,17 @@
     "requiredStrength": 99,
     "requiredDexterity": 109,
     "oneHandDamage": {
-      "min": 5,
-      "max": 77
+      "min": {
+        "low": 13,
+        "high": 13
+      },
+      "max": {
+        "low": 193,
+        "high": 193
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": -10,
     "durability": 44,
     "invFile": "invlsd",
     "stats": [
@@ -9774,7 +10957,8 @@
         },
         "min": 25,
         "max": 35,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "fixedStats": [
@@ -9786,7 +10970,8 @@
           "zh-CN": "强化伤害 %"
         },
         "value": 150,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "swing3",
@@ -9796,7 +10981,8 @@
           "zh-CN": "加快攻击速度"
         },
         "value": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-demon",
@@ -9806,7 +10992,8 @@
           "zh-CN": "对恶魔伤害"
         },
         "value": 318,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "indestruct",
@@ -9816,7 +11003,8 @@
           "zh-CN": "不可破坏"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "dex",
@@ -9826,7 +11014,8 @@
           "zh-CN": "敏捷"
         },
         "value": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "str",
@@ -9836,7 +11025,8 @@
           "zh-CN": "力量"
         },
         "value": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [],
@@ -9875,10 +11065,17 @@
     "requiredStrength": 165,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 30,
     "invFile": "invspl",
     "stats": [
@@ -9891,7 +11088,8 @@
         },
         "min": 50,
         "max": 75,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "fixedStats": [
@@ -9903,7 +11101,8 @@
           "zh-CN": "防御力"
         },
         "value": 400,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "balance3",
@@ -9913,7 +11112,8 @@
           "zh-CN": "加快恢复速度"
         },
         "value": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "str",
@@ -9923,7 +11123,8 @@
           "zh-CN": "力量"
         },
         "value": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "att-demon",
@@ -9933,7 +11134,8 @@
           "zh-CN": "对恶魔攻击等级"
         },
         "value": 300,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [],
@@ -9972,10 +11174,17 @@
     "requiredStrength": 82,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 30,
     "invFile": "invfhl",
     "stats": [
@@ -9988,7 +11197,8 @@
         },
         "min": 15,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-ltng",
@@ -9999,7 +11209,8 @@
         },
         "min": 15,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "fixedStats": [
@@ -10011,7 +11222,8 @@
           "zh-CN": "防御力"
         },
         "value": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "allskills",
@@ -10021,7 +11233,8 @@
           "zh-CN": "全部技能"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [],
@@ -10061,10 +11274,17 @@
     "requiredStrength": 60,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 24,
     "invFile": "invhgl",
     "stats": [],
@@ -10077,7 +11297,8 @@
           "zh-CN": "力量"
         },
         "value": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "att",
@@ -10087,7 +11308,8 @@
           "zh-CN": "攻击等级"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -10100,7 +11322,8 @@
         },
         "min": 30,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -10136,10 +11359,17 @@
     "requiredStrength": 75,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 1,
-      "max": 5
+      "min": {
+        "low": 1,
+        "high": 1
+      },
+      "max": {
+        "low": 5,
+        "high": 5
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 60,
     "invFile": "invtow",
     "stats": [],
@@ -10152,7 +11382,8 @@
           "zh-CN": "全部技能"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "block",
@@ -10162,7 +11393,8 @@
           "zh-CN": "格挡机率 %"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [],
@@ -10199,10 +11431,17 @@
     "requiredStrength": 70,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 10,
-      "max": 20
+      "min": {
+        "low": 10,
+        "high": 10
+      },
+      "max": {
+        "low": 20,
+        "high": 20
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 24,
     "invFile": "invhbt",
     "stats": [],
@@ -10215,7 +11454,8 @@
           "zh-CN": "加快跑走速度 %"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-cold",
@@ -10225,7 +11465,8 @@
           "zh-CN": "冷冻抗性 %"
         },
         "value": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -10238,7 +11479,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "mag%",
@@ -10249,7 +11491,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -10285,10 +11528,17 @@
     "requiredStrength": 70,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 55,
     "invFile": "invgth",
     "stats": [],
@@ -10301,7 +11551,8 @@
           "zh-CN": "强化防御力 %"
         },
         "value": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-ltng",
@@ -10311,7 +11562,8 @@
           "zh-CN": "闪电抗性 %"
         },
         "value": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -10324,7 +11576,8 @@
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -10360,10 +11613,17 @@
     "requiredStrength": 63,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 40,
     "invFile": "invghm",
     "stats": [],
@@ -10376,7 +11636,8 @@
           "zh-CN": "魔力值"
         },
         "value": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ac",
@@ -10386,7 +11647,8 @@
           "zh-CN": "防御力"
         },
         "value": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -10399,7 +11661,8 @@
         },
         "min": 16,
         "max": 16,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -10435,10 +11698,17 @@
     "requiredStrength": 60,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 24,
     "invFile": "invhbl",
     "stats": [],
@@ -10451,7 +11721,8 @@
           "zh-CN": "火焰抗性 %"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "hp",
@@ -10461,7 +11732,8 @@
           "zh-CN": "生命值"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -10474,7 +11746,8 @@
         },
         "min": 16,
         "max": 16,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -10510,10 +11783,17 @@
     "requiredStrength": 77,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 20,
     "invFile": "invqlt",
     "stats": [
@@ -10526,7 +11806,8 @@
         },
         "min": 305,
         "max": 415,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "dmg-pois",
@@ -10537,7 +11818,8 @@
         },
         "min": 24,
         "max": 34,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "fixedStats": [
@@ -10549,7 +11831,8 @@
           "zh-CN": "火焰抗性 %"
         },
         "value": 24,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "gethit-skill:48",
@@ -10598,6 +11881,7 @@
     "requiredDexterity": null,
     "oneHandDamage": null,
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": null,
     "invFile": "invamu",
     "stats": [
@@ -10610,7 +11894,8 @@
         },
         "min": 3,
         "max": 32,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "fixedStats": [
@@ -10622,7 +11907,8 @@
           "zh-CN": "闪电抗性 %"
         },
         "value": 33,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "sor",
@@ -10632,7 +11918,8 @@
           "zh-CN": "女巫技能等级"
         },
         "value": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "hp",
@@ -10642,7 +11929,8 @@
           "zh-CN": "生命值"
         },
         "value": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "mana",
@@ -10652,7 +11940,8 @@
           "zh-CN": "魔力值"
         },
         "value": 42,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -10665,7 +11954,8 @@
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [
@@ -10703,10 +11993,17 @@
     "requiredStrength": 58,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 16,
     "invFile": "invmbl",
     "stats": [
@@ -10719,7 +12016,8 @@
         },
         "min": 10,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "fixedStats": [
@@ -10731,7 +12029,8 @@
           "zh-CN": "需求 %"
         },
         "value": -20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "mana",
@@ -10741,7 +12040,8 @@
           "zh-CN": "魔力值"
         },
         "value": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "dex",
@@ -10751,7 +12051,8 @@
           "zh-CN": "敏捷"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg-to-mana",
@@ -10761,7 +12062,8 @@
           "zh-CN": "承受伤害转换为魔力"
         },
         "value": 37,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -10774,7 +12076,8 @@
         },
         "min": 60,
         "max": 60,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cast2",
@@ -10785,7 +12088,8 @@
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [
@@ -10823,10 +12127,17 @@
     "requiredStrength": 55,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 20,
     "invFile": "invmsk",
     "stats": [],
@@ -10839,7 +12150,8 @@
           "zh-CN": "魔力值"
         },
         "value": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "hp",
@@ -10849,7 +12161,8 @@
           "zh-CN": "生命值"
         },
         "value": 60,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ac",
@@ -10859,7 +12172,8 @@
           "zh-CN": "防御力"
         },
         "value": 45,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-all",
@@ -10869,7 +12183,8 @@
           "zh-CN": "全抗性"
         },
         "value": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "lifesteal",
@@ -10879,7 +12194,8 @@
           "zh-CN": "生命窃取 %"
         },
         "value": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "manasteal",
@@ -10889,7 +12205,8 @@
           "zh-CN": "魔力窃取 %"
         },
         "value": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [],
@@ -10926,10 +12243,17 @@
     "requiredStrength": 208,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 55,
     "invFile": "invgth",
     "stats": [],
@@ -10942,7 +12266,8 @@
           "zh-CN": "需求 %"
         },
         "value": -60,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "red-mag",
@@ -10952,7 +12277,8 @@
           "zh-CN": "减少魔法伤害"
         },
         "value": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "mag%",
@@ -10962,7 +12288,8 @@
           "zh-CN": "额外魔法物品寻获率 %"
         },
         "value": 88,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-cold",
@@ -10972,7 +12299,8 @@
           "zh-CN": "冷冻抗性 %"
         },
         "value": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-fire",
@@ -10982,7 +12310,8 @@
           "zh-CN": "火焰抗性 %"
         },
         "value": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-ltng",
@@ -10992,7 +12321,8 @@
           "zh-CN": "闪电抗性 %"
         },
         "value": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "ac",
@@ -11002,7 +12332,8 @@
           "zh-CN": "防御力"
         },
         "value": 400,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -11015,7 +12346,8 @@
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -11048,10 +12380,17 @@
     "requiredStrength": null,
     "requiredDexterity": null,
     "oneHandDamage": {
-      "min": 18,
-      "max": 42
+      "min": {
+        "low": 18,
+        "high": 18
+      },
+      "max": {
+        "low": 42,
+        "high": 42
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": 10,
     "durability": 50,
     "invFile": "invob5",
     "stats": [
@@ -11064,7 +12403,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": true
       },
       {
         "key": "skill:Lightning Mastery",
@@ -11075,7 +12415,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": true
       },
       {
         "key": "skill:Cold Mastery",
@@ -11086,7 +12427,8 @@
         },
         "min": 1,
         "max": 2,
-        "isSkillRef": true
+        "isSkillRef": true,
+        "signed": true
       }
     ],
     "fixedStats": [
@@ -11098,7 +12440,8 @@
           "zh-CN": "生命值"
         },
         "value": 57,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "mana",
@@ -11108,7 +12451,8 @@
           "zh-CN": "魔力值"
         },
         "value": 77,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "enr",
@@ -11118,7 +12462,8 @@
           "zh-CN": "精力"
         },
         "value": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "cast3",
@@ -11128,7 +12473,8 @@
           "zh-CN": "加快施法速度"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -11141,7 +12487,8 @@
         },
         "min": 1,
         "max": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "pierce-fire",
@@ -11152,7 +12499,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "pierce-ltng",
@@ -11163,7 +12511,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "extra-cold",
@@ -11174,7 +12523,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [
@@ -11211,10 +12561,17 @@
     "requiredStrength": 49,
     "requiredDexterity": 33,
     "oneHandDamage": {
-      "min": 7,
-      "max": 11
+      "min": {
+        "low": 13,
+        "high": 13
+      },
+      "max": {
+        "low": 20,
+        "high": 20
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": -10,
     "durability": 26,
     "invFile": "invmpi",
     "stats": [],
@@ -11227,7 +12584,8 @@
           "zh-CN": "攻击等级"
         },
         "value": 75,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dmg%",
@@ -11237,7 +12595,8 @@
           "zh-CN": "强化伤害 %"
         },
         "value": 80,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -11250,7 +12609,8 @@
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "swing2",
@@ -11261,7 +12621,8 @@
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -11297,10 +12658,17 @@
     "requiredStrength": 0,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 3,
-      "max": 8
+      "min": {
+        "low": 3,
+        "high": 3
+      },
+      "max": {
+        "low": 8,
+        "high": 8
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 12,
     "invFile": "invlbt",
     "stats": [],
@@ -11313,7 +12681,8 @@
           "zh-CN": "耐力回复 %"
         },
         "value": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "dex",
@@ -11323,7 +12692,8 @@
           "zh-CN": "敏捷"
         },
         "value": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -11336,7 +12706,8 @@
         },
         "min": 30,
         "max": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "str",
@@ -11347,7 +12718,8 @@
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -11383,10 +12755,17 @@
     "requiredStrength": 25,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 40,
     "invFile": "invbhm",
     "stats": [],
@@ -11399,7 +12778,8 @@
           "zh-CN": "强化伤害 %"
         },
         "value": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "att",
@@ -11409,7 +12789,8 @@
           "zh-CN": "攻击等级"
         },
         "value": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -11422,7 +12803,8 @@
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -11458,10 +12840,17 @@
     "requiredStrength": 80,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 70,
     "invFile": "invful",
     "stats": [],
@@ -11474,7 +12863,8 @@
           "zh-CN": "生命值"
         },
         "value": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "str",
@@ -11484,7 +12874,8 @@
           "zh-CN": "力量"
         },
         "value": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -11497,7 +12888,8 @@
         },
         "min": 16,
         "max": 16,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -11531,6 +12923,7 @@
     "requiredDexterity": null,
     "oneHandDamage": null,
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": null,
     "invFile": "invamu",
     "stats": [],
@@ -11543,7 +12936,8 @@
           "zh-CN": "减少伤害"
         },
         "value": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "red-mag",
@@ -11553,7 +12947,8 @@
           "zh-CN": "减少魔法伤害"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -11566,7 +12961,8 @@
         },
         "min": 78,
         "max": 78,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "att",
@@ -11577,7 +12973,8 @@
         },
         "min": 60,
         "max": 60,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -11611,6 +13008,7 @@
     "requiredDexterity": null,
     "oneHandDamage": null,
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": null,
     "invFile": "invamu",
     "stats": [
@@ -11623,7 +13021,8 @@
         },
         "min": 35,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "thorns",
@@ -11634,7 +13033,8 @@
         },
         "min": 8,
         "max": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "fixedStats": [
@@ -11646,7 +13046,8 @@
           "zh-CN": "全部技能"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-cold",
@@ -11656,7 +13057,8 @@
           "zh-CN": "冷冻抗性 %"
         },
         "value": 18,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [],
@@ -11696,10 +13098,17 @@
     "requiredStrength": 58,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 16,
     "invFile": "invmgl",
     "stats": [],
@@ -11712,7 +13121,8 @@
           "zh-CN": "防御力"
         },
         "value": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "cast3",
@@ -11722,7 +13132,8 @@
           "zh-CN": "加快施法速度"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-cold",
@@ -11732,7 +13143,8 @@
           "zh-CN": "冷冻抗性 %"
         },
         "value": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "skilltab:6",
@@ -11742,7 +13154,8 @@
           "zh-CN": "技能列加成"
         },
         "value": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -11755,7 +13168,8 @@
         },
         "min": 25,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -11791,10 +13205,17 @@
     "requiredStrength": 151,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 18,
     "invFile": "invtbl",
     "stats": [
@@ -11807,7 +13228,8 @@
         },
         "min": 75,
         "max": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "mana",
@@ -11818,7 +13240,8 @@
         },
         "min": 25,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "fixedStats": [
@@ -11830,7 +13253,8 @@
           "zh-CN": "耐力"
         },
         "value": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "regen",
@@ -11840,7 +13264,8 @@
           "zh-CN": "补充生命值"
         },
         "value": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "hp",
@@ -11850,7 +13275,8 @@
           "zh-CN": "生命值"
         },
         "value": 66,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "nofreeze",
@@ -11860,7 +13286,8 @@
           "zh-CN": "不会被冰冻"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ease",
@@ -11870,7 +13297,8 @@
           "zh-CN": "需求 %"
         },
         "value": -40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -11883,7 +13311,8 @@
         },
         "min": 40,
         "max": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [
@@ -11922,10 +13351,17 @@
     "requiredStrength": 106,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 40,
     "invFile": "invbhm",
     "stats": [
@@ -11938,7 +13374,8 @@
         },
         "min": 80,
         "max": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "fixedStats": [
@@ -11950,7 +13387,8 @@
           "zh-CN": "加快恢复速度"
         },
         "value": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "thorns",
@@ -11960,7 +13398,8 @@
           "zh-CN": "攻击者承受伤害"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "mana",
@@ -11970,7 +13409,8 @@
           "zh-CN": "魔力值"
         },
         "value": 150,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "regen",
@@ -11980,7 +13420,8 @@
           "zh-CN": "补充生命值"
         },
         "value": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [],
@@ -12019,10 +13460,17 @@
     "requiredStrength": 140,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 70,
     "invFile": "invful",
     "stats": [],
@@ -12035,7 +13483,8 @@
           "zh-CN": "需求 %"
         },
         "value": -40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ac-miss",
@@ -12045,7 +13494,8 @@
           "zh-CN": "对抗远程攻击防御力"
         },
         "value": 100,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "res-pois",
@@ -12055,7 +13505,8 @@
           "zh-CN": "毒素抗性 %"
         },
         "value": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "skilltab:8",
@@ -12065,7 +13516,8 @@
           "zh-CN": "技能列加成"
         },
         "value": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "move3",
@@ -12075,7 +13527,8 @@
           "zh-CN": "加快跑走速度 %"
         },
         "value": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "ac%",
@@ -12085,7 +13538,8 @@
           "zh-CN": "强化防御力 %"
         },
         "value": 150,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -12098,7 +13552,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "red-dmg%",
@@ -12109,7 +13564,8 @@
         },
         "min": 25,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -12145,10 +13601,17 @@
     "requiredStrength": 50,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 20,
     "invFile": "invne4",
     "stats": [
@@ -12161,7 +13624,8 @@
         },
         "min": 38,
         "max": 45,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "fixedStats": [
@@ -12173,7 +13637,8 @@
           "zh-CN": "防御力"
         },
         "value": 125,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "str",
@@ -12183,7 +13648,8 @@
           "zh-CN": "力量"
         },
         "value": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "dex",
@@ -12193,7 +13659,8 @@
           "zh-CN": "敏捷"
         },
         "value": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "block",
@@ -12203,7 +13670,8 @@
           "zh-CN": "格挡机率 %"
         },
         "value": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-pois",
@@ -12213,7 +13681,8 @@
           "zh-CN": "毒素抗性 %"
         },
         "value": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "skilltab:7",
@@ -12223,7 +13692,8 @@
           "zh-CN": "技能列加成"
         },
         "value": 2,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -12236,7 +13706,8 @@
         },
         "min": 25,
         "max": 25,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "regen",
@@ -12247,7 +13718,8 @@
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [
@@ -12285,10 +13757,17 @@
     "requiredStrength": 15,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 24,
     "invFile": "invlea",
     "stats": [],
@@ -12301,7 +13780,8 @@
           "zh-CN": "防御力"
         },
         "value": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "dex",
@@ -12311,7 +13791,8 @@
           "zh-CN": "敏捷"
         },
         "value": 11,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -12324,7 +13805,8 @@
         },
         "min": 24,
         "max": 24,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "ac/lvl",
@@ -12335,7 +13817,8 @@
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -12369,9 +13852,16 @@
     "requiredDexterity": 50,
     "oneHandDamage": null,
     "twoHandDamage": {
-      "min": 3,
-      "max": 18
+      "min": {
+        "low": 3,
+        "high": 3
+      },
+      "max": {
+        "low": 18,
+        "high": 18
+      }
     },
+    "weaponSpeed": 10,
     "durability": 44,
     "invFile": "invlbb",
     "stats": [],
@@ -12384,7 +13874,8 @@
           "zh-CN": "闪电伤害（最小）"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "ltng-max",
@@ -12394,7 +13885,8 @@
           "zh-CN": "闪电伤害（最大）"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [
@@ -12407,7 +13899,8 @@
         },
         "min": 16,
         "max": 16,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -12443,10 +13936,17 @@
     "requiredStrength": 50,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 8,
-      "max": 16
+      "min": {
+        "low": 8,
+        "high": 8
+      },
+      "max": {
+        "low": 16,
+        "high": 16
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 18,
     "invFile": "invtbt",
     "stats": [],
@@ -12459,7 +13959,8 @@
           "zh-CN": "耐力"
         },
         "value": 150,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "move3",
@@ -12469,7 +13970,8 @@
           "zh-CN": "加快跑走速度 %"
         },
         "value": 30,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -12482,7 +13984,8 @@
         },
         "min": 8,
         "max": 8,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "statPriority": [],
@@ -12516,6 +14019,7 @@
     "requiredDexterity": null,
     "oneHandDamage": null,
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": null,
     "invFile": "invamu",
     "stats": [],
@@ -12528,7 +14032,8 @@
           "zh-CN": "生命值"
         },
         "value": 15,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-cold",
@@ -12538,7 +14043,8 @@
           "zh-CN": "冷冻抗性 %"
         },
         "value": 20,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [
@@ -12551,7 +14057,8 @@
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "statPriority": [],
@@ -12587,10 +14094,17 @@
     "requiredStrength": 53,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 7,
-      "max": 14
+      "min": {
+        "low": 7,
+        "high": 7
+      },
+      "max": {
+        "low": 14,
+        "high": 14
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 64,
     "invFile": "invsml",
     "stats": [],
@@ -12603,7 +14117,8 @@
           "zh-CN": "强化防御力 %"
         },
         "value": 175,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "block3",
@@ -12613,7 +14128,8 @@
           "zh-CN": "加快格挡速度"
         },
         "value": 40,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "block",
@@ -12623,7 +14139,8 @@
           "zh-CN": "格挡机率 %"
         },
         "value": 55,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "half-freeze",
@@ -12633,7 +14150,8 @@
           "zh-CN": "减半冰冻持续时间"
         },
         "value": 1,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "light",
@@ -12643,7 +14161,8 @@
           "zh-CN": "光环半径"
         },
         "value": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       }
     ],
     "setBonuses": [],
@@ -12680,10 +14199,17 @@
     "requiredStrength": 88,
     "requiredDexterity": 0,
     "oneHandDamage": {
-      "min": 0,
-      "max": 0
+      "min": {
+        "low": 0,
+        "high": 0
+      },
+      "max": {
+        "low": 0,
+        "high": 0
+      }
     },
     "twoHandDamage": null,
+    "weaponSpeed": null,
     "durability": 18,
     "invFile": "invtbl",
     "stats": [],
@@ -12696,7 +14222,8 @@
           "zh-CN": "强化防御力 %"
         },
         "value": 75,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "manasteal",
@@ -12706,7 +14233,8 @@
           "zh-CN": "魔力窃取 %"
         },
         "value": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       },
       {
         "key": "res-cold",
@@ -12716,7 +14244,8 @@
           "zh-CN": "冷冻抗性 %"
         },
         "value": 10,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": true
       },
       {
         "key": "lifesteal",
@@ -12726,7 +14255,8 @@
           "zh-CN": "生命窃取 %"
         },
         "value": 5,
-        "isSkillRef": false
+        "isSkillRef": false,
+        "signed": false
       }
     ],
     "setBonuses": [],

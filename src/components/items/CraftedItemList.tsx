@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import type craftedItemsJson from '../../../data/crafted-items.json';
 import { BASE_PATH } from '@/lib/basePath';
+import { signedRange, signedValue } from '@/lib/grail/formatStat';
 
 type CraftedItem = (typeof craftedItemsJson)[number];
 type Locale = 'en' | 'zh-TW' | 'zh-CN';
@@ -12,7 +13,8 @@ type Locale = 'en' | 'zh-TW' | 'zh-CN';
 // (present only on "chance to cast" entries) produces a non-uniform union
 // across the array instead of a single optional-field type. Widen explicitly
 // rather than fighting JSON-module type inference.
-type FixedStatEntry = { key: string; label: Record<Locale, string>; value?: number | null; isSkillRef: boolean; composed?: boolean };
+type FixedStatEntry = { key: string; label: Record<Locale, string>; value?: number | null; isSkillRef: boolean; composed?: boolean; signed?: boolean };
+type VariableStatEntry = { key: string; label: Record<Locale, string>; min: number; max: number; isSkillRef: boolean; signed?: boolean };
 
 const FAMILY_ORDER = ['hitPower', 'blood', 'caster', 'safety'] as const;
 
@@ -84,7 +86,7 @@ export default function CraftedItemList({ items, locale }: { items: CraftedItem[
                 </h4>
                 <div className="text-sm text-[#8080f3] flex flex-col gap-0.5">
                   {(item.fixedProperties as FixedStatEntry[]).map(f => (
-                    <div key={f.key}>{f.composed ? f.label[locale] : `${f.label[locale]}: ${f.value}`}</div>
+                    <div key={f.key}>{f.composed ? f.label[locale] : `${f.label[locale]}: ${f.value == null ? f.value : signedValue(f.value, f.signed)}`}</div>
                   ))}
                 </div>
               </div>
@@ -95,7 +97,7 @@ export default function CraftedItemList({ items, locale }: { items: CraftedItem[
                   {t('craftedItemsVariablePropertiesLabel')}
                 </h4>
                 <div className="text-sm text-[#8080f3] flex flex-col gap-0.5">
-                  {item.variableProperties.map(s => <div key={s.key}>{s.label[locale]}: {s.min}–{s.max}</div>)}
+                  {(item.variableProperties as VariableStatEntry[]).map(s => <div key={s.key}>{s.label[locale]}: {signedRange(s.min, s.max, s.signed)}</div>)}
                 </div>
               </div>
             )}

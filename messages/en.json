@@ -147,6 +147,7 @@
     "requiredLevel": "Required Level",
     "requiredStrength": "Required Strength",
     "requiredDexterity": "Required Dexterity",
+    "weaponSpeedLabel": "Base Weapon Speed",
     "durabilityLabel": "Durability",
     "setBonusesLabel": "Partial Set Bonuses",
     "notFoundYet": "Not found yet",

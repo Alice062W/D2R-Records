@@ -2,9 +2,10 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import type { GrailItem } from '@/lib/grail/catalog';
+import type { DamageRange, GrailItem } from '@/lib/grail/catalog';
 import { BASE_PATH } from '@/lib/basePath';
 import { useOwnedItems } from '@/lib/grail/useOwnedItems';
+import { signedRange, signedValue } from '@/lib/grail/formatStat';
 import OwnedToggle from './OwnedToggle';
 
 // Authentic D2 item-rarity text colors (verified against d2r.world's computed styles).
@@ -12,6 +13,20 @@ const NAME_COLOR: Record<GrailItem['kind'], string> = {
   unique: 'text-[#cbb87f]',
   set: 'text-[#22ff55]',
 };
+
+// d2r.world folds an item's own Enhanced Damage % roll into its damage
+// display: when that roll is a random range, each end of the base damage
+// range becomes its own (low-high) sub-range, e.g. "(99-125) to (450-570)".
+// Collapses to a plain "low-high" when there's no random ED (low === high
+// on both ends).
+function formatDamageRange(d: DamageRange): string {
+  if (d.min.low === d.min.high && d.max.low === d.max.high) {
+    return `${d.min.low}–${d.max.low}`;
+  }
+  const minPart = d.min.low === d.min.high ? String(d.min.low) : `${d.min.low}-${d.min.high}`;
+  const maxPart = d.max.low === d.max.high ? String(d.max.low) : `${d.max.low}-${d.max.high}`;
+  return `(${minPart}) – (${maxPart})`;
+}
 
 export default function ItemStatCard({ item }: { item: GrailItem }) {
   const t = useTranslations('Grail');
@@ -22,11 +37,12 @@ export default function ItemStatCard({ item }: { item: GrailItem }) {
     [t('baseLabel'), item.baseName],
     [t('gradeLabel'), t(`grade_${item.grade}`)],
     ...(item.defense ? [[t('defenseLabel'), `${item.defense.min}–${item.defense.max}`] as [string, string]] : []),
-    ...(item.oneHandDamage ? [[t('oneHandDamageLabel'), `${item.oneHandDamage.min}–${item.oneHandDamage.max}`] as [string, string]] : []),
-    ...(item.twoHandDamage ? [[t('twoHandDamageLabel'), `${item.twoHandDamage.min}–${item.twoHandDamage.max}`] as [string, string]] : []),
+    ...(item.oneHandDamage ? [[t('oneHandDamageLabel'), formatDamageRange(item.oneHandDamage)] as [string, string]] : []),
+    ...(item.twoHandDamage ? [[t('twoHandDamageLabel'), formatDamageRange(item.twoHandDamage)] as [string, string]] : []),
     [t('requiredLevel'), String(item.levelReq)],
     ...(item.requiredStrength != null ? [[t('requiredStrength'), String(item.requiredStrength)] as [string, string]] : []),
     ...(item.requiredDexterity != null ? [[t('requiredDexterity'), String(item.requiredDexterity)] as [string, string]] : []),
+    ...(item.weaponSpeed != null ? [[t('weaponSpeedLabel'), String(item.weaponSpeed)] as [string, string]] : []),
     ...(item.durability != null ? [[t('durabilityLabel'), String(item.durability)] as [string, string]] : []),
   ];
 
@@ -74,12 +90,12 @@ export default function ItemStatCard({ item }: { item: GrailItem }) {
           <div className="text-sm flex flex-col gap-0.5">
             {item.stats.map(stat => (
               <div key={stat.key} className={stat.isSkillRef ? 'text-[#ff4a69]' : 'text-[#fff818]'}>
-                {stat.label}: {stat.min}–{stat.max} <span aria-hidden="true">🎲</span>
+                {stat.label}: {signedRange(stat.min, stat.max, stat.signed)} <span aria-hidden="true">🎲</span>
               </div>
             ))}
             {item.fixedStats.map(f => (
               <div key={f.key} className={f.isSkillRef ? 'text-[#ff4a69]' : 'text-[#8080f3]'}>
-                {f.composed ? f.label : `${f.label}: ${f.value}`}
+                {f.composed ? f.label : `${f.label}: ${f.value == null ? f.value : signedValue(f.value, f.signed)}`}
               </div>
             ))}
           </div>
@@ -94,7 +110,7 @@ export default function ItemStatCard({ item }: { item: GrailItem }) {
               <div className="text-sm flex flex-col gap-0.5">
                 {pool.options.map(opt => (
                   <div key={opt.key} className={opt.isSkillRef ? 'text-[#ff4a69]' : 'text-[#fff818]'}>
-                    {opt.label}: {opt.min}–{opt.max} <span aria-hidden="true">🎲</span>
+                    {opt.label}: {signedRange(opt.min, opt.max, opt.signed)} <span aria-hidden="true">🎲</span>
                   </div>
                 ))}
               </div>
@@ -118,7 +134,7 @@ export default function ItemStatCard({ item }: { item: GrailItem }) {
               >
                 {b.composed ? b.label : (
                   <>
-                    {b.label}: {b.min === b.max ? b.min : `${b.min}–${b.max}`}
+                    {b.label}: {b.min === b.max ? signedValue(b.min, b.signed) : signedRange(b.min, b.max, b.signed)}
                     {b.min !== b.max && <> <span aria-hidden="true">🎲</span></>}
                   </>
                 )}

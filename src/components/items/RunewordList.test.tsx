@@ -77,10 +77,10 @@ describe('RunewordFilters + RunewordList', () => {
   it('colors variable stats yellow, fixed stats blue, and skill-ref stats pink', () => {
     const rw = {
       ...baseRunewordFixture,
-      stats: [{ key: 'dmg%', label: { en: 'Enhanced Damage %', 'zh-TW': 'x', 'zh-CN': 'x' }, min: 100, max: 150, isSkillRef: false }],
+      stats: [{ key: 'dmg%', label: { en: 'Enhanced Damage %', 'zh-TW': 'x', 'zh-CN': 'x' }, min: 100, max: 150, isSkillRef: false, signed: true }],
       fixedStats: [
-        { key: 'str', label: { en: 'Strength', 'zh-TW': 'x', 'zh-CN': 'x' }, value: 20, isSkillRef: false },
-        { key: 'oskill:1', label: { en: 'All Skill Levels', 'zh-TW': 'x', 'zh-CN': 'x' }, value: 2, isSkillRef: true },
+        { key: 'str', label: { en: 'Strength', 'zh-TW': 'x', 'zh-CN': 'x' }, value: 20, isSkillRef: false, signed: true },
+        { key: 'oskill:1', label: { en: 'All Skill Levels', 'zh-TW': 'x', 'zh-CN': 'x' }, value: 2, isSkillRef: true, signed: true },
       ],
     };
     render(

@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import type runewordsFullJson from '../../../data/runewords-full.json';
 import { BASE_PATH } from '@/lib/basePath';
 import { useOwnedItems } from '@/lib/grail/useOwnedItems';
+import { signedRange, signedValue } from '@/lib/grail/formatStat';
 import OwnedToggle from './OwnedToggle';
 
 type Runeword = (typeof runewordsFullJson)[number];
@@ -66,12 +67,12 @@ export default function RunewordList({ runewords, locale }: { runewords: Runewor
               <div className="text-sm flex flex-col gap-0.5">
                 {rw.stats.map(stat => (
                   <div key={stat.key} className={stat.isSkillRef ? 'text-[#ff4a69]' : 'text-[#fff818]'}>
-                    {stat.label[locale]}: {stat.min}–{stat.max} <span aria-hidden="true">🎲</span>
+                    {stat.label[locale]}: {signedRange(stat.min, stat.max, stat.signed)} <span aria-hidden="true">🎲</span>
                   </div>
                 ))}
                 {rw.fixedStats.map(f => (
                   <div key={f.key} className={f.isSkillRef ? 'text-[#ff4a69]' : 'text-[#8080f3]'}>
-                    {f.composed ? f.label[locale] : `${f.label[locale]}: ${f.value}`}
+                    {f.composed ? f.label[locale] : `${f.label[locale]}: ${f.value == null ? f.value : signedValue(f.value, f.signed)}`}
                   </div>
                 ))}
               </div>

@@ -147,6 +147,7 @@
     "requiredLevel": "需求等级",
     "requiredStrength": "需求力量",
     "requiredDexterity": "需求敏捷",
+    "weaponSpeedLabel": "武器基本速度",
     "durabilityLabel": "耐久度",
     "setBonusesLabel": "套装加成",
     "notFoundYet": "尚未找到",

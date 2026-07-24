@@ -10,7 +10,7 @@ describe('ItemStatCard', () => {
     const item: GrailItem = {
       id: 'unique-0', code: 'hax', name: 'The Gnasher', kind: 'unique', setName: null,
       levelReq: 5, baseName: 'Hand Axe', grade: 'normal', slotCategory: 'axes',
-      defense: null, oneHandDamage: null, twoHandDamage: null, requiredStrength: null, requiredDexterity: null, durability: 28, invFile: 'invhaxu',
+      defense: null, oneHandDamage: null, twoHandDamage: null, requiredStrength: null, requiredDexterity: null, weaponSpeed: null, durability: 28, invFile: 'invhaxu',
       stats: [{ key: 'dmg%', label: 'Enhanced Damage %', min: 60, max: 70, isSkillRef: false }],
       fixedStats: [{ key: 'str', label: 'Strength', value: 8, isSkillRef: false }],
       setBonuses: [], statPriority: ['dmg%'], note: null, statPools: [],
@@ -31,7 +31,7 @@ describe('ItemStatCard', () => {
     const item: GrailItem = {
       id: 'unique-1', code: 'y', name: 'Bare Item', kind: 'unique', setName: null,
       levelReq: 1, baseName: 'Base', grade: 'normal', slotCategory: 'helms',
-      defense: { min: 10, max: 12 }, oneHandDamage: null, twoHandDamage: null, requiredStrength: 20, requiredDexterity: null, durability: 40,
+      defense: { min: 10, max: 12 }, oneHandDamage: null, twoHandDamage: null, requiredStrength: 20, requiredDexterity: null, weaponSpeed: null, durability: 40,
       invFile: '', stats: [], fixedStats: [], setBonuses: [], statPriority: [], note: null, statPools: [],
     };
     render(
@@ -46,7 +46,7 @@ describe('ItemStatCard', () => {
     const item: GrailItem = {
       id: 'unique-0', code: 'hax', name: 'The Gnasher', kind: 'unique', setName: null,
       levelReq: 5, baseName: 'Hand Axe', grade: 'normal', slotCategory: 'axes',
-      defense: null, oneHandDamage: null, twoHandDamage: null, requiredStrength: null, requiredDexterity: null, durability: 28, invFile: 'invhaxu',
+      defense: null, oneHandDamage: null, twoHandDamage: null, requiredStrength: null, requiredDexterity: null, weaponSpeed: null, durability: 28, invFile: 'invhaxu',
       stats: [], fixedStats: [], setBonuses: [], statPriority: [], note: null, statPools: [],
     };
     render(
@@ -64,7 +64,7 @@ describe('ItemStatCard', () => {
     const item: GrailItem = {
       id: 'unique-1', code: 'y', name: 'Bare Item', kind: 'unique', setName: null,
       levelReq: 1, baseName: 'Base', grade: 'normal', slotCategory: 'helms',
-      defense: { min: 10, max: 12 }, oneHandDamage: null, twoHandDamage: null, requiredStrength: 20, requiredDexterity: null, durability: 40,
+      defense: { min: 10, max: 12 }, oneHandDamage: null, twoHandDamage: null, requiredStrength: 20, requiredDexterity: null, weaponSpeed: null, durability: 40,
       invFile: '', stats: [], fixedStats: [], setBonuses: [], statPriority: [], note: null, statPools: [],
     };
     render(
@@ -79,7 +79,7 @@ describe('ItemStatCard', () => {
     const item: GrailItem = {
       id: 'unique-2', code: 'x', name: 'Test Item', kind: 'unique', setName: null,
       levelReq: 1, baseName: 'Base', grade: 'normal', slotCategory: 'axes',
-      defense: null, oneHandDamage: null, twoHandDamage: null, requiredStrength: null, requiredDexterity: null, durability: null, invFile: '',
+      defense: null, oneHandDamage: null, twoHandDamage: null, requiredStrength: null, requiredDexterity: null, weaponSpeed: null, durability: null, invFile: '',
       stats: [
         { key: 'dmg%', label: 'Enhanced Damage %', min: 60, max: 70, isSkillRef: false },
         { key: 'skill:1', label: 'Level 1-20 Fireball', min: 1, max: 20, isSkillRef: true },
@@ -105,7 +105,7 @@ describe('ItemStatCard', () => {
     const item: GrailItem = {
       id: 'unique-3', code: 'x', name: 'Test Item', kind: 'unique', setName: null,
       levelReq: 1, baseName: 'Base', grade: 'normal', slotCategory: 'axes',
-      defense: null, oneHandDamage: null, twoHandDamage: null, requiredStrength: null, requiredDexterity: null, durability: null, invFile: '',
+      defense: null, oneHandDamage: null, twoHandDamage: null, requiredStrength: null, requiredDexterity: null, weaponSpeed: null, durability: null, invFile: '',
       stats: [
         { key: 'dmg%', label: 'Enhanced Damage %', min: 60, max: 70, isSkillRef: false },
         { key: 'skill:1', label: 'Level 1-20 Fireball', min: 1, max: 20, isSkillRef: true },
@@ -135,7 +135,7 @@ describe('ItemStatCard', () => {
     const baseItem: GrailItem = {
       id: 'unique-99', code: 'x', name: 'Test Item', kind: 'unique', setName: null,
       levelReq: 1, baseName: 'Base', grade: 'normal', slotCategory: 'axes',
-      defense: null, oneHandDamage: null, twoHandDamage: null, requiredStrength: null, requiredDexterity: null, durability: null, invFile: '',
+      defense: null, oneHandDamage: null, twoHandDamage: null, requiredStrength: null, requiredDexterity: null, weaponSpeed: null, durability: null, invFile: '',
       stats: [], fixedStats: [], setBonuses: [], statPriority: [], note: null, statPools: [],
     };
 
