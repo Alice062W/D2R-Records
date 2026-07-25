@@ -32,7 +32,7 @@ describe('SiteNavDrawer', () => {
 
     expect(screen.getByText('Game Items')).toBeInTheDocument();
     expect(screen.getByText('Misc')).toBeInTheDocument();
-    expect(screen.getByText('Our Tools')).toBeInTheDocument();
+    expect(screen.queryByText('Our Tools')).not.toBeInTheDocument();
 
     const expectedLinks: [string, string][] = [
       ['Base Items', '/en/items/base'],
@@ -49,15 +49,15 @@ describe('SiteNavDrawer', () => {
       ['Area Level', '/en/monster/area-level'],
       ['Level Up', '/en/character/level-up'],
       ['Max Sockets', '/en/misc/max-sockets'],
-      ['Appraiser', '/en'],
       ['About Us', '/en/about'],
     ];
     for (const [label, href] of expectedLinks) {
       expect(screen.getByRole('link', { name: label })).toHaveAttribute('href', href);
     }
-    // "Grail Tracker" now only appears in the drawer's "Our Tools" group —
-    // the top-right bar shows a Login/account control instead (see below).
-    expect(screen.getByRole('link', { name: 'Grail Tracker' })).toHaveAttribute('href', '/en/grail');
+    // The "Our Tools" group (Appraiser/Grail Tracker) is hidden — those
+    // links no longer appear in the drawer at all.
+    expect(screen.queryByRole('link', { name: 'Appraiser' })).not.toBeInTheDocument();
+    expect(screen.queryByRole('link', { name: 'Grail Tracker' })).not.toBeInTheDocument();
   });
 
   it('closes when the backdrop is clicked', () => {

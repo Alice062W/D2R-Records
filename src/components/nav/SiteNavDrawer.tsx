@@ -33,11 +33,6 @@ const MISC_LINKS = [
   ['misc_auras', 'character/auras'],
 ] as const;
 
-const TOOL_LINKS = [
-  ['tool_appraiser', ''],
-  ['tool_grailTracker', 'grail'],
-] as const;
-
 const ALL_UNIQUE_IDS = getAllItemIdsForKind('unique');
 const ALL_SET_IDS = getAllItemIdsForKind('set');
 const ALL_RUNEWORD_IDS = runewordsFull.map(rw => rw.id);
@@ -135,14 +130,6 @@ export default function SiteNavDrawer() {
 
             <NavGroup title={t('group_misc')}>
               {MISC_LINKS.map(([key, path]) => (
-                <NavLink key={key} href={linkHref(path)} onNavigate={close}>
-                  {t(key)}
-                </NavLink>
-              ))}
-            </NavGroup>
-
-            <NavGroup title={t('group_ourTools')}>
-              {TOOL_LINKS.map(([key, path]) => (
                 <NavLink key={key} href={linkHref(path)} onNavigate={close}>
                   {t(key)}
                 </NavLink>
