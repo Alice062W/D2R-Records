@@ -45,20 +45,22 @@ describe('HomeCardGrid', () => {
       </NextIntlClientProvider>
     );
 
-    // Complete (100% owned) -> the trophy "Complete!" badge and green card.
+    // Complete (100% owned) -> 100% progress bar and green border.
     const uniqueCard = screen.getByRole('link', { name: /Unique Items/ });
-    expect(uniqueCard).toHaveTextContent('Complete!');
-    expect(uniqueCard).toHaveClass('bg-green-950/30');
+    expect(uniqueCard).toHaveTextContent('100%');
+    expect(uniqueCard).toHaveTextContent(`${allUniqueIds.length}/${allUniqueIds.length}`);
+    expect(uniqueCard).toHaveClass('border-green-500/60');
 
-    // None owned -> "0/total (0%)" badge, default (non-tinted) card.
+    // None owned -> 0% progress bar, default (non-tinted) border.
     const setCard = screen.getByRole('link', { name: /Set Items/ });
-    expect(setCard).toHaveTextContent(`0/${allSetIds.length} (0%)`);
-    expect(setCard).toHaveClass('bg-panel');
+    expect(setCard).toHaveTextContent('0%');
+    expect(setCard).toHaveTextContent(`0/${allSetIds.length}`);
+    expect(setCard).toHaveClass('border-panel-border');
 
-    // Partial -> "owned/total (percent%)" badge and amber card.
+    // Partial -> amber border.
     const runewordCard = screen.getByRole('link', { name: /Runewords/ });
     expect(runewordCard).toHaveTextContent(`${expectedRunewordOwned}/${allRunewordIds.length}`);
-    expect(runewordCard).toHaveClass('bg-amber-950/20');
+    expect(runewordCard).toHaveClass('border-amber-500/50');
 
     // Links with no ownership tracking (e.g. Base Items, My Builds) show no badge.
     expect(screen.getByRole('link', { name: 'Base Items' })).not.toHaveTextContent('/');
