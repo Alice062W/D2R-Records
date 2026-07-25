@@ -1,25 +1,8 @@
 {
   "Home": {
     "title": "D2R 研究所",
-    "subtitle": "插槽物品鉴定师",
-    "description": "立即判断你的插槽基底物品是否值得保留。"
-  },
-  "Appraiser": {
-    "itemBase": "基底物品",
-    "selectBase": "— 选择基底 —",
-    "sockets": "插槽数",
-    "itemLevel": "物品等级 (ilvl)",
-    "ethereal": "虚灵",
-    "appraise": "鉴定",
-    "eligibleRunewords": "可用符文之语",
-    "noRunewords": "没有符文之语符合此组合，丢弃它。",
-    "viewTraderie": "Traderie",
-    "ladder": "天梯",
-    "socketsShort": "孔",
-    "eth": "虚灵",
-    "tier_elite": "精英",
-    "tier_exceptional": "杰出",
-    "tier_normal": "普通"
+    "subtitle": "您的暗黑破坏神2：狱火重生伙伴",
+    "description": "浏览物品资料、规划你的配装，提升你的 D2R 知识。"
   },
   "Footer": {
     "support": "支持这个工具",
@@ -156,9 +139,9 @@
   "Nav": {
     "openMenu": "开启选单",
     "closeMenu": "关闭选单",
-    "group_gameItems": "物品资讯",
-    "group_misc": "其他资讯",
-    "group_ourTools": "站内工具",
+    "group_myChronicle": "我的纪事",
+    "group_myBuilds": "我的配装",
+    "group_academy": "D2R 学院",
     "item_base": "基础装备",
     "item_magic": "魔法装备",
     "item_rare": "稀有装备",
@@ -174,8 +157,7 @@
     "misc_levelUp": "最佳练级难度",
     "misc_maxSockets": "最大孔数",
     "misc_auras": "光环",
-    "tool_appraiser": "鉴定工具",
-    "tool_grailTracker": "圣杯追踪器",
+    "my_builds": "我的配装",
     "aboutUs": "关于本站",
     "comingSoon": "此区块尚未建置，敬请期待。"
   },

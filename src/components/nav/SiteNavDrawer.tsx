@@ -8,39 +8,16 @@ import AccountButton from '@/components/grail/AccountButton';
 import runewordsFull from '../../../data/runewords-full.json';
 import { getAllItemIdsForKind } from '@/lib/grail/catalog';
 import { useOwnedItems } from '@/lib/grail/useOwnedItems';
-
-// Third element is the authentic D2/d2r.world rarity-tint color for that section's nav
-// label (verified against d2r.world's own computed styles) — omitted where d2r.world
-// itself uses the default white/neutral text (Base Items, Cube Recipes).
-const GAME_ITEM_LINKS = [
-  ['item_base', 'items/base', undefined],
-  ['item_magic', 'items/magic', 'text-[#8080f3]'],
-  ['item_rare', 'items/rare', 'text-[#eeee75]'],
-  ['item_set', 'items/set', 'text-[#22ff55]'],
-  ['item_unique', 'items/unique', 'text-[#cbb87f]'],
-  ['item_runes', 'items/runes', 'text-[#ee7a03]'],
-  ['item_runewords', 'items/runewords', 'text-[#cbb87f]'],
-  ['item_cubeRecipes', 'items/cube-recipes', undefined],
-  ['item_crafted', 'items/crafted', 'text-[#ee7a03]'],
-] as const;
-
-const MISC_LINKS = [
-  ['misc_fcrFhrFbr', 'character/fcr-fhr-fbr'],
-  ['misc_alvl85', 'monster/alvl85'],
-  ['misc_areaLevel', 'monster/area-level'],
-  ['misc_levelUp', 'character/level-up'],
-  ['misc_maxSockets', 'misc/max-sockets'],
-  ['misc_auras', 'character/auras'],
-] as const;
+import { NAV_GROUPS, PERCENT_LINK_KEYS } from '@/lib/navGroups';
 
 const ALL_UNIQUE_IDS = getAllItemIdsForKind('unique');
 const ALL_SET_IDS = getAllItemIdsForKind('set');
 const ALL_RUNEWORD_IDS = runewordsFull.map(rw => rw.id);
 
 // Nav-link key -> the full id list used to compute its "X%" collection
-// badge (only shown once signed in). Every other GAME_ITEM_LINKS entry has
+// badge (only shown once signed in). Every link key not listed here shows
 // no percentage.
-const PERCENT_ID_LISTS: Partial<Record<string, string[]>> = {
+const PERCENT_ID_LISTS: Partial<Record<(typeof PERCENT_LINK_KEYS)[number], string[]>> = {
   item_unique: ALL_UNIQUE_IDS,
   item_set: ALL_SET_IDS,
   item_runewords: ALL_RUNEWORD_IDS,
@@ -116,25 +93,19 @@ export default function SiteNavDrawer() {
               ✕
             </button>
 
-            <NavGroup title={t('group_gameItems')}>
-              {GAME_ITEM_LINKS.map(([key, path, colorClass]) => {
-                const idList = PERCENT_ID_LISTS[key];
-                const percent = userId && idList ? completionPercent(idList, ownedIds) : undefined;
-                return (
-                  <NavLink key={key} href={linkHref(path)} onNavigate={close} colorClass={colorClass} percent={percent}>
-                    {t(key)}
-                  </NavLink>
-                );
-              })}
-            </NavGroup>
-
-            <NavGroup title={t('group_misc')}>
-              {MISC_LINKS.map(([key, path]) => (
-                <NavLink key={key} href={linkHref(path)} onNavigate={close}>
-                  {t(key)}
-                </NavLink>
-              ))}
-            </NavGroup>
+            {NAV_GROUPS.map(group => (
+              <NavGroup key={group.key} title={t(group.key as never)}>
+                {group.links.map(link => {
+                  const idList = PERCENT_ID_LISTS[link.key as (typeof PERCENT_LINK_KEYS)[number]];
+                  const percent = userId && idList ? completionPercent(idList, ownedIds) : undefined;
+                  return (
+                    <NavLink key={link.key} href={linkHref(link.path)} onNavigate={close} colorClass={link.colorClass} percent={percent}>
+                      {t(link.key as never)}
+                    </NavLink>
+                  );
+                })}
+              </NavGroup>
+            ))}
 
             <NavLink href={linkHref('about')} onNavigate={close}>
               {t('aboutUs')}

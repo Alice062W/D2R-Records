@@ -27,6 +27,6 @@ describe('Nav + Items message namespaces', () => {
   });
 
   it('zh-CN differs from zh-TW for at least one Nav value with Traditional-only characters', () => {
-    expect(zhCn.Nav.group_gameItems).not.toBe(zhTw.Nav.group_gameItems);
+    expect(zhCn.Nav.group_academy).not.toBe(zhTw.Nav.group_academy);
   });
 });

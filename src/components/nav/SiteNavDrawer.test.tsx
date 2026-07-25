@@ -30,18 +30,24 @@ describe('SiteNavDrawer', () => {
     renderDrawer();
     fireEvent.click(screen.getByRole('button', { name: 'Open menu' }));
 
-    expect(screen.getByText('Game Items')).toBeInTheDocument();
-    expect(screen.getByText('Misc')).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: 'My Chronicle' })).toBeInTheDocument();
+    // "My Builds" is both the group heading and its one link's label.
+    expect(screen.getByRole('heading', { name: 'My Builds' })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: 'D2R Academy' })).toBeInTheDocument();
     expect(screen.queryByText('Our Tools')).not.toBeInTheDocument();
 
     const expectedLinks: [string, string][] = [
+      // My Chronicle
+      ['Unique Items', '/en/items/unique'],
+      ['Set Items', '/en/items/set'],
+      ['Runewords', '/en/items/runewords'],
+      // My Builds
+      ['My Builds', '/en/builds'],
+      // D2R Academy
       ['Base Items', '/en/items/base'],
       ['Magic Items', '/en/items/magic'],
       ['Rare Items', '/en/items/rare'],
-      ['Set Items', '/en/items/set'],
-      ['Unique Items', '/en/items/unique'],
       ['Runes', '/en/items/runes'],
-      ['Runewords', '/en/items/runewords'],
       ['Cube Recipes', '/en/items/cube-recipes'],
       ['Crafted Items', '/en/items/crafted'],
       ['FCR/FHR/FBR', '/en/character/fcr-fhr-fbr'],

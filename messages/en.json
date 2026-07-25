@@ -1,25 +1,8 @@
 {
   "Home": {
     "title": "D2R Institute",
-    "subtitle": "Socketed Item Appraiser",
-    "description": "Find out instantly whether to keep or dump your socketed base item."
-  },
-  "Appraiser": {
-    "itemBase": "Item Base",
-    "selectBase": "— Select a base —",
-    "sockets": "Sockets",
-    "itemLevel": "Item Level (ilvl)",
-    "ethereal": "Ethereal",
-    "appraise": "Appraise",
-    "eligibleRunewords": "Eligible Runewords",
-    "noRunewords": "No runewords match this combination. Dump it.",
-    "viewTraderie": "Traderie",
-    "ladder": "Ladder",
-    "socketsShort": "s",
-    "eth": "Eth",
-    "tier_elite": "Elite",
-    "tier_exceptional": "Exceptional",
-    "tier_normal": "Normal"
+    "subtitle": "Your Diablo II: Resurrected Companion",
+    "description": "Browse item data, build your character, and level up your D2R knowledge."
   },
   "Footer": {
     "support": "Support this tool",
@@ -156,9 +139,9 @@
   "Nav": {
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
-    "group_gameItems": "Game Items",
-    "group_misc": "Misc",
-    "group_ourTools": "Our Tools",
+    "group_myChronicle": "My Chronicle",
+    "group_myBuilds": "My Builds",
+    "group_academy": "D2R Academy",
     "item_base": "Base Items",
     "item_magic": "Magic Items",
     "item_rare": "Rare Items",
@@ -174,8 +157,7 @@
     "misc_levelUp": "Level Up",
     "misc_maxSockets": "Max Sockets",
     "misc_auras": "Auras",
-    "tool_appraiser": "Appraiser",
-    "tool_grailTracker": "Grail Tracker",
+    "my_builds": "My Builds",
     "aboutUs": "About Us",
     "comingSoon": "This section hasn't been built yet — check back soon."
   },
