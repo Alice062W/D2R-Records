@@ -6,6 +6,7 @@ import { useLocale, useTranslations } from 'next-intl';
 import LocaleSwitcher from '@/components/LocaleSwitcher';
 import AccountButton from '@/components/grail/AccountButton';
 import runewordsFull from '../../../data/runewords-full.json';
+import runes from '../../../data/runes.json';
 import { getAllItemIdsForKind } from '@/lib/grail/catalog';
 import { useOwnedItems } from '@/lib/grail/useOwnedItems';
 
@@ -41,6 +42,7 @@ const TOOL_LINKS = [
 const ALL_UNIQUE_IDS = getAllItemIdsForKind('unique');
 const ALL_SET_IDS = getAllItemIdsForKind('set');
 const ALL_RUNEWORD_IDS = runewordsFull.map(rw => rw.id);
+const ALL_RUNE_IDS = runes.map(r => r.id);
 
 // Nav-link key -> the full id list used to compute its "X%" collection
 // badge (only shown once signed in). Every other GAME_ITEM_LINKS entry has
@@ -48,6 +50,7 @@ const ALL_RUNEWORD_IDS = runewordsFull.map(rw => rw.id);
 const PERCENT_ID_LISTS: Partial<Record<string, string[]>> = {
   item_unique: ALL_UNIQUE_IDS,
   item_set: ALL_SET_IDS,
+  item_runes: ALL_RUNE_IDS,
   item_runewords: ALL_RUNEWORD_IDS,
 };
 

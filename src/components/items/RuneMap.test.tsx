@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect, vi } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import RuneMap from './RuneMap';
 import runes from '../../../data/runes.json';
@@ -24,5 +24,27 @@ describe('RuneMap', () => {
     const img = container.querySelector('img') as HTMLImageElement;
     expect(img).not.toBeNull();
     expect(img.src).toContain('/items/inv/invrEl.png');
+  });
+
+  it('highlights an owned rune tile', async () => {
+    vi.resetModules();
+    vi.doMock('@/lib/grail/useOwnedItems', () => ({
+      useOwnedItems: () => ({
+        userId: 'user-1', loading: false, ownedIds: new Set([runes[0].id]), toggle: vi.fn(), error: null,
+      }),
+    }));
+    const { default: RuneMap } = await import('./RuneMap');
+    render(<RuneMap runes={[runes[0]]} locale="en" />);
+    expect(screen.getByRole('link')).toHaveClass('bg-green-950/30');
+  });
+
+  it('does not highlight a non-owned rune tile', async () => {
+    vi.resetModules();
+    vi.doMock('@/lib/grail/useOwnedItems', () => ({
+      useOwnedItems: () => ({ userId: 'user-1', loading: false, ownedIds: new Set(), toggle: vi.fn(), error: null }),
+    }));
+    const { default: RuneMap } = await import('./RuneMap');
+    render(<RuneMap runes={[runes[0]]} locale="en" />);
+    expect(screen.getByRole('link')).toHaveClass('bg-panel-alt');
   });
 });
