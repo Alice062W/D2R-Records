@@ -63,7 +63,7 @@ export default function ItemStatCard({ item }: { item: GrailItem }) {
         )}
       </div>
 
-      <div className="flex flex-col sm:flex-row gap-4">
+      <div className="flex flex-row gap-4">
         <div className="flex-1 min-w-0">
           <div>
             <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('itemStats')}</h4>

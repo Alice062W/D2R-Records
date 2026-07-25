@@ -50,7 +50,7 @@ export default function RunewordList({ runewords, locale }: { runewords: Runewor
             {userId && <OwnedToggle owned={!!owned} onToggle={() => toggle(rw.id, 'runeword')} />}
           </div>
 
-          <div className="mt-3 flex flex-col sm:flex-row gap-4">
+          <div className="mt-3 flex flex-row gap-4">
             <div className="flex-1 min-w-0 text-sm text-parchment flex flex-col gap-1">
               <div>{t('runewordsSocketsLabel')}: {rw.sockets}</div>
               <div>{t('runewordsBaseTypesLabel')}: {rw.itemTypes.map(type => tGrail(`slot_${type}` as never)).join(', ')}</div>
