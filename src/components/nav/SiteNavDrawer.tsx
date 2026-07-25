@@ -5,28 +5,8 @@ import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
 import LocaleSwitcher from '@/components/LocaleSwitcher';
 import AccountButton from '@/components/grail/AccountButton';
-import runewordsFull from '../../../data/runewords-full.json';
-import { getAllItemIdsForKind } from '@/lib/grail/catalog';
 import { useOwnedItems } from '@/lib/grail/useOwnedItems';
-import { NAV_GROUPS, PERCENT_LINK_KEYS } from '@/lib/navGroups';
-
-const ALL_UNIQUE_IDS = getAllItemIdsForKind('unique');
-const ALL_SET_IDS = getAllItemIdsForKind('set');
-const ALL_RUNEWORD_IDS = runewordsFull.map(rw => rw.id);
-
-// Nav-link key -> the full id list used to compute its "X%" collection
-// badge (only shown once signed in). Every link key not listed here shows
-// no percentage.
-const PERCENT_ID_LISTS: Partial<Record<(typeof PERCENT_LINK_KEYS)[number], string[]>> = {
-  item_unique: ALL_UNIQUE_IDS,
-  item_set: ALL_SET_IDS,
-  item_runewords: ALL_RUNEWORD_IDS,
-};
-
-function completionPercent(ids: string[], ownedIds: Set<string>): number {
-  if (ids.length === 0) return 0;
-  return Math.round((ids.filter(id => ownedIds.has(id)).length / ids.length) * 100);
-}
+import { NAV_GROUPS, PERCENT_LINK_KEYS, PERCENT_ID_LISTS, completionPercent } from '@/lib/navGroups';
 
 export default function SiteNavDrawer() {
   const t = useTranslations('Nav');

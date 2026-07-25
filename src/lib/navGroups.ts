@@ -1,3 +1,6 @@
+import runewordsFull from '../../data/runewords-full.json';
+import { getAllItemIdsForKind } from '@/lib/grail/catalog';
+
 // Single source of truth for the site's nav-drawer groups and the
 // homepage's card grid — both render the exact same group/link structure,
 // so it's defined once here rather than duplicated in two components.
@@ -53,6 +56,18 @@ export const NAV_GROUPS: NavGroupDef[] = [
 ];
 
 // Nav-link key -> the full id list used to compute its "X%" collection
-// badge in the nav drawer (only shown once signed in). Kept alongside the
-// group data since it's keyed by the same link keys.
+// badge — shown in the nav drawer and on the homepage cards, only once
+// signed in. Kept alongside the group data since it's keyed by the same
+// link keys, and shared here so both call sites can't drift apart.
 export const PERCENT_LINK_KEYS = ['item_unique', 'item_set', 'item_runewords'] as const;
+
+export const PERCENT_ID_LISTS: Partial<Record<(typeof PERCENT_LINK_KEYS)[number], string[]>> = {
+  item_unique: getAllItemIdsForKind('unique'),
+  item_set: getAllItemIdsForKind('set'),
+  item_runewords: runewordsFull.map(rw => rw.id),
+};
+
+export function completionPercent(ids: string[], ownedIds: Set<string>): number {
+  if (ids.length === 0) return 0;
+  return Math.round((ids.filter(id => ownedIds.has(id)).length / ids.length) * 100);
+}
