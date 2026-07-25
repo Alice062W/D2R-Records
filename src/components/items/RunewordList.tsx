@@ -1,13 +1,29 @@
 'use client';
 
+import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import type runewordsFullJson from '../../../data/runewords-full.json';
+import { BASE_PATH } from '@/lib/basePath';
 import { useOwnedItems } from '@/lib/grail/useOwnedItems';
 import { signedRange, signedValue } from '@/lib/grail/formatStat';
 import OwnedToggle from './OwnedToggle';
-import ItemIconFrame from './ItemIconFrame';
 
 type Runeword = (typeof runewordsFullJson)[number];
+
+function RuneIcon({ invFile }: { invFile: string }) {
+  const [iconFailed, setIconFailed] = useState(false);
+  if (!invFile || iconFailed) return null;
+  return (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      src={`${BASE_PATH}/items/inv/${invFile}.png`}
+      alt=""
+      aria-hidden="true"
+      className="w-6 h-6 object-contain inline-block"
+      onError={() => setIconFailed(true)}
+    />
+  );
+}
 
 export default function RunewordList({ runewords, locale }: { runewords: Runeword[]; locale: 'en' | 'zh-TW' | 'zh-CN' }) {
   const t = useTranslations('Items');
@@ -59,8 +75,8 @@ export default function RunewordList({ runewords, locale }: { runewords: Runewor
             <div className="flex flex-col gap-1 shrink-0 self-start">
               <span className="text-xs text-muted">{t('runewordsRunesLabel')}</span>
               {rw.runes.map((rune, i) => (
-                <span key={`${rune.en}-${i}`} className="flex items-center gap-1.5 text-sm text-parchment">
-                  <ItemIconFrame invFile={rw.runeInvFiles[i]} kind="rune" sizeClass="w-6 h-6" />
+                <span key={`${rune.en}-${i}`} className="flex items-center gap-1 text-sm text-parchment">
+                  <RuneIcon invFile={rw.runeInvFiles[i]} />
                   {rune[locale]}
                 </span>
               ))}

@@ -24,7 +24,7 @@ export default async function RareItemsPage({
         <p className="mt-2 text-sm text-muted max-w-md">{t('rarePageSubtitle')}</p>
       </div>
       <div className="w-full max-w-4xl">
-        <CategoryCardGrid categories={categories} basePath={`/${locale}/items/rare`} kind="rare" />
+        <CategoryCardGrid categories={categories} basePath={`/${locale}/items/rare`} />
       </div>
     </main>
   );

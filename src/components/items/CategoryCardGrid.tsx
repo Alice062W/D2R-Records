@@ -4,9 +4,25 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import categoryIcons from '../../../data/category-icons.json';
+import { BASE_PATH } from '@/lib/basePath';
 import { useOwnedItems } from '@/lib/grail/useOwnedItems';
 import CollectionBadge from './CollectionBadge';
-import ItemIconFrame, { type ItemIconKind } from './ItemIconFrame';
+
+function CategoryIcon({ category }: { category: string }) {
+  const [iconFailed, setIconFailed] = useState(false);
+  const invFile = (categoryIcons as Record<string, string>)[category];
+  if (!invFile || iconFailed) return null;
+  return (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      src={`${BASE_PATH}/items/inv/${invFile}.png`}
+      alt=""
+      aria-hidden="true"
+      className="w-12 h-12 object-contain shrink-0"
+      onError={() => setIconFailed(true)}
+    />
+  );
+}
 
 const COMPLETENESS_FILTERS = ['all', 'complete', 'partial', 'none'] as const;
 type CompletenessFilter = (typeof COMPLETENESS_FILTERS)[number];
@@ -17,7 +33,6 @@ export default function CategoryCardGrid({
   categories,
   basePath,
   itemIdsByCategory,
-  kind,
 }: {
   categories: string[];
   basePath: string;
@@ -25,7 +40,6 @@ export default function CategoryCardGrid({
   // have no "owned" concept, so those grids render without badges/highlight
   // and without the sort/filter controls below.
   itemIdsByCategory?: Record<string, string[]>;
-  kind: ItemIconKind;
 }) {
   const tGrail = useTranslations('Grail');
   const tAffix = useTranslations('AffixCategories');
@@ -109,7 +123,7 @@ export default function CategoryCardGrid({
                   : 'bg-panel border-panel-border'
             }`}
           >
-            <ItemIconFrame invFile={(categoryIcons as Record<string, string>)[category]} kind={kind} sizeClass="w-12 h-12" />
+            <CategoryIcon category={category} />
             {labelFor(category)}
             {userId && ids && <CollectionBadge owned={owned} total={total} />}
           </Link>

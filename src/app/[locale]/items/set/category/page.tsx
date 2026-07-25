@@ -33,7 +33,7 @@ export default async function SetCategoryLandingPage({
             {t('browseByName')}
           </Link>
         </div>
-        <CategoryCardGrid categories={categories} basePath={`/${locale}/items/set/category`} itemIdsByCategory={itemIdsByCategory} kind="set" />
+        <CategoryCardGrid categories={categories} basePath={`/${locale}/items/set/category`} itemIdsByCategory={itemIdsByCategory} />
       </div>
     </main>
   );

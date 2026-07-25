@@ -1,8 +1,9 @@
 'use client';
 
+import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import type { BaseLine, BaseGrade } from '@/lib/grail/basesCatalog';
-import ItemIconFrame from './ItemIconFrame';
+import { BASE_PATH } from '@/lib/basePath';
 
 const GRADES = ['normal', 'exceptional', 'elite'] as const;
 
@@ -18,12 +19,22 @@ function fmtNum(n: number | null) {
 
 export default function BaseItemTable({ line }: { line: BaseLine }) {
   const t = useTranslations('BaseItems');
+  const [iconFailed, setIconFailed] = useState(false);
   const present = GRADES.filter(g => line.grades[g] !== null);
 
   return (
     <div className="bg-panel border border-panel-border rounded-xl p-6 overflow-x-auto">
       <div className="mb-3 flex items-center gap-3">
-        <ItemIconFrame invFile={line.invFile} kind="base" sizeClass="w-12 h-12" />
+        {line.invFile && !iconFailed && (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={`${BASE_PATH}/items/inv/${line.invFile}.png`}
+            alt=""
+            aria-hidden="true"
+            className="w-12 h-12 object-contain shrink-0"
+            onError={() => setIconFailed(true)}
+          />
+        )}
         <span className="text-lg font-bold text-parchment-bright">{line.grades.normal!.name}</span>
       </div>
       <table className="w-full text-sm">

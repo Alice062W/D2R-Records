@@ -24,7 +24,7 @@ export default async function MagicItemsPage({
         <p className="mt-2 text-sm text-muted max-w-md">{t('magicPageSubtitle')}</p>
       </div>
       <div className="w-full max-w-4xl">
-        <CategoryCardGrid categories={categories} basePath={`/${locale}/items/magic`} kind="magic" />
+        <CategoryCardGrid categories={categories} basePath={`/${locale}/items/magic`} />
       </div>
     </main>
   );

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
-import ItemIconFrame from './ItemIconFrame';
+import CategoryRecipeIcon from './CategoryRecipeIcon';
 
 export default async function CubeRecipeCategoryGrid({
   categories,
@@ -19,7 +19,7 @@ export default async function CubeRecipeCategoryGrid({
           href={`${basePath}/${category}`}
           className="flex flex-col items-center justify-center gap-2 px-4 py-6 rounded-xl border text-sm font-semibold font-cinzel text-parchment-bright hover:border-gold hover:text-gold-bright transition-colors bg-panel border-panel-border"
         >
-          <ItemIconFrame invFile={icon} kind="base" sizeClass="w-12 h-12" />
+          <CategoryRecipeIcon invFile={icon} />
           {t(`cubeRecipesCategory_${category}` as never)}
           <span className="text-xs font-normal text-muted">{count}</span>
         </Link>
