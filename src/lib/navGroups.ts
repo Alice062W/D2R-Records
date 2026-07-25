@@ -71,3 +71,16 @@ export function completionPercent(ids: string[], ownedIds: Set<string>): number 
   if (ids.length === 0) return 0;
   return Math.round((ids.filter(id => ownedIds.has(id)).length / ids.length) * 100);
 }
+
+// Same three-way completeness bucketing CategoryCardGrid already uses for
+// the Unique/Set category tiles (complete/partial/none), reused here so the
+// homepage's My Chronicle cards get the identical color treatment instead
+// of a separate, drifting copy of the same logic.
+export type CompletionState = 'complete' | 'partial' | 'none';
+
+export function collectionState(ids: string[], ownedIds: Set<string>): { owned: number; total: number; state: CompletionState } {
+  const total = ids.length;
+  const owned = ids.filter(id => ownedIds.has(id)).length;
+  const state: CompletionState = total === 0 || owned === 0 ? 'none' : owned === total ? 'complete' : 'partial';
+  return { owned, total, state };
+}

@@ -25,14 +25,15 @@ describe('HomeCardGrid', () => {
     expect(screen.getByRole('link', { name: /Unique Items/ })).not.toHaveTextContent('%');
   });
 
-  it('shows a collection completion % on My Chronicle cards when signed in, and none for other cards', async () => {
+  it('shows a CollectionBadge and completeness color on My Chronicle cards when signed in, and neither for other cards', async () => {
     vi.resetModules();
     const allUniqueIds = getAllItemIdsForKind('unique');
+    const allSetIds = getAllItemIdsForKind('set');
     const allRunewordIds = runewordsFull.map(rw => rw.id);
-    // Own every unique (100%), no set items (0%), and roughly a third of
-    // runewords, to exercise rounding on a non-clean fraction.
+    // Own every unique (complete/100%), no set items (none/0%), and roughly
+    // a third of runewords (partial), to exercise all three states.
     const owned = new Set([...allUniqueIds, ...allRunewordIds.slice(0, Math.round(allRunewordIds.length / 3))]);
-    const expectedRunewordPercent = Math.round((Math.round(allRunewordIds.length / 3) / allRunewordIds.length) * 100);
+    const expectedRunewordOwned = Math.round(allRunewordIds.length / 3);
 
     vi.doMock('@/lib/grail/useOwnedItems', () => ({
       useOwnedItems: () => ({ userId: 'user-1', loading: false, ownedIds: owned, toggle: vi.fn(), error: null }),
@@ -44,11 +45,23 @@ describe('HomeCardGrid', () => {
       </NextIntlClientProvider>
     );
 
-    expect(screen.getByRole('link', { name: /Unique Items/ })).toHaveTextContent('100%');
-    expect(screen.getByRole('link', { name: /Set Items/ })).toHaveTextContent('0%');
-    expect(screen.getByRole('link', { name: /Runewords/ })).toHaveTextContent(`${expectedRunewordPercent}%`);
-    // Links with no percentage tracking (e.g. Base Items, My Builds) show no "%" text.
-    expect(screen.getByRole('link', { name: 'Base Items' })).not.toHaveTextContent('%');
-    expect(screen.getByRole('link', { name: 'My Builds' })).not.toHaveTextContent('%');
+    // Complete (100% owned) -> the trophy "Complete!" badge and green card.
+    const uniqueCard = screen.getByRole('link', { name: /Unique Items/ });
+    expect(uniqueCard).toHaveTextContent('Complete!');
+    expect(uniqueCard).toHaveClass('bg-green-950/30');
+
+    // None owned -> "0/total (0%)" badge, default (non-tinted) card.
+    const setCard = screen.getByRole('link', { name: /Set Items/ });
+    expect(setCard).toHaveTextContent(`0/${allSetIds.length} (0%)`);
+    expect(setCard).toHaveClass('bg-panel');
+
+    // Partial -> "owned/total (percent%)" badge and amber card.
+    const runewordCard = screen.getByRole('link', { name: /Runewords/ });
+    expect(runewordCard).toHaveTextContent(`${expectedRunewordOwned}/${allRunewordIds.length}`);
+    expect(runewordCard).toHaveClass('bg-amber-950/20');
+
+    // Links with no ownership tracking (e.g. Base Items, My Builds) show no badge.
+    expect(screen.getByRole('link', { name: 'Base Items' })).not.toHaveTextContent('/');
+    expect(screen.getByRole('link', { name: 'My Builds' })).not.toHaveTextContent('/');
   });
 });
