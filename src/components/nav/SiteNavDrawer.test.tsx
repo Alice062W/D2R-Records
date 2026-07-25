@@ -30,19 +30,20 @@ describe('SiteNavDrawer', () => {
     renderDrawer();
     fireEvent.click(screen.getByRole('button', { name: 'Open menu' }));
 
-    expect(screen.getByRole('heading', { name: 'My Chronicle' })).toBeInTheDocument();
-    // "My Builds" is both the group heading and its one link's label.
-    expect(screen.getByRole('heading', { name: 'My Builds' })).toBeInTheDocument();
+    // Signed out -> "Item Collections", not "My Chronicle".
+    expect(screen.getByRole('heading', { name: 'Item Collections' })).toBeInTheDocument();
+    // "Popular Builds" is both the group heading and its one link's label.
+    expect(screen.getByRole('heading', { name: 'Popular Builds' })).toBeInTheDocument();
     expect(screen.getByRole('heading', { name: 'D2R Academy' })).toBeInTheDocument();
     expect(screen.queryByText('Our Tools')).not.toBeInTheDocument();
 
     const expectedLinks: [string, string][] = [
-      // My Chronicle
+      // Item Collections
       ['Unique Items', '/en/items/unique'],
       ['Set Items', '/en/items/set'],
       ['Runewords', '/en/items/runewords'],
-      // My Builds
-      ['My Builds', '/en/builds'],
+      // Popular Builds
+      ['Popular Builds', '/en/builds'],
       // D2R Academy
       ['Base Items', '/en/items/base'],
       ['Magic Items', '/en/items/magic'],
@@ -114,6 +115,8 @@ describe('SiteNavDrawer', () => {
     );
     fireEvent.click(screen.getByRole('button', { name: 'Open menu' }));
 
+    // Signed in -> "My Chronicle", not "Item Collections".
+    expect(screen.getByRole('heading', { name: 'My Chronicle' })).toBeInTheDocument();
     expect(screen.getByRole('link', { name: /Unique Items/ })).toHaveTextContent('100%');
     expect(screen.getByRole('link', { name: /Set Items/ })).toHaveTextContent('0%');
     expect(screen.getByRole('link', { name: /Runewords/ })).toHaveTextContent(`${expectedRunewordPercent}%`);

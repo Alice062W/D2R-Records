@@ -17,9 +17,10 @@ function renderGrid() {
 describe('HomeCardGrid', () => {
   it('renders every group and its cards, signed out (no percentage badges)', () => {
     renderGrid();
-    expect(screen.getByRole('heading', { name: 'My Chronicle' })).toBeInTheDocument();
-    // "My Builds" is both the group heading and its one card's label.
-    expect(screen.getByRole('heading', { name: 'My Builds' })).toBeInTheDocument();
+    // Signed out -> "Item Collections", not "My Chronicle".
+    expect(screen.getByRole('heading', { name: 'Item Collections' })).toBeInTheDocument();
+    // "Popular Builds" is both the group heading and its one card's label.
+    expect(screen.getByRole('heading', { name: 'Popular Builds' })).toBeInTheDocument();
     expect(screen.getByRole('heading', { name: 'D2R Academy' })).toBeInTheDocument();
     expect(screen.getByRole('link', { name: /Unique Items/ })).toHaveAttribute('href', '/en/items/unique');
     expect(screen.getByRole('link', { name: /Unique Items/ })).not.toHaveTextContent('%');
@@ -45,6 +46,9 @@ describe('HomeCardGrid', () => {
       </NextIntlClientProvider>
     );
 
+    // Signed in -> "My Chronicle", not "Item Collections".
+    expect(screen.getByRole('heading', { name: 'My Chronicle' })).toBeInTheDocument();
+
     // Complete (100% owned) -> 100% progress bar and green border.
     const uniqueCard = screen.getByRole('link', { name: /Unique Items/ });
     expect(uniqueCard).toHaveTextContent('100%');
@@ -62,8 +66,8 @@ describe('HomeCardGrid', () => {
     expect(runewordCard).toHaveTextContent(`${expectedRunewordOwned}/${allRunewordIds.length}`);
     expect(runewordCard).toHaveClass('border-amber-500/50');
 
-    // Links with no ownership tracking (e.g. Base Items, My Builds) show no badge.
+    // Links with no ownership tracking (e.g. Base Items, Popular Builds) show no badge.
     expect(screen.getByRole('link', { name: 'Base Items' })).not.toHaveTextContent('/');
-    expect(screen.getByRole('link', { name: 'My Builds' })).not.toHaveTextContent('/');
+    expect(screen.getByRole('link', { name: 'Popular Builds' })).not.toHaveTextContent('/');
   });
 });

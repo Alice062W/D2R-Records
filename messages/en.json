@@ -139,8 +139,10 @@
   "Nav": {
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
+    "homePage": "D2R Institute",
     "group_myChronicle": "My Chronicle",
-    "group_myBuilds": "My Builds",
+    "group_itemCollections": "Item Collections",
+    "group_myBuilds": "Popular Builds",
     "group_academy": "D2R Academy",
     "item_base": "Base Items",
     "item_magic": "Magic Items",
@@ -157,7 +159,7 @@
     "misc_levelUp": "Level Up",
     "misc_maxSockets": "Max Sockets",
     "misc_auras": "Auras",
-    "my_builds": "My Builds",
+    "my_builds": "Popular Builds",
     "aboutUs": "About Us",
     "comingSoon": "This section hasn't been built yet — check back soon."
   },

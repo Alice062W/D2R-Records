@@ -73,8 +73,15 @@ export default function SiteNavDrawer() {
               ✕
             </button>
 
+            <NavLink href={linkHref('')} onNavigate={close}>
+              {t('homePage')}
+            </NavLink>
+
             {NAV_GROUPS.map(group => (
-              <NavGroup key={group.key} title={t(group.key as never)}>
+              <NavGroup
+                key={group.key}
+                title={t(group.key === 'group_myChronicle' && !userId ? 'group_itemCollections' : (group.key as never))}
+              >
                 {group.links.map(link => {
                   const idList = PERCENT_ID_LISTS[link.key as (typeof PERCENT_LINK_KEYS)[number]];
                   const percent = userId && idList ? completionPercent(idList, ownedIds) : undefined;

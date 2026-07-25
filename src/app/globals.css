@@ -35,20 +35,15 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.02em;
 }
 
-/* Chronicle reward cards: slow ambient drift + glow pulse, standing in for
-   real motion since the source art is a static screenshot. */
+/* Chronicle reward cards: slow ambient drift, standing in for real motion
+   since the source art is a static screenshot. */
 @keyframes chronicle-pan {
   0%, 100% { transform: scale(1.1) translate(0, 0); }
   50% { transform: scale(1.16) translate(-1.5%, -1.5%); }
 }
 
-@keyframes chronicle-glow {
-  0%, 100% { opacity: 0.45; }
-  50% { opacity: 0.85; }
-}
-
 @media (prefers-reduced-motion: reduce) {
-  .chronicle-pan, .chronicle-glow {
+  .chronicle-pan {
     animation: none !important;
   }
 }

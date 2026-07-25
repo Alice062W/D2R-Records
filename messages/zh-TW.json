@@ -139,8 +139,10 @@
   "Nav": {
     "openMenu": "開啟選單",
     "closeMenu": "關閉選單",
+    "homePage": "D2R Institute",
     "group_myChronicle": "我的紀事",
-    "group_myBuilds": "我的配裝",
+    "group_itemCollections": "物品收藏",
+    "group_myBuilds": "熱門配裝",
     "group_academy": "D2R 學院",
     "item_base": "基礎裝備",
     "item_magic": "魔法裝備",
@@ -157,7 +159,7 @@
     "misc_levelUp": "最佳練級難度",
     "misc_maxSockets": "最大孔數",
     "misc_auras": "光環",
-    "my_builds": "我的配裝",
+    "my_builds": "熱門配裝",
     "aboutUs": "關於本站",
     "comingSoon": "此區塊尚未建置，敬請期待。"
   },
