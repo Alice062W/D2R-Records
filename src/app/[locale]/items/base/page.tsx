@@ -24,7 +24,7 @@ export default async function BaseItemsPage({
         <p className="mt-2 text-sm text-muted max-w-md">{t('basePageSubtitle')}</p>
       </div>
       <div className="w-full max-w-4xl">
-        <CategoryCardGrid categories={categories} basePath={`/${locale}/items/base`} />
+        <CategoryCardGrid categories={categories} basePath={`/${locale}/items/base`} kind="base" />
       </div>
     </main>
   );

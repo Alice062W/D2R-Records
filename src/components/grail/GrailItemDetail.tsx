@@ -1,12 +1,11 @@
 // src/components/grail/GrailItemDetail.tsx
 'use client';
 
-import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import type { GrailItem } from '@/lib/grail/catalog';
 import type { FindRecord } from '@/lib/grail/findsApi';
 import { sortFindsByRank } from '@/lib/grail/bestCopy';
-import { BASE_PATH } from '@/lib/basePath';
+import ItemIconFrame from '@/components/items/ItemIconFrame';
 
 // Authentic D2 item-rarity text colors (verified against d2r.world's computed styles).
 const NAME_COLOR: Record<GrailItem['kind'], string> = {
@@ -23,7 +22,6 @@ export default function GrailItemDetail({
 }) {
   const t = useTranslations('Grail');
   const sorted = sortFindsByRank(finds, item.statPriority);
-  const [iconFailed, setIconFailed] = useState(false);
 
   const itemStatRows: [string, string][] = [
     [t('baseLabel'), item.baseName],
@@ -37,16 +35,7 @@ export default function GrailItemDetail({
   return (
     <div className="bg-panel border border-panel-border rounded-xl p-6">
       <div className="mb-1 flex items-start gap-3">
-        {item.invFile && !iconFailed && (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img
-            src={`${BASE_PATH}/items/inv/${item.invFile}.png`}
-            alt=""
-            aria-hidden="true"
-            className="w-20 h-20 object-contain shrink-0"
-            onError={() => setIconFailed(true)}
-          />
-        )}
+        <ItemIconFrame invFile={item.invFile} kind={item.kind} sizeClass="w-20 h-20" />
         <div>
           <h3 className={`text-lg font-bold ${NAME_COLOR[item.kind]}`}>{item.name}</h3>
           <p className="text-xs text-muted">{item.baseName}</p>

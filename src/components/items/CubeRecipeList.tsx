@@ -1,25 +1,13 @@
 'use client';
 
-import { useState } from 'react';
 import type cubeRecipesJson from '../../../data/cube-recipes.json';
-import { BASE_PATH } from '@/lib/basePath';
+import ItemIconFrame from './ItemIconFrame';
 
 type Recipe = (typeof cubeRecipesJson)[number];
 type Locale = 'en' | 'zh-TW' | 'zh-CN';
 
 function RecipeIcon({ invFile }: { invFile: string }) {
-  const [iconFailed, setIconFailed] = useState(false);
-  if (!invFile || iconFailed) return null;
-  return (
-    // eslint-disable-next-line @next/next/no-img-element
-    <img
-      src={`${BASE_PATH}/items/inv/${invFile}.png`}
-      alt=""
-      aria-hidden="true"
-      className="w-6 h-6 object-contain inline-block"
-      onError={() => setIconFailed(true)}
-    />
-  );
+  return <ItemIconFrame invFile={invFile} kind="base" sizeClass="w-6 h-6" className="inline-flex" />;
 }
 
 export default function CubeRecipeList({ recipes, locale }: { recipes: Recipe[]; locale: Locale }) {

@@ -3,24 +3,9 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
-import { BASE_PATH } from '@/lib/basePath';
 import { useOwnedItems } from '@/lib/grail/useOwnedItems';
 import CollectionBadge from './CollectionBadge';
-
-function GroupIcon({ invFile }: { invFile: string }) {
-  const [iconFailed, setIconFailed] = useState(false);
-  if (!invFile || iconFailed) return null;
-  return (
-    // eslint-disable-next-line @next/next/no-img-element
-    <img
-      src={`${BASE_PATH}/items/inv/${invFile}.png`}
-      alt=""
-      aria-hidden="true"
-      className="w-12 h-12 object-contain shrink-0"
-      onError={() => setIconFailed(true)}
-    />
-  );
-}
+import ItemIconFrame from './ItemIconFrame';
 
 const COMPLETENESS_FILTERS = ['all', 'complete', 'partial', 'none'] as const;
 type CompletenessFilter = (typeof COMPLETENESS_FILTERS)[number];
@@ -107,7 +92,7 @@ export default function SetGroupList({
                   : 'bg-panel border-panel-border'
             }`}
           >
-            <GroupIcon invFile={g.repInvFile} />
+            <ItemIconFrame invFile={g.repInvFile} kind="set" sizeClass="w-12 h-12" />
             {g.name}
             {userId && <CollectionBadge owned={owned} total={total} />}
           </Link>

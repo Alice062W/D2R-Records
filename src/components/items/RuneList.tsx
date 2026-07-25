@@ -1,10 +1,9 @@
 'use client';
 
-import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import type runesJson from '../../../data/runes.json';
-import { BASE_PATH } from '@/lib/basePath';
 import { signedValue } from '@/lib/grail/formatStat';
+import ItemIconFrame from './ItemIconFrame';
 
 type Rune = (typeof runesJson)[number];
 type Locale = 'en' | 'zh-TW' | 'zh-CN';
@@ -12,21 +11,6 @@ type Locale = 'en' | 'zh-TW' | 'zh-CN';
 // optional `composed` field (only present on "chance to cast" entries)
 // makes runes.json's stat-array element type non-uniform.
 type RuneStatEntry = { key: string; label: Record<Locale, string>; min: number; max: number; isSkillRef: boolean; composed?: boolean; signed?: boolean };
-
-function RuneIcon({ invFile }: { invFile: string }) {
-  const [iconFailed, setIconFailed] = useState(false);
-  if (!invFile || iconFailed) return null;
-  return (
-    // eslint-disable-next-line @next/next/no-img-element
-    <img
-      src={`${BASE_PATH}/items/inv/${invFile}.png`}
-      alt=""
-      aria-hidden="true"
-      className="w-10 h-10 object-contain shrink-0"
-      onError={() => setIconFailed(true)}
-    />
-  );
-}
 
 export default function RuneList({ runes, locale }: { runes: Rune[]; locale: Locale }) {
   const t = useTranslations('Items');
@@ -41,7 +25,7 @@ export default function RuneList({ runes, locale }: { runes: Rune[]; locale: Loc
         >
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <RuneIcon invFile={rune.invFile} />
+              <ItemIconFrame invFile={rune.invFile} kind="rune" sizeClass="w-10 h-10" />
               <h3 className="text-lg font-bold text-[#cbb87f]">{rune.name[locale]}</h3>
             </div>
             <span className="text-xs text-muted">#{rune.number}</span>

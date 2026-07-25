@@ -7,7 +7,7 @@ import messages from '../../../messages/en.json';
 function renderGrid(categories: string[]) {
   return render(
     <NextIntlClientProvider locale="en" messages={messages}>
-      <CategoryCardGrid categories={categories} basePath="/en/items/unique" />
+      <CategoryCardGrid categories={categories} basePath="/en/items/unique" kind="unique" />
     </NextIntlClientProvider>
   );
 }
@@ -63,7 +63,7 @@ describe('CategoryCardGrid', () => {
     const { default: CategoryCardGridMocked } = await import('./CategoryCardGrid');
     render(
       <NextIntlClientProvider locale="en" messages={messages}>
-        <CategoryCardGridMocked categories={['helms']} basePath="/en/items/unique" itemIdsByCategory={{ helms: ['unique-1', 'unique-2'] }} />
+        <CategoryCardGridMocked categories={['helms']} basePath="/en/items/unique" itemIdsByCategory={{ helms: ['unique-1', 'unique-2'] }} kind="unique" />
       </NextIntlClientProvider>
     );
     expect(screen.queryByText(/\d\/\d/)).not.toBeInTheDocument();
@@ -80,7 +80,7 @@ describe('CategoryCardGrid', () => {
     const { default: CategoryCardGridMocked } = await import('./CategoryCardGrid');
     render(
       <NextIntlClientProvider locale="en" messages={messages}>
-        <CategoryCardGridMocked categories={['helms']} basePath="/en/items/unique" itemIdsByCategory={{ helms: ['unique-1', 'unique-2'] }} />
+        <CategoryCardGridMocked categories={['helms']} basePath="/en/items/unique" itemIdsByCategory={{ helms: ['unique-1', 'unique-2'] }} kind="unique" />
       </NextIntlClientProvider>
     );
     expect(screen.getByText('1/2 (50%)')).toBeInTheDocument();
@@ -97,7 +97,7 @@ describe('CategoryCardGrid', () => {
     const { default: CategoryCardGridMocked } = await import('./CategoryCardGrid');
     render(
       <NextIntlClientProvider locale="en" messages={messages}>
-        <CategoryCardGridMocked categories={['helms']} basePath="/en/items/unique" itemIdsByCategory={{ helms: ['unique-1', 'unique-2'] }} />
+        <CategoryCardGridMocked categories={['helms']} basePath="/en/items/unique" itemIdsByCategory={{ helms: ['unique-1', 'unique-2'] }} kind="unique" />
       </NextIntlClientProvider>
     );
     expect(screen.getByText('0/2 (0%)')).toBeInTheDocument();
@@ -115,7 +115,7 @@ describe('CategoryCardGrid', () => {
     const { default: CategoryCardGridMocked } = await import('./CategoryCardGrid');
     render(
       <NextIntlClientProvider locale="en" messages={messages}>
-        <CategoryCardGridMocked categories={['helms']} basePath="/en/items/unique" itemIdsByCategory={{ helms: ['unique-1', 'unique-2'] }} />
+        <CategoryCardGridMocked categories={['helms']} basePath="/en/items/unique" itemIdsByCategory={{ helms: ['unique-1', 'unique-2'] }} kind="unique" />
       </NextIntlClientProvider>
     );
     expect(screen.getByText(/Complete!/)).toBeInTheDocument();

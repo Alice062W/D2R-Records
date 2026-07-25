@@ -27,7 +27,7 @@ export default async function UniqueItemsPage({
       </div>
       <div className="w-full max-w-4xl flex flex-col gap-4">
         <CollectionSummaryBar itemIds={getAllItemIdsForKind('unique')} />
-        <CategoryCardGrid categories={categories} basePath={`/${locale}/items/unique`} itemIdsByCategory={itemIdsByCategory} />
+        <CategoryCardGrid categories={categories} basePath={`/${locale}/items/unique`} itemIdsByCategory={itemIdsByCategory} kind="unique" />
       </div>
     </main>
   );

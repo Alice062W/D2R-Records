@@ -1,12 +1,11 @@
 'use client';
 
-import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import type { DamageRange, GrailItem } from '@/lib/grail/catalog';
-import { BASE_PATH } from '@/lib/basePath';
 import { useOwnedItems } from '@/lib/grail/useOwnedItems';
 import { signedRange, signedValue } from '@/lib/grail/formatStat';
 import OwnedToggle from './OwnedToggle';
+import ItemIconFrame from './ItemIconFrame';
 
 // Authentic D2 item-rarity text colors (verified against d2r.world's computed styles).
 const NAME_COLOR: Record<GrailItem['kind'], string> = {
@@ -30,7 +29,6 @@ function formatDamageRange(d: DamageRange): string {
 
 export default function ItemStatCard({ item }: { item: GrailItem }) {
   const t = useTranslations('Grail');
-  const [iconFailed, setIconFailed] = useState(false);
   const { userId, ownedIds, toggle, error } = useOwnedItems();
 
   const itemStatRows: [string, string][] = [
@@ -135,16 +133,7 @@ export default function ItemStatCard({ item }: { item: GrailItem }) {
           )}
         </div>
 
-        {item.invFile && !iconFailed && (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img
-            src={`${BASE_PATH}/items/inv/${item.invFile}.png`}
-            alt=""
-            aria-hidden="true"
-            className="w-20 h-20 object-contain shrink-0 self-start"
-            onError={() => setIconFailed(true)}
-          />
-        )}
+        <ItemIconFrame invFile={item.invFile} kind={item.kind} sizeClass="w-20 h-20 self-start" />
       </div>
     </div>
   );

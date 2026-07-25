@@ -3,8 +3,8 @@
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import type craftedItemsJson from '../../../data/crafted-items.json';
-import { BASE_PATH } from '@/lib/basePath';
 import { signedRange, signedValue } from '@/lib/grail/formatStat';
+import ItemIconFrame from './ItemIconFrame';
 
 type CraftedItem = (typeof craftedItemsJson)[number];
 type Locale = 'en' | 'zh-TW' | 'zh-CN';
@@ -19,18 +19,7 @@ type VariableStatEntry = { key: string; label: Record<Locale, string>; min: numb
 const FAMILY_ORDER = ['hitPower', 'blood', 'caster', 'safety'] as const;
 
 function CraftIcon({ invFile, size = 'w-8 h-8' }: { invFile: string | null; size?: string }) {
-  const [iconFailed, setIconFailed] = useState(false);
-  if (!invFile || iconFailed) return null;
-  return (
-    // eslint-disable-next-line @next/next/no-img-element
-    <img
-      src={`${BASE_PATH}/items/inv/${invFile}.png`}
-      alt=""
-      aria-hidden="true"
-      className={`${size} object-contain inline-block shrink-0`}
-      onError={() => setIconFailed(true)}
-    />
-  );
+  return <ItemIconFrame invFile={invFile} kind="crafted" sizeClass={size} />;
 }
 
 export default function CraftedItemList({ items, locale }: { items: CraftedItem[]; locale: Locale }) {
