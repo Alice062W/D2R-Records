@@ -5,8 +5,6 @@ import { useTranslations } from 'next-intl';
 import type runesJson from '../../../data/runes.json';
 import { BASE_PATH } from '@/lib/basePath';
 import { signedValue } from '@/lib/grail/formatStat';
-import { useOwnedItems } from '@/lib/grail/useOwnedItems';
-import OwnedToggle from './OwnedToggle';
 
 type Rune = (typeof runesJson)[number];
 type Locale = 'en' | 'zh-TW' | 'zh-CN';
@@ -32,29 +30,21 @@ function RuneIcon({ invFile }: { invFile: string }) {
 
 export default function RuneList({ runes, locale }: { runes: Rune[]; locale: Locale }) {
   const t = useTranslations('Items');
-  const { userId, ownedIds, toggle, error } = useOwnedItems();
 
   return (
-    <div className="flex flex-col gap-4 w-full">
-      {error && <p className="text-sm text-red-400">{error}</p>}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-      {runes.map(rune => {
-        const owned = userId && ownedIds.has(rune.id);
-        return (
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full">
+      {runes.map(rune => (
         <div
           key={rune.id}
           id={rune.id}
-          className={`border rounded-xl p-6 scroll-mt-4 ${owned ? 'bg-green-950/30 border-green-600/50' : 'bg-panel border-panel-border'}`}
+          className="bg-panel border border-panel-border rounded-xl p-6 scroll-mt-4"
         >
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <RuneIcon invFile={rune.invFile} />
               <h3 className="text-lg font-bold text-[#cbb87f]">{rune.name[locale]}</h3>
             </div>
-            <div className="flex items-center gap-2 shrink-0">
-              <span className="text-xs text-muted">#{rune.number}</span>
-              {userId && <OwnedToggle owned={!!owned} onToggle={() => toggle(rune.id, 'rune')} />}
-            </div>
+            <span className="text-xs text-muted">#{rune.number}</span>
           </div>
           <div className="mt-2 text-sm text-parchment">
             {t('runesLevelReqLabel')}: {rune.levelReq}
@@ -89,9 +79,7 @@ export default function RuneList({ runes, locale }: { runes: Rune[]; locale: Loc
             {t('runesDropRateLabel')}: {t(`difficulty_${rune.dropRate.difficulty}` as never)} {rune.dropRate.monster[locale]} {rune.dropRate.percent}%
           </div>
         </div>
-        );
-      })}
-      </div>
+      ))}
     </div>
   );
 }

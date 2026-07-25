@@ -2,12 +2,12 @@ import { getSupabase } from './supabaseClient';
 
 export interface OwnedItem {
   itemId: string;
-  kind: 'unique' | 'set' | 'runeword' | 'rune';
+  kind: 'unique' | 'set' | 'runeword';
 }
 
 interface OwnedItemRow {
   item_id: string;
-  kind: 'unique' | 'set' | 'runeword' | 'rune';
+  kind: 'unique' | 'set' | 'runeword';
 }
 
 export async function listOwnedItems(): Promise<OwnedItem[]> {

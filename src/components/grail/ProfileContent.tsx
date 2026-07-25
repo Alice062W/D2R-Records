@@ -3,7 +3,6 @@
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import runewordsFull from '../../../data/runewords-full.json';
-import runes from '../../../data/runes.json';
 import { getAllItemIdsForKind } from '@/lib/grail/catalog';
 import { useGrailAuth } from '@/lib/grail/useGrailAuth';
 import { useProfile } from '@/lib/grail/useProfile';
@@ -58,7 +57,6 @@ function ChoicePills<T extends string>({
 const ALL_UNIQUE_IDS = getAllItemIdsForKind('unique');
 const ALL_SET_IDS = getAllItemIdsForKind('set');
 const ALL_RUNEWORD_IDS = runewordsFull.map(rw => rw.id);
-const ALL_RUNE_IDS = runes.map(r => r.id);
 
 function ProfileContentInner() {
   const t = useTranslations('Grail');
@@ -115,7 +113,6 @@ function ProfileContentInner() {
   const uniqueOwned = ALL_UNIQUE_IDS.filter(id => ownedIds.has(id)).length;
   const setOwned = ALL_SET_IDS.filter(id => ownedIds.has(id)).length;
   const runewordOwned = ALL_RUNEWORD_IDS.filter(id => ownedIds.has(id)).length;
-  const runeOwned = ALL_RUNE_IDS.filter(id => ownedIds.has(id)).length;
 
   return (
     <div className="flex flex-col gap-8">
@@ -251,10 +248,6 @@ function ProfileContentInner() {
             <div className="flex items-center justify-between bg-panel border border-panel-border rounded-xl px-4 py-3">
               <span className="text-sm text-parchment">{tNav('item_runewords')}</span>
               <CollectionBadge owned={runewordOwned} total={ALL_RUNEWORD_IDS.length} />
-            </div>
-            <div className="flex items-center justify-between bg-panel border border-panel-border rounded-xl px-4 py-3">
-              <span className="text-sm text-parchment">{tNav('item_runes')}</span>
-              <CollectionBadge owned={runeOwned} total={ALL_RUNE_IDS.length} />
             </div>
           </div>
         )}

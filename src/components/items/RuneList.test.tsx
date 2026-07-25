@@ -1,5 +1,5 @@
-import { describe, it, expect, vi } from 'vitest';
-import { render, screen, fireEvent } from '@testing-library/react';
+import { describe, it, expect } from 'vitest';
+import { render, screen } from '@testing-library/react';
 import { NextIntlClientProvider } from 'next-intl';
 import RuneList from './RuneList';
 import messages from '../../../messages/en.json';
@@ -56,72 +56,5 @@ describe('RuneList', () => {
       </NextIntlClientProvider>
     );
     expect(container.querySelector('img')).toBeNull();
-  });
-
-  describe('owned checkbox', () => {
-    it('renders no checkbox when signed out', async () => {
-      vi.resetModules();
-      vi.doMock('@/lib/grail/useOwnedItems', () => ({
-        useOwnedItems: () => ({ userId: null, loading: false, ownedIds: new Set(), toggle: vi.fn(), error: null }),
-      }));
-      const { default: RuneList } = await import('./RuneList');
-      render(
-        <NextIntlClientProvider locale="en" messages={messages}>
-          <RuneList runes={[runes[0]]} locale="en" />
-        </NextIntlClientProvider>
-      );
-      expect(screen.queryByRole('switch')).not.toBeInTheDocument();
-    });
-
-    it('renders an owned toggle ("Collected") for an owned rune and calls toggle with its id and kind "rune"', async () => {
-      const toggle = vi.fn();
-      vi.resetModules();
-      vi.doMock('@/lib/grail/useOwnedItems', () => ({
-        useOwnedItems: () => ({
-          userId: 'user-1', loading: false, ownedIds: new Set([runes[0].id]), toggle, error: null,
-        }),
-      }));
-      const { default: RuneList } = await import('./RuneList');
-      render(
-        <NextIntlClientProvider locale="en" messages={messages}>
-          <RuneList runes={[runes[0]]} locale="en" />
-        </NextIntlClientProvider>
-      );
-      const toggleButton = screen.getByRole('switch');
-      expect(toggleButton).toHaveAttribute('aria-checked', 'true');
-      expect(toggleButton).toHaveTextContent('Collected');
-      fireEvent.click(toggleButton);
-      expect(toggle).toHaveBeenCalledWith(runes[0].id, 'rune');
-    });
-
-    it('highlights the card background when the rune is owned', async () => {
-      vi.resetModules();
-      vi.doMock('@/lib/grail/useOwnedItems', () => ({
-        useOwnedItems: () => ({
-          userId: 'user-1', loading: false, ownedIds: new Set([runes[0].id]), toggle: vi.fn(), error: null,
-        }),
-      }));
-      const { default: RuneList } = await import('./RuneList');
-      const { container } = render(
-        <NextIntlClientProvider locale="en" messages={messages}>
-          <RuneList runes={[runes[0]]} locale="en" />
-        </NextIntlClientProvider>
-      );
-      expect(container.querySelector(`#${runes[0].id}`)).toHaveClass('bg-green-950/30');
-    });
-
-    it('does not highlight the card background when the rune is not owned', async () => {
-      vi.resetModules();
-      vi.doMock('@/lib/grail/useOwnedItems', () => ({
-        useOwnedItems: () => ({ userId: 'user-1', loading: false, ownedIds: new Set(), toggle: vi.fn(), error: null }),
-      }));
-      const { default: RuneList } = await import('./RuneList');
-      const { container } = render(
-        <NextIntlClientProvider locale="en" messages={messages}>
-          <RuneList runes={[runes[0]]} locale="en" />
-        </NextIntlClientProvider>
-      );
-      expect(container.querySelector(`#${runes[0].id}`)).toHaveClass('bg-panel');
-    });
   });
 });
