@@ -50,99 +50,102 @@ export default function ItemStatCard({ item }: { item: GrailItem }) {
 
   return (
     <div className={`border rounded-xl p-6 ${owned ? 'bg-green-950/30 border-green-600/50' : 'bg-panel border-panel-border'}`}>
-      <div className="mb-1 flex items-start gap-3">
+      <div className="mb-3 flex items-start justify-between gap-2">
+        <div>
+          <h3 className={`text-lg font-bold ${NAME_COLOR[item.kind]}`}>{item.name}</h3>
+          {item.setName && <p className="text-xs text-[#22ff55]">{item.setName}</p>}
+        </div>
+        {userId && (
+          <div className="flex flex-col items-end gap-1 shrink-0">
+            <OwnedToggle owned={!!owned} onToggle={() => toggle(item.id, item.kind)} />
+            {error && <p className="text-xs text-red-400 max-w-[140px] text-right">{error}</p>}
+          </div>
+        )}
+      </div>
+
+      <div className="flex flex-col sm:flex-row gap-4">
+        <div className="flex-1 min-w-0">
+          <div>
+            <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('itemStats')}</h4>
+            <div className="text-sm text-parchment flex flex-col gap-0.5">
+              {itemStatRows.map(([label, value]) => (
+                <div key={label}>{label}: <span className="text-parchment-bright">{value}</span></div>
+              ))}
+            </div>
+          </div>
+
+          {(item.stats.length > 0 || item.fixedStats.length > 0) && (
+            <div className="mt-4">
+              <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('magicProperties')}</h4>
+              <div className="text-sm flex flex-col gap-0.5">
+                {item.stats.map(stat => (
+                  <div key={stat.key} className={stat.isSkillRef ? 'text-[#ff4a69]' : 'text-[#fff818]'}>
+                    {stat.label}: {signedRange(stat.min, stat.max, stat.signed)} <span aria-hidden="true">🎲</span>
+                  </div>
+                ))}
+                {item.fixedStats.map(f => (
+                  <div key={f.key} className={f.isSkillRef ? 'text-[#ff4a69]' : 'text-[#8080f3]'}>
+                    {f.composed ? f.label : `${f.label}: ${f.value == null ? f.value : signedValue(f.value, f.signed)}`}
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {item.statPools.length > 0 && (
+            <div className="mt-4 flex flex-col gap-3">
+              {item.statPools.map((pool, i) => (
+                <div key={i}>
+                  <p className="text-xs text-muted mb-0.5">{t('randomAffixPoolLabel')}</p>
+                  <div className="text-sm flex flex-col gap-0.5">
+                    {pool.options.map(opt => (
+                      <div key={opt.key} className={opt.isSkillRef ? 'text-[#ff4a69]' : 'text-[#fff818]'}>
+                        {opt.label}: {signedRange(opt.min, opt.max, opt.signed)} <span aria-hidden="true">🎲</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+
+          {item.note && (
+            <p className="mt-4 text-xs text-muted italic">{item.note}</p>
+          )}
+
+          {item.setBonuses.length > 0 && (
+            <div className="mt-4">
+              <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('setBonusesLabel')}</h4>
+              <div className="text-sm flex flex-col gap-0.5">
+                {item.setBonuses.map((b, i) => (
+                  <div
+                    key={`${b.key}-${i}`}
+                    className={b.isSkillRef ? 'text-[#ff4a69]' : b.min === b.max ? 'text-[#22ff55]' : 'text-[#fff818]'}
+                  >
+                    {b.composed ? b.label : (
+                      <>
+                        {b.label}: {b.min === b.max ? signedValue(b.min, b.signed) : signedRange(b.min, b.max, b.signed)}
+                        {b.min !== b.max && <> <span aria-hidden="true">🎲</span></>}
+                      </>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+
         {item.invFile && !iconFailed && (
           // eslint-disable-next-line @next/next/no-img-element
           <img
             src={`${BASE_PATH}/items/inv/${item.invFile}.png`}
             alt=""
             aria-hidden="true"
-            className="w-20 h-20 object-contain shrink-0"
+            className="w-20 h-20 object-contain shrink-0 self-start"
             onError={() => setIconFailed(true)}
           />
         )}
-        <div className="flex-1 flex items-start justify-between gap-2">
-          <div>
-            <h3 className={`text-lg font-bold ${NAME_COLOR[item.kind]}`}>{item.name}</h3>
-            {item.setName && <p className="text-xs text-[#22ff55]">{item.setName}</p>}
-          </div>
-          {userId && (
-            <div className="flex flex-col items-end gap-1 shrink-0">
-              <OwnedToggle owned={!!owned} onToggle={() => toggle(item.id, item.kind)} />
-              {error && <p className="text-xs text-red-400 max-w-[140px] text-right">{error}</p>}
-            </div>
-          )}
-        </div>
       </div>
-
-      <div className="mt-4">
-        <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('itemStats')}</h4>
-        <div className="text-sm text-parchment flex flex-col gap-0.5">
-          {itemStatRows.map(([label, value]) => (
-            <div key={label}>{label}: <span className="text-parchment-bright">{value}</span></div>
-          ))}
-        </div>
-      </div>
-
-      {(item.stats.length > 0 || item.fixedStats.length > 0) && (
-        <div className="mt-4">
-          <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('magicProperties')}</h4>
-          <div className="text-sm flex flex-col gap-0.5">
-            {item.stats.map(stat => (
-              <div key={stat.key} className={stat.isSkillRef ? 'text-[#ff4a69]' : 'text-[#fff818]'}>
-                {stat.label}: {signedRange(stat.min, stat.max, stat.signed)} <span aria-hidden="true">🎲</span>
-              </div>
-            ))}
-            {item.fixedStats.map(f => (
-              <div key={f.key} className={f.isSkillRef ? 'text-[#ff4a69]' : 'text-[#8080f3]'}>
-                {f.composed ? f.label : `${f.label}: ${f.value == null ? f.value : signedValue(f.value, f.signed)}`}
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {item.statPools.length > 0 && (
-        <div className="mt-4 flex flex-col gap-3">
-          {item.statPools.map((pool, i) => (
-            <div key={i}>
-              <p className="text-xs text-muted mb-0.5">{t('randomAffixPoolLabel')}</p>
-              <div className="text-sm flex flex-col gap-0.5">
-                {pool.options.map(opt => (
-                  <div key={opt.key} className={opt.isSkillRef ? 'text-[#ff4a69]' : 'text-[#fff818]'}>
-                    {opt.label}: {signedRange(opt.min, opt.max, opt.signed)} <span aria-hidden="true">🎲</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
-      )}
-
-      {item.note && (
-        <p className="mt-4 text-xs text-muted italic">{item.note}</p>
-      )}
-
-      {item.setBonuses.length > 0 && (
-        <div className="mt-4">
-          <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('setBonusesLabel')}</h4>
-          <div className="text-sm flex flex-col gap-0.5">
-            {item.setBonuses.map((b, i) => (
-              <div
-                key={`${b.key}-${i}`}
-                className={b.isSkillRef ? 'text-[#ff4a69]' : b.min === b.max ? 'text-[#22ff55]' : 'text-[#fff818]'}
-              >
-                {b.composed ? b.label : (
-                  <>
-                    {b.label}: {b.min === b.max ? signedValue(b.min, b.signed) : signedRange(b.min, b.max, b.signed)}
-                    {b.min !== b.max && <> <span aria-hidden="true">🎲</span></>}
-                  </>
-                )}
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
     </div>
   );
 }
