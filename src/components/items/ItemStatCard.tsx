@@ -85,7 +85,11 @@ export default function ItemStatCard({ item }: { item: GrailItem }) {
                 ))}
                 {item.fixedStats.map(f => (
                   <div key={f.key} className={f.isSkillRef ? 'text-[#ff4a69]' : 'text-[#8080f3]'}>
-                    {f.composed ? f.label : `${f.label}: ${f.value == null ? f.value : signedValue(f.value, f.signed)}`}
+                    {f.composed
+                      ? f.label
+                      : f.min != null && f.max != null
+                        ? `${f.label}: ${signedRange(f.min, f.max, f.signed)}`
+                        : `${f.label}: ${f.value == null ? f.value : signedValue(f.value, f.signed)}`}
                   </div>
                 ))}
               </div>

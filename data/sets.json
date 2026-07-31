@@ -5,19 +5,19 @@
     "name": {
       "en": "Aldur's Advance",
       "zh-TW": "艾爾多的進擊",
-      "zh-CN": "艾尔多的进击"
+      "zh-CN": "艾尔多的成长"
     },
     "kind": "set",
     "setName": {
       "en": "Aldur's Watchtower",
       "zh-TW": "艾爾多的守衛",
-      "zh-CN": "艾尔多的守卫"
+      "zh-CN": "艾尔多的警戒塔"
     },
     "levelReq": 45,
     "baseName": {
       "en": "Battle Boots",
-      "zh-TW": "戰場之靴",
-      "zh-CN": "战场之靴"
+      "zh-TW": "戰鬥靴",
+      "zh-CN": "战靴"
     },
     "grade": "exceptional",
     "slotCategory": "boots",
@@ -165,7 +165,8 @@
       "res-fire"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/boot/light_plate_boots.png"
   },
   {
     "id": "set-67",
@@ -173,19 +174,19 @@
     "name": {
       "en": "Aldur's Deception",
       "zh-TW": "艾爾多的欺暪",
-      "zh-CN": "艾尔多的欺暪"
+      "zh-CN": "艾尔多的欺骗"
     },
     "kind": "set",
     "setName": {
       "en": "Aldur's Watchtower",
       "zh-TW": "艾爾多的守衛",
-      "zh-CN": "艾尔多的守卫"
+      "zh-CN": "艾尔多的警戒塔"
     },
     "levelReq": 76,
     "baseName": {
       "en": "Shadow Plate",
-      "zh-TW": "陰影鎧甲",
-      "zh-CN": "阴影铠甲"
+      "zh-TW": "暗影鎧甲",
+      "zh-CN": "暗影板甲"
     },
     "grade": "elite",
     "slotCategory": "armors",
@@ -324,7 +325,8 @@
       "res-ltng"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/armor/full_plate_mail.png"
   },
   {
     "id": "set-68",
@@ -338,13 +340,13 @@
     "setName": {
       "en": "Aldur's Watchtower",
       "zh-TW": "艾爾多的守衛",
-      "zh-CN": "艾尔多的守卫"
+      "zh-CN": "艾尔多的警戒塔"
     },
     "levelReq": 42,
     "baseName": {
       "en": "Jagged Star",
-      "zh-TW": "鋸齒流星鎚",
-      "zh-CN": "锯齿流星锤"
+      "zh-TW": "鋸齒釘頭鎚",
+      "zh-CN": "锯齿星锤"
     },
     "grade": "exceptional",
     "slotCategory": "maces",
@@ -493,7 +495,8 @@
       "sock"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/weapon/mace/bloodrise.png"
   },
   {
     "id": "set-66",
@@ -507,13 +510,13 @@
     "setName": {
       "en": "Aldur's Watchtower",
       "zh-TW": "艾爾多的守衛",
-      "zh-CN": "艾尔多的守卫"
+      "zh-CN": "艾尔多的警戒塔"
     },
     "levelReq": 36,
     "baseName": {
       "en": "Hunter's Guise",
-      "zh-TW": "獵人的偽裝",
-      "zh-CN": "猎人的伪装"
+      "zh-TW": "獵人面罩",
+      "zh-CN": "猎人伪装"
     },
     "grade": "exceptional",
     "slotCategory": "helms",
@@ -641,7 +644,8 @@
       "res-cold"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/pelt/antlers.png"
   },
   {
     "id": "set-52",
@@ -649,13 +653,13 @@
     "name": {
       "en": "Angelic Halo",
       "zh-TW": "天使的光暈",
-      "zh-CN": "天使的光晕"
+      "zh-CN": "天使的光环"
     },
     "kind": "set",
     "setName": {
       "en": "Angelic Raiment",
       "zh-TW": "天使的衣裝",
-      "zh-CN": "天使的衣装"
+      "zh-CN": "天使的装束"
     },
     "levelReq": 12,
     "baseName": {
@@ -726,7 +730,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/misc/ring/ring.png"
   },
   {
     "id": "set-51",
@@ -740,13 +745,13 @@
     "setName": {
       "en": "Angelic Raiment",
       "zh-TW": "天使的衣裝",
-      "zh-CN": "天使的衣装"
+      "zh-CN": "天使的装束"
     },
     "levelReq": 12,
     "baseName": {
       "en": "Ring Mail",
-      "zh-TW": "鎖環甲",
-      "zh-CN": "锁环甲"
+      "zh-TW": "環甲",
+      "zh-CN": "环甲"
     },
     "grade": "normal",
     "slotCategory": "armors",
@@ -814,7 +819,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/armor/ring_mail.png"
   },
   {
     "id": "set-50",
@@ -828,11 +834,11 @@
     "setName": {
       "en": "Angelic Raiment",
       "zh-TW": "天使的衣裝",
-      "zh-CN": "天使的衣装"
+      "zh-CN": "天使的装束"
     },
     "levelReq": 12,
     "baseName": {
-      "en": "Saber",
+      "en": "Sabre",
       "zh-TW": "軍刀",
       "zh-CN": "军刀"
     },
@@ -908,7 +914,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/krintizs_skewer.png"
   },
   {
     "id": "set-53",
@@ -916,19 +923,19 @@
     "name": {
       "en": "Angelic Wings",
       "zh-TW": "天使的翅膀",
-      "zh-CN": "天使的翅膀"
+      "zh-CN": "天使的飞翼"
     },
     "kind": "set",
     "setName": {
       "en": "Angelic Raiment",
       "zh-TW": "天使的衣裝",
-      "zh-CN": "天使的衣装"
+      "zh-CN": "天使的装束"
     },
     "levelReq": 12,
     "baseName": {
       "en": "Amulet",
       "zh-TW": "護身符",
-      "zh-CN": "护身符"
+      "zh-CN": "护符"
     },
     "grade": "normal",
     "slotCategory": "amulets",
@@ -993,7 +1000,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/misc/amulet/amulet.png"
   },
   {
     "id": "set-59",
@@ -1012,8 +1020,8 @@
     "levelReq": 15,
     "baseName": {
       "en": "War Staff",
-      "zh-TW": "巨戰法杖",
-      "zh-CN": "巨战法杖"
+      "zh-TW": "征戰法杖",
+      "zh-CN": "战杖"
     },
     "grade": "normal",
     "slotCategory": "staves",
@@ -1087,7 +1095,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/weapon/staff/war_staff.png"
   },
   {
     "id": "set-61",
@@ -1095,7 +1104,7 @@
     "name": {
       "en": "Arcanna's Flesh",
       "zh-TW": "阿卡娜的血肉",
-      "zh-CN": "阿卡娜的血肉"
+      "zh-CN": "阿卡娜的外壳"
     },
     "kind": "set",
     "setName": {
@@ -1106,8 +1115,8 @@
     "levelReq": 15,
     "baseName": {
       "en": "Light Plate",
-      "zh-TW": "輕型裝甲",
-      "zh-CN": "轻型装甲"
+      "zh-TW": "輕型鎧甲",
+      "zh-CN": "轻板甲"
     },
     "grade": "normal",
     "slotCategory": "armors",
@@ -1175,7 +1184,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/armor/light_plate.png"
   },
   {
     "id": "set-60",
@@ -1194,7 +1204,7 @@
     "levelReq": 15,
     "baseName": {
       "en": "Skull Cap",
-      "zh-TW": "骷髏帽",
+      "zh-TW": "顱帽",
       "zh-CN": "骷髅帽"
     },
     "grade": "normal",
@@ -1263,7 +1273,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/skull_cap.png"
   },
   {
     "id": "set-58",
@@ -1271,7 +1282,7 @@
     "name": {
       "en": "Arcanna's Sign",
       "zh-TW": "阿卡娜的符印",
-      "zh-CN": "阿卡娜的符印"
+      "zh-CN": "阿卡娜的符号"
     },
     "kind": "set",
     "setName": {
@@ -1283,7 +1294,7 @@
     "baseName": {
       "en": "Amulet",
       "zh-TW": "護身符",
-      "zh-CN": "护身符"
+      "zh-CN": "护符"
     },
     "grade": "normal",
     "slotCategory": "amulets",
@@ -1348,7 +1359,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/misc/amulet/amulet.png"
   },
   {
     "id": "set-56",
@@ -1356,7 +1368,7 @@
     "name": {
       "en": "Arctic Binding",
       "zh-TW": "北極捆索",
-      "zh-CN": "北极捆索"
+      "zh-CN": "北极束带"
     },
     "kind": "set",
     "setName": {
@@ -1367,8 +1379,8 @@
     "levelReq": 2,
     "baseName": {
       "en": "Light Belt",
-      "zh-TW": "輕扣帶",
-      "zh-CN": "轻扣带"
+      "zh-TW": "輕腰帶",
+      "zh-CN": "轻腰带"
     },
     "grade": "normal",
     "slotCategory": "belts",
@@ -1436,7 +1448,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/belt/light_belt.png"
   },
   {
     "id": "set-55",
@@ -1455,8 +1468,8 @@
     "levelReq": 2,
     "baseName": {
       "en": "Quilted Armor",
-      "zh-TW": "布甲",
-      "zh-CN": "布甲"
+      "zh-TW": "棉布甲",
+      "zh-CN": "内衬甲"
     },
     "grade": "normal",
     "slotCategory": "armors",
@@ -1528,7 +1541,8 @@
       "ac%"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/armor/quilted_armor.png"
   },
   {
     "id": "set-54",
@@ -1547,8 +1561,8 @@
     "levelReq": 2,
     "baseName": {
       "en": "Short War Bow",
-      "zh-TW": "短巨戰弓",
-      "zh-CN": "短巨战弓"
+      "zh-TW": "征戰短弓",
+      "zh-CN": "短战争弓"
     },
     "grade": "normal",
     "slotCategory": "bows",
@@ -1622,7 +1636,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/hellclap.png"
   },
   {
     "id": "set-57",
@@ -1641,8 +1656,8 @@
     "levelReq": 2,
     "baseName": {
       "en": "Light Gauntlets",
-      "zh-TW": "輕型鐵手套",
-      "zh-CN": "轻型铁手套"
+      "zh-TW": "輕型護手",
+      "zh-CN": "轻护手"
     },
     "grade": "normal",
     "slotCategory": "gloves",
@@ -1710,7 +1725,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/glove/light_gauntlets.png"
   },
   {
     "id": "set-134",
@@ -1718,19 +1734,19 @@
     "name": {
       "en": "Bane's Authority",
       "zh-TW": "貝恩的權威",
-      "zh-CN": "贝恩的权威"
+      "zh-CN": "祸殃权柄"
     },
     "kind": "set",
     "setName": {
       "en": "Bane's Garments",
       "zh-TW": "貝恩的衣裝",
-      "zh-CN": "贝恩的衣装"
+      "zh-CN": "祸殃法衣"
     },
     "levelReq": 8,
     "baseName": {
       "en": "Light Belt",
-      "zh-TW": "輕扣帶",
-      "zh-CN": "轻扣带"
+      "zh-TW": "輕腰帶",
+      "zh-CN": "轻腰带"
     },
     "grade": "normal",
     "slotCategory": "belts",
@@ -1786,7 +1802,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/belt/light_belt.png"
   },
   {
     "id": "set-132",
@@ -1794,19 +1811,19 @@
     "name": {
       "en": "Bane's Oathmaker",
       "zh-TW": "貝恩的立誓者",
-      "zh-CN": "贝恩的立誓者"
+      "zh-CN": "祸殃立誓者"
     },
     "kind": "set",
     "setName": {
       "en": "Bane's Garments",
       "zh-TW": "貝恩的衣裝",
-      "zh-CN": "贝恩的衣装"
+      "zh-CN": "祸殃法衣"
     },
     "levelReq": 8,
     "baseName": {
-      "en": "Kris",
-      "zh-TW": "波形刀",
-      "zh-CN": "波形刀"
+      "en": "Kriss",
+      "zh-TW": "波刃匕首",
+      "zh-CN": "波刃剑"
     },
     "grade": "normal",
     "slotCategory": "daggers",
@@ -1880,7 +1897,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/weapon/knife/banes_spire.png"
   },
   {
     "id": "set-133",
@@ -1888,13 +1906,13 @@
     "name": {
       "en": "Bane's Wraithskin",
       "zh-TW": "貝恩的靈膚",
-      "zh-CN": "贝恩的灵肤"
+      "zh-CN": "祸殃怨魂之肤"
     },
     "kind": "set",
     "setName": {
       "en": "Bane's Garments",
       "zh-TW": "貝恩的衣裝",
-      "zh-CN": "贝恩的衣装"
+      "zh-CN": "祸殃法衣"
     },
     "levelReq": 8,
     "baseName": {
@@ -1968,7 +1986,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/armor/hard_leather_armor.png"
   },
   {
     "id": "set-46",
@@ -1976,13 +1995,13 @@
     "name": {
       "en": "Berserker's Hatchet",
       "zh-TW": "狂戰士手斧",
-      "zh-CN": "狂战士手斧"
+      "zh-CN": "狂战士的手斧"
     },
     "kind": "set",
     "setName": {
       "en": "Berserker's Arsenal",
       "zh-TW": "狂戰士的武裝",
-      "zh-CN": "狂战士的武装"
+      "zh-CN": "狂战士的兵械"
     },
     "levelReq": 3,
     "baseName": {
@@ -2050,7 +2069,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/double_axe.png"
   },
   {
     "id": "set-45",
@@ -2058,19 +2078,19 @@
     "name": {
       "en": "Berserker's Hauberk",
       "zh-TW": "狂戰士鎖子甲",
-      "zh-CN": "狂战士锁子甲"
+      "zh-CN": "狂战士的半身甲"
     },
     "kind": "set",
     "setName": {
       "en": "Berserker's Arsenal",
       "zh-TW": "狂戰士的武裝",
-      "zh-CN": "狂战士的武装"
+      "zh-CN": "狂战士的兵械"
     },
     "levelReq": 3,
     "baseName": {
       "en": "Splint Mail",
       "zh-TW": "板甲",
-      "zh-CN": "板甲"
+      "zh-CN": "板条甲"
     },
     "grade": "normal",
     "slotCategory": "armors",
@@ -2126,7 +2146,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/armor/splint_mail.png"
   },
   {
     "id": "set-44",
@@ -2134,13 +2155,13 @@
     "name": {
       "en": "Berserker's Headgear",
       "zh-TW": "狂戰士頭盔",
-      "zh-CN": "狂战士头盔"
+      "zh-CN": "狂战士的头盔"
     },
     "kind": "set",
     "setName": {
       "en": "Berserker's Arsenal",
       "zh-TW": "狂戰士的武裝",
-      "zh-CN": "狂战士的武装"
+      "zh-CN": "狂战士的兵械"
     },
     "levelReq": 3,
     "baseName": {
@@ -2202,7 +2223,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/coif_of_glory.png"
   },
   {
     "id": "set-115",
@@ -2221,8 +2243,8 @@
     "levelReq": 63,
     "baseName": {
       "en": "Colossus Blade",
-      "zh-TW": "巨神之刃",
-      "zh-CN": "巨神之刃"
+      "zh-TW": "巨神刃",
+      "zh-CN": "巨神刃"
     },
     "grade": "elite",
     "slotCategory": "swords",
@@ -2302,7 +2324,8 @@
     "setBonuses": [],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/the_patriarch.png"
   },
   {
     "id": "set-116",
@@ -2321,8 +2344,8 @@
     "levelReq": 66,
     "baseName": {
       "en": "Mythical Sword",
-      "zh-TW": "秘儀之劍",
-      "zh-CN": "秘仪之剑"
+      "zh-TW": "秘儀劍",
+      "zh-CN": "神话剑"
     },
     "grade": "elite",
     "slotCategory": "swords",
@@ -2404,7 +2427,8 @@
     "setBonuses": [],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/war_sword.png"
   },
   {
     "id": "set-26",
@@ -2412,19 +2436,19 @@
     "name": {
       "en": "Cathan's Mesh",
       "zh-TW": "卡珊的網衣",
-      "zh-CN": "卡珊的网衣"
+      "zh-CN": "卡珊的札甲"
     },
     "kind": "set",
     "setName": {
       "en": "Cathan's Traps",
       "zh-TW": "卡珊的衣著",
-      "zh-CN": "卡珊的衣着"
+      "zh-CN": "卡珊的计谋"
     },
     "levelReq": 11,
     "baseName": {
       "en": "Chain Mail",
-      "zh-TW": "鎖子甲",
-      "zh-CN": "锁子甲"
+      "zh-TW": "鎖鍊甲",
+      "zh-CN": "锁链甲"
     },
     "grade": "normal",
     "slotCategory": "armors",
@@ -2492,7 +2516,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/armor/chain_mail.png"
   },
   {
     "id": "set-25",
@@ -2500,19 +2525,19 @@
     "name": {
       "en": "Cathan's Rule",
       "zh-TW": "卡珊的尺杖",
-      "zh-CN": "卡珊的尺杖"
+      "zh-CN": "卡珊的统治"
     },
     "kind": "set",
     "setName": {
       "en": "Cathan's Traps",
       "zh-TW": "卡珊的衣著",
-      "zh-CN": "卡珊的衣着"
+      "zh-CN": "卡珊的计谋"
     },
     "levelReq": 11,
     "baseName": {
       "en": "Battle Staff",
       "zh-TW": "戰鬥法杖",
-      "zh-CN": "战斗法杖"
+      "zh-CN": "战斗杖"
     },
     "grade": "normal",
     "slotCategory": "staves",
@@ -2586,7 +2611,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/weapon/staff/battle_staff.png"
   },
   {
     "id": "set-29",
@@ -2594,13 +2620,13 @@
     "name": {
       "en": "Cathan's Seal",
       "zh-TW": "卡珊的封印",
-      "zh-CN": "卡珊的封印"
+      "zh-CN": "卡珊的印章"
     },
     "kind": "set",
     "setName": {
       "en": "Cathan's Traps",
       "zh-TW": "卡珊的衣著",
-      "zh-CN": "卡珊的衣着"
+      "zh-CN": "卡珊的计谋"
     },
     "levelReq": 11,
     "baseName": {
@@ -2659,7 +2685,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/misc/ring/ring.png"
   },
   {
     "id": "set-28",
@@ -2667,19 +2694,19 @@
     "name": {
       "en": "Cathan's Sigil",
       "zh-TW": "卡珊的魔咒",
-      "zh-CN": "卡珊的魔咒"
+      "zh-CN": "卡珊的符徽"
     },
     "kind": "set",
     "setName": {
       "en": "Cathan's Traps",
       "zh-TW": "卡珊的衣著",
-      "zh-CN": "卡珊的衣着"
+      "zh-CN": "卡珊的计谋"
     },
     "levelReq": 11,
     "baseName": {
       "en": "Amulet",
       "zh-TW": "護身符",
-      "zh-CN": "护身符"
+      "zh-CN": "护符"
     },
     "grade": "normal",
     "slotCategory": "amulets",
@@ -2744,7 +2771,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/misc/amulet/amulet.png"
   },
   {
     "id": "set-27",
@@ -2752,19 +2780,19 @@
     "name": {
       "en": "Cathan's Visage",
       "zh-TW": "卡珊的容貌",
-      "zh-CN": "卡珊的容貌"
+      "zh-CN": "卡珊的面甲"
     },
     "kind": "set",
     "setName": {
       "en": "Cathan's Traps",
       "zh-TW": "卡珊的衣著",
-      "zh-CN": "卡珊的衣着"
+      "zh-CN": "卡珊的计谋"
     },
     "levelReq": 11,
     "baseName": {
       "en": "Mask",
       "zh-TW": "面具",
-      "zh-CN": "面具"
+      "zh-CN": "覆面甲"
     },
     "grade": "normal",
     "slotCategory": "helms",
@@ -2820,7 +2848,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/mask.png"
   },
   {
     "id": "set-2",
@@ -2828,19 +2857,19 @@
     "name": {
       "en": "Civerb's Cudgel",
       "zh-TW": "克維雷布的短棍",
-      "zh-CN": "克维雷布的短棍"
+      "zh-CN": "希弗伯的短棍"
     },
     "kind": "set",
     "setName": {
       "en": "Civerb's Vestments",
       "zh-TW": "克維雷布的法衣",
-      "zh-CN": "克维雷布的法衣"
+      "zh-CN": "希弗伯的法衣"
     },
     "levelReq": 9,
     "baseName": {
       "en": "Grand Scepter",
-      "zh-TW": "雄偉權杖",
-      "zh-CN": "雄伟权杖"
+      "zh-TW": "莊嚴權杖",
+      "zh-CN": "大权杖"
     },
     "grade": "normal",
     "slotCategory": "scepters",
@@ -2906,7 +2935,8 @@
       "dmg-max"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/weapon/scepter/grand_scepter.png"
   },
   {
     "id": "set-1",
@@ -2914,19 +2944,19 @@
     "name": {
       "en": "Civerb's Icon",
       "zh-TW": "克維雷布的聖像",
-      "zh-CN": "克维雷布的圣像"
+      "zh-CN": "希弗伯的圣像"
     },
     "kind": "set",
     "setName": {
       "en": "Civerb's Vestments",
       "zh-TW": "克維雷布的法衣",
-      "zh-CN": "克维雷布的法衣"
+      "zh-CN": "希弗伯的法衣"
     },
     "levelReq": 9,
     "baseName": {
       "en": "Amulet",
       "zh-TW": "護身符",
-      "zh-CN": "护身符"
+      "zh-CN": "护符"
     },
     "grade": "normal",
     "slotCategory": "amulets",
@@ -2991,7 +3021,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/misc/amulet/amulet.png"
   },
   {
     "id": "set-0",
@@ -2999,19 +3030,19 @@
     "name": {
       "en": "Civerb's Ward",
       "zh-TW": "克維雷布的防護",
-      "zh-CN": "克维雷布的防护"
+      "zh-CN": "希弗伯的防护"
     },
     "kind": "set",
     "setName": {
       "en": "Civerb's Vestments",
       "zh-TW": "克維雷布的法衣",
-      "zh-CN": "克维雷布的法衣"
+      "zh-CN": "希弗伯的法衣"
     },
     "levelReq": 9,
     "baseName": {
       "en": "Large Shield",
-      "zh-TW": "大盾牌",
-      "zh-CN": "大盾牌"
+      "zh-TW": "大型盾",
+      "zh-CN": "大盾"
     },
     "grade": "normal",
     "slotCategory": "shields",
@@ -3088,7 +3119,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/shield/stormguild.png"
   },
   {
     "id": "set-7",
@@ -3096,19 +3128,19 @@
     "name": {
       "en": "Cleglaw's Claw",
       "zh-TW": "克雷德勞之爪",
-      "zh-CN": "克雷德劳之爪"
+      "zh-CN": "克雷格劳之爪"
     },
     "kind": "set",
     "setName": {
       "en": "Cleglaw's Brace",
       "zh-TW": "克雷德勞的防備",
-      "zh-CN": "克雷德劳的防备"
+      "zh-CN": "克雷格劳的支柱"
     },
     "levelReq": 4,
     "baseName": {
       "en": "Small Shield",
-      "zh-TW": "小盾牌",
-      "zh-CN": "小盾牌"
+      "zh-TW": "小型盾",
+      "zh-CN": "小盾"
     },
     "grade": "normal",
     "slotCategory": "shields",
@@ -3173,7 +3205,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/shield/umbral_disk.png"
   },
   {
     "id": "set-8",
@@ -3181,19 +3214,19 @@
     "name": {
       "en": "Cleglaw's Pincers",
       "zh-TW": "克雷德勞之鉗",
-      "zh-CN": "克雷德劳之钳"
+      "zh-CN": "克雷格劳之钳"
     },
     "kind": "set",
     "setName": {
       "en": "Cleglaw's Brace",
       "zh-TW": "克雷德勞的防備",
-      "zh-CN": "克雷德劳的防备"
+      "zh-CN": "克雷格劳的支柱"
     },
     "levelReq": 4,
     "baseName": {
       "en": "Chain Gloves",
-      "zh-TW": "鎖鍊手套",
-      "zh-CN": "锁链手套"
+      "zh-TW": "鍊甲手套",
+      "zh-CN": "链甲手套"
     },
     "grade": "normal",
     "slotCategory": "gloves",
@@ -3249,7 +3282,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/glove/bracers_m.png"
   },
   {
     "id": "set-6",
@@ -3257,13 +3291,13 @@
     "name": {
       "en": "Cleglaw's Tooth",
       "zh-TW": "克雷德勞之牙",
-      "zh-CN": "克雷德劳之牙"
+      "zh-CN": "克雷格劳之牙"
     },
     "kind": "set",
     "setName": {
       "en": "Cleglaw's Brace",
       "zh-TW": "克雷德勞的防備",
-      "zh-CN": "克雷德劳的防备"
+      "zh-CN": "克雷格劳的支柱"
     },
     "levelReq": 4,
     "baseName": {
@@ -3331,7 +3365,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/hellplague.png"
   },
   {
     "id": "set-118",
@@ -3339,19 +3374,19 @@
     "name": {
       "en": "Cow King's Hide",
       "zh-TW": "牛王之皮",
-      "zh-CN": "牛王之皮"
+      "zh-CN": "牛魔王之皮"
     },
     "kind": "set",
     "setName": {
       "en": "Cow King's Leathers",
       "zh-TW": "牛王皮甲",
-      "zh-CN": "牛王皮甲"
+      "zh-CN": "牛魔王之革"
     },
     "levelReq": 18,
     "baseName": {
       "en": "Studded Leather",
-      "zh-TW": "鑲嵌甲",
-      "zh-CN": "镶嵌甲"
+      "zh-TW": "鑲釘皮甲",
+      "zh-CN": "钉皮甲"
     },
     "grade": "normal",
     "slotCategory": "armors",
@@ -3416,7 +3451,8 @@
     "setBonuses": [],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/armor/studded_leather.png"
   },
   {
     "id": "set-119",
@@ -3424,13 +3460,13 @@
     "name": {
       "en": "Cow King's Hooves",
       "zh-TW": "牛王之蹄",
-      "zh-CN": "牛王之蹄"
+      "zh-CN": "牛魔王之蹄"
     },
     "kind": "set",
     "setName": {
       "en": "Cow King's Leathers",
       "zh-TW": "牛王皮甲",
-      "zh-CN": "牛王皮甲"
+      "zh-CN": "牛魔王之革"
     },
     "levelReq": 13,
     "baseName": {
@@ -3527,7 +3563,8 @@
       "dmg-fire"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/boot/heavy_boots.png"
   },
   {
     "id": "set-117",
@@ -3535,19 +3572,19 @@
     "name": {
       "en": "Cow King's Horns",
       "zh-TW": "牛王之角",
-      "zh-CN": "牛王之角"
+      "zh-CN": "牛魔王之角"
     },
     "kind": "set",
     "setName": {
       "en": "Cow King's Leathers",
       "zh-TW": "牛王皮甲",
-      "zh-CN": "牛王皮甲"
+      "zh-CN": "牛魔王之革"
     },
     "levelReq": 25,
     "baseName": {
       "en": "War Hat",
       "zh-TW": "戰帽",
-      "zh-CN": "战帽"
+      "zh-CN": "战争帽"
     },
     "grade": "exceptional",
     "slotCategory": "helms",
@@ -3612,7 +3649,8 @@
     "setBonuses": [],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/cap_hat.png"
   },
   {
     "id": "set-99",
@@ -3620,7 +3658,7 @@
     "name": {
       "en": "Credendum",
       "zh-TW": "守信條",
-      "zh-CN": "守信条"
+      "zh-CN": "信念腰带"
     },
     "kind": "set",
     "setName": {
@@ -3697,7 +3735,8 @@
     "setBonuses": [],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/belt/belt_m.png"
   },
   {
     "id": "set-100",
@@ -3705,19 +3744,19 @@
     "name": {
       "en": "Dangoon's Teaching",
       "zh-TW": "檀君的教導",
-      "zh-CN": "檀君的教导"
+      "zh-CN": "覃君的教导"
     },
     "kind": "set",
     "setName": {
       "en": "Heaven's Brethren",
       "zh-TW": "天堂的同胞",
-      "zh-CN": "天堂的同胞"
+      "zh-CN": "天堂同袍"
     },
     "levelReq": 68,
     "baseName": {
       "en": "Reinforced Mace",
-      "zh-TW": "強化釘頭錘",
-      "zh-CN": "强化钉头锤"
+      "zh-TW": "強化釘鎚",
+      "zh-CN": "加固锤"
     },
     "grade": "elite",
     "slotCategory": "maces",
@@ -3792,7 +3831,8 @@
       "dmg-fire"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/weapon/mace/dangoons_teaching.png"
   },
   {
     "id": "set-48",
@@ -3800,19 +3840,19 @@
     "name": {
       "en": "Death's Guard",
       "zh-TW": "死亡之護",
-      "zh-CN": "死亡之护"
+      "zh-CN": "死神之卫"
     },
     "kind": "set",
     "setName": {
       "en": "Death's Disguise",
       "zh-TW": "死亡的偽裝",
-      "zh-CN": "死亡的伪装"
+      "zh-CN": "死神的伪装"
     },
     "levelReq": 6,
     "baseName": {
       "en": "Sash",
-      "zh-TW": "飾帶",
-      "zh-CN": "饰带"
+      "zh-TW": "束帶",
+      "zh-CN": "腰带"
     },
     "grade": "normal",
     "slotCategory": "belts",
@@ -3868,7 +3908,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/belt/sash_l.png"
   },
   {
     "id": "set-47",
@@ -3876,18 +3917,18 @@
     "name": {
       "en": "Death's Hand",
       "zh-TW": "死亡之手",
-      "zh-CN": "死亡之手"
+      "zh-CN": "死神之手"
     },
     "kind": "set",
     "setName": {
       "en": "Death's Disguise",
       "zh-TW": "死亡的偽裝",
-      "zh-CN": "死亡的伪装"
+      "zh-CN": "死神的伪装"
     },
     "levelReq": 6,
     "baseName": {
       "en": "Leather Gloves",
-      "zh-TW": "皮手套",
+      "zh-TW": "皮革手套",
       "zh-CN": "皮手套"
     },
     "grade": "normal",
@@ -3944,7 +3985,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/glove/gloves_l.png"
   },
   {
     "id": "set-49",
@@ -3952,19 +3994,19 @@
     "name": {
       "en": "Death's Touch",
       "zh-TW": "死亡之觸",
-      "zh-CN": "死亡之触"
+      "zh-CN": "死神之触"
     },
     "kind": "set",
     "setName": {
       "en": "Death's Disguise",
       "zh-TW": "死亡的偽裝",
-      "zh-CN": "死亡的伪装"
+      "zh-CN": "死神的伪装"
     },
     "levelReq": 6,
     "baseName": {
       "en": "War Sword",
-      "zh-TW": "巨戰之劍",
-      "zh-CN": "巨战之剑"
+      "zh-TW": "征戰劍",
+      "zh-CN": "战争剑"
     },
     "grade": "normal",
     "slotCategory": "swords",
@@ -4026,7 +4068,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/war_sword.png"
   },
   {
     "id": "set-82",
@@ -4034,19 +4077,19 @@
     "name": {
       "en": "Griswold's Heart",
       "zh-TW": "格里斯瓦德之心",
-      "zh-CN": "格里斯瓦德之心"
+      "zh-CN": "格里斯沃尔德的赤诚"
     },
     "kind": "set",
     "setName": {
       "en": "Griswold's Legacy",
       "zh-TW": "格里斯瓦德的傳奇",
-      "zh-CN": "格里斯瓦德的传奇"
+      "zh-CN": "格里斯沃尔德的遗产"
     },
     "levelReq": 45,
     "baseName": {
       "en": "Ornate Plate",
       "zh-TW": "華麗戰甲",
-      "zh-CN": "华丽战甲"
+      "zh-CN": "花纹战甲"
     },
     "grade": "exceptional",
     "slotCategory": "armors",
@@ -4122,7 +4165,8 @@
     "setBonuses": [],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/armor/corpsemourn.png"
   },
   {
     "id": "set-84",
@@ -4130,19 +4174,19 @@
     "name": {
       "en": "Griswold's Honor",
       "zh-TW": "格里斯瓦德的榮耀",
-      "zh-CN": "格里斯瓦德的荣耀"
+      "zh-CN": "格里斯沃尔德的荣耀"
     },
     "kind": "set",
     "setName": {
       "en": "Griswold's Legacy",
       "zh-TW": "格里斯瓦德的傳奇",
-      "zh-CN": "格里斯瓦德的传奇"
+      "zh-CN": "格里斯沃尔德的遗产"
     },
     "levelReq": 68,
     "baseName": {
       "en": "Vortex Shield",
-      "zh-TW": "旋風盾",
-      "zh-CN": "旋风盾"
+      "zh-TW": "渦旋盾",
+      "zh-CN": "漩涡盾"
     },
     "grade": "elite",
     "slotCategory": "shields",
@@ -4227,7 +4271,8 @@
     "setBonuses": [],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/shield/crown_shield.png"
   },
   {
     "id": "set-81",
@@ -4235,19 +4280,19 @@
     "name": {
       "en": "Griswold's Valor",
       "zh-TW": "格里斯瓦德的勇氣",
-      "zh-CN": "格里斯瓦德的勇气"
+      "zh-CN": "格里斯沃尔德的勇气"
     },
     "kind": "set",
     "setName": {
       "en": "Griswold's Legacy",
       "zh-TW": "格里斯瓦德的傳奇",
-      "zh-CN": "格里斯瓦德的传奇"
+      "zh-CN": "格里斯沃尔德的遗产"
     },
     "levelReq": 69,
     "baseName": {
       "en": "Corona",
-      "zh-TW": "頭冠",
-      "zh-CN": "头冠"
+      "zh-TW": "日冕之冠",
+      "zh-CN": "宝冠"
     },
     "grade": "elite",
     "slotCategory": "helms",
@@ -4353,7 +4398,8 @@
       "mag%"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/crown.png"
   },
   {
     "id": "set-83",
@@ -4361,19 +4407,19 @@
     "name": {
       "en": "Griswold's Redemption",
       "zh-TW": "格里斯瓦德的救贖",
-      "zh-CN": "格里斯瓦德的救赎"
+      "zh-CN": "格里斯沃尔德的救赎"
     },
     "kind": "set",
     "setName": {
       "en": "Griswold's Legacy",
       "zh-TW": "格里斯瓦德的傳奇",
-      "zh-CN": "格里斯瓦德的传奇"
+      "zh-CN": "格里斯沃尔德的遗产"
     },
     "levelReq": 66,
     "baseName": {
       "en": "Caduceus",
-      "zh-TW": "神使之杖",
-      "zh-CN": "神使之杖"
+      "zh-TW": "神使權杖",
+      "zh-CN": "使者杖"
     },
     "grade": "elite",
     "slotCategory": "scepters",
@@ -4498,7 +4544,8 @@
       "sock"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/weapon/scepter/war_scepter.png"
   },
   {
     "id": "set-104",
@@ -4506,13 +4553,13 @@
     "name": {
       "en": "Guillaume's Face",
       "zh-TW": "吉永之臉",
-      "zh-CN": "吉永之脸"
+      "zh-CN": "威廉的威容"
     },
     "kind": "set",
     "setName": {
       "en": "Orphan's Call",
       "zh-TW": "孤兒的呼喚",
-      "zh-CN": "孤儿的呼唤"
+      "zh-CN": "孤儿的号令"
     },
     "levelReq": 34,
     "baseName": {
@@ -4594,7 +4641,8 @@
     "setBonuses": [],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/great_helm.png"
   },
   {
     "id": "set-102",
@@ -4602,19 +4650,19 @@
     "name": {
       "en": "Haemosu's Adamant",
       "zh-TW": "解慕漱的堅決",
-      "zh-CN": "解慕漱的坚决"
+      "zh-CN": "解慕苏的坚定"
     },
     "kind": "set",
     "setName": {
       "en": "Heaven's Brethren",
       "zh-TW": "天堂的同胞",
-      "zh-CN": "天堂的同胞"
+      "zh-CN": "天堂同袍"
     },
     "levelReq": 44,
     "baseName": {
       "en": "Cuirass",
       "zh-TW": "護胸甲",
-      "zh-CN": "护胸甲"
+      "zh-CN": "重装胸甲"
     },
     "grade": "exceptional",
     "slotCategory": "armors",
@@ -4690,7 +4738,8 @@
     "setBonuses": [],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/armor/haemosus_adament.png"
   },
   {
     "id": "set-101",
@@ -4698,19 +4747,19 @@
     "name": {
       "en": "Taebaek's Glory",
       "zh-TW": "太白山的榮光",
-      "zh-CN": "太白山的荣光"
+      "zh-CN": "泰白的荣耀"
     },
     "kind": "set",
     "setName": {
       "en": "Heaven's Brethren",
       "zh-TW": "天堂的同胞",
-      "zh-CN": "天堂的同胞"
+      "zh-CN": "天堂同袍"
     },
     "levelReq": 81,
     "baseName": {
       "en": "Ward",
-      "zh-TW": "保護盾牌",
-      "zh-CN": "保护盾牌"
+      "zh-TW": "庇護盾",
+      "zh-CN": "守护之盾"
     },
     "grade": "elite",
     "slotCategory": "shields",
@@ -4817,7 +4866,8 @@
     "setBonuses": [],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/shield/heavens_taebaek.png"
   },
   {
     "id": "set-135",
@@ -4825,19 +4875,19 @@
     "name": {
       "en": "Horazon's Countenance",
       "zh-TW": "赫拉森的面容",
-      "zh-CN": "赫拉森的面容"
+      "zh-CN": "霍拉松的面容"
     },
     "kind": "set",
     "setName": {
       "en": "Horazon's Splendor",
       "zh-TW": "赫拉森的輝煌",
-      "zh-CN": "赫拉森的辉煌"
+      "zh-CN": "霍拉松的辉煌"
     },
     "levelReq": 62,
     "baseName": {
       "en": "Demonhead",
-      "zh-TW": "惡魔頭蓋骨面具",
-      "zh-CN": "恶魔头盖骨面具"
+      "zh-TW": "惡魔頭骨",
+      "zh-CN": "恶魔面甲"
     },
     "grade": "elite",
     "slotCategory": "helms",
@@ -4933,7 +4983,8 @@
       "red-mag"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/horazons_countenance.png"
   },
   {
     "id": "set-136",
@@ -4941,19 +4992,19 @@
     "name": {
       "en": "Horazon's Dominion",
       "zh-TW": "赫拉森的統治",
-      "zh-CN": "赫拉森的统治"
+      "zh-CN": "霍拉松的统治"
     },
     "kind": "set",
     "setName": {
       "en": "Horazon's Splendor",
       "zh-TW": "赫拉森的輝煌",
-      "zh-CN": "赫拉森的辉煌"
+      "zh-CN": "霍拉松的辉煌"
     },
     "levelReq": 55,
     "baseName": {
       "en": "Russet Armor",
-      "zh-TW": "羅瑟戰甲",
-      "zh-CN": "罗瑟战甲"
+      "zh-TW": "赤褐戰甲",
+      "zh-CN": "褐锈甲"
     },
     "grade": "exceptional",
     "slotCategory": "armors",
@@ -5089,7 +5140,8 @@
       "res-ltng"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/armor/splint_mail.png"
   },
   {
     "id": "set-137",
@@ -5097,19 +5149,19 @@
     "name": {
       "en": "Horazon's Hold",
       "zh-TW": "赫拉森的掌控",
-      "zh-CN": "赫拉森的掌控"
+      "zh-CN": "霍拉松的握持"
     },
     "kind": "set",
     "setName": {
       "en": "Horazon's Splendor",
       "zh-TW": "赫拉森的輝煌",
-      "zh-CN": "赫拉森的辉煌"
+      "zh-CN": "霍拉松的辉煌"
     },
     "levelReq": 48,
     "baseName": {
       "en": "Demonhide Gloves",
       "zh-TW": "魔皮手套",
-      "zh-CN": "魔皮手套"
+      "zh-CN": "恶魔皮手套"
     },
     "grade": "exceptional",
     "slotCategory": "gloves",
@@ -5232,7 +5284,8 @@
       "hp"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/glove/gloves_l.png"
   },
   {
     "id": "set-138",
@@ -5240,18 +5293,18 @@
     "name": {
       "en": "Horazon's Legacy",
       "zh-TW": "赫拉森的傳承",
-      "zh-CN": "赫拉森的传承"
+      "zh-CN": "霍拉松的传承"
     },
     "kind": "set",
     "setName": {
       "en": "Horazon's Splendor",
       "zh-TW": "赫拉森的輝煌",
-      "zh-CN": "赫拉森的辉煌"
+      "zh-CN": "霍拉松的辉煌"
     },
     "levelReq": 67,
     "baseName": {
       "en": "Mirrored Boots",
-      "zh-TW": "鏡化靴",
+      "zh-TW": "幻鏡戰靴",
       "zh-CN": "镜化靴"
     },
     "grade": "elite",
@@ -5369,7 +5422,8 @@
       "res-mag"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/boot/light_plate_boots.png"
   },
   {
     "id": "set-139",
@@ -5377,19 +5431,19 @@
     "name": {
       "en": "Horazon's Secrets",
       "zh-TW": "赫拉森的秘密",
-      "zh-CN": "赫拉森的秘密"
+      "zh-CN": "霍拉松的秘密"
     },
     "kind": "set",
     "setName": {
       "en": "Horazon's Splendor",
       "zh-TW": "赫拉森的輝煌",
-      "zh-CN": "赫拉森的辉煌"
+      "zh-CN": "霍拉松的辉煌"
     },
     "levelReq": 57,
     "baseName": {
       "en": "Occult Codex",
-      "zh-TW": "Occult Codex",
-      "zh-CN": "Occult Codex"
+      "zh-TW": "神秘寶典",
+      "zh-CN": "神秘法典"
     },
     "grade": "elite",
     "slotCategory": "grimoires",
@@ -5508,7 +5562,8 @@
       "hp"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/grimoires/ars_torbaalos.png"
   },
   {
     "id": "set-4",
@@ -5516,19 +5571,19 @@
     "name": {
       "en": "Hsarus' Iron Fist",
       "zh-TW": "海沙魯的鐵拳",
-      "zh-CN": "海沙鲁的铁拳"
+      "zh-CN": "萨鲁斯的铁拳"
     },
     "kind": "set",
     "setName": {
       "en": "Hsarus' Defense",
       "zh-TW": "海沙魯的鐵禦",
-      "zh-CN": "海沙鲁的铁御"
+      "zh-CN": "萨鲁斯的防御"
     },
     "levelReq": 3,
     "baseName": {
       "en": "Buckler",
-      "zh-TW": "圓盾",
-      "zh-CN": "圆盾"
+      "zh-TW": "小圓盾",
+      "zh-CN": "小圆盾"
     },
     "grade": "normal",
     "slotCategory": "shields",
@@ -5593,7 +5648,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/shield/pelta_lunata.png"
   },
   {
     "id": "set-3",
@@ -5601,13 +5657,13 @@
     "name": {
       "en": "Hsarus' Iron Heel",
       "zh-TW": "海沙魯的鐵跟",
-      "zh-CN": "海沙鲁的铁跟"
+      "zh-CN": "萨鲁斯的铁踵"
     },
     "kind": "set",
     "setName": {
       "en": "Hsarus' Defense",
       "zh-TW": "海沙魯的鐵禦",
-      "zh-CN": "海沙鲁的铁御"
+      "zh-CN": "萨鲁斯的防御"
     },
     "levelReq": 3,
     "baseName": {
@@ -5678,7 +5734,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/boot/chain_boots.png"
   },
   {
     "id": "set-5",
@@ -5686,19 +5743,19 @@
     "name": {
       "en": "Hsarus' Iron Stay",
       "zh-TW": "海沙魯的鐵扣",
-      "zh-CN": "海沙鲁的铁扣"
+      "zh-CN": "萨鲁斯的铁固腰"
     },
     "kind": "set",
     "setName": {
       "en": "Hsarus' Defense",
       "zh-TW": "海沙魯的鐵禦",
-      "zh-CN": "海沙鲁的铁御"
+      "zh-CN": "萨鲁斯的防御"
     },
     "levelReq": 3,
     "baseName": {
       "en": "Belt",
-      "zh-TW": "扣帶",
-      "zh-CN": "扣带"
+      "zh-TW": "腰帶",
+      "zh-CN": "腰带"
     },
     "grade": "normal",
     "slotCategory": "belts",
@@ -5754,7 +5811,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/belt/belt_m.png"
   },
   {
     "id": "set-111",
@@ -5762,7 +5820,7 @@
     "name": {
       "en": "Hwanin's Justice",
       "zh-TW": "桓因的制裁",
-      "zh-CN": "桓因的制裁"
+      "zh-CN": "桓因的圣裁"
     },
     "kind": "set",
     "setName": {
@@ -5773,8 +5831,8 @@
     "levelReq": 28,
     "baseName": {
       "en": "Bill",
-      "zh-TW": "比爾長刀",
-      "zh-CN": "比尔长刀"
+      "zh-TW": "長柄鍥",
+      "zh-CN": "钩镰枪"
     },
     "grade": "exceptional",
     "slotCategory": "polearms",
@@ -5871,7 +5929,8 @@
       "dmg-ltng"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/weapon/polearm/voulge.png"
   },
   {
     "id": "set-109",
@@ -5890,8 +5949,8 @@
     "levelReq": 30,
     "baseName": {
       "en": "Tigulated Mail",
-      "zh-TW": "提格萊特戰甲",
-      "zh-CN": "提格莱特战甲"
+      "zh-TW": "鎖鱗戰甲",
+      "zh-CN": "固片锁甲"
     },
     "grade": "exceptional",
     "slotCategory": "armors",
@@ -5956,7 +6015,8 @@
     "setBonuses": [],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/armor/scale_mail.png"
   },
   {
     "id": "set-110",
@@ -5975,8 +6035,8 @@
     "levelReq": 35,
     "baseName": {
       "en": "Belt",
-      "zh-TW": "扣帶",
-      "zh-CN": "扣带"
+      "zh-TW": "腰帶",
+      "zh-CN": "腰带"
     },
     "grade": "normal",
     "slotCategory": "belts",
@@ -6045,7 +6105,8 @@
       "dmg-ltng"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/belt/belt_m.png"
   },
   {
     "id": "set-108",
@@ -6053,7 +6114,7 @@
     "name": {
       "en": "Hwanin's Splendor",
       "zh-TW": "桓因的光輝",
-      "zh-CN": "桓因的光辉"
+      "zh-CN": "桓因的壮美"
     },
     "kind": "set",
     "setName": {
@@ -6064,8 +6125,8 @@
     "levelReq": 45,
     "baseName": {
       "en": "Grand Crown",
-      "zh-TW": "巨皇冠",
-      "zh-CN": "巨皇冠"
+      "zh-TW": "莊嚴王冠",
+      "zh-CN": "宝冠盔"
     },
     "grade": "exceptional",
     "slotCategory": "helms",
@@ -6130,7 +6191,8 @@
     "setBonuses": [],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/crown_of_thieves.png"
   },
   {
     "id": "set-72",
@@ -6138,7 +6200,7 @@
     "name": {
       "en": "Immortal King's Detail",
       "zh-TW": "不朽之王的扈從",
-      "zh-CN": "不朽之王的扈从"
+      "zh-CN": "不朽之王的功业"
     },
     "kind": "set",
     "setName": {
@@ -6149,8 +6211,8 @@
     "levelReq": 29,
     "baseName": {
       "en": "War Belt",
-      "zh-TW": "巨戰腰帶",
-      "zh-CN": "巨战腰带"
+      "zh-TW": "征戰腰帶",
+      "zh-CN": "战争腰带"
     },
     "grade": "exceptional",
     "slotCategory": "belts",
@@ -6276,7 +6338,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/belt/girdle_h.png"
   },
   {
     "id": "set-73",
@@ -6284,7 +6347,7 @@
     "name": {
       "en": "Immortal King's Forge",
       "zh-TW": "不朽之王的熔爐",
-      "zh-CN": "不朽之王的熔炉"
+      "zh-CN": "不朽之王的锤炼"
     },
     "kind": "set",
     "setName": {
@@ -6295,8 +6358,8 @@
     "levelReq": 30,
     "baseName": {
       "en": "War Gauntlets",
-      "zh-TW": "巨戰手套",
-      "zh-CN": "巨战手套"
+      "zh-TW": "征戰護手",
+      "zh-CN": "战争护手"
     },
     "grade": "exceptional",
     "slotCategory": "gloves",
@@ -6422,7 +6485,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/glove/gaunlets_h.png"
   },
   {
     "id": "set-74",
@@ -6430,7 +6494,7 @@
     "name": {
       "en": "Immortal King's Pillar",
       "zh-TW": "不朽之王之柱",
-      "zh-CN": "不朽之王之柱"
+      "zh-CN": "不朽之王的基石"
     },
     "kind": "set",
     "setName": {
@@ -6441,8 +6505,8 @@
     "levelReq": 31,
     "baseName": {
       "en": "War Boots",
-      "zh-TW": "巨戰之靴",
-      "zh-CN": "巨战之靴"
+      "zh-TW": "征戰靴",
+      "zh-CN": "战争靴"
     },
     "grade": "exceptional",
     "slotCategory": "boots",
@@ -6565,7 +6629,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/boot/plate_boots.png"
   },
   {
     "id": "set-71",
@@ -6573,7 +6638,7 @@
     "name": {
       "en": "Immortal King's Soul Cage",
       "zh-TW": "不朽之王的靈魂牢籠",
-      "zh-CN": "不朽之王的灵魂牢笼"
+      "zh-CN": "不朽之王的灵魂之笼"
     },
     "kind": "set",
     "setName": {
@@ -6584,8 +6649,8 @@
     "levelReq": 76,
     "baseName": {
       "en": "Sacred Armor",
-      "zh-TW": "神聖盔甲",
-      "zh-CN": "神圣盔甲"
+      "zh-TW": "神聖戰甲",
+      "zh-CN": "神圣铠甲"
     },
     "grade": "elite",
     "slotCategory": "armors",
@@ -6711,7 +6776,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/armor/victors_silk.png"
   },
   {
     "id": "set-75",
@@ -6719,7 +6785,7 @@
     "name": {
       "en": "Immortal King's Stone Crusher",
       "zh-TW": "不朽之王的碎魂者",
-      "zh-CN": "不朽之王的碎魂者"
+      "zh-CN": "不朽之王的碎石锤"
     },
     "kind": "set",
     "setName": {
@@ -6730,8 +6796,8 @@
     "levelReq": 76,
     "baseName": {
       "en": "Ogre Maul",
-      "zh-TW": "食人魔之錘",
-      "zh-CN": "食人魔之锤"
+      "zh-TW": "巨魔重鎚",
+      "zh-CN": "食肉魔锤"
     },
     "grade": "elite",
     "slotCategory": "hammers",
@@ -6900,7 +6966,8 @@
       "crush"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/weapon/hammer/maul.png"
   },
   {
     "id": "set-70",
@@ -6919,8 +6986,8 @@
     "levelReq": 47,
     "baseName": {
       "en": "Avenger Guard",
-      "zh-TW": "復仇者之盔",
-      "zh-CN": "复仇者之盔"
+      "zh-TW": "復仇者護盔",
+      "zh-CN": "复仇者头盔"
     },
     "grade": "normal",
     "slotCategory": "helms",
@@ -7011,7 +7078,8 @@
       "mag%"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/avenger_guard.png"
   },
   {
     "id": "set-41",
@@ -7019,19 +7087,19 @@
     "name": {
       "en": "Infernal Cranium",
       "zh-TW": "煉獄頭骨",
-      "zh-CN": "炼狱头骨"
+      "zh-CN": "地狱颅骨"
     },
     "kind": "set",
     "setName": {
       "en": "Infernal Tools",
       "zh-TW": "煉獄器具",
-      "zh-CN": "炼狱器具"
+      "zh-CN": "地狱工具"
     },
     "levelReq": 5,
     "baseName": {
       "en": "Cap",
-      "zh-TW": "帽子",
-      "zh-CN": "帽子"
+      "zh-TW": "便帽",
+      "zh-CN": "软帽"
     },
     "grade": "normal",
     "slotCategory": "helms",
@@ -7087,7 +7155,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/war_bonnet.png"
   },
   {
     "id": "set-43",
@@ -7095,19 +7164,19 @@
     "name": {
       "en": "Infernal Sign",
       "zh-TW": "煉獄符印",
-      "zh-CN": "炼狱符印"
+      "zh-CN": "地狱印记"
     },
     "kind": "set",
     "setName": {
       "en": "Infernal Tools",
       "zh-TW": "煉獄器具",
-      "zh-CN": "炼狱器具"
+      "zh-CN": "地狱工具"
     },
     "levelReq": 5,
     "baseName": {
       "en": "Heavy Belt",
-      "zh-TW": "重扣帶",
-      "zh-CN": "重扣带"
+      "zh-TW": "厚腰帶",
+      "zh-CN": "重腰带"
     },
     "grade": "normal",
     "slotCategory": "belts",
@@ -7175,7 +7244,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/belt/heavy_belt.png"
   },
   {
     "id": "set-42",
@@ -7183,19 +7253,19 @@
     "name": {
       "en": "Infernal Torch",
       "zh-TW": "煉獄火炬",
-      "zh-CN": "炼狱火炬"
+      "zh-CN": "地狱火炬"
     },
     "kind": "set",
     "setName": {
       "en": "Infernal Tools",
       "zh-TW": "煉獄器具",
-      "zh-CN": "炼狱器具"
+      "zh-CN": "地狱工具"
     },
     "levelReq": 5,
     "baseName": {
       "en": "Grim Wand",
-      "zh-TW": "殘酷之杖",
-      "zh-CN": "残酷之杖"
+      "zh-TW": "陰森魔杖",
+      "zh-CN": "恐怖魔杖"
     },
     "grade": "normal",
     "slotCategory": "wands",
@@ -7257,7 +7327,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/weapon/wand/grim_wand.png"
   },
   {
     "id": "set-11",
@@ -7265,19 +7336,19 @@
     "name": {
       "en": "Iratha's Coil",
       "zh-TW": "依雷撒的盤頂",
-      "zh-CN": "依雷撒的盘顶"
+      "zh-CN": "艾蕾萨的铁围盔"
     },
     "kind": "set",
     "setName": {
       "en": "Iratha's Finery",
       "zh-TW": "依雷撒的華服",
-      "zh-CN": "依雷撒的华服"
+      "zh-CN": "艾蕾萨的华服"
     },
     "levelReq": 15,
     "baseName": {
       "en": "Crown",
-      "zh-TW": "皇冠",
-      "zh-CN": "皇冠"
+      "zh-TW": "王冠",
+      "zh-CN": "王冠"
     },
     "grade": "normal",
     "slotCategory": "helms",
@@ -7333,7 +7404,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/crown.png"
   },
   {
     "id": "set-9",
@@ -7341,19 +7413,19 @@
     "name": {
       "en": "Iratha's Collar",
       "zh-TW": "依雷撒的項圈",
-      "zh-CN": "依雷撒的项圈"
+      "zh-CN": "艾蕾萨的护颈圈"
     },
     "kind": "set",
     "setName": {
       "en": "Iratha's Finery",
       "zh-TW": "依雷撒的華服",
-      "zh-CN": "依雷撒的华服"
+      "zh-CN": "艾蕾萨的华服"
     },
     "levelReq": 15,
     "baseName": {
       "en": "Amulet",
       "zh-TW": "護身符",
-      "zh-CN": "护身符"
+      "zh-CN": "护符"
     },
     "grade": "normal",
     "slotCategory": "amulets",
@@ -7406,7 +7478,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/misc/amulet/amulet.png"
   },
   {
     "id": "set-12",
@@ -7414,19 +7487,19 @@
     "name": {
       "en": "Iratha's Cord",
       "zh-TW": "依雷撒的腰繩",
-      "zh-CN": "依雷撒的腰绳"
+      "zh-CN": "艾蕾萨的束带"
     },
     "kind": "set",
     "setName": {
       "en": "Iratha's Finery",
       "zh-TW": "依雷撒的華服",
-      "zh-CN": "依雷撒的华服"
+      "zh-CN": "艾蕾萨的华服"
     },
     "levelReq": 15,
     "baseName": {
       "en": "Heavy Belt",
-      "zh-TW": "重扣帶",
-      "zh-CN": "重扣带"
+      "zh-TW": "厚腰帶",
+      "zh-CN": "重腰带"
     },
     "grade": "normal",
     "slotCategory": "belts",
@@ -7482,7 +7555,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/belt/heavy_belt.png"
   },
   {
     "id": "set-10",
@@ -7490,19 +7564,19 @@
     "name": {
       "en": "Iratha's Cuff",
       "zh-TW": "依雷撒的袖銬",
-      "zh-CN": "依雷撒的袖铐"
+      "zh-CN": "艾蕾萨的袖手套"
     },
     "kind": "set",
     "setName": {
       "en": "Iratha's Finery",
       "zh-TW": "依雷撒的華服",
-      "zh-CN": "依雷撒的华服"
+      "zh-CN": "艾蕾萨的华服"
     },
     "levelReq": 15,
     "baseName": {
       "en": "Light Gauntlets",
-      "zh-TW": "輕型鐵手套",
-      "zh-CN": "轻型铁手套"
+      "zh-TW": "輕型護手",
+      "zh-CN": "轻护手"
     },
     "grade": "normal",
     "slotCategory": "gloves",
@@ -7558,7 +7632,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/glove/light_gauntlets.png"
   },
   {
     "id": "set-15",
@@ -7566,19 +7641,19 @@
     "name": {
       "en": "Isenhart's Case",
       "zh-TW": "依森哈特的外殼",
-      "zh-CN": "依森哈特的外壳"
+      "zh-CN": "依森哈特的胸胄"
     },
     "kind": "set",
     "setName": {
       "en": "Isenhart's Armory",
       "zh-TW": "依森哈特的軍械",
-      "zh-CN": "依森哈特的军械"
+      "zh-CN": "依森哈特的武器库"
     },
     "levelReq": 8,
     "baseName": {
       "en": "Breast Plate",
-      "zh-TW": "胸甲",
-      "zh-CN": "胸甲"
+      "zh-TW": "胸鎧",
+      "zh-CN": "胸片甲"
     },
     "grade": "normal",
     "slotCategory": "armors",
@@ -7634,7 +7709,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/armor/breast_plate.png"
   },
   {
     "id": "set-16",
@@ -7642,19 +7718,19 @@
     "name": {
       "en": "Isenhart's Horns",
       "zh-TW": "依森哈特的角盔",
-      "zh-CN": "依森哈特的角盔"
+      "zh-CN": "依森哈特的号角"
     },
     "kind": "set",
     "setName": {
       "en": "Isenhart's Armory",
       "zh-TW": "依森哈特的軍械",
-      "zh-CN": "依森哈特的军械"
+      "zh-CN": "依森哈特的武器库"
     },
     "levelReq": 8,
     "baseName": {
       "en": "Full Helm",
-      "zh-TW": "高級頭盔",
-      "zh-CN": "高级头盔"
+      "zh-TW": "全罩盔",
+      "zh-CN": "全护盔"
     },
     "grade": "normal",
     "slotCategory": "helms",
@@ -7710,7 +7786,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/duskdeep.png"
   },
   {
     "id": "set-13",
@@ -7718,13 +7795,13 @@
     "name": {
       "en": "Isenhart's Lightbrand",
       "zh-TW": "依森哈特的光之烙鐵",
-      "zh-CN": "依森哈特的光之烙铁"
+      "zh-CN": "依森哈特的光之烙印"
     },
     "kind": "set",
     "setName": {
       "en": "Isenhart's Armory",
       "zh-TW": "依森哈特的軍械",
-      "zh-CN": "依森哈特的军械"
+      "zh-CN": "依森哈特的武器库"
     },
     "levelReq": 8,
     "baseName": {
@@ -7792,7 +7869,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/griswolds_edge.png"
   },
   {
     "id": "set-14",
@@ -7800,19 +7878,19 @@
     "name": {
       "en": "Isenhart's Parry",
       "zh-TW": "依森哈特的招架",
-      "zh-CN": "依森哈特的招架"
+      "zh-CN": "依森哈特的格挡"
     },
     "kind": "set",
     "setName": {
       "en": "Isenhart's Armory",
       "zh-TW": "依森哈特的軍械",
-      "zh-CN": "依森哈特的军械"
+      "zh-CN": "依森哈特的武器库"
     },
     "levelReq": 8,
     "baseName": {
       "en": "Gothic Shield",
-      "zh-TW": "哥德盾牌",
-      "zh-CN": "哥德盾牌"
+      "zh-TW": "哥德盾",
+      "zh-CN": "哥特盾"
     },
     "grade": "normal",
     "slotCategory": "shields",
@@ -7877,7 +7955,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/shield/the_ward.png"
   },
   {
     "id": "set-96",
@@ -7885,7 +7964,7 @@
     "name": {
       "en": "Laying of Hands",
       "zh-TW": "按手禮",
-      "zh-CN": "按手礼"
+      "zh-CN": "按手礼套"
     },
     "kind": "set",
     "setName": {
@@ -7896,8 +7975,8 @@
     "levelReq": 63,
     "baseName": {
       "en": "Bramble Mitts",
-      "zh-TW": "荊棘連指手套",
-      "zh-CN": "荆棘连指手套"
+      "zh-TW": "荊棘手套",
+      "zh-CN": "防刺手套"
     },
     "grade": "elite",
     "slotCategory": "gloves",
@@ -7973,7 +8052,8 @@
     "setBonuses": [],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/glove/gloves_l.png"
   },
   {
     "id": "set-94",
@@ -7981,19 +8061,19 @@
     "name": {
       "en": "M'avina's Caster",
       "zh-TW": "馬維娜的強弓",
-      "zh-CN": "马维娜的强弓"
+      "zh-CN": "艾维娜的施展"
     },
     "kind": "set",
     "setName": {
       "en": "M'avina's Battle Hymn",
       "zh-TW": "馬維娜之戰鬥詩歌",
-      "zh-CN": "马维娜之战斗诗歌"
+      "zh-CN": "艾维娜的战斗诗歌"
     },
     "levelReq": 70,
     "baseName": {
       "en": "Grand Matron Bow",
-      "zh-TW": "大院長之弓",
-      "zh-CN": "大院长之弓"
+      "zh-TW": "主母之弓",
+      "zh-CN": "仕女长之弓"
     },
     "grade": "elite",
     "slotCategory": "bows",
@@ -8101,7 +8181,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/reflex_bow.png"
   },
   {
     "id": "set-91",
@@ -8109,19 +8190,19 @@
     "name": {
       "en": "M'avina's Embrace",
       "zh-TW": "馬維娜的擁抱",
-      "zh-CN": "马维娜的拥抱"
+      "zh-CN": "艾维娜的拥抱"
     },
     "kind": "set",
     "setName": {
       "en": "M'avina's Battle Hymn",
       "zh-TW": "馬維娜之戰鬥詩歌",
-      "zh-CN": "马维娜之战斗诗歌"
+      "zh-CN": "艾维娜的战斗诗歌"
     },
     "levelReq": 70,
     "baseName": {
       "en": "Kraken Shell",
-      "zh-TW": "海妖殼甲",
-      "zh-CN": "海妖壳甲"
+      "zh-TW": "海怪之殼",
+      "zh-CN": "深海巨妖之壳"
     },
     "grade": "elite",
     "slotCategory": "armors",
@@ -8225,7 +8306,8 @@
       "red-mag"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/armor/field_plate.png"
   },
   {
     "id": "set-92",
@@ -8233,19 +8315,19 @@
     "name": {
       "en": "M'avina's Icy Clutch",
       "zh-TW": "馬維娜的冰握",
-      "zh-CN": "马维娜的冰握"
+      "zh-CN": "艾维娜的冰握"
     },
     "kind": "set",
     "setName": {
       "en": "M'avina's Battle Hymn",
       "zh-TW": "馬維娜之戰鬥詩歌",
-      "zh-CN": "马维娜之战斗诗歌"
+      "zh-CN": "艾维娜的战斗诗歌"
     },
     "levelReq": 32,
     "baseName": {
       "en": "Battle Gauntlets",
-      "zh-TW": "戰場手套",
-      "zh-CN": "战场手套"
+      "zh-TW": "戰鬥護手",
+      "zh-CN": "战斗护手"
     },
     "grade": "exceptional",
     "slotCategory": "gloves",
@@ -8363,7 +8445,8 @@
       "dmg-cold"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/glove/light_gauntlets.png"
   },
   {
     "id": "set-93",
@@ -8371,19 +8454,19 @@
     "name": {
       "en": "M'avina's Tenet",
       "zh-TW": "馬維娜的教義",
-      "zh-CN": "马维娜的教义"
+      "zh-CN": "艾维娜的教义"
     },
     "kind": "set",
     "setName": {
       "en": "M'avina's Battle Hymn",
       "zh-TW": "馬維娜之戰鬥詩歌",
-      "zh-CN": "马维娜之战斗诗歌"
+      "zh-CN": "艾维娜的战斗诗歌"
     },
     "levelReq": 45,
     "baseName": {
       "en": "Sharkskin Belt",
       "zh-TW": "鯊皮腰帶",
-      "zh-CN": "鲨皮腰带"
+      "zh-CN": "鲨鱼皮带"
     },
     "grade": "exceptional",
     "slotCategory": "belts",
@@ -8461,7 +8544,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/belt/light_belt.png"
   },
   {
     "id": "set-90",
@@ -8469,13 +8553,13 @@
     "name": {
       "en": "M'avina's True Sight",
       "zh-TW": "馬維娜的真實之眼",
-      "zh-CN": "马维娜的真实之眼"
+      "zh-CN": "艾维娜的真视"
     },
     "kind": "set",
     "setName": {
       "en": "M'avina's Battle Hymn",
       "zh-TW": "馬維娜之戰鬥詩歌",
-      "zh-CN": "马维娜之战斗诗歌"
+      "zh-CN": "艾维娜的战斗诗歌"
     },
     "levelReq": 64,
     "baseName": {
@@ -8583,7 +8667,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/circlet/diadem.png"
   },
   {
     "id": "set-106",
@@ -8591,19 +8676,19 @@
     "name": {
       "en": "Magnus' Skin",
       "zh-TW": "馬格納斯之皮",
-      "zh-CN": "马格纳斯之皮"
+      "zh-CN": "雄主的皮手套"
     },
     "kind": "set",
     "setName": {
       "en": "Orphan's Call",
       "zh-TW": "孤兒的呼喚",
-      "zh-CN": "孤儿的呼唤"
+      "zh-CN": "孤儿的号令"
     },
     "levelReq": 37,
     "baseName": {
       "en": "Sharkskin Gloves",
-      "zh-TW": "鯊魚皮套",
-      "zh-CN": "鲨鱼皮套"
+      "zh-TW": "鯊皮手套",
+      "zh-CN": "鲨鱼皮手套"
     },
     "grade": "exceptional",
     "slotCategory": "gloves",
@@ -8679,7 +8764,8 @@
     "setBonuses": [],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/glove/heavy_gloves.png"
   },
   {
     "id": "set-123",
@@ -8687,7 +8773,7 @@
     "name": {
       "en": "Sander's Paragon",
       "zh-TW": "山德的模範",
-      "zh-CN": "山德的模范"
+      "zh-CN": "山德的崇拜"
     },
     "kind": "set",
     "setName": {
@@ -8698,8 +8784,8 @@
     "levelReq": 25,
     "baseName": {
       "en": "Cap",
-      "zh-TW": "帽子",
-      "zh-CN": "帽子"
+      "zh-TW": "便帽",
+      "zh-CN": "软帽"
     },
     "grade": "normal",
     "slotCategory": "helms",
@@ -8761,7 +8847,7 @@
     "name": {
       "en": "Sander's Riprap",
       "zh-TW": "山德的碎石",
-      "zh-CN": "山德的碎石"
+      "zh-CN": "山德的石碓"
     },
     "kind": "set",
     "setName": {
@@ -8866,8 +8952,8 @@
     "levelReq": 25,
     "baseName": {
       "en": "Bone Wand",
-      "zh-TW": "骨杖",
-      "zh-CN": "骨杖"
+      "zh-TW": "骸骨魔杖",
+      "zh-CN": "白骨魔杖"
     },
     "grade": "normal",
     "slotCategory": "wands",
@@ -8972,7 +9058,7 @@
     "levelReq": 28,
     "baseName": {
       "en": "Heavy Gloves",
-      "zh-TW": "重手套",
+      "zh-TW": "厚皮手套",
       "zh-CN": "重手套"
     },
     "grade": "normal",
@@ -9052,19 +9138,19 @@
     "name": {
       "en": "Milabrega's Diadem",
       "zh-TW": "米拉伯佳權冠",
-      "zh-CN": "米拉伯佳权冠"
+      "zh-CN": "米拉伯佳的权冠"
     },
     "kind": "set",
     "setName": {
       "en": "Milabrega's Regalia",
       "zh-TW": "米拉伯佳戰裝",
-      "zh-CN": "米拉伯佳战装"
+      "zh-CN": "米拉伯佳的王权"
     },
     "levelReq": 17,
     "baseName": {
       "en": "Crown",
-      "zh-TW": "皇冠",
-      "zh-CN": "皇冠"
+      "zh-TW": "王冠",
+      "zh-CN": "王冠"
     },
     "grade": "normal",
     "slotCategory": "helms",
@@ -9120,7 +9206,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/crown.png"
   },
   {
     "id": "set-21",
@@ -9128,19 +9215,19 @@
     "name": {
       "en": "Milabrega's Orb",
       "zh-TW": "米拉伯佳之球",
-      "zh-CN": "米拉伯佳之球"
+      "zh-CN": "米拉伯佳的宝球"
     },
     "kind": "set",
     "setName": {
       "en": "Milabrega's Regalia",
       "zh-TW": "米拉伯佳戰裝",
-      "zh-CN": "米拉伯佳战装"
+      "zh-CN": "米拉伯佳的王权"
     },
     "levelReq": 17,
     "baseName": {
       "en": "Kite Shield",
-      "zh-TW": "輕盾",
-      "zh-CN": "轻盾"
+      "zh-TW": "鳶盾",
+      "zh-CN": "鸢盾"
     },
     "grade": "normal",
     "slotCategory": "shields",
@@ -9217,7 +9304,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/shield/steelclash.png"
   },
   {
     "id": "set-24",
@@ -9225,19 +9313,19 @@
     "name": {
       "en": "Milabrega's Robe",
       "zh-TW": "米拉伯佳外袍",
-      "zh-CN": "米拉伯佳外袍"
+      "zh-CN": "米拉伯佳的袍甲"
     },
     "kind": "set",
     "setName": {
       "en": "Milabrega's Regalia",
       "zh-TW": "米拉伯佳戰裝",
-      "zh-CN": "米拉伯佳战装"
+      "zh-CN": "米拉伯佳的王权"
     },
     "levelReq": 17,
     "baseName": {
       "en": "Ancient Armor",
-      "zh-TW": "古代裝甲",
-      "zh-CN": "古代装甲"
+      "zh-TW": "上古鎧甲",
+      "zh-CN": "古代甲"
     },
     "grade": "normal",
     "slotCategory": "armors",
@@ -9293,7 +9381,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/armor/victors_silk.png"
   },
   {
     "id": "set-22",
@@ -9301,19 +9390,19 @@
     "name": {
       "en": "Milabrega's Rod",
       "zh-TW": "米拉伯佳節杖",
-      "zh-CN": "米拉伯佳节杖"
+      "zh-CN": "米拉伯佳的权杖"
     },
     "kind": "set",
     "setName": {
       "en": "Milabrega's Regalia",
       "zh-TW": "米拉伯佳戰裝",
-      "zh-CN": "米拉伯佳战装"
+      "zh-CN": "米拉伯佳的王权"
     },
     "levelReq": 17,
     "baseName": {
       "en": "War Scepter",
-      "zh-TW": "巨戰權杖",
-      "zh-CN": "巨战权杖"
+      "zh-TW": "征戰權杖",
+      "zh-CN": "战争权杖"
     },
     "grade": "normal",
     "slotCategory": "scepters",
@@ -9373,7 +9462,8 @@
     "setBonuses": [],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/weapon/scepter/war_scepter.png"
   },
   {
     "id": "set-122",
@@ -9381,19 +9471,19 @@
     "name": {
       "en": "Naj's Circlet",
       "zh-TW": "娜吉的頭環",
-      "zh-CN": "娜吉的头环"
+      "zh-CN": "诺吉的头环"
     },
     "kind": "set",
     "setName": {
       "en": "Naj's Ancient Vestige",
       "zh-TW": "娜吉的上古遺物",
-      "zh-CN": "娜吉的上古遗物"
+      "zh-CN": "诺吉的古代遗物"
     },
     "levelReq": 28,
     "baseName": {
       "en": "Circlet",
-      "zh-TW": "頭飾",
-      "zh-CN": "头饰"
+      "zh-TW": "頭環",
+      "zh-CN": "头环"
     },
     "grade": "normal",
     "slotCategory": "helms",
@@ -9473,7 +9563,8 @@
       "dmg-fire"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/circlet/circlet.png"
   },
   {
     "id": "set-121",
@@ -9481,19 +9572,19 @@
     "name": {
       "en": "Naj's Light Plate",
       "zh-TW": "娜吉的輕鎧",
-      "zh-CN": "娜吉的轻铠"
+      "zh-CN": "诺吉的轻铠甲"
     },
     "kind": "set",
     "setName": {
       "en": "Naj's Ancient Vestige",
       "zh-TW": "娜吉的上古遺物",
-      "zh-CN": "娜吉的上古遗物"
+      "zh-CN": "诺吉的古代遗物"
     },
     "levelReq": 71,
     "baseName": {
       "en": "Hellforge Plate",
       "zh-TW": "地獄鍛甲",
-      "zh-CN": "地狱锻甲"
+      "zh-CN": "地狱铸甲"
     },
     "grade": "elite",
     "slotCategory": "armors",
@@ -9580,7 +9671,8 @@
     "setBonuses": [],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/armor/plate_mail.png"
   },
   {
     "id": "set-120",
@@ -9588,19 +9680,19 @@
     "name": {
       "en": "Naj's Puzzler",
       "zh-TW": "娜吉的解謎杖",
-      "zh-CN": "娜吉的解谜杖"
+      "zh-CN": "诺吉的解密棒"
     },
     "kind": "set",
     "setName": {
       "en": "Naj's Ancient Vestige",
       "zh-TW": "娜吉的上古遺物",
-      "zh-CN": "娜吉的上古遗物"
+      "zh-CN": "诺吉的古代遗物"
     },
     "levelReq": 78,
     "baseName": {
       "en": "Elder Staff",
-      "zh-TW": "長老之杖",
-      "zh-CN": "长老之杖"
+      "zh-TW": "長者法杖",
+      "zh-CN": "接骨木杖"
     },
     "grade": "elite",
     "slotCategory": "staves",
@@ -9708,7 +9800,8 @@
       "dmg-ltng"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/weapon/staff/lazarus_spire.png"
   },
   {
     "id": "set-63",
@@ -9716,19 +9809,19 @@
     "name": {
       "en": "Natalya's Mark",
       "zh-TW": "娜塔亞的印記",
-      "zh-CN": "娜塔亚的印记"
+      "zh-CN": "娜塔亚的标记"
     },
     "kind": "set",
     "setName": {
       "en": "Natalya's Odium",
       "zh-TW": "娜塔亞的非難",
-      "zh-CN": "娜塔亚的非难"
+      "zh-CN": "娜塔亚的杀意"
     },
     "levelReq": 79,
     "baseName": {
       "en": "Scissors Suwayyah",
-      "zh-TW": "近身剪",
-      "zh-CN": "近身剪"
+      "zh-TW": "穿擊剪刃",
+      "zh-CN": "剪咬手推剑"
     },
     "grade": "elite",
     "slotCategory": "katars",
@@ -9836,7 +9929,8 @@
       "dmg-fire"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/weapon/h2h/natalyas_mark.png"
   },
   {
     "id": "set-64",
@@ -9844,19 +9938,19 @@
     "name": {
       "en": "Natalya's Shadow",
       "zh-TW": "娜塔亞的影子",
-      "zh-CN": "娜塔亚的影子"
+      "zh-CN": "娜塔亚的阴影"
     },
     "kind": "set",
     "setName": {
       "en": "Natalya's Odium",
       "zh-TW": "娜塔亞的非難",
-      "zh-CN": "娜塔亚的非难"
+      "zh-CN": "娜塔亚的杀意"
     },
     "levelReq": 73,
     "baseName": {
       "en": "Loricated Mail",
-      "zh-TW": "甲殼鎧鱗甲",
-      "zh-CN": "甲壳铠鳞甲"
+      "zh-TW": "綴鱗戰甲",
+      "zh-CN": "覆铁甲"
     },
     "grade": "elite",
     "slotCategory": "armors",
@@ -9949,7 +10043,8 @@
       "sock"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/armor/scale_mail.png"
   },
   {
     "id": "set-65",
@@ -9963,13 +10058,13 @@
     "setName": {
       "en": "Natalya's Odium",
       "zh-TW": "娜塔亞的非難",
-      "zh-CN": "娜塔亚的非难"
+      "zh-CN": "娜塔亚的杀意"
     },
     "levelReq": 25,
     "baseName": {
       "en": "Mesh Boots",
-      "zh-TW": "織網之靴",
-      "zh-CN": "织网之靴"
+      "zh-TW": "鐵網靴",
+      "zh-CN": "网纹靴"
     },
     "grade": "exceptional",
     "slotCategory": "boots",
@@ -10073,7 +10168,8 @@
       "res-ltng"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/boot/chain_boots.png"
   },
   {
     "id": "set-62",
@@ -10081,19 +10177,19 @@
     "name": {
       "en": "Natalya's Totem",
       "zh-TW": "娜塔亞的圖騰",
-      "zh-CN": "娜塔亚的图腾"
+      "zh-CN": "娜塔亚的徽记"
     },
     "kind": "set",
     "setName": {
       "en": "Natalya's Odium",
       "zh-TW": "娜塔亞的非難",
-      "zh-CN": "娜塔亚的非难"
+      "zh-CN": "娜塔亚的杀意"
     },
     "levelReq": 59,
     "baseName": {
       "en": "Grim Helm",
-      "zh-TW": "殘酷頭盔",
-      "zh-CN": "残酷头盔"
+      "zh-TW": "陰森頭盔",
+      "zh-CN": "恐怖头盔"
     },
     "grade": "exceptional",
     "slotCategory": "helms",
@@ -10179,7 +10275,8 @@
       "res-all"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/wormskull.png"
   },
   {
     "id": "set-103",
@@ -10193,13 +10290,13 @@
     "setName": {
       "en": "Heaven's Brethren",
       "zh-TW": "天堂的同胞",
-      "zh-CN": "天堂的同胞"
+      "zh-CN": "天堂同袍"
     },
     "levelReq": 69,
     "baseName": {
       "en": "Spired Helm",
-      "zh-TW": "螺旋頭盔",
-      "zh-CN": "螺旋头盔"
+      "zh-TW": "巨角頭盔",
+      "zh-CN": "塔盔"
     },
     "grade": "elite",
     "slotCategory": "helms",
@@ -10286,7 +10383,8 @@
     "setBonuses": [],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/ondals_almighty.png"
   },
   {
     "id": "set-97",
@@ -10294,7 +10392,7 @@
     "name": {
       "en": "Rite of Passage",
       "zh-TW": "入門式",
-      "zh-CN": "入门式"
+      "zh-CN": "皈依之道"
     },
     "kind": "set",
     "setName": {
@@ -10305,8 +10403,8 @@
     "levelReq": 29,
     "baseName": {
       "en": "Demonhide Boots",
-      "zh-TW": "魔皮靴",
-      "zh-CN": "魔皮靴"
+      "zh-TW": "魔皮長靴",
+      "zh-CN": "恶魔皮靴"
     },
     "grade": "exceptional",
     "slotCategory": "boots",
@@ -10384,7 +10482,8 @@
       "stam"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/boot/leather_boots.png"
   },
   {
     "id": "set-112",
@@ -10392,19 +10491,19 @@
     "name": {
       "en": "Sazabi's Cobalt Redeemer",
       "zh-TW": "沙薩比的救贖鈷劍",
-      "zh-CN": "沙萨比的救赎钴剑"
+      "zh-CN": "圣·沙略的济世之剑"
     },
     "kind": "set",
     "setName": {
       "en": "Sazabi's Grand Tribute",
       "zh-TW": "沙薩比的崇高禮讚",
-      "zh-CN": "沙萨比的崇高礼赞"
+      "zh-CN": "圣·沙略的伟大颂词"
     },
     "levelReq": 73,
     "baseName": {
       "en": "Cryptic Sword",
-      "zh-TW": "神秘之劍",
-      "zh-CN": "神秘之剑"
+      "zh-TW": "絕秘劍",
+      "zh-CN": "秘文剑"
     },
     "grade": "elite",
     "slotCategory": "swords",
@@ -10512,7 +10611,8 @@
       "dmg-cold"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/hellplague.png"
   },
   {
     "id": "set-113",
@@ -10520,19 +10620,19 @@
     "name": {
       "en": "Sazabi's Ghost Liberator",
       "zh-TW": "沙薩比的解靈框體",
-      "zh-CN": "沙萨比的解灵框体"
+      "zh-CN": "圣·沙略的魂灵解救者"
     },
     "kind": "set",
     "setName": {
       "en": "Sazabi's Grand Tribute",
       "zh-TW": "沙薩比的崇高禮讚",
-      "zh-CN": "沙萨比的崇高礼赞"
+      "zh-CN": "圣·沙略的伟大颂词"
     },
     "levelReq": 67,
     "baseName": {
       "en": "Balrog Skin",
       "zh-TW": "炎魔皮板甲",
-      "zh-CN": "炎魔皮板甲"
+      "zh-CN": "炎魔皮"
     },
     "grade": "elite",
     "slotCategory": "armors",
@@ -10612,7 +10712,8 @@
       "hp"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/armor/splint_mail.png"
   },
   {
     "id": "set-114",
@@ -10620,19 +10721,19 @@
     "name": {
       "en": "Sazabi's Mental Sheath",
       "zh-TW": "沙薩比的精神護罩",
-      "zh-CN": "沙萨比的精神护罩"
+      "zh-CN": "圣·沙略的心灵庇护"
     },
     "kind": "set",
     "setName": {
       "en": "Sazabi's Grand Tribute",
       "zh-TW": "沙薩比的崇高禮讚",
-      "zh-CN": "沙萨比的崇高礼赞"
+      "zh-CN": "圣·沙略的伟大颂词"
     },
     "levelReq": 43,
     "baseName": {
       "en": "Basinet",
-      "zh-TW": "輕鋼盔",
-      "zh-CN": "轻钢盔"
+      "zh-TW": "輕盔",
+      "zh-CN": "喙面盔"
     },
     "grade": "exceptional",
     "slotCategory": "helms",
@@ -10703,7 +10804,8 @@
       "res-ltng"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/duskdeep.png"
   },
   {
     "id": "set-35",
@@ -10717,13 +10819,13 @@
     "setName": {
       "en": "Sigon's Complete Steel",
       "zh-TW": "西剛的全套鋼甲",
-      "zh-CN": "西刚的全套钢甲"
+      "zh-CN": "西刚的全身甲胄"
     },
     "levelReq": 6,
     "baseName": {
       "en": "Gauntlets",
-      "zh-TW": "鐵手套",
-      "zh-CN": "铁手套"
+      "zh-TW": "鋼鐵護手",
+      "zh-CN": "护手"
     },
     "grade": "normal",
     "slotCategory": "gloves",
@@ -10779,7 +10881,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/glove/gaunlets_h.png"
   },
   {
     "id": "set-40",
@@ -10793,7 +10896,7 @@
     "setName": {
       "en": "Sigon's Complete Steel",
       "zh-TW": "西剛的全套鋼甲",
-      "zh-CN": "西刚的全套钢甲"
+      "zh-CN": "西刚的全身甲胄"
     },
     "levelReq": 6,
     "baseName": {
@@ -10851,7 +10954,8 @@
     "setBonuses": [],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/shield/bverrit_keep.png"
   },
   {
     "id": "set-38",
@@ -10859,19 +10963,19 @@
     "name": {
       "en": "Sigon's Sabot",
       "zh-TW": "西剛的硬靴",
-      "zh-CN": "西刚的硬靴"
+      "zh-CN": "西刚的木底鞋"
     },
     "kind": "set",
     "setName": {
       "en": "Sigon's Complete Steel",
       "zh-TW": "西剛的全套鋼甲",
-      "zh-CN": "西刚的全套钢甲"
+      "zh-CN": "西刚的全身甲胄"
     },
     "levelReq": 6,
     "baseName": {
       "en": "Greaves",
       "zh-TW": "護脛",
-      "zh-CN": "护胫"
+      "zh-CN": "护胫靴"
     },
     "grade": "normal",
     "slotCategory": "boots",
@@ -10948,7 +11052,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/boot/plate_boots.png"
   },
   {
     "id": "set-37",
@@ -10956,19 +11061,19 @@
     "name": {
       "en": "Sigon's Shelter",
       "zh-TW": "西剛的庇護",
-      "zh-CN": "西刚的庇护"
+      "zh-CN": "西刚的遮蔽"
     },
     "kind": "set",
     "setName": {
       "en": "Sigon's Complete Steel",
       "zh-TW": "西剛的全套鋼甲",
-      "zh-CN": "西刚的全套钢甲"
+      "zh-CN": "西刚的全身甲胄"
     },
     "levelReq": 6,
     "baseName": {
       "en": "Gothic Plate",
-      "zh-TW": "哥德戰甲",
-      "zh-CN": "哥德战甲"
+      "zh-TW": "哥德鎧甲",
+      "zh-CN": "哥特甲"
     },
     "grade": "normal",
     "slotCategory": "armors",
@@ -11024,7 +11129,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/armor/gothic_plate.png"
   },
   {
     "id": "set-36",
@@ -11032,19 +11138,19 @@
     "name": {
       "en": "Sigon's Visor",
       "zh-TW": "西剛的護面",
-      "zh-CN": "西刚的护面"
+      "zh-CN": "西刚的面甲"
     },
     "kind": "set",
     "setName": {
       "en": "Sigon's Complete Steel",
       "zh-TW": "西剛的全套鋼甲",
-      "zh-CN": "西刚的全套钢甲"
+      "zh-CN": "西刚的全身甲胄"
     },
     "levelReq": 6,
     "baseName": {
       "en": "Great Helm",
-      "zh-TW": "卓越頭盔",
-      "zh-CN": "卓越头盔"
+      "zh-TW": "重盔",
+      "zh-CN": "重盔"
     },
     "grade": "normal",
     "slotCategory": "helms",
@@ -11100,7 +11206,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/great_helm.png"
   },
   {
     "id": "set-39",
@@ -11108,19 +11215,19 @@
     "name": {
       "en": "Sigon's Wrap",
       "zh-TW": "西剛的裹腰",
-      "zh-CN": "西刚的裹腰"
+      "zh-CN": "西刚的腰带"
     },
     "kind": "set",
     "setName": {
       "en": "Sigon's Complete Steel",
       "zh-TW": "西剛的全套鋼甲",
-      "zh-CN": "西刚的全套钢甲"
+      "zh-CN": "西刚的全身甲胄"
     },
     "levelReq": 6,
     "baseName": {
       "en": "Plated Belt",
-      "zh-TW": "金屬扣帶",
-      "zh-CN": "金属扣带"
+      "zh-TW": "鎧甲腰帶",
+      "zh-CN": "板甲腰带"
     },
     "grade": "normal",
     "slotCategory": "belts",
@@ -11176,7 +11283,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/belt/girdle_h.png"
   },
   {
     "id": "set-98",
@@ -11184,7 +11292,7 @@
     "name": {
       "en": "Dark Adherent",
       "zh-TW": "隱門徒",
-      "zh-CN": "隐门徒"
+      "zh-CN": "隐秘教徒"
     },
     "kind": "set",
     "setName": {
@@ -11195,8 +11303,8 @@
     "levelReq": 49,
     "baseName": {
       "en": "Dusk Shroud",
-      "zh-TW": "灰暮壽衣",
-      "zh-CN": "灰暮寿衣"
+      "zh-TW": "灰暮罩衣",
+      "zh-CN": "灰幕寿衣"
     },
     "grade": "elite",
     "slotCategory": "armors",
@@ -11267,7 +11375,8 @@
       "dmg-pois"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/armor/quilted_armor.png"
   },
   {
     "id": "set-77",
@@ -11275,19 +11384,19 @@
     "name": {
       "en": "Tal Rasha's Adjudication",
       "zh-TW": "塔拉夏的判決",
-      "zh-CN": "塔拉夏的判决"
+      "zh-CN": "塔·拉夏的裁决"
     },
     "kind": "set",
     "setName": {
       "en": "Tal Rasha's Wrappings",
       "zh-TW": "塔拉夏的外袍",
-      "zh-CN": "塔拉夏的外袍"
+      "zh-CN": "塔·拉夏的裹身布"
     },
     "levelReq": 67,
     "baseName": {
       "en": "Amulet",
       "zh-TW": "護身符",
-      "zh-CN": "护身符"
+      "zh-CN": "护符"
     },
     "grade": "normal",
     "slotCategory": "amulets",
@@ -11377,7 +11486,8 @@
       "dmg-ltng"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/misc/amulet/amulet.png"
   },
   {
     "id": "set-76",
@@ -11385,19 +11495,19 @@
     "name": {
       "en": "Tal Rasha's Fine-Spun Cloth",
       "zh-TW": "塔拉夏的精織腰布",
-      "zh-CN": "塔拉夏的精织腰布"
+      "zh-CN": "塔·拉夏的精织带"
     },
     "kind": "set",
     "setName": {
       "en": "Tal Rasha's Wrappings",
       "zh-TW": "塔拉夏的外袍",
-      "zh-CN": "塔拉夏的外袍"
+      "zh-CN": "塔·拉夏的裹身布"
     },
     "levelReq": 53,
     "baseName": {
       "en": "Mesh Belt",
-      "zh-TW": "織網腰帶",
-      "zh-CN": "织网腰带"
+      "zh-TW": "鐵網腰帶",
+      "zh-CN": "网纹腰带"
     },
     "grade": "exceptional",
     "slotCategory": "belts",
@@ -11502,7 +11612,8 @@
       "mag%"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/belt/belt_m.png"
   },
   {
     "id": "set-80",
@@ -11510,19 +11621,19 @@
     "name": {
       "en": "Tal Rasha's Horadric Crest",
       "zh-TW": "塔拉夏的赫拉迪姆之冠",
-      "zh-CN": "塔拉夏的赫拉迪姆之冠"
+      "zh-CN": "塔·拉夏的赫拉迪姆之冠"
     },
     "kind": "set",
     "setName": {
       "en": "Tal Rasha's Wrappings",
       "zh-TW": "塔拉夏的外袍",
-      "zh-CN": "塔拉夏的外袍"
+      "zh-CN": "塔·拉夏的裹身布"
     },
     "levelReq": 66,
     "baseName": {
       "en": "Death Mask",
       "zh-TW": "死亡面具",
-      "zh-CN": "死亡面具"
+      "zh-CN": "死者面甲"
     },
     "grade": "exceptional",
     "slotCategory": "helms",
@@ -11609,7 +11720,8 @@
     "setBonuses": [],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/mask.png"
   },
   {
     "id": "set-79",
@@ -11617,18 +11729,18 @@
     "name": {
       "en": "Tal Rasha's Guardianship",
       "zh-TW": "塔拉夏的守護",
-      "zh-CN": "塔拉夏的守护"
+      "zh-CN": "塔·拉夏的守护"
     },
     "kind": "set",
     "setName": {
       "en": "Tal Rasha's Wrappings",
       "zh-TW": "塔拉夏的外袍",
-      "zh-CN": "塔拉夏的外袍"
+      "zh-CN": "塔·拉夏的裹身布"
     },
     "levelReq": 71,
     "baseName": {
       "en": "Lacquered Plate",
-      "zh-TW": "漆甲",
+      "zh-TW": "漆護鎧甲",
       "zh-CN": "漆甲"
     },
     "grade": "elite",
@@ -11740,7 +11852,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/armor/gothic_plate.png"
   },
   {
     "id": "set-78",
@@ -11748,19 +11861,19 @@
     "name": {
       "en": "Tal Rasha's Lidless Eye",
       "zh-TW": "塔拉夏的警惕之眼",
-      "zh-CN": "塔拉夏的警惕之眼"
+      "zh-CN": "塔·拉夏的无睑之眼"
     },
     "kind": "set",
     "setName": {
       "en": "Tal Rasha's Wrappings",
       "zh-TW": "塔拉夏的外袍",
-      "zh-CN": "塔拉夏的外袍"
+      "zh-CN": "塔·拉夏的裹身布"
     },
     "levelReq": 65,
     "baseName": {
       "en": "Swirling Crystal",
       "zh-TW": "渦流水晶",
-      "zh-CN": "涡流水晶"
+      "zh-CN": "漩涡水晶"
     },
     "grade": "exceptional",
     "slotCategory": "orbs",
@@ -11921,7 +12034,8 @@
       "skill:Cold Mastery"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/weapon/orb/dragon_stone.png"
   },
   {
     "id": "set-30",
@@ -11929,19 +12043,19 @@
     "name": {
       "en": "Tancred's Crowbill",
       "zh-TW": "坦克雷的鴉嘴鎬",
-      "zh-CN": "坦克雷的鸦嘴镐"
+      "zh-CN": "坦克雷的鸦嘴锄"
     },
     "kind": "set",
     "setName": {
       "en": "Tancred's Battlegear",
       "zh-TW": "坦克雷的戰裝",
-      "zh-CN": "坦克雷的战装"
+      "zh-CN": "坦克雷的圣战装"
     },
     "levelReq": 20,
     "baseName": {
       "en": "Military Pick",
-      "zh-TW": "軍用鍬",
-      "zh-CN": "军用锹"
+      "zh-TW": "軍用鎬",
+      "zh-CN": "军镐"
     },
     "grade": "normal",
     "slotCategory": "axes",
@@ -12015,7 +12129,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/mindrend.png"
   },
   {
     "id": "set-32",
@@ -12023,19 +12138,19 @@
     "name": {
       "en": "Tancred's Hobnails",
       "zh-TW": "坦克雷的釘靴",
-      "zh-CN": "坦克雷的钉靴"
+      "zh-CN": "坦克雷的钉头鞋"
     },
     "kind": "set",
     "setName": {
       "en": "Tancred's Battlegear",
       "zh-TW": "坦克雷的戰裝",
-      "zh-CN": "坦克雷的战装"
+      "zh-CN": "坦克雷的圣战装"
     },
     "levelReq": 20,
     "baseName": {
       "en": "Boots",
       "zh-TW": "皮靴",
-      "zh-CN": "皮靴"
+      "zh-CN": "短靴"
     },
     "grade": "normal",
     "slotCategory": "boots",
@@ -12112,7 +12227,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/boot/leather_boots.png"
   },
   {
     "id": "set-34",
@@ -12120,19 +12236,19 @@
     "name": {
       "en": "Tancred's Skull",
       "zh-TW": "坦克雷的顱骨",
-      "zh-CN": "坦克雷的颅骨"
+      "zh-CN": "坦克雷的头骨"
     },
     "kind": "set",
     "setName": {
       "en": "Tancred's Battlegear",
       "zh-TW": "坦克雷的戰裝",
-      "zh-CN": "坦克雷的战装"
+      "zh-CN": "坦克雷的圣战装"
     },
     "levelReq": 20,
     "baseName": {
       "en": "Bone Helm",
-      "zh-TW": "白骨頭盔",
-      "zh-CN": "白骨头盔"
+      "zh-TW": "骸骨頭盔",
+      "zh-CN": "骨盔"
     },
     "grade": "normal",
     "slotCategory": "helms",
@@ -12188,7 +12304,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/wormskull.png"
   },
   {
     "id": "set-31",
@@ -12196,19 +12313,19 @@
     "name": {
       "en": "Tancred's Spine",
       "zh-TW": "坦克雷的脊柱",
-      "zh-CN": "坦克雷的脊柱"
+      "zh-CN": "坦克雷的支柱"
     },
     "kind": "set",
     "setName": {
       "en": "Tancred's Battlegear",
       "zh-TW": "坦克雷的戰裝",
-      "zh-CN": "坦克雷的战装"
+      "zh-CN": "坦克雷的圣战装"
     },
     "levelReq": 20,
     "baseName": {
       "en": "Full Plate Mail",
-      "zh-TW": "高級戰甲",
-      "zh-CN": "高级战甲"
+      "zh-TW": "全身鎧甲",
+      "zh-CN": "全身板链甲"
     },
     "grade": "normal",
     "slotCategory": "armors",
@@ -12264,7 +12381,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/armor/goldskin.png"
   },
   {
     "id": "set-33",
@@ -12278,13 +12396,13 @@
     "setName": {
       "en": "Tancred's Battlegear",
       "zh-TW": "坦克雷的戰裝",
-      "zh-CN": "坦克雷的战装"
+      "zh-CN": "坦克雷的圣战装"
     },
     "levelReq": 20,
     "baseName": {
       "en": "Amulet",
       "zh-TW": "護身符",
-      "zh-CN": "护身符"
+      "zh-CN": "护符"
     },
     "grade": "normal",
     "slotCategory": "amulets",
@@ -12349,7 +12467,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/misc/amulet/amulet.png"
   },
   {
     "id": "set-95",
@@ -12357,7 +12476,7 @@
     "name": {
       "en": "Telling of Beads",
       "zh-TW": "誦唸珠",
-      "zh-CN": "诵念珠"
+      "zh-CN": "赐福念珠"
     },
     "kind": "set",
     "setName": {
@@ -12369,7 +12488,7 @@
     "baseName": {
       "en": "Amulet",
       "zh-TW": "護身符",
-      "zh-CN": "护身符"
+      "zh-CN": "护符"
     },
     "grade": "normal",
     "slotCategory": "amulets",
@@ -12437,7 +12556,8 @@
       "thorns"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/misc/amulet/amulet.png"
   },
   {
     "id": "set-88",
@@ -12445,7 +12565,7 @@
     "name": {
       "en": "Trang-Oul's Claws",
       "zh-TW": "塔格奧之爪",
-      "zh-CN": "塔格奥之爪"
+      "zh-CN": "塔格奥的利爪"
     },
     "kind": "set",
     "setName": {
@@ -12456,8 +12576,8 @@
     "levelReq": 45,
     "baseName": {
       "en": "Heavy Bracers",
-      "zh-TW": "重型手鐲",
-      "zh-CN": "重型手镯"
+      "zh-TW": "重型護腕",
+      "zh-CN": "铁皮手套"
     },
     "grade": "exceptional",
     "slotCategory": "gloves",
@@ -12535,7 +12655,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/glove/bracers_m.png"
   },
   {
     "id": "set-89",
@@ -12543,7 +12664,7 @@
     "name": {
       "en": "Trang-Oul's Girth",
       "zh-TW": "塔格奧之腹",
-      "zh-CN": "塔格奥之腹"
+      "zh-CN": "塔格奥的肚带"
     },
     "kind": "set",
     "setName": {
@@ -12554,8 +12675,8 @@
     "levelReq": 62,
     "baseName": {
       "en": "Troll Belt",
-      "zh-TW": "洞穴巨魔腰帶",
-      "zh-CN": "洞穴巨魔腰带"
+      "zh-TW": "食人妖腰帶",
+      "zh-CN": "巨魔腰带"
     },
     "grade": "elite",
     "slotCategory": "belts",
@@ -12672,7 +12793,8 @@
       "mana"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/belt/heavy_belt.png"
   },
   {
     "id": "set-85",
@@ -12680,7 +12802,7 @@
     "name": {
       "en": "Trang-Oul's Guise",
       "zh-TW": "塔格奧之容",
-      "zh-CN": "塔格奥之容"
+      "zh-CN": "塔格奥的伪装"
     },
     "kind": "set",
     "setName": {
@@ -12692,7 +12814,7 @@
     "baseName": {
       "en": "Bone Visage",
       "zh-TW": "骸骨面罩",
-      "zh-CN": "骸骨面罩"
+      "zh-CN": "白骨面甲"
     },
     "grade": "elite",
     "slotCategory": "helms",
@@ -12772,7 +12894,8 @@
       "ac"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/wormskull.png"
   },
   {
     "id": "set-86",
@@ -12780,7 +12903,7 @@
     "name": {
       "en": "Trang-Oul's Scales",
       "zh-TW": "塔格奧之鱗",
-      "zh-CN": "塔格奥之鳞"
+      "zh-CN": "塔格奥的鳞片"
     },
     "kind": "set",
     "setName": {
@@ -12792,7 +12915,7 @@
     "baseName": {
       "en": "Chaos Armor",
       "zh-TW": "混沌戰甲",
-      "zh-CN": "混沌战甲"
+      "zh-CN": "混沌护甲"
     },
     "grade": "exceptional",
     "slotCategory": "armors",
@@ -12904,7 +13027,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/armor/full_plate_mail.png"
   },
   {
     "id": "set-87",
@@ -12912,7 +13036,7 @@
     "name": {
       "en": "Trang-Oul's Wing",
       "zh-TW": "塔格奧之翼",
-      "zh-CN": "塔格奥之翼"
+      "zh-CN": "塔格奥的飞翼"
     },
     "kind": "set",
     "setName": {
@@ -12923,8 +13047,8 @@
     "levelReq": 54,
     "baseName": {
       "en": "Cantor Trophy",
-      "zh-TW": "領唱者印記",
-      "zh-CN": "领唱者印记"
+      "zh-TW": "領唱者首級",
+      "zh-CN": "领唱者法器"
     },
     "grade": "exceptional",
     "slotCategory": "shields",
@@ -13051,7 +13175,8 @@
       "res-fire"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/voodoo_head/gargoyle_head.png"
   },
   {
     "id": "set-19",
@@ -13065,12 +13190,12 @@
     "setName": {
       "en": "Vidala's Rig",
       "zh-TW": "維達拉的配備",
-      "zh-CN": "维达拉的配备"
+      "zh-CN": "维达拉的配装"
     },
     "levelReq": 14,
     "baseName": {
       "en": "Leather Armor",
-      "zh-TW": "皮甲",
+      "zh-TW": "皮革甲",
       "zh-CN": "皮甲"
     },
     "grade": "normal",
@@ -13139,7 +13264,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/armor/leather_armor.png"
   },
   {
     "id": "set-17",
@@ -13153,13 +13279,13 @@
     "setName": {
       "en": "Vidala's Rig",
       "zh-TW": "維達拉的配備",
-      "zh-CN": "维达拉的配备"
+      "zh-CN": "维达拉的配装"
     },
     "levelReq": 14,
     "baseName": {
       "en": "Long Battle Bow",
-      "zh-TW": "長戰鬥弓",
-      "zh-CN": "长战斗弓"
+      "zh-TW": "戰鬥長弓",
+      "zh-CN": "长战弓"
     },
     "grade": "normal",
     "slotCategory": "bows",
@@ -13221,7 +13347,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/long_battle_bow.png"
   },
   {
     "id": "set-18",
@@ -13229,19 +13356,19 @@
     "name": {
       "en": "Vidala's Fetlock",
       "zh-TW": "維達拉的足距",
-      "zh-CN": "维达拉的足距"
+      "zh-CN": "维达拉的扣带靴"
     },
     "kind": "set",
     "setName": {
       "en": "Vidala's Rig",
       "zh-TW": "維達拉的配備",
-      "zh-CN": "维达拉的配备"
+      "zh-CN": "维达拉的配装"
     },
     "levelReq": 14,
     "baseName": {
       "en": "Light Plated Boots",
-      "zh-TW": "輕型金屬靴",
-      "zh-CN": "轻型金属靴"
+      "zh-TW": "輕鎧靴",
+      "zh-CN": "轻板甲靴"
     },
     "grade": "normal",
     "slotCategory": "boots",
@@ -13306,7 +13433,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/boot/light_plate_boots.png"
   },
   {
     "id": "set-20",
@@ -13314,19 +13442,19 @@
     "name": {
       "en": "Vidala's Snare",
       "zh-TW": "維達拉的圈套",
-      "zh-CN": "维达拉的圈套"
+      "zh-CN": "维达拉的陷阱"
     },
     "kind": "set",
     "setName": {
       "en": "Vidala's Rig",
       "zh-TW": "維達拉的配備",
-      "zh-CN": "维达拉的配备"
+      "zh-CN": "维达拉的配装"
     },
     "levelReq": 14,
     "baseName": {
       "en": "Amulet",
       "zh-TW": "護身符",
-      "zh-CN": "护身符"
+      "zh-CN": "护符"
     },
     "grade": "normal",
     "slotCategory": "amulets",
@@ -13379,7 +13507,8 @@
     ],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/misc/amulet/amulet.png"
   },
   {
     "id": "set-107",
@@ -13387,19 +13516,19 @@
     "name": {
       "en": "Whitstan's Guard",
       "zh-TW": "惠斯坦的守護",
-      "zh-CN": "惠斯坦的守护"
+      "zh-CN": "威斯顿之御"
     },
     "kind": "set",
     "setName": {
       "en": "Orphan's Call",
       "zh-TW": "孤兒的呼喚",
-      "zh-CN": "孤儿的呼唤"
+      "zh-CN": "孤儿的号令"
     },
     "levelReq": 29,
     "baseName": {
       "en": "Round Shield",
       "zh-TW": "圓型盾",
-      "zh-CN": "圆型盾"
+      "zh-CN": "圆盾"
     },
     "grade": "exceptional",
     "slotCategory": "shields",
@@ -13484,7 +13613,8 @@
     "setBonuses": [],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/shield/mosers_blessed_circle.png"
   },
   {
     "id": "set-105",
@@ -13492,19 +13622,19 @@
     "name": {
       "en": "Wilhelm's Pride",
       "zh-TW": "威廉的自尊",
-      "zh-CN": "威廉的自尊"
+      "zh-CN": "威廉的骄傲"
     },
     "kind": "set",
     "setName": {
       "en": "Orphan's Call",
       "zh-TW": "孤兒的呼喚",
-      "zh-CN": "孤儿的呼唤"
+      "zh-CN": "孤儿的号令"
     },
     "levelReq": 42,
     "baseName": {
       "en": "Battle Belt",
-      "zh-TW": "戰場腰帶",
-      "zh-CN": "战场腰带"
+      "zh-TW": "戰鬥腰帶",
+      "zh-CN": "战斗腰带"
     },
     "grade": "exceptional",
     "slotCategory": "belts",
@@ -13569,6 +13699,7 @@
     "setBonuses": [],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": "data/data/hd/global/ui/items/armor/belt/heavy_belt.png"
   }
 ]

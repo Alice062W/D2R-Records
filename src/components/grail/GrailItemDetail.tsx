@@ -74,7 +74,7 @@ export default function GrailItemDetail({
             ))}
             {item.fixedStats.map(f => (
               <div key={f.key} className={f.isSkillRef ? 'text-[#ff4a69]' : 'text-[#8080f3]'}>
-                {f.label}: {f.value}
+                {f.min != null && f.max != null ? `${f.label}: ${f.min}–${f.max}` : `${f.label}: ${f.value}`}
               </div>
             ))}
           </div>

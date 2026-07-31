@@ -38,6 +38,13 @@ export interface RawGrailFixedStat {
   isSkillRef: boolean;
   composed?: boolean;
   signed?: boolean;
+  // Set for stats that inherently carry two different numbers (e.g. "Adds
+  // 20-60 Fire Damage") without being an itemization-random roll -- every
+  // copy of the item has the identical range, so this must render as a
+  // fixed "min-max" with no dice, unlike `stats[]`'s random-roll ranges.
+  // When present, rendering should prefer min/max over `value`.
+  min?: number;
+  max?: number;
 }
 
 export interface RawGrailItem {
@@ -83,6 +90,8 @@ export interface GrailFixedStat {
   isSkillRef: boolean;
   composed?: boolean;
   signed?: boolean;
+  min?: number;
+  max?: number;
 }
 
 export interface GrailItem {
@@ -137,7 +146,7 @@ export function localizeGrailItem(item: RawGrailItem, locale: Locale): GrailItem
     durability: item.durability,
     invFile: item.invFile,
     stats: item.stats.map(s => ({ key: s.key, label: s.label[locale], min: s.min, max: s.max, isSkillRef: s.isSkillRef, composed: s.composed, signed: s.signed })),
-    fixedStats: item.fixedStats.map(f => ({ key: f.key, label: f.label[locale], value: f.value, isSkillRef: f.isSkillRef, composed: f.composed, signed: f.signed })),
+    fixedStats: item.fixedStats.map(f => ({ key: f.key, label: f.label[locale], value: f.value, isSkillRef: f.isSkillRef, composed: f.composed, signed: f.signed, min: f.min, max: f.max })),
     setBonuses: item.setBonuses.map(b => ({ key: b.key, label: b.label[locale], min: b.min, max: b.max, isSkillRef: b.isSkillRef, composed: b.composed, signed: b.signed })),
     statPriority: item.statPriority,
     note: item.note ? item.note[locale] : null,
