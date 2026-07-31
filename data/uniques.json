@@ -792,18 +792,6 @@
         "max": 20,
         "isSkillRef": false,
         "signed": true
-      },
-      {
-        "key": "dmg-ltng",
-        "label": {
-          "en": "Lightning Damage",
-          "zh-TW": "閃電傷害",
-          "zh-CN": "闪电伤害"
-        },
-        "min": 1,
-        "max": 40,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -839,12 +827,24 @@
         "value": 20,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 1,
+        "max": 40
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "res-all",
-      "dmg-ltng"
+      "res-all"
     ],
     "note": null,
     "statPools": [],
@@ -909,18 +909,6 @@
         "max": 80,
         "isSkillRef": false,
         "signed": true
-      },
-      {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 15,
-        "max": 35,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -956,13 +944,25 @@
         "value": 4,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 15,
+        "max": 35
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "manasteal",
-      "dmg%",
-      "dmg-fire"
+      "dmg%"
     ],
     "note": null,
     "statPools": [],
@@ -1121,20 +1121,7 @@
     "weaponSpeed": 0,
     "durability": 15,
     "invFile": "invwndu",
-    "stats": [
-      {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 5,
-        "max": 9,
-        "isSkillRef": false,
-        "signed": false
-      }
-    ],
+    "stats": [],
     "fixedStats": [
       {
         "key": "nec",
@@ -1190,12 +1177,23 @@
         "value": 5,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 5,
+        "max": 9
       }
     ],
     "setBonuses": [],
-    "statPriority": [
-      "dmg-fire"
-    ],
+    "statPriority": [],
     "note": null,
     "statPools": [],
     "hdIcon": "unique-10"
@@ -1864,18 +1862,6 @@
     "invFile": "invgsc",
     "stats": [
       {
-        "key": "dmg-norm",
-        "label": {
-          "en": "Damage",
-          "zh-TW": "傷害",
-          "zh-CN": "伤害"
-        },
-        "min": 3,
-        "max": 7,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -1956,11 +1942,23 @@
         "value": 3,
         "isSkillRef": true,
         "signed": true
+      },
+      {
+        "key": "dmg-norm",
+        "label": {
+          "en": "Damage",
+          "zh-TW": "傷害",
+          "zh-CN": "伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 3,
+        "max": 7
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-norm",
       "dmg%",
       "dmg-undead",
       "skill:111"
@@ -2005,30 +2003,6 @@
     "durability": 70,
     "invFile": "invwsp",
     "stats": [
-      {
-        "key": "dmg-ltng",
-        "label": {
-          "en": "Lightning Damage",
-          "zh-TW": "閃電傷害",
-          "zh-CN": "闪电伤害"
-        },
-        "min": 1,
-        "max": 6,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
-        "key": "dmg-cold",
-        "label": {
-          "en": "Cold Damage",
-          "zh-TW": "冷凍傷害",
-          "zh-CN": "冷冻伤害"
-        },
-        "min": 3,
-        "max": 5,
-        "isSkillRef": false,
-        "signed": false
-      },
       {
         "key": "dmg%",
         "label": {
@@ -2087,12 +2061,36 @@
         "value": 1,
         "isSkillRef": true,
         "signed": true
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 1,
+        "max": 6
+      },
+      {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 3,
+        "max": 5
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-ltng",
-      "dmg-cold",
       "dmg%",
       "skill:110"
     ],
@@ -3133,20 +3131,7 @@
     "weaponSpeed": null,
     "durability": 32,
     "invFile": "inv9sbu",
-    "stats": [
-      {
-        "key": "dmg-norm",
-        "label": {
-          "en": "Damage",
-          "zh-TW": "傷害",
-          "zh-CN": "伤害"
-        },
-        "min": 3,
-        "max": 7,
-        "isSkillRef": false,
-        "signed": false
-      }
-    ],
+    "stats": [],
     "fixedStats": [
       {
         "key": "ignore-ac",
@@ -3202,12 +3187,23 @@
         "value": 50,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-norm",
+        "label": {
+          "en": "Damage",
+          "zh-TW": "傷害",
+          "zh-CN": "伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 3,
+        "max": 7
       }
     ],
     "setBonuses": [],
-    "statPriority": [
-      "dmg-norm"
-    ],
+    "statPriority": [],
     "note": null,
     "statPools": [],
     "hdIcon": "unique-27"
@@ -3259,18 +3255,6 @@
         "max": 100,
         "isSkillRef": false,
         "signed": true
-      },
-      {
-        "key": "dmg-cold",
-        "label": {
-          "en": "Cold Damage",
-          "zh-TW": "冷凍傷害",
-          "zh-CN": "冷冻伤害"
-        },
-        "min": 3,
-        "max": 5,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -3317,12 +3301,24 @@
         "value": 20,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 3,
+        "max": 5
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg%",
-      "dmg-cold"
+      "dmg%"
     ],
     "note": null,
     "statPools": [],
@@ -3506,18 +3502,6 @@
         "signed": true
       },
       {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 25,
-        "max": 75,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "pois-dot",
         "label": {
           "en": "Adds Poison Damage over 6 Seconds",
@@ -3562,12 +3546,24 @@
         "value": 2,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 25,
+        "max": 75
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "dmg-fire",
       "pois-dot"
     ],
     "note": null,
@@ -3732,20 +3728,7 @@
     "weaponSpeed": 0,
     "durability": 44,
     "invFile": "inv2hsu",
-    "stats": [
-      {
-        "key": "dmg-cold",
-        "label": {
-          "en": "Cold Damage",
-          "zh-TW": "冷凍傷害",
-          "zh-CN": "冷冻伤害"
-        },
-        "min": 10,
-        "max": 30,
-        "isSkillRef": false,
-        "signed": false
-      }
-    ],
+    "stats": [],
     "fixedStats": [
       {
         "key": "manasteal",
@@ -3801,12 +3784,23 @@
         "value": 9,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 10,
+        "max": 30
       }
     ],
     "setBonuses": [],
-    "statPriority": [
-      "dmg-cold"
-    ],
+    "statPriority": [],
     "note": null,
     "statPools": [],
     "hdIcon": "unique-33"
@@ -4823,20 +4817,7 @@
     "weaponSpeed": -10,
     "durability": 30,
     "invFile": "invspr",
-    "stats": [
-      {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 3,
-        "max": 6,
-        "isSkillRef": false,
-        "signed": false
-      }
-    ],
+    "stats": [],
     "fixedStats": [
       {
         "key": "att",
@@ -4881,12 +4862,23 @@
         "value": 100,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 3,
+        "max": 6
       }
     ],
     "setBonuses": [],
-    "statPriority": [
-      "dmg-fire"
-    ],
+    "statPriority": [],
     "note": null,
     "statPools": [],
     "hdIcon": "unique-43"
@@ -5480,18 +5472,6 @@
         "max": 80,
         "isSkillRef": false,
         "signed": true
-      },
-      {
-        "key": "dur",
-        "label": {
-          "en": "Durability %",
-          "zh-TW": "耐久度 %",
-          "zh-CN": "耐久度 %"
-        },
-        "min": 20,
-        "max": 40,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -5538,12 +5518,24 @@
         "value": 5,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dur",
+        "label": {
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 20,
+        "max": 40
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg%",
-      "dur"
+      "dmg%"
     ],
     "note": null,
     "statPools": [],
@@ -6310,20 +6302,7 @@
     "weaponSpeed": 10,
     "durability": 35,
     "invFile": "invcstu",
-    "stats": [
-      {
-        "key": "dmg-ltng",
-        "label": {
-          "en": "Lightning Damage",
-          "zh-TW": "閃電傷害",
-          "zh-CN": "闪电伤害"
-        },
-        "min": 1,
-        "max": 28,
-        "isSkillRef": false,
-        "signed": false
-      }
-    ],
+    "stats": [],
     "fixedStats": [
       {
         "key": "res-ltng",
@@ -6412,12 +6391,23 @@
         "value": 1,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 1,
+        "max": 28
       }
     ],
     "setBonuses": [],
-    "statPriority": [
-      "dmg-ltng"
-    ],
+    "statPriority": [],
     "note": null,
     "statPools": [],
     "hdIcon": "unique-56"
@@ -6457,20 +6447,7 @@
     "weaponSpeed": 0,
     "durability": 40,
     "invFile": "invbst",
-    "stats": [
-      {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 15,
-        "max": 32,
-        "isSkillRef": false,
-        "signed": false
-      }
-    ],
+    "stats": [],
     "fixedStats": [
       {
         "key": "res-fire",
@@ -6526,12 +6503,23 @@
         "value": 2,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 15,
+        "max": 32
       }
     ],
     "setBonuses": [],
-    "statPriority": [
-      "dmg-fire"
-    ],
+    "statPriority": [],
     "note": null,
     "statPools": [],
     "hdIcon": "unique-57"
@@ -7146,18 +7134,6 @@
     "invFile": "invsbbu",
     "stats": [
       {
-        "key": "dmg-ltng",
-        "label": {
-          "en": "Lightning Damage",
-          "zh-TW": "閃電傷害",
-          "zh-CN": "闪电伤害"
-        },
-        "min": 1,
-        "max": 30,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -7214,11 +7190,23 @@
         "value": 25,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 1,
+        "max": 30
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-ltng",
       "dmg%"
     ],
     "note": null,
@@ -7875,18 +7863,6 @@
         "max": 80,
         "isSkillRef": false,
         "signed": true
-      },
-      {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 15,
-        "max": 35,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -7944,12 +7920,24 @@
         "value": 20,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 15,
+        "max": 35
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg%",
-      "dmg-fire"
+      "dmg%"
     ],
     "note": null,
     "statPools": [],
@@ -9537,18 +9525,6 @@
         "signed": true
       },
       {
-        "key": "dmg-ltng",
-        "label": {
-          "en": "Lightning Damage",
-          "zh-TW": "閃電傷害",
-          "zh-CN": "闪电伤害"
-        },
-        "min": 1,
-        "max": 20,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "light-thorns",
         "label": {
           "en": "Attacker Takes Lightning Damage",
@@ -9572,12 +9548,24 @@
         "value": 30,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 1,
+        "max": 20
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "ac%",
-      "dmg-ltng",
       "light-thorns"
     ],
     "note": null,
@@ -10380,18 +10368,6 @@
         "max": 40,
         "isSkillRef": false,
         "signed": true
-      },
-      {
-        "key": "dur",
-        "label": {
-          "en": "Durability %",
-          "zh-TW": "耐久度 %",
-          "zh-CN": "耐久度 %"
-        },
-        "min": 8,
-        "max": 12,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -10460,12 +10436,24 @@
         "value": 40,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dur",
+        "label": {
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 8,
+        "max": 12
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "ac%",
-      "dur"
+      "ac%"
     ],
     "note": null,
     "statPools": [],
@@ -10521,18 +10509,6 @@
         "max": 50,
         "isSkillRef": false,
         "signed": true
-      },
-      {
-        "key": "dur",
-        "label": {
-          "en": "Durability %",
-          "zh-TW": "耐久度 %",
-          "zh-CN": "耐久度 %"
-        },
-        "min": 10,
-        "max": 15,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -10601,12 +10577,24 @@
         "value": 30,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "dur",
+        "label": {
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 10,
+        "max": 15
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "ac%",
-      "dur"
+      "ac%"
     ],
     "note": null,
     "statPools": [],
@@ -10652,18 +10640,6 @@
     "invFile": "invlrgu",
     "stats": [
       {
-        "key": "dmg-ltng",
-        "label": {
-          "en": "Lightning Damage",
-          "zh-TW": "閃電傷害",
-          "zh-CN": "闪电伤害"
-        },
-        "min": 1,
-        "max": 6,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "ac%",
         "label": {
           "en": "Enhanced Defense %",
@@ -10674,18 +10650,6 @@
         "max": 60,
         "isSkillRef": false,
         "signed": true
-      },
-      {
-        "key": "dur",
-        "label": {
-          "en": "Durability %",
-          "zh-TW": "耐久度 %",
-          "zh-CN": "耐久度 %"
-        },
-        "min": 10,
-        "max": 15,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -10743,13 +10707,37 @@
         "value": 3,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 1,
+        "max": 6
+      },
+      {
+        "key": "dur",
+        "label": {
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 10,
+        "max": 15
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-ltng",
-      "ac%",
-      "dur"
+      "ac%"
     ],
     "note": null,
     "statPools": [],
@@ -11028,18 +11016,6 @@
         "max": 100,
         "isSkillRef": false,
         "signed": true
-      },
-      {
-        "key": "dur",
-        "label": {
-          "en": "Durability %",
-          "zh-TW": "耐久度 %",
-          "zh-CN": "耐久度 %"
-        },
-        "min": 15,
-        "max": 20,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -11119,12 +11095,24 @@
         "value": 20,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "dur",
+        "label": {
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 15,
+        "max": 20
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "ac%",
-      "dur"
+      "ac%"
     ],
     "note": null,
     "statPools": [],
@@ -11180,18 +11168,6 @@
         "max": 120,
         "isSkillRef": false,
         "signed": true
-      },
-      {
-        "key": "dur",
-        "label": {
-          "en": "Durability %",
-          "zh-TW": "耐久度 %",
-          "zh-CN": "耐久度 %"
-        },
-        "min": 80,
-        "max": 100,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -11249,12 +11225,24 @@
         "value": 10,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "dur",
+        "label": {
+          "en": "Durability %",
+          "zh-TW": "耐久度 %",
+          "zh-CN": "耐久度 %"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 80,
+        "max": 100
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "ac%",
-      "dur"
+      "ac%"
     ],
     "note": null,
     "statPools": [],
@@ -11734,18 +11722,6 @@
     "invFile": "invtgl",
     "stats": [
       {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 1,
-        "max": 6,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "ac%",
         "label": {
           "en": "Enhanced Defense %",
@@ -11802,11 +11778,23 @@
         "value": 10,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 1,
+        "max": 6
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-fire",
       "ac%"
     ],
     "note": null,
@@ -11843,18 +11831,6 @@
     "durability": 24,
     "invFile": "invhgl",
     "stats": [
-      {
-        "key": "dmg-cold",
-        "label": {
-          "en": "Cold Damage",
-          "zh-TW": "冷凍傷害",
-          "zh-CN": "冷冻伤害"
-        },
-        "min": 1,
-        "max": 6,
-        "isSkillRef": false,
-        "signed": false
-      },
       {
         "key": "ac%",
         "label": {
@@ -11901,11 +11877,23 @@
         "value": 40,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 1,
+        "max": 6
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-cold",
       "ac%"
     ],
     "note": null,
@@ -11951,18 +11939,6 @@
     "durability": 12,
     "invFile": "invlbt",
     "stats": [
-      {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 3,
-        "max": 6,
-        "isSkillRef": false,
-        "signed": false
-      },
       {
         "key": "ac%",
         "label": {
@@ -12020,11 +11996,23 @@
         "value": 45,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 3,
+        "max": 6
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-fire",
       "ac%"
     ],
     "note": null,
@@ -13063,20 +13051,7 @@
     "weaponSpeed": null,
     "durability": null,
     "invFile": "invamu",
-    "stats": [
-      {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 3,
-        "max": 6,
-        "isSkillRef": false,
-        "signed": false
-      }
-    ],
+    "stats": [],
     "fixedStats": [
       {
         "key": "res-fire-max",
@@ -13121,12 +13096,23 @@
         "value": 20,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 3,
+        "max": 6
       }
     ],
     "setBonuses": [],
-    "statPriority": [
-      "dmg-fire"
-    ],
+    "statPriority": [],
     "note": null,
     "statPools": [],
     "hdIcon": "unique-117"
@@ -14263,18 +14249,6 @@
         "max": 200,
         "isSkillRef": false,
         "signed": true
-      },
-      {
-        "key": "dmg-norm",
-        "label": {
-          "en": "Damage",
-          "zh-TW": "傷害",
-          "zh-CN": "伤害"
-        },
-        "min": 30,
-        "max": 50,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -14321,12 +14295,24 @@
         "value": 30,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-norm",
+        "label": {
+          "en": "Damage",
+          "zh-TW": "傷害",
+          "zh-CN": "伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 30,
+        "max": 50
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg%",
-      "dmg-norm"
+      "dmg%"
     ],
     "note": null,
     "statPools": [],
@@ -14527,18 +14513,6 @@
     "invFile": "invmpiu",
     "stats": [
       {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 35,
-        "max": 150,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -14584,11 +14558,23 @@
         "value": 1,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 35,
+        "max": 150
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-fire",
       "dmg%"
     ],
     "note": null,
@@ -15012,32 +14998,7 @@
     "weaponSpeed": 10,
     "durability": 40,
     "invFile": "inv9btu",
-    "stats": [
-      {
-        "key": "dmg-ltng",
-        "label": {
-          "en": "Lightning Damage",
-          "zh-TW": "閃電傷害",
-          "zh-CN": "闪电伤害"
-        },
-        "min": 1,
-        "max": 200,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
-        "key": "dmg-norm",
-        "label": {
-          "en": "Damage",
-          "zh-TW": "傷害",
-          "zh-CN": "伤害"
-        },
-        "min": 35,
-        "max": 75,
-        "isSkillRef": false,
-        "signed": false
-      }
-    ],
+    "stats": [],
     "fixedStats": [
       {
         "key": "hit-skill:53",
@@ -15104,13 +15065,36 @@
         "value": null,
         "isSkillRef": false,
         "composed": true
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 1,
+        "max": 200
+      },
+      {
+        "key": "dmg-norm",
+        "label": {
+          "en": "Damage",
+          "zh-TW": "傷害",
+          "zh-CN": "伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 35,
+        "max": 75
       }
     ],
     "setBonuses": [],
-    "statPriority": [
-      "dmg-ltng",
-      "dmg-norm"
-    ],
+    "statPriority": [],
     "note": null,
     "statPools": [],
     "hdIcon": "unique-136"
@@ -15300,18 +15284,6 @@
         "signed": true
       },
       {
-        "key": "dmg-norm",
-        "label": {
-          "en": "Damage",
-          "zh-TW": "傷害",
-          "zh-CN": "伤害"
-        },
-        "min": 20,
-        "max": 30,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -15368,12 +15340,24 @@
         "value": 30,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-norm",
+        "label": {
+          "en": "Damage",
+          "zh-TW": "傷害",
+          "zh-CN": "伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 20,
+        "max": 30
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "str",
-      "dmg-norm",
       "dmg%"
     ],
     "note": null,
@@ -16217,18 +16201,6 @@
         "max": 200,
         "isSkillRef": false,
         "signed": true
-      },
-      {
-        "key": "dmg-norm",
-        "label": {
-          "en": "Damage",
-          "zh-TW": "傷害",
-          "zh-CN": "伤害"
-        },
-        "min": 15,
-        "max": 25,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -16275,13 +16247,25 @@
         "value": 160,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "dmg-norm",
+        "label": {
+          "en": "Damage",
+          "zh-TW": "傷害",
+          "zh-CN": "伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 15,
+        "max": 25
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "att",
-      "dmg-norm"
+      "att"
     ],
     "note": null,
     "statPools": [],
@@ -16334,18 +16318,6 @@
         "max": 160,
         "isSkillRef": false,
         "signed": true
-      },
-      {
-        "key": "dmg-norm",
-        "label": {
-          "en": "Damage",
-          "zh-TW": "傷害",
-          "zh-CN": "伤害"
-        },
-        "min": 20,
-        "max": 45,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -16436,12 +16408,24 @@
         "value": null,
         "isSkillRef": false,
         "composed": true
+      },
+      {
+        "key": "dmg-norm",
+        "label": {
+          "en": "Damage",
+          "zh-TW": "傷害",
+          "zh-CN": "伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 20,
+        "max": 45
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg%",
-      "dmg-norm"
+      "dmg%"
     ],
     "note": null,
     "statPools": [],
@@ -16483,18 +16467,6 @@
     "durability": 36,
     "invFile": "invspcu",
     "stats": [
-      {
-        "key": "dmg-norm",
-        "label": {
-          "en": "Damage",
-          "zh-TW": "傷害",
-          "zh-CN": "伤害"
-        },
-        "min": 35,
-        "max": 50,
-        "isSkillRef": false,
-        "signed": false
-      },
       {
         "key": "dmg%",
         "label": {
@@ -16585,11 +16557,23 @@
         "value": 20,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "dmg-norm",
+        "label": {
+          "en": "Damage",
+          "zh-TW": "傷害",
+          "zh-CN": "伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 35,
+        "max": 50
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-norm",
       "dmg%"
     ],
     "note": null,
@@ -16633,18 +16617,6 @@
     "invFile": "invmac",
     "stats": [
       {
-        "key": "dmg-cold",
-        "label": {
-          "en": "Cold Damage",
-          "zh-TW": "冷凍傷害",
-          "zh-CN": "冷冻伤害"
-        },
-        "min": 63,
-        "max": 112,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -16655,18 +16627,6 @@
         "max": 180,
         "isSkillRef": false,
         "signed": true
-      },
-      {
-        "key": "dmg-norm",
-        "label": {
-          "en": "Damage",
-          "zh-TW": "傷害",
-          "zh-CN": "伤害"
-        },
-        "min": 5,
-        "max": 10,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -16702,13 +16662,37 @@
         "value": null,
         "isSkillRef": false,
         "composed": true
+      },
+      {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 63,
+        "max": 112
+      },
+      {
+        "key": "dmg-norm",
+        "label": {
+          "en": "Damage",
+          "zh-TW": "傷害",
+          "zh-CN": "伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 5,
+        "max": 10
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-cold",
-      "dmg%",
-      "dmg-norm"
+      "dmg%"
     ],
     "note": null,
     "statPools": [],
@@ -16751,18 +16735,6 @@
     "invFile": "invmstu",
     "stats": [
       {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 55,
-        "max": 115,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "red-mag",
         "label": {
           "en": "Magic Damage Reduced",
@@ -16785,18 +16757,6 @@
         "max": 150,
         "isSkillRef": false,
         "signed": true
-      },
-      {
-        "key": "dmg-norm",
-        "label": {
-          "en": "Damage",
-          "zh-TW": "傷害",
-          "zh-CN": "伤害"
-        },
-        "min": 10,
-        "max": 15,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -16832,14 +16792,38 @@
         "value": null,
         "isSkillRef": false,
         "composed": true
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 55,
+        "max": 115
+      },
+      {
+        "key": "dmg-norm",
+        "label": {
+          "en": "Damage",
+          "zh-TW": "傷害",
+          "zh-CN": "伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 10,
+        "max": 15
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-fire",
       "red-mag",
-      "dmg%",
-      "dmg-norm"
+      "dmg%"
     ],
     "note": null,
     "statPools": [],
@@ -16881,18 +16865,6 @@
     "durability": 30,
     "invFile": "invfla",
     "stats": [
-      {
-        "key": "dmg-ltng",
-        "label": {
-          "en": "Lightning Damage",
-          "zh-TW": "閃電傷害",
-          "zh-CN": "闪电伤害"
-        },
-        "min": 1,
-        "max": 150,
-        "isSkillRef": false,
-        "signed": false
-      },
       {
         "key": "dmg%",
         "label": {
@@ -16961,11 +16933,23 @@
         "value": null,
         "isSkillRef": false,
         "composed": true
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 1,
+        "max": 150
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-ltng",
       "dmg%"
     ],
     "note": null,
@@ -17255,18 +17239,6 @@
     "invFile": "inv9gmu",
     "stats": [
       {
-        "key": "dmg-norm",
-        "label": {
-          "en": "Damage",
-          "zh-TW": "傷害",
-          "zh-CN": "伤害"
-        },
-        "min": 12,
-        "max": 30,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -17334,11 +17306,23 @@
         "value": null,
         "isSkillRef": false,
         "composed": true
+      },
+      {
+        "key": "dmg-norm",
+        "label": {
+          "en": "Damage",
+          "zh-TW": "傷害",
+          "zh-CN": "伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 12,
+        "max": 30
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-norm",
       "dmg%"
     ],
     "note": null,
@@ -17381,18 +17365,6 @@
     "durability": 24,
     "invFile": "invssd",
     "stats": [
-      {
-        "key": "dmg-norm",
-        "label": {
-          "en": "Damage",
-          "zh-TW": "傷害",
-          "zh-CN": "伤害"
-        },
-        "min": 12,
-        "max": 45,
-        "isSkillRef": false,
-        "signed": false
-      },
       {
         "key": "skill:127",
         "label": {
@@ -17484,11 +17456,23 @@
         "value": 30,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "dmg-norm",
+        "label": {
+          "en": "Damage",
+          "zh-TW": "傷害",
+          "zh-CN": "伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 12,
+        "max": 45
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-norm",
       "skill:127",
       "skill:151"
     ],
@@ -17658,18 +17642,6 @@
     "invFile": "invsbru",
     "stats": [
       {
-        "key": "dmg-norm",
-        "label": {
-          "en": "Damage",
-          "zh-TW": "傷害",
-          "zh-CN": "伤害"
-        },
-        "min": 35,
-        "max": 40,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -17737,11 +17709,23 @@
         "value": 3,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "dmg-norm",
+        "label": {
+          "en": "Damage",
+          "zh-TW": "傷害",
+          "zh-CN": "伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 35,
+        "max": 40
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-norm",
       "dmg%"
     ],
     "note": null,
@@ -17913,18 +17897,6 @@
         "signed": false
       },
       {
-        "key": "dmg-mag",
-        "label": {
-          "en": "Magic Damage",
-          "zh-TW": "魔法傷害",
-          "zh-CN": "魔法伤害"
-        },
-        "min": 50,
-        "max": 120,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -17970,12 +17942,24 @@
         "value": 40,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "dmg-mag",
+        "label": {
+          "en": "Magic Damage",
+          "zh-TW": "魔法傷害",
+          "zh-CN": "魔法伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 50,
+        "max": 120
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "red-mag",
-      "dmg-mag",
       "dmg%"
     ],
     "note": null,
@@ -18116,20 +18100,7 @@
     "weaponSpeed": -10,
     "durability": 44,
     "invFile": "inv9lsu",
-    "stats": [
-      {
-        "key": "dmg-norm",
-        "label": {
-          "en": "Damage",
-          "zh-TW": "傷害",
-          "zh-CN": "伤害"
-        },
-        "min": 10,
-        "max": 45,
-        "isSkillRef": false,
-        "signed": false
-      }
-    ],
+    "stats": [],
     "fixedStats": [
       {
         "key": "hit-skill:92",
@@ -18185,12 +18156,23 @@
         "value": 5,
         "isSkillRef": true,
         "signed": true
+      },
+      {
+        "key": "dmg-norm",
+        "label": {
+          "en": "Damage",
+          "zh-TW": "傷害",
+          "zh-CN": "伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 10,
+        "max": 45
       }
     ],
     "setBonuses": [],
-    "statPriority": [
-      "dmg-norm"
-    ],
+    "statPriority": [],
     "note": null,
     "statPools": [],
     "hdIcon": "unique-160"
@@ -18500,18 +18482,6 @@
     "invFile": "invclm",
     "stats": [
       {
-        "key": "dmg-cold",
-        "label": {
-          "en": "Cold Damage",
-          "zh-TW": "冷凍傷害",
-          "zh-CN": "冷冻伤害"
-        },
-        "min": 50,
-        "max": 140,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -18568,11 +18538,23 @@
         "value": null,
         "isSkillRef": false,
         "composed": true
+      },
+      {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 50,
+        "max": 140
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-cold",
       "dmg%"
     ],
     "note": null,
@@ -18748,18 +18730,6 @@
     "invFile": "invbswu",
     "stats": [
       {
-        "key": "dmg-ltng",
-        "label": {
-          "en": "Lightning Damage",
-          "zh-TW": "閃電傷害",
-          "zh-CN": "闪电伤害"
-        },
-        "min": 1,
-        "max": 240,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -18849,11 +18819,23 @@
         "value": 2,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 1,
+        "max": 240
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-ltng",
       "dmg%"
     ],
     "note": null,
@@ -18905,18 +18887,6 @@
     "durability": 50,
     "invFile": "inv9fbu",
     "stats": [
-      {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 50,
-        "max": 200,
-        "isSkillRef": false,
-        "signed": false
-      },
       {
         "key": "dmg%",
         "label": {
@@ -18985,11 +18955,23 @@
         "value": null,
         "isSkillRef": false,
         "composed": true
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 50,
+        "max": 200
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-fire",
       "dmg%"
     ],
     "note": null,
@@ -19201,18 +19183,6 @@
         "max": 240,
         "isSkillRef": false,
         "signed": true
-      },
-      {
-        "key": "dmg-norm",
-        "label": {
-          "en": "Damage",
-          "zh-TW": "傷害",
-          "zh-CN": "伤害"
-        },
-        "min": 15,
-        "max": 27,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -19281,12 +19251,24 @@
         "value": 1,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-norm",
+        "label": {
+          "en": "Damage",
+          "zh-TW": "傷害",
+          "zh-CN": "伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 15,
+        "max": 27
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg%",
-      "dmg-norm"
+      "dmg%"
     ],
     "note": null,
     "statPools": [],
@@ -19328,18 +19310,6 @@
     "durability": 20,
     "invFile": "invdir",
     "stats": [
-      {
-        "key": "dmg-norm",
-        "label": {
-          "en": "Damage",
-          "zh-TW": "傷害",
-          "zh-CN": "伤害"
-        },
-        "min": 15,
-        "max": 35,
-        "isSkillRef": false,
-        "signed": false
-      },
       {
         "key": "dmg%",
         "label": {
@@ -19408,11 +19378,23 @@
         "value": 4,
         "isSkillRef": true,
         "signed": true
+      },
+      {
+        "key": "dmg-norm",
+        "label": {
+          "en": "Damage",
+          "zh-TW": "傷害",
+          "zh-CN": "伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 15,
+        "max": 35
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-norm",
       "dmg%"
     ],
     "note": null,
@@ -19454,20 +19436,7 @@
     "weaponSpeed": -20,
     "durability": 24,
     "invFile": "invkrsu",
-    "stats": [
-      {
-        "key": "dmg-norm",
-        "label": {
-          "en": "Damage",
-          "zh-TW": "傷害",
-          "zh-CN": "伤害"
-        },
-        "min": 15,
-        "max": 45,
-        "isSkillRef": false,
-        "signed": false
-      }
-    ],
+    "stats": [],
     "fixedStats": [
       {
         "key": "slow",
@@ -19545,12 +19514,23 @@
         "value": 4,
         "isSkillRef": true,
         "signed": true
+      },
+      {
+        "key": "dmg-norm",
+        "label": {
+          "en": "Damage",
+          "zh-TW": "傷害",
+          "zh-CN": "伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 15,
+        "max": 45
       }
     ],
     "setBonuses": [],
-    "statPriority": [
-      "dmg-norm"
-    ],
+    "statPriority": [],
     "note": null,
     "statPools": [],
     "hdIcon": "unique-170"
@@ -19590,20 +19570,7 @@
     "weaponSpeed": null,
     "durability": 24,
     "invFile": "inv9blu",
-    "stats": [
-      {
-        "key": "dmg-ltng",
-        "label": {
-          "en": "Lightning Damage",
-          "zh-TW": "閃電傷害",
-          "zh-CN": "闪电伤害"
-        },
-        "min": 1,
-        "max": 120,
-        "isSkillRef": false,
-        "signed": false
-      }
-    ],
+    "stats": [],
     "fixedStats": [
       {
         "key": "light-thorns",
@@ -19648,12 +19615,23 @@
         "value": 8,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 1,
+        "max": 120
       }
     ],
     "setBonuses": [],
-    "statPriority": [
-      "dmg-ltng"
-    ],
+    "statPriority": [],
     "note": null,
     "statPools": [],
     "hdIcon": "unique-171"
@@ -19831,18 +19809,6 @@
     "invFile": "invtriu",
     "stats": [
       {
-        "key": "dmg-norm",
-        "label": {
-          "en": "Damage",
-          "zh-TW": "傷害",
-          "zh-CN": "伤害"
-        },
-        "min": 30,
-        "max": 50,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -19899,11 +19865,23 @@
         "value": 10,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-norm",
+        "label": {
+          "en": "Damage",
+          "zh-TW": "傷害",
+          "zh-CN": "伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 30,
+        "max": 50
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-norm",
       "dmg%"
     ],
     "note": null,
@@ -20074,18 +20052,6 @@
     "invFile": "invspt",
     "stats": [
       {
-        "key": "dmg-norm",
-        "label": {
-          "en": "Damage",
-          "zh-TW": "傷害",
-          "zh-CN": "伤害"
-        },
-        "min": 20,
-        "max": 40,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -20131,11 +20097,23 @@
         "value": 10,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "dmg-norm",
+        "label": {
+          "en": "Damage",
+          "zh-TW": "傷害",
+          "zh-CN": "伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 20,
+        "max": 40
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-norm",
       "dmg%"
     ],
     "note": null,
@@ -20178,18 +20156,6 @@
     "durability": 25,
     "invFile": "invpik",
     "stats": [
-      {
-        "key": "dmg-norm",
-        "label": {
-          "en": "Damage",
-          "zh-TW": "傷害",
-          "zh-CN": "伤害"
-        },
-        "min": 20,
-        "max": 40,
-        "isSkillRef": false,
-        "signed": false
-      },
       {
         "key": "dmg%",
         "label": {
@@ -20280,11 +20246,23 @@
         "value": 25,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-norm",
+        "label": {
+          "en": "Damage",
+          "zh-TW": "傷害",
+          "zh-CN": "伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 20,
+        "max": 40
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-norm",
       "dmg%"
     ],
     "note": null,
@@ -20672,18 +20650,6 @@
     "invFile": "invpax",
     "stats": [
       {
-        "key": "dmg-norm",
-        "label": {
-          "en": "Damage",
-          "zh-TW": "傷害",
-          "zh-CN": "伤害"
-        },
-        "min": 12,
-        "max": 20,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -20752,11 +20718,23 @@
         "value": 6,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "dmg-norm",
+        "label": {
+          "en": "Damage",
+          "zh-TW": "傷害",
+          "zh-CN": "伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 12,
+        "max": 20
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-norm",
       "dmg%",
       "att"
     ],
@@ -20813,18 +20791,6 @@
         "signed": true
       },
       {
-        "key": "dmg-norm",
-        "label": {
-          "en": "Damage",
-          "zh-TW": "傷害",
-          "zh-CN": "伤害"
-        },
-        "min": 20,
-        "max": 32,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -20870,12 +20836,24 @@
         "value": 20,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-norm",
+        "label": {
+          "en": "Damage",
+          "zh-TW": "傷害",
+          "zh-CN": "伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 20,
+        "max": 32
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "att",
-      "dmg-norm",
       "dmg%"
     ],
     "note": null,
@@ -20918,18 +20896,6 @@
     "durability": 55,
     "invFile": "invwsc",
     "stats": [
-      {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 131,
-        "max": 232,
-        "isSkillRef": false,
-        "signed": false
-      },
       {
         "key": "dmg%",
         "label": {
@@ -21021,11 +20987,23 @@
         "value": 20,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 131,
+        "max": 232
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-fire",
       "dmg%",
       "att"
     ],
@@ -21191,18 +21169,6 @@
     "invFile": "invlst",
     "stats": [
       {
-        "key": "dmg-norm",
-        "label": {
-          "en": "Damage",
-          "zh-TW": "傷害",
-          "zh-CN": "伤害"
-        },
-        "min": 30,
-        "max": 65,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -21292,11 +21258,23 @@
         "value": 100,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "dmg-norm",
+        "label": {
+          "en": "Damage",
+          "zh-TW": "傷害",
+          "zh-CN": "伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 30,
+        "max": 65
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-norm",
       "dmg%"
     ],
     "note": null,
@@ -21676,18 +21654,6 @@
     "invFile": "invsbw",
     "stats": [
       {
-        "key": "dmg-ltng",
-        "label": {
-          "en": "Lightning Damage",
-          "zh-TW": "閃電傷害",
-          "zh-CN": "闪电伤害"
-        },
-        "min": 1,
-        "max": 250,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -21755,11 +21721,23 @@
         "value": 1,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 1,
+        "max": 250
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-ltng",
       "dmg%"
     ],
     "note": null,
@@ -21929,18 +21907,6 @@
         "max": 180,
         "isSkillRef": false,
         "signed": true
-      },
-      {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 40,
-        "max": 180,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -21987,12 +21953,24 @@
         "value": 3,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 40,
+        "max": 180
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg%",
-      "dmg-fire"
+      "dmg%"
     ],
     "note": null,
     "statPools": [],
@@ -22057,18 +22035,6 @@
         "max": 220,
         "isSkillRef": false,
         "signed": true
-      },
-      {
-        "key": "dmg-cold",
-        "label": {
-          "en": "Cold Damage",
-          "zh-TW": "冷凍傷害",
-          "zh-CN": "冷冻伤害"
-        },
-        "min": 15,
-        "max": 30,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -22104,13 +22070,25 @@
         "value": 50,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 15,
+        "max": 30
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "skill:26",
-      "dmg%",
-      "dmg-cold"
+      "dmg%"
     ],
     "note": null,
     "statPools": [],
@@ -22420,18 +22398,6 @@
         "signed": true
       },
       {
-        "key": "dmg-norm",
-        "label": {
-          "en": "Damage",
-          "zh-TW": "傷害",
-          "zh-CN": "伤害"
-        },
-        "min": 25,
-        "max": 50,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -22499,13 +22465,25 @@
         "value": 1,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-norm",
+        "label": {
+          "en": "Damage",
+          "zh-TW": "傷害",
+          "zh-CN": "伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 25,
+        "max": 50
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "red-mag",
       "att",
-      "dmg-norm",
       "dmg%"
     ],
     "note": null,
@@ -22714,18 +22692,6 @@
         "max": 30,
         "isSkillRef": false,
         "signed": true
-      },
-      {
-        "key": "dmg-ltng",
-        "label": {
-          "en": "Lightning Damage",
-          "zh-TW": "閃電傷害",
-          "zh-CN": "闪电伤害"
-        },
-        "min": 1,
-        "max": 212,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -22761,14 +22727,26 @@
         "value": 33,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 1,
+        "max": 212
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "dmg%",
       "mag%",
-      "dmg-max",
-      "dmg-ltng"
+      "dmg-max"
     ],
     "note": null,
     "statPools": [],
@@ -22969,18 +22947,6 @@
         "max": 200,
         "isSkillRef": false,
         "signed": true
-      },
-      {
-        "key": "dmg-cold",
-        "label": {
-          "en": "Cold Damage",
-          "zh-TW": "冷凍傷害",
-          "zh-CN": "冷冻伤害"
-        },
-        "min": 32,
-        "max": 196,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -23038,13 +23004,25 @@
         "value": 3,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 32,
+        "max": 196
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "ac",
-      "dmg%",
-      "dmg-cold"
+      "dmg%"
     ],
     "note": null,
     "statPools": [],
@@ -24042,18 +24020,6 @@
         "max": 15,
         "isSkillRef": false,
         "signed": false
-      },
-      {
-        "key": "dmg-cold",
-        "label": {
-          "en": "Cold Damage",
-          "zh-TW": "冷凍傷害",
-          "zh-CN": "冷冻伤害"
-        },
-        "min": 6,
-        "max": 22,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -24078,6 +24044,19 @@
         "value": 100,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 6,
+        "max": 22
       }
     ],
     "setBonuses": [],
@@ -24085,8 +24064,7 @@
       "manasteal",
       "lifesteal",
       "red-dmg%",
-      "red-mag",
-      "dmg-cold"
+      "red-mag"
     ],
     "note": null,
     "statPools": [],
@@ -24543,18 +24521,6 @@
     "invFile": "invrng",
     "stats": [
       {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 20,
-        "max": 65,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "ac%",
         "label": {
           "en": "Enhanced Defense %",
@@ -24622,11 +24588,23 @@
         "value": 2,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 20,
+        "max": 65
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-fire",
       "ac%"
     ],
     "note": null,
@@ -25614,18 +25592,6 @@
         "max": 180,
         "isSkillRef": false,
         "signed": true
-      },
-      {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 12,
-        "max": 36,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -25683,12 +25649,24 @@
         "value": null,
         "isSkillRef": false,
         "composed": true
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 12,
+        "max": 36
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "ac%",
-      "dmg-fire"
+      "ac%"
     ],
     "note": null,
     "statPools": [],
@@ -26067,18 +26045,6 @@
     "invFile": "invxrgu",
     "stats": [
       {
-        "key": "dmg-ltng",
-        "label": {
-          "en": "Lightning Damage",
-          "zh-TW": "閃電傷害",
-          "zh-CN": "闪电伤害"
-        },
-        "min": 1,
-        "max": 60,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "ac%",
         "label": {
           "en": "Enhanced Defense %",
@@ -26168,11 +26134,23 @@
         "value": null,
         "isSkillRef": false,
         "composed": true
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 1,
+        "max": 60
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-ltng",
       "ac%"
     ],
     "note": null,
@@ -26218,42 +26196,6 @@
     "durability": 76,
     "invFile": "invkitu",
     "stats": [
-      {
-        "key": "dmg-cold",
-        "label": {
-          "en": "Cold Damage",
-          "zh-TW": "冷凍傷害",
-          "zh-CN": "冷冻伤害"
-        },
-        "min": 27,
-        "max": 53,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 35,
-        "max": 95,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
-        "key": "dmg-ltng",
-        "label": {
-          "en": "Lightning Damage",
-          "zh-TW": "閃電傷害",
-          "zh-CN": "闪电伤害"
-        },
-        "min": 1,
-        "max": 120,
-        "isSkillRef": false,
-        "signed": false
-      },
       {
         "key": "res-all",
         "label": {
@@ -26323,13 +26265,49 @@
         "value": 40,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 27,
+        "max": 53
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 35,
+        "max": 95
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 1,
+        "max": 120
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-cold",
-      "dmg-fire",
-      "dmg-ltng",
       "res-all",
       "ac%"
     ],
@@ -27219,18 +27197,6 @@
         "max": 200,
         "isSkillRef": false,
         "signed": true
-      },
-      {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 13,
-        "max": 46,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -27288,12 +27254,24 @@
         "value": 20,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 13,
+        "max": 46
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "ac%",
-      "dmg-fire"
+      "ac%"
     ],
     "note": null,
     "statPools": [],
@@ -27329,18 +27307,6 @@
     "durability": 24,
     "invFile": "invhgl",
     "stats": [
-      {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 15,
-        "max": 72,
-        "isSkillRef": false,
-        "signed": false
-      },
       {
         "key": "ac%",
         "label": {
@@ -27398,11 +27364,23 @@
         "value": null,
         "isSkillRef": false,
         "composed": true
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 15,
+        "max": 72
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-fire",
       "ac%"
     ],
     "note": null,
@@ -27448,18 +27426,6 @@
     "durability": 12,
     "invFile": "invlbt",
     "stats": [
-      {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 12,
-        "max": 33,
-        "isSkillRef": false,
-        "signed": false
-      },
       {
         "key": "ac%",
         "label": {
@@ -27551,11 +27517,23 @@
         "value": null,
         "isSkillRef": false,
         "composed": true
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 12,
+        "max": 33
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-fire",
       "ac%",
       "gold%"
     ],
@@ -27874,18 +27852,6 @@
         "signed": true
       },
       {
-        "key": "dmg-norm",
-        "label": {
-          "en": "Damage",
-          "zh-TW": "傷害",
-          "zh-CN": "伤害"
-        },
-        "min": 15,
-        "max": 25,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "thorns",
         "label": {
           "en": "Attacker Takes Damage",
@@ -27953,13 +27919,25 @@
         "value": 40,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "dmg-norm",
+        "label": {
+          "en": "Damage",
+          "zh-TW": "傷害",
+          "zh-CN": "伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 15,
+        "max": 25
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "mag%",
       "ac%",
-      "dmg-norm",
       "thorns"
     ],
     "note": null,
@@ -28466,18 +28444,6 @@
     "invFile": "invtbl",
     "stats": [
       {
-        "key": "dmg-cold",
-        "label": {
-          "en": "Cold Damage",
-          "zh-TW": "冷凍傷害",
-          "zh-CN": "冷冻伤害"
-        },
-        "min": 13,
-        "max": 21,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "ac%",
         "label": {
           "en": "Enhanced Defense %",
@@ -28556,11 +28522,23 @@
         "value": 2,
         "isSkillRef": true,
         "signed": true
+      },
+      {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 13,
+        "max": 21
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-cold",
       "ac%"
     ],
     "note": null,
@@ -28597,18 +28575,6 @@
     "durability": 24,
     "invFile": "invhbl",
     "stats": [
-      {
-        "key": "dmg-ltng",
-        "label": {
-          "en": "Lightning Damage",
-          "zh-TW": "閃電傷害",
-          "zh-CN": "闪电伤害"
-        },
-        "min": 1,
-        "max": 50,
-        "isSkillRef": false,
-        "signed": false
-      },
       {
         "key": "ac%",
         "label": {
@@ -28699,11 +28665,23 @@
         "value": 3,
         "isSkillRef": true,
         "signed": true
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 1,
+        "max": 50
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-ltng",
       "ac%"
     ],
     "note": null,
@@ -29528,20 +29506,7 @@
     "weaponSpeed": 10,
     "durability": 40,
     "invFile": "invbtxu",
-    "stats": [
-      {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 150,
-        "max": 250,
-        "isSkillRef": false,
-        "signed": false
-      }
-    ],
+    "stats": [],
     "fixedStats": [
       {
         "key": "str/lvl",
@@ -29608,12 +29573,23 @@
         "value": null,
         "isSkillRef": false,
         "composed": true
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 150,
+        "max": 250
       }
     ],
     "setBonuses": [],
-    "statPriority": [
-      "dmg-fire"
-    ],
+    "statPriority": [],
     "note": null,
     "statPools": [],
     "hdIcon": "unique-254"
@@ -29653,20 +29629,7 @@
     "weaponSpeed": -10,
     "durability": 50,
     "invFile": "invgaxu",
-    "stats": [
-      {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 20,
-        "max": 240,
-        "isSkillRef": false,
-        "signed": false
-      }
-    ],
+    "stats": [],
     "fixedStats": [
       {
         "key": "dmg%/lvl",
@@ -29755,12 +29718,23 @@
         "value": 100,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 20,
+        "max": 240
       }
     ],
     "setBonuses": [],
-    "statPriority": [
-      "dmg-fire"
-    ],
+    "statPriority": [],
     "note": null,
     "statPools": [],
     "hdIcon": "unique-255"
@@ -29800,44 +29774,7 @@
     "weaponSpeed": 10,
     "durability": 72,
     "invFile": "invmstu",
-    "stats": [
-      {
-        "key": "dmg-ltng",
-        "label": {
-          "en": "Lightning Damage",
-          "zh-TW": "閃電傷害",
-          "zh-CN": "闪电伤害"
-        },
-        "min": 1,
-        "max": 200,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 1,
-        "max": 200,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
-        "key": "dmg-cold",
-        "label": {
-          "en": "Cold Damage",
-          "zh-TW": "冷凍傷害",
-          "zh-CN": "冷冻伤害"
-        },
-        "min": 1,
-        "max": 200,
-        "isSkillRef": false,
-        "signed": false
-      }
-    ],
+    "stats": [],
     "fixedStats": [
       {
         "key": "att%",
@@ -29904,14 +29841,49 @@
         "value": 100,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 1,
+        "max": 200
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 1,
+        "max": 200
+      },
+      {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 1,
+        "max": 200
       }
     ],
     "setBonuses": [],
-    "statPriority": [
-      "dmg-ltng",
-      "dmg-fire",
-      "dmg-cold"
-    ],
+    "statPriority": [],
     "note": null,
     "statPools": [],
     "hdIcon": "unique-256"
@@ -29963,18 +29935,6 @@
         "max": 130,
         "isSkillRef": false,
         "signed": true
-      },
-      {
-        "key": "dmg-ltng",
-        "label": {
-          "en": "Lightning Damage",
-          "zh-TW": "閃電傷害",
-          "zh-CN": "闪电伤害"
-        },
-        "min": 50,
-        "max": 200,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -30065,12 +30025,24 @@
         "value": 1,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 50,
+        "max": 200
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg%",
-      "dmg-ltng"
+      "dmg%"
     ],
     "note": null,
     "statPools": [],
@@ -30249,30 +30221,6 @@
     "invFile": "invcrsu",
     "stats": [
       {
-        "key": "dmg-mag",
-        "label": {
-          "en": "Magic Damage",
-          "zh-TW": "魔法傷害",
-          "zh-CN": "魔法伤害"
-        },
-        "min": 60,
-        "max": 120,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
-        "key": "dmg-ltng",
-        "label": {
-          "en": "Lightning Damage",
-          "zh-TW": "閃電傷害",
-          "zh-CN": "闪电伤害"
-        },
-        "min": 1,
-        "max": 200,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "manasteal",
         "label": {
           "en": "Mana Steal %",
@@ -30295,18 +30243,6 @@
         "max": 200,
         "isSkillRef": false,
         "signed": true
-      },
-      {
-        "key": "dmg-norm",
-        "label": {
-          "en": "Damage",
-          "zh-TW": "傷害",
-          "zh-CN": "伤害"
-        },
-        "min": 10,
-        "max": 30,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -30364,15 +30300,51 @@
         "value": 20,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-mag",
+        "label": {
+          "en": "Magic Damage",
+          "zh-TW": "魔法傷害",
+          "zh-CN": "魔法伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 60,
+        "max": 120
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 1,
+        "max": 200
+      },
+      {
+        "key": "dmg-norm",
+        "label": {
+          "en": "Damage",
+          "zh-TW": "傷害",
+          "zh-CN": "伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 10,
+        "max": 30
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-mag",
-      "dmg-ltng",
       "manasteal",
-      "dmg%",
-      "dmg-norm"
+      "dmg%"
     ],
     "note": null,
     "statPools": [],
@@ -30436,18 +30408,6 @@
         "signed": true
       },
       {
-        "key": "dmg-norm",
-        "label": {
-          "en": "Damage",
-          "zh-TW": "傷害",
-          "zh-CN": "伤害"
-        },
-        "min": 30,
-        "max": 100,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "lifesteal",
         "label": {
           "en": "Life Steal %",
@@ -30504,12 +30464,24 @@
         "value": null,
         "isSkillRef": false,
         "composed": true
+      },
+      {
+        "key": "dmg-norm",
+        "label": {
+          "en": "Damage",
+          "zh-TW": "傷害",
+          "zh-CN": "伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 30,
+        "max": 100
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "dmg-norm",
       "lifesteal"
     ],
     "note": null,
@@ -30829,18 +30801,6 @@
         "max": 250,
         "isSkillRef": false,
         "signed": true
-      },
-      {
-        "key": "dmg-ltng",
-        "label": {
-          "en": "Lightning Damage",
-          "zh-TW": "閃電傷害",
-          "zh-CN": "闪电伤害"
-        },
-        "min": 1,
-        "max": 237,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -30920,12 +30880,24 @@
         "value": 27,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 1,
+        "max": 237
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg%",
-      "dmg-ltng"
+      "dmg%"
     ],
     "note": null,
     "statPools": [],
@@ -31376,20 +31348,7 @@
     "weaponSpeed": null,
     "durability": null,
     "invFile": "invamu",
-    "stats": [
-      {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 24,
-        "max": 48,
-        "isSkillRef": false,
-        "signed": false
-      }
-    ],
+    "stats": [],
     "fixedStats": [
       {
         "key": "abs-fire/lvl",
@@ -31445,12 +31404,23 @@
         "value": 10,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 24,
+        "max": 48
       }
     ],
     "setBonuses": [],
-    "statPriority": [
-      "dmg-fire"
-    ],
+    "statPriority": [],
     "note": null,
     "statPools": [],
     "hdIcon": "unique-270"
@@ -31901,18 +31871,6 @@
     "invFile": "invrin",
     "stats": [
       {
-        "key": "dmg-cold",
-        "label": {
-          "en": "Cold Damage",
-          "zh-TW": "冷凍傷害",
-          "zh-CN": "冷冻伤害"
-        },
-        "min": 15,
-        "max": 45,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "dex",
         "label": {
           "en": "Dexterity",
@@ -31970,11 +31928,23 @@
         "value": 40,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 15,
+        "max": 45
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-cold",
       "dex",
       "att"
     ],
@@ -32008,20 +31978,7 @@
     "weaponSpeed": null,
     "durability": null,
     "invFile": "invamu",
-    "stats": [
-      {
-        "key": "dmg-ltng",
-        "label": {
-          "en": "Lightning Damage",
-          "zh-TW": "閃電傷害",
-          "zh-CN": "闪电伤害"
-        },
-        "min": 1,
-        "max": 30,
-        "isSkillRef": false,
-        "signed": false
-      }
-    ],
+    "stats": [],
     "fixedStats": [
       {
         "key": "res-ltng",
@@ -32077,12 +32034,23 @@
         "value": 15,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 1,
+        "max": 30
       }
     ],
     "setBonuses": [],
-    "statPriority": [
-      "dmg-ltng"
-    ],
+    "statPriority": [],
     "note": null,
     "statPools": [],
     "hdIcon": "unique-276"
@@ -32535,18 +32503,6 @@
         "max": 9,
         "isSkillRef": false,
         "signed": false
-      },
-      {
-        "key": "dmg-norm",
-        "label": {
-          "en": "Damage",
-          "zh-TW": "傷害",
-          "zh-CN": "伤害"
-        },
-        "min": 25,
-        "max": 50,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -32626,13 +32582,25 @@
         "value": 60,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "dmg-norm",
+        "label": {
+          "en": "Damage",
+          "zh-TW": "傷害",
+          "zh-CN": "伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 25,
+        "max": 50
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "lifesteal",
-      "dmg-norm"
+      "lifesteal"
     ],
     "note": null,
     "statPools": [],
@@ -32695,18 +32663,6 @@
         },
         "min": 5,
         "max": 8,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
-        "key": "dmg-norm",
-        "label": {
-          "en": "Damage",
-          "zh-TW": "傷害",
-          "zh-CN": "伤害"
-        },
-        "min": 25,
-        "max": 50,
         "isSkillRef": false,
         "signed": false
       }
@@ -32777,13 +32733,25 @@
         "value": 20,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-norm",
+        "label": {
+          "en": "Damage",
+          "zh-TW": "傷害",
+          "zh-CN": "伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 25,
+        "max": 50
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "manasteal",
-      "dmg-norm"
+      "manasteal"
     ],
     "note": null,
     "statPools": [],
@@ -32846,18 +32814,6 @@
         },
         "min": 5,
         "max": 9,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
-        "key": "dmg-norm",
-        "label": {
-          "en": "Damage",
-          "zh-TW": "傷害",
-          "zh-CN": "伤害"
-        },
-        "min": 25,
-        "max": 50,
         "isSkillRef": false,
         "signed": false
       }
@@ -32928,13 +32884,25 @@
         "value": 20,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-norm",
+        "label": {
+          "en": "Damage",
+          "zh-TW": "傷害",
+          "zh-CN": "伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 25,
+        "max": 50
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "lifesteal",
-      "dmg-norm"
+      "lifesteal"
     ],
     "note": null,
     "statPools": [],
@@ -33292,18 +33260,6 @@
         "max": 9,
         "isSkillRef": false,
         "signed": false
-      },
-      {
-        "key": "dmg-norm",
-        "label": {
-          "en": "Damage",
-          "zh-TW": "傷害",
-          "zh-CN": "伤害"
-        },
-        "min": 25,
-        "max": 50,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -33372,13 +33328,25 @@
         "value": 20,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-norm",
+        "label": {
+          "en": "Damage",
+          "zh-TW": "傷害",
+          "zh-CN": "伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 25,
+        "max": 50
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "lifesteal",
-      "dmg-norm"
+      "lifesteal"
     ],
     "note": null,
     "statPools": [],
@@ -33808,18 +33776,6 @@
         "signed": true
       },
       {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 250,
-        "max": 500,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "dmg-demon",
         "label": {
           "en": "Damage to Demons",
@@ -33880,11 +33836,24 @@
         "signed": false
       }
     ],
-    "fixedStats": [],
+    "fixedStats": [
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 250,
+        "max": 500
+      }
+    ],
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "dmg-fire",
       "dmg-demon",
       "att-demon",
       "abs-ltng",
@@ -34386,18 +34355,6 @@
         "signed": true
       },
       {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 222,
-        "max": 333,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "lifesteal",
         "label": {
           "en": "Life Steal %",
@@ -34455,12 +34412,24 @@
         "value": 123,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 222,
+        "max": 333
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "dmg-fire",
       "lifesteal",
       "res-fire"
     ],
@@ -34971,18 +34940,6 @@
     "invFile": "invcrs",
     "stats": [
       {
-        "key": "dmg-mag",
-        "label": {
-          "en": "Magic Damage",
-          "zh-TW": "魔法傷害",
-          "zh-CN": "魔法伤害"
-        },
-        "min": 250,
-        "max": 500,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
@@ -35004,18 +34961,6 @@
         "min": 10,
         "max": 13,
         "isSkillRef": true,
-        "signed": false
-      },
-      {
-        "key": "dmg-cold",
-        "label": {
-          "en": "Cold Damage",
-          "zh-TW": "冷凍傷害",
-          "zh-CN": "冷冻伤害"
-        },
-        "min": 250,
-        "max": 500,
-        "isSkillRef": false,
         "signed": false
       },
       {
@@ -35064,14 +35009,38 @@
         "value": 1,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-mag",
+        "label": {
+          "en": "Magic Damage",
+          "zh-TW": "魔法傷害",
+          "zh-CN": "魔法伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 250,
+        "max": 500
+      },
+      {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 250,
+        "max": 500
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-mag",
       "dmg%",
       "aura:Sanctuary",
-      "dmg-cold",
       "all-stats"
     ],
     "note": null,
@@ -36506,18 +36475,6 @@
         "signed": true
       },
       {
-        "key": "dmg-mag",
-        "label": {
-          "en": "Magic Damage",
-          "zh-TW": "魔法傷害",
-          "zh-CN": "魔法伤害"
-        },
-        "min": 101,
-        "max": 187,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "res-all",
         "label": {
           "en": "All Resistances",
@@ -36554,11 +36511,24 @@
         "signed": true
       }
     ],
-    "fixedStats": [],
+    "fixedStats": [
+      {
+        "key": "dmg-mag",
+        "label": {
+          "en": "Magic Damage",
+          "zh-TW": "魔法傷害",
+          "zh-CN": "魔法伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 101,
+        "max": 187
+      }
+    ],
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "dmg-mag",
       "res-all",
       "ac",
       "skilltab:2"
@@ -37564,18 +37534,6 @@
         "max": 15,
         "isSkillRef": false,
         "signed": false
-      },
-      {
-        "key": "dmg-cold",
-        "label": {
-          "en": "Cold Damage",
-          "zh-TW": "冷凍傷害",
-          "zh-CN": "冷冻伤害"
-        },
-        "min": 4,
-        "max": 44,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -37622,13 +37580,25 @@
         "value": 33,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 4,
+        "max": 44
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "lifesteal",
-      "dmg-cold"
+      "lifesteal"
     ],
     "note": null,
     "statPools": [],
@@ -37810,18 +37780,6 @@
         "signed": true
       },
       {
-        "key": "dmg-elem",
-        "label": {
-          "en": "Adds Random Elemental Damage",
-          "zh-TW": "隨機元素傷害",
-          "zh-CN": "随机元素伤害"
-        },
-        "min": 63,
-        "max": 324,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "att%",
         "label": {
           "en": "Attack Rating %",
@@ -37867,12 +37825,24 @@
         "value": null,
         "isSkillRef": false,
         "composed": true
+      },
+      {
+        "key": "dmg-elem",
+        "label": {
+          "en": "Adds Random Elemental Damage",
+          "zh-TW": "隨機元素傷害",
+          "zh-CN": "随机元素伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 63,
+        "max": 324
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "dmg-elem",
       "att%"
     ],
     "note": null,
@@ -38620,42 +38590,6 @@
         "max": 210,
         "isSkillRef": false,
         "signed": true
-      },
-      {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 218,
-        "max": 483,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
-        "key": "dmg-cold",
-        "label": {
-          "en": "Cold Damage",
-          "zh-TW": "冷凍傷害",
-          "zh-CN": "冷冻伤害"
-        },
-        "min": 176,
-        "max": 397,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
-        "key": "dmg-ltng",
-        "label": {
-          "en": "Lightning Damage",
-          "zh-TW": "閃電傷害",
-          "zh-CN": "闪电伤害"
-        },
-        "min": 29,
-        "max": 501,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -38680,14 +38614,50 @@
         "value": 30,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 218,
+        "max": 483
+      },
+      {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 176,
+        "max": 397
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 29,
+        "max": 501
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg%",
-      "dmg-fire",
-      "dmg-cold",
-      "dmg-ltng"
+      "dmg%"
     ],
     "note": null,
     "statPools": [],
@@ -38935,18 +38905,6 @@
         "signed": true
       },
       {
-        "key": "dmg-ltng",
-        "label": {
-          "en": "Lightning Damage",
-          "zh-TW": "閃電傷害",
-          "zh-CN": "闪电伤害"
-        },
-        "min": 1,
-        "max": 511,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "skilltab:2",
         "label": {
           "en": "Skill Tab Bonus",
@@ -39003,12 +38961,24 @@
         "value": 3,
         "isSkillRef": true,
         "signed": true
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 1,
+        "max": 511
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "dmg-ltng",
       "skilltab:2"
     ],
     "note": null,
@@ -39064,18 +39034,6 @@
         "signed": true
       },
       {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 232,
-        "max": 323,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "lifesteal",
         "label": {
           "en": "Life Steal %",
@@ -39084,18 +39042,6 @@
         },
         "min": 6,
         "max": 12,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
-        "key": "dmg-ltng",
-        "label": {
-          "en": "Lightning Damage",
-          "zh-TW": "閃電傷害",
-          "zh-CN": "闪电伤害"
-        },
-        "min": 23,
-        "max": 333,
         "isSkillRef": false,
         "signed": false
       }
@@ -39122,14 +39068,38 @@
         "value": 30,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 232,
+        "max": 323
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 23,
+        "max": 333
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "dmg-fire",
-      "lifesteal",
-      "dmg-ltng"
+      "lifesteal"
     ],
     "note": null,
     "statPools": [],
@@ -39843,18 +39813,6 @@
         "max": 25,
         "isSkillRef": false,
         "signed": true
-      },
-      {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 211,
-        "max": 371,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -39890,14 +39848,26 @@
         "value": 15,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 211,
+        "max": 371
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "ac%",
       "abs-fire%",
-      "str",
-      "dmg-fire"
+      "str"
     ],
     "note": null,
     "statPools": [],
@@ -40454,18 +40424,6 @@
         "signed": true
       },
       {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 233,
-        "max": 482,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "abs-fire%",
         "label": {
           "en": "Fire Absorb %",
@@ -40536,12 +40494,24 @@
         "value": null,
         "isSkillRef": false,
         "composed": true
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 233,
+        "max": 482
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "dmg-fire",
       "abs-fire%",
       "str",
       "vit",
@@ -41277,18 +41247,6 @@
         "signed": true
       },
       {
-        "key": "dmg-ltng",
-        "label": {
-          "en": "Lightning Damage",
-          "zh-TW": "閃電傷害",
-          "zh-CN": "闪电伤害"
-        },
-        "min": 1,
-        "max": 473,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "abs-ltng",
         "label": {
           "en": "Lightning Absorb",
@@ -41356,12 +41314,24 @@
         "value": 33,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 1,
+        "max": 473
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "dmg-ltng",
       "abs-ltng"
     ],
     "note": null,
@@ -41775,18 +41745,6 @@
         "signed": true
       },
       {
-        "key": "dmg-cold",
-        "label": {
-          "en": "Cold Damage",
-          "zh-TW": "冷凍傷害",
-          "zh-CN": "冷冻伤害"
-        },
-        "min": 237,
-        "max": 486,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "abs-cold%",
         "label": {
           "en": "Cold Absorb %",
@@ -41844,12 +41802,24 @@
         "value": 25,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 237,
+        "max": 486
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "dmg-cold",
       "abs-cold%",
       "oskill:Arctic Blast"
     ],
@@ -42156,18 +42126,6 @@
         "signed": true
       },
       {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 236,
-        "max": 480,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "res-fire",
         "label": {
           "en": "Fire Resist %",
@@ -42215,13 +42173,25 @@
         "value": 15,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 236,
+        "max": 480
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "dmg%",
       "skilltab:20",
-      "dmg-fire",
       "res-fire",
       "skill:Wake of Fire Sentry",
       "skill:Inferno Sentry"
@@ -43403,18 +43373,6 @@
         "signed": true
       },
       {
-        "key": "dmg-mag",
-        "label": {
-          "en": "Magic Damage",
-          "zh-TW": "魔法傷害",
-          "zh-CN": "魔法伤害"
-        },
-        "min": 80,
-        "max": 240,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "red-dmg",
         "label": {
           "en": "Damage Reduced",
@@ -43484,13 +43442,25 @@
         "value": 33,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "dmg-mag",
+        "label": {
+          "en": "Magic Damage",
+          "zh-TW": "魔法傷害",
+          "zh-CN": "魔法伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 80,
+        "max": 240
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "dmg%",
       "att%",
-      "dmg-mag",
       "red-dmg",
       "dmg",
       "skilltab:9"
@@ -43751,18 +43721,6 @@
         "signed": true
       },
       {
-        "key": "dmg-ltng",
-        "label": {
-          "en": "Lightning Damage",
-          "zh-TW": "閃電傷害",
-          "zh-CN": "闪电伤害"
-        },
-        "min": 1,
-        "max": 305,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "mag%",
         "label": {
           "en": "Magic Find %",
@@ -43808,12 +43766,24 @@
         "value": null,
         "isSkillRef": false,
         "composed": true
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 1,
+        "max": 305
       }
     ],
     "setBonuses": [],
     "statPriority": [
       "dmg%",
-      "dmg-ltng",
       "mag%"
     ],
     "note": null,
@@ -43903,18 +43873,6 @@
         "max": 15,
         "isSkillRef": false,
         "signed": true
-      },
-      {
-        "key": "dmg-cold",
-        "label": {
-          "en": "Cold Damage",
-          "zh-TW": "冷凍傷害",
-          "zh-CN": "冷冻伤害"
-        },
-        "min": 205,
-        "max": 455,
-        "isSkillRef": false,
-        "signed": false
       }
     ],
     "fixedStats": [
@@ -43939,6 +43897,19 @@
         "value": null,
         "isSkillRef": false,
         "composed": true
+      },
+      {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 205,
+        "max": 455
       }
     ],
     "setBonuses": [],
@@ -43946,8 +43917,7 @@
       "dmg%",
       "freeze",
       "att%",
-      "abs-cold%",
-      "dmg-cold"
+      "abs-cold%"
     ],
     "note": null,
     "statPools": [],
@@ -44805,18 +44775,6 @@
     "invFile": "invgswe",
     "stats": [
       {
-        "key": "dmg-ltng",
-        "label": {
-          "en": "Lightning Damage",
-          "zh-TW": "閃電傷害",
-          "zh-CN": "闪电伤害"
-        },
-        "min": 1,
-        "max": 74,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "pierce-ltng",
         "label": {
           "en": "Enemy Lightning Resistance %",
@@ -44852,11 +44810,23 @@
         "value": null,
         "isSkillRef": false,
         "composed": true
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 1,
+        "max": 74
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-ltng",
       "pierce-ltng",
       "extra-ltng"
     ],
@@ -44891,18 +44861,6 @@
     "durability": null,
     "invFile": "invgswe",
     "stats": [
-      {
-        "key": "dmg-cold",
-        "label": {
-          "en": "Cold Damage",
-          "zh-TW": "冷凍傷害",
-          "zh-CN": "冷冻伤害"
-        },
-        "min": 24,
-        "max": 38,
-        "isSkillRef": false,
-        "signed": false
-      },
       {
         "key": "pierce-cold",
         "label": {
@@ -44939,11 +44897,23 @@
         "value": null,
         "isSkillRef": false,
         "composed": true
+      },
+      {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 24,
+        "max": 38
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-cold",
       "pierce-cold",
       "extra-cold"
     ],
@@ -44978,18 +44948,6 @@
     "durability": null,
     "invFile": "invgswe",
     "stats": [
-      {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 17,
-        "max": 45,
-        "isSkillRef": false,
-        "signed": false
-      },
       {
         "key": "pierce-fire",
         "label": {
@@ -45026,11 +44984,23 @@
         "value": null,
         "isSkillRef": false,
         "composed": true
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 17,
+        "max": 45
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-fire",
       "pierce-fire",
       "extra-fire"
     ],
@@ -45151,18 +45121,6 @@
     "invFile": "invgswe",
     "stats": [
       {
-        "key": "dmg-ltng",
-        "label": {
-          "en": "Lightning Damage",
-          "zh-TW": "閃電傷害",
-          "zh-CN": "闪电伤害"
-        },
-        "min": 1,
-        "max": 74,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
         "key": "pierce-ltng",
         "label": {
           "en": "Enemy Lightning Resistance %",
@@ -45198,11 +45156,23 @@
         "value": null,
         "isSkillRef": false,
         "composed": true
+      },
+      {
+        "key": "dmg-ltng",
+        "label": {
+          "en": "Lightning Damage",
+          "zh-TW": "閃電傷害",
+          "zh-CN": "闪电伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 1,
+        "max": 74
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-ltng",
       "pierce-ltng",
       "extra-ltng"
     ],
@@ -45237,18 +45207,6 @@
     "durability": null,
     "invFile": "invgswe",
     "stats": [
-      {
-        "key": "dmg-cold",
-        "label": {
-          "en": "Cold Damage",
-          "zh-TW": "冷凍傷害",
-          "zh-CN": "冷冻伤害"
-        },
-        "min": 24,
-        "max": 38,
-        "isSkillRef": false,
-        "signed": false
-      },
       {
         "key": "pierce-cold",
         "label": {
@@ -45285,11 +45243,23 @@
         "value": null,
         "isSkillRef": false,
         "composed": true
+      },
+      {
+        "key": "dmg-cold",
+        "label": {
+          "en": "Cold Damage",
+          "zh-TW": "冷凍傷害",
+          "zh-CN": "冷冻伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 24,
+        "max": 38
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-cold",
       "pierce-cold",
       "extra-cold"
     ],
@@ -45324,18 +45294,6 @@
     "durability": null,
     "invFile": "invgswe",
     "stats": [
-      {
-        "key": "dmg-fire",
-        "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
-        },
-        "min": 17,
-        "max": 45,
-        "isSkillRef": false,
-        "signed": false
-      },
       {
         "key": "pierce-fire",
         "label": {
@@ -45372,11 +45330,23 @@
         "value": null,
         "isSkillRef": false,
         "composed": true
+      },
+      {
+        "key": "dmg-fire",
+        "label": {
+          "en": "Fire Damage",
+          "zh-TW": "火焰傷害",
+          "zh-CN": "火焰伤害"
+        },
+        "value": null,
+        "isSkillRef": false,
+        "signed": false,
+        "min": 17,
+        "max": 45
       }
     ],
     "setBonuses": [],
     "statPriority": [
-      "dmg-fire",
       "pierce-fire",
       "extra-fire"
     ],
@@ -47072,9 +47042,9 @@
     "id": "unique-419",
     "code": "xsk",
     "name": {
-      "en": "Unique Warlock Helm",
-      "zh-TW": "Unique Warlock Helm",
-      "zh-CN": "Unique Warlock Helm"
+      "en": "Hellwarden's Will",
+      "zh-TW": "地獄刑長的意志",
+      "zh-CN": "地狱禁卫的意志"
     },
     "kind": "unique",
     "setName": null,
@@ -47191,7 +47161,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": null
+    "hdIcon": "unique-444"
   },
   {
     "id": "unique-426",
@@ -48866,8 +48836,8 @@
           "zh-TW": "降低敵方毒素抗性 %",
           "zh-CN": "降低敌方毒素抗性 %"
         },
-        "min": 5,
-        "max": 10,
+        "min": -10,
+        "max": -5,
         "isSkillRef": false,
         "signed": false
       },
@@ -48990,8 +48960,8 @@
           "zh-TW": "降低敵方火焰抗性 %",
           "zh-CN": "降低敌方火焰抗性 %"
         },
-        "min": 5,
-        "max": 10,
+        "min": -10,
+        "max": -5,
         "isSkillRef": false,
         "signed": false
       },
@@ -49116,8 +49086,8 @@
           "zh-TW": "降低敵方冷凍抗性 %",
           "zh-CN": "降低敌方冷冻抗性 %"
         },
-        "min": 5,
-        "max": 10,
+        "min": -10,
+        "max": -5,
         "isSkillRef": false,
         "signed": false
       },
@@ -49368,8 +49338,8 @@
           "zh-TW": "降低敵方魔法抗性 %",
           "zh-CN": "降低敌方魔法抗性 %"
         },
-        "min": 5,
-        "max": 10,
+        "min": -10,
+        "max": -5,
         "isSkillRef": false,
         "signed": false
       },
@@ -49494,8 +49464,8 @@
           "zh-TW": "降低敵方閃電抗性 %",
           "zh-CN": "降低敌方闪电抗性 %"
         },
-        "min": 5,
-        "max": 10,
+        "min": -10,
+        "max": -5,
         "isSkillRef": false,
         "signed": false
       },
@@ -49569,131 +49539,6 @@
       "addxp",
       "mag%",
       "gold%"
-    ],
-    "note": null,
-    "statPools": []
-  },
-  {
-    "id": "unique-444",
-    "code": "xsk",
-    "name": {
-      "en": "Hellwarden's Will",
-      "zh-TW": "地獄刑長的意志",
-      "zh-CN": "地狱禁卫的意志"
-    },
-    "kind": "unique",
-    "setName": null,
-    "levelReq": 50,
-    "baseName": {
-      "en": "death mask",
-      "zh-TW": "死亡面具",
-      "zh-CN": "死者面甲"
-    },
-    "grade": "exceptional",
-    "slotCategory": "helms",
-    "defense": {
-      "min": 54,
-      "max": 86
-    },
-    "requiredStrength": 55,
-    "requiredDexterity": null,
-    "oneHandDamage": null,
-    "twoHandDamage": null,
-    "weaponSpeed": null,
-    "durability": 20,
-    "invFile": "invmsk",
-    "hdIcon": "unique-444",
-    "stats": [
-      {
-        "key": "pierce-fire",
-        "label": {
-          "en": "Enemy Fire Resistance %",
-          "zh-TW": "降低敵方火焰抗性 %",
-          "zh-CN": "降低敌方火焰抗性 %"
-        },
-        "min": 5,
-        "max": 8,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
-        "key": "pierce-mag",
-        "label": {
-          "en": "Enemy Magic Resistance %",
-          "zh-TW": "降低敵方魔法抗性 %",
-          "zh-CN": "降低敌方魔法抗性 %"
-        },
-        "min": 5,
-        "max": 8,
-        "isSkillRef": false,
-        "signed": false
-      },
-      {
-        "key": "ac%",
-        "label": {
-          "en": "Enhanced Defense %",
-          "zh-TW": "強化防禦力 %",
-          "zh-CN": "强化防御力 %"
-        },
-        "min": 150,
-        "max": 215,
-        "isSkillRef": false,
-        "signed": true
-      },
-      {
-        "key": "mana-kill",
-        "label": {
-          "en": "Mana after Kill",
-          "zh-TW": "擊殺後恢復魔力值",
-          "zh-CN": "击杀后恢复魔力值"
-        },
-        "min": 4,
-        "max": 6,
-        "isSkillRef": false,
-        "signed": true
-      }
-    ],
-    "fixedStats": [
-      {
-        "key": "allskills",
-        "label": {
-          "en": "All Skills",
-          "zh-TW": "全部技能",
-          "zh-CN": "全部技能"
-        },
-        "isSkillRef": false,
-        "signed": true,
-        "value": 1
-      },
-      {
-        "key": "cast1",
-        "label": {
-          "en": "Faster Cast Rate",
-          "zh-TW": "加快施法速度",
-          "zh-CN": "加快施法速度"
-        },
-        "isSkillRef": false,
-        "signed": true,
-        "value": 20
-      },
-      {
-        "key": "swing2",
-        "label": {
-          "en": "Faster Attack Rate",
-          "zh-TW": "加快攻擊速度",
-          "zh-CN": "加快攻击速度"
-        },
-        "isSkillRef": false,
-        "signed": true,
-        "value": 20
-      }
-    ],
-    "setBonuses": [],
-    "statPriority": [
-      "pierce-fire",
-      "pierce-mag",
-      "ac%",
-      "mana-kill"
     ],
     "note": null,
     "statPools": []
