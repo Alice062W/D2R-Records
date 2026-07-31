@@ -89,7 +89,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/the_gnasher.png"
+    "hdIcon": "unique-0"
   },
   {
     "id": "unique-1",
@@ -192,7 +192,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/deathspade.png"
+    "hdIcon": "unique-1"
   },
   {
     "id": "unique-2",
@@ -317,7 +317,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/double_axe.png"
+    "hdIcon": "unique-2"
   },
   {
     "id": "unique-3",
@@ -446,7 +446,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/mindrend.png"
+    "hdIcon": "unique-3"
   },
   {
     "id": "unique-4",
@@ -548,7 +548,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/war_axe.png"
+    "hdIcon": "unique-4"
   },
   {
     "id": "unique-5",
@@ -640,7 +640,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/large_axe.png"
+    "hdIcon": "unique-5"
   },
   {
     "id": "unique-6",
@@ -743,7 +743,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/broad_axe.png"
+    "hdIcon": "unique-6"
   },
   {
     "id": "unique-7",
@@ -848,7 +848,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/the_chieftan.png"
+    "hdIcon": "unique-7"
   },
   {
     "id": "unique-8",
@@ -966,7 +966,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/brainhew.png"
+    "hdIcon": "unique-8"
   },
   {
     "id": "unique-9",
@@ -1084,7 +1084,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/giant_axe.png"
+    "hdIcon": "unique-9"
   },
   {
     "id": "unique-10",
@@ -1198,7 +1198,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/wand/iros_torch.png"
+    "hdIcon": "unique-10"
   },
   {
     "id": "unique-11",
@@ -1351,7 +1351,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/wand/yew_wand.png"
+    "hdIcon": "unique-11"
   },
   {
     "id": "unique-12",
@@ -1487,7 +1487,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/wand/gravenspine.png"
+    "hdIcon": "unique-12"
   },
   {
     "id": "unique-13",
@@ -1597,7 +1597,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/wand/grim_wand.png"
+    "hdIcon": "unique-13"
   },
   {
     "id": "unique-14",
@@ -1711,7 +1711,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/club/felloak.png"
+    "hdIcon": "unique-14"
   },
   {
     "id": "unique-15",
@@ -1825,7 +1825,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/scepter/scepter.png"
+    "hdIcon": "unique-15"
   },
   {
     "id": "unique-16",
@@ -1967,7 +1967,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/scepter/grand_scepter.png"
+    "hdIcon": "unique-16"
   },
   {
     "id": "unique-17",
@@ -2098,7 +2098,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/scepter/war_scepter.png"
+    "hdIcon": "unique-17"
   },
   {
     "id": "unique-18",
@@ -2190,7 +2190,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/club/stoutnail.png"
+    "hdIcon": "unique-18"
   },
   {
     "id": "unique-19",
@@ -2304,7 +2304,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/mace/mace.png"
+    "hdIcon": "unique-19"
   },
   {
     "id": "unique-20",
@@ -2425,7 +2425,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/mace/bloodrise.png"
+    "hdIcon": "unique-20"
   },
   {
     "id": "unique-21",
@@ -2550,7 +2550,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/mace/flail.png"
+    "hdIcon": "unique-21"
   },
   {
     "id": "unique-22",
@@ -2666,7 +2666,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/hammer/war_hammer.png"
+    "hdIcon": "unique-22"
   },
   {
     "id": "unique-23",
@@ -2769,7 +2769,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/hammer/bonesob.png"
+    "hdIcon": "unique-23"
   },
   {
     "id": "unique-24",
@@ -2861,7 +2861,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/hammer/great_maul.png"
+    "hdIcon": "unique-24"
   },
   {
     "id": "unique-25",
@@ -2971,7 +2971,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/short_sword.png"
+    "hdIcon": "unique-25"
   },
   {
     "id": "unique-26",
@@ -3096,7 +3096,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/blood_crescent.png"
+    "hdIcon": "unique-26"
   },
   {
     "id": "unique-27",
@@ -3210,7 +3210,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/krintizs_skewer.png"
+    "hdIcon": "unique-27"
   },
   {
     "id": "unique-28",
@@ -3326,7 +3326,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/gleamscythe.png"
+    "hdIcon": "unique-28"
   },
   {
     "id": "unique-30",
@@ -3455,7 +3455,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/griswolds_edge.png"
+    "hdIcon": "unique-30"
   },
   {
     "id": "unique-31",
@@ -3572,7 +3572,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/hellplague.png"
+    "hdIcon": "unique-31"
   },
   {
     "id": "unique-32",
@@ -3686,7 +3686,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/war_sword.png"
+    "hdIcon": "unique-32"
   },
   {
     "id": "unique-33",
@@ -3809,7 +3809,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/shadowfang.png"
+    "hdIcon": "unique-33"
   },
   {
     "id": "unique-34",
@@ -3923,7 +3923,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/claymore.png"
+    "hdIcon": "unique-34"
   },
   {
     "id": "unique-35",
@@ -4050,7 +4050,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/kinemils_awl.png"
+    "hdIcon": "unique-35"
   },
   {
     "id": "unique-36",
@@ -4173,7 +4173,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/blacktongue.png"
+    "hdIcon": "unique-36"
   },
   {
     "id": "unique-37",
@@ -4274,7 +4274,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/flamberge.png"
+    "hdIcon": "unique-37"
   },
   {
     "id": "unique-38",
@@ -4397,7 +4397,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/the_patriarch.png"
+    "hdIcon": "unique-38"
   },
   {
     "id": "unique-39",
@@ -4485,7 +4485,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/knife/dagger.png"
+    "hdIcon": "unique-39"
   },
   {
     "id": "unique-40",
@@ -4595,7 +4595,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/knife/dirk.png"
+    "hdIcon": "unique-40"
   },
   {
     "id": "unique-41",
@@ -4698,7 +4698,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/knife/the_jade_tan_do.png"
+    "hdIcon": "unique-41"
   },
   {
     "id": "unique-42",
@@ -4786,7 +4786,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/knife/blade.png"
+    "hdIcon": "unique-42"
   },
   {
     "id": "unique-43",
@@ -4889,7 +4889,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/spear/spear.png"
+    "hdIcon": "unique-43"
   },
   {
     "id": "unique-44",
@@ -5003,7 +5003,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/spear/razortine.png"
+    "hdIcon": "unique-44"
   },
   {
     "id": "unique-45",
@@ -5108,7 +5108,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/spear/brandistock.png"
+    "hdIcon": "unique-45"
   },
   {
     "id": "unique-46",
@@ -5207,7 +5207,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/spear/spetum.png"
+    "hdIcon": "unique-46"
   },
   {
     "id": "unique-47",
@@ -5343,7 +5343,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/spear/pike.png"
+    "hdIcon": "unique-47"
   },
   {
     "id": "unique-48",
@@ -5431,7 +5431,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/polearm/bardiche.png"
+    "hdIcon": "unique-48"
   },
   {
     "id": "unique-49",
@@ -5547,7 +5547,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/polearm/voulge.png"
+    "hdIcon": "unique-49"
   },
   {
     "id": "unique-50",
@@ -5661,7 +5661,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/polearm/soul_harvest.png"
+    "hdIcon": "unique-50"
   },
   {
     "id": "unique-51",
@@ -5766,7 +5766,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/polearm/poleaxe.png"
+    "hdIcon": "unique-51"
   },
   {
     "id": "unique-52",
@@ -5902,7 +5902,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/polearm/halberd.png"
+    "hdIcon": "unique-52"
   },
   {
     "id": "unique-53",
@@ -6012,7 +6012,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/polearm/war_scythe.png"
+    "hdIcon": "unique-53"
   },
   {
     "id": "unique-54",
@@ -6148,7 +6148,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/staff/short_staff.png"
+    "hdIcon": "unique-54"
   },
   {
     "id": "unique-55",
@@ -6273,7 +6273,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/staff/long_staff.png"
+    "hdIcon": "unique-55"
   },
   {
     "id": "unique-56",
@@ -6420,7 +6420,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/staff/lazarus_spire.png"
+    "hdIcon": "unique-56"
   },
   {
     "id": "unique-57",
@@ -6534,7 +6534,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/staff/battle_staff.png"
+    "hdIcon": "unique-57"
   },
   {
     "id": "unique-58",
@@ -6666,7 +6666,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/staff/war_staff.png"
+    "hdIcon": "unique-58"
   },
   {
     "id": "unique-59",
@@ -6776,7 +6776,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/short_bow.png"
+    "hdIcon": "unique-59"
   },
   {
     "id": "unique-60",
@@ -6890,7 +6890,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/hunters_bow.png"
+    "hdIcon": "unique-60"
   },
   {
     "id": "unique-61",
@@ -6993,7 +6993,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/long_bow.png"
+    "hdIcon": "unique-61"
   },
   {
     "id": "unique-62",
@@ -7107,7 +7107,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/piercerib.png"
+    "hdIcon": "unique-62"
   },
   {
     "id": "unique-63",
@@ -7223,7 +7223,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/pullspite.png"
+    "hdIcon": "unique-63"
   },
   {
     "id": "unique-64",
@@ -7363,7 +7363,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/long_battle_bow.png"
+    "hdIcon": "unique-64"
   },
   {
     "id": "unique-65",
@@ -7503,7 +7503,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/hellclap.png"
+    "hdIcon": "unique-65"
   },
   {
     "id": "unique-66",
@@ -7606,7 +7606,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/long_war_bow.png"
+    "hdIcon": "unique-66"
   },
   {
     "id": "unique-67",
@@ -7716,7 +7716,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/leadcrow.png"
+    "hdIcon": "unique-67"
   },
   {
     "id": "unique-68",
@@ -7826,7 +7826,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/ichorsting.png"
+    "hdIcon": "unique-68"
   },
   {
     "id": "unique-69",
@@ -7953,7 +7953,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/hellcast.png"
+    "hdIcon": "unique-69"
   },
   {
     "id": "unique-70",
@@ -8056,7 +8056,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/doomspittle.png"
+    "hdIcon": "unique-70"
   },
   {
     "id": "unique-71",
@@ -8149,7 +8149,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/war_bonnet.png"
+    "hdIcon": "unique-71"
   },
   {
     "id": "unique-72",
@@ -8224,7 +8224,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/skull_cap.png"
+    "hdIcon": "unique-72"
   },
   {
     "id": "unique-73",
@@ -8317,7 +8317,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/coif_of_glory.png"
+    "hdIcon": "unique-73"
   },
   {
     "id": "unique-74",
@@ -8427,7 +8427,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/duskdeep.png"
+    "hdIcon": "unique-74"
   },
   {
     "id": "unique-75",
@@ -8520,7 +8520,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/wormskull.png"
+    "hdIcon": "unique-75"
   },
   {
     "id": "unique-76",
@@ -8624,7 +8624,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/great_helm.png"
+    "hdIcon": "unique-76"
   },
   {
     "id": "unique-77",
@@ -8756,7 +8756,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/crown.png"
+    "hdIcon": "unique-77"
   },
   {
     "id": "unique-78",
@@ -8849,7 +8849,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/mask.png"
+    "hdIcon": "unique-78"
   },
   {
     "id": "unique-79",
@@ -8953,7 +8953,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/quilted_armor.png"
+    "hdIcon": "unique-79"
   },
   {
     "id": "unique-80",
@@ -9057,7 +9057,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/leather_armor.png"
+    "hdIcon": "unique-80"
   },
   {
     "id": "unique-81",
@@ -9183,7 +9183,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/hard_leather_armor.png"
+    "hdIcon": "unique-81"
   },
   {
     "id": "unique-82",
@@ -9287,7 +9287,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/studded_leather.png"
+    "hdIcon": "unique-82"
   },
   {
     "id": "unique-83",
@@ -9395,7 +9395,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/ring_mail.png"
+    "hdIcon": "unique-83"
   },
   {
     "id": "unique-84",
@@ -9492,7 +9492,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/scale_mail.png"
+    "hdIcon": "unique-84"
   },
   {
     "id": "unique-85",
@@ -9582,7 +9582,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/chain_mail.png"
+    "hdIcon": "unique-85"
   },
   {
     "id": "unique-86",
@@ -9679,7 +9679,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/breast_plate.png"
+    "hdIcon": "unique-86"
   },
   {
     "id": "unique-87",
@@ -9776,7 +9776,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/splint_mail.png"
+    "hdIcon": "unique-87"
   },
   {
     "id": "unique-88",
@@ -9862,7 +9862,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/plate_mail.png"
+    "hdIcon": "unique-88"
   },
   {
     "id": "unique-89",
@@ -9959,7 +9959,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/field_plate.png"
+    "hdIcon": "unique-89"
   },
   {
     "id": "unique-90",
@@ -10041,7 +10041,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/gothic_plate.png"
+    "hdIcon": "unique-90"
   },
   {
     "id": "unique-91",
@@ -10138,7 +10138,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/goldskin.png"
+    "hdIcon": "unique-91"
   },
   {
     "id": "unique-92",
@@ -10224,7 +10224,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/victors_silk.png"
+    "hdIcon": "unique-92"
   },
   {
     "id": "unique-93",
@@ -10328,7 +10328,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/light_plate.png"
+    "hdIcon": "unique-93"
   },
   {
     "id": "unique-94",
@@ -10469,7 +10469,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/shield/pelta_lunata.png"
+    "hdIcon": "unique-94"
   },
   {
     "id": "unique-95",
@@ -10610,7 +10610,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/shield/umbral_disk.png"
+    "hdIcon": "unique-95"
   },
   {
     "id": "unique-96",
@@ -10753,7 +10753,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/shield/stormguild.png"
+    "hdIcon": "unique-96"
   },
   {
     "id": "unique-97",
@@ -10870,7 +10870,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/shield/wall_of_the_eyeless.png"
+    "hdIcon": "unique-97"
   },
   {
     "id": "unique-98",
@@ -10976,7 +10976,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/shield/swordback_hold.png"
+    "hdIcon": "unique-98"
   },
   {
     "id": "unique-99",
@@ -11128,7 +11128,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/shield/steelclash.png"
+    "hdIcon": "unique-99"
   },
   {
     "id": "unique-100",
@@ -11258,7 +11258,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/shield/bverrit_keep.png"
+    "hdIcon": "unique-100"
   },
   {
     "id": "unique-101",
@@ -11375,7 +11375,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/shield/the_ward.png"
+    "hdIcon": "unique-101"
   },
   {
     "id": "unique-102",
@@ -11483,7 +11483,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/glove/gloves_l.png"
+    "hdIcon": "unique-102"
   },
   {
     "id": "unique-103",
@@ -11591,7 +11591,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/glove/heavy_gloves.png"
+    "hdIcon": "unique-103"
   },
   {
     "id": "unique-104",
@@ -11701,7 +11701,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/glove/bracers_m.png"
+    "hdIcon": "unique-104"
   },
   {
     "id": "unique-105",
@@ -11811,7 +11811,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/glove/light_gauntlets.png"
+    "hdIcon": "unique-105"
   },
   {
     "id": "unique-106",
@@ -11910,7 +11910,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/glove/gaunlets_h.png"
+    "hdIcon": "unique-106"
   },
   {
     "id": "unique-107",
@@ -12029,7 +12029,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/boot/leather_boots.png"
+    "hdIcon": "unique-107"
   },
   {
     "id": "unique-108",
@@ -12146,7 +12146,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/boot/heavy_boots.png"
+    "hdIcon": "unique-108"
   },
   {
     "id": "unique-109",
@@ -12263,7 +12263,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/boot/chain_boots.png"
+    "hdIcon": "unique-109"
   },
   {
     "id": "unique-110",
@@ -12380,7 +12380,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/boot/light_plate_boots.png"
+    "hdIcon": "unique-110"
   },
   {
     "id": "unique-111",
@@ -12508,7 +12508,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/boot/plate_boots.png"
+    "hdIcon": "unique-111"
   },
   {
     "id": "unique-112",
@@ -12590,7 +12590,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/belt/sash_l.png"
+    "hdIcon": "unique-112"
   },
   {
     "id": "unique-113",
@@ -12698,7 +12698,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/belt/light_belt.png"
+    "hdIcon": "unique-113"
   },
   {
     "id": "unique-114",
@@ -12806,7 +12806,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/belt/belt_m.png"
+    "hdIcon": "unique-114"
   },
   {
     "id": "unique-115",
@@ -12916,7 +12916,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/belt/heavy_belt.png"
+    "hdIcon": "unique-115"
   },
   {
     "id": "unique-116",
@@ -13035,7 +13035,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/belt/girdle_h.png"
+    "hdIcon": "unique-116"
   },
   {
     "id": "unique-117",
@@ -13129,7 +13129,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/amulet/amulet.png"
+    "hdIcon": "unique-117"
   },
   {
     "id": "unique-118",
@@ -13255,7 +13255,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/amulet/amulet.png"
+    "hdIcon": "unique-118"
   },
   {
     "id": "unique-119",
@@ -13378,7 +13378,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/amulet/amulet.png"
+    "hdIcon": "unique-119"
   },
   {
     "id": "unique-120",
@@ -13463,7 +13463,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/ring/ring.png"
+    "hdIcon": "unique-120"
   },
   {
     "id": "unique-121",
@@ -13548,7 +13548,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/ring/ring.png"
+    "hdIcon": "unique-121"
   },
   {
     "id": "unique-122",
@@ -13638,7 +13638,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/ring/ring.png"
+    "hdIcon": "unique-122"
   },
   {
     "id": "unique-124",
@@ -13704,7 +13704,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/staff/staff_of_the_kings.png"
+    "hdIcon": "unique-124"
   },
   {
     "id": "unique-125",
@@ -13803,7 +13803,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/staff/horadric_staff.png"
+    "hdIcon": "unique-125"
   },
   {
     "id": "unique-126",
@@ -13891,7 +13891,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/hammer/hellforge_hammer.png"
+    "hdIcon": "unique-126"
   },
   {
     "id": "unique-127",
@@ -13978,7 +13978,8 @@
     "setBonuses": [],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": null
   },
   {
     "id": "unique-128",
@@ -14087,7 +14088,8 @@
     "setBonuses": [],
     "statPriority": [],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": null
   },
   {
     "id": "unique-129",
@@ -14212,7 +14214,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/the_gnasher.png"
+    "hdIcon": "unique-129"
   },
   {
     "id": "unique-130",
@@ -14328,7 +14330,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/deathspade.png"
+    "hdIcon": "unique-130"
   },
   {
     "id": "unique-131",
@@ -14486,7 +14488,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/double_axe.png"
+    "hdIcon": "unique-131"
   },
   {
     "id": "unique-132",
@@ -14591,7 +14593,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/mindrend.png"
+    "hdIcon": "unique-132"
   },
   {
     "id": "unique-133",
@@ -14705,7 +14707,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/war_axe.png"
+    "hdIcon": "unique-133"
   },
   {
     "id": "unique-134",
@@ -14815,7 +14817,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/large_axe.png"
+    "hdIcon": "unique-134"
   },
   {
     "id": "unique-135",
@@ -14973,7 +14975,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/broad_axe.png"
+    "hdIcon": "unique-135"
   },
   {
     "id": "unique-136",
@@ -15111,7 +15113,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/stormrider.png"
+    "hdIcon": "unique-136"
   },
   {
     "id": "unique-137",
@@ -15247,7 +15249,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/brainhew.png"
+    "hdIcon": "unique-137"
   },
   {
     "id": "unique-138",
@@ -15376,7 +15378,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/the_minataur.png"
+    "hdIcon": "unique-138"
   },
   {
     "id": "unique-139",
@@ -15486,7 +15488,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/wand/wand.png"
+    "hdIcon": "unique-139"
   },
   {
     "id": "unique-140",
@@ -15607,7 +15609,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/wand/yew_wand.png"
+    "hdIcon": "unique-140"
   },
   {
     "id": "unique-141",
@@ -15761,7 +15763,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/wand/gravenspine.png"
+    "hdIcon": "unique-141"
   },
   {
     "id": "unique-142",
@@ -15893,7 +15895,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/wand/blackhand_key.png"
+    "hdIcon": "unique-142"
   },
   {
     "id": "unique-143",
@@ -16007,7 +16009,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/club/felloak.png"
+    "hdIcon": "unique-143"
   },
   {
     "id": "unique-144",
@@ -16154,7 +16156,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/scepter/scepter.png"
+    "hdIcon": "unique-144"
   },
   {
     "id": "unique-145",
@@ -16283,7 +16285,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/scepter/grand_scepter.png"
+    "hdIcon": "unique-145"
   },
   {
     "id": "unique-146",
@@ -16443,7 +16445,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/scepter/war_scepter.png"
+    "hdIcon": "unique-146"
   },
   {
     "id": "unique-147",
@@ -16592,7 +16594,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/club/stoutnail.png"
+    "hdIcon": "unique-147"
   },
   {
     "id": "unique-148",
@@ -16710,7 +16712,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/mace/mace.png"
+    "hdIcon": "unique-148"
   },
   {
     "id": "unique-149",
@@ -16841,7 +16843,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/mace/bloodrise.png"
+    "hdIcon": "unique-149"
   },
   {
     "id": "unique-150",
@@ -16968,7 +16970,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/mace/flail.png"
+    "hdIcon": "unique-150"
   },
   {
     "id": "unique-151",
@@ -17089,7 +17091,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/hammer/war_hammer.png"
+    "hdIcon": "unique-151"
   },
   {
     "id": "unique-152",
@@ -17214,7 +17216,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/hammer/maul.png"
+    "hdIcon": "unique-152"
   },
   {
     "id": "unique-153",
@@ -17341,7 +17343,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/hammer/the_gavel_of_pain.png"
+    "hdIcon": "unique-153"
   },
   {
     "id": "unique-154",
@@ -17492,7 +17494,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/short_sword.png"
+    "hdIcon": "unique-154"
   },
   {
     "id": "unique-155",
@@ -17617,7 +17619,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/blood_crescent.png"
+    "hdIcon": "unique-155"
   },
   {
     "id": "unique-156",
@@ -17744,7 +17746,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/hexfire.png"
+    "hdIcon": "unique-156"
   },
   {
     "id": "unique-157",
@@ -17860,7 +17862,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/falchion.png"
+    "hdIcon": "unique-157"
   },
   {
     "id": "unique-158",
@@ -17978,7 +17980,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/ginthers_rift.png"
+    "hdIcon": "unique-158"
   },
   {
     "id": "unique-159",
@@ -18077,7 +18079,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/broad_sword.png"
+    "hdIcon": "unique-159"
   },
   {
     "id": "unique-160",
@@ -18191,7 +18193,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/plague_bearer.png"
+    "hdIcon": "unique-160"
   },
   {
     "id": "unique-161",
@@ -18327,7 +18329,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/war_sword.png"
+    "hdIcon": "unique-161"
   },
   {
     "id": "unique-162",
@@ -18450,7 +18452,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/shadowfang.png"
+    "hdIcon": "unique-162"
   },
   {
     "id": "unique-163",
@@ -18575,7 +18577,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/claymore.png"
+    "hdIcon": "unique-163"
   },
   {
     "id": "unique-164",
@@ -18698,7 +18700,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/kinemils_awl.png"
+    "hdIcon": "unique-164"
   },
   {
     "id": "unique-165",
@@ -18856,7 +18858,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/blacktongue.png"
+    "hdIcon": "unique-165"
   },
   {
     "id": "unique-166",
@@ -18992,7 +18994,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/todesfaelle_flamme.png"
+    "hdIcon": "unique-166"
   },
   {
     "id": "unique-167",
@@ -19150,7 +19152,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/the_patriarch.png"
+    "hdIcon": "unique-167"
   },
   {
     "id": "unique-168",
@@ -19288,7 +19290,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/knife/dagger.png"
+    "hdIcon": "unique-168"
   },
   {
     "id": "unique-169",
@@ -19415,7 +19417,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/knife/dirk.png"
+    "hdIcon": "unique-169"
   },
   {
     "id": "unique-170",
@@ -19551,7 +19553,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/knife/the_jade_tan_do.png"
+    "hdIcon": "unique-170"
   },
   {
     "id": "unique-171",
@@ -19654,7 +19656,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/knife/stormspike.png"
+    "hdIcon": "unique-171"
   },
   {
     "id": "unique-172",
@@ -19790,7 +19792,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/spear/spear.png"
+    "hdIcon": "unique-172"
   },
   {
     "id": "unique-173",
@@ -19906,7 +19908,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/spear/razortine.png"
+    "hdIcon": "unique-173"
   },
   {
     "id": "unique-174",
@@ -20033,7 +20035,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/spear/soulfeast_tine.png"
+    "hdIcon": "unique-174"
   },
   {
     "id": "unique-175",
@@ -20138,7 +20140,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/spear/spetum.png"
+    "hdIcon": "unique-175"
   },
   {
     "id": "unique-176",
@@ -20287,7 +20289,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/spear/pike.png"
+    "hdIcon": "unique-176"
   },
   {
     "id": "unique-177",
@@ -20401,7 +20403,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/polearm/bardiche.png"
+    "hdIcon": "unique-177"
   },
   {
     "id": "unique-178",
@@ -20515,7 +20517,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/polearm/voulge.png"
+    "hdIcon": "unique-178"
   },
   {
     "id": "unique-179",
@@ -20631,7 +20633,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/polearm/athenas_wrath.png"
+    "hdIcon": "unique-179"
   },
   {
     "id": "unique-180",
@@ -20760,7 +20762,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/polearm/poleaxe.png"
+    "hdIcon": "unique-180"
   },
   {
     "id": "unique-181",
@@ -20878,7 +20880,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/polearm/halberd.png"
+    "hdIcon": "unique-181"
   },
   {
     "id": "unique-182",
@@ -21029,7 +21031,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/polearm/war_scythe.png"
+    "hdIcon": "unique-182"
   },
   {
     "id": "unique-183",
@@ -21150,7 +21152,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/staff/short_staff.png"
+    "hdIcon": "unique-183"
   },
   {
     "id": "unique-184",
@@ -21299,7 +21301,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/staff/long_staff.png"
+    "hdIcon": "unique-184"
   },
   {
     "id": "unique-185",
@@ -21437,7 +21439,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/staff/lazarus_spire.png"
+    "hdIcon": "unique-185"
   },
   {
     "id": "unique-186",
@@ -21547,7 +21549,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/staff/battle_staff.png"
+    "hdIcon": "unique-186"
   },
   {
     "id": "unique-187",
@@ -21635,7 +21637,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/staff/skullcollector.png"
+    "hdIcon": "unique-187"
   },
   {
     "id": "unique-188",
@@ -21762,7 +21764,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/short_bow.png"
+    "hdIcon": "unique-188"
   },
   {
     "id": "unique-189",
@@ -21878,7 +21880,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/hunters_bow.png"
+    "hdIcon": "unique-189"
   },
   {
     "id": "unique-190",
@@ -21994,7 +21996,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/kuko_shakaku.png"
+    "hdIcon": "unique-190"
   },
   {
     "id": "unique-191",
@@ -22112,7 +22114,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/piercerib.png"
+    "hdIcon": "unique-191"
   },
   {
     "id": "unique-192",
@@ -22226,7 +22228,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/whichwild_string.png"
+    "hdIcon": "unique-192"
   },
   {
     "id": "unique-193",
@@ -22355,7 +22357,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/long_battle_bow.png"
+    "hdIcon": "unique-193"
   },
   {
     "id": "unique-194",
@@ -22508,7 +22510,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/hellclap.png"
+    "hdIcon": "unique-194"
   },
   {
     "id": "unique-195",
@@ -22639,7 +22641,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/long_war_bow.png"
+    "hdIcon": "unique-195"
   },
   {
     "id": "unique-196",
@@ -22770,7 +22772,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/langer_briser.png"
+    "hdIcon": "unique-196"
   },
   {
     "id": "unique-197",
@@ -22906,7 +22908,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/pus_spiter.png"
+    "hdIcon": "unique-197"
   },
   {
     "id": "unique-198",
@@ -23046,7 +23048,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/hellcast.png"
+    "hdIcon": "unique-198"
   },
   {
     "id": "unique-199",
@@ -23167,7 +23169,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/doomspittle.png"
+    "hdIcon": "unique-199"
   },
   {
     "id": "unique-201",
@@ -23275,7 +23277,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/cap_hat.png"
+    "hdIcon": "unique-201"
   },
   {
     "id": "unique-202",
@@ -23400,7 +23402,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/rockstopper.png"
+    "hdIcon": "unique-202"
   },
   {
     "id": "unique-203",
@@ -23510,7 +23512,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/coif_of_glory.png"
+    "hdIcon": "unique-203"
   },
   {
     "id": "unique-204",
@@ -23629,7 +23631,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/duskdeep.png"
+    "hdIcon": "unique-204"
   },
   {
     "id": "unique-205",
@@ -23730,7 +23732,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/great_helm.png"
+    "hdIcon": "unique-205"
   },
   {
     "id": "unique-206",
@@ -23853,7 +23855,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/crown_of_thieves.png"
+    "hdIcon": "unique-206"
   },
   {
     "id": "unique-207",
@@ -23961,7 +23963,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/mask.png"
+    "hdIcon": "unique-207"
   },
   {
     "id": "unique-208",
@@ -24088,7 +24090,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/wormskull.png"
+    "hdIcon": "unique-208"
   },
   {
     "id": "unique-209",
@@ -24185,7 +24187,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/quilted_armor.png"
+    "hdIcon": "unique-209"
   },
   {
     "id": "unique-210",
@@ -24284,7 +24286,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/leather_armor.png"
+    "hdIcon": "unique-210"
   },
   {
     "id": "unique-211",
@@ -24396,7 +24398,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/hard_leather_armor.png"
+    "hdIcon": "unique-211"
   },
   {
     "id": "unique-212",
@@ -24508,7 +24510,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/ironpelt.png"
+    "hdIcon": "unique-212"
   },
   {
     "id": "unique-213",
@@ -24629,7 +24631,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/ring_mail.png"
+    "hdIcon": "unique-213"
   },
   {
     "id": "unique-214",
@@ -24739,7 +24741,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/scale_mail.png"
+    "hdIcon": "unique-214"
   },
   {
     "id": "unique-215",
@@ -24825,7 +24827,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/chain_mail.png"
+    "hdIcon": "unique-215"
   },
   {
     "id": "unique-216",
@@ -24977,7 +24979,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/breast_plate.png"
+    "hdIcon": "unique-216"
   },
   {
     "id": "unique-217",
@@ -25085,7 +25087,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/splint_mail.png"
+    "hdIcon": "unique-217"
   },
   {
     "id": "unique-218",
@@ -25204,7 +25206,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/plate_mail.png"
+    "hdIcon": "unique-218"
   },
   {
     "id": "unique-219",
@@ -25327,7 +25329,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/field_plate.png"
+    "hdIcon": "unique-219"
   },
   {
     "id": "unique-220",
@@ -25457,7 +25459,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/gothic_plate.png"
+    "hdIcon": "unique-220"
   },
   {
     "id": "unique-221",
@@ -25569,7 +25571,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/full_plate_mail.png"
+    "hdIcon": "unique-221"
   },
   {
     "id": "unique-222",
@@ -25690,7 +25692,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/corpsemourn.png"
+    "hdIcon": "unique-222"
   },
   {
     "id": "unique-223",
@@ -25811,7 +25813,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/light_plate.png"
+    "hdIcon": "unique-223"
   },
   {
     "id": "unique-224",
@@ -25917,7 +25919,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/shield/pelta_lunata.png"
+    "hdIcon": "unique-224"
   },
   {
     "id": "unique-225",
@@ -26023,7 +26025,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/shield/mosers_blessed_circle.png"
+    "hdIcon": "unique-225"
   },
   {
     "id": "unique-226",
@@ -26175,7 +26177,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/shield/stormchaser.png"
+    "hdIcon": "unique-226"
   },
   {
     "id": "unique-227",
@@ -26333,7 +26335,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/shield/steelclash.png"
+    "hdIcon": "unique-227"
   },
   {
     "id": "unique-228",
@@ -26467,7 +26469,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/shield/bverrit_keep.png"
+    "hdIcon": "unique-228"
   },
   {
     "id": "unique-229",
@@ -26606,7 +26608,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/shield/the_ward.png"
+    "hdIcon": "unique-229"
   },
   {
     "id": "unique-230",
@@ -26736,7 +26738,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/shield/lidless_wall.png"
+    "hdIcon": "unique-230"
   },
   {
     "id": "unique-231",
@@ -26853,7 +26855,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/shield/lance_guard.png"
+    "hdIcon": "unique-231"
   },
   {
     "id": "unique-232",
@@ -26974,7 +26976,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/glove/gloves_l.png"
+    "hdIcon": "unique-232"
   },
   {
     "id": "unique-233",
@@ -27075,7 +27077,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/glove/heavy_gloves.png"
+    "hdIcon": "unique-233"
   },
   {
     "id": "unique-234",
@@ -27174,7 +27176,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/glove/bracers_m.png"
+    "hdIcon": "unique-234"
   },
   {
     "id": "unique-235",
@@ -27295,7 +27297,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/glove/light_gauntlets.png"
+    "hdIcon": "unique-235"
   },
   {
     "id": "unique-236",
@@ -27405,7 +27407,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/glove/gaunlets_h.png"
+    "hdIcon": "unique-236"
   },
   {
     "id": "unique-237",
@@ -27559,7 +27561,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/boot/leather_boots.png"
+    "hdIcon": "unique-237"
   },
   {
     "id": "unique-238",
@@ -27700,7 +27702,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/boot/heavy_boots.png"
+    "hdIcon": "unique-238"
   },
   {
     "id": "unique-239",
@@ -27806,7 +27808,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/boot/chain_boots.png"
+    "hdIcon": "unique-239"
   },
   {
     "id": "unique-240",
@@ -27962,7 +27964,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/boot/light_plate_boots.png"
+    "hdIcon": "unique-240"
   },
   {
     "id": "unique-241",
@@ -28101,7 +28103,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/boot/plate_boots.png"
+    "hdIcon": "unique-241"
   },
   {
     "id": "unique-242",
@@ -28215,7 +28217,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/belt/sash_l.png"
+    "hdIcon": "unique-242"
   },
   {
     "id": "unique-243",
@@ -28323,7 +28325,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/belt/light_belt.png"
+    "hdIcon": "unique-243"
   },
   {
     "id": "unique-244",
@@ -28431,7 +28433,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/belt/belt_m.png"
+    "hdIcon": "unique-244"
   },
   {
     "id": "unique-245",
@@ -28563,7 +28565,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/belt/heavy_belt.png"
+    "hdIcon": "unique-245"
   },
   {
     "id": "unique-246",
@@ -28706,7 +28708,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/belt/girdle_h.png"
+    "hdIcon": "unique-246"
   },
   {
     "id": "unique-248",
@@ -28843,7 +28845,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/cap_hat.png"
+    "hdIcon": "unique-248"
   },
   {
     "id": "unique-249",
@@ -28958,7 +28960,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/great_helm.png"
+    "hdIcon": "unique-249"
   },
   {
     "id": "unique-250",
@@ -29103,7 +29105,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/studded_leather.png"
+    "hdIcon": "unique-250"
   },
   {
     "id": "unique-251",
@@ -29204,7 +29206,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/splint_mail.png"
+    "hdIcon": "unique-251"
   },
   {
     "id": "unique-252",
@@ -29343,7 +29345,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/shield/umbral_disk.png"
+    "hdIcon": "unique-252"
   },
   {
     "id": "unique-253",
@@ -29489,7 +29491,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/shield/steelclash.png"
+    "hdIcon": "unique-253"
   },
   {
     "id": "unique-254",
@@ -29614,7 +29616,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/the_chieftan.png"
+    "hdIcon": "unique-254"
   },
   {
     "id": "unique-255",
@@ -29761,7 +29763,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/brainhew.png"
+    "hdIcon": "unique-255"
   },
   {
     "id": "unique-256",
@@ -29912,7 +29914,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/mace/bloodrise.png"
+    "hdIcon": "unique-256"
   },
   {
     "id": "unique-257",
@@ -30072,7 +30074,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/hammer/war_hammer.png"
+    "hdIcon": "unique-257"
   },
   {
     "id": "unique-258",
@@ -30208,7 +30210,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/hammer/great_maul.png"
+    "hdIcon": "unique-258"
   },
   {
     "id": "unique-259",
@@ -30374,7 +30376,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/lightsabre.png"
+    "hdIcon": "unique-259"
   },
   {
     "id": "unique-260",
@@ -30512,7 +30514,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/blacktongue.png"
+    "hdIcon": "unique-260"
   },
   {
     "id": "unique-261",
@@ -30668,7 +30670,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/the_patriarch.png"
+    "hdIcon": "unique-261"
   },
   {
     "id": "unique-262",
@@ -30778,7 +30780,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/knife/dagger.png"
+    "hdIcon": "unique-262"
   },
   {
     "id": "unique-264",
@@ -30927,7 +30929,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/polearm/war_scythe.png"
+    "hdIcon": "unique-264"
   },
   {
     "id": "unique-265",
@@ -31037,7 +31039,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/long_battle_bow.png"
+    "hdIcon": "unique-265"
   },
   {
     "id": "unique-266",
@@ -31173,7 +31175,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/long_war_bow.png"
+    "hdIcon": "unique-266"
   },
   {
     "id": "unique-268",
@@ -31256,7 +31258,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/ring/ring.png"
+    "hdIcon": "unique-268"
   },
   {
     "id": "unique-269",
@@ -31346,7 +31348,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/amulet/amulet.png"
+    "hdIcon": "unique-269"
   },
   {
     "id": "unique-270",
@@ -31451,7 +31453,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/amulet/amulet.png"
+    "hdIcon": "unique-270"
   },
   {
     "id": "unique-271",
@@ -31558,7 +31560,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/amulet/amulet.png"
+    "hdIcon": "unique-271"
   },
   {
     "id": "unique-272",
@@ -31663,7 +31665,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/amulet/amulet.png"
+    "hdIcon": "unique-272"
   },
   {
     "id": "unique-273",
@@ -31764,7 +31766,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/amulet/amulet.png"
+    "hdIcon": "unique-273"
   },
   {
     "id": "unique-274",
@@ -31869,7 +31871,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/ring/ring.png"
+    "hdIcon": "unique-274"
   },
   {
     "id": "unique-275",
@@ -31978,7 +31980,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/ring/ring.png"
+    "hdIcon": "unique-275"
   },
   {
     "id": "unique-276",
@@ -32083,7 +32085,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/amulet/amulet.png"
+    "hdIcon": "unique-276"
   },
   {
     "id": "unique-277",
@@ -32188,7 +32190,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/amulet/amulet.png"
+    "hdIcon": "unique-277"
   },
   {
     "id": "unique-279",
@@ -32331,7 +32333,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/avenger_guard.png"
+    "hdIcon": "unique-279"
   },
   {
     "id": "unique-280",
@@ -32472,7 +32474,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/voodoo_head/demon_head.png"
+    "hdIcon": "unique-280"
   },
   {
     "id": "unique-281",
@@ -32634,7 +32636,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/javelin/maiden_javelin.png"
+    "hdIcon": "unique-281"
   },
   {
     "id": "unique-282",
@@ -32785,7 +32787,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/reflex_bow.png"
+    "hdIcon": "unique-282"
   },
   {
     "id": "unique-283",
@@ -32936,7 +32938,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/spear/maiden_pike.png"
+    "hdIcon": "unique-283"
   },
   {
     "id": "unique-284",
@@ -33079,7 +33081,7 @@
     "statPriority": [],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/orb/dragon_stone.png"
+    "hdIcon": "unique-284"
   },
   {
     "id": "unique-285",
@@ -33229,7 +33231,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/shield/aerin_shield.png"
+    "hdIcon": "unique-285"
   },
   {
     "id": "unique-286",
@@ -33379,7 +33381,8 @@
       "dmg-norm"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": null
   },
   {
     "id": "unique-287",
@@ -33520,7 +33523,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/pelt/spirit_mask.png"
+    "hdIcon": "unique-287"
   },
   {
     "id": "unique-288",
@@ -33647,7 +33650,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/throwing_axe.png"
+    "hdIcon": "unique-288"
   },
   {
     "id": "unique-289",
@@ -33754,7 +33757,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/hexfire.png"
+    "hdIcon": "unique-289"
   },
   {
     "id": "unique-290",
@@ -33890,7 +33893,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/blood_crescent.png"
+    "hdIcon": "unique-290"
   },
   {
     "id": "unique-291",
@@ -34010,7 +34013,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/knife/throwing_knife.png"
+    "hdIcon": "unique-291"
   },
   {
     "id": "unique-292",
@@ -34124,7 +34127,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/knife/warshrike.png"
+    "hdIcon": "unique-292"
   },
   {
     "id": "unique-293",
@@ -34229,7 +34232,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/doomspittle.png"
+    "hdIcon": "unique-293"
   },
   {
     "id": "unique-294",
@@ -34332,7 +34335,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/the_gnasher.png"
+    "hdIcon": "unique-294"
   },
   {
     "id": "unique-296",
@@ -34463,7 +34466,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/club/stoutnail.png"
+    "hdIcon": "unique-296"
   },
   {
     "id": "unique-297",
@@ -34554,7 +34557,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/coif_of_glory.png"
+    "hdIcon": "unique-297"
   },
   {
     "id": "unique-298",
@@ -34724,7 +34727,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/polearm/poleaxe.png"
+    "hdIcon": "unique-298"
   },
   {
     "id": "unique-299",
@@ -34833,7 +34836,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/wand/grim_wand.png"
+    "hdIcon": "unique-299"
   },
   {
     "id": "unique-300",
@@ -34929,7 +34932,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/ring/ring.png"
+    "hdIcon": "unique-300"
   },
   {
     "id": "unique-301",
@@ -35073,7 +35076,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/crystal_sword.png"
+    "hdIcon": "unique-301"
   },
   {
     "id": "unique-302",
@@ -35197,7 +35200,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/amulet/amulet2.png"
+    "hdIcon": "unique-302"
   },
   {
     "id": "unique-304",
@@ -35322,7 +35325,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/knife/the_jade_tan_do.png"
+    "hdIcon": "unique-304"
   },
   {
     "id": "unique-306",
@@ -35425,7 +35428,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/mace/flail.png"
+    "hdIcon": "unique-306"
   },
   {
     "id": "unique-307",
@@ -35543,7 +35546,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/hammer/war_hammer.png"
+    "hdIcon": "unique-307"
   },
   {
     "id": "unique-308",
@@ -35665,7 +35668,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/h2h/katar.png"
+    "hdIcon": "unique-308"
   },
   {
     "id": "unique-309",
@@ -35786,7 +35789,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/boot/plate_boots.png"
+    "hdIcon": "unique-309"
   },
   {
     "id": "unique-310",
@@ -35902,7 +35905,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/pelt/wolf_head.png"
+    "hdIcon": "unique-310"
   },
   {
     "id": "unique-311",
@@ -36049,7 +36052,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/victors_silk.png"
+    "hdIcon": "unique-311"
   },
   {
     "id": "unique-312",
@@ -36150,7 +36153,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/glove/bracers_m.png"
+    "hdIcon": "unique-312"
   },
   {
     "id": "unique-313",
@@ -36244,7 +36247,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/double_axe.png"
+    "hdIcon": "unique-313"
   },
   {
     "id": "unique-314",
@@ -36349,7 +36352,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/war_axe.png"
+    "hdIcon": "unique-314"
   },
   {
     "id": "unique-315",
@@ -36452,7 +36455,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/giant_axe.png"
+    "hdIcon": "unique-315"
   },
   {
     "id": "unique-316",
@@ -36562,7 +36565,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/spear/maiden_spear.png"
+    "hdIcon": "unique-316"
   },
   {
     "id": "unique-317",
@@ -36665,7 +36668,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/field_plate.png"
+    "hdIcon": "unique-317"
   },
   {
     "id": "unique-319",
@@ -36772,7 +36775,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/ring/ring.png"
+    "hdIcon": "unique-319"
   },
   {
     "id": "unique-320",
@@ -36877,7 +36880,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/javelin/throwing_spear.png"
+    "hdIcon": "unique-320"
   },
   {
     "id": "unique-321",
@@ -37002,7 +37005,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/balanced_axe.png"
+    "hdIcon": "unique-321"
   },
   {
     "id": "unique-322",
@@ -37120,7 +37123,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/staff/skullcollector.png"
+    "hdIcon": "unique-322"
   },
   {
     "id": "unique-323",
@@ -37238,7 +37241,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/spear/brandistock.png"
+    "hdIcon": "unique-323"
   },
   {
     "id": "unique-324",
@@ -37371,7 +37374,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/broad_axe.png"
+    "hdIcon": "unique-324"
   },
   {
     "id": "unique-325",
@@ -37500,7 +37503,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/horned_helm.png"
+    "hdIcon": "unique-325"
   },
   {
     "id": "unique-326",
@@ -37629,7 +37632,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/polearm/scythe.png"
+    "hdIcon": "unique-326"
   },
   {
     "id": "unique-327",
@@ -37756,7 +37759,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/pelt/antlers.png"
+    "hdIcon": "unique-327"
   },
   {
     "id": "unique-328",
@@ -37874,7 +37877,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/hellcast.png"
+    "hdIcon": "unique-328"
   },
   {
     "id": "unique-329",
@@ -38010,7 +38013,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/shield/rondache.png"
+    "hdIcon": "unique-329"
   },
   {
     "id": "unique-330",
@@ -38124,7 +38127,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/voodoo_head/demon_head.png"
+    "hdIcon": "unique-330"
   },
   {
     "id": "unique-331",
@@ -38229,7 +38232,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/hellclap.png"
+    "hdIcon": "unique-331"
   },
   {
     "id": "unique-332",
@@ -38336,7 +38339,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/bow/hellclap.png"
+    "hdIcon": "unique-332"
   },
   {
     "id": "unique-333",
@@ -38452,7 +38455,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/knife/blade.png"
+    "hdIcon": "unique-333"
   },
   {
     "id": "unique-334",
@@ -38568,7 +38571,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/h2h/shadowkiller.png"
+    "hdIcon": "unique-334"
   },
   {
     "id": "unique-335",
@@ -38688,7 +38691,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/throwing_axe.png"
+    "hdIcon": "unique-335"
   },
   {
     "id": "unique-336",
@@ -38789,7 +38792,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/circlet/diadem.png"
+    "hdIcon": "unique-336"
   },
   {
     "id": "unique-337",
@@ -38881,7 +38884,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/hammer/maul.png"
+    "hdIcon": "unique-337"
   },
   {
     "id": "unique-338",
@@ -39010,7 +39013,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/javelin/maiden_javelin.png"
+    "hdIcon": "unique-338"
   },
   {
     "id": "unique-340",
@@ -39130,7 +39133,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/javelin/short_spear.png"
+    "hdIcon": "unique-340"
   },
   {
     "id": "unique-341",
@@ -39231,7 +39234,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/voodoo_head/gargoyle_head.png"
+    "hdIcon": "unique-341"
   },
   {
     "id": "unique-342",
@@ -39347,7 +39350,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/spear/pike.png"
+    "hdIcon": "unique-342"
   },
   {
     "id": "unique-343",
@@ -39472,7 +39475,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/great_helm.png"
+    "hdIcon": "unique-343"
   },
   {
     "id": "unique-344",
@@ -39608,7 +39611,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/crown.png"
+    "hdIcon": "unique-344"
   },
   {
     "id": "unique-345",
@@ -39764,7 +39767,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/mask.png"
+    "hdIcon": "unique-345"
   },
   {
     "id": "unique-347",
@@ -39898,7 +39901,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/shield/aerin_shield.png"
+    "hdIcon": "unique-347"
   },
   {
     "id": "unique-348",
@@ -40023,7 +40026,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/full_plate_mail.png"
+    "hdIcon": "unique-348"
   },
   {
     "id": "unique-349",
@@ -40144,7 +40147,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/shield/bverrit_keep.png"
+    "hdIcon": "unique-349"
   },
   {
     "id": "unique-350",
@@ -40258,7 +40261,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/pelt/falcon_mask.png"
+    "hdIcon": "unique-350"
   },
   {
     "id": "unique-351",
@@ -40391,7 +40394,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/wand/gravenspine.png"
+    "hdIcon": "unique-351"
   },
   {
     "id": "unique-353",
@@ -40546,7 +40549,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/kinemils_awl.png"
+    "hdIcon": "unique-353"
   },
   {
     "id": "unique-354",
@@ -40653,7 +40656,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/orb/dragon_stone.png"
+    "hdIcon": "unique-354"
   },
   {
     "id": "unique-355",
@@ -40808,7 +40811,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/fanged_helm.png"
+    "hdIcon": "unique-355"
   },
   {
     "id": "unique-356",
@@ -40931,7 +40934,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/shield/the_ward.png"
+    "hdIcon": "unique-356"
   },
   {
     "id": "unique-357",
@@ -41019,7 +41022,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/circlet/tiara.png"
+    "hdIcon": "unique-357"
   },
   {
     "id": "unique-358",
@@ -41148,7 +41151,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/quilted_armor.png"
+    "hdIcon": "unique-358"
   },
   {
     "id": "unique-359",
@@ -41223,7 +41226,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/charm/charm_large.png"
+    "hdIcon": "unique-359"
   },
   {
     "id": "unique-360",
@@ -41363,7 +41366,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/mace/flail.png"
+    "hdIcon": "unique-360"
   },
   {
     "id": "unique-361",
@@ -41488,7 +41491,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/assault_helmet.png"
+    "hdIcon": "unique-361"
   },
   {
     "id": "unique-363",
@@ -41607,7 +41610,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/shield/swordback_hold.png"
+    "hdIcon": "unique-363"
   },
   {
     "id": "unique-364",
@@ -41721,7 +41724,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/glove/heavy_gloves.png"
+    "hdIcon": "unique-364"
   },
   {
     "id": "unique-365",
@@ -41852,7 +41855,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/hellplague.png"
+    "hdIcon": "unique-365"
   },
   {
     "id": "unique-366",
@@ -41981,7 +41984,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/armor/victors_silk.png"
+    "hdIcon": "unique-366"
   },
   {
     "id": "unique-367",
@@ -42090,7 +42093,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/orb/sacred_globe.png"
+    "hdIcon": "unique-367"
   },
   {
     "id": "unique-368",
@@ -42225,7 +42228,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/h2h/claws.png"
+    "hdIcon": "unique-368"
   },
   {
     "id": "unique-369",
@@ -42381,7 +42384,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/boot/heavy_boots.png"
+    "hdIcon": "unique-369"
   },
   {
     "id": "unique-370",
@@ -42546,7 +42549,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/boot/chain_boots.png"
+    "hdIcon": "unique-370"
   },
   {
     "id": "unique-371",
@@ -42688,7 +42691,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/scepter/scepter.png"
+    "hdIcon": "unique-371"
   },
   {
     "id": "unique-373",
@@ -42796,7 +42799,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/belt/sash_l.png"
+    "hdIcon": "unique-373"
   },
   {
     "id": "unique-374",
@@ -42904,7 +42907,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/belt/light_belt.png"
+    "hdIcon": "unique-374"
   },
   {
     "id": "unique-375",
@@ -43002,7 +43005,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/amulet/amulet.png"
+    "hdIcon": "unique-375"
   },
   {
     "id": "unique-376",
@@ -43118,7 +43121,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/belt/belt_m.png"
+    "hdIcon": "unique-376"
   },
   {
     "id": "unique-378",
@@ -43236,7 +43239,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/ring/ring.png"
+    "hdIcon": "unique-378"
   },
   {
     "id": "unique-379",
@@ -43337,7 +43340,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/bone_helm.png"
+    "hdIcon": "unique-379"
   },
   {
     "id": "unique-380",
@@ -43494,7 +43497,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/scepter/war_scepter.png"
+    "hdIcon": "unique-380"
   },
   {
     "id": "unique-381",
@@ -43581,7 +43584,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/quest/mephisto_soul_stone.png"
+    "hdIcon": "unique-381"
   },
   {
     "id": "unique-382",
@@ -43697,7 +43700,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/spear/spear.png"
+    "hdIcon": "unique-382"
   },
   {
     "id": "unique-383",
@@ -43815,7 +43818,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/axe/mindrend.png"
+    "hdIcon": "unique-383"
   },
   {
     "id": "unique-384",
@@ -43948,7 +43951,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/club/felloak.png"
+    "hdIcon": "unique-384"
   },
   {
     "id": "unique-385",
@@ -44073,7 +44076,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/hammer/great_maul.png"
+    "hdIcon": "unique-385"
   },
   {
     "id": "unique-386",
@@ -44167,7 +44170,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/javelin/glaive.png"
+    "hdIcon": "unique-386"
   },
   {
     "id": "unique-387",
@@ -44281,7 +44284,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/polearm/bardiche.png"
+    "hdIcon": "unique-387"
   },
   {
     "id": "unique-388",
@@ -44401,7 +44404,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/staff/lazarus_spire.png"
+    "hdIcon": "unique-388"
   },
   {
     "id": "unique-389",
@@ -44556,7 +44559,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/scepter/scepter.png"
+    "hdIcon": "unique-389"
   },
   {
     "id": "unique-390",
@@ -44682,7 +44685,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/shield/wall_of_the_eyeless.png"
+    "hdIcon": "unique-390"
   },
   {
     "id": "unique-391",
@@ -44772,7 +44775,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/glove/gaunlets_h.png"
+    "hdIcon": "unique-391"
   },
   {
     "id": "unique-392",
@@ -44859,7 +44862,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/gem/perfect_diamond.png"
+    "hdIcon": "unique-392"
   },
   {
     "id": "unique-393",
@@ -44946,7 +44949,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/gem/perfect_diamond.png"
+    "hdIcon": "unique-393"
   },
   {
     "id": "unique-394",
@@ -45033,7 +45036,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/gem/perfect_diamond.png"
+    "hdIcon": "unique-394"
   },
   {
     "id": "unique-395",
@@ -45118,7 +45121,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/gem/perfect_diamond.png"
+    "hdIcon": "unique-395"
   },
   {
     "id": "unique-396",
@@ -45205,7 +45208,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/gem/perfect_diamond.png"
+    "hdIcon": "unique-396"
   },
   {
     "id": "unique-397",
@@ -45292,7 +45295,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/gem/perfect_diamond.png"
+    "hdIcon": "unique-397"
   },
   {
     "id": "unique-398",
@@ -45379,7 +45382,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/gem/perfect_diamond.png"
+    "hdIcon": "unique-398"
   },
   {
     "id": "unique-399",
@@ -45464,7 +45467,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/gem/perfect_diamond.png"
+    "hdIcon": "unique-399"
   },
   {
     "id": "unique-400",
@@ -45573,7 +45576,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/torch/torch.png"
+    "hdIcon": "unique-400"
   },
   {
     "id": "unique-408",
@@ -45724,7 +45727,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/grimoires/ars_aldiablolos.png"
+    "hdIcon": "unique-408"
   },
   {
     "id": "unique-409",
@@ -45875,7 +45878,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/grimoires/ars_aldiablolos.png"
+    "hdIcon": "unique-409"
   },
   {
     "id": "unique-410",
@@ -46026,7 +46029,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/grimoires/ars_aldiablolos.png"
+    "hdIcon": "unique-410"
   },
   {
     "id": "unique-411",
@@ -46190,7 +46193,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/grimoires/measured_wrath.png"
+    "hdIcon": "unique-411"
   },
   {
     "id": "unique-412",
@@ -46337,7 +46340,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/sword/two_handed_sword.png"
+    "hdIcon": "unique-412"
   },
   {
     "id": "unique-413",
@@ -46458,7 +46461,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/boot/light_plate_boots.png"
+    "hdIcon": "unique-413"
   },
   {
     "id": "unique-414",
@@ -46602,7 +46605,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/weapon/knife/dirk.png"
+    "hdIcon": "unique-414"
   },
   {
     "id": "unique-415",
@@ -46711,7 +46714,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/ring/ring.png"
+    "hdIcon": "unique-415"
   },
   {
     "id": "unique-416",
@@ -46820,7 +46823,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/ring/ring.png"
+    "hdIcon": "unique-416"
   },
   {
     "id": "unique-417",
@@ -46933,7 +46936,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/amulet/amulet.png"
+    "hdIcon": "unique-417"
   },
   {
     "id": "unique-418",
@@ -47063,7 +47066,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/armor/belt/heavy_belt.png"
+    "hdIcon": "unique-418"
   },
   {
     "id": "unique-419",
@@ -47187,7 +47190,8 @@
       "mana-kill"
     ],
     "note": null,
-    "statPools": []
+    "statPools": [],
+    "hdIcon": null
   },
   {
     "id": "unique-426",
@@ -47248,7 +47252,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/charm/charm_large.png"
+    "hdIcon": null
   },
   {
     "id": "unique-427",
@@ -47458,7 +47462,7 @@
         ]
       }
     ],
-    "hdIcon": "data/data/hd/global/ui/items/misc/charm/charm_large.png"
+    "hdIcon": null
   },
   {
     "id": "unique-428",
@@ -47519,7 +47523,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/charm/charm_large.png"
+    "hdIcon": null
   },
   {
     "id": "unique-429",
@@ -47580,7 +47584,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/charm/charm_large.png"
+    "hdIcon": null
   },
   {
     "id": "unique-430",
@@ -47641,7 +47645,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/charm/charm_large.png"
+    "hdIcon": null
   },
   {
     "id": "unique-431",
@@ -47702,7 +47706,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/charm/charm_large.png"
+    "hdIcon": null
   },
   {
     "id": "unique-432",
@@ -47763,7 +47767,7 @@
     ],
     "note": null,
     "statPools": [],
-    "hdIcon": "data/data/hd/global/ui/items/misc/charm/charm_large.png"
+    "hdIcon": null
   },
   {
     "id": "unique-433",
@@ -47973,7 +47977,7 @@
         ]
       }
     ],
-    "hdIcon": "data/data/hd/global/ui/items/misc/charm/charm_large.png"
+    "hdIcon": null
   },
   {
     "id": "unique-434",
@@ -48183,7 +48187,7 @@
         ]
       }
     ],
-    "hdIcon": "data/data/hd/global/ui/items/misc/charm/charm_large.png"
+    "hdIcon": null
   },
   {
     "id": "unique-435",
@@ -48393,7 +48397,7 @@
         ]
       }
     ],
-    "hdIcon": "data/data/hd/global/ui/items/misc/charm/charm_large.png"
+    "hdIcon": null
   },
   {
     "id": "unique-436",
@@ -48603,7 +48607,7 @@
         ]
       }
     ],
-    "hdIcon": "data/data/hd/global/ui/items/misc/charm/charm_large.png"
+    "hdIcon": null
   },
   {
     "id": "unique-437",
@@ -48813,7 +48817,7 @@
         ]
       }
     ],
-    "hdIcon": "data/data/hd/global/ui/items/misc/charm/charm_large.png"
+    "hdIcon": null
   },
   {
     "id": "unique-438",
@@ -48841,7 +48845,7 @@
     "weaponSpeed": null,
     "durability": null,
     "invFile": "invgswe",
-    "hdIcon": "data/data/hd/global/ui/items/misc/body_part/fragment_poison.png",
+    "hdIcon": "unique-438",
     "stats": [
       {
         "key": "extra-pois",
@@ -48965,7 +48969,7 @@
     "weaponSpeed": null,
     "durability": null,
     "invFile": "invgswe",
-    "hdIcon": "data/data/hd/global/ui/items/misc/body_part/fragment_fire.png",
+    "hdIcon": "unique-439",
     "stats": [
       {
         "key": "extra-fire",
@@ -49091,7 +49095,7 @@
     "weaponSpeed": null,
     "durability": null,
     "invFile": "invgswe",
-    "hdIcon": "data/data/hd/global/ui/items/misc/body_part/fragment_cold.png",
+    "hdIcon": "unique-440",
     "stats": [
       {
         "key": "extra-cold",
@@ -49217,7 +49221,7 @@
     "weaponSpeed": null,
     "durability": null,
     "invFile": "invgswe",
-    "hdIcon": "data/data/hd/global/ui/items/misc/body_part/fragment_physical.png",
+    "hdIcon": "unique-441",
     "stats": [
       {
         "key": "dmg%",
@@ -49343,7 +49347,7 @@
     "weaponSpeed": null,
     "durability": null,
     "invFile": "invgswe",
-    "hdIcon": "data/data/hd/global/ui/items/misc/body_part/fragment_magic.png",
+    "hdIcon": "unique-442",
     "stats": [
       {
         "key": "extra-mag",
@@ -49469,7 +49473,7 @@
     "weaponSpeed": null,
     "durability": null,
     "invFile": "invgswe",
-    "hdIcon": "data/data/hd/global/ui/items/misc/body_part/fragment_lightning.png",
+    "hdIcon": "unique-443",
     "stats": [
       {
         "key": "extra-ltng",
@@ -49598,7 +49602,7 @@
     "weaponSpeed": null,
     "durability": 20,
     "invFile": "invmsk",
-    "hdIcon": "data/data/hd/global/ui/items/armor/helmet/unique_warlock_helm.png",
+    "hdIcon": "unique-444",
     "stats": [
       {
         "key": "pierce-fire",

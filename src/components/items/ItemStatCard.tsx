@@ -31,6 +31,7 @@ function formatDamageRange(d: DamageRange): string {
 export default function ItemStatCard({ item }: { item: GrailItem }) {
   const t = useTranslations('Grail');
   const [iconFailed, setIconFailed] = useState(false);
+  const [hdIconFailed, setHdIconFailed] = useState(false);
   const { userId, ownedIds, toggle, error } = useOwnedItems();
 
   const itemStatRows: [string, string][] = [
@@ -139,14 +140,23 @@ export default function ItemStatCard({ item }: { item: GrailItem }) {
           )}
         </div>
 
-        {item.invFile && !iconFailed && (
+        {(item.hdIcon || item.invFile) && !iconFailed && (
           // eslint-disable-next-line @next/next/no-img-element
           <img
-            src={`${BASE_PATH}/items/inv/${item.invFile}.png`}
+            src={
+              item.hdIcon && !hdIconFailed
+                ? `${BASE_PATH}/items/hd/${item.hdIcon}.png`
+                : `${BASE_PATH}/items/inv/${item.invFile}.png`
+            }
             alt=""
             aria-hidden="true"
             className="w-20 h-20 object-contain shrink-0 self-start"
-            onError={() => setIconFailed(true)}
+            onError={() => {
+              // First try: HD art missing/broken -> fall back to the classic
+              // icon. Second try: classic icon also broken -> hide entirely.
+              if (item.hdIcon && !hdIconFailed) setHdIconFailed(true);
+              else setIconFailed(true);
+            }}
           />
         )}
       </div>

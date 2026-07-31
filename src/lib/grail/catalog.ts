@@ -65,6 +65,10 @@ export interface RawGrailItem {
   weaponSpeed: number | null;
   durability: number | null;
   invFile: string;
+  // HD remaster icon: a bare id (e.g. "unique-438"), resolved to
+  // /items/hd/{hdIcon}.png. null when no HD art exists for this item
+  // (e.g. quest items, cut content) -- render falls back to invFile.
+  hdIcon?: string | null;
   stats: RawGrailStat[];
   fixedStats: RawGrailFixedStat[];
   setBonuses: RawGrailStat[];
@@ -112,6 +116,7 @@ export interface GrailItem {
   weaponSpeed: number | null;
   durability: number | null;
   invFile: string;
+  hdIcon?: string | null;
   stats: GrailStat[];
   fixedStats: GrailFixedStat[];
   setBonuses: GrailStat[];
@@ -145,6 +150,7 @@ export function localizeGrailItem(item: RawGrailItem, locale: Locale): GrailItem
     weaponSpeed: item.weaponSpeed,
     durability: item.durability,
     invFile: item.invFile,
+    hdIcon: item.hdIcon,
     stats: item.stats.map(s => ({ key: s.key, label: s.label[locale], min: s.min, max: s.max, isSkillRef: s.isSkillRef, composed: s.composed, signed: s.signed })),
     fixedStats: item.fixedStats.map(f => ({ key: f.key, label: f.label[locale], value: f.value, isSkillRef: f.isSkillRef, composed: f.composed, signed: f.signed, min: f.min, max: f.max })),
     setBonuses: item.setBonuses.map(b => ({ key: b.key, label: b.label[locale], min: b.min, max: b.max, isSkillRef: b.isSkillRef, composed: b.composed, signed: b.signed })),
