@@ -22,6 +22,7 @@ export default async function SetItemsPage({
     slug: slugifySetName(g.setName.en),
     name: g.setName[locale as 'en' | 'zh-TW' | 'zh-CN'],
     repInvFile: g.repInvFile,
+    repHdIcon: g.repHdIcon,
     pieceIds: g.pieceIds,
   }));
 

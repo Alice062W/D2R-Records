@@ -7,17 +7,25 @@ import { BASE_PATH } from '@/lib/basePath';
 import { useOwnedItems } from '@/lib/grail/useOwnedItems';
 import CollectionBadge from './CollectionBadge';
 
-function GroupIcon({ invFile }: { invFile: string }) {
+function GroupIcon({ invFile, hdIcon }: { invFile: string; hdIcon?: string | null }) {
   const [iconFailed, setIconFailed] = useState(false);
-  if (!invFile || iconFailed) return null;
+  const [hdIconFailed, setHdIconFailed] = useState(false);
+  if ((!hdIcon && !invFile) || iconFailed) return null;
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
-      src={`${BASE_PATH}/items/inv/${invFile}.png`}
+      src={
+        hdIcon && !hdIconFailed
+          ? `${BASE_PATH}/items/hd/${hdIcon}.png`
+          : `${BASE_PATH}/items/inv/${invFile}.png`
+      }
       alt=""
       aria-hidden="true"
       className="w-12 h-12 object-contain shrink-0"
-      onError={() => setIconFailed(true)}
+      onError={() => {
+        if (hdIcon && !hdIconFailed) setHdIconFailed(true);
+        else setIconFailed(true);
+      }}
     />
   );
 }
@@ -31,7 +39,7 @@ export default function SetGroupList({
   groups,
   basePath,
 }: {
-  groups: { slug: string; name: string; repInvFile: string; pieceIds: string[] }[];
+  groups: { slug: string; name: string; repInvFile: string; repHdIcon?: string | null; pieceIds: string[] }[];
   basePath: string;
 }) {
   const tGrail = useTranslations('Grail');
@@ -107,7 +115,7 @@ export default function SetGroupList({
                   : 'bg-panel border-panel-border'
             }`}
           >
-            <GroupIcon invFile={g.repInvFile} />
+            <GroupIcon invFile={g.repInvFile} hdIcon={g.repHdIcon} />
             {g.name}
             {userId && <CollectionBadge owned={owned} total={total} />}
           </Link>

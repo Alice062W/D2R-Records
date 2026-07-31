@@ -121,7 +121,8 @@
         "isSkillRef": false,
         "signed": true
       }
-    ]
+    ],
+    "repHdIcon": "set-69"
   },
   {
     "setName": {
@@ -221,7 +222,8 @@
         "isSkillRef": false,
         "signed": false
       }
-    ]
+    ],
+    "repHdIcon": "set-52"
   },
   {
     "setName": {
@@ -333,7 +335,8 @@
         "isSkillRef": false,
         "signed": true
       }
-    ]
+    ],
+    "repHdIcon": "set-59"
   },
   {
     "setName": {
@@ -421,7 +424,8 @@
         "isSkillRef": false,
         "signed": false
       }
-    ]
+    ],
+    "repHdIcon": "set-56"
   },
   {
     "setName": {
@@ -503,7 +507,8 @@
         "isSkillRef": false,
         "signed": false
       }
-    ]
+    ],
+    "repHdIcon": "set-134"
   },
   {
     "setName": {
@@ -572,7 +577,8 @@
         "max": 9,
         "isSkillRef": false
       }
-    ]
+    ],
+    "repHdIcon": "set-46"
   },
   {
     "setName": {
@@ -683,7 +689,8 @@
         "isSkillRef": false,
         "signed": true
       }
-    ]
+    ],
+    "repHdIcon": "set-115"
   },
   {
     "setName": {
@@ -808,7 +815,8 @@
         "isSkillRef": false,
         "signed": false
       }
-    ]
+    ],
+    "repHdIcon": "set-26"
   },
   {
     "setName": {
@@ -902,7 +910,8 @@
         "isSkillRef": false,
         "signed": false
       }
-    ]
+    ],
+    "repHdIcon": "set-2"
   },
   {
     "setName": {
@@ -984,7 +993,8 @@
         "isSkillRef": false,
         "signed": true
       }
-    ]
+    ],
+    "repHdIcon": "set-7"
   },
   {
     "setName": {
@@ -1126,7 +1136,8 @@
         "isSkillRef": false,
         "signed": true
       }
-    ]
+    ],
+    "repHdIcon": "set-118"
   },
   {
     "setName": {
@@ -1196,7 +1207,8 @@
         "isSkillRef": false,
         "signed": true
       }
-    ]
+    ],
+    "repHdIcon": "set-48"
   },
   {
     "setName": {
@@ -1308,7 +1320,8 @@
         "isSkillRef": false,
         "signed": true
       }
-    ]
+    ],
+    "repHdIcon": "set-82"
   },
   {
     "setName": {
@@ -1408,7 +1421,8 @@
         "isSkillRef": false,
         "signed": true
       }
-    ]
+    ],
+    "repHdIcon": "set-100"
   },
   {
     "setName": {
@@ -1538,7 +1552,8 @@
         "isSkillRef": true,
         "signed": true
       }
-    ]
+    ],
+    "repHdIcon": "set-135"
   },
   {
     "setName": {
@@ -1608,7 +1623,8 @@
         "isSkillRef": false,
         "signed": true
       }
-    ]
+    ],
+    "repHdIcon": "set-4"
   },
   {
     "setName": {
@@ -1708,7 +1724,8 @@
         "isSkillRef": false,
         "signed": true
       }
-    ]
+    ],
+    "repHdIcon": "set-111"
   },
   {
     "setName": {
@@ -1844,7 +1861,8 @@
         "isSkillRef": false,
         "signed": false
       }
-    ]
+    ],
+    "repHdIcon": "set-72"
   },
   {
     "setName": {
@@ -1950,7 +1968,8 @@
         "isSkillRef": false,
         "signed": false
       }
-    ]
+    ],
+    "repHdIcon": "set-41"
   },
   {
     "setName": {
@@ -2086,7 +2105,8 @@
         "isSkillRef": false,
         "signed": true
       }
-    ]
+    ],
+    "repHdIcon": "set-11"
   },
   {
     "setName": {
@@ -2198,7 +2218,8 @@
         "isSkillRef": false,
         "signed": true
       }
-    ]
+    ],
+    "repHdIcon": "set-15"
   },
   {
     "setName": {
@@ -2311,7 +2332,8 @@
         "isSkillRef": false,
         "signed": false
       }
-    ]
+    ],
+    "repHdIcon": "set-94"
   },
   {
     "setName": {
@@ -2411,7 +2433,8 @@
         "isSkillRef": false,
         "signed": false
       }
-    ]
+    ],
+    "repHdIcon": null
   },
   {
     "setName": {
@@ -2535,7 +2558,8 @@
         "isSkillRef": false,
         "signed": true
       }
-    ]
+    ],
+    "repHdIcon": "set-23"
   },
   {
     "setName": {
@@ -2677,7 +2701,8 @@
         "isSkillRef": false,
         "signed": false
       }
-    ]
+    ],
+    "repHdIcon": "set-122"
   },
   {
     "setName": {
@@ -2813,7 +2838,8 @@
         "isSkillRef": false,
         "signed": false
       }
-    ]
+    ],
+    "repHdIcon": "set-63"
   },
   {
     "setName": {
@@ -2937,7 +2963,8 @@
         "isSkillRef": false,
         "signed": false
       }
-    ]
+    ],
+    "repHdIcon": "set-104"
   },
   {
     "setName": {
@@ -3043,7 +3070,8 @@
         "isSkillRef": false,
         "signed": false
       }
-    ]
+    ],
+    "repHdIcon": "set-112"
   },
   {
     "setName": {
@@ -3157,7 +3185,8 @@
         "isSkillRef": false,
         "signed": false
       }
-    ]
+    ],
+    "repHdIcon": "set-35"
   },
   {
     "setName": {
@@ -3287,7 +3316,8 @@
         "isSkillRef": false,
         "signed": true
       }
-    ]
+    ],
+    "repHdIcon": "set-77"
   },
   {
     "setName": {
@@ -3388,7 +3418,8 @@
         "isSkillRef": false,
         "signed": false
       }
-    ]
+    ],
+    "repHdIcon": "set-30"
   },
   {
     "setName": {
@@ -3494,7 +3525,8 @@
         "isSkillRef": false,
         "signed": false
       }
-    ]
+    ],
+    "repHdIcon": "set-99"
   },
   {
     "setName": {
@@ -3684,7 +3716,8 @@
         "isSkillRef": false,
         "signed": false
       }
-    ]
+    ],
+    "repHdIcon": "set-88"
   },
   {
     "setName": {
@@ -3796,6 +3829,7 @@
         "isSkillRef": false,
         "signed": true
       }
-    ]
+    ],
+    "repHdIcon": "set-19"
   }
 ]
