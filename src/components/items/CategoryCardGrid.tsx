@@ -4,22 +4,32 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import categoryIcons from '../../../data/category-icons.json';
+import categoryHdIcons from '../../../data/category-hd-icons.json';
 import { BASE_PATH } from '@/lib/basePath';
 import { useOwnedItems } from '@/lib/grail/useOwnedItems';
 import CollectionBadge from './CollectionBadge';
 
 function CategoryIcon({ category }: { category: string }) {
   const [iconFailed, setIconFailed] = useState(false);
+  const [hdIconFailed, setHdIconFailed] = useState(false);
   const invFile = (categoryIcons as Record<string, string>)[category];
-  if (!invFile || iconFailed) return null;
+  const hdIcon = (categoryHdIcons as Record<string, string>)[category];
+  if ((!hdIcon && !invFile) || iconFailed) return null;
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
-      src={`${BASE_PATH}/items/inv/${invFile}.png`}
+      src={
+        hdIcon && !hdIconFailed
+          ? `${BASE_PATH}/items/hd/${hdIcon}.png`
+          : `${BASE_PATH}/items/inv/${invFile}.png`
+      }
       alt=""
       aria-hidden="true"
       className="w-12 h-12 object-contain shrink-0"
-      onError={() => setIconFailed(true)}
+      onError={() => {
+        if (hdIcon && !hdIconFailed) setHdIconFailed(true);
+        else setIconFailed(true);
+      }}
     />
   );
 }
