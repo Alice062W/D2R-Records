@@ -53,8 +53,8 @@
         "key": "thorns",
         "label": {
           "en": "Attacker Takes Damage",
-          "zh-TW": "攻擊者承受傷害",
-          "zh-CN": "攻击者承受伤害"
+          "zh-TW": "攻擊者反傷",
+          "zh-CN": "攻击者反伤"
         },
         "min": 3,
         "max": 7,
@@ -65,8 +65,8 @@
         "key": "ac-miss",
         "label": {
           "en": "Defense vs. Missile",
-          "zh-TW": "對抗遠程攻擊防禦力",
-          "zh-CN": "对抗远程攻击防御力"
+          "zh-TW": "對遠程防禦",
+          "zh-CN": "对远程防御"
         },
         "min": 25,
         "max": 50,
@@ -129,8 +129,8 @@
         "key": "thorns",
         "label": {
           "en": "Attacker Takes Damage",
-          "zh-TW": "攻擊者承受傷害",
-          "zh-CN": "攻击者承受伤害"
+          "zh-TW": "攻擊者反傷",
+          "zh-CN": "攻击者反伤"
         },
         "min": 3,
         "max": 7,
@@ -141,8 +141,8 @@
         "key": "ac-hth",
         "label": {
           "en": "Defense vs. Melee",
-          "zh-TW": "對抗近戰攻擊防禦力",
-          "zh-CN": "对抗近战攻击防御力"
+          "zh-TW": "對近戰防禦",
+          "zh-CN": "对近战防御"
         },
         "min": 25,
         "max": 50,
@@ -216,8 +216,8 @@
         "key": "thorns",
         "label": {
           "en": "Attacker Takes Damage",
-          "zh-TW": "攻擊者承受傷害",
-          "zh-CN": "攻击者承受伤害"
+          "zh-TW": "攻擊者反傷",
+          "zh-CN": "攻击者反伤"
         },
         "min": 3,
         "max": 7,
@@ -280,8 +280,8 @@
         "key": "thorns",
         "label": {
           "en": "Attacker Takes Damage",
-          "zh-TW": "攻擊者承受傷害",
-          "zh-CN": "攻击者承受伤害"
+          "zh-TW": "攻擊者反傷",
+          "zh-CN": "攻击者反伤"
         },
         "min": 3,
         "max": 7,
@@ -292,8 +292,8 @@
         "key": "dmg-to-mana",
         "label": {
           "en": "Damage Taken Goes to Mana",
-          "zh-TW": "承受傷害轉換為魔力",
-          "zh-CN": "承受伤害转换为魔力"
+          "zh-TW": "受到的傷害轉為法力",
+          "zh-CN": "受到的伤害转为法力"
         },
         "min": 5,
         "max": 10,
@@ -356,8 +356,8 @@
         "key": "thorns",
         "label": {
           "en": "Attacker Takes Damage",
-          "zh-TW": "攻擊者承受傷害",
-          "zh-CN": "攻击者承受伤害"
+          "zh-TW": "攻擊者反傷",
+          "zh-CN": "攻击者反伤"
         },
         "min": 3,
         "max": 10,
@@ -368,8 +368,8 @@
         "key": "block",
         "label": {
           "en": "Increased Chance of Blocking %",
-          "zh-TW": "格擋機率 %",
-          "zh-CN": "格挡机率 %"
+          "zh-TW": "格擋機率提高 %",
+          "zh-CN": "格挡机率提高 %"
         },
         "min": 5,
         "max": 10,
@@ -432,8 +432,8 @@
         "key": "thorns",
         "label": {
           "en": "Attacker Takes Damage",
-          "zh-TW": "攻擊者承受傷害",
-          "zh-CN": "攻击者承受伤害"
+          "zh-TW": "攻擊者反傷",
+          "zh-CN": "攻击者反伤"
         },
         "min": 3,
         "max": 10,
@@ -444,8 +444,8 @@
         "key": "balance1",
         "label": {
           "en": "Faster Hit Recovery",
-          "zh-TW": "加快恢復速度",
-          "zh-CN": "加快恢复速度"
+          "zh-TW": "打擊恢復",
+          "zh-CN": "打击恢复"
         },
         "min": 10,
         "max": 20,
@@ -508,8 +508,8 @@
         "key": "thorns",
         "label": {
           "en": "Attacker Takes Damage",
-          "zh-TW": "攻擊者承受傷害",
-          "zh-CN": "攻击者承受伤害"
+          "zh-TW": "攻擊者反傷",
+          "zh-CN": "攻击者反伤"
         },
         "min": 3,
         "max": 10,
@@ -520,8 +520,8 @@
         "key": "howl",
         "label": {
           "en": "Hit Causes Monster to Flee %",
-          "zh-TW": "擊中使怪物逃跑 %",
-          "zh-CN": "击中使怪物逃跑 %"
+          "zh-TW": "機率擊中使怪物逃跑 %",
+          "zh-CN": "机率击中使怪物逃跑 %"
         },
         "min": 5,
         "max": 15,
@@ -584,8 +584,8 @@
         "key": "thorns",
         "label": {
           "en": "Attacker Takes Damage",
-          "zh-TW": "攻擊者承受傷害",
-          "zh-CN": "攻击者承受伤害"
+          "zh-TW": "攻擊者反傷",
+          "zh-CN": "攻击者反伤"
         },
         "min": 3,
         "max": 6,
@@ -660,8 +660,8 @@
         "key": "thorns",
         "label": {
           "en": "Attacker Takes Damage",
-          "zh-TW": "攻擊者承受傷害",
-          "zh-CN": "攻击者承受伤害"
+          "zh-TW": "攻擊者反傷",
+          "zh-CN": "攻击者反伤"
         },
         "min": 3,
         "max": 7,
@@ -672,8 +672,8 @@
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
-          "zh-TW": "強化傷害 %",
-          "zh-CN": "强化伤害 %"
+          "zh-TW": "傷害強化 %",
+          "zh-CN": "伤害强化 %"
         },
         "min": 35,
         "max": 60,
@@ -736,8 +736,8 @@
         "key": "hp",
         "label": {
           "en": "Life",
-          "zh-TW": "生命值",
-          "zh-CN": "生命值"
+          "zh-TW": "生命",
+          "zh-CN": "生命"
         },
         "min": 10,
         "max": 20,
@@ -748,8 +748,8 @@
         "key": "deadly",
         "label": {
           "en": "Deadly Strike %",
-          "zh-TW": "致命一擊 %",
-          "zh-CN": "致命一击 %"
+          "zh-TW": "致命打擊 %",
+          "zh-CN": "致命打击 %"
         },
         "min": 5,
         "max": 10,
@@ -812,8 +812,8 @@
         "key": "hp",
         "label": {
           "en": "Life",
-          "zh-TW": "生命值",
-          "zh-CN": "生命值"
+          "zh-TW": "生命",
+          "zh-CN": "生命"
         },
         "min": 10,
         "max": 20,
@@ -824,8 +824,8 @@
         "key": "regen",
         "label": {
           "en": "Replenish Life",
-          "zh-TW": "補充生命值",
-          "zh-CN": "补充生命值"
+          "zh-TW": "生命回復",
+          "zh-CN": "生命回复"
         },
         "min": 5,
         "max": 10,
@@ -888,8 +888,8 @@
         "key": "hp",
         "label": {
           "en": "Life",
-          "zh-TW": "生命值",
-          "zh-CN": "生命值"
+          "zh-TW": "生命",
+          "zh-CN": "生命"
         },
         "min": 10,
         "max": 20,
@@ -900,8 +900,8 @@
         "key": "crush",
         "label": {
           "en": "Crushing Blow %",
-          "zh-TW": "破碎打擊 %",
-          "zh-CN": "破碎打击 %"
+          "zh-TW": "機率造成粉碎打擊 %",
+          "zh-CN": "机率造成粉碎打击 %"
         },
         "min": 5,
         "max": 10,
@@ -964,8 +964,8 @@
         "key": "hp",
         "label": {
           "en": "Life",
-          "zh-TW": "生命值",
-          "zh-CN": "生命值"
+          "zh-TW": "生命",
+          "zh-CN": "生命"
         },
         "min": 10,
         "max": 20,
@@ -976,8 +976,8 @@
         "key": "openwounds",
         "label": {
           "en": "Open Wounds %",
-          "zh-TW": "撕裂傷口 %",
-          "zh-CN": "撕裂伤口 %"
+          "zh-TW": "機率造成開放傷口 %",
+          "zh-CN": "机率造成开放伤口 %"
         },
         "min": 5,
         "max": 10,
@@ -1040,8 +1040,8 @@
         "key": "hp",
         "label": {
           "en": "Life",
-          "zh-TW": "生命值",
-          "zh-CN": "生命值"
+          "zh-TW": "生命",
+          "zh-CN": "生命"
         },
         "min": 10,
         "max": 20,
@@ -1052,8 +1052,8 @@
         "key": "thorns",
         "label": {
           "en": "Attacker Takes Damage",
-          "zh-TW": "攻擊者承受傷害",
-          "zh-CN": "攻击者承受伤害"
+          "zh-TW": "攻擊者反傷",
+          "zh-CN": "攻击者反伤"
         },
         "min": 4,
         "max": 7,
@@ -1116,8 +1116,8 @@
         "key": "hp",
         "label": {
           "en": "Life",
-          "zh-TW": "生命值",
-          "zh-CN": "生命值"
+          "zh-TW": "生命",
+          "zh-CN": "生命"
         },
         "min": 10,
         "max": 20,
@@ -1128,8 +1128,8 @@
         "key": "demon-heal",
         "label": {
           "en": "Life after Demon Kill",
-          "zh-TW": "擊殺惡魔後恢復生命值",
-          "zh-CN": "击杀恶魔后恢复生命值"
+          "zh-TW": "擊殺惡魔生命恢復",
+          "zh-CN": "击杀恶魔生命恢复"
         },
         "min": 1,
         "max": 3,
@@ -1192,8 +1192,8 @@
         "key": "hp",
         "label": {
           "en": "Life",
-          "zh-TW": "生命值",
-          "zh-CN": "生命值"
+          "zh-TW": "生命",
+          "zh-CN": "生命"
         },
         "min": 10,
         "max": 20,
@@ -1204,8 +1204,8 @@
         "key": "move1",
         "label": {
           "en": "Faster Run/Walk %",
-          "zh-TW": "加快跑走速度 %",
-          "zh-CN": "加快跑走速度 %"
+          "zh-TW": "跑步 / 行走速度 %",
+          "zh-CN": "跑步 / 行走速度 %"
         },
         "min": 5,
         "max": 10,
@@ -1268,8 +1268,8 @@
         "key": "hp",
         "label": {
           "en": "Life",
-          "zh-TW": "生命值",
-          "zh-CN": "生命值"
+          "zh-TW": "生命",
+          "zh-CN": "生命"
         },
         "min": 10,
         "max": 20,
@@ -1344,8 +1344,8 @@
         "key": "hp",
         "label": {
           "en": "Life",
-          "zh-TW": "生命值",
-          "zh-CN": "生命值"
+          "zh-TW": "生命",
+          "zh-CN": "生命"
         },
         "min": 10,
         "max": 20,
@@ -1356,8 +1356,8 @@
         "key": "dmg%",
         "label": {
           "en": "Enhanced Damage %",
-          "zh-TW": "強化傷害 %",
-          "zh-CN": "强化伤害 %"
+          "zh-TW": "傷害強化 %",
+          "zh-CN": "伤害强化 %"
         },
         "min": 35,
         "max": 60,
@@ -1408,8 +1408,8 @@
         "key": "regen-mana",
         "label": {
           "en": "Mana Regenerated %",
-          "zh-TW": "魔力回復 %",
-          "zh-CN": "魔力回复 %"
+          "zh-TW": "法力恢復 %",
+          "zh-CN": "法力恢复 %"
         },
         "min": 4,
         "max": 10,
@@ -1420,8 +1420,8 @@
         "key": "mana",
         "label": {
           "en": "Mana",
-          "zh-TW": "魔力值",
-          "zh-CN": "魔力值"
+          "zh-TW": "法力",
+          "zh-CN": "法力"
         },
         "min": 10,
         "max": 20,
@@ -1484,8 +1484,8 @@
         "key": "regen-mana",
         "label": {
           "en": "Mana Regenerated %",
-          "zh-TW": "魔力回復 %",
-          "zh-CN": "魔力回复 %"
+          "zh-TW": "法力恢復 %",
+          "zh-CN": "法力恢复 %"
         },
         "min": 4,
         "max": 10,
@@ -1496,8 +1496,8 @@
         "key": "mana",
         "label": {
           "en": "Mana",
-          "zh-TW": "魔力值",
-          "zh-CN": "魔力值"
+          "zh-TW": "法力",
+          "zh-CN": "法力"
         },
         "min": 10,
         "max": 20,
@@ -1508,8 +1508,8 @@
         "key": "mana%",
         "label": {
           "en": "Increase Maximum Mana %",
-          "zh-TW": "增加最大魔力值 %",
-          "zh-CN": "增加最大魔力值 %"
+          "zh-TW": "法力上限提高 %",
+          "zh-CN": "法力上限提高 %"
         },
         "min": 2,
         "max": 5,
@@ -1560,8 +1560,8 @@
         "key": "regen-mana",
         "label": {
           "en": "Mana Regenerated %",
-          "zh-TW": "魔力回復 %",
-          "zh-CN": "魔力回复 %"
+          "zh-TW": "法力恢復 %",
+          "zh-CN": "法力恢复 %"
         },
         "min": 4,
         "max": 10,
@@ -1572,8 +1572,8 @@
         "key": "mana",
         "label": {
           "en": "Mana",
-          "zh-TW": "魔力值",
-          "zh-CN": "魔力值"
+          "zh-TW": "法力",
+          "zh-CN": "法力"
         },
         "min": 10,
         "max": 20,
@@ -1584,8 +1584,8 @@
         "key": "mana-kill",
         "label": {
           "en": "Mana after Kill",
-          "zh-TW": "擊殺後恢復魔力值",
-          "zh-CN": "击杀后恢复魔力值"
+          "zh-TW": "擊殺法力恢復",
+          "zh-CN": "击杀法力恢复"
         },
         "min": 1,
         "max": 3,
@@ -1636,8 +1636,8 @@
         "key": "regen-mana",
         "label": {
           "en": "Mana Regenerated %",
-          "zh-TW": "魔力回復 %",
-          "zh-CN": "魔力回复 %"
+          "zh-TW": "法力恢復 %",
+          "zh-CN": "法力恢复 %"
         },
         "min": 4,
         "max": 10,
@@ -1648,8 +1648,8 @@
         "key": "mana",
         "label": {
           "en": "Mana",
-          "zh-TW": "魔力值",
-          "zh-CN": "魔力值"
+          "zh-TW": "法力",
+          "zh-CN": "法力"
         },
         "min": 10,
         "max": 20,
@@ -1660,8 +1660,8 @@
         "key": "cast1",
         "label": {
           "en": "Faster Cast Rate",
-          "zh-TW": "加快施法速度",
-          "zh-CN": "加快施法速度"
+          "zh-TW": "施法速度",
+          "zh-CN": "施法速度"
         },
         "min": 5,
         "max": 10,
@@ -1712,8 +1712,8 @@
         "key": "regen-mana",
         "label": {
           "en": "Mana Regenerated %",
-          "zh-TW": "魔力回復 %",
-          "zh-CN": "魔力回复 %"
+          "zh-TW": "法力恢復 %",
+          "zh-CN": "法力恢复 %"
         },
         "min": 4,
         "max": 10,
@@ -1724,8 +1724,8 @@
         "key": "mana",
         "label": {
           "en": "Mana",
-          "zh-TW": "魔力值",
-          "zh-CN": "魔力值"
+          "zh-TW": "法力",
+          "zh-CN": "法力"
         },
         "min": 10,
         "max": 20,
@@ -1736,8 +1736,8 @@
         "key": "block",
         "label": {
           "en": "Increased Chance of Blocking %",
-          "zh-TW": "格擋機率 %",
-          "zh-CN": "格挡机率 %"
+          "zh-TW": "格擋機率提高 %",
+          "zh-CN": "格挡机率提高 %"
         },
         "min": 5,
         "max": 10,
@@ -1788,8 +1788,8 @@
         "key": "regen-mana",
         "label": {
           "en": "Mana Regenerated %",
-          "zh-TW": "魔力回復 %",
-          "zh-CN": "魔力回复 %"
+          "zh-TW": "法力恢復 %",
+          "zh-CN": "法力恢复 %"
         },
         "min": 4,
         "max": 10,
@@ -1800,8 +1800,8 @@
         "key": "mana",
         "label": {
           "en": "Mana",
-          "zh-TW": "魔力值",
-          "zh-CN": "魔力值"
+          "zh-TW": "法力",
+          "zh-CN": "法力"
         },
         "min": 10,
         "max": 20,
@@ -1812,8 +1812,8 @@
         "key": "mana-kill",
         "label": {
           "en": "Mana after Kill",
-          "zh-TW": "擊殺後恢復魔力值",
-          "zh-CN": "击杀后恢复魔力值"
+          "zh-TW": "擊殺法力恢復",
+          "zh-CN": "击杀法力恢复"
         },
         "min": 1,
         "max": 3,
@@ -1864,8 +1864,8 @@
         "key": "regen-mana",
         "label": {
           "en": "Mana Regenerated %",
-          "zh-TW": "魔力回復 %",
-          "zh-CN": "魔力回复 %"
+          "zh-TW": "法力恢復 %",
+          "zh-CN": "法力恢复 %"
         },
         "min": 4,
         "max": 10,
@@ -1876,8 +1876,8 @@
         "key": "mana",
         "label": {
           "en": "Mana",
-          "zh-TW": "魔力值",
-          "zh-CN": "魔力值"
+          "zh-TW": "法力",
+          "zh-CN": "法力"
         },
         "min": 10,
         "max": 20,
@@ -1888,8 +1888,8 @@
         "key": "cast1",
         "label": {
           "en": "Faster Cast Rate",
-          "zh-TW": "加快施法速度",
-          "zh-CN": "加快施法速度"
+          "zh-TW": "施法速度",
+          "zh-CN": "施法速度"
         },
         "min": 5,
         "max": 10,
@@ -1940,8 +1940,8 @@
         "key": "regen-mana",
         "label": {
           "en": "Mana Regenerated %",
-          "zh-TW": "魔力回復 %",
-          "zh-CN": "魔力回复 %"
+          "zh-TW": "法力恢復 %",
+          "zh-CN": "法力恢复 %"
         },
         "min": 4,
         "max": 10,
@@ -1952,8 +1952,8 @@
         "key": "mana",
         "label": {
           "en": "Mana",
-          "zh-TW": "魔力值",
-          "zh-CN": "魔力值"
+          "zh-TW": "法力",
+          "zh-CN": "法力"
         },
         "min": 10,
         "max": 20,
@@ -1964,8 +1964,8 @@
         "key": "enr",
         "label": {
           "en": "Energy",
-          "zh-TW": "精力",
-          "zh-CN": "精力"
+          "zh-TW": "能量",
+          "zh-CN": "能量"
         },
         "min": 1,
         "max": 5,
@@ -2016,8 +2016,8 @@
         "key": "regen-mana",
         "label": {
           "en": "Mana Regenerated %",
-          "zh-TW": "魔力回復 %",
-          "zh-CN": "魔力回复 %"
+          "zh-TW": "法力恢復 %",
+          "zh-CN": "法力恢复 %"
         },
         "min": 4,
         "max": 10,
@@ -2028,8 +2028,8 @@
         "key": "mana",
         "label": {
           "en": "Mana",
-          "zh-TW": "魔力值",
-          "zh-CN": "魔力值"
+          "zh-TW": "法力",
+          "zh-CN": "法力"
         },
         "min": 10,
         "max": 20,
@@ -2040,8 +2040,8 @@
         "key": "mana%",
         "label": {
           "en": "Increase Maximum Mana %",
-          "zh-TW": "增加最大魔力值 %",
-          "zh-CN": "增加最大魔力值 %"
+          "zh-TW": "法力上限提高 %",
+          "zh-CN": "法力上限提高 %"
         },
         "min": 1,
         "max": 5,
@@ -2092,8 +2092,8 @@
         "key": "red-dmg",
         "label": {
           "en": "Damage Reduced",
-          "zh-TW": "減少傷害",
-          "zh-CN": "减少伤害"
+          "zh-TW": "傷害降低",
+          "zh-CN": "伤害降低"
         },
         "min": 1,
         "max": 4,
@@ -2104,8 +2104,8 @@
         "key": "red-mag",
         "label": {
           "en": "Magic Damage Reduced",
-          "zh-TW": "減少魔法傷害",
-          "zh-CN": "减少魔法伤害"
+          "zh-TW": "魔法傷害降低",
+          "zh-CN": "魔法伤害降低"
         },
         "min": 1,
         "max": 2,
@@ -2116,8 +2116,8 @@
         "key": "res-ltng",
         "label": {
           "en": "Lightning Resist %",
-          "zh-TW": "閃電抗性 %",
-          "zh-CN": "闪电抗性 %"
+          "zh-TW": "電擊抗性 %",
+          "zh-CN": "电击抗性 %"
         },
         "min": 5,
         "max": 10,
@@ -2168,8 +2168,8 @@
         "key": "red-dmg",
         "label": {
           "en": "Damage Reduced",
-          "zh-TW": "減少傷害",
-          "zh-CN": "减少伤害"
+          "zh-TW": "傷害降低",
+          "zh-CN": "伤害降低"
         },
         "min": 1,
         "max": 4,
@@ -2180,8 +2180,8 @@
         "key": "red-mag",
         "label": {
           "en": "Magic Damage Reduced",
-          "zh-TW": "減少魔法傷害",
-          "zh-CN": "减少魔法伤害"
+          "zh-TW": "魔法傷害降低",
+          "zh-CN": "魔法伤害降低"
         },
         "min": 1,
         "max": 2,
@@ -2244,8 +2244,8 @@
         "key": "red-dmg",
         "label": {
           "en": "Damage Reduced",
-          "zh-TW": "減少傷害",
-          "zh-CN": "减少伤害"
+          "zh-TW": "傷害降低",
+          "zh-CN": "伤害降低"
         },
         "min": 1,
         "max": 4,
@@ -2256,8 +2256,8 @@
         "key": "red-mag",
         "label": {
           "en": "Magic Damage Reduced",
-          "zh-TW": "減少魔法傷害",
-          "zh-CN": "减少魔法伤害"
+          "zh-TW": "魔法傷害降低",
+          "zh-CN": "魔法伤害降低"
         },
         "min": 1,
         "max": 2,
@@ -2268,8 +2268,8 @@
         "key": "res-cold",
         "label": {
           "en": "Cold Resist %",
-          "zh-TW": "冷凍抗性 %",
-          "zh-CN": "冷冻抗性 %"
+          "zh-TW": "冰寒抗性 %",
+          "zh-CN": "冰寒抗性 %"
         },
         "min": 5,
         "max": 10,
@@ -2320,8 +2320,8 @@
         "key": "red-dmg",
         "label": {
           "en": "Damage Reduced",
-          "zh-TW": "減少傷害",
-          "zh-CN": "减少伤害"
+          "zh-TW": "傷害降低",
+          "zh-CN": "伤害降低"
         },
         "min": 1,
         "max": 4,
@@ -2332,8 +2332,8 @@
         "key": "red-mag",
         "label": {
           "en": "Magic Damage Reduced",
-          "zh-TW": "減少魔法傷害",
-          "zh-CN": "减少魔法伤害"
+          "zh-TW": "魔法傷害降低",
+          "zh-CN": "魔法伤害降低"
         },
         "min": 1,
         "max": 2,
@@ -2396,8 +2396,8 @@
         "key": "red-dmg",
         "label": {
           "en": "Damage Reduced",
-          "zh-TW": "減少傷害",
-          "zh-CN": "减少伤害"
+          "zh-TW": "傷害降低",
+          "zh-CN": "伤害降低"
         },
         "min": 1,
         "max": 4,
@@ -2408,8 +2408,8 @@
         "key": "red-mag",
         "label": {
           "en": "Magic Damage Reduced",
-          "zh-TW": "減少魔法傷害",
-          "zh-CN": "减少魔法伤害"
+          "zh-TW": "魔法傷害降低",
+          "zh-CN": "魔法伤害降低"
         },
         "min": 1,
         "max": 2,
@@ -2471,8 +2471,8 @@
         "key": "half-freeze",
         "label": {
           "en": "Half Freeze Duration",
-          "zh-TW": "減半冰凍持續時間",
-          "zh-CN": "减半冰冻持续时间"
+          "zh-TW": "被凍結的時效減半",
+          "zh-CN": "被冻结的时效减半"
         },
         "value": 1,
         "isSkillRef": false,
@@ -2484,8 +2484,8 @@
         "key": "red-dmg",
         "label": {
           "en": "Damage Reduced",
-          "zh-TW": "減少傷害",
-          "zh-CN": "减少伤害"
+          "zh-TW": "傷害降低",
+          "zh-CN": "伤害降低"
         },
         "min": 1,
         "max": 4,
@@ -2496,8 +2496,8 @@
         "key": "red-mag",
         "label": {
           "en": "Magic Damage Reduced",
-          "zh-TW": "減少魔法傷害",
-          "zh-CN": "减少魔法伤害"
+          "zh-TW": "魔法傷害降低",
+          "zh-CN": "魔法伤害降低"
         },
         "min": 1,
         "max": 2,
@@ -2548,8 +2548,8 @@
         "key": "red-dmg",
         "label": {
           "en": "Damage Reduced",
-          "zh-TW": "減少傷害",
-          "zh-CN": "减少伤害"
+          "zh-TW": "傷害降低",
+          "zh-CN": "伤害降低"
         },
         "min": 1,
         "max": 4,
@@ -2560,8 +2560,8 @@
         "key": "red-mag",
         "label": {
           "en": "Magic Damage Reduced",
-          "zh-TW": "減少魔法傷害",
-          "zh-CN": "减少魔法伤害"
+          "zh-TW": "魔法傷害降低",
+          "zh-CN": "魔法伤害降低"
         },
         "min": 1,
         "max": 2,
@@ -2572,8 +2572,8 @@
         "key": "block",
         "label": {
           "en": "Increased Chance of Blocking %",
-          "zh-TW": "格擋機率 %",
-          "zh-CN": "格挡机率 %"
+          "zh-TW": "格擋機率提高 %",
+          "zh-CN": "格挡机率提高 %"
         },
         "min": 1,
         "max": 10,
@@ -2624,8 +2624,8 @@
         "key": "red-dmg",
         "label": {
           "en": "Damage Reduced",
-          "zh-TW": "減少傷害",
-          "zh-CN": "减少伤害"
+          "zh-TW": "傷害降低",
+          "zh-CN": "伤害降低"
         },
         "min": 1,
         "max": 4,
@@ -2636,8 +2636,8 @@
         "key": "red-mag",
         "label": {
           "en": "Magic Damage Reduced",
-          "zh-TW": "減少魔法傷害",
-          "zh-CN": "减少魔法伤害"
+          "zh-TW": "魔法傷害降低",
+          "zh-CN": "魔法伤害降低"
         },
         "min": 1,
         "max": 2,
@@ -2648,8 +2648,8 @@
         "key": "vit",
         "label": {
           "en": "Vitality",
-          "zh-TW": "活力",
-          "zh-CN": "活力"
+          "zh-TW": "體能",
+          "zh-CN": "体能"
         },
         "min": 1,
         "max": 5,
@@ -2700,8 +2700,8 @@
         "key": "red-dmg",
         "label": {
           "en": "Damage Reduced",
-          "zh-TW": "減少傷害",
-          "zh-CN": "减少伤害"
+          "zh-TW": "傷害降低",
+          "zh-CN": "伤害降低"
         },
         "min": 1,
         "max": 4,
@@ -2712,8 +2712,8 @@
         "key": "red-mag",
         "label": {
           "en": "Magic Damage Reduced",
-          "zh-TW": "減少魔法傷害",
-          "zh-CN": "减少魔法伤害"
+          "zh-TW": "魔法傷害降低",
+          "zh-CN": "魔法伤害降低"
         },
         "min": 1,
         "max": 2,
@@ -2724,8 +2724,8 @@
         "key": "ac%",
         "label": {
           "en": "Enhanced Defense %",
-          "zh-TW": "強化防禦力 %",
-          "zh-CN": "强化防御力 %"
+          "zh-TW": "防禦強化 %",
+          "zh-CN": "防御强化 %"
         },
         "min": 5,
         "max": 10,
