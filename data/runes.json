@@ -26,7 +26,7 @@
         "label": {
           "en": "Attack Rating",
           "zh-TW": "準確率",
-          "zh-CN": "准确率"
+          "zh-CN": "命中值"
         },
         "min": 50,
         "max": 50,
@@ -108,7 +108,7 @@
         "label": {
           "en": "Attack Rating vs. Undead",
           "zh-TW": "對不死怪物的準確率",
-          "zh-CN": "对不死怪物的准确率"
+          "zh-CN": "对亡灵的命中值"
         },
         "min": 50,
         "max": 50,
@@ -119,7 +119,7 @@
         "label": {
           "en": "Damage to Undead",
           "zh-TW": "對不死怪物的傷害",
-          "zh-CN": "对不死怪物的伤害"
+          "zh-CN": "对亡灵的伤害"
         },
         "min": 75,
         "max": 75,
@@ -132,7 +132,7 @@
         "label": {
           "en": "Slower Stamina Drain %",
           "zh-TW": "精力消耗減緩 %",
-          "zh-CN": "精力消耗减缓 %"
+          "zh-CN": "降低耐力消耗 %"
         },
         "min": 15,
         "max": 15,
@@ -145,7 +145,7 @@
         "label": {
           "en": "Increased Chance of Blocking %",
           "zh-TW": "格擋機率提高 %",
-          "zh-CN": "格挡机率提高 %"
+          "zh-CN": "格挡几率提高 %"
         },
         "min": 7,
         "max": 7,
@@ -187,7 +187,7 @@
         "label": {
           "en": "Mana after Kill",
           "zh-TW": "擊殺法力恢復",
-          "zh-CN": "击杀法力恢复"
+          "zh-CN": "每次消灭恢复的法力"
         },
         "min": 2,
         "max": 2,
@@ -200,7 +200,7 @@
         "label": {
           "en": "Mana after Kill",
           "zh-TW": "擊殺法力恢復",
-          "zh-CN": "击杀法力恢复"
+          "zh-CN": "每次消灭恢复的法力"
         },
         "min": 2,
         "max": 2,
@@ -213,7 +213,7 @@
         "label": {
           "en": "Mana after Kill",
           "zh-TW": "擊殺法力恢復",
-          "zh-CN": "击杀法力恢复"
+          "zh-CN": "每次消灭恢复的法力"
         },
         "min": 2,
         "max": 2,
@@ -268,7 +268,7 @@
         "label": {
           "en": "Defense vs. Missile",
           "zh-TW": "對遠程防禦",
-          "zh-CN": "对远程防御"
+          "zh-CN": "远程防御"
         },
         "min": 30,
         "max": 30,
@@ -281,7 +281,7 @@
         "label": {
           "en": "Defense vs. Missile",
           "zh-TW": "對遠程防禦",
-          "zh-CN": "对远程防御"
+          "zh-CN": "远程防御"
         },
         "min": 30,
         "max": 30,
@@ -336,7 +336,7 @@
         "label": {
           "en": "Mana Regenerated %",
           "zh-TW": "法力恢復 %",
-          "zh-CN": "法力恢复 %"
+          "zh-CN": "法力回复 %"
         },
         "min": 15,
         "max": 15,
@@ -349,7 +349,7 @@
         "label": {
           "en": "Mana Regenerated %",
           "zh-TW": "法力恢復 %",
-          "zh-CN": "法力恢复 %"
+          "zh-CN": "法力回复 %"
         },
         "min": 15,
         "max": 15,
@@ -404,7 +404,7 @@
         "label": {
           "en": "Damage Taken Goes to Mana",
           "zh-TW": "受到的傷害轉為法力",
-          "zh-CN": "受到的伤害转为法力"
+          "zh-CN": "受到的伤害转换为法力"
         },
         "min": 15,
         "max": 15,
@@ -417,7 +417,7 @@
         "label": {
           "en": "Damage Taken Goes to Mana",
           "zh-TW": "受到的傷害轉為法力",
-          "zh-CN": "受到的伤害转为法力"
+          "zh-CN": "受到的伤害转换为法力"
         },
         "min": 15,
         "max": 15,
@@ -596,7 +596,7 @@
         "label": {
           "en": "Lightning Damage",
           "zh-TW": "電擊傷害",
-          "zh-CN": "电击伤害"
+          "zh-CN": "闪电伤害"
         },
         "min": 1,
         "max": 50,
@@ -610,7 +610,7 @@
         "label": {
           "en": "Lightning Resist %",
           "zh-TW": "電擊抗性 %",
-          "zh-CN": "电击抗性 %"
+          "zh-CN": "闪电抗性 %"
         },
         "min": 30,
         "max": 30,
@@ -623,7 +623,7 @@
         "label": {
           "en": "Lightning Resist %",
           "zh-TW": "電擊抗性 %",
-          "zh-CN": "电击抗性 %"
+          "zh-CN": "闪电抗性 %"
         },
         "min": 35,
         "max": 35,
@@ -665,7 +665,7 @@
         "label": {
           "en": "Cold Damage",
           "zh-TW": "冰寒傷害",
-          "zh-CN": "冰寒伤害"
+          "zh-CN": "冰霜伤害"
         },
         "min": 3,
         "max": 14,
@@ -679,7 +679,7 @@
         "label": {
           "en": "Cold Resist %",
           "zh-TW": "冰寒抗性 %",
-          "zh-CN": "冰寒抗性 %"
+          "zh-CN": "冰霜抗性 %"
         },
         "min": 30,
         "max": 30,
@@ -692,7 +692,7 @@
         "label": {
           "en": "Cold Resist %",
           "zh-TW": "冰寒抗性 %",
-          "zh-CN": "冰寒抗性 %"
+          "zh-CN": "冰霜抗性 %"
         },
         "min": 35,
         "max": 35,
@@ -878,7 +878,7 @@
         "label": {
           "en": "Faster Attack Rate",
           "zh-TW": "攻擊速度",
-          "zh-CN": "攻击速度"
+          "zh-CN": "提高攻击速度"
         },
         "min": 20,
         "max": 20,
@@ -891,7 +891,7 @@
         "label": {
           "en": "Faster Hit Recovery",
           "zh-TW": "打擊恢復",
-          "zh-CN": "打击恢复"
+          "zh-CN": "更快速打击回复"
         },
         "min": 20,
         "max": 20,
@@ -904,7 +904,7 @@
         "label": {
           "en": "Faster Block Rate",
           "zh-TW": "格擋速度",
-          "zh-CN": "格挡速度"
+          "zh-CN": "更快速格挡"
         },
         "min": 20,
         "max": 20,
@@ -950,7 +950,7 @@
         "label": {
           "en": "Hit Causes Monster to Flee %",
           "zh-TW": "機率擊中使怪物逃跑 %",
-          "zh-CN": "机率击中使怪物逃跑 %"
+          "zh-CN": "几率命中使怪物逃跑 %"
         },
         "min": 32,
         "max": 32,
@@ -963,7 +963,7 @@
         "label": {
           "en": "Replenish Life",
           "zh-TW": "生命回復",
-          "zh-CN": "生命回复"
+          "zh-CN": "补充生命"
         },
         "min": 7,
         "max": 7,
@@ -976,7 +976,7 @@
         "label": {
           "en": "Replenish Life",
           "zh-TW": "生命回復",
-          "zh-CN": "生命回复"
+          "zh-CN": "补充生命"
         },
         "min": 7,
         "max": 7,
@@ -1094,7 +1094,7 @@
         "label": {
           "en": "Vitality",
           "zh-TW": "體能",
-          "zh-CN": "体能"
+          "zh-CN": "活力"
         },
         "min": 10,
         "max": 10,
@@ -1107,7 +1107,7 @@
         "label": {
           "en": "Vitality",
           "zh-TW": "體能",
-          "zh-CN": "体能"
+          "zh-CN": "活力"
         },
         "min": 10,
         "max": 10,
@@ -1120,7 +1120,7 @@
         "label": {
           "en": "Vitality",
           "zh-TW": "體能",
-          "zh-CN": "体能"
+          "zh-CN": "活力"
         },
         "min": 10,
         "max": 10,
@@ -1382,7 +1382,7 @@
         "label": {
           "en": "Gold Find %",
           "zh-TW": "怪物金幣掉落量提高 %",
-          "zh-CN": "怪物金币掉落量提高 %"
+          "zh-CN": "怪物额外掉落金币 %"
         },
         "min": 75,
         "max": 75,
@@ -1395,7 +1395,7 @@
         "label": {
           "en": "Gold Find %",
           "zh-TW": "怪物金幣掉落量提高 %",
-          "zh-CN": "怪物金币掉落量提高 %"
+          "zh-CN": "怪物额外掉落金币 %"
         },
         "min": 50,
         "max": 50,
@@ -1408,7 +1408,7 @@
         "label": {
           "en": "Gold Find %",
           "zh-TW": "怪物金幣掉落量提高 %",
-          "zh-CN": "怪物金币掉落量提高 %"
+          "zh-CN": "怪物额外掉落金币 %"
         },
         "min": 50,
         "max": 50,
@@ -1454,7 +1454,7 @@
         "label": {
           "en": "Attack Rating vs. Demons",
           "zh-TW": "對惡魔的準確率",
-          "zh-CN": "对恶魔的准确率"
+          "zh-CN": "对恶魔的命中值"
         },
         "min": 100,
         "max": 100,
@@ -1478,7 +1478,7 @@
         "label": {
           "en": "Enhanced Defense %",
           "zh-TW": "防禦強化 %",
-          "zh-CN": "防御强化 %"
+          "zh-CN": "强化防御 %"
         },
         "min": 30,
         "max": 30,
@@ -1491,7 +1491,7 @@
         "label": {
           "en": "Enhanced Defense %",
           "zh-TW": "防禦強化 %",
-          "zh-CN": "防御强化 %"
+          "zh-CN": "强化防御 %"
         },
         "min": 30,
         "max": 30,
@@ -1537,7 +1537,7 @@
         "label": {
           "en": "Open Wounds %",
           "zh-TW": "機率造成開放傷口 %",
-          "zh-CN": "机率造成开放伤口 %"
+          "zh-CN": "几率造成开创性伤口 %"
         },
         "min": 25,
         "max": 25,
@@ -1609,7 +1609,7 @@
         "label": {
           "en": "Prevent Monster Heal",
           "zh-TW": "防止怪物自療",
-          "zh-CN": "防止怪物自疗"
+          "zh-CN": "防止怪物治愈"
         },
         "min": 1,
         "max": 1,
@@ -1681,7 +1681,7 @@
         "label": {
           "en": "Magic Find %",
           "zh-TW": "尋獲魔法物品機率提高 %",
-          "zh-CN": "寻获魔法物品机率提高 %"
+          "zh-CN": "额外几率获得魔法物品 %"
         },
         "min": 30,
         "max": 30,
@@ -1694,7 +1694,7 @@
         "label": {
           "en": "Magic Find %",
           "zh-TW": "尋獲魔法物品機率提高 %",
-          "zh-CN": "寻获魔法物品机率提高 %"
+          "zh-CN": "额外几率获得魔法物品 %"
         },
         "min": 25,
         "max": 25,
@@ -1707,7 +1707,7 @@
         "label": {
           "en": "Magic Find %",
           "zh-TW": "尋獲魔法物品機率提高 %",
-          "zh-CN": "寻获魔法物品机率提高 %"
+          "zh-CN": "额外几率获得魔法物品 %"
         },
         "min": 25,
         "max": 25,
@@ -1753,7 +1753,7 @@
         "label": {
           "en": "Attack Rating %",
           "zh-TW": "準確率加成 %",
-          "zh-CN": "准确率加成 %"
+          "zh-CN": "加成命中值 %"
         },
         "min": 20,
         "max": 20,
@@ -1897,7 +1897,7 @@
         "label": {
           "en": "Enhanced Damage %",
           "zh-TW": "傷害強化 %",
-          "zh-CN": "伤害强化 %"
+          "zh-CN": "强化伤害 %"
         },
         "min": 50,
         "max": 50,
@@ -1969,7 +1969,7 @@
         "label": {
           "en": "Deadly Strike %",
           "zh-TW": "致命打擊 %",
-          "zh-CN": "致命打击 %"
+          "zh-CN": "致死打击 %"
         },
         "min": 20,
         "max": 20,
@@ -2041,7 +2041,7 @@
         "label": {
           "en": "Hit Blinds Target",
           "zh-TW": "擊中使目標目盲",
-          "zh-CN": "击中使目标目盲"
+          "zh-CN": "命中可致盲目标"
         },
         "min": 1,
         "max": 1,
@@ -2054,7 +2054,7 @@
         "label": {
           "en": "Increase Maximum Mana %",
           "zh-TW": "法力上限提高 %",
-          "zh-CN": "法力上限提高 %"
+          "zh-CN": "法力最大值 %"
         },
         "min": 5,
         "max": 5,
@@ -2113,7 +2113,7 @@
         "label": {
           "en": "Crushing Blow %",
           "zh-TW": "機率造成粉碎打擊 %",
-          "zh-CN": "机率造成粉碎打击 %"
+          "zh-CN": "几率粉碎打击 %"
         },
         "min": 20,
         "max": 20,
@@ -2185,7 +2185,7 @@
         "label": {
           "en": "Ignore Target Defense",
           "zh-TW": "無視目標防禦",
-          "zh-CN": "无视目标防御"
+          "zh-CN": "忽略目标的防御"
         },
         "min": 1,
         "max": 1,
@@ -2198,7 +2198,7 @@
         "label": {
           "en": "Increase Maximum Life %",
           "zh-TW": "生命上限提高 %",
-          "zh-CN": "生命上限提高 %"
+          "zh-CN": "生命最大值 %"
         },
         "min": 5,
         "max": 5,
@@ -2270,7 +2270,7 @@
         "label": {
           "en": "Cannot Be Frozen",
           "zh-TW": "無法凍結",
-          "zh-CN": "无法冻结"
+          "zh-CN": "无法被冻结"
         },
         "min": 1,
         "max": 1,
@@ -2283,7 +2283,7 @@
         "label": {
           "en": "Cannot Be Frozen",
           "zh-TW": "無法凍結",
-          "zh-CN": "无法冻结"
+          "zh-CN": "无法被冻结"
         },
         "min": 1,
         "max": 1,
@@ -2329,7 +2329,7 @@
         "label": {
           "en": "Indestructible",
           "zh-TW": "永不毀損",
-          "zh-CN": "永不毁损"
+          "zh-CN": "不可摧毁"
         },
         "min": 1,
         "max": 1,
@@ -2342,7 +2342,7 @@
         "label": {
           "en": "Indestructible",
           "zh-TW": "永不毀損",
-          "zh-CN": "永不毁损"
+          "zh-CN": "不可摧毁"
         },
         "min": 1,
         "max": 1,
@@ -2355,7 +2355,7 @@
         "label": {
           "en": "Indestructible",
           "zh-TW": "永不毀損",
-          "zh-CN": "永不毁损"
+          "zh-CN": "不可摧毁"
         },
         "min": 1,
         "max": 1,

@@ -66,7 +66,7 @@
         "label": {
           "en": "Defense vs. Missile",
           "zh-TW": "對遠程防禦",
-          "zh-CN": "对远程防御"
+          "zh-CN": "远程防御"
         },
         "min": 25,
         "max": 50,
@@ -142,7 +142,7 @@
         "label": {
           "en": "Defense vs. Melee",
           "zh-TW": "對近戰防禦",
-          "zh-CN": "对近战防御"
+          "zh-CN": "近战防御"
         },
         "min": 25,
         "max": 50,
@@ -293,7 +293,7 @@
         "label": {
           "en": "Damage Taken Goes to Mana",
           "zh-TW": "受到的傷害轉為法力",
-          "zh-CN": "受到的伤害转为法力"
+          "zh-CN": "受到的伤害转换为法力"
         },
         "min": 5,
         "max": 10,
@@ -369,7 +369,7 @@
         "label": {
           "en": "Increased Chance of Blocking %",
           "zh-TW": "格擋機率提高 %",
-          "zh-CN": "格挡机率提高 %"
+          "zh-CN": "格挡几率提高 %"
         },
         "min": 5,
         "max": 10,
@@ -445,7 +445,7 @@
         "label": {
           "en": "Faster Hit Recovery",
           "zh-TW": "打擊恢復",
-          "zh-CN": "打击恢复"
+          "zh-CN": "更快速打击回复"
         },
         "min": 10,
         "max": 20,
@@ -521,7 +521,7 @@
         "label": {
           "en": "Hit Causes Monster to Flee %",
           "zh-TW": "機率擊中使怪物逃跑 %",
-          "zh-CN": "机率击中使怪物逃跑 %"
+          "zh-CN": "几率命中使怪物逃跑 %"
         },
         "min": 5,
         "max": 15,
@@ -673,7 +673,7 @@
         "label": {
           "en": "Enhanced Damage %",
           "zh-TW": "傷害強化 %",
-          "zh-CN": "伤害强化 %"
+          "zh-CN": "强化伤害 %"
         },
         "min": 35,
         "max": 60,
@@ -749,7 +749,7 @@
         "label": {
           "en": "Deadly Strike %",
           "zh-TW": "致命打擊 %",
-          "zh-CN": "致命打击 %"
+          "zh-CN": "致死打击 %"
         },
         "min": 5,
         "max": 10,
@@ -825,7 +825,7 @@
         "label": {
           "en": "Replenish Life",
           "zh-TW": "生命回復",
-          "zh-CN": "生命回复"
+          "zh-CN": "补充生命"
         },
         "min": 5,
         "max": 10,
@@ -901,7 +901,7 @@
         "label": {
           "en": "Crushing Blow %",
           "zh-TW": "機率造成粉碎打擊 %",
-          "zh-CN": "机率造成粉碎打击 %"
+          "zh-CN": "几率粉碎打击 %"
         },
         "min": 5,
         "max": 10,
@@ -977,7 +977,7 @@
         "label": {
           "en": "Open Wounds %",
           "zh-TW": "機率造成開放傷口 %",
-          "zh-CN": "机率造成开放伤口 %"
+          "zh-CN": "几率造成开创性伤口 %"
         },
         "min": 5,
         "max": 10,
@@ -1129,7 +1129,7 @@
         "label": {
           "en": "Life after Demon Kill",
           "zh-TW": "擊殺惡魔生命恢復",
-          "zh-CN": "击杀恶魔生命恢复"
+          "zh-CN": "每次消灭恶魔恢复的生命"
         },
         "min": 1,
         "max": 3,
@@ -1205,7 +1205,7 @@
         "label": {
           "en": "Faster Run/Walk %",
           "zh-TW": "跑步 / 行走速度 %",
-          "zh-CN": "跑步 / 行走速度 %"
+          "zh-CN": "更快速跑步/步行 %"
         },
         "min": 5,
         "max": 10,
@@ -1357,7 +1357,7 @@
         "label": {
           "en": "Enhanced Damage %",
           "zh-TW": "傷害強化 %",
-          "zh-CN": "伤害强化 %"
+          "zh-CN": "强化伤害 %"
         },
         "min": 35,
         "max": 60,
@@ -1409,7 +1409,7 @@
         "label": {
           "en": "Mana Regenerated %",
           "zh-TW": "法力恢復 %",
-          "zh-CN": "法力恢复 %"
+          "zh-CN": "法力回复 %"
         },
         "min": 4,
         "max": 10,
@@ -1485,7 +1485,7 @@
         "label": {
           "en": "Mana Regenerated %",
           "zh-TW": "法力恢復 %",
-          "zh-CN": "法力恢复 %"
+          "zh-CN": "法力回复 %"
         },
         "min": 4,
         "max": 10,
@@ -1509,7 +1509,7 @@
         "label": {
           "en": "Increase Maximum Mana %",
           "zh-TW": "法力上限提高 %",
-          "zh-CN": "法力上限提高 %"
+          "zh-CN": "法力最大值 %"
         },
         "min": 2,
         "max": 5,
@@ -1561,7 +1561,7 @@
         "label": {
           "en": "Mana Regenerated %",
           "zh-TW": "法力恢復 %",
-          "zh-CN": "法力恢复 %"
+          "zh-CN": "法力回复 %"
         },
         "min": 4,
         "max": 10,
@@ -1585,7 +1585,7 @@
         "label": {
           "en": "Mana after Kill",
           "zh-TW": "擊殺法力恢復",
-          "zh-CN": "击杀法力恢复"
+          "zh-CN": "每次消灭恢复的法力"
         },
         "min": 1,
         "max": 3,
@@ -1637,7 +1637,7 @@
         "label": {
           "en": "Mana Regenerated %",
           "zh-TW": "法力恢復 %",
-          "zh-CN": "法力恢复 %"
+          "zh-CN": "法力回复 %"
         },
         "min": 4,
         "max": 10,
@@ -1661,7 +1661,7 @@
         "label": {
           "en": "Faster Cast Rate",
           "zh-TW": "施法速度",
-          "zh-CN": "施法速度"
+          "zh-CN": "更快速施法"
         },
         "min": 5,
         "max": 10,
@@ -1713,7 +1713,7 @@
         "label": {
           "en": "Mana Regenerated %",
           "zh-TW": "法力恢復 %",
-          "zh-CN": "法力恢复 %"
+          "zh-CN": "法力回复 %"
         },
         "min": 4,
         "max": 10,
@@ -1737,7 +1737,7 @@
         "label": {
           "en": "Increased Chance of Blocking %",
           "zh-TW": "格擋機率提高 %",
-          "zh-CN": "格挡机率提高 %"
+          "zh-CN": "格挡几率提高 %"
         },
         "min": 5,
         "max": 10,
@@ -1789,7 +1789,7 @@
         "label": {
           "en": "Mana Regenerated %",
           "zh-TW": "法力恢復 %",
-          "zh-CN": "法力恢复 %"
+          "zh-CN": "法力回复 %"
         },
         "min": 4,
         "max": 10,
@@ -1813,7 +1813,7 @@
         "label": {
           "en": "Mana after Kill",
           "zh-TW": "擊殺法力恢復",
-          "zh-CN": "击杀法力恢复"
+          "zh-CN": "每次消灭恢复的法力"
         },
         "min": 1,
         "max": 3,
@@ -1865,7 +1865,7 @@
         "label": {
           "en": "Mana Regenerated %",
           "zh-TW": "法力恢復 %",
-          "zh-CN": "法力恢复 %"
+          "zh-CN": "法力回复 %"
         },
         "min": 4,
         "max": 10,
@@ -1889,7 +1889,7 @@
         "label": {
           "en": "Faster Cast Rate",
           "zh-TW": "施法速度",
-          "zh-CN": "施法速度"
+          "zh-CN": "更快速施法"
         },
         "min": 5,
         "max": 10,
@@ -1941,7 +1941,7 @@
         "label": {
           "en": "Mana Regenerated %",
           "zh-TW": "法力恢復 %",
-          "zh-CN": "法力恢复 %"
+          "zh-CN": "法力回复 %"
         },
         "min": 4,
         "max": 10,
@@ -2017,7 +2017,7 @@
         "label": {
           "en": "Mana Regenerated %",
           "zh-TW": "法力恢復 %",
-          "zh-CN": "法力恢复 %"
+          "zh-CN": "法力回复 %"
         },
         "min": 4,
         "max": 10,
@@ -2041,7 +2041,7 @@
         "label": {
           "en": "Increase Maximum Mana %",
           "zh-TW": "法力上限提高 %",
-          "zh-CN": "法力上限提高 %"
+          "zh-CN": "法力最大值 %"
         },
         "min": 1,
         "max": 5,
@@ -2117,7 +2117,7 @@
         "label": {
           "en": "Lightning Resist %",
           "zh-TW": "電擊抗性 %",
-          "zh-CN": "电击抗性 %"
+          "zh-CN": "闪电抗性 %"
         },
         "min": 5,
         "max": 10,
@@ -2269,7 +2269,7 @@
         "label": {
           "en": "Cold Resist %",
           "zh-TW": "冰寒抗性 %",
-          "zh-CN": "冰寒抗性 %"
+          "zh-CN": "冰霜抗性 %"
         },
         "min": 5,
         "max": 10,
@@ -2472,7 +2472,7 @@
         "label": {
           "en": "Half Freeze Duration",
           "zh-TW": "被凍結的時效減半",
-          "zh-CN": "被冻结的时效减半"
+          "zh-CN": "冻结时间减半"
         },
         "value": 1,
         "isSkillRef": false,
@@ -2573,7 +2573,7 @@
         "label": {
           "en": "Increased Chance of Blocking %",
           "zh-TW": "格擋機率提高 %",
-          "zh-CN": "格挡机率提高 %"
+          "zh-CN": "格挡几率提高 %"
         },
         "min": 1,
         "max": 10,
@@ -2649,7 +2649,7 @@
         "label": {
           "en": "Vitality",
           "zh-TW": "體能",
-          "zh-CN": "体能"
+          "zh-CN": "活力"
         },
         "min": 1,
         "max": 5,
@@ -2725,7 +2725,7 @@
         "label": {
           "en": "Enhanced Defense %",
           "zh-TW": "防禦強化 %",
-          "zh-CN": "防御强化 %"
+          "zh-CN": "强化防御 %"
         },
         "min": 5,
         "max": 10,

@@ -153,6 +153,13 @@ const PROP_LABELS_EN = {
   // undead-related Stat family and the item's sibling "dmg-und/lvl" entry.
   'att-und': 'Attack Rating vs. Undead',
   'dmg-und': 'Damage to Undead',
+  // att-dem/dmg-dem are the same short-form-alias pattern as att-und/dmg-und,
+  // used in the "/lvl" shape (e.g. "att-dem/lvl") — same underlying meaning as
+  // att-demon/dmg-demon, confirmed via itemstatcost.json's demon-related Stat
+  // family. Previously missing entirely, which leaked the raw code ("att-dem")
+  // into rendered labels for any item using this shape.
+  'att-dem': 'Attack Rating vs. Demons',
+  'dmg-dem': 'Damage to Demons',
   // aura/kill-skill are skill-referencing base labels (see SKILL_REF_PROPS below);
   // localizedLabelWithSkill appends "(<Skill/Aura Name>)" to this base text.
   aura: 'Aura Level',
@@ -250,15 +257,73 @@ const PROP_LABELS_ZH_TW = {
   'skilltab-war': '技能列加成',
   'att-und': '對不死怪物的準確率',
   'dmg-und': '對不死怪物的傷害',
+  'att-dem': '對惡魔的準確率',
+  'dmg-dem': '對惡魔的傷害',
   aura: '光環等級',
   'kill-skill': '擊殺時觸發機率',
 };
 
-const LVL_SUFFIX = { en: ' (Based on Character Level)', 'zh-TW': '（依角色等級）' };
+// Official D2R zh-CN wording for the subset of codes where it's NOT simply the
+// Simplified-character conversion of zh-TW — the two locales are independently
+// localized (different translators, different word choices; e.g. att: zh-TW
+// "準確率" vs zh-CN "命中值", abs-cold: zh-TW "冰寒吸收" vs zh-CN "冰霜伤害吸收").
+// Resolved via the same properties.txt -> itemstatcost.txt descstrpos -> lng
+// strings chain used for PROP_LABELS_ZH_TW, against the game's zhCN strings.
+// Any code NOT here falls back to toZhCn(PROP_LABELS_ZH_TW[code]) (character
+// conversion only) — correct for the many codes confirmed to share identical
+// wording between the two locales.
+const PROP_LABELS_ZH_CN = {
+  'abs-cold': '冰霜伤害吸收', 'abs-cold%': '冰霜伤害吸收 %',
+  'abs-fire': '火焰伤害吸收', 'abs-fire%': '火焰伤害吸收 %',
+  'abs-ltng': '闪电伤害吸收', 'abs-ltng%': '闪电伤害吸收 %',
+  'ac%': '强化防御 %', 'ac-hth': '近战防御',
+  'ac-miss': '远程防御', addxp: '获得的经验 %',
+  att: '命中值', 'att%': '加成命中值 %',
+  'att-demon': '对恶魔的命中值', 'att-undead': '对亡灵的命中值',
+  balance1: '更快速打击回复', balance2: '更快速打击回复',
+  balance3: '更快速打击回复', block: '格挡几率提高 %',
+  block2: '更快速格挡', block3: '更快速格挡',
+  cast1: '更快速施法', cast2: '更快速施法',
+  cast3: '更快速施法', cheap: '所有商人的收费减少 %',
+  'cold-max': '最大冰霜伤害', 'cold-min': '最小冰霜伤害',
+  crush: '几率粉碎打击 %', deadly: '致死打击 %',
+  'demon-heal': '每次消灭恶魔恢复的生命', 'dmg%': '强化伤害 %',
+  'dmg-cold': '冰霜伤害', 'dmg-ltng': '闪电伤害',
+  'dmg-to-mana': '受到的伤害转换为法力', 'dmg-undead': '对亡灵的伤害',
+  explosivearrow: '射出爆炸箭或弩矢', 'extra-cold': '冰霜技能伤害 %',
+  'fire-max': '最大火焰伤害', 'fire-min': '最小火焰伤害',
+  'gold%': '怪物额外掉落金币 %', 'half-freeze': '冻结时间减半',
+  'heal-kill': '每次消灭恢复的生命', howl: '几率命中使怪物逃跑 %',
+  'hp%': '生命最大值 %', 'ignore-ac': '忽略目标的防御',
+  indestruct: '不可摧毁', 'light-thorns': '攻击者受到闪电伤害',
+  'ltng-max': '最大闪电伤害', 'ltng-min': '最小闪电伤害',
+  'mag%': '额外几率获得魔法物品 %', magicarrow: '射出魔法箭',
+  'mana%': '法力最大值 %', 'mana-kill': '每次消灭恢复的法力',
+  move1: '更快速跑步/步行 %', move2: '更快速跑步/步行 %',
+  move3: '更快速跑步/步行 %', nofreeze: '无法被冻结',
+  noheal: '防止怪物治愈', openwounds: '几率造成开创性伤口 %',
+  pierce: '穿刺攻击 %', 'pierce-cold': '敌人的冰霜抗性 %',
+  'pierce-fire': '敌人的火焰抗性 %', 'pierce-immunity-cold': '已破除怪物冰霜免疫',
+  'pierce-immunity-damage': '已破除怪物物理免疫', 'pierce-immunity-fire': '已破除怪物火焰免疫',
+  'pierce-immunity-light': '已破除怪物闪电免疫', 'pierce-immunity-magic': '已破除怪物魔法免疫',
+  'pierce-immunity-poison': '已破除怪物毒素免疫', 'pierce-ltng': '敌人的闪电抗性 %',
+  'pierce-mag': '敌人的魔法抗性 %', 'pierce-pois': '敌人的毒素抗性 %',
+  regen: '补充生命', 'regen-mana': '法力回复 %',
+  'rep-quant': '补充数量', 'res-cold': '冰霜抗性 %',
+  'res-ltng': '闪电抗性 %', 'res-pois-len': '中毒时间缩短 %',
+  rip: '消灭的怪物就此安息', slow: '使目标减速 %',
+  stack: '增加堆叠数量', stam: '最大耐力',
+  stamdrain: '降低耐力消耗 %', stupidity: '命中可致盲目标',
+  swing1: '提高攻击速度', swing2: '提高攻击速度',
+  swing3: '提高攻击速度', vit: '活力',
+};
+
+const LVL_SUFFIX = { en: ' (Based on Character Level)', 'zh-TW': '（依角色等級）', 'zh-CN': '（依角色等级）' };
 
 // locale here is only 'en' | 'zh-TW' — zh-CN is always derived by converting a zh-TW
 // result, never resolved independently (see localizedLabelFor / localizedItemName etc.).
 function baseLabelForLocale(code, locale) {
+  if (locale === 'zh-CN') return PROP_LABELS_ZH_CN[code] ?? toZhCn(baseLabelForLocale(code, 'zh-TW'));
   if (locale === 'zh-TW') return PROP_LABELS_ZH_TW[code] ?? baseLabelForLocale(code, 'en');
   return PROP_LABELS_EN[code] ?? code;
 }
@@ -278,8 +343,7 @@ function labelForLocale(code, locale) {
 }
 
 function localizedLabelFor(code) {
-  const zhTw = labelForLocale(code, 'zh-TW');
-  return { en: labelForLocale(code, 'en'), 'zh-TW': zhTw, 'zh-CN': toZhCn(zhTw) };
+  return { en: labelForLocale(code, 'en'), 'zh-TW': labelForLocale(code, 'zh-TW'), 'zh-CN': labelForLocale(code, 'zh-CN') };
 }
 
 // Prop codes whose `par` field identifies a specific skill rather than being
