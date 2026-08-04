@@ -462,7 +462,7 @@
         },
         "min": 1,
         "max": 99,
-        "variable": true
+        "variable": false
       }
     ],
     "ladderRestricted": false,
@@ -589,7 +589,7 @@
         },
         "min": 10,
         "max": 990,
-        "variable": true
+        "variable": false
       }
     ],
     "ladderRestricted": false,
@@ -716,7 +716,7 @@
         },
         "min": 2,
         "max": 248,
-        "variable": true
+        "variable": false
       }
     ],
     "ladderRestricted": false,
@@ -843,7 +843,7 @@
         },
         "min": 2,
         "max": 248,
-        "variable": true
+        "variable": false
       }
     ],
     "ladderRestricted": false,
@@ -981,7 +981,7 @@
         },
         "min": 1,
         "max": 124,
-        "variable": true
+        "variable": false
       }
     ],
     "ladderRestricted": false,
@@ -1257,7 +1257,7 @@
         },
         "min": 10,
         "max": 990,
-        "variable": true
+        "variable": false
       }
     ],
     "ladderRestricted": false,
@@ -1806,7 +1806,7 @@
         },
         "min": 2,
         "max": 198,
-        "variable": true
+        "variable": false
       }
     ],
     "ladderRestricted": false,
@@ -2151,7 +2151,7 @@
         },
         "min": 5,
         "max": 495,
-        "variable": true
+        "variable": false
       }
     ],
     "ladderRestricted": false,
@@ -2473,7 +2473,7 @@
         },
         "min": 2,
         "max": 198,
-        "variable": true
+        "variable": false
       }
     ],
     "ladderRestricted": false,
@@ -2760,7 +2760,7 @@
         },
         "min": 2,
         "max": 148,
-        "variable": true
+        "variable": false
       },
       {
         "code": "freeze",
@@ -2796,7 +2796,7 @@
         },
         "min": 8,
         "max": 792,
-        "variable": true
+        "variable": false
       }
     ],
     "ladderRestricted": false,
@@ -2922,7 +2922,7 @@
         },
         "min": 2,
         "max": 148,
-        "variable": true
+        "variable": false
       },
       {
         "code": "freeze",
@@ -3084,7 +3084,7 @@
         },
         "min": 2,
         "max": 148,
-        "variable": true
+        "variable": false
       },
       {
         "code": "freeze",
@@ -3132,7 +3132,7 @@
         },
         "min": 2,
         "max": 248,
-        "variable": true
+        "variable": false
       }
     ],
     "ladderRestricted": false,
@@ -3255,7 +3255,7 @@
         },
         "min": 2,
         "max": 148,
-        "variable": true
+        "variable": false
       },
       {
         "code": "freeze",
@@ -3381,7 +3381,7 @@
         },
         "min": 2,
         "max": 198,
-        "variable": true
+        "variable": false
       },
       {
         "piecesRequired": 3,
@@ -3578,7 +3578,7 @@
         },
         "min": 2,
         "max": 198,
-        "variable": true
+        "variable": false
       },
       {
         "piecesRequired": 3,
@@ -3739,7 +3739,7 @@
         },
         "min": 2,
         "max": 198,
-        "variable": true
+        "variable": false
       },
       {
         "piecesRequired": 3,
@@ -3913,7 +3913,7 @@
         },
         "min": 2,
         "max": 198,
-        "variable": true
+        "variable": false
       },
       {
         "piecesRequired": 3,
@@ -4540,7 +4540,7 @@
         },
         "min": 2,
         "max": 198,
-        "variable": true
+        "variable": false
       }
     ],
     "ladderRestricted": false,
@@ -5204,7 +5204,7 @@
         },
         "min": 2,
         "max": 198,
-        "variable": true
+        "variable": false
       }
     ],
     "ladderRestricted": false,
@@ -5997,7 +5997,7 @@
         },
         "min": 8,
         "max": 792,
-        "variable": true
+        "variable": false
       }
     ],
     "ladderRestricted": false,
@@ -6492,7 +6492,7 @@
         },
         "min": 2,
         "max": 198,
-        "variable": true
+        "variable": false
       }
     ],
     "ladderRestricted": false,
@@ -6812,7 +6812,7 @@
         },
         "min": 2,
         "max": 198,
-        "variable": true
+        "variable": false
       }
     ],
     "ladderRestricted": false,
@@ -6984,7 +6984,7 @@
         },
         "min": 10,
         "max": 990,
-        "variable": true
+        "variable": false
       }
     ],
     "ladderRestricted": false,
@@ -7295,7 +7295,7 @@
         },
         "min": 8,
         "max": 792,
-        "variable": true
+        "variable": false
       }
     ],
     "ladderRestricted": false,
@@ -7422,7 +7422,7 @@
         },
         "min": 3,
         "max": 297,
-        "variable": true
+        "variable": false
       }
     ],
     "ladderRestricted": false,
@@ -8401,7 +8401,7 @@
         },
         "min": 12,
         "max": 1188,
-        "variable": true
+        "variable": false
       },
       {
         "piecesRequired": 3,
@@ -8675,7 +8675,7 @@
         },
         "min": 2,
         "max": 198,
-        "variable": true
+        "variable": false
       },
       {
         "code": "nofreeze",
@@ -8700,7 +8700,7 @@
         },
         "min": 8,
         "max": 792,
-        "variable": true
+        "variable": false
       },
       {
         "piecesRequired": 3,
@@ -8817,7 +8817,7 @@
         },
         "min": 2,
         "max": 198,
-        "variable": true
+        "variable": false
       },
       {
         "code": "nofreeze",
@@ -8842,7 +8842,7 @@
         },
         "min": 3,
         "max": 297,
-        "variable": true
+        "variable": false
       },
       {
         "piecesRequired": 3,
@@ -8957,7 +8957,7 @@
         },
         "min": 2,
         "max": 198,
-        "variable": true
+        "variable": false
       },
       {
         "code": "nofreeze",
@@ -9097,7 +9097,7 @@
         },
         "min": 2,
         "max": 198,
-        "variable": true
+        "variable": false
       },
       {
         "code": "nofreeze",
@@ -9641,7 +9641,7 @@
         },
         "min": 3,
         "max": 297,
-        "variable": true
+        "variable": false
       },
       {
         "piecesRequired": 3,
@@ -10336,7 +10336,7 @@
         },
         "min": 1,
         "max": 99,
-        "variable": true
+        "variable": false
       },
       {
         "code": "res-pois",
@@ -10362,8 +10362,7 @@
       }
     ],
     "statPriority": [
-      "ac",
-      "hp/lvl"
+      "ac"
     ],
     "setPiecesBonuses": [
       {
@@ -10543,7 +10542,7 @@
         },
         "min": 0,
         "max": 25,
-        "variable": true
+        "variable": false
       },
       {
         "code": "res-cold",
@@ -10570,7 +10569,6 @@
     ],
     "statPriority": [
       "ac",
-      "regen-stam/lvl",
       "res-cold",
       "res-ltng"
     ],
@@ -14322,12 +14320,12 @@
       {
         "code": "abs-cold/lvl",
         "label": {
-          "en": "+2 Absorbs Cold Damage",
-          "zh-TW": "+2 冰寒傷害吸收 （依角色等級而定）",
-          "zh-CN": "+2 吸收冰霜伤害 (基于角色等级)"
+          "en": "+0-25 Absorbs Cold Damage (Based on Character Level)",
+          "zh-TW": "+0-25 冰寒傷害吸收 （依角色等級而定）",
+          "zh-CN": "+0-25 吸收冰霜伤害 (基于角色等级)"
         },
-        "min": 2,
-        "max": 2,
+        "min": 0,
+        "max": 25,
         "variable": false
       },
       {
@@ -16663,7 +16661,7 @@
         },
         "min": 4,
         "max": 396,
-        "variable": true
+        "variable": false
       },
       {
         "code": "ac",
@@ -16700,7 +16698,6 @@
       }
     ],
     "statPriority": [
-      "ac/lvl",
       "red-mag"
     ],
     "setPiecesBonuses": [
@@ -18355,7 +18352,7 @@
         },
         "min": 2,
         "max": 148,
-        "variable": true
+        "variable": false
       },
       {
         "code": "dmg-fire",
@@ -18369,9 +18366,7 @@
         "variable": false
       }
     ],
-    "statPriority": [
-      "dmg/lvl"
-    ],
+    "statPriority": [],
     "setPiecesBonuses": [
       {
         "piecesRequired": 2,
@@ -18395,7 +18390,7 @@
         },
         "min": 3,
         "max": 297,
-        "variable": true
+        "variable": false
       },
       {
         "piecesRequired": 3,
@@ -18610,7 +18605,7 @@
         },
         "min": 3,
         "max": 297,
-        "variable": true
+        "variable": false
       },
       {
         "piecesRequired": 3,
@@ -18803,7 +18798,7 @@
         },
         "min": 3,
         "max": 297,
-        "variable": true
+        "variable": false
       },
       {
         "piecesRequired": 3,
@@ -19007,7 +19002,7 @@
         },
         "min": 3,
         "max": 297,
-        "variable": true
+        "variable": false
       },
       {
         "piecesRequired": 3,
@@ -20274,7 +20269,7 @@
         },
         "min": 2,
         "max": 148,
-        "variable": true
+        "variable": false
       },
       {
         "code": "dmg-to-mana",
@@ -20288,9 +20283,7 @@
         "variable": false
       }
     ],
-    "statPriority": [
-      "ac/lvl"
-    ],
+    "statPriority": [],
     "setPiecesBonuses": [
       {
         "piecesRequired": 2,
@@ -22238,7 +22231,7 @@
         },
         "min": 2,
         "max": 148,
-        "variable": true
+        "variable": false
       }
     ],
     "setFullBonus": [
@@ -22463,7 +22456,7 @@
         },
         "min": 2,
         "max": 148,
-        "variable": true
+        "variable": false
       }
     ],
     "setFullBonus": [
@@ -22677,7 +22670,7 @@
         },
         "min": 2,
         "max": 148,
-        "variable": true
+        "variable": false
       }
     ],
     "setFullBonus": [
@@ -22820,7 +22813,7 @@
         },
         "min": 1,
         "max": 99,
-        "variable": true
+        "variable": false
       },
       {
         "code": "thorns",
@@ -22845,9 +22838,7 @@
         "variable": false
       }
     ],
-    "statPriority": [
-      "ac/lvl"
-    ],
+    "statPriority": [],
     "setPiecesBonuses": [
       {
         "piecesRequired": 2,
@@ -23742,7 +23733,7 @@
         },
         "min": 2,
         "max": 198,
-        "variable": true
+        "variable": false
       }
     ],
     "ladderRestricted": false,
@@ -24225,7 +24216,7 @@
         },
         "min": 8,
         "max": 792,
-        "variable": true
+        "variable": false
       }
     ],
     "ladderRestricted": false,
@@ -24288,12 +24279,10 @@
         },
         "min": 1,
         "max": 99,
-        "variable": true
+        "variable": false
       }
     ],
-    "statPriority": [
-      "dmg/lvl"
-    ],
+    "statPriority": [],
     "setPiecesBonuses": [
       {
         "piecesRequired": 2,
@@ -24527,7 +24516,7 @@
         },
         "min": 8,
         "max": 792,
-        "variable": true
+        "variable": false
       }
     ],
     "ladderRestricted": false,
@@ -24728,7 +24717,7 @@
         },
         "min": 1,
         "max": 99,
-        "variable": true
+        "variable": false
       },
       {
         "code": "str",
@@ -24754,7 +24743,6 @@
       }
     ],
     "statPriority": [
-      "att%/lvl",
       "str",
       "red-mag"
     ],

@@ -514,7 +514,7 @@
         },
         "min": 2,
         "max": 148,
-        "variable": true
+        "variable": false
       },
       {
         "code": "freeze",
@@ -1325,7 +1325,7 @@
         },
         "min": 2,
         "max": 198,
-        "variable": true
+        "variable": false
       },
       {
         "code": "nofreeze",

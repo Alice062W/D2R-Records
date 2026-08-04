@@ -14276,7 +14276,7 @@
         },
         "min": 0,
         "max": 50,
-        "variable": true
+        "variable": false
       },
       {
         "code": "regen",
@@ -14323,9 +14323,7 @@
         "variable": false
       }
     ],
-    "statPriority": [
-      "vit/lvl"
-    ],
+    "statPriority": [],
     "setPiecesBonuses": [],
     "setFullBonus": [],
     "setBonuses": [],
@@ -14678,7 +14676,7 @@
         },
         "min": 2,
         "max": 248,
-        "variable": true
+        "variable": false
       },
       {
         "code": "att-und/lvl",
@@ -14689,7 +14687,7 @@
         },
         "min": 5,
         "max": 495,
-        "variable": true
+        "variable": false
       },
       {
         "code": "str",
@@ -14726,8 +14724,6 @@
       }
     ],
     "statPriority": [
-      "dmg-und/lvl",
-      "att-und/lvl",
       "dmg%"
     ],
     "setPiecesBonuses": [],
@@ -15050,7 +15046,7 @@
         },
         "min": 1,
         "max": 124,
-        "variable": true
+        "variable": false
       },
       {
         "code": "regen",
@@ -15072,13 +15068,10 @@
         },
         "min": 1,
         "max": 124,
-        "variable": true
+        "variable": false
       }
     ],
-    "statPriority": [
-      "hp/lvl",
-      "mana/lvl"
-    ],
+    "statPriority": [],
     "setPiecesBonuses": [],
     "setFullBonus": [],
     "setBonuses": [],
@@ -15226,12 +15219,10 @@
         },
         "min": 1,
         "max": 124,
-        "variable": true
+        "variable": false
       }
     ],
-    "statPriority": [
-      "mana/lvl"
-    ],
+    "statPriority": [],
     "setPiecesBonuses": [],
     "setFullBonus": [],
     "setBonuses": [],
@@ -17134,7 +17125,7 @@
         },
         "min": 2,
         "max": 248,
-        "variable": true
+        "variable": false
       },
       {
         "code": "mag%/lvl",
@@ -17145,7 +17136,7 @@
         },
         "min": 1,
         "max": 99,
-        "variable": true
+        "variable": false
       },
       {
         "code": "dmg%",
@@ -17161,8 +17152,6 @@
     ],
     "statPriority": [
       "dex",
-      "gold%/lvl",
-      "mag%/lvl",
       "dmg%"
     ],
     "setPiecesBonuses": [],
@@ -17312,7 +17301,7 @@
         },
         "min": 1,
         "max": 99,
-        "variable": true
+        "variable": false
       },
       {
         "code": "deadly/lvl",
@@ -17323,7 +17312,7 @@
         },
         "min": 2,
         "max": 148,
-        "variable": true
+        "variable": false
       },
       {
         "code": "noheal",
@@ -17359,10 +17348,7 @@
         "variable": false
       }
     ],
-    "statPriority": [
-      "dmg/lvl",
-      "deadly/lvl"
-    ],
+    "statPriority": [],
     "setPiecesBonuses": [],
     "setFullBonus": [],
     "setBonuses": [],
@@ -17876,7 +17862,7 @@
         },
         "min": 8,
         "max": 742,
-        "variable": true
+        "variable": false
       },
       {
         "code": "att-und/lvl",
@@ -17887,7 +17873,7 @@
         },
         "min": 10,
         "max": 990,
-        "variable": true
+        "variable": false
       },
       {
         "code": "dmg-pois",
@@ -17924,8 +17910,6 @@
       }
     ],
     "statPriority": [
-      "dmg-und/lvl",
-      "att-und/lvl",
       "dmg%"
     ],
     "setPiecesBonuses": [],
@@ -18269,7 +18253,7 @@
         },
         "min": 5,
         "max": 495,
-        "variable": true
+        "variable": false
       },
       {
         "code": "ac-hth",
@@ -18339,7 +18323,6 @@
       }
     ],
     "statPriority": [
-      "ac/lvl",
       "res-all",
       "dmg%"
     ],
@@ -18793,7 +18776,7 @@
         },
         "min": 1,
         "max": 99,
-        "variable": true
+        "variable": false
       },
       {
         "code": "light-thorns",
@@ -18818,9 +18801,7 @@
         "variable": false
       }
     ],
-    "statPriority": [
-      "res-ltng/lvl"
-    ],
+    "statPriority": [],
     "setPiecesBonuses": [],
     "setFullBonus": [],
     "setBonuses": [],
@@ -19033,7 +19014,7 @@
         },
         "min": 1,
         "max": 124,
-        "variable": true
+        "variable": false
       },
       {
         "code": "res-fire",
@@ -19059,7 +19040,6 @@
       }
     ],
     "statPriority": [
-      "hp/lvl",
       "dmg%"
     ],
     "setPiecesBonuses": [],
@@ -19351,7 +19331,7 @@
         },
         "min": 2,
         "max": 148,
-        "variable": true
+        "variable": false
       },
       {
         "code": "ac%",
@@ -19399,7 +19379,6 @@
       }
     ],
     "statPriority": [
-      "dmg-dem/lvl",
       "dmg%"
     ],
     "setPiecesBonuses": [],
@@ -19570,7 +19549,7 @@
         },
         "min": 1,
         "max": 124,
-        "variable": true
+        "variable": false
       },
       {
         "code": "lifesteal",
@@ -19618,7 +19597,6 @@
       }
     ],
     "statPriority": [
-      "dmg/lvl",
       "dmg%"
     ],
     "setPiecesBonuses": [],
@@ -19691,7 +19669,7 @@
         },
         "min": 1,
         "max": 99,
-        "variable": true
+        "variable": false
       },
       {
         "code": "dex",
@@ -19713,7 +19691,7 @@
         },
         "min": 1,
         "max": 99,
-        "variable": true
+        "variable": false
       },
       {
         "code": "dmg%",
@@ -19729,8 +19707,6 @@
     ],
     "statPriority": [
       "dru",
-      "dmg/lvl",
-      "hp/lvl",
       "dmg%"
     ],
     "setPiecesBonuses": [],
@@ -20676,12 +20652,10 @@
         },
         "min": 1,
         "max": 99,
-        "variable": true
+        "variable": false
       }
     ],
-    "statPriority": [
-      "mag%/lvl"
-    ],
+    "statPriority": [],
     "setPiecesBonuses": [],
     "setFullBonus": [],
     "setBonuses": [],
@@ -21201,7 +21175,7 @@
         },
         "min": 1,
         "max": 99,
-        "variable": true
+        "variable": false
       },
       {
         "code": "res-all",
@@ -21227,7 +21201,6 @@
       }
     ],
     "statPriority": [
-      "deadly/lvl",
       "dmg%"
     ],
     "setPiecesBonuses": [],
@@ -21833,7 +21806,7 @@
         },
         "min": 5,
         "max": 495,
-        "variable": true
+        "variable": false
       },
       {
         "code": "dmg-pois",
@@ -21870,7 +21843,6 @@
       }
     ],
     "statPriority": [
-      "att/lvl",
       "dmg%"
     ],
     "setPiecesBonuses": [],
@@ -21943,7 +21915,7 @@
         },
         "min": 2,
         "max": 248,
-        "variable": true
+        "variable": false
       },
       {
         "code": "dmg-cold",
@@ -22002,7 +21974,6 @@
       }
     ],
     "statPriority": [
-      "dmg/lvl",
       "ac",
       "dmg%"
     ],
@@ -22536,7 +22507,7 @@
         },
         "min": 2,
         "max": 198,
-        "variable": true
+        "variable": false
       },
       {
         "code": "res-fire",
@@ -22584,7 +22555,6 @@
       }
     ],
     "statPriority": [
-      "ac/lvl",
       "res-fire"
     ],
     "setPiecesBonuses": [],
@@ -23397,7 +23367,7 @@
         },
         "min": 3,
         "max": 297,
-        "variable": true
+        "variable": false
       },
       {
         "code": "hp",
@@ -23435,7 +23405,6 @@
     ],
     "statPriority": [
       "ac%",
-      "ac/lvl",
       "red-dmg",
       "red-mag"
     ],
@@ -23520,7 +23489,7 @@
         },
         "min": 1,
         "max": 124,
-        "variable": true
+        "variable": false
       },
       {
         "code": "res-fire",
@@ -23546,8 +23515,7 @@
       }
     ],
     "statPriority": [
-      "ac%",
-      "hp/lvl"
+      "ac%"
     ],
     "setPiecesBonuses": [],
     "setFullBonus": [],
@@ -23793,7 +23761,7 @@
         },
         "min": 1,
         "max": 124,
-        "variable": true
+        "variable": false
       },
       {
         "code": "str",
@@ -23815,7 +23783,7 @@
         },
         "min": 1,
         "max": 99,
-        "variable": true
+        "variable": false
       },
       {
         "code": "res-cold",
@@ -23874,9 +23842,7 @@
       }
     ],
     "statPriority": [
-      "ac%",
-      "ac/lvl",
-      "hp/lvl"
+      "ac%"
     ],
     "setPiecesBonuses": [],
     "setFullBonus": [],
@@ -23959,7 +23925,7 @@
         },
         "min": 1,
         "max": 124,
-        "variable": true
+        "variable": false
       },
       {
         "code": "rep-dur",
@@ -23974,8 +23940,7 @@
       }
     ],
     "statPriority": [
-      "ac%",
-      "mag%/lvl"
+      "ac%"
     ],
     "setPiecesBonuses": [],
     "setFullBonus": [],
@@ -24058,7 +24023,7 @@
         },
         "min": 2,
         "max": 248,
-        "variable": true
+        "variable": false
       },
       {
         "code": "ac%",
@@ -24095,7 +24060,6 @@
       }
     ],
     "statPriority": [
-      "att-dem/lvl",
       "ac%"
     ],
     "setPiecesBonuses": [],
@@ -24279,7 +24243,7 @@
         },
         "min": 2,
         "max": 198,
-        "variable": true
+        "variable": false
       },
       {
         "code": "dex",
@@ -24327,8 +24291,7 @@
       }
     ],
     "statPriority": [
-      "ac%",
-      "ac/lvl"
+      "ac%"
     ],
     "setPiecesBonuses": [],
     "setFullBonus": [],
@@ -25861,7 +25824,7 @@
         },
         "min": 2,
         "max": 198,
-        "variable": true
+        "variable": false
       },
       {
         "code": "att-und/lvl",
@@ -25872,7 +25835,7 @@
         },
         "min": 8,
         "max": 792,
-        "variable": true
+        "variable": false
       },
       {
         "code": "manasteal",
@@ -25909,8 +25872,6 @@
       }
     ],
     "statPriority": [
-      "dmg-und/lvl",
-      "att-und/lvl",
       "manasteal",
       "ac%"
     ],
@@ -26940,7 +26901,7 @@
         },
         "min": 1,
         "max": 99,
-        "variable": true
+        "variable": false
       },
       {
         "code": "dmg-max",
@@ -26955,8 +26916,7 @@
       }
     ],
     "statPriority": [
-      "ac%",
-      "thorns/lvl"
+      "ac%"
     ],
     "setPiecesBonuses": [],
     "setFullBonus": [],
@@ -27443,7 +27403,7 @@
         },
         "min": 2,
         "max": 148,
-        "variable": true
+        "variable": false
       },
       {
         "code": "mana/lvl",
@@ -27454,7 +27414,7 @@
         },
         "min": 2,
         "max": 148,
-        "variable": true
+        "variable": false
       },
       {
         "code": "red-dmg%",
@@ -27479,10 +27439,7 @@
         "variable": false
       }
     ],
-    "statPriority": [
-      "hp/lvl",
-      "mana/lvl"
-    ],
+    "statPriority": [],
     "setPiecesBonuses": [],
     "setFullBonus": [],
     "setBonuses": [],
@@ -27804,7 +27761,7 @@
         },
         "min": 0,
         "max": 50,
-        "variable": true
+        "variable": false
       },
       {
         "code": "red-dmg",
@@ -27821,7 +27778,6 @@
     "statPriority": [
       "allskills",
       "ac%",
-      "vit/lvl",
       "red-dmg"
     ],
     "setPiecesBonuses": [],
@@ -27905,7 +27861,7 @@
         },
         "min": 0,
         "max": 50,
-        "variable": true
+        "variable": false
       },
       {
         "code": "hp/lvl",
@@ -27916,18 +27872,18 @@
         },
         "min": 1,
         "max": 124,
-        "variable": true
+        "variable": false
       },
       {
         "code": "abs-cold/lvl",
         "label": {
-          "en": "+1-62 Absorbs Cold Damage",
+          "en": "+1-62 Absorbs Cold Damage (Based on Character Level)",
           "zh-TW": "+1-62 冰寒傷害吸收 （依角色等級而定）",
           "zh-CN": "+1-62 吸收冰霜伤害 (基于角色等级)"
         },
         "min": 1,
         "max": 62,
-        "variable": true
+        "variable": false
       },
       {
         "code": "half-freeze",
@@ -27942,10 +27898,7 @@
       }
     ],
     "statPriority": [
-      "ac%",
-      "dex/lvl",
-      "hp/lvl",
-      "abs-cold/lvl"
+      "ac%"
     ],
     "setPiecesBonuses": [],
     "setFullBonus": [],
@@ -28017,7 +27970,7 @@
         },
         "min": 4,
         "max": 371,
-        "variable": true
+        "variable": false
       },
       {
         "code": "str",
@@ -28086,9 +28039,7 @@
         "variable": false
       }
     ],
-    "statPriority": [
-      "ac/lvl"
-    ],
+    "statPriority": [],
     "setPiecesBonuses": [],
     "setFullBonus": [],
     "setBonuses": [],
@@ -28148,7 +28099,7 @@
         },
         "min": 3,
         "max": 297,
-        "variable": true
+        "variable": false
       },
       {
         "code": "dmg-fire",
@@ -28170,7 +28121,7 @@
         },
         "min": 0,
         "max": 50,
-        "variable": true
+        "variable": false
       },
       {
         "code": "vit/lvl",
@@ -28181,7 +28132,7 @@
         },
         "min": 0,
         "max": 50,
-        "variable": true
+        "variable": false
       },
       {
         "code": "hp",
@@ -28206,11 +28157,7 @@
         "variable": false
       }
     ],
-    "statPriority": [
-      "dmg%/lvl",
-      "str/lvl",
-      "vit/lvl"
-    ],
+    "statPriority": [],
     "setPiecesBonuses": [],
     "setFullBonus": [],
     "setBonuses": [],
@@ -28259,7 +28206,7 @@
         },
         "min": 2,
         "max": 248,
-        "variable": true
+        "variable": false
       },
       {
         "code": "att%",
@@ -28339,9 +28286,7 @@
         "variable": false
       }
     ],
-    "statPriority": [
-      "dmg%/lvl"
-    ],
+    "statPriority": [],
     "setPiecesBonuses": [],
     "setFullBonus": [],
     "setBonuses": [],
@@ -28541,7 +28486,7 @@
         },
         "min": 2,
         "max": 198,
-        "variable": true
+        "variable": false
       },
       {
         "code": "att/lvl",
@@ -28552,7 +28497,7 @@
         },
         "min": 8,
         "max": 792,
-        "variable": true
+        "variable": false
       },
       {
         "code": "dmg-ltng",
@@ -28622,8 +28567,6 @@
       }
     ],
     "statPriority": [
-      "dmg/lvl",
-      "att/lvl",
       "dmg%"
     ],
     "setPiecesBonuses": [],
@@ -29086,7 +29029,7 @@
         },
         "min": 2,
         "max": 248,
-        "variable": true
+        "variable": false
       },
       {
         "code": "att%",
@@ -29178,7 +29121,6 @@
       }
     ],
     "statPriority": [
-      "dmg/lvl",
       "dmg%"
     ],
     "setPiecesBonuses": [],
@@ -29251,7 +29193,7 @@
         },
         "min": 2,
         "max": 198,
-        "variable": true
+        "variable": false
       },
       {
         "code": "regen-mana",
@@ -29287,9 +29229,7 @@
         "variable": false
       }
     ],
-    "statPriority": [
-      "mana/lvl"
-    ],
+    "statPriority": [],
     "setPiecesBonuses": [],
     "setFullBonus": [],
     "setBonuses": [],
@@ -29573,7 +29513,7 @@
         },
         "min": 2,
         "max": 198,
-        "variable": true
+        "variable": false
       },
       {
         "code": "ignore-ac",
@@ -29595,7 +29535,7 @@
         },
         "min": 6,
         "max": 594,
-        "variable": true
+        "variable": false
       },
       {
         "code": "dex",
@@ -29620,10 +29560,7 @@
         "variable": false
       }
     ],
-    "statPriority": [
-      "dmg%/lvl",
-      "att/lvl"
-    ],
+    "statPriority": [],
     "setPiecesBonuses": [],
     "setFullBonus": [],
     "setBonuses": [],
@@ -29683,7 +29620,7 @@
         },
         "min": 3,
         "max": 309,
-        "variable": true
+        "variable": false
       },
       {
         "code": "manasteal",
@@ -29753,7 +29690,6 @@
       }
     ],
     "statPriority": [
-      "dmg/lvl",
       "manasteal"
     ],
     "setPiecesBonuses": [],
@@ -29823,7 +29759,7 @@
         },
         "min": 0,
         "max": 50,
-        "variable": true
+        "variable": false
       },
       {
         "code": "stam",
@@ -29838,8 +29774,7 @@
       }
     ],
     "statPriority": [
-      "lifesteal",
-      "hp/lvl"
+      "lifesteal"
     ],
     "setPiecesBonuses": [],
     "setFullBonus": [],
@@ -30017,13 +29952,13 @@
       {
         "code": "abs-fire/lvl",
         "label": {
-          "en": "+1-74 Absorbs Fire Damage",
+          "en": "+1-74 Absorbs Fire Damage (Based on Character Level)",
           "zh-TW": "+1-74 火焰傷害吸收 （依角色等級而定）",
           "zh-CN": "+1-74 吸收火焰伤害 (基于角色等级)"
         },
         "min": 1,
         "max": 74,
-        "variable": true
+        "variable": false
       },
       {
         "code": "light",
@@ -30037,9 +29972,7 @@
         "variable": false
       }
     ],
-    "statPriority": [
-      "abs-fire/lvl"
-    ],
+    "statPriority": [],
     "setPiecesBonuses": [],
     "setFullBonus": [],
     "setBonuses": [],
@@ -30648,7 +30581,7 @@
         },
         "min": 0,
         "max": 37,
-        "variable": true
+        "variable": false
       },
       {
         "code": "res-ltng",
@@ -30673,9 +30606,7 @@
         "variable": false
       }
     ],
-    "statPriority": [
-      "deadly/lvl"
-    ],
+    "statPriority": [],
     "setPiecesBonuses": [],
     "setFullBonus": [],
     "setBonuses": [],
@@ -39702,13 +39633,12 @@
         },
         "min": 1,
         "max": 136,
-        "variable": true
+        "variable": false
       }
     ],
     "statPriority": [
       "ac%",
-      "red-dmg%",
-      "thorns/lvl"
+      "red-dmg%"
     ],
     "setPiecesBonuses": [],
     "setFullBonus": [],
@@ -40397,7 +40327,7 @@
         },
         "min": 1,
         "max": 99,
-        "variable": true
+        "variable": false
       },
       {
         "code": "stamdrain",
@@ -40437,7 +40367,6 @@
       "ac%",
       "str",
       "vit",
-      "stam/lvl",
       "res-pois"
     ],
     "setPiecesBonuses": [],
@@ -44123,7 +44052,7 @@
         },
         "min": 2,
         "max": 148,
-        "variable": true
+        "variable": false
       },
       {
         "code": "red-dmg%",
@@ -44143,7 +44072,6 @@
       "skill",
       "skill",
       "ac%",
-      "hp/lvl",
       "red-dmg%"
     ],
     "setPiecesBonuses": [],
