@@ -64,10 +64,8 @@ export default function SetGroupDetail({
         </div>
       )}
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-4">
-        {visiblePieces.map(piece => <ItemStatCard key={piece.id} item={piece} />)}
-      </div>
-
+      {/* Shared across every piece of this set (not per-item) -- shown once
+          here rather than repeated on each ItemStatCard below. */}
       <div className="bg-panel border border-panel-border rounded-xl p-6">
         <h3 className="text-lg font-semibold text-parchment-bright mb-3">{t('setPartialBonusLabel')}</h3>
         <div className="flex flex-col gap-2">
@@ -93,6 +91,12 @@ export default function SetGroupDetail({
             <div key={`${prop.code}-${i}`} className="text-[#22ff55]">{prop.label}</div>
           ))}
         </div>
+      </div>
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-4">
+        {visiblePieces.map(piece => (
+          <ItemStatCard key={piece.id} item={piece} showSharedSetBonuses={false} />
+        ))}
       </div>
     </div>
   );

@@ -3,7 +3,7 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import type { GrailItem } from '@/lib/grail/catalog';
+import type { GrailItem, GrailPieceBonus } from '@/lib/grail/catalog';
 import type { FindRecord } from '@/lib/grail/findsApi';
 import { sortFindsByRank } from '@/lib/grail/bestCopy';
 import { BASE_PATH } from '@/lib/basePath';
@@ -17,13 +17,31 @@ const NAME_COLOR: Record<GrailItem['kind'], string> = {
 // A "variable" property can roll to a different value on other drops of
 // this same item -- flagged with a dice icon and a bolder treatment on top
 // of the section's base color so it's visually distinct from fixed props.
-function PropertyLine({ label, variable, colorClass }: { label: string; variable: boolean; colorClass: string }) {
+function PropertyLine({
+  label, variable, colorClass, suffix,
+}: { label: string; variable: boolean; colorClass: string; suffix?: string }) {
   return (
     <div className={variable ? `${colorClass} font-bold flex items-center gap-1` : colorClass}>
       {variable && <span aria-hidden="true" title="Variable roll">🎲</span>}
-      <span>{label}</span>
+      <span>{label}{suffix && <span className="text-muted font-normal"> {suffix}</span>}</span>
     </div>
   );
+}
+
+// Groups a piece-bonus list (already in tooltip display order within each
+// tier, see docs/item-display-template.md) into [piecesRequired, entries][]
+// while preserving tier order.
+function groupByPieces(list: GrailPieceBonus[]): [number, GrailPieceBonus[]][] {
+  const order: number[] = [];
+  const groups = new Map<number, GrailPieceBonus[]>();
+  for (const p of list) {
+    if (!groups.has(p.piecesRequired)) {
+      groups.set(p.piecesRequired, []);
+      order.push(p.piecesRequired);
+    }
+    groups.get(p.piecesRequired)!.push(p);
+  }
+  return order.map(n => [n, groups.get(n)!]);
 }
 
 export default function GrailItemDetail({
@@ -100,10 +118,46 @@ export default function GrailItemDetail({
 
       {item.setFullBonus.length > 0 && (
         <div className="mt-4">
-          <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('setBonusesLabel')}</h4>
+          <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('fullSetBonusLabel')}</h4>
           <div className="text-sm flex flex-col gap-0.5">
             {item.setFullBonus.map((p, i) => (
               <PropertyLine key={`${p.code}-${i}`} label={p.label} variable={p.variable} colorClass="text-[#22ff55]" />
+            ))}
+          </div>
+        </div>
+      )}
+
+      {item.setPiecesBonuses.length > 0 && (
+        <div className="mt-4 flex flex-col gap-3">
+          <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('setBonusesLabel')}</h4>
+          {groupByPieces(item.setPiecesBonuses).map(([pieces, entries]) => (
+            <div key={pieces}>
+              <p className="text-xs text-muted mb-0.5">{t('piecesRequired', { count: pieces })}</p>
+              <div className="text-sm flex flex-col gap-0.5">
+                {entries.map((p, i) => (
+                  <PropertyLine key={`${p.code}-${i}`} label={p.label} variable={p.variable} colorClass="text-[#fff818]" />
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+
+      {/* This item's OWN bonus, which scales with how many pieces of the
+          set are equipped (distinct from the shared Partial/Full Set Bonus
+          above, which is identical across every piece of the set). */}
+      {item.setBonuses.length > 0 && (
+        <div className="mt-4">
+          <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('itemSetBonusLabel')}</h4>
+          <div className="text-sm flex flex-col gap-0.5">
+            {item.setBonuses.map((p, i) => (
+              <PropertyLine
+                key={`${p.code}-${i}`}
+                label={p.label}
+                variable={p.variable}
+                colorClass="text-[#22ff55]"
+                suffix={t('piecesRequiredInline', { count: p.piecesRequired })}
+              />
             ))}
           </div>
         </div>

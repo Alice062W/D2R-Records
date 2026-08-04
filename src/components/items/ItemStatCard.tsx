@@ -18,11 +18,13 @@ const NAME_COLOR: Record<GrailItem['kind'], string> = {
 // to a fixed property identical on every copy. Flagged with a dice icon and
 // a brighter/bold treatment on top of the section's base color so players
 // scanning for reroll-worthy items can spot them at a glance.
-function PropertyLine({ label, variable, colorClass }: { label: string; variable: boolean; colorClass: string }) {
+function PropertyLine({
+  label, variable, colorClass, suffix,
+}: { label: string; variable: boolean; colorClass: string; suffix?: string }) {
   return (
     <div className={variable ? `${colorClass} font-bold flex items-center gap-1` : colorClass}>
       {variable && <span aria-hidden="true" title="Variable roll">🎲</span>}
-      <span>{label}</span>
+      <span>{label}{suffix && <span className="text-muted font-normal"> {suffix}</span>}</span>
     </div>
   );
 }
@@ -43,7 +45,16 @@ function groupByPieces(list: GrailPieceBonus[]): [number, GrailPieceBonus[]][] {
   return order.map(n => [n, groups.get(n)!]);
 }
 
-export default function ItemStatCard({ item }: { item: GrailItem }) {
+export default function ItemStatCard({
+  item,
+  // The set's shared Full/Partial Set Bonus (setFullBonus/setPiecesBonuses)
+  // is identical across every piece of a set. On a set-group page (all
+  // pieces of the same set together) that's shown once at the page level,
+  // so this defaults to true (shown) only for standalone contexts --
+  // category browsing and the single-item detail page -- where no such
+  // page-level summary exists to fall back on.
+  showSharedSetBonuses = true,
+}: { item: GrailItem; showSharedSetBonuses?: boolean }) {
   const t = useTranslations('Grail');
   const [iconFailed, setIconFailed] = useState(false);
   const [hdIconFailed, setHdIconFailed] = useState(false);
@@ -105,9 +116,9 @@ export default function ItemStatCard({ item }: { item: GrailItem }) {
             </div>
           )}
 
-          {item.setFullBonus.length > 0 && (
+          {showSharedSetBonuses && item.setFullBonus.length > 0 && (
             <div className="mt-4">
-              <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('setBonusesLabel')}</h4>
+              <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('fullSetBonusLabel')}</h4>
               <div className="text-sm flex flex-col gap-0.5">
                 {item.setFullBonus.map((p, i) => (
                   <PropertyLine key={`${p.code}-${i}`} label={p.label} variable={p.variable} colorClass="text-[#22ff55]" />
@@ -116,8 +127,9 @@ export default function ItemStatCard({ item }: { item: GrailItem }) {
             </div>
           )}
 
-          {item.setPiecesBonuses.length > 0 && (
+          {showSharedSetBonuses && item.setPiecesBonuses.length > 0 && (
             <div className="mt-4 flex flex-col gap-3">
+              <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('setBonusesLabel')}</h4>
               {groupByPieces(item.setPiecesBonuses).map(([pieces, entries]) => (
                 <div key={pieces}>
                   <p className="text-xs text-muted mb-0.5">{t('piecesRequired', { count: pieces })}</p>
@@ -131,12 +143,25 @@ export default function ItemStatCard({ item }: { item: GrailItem }) {
             </div>
           )}
 
+          {/* This item's OWN bonus, which scales with how many pieces of
+              the set are equipped (distinct from the shared Partial/Full
+              Set Bonus above, which is identical across every piece) --
+              e.g. Aldur's Stony Gaze grants +15 Energy at each tier while
+              other pieces in the same set grant a different stat. Always
+              shown here (not deduplicated to the page level) since it's
+              unique per item. */}
           {item.setBonuses.length > 0 && (
             <div className="mt-4">
-              <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('setBonusesLabel')}</h4>
+              <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('itemSetBonusLabel')}</h4>
               <div className="text-sm flex flex-col gap-0.5">
                 {item.setBonuses.map((p, i) => (
-                  <PropertyLine key={`${p.code}-${i}`} label={p.label} variable={p.variable} colorClass="text-[#22ff55]" />
+                  <PropertyLine
+                    key={`${p.code}-${i}`}
+                    label={p.label}
+                    variable={p.variable}
+                    colorClass="text-[#22ff55]"
+                    suffix={t('piecesRequiredInline', { count: p.piecesRequired })}
+                  />
                 ))}
               </div>
             </div>
