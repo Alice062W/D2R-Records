@@ -2,18 +2,25 @@
 
 import { useTranslations } from 'next-intl';
 
+export const MODE_OPTIONS = ['ladder', 'nonladder'] as const;
+export type ModeFilter = (typeof MODE_OPTIONS)[number];
+
 export default function RunewordFilters({
   itemTypes,
   activeType,
   onTypeChange,
   activeSockets,
   onSocketsChange,
+  activeMode,
+  onModeChange,
 }: {
   itemTypes: string[];
   activeType: string | null;
   onTypeChange: (type: string | null) => void;
   activeSockets: number | null;
   onSocketsChange: (sockets: number | null) => void;
+  activeMode: ModeFilter | null;
+  onModeChange: (mode: ModeFilter | null) => void;
 }) {
   const t = useTranslations('Items');
   const tGrail = useTranslations('Grail');
@@ -46,6 +53,16 @@ export default function RunewordFilters({
         {socketOptions.map(n => (
           <button key={n} onClick={() => onSocketsChange(n)} className={pill(activeSockets === n)}>
             {n}
+          </button>
+        ))}
+      </div>
+      <div className="flex flex-wrap gap-2">
+        <button onClick={() => onModeChange(null)} className={pill(activeMode === null)}>
+          {t('runewordsAllModes')}
+        </button>
+        {MODE_OPTIONS.map(mode => (
+          <button key={mode} onClick={() => onModeChange(mode)} className={pill(activeMode === mode)}>
+            {t(mode === 'ladder' ? 'runewordsModeLadder' : 'runewordsModeNonLadder')}
           </button>
         ))}
       </div>

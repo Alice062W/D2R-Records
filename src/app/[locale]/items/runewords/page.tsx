@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import runewordsFull from '../../../../../data/runewords.json';
-import RunewordFilters from '@/components/items/RunewordFilters';
+import RunewordFilters, { type ModeFilter } from '@/components/items/RunewordFilters';
 import RunewordList from '@/components/items/RunewordList';
 import CollectionBadge from '@/components/items/CollectionBadge';
 import CollectionSummaryBar from '@/components/items/CollectionSummaryBar';
@@ -22,22 +22,25 @@ export default function RunewordsPage() {
   const locale = useLocale() as 'en' | 'zh-TW' | 'zh-CN';
   const [activeType, setActiveType] = useState<string | null>(null);
   const [activeSockets, setActiveSockets] = useState<number | null>(null);
+  const [activeMode, setActiveMode] = useState<ModeFilter | null>(null);
   const [ownedFilter, setOwnedFilter] = useState<OwnedFilter>('all');
   const [sortOption, setSortOption] = useState<SortOption>('default');
   const { userId, ownedIds } = useOwnedItems();
 
-  // The current type+socket combination, before the owned filter is
+  // The current type+socket+mode combination, before the owned filter is
   // applied — this is what the status box below reports progress for,
   // independent of whether the visible list is further narrowed to
   // Collected/Missing.
   const combinationItems = runewordsFull.filter(rw =>
     (!activeType || rw.itemTypes.includes(activeType)) &&
-    (!activeSockets || rw.sockets === activeSockets)
+    (!activeSockets || rw.sockets === activeSockets) &&
+    (!activeMode || (activeMode === 'ladder' ? !rw.disallowedInLadder : !rw.disallowedInNonLadder))
   );
   const combinationOwnedCount = combinationItems.filter(rw => ownedIds.has(rw.id)).length;
   const combinationLabel = [
     activeType ? tGrail(`slot_${activeType}` as never) : null,
     activeSockets ? `${activeSockets} ${t('runewordsSocketsLabel')}` : null,
+    activeMode ? t(activeMode === 'ladder' ? 'runewordsModeLadder' : 'runewordsModeNonLadder') : null,
   ].filter(Boolean).join(' · ') || t('runewordsCombinationAllLabel');
 
   let filtered = combinationItems;
@@ -76,6 +79,8 @@ export default function RunewordsPage() {
           onTypeChange={setActiveType}
           activeSockets={activeSockets}
           onSocketsChange={setActiveSockets}
+          activeMode={activeMode}
+          onModeChange={setActiveMode}
         />
         {userId && (
           <div className="bg-panel border border-panel-border rounded-xl p-4 flex items-center justify-between gap-3">

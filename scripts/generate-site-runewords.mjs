@@ -161,6 +161,7 @@ const runewordsOut = enRunewords.map(enRw => {
   return {
     id: enRw.id,
     name: { en: enRw.name, 'zh-TW': twRw?.name ?? enRw.name, 'zh-CN': cnRw?.name ?? enRw.name },
+    levelReq: Number(enRw.levelReq) || 0,
     sockets: enRw.sockets,
     itemTypes: enRw.includedItemTypes.map(t => slotFor(t.code)),
     excludedItemTypes: enRw.excludedItemTypes.map(t => slotFor(t.code)),

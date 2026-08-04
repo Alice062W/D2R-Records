@@ -73,6 +73,7 @@ export default function RunewordList({ runewords, locale }: { runewords: Runewor
             <div className="flex-1 min-w-0 text-sm text-parchment flex flex-col gap-1">
               <div>{t('runewordsSocketsLabel')}: {rw.sockets}</div>
               <div>{t('runewordsBaseTypesLabel')}: {rw.itemTypes.map(type => tGrail(`slot_${type}` as never)).join(', ')}</div>
+              {rw.levelReq > 0 && <div>{t('runewordsLevelReqLabel')}: {rw.levelReq}</div>}
 
               {rw.stats.length > 0 && (
                 <div className="mt-3 flex flex-col gap-0.5">

@@ -1,7 +1,7 @@
 import { describe, it, expect, vi } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
 import { NextIntlClientProvider } from 'next-intl';
-import RunewordFilters from './RunewordFilters';
+import RunewordFilters, { type ModeFilter } from './RunewordFilters';
 import RunewordList from './RunewordList';
 import { useState } from 'react';
 import messages from '../../../messages/en.json';
@@ -10,9 +10,11 @@ import runewordsFull from '../../../data/runewords.json';
 function TestPage() {
   const [itemType, setItemType] = useState<string | null>(null);
   const [sockets, setSockets] = useState<number | null>(null);
+  const [mode, setMode] = useState<ModeFilter | null>(null);
   const filtered = runewordsFull.filter(rw =>
     (!itemType || rw.itemTypes.includes(itemType)) &&
-    (!sockets || rw.sockets === sockets)
+    (!sockets || rw.sockets === sockets) &&
+    (!mode || (mode === 'ladder' ? !rw.disallowedInLadder : !rw.disallowedInNonLadder))
   );
   return (
     <NextIntlClientProvider locale="en" messages={messages}>
@@ -22,6 +24,8 @@ function TestPage() {
         onTypeChange={setItemType}
         activeSockets={sockets}
         onSocketsChange={setSockets}
+        activeMode={mode}
+        onModeChange={setMode}
       />
       <RunewordList runewords={filtered} locale="en" />
     </NextIntlClientProvider>

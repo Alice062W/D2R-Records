@@ -6,6 +6,7 @@
       "zh-TW": "先祖之契",
       "zh-CN": "先祖之誓"
     },
+    "levelReq": 21,
     "sockets": 3,
     "itemTypes": [
       "shld"
@@ -102,6 +103,7 @@
       "zh-TW": "權威",
       "zh-CN": "权威"
     },
+    "levelReq": 33,
     "sockets": 3,
     "itemTypes": [
       "armors"
@@ -198,6 +200,7 @@
       "zh-TW": "野獸",
       "zh-CN": "野兽"
     },
+    "levelReq": 63,
     "sockets": 5,
     "itemTypes": [
       "axes",
@@ -349,6 +352,7 @@
       "zh-TW": "黑錘",
       "zh-CN": "黑色"
     },
+    "levelReq": 35,
     "sockets": 3,
     "itemTypes": [
       "clubs",
@@ -469,6 +473,7 @@
       "zh-TW": "骸骨",
       "zh-CN": "白骨"
     },
+    "levelReq": 47,
     "sockets": 3,
     "itemTypes": [
       "armors"
@@ -565,6 +570,7 @@
       "zh-TW": "刺藤",
       "zh-CN": "荆棘"
     },
+    "levelReq": 61,
     "sockets": 4,
     "itemTypes": [
       "armors"
@@ -704,6 +710,7 @@
       "zh-TW": "烙印",
       "zh-CN": "烙印"
     },
+    "levelReq": 65,
     "sockets": 4,
     "itemTypes": [
       "miss"
@@ -843,6 +850,7 @@
       "zh-TW": "死亡呼吸",
       "zh-CN": "濒死之息"
     },
+    "levelReq": 69,
     "sockets": 6,
     "itemTypes": [
       "weap"
@@ -1002,6 +1010,7 @@
       "zh-TW": "戰爭召喚",
       "zh-CN": "战争召唤"
     },
+    "levelReq": 57,
     "sockets": 5,
     "itemTypes": [
       "weap"
@@ -1151,6 +1160,7 @@
       "zh-TW": "榮耀之鍊",
       "zh-CN": "荣耀之链"
     },
+    "levelReq": 63,
     "sockets": 4,
     "itemTypes": [
       "armors"
@@ -1290,6 +1300,7 @@
       "zh-TW": "混沌",
       "zh-CN": "混沌"
     },
+    "levelReq": 57,
     "sockets": 3,
     "itemTypes": [
       "katars"
@@ -1419,6 +1430,7 @@
       "zh-TW": "新月",
       "zh-CN": "新月"
     },
+    "levelReq": 47,
     "sockets": 3,
     "itemTypes": [
       "axes",
@@ -1550,6 +1562,7 @@
       "zh-TW": "死神",
       "zh-CN": "殒灭"
     },
+    "levelReq": 55,
     "sockets": 5,
     "itemTypes": [
       "swords",
@@ -1700,6 +1713,7 @@
       "zh-TW": "精神錯亂",
       "zh-CN": "迷狂"
     },
+    "levelReq": 51,
     "sockets": 3,
     "itemTypes": [
       "helms"
@@ -1829,6 +1843,7 @@
       "zh-TW": "毀滅",
       "zh-CN": "毁灭"
     },
+    "levelReq": 65,
     "sockets": 5,
     "itemTypes": [
       "polearms",
@@ -1979,6 +1994,7 @@
       "zh-TW": "末日",
       "zh-CN": "厄运"
     },
+    "levelReq": 67,
     "sockets": 5,
     "itemTypes": [
       "axes",
@@ -2130,6 +2146,7 @@
       "zh-TW": "飛龍",
       "zh-CN": "巨龙"
     },
+    "levelReq": 61,
     "sockets": 3,
     "itemTypes": [
       "armors",
@@ -2260,6 +2277,7 @@
       "zh-TW": "夢境",
       "zh-CN": "梦境"
     },
+    "levelReq": 65,
     "sockets": 3,
     "itemTypes": [
       "helms",
@@ -2390,6 +2408,7 @@
       "zh-TW": "強制",
       "zh-CN": "强压"
     },
+    "levelReq": 47,
     "sockets": 3,
     "itemTypes": [
       "armors"
@@ -2519,6 +2538,7 @@
       "zh-TW": "邊緣",
       "zh-CN": "锐锋"
     },
+    "levelReq": 25,
     "sockets": 3,
     "itemTypes": [
       "miss"
@@ -2648,6 +2668,7 @@
       "zh-TW": "謎團",
       "zh-CN": "谜团"
     },
+    "levelReq": 65,
     "sockets": 3,
     "itemTypes": [
       "armors"
@@ -2777,6 +2798,7 @@
       "zh-TW": "教化",
       "zh-CN": "启迪"
     },
+    "levelReq": 45,
     "sockets": 3,
     "itemTypes": [
       "armors"
@@ -2873,6 +2895,7 @@
       "zh-TW": "永恆",
       "zh-CN": "永恒"
     },
+    "levelReq": 63,
     "sockets": 5,
     "itemTypes": [
       "mele"
@@ -3022,6 +3045,7 @@
       "zh-TW": "流亡",
       "zh-CN": "流放"
     },
+    "levelReq": 57,
     "sockets": 4,
     "itemTypes": [
       "pala"
@@ -3161,6 +3185,7 @@
       "zh-TW": "信心",
       "zh-CN": "信念"
     },
+    "levelReq": 65,
     "sockets": 4,
     "itemTypes": [
       "miss"
@@ -3300,6 +3325,7 @@
       "zh-TW": "饑荒",
       "zh-CN": "饥荒"
     },
+    "levelReq": 65,
     "sockets": 4,
     "itemTypes": [
       "axes",
@@ -3440,6 +3466,7 @@
       "zh-TW": "閃爍火焰",
       "zh-CN": "闪烁火焰"
     },
+    "levelReq": 55,
     "sockets": 3,
     "itemTypes": [
       "helms"
@@ -3558,6 +3585,7 @@
       "zh-TW": "剛毅",
       "zh-CN": "刚毅"
     },
+    "levelReq": 59,
     "sockets": 4,
     "itemTypes": [
       "weap",
@@ -3698,6 +3726,7 @@
       "zh-TW": "狂怒",
       "zh-CN": "愤怒"
     },
+    "levelReq": 65,
     "sockets": 3,
     "itemTypes": [
       "mele"
@@ -3827,6 +3856,7 @@
       "zh-TW": "幽暗",
       "zh-CN": "阴霾"
     },
+    "levelReq": 47,
     "sockets": 3,
     "itemTypes": [
       "armors"
@@ -3956,6 +3986,7 @@
       "zh-TW": "悔恨",
       "zh-CN": "悔恨"
     },
+    "levelReq": 59,
     "sockets": 5,
     "itemTypes": [
       "swords",
@@ -4106,6 +4137,7 @@
       "zh-TW": "正義之手",
       "zh-CN": "正义之手"
     },
+    "levelReq": 67,
     "sockets": 4,
     "itemTypes": [
       "weap"
@@ -4245,6 +4277,7 @@
       "zh-TW": "和諧",
       "zh-CN": "和谐"
     },
+    "levelReq": 39,
     "sockets": 4,
     "itemTypes": [
       "miss"
@@ -4384,6 +4417,7 @@
       "zh-TW": "橡樹之心",
       "zh-CN": "橡树之心"
     },
+    "levelReq": 55,
     "sockets": 4,
     "itemTypes": [
       "staves",
@@ -4524,6 +4558,7 @@
       "zh-TW": "神聖雷擊",
       "zh-CN": "圣雷"
     },
+    "levelReq": 21,
     "sockets": 4,
     "itemTypes": [
       "scepters"
@@ -4663,6 +4698,7 @@
       "zh-TW": "榮耀",
       "zh-CN": "荣耀"
     },
+    "levelReq": 27,
     "sockets": 5,
     "itemTypes": [
       "mele"
@@ -4801,6 +4837,7 @@
       "zh-TW": "寒冰",
       "zh-CN": "寒冰"
     },
+    "levelReq": 65,
     "sockets": 4,
     "itemTypes": [
       "miss"
@@ -4940,6 +4977,7 @@
       "zh-TW": "無限",
       "zh-CN": "无限"
     },
+    "levelReq": 63,
     "sockets": 4,
     "itemTypes": [
       "polearms",
@@ -5080,6 +5118,7 @@
       "zh-TW": "靈光",
       "zh-CN": "眼光"
     },
+    "levelReq": 27,
     "sockets": 4,
     "itemTypes": [
       "polearms",
@@ -5221,6 +5260,7 @@
       "zh-TW": "王者的慈悲",
       "zh-CN": "王恩"
     },
+    "levelReq": 25,
     "sockets": 3,
     "itemTypes": [
       "swords",
@@ -5340,6 +5380,7 @@
       "zh-TW": "弒王者",
       "zh-CN": "弑君者"
     },
+    "levelReq": 53,
     "sockets": 4,
     "itemTypes": [
       "swords",
@@ -5480,6 +5521,7 @@
       "zh-TW": "最後遺願",
       "zh-CN": "临终之愿"
     },
+    "levelReq": 65,
     "sockets": 6,
     "itemTypes": [
       "swords",
@@ -5641,6 +5683,7 @@
       "zh-TW": "執法者",
       "zh-CN": "执法者"
     },
+    "levelReq": 43,
     "sockets": 3,
     "itemTypes": [
       "swords",
@@ -5772,6 +5815,7 @@
       "zh-TW": "葉子",
       "zh-CN": "叶子"
     },
+    "levelReq": 19,
     "sockets": 2,
     "itemTypes": [
       "staves"
@@ -5880,6 +5924,7 @@
       "zh-TW": "獅子心",
       "zh-CN": "狮心"
     },
+    "levelReq": 41,
     "sockets": 3,
     "itemTypes": [
       "armors"
@@ -5998,6 +6043,7 @@
       "zh-TW": "知識",
       "zh-CN": "学识"
     },
+    "levelReq": 27,
     "sockets": 2,
     "itemTypes": [
       "helms"
@@ -6084,6 +6130,7 @@
       "zh-TW": "怨恨",
       "zh-CN": "怨恨"
     },
+    "levelReq": 15,
     "sockets": 3,
     "itemTypes": [
       "mele"
@@ -6202,6 +6249,7 @@
       "zh-TW": "旋律",
       "zh-CN": "旋律"
     },
+    "levelReq": 39,
     "sockets": 3,
     "itemTypes": [
       "miss"
@@ -6320,6 +6368,7 @@
       "zh-TW": "記憶",
       "zh-CN": "回忆"
     },
+    "levelReq": 37,
     "sockets": 4,
     "itemTypes": [
       "staves"
@@ -6459,6 +6508,7 @@
       "zh-TW": "迷霧",
       "zh-CN": "迷雾"
     },
+    "levelReq": 67,
     "sockets": 5,
     "itemTypes": [
       "miss"
@@ -6597,6 +6647,7 @@
       "zh-TW": "神話",
       "zh-CN": "神话"
     },
+    "levelReq": 33,
     "sockets": 3,
     "itemTypes": [
       "armors"
@@ -6693,6 +6744,7 @@
       "zh-TW": "天底",
       "zh-CN": "天底"
     },
+    "levelReq": 13,
     "sockets": 2,
     "itemTypes": [
       "helms"
@@ -6801,6 +6853,7 @@
       "zh-TW": "誓約",
       "zh-CN": "誓言"
     },
+    "levelReq": 49,
     "sockets": 4,
     "itemTypes": [
       "swords",
@@ -6942,6 +6995,7 @@
       "zh-TW": "遵從",
       "zh-CN": "顺从"
     },
+    "levelReq": 41,
     "sockets": 5,
     "itemTypes": [
       "polearms",
@@ -7092,6 +7146,7 @@
       "zh-TW": "執念",
       "zh-CN": "执着"
     },
+    "levelReq": 69,
     "sockets": 6,
     "itemTypes": [
       "staves"
@@ -7251,6 +7306,7 @@
       "zh-TW": "熱情",
       "zh-CN": "热情"
     },
+    "levelReq": 43,
     "sockets": 4,
     "itemTypes": [
       "weap"
@@ -7390,6 +7446,7 @@
       "zh-TW": "圖紋",
       "zh-CN": "典范"
     },
+    "levelReq": 23,
     "sockets": 3,
     "itemTypes": [
       "katars"
@@ -7519,6 +7576,7 @@
       "zh-TW": "和平",
       "zh-CN": "平和"
     },
+    "levelReq": 29,
     "sockets": 3,
     "itemTypes": [
       "armors"
@@ -7615,6 +7673,7 @@
       "zh-TW": "理性之聲",
       "zh-CN": "理智之声"
     },
+    "levelReq": 43,
     "sockets": 4,
     "itemTypes": [
       "swords",
@@ -7755,6 +7814,7 @@
       "zh-TW": "鳳凰",
       "zh-CN": "凤凰"
     },
+    "levelReq": 65,
     "sockets": 4,
     "itemTypes": [
       "weap",
@@ -7895,6 +7955,7 @@
       "zh-TW": "瘟疫",
       "zh-CN": "瘟疫"
     },
+    "levelReq": 67,
     "sockets": 3,
     "itemTypes": [
       "swords",
@@ -8026,6 +8087,7 @@
       "zh-TW": "驕傲",
       "zh-CN": "骄傲"
     },
+    "levelReq": 67,
     "sockets": 4,
     "itemTypes": [
       "polearms",
@@ -8166,6 +8228,7 @@
       "zh-TW": "原則",
       "zh-CN": "信条"
     },
+    "levelReq": 53,
     "sockets": 3,
     "itemTypes": [
       "armors"
@@ -8262,6 +8325,7 @@
       "zh-TW": "謹慎",
       "zh-CN": "谨慎"
     },
+    "levelReq": 49,
     "sockets": 2,
     "itemTypes": [
       "armors"
@@ -8381,6 +8445,7 @@
       "zh-TW": "光輝",
       "zh-CN": "光辉"
     },
+    "levelReq": 27,
     "sockets": 3,
     "itemTypes": [
       "helms"
@@ -8499,6 +8564,7 @@
       "zh-TW": "降雨",
       "zh-CN": "暴雨"
     },
+    "levelReq": 49,
     "sockets": 3,
     "itemTypes": [
       "armors"
@@ -8595,6 +8661,7 @@
       "zh-TW": "聲韻",
       "zh-CN": "韵律"
     },
+    "levelReq": 29,
     "sockets": 2,
     "itemTypes": [
       "shld"
@@ -8703,6 +8770,7 @@
       "zh-TW": "裂隙",
       "zh-CN": "裂隙"
     },
+    "levelReq": 53,
     "sockets": 4,
     "itemTypes": [
       "polearms",
@@ -8843,6 +8911,7 @@
       "zh-TW": "聖堂",
       "zh-CN": "庇护"
     },
+    "levelReq": 49,
     "sockets": 3,
     "itemTypes": [
       "shld"
@@ -8972,6 +9041,7 @@
       "zh-TW": "寂靜",
       "zh-CN": "沉默"
     },
+    "levelReq": 55,
     "sockets": 6,
     "itemTypes": [
       "weap"
@@ -9131,6 +9201,7 @@
       "zh-TW": "煙霧",
       "zh-CN": "烟雾"
     },
+    "levelReq": 37,
     "sockets": 2,
     "itemTypes": [
       "armors"
@@ -9239,6 +9310,7 @@
       "zh-TW": "精神",
       "zh-CN": "精神"
     },
+    "levelReq": 25,
     "sockets": 4,
     "itemTypes": [
       "swords",
@@ -9379,6 +9451,7 @@
       "zh-TW": "燦爛",
       "zh-CN": "壮美"
     },
+    "levelReq": 37,
     "sockets": 2,
     "itemTypes": [
       "shld"
@@ -9498,6 +9571,7 @@
       "zh-TW": "隱密",
       "zh-CN": "隐秘"
     },
+    "levelReq": 17,
     "sockets": 2,
     "itemTypes": [
       "armors"
@@ -9606,6 +9680,7 @@
       "zh-TW": "鋼鐵",
       "zh-CN": "钢铁"
     },
+    "levelReq": 13,
     "sockets": 2,
     "itemTypes": [
       "swords",
@@ -9705,6 +9780,7 @@
       "zh-TW": "石塊",
       "zh-CN": "磐石"
     },
+    "levelReq": 47,
     "sockets": 4,
     "itemTypes": [
       "armors"
@@ -9844,6 +9920,7 @@
       "zh-TW": "力量",
       "zh-CN": "力量"
     },
+    "levelReq": 25,
     "sockets": 2,
     "itemTypes": [
       "mele"
@@ -9930,6 +10007,7 @@
       "zh-TW": "背信",
       "zh-CN": "背叛"
     },
+    "levelReq": 43,
     "sockets": 3,
     "itemTypes": [
       "armors"
@@ -10026,6 +10104,7 @@
       "zh-TW": "不屈意志",
       "zh-CN": "不屈之志"
     },
+    "levelReq": 41,
     "sockets": 6,
     "itemTypes": [
       "swords"
@@ -10185,6 +10264,7 @@
       "zh-TW": "劇毒",
       "zh-CN": "毒液"
     },
+    "levelReq": 49,
     "sockets": 3,
     "itemTypes": [
       "weap"
@@ -10292,6 +10372,7 @@
       "zh-TW": "虛無",
       "zh-CN": "虚空"
     },
+    "levelReq": 69,
     "sockets": 3,
     "itemTypes": [
       "daggers"
@@ -10410,6 +10491,7 @@
       "zh-TW": "財富",
       "zh-CN": "财富"
     },
+    "levelReq": 43,
     "sockets": 3,
     "itemTypes": [
       "armors"
@@ -10484,6 +10566,7 @@
       "zh-TW": "蒼白",
       "zh-CN": "白色"
     },
+    "levelReq": 35,
     "sockets": 2,
     "itemTypes": [
       "wands"
@@ -10603,6 +10686,7 @@
       "zh-TW": "輕風",
       "zh-CN": "疾风"
     },
+    "levelReq": 61,
     "sockets": 2,
     "itemTypes": [
       "mele"
@@ -10722,6 +10806,7 @@
       "zh-TW": "智慧",
       "zh-CN": "智慧"
     },
+    "levelReq": 45,
     "sockets": 3,
     "itemTypes": [
       "helms"
@@ -10840,6 +10925,7 @@
       "zh-TW": "憤怒",
       "zh-CN": "怒火"
     },
+    "levelReq": 63,
     "sockets": 4,
     "itemTypes": [
       "miss"
@@ -10979,6 +11065,7 @@
       "zh-TW": "和風",
       "zh-CN": "和风"
     },
+    "levelReq": 21,
     "sockets": 2,
     "itemTypes": [
       "miss"
@@ -11087,6 +11174,7 @@
       "zh-TW": "歇斯底里",
       "zh-CN": "狂乱"
     },
+    "levelReq": 39,
     "sockets": 3,
     "itemTypes": [
       "armors"
@@ -11194,6 +11282,7 @@
       "zh-TW": "狂躁",
       "zh-CN": "癫狂"
     },
+    "levelReq": 39,
     "sockets": 3,
     "itemTypes": [
       "weap"
@@ -11290,6 +11379,7 @@
       "zh-TW": "嵌飾",
       "zh-CN": "模糊"
     },
+    "levelReq": 53,
     "sockets": 3,
     "itemTypes": [
       "katars"
@@ -11419,6 +11509,7 @@
       "zh-TW": "變化",
       "zh-CN": "变形"
     },
+    "levelReq": 67,
     "sockets": 3,
     "itemTypes": [
       "helms"
@@ -11537,6 +11628,7 @@
       "zh-TW": "接地",
       "zh-CN": "接地"
     },
+    "levelReq": 35,
     "sockets": 3,
     "itemTypes": [
       "helms"
@@ -11633,6 +11725,7 @@
       "zh-TW": "和緩",
       "zh-CN": "淬火"
     },
+    "levelReq": 35,
     "sockets": 3,
     "itemTypes": [
       "helms"
@@ -11729,6 +11822,7 @@
       "zh-TW": "火爐",
       "zh-CN": "壁炉"
     },
+    "levelReq": 35,
     "sockets": 3,
     "itemTypes": [
       "helms"
@@ -11836,6 +11930,7 @@
       "zh-TW": "治癒",
       "zh-CN": "解药"
     },
+    "levelReq": 35,
     "sockets": 3,
     "itemTypes": [
       "helms"
@@ -11943,6 +12038,7 @@
       "zh-TW": "壁壘",
       "zh-CN": "壁垒"
     },
+    "levelReq": 35,
     "sockets": 3,
     "itemTypes": [
       "helms"
@@ -12050,6 +12146,7 @@
       "zh-TW": "巫師會",
       "zh-CN": "女巫团"
     },
+    "levelReq": 51,
     "sockets": 3,
     "itemTypes": [
       "helms"
@@ -12168,6 +12265,7 @@
       "zh-TW": "戒慎",
       "zh-CN": "警戒"
     },
+    "levelReq": 53,
     "sockets": 2,
     "itemTypes": [
       "grimoires",
@@ -12290,6 +12388,7 @@
       "zh-TW": "儀式",
       "zh-CN": "仪式"
     },
+    "levelReq": 57,
     "sockets": 3,
     "itemTypes": [
       "daggers"
