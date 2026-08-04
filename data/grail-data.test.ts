@@ -23,7 +23,7 @@ function isLocalizedText(v: unknown): v is LocalizedText {
 
 describe('generated grail catalog', () => {
   it('has the expected item counts', () => {
-    expect(uniques.length).toBe(424);
+    expect(uniques.length).toBe(423);
     expect(sets.length).toBe(140);
   });
 

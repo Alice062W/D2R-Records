@@ -97,8 +97,16 @@ export default function ItemStatCard({
         )}
       </div>
 
-      {/* Group 2: image + item stats */}
+      {/* Group 2: item stats + image */}
       <div className="flex flex-row gap-4 pb-4 border-b border-panel-border/60">
+        <div className="flex-1 min-w-0">
+          <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('itemStats')}</h4>
+          <div className="text-sm text-parchment flex flex-col gap-0.5">
+            {itemStatRows.map(([label, value]) => (
+              <div key={label}>{label}: <span className="text-parchment-bright">{value}</span></div>
+            ))}
+          </div>
+        </div>
         {(item.hdIcon || item.invFile) && !iconFailed && (
           // eslint-disable-next-line @next/next/no-img-element
           <img
@@ -118,14 +126,6 @@ export default function ItemStatCard({
             }}
           />
         )}
-        <div className="flex-1 min-w-0">
-          <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('itemStats')}</h4>
-          <div className="text-sm text-parchment flex flex-col gap-0.5">
-            {itemStatRows.map(([label, value]) => (
-              <div key={label}>{label}: <span className="text-parchment-bright">{value}</span></div>
-            ))}
-          </div>
-        </div>
       </div>
 
       {/* Group 3: Magic Properties + this item's own Set Item Bonus (and,

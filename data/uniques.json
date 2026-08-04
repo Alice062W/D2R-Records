@@ -37996,46 +37996,6 @@
     "lastLadderSeason": null
   },
   {
-    "id": "unique-darkfear",
-    "code": "ulm",
-    "name": {
-      "en": "Darkfear",
-      "zh-TW": "黑暗恐懼",
-      "zh-CN": "黑暗恐惧"
-    },
-    "kind": "unique",
-    "setName": null,
-    "levelReq": 0,
-    "baseName": {
-      "en": "armet",
-      "zh-TW": "覆頰盔",
-      "zh-CN": "武装盔"
-    },
-    "grade": "elite",
-    "slotCategory": "helms",
-    "defense": {
-      "min": 105,
-      "max": 149
-    },
-    "oneHandDamage": null,
-    "twoHandDamage": null,
-    "requiredStrength": 109,
-    "requiredDexterity": null,
-    "weaponSpeed": null,
-    "durability": 24,
-    "classRestriction": null,
-    "invFile": "invhlmu",
-    "hdIcon": null,
-    "properties": [],
-    "statPriority": [],
-    "setPiecesBonuses": [],
-    "setFullBonus": [],
-    "setBonuses": [],
-    "ladderRestricted": false,
-    "firstLadderSeason": null,
-    "lastLadderSeason": null
-  },
-  {
     "id": "unique-dragonscale",
     "code": "pae",
     "name": {
