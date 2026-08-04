@@ -206,6 +206,29 @@ function siteHdIconId(pipelineHdIcon) {
   return base;
 }
 
+// ---- Rainbow Facet per-element icon override ----
+// The game's own HD-icon lookup table has exactly one entry for the
+// "rainbow_facet" internalKey (a plain gem/perfect_diamond, no per-element
+// variant) -- shared by all 8 of Rainbow Facet's real item rows (4
+// elements x death-trigger/level-up-trigger). The numbered
+// perfect_diamond1-6 assets that also exist in the HD folder are the random
+// drop colors a jewel can roll in-game, but aren't wired to any specific
+// item in the extracted data. Site-only cosmetic choice (see
+// docs memory "rainbow-facet-diamond-icons", 2026-08-04): assign a distinct
+// numbered diamond per element so the 8 variants are visually
+// distinguishable instead of all showing the identical plain diamond.
+const RAINBOW_FACET_ELEMENT_DIAMOND = {
+  'extra-cold': 'misc/gem/perfect_diamond1.png',
+  'extra-fire': 'misc/gem/perfect_diamond2.png',
+  'extra-ltng': 'misc/gem/perfect_diamond3.png',
+  'extra-pois': 'misc/gem/perfect_diamond4.png',
+};
+function rainbowFacetIconOverride(enItem) {
+  if (enItem.internalKey !== 'rainbow_facet') return null;
+  const elementProp = enItem.properties.find(p => p.code in RAINBOW_FACET_ELEMENT_DIAMOND);
+  return elementProp ? siteHdIconId(RAINBOW_FACET_ELEMENT_DIAMOND[elementProp.code]) : null;
+}
+
 // ---- Property-array conversion ----
 // Converts the pipeline's already-filtered/sorted/localized properties[]
 // (or setPiecesBonuses[]/setFullBonus[]/setBonuses[]) array -- one entry
@@ -252,7 +275,7 @@ function buildItem(enItem, idPrefix, idSuffix) {
   }
 
   const code = enItem.itemCode;
-  const hdIcon = siteHdIconId(enItem.hdIcon);
+  const hdIcon = rainbowFacetIconOverride(enItem) ?? siteHdIconId(enItem.hdIcon);
 
   return {
     id: `${idPrefix}-${enItem.internalKey}${idSuffix}`,
