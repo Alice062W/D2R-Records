@@ -1,4 +1,4 @@
-import runewordsFull from '../../data/runewords-full.json';
+import runewordsFull from '../../data/runewords.json';
 import { getAllItemIdsForKind } from '@/lib/grail/catalog';
 
 // Single source of truth for the site's nav-drawer groups and the

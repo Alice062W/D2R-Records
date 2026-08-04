@@ -4,7 +4,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import SiteNavDrawer from './SiteNavDrawer';
 import messages from '../../../messages/en.json';
 import { getAllItemIdsForKind } from '@/lib/grail/catalog';
-import runewordsFull from '../../../data/runewords-full.json';
+import runewordsFull from '../../../data/runewords.json';
 
 vi.mock('next/navigation', () => ({
   useRouter: () => ({ push: vi.fn() }),

@@ -14,7 +14,7 @@ function TestPage() {
   const filtered = runewordsFull.filter(rw =>
     (!itemType || rw.itemTypes.includes(itemType)) &&
     (!sockets || rw.sockets === sockets) &&
-    (!mode || (mode === 'ladder' ? !rw.disallowedInLadder : !rw.disallowedInNonLadder))
+    (!mode || (mode === 'ladder' ? rw.isLadderOnly : rw.isNonLadderOnly))
   );
   return (
     <NextIntlClientProvider locale="en" messages={messages}>
@@ -81,9 +81,9 @@ describe('RunewordFilters + RunewordList', () => {
     expect(screen.getByText(/Enhanced Defense %/).closest('div')).toHaveTextContent('🎲');
   });
 
-  it('shows a "Ladder Only" badge for a ladder-restricted runeword, and "Non-Ladder Only" for one disallowed on ladder', () => {
-    const ladderOnly = { ...baseRunewordFixture, ladderRestricted: true, disallowedInLadder: false };
-    const nonLadderOnly = { ...baseRunewordFixture, id: 'x', ladderRestricted: true, disallowedInLadder: true };
+  it('shows a "Ladder Only" badge for a currently-ladder-exclusive runeword, and "Non-Ladder Only" for one disallowed on ladder', () => {
+    const ladderOnly = { ...baseRunewordFixture, isLadderOnly: true, isNonLadderOnly: false };
+    const nonLadderOnly = { ...baseRunewordFixture, id: 'x', isLadderOnly: false, isNonLadderOnly: true };
     const { rerender } = render(
       <NextIntlClientProvider locale="en" messages={messages}>
         <RunewordList runewords={[ladderOnly]} locale="en" />
@@ -96,6 +96,19 @@ describe('RunewordFilters + RunewordList', () => {
       </NextIntlClientProvider>
     );
     expect(screen.getByText('Non-Ladder Only')).toBeInTheDocument();
+  });
+
+  it('shows no ladder badge for a runeword that graduated to being available in both modes (e.g. Flickering Flame, season 1 only until season 2)', () => {
+    const graduated = runewordsFull.find(r => r.name.en === 'Flickering Flame')!;
+    expect(graduated.isLadderOnly).toBe(false);
+    expect(graduated.isNonLadderOnly).toBe(false);
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <RunewordList runewords={[graduated]} locale="en" />
+      </NextIntlClientProvider>
+    );
+    expect(screen.queryByText('Ladder-Only')).not.toBeInTheDocument();
+    expect(screen.queryByText('Non-Ladder-Only')).not.toBeInTheDocument();
   });
 
   describe('owned checkbox', () => {

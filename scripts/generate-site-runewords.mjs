@@ -177,6 +177,19 @@ const runewordsOut = enRunewords.map(enRw => {
     lastLadderSeason: enRw.lastLadderSeason ?? null,
     disallowedInLadder: !!enRw.disallowedInLadder,
     disallowedInNonLadder: !!enRw.disallowedInNonLadder,
+    // "Ladder-only" means CURRENTLY exclusive to ladder, not merely
+    // "introduced via a ladder season" -- most season-restricted
+    // runewords (firstLadderSeason set, lastLadderSeason ALSO set) already
+    // graduated to being available in both modes once that later season
+    // arrived (e.g. Flickering Flame: first=1, last=2 -- ladder-exclusive
+    // only during season 1, available in both since season 2). Only a
+    // runeword with NO graduation season yet (lastLadderSeason still null)
+    // and not explicitly flagged otherwise is currently ladder-only.
+    // "Non-ladder-only" is the direct disallowedInLadder flag (currently
+    // just Mosaic: started ladder-only, later flipped to disallowed on
+    // ladder specifically -- user-confirmed against live game behavior).
+    isLadderOnly: !!enRw.ladderRestricted && !enRw.lastLadderSeason && !enRw.disallowedInLadder,
+    isNonLadderOnly: !!enRw.disallowedInLadder,
   };
 });
 writeFileSync(join(OUT, 'runewords.json'), JSON.stringify(runewordsOut, null, 2));

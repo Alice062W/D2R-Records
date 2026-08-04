@@ -60,9 +60,9 @@ export default function RunewordList({ runewords, locale }: { runewords: Runewor
           <div className="flex items-center justify-between gap-2">
             <div className="flex items-center gap-2 flex-wrap">
               <h3 className="text-lg font-bold text-[#cbb87f]">{rw.name[locale]}</h3>
-              {rw.ladderRestricted && (
+              {(rw.isLadderOnly || rw.isNonLadderOnly) && (
                 <span className="text-xs px-2 py-1 rounded bg-panel-alt text-muted">
-                  {t(rw.disallowedInLadder ? 'runewordsNonLadderOnly' : 'runewordsLadderOnly')}
+                  {t(rw.isNonLadderOnly ? 'runewordsNonLadderOnly' : 'runewordsLadderOnly')}
                 </span>
               )}
             </div>

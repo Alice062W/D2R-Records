@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import runewordsFull from '../../../data/runewords-full.json';
+import runewordsFull from '../../../data/runewords.json';
 import { getAllItemIdsForKind } from '@/lib/grail/catalog';
 import { useGrailAuth } from '@/lib/grail/useGrailAuth';
 import { useProfile } from '@/lib/grail/useProfile';

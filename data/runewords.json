@@ -94,7 +94,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword3",
@@ -191,7 +193,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword4",
@@ -343,7 +347,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword6",
@@ -464,7 +470,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword8",
@@ -561,7 +569,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword9",
@@ -701,7 +711,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword10",
@@ -841,7 +853,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword11",
@@ -1001,7 +1015,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword13",
@@ -1151,7 +1167,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword14",
@@ -1291,7 +1309,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword16",
@@ -1421,7 +1441,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword17",
@@ -1553,7 +1575,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword20",
@@ -1704,7 +1728,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword22",
@@ -1834,7 +1860,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword25",
@@ -1985,7 +2013,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword26",
@@ -2137,7 +2167,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword27",
@@ -2268,7 +2300,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword29",
@@ -2399,7 +2433,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword30",
@@ -2529,7 +2565,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword31",
@@ -2659,7 +2697,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword33",
@@ -2789,7 +2829,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword34",
@@ -2886,7 +2928,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword36",
@@ -3036,7 +3080,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword37",
@@ -3176,7 +3222,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword38",
@@ -3316,7 +3364,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword39",
@@ -3457,7 +3507,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword40",
@@ -3576,7 +3628,9 @@
     "firstLadderSeason": "1",
     "lastLadderSeason": "2",
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword41",
@@ -3717,7 +3771,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword44",
@@ -3847,7 +3903,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword45",
@@ -3977,7 +4035,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword47",
@@ -4128,7 +4188,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword48",
@@ -4268,7 +4330,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword49",
@@ -4408,7 +4472,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword51",
@@ -4549,7 +4615,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword54",
@@ -4689,7 +4757,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword55",
@@ -4828,7 +4898,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword59",
@@ -4968,7 +5040,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword60",
@@ -5109,7 +5183,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword62",
@@ -5251,7 +5327,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword65",
@@ -5371,7 +5449,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword66",
@@ -5512,7 +5592,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword69",
@@ -5674,7 +5756,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword71",
@@ -5806,7 +5890,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword72",
@@ -5915,7 +6001,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword74",
@@ -6034,7 +6122,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword75",
@@ -6121,7 +6211,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword81",
@@ -6240,7 +6332,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword82",
@@ -6359,7 +6453,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword83",
@@ -6499,7 +6595,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword84",
@@ -6638,7 +6736,9 @@
     "firstLadderSeason": "1",
     "lastLadderSeason": "2",
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword87",
@@ -6735,7 +6835,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword88",
@@ -6844,7 +6946,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword91",
@@ -6986,7 +7090,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword92",
@@ -7137,7 +7243,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword94",
@@ -7297,7 +7405,9 @@
     "firstLadderSeason": "1",
     "lastLadderSeason": "2",
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword95",
@@ -7437,7 +7547,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword97",
@@ -7567,7 +7679,9 @@
     "firstLadderSeason": "1",
     "lastLadderSeason": "2",
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword98",
@@ -7664,7 +7778,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword99",
@@ -7805,7 +7921,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword103",
@@ -7946,7 +8064,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword106",
@@ -8078,7 +8198,9 @@
     "firstLadderSeason": "1",
     "lastLadderSeason": "2",
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword109",
@@ -8219,7 +8341,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword110",
@@ -8316,7 +8440,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword112",
@@ -8436,7 +8562,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword116",
@@ -8555,7 +8683,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword117",
@@ -8652,7 +8782,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword120",
@@ -8761,7 +8893,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword121",
@@ -8902,7 +9036,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword122",
@@ -9032,7 +9168,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword126",
@@ -9192,7 +9330,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword128",
@@ -9301,7 +9441,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword130",
@@ -9442,7 +9584,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword131",
@@ -9562,7 +9706,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword133",
@@ -9671,7 +9817,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword134",
@@ -9771,7 +9919,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword137",
@@ -9911,7 +10061,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword139",
@@ -9998,7 +10150,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword148",
@@ -10095,7 +10249,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword151",
@@ -10255,7 +10411,9 @@
     "firstLadderSeason": "1",
     "lastLadderSeason": "2",
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword154",
@@ -10363,7 +10521,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword157",
@@ -10482,7 +10642,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword160",
@@ -10557,7 +10719,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword162",
@@ -10677,7 +10841,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword163",
@@ -10797,7 +10963,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword165",
@@ -10916,7 +11084,9 @@
     "firstLadderSeason": "1",
     "lastLadderSeason": "2",
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword168",
@@ -11056,7 +11226,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword170",
@@ -11165,7 +11337,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword171",
@@ -11273,7 +11447,9 @@
     "firstLadderSeason": "3",
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": true,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword172",
@@ -11370,7 +11546,9 @@
     "firstLadderSeason": "3",
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": true,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword173",
@@ -11500,7 +11678,9 @@
     "firstLadderSeason": "3",
     "lastLadderSeason": "12",
     "disallowedInLadder": true,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": true
   },
   {
     "id": "runeword-Runeword174",
@@ -11619,7 +11799,9 @@
     "firstLadderSeason": "3",
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": true,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword175",
@@ -11716,7 +11898,9 @@
     "firstLadderSeason": "3",
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": true,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword176",
@@ -11813,7 +11997,9 @@
     "firstLadderSeason": "3",
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": true,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword177",
@@ -11921,7 +12107,9 @@
     "firstLadderSeason": "3",
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": true,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword178",
@@ -12029,7 +12217,9 @@
     "firstLadderSeason": "3",
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": true,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword179",
@@ -12137,7 +12327,9 @@
     "firstLadderSeason": "3",
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": true,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword180",
@@ -12256,7 +12448,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword181",
@@ -12379,7 +12573,9 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   },
   {
     "id": "runeword-Runeword182",
@@ -12509,6 +12705,8 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "disallowedInLadder": false,
-    "disallowedInNonLadder": false
+    "disallowedInNonLadder": false,
+    "isLadderOnly": false,
+    "isNonLadderOnly": false
   }
 ]

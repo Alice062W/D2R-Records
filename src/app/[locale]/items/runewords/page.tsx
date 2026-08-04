@@ -34,7 +34,7 @@ export default function RunewordsPage() {
   const combinationItems = runewordsFull.filter(rw =>
     (!activeType || rw.itemTypes.includes(activeType)) &&
     (!activeSockets || rw.sockets === activeSockets) &&
-    (!activeMode || (activeMode === 'ladder' ? !rw.disallowedInLadder : !rw.disallowedInNonLadder))
+    (!activeMode || (activeMode === 'ladder' ? rw.isLadderOnly : rw.isNonLadderOnly))
   );
   const combinationOwnedCount = combinationItems.filter(rw => ownedIds.has(rw.id)).length;
   const combinationLabel = [
