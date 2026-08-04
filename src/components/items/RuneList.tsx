@@ -69,7 +69,7 @@ export default function RuneList({ runes, locale }: { runes: Rune[]; locale: Loc
               <RuneIcon hdIcon={rune.hdIcon} invFile={rune.invFile} />
               <h3 className="text-lg font-bold text-[#cbb87f]">{rune.name[locale]}</h3>
             </div>
-            <span className="text-xs text-muted">#{rune.number}</span>
+            <span className="text-2xl font-bold text-[#fff818]">#{rune.number}</span>
           </div>
           <div className="mt-2 text-sm text-parchment">
             {t('runesLevelReqLabel')}: {rune.levelReq}
