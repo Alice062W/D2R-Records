@@ -32201,9 +32201,9 @@
       {
         "code": "charged",
         "label": {
-          "en": "Level 9 BloodGolem (15/15 Charges)",
-          "zh-TW": "等級 9 BloodGolem（15/15 次）",
-          "zh-CN": "9级BloodGolem (15/15 次充能)"
+          "en": "Level 9 Blood Golem (15/15 Charges)",
+          "zh-TW": "等級 9 鮮血魔像（15/15 次）",
+          "zh-CN": "9级精华傀儡 (15/15 次充能)"
         },
         "min": 9,
         "max": 15,
@@ -38802,9 +38802,9 @@
       {
         "code": "oskill",
         "label": {
-          "en": "+3-6 to Wearwolf",
-          "zh-TW": "+3-6 至Wearwolf",
-          "zh-CN": "+3-6 至Wearwolf"
+          "en": "+3-6 to Werewolf",
+          "zh-TW": "+3-6 至狼人變化",
+          "zh-CN": "+3-6 至狼人变化"
         },
         "min": 3,
         "max": 6,
@@ -38813,9 +38813,9 @@
       {
         "code": "oskill",
         "label": {
-          "en": "+3-6 to Shape Shifting",
-          "zh-TW": "+3-6 至Shape Shifting",
-          "zh-CN": "+3-6 至Shape Shifting"
+          "en": "+3-6 to Lycanthropy",
+          "zh-TW": "+3-6 至變形術",
+          "zh-CN": "+3-6 至变形术"
         },
         "min": 3,
         "max": 6,
@@ -38879,9 +38879,9 @@
       {
         "code": "charged",
         "label": {
-          "en": "Level 18 Summon Fenris (15/15 Charges)",
-          "zh-TW": "等級 18 Summon Fenris（15/15 次）",
-          "zh-CN": "18级Summon Fenris (15/15 次充能)"
+          "en": "Level 18 Summon Dire Wolf (15/15 Charges)",
+          "zh-TW": "等級 18 召喚恐狼（15/15 次）",
+          "zh-CN": "18级召唤狂狼 (15/15 次充能)"
         },
         "min": 18,
         "max": 15,
@@ -40175,9 +40175,9 @@
       {
         "code": "skill",
         "label": {
-          "en": "+1-2 to Wake of Fire Sentry ( only)",
-          "zh-TW": "+1-2 至 Wake of Fire Sentry",
-          "zh-CN": "+1-2 至 Wake of Fire Sentry"
+          "en": "+1-2 to Wake of Fire (Assassin only)",
+          "zh-TW": "+1-2 至刺客 焰痕衛哨",
+          "zh-CN": "+1-2 至猎法者 伏地火"
         },
         "min": 1,
         "max": 2,
@@ -40186,9 +40186,9 @@
       {
         "code": "skill",
         "label": {
-          "en": "+1-2 to Inferno Sentry ( only)",
-          "zh-TW": "+1-2 至 Inferno Sentry",
-          "zh-CN": "+1-2 至 Inferno Sentry"
+          "en": "+1-2 to Wake of Inferno (Assassin only)",
+          "zh-TW": "+1-2 至刺客 獄火衛哨",
+          "zh-CN": "+1-2 至猎法者 狱火尾焰"
         },
         "min": 1,
         "max": 2,
@@ -40936,9 +40936,9 @@
       {
         "code": "charged",
         "label": {
-          "en": "Level 11 IronGolem (22/22 Charges)",
-          "zh-TW": "等級 11 IronGolem（22/22 次）",
-          "zh-CN": "11级IronGolem (22/22 次充能)"
+          "en": "Level 11 Iron Golem (22/22 Charges)",
+          "zh-TW": "等級 11 鋼鐵魔像（22/22 次）",
+          "zh-CN": "11级钢铁傀儡 (22/22 次充能)"
         },
         "min": 11,
         "max": 22,
@@ -41179,9 +41179,9 @@
       {
         "code": "charged",
         "label": {
-          "en": "Level 15 Plague Poppy (21/21 Charges)",
-          "zh-TW": "等級 15 Plague Poppy（21/21 次）",
-          "zh-CN": "15级Plague Poppy (21/21 次充能)"
+          "en": "Level 15 Poison Creeper (21/21 Charges)",
+          "zh-TW": "等級 15 劇毒藤蔓（21/21 次）",
+          "zh-CN": "15级毒花藤 (21/21 次充能)"
         },
         "min": 15,
         "max": 21,
@@ -41897,9 +41897,9 @@
       {
         "code": "hit-skill",
         "label": {
-          "en": "25% Chance to cast level 14 Eruption on striking",
-          "zh-TW": "擊中時有 25% 機率施展等級 14 Eruption",
-          "zh-CN": "25% 几率在击中时施放14级Eruption"
+          "en": "25% Chance to cast level 14 Fissure on striking",
+          "zh-TW": "擊中時有 25% 機率施展等級 14 裂地之火",
+          "zh-CN": "25% 几率在击中时施放14级熔岩裂地"
         },
         "min": 25,
         "max": 14,
