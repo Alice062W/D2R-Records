@@ -41,9 +41,9 @@ export default function LogFindForm({
     setError(null);
     try {
       const values: Record<string, number> = {};
-      for (const stat of selected.stats) {
-        const raw = statValues[stat.key];
-        if (raw !== undefined && raw !== '') values[stat.key] = Number(raw);
+      for (const stat of selected.properties.filter(p => p.variable)) {
+        const raw = statValues[stat.code];
+        if (raw !== undefined && raw !== '') values[stat.code] = Number(raw);
       }
       await insertFind({
         itemCode: selected.code,
@@ -98,18 +98,18 @@ export default function LogFindForm({
             </select>
           </div>
 
-          {selected && selected.stats.length > 0 && (
+          {selected && selected.properties.some(p => p.variable) && (
             <div className="flex flex-col gap-2">
               <label className="text-xs font-semibold uppercase tracking-wider text-muted">{t('rolledStats')}</label>
-              {selected.stats.map(stat => (
-                <div key={stat.key} className="flex items-center gap-2">
+              {selected.properties.filter(p => p.variable).map(stat => (
+                <div key={stat.code} className="flex items-center gap-2">
                   <span className="text-sm text-parchment flex-1">
                     {stat.label} <span className="text-muted-dark text-xs">({stat.min}-{stat.max})</span>
                   </span>
                   <input
                     type="number"
-                    value={statValues[stat.key] ?? ''}
-                    onChange={e => setStatValues(v => ({ ...v, [stat.key]: e.target.value }))}
+                    value={statValues[stat.code] ?? ''}
+                    onChange={e => setStatValues(v => ({ ...v, [stat.code]: e.target.value }))}
                     className="w-24 bg-panel-alt border border-panel-border-light rounded-lg px-2 py-1 text-parchment-bright"
                   />
                 </div>

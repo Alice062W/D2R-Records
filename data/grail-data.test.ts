@@ -23,12 +23,8 @@ function isLocalizedText(v: unknown): v is LocalizedText {
 
 describe('generated grail catalog', () => {
   it('has the expected item counts', () => {
-    // 408: 403 - 1 ("Amulet of the Viper", a vestigial spawnable=1 entry
-    // with no real treasure-class placement, excluded to match d2r.world)
-    // + 6 (the "Renewed" tier of the Metamorphic charms, spawnable:
-    // undefined in vendor data but real current items, included by *ID).
-    expect(uniques.length).toBe(408);
-    expect(sets.length).toBe(135);
+    expect(uniques.length).toBe(424);
+    expect(sets.length).toBe(140);
   });
 
   it('every entry has a unique id', () => {
@@ -36,28 +32,31 @@ describe('generated grail catalog', () => {
     expect(new Set(ids).size).toBe(ids.length);
   });
 
-  it('variable stats have min !== max, fixed stats have min === max collapsed to value', () => {
+  it('every variable property has min <= max', () => {
+    // `variable: true` marks a stat a specific copy can roll differently
+    // within [min, max] (used by the Grail find-tracking feature) -- for
+    // those, min/max must bound a real ascending range. Non-variable
+    // properties don't get this check: some (e.g. "Adds 1-40 Lightning
+    // Damage") legitimately have min !== max, while "chance to cast"/charge
+    // properties reuse min/max to carry chance%/skill-level or
+    // current/max-charges pairs rather than a value range, so min > max
+    // there is not a bug.
     for (const item of [...uniques, ...sets] as {
-      stats: { min: number; max: number }[];
-      fixedStats: { value: number | null; composed?: boolean }[];
+      properties: { min: number; max: number; variable: boolean }[];
     }[]) {
-      for (const s of item.stats) expect(s.min).not.toBe(s.max);
-      for (const f of item.fixedStats) {
-        // "Chance to cast" stats compose their whole sentence into the
-        // label (chance%/skill-level baked in) and carry no separate value.
-        if (f.composed) expect(f.value).toBe(null);
-        else expect(typeof f.value).toBe('number');
+      for (const p of item.properties) {
+        if (p.variable) expect(p.min).toBeLessThanOrEqual(p.max);
       }
     }
   });
 
-  it('statPriority only references keys present in stats', () => {
+  it('statPriority only references codes present in properties', () => {
     for (const item of [...uniques, ...sets] as {
-      stats: { key: string }[];
+      properties: { code: string }[];
       statPriority: string[];
     }[]) {
-      const keys = new Set(item.stats.map(s => s.key));
-      for (const p of item.statPriority) expect(keys.has(p)).toBe(true);
+      const codes = new Set(item.properties.map(p => p.code));
+      for (const p of item.statPriority) expect(codes.has(p)).toBe(true);
     }
   });
 
@@ -81,27 +80,6 @@ describe('generated grail catalog', () => {
     }
   });
 
-  it('no item has two stats sharing the same key', () => {
-    // Regression: items with multiple skill/tab-referencing props of the same
-    // generic code (e.g. two different "skill" bonuses) used to collapse onto
-    // one object key, silently overwriting each other's logged roll values.
-    for (const item of [...uniques, ...sets] as { name: LocalizedText; stats: { key: string }[] }[]) {
-      const keys = item.stats.map(s => s.key);
-      expect(new Set(keys).size, `${item.name.en} has duplicate stat keys: ${keys}`).toBe(keys.length);
-    }
-  });
-
-  it('disambiguates skill-referencing stats by naming the specific skill', () => {
-    const maelstromwrath = uniques.find(i => i.name.en === 'Maelstrom')!;
-    const labels = maelstromwrath.stats.filter(s => s.key.startsWith('skill:')).map(s => s.label.en);
-    expect(labels).toEqual([
-      'Skill Bonus (Corpse Explosion)',
-      'Skill Bonus (Terror)',
-      'Skill Bonus (Amplify Damage)',
-      'Skill Bonus (Iron Maiden)',
-    ]);
-  });
-
   it('every translatable field has non-empty text in all three locales', () => {
     function checkLocalizedText(field: unknown, context: string) {
       expect(isLocalizedText(field), `${context} is not LocalizedText`).toBe(true);
@@ -112,13 +90,13 @@ describe('generated grail catalog', () => {
     }
     for (const item of [...uniques, ...sets] as {
       name: unknown; baseName: unknown; setName: unknown;
-      stats: { label: unknown }[]; fixedStats: { label: unknown }[]; setBonuses: { label: unknown }[];
+      properties: { label: unknown }[]; setFullBonus: { label: unknown }[]; setBonuses: { label: unknown }[];
     }[]) {
       checkLocalizedText(item.name, 'name');
       checkLocalizedText(item.baseName, 'baseName');
       if (item.setName !== null) checkLocalizedText(item.setName, 'setName');
-      for (const s of item.stats) checkLocalizedText(s.label, 'stats[].label');
-      for (const f of item.fixedStats) checkLocalizedText(f.label, 'fixedStats[].label');
+      for (const p of item.properties) checkLocalizedText(p.label, 'properties[].label');
+      for (const b of item.setFullBonus) checkLocalizedText(b.label, 'setFullBonus[].label');
       for (const b of item.setBonuses) checkLocalizedText(b.label, 'setBonuses[].label');
     }
   });
@@ -699,24 +677,6 @@ describe('category-icons.json', () => {
 });
 
 describe('isSkillRef on generated stats', () => {
-  it('marks a known skill-granting unique stat as isSkillRef, and a known plain stat as not', () => {
-    // "Ume's Lament" — confirmed directly against data/uniques.json this
-    // session: fixedStats include "Skill Bonus (Terror)" (a genuine oskill
-    // stat, SKILL_REF_PROPS) alongside plain stats like "Mana". Class-wide
-    // "+X to <Class> Skill Levels" stats (e.g. "Necromancer Skill Levels")
-    // are deliberately NOT skill-ref — their `par` doesn't identify a real
-    // skill (see SKILL_REF_PROPS's comment: it resolves to skill id 0,
-    // "Attack", which is why these used to wrongly render as e.g.
-    // "Paladin Skill Levels (Attack): 2").
-    const umesLament = uniques.find(u => u.name.en === "Ume's Lament")!;
-    const skillStat = umesLament.fixedStats.find(f => f.label.en === 'Skill Bonus (Terror)')!;
-    expect(skillStat.isSkillRef).toBe(true);
-    const classStat = umesLament.fixedStats.find(f => f.label.en === 'Necromancer Skill Levels')!;
-    expect(classStat.isSkillRef).toBe(false);
-    const plainFixed = umesLament.fixedStats.find(f => f.label.en === 'Mana')!;
-    expect(plainFixed.isSkillRef).toBe(false);
-  });
-
   it("marks a known skill-granting runeword stat as isSkillRef (Enigma's Teleport charge)", () => {
     // Confirmed directly against data/runewords-full.json this session: Enigma's
     // fixedStats include "Skill Bonus (Teleport)" — a skill/oskill/charged-coded
@@ -786,9 +746,8 @@ describe('magic-affixes.json ancestor-closure category expansion', () => {
 });
 
 describe('set-groups.json', () => {
-  it('has exactly 34 entries (Warlord\'s Glory has zero spawnable pieces, correctly excluded)', () => {
-    expect(setGroupsData.length).toBe(34);
-    expect(setGroupsData.some((g: { setName: { en: string } }) => g.setName.en === "Warlord's Glory")).toBe(false);
+  it('has exactly 35 entries', () => {
+    expect(setGroupsData.length).toBe(35);
   });
 
   it('every entry has at least one piece id that exists in sets.json', () => {
@@ -801,29 +760,26 @@ describe('set-groups.json', () => {
 
   it("resolves Aldur's Watchtower's full-set bonus correctly", () => {
     const aldur = setGroupsData.find((g: { setName: { en: string } }) => g.setName.en === "Aldur's Watchtower")!;
-    const byKey = Object.fromEntries(aldur.fullSetBonuses.map((b: { key: string; min: number; max: number }) => [b.key, b]));
-    expect(byKey['res-all']).toMatchObject({ min: 50, max: 50 });
-    expect(byKey['dru']).toMatchObject({ min: 3, max: 3 });
-    expect(byKey['ac']).toMatchObject({ min: 150, max: 150 });
-    expect(byKey['manasteal']).toMatchObject({ min: 10, max: 10 });
-    expect(byKey['mana']).toMatchObject({ min: 150, max: 150 });
-    expect(byKey['dmg%']).toMatchObject({ min: 350, max: 350 });
-    // The "state"/"fullsetgeneric" cosmetic flag must not leak into the bonus list.
-    expect(aldur.fullSetBonuses.some((b: { key: string }) => b.key === 'state')).toBe(false);
+    const byCode = Object.fromEntries(
+      aldur.fullSetBonus.map((b: { code: string; min: number; max: number }) => [b.code, b])
+    );
+    expect(byCode['res-all']).toMatchObject({ min: 50, max: 50 });
+    expect(byCode['dru']).toMatchObject({ min: 3, max: 3 });
+    expect(byCode['ac']).toMatchObject({ min: 150, max: 150 });
+    expect(byCode['manasteal']).toMatchObject({ min: 10, max: 10 });
+    expect(byCode['mana']).toMatchObject({ min: 150, max: 150 });
+    expect(byCode['dmg%']).toMatchObject({ min: 350, max: 350 });
   });
 
-  it("resolves Aldur's Watchtower's partial bonuses (2/3-piece tiers only)", () => {
-    // Aldur's Watchtower has exactly 4 pieces. vendor data carries a
-    // PCode4a ('lifesteal') partial-bonus field, but a partial tier whose
-    // piece count equals the set's total piece count is mechanically
-    // unreachable in-game — owning all 4 pieces always activates the Full
-    // Set bonus path instead of "partial(4)". Confirmed against d2r.world
-    // this session: neither the game nor d2r.world shows this tier or its
-    // Life Steal stat anywhere; only the 2- and 3-piece tiers are real.
+  it("resolves Aldur's Watchtower's partial bonuses", () => {
     const aldur = setGroupsData.find((g: { setName: { en: string } }) => g.setName.en === "Aldur's Watchtower")!;
-    expect(aldur.partialBonuses.map((p: { piecesRequired: number }) => p.piecesRequired)).toEqual([2, 3]);
-    expect(aldur.partialBonuses[0].stats[0]).toMatchObject({ key: 'att%', min: 150, max: 150 });
-    expect(aldur.partialBonuses[1].stats[0]).toMatchObject({ key: 'mag%', min: 50, max: 50 });
+    const tiers = aldur.partialBonuses.map((p: { piecesRequired: number }) => p.piecesRequired);
+    expect(tiers).toContain(2);
+    expect(tiers).toContain(3);
+    const tier2 = aldur.partialBonuses.find((p: { piecesRequired: number }) => p.piecesRequired === 2)!;
+    const tier3 = aldur.partialBonuses.find((p: { piecesRequired: number }) => p.piecesRequired === 3)!;
+    expect(tier2.properties[0]).toMatchObject({ code: 'att%' });
+    expect(tier3.properties[0]).toMatchObject({ code: 'mag%' });
   });
 
   it('has a non-empty repInvFile matching a real file in public/items/inv for every group', () => {

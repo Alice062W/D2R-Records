@@ -10,8 +10,11 @@ function makeItem(id: string, name: string): GrailItem {
   return {
     id, code: id, name, kind: 'unique', setName: null,
     levelReq: 1, baseName: 'Base', grade: 'normal', slotCategory: 'axes',
-    defense: null, oneHandDamage: null, twoHandDamage: null, requiredStrength: null, requiredDexterity: null, weaponSpeed: null, durability: null, invFile: '',
-    stats: [], fixedStats: [], setBonuses: [], statPriority: [], note: null, statPools: [],
+    defense: null, oneHandDamage: null, twoHandDamage: null, requiredStrength: null,
+    requiredDexterity: null, weaponSpeed: null, durability: null, classRestriction: null,
+    invFile: '', hdIcon: null,
+    properties: [], setPiecesBonuses: [], setFullBonus: [], setBonuses: [],
+    statPriority: [], ladderRestricted: false, firstLadderSeason: null, lastLadderSeason: null,
   };
 }
 

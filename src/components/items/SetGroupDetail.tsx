@@ -3,23 +3,30 @@
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import ItemStatCard from './ItemStatCard';
-import type { GrailItem, GrailStat } from '@/lib/grail/catalog';
+import type { GrailItem } from '@/lib/grail/catalog';
 import { useOwnedItems } from '@/lib/grail/useOwnedItems';
-import { signedRange, signedValue } from '@/lib/grail/formatStat';
 
 const OWNED_FILTERS = ['all', 'collected', 'missing'] as const;
 type OwnedFilter = (typeof OWNED_FILTERS)[number];
+
+// Set-group summary bonuses are display-only here (no per-find roll
+// tracking, unlike ItemStatCard/GrailItemDetail's item-level properties) --
+// just a code+label pair.
+interface SummaryProperty {
+  code: string;
+  label: string;
+}
 
 export default function SetGroupDetail({
   setName,
   pieces,
   partialBonuses,
-  fullSetBonuses,
+  fullSetBonus,
 }: {
   setName: string;
   pieces: GrailItem[];
-  partialBonuses: { piecesRequired: number; stats: GrailStat[] }[];
-  fullSetBonuses: GrailStat[];
+  partialBonuses: { piecesRequired: number; properties: SummaryProperty[] }[];
+  fullSetBonus: SummaryProperty[];
 }) {
   const t = useTranslations('Items');
   const tGrail = useTranslations('Grail');
@@ -70,17 +77,10 @@ export default function SetGroupDetail({
                 <span>{p.piecesRequired}</span> {t('setPiecesRequiredLabel')}:{' '}
               </span>
               <span>
-                {p.stats.map((s, i) => (
-                  <span key={s.key}>
+                {p.properties.map((prop, i) => (
+                  <span key={`${prop.code}-${i}`}>
                     {i > 0 && ', '}
-                    <span className={s.isSkillRef ? 'text-[#ff4a69]' : s.min === s.max ? 'text-[#22ff55]' : 'text-[#fff818]'}>
-                      {s.composed ? s.label : (
-                        <>
-                          {s.label}: {s.min === s.max ? signedValue(s.min, s.signed) : signedRange(s.min, s.max, s.signed)}
-                          {s.min !== s.max && <> <span aria-hidden="true">🎲</span></>}
-                        </>
-                      )}
-                    </span>
+                    <span className="text-[#fff818]">{prop.label}</span>
                   </span>
                 ))}
               </span>
@@ -89,15 +89,8 @@ export default function SetGroupDetail({
         </div>
         <h3 className="text-lg font-semibold text-parchment-bright mt-5 mb-3">{t('setFullBonusLabel')}</h3>
         <div className="flex flex-col gap-1 text-sm">
-          {fullSetBonuses.map(s => (
-            <div key={s.key} className={s.isSkillRef ? 'text-[#ff4a69]' : s.min === s.max ? 'text-[#22ff55]' : 'text-[#fff818]'}>
-              {s.composed ? s.label : (
-                <>
-                  {s.label}: {s.min === s.max ? signedValue(s.min, s.signed) : signedRange(s.min, s.max, s.signed)}
-                  {s.min !== s.max && <> <span aria-hidden="true">🎲</span></>}
-                </>
-              )}
-            </div>
+          {fullSetBonus.map((prop, i) => (
+            <div key={`${prop.code}-${i}`} className="text-[#22ff55]">{prop.label}</div>
           ))}
         </div>
       </div>

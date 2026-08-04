@@ -9,42 +9,21 @@ export interface LocalizedText {
 
 export type Locale = 'en' | 'zh-TW' | 'zh-CN';
 
-// Enhanced-Damage-scaled weapon damage: each end of the base damage range
-// becomes its own (low-high) sub-range once the item's own dmg% roll is
-// applied. low === high when the item has no random dmg% stat.
-export interface DamageRange {
-  min: { low: number; high: number };
-  max: { low: number; high: number };
-}
-
-export interface RawGrailStat {
-  key: string;
+export interface RawGrailProperty {
+  code: string;
   label: LocalizedText;
+  // min/max/variable are carried alongside the pre-composed label text so
+  // the Grail find-tracking feature can record which specific value a
+  // player rolled within a variable stat's range. `label` remains the
+  // source of truth for display text -- these are additive, not for
+  // re-deriving text from.
   min: number;
   max: number;
-  isSkillRef: boolean;
-  // Set for "chance to cast" stats whose label is already a complete
-  // sentence (e.g. "10% Chance to cast level 3 Static Field when struck")
-  // — min/max are meaningless placeholders for these and must not be
-  // rendered as a range/dice.
-  composed?: boolean;
-  signed?: boolean;
+  variable: boolean;
 }
 
-export interface RawGrailFixedStat {
-  key: string;
-  label: LocalizedText;
-  value: number | null;
-  isSkillRef: boolean;
-  composed?: boolean;
-  signed?: boolean;
-  // Set for stats that inherently carry two different numbers (e.g. "Adds
-  // 20-60 Fire Damage") without being an itemization-random roll -- every
-  // copy of the item has the identical range, so this must render as a
-  // fixed "min-max" with no dice, unlike `stats[]`'s random-roll ranges.
-  // When present, rendering should prefer min/max over `value`.
-  min?: number;
-  max?: number;
+export interface RawGrailPieceBonus extends RawGrailProperty {
+  piecesRequired: number;
 }
 
 export interface RawGrailItem {
@@ -57,45 +36,52 @@ export interface RawGrailItem {
   baseName: LocalizedText;
   grade: 'normal' | 'exceptional' | 'elite';
   slotCategory: string;
+  // Final, already-computed Defense/Damage range exactly as the real D2R
+  // item tooltip shows it -- base item roll combined with the item's own
+  // ac%/dmg% (Enhanced Defense/Damage) and flat ac/dmg-min/dmg-max bonuses.
+  // See D2RAssets/docs/item-display-template.md "Defense is a COMPUTED
+  // range" for the full derivation. NOT the base item's own raw roll range.
   defense: { min: number; max: number } | null;
-  oneHandDamage: DamageRange | null;
-  twoHandDamage: DamageRange | null;
+  oneHandDamage: { min: number; max: number } | null;
+  twoHandDamage: { min: number; max: number } | null;
   requiredStrength: number | null;
   requiredDexterity: number | null;
   weaponSpeed: number | null;
   durability: number | null;
-  invFile: string;
-  // HD remaster icon: a bare id (e.g. "unique-438"), resolved to
-  // /items/hd/{hdIcon}.png. null when no HD art exists for this item
-  // (e.g. quest items, cut content) -- render falls back to invFile.
-  hdIcon?: string | null;
-  stats: RawGrailStat[];
-  fixedStats: RawGrailFixedStat[];
-  setBonuses: RawGrailStat[];
+  // Bare English class code (e.g. "Assassin") or null -- not localized in
+  // the source pipeline, translate via this site's own class-name strings.
+  classRestriction: string | null;
+  invFile: string | null;
+  // Bare id (e.g. "crown"), resolved to /items/hd/{hdIcon}.png. null when no
+  // HD art exists for this item (2 confirmed genuine gaps in Blizzard's own
+  // asset data -- see docs/item-display-template.md) -- render falls back
+  // to invFile.
+  hdIcon: string | null;
+  // Already filtered (no-display-text stats removed) and sorted into the
+  // real tooltip's display order by the extraction pipeline -- render
+  // exactly as given, do not re-sort or filter.
+  properties: RawGrailProperty[];
+  setPiecesBonuses: RawGrailPieceBonus[];
+  setFullBonus: RawGrailProperty[];
+  setBonuses: RawGrailPieceBonus[];
+  // Codes of this item's own variable-roll properties, in tooltip display
+  // order -- used to rank a player's recorded finds by best-roll priority.
   statPriority: string[];
-  note: LocalizedText | null;
-  statPools: { options: RawGrailStat[] }[];
+  ladderRestricted: boolean;
+  firstLadderSeason: number | null;
+  lastLadderSeason: number | null;
 }
 
-export interface GrailStat {
-  key: string;
+export interface GrailProperty {
+  code: string;
   label: string;
   min: number;
   max: number;
-  isSkillRef: boolean;
-  composed?: boolean;
-  signed?: boolean;
+  variable: boolean;
 }
 
-export interface GrailFixedStat {
-  key: string;
-  label: string;
-  value: number | null;
-  isSkillRef: boolean;
-  composed?: boolean;
-  signed?: boolean;
-  min?: number;
-  max?: number;
+export interface GrailPieceBonus extends GrailProperty {
+  piecesRequired: number;
 }
 
 export interface GrailItem {
@@ -109,26 +95,40 @@ export interface GrailItem {
   grade: 'normal' | 'exceptional' | 'elite';
   slotCategory: string;
   defense: { min: number; max: number } | null;
-  oneHandDamage: DamageRange | null;
-  twoHandDamage: DamageRange | null;
+  oneHandDamage: { min: number; max: number } | null;
+  twoHandDamage: { min: number; max: number } | null;
   requiredStrength: number | null;
   requiredDexterity: number | null;
   weaponSpeed: number | null;
   durability: number | null;
-  invFile: string;
-  hdIcon?: string | null;
-  stats: GrailStat[];
-  fixedStats: GrailFixedStat[];
-  setBonuses: GrailStat[];
+  classRestriction: string | null;
+  invFile: string | null;
+  hdIcon: string | null;
+  properties: GrailProperty[];
+  setPiecesBonuses: GrailPieceBonus[];
+  setFullBonus: GrailProperty[];
+  setBonuses: GrailPieceBonus[];
   statPriority: string[];
-  note: string | null;
-  statPools: { options: GrailStat[] }[];
+  ladderRestricted: boolean;
+  firstLadderSeason: number | null;
+  lastLadderSeason: number | null;
 }
 
 const ALL_ITEMS: RawGrailItem[] = [...(uniques as RawGrailItem[]), ...(sets as RawGrailItem[])];
 
 export function getAllGrailItems(): RawGrailItem[] {
   return ALL_ITEMS;
+}
+
+function localizeProps(list: RawGrailProperty[], locale: Locale): GrailProperty[] {
+  return list.map(p => ({ code: p.code, label: p.label[locale], min: p.min, max: p.max, variable: p.variable }));
+}
+
+function localizePieceBonuses(list: RawGrailPieceBonus[], locale: Locale): GrailPieceBonus[] {
+  return list.map(p => ({
+    code: p.code, label: p.label[locale], min: p.min, max: p.max, variable: p.variable,
+    piecesRequired: p.piecesRequired,
+  }));
 }
 
 export function localizeGrailItem(item: RawGrailItem, locale: Locale): GrailItem {
@@ -149,16 +149,17 @@ export function localizeGrailItem(item: RawGrailItem, locale: Locale): GrailItem
     requiredDexterity: item.requiredDexterity,
     weaponSpeed: item.weaponSpeed,
     durability: item.durability,
+    classRestriction: item.classRestriction,
     invFile: item.invFile,
     hdIcon: item.hdIcon,
-    stats: item.stats.map(s => ({ key: s.key, label: s.label[locale], min: s.min, max: s.max, isSkillRef: s.isSkillRef, composed: s.composed, signed: s.signed })),
-    fixedStats: item.fixedStats.map(f => ({ key: f.key, label: f.label[locale], value: f.value, isSkillRef: f.isSkillRef, composed: f.composed, signed: f.signed, min: f.min, max: f.max })),
-    setBonuses: item.setBonuses.map(b => ({ key: b.key, label: b.label[locale], min: b.min, max: b.max, isSkillRef: b.isSkillRef, composed: b.composed, signed: b.signed })),
+    properties: localizeProps(item.properties, locale),
+    setPiecesBonuses: localizePieceBonuses(item.setPiecesBonuses, locale),
+    setFullBonus: localizeProps(item.setFullBonus, locale),
+    setBonuses: localizePieceBonuses(item.setBonuses, locale),
     statPriority: item.statPriority,
-    note: item.note ? item.note[locale] : null,
-    statPools: item.statPools.map(p => ({
-      options: p.options.map(s => ({ key: s.key, label: s.label[locale], min: s.min, max: s.max, isSkillRef: s.isSkillRef, composed: s.composed, signed: s.signed })),
-    })),
+    ladderRestricted: item.ladderRestricted,
+    firstLadderSeason: item.firstLadderSeason,
+    lastLadderSeason: item.lastLadderSeason,
   };
 }
 

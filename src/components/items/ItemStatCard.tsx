@@ -2,10 +2,9 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import type { DamageRange, GrailItem } from '@/lib/grail/catalog';
+import type { GrailItem, GrailPieceBonus } from '@/lib/grail/catalog';
 import { BASE_PATH } from '@/lib/basePath';
 import { useOwnedItems } from '@/lib/grail/useOwnedItems';
-import { signedRange, signedValue } from '@/lib/grail/formatStat';
 import OwnedToggle from './OwnedToggle';
 
 // Authentic D2 item-rarity text colors (verified against d2r.world's computed styles).
@@ -14,18 +13,20 @@ const NAME_COLOR: Record<GrailItem['kind'], string> = {
   set: 'text-[#22ff55]',
 };
 
-// d2r.world folds an item's own Enhanced Damage % roll into its damage
-// display: when that roll is a random range, each end of the base damage
-// range becomes its own (low-high) sub-range, e.g. "(99-125) to (450-570)".
-// Collapses to a plain "low-high" when there's no random ED (low === high
-// on both ends).
-function formatDamageRange(d: DamageRange): string {
-  if (d.min.low === d.min.high && d.max.low === d.max.high) {
-    return `${d.min.low}–${d.max.low}`;
+// Groups a piece-bonus list (already in tooltip display order within each
+// tier, see docs/item-display-template.md) into [piecesRequired, entries][]
+// while preserving tier order.
+function groupByPieces(list: GrailPieceBonus[]): [number, GrailPieceBonus[]][] {
+  const order: number[] = [];
+  const groups = new Map<number, GrailPieceBonus[]>();
+  for (const p of list) {
+    if (!groups.has(p.piecesRequired)) {
+      groups.set(p.piecesRequired, []);
+      order.push(p.piecesRequired);
+    }
+    groups.get(p.piecesRequired)!.push(p);
   }
-  const minPart = d.min.low === d.min.high ? String(d.min.low) : `${d.min.low}-${d.min.high}`;
-  const maxPart = d.max.low === d.max.high ? String(d.max.low) : `${d.max.low}-${d.max.high}`;
-  return `(${minPart}) – (${maxPart})`;
+  return order.map(n => [n, groups.get(n)!]);
 }
 
 export default function ItemStatCard({ item }: { item: GrailItem }) {
@@ -38,13 +39,14 @@ export default function ItemStatCard({ item }: { item: GrailItem }) {
     [t('baseLabel'), item.baseName],
     [t('gradeLabel'), t(`grade_${item.grade}`)],
     ...(item.defense ? [[t('defenseLabel'), `${item.defense.min}–${item.defense.max}`] as [string, string]] : []),
-    ...(item.oneHandDamage ? [[t('oneHandDamageLabel'), formatDamageRange(item.oneHandDamage)] as [string, string]] : []),
-    ...(item.twoHandDamage ? [[t('twoHandDamageLabel'), formatDamageRange(item.twoHandDamage)] as [string, string]] : []),
+    ...(item.oneHandDamage ? [[t('oneHandDamageLabel'), `${item.oneHandDamage.min}–${item.oneHandDamage.max}`] as [string, string]] : []),
+    ...(item.twoHandDamage ? [[t('twoHandDamageLabel'), `${item.twoHandDamage.min}–${item.twoHandDamage.max}`] as [string, string]] : []),
     [t('requiredLevel'), String(item.levelReq)],
     ...(item.requiredStrength != null ? [[t('requiredStrength'), String(item.requiredStrength)] as [string, string]] : []),
     ...(item.requiredDexterity != null ? [[t('requiredDexterity'), String(item.requiredDexterity)] as [string, string]] : []),
     ...(item.weaponSpeed != null ? [[t('weaponSpeedLabel'), String(item.weaponSpeed)] as [string, string]] : []),
     ...(item.durability != null ? [[t('durabilityLabel'), String(item.durability)] as [string, string]] : []),
+    ...(item.classRestriction ? [[t('classOnlyLabel'), t(`className_${item.classRestriction}`)] as [string, string]] : []),
   ];
 
   const owned = userId && ownedIds.has(item.id);
@@ -75,38 +77,39 @@ export default function ItemStatCard({ item }: { item: GrailItem }) {
             </div>
           </div>
 
-          {(item.stats.length > 0 || item.fixedStats.length > 0) && (
+          {/* Already filtered (no-display-text stats removed) and sorted into
+              the real D2R tooltip's display order by the extraction pipeline
+              -- render properties/setFullBonus exactly as given. */}
+          {item.properties.length > 0 && (
             <div className="mt-4">
               <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('magicProperties')}</h4>
               <div className="text-sm flex flex-col gap-0.5">
-                {item.stats.map(stat => (
-                  <div key={stat.key} className={stat.isSkillRef ? 'text-[#ff4a69]' : 'text-[#fff818]'}>
-                    {stat.label}: {signedRange(stat.min, stat.max, stat.signed)} <span aria-hidden="true">🎲</span>
-                  </div>
-                ))}
-                {item.fixedStats.map(f => (
-                  <div key={f.key} className={f.isSkillRef ? 'text-[#ff4a69]' : 'text-[#8080f3]'}>
-                    {f.composed
-                      ? f.label
-                      : f.min != null && f.max != null
-                        ? `${f.label}: ${signedRange(f.min, f.max, f.signed)}`
-                        : `${f.label}: ${f.value == null ? f.value : signedValue(f.value, f.signed)}`}
-                  </div>
+                {item.properties.map((p, i) => (
+                  <div key={`${p.code}-${i}`} className="text-[#fff818]">{p.label}</div>
                 ))}
               </div>
             </div>
           )}
 
-          {item.statPools.length > 0 && (
+          {item.setFullBonus.length > 0 && (
+            <div className="mt-4">
+              <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('setBonusesLabel')}</h4>
+              <div className="text-sm flex flex-col gap-0.5">
+                {item.setFullBonus.map((p, i) => (
+                  <div key={`${p.code}-${i}`} className="text-[#22ff55]">{p.label}</div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {item.setPiecesBonuses.length > 0 && (
             <div className="mt-4 flex flex-col gap-3">
-              {item.statPools.map((pool, i) => (
-                <div key={i}>
-                  <p className="text-xs text-muted mb-0.5">{t('randomAffixPoolLabel')}</p>
+              {groupByPieces(item.setPiecesBonuses).map(([pieces, entries]) => (
+                <div key={pieces}>
+                  <p className="text-xs text-muted mb-0.5">{t('piecesRequired', { count: pieces })}</p>
                   <div className="text-sm flex flex-col gap-0.5">
-                    {pool.options.map(opt => (
-                      <div key={opt.key} className={opt.isSkillRef ? 'text-[#ff4a69]' : 'text-[#fff818]'}>
-                        {opt.label}: {signedRange(opt.min, opt.max, opt.signed)} <span aria-hidden="true">🎲</span>
-                      </div>
+                    {entries.map((p, i) => (
+                      <div key={`${p.code}-${i}`} className="text-[#fff818]">{p.label}</div>
                     ))}
                   </div>
                 </div>
@@ -114,26 +117,12 @@ export default function ItemStatCard({ item }: { item: GrailItem }) {
             </div>
           )}
 
-          {item.note && (
-            <p className="mt-4 text-xs text-muted italic">{item.note}</p>
-          )}
-
           {item.setBonuses.length > 0 && (
             <div className="mt-4">
               <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('setBonusesLabel')}</h4>
               <div className="text-sm flex flex-col gap-0.5">
-                {item.setBonuses.map((b, i) => (
-                  <div
-                    key={`${b.key}-${i}`}
-                    className={b.isSkillRef ? 'text-[#ff4a69]' : b.min === b.max ? 'text-[#22ff55]' : 'text-[#fff818]'}
-                  >
-                    {b.composed ? b.label : (
-                      <>
-                        {b.label}: {b.min === b.max ? signedValue(b.min, b.signed) : signedRange(b.min, b.max, b.signed)}
-                        {b.min !== b.max && <> <span aria-hidden="true">🎲</span></>}
-                      </>
-                    )}
-                  </div>
+                {item.setBonuses.map((p, i) => (
+                  <div key={`${p.code}-${i}`} className="text-[#22ff55]">{p.label}</div>
                 ))}
               </div>
             </div>

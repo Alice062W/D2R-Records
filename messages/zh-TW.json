@@ -134,7 +134,17 @@
     "durabilityLabel": "耐久度",
     "setBonusesLabel": "套裝加成",
     "notFoundYet": "尚未找到",
-    "noVariableStats": "此物品沒有變動屬性 — 所有數值皆為固定值。"
+    "noVariableStats": "此物品沒有變動屬性 — 所有數值皆為固定值。",
+    "classOnlyLabel": "職業限制",
+    "piecesRequired": "裝備 {count} 件：",
+    "className_Amazon": "只限亞馬遜",
+    "className_Assassin": "只限刺客",
+    "className_Barbarian": "只限野蠻人",
+    "className_Druid": "只限德魯伊",
+    "className_Necromancer": "只限死靈法師",
+    "className_Paladin": "只限聖騎士",
+    "className_Sorceress": "只限法師",
+    "className_Warlock": "只限術士"
   },
   "Nav": {
     "openMenu": "開啟選單",

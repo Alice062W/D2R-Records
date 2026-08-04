@@ -134,7 +134,17 @@
     "durabilityLabel": "Durability",
     "setBonusesLabel": "Partial Set Bonuses",
     "notFoundYet": "Not found yet",
-    "noVariableStats": "No variable rolls for this item — all stats are fixed."
+    "noVariableStats": "No variable rolls for this item — all stats are fixed.",
+    "classOnlyLabel": "Class Restriction",
+    "piecesRequired": "{count} Items Equipped:",
+    "className_Amazon": "Amazon Only",
+    "className_Assassin": "Assassin Only",
+    "className_Barbarian": "Barbarian Only",
+    "className_Druid": "Druid Only",
+    "className_Necromancer": "Necromancer Only",
+    "className_Paladin": "Paladin Only",
+    "className_Sorceress": "Sorceress Only",
+    "className_Warlock": "Warlock Only"
   },
   "Nav": {
     "openMenu": "Open menu",

@@ -8,8 +8,11 @@ import messages from '../../../messages/en.json';
 const baseItem: GrailItem = {
   id: 'unique-0', code: 'hax', name: 'The Gnasher', kind: 'unique', setName: null,
   levelReq: 5, baseName: 'Hand Axe', grade: 'normal', slotCategory: 'axes',
-  defense: null, oneHandDamage: null, twoHandDamage: null, requiredStrength: null, requiredDexterity: null, weaponSpeed: null, durability: 28, invFile: 'invhaxu',
-  stats: [], fixedStats: [], setBonuses: [], statPriority: [], note: null, statPools: [],
+  defense: null, oneHandDamage: null, twoHandDamage: null, requiredStrength: null,
+  requiredDexterity: null, weaponSpeed: null, durability: 28, classRestriction: null,
+  invFile: 'invhaxu', hdIcon: null,
+  properties: [], setPiecesBonuses: [], setFullBonus: [], setBonuses: [],
+  statPriority: [], ladderRestricted: false, firstLadderSeason: null, lastLadderSeason: null,
 };
 
 describe('GrailItemDetail', () => {
@@ -43,20 +46,14 @@ describe('GrailItemDetail', () => {
     expect(document.querySelector('img')).toBeNull();
   });
 
-  it('colors stats by variable/fixed status and isSkillRef', () => {
+  it('renders properties and set full bonus under their own headings', () => {
     const item: GrailItem = {
       ...baseItem,
-      stats: [
-        { key: 'dmg%', label: 'Enhanced Damage %', min: 60, max: 70, isSkillRef: false },
-        { key: 'skill:1', label: 'Level 1-20 Fireball', min: 1, max: 20, isSkillRef: true },
+      properties: [
+        { code: 'dmg%', label: 'Enhanced Damage +65%', min: 60, max: 70, variable: true },
       ],
-      fixedStats: [
-        { key: 'str', label: 'Strength', value: 8, isSkillRef: false },
-        { key: 'oskill:2', label: 'Combat Skills', value: 2, isSkillRef: true },
-      ],
-      setBonuses: [
-        { key: 'res-all', label: 'All Resistances', min: 50, max: 50, isSkillRef: false },
-        { key: 'sor', label: 'Sorceress Skill Levels', min: 3, max: 3, isSkillRef: true },
+      setFullBonus: [
+        { code: 'res-all', label: 'All Resistances +50', min: 50, max: 50, variable: false },
       ],
     };
     render(
@@ -64,11 +61,7 @@ describe('GrailItemDetail', () => {
         <GrailItemDetail item={item} finds={[]} />
       </NextIntlClientProvider>
     );
-    expect(screen.getByText(/Enhanced Damage %/).closest('div')).toHaveClass('text-[#fff818]');
-    expect(screen.getByText(/Level 1-20 Fireball/).closest('div')).toHaveClass('text-[#ff4a69]');
-    expect(screen.getByText(/Strength/).closest('div')).toHaveClass('text-[#8080f3]');
-    expect(screen.getByText(/Combat Skills/).closest('div')).toHaveClass('text-[#ff4a69]');
-    expect(screen.getByText(/All Resistances/).closest('div')).toHaveClass('text-[#22ff55]');
-    expect(screen.getByText(/Sorceress Skill Levels/).closest('div')).toHaveClass('text-[#ff4a69]');
+    expect(screen.getByText('Enhanced Damage +65%')).toHaveClass('text-[#fff818]');
+    expect(screen.getByText('All Resistances +50')).toHaveClass('text-[#22ff55]');
   });
 });

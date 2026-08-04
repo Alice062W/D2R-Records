@@ -35,6 +35,10 @@ export default function GrailItemDetail({
     ...(item.durability != null ? [[t('durabilityLabel'), String(item.durability)] as [string, string]] : []),
   ];
 
+  // Only variable-roll properties can be recorded per-find; fixed properties
+  // and set bonuses are identical on every copy of the item, nothing to log.
+  const variableProps = item.properties.filter(p => p.variable);
+
   return (
     <div className="bg-panel border border-panel-border rounded-xl p-6">
       <div className="mb-1 flex items-start gap-3">
@@ -71,36 +75,23 @@ export default function GrailItemDetail({
         </div>
       </div>
 
-      {(item.stats.length > 0 || item.fixedStats.length > 0) && (
+      {item.properties.length > 0 && (
         <div className="mt-4">
           <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('magicProperties')}</h4>
           <div className="text-sm flex flex-col gap-0.5">
-            {item.stats.map(stat => (
-              <div key={stat.key} className={stat.isSkillRef ? 'text-[#ff4a69]' : 'text-[#fff818]'}>
-                {stat.label}: {stat.min}–{stat.max} <span aria-hidden="true">🎲</span>
-              </div>
-            ))}
-            {item.fixedStats.map(f => (
-              <div key={f.key} className={f.isSkillRef ? 'text-[#ff4a69]' : 'text-[#8080f3]'}>
-                {f.min != null && f.max != null ? `${f.label}: ${f.min}–${f.max}` : `${f.label}: ${f.value}`}
-              </div>
+            {item.properties.map((p, i) => (
+              <div key={`${p.code}-${i}`} className="text-[#fff818]">{p.label}</div>
             ))}
           </div>
         </div>
       )}
 
-      {item.setBonuses.length > 0 && (
+      {item.setFullBonus.length > 0 && (
         <div className="mt-4">
           <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('setBonusesLabel')}</h4>
           <div className="text-sm flex flex-col gap-0.5">
-            {item.setBonuses.map((b, i) => (
-              <div
-                key={`${b.key}-${i}`}
-                className={b.isSkillRef ? 'text-[#ff4a69]' : b.min === b.max ? 'text-[#22ff55]' : 'text-[#fff818]'}
-              >
-                {b.label}: {b.min === b.max ? b.min : `${b.min}–${b.max}`}
-                {b.min !== b.max && <> <span aria-hidden="true">🎲</span></>}
-              </div>
+            {item.setFullBonus.map((p, i) => (
+              <div key={`${p.code}-${i}`} className="text-[#22ff55]">{p.label}</div>
             ))}
           </div>
         </div>
@@ -118,12 +109,12 @@ export default function GrailItemDetail({
                   <span>{i === 0 ? t('bestCopy') : t('copyNumber', { number: i + 1 })}</span>
                   <span>{find.foundAt}{find.ethereal ? ` · ${t('ethereal')}` : ''}</span>
                 </div>
-                {item.stats.length > 0 ? (
+                {variableProps.length > 0 ? (
                   <div className="grid grid-cols-2 gap-x-4 gap-y-1 text-sm">
-                    {item.stats.map(stat => (
-                      <div key={stat.key} className="text-parchment">
-                        {stat.label}: <span className="font-semibold">{find.statValues[stat.key] ?? '—'}</span>
-                        <span className="text-muted-dark text-xs"> ({stat.min}–{stat.max})</span>
+                    {variableProps.map(p => (
+                      <div key={p.code} className="text-parchment">
+                        {p.label}: <span className="font-semibold">{find.statValues[p.code] ?? '—'}</span>
+                        <span className="text-muted-dark text-xs"> ({p.min}–{p.max})</span>
                       </div>
                     ))}
                   </div>
