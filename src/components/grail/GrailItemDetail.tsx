@@ -14,6 +14,18 @@ const NAME_COLOR: Record<GrailItem['kind'], string> = {
   set: 'text-[#22ff55]',
 };
 
+// A "variable" property can roll to a different value on other drops of
+// this same item -- flagged with a dice icon and a bolder treatment on top
+// of the section's base color so it's visually distinct from fixed props.
+function PropertyLine({ label, variable, colorClass }: { label: string; variable: boolean; colorClass: string }) {
+  return (
+    <div className={variable ? `${colorClass} font-bold flex items-center gap-1` : colorClass}>
+      {variable && <span aria-hidden="true" title="Variable roll">🎲</span>}
+      <span>{label}</span>
+    </div>
+  );
+}
+
 export default function GrailItemDetail({
   item,
   finds,
@@ -80,7 +92,7 @@ export default function GrailItemDetail({
           <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('magicProperties')}</h4>
           <div className="text-sm flex flex-col gap-0.5">
             {item.properties.map((p, i) => (
-              <div key={`${p.code}-${i}`} className="text-[#fff818]">{p.label}</div>
+              <PropertyLine key={`${p.code}-${i}`} label={p.label} variable={p.variable} colorClass="text-[#fff818]" />
             ))}
           </div>
         </div>
@@ -91,7 +103,7 @@ export default function GrailItemDetail({
           <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('setBonusesLabel')}</h4>
           <div className="text-sm flex flex-col gap-0.5">
             {item.setFullBonus.map((p, i) => (
-              <div key={`${p.code}-${i}`} className="text-[#22ff55]">{p.label}</div>
+              <PropertyLine key={`${p.code}-${i}`} label={p.label} variable={p.variable} colorClass="text-[#22ff55]" />
             ))}
           </div>
         </div>

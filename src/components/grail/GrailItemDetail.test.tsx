@@ -61,7 +61,24 @@ describe('GrailItemDetail', () => {
         <GrailItemDetail item={item} finds={[]} />
       </NextIntlClientProvider>
     );
-    expect(screen.getByText('Enhanced Damage +65%')).toHaveClass('text-[#fff818]');
-    expect(screen.getByText('All Resistances +50')).toHaveClass('text-[#22ff55]');
+    expect(screen.getByText('Enhanced Damage +65%').closest('div')).toHaveClass('text-[#fff818]');
+    expect(screen.getByText('All Resistances +50').closest('div')).toHaveClass('text-[#22ff55]');
+  });
+
+  it('marks a variable property with a dice icon, but not a fixed one', () => {
+    const item: GrailItem = {
+      ...baseItem,
+      properties: [
+        { code: 'dmg%', label: 'Enhanced Damage +65%', min: 60, max: 70, variable: true },
+        { code: 'str', label: '+10 to Strength', min: 10, max: 10, variable: false },
+      ],
+    };
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <GrailItemDetail item={item} finds={[]} />
+      </NextIntlClientProvider>
+    );
+    expect(screen.getByText('Enhanced Damage +65%').closest('div')).toHaveTextContent('🎲');
+    expect(screen.getByText('+10 to Strength').closest('div')).not.toHaveTextContent('🎲');
   });
 });

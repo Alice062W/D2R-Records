@@ -13,6 +13,20 @@ const NAME_COLOR: Record<GrailItem['kind'], string> = {
   set: 'text-[#22ff55]',
 };
 
+// A "variable" property is one that can roll to a different value on other
+// drops of this same item (e.g. "Enhanced Damage +[60-70]%") -- as opposed
+// to a fixed property identical on every copy. Flagged with a dice icon and
+// a brighter/bold treatment on top of the section's base color so players
+// scanning for reroll-worthy items can spot them at a glance.
+function PropertyLine({ label, variable, colorClass }: { label: string; variable: boolean; colorClass: string }) {
+  return (
+    <div className={variable ? `${colorClass} font-bold flex items-center gap-1` : colorClass}>
+      {variable && <span aria-hidden="true" title="Variable roll">🎲</span>}
+      <span>{label}</span>
+    </div>
+  );
+}
+
 // Groups a piece-bonus list (already in tooltip display order within each
 // tier, see docs/item-display-template.md) into [piecesRequired, entries][]
 // while preserving tier order.
@@ -85,7 +99,7 @@ export default function ItemStatCard({ item }: { item: GrailItem }) {
               <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('magicProperties')}</h4>
               <div className="text-sm flex flex-col gap-0.5">
                 {item.properties.map((p, i) => (
-                  <div key={`${p.code}-${i}`} className="text-[#fff818]">{p.label}</div>
+                  <PropertyLine key={`${p.code}-${i}`} label={p.label} variable={p.variable} colorClass="text-[#fff818]" />
                 ))}
               </div>
             </div>
@@ -96,7 +110,7 @@ export default function ItemStatCard({ item }: { item: GrailItem }) {
               <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('setBonusesLabel')}</h4>
               <div className="text-sm flex flex-col gap-0.5">
                 {item.setFullBonus.map((p, i) => (
-                  <div key={`${p.code}-${i}`} className="text-[#22ff55]">{p.label}</div>
+                  <PropertyLine key={`${p.code}-${i}`} label={p.label} variable={p.variable} colorClass="text-[#22ff55]" />
                 ))}
               </div>
             </div>
@@ -109,7 +123,7 @@ export default function ItemStatCard({ item }: { item: GrailItem }) {
                   <p className="text-xs text-muted mb-0.5">{t('piecesRequired', { count: pieces })}</p>
                   <div className="text-sm flex flex-col gap-0.5">
                     {entries.map((p, i) => (
-                      <div key={`${p.code}-${i}`} className="text-[#fff818]">{p.label}</div>
+                      <PropertyLine key={`${p.code}-${i}`} label={p.label} variable={p.variable} colorClass="text-[#fff818]" />
                     ))}
                   </div>
                 </div>
@@ -122,7 +136,7 @@ export default function ItemStatCard({ item }: { item: GrailItem }) {
               <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('setBonusesLabel')}</h4>
               <div className="text-sm flex flex-col gap-0.5">
                 {item.setBonuses.map((p, i) => (
-                  <div key={`${p.code}-${i}`} className="text-[#22ff55]">{p.label}</div>
+                  <PropertyLine key={`${p.code}-${i}`} label={p.label} variable={p.variable} colorClass="text-[#22ff55]" />
                 ))}
               </div>
             </div>
