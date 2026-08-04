@@ -65,35 +65,41 @@ export default function SetGroupDetail({
       )}
 
       {/* Shared across every piece of this set (not per-item) -- shown once
-          here rather than repeated on each ItemStatCard below. */}
-      <div className="bg-panel border border-panel-border rounded-xl p-6">
-        <h3 className="text-lg font-semibold text-parchment-bright mb-3">{t('setPartialBonusLabel')}</h3>
-        <div className="flex flex-col gap-2">
-          {partialBonuses.map(p => (
-            <div key={p.piecesRequired} className="text-sm">
-              <span className="text-muted">
-                <span>{p.piecesRequired}</span> {t('setPiecesRequiredLabel')}:{' '}
-              </span>
-              <span>
-                {p.properties.map((prop, i) => (
-                  <span key={`${prop.code}-${i}`}>
-                    {i > 0 && ', '}
-                    <span className="text-[#fff818]">{prop.label}</span>
-                  </span>
-                ))}
-              </span>
-            </div>
-          ))}
+          here rather than repeated on each ItemStatCard below. Partial and
+          Full sit side by side on wide screens to save vertical space, and
+          stack (one per row) on narrow/mobile screens. */}
+      <div className="bg-panel border border-panel-border rounded-xl p-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
+          <h3 className="text-lg font-semibold text-parchment-bright mb-3">{t('setPartialBonusLabel')}</h3>
+          <div className="flex flex-col gap-2">
+            {partialBonuses.map(p => (
+              <div key={p.piecesRequired} className="text-sm">
+                <span className="text-muted">
+                  <span>{p.piecesRequired}</span> {t('setPiecesRequiredLabel')}:{' '}
+                </span>
+                <span>
+                  {p.properties.map((prop, i) => (
+                    <span key={`${prop.code}-${i}`}>
+                      {i > 0 && ', '}
+                      <span className="text-[#fff818]">{prop.label}</span>
+                    </span>
+                  ))}
+                </span>
+              </div>
+            ))}
+          </div>
         </div>
-        <h3 className="text-lg font-semibold text-parchment-bright mt-5 mb-3">{t('setFullBonusLabel')}</h3>
-        <div className="flex flex-col gap-1 text-sm">
-          {fullSetBonus.map((prop, i) => (
-            <div key={`${prop.code}-${i}`} className="text-[#22ff55]">{prop.label}</div>
-          ))}
+        <div>
+          <h3 className="text-lg font-semibold text-parchment-bright mb-3">{t('setFullBonusLabel')}</h3>
+          <div className="flex flex-col gap-1 text-sm">
+            {fullSetBonus.map((prop, i) => (
+              <div key={`${prop.code}-${i}`} className="text-[#22ff55]">{prop.label}</div>
+            ))}
+          </div>
         </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {visiblePieces.map(piece => (
           <ItemStatCard key={piece.id} item={piece} showSharedSetBonuses={false} />
         ))}

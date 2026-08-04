@@ -76,9 +76,15 @@ export default function ItemStatCard({
 
   const owned = userId && ownedIds.has(item.id);
 
+  const hasProperties = item.properties.length > 0;
+  const hasItemSetBonus = item.setBonuses.length > 0;
+  const hasSharedFullBonus = showSharedSetBonuses && item.setFullBonus.length > 0;
+  const hasSharedPartialBonus = showSharedSetBonuses && item.setPiecesBonuses.length > 0;
+
   return (
-    <div className={`border rounded-xl p-6 ${owned ? 'bg-green-950/30 border-green-600/50' : 'bg-panel border-panel-border'}`}>
-      <div className="mb-3 flex items-start justify-between gap-2">
+    <div className={`border rounded-xl p-6 flex flex-col gap-4 ${owned ? 'bg-green-950/30 border-green-600/50' : 'bg-panel border-panel-border'}`}>
+      {/* Group 1: name + owned indicator */}
+      <div className="flex items-start justify-between gap-2 pb-4 border-b border-panel-border/60">
         <div>
           <h3 className={`text-lg font-bold ${NAME_COLOR[item.kind]}`}>{item.name}</h3>
           {item.setName && <p className="text-xs text-[#22ff55]">{item.setName}</p>}
@@ -91,22 +97,47 @@ export default function ItemStatCard({
         )}
       </div>
 
-      <div className="flex flex-row gap-4">
+      {/* Group 2: image + item stats */}
+      <div className="flex flex-row gap-4 pb-4 border-b border-panel-border/60">
+        {(item.hdIcon || item.invFile) && !iconFailed && (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={
+              item.hdIcon && !hdIconFailed
+                ? `${BASE_PATH}/items/hd/${item.hdIcon}.png`
+                : `${BASE_PATH}/items/inv/${item.invFile}.png`
+            }
+            alt=""
+            aria-hidden="true"
+            className="w-20 h-20 object-contain shrink-0"
+            onError={() => {
+              // First try: HD art missing/broken -> fall back to the classic
+              // icon. Second try: classic icon also broken -> hide entirely.
+              if (item.hdIcon && !hdIconFailed) setHdIconFailed(true);
+              else setIconFailed(true);
+            }}
+          />
+        )}
         <div className="flex-1 min-w-0">
-          <div>
-            <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('itemStats')}</h4>
-            <div className="text-sm text-parchment flex flex-col gap-0.5">
-              {itemStatRows.map(([label, value]) => (
-                <div key={label}>{label}: <span className="text-parchment-bright">{value}</span></div>
-              ))}
-            </div>
+          <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('itemStats')}</h4>
+          <div className="text-sm text-parchment flex flex-col gap-0.5">
+            {itemStatRows.map(([label, value]) => (
+              <div key={label}>{label}: <span className="text-parchment-bright">{value}</span></div>
+            ))}
           </div>
+        </div>
+      </div>
 
-          {/* Already filtered (no-display-text stats removed) and sorted into
-              the real D2R tooltip's display order by the extraction pipeline
-              -- render properties/setFullBonus exactly as given. */}
-          {item.properties.length > 0 && (
-            <div className="mt-4">
+      {/* Group 3: Magic Properties + this item's own Set Item Bonus (and,
+          in standalone contexts with no page-level summary to defer to,
+          the shared Full/Partial Set Bonus too). */}
+      {(hasProperties || hasItemSetBonus || hasSharedFullBonus || hasSharedPartialBonus) && (
+        <div className="flex flex-col gap-4">
+          {/* Already filtered (no-display-text stats removed) and sorted
+              into the real D2R tooltip's display order by the extraction
+              pipeline -- render properties exactly as given. */}
+          {hasProperties && (
+            <div>
               <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('magicProperties')}</h4>
               <div className="text-sm flex flex-col gap-0.5">
                 {item.properties.map((p, i) => (
@@ -116,42 +147,15 @@ export default function ItemStatCard({
             </div>
           )}
 
-          {showSharedSetBonuses && item.setFullBonus.length > 0 && (
-            <div className="mt-4">
-              <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('fullSetBonusLabel')}</h4>
-              <div className="text-sm flex flex-col gap-0.5">
-                {item.setFullBonus.map((p, i) => (
-                  <PropertyLine key={`${p.code}-${i}`} label={p.label} variable={p.variable} colorClass="text-[#22ff55]" />
-                ))}
-              </div>
-            </div>
-          )}
-
-          {showSharedSetBonuses && item.setPiecesBonuses.length > 0 && (
-            <div className="mt-4 flex flex-col gap-3">
-              <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('setBonusesLabel')}</h4>
-              {groupByPieces(item.setPiecesBonuses).map(([pieces, entries]) => (
-                <div key={pieces}>
-                  <p className="text-xs text-muted mb-0.5">{t('piecesRequired', { count: pieces })}</p>
-                  <div className="text-sm flex flex-col gap-0.5">
-                    {entries.map((p, i) => (
-                      <PropertyLine key={`${p.code}-${i}`} label={p.label} variable={p.variable} colorClass="text-[#fff818]" />
-                    ))}
-                  </div>
-                </div>
-              ))}
-            </div>
-          )}
-
           {/* This item's OWN bonus, which scales with how many pieces of
               the set are equipped (distinct from the shared Partial/Full
-              Set Bonus above, which is identical across every piece) --
-              e.g. Aldur's Stony Gaze grants +15 Energy at each tier while
-              other pieces in the same set grant a different stat. Always
-              shown here (not deduplicated to the page level) since it's
-              unique per item. */}
-          {item.setBonuses.length > 0 && (
-            <div className="mt-4">
+              Set Bonus, which is identical across every piece) -- e.g.
+              Aldur's Stony Gaze grants +15 Energy at each tier while other
+              pieces in the same set grant a different stat. Always shown
+              here (not deduplicated to the page level) since it's unique
+              per item. */}
+          {hasItemSetBonus && (
+            <div>
               <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('itemSetBonusLabel')}</h4>
               <div className="text-sm flex flex-col gap-0.5">
                 {item.setBonuses.map((p, i) => (
@@ -166,28 +170,35 @@ export default function ItemStatCard({
               </div>
             </div>
           )}
-        </div>
 
-        {(item.hdIcon || item.invFile) && !iconFailed && (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img
-            src={
-              item.hdIcon && !hdIconFailed
-                ? `${BASE_PATH}/items/hd/${item.hdIcon}.png`
-                : `${BASE_PATH}/items/inv/${item.invFile}.png`
-            }
-            alt=""
-            aria-hidden="true"
-            className="w-20 h-20 object-contain shrink-0 self-start"
-            onError={() => {
-              // First try: HD art missing/broken -> fall back to the classic
-              // icon. Second try: classic icon also broken -> hide entirely.
-              if (item.hdIcon && !hdIconFailed) setHdIconFailed(true);
-              else setIconFailed(true);
-            }}
-          />
-        )}
-      </div>
+          {hasSharedFullBonus && (
+            <div>
+              <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('fullSetBonusLabel')}</h4>
+              <div className="text-sm flex flex-col gap-0.5">
+                {item.setFullBonus.map((p, i) => (
+                  <PropertyLine key={`${p.code}-${i}`} label={p.label} variable={p.variable} colorClass="text-[#22ff55]" />
+                ))}
+              </div>
+            </div>
+          )}
+
+          {hasSharedPartialBonus && (
+            <div className="flex flex-col gap-3">
+              <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('setBonusesLabel')}</h4>
+              {groupByPieces(item.setPiecesBonuses).map(([pieces, entries]) => (
+                <div key={pieces}>
+                  <p className="text-xs text-muted mb-0.5">{t('piecesRequired', { count: pieces })}</p>
+                  <div className="text-sm flex flex-col gap-0.5">
+                    {entries.map((p, i) => (
+                      <PropertyLine key={`${p.code}-${i}`} label={p.label} variable={p.variable} colorClass="text-[#fff818]" />
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
     </div>
   );
 }
