@@ -30,7 +30,7 @@ export default function AuraList({ auras }: { auras: Aura[] }) {
   return (
     <div className="flex flex-col gap-4 w-full">
       {auras.map(aura => (
-        <div key={aura.id} className="bg-panel border border-panel-border rounded-xl p-6 flex flex-col sm:flex-row gap-4">
+        <div key={aura.id} id={aura.id} className="bg-panel border border-panel-border rounded-xl p-6 flex flex-col sm:flex-row gap-4 scroll-mt-4">
           <div className="flex sm:flex-col items-center gap-3 shrink-0">
             <AuraImage src={`${BASE_PATH}/skills/icons/${aura.id}.png`} alt="" size="w-16 h-16" />
             <AuraImage src={`${BASE_PATH}/skills/visuals/${aura.id}.png`} alt="" size="w-24 h-24" />
