@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import type { GrailItem, GrailPieceBonus } from '@/lib/grail/catalog';
+import type { GrailItem, GrailPieceBonus, GrailProperty } from '@/lib/grail/catalog';
 import { BASE_PATH } from '@/lib/basePath';
 import { useOwnedItems } from '@/lib/grail/useOwnedItems';
 import OwnedToggle from './OwnedToggle';
@@ -31,6 +31,28 @@ function PropertyLine({
       </span>
     </div>
   );
+}
+
+// A "1 of the following: ..." pick-one property group (Sunder Charm
+// affixes, Wraithstep, Opalvein) renders as its header text on its own line
+// (no bullet -- it's not a stat itself, just the "pick one" framing) with
+// each individual choice below as its own bulleted PropertyLine, so a
+// variable-roll choice inside the group still gets its own dice icon
+// instead of the whole group collapsing into one unmarked block.
+function PropertyOrGroupLine({
+  property, colorClass, suffix,
+}: { property: GrailProperty; colorClass: string; suffix?: string }) {
+  if (property.groupChoices && property.groupChoices.length > 0) {
+    return (
+      <div className="flex flex-col gap-0.5">
+        <div className={`${colorClass} italic`}>{property.groupHeader}</div>
+        {property.groupChoices.map((c, i) => (
+          <PropertyLine key={`${c.code}-${i}`} label={c.label} variable={c.variable} colorClass={colorClass} />
+        ))}
+      </div>
+    );
+  }
+  return <PropertyLine label={property.label} variable={property.variable} colorClass={colorClass} suffix={suffix} />;
 }
 
 // Groups a piece-bonus list (already in tooltip display order within each
@@ -148,7 +170,7 @@ export default function ItemStatCard({
               <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('magicProperties')}</h4>
               <div className="text-sm flex flex-col gap-0.5">
                 {item.properties.map((p, i) => (
-                  <PropertyLine key={`${p.code}-${i}`} label={p.label} variable={p.variable} colorClass="text-[#fff818]" />
+                  <PropertyOrGroupLine key={`${p.code}-${i}`} property={p} colorClass="text-[#fff818]" />
                 ))}
               </div>
             </div>
@@ -166,10 +188,9 @@ export default function ItemStatCard({
               <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('itemSetBonusLabel')}</h4>
               <div className="text-sm flex flex-col gap-0.5">
                 {item.setBonuses.map((p, i) => (
-                  <PropertyLine
+                  <PropertyOrGroupLine
                     key={`${p.code}-${i}`}
-                    label={p.label}
-                    variable={p.variable}
+                    property={p}
                     colorClass="text-[#22ff55]"
                     suffix={t('piecesRequiredInline', { count: p.piecesRequired })}
                   />
@@ -183,7 +204,7 @@ export default function ItemStatCard({
               <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('fullSetBonusLabel')}</h4>
               <div className="text-sm flex flex-col gap-0.5">
                 {item.setFullBonus.map((p, i) => (
-                  <PropertyLine key={`${p.code}-${i}`} label={p.label} variable={p.variable} colorClass="text-[#22ff55]" />
+                  <PropertyOrGroupLine key={`${p.code}-${i}`} property={p} colorClass="text-[#22ff55]" />
                 ))}
               </div>
             </div>
@@ -197,7 +218,7 @@ export default function ItemStatCard({
                   <p className="text-xs text-muted mb-0.5">{t('piecesRequired', { count: pieces })}</p>
                   <div className="text-sm flex flex-col gap-0.5">
                     {entries.map((p, i) => (
-                      <PropertyLine key={`${p.code}-${i}`} label={p.label} variable={p.variable} colorClass="text-[#fff818]" />
+                      <PropertyOrGroupLine key={`${p.code}-${i}`} property={p} colorClass="text-[#fff818]" />
                     ))}
                   </div>
                 </div>

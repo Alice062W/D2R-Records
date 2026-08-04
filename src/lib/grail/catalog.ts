@@ -20,6 +20,14 @@ export interface RawGrailProperty {
   min: number;
   max: number;
   variable: boolean;
+  // Present only for "1 of the following: ..." pick-one property groups
+  // (Sunder Charm affixes, Wraithstep, Opalvein). `label` above is the
+  // whole group pre-composed as one flat multi-line block (for any
+  // consumer that just wants the plain text) -- groupHeader/groupChoices
+  // let the UI instead render the header as its own line and each choice
+  // as its own bulleted, individually variable-flagged property.
+  groupHeader?: LocalizedText;
+  groupChoices?: RawGrailProperty[];
 }
 
 export interface RawGrailPieceBonus extends RawGrailProperty {
@@ -78,6 +86,8 @@ export interface GrailProperty {
   min: number;
   max: number;
   variable: boolean;
+  groupHeader?: string;
+  groupChoices?: GrailProperty[];
 }
 
 export interface GrailPieceBonus extends GrailProperty {
@@ -121,13 +131,21 @@ export function getAllGrailItems(): RawGrailItem[] {
 }
 
 function localizeProps(list: RawGrailProperty[], locale: Locale): GrailProperty[] {
-  return list.map(p => ({ code: p.code, label: p.label[locale], min: p.min, max: p.max, variable: p.variable }));
+  return list.map(p => ({
+    code: p.code, label: p.label[locale], min: p.min, max: p.max, variable: p.variable,
+    ...(p.groupHeader
+      ? { groupHeader: p.groupHeader[locale], groupChoices: localizeProps(p.groupChoices ?? [], locale) }
+      : {}),
+  }));
 }
 
 function localizePieceBonuses(list: RawGrailPieceBonus[], locale: Locale): GrailPieceBonus[] {
   return list.map(p => ({
     code: p.code, label: p.label[locale], min: p.min, max: p.max, variable: p.variable,
     piecesRequired: p.piecesRequired,
+    ...(p.groupHeader
+      ? { groupHeader: p.groupHeader[locale], groupChoices: localizeProps(p.groupChoices ?? [], locale) }
+      : {}),
   }));
 }
 

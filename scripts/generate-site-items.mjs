@@ -241,6 +241,23 @@ function rainbowFacetIconOverride(enItem) {
 // (e.g. Undead Crown's ac% rolled 47 out of its 30-60 range) -- purely
 // additive to the pre-composed label, which remains the source of truth
 // for display text.
+// "1 of the following: ..." pick-one property groups (Sunder Charms,
+// Wraithstep, Opalvein) carry a structured groupChoices[] alongside the
+// pipeline's pre-composed flat `text` -- convert those into the same
+// {code,label,min,max,variable} shape as a regular property (one entry per
+// choice) so the site can render one bullet + dice-icon per CHOICE instead
+// of collapsing the whole group under a single unmarked line.
+function convertGroupChoices(enChoices, twChoices, cnChoices) {
+  if (!enChoices) return undefined;
+  return enChoices.map((c, i) => ({
+    code: c.code,
+    label: { en: c.text, 'zh-TW': twChoices?.[i]?.text ?? c.text, 'zh-CN': cnChoices?.[i]?.text ?? c.text },
+    min: Number(c.min),
+    max: Number(c.max),
+    variable: !!c.variable,
+  }));
+}
+
 function convertPropList(enList, twList, cnList) {
   return enList.map((p, i) => ({
     code: p.code,
@@ -248,6 +265,12 @@ function convertPropList(enList, twList, cnList) {
     min: Number(p.min),
     max: Number(p.max),
     variable: !!p.variable,
+    ...(p.groupHeader
+      ? {
+          groupHeader: { en: p.groupHeader, 'zh-TW': twList[i]?.groupHeader ?? p.groupHeader, 'zh-CN': cnList[i]?.groupHeader ?? p.groupHeader },
+          groupChoices: convertGroupChoices(p.groupChoices, twList[i]?.groupChoices, cnList[i]?.groupChoices),
+        }
+      : {}),
   }));
 }
 
@@ -259,6 +282,12 @@ function convertPieceBonusList(enList, twList, cnList) {
     min: Number(p.min),
     max: Number(p.max),
     variable: !!p.variable,
+    ...(p.groupHeader
+      ? {
+          groupHeader: { en: p.groupHeader, 'zh-TW': twList[i]?.groupHeader ?? p.groupHeader, 'zh-CN': cnList[i]?.groupHeader ?? p.groupHeader },
+          groupChoices: convertGroupChoices(p.groupChoices, twList[i]?.groupChoices, cnList[i]?.groupChoices),
+        }
+      : {}),
   }));
 }
 

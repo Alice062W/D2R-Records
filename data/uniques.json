@@ -44618,7 +44618,47 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "skilltab",
+            "label": {
+              "en": "+1 to Eldritch Skills",
+              "zh-TW": "+1 邪異技能",
+              "zh-CN": "+1 邪术技能"
+            },
+            "min": 1,
+            "max": 1,
+            "variable": false
+          },
+          {
+            "code": "skilltab",
+            "label": {
+              "en": "+1 to Chaos Skills",
+              "zh-TW": "+1 混沌技能",
+              "zh-CN": "+1 混沌技能"
+            },
+            "min": 1,
+            "max": 1,
+            "variable": false
+          },
+          {
+            "code": "skilltab",
+            "label": {
+              "en": "+1 to Demon Skills",
+              "zh-TW": "+1 惡魔技能",
+              "zh-CN": "+1 恶魔技能"
+            },
+            "min": 1,
+            "max": 1,
+            "variable": false
+          }
+        ]
       }
     ],
     "statPriority": [
@@ -44969,7 +45009,80 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "extra-mag",
+            "label": {
+              "en": "+3-5% to Magic Skill Damage",
+              "zh-TW": "+3-5% 魔法技能傷害",
+              "zh-CN": "+3-5% 魔法技能伤害"
+            },
+            "min": 3,
+            "max": 5,
+            "variable": true
+          },
+          {
+            "code": "dmg%",
+            "label": {
+              "en": "+20-40% Enhanced Damage",
+              "zh-TW": "+20-40% 傷害強化",
+              "zh-CN": "+20-40% 强化伤害"
+            },
+            "min": 20,
+            "max": 40,
+            "variable": true
+          },
+          {
+            "code": "extra-fire",
+            "label": {
+              "en": "+3-5% to Fire Skill Damage",
+              "zh-TW": "+3-5% 火焰技能傷害",
+              "zh-CN": "+3-5% 火焰技能伤害"
+            },
+            "min": 3,
+            "max": 5,
+            "variable": true
+          },
+          {
+            "code": "extra-cold",
+            "label": {
+              "en": "+3-5% to Cold Skill Damage",
+              "zh-TW": "+3-5% 冰寒技能傷害",
+              "zh-CN": "+3-5% 冰霜技能伤害"
+            },
+            "min": 3,
+            "max": 5,
+            "variable": true
+          },
+          {
+            "code": "extra-ltng",
+            "label": {
+              "en": "+3-5% to Lightning Skill Damage",
+              "zh-TW": "+3-5% 閃電技能傷害",
+              "zh-CN": "+3-5% 闪电技能伤害"
+            },
+            "min": 3,
+            "max": 5,
+            "variable": true
+          },
+          {
+            "code": "extra-pois",
+            "label": {
+              "en": "+3-5% to Poison Skill Damage",
+              "zh-TW": "+3-5% 毒素技能傷害",
+              "zh-CN": "+3-5% 毒素技能伤害"
+            },
+            "min": 3,
+            "max": 5,
+            "variable": true
+          }
+        ]
       }
     ],
     "statPriority": [
@@ -46191,7 +46304,36 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "extra-cold",
+            "label": {
+              "en": "+5-15% to Cold Skill Damage",
+              "zh-TW": "+5-15% 冰寒技能傷害",
+              "zh-CN": "+5-15% 冰霜技能伤害"
+            },
+            "min": 5,
+            "max": 15,
+            "variable": true
+          },
+          {
+            "code": "pierce-cold",
+            "label": {
+              "en": "-5-10% to Enemy Cold Resistance",
+              "zh-TW": "敵人冰寒抗性 -5-10%",
+              "zh-CN": "-5-10% 敌人的冰霜抗性"
+            },
+            "min": 5,
+            "max": 10,
+            "variable": true
+          }
+        ]
       },
       {
         "code": "Gelid-Affix2",
@@ -46202,7 +46344,36 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "mag%",
+            "label": {
+              "en": "14-25% Better Chance of Getting Magic Items",
+              "zh-TW": "尋獲魔法物品機率提高 14-25%",
+              "zh-CN": "14-25% 额外几率获得魔法物品"
+            },
+            "min": 14,
+            "max": 25,
+            "variable": true
+          },
+          {
+            "code": "gold%",
+            "label": {
+              "en": "20-55% Extra Gold from Monsters",
+              "zh-TW": "怪物金幣掉落量提高 20-55%",
+              "zh-CN": "20-55% 怪物额外掉落金币"
+            },
+            "min": 20,
+            "max": 55,
+            "variable": true
+          }
+        ]
       },
       {
         "code": "Gelid-Affix3",
@@ -46213,7 +46384,36 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "hp",
+            "label": {
+              "en": "+10-65 to Life",
+              "zh-TW": "+10-65 生命",
+              "zh-CN": "+10-65 生命"
+            },
+            "min": 10,
+            "max": 65,
+            "variable": true
+          },
+          {
+            "code": "mana",
+            "label": {
+              "en": "+10-75 to Mana",
+              "zh-TW": "+10-75 法力",
+              "zh-CN": "+10-75 法力"
+            },
+            "min": 10,
+            "max": 75,
+            "variable": true
+          }
+        ]
       },
       {
         "code": "Gelid-Affix4",
@@ -46224,7 +46424,47 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "move1",
+            "label": {
+              "en": "+5-10% Faster Run/Walk",
+              "zh-TW": "+5-10% 跑步 / 行走速度",
+              "zh-CN": "+5-10% 更快速跑步/步行"
+            },
+            "min": 5,
+            "max": 10,
+            "variable": true
+          },
+          {
+            "code": "balance1",
+            "label": {
+              "en": "+12-24% Faster Hit Recovery",
+              "zh-TW": "+12-24% 打擊恢復",
+              "zh-CN": "+12-24% 更快速打击回复"
+            },
+            "min": 12,
+            "max": 24,
+            "variable": true
+          },
+          {
+            "code": "all-stats",
+            "label": {
+              "en": "+3-8 to all Attributes",
+              "zh-TW": "+3-8 所有屬性",
+              "zh-CN": "+3-8 所有属性"
+            },
+            "min": 3,
+            "max": 8,
+            "variable": true
+          }
+        ]
       },
       {
         "code": "Gelid-Affix5",
@@ -46246,7 +46486,36 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "red-mag",
+            "label": {
+              "en": "Magic Damage Reduced by 5-10",
+              "zh-TW": "魔法傷害降低 5-10",
+              "zh-CN": "魔法伤害降低 5-10"
+            },
+            "min": 5,
+            "max": 10,
+            "variable": true
+          },
+          {
+            "code": "red-dmg",
+            "label": {
+              "en": "Damage Reduced by 5-10",
+              "zh-TW": "傷害降低 5-10",
+              "zh-CN": "伤害降低 5-10"
+            },
+            "min": 5,
+            "max": 10,
+            "variable": true
+          }
+        ]
       }
     ],
     "statPriority": [],
@@ -46627,7 +46896,36 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "extra-fire",
+            "label": {
+              "en": "+5-15% to Fire Skill Damage",
+              "zh-TW": "+5-15% 火焰技能傷害",
+              "zh-CN": "+5-15% 火焰技能伤害"
+            },
+            "min": 5,
+            "max": 15,
+            "variable": true
+          },
+          {
+            "code": "pierce-fire",
+            "label": {
+              "en": "-5-10% to Enemy Fire Resistance",
+              "zh-TW": "敵人火焰抗性 -5-10%",
+              "zh-CN": "-5-10% 敌人的火焰抗性"
+            },
+            "min": 5,
+            "max": 10,
+            "variable": true
+          }
+        ]
       },
       {
         "code": "Incendiary-Affix2",
@@ -46638,7 +46936,36 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "mag%",
+            "label": {
+              "en": "14-25% Better Chance of Getting Magic Items",
+              "zh-TW": "尋獲魔法物品機率提高 14-25%",
+              "zh-CN": "14-25% 额外几率获得魔法物品"
+            },
+            "min": 14,
+            "max": 25,
+            "variable": true
+          },
+          {
+            "code": "gold%",
+            "label": {
+              "en": "20-55% Extra Gold from Monsters",
+              "zh-TW": "怪物金幣掉落量提高 20-55%",
+              "zh-CN": "20-55% 怪物额外掉落金币"
+            },
+            "min": 20,
+            "max": 55,
+            "variable": true
+          }
+        ]
       },
       {
         "code": "Incendiary-Affix3",
@@ -46649,7 +46976,36 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "hp",
+            "label": {
+              "en": "+10-65 to Life",
+              "zh-TW": "+10-65 生命",
+              "zh-CN": "+10-65 生命"
+            },
+            "min": 10,
+            "max": 65,
+            "variable": true
+          },
+          {
+            "code": "mana",
+            "label": {
+              "en": "+10-75 to Mana",
+              "zh-TW": "+10-75 法力",
+              "zh-CN": "+10-75 法力"
+            },
+            "min": 10,
+            "max": 75,
+            "variable": true
+          }
+        ]
       },
       {
         "code": "Incendiary-Affix4",
@@ -46660,7 +47016,47 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "move1",
+            "label": {
+              "en": "+5-10% Faster Run/Walk",
+              "zh-TW": "+5-10% 跑步 / 行走速度",
+              "zh-CN": "+5-10% 更快速跑步/步行"
+            },
+            "min": 5,
+            "max": 10,
+            "variable": true
+          },
+          {
+            "code": "balance1",
+            "label": {
+              "en": "+12-24% Faster Hit Recovery",
+              "zh-TW": "+12-24% 打擊恢復",
+              "zh-CN": "+12-24% 更快速打击回复"
+            },
+            "min": 12,
+            "max": 24,
+            "variable": true
+          },
+          {
+            "code": "all-stats",
+            "label": {
+              "en": "+3-8 to all Attributes",
+              "zh-TW": "+3-8 所有屬性",
+              "zh-CN": "+3-8 所有属性"
+            },
+            "min": 3,
+            "max": 8,
+            "variable": true
+          }
+        ]
       },
       {
         "code": "Incendiary-Affix6",
@@ -46671,7 +47067,36 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "red-mag",
+            "label": {
+              "en": "Magic Damage Reduced by 5-10",
+              "zh-TW": "魔法傷害降低 5-10",
+              "zh-CN": "魔法伤害降低 5-10"
+            },
+            "min": 5,
+            "max": 10,
+            "variable": true
+          },
+          {
+            "code": "red-dmg",
+            "label": {
+              "en": "Damage Reduced by 5-10",
+              "zh-TW": "傷害降低 5-10",
+              "zh-CN": "伤害降低 5-10"
+            },
+            "min": 5,
+            "max": 10,
+            "variable": true
+          }
+        ]
       }
     ],
     "statPriority": [],
@@ -46742,7 +47167,36 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "extra-ltng",
+            "label": {
+              "en": "+5-15% to Lightning Skill Damage",
+              "zh-TW": "+5-15% 閃電技能傷害",
+              "zh-CN": "+5-15% 闪电技能伤害"
+            },
+            "min": 5,
+            "max": 15,
+            "variable": true
+          },
+          {
+            "code": "pierce-ltng",
+            "label": {
+              "en": "-5-10% to Enemy Lightning Resistance",
+              "zh-TW": "敵人電擊抗性 -5-10%",
+              "zh-CN": "-5-10% 敌人的闪电抗性"
+            },
+            "min": 5,
+            "max": 10,
+            "variable": true
+          }
+        ]
       },
       {
         "code": "Magnetic-Affix2",
@@ -46753,7 +47207,36 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "mag%",
+            "label": {
+              "en": "14-25% Better Chance of Getting Magic Items",
+              "zh-TW": "尋獲魔法物品機率提高 14-25%",
+              "zh-CN": "14-25% 额外几率获得魔法物品"
+            },
+            "min": 14,
+            "max": 25,
+            "variable": true
+          },
+          {
+            "code": "gold%",
+            "label": {
+              "en": "20-55% Extra Gold from Monsters",
+              "zh-TW": "怪物金幣掉落量提高 20-55%",
+              "zh-CN": "20-55% 怪物额外掉落金币"
+            },
+            "min": 20,
+            "max": 55,
+            "variable": true
+          }
+        ]
       },
       {
         "code": "Magnetic-Affix3",
@@ -46764,7 +47247,36 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "hp",
+            "label": {
+              "en": "+10-65 to Life",
+              "zh-TW": "+10-65 生命",
+              "zh-CN": "+10-65 生命"
+            },
+            "min": 10,
+            "max": 65,
+            "variable": true
+          },
+          {
+            "code": "mana",
+            "label": {
+              "en": "+10-75 to Mana",
+              "zh-TW": "+10-75 法力",
+              "zh-CN": "+10-75 法力"
+            },
+            "min": 10,
+            "max": 75,
+            "variable": true
+          }
+        ]
       },
       {
         "code": "Magnetic-Affix4",
@@ -46775,7 +47287,47 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "move1",
+            "label": {
+              "en": "+5-10% Faster Run/Walk",
+              "zh-TW": "+5-10% 跑步 / 行走速度",
+              "zh-CN": "+5-10% 更快速跑步/步行"
+            },
+            "min": 5,
+            "max": 10,
+            "variable": true
+          },
+          {
+            "code": "balance1",
+            "label": {
+              "en": "+12-24% Faster Hit Recovery",
+              "zh-TW": "+12-24% 打擊恢復",
+              "zh-CN": "+12-24% 更快速打击回复"
+            },
+            "min": 12,
+            "max": 24,
+            "variable": true
+          },
+          {
+            "code": "all-stats",
+            "label": {
+              "en": "+3-8 to all Attributes",
+              "zh-TW": "+3-8 所有屬性",
+              "zh-CN": "+3-8 所有属性"
+            },
+            "min": 3,
+            "max": 8,
+            "variable": true
+          }
+        ]
       },
       {
         "code": "Magnetic-Affix6",
@@ -46786,7 +47338,36 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "red-mag",
+            "label": {
+              "en": "Magic Damage Reduced by 5-10",
+              "zh-TW": "魔法傷害降低 5-10",
+              "zh-CN": "魔法伤害降低 5-10"
+            },
+            "min": 5,
+            "max": 10,
+            "variable": true
+          },
+          {
+            "code": "red-dmg",
+            "label": {
+              "en": "Damage Reduced by 5-10",
+              "zh-TW": "傷害降低 5-10",
+              "zh-CN": "伤害降低 5-10"
+            },
+            "min": 5,
+            "max": 10,
+            "variable": true
+          }
+        ]
       }
     ],
     "statPriority": [],
@@ -46857,7 +47438,36 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "extra-pois",
+            "label": {
+              "en": "+5-15% to Poison Skill Damage",
+              "zh-TW": "+5-15% 毒素技能傷害",
+              "zh-CN": "+5-15% 毒素技能伤害"
+            },
+            "min": 5,
+            "max": 15,
+            "variable": true
+          },
+          {
+            "code": "pierce-pois",
+            "label": {
+              "en": "-5-10% to Enemy Poison Resistance",
+              "zh-TW": "敵人毒素抗性 -5-10%",
+              "zh-CN": "-5-10% 敌人的毒素抗性"
+            },
+            "min": 5,
+            "max": 10,
+            "variable": true
+          }
+        ]
       },
       {
         "code": "Virulent-Affix2",
@@ -46868,7 +47478,36 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "mag%",
+            "label": {
+              "en": "14-25% Better Chance of Getting Magic Items",
+              "zh-TW": "尋獲魔法物品機率提高 14-25%",
+              "zh-CN": "14-25% 额外几率获得魔法物品"
+            },
+            "min": 14,
+            "max": 25,
+            "variable": true
+          },
+          {
+            "code": "gold%",
+            "label": {
+              "en": "20-55% Extra Gold from Monsters",
+              "zh-TW": "怪物金幣掉落量提高 20-55%",
+              "zh-CN": "20-55% 怪物额外掉落金币"
+            },
+            "min": 20,
+            "max": 55,
+            "variable": true
+          }
+        ]
       },
       {
         "code": "Virulent-Affix3",
@@ -46879,7 +47518,36 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "hp",
+            "label": {
+              "en": "+10-65 to Life",
+              "zh-TW": "+10-65 生命",
+              "zh-CN": "+10-65 生命"
+            },
+            "min": 10,
+            "max": 65,
+            "variable": true
+          },
+          {
+            "code": "mana",
+            "label": {
+              "en": "+10-75 to Mana",
+              "zh-TW": "+10-75 法力",
+              "zh-CN": "+10-75 法力"
+            },
+            "min": 10,
+            "max": 75,
+            "variable": true
+          }
+        ]
       },
       {
         "code": "Virulent-Affix4",
@@ -46890,7 +47558,47 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "move1",
+            "label": {
+              "en": "+5-10% Faster Run/Walk",
+              "zh-TW": "+5-10% 跑步 / 行走速度",
+              "zh-CN": "+5-10% 更快速跑步/步行"
+            },
+            "min": 5,
+            "max": 10,
+            "variable": true
+          },
+          {
+            "code": "balance1",
+            "label": {
+              "en": "+12-24% Faster Hit Recovery",
+              "zh-TW": "+12-24% 打擊恢復",
+              "zh-CN": "+12-24% 更快速打击回复"
+            },
+            "min": 12,
+            "max": 24,
+            "variable": true
+          },
+          {
+            "code": "all-stats",
+            "label": {
+              "en": "+3-8 to all Attributes",
+              "zh-TW": "+3-8 所有屬性",
+              "zh-CN": "+3-8 所有属性"
+            },
+            "min": 3,
+            "max": 8,
+            "variable": true
+          }
+        ]
       },
       {
         "code": "Virulent-Affix6",
@@ -46901,7 +47609,36 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "red-mag",
+            "label": {
+              "en": "Magic Damage Reduced by 5-10",
+              "zh-TW": "魔法傷害降低 5-10",
+              "zh-CN": "魔法伤害降低 5-10"
+            },
+            "min": 5,
+            "max": 10,
+            "variable": true
+          },
+          {
+            "code": "red-dmg",
+            "label": {
+              "en": "Damage Reduced by 5-10",
+              "zh-TW": "傷害降低 5-10",
+              "zh-CN": "伤害降低 5-10"
+            },
+            "min": 5,
+            "max": 10,
+            "variable": true
+          }
+        ]
       }
     ],
     "statPriority": [],
@@ -46972,7 +47709,36 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "dmg%",
+            "label": {
+              "en": "+75-100% Enhanced Damage",
+              "zh-TW": "+75-100% 傷害強化",
+              "zh-CN": "+75-100% 强化伤害"
+            },
+            "min": 75,
+            "max": 100,
+            "variable": true
+          },
+          {
+            "code": "pierce-dmg",
+            "label": {
+              "en": "-5-10% to Enemy Physical Damage Resistance",
+              "zh-TW": "敵人物理傷害抗性 -5-10%",
+              "zh-CN": "-5-10% 敌人的物理伤害抗性"
+            },
+            "min": 5,
+            "max": 10,
+            "variable": true
+          }
+        ]
       },
       {
         "code": "Breaching-Affix2",
@@ -46983,7 +47749,36 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "mag%",
+            "label": {
+              "en": "14-25% Better Chance of Getting Magic Items",
+              "zh-TW": "尋獲魔法物品機率提高 14-25%",
+              "zh-CN": "14-25% 额外几率获得魔法物品"
+            },
+            "min": 14,
+            "max": 25,
+            "variable": true
+          },
+          {
+            "code": "gold%",
+            "label": {
+              "en": "20-55% Extra Gold from Monsters",
+              "zh-TW": "怪物金幣掉落量提高 20-55%",
+              "zh-CN": "20-55% 怪物额外掉落金币"
+            },
+            "min": 20,
+            "max": 55,
+            "variable": true
+          }
+        ]
       },
       {
         "code": "Breaching-Affix3",
@@ -46994,7 +47789,36 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "hp",
+            "label": {
+              "en": "+10-65 to Life",
+              "zh-TW": "+10-65 生命",
+              "zh-CN": "+10-65 生命"
+            },
+            "min": 10,
+            "max": 65,
+            "variable": true
+          },
+          {
+            "code": "mana",
+            "label": {
+              "en": "+10-75 to Mana",
+              "zh-TW": "+10-75 法力",
+              "zh-CN": "+10-75 法力"
+            },
+            "min": 10,
+            "max": 75,
+            "variable": true
+          }
+        ]
       },
       {
         "code": "Breaching-Affix4",
@@ -47005,7 +47829,47 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "move1",
+            "label": {
+              "en": "+5-10% Faster Run/Walk",
+              "zh-TW": "+5-10% 跑步 / 行走速度",
+              "zh-CN": "+5-10% 更快速跑步/步行"
+            },
+            "min": 5,
+            "max": 10,
+            "variable": true
+          },
+          {
+            "code": "balance1",
+            "label": {
+              "en": "+12-24% Faster Hit Recovery",
+              "zh-TW": "+12-24% 打擊恢復",
+              "zh-CN": "+12-24% 更快速打击回复"
+            },
+            "min": 12,
+            "max": 24,
+            "variable": true
+          },
+          {
+            "code": "all-stats",
+            "label": {
+              "en": "+3-8 to all Attributes",
+              "zh-TW": "+3-8 所有屬性",
+              "zh-CN": "+3-8 所有属性"
+            },
+            "min": 3,
+            "max": 8,
+            "variable": true
+          }
+        ]
       },
       {
         "code": "Breaching-Affix6",
@@ -47016,7 +47880,36 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "red-mag",
+            "label": {
+              "en": "Magic Damage Reduced by 5-10",
+              "zh-TW": "魔法傷害降低 5-10",
+              "zh-CN": "魔法伤害降低 5-10"
+            },
+            "min": 5,
+            "max": 10,
+            "variable": true
+          },
+          {
+            "code": "red-dmg",
+            "label": {
+              "en": "Damage Reduced by 5-10",
+              "zh-TW": "傷害降低 5-10",
+              "zh-CN": "伤害降低 5-10"
+            },
+            "min": 5,
+            "max": 10,
+            "variable": true
+          }
+        ]
       }
     ],
     "statPriority": [],
@@ -47087,7 +47980,36 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "extra-mag",
+            "label": {
+              "en": "+10-15% to Magic Skill Damage",
+              "zh-TW": "+10-15% 魔法技能傷害",
+              "zh-CN": "+10-15% 魔法技能伤害"
+            },
+            "min": 10,
+            "max": 15,
+            "variable": true
+          },
+          {
+            "code": "pierce-mag",
+            "label": {
+              "en": "-5-10% to Enemy Magic Resistance",
+              "zh-TW": "敵人魔法抗性 -5-10%",
+              "zh-CN": "-5-10% 敌人的魔法抗性"
+            },
+            "min": 5,
+            "max": 10,
+            "variable": true
+          }
+        ]
       },
       {
         "code": "Mystical-Affix2",
@@ -47098,7 +48020,36 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "mag%",
+            "label": {
+              "en": "14-25% Better Chance of Getting Magic Items",
+              "zh-TW": "尋獲魔法物品機率提高 14-25%",
+              "zh-CN": "14-25% 额外几率获得魔法物品"
+            },
+            "min": 14,
+            "max": 25,
+            "variable": true
+          },
+          {
+            "code": "gold%",
+            "label": {
+              "en": "20-55% Extra Gold from Monsters",
+              "zh-TW": "怪物金幣掉落量提高 20-55%",
+              "zh-CN": "20-55% 怪物额外掉落金币"
+            },
+            "min": 20,
+            "max": 55,
+            "variable": true
+          }
+        ]
       },
       {
         "code": "Mystical-Affix3",
@@ -47109,7 +48060,36 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "hp",
+            "label": {
+              "en": "+10-65 to Life",
+              "zh-TW": "+10-65 生命",
+              "zh-CN": "+10-65 生命"
+            },
+            "min": 10,
+            "max": 65,
+            "variable": true
+          },
+          {
+            "code": "mana",
+            "label": {
+              "en": "+10-75 to Mana",
+              "zh-TW": "+10-75 法力",
+              "zh-CN": "+10-75 法力"
+            },
+            "min": 10,
+            "max": 75,
+            "variable": true
+          }
+        ]
       },
       {
         "code": "Mystical-Affix4",
@@ -47120,7 +48100,47 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "move1",
+            "label": {
+              "en": "+5-10% Faster Run/Walk",
+              "zh-TW": "+5-10% 跑步 / 行走速度",
+              "zh-CN": "+5-10% 更快速跑步/步行"
+            },
+            "min": 5,
+            "max": 10,
+            "variable": true
+          },
+          {
+            "code": "balance1",
+            "label": {
+              "en": "+12-24% Faster Hit Recovery",
+              "zh-TW": "+12-24% 打擊恢復",
+              "zh-CN": "+12-24% 更快速打击回复"
+            },
+            "min": 12,
+            "max": 24,
+            "variable": true
+          },
+          {
+            "code": "all-stats",
+            "label": {
+              "en": "+3-8 to all Attributes",
+              "zh-TW": "+3-8 所有屬性",
+              "zh-CN": "+3-8 所有属性"
+            },
+            "min": 3,
+            "max": 8,
+            "variable": true
+          }
+        ]
       },
       {
         "code": "Mystical-Affix6",
@@ -47131,7 +48151,36 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
+        "variable": false,
+        "groupHeader": {
+          "en": "1 of the following:",
+          "zh-TW": "下列的1：",
+          "zh-CN": "以下属性中的1: "
+        },
+        "groupChoices": [
+          {
+            "code": "red-mag",
+            "label": {
+              "en": "Magic Damage Reduced by 5-10",
+              "zh-TW": "魔法傷害降低 5-10",
+              "zh-CN": "魔法伤害降低 5-10"
+            },
+            "min": 5,
+            "max": 10,
+            "variable": true
+          },
+          {
+            "code": "red-dmg",
+            "label": {
+              "en": "Damage Reduced by 5-10",
+              "zh-TW": "傷害降低 5-10",
+              "zh-CN": "伤害降低 5-10"
+            },
+            "min": 5,
+            "max": 10,
+            "variable": true
+          }
+        ]
       }
     ],
     "statPriority": [],
