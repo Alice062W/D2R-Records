@@ -52,12 +52,14 @@ describe('CraftedItemList', () => {
       family: 'hitPower' as const,
       magicItemInput: { en: 'Magic Full Helm', 'zh-TW': 'x', 'zh-CN': 'x' },
       magicItemInputIcon: 'invfhl',
+      magicItemInputHdIcon: '',
       additionalInputs: [
         { en: 'Jewel', 'zh-TW': 'x', 'zh-CN': 'x' },
         { en: 'Ith Rune', 'zh-TW': 'x', 'zh-CN': 'x' },
         { en: 'Perfect Sapphire', 'zh-TW': 'x', 'zh-CN': 'x' },
       ],
       additionalInputIcons: ['invgswe', 'invrIth', 'invgsbe'],
+      additionalInputHdIcons: ['', '', ''],
       fixedProperties: [],
       variableProperties: [],
     };
@@ -71,5 +73,29 @@ describe('CraftedItemList', () => {
     expect(srcs.some(s => s.includes('invgswe'))).toBe(true);
     expect(srcs.some(s => s.includes('invrIth'))).toBe(true);
     expect(srcs.some(s => s.includes('invgsbe'))).toBe(true);
+  });
+
+  it('prefers the HD icon over the classic inv icon when both are present', () => {
+    const item = {
+      id: 'craft-64',
+      name: { en: 'Hit Power Helm', 'zh-TW': 'x', 'zh-CN': 'x' },
+      family: 'hitPower' as const,
+      magicItemInput: { en: 'Magic Full Helm', 'zh-TW': 'x', 'zh-CN': 'x' },
+      magicItemInputIcon: 'invfhl',
+      magicItemInputHdIcon: 'full_helm',
+      additionalInputs: [],
+      additionalInputIcons: [],
+      additionalInputHdIcons: [],
+      fixedProperties: [],
+      variableProperties: [],
+    };
+    const { container } = render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <CraftedItemList items={[item]} locale="en" />
+      </NextIntlClientProvider>
+    );
+    const srcs = Array.from(container.querySelectorAll('img')).map(i => (i as HTMLImageElement).src);
+    expect(srcs.some(s => s.includes('/items/hd/full_helm.png'))).toBe(true);
+    expect(srcs.some(s => s.includes('invfhl'))).toBe(false);
   });
 });

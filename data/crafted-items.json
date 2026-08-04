@@ -73,6 +73,12 @@
         "isSkillRef": false,
         "signed": true
       }
+    ],
+    "magicItemInputHdIcon": "full_helm",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "ith_rune",
+      "perfect_saphire"
     ]
   },
   {
@@ -145,10 +151,16 @@
           "zh-CN": "近战防御"
         },
         "min": 25,
-        "max": 50,
+        "max": 60,
         "isSkillRef": false,
         "signed": true
       }
+    ],
+    "magicItemInputHdIcon": "chain_boots",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "ral_rune",
+      "perfect_saphire"
     ]
   },
   {
@@ -224,6 +236,12 @@
         "isSkillRef": false,
         "signed": false
       }
+    ],
+    "magicItemInputHdIcon": "bracers_m",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "ort_rune",
+      "perfect_saphire"
     ]
   },
   {
@@ -300,6 +318,12 @@
         "isSkillRef": false,
         "signed": false
       }
+    ],
+    "magicItemInputHdIcon": "heavy_belt",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "tal_rune",
+      "perfect_saphire"
     ]
   },
   {
@@ -376,6 +400,12 @@
         "isSkillRef": false,
         "signed": false
       }
+    ],
+    "magicItemInputHdIcon": "gothic_shield",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "eth_rune",
+      "perfect_saphire"
     ]
   },
   {
@@ -452,6 +482,12 @@
         "isSkillRef": false,
         "signed": true
       }
+    ],
+    "magicItemInputHdIcon": "field_plate",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "nef_rune",
+      "perfect_saphire"
     ]
   },
   {
@@ -528,6 +564,12 @@
         "isSkillRef": false,
         "signed": true
       }
+    ],
+    "magicItemInputHdIcon": "amulet",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "thul_rune",
+      "perfect_saphire"
     ]
   },
   {
@@ -604,6 +646,12 @@
         "isSkillRef": false,
         "signed": true
       }
+    ],
+    "magicItemInputHdIcon": "ring",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "amn_rune",
+      "perfect_saphire"
     ]
   },
   {
@@ -619,7 +667,7 @@
       "zh-TW": "魔法鈍器武器",
       "zh-CN": "魔法钝器武器"
     },
-    "magicItemInputIcon": null,
+    "magicItemInputIcon": "invclb",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -680,6 +728,12 @@
         "isSkillRef": false,
         "signed": true
       }
+    ],
+    "magicItemInputHdIcon": "club",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "tir_rune",
+      "perfect_saphire"
     ]
   },
   {
@@ -756,6 +810,12 @@
         "isSkillRef": false,
         "signed": true
       }
+    ],
+    "magicItemInputHdIcon": "helm",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "ral_rune",
+      "perfect_ruby"
     ]
   },
   {
@@ -832,6 +892,12 @@
         "isSkillRef": false,
         "signed": true
       }
+    ],
+    "magicItemInputHdIcon": "light_plate_boots",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "eth_rune",
+      "perfect_ruby"
     ]
   },
   {
@@ -908,6 +974,12 @@
         "isSkillRef": false,
         "signed": true
       }
+    ],
+    "magicItemInputHdIcon": "heavy_gloves",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "nef_rune",
+      "perfect_ruby"
     ]
   },
   {
@@ -984,6 +1056,12 @@
         "isSkillRef": false,
         "signed": true
       }
+    ],
+    "magicItemInputHdIcon": "belt_m",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "tal_rune",
+      "perfect_ruby"
     ]
   },
   {
@@ -1060,6 +1138,12 @@
         "isSkillRef": false,
         "signed": false
       }
+    ],
+    "magicItemInputHdIcon": "spiked_shield",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "ith_rune",
+      "perfect_ruby"
     ]
   },
   {
@@ -1136,6 +1220,12 @@
         "isSkillRef": false,
         "signed": true
       }
+    ],
+    "magicItemInputHdIcon": "plate_mail",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "thul_rune",
+      "perfect_ruby"
     ]
   },
   {
@@ -1212,6 +1302,12 @@
         "isSkillRef": false,
         "signed": true
       }
+    ],
+    "magicItemInputHdIcon": "amulet",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "amn_rune",
+      "perfect_ruby"
     ]
   },
   {
@@ -1288,6 +1384,12 @@
         "isSkillRef": false,
         "signed": true
       }
+    ],
+    "magicItemInputHdIcon": "ring",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "sol_rune",
+      "perfect_ruby"
     ]
   },
   {
@@ -1303,7 +1405,7 @@
       "zh-TW": "魔法斧頭",
       "zh-CN": "魔法斧头"
     },
-    "magicItemInputIcon": "invhax",
+    "magicItemInputIcon": "invaxe",
     "additionalInputs": [
       {
         "en": "Jewel",
@@ -1364,6 +1466,12 @@
         "isSkillRef": false,
         "signed": true
       }
+    ],
+    "magicItemInputHdIcon": "axe",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "ort_rune",
+      "perfect_ruby"
     ]
   },
   {
@@ -1440,6 +1548,12 @@
         "isSkillRef": false,
         "signed": false
       }
+    ],
+    "magicItemInputHdIcon": "mask",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "nef_rune",
+      "perfect_amethyst"
     ]
   },
   {
@@ -1516,6 +1630,12 @@
         "isSkillRef": false,
         "signed": false
       }
+    ],
+    "magicItemInputHdIcon": "leather_boots",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "thul_rune",
+      "perfect_amethyst"
     ]
   },
   {
@@ -1592,6 +1712,12 @@
         "isSkillRef": false,
         "signed": true
       }
+    ],
+    "magicItemInputHdIcon": "gloves_l",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "ort_rune",
+      "perfect_amethyst"
     ]
   },
   {
@@ -1668,6 +1794,12 @@
         "isSkillRef": false,
         "signed": true
       }
+    ],
+    "magicItemInputHdIcon": "light_belt",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "ith_rune",
+      "perfect_amethyst"
     ]
   },
   {
@@ -1744,6 +1876,12 @@
         "isSkillRef": false,
         "signed": false
       }
+    ],
+    "magicItemInputHdIcon": "small_shield",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "eth_rune",
+      "perfect_amethyst"
     ]
   },
   {
@@ -1820,6 +1958,12 @@
         "isSkillRef": false,
         "signed": true
       }
+    ],
+    "magicItemInputHdIcon": "light_plate",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "tal_rune",
+      "perfect_amethyst"
     ]
   },
   {
@@ -1896,6 +2040,12 @@
         "isSkillRef": false,
         "signed": true
       }
+    ],
+    "magicItemInputHdIcon": "amulet",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "ral_rune",
+      "perfect_amethyst"
     ]
   },
   {
@@ -1972,6 +2122,12 @@
         "isSkillRef": false,
         "signed": true
       }
+    ],
+    "magicItemInputHdIcon": "ring",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "amn_rune",
+      "perfect_amethyst"
     ]
   },
   {
@@ -2048,6 +2204,12 @@
         "isSkillRef": false,
         "signed": false
       }
+    ],
+    "magicItemInputHdIcon": "short_staff",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "tir_rune",
+      "perfect_amethyst"
     ]
   },
   {
@@ -2123,7 +2285,25 @@
         "max": 10,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "防禦強化 %",
+          "zh-CN": "强化防御 %"
+        },
+        "min": 10,
+        "max": 30,
+        "isSkillRef": false,
+        "signed": true
       }
+    ],
+    "magicItemInputHdIcon": "crown",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "ith_rune",
+      "perfect_emerald"
     ]
   },
   {
@@ -2199,7 +2379,25 @@
         "max": 10,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "防禦強化 %",
+          "zh-CN": "强化防御 %"
+        },
+        "min": 10,
+        "max": 30,
+        "isSkillRef": false,
+        "signed": true
       }
+    ],
+    "magicItemInputHdIcon": "plate_boots",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "ort_rune",
+      "perfect_emerald"
     ]
   },
   {
@@ -2275,7 +2473,25 @@
         "max": 10,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "防禦強化 %",
+          "zh-CN": "强化防御 %"
+        },
+        "min": 10,
+        "max": 30,
+        "isSkillRef": false,
+        "signed": true
       }
+    ],
+    "magicItemInputHdIcon": "gaunlets_h",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "ral_rune",
+      "perfect_emerald"
     ]
   },
   {
@@ -2351,7 +2567,25 @@
         "max": 10,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "防禦強化 %",
+          "zh-CN": "强化防御 %"
+        },
+        "min": 10,
+        "max": 30,
+        "isSkillRef": false,
+        "signed": true
       }
+    ],
+    "magicItemInputHdIcon": "sash_l",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "tal_rune",
+      "perfect_emerald"
     ]
   },
   {
@@ -2427,7 +2661,25 @@
         "max": 10,
         "isSkillRef": false,
         "signed": true
+      },
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "防禦強化 %",
+          "zh-CN": "强化防御 %"
+        },
+        "min": 10,
+        "max": 30,
+        "isSkillRef": false,
+        "signed": true
       }
+    ],
+    "magicItemInputHdIcon": "kite_shield",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "nef_rune",
+      "perfect_emerald"
     ]
   },
   {
@@ -2503,7 +2755,25 @@
         "max": 2,
         "isSkillRef": false,
         "signed": false
+      },
+      {
+        "key": "ac%",
+        "label": {
+          "en": "Enhanced Defense %",
+          "zh-TW": "防禦強化 %",
+          "zh-CN": "强化防御 %"
+        },
+        "min": 10,
+        "max": 30,
+        "isSkillRef": false,
+        "signed": true
       }
+    ],
+    "magicItemInputHdIcon": "breast_plate",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "eth_rune",
+      "perfect_emerald"
     ]
   },
   {
@@ -2580,6 +2850,12 @@
         "isSkillRef": false,
         "signed": false
       }
+    ],
+    "magicItemInputHdIcon": "amulet",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "thul_rune",
+      "perfect_emerald"
     ]
   },
   {
@@ -2656,6 +2932,12 @@
         "isSkillRef": false,
         "signed": true
       }
+    ],
+    "magicItemInputHdIcon": "ring",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "amn_rune",
+      "perfect_emerald"
     ]
   },
   {
@@ -2732,6 +3014,12 @@
         "isSkillRef": false,
         "signed": true
       }
+    ],
+    "magicItemInputHdIcon": "spear",
+    "additionalInputHdIcons": [
+      "perfect_diamond",
+      "sol_rune",
+      "perfect_emerald"
     ]
   }
 ]
