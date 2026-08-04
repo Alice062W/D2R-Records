@@ -16,8 +16,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Ith Rune",
@@ -76,9 +76,38 @@
     ],
     "magicItemInputHdIcon": "full_helm",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "ith_rune",
       "perfect_saphire"
+    ],
+    "magicItemInputVariants": [
+      {
+        "name": {
+          "en": "Full Helm",
+          "zh-TW": "全罩盔",
+          "zh-CN": "全护盔"
+        },
+        "invFile": "invfhl",
+        "hdIcon": "full_helm"
+      },
+      {
+        "name": {
+          "en": "Basinet",
+          "zh-TW": "輕盔",
+          "zh-CN": "喙面盔"
+        },
+        "invFile": "invfhl",
+        "hdIcon": "full_helm"
+      },
+      {
+        "name": {
+          "en": "Giant Conch",
+          "zh-TW": "巨螺盔",
+          "zh-CN": "巨贝盔"
+        },
+        "invFile": "invfhl",
+        "hdIcon": "full_helm"
+      }
     ]
   },
   {
@@ -98,8 +127,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Ral Rune",
@@ -158,9 +187,38 @@
     ],
     "magicItemInputHdIcon": "chain_boots",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "ral_rune",
       "perfect_saphire"
+    ],
+    "magicItemInputVariants": [
+      {
+        "name": {
+          "en": "Chain Boots",
+          "zh-TW": "鎖鍊靴",
+          "zh-CN": "锁链靴"
+        },
+        "invFile": "invmbt",
+        "hdIcon": "chain_boots"
+      },
+      {
+        "name": {
+          "en": "Mesh Boots",
+          "zh-TW": "鐵網靴",
+          "zh-CN": "网纹靴"
+        },
+        "invFile": "invmbt",
+        "hdIcon": "chain_boots"
+      },
+      {
+        "name": {
+          "en": "Boneweave Boots",
+          "zh-TW": "骸骨網靴",
+          "zh-CN": "白骨链靴"
+        },
+        "invFile": "invmbt",
+        "hdIcon": "chain_boots"
+      }
     ]
   },
   {
@@ -180,8 +238,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Ort Rune",
@@ -239,9 +297,38 @@
     ],
     "magicItemInputHdIcon": "bracers_m",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "ort_rune",
       "perfect_saphire"
+    ],
+    "magicItemInputVariants": [
+      {
+        "name": {
+          "en": "Chain Gloves",
+          "zh-TW": "鍊甲手套",
+          "zh-CN": "链甲手套"
+        },
+        "invFile": "invmgl",
+        "hdIcon": "bracers_m"
+      },
+      {
+        "name": {
+          "en": "Heavy Bracers",
+          "zh-TW": "重型護腕",
+          "zh-CN": "铁皮手套"
+        },
+        "invFile": "invmgl",
+        "hdIcon": "bracers_m"
+      },
+      {
+        "name": {
+          "en": "Vambraces",
+          "zh-TW": "護臂",
+          "zh-CN": "护臂手甲"
+        },
+        "invFile": "invmgl",
+        "hdIcon": "bracers_m"
+      }
     ]
   },
   {
@@ -261,8 +348,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Tal Rune",
@@ -321,9 +408,38 @@
     ],
     "magicItemInputHdIcon": "heavy_belt",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "tal_rune",
       "perfect_saphire"
+    ],
+    "magicItemInputVariants": [
+      {
+        "name": {
+          "en": "Heavy Belt",
+          "zh-TW": "厚腰帶",
+          "zh-CN": "重腰带"
+        },
+        "invFile": "invtbl",
+        "hdIcon": "heavy_belt"
+      },
+      {
+        "name": {
+          "en": "Battle Belt",
+          "zh-TW": "戰鬥腰帶",
+          "zh-CN": "战斗腰带"
+        },
+        "invFile": "invtbl",
+        "hdIcon": "heavy_belt"
+      },
+      {
+        "name": {
+          "en": "Troll Belt",
+          "zh-TW": "食人妖腰帶",
+          "zh-CN": "巨魔腰带"
+        },
+        "invFile": "invtbl",
+        "hdIcon": "heavy_belt"
+      }
     ]
   },
   {
@@ -343,8 +459,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Eth Rune",
@@ -403,9 +519,38 @@
     ],
     "magicItemInputHdIcon": "gothic_shield",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "eth_rune",
       "perfect_saphire"
+    ],
+    "magicItemInputVariants": [
+      {
+        "name": {
+          "en": "Gothic Shield",
+          "zh-TW": "哥德盾",
+          "zh-CN": "哥特盾"
+        },
+        "invFile": "invgts",
+        "hdIcon": "gothic_shield"
+      },
+      {
+        "name": {
+          "en": "Ancient Shield",
+          "zh-TW": "上古盾",
+          "zh-CN": "古代盾"
+        },
+        "invFile": "invgts",
+        "hdIcon": "gothic_shield"
+      },
+      {
+        "name": {
+          "en": "Ward",
+          "zh-TW": "庇護盾",
+          "zh-CN": "守护之盾"
+        },
+        "invFile": "invgts",
+        "hdIcon": "gothic_shield"
+      }
     ]
   },
   {
@@ -425,8 +570,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Nef Rune",
@@ -485,9 +630,38 @@
     ],
     "magicItemInputHdIcon": "field_plate",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "nef_rune",
       "perfect_saphire"
+    ],
+    "magicItemInputVariants": [
+      {
+        "name": {
+          "en": "Field Plate",
+          "zh-TW": "野戰鎧甲",
+          "zh-CN": "全身板甲"
+        },
+        "invFile": "invfld",
+        "hdIcon": "field_plate"
+      },
+      {
+        "name": {
+          "en": "Sharktooth Armor",
+          "zh-TW": "鯊齒戰甲",
+          "zh-CN": "鲨齿战甲"
+        },
+        "invFile": "invfld",
+        "hdIcon": "field_plate"
+      },
+      {
+        "name": {
+          "en": "Kraken Shell",
+          "zh-TW": "海怪之殼",
+          "zh-CN": "深海巨妖之壳"
+        },
+        "invFile": "invfld",
+        "hdIcon": "field_plate"
+      }
     ]
   },
   {
@@ -507,8 +681,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Thul Rune",
@@ -567,10 +741,11 @@
     ],
     "magicItemInputHdIcon": "amulet",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "thul_rune",
       "perfect_saphire"
-    ]
+    ],
+    "magicItemInputVariants": null
   },
   {
     "id": "craft-71",
@@ -589,8 +764,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Amn Rune",
@@ -649,10 +824,11 @@
     ],
     "magicItemInputHdIcon": "ring",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "amn_rune",
       "perfect_saphire"
-    ]
+    ],
+    "magicItemInputVariants": null
   },
   {
     "id": "craft-72",
@@ -671,8 +847,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Tir Rune",
@@ -731,9 +907,65 @@
     ],
     "magicItemInputHdIcon": "club",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "tir_rune",
       "perfect_saphire"
+    ],
+    "magicItemInputVariants": [
+      {
+        "name": {
+          "en": "Club",
+          "zh-TW": "短棒",
+          "zh-CN": "木棒"
+        },
+        "invFile": "invclb",
+        "hdIcon": "club"
+      },
+      {
+        "name": {
+          "en": "Mace",
+          "zh-TW": "釘鎚",
+          "zh-CN": "钉锤"
+        },
+        "invFile": "invmac",
+        "hdIcon": "mace"
+      },
+      {
+        "name": {
+          "en": "Maul",
+          "zh-TW": "重鎚",
+          "zh-CN": "大锤"
+        },
+        "invFile": "invmau",
+        "hdIcon": "maul"
+      },
+      {
+        "name": {
+          "en": "Scepter",
+          "zh-TW": "權杖",
+          "zh-CN": "权杖"
+        },
+        "invFile": "invscp",
+        "hdIcon": "scepter"
+      },
+      {
+        "name": {
+          "en": "Short Staff",
+          "zh-TW": "短杖",
+          "zh-CN": "短杖"
+        },
+        "invFile": "invsst",
+        "hdIcon": "short_staff"
+      },
+      {
+        "name": {
+          "en": "Wand",
+          "zh-TW": "魔杖",
+          "zh-CN": "魔杖"
+        },
+        "invFile": "invwnd",
+        "hdIcon": "wand"
+      }
     ]
   },
   {
@@ -753,8 +985,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Ral Rune",
@@ -813,9 +1045,38 @@
     ],
     "magicItemInputHdIcon": "helm",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "ral_rune",
       "perfect_ruby"
+    ],
+    "magicItemInputVariants": [
+      {
+        "name": {
+          "en": "Helm",
+          "zh-TW": "頭盔",
+          "zh-CN": "头盔"
+        },
+        "invFile": "invhlm",
+        "hdIcon": "helm"
+      },
+      {
+        "name": {
+          "en": "Casque",
+          "zh-TW": "兜盔",
+          "zh-CN": "护鼻盔"
+        },
+        "invFile": "invhlm",
+        "hdIcon": "helm"
+      },
+      {
+        "name": {
+          "en": "Armet",
+          "zh-TW": "覆頰盔",
+          "zh-CN": "武装盔"
+        },
+        "invFile": "invhlm",
+        "hdIcon": "helm"
+      }
     ]
   },
   {
@@ -835,8 +1096,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Eth Rune",
@@ -895,9 +1156,38 @@
     ],
     "magicItemInputHdIcon": "light_plate_boots",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "eth_rune",
       "perfect_ruby"
+    ],
+    "magicItemInputVariants": [
+      {
+        "name": {
+          "en": "Light Plated Boots",
+          "zh-TW": "輕鎧靴",
+          "zh-CN": "轻板甲靴"
+        },
+        "invFile": "invtbt",
+        "hdIcon": "light_plate_boots"
+      },
+      {
+        "name": {
+          "en": "Battle Boots",
+          "zh-TW": "戰鬥靴",
+          "zh-CN": "战靴"
+        },
+        "invFile": "invtbt",
+        "hdIcon": "light_plate_boots"
+      },
+      {
+        "name": {
+          "en": "Mirrored Boots",
+          "zh-TW": "幻鏡戰靴",
+          "zh-CN": "镜化靴"
+        },
+        "invFile": "invtbt",
+        "hdIcon": "light_plate_boots"
+      }
     ]
   },
   {
@@ -917,8 +1207,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Nef Rune",
@@ -977,9 +1267,38 @@
     ],
     "magicItemInputHdIcon": "heavy_gloves",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "nef_rune",
       "perfect_ruby"
+    ],
+    "magicItemInputVariants": [
+      {
+        "name": {
+          "en": "Heavy Gloves",
+          "zh-TW": "厚皮手套",
+          "zh-CN": "重手套"
+        },
+        "invFile": "invvgl",
+        "hdIcon": "heavy_gloves"
+      },
+      {
+        "name": {
+          "en": "Sharkskin Gloves",
+          "zh-TW": "鯊皮手套",
+          "zh-CN": "鲨鱼皮手套"
+        },
+        "invFile": "invvgl",
+        "hdIcon": "heavy_gloves"
+      },
+      {
+        "name": {
+          "en": "Vampirebone Gloves",
+          "zh-TW": "吸血鬼骸骨手套",
+          "zh-CN": "吸能鬼骨手套"
+        },
+        "invFile": "invvgl",
+        "hdIcon": "heavy_gloves"
+      }
     ]
   },
   {
@@ -999,8 +1318,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Tal Rune",
@@ -1059,9 +1378,38 @@
     ],
     "magicItemInputHdIcon": "belt_m",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "tal_rune",
       "perfect_ruby"
+    ],
+    "magicItemInputVariants": [
+      {
+        "name": {
+          "en": "Belt",
+          "zh-TW": "腰帶",
+          "zh-CN": "腰带"
+        },
+        "invFile": "invmbl",
+        "hdIcon": "belt_m"
+      },
+      {
+        "name": {
+          "en": "Mesh Belt",
+          "zh-TW": "鐵網腰帶",
+          "zh-CN": "网纹腰带"
+        },
+        "invFile": "invmbl",
+        "hdIcon": "belt_m"
+      },
+      {
+        "name": {
+          "en": "Mithril Coil",
+          "zh-TW": "秘銀腰帶",
+          "zh-CN": "秘银腰带"
+        },
+        "invFile": "invmbl",
+        "hdIcon": "belt_m"
+      }
     ]
   },
   {
@@ -1081,8 +1429,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Ith Rune",
@@ -1141,9 +1489,38 @@
     ],
     "magicItemInputHdIcon": "spiked_shield",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "ith_rune",
       "perfect_ruby"
+    ],
+    "magicItemInputVariants": [
+      {
+        "name": {
+          "en": "Spiked Shield",
+          "zh-TW": "尖刺盾",
+          "zh-CN": "尖刺盾"
+        },
+        "invFile": "invspk",
+        "hdIcon": "spiked_shield"
+      },
+      {
+        "name": {
+          "en": "Barbed Shield",
+          "zh-TW": "倒刺盾",
+          "zh-CN": "尖刃盾"
+        },
+        "invFile": "invspk",
+        "hdIcon": "spiked_shield"
+      },
+      {
+        "name": {
+          "en": "Blade Barrier",
+          "zh-TW": "刀刃刺盾",
+          "zh-CN": "剑刃屏障"
+        },
+        "invFile": "invspk",
+        "hdIcon": "spiked_shield"
+      }
     ]
   },
   {
@@ -1163,8 +1540,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Thul Rune",
@@ -1223,9 +1600,38 @@
     ],
     "magicItemInputHdIcon": "plate_mail",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "thul_rune",
       "perfect_ruby"
+    ],
+    "magicItemInputVariants": [
+      {
+        "name": {
+          "en": "Plate Mail",
+          "zh-TW": "鎧甲",
+          "zh-CN": "板链甲"
+        },
+        "invFile": "invplt",
+        "hdIcon": "plate_mail"
+      },
+      {
+        "name": {
+          "en": "Templar Coat",
+          "zh-TW": "聖堂騎士戰甲",
+          "zh-CN": "圣殿骑士铠"
+        },
+        "invFile": "invplt",
+        "hdIcon": "plate_mail"
+      },
+      {
+        "name": {
+          "en": "Hellforge Plate",
+          "zh-TW": "地獄鍛甲",
+          "zh-CN": "地狱铸甲"
+        },
+        "invFile": "invplt",
+        "hdIcon": "plate_mail"
+      }
     ]
   },
   {
@@ -1245,8 +1651,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Amn Rune",
@@ -1305,10 +1711,11 @@
     ],
     "magicItemInputHdIcon": "amulet",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "amn_rune",
       "perfect_ruby"
-    ]
+    ],
+    "magicItemInputVariants": null
   },
   {
     "id": "craft-80",
@@ -1327,8 +1734,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Sol Rune",
@@ -1387,10 +1794,11 @@
     ],
     "magicItemInputHdIcon": "ring",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "sol_rune",
       "perfect_ruby"
-    ]
+    ],
+    "magicItemInputVariants": null
   },
   {
     "id": "craft-81",
@@ -1409,8 +1817,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Ort Rune",
@@ -1469,10 +1877,11 @@
     ],
     "magicItemInputHdIcon": "axe",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "ort_rune",
       "perfect_ruby"
-    ]
+    ],
+    "magicItemInputVariants": null
   },
   {
     "id": "craft-82",
@@ -1491,8 +1900,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Nef Rune",
@@ -1551,9 +1960,38 @@
     ],
     "magicItemInputHdIcon": "mask",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "nef_rune",
       "perfect_amethyst"
+    ],
+    "magicItemInputVariants": [
+      {
+        "name": {
+          "en": "Mask",
+          "zh-TW": "面具",
+          "zh-CN": "覆面甲"
+        },
+        "invFile": "invmsk",
+        "hdIcon": "mask"
+      },
+      {
+        "name": {
+          "en": "Death Mask",
+          "zh-TW": "死亡面具",
+          "zh-CN": "死者面甲"
+        },
+        "invFile": "invmsk",
+        "hdIcon": "mask"
+      },
+      {
+        "name": {
+          "en": "Demonhead",
+          "zh-TW": "惡魔頭骨",
+          "zh-CN": "恶魔面甲"
+        },
+        "invFile": "invmsk",
+        "hdIcon": "mask"
+      }
     ]
   },
   {
@@ -1573,8 +2011,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Thul Rune",
@@ -1633,9 +2071,38 @@
     ],
     "magicItemInputHdIcon": "leather_boots",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "thul_rune",
       "perfect_amethyst"
+    ],
+    "magicItemInputVariants": [
+      {
+        "name": {
+          "en": "Boots",
+          "zh-TW": "皮靴",
+          "zh-CN": "短靴"
+        },
+        "invFile": "invlbt",
+        "hdIcon": "leather_boots"
+      },
+      {
+        "name": {
+          "en": "Demonhide Boots",
+          "zh-TW": "魔皮長靴",
+          "zh-CN": "恶魔皮靴"
+        },
+        "invFile": "invlbt",
+        "hdIcon": "leather_boots"
+      },
+      {
+        "name": {
+          "en": "Wyrmhide Boots",
+          "zh-TW": "龍皮靴",
+          "zh-CN": "飞龙皮靴"
+        },
+        "invFile": "invlbt",
+        "hdIcon": "leather_boots"
+      }
     ]
   },
   {
@@ -1655,8 +2122,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Ort Rune",
@@ -1715,9 +2182,38 @@
     ],
     "magicItemInputHdIcon": "gloves_l",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "ort_rune",
       "perfect_amethyst"
+    ],
+    "magicItemInputVariants": [
+      {
+        "name": {
+          "en": "Leather Gloves",
+          "zh-TW": "皮革手套",
+          "zh-CN": "皮手套"
+        },
+        "invFile": "invlgl",
+        "hdIcon": "gloves_l"
+      },
+      {
+        "name": {
+          "en": "Demonhide Gloves",
+          "zh-TW": "魔皮手套",
+          "zh-CN": "恶魔皮手套"
+        },
+        "invFile": "invlgl",
+        "hdIcon": "gloves_l"
+      },
+      {
+        "name": {
+          "en": "Bramble Mitts",
+          "zh-TW": "荊棘手套",
+          "zh-CN": "防刺手套"
+        },
+        "invFile": "invlgl",
+        "hdIcon": "gloves_l"
+      }
     ]
   },
   {
@@ -1737,8 +2233,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Ith Rune",
@@ -1797,9 +2293,38 @@
     ],
     "magicItemInputHdIcon": "light_belt",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "ith_rune",
       "perfect_amethyst"
+    ],
+    "magicItemInputVariants": [
+      {
+        "name": {
+          "en": "Light Belt",
+          "zh-TW": "輕腰帶",
+          "zh-CN": "轻腰带"
+        },
+        "invFile": "invvbl",
+        "hdIcon": "light_belt"
+      },
+      {
+        "name": {
+          "en": "Sharkskin Belt",
+          "zh-TW": "鯊皮腰帶",
+          "zh-CN": "鲨鱼皮带"
+        },
+        "invFile": "invvbl",
+        "hdIcon": "light_belt"
+      },
+      {
+        "name": {
+          "en": "Vampirefang Belt",
+          "zh-TW": "吸血鬼牙腰帶",
+          "zh-CN": "吸能鬼牙腰带"
+        },
+        "invFile": "invvbl",
+        "hdIcon": "light_belt"
+      }
     ]
   },
   {
@@ -1819,8 +2344,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Eth Rune",
@@ -1879,9 +2404,38 @@
     ],
     "magicItemInputHdIcon": "small_shield",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "eth_rune",
       "perfect_amethyst"
+    ],
+    "magicItemInputVariants": [
+      {
+        "name": {
+          "en": "Small Shield",
+          "zh-TW": "小型盾",
+          "zh-CN": "小盾"
+        },
+        "invFile": "invsml",
+        "hdIcon": "small_shield"
+      },
+      {
+        "name": {
+          "en": "Round Shield",
+          "zh-TW": "圓型盾",
+          "zh-CN": "圆盾"
+        },
+        "invFile": "invsml",
+        "hdIcon": "small_shield"
+      },
+      {
+        "name": {
+          "en": "Luna",
+          "zh-TW": "圓月盾",
+          "zh-CN": "月神盾"
+        },
+        "invFile": "invsml",
+        "hdIcon": "small_shield"
+      }
     ]
   },
   {
@@ -1901,8 +2455,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Tal Rune",
@@ -1961,9 +2515,38 @@
     ],
     "magicItemInputHdIcon": "light_plate",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "tal_rune",
       "perfect_amethyst"
+    ],
+    "magicItemInputVariants": [
+      {
+        "name": {
+          "en": "Light Plate",
+          "zh-TW": "輕型鎧甲",
+          "zh-CN": "轻板甲"
+        },
+        "invFile": "invltp",
+        "hdIcon": "light_plate"
+      },
+      {
+        "name": {
+          "en": "Mage Plate",
+          "zh-TW": "法師鎧甲",
+          "zh-CN": "法师铠"
+        },
+        "invFile": "invltp",
+        "hdIcon": "light_plate"
+      },
+      {
+        "name": {
+          "en": "Archon Plate",
+          "zh-TW": "統御者鎧甲",
+          "zh-CN": "统治者板甲"
+        },
+        "invFile": "invltp",
+        "hdIcon": "light_plate"
+      }
     ]
   },
   {
@@ -1983,8 +2566,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Ral Rune",
@@ -2043,10 +2626,11 @@
     ],
     "magicItemInputHdIcon": "amulet",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "ral_rune",
       "perfect_amethyst"
-    ]
+    ],
+    "magicItemInputVariants": null
   },
   {
     "id": "craft-89",
@@ -2065,8 +2649,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Amn Rune",
@@ -2125,10 +2709,11 @@
     ],
     "magicItemInputHdIcon": "ring",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "amn_rune",
       "perfect_amethyst"
-    ]
+    ],
+    "magicItemInputVariants": null
   },
   {
     "id": "craft-90",
@@ -2147,8 +2732,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Tir Rune",
@@ -2207,9 +2792,38 @@
     ],
     "magicItemInputHdIcon": "short_staff",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "tir_rune",
       "perfect_amethyst"
+    ],
+    "magicItemInputVariants": [
+      {
+        "name": {
+          "en": "Scepter",
+          "zh-TW": "權杖",
+          "zh-CN": "权杖"
+        },
+        "invFile": "invscp",
+        "hdIcon": "scepter"
+      },
+      {
+        "name": {
+          "en": "Short Staff",
+          "zh-TW": "短杖",
+          "zh-CN": "短杖"
+        },
+        "invFile": "invsst",
+        "hdIcon": "short_staff"
+      },
+      {
+        "name": {
+          "en": "Wand",
+          "zh-TW": "魔杖",
+          "zh-CN": "魔杖"
+        },
+        "invFile": "invwnd",
+        "hdIcon": "wand"
+      }
     ]
   },
   {
@@ -2229,8 +2843,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Ith Rune",
@@ -2301,9 +2915,38 @@
     ],
     "magicItemInputHdIcon": "crown",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "ith_rune",
       "perfect_emerald"
+    ],
+    "magicItemInputVariants": [
+      {
+        "name": {
+          "en": "Crown",
+          "zh-TW": "王冠",
+          "zh-CN": "王冠"
+        },
+        "invFile": "invcrn",
+        "hdIcon": "crown"
+      },
+      {
+        "name": {
+          "en": "Grand Crown",
+          "zh-TW": "莊嚴王冠",
+          "zh-CN": "宝冠盔"
+        },
+        "invFile": "invcrn",
+        "hdIcon": "crown"
+      },
+      {
+        "name": {
+          "en": "Corona",
+          "zh-TW": "日冕之冠",
+          "zh-CN": "宝冠"
+        },
+        "invFile": "invcrn",
+        "hdIcon": "crown"
+      }
     ]
   },
   {
@@ -2323,8 +2966,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Ort Rune",
@@ -2395,9 +3038,38 @@
     ],
     "magicItemInputHdIcon": "plate_boots",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "ort_rune",
       "perfect_emerald"
+    ],
+    "magicItemInputVariants": [
+      {
+        "name": {
+          "en": "Greaves",
+          "zh-TW": "護脛",
+          "zh-CN": "护胫靴"
+        },
+        "invFile": "invhbt",
+        "hdIcon": "plate_boots"
+      },
+      {
+        "name": {
+          "en": "War Boots",
+          "zh-TW": "征戰靴",
+          "zh-CN": "战争靴"
+        },
+        "invFile": "invhbt",
+        "hdIcon": "plate_boots"
+      },
+      {
+        "name": {
+          "en": "Myrmidon Greaves",
+          "zh-TW": "勇士護脛",
+          "zh-CN": "侍从护胫"
+        },
+        "invFile": "invhbt",
+        "hdIcon": "plate_boots"
+      }
     ]
   },
   {
@@ -2417,8 +3089,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Ral Rune",
@@ -2489,9 +3161,38 @@
     ],
     "magicItemInputHdIcon": "gaunlets_h",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "ral_rune",
       "perfect_emerald"
+    ],
+    "magicItemInputVariants": [
+      {
+        "name": {
+          "en": "Gauntlets",
+          "zh-TW": "鋼鐵護手",
+          "zh-CN": "护手"
+        },
+        "invFile": "invhgl",
+        "hdIcon": "gaunlets_h"
+      },
+      {
+        "name": {
+          "en": "War Gauntlets",
+          "zh-TW": "征戰護手",
+          "zh-CN": "战争护手"
+        },
+        "invFile": "invhgl",
+        "hdIcon": "gaunlets_h"
+      },
+      {
+        "name": {
+          "en": "Ogre Gauntlets",
+          "zh-TW": "巨魔護手",
+          "zh-CN": "食肉魔护手"
+        },
+        "invFile": "invhgl",
+        "hdIcon": "gaunlets_h"
+      }
     ]
   },
   {
@@ -2511,8 +3212,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Tal Rune",
@@ -2583,9 +3284,38 @@
     ],
     "magicItemInputHdIcon": "sash_l",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "tal_rune",
       "perfect_emerald"
+    ],
+    "magicItemInputVariants": [
+      {
+        "name": {
+          "en": "Sash",
+          "zh-TW": "束帶",
+          "zh-CN": "腰带"
+        },
+        "invFile": "invlbl",
+        "hdIcon": "sash_l"
+      },
+      {
+        "name": {
+          "en": "Demonhide Sash",
+          "zh-TW": "魔皮束帶",
+          "zh-CN": "恶魔皮带"
+        },
+        "invFile": "invlbl",
+        "hdIcon": "sash_l"
+      },
+      {
+        "name": {
+          "en": "Spiderweb Sash",
+          "zh-TW": "蛛網束帶",
+          "zh-CN": "蛛网饰带"
+        },
+        "invFile": "invlbl",
+        "hdIcon": "sash_l"
+      }
     ]
   },
   {
@@ -2605,8 +3335,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Nef Rune",
@@ -2677,9 +3407,38 @@
     ],
     "magicItemInputHdIcon": "kite_shield",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "nef_rune",
       "perfect_emerald"
+    ],
+    "magicItemInputVariants": [
+      {
+        "name": {
+          "en": "Kite Shield",
+          "zh-TW": "鳶盾",
+          "zh-CN": "鸢盾"
+        },
+        "invFile": "invkit",
+        "hdIcon": "kite_shield"
+      },
+      {
+        "name": {
+          "en": "Dragon Shield",
+          "zh-TW": "龍盾",
+          "zh-CN": "龙盾"
+        },
+        "invFile": "invkit",
+        "hdIcon": "kite_shield"
+      },
+      {
+        "name": {
+          "en": "Monarch",
+          "zh-TW": "君主盾",
+          "zh-CN": "统治者大盾"
+        },
+        "invFile": "invkit",
+        "hdIcon": "kite_shield"
+      }
     ]
   },
   {
@@ -2699,8 +3458,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Eth Rune",
@@ -2771,9 +3530,38 @@
     ],
     "magicItemInputHdIcon": "breast_plate",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "eth_rune",
       "perfect_emerald"
+    ],
+    "magicItemInputVariants": [
+      {
+        "name": {
+          "en": "Breast Plate",
+          "zh-TW": "胸鎧",
+          "zh-CN": "胸片甲"
+        },
+        "invFile": "invbrs",
+        "hdIcon": "breast_plate"
+      },
+      {
+        "name": {
+          "en": "Cuirass",
+          "zh-TW": "護胸甲",
+          "zh-CN": "重装胸甲"
+        },
+        "invFile": "invbrs",
+        "hdIcon": "breast_plate"
+      },
+      {
+        "name": {
+          "en": "Great Hauberk",
+          "zh-TW": "鱗鎧胸甲",
+          "zh-CN": "大半身甲"
+        },
+        "invFile": "invbrs",
+        "hdIcon": "breast_plate"
+      }
     ]
   },
   {
@@ -2793,8 +3581,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Thul Rune",
@@ -2853,10 +3641,11 @@
     ],
     "magicItemInputHdIcon": "amulet",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "thul_rune",
       "perfect_emerald"
-    ]
+    ],
+    "magicItemInputVariants": null
   },
   {
     "id": "craft-98",
@@ -2875,8 +3664,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Amn Rune",
@@ -2935,10 +3724,11 @@
     ],
     "magicItemInputHdIcon": "ring",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "amn_rune",
       "perfect_emerald"
-    ]
+    ],
+    "magicItemInputVariants": null
   },
   {
     "id": "craft-99",
@@ -2957,8 +3747,8 @@
     "additionalInputs": [
       {
         "en": "Jewel",
-        "zh-TW": "寶石",
-        "zh-CN": "宝石"
+        "zh-TW": "珠寶",
+        "zh-CN": "珠宝"
       },
       {
         "en": "Sol Rune",
@@ -3017,9 +3807,56 @@
     ],
     "magicItemInputHdIcon": "spear",
     "additionalInputHdIcons": [
-      "perfect_diamond",
+      "perfect_diamond6",
       "sol_rune",
       "perfect_emerald"
+    ],
+    "magicItemInputVariants": [
+      {
+        "name": {
+          "en": "Spear",
+          "zh-TW": "長矛",
+          "zh-CN": "矛"
+        },
+        "invFile": "invspr",
+        "hdIcon": "spear"
+      },
+      {
+        "name": {
+          "en": "Trident",
+          "zh-TW": "三叉戟",
+          "zh-CN": "三叉戟"
+        },
+        "invFile": "invtri",
+        "hdIcon": "trident"
+      },
+      {
+        "name": {
+          "en": "Brandistock",
+          "zh-TW": "三叉槍",
+          "zh-CN": "羽剑杖"
+        },
+        "invFile": "invbrn",
+        "hdIcon": "brandistock"
+      },
+      {
+        "name": {
+          "en": "Spetum",
+          "zh-TW": "勾刃槍",
+          "zh-CN": "镋钯"
+        },
+        "invFile": "invspt",
+        "hdIcon": "spetum"
+      },
+      {
+        "name": {
+          "en": "Pike",
+          "zh-TW": "步戰矛",
+          "zh-CN": "尖枪"
+        },
+        "invFile": "invpik",
+        "hdIcon": "pike"
+      }
     ]
   }
 ]

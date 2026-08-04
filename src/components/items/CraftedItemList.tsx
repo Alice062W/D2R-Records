@@ -15,6 +15,7 @@ type Locale = 'en' | 'zh-TW' | 'zh-CN';
 // rather than fighting JSON-module type inference.
 type FixedStatEntry = { key: string; label: Record<Locale, string>; value?: number | null; isSkillRef: boolean; composed?: boolean; signed?: boolean };
 type VariableStatEntry = { key: string; label: Record<Locale, string>; min: number; max: number; isSkillRef: boolean; signed?: boolean };
+type InputVariant = { name: Record<Locale, string>; invFile: string; hdIcon: string | null };
 
 const FAMILY_ORDER = ['hitPower', 'blood', 'caster', 'safety'] as const;
 
@@ -74,6 +75,16 @@ export default function CraftedItemList({ items, locale }: { items: CraftedItem[
             <div className="mt-2 text-sm text-parchment flex items-center gap-2">
               {t('craftedItemsInputLabel')}: <CraftIcon invFile={item.magicItemInputIcon} hdIcon={item.magicItemInputHdIcon} size="w-5 h-5" /> {item.magicItemInput[locale]}
             </div>
+            {item.magicItemInputVariants && (
+              <div className="mt-1 text-sm text-[#8080f3] flex items-center gap-1 flex-wrap">
+                {(item.magicItemInputVariants as InputVariant[]).map((v, i, arr) => (
+                  <span key={v.name.en} className="flex items-center gap-1">
+                    <CraftIcon invFile={v.invFile} hdIcon={v.hdIcon} size="w-5 h-5" />
+                    {v.name[locale]}{i < arr.length - 1 ? ' /' : ''}
+                  </span>
+                ))}
+              </div>
+            )}
             <div className="text-sm text-parchment flex items-center gap-1 flex-wrap">
               {t('craftedItemsAdditionalInputsLabel')}:
               {item.additionalInputs.map((input, i) => (

@@ -62,6 +62,7 @@ describe('CraftedItemList', () => {
       additionalInputHdIcons: ['', '', ''],
       fixedProperties: [],
       variableProperties: [],
+      magicItemInputVariants: null,
     };
     const { container } = render(
       <NextIntlClientProvider locale="en" messages={messages}>
@@ -88,6 +89,7 @@ describe('CraftedItemList', () => {
       additionalInputHdIcons: [],
       fixedProperties: [],
       variableProperties: [],
+      magicItemInputVariants: null,
     };
     const { container } = render(
       <NextIntlClientProvider locale="en" messages={messages}>
@@ -97,5 +99,28 @@ describe('CraftedItemList', () => {
     const srcs = Array.from(container.querySelectorAll('img')).map(i => (i as HTMLImageElement).src);
     expect(srcs.some(s => s.includes('/items/hd/full_helm.png'))).toBe(true);
     expect(srcs.some(s => s.includes('invfhl'))).toBe(false);
+  });
+
+  it('lists the magic-item-input variant chain when present (e.g. Full Helm / Basinet / Giant Conch)', () => {
+    const item = craftedItems.find(i => i.id === 'craft-64')!;
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <CraftedItemList items={[item]} locale="en" />
+      </NextIntlClientProvider>
+    );
+    expect(screen.getAllByText(/Full Helm/).length).toBeGreaterThan(0);
+    expect(screen.getByText(/Basinet/)).toBeInTheDocument();
+    expect(screen.getByText(/Giant Conch/)).toBeInTheDocument();
+  });
+
+  it('renders no variant chain for a single-item input (e.g. Amulet)', () => {
+    const item = craftedItems.find(i => i.id === 'craft-70')!; // Hit Power Amulet
+    expect(item.magicItemInputVariants).toBeNull();
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <CraftedItemList items={[item]} locale="en" />
+      </NextIntlClientProvider>
+    );
+    expect(screen.queryByText(/Basinet/)).not.toBeInTheDocument();
   });
 });
