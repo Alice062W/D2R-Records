@@ -2665,7 +2665,10 @@
     "slotCategory": "bows",
     "defense": null,
     "oneHandDamage": null,
-    "twoHandDamage": null,
+    "twoHandDamage": {
+      "min": 3,
+      "max": 18
+    },
     "requiredStrength": 40,
     "requiredDexterity": 50,
     "weaponSpeed": 10,
@@ -4025,7 +4028,10 @@
     "slotCategory": "staves",
     "defense": null,
     "oneHandDamage": null,
-    "twoHandDamage": null,
+    "twoHandDamage": {
+      "min": 6,
+      "max": 13
+    },
     "requiredStrength": null,
     "requiredDexterity": null,
     "weaponSpeed": 0,
@@ -8597,7 +8603,10 @@
     "slotCategory": "bows",
     "defense": null,
     "oneHandDamage": null,
-    "twoHandDamage": null,
+    "twoHandDamage": {
+      "min": 9,
+      "max": 21
+    },
     "requiredStrength": 35,
     "requiredDexterity": 55,
     "weaponSpeed": 0,
@@ -9327,7 +9336,10 @@
     "slotCategory": "staves",
     "defense": null,
     "oneHandDamage": null,
-    "twoHandDamage": null,
+    "twoHandDamage": {
+      "min": 12,
+      "max": 28
+    },
     "requiredStrength": null,
     "requiredDexterity": null,
     "weaponSpeed": 20,
@@ -12882,7 +12894,10 @@
     "slotCategory": "hammers",
     "defense": null,
     "oneHandDamage": null,
-    "twoHandDamage": null,
+    "twoHandDamage": {
+      "min": 231,
+      "max": 318
+    },
     "requiredStrength": 225,
     "requiredDexterity": null,
     "weaponSpeed": 10,
@@ -17215,7 +17230,10 @@
     "slotCategory": "bows",
     "defense": null,
     "oneHandDamage": null,
-    "twoHandDamage": null,
+    "twoHandDamage": {
+      "min": 40,
+      "max": 207
+    },
     "requiredStrength": 108,
     "requiredDexterity": 152,
     "weaponSpeed": 10,
@@ -20374,7 +20392,10 @@
     "slotCategory": "polearms",
     "defense": null,
     "oneHandDamage": null,
-    "twoHandDamage": null,
+    "twoHandDamage": {
+      "min": 42,
+      "max": 159
+    },
     "requiredStrength": 95,
     "requiredDexterity": null,
     "weaponSpeed": 0,
@@ -22103,7 +22124,10 @@
     "slotCategory": "staves",
     "defense": null,
     "oneHandDamage": null,
-    "twoHandDamage": null,
+    "twoHandDamage": {
+      "min": 200,
+      "max": 232
+    },
     "requiredStrength": 44,
     "requiredDexterity": 37,
     "weaponSpeed": 0,
