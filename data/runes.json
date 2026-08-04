@@ -1,6 +1,7 @@
 [
   {
     "id": "rune-r01",
+    "code": "r01",
     "number": 1,
     "name": {
       "en": "El",
@@ -9,91 +10,83 @@
     },
     "levelReq": 11,
     "invFile": "invrEl",
+    "hdIcon": "el_rune",
     "weaponStats": [
       {
-        "key": "light",
+        "code": "att",
         "label": {
-          "en": "Light Radius",
-          "zh-TW": "照亮範圍",
-          "zh-CN": "照亮范围"
-        },
-        "min": 1,
-        "max": 1,
-        "isSkillRef": false
-      },
-      {
-        "key": "att",
-        "label": {
-          "en": "Attack Rating",
-          "zh-TW": "準確率",
-          "zh-CN": "命中值"
+          "en": "+50 to Attack Rating",
+          "zh-TW": "+50 準確率",
+          "zh-CN": "+50 命中值"
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
-      }
-    ],
-    "armorHelmStats": [
+        "variable": false
+      },
       {
-        "key": "light",
+        "code": "light",
         "label": {
-          "en": "Light Radius",
-          "zh-TW": "照亮範圍",
-          "zh-CN": "照亮范围"
+          "en": "+1 to Light Radius",
+          "zh-TW": "照亮範圍 +1",
+          "zh-CN": "+1 照亮范围"
         },
         "min": 1,
         "max": 1,
-        "isSkillRef": false
-      },
+        "variable": false
+      }
+    ],
+    "helmStats": [
       {
-        "key": "ac",
+        "code": "ac",
         "label": {
-          "en": "Defense",
-          "zh-TW": "防禦",
-          "zh-CN": "防御"
+          "en": "+15 Defense",
+          "zh-TW": "+15 防禦",
+          "zh-CN": "+15 防御"
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "variable": false
+      },
+      {
+        "code": "light",
+        "label": {
+          "en": "+1 to Light Radius",
+          "zh-TW": "照亮範圍 +1",
+          "zh-CN": "+1 照亮范围"
+        },
+        "min": 1,
+        "max": 1,
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "light",
+        "code": "ac",
         "label": {
-          "en": "Light Radius",
-          "zh-TW": "照亮範圍",
-          "zh-CN": "照亮范围"
-        },
-        "min": 1,
-        "max": 1,
-        "isSkillRef": false
-      },
-      {
-        "key": "ac",
-        "label": {
-          "en": "Defense",
-          "zh-TW": "防禦",
-          "zh-CN": "防御"
+          "en": "+15 Defense",
+          "zh-TW": "+15 防禦",
+          "zh-CN": "+15 防御"
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
-      }
-    ],
-    "recipe": null,
-    "dropRate": {
-      "monster": {
-        "en": "The Countess",
-        "zh-TW": "女伯爵",
-        "zh-CN": "女伯爵"
+        "variable": false
       },
-      "difficulty": "normal",
-      "percent": 4.3
-    }
+      {
+        "code": "light",
+        "label": {
+          "en": "+1 to Light Radius",
+          "zh-TW": "照亮範圍 +1",
+          "zh-CN": "+1 照亮范围"
+        },
+        "min": 1,
+        "max": 1,
+        "variable": false
+      }
+    ]
   },
   {
     "id": "rune-r02",
+    "code": "r02",
     "number": 2,
     "name": {
       "en": "Eld",
@@ -102,156 +95,125 @@
     },
     "levelReq": 11,
     "invFile": "invrEld",
+    "hdIcon": "eld_rune",
     "weaponStats": [
       {
-        "key": "att-undead",
+        "code": "dmg-undead",
         "label": {
-          "en": "Attack Rating vs. Undead",
-          "zh-TW": "對不死怪物的準確率",
-          "zh-CN": "对亡灵的命中值"
-        },
-        "min": 50,
-        "max": 50,
-        "isSkillRef": false
-      },
-      {
-        "key": "dmg-undead",
-        "label": {
-          "en": "Damage to Undead",
-          "zh-TW": "對不死怪物的傷害",
-          "zh-CN": "对亡灵的伤害"
+          "en": "+75% Damage to Undead",
+          "zh-TW": "+75% 對不死怪物的傷害",
+          "zh-CN": "+75% 对亡灵的伤害"
         },
         "min": 75,
         "max": 75,
-        "isSkillRef": false
+        "variable": false
+      },
+      {
+        "code": "att-undead",
+        "label": {
+          "en": "+50 to Attack Rating against Undead",
+          "zh-TW": "+50 對不死怪物的準確率",
+          "zh-CN": "+50 对亡灵的命中值"
+        },
+        "min": 50,
+        "max": 50,
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "stamdrain",
+        "code": "stamdrain",
         "label": {
-          "en": "Slower Stamina Drain %",
-          "zh-TW": "精力消耗減緩 %",
-          "zh-CN": "降低耐力消耗 %"
+          "en": "15% Slower Stamina Drain",
+          "zh-TW": "精力消耗減緩 15%",
+          "zh-CN": "15% 降低耐力消耗"
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "block",
+        "code": "block",
         "label": {
-          "en": "Increased Chance of Blocking %",
-          "zh-TW": "格擋機率提高 %",
-          "zh-CN": "格挡几率提高 %"
+          "en": "7% Increased Chance of Blocking",
+          "zh-TW": "格擋機率提高 7%",
+          "zh-CN": "7% 格挡几率提高"
         },
         "min": 7,
         "max": 7,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "El",
-        "zh-TW": "艾爾",
-        "zh-CN": "艾尔"
-      },
-      "count": 3,
-      "gemName": null
-    },
-    "dropRate": {
-      "monster": {
-        "en": "The Countess",
-        "zh-TW": "女伯爵",
-        "zh-CN": "女伯爵"
-      },
-      "difficulty": "normal",
-      "percent": 2.87
-    }
+    ]
   },
   {
     "id": "rune-r03",
+    "code": "r03",
     "number": 3,
     "name": {
       "en": "Tir",
       "zh-TW": "特爾",
-      "zh-CN": "特尔"
+      "zh-CN": "提尔"
     },
     "levelReq": 13,
     "invFile": "invrTir",
+    "hdIcon": "tir_rune",
     "weaponStats": [
       {
-        "key": "mana-kill",
+        "code": "mana-kill",
         "label": {
-          "en": "Mana after Kill",
-          "zh-TW": "擊殺法力恢復",
-          "zh-CN": "每次消灭恢复的法力"
+          "en": "+2 to Mana after each Kill",
+          "zh-TW": "+2 擊殺法力恢復",
+          "zh-CN": "+2 每次消灭恢复的法力"
         },
         "min": 2,
         "max": 2,
-        "isSkillRef": false
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "mana-kill",
+        "code": "mana-kill",
         "label": {
-          "en": "Mana after Kill",
-          "zh-TW": "擊殺法力恢復",
-          "zh-CN": "每次消灭恢复的法力"
+          "en": "+2 to Mana after each Kill",
+          "zh-TW": "+2 擊殺法力恢復",
+          "zh-CN": "+2 每次消灭恢复的法力"
         },
         "min": 2,
         "max": 2,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "mana-kill",
+        "code": "mana-kill",
         "label": {
-          "en": "Mana after Kill",
-          "zh-TW": "擊殺法力恢復",
-          "zh-CN": "每次消灭恢复的法力"
+          "en": "+2 to Mana after each Kill",
+          "zh-TW": "+2 擊殺法力恢復",
+          "zh-CN": "+2 每次消灭恢复的法力"
         },
         "min": 2,
         "max": 2,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "Eld",
-        "zh-TW": "艾德",
-        "zh-CN": "艾德"
-      },
-      "count": 3,
-      "gemName": null
-    },
-    "dropRate": {
-      "monster": {
-        "en": "The Countess",
-        "zh-TW": "女伯爵",
-        "zh-CN": "女伯爵"
-      },
-      "difficulty": "normal",
-      "percent": 10.75
-    }
+    ]
   },
   {
     "id": "rune-r04",
+    "code": "r04",
     "number": 4,
     "name": {
       "en": "Nef",
       "zh-TW": "那夫",
-      "zh-CN": "那夫"
+      "zh-CN": "奈夫"
     },
     "levelReq": 13,
     "invFile": "invrNef",
+    "hdIcon": "nef_rune",
     "weaponStats": [
       {
-        "key": "knock",
+        "code": "knock",
         "label": {
           "en": "Knockback",
           "zh-TW": "擊退",
@@ -259,124 +221,91 @@
         },
         "min": 1,
         "max": 1,
-        "isSkillRef": false
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "ac-miss",
+        "code": "ac-miss",
         "label": {
-          "en": "Defense vs. Missile",
-          "zh-TW": "對遠程防禦",
-          "zh-CN": "远程防御"
+          "en": "+30 Defense vs. Missile",
+          "zh-TW": "+30 對遠程防禦",
+          "zh-CN": "+30 远程防御"
         },
         "min": 30,
         "max": 30,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "ac-miss",
+        "code": "ac-miss",
         "label": {
-          "en": "Defense vs. Missile",
-          "zh-TW": "對遠程防禦",
-          "zh-CN": "远程防御"
+          "en": "+30 Defense vs. Missile",
+          "zh-TW": "+30 對遠程防禦",
+          "zh-CN": "+30 远程防御"
         },
         "min": 30,
         "max": 30,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "Tir",
-        "zh-TW": "特爾",
-        "zh-CN": "特尔"
-      },
-      "count": 3,
-      "gemName": null
-    },
-    "dropRate": {
-      "monster": {
-        "en": "The Countess",
-        "zh-TW": "女伯爵",
-        "zh-CN": "女伯爵"
-      },
-      "difficulty": "normal",
-      "percent": 7.17
-    }
+    ]
   },
   {
     "id": "rune-r05",
+    "code": "r05",
     "number": 5,
     "name": {
       "en": "Eth",
       "zh-TW": "愛斯",
-      "zh-CN": "爱斯"
+      "zh-CN": "艾斯"
     },
     "levelReq": 15,
     "invFile": "invrEth",
+    "hdIcon": "eth_rune",
     "weaponStats": [
       {
-        "key": "reduce-ac",
+        "code": "reduce-ac",
         "label": {
-          "en": "Reduce Target Defense %",
-          "zh-TW": "目標防禦 %",
-          "zh-CN": "目标防御 %"
+          "en": "-25% Target Defense",
+          "zh-TW": "-25% 目標防禦",
+          "zh-CN": "-25% 目标防御"
         },
         "min": 25,
         "max": 25,
-        "isSkillRef": false
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "regen-mana",
+        "code": "regen-mana",
         "label": {
-          "en": "Mana Regenerated %",
-          "zh-TW": "法力恢復 %",
-          "zh-CN": "法力回复 %"
+          "en": "Regenerate Mana 15%",
+          "zh-TW": "法力恢復 15%",
+          "zh-CN": "15% 法力回复"
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "regen-mana",
+        "code": "regen-mana",
         "label": {
-          "en": "Mana Regenerated %",
-          "zh-TW": "法力恢復 %",
-          "zh-CN": "法力回复 %"
+          "en": "Regenerate Mana 15%",
+          "zh-TW": "法力恢復 15%",
+          "zh-CN": "15% 法力回复"
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "Nef",
-        "zh-TW": "那夫",
-        "zh-CN": "那夫"
-      },
-      "count": 3,
-      "gemName": null
-    },
-    "dropRate": {
-      "monster": {
-        "en": "The Countess",
-        "zh-TW": "女伯爵",
-        "zh-CN": "女伯爵"
-      },
-      "difficulty": "normal",
-      "percent": 15.05
-    }
+    ]
   },
   {
     "id": "rune-r06",
+    "code": "r06",
     "number": 6,
     "name": {
       "en": "Ith",
@@ -385,66 +314,50 @@
     },
     "levelReq": 15,
     "invFile": "invrIth",
+    "hdIcon": "ith_rune",
     "weaponStats": [
       {
-        "key": "dmg-max",
+        "code": "dmg-max",
         "label": {
-          "en": "Maximum Damage",
-          "zh-TW": "最大傷害",
-          "zh-CN": "最大伤害"
+          "en": "+9 to Maximum Damage",
+          "zh-TW": "+9 最大傷害",
+          "zh-CN": "+9 最大伤害"
         },
         "min": 9,
         "max": 9,
-        "isSkillRef": false
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "dmg-to-mana",
+        "code": "dmg-to-mana",
         "label": {
-          "en": "Damage Taken Goes to Mana",
-          "zh-TW": "受到的傷害轉為法力",
-          "zh-CN": "受到的伤害转换为法力"
+          "en": "15% Damage Taken Goes To Mana",
+          "zh-TW": "+15% 受到的傷害轉為法力",
+          "zh-CN": "+15% 受到的伤害转换为法力"
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "dmg-to-mana",
+        "code": "dmg-to-mana",
         "label": {
-          "en": "Damage Taken Goes to Mana",
-          "zh-TW": "受到的傷害轉為法力",
-          "zh-CN": "受到的伤害转换为法力"
+          "en": "15% Damage Taken Goes To Mana",
+          "zh-TW": "+15% 受到的傷害轉為法力",
+          "zh-CN": "+15% 受到的伤害转换为法力"
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "Eth",
-        "zh-TW": "愛斯",
-        "zh-CN": "爱斯"
-      },
-      "count": 3,
-      "gemName": null
-    },
-    "dropRate": {
-      "monster": {
-        "en": "The Countess",
-        "zh-TW": "女伯爵",
-        "zh-CN": "女伯爵"
-      },
-      "difficulty": "normal",
-      "percent": 10.03
-    }
+    ]
   },
   {
     "id": "rune-r07",
+    "code": "r07",
     "number": 7,
     "name": {
       "en": "Tal",
@@ -453,66 +366,50 @@
     },
     "levelReq": 17,
     "invFile": "invrTal",
+    "hdIcon": "tal_rune",
     "weaponStats": [
       {
-        "key": "dmg-pois",
+        "code": "dmg-pois",
         "label": {
-          "en": "Adds Poison Damage over 5 Seconds",
-          "zh-TW": "增加毒素傷害，持續 5 秒",
-          "zh-CN": "增加毒素伤害，持续 5 秒"
+          "en": "Adds 154-154 Poison Damage Over 5 Seconds",
+          "zh-TW": "+154 毒素傷害，時效 5 秒",
+          "zh-CN": "+154 毒素伤害，持续5秒"
         },
-        "min": 75,
-        "max": 75,
-        "isSkillRef": false
+        "min": 154,
+        "max": 154,
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "res-pois",
+        "code": "res-pois",
         "label": {
-          "en": "Poison Resist %",
-          "zh-TW": "毒素抗性 %",
-          "zh-CN": "毒素抗性 %"
+          "en": "Poison Resist +30%",
+          "zh-TW": "毒素抗性 +30%",
+          "zh-CN": "毒素抗性 +30%"
         },
         "min": 30,
         "max": 30,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "res-pois",
+        "code": "res-pois",
         "label": {
-          "en": "Poison Resist %",
-          "zh-TW": "毒素抗性 %",
-          "zh-CN": "毒素抗性 %"
+          "en": "Poison Resist +35%",
+          "zh-TW": "毒素抗性 +35%",
+          "zh-CN": "毒素抗性 +35%"
         },
         "min": 35,
         "max": 35,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "Ith",
-        "zh-TW": "伊司",
-        "zh-CN": "伊司"
-      },
-      "count": 3,
-      "gemName": null
-    },
-    "dropRate": {
-      "monster": {
-        "en": "The Countess",
-        "zh-TW": "女伯爵",
-        "zh-CN": "女伯爵"
-      },
-      "difficulty": "normal",
-      "percent": 21.5
-    }
+    ]
   },
   {
     "id": "rune-r08",
+    "code": "r08",
     "number": 8,
     "name": {
       "en": "Ral",
@@ -521,67 +418,50 @@
     },
     "levelReq": 19,
     "invFile": "invrRal",
+    "hdIcon": "ral_rune",
     "weaponStats": [
       {
-        "key": "dmg-fire",
+        "code": "dmg-fire",
         "label": {
-          "en": "Fire Damage",
-          "zh-TW": "火焰傷害",
-          "zh-CN": "火焰伤害"
+          "en": "Adds 5-30 Fire Damage",
+          "zh-TW": "火焰傷害：5 - 30 點",
+          "zh-CN": "火焰伤害: 5-30"
         },
         "min": 5,
         "max": 30,
-        "isSkillRef": false,
-        "signed": false
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "res-fire",
+        "code": "res-fire",
         "label": {
-          "en": "Fire Resist %",
-          "zh-TW": "火焰抗性 %",
-          "zh-CN": "火焰抗性 %"
+          "en": "Fire Resist +30%",
+          "zh-TW": "火焰抗性 +30%",
+          "zh-CN": "火焰抗性 +30%"
         },
         "min": 30,
         "max": 30,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "res-fire",
+        "code": "res-fire",
         "label": {
-          "en": "Fire Resist %",
-          "zh-TW": "火焰抗性 %",
-          "zh-CN": "火焰抗性 %"
+          "en": "Fire Resist +35%",
+          "zh-TW": "火焰抗性 +35%",
+          "zh-CN": "火焰抗性 +35%"
         },
         "min": 35,
         "max": 35,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "Tal",
-        "zh-TW": "塔爾",
-        "zh-CN": "塔尔"
-      },
-      "count": 3,
-      "gemName": null
-    },
-    "dropRate": {
-      "monster": {
-        "en": "The Countess",
-        "zh-TW": "女伯爵",
-        "zh-CN": "女伯爵"
-      },
-      "difficulty": "normal",
-      "percent": 14.33
-    }
+    ]
   },
   {
     "id": "rune-r09",
+    "code": "r09",
     "number": 9,
     "name": {
       "en": "Ort",
@@ -590,136 +470,102 @@
     },
     "levelReq": 21,
     "invFile": "invrOrt",
+    "hdIcon": "ort_rune",
     "weaponStats": [
       {
-        "key": "dmg-ltng",
+        "code": "dmg-ltng",
         "label": {
-          "en": "Lightning Damage",
-          "zh-TW": "電擊傷害",
-          "zh-CN": "闪电伤害"
+          "en": "Adds 1-50 Lightning Damage",
+          "zh-TW": "電擊傷害：1 - 50 點",
+          "zh-CN": "闪电伤害: 1-50"
         },
         "min": 1,
         "max": 50,
-        "isSkillRef": false,
-        "signed": false
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "res-ltng",
+        "code": "res-ltng",
         "label": {
-          "en": "Lightning Resist %",
-          "zh-TW": "電擊抗性 %",
-          "zh-CN": "闪电抗性 %"
+          "en": "Lightning Resist +30%",
+          "zh-TW": "電擊抗性 +30%",
+          "zh-CN": "闪电抗性 +30%"
         },
         "min": 30,
         "max": 30,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "res-ltng",
+        "code": "res-ltng",
         "label": {
-          "en": "Lightning Resist %",
-          "zh-TW": "電擊抗性 %",
-          "zh-CN": "闪电抗性 %"
+          "en": "Lightning Resist +35%",
+          "zh-TW": "電擊抗性 +35%",
+          "zh-CN": "闪电抗性 +35%"
         },
         "min": 35,
         "max": 35,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "Ral",
-        "zh-TW": "拉爾",
-        "zh-CN": "拉尔"
-      },
-      "count": 3,
-      "gemName": null
-    },
-    "dropRate": {
-      "monster": {
-        "en": "The Countess",
-        "zh-TW": "女伯爵",
-        "zh-CN": "女伯爵"
-      },
-      "difficulty": "nightmare",
-      "percent": 21.5
-    }
+    ]
   },
   {
     "id": "rune-r10",
+    "code": "r10",
     "number": 10,
     "name": {
       "en": "Thul",
       "zh-TW": "書爾",
-      "zh-CN": "书尔"
+      "zh-CN": "图尔"
     },
     "levelReq": 23,
     "invFile": "invrThul",
+    "hdIcon": "thul_rune",
     "weaponStats": [
       {
-        "key": "dmg-cold",
+        "code": "dmg-cold",
         "label": {
-          "en": "Cold Damage",
-          "zh-TW": "冰寒傷害",
-          "zh-CN": "冰霜伤害"
+          "en": "Adds 3-14 Cold Damage",
+          "zh-TW": "冰寒傷害：3 - 14 點",
+          "zh-CN": "冰霜伤害: 3-14"
         },
         "min": 3,
         "max": 14,
-        "isSkillRef": false,
-        "signed": false
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "res-cold",
+        "code": "res-cold",
         "label": {
-          "en": "Cold Resist %",
-          "zh-TW": "冰寒抗性 %",
-          "zh-CN": "冰霜抗性 %"
+          "en": "Cold Resist +30%",
+          "zh-TW": "冰寒抗性 +30%",
+          "zh-CN": "冰霜抗性 +30%"
         },
         "min": 30,
         "max": 30,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "res-cold",
+        "code": "res-cold",
         "label": {
-          "en": "Cold Resist %",
-          "zh-TW": "冰寒抗性 %",
-          "zh-CN": "冰霜抗性 %"
+          "en": "Cold Resist +35%",
+          "zh-TW": "冰寒抗性 +35%",
+          "zh-CN": "冰霜抗性 +35%"
         },
         "min": 35,
         "max": 35,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "Ort",
-        "zh-TW": "歐特",
-        "zh-CN": "欧特"
-      },
-      "count": 3,
-      "gemName": null
-    },
-    "dropRate": {
-      "monster": {
-        "en": "The Countess",
-        "zh-TW": "女伯爵",
-        "zh-CN": "女伯爵"
-      },
-      "difficulty": "nightmare",
-      "percent": 14.33
-    }
+    ]
   },
   {
     "id": "rune-r11",
+    "code": "r11",
     "number": 11,
     "name": {
       "en": "Amn",
@@ -728,70 +574,50 @@
     },
     "levelReq": 25,
     "invFile": "invrAmn",
+    "hdIcon": "amn_rune",
     "weaponStats": [
       {
-        "key": "lifesteal",
+        "code": "lifesteal",
         "label": {
-          "en": "Life Steal %",
-          "zh-TW": "生命竊取 %",
-          "zh-CN": "生命窃取 %"
+          "en": "7% Life stolen per hit",
+          "zh-TW": "擊中竊取 7% 生命",
+          "zh-CN": "7% 击中时偷取生命"
         },
         "min": 7,
         "max": 7,
-        "isSkillRef": false
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "thorns",
+        "code": "thorns",
         "label": {
-          "en": "Attacker Takes Damage",
-          "zh-TW": "攻擊者反傷",
-          "zh-CN": "攻击者反伤"
+          "en": "Attacker Takes Damage of 14",
+          "zh-TW": "攻擊者反傷：14",
+          "zh-CN": "攻击者受到 14 点伤害"
         },
         "min": 14,
         "max": 14,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "thorns",
+        "code": "thorns",
         "label": {
-          "en": "Attacker Takes Damage",
-          "zh-TW": "攻擊者反傷",
-          "zh-CN": "攻击者反伤"
+          "en": "Attacker Takes Damage of 14",
+          "zh-TW": "攻擊者反傷：14",
+          "zh-CN": "攻击者受到 14 点伤害"
         },
         "min": 14,
         "max": 14,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "Thul",
-        "zh-TW": "書爾",
-        "zh-CN": "书尔"
-      },
-      "count": 3,
-      "gemName": {
-        "en": "Chipped Topaz",
-        "zh-TW": "碎裂的黃寶石",
-        "zh-CN": "碎裂的黄宝石"
-      }
-    },
-    "dropRate": {
-      "monster": {
-        "en": "The Countess",
-        "zh-TW": "女伯爵",
-        "zh-CN": "女伯爵"
-      },
-      "difficulty": "nightmare",
-      "percent": 16.61
-    }
+    ]
   },
   {
     "id": "rune-r12",
+    "code": "r12",
     "number": 12,
     "name": {
       "en": "Sol",
@@ -800,142 +626,102 @@
     },
     "levelReq": 27,
     "invFile": "invrSol",
+    "hdIcon": "sol_rune",
     "weaponStats": [
       {
-        "key": "dmg-min",
+        "code": "dmg-min",
         "label": {
-          "en": "Minimum Damage",
-          "zh-TW": "最小傷害",
-          "zh-CN": "最小伤害"
+          "en": "+9 to Minimum Damage",
+          "zh-TW": "+9 最小傷害",
+          "zh-CN": "+9 最小伤害"
         },
         "min": 9,
         "max": 9,
-        "isSkillRef": false
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "red-dmg",
+        "code": "red-dmg",
         "label": {
-          "en": "Damage Reduced",
-          "zh-TW": "傷害降低",
-          "zh-CN": "伤害降低"
+          "en": "Damage Reduced by 7",
+          "zh-TW": "傷害降低 7",
+          "zh-CN": "伤害降低 7"
         },
         "min": 7,
         "max": 7,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "red-dmg",
+        "code": "red-dmg",
         "label": {
-          "en": "Damage Reduced",
-          "zh-TW": "傷害降低",
-          "zh-CN": "伤害降低"
+          "en": "Damage Reduced by 7",
+          "zh-TW": "傷害降低 7",
+          "zh-CN": "伤害降低 7"
         },
         "min": 7,
         "max": 7,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "Amn",
-        "zh-TW": "安姆",
-        "zh-CN": "安姆"
-      },
-      "count": 3,
-      "gemName": {
-        "en": "Chipped Amethyst",
-        "zh-TW": "碎裂的紫寶石",
-        "zh-CN": "碎裂的紫宝石"
-      }
-    },
-    "dropRate": {
-      "monster": {
-        "en": "The Countess",
-        "zh-TW": "女伯爵",
-        "zh-CN": "女伯爵"
-      },
-      "difficulty": "nightmare",
-      "percent": 11.08
-    }
+    ]
   },
   {
     "id": "rune-r13",
+    "code": "r13",
     "number": 13,
     "name": {
       "en": "Shael",
       "zh-TW": "夏",
-      "zh-CN": "夏"
+      "zh-CN": "沙伊"
     },
     "levelReq": 29,
     "invFile": "invrShae",
+    "hdIcon": "shael_rune",
     "weaponStats": [
       {
-        "key": "swing2",
+        "code": "swing2",
         "label": {
-          "en": "Faster Attack Rate",
-          "zh-TW": "攻擊速度",
-          "zh-CN": "提高攻击速度"
+          "en": "+20% Increased Attack Speed",
+          "zh-TW": "攻擊速度 +20%",
+          "zh-CN": "+20% 提高攻击速度"
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "balance2",
+        "code": "balance2",
         "label": {
-          "en": "Faster Hit Recovery",
-          "zh-TW": "打擊恢復",
-          "zh-CN": "更快速打击回复"
+          "en": "+20% Faster Hit Recovery",
+          "zh-TW": "+20% 打擊恢復",
+          "zh-CN": "+20% 更快速打击回复"
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "block2",
+        "code": "block2",
         "label": {
-          "en": "Faster Block Rate",
-          "zh-TW": "格擋速度",
-          "zh-CN": "更快速格挡"
+          "en": "+20% Faster Block Rate",
+          "zh-TW": "+20% 格擋速度",
+          "zh-CN": "+20% 更快速格挡"
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "Sol",
-        "zh-TW": "索爾",
-        "zh-CN": "索尔"
-      },
-      "count": 3,
-      "gemName": {
-        "en": "Chipped Sapphire",
-        "zh-TW": "碎裂的藍寶石",
-        "zh-CN": "碎裂的蓝宝石"
-      }
-    },
-    "dropRate": {
-      "monster": {
-        "en": "The Countess",
-        "zh-TW": "女伯爵",
-        "zh-CN": "女伯爵"
-      },
-      "difficulty": "nightmare",
-      "percent": 9.97
-    }
+    ]
   },
   {
     "id": "rune-r14",
+    "code": "r14",
     "number": 14,
     "name": {
       "en": "Dol",
@@ -944,214 +730,154 @@
     },
     "levelReq": 31,
     "invFile": "invrDol",
+    "hdIcon": "dol_rune",
     "weaponStats": [
       {
-        "key": "howl",
+        "code": "howl",
         "label": {
-          "en": "Hit Causes Monster to Flee %",
-          "zh-TW": "機率擊中使怪物逃跑 %",
-          "zh-CN": "几率命中使怪物逃跑 %"
+          "en": "Hit Causes Monster to Flee 32%",
+          "zh-TW": "+32% 機率擊中使怪物逃跑",
+          "zh-CN": "+32% 几率命中使怪物逃跑"
         },
         "min": 32,
         "max": 32,
-        "isSkillRef": false
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "regen",
+        "code": "regen",
         "label": {
-          "en": "Replenish Life",
-          "zh-TW": "生命回復",
-          "zh-CN": "补充生命"
+          "en": "Replenish Life +7",
+          "zh-TW": "生命回復 +7",
+          "zh-CN": "补充生命 +7"
         },
         "min": 7,
         "max": 7,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "regen",
+        "code": "regen",
         "label": {
-          "en": "Replenish Life",
-          "zh-TW": "生命回復",
-          "zh-CN": "补充生命"
+          "en": "Replenish Life +7",
+          "zh-TW": "生命回復 +7",
+          "zh-CN": "补充生命 +7"
         },
         "min": 7,
         "max": 7,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "Shael",
-        "zh-TW": "夏",
-        "zh-CN": "夏"
-      },
-      "count": 3,
-      "gemName": {
-        "en": "Chipped Ruby",
-        "zh-TW": "碎裂的紅寶石",
-        "zh-CN": "碎裂的红宝石"
-      }
-    },
-    "dropRate": {
-      "monster": {
-        "en": "The Countess",
-        "zh-TW": "女伯爵",
-        "zh-CN": "女伯爵"
-      },
-      "difficulty": "nightmare",
-      "percent": 6.65
-    }
+    ]
   },
   {
     "id": "rune-r15",
+    "code": "r15",
     "number": 15,
     "name": {
       "en": "Hel",
       "zh-TW": "海爾",
       "zh-CN": "海尔"
     },
-    "levelReq": 0,
+    "levelReq": 33,
     "invFile": "invrHel",
+    "hdIcon": "hel_rune",
     "weaponStats": [
       {
-        "key": "ease",
+        "code": "ease",
         "label": {
-          "en": "Requirements %",
-          "zh-TW": "需求 %",
-          "zh-CN": "需求 %"
+          "en": "Requirements --20%",
+          "zh-TW": "需求 -20%",
+          "zh-CN": "需求 -20%"
         },
         "min": -20,
         "max": -20,
-        "isSkillRef": false
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "ease",
+        "code": "ease",
         "label": {
-          "en": "Requirements %",
-          "zh-TW": "需求 %",
-          "zh-CN": "需求 %"
+          "en": "Requirements --15%",
+          "zh-TW": "需求 -15%",
+          "zh-CN": "需求 -15%"
         },
         "min": -15,
         "max": -15,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "ease",
+        "code": "ease",
         "label": {
-          "en": "Requirements %",
-          "zh-TW": "需求 %",
-          "zh-CN": "需求 %"
+          "en": "Requirements --15%",
+          "zh-TW": "需求 -15%",
+          "zh-CN": "需求 -15%"
         },
         "min": -15,
         "max": -15,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "Dol",
-        "zh-TW": "多爾",
-        "zh-CN": "多尔"
-      },
-      "count": 3,
-      "gemName": {
-        "en": "Chipped Emerald",
-        "zh-TW": "碎裂的綠寶石",
-        "zh-CN": "碎裂的绿宝石"
-      }
-    },
-    "dropRate": {
-      "monster": {
-        "en": "The Countess",
-        "zh-TW": "女伯爵",
-        "zh-CN": "女伯爵"
-      },
-      "difficulty": "nightmare",
-      "percent": 5.54
-    }
+    ]
   },
   {
     "id": "rune-r16",
+    "code": "r16",
     "number": 16,
     "name": {
       "en": "Io",
       "zh-TW": "埃歐",
-      "zh-CN": "埃欧"
+      "zh-CN": "艾欧"
     },
     "levelReq": 35,
     "invFile": "invrIo",
+    "hdIcon": "io_rune",
     "weaponStats": [
       {
-        "key": "vit",
+        "code": "vit",
         "label": {
-          "en": "Vitality",
-          "zh-TW": "體能",
-          "zh-CN": "活力"
+          "en": "+10 to Vitality",
+          "zh-TW": "+10 體能",
+          "zh-CN": "+10 活力"
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "vit",
+        "code": "vit",
         "label": {
-          "en": "Vitality",
-          "zh-TW": "體能",
-          "zh-CN": "活力"
+          "en": "+10 to Vitality",
+          "zh-TW": "+10 體能",
+          "zh-CN": "+10 活力"
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "vit",
+        "code": "vit",
         "label": {
-          "en": "Vitality",
-          "zh-TW": "體能",
-          "zh-CN": "活力"
+          "en": "+10 to Vitality",
+          "zh-TW": "+10 體能",
+          "zh-CN": "+10 活力"
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "Hel",
-        "zh-TW": "海爾",
-        "zh-CN": "海尔"
-      },
-      "count": 3,
-      "gemName": {
-        "en": "Chipped Diamond",
-        "zh-TW": "碎裂的鑽石",
-        "zh-CN": "碎裂的钻石"
-      }
-    },
-    "dropRate": {
-      "monster": {
-        "en": "The Countess",
-        "zh-TW": "女伯爵",
-        "zh-CN": "女伯爵"
-      },
-      "difficulty": "nightmare",
-      "percent": 3.69
-    }
+    ]
   },
   {
     "id": "rune-r17",
+    "code": "r17",
     "number": 17,
     "name": {
       "en": "Lum",
@@ -1160,70 +886,50 @@
     },
     "levelReq": 37,
     "invFile": "invrLum",
+    "hdIcon": "lum_rune",
     "weaponStats": [
       {
-        "key": "enr",
+        "code": "enr",
         "label": {
-          "en": "Energy",
-          "zh-TW": "能量",
-          "zh-CN": "能量"
+          "en": "+10 to Energy",
+          "zh-TW": "+10 能量",
+          "zh-CN": "+10 能量"
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "enr",
+        "code": "enr",
         "label": {
-          "en": "Energy",
-          "zh-TW": "能量",
-          "zh-CN": "能量"
+          "en": "+10 to Energy",
+          "zh-TW": "+10 能量",
+          "zh-CN": "+10 能量"
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "enr",
+        "code": "enr",
         "label": {
-          "en": "Energy",
-          "zh-TW": "能量",
-          "zh-CN": "能量"
+          "en": "+10 to Energy",
+          "zh-TW": "+10 能量",
+          "zh-CN": "+10 能量"
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "Io",
-        "zh-TW": "埃歐",
-        "zh-CN": "埃欧"
-      },
-      "count": 3,
-      "gemName": {
-        "en": "Flawed Topaz",
-        "zh-TW": "裂開的黃寶石",
-        "zh-CN": "裂开的黄宝石"
-      }
-    },
-    "dropRate": {
-      "monster": {
-        "en": "The Countess",
-        "zh-TW": "女伯爵",
-        "zh-CN": "女伯爵"
-      },
-      "difficulty": "hell",
-      "percent": 2.92
-    }
+    ]
   },
   {
     "id": "rune-r18",
+    "code": "r18",
     "number": 18,
     "name": {
       "en": "Ko",
@@ -1232,70 +938,50 @@
     },
     "levelReq": 39,
     "invFile": "invrKo",
+    "hdIcon": "ko_rune",
     "weaponStats": [
       {
-        "key": "dex",
+        "code": "dex",
         "label": {
-          "en": "Dexterity",
-          "zh-TW": "敏捷",
-          "zh-CN": "敏捷"
+          "en": "+10 to Dexterity",
+          "zh-TW": "+10 敏捷",
+          "zh-CN": "+10 敏捷"
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "dex",
+        "code": "dex",
         "label": {
-          "en": "Dexterity",
-          "zh-TW": "敏捷",
-          "zh-CN": "敏捷"
+          "en": "+10 to Dexterity",
+          "zh-TW": "+10 敏捷",
+          "zh-CN": "+10 敏捷"
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "dex",
+        "code": "dex",
         "label": {
-          "en": "Dexterity",
-          "zh-TW": "敏捷",
-          "zh-CN": "敏捷"
+          "en": "+10 to Dexterity",
+          "zh-TW": "+10 敏捷",
+          "zh-CN": "+10 敏捷"
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "Lum",
-        "zh-TW": "盧姆",
-        "zh-CN": "卢姆"
-      },
-      "count": 3,
-      "gemName": {
-        "en": "Flawed Amethyst",
-        "zh-TW": "裂開的紫寶石",
-        "zh-CN": "裂开的紫宝石"
-      }
-    },
-    "dropRate": {
-      "monster": {
-        "en": "The Countess",
-        "zh-TW": "女伯爵",
-        "zh-CN": "女伯爵"
-      },
-      "difficulty": "hell",
-      "percent": 1.95
-    }
+    ]
   },
   {
     "id": "rune-r19",
+    "code": "r19",
     "number": 19,
     "name": {
       "en": "Fal",
@@ -1304,142 +990,102 @@
     },
     "levelReq": 41,
     "invFile": "invrFal",
+    "hdIcon": "fal_rune",
     "weaponStats": [
       {
-        "key": "str",
+        "code": "str",
         "label": {
-          "en": "Strength",
-          "zh-TW": "力量",
-          "zh-CN": "力量"
+          "en": "+10 to Strength",
+          "zh-TW": "+10 力量",
+          "zh-CN": "+10 力量"
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "str",
+        "code": "str",
         "label": {
-          "en": "Strength",
-          "zh-TW": "力量",
-          "zh-CN": "力量"
+          "en": "+10 to Strength",
+          "zh-TW": "+10 力量",
+          "zh-CN": "+10 力量"
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "str",
+        "code": "str",
         "label": {
-          "en": "Strength",
-          "zh-TW": "力量",
-          "zh-CN": "力量"
+          "en": "+10 to Strength",
+          "zh-TW": "+10 力量",
+          "zh-CN": "+10 力量"
         },
         "min": 10,
         "max": 10,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "Ko",
-        "zh-TW": "科",
-        "zh-CN": "科"
-      },
-      "count": 3,
-      "gemName": {
-        "en": "Flawed Sapphire",
-        "zh-TW": "裂開的藍寶石",
-        "zh-CN": "裂开的蓝宝石"
-      }
-    },
-    "dropRate": {
-      "monster": {
-        "en": "The Countess",
-        "zh-TW": "女伯爵",
-        "zh-CN": "女伯爵"
-      },
-      "difficulty": "hell",
-      "percent": 1.5
-    }
+    ]
   },
   {
     "id": "rune-r20",
+    "code": "r20",
     "number": 20,
     "name": {
       "en": "Lem",
       "zh-TW": "藍姆",
-      "zh-CN": "蓝姆"
+      "zh-CN": "兰姆"
     },
     "levelReq": 43,
     "invFile": "invrLem",
+    "hdIcon": "lem_rune",
     "weaponStats": [
       {
-        "key": "gold%",
+        "code": "gold%",
         "label": {
-          "en": "Gold Find %",
-          "zh-TW": "怪物金幣掉落量提高 %",
-          "zh-CN": "怪物额外掉落金币 %"
+          "en": "75% Extra Gold from Monsters",
+          "zh-TW": "怪物金幣掉落量提高 75%",
+          "zh-CN": "75% 怪物额外掉落金币"
         },
         "min": 75,
         "max": 75,
-        "isSkillRef": false
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "gold%",
+        "code": "gold%",
         "label": {
-          "en": "Gold Find %",
-          "zh-TW": "怪物金幣掉落量提高 %",
-          "zh-CN": "怪物额外掉落金币 %"
+          "en": "50% Extra Gold from Monsters",
+          "zh-TW": "怪物金幣掉落量提高 50%",
+          "zh-CN": "50% 怪物额外掉落金币"
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "gold%",
+        "code": "gold%",
         "label": {
-          "en": "Gold Find %",
-          "zh-TW": "怪物金幣掉落量提高 %",
-          "zh-CN": "怪物额外掉落金币 %"
+          "en": "50% Extra Gold from Monsters",
+          "zh-TW": "怪物金幣掉落量提高 50%",
+          "zh-CN": "50% 怪物额外掉落金币"
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "Fal",
-        "zh-TW": "法爾",
-        "zh-CN": "法尔"
-      },
-      "count": 3,
-      "gemName": {
-        "en": "Flawed Ruby",
-        "zh-TW": "裂開的紅寶石",
-        "zh-CN": "裂开的红宝石"
-      }
-    },
-    "dropRate": {
-      "monster": {
-        "en": "The Countess",
-        "zh-TW": "女伯爵",
-        "zh-CN": "女伯爵"
-      },
-      "difficulty": "hell",
-      "percent": 1
-    }
+    ]
   },
   {
     "id": "rune-r21",
+    "code": "r21",
     "number": 21,
     "name": {
       "en": "Pul",
@@ -1448,81 +1094,61 @@
     },
     "levelReq": 45,
     "invFile": "invrPul",
+    "hdIcon": "pul_rune",
     "weaponStats": [
       {
-        "key": "att-demon",
+        "code": "dmg-demon",
         "label": {
-          "en": "Attack Rating vs. Demons",
-          "zh-TW": "對惡魔的準確率",
-          "zh-CN": "对恶魔的命中值"
-        },
-        "min": 100,
-        "max": 100,
-        "isSkillRef": false
-      },
-      {
-        "key": "dmg-demon",
-        "label": {
-          "en": "Damage to Demons",
-          "zh-TW": "對惡魔的傷害",
-          "zh-CN": "对恶魔的伤害"
+          "en": "+75% Damage to Demons",
+          "zh-TW": "+75% 對惡魔的傷害",
+          "zh-CN": "+75% 对恶魔的伤害"
         },
         "min": 75,
         "max": 75,
-        "isSkillRef": false
+        "variable": false
+      },
+      {
+        "code": "att-demon",
+        "label": {
+          "en": "+100 to Attack Rating against Demons",
+          "zh-TW": "+100 對惡魔的準確率",
+          "zh-CN": "+100 对恶魔的命中值"
+        },
+        "min": 100,
+        "max": 100,
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "ac%",
+        "code": "ac%",
         "label": {
-          "en": "Enhanced Defense %",
-          "zh-TW": "防禦強化 %",
-          "zh-CN": "强化防御 %"
+          "en": "+30% Enhanced Defense",
+          "zh-TW": "+30% 防禦強化",
+          "zh-CN": "+30% 强化防御"
         },
         "min": 30,
         "max": 30,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "ac%",
+        "code": "ac%",
         "label": {
-          "en": "Enhanced Defense %",
-          "zh-TW": "防禦強化 %",
-          "zh-CN": "强化防御 %"
+          "en": "+30% Enhanced Defense",
+          "zh-TW": "+30% 防禦強化",
+          "zh-CN": "+30% 强化防御"
         },
         "min": 30,
         "max": 30,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "Lem",
-        "zh-TW": "藍姆",
-        "zh-CN": "蓝姆"
-      },
-      "count": 3,
-      "gemName": {
-        "en": "Flawed Emerald",
-        "zh-TW": "裂開的綠寶石",
-        "zh-CN": "裂开的绿宝石"
-      }
-    },
-    "dropRate": {
-      "monster": {
-        "en": "The Countess",
-        "zh-TW": "女伯爵",
-        "zh-CN": "女伯爵"
-      },
-      "difficulty": "hell",
-      "percent": 0.76
-    }
+    ]
   },
   {
     "id": "rune-r22",
+    "code": "r22",
     "number": 22,
     "name": {
       "en": "Um",
@@ -1531,81 +1157,62 @@
     },
     "levelReq": 47,
     "invFile": "invrUm",
+    "hdIcon": "um_rune",
     "weaponStats": [
       {
-        "key": "openwounds",
+        "code": "openwounds",
         "label": {
-          "en": "Open Wounds %",
-          "zh-TW": "機率造成開放傷口 %",
-          "zh-CN": "几率造成开创性伤口 %"
+          "en": "25% Chance of Open Wounds",
+          "zh-TW": "+25% 機率造成開放傷口",
+          "zh-CN": "+25% 几率造成开创性伤口"
         },
         "min": 25,
         "max": 25,
-        "isSkillRef": false
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "res-all",
+        "code": "res-all",
         "label": {
-          "en": "All Resistances",
-          "zh-TW": "全抗性",
-          "zh-CN": "全抗性"
+          "en": "All Resistances +15",
+          "zh-TW": "所有抗性 +15",
+          "zh-CN": "+15 所有抗性"
         },
         "min": 15,
         "max": 15,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "res-all",
+        "code": "res-all",
         "label": {
-          "en": "All Resistances",
-          "zh-TW": "全抗性",
-          "zh-CN": "全抗性"
+          "en": "All Resistances +22",
+          "zh-TW": "所有抗性 +22",
+          "zh-CN": "+22 所有抗性"
         },
         "min": 22,
         "max": 22,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "Pul",
-        "zh-TW": "普爾",
-        "zh-CN": "普尔"
-      },
-      "count": 2,
-      "gemName": {
-        "en": "Flawed Diamond",
-        "zh-TW": "裂開的鑽石",
-        "zh-CN": "裂开的钻石"
-      }
-    },
-    "dropRate": {
-      "monster": {
-        "en": "The Countess",
-        "zh-TW": "女伯爵",
-        "zh-CN": "女伯爵"
-      },
-      "difficulty": "hell",
-      "percent": 0.51
-    }
+    ]
   },
   {
     "id": "rune-r23",
+    "code": "r23",
     "number": 23,
     "name": {
       "en": "Mal",
       "zh-TW": "馬爾",
-      "zh-CN": "马尔"
+      "zh-CN": "玛尔"
     },
     "levelReq": 49,
     "invFile": "invrMal",
+    "hdIcon": "mal_rune",
     "weaponStats": [
       {
-        "key": "noheal",
+        "code": "noheal",
         "label": {
           "en": "Prevent Monster Heal",
           "zh-TW": "防止怪物自療",
@@ -1613,60 +1220,39 @@
         },
         "min": 1,
         "max": 1,
-        "isSkillRef": false
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "red-mag",
+        "code": "red-mag",
         "label": {
-          "en": "Magic Damage Reduced",
-          "zh-TW": "魔法傷害降低",
-          "zh-CN": "魔法伤害降低"
+          "en": "Magic Damage Reduced by 7",
+          "zh-TW": "魔法傷害降低 7",
+          "zh-CN": "魔法伤害降低 7"
         },
         "min": 7,
         "max": 7,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "red-mag",
+        "code": "red-mag",
         "label": {
-          "en": "Magic Damage Reduced",
-          "zh-TW": "魔法傷害降低",
-          "zh-CN": "魔法伤害降低"
+          "en": "Magic Damage Reduced by 7",
+          "zh-TW": "魔法傷害降低 7",
+          "zh-CN": "魔法伤害降低 7"
         },
         "min": 7,
         "max": 7,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "Um",
-        "zh-TW": "烏姆",
-        "zh-CN": "乌姆"
-      },
-      "count": 2,
-      "gemName": {
-        "en": "Topaz",
-        "zh-TW": "黃寶石",
-        "zh-CN": "黄宝石"
-      }
-    },
-    "dropRate": {
-      "monster": {
-        "en": "The Countess",
-        "zh-TW": "女伯爵",
-        "zh-CN": "女伯爵"
-      },
-      "difficulty": "hell",
-      "percent": 0.52
-    }
+    ]
   },
   {
     "id": "rune-r24",
+    "code": "r24",
     "number": 24,
     "name": {
       "en": "Ist",
@@ -1675,70 +1261,50 @@
     },
     "levelReq": 51,
     "invFile": "invrIst",
+    "hdIcon": "ist_rune",
     "weaponStats": [
       {
-        "key": "mag%",
+        "code": "mag%",
         "label": {
-          "en": "Magic Find %",
-          "zh-TW": "尋獲魔法物品機率提高 %",
-          "zh-CN": "额外几率获得魔法物品 %"
+          "en": "30% Better Chance of Getting Magic Items",
+          "zh-TW": "尋獲魔法物品機率提高 30%",
+          "zh-CN": "30% 额外几率获得魔法物品"
         },
         "min": 30,
         "max": 30,
-        "isSkillRef": false
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "mag%",
+        "code": "mag%",
         "label": {
-          "en": "Magic Find %",
-          "zh-TW": "尋獲魔法物品機率提高 %",
-          "zh-CN": "额外几率获得魔法物品 %"
+          "en": "25% Better Chance of Getting Magic Items",
+          "zh-TW": "尋獲魔法物品機率提高 25%",
+          "zh-CN": "25% 额外几率获得魔法物品"
         },
         "min": 25,
         "max": 25,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "mag%",
+        "code": "mag%",
         "label": {
-          "en": "Magic Find %",
-          "zh-TW": "尋獲魔法物品機率提高 %",
-          "zh-CN": "额外几率获得魔法物品 %"
+          "en": "25% Better Chance of Getting Magic Items",
+          "zh-TW": "尋獲魔法物品機率提高 25%",
+          "zh-CN": "25% 额外几率获得魔法物品"
         },
         "min": 25,
         "max": 25,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "Mal",
-        "zh-TW": "馬爾",
-        "zh-CN": "马尔"
-      },
-      "count": 2,
-      "gemName": {
-        "en": "Amethyst",
-        "zh-TW": "紫寶石",
-        "zh-CN": "紫宝石"
-      }
-    },
-    "dropRate": {
-      "monster": {
-        "en": "The Countess",
-        "zh-TW": "女伯爵",
-        "zh-CN": "女伯爵"
-      },
-      "difficulty": "hell",
-      "percent": 0.35
-    }
+    ]
   },
   {
     "id": "rune-r25",
+    "code": "r25",
     "number": 25,
     "name": {
       "en": "Gul",
@@ -1747,70 +1313,50 @@
     },
     "levelReq": 53,
     "invFile": "invrGul",
+    "hdIcon": "gul_rune",
     "weaponStats": [
       {
-        "key": "att%",
+        "code": "att%",
         "label": {
-          "en": "Attack Rating %",
-          "zh-TW": "準確率加成 %",
-          "zh-CN": "加成命中值 %"
+          "en": "20% Bonus to Attack Rating",
+          "zh-TW": "20% 準確率加成",
+          "zh-CN": "20% 加成命中值"
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "res-pois-max",
+        "code": "res-pois-max",
         "label": {
-          "en": "Maximum Poison Resist %",
-          "zh-TW": "最大毒素抗性 %",
-          "zh-CN": "最大毒素抗性 %"
+          "en": "+5% to Maximum Poison Resist",
+          "zh-TW": "毒素抗性上限 +5%",
+          "zh-CN": "+5% 毒素抗性上限"
         },
         "min": 5,
         "max": 5,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "res-pois-max",
+        "code": "res-pois-max",
         "label": {
-          "en": "Maximum Poison Resist %",
-          "zh-TW": "最大毒素抗性 %",
-          "zh-CN": "最大毒素抗性 %"
+          "en": "+5% to Maximum Poison Resist",
+          "zh-TW": "毒素抗性上限 +5%",
+          "zh-CN": "+5% 毒素抗性上限"
         },
         "min": 5,
         "max": 5,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "Ist",
-        "zh-TW": "伊司特",
-        "zh-CN": "伊司特"
-      },
-      "count": 2,
-      "gemName": {
-        "en": "Sapphire",
-        "zh-TW": "藍寶石",
-        "zh-CN": "蓝宝石"
-      }
-    },
-    "dropRate": {
-      "monster": {
-        "en": "Council Member",
-        "zh-TW": "議會成員",
-        "zh-CN": "议会成员"
-      },
-      "difficulty": "hell",
-      "percent": 0.0048
-    }
+    ]
   },
   {
     "id": "rune-r26",
+    "code": "r26",
     "number": 26,
     "name": {
       "en": "Vex",
@@ -1819,70 +1365,50 @@
     },
     "levelReq": 55,
     "invFile": "invrVex",
+    "hdIcon": "vex_rune",
     "weaponStats": [
       {
-        "key": "manasteal",
+        "code": "manasteal",
         "label": {
-          "en": "Mana Steal %",
-          "zh-TW": "魔力竊取 %",
-          "zh-CN": "魔力窃取 %"
+          "en": "7% Mana stolen per hit",
+          "zh-TW": "擊中竊取 7% 法力",
+          "zh-CN": "7% 击中时偷取法力"
         },
         "min": 7,
         "max": 7,
-        "isSkillRef": false
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "res-fire-max",
+        "code": "res-fire-max",
         "label": {
-          "en": "Maximum Fire Resist %",
-          "zh-TW": "最大火焰抗性 %",
-          "zh-CN": "最大火焰抗性 %"
+          "en": "+5% to Maximum Fire Resist",
+          "zh-TW": "火焰抗性上限 +5%",
+          "zh-CN": "+5% 火焰抗性上限"
         },
         "min": 5,
         "max": 5,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "res-fire-max",
+        "code": "res-fire-max",
         "label": {
-          "en": "Maximum Fire Resist %",
-          "zh-TW": "最大火焰抗性 %",
-          "zh-CN": "最大火焰抗性 %"
+          "en": "+5% to Maximum Fire Resist",
+          "zh-TW": "火焰抗性上限 +5%",
+          "zh-CN": "+5% 火焰抗性上限"
         },
         "min": 5,
         "max": 5,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "Gul",
-        "zh-TW": "古爾",
-        "zh-CN": "古尔"
-      },
-      "count": 2,
-      "gemName": {
-        "en": "Ruby",
-        "zh-TW": "紅寶石",
-        "zh-CN": "红宝石"
-      }
-    },
-    "dropRate": {
-      "monster": {
-        "en": "Council Member",
-        "zh-TW": "議會成員",
-        "zh-CN": "议会成员"
-      },
-      "difficulty": "hell",
-      "percent": 0.0032
-    }
+    ]
   },
   {
     "id": "rune-r27",
+    "code": "r27",
     "number": 27,
     "name": {
       "en": "Ohm",
@@ -1891,70 +1417,50 @@
     },
     "levelReq": 57,
     "invFile": "invrOhm",
+    "hdIcon": "ohm_rune",
     "weaponStats": [
       {
-        "key": "dmg%",
+        "code": "dmg%",
         "label": {
-          "en": "Enhanced Damage %",
-          "zh-TW": "傷害強化 %",
-          "zh-CN": "强化伤害 %"
+          "en": "+50% Enhanced Damage",
+          "zh-TW": "+50% 傷害強化",
+          "zh-CN": "+50% 强化伤害"
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "res-cold-max",
+        "code": "res-cold-max",
         "label": {
-          "en": "Maximum Cold Resist %",
-          "zh-TW": "最大冷凍抗性 %",
-          "zh-CN": "最大冷冻抗性 %"
+          "en": "+5% to Maximum Cold Resist",
+          "zh-TW": "冰寒抗性上限 +5%",
+          "zh-CN": "+5% 冰霜抗性上限"
         },
         "min": 5,
         "max": 5,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "res-cold-max",
+        "code": "res-cold-max",
         "label": {
-          "en": "Maximum Cold Resist %",
-          "zh-TW": "最大冷凍抗性 %",
-          "zh-CN": "最大冷冻抗性 %"
+          "en": "+5% to Maximum Cold Resist",
+          "zh-TW": "冰寒抗性上限 +5%",
+          "zh-CN": "+5% 冰霜抗性上限"
         },
         "min": 5,
         "max": 5,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "Vex",
-        "zh-TW": "伐克斯",
-        "zh-CN": "伐克斯"
-      },
-      "count": 2,
-      "gemName": {
-        "en": "Emerald",
-        "zh-TW": "綠寶石",
-        "zh-CN": "绿宝石"
-      }
-    },
-    "dropRate": {
-      "monster": {
-        "en": "Council Member",
-        "zh-TW": "議會成員",
-        "zh-CN": "议会成员"
-      },
-      "difficulty": "hell",
-      "percent": 0.0033
-    }
+    ]
   },
   {
     "id": "rune-r28",
+    "code": "r28",
     "number": 28,
     "name": {
       "en": "Lo",
@@ -1963,70 +1469,50 @@
     },
     "levelReq": 59,
     "invFile": "invrLo",
+    "hdIcon": "lo_rune",
     "weaponStats": [
       {
-        "key": "deadly",
+        "code": "deadly",
         "label": {
-          "en": "Deadly Strike %",
-          "zh-TW": "致命打擊 %",
-          "zh-CN": "致死打击 %"
+          "en": "20% Deadly Strike",
+          "zh-TW": "+20% 致命打擊",
+          "zh-CN": "+20% 致死打击"
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "res-ltng-max",
+        "code": "res-ltng-max",
         "label": {
-          "en": "Maximum Lightning Resist %",
-          "zh-TW": "最大閃電抗性 %",
-          "zh-CN": "最大闪电抗性 %"
+          "en": "+5% to Maximum Lightning Resist",
+          "zh-TW": "電擊抗性上限 +5%",
+          "zh-CN": "+5% 闪电抗性上限"
         },
         "min": 5,
         "max": 5,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "res-ltng-max",
+        "code": "res-ltng-max",
         "label": {
-          "en": "Maximum Lightning Resist %",
-          "zh-TW": "最大閃電抗性 %",
-          "zh-CN": "最大闪电抗性 %"
+          "en": "+5% to Maximum Lightning Resist",
+          "zh-TW": "電擊抗性上限 +5%",
+          "zh-CN": "+5% 闪电抗性上限"
         },
         "min": 5,
         "max": 5,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "Ohm",
-        "zh-TW": "歐姆",
-        "zh-CN": "欧姆"
-      },
-      "count": 2,
-      "gemName": {
-        "en": "Diamond",
-        "zh-TW": "鑽石",
-        "zh-CN": "钻石"
-      }
-    },
-    "dropRate": {
-      "monster": {
-        "en": "Council Member",
-        "zh-TW": "議會成員",
-        "zh-CN": "议会成员"
-      },
-      "difficulty": "hell",
-      "percent": 0.0022
-    }
+    ]
   },
   {
     "id": "rune-r29",
+    "code": "r29",
     "number": 29,
     "name": {
       "en": "Sur",
@@ -2035,70 +1521,50 @@
     },
     "levelReq": 61,
     "invFile": "invrSur",
+    "hdIcon": "sur_rune",
     "weaponStats": [
       {
-        "key": "stupidity",
+        "code": "stupidity",
         "label": {
-          "en": "Hit Blinds Target",
+          "en": "Hit Blinds Target +1",
           "zh-TW": "擊中使目標目盲",
           "zh-CN": "命中可致盲目标"
         },
         "min": 1,
         "max": 1,
-        "isSkillRef": false
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "mana%",
+        "code": "mana%",
         "label": {
-          "en": "Increase Maximum Mana %",
-          "zh-TW": "法力上限提高 %",
-          "zh-CN": "法力最大值 %"
+          "en": "Increase Maximum Mana 5%",
+          "zh-TW": "法力上限提高 5%",
+          "zh-CN": "+5% 法力最大值"
         },
         "min": 5,
         "max": 5,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "mana",
+        "code": "mana",
         "label": {
-          "en": "Mana",
-          "zh-TW": "法力",
-          "zh-CN": "法力"
+          "en": "+50 to Mana",
+          "zh-TW": "+50 法力",
+          "zh-CN": "+50 法力"
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "Lo",
-        "zh-TW": "羅",
-        "zh-CN": "罗"
-      },
-      "count": 2,
-      "gemName": {
-        "en": "Flawless Topaz",
-        "zh-TW": "無暇疵的黃寶石",
-        "zh-CN": "无暇疵的黄宝石"
-      }
-    },
-    "dropRate": {
-      "monster": {
-        "en": "Council Member",
-        "zh-TW": "議會成員",
-        "zh-CN": "议会成员"
-      },
-      "difficulty": "hell",
-      "percent": 0.0025
-    }
+    ]
   },
   {
     "id": "rune-r30",
+    "code": "r30",
     "number": 30,
     "name": {
       "en": "Ber",
@@ -2107,142 +1573,102 @@
     },
     "levelReq": 63,
     "invFile": "invrBer",
+    "hdIcon": "ber_rune",
     "weaponStats": [
       {
-        "key": "crush",
+        "code": "crush",
         "label": {
-          "en": "Crushing Blow %",
-          "zh-TW": "機率造成粉碎打擊 %",
-          "zh-CN": "几率粉碎打击 %"
+          "en": "20% Chance of Crushing Blow",
+          "zh-TW": "+20% 機率造成粉碎打擊",
+          "zh-CN": "+20% 几率粉碎打击"
         },
         "min": 20,
         "max": 20,
-        "isSkillRef": false
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "red-dmg%",
+        "code": "red-dmg%",
         "label": {
-          "en": "Damage Reduced %",
-          "zh-TW": "受到的物理傷害降低 %",
-          "zh-CN": "受到的物理伤害降低 %"
+          "en": "Damage Reduced by 8%",
+          "zh-TW": "受到的物理傷害降低 8%",
+          "zh-CN": "受到的物理伤害降低 8%"
         },
         "min": 8,
         "max": 8,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "red-dmg%",
+        "code": "red-dmg%",
         "label": {
-          "en": "Damage Reduced %",
-          "zh-TW": "受到的物理傷害降低 %",
-          "zh-CN": "受到的物理伤害降低 %"
+          "en": "Damage Reduced by 8%",
+          "zh-TW": "受到的物理傷害降低 8%",
+          "zh-CN": "受到的物理伤害降低 8%"
         },
         "min": 8,
         "max": 8,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "Sur",
-        "zh-TW": "瑟",
-        "zh-CN": "瑟"
-      },
-      "count": 2,
-      "gemName": {
-        "en": "Flawless Amethyst",
-        "zh-TW": "無暇疵的紫寶石",
-        "zh-CN": "无暇疵的紫宝石"
-      }
-    },
-    "dropRate": {
-      "monster": {
-        "en": "Council Member",
-        "zh-TW": "議會成員",
-        "zh-CN": "议会成员"
-      },
-      "difficulty": "hell",
-      "percent": 0.0017
-    }
+    ]
   },
   {
     "id": "rune-r31",
+    "code": "r31",
     "number": 31,
     "name": {
       "en": "Jah",
       "zh-TW": "喬",
-      "zh-CN": "乔"
+      "zh-CN": "扎哈"
     },
     "levelReq": 65,
     "invFile": "invrJo",
+    "hdIcon": "jah_rune",
     "weaponStats": [
       {
-        "key": "ignore-ac",
+        "code": "ignore-ac",
         "label": {
-          "en": "Ignore Target Defense",
+          "en": "Ignore Target's Defense",
           "zh-TW": "無視目標防禦",
           "zh-CN": "忽略目标的防御"
         },
         "min": 1,
         "max": 1,
-        "isSkillRef": false
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "hp%",
+        "code": "hp%",
         "label": {
-          "en": "Increase Maximum Life %",
-          "zh-TW": "生命上限提高 %",
-          "zh-CN": "生命最大值 %"
+          "en": "Increase Maximum Life 5%",
+          "zh-TW": "生命上限提高 5%",
+          "zh-CN": "+5% 生命最大值"
         },
         "min": 5,
         "max": 5,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "hp",
+        "code": "hp",
         "label": {
-          "en": "Life",
-          "zh-TW": "生命",
-          "zh-CN": "生命"
+          "en": "+50 to Life",
+          "zh-TW": "+50 生命",
+          "zh-CN": "+50 生命"
         },
         "min": 50,
         "max": 50,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "Ber",
-        "zh-TW": "貝",
-        "zh-CN": "贝"
-      },
-      "count": 2,
-      "gemName": {
-        "en": "Flawless Sapphire",
-        "zh-TW": "無暇疵的藍寶石",
-        "zh-CN": "无暇疵的蓝宝石"
-      }
-    },
-    "dropRate": {
-      "monster": {
-        "en": "Council Member",
-        "zh-TW": "議會成員",
-        "zh-CN": "议会成员"
-      },
-      "difficulty": "hell",
-      "percent": 0.0018
-    }
+    ]
   },
   {
     "id": "rune-r32",
+    "code": "r32",
     "number": 32,
     "name": {
       "en": "Cham",
@@ -2251,22 +1677,23 @@
     },
     "levelReq": 67,
     "invFile": "invrCham",
+    "hdIcon": "cham_rune",
     "weaponStats": [
       {
-        "key": "freeze",
+        "code": "freeze",
         "label": {
-          "en": "Hit Freezes Target",
+          "en": "Freezes Target +3",
           "zh-TW": "凍結目標",
           "zh-CN": "冻结目标"
         },
         "min": 3,
         "max": 3,
-        "isSkillRef": false
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "nofreeze",
+        "code": "nofreeze",
         "label": {
           "en": "Cannot Be Frozen",
           "zh-TW": "無法凍結",
@@ -2274,12 +1701,12 @@
         },
         "min": 1,
         "max": 1,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "nofreeze",
+        "code": "nofreeze",
         "label": {
           "en": "Cannot Be Frozen",
           "zh-TW": "無法凍結",
@@ -2287,45 +1714,25 @@
         },
         "min": 1,
         "max": 1,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "Jah",
-        "zh-TW": "喬",
-        "zh-CN": "乔"
-      },
-      "count": 2,
-      "gemName": {
-        "en": "Flawless Ruby",
-        "zh-TW": "無暇疵的紅寶石",
-        "zh-CN": "无暇疵的红宝石"
-      }
-    },
-    "dropRate": {
-      "monster": {
-        "en": "Council Member",
-        "zh-TW": "議會成員",
-        "zh-CN": "议会成员"
-      },
-      "difficulty": "hell",
-      "percent": 0.0012
-    }
+    ]
   },
   {
     "id": "rune-r33",
+    "code": "r33",
     "number": 33,
     "name": {
       "en": "Zod",
       "zh-TW": "薩德",
-      "zh-CN": "萨德"
+      "zh-CN": "佐德"
     },
     "levelReq": 69,
     "invFile": "invrZod",
+    "hdIcon": "zod_rune",
     "weaponStats": [
       {
-        "key": "indestruct",
+        "code": "indestruct",
         "label": {
           "en": "Indestructible",
           "zh-TW": "永不毀損",
@@ -2333,12 +1740,12 @@
         },
         "min": 1,
         "max": 1,
-        "isSkillRef": false
+        "variable": false
       }
     ],
-    "armorHelmStats": [
+    "helmStats": [
       {
-        "key": "indestruct",
+        "code": "indestruct",
         "label": {
           "en": "Indestructible",
           "zh-TW": "永不毀損",
@@ -2346,12 +1753,12 @@
         },
         "min": 1,
         "max": 1,
-        "isSkillRef": false
+        "variable": false
       }
     ],
     "shieldStats": [
       {
-        "key": "indestruct",
+        "code": "indestruct",
         "label": {
           "en": "Indestructible",
           "zh-TW": "永不毀損",
@@ -2359,30 +1766,8 @@
         },
         "min": 1,
         "max": 1,
-        "isSkillRef": false
+        "variable": false
       }
-    ],
-    "recipe": {
-      "runeName": {
-        "en": "Cham",
-        "zh-TW": "查姆",
-        "zh-CN": "查姆"
-      },
-      "count": 2,
-      "gemName": {
-        "en": "Flawless Emerald",
-        "zh-TW": "無暇疵的綠寶石",
-        "zh-CN": "无暇疵的绿宝石"
-      }
-    },
-    "dropRate": {
-      "monster": {
-        "en": "Nihlathak",
-        "zh-TW": "尼拉塞克",
-        "zh-CN": "尼拉塞克"
-      },
-      "difficulty": "hell",
-      "percent": 0.00047
-    }
+    ]
   }
 ]

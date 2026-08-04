@@ -2,7 +2,7 @@ import { describe, it, expect, vi } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
 import { NextIntlClientProvider } from 'next-intl';
 import messages from '../../../../../messages/en.json';
-import runewordsFull from '../../../../../data/runewords-full.json';
+import runewordsFull from '../../../../../data/runewords.json';
 
 vi.mock('next-intl', async () => {
   const actual = await vi.importActual('next-intl');

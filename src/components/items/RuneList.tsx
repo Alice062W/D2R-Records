@@ -4,27 +4,52 @@ import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import type runesJson from '../../../data/runes.json';
 import { BASE_PATH } from '@/lib/basePath';
-import { signedValue } from '@/lib/grail/formatStat';
 
 type Rune = (typeof runesJson)[number];
 type Locale = 'en' | 'zh-TW' | 'zh-CN';
-// Same JSON-module type-inference widening as CraftedItemList.tsx — an
-// optional `composed` field (only present on "chance to cast" entries)
-// makes runes.json's stat-array element type non-uniform.
-type RuneStatEntry = { key: string; label: Record<Locale, string>; min: number; max: number; isSkillRef: boolean; composed?: boolean; signed?: boolean };
+type RuneStatEntry = Rune['weaponStats'][number];
 
-function RuneIcon({ invFile }: { invFile: string }) {
+function PropertyLine({ label, variable }: { label: string; variable: boolean }) {
+  return (
+    <div className={`flex items-start gap-1.5 ${variable ? 'font-bold' : ''}`}>
+      <span aria-hidden="true" className="text-muted">•</span>
+      <span>
+        {label}
+        {variable && <span aria-hidden="true" title="Variable roll"> 🎲</span>}
+      </span>
+    </div>
+  );
+}
+
+function RuneIcon({ hdIcon, invFile }: { hdIcon: string | null; invFile: string | null }) {
   const [iconFailed, setIconFailed] = useState(false);
-  if (!invFile || iconFailed) return null;
+  const [hdIconFailed, setHdIconFailed] = useState(false);
+  if ((!hdIcon && !invFile) || iconFailed) return null;
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
-      src={`${BASE_PATH}/items/inv/${invFile}.png`}
+      src={hdIcon && !hdIconFailed ? `${BASE_PATH}/items/hd/${hdIcon}.png` : `${BASE_PATH}/items/inv/${invFile}.png`}
       alt=""
       aria-hidden="true"
       className="w-10 h-10 object-contain shrink-0"
-      onError={() => setIconFailed(true)}
+      onError={() => {
+        if (hdIcon && !hdIconFailed) setHdIconFailed(true);
+        else setIconFailed(true);
+      }}
     />
+  );
+}
+
+function StatColumn({ label, stats, locale }: { label: string; stats: RuneStatEntry[]; locale: Locale }) {
+  return (
+    <div>
+      <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{label}</h4>
+      <div className="text-[#8080f3] flex flex-col gap-0.5">
+        {stats.map((s, i) => (
+          <PropertyLine key={`${s.code}-${i}`} label={s.label[locale]} variable={s.variable} />
+        ))}
+      </div>
+    </div>
   );
 }
 
@@ -41,7 +66,7 @@ export default function RuneList({ runes, locale }: { runes: Rune[]; locale: Loc
         >
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <RuneIcon invFile={rune.invFile} />
+              <RuneIcon hdIcon={rune.hdIcon} invFile={rune.invFile} />
               <h3 className="text-lg font-bold text-[#cbb87f]">{rune.name[locale]}</h3>
             </div>
             <span className="text-xs text-muted">#{rune.number}</span>
@@ -50,33 +75,9 @@ export default function RuneList({ runes, locale }: { runes: Rune[]; locale: Loc
             {t('runesLevelReqLabel')}: {rune.levelReq}
           </div>
           <div className="mt-3 grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm">
-            <div>
-              <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('runesWeaponLabel')}</h4>
-              <div className="text-[#8080f3] flex flex-col gap-0.5">
-                {(rune.weaponStats as RuneStatEntry[]).map(s => <div key={s.key}>{s.composed ? s.label[locale] : `${s.label[locale]}: ${signedValue(s.min, s.signed)}`}</div>)}
-              </div>
-            </div>
-            <div>
-              <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('runesArmorHelmLabel')}</h4>
-              <div className="text-[#8080f3] flex flex-col gap-0.5">
-                {(rune.armorHelmStats as RuneStatEntry[]).map(s => <div key={s.key}>{s.composed ? s.label[locale] : `${s.label[locale]}: ${signedValue(s.min, s.signed)}`}</div>)}
-              </div>
-            </div>
-            <div>
-              <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('runesShieldLabel')}</h4>
-              <div className="text-[#8080f3] flex flex-col gap-0.5">
-                {(rune.shieldStats as RuneStatEntry[]).map(s => <div key={s.key}>{s.composed ? s.label[locale] : `${s.label[locale]}: ${signedValue(s.min, s.signed)}`}</div>)}
-              </div>
-            </div>
-          </div>
-          {rune.recipe && (
-            <div className="mt-3 text-sm text-muted">
-              {t('runesRecipeLabel')}: {rune.recipe.runeName[locale]} x{rune.recipe.count}
-              {rune.recipe.gemName ? ` + ${rune.recipe.gemName[locale]}` : ''}
-            </div>
-          )}
-          <div className="mt-2 text-xs text-muted">
-            {t('runesDropRateLabel')}: {t(`difficulty_${rune.dropRate.difficulty}` as never)} {rune.dropRate.monster[locale]} {rune.dropRate.percent}%
+            <StatColumn label={t('runesWeaponLabel')} stats={rune.weaponStats} locale={locale} />
+            <StatColumn label={t('runesArmorHelmLabel')} stats={rune.helmStats} locale={locale} />
+            <StatColumn label={t('runesShieldLabel')} stats={rune.shieldStats} locale={locale} />
           </div>
         </div>
       ))}

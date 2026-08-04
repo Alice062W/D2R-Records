@@ -27,17 +27,20 @@ describe('RuneList', () => {
     expect(container.querySelector('#rune-r33')).not.toBeNull(); // Zod
   });
 
-  it('shows the recipe for a rune that has one, and none for El', () => {
-    render(
+  it('renders the icon when the rune has an hdIcon (preferred over invFile)', () => {
+    const rune = runes[0]; // El rune
+    const { container } = render(
       <NextIntlClientProvider locale="en" messages={messages}>
-        <RuneList runes={runes} locale="en" />
+        <RuneList runes={[rune]} locale="en" />
       </NextIntlClientProvider>
     );
-    expect(screen.getByText(/Eld x3/)).toBeInTheDocument();
+    const img = container.querySelector('img') as HTMLImageElement;
+    expect(img).not.toBeNull();
+    expect(img.src).toContain(`/items/hd/${rune.hdIcon}.png`);
   });
 
-  it('renders the icon when the rune has an invFile', () => {
-    const rune = runes[0]; // El rune
+  it('falls back to the classic icon when hdIcon is missing', () => {
+    const rune = { ...runes[0], hdIcon: null as unknown as string };
     const { container } = render(
       <NextIntlClientProvider locale="en" messages={messages}>
         <RuneList runes={[rune]} locale="en" />
@@ -48,8 +51,8 @@ describe('RuneList', () => {
     expect(img.src).toContain('/items/inv/invrEl.png');
   });
 
-  it('renders no icon when invFile is empty', () => {
-    const rune = { ...runes[0], invFile: '' };
+  it('renders no icon when both hdIcon and invFile are empty', () => {
+    const rune = { ...runes[0], hdIcon: null as unknown as string, invFile: '' };
     const { container } = render(
       <NextIntlClientProvider locale="en" messages={messages}>
         <RuneList runes={[rune]} locale="en" />

@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
-import runewordsFull from '../../../../../data/runewords-full.json';
+import runewordsFull from '../../../../../data/runewords.json';
 import RunewordFilters from '@/components/items/RunewordFilters';
 import RunewordList from '@/components/items/RunewordList';
 import CollectionBadge from '@/components/items/CollectionBadge';

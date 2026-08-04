@@ -307,60 +307,18 @@ describe('runes.json', () => {
     expect(runesData[32].name.en).toBe('Zod');
   });
 
-  it('El has the correct weapon/armor-helm/shield stats and no recipe', () => {
+  it('El has the correct weapon/helm/shield stats', () => {
     const el = runesData.find(r => r.name.en === 'El')!;
     expect(el.levelReq).toBe(11);
-    expect(el.weaponStats.map(s => s.key)).toEqual(['light', 'att']);
-    expect(el.armorHelmStats.map(s => s.key)).toEqual(['light', 'ac']);
-    expect(el.recipe).toBeNull();
-  });
-
-  it('Eld has a simple 3x-previous-rune recipe (no gem), runeName localized', () => {
-    const eld = runesData.find(r => r.name.en === 'Eld')!;
-    expect(eld.recipe).toEqual({
-      runeName: { en: 'El', 'zh-TW': '艾爾', 'zh-CN': '艾尔' },
-      count: 3,
-      gemName: null,
-    });
-  });
-
-  it('Amn has a gem-inclusive recipe (the first one), runeName and gemName localized', () => {
-    const amn = runesData.find(r => r.name.en === 'Amn')!;
-    expect(amn.recipe).toEqual({
-      runeName: { en: 'Thul', 'zh-TW': '書爾', 'zh-CN': '书尔' },
-      count: 3,
-      gemName: { en: 'Chipped Topaz', 'zh-TW': '碎裂的黃寶石', 'zh-CN': '碎裂的黄宝石' },
-    });
-  });
-
-  it('Um has a 2x-count recipe (the first 2x tier), runeName and gemName localized', () => {
-    const um = runesData.find(r => r.name.en === 'Um')!;
-    expect(um.recipe).toEqual({
-      runeName: { en: 'Pul', 'zh-TW': '普爾', 'zh-CN': '普尔' },
-      count: 2,
-      gemName: { en: 'Flawed Diamond', 'zh-TW': '裂開的鑽石', 'zh-CN': '裂开的钻石' },
-    });
+    expect(el.weaponStats.map(s => s.code)).toEqual(['att', 'light']);
+    expect(el.helmStats.map(s => s.code)).toEqual(['ac', 'light']);
+    expect(el.shieldStats.map(s => s.code)).toEqual(['ac', 'light']);
   });
 
   it('every rune name is localized (not falling back to English)', () => {
     for (const r of runesData) {
       expect(r.name['zh-TW']).not.toBe(r.name.en);
     }
-  });
-
-  it('every rune has a dropRate with a localized monster, difficulty, and percent', () => {
-    for (const r of runesData) {
-      expect(r.dropRate.monster.en.length).toBeGreaterThan(0);
-      expect(r.dropRate.monster['zh-TW'].length).toBeGreaterThan(0);
-      expect(r.dropRate.monster['zh-CN'].length).toBeGreaterThan(0);
-      expect(['normal', 'nightmare', 'hell']).toContain(r.dropRate.difficulty);
-      expect(r.dropRate.percent).toBeGreaterThan(0);
-    }
-  });
-
-  it("The Countess' drop rate monster name is localized (not raw English)", () => {
-    const el = runesData.find(r => r.name.en === 'El')!;
-    expect(el.dropRate.monster).toEqual({ en: 'The Countess', 'zh-TW': '女伯爵', 'zh-CN': '女伯爵' });
   });
 
   it('zh-TW names are non-empty for every rune', () => {

@@ -7,17 +7,21 @@ import { BASE_PATH } from '@/lib/basePath';
 type Rune = (typeof runesJson)[number];
 type Locale = 'en' | 'zh-TW' | 'zh-CN';
 
-function MapRuneIcon({ invFile }: { invFile: string }) {
+function MapRuneIcon({ hdIcon, invFile }: { hdIcon: string | null; invFile: string | null }) {
   const [iconFailed, setIconFailed] = useState(false);
-  if (!invFile || iconFailed) return null;
+  const [hdIconFailed, setHdIconFailed] = useState(false);
+  if ((!hdIcon && !invFile) || iconFailed) return null;
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
-      src={`${BASE_PATH}/items/inv/${invFile}.png`}
+      src={hdIcon && !hdIconFailed ? `${BASE_PATH}/items/hd/${hdIcon}.png` : `${BASE_PATH}/items/inv/${invFile}.png`}
       alt=""
       aria-hidden="true"
       className="w-8 h-8 object-contain shrink-0"
-      onError={() => setIconFailed(true)}
+      onError={() => {
+        if (hdIcon && !hdIconFailed) setHdIconFailed(true);
+        else setIconFailed(true);
+      }}
     />
   );
 }
@@ -35,7 +39,7 @@ export default function RuneMap({ runes, locale }: { runes: Rune[]; locale: Loca
             href={`#${rune.id}`}
             className="flex flex-col items-center gap-1 px-2 py-3 rounded-lg border border-panel-border bg-panel-alt hover:border-gold hover:bg-panel transition-colors text-center"
           >
-            <MapRuneIcon invFile={rune.invFile} />
+            <MapRuneIcon hdIcon={rune.hdIcon} invFile={rune.invFile} />
             <span className="text-xs font-semibold text-[#cbb87f]">{rune.name[locale]}</span>
             <span className="text-[10px] text-muted">#{rune.number}</span>
           </a>

@@ -18,11 +18,11 @@ describe('RuneMap', () => {
     expect(links[32]).toHaveAttribute('href', '#rune-r33'); // Zod
   });
 
-  it('renders the icon when the rune has an invFile', () => {
+  it('renders the icon when the rune has an hdIcon (preferred over invFile)', () => {
     const rune = runes[0]; // El rune
     const { container } = render(<RuneMap runes={[rune]} locale="en" />);
     const img = container.querySelector('img') as HTMLImageElement;
     expect(img).not.toBeNull();
-    expect(img.src).toContain('/items/inv/invrEl.png');
+    expect(img.src).toContain(`/items/hd/${rune.hdIcon}.png`);
   });
 });

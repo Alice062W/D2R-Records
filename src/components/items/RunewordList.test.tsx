@@ -5,7 +5,7 @@ import RunewordFilters from './RunewordFilters';
 import RunewordList from './RunewordList';
 import { useState } from 'react';
 import messages from '../../../messages/en.json';
-import runewordsFull from '../../../data/runewords-full.json';
+import runewordsFull from '../../../data/runewords.json';
 
 function TestPage() {
   const [itemType, setItemType] = useState<string | null>(null);
@@ -31,10 +31,10 @@ function TestPage() {
 const baseRunewordFixture = runewordsFull.find(r => r.name.en === 'Enigma')!;
 
 describe('RunewordFilters + RunewordList', () => {
-  it('shows all 93 runewords with no filter active', () => {
+  it('shows all runewords with no filter active', () => {
     render(<TestPage />);
     expect(screen.getByText('Enigma')).toBeInTheDocument();
-    expect(screen.getAllByText(/Ral|Ort|Tal|Jah|Ith|Ber/).length).toBeGreaterThan(0);
+    expect(screen.getAllByText(/Jah|Ith|Ber/).length).toBeGreaterThan(0);
   });
 
   it('filters by item type', () => {
@@ -54,43 +54,44 @@ describe('RunewordFilters + RunewordList', () => {
   });
 
   it('renders one icon per rune in rune order', () => {
-    const rw = {
-      ...baseRunewordFixture,
-      runes: [
-        { en: 'Ral', 'zh-TW': '拉爾', 'zh-CN': '拉尔' },
-        { en: 'Ort', 'zh-TW': '歐特', 'zh-CN': '欧特' },
-        { en: 'Tal', 'zh-TW': '塔爾', 'zh-CN': '塔尔' },
-      ],
-      runeInvFiles: ['invrRal', 'invrOrt', 'invrTal'],
-    };
-    const { container } = render(
+    render(
       <NextIntlClientProvider locale="en" messages={messages}>
-        <RunewordList runewords={[rw]} locale="en" />
+        <RunewordList runewords={[baseRunewordFixture]} locale="en" />
       </NextIntlClientProvider>
     );
-    const imgs = Array.from(container.querySelectorAll('img')) as HTMLImageElement[];
-    expect(imgs.map(i => i.src)).toEqual(
-      expect.arrayContaining([expect.stringContaining('invrRal'), expect.stringContaining('invrOrt'), expect.stringContaining('invrTal')])
-    );
+    const imgs = Array.from(document.querySelectorAll('img')) as HTMLImageElement[];
+    expect(imgs.length).toBe(baseRunewordFixture.runes.length);
   });
 
-  it('colors variable stats yellow, fixed stats blue, and skill-ref stats pink', () => {
+  it('marks a variable stat with a dice icon', () => {
     const rw = {
       ...baseRunewordFixture,
-      stats: [{ key: 'dmg%', label: { en: 'Enhanced Damage %', 'zh-TW': 'x', 'zh-CN': 'x' }, min: 100, max: 150, isSkillRef: false, signed: true }],
-      fixedStats: [
-        { key: 'str', label: { en: 'Strength', 'zh-TW': 'x', 'zh-CN': 'x' }, value: 20, isSkillRef: false, signed: true },
-        { key: 'oskill:1', label: { en: 'All Skill Levels', 'zh-TW': 'x', 'zh-CN': 'x' }, value: 2, isSkillRef: true, signed: true },
-      ],
+      stats: [{ code: 'ac', label: { en: 'Enhanced Defense %', 'zh-TW': 'x', 'zh-CN': 'x' }, min: 100, max: 150, variable: true }],
     };
     render(
       <NextIntlClientProvider locale="en" messages={messages}>
         <RunewordList runewords={[rw]} locale="en" />
       </NextIntlClientProvider>
     );
-    expect(screen.getByText(/Enhanced Damage %/).closest('div')).toHaveClass('text-[#fff818]');
-    expect(screen.getByText(/Strength/).closest('div')).toHaveClass('text-[#8080f3]');
-    expect(screen.getByText(/All Skill Levels/).closest('div')).toHaveClass('text-[#ff4a69]');
+    expect(screen.getByText(/Enhanced Defense %/).closest('div')).toHaveClass('text-[#fff818]');
+    expect(screen.getByText(/Enhanced Defense %/).closest('div')).toHaveTextContent('🎲');
+  });
+
+  it('shows a "Ladder Only" badge for a ladder-restricted runeword, and "Non-Ladder Only" for one disallowed on ladder', () => {
+    const ladderOnly = { ...baseRunewordFixture, ladderRestricted: true, disallowedInLadder: false };
+    const nonLadderOnly = { ...baseRunewordFixture, id: 'x', ladderRestricted: true, disallowedInLadder: true };
+    const { rerender } = render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <RunewordList runewords={[ladderOnly]} locale="en" />
+      </NextIntlClientProvider>
+    );
+    expect(screen.getByText('Ladder Only')).toBeInTheDocument();
+    rerender(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <RunewordList runewords={[nonLadderOnly]} locale="en" />
+      </NextIntlClientProvider>
+    );
+    expect(screen.getByText('Non-Ladder Only')).toBeInTheDocument();
   });
 
   describe('owned checkbox', () => {

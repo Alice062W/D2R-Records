@@ -203,6 +203,7 @@
     "runewordsCombinationAllLabel": "全部符文之語",
     "runewordsAllSockets": "全部插槽數",
     "runewordsLadderOnly": "限定天梯",
+    "runewordsNonLadderOnly": "限定非天梯",
     "runewordsRunesLabel": "符文",
     "runewordsSocketsLabel": "插槽數",
     "runewordsBaseTypesLabel": "基礎類型",
