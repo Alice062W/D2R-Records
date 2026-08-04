@@ -52,10 +52,6 @@ describe('SiteNavDrawer', () => {
       ['Cube Recipes', '/en/items/cube-recipes'],
       ['Crafted Items', '/en/items/crafted'],
       ['FCR/FHR/FBR', '/en/character/fcr-fhr-fbr'],
-      ['Alvl85 Areas', '/en/monster/alvl85'],
-      ['Area Level', '/en/monster/area-level'],
-      ['Level Up', '/en/character/level-up'],
-      ['Max Sockets', '/en/misc/max-sockets'],
       ['About Us', '/en/about'],
     ];
     for (const [label, href] of expectedLinks) {
@@ -65,6 +61,11 @@ describe('SiteNavDrawer', () => {
     // links no longer appear in the drawer at all.
     expect(screen.queryByRole('link', { name: 'Appraiser' })).not.toBeInTheDocument();
     expect(screen.queryByRole('link', { name: 'Grail Tracker' })).not.toBeInTheDocument();
+    // Alvl85 Areas / Area Level / Level Up / Max Sockets pages are hidden.
+    expect(screen.queryByRole('link', { name: 'Alvl85 Areas' })).not.toBeInTheDocument();
+    expect(screen.queryByRole('link', { name: 'Area Level' })).not.toBeInTheDocument();
+    expect(screen.queryByRole('link', { name: 'Level Up' })).not.toBeInTheDocument();
+    expect(screen.queryByRole('link', { name: 'Max Sockets' })).not.toBeInTheDocument();
   });
 
   it('closes when the backdrop is clicked', () => {
