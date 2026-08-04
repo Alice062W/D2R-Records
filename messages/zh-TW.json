@@ -135,7 +135,7 @@
     "setBonusesLabel": "套裝加成",
     "fullSetBonusLabel": "全套裝加成",
     "itemSetBonusLabel": "單件套裝加成",
-    "piecesRequiredInline": "（裝備 {count} 件）",
+    "piecesRequiredInline": "（{count} 件）",
     "notFoundYet": "尚未找到",
     "noVariableStats": "此物品沒有變動屬性 — 所有數值皆為固定值。",
     "classOnlyLabel": "職業限制",

@@ -135,7 +135,7 @@
     "setBonusesLabel": "Partial Set Bonuses",
     "fullSetBonusLabel": "Full Set Bonus",
     "itemSetBonusLabel": "Set Item Bonus",
-    "piecesRequiredInline": "({count} Items Equipped)",
+    "piecesRequiredInline": "({count} items)",
     "notFoundYet": "Not found yet",
     "noVariableStats": "No variable rolls for this item — all stats are fixed.",
     "classOnlyLabel": "Class Restriction",

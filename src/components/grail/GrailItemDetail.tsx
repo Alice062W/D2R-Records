@@ -21,9 +21,13 @@ function PropertyLine({
   label, variable, colorClass, suffix,
 }: { label: string; variable: boolean; colorClass: string; suffix?: string }) {
   return (
-    <div className={variable ? `${colorClass} font-bold flex items-center gap-1` : colorClass}>
-      {variable && <span aria-hidden="true" title="Variable roll">🎲</span>}
-      <span>{label}{suffix && <span className="text-muted font-normal"> {suffix}</span>}</span>
+    <div className={`flex items-start gap-1.5 ${variable ? `${colorClass} font-bold` : colorClass}`}>
+      <span aria-hidden="true" className="text-muted">•</span>
+      <span>
+        {label}
+        {suffix && <span className="text-muted font-normal"> {suffix}</span>}
+        {variable && <span aria-hidden="true" title="Variable roll"> 🎲</span>}
+      </span>
     </div>
   );
 }
@@ -100,7 +104,10 @@ export default function GrailItemDetail({
         <h4 className="text-xs font-semibold uppercase tracking-wider text-muted mb-1">{t('itemStats')}</h4>
         <div className="text-sm text-parchment flex flex-col gap-0.5">
           {itemStatRows.map(([label, value]) => (
-            <div key={label}>{label}: <span className="text-parchment-bright">{value}</span></div>
+            <div key={label} className="flex items-start gap-1.5">
+              <span aria-hidden="true" className="text-muted">•</span>
+              <span>{label}: <span className="text-parchment-bright">{value}</span></span>
+            </div>
           ))}
         </div>
       </div>
