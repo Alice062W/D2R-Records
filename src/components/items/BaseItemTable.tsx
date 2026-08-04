@@ -2,25 +2,53 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import type { BaseLine, BaseGrade } from '@/lib/grail/basesCatalog';
+import type { BaseLine, BaseGrade, BaseStatRow } from '@/lib/grail/basesCatalog';
 import { BASE_PATH } from '@/lib/basePath';
 
 const GRADES = ['normal', 'exceptional', 'elite'] as const;
 
-function fmtDamage(d: BaseGrade['oneHandDamage']) {
-  return d ? `${d.min} - ${d.max}` : '-';
+// Maps a base_items.json statRow code to its BaseItems i18n label key
+// (a few codes are named differently on each side, e.g. requiredLevel/levelReq).
+const ROW_LABEL_KEY: Record<string, string> = {
+  defense: 'defense',
+  oneHandDamage: 'oneHandDamage',
+  twoHandDamage: 'twoHandDamage',
+  missileDamage: 'missileDamage',
+  requiredLevel: 'levelReq',
+  requiredStrength: 'strReq',
+  requiredDexterity: 'dexReq',
+  weaponSpeed: 'weaponSpeed',
+  blockChance: 'blockChance',
+  durability: 'durability',
+  maxSockets: 'sockets',
+  maxStack: 'maxStack',
+};
+
+// Fixed display order across all statRows seen on any grade of this line,
+// preserving each grade's own statRows order as the tie-break source.
+function orderedRowCodes(grades: (BaseGrade | null)[]): string[] {
+  const codes: string[] = [];
+  for (const g of grades) {
+    if (!g) continue;
+    for (const row of g.statRows) {
+      if (!codes.includes(row.code)) codes.push(row.code);
+    }
+  }
+  return codes;
 }
-function fmtDefense(d: BaseGrade['defense']) {
-  return d ? `${d.min} - ${d.max}` : '-';
-}
-function fmtNum(n: number | null) {
-  return n != null ? String(n) : '-';
+
+function fmtRow(row: BaseStatRow | undefined): string {
+  if (!row) return '-';
+  if (row.min != null && row.max != null) return `${row.min} - ${row.max}`;
+  if (row.value != null) return String(row.value);
+  return '-';
 }
 
 export default function BaseItemTable({ line }: { line: BaseLine }) {
   const t = useTranslations('BaseItems');
   const [iconFailed, setIconFailed] = useState(false);
   const present = GRADES.filter(g => line.grades[g] !== null);
+  const rowCodes = orderedRowCodes(present.map(g => line.grades[g]));
 
   return (
     <div className="bg-panel border border-panel-border rounded-xl p-6 overflow-x-auto">
@@ -49,15 +77,17 @@ export default function BaseItemTable({ line }: { line: BaseLine }) {
           </tr>
         </thead>
         <tbody className="text-parchment">
-          <tr><td className="text-muted">{t('defense')}</td>{present.map(g => <td key={g} className="px-3">{fmtDefense(line.grades[g]!.defense)}</td>)}</tr>
-          <tr><td className="text-muted">{t('oneHandDamage')}</td>{present.map(g => <td key={g} className="px-3">{fmtDamage(line.grades[g]!.oneHandDamage)}</td>)}</tr>
-          <tr><td className="text-muted">{t('twoHandDamage')}</td>{present.map(g => <td key={g} className="px-3">{fmtDamage(line.grades[g]!.twoHandDamage)}</td>)}</tr>
-          <tr><td className="text-muted">{t('levelReq')}</td>{present.map(g => <td key={g} className="px-3">{fmtNum(line.grades[g]!.levelReq)}</td>)}</tr>
-          <tr><td className="text-muted">{t('strReq')}</td>{present.map(g => <td key={g} className="px-3">{fmtNum(line.grades[g]!.requiredStrength)}</td>)}</tr>
-          <tr><td className="text-muted">{t('dexReq')}</td>{present.map(g => <td key={g} className="px-3">{fmtNum(line.grades[g]!.requiredDexterity)}</td>)}</tr>
-          <tr><td className="text-muted">{t('durability')}</td>{present.map(g => <td key={g} className="px-3">{fmtNum(line.grades[g]!.durability)}</td>)}</tr>
-          <tr><td className="text-muted">{t('sockets')}</td>{present.map(g => <td key={g} className="px-3">{fmtNum(line.grades[g]!.sockets)}</td>)}</tr>
-          <tr><td className="text-muted">{t('qlvl')}</td>{present.map(g => <td key={g} className="px-3">{fmtNum(line.grades[g]!.qlvl)}</td>)}</tr>
+          {rowCodes.map(code => (
+            <tr key={code}>
+              <td className="text-muted">{t(ROW_LABEL_KEY[code] ?? code)}</td>
+              {present.map(g => (
+                <td key={g} className="px-3">
+                  {fmtRow(line.grades[g]!.statRows.find(r => r.code === code))}
+                </td>
+              ))}
+            </tr>
+          ))}
+          <tr><td className="text-muted">{t('qlvl')}</td>{present.map(g => <td key={g} className="px-3">{line.grades[g]!.qlvl ?? '-'}</td>)}</tr>
         </tbody>
       </table>
     </div>

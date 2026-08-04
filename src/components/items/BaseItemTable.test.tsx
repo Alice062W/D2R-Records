@@ -16,11 +16,11 @@ function renderTable(line: BaseLine) {
 describe('BaseItemTable', () => {
   it('renders all three grade names and their 1h damage when present', () => {
     const line: BaseLine = {
-      id: 'base-hax', slotCategory: 'axes', subCategory: null, invFile: 'invhax',
+      id: 'base-hax', slotCategory: 'axes', subCategory: null, invFile: 'invhax', hdIcon: null,
       grades: {
-        normal: { name: 'Hand Axe', defense: null, oneHandDamage: { min: 3, max: 6 }, twoHandDamage: null, levelReq: 0, requiredStrength: null, requiredDexterity: null, durability: 28, sockets: 2, qlvl: 3 },
-        exceptional: { name: 'Hatchet', defense: null, oneHandDamage: { min: 10, max: 21 }, twoHandDamage: null, levelReq: 19, requiredStrength: 25, requiredDexterity: null, durability: 28, sockets: 2, qlvl: 31 },
-        elite: { name: 'Tomahawk', defense: null, oneHandDamage: { min: 33, max: 58 }, twoHandDamage: null, levelReq: 40, requiredStrength: 125, requiredDexterity: null, durability: 28, sockets: 2, qlvl: 54 },
+        normal: { name: 'Hand Axe', invFile: 'invhax', hdIcon: null, levelReq: 0, qlvl: 3, statRows: [{ code: 'oneHandDamage', min: 3, max: 6 }, { code: 'durability', value: 28 }, { code: 'maxSockets', value: 2 }] },
+        exceptional: { name: 'Hatchet', invFile: 'invhax', hdIcon: null, levelReq: 19, qlvl: 31, statRows: [{ code: 'oneHandDamage', min: 10, max: 21 }, { code: 'requiredStrength', value: 25 }, { code: 'durability', value: 28 }, { code: 'maxSockets', value: 2 }] },
+        elite: { name: 'Tomahawk', invFile: 'invhax', hdIcon: null, levelReq: 40, qlvl: 54, statRows: [{ code: 'oneHandDamage', min: 33, max: 58 }, { code: 'requiredStrength', value: 125 }, { code: 'durability', value: 28 }, { code: 'maxSockets', value: 2 }] },
       },
     };
     renderTable(line);
@@ -31,12 +31,12 @@ describe('BaseItemTable', () => {
     expect(screen.getByText('33 - 58')).toBeInTheDocument();
   });
 
-  it('renders a dash for a missing grade tier', () => {
+  it('renders a dash when a stat row is present on one grade tier but not another', () => {
     const line: BaseLine = {
-      id: 'base-x', slotCategory: 'wands', subCategory: null, invFile: '',
+      id: 'base-x', slotCategory: 'wands', subCategory: null, invFile: '', hdIcon: null,
       grades: {
-        normal: { name: 'Yew Wand', defense: null, oneHandDamage: null, twoHandDamage: null, levelReq: 0, requiredStrength: null, requiredDexterity: null, durability: 30, sockets: 1, qlvl: 1 },
-        exceptional: null,
+        normal: { name: 'Yew Wand', invFile: '', hdIcon: null, levelReq: 0, qlvl: 1, statRows: [{ code: 'durability', value: 30 }, { code: 'maxSockets', value: 1 }] },
+        exceptional: { name: 'Petrified Wand', invFile: '', hdIcon: null, levelReq: 13, qlvl: 25, statRows: [{ code: 'requiredLevel', value: 13 }, { code: 'durability', value: 30 }] },
         elite: null,
       },
     };
@@ -47,8 +47,8 @@ describe('BaseItemTable', () => {
 
   it('renders the icon when invFile is present', () => {
     const line: BaseLine = {
-      id: 'base-hax', slotCategory: 'axes', subCategory: null, invFile: 'invhax',
-      grades: { normal: { name: 'Hand Axe', defense: null, oneHandDamage: { min: 3, max: 6 }, twoHandDamage: null, levelReq: 0, requiredStrength: null, requiredDexterity: null, durability: 28, sockets: 2, qlvl: 3 }, exceptional: null, elite: null },
+      id: 'base-hax', slotCategory: 'axes', subCategory: null, invFile: 'invhax', hdIcon: null,
+      grades: { normal: { name: 'Hand Axe', invFile: 'invhax', hdIcon: null, levelReq: 0, qlvl: 3, statRows: [{ code: 'oneHandDamage', min: 3, max: 6 }] }, exceptional: null, elite: null },
     };
     render(
       <NextIntlClientProvider locale="en" messages={messages}>
@@ -62,8 +62,8 @@ describe('BaseItemTable', () => {
 
   it('renders no icon when invFile is empty', () => {
     const line: BaseLine = {
-      id: 'base-x', slotCategory: 'axes', subCategory: null, invFile: '',
-      grades: { normal: { name: 'X', defense: null, oneHandDamage: null, twoHandDamage: null, levelReq: 0, requiredStrength: null, requiredDexterity: null, durability: null, sockets: null, qlvl: null }, exceptional: null, elite: null },
+      id: 'base-x', slotCategory: 'axes', subCategory: null, invFile: '', hdIcon: null,
+      grades: { normal: { name: 'X', invFile: '', hdIcon: null, levelReq: 0, qlvl: null, statRows: [] }, exceptional: null, elite: null },
     };
     render(
       <NextIntlClientProvider locale="en" messages={messages}>

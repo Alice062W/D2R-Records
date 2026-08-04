@@ -123,19 +123,19 @@ describe('bases-full.json', () => {
     expect(line.grades.exceptional!.name.en).toBe('Hatchet');
     expect(line.grades.elite!.name.en).toBe('Tomahawk');
     expect(line.grades.elite!.levelReq).toBe(40);
-    expect(line.grades.elite!.requiredStrength).toBe(125);
+    expect(line.grades.elite!.statRows.find(r => r.code === 'requiredStrength')?.value).toBe(125);
   });
 
   it('handles a 1h-only weapon (no twoHandDamage) and records oneHandDamage', () => {
     const line = basesFull.find(l => l.grades.normal?.name.en === 'Hand Axe')!;
-    expect(line.grades.normal!.oneHandDamage).toEqual({ min: 3, max: 6 });
-    expect(line.grades.normal!.twoHandDamage).toBeNull();
+    expect(line.grades.normal!.statRows.find(r => r.code === 'oneHandDamage')).toEqual({ code: 'oneHandDamage', min: 3, max: 6 });
+    expect(line.grades.normal!.statRows.find(r => r.code === 'twoHandDamage')).toBeUndefined();
   });
 
   it('handles a 2h-only weapon (no oneHandDamage) and records twoHandDamage', () => {
     const line = basesFull.find(l => l.grades.normal?.name.en === 'Large Axe')!;
-    expect(line.grades.normal!.oneHandDamage).toBeNull();
-    expect(line.grades.normal!.twoHandDamage).toEqual({ min: 6, max: 13 });
+    expect(line.grades.normal!.statRows.find(r => r.code === 'oneHandDamage')).toBeUndefined();
+    expect(line.grades.normal!.statRows.find(r => r.code === 'twoHandDamage')).toEqual({ code: 'twoHandDamage', min: 6, max: 13 });
   });
 
   it('every line has a non-null normal grade', () => {

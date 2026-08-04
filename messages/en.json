@@ -379,6 +379,10 @@
     "dexReq": "Dex Req",
     "durability": "Durability",
     "sockets": "Sockets",
-    "qlvl": "qlvl"
+    "qlvl": "qlvl",
+    "missileDamage": "Throw Damage",
+    "weaponSpeed": "Weapon Speed",
+    "blockChance": "Block Chance",
+    "maxStack": "Max Stack"
   }
 }

@@ -6,7 +6,7 @@ describe('basesCatalog', () => {
     const categories = getBaseCategories();
     expect(categories).toContain('axes');
     expect(categories).toContain('helms');
-    expect(categories).not.toContain('charms'); // base items have no charm bases
+    expect(categories).toContain('charms'); // charm bases now included (authoritative pipeline extracts them)
   });
 
   it('getBaseLinesForCategory returns localized lines for the given category', () => {

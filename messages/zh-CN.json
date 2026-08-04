@@ -363,7 +363,11 @@
     "dexReq": "敏捷需求",
     "durability": "耐久度",
     "sockets": "插槽数",
-    "qlvl": "物品等级"
+    "qlvl": "物品等级",
+    "missileDamage": "投掷伤害",
+    "weaponSpeed": "武器速度",
+    "blockChance": "格挡几率",
+    "maxStack": "最大堆叠数"
   },
   "AffixCategories": {
     "circlets": "冠冕",

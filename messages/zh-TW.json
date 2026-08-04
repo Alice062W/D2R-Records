@@ -379,6 +379,10 @@
     "dexReq": "敏捷需求",
     "durability": "耐久度",
     "sockets": "插槽數",
-    "qlvl": "物品等級"
+    "qlvl": "物品等級",
+    "missileDamage": "投擲傷害",
+    "weaponSpeed": "武器速度",
+    "blockChance": "格擋機率",
+    "maxStack": "最大堆疊數"
   }
 }
