@@ -1,5 +1,20 @@
 import basesFull from '../../../data/bases-full.json';
-import { SLOT_ORDER, type Locale } from './catalog';
+import { type Locale } from './catalog';
+
+// Base-items-page-specific category order and visibility -- distinct from
+// catalog.ts's SLOT_ORDER (which drives unique/set item categorization and
+// must stay unchanged). Rings/amulets/charms/jewels are hidden here since
+// base items carry little useful info for those slots (no properties, just
+// a name/icon). Non-weapon armor/shield slots (including Grimoires, which
+// behave as a Warlock offhand shield rather than a weapon) are grouped
+// first, followed by all weapon slots.
+const BASE_CATEGORY_ORDER = [
+  'helms', 'armors', 'shields', 'belts', 'boots', 'gloves', 'grimoires',
+  'swords', 'daggers', 'axes', 'polearms', 'spears',
+  'clubs', 'maces', 'hammers', 'scepters', 'staves',
+  'orbs', 'wands', 'katars',
+  'bows', 'crossbows', 'javelins', 'throwings',
+] as const;
 
 export interface BaseStatRow {
   code: string;
@@ -33,8 +48,8 @@ function localizeGrade(grade: RawGrade, locale: Locale): BaseGrade | null {
   return { ...grade, name: grade.name[locale as keyof typeof grade.name] };
 }
 
-export function getBaseCategories(): (typeof SLOT_ORDER)[number][] {
-  return SLOT_ORDER.filter(slot => basesFull.some(l => l.slotCategory === slot));
+export function getBaseCategories(): (typeof BASE_CATEGORY_ORDER)[number][] {
+  return BASE_CATEGORY_ORDER.filter(slot => basesFull.some(l => l.slotCategory === slot));
 }
 
 export function getBaseLinesForCategory(category: string, locale: Locale): BaseLine[] {

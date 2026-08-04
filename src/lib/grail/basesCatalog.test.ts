@@ -2,11 +2,22 @@ import { describe, it, expect } from 'vitest';
 import { getBaseCategories, getBaseLinesForCategory } from './basesCatalog';
 
 describe('basesCatalog', () => {
-  it('returns categories present in bases-full.json, in SLOT_ORDER', () => {
+  it('returns non-weapon categories (incl. Grimoires) first, then weapon categories, excluding jewelry', () => {
     const categories = getBaseCategories();
     expect(categories).toContain('axes');
     expect(categories).toContain('helms');
-    expect(categories).toContain('charms'); // charm bases now included (authoritative pipeline extracts them)
+    // Rings/amulets/charms/jewels are hidden on the base items page -- little
+    // useful info there (no properties, just a name/icon).
+    expect(categories).not.toContain('rings');
+    expect(categories).not.toContain('amulets');
+    expect(categories).not.toContain('charms');
+    expect(categories).not.toContain('jewels');
+    const firstSeven = categories.slice(0, 7);
+    expect(firstSeven).toEqual(['helms', 'armors', 'shields', 'belts', 'boots', 'gloves', 'grimoires']);
+    // Everything after the first 7 (non-weapon) slots must be a weapon slot.
+    for (const slot of categories.slice(7)) {
+      expect(['helms', 'armors', 'shields', 'belts', 'boots', 'gloves', 'grimoires']).not.toContain(slot);
+    }
   });
 
   it('getBaseLinesForCategory returns localized lines for the given category', () => {
