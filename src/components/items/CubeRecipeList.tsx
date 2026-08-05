@@ -116,10 +116,11 @@ export default function CubeRecipeList({ recipes, locale }: { recipes: Recipe[];
 
   // Group gem-tier-upgrade recipes into one box per gem type (Ruby, Sapphire,
   // etc.) instead of a flat 28-card grid -- each gem's 4 chipped/flawed/
-  // standard/flawless/perfect upgrade steps sit together. The box title uses
-  // that gem's own "standard" tier name, already present verbatim in this
-  // group's own recipe text (the bare gem word after "->" on the
-  // Flawed->Standard recipe) -- no separate translation lookup needed.
+  // standard/flawless/perfect upgrade steps sit together, always in that
+  // fixed order (matching cube-recipes.json's own ordering). The box title
+  // uses that gem's own bare "standard" tier name -- the 2nd recipe's own
+  // output (Flawed -> Standard) -- already present verbatim in this group's
+  // own recipe text, no separate translation lookup needed.
   const groups = GEM_ORDER.map(gem => ({
     gem,
     items: recipes.filter(r => gemGroupOf(r.description.en) === gem),
@@ -128,14 +129,9 @@ export default function CubeRecipeList({ recipes, locale }: { recipes: Recipe[];
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
       {groups.map(({ gem, items }) => {
-        const standardRecipe = items.find(r => r.description.en.includes(`Standard ${gem}`));
-        // English's own composed text says "Standard Amethyst" (a
-        // convenience label from the site's own data, not the game's -- the
-        // real bare tier name has no "Standard" qualifier in enUS either,
-        // matching zh-TW/zh-CN's already-bare output text), so strip that
-        // prefix back off for the group title.
+        const standardRecipe = items[1];
         const title = standardRecipe
-          ? standardRecipe.description[locale].split(/->|→/).pop()!.trim().replace(/^Standard\s+/, '')
+          ? standardRecipe.description[locale].split(/->|→/).pop()!.trim()
           : gem;
         return (
           <div key={gem} className="bg-panel-alt border border-panel-border rounded-xl p-4 flex flex-col gap-2">

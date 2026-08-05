@@ -147,7 +147,7 @@
   {
     "id": "recipe-10",
     "description": {
-      "en": "1 Magic Ring + 1 Standard Emerald + 1 Antidote Potion -> Jade Ring",
+      "en": "1 Magic Ring + 1 Emerald + 1 Antidote Potion -> Jade Ring",
       "zh-TW": "1 魔法戒指 + 1 綠寶石 + 1 解毒葯劑 -> 玉戒指",
       "zh-CN": "1 魔法戒指 + 1 绿宝石 + 1 解毒药剂 -> 玉戒指"
     },
@@ -256,7 +256,7 @@
   {
     "id": "recipe-18",
     "description": {
-      "en": "4 Healing Potions (Any) + 1 Standard Ruby + 1 Magic Sword -> Sword of the Leech",
+      "en": "4 Healing Potions (Any) + 1 Ruby + 1 Magic Sword -> Sword of the Leech",
       "zh-TW": "4 治療葯劑(任一) + 1 紅寶石 + 1 魔法劍 -> 水蛭之劍",
       "zh-CN": "4 治疗药剂(任一) + 1 红宝石 + 1 魔法剑 -> 水蛭之剑"
     },
@@ -340,7 +340,7 @@
   {
     "id": "recipe-24",
     "description": {
-      "en": "3 Flawed Amethysts -> Standard Amethyst",
+      "en": "3 Flawed Amethysts -> Amethyst",
       "zh-TW": "3 瑕疵紫寶石 -> 紫寶石",
       "zh-CN": "3 有瑕疵的紫宝石 -> 紫宝石"
     },
@@ -355,7 +355,7 @@
   {
     "id": "recipe-25",
     "description": {
-      "en": "3 Standard Amethysts -> Flawless Amethyst",
+      "en": "3 Amethysts -> Flawless Amethyst",
       "zh-TW": "3 紫寶石 -> 無瑕紫寶石",
       "zh-CN": "3 紫宝石 -> 无瑕的紫宝石"
     },
@@ -400,7 +400,7 @@
   {
     "id": "recipe-28",
     "description": {
-      "en": "3 Flawed Rubies -> Standard Ruby",
+      "en": "3 Flawed Rubies -> Ruby",
       "zh-TW": "3 瑕疵紅寶石 -> 紅寶石",
       "zh-CN": "3 有瑕疵的红宝石 -> 红宝石"
     },
@@ -415,7 +415,7 @@
   {
     "id": "recipe-29",
     "description": {
-      "en": "3 Standard Rubies -> Flawless Ruby",
+      "en": "3 Rubies -> Flawless Ruby",
       "zh-TW": "3 紅寶石 -> 無瑕紅寶石",
       "zh-CN": "3 红宝石 -> 无瑕的红宝石"
     },
@@ -460,7 +460,7 @@
   {
     "id": "recipe-32",
     "description": {
-      "en": "3 Flawed Sapphires -> Standard Sapphire",
+      "en": "3 Flawed Sapphires -> Sapphire",
       "zh-TW": "3 瑕疵藍寶石 -> 藍寶石",
       "zh-CN": "3 有瑕疵的蓝宝石 -> 蓝宝石"
     },
@@ -475,7 +475,7 @@
   {
     "id": "recipe-33",
     "description": {
-      "en": "3 Standard Sapphires -> Flawless Sapphire",
+      "en": "3 Sapphires -> Flawless Sapphire",
       "zh-TW": "3 藍寶石 -> 無瑕藍寶石",
       "zh-CN": "3 蓝宝石 -> 无瑕的蓝宝石"
     },
@@ -520,7 +520,7 @@
   {
     "id": "recipe-36",
     "description": {
-      "en": "3 Flawed Topazes -> Standard Topaz",
+      "en": "3 Flawed Topazes -> Topaz",
       "zh-TW": "3 瑕疵黃寶石 -> 黃寶石",
       "zh-CN": "3 有瑕疵的黄宝石 -> 黄宝石"
     },
@@ -535,7 +535,7 @@
   {
     "id": "recipe-37",
     "description": {
-      "en": "3 Standard Topazes -> Flawless Topaz",
+      "en": "3 Topazes -> Flawless Topaz",
       "zh-TW": "3 黃寶石 -> 無瑕黃寶石",
       "zh-CN": "3 黄宝石 -> 无瑕的黄宝石"
     },
@@ -580,7 +580,7 @@
   {
     "id": "recipe-40",
     "description": {
-      "en": "3 Flawed Emeralds -> Standard Emerald",
+      "en": "3 Flawed Emeralds -> Emerald",
       "zh-TW": "3 瑕疵綠寶石 -> 綠寶石",
       "zh-CN": "3 有瑕疵的绿宝石 -> 绿宝石"
     },
@@ -595,7 +595,7 @@
   {
     "id": "recipe-41",
     "description": {
-      "en": "3 Standard Emeralds -> Flawless Emerald",
+      "en": "3 Emeralds -> Flawless Emerald",
       "zh-TW": "3 綠寶石 -> 無瑕綠寶石",
       "zh-CN": "3 绿宝石 -> 无瑕的绿宝石"
     },
@@ -640,7 +640,7 @@
   {
     "id": "recipe-44",
     "description": {
-      "en": "3 Flawed Diamonds -> Standard Diamond",
+      "en": "3 Flawed Diamonds -> Diamond",
       "zh-TW": "3 瑕疵鑽石 -> 鑽石",
       "zh-CN": "3 有瑕疵的钻石 -> 钻石"
     },
@@ -655,7 +655,7 @@
   {
     "id": "recipe-45",
     "description": {
-      "en": "3 Standard Diamonds -> Flawless Diamond",
+      "en": "3 Diamonds -> Flawless Diamond",
       "zh-TW": "3 鑽石 -> 無瑕鑽石",
       "zh-CN": "3 钻石 -> 无瑕的钻石"
     },
@@ -700,7 +700,7 @@
   {
     "id": "recipe-48",
     "description": {
-      "en": "3 Flawed Skulls -> Standard Skull",
+      "en": "3 Flawed Skulls -> Skull",
       "zh-TW": "3 瑕疵骷髏石 -> 骷髏石",
       "zh-CN": "3 有瑕疵的头骨宝石 -> 头骨宝石"
     },
@@ -715,7 +715,7 @@
   {
     "id": "recipe-49",
     "description": {
-      "en": "3 Standard Skulls -> Flawless Skull",
+      "en": "3 Skulls -> Flawless Skull",
       "zh-TW": "3 骷髏石 -> 無瑕骷髏石",
       "zh-CN": "3 头骨宝石 -> 无瑕疵的头骨宝石"
     },
@@ -1128,7 +1128,7 @@
   {
     "id": "recipe-112",
     "description": {
-      "en": "2 Um Runes + 1 Standard Topaz -> Mal Rune",
+      "en": "2 Um Runes + 1 Topaz -> Mal Rune",
       "zh-TW": "2 烏姆符文 + 1 黃寶石 -> 馬爾符文",
       "zh-CN": "2 乌姆符文 + 1 黄宝石 -> 马尔符文"
     },
@@ -1143,7 +1143,7 @@
   {
     "id": "recipe-113",
     "description": {
-      "en": "2 Mal Runes + 1 Standard Amethyst -> Ist Rune",
+      "en": "2 Mal Runes + 1 Amethyst -> Ist Rune",
       "zh-TW": "2 馬爾符文 + 1 紫寶石 -> 伊司特符文",
       "zh-CN": "2 马尔符文 + 1 紫宝石 -> 伊司特符文"
     },
@@ -1158,7 +1158,7 @@
   {
     "id": "recipe-114",
     "description": {
-      "en": "2 Ist Runes + 1 Standard Sapphire -> Gul Rune",
+      "en": "2 Ist Runes + 1 Sapphire -> Gul Rune",
       "zh-TW": "2 伊司特符文 + 1 藍寶石 -> 古爾符文",
       "zh-CN": "2 伊司特符文 + 1 蓝宝石 -> 古尔符文"
     },
@@ -1173,7 +1173,7 @@
   {
     "id": "recipe-115",
     "description": {
-      "en": "2 Gul Runes + 1 Standard Ruby -> Vex Rune",
+      "en": "2 Gul Runes + 1 Ruby -> Vex Rune",
       "zh-TW": "2 古爾符文 + 1 紅寶石 -> 伐克斯符文",
       "zh-CN": "2 古尔符文 + 1 红宝石 -> 伐克斯符文"
     },
@@ -1188,7 +1188,7 @@
   {
     "id": "recipe-116",
     "description": {
-      "en": "2 Vex Runes + 1 Standard Emerald -> Ohm Rune",
+      "en": "2 Vex Runes + 1 Emerald -> Ohm Rune",
       "zh-TW": "2 伐克斯符文 + 1 綠寶石 -> 歐姆符文",
       "zh-CN": "2 伐克斯符文 + 1 绿宝石 -> 欧姆符文"
     },
@@ -1203,7 +1203,7 @@
   {
     "id": "recipe-117",
     "description": {
-      "en": "2 Ohm Runes + 1 Standard Diamond -> Lo Rune",
+      "en": "2 Ohm Runes + 1 Diamond -> Lo Rune",
       "zh-TW": "2 歐姆符文 + 1 鑽石 -> 羅符文",
       "zh-CN": "2 欧姆符文 + 1 钻石 -> 罗符文"
     },
