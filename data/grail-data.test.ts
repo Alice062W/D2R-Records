@@ -344,10 +344,14 @@ describe('cube-recipes.json', () => {
   // 157 (enabled) - 36 (excluded craft recipes) + 17 (colored magic-prefix
   // recipes, now classified as magicItemCreation) + 6 (real Latent->Renewed
   // Sunder Charm renewal recipes, DLC 3.2/Rise of the Watchers, added to
-  // craftedGrandCharm) = 144, confirmed by reading vendor/d2data/json/
+  // craftedGrandCharm) - 6 (duplicate quests-category cards for the same 6
+  // cubemain.json rows, rendered with stale "Virulent X"/"Uber Ancient Summon
+  // Material" description-column text instead of the real item-names.json
+  // display names -- now redundant with the correct craftedGrandCharm
+  // versions, so removed) = 138, confirmed by reading vendor/d2data/json/
   // cubemain.json directly.
-  it('has 144 entries (121 enabled non-craft + 17 colored magic-prefix + 6 Renewed Sunder Charm entries)', () => {
-    expect(cubeRecipesData.length).toBe(144);
+  it('has 138 entries (121 enabled non-craft + 17 colored magic-prefix + 6 Renewed Sunder Charm - 6 removed duplicate quest cards)', () => {
+    expect(cubeRecipesData.length).toBe(138);
   });
 
   it('does not include the 36 Hit Power/Blood/Caster/Safety craft recipes (those are crafted-items.json only)', () => {
@@ -415,9 +419,9 @@ describe('cube-recipes.json', () => {
     }
   });
 
-  it('localizes a simple literal-name recipe description (Staff of Kings + Amulet of the Viper -> Horadric Staff)', () => {
+  it('localizes a simple literal-name recipe description (Staff of Kings + Amulet of the Viper -> Horadric Staff), using the real item-names.json "hst" entry (赫拉迪姆之杖) rather than the wrong "赫拉迪克法杖"', () => {
     const r = cubeRecipesData.find(r => r.description.en === 'Staff of Kings + Amulet of the Viper -> Horadric Staff')!;
-    expect(r.description['zh-TW']).toBe('國王之杖 + 蝮蛇護符 -> 赫拉迪克法杖');
+    expect(r.description['zh-TW']).toBe('國王之杖 + 蝮蛇護符 -> 赫拉迪姆之杖');
   });
 
   it('localizes a quantity + qualifier + gem-tier recipe description (rejuvenation potion)', () => {

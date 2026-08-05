@@ -3,8 +3,8 @@
     "id": "recipe-0",
     "description": {
       "en": "Staff of Kings + Amulet of the Viper -> Horadric Staff",
-      "zh-TW": "國王之杖 + 蝮蛇護符 -> 赫拉迪克法杖",
-      "zh-CN": "国王之杖 + 蝮蛇护符 -> 赫拉迪克法杖"
+      "zh-TW": "國王之杖 + 蝮蛇護符 -> 赫拉迪姆之杖",
+      "zh-CN": "列王之杖 + 蝮蛇护符 -> 赫拉迪姆法杖"
     },
     "category": "quests",
     "ingredientIcons": [
@@ -22,8 +22,8 @@
     "id": "recipe-1",
     "description": {
       "en": "Khalim's Flail + Khalim's Heart + Khalim's Eye + Khalim's Brain -> Khalim's Will",
-      "zh-TW": "克林姆的連枷 + 克林姆的心臟 + 克林姆的眼球 + 克林姆的大腦 -> 克林姆的意志",
-      "zh-CN": "克林姆的连枷 + 克林姆的心脏 + 克林姆的眼球 + 克林姆的大脑 -> 克林姆的意志"
+      "zh-TW": "克林姆的連枷 + 克林姆的心臟 + 克林姆的眼球 + 克林姆的大腦 -> 克林姆的遺願",
+      "zh-CN": "卡林姆的连枷 + 卡林姆的生命核心 + 卡林姆的晶体 + 卡林姆的智慧 -> 卡林姆的意志"
     },
     "category": "quests",
     "ingredientIcons": [
@@ -45,8 +45,8 @@
     "id": "recipe-2",
     "description": {
       "en": "Wirt's Leg + Tome of Town Portal -> Portal to The Secret Cow Level",
-      "zh-TW": "維特之腳 + 城鎮傳送之書 -> 通往秘密牛牛關的傳送門",
-      "zh-CN": "维特之脚 + 城镇传送之书 -> 通往秘密牛牛关的传送门"
+      "zh-TW": "維特的腿 + 城鎮傳送之書 -> 通往秘密乳牛關的傳送門",
+      "zh-CN": "怀特的腿 + 城镇传送之书 -> 通往神秘的奶牛关的传送门"
     },
     "category": "quests",
     "ingredientIcons": [
@@ -2228,8 +2228,8 @@
     "id": "recipe-148",
     "description": {
       "en": "1 Key of Terror + 1 Key of Hate + 1 Key of Destruction -> Portal to Matron's Den/Forgotten Sands/Furnace of Pain (Random)",
-      "zh-TW": "1 恐懼之鑰 + 1 憎恨之鑰 + 1 毀滅之鑰 -> Portal to Matron's Den/Forgotten Sands/Furnace of Pain (Random)",
-      "zh-CN": "1 恐惧之钥 + 1 憎恨之钥 + 1 毁灭之钥 -> Portal to Matron's Den/Forgotten Sands/Furnace of Pain (Random)"
+      "zh-TW": "1 恐懼之鑰 + 1 憎恨之鑰 + 1 毀滅之鑰 -> 通往魔母巢穴／遺忘沙漠／苦痛熔爐的傳送門（隨機）",
+      "zh-CN": "1 恐惧之钥 + 1 憎恨之钥 + 1 毁灭之钥 -> 通往主母的巢穴／遗忘的沙丘／苦痛的熔炉的传送门（随机）"
     },
     "category": "quests",
     "ingredientIcons": [
@@ -2249,8 +2249,8 @@
     "id": "recipe-149",
     "description": {
       "en": "1 Diablo's Horn + 1 Baal's Eye + 1 Mephisto's Brain -> Portal to Tristram (Pandemonium Finale)",
-      "zh-TW": "1 暗黑破壞神之角 + 1 巴爾之眼 + 1 曼菲斯托之腦 -> 通往特里斯特姆的傳送門（萬魔終局）",
-      "zh-CN": "1 暗黑破坏神之角 + 1 巴尔之眼 + 1 曼菲斯托之脑 -> 通往特里斯特姆的传送门（万魔终局）"
+      "zh-TW": "1 迪亞布羅之角 + 1 巴爾之眼 + 1 墨菲斯托之腦 -> 通往特里斯特姆的傳送門（萬魔終局）",
+      "zh-CN": "1 迪亚波罗的角 + 1 巴尔的眼睛 + 1 墨菲斯托的智慧 -> 通往特里斯特姆的传送门（万魔终局）"
     },
     "category": "quests",
     "ingredientIcons": [
@@ -2270,8 +2270,8 @@
     "id": "recipe-150",
     "description": {
       "en": "1 Twisted Essence of Suffering + 1 Charged Essence of Hatred + 1 Burning Essence of Terror + 1 Festering Essence of Destruction -> Token of Absolution",
-      "zh-TW": "1 扭曲的苦痛精华 + 1 Charged Essence of Hatred + 1 燃烧的恐惧精华 + 1 溃烂的毁灭精华 -> 右键点击以重设属性/技能点数。\n赦免徽章",
-      "zh-CN": "1 扭曲的苦痛精华 + 1 Charged Essence of Hatred + 1 燃烧的恐惧精华 + 1 溃烂的毁灭精华 -> 右键点击以重设属性/技能点数。\n赦免徽章"
+      "zh-TW": "1 扭曲的苦怨精華 + 1 充盈的憎恨精華 + 1 燃燒的恐懼精華 + 1 潰爛的毀滅精華 -> 赦免徽章",
+      "zh-CN": "1 扭曲的痛苦精华 + 1 充能的憎恨精华 + 1 燃烧的恐惧精华 + 1 腐烂的毁灭精华 -> 赦免之证"
     },
     "category": "quests",
     "ingredientIcons": [
@@ -2287,7 +2287,7 @@
       "burning_essence_of_terror",
       "festering_essence_of_destruction"
     ],
-    "outputHdIcon": "mote_of_destruction"
+    "outputHdIcon": "token_of_absolution"
   },
   {
     "id": "recipe-151",
@@ -2420,27 +2420,6 @@
     "outputHdIcon": null
   },
   {
-    "id": "recipe-165",
-    "description": {
-      "en": "1 Ko Rune + 1 Perfect Emerald + 1 Uber Ancient Summon Material Act1 + 1 Rotting Fissure -> Virulent Rotting Fissure",
-      "zh-TW": "1 科符文 + 1 完美綠寶石 + 1 Uber Ancient Summon Material Act1 + 1 Rotting Fissure -> Virulent Rotting Fissure",
-      "zh-CN": "1 科符文 + 1 完美的绿宝石 + 1 Uber Ancient Summon Material Act1 + 1 Rotting Fissure -> Virulent Rotting Fissure"
-    },
-    "category": "quests",
-    "ingredientIcons": [
-      "invrKo",
-      "invgsge",
-      "invtoa"
-    ],
-    "outputIcon": null,
-    "ingredientHdIcons": [
-      "ko_rune",
-      "perfect_emerald",
-      "mote_of_destruction"
-    ],
-    "outputHdIcon": null
-  },
-  {
     "id": "recipe-174",
     "description": {
       "en": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Small Charm -> Gelid Small Charm",
@@ -2506,27 +2485,6 @@
       "lum_rune",
       "perfect_saphire",
       "mote_of_pain"
-    ],
-    "outputHdIcon": null
-  },
-  {
-    "id": "recipe-177",
-    "description": {
-      "en": "1 Lum Rune + 1 Perfect Sapphire + 1 Uber Ancient Summon Material Act2 + 1 Cold Rupture -> Gelid Cold Rupture",
-      "zh-TW": "1 盧姆符文 + 1 完美藍寶石 + 1 Uber Ancient Summon Material Act2 + 1 Cold Rupture -> Gelid Cold Rupture",
-      "zh-CN": "1 卢姆符文 + 1 完美的蓝宝石 + 1 Uber Ancient Summon Material Act2 + 1 Cold Rupture -> Gelid Cold Rupture"
-    },
-    "category": "quests",
-    "ingredientIcons": [
-      "invrLum",
-      "invgsbe",
-      "invtoa"
-    ],
-    "outputIcon": null,
-    "ingredientHdIcons": [
-      "lum_rune",
-      "perfect_saphire",
-      "mote_of_destruction"
     ],
     "outputHdIcon": null
   },
@@ -2600,27 +2558,6 @@
     "outputHdIcon": null
   },
   {
-    "id": "recipe-189",
-    "description": {
-      "en": "1 Fal Rune + 1 Perfect Topaz + 1 Uber Ancient Summon Material Act3 + 1 Crack of the Heavens -> Magnetic Crack of the Heavens",
-      "zh-TW": "1 法爾符文 + 1 完美黃寶石 + 1 Uber Ancient Summon Material Act3 + 1 Crack of the Heavens -> Magnetic Crack of the Heavens",
-      "zh-CN": "1 法尔符文 + 1 完美的黄宝石 + 1 Uber Ancient Summon Material Act3 + 1 Crack of the Heavens -> Magnetic Crack of the Heavens"
-    },
-    "category": "quests",
-    "ingredientIcons": [
-      "invrFal",
-      "invgsye",
-      "invtoa"
-    ],
-    "outputIcon": null,
-    "ingredientHdIcons": [
-      "fal_rune",
-      "perfect_topaz",
-      "mote_of_destruction"
-    ],
-    "outputHdIcon": null
-  },
-  {
     "id": "recipe-198",
     "description": {
       "en": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Small Charm -> Incendiary Small Charm",
@@ -2690,27 +2627,6 @@
     "outputHdIcon": null
   },
   {
-    "id": "recipe-201",
-    "description": {
-      "en": "1 Io Rune + 1 Perfect Ruby + 1 Uber Ancient Summon Material Act4 + 1 Flame Rift -> Incendiary Flame Rift",
-      "zh-TW": "1 埃歐符文 + 1 完美紅寶石 + 1 Uber Ancient Summon Material Act4 + 1 Flame Rift -> Incendiary Flame Rift",
-      "zh-CN": "1 埃欧符文 + 1 完美的红宝石 + 1 Uber Ancient Summon Material Act4 + 1 Flame Rift -> Incendiary Flame Rift"
-    },
-    "category": "quests",
-    "ingredientIcons": [
-      "invrIo",
-      "invgsre",
-      "invtoa"
-    ],
-    "outputIcon": null,
-    "ingredientHdIcons": [
-      "io_rune",
-      "perfect_ruby",
-      "mote_of_destruction"
-    ],
-    "outputHdIcon": null
-  },
-  {
     "id": "recipe-210",
     "description": {
       "en": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Small Charm -> Breaching Small Charm",
@@ -2773,27 +2689,6 @@
     "outputIcon": null,
     "ingredientHdIcons": [
       "charm_small",
-      "pul_rune",
-      "perfect_amethyst",
-      "mote_of_destruction"
-    ],
-    "outputHdIcon": null
-  },
-  {
-    "id": "recipe-213",
-    "description": {
-      "en": "1 Pul Rune + 1 Perfect Amethyst + 1 Uber Ancient Summon Material Act5 + 1 Bone Break -> Breaching Bone Break",
-      "zh-TW": "1 普爾符文 + 1 完美紫寶石 + 1 Uber Ancient Summon Material Act5 + 1 Bone Break -> Breaching Bone Break",
-      "zh-CN": "1 普尔符文 + 1 完美的紫宝石 + 1 Uber Ancient Summon Material Act5 + 1 Bone Break -> Breaching Bone Break"
-    },
-    "category": "quests",
-    "ingredientIcons": [
-      "invrPul",
-      "invgsve",
-      "invtoa"
-    ],
-    "outputIcon": null,
-    "ingredientHdIcons": [
       "pul_rune",
       "perfect_amethyst",
       "mote_of_destruction"
@@ -2870,36 +2765,11 @@
     "outputHdIcon": null
   },
   {
-    "id": "recipe-225",
-    "description": {
-      "en": "1 Mal Rune + 1 Perfect Diamond + 1 Uber Ancient Summon Material Act5 + 1 Black Cleft -> Mystical Black Cleft",
-      "zh-TW": "1 馬爾符文 + 1 完美鑽石 + 1 Uber Ancient Summon Material Act5 + 1 Black Cleft -> Mystical Black Cleft",
-      "zh-CN": "1 马尔符文 + 1 完美的钻石 + 1 Uber Ancient Summon Material Act5 + 1 Black Cleft -> Mystical Black Cleft"
-    },
-    "category": "quests",
-    "ingredientIcons": [
-      "invrMal",
-      "invgswe",
-      "invtoa",
-      "invtoa",
-      "invtoa"
-    ],
-    "outputIcon": null,
-    "ingredientHdIcons": [
-      "mal_rune",
-      "fragment_magic",
-      "mote_of_destruction",
-      "mote_of_destruction",
-      "mote_of_destruction"
-    ],
-    "outputHdIcon": null
-  },
-  {
     "id": "recipe-226",
     "description": {
-      "en": "1 Uber Ancient Summon Material from Act 1 + Act2 + Act3 + Act 4 + Act 5 -> Portal to Colossal Summit",
-      "zh-TW": "1 Uber Ancient Summon Material from Act 1 + Act2 + Act3 + Act 4 + Act 5 -> 通往巨神峰頂的傳送門",
-      "zh-CN": "1 Uber Ancient Summon Material from Act 1 + Act2 + Act3 + Act 4 + Act 5 -> 通往巨神峰顶的传送门"
+      "en": "1 Talic's Anguish + 1 Korlic's Pain + 1 Madawc's Ire + 1 Bul-Kathos' Nightmare + 1 Worusk's End -> Portal to Colossal Summit",
+      "zh-TW": "1 塔力克的怨慟 + 1 科力克的苦痛 + 1 馬道克的怒火 + 1 布爾凱索的夢魘 + 1 沃魯斯克的終結 -> 通往宏偉山巔的傳送門",
+      "zh-CN": "1 塔力克的痛苦 + 1 科里克的痛楚 + 1 马道克的愤怒 + 1 布尔凯索的噩梦 + 1 沃鲁斯克的终结 -> 通往巨像之巅的传送门"
     },
     "category": "quests",
     "ingredientIcons": [
@@ -2911,10 +2781,10 @@
     ],
     "outputIcon": null,
     "ingredientHdIcons": [
-      "worusks_end",
-      "worusks_end",
-      "worusks_end",
-      "worusks_end",
+      "talics_anguish",
+      "korlics_pain",
+      "madawcs_ire",
+      "bulkathos_nightmare",
       "worusks_end"
     ],
     "outputHdIcon": null
