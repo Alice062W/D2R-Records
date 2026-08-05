@@ -341,10 +341,13 @@ describe('cube-recipes.json', () => {
   // of `enabled:1` entries in cubemain.json *including* the 36 Hit Power/Blood/
   // Caster/Safety craft recipes (which are also enabled:1 but excluded here because
   // they belong only in crafted-items.json). The real total is
-  // 157 (enabled) - 36 (excluded craft recipes) + 17 (Crafted Grand Charm) = 138,
-  // confirmed by reading vendor/d2data/json/cubemain.json directly.
-  it('has 138 entries (121 enabled non-craft + 17 Crafted Grand Charm entries)', () => {
-    expect(cubeRecipesData.length).toBe(138);
+  // 157 (enabled) - 36 (excluded craft recipes) + 17 (colored magic-prefix
+  // recipes, now classified as magicItemCreation) + 6 (real Latent->Renewed
+  // Sunder Charm renewal recipes, DLC 3.2/Rise of the Watchers, added to
+  // craftedGrandCharm) = 144, confirmed by reading vendor/d2data/json/
+  // cubemain.json directly.
+  it('has 144 entries (121 enabled non-craft + 17 colored magic-prefix + 6 Renewed Sunder Charm entries)', () => {
+    expect(cubeRecipesData.length).toBe(144);
   });
 
   it('does not include the 36 Hit Power/Blood/Caster/Safety craft recipes (those are crafted-items.json only)', () => {
@@ -366,9 +369,15 @@ describe('cube-recipes.json', () => {
     expect(cow?.category).toBe('quests');
   });
 
-  it('classifies the Crafted Grand Charm entries correctly', () => {
+  it('classifies the Crafted Grand Charm entries correctly (the real "Latent -> Renewed" Sunder Charm renewal recipes, DLC 3.2)', () => {
     const charmRecipes = cubeRecipesData.filter(r => r.category === 'craftedGrandCharm');
-    expect(charmRecipes.length).toBe(17);
+    expect(charmRecipes.length).toBe(6);
+    expect(charmRecipes.every(r => r.description.en.includes('Latent') && r.description.en.includes('Renewed'))).toBe(true);
+  });
+
+  it('classifies the Rune+Gem+Worldstone Shard "colored" magic-prefix recipes (Virulent/Gelid/...) as magicItemCreation, not craftedGrandCharm', () => {
+    const r = cubeRecipesData.find(r => r.description.en.endsWith('-> Breaching Grand Charm'))!;
+    expect(r.category).toBe('magicItemCreation');
   });
 
   it('resolves ingredientIcons and outputIcon for a simple 2-input recipe (Staff of Kings + Amulet of the Viper -> Horadric Staff)', () => {
@@ -423,10 +432,10 @@ describe('cube-recipes.json', () => {
     expect(eld.description['zh-TW']).toBe('3 艾爾符文 -> 艾德符文');
   });
 
-  it('resolves a specific charm-size compound ("Grand Charm") to its own real translation, not the generic word for "Charm", and leaves the unverifiable "Breaching" prefix in English rather than guessing', () => {
+  it('resolves a specific charm-size compound ("Grand Charm") to its own real translation, not the generic word for "Charm", and translates the "Breaching" magic-prefix word (item-nameaffixes.json) rather than leaving it in English', () => {
     const r = cubeRecipesData.find(r => r.description.en.endsWith('-> Breaching Grand Charm'))!;
     expect(r.description['zh-TW']).toBe(
-      '1 普爾符文 + 1 完美紫寶石 + 1 北方世界之石碎片 + 1 超大型護身符 -> Breaching 超大型護身符'
+      '1 普爾符文 + 1 完美紫寶石 + 1 北方的世界之石碎片 + 1 超大型護身符 -> 突破 超大型護身符'
     );
   });
 

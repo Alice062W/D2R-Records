@@ -2377,10 +2377,10 @@
     "id": "recipe-163",
     "description": {
       "en": "1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Small Charm -> Virulent Small Charm",
-      "zh-TW": "1 科符文 + 1 完美綠寶石 + 1 西方世界之石碎片 + 1 小護身符 -> Virulent 小護身符",
-      "zh-CN": "1 科符文 + 1 完美的绿宝石 + 1 西方世界之石碎片 + 1 小护身符 -> Virulent 小护身符"
+      "zh-TW": "1 科符文 + 1 完美綠寶石 + 1 西方的世界之石碎片 + 1 小護身符 -> 怨毒 小護身符",
+      "zh-CN": "1 科符文 + 1 完美的绿宝石 + 1 西方世界之石碎片 + 1 小护身符 -> 剧毒 小护身符"
     },
-    "category": "craftedGrandCharm",
+    "category": "magicItemCreation",
     "ingredientIcons": [
       "invchm",
       "invrKo",
@@ -2392,7 +2392,7 @@
       "charm_small",
       "ko_rune",
       "perfect_emerald",
-      "mote_of_destruction"
+      "mote_of_anguish"
     ],
     "outputHdIcon": null
   },
@@ -2400,10 +2400,10 @@
     "id": "recipe-164",
     "description": {
       "en": "1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Large Charm -> Virulent Large Charm",
-      "zh-TW": "1 科符文 + 1 完美綠寶石 + 1 西方世界之石碎片 + 1 大型護身符 -> Virulent 大型護身符",
-      "zh-CN": "1 科符文 + 1 完美的绿宝石 + 1 西方世界之石碎片 + 1 大型护身符 -> Virulent 大型护身符"
+      "zh-TW": "1 科符文 + 1 完美綠寶石 + 1 西方的世界之石碎片 + 1 大型護身符 -> 怨毒 大型護身符",
+      "zh-CN": "1 科符文 + 1 完美的绿宝石 + 1 西方世界之石碎片 + 1 大型护身符 -> 剧毒 大型护身符"
     },
-    "category": "craftedGrandCharm",
+    "category": "magicItemCreation",
     "ingredientIcons": [
       "invchm",
       "invrKo",
@@ -2415,7 +2415,7 @@
       "charm_small",
       "ko_rune",
       "perfect_emerald",
-      "mote_of_destruction"
+      "mote_of_anguish"
     ],
     "outputHdIcon": null
   },
@@ -2444,10 +2444,10 @@
     "id": "recipe-174",
     "description": {
       "en": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Small Charm -> Gelid Small Charm",
-      "zh-TW": "1 盧姆符文 + 1 完美藍寶石 + 1 東方世界之石碎片 + 1 小護身符 -> Gelid 小護身符",
-      "zh-CN": "1 卢姆符文 + 1 完美的蓝宝石 + 1 东方世界之石碎片 + 1 小护身符 -> Gelid 小护身符"
+      "zh-TW": "1 盧姆符文 + 1 完美藍寶石 + 1 東方的世界之石碎片 + 1 小護身符 -> 嚴寒 小護身符",
+      "zh-CN": "1 卢姆符文 + 1 完美的蓝宝石 + 1 东方世界之石碎片 + 1 小护身符 -> 极寒 小护身符"
     },
-    "category": "craftedGrandCharm",
+    "category": "magicItemCreation",
     "ingredientIcons": [
       "invchm",
       "invrLum",
@@ -2459,7 +2459,7 @@
       "charm_small",
       "lum_rune",
       "perfect_saphire",
-      "mote_of_destruction"
+      "mote_of_pain"
     ],
     "outputHdIcon": null
   },
@@ -2467,10 +2467,10 @@
     "id": "recipe-175",
     "description": {
       "en": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Large Charm -> Gelid Large Charm",
-      "zh-TW": "1 盧姆符文 + 1 完美藍寶石 + 1 東方世界之石碎片 + 1 大型護身符 -> Gelid 大型護身符",
-      "zh-CN": "1 卢姆符文 + 1 完美的蓝宝石 + 1 东方世界之石碎片 + 1 大型护身符 -> Gelid 大型护身符"
+      "zh-TW": "1 盧姆符文 + 1 完美藍寶石 + 1 東方的世界之石碎片 + 1 大型護身符 -> 嚴寒 大型護身符",
+      "zh-CN": "1 卢姆符文 + 1 完美的蓝宝石 + 1 东方世界之石碎片 + 1 大型护身符 -> 极寒 大型护身符"
     },
-    "category": "craftedGrandCharm",
+    "category": "magicItemCreation",
     "ingredientIcons": [
       "invchm",
       "invrLum",
@@ -2482,7 +2482,7 @@
       "charm_small",
       "lum_rune",
       "perfect_saphire",
-      "mote_of_destruction"
+      "mote_of_pain"
     ],
     "outputHdIcon": null
   },
@@ -2490,10 +2490,10 @@
     "id": "recipe-176",
     "description": {
       "en": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Grand Charm -> Gelid Grand Charm",
-      "zh-TW": "1 盧姆符文 + 1 完美藍寶石 + 1 東方世界之石碎片 + 1 超大型護身符 -> Gelid 超大型護身符",
-      "zh-CN": "1 卢姆符文 + 1 完美的蓝宝石 + 1 东方世界之石碎片 + 1 超大型护身符 -> Gelid 超大型护身符"
+      "zh-TW": "1 盧姆符文 + 1 完美藍寶石 + 1 東方的世界之石碎片 + 1 超大型護身符 -> 嚴寒 超大型護身符",
+      "zh-CN": "1 卢姆符文 + 1 完美的蓝宝石 + 1 东方世界之石碎片 + 1 超大型护身符 -> 极寒 超大型护身符"
     },
-    "category": "craftedGrandCharm",
+    "category": "magicItemCreation",
     "ingredientIcons": [
       "invchm",
       "invrLum",
@@ -2505,7 +2505,7 @@
       "charm_small",
       "lum_rune",
       "perfect_saphire",
-      "mote_of_destruction"
+      "mote_of_pain"
     ],
     "outputHdIcon": null
   },
@@ -2534,10 +2534,10 @@
     "id": "recipe-186",
     "description": {
       "en": "1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Small Charm -> Magnetic Small Charm",
-      "zh-TW": "1 法爾符文 + 1 完美黃寶石 + 1 南方世界之石碎片 + 1 小護身符 -> Magnetic 小護身符",
-      "zh-CN": "1 法尔符文 + 1 完美的黄宝石 + 1 南方世界之石碎片 + 1 小护身符 -> Magnetic 小护身符"
+      "zh-TW": "1 法爾符文 + 1 完美黃寶石 + 1 南方的世界之石碎片 + 1 小護身符 -> 磁性 小護身符",
+      "zh-CN": "1 法尔符文 + 1 完美的黄宝石 + 1 南方世界之石碎片 + 1 小护身符 -> 磁性 小护身符"
     },
-    "category": "craftedGrandCharm",
+    "category": "magicItemCreation",
     "ingredientIcons": [
       "invchm",
       "invrFal",
@@ -2549,7 +2549,7 @@
       "charm_small",
       "fal_rune",
       "perfect_topaz",
-      "mote_of_destruction"
+      "mote_of_hatred"
     ],
     "outputHdIcon": null
   },
@@ -2557,10 +2557,10 @@
     "id": "recipe-187",
     "description": {
       "en": "1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Large Charm -> Magnetic Large Charm",
-      "zh-TW": "1 法爾符文 + 1 完美黃寶石 + 1 南方世界之石碎片 + 1 大型護身符 -> Magnetic 大型護身符",
-      "zh-CN": "1 法尔符文 + 1 完美的黄宝石 + 1 南方世界之石碎片 + 1 大型护身符 -> Magnetic 大型护身符"
+      "zh-TW": "1 法爾符文 + 1 完美黃寶石 + 1 南方的世界之石碎片 + 1 大型護身符 -> 磁性 大型護身符",
+      "zh-CN": "1 法尔符文 + 1 完美的黄宝石 + 1 南方世界之石碎片 + 1 大型护身符 -> 磁性 大型护身符"
     },
-    "category": "craftedGrandCharm",
+    "category": "magicItemCreation",
     "ingredientIcons": [
       "invchm",
       "invrFal",
@@ -2572,7 +2572,7 @@
       "charm_small",
       "fal_rune",
       "perfect_topaz",
-      "mote_of_destruction"
+      "mote_of_hatred"
     ],
     "outputHdIcon": null
   },
@@ -2580,10 +2580,10 @@
     "id": "recipe-188",
     "description": {
       "en": "1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Grand Charm -> Magnetic Grand Charm",
-      "zh-TW": "1 法爾符文 + 1 完美黃寶石 + 1 南方世界之石碎片 + 1 超大型護身符 -> Magnetic 超大型護身符",
-      "zh-CN": "1 法尔符文 + 1 完美的黄宝石 + 1 南方世界之石碎片 + 1 超大型护身符 -> Magnetic 超大型护身符"
+      "zh-TW": "1 法爾符文 + 1 完美黃寶石 + 1 南方的世界之石碎片 + 1 超大型護身符 -> 磁性 超大型護身符",
+      "zh-CN": "1 法尔符文 + 1 完美的黄宝石 + 1 南方世界之石碎片 + 1 超大型护身符 -> 磁性 超大型护身符"
     },
-    "category": "craftedGrandCharm",
+    "category": "magicItemCreation",
     "ingredientIcons": [
       "invchm",
       "invrFal",
@@ -2595,7 +2595,7 @@
       "charm_small",
       "fal_rune",
       "perfect_topaz",
-      "mote_of_destruction"
+      "mote_of_hatred"
     ],
     "outputHdIcon": null
   },
@@ -2624,10 +2624,10 @@
     "id": "recipe-198",
     "description": {
       "en": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Small Charm -> Incendiary Small Charm",
-      "zh-TW": "1 埃歐符文 + 1 完美紅寶石 + 1 深層世界之石碎片 + 1 小護身符 -> Incendiary 小護身符",
-      "zh-CN": "1 埃欧符文 + 1 完美的红宝石 + 1 深层世界之石碎片 + 1 小护身符 -> Incendiary 小护身符"
+      "zh-TW": "1 埃歐符文 + 1 完美紅寶石 + 1 深層的世界之石碎片 + 1 小護身符 -> 煽火 小護身符",
+      "zh-CN": "1 埃欧符文 + 1 完美的红宝石 + 1 深层世界之石碎片 + 1 小护身符 -> 焚烧 小护身符"
     },
-    "category": "craftedGrandCharm",
+    "category": "magicItemCreation",
     "ingredientIcons": [
       "invchm",
       "invrIo",
@@ -2639,7 +2639,7 @@
       "charm_small",
       "io_rune",
       "perfect_ruby",
-      "mote_of_destruction"
+      "mote_of_terror"
     ],
     "outputHdIcon": null
   },
@@ -2647,10 +2647,10 @@
     "id": "recipe-199",
     "description": {
       "en": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Large Charm -> Incendiary Large Charm",
-      "zh-TW": "1 埃歐符文 + 1 完美紅寶石 + 1 深層世界之石碎片 + 1 大型護身符 -> Incendiary 大型護身符",
-      "zh-CN": "1 埃欧符文 + 1 完美的红宝石 + 1 深层世界之石碎片 + 1 大型护身符 -> Incendiary 大型护身符"
+      "zh-TW": "1 埃歐符文 + 1 完美紅寶石 + 1 深層的世界之石碎片 + 1 大型護身符 -> 煽火 大型護身符",
+      "zh-CN": "1 埃欧符文 + 1 完美的红宝石 + 1 深层世界之石碎片 + 1 大型护身符 -> 焚烧 大型护身符"
     },
-    "category": "craftedGrandCharm",
+    "category": "magicItemCreation",
     "ingredientIcons": [
       "invchm",
       "invrIo",
@@ -2662,7 +2662,7 @@
       "charm_small",
       "io_rune",
       "perfect_ruby",
-      "mote_of_destruction"
+      "mote_of_terror"
     ],
     "outputHdIcon": null
   },
@@ -2670,10 +2670,10 @@
     "id": "recipe-200",
     "description": {
       "en": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Grand Charm -> Incendiary Grand Charm",
-      "zh-TW": "1 埃歐符文 + 1 完美紅寶石 + 1 深層世界之石碎片 + 1 超大型護身符 -> Incendiary 超大型護身符",
-      "zh-CN": "1 埃欧符文 + 1 完美的红宝石 + 1 深层世界之石碎片 + 1 超大型护身符 -> Incendiary 超大型护身符"
+      "zh-TW": "1 埃歐符文 + 1 完美紅寶石 + 1 深層的世界之石碎片 + 1 超大型護身符 -> 煽火 超大型護身符",
+      "zh-CN": "1 埃欧符文 + 1 完美的红宝石 + 1 深层世界之石碎片 + 1 超大型护身符 -> 焚烧 超大型护身符"
     },
-    "category": "craftedGrandCharm",
+    "category": "magicItemCreation",
     "ingredientIcons": [
       "invchm",
       "invrIo",
@@ -2685,7 +2685,7 @@
       "charm_small",
       "io_rune",
       "perfect_ruby",
-      "mote_of_destruction"
+      "mote_of_terror"
     ],
     "outputHdIcon": null
   },
@@ -2714,10 +2714,10 @@
     "id": "recipe-210",
     "description": {
       "en": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Small Charm -> Breaching Small Charm",
-      "zh-TW": "1 普爾符文 + 1 完美紫寶石 + 1 北方世界之石碎片 + 1 小護身符 -> Breaching 小護身符",
-      "zh-CN": "1 普尔符文 + 1 完美的紫宝石 + 1 北方世界之石碎片 + 1 小护身符 -> Breaching 小护身符"
+      "zh-TW": "1 普爾符文 + 1 完美紫寶石 + 1 北方的世界之石碎片 + 1 小護身符 -> 突破 小護身符",
+      "zh-CN": "1 普尔符文 + 1 完美的紫宝石 + 1 北方世界之石碎片 + 1 小护身符 -> 破甲 小护身符"
     },
-    "category": "craftedGrandCharm",
+    "category": "magicItemCreation",
     "ingredientIcons": [
       "invchm",
       "invrPul",
@@ -2737,10 +2737,10 @@
     "id": "recipe-211",
     "description": {
       "en": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Large Charm -> Breaching Large Charm",
-      "zh-TW": "1 普爾符文 + 1 完美紫寶石 + 1 北方世界之石碎片 + 1 大型護身符 -> Breaching 大型護身符",
-      "zh-CN": "1 普尔符文 + 1 完美的紫宝石 + 1 北方世界之石碎片 + 1 大型护身符 -> Breaching 大型护身符"
+      "zh-TW": "1 普爾符文 + 1 完美紫寶石 + 1 北方的世界之石碎片 + 1 大型護身符 -> 突破 大型護身符",
+      "zh-CN": "1 普尔符文 + 1 完美的紫宝石 + 1 北方世界之石碎片 + 1 大型护身符 -> 破甲 大型护身符"
     },
-    "category": "craftedGrandCharm",
+    "category": "magicItemCreation",
     "ingredientIcons": [
       "invchm",
       "invrPul",
@@ -2760,10 +2760,10 @@
     "id": "recipe-212",
     "description": {
       "en": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Grand Charm -> Breaching Grand Charm",
-      "zh-TW": "1 普爾符文 + 1 完美紫寶石 + 1 北方世界之石碎片 + 1 超大型護身符 -> Breaching 超大型護身符",
-      "zh-CN": "1 普尔符文 + 1 完美的紫宝石 + 1 北方世界之石碎片 + 1 超大型护身符 -> Breaching 超大型护身符"
+      "zh-TW": "1 普爾符文 + 1 完美紫寶石 + 1 北方的世界之石碎片 + 1 超大型護身符 -> 突破 超大型護身符",
+      "zh-CN": "1 普尔符文 + 1 完美的紫宝石 + 1 北方世界之石碎片 + 1 超大型护身符 -> 破甲 超大型护身符"
     },
-    "category": "craftedGrandCharm",
+    "category": "magicItemCreation",
     "ingredientIcons": [
       "invchm",
       "invrPul",
@@ -2804,10 +2804,10 @@
     "id": "recipe-222",
     "description": {
       "en": "1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Small Charm -> Mystical Small Charm",
-      "zh-TW": "1 馬爾符文 + 1 完美鑽石 + 1 北方世界之石碎片 + 1 小護身符 -> Mystical 小護身符",
-      "zh-CN": "1 马尔符文 + 1 完美的钻石 + 1 北方世界之石碎片 + 1 小护身符 -> Mystical 小护身符"
+      "zh-TW": "1 馬爾符文 + 1 完美鑽石 + 1 北方的世界之石碎片 + 1 小護身符 -> 神秘 小護身符",
+      "zh-CN": "1 马尔符文 + 1 完美的钻石 + 1 北方世界之石碎片 + 1 小护身符 -> 神秘 小护身符"
     },
-    "category": "craftedGrandCharm",
+    "category": "magicItemCreation",
     "ingredientIcons": [
       "invchm",
       "invrMal",
@@ -2827,10 +2827,10 @@
     "id": "recipe-223",
     "description": {
       "en": "1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Large Charm -> Mystical Large Charm",
-      "zh-TW": "1 馬爾符文 + 1 完美鑽石 + 1 北方世界之石碎片 + 1 大型護身符 -> Mystical 大型護身符",
-      "zh-CN": "1 马尔符文 + 1 完美的钻石 + 1 北方世界之石碎片 + 1 大型护身符 -> Mystical 大型护身符"
+      "zh-TW": "1 馬爾符文 + 1 完美鑽石 + 1 北方的世界之石碎片 + 1 大型護身符 -> 神秘 大型護身符",
+      "zh-CN": "1 马尔符文 + 1 完美的钻石 + 1 北方世界之石碎片 + 1 大型护身符 -> 神秘 大型护身符"
     },
-    "category": "craftedGrandCharm",
+    "category": "magicItemCreation",
     "ingredientIcons": [
       "invchm",
       "invrMal",
@@ -2850,10 +2850,10 @@
     "id": "recipe-224",
     "description": {
       "en": "1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Grand Charm -> Mystical Grand Charm",
-      "zh-TW": "1 馬爾符文 + 1 完美鑽石 + 1 北方世界之石碎片 + 1 超大型護身符 -> Mystical 超大型護身符",
-      "zh-CN": "1 马尔符文 + 1 完美的钻石 + 1 北方世界之石碎片 + 1 超大型护身符 -> Mystical 超大型护身符"
+      "zh-TW": "1 馬爾符文 + 1 完美鑽石 + 1 北方的世界之石碎片 + 1 超大型護身符 -> 神秘 超大型護身符",
+      "zh-CN": "1 马尔符文 + 1 完美的钻石 + 1 北方世界之石碎片 + 1 超大型护身符 -> 神秘 超大型护身符"
     },
-    "category": "craftedGrandCharm",
+    "category": "magicItemCreation",
     "ingredientIcons": [
       "invchm",
       "invrMal",
@@ -2918,5 +2918,147 @@
       "worusks_end"
     ],
     "outputHdIcon": null
+  },
+  {
+    "id": "recipe-227",
+    "description": {
+      "en": "1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Latent Rotting Fissure -> Renewed Rotting Fissure",
+      "zh-TW": "1 科符文 + 1 完美綠寶石 + 1 西方的世界之石碎片 + 1 潛伏腐敗裂痕 -> 新生腐敗裂痕",
+      "zh-CN": "1 科符文 + 1 完美的绿宝石 + 1 西方的世界之石碎片 + 1 潜在的腐烂裂迹 -> 焕新的腐烂裂迹"
+    },
+    "category": "craftedGrandCharm",
+    "ingredientIcons": [
+      "invrKo",
+      "invgsge",
+      "invtoa",
+      "invsst"
+    ],
+    "outputIcon": "invsst",
+    "ingredientHdIcons": [
+      "ko_rune",
+      "perfect_emerald",
+      "mote_of_anguish",
+      "charm_large_lgrn"
+    ],
+    "outputHdIcon": "charm_large_lgrn"
+  },
+  {
+    "id": "recipe-228",
+    "description": {
+      "en": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Latent Cold Rupture -> Renewed Cold Rupture",
+      "zh-TW": "1 盧姆符文 + 1 完美藍寶石 + 1 東方的世界之石碎片 + 1 潛伏冰寒裂縫 -> 新生冰寒裂縫",
+      "zh-CN": "1 卢姆符文 + 1 完美的蓝宝石 + 1 东方的世界之石碎片 + 1 潜在的寒冰裂口 -> 焕新的寒冰裂口"
+    },
+    "category": "craftedGrandCharm",
+    "ingredientIcons": [
+      "invrLum",
+      "invgsbe",
+      "invtoa",
+      "invsst"
+    ],
+    "outputIcon": "invsst",
+    "ingredientHdIcons": [
+      "lum_rune",
+      "perfect_saphire",
+      "mote_of_pain",
+      "charm_large_lblu"
+    ],
+    "outputHdIcon": "charm_large_lblu"
+  },
+  {
+    "id": "recipe-229",
+    "description": {
+      "en": "1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Latent Crack of the Heavens -> Renewed Crack of the Heavens",
+      "zh-TW": "1 法爾符文 + 1 完美黃寶石 + 1 南方的世界之石碎片 + 1 潛伏天堂裂擊 -> 新生天堂裂擊",
+      "zh-CN": "1 法尔符文 + 1 完美的黄宝石 + 1 南方的世界之石碎片 + 1 潜在的天堂裂痕 -> 焕新的天堂裂痕"
+    },
+    "category": "craftedGrandCharm",
+    "ingredientIcons": [
+      "invrFal",
+      "invgsye",
+      "invtoa",
+      "invsst"
+    ],
+    "outputIcon": "invsst",
+    "ingredientHdIcons": [
+      "fal_rune",
+      "perfect_topaz",
+      "mote_of_hatred",
+      "charm_large_lyel"
+    ],
+    "outputHdIcon": "charm_large_lyel"
+  },
+  {
+    "id": "recipe-230",
+    "description": {
+      "en": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Latent Flame Rift -> Renewed Flame Rift",
+      "zh-TW": "1 埃歐符文 + 1 完美紅寶石 + 1 深處的世界之石碎片 + 1 潛伏火焰裂隙 -> 新生火焰裂隙",
+      "zh-CN": "1 埃欧符文 + 1 完美的红宝石 + 1 深处的世界之石碎片 + 1 潜在的火焰裂隙 -> 焕新的火焰裂隙"
+    },
+    "category": "craftedGrandCharm",
+    "ingredientIcons": [
+      "invrIo",
+      "invgsre",
+      "invtoa",
+      "invsst"
+    ],
+    "outputIcon": "invsst",
+    "ingredientHdIcons": [
+      "io_rune",
+      "perfect_ruby",
+      "mote_of_terror",
+      "charm_large_lred"
+    ],
+    "outputHdIcon": "charm_large_lred"
+  },
+  {
+    "id": "recipe-231",
+    "description": {
+      "en": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Latent Bone Break -> Renewed Bone Break",
+      "zh-TW": "1 普爾符文 + 1 完美紫寶石 + 1 北方的世界之石碎片 + 1 潛伏分筋裂骨 -> 新生分筋裂骨",
+      "zh-CN": "1 普尔符文 + 1 完美的紫宝石 + 1 北方的世界之石碎片 + 1 潜在的白骨裂纹 -> 焕新的白骨裂纹"
+    },
+    "category": "craftedGrandCharm",
+    "ingredientIcons": [
+      "invrPul",
+      "invgsve",
+      "invtoa",
+      "invsst"
+    ],
+    "outputIcon": "invsst",
+    "ingredientHdIcons": [
+      "pul_rune",
+      "perfect_amethyst",
+      "mote_of_destruction",
+      "charm_large_whit"
+    ],
+    "outputHdIcon": "charm_large_whit"
+  },
+  {
+    "id": "recipe-232",
+    "description": {
+      "en": "1 Mal Rune + 1 Perfect Diamond + 1 Southern Worldstone Shard + 1 Deep Worldstone Shard + 1 Northern Worldstone Shard + 1 Latent Black Cleft -> Renewed Black Cleft",
+      "zh-TW": "1 馬爾符文 + 1 完美鑽石 + 1 南方的世界之石碎片 + 1 深處的世界之石碎片 + 1 北方的世界之石碎片 + 1 潛伏漆黑裂口 -> 新生漆黑裂口",
+      "zh-CN": "1 马尔符文 + 1 完美的钻石 + 1 南方的世界之石碎片 + 1 深处的世界之石碎片 + 1 北方的世界之石碎片 + 1 潜在的漆黑裂痕 -> 焕新的漆黑裂痕"
+    },
+    "category": "craftedGrandCharm",
+    "ingredientIcons": [
+      "invrMal",
+      "invgswe",
+      "invtoa",
+      "invtoa",
+      "invtoa",
+      "invsst"
+    ],
+    "outputIcon": "invsst",
+    "ingredientHdIcons": [
+      "mal_rune",
+      "perfect_diamond",
+      "mote_of_hatred",
+      "mote_of_terror",
+      "mote_of_destruction",
+      "charm_large_lgry"
+    ],
+    "outputHdIcon": "charm_large_lgry"
   }
 ]
