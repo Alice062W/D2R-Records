@@ -241,6 +241,8 @@
     "cubeRecipesItemUpgradeGroupSet": "套裝",
     "cubeRecipesRerollsGroupMagic": "魔法物品",
     "cubeRecipesRerollsGroupRare": "稀有物品",
+    "cubeRecipesCreationGroupWeaponsShields": "武器與盾牌",
+    "cubeRecipesCreationGroupAmuletsRings": "項鍊與戒指",
     "cubeRecipesCategory_gemUpgrade": "寶石升級",
     "cubeRecipesCategory_runeUpgrade": "符文升級",
     "cubeRecipesCategory_quests": "任務",

@@ -95,12 +95,18 @@ function qualityColorOf(segment: string): string | null {
   return null;
 }
 
-function QualityColoredText({ text }: { text: string }) {
-  const color = qualityColorOf(text);
+function QualityColoredText({ text, fallbackColor }: { text: string; fallbackColor?: string }) {
+  const color = qualityColorOf(text) ?? fallbackColor ?? null;
   return color ? <span className={color}>{text}</span> : <>{text}</>;
 }
 
-function DescriptionWithQtyIcons({ description, descriptionEn }: { description: string; descriptionEn?: string }) {
+function DescriptionWithQtyIcons({
+  description, descriptionEn, outputFallbackColor,
+}: {
+  description: string;
+  descriptionEn?: string;
+  outputFallbackColor?: string;
+}) {
   const arrowMatch = description.match(/\s*(?:->|→)\s*/);
   if (!arrowMatch) return <>{description}</>;
   const arrowIndex = arrowMatch.index!;
@@ -146,7 +152,7 @@ function DescriptionWithQtyIcons({ description, descriptionEn }: { description: 
         );
       })}
       {' → '}
-      <QualityColoredText text={outputPart} />
+      <QualityColoredText text={outputPart} fallbackColor={outputFallbackColor} />
       {outputRuneNum != null && <RuneNumberBadge n={outputRuneNum} />}
     </>
   );
@@ -196,7 +202,11 @@ function RecipeCard({ r, locale }: { r: Recipe; locale: Locale }) {
           )}
         </div>
       )}
-      <DescriptionWithQtyIcons description={r.description[locale]} descriptionEn={r.description.en} />
+      <DescriptionWithQtyIcons
+        description={r.description[locale]}
+        descriptionEn={r.description.en}
+        outputFallbackColor={r.category === 'magicItemCreation' ? 'text-[#8080f3]' : undefined}
+      />
       {'notes' in r && r.notes && (
         <div className="mt-1 text-xs text-muted">{r.notes[locale]}</div>
       )}
@@ -274,7 +284,33 @@ export default function CubeRecipeList({ recipes, locale }: { recipes: Recipe[];
     );
   }
 
-  if (isCraftedGrandCharm || isQuests || isMagicItemCreation || isSockets || isItemRepair) {
+  if (isMagicItemCreation) {
+    // Group by the output's own item slot -- Weapons & Shields (Magic Shield
+    // of Spikes/Sword of the Leech/Savage Polearm) vs Amulets & Rings
+    // (Prismatic Amulet, the 4 named Rings, and the Magic Amulet<->Magic
+    // Ring swaps) -- detected from the recipe's own English output text.
+    const weaponsShieldsGroup = recipes.filter(r => /Shield|Sword|Polearm/.test(outputTextOf(r.description.en)));
+    const amuletsRingsGroup = recipes.filter(r => /Amulet|Ring/.test(outputTextOf(r.description.en)));
+    const groups = [
+      { key: 'weaponsShields', title: t('cubeRecipesCreationGroupWeaponsShields'), items: weaponsShieldsGroup },
+      { key: 'amuletsRings', title: t('cubeRecipesCreationGroupAmuletsRings'), items: amuletsRingsGroup },
+    ].filter(g => g.items.length > 0);
+
+    return (
+      <div className="flex flex-col gap-4 w-full">
+        {groups.map(({ key, title, items }) => (
+          <div key={key} className="bg-panel-alt border border-panel-border rounded-xl p-4 flex flex-col gap-2">
+            <h3 className="text-sm font-bold text-gold-bright font-cinzel">{title}</h3>
+            <div className="grid grid-cols-1 gap-2">
+              {items.map(r => <RecipeCard key={r.id} r={r} locale={locale} />)}
+            </div>
+          </div>
+        ))}
+      </div>
+    );
+  }
+
+  if (isCraftedGrandCharm || isQuests || isSockets || isItemRepair) {
     // Long multi-ingredient descriptions (4-6 ingredients, verbose quality/
     // rune/gem/charm-size wording), or -- for Sockets/Item Repair/Magic Item
     // Rerolls/Magic Item Creation -- the added output-text and/or condition-

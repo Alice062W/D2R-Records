@@ -228,6 +228,31 @@ describe('CubeRecipeList', () => {
     expect(container.textContent).toContain('Item Level: 30 · Fire Resist +21-30%');
   });
 
+  it('groups magicItemCreation recipes into a Weapons & Shields box and an Amulets & Rings box', () => {
+    const category = recipes.filter(r => r.category === 'magicItemCreation');
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <CubeRecipeList recipes={category} locale="en" />
+      </NextIntlClientProvider>
+    );
+    expect(screen.getByRole('heading', { name: 'Weapons & Shields' })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: 'Amulets & Rings' })).toBeInTheDocument();
+  });
+
+  it('colors named magicItemCreation outputs (Garnet Ring, Sword of the Leech, etc.) blue, even though the name itself has no literal "Magic" word', () => {
+    const category = recipes.filter(r => r.category === 'magicItemCreation');
+    const { container } = render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <CubeRecipeList recipes={category} locale="en" />
+      </NextIntlClientProvider>
+    );
+    const blueTexts = Array.from(container.querySelectorAll('.text-\\[\\#8080f3\\]')).map(el => el.textContent);
+    expect(blueTexts).toContain('Prismatic Amulet');
+    expect(blueTexts).toContain('Garnet Ring');
+    expect(blueTexts).toContain('Sword of the Leech');
+    expect(blueTexts).toContain('Savage Polearm');
+  });
+
   it('groups magicItemRerolls recipes into a Magic Item box and a Rare Item box', () => {
     const category = recipes.filter(r => r.category === 'magicItemRerolls');
     render(
