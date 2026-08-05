@@ -8,12 +8,12 @@ import recipes from '../../../data/cube-recipes.json';
 describe('CubeRecipeList', () => {
   it('renders every recipe passed to it (category grouping now lives in the page route)', () => {
     const category = recipes.filter(r => r.category === 'runeUpgrade');
-    render(
+    const { container } = render(
       <NextIntlClientProvider locale="en" messages={messages}>
         <CubeRecipeList recipes={category} locale="en" />
       </NextIntlClientProvider>
     );
-    expect(screen.getByText('3 El Runes → Eld Rune')).toBeInTheDocument();
+    expect(container.textContent).toContain('3✕El Runes → Eld Rune');
   });
 
   it('renders ingredient and output icons alongside the existing description text', () => {
@@ -29,7 +29,7 @@ describe('CubeRecipeList', () => {
         <CubeRecipeList recipes={[recipe]} locale="en" />
       </NextIntlClientProvider>
     );
-    expect(screen.getByText('Staff of Kings + Amulet of the Viper → Horadric Staff')).toBeInTheDocument();
+    expect(container.textContent).toContain('Staff of Kings + Amulet of the Viper → Horadric Staff');
     const imgs = container.querySelectorAll('img');
     const srcs = Array.from(imgs).map(i => (i as HTMLImageElement).src);
     expect(srcs.some(s => s.includes('invmsf'))).toBe(true);
@@ -52,7 +52,7 @@ describe('CubeRecipeList', () => {
     );
     const srcs = Array.from(container.querySelectorAll('img')).map(i => (i as HTMLImageElement).src);
     expect(srcs.filter(s => s.includes('invgsva')).length).toBe(3);
-    expect(screen.getByText('3 Chipped Amethysts → Flawed Amethyst')).toBeInTheDocument();
+    expect(container.textContent).toContain('3✕Chipped Amethysts → Flawed Amethyst');
   });
 
   it('renders no output icon when outputIcon is null', () => {
@@ -75,7 +75,7 @@ describe('CubeRecipeList', () => {
 
   it('groups all gemUpgrade recipes into one box per gem type, titled with that gem\'s own name', () => {
     const gemRecipes = recipes.filter(r => r.category === 'gemUpgrade');
-    render(
+    const { container } = render(
       <NextIntlClientProvider locale="en" messages={messages}>
         <CubeRecipeList recipes={gemRecipes} locale="en" />
       </NextIntlClientProvider>
@@ -85,7 +85,29 @@ describe('CubeRecipeList', () => {
       expect(screen.getByRole('heading', { name: gem })).toBeInTheDocument();
     }
     // All 4 tiers for Ruby end up under the same heading's box.
-    expect(screen.getByText('3 Chipped Rubies → Flawed Ruby')).toBeInTheDocument();
-    expect(screen.getByText('3 Flawless Rubies → Perfect Ruby')).toBeInTheDocument();
+    expect(container.textContent).toContain('3✕Chipped Rubies → Flawed Ruby');
+    expect(container.textContent).toContain('3✕Flawless Rubies → Perfect Ruby');
+  });
+
+  it('inserts a quantity marker after each ingredient count, including in multi-ingredient recipes', () => {
+    const recipe = {
+      id: 'recipe-x',
+      description: {
+        en: '3 Healing Potions (Any) + 3 Mana Potions (Any) + 1 Standard Gem (Any) -> Full Rejuvenation Potion',
+        'zh-TW': 'x',
+        'zh-CN': 'x',
+      },
+      category: 'consumables' as const,
+      ingredientIcons: [],
+      outputIcon: null,
+    };
+    const { container } = render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <CubeRecipeList recipes={[recipe]} locale="en" />
+      </NextIntlClientProvider>
+    );
+    expect(container.textContent).toContain(
+      '3✕Healing Potions (Any) + 3✕Mana Potions (Any) + 1✕Standard Gem (Any) → Full Rejuvenation Potion'
+    );
   });
 });

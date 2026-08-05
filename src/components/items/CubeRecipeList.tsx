@@ -32,6 +32,56 @@ function gemGroupOf(descriptionEn: string): (typeof GEM_ORDER)[number] | null {
   return GEM_ORDER.find(gem => descriptionEn.includes(gem)) ?? null;
 }
 
+// A small "×" quantity marker inserted between an ingredient's count and its
+// name (e.g. "3 Chipped Amethysts" -> "3 ✕ Chipped Amethysts"), so the
+// count reads unambiguously as a multiplier rather than run into the name.
+// Same lightweight-glyph convention this component's sibling pages already
+// use for non-item-icon markers (e.g. the 🎲 dice glyph on variable stat
+// rows) -- no game asset exists for "quantity", so a Unicode glyph styled
+// to match is used instead of an <img>.
+function QtyIcon() {
+  return <span aria-hidden="true" className="text-muted text-xs mx-0.5">✕</span>;
+}
+
+// Splits a composed recipe description into its ingredient list and output
+// ("3 X + 1 Y -> Z" / "3 X + 1 Y → Z"), and renders a QtyIcon after each
+// ingredient's own leading count -- language-agnostic (digits and the "+"/
+// "->" separators are identical across en/zh-TW/zh-CN's composed text), so
+// this applies uniformly to every locale and every cube-recipe category
+// without needing separate per-language data.
+function DescriptionWithQtyIcons({ description }: { description: string }) {
+  const arrowMatch = description.match(/\s*(?:->|→)\s*/);
+  if (!arrowMatch) return <>{description}</>;
+  const arrowIndex = arrowMatch.index!;
+  const inputPart = description.slice(0, arrowIndex);
+  const outputPart = description.slice(arrowIndex + arrowMatch[0].length);
+
+  const ingredients = inputPart.split(' + ');
+  return (
+    <>
+      {ingredients.map((ingredient, i) => {
+        const m = ingredient.match(/^(\d+)(\s+)(.*)$/);
+        return (
+          <span key={i}>
+            {i > 0 && ' + '}
+            {m ? (
+              <>
+                {m[1]}
+                <QtyIcon />
+                {m[3]}
+              </>
+            ) : (
+              ingredient
+            )}
+          </span>
+        );
+      })}
+      {' → '}
+      {outputPart}
+    </>
+  );
+}
+
 function RecipeCard({ r, locale }: { r: Recipe; locale: Locale }) {
   return (
     <div className="bg-panel border border-panel-border rounded-lg px-4 py-2 text-sm text-parchment">
@@ -46,7 +96,7 @@ function RecipeCard({ r, locale }: { r: Recipe; locale: Locale }) {
           )}
         </div>
       )}
-      {r.description[locale].replace(/->/g, '→')}
+      <DescriptionWithQtyIcons description={r.description[locale]} />
     </div>
   );
 }
