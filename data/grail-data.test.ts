@@ -426,7 +426,7 @@ describe('cube-recipes.json', () => {
   it('resolves a specific charm-size compound ("Grand Charm") to its own real translation, not the generic word for "Charm", and leaves the unverifiable "Breaching" prefix in English rather than guessing', () => {
     const r = cubeRecipesData.find(r => r.description.en.endsWith('-> Breaching Grand Charm'))!;
     expect(r.description['zh-TW']).toBe(
-      '1 普爾符文 + 1 完美的紫寶石 + 1 北方世界之石碎片 + 1 超大型護身符 -> Breaching 超大型護身符'
+      '1 普爾符文 + 1 完美紫寶石 + 1 北方世界之石碎片 + 1 超大型護身符 -> Breaching 超大型護身符'
     );
   });
 

@@ -6,14 +6,28 @@ import messages from '../../../messages/en.json';
 import recipes from '../../../data/cube-recipes.json';
 
 describe('CubeRecipeList', () => {
-  it('renders every recipe passed to it (category grouping now lives in the page route)', () => {
+  it('renders runeUpgrade recipes with a "(#N)" rune-number badge on every rune mention', () => {
     const category = recipes.filter(r => r.category === 'runeUpgrade');
     const { container } = render(
       <NextIntlClientProvider locale="en" messages={messages}>
         <CubeRecipeList recipes={category} locale="en" />
       </NextIntlClientProvider>
     );
-    expect(container.textContent).toContain('3 ✕ El Runes → Eld Rune');
+    expect(container.textContent).toContain('3 ✕ El Runes (#1) → Eld Rune (#2)');
+    // A gem ingredient never gets a rune-number badge.
+    expect(container.textContent).toContain('3 ✕ Thul Runes (#10) + 1 ✕ Chipped Topaz → Amn Rune (#11)');
+  });
+
+  it('groups runeUpgrade recipes into 3 boxes: no-gem (runes 1-9), 3-rune (10-20), 2-rune (21-33)', () => {
+    const category = recipes.filter(r => r.category === 'runeUpgrade');
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <CubeRecipeList recipes={category} locale="en" />
+      </NextIntlClientProvider>
+    );
+    expect(screen.getByRole('heading', { name: 'Rune #1–9 (No Gem Required)' })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: 'Rune #10–20 (Requires 3 Runes)' })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: 'Rune #21–33 (Requires 2 Runes)' })).toBeInTheDocument();
   });
 
   it('renders ingredient and output icons alongside the existing description text', () => {
