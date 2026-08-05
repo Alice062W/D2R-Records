@@ -1963,13 +1963,15 @@
     "ingredientIcons": [
       "invrRal",
       "invrSol",
-      "invgsge"
+      "invgsge",
+      "invssd"
     ],
     "outputIcon": null,
     "ingredientHdIcons": [
       "ral_rune",
       "sol_rune",
-      "perfect_emerald"
+      "perfect_emerald",
+      "short_sword"
     ],
     "outputHdIcon": null
   },
@@ -1984,13 +1986,15 @@
     "ingredientIcons": [
       "invrTal",
       "invrShae",
-      "invgswe"
+      "invgswe",
+      "invqlt"
     ],
     "outputIcon": null,
     "ingredientHdIcons": [
       "tal_rune",
       "shael_rune",
-      "perfect_diamond"
+      "perfect_diamond",
+      "quilted_armor"
     ],
     "outputHdIcon": null
   },
@@ -2005,13 +2009,15 @@
     "ingredientIcons": [
       "invrLum",
       "invrPul",
-      "invgsge"
+      "invgsge",
+      "invssd"
     ],
     "outputIcon": null,
     "ingredientHdIcons": [
       "lum_rune",
       "pul_rune",
-      "perfect_emerald"
+      "perfect_emerald",
+      "short_sword"
     ],
     "outputHdIcon": null
   },
@@ -2026,13 +2032,15 @@
     "ingredientIcons": [
       "invrKo",
       "invrLem",
-      "invgswe"
+      "invgswe",
+      "invqlt"
     ],
     "outputIcon": null,
     "ingredientHdIcons": [
       "ko_rune",
       "lem_rune",
-      "perfect_diamond"
+      "perfect_diamond",
+      "quilted_armor"
     ],
     "outputHdIcon": null
   },
@@ -2047,13 +2055,15 @@
     "ingredientIcons": [
       "invrOrt",
       "invrAmn",
-      "invgsbe"
+      "invgsbe",
+      "invssd"
     ],
     "outputIcon": null,
     "ingredientHdIcons": [
       "ort_rune",
       "amn_rune",
-      "perfect_saphire"
+      "perfect_saphire",
+      "short_sword"
     ],
     "outputHdIcon": null
   },
@@ -2068,13 +2078,15 @@
     "ingredientIcons": [
       "invrRal",
       "invrThul",
-      "invgsve"
+      "invgsve",
+      "invqlt"
     ],
     "outputIcon": null,
     "ingredientHdIcons": [
       "ral_rune",
       "thul_rune",
-      "perfect_amethyst"
+      "perfect_amethyst",
+      "quilted_armor"
     ],
     "outputHdIcon": null
   },
@@ -2089,13 +2101,15 @@
     "ingredientIcons": [
       "invrFal",
       "invrUm",
-      "invgsbe"
+      "invgsbe",
+      "invssd"
     ],
     "outputIcon": null,
     "ingredientHdIcons": [
       "fal_rune",
       "um_rune",
-      "perfect_saphire"
+      "perfect_saphire",
+      "short_sword"
     ],
     "outputHdIcon": null
   },
@@ -2110,13 +2124,15 @@
     "ingredientIcons": [
       "invrKo",
       "invrPul",
-      "invgsve"
+      "invgsve",
+      "invqlt"
     ],
     "outputIcon": null,
     "ingredientHdIcons": [
       "ko_rune",
       "pul_rune",
-      "perfect_amethyst"
+      "perfect_amethyst",
+      "quilted_armor"
     ],
     "outputHdIcon": null
   },
@@ -2295,13 +2311,15 @@
     "ingredientIcons": [
       "invrRal",
       "invrSol",
-      "invgsge"
+      "invgsge",
+      "invssd"
     ],
     "outputIcon": null,
     "ingredientHdIcons": [
       "ral_rune",
       "sol_rune",
-      "perfect_emerald"
+      "perfect_emerald",
+      "short_sword"
     ],
     "outputHdIcon": null
   },
@@ -2316,13 +2334,15 @@
     "ingredientIcons": [
       "invrTal",
       "invrShae",
-      "invgswe"
+      "invgswe",
+      "invqlt"
     ],
     "outputIcon": null,
     "ingredientHdIcons": [
       "tal_rune",
       "shael_rune",
-      "perfect_diamond"
+      "perfect_diamond",
+      "quilted_armor"
     ],
     "outputHdIcon": null
   },
@@ -2337,13 +2357,15 @@
     "ingredientIcons": [
       "invrLum",
       "invrPul",
-      "invgsge"
+      "invgsge",
+      "invssd"
     ],
     "outputIcon": null,
     "ingredientHdIcons": [
       "lum_rune",
       "pul_rune",
-      "perfect_emerald"
+      "perfect_emerald",
+      "short_sword"
     ],
     "outputHdIcon": null
   },
@@ -2358,13 +2380,15 @@
     "ingredientIcons": [
       "invrKo",
       "invrLem",
-      "invgswe"
+      "invgswe",
+      "invqlt"
     ],
     "outputIcon": null,
     "ingredientHdIcons": [
       "ko_rune",
       "lem_rune",
-      "perfect_diamond"
+      "perfect_diamond",
+      "quilted_armor"
     ],
     "outputHdIcon": null
   },
