@@ -182,12 +182,28 @@ export default function CubeRecipeList({ recipes, locale }: { recipes: Recipe[];
   const isCraftedGrandCharm = recipes.length > 0 && recipes.every(r => r.category === 'craftedGrandCharm');
   const isQuests = recipes.length > 0 && recipes.every(r => r.category === 'quests');
 
-  if (isCraftedGrandCharm || isQuests) {
-    // Only 6-7 recipes in either category, several with long multi-ingredient
-    // descriptions -- a single column reads more clearly than wrapping them
-    // into a multi-column grid.
+  const isItemUpgrade = recipes.length > 0 && recipes.every(r => r.category === 'itemUpgrade');
+  const isMagicItemCreation = recipes.length > 0 && recipes.every(r => r.category === 'magicItemCreation');
+  const isSockets = recipes.length > 0 && recipes.every(r => r.category === 'sockets');
+  const isItemRepair = recipes.length > 0 && recipes.every(r => r.category === 'itemRepair');
+  const isMagicItemRerolls = recipes.length > 0 && recipes.every(r => r.category === 'magicItemRerolls');
+
+  if (isCraftedGrandCharm || isQuests || isItemUpgrade || isMagicItemCreation) {
+    // Long multi-ingredient descriptions (4-6 ingredients, verbose quality/
+    // rune/gem/charm-size wording) -- a single column reads more clearly
+    // than wrapping them into a multi-column grid.
     return (
       <div className="grid grid-cols-1 gap-2 w-full">
+        {recipes.map(r => <RecipeCard key={r.id} r={r} locale={locale} />)}
+      </div>
+    );
+  }
+
+  if (isSockets || isItemRepair || isMagicItemRerolls) {
+    // Shorter descriptions than Item Upgrade/Magic Item Creation -- 2 columns
+    // fits comfortably without wrapping awkwardly.
+    return (
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 w-full">
         {recipes.map(r => <RecipeCard key={r.id} r={r} locale={locale} />)}
       </div>
     );
