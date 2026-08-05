@@ -9,17 +9,21 @@ import { BASE_PATH } from '@/lib/basePath';
 type Recipe = (typeof cubeRecipesJson)[number];
 type Locale = 'en' | 'zh-TW' | 'zh-CN';
 
-function RecipeIcon({ invFile }: { invFile: string }) {
+function RecipeIcon({ invFile, hdIcon }: { invFile: string; hdIcon?: string | null }) {
   const [iconFailed, setIconFailed] = useState(false);
-  if (!invFile || iconFailed) return null;
+  const [hdIconFailed, setHdIconFailed] = useState(false);
+  if ((!hdIcon && !invFile) || iconFailed) return null;
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
-      src={`${BASE_PATH}/items/inv/${invFile}.png`}
+      src={hdIcon && !hdIconFailed ? `${BASE_PATH}/items/hd/${hdIcon}.png` : `${BASE_PATH}/items/inv/${invFile}.png`}
       alt=""
       aria-hidden="true"
       className="w-6 h-6 object-contain inline-block"
-      onError={() => setIconFailed(true)}
+      onError={() => {
+        if (hdIcon && !hdIconFailed) setHdIconFailed(true);
+        else setIconFailed(true);
+      }}
     />
   );
 }
@@ -133,11 +137,13 @@ function RecipeCard({ r, locale }: { r: Recipe; locale: Locale }) {
     <div className="bg-panel border border-panel-border rounded-lg px-4 py-2 text-sm text-parchment">
       {(r.ingredientIcons.length > 0 || r.outputIcon) && (
         <div className="flex items-center gap-1 mb-1">
-          {r.ingredientIcons.map((icon, i) => <RecipeIcon key={`${icon}-${i}`} invFile={icon} />)}
+          {r.ingredientIcons.map((icon, i) => (
+            <RecipeIcon key={`${icon}-${i}`} invFile={icon} hdIcon={r.ingredientHdIcons?.[i]} />
+          ))}
           {r.outputIcon && (
             <>
               <span className="text-muted mx-1">&rarr;</span>
-              <RecipeIcon invFile={r.outputIcon} />
+              <RecipeIcon invFile={r.outputIcon} hdIcon={r.outputHdIcon} />
             </>
           )}
         </div>

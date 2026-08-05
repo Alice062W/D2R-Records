@@ -37,6 +37,8 @@ describe('CubeRecipeList', () => {
       category: 'quests' as const,
       ingredientIcons: ['invmsf', 'invvip'],
       outputIcon: 'invhst',
+      ingredientHdIcons: ['staff_of_the_kings', 'viper_amulet'],
+      outputHdIcon: 'horadric_staff',
     };
     const { container } = render(
       <NextIntlClientProvider locale="en" messages={messages}>
@@ -46,9 +48,28 @@ describe('CubeRecipeList', () => {
     expect(container.textContent).toContain('Staff of Kings + Amulet of the Viper → Horadric Staff');
     const imgs = container.querySelectorAll('img');
     const srcs = Array.from(imgs).map(i => (i as HTMLImageElement).src);
-    expect(srcs.some(s => s.includes('invmsf'))).toBe(true);
-    expect(srcs.some(s => s.includes('invvip'))).toBe(true);
-    expect(srcs.some(s => s.includes('invhst'))).toBe(true);
+    expect(srcs.some(s => s.includes('/items/hd/staff_of_the_kings.png'))).toBe(true);
+    expect(srcs.some(s => s.includes('/items/hd/viper_amulet.png'))).toBe(true);
+    expect(srcs.some(s => s.includes('/items/hd/horadric_staff.png'))).toBe(true);
+  });
+
+  it('falls back to the classic inv icon when no HD icon is available', () => {
+    const recipe = {
+      id: 'recipe-0b',
+      description: { en: 'x -> y', 'zh-TW': 'x', 'zh-CN': 'x' },
+      category: 'quests' as const,
+      ingredientIcons: ['invmsf'],
+      outputIcon: null,
+      ingredientHdIcons: [null as unknown as string],
+      outputHdIcon: null,
+    };
+    const { container } = render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <CubeRecipeList recipes={[recipe]} locale="en" />
+      </NextIntlClientProvider>
+    );
+    const srcs = Array.from(container.querySelectorAll('img')).map(i => (i as HTMLImageElement).src);
+    expect(srcs.some(s => s.includes('/items/inv/invmsf.png'))).toBe(true);
   });
 
   it('repeats an ingredient icon per its required quantity (e.g. 3 icons for "3 Chipped Amethysts")', () => {
@@ -58,6 +79,8 @@ describe('CubeRecipeList', () => {
       category: 'gemUpgrade' as const,
       ingredientIcons: ['invgsva', 'invgsva', 'invgsva'],
       outputIcon: 'invgsvb',
+      ingredientHdIcons: ['chipped_amethyst', 'chipped_amethyst', 'chipped_amethyst'],
+      outputHdIcon: 'flawed_amethyst',
     };
     const { container } = render(
       <NextIntlClientProvider locale="en" messages={messages}>
@@ -65,7 +88,7 @@ describe('CubeRecipeList', () => {
       </NextIntlClientProvider>
     );
     const srcs = Array.from(container.querySelectorAll('img')).map(i => (i as HTMLImageElement).src);
-    expect(srcs.filter(s => s.includes('invgsva')).length).toBe(3);
+    expect(srcs.filter(s => s.includes('/items/hd/chipped_amethyst.png')).length).toBe(3);
     expect(container.textContent).toContain('3 ✕ Chipped Amethysts → Flawed Amethyst');
   });
 
@@ -76,6 +99,8 @@ describe('CubeRecipeList', () => {
       category: 'quests' as const,
       ingredientIcons: ['invleg', 'invbbk'],
       outputIcon: null,
+      ingredientHdIcons: ["wirt's_leg", 'tome_of_town_portal'],
+      outputHdIcon: null,
     };
     const { container } = render(
       <NextIntlClientProvider locale="en" messages={messages}>
@@ -83,7 +108,7 @@ describe('CubeRecipeList', () => {
       </NextIntlClientProvider>
     );
     const srcs = Array.from(container.querySelectorAll('img')).map(i => (i as HTMLImageElement).src);
-    expect(srcs.filter(s => s.includes('invleg') || s.includes('invbbk')).length).toBe(2);
+    expect(srcs.length).toBe(2);
     expect(srcs.some(s => s.includes('invhst'))).toBe(false);
   });
 
@@ -114,6 +139,8 @@ describe('CubeRecipeList', () => {
       category: 'consumables' as const,
       ingredientIcons: [],
       outputIcon: null,
+      ingredientHdIcons: [],
+      outputHdIcon: null,
     };
     const { container } = render(
       <NextIntlClientProvider locale="en" messages={messages}>

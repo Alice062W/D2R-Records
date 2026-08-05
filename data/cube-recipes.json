@@ -11,7 +11,12 @@
       "invmsf",
       "invvip"
     ],
-    "outputIcon": "invhst"
+    "outputIcon": "invhst",
+    "ingredientHdIcons": [
+      "staff_of_the_kings",
+      "viper_amulet"
+    ],
+    "outputHdIcon": "horadric_staff"
   },
   {
     "id": "recipe-1",
@@ -27,7 +32,14 @@
       "inveye",
       "invbrnz"
     ],
-    "outputIcon": "invqf2"
+    "outputIcon": "invqf2",
+    "ingredientHdIcons": [
+      "khalim_flail",
+      "heart",
+      "eye",
+      "brain"
+    ],
+    "outputHdIcon": "super_khalim_flail"
   },
   {
     "id": "recipe-2",
@@ -41,7 +53,12 @@
       "invleg",
       "invbbk"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "wirts_leg",
+      "town_portal_book"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-3",
@@ -52,7 +69,9 @@
     },
     "category": "consumables",
     "ingredientIcons": [],
-    "outputIcon": "invvpl"
+    "outputIcon": "invvpl",
+    "ingredientHdIcons": [],
+    "outputHdIcon": "full_rejuv_potion"
   },
   {
     "id": "recipe-4",
@@ -63,7 +82,9 @@
     },
     "category": "consumables",
     "ingredientIcons": [],
-    "outputIcon": "invvps"
+    "outputIcon": "invvps",
+    "ingredientHdIcons": [],
+    "outputHdIcon": "rejuv_potion"
   },
   {
     "id": "recipe-5",
@@ -78,7 +99,13 @@
       "invvps",
       "invvps"
     ],
-    "outputIcon": "invvpl"
+    "outputIcon": "invvpl",
+    "ingredientHdIcons": [
+      "rejuv_potion",
+      "rejuv_potion",
+      "rejuv_potion"
+    ],
+    "outputHdIcon": "full_rejuv_potion"
   },
   {
     "id": "recipe-6",
@@ -97,7 +124,17 @@
       "invgsre",
       "invgswe"
     ],
-    "outputIcon": "invamu"
+    "outputIcon": "invamu",
+    "ingredientHdIcons": [
+      "amulet",
+      "perfect_amethyst",
+      "perfect_topaz",
+      "perfect_saphire",
+      "perfect_emerald",
+      "perfect_ruby",
+      "fragment_magic"
+    ],
+    "outputHdIcon": "amulet"
   },
   {
     "id": "recipe-7",
@@ -112,7 +149,13 @@
       "invgsre",
       "invopm"
     ],
-    "outputIcon": "invrin"
+    "outputIcon": "invrin",
+    "ingredientHdIcons": [
+      "ring",
+      "perfect_ruby",
+      "exploding_potion"
+    ],
+    "outputHdIcon": "ring"
   },
   {
     "id": "recipe-8",
@@ -127,7 +170,13 @@
       "invgsbe",
       "invyps"
     ],
-    "outputIcon": "invrin"
+    "outputIcon": "invrin",
+    "ingredientHdIcons": [
+      "ring",
+      "perfect_saphire",
+      "thawing_potion"
+    ],
+    "outputHdIcon": "ring"
   },
   {
     "id": "recipe-9",
@@ -142,7 +191,13 @@
       "invgsye",
       "invvps"
     ],
-    "outputIcon": "invrin"
+    "outputIcon": "invrin",
+    "ingredientHdIcons": [
+      "ring",
+      "perfect_topaz",
+      "rejuv_potion"
+    ],
+    "outputHdIcon": "ring"
   },
   {
     "id": "recipe-10",
@@ -157,7 +212,13 @@
       "invgsge",
       "invnps"
     ],
-    "outputIcon": "invrin"
+    "outputIcon": "invrin",
+    "ingredientHdIcons": [
+      "ring",
+      "perfect_emerald",
+      "antidote_potion"
+    ],
+    "outputHdIcon": "ring"
   },
   {
     "id": "recipe-11",
@@ -171,7 +232,12 @@
       "invhax",
       "invdgr"
     ],
-    "outputIcon": "invtax"
+    "outputIcon": "invtax",
+    "ingredientHdIcons": [
+      "hand_axe",
+      "dagger"
+    ],
+    "outputHdIcon": "throwing_axe"
   },
   {
     "id": "recipe-12",
@@ -185,7 +251,12 @@
       "invspr",
       "invqvr"
     ],
-    "outputIcon": "invjav"
+    "outputIcon": "invjav",
+    "ingredientHdIcons": [
+      "spear",
+      "arrows"
+    ],
+    "outputHdIcon": "javelin"
   },
   {
     "id": "recipe-13",
@@ -200,7 +271,13 @@
       "invrin",
       "invrin"
     ],
-    "outputIcon": "invamu"
+    "outputIcon": "invamu",
+    "ingredientHdIcons": [
+      "ring",
+      "ring",
+      "ring"
+    ],
+    "outputHdIcon": "amulet"
   },
   {
     "id": "recipe-14",
@@ -215,7 +292,13 @@
       "invamu",
       "invamu"
     ],
-    "outputIcon": "invrin"
+    "outputIcon": "invrin",
+    "ingredientHdIcons": [
+      "amulet",
+      "amulet",
+      "amulet"
+    ],
+    "outputHdIcon": "ring"
   },
   {
     "id": "recipe-15",
@@ -226,7 +309,9 @@
     },
     "category": "sockets",
     "ingredientIcons": [],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-16",
@@ -237,7 +322,9 @@
     },
     "category": "sockets",
     "ingredientIcons": [],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-17",
@@ -251,7 +338,12 @@
       "invbuc",
       "invspc"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "buckler",
+      "spiked_club"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-18",
@@ -264,7 +356,11 @@
     "ingredientIcons": [
       "invssd"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "short_sword"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-19",
@@ -279,7 +375,13 @@
       "invsst",
       "invlbl"
     ],
-    "outputIcon": "invbar"
+    "outputIcon": "invbar",
+    "ingredientHdIcons": [
+      "kriss",
+      "charm_large_lgry",
+      "sash_l"
+    ],
+    "outputHdIcon": "bardiche"
   },
   {
     "id": "recipe-20",
@@ -292,7 +394,11 @@
     "ingredientIcons": [
       "invgps"
     ],
-    "outputIcon": "invnps"
+    "outputIcon": "invnps",
+    "ingredientHdIcons": [
+      "strangling_gas_potion"
+    ],
+    "outputHdIcon": "antidote_potion"
   },
   {
     "id": "recipe-21",
@@ -306,7 +412,12 @@
       "invqvr",
       "invqvr"
     ],
-    "outputIcon": "invcqv"
+    "outputIcon": "invcqv",
+    "ingredientHdIcons": [
+      "arrows",
+      "arrows"
+    ],
+    "outputHdIcon": "bolts"
   },
   {
     "id": "recipe-22",
@@ -320,7 +431,12 @@
       "invcqv",
       "invcqv"
     ],
-    "outputIcon": "invqvr"
+    "outputIcon": "invqvr",
+    "ingredientHdIcons": [
+      "bolts",
+      "bolts"
+    ],
+    "outputHdIcon": "arrows"
   },
   {
     "id": "recipe-23",
@@ -335,7 +451,13 @@
       "invgsva",
       "invgsva"
     ],
-    "outputIcon": "invgsvb"
+    "outputIcon": "invgsvb",
+    "ingredientHdIcons": [
+      "chipped_amethyst",
+      "chipped_amethyst",
+      "chipped_amethyst"
+    ],
+    "outputHdIcon": "flawed_amethyst"
   },
   {
     "id": "recipe-24",
@@ -350,7 +472,13 @@
       "invgsvb",
       "invgsvb"
     ],
-    "outputIcon": "invgsvc"
+    "outputIcon": "invgsvc",
+    "ingredientHdIcons": [
+      "flawed_amethyst",
+      "flawed_amethyst",
+      "flawed_amethyst"
+    ],
+    "outputHdIcon": "amethyst"
   },
   {
     "id": "recipe-25",
@@ -365,7 +493,13 @@
       "invgsvc",
       "invgsvc"
     ],
-    "outputIcon": "invgsvd"
+    "outputIcon": "invgsvd",
+    "ingredientHdIcons": [
+      "amethyst",
+      "amethyst",
+      "amethyst"
+    ],
+    "outputHdIcon": "flawless_amethyst"
   },
   {
     "id": "recipe-26",
@@ -380,7 +514,13 @@
       "invgsvd",
       "invgsvd"
     ],
-    "outputIcon": "invgsve"
+    "outputIcon": "invgsve",
+    "ingredientHdIcons": [
+      "flawless_amethyst",
+      "flawless_amethyst",
+      "flawless_amethyst"
+    ],
+    "outputHdIcon": "perfect_amethyst"
   },
   {
     "id": "recipe-27",
@@ -395,7 +535,13 @@
       "invgsra",
       "invgsra"
     ],
-    "outputIcon": "invgsrb"
+    "outputIcon": "invgsrb",
+    "ingredientHdIcons": [
+      "chipped_ruby",
+      "chipped_ruby",
+      "chipped_ruby"
+    ],
+    "outputHdIcon": "flawed_ruby"
   },
   {
     "id": "recipe-28",
@@ -410,7 +556,13 @@
       "invgsrb",
       "invgsrb"
     ],
-    "outputIcon": "invgsrc"
+    "outputIcon": "invgsrc",
+    "ingredientHdIcons": [
+      "flawed_ruby",
+      "flawed_ruby",
+      "flawed_ruby"
+    ],
+    "outputHdIcon": "ruby"
   },
   {
     "id": "recipe-29",
@@ -425,7 +577,13 @@
       "invgsrc",
       "invgsrc"
     ],
-    "outputIcon": "invgsrd"
+    "outputIcon": "invgsrd",
+    "ingredientHdIcons": [
+      "ruby",
+      "ruby",
+      "ruby"
+    ],
+    "outputHdIcon": "flawless_ruby"
   },
   {
     "id": "recipe-30",
@@ -440,7 +598,13 @@
       "invgsrd",
       "invgsrd"
     ],
-    "outputIcon": "invgsre"
+    "outputIcon": "invgsre",
+    "ingredientHdIcons": [
+      "flawless_ruby",
+      "flawless_ruby",
+      "flawless_ruby"
+    ],
+    "outputHdIcon": "perfect_ruby"
   },
   {
     "id": "recipe-31",
@@ -455,7 +619,13 @@
       "invgsba",
       "invgsba"
     ],
-    "outputIcon": "invgsbb"
+    "outputIcon": "invgsbb",
+    "ingredientHdIcons": [
+      "chipped_saphire",
+      "chipped_saphire",
+      "chipped_saphire"
+    ],
+    "outputHdIcon": "flawed_saphire"
   },
   {
     "id": "recipe-32",
@@ -470,7 +640,13 @@
       "invgsbb",
       "invgsbb"
     ],
-    "outputIcon": "invgsbc"
+    "outputIcon": "invgsbc",
+    "ingredientHdIcons": [
+      "flawed_saphire",
+      "flawed_saphire",
+      "flawed_saphire"
+    ],
+    "outputHdIcon": "saphire"
   },
   {
     "id": "recipe-33",
@@ -485,7 +661,13 @@
       "invgsbc",
       "invgsbc"
     ],
-    "outputIcon": "invgsbd"
+    "outputIcon": "invgsbd",
+    "ingredientHdIcons": [
+      "saphire",
+      "saphire",
+      "saphire"
+    ],
+    "outputHdIcon": "flawless_saphire"
   },
   {
     "id": "recipe-34",
@@ -500,7 +682,13 @@
       "invgsbd",
       "invgsbd"
     ],
-    "outputIcon": "invgsbe"
+    "outputIcon": "invgsbe",
+    "ingredientHdIcons": [
+      "flawless_saphire",
+      "flawless_saphire",
+      "flawless_saphire"
+    ],
+    "outputHdIcon": "perfect_saphire"
   },
   {
     "id": "recipe-35",
@@ -515,7 +703,13 @@
       "invgsya",
       "invgsya"
     ],
-    "outputIcon": "invgsyb"
+    "outputIcon": "invgsyb",
+    "ingredientHdIcons": [
+      "chipped_topaz",
+      "chipped_topaz",
+      "chipped_topaz"
+    ],
+    "outputHdIcon": "flawed_topaz"
   },
   {
     "id": "recipe-36",
@@ -530,7 +724,13 @@
       "invgsyb",
       "invgsyb"
     ],
-    "outputIcon": "invgsyc"
+    "outputIcon": "invgsyc",
+    "ingredientHdIcons": [
+      "flawed_topaz",
+      "flawed_topaz",
+      "flawed_topaz"
+    ],
+    "outputHdIcon": "topaz"
   },
   {
     "id": "recipe-37",
@@ -545,7 +745,13 @@
       "invgsyc",
       "invgsyc"
     ],
-    "outputIcon": "invgsyd"
+    "outputIcon": "invgsyd",
+    "ingredientHdIcons": [
+      "topaz",
+      "topaz",
+      "topaz"
+    ],
+    "outputHdIcon": "flawless_topaz"
   },
   {
     "id": "recipe-38",
@@ -560,7 +766,13 @@
       "invgsyd",
       "invgsyd"
     ],
-    "outputIcon": "invgsye"
+    "outputIcon": "invgsye",
+    "ingredientHdIcons": [
+      "flawless_topaz",
+      "flawless_topaz",
+      "flawless_topaz"
+    ],
+    "outputHdIcon": "perfect_topaz"
   },
   {
     "id": "recipe-39",
@@ -575,7 +787,13 @@
       "invgsga",
       "invgsga"
     ],
-    "outputIcon": "invgsgb"
+    "outputIcon": "invgsgb",
+    "ingredientHdIcons": [
+      "chipped_emerald",
+      "chipped_emerald",
+      "chipped_emerald"
+    ],
+    "outputHdIcon": "flawed_emerald"
   },
   {
     "id": "recipe-40",
@@ -590,7 +808,13 @@
       "invgsgb",
       "invgsgb"
     ],
-    "outputIcon": "invgsgc"
+    "outputIcon": "invgsgc",
+    "ingredientHdIcons": [
+      "flawed_emerald",
+      "flawed_emerald",
+      "flawed_emerald"
+    ],
+    "outputHdIcon": "emerald"
   },
   {
     "id": "recipe-41",
@@ -605,7 +829,13 @@
       "invgsgc",
       "invgsgc"
     ],
-    "outputIcon": "invgsgd"
+    "outputIcon": "invgsgd",
+    "ingredientHdIcons": [
+      "emerald",
+      "emerald",
+      "emerald"
+    ],
+    "outputHdIcon": "flawless_emerald"
   },
   {
     "id": "recipe-42",
@@ -620,7 +850,13 @@
       "invgsgd",
       "invgsgd"
     ],
-    "outputIcon": "invgsge"
+    "outputIcon": "invgsge",
+    "ingredientHdIcons": [
+      "flawless_emerald",
+      "flawless_emerald",
+      "flawless_emerald"
+    ],
+    "outputHdIcon": "perfect_emerald"
   },
   {
     "id": "recipe-43",
@@ -635,7 +871,13 @@
       "invgswa",
       "invgswa"
     ],
-    "outputIcon": "invgswb"
+    "outputIcon": "invgswb",
+    "ingredientHdIcons": [
+      "chipped_diamond",
+      "chipped_diamond",
+      "chipped_diamond"
+    ],
+    "outputHdIcon": "flawed_diamond"
   },
   {
     "id": "recipe-44",
@@ -650,7 +892,13 @@
       "invgswb",
       "invgswb"
     ],
-    "outputIcon": "invgswc"
+    "outputIcon": "invgswc",
+    "ingredientHdIcons": [
+      "flawed_diamond",
+      "flawed_diamond",
+      "flawed_diamond"
+    ],
+    "outputHdIcon": "diamond"
   },
   {
     "id": "recipe-45",
@@ -665,7 +913,13 @@
       "invgswc",
       "invgswc"
     ],
-    "outputIcon": "invgswd"
+    "outputIcon": "invgswd",
+    "ingredientHdIcons": [
+      "diamond",
+      "diamond",
+      "diamond"
+    ],
+    "outputHdIcon": "flawless_diamond"
   },
   {
     "id": "recipe-46",
@@ -680,7 +934,13 @@
       "invgswd",
       "invgswd"
     ],
-    "outputIcon": "invgswe"
+    "outputIcon": "invgswe",
+    "ingredientHdIcons": [
+      "flawless_diamond",
+      "flawless_diamond",
+      "flawless_diamond"
+    ],
+    "outputHdIcon": "fragment_magic"
   },
   {
     "id": "recipe-47",
@@ -695,7 +955,13 @@
       "invskc",
       "invskc"
     ],
-    "outputIcon": "invskf"
+    "outputIcon": "invskf",
+    "ingredientHdIcons": [
+      "chipped_skull",
+      "chipped_skull",
+      "chipped_skull"
+    ],
+    "outputHdIcon": "flawed_skull"
   },
   {
     "id": "recipe-48",
@@ -710,7 +976,13 @@
       "invskf",
       "invskf"
     ],
-    "outputIcon": "invsku"
+    "outputIcon": "invsku",
+    "ingredientHdIcons": [
+      "flawed_skull",
+      "flawed_skull",
+      "flawed_skull"
+    ],
+    "outputHdIcon": "skull"
   },
   {
     "id": "recipe-49",
@@ -725,7 +997,13 @@
       "invsku",
       "invsku"
     ],
-    "outputIcon": "invskl"
+    "outputIcon": "invskl",
+    "ingredientHdIcons": [
+      "skull",
+      "skull",
+      "skull"
+    ],
+    "outputHdIcon": "flawless_skull"
   },
   {
     "id": "recipe-50",
@@ -740,7 +1018,13 @@
       "invskl",
       "invskl"
     ],
-    "outputIcon": "invskz"
+    "outputIcon": "invskz",
+    "ingredientHdIcons": [
+      "flawless_skull",
+      "flawless_skull",
+      "flawless_skull"
+    ],
+    "outputHdIcon": "perfect_skull"
   },
   {
     "id": "recipe-51",
@@ -755,7 +1039,13 @@
       "invrEl",
       "invrEl"
     ],
-    "outputIcon": "invrEld"
+    "outputIcon": "invrEld",
+    "ingredientHdIcons": [
+      "el_rune",
+      "el_rune",
+      "el_rune"
+    ],
+    "outputHdIcon": "eld_rune"
   },
   {
     "id": "recipe-52",
@@ -770,7 +1060,13 @@
       "invrEld",
       "invrEld"
     ],
-    "outputIcon": "invrTir"
+    "outputIcon": "invrTir",
+    "ingredientHdIcons": [
+      "eld_rune",
+      "eld_rune",
+      "eld_rune"
+    ],
+    "outputHdIcon": "tir_rune"
   },
   {
     "id": "recipe-53",
@@ -785,7 +1081,13 @@
       "invrTir",
       "invrTir"
     ],
-    "outputIcon": "invrNef"
+    "outputIcon": "invrNef",
+    "ingredientHdIcons": [
+      "tir_rune",
+      "tir_rune",
+      "tir_rune"
+    ],
+    "outputHdIcon": "nef_rune"
   },
   {
     "id": "recipe-54",
@@ -800,7 +1102,13 @@
       "invrNef",
       "invrNef"
     ],
-    "outputIcon": "invrEth"
+    "outputIcon": "invrEth",
+    "ingredientHdIcons": [
+      "nef_rune",
+      "nef_rune",
+      "nef_rune"
+    ],
+    "outputHdIcon": "eth_rune"
   },
   {
     "id": "recipe-55",
@@ -815,7 +1123,13 @@
       "invrEth",
       "invrEth"
     ],
-    "outputIcon": "invrIth"
+    "outputIcon": "invrIth",
+    "ingredientHdIcons": [
+      "eth_rune",
+      "eth_rune",
+      "eth_rune"
+    ],
+    "outputHdIcon": "ith_rune"
   },
   {
     "id": "recipe-56",
@@ -830,7 +1144,13 @@
       "invrIth",
       "invrIth"
     ],
-    "outputIcon": "invrTal"
+    "outputIcon": "invrTal",
+    "ingredientHdIcons": [
+      "ith_rune",
+      "ith_rune",
+      "ith_rune"
+    ],
+    "outputHdIcon": "tal_rune"
   },
   {
     "id": "recipe-57",
@@ -845,7 +1165,13 @@
       "invrTal",
       "invrTal"
     ],
-    "outputIcon": "invrRal"
+    "outputIcon": "invrRal",
+    "ingredientHdIcons": [
+      "tal_rune",
+      "tal_rune",
+      "tal_rune"
+    ],
+    "outputHdIcon": "ral_rune"
   },
   {
     "id": "recipe-58",
@@ -860,7 +1186,13 @@
       "invrRal",
       "invrRal"
     ],
-    "outputIcon": "invrOrt"
+    "outputIcon": "invrOrt",
+    "ingredientHdIcons": [
+      "ral_rune",
+      "ral_rune",
+      "ral_rune"
+    ],
+    "outputHdIcon": "ort_rune"
   },
   {
     "id": "recipe-59",
@@ -875,7 +1207,13 @@
       "invrOrt",
       "invrOrt"
     ],
-    "outputIcon": "invrThul"
+    "outputIcon": "invrThul",
+    "ingredientHdIcons": [
+      "ort_rune",
+      "ort_rune",
+      "ort_rune"
+    ],
+    "outputHdIcon": "thul_rune"
   },
   {
     "id": "recipe-60",
@@ -886,7 +1224,9 @@
     },
     "category": "magicItemRerolls",
     "ingredientIcons": [],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-61",
@@ -904,7 +1244,16 @@
       "invskz",
       "invskz"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "perfect_skull",
+      "perfect_skull",
+      "perfect_skull",
+      "perfect_skull",
+      "perfect_skull",
+      "perfect_skull"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-62",
@@ -917,7 +1266,11 @@
     "ingredientIcons": [
       "invskz"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "perfect_skull"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-63",
@@ -932,7 +1285,13 @@
       "invskz",
       "invskz"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "perfect_skull",
+      "perfect_skull",
+      "perfect_skull"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-100",
@@ -948,7 +1307,14 @@
       "invrThul",
       "invgsya"
     ],
-    "outputIcon": "invrAmn"
+    "outputIcon": "invrAmn",
+    "ingredientHdIcons": [
+      "thul_rune",
+      "thul_rune",
+      "thul_rune",
+      "chipped_topaz"
+    ],
+    "outputHdIcon": "amn_rune"
   },
   {
     "id": "recipe-101",
@@ -964,7 +1330,14 @@
       "invrAmn",
       "invgsva"
     ],
-    "outputIcon": "invrSol"
+    "outputIcon": "invrSol",
+    "ingredientHdIcons": [
+      "amn_rune",
+      "amn_rune",
+      "amn_rune",
+      "chipped_amethyst"
+    ],
+    "outputHdIcon": "sol_rune"
   },
   {
     "id": "recipe-102",
@@ -980,7 +1353,14 @@
       "invrSol",
       "invgsba"
     ],
-    "outputIcon": "invrShae"
+    "outputIcon": "invrShae",
+    "ingredientHdIcons": [
+      "sol_rune",
+      "sol_rune",
+      "sol_rune",
+      "chipped_saphire"
+    ],
+    "outputHdIcon": "shael_rune"
   },
   {
     "id": "recipe-103",
@@ -996,7 +1376,14 @@
       "invrShae",
       "invgsra"
     ],
-    "outputIcon": "invrDol"
+    "outputIcon": "invrDol",
+    "ingredientHdIcons": [
+      "shael_rune",
+      "shael_rune",
+      "shael_rune",
+      "chipped_ruby"
+    ],
+    "outputHdIcon": "dol_rune"
   },
   {
     "id": "recipe-104",
@@ -1012,7 +1399,14 @@
       "invrDol",
       "invgsga"
     ],
-    "outputIcon": "invrHel"
+    "outputIcon": "invrHel",
+    "ingredientHdIcons": [
+      "dol_rune",
+      "dol_rune",
+      "dol_rune",
+      "chipped_emerald"
+    ],
+    "outputHdIcon": "hel_rune"
   },
   {
     "id": "recipe-105",
@@ -1028,7 +1422,14 @@
       "invrHel",
       "invgswa"
     ],
-    "outputIcon": "invrIo"
+    "outputIcon": "invrIo",
+    "ingredientHdIcons": [
+      "hel_rune",
+      "hel_rune",
+      "hel_rune",
+      "chipped_diamond"
+    ],
+    "outputHdIcon": "io_rune"
   },
   {
     "id": "recipe-106",
@@ -1044,7 +1445,14 @@
       "invrIo",
       "invgsyb"
     ],
-    "outputIcon": "invrLum"
+    "outputIcon": "invrLum",
+    "ingredientHdIcons": [
+      "io_rune",
+      "io_rune",
+      "io_rune",
+      "flawed_topaz"
+    ],
+    "outputHdIcon": "lum_rune"
   },
   {
     "id": "recipe-107",
@@ -1060,7 +1468,14 @@
       "invrLum",
       "invgsvb"
     ],
-    "outputIcon": "invrKo"
+    "outputIcon": "invrKo",
+    "ingredientHdIcons": [
+      "lum_rune",
+      "lum_rune",
+      "lum_rune",
+      "flawed_amethyst"
+    ],
+    "outputHdIcon": "ko_rune"
   },
   {
     "id": "recipe-108",
@@ -1076,7 +1491,14 @@
       "invrKo",
       "invgsbb"
     ],
-    "outputIcon": "invrFal"
+    "outputIcon": "invrFal",
+    "ingredientHdIcons": [
+      "ko_rune",
+      "ko_rune",
+      "ko_rune",
+      "flawed_saphire"
+    ],
+    "outputHdIcon": "fal_rune"
   },
   {
     "id": "recipe-109",
@@ -1092,7 +1514,14 @@
       "invrFal",
       "invgsrb"
     ],
-    "outputIcon": "invrLem"
+    "outputIcon": "invrLem",
+    "ingredientHdIcons": [
+      "fal_rune",
+      "fal_rune",
+      "fal_rune",
+      "flawed_ruby"
+    ],
+    "outputHdIcon": "lem_rune"
   },
   {
     "id": "recipe-110",
@@ -1108,7 +1537,14 @@
       "invrLem",
       "invgsgb"
     ],
-    "outputIcon": "invrPul"
+    "outputIcon": "invrPul",
+    "ingredientHdIcons": [
+      "lem_rune",
+      "lem_rune",
+      "lem_rune",
+      "flawed_emerald"
+    ],
+    "outputHdIcon": "pul_rune"
   },
   {
     "id": "recipe-111",
@@ -1123,7 +1559,13 @@
       "invrPul",
       "invgswb"
     ],
-    "outputIcon": "invrUm"
+    "outputIcon": "invrUm",
+    "ingredientHdIcons": [
+      "pul_rune",
+      "pul_rune",
+      "flawed_diamond"
+    ],
+    "outputHdIcon": "um_rune"
   },
   {
     "id": "recipe-112",
@@ -1138,7 +1580,13 @@
       "invrUm",
       "invgsyc"
     ],
-    "outputIcon": "invrMal"
+    "outputIcon": "invrMal",
+    "ingredientHdIcons": [
+      "um_rune",
+      "um_rune",
+      "topaz"
+    ],
+    "outputHdIcon": "mal_rune"
   },
   {
     "id": "recipe-113",
@@ -1153,7 +1601,13 @@
       "invrMal",
       "invgsvc"
     ],
-    "outputIcon": "invrIst"
+    "outputIcon": "invrIst",
+    "ingredientHdIcons": [
+      "mal_rune",
+      "mal_rune",
+      "amethyst"
+    ],
+    "outputHdIcon": "ist_rune"
   },
   {
     "id": "recipe-114",
@@ -1168,7 +1622,13 @@
       "invrIst",
       "invgsbc"
     ],
-    "outputIcon": "invrGul"
+    "outputIcon": "invrGul",
+    "ingredientHdIcons": [
+      "ist_rune",
+      "ist_rune",
+      "saphire"
+    ],
+    "outputHdIcon": "gul_rune"
   },
   {
     "id": "recipe-115",
@@ -1183,7 +1643,13 @@
       "invrGul",
       "invgsrc"
     ],
-    "outputIcon": "invrVex"
+    "outputIcon": "invrVex",
+    "ingredientHdIcons": [
+      "gul_rune",
+      "gul_rune",
+      "ruby"
+    ],
+    "outputHdIcon": "vex_rune"
   },
   {
     "id": "recipe-116",
@@ -1198,7 +1664,13 @@
       "invrVex",
       "invgsgc"
     ],
-    "outputIcon": "invrOhm"
+    "outputIcon": "invrOhm",
+    "ingredientHdIcons": [
+      "vex_rune",
+      "vex_rune",
+      "emerald"
+    ],
+    "outputHdIcon": "ohm_rune"
   },
   {
     "id": "recipe-117",
@@ -1213,7 +1685,13 @@
       "invrOhm",
       "invgswc"
     ],
-    "outputIcon": "invrLo"
+    "outputIcon": "invrLo",
+    "ingredientHdIcons": [
+      "ohm_rune",
+      "ohm_rune",
+      "diamond"
+    ],
+    "outputHdIcon": "lo_rune"
   },
   {
     "id": "recipe-118",
@@ -1228,7 +1706,13 @@
       "invrLo",
       "invgsyd"
     ],
-    "outputIcon": "invrSur"
+    "outputIcon": "invrSur",
+    "ingredientHdIcons": [
+      "lo_rune",
+      "lo_rune",
+      "flawless_topaz"
+    ],
+    "outputHdIcon": "sur_rune"
   },
   {
     "id": "recipe-119",
@@ -1243,7 +1727,13 @@
       "invrSur",
       "invgsvd"
     ],
-    "outputIcon": "invrBer"
+    "outputIcon": "invrBer",
+    "ingredientHdIcons": [
+      "sur_rune",
+      "sur_rune",
+      "flawless_amethyst"
+    ],
+    "outputHdIcon": "ber_rune"
   },
   {
     "id": "recipe-120",
@@ -1258,7 +1748,13 @@
       "invrBer",
       "invgsbd"
     ],
-    "outputIcon": "invrJo"
+    "outputIcon": "invrJo",
+    "ingredientHdIcons": [
+      "ber_rune",
+      "ber_rune",
+      "flawless_saphire"
+    ],
+    "outputHdIcon": "jah_rune"
   },
   {
     "id": "recipe-121",
@@ -1273,7 +1769,13 @@
       "invrJo",
       "invgsrd"
     ],
-    "outputIcon": "invrCham"
+    "outputIcon": "invrCham",
+    "ingredientHdIcons": [
+      "jah_rune",
+      "jah_rune",
+      "flawless_ruby"
+    ],
+    "outputHdIcon": "cham_rune"
   },
   {
     "id": "recipe-122",
@@ -1288,7 +1790,13 @@
       "invrCham",
       "invgsgd"
     ],
-    "outputIcon": "invrZod"
+    "outputIcon": "invrZod",
+    "ingredientHdIcons": [
+      "cham_rune",
+      "cham_rune",
+      "flawless_emerald"
+    ],
+    "outputHdIcon": "zod_rune"
   },
   {
     "id": "recipe-123",
@@ -1304,7 +1812,14 @@
       "invrThul",
       "invgsye"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "quilted_armor",
+      "tal_rune",
+      "thul_rune",
+      "perfect_topaz"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-124",
@@ -1319,7 +1834,13 @@
       "invrAmn",
       "invgsve"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "ral_rune",
+      "amn_rune",
+      "perfect_amethyst"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-125",
@@ -1335,7 +1856,14 @@
       "invrThul",
       "invgsbe"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "cap_hat",
+      "ral_rune",
+      "thul_rune",
+      "perfect_saphire"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-126",
@@ -1351,7 +1879,14 @@
       "invrAmn",
       "invgsre"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "buckler",
+      "tal_rune",
+      "amn_rune",
+      "perfect_ruby"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-127",
@@ -1364,7 +1899,11 @@
     "ingredientIcons": [
       "invrEld"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "eld_rune"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-128",
@@ -1377,7 +1916,11 @@
     "ingredientIcons": [
       "invrEl"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "el_rune"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-129",
@@ -1392,7 +1935,13 @@
       "invrSol",
       "invgsge"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "ral_rune",
+      "sol_rune",
+      "perfect_emerald"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-130",
@@ -1407,7 +1956,13 @@
       "invrShae",
       "invgswe"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "tal_rune",
+      "shael_rune",
+      "fragment_magic"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-131",
@@ -1422,7 +1977,13 @@
       "invrPul",
       "invgsge"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "lum_rune",
+      "pul_rune",
+      "perfect_emerald"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-132",
@@ -1437,7 +1998,13 @@
       "invrLem",
       "invgswe"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "ko_rune",
+      "lem_rune",
+      "fragment_magic"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-133",
@@ -1452,7 +2019,13 @@
       "invrAmn",
       "invgsbe"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "ort_rune",
+      "amn_rune",
+      "perfect_saphire"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-134",
@@ -1467,7 +2040,13 @@
       "invrThul",
       "invgsve"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "ral_rune",
+      "thul_rune",
+      "perfect_amethyst"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-135",
@@ -1482,7 +2061,13 @@
       "invrUm",
       "invgsbe"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "fal_rune",
+      "um_rune",
+      "perfect_saphire"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-136",
@@ -1497,7 +2082,13 @@
       "invrPul",
       "invgsve"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "ko_rune",
+      "pul_rune",
+      "perfect_amethyst"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-137",
@@ -1510,7 +2101,11 @@
     "ingredientIcons": [
       "invrOrt"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "ort_rune"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-138",
@@ -1523,7 +2118,11 @@
     "ingredientIcons": [
       "invrRal"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "ral_rune"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-139",
@@ -1536,7 +2135,11 @@
     "ingredientIcons": [
       "invrOrt"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "ort_rune"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-140",
@@ -1549,7 +2152,11 @@
     "ingredientIcons": [
       "invrRal"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "ral_rune"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-141",
@@ -1563,7 +2170,12 @@
       "invrHel",
       "invbsc"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "hel_rune",
+      "town_portal_scroll"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-147",
@@ -1574,7 +2186,9 @@
     },
     "category": "sockets",
     "ingredientIcons": [],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-148",
@@ -1589,7 +2203,13 @@
       "invmph",
       "invmph"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "mephisto_key",
+      "mephisto_key",
+      "mephisto_key"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-149",
@@ -1604,7 +2224,13 @@
       "inveye",
       "invbrnz"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "fang",
+      "eye",
+      "brain"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-150",
@@ -1620,7 +2246,14 @@
       "invbet",
       "invfed"
     ],
-    "outputIcon": "invtoa"
+    "outputIcon": "invtoa",
+    "ingredientHdIcons": [
+      "twisted_essence_of_suffering",
+      "charged_essense_of_hatred",
+      "burning_essence_of_terror",
+      "festering_essence_of_destruction"
+    ],
+    "outputHdIcon": "mote_of_destruction"
   },
   {
     "id": "recipe-151",
@@ -1635,7 +2268,13 @@
       "invrSol",
       "invgsge"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "ral_rune",
+      "sol_rune",
+      "perfect_emerald"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-152",
@@ -1650,7 +2289,13 @@
       "invrShae",
       "invgswe"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "tal_rune",
+      "shael_rune",
+      "fragment_magic"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-153",
@@ -1665,7 +2310,13 @@
       "invrPul",
       "invgsge"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "lum_rune",
+      "pul_rune",
+      "perfect_emerald"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-154",
@@ -1680,7 +2331,13 @@
       "invrLem",
       "invgswe"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "ko_rune",
+      "lem_rune",
+      "fragment_magic"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-163",
@@ -1696,7 +2353,14 @@
       "invgsge",
       "invtoa"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "charm_small",
+      "ko_rune",
+      "perfect_emerald",
+      "mote_of_destruction"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-164",
@@ -1712,7 +2376,14 @@
       "invgsge",
       "invtoa"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "charm_small",
+      "ko_rune",
+      "perfect_emerald",
+      "mote_of_destruction"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-165",
@@ -1727,7 +2398,13 @@
       "invgsge",
       "invtoa"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "ko_rune",
+      "perfect_emerald",
+      "mote_of_destruction"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-174",
@@ -1743,7 +2420,14 @@
       "invgsbe",
       "invtoa"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "charm_small",
+      "lum_rune",
+      "perfect_saphire",
+      "mote_of_destruction"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-175",
@@ -1759,7 +2443,14 @@
       "invgsbe",
       "invtoa"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "charm_small",
+      "lum_rune",
+      "perfect_saphire",
+      "mote_of_destruction"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-176",
@@ -1775,7 +2466,14 @@
       "invgsbe",
       "invtoa"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "charm_small",
+      "lum_rune",
+      "perfect_saphire",
+      "mote_of_destruction"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-177",
@@ -1790,7 +2488,13 @@
       "invgsbe",
       "invtoa"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "lum_rune",
+      "perfect_saphire",
+      "mote_of_destruction"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-186",
@@ -1806,7 +2510,14 @@
       "invgsye",
       "invtoa"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "charm_small",
+      "fal_rune",
+      "perfect_topaz",
+      "mote_of_destruction"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-187",
@@ -1822,7 +2533,14 @@
       "invgsye",
       "invtoa"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "charm_small",
+      "fal_rune",
+      "perfect_topaz",
+      "mote_of_destruction"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-188",
@@ -1838,7 +2556,14 @@
       "invgsye",
       "invtoa"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "charm_small",
+      "fal_rune",
+      "perfect_topaz",
+      "mote_of_destruction"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-189",
@@ -1853,7 +2578,13 @@
       "invgsye",
       "invtoa"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "fal_rune",
+      "perfect_topaz",
+      "mote_of_destruction"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-198",
@@ -1869,7 +2600,14 @@
       "invgsre",
       "invtoa"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "charm_small",
+      "io_rune",
+      "perfect_ruby",
+      "mote_of_destruction"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-199",
@@ -1885,7 +2623,14 @@
       "invgsre",
       "invtoa"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "charm_small",
+      "io_rune",
+      "perfect_ruby",
+      "mote_of_destruction"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-200",
@@ -1901,7 +2646,14 @@
       "invgsre",
       "invtoa"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "charm_small",
+      "io_rune",
+      "perfect_ruby",
+      "mote_of_destruction"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-201",
@@ -1916,7 +2668,13 @@
       "invgsre",
       "invtoa"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "io_rune",
+      "perfect_ruby",
+      "mote_of_destruction"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-210",
@@ -1932,7 +2690,14 @@
       "invgsve",
       "invtoa"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "charm_small",
+      "pul_rune",
+      "perfect_amethyst",
+      "mote_of_destruction"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-211",
@@ -1948,7 +2713,14 @@
       "invgsve",
       "invtoa"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "charm_small",
+      "pul_rune",
+      "perfect_amethyst",
+      "mote_of_destruction"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-212",
@@ -1964,7 +2736,14 @@
       "invgsve",
       "invtoa"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "charm_small",
+      "pul_rune",
+      "perfect_amethyst",
+      "mote_of_destruction"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-213",
@@ -1979,7 +2758,13 @@
       "invgsve",
       "invtoa"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "pul_rune",
+      "perfect_amethyst",
+      "mote_of_destruction"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-222",
@@ -1995,7 +2780,14 @@
       "invgswe",
       "invtoa"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "charm_small",
+      "mal_rune",
+      "fragment_magic",
+      "mote_of_destruction"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-223",
@@ -2011,7 +2803,14 @@
       "invgswe",
       "invtoa"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "charm_small",
+      "mal_rune",
+      "fragment_magic",
+      "mote_of_destruction"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-224",
@@ -2027,7 +2826,14 @@
       "invgswe",
       "invtoa"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "charm_small",
+      "mal_rune",
+      "fragment_magic",
+      "mote_of_destruction"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-225",
@@ -2044,7 +2850,15 @@
       "invtoa",
       "invtoa"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "mal_rune",
+      "fragment_magic",
+      "mote_of_destruction",
+      "mote_of_destruction",
+      "mote_of_destruction"
+    ],
+    "outputHdIcon": null
   },
   {
     "id": "recipe-226",
@@ -2061,6 +2875,14 @@
       "invjbi",
       "invjbi"
     ],
-    "outputIcon": null
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "worusks_end",
+      "worusks_end",
+      "worusks_end",
+      "worusks_end",
+      "worusks_end"
+    ],
+    "outputHdIcon": null
   }
 ]
