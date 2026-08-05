@@ -13,7 +13,7 @@ describe('CubeRecipeList', () => {
         <CubeRecipeList recipes={category} locale="en" />
       </NextIntlClientProvider>
     );
-    expect(container.textContent).toContain('3✕El Runes → Eld Rune');
+    expect(container.textContent).toContain('3 ✕ El Runes → Eld Rune');
   });
 
   it('renders ingredient and output icons alongside the existing description text', () => {
@@ -52,7 +52,7 @@ describe('CubeRecipeList', () => {
     );
     const srcs = Array.from(container.querySelectorAll('img')).map(i => (i as HTMLImageElement).src);
     expect(srcs.filter(s => s.includes('invgsva')).length).toBe(3);
-    expect(container.textContent).toContain('3✕Chipped Amethysts → Flawed Amethyst');
+    expect(container.textContent).toContain('3 ✕ Chipped Amethysts → Flawed Amethyst');
   });
 
   it('renders no output icon when outputIcon is null', () => {
@@ -85,8 +85,8 @@ describe('CubeRecipeList', () => {
       expect(screen.getByRole('heading', { name: gem })).toBeInTheDocument();
     }
     // All 4 tiers for Ruby end up under the same heading's box.
-    expect(container.textContent).toContain('3✕Chipped Rubies → Flawed Ruby');
-    expect(container.textContent).toContain('3✕Flawless Rubies → Perfect Ruby');
+    expect(container.textContent).toContain('3 ✕ Chipped Rubies → Flawed Ruby');
+    expect(container.textContent).toContain('3 ✕ Flawless Rubies → Perfect Ruby');
   });
 
   it('inserts a quantity marker after each ingredient count, including in multi-ingredient recipes', () => {
@@ -107,7 +107,7 @@ describe('CubeRecipeList', () => {
       </NextIntlClientProvider>
     );
     expect(container.textContent).toContain(
-      '3✕Healing Potions (Any) + 3✕Mana Potions (Any) + 1✕Standard Gem (Any) → Full Rejuvenation Potion'
+      '3 ✕ Healing Potions (Any) + 3 ✕ Mana Potions (Any) + 1 ✕ Standard Gem (Any) → Full Rejuvenation Potion'
     );
   });
 });

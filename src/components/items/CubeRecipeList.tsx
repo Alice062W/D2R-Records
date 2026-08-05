@@ -40,7 +40,7 @@ function gemGroupOf(descriptionEn: string): (typeof GEM_ORDER)[number] | null {
 // rows) -- no game asset exists for "quantity", so a Unicode glyph styled
 // to match is used instead of an <img>.
 function QtyIcon() {
-  return <span aria-hidden="true" className="text-muted text-xs mx-0.5">✕</span>;
+  return <span aria-hidden="true" className="text-muted text-xs">✕</span>;
 }
 
 // Splits a composed recipe description into its ingredient list and output
@@ -67,7 +67,9 @@ function DescriptionWithQtyIcons({ description }: { description: string }) {
             {m ? (
               <>
                 {m[1]}
+                {' '}
                 <QtyIcon />
+                {' '}
                 {m[3]}
               </>
             ) : (
