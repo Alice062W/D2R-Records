@@ -151,4 +151,17 @@ describe('CubeRecipeList', () => {
       '3 ✕ Healing Potions (Any) + 3 ✕ Mana Potions (Any) + 1 ✕ Standard Gem (Any) → Full Rejuvenation Potion'
     );
   });
+
+  it('groups consumables recipes into a Potions box and an Arrows & Javelins box', () => {
+    const category = recipes.filter(r => r.category === 'consumables');
+    const { container } = render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <CubeRecipeList recipes={category} locale="en" />
+      </NextIntlClientProvider>
+    );
+    expect(screen.getByRole('heading', { name: 'Potions' })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: 'Arrows & Javelins' })).toBeInTheDocument();
+    expect(container.textContent).toContain('Strangling Gas Potion');
+    expect(container.textContent).toContain('Throwing Axe');
+  });
 });

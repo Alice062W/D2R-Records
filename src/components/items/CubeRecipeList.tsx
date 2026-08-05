@@ -157,6 +157,7 @@ export default function CubeRecipeList({ recipes, locale }: { recipes: Recipe[];
   const t = useTranslations('Items');
   const isGemUpgrade = recipes.length > 0 && recipes.every(r => r.category === 'gemUpgrade');
   const isRuneUpgrade = recipes.length > 0 && recipes.every(r => r.category === 'runeUpgrade');
+  const isConsumables = recipes.length > 0 && recipes.every(r => r.category === 'consumables');
 
   if (isRuneUpgrade) {
     // Group rune-upgrade recipes by how many runes each merge takes: the
@@ -172,6 +173,33 @@ export default function CubeRecipeList({ recipes, locale }: { recipes: Recipe[];
       { key: 'noGem', title: t('cubeRecipesRuneGroupNoGem'), items: noGemGroup },
       { key: '3rune', title: t('cubeRecipesRuneGroup3Rune'), items: rune3Group },
       { key: '2rune', title: t('cubeRecipesRuneGroup2Rune'), items: rune2Group },
+    ].filter(g => g.items.length > 0);
+
+    return (
+      <div className="flex flex-col gap-4 w-full">
+        {groups.map(({ key, title, items }) => (
+          <div key={key} className="bg-panel-alt border border-panel-border rounded-xl p-4 flex flex-col gap-2">
+            <h3 className="text-sm font-bold text-gold-bright font-cinzel">{title}</h3>
+            <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-2">
+              {items.map(r => <RecipeCard key={r.id} r={r} locale={locale} />)}
+            </div>
+          </div>
+        ))}
+      </div>
+    );
+  }
+
+  if (isConsumables) {
+    // Group consumables recipes into 2 boxes: potion formulas (Healing/Mana/
+    // Rejuvenation/Antidote Potion, all mention "Potion" in the recipe's own
+    // English text) vs. the Arrows/Bolts/Javelin/Throwing Axe formulas
+    // (everything else in this category) -- keeps the two unrelated families
+    // of recipes from being visually mixed in one flat grid.
+    const potionGroup = recipes.filter(r => r.description.en.includes('Potion'));
+    const ammoGroup = recipes.filter(r => !r.description.en.includes('Potion'));
+    const groups = [
+      { key: 'potions', title: t('cubeRecipesConsumablesGroupPotions'), items: potionGroup },
+      { key: 'ammo', title: t('cubeRecipesConsumablesGroupAmmo'), items: ammoGroup },
     ].filter(g => g.items.length > 0);
 
     return (

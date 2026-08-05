@@ -233,6 +233,8 @@
     "cubeRecipesRuneGroupNoGem": "Rune #1–9 (No Gem Required)",
     "cubeRecipesRuneGroup3Rune": "Rune #10–20 (Requires 3 Runes)",
     "cubeRecipesRuneGroup2Rune": "Rune #21–33 (Requires 2 Runes)",
+    "cubeRecipesConsumablesGroupPotions": "Potions",
+    "cubeRecipesConsumablesGroupAmmo": "Arrows & Javelins",
     "cubeRecipesCategory_gemUpgrade": "Gem Upgrade",
     "cubeRecipesCategory_runeUpgrade": "Rune Upgrade",
     "cubeRecipesCategory_quests": "Quests",

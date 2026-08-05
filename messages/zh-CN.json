@@ -233,6 +233,8 @@
     "cubeRecipesRuneGroupNoGem": "符文 #1–9（无需宝石）",
     "cubeRecipesRuneGroup3Rune": "符文 #10–20（需要 3 个符文）",
     "cubeRecipesRuneGroup2Rune": "符文 #21–33（需要 2 个符文）",
+    "cubeRecipesConsumablesGroupPotions": "药水",
+    "cubeRecipesConsumablesGroupAmmo": "箭矢与标枪",
     "cubeRecipesCategory_gemUpgrade": "宝石升级",
     "cubeRecipesCategory_runeUpgrade": "符文升级",
     "cubeRecipesCategory_quests": "任务",
