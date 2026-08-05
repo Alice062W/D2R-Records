@@ -239,6 +239,8 @@
     "cubeRecipesItemUpgradeGroupUnique": "暗金",
     "cubeRecipesItemUpgradeGroupRare": "稀有",
     "cubeRecipesItemUpgradeGroupSet": "套装",
+    "cubeRecipesRerollsGroupMagic": "魔法物品",
+    "cubeRecipesRerollsGroupRare": "稀有物品",
     "cubeRecipesCategory_gemUpgrade": "宝石升级",
     "cubeRecipesCategory_runeUpgrade": "符文升级",
     "cubeRecipesCategory_quests": "任务",

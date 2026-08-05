@@ -80,6 +80,26 @@ function QtyIcon() {
 // checked against RUNE_NUMBER_BY_EN so rune mentions get a "(#N)" badge --
 // a no-op for any category that isn't runeUpgrade, since none of those
 // segments will match a rune name.
+// Authentic D2 item-rarity text colors (same hex values already used by
+// ItemStatCard/AffixTable/RuneList elsewhere on the site, verified against
+// d2r.world's computed styles) -- applied to each ingredient/output segment
+// based on the quality/rarity word it contains (Magic/Rare/Unique in en,
+// 魔法/稀有/獨特|暗金 in zh), so a reader can tell at a glance which
+// ingredients need to already be magic/rare/unique quality. Normal/Low
+// Quality items intentionally get no color (default white text, matching
+// their in-game name color).
+function qualityColorOf(segment: string): string | null {
+  if (/Unique|獨特|暗金/.test(segment)) return 'text-[#cbb87f]';
+  if (/Rare|稀有/.test(segment)) return 'text-[#fff818]';
+  if (/Magic|魔法/.test(segment)) return 'text-[#8080f3]';
+  return null;
+}
+
+function QualityColoredText({ text }: { text: string }) {
+  const color = qualityColorOf(text);
+  return color ? <span className={color}>{text}</span> : <>{text}</>;
+}
+
 function DescriptionWithQtyIcons({ description, descriptionEn }: { description: string; descriptionEn?: string }) {
   const arrowMatch = description.match(/\s*(?:->|→)\s*/);
   if (!arrowMatch) return <>{description}</>;
@@ -116,17 +136,17 @@ function DescriptionWithQtyIcons({ description, descriptionEn }: { description: 
                 {' '}
                 <QtyIcon />
                 {' '}
-                {m[3]}
+                <QualityColoredText text={m[3]} />
               </>
             ) : (
-              ingredient
+              <QualityColoredText text={ingredient} />
             )}
             {runeNum != null && <RuneNumberBadge n={runeNum} />}
           </span>
         );
       })}
       {' → '}
-      {outputPart}
+      <QualityColoredText text={outputPart} />
       {outputRuneNum != null && <RuneNumberBadge n={outputRuneNum} />}
     </>
   );
@@ -169,7 +189,9 @@ function RecipeCard({ r, locale }: { r: Recipe; locale: Locale }) {
           {showOutputText && (
             <>
               <span className="text-muted mx-1">&rarr;</span>
-              <span className="text-parchment-bright text-xs">{outputTextOf(r.description[locale])}</span>
+              <span className="text-parchment-bright text-xs">
+                <QualityColoredText text={outputTextOf(r.description[locale])} />
+              </span>
             </>
           )}
         </div>
@@ -225,7 +247,34 @@ export default function CubeRecipeList({ recipes, locale }: { recipes: Recipe[];
     );
   }
 
-  if (isCraftedGrandCharm || isQuests || isMagicItemCreation || isSockets || isItemRepair || isMagicItemRerolls) {
+  if (isMagicItemRerolls) {
+    // Group by which item quality the recipe operates on -- Magic Item
+    // (recipe-60's generic reroll, plus the 3 "Socketed Magic Weapon"
+    // recipes which all require a Magic-quality input) vs Rare Item
+    // (the ilvl-reroll/upgrade recipes) -- detected from the recipe's own
+    // English text.
+    const magicGroup = recipes.filter(r => /Magic (Item|Weapon)/.test(r.description.en));
+    const rareGroup = recipes.filter(r => /Rare Item/.test(r.description.en));
+    const groups = [
+      { key: 'magic', title: t('cubeRecipesRerollsGroupMagic'), items: magicGroup },
+      { key: 'rare', title: t('cubeRecipesRerollsGroupRare'), items: rareGroup },
+    ].filter(g => g.items.length > 0);
+
+    return (
+      <div className="flex flex-col gap-4 w-full">
+        {groups.map(({ key, title, items }) => (
+          <div key={key} className="bg-panel-alt border border-panel-border rounded-xl p-4 flex flex-col gap-2">
+            <h3 className="text-sm font-bold text-gold-bright font-cinzel">{title}</h3>
+            <div className="grid grid-cols-1 gap-2">
+              {items.map(r => <RecipeCard key={r.id} r={r} locale={locale} />)}
+            </div>
+          </div>
+        ))}
+      </div>
+    );
+  }
+
+  if (isCraftedGrandCharm || isQuests || isMagicItemCreation || isSockets || isItemRepair) {
     // Long multi-ingredient descriptions (4-6 ingredients, verbose quality/
     // rune/gem/charm-size wording), or -- for Sockets/Item Repair/Magic Item
     // Rerolls/Magic Item Creation -- the added output-text and/or condition-

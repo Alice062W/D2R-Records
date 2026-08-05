@@ -227,4 +227,41 @@ describe('CubeRecipeList', () => {
     );
     expect(container.textContent).toContain('Item Level: 30 · Fire Resist +21-30%');
   });
+
+  it('groups magicItemRerolls recipes into a Magic Item box and a Rare Item box', () => {
+    const category = recipes.filter(r => r.category === 'magicItemRerolls');
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <CubeRecipeList recipes={category} locale="en" />
+      </NextIntlClientProvider>
+    );
+    expect(screen.getByRole('heading', { name: 'Magic Item' })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: 'Rare Item' })).toBeInTheDocument();
+  });
+
+  it('colors Magic/Rare/Unique quality words in ingredient and output text, leaving Normal/Low Quality uncolored', () => {
+    const recipe = {
+      id: 'recipe-quality-test',
+      description: {
+        en: '1 Low Quality Weapon + 1 Magic Ring + 1 Rare Item + 1 Unique Weapon -> Normal Armor',
+        'zh-TW': 'x',
+        'zh-CN': 'x',
+      },
+      category: 'itemUpgrade' as const,
+      ingredientIcons: [],
+      outputIcon: null,
+      ingredientHdIcons: [],
+      outputHdIcon: null,
+    };
+    const { container } = render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <CubeRecipeList recipes={[recipe]} locale="en" />
+      </NextIntlClientProvider>
+    );
+    expect(container.querySelector('.text-\\[\\#8080f3\\]')?.textContent).toBe('Magic Ring');
+    expect(container.querySelector('.text-\\[\\#fff818\\]')?.textContent).toBe('Rare Item');
+    expect(container.querySelector('.text-\\[\\#cbb87f\\]')?.textContent).toBe('Unique Weapon');
+    expect(container.textContent).toContain('Low Quality Weapon');
+    expect(container.textContent).toContain('Normal Armor');
+  });
 });

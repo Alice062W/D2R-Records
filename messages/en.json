@@ -239,6 +239,8 @@
     "cubeRecipesItemUpgradeGroupUnique": "Unique",
     "cubeRecipesItemUpgradeGroupRare": "Rare",
     "cubeRecipesItemUpgradeGroupSet": "Set",
+    "cubeRecipesRerollsGroupMagic": "Magic Item",
+    "cubeRecipesRerollsGroupRare": "Rare Item",
     "cubeRecipesCategory_gemUpgrade": "Gem Upgrade",
     "cubeRecipesCategory_runeUpgrade": "Rune Upgrade",
     "cubeRecipesCategory_quests": "Quests",

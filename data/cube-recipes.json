@@ -370,9 +370,9 @@
   {
     "id": "recipe-17",
     "description": {
-      "en": "1 Magic Shield + 1 Spiked Club + 2 Skulls (Any) -> Magic Shield of Spikes",
-      "zh-TW": "1 魔法盾牌 + 1 狼牙棒 + 2 骷髏石(任一) -> 銳刺魔法盾牌",
-      "zh-CN": "1 魔法盾牌 + 1 狼牙棒 + 2 骷髅宝石(任一) -> 尖刺魔法盾牌"
+      "en": "1 Magic Shield + 1 Spiked Club + 2 Skulls (Any Quality) -> Magic Shield of Spikes",
+      "zh-TW": "1 魔法盾牌 + 1 狼牙棒 + 2 骷髏石(任一品質) -> 銳刺魔法盾牌",
+      "zh-CN": "1 魔法盾牌 + 1 狼牙棒 + 2 骷髅宝石(任一品质) -> 尖刺魔法盾牌"
     },
     "category": "magicItemCreation",
     "ingredientIcons": [
@@ -405,11 +405,17 @@
     "category": "magicItemCreation",
     "ingredientIcons": [
       "invhp3",
+      "invhp3",
+      "invhp3",
+      "invhp3",
       "invgsra",
       "invssd"
     ],
     "outputIcon": "invssd",
     "ingredientHdIcons": [
+      "healing_potion2",
+      "healing_potion2",
+      "healing_potion2",
       "healing_potion2",
       "chipped_ruby",
       "short_sword"
@@ -430,12 +436,14 @@
     },
     "category": "magicItemCreation",
     "ingredientIcons": [
+      "invgswc",
       "invkrs",
       "invsst",
       "invmbl"
     ],
     "outputIcon": "invbar",
     "ingredientHdIcons": [
+      "diamond",
       "kriss",
       "short_staff",
       "belt_m"
