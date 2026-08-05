@@ -43442,7 +43442,7 @@
     "durability": null,
     "classRestriction": null,
     "invFile": "invsst",
-    "hdIcon": "charm_large",
+    "hdIcon": "charm_large_lblu",
     "properties": [
       {
         "code": "pierce-immunity-cold",
@@ -43504,7 +43504,7 @@
     "durability": null,
     "classRestriction": null,
     "invFile": "invsst",
-    "hdIcon": "charm_large",
+    "hdIcon": "charm_large_lred",
     "properties": [
       {
         "code": "pierce-immunity-fire",
@@ -43566,7 +43566,7 @@
     "durability": null,
     "classRestriction": null,
     "invFile": "invsst",
-    "hdIcon": "charm_large",
+    "hdIcon": "charm_large_lyel",
     "properties": [
       {
         "code": "pierce-immunity-light",
@@ -43628,7 +43628,7 @@
     "durability": null,
     "classRestriction": null,
     "invFile": "invsst",
-    "hdIcon": "charm_large",
+    "hdIcon": "charm_large_lgrn",
     "properties": [
       {
         "code": "pierce-immunity-poison",
@@ -43690,7 +43690,7 @@
     "durability": null,
     "classRestriction": null,
     "invFile": "invsst",
-    "hdIcon": "charm_large",
+    "hdIcon": "charm_large_whit",
     "properties": [
       {
         "code": "pierce-immunity-damage",
@@ -43752,7 +43752,7 @@
     "durability": null,
     "classRestriction": null,
     "invFile": "invsst",
-    "hdIcon": "charm_large",
+    "hdIcon": "charm_large_lgry",
     "properties": [
       {
         "code": "pierce-immunity-magic",
@@ -46209,7 +46209,7 @@
     "durability": null,
     "classRestriction": null,
     "invFile": "invsst",
-    "hdIcon": "charm_large",
+    "hdIcon": "charm_large_lblu",
     "properties": [
       {
         "code": "pierce-immunity-cold",
@@ -46271,7 +46271,7 @@
     "durability": null,
     "classRestriction": null,
     "invFile": "invsst",
-    "hdIcon": "charm_large",
+    "hdIcon": "charm_large_lblu",
     "properties": [
       {
         "code": "pierce-immunity-cold",
@@ -46542,7 +46542,7 @@
     "durability": null,
     "classRestriction": null,
     "invFile": "invsst",
-    "hdIcon": "charm_large",
+    "hdIcon": "charm_large_lred",
     "properties": [
       {
         "code": "pierce-immunity-fire",
@@ -46604,7 +46604,7 @@
     "durability": null,
     "classRestriction": null,
     "invFile": "invsst",
-    "hdIcon": "charm_large",
+    "hdIcon": "charm_large_lyel",
     "properties": [
       {
         "code": "pierce-immunity-light",
@@ -46666,7 +46666,7 @@
     "durability": null,
     "classRestriction": null,
     "invFile": "invsst",
-    "hdIcon": "charm_large",
+    "hdIcon": "charm_large_lgrn",
     "properties": [
       {
         "code": "pierce-immunity-poison",
@@ -46728,7 +46728,7 @@
     "durability": null,
     "classRestriction": null,
     "invFile": "invsst",
-    "hdIcon": "charm_large",
+    "hdIcon": "charm_large_whit",
     "properties": [
       {
         "code": "pierce-immunity-damage",
@@ -46790,7 +46790,7 @@
     "durability": null,
     "classRestriction": null,
     "invFile": "invsst",
-    "hdIcon": "charm_large",
+    "hdIcon": "charm_large_lgry",
     "properties": [
       {
         "code": "pierce-immunity-magic",
@@ -46852,7 +46852,7 @@
     "durability": null,
     "classRestriction": null,
     "invFile": "invsst",
-    "hdIcon": "charm_large",
+    "hdIcon": "charm_large_lred",
     "properties": [
       {
         "code": "pierce-immunity-fire",
@@ -47123,7 +47123,7 @@
     "durability": null,
     "classRestriction": null,
     "invFile": "invsst",
-    "hdIcon": "charm_large",
+    "hdIcon": "charm_large_lyel",
     "properties": [
       {
         "code": "pierce-immunity-light",
@@ -47394,7 +47394,7 @@
     "durability": null,
     "classRestriction": null,
     "invFile": "invsst",
-    "hdIcon": "charm_large",
+    "hdIcon": "charm_large_lgrn",
     "properties": [
       {
         "code": "pierce-immunity-poison",
@@ -47665,7 +47665,7 @@
     "durability": null,
     "classRestriction": null,
     "invFile": "invsst",
-    "hdIcon": "charm_large",
+    "hdIcon": "charm_large_whit",
     "properties": [
       {
         "code": "pierce-immunity-damage",
@@ -47936,7 +47936,7 @@
     "durability": null,
     "classRestriction": null,
     "invFile": "invsst",
-    "hdIcon": "charm_large",
+    "hdIcon": "charm_large_lgry",
     "properties": [
       {
         "code": "pierce-immunity-magic",
