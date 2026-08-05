@@ -193,7 +193,36 @@ export default function CubeRecipeList({ recipes, locale }: { recipes: Recipe[];
   const isItemRepair = recipes.length > 0 && recipes.every(r => r.category === 'itemRepair');
   const isMagicItemRerolls = recipes.length > 0 && recipes.every(r => r.category === 'magicItemRerolls');
 
-  if (isCraftedGrandCharm || isQuests || isItemUpgrade || isMagicItemCreation || isSockets || isItemRepair) {
+  if (isItemUpgrade) {
+    // Group by the item's own rarity tier -- Normal (Low Quality -> Normal,
+    // no rarity qualifier), Unique, Rare, Set -- detected from the recipe's
+    // own English text, matching cube-recipes.json's fixed ordering.
+    const normalGroup = recipes.filter(r => !/Unique|Rare|Set/.test(r.description.en));
+    const uniqueGroup = recipes.filter(r => r.description.en.includes('Unique'));
+    const rareGroup = recipes.filter(r => r.description.en.includes('Rare'));
+    const setGroup = recipes.filter(r => r.description.en.includes('Set'));
+    const groups = [
+      { key: 'normal', title: t('cubeRecipesItemUpgradeGroupNormal'), items: normalGroup },
+      { key: 'unique', title: t('cubeRecipesItemUpgradeGroupUnique'), items: uniqueGroup },
+      { key: 'rare', title: t('cubeRecipesItemUpgradeGroupRare'), items: rareGroup },
+      { key: 'set', title: t('cubeRecipesItemUpgradeGroupSet'), items: setGroup },
+    ].filter(g => g.items.length > 0);
+
+    return (
+      <div className="flex flex-col gap-4 w-full">
+        {groups.map(({ key, title, items }) => (
+          <div key={key} className="bg-panel-alt border border-panel-border rounded-xl p-4 flex flex-col gap-2">
+            <h3 className="text-sm font-bold text-gold-bright font-cinzel">{title}</h3>
+            <div className="grid grid-cols-1 gap-2">
+              {items.map(r => <RecipeCard key={r.id} r={r} locale={locale} />)}
+            </div>
+          </div>
+        ))}
+      </div>
+    );
+  }
+
+  if (isCraftedGrandCharm || isQuests || isMagicItemCreation || isSockets || isItemRepair) {
     // Long multi-ingredient descriptions (4-6 ingredients, verbose quality/
     // rune/gem/charm-size wording), or -- for Sockets/Item Repair -- the
     // added output-text row makes each card wide enough that a single column
