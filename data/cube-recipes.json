@@ -333,52 +333,6 @@
     "outputHdIcon": "ring"
   },
   {
-    "id": "recipe-15",
-    "description": {
-      "en": "3 Standard Gems + 1 Socketed Weapon -> Socketed Magic Weapon",
-      "zh-TW": "3 標準寶石 + 1 鑲孔武器 -> 鑲孔魔法武器",
-      "zh-CN": "3 标准宝石 + 1 镶孔武器 -> 镶孔魔法武器"
-    },
-    "category": "sockets",
-    "ingredientIcons": [
-      "invgsvc",
-      "invgsvc",
-      "invgsvc",
-      "invssd"
-    ],
-    "outputIcon": null,
-    "ingredientHdIcons": [
-      "amethyst",
-      "amethyst",
-      "amethyst",
-      "short_sword"
-    ],
-    "outputHdIcon": null
-  },
-  {
-    "id": "recipe-16",
-    "description": {
-      "en": "3 Flawless Gems + 1 Magic Weapon -> Socketed Magic Weapon",
-      "zh-TW": "3 無瑕寶石 + 1 魔法武器 -> 鑲孔魔法武器",
-      "zh-CN": "3 无瑕的宝石 + 1 魔法武器 -> 镶孔魔法武器"
-    },
-    "category": "sockets",
-    "ingredientIcons": [
-      "invgsvd",
-      "invgsvd",
-      "invgsvd",
-      "invssd"
-    ],
-    "outputIcon": null,
-    "ingredientHdIcons": [
-      "flawless_amethyst",
-      "flawless_amethyst",
-      "flawless_amethyst",
-      "short_sword"
-    ],
-    "outputHdIcon": null
-  },
-  {
     "id": "recipe-17",
     "description": {
       "en": "1 Magic Shield + 1 Spiked Club + 2 Skulls (Any) -> Magic Shield of Spikes",
@@ -2242,29 +2196,6 @@
     "ingredientHdIcons": [
       "hel_rune",
       "town_portal_scroll"
-    ],
-    "outputHdIcon": null
-  },
-  {
-    "id": "recipe-147",
-    "description": {
-      "en": "3 Chipped Gems (Any) + 1 Magic Weapon -> Socketed Magic Weapon",
-      "zh-TW": "3 碎裂的寶石(任一) + 1 魔法武器 -> 鑲孔魔法武器",
-      "zh-CN": "3 碎裂的宝石(任一) + 1 魔法武器 -> 镶孔魔法武器"
-    },
-    "category": "sockets",
-    "ingredientIcons": [
-      "invgsva",
-      "invgsva",
-      "invgsva",
-      "invssd"
-    ],
-    "outputIcon": null,
-    "ingredientHdIcons": [
-      "chipped_amethyst",
-      "chipped_amethyst",
-      "chipped_amethyst",
-      "short_sword"
     ],
     "outputHdIcon": null
   },

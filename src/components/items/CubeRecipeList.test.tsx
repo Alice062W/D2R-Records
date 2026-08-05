@@ -177,4 +177,14 @@ describe('CubeRecipeList', () => {
     // the arrow) and in the description line below it.
     expect(container.textContent).toContain('→Portal to The Secret Cow Level');
   });
+
+  it('shows the output as text next to the arrow for sockets recipes with no output item icon', () => {
+    const category = recipes.filter(r => r.category === 'sockets');
+    const { container } = render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <CubeRecipeList recipes={category} locale="en" />
+      </NextIntlClientProvider>
+    );
+    expect(container.textContent).toContain('→Socketed Helm');
+  });
 });

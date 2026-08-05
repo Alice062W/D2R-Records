@@ -348,10 +348,13 @@ describe('cube-recipes.json', () => {
   // cubemain.json rows, rendered with stale "Virulent X"/"Uber Ancient Summon
   // Material" description-column text instead of the real item-names.json
   // display names -- now redundant with the correct craftedGrandCharm
-  // versions, so removed) = 138, confirmed by reading vendor/d2data/json/
-  // cubemain.json directly.
-  it('has 138 entries (121 enabled non-craft + 17 colored magic-prefix + 6 Renewed Sunder Charm - 6 removed duplicate quest cards)', () => {
-    expect(cubeRecipesData.length).toBe(138);
+  // versions, so removed) - 3 (recipe-15/16/147, three separate cubemain.json
+  // rows that all produce a plain "Socketed Magic Weapon" -- removed at the
+  // user's request, matching the reference site's own Sockets page which
+  // doesn't list this recipe family at all) = 135, confirmed by reading
+  // vendor/d2data/json/cubemain.json directly.
+  it('has 135 entries (121 enabled non-craft + 17 colored magic-prefix + 6 Renewed Sunder Charm - 6 removed duplicate quest cards - 3 removed duplicate "Socketed Magic Weapon" cards)', () => {
+    expect(cubeRecipesData.length).toBe(135);
   });
 
   it('does not include the 36 Hit Power/Blood/Caster/Safety craft recipes (those are crafted-items.json only)', () => {
