@@ -326,8 +326,8 @@
     "id": "recipe-23",
     "description": {
       "en": "3 Chipped Amethysts -> Flawed Amethyst",
-      "zh-TW": "3 碎裂的紫寶石 -> 裂開的紫寶石",
-      "zh-CN": "3 碎裂的紫宝石 -> 裂开的紫宝石"
+      "zh-TW": "3 碎裂紫寶石 -> 瑕疵紫寶石",
+      "zh-CN": "3 碎裂的紫宝石 -> 有瑕疵的紫宝石"
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
@@ -341,8 +341,8 @@
     "id": "recipe-24",
     "description": {
       "en": "3 Flawed Amethysts -> Standard Amethyst",
-      "zh-TW": "3 裂開的紫寶石 -> 紫寶石",
-      "zh-CN": "3 裂开的紫宝石 -> 紫宝石"
+      "zh-TW": "3 瑕疵紫寶石 -> 紫寶石",
+      "zh-CN": "3 有瑕疵的紫宝石 -> 紫宝石"
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
@@ -356,8 +356,8 @@
     "id": "recipe-25",
     "description": {
       "en": "3 Standard Amethysts -> Flawless Amethyst",
-      "zh-TW": "3 紫寶石 -> 無暇疵的紫寶石",
-      "zh-CN": "3 紫宝石 -> 无暇疵的紫宝石"
+      "zh-TW": "3 紫寶石 -> 無瑕紫寶石",
+      "zh-CN": "3 紫宝石 -> 无瑕的紫宝石"
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
@@ -371,8 +371,8 @@
     "id": "recipe-26",
     "description": {
       "en": "3 Flawless Amethysts -> Perfect Amethyst",
-      "zh-TW": "3 無暇疵的紫寶石 -> 完美的紫寶石",
-      "zh-CN": "3 无暇疵的紫宝石 -> 完美的紫宝石"
+      "zh-TW": "3 無瑕紫寶石 -> 完美紫寶石",
+      "zh-CN": "3 无瑕的紫宝石 -> 完美的紫宝石"
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
@@ -386,8 +386,8 @@
     "id": "recipe-27",
     "description": {
       "en": "3 Chipped Rubies -> Flawed Ruby",
-      "zh-TW": "3 碎裂的紅寶石 -> 裂開的紅寶石",
-      "zh-CN": "3 碎裂的红宝石 -> 裂开的红宝石"
+      "zh-TW": "3 碎裂紅寶石 -> 瑕疵紅寶石",
+      "zh-CN": "3 碎裂的红宝石 -> 有瑕疵的红宝石"
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
@@ -401,8 +401,8 @@
     "id": "recipe-28",
     "description": {
       "en": "3 Flawed Rubies -> Standard Ruby",
-      "zh-TW": "3 裂開的紅寶石 -> 紅寶石",
-      "zh-CN": "3 裂开的红宝石 -> 红宝石"
+      "zh-TW": "3 瑕疵紅寶石 -> 寶紅",
+      "zh-CN": "3 有瑕疵的红宝石 -> 红宝石"
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
@@ -416,8 +416,8 @@
     "id": "recipe-29",
     "description": {
       "en": "3 Standard Rubies -> Flawless Ruby",
-      "zh-TW": "3 紅寶石 -> 無暇疵的紅寶石",
-      "zh-CN": "3 红宝石 -> 无暇疵的红宝石"
+      "zh-TW": "3 寶紅 -> 無瑕紅寶石",
+      "zh-CN": "3 红宝石 -> 无瑕的红宝石"
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
@@ -431,8 +431,8 @@
     "id": "recipe-30",
     "description": {
       "en": "3 Flawless Rubies -> Perfect Ruby",
-      "zh-TW": "3 無暇疵的紅寶石 -> 完美的紅寶石",
-      "zh-CN": "3 无暇疵的红宝石 -> 完美的红宝石"
+      "zh-TW": "3 無瑕紅寶石 -> 完美紅寶石",
+      "zh-CN": "3 无瑕的红宝石 -> 完美的红宝石"
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
@@ -446,8 +446,8 @@
     "id": "recipe-31",
     "description": {
       "en": "3 Chipped Sapphires -> Flawed Sapphire",
-      "zh-TW": "3 碎裂的藍寶石 -> 裂開的藍寶石",
-      "zh-CN": "3 碎裂的蓝宝石 -> 裂开的蓝宝石"
+      "zh-TW": "3 碎裂藍寶石 -> 瑕疵藍寶石",
+      "zh-CN": "3 碎裂的蓝宝石 -> 有瑕疵的蓝宝石"
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
@@ -461,8 +461,8 @@
     "id": "recipe-32",
     "description": {
       "en": "3 Flawed Sapphires -> Standard Sapphire",
-      "zh-TW": "3 裂開的藍寶石 -> 藍寶石",
-      "zh-CN": "3 裂开的蓝宝石 -> 蓝宝石"
+      "zh-TW": "3 瑕疵藍寶石 -> 寶藍",
+      "zh-CN": "3 有瑕疵的蓝宝石 -> 蓝宝石"
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
@@ -476,8 +476,8 @@
     "id": "recipe-33",
     "description": {
       "en": "3 Standard Sapphires -> Flawless Sapphire",
-      "zh-TW": "3 藍寶石 -> 無暇疵的藍寶石",
-      "zh-CN": "3 蓝宝石 -> 无暇疵的蓝宝石"
+      "zh-TW": "3 寶藍 -> 無瑕藍寶石",
+      "zh-CN": "3 蓝宝石 -> 无瑕的蓝宝石"
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
@@ -491,8 +491,8 @@
     "id": "recipe-34",
     "description": {
       "en": "3 Flawless Sapphires -> Perfect Sapphire",
-      "zh-TW": "3 無暇疵的藍寶石 -> 完美的藍寶石",
-      "zh-CN": "3 无暇疵的蓝宝石 -> 完美的蓝宝石"
+      "zh-TW": "3 無瑕藍寶石 -> 完美藍寶石",
+      "zh-CN": "3 无瑕的蓝宝石 -> 完美的蓝宝石"
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
@@ -506,8 +506,8 @@
     "id": "recipe-35",
     "description": {
       "en": "3 Chipped Topazes -> Flawed Topaz",
-      "zh-TW": "3 碎裂的黃寶石 -> 裂開的黃寶石",
-      "zh-CN": "3 碎裂的黄宝石 -> 裂开的黄宝石"
+      "zh-TW": "3 碎裂黃寶石 -> 瑕疵黃寶石",
+      "zh-CN": "3 碎裂的黄宝石 -> 有瑕疵的黄宝石"
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
@@ -521,8 +521,8 @@
     "id": "recipe-36",
     "description": {
       "en": "3 Flawed Topazes -> Standard Topaz",
-      "zh-TW": "3 裂開的黃寶石 -> 黃寶石",
-      "zh-CN": "3 裂开的黄宝石 -> 黄宝石"
+      "zh-TW": "3 瑕疵黃寶石 -> 黃寶石",
+      "zh-CN": "3 有瑕疵的黄宝石 -> 黄宝石"
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
@@ -536,8 +536,8 @@
     "id": "recipe-37",
     "description": {
       "en": "3 Standard Topazes -> Flawless Topaz",
-      "zh-TW": "3 黃寶石 -> 無暇疵的黃寶石",
-      "zh-CN": "3 黄宝石 -> 无暇疵的黄宝石"
+      "zh-TW": "3 黃寶石 -> 無瑕黃寶石",
+      "zh-CN": "3 黄宝石 -> 无瑕的黄宝石"
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
@@ -551,8 +551,8 @@
     "id": "recipe-38",
     "description": {
       "en": "3 Flawless Topazes -> Perfect Topaz",
-      "zh-TW": "3 無暇疵的黃寶石 -> 完美的黃寶石",
-      "zh-CN": "3 无暇疵的黄宝石 -> 完美的黄宝石"
+      "zh-TW": "3 無瑕黃寶石 -> 完美黃寶石",
+      "zh-CN": "3 无瑕的黄宝石 -> 完美的黄宝石"
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
@@ -566,8 +566,8 @@
     "id": "recipe-39",
     "description": {
       "en": "3 Chipped Emeralds -> Flawed Emerald",
-      "zh-TW": "3 碎裂的綠寶石 -> 裂開的綠寶石",
-      "zh-CN": "3 碎裂的绿宝石 -> 裂开的绿宝石"
+      "zh-TW": "3 碎裂綠寶石 -> 瑕疵綠寶石",
+      "zh-CN": "3 碎裂的绿宝石 -> 有瑕疵的绿宝石"
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
@@ -581,8 +581,8 @@
     "id": "recipe-40",
     "description": {
       "en": "3 Flawed Emeralds -> Standard Emerald",
-      "zh-TW": "3 裂開的綠寶石 -> 綠寶石",
-      "zh-CN": "3 裂开的绿宝石 -> 绿宝石"
+      "zh-TW": "3 瑕疵綠寶石 -> 寶綠",
+      "zh-CN": "3 有瑕疵的绿宝石 -> 翡翠"
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
@@ -596,8 +596,8 @@
     "id": "recipe-41",
     "description": {
       "en": "3 Standard Emeralds -> Flawless Emerald",
-      "zh-TW": "3 綠寶石 -> 無暇疵的綠寶石",
-      "zh-CN": "3 绿宝石 -> 无暇疵的绿宝石"
+      "zh-TW": "3 寶綠 -> 無瑕綠寶石",
+      "zh-CN": "3 翡翠 -> 无瑕的绿宝石"
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
@@ -611,8 +611,8 @@
     "id": "recipe-42",
     "description": {
       "en": "3 Flawless Emeralds -> Perfect Emerald",
-      "zh-TW": "3 無暇疵的綠寶石 -> 完美的綠寶石",
-      "zh-CN": "3 无暇疵的绿宝石 -> 完美的绿宝石"
+      "zh-TW": "3 無瑕綠寶石 -> 完美綠寶石",
+      "zh-CN": "3 无瑕的绿宝石 -> 完美的绿宝石"
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
@@ -626,8 +626,8 @@
     "id": "recipe-43",
     "description": {
       "en": "3 Chipped Diamonds -> Flawed Diamond",
-      "zh-TW": "3 碎裂的鑽石 -> 裂開的鑽石",
-      "zh-CN": "3 碎裂的钻石 -> 裂开的钻石"
+      "zh-TW": "3 碎裂鑽石 -> 瑕疵鑽石",
+      "zh-CN": "3 碎裂的钻石 -> 有瑕疵的钻石"
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
@@ -641,8 +641,8 @@
     "id": "recipe-44",
     "description": {
       "en": "3 Flawed Diamonds -> Standard Diamond",
-      "zh-TW": "3 裂開的鑽石 -> 鑽石",
-      "zh-CN": "3 裂开的钻石 -> 钻石"
+      "zh-TW": "3 瑕疵鑽石 -> 鑽石",
+      "zh-CN": "3 有瑕疵的钻石 -> 钻石"
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
@@ -656,8 +656,8 @@
     "id": "recipe-45",
     "description": {
       "en": "3 Standard Diamonds -> Flawless Diamond",
-      "zh-TW": "3 鑽石 -> 無暇疵的鑽石",
-      "zh-CN": "3 钻石 -> 无暇疵的钻石"
+      "zh-TW": "3 鑽石 -> 無瑕鑽石",
+      "zh-CN": "3 钻石 -> 无瑕的钻石"
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
@@ -671,8 +671,8 @@
     "id": "recipe-46",
     "description": {
       "en": "3 Flawless Diamonds -> Perfect Diamond",
-      "zh-TW": "3 無暇疵的鑽石 -> 完美的鑽石",
-      "zh-CN": "3 无暇疵的钻石 -> 完美的钻石"
+      "zh-TW": "3 無瑕鑽石 -> 完美鑽石",
+      "zh-CN": "3 无瑕的钻石 -> 完美的钻石"
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
@@ -686,8 +686,8 @@
     "id": "recipe-47",
     "description": {
       "en": "3 Chipped Skulls -> Flawed Skull",
-      "zh-TW": "3 碎裂的骷髏 -> 裂開的骷髏",
-      "zh-CN": "3 碎裂的骷髅 -> 裂开的骷髅"
+      "zh-TW": "3 碎裂骷髏石 -> 瑕疵骷髏石",
+      "zh-CN": "3 碎裂的头骨宝石 -> 有瑕疵的头骨宝石"
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
@@ -701,8 +701,8 @@
     "id": "recipe-48",
     "description": {
       "en": "3 Flawed Skulls -> Standard Skull",
-      "zh-TW": "3 裂開的骷髏 -> 骷髏",
-      "zh-CN": "3 裂开的骷髅 -> 骷髅"
+      "zh-TW": "3 瑕疵骷髏石 -> 骷髏石",
+      "zh-CN": "3 有瑕疵的头骨宝石 -> 头骨宝石"
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
@@ -716,8 +716,8 @@
     "id": "recipe-49",
     "description": {
       "en": "3 Standard Skulls -> Flawless Skull",
-      "zh-TW": "3 骷髏 -> 無暇疵的骷髏",
-      "zh-CN": "3 骷髅 -> 无暇疵的骷髅"
+      "zh-TW": "3 骷髏石 -> 無瑕骷髏石",
+      "zh-CN": "3 头骨宝石 -> 无瑕疵的头骨宝石"
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
@@ -731,8 +731,8 @@
     "id": "recipe-50",
     "description": {
       "en": "3 Flawless Skulls -> Perfect Skull",
-      "zh-TW": "3 無暇疵的骷髏 -> 完美的骷髏",
-      "zh-CN": "3 无暇疵的骷髅 -> 完美的骷髅"
+      "zh-TW": "3 無瑕骷髏石 -> 完美骷髏石",
+      "zh-CN": "3 无瑕疵的头骨宝石 -> 完美的头骨宝石"
     },
     "category": "gemUpgrade",
     "ingredientIcons": [

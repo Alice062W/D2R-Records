@@ -72,4 +72,20 @@ describe('CubeRecipeList', () => {
     expect(srcs.filter(s => s.includes('invleg') || s.includes('invbbk')).length).toBe(2);
     expect(srcs.some(s => s.includes('invhst'))).toBe(false);
   });
+
+  it('groups all gemUpgrade recipes into one box per gem type, titled with that gem\'s own name', () => {
+    const gemRecipes = recipes.filter(r => r.category === 'gemUpgrade');
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <CubeRecipeList recipes={gemRecipes} locale="en" />
+      </NextIntlClientProvider>
+    );
+    // 7 gem types -> 7 group headings, each the gem's own standard-tier name.
+    for (const gem of ['Amethyst', 'Ruby', 'Sapphire', 'Topaz', 'Emerald', 'Diamond', 'Skull']) {
+      expect(screen.getByRole('heading', { name: gem })).toBeInTheDocument();
+    }
+    // All 4 tiers for Ruby end up under the same heading's box.
+    expect(screen.getByText('3 Chipped Rubies → Flawed Ruby')).toBeInTheDocument();
+    expect(screen.getByText('3 Flawless Rubies → Perfect Ruby')).toBeInTheDocument();
+  });
 });
