@@ -64,34 +64,66 @@
     "id": "recipe-3",
     "description": {
       "en": "3 Healing Potions (Any) + 3 Mana Potions (Any) + 1 Standard Gem (Any) -> Full Rejuvenation Potion",
-      "zh-TW": "3 治療葯劑(任一) + 3 法力葯劑(任一) + 1 寶石(任一) -> 全面回復活力葯劑",
-      "zh-CN": "3 治疗药剂(任一) + 3 法力药剂(任一) + 1 宝石(任一) -> 全面回复活力药剂"
+      "zh-TW": "3 生命藥水(任一) + 3 法力藥水(任一) + 1 寶石(任一) -> 全效活力藥水",
+      "zh-CN": "3 治疗药水(任一) + 3 法力药水(任一) + 1 宝石(任一) -> 完全复苏药水"
     },
     "category": "consumables",
-    "ingredientIcons": [],
+    "ingredientIcons": [
+      "invhp3",
+      "invhp3",
+      "invhp3",
+      "invmp3",
+      "invmp3",
+      "invmp3",
+      "invgsvc"
+    ],
     "outputIcon": "invvpl",
-    "ingredientHdIcons": [],
+    "ingredientHdIcons": [
+      "healing_potion2",
+      "healing_potion2",
+      "healing_potion2",
+      "mana_potion2",
+      "mana_potion2",
+      "mana_potion2",
+      "amethyst"
+    ],
     "outputHdIcon": "full_rejuv_potion"
   },
   {
     "id": "recipe-4",
     "description": {
       "en": "3 Healing Potions (Any) + 3 Mana Potions (Any)  + 1 Chipped Gem (Any) -> Rejuvenation Potion",
-      "zh-TW": "3 治療葯劑(任一) + 3 法力葯劑(任一) + 1 碎裂的寶石(任一) -> 回復活力葯劑",
-      "zh-CN": "3 治疗药剂(任一) + 3 法力药剂(任一) + 1 碎裂的宝石(任一) -> 回复活力药剂"
+      "zh-TW": "3 生命藥水(任一) + 3 法力藥水(任一) + 1 碎裂的寶石(任一) -> 活力藥水",
+      "zh-CN": "3 治疗药水(任一) + 3 法力药水(任一) + 1 碎裂的宝石(任一) -> 复苏药水"
     },
     "category": "consumables",
-    "ingredientIcons": [],
+    "ingredientIcons": [
+      "invhp3",
+      "invhp3",
+      "invhp3",
+      "invmp3",
+      "invmp3",
+      "invmp3",
+      "invgsva"
+    ],
     "outputIcon": "invvps",
-    "ingredientHdIcons": [],
+    "ingredientHdIcons": [
+      "healing_potion2",
+      "healing_potion2",
+      "healing_potion2",
+      "mana_potion2",
+      "mana_potion2",
+      "mana_potion2",
+      "chipped_amethyst"
+    ],
     "outputHdIcon": "rejuv_potion"
   },
   {
     "id": "recipe-5",
     "description": {
       "en": "3 Rejuvenation Potions -> Full Rejuvenation Potion",
-      "zh-TW": "3 回復活力葯劑 -> 全面回復活力葯劑",
-      "zh-CN": "3 回复活力药剂 -> 全面回复活力药剂"
+      "zh-TW": "3 活力藥水 -> 全效活力藥水",
+      "zh-CN": "3 复苏药水 -> 完全复苏药水"
     },
     "category": "consumables",
     "ingredientIcons": [
@@ -140,8 +172,8 @@
     "id": "recipe-7",
     "description": {
       "en": "1 Magic Ring + 1 Perfect Ruby + 1 Exploding Potion -> Garnet Ring",
-      "zh-TW": "1 魔法戒指 + 1 完美紅寶石 + 1 爆炸葯劑 -> 石榴石戒指",
-      "zh-CN": "1 魔法戒指 + 1 完美的红宝石 + 1 爆炸药剂 -> 石榴石戒指"
+      "zh-TW": "1 魔法戒指 + 1 完美紅寶石 + 1 爆炸藥水 -> 石榴石戒指",
+      "zh-CN": "1 魔法戒指 + 1 完美的红宝石 + 1 爆炸药水 -> 石榴石戒指"
     },
     "category": "magicItemCreation",
     "ingredientIcons": [
@@ -161,8 +193,8 @@
     "id": "recipe-8",
     "description": {
       "en": "1 Magic Ring + 1 Perfect Sapphire + 1 Thawing Potion -> Cobalt Ring",
-      "zh-TW": "1 魔法戒指 + 1 完美藍寶石 + 1 融解葯劑 -> 鈷藍戒指",
-      "zh-CN": "1 魔法戒指 + 1 完美的蓝宝石 + 1 融解药剂 -> 钴蓝戒指"
+      "zh-TW": "1 魔法戒指 + 1 完美藍寶石 + 1 融冰藥水 -> 鈷藍戒指",
+      "zh-CN": "1 魔法戒指 + 1 完美的蓝宝石 + 1 解冻药水 -> 钴蓝戒指"
     },
     "category": "magicItemCreation",
     "ingredientIcons": [
@@ -182,8 +214,8 @@
     "id": "recipe-9",
     "description": {
       "en": "1 Magic Ring + 1 Perfect Topaz + 1 Rejuvenation Potion -> Coral Ring",
-      "zh-TW": "1 魔法戒指 + 1 完美黃寶石 + 1 回復活力葯劑 -> 珊瑚戒指",
-      "zh-CN": "1 魔法戒指 + 1 完美的黄宝石 + 1 回复活力药剂 -> 珊瑚戒指"
+      "zh-TW": "1 魔法戒指 + 1 完美黃寶石 + 1 活力藥水 -> 珊瑚戒指",
+      "zh-CN": "1 魔法戒指 + 1 完美的黄宝石 + 1 复苏药水 -> 珊瑚戒指"
     },
     "category": "magicItemCreation",
     "ingredientIcons": [
@@ -203,8 +235,8 @@
     "id": "recipe-10",
     "description": {
       "en": "1 Magic Ring + 1 Emerald + 1 Antidote Potion -> Jade Ring",
-      "zh-TW": "1 魔法戒指 + 1 綠寶石 + 1 解毒葯劑 -> 玉戒指",
-      "zh-CN": "1 魔法戒指 + 1 绿宝石 + 1 解毒药剂 -> 玉戒指"
+      "zh-TW": "1 魔法戒指 + 1 綠寶石 + 1 解毒藥水 -> 玉戒指",
+      "zh-CN": "1 魔法戒指 + 1 绿宝石 + 1 解毒药水 -> 玉戒指"
     },
     "category": "magicItemCreation",
     "ingredientIcons": [
@@ -225,7 +257,7 @@
     "description": {
       "en": "1 Axe (Any) + 1 Dagger (Any) -> Throwing Axe",
       "zh-TW": "1 斧(任一) + 1 匕首(任一) -> 飛斧",
-      "zh-CN": "1 斧(任一) + 1 匕首(任一) -> 飞斧"
+      "zh-CN": "1 斧(任一) + 1 匕首(任一) -> 投掷斧"
     },
     "category": "consumables",
     "ingredientIcons": [
@@ -243,7 +275,7 @@
     "id": "recipe-12",
     "description": {
       "en": "1 Spear (Any) + 1 Arrows -> Javelins",
-      "zh-TW": "1 長矛(任一) + 1 箭矢 -> 標槍",
+      "zh-TW": "1 長矛(任一) + 1 弓矢 -> 標槍",
       "zh-CN": "1 长矛(任一) + 1 箭矢 -> 标枪"
     },
     "category": "consumables",
@@ -349,8 +381,8 @@
     "id": "recipe-18",
     "description": {
       "en": "4 Healing Potions (Any) + 1 Ruby + 1 Magic Sword -> Sword of the Leech",
-      "zh-TW": "4 治療葯劑(任一) + 1 紅寶石 + 1 魔法劍 -> 水蛭之劍",
-      "zh-CN": "4 治疗药剂(任一) + 1 红宝石 + 1 魔法剑 -> 水蛭之剑"
+      "zh-TW": "4 生命藥水(任一) + 1 紅寶石 + 1 魔法劍 -> 水蛭之劍",
+      "zh-CN": "4 治疗药水(任一) + 1 红宝石 + 1 魔法剑 -> 水蛭之剑"
     },
     "category": "magicItemCreation",
     "ingredientIcons": [
@@ -387,16 +419,18 @@
     "id": "recipe-20",
     "description": {
       "en": "1 Strangling Gas Potion + 1 Healing Potion (Any) -> Antidote Potion",
-      "zh-TW": "1 勒頸瓦斯葯劑 + 1 治療葯劑(任一) -> 解毒葯劑",
-      "zh-CN": "1 勒颈瓦斯药剂 + 1 治疗药剂(任一) -> 解毒药剂"
+      "zh-TW": "1 刺鼻毒氣藥水 + 1 生命藥水(任一) -> 解毒藥水",
+      "zh-CN": "1 呛息毒气药水 + 1 治疗药水(任一) -> 解毒药水"
     },
     "category": "consumables",
     "ingredientIcons": [
-      "invgps"
+      "invgps",
+      "invhp3"
     ],
     "outputIcon": "invnps",
     "ingredientHdIcons": [
-      "strangling_gas_potion"
+      "strangling_gas_potion",
+      "healing_potion2"
     ],
     "outputHdIcon": "antidote_potion"
   },
@@ -404,8 +438,8 @@
     "id": "recipe-21",
     "description": {
       "en": "2 Arrows -> Bolts",
-      "zh-TW": "2 箭矢 -> 十字弓彈",
-      "zh-CN": "2 箭矢 -> 十字弓弹"
+      "zh-TW": "2 弓矢 -> 弩箭",
+      "zh-CN": "2 箭矢 -> 弩矢"
     },
     "category": "consumables",
     "ingredientIcons": [
@@ -423,8 +457,8 @@
     "id": "recipe-22",
     "description": {
       "en": "2 Bolts -> Arrows",
-      "zh-TW": "2 十字弓彈 -> 箭矢",
-      "zh-CN": "2 十字弓弹 -> 箭矢"
+      "zh-TW": "2 弩箭 -> 弓矢",
+      "zh-CN": "2 弩矢 -> 箭矢"
     },
     "category": "consumables",
     "ingredientIcons": [
