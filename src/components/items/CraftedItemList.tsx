@@ -72,14 +72,13 @@ export default function CraftedItemList({ items, locale }: { items: CraftedItem[
               <CraftIcon invFile={item.magicItemInputIcon} hdIcon={item.magicItemInputHdIcon} />
               <h3 className="text-lg font-bold text-[#cbb87f]">{item.name[locale]}</h3>
             </div>
-            <div className="mt-2 text-sm text-parchment flex items-center gap-2">
-              {t('craftedItemsInputLabel')}: <CraftIcon invFile={item.magicItemInputIcon} hdIcon={item.magicItemInputHdIcon} size="w-5 h-5" /> {item.magicItemInput[locale]}
+            <div className="mt-2 text-sm text-parchment">
+              {t('craftedItemsInputLabel')}: {item.magicItemInput[locale]}
             </div>
             {item.magicItemInputVariants && (
               <div className="mt-1 text-sm text-[#8080f3] flex items-center gap-1 flex-wrap">
                 {(item.magicItemInputVariants as InputVariant[]).map((v, i, arr) => (
-                  <span key={v.name.en} className="flex items-center gap-1">
-                    <CraftIcon invFile={v.invFile} hdIcon={v.hdIcon} size="w-5 h-5" />
+                  <span key={v.name.en}>
                     {v.name[locale]}{i < arr.length - 1 ? ' /' : ''}
                   </span>
                 ))}
@@ -88,8 +87,7 @@ export default function CraftedItemList({ items, locale }: { items: CraftedItem[
             <div className="text-sm text-parchment flex items-center gap-1 flex-wrap">
               {t('craftedItemsAdditionalInputsLabel')}:
               {item.additionalInputs.map((input, i) => (
-                <span key={`${input[locale]}-${i}`} className="flex items-center gap-1">
-                  <CraftIcon invFile={item.additionalInputIcons[i]} hdIcon={item.additionalInputHdIcons?.[i]} size="w-5 h-5" />
+                <span key={`${input[locale]}-${i}`}>
                   {input[locale]}{i < item.additionalInputs.length - 1 ? ',' : ''}
                 </span>
               ))}

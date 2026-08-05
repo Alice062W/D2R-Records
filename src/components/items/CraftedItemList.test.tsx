@@ -45,7 +45,7 @@ describe('CraftedItemList', () => {
     expect(screen.getAllByText(/Attacker Takes Damage/).length).toBeGreaterThan(0);
   });
 
-  it('renders the magic-item-input icon next to the name, and one icon per additional input', () => {
+  it('renders exactly one image per card (the header icon) -- no icons on input/additional-input lines', () => {
     const item = {
       id: 'craft-64',
       name: { en: 'Hit Power Helm', 'zh-TW': 'x', 'zh-CN': 'x' },
@@ -69,11 +69,9 @@ describe('CraftedItemList', () => {
         <CraftedItemList items={[item]} locale="en" />
       </NextIntlClientProvider>
     );
-    const srcs = Array.from(container.querySelectorAll('img')).map(i => (i as HTMLImageElement).src);
-    expect(srcs.some(s => s.includes('invfhl'))).toBe(true);
-    expect(srcs.some(s => s.includes('invgswe'))).toBe(true);
-    expect(srcs.some(s => s.includes('invrIth'))).toBe(true);
-    expect(srcs.some(s => s.includes('invgsbe'))).toBe(true);
+    const imgs = container.querySelectorAll('img');
+    expect(imgs.length).toBe(1);
+    expect((imgs[0] as HTMLImageElement).src).toContain('invfhl');
   });
 
   it('prefers the HD icon over the classic inv icon when both are present', () => {
