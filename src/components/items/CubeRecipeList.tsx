@@ -158,6 +158,18 @@ export default function CubeRecipeList({ recipes, locale }: { recipes: Recipe[];
   const isGemUpgrade = recipes.length > 0 && recipes.every(r => r.category === 'gemUpgrade');
   const isRuneUpgrade = recipes.length > 0 && recipes.every(r => r.category === 'runeUpgrade');
   const isConsumables = recipes.length > 0 && recipes.every(r => r.category === 'consumables');
+  const isCraftedGrandCharm = recipes.length > 0 && recipes.every(r => r.category === 'craftedGrandCharm');
+
+  if (isCraftedGrandCharm) {
+    // Only 6 recipes here (the Latent -> Renewed Sunder Charm renewals),
+    // each with a long multi-ingredient description -- a single column reads
+    // more clearly than wrapping them into a multi-column grid.
+    return (
+      <div className="grid grid-cols-1 gap-2 w-full">
+        {recipes.map(r => <RecipeCard key={r.id} r={r} locale={locale} />)}
+      </div>
+    );
+  }
 
   if (isRuneUpgrade) {
     // Group rune-upgrade recipes by how many runes each merge takes: the
