@@ -401,7 +401,7 @@
     "id": "recipe-28",
     "description": {
       "en": "3 Flawed Rubies -> Standard Ruby",
-      "zh-TW": "3 瑕疵紅寶石 -> 寶紅",
+      "zh-TW": "3 瑕疵紅寶石 -> 紅寶石",
       "zh-CN": "3 有瑕疵的红宝石 -> 红宝石"
     },
     "category": "gemUpgrade",
@@ -416,7 +416,7 @@
     "id": "recipe-29",
     "description": {
       "en": "3 Standard Rubies -> Flawless Ruby",
-      "zh-TW": "3 寶紅 -> 無瑕紅寶石",
+      "zh-TW": "3 紅寶石 -> 無瑕紅寶石",
       "zh-CN": "3 红宝石 -> 无瑕的红宝石"
     },
     "category": "gemUpgrade",
@@ -461,7 +461,7 @@
     "id": "recipe-32",
     "description": {
       "en": "3 Flawed Sapphires -> Standard Sapphire",
-      "zh-TW": "3 瑕疵藍寶石 -> 寶藍",
+      "zh-TW": "3 瑕疵藍寶石 -> 藍寶石",
       "zh-CN": "3 有瑕疵的蓝宝石 -> 蓝宝石"
     },
     "category": "gemUpgrade",
@@ -476,7 +476,7 @@
     "id": "recipe-33",
     "description": {
       "en": "3 Standard Sapphires -> Flawless Sapphire",
-      "zh-TW": "3 寶藍 -> 無瑕藍寶石",
+      "zh-TW": "3 藍寶石 -> 無瑕藍寶石",
       "zh-CN": "3 蓝宝石 -> 无瑕的蓝宝石"
     },
     "category": "gemUpgrade",
@@ -581,8 +581,8 @@
     "id": "recipe-40",
     "description": {
       "en": "3 Flawed Emeralds -> Standard Emerald",
-      "zh-TW": "3 瑕疵綠寶石 -> 寶綠",
-      "zh-CN": "3 有瑕疵的绿宝石 -> 翡翠"
+      "zh-TW": "3 瑕疵綠寶石 -> 綠寶石",
+      "zh-CN": "3 有瑕疵的绿宝石 -> 绿宝石"
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
@@ -596,8 +596,8 @@
     "id": "recipe-41",
     "description": {
       "en": "3 Standard Emeralds -> Flawless Emerald",
-      "zh-TW": "3 寶綠 -> 無瑕綠寶石",
-      "zh-CN": "3 翡翠 -> 无瑕的绿宝石"
+      "zh-TW": "3 綠寶石 -> 無瑕綠寶石",
+      "zh-CN": "3 绿宝石 -> 无瑕的绿宝石"
     },
     "category": "gemUpgrade",
     "ingredientIcons": [
