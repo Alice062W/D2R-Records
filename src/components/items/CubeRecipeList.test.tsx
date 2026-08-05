@@ -197,4 +197,14 @@ describe('CubeRecipeList', () => {
     );
     expect(container.textContent).toContain('→Fully Repaired Weapon');
   });
+
+  it('shows the output as text next to the arrow for itemUpgrade recipes with no output item icon', () => {
+    const category = recipes.filter(r => r.category === 'itemUpgrade');
+    const { container } = render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <CubeRecipeList recipes={category} locale="en" />
+      </NextIntlClientProvider>
+    );
+    expect(container.textContent).toContain('→Normal Weapon');
+  });
 });

@@ -1919,11 +1919,15 @@
     },
     "category": "itemUpgrade",
     "ingredientIcons": [
-      "invrEld"
+      "invrEld",
+      "invgsva",
+      "invssd"
     ],
     "outputIcon": null,
     "ingredientHdIcons": [
-      "eld_rune"
+      "eld_rune",
+      "chipped_amethyst",
+      "short_sword"
     ],
     "outputHdIcon": null
   },
@@ -1936,11 +1940,15 @@
     },
     "category": "itemUpgrade",
     "ingredientIcons": [
-      "invrEl"
+      "invrEl",
+      "invgsva",
+      "invqlt"
     ],
     "outputIcon": null,
     "ingredientHdIcons": [
-      "el_rune"
+      "el_rune",
+      "chipped_amethyst",
+      "quilted_armor"
     ],
     "outputHdIcon": null
   },
@@ -1982,7 +1990,7 @@
     "ingredientHdIcons": [
       "tal_rune",
       "shael_rune",
-      "fragment_magic"
+      "perfect_diamond"
     ],
     "outputHdIcon": null
   },
@@ -2024,7 +2032,7 @@
     "ingredientHdIcons": [
       "ko_rune",
       "lem_rune",
-      "fragment_magic"
+      "perfect_diamond"
     ],
     "outputHdIcon": null
   },
@@ -2314,7 +2322,7 @@
     "ingredientHdIcons": [
       "tal_rune",
       "shael_rune",
-      "fragment_magic"
+      "perfect_diamond"
     ],
     "outputHdIcon": null
   },
@@ -2356,7 +2364,7 @@
     "ingredientHdIcons": [
       "ko_rune",
       "lem_rune",
-      "fragment_magic"
+      "perfect_diamond"
     ],
     "outputHdIcon": null
   },
