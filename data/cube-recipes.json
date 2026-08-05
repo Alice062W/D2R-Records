@@ -164,7 +164,7 @@
       "perfect_saphire",
       "perfect_emerald",
       "perfect_ruby",
-      "fragment_magic"
+      "perfect_diamond"
     ],
     "outputHdIcon": "amulet",
     "notes": {
@@ -1323,7 +1323,8 @@
       "invskz",
       "invskz",
       "invskz",
-      "invskz"
+      "invskz",
+      "invssd"
     ],
     "outputIcon": null,
     "ingredientHdIcons": [
@@ -1332,7 +1333,8 @@
       "perfect_skull",
       "perfect_skull",
       "perfect_skull",
-      "perfect_skull"
+      "perfect_skull",
+      "short_sword"
     ],
     "outputHdIcon": null,
     "notes": {
@@ -1350,11 +1352,15 @@
     },
     "category": "magicItemRerolls",
     "ingredientIcons": [
-      "invskz"
+      "invskz",
+      "invssd",
+      "invrin"
     ],
     "outputIcon": null,
     "ingredientHdIcons": [
-      "perfect_skull"
+      "perfect_skull",
+      "short_sword",
+      "ring"
     ],
     "outputHdIcon": null,
     "notes": {
@@ -1374,13 +1380,17 @@
     "ingredientIcons": [
       "invskz",
       "invskz",
-      "invskz"
+      "invskz",
+      "invssd",
+      "invrin"
     ],
     "outputIcon": null,
     "ingredientHdIcons": [
       "perfect_skull",
       "perfect_skull",
-      "perfect_skull"
+      "perfect_skull",
+      "short_sword",
+      "ring"
     ],
     "outputHdIcon": null
   },
@@ -2636,9 +2646,9 @@
       "zh-CN": "3 碎裂的宝石(任一) + 1 魔法武器 -> 镶孔魔法武器"
     },
     "notes": {
-      "en": "Item Level: 25 · Adds 1-2 Sockets",
-      "zh-TW": "物品等級：25．增加 1-2 個鑲孔",
-      "zh-CN": "物品等级：25．增加 1-2 个镶孔"
+      "en": "Item Level: 25 · Input must be a Magic (not yet socketed) Weapon · Adds 1-2 Sockets",
+      "zh-TW": "物品等級：25．輸入須為魔法（尚未鑲孔）武器．增加 1-2 個鑲孔",
+      "zh-CN": "物品等级：25．输入须为魔法（尚未镶孔）武器．增加 1-2 个镶孔"
     },
     "category": "magicItemRerolls",
     "ingredientIcons": [
@@ -2664,9 +2674,9 @@
       "zh-CN": "3 无瑕的宝石 + 1 魔法武器 -> 镶孔魔法武器"
     },
     "notes": {
-      "en": "Item Level: 30 · Adds 1-2 Sockets",
-      "zh-TW": "物品等級：30．增加 1-2 個鑲孔",
-      "zh-CN": "物品等级：30．增加 1-2 个镶孔"
+      "en": "Item Level: 30 · Input must be a Magic (not yet socketed) Weapon · Uses rarer Flawless Gems for a higher Item Level than the Chipped-Gem recipe · Adds 1-2 Sockets",
+      "zh-TW": "物品等級：30．輸入須為魔法（尚未鑲孔）武器．使用較稀有的無瑕寶石，物品等級高於碎裂寶石版本．增加 1-2 個鑲孔",
+      "zh-CN": "物品等级：30．输入须为魔法（尚未镶孔）武器．使用较稀有的无瑕宝石，物品等级高于碎裂宝石版本．增加 1-2 个镶孔"
     },
     "category": "magicItemRerolls",
     "ingredientIcons": [
@@ -2692,9 +2702,9 @@
       "zh-CN": "3 标准宝石 + 1 镶孔武器 -> 镶孔魔法武器"
     },
     "notes": {
-      "en": "Item Level: 30 · Adds 1-2 Sockets",
-      "zh-TW": "物品等級：30．增加 1-2 個鑲孔",
-      "zh-CN": "物品等级：30．增加 1-2 个镶孔"
+      "en": "Item Level: 30 · Input must be an already-Socketed (non-magic) Weapon, unlike the other two recipes · Adds 1-2 Sockets",
+      "zh-TW": "物品等級：30．輸入須為已鑲孔（非魔法）武器，與另外兩個配方不同．增加 1-2 個鑲孔",
+      "zh-CN": "物品等级：30．输入须为已镶孔（非魔法）武器，与另外两个配方不同．增加 1-2 个镶孔"
     },
     "category": "magicItemRerolls",
     "ingredientIcons": [
