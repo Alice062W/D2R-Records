@@ -19,7 +19,7 @@ function RecipeIcon({ invFile, hdIcon }: { invFile: string; hdIcon?: string | nu
       src={hdIcon && !hdIconFailed ? `${BASE_PATH}/items/hd/${hdIcon}.png` : `${BASE_PATH}/items/inv/${invFile}.png`}
       alt=""
       aria-hidden="true"
-      className="w-6 h-6 object-contain inline-block"
+      className="w-8 h-8 object-contain inline-block"
       onError={() => {
         if (hdIcon && !hdIconFailed) setHdIconFailed(true);
         else setIconFailed(true);
@@ -214,7 +214,7 @@ export default function CubeRecipeList({ recipes, locale }: { recipes: Recipe[];
         {groups.map(({ key, title, items }) => (
           <div key={key} className="bg-panel-alt border border-panel-border rounded-xl p-4 flex flex-col gap-2">
             <h3 className="text-sm font-bold text-gold-bright font-cinzel">{title}</h3>
-            <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-2">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
               {items.map(r => <RecipeCard key={r.id} r={r} locale={locale} />)}
             </div>
           </div>
