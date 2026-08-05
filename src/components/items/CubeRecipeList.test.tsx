@@ -207,4 +207,24 @@ describe('CubeRecipeList', () => {
     );
     expect(container.textContent).toContain('→Normal Weapon');
   });
+
+  it('shows the output as text next to the arrow for magicItemRerolls recipes with no output item icon', () => {
+    const category = recipes.filter(r => r.category === 'magicItemRerolls');
+    const { container } = render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <CubeRecipeList recipes={category} locale="en" />
+      </NextIntlClientProvider>
+    );
+    expect(container.textContent).toContain('→Re-rolled Magic Item');
+  });
+
+  it('shows a condition/material-requirement note under recipes that have one', () => {
+    const category = recipes.filter(r => r.category === 'magicItemCreation');
+    const { container } = render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <CubeRecipeList recipes={category} locale="en" />
+      </NextIntlClientProvider>
+    );
+    expect(container.textContent).toContain('Item Level: 30 · Fire Resist +21-30%');
+  });
 });

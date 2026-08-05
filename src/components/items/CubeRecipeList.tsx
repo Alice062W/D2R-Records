@@ -151,7 +151,7 @@ function RecipeCard({ r, locale }: { r: Recipe; locale: Locale }) {
   // the same input item, just with sockets added/cleared, durability/charges
   // restored, or its quality tier bumped up -- not a distinct item), so get
   // the same text treatment.
-  const CATEGORIES_WITH_OUTPUT_TEXT = ['quests', 'sockets', 'itemRepair', 'itemUpgrade'];
+  const CATEGORIES_WITH_OUTPUT_TEXT = ['quests', 'sockets', 'itemRepair', 'itemUpgrade', 'magicItemRerolls'];
   const showOutputText = !r.outputIcon && CATEGORIES_WITH_OUTPUT_TEXT.includes(r.category);
   return (
     <div className="bg-panel border border-panel-border rounded-lg px-4 py-2 text-sm text-parchment">
@@ -175,6 +175,9 @@ function RecipeCard({ r, locale }: { r: Recipe; locale: Locale }) {
         </div>
       )}
       <DescriptionWithQtyIcons description={r.description[locale]} descriptionEn={r.description.en} />
+      {'notes' in r && r.notes && (
+        <div className="mt-1 text-xs text-muted">{r.notes[locale]}</div>
+      )}
     </div>
   );
 }
@@ -222,23 +225,14 @@ export default function CubeRecipeList({ recipes, locale }: { recipes: Recipe[];
     );
   }
 
-  if (isCraftedGrandCharm || isQuests || isMagicItemCreation || isSockets || isItemRepair) {
+  if (isCraftedGrandCharm || isQuests || isMagicItemCreation || isSockets || isItemRepair || isMagicItemRerolls) {
     // Long multi-ingredient descriptions (4-6 ingredients, verbose quality/
-    // rune/gem/charm-size wording), or -- for Sockets/Item Repair -- the
-    // added output-text row makes each card wide enough that a single column
-    // reads more clearly than wrapping them into a multi-column grid.
+    // rune/gem/charm-size wording), or -- for Sockets/Item Repair/Magic Item
+    // Rerolls/Magic Item Creation -- the added output-text and/or condition-
+    // notes rows make each card wide enough that a single column reads more
+    // clearly than wrapping them into a multi-column grid.
     return (
       <div className="grid grid-cols-1 gap-2 w-full">
-        {recipes.map(r => <RecipeCard key={r.id} r={r} locale={locale} />)}
-      </div>
-    );
-  }
-
-  if (isMagicItemRerolls) {
-    // Shorter descriptions than Item Upgrade/Magic Item Creation -- 2 columns
-    // fits comfortably without wrapping awkwardly.
-    return (
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 w-full">
         {recipes.map(r => <RecipeCard key={r.id} r={r} locale={locale} />)}
       </div>
     );

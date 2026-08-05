@@ -341,20 +341,24 @@ describe('cube-recipes.json', () => {
   // of `enabled:1` entries in cubemain.json *including* the 36 Hit Power/Blood/
   // Caster/Safety craft recipes (which are also enabled:1 but excluded here because
   // they belong only in crafted-items.json). The real total is
-  // 157 (enabled) - 36 (excluded craft recipes) + 17 (colored magic-prefix
-  // recipes, now classified as magicItemCreation) + 6 (real Latent->Renewed
-  // Sunder Charm renewal recipes, DLC 3.2/Rise of the Watchers, added to
-  // craftedGrandCharm) - 6 (duplicate quests-category cards for the same 6
-  // cubemain.json rows, rendered with stale "Virulent X"/"Uber Ancient Summon
-  // Material" description-column text instead of the real item-names.json
-  // display names -- now redundant with the correct craftedGrandCharm
-  // versions, so removed) - 3 (recipe-15/16/147, three separate cubemain.json
-  // rows that all produce a plain "Socketed Magic Weapon" -- removed at the
-  // user's request, matching the reference site's own Sockets page which
-  // doesn't list this recipe family at all) = 135, confirmed by reading
-  // vendor/d2data/json/cubemain.json directly.
-  it('has 135 entries (121 enabled non-craft + 17 colored magic-prefix + 6 Renewed Sunder Charm - 6 removed duplicate quest cards - 3 removed duplicate "Socketed Magic Weapon" cards)', () => {
-    expect(cubeRecipesData.length).toBe(135);
+  // 157 (enabled) - 36 (excluded craft recipes, crafted-items.json only)
+  // + 6 (real Latent->Renewed Sunder Charm renewal recipes, DLC 3.2/Rise of
+  // the Watchers, added to craftedGrandCharm) - 6 (duplicate quests-category
+  // cards for those same 6 cubemain.json rows, rendered with stale
+  // "Virulent X"/"Uber Ancient Summon Material" description-column text
+  // instead of the real item-names.json display names -- now redundant, so
+  // removed) = 121. recipe-15/16/147 (the "Socketed Magic Weapon" recipes)
+  // were moved from sockets to magicItemRerolls -- matching d2r.world's own
+  // page for them -- so they're a recategorization, not a count change. The
+  // 17 "colored magic-prefix" recipes (Virulent/Gelid/Magnetic/Incendiary/
+  // Breaching/Mystical Small/Large/Grand Charm) were REMOVED entirely after
+  // checking cubemain.json's own "enabled" column: all 17 have enabled=0,
+  // meaning they're disabled/inactive in the current game -- unlike the
+  // Latent->Renewed family (enabled=1), these don't represent a real,
+  // currently-craftable recipe. Confirmed by reading vendor/d2data/json/
+  // cubemain.json directly.
+  it('has 121 entries (121 enabled non-craft + 6 Renewed Sunder Charm - 6 removed duplicate quest cards, with the 17 disabled colored magic-prefix charm recipes excluded entirely)', () => {
+    expect(cubeRecipesData.length).toBe(121);
   });
 
   it('does not include the 36 Hit Power/Blood/Caster/Safety craft recipes (those are crafted-items.json only)', () => {
@@ -382,9 +386,16 @@ describe('cube-recipes.json', () => {
     expect(charmRecipes.every(r => r.description.en.includes('Latent') && r.description.en.includes('Renewed'))).toBe(true);
   });
 
-  it('classifies the Rune+Gem+Worldstone Shard "colored" magic-prefix recipes (Virulent/Gelid/...) as magicItemCreation, not craftedGrandCharm', () => {
-    const r = cubeRecipesData.find(r => r.description.en.endsWith('-> Breaching Grand Charm'))!;
-    expect(r.category).toBe('magicItemCreation');
+  it('does not include the disabled (enabled=0 in cubemain.json) Rune+Gem+Worldstone Shard "colored" magic-prefix recipes (Virulent/Gelid/Magnetic/Incendiary/Breaching/Mystical)', () => {
+    expect(cubeRecipesData.some(r => r.description.en.endsWith('-> Breaching Grand Charm'))).toBe(false);
+    expect(cubeRecipesData.some(r => /Virulent|Gelid|Magnetic|Incendiary|Breaching|Mystical/.test(r.description.en))).toBe(false);
+  });
+
+  it('recategorizes the 3 "Socketed Magic Weapon" recipes as magicItemRerolls (matching d2r.world), each with a condition/material-requirement note', () => {
+    const socketedMagicWeapon = cubeRecipesData.filter(r => r.description.en.endsWith('-> Socketed Magic Weapon'));
+    expect(socketedMagicWeapon.length).toBe(3);
+    expect(socketedMagicWeapon.every(r => r.category === 'magicItemRerolls')).toBe(true);
+    expect(socketedMagicWeapon.every(r => 'notes' in r && r.notes?.en.includes('Item Level'))).toBe(true);
   });
 
   it('resolves ingredientIcons and outputIcon for a simple 2-input recipe (Staff of Kings + Amulet of the Viper -> Horadric Staff)', () => {
@@ -437,13 +448,6 @@ describe('cube-recipes.json', () => {
   it('localizes a rune-upgrade recipe description (3 El Runes -> Eld Rune)', () => {
     const eld = cubeRecipesData.find(r => r.description.en === '3 El Runes -> Eld Rune')!;
     expect(eld.description['zh-TW']).toBe('3 艾爾符文 -> 艾德符文');
-  });
-
-  it('resolves a specific charm-size compound ("Grand Charm") to its own real translation, not the generic word for "Charm", and translates the "Breaching" magic-prefix word (item-nameaffixes.json) rather than leaving it in English', () => {
-    const r = cubeRecipesData.find(r => r.description.en.endsWith('-> Breaching Grand Charm'))!;
-    expect(r.description['zh-TW']).toBe(
-      '1 普爾符文 + 1 完美紫寶石 + 1 北方的世界之石碎片 + 1 超大型護身符 -> 突破 超大型護身符'
-    );
   });
 
   it('every recipe description is present for all three locales (no undefined/empty strings)', () => {

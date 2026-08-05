@@ -166,7 +166,12 @@
       "perfect_ruby",
       "fragment_magic"
     ],
-    "outputHdIcon": "amulet"
+    "outputHdIcon": "amulet",
+    "notes": {
+      "en": "Item Level: 50 · All Resistances +16-20",
+      "zh-TW": "物品等級：50．所有抗性 +16-20",
+      "zh-CN": "物品等级：50．+16-20 所有抗性"
+    }
   },
   {
     "id": "recipe-7",
@@ -187,7 +192,12 @@
       "perfect_ruby",
       "exploding_potion"
     ],
-    "outputHdIcon": "ring"
+    "outputHdIcon": "ring",
+    "notes": {
+      "en": "Item Level: 30 · Fire Resist +21-30%",
+      "zh-TW": "物品等級：30．火焰抗性 +21-30%",
+      "zh-CN": "物品等级：30．火焰抗性 +21-30%"
+    }
   },
   {
     "id": "recipe-8",
@@ -208,7 +218,12 @@
       "perfect_saphire",
       "thawing_potion"
     ],
-    "outputHdIcon": "ring"
+    "outputHdIcon": "ring",
+    "notes": {
+      "en": "Item Level: 30 · Cold Resist +21-30%",
+      "zh-TW": "物品等級：30．冰寒抗性 +21-30%",
+      "zh-CN": "物品等级：30．冰霜抗性 +21-30%"
+    }
   },
   {
     "id": "recipe-9",
@@ -229,7 +244,12 @@
       "perfect_topaz",
       "rejuv_potion"
     ],
-    "outputHdIcon": "ring"
+    "outputHdIcon": "ring",
+    "notes": {
+      "en": "Item Level: 30 · Lightning Resist +21-30%",
+      "zh-TW": "物品等級：30．電擊抗性 +21-30%",
+      "zh-CN": "物品等级：30．闪电抗性 +21-30%"
+    }
   },
   {
     "id": "recipe-10",
@@ -250,7 +270,12 @@
       "perfect_emerald",
       "antidote_potion"
     ],
-    "outputHdIcon": "ring"
+    "outputHdIcon": "ring",
+    "notes": {
+      "en": "Item Level: 30 · Poison Resist +21-30%",
+      "zh-TW": "物品等級：30．毒素抗性 +21-30%",
+      "zh-CN": "物品等级：30．毒素抗性 +21-30%"
+    }
   },
   {
     "id": "recipe-11",
@@ -309,7 +334,12 @@
       "ring",
       "ring"
     ],
-    "outputHdIcon": "amulet"
+    "outputHdIcon": "amulet",
+    "notes": {
+      "en": "Item Level = 75% of Character Level",
+      "zh-TW": "物品等級 = 角色等級的 75%",
+      "zh-CN": "物品等级 = 角色等级的 75%"
+    }
   },
   {
     "id": "recipe-14",
@@ -330,7 +360,12 @@
       "amulet",
       "amulet"
     ],
-    "outputHdIcon": "ring"
+    "outputHdIcon": "ring",
+    "notes": {
+      "en": "Item Level = 75% of Character Level",
+      "zh-TW": "物品等級 = 角色等級的 75%",
+      "zh-CN": "物品等级 = 角色等级的 75%"
+    }
   },
   {
     "id": "recipe-17",
@@ -342,14 +377,23 @@
     "category": "magicItemCreation",
     "ingredientIcons": [
       "invbuc",
-      "invspc"
+      "invspc",
+      "invskc",
+      "invskc"
     ],
-    "outputIcon": null,
+    "outputIcon": "invbuc",
     "ingredientHdIcons": [
       "buckler",
-      "spiked_club"
+      "spiked_club",
+      "chipped_skull",
+      "chipped_skull"
     ],
-    "outputHdIcon": null
+    "outputHdIcon": "buckler",
+    "notes": {
+      "en": "Item Level: 30 · Attacker Takes Damage of 4-6",
+      "zh-TW": "物品等級：30．攻擊者反傷：4-6",
+      "zh-CN": "物品等级：30．攻击者受到 4-6 点伤害"
+    }
   },
   {
     "id": "recipe-18",
@@ -370,7 +414,12 @@
       "chipped_ruby",
       "short_sword"
     ],
-    "outputHdIcon": "short_sword"
+    "outputHdIcon": "short_sword",
+    "notes": {
+      "en": "Item Level: 30 · 4-5% Life Stolen Per Hit",
+      "zh-TW": "物品等級：30．擊中竊取 4-5% 生命",
+      "zh-CN": "物品等级：30．4-5% 击中时偷取生命"
+    }
   },
   {
     "id": "recipe-19",
@@ -391,7 +440,12 @@
       "short_staff",
       "belt_m"
     ],
-    "outputHdIcon": "bardiche"
+    "outputHdIcon": "bardiche",
+    "notes": {
+      "en": "Item Level: 50 · +66-80% Enhanced Damage",
+      "zh-TW": "物品等級：50．+66-80% 傷害強化",
+      "zh-CN": "物品等级：50．+66-80% 强化伤害"
+    }
   },
   {
     "id": "recipe-20",
@@ -1248,7 +1302,12 @@
       "perfect_amethyst",
       "ring"
     ],
-    "outputHdIcon": null
+    "outputHdIcon": null,
+    "notes": {
+      "en": "Item Level: 100",
+      "zh-TW": "物品等級：100",
+      "zh-CN": "物品等级：100"
+    }
   },
   {
     "id": "recipe-61",
@@ -1275,7 +1334,12 @@
       "perfect_skull",
       "perfect_skull"
     ],
-    "outputHdIcon": null
+    "outputHdIcon": null,
+    "notes": {
+      "en": "New Item Level = 40% of Character Level + 40% of Original Item Level",
+      "zh-TW": "新物品等級 = 角色等級的 40% + 原物品等級的 40%",
+      "zh-CN": "新物品等级 = 角色等级的 40% + 原物品等级的 40%"
+    }
   },
   {
     "id": "recipe-62",
@@ -1292,7 +1356,12 @@
     "ingredientHdIcons": [
       "perfect_skull"
     ],
-    "outputHdIcon": null
+    "outputHdIcon": null,
+    "notes": {
+      "en": "New Item Level = 66% of Character Level + 66% of Original Item Level",
+      "zh-TW": "新物品等級 = 角色等級的 66% + 原物品等級的 66%",
+      "zh-CN": "新物品等级 = 角色等级的 66% + 原物品等级的 66%"
+    }
   },
   {
     "id": "recipe-63",
@@ -2393,397 +2462,6 @@
     "outputHdIcon": null
   },
   {
-    "id": "recipe-163",
-    "description": {
-      "en": "1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Small Charm -> Virulent Small Charm",
-      "zh-TW": "1 科符文 + 1 完美綠寶石 + 1 西方的世界之石碎片 + 1 小護身符 -> 怨毒 小護身符",
-      "zh-CN": "1 科符文 + 1 完美的绿宝石 + 1 西方世界之石碎片 + 1 小护身符 -> 剧毒 小护身符"
-    },
-    "category": "magicItemCreation",
-    "ingredientIcons": [
-      "invchm",
-      "invrKo",
-      "invgsge",
-      "invtoa"
-    ],
-    "outputIcon": null,
-    "ingredientHdIcons": [
-      "charm_small",
-      "ko_rune",
-      "perfect_emerald",
-      "mote_of_anguish"
-    ],
-    "outputHdIcon": null
-  },
-  {
-    "id": "recipe-164",
-    "description": {
-      "en": "1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Large Charm -> Virulent Large Charm",
-      "zh-TW": "1 科符文 + 1 完美綠寶石 + 1 西方的世界之石碎片 + 1 大型護身符 -> 怨毒 大型護身符",
-      "zh-CN": "1 科符文 + 1 完美的绿宝石 + 1 西方世界之石碎片 + 1 大型护身符 -> 剧毒 大型护身符"
-    },
-    "category": "magicItemCreation",
-    "ingredientIcons": [
-      "invchm",
-      "invrKo",
-      "invgsge",
-      "invtoa"
-    ],
-    "outputIcon": null,
-    "ingredientHdIcons": [
-      "charm_small",
-      "ko_rune",
-      "perfect_emerald",
-      "mote_of_anguish"
-    ],
-    "outputHdIcon": null
-  },
-  {
-    "id": "recipe-174",
-    "description": {
-      "en": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Small Charm -> Gelid Small Charm",
-      "zh-TW": "1 盧姆符文 + 1 完美藍寶石 + 1 東方的世界之石碎片 + 1 小護身符 -> 嚴寒 小護身符",
-      "zh-CN": "1 卢姆符文 + 1 完美的蓝宝石 + 1 东方世界之石碎片 + 1 小护身符 -> 极寒 小护身符"
-    },
-    "category": "magicItemCreation",
-    "ingredientIcons": [
-      "invchm",
-      "invrLum",
-      "invgsbe",
-      "invtoa"
-    ],
-    "outputIcon": null,
-    "ingredientHdIcons": [
-      "charm_small",
-      "lum_rune",
-      "perfect_saphire",
-      "mote_of_pain"
-    ],
-    "outputHdIcon": null
-  },
-  {
-    "id": "recipe-175",
-    "description": {
-      "en": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Large Charm -> Gelid Large Charm",
-      "zh-TW": "1 盧姆符文 + 1 完美藍寶石 + 1 東方的世界之石碎片 + 1 大型護身符 -> 嚴寒 大型護身符",
-      "zh-CN": "1 卢姆符文 + 1 完美的蓝宝石 + 1 东方世界之石碎片 + 1 大型护身符 -> 极寒 大型护身符"
-    },
-    "category": "magicItemCreation",
-    "ingredientIcons": [
-      "invchm",
-      "invrLum",
-      "invgsbe",
-      "invtoa"
-    ],
-    "outputIcon": null,
-    "ingredientHdIcons": [
-      "charm_small",
-      "lum_rune",
-      "perfect_saphire",
-      "mote_of_pain"
-    ],
-    "outputHdIcon": null
-  },
-  {
-    "id": "recipe-176",
-    "description": {
-      "en": "1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Grand Charm -> Gelid Grand Charm",
-      "zh-TW": "1 盧姆符文 + 1 完美藍寶石 + 1 東方的世界之石碎片 + 1 超大型護身符 -> 嚴寒 超大型護身符",
-      "zh-CN": "1 卢姆符文 + 1 完美的蓝宝石 + 1 东方世界之石碎片 + 1 超大型护身符 -> 极寒 超大型护身符"
-    },
-    "category": "magicItemCreation",
-    "ingredientIcons": [
-      "invchm",
-      "invrLum",
-      "invgsbe",
-      "invtoa"
-    ],
-    "outputIcon": null,
-    "ingredientHdIcons": [
-      "charm_small",
-      "lum_rune",
-      "perfect_saphire",
-      "mote_of_pain"
-    ],
-    "outputHdIcon": null
-  },
-  {
-    "id": "recipe-186",
-    "description": {
-      "en": "1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Small Charm -> Magnetic Small Charm",
-      "zh-TW": "1 法爾符文 + 1 完美黃寶石 + 1 南方的世界之石碎片 + 1 小護身符 -> 磁性 小護身符",
-      "zh-CN": "1 法尔符文 + 1 完美的黄宝石 + 1 南方世界之石碎片 + 1 小护身符 -> 磁性 小护身符"
-    },
-    "category": "magicItemCreation",
-    "ingredientIcons": [
-      "invchm",
-      "invrFal",
-      "invgsye",
-      "invtoa"
-    ],
-    "outputIcon": null,
-    "ingredientHdIcons": [
-      "charm_small",
-      "fal_rune",
-      "perfect_topaz",
-      "mote_of_hatred"
-    ],
-    "outputHdIcon": null
-  },
-  {
-    "id": "recipe-187",
-    "description": {
-      "en": "1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Large Charm -> Magnetic Large Charm",
-      "zh-TW": "1 法爾符文 + 1 完美黃寶石 + 1 南方的世界之石碎片 + 1 大型護身符 -> 磁性 大型護身符",
-      "zh-CN": "1 法尔符文 + 1 完美的黄宝石 + 1 南方世界之石碎片 + 1 大型护身符 -> 磁性 大型护身符"
-    },
-    "category": "magicItemCreation",
-    "ingredientIcons": [
-      "invchm",
-      "invrFal",
-      "invgsye",
-      "invtoa"
-    ],
-    "outputIcon": null,
-    "ingredientHdIcons": [
-      "charm_small",
-      "fal_rune",
-      "perfect_topaz",
-      "mote_of_hatred"
-    ],
-    "outputHdIcon": null
-  },
-  {
-    "id": "recipe-188",
-    "description": {
-      "en": "1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Grand Charm -> Magnetic Grand Charm",
-      "zh-TW": "1 法爾符文 + 1 完美黃寶石 + 1 南方的世界之石碎片 + 1 超大型護身符 -> 磁性 超大型護身符",
-      "zh-CN": "1 法尔符文 + 1 完美的黄宝石 + 1 南方世界之石碎片 + 1 超大型护身符 -> 磁性 超大型护身符"
-    },
-    "category": "magicItemCreation",
-    "ingredientIcons": [
-      "invchm",
-      "invrFal",
-      "invgsye",
-      "invtoa"
-    ],
-    "outputIcon": null,
-    "ingredientHdIcons": [
-      "charm_small",
-      "fal_rune",
-      "perfect_topaz",
-      "mote_of_hatred"
-    ],
-    "outputHdIcon": null
-  },
-  {
-    "id": "recipe-198",
-    "description": {
-      "en": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Small Charm -> Incendiary Small Charm",
-      "zh-TW": "1 埃歐符文 + 1 完美紅寶石 + 1 深處的世界之石碎片 + 1 小護身符 -> 煽火 小護身符",
-      "zh-CN": "1 埃欧符文 + 1 完美的红宝石 + 1 深层世界之石碎片 + 1 小护身符 -> 焚烧 小护身符"
-    },
-    "category": "magicItemCreation",
-    "ingredientIcons": [
-      "invchm",
-      "invrIo",
-      "invgsre",
-      "invtoa"
-    ],
-    "outputIcon": null,
-    "ingredientHdIcons": [
-      "charm_small",
-      "io_rune",
-      "perfect_ruby",
-      "mote_of_terror"
-    ],
-    "outputHdIcon": null
-  },
-  {
-    "id": "recipe-199",
-    "description": {
-      "en": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Large Charm -> Incendiary Large Charm",
-      "zh-TW": "1 埃歐符文 + 1 完美紅寶石 + 1 深處的世界之石碎片 + 1 大型護身符 -> 煽火 大型護身符",
-      "zh-CN": "1 埃欧符文 + 1 完美的红宝石 + 1 深层世界之石碎片 + 1 大型护身符 -> 焚烧 大型护身符"
-    },
-    "category": "magicItemCreation",
-    "ingredientIcons": [
-      "invchm",
-      "invrIo",
-      "invgsre",
-      "invtoa"
-    ],
-    "outputIcon": null,
-    "ingredientHdIcons": [
-      "charm_small",
-      "io_rune",
-      "perfect_ruby",
-      "mote_of_terror"
-    ],
-    "outputHdIcon": null
-  },
-  {
-    "id": "recipe-200",
-    "description": {
-      "en": "1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Grand Charm -> Incendiary Grand Charm",
-      "zh-TW": "1 埃歐符文 + 1 完美紅寶石 + 1 深處的世界之石碎片 + 1 超大型護身符 -> 煽火 超大型護身符",
-      "zh-CN": "1 埃欧符文 + 1 完美的红宝石 + 1 深层世界之石碎片 + 1 超大型护身符 -> 焚烧 超大型护身符"
-    },
-    "category": "magicItemCreation",
-    "ingredientIcons": [
-      "invchm",
-      "invrIo",
-      "invgsre",
-      "invtoa"
-    ],
-    "outputIcon": null,
-    "ingredientHdIcons": [
-      "charm_small",
-      "io_rune",
-      "perfect_ruby",
-      "mote_of_terror"
-    ],
-    "outputHdIcon": null
-  },
-  {
-    "id": "recipe-210",
-    "description": {
-      "en": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Small Charm -> Breaching Small Charm",
-      "zh-TW": "1 普爾符文 + 1 完美紫寶石 + 1 北方的世界之石碎片 + 1 小護身符 -> 突破 小護身符",
-      "zh-CN": "1 普尔符文 + 1 完美的紫宝石 + 1 北方世界之石碎片 + 1 小护身符 -> 破甲 小护身符"
-    },
-    "category": "magicItemCreation",
-    "ingredientIcons": [
-      "invchm",
-      "invrPul",
-      "invgsve",
-      "invtoa"
-    ],
-    "outputIcon": null,
-    "ingredientHdIcons": [
-      "charm_small",
-      "pul_rune",
-      "perfect_amethyst",
-      "mote_of_destruction"
-    ],
-    "outputHdIcon": null
-  },
-  {
-    "id": "recipe-211",
-    "description": {
-      "en": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Large Charm -> Breaching Large Charm",
-      "zh-TW": "1 普爾符文 + 1 完美紫寶石 + 1 北方的世界之石碎片 + 1 大型護身符 -> 突破 大型護身符",
-      "zh-CN": "1 普尔符文 + 1 完美的紫宝石 + 1 北方世界之石碎片 + 1 大型护身符 -> 破甲 大型护身符"
-    },
-    "category": "magicItemCreation",
-    "ingredientIcons": [
-      "invchm",
-      "invrPul",
-      "invgsve",
-      "invtoa"
-    ],
-    "outputIcon": null,
-    "ingredientHdIcons": [
-      "charm_small",
-      "pul_rune",
-      "perfect_amethyst",
-      "mote_of_destruction"
-    ],
-    "outputHdIcon": null
-  },
-  {
-    "id": "recipe-212",
-    "description": {
-      "en": "1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Grand Charm -> Breaching Grand Charm",
-      "zh-TW": "1 普爾符文 + 1 完美紫寶石 + 1 北方的世界之石碎片 + 1 超大型護身符 -> 突破 超大型護身符",
-      "zh-CN": "1 普尔符文 + 1 完美的紫宝石 + 1 北方世界之石碎片 + 1 超大型护身符 -> 破甲 超大型护身符"
-    },
-    "category": "magicItemCreation",
-    "ingredientIcons": [
-      "invchm",
-      "invrPul",
-      "invgsve",
-      "invtoa"
-    ],
-    "outputIcon": null,
-    "ingredientHdIcons": [
-      "charm_small",
-      "pul_rune",
-      "perfect_amethyst",
-      "mote_of_destruction"
-    ],
-    "outputHdIcon": null
-  },
-  {
-    "id": "recipe-222",
-    "description": {
-      "en": "1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Small Charm -> Mystical Small Charm",
-      "zh-TW": "1 馬爾符文 + 1 完美鑽石 + 1 北方的世界之石碎片 + 1 小護身符 -> 神秘 小護身符",
-      "zh-CN": "1 马尔符文 + 1 完美的钻石 + 1 北方世界之石碎片 + 1 小护身符 -> 神秘 小护身符"
-    },
-    "category": "magicItemCreation",
-    "ingredientIcons": [
-      "invchm",
-      "invrMal",
-      "invgswe",
-      "invtoa"
-    ],
-    "outputIcon": null,
-    "ingredientHdIcons": [
-      "charm_small",
-      "mal_rune",
-      "fragment_magic",
-      "mote_of_destruction"
-    ],
-    "outputHdIcon": null
-  },
-  {
-    "id": "recipe-223",
-    "description": {
-      "en": "1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Large Charm -> Mystical Large Charm",
-      "zh-TW": "1 馬爾符文 + 1 完美鑽石 + 1 北方的世界之石碎片 + 1 大型護身符 -> 神秘 大型護身符",
-      "zh-CN": "1 马尔符文 + 1 完美的钻石 + 1 北方世界之石碎片 + 1 大型护身符 -> 神秘 大型护身符"
-    },
-    "category": "magicItemCreation",
-    "ingredientIcons": [
-      "invchm",
-      "invrMal",
-      "invgswe",
-      "invtoa"
-    ],
-    "outputIcon": null,
-    "ingredientHdIcons": [
-      "charm_small",
-      "mal_rune",
-      "fragment_magic",
-      "mote_of_destruction"
-    ],
-    "outputHdIcon": null
-  },
-  {
-    "id": "recipe-224",
-    "description": {
-      "en": "1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Grand Charm -> Mystical Grand Charm",
-      "zh-TW": "1 馬爾符文 + 1 完美鑽石 + 1 北方的世界之石碎片 + 1 超大型護身符 -> 神秘 超大型護身符",
-      "zh-CN": "1 马尔符文 + 1 完美的钻石 + 1 北方世界之石碎片 + 1 超大型护身符 -> 神秘 超大型护身符"
-    },
-    "category": "magicItemCreation",
-    "ingredientIcons": [
-      "invchm",
-      "invrMal",
-      "invgswe",
-      "invtoa"
-    ],
-    "outputIcon": null,
-    "ingredientHdIcons": [
-      "charm_small",
-      "mal_rune",
-      "fragment_magic",
-      "mote_of_destruction"
-    ],
-    "outputHdIcon": null
-  },
-  {
     "id": "recipe-226",
     "description": {
       "en": "1 Talic's Anguish + 1 Korlic's Pain + 1 Madawc's Ire + 1 Bul-Kathos' Nightmare + 1 Worusk's End -> Portal to Colossal Summit",
@@ -2949,5 +2627,89 @@
       "charm_large_lgry"
     ],
     "outputHdIcon": "charm_large_lgry"
+  },
+  {
+    "id": "recipe-15",
+    "description": {
+      "en": "3 Chipped Gems (Any) + 1 Magic Weapon -> Socketed Magic Weapon",
+      "zh-TW": "3 碎裂的寶石(任一) + 1 魔法武器 -> 鑲孔魔法武器",
+      "zh-CN": "3 碎裂的宝石(任一) + 1 魔法武器 -> 镶孔魔法武器"
+    },
+    "notes": {
+      "en": "Item Level: 25 · Adds 1-2 Sockets",
+      "zh-TW": "物品等級：25．增加 1-2 個鑲孔",
+      "zh-CN": "物品等级：25．增加 1-2 个镶孔"
+    },
+    "category": "magicItemRerolls",
+    "ingredientIcons": [
+      "invgsva",
+      "invgsva",
+      "invgsva",
+      "invssd"
+    ],
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "chipped_amethyst",
+      "chipped_amethyst",
+      "chipped_amethyst",
+      "short_sword"
+    ],
+    "outputHdIcon": null
+  },
+  {
+    "id": "recipe-16",
+    "description": {
+      "en": "3 Flawless Gems + 1 Magic Weapon -> Socketed Magic Weapon",
+      "zh-TW": "3 無瑕寶石 + 1 魔法武器 -> 鑲孔魔法武器",
+      "zh-CN": "3 无瑕的宝石 + 1 魔法武器 -> 镶孔魔法武器"
+    },
+    "notes": {
+      "en": "Item Level: 30 · Adds 1-2 Sockets",
+      "zh-TW": "物品等級：30．增加 1-2 個鑲孔",
+      "zh-CN": "物品等级：30．增加 1-2 个镶孔"
+    },
+    "category": "magicItemRerolls",
+    "ingredientIcons": [
+      "invgsvd",
+      "invgsvd",
+      "invgsvd",
+      "invssd"
+    ],
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "flawless_amethyst",
+      "flawless_amethyst",
+      "flawless_amethyst",
+      "short_sword"
+    ],
+    "outputHdIcon": null
+  },
+  {
+    "id": "recipe-147",
+    "description": {
+      "en": "3 Standard Gems + 1 Socketed Weapon -> Socketed Magic Weapon",
+      "zh-TW": "3 標準寶石 + 1 鑲孔武器 -> 鑲孔魔法武器",
+      "zh-CN": "3 标准宝石 + 1 镶孔武器 -> 镶孔魔法武器"
+    },
+    "notes": {
+      "en": "Item Level: 30 · Adds 1-2 Sockets",
+      "zh-TW": "物品等級：30．增加 1-2 個鑲孔",
+      "zh-CN": "物品等级：30．增加 1-2 个镶孔"
+    },
+    "category": "magicItemRerolls",
+    "ingredientIcons": [
+      "invgsvc",
+      "invgsvc",
+      "invgsvc",
+      "invssd"
+    ],
+    "outputIcon": null,
+    "ingredientHdIcons": [
+      "amethyst",
+      "amethyst",
+      "amethyst",
+      "short_sword"
+    ],
+    "outputHdIcon": null
   }
 ]
