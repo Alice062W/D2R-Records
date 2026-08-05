@@ -4,6 +4,10 @@ import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import type { FcrFhrFbrTable as TableData } from '@/lib/grail/fcrFhrFbr';
 
+function isNonZero(value: string | undefined): boolean {
+  return value != null && value !== '' && value !== '0%';
+}
+
 function frameNumbers(columns: { rows: Record<number, string> }[]): number[] {
   const set = new Set<number>();
   for (const col of columns) {
@@ -72,7 +76,12 @@ export default function FcrFhrFbrTable({ tables }: { tables: TableData[] }) {
               <tr key={frame}>
                 <td className="py-1 pr-3 text-parchment-bright font-semibold">{frame}</td>
                 {[...table.fcr, ...table.fhr, ...table.fbr].map((col, i) => (
-                  <td key={i} className="py-1 px-3">{col.rows[frame] ?? ''}</td>
+                  <td
+                    key={i}
+                    className={`py-1 px-3 ${isNonZero(col.rows[frame]) ? 'bg-gold/15 text-gold-bright font-semibold rounded' : ''}`}
+                  >
+                    {col.rows[frame] ?? ''}
+                  </td>
                 ))}
               </tr>
             ))}

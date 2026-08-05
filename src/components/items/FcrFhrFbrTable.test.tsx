@@ -48,4 +48,14 @@ describe('FcrFhrFbrTable', () => {
     expect(screen.getAllByText('200%')).toHaveLength(2);
     expect(screen.getByText('194%')).toBeInTheDocument();
   });
+
+  it('highlights nonzero cells with a colored background, but not 0% cells', () => {
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <FcrFhrFbrTable tables={[singleColumnTable, subSplitTable]} />
+      </NextIntlClientProvider>
+    );
+    expect(screen.getByText('174%').className).toContain('bg-gold/15');
+    expect(screen.getByText('0%').className).not.toContain('bg-gold/15');
+  });
 });
