@@ -132,10 +132,25 @@ function DescriptionWithQtyIcons({ description, descriptionEn }: { description: 
   );
 }
 
+// Extracts just the output half of a composed "X + Y -> Z" description
+// (same arrow split DescriptionWithQtyIcons uses), for recipes whose output
+// has no item icon of its own (e.g. a cube-created Town Portal) -- shown as
+// text next to the arrow instead, matching the reference site's convention.
+function outputTextOf(description: string): string {
+  const arrowMatch = description.match(/\s*(?:->|→)\s*/);
+  if (!arrowMatch) return description;
+  return description.slice(arrowMatch.index! + arrowMatch[0].length);
+}
+
 function RecipeCard({ r, locale }: { r: Recipe; locale: Locale }) {
+  // Portal-output quest recipes (Secret Cow Level / Matron's Den etc. /
+  // Tristram / Colossal Summit) have no output item icon since the output is
+  // a temporary map portal, not an item -- show the destination name as text
+  // next to the arrow instead, same as the reference site.
+  const showOutputText = !r.outputIcon && r.category === 'quests';
   return (
     <div className="bg-panel border border-panel-border rounded-lg px-4 py-2 text-sm text-parchment">
-      {(r.ingredientIcons.length > 0 || r.outputIcon) && (
+      {(r.ingredientIcons.length > 0 || r.outputIcon || showOutputText) && (
         <div className="flex items-center gap-1 mb-1">
           {r.ingredientIcons.map((icon, i) => (
             <RecipeIcon key={`${icon}-${i}`} invFile={icon} hdIcon={r.ingredientHdIcons?.[i]} />
@@ -144,6 +159,12 @@ function RecipeCard({ r, locale }: { r: Recipe; locale: Locale }) {
             <>
               <span className="text-muted mx-1">&rarr;</span>
               <RecipeIcon invFile={r.outputIcon} hdIcon={r.outputHdIcon} />
+            </>
+          )}
+          {showOutputText && (
+            <>
+              <span className="text-muted mx-1">&rarr;</span>
+              <span className="text-parchment-bright text-xs">{outputTextOf(r.description[locale])}</span>
             </>
           )}
         </div>
@@ -159,11 +180,12 @@ export default function CubeRecipeList({ recipes, locale }: { recipes: Recipe[];
   const isRuneUpgrade = recipes.length > 0 && recipes.every(r => r.category === 'runeUpgrade');
   const isConsumables = recipes.length > 0 && recipes.every(r => r.category === 'consumables');
   const isCraftedGrandCharm = recipes.length > 0 && recipes.every(r => r.category === 'craftedGrandCharm');
+  const isQuests = recipes.length > 0 && recipes.every(r => r.category === 'quests');
 
-  if (isCraftedGrandCharm) {
-    // Only 6 recipes here (the Latent -> Renewed Sunder Charm renewals),
-    // each with a long multi-ingredient description -- a single column reads
-    // more clearly than wrapping them into a multi-column grid.
+  if (isCraftedGrandCharm || isQuests) {
+    // Only 6-7 recipes in either category, several with long multi-ingredient
+    // descriptions -- a single column reads more clearly than wrapping them
+    // into a multi-column grid.
     return (
       <div className="grid grid-cols-1 gap-2 w-full">
         {recipes.map(r => <RecipeCard key={r.id} r={r} locale={locale} />)}

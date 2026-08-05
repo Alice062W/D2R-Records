@@ -164,4 +164,17 @@ describe('CubeRecipeList', () => {
     expect(container.textContent).toContain('Strangling Gas Potion');
     expect(container.textContent).toContain('Throwing Axe');
   });
+
+  it('shows the portal destination as text next to the arrow for quests recipes with no output item icon', () => {
+    const category = recipes.filter(r => r.category === 'quests');
+    const { container } = render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <CubeRecipeList recipes={category} locale="en" />
+      </NextIntlClientProvider>
+    );
+    // "Portal to The Secret Cow Level" has no output item icon, so its
+    // destination name should appear both in the icon row (as text, next to
+    // the arrow) and in the description line below it.
+    expect(container.textContent).toContain('→Portal to The Secret Cow Level');
+  });
 });
