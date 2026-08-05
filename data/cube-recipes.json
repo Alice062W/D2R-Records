@@ -2121,11 +2121,13 @@
     },
     "category": "itemRepair",
     "ingredientIcons": [
-      "invrOrt"
+      "invrOrt",
+      "invssd"
     ],
     "outputIcon": null,
     "ingredientHdIcons": [
-      "ort_rune"
+      "ort_rune",
+      "short_sword"
     ],
     "outputHdIcon": null
   },
@@ -2138,11 +2140,13 @@
     },
     "category": "itemRepair",
     "ingredientIcons": [
-      "invrRal"
+      "invrRal",
+      "invqlt"
     ],
     "outputIcon": null,
     "ingredientHdIcons": [
-      "ral_rune"
+      "ral_rune",
+      "quilted_armor"
     ],
     "outputHdIcon": null
   },
@@ -2155,11 +2159,15 @@
     },
     "category": "itemRepair",
     "ingredientIcons": [
-      "invrOrt"
+      "invrOrt",
+      "invgsva",
+      "invssd"
     ],
     "outputIcon": null,
     "ingredientHdIcons": [
-      "ort_rune"
+      "ort_rune",
+      "chipped_amethyst",
+      "short_sword"
     ],
     "outputHdIcon": null
   },
@@ -2172,11 +2180,15 @@
     },
     "category": "itemRepair",
     "ingredientIcons": [
-      "invrRal"
+      "invrRal",
+      "invgsvb",
+      "invqlt"
     ],
     "outputIcon": null,
     "ingredientHdIcons": [
-      "ral_rune"
+      "ral_rune",
+      "flawed_amethyst",
+      "quilted_armor"
     ],
     "outputHdIcon": null
   },

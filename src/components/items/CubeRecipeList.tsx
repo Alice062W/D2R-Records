@@ -146,11 +146,11 @@ function RecipeCard({ r, locale }: { r: Recipe; locale: Locale }) {
   // Portal-output quest recipes (Secret Cow Level / Matron's Den etc. /
   // Tristram / Colossal Summit) have no output item icon since the output is
   // a temporary map portal, not an item -- show the destination name as text
-  // next to the arrow instead, same as the reference site. Sockets recipes
-  // have no output icon either (the output is the same input item, just with
-  // sockets added/cleared -- not a distinct item), so get the same text
-  // treatment.
-  const showOutputText = !r.outputIcon && (r.category === 'quests' || r.category === 'sockets');
+  // next to the arrow instead, same as the reference site. Sockets and Item
+  // Repair recipes have no output icon either (the output is the same input
+  // item, just with sockets added/cleared or durability/charges restored --
+  // not a distinct item), so get the same text treatment.
+  const showOutputText = !r.outputIcon && (r.category === 'quests' || r.category === 'sockets' || r.category === 'itemRepair');
   return (
     <div className="bg-panel border border-panel-border rounded-lg px-4 py-2 text-sm text-parchment">
       {(r.ingredientIcons.length > 0 || r.outputIcon || showOutputText) && (
@@ -191,11 +191,11 @@ export default function CubeRecipeList({ recipes, locale }: { recipes: Recipe[];
   const isItemRepair = recipes.length > 0 && recipes.every(r => r.category === 'itemRepair');
   const isMagicItemRerolls = recipes.length > 0 && recipes.every(r => r.category === 'magicItemRerolls');
 
-  if (isCraftedGrandCharm || isQuests || isItemUpgrade || isMagicItemCreation || isSockets) {
+  if (isCraftedGrandCharm || isQuests || isItemUpgrade || isMagicItemCreation || isSockets || isItemRepair) {
     // Long multi-ingredient descriptions (4-6 ingredients, verbose quality/
-    // rune/gem/charm-size wording), or -- for Sockets -- the added output-text
-    // row makes each card wide enough that a single column reads more clearly
-    // than wrapping them into a multi-column grid.
+    // rune/gem/charm-size wording), or -- for Sockets/Item Repair -- the
+    // added output-text row makes each card wide enough that a single column
+    // reads more clearly than wrapping them into a multi-column grid.
     return (
       <div className="grid grid-cols-1 gap-2 w-full">
         {recipes.map(r => <RecipeCard key={r.id} r={r} locale={locale} />)}
@@ -203,7 +203,7 @@ export default function CubeRecipeList({ recipes, locale }: { recipes: Recipe[];
     );
   }
 
-  if (isItemRepair || isMagicItemRerolls) {
+  if (isMagicItemRerolls) {
     // Shorter descriptions than Item Upgrade/Magic Item Creation -- 2 columns
     // fits comfortably without wrapping awkwardly.
     return (

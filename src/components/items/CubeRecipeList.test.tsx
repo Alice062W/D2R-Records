@@ -187,4 +187,14 @@ describe('CubeRecipeList', () => {
     );
     expect(container.textContent).toContain('→Socketed Helm');
   });
+
+  it('shows the output as text next to the arrow for itemRepair recipes with no output item icon', () => {
+    const category = recipes.filter(r => r.category === 'itemRepair');
+    const { container } = render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <CubeRecipeList recipes={category} locale="en" />
+      </NextIntlClientProvider>
+    );
+    expect(container.textContent).toContain('→Fully Repaired Weapon');
+  });
 });
