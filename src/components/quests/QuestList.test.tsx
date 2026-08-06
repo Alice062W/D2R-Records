@@ -14,6 +14,7 @@ type SampleQuest = {
   icon: string;
   rewardImage: string | null;
   reward: LocalizedText | null;
+  itemImage: string | null;
   name: LocalizedText;
   objectives: LocalizedText[];
 };
@@ -21,7 +22,7 @@ type SampleQuest = {
 const sampleQuests: SampleQuest[] = [
   {
     id: 923, key: 'qstsa2q1', act: 2, order: 1, optional: true,
-    icon: 'quests/icons/qstsa2q1.png', rewardImage: null, reward: null,
+    icon: 'quests/icons_color/qstsa2q1.png', rewardImage: null, reward: null, itemImage: null,
     name: { en: "Radament's Lair", 'zh-TW': 'x', 'zh-CN': 'x' },
     objectives: [
       { en: "Find Radament's Lair in the Lut Gholein sewers.", 'zh-TW': 'x', 'zh-CN': 'x' },
@@ -30,7 +31,8 @@ const sampleQuests: SampleQuest[] = [
   },
   {
     id: 924, key: 'qstsa2q2', act: 2, order: 2, optional: false,
-    icon: 'quests/icons/qstsa2q2.png', rewardImage: null, reward: null,
+    icon: 'quests/icons_color/qstsa2q2.png', rewardImage: null, reward: null,
+    itemImage: 'items/hd/horadric_cube.png',
     name: { en: 'The Horadric Staff', 'zh-TW': 'x', 'zh-CN': 'x' },
     objectives: [
       { en: 'Retrieve the Staff of Kings.', 'zh-TW': 'x', 'zh-CN': 'x' },
@@ -38,16 +40,22 @@ const sampleQuests: SampleQuest[] = [
   },
   {
     id: 899, key: 'qstsa1q1', act: 1, order: 1, optional: true,
-    icon: 'quests/icons/qstsa1q1.png', rewardImage: null,
+    icon: 'quests/icons_color/qstsa1q1.png', rewardImage: null, itemImage: null,
     reward: { en: 'A permanent +1 skill point.', 'zh-TW': 'x', 'zh-CN': 'x' },
     name: { en: 'Den of Evil', 'zh-TW': 'x', 'zh-CN': 'x' },
     objectives: [{ en: 'Clear the Den of Evil.', 'zh-TW': 'x', 'zh-CN': 'x' }],
   },
   {
     id: 900, key: 'qstsa1q2', act: 1, order: 2, optional: false,
-    icon: 'quests/icons/qstsa1q2.png', rewardImage: 'quests/rewards/qstsa1q2.png', reward: null,
+    icon: 'quests/icons_color/qstsa1q2.png', rewardImage: 'quests/rewards/qstsa1q2.png', reward: null, itemImage: null,
     name: { en: 'Sisters\' Burial Grounds', 'zh-TW': 'x', 'zh-CN': 'x' },
     objectives: [{ en: 'Defeat Bloodraven.', 'zh-TW': 'x', 'zh-CN': 'x' }],
+  },
+  {
+    id: 901, key: 'qstsa1q6', act: 1, order: 6, optional: false,
+    icon: 'quests/icons_color/qstsa1q6.png', rewardImage: null, reward: null, itemImage: null,
+    name: { en: 'Sisters to the Slaughter', 'zh-TW': 'x', 'zh-CN': 'x' },
+    objectives: [],
   },
 ];
 
@@ -148,5 +156,38 @@ describe('QuestList', () => {
     );
     const requiredButton = screen.getByRole('button', { name: /Sisters' Burial Grounds/i });
     expect(requiredButton.querySelector('[data-testid="quest-optional-indicator"]')).toBeNull();
+  });
+
+  it('shows a quest item image when a quest has an itemImage', () => {
+    const { container } = render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <QuestList quests={sampleQuests} locale="en" />
+      </NextIntlClientProvider>
+    );
+    fireEvent.click(screen.getByRole('button', { name: 'II' }));
+    fireEvent.click(screen.getByRole('button', { name: /The Horadric Staff/i }));
+    const img = container.querySelector('img[src*="items/hd/horadric_cube.png"]');
+    expect(img).not.toBeNull();
+    expect(screen.getByText(messages.Items.questItemLabel)).toBeInTheDocument();
+  });
+
+  it('does not show the item-image row when a quest has no itemImage', () => {
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <QuestList quests={sampleQuests} locale="en" />
+      </NextIntlClientProvider>
+    );
+    fireEvent.click(screen.getByRole('button', { name: /Den of Evil/i }));
+    expect(screen.queryByText(messages.Items.questItemLabel)).not.toBeInTheDocument();
+  });
+
+  it('shows a no-objectives fallback for a quest with an empty objectives array', () => {
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <QuestList quests={sampleQuests} locale="en" />
+      </NextIntlClientProvider>
+    );
+    fireEvent.click(screen.getByRole('button', { name: /Sisters to the Slaughter/i }));
+    expect(screen.getByText(messages.Items.questNoObjectives)).toBeInTheDocument();
   });
 });

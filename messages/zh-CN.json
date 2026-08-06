@@ -242,6 +242,8 @@
     "questOptionalIndicatorLabel": "支线任务",
     "questRewardsLabel": "奖励",
     "questNoReward": "此任务没有物品奖励。",
+    "questNoObjectives": "此任务没有记录的日志目标。",
+    "questItemLabel": "相关任务物品",
     "cubeRecipesRuneGroupNoGem": "符文 #1–9（无需宝石）",
     "cubeRecipesRuneGroup3Rune": "符文 #10–20（需要 3 个符文）",
     "cubeRecipesRuneGroup2Rune": "符文 #21–33（需要 2 个符文）",

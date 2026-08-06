@@ -242,6 +242,8 @@
     "questOptionalIndicatorLabel": "Optional quest",
     "questRewardsLabel": "Rewards",
     "questNoReward": "No item reward for this quest.",
+    "questNoObjectives": "No recorded journal objectives for this quest.",
+    "questItemLabel": "Related quest item",
     "cubeRecipesRuneGroupNoGem": "Rune #1–9 (No Gem Required)",
     "cubeRecipesRuneGroup3Rune": "Rune #10–20 (Requires 3 Runes)",
     "cubeRecipesRuneGroup2Rune": "Rune #21–33 (Requires 2 Runes)",

@@ -5,13 +5,14 @@
     "act": 1,
     "order": 1,
     "optional": true,
-    "icon": "quests/icons/qstsa1q1.png",
+    "icon": "quests/icons_color/qstsa1q1.png",
     "rewardImage": null,
     "reward": {
       "en": "A permanent +1 skill point, chosen from among your class's Level-1 skills.",
       "zh-TW": "永久 +1 技能點，可從您職業的 1 級技能中選擇。",
       "zh-CN": "永久 +1 技能点，可从你职业的 1 级技能中选择。"
     },
+    "itemImage": null,
     "name": {
       "en": "Den of Evil",
       "zh-TW": "邪惡洞窟",
@@ -46,9 +47,10 @@
     "act": 1,
     "order": 2,
     "optional": false,
-    "icon": "quests/icons/qstsa1q2.png",
+    "icon": "quests/icons_color/qstsa1q2.png",
     "rewardImage": null,
     "reward": null,
+    "itemImage": null,
     "name": {
       "en": "Sisters' Burial Grounds",
       "zh-TW": "褻瀆的墓地",
@@ -73,46 +75,15 @@
     ]
   },
   {
-    "id": 3716,
-    "key": "qstsa1q3",
-    "act": 1,
-    "order": 3,
-    "optional": true,
-    "icon": "quests/icons/qstsa1q3.png",
-    "rewardImage": null,
-    "reward": null,
-    "name": {
-      "en": "Tools of the Trade",
-      "zh-TW": "工欲善其事",
-      "zh-CN": "交易的工具"
-    },
-    "objectives": [
-      {
-        "en": "Look for the Horadric Malus in the Monastery Barracks. Beware of the Smith that guards it.",
-        "zh-TW": "到修道院兵營找出赫拉迪姆之鎚。務必小心看守的鐵匠。",
-        "zh-CN": "在修道院营房里找到赫拉迪姆之锤。当心守卫它的铁匠。"
-      },
-      {
-        "en": "Return the Horadric Malus to Charsi.",
-        "zh-TW": "把赫拉迪姆之鎚帶回去給恰西。",
-        "zh-CN": "把赫拉迪姆之锤还给恰西。"
-      },
-      {
-        "en": "Charsi will imbue an item with magical power.",
-        "zh-TW": "恰西會為你的一項物品灌入魔法力量。",
-        "zh-CN": "恰西会给一件物品注入魔法力量。"
-      }
-    ]
-  },
-  {
     "id": 3717,
     "key": "qstsa1q4",
     "act": 1,
-    "order": 4,
+    "order": 3,
     "optional": false,
-    "icon": "quests/icons/qstsa1q4.png",
+    "icon": "quests/icons_color/qstsa1q4.png",
     "rewardImage": null,
     "reward": null,
+    "itemImage": "items/hd/scroll_of_horadric_quest_info.png",
     "name": {
       "en": "The Search for Cain",
       "zh-TW": "尋找凱恩",
@@ -160,11 +131,12 @@
     "id": 3718,
     "key": "qstsa1q5",
     "act": 1,
-    "order": 5,
+    "order": 4,
     "optional": true,
-    "icon": "quests/icons/qstsa1q5.png",
+    "icon": "quests/icons_color/qstsa1q5.png",
     "rewardImage": null,
     "reward": null,
+    "itemImage": null,
     "name": {
       "en": "The Forgotten Tower",
       "zh-TW": "遺忘之塔",
@@ -194,14 +166,48 @@
     ]
   },
   {
+    "id": 3716,
+    "key": "qstsa1q3",
+    "act": 1,
+    "order": 5,
+    "optional": true,
+    "icon": "quests/icons_color/qstsa1q3.png",
+    "rewardImage": null,
+    "reward": null,
+    "itemImage": null,
+    "name": {
+      "en": "Tools of the Trade",
+      "zh-TW": "工欲善其事",
+      "zh-CN": "交易的工具"
+    },
+    "objectives": [
+      {
+        "en": "Look for the Horadric Malus in the Monastery Barracks. Beware of the Smith that guards it.",
+        "zh-TW": "到修道院兵營找出赫拉迪姆之鎚。務必小心看守的鐵匠。",
+        "zh-CN": "在修道院营房里找到赫拉迪姆之锤。当心守卫它的铁匠。"
+      },
+      {
+        "en": "Return the Horadric Malus to Charsi.",
+        "zh-TW": "把赫拉迪姆之鎚帶回去給恰西。",
+        "zh-CN": "把赫拉迪姆之锤还给恰西。"
+      },
+      {
+        "en": "Charsi will imbue an item with magical power.",
+        "zh-TW": "恰西會為你的一項物品灌入魔法力量。",
+        "zh-CN": "恰西会给一件物品注入魔法力量。"
+      }
+    ]
+  },
+  {
     "id": 3719,
     "key": "qstsa1q6",
     "act": 1,
     "order": 6,
     "optional": false,
-    "icon": "quests/icons/qstsa1q6.png",
+    "icon": "quests/icons_color/qstsa1q6.png",
     "rewardImage": null,
     "reward": null,
+    "itemImage": null,
     "name": {
       "en": "Sisters to the Slaughter",
       "zh-TW": "為姐妹們復仇",
@@ -236,13 +242,14 @@
     "act": 2,
     "order": 1,
     "optional": true,
-    "icon": "quests/icons/qstsa2q1.png",
-    "rewardImage": null,
+    "icon": "quests/icons_color/qstsa2q1.png",
+    "rewardImage": "items/hd/book_of_skill.png",
     "reward": {
       "en": "A permanent +1 skill point (a Book of Skill granted by Atma), plus a permanent 90% discount at Atma's general store.",
       "zh-TW": "永久 +1 技能點（阿特瑪贈與的技能之書），以及在阿特瑪雜貨店永久 9 折優惠。",
       "zh-CN": "永久 +1 技能点（阿特玛赠予的技能之书），以及在阿特玛杂货店永久九折优惠。"
     },
+    "itemImage": null,
     "name": {
       "en": "Radament's Lair",
       "zh-TW": "羅達門特的巢穴",
@@ -272,9 +279,10 @@
     "act": 2,
     "order": 2,
     "optional": false,
-    "icon": "quests/icons/qstsa2q2.png",
+    "icon": "quests/icons_color/qstsa2q2.png",
     "rewardImage": null,
     "reward": null,
+    "itemImage": "items/hd/horadric_cube.png",
     "name": {
       "en": "The Horadric Staff",
       "zh-TW": "赫拉迪姆之杖",
@@ -314,9 +322,10 @@
     "act": 2,
     "order": 3,
     "optional": true,
-    "icon": "quests/icons/qstsa2q3.png",
+    "icon": "quests/icons_color/qstsa2q3.png",
     "rewardImage": null,
     "reward": null,
+    "itemImage": null,
     "name": {
       "en": "Tainted Sun",
       "zh-TW": "蔽日黑暗",
@@ -351,9 +360,10 @@
     "act": 2,
     "order": 4,
     "optional": false,
-    "icon": "quests/icons/qstsa2q4.png",
+    "icon": "quests/icons_color/qstsa2q4.png",
     "rewardImage": null,
     "reward": null,
+    "itemImage": null,
     "name": {
       "en": "Arcane Sanctuary",
       "zh-TW": "秘法聖殿",
@@ -388,9 +398,10 @@
     "act": 2,
     "order": 5,
     "optional": false,
-    "icon": "quests/icons/qstsa2q5.png",
+    "icon": "quests/icons_color/qstsa2q5.png",
     "rewardImage": null,
     "reward": null,
+    "itemImage": null,
     "name": {
       "en": "The Summoner",
       "zh-TW": "召喚師",
@@ -420,9 +431,10 @@
     "act": 2,
     "order": 6,
     "optional": false,
-    "icon": "quests/icons/qstsa2q6.png",
+    "icon": "quests/icons_color/qstsa2q6.png",
     "rewardImage": null,
     "reward": null,
+    "itemImage": null,
     "name": {
       "en": "The Seven Tombs",
       "zh-TW": "七座古墓",
@@ -472,29 +484,93 @@
     ]
   },
   {
-    "id": 930,
-    "key": "qstsa3q1",
+    "id": 933,
+    "key": "qstsa3q4",
     "act": 3,
     "order": 1,
     "optional": true,
-    "icon": "quests/icons/qstsa3q1.png",
+    "icon": "quests/icons_color/qstsa3q4.png",
     "rewardImage": null,
     "reward": null,
+    "itemImage": "items/hd/gold_bird.png",
     "name": {
-      "en": "Lam Esen's Tome",
-      "zh-TW": "藍伊森之書",
-      "zh-CN": "兰姆·艾森之书"
+      "en": "The Golden Bird",
+      "zh-TW": "黃金鳥",
+      "zh-CN": "黄金鸟"
     },
     "objectives": [
       {
-        "en": "Search the six temples in the Bazaar, Upper Kurast, and the Causeway for Lam Esen's Tome.",
-        "zh-TW": "在庫拉斯特市集、庫拉斯特上層，和庫拉斯特堤道的六座神殿中，尋找藍伊森之書。",
-        "zh-CN": "在库拉斯特集市、库拉斯特上层区和库拉斯特堤道的六个神殿中寻找兰姆·艾森之书。"
+        "en": "Ask Cain about the Jade Figurine.",
+        "zh-TW": "詢問凱恩關於翠玉塑像的事情。",
+        "zh-CN": "询问凯恩关于玉石雕像的事情。"
       },
       {
-        "en": "Talk to Alkor.",
-        "zh-TW": "與艾柯交談。",
-        "zh-CN": "与奥科交谈。"
+        "en": "Show Meshif the Figurine.",
+        "zh-TW": "把塑像拿給馬席夫看看。",
+        "zh-CN": "向梅席夫展示雕像。"
+      },
+      {
+        "en": "Ask Cain about the Golden Bird.",
+        "zh-TW": "詢問凱恩關於黃金鳥的事情。",
+        "zh-CN": "询问凯恩关于黄金鸟的事情。"
+      },
+      {
+        "en": "Give the Golden Bird to Alkor.",
+        "zh-TW": "把黃金鳥交給艾柯。",
+        "zh-CN": "将黄金鸟交给奥科。"
+      },
+      {
+        "en": "Return to Alkor for reward.",
+        "zh-TW": "回去找艾柯，領取獎勵。",
+        "zh-CN": "回去找奥科领取奖励。"
+      }
+    ]
+  },
+  {
+    "id": 932,
+    "key": "qstsa3q3",
+    "act": 3,
+    "order": 2,
+    "optional": true,
+    "icon": "quests/icons_color/qstsa3q3.png",
+    "rewardImage": null,
+    "reward": null,
+    "itemImage": null,
+    "name": {
+      "en": "Blade of the Old Religion",
+      "zh-TW": "古代宗教之刃",
+      "zh-CN": "旧教之刃"
+    },
+    "objectives": [
+      {
+        "en": "Look for the Gidbinn in the Flayer Jungle.",
+        "zh-TW": "在剝皮叢林中尋找吉德賓。",
+        "zh-CN": "在翠绿丛林中寻找吉德宾。"
+      },
+      {
+        "en": "Pick up the Gidbinn.",
+        "zh-TW": "撿起吉德賓。",
+        "zh-CN": "拿起吉德宾。"
+      },
+      {
+        "en": "Return the Gidbinn to Ormus.",
+        "zh-TW": "把吉德賓帶回去給奧瑪斯。",
+        "zh-CN": "把吉德宾交还给奥玛斯。"
+      },
+      {
+        "en": "Talk to Asheara.",
+        "zh-TW": "與艾席拉交談。",
+        "zh-CN": "与艾席拉交谈。"
+      },
+      {
+        "en": "Talk to Ormus.",
+        "zh-TW": "與奧瑪斯交談。",
+        "zh-CN": "与奥玛斯交谈。"
+      },
+      {
+        "en": "Ask around the Docks about the Gidbinn.",
+        "zh-TW": "在港口附近打聽吉德賓的事情。",
+        "zh-CN": "在港口里打听一下关于吉德宾的事情。"
       }
     ]
   },
@@ -502,15 +578,16 @@
     "id": 931,
     "key": "qstsa3q2",
     "act": 3,
-    "order": 2,
+    "order": 3,
     "optional": false,
-    "icon": "quests/icons/qstsa3q2.png",
+    "icon": "quests/icons_color/qstsa3q2.png",
     "rewardImage": "items/hd/super_khalim_flail.png",
     "reward": {
       "en": "The assembled Khalim's Will, a unique weapon you keep and can use.",
       "zh-TW": "組裝完成的獨特武器「卡林的意志」，可保留並使用。",
       "zh-CN": "组装完成的独特武器“卡林的意志”，可保留并使用。"
     },
+    "itemImage": null,
     "name": {
       "en": "Khalim's Will",
       "zh-TW": "克林姆的遺願",
@@ -555,91 +632,30 @@
     ]
   },
   {
-    "id": 932,
-    "key": "qstsa3q3",
-    "act": 3,
-    "order": 3,
-    "optional": true,
-    "icon": "quests/icons/qstsa3q3.png",
-    "rewardImage": null,
-    "reward": null,
-    "name": {
-      "en": "Blade of the Old Religion",
-      "zh-TW": "古代宗教之刃",
-      "zh-CN": "旧教之刃"
-    },
-    "objectives": [
-      {
-        "en": "Look for the Gidbinn in the Flayer Jungle.",
-        "zh-TW": "在剝皮叢林中尋找吉德賓。",
-        "zh-CN": "在翠绿丛林中寻找吉德宾。"
-      },
-      {
-        "en": "Pick up the Gidbinn.",
-        "zh-TW": "撿起吉德賓。",
-        "zh-CN": "拿起吉德宾。"
-      },
-      {
-        "en": "Return the Gidbinn to Ormus.",
-        "zh-TW": "把吉德賓帶回去給奧瑪斯。",
-        "zh-CN": "把吉德宾交还给奥玛斯。"
-      },
-      {
-        "en": "Talk to Asheara.",
-        "zh-TW": "與艾席拉交談。",
-        "zh-CN": "与艾席拉交谈。"
-      },
-      {
-        "en": "Talk to Ormus.",
-        "zh-TW": "與奧瑪斯交談。",
-        "zh-CN": "与奥玛斯交谈。"
-      },
-      {
-        "en": "Ask around the Docks about the Gidbinn.",
-        "zh-TW": "在港口附近打聽吉德賓的事情。",
-        "zh-CN": "在港口里打听一下关于吉德宾的事情。"
-      }
-    ]
-  },
-  {
-    "id": 933,
-    "key": "qstsa3q4",
+    "id": 930,
+    "key": "qstsa3q1",
     "act": 3,
     "order": 4,
     "optional": true,
-    "icon": "quests/icons/qstsa3q4.png",
+    "icon": "quests/icons_color/qstsa3q1.png",
     "rewardImage": null,
     "reward": null,
+    "itemImage": "items/hd/lam_esens_tome.png",
     "name": {
-      "en": "The Golden Bird",
-      "zh-TW": "黃金鳥",
-      "zh-CN": "黄金鸟"
+      "en": "Lam Esen's Tome",
+      "zh-TW": "藍伊森之書",
+      "zh-CN": "兰姆·艾森之书"
     },
     "objectives": [
       {
-        "en": "Ask Cain about the Jade Figurine.",
-        "zh-TW": "詢問凱恩關於翠玉塑像的事情。",
-        "zh-CN": "询问凯恩关于玉石雕像的事情。"
+        "en": "Search the six temples in the Bazaar, Upper Kurast, and the Causeway for Lam Esen's Tome.",
+        "zh-TW": "在庫拉斯特市集、庫拉斯特上層，和庫拉斯特堤道的六座神殿中，尋找藍伊森之書。",
+        "zh-CN": "在库拉斯特集市、库拉斯特上层区和库拉斯特堤道的六个神殿中寻找兰姆·艾森之书。"
       },
       {
-        "en": "Show Meshif the Figurine.",
-        "zh-TW": "把塑像拿給馬席夫看看。",
-        "zh-CN": "向梅席夫展示雕像。"
-      },
-      {
-        "en": "Ask Cain about the Golden Bird.",
-        "zh-TW": "詢問凱恩關於黃金鳥的事情。",
-        "zh-CN": "询问凯恩关于黄金鸟的事情。"
-      },
-      {
-        "en": "Give the Golden Bird to Alkor.",
-        "zh-TW": "把黃金鳥交給艾柯。",
-        "zh-CN": "将黄金鸟交给奥科。"
-      },
-      {
-        "en": "Return to Alkor for reward.",
-        "zh-TW": "回去找艾柯，領取獎勵。",
-        "zh-CN": "回去找奥科领取奖励。"
+        "en": "Talk to Alkor.",
+        "zh-TW": "與艾柯交談。",
+        "zh-CN": "与奥科交谈。"
       }
     ]
   },
@@ -649,9 +665,10 @@
     "act": 3,
     "order": 5,
     "optional": false,
-    "icon": "quests/icons/qstsa3q5.png",
+    "icon": "quests/icons_color/qstsa3q5.png",
     "rewardImage": null,
     "reward": null,
+    "itemImage": null,
     "name": {
       "en": "The Blackened Temple",
       "zh-TW": "晦影神殿",
@@ -686,9 +703,10 @@
     "act": 3,
     "order": 6,
     "optional": false,
-    "icon": "quests/icons/qstsa3q6.png",
+    "icon": "quests/icons_color/qstsa3q6.png",
     "rewardImage": null,
     "reward": null,
+    "itemImage": "items/hd/mephisto_soul_stone.png",
     "name": {
       "en": "The Guardian",
       "zh-TW": "守護者",
@@ -723,9 +741,10 @@
     "act": 4,
     "order": 1,
     "optional": false,
-    "icon": "quests/icons/qstsa4q1.png",
+    "icon": "quests/icons_color/qstsa4q1.png",
     "rewardImage": null,
     "reward": null,
+    "itemImage": null,
     "name": {
       "en": "The Fallen Angel",
       "zh-TW": "墮落的天使",
@@ -755,41 +774,15 @@
     ]
   },
   {
-    "id": 938,
-    "key": "qstsa4q2",
-    "act": 4,
-    "order": 2,
-    "optional": false,
-    "icon": "quests/icons/qstsa4q2.png",
-    "rewardImage": null,
-    "reward": null,
-    "name": {
-      "en": "Terror's End",
-      "zh-TW": "恐懼的終結",
-      "zh-CN": "恐惧的终结"
-    },
-    "objectives": [
-      {
-        "en": "Find Diablo in his Sanctuary.",
-        "zh-TW": "在混沌魔殿中找出迪亞布羅。",
-        "zh-CN": "在迪亚波罗的避难所中找到他。"
-      },
-      {
-        "en": "Kill Diablo.",
-        "zh-TW": "殺死迪亞布羅。",
-        "zh-CN": "消灭迪亚波罗。"
-      }
-    ]
-  },
-  {
     "id": 939,
     "key": "qstsa4q3",
     "act": 4,
-    "order": 3,
+    "order": 2,
     "optional": true,
-    "icon": "quests/icons/qstsa4q3.png",
+    "icon": "quests/icons_color/qstsa4q3.png",
     "rewardImage": null,
     "reward": null,
+    "itemImage": "items/hd/mephisto_soul_stone.png",
     "name": {
       "en": "Hell's Forge",
       "zh-TW": "地獄熔爐",
@@ -819,14 +812,43 @@
     ]
   },
   {
+    "id": 938,
+    "key": "qstsa4q2",
+    "act": 4,
+    "order": 3,
+    "optional": false,
+    "icon": "quests/icons_color/qstsa4q2.png",
+    "rewardImage": null,
+    "reward": null,
+    "itemImage": null,
+    "name": {
+      "en": "Terror's End",
+      "zh-TW": "恐懼的終結",
+      "zh-CN": "恐惧的终结"
+    },
+    "objectives": [
+      {
+        "en": "Find Diablo in his Sanctuary.",
+        "zh-TW": "在混沌魔殿中找出迪亞布羅。",
+        "zh-CN": "在迪亚波罗的避难所中找到他。"
+      },
+      {
+        "en": "Kill Diablo.",
+        "zh-TW": "殺死迪亞布羅。",
+        "zh-CN": "消灭迪亚波罗。"
+      }
+    ]
+  },
+  {
     "id": 22618,
     "key": "qstsa5q1",
     "act": 5,
     "order": 1,
     "optional": false,
-    "icon": "quests/icons/qstsa5q1.png",
+    "icon": "quests/icons_color/qstsa5q1.png",
     "rewardImage": null,
     "reward": null,
+    "itemImage": null,
     "name": {
       "en": "Siege on Harrogath",
       "zh-TW": "哈洛加斯圍城戰",
@@ -840,9 +862,10 @@
     "act": 5,
     "order": 2,
     "optional": true,
-    "icon": "quests/icons/qstsa5q2.png",
+    "icon": "quests/icons_color/qstsa5q2.png",
     "rewardImage": null,
     "reward": null,
+    "itemImage": null,
     "name": {
       "en": "Rescue on Mount Arreat",
       "zh-TW": "亞瑞特山的救援行動",
@@ -877,9 +900,10 @@
     "act": 5,
     "order": 3,
     "optional": true,
-    "icon": "quests/icons/qstsa5q3.png",
+    "icon": "quests/icons_color/qstsa5q3.png",
     "rewardImage": null,
     "reward": null,
+    "itemImage": null,
     "name": {
       "en": "Prison of Ice",
       "zh-TW": "冰凍囚牢",
@@ -924,9 +948,10 @@
     "act": 5,
     "order": 4,
     "optional": false,
-    "icon": "quests/icons/qstsa5q4.png",
+    "icon": "quests/icons_color/qstsa5q4.png",
     "rewardImage": null,
     "reward": null,
+    "itemImage": null,
     "name": {
       "en": "Betrayal of Harrogath",
       "zh-TW": "哈洛加斯的叛徒",
@@ -966,13 +991,14 @@
     "act": 5,
     "order": 5,
     "optional": true,
-    "icon": "quests/icons/qstsa5q5.png",
+    "icon": "quests/icons_color/qstsa5q5.png",
     "rewardImage": "items/hd/token_of_absolution.png",
     "reward": {
       "en": "The Token of Absolution: a full free respec of skill and stat points (once per difficulty).",
       "zh-TW": "赦免的證物：一次免費的技能與屬性點完全重置（每個難度可使用一次）。",
       "zh-CN": "赦免的证物：一次免费的技能与属性点完全重置（每个难度可使用一次）。"
     },
+    "itemImage": null,
     "name": {
       "en": "Rite of Passage",
       "zh-TW": "祭儀試煉",
@@ -1002,9 +1028,10 @@
     "act": 5,
     "order": 6,
     "optional": false,
-    "icon": "quests/icons/qstsa5q6.png",
+    "icon": "quests/icons_color/qstsa5q6.png",
     "rewardImage": null,
     "reward": null,
+    "itemImage": null,
     "name": {
       "en": "Eve of Destruction",
       "zh-TW": "毀滅的前夕",
