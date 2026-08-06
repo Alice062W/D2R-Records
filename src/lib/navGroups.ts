@@ -49,6 +49,7 @@ export const NAV_GROUPS: NavGroupDef[] = [
       { key: 'item_runes', path: 'items/runes', colorClass: 'text-[#ee7a03]', icon: '🪨', image: 'items/hd/lo_rune.png' },
       { key: 'item_cubeRecipes', path: 'items/cube-recipes', icon: '🧊', image: 'items/hd/horadric_cube.png' },
       { key: 'item_crafted', path: 'items/crafted', colorClass: 'text-[#ee7a03]', icon: '🔨', image: 'items/hd/amulet.png' },
+      { key: 'item_quests', path: 'quests', icon: '📜', image: 'items/hd/super_khalim_flail.png' },
       { key: 'misc_fcrFhrFbr', path: 'character/fcr-fhr-fbr', icon: '⚡', image: 'items/hd/bark_scroll.png' },
       { key: 'misc_auras', path: 'character/auras', icon: '💠', image: 'skills/icons/prayer.png' },
     ],
