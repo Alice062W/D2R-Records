@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
 import { NAV_GROUPS, PERCENT_LINK_KEYS, PERCENT_ID_LISTS, collectionState } from '@/lib/navGroups';
 import { useOwnedItems } from '@/lib/grail/useOwnedItems';
+import { BASE_PATH } from '@/lib/basePath';
 import CollectionBadge from './items/CollectionBadge';
 import ChronicleRewardCard from './ChronicleRewardCard';
 
@@ -77,7 +78,17 @@ export default function HomeCardGrid() {
                         : `bg-panel border-panel-border ${link.colorClass ?? 'text-parchment-bright'}`
                   }`}
                 >
-                  <span className="text-2xl" aria-hidden="true">{link.icon}</span>
+                  {link.image ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      src={`${BASE_PATH}/${link.image}`}
+                      alt=""
+                      aria-hidden="true"
+                      className="w-10 h-10 object-contain shrink-0"
+                    />
+                  ) : (
+                    <span className="text-2xl" aria-hidden="true">{link.icon}</span>
+                  )}
                   {tNav(link.key as never)}
                   {tracked && <CollectionBadge owned={owned} total={total} />}
                 </Link>

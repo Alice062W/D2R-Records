@@ -14,6 +14,10 @@ export interface NavLinkDef {
   path: string;
   colorClass?: string;
   icon: string;
+  // Path under public/ (no leading slash, BASE_PATH prepended at render time)
+  // to a real high-quality game-asset image, used instead of the emoji
+  // `icon` when present.
+  image?: string;
 }
 
 export interface NavGroupDef {
@@ -39,14 +43,14 @@ export const NAV_GROUPS: NavGroupDef[] = [
   {
     key: 'group_academy',
     links: [
-      { key: 'item_base', path: 'items/base', icon: '🗡️' },
-      { key: 'item_magic', path: 'items/magic', colorClass: 'text-[#8080f3]', icon: '🔷' },
-      { key: 'item_rare', path: 'items/rare', colorClass: 'text-[#eeee75]', icon: '🌟' },
-      { key: 'item_runes', path: 'items/runes', colorClass: 'text-[#ee7a03]', icon: '🪨' },
-      { key: 'item_cubeRecipes', path: 'items/cube-recipes', icon: '🧊' },
-      { key: 'item_crafted', path: 'items/crafted', colorClass: 'text-[#ee7a03]', icon: '🔨' },
-      { key: 'misc_fcrFhrFbr', path: 'character/fcr-fhr-fbr', icon: '⚡' },
-      { key: 'misc_auras', path: 'character/auras', icon: '💠' },
+      { key: 'item_base', path: 'items/base', icon: '🗡️', image: 'items/hd/hand_axe.png' },
+      { key: 'item_magic', path: 'items/magic', colorClass: 'text-[#8080f3]', icon: '🔷', image: 'items/hd/light_gauntlets.png' },
+      { key: 'item_rare', path: 'items/rare', colorClass: 'text-[#eeee75]', icon: '🌟', image: 'items/hd/perfect_diamond3.png' },
+      { key: 'item_runes', path: 'items/runes', colorClass: 'text-[#ee7a03]', icon: '🪨', image: 'items/hd/lo_rune.png' },
+      { key: 'item_cubeRecipes', path: 'items/cube-recipes', icon: '🧊', image: 'items/hd/horadric_cube.png' },
+      { key: 'item_crafted', path: 'items/crafted', colorClass: 'text-[#ee7a03]', icon: '🔨', image: 'items/hd/amulet.png' },
+      { key: 'misc_fcrFhrFbr', path: 'character/fcr-fhr-fbr', icon: '⚡', image: 'items/hd/bark_scroll.png' },
+      { key: 'misc_auras', path: 'character/auras', icon: '💠', image: 'skills/icons/prayer.png' },
     ],
   },
 ];

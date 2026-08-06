@@ -26,6 +26,15 @@ describe('HomeCardGrid', () => {
     expect(screen.getByRole('link', { name: /Unique Items/ })).not.toHaveTextContent('%');
   });
 
+  it('renders a real item image (not the emoji) for D2R Academy cards with curated art', () => {
+    renderGrid();
+    const baseCard = screen.getByRole('link', { name: 'Base Items' });
+    const img = baseCard.querySelector('img');
+    expect(img).not.toBeNull();
+    expect(img?.getAttribute('src')).toContain('items/hd/hand_axe.png');
+    expect(baseCard.textContent).not.toContain('🗡️');
+  });
+
   it('shows a CollectionBadge and completeness color on My Chronicle cards when signed in, and neither for other cards', async () => {
     vi.resetModules();
     const allUniqueIds = getAllItemIdsForKind('unique');
