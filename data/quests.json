@@ -7,6 +7,11 @@
     "optional": true,
     "icon": "quests/icons/qstsa1q1.png",
     "rewardImage": null,
+    "reward": {
+      "en": "A permanent +1 skill point, chosen from among your class's Level-1 skills.",
+      "zh-TW": "永久 +1 技能點，可從您職業的 1 級技能中選擇。",
+      "zh-CN": "永久 +1 技能点，可从你职业的 1 级技能中选择。"
+    },
     "name": {
       "en": "Den of Evil",
       "zh-TW": "邪惡洞窟",
@@ -29,16 +34,6 @@
         "zh-CN": ""
       },
       {
-        "en": "Monsters remaining: %d",
-        "zh-TW": "剩餘怪物：%d",
-        "zh-CN": "剩余的怪物: %d"
-      },
-      {
-        "en": "One monster left.",
-        "zh-TW": "剩下一個怪物。",
-        "zh-CN": "仅剩一个怪物。"
-      },
-      {
         "en": "Return to Akara for a reward.",
         "zh-TW": "回去找阿卡拉領取獎勵。",
         "zh-CN": "回去找阿卡拉领取奖励。"
@@ -53,6 +48,7 @@
     "optional": false,
     "icon": "quests/icons/qstsa1q2.png",
     "rewardImage": null,
+    "reward": null,
     "name": {
       "en": "Sisters' Burial Grounds",
       "zh-TW": "褻瀆的墓地",
@@ -84,6 +80,7 @@
     "optional": true,
     "icon": "quests/icons/qstsa1q3.png",
     "rewardImage": null,
+    "reward": null,
     "name": {
       "en": "Tools of the Trade",
       "zh-TW": "工欲善其事",
@@ -115,6 +112,7 @@
     "optional": false,
     "icon": "quests/icons/qstsa1q4.png",
     "rewardImage": null,
+    "reward": null,
     "name": {
       "en": "The Search for Cain",
       "zh-TW": "尋找凱恩",
@@ -166,6 +164,7 @@
     "optional": true,
     "icon": "quests/icons/qstsa1q5.png",
     "rewardImage": null,
+    "reward": null,
     "name": {
       "en": "The Forgotten Tower",
       "zh-TW": "遺忘之塔",
@@ -202,6 +201,7 @@
     "optional": false,
     "icon": "quests/icons/qstsa1q6.png",
     "rewardImage": null,
+    "reward": null,
     "name": {
       "en": "Sisters to the Slaughter",
       "zh-TW": "為姐妹們復仇",
@@ -238,6 +238,11 @@
     "optional": true,
     "icon": "quests/icons/qstsa2q1.png",
     "rewardImage": null,
+    "reward": {
+      "en": "A permanent +1 skill point (a Book of Skill granted by Atma), plus a permanent 90% discount at Atma's general store.",
+      "zh-TW": "永久 +1 技能點（阿特瑪贈與的技能之書），以及在阿特瑪雜貨店永久 9 折優惠。",
+      "zh-CN": "永久 +1 技能点（阿特玛赠予的技能之书），以及在阿特玛杂货店永久九折优惠。"
+    },
     "name": {
       "en": "Radament's Lair",
       "zh-TW": "羅達門特的巢穴",
@@ -269,6 +274,7 @@
     "optional": false,
     "icon": "quests/icons/qstsa2q2.png",
     "rewardImage": null,
+    "reward": null,
     "name": {
       "en": "The Horadric Staff",
       "zh-TW": "赫拉迪姆之杖",
@@ -310,6 +316,7 @@
     "optional": true,
     "icon": "quests/icons/qstsa2q3.png",
     "rewardImage": null,
+    "reward": null,
     "name": {
       "en": "Tainted Sun",
       "zh-TW": "蔽日黑暗",
@@ -346,6 +353,7 @@
     "optional": false,
     "icon": "quests/icons/qstsa2q4.png",
     "rewardImage": null,
+    "reward": null,
     "name": {
       "en": "Arcane Sanctuary",
       "zh-TW": "秘法聖殿",
@@ -382,6 +390,7 @@
     "optional": false,
     "icon": "quests/icons/qstsa2q5.png",
     "rewardImage": null,
+    "reward": null,
     "name": {
       "en": "The Summoner",
       "zh-TW": "召喚師",
@@ -413,6 +422,7 @@
     "optional": false,
     "icon": "quests/icons/qstsa2q6.png",
     "rewardImage": null,
+    "reward": null,
     "name": {
       "en": "The Seven Tombs",
       "zh-TW": "七座古墓",
@@ -469,6 +479,7 @@
     "optional": true,
     "icon": "quests/icons/qstsa3q1.png",
     "rewardImage": null,
+    "reward": null,
     "name": {
       "en": "Lam Esen's Tome",
       "zh-TW": "藍伊森之書",
@@ -495,6 +506,11 @@
     "optional": false,
     "icon": "quests/icons/qstsa3q2.png",
     "rewardImage": "items/hd/super_khalim_flail.png",
+    "reward": {
+      "en": "The assembled Khalim's Will, a unique weapon you keep and can use.",
+      "zh-TW": "組裝完成的獨特武器「卡林的意志」，可保留並使用。",
+      "zh-CN": "组装完成的独特武器“卡林的意志”，可保留并使用。"
+    },
     "name": {
       "en": "Khalim's Will",
       "zh-TW": "克林姆的遺願",
@@ -546,6 +562,7 @@
     "optional": true,
     "icon": "quests/icons/qstsa3q3.png",
     "rewardImage": null,
+    "reward": null,
     "name": {
       "en": "Blade of the Old Religion",
       "zh-TW": "古代宗教之刃",
@@ -592,6 +609,7 @@
     "optional": true,
     "icon": "quests/icons/qstsa3q4.png",
     "rewardImage": null,
+    "reward": null,
     "name": {
       "en": "The Golden Bird",
       "zh-TW": "黃金鳥",
@@ -633,6 +651,7 @@
     "optional": false,
     "icon": "quests/icons/qstsa3q5.png",
     "rewardImage": null,
+    "reward": null,
     "name": {
       "en": "The Blackened Temple",
       "zh-TW": "晦影神殿",
@@ -669,6 +688,7 @@
     "optional": false,
     "icon": "quests/icons/qstsa3q6.png",
     "rewardImage": null,
+    "reward": null,
     "name": {
       "en": "The Guardian",
       "zh-TW": "守護者",
@@ -705,6 +725,7 @@
     "optional": false,
     "icon": "quests/icons/qstsa4q1.png",
     "rewardImage": null,
+    "reward": null,
     "name": {
       "en": "The Fallen Angel",
       "zh-TW": "墮落的天使",
@@ -741,6 +762,7 @@
     "optional": false,
     "icon": "quests/icons/qstsa4q2.png",
     "rewardImage": null,
+    "reward": null,
     "name": {
       "en": "Terror's End",
       "zh-TW": "恐懼的終結",
@@ -756,16 +778,6 @@
         "en": "Kill Diablo.",
         "zh-TW": "殺死迪亞布羅。",
         "zh-CN": "消灭迪亚波罗。"
-      },
-      {
-        "en": "Break the remaining %d seals.",
-        "zh-TW": "打破剩下的%d個封印。",
-        "zh-CN": "打破剩余的%d个封印。"
-      },
-      {
-        "en": "Break the final seal.",
-        "zh-TW": "打破最後一個封印。",
-        "zh-CN": "打破最后一个封印。"
       }
     ]
   },
@@ -777,6 +789,7 @@
     "optional": true,
     "icon": "quests/icons/qstsa4q3.png",
     "rewardImage": null,
+    "reward": null,
     "name": {
       "en": "Hell's Forge",
       "zh-TW": "地獄熔爐",
@@ -813,6 +826,7 @@
     "optional": false,
     "icon": "quests/icons/qstsa5q1.png",
     "rewardImage": null,
+    "reward": null,
     "name": {
       "en": "Siege on Harrogath",
       "zh-TW": "哈洛加斯圍城戰",
@@ -828,6 +842,7 @@
     "optional": true,
     "icon": "quests/icons/qstsa5q2.png",
     "rewardImage": null,
+    "reward": null,
     "name": {
       "en": "Rescue on Mount Arreat",
       "zh-TW": "亞瑞特山的救援行動",
@@ -843,11 +858,6 @@
         "en": "Find the Soldiers in the Frigid Highlands.",
         "zh-TW": "找到冰凍高地上的士兵。",
         "zh-CN": "在冰冻高地找到士兵。"
-      },
-      {
-        "en": "Rescue %d more Soldiers in the Frigid Highlands.",
-        "zh-TW": "在冰凍高地救援%d位士兵。",
-        "zh-CN": "在冰冻高地营救%d名士兵。"
       },
       {
         "en": "Return to Qual-Kehk for your reward.",
@@ -869,6 +879,7 @@
     "optional": true,
     "icon": "quests/icons/qstsa5q3.png",
     "rewardImage": null,
+    "reward": null,
     "name": {
       "en": "Prison of Ice",
       "zh-TW": "冰凍囚牢",
@@ -915,6 +926,7 @@
     "optional": false,
     "icon": "quests/icons/qstsa5q4.png",
     "rewardImage": null,
+    "reward": null,
     "name": {
       "en": "Betrayal of Harrogath",
       "zh-TW": "哈洛加斯的叛徒",
@@ -956,6 +968,11 @@
     "optional": true,
     "icon": "quests/icons/qstsa5q5.png",
     "rewardImage": "items/hd/token_of_absolution.png",
+    "reward": {
+      "en": "The Token of Absolution: a full free respec of skill and stat points (once per difficulty).",
+      "zh-TW": "赦免的證物：一次免費的技能與屬性點完全重置（每個難度可使用一次）。",
+      "zh-CN": "赦免的证物：一次免费的技能与属性点完全重置（每个难度可使用一次）。"
+    },
     "name": {
       "en": "Rite of Passage",
       "zh-TW": "祭儀試煉",
@@ -987,6 +1004,7 @@
     "optional": false,
     "icon": "quests/icons/qstsa5q6.png",
     "rewardImage": null,
+    "reward": null,
     "name": {
       "en": "Eve of Destruction",
       "zh-TW": "毀滅的前夕",

@@ -2,11 +2,23 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import type questsJson from '../../../data/quests.json';
 import { BASE_PATH } from '@/lib/basePath';
 
-type Quest = (typeof questsJson)[number];
 type Locale = 'en' | 'zh-TW' | 'zh-CN';
+type LocalizedText = Record<Locale, string>;
+
+type Quest = {
+  id: number;
+  key: string;
+  act: number;
+  order: number;
+  optional: boolean;
+  icon: string;
+  rewardImage: string | null;
+  reward: LocalizedText | null;
+  name: LocalizedText;
+  objectives: LocalizedText[];
+};
 
 const ACTS = [1, 2, 3, 4, 5] as const;
 
@@ -86,11 +98,18 @@ export default function QuestList({ quests, locale }: { quests: Quest[]; locale:
             type="button"
             onClick={() => setSelectedKey(q.key)}
             aria-pressed={q.key === selectedKey}
-            className={`flex flex-col items-center gap-1 p-2 rounded-lg border transition-colors ${
+            className={`relative flex flex-col items-center gap-1 p-2 rounded-lg border transition-colors ${
               q.key === selectedKey ? 'border-gold-bright bg-panel' : 'border-transparent hover:bg-panel'
             }`}
             title={q.name[locale]}
           >
+            {q.optional && (
+              <span
+                aria-label={t('questOptionalIndicatorLabel')}
+                data-testid="quest-optional-indicator"
+                className="absolute top-1 right-1 w-2.5 h-2.5 rounded-full bg-[#8080f3]"
+              />
+            )}
             <QuestIcon icon={q.icon} />
             <span className="text-xs text-parchment text-center leading-tight">{q.name[locale]}</span>
           </button>
@@ -119,10 +138,11 @@ export default function QuestList({ quests, locale }: { quests: Quest[]; locale:
           </div>
           <div className="bg-panel-alt border border-panel-border rounded-lg px-4 py-3 flex items-center gap-3">
             <h3 className="text-sm font-bold text-gold-bright font-cinzel">{t('questRewardsLabel')}</h3>
-            {selected.rewardImage ? (
-              <RewardImage rewardImage={selected.rewardImage} />
+            {selected.rewardImage && <RewardImage rewardImage={selected.rewardImage} />}
+            {selected.reward ? (
+              <span className="text-xs text-parchment">{selected.reward[locale]}</span>
             ) : (
-              <span className="text-xs text-muted">{t('questNoReward')}</span>
+              !selected.rewardImage && <span className="text-xs text-muted">{t('questNoReward')}</span>
             )}
           </div>
         </div>

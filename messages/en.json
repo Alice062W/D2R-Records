@@ -239,6 +239,7 @@
     "questActLabel_4": "IV",
     "questActLabel_5": "V",
     "questOptionalLabel": "Optional",
+    "questOptionalIndicatorLabel": "Optional quest",
     "questRewardsLabel": "Rewards",
     "questNoReward": "No item reward for this quest.",
     "cubeRecipesRuneGroupNoGem": "Rune #1–9 (No Gem Required)",
