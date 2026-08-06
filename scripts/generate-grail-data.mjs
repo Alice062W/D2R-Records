@@ -3824,6 +3824,24 @@ const STAT_CODE_DIRECT_ALIASES = {
   'dmg-min': 'mindamage',
 };
 
+// "dmg%" (Enhanced Damage, one of the most common magic/rare affix stats --
+// 23 stat occurrences across active affixes) and "indestruct" have no
+// properties.json `stat1` at all -- both are `func1`-driven compound
+// properties (func 7 and 20 respectively, verified directly against
+// properties.json), which don't go through the simple single-stat
+// itemstatcost.json chain templateFor() otherwise resolves. Both DO carry a
+// usable properties.json `*Tooltip` field though ("+#% Enhanced Damage",
+// "Indestructible" -- verified directly), which is English-only (an
+// internal dev-tool string, not localized) -- so this is an English-only
+// fallback, not a full 14-language template like the itemstatcost.json
+// path produces. Better than leaving `template: null` for a stat this
+// common; other languages fall back to the existing bare `label` until a
+// real localized source for func1-driven properties is found.
+const ENGLISH_ONLY_TOOLTIP_TEMPLATES = {
+  'dmg%': '+#% Enhanced Damage',
+  indestruct: 'Indestructible',
+};
+
 // Resolves a raw affix mod{n}code (e.g. "ac", "dmg-max") to its formatted,
 // all-language template text (e.g. { en: "%+d Defense", ... }), or null if
 // it doesn't resolve through the properties.json -> itemstatcost.json ->
@@ -3840,6 +3858,9 @@ function templateFor(code) {
     statName = STAT_CODE_DIRECT_ALIASES[code];
   }
   if (!statName) {
+    if (ENGLISH_ONLY_TOOLTIP_TEMPLATES[code]) {
+      return { en: ENGLISH_ONLY_TOOLTIP_TEMPLATES[code] };
+    }
     UNRESOLVED_TEMPLATE_CODES.add(code);
     return null;
   }

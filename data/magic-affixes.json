@@ -3084,7 +3084,9 @@
           "zh-TW": "傷害強化 %",
           "zh-CN": "强化伤害 %"
         },
-        "template": null,
+        "template": {
+          "en": "+#% Enhanced Damage"
+        },
         "min": 10,
         "max": 20,
         "isSkillRef": false,
@@ -3135,7 +3137,9 @@
           "zh-TW": "傷害強化 %",
           "zh-CN": "强化伤害 %"
         },
-        "template": null,
+        "template": {
+          "en": "+#% Enhanced Damage"
+        },
         "min": 21,
         "max": 30,
         "isSkillRef": false,
@@ -3185,7 +3189,9 @@
           "zh-TW": "傷害強化 %",
           "zh-CN": "强化伤害 %"
         },
-        "template": null,
+        "template": {
+          "en": "+#% Enhanced Damage"
+        },
         "min": 31,
         "max": 40,
         "isSkillRef": false,
@@ -3235,7 +3241,9 @@
           "zh-TW": "傷害強化 %",
           "zh-CN": "强化伤害 %"
         },
-        "template": null,
+        "template": {
+          "en": "+#% Enhanced Damage"
+        },
         "min": 41,
         "max": 50,
         "isSkillRef": false,
@@ -3285,7 +3293,9 @@
           "zh-TW": "傷害強化 %",
           "zh-CN": "强化伤害 %"
         },
-        "template": null,
+        "template": {
+          "en": "+#% Enhanced Damage"
+        },
         "min": 51,
         "max": 65,
         "isSkillRef": false,
@@ -3335,7 +3345,9 @@
           "zh-TW": "傷害強化 %",
           "zh-CN": "强化伤害 %"
         },
-        "template": null,
+        "template": {
+          "en": "+#% Enhanced Damage"
+        },
         "min": 66,
         "max": 80,
         "isSkillRef": false,
@@ -3385,7 +3397,9 @@
           "zh-TW": "傷害強化 %",
           "zh-CN": "强化伤害 %"
         },
-        "template": null,
+        "template": {
+          "en": "+#% Enhanced Damage"
+        },
         "min": 81,
         "max": 100,
         "isSkillRef": false,
@@ -3435,7 +3449,9 @@
           "zh-TW": "傷害強化 %",
           "zh-CN": "强化伤害 %"
         },
-        "template": null,
+        "template": {
+          "en": "+#% Enhanced Damage"
+        },
         "min": 101,
         "max": 200,
         "isSkillRef": false,
@@ -3485,7 +3501,9 @@
           "zh-TW": "傷害強化 %",
           "zh-CN": "强化伤害 %"
         },
-        "template": null,
+        "template": {
+          "en": "+#% Enhanced Damage"
+        },
         "min": 201,
         "max": 300,
         "isSkillRef": false,
@@ -3515,7 +3533,9 @@
           "zh-TW": "傷害強化 %",
           "zh-CN": "强化伤害 %"
         },
-        "template": null,
+        "template": {
+          "en": "+#% Enhanced Damage"
+        },
         "min": 5,
         "max": 10,
         "isSkillRef": false,
@@ -3545,7 +3565,9 @@
           "zh-TW": "傷害強化 %",
           "zh-CN": "强化伤害 %"
         },
-        "template": null,
+        "template": {
+          "en": "+#% Enhanced Damage"
+        },
         "min": 11,
         "max": 20,
         "isSkillRef": false,
@@ -3575,7 +3597,9 @@
           "zh-TW": "傷害強化 %",
           "zh-CN": "强化伤害 %"
         },
-        "template": null,
+        "template": {
+          "en": "+#% Enhanced Damage"
+        },
         "min": 21,
         "max": 30,
         "isSkillRef": false,
@@ -3605,7 +3629,9 @@
           "zh-TW": "傷害強化 %",
           "zh-CN": "强化伤害 %"
         },
-        "template": null,
+        "template": {
+          "en": "+#% Enhanced Damage"
+        },
         "min": 31,
         "max": 40,
         "isSkillRef": false,
@@ -6603,7 +6629,9 @@
           "zh-TW": "傷害強化 %",
           "zh-CN": "强化伤害 %"
         },
-        "template": null,
+        "template": {
+          "en": "+#% Enhanced Damage"
+        },
         "min": 10,
         "max": 20,
         "isSkillRef": false,
@@ -6680,7 +6708,9 @@
           "zh-TW": "傷害強化 %",
           "zh-CN": "强化伤害 %"
         },
-        "template": null,
+        "template": {
+          "en": "+#% Enhanced Damage"
+        },
         "min": 21,
         "max": 30,
         "isSkillRef": false,
@@ -6757,7 +6787,9 @@
           "zh-TW": "傷害強化 %",
           "zh-CN": "强化伤害 %"
         },
-        "template": null,
+        "template": {
+          "en": "+#% Enhanced Damage"
+        },
         "min": 31,
         "max": 40,
         "isSkillRef": false,
@@ -6834,7 +6866,9 @@
           "zh-TW": "傷害強化 %",
           "zh-CN": "强化伤害 %"
         },
-        "template": null,
+        "template": {
+          "en": "+#% Enhanced Damage"
+        },
         "min": 41,
         "max": 50,
         "isSkillRef": false,
@@ -6911,7 +6945,9 @@
           "zh-TW": "傷害強化 %",
           "zh-CN": "强化伤害 %"
         },
-        "template": null,
+        "template": {
+          "en": "+#% Enhanced Damage"
+        },
         "min": 51,
         "max": 65,
         "isSkillRef": false,
@@ -6988,7 +7024,9 @@
           "zh-TW": "傷害強化 %",
           "zh-CN": "强化伤害 %"
         },
-        "template": null,
+        "template": {
+          "en": "+#% Enhanced Damage"
+        },
         "min": 66,
         "max": 80,
         "isSkillRef": false,
@@ -7065,7 +7103,9 @@
           "zh-TW": "傷害強化 %",
           "zh-CN": "强化伤害 %"
         },
-        "template": null,
+        "template": {
+          "en": "+#% Enhanced Damage"
+        },
         "min": 81,
         "max": 100,
         "isSkillRef": false,
@@ -7142,7 +7182,9 @@
           "zh-TW": "傷害強化 %",
           "zh-CN": "强化伤害 %"
         },
-        "template": null,
+        "template": {
+          "en": "+#% Enhanced Damage"
+        },
         "min": 101,
         "max": 150,
         "isSkillRef": false,
@@ -7219,7 +7261,9 @@
           "zh-TW": "傷害強化 %",
           "zh-CN": "强化伤害 %"
         },
-        "template": null,
+        "template": {
+          "en": "+#% Enhanced Damage"
+        },
         "min": 151,
         "max": 200,
         "isSkillRef": false,
@@ -29106,7 +29150,9 @@
           "zh-TW": "傷害強化 %",
           "zh-CN": "强化伤害 %"
         },
-        "template": null,
+        "template": {
+          "en": "+#% Enhanced Damage"
+        },
         "min": 201,
         "max": 300,
         "isSkillRef": false,
@@ -46753,7 +46799,9 @@
           "zh-TW": "永不毀損",
           "zh-CN": "不可摧毁"
         },
-        "template": null,
+        "template": {
+          "en": "Indestructible"
+        },
         "min": 1,
         "max": 1,
         "isSkillRef": false
