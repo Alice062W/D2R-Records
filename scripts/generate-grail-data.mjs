@@ -1694,8 +1694,14 @@ function itemTypesFor(itype) {
 // runes.json-derived names and the hand-curated data/runewords.json names,
 // which sometimes differ in apostrophe style, case, or carry a trailing
 // " (ClassName)" disambiguation suffix (e.g. "Bone" vs "Bone (Necromancer)").
+// data/runewords.json's `name` field became a localized { en, ... } object
+// during an earlier i18n pass, but the generated runes.json side still
+// calls this with a plain English string -- accept either shape here rather
+// than force callers to pre-unwrap, since this function's whole purpose is
+// bridging between the two representations.
 function normalizeRunewordName(name) {
-  return name
+  const text = typeof name === 'object' && name !== null ? name.en : name;
+  return text
     .replace(/\s*\([^)]*\)\s*$/, '') // strip trailing " (ClassName)" suffix
     .replace(/'/g, '')                // strip apostrophes (handles Ancients'/Ancient's mismatch)
     .trim()
