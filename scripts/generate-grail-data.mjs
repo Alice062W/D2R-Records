@@ -3790,6 +3790,72 @@ console.log(`Wrote ${craftedItemsOut.length} crafted items -> data/crafted-items
 
 const magicPrefixData = JSON.parse(readFileSync(join(VENDOR, 'magicprefix.json'), 'utf8'));
 const magicSuffixData = JSON.parse(readFileSync(join(VENDOR, 'magicsuffix.json'), 'utf8'));
+const propertiesData = JSON.parse(readFileSync(join(VENDOR, 'properties.json'), 'utf8'));
+const itemStatCostData = JSON.parse(readFileSync(join(VENDOR, 'itemstatcost.json'), 'utf8'));
+const itemModifiersData = JSON.parse(readFileSync(join(VENDOR, 'item-modifiers.json'), 'utf8'));
+const itemNameAffixesData = JSON.parse(readFileSync(join(VENDOR, 'item-nameaffixes.json'), 'utf8'));
+
+// Game string lang-code -> site lang-code, same mapping as the quests-page
+// pipeline (pipeline/build_quests_db_v2.py) for consistency across the codebase.
+const AFFIX_LANG_MAP = {
+  enUS: 'en', zhTW: 'zh-TW', zhCN: 'zh-CN', deDE: 'de', esES: 'es', esMX: 'es-MX',
+  frFR: 'fr', itIT: 'it', jaJP: 'ja', koKR: 'ko', plPL: 'pl', ptBR: 'pt', ruRU: 'ru',
+};
+
+function localizedAll(entry) {
+  const out = {};
+  for (const [gameLang, siteLang] of Object.entries(AFFIX_LANG_MAP)) {
+    if (entry[gameLang] !== undefined) out[siteLang] = entry[gameLang];
+  }
+  return out;
+}
+
+// A handful of magicprefix.json/magicsuffix.json mod{n}code values have no
+// properties.json row at all, but resolve directly as an itemstatcost.json
+// Stat name under a different string -- verified by direct inspection:
+// "dmg-max"/"dmg-min" have no properties.json row, but itemstatcost.json's
+// "maxdamage"/"mindamage" rows exist directly (descfunc 19, descstrpos
+// ModStr1f/ModStr1g). Do NOT add entries here without the same verification
+// (check both properties.json and itemstatcost.json directly) -- this
+// project's established convention is to surface an unresolved code
+// (template: null) rather than guess.
+const STAT_CODE_DIRECT_ALIASES = {
+  'dmg-max': 'maxdamage',
+  'dmg-min': 'mindamage',
+};
+
+// Resolves a raw affix mod{n}code (e.g. "ac", "dmg-max") to its formatted,
+// all-language template text (e.g. { en: "%+d Defense", ... }), or null if
+// it doesn't resolve through the properties.json -> itemstatcost.json ->
+// item-modifiers.json chain (compound skill-referencing codes, or codes
+// with genuinely no standalone description text).
+const UNRESOLVED_TEMPLATE_CODES = new Set();
+
+function templateFor(code) {
+  let statName = null;
+  const prop = propertiesData[code];
+  if (prop && prop.stat1) {
+    statName = prop.stat1;
+  } else if (STAT_CODE_DIRECT_ALIASES[code]) {
+    statName = STAT_CODE_DIRECT_ALIASES[code];
+  }
+  if (!statName) {
+    UNRESOLVED_TEMPLATE_CODES.add(code);
+    return null;
+  }
+  const stat = itemStatCostData[statName];
+  const descKey = stat?.descstrpos;
+  if (!descKey) {
+    UNRESOLVED_TEMPLATE_CODES.add(code);
+    return null;
+  }
+  const modifierEntry = itemModifiersData[descKey];
+  if (!modifierEntry) {
+    UNRESOLVED_TEMPLATE_CODES.add(code);
+    return null;
+  }
+  return localizedAll(modifierEntry);
+}
 
 // The real, final Magic/Rare category slugs this project shows, and the raw D2 item-type
 // code each one is rooted at. Distinct from TYPE_TO_SLOT (used by uniques/sets/bases,
@@ -3901,13 +3967,14 @@ function extractMagicAffixStats(entry) {
     const par = entry[`mod${n}param`];
     const isSkillRef = SKILL_REF_PROPS.has(code);
     const label = isSkillRef ? localizedLabelWithSkill(code, par) : localizedLabelFor(code);
+    const template = isSkillRef ? null : templateFor(code);
     const needsKeySuffix = (isSkillRef || KEY_ONLY_DISAMBIGUATE_PROPS.has(code)) && par !== undefined;
     const key = needsKeySuffix ? `${code}:${par}` : code;
     const min = entry[`mod${n}min`];
     const max = entry[`mod${n}max`];
     if (min !== undefined && max !== undefined) {
-      if (min === max) fixed.push({ key, label, value: min, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) });
-      else variable.push({ key, label, min, max, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) });
+      if (min === max) fixed.push({ key, label, template, value: min, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) });
+      else variable.push({ key, label, template, min, max, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) });
       continue;
     }
     // Some mods (e.g. "sock" on Artificer's/Jeweler's, "ac/lvl" on Miocene)
@@ -3915,14 +3982,14 @@ function extractMagicAffixStats(entry) {
     // shape extractProps already handles for uniqueitems.json/setitems.json.
     // Without this fallback these affixes silently end up with zero stats.
     if (par !== undefined) {
-      fixed.push({ key, label, value: par, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) });
+      fixed.push({ key, label, template, value: par, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) });
       continue;
     }
     // "of Ages" (suffix 404, mod1code "indestruct") has no min/max/param at
     // all — a bare boolean flag prop, unlike uniqueitems.json's indestruct
     // entries which always carry min1===max1===1. Surface it the same way
     // (value: 1) rather than silently dropping the affix's only stat.
-    fixed.push({ key, label, value: 1, isSkillRef });
+    fixed.push({ key, label, template, value: 1, isSkillRef });
   }
   return { variable, fixed };
 }
@@ -3972,29 +4039,49 @@ function magicAffixesFrom(data, kind) {
     .filter(([, v]) => !hasMalformedNegativeCharge(v))
     .map(([id, v]) => {
       const { variable, fixed } = extractMagicAffixStats(v);
+      // A handful of active (frequency > 0) affix rows carry no `Name` at all
+      // (verified: magicprefix.json id 153, group 102, spawnable:0/frequency:4)
+      // — a real gap in the source data, not something to drop silently since
+      // the spec requires every frequency > 0 entry included.
+      const rawName = v.Name ?? `Unnamed Affix ${id}`;
+      const nameAffixEntry = itemNameAffixesData[rawName];
       return {
         id: `${kind}-${id}`,
-        // A handful of active (frequency > 0) affix rows carry no `Name` at all
-        // (verified: magicprefix.json id 153, group 102, spawnable:0/frequency:4)
-        // — a real gap in the source data, not something to drop silently since
-        // the spec requires every frequency > 0 entry included.
-        name: localizedItemName(v.Name ?? `Unnamed Affix ${id}`),
+        name: localizedItemName(rawName),
+        nameFull: nameAffixEntry ? localizedAll(nameAffixEntry) : null,
         kind,
         alvl: v.level ?? v.levelreq ?? 0,
+        group: v.group ?? 0,
         itemTypes: itemTypesForAffix(v),
         rareEligible: v.rare === 1,
-        stats: [...variable, ...fixed.map(f => ({ key: f.key, label: f.label, min: f.value, max: f.value, isSkillRef: f.isSkillRef }))],
+        stats: [...variable, ...fixed.map(f => ({ key: f.key, label: f.label, template: f.template, min: f.value, max: f.value, isSkillRef: f.isSkillRef }))],
       };
     });
 }
 
-const magicAffixesOut = [
+const magicAffixesRaw = [
   ...magicAffixesFrom(magicPrefixData, 'prefix'),
   ...magicAffixesFrom(magicSuffixData, 'suffix'),
 ];
 
+// Site-facing (unchanged 3-locale shape, matching this file's current consumers) --
+// strip the internal-only nameFull field.
+const magicAffixesOut = magicAffixesRaw.map(({ nameFull, ...a }) => a);
 writeFileSync(join(OUT, 'magic-affixes.json'), JSON.stringify(magicAffixesOut, null, 2));
 console.log(`Wrote ${magicAffixesOut.length} magic/rare affixes -> data/magic-affixes.json`);
+
+// All-language extract-folder sibling -- same fields, but `name` becomes the
+// full 14-language nameFull (falling back to the 3-locale name if this
+// particular affix's Name had no item-nameaffixes.json entry).
+const magicAffixesFullOut = magicAffixesRaw.map(({ nameFull, ...a }) => ({
+  ...a,
+  name: nameFull ?? a.name,
+}));
+writeFileSync(
+  'C:\\d2r-extract\\hd-png\\data\\magic-affixes-full.json',
+  JSON.stringify(magicAffixesFullOut, null, 2)
+);
+console.log(`Wrote ${magicAffixesFullOut.length} magic/rare affixes (all languages) -> C:\\d2r-extract\\hd-png\\data\\magic-affixes-full.json`);
 
 const levelsData = JSON.parse(readFileSync(join(VENDOR, 'levels.json'), 'utf8'));
 
