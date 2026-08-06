@@ -3,14 +3,35 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
+import categoryIcons from '../../../data/category-icons.json';
+import categoryHdIcons from '../../../data/category-hd-icons.json';
+import { BASE_PATH } from '@/lib/basePath';
 import { useOwnedItems } from '@/lib/grail/useOwnedItems';
 import CollectionBadge from './CollectionBadge';
-import CategoryIconArt, { ITEM_CATEGORY_ICON } from './CategoryIconArt';
 
 function CategoryIcon({ category }: { category: string }) {
-  const iconName = ITEM_CATEGORY_ICON[category];
-  if (!iconName) return null;
-  return <CategoryIconArt name={iconName} className="w-10 h-10 text-gold shrink-0" />;
+  const [iconFailed, setIconFailed] = useState(false);
+  const [hdIconFailed, setHdIconFailed] = useState(false);
+  const invFile = (categoryIcons as Record<string, string>)[category];
+  const hdIcon = (categoryHdIcons as Record<string, string>)[category];
+  if ((!hdIcon && !invFile) || iconFailed) return null;
+  return (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      src={
+        hdIcon && !hdIconFailed
+          ? `${BASE_PATH}/items/hd/${hdIcon}.png`
+          : `${BASE_PATH}/items/inv/${invFile}.png`
+      }
+      alt=""
+      aria-hidden="true"
+      className="w-12 h-12 object-contain shrink-0"
+      onError={() => {
+        if (hdIcon && !hdIconFailed) setHdIconFailed(true);
+        else setIconFailed(true);
+      }}
+    />
+  );
 }
 
 const COMPLETENESS_FILTERS = ['all', 'complete', 'partial', 'none'] as const;

@@ -40,14 +40,14 @@ describe('CategoryCardGrid', () => {
 
   it('renders an icon for a category present in the icon map', () => {
     renderGrid(['helms']);
-    const svg = document.querySelector('svg');
-    expect(svg).not.toBeNull();
-    expect(svg?.getAttribute('aria-hidden')).toBe('true');
+    const img = document.querySelector('img');
+    expect(img).not.toBeNull();
+    expect(img?.getAttribute('alt')).toBe('');
   });
 
   it('renders no icon for a category absent from the icon map', () => {
     renderGrid(['weapons']);
-    expect(document.querySelector('svg')).toBeNull();
+    expect(document.querySelector('img')).toBeNull();
   });
 
   it('does not call useOwnedItems-derived UI when itemIdsByCategory is omitted (Magic/Rare/Base pages)', () => {
