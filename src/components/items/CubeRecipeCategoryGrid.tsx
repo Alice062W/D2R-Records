@@ -9,7 +9,7 @@ import CategoryRecipeIcon from './CategoryRecipeIcon';
 const CATEGORY_ICON: Record<string, { invFile: string; hdIcon: string }> = {
   gemUpgrade: { invFile: 'invgswe', hdIcon: 'perfect_diamond' },
   runeUpgrade: { invFile: 'invrJo', hdIcon: 'jah_rune' },
-  quests: { invFile: 'invbox', hdIcon: 'horadric_cube' },
+  quests: { invFile: 'invqf2', hdIcon: 'super_khalim_flail' }, // Khalim's Will
   consumables: { invFile: 'invvpl', hdIcon: 'full_rejuv_potion' },
   sockets: { invFile: 'invskz', hdIcon: 'perfect_skull' },
   itemUpgrade: { invFile: 'invgswe', hdIcon: 'fragment_lightning' }, // Guardian's Thunder
