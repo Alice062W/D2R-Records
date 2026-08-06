@@ -55,32 +55,28 @@ function QuestDetailImage({ src, className }: { src: string | null; className: s
   );
 }
 
-// The game's own act tab art (extracted from expquesttabs.dc6) has the
-// Roman numeral baked into the image itself -- language-neutral, the real
-// game shows "I".."V" in every locale, so no separate translated label is
-// drawn on top. An aria-label still carries the localized act name for
-// screen readers.
+// Plain styled tab button -- the extracted game-asset tab art
+// (expquesttabs.dc6) carries its own gothic-stone frame baked into the
+// pixel art, same as the quest icons, which reads as an unwanted blueish
+// background rather than a clean tab label. A simple text button avoids
+// that entirely.
 function ActTabButton({
-  act, isActive, onClick, label,
+  isActive, onClick, label,
 }: {
-  act: (typeof ACTS)[number]; isActive: boolean; onClick: () => void; label: string;
+  isActive: boolean; onClick: () => void; label: string;
 }) {
-  const [failed, setFailed] = useState(false);
-  const src = `${BASE_PATH}/quests/tabs/act${act}-${isActive ? 'active' : 'inactive'}.png`;
   return (
-    <button type="button" onClick={onClick} aria-pressed={isActive} aria-label={label} className="shrink-0">
-      {failed ? (
-        <span
-          className={`block px-4 py-2 rounded-md border text-sm font-semibold ${
-            isActive ? 'bg-gold-bright text-black border-gold-bright' : 'bg-panel border-panel-border text-parchment'
-          }`}
-        >
-          {label}
-        </span>
-      ) : (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img src={src} alt="" onError={() => setFailed(true)} className="h-8 w-auto" />
-      )}
+    <button
+      type="button"
+      onClick={onClick}
+      aria-pressed={isActive}
+      className={`px-4 py-2 rounded-md border text-sm font-semibold transition-colors shrink-0 ${
+        isActive
+          ? 'bg-gold-bright text-black border-gold-bright'
+          : 'bg-panel border-panel-border text-parchment hover:border-gold-bright'
+      }`}
+    >
+      {label}
     </button>
   );
 }
@@ -110,7 +106,6 @@ export default function QuestList({ quests, locale }: { quests: Quest[]; locale:
         {ACTS.map(a => (
           <ActTabButton
             key={a}
-            act={a}
             isActive={a === act}
             onClick={() => selectAct(a)}
             label={t(`questActLabel_${a}` as never)}
@@ -121,10 +116,7 @@ export default function QuestList({ quests, locale }: { quests: Quest[]; locale:
       {/* Fixed 3-column x 2-row grid, matching the real in-game quest log
           layout -- intentionally not responsive/expanding to more columns,
           since that grid shape (not just "some grid") is the point. */}
-      <div
-        className="relative grid grid-cols-3 grid-rows-2 gap-3 border border-panel-border rounded-xl p-4 bg-cover bg-center"
-        style={{ backgroundImage: `url(${BASE_PATH}/quests/panel-bg.png)` }}
-      >
+      <div className="relative grid grid-cols-3 grid-rows-2 gap-3 bg-panel-alt border border-panel-border rounded-xl p-4">
         {actQuests.map(q => (
           <button
             key={q.key}
