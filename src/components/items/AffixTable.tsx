@@ -24,9 +24,9 @@ function AffixRow({ affix }: { affix: Affix }) {
 function AffixGroupBox({ group }: { group: AffixGroup }) {
   return (
     <div className="bg-panel-alt border border-panel-border rounded-xl overflow-hidden">
-      <div className="px-4 py-2 text-sm font-bold text-gold-bright font-cinzel border-b border-panel-border">
+      <h4 className="px-4 py-2 text-sm font-bold text-gold-bright font-cinzel border-b border-panel-border">
         {group.headerText}
-      </div>
+      </h4>
       <div className="flex flex-col">
         {group.affixes.map((a, i) => (
           <AffixRow key={`${a.name}-${a.alvl}-${i}`} affix={a} />
