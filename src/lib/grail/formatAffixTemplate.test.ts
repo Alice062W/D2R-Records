@@ -37,6 +37,14 @@ describe('substituteTemplate', () => {
   it('substitutes a +#% placeholder as a signed single value when min === max', () => {
     expect(substituteTemplate('+#% Enhanced Damage', 15, 15)).toBe('+15% Enhanced Damage');
   });
+
+  it('collapses a %+d%% percent-escape sequence to a single trailing percent sign', () => {
+    expect(substituteTemplate('Cold Resist %+d%%', 3, 5)).toBe('Cold Resist +3–5%');
+  });
+
+  it('collapses a %d%% percent-escape sequence to a single trailing percent sign', () => {
+    expect(substituteTemplate('Heal Stamina Plus %d%%', 10, 10)).toBe('Heal Stamina Plus 10%');
+  });
 });
 
 describe('formatAffixStatText', () => {
@@ -53,5 +61,13 @@ describe('formatAffixStatText', () => {
   it('falls back to "label: value" (no range) when min === max and template is null', () => {
     const text = formatAffixStatText({ label: 'Sockets', template: null, min: 1, max: 1 });
     expect(text).toBe('Sockets: 1');
+  });
+
+  it('uses composedText when present, taking priority over template', () => {
+    const text = formatAffixStatText({
+      label: 'Chain Lightning', template: null, min: 5, max: 3,
+      composedText: '5% Chance to cast level 3 Chain Lightning on attack',
+    });
+    expect(text).toBe('5% Chance to cast level 3 Chain Lightning on attack');
   });
 });
