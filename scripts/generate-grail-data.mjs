@@ -3800,6 +3800,92 @@ const propertiesData = JSON.parse(readFileSync(join(VENDOR, 'properties.json'), 
 const itemStatCostData = JSON.parse(readFileSync(join(VENDOR, 'itemstatcost.json'), 'utf8'));
 const itemModifiersData = JSON.parse(readFileSync(join(VENDOR, 'item-modifiers.json'), 'utf8'));
 const itemNameAffixesData = JSON.parse(readFileSync(join(VENDOR, 'item-nameaffixes.json'), 'utf8'));
+const skillNamesData = JSON.parse(readFileSync(join(VENDOR, 'skillnames.json'), 'utf8'));
+
+// All-14-language skill name resolution, extending skillNameForLocale's
+// existing zh-TW-only lookup (localestrings-chi.json) to every language
+// via skillnames.json (vendored from local/lng/strings/skills.json).
+// Same lowercase/capitalized "skillname{id}"/"Skillname{id}" key split
+// already established for zh-TW (ids 0-220 lowercase, 222+ capitalized)
+// -- verified this convention is consistent across all languages in the
+// source file, not just zh-TW.
+function skillNameAllLangs(par) {
+  if (!isNumericPar(par)) {
+    const fallback = String(par);
+    return Object.fromEntries(Object.values(AFFIX_LANG_MAP).map(l => [l, fallback]));
+  }
+  const entry = skillNamesData[`skillname${par}`] ?? skillNamesData[`Skillname${par}`];
+  if (!entry) {
+    const fallback = skills[String(par)]?.skill ?? String(par);
+    return Object.fromEntries(Object.values(AFFIX_LANG_MAP).map(l => [l, fallback]));
+  }
+  return localizedAll(entry);
+}
+
+// Substitutes positional args into a composed-sentence template, handling
+// BOTH placeholder styles found in item-modifiers.json (verified: some
+// languages use sequential %d/%s consumed in order, others use explicit
+// %0/%1/%2/%3 positional references with different word order -- e.g.
+// ModStre10d's esES value "%1 de nivel %0 (%2/%3 cargas)" places the
+// skill name (args[1]) before the level (args[0]), unlike English's
+// "Level %d %s" order). `args` is always in the SAME fixed order
+// regardless of template style (verified: positional indices %N
+// consistently refer to the Nth element of the same args array the
+// sequential style would consume in order).
+function substituteComposedTemplate(template, args) {
+  let result;
+  if (/%\d/.test(template)) {
+    result = template.replace(/%(\d)/g, (_, idx) => String(args[Number(idx)]));
+  } else {
+    let i = 0;
+    result = template.replace(/%d|%s/g, () => String(args[i++]));
+  }
+  // "%%" is a printf escape for one literal "%" -- collapse it after
+  // substitution (same fix as formatAffixTemplate.ts's client-side path,
+  // done here at generation time since these sentences are composed once,
+  // not re-rendered from a stored template).
+  return result.replace(/%%/g, '%');
+}
+
+// The 4 skill-referencing codes that actually occur among currently
+// spawnable magic/rare affixes (verified: 'skill'/'oskill'/'death-skill'/
+// 'levelup-skill'/'aura'/'kill-skill' -- the other SKILL_REF_PROPS codes
+// -- have zero occurrences, so are intentionally not handled here).
+// Each maps to its item-modifiers.json descstrpos key (found via
+// properties.txt -> itemstatcost.json, same chain templateFor() uses) and
+// the fixed arg order verified against real affix rows.
+const COMPOSED_SKILL_TEMPLATES = {
+  'att-skill': { descKey: 'ItemExpansiveChancX', args: (min, max, skill) => [min, max, skill] },
+  'hit-skill': { descKey: 'ItemExpansiveChanc1', args: (min, max, skill) => [min, max, skill] },
+  'gethit-skill': { descKey: 'ItemExpansiveChanc2', args: (min, max, skill) => [min, max, skill] },
+  // charged: min=charges, max=level (verified: suffix-438 "of Lightning"
+  // min:50/max:1 -> "Level 1 Lightning (50/50 Charges)" is the sane
+  // reading; the reverse, "Level 50, 1 charge," would be absurdly
+  // overpowered and contradicts typical D2 charged-item design).
+  charged: { descKey: 'ModStre10d', args: (min, max, skill) => [max, skill, min, min] },
+};
+
+// Produces a fully-composed, all-14-language sentence for the 4 codes
+// above (e.g. "5% Chance to cast level 3 Chain Lightning on attack"),
+// or null for any other code. Composed once at generation time (unlike
+// the simple %+d-style templates, which stay as templates substituted at
+// render time) since these have 3+ independent values, not a min/max
+// range, and per-language word-order/placeholder-style differences are
+// easier to resolve once here than to re-derive in the browser.
+function composedSkillRefText(code, par, min, max) {
+  const spec = COMPOSED_SKILL_TEMPLATES[code];
+  if (!spec || min === undefined || max === undefined) return null;
+  const modifierEntry = itemModifiersData[spec.descKey];
+  if (!modifierEntry) return null;
+  const skillNames = skillNameAllLangs(par);
+  const out = {};
+  for (const [gameLang, siteLang] of Object.entries(AFFIX_LANG_MAP)) {
+    const template = modifierEntry[gameLang];
+    if (!template) continue;
+    out[siteLang] = substituteComposedTemplate(template, spec.args(min, max, skillNames[siteLang]));
+  }
+  return out;
+}
 
 // Game string lang-code -> site lang-code, same mapping as the quests-page
 // pipeline (pipeline/build_quests_db_v2.py) for consistency across the codebase.
@@ -3992,16 +4078,17 @@ function extractMagicAffixStats(entry) {
     if (!rawCode) continue;
     const code = CODE_ALIASES[rawCode] ?? rawCode;
     const par = entry[`mod${n}param`];
+    const min = entry[`mod${n}min`];
+    const max = entry[`mod${n}max`];
     const isSkillRef = SKILL_REF_PROPS.has(code);
+    const composedText = isSkillRef ? composedSkillRefText(code, par, min, max) : null;
     const label = isSkillRef ? localizedLabelWithSkill(code, par) : localizedLabelFor(code);
     const template = isSkillRef ? null : templateFor(code);
     const needsKeySuffix = (isSkillRef || KEY_ONLY_DISAMBIGUATE_PROPS.has(code)) && par !== undefined;
     const key = needsKeySuffix ? `${code}:${par}` : code;
-    const min = entry[`mod${n}min`];
-    const max = entry[`mod${n}max`];
     if (min !== undefined && max !== undefined) {
-      if (min === max) fixed.push({ key, label, template, value: min, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) });
-      else variable.push({ key, label, template, min, max, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) });
+      if (min === max) fixed.push({ key, label, template, composedText, value: min, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) });
+      else variable.push({ key, label, template, composedText, min, max, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) });
       continue;
     }
     // Some mods (e.g. "sock" on Artificer's/Jeweler's, "ac/lvl" on Miocene)
@@ -4009,14 +4096,14 @@ function extractMagicAffixStats(entry) {
     // shape extractProps already handles for uniqueitems.json/setitems.json.
     // Without this fallback these affixes silently end up with zero stats.
     if (par !== undefined) {
-      fixed.push({ key, label, template, value: par, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) });
+      fixed.push({ key, label, template, composedText, value: par, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) });
       continue;
     }
     // "of Ages" (suffix 404, mod1code "indestruct") has no min/max/param at
     // all — a bare boolean flag prop, unlike uniqueitems.json's indestruct
     // entries which always carry min1===max1===1. Surface it the same way
     // (value: 1) rather than silently dropping the affix's only stat.
-    fixed.push({ key, label, template, value: 1, isSkillRef });
+    fixed.push({ key, label, template, composedText, value: 1, isSkillRef });
   }
   return { variable, fixed };
 }
@@ -4107,7 +4194,7 @@ function magicAffixesFrom(data, kind) {
         group: v.group ?? 0,
         itemTypes: itemTypesForAffix(v),
         rareEligible: v.rare === 1,
-        stats: [...variable, ...fixed.map(f => ({ key: f.key, label: f.label, template: f.template, min: f.value, max: f.value, isSkillRef: f.isSkillRef }))],
+        stats: [...variable, ...fixed.map(f => ({ key: f.key, label: f.label, template: f.template, composedText: f.composedText, min: f.value, max: f.value, isSkillRef: f.isSkillRef }))],
       };
     });
 }
