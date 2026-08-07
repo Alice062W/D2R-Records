@@ -158,8 +158,8 @@
     "group_myBuilds": "Popular Builds",
     "group_academy": "D2R Academy",
     "item_base": "Base Items",
-    "item_magic": "Magic Items",
-    "item_rare": "Rare Items",
+    "item_magic": "Magic Item Affixes",
+    "item_rare": "Rare Item Affixes",
     "item_set": "Set Items",
     "item_unique": "Unique Items",
     "item_runes": "Runes",
@@ -175,7 +175,8 @@
     "misc_auras": "Auras",
     "my_builds": "Popular Builds",
     "aboutUs": "About Us",
-    "comingSoon": "This section hasn't been built yet — check back soon."
+    "comingSoon": "This section hasn't been built yet — check back soon.",
+    "backToParentLabel": "Back to categories"
   },
   "Items": {
     "uniquePageTitle": "Unique Items",
@@ -277,9 +278,9 @@
     "craftedItemsAdditionalInputsLabel": "Additional Inputs",
     "craftedItemsFixedPropertiesLabel": "Fixed Magic Properties",
     "craftedItemsVariablePropertiesLabel": "Variable Magic Properties",
-    "magicPageTitle": "Magic Items",
+    "magicPageTitle": "Magic Item Affixes",
     "magicPageSubtitle": "Browse every magic item affix in Diablo II: Resurrected.",
-    "rarePageTitle": "Rare Items",
+    "rarePageTitle": "Rare Item Affixes",
     "rarePageSubtitle": "Browse every rare item affix in Diablo II: Resurrected.",
     "affixPrefixesLabel": "Prefixes",
     "affixSuffixesLabel": "Suffixes",
@@ -376,7 +377,12 @@
     "aura_redemption": "Redemption",
     "aura_redemption_desc": "Converts nearby corpses into experience, life, and mana for the wearer.",
     "aura_salvation": "Salvation",
-    "aura_salvation_desc": "Increases all elemental resistances for the wearer and nearby allies."
+    "aura_salvation_desc": "Increases all elemental resistances for the wearer and nearby allies.",
+    "affixRandomSkillLabel": "Random Magic Skill",
+    "categoryGroupWeapons": "Weapons",
+    "categoryGroupArmor": "Armor",
+    "categoryGroupOther": "Other",
+    "affixRandomRangeTooltip": "Random value in this range"
   },
   "AffixCategories": {
     "circlets": "Circlets",

@@ -279,8 +279,15 @@ describe('max-sockets.json', () => {
 });
 
 describe('getCategoriesForKind', () => {
-  it('returns all SLOT_ORDER categories for uniques except grimoires, which is folded into shields to match d2r.world', () => {
-    expect(getCategoriesForKind('unique')).toEqual(SLOT_ORDER.filter(slot => slot !== 'grimoires'));
+  it('returns all populated SLOT_ORDER categories for uniques, including grimoires as its own category', () => {
+    // grimoires used to be folded into "shields" here (matching an earlier
+    // d2r.world Unique Items browser convention), but that made the Unique
+    // page inconsistent with every other category page (Magic/Rare/Base all
+    // give grimoires their own category) -- reverted per user feedback.
+    expect(getCategoriesForKind('unique')).toEqual(
+      SLOT_ORDER.filter(slot => uniques.some(i => i.slotCategory === slot))
+    );
+    expect(getCategoriesForKind('unique')).toContain('grimoires');
   });
 
   it('returns a strict subset for sets, excluding categories with no set items', () => {

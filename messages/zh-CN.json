@@ -158,8 +158,8 @@
     "group_myBuilds": "热门配装",
     "group_academy": "D2R 学院",
     "item_base": "基础装备",
-    "item_magic": "魔法装备",
-    "item_rare": "稀有装备",
+    "item_magic": "魔法装备词缀",
+    "item_rare": "稀有装备词缀",
     "item_set": "成套装备",
     "item_unique": "独特装备",
     "item_runes": "符文",
@@ -175,7 +175,8 @@
     "misc_auras": "光环",
     "my_builds": "热门配装",
     "aboutUs": "关于本站",
-    "comingSoon": "此区块尚未建置，敬请期待。"
+    "comingSoon": "此区块尚未建置，敬请期待。",
+    "backToParentLabel": "返回分类"
   },
   "Items": {
     "uniquePageTitle": "独特装备",
@@ -277,9 +278,9 @@
     "craftedItemsAdditionalInputsLabel": "额外材料",
     "craftedItemsFixedPropertiesLabel": "固定魔法属性",
     "craftedItemsVariablePropertiesLabel": "变动魔法属性",
-    "magicPageTitle": "魔法装备",
+    "magicPageTitle": "魔法装备词缀",
     "magicPageSubtitle": "浏览暗黑破坏神2：狱火重生中所有的魔法物品词缀。",
-    "rarePageTitle": "稀有装备",
+    "rarePageTitle": "稀有装备词缀",
     "rarePageSubtitle": "浏览暗黑破坏神2：狱火重生中所有的稀有物品词缀。",
     "affixPrefixesLabel": "前缀",
     "affixSuffixesLabel": "后缀",
@@ -376,7 +377,12 @@
     "aura_redemption": "救赎",
     "aura_redemption_desc": "将附近尸体转化为使用者的经验值、生命值与魔力。",
     "aura_salvation": "拯救",
-    "aura_salvation_desc": "提升使用者与附近队友的所有元素抗性。"
+    "aura_salvation_desc": "提升使用者与附近队友的所有元素抗性。",
+    "affixRandomSkillLabel": "随机魔法技能",
+    "categoryGroupWeapons": "武器",
+    "categoryGroupArmor": "防具",
+    "categoryGroupOther": "其他",
+    "affixRandomRangeTooltip": "此范围内随机数值"
   },
   "BaseItems": {
     "grade_normal": "普通",

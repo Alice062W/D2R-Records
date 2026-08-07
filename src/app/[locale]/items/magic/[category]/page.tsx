@@ -48,7 +48,7 @@ export default async function MagicCategoryPage({
             {t('backToCategories')}
           </Link>
         </div>
-        <AffixTable prefixes={prefixes} suffixes={suffixes} />
+        <AffixTable prefixes={prefixes} suffixes={suffixes} kind="magic" />
       </div>
     </main>
   );

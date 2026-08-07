@@ -89,7 +89,7 @@ export default function RunewordList({ runewords, locale }: { runewords: Runewor
               {rw.runes.map((rune, i) => (
                 <span key={`${rune.code}-${i}`} className="flex items-center gap-1 text-sm text-parchment">
                   <RuneIcon hdIcon={rune.hdIcon} invFile={rune.invFile} />
-                  {rune.name[locale]}
+                  {rune.name[locale]} (#{Number(rune.code.slice(1))})
                 </span>
               ))}
             </div>

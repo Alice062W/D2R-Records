@@ -46,8 +46,8 @@ describe('SiteNavDrawer', () => {
       ['Popular Builds', '/en/builds'],
       // D2R Academy
       ['Base Items', '/en/items/base'],
-      ['Magic Items', '/en/items/magic'],
-      ['Rare Items', '/en/items/rare'],
+      ['Magic Item Affixes', '/en/items/magic'],
+      ['Rare Item Affixes', '/en/items/rare'],
       ['Runes', '/en/items/runes'],
       ['Cube Recipes', '/en/items/cube-recipes'],
       ['Crafted Items', '/en/items/crafted'],

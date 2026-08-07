@@ -158,8 +158,8 @@
     "group_myBuilds": "熱門配裝",
     "group_academy": "D2R 學院",
     "item_base": "基礎裝備",
-    "item_magic": "魔法裝備",
-    "item_rare": "稀有裝備",
+    "item_magic": "魔法裝備詞綴",
+    "item_rare": "稀有裝備詞綴",
     "item_set": "成套裝備",
     "item_unique": "獨特裝備",
     "item_runes": "符文",
@@ -175,7 +175,8 @@
     "misc_auras": "光環",
     "my_builds": "熱門配裝",
     "aboutUs": "關於本站",
-    "comingSoon": "此區塊尚未建置，敬請期待。"
+    "comingSoon": "此區塊尚未建置，敬請期待。",
+    "backToParentLabel": "返回分類"
   },
   "Items": {
     "uniquePageTitle": "獨特裝備",
@@ -277,9 +278,9 @@
     "craftedItemsAdditionalInputsLabel": "額外材料",
     "craftedItemsFixedPropertiesLabel": "固定魔法屬性",
     "craftedItemsVariablePropertiesLabel": "變動魔法屬性",
-    "magicPageTitle": "魔法裝備",
+    "magicPageTitle": "魔法裝備詞綴",
     "magicPageSubtitle": "瀏覽暗黑破壞神2：獄火重生中所有的魔法物品詞綴。",
-    "rarePageTitle": "稀有裝備",
+    "rarePageTitle": "稀有裝備詞綴",
     "rarePageSubtitle": "瀏覽暗黑破壞神2：獄火重生中所有的稀有物品詞綴。",
     "affixPrefixesLabel": "前綴",
     "affixSuffixesLabel": "後綴",
@@ -376,7 +377,12 @@
     "aura_redemption": "救贖",
     "aura_redemption_desc": "將附近屍體轉化為使用者的經驗值、生命值與魔力。",
     "aura_salvation": "聖護",
-    "aura_salvation_desc": "提升使用者與附近隊友的所有元素抗性。"
+    "aura_salvation_desc": "提升使用者與附近隊友的所有元素抗性。",
+    "affixRandomSkillLabel": "隨機魔法技能",
+    "categoryGroupWeapons": "武器",
+    "categoryGroupArmor": "防具",
+    "categoryGroupOther": "其他",
+    "affixRandomRangeTooltip": "此範圍內隨機數值"
   },
   "AffixCategories": {
     "circlets": "冠冕",

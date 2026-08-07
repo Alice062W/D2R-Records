@@ -3924,22 +3924,23 @@ const STAT_CODE_DIRECT_ALIASES = {
   'dmg-min': 'mindamage',
 };
 
-// "dmg%" (Enhanced Damage, one of the most common magic/rare affix stats --
-// 23 stat occurrences across active affixes) and "indestruct" have no
-// properties.json `stat1` at all -- both are `func1`-driven compound
-// properties (func 7 and 20 respectively, verified directly against
-// properties.json), which don't go through the simple single-stat
-// itemstatcost.json chain templateFor() otherwise resolves. Both DO carry a
-// usable properties.json `*Tooltip` field though ("+#% Enhanced Damage",
-// "Indestructible" -- verified directly), which is English-only (an
-// internal dev-tool string, not localized) -- so this is an English-only
-// fallback, not a full 14-language template like the itemstatcost.json
-// path produces. Better than leaving `template: null` for a stat this
-// common; other languages fall back to the existing bare `label` until a
-// real localized source for func1-driven properties is found.
-const ENGLISH_ONLY_TOOLTIP_TEMPLATES = {
-  'dmg%': '+#% Enhanced Damage',
-  indestruct: 'Indestructible',
+// "dmg%" (Enhanced Damage), "indestruct", and "sock" (socket count) have no
+// usable properties.json -> itemstatcost.json chain: "dmg%"/"indestruct"
+// have no properties.json `stat1` at all (func1-driven compound properties,
+// func 7 and 20 respectively); "sock" resolves to itemstatcost.json's
+// `item_numsockets`, but that row's own `descstrpos` is blank. An earlier
+// revision fell back to properties.json's English-only `*Tooltip` field for
+// the first two -- a REAL regression (found via user report: "歲月之"
+// (indestruct) showed untranslated English on the zh-TW site) -- these DO
+// have real, fully-localized item-modifiers.json entries, just not reached
+// through the normal chain: "strModEnhancedDamage" ("%+d%% Enhanced
+// Damage" | zh-TW "%+d%% 傷害強化"), "ModStre9s" ("Indestructible" | zh-TW
+// "永不毀損"), and "Socketable" ("Socketed (%i)" | zh-TW "鑲孔（%i）" -- note
+// the "%i" placeholder, a 4th shape substituteTemplate must also handle).
+const HARDCODED_TEMPLATE_KEYS = {
+  'dmg%': 'strModEnhancedDamage',
+  indestruct: 'ModStre9s',
+  sock: 'Socketable',
 };
 
 // Resolves a raw affix mod{n}code (e.g. "ac", "dmg-max") to its formatted,
@@ -3949,7 +3950,38 @@ const ENGLISH_ONLY_TOOLTIP_TEMPLATES = {
 // with genuinely no standalone description text).
 const UNRESOLVED_TEMPLATE_CODES = new Set();
 
+// The "*_perlevel" stats (ac/lvl, str/lvl, hp/lvl, res-cold/lvl, etc.) store
+// mod{n}param as a raw game-engine coefficient, NOT the actual per-level
+// rate -- the engine computes bonus = (param * charLevel) / 2^(op param)
+// (verified via the Phrozen Keep's ItemStatCost.txt op-column reference,
+// https://d2mods.info/forum/kb/viewarticle?a=448, and cross-checked against
+// a real value: "Faithful" on Armour stores ac/lvl param 24 with op param 3
+// -- 24 / 2^3 = 3 Defense/level, matching the documented real tooltip "+3
+// Defense per Level" exactly). Without dividing, the raw stored 24 would
+// display as "+24 Defense (Based on Character Level)", which overstates the
+// true per-level rate by 8x. Returns the divisor (2^op param), or null if
+// `code` isn't a per-level stat at all.
+function perLevelDivisor(code) {
+  const prop = propertiesData[code];
+  const statName = prop?.stat1 ?? STAT_CODE_DIRECT_ALIASES[code];
+  if (!statName) return null;
+  const stat = itemStatCostData[statName];
+  if (!stat || stat.descstr2 !== 'increaseswithplaylevelX') return null;
+  const opParam = Number(stat['op param']);
+  if (!Number.isFinite(opParam)) return null;
+  return 2 ** opParam;
+}
+
 function templateFor(code) {
+  // Checked first, ahead of the normal chain: "sock" DOES resolve to a
+  // real itemstatcost.json stat (item_numsockets), but that row's own
+  // descstrpos is blank, so it would otherwise fall through to the
+  // "unresolved" branch below despite a perfectly good localized template
+  // existing under a different key (see HARDCODED_TEMPLATE_KEYS's comment).
+  if (HARDCODED_TEMPLATE_KEYS[code]) {
+    const entry = itemModifiersData[HARDCODED_TEMPLATE_KEYS[code]];
+    if (entry) return localizedAll(entry);
+  }
   let statName = null;
   const prop = propertiesData[code];
   if (prop && prop.stat1) {
@@ -3958,9 +3990,6 @@ function templateFor(code) {
     statName = STAT_CODE_DIRECT_ALIASES[code];
   }
   if (!statName) {
-    if (ENGLISH_ONLY_TOOLTIP_TEMPLATES[code]) {
-      return { en: ENGLISH_ONLY_TOOLTIP_TEMPLATES[code] };
-    }
     UNRESOLVED_TEMPLATE_CODES.add(code);
     return null;
   }
@@ -3970,9 +3999,89 @@ function templateFor(code) {
     UNRESOLVED_TEMPLATE_CODES.add(code);
     return null;
   }
+  // All 8 classes' "+N to <Class> Skill Levels" affixes (ama/sor/nec/dru/
+  // bar/ass/pal/war -- the 8th, "war"/Warlock, confirms this project's
+  // vendor data is the "Reign of Terror" mod, not vanilla D2R) share ONE
+  // itemstatcost.json stat, `item_addclassskills` -- the real class name is
+  // selected at runtime via a val1 parameter our simple descstrpos chain
+  // doesn't emulate, so descstrpos always resolves to the SAME hardcoded
+  // string (`item-modifiers.json['ModStr3a']`, literally "Amazon Skill
+  // Levels") regardless of which class the affix is actually for. Verified:
+  // this produced "Devil's"/"Arch-Devil's" (Warlock class, group 125)
+  // rendering "+2 to Amazon Skill Levels" instead of "+2 to Warlock Skill
+  // Levels". Each class actually has its OWN fully-localized (all 14
+  // languages) item-modifiers.json entry: ModStr3a (ama), ModStr3b (pal),
+  // ModStr3c (nec), ModStr3d (sor), ModStr3e (bar), ModStre8a (dru),
+  // ModStre8b (ass), ModStrge9 (war) -- verified war's ModStrge9.zhTW
+  // "+%d 術士技能" matches d2r.world's own zh-TW text exactly for "Devil's"/
+  // "Arch-Devil's". An earlier revision used properties.json's `*Tooltip`
+  // field instead (English-only, same pattern as dmg%/indestruct) --
+  // that was a real regression: it left zh-TW/zh-CN untranslated for
+  // every class. Use the real localized key when we have one; only fall
+  // back to the English-only tooltip if a class code is somehow missing
+  // from this map.
+  const CLASS_SKILL_TEMPLATE_KEYS = {
+    ama: 'ModStr3a', pal: 'ModStr3b', nec: 'ModStr3c', sor: 'ModStr3d',
+    bar: 'ModStr3e', dru: 'ModStre8a', ass: 'ModStre8b', war: 'ModStrge9',
+  };
+  if (stat.Stat === 'item_addclassskills') {
+    const classKey = CLASS_SKILL_TEMPLATE_KEYS[code];
+    const classEntry = classKey && itemModifiersData[classKey];
+    if (classEntry) return localizedAll(classEntry);
+    if (prop['*Tooltip']) return { en: prop['*Tooltip'] };
+  }
   const modifierEntry = itemModifiersData[descKey];
   if (!modifierEntry) {
     UNRESOLVED_TEMPLATE_CODES.add(code);
+    return null;
+  }
+  const template = localizedAll(modifierEntry);
+  // itemstatcost.json's "*_perlevel" stats (e.g. "ac/lvl"/"item_armor_perlevel",
+  // and ~35 others: strength/lvl, resist-cold/lvl, tohit/lvl, etc.) carry the
+  // raw stored value as a per-character-level scaling factor, NOT a flat
+  // bonus -- the real in-game tooltip appends a "(Based on Character Level)"
+  // qualifier (verified: itemstatcost.json's own `descstr2` field for every
+  // one of these stats is literally "increaseswithplaylevelX", which
+  // resolves via item-modifiers.json to that exact suffix in all 14
+  // languages). Without this, e.g. "Faithful" (ac/lvl mod1param 24) rendered
+  // as a flat "+24 Defense", which is wrong -- the actual bonus scales with
+  // character level, it isn't a flat 24.
+  if (stat.descstr2 === 'increaseswithplaylevelX') {
+    const suffixEntry = itemModifiersData['increaseswithplaylevelX'];
+    if (suffixEntry) {
+      const suffix = localizedAll(suffixEntry);
+      for (const lang of Object.keys(template)) {
+        if (suffix[lang]) template[lang] = `${template[lang]} ${suffix[lang]}`;
+      }
+    }
+  }
+  return template;
+}
+
+// "skilltab" (the +N-to-a-whole-skill-tab affixes, e.g. "Fanatic" +Combat
+// Skills, "Chaotic" +Eldritch Skills) shares ONE generic itemstatcost.json
+// stat (`item_addskill_tab`) across ALL 24 skill tabs (8 classes x 3 tabs
+// each in this project's mod dataset, including the "war"/Warlock class's
+// 3 tabs 21-23 -- see properties.json['skilltab']'s own *Notes field: "Class
+// Skill Tab ID = Amazon 0-2, Sorceress 3-5, ..." and 3 more per added
+// class). Like item_addclassskills, the real tab name is selected at
+// runtime via the affix's par (the tab index), which templateFor()'s
+// simple descstrpos chain can't emulate -- it always resolved to the
+// SAME hardcoded string (item-modifiers.json's "StrSklTabItem1", literally
+// "Javelin and Spear Skills", tab index 0's name) regardless of which tab
+// index the affix actually references. Verified: item-modifiers.json DOES
+// have the correct per-index name for every tab, one-indexed
+// (StrSklTabItem1..StrSklTabItem24) -- e.g. StrSklTabItem22/23/24 (tab
+// index 21/22/23, Warlock's 3 tabs) are "Eldritch/Chaos/Demon Skills".
+// Without this, e.g. "Chaotic" (Warlock, grimoire-exclusive, skilltab:22)
+// rendered "+N to Javelin and Spear Skills" instead of "+N to Chaos
+// Skills" -- and every OTHER class's skilltab affix had the exact same
+// bug, all showing tab 0's name.
+function skillTabTemplate(par) {
+  if (par === undefined) return null;
+  const modifierEntry = itemModifiersData[`StrSklTabItem${Number(par) + 1}`];
+  if (!modifierEntry) {
+    UNRESOLVED_TEMPLATE_CODES.add(`skilltab:${par}`);
     return null;
   }
   return localizedAll(modifierEntry);
@@ -4048,6 +4157,34 @@ function expandItypeToSlugs(rawItype) {
   return slugs;
 }
 
+// Reverse of MAGIC_LEAF_SLUGS (slug -> its rooting raw itemtypes.json code),
+// used to look up each slug's own itemtypes.json `Class` restriction below.
+const SLUG_TO_LEAF = Object.fromEntries(Object.entries(MAGIC_LEAF_SLUGS).map(([leaf, slug]) => [slug, leaf]));
+
+// A bare-"shld" (or other abstract-supertype) itype restriction expands to
+// EVERY shield-family slug via the ancestor closure above, including class-
+// exclusive ones like "grimoires" (grim, Class "war") and "paladinShields"
+// (ashd, Class "pal") -- itemtypes.json really does encode grim as a
+// descendant of shld. But a magic affix's OWN `classspecific` field (when
+// set) means it's flavor-text for one specific class -- "Priest's"
+// (classspecific "pal", +Paladin Skill Levels) has no reason to exist on a
+// Grimoire, which only a Warlock can ever equip (grim's Class is "war", not
+// "pal"). Verified against d2r.world's own zh-TW Grimoire prefix listing
+// (https://d2r.world/zh-TW/info/item/magic/war-shields): it does NOT
+// include "Priest's"/"Monk's", confirming this cross-class leakage is a
+// real bug, not intended data. Drop a slug from a classspecific affix's
+// result when the slug's own base item is ALSO class-restricted to a
+// different class; keep it when either side is unrestricted (e.g. Priest's
+// still correctly applies to bare "shields", and to "paladinShields" itself
+// since both are Paladin-flavored).
+function classCompatible(entry, slug) {
+  if (!entry.classspecific) return true;
+  const leaf = SLUG_TO_LEAF[slug];
+  const itemClass = leaf && itemTypesData[leaf]?.Class;
+  if (!itemClass) return true;
+  return entry.classspecific === itemClass;
+}
+
 function itemTypesForAffix(entry) {
   const slugs = new Set();
   for (let n = 1; n <= 7; n++) {
@@ -4055,7 +4192,9 @@ function itemTypesForAffix(entry) {
     if (!itype) continue;
     const expanded = expandItypeToSlugs(itype);
     if (expanded.length > 0) {
-      for (const s of expanded) slugs.add(s);
+      for (const s of expanded) {
+        if (classCompatible(entry, s)) slugs.add(s);
+      }
     } else {
       // No leaf category's ancestor set reaches this code (e.g. "bar", a bare class
       // restriction never expressed via itype at all in practice, or any other
@@ -4078,6 +4217,20 @@ function itemTypesForAffix(entry) {
 // keys as `${prefixText}${n}`, i.e. suffix-then-number, like prop1/par1) cannot
 // directly express. Rather than force extractProps to fit, this is a small
 // dedicated extraction loop for this one shape.
+// "cold-len" (itemstatcost.json's "coldlength", # of animation frames --
+// *Notes: "25 Frames = 1 Second") always rides alongside a sibling
+// "cold-min"/"cold-max" pair on the same affix (verified: every "cold-len"
+// occurrence in magicprefix.json/magicsuffix.json, e.g. "Snowy"/"of Frost",
+// also has mod2code "cold-min" + mod3code "cold-max") and has genuinely no
+// standalone descstrpos of its own -- itemstatcost.json's `coldlength` row
+// has a blank descstrpos, unlike every other resolvable stat, meaning even
+// the game itself never gives this value its own tooltip line; the
+// cold-min/cold-max lines already display correctly on their own. Suppress
+// it as a display stat entirely (never suppressing an affix's only stat,
+// since it always has cold-min/cold-max siblings) rather than showing a
+// broken, un-templated "cold-len: 25" line.
+const SUPPRESSED_DISPLAY_CODES = new Set(['cold-len']);
+
 function extractMagicAffixStats(entry) {
   const variable = [];
   const fixed = [];
@@ -4085,13 +4238,14 @@ function extractMagicAffixStats(entry) {
     const rawCode = entry[`mod${n}code`];
     if (!rawCode) continue;
     const code = CODE_ALIASES[rawCode] ?? rawCode;
+    if (SUPPRESSED_DISPLAY_CODES.has(code)) continue;
     const par = entry[`mod${n}param`];
     const min = entry[`mod${n}min`];
     const max = entry[`mod${n}max`];
     const isSkillRef = SKILL_REF_PROPS.has(code);
     const composedText = isSkillRef ? composedSkillRefText(code, par, min, max) : null;
     const label = isSkillRef ? localizedLabelWithSkill(code, par) : localizedLabelFor(code);
-    const template = isSkillRef ? null : templateFor(code);
+    const template = isSkillRef ? null : (code === 'skilltab' ? skillTabTemplate(par) : templateFor(code));
     const needsKeySuffix = (isSkillRef || KEY_ONLY_DISAMBIGUATE_PROPS.has(code)) && par !== undefined;
     const key = needsKeySuffix ? `${code}:${par}` : code;
     if (min !== undefined && max !== undefined) {
@@ -4104,7 +4258,13 @@ function extractMagicAffixStats(entry) {
     // shape extractProps already handles for uniqueitems.json/setitems.json.
     // Without this fallback these affixes silently end up with zero stats.
     if (par !== undefined) {
-      fixed.push({ key, label, template, composedText, value: par, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) });
+      // "*_perlevel" stats: par is a raw engine coefficient, not the actual
+      // per-level rate -- divide by perLevelDivisor(code) to get the true
+      // rate (see perLevelDivisor's doc comment). Not rounded: real rates
+      // are legitimately fractional (e.g. 4/8 = 0.5 Defense/level).
+      const divisor = perLevelDivisor(code);
+      const value = divisor ? par / divisor : par;
+      fixed.push({ key, label, template, composedText, value, isSkillRef, signed: ADDITIVE_SIGN_CODES.has(code) });
       continue;
     }
     // "of Ages" (suffix 404, mod1code "indestruct") has no min/max/param at

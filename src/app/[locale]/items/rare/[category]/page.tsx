@@ -48,7 +48,7 @@ export default async function RareCategoryPage({
             {t('backToCategories')}
           </Link>
         </div>
-        <AffixTable prefixes={prefixes} suffixes={suffixes} />
+        <AffixTable prefixes={prefixes} suffixes={suffixes} kind="rare" />
       </div>
     </main>
   );

@@ -104,14 +104,19 @@ describe('affixCatalog', () => {
     expect(easeGroup.headerText).not.toContain('-15');
   });
 
-  it('groupAffixesByExclusivity falls back to a general title when a group has too many distinct stat keys', () => {
+  it('groupAffixesByExclusivity uses a generic "random skill" title for a group spanning different skill tabs', () => {
     // Grand Charm skill-tab-bonus group: dozens of prefixes, one per skill
     // tab (skilltab:0..23+), none of which are isSkillRef -- would otherwise
-    // produce an unreadably long comma-joined header.
+    // produce an unreadably long comma-joined header. Since every member's
+    // skill tab is DIFFERENT (not tiers of the same tab), no single
+    // member's own skill is "the" representative one -- falls back to a
+    // generic "+N <label>" title (max value, caller-supplied generic
+    // label) rather than naming one arbitrary member's specific skill.
     const { prefixes } = getAffixesForCategory('magic', 'grandCharms', 'en');
-    const groups = groupAffixesByExclusivity(prefixes);
+    const groups = groupAffixesByExclusivity(prefixes, 'Random Magic Skill');
     const skillTabGroup = groups.find(g => g.affixes.length > 10)!;
     expect(skillTabGroup).toBeDefined();
-    expect(skillTabGroup.headerText).toBe(skillTabGroup.headerAffix.name);
+    expect(skillTabGroup.headerText).toContain('Random Magic Skill');
+    expect(skillTabGroup.headerText).not.toContain(skillTabGroup.headerAffix.name);
   });
 });

@@ -5,12 +5,12 @@
     "act": 1,
     "order": 1,
     "optional": true,
-    "icon": "quests/icons_color/qstsa1q1.png",
+    "icon": "quests/icons_hd/qstsa1q1.png",
     "rewardImage": null,
     "reward": {
-      "en": "A permanent +1 skill point, chosen from among your class's Level-1 skills.",
-      "zh-TW": "永久 +1 技能點，可從您職業的 1 級技能中選擇。",
-      "zh-CN": "永久 +1 技能点，可从你职业的 1 级技能中选择。"
+      "en": "A permanent +1 skill point, chosen from among your class's Level-1 skills. Also unlocks a free, full respec of skill and stat points (once per difficulty), used by talking to Akara.",
+      "zh-TW": "永久 +1 技能點，可從您職業的 1 級技能中選擇。同時解鎖一次免費的技能點與屬性點完整重置（每個難度限一次），向阿卡拉洽談使用。",
+      "zh-CN": "永久 +1 技能点，可从你职业的 1 级技能中选择。同时解锁一次免费的技能点与属性点完整重置（每个难度限一次），向阿卡拉洽谈使用。"
     },
     "itemImage": null,
     "name": {
@@ -47,7 +47,7 @@
     "act": 1,
     "order": 2,
     "optional": true,
-    "icon": "quests/icons_color/qstsa1q2.png",
+    "icon": "quests/icons_hd/qstsa1q2.png",
     "rewardImage": null,
     "reward": null,
     "itemImage": null,
@@ -80,7 +80,7 @@
     "act": 1,
     "order": 3,
     "optional": true,
-    "icon": "quests/icons_color/qstsa1q4.png",
+    "icon": "quests/icons_hd/qstsa1q3.png",
     "rewardImage": null,
     "reward": null,
     "itemImage": "items/hd/scroll_of_horadric_quest_info.png",
@@ -133,7 +133,7 @@
     "act": 1,
     "order": 4,
     "optional": true,
-    "icon": "quests/icons_color/qstsa1q5.png",
+    "icon": "quests/icons_hd/qstsa1q4.png",
     "rewardImage": null,
     "reward": null,
     "itemImage": null,
@@ -171,9 +171,13 @@
     "act": 1,
     "order": 5,
     "optional": true,
-    "icon": "quests/icons_color/qstsa1q3.png",
+    "icon": "quests/icons_hd/qstsa1q5.png",
     "rewardImage": null,
-    "reward": null,
+    "reward": {
+      "en": "Imbue creates a new Rare item from the base item you choose. Your character level determines what magical properties the new Rare item can have.",
+      "zh-TW": "灌注可將您選擇的基礎物品轉化為一件新的稀有物品。角色等級決定新稀有物品可能出現的魔法屬性。",
+      "zh-CN": "灌注可将你选择的基础物品转化为一件新的稀有物品。角色等级决定新稀有物品可能出现的魔法属性。"
+    },
     "itemImage": "items/hd/horadric_malus.png",
     "name": {
       "en": "Tools of the Trade",
@@ -204,7 +208,7 @@
     "act": 1,
     "order": 6,
     "optional": false,
-    "icon": "quests/icons_color/qstsa1q6.png",
+    "icon": "quests/icons_hd/qstsa1q6.png",
     "rewardImage": null,
     "reward": null,
     "itemImage": null,
@@ -242,7 +246,7 @@
     "act": 2,
     "order": 1,
     "optional": true,
-    "icon": "quests/icons_color/qstsa2q1.png",
+    "icon": "quests/icons_hd/qstsa2q1.png",
     "rewardImage": "items/hd/book_of_skill.png",
     "reward": {
       "en": "A permanent +1 skill point (a Book of Skill granted by Atma), plus a permanent 90% discount at Atma's general store.",
@@ -279,7 +283,7 @@
     "act": 2,
     "order": 2,
     "optional": false,
-    "icon": "quests/icons_color/qstsa2q2.png",
+    "icon": "quests/icons_hd/qstsa2q2.png",
     "rewardImage": null,
     "reward": null,
     "itemImage": "items/hd/horadric_cube.png",
@@ -322,7 +326,7 @@
     "act": 2,
     "order": 3,
     "optional": false,
-    "icon": "quests/icons_color/qstsa2q3.png",
+    "icon": "quests/icons_hd/qstsa2q3.png",
     "rewardImage": null,
     "reward": null,
     "itemImage": null,
@@ -360,7 +364,7 @@
     "act": 2,
     "order": 4,
     "optional": false,
-    "icon": "quests/icons_color/qstsa2q4.png",
+    "icon": "quests/icons_hd/qstsa2q4.png",
     "rewardImage": null,
     "reward": null,
     "itemImage": null,
@@ -398,7 +402,7 @@
     "act": 2,
     "order": 5,
     "optional": false,
-    "icon": "quests/icons_color/qstsa2q5.png",
+    "icon": "quests/icons_hd/qstsa2q5.png",
     "rewardImage": null,
     "reward": null,
     "itemImage": null,
@@ -431,7 +435,7 @@
     "act": 2,
     "order": 6,
     "optional": false,
-    "icon": "quests/icons_color/qstsa2q6.png",
+    "icon": "quests/icons_hd/qstsa2q6.png",
     "rewardImage": null,
     "reward": null,
     "itemImage": null,
@@ -489,9 +493,13 @@
     "act": 3,
     "order": 1,
     "optional": true,
-    "icon": "quests/icons_color/qstsa3q4.png",
+    "icon": "quests/icons_hd/qstsa3q1.png",
     "rewardImage": null,
-    "reward": null,
+    "reward": {
+      "en": "A permanent +20 to Life.",
+      "zh-TW": "永久 +20 生命值。",
+      "zh-CN": "永久 +20 生命值。"
+    },
     "itemImage": "items/hd/gold_bird.png",
     "name": {
       "en": "The Golden Bird",
@@ -532,7 +540,7 @@
     "act": 3,
     "order": 2,
     "optional": true,
-    "icon": "quests/icons_color/qstsa3q3.png",
+    "icon": "quests/icons_hd/qstsa3q2.png",
     "rewardImage": null,
     "reward": null,
     "itemImage": "items/hd/gidbinn.png",
@@ -580,7 +588,7 @@
     "act": 3,
     "order": 3,
     "optional": false,
-    "icon": "quests/icons_color/qstsa3q2.png",
+    "icon": "quests/icons_hd/qstsa3q3.png",
     "rewardImage": "items/hd/super_khalim_flail.png",
     "reward": {
       "en": "The assembled Khalim's Will, a unique weapon you keep and can use.",
@@ -637,9 +645,13 @@
     "act": 3,
     "order": 4,
     "optional": true,
-    "icon": "quests/icons_color/qstsa3q1.png",
+    "icon": "quests/icons_hd/qstsa3q4.png",
     "rewardImage": null,
-    "reward": null,
+    "reward": {
+      "en": "A permanent +5 stat points.",
+      "zh-TW": "永久 +5 屬性點。",
+      "zh-CN": "永久 +5 属性点。"
+    },
     "itemImage": "items/hd/lam_esens_tome.png",
     "name": {
       "en": "Lam Esen's Tome",
@@ -665,7 +677,7 @@
     "act": 3,
     "order": 5,
     "optional": false,
-    "icon": "quests/icons_color/qstsa3q5.png",
+    "icon": "quests/icons_hd/qstsa3q5.png",
     "rewardImage": null,
     "reward": null,
     "itemImage": null,
@@ -703,7 +715,7 @@
     "act": 3,
     "order": 6,
     "optional": false,
-    "icon": "quests/icons_color/qstsa3q6.png",
+    "icon": "quests/icons_hd/qstsa3q6.png",
     "rewardImage": null,
     "reward": null,
     "itemImage": "items/hd/mephisto_soul_stone.png",
@@ -741,9 +753,13 @@
     "act": 4,
     "order": 1,
     "optional": true,
-    "icon": "quests/icons_color/qstsa4q1.png",
+    "icon": "quests/icons_hd/qstsa4q1.png",
     "rewardImage": null,
-    "reward": null,
+    "reward": {
+      "en": "A permanent +2 skill points.",
+      "zh-TW": "永久 +2 技能點。",
+      "zh-CN": "永久 +2 技能点。"
+    },
     "itemImage": null,
     "name": {
       "en": "The Fallen Angel",
@@ -779,9 +795,13 @@
     "act": 4,
     "order": 2,
     "optional": true,
-    "icon": "quests/icons_color/qstsa4q3.png",
+    "icon": "quests/icons_hd/qstsa4q2.png",
     "rewardImage": null,
-    "reward": null,
+    "reward": {
+      "en": "Destroying the Hellforge with Hephasto's hammer drops Gems and Runes.",
+      "zh-TW": "用赫菲斯托的鎚子摧毀地獄鍛爐，會掉落寶石與符文。",
+      "zh-CN": "用赫菲斯托的锤子摧毁地狱熔炉，会掉落宝石与符文。"
+    },
     "itemImage": "items/hd/mephisto_soul_stone.png",
     "name": {
       "en": "Hell's Forge",
@@ -817,7 +837,7 @@
     "act": 4,
     "order": 3,
     "optional": false,
-    "icon": "quests/icons_color/qstsa4q2.png",
+    "icon": "quests/icons_hd/qstsa4q3.png",
     "rewardImage": null,
     "reward": null,
     "itemImage": null,
@@ -845,16 +865,36 @@
     "act": 5,
     "order": 1,
     "optional": true,
-    "icon": "quests/icons_color/qstsa5q1.png",
+    "icon": "quests/icons_hd/qstsa5q1.png",
     "rewardImage": null,
-    "reward": null,
+    "reward": {
+      "en": "Larzuk adds sockets to a normal item you bring him, up to the maximum allowed for that base item, item type, and the item's creation level (\"ilvl\", determined by the source that dropped it). Magic items receive 1 or 2 sockets, weighted by the normal socketing odds; Set, Rare, Unique, and Crafted items receive exactly 1 socket. Usable once.",
+      "zh-TW": "拉爾祖克會為您帶去的普通物品加上鑲孔，數量上限取決於基礎物品、物品類型，以及物品的（產生）等級（即「ilvl」，由掉落來源決定）。魔法物品會獲得 1 或 2 個鑲孔（機率與一般鑲孔規則相同）；套裝、稀有、獨特與精製物品固定獲得 1 個鑲孔。此服務僅可使用一次。",
+      "zh-CN": "拉尔祖克会为你带去的普通物品加上镶孔，数量上限取决于基础物品、物品类型，以及物品的（产生）等级（即「ilvl」，由掉落来源决定）。魔法物品会获得 1 或 2 个镶孔（几率与一般镶孔规则相同）；套装、稀有、独特与精制物品固定获得 1 个镶孔。此服务仅可使用一次。"
+    },
     "itemImage": null,
     "name": {
       "en": "Siege on Harrogath",
       "zh-TW": "哈洛加斯圍城戰",
       "zh-CN": "哈洛加斯围城战"
     },
-    "objectives": []
+    "objectives": [
+      {
+        "en": "Stop the Siege by killing Shenk the Overseer in the Bloody Foothills.",
+        "zh-TW": "在血腥丘陵擊敗監工申克，阻止圍城戰。",
+        "zh-CN": "在血腥丘陵击败监工申克，阻止围城战。"
+      },
+      {
+        "en": "Kill Shenk the Overseer.",
+        "zh-TW": "擊殺監工申克。",
+        "zh-CN": "击杀监工申克。"
+      },
+      {
+        "en": "Go talk to Larzuk for your reward.",
+        "zh-TW": "去找拉爾祖克領取獎賞。",
+        "zh-CN": "去找拉尔祖克领取奖励。"
+      }
+    ]
   },
   {
     "id": 22622,
@@ -862,7 +902,7 @@
     "act": 5,
     "order": 2,
     "optional": true,
-    "icon": "quests/icons_color/qstsa5q2.png",
+    "icon": "quests/icons_hd/qstsa5q2.png",
     "rewardImage": null,
     "reward": null,
     "itemImage": null,
@@ -900,9 +940,13 @@
     "act": 5,
     "order": 3,
     "optional": true,
-    "icon": "quests/icons_color/qstsa5q3.png",
+    "icon": "quests/icons_hd/qstsa5q3.png",
     "rewardImage": null,
-    "reward": null,
+    "reward": {
+      "en": "All Resistances +10 (Scroll of Resistance), plus a Rare class-specific item for the class you're playing.",
+      "zh-TW": "全抗性 +10（抗性卷軸），並獲得一件符合您目前職業的稀有職業專屬物品。",
+      "zh-CN": "全抗性 +10（抗性卷轴），并获得一件符合你当前职业的稀有职业专属物品。"
+    },
     "itemImage": null,
     "name": {
       "en": "Prison of Ice",
@@ -948,9 +992,13 @@
     "act": 5,
     "order": 4,
     "optional": true,
-    "icon": "quests/icons_color/qstsa5q4.png",
+    "icon": "quests/icons_hd/qstsa5q4.png",
     "rewardImage": null,
-    "reward": null,
+    "reward": {
+      "en": "Unlocks Personalize: adds your character's name to an item. The item is also fully repaired and recharged in the process.",
+      "zh-TW": "解鎖「刻名」服務：將您角色的名字刻在物品上，過程中該物品也會完全修復並充能。",
+      "zh-CN": "解锁「刻名」服务：将你角色的名字刻在物品上，过程中该物品也会完全修复并充能。"
+    },
     "itemImage": null,
     "name": {
       "en": "Betrayal of Harrogath",
@@ -991,12 +1039,12 @@
     "act": 5,
     "order": 5,
     "optional": false,
-    "icon": "quests/icons_color/qstsa5q5.png",
-    "rewardImage": "items/hd/token_of_absolution.png",
+    "icon": "quests/icons_hd/qstsa5q5.png",
+    "rewardImage": null,
     "reward": {
-      "en": "The Token of Absolution: a full free respec of skill and stat points (once per difficulty).",
-      "zh-TW": "赦免的證物：一次免費的技能與屬性點完全重置（每個難度可使用一次）。",
-      "zh-CN": "赦免的证物：一次免费的技能与属性点完全重置（每个难度可使用一次）。"
+      "en": "A one-time experience bonus for completing the quest (requires character Level 20+ in Normal, 40+ in Nightmare, 60+ in Hell to receive credit): 1,400,000 XP in Normal, 20,000,000 XP in Nightmare, 40,000,000 XP in Hell.",
+      "zh-TW": "獲得一次性經驗值獎勵（須角色等級達到：普通 20 級以上、惡夢 40 級以上、地獄 60 級以上才能獲得）：普通 1,400,000 經驗值、惡夢 20,000,000 經驗值、地獄 40,000,000 經驗值。",
+      "zh-CN": "获得一次性经验值奖励（须角色等级达到：普通 20 级以上、噩梦 40 级以上、地狱 60 级以上才能获得）：普通 1,400,000 经验值、噩梦 20,000,000 经验值、地狱 40,000,000 经验值。"
     },
     "itemImage": null,
     "name": {
@@ -1028,7 +1076,7 @@
     "act": 5,
     "order": 6,
     "optional": false,
-    "icon": "quests/icons_color/qstsa5q6.png",
+    "icon": "quests/icons_hd/qstsa5q6.png",
     "rewardImage": null,
     "reward": null,
     "itemImage": null,
