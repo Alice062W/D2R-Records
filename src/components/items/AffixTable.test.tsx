@@ -1,8 +1,10 @@
+// src/components/items/AffixTable.test.tsx
 import { describe, it, expect } from 'vitest';
-import { render, screen, fireEvent } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import { NextIntlClientProvider } from 'next-intl';
 import AffixTable from './AffixTable';
 import messages from '../../../messages/en.json';
+import type { Affix } from '@/lib/grail/affixCatalog';
 
 function renderTable(props: React.ComponentProps<typeof AffixTable>) {
   return render(
@@ -12,67 +14,99 @@ function renderTable(props: React.ComponentProps<typeof AffixTable>) {
   );
 }
 
+function affix(overrides: Partial<Affix>): Affix {
+  return {
+    name: 'Rugged',
+    alvl: 8,
+    group: 1,
+    itemTypes: ['boots'],
+    stats: [{ key: 'ac', label: 'Defense', template: '%+d Defense', min: 5, max: 10, isSkillRef: false, signed: true }],
+    ...overrides,
+  };
+}
+
 describe('AffixTable', () => {
-  it('renders prefix and suffix sections with affix rows', () => {
+  it('renders prefix and suffix section headings', () => {
     renderTable({
-      prefixes: [{ name: 'Rugged', alvl: 8, min: 5, max: 10, itemTypes: ['boots'] }],
-      suffixes: [{ name: 'of Protection', alvl: 18, min: 1, max: 20, itemTypes: ['boots'] }],
+      prefixes: [affix({ name: 'Rugged' })],
+      suffixes: [affix({ name: 'of Protection', group: 2 })],
     });
     expect(screen.getByText('Prefixes')).toBeInTheDocument();
-    expect(screen.getByText('Rugged')).toBeInTheDocument();
-    expect(screen.getByText('of Protection')).toBeInTheDocument();
+    expect(screen.getByText('Suffixes')).toBeInTheDocument();
   });
 
-  it('groups same-named affixes into a single collapsed row showing the highest-alvl tier', () => {
+  it('shows every tier as its own row, without collapsing same-name tiers', () => {
     renderTable({
       prefixes: [
-        { name: 'Rugged', alvl: 1, min: 1, max: 3, itemTypes: ['boots'] },
-        { name: 'Rugged', alvl: 8, min: 5, max: 10, itemTypes: ['boots', 'gloves'] },
-        { name: 'Rugged', alvl: 16, min: 20, max: 20, itemTypes: ['boots'] },
+        affix({ name: 'Rugged', alvl: 1, group: 1, stats: [{ key: 'ac', label: 'Defense', template: '%+d Defense', min: 1, max: 3, isSkillRef: false, signed: true }] }),
+        affix({ name: 'Rugged', alvl: 8, group: 1, stats: [{ key: 'ac', label: 'Defense', template: '%+d Defense', min: 5, max: 10, isSkillRef: false, signed: true }] }),
+        affix({ name: 'Rugged', alvl: 16, group: 1, stats: [{ key: 'ac', label: 'Defense', template: '%+d Defense', min: 20, max: 20, isSkillRef: false, signed: true }] }),
       ],
       suffixes: [],
     });
-    // Only one "Rugged" row rendered (grouped), not three.
-    expect(screen.getAllByText('Rugged')).toHaveLength(1);
-    // Collapsed row shows the highest-alvl tier's value (alvl 16, 20-20).
-    expect(screen.getByText('Alvl 16')).toBeInTheDocument();
-    expect(screen.getByText('20–20')).toBeInTheDocument();
-    // Lower tiers are not visible until expanded.
-    expect(screen.queryByText('Alvl 1')).not.toBeInTheDocument();
-    expect(screen.queryByText('1–3')).not.toBeInTheDocument();
+    // Every tier's own formatted text is visible at once -- nothing collapsed.
+    expect(screen.getByText('+1–3 Defense')).toBeInTheDocument();
+    expect(screen.getByText('+5–10 Defense')).toBeInTheDocument();
+    expect(screen.getByText('+20 Defense')).toBeInTheDocument();
   });
 
-  it('expands a grouped row on click to reveal every tier with alvl, item types, and range', () => {
+  it('groups affixes sharing a group id into one box, with the highest-alvl member as the header', () => {
+    renderTable({
+      prefixes: [],
+      suffixes: [
+        affix({
+          name: 'of Health', alvl: 7, group: 1,
+          stats: [{ key: 'red-dmg', label: 'Damage Reduced', template: 'Damage Reduced by %d', min: 3, max: 5, isSkillRef: false }],
+        }),
+        affix({
+          name: 'of Protection', alvl: 18, group: 1,
+          stats: [{ key: 'red-dmg', label: 'Damage Reduced', template: 'Damage Reduced by %d', min: 6, max: 10, isSkillRef: false }],
+        }),
+      ],
+    });
+    // Header uses the higher-alvl "of Protection", evaluated at its own max (10).
+    expect(screen.getByText(/of Protection.*Damage Reduced by 10/)).toBeInTheDocument();
+    // Both rows' own text still visible inside the box.
+    expect(screen.getByText('Damage Reduced by 3–5')).toBeInTheDocument();
+    expect(screen.getByText('Damage Reduced by 6–10')).toBeInTheDocument();
+  });
+
+  it('renders multiple stat lines for a multi-stat affix', () => {
     renderTable({
       prefixes: [
-        { name: 'Rugged', alvl: 1, min: 1, max: 3, itemTypes: ['boots'] },
-        { name: 'Rugged', alvl: 16, min: 20, max: 20, itemTypes: ['boots', 'gloves'] },
+        affix({
+          name: 'Composite', alvl: 20, group: 5,
+          stats: [
+            { key: 'str', label: 'Strength', template: '%+d to Strength', min: 10, max: 10, isSkillRef: false, signed: true },
+            { key: 'dex', label: 'Dexterity', template: '%+d to Dexterity', min: 5, max: 5, isSkillRef: false, signed: true },
+          ],
+        }),
       ],
       suffixes: [],
     });
-    const toggle = screen.getByRole('button', { name: /Rugged/ });
-    expect(toggle).toHaveAttribute('aria-expanded', 'false');
-
-    fireEvent.click(toggle);
-
-    expect(toggle).toHaveAttribute('aria-expanded', 'true');
-    expect(screen.getByText('Alvl 1')).toBeInTheDocument();
-    expect(screen.getByText('1–3')).toBeInTheDocument();
-    // Both tier alvls now visible (collapsed row's 16 + expanded row's 16 + 1).
-    expect(screen.getAllByText('Alvl 16').length).toBeGreaterThanOrEqual(1);
-
-    fireEvent.click(toggle);
-    expect(toggle).toHaveAttribute('aria-expanded', 'false');
-    expect(screen.queryByText('Alvl 1')).not.toBeInTheDocument();
+    expect(screen.getByText('+10 to Strength')).toBeInTheDocument();
+    expect(screen.getByText('+5 to Dexterity')).toBeInTheDocument();
   });
 
-  it('does not render a chevron/expand toggle for a single-tier affix', () => {
+  it('falls back to "label: range" when a stat has no template', () => {
     renderTable({
-      prefixes: [{ name: 'Solitary', alvl: 5, min: 1, max: 2, itemTypes: ['rings'] }],
+      prefixes: [
+        affix({
+          name: 'Obscure', alvl: 3, group: 9,
+          stats: [{ key: 'weird', label: 'Weird Stat', template: null, min: 1, max: 2, isSkillRef: false }],
+        }),
+      ],
       suffixes: [],
     });
-    const toggle = screen.getByRole('button', { name: /Solitary/ });
-    expect(toggle).not.toHaveAttribute('aria-expanded');
-    expect(toggle).toBeDisabled();
+    expect(screen.getByText('Weird Stat: 1–2')).toBeInTheDocument();
+  });
+
+  it('lays out prefixes and suffixes as a two-column grid container', () => {
+    const { container } = renderTable({
+      prefixes: [affix({ name: 'Rugged' })],
+      suffixes: [affix({ name: 'of Protection', group: 2 })],
+    });
+    const grid = container.firstElementChild as HTMLElement;
+    expect(grid.className).toContain('lg:grid-cols-2');
   });
 });
