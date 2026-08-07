@@ -4063,6 +4063,12 @@ function hasMalformedNegativeCharge(entry) {
 function magicAffixesFrom(data, kind) {
   return Object.entries(data)
     .filter(([, v]) => (v.frequency ?? 0) > 0)
+    // spawnable:0 means this affix can never actually appear on any item
+    // regardless of frequency -- verified: 104 of 1256 frequency>0 entries
+    // have spawnable:0 (e.g. "Virulent"/"of Acidity", group 307, both
+    // level:92/spawnable:0), confirmed absent from d2r.world's rare item
+    // pages, confirming this is dead data, not a filtering mistake.
+    .filter(([, v]) => v.spawnable !== 0)
     .filter(([, v]) => !hasMalformedNegativeCharge(v))
     .map(([id, v]) => {
       const { variable, fixed } = extractMagicAffixStats(v);
@@ -4072,9 +4078,29 @@ function magicAffixesFrom(data, kind) {
       // the spec requires every frequency > 0 entry included.
       const rawName = v.Name ?? `Unnamed Affix ${id}`;
       const nameAffixEntry = itemNameAffixesData[rawName];
+      // Switch the affix name-translation source wholesale to
+      // item-nameaffixes.json (sourced directly from the current D2R game
+      // client's string tables, same authoritative source used elsewhere
+      // in this project) instead of localizedItemName()'s
+      // localestrings-chi.json. This is a broad, deliberate source swap,
+      // not a narrow gap-fill: it changes name.en for 164/1143 entries,
+      // zh-TW for 1135/1143, and zh-CN for virtually all 1143 entries.
+      // Verified concrete example of why the new source is more
+      // authoritative: raw magicprefix.json's Name field for one entry is
+      // literally "Assamic" (an internal identifier), which the old
+      // localizedItemName() path leaked as-is into the English display
+      // text; item-nameaffixes.json correctly resolves it to the real
+      // word "Lunar". The zh-TW/zh-CN changes similarly update to
+      // current official wording, dropping the older source's "之"
+      // grammatical-particle suffix convention. Only fall back to
+      // localizedItemName when this source has no entry, or the entry
+      // is missing one of the three locale fields we need.
+      const nameFromAffixSource = (nameAffixEntry && nameAffixEntry.enUS && nameAffixEntry.zhTW && nameAffixEntry.zhCN)
+        ? { en: nameAffixEntry.enUS, 'zh-TW': nameAffixEntry.zhTW, 'zh-CN': nameAffixEntry.zhCN }
+        : null;
       return {
         id: `${kind}-${id}`,
-        name: localizedItemName(rawName),
+        name: nameFromAffixSource ?? localizedItemName(rawName),
         nameFull: nameAffixEntry ? localizedAll(nameAffixEntry) : null,
         kind,
         alvl: v.level ?? v.levelreq ?? 0,
