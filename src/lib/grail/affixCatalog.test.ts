@@ -67,4 +67,26 @@ describe('affixCatalog', () => {
       expect(groups[i - 1].headerAffix.alvl).toBeGreaterThanOrEqual(groups[i].headerAffix.alvl);
     }
   });
+
+  it('groupAffixesByExclusivity lists every distinct property at its best value when all members are simple stats', () => {
+    const { suffixes } = getAffixesForCategory('magic', 'rings', 'en');
+    const groups = groupAffixesByExclusivity(suffixes);
+    const sunGroup = groups.find(g => g.affixes.some(a => a.name === 'of the Sun'))!;
+    expect(sunGroup).toBeDefined();
+    // "of the Sun" has 2 real stats (Light Radius, Attack Rating%) -- both
+    // should appear in the header text, not just the first.
+    expect(sunGroup.headerText).toContain('Light Radius');
+    expect(sunGroup.headerText).toMatch(/Attack Rating/i);
+  });
+
+  it('groupAffixesByExclusivity uses a general title (name only) for groups containing a skill-referencing stat', () => {
+    const { suffixes } = getAffixesForCategory('magic', 'rings', 'en');
+    const groups = groupAffixesByExclusivity(suffixes);
+    const chainLightningAffix = suffixes.find(s => s.stats.some(st => st.isSkillRef));
+    expect(chainLightningAffix).toBeDefined();
+    const skillGroup = groups.find(g => g.affixes.some(a => a.name === chainLightningAffix!.name))!;
+    expect(skillGroup).toBeDefined();
+    // General title -- just the header affix's own name, no appended value.
+    expect(skillGroup.headerText).toBe(skillGroup.headerAffix.name);
+  });
 });

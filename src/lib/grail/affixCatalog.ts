@@ -9,6 +9,7 @@ export interface AffixStat {
   key: string;
   label: string;
   template: string | null;
+  composedText?: string;
   min: number;
   max: number;
   isSkillRef: boolean;
@@ -58,6 +59,8 @@ export function getAffixesForCategory(
       template: (s.template as Record<string, string> | null)?.[locale]
         ?? (s.template as Record<string, string> | null)?.en
         ?? null,
+      composedText: (s.composedText as Record<string, string> | undefined)?.[locale]
+        ?? (s.composedText as Record<string, string> | undefined)?.en,
       min: s.min,
       max: s.max,
       isSkillRef: s.isSkillRef,
@@ -73,11 +76,18 @@ export function getAffixesForCategory(
 // Buckets a flat affix list by their shared `group` (mutual-exclusivity)
 // field -- affixes sharing a group id can never both roll on the same
 // item. Every affix belongs to some group (verified: none are 0 in the
-// data), including singleton groups of 1. Each group's `headerAffix` is
-// its own highest-alvl member; `headerText` is that affix's name plus its
-// first stat's formatted text evaluated at its own max value (a compact
-// label, not a full multi-stat list, even for multi-stat header affixes).
-// Groups are sorted by header alvl descending (highest-level first).
+// data), including singleton groups of 1.
+//
+// headerText computation (verified against 2 real cases): if every
+// stat across every member is a simple (non-skill-referencing) stat,
+// list each DISTINCT stat key's best (highest min/max) value across the
+// whole group -- fixes both "of the Sun" (2 real, comparable stats, only
+// the first was shown) and heterogeneous groups like the 3-element
+// absorb family (fire/cold/lightning, same alvl, arbitrarily picking one
+// as "the" representative made no sense since they're not comparable).
+// If ANY member has a skill-referencing stat, use a general title (just
+// the highest-alvl affix's own name, no computed value) -- "best value"
+// is meaningless for a group of e.g. 213 different granted skills.
 export function groupAffixesByExclusivity(affixes: Affix[]): AffixGroup[] {
   const byGroup = new Map<number, Affix[]>();
   for (const a of affixes) {
@@ -89,11 +99,27 @@ export function groupAffixesByExclusivity(affixes: Affix[]): AffixGroup[] {
   for (const members of byGroup.values()) {
     const sorted = [...members].sort((a, b) => b.alvl - a.alvl);
     const headerAffix = sorted[0];
-    const headerStat = headerAffix.stats[0];
-    const headerText = headerStat
-      ? `${headerAffix.name} — ${formatAffixStatText({ ...headerStat, min: headerStat.max, max: headerStat.max })}`
-      : headerAffix.name;
+    const hasSkillRef = members.some(a => a.stats.some(s => s.isSkillRef));
+    const headerText = hasSkillRef ? headerAffix.name : bestPropertiesHeaderText(members, headerAffix);
     groups.push({ headerAffix, headerText, affixes: sorted });
   }
   return groups.sort((a, b) => b.headerAffix.alvl - a.headerAffix.alvl);
+}
+
+// For a group of simple (non-skill-ref) affixes: find every distinct
+// stat `key` used by ANY member, and for each key, the single highest
+// min/max pair achieved by any member carrying that key -- format each
+// via formatAffixStatText and join them. Falls back to just the header
+// affix's name if it has no stats at all (shouldn't happen in practice).
+function bestPropertiesHeaderText(members: Affix[], headerAffix: Affix): string {
+  const bestByKey = new Map<string, AffixStat>();
+  for (const affix of members) {
+    for (const stat of affix.stats) {
+      const existing = bestByKey.get(stat.key);
+      if (!existing || stat.max > existing.max) bestByKey.set(stat.key, stat);
+    }
+  }
+  if (bestByKey.size === 0) return headerAffix.name;
+  const propertyTexts = Array.from(bestByKey.values()).map(stat => formatAffixStatText(stat));
+  return `${headerAffix.name} — ${propertyTexts.join(', ')}`;
 }

@@ -64,8 +64,9 @@ describe('AffixTable', () => {
         }),
       ],
     });
-    // Header uses the higher-alvl "of Protection", evaluated at its own max (10).
-    expect(screen.getByText(/of Protection.*Damage Reduced by 10/)).toBeInTheDocument();
+    // Header uses the higher-alvl "of Protection" name, with the best (highest-max)
+    // member's own full range for the shared stat key (6-10, from "of Protection").
+    expect(screen.getByText(/of Protection.*Damage Reduced by 6–10/)).toBeInTheDocument();
     // Both rows' own text still visible inside the box.
     expect(screen.getByText('Damage Reduced by 3–5')).toBeInTheDocument();
     expect(screen.getByText('Damage Reduced by 6–10')).toBeInTheDocument();
