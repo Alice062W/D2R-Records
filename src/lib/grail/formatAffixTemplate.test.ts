@@ -29,6 +29,14 @@ describe('substituteTemplate', () => {
   it('returns the template unchanged when it has no recognized placeholder', () => {
     expect(substituteTemplate('Indestructible', 1, 1)).toBe('Indestructible');
   });
+
+  it('substitutes a +#% placeholder (the dmg% English-only fallback template) as a signed range', () => {
+    expect(substituteTemplate('+#% Enhanced Damage', 10, 20)).toBe('+10–20% Enhanced Damage');
+  });
+
+  it('substitutes a +#% placeholder as a signed single value when min === max', () => {
+    expect(substituteTemplate('+#% Enhanced Damage', 15, 15)).toBe('+15% Enhanced Damage');
+  });
 });
 
 describe('formatAffixStatText', () => {
