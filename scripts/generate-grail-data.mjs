@@ -3862,7 +3862,15 @@ const COMPOSED_SKILL_TEMPLATES = {
   // min:50/max:1 -> "Level 1 Lightning (50/50 Charges)" is the sane
   // reading; the reverse, "Level 50, 1 charge," would be absurdly
   // overpowered and contradicts typical D2 charged-item design).
-  charged: { descKey: 'ModStre10d', args: (min, max, skill) => [max, skill, min, min] },
+  // A confirmed-legitimate subset of group-44 "charged" rows store both
+  // numbers negative (verified: suffix-549 "of Frozen Orbs", min:-20/
+  // max:-1, itype1:"knif", spawnable:1, DOES appear on d2r.world's dagger
+  // page -- so the negative sign is a storage/encoding quirk, not proof
+  // of dead data, unlike the already-excluded itype-less Barbarian rows
+  // hasMalformedNegativeCharge() removes). Math.abs() here just displays
+  // the correct magnitude regardless of stored sign, matching the
+  // positive-value case exactly (a no-op for already-positive rows).
+  charged: { descKey: 'ModStre10d', args: (min, max, skill) => [Math.abs(max), skill, Math.abs(min), Math.abs(min)] },
 };
 
 // Produces a fully-composed, all-14-language sentence for the 4 codes

@@ -542,15 +542,36 @@ describe('magic-affixes.json', () => {
     expect(magicAffixesData.every(a => !a.itemTypes.includes('bar'))).toBe(true);
   });
 
-  it('keeps valid itype-restricted "charged" entries even though their mod value is negative (e.g. Daggers\' "of Frozen Orbs")', () => {
-    // magicsuffix.json id 549 ("of Frozen Orbs") has mod1code "charged" with
+  it('keeps valid itype-restricted "charged" entries even though their mod value is negative (e.g. Daggers\' "of Frozen Orb")', () => {
+    // magicsuffix.json id 549 (raw Name "of Frozen Orbs") has mod1code "charged" with
     // negative min/max (-20/-1), same as the malformed Barbarian rows — but it DOES
     // carry an itype restriction (itype1 "knif" -> daggers/throwingKnives), so per
     // hasMalformedNegativeCharge's scoping (missing itype is required, not just a
-    // negative value) it must be kept, not excluded.
-    const frozenOrbs = magicAffixesData.filter(a => a.name.en === 'of Frozen Orbs');
-    expect(frozenOrbs.length).toBeGreaterThan(0);
-    expect(frozenOrbs.some(a => a.itemTypes.includes('daggers'))).toBe(true);
+    // negative value) it must be kept, not excluded. Its real display name (via
+    // item-nameaffixes.json, switched to in the affix-refinements work) is the
+    // singular "of Frozen Orb", not the raw magicsuffix.json Name's "of Frozen Orbs".
+    const frozenOrb = magicAffixesData.filter(a => a.name.en === 'of Frozen Orb');
+    expect(frozenOrb.length).toBeGreaterThan(0);
+    expect(frozenOrb.some(a => a.itemTypes.includes('daggers'))).toBe(true);
+  });
+
+  it('displays "charged" stats using positive magnitude even when the source stores both values negative', () => {
+    // Some legitimate (spawnable, itype-restricted) "charged" rows store both
+    // mod1min/mod1max negative (verified: "of Frozen Orb" above, and suffix-586
+    // "of Attraction" -> display name "of Attract", min:-60/max:-5) -- confirmed
+    // "of Frozen Orb" IS shown on d2r.world's dagger page despite the negative
+    // storage, so the sign is a storage/encoding quirk, not a validity signal.
+    // composedSkillRefText's charged args must Math.abs() both values so the
+    // composed sentence never shows a nonsensical negative level/charge count.
+    const frozenOrb = magicAffixesData.find(a => a.name.en === 'of Frozen Orb');
+    const chargedStat = frozenOrb?.stats.find(s => s.key.startsWith('charged'));
+    expect(chargedStat?.composedText?.en).toMatch(/^Level \d+ .+ \(\d+\/\d+ Charges\)$/);
+    expect(chargedStat?.composedText?.en).not.toMatch(/-/);
+
+    const attract = magicAffixesData.find(a => a.name.en === 'of Attract');
+    const attractStat = attract?.stats.find(s => s.key.startsWith('charged'));
+    expect(attractStat?.composedText?.en).toMatch(/^Level \d+ .+ \(\d+\/\d+ Charges\)$/);
+    expect(attractStat?.composedText?.en).not.toMatch(/-/);
   });
 });
 
@@ -681,14 +702,16 @@ describe('magic-affixes.json ancestor-closure category expansion', () => {
   });
 
   it('expands an Amazon-class-only restriction onto exactly the three Amazon weapon categories', () => {
-    // NOTE: "of Slow Missiles" is not a unique name — magicsuffix.json id 476 has
-    // itype1: 'amaz' (the one this test targets) and a SEPARATE id 477 also named
-    // "of Slow Missiles" has itype1: 'glov' (Gloves) instead. Both become distinct
-    // entries in magic-affixes.json (this project doesn't dedupe by name), so find the
-    // specific one with 3 itemTypes, not just the first name match.
+    // NOTE: raw magicsuffix.json Name "of Slow Missiles" is not unique — id 476 has
+    // itype1: 'amaz' (the one this test targets) and a SEPARATE id 477 also has that
+    // raw Name with itype1: 'glov' (Gloves) instead. Both become distinct entries in
+    // magic-affixes.json (this project doesn't dedupe by name), so find the specific
+    // one with 3 itemTypes, not just the first name match. Real display name (via
+    // item-nameaffixes.json, switched to in the affix-refinements work) is the
+    // singular "of Slow Missile", not the raw Name's plural "of Slow Missiles".
     const amazVariant = magicAffixesData.find(
       (a: { name: { en: string }; itemTypes: string[] }) =>
-        a.name.en === 'of Slow Missiles' && a.itemTypes.length === 3
+        a.name.en === 'of Slow Missile' && a.itemTypes.length === 3
     );
     expect(amazVariant).toBeDefined();
     expect(amazVariant!.itemTypes.sort()).toEqual(['amazonBows', 'amazonJavelins', 'amazonSpears'].sort());
