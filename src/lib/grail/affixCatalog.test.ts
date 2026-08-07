@@ -89,4 +89,29 @@ describe('affixCatalog', () => {
     // General title -- just the header affix's own name, no appended value.
     expect(skillGroup.headerText).toBe(skillGroup.headerAffix.name);
   });
+
+  it('groupAffixesByExclusivity picks the most extreme (not least-negative) value for negative-is-better stats', () => {
+    // "ease" group (Requirements% reduction): "of Simplicity" (alvl 25, -30%,
+    // the strongest roll), "of Ease" (alvl 15, -20%), "of Freedom" (alvl 1,
+    // -15%, the weakest). Naive `max > existing.max` picks -15% (wrong --
+    // the weakest roll) and wrongly attaches it to "of Simplicity"'s name.
+    const { suffixes } = getAffixesForCategory('magic', 'armors', 'en');
+    const groups = groupAffixesByExclusivity(suffixes);
+    const easeGroup = groups.find(g => g.affixes.some(a => a.name === 'of Simplicity'))!;
+    expect(easeGroup).toBeDefined();
+    expect(easeGroup.headerAffix.name).toBe('of Simplicity');
+    expect(easeGroup.headerText).toContain('-30');
+    expect(easeGroup.headerText).not.toContain('-15');
+  });
+
+  it('groupAffixesByExclusivity falls back to a general title when a group has too many distinct stat keys', () => {
+    // Grand Charm skill-tab-bonus group: dozens of prefixes, one per skill
+    // tab (skilltab:0..23+), none of which are isSkillRef -- would otherwise
+    // produce an unreadably long comma-joined header.
+    const { prefixes } = getAffixesForCategory('magic', 'grandCharms', 'en');
+    const groups = groupAffixesByExclusivity(prefixes);
+    const skillTabGroup = groups.find(g => g.affixes.length > 10)!;
+    expect(skillTabGroup).toBeDefined();
+    expect(skillTabGroup.headerText).toBe(skillTabGroup.headerAffix.name);
+  });
 });

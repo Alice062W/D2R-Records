@@ -116,10 +116,19 @@ function bestPropertiesHeaderText(members: Affix[], headerAffix: Affix): string 
   for (const affix of members) {
     for (const stat of affix.stats) {
       const existing = bestByKey.get(stat.key);
-      if (!existing || stat.max > existing.max) bestByKey.set(stat.key, stat);
+      // Compare by magnitude, not raw value -- within an exclusivity group,
+      // higher-alvl tiers always get numerically MORE EXTREME (further from
+      // zero), regardless of whether the stat is "negative is better"
+      // (e.g. Requirements% reduction: -30% at alvl 25 beats -15% at alvl 1).
+      if (!existing || Math.abs(stat.max) > Math.abs(existing.max)) bestByKey.set(stat.key, stat);
     }
   }
-  if (bestByKey.size === 0) return headerAffix.name;
+  // Cap at a small number of distinct properties -- beyond this, listing
+  // them all produces an unreadable wall of text (verified: group 125's
+  // skill-tab-bonus affixes have 24-29 distinct stat-key variants, one
+  // per skill tab). Fall back to the general title in that case, same
+  // as the skill-ref branch.
+  if (bestByKey.size === 0 || bestByKey.size > 3) return headerAffix.name;
   const propertyTexts = Array.from(bestByKey.values()).map(stat => formatAffixStatText(stat));
   return `${headerAffix.name} — ${propertyTexts.join(', ')}`;
 }
