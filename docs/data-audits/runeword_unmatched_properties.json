@@ -1,0 +1,632 @@
+[
+ {
+  "runeword": "Authority",
+  "text_en": "+20% Faster Hit Recovery",
+  "section": null
+ },
+ {
+  "runeword": "Authority",
+  "text_en": "Requirements -15%",
+  "section": null
+ },
+ {
+  "runeword": "Bramble",
+  "text_en": "+5% to Maximum Cold Resist",
+  "section": null
+ },
+ {
+  "runeword": "Brand",
+  "text_en": "Fires Explosive Arrows or Bolts 15",
+  "section": null
+ },
+ {
+  "runeword": "Breath of the Dying",
+  "text_en": "Requirements -20%",
+  "section": null
+ },
+ {
+  "runeword": "Chains of Honor",
+  "text_en": "Physical Damage Received Reduced by 8%",
+  "section": null
+ },
+ {
+  "runeword": "Crescent Moon",
+  "text_en": "+20% Increased Attack Speed",
+  "section": null
+ },
+ {
+  "runeword": "Crescent Moon",
+  "text_en": "+9-11 Magic Absorb",
+  "section": null
+ },
+ {
+  "runeword": "Death",
+  "text_en": "+(0.5-49.5)% Deadly Strike (Based on Character Level)",
+  "section": null,
+  "reason": "per_level_needs_manual_rate_calc"
+ },
+ {
+  "runeword": "Death",
+  "text_en": "Requirements -20%",
+  "section": null
+ },
+ {
+  "runeword": "Doom",
+  "text_en": "- 40-60% to Enemy Cold Resistance",
+  "section": null
+ },
+ {
+  "runeword": "Doom",
+  "text_en": "Requirements -20%",
+  "section": null
+ },
+ {
+  "runeword": "Dragon",
+  "text_en": "+(0.375-37.125) to Strength (Based on Character Level)",
+  "section": null,
+  "reason": "per_level_needs_manual_rate_calc"
+ },
+ {
+  "runeword": "Dragon",
+  "text_en": "Increase Maximum Mana 5% (Armor Only)",
+  "section": null,
+  "reason": "no_dict_entry"
+ },
+ {
+  "runeword": "Dragon",
+  "text_en": "+50 to Mana (Shields Only)",
+  "section": null,
+  "reason": "no_dict_entry"
+ },
+ {
+  "runeword": "Dream",
+  "text_en": "Increase Maximum Life 5% (Helms Only)",
+  "section": null,
+  "reason": "no_dict_entry"
+ },
+ {
+  "runeword": "Dream",
+  "text_en": "+50 to Life (Shields Only)",
+  "section": null,
+  "reason": "no_dict_entry"
+ },
+ {
+  "runeword": "Dream",
+  "text_en": "+(0.625-61.875) to Mana (Based on Character Level)",
+  "section": null,
+  "reason": "per_level_needs_manual_rate_calc"
+ },
+ {
+  "runeword": "Duress",
+  "text_en": "+40% Faster Hit Recovery",
+  "section": null
+ },
+ {
+  "runeword": "Edge",
+  "text_en": "+75 poison damage over 5 seconds",
+  "section": null
+ },
+ {
+  "runeword": "Enigma",
+  "text_en": "+(0-74) to Strength (Based on Character Level)",
+  "section": null,
+  "reason": "per_level_needs_manual_rate_calc"
+ },
+ {
+  "runeword": "Enigma",
+  "text_en": "Physical Damage Received Reduced by 8%",
+  "section": null
+ },
+ {
+  "runeword": "Enigma",
+  "text_en": "(1-99)% Better Chance of Getting Magic Items (Based on Character Level)",
+  "section": null,
+  "reason": "per_level_needs_manual_rate_calc"
+ },
+ {
+  "runeword": "Eternity",
+  "text_en": "Hit Blinds Target",
+  "section": null
+ },
+ {
+  "runeword": "Exile",
+  "text_en": "+2 to Offensive Auras (Paladin Only)",
+  "section": null
+ },
+ {
+  "runeword": "Exile",
+  "text_en": "Freezes target",
+  "section": null
+ },
+ {
+  "runeword": "Exile",
+  "text_en": "+5% to Maximum Cold Resist",
+  "section": null
+ },
+ {
+  "runeword": "Exile",
+  "text_en": "+5% to Maximum Fire Resist",
+  "section": null
+ },
+ {
+  "runeword": "Faith",
+  "text_en": "+120 fire damage",
+  "section": null
+ },
+ {
+  "runeword": "Faith",
+  "text_en": "10% Reanimate as: Returned",
+  "section": null
+ },
+ {
+  "runeword": "Flickering Flame",
+  "text_en": "- 10-15% to Enemy Fire Resistance",
+  "section": null
+ },
+ {
+  "runeword": "Flickering Flame",
+  "text_en": "+5% to Maximum Fire Resist",
+  "section": null
+ },
+ {
+  "runeword": "Fortitude",
+  "text_en": "Hit Causes Monster to Flee +25%",
+  "section": "Weapons"
+ },
+ {
+  "runeword": "Fortitude",
+  "text_en": "+1-148.5 to Life (Based on Character Level)",
+  "section": null,
+  "reason": "per_level_needs_manual_rate_calc"
+ },
+ {
+  "runeword": "Fury",
+  "text_en": "+5 to Frenzy (Barbarian Only)",
+  "section": null
+ },
+ {
+  "runeword": "Grief",
+  "text_en": "+(1.875-185.625)% Damage to Demons (Based on Character Level)",
+  "section": null,
+  "reason": "per_level_needs_manual_rate_calc"
+ },
+ {
+  "runeword": "Grief",
+  "text_en": "- 20-25% to Enemy Poison Resistance",
+  "section": null
+ },
+ {
+  "runeword": "Hand of Justice",
+  "text_en": "Hit Blinds Target",
+  "section": null
+ },
+ {
+  "runeword": "Holy Thunder",
+  "text_en": "+75 poison damage over 5 seconds",
+  "section": null
+ },
+ {
+  "runeword": "Holy Thunder",
+  "text_en": "+3 to Holy Shock (Paladin Only)",
+  "section": null
+ },
+ {
+  "runeword": "Ice",
+  "text_en": "+20% Increased Attack Speed",
+  "section": null
+ },
+ {
+  "runeword": "Ice",
+  "text_en": "(3.125-309.375)% Extra Gold from Monsters (Based on Character Level)",
+  "section": null,
+  "reason": "per_level_needs_manual_rate_calc"
+ },
+ {
+  "runeword": "Infinity",
+  "text_en": "- 45-55% to Enemy Lightning Resistance",
+  "section": null
+ },
+ {
+  "runeword": "Infinity",
+  "text_en": "+(0.5-49.5) to Vitality (Based on Character Level)",
+  "section": null,
+  "reason": "per_level_needs_manual_rate_calc"
+ },
+ {
+  "runeword": "Insight",
+  "text_en": "+75 poison damage over 5 seconds",
+  "section": null
+ },
+ {
+  "runeword": "Last Wish",
+  "text_en": "Hit Blinds Target",
+  "section": null
+ },
+ {
+  "runeword": "Last Wish",
+  "text_en": "(0.5-49.5)% Better Chance of Getting Magic Items (Based on Character Level)",
+  "section": null,
+  "reason": "per_level_needs_manual_rate_calc"
+ },
+ {
+  "runeword": "Leaf",
+  "text_en": "+3 to Fire Bolt (Sorceress Only)",
+  "section": null
+ },
+ {
+  "runeword": "Leaf",
+  "text_en": "+3 to Inferno (Sorceress Only)",
+  "section": null
+ },
+ {
+  "runeword": "Leaf",
+  "text_en": "+3 to Warmth (Sorceress Only)",
+  "section": null
+ },
+ {
+  "runeword": "Leaf",
+  "text_en": "+(2-198) Defense (Based on Character Level)",
+  "section": null,
+  "reason": "per_level_needs_manual_rate_calc"
+ },
+ {
+  "runeword": "Lionheart",
+  "text_en": "Requirements -15%",
+  "section": null
+ },
+ {
+  "runeword": "Lore",
+  "text_en": "+1 to All Skill Levels",
+  "section": null
+ },
+ {
+  "runeword": "Malice",
+  "text_en": "-100 to Monster Defense Per Hit",
+  "section": null
+ },
+ {
+  "runeword": "Malice",
+  "text_en": "Drain Life -5",
+  "section": null
+ },
+ {
+  "runeword": "Melody",
+  "text_en": "+3 to Bow and Crossbow Skills (Amazon Only)",
+  "section": null
+ },
+ {
+  "runeword": "Melody",
+  "text_en": "+3 to Critical Strike (Amazon Only)",
+  "section": null
+ },
+ {
+  "runeword": "Melody",
+  "text_en": "+3 to Dodge (Amazon Only)",
+  "section": null
+ },
+ {
+  "runeword": "Melody",
+  "text_en": "+3 to Slow Missiles (Amazon Only)",
+  "section": null
+ },
+ {
+  "runeword": "Melody",
+  "text_en": "+20% Increased Attack Speed",
+  "section": null
+ },
+ {
+  "runeword": "Memory",
+  "text_en": "+3 to Energy Shield (Sorceress Only)",
+  "section": null
+ },
+ {
+  "runeword": "Memory",
+  "text_en": "+2 to Static Field (Sorceress Only)",
+  "section": null
+ },
+ {
+  "runeword": "Mist",
+  "text_en": "+20% Increased Attack Speed",
+  "section": null
+ },
+ {
+  "runeword": "Myth",
+  "text_en": "Attacker Takes Damage of 14",
+  "section": null
+ },
+ {
+  "runeword": "Myth",
+  "text_en": "Requirements -15%",
+  "section": null
+ },
+ {
+  "runeword": "Oath",
+  "text_en": "+50% Increased Attack Speed",
+  "section": null
+ },
+ {
+  "runeword": "Oath",
+  "text_en": "+10-15 Magic Absorb",
+  "section": null
+ },
+ {
+  "runeword": "Obedience",
+  "text_en": "Requirements -20%",
+  "section": null
+ },
+ {
+  "runeword": "Passion",
+  "text_en": "Hit Causes Monster to Flee +25%",
+  "section": null
+ },
+ {
+  "runeword": "Pattern",
+  "text_en": "+75 poison damage over 5 seconds",
+  "section": null
+ },
+ {
+  "runeword": "Peace",
+  "text_en": "+20% Faster Hit Recovery",
+  "section": null
+ },
+ {
+  "runeword": "Peace",
+  "text_en": "Attacker Takes Damage of 14",
+  "section": null
+ },
+ {
+  "runeword": "Phoenix",
+  "text_en": "+10% to Maximum Fire Resist",
+  "section": "Shields"
+ },
+ {
+  "runeword": "Plague",
+  "text_en": "+20% Increased Attack Speed",
+  "section": null
+ },
+ {
+  "runeword": "Plague",
+  "text_en": "+(0-37)% Deadly Strike (Based on Character Level)",
+  "section": null,
+  "reason": "per_level_needs_manual_rate_calc"
+ },
+ {
+  "runeword": "Pride",
+  "text_en": "+(1-99)% Damage to Demons (Based on Character Level)",
+  "section": null,
+  "reason": "per_level_needs_manual_rate_calc"
+ },
+ {
+  "runeword": "Pride",
+  "text_en": "Hit Blinds Target",
+  "section": null
+ },
+ {
+  "runeword": "Pride",
+  "text_en": "(1.875-185.625)% Extra Gold from Monsters (Based on Character Level)",
+  "section": null,
+  "reason": "per_level_needs_manual_rate_calc"
+ },
+ {
+  "runeword": "Principle",
+  "text_en": "+5% to Maximum Poison Resist",
+  "section": null
+ },
+ {
+  "runeword": "Rift",
+  "text_en": "Requirements -20%",
+  "section": null
+ },
+ {
+  "runeword": "Silence",
+  "text_en": "Requirements -20%",
+  "section": null
+ },
+ {
+  "runeword": "Silence",
+  "text_en": "Hit Causes Monster to Flee +25%",
+  "section": null
+ },
+ {
+  "runeword": "Spirit",
+  "text_en": "Attacker Takes Damage of 14",
+  "section": "Shields"
+ },
+ {
+  "runeword": "Spirit",
+  "text_en": "+75 poison damage over 5 seconds",
+  "section": "Weapons"
+ },
+ {
+  "runeword": "Spirit",
+  "text_en": "+3-8 Magic Absorb",
+  "section": null
+ },
+ {
+  "runeword": "Stone",
+  "text_en": "+60% Faster Hit Recovery",
+  "section": null
+ },
+ {
+  "runeword": "Treachery",
+  "text_en": "+20% Faster Hit Recovery",
+  "section": null
+ },
+ {
+  "runeword": "Unbending Will",
+  "text_en": "+3 to Combat Skills (Barbarian Only)",
+  "section": null,
+  "reason": "no_dict_entry"
+ },
+ {
+  "runeword": "Unbending Will",
+  "text_en": "Requirements -20%",
+  "section": null
+ },
+ {
+  "runeword": "Venom",
+  "text_en": "Hit Causes Monster to Flee +25%",
+  "section": null
+ },
+ {
+  "runeword": "Venom",
+  "text_en": "+273 poison damage over 6 seconds",
+  "section": null
+ },
+ {
+  "runeword": "White",
+  "text_en": "Hit Causes Monster to Flee +25%",
+  "section": null
+ },
+ {
+  "runeword": "White",
+  "text_en": "+3 to Poison and Bone Skills (Necromancer Only)",
+  "section": null
+ },
+ {
+  "runeword": "White",
+  "text_en": "+3 to Bone Armor (Necromancer Only)",
+  "section": null
+ },
+ {
+  "runeword": "White",
+  "text_en": "+2 to Bone Spear (Necromancer Only)",
+  "section": null
+ },
+ {
+  "runeword": "White",
+  "text_en": "+4 to Skeleton Mastery (Necromancer Only)",
+  "section": null
+ },
+ {
+  "runeword": "Wind",
+  "text_en": "Hit Blinds Target",
+  "section": null
+ },
+ {
+  "runeword": "Hysteria",
+  "text_en": "+20% Faster Hit Recovery",
+  "section": "Body Armor"
+ },
+ {
+  "runeword": "Hysteria",
+  "text_en": "+30% Increased Attack Speed",
+  "section": "Weapons"
+ },
+ {
+  "runeword": "Hysteria",
+  "text_en": "+10 to Dexterity Ladder Only",
+  "section": null
+ },
+ {
+  "runeword": "Mosaic",
+  "text_en": "+2 to Martial Arts (Assassin Only)",
+  "section": null,
+  "reason": "no_dict_entry"
+ },
+ {
+  "runeword": "Mosaic",
+  "text_en": "Prevent Monster Heal Non-Ladder Only",
+  "section": null
+ },
+ {
+  "runeword": "Metamorphosis",
+  "text_en": "Werewolf strikes grant Mark for 180 seconds",
+  "section": null
+ },
+ {
+  "runeword": "Metamorphosis",
+  "text_en": "Werebear strikes grant Mark for 180 seconds",
+  "section": null
+ },
+ {
+  "runeword": "Metamorphosis",
+  "text_en": "+5 to Shape Shifting Skills (Druid Only)",
+  "section": null
+ },
+ {
+  "runeword": "Metamorphosis",
+  "text_en": "Cannot Be Frozen Mark of the Wolf:",
+  "section": null
+ },
+ {
+  "runeword": "Metamorphosis",
+  "text_en": "Increase Maximum Life 40% Mark of the Bear:",
+  "section": null
+ },
+ {
+  "runeword": "Metamorphosis",
+  "text_en": "+25% Attack Speed",
+  "section": null
+ },
+ {
+  "runeword": "Metamorphosis",
+  "text_en": "Physical Damage Received Reduced by 20% Ladder Only",
+  "section": null
+ },
+ {
+  "runeword": "Ground",
+  "text_en": "+20% Faster Hit Recovery",
+  "section": null
+ },
+ {
+  "runeword": "Ground",
+  "text_en": "Lightning Absorb +10-15% Ladder Only",
+  "section": null
+ },
+ {
+  "runeword": "Temper",
+  "text_en": "+20% Faster Hit Recovery",
+  "section": null
+ },
+ {
+  "runeword": "Temper",
+  "text_en": "Fire Absorb +10-15% Ladder Only",
+  "section": null
+ },
+ {
+  "runeword": "Hearth",
+  "text_en": "+20% Faster Hit Recovery",
+  "section": null
+ },
+ {
+  "runeword": "Hearth",
+  "text_en": "Cold Absorb +10-15%",
+  "section": null
+ },
+ {
+  "runeword": "Hearth",
+  "text_en": "Cannot Be Frozen Ladder Only",
+  "section": null
+ },
+ {
+  "runeword": "Cure",
+  "text_en": "+20% Faster Hit Recovery",
+  "section": null
+ },
+ {
+  "runeword": "Cure",
+  "text_en": "Poison Length Reduced by 50% Ladder Only",
+  "section": null
+ },
+ {
+  "runeword": "Bulwark",
+  "text_en": "+20% Faster Hit Recovery",
+  "section": null
+ },
+ {
+  "runeword": "Bulwark",
+  "text_en": "Physical Damage Received Reduced by 10-15% Ladder Only",
+  "section": null
+ },
+ {
+  "runeword": "Vigilance",
+  "text_en": "+5% to Maximum Poison Resist",
+  "section": null
+ },
+ {
+  "runeword": "Ritual",
+  "text_en": "+40% Increased Attack Speed",
+  "section": null
+ }
+]

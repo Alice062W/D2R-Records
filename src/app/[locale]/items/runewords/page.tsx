@@ -2,12 +2,16 @@
 
 import { useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
-import runewordsFull from '../../../../../data/runewords.json';
+import runewordsBase from '../../../../../data/runewords.json';
+import runewordOverrides from '../../../../../data/runeword-overrides.json';
 import RunewordFilters, { type ModeFilter } from '@/components/items/RunewordFilters';
 import RunewordList from '@/components/items/RunewordList';
 import CollectionBadge from '@/components/items/CollectionBadge';
 import CollectionSummaryBar from '@/components/items/CollectionSummaryBar';
 import { useOwnedItems } from '@/lib/grail/useOwnedItems';
+import { applyRunewordOverrides } from '@/lib/grail/applyRunewordOverrides';
+
+const runewordsFull = applyRunewordOverrides(runewordsBase, runewordOverrides);
 
 const ALL_ITEM_TYPES = Array.from(new Set(runewordsFull.flatMap(rw => rw.itemTypes))).sort();
 const ALL_RUNEWORD_IDS = runewordsFull.map(rw => rw.id);

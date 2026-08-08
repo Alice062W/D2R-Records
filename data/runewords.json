@@ -6286,7 +6286,7 @@
       {
         "code": "dmg-ac",
         "label": {
-          "en": "--100 to Monster Defense Per Hit",
+          "en": "-100 to Monster Defense Per Hit",
           "zh-TW": "擊中使怪物防禦 -100",
           "zh-CN": "-100 每一击降低的怪物防御"
         },
