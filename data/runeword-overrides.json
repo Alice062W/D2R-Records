@@ -29,40 +29,20 @@
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
       {
-        "code": "res-cold",
-        "label": {
-          "en": "Cold Resist +43%",
-          "zh-TW": "冰寒抗性 +43%",
-          "zh-CN": "冰霜抗性 +43%",
-          "de": "Kältewiderstand +43%",
-          "es": "+43% de resistencia al frío",
-          "fr": "Résistance au Froid : +43%",
-          "it": "+43% resistenza al freddo",
-          "ja": "冷気耐性（+43%）",
-          "ko": "냉기 저항 +43%",
-          "pl": "+43% do odporności na zimno",
-          "pt": "Resistência a gelo +43%",
-          "ru": "+43% к сопротивлению льду"
-        },
-        "min": 43,
-        "max": 43,
-        "variable": false
-      },
-      {
         "code": "res-fire",
         "label": {
           "en": "Fire Resist +48%",
-          "zh-TW": "火焰抗性 +48+48%",
-          "zh-CN": "火焰抗性 +48+48%",
-          "de": "Feuerwiderstand +48+48%",
-          "es": "+48+48% de resistencia al fuego",
-          "fr": "Résistance au Feu : +48+48%",
-          "it": "+48+48% resistenza al fuoco",
-          "ja": "火炎耐性（+48+48%）",
-          "ko": "화염 저항 +48+48%",
-          "pl": "+48+48% do odporności na ogień",
-          "pt": "Resistência a fogo +48+48%",
-          "ru": "+48+48% к сопротивлению огню"
+          "zh-TW": "火焰抗性 +48%",
+          "zh-CN": "火焰抗性 +48%",
+          "de": "Feuerwiderstand +48%",
+          "es": "+48% de resistencia al fuego",
+          "fr": "Résistance au Feu : +48%",
+          "it": "+48% resistenza al fuoco",
+          "ja": "火炎耐性（+48%）",
+          "ko": "화염 저항 +48%",
+          "pl": "+48% do odporności na ogień",
+          "pt": "Resistência a fogo +48%",
+          "ru": "+48% к сопротивлению огню"
         },
         "min": 48,
         "max": 48,
@@ -107,25 +87,27 @@
         "min": 48,
         "max": 48,
         "variable": false
-      },
+      }
+    ],
+    "replaceStats": [
       {
-        "code": "dmg-to-mana",
+        "code": "res-cold",
         "label": {
-          "en": "+10% Damage Taken Goes To Mana",
-          "zh-TW": "+10% 受到的傷害轉為法力",
-          "zh-CN": "+10% 受到的伤害转换为法力",
-          "de": "+10% erlittenen Schadens geht auf Mana",
-          "es": "Un +10% del daño sufrido se recupera como maná",
-          "fr": "+10% des dégâts subis sont soustraits au mana",
-          "it": "Il +10% dei danni subiti è sul mana",
-          "ja": "受けたダメージの+10%をマナに変換",
-          "ko": "받는 피해의 +10%만큼 마나 회복",
-          "pl": "+10% otrzymanych obrażeń przechodzi na manę",
-          "pt": "+10% do dano recebido transforma-se em mana",
-          "ru": "+10% к урону, приходящемуся на ману"
+          "en": "Cold Resist +43%",
+          "zh-TW": "冰寒抗性 +43%",
+          "zh-CN": "冰霜抗性 +43%",
+          "de": "Kältewiderstand +43%",
+          "es": "+43% de resistencia al frío",
+          "fr": "Résistance au Froid : +43%",
+          "it": "+43% resistenza al freddo",
+          "ja": "冷気耐性（+43%）",
+          "ko": "냉기 저항 +43%",
+          "pl": "+43% do odporności na zimno",
+          "pt": "Resistência a gelo +43%",
+          "ru": "+43% к сопротивлению льду"
         },
-        "min": 10,
-        "max": 10,
+        "min": 43,
+        "max": 43,
         "variable": false
       }
     ]
@@ -139,17 +121,17 @@
         "code": "res-fire",
         "label": {
           "en": "Fire Resist +30%",
-          "zh-TW": "火焰抗性 +30+30%",
-          "zh-CN": "火焰抗性 +30+30%",
-          "de": "Feuerwiderstand +30+30%",
-          "es": "+30+30% de resistencia al fuego",
-          "fr": "Résistance au Feu : +30+30%",
-          "it": "+30+30% resistenza al fuoco",
-          "ja": "火炎耐性（+30+30%）",
-          "ko": "화염 저항 +30+30%",
-          "pl": "+30+30% do odporności na ogień",
-          "pt": "Resistência a fogo +30+30%",
-          "ru": "+30+30% к сопротивлению огню"
+          "zh-TW": "火焰抗性 +30%",
+          "zh-CN": "火焰抗性 +30%",
+          "de": "Feuerwiderstand +30%",
+          "es": "+30% de resistencia al fuego",
+          "fr": "Résistance au Feu : +30%",
+          "it": "+30% resistenza al fuoco",
+          "ja": "火炎耐性（+30%）",
+          "ko": "화염 저항 +30%",
+          "pl": "+30% do odporności na ogień",
+          "pt": "Resistência a fogo +30%",
+          "ru": "+30% к сопротивлению огню"
         },
         "min": 30,
         "max": 30,
@@ -270,43 +252,23 @@
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
       {
-        "code": "crush",
-        "label": {
-          "en": "+40% Chance of Crushing Blow",
-          "zh-TW": "+40% 機率造成粉碎打擊",
-          "zh-CN": "+40% 几率粉碎打击",
-          "de": "+40% Chance auf vernichtenden Schlag",
-          "es": "+40% de probabilidad de ataque aplastante",
-          "fr": "+40% de chances de coup écrasant",
-          "it": "Probabilità di colpo frantumante +40%",
-          "ja": "クラッシング・ブロー（+40%）",
-          "ko": "강타 확률 +40%",
-          "pl": "+40% do szansy na druzgocące uderzenie",
-          "pt": "+40% de chance de Golpe Esmagador",
-          "ru": "+40% к вероятности нанести сокрушительный удар"
-        },
-        "min": 40,
-        "max": 40,
-        "variable": false
-      },
-      {
         "code": "dmg-cold",
         "label": {
           "en": "Adds 3-14 cold damage",
-          "zh-TW": "冰寒傷害：+3 - -14 點",
-          "zh-CN": "冰霜伤害: +3-14",
-          "de": "Kälteschaden: +3-14",
-          "es": "Daño de frío: +3-14 p.",
-          "fr": "Dégâts de Froid : +3-14",
-          "it": "Danni da freddo: +3-14",
-          "ja": "冷気ダメージ: +3 - -14",
-          "ko": "냉기 피해: +3-14",
-          "pl": "Obrażenia od zimna: +3-14",
-          "pt": "Dano gélido: +3-14",
-          "ru": "Урон от льда: +3–-14"
+          "zh-TW": "冰寒傷害：3 - 14 點",
+          "zh-CN": "冰霜伤害: 3-14",
+          "de": "Kälteschaden: 3-14",
+          "es": "Daño de frío: 3-14 p.",
+          "fr": "Dégâts de Froid : 3-14",
+          "it": "Danni da freddo: 3-14",
+          "ja": "冷気ダメージ: 3 - 14",
+          "ko": "냉기 피해: 3-14",
+          "pl": "Obrażenia od zimna: 3-14",
+          "pt": "Dano gélido: 3-14",
+          "ru": "Урон от льда: 3–14"
         },
         "min": 3,
-        "max": -14,
+        "max": 14,
         "variable": true
       },
       {
@@ -380,17 +342,17 @@
         "code": "red-dmg",
         "label": {
           "en": "Damage Reduced by 7",
-          "zh-TW": "傷害降低 +7",
-          "zh-CN": "伤害降低 +7",
-          "de": "Schaden reduziert um +7",
-          "es": "Daño reducido en +7 p.",
-          "fr": "Dégâts réduits de +7",
-          "it": "Danni ridotti di +7",
-          "ja": "ダメージを軽減（+7）",
-          "ko": "피해 +7 감소",
-          "pl": "Zmniejsza otrzymywane obrażenia o +7 pkt.",
-          "pt": "Dano reduzido em +7",
-          "ru": "–+7 к урону"
+          "zh-TW": "傷害降低 7",
+          "zh-CN": "伤害降低 7",
+          "de": "Schaden reduziert um 7",
+          "es": "Daño reducido en 7 p.",
+          "fr": "Dégâts réduits de 7",
+          "it": "Danni ridotti di 7",
+          "ja": "ダメージを軽減（7）",
+          "ko": "피해 7 감소",
+          "pl": "Zmniejsza otrzymywane obrażenia o 7 pkt.",
+          "pt": "Dano reduzido em 7",
+          "ru": "–7 к урону"
         },
         "min": 7,
         "max": 7,
@@ -407,16 +369,16 @@
         "code": "mana%",
         "label": {
           "en": "Increase Maximum Mana 5%",
-          "zh-TW": "法力上限提高 +5%",
+          "zh-TW": "法力上限提高 5%",
           "zh-CN": "+5% 法力最大值",
-          "de": "Erhöht max. Mana +5%",
-          "es": "Aumenta el maná máximo un +5%",
-          "fr": "Augmente les points de mana max. de +5%",
-          "it": "Mana massimo aumentato del +5%",
-          "ja": "マナの最大値上昇（+5%）",
-          "ko": "최대 마나 +5% 증가",
+          "de": "Erhöht max. Mana 5%",
+          "es": "Aumenta el maná máximo un 5%",
+          "fr": "Augmente les points de mana max. de 5%",
+          "it": "Mana massimo aumentato del 5%",
+          "ja": "マナの最大値上昇（5%）",
+          "ko": "최대 마나 5% 증가",
           "pl": "+5% do maksymalnej wartości punktów many",
-          "pt": "Aumenta o máximo de mana em +5%",
+          "pt": "Aumenta o máximo de mana em 5%",
           "ru": "+5% к максимальному запасу маны"
         },
         "min": 5,
@@ -427,17 +389,17 @@
         "code": "regen-mana",
         "label": {
           "en": "Regenerate Mana 15%",
-          "zh-TW": "法力恢復 +15%",
-          "zh-CN": "+15% 法力回复",
-          "de": "Mana regenerieren +15%",
-          "es": "+15% de regeneración de maná",
-          "fr": "Rend +15% de mana",
-          "it": "Rigenerazione del mana aumentata del +15%",
+          "zh-TW": "法力恢復 15%",
+          "zh-CN": "15% 法力回复",
+          "de": "Mana regenerieren 15%",
+          "es": "15% de regeneración de maná",
+          "fr": "Rend 15% de mana",
+          "it": "Rigenerazione del mana aumentata del 15%",
           "ja": "マナ回復速度上昇（+15%）",
-          "ko": "마나 재생 +15%",
+          "ko": "마나 재생 15%",
           "pl": "+15% do regeneracji many",
-          "pt": "Regenera mana em +15%",
-          "ru": "Восполняет +15% маны"
+          "pt": "Regenera mana em 15%",
+          "ru": "Восполняет 15% маны"
         },
         "min": 15,
         "max": 15,
@@ -447,17 +409,17 @@
         "code": "res-fire",
         "label": {
           "en": "Fire Resist +30%",
-          "zh-TW": "火焰抗性 +30+30%",
-          "zh-CN": "火焰抗性 +30+30%",
-          "de": "Feuerwiderstand +30+30%",
-          "es": "+30+30% de resistencia al fuego",
-          "fr": "Résistance au Feu : +30+30%",
-          "it": "+30+30% resistenza al fuoco",
-          "ja": "火炎耐性（+30+30%）",
-          "ko": "화염 저항 +30+30%",
-          "pl": "+30+30% do odporności na ogień",
-          "pt": "Resistência a fogo +30+30%",
-          "ru": "+30+30% к сопротивлению огню"
+          "zh-TW": "火焰抗性 +30%",
+          "zh-CN": "火焰抗性 +30%",
+          "de": "Feuerwiderstand +30%",
+          "es": "+30% de resistencia al fuego",
+          "fr": "Résistance au Feu : +30%",
+          "it": "+30% resistenza al fuoco",
+          "ja": "火炎耐性（+30%）",
+          "ko": "화염 저항 +30%",
+          "pl": "+30% do odporności na ogień",
+          "pt": "Resistência a fogo +30%",
+          "ru": "+30% к сопротивлению огню"
         },
         "min": 30,
         "max": 30,
@@ -494,16 +456,16 @@
         "code": "att%",
         "label": {
           "en": "20% Bonus to Attack Rating",
-          "zh-TW": "+20% 準確率加成",
-          "zh-CN": "+20% 加成命中值",
-          "de": "+20% Bonus zu Angriffswert",
-          "es": "+20% de bonus al índice de ataque",
-          "fr": "+20% de bonus au score d’attaque",
-          "it": "Indice d'attacco aumentato del +20%",
-          "ja": "命中率へのボーナス（+20%）",
-          "ko": "명중률 보너스 +20%",
-          "pl": "+20% premii do skuteczności ataku",
-          "pt": "+20% de bônus de taxa de ataque",
+          "zh-TW": "20% 準確率加成",
+          "zh-CN": "20% 加成命中值",
+          "de": "20% Bonus zu Angriffswert",
+          "es": "20% de bonus al índice de ataque",
+          "fr": "20% de bonus au score d’attaque",
+          "it": "Indice d'attacco aumentato del 20%",
+          "ja": "命中率へのボーナス（20%）",
+          "ko": "명중률 보너스 20%",
+          "pl": "20% premii do skuteczności ataku",
+          "pt": "20% de bônus de taxa de ataque",
           "ru": "+20% к рейтингу атаки"
         },
         "min": 20,
@@ -538,26 +500,6 @@
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
       {
-        "code": "kill-skill",
-        "label": {
-          "en": "50% Chance to cast level 20 Poison Nova when you Kill an Enemy",
-          "zh-TW": "當你殺敵時有 +50% 機率施展等級 +50 劇毒新星",
-          "zh-CN": "+50% 几率在消灭一名敌人时施放+50级剧毒新星",
-          "de": "+50% Chance, beim Töten eines Gegners Stufe  +50 Giftnova auszulösen",
-          "es": "+50% de probabilidad de lanzar Nova de veneno de nivel +50 al matar a un enemigo",
-          "fr": "+50% de chances de lancer Nova empoisonnée - niv. +50 quand vous tuez un ennemi",
-          "it": "Probabilità del +50% di lanciare a livello +50 Nova Velenosa quando uccidi un nemico",
-          "ja": "敵を倒すと+50%の確率で〈ポイズンノヴァ〉（レベル+50）を発動",
-          "ko": "적 처치 시 +50% 확률로 +50 레벨 맹독 확산 시전",
-          "pl": "+50% szansy na rzucenie +50-poziomowego zaklęcia Trująca Nova kiedy zabijasz wroga",
-          "pt": "+50% de chance de lançar Nova Venenosa de nível +50 quando você abate um inimigo",
-          "ru": "Вероятность +50% применить умение «Кольцо яда» +50-го уровня при убийстве"
-        },
-        "min": 50,
-        "max": 50,
-        "variable": false
-      },
-      {
         "code": "indestruct",
         "label": {
           "en": "Indestructible",
@@ -575,26 +517,6 @@
         },
         "min": 1,
         "max": 1,
-        "variable": false
-      },
-      {
-        "code": "dmg-undead",
-        "label": {
-          "en": "+200% Damage to Undead",
-          "zh-TW": "+200% 對不死怪物的傷害",
-          "zh-CN": "+200% 对亡灵的伤害",
-          "de": "+200% Schaden gegen Untote",
-          "es": "+200% de daño contra muertos vivientes",
-          "fr": "Dégâts contre les Morts-vivants : +200%",
-          "it": "+200% danni ai non morti",
-          "ja": "アンデッドへのダメージ（+200%）",
-          "ko": "언데드에게 주는 피해 +200%",
-          "pl": "+200% do obrażeń zadanych nieumarłym",
-          "pt": "+200% de dano contra mortos-vivos",
-          "ru": "+200% урона по нежити"
-        },
-        "min": 200,
-        "max": 200,
         "variable": false
       },
       {
@@ -661,17 +583,17 @@
         "code": "manasteal",
         "label": {
           "en": "7% Mana stolen per hit",
-          "zh-TW": "擊中竊取 +7% 法力",
-          "zh-CN": "+7% 击中时偷取法力",
-          "de": "+7% abgesaugtes Mana pro Treffer",
-          "es": "+7% de maná robado por golpe",
-          "fr": "+7% de mana volé à chaque coup",
-          "it": "+7% mana rubato per colpo",
-          "ja": "攻撃命中でマナを吸収（与ダメージの+7%）",
-          "ko": "적중당 마나 +7% 훔침",
-          "pl": "+7% many wykradzione za każde trafienie",
-          "pt": "+7% de mana roubado por acerto",
-          "ru": "Похищает +7% маны за удар"
+          "zh-TW": "擊中竊取 7% 法力",
+          "zh-CN": "7% 击中时偷取法力",
+          "de": "7% abgesaugtes Mana pro Treffer",
+          "es": "7% de maná robado por golpe",
+          "fr": "7% de mana volé à chaque coup",
+          "it": "7% mana rubato per colpo",
+          "ja": "攻撃命中でマナを吸収（与ダメージの7%）",
+          "ko": "적중당 마나 7% 훔침",
+          "pl": "7% many wykradzione za każde trafienie",
+          "pt": "7% de mana roubado por acerto",
+          "ru": "Похищает 7% маны за удар"
         },
         "min": 7,
         "max": 7,
@@ -697,6 +619,28 @@
         "max": 1,
         "variable": false
       }
+    ],
+    "replaceStats": [
+      {
+        "code": "dmg-undead",
+        "label": {
+          "en": "+200% Damage to Undead",
+          "zh-TW": "+200% 對不死怪物的傷害",
+          "zh-CN": "+200% 对亡灵的伤害",
+          "de": "+200% Schaden gegen Untote",
+          "es": "+200% de daño contra muertos vivientes",
+          "fr": "Dégâts contre les Morts-vivants : +200%",
+          "it": "+200% danni ai non morti",
+          "ja": "アンデッドへのダメージ（+200%）",
+          "ko": "언데드에게 주는 피해 +200%",
+          "pl": "+200% do obrażeń zadanych nieumarłym",
+          "pt": "+200% de dano contra mortos-vivos",
+          "ru": "+200% урона по нежити"
+        },
+        "min": 200,
+        "max": 200,
+        "variable": false
+      }
     ]
   },
   "runeword-Runeword13": {
@@ -705,60 +649,40 @@
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
       {
-        "code": "dmg%",
-        "label": {
-          "en": "+250-290% Enhanced Damage",
-          "zh-TW": "+250-290% 傷害強化",
-          "zh-CN": "+250-290% 强化伤害",
-          "de": "+250-290% erhöhter Schaden",
-          "es": "+250-290% de daño mejorado",
-          "fr": "+250-290% de dégâts supplémentaires",
-          "it": "+250-290% danni",
-          "ja": "ダメージを強化（+250-290%）",
-          "ko": "피해 +250-290% 증가",
-          "pl": "+250-290% do obrażeń",
-          "pt": "+250-290% de dano aprimorado",
-          "ru": "+250-290% к урону"
-        },
-        "min": 250,
-        "max": -290,
-        "variable": true
-      },
-      {
         "code": "dmg-fire",
         "label": {
           "en": "Adds 5-30 fire damage",
-          "zh-TW": "火焰傷害：+5 - -30 點",
-          "zh-CN": "火焰伤害: +5-30",
-          "de": "Feuerschaden: +5-30",
-          "es": "Daño de fuego: +5-30 p.",
-          "fr": "Dégâts de Feu : +5-30",
-          "it": "Danni da fuoco: +5-30",
-          "ja": "火炎ダメージ: +5 - -30",
-          "ko": "화염 피해: +5-30",
-          "pl": "Obrażenia od ognia: +5-30",
-          "pt": "Dano ígneo: +5-30",
-          "ru": "Урон от огня: +5–-30"
+          "zh-TW": "火焰傷害：5 - 30 點",
+          "zh-CN": "火焰伤害: 5-30",
+          "de": "Feuerschaden: 5-30",
+          "es": "Daño de fuego: 5-30 p.",
+          "fr": "Dégâts de Feu : 5-30",
+          "it": "Danni da fuoco: 5-30",
+          "ja": "火炎ダメージ: 5 - 30",
+          "ko": "화염 피해: 5-30",
+          "pl": "Obrażenia od ognia: 5-30",
+          "pt": "Dano ígneo: 5-30",
+          "ru": "Урон от огня: 5–30"
         },
         "min": 5,
-        "max": -30,
+        "max": 30,
         "variable": true
       },
       {
         "code": "lifesteal",
         "label": {
           "en": "7% Life stolen per hit",
-          "zh-TW": "擊中竊取 +7+7% 生命",
-          "zh-CN": "+7+7% 击中时偷取生命",
-          "de": "+7+7% abgesaugtes Leben pro Treffer",
-          "es": "+7+7% de vida robada por golpe",
-          "fr": "+7+7% de vie volée à chaque coup",
-          "it": "+7+7% vita rubata per colpo",
-          "ja": "攻撃命中でライフを吸収（与ダメージの+7+7%）",
-          "ko": "적중당 생명력 +7+7% 훔침",
-          "pl": "+7+7% zdrowia wykradzione za każde trafienie",
-          "pt": "+7+7% de pontos de vida roubados por acerto",
-          "ru": "Похищает +7+7% здоровья за удар"
+          "zh-TW": "擊中竊取 7% 生命",
+          "zh-CN": "7% 击中时偷取生命",
+          "de": "7% abgesaugtes Leben pro Treffer",
+          "es": "7% de vida robada por golpe",
+          "fr": "7% de vie volée à chaque coup",
+          "it": "7% vita rubata per colpo",
+          "ja": "攻撃命中でライフを吸収（与ダメージの7%）",
+          "ko": "적중당 생명력 7% 훔침",
+          "pl": "7% zdrowia wykradzione za każde trafienie",
+          "pt": "7% de pontos de vida roubados por acerto",
+          "ru": "Похищает 7% здоровья за удар"
         },
         "min": 7,
         "max": 7,
@@ -788,21 +712,43 @@
         "code": "mag%",
         "label": {
           "en": "30% Better Chance of Getting Magic Items",
-          "zh-TW": "尋獲魔法物品機率提高 +30+30%",
-          "zh-CN": "+30+30% 额外几率获得魔法物品",
-          "de": "+30+30% bessere Chance, magischen Gegenstand zu erhalten",
-          "es": "+30+30% de probabilidad de encontrar objetos mágicos",
-          "fr": "+30+30% de chances suppl. d’obtenir des objets magiques",
-          "it": "Probabilità di ottenere un oggetto magico aumentata del +30+30%",
-          "ja": "マジックアイテムドロップ率（+30+30%）",
-          "ko": "마법 아이템 발견 확률 +30+30% 증가",
-          "pl": "+30+30% do szansy na zdobycie magicznych przedmiotów",
-          "pt": "+30+30% de chance adicional de obter itens mágicos",
-          "ru": "+30+30% к вероятности найти магический предмет"
+          "zh-TW": "尋獲魔法物品機率提高 30%",
+          "zh-CN": "30% 额外几率获得魔法物品",
+          "de": "30% bessere Chance, magischen Gegenstand zu erhalten",
+          "es": "+30% de probabilidad de encontrar objetos mágicos",
+          "fr": "30% de chances suppl. d’obtenir des objets magiques",
+          "it": "Probabilità di ottenere un oggetto magico aumentata del 30%",
+          "ja": "マジックアイテムドロップ率（+30%）",
+          "ko": "마법 아이템 발견 확률 30% 증가",
+          "pl": "+30% do szansy na zdobycie magicznych przedmiotów",
+          "pt": "30% de chance adicional de obter itens mágicos",
+          "ru": "+30% к вероятности найти магический предмет"
         },
         "min": 30,
         "max": 30,
         "variable": false
+      }
+    ],
+    "replaceStats": [
+      {
+        "code": "dmg%",
+        "label": {
+          "en": "+250-290% Enhanced Damage",
+          "zh-TW": "+250-290% 傷害強化",
+          "zh-CN": "+250-290% 强化伤害",
+          "de": "+250-290% erhöhter Schaden",
+          "es": "+250-290% de daño mejorado",
+          "fr": "+250-290% de dégâts supplémentaires",
+          "it": "+250-290% danni",
+          "ja": "ダメージを強化（+250-290%）",
+          "ko": "피해 +250-290% 증가",
+          "pl": "+250-290% do obrażeń",
+          "pt": "+250-290% de dano aprimorado",
+          "ru": "+250-290% к урону"
+        },
+        "min": 250,
+        "max": 290,
+        "variable": true
       }
     ]
   },
@@ -832,6 +778,28 @@
         "variable": false
       },
       {
+        "code": "mag%",
+        "label": {
+          "en": "25% Better Chance of Getting Magic Items",
+          "zh-TW": "尋獲魔法物品機率提高 25%",
+          "zh-CN": "25% 额外几率获得魔法物品",
+          "de": "25% bessere Chance, magischen Gegenstand zu erhalten",
+          "es": "+25% de probabilidad de encontrar objetos mágicos",
+          "fr": "25% de chances suppl. d’obtenir des objets magiques",
+          "it": "Probabilità di ottenere un oggetto magico aumentata del 25%",
+          "ja": "マジックアイテムドロップ率（+25%）",
+          "ko": "마법 아이템 발견 확률 25% 증가",
+          "pl": "+25% do szansy na zdobycie magicznych przedmiotów",
+          "pt": "25% de chance adicional de obter itens mágicos",
+          "ru": "+25% к вероятности найти магический предмет"
+        },
+        "min": 25,
+        "max": 25,
+        "variable": false
+      }
+    ],
+    "replaceStats": [
+      {
         "code": "res-all",
         "label": {
           "en": "All Resistances +65",
@@ -850,26 +818,6 @@
         "min": 65,
         "max": 65,
         "variable": false
-      },
-      {
-        "code": "mag%",
-        "label": {
-          "en": "25% Better Chance of Getting Magic Items",
-          "zh-TW": "尋獲魔法物品機率提高 +25+25%",
-          "zh-CN": "+25+25% 额外几率获得魔法物品",
-          "de": "+25+25% bessere Chance, magischen Gegenstand zu erhalten",
-          "es": "+25+25% de probabilidad de encontrar objetos mágicos",
-          "fr": "+25+25% de chances suppl. d’obtenir des objets magiques",
-          "it": "Probabilità di ottenere un oggetto magico aumentata del +25+25%",
-          "ja": "マジックアイテムドロップ率（+25+25%）",
-          "ko": "마법 아이템 발견 확률 +25+25% 증가",
-          "pl": "+25+25% do szansy na zdobycie magicznych przedmiotów",
-          "pt": "+25+25% de chance adicional de obter itens mágicos",
-          "ru": "+25+25% к вероятности найти магический предмет"
-        },
-        "min": 25,
-        "max": 25,
-        "variable": false
       }
     ]
   },
@@ -878,46 +826,6 @@
     "verifiedAt": "2026-08-07",
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
-      {
-        "code": "dmg%",
-        "label": {
-          "en": "+290-340% Enhanced Damage",
-          "zh-TW": "+290-340% 傷害強化",
-          "zh-CN": "+290-340% 强化伤害",
-          "de": "+290-340% erhöhter Schaden",
-          "es": "+290-340% de daño mejorado",
-          "fr": "+290-340% de dégâts supplémentaires",
-          "it": "+290-340% danni",
-          "ja": "ダメージを強化（+290-340%）",
-          "ko": "피해 +290-340% 증가",
-          "pl": "+290-340% do obrażeń",
-          "pt": "+290-340% de dano aprimorado",
-          "ru": "+290-340% к урону"
-        },
-        "min": 290,
-        "max": -340,
-        "variable": true
-      },
-      {
-        "code": "dmg-mag",
-        "label": {
-          "en": "Adds 216-471 magic damage",
-          "zh-TW": "魔法傷害：+216 - -471 點",
-          "zh-CN": "魔法伤害: +216-471",
-          "de": "Magieschaden: +216-471",
-          "es": "Daño mágico: +216-471 p.",
-          "fr": "Dégâts magiques : +216-471",
-          "it": "Danni magici: +216-471",
-          "ja": "魔法ダメージ: +216 - -471",
-          "ko": "마법 피해: +216-471",
-          "pl": "Obrażenia od magii: +216-471",
-          "pt": "Dano mágico: +216-471",
-          "ru": "Магический урон: +216–-471"
-        },
-        "min": 216,
-        "max": -471,
-        "variable": true
-      },
       {
         "code": "openwounds",
         "label": {
@@ -942,21 +850,43 @@
         "code": "str",
         "label": {
           "en": "+10 to Strength",
-          "zh-TW": "+10+10 力量",
-          "zh-CN": "+10+10 力量",
-          "de": "+10+10 zu Stärke",
-          "es": "+10+10 de fuerza",
-          "fr": "+10+10 à la Force",
-          "it": "+10+10 Forza",
-          "ja": "筋力（+10+10）",
-          "ko": "힘 +10+10",
-          "pl": "+10+10 do siły",
-          "pt": "+10+10 de força",
-          "ru": "+10+10 к силе"
+          "zh-TW": "+10 力量",
+          "zh-CN": "+10 力量",
+          "de": "+10 zu Stärke",
+          "es": "+10 de fuerza",
+          "fr": "+10 à la Force",
+          "it": "+10 Forza",
+          "ja": "筋力（+10）",
+          "ko": "힘 +10",
+          "pl": "+10 do siły",
+          "pt": "+10 de força",
+          "ru": "+10 к силе"
         },
         "min": 10,
         "max": 10,
         "variable": false
+      }
+    ],
+    "replaceStats": [
+      {
+        "code": "dmg%",
+        "label": {
+          "en": "+290-340% Enhanced Damage",
+          "zh-TW": "+290-340% 傷害強化",
+          "zh-CN": "+290-340% 强化伤害",
+          "de": "+290-340% erhöhter Schaden",
+          "es": "+290-340% de daño mejorado",
+          "fr": "+290-340% de dégâts supplémentaires",
+          "it": "+290-340% danni",
+          "ja": "ダメージを強化（+290-340%）",
+          "ko": "피해 +290-340% 증가",
+          "pl": "+290-340% do obrażeń",
+          "pt": "+290-340% de dano aprimorado",
+          "ru": "+290-340% к урону"
+        },
+        "min": 290,
+        "max": 340,
+        "variable": true
       }
     ]
   },
@@ -1013,39 +943,19 @@
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
       {
-        "code": "death-skill",
-        "label": {
-          "en": "100% Chance to cast level 44 Chain Lightning when you Die",
-          "zh-TW": "當你死亡時有 +100% 機率施展等級 +100 連鎖閃電",
-          "zh-CN": "+100% 几率在死亡时施放+100级连锁闪电",
-          "de": "+100% Chance, beim Tod Stufe +100 Kettenblitz auszulösen",
-          "es": "+100% de probabilidad de lanzar Cadena de rayos de nivel +100 al morir",
-          "fr": "+100% de chances de lancer Chaîne d’éclairs - niv. +100 quand vous mourez",
-          "it": "Probabilità del +100% di lanciare a livello +100 Catena di Fulmini quando muori",
-          "ja": "死亡時に+100%の確率で〈チェインライトニング〉（レベル+100）を発動",
-          "ko": "사망 시 +100% 확률로 +100 레벨 연쇄 번개 시전",
-          "pl": "+100% szansy na rzucenie +100-poziomowego zaklęcia Seryjne Błyskawice kiedy giniesz",
-          "pt": "+100% de chance de lançar Cadeia de Raios de nível +100 quando você morre",
-          "ru": "Вероятность +100% применить умение «Цепная молния» +100-го уровня после смерти"
-        },
-        "min": 100,
-        "max": 100,
-        "variable": false
-      },
-      {
         "code": "att%",
         "label": {
           "en": "20% Bonus to Attack Rating",
-          "zh-TW": "+20% 準確率加成",
-          "zh-CN": "+20% 加成命中值",
-          "de": "+20% Bonus zu Angriffswert",
-          "es": "+20% de bonus al índice de ataque",
-          "fr": "+20% de bonus au score d’attaque",
-          "it": "Indice d'attacco aumentato del +20%",
-          "ja": "命中率へのボーナス（+20%）",
-          "ko": "명중률 보너스 +20%",
-          "pl": "+20% premii do skuteczności ataku",
-          "pt": "+20% de bônus de taxa de ataque",
+          "zh-TW": "20% 準確率加成",
+          "zh-CN": "20% 加成命中值",
+          "de": "20% Bonus zu Angriffswert",
+          "es": "20% de bonus al índice de ataque",
+          "fr": "20% de bonus au score d’attaque",
+          "it": "Indice d'attacco aumentato del 20%",
+          "ja": "命中率へのボーナス（20%）",
+          "ko": "명중률 보너스 20%",
+          "pl": "20% premii do skuteczności ataku",
+          "pt": "20% de bônus de taxa de ataque",
           "ru": "+20% к рейтингу атаки"
         },
         "min": 20,
@@ -1076,60 +986,40 @@
         "code": "dmg-ltng",
         "label": {
           "en": "Adds 1-50 lightning damage",
-          "zh-TW": "電擊傷害：+1 - -50 點",
-          "zh-CN": "闪电伤害: +1-50",
-          "de": "Blitzschaden: +1-50",
-          "es": "Daño de rayos: +1-50 p.",
-          "fr": "Dégâts de Foudre : +1-50",
-          "it": "Danni da fulmine: +1-50",
-          "ja": "電撃ダメージ: +1 - -50",
-          "ko": "번개 피해: +1-50",
-          "pl": "Obrażenia od błyskawic: +1-50",
-          "pt": "Dano elétrico: +1-50",
-          "ru": "Урон от молнии: +1–-50"
+          "zh-TW": "電擊傷害：1 - 50 點",
+          "zh-CN": "闪电伤害: 1-50",
+          "de": "Blitzschaden: 1-50",
+          "es": "Daño de rayos: 1-50 p.",
+          "fr": "Dégâts de Foudre : 1-50",
+          "it": "Danni da fulmine: 1-50",
+          "ja": "電撃ダメージ: 1 - 50",
+          "ko": "번개 피해: 1-50",
+          "pl": "Obrażenia od błyskawic: 1-50",
+          "pt": "Dano elétrico: 1-50",
+          "ru": "Урон от молнии: 1–50"
         },
         "min": 1,
-        "max": -50,
+        "max": 50,
         "variable": true
       },
       {
         "code": "manasteal",
         "label": {
           "en": "7% Mana stolen per hit",
-          "zh-TW": "擊中竊取 +7% 法力",
-          "zh-CN": "+7% 击中时偷取法力",
-          "de": "+7% abgesaugtes Mana pro Treffer",
-          "es": "+7% de maná robado por golpe",
-          "fr": "+7% de mana volé à chaque coup",
-          "it": "+7% mana rubato per colpo",
-          "ja": "攻撃命中でマナを吸収（与ダメージの+7%）",
-          "ko": "적중당 마나 +7% 훔침",
-          "pl": "+7% many wykradzione za każde trafienie",
-          "pt": "+7% de mana roubado por acerto",
-          "ru": "Похищает +7% маны за удар"
+          "zh-TW": "擊中竊取 7% 法力",
+          "zh-CN": "7% 击中时偷取法力",
+          "de": "7% abgesaugtes Mana pro Treffer",
+          "es": "7% de maná robado por golpe",
+          "fr": "7% de mana volé à chaque coup",
+          "it": "7% mana rubato per colpo",
+          "ja": "攻撃命中でマナを吸収（与ダメージの7%）",
+          "ko": "적중당 마나 7% 훔침",
+          "pl": "7% many wykradzione za każde trafienie",
+          "pt": "7% de mana roubado por acerto",
+          "ru": "Похищает 7% маны за удар"
         },
         "min": 7,
         "max": 7,
-        "variable": false
-      },
-      {
-        "code": "crush",
-        "label": {
-          "en": "+50% Chance of Crushing Blow",
-          "zh-TW": "+50% 機率造成粉碎打擊",
-          "zh-CN": "+50% 几率粉碎打击",
-          "de": "+50% Chance auf vernichtenden Schlag",
-          "es": "+50% de probabilidad de ataque aplastante",
-          "fr": "+50% de chances de coup écrasant",
-          "it": "Probabilità di colpo frantumante +50%",
-          "ja": "クラッシング・ブロー（+50%）",
-          "ko": "강타 확률 +50%",
-          "pl": "+50% do szansy na druzgocące uderzenie",
-          "pt": "+50% de chance de Golpe Esmagador",
-          "ru": "+50% к вероятности нанести сокрушительный удар"
-        },
-        "min": 50,
-        "max": 50,
         "variable": false
       },
       {
@@ -1183,16 +1073,16 @@
         "code": "gold%",
         "label": {
           "en": "50% Extra Gold from Monsters",
-          "zh-TW": "怪物金幣掉落量提高 +50%",
-          "zh-CN": "+50% 怪物额外掉落金币",
-          "de": "+50% Extragold von Monstern",
-          "es": "+50% de oro extra de los monstruos",
-          "fr": "+50% d’or suppl. sur les monstres",
-          "it": "+50% oro extra dai mostri",
+          "zh-TW": "怪物金幣掉落量提高 50%",
+          "zh-CN": "50% 怪物额外掉落金币",
+          "de": "50% Extragold von Monstern",
+          "es": "50% de oro extra de los monstruos",
+          "fr": "50% d’or suppl. sur les monstres",
+          "it": "50% oro extra dai mostri",
           "ja": "モンスターからの獲得ゴールド（+50%）",
-          "ko": "괴물에게서 얻는 금화 +50% 증가",
+          "ko": "괴물에게서 얻는 금화 50% 증가",
           "pl": "+50% dodatkowego złota od potworów",
-          "pt": "+50% de ouro adicional de monstros",
+          "pt": "50% de ouro adicional de monstros",
           "ru": "+50% к золоту за убийство монстров"
         },
         "min": 50,
@@ -1203,17 +1093,17 @@
         "code": "mag%",
         "label": {
           "en": "25% Better Chance of Getting Magic Items",
-          "zh-TW": "尋獲魔法物品機率提高 +25+25%",
-          "zh-CN": "+25+25% 额外几率获得魔法物品",
-          "de": "+25+25% bessere Chance, magischen Gegenstand zu erhalten",
-          "es": "+25+25% de probabilidad de encontrar objetos mágicos",
-          "fr": "+25+25% de chances suppl. d’obtenir des objets magiques",
-          "it": "Probabilità di ottenere un oggetto magico aumentata del +25+25%",
-          "ja": "マジックアイテムドロップ率（+25+25%）",
-          "ko": "마법 아이템 발견 확률 +25+25% 증가",
-          "pl": "+25+25% do szansy na zdobycie magicznych przedmiotów",
-          "pt": "+25+25% de chance adicional de obter itens mágicos",
-          "ru": "+25+25% к вероятности найти магический предмет"
+          "zh-TW": "尋獲魔法物品機率提高 25%",
+          "zh-CN": "25% 额外几率获得魔法物品",
+          "de": "25% bessere Chance, magischen Gegenstand zu erhalten",
+          "es": "+25% de probabilidad de encontrar objetos mágicos",
+          "fr": "25% de chances suppl. d’obtenir des objets magiques",
+          "it": "Probabilità di ottenere un oggetto magico aumentata del 25%",
+          "ja": "マジックアイテムドロップ率（+25%）",
+          "ko": "마법 아이템 발견 확률 25% 증가",
+          "pl": "+25% do szansy na zdobycie magicznych przedmiotów",
+          "pt": "25% de chance adicional de obter itens mágicos",
+          "ru": "+25% к вероятности найти магический предмет"
         },
         "min": 25,
         "max": 25,
@@ -1226,26 +1116,6 @@
     "verifiedAt": "2026-08-07",
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
-      {
-        "code": "death-skill",
-        "label": {
-          "en": "100% Chance to cast level 45 Meteor when you Die",
-          "zh-TW": "當你死亡時有 +100% 機率施展等級 +100 隕石術",
-          "zh-CN": "+100% 几率在死亡时施放+100级陨石术",
-          "de": "+100% Chance, beim Tod Stufe +100 Meteor auszulösen",
-          "es": "+100% de probabilidad de lanzar Meteorito de nivel +100 al morir",
-          "fr": "+100% de chances de lancer Météore - niv. +100 quand vous mourez",
-          "it": "Probabilità del +100% di lanciare a livello +100 Meteora quando muori",
-          "ja": "死亡時に+100%の確率で〈メテオ〉（レベル+100）を発動",
-          "ko": "사망 시 +100% 확률로 +100 레벨 운석 낙하 시전",
-          "pl": "+100% szansy na rzucenie +100-poziomowego zaklęcia Meteor kiedy giniesz",
-          "pt": "+100% de chance de lançar Meteoro de nível +100 quando você morre",
-          "ru": "Вероятность +100% применить умение «Метеорит» +100-го уровня после смерти"
-        },
-        "min": 100,
-        "max": 100,
-        "variable": false
-      },
       {
         "code": "ignore-ac",
         "label": {
@@ -1267,40 +1137,20 @@
         "variable": false
       },
       {
-        "code": "dmg-mag",
-        "label": {
-          "en": "Adds 100-180 magic damage",
-          "zh-TW": "魔法傷害：+100 - -180 點",
-          "zh-CN": "魔法伤害: +100-180",
-          "de": "Magieschaden: +100-180",
-          "es": "Daño mágico: +100-180 p.",
-          "fr": "Dégâts magiques : +100-180",
-          "it": "Danni magici: +100-180",
-          "ja": "魔法ダメージ: +100 - -180",
-          "ko": "마법 피해: +100-180",
-          "pl": "Obrażenia od magii: +100-180",
-          "pt": "Dano mágico: +100-180",
-          "ru": "Магический урон: +100–-180"
-        },
-        "min": 100,
-        "max": -180,
-        "variable": true
-      },
-      {
         "code": "manasteal",
         "label": {
           "en": "7% Mana stolen per hit",
-          "zh-TW": "擊中竊取 +7% 法力",
-          "zh-CN": "+7% 击中时偷取法力",
-          "de": "+7% abgesaugtes Mana pro Treffer",
-          "es": "+7% de maná robado por golpe",
-          "fr": "+7% de mana volé à chaque coup",
-          "it": "+7% mana rubato per colpo",
-          "ja": "攻撃命中でマナを吸収（与ダメージの+7%）",
-          "ko": "적중당 마나 +7% 훔침",
-          "pl": "+7% many wykradzione za każde trafienie",
-          "pt": "+7% de mana roubado por acerto",
-          "ru": "Похищает +7% маны за удар"
+          "zh-TW": "擊中竊取 7% 法力",
+          "zh-CN": "7% 击中时偷取法力",
+          "de": "7% abgesaugtes Mana pro Treffer",
+          "es": "7% de maná robado por golpe",
+          "fr": "7% de mana volé à chaque coup",
+          "it": "7% mana rubato per colpo",
+          "ja": "攻撃命中でマナを吸収（与ダメージの7%）",
+          "ko": "적중당 마나 7% 훔침",
+          "pl": "7% many wykradzione za każde trafienie",
+          "pt": "7% de mana roubado por acerto",
+          "ru": "Похищает 7% маны за удар"
         },
         "min": 7,
         "max": 7,
@@ -1374,26 +1224,6 @@
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
       {
-        "code": "dmg%",
-        "label": {
-          "en": "+330-370% Enhanced Damage",
-          "zh-TW": "+330-370% 傷害強化",
-          "zh-CN": "+330-370% 强化伤害",
-          "de": "+330-370% erhöhter Schaden",
-          "es": "+330-370% de daño mejorado",
-          "fr": "+330-370% de dégâts supplémentaires",
-          "it": "+330-370% danni",
-          "ja": "ダメージを強化（+330-370%）",
-          "ko": "피해 +330-370% 증가",
-          "pl": "+330-370% do obrażeń",
-          "pt": "+330-370% de dano aprimorado",
-          "ru": "+330-370% к урону"
-        },
-        "min": 330,
-        "max": -370,
-        "variable": true
-      },
-      {
         "code": "deadly",
         "label": {
           "en": "+20% Deadly Strike",
@@ -1453,6 +1283,28 @@
         "max": 3,
         "variable": false
       }
+    ],
+    "replaceStats": [
+      {
+        "code": "dmg%",
+        "label": {
+          "en": "+330-370% Enhanced Damage",
+          "zh-TW": "+330-370% 傷害強化",
+          "zh-CN": "+330-370% 强化伤害",
+          "de": "+330-370% erhöhter Schaden",
+          "es": "+330-370% de daño mejorado",
+          "fr": "+330-370% de dégâts supplémentaires",
+          "it": "+330-370% danni",
+          "ja": "ダメージを強化（+330-370%）",
+          "ko": "피해 +330-370% 증가",
+          "pl": "+330-370% do obrażeń",
+          "pt": "+330-370% de dano aprimorado",
+          "ru": "+330-370% к урону"
+        },
+        "min": 330,
+        "max": 370,
+        "variable": true
+      }
     ]
   },
   "runeword-Runeword27": {
@@ -1484,17 +1336,17 @@
         "code": "red-dmg",
         "label": {
           "en": "Damage Reduced by 7",
-          "zh-TW": "傷害降低 +7",
-          "zh-CN": "伤害降低 +7",
-          "de": "Schaden reduziert um +7",
-          "es": "Daño reducido en +7 p.",
-          "fr": "Dégâts réduits de +7",
-          "it": "Danni ridotti di +7",
-          "ja": "ダメージを軽減（+7）",
-          "ko": "피해 +7 감소",
-          "pl": "Zmniejsza otrzymywane obrażenia o +7 pkt.",
-          "pt": "Dano reduzido em +7",
-          "ru": "–+7 к урону"
+          "zh-TW": "傷害降低 7",
+          "zh-CN": "伤害降低 7",
+          "de": "Schaden reduziert um 7",
+          "es": "Daño reducido en 7 p.",
+          "fr": "Dégâts réduits de 7",
+          "it": "Danni ridotti di 7",
+          "ja": "ダメージを軽減（7）",
+          "ko": "피해 7 감소",
+          "pl": "Zmniejsza otrzymywane obrażenia o 7 pkt.",
+          "pt": "Dano reduzido em 7",
+          "ru": "–7 к урону"
         },
         "min": 7,
         "max": 7,
@@ -1555,66 +1407,6 @@
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
       {
-        "code": "dmg-cold",
-        "label": {
-          "en": "Adds 37-133 cold damage",
-          "zh-TW": "冰寒傷害：+37 - -133 點",
-          "zh-CN": "冰霜伤害: +37-133",
-          "de": "Kälteschaden: +37-133",
-          "es": "Daño de frío: +37-133 p.",
-          "fr": "Dégâts de Froid : +37-133",
-          "it": "Danni da freddo: +37-133",
-          "ja": "冷気ダメージ: +37 - -133",
-          "ko": "냉기 피해: +37-133",
-          "pl": "Obrażenia od zimna: +37-133",
-          "pt": "Dano gélido: +37-133",
-          "ru": "Урон от льда: +37–-133"
-        },
-        "min": 37,
-        "max": -133,
-        "variable": true
-      },
-      {
-        "code": "crush",
-        "label": {
-          "en": "+15% Chance of Crushing Blow",
-          "zh-TW": "+15% 機率造成粉碎打擊",
-          "zh-CN": "+15% 几率粉碎打击",
-          "de": "+15% Chance auf vernichtenden Schlag",
-          "es": "+15% de probabilidad de ataque aplastante",
-          "fr": "+15% de chances de coup écrasant",
-          "it": "Probabilità di colpo frantumante +15%",
-          "ja": "クラッシング・ブロー（+15%）",
-          "ko": "강타 확률 +15%",
-          "pl": "+15% do szansy na druzgocące uderzenie",
-          "pt": "+15% de chance de Golpe Esmagador",
-          "ru": "+15% к вероятности нанести сокрушительный удар"
-        },
-        "min": 15,
-        "max": 15,
-        "variable": false
-      },
-      {
-        "code": "openwounds",
-        "label": {
-          "en": "+33% Chance of Open Wounds",
-          "zh-TW": "+33% 機率造成開放傷口",
-          "zh-CN": "+33% 几率造成开创性伤口",
-          "de": "+33% Chance auf offene Wunden",
-          "es": "+33% de probabilidad de sangrado",
-          "fr": "+33% de chances de blessures ouvertes",
-          "it": "Probabilità di aprire una ferita +33%",
-          "ja": "出血状態を付与（+33%）",
-          "ko": "상처 악화 확률 +33%",
-          "pl": "+33% do szansy na otwarcie rany",
-          "pt": "+33% de chance de Feridas Abertas",
-          "ru": "+33% к вероятности нанести открытую рану"
-        },
-        "min": 33,
-        "max": 33,
-        "variable": false
-      },
-      {
         "code": "res-cold",
         "label": {
           "en": "Cold Resist +45%",
@@ -1658,17 +1450,17 @@
         "code": "res-fire",
         "label": {
           "en": "Fire Resist +15%",
-          "zh-TW": "火焰抗性 +15+15%",
-          "zh-CN": "火焰抗性 +15+15%",
-          "de": "Feuerwiderstand +15+15%",
-          "es": "+15+15% de resistencia al fuego",
-          "fr": "Résistance au Feu : +15+15%",
-          "it": "+15+15% resistenza al fuoco",
-          "ja": "火炎耐性（+15+15%）",
-          "ko": "화염 저항 +15+15%",
-          "pl": "+15+15% do odporności na ogień",
-          "pt": "Resistência a fogo +15+15%",
-          "ru": "+15+15% к сопротивлению огню"
+          "zh-TW": "火焰抗性 +15%",
+          "zh-CN": "火焰抗性 +15%",
+          "de": "Feuerwiderstand +15%",
+          "es": "+15% de resistencia al fuego",
+          "fr": "Résistance au Feu : +15%",
+          "it": "+15% resistenza al fuoco",
+          "ja": "火炎耐性（+15%）",
+          "ko": "화염 저항 +15%",
+          "pl": "+15% do odporności na ogień",
+          "pt": "Resistência a fogo +15%",
+          "ru": "+15% к сопротивлению огню"
         },
         "min": 15,
         "max": 15,
@@ -1705,17 +1497,17 @@
         "code": "lifesteal",
         "label": {
           "en": "7% Life stolen per hit",
-          "zh-TW": "擊中竊取 +7+7% 生命",
-          "zh-CN": "+7+7% 击中时偷取生命",
-          "de": "+7+7% abgesaugtes Leben pro Treffer",
-          "es": "+7+7% de vida robada por golpe",
-          "fr": "+7+7% de vie volée à chaque coup",
-          "it": "+7+7% vita rubata per colpo",
-          "ja": "攻撃命中でライフを吸収（与ダメージの+7+7%）",
-          "ko": "적중당 생명력 +7+7% 훔침",
-          "pl": "+7+7% zdrowia wykradzione za każde trafienie",
-          "pt": "+7+7% de pontos de vida roubados por acerto",
-          "ru": "Похищает +7+7% здоровья за удар"
+          "zh-TW": "擊中竊取 7% 生命",
+          "zh-CN": "7% 击中时偷取生命",
+          "de": "7% abgesaugtes Leben pro Treffer",
+          "es": "7% de vida robada por golpe",
+          "fr": "7% de vie volée à chaque coup",
+          "it": "7% vita rubata per colpo",
+          "ja": "攻撃命中でライフを吸収（与ダメージの7%）",
+          "ko": "적중당 생명력 7% 훔침",
+          "pl": "7% zdrowia wykradzione za każde trafienie",
+          "pt": "7% de pontos de vida roubados por acerto",
+          "ru": "Похищает 7% здоровья за удар"
         },
         "min": 7,
         "max": 7,
@@ -1752,17 +1544,17 @@
         "code": "hp%",
         "label": {
           "en": "Increase Maximum Life 5%",
-          "zh-TW": "生命上限提高 +5+5%",
-          "zh-CN": "+5+5% 生命最大值",
-          "de": "Erhöht max. Leben +5+5%",
-          "es": "Aumenta la vida máxima un +5+5%",
-          "fr": "Augmente les points de vie max. de +5+5%",
-          "it": "Vita massima aumentata del +5+5%",
-          "ja": "ライフの最大値上昇（+5+5%）",
-          "ko": "최대 생명력 +5+5% 증가",
-          "pl": "+5+5% do maksymalnej wartości punktów zdrowia",
-          "pt": "Aumenta o máximo de pontos de vida em +5+5%",
-          "ru": "+5+5% к максимальному запасу здоровья"
+          "zh-TW": "生命上限提高 5%",
+          "zh-CN": "+5% 生命最大值",
+          "de": "Erhöht max. Leben 5%",
+          "es": "Aumenta la vida máxima un 5%",
+          "fr": "Augmente les points de vie max. de 5%",
+          "it": "Vita massima aumentata del 5%",
+          "ja": "ライフの最大値上昇（5%）",
+          "ko": "최대 생명력 5% 증가",
+          "pl": "+5% do maksymalnej wartości punktów zdrowia",
+          "pt": "Aumenta o máximo de pontos de vida em 5%",
+          "ru": "+5% к максимальному запасу здоровья"
         },
         "min": 5,
         "max": 5,
@@ -1819,17 +1611,17 @@
         "code": "res-fire",
         "label": {
           "en": "Fire Resist +30%",
-          "zh-TW": "火焰抗性 +30+30%",
-          "zh-CN": "火焰抗性 +30+30%",
-          "de": "Feuerwiderstand +30+30%",
-          "es": "+30+30% de resistencia al fuego",
-          "fr": "Résistance au Feu : +30+30%",
-          "it": "+30+30% resistenza al fuoco",
-          "ja": "火炎耐性（+30+30%）",
-          "ko": "화염 저항 +30+30%",
-          "pl": "+30+30% do odporności na ogień",
-          "pt": "Resistência a fogo +30+30%",
-          "ru": "+30+30% к сопротивлению огню"
+          "zh-TW": "火焰抗性 +30%",
+          "zh-CN": "火焰抗性 +30%",
+          "de": "Feuerwiderstand +30%",
+          "es": "+30% de resistencia al fuego",
+          "fr": "Résistance au Feu : +30%",
+          "it": "+30% resistenza al fuoco",
+          "ja": "火炎耐性（+30%）",
+          "ko": "화염 저항 +30%",
+          "pl": "+30% do odporności na ogień",
+          "pt": "Resistência a fogo +30%",
+          "ru": "+30% к сопротивлению огню"
         },
         "min": 30,
         "max": 30,
@@ -1839,17 +1631,17 @@
         "code": "red-dmg",
         "label": {
           "en": "Damage Reduced by 7",
-          "zh-TW": "傷害降低 +7",
-          "zh-CN": "伤害降低 +7",
-          "de": "Schaden reduziert um +7",
-          "es": "Daño reducido en +7 p.",
-          "fr": "Dégâts réduits de +7",
-          "it": "Danni ridotti di +7",
-          "ja": "ダメージを軽減（+7）",
-          "ko": "피해 +7 감소",
-          "pl": "Zmniejsza otrzymywane obrażenia o +7 pkt.",
-          "pt": "Dano reduzido em +7",
-          "ru": "–+7 к урону"
+          "zh-TW": "傷害降低 7",
+          "zh-CN": "伤害降低 7",
+          "de": "Schaden reduziert um 7",
+          "es": "Daño reducido en 7 p.",
+          "fr": "Dégâts réduits de 7",
+          "it": "Danni ridotti di 7",
+          "ja": "ダメージを軽減（7）",
+          "ko": "피해 7 감소",
+          "pl": "Zmniejsza otrzymywane obrażenia o 7 pkt.",
+          "pt": "Dano reduzido em 7",
+          "ru": "–7 к урону"
         },
         "min": 7,
         "max": 7,
@@ -1886,17 +1678,17 @@
         "code": "lifesteal",
         "label": {
           "en": "7% Life stolen per hit",
-          "zh-TW": "擊中竊取 +7+7% 生命",
-          "zh-CN": "+7+7% 击中时偷取生命",
-          "de": "+7+7% abgesaugtes Leben pro Treffer",
-          "es": "+7+7% de vida robada por golpe",
-          "fr": "+7+7% de vie volée à chaque coup",
-          "it": "+7+7% vita rubata per colpo",
-          "ja": "攻撃命中でライフを吸収（与ダメージの+7+7%）",
-          "ko": "적중당 생명력 +7+7% 훔침",
-          "pl": "+7+7% zdrowia wykradzione za każde trafienie",
-          "pt": "+7+7% de pontos de vida roubados por acerto",
-          "ru": "Похищает +7+7% здоровья за удар"
+          "zh-TW": "擊中竊取 7% 生命",
+          "zh-CN": "7% 击中时偷取生命",
+          "de": "7% abgesaugtes Leben pro Treffer",
+          "es": "7% de vida robada por golpe",
+          "fr": "7% de vie volée à chaque coup",
+          "it": "7% vita rubata per colpo",
+          "ja": "攻撃命中でライフを吸収（与ダメージの7%）",
+          "ko": "적중당 생명력 7% 훔침",
+          "pl": "7% zdrowia wykradzione za każde trafienie",
+          "pt": "7% de pontos de vida roubados por acerto",
+          "ru": "Похищает 7% здоровья за удар"
         },
         "min": 7,
         "max": 7,
@@ -1926,17 +1718,17 @@
         "code": "mag%",
         "label": {
           "en": "30% Better Chance of Getting Magic Items",
-          "zh-TW": "尋獲魔法物品機率提高 +30+30%",
-          "zh-CN": "+30+30% 额外几率获得魔法物品",
-          "de": "+30+30% bessere Chance, magischen Gegenstand zu erhalten",
-          "es": "+30+30% de probabilidad de encontrar objetos mágicos",
-          "fr": "+30+30% de chances suppl. d’obtenir des objets magiques",
-          "it": "Probabilità di ottenere un oggetto magico aumentata del +30+30%",
-          "ja": "マジックアイテムドロップ率（+30+30%）",
-          "ko": "마법 아이템 발견 확률 +30+30% 증가",
-          "pl": "+30+30% do szansy na zdobycie magicznych przedmiotów",
-          "pt": "+30+30% de chance adicional de obter itens mágicos",
-          "ru": "+30+30% к вероятности найти магический предмет"
+          "zh-TW": "尋獲魔法物品機率提高 30%",
+          "zh-CN": "30% 额外几率获得魔法物品",
+          "de": "30% bessere Chance, magischen Gegenstand zu erhalten",
+          "es": "+30% de probabilidad de encontrar objetos mágicos",
+          "fr": "30% de chances suppl. d’obtenir des objets magiques",
+          "it": "Probabilità di ottenere un oggetto magico aumentata del 30%",
+          "ja": "マジックアイテムドロップ率（+30%）",
+          "ko": "마법 아이템 발견 확률 30% 증가",
+          "pl": "+30% do szansy na zdobycie magicznych przedmiotów",
+          "pt": "30% de chance adicional de obter itens mágicos",
+          "ru": "+30% к вероятности найти магический предмет"
         },
         "min": 30,
         "max": 30,
@@ -1973,44 +1765,44 @@
         "code": "mag%",
         "label": {
           "en": "25% Better Chance of Getting Magic Items",
-          "zh-TW": "尋獲魔法物品機率提高 +25+25%",
-          "zh-CN": "+25+25% 额外几率获得魔法物品",
-          "de": "+25+25% bessere Chance, magischen Gegenstand zu erhalten",
-          "es": "+25+25% de probabilidad de encontrar objetos mágicos",
-          "fr": "+25+25% de chances suppl. d’obtenir des objets magiques",
-          "it": "Probabilità di ottenere un oggetto magico aumentata del +25+25%",
-          "ja": "マジックアイテムドロップ率（+25+25%）",
-          "ko": "마법 아이템 발견 확률 +25+25% 증가",
-          "pl": "+25+25% do szansy na zdobycie magicznych przedmiotów",
-          "pt": "+25+25% de chance adicional de obter itens mágicos",
-          "ru": "+25+25% к вероятности найти магический предмет"
+          "zh-TW": "尋獲魔法物品機率提高 25%",
+          "zh-CN": "25% 额外几率获得魔法物品",
+          "de": "25% bessere Chance, magischen Gegenstand zu erhalten",
+          "es": "+25% de probabilidad de encontrar objetos mágicos",
+          "fr": "25% de chances suppl. d’obtenir des objets magiques",
+          "it": "Probabilità di ottenere un oggetto magico aumentata del 25%",
+          "ja": "マジックアイテムドロップ率（+25%）",
+          "ko": "마법 아이템 발견 확률 25% 증가",
+          "pl": "+25% do szansy na zdobycie magicznych przedmiotów",
+          "pt": "25% de chance adicional de obter itens mágicos",
+          "ru": "+25% к вероятности найти магический предмет"
         },
         "min": 25,
         "max": 25,
         "variable": false
-      },
+      }
+    ],
+    "replaceStats": [
       {
         "code": "rep-dur",
         "label": {
           "en": "Repairs 1 durability in 4 seconds",
-          "zh-TW": "每秒修復 +1-4 耐久度",
-          "zh-CN": "每秒修复 +1-4 点耐久度",
-          "de": "Repariert +1-4 Haltbarkeit pro Sekunde",
-          "es": "Repara +1-4 p. de durabilidad por segundo",
-          "fr": "Répare +1-4 pts de durabilité par seconde",
-          "it": "Ripara +1-4 integrità ogni secondo",
-          "ja": "耐久力が回復（毎秒+1-4）",
-          "ko": "내구도 +1-4 회복 (매초)",
-          "pl": "Przywraca +1-4 pkt. trwałości na sekundę",
-          "pt": "Repara +1-4 de durabilidade por segundo",
-          "ru": "Восполняет +1-4 ед. прочности в секунду"
+          "zh-TW": "每秒修復 1-4 耐久度",
+          "zh-CN": "每秒修复 1-4 点耐久度",
+          "de": "Repariert 1-4 Haltbarkeit pro Sekunde",
+          "es": "Repara 1-4 p. de durabilidad por segundo",
+          "fr": "Répare 1-4 pts de durabilité par seconde",
+          "it": "Ripara 1-4 integrità ogni secondo",
+          "ja": "耐久力が回復（毎秒1-4）",
+          "ko": "내구도 1-4 회복 (매초)",
+          "pl": "Przywraca 1-4 pkt. trwałości na sekundę",
+          "pt": "Repara 1-4 de durabilidade por segundo",
+          "ru": "Восполняет 1-4 ед. прочности в секунду"
         },
         "min": 1,
         "max": 4,
         "variable": true
-      }
-    ],
-    "replaceStats": [
+      },
       {
         "code": "skilltab",
         "min": 2,
@@ -2038,26 +1830,6 @@
     "verifiedAt": "2026-08-07",
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
-      {
-        "code": "dmg%",
-        "label": {
-          "en": "+330% Enhanced Damage",
-          "zh-TW": "+330+330% 傷害強化",
-          "zh-CN": "+330+330% 强化伤害",
-          "de": "+330+330% erhöhter Schaden",
-          "es": "+330+330% de daño mejorado",
-          "fr": "+330+330% de dégâts supplémentaires",
-          "it": "+330+330% danni",
-          "ja": "ダメージを強化（+330+330%）",
-          "ko": "피해 +330+330% 증가",
-          "pl": "+330+330% do obrażeń",
-          "pt": "+330+330% de dano aprimorado",
-          "ru": "+330+330% к урону"
-        },
-        "min": 330,
-        "max": 330,
-        "variable": false
-      },
       {
         "code": "ignore-ac",
         "label": {
@@ -2122,20 +1894,42 @@
         "code": "gold%",
         "label": {
           "en": "75% Extra Gold from Monsters",
-          "zh-TW": "怪物金幣掉落量提高 +75%",
-          "zh-CN": "+75% 怪物额外掉落金币",
-          "de": "+75% Extragold von Monstern",
-          "es": "+75% de oro extra de los monstruos",
-          "fr": "+75% d’or suppl. sur les monstres",
-          "it": "+75% oro extra dai mostri",
+          "zh-TW": "怪物金幣掉落量提高 75%",
+          "zh-CN": "75% 怪物额外掉落金币",
+          "de": "75% Extragold von Monstern",
+          "es": "75% de oro extra de los monstruos",
+          "fr": "75% d’or suppl. sur les monstres",
+          "it": "75% oro extra dai mostri",
           "ja": "モンスターからの獲得ゴールド（+75%）",
-          "ko": "괴물에게서 얻는 금화 +75% 증가",
+          "ko": "괴물에게서 얻는 금화 75% 증가",
           "pl": "+75% dodatkowego złota od potworów",
-          "pt": "+75% de ouro adicional de monstros",
+          "pt": "75% de ouro adicional de monstros",
           "ru": "+75% к золоту за убийство монстров"
         },
         "min": 75,
         "max": 75,
+        "variable": false
+      }
+    ],
+    "replaceStats": [
+      {
+        "code": "dmg%",
+        "label": {
+          "en": "+330% Enhanced Damage",
+          "zh-TW": "+330% 傷害強化",
+          "zh-CN": "+330% 强化伤害",
+          "de": "+330% erhöhter Schaden",
+          "es": "+330% de daño mejorado",
+          "fr": "+330% de dégâts supplémentaires",
+          "it": "+330% danni",
+          "ja": "ダメージを強化（+330%）",
+          "ko": "피해 +330% 증가",
+          "pl": "+330% do obrażeń",
+          "pt": "+330% de dano aprimorado",
+          "ru": "+330% к урону"
+        },
+        "min": 330,
+        "max": 330,
         "variable": false
       }
     ]
@@ -2145,26 +1939,6 @@
     "verifiedAt": "2026-08-07",
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
-      {
-        "code": "dmg%",
-        "label": {
-          "en": "+320-370% Enhanced Damage",
-          "zh-TW": "+320-370% 傷害強化",
-          "zh-CN": "+320-370% 强化伤害",
-          "de": "+320-370% erhöhter Schaden",
-          "es": "+320-370% de daño mejorado",
-          "fr": "+320-370% de dégâts supplémentaires",
-          "it": "+320-370% danni",
-          "ja": "ダメージを強化（+320-370%）",
-          "ko": "피해 +320-370% 증가",
-          "pl": "+320-370% do obrażeń",
-          "pt": "+320-370% de dano aprimorado",
-          "ru": "+320-370% к урону"
-        },
-        "min": 320,
-        "max": -370,
-        "variable": true
-      },
       {
         "code": "ignore-ac",
         "label": {
@@ -2186,100 +1960,80 @@
         "variable": false
       },
       {
-        "code": "dmg-mag",
-        "label": {
-          "en": "Adds 180-200 magic damage",
-          "zh-TW": "魔法傷害：+180 - -200 點",
-          "zh-CN": "魔法伤害: +180-200",
-          "de": "Magieschaden: +180-200",
-          "es": "Daño mágico: +180-200 p.",
-          "fr": "Dégâts magiques : +180-200",
-          "it": "Danni magici: +180-200",
-          "ja": "魔法ダメージ: +180 - -200",
-          "ko": "마법 피해: +180-200",
-          "pl": "Obrażenia od magii: +180-200",
-          "pt": "Dano mágico: +180-200",
-          "ru": "Магический урон: +180–-200"
-        },
-        "min": 180,
-        "max": -200,
-        "variable": true
-      },
-      {
         "code": "dmg-fire",
         "label": {
           "en": "Adds 50-200 fire damage",
-          "zh-TW": "火焰傷害：+50 - -200 點",
-          "zh-CN": "火焰伤害: +50-200",
-          "de": "Feuerschaden: +50-200",
-          "es": "Daño de fuego: +50-200 p.",
-          "fr": "Dégâts de Feu : +50-200",
-          "it": "Danni da fuoco: +50-200",
-          "ja": "火炎ダメージ: +50 - -200",
-          "ko": "화염 피해: +50-200",
-          "pl": "Obrażenia od ognia: +50-200",
-          "pt": "Dano ígneo: +50-200",
-          "ru": "Урон от огня: +50–-200"
+          "zh-TW": "火焰傷害：50 - 200 點",
+          "zh-CN": "火焰伤害: 50-200",
+          "de": "Feuerschaden: 50-200",
+          "es": "Daño de fuego: 50-200 p.",
+          "fr": "Dégâts de Feu : 50-200",
+          "it": "Danni da fuoco: 50-200",
+          "ja": "火炎ダメージ: 50 - 200",
+          "ko": "화염 피해: 50-200",
+          "pl": "Obrażenia od ognia: 50-200",
+          "pt": "Dano ígneo: 50-200",
+          "ru": "Урон от огня: 50–200"
         },
         "min": 50,
-        "max": -200,
+        "max": 200,
         "variable": true
       },
       {
         "code": "dmg-ltng",
         "label": {
           "en": "Adds 51-250 lightning damage",
-          "zh-TW": "電擊傷害：+51 - -250 點",
-          "zh-CN": "闪电伤害: +51-250",
-          "de": "Blitzschaden: +51-250",
-          "es": "Daño de rayos: +51-250 p.",
-          "fr": "Dégâts de Foudre : +51-250",
-          "it": "Danni da fulmine: +51-250",
-          "ja": "電撃ダメージ: +51 - -250",
-          "ko": "번개 피해: +51-250",
-          "pl": "Obrażenia od błyskawic: +51-250",
-          "pt": "Dano elétrico: +51-250",
-          "ru": "Урон от молнии: +51–-250"
+          "zh-TW": "電擊傷害：51 - 250 點",
+          "zh-CN": "闪电伤害: 51-250",
+          "de": "Blitzschaden: 51-250",
+          "es": "Daño de rayos: 51-250 p.",
+          "fr": "Dégâts de Foudre : 51-250",
+          "it": "Danni da fulmine: 51-250",
+          "ja": "電撃ダメージ: 51 - 250",
+          "ko": "번개 피해: 51-250",
+          "pl": "Obrażenia od błyskawic: 51-250",
+          "pt": "Dano elétrico: 51-250",
+          "ru": "Урон от молнии: 51–250"
         },
         "min": 51,
-        "max": -250,
+        "max": 250,
         "variable": true
       },
       {
         "code": "dmg-cold",
         "label": {
           "en": "Adds 50-200 cold damage",
-          "zh-TW": "冰寒傷害：+50 - -200 點",
-          "zh-CN": "冰霜伤害: +50-200",
-          "de": "Kälteschaden: +50-200",
-          "es": "Daño de frío: +50-200 p.",
-          "fr": "Dégâts de Froid : +50-200",
-          "it": "Danni da freddo: +50-200",
-          "ja": "冷気ダメージ: +50 - -200",
-          "ko": "냉기 피해: +50-200",
-          "pl": "Obrażenia od zimna: +50-200",
-          "pt": "Dano gélido: +50-200",
-          "ru": "Урон от льда: +50–-200"
+          "zh-TW": "冰寒傷害：50 - 200 點",
+          "zh-CN": "冰霜伤害: 50-200",
+          "de": "Kälteschaden: 50-200",
+          "es": "Daño de frío: 50-200 p.",
+          "fr": "Dégâts de Froid : 50-200",
+          "it": "Danni da freddo: 50-200",
+          "ja": "冷気ダメージ: 50 - 200",
+          "ko": "냉기 피해: 50-200",
+          "pl": "Obrażenia od zimna: 50-200",
+          "pt": "Dano gélido: 50-200",
+          "ru": "Урон от льда: 50–200"
         },
         "min": 50,
-        "max": -200,
+        "max": 200,
         "variable": true
       },
       {
         "code": "str",
         "label": {
           "en": "+10 to Strength",
-          "zh-TW": "+10+10 力量",
-          "zh-CN": "+10+10 力量",
-          "de": "+10+10 zu Stärke",
-          "es": "+10+10 de fuerza",
-          "fr": "+10+10 à la Force",
-          "it": "+10+10 Forza",
-          "ja": "筋力（+10+10）",
-          "ko": "힘 +10+10",
-          "pl": "+10+10 do siły",
-          "pt": "+10+10 de força",
-          "ru": "+10+10 к силе"
+          "zh-TW": "+10 力量",
+          "zh-CN": "+10 力量",
+          "de": "+10 zu Stärke",
+          "es": "+10 de fuerza",
+          "fr": "+10 à la Force",
+          "it": "+10 Forza",
+          "ja": "筋力（+10）",
+          "ko": "힘 +10",
+          "pl": "+10 do siły",
+          "pt": "+10 de força",
+          "ru": "+10 к силе"
         },
         "min": 10,
         "max": 10,
@@ -2343,17 +2097,17 @@
         "code": "red-dmg",
         "label": {
           "en": "Damage Reduced by 7 (Armor Only)",
-          "zh-TW": "傷害降低 +7（僅限護甲）",
-          "zh-CN": "伤害降低 +7（仅限护甲）",
-          "de": "Schaden reduziert um +7 (Nur Rüstung)",
-          "es": "Daño reducido en +7 p. (Solo Armadura)",
-          "fr": "Dégâts réduits de +7 (Armure uniquement)",
-          "it": "Danni ridotti di +7 (Solo Armatura)",
-          "ja": "ダメージを軽減（+7）（防具専用）",
-          "ko": "피해 +7 감소 (방어구 전용)",
-          "pl": "Zmniejsza otrzymywane obrażenia o +7 pkt. (Tylko Zbroja)",
-          "pt": "Dano reduzido em +7 (Somente Armadura)",
-          "ru": "–+7 к урону (Только Броня)"
+          "zh-TW": "傷害降低 7（僅限護甲）",
+          "zh-CN": "伤害降低 7（仅限护甲）",
+          "de": "Schaden reduziert um 7 (Nur Rüstung)",
+          "es": "Daño reducido en 7 p. (Solo Armadura)",
+          "fr": "Dégâts réduits de 7 (Armure uniquement)",
+          "it": "Danni ridotti di 7 (Solo Armatura)",
+          "ja": "ダメージを軽減（7）（防具専用）",
+          "ko": "피해 7 감소 (방어구 전용)",
+          "pl": "Zmniejsza otrzymywane obrażenia o 7 pkt. (Tylko Zbroja)",
+          "pt": "Dano reduzido em 7 (Somente Armadura)",
+          "ru": "–7 к урону (Только Броня)"
         },
         "min": 7,
         "max": 7,
@@ -2498,26 +2252,6 @@
         "min": 1,
         "max": 1,
         "variable": false
-      },
-      {
-        "code": "dmg-to-mana",
-        "label": {
-          "en": "+12% Damage Taken Goes To Mana",
-          "zh-TW": "+12% 受到的傷害轉為法力",
-          "zh-CN": "+12% 受到的伤害转换为法力",
-          "de": "+12% erlittenen Schadens geht auf Mana",
-          "es": "Un +12% del daño sufrido se recupera como maná",
-          "fr": "+12% des dégâts subis sont soustraits au mana",
-          "it": "Il +12% dei danni subiti è sul mana",
-          "ja": "受けたダメージの+12%をマナに変換",
-          "ko": "받는 피해의 +12%만큼 마나 회복",
-          "pl": "+12% otrzymanych obrażeń przechodzi na manę",
-          "pt": "+12% do dano recebido transforma-se em mana",
-          "ru": "+12% к урону, приходящемуся на ману"
-        },
-        "min": 12,
-        "max": 12,
-        "variable": false
       }
     ]
   },
@@ -2526,46 +2260,6 @@
     "verifiedAt": "2026-08-07",
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
-      {
-        "code": "openwounds",
-        "label": {
-          "en": "+66% Chance of Open Wounds",
-          "zh-TW": "+66% 機率造成開放傷口",
-          "zh-CN": "+66% 几率造成开创性伤口",
-          "de": "+66% Chance auf offene Wunden",
-          "es": "+66% de probabilidad de sangrado",
-          "fr": "+66% de chances de blessures ouvertes",
-          "it": "Probabilità di aprire una ferita +66%",
-          "ja": "出血状態を付与（+66%）",
-          "ko": "상처 악화 확률 +66%",
-          "pl": "+66% do szansy na otwarcie rany",
-          "pt": "+66% de chance de Feridas Abertas",
-          "ru": "+66% к вероятности нанести открытую рану"
-        },
-        "min": 66,
-        "max": 66,
-        "variable": false
-      },
-      {
-        "code": "deadly",
-        "label": {
-          "en": "+33% Deadly Strike",
-          "zh-TW": "+33% 致命打擊",
-          "zh-CN": "+33% 致死打击",
-          "de": "+33% Todesschlag",
-          "es": "+33% de azote mortal",
-          "fr": "+33% de chances de coup mortel",
-          "it": "Probabilità di colpo mortale +33%",
-          "ja": "デッドリー・ストライク（+33%）",
-          "ko": "치명적 공격 +33%",
-          "pl": "+33% do szansy na zabójcze uderzenie",
-          "pt": "+33% de Golpe Mortal",
-          "ru": "+33% к вероятности нанести смертельный удар"
-        },
-        "min": 33,
-        "max": 33,
-        "variable": false
-      },
       {
         "code": "ignore-ac",
         "label": {
@@ -2610,16 +2304,16 @@
         "code": "att%",
         "label": {
           "en": "20% Bonus to Attack Rating",
-          "zh-TW": "+20% 準確率加成",
-          "zh-CN": "+20% 加成命中值",
-          "de": "+20% Bonus zu Angriffswert",
-          "es": "+20% de bonus al índice de ataque",
-          "fr": "+20% de bonus au score d’attaque",
-          "it": "Indice d'attacco aumentato del +20%",
-          "ja": "命中率へのボーナス（+20%）",
-          "ko": "명중률 보너스 +20%",
-          "pl": "+20% premii do skuteczności ataku",
-          "pt": "+20% de bônus de taxa de ataque",
+          "zh-TW": "20% 準確率加成",
+          "zh-CN": "20% 加成命中值",
+          "de": "20% Bonus zu Angriffswert",
+          "es": "20% de bonus al índice de ataque",
+          "fr": "20% de bonus au score d’attaque",
+          "it": "Indice d'attacco aumentato del 20%",
+          "ja": "命中率へのボーナス（20%）",
+          "ko": "명중률 보너스 20%",
+          "pl": "20% premii do skuteczności ataku",
+          "pt": "20% de bônus de taxa de ataque",
           "ru": "+20% к рейтингу атаки"
         },
         "min": 20,
@@ -2634,44 +2328,46 @@
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
       {
-        "code": "ac%",
-        "label": {
-          "en": "+200-260% Enhanced Defense",
-          "zh-TW": "+200--260% 防禦強化",
-          "zh-CN": "+200--260% 强化防御",
-          "de": "+200--260% verbesserte Verteidigung",
-          "es": "+200--260% de defensa mejorada",
-          "fr": "Défense augmentée de +200--260% ",
-          "it": "+200--260% difesa",
-          "ja": "防御力を強化（+200--260%）",
-          "ko": "방어력 +200--260% 증가",
-          "pl": "+200--260% do obrony",
-          "pt": "+200--260% de defesa aprimorada",
-          "ru": "+200--260% к защите"
-        },
-        "min": 200,
-        "max": -260,
-        "variable": true
-      },
-      {
         "code": "str",
         "label": {
           "en": "+10 to Strength",
-          "zh-TW": "+10+10 力量",
-          "zh-CN": "+10+10 力量",
-          "de": "+10+10 zu Stärke",
-          "es": "+10+10 de fuerza",
-          "fr": "+10+10 à la Force",
-          "it": "+10+10 Forza",
-          "ja": "筋力（+10+10）",
-          "ko": "힘 +10+10",
-          "pl": "+10+10 do siły",
-          "pt": "+10+10 de força",
-          "ru": "+10+10 к силе"
+          "zh-TW": "+10 力量",
+          "zh-CN": "+10 力量",
+          "de": "+10 zu Stärke",
+          "es": "+10 de fuerza",
+          "fr": "+10 à la Force",
+          "it": "+10 Forza",
+          "ja": "筋力（+10）",
+          "ko": "힘 +10",
+          "pl": "+10 do siły",
+          "pt": "+10 de força",
+          "ru": "+10 к силе"
         },
         "min": 10,
         "max": 10,
         "variable": false
+      }
+    ],
+    "replaceStats": [
+      {
+        "code": "ac%",
+        "label": {
+          "en": "+200-260% Enhanced Defense",
+          "zh-TW": "+200-260% 防禦強化",
+          "zh-CN": "+200-260% 强化防御",
+          "de": "+200-260% verbesserte Verteidigung",
+          "es": "+200-260% de defensa mejorada",
+          "fr": "Défense augmentée de +200-260% ",
+          "it": "+200-260% difesa",
+          "ja": "防御力を強化（+200-260%）",
+          "ko": "방어력 +200-260% 증가",
+          "pl": "+200-260% do obrony",
+          "pt": "+200-260% de defesa aprimorada",
+          "ru": "+200-260% к защите"
+        },
+        "min": 200,
+        "max": 260,
+        "variable": true
       },
       {
         "code": "res-all",
@@ -2691,26 +2387,6 @@
         },
         "min": 45,
         "max": 45,
-        "variable": false
-      },
-      {
-        "code": "dmg-to-mana",
-        "label": {
-          "en": "+5% Damage Taken Goes To Mana",
-          "zh-TW": "+5% 受到的傷害轉為法力",
-          "zh-CN": "+5% 受到的伤害转换为法力",
-          "de": "+5% erlittenen Schadens geht auf Mana",
-          "es": "Un +5% del daño sufrido se recupera como maná",
-          "fr": "+5% des dégâts subis sont soustraits au mana",
-          "it": "Il +5% dei danni subiti è sul mana",
-          "ja": "受けたダメージの+5%をマナに変換",
-          "ko": "받는 피해의 +5%만큼 마나 회복",
-          "pl": "+5% otrzymanych obrażeń przechodzi na manę",
-          "pt": "+5% do dano recebido transforma-se em mana",
-          "ru": "+5% к урону, приходящемуся на ману"
-        },
-        "min": 5,
-        "max": 5,
         "variable": false
       }
     ]
@@ -2744,20 +2420,20 @@
         "code": "dmg-fire",
         "label": {
           "en": "Adds 5-30 fire damage",
-          "zh-TW": "火焰傷害：+5 - -30 點",
-          "zh-CN": "火焰伤害: +5-30",
-          "de": "Feuerschaden: +5-30",
-          "es": "Daño de fuego: +5-30 p.",
-          "fr": "Dégâts de Feu : +5-30",
-          "it": "Danni da fuoco: +5-30",
-          "ja": "火炎ダメージ: +5 - -30",
-          "ko": "화염 피해: +5-30",
-          "pl": "Obrażenia od ognia: +5-30",
-          "pt": "Dano ígneo: +5-30",
-          "ru": "Урон от огня: +5–-30"
+          "zh-TW": "火焰傷害：5 - 30 點",
+          "zh-CN": "火焰伤害: 5-30",
+          "de": "Feuerschaden: 5-30",
+          "es": "Daño de fuego: 5-30 p.",
+          "fr": "Dégâts de Feu : 5-30",
+          "it": "Danni da fuoco: 5-30",
+          "ja": "火炎ダメージ: 5 - 30",
+          "ko": "화염 피해: 5-30",
+          "pl": "Obrażenia od ognia: 5-30",
+          "pt": "Dano ígneo: 5-30",
+          "ru": "Урон от огня: 5–30"
         },
         "min": 5,
-        "max": -30,
+        "max": 30,
         "variable": true
       },
       {
@@ -2828,60 +2504,20 @@
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
       {
-        "code": "levelup-skill",
-        "label": {
-          "en": "100% Chance to cast level 36 Blaze when you Level-Up",
-          "zh-TW": "當你升級時有 +100% 機率施展等級 +100 熾烈之徑",
-          "zh-CN": "+100% 几率在升级时施放+100级足跟火",
-          "de": "+100% Chance, beim Aufsteigen Stufe +100 Feuersbrunst auszulösen",
-          "es": "+100% de probabilidad de lanzar Llamarada de nivel +100 al subir de nivel",
-          "fr": "+100% de chances de lancer Flamboiement - niv. +100 quand vous montez de niveau",
-          "it": "Probabilità del +100% di lanciare a livello +100 Vampata quando sali di livello",
-          "ja": "レベルアップ時に+100%の確率で〈ブレイズ〉（レベル+100）を発動",
-          "ko": "레벨 상승 시 +100% 확률로 +100 레벨 불길 시전",
-          "pl": "+100% szansy na rzucenie +100-poziomowego zaklęcia Pożoga kiedy awansujesz",
-          "pt": "+100% de chance de lançar Incêndio de nível +100 quando você sobe de nível",
-          "ru": "Вероятность +100% применить умение «Огненный след» +100-го уровня при достижении нового уровня"
-        },
-        "min": 100,
-        "max": 100,
-        "variable": false
-      },
-      {
-        "code": "death-skill",
-        "label": {
-          "en": "100% Chance to cast level 48 Meteor when you Die",
-          "zh-TW": "當你死亡時有 +100% 機率施展等級 +100 隕石術",
-          "zh-CN": "+100% 几率在死亡时施放+100级陨石术",
-          "de": "+100% Chance, beim Tod Stufe +100 Meteor auszulösen",
-          "es": "+100% de probabilidad de lanzar Meteorito de nivel +100 al morir",
-          "fr": "+100% de chances de lancer Météore - niv. +100 quand vous mourez",
-          "it": "Probabilità del +100% di lanciare a livello +100 Meteora quando muori",
-          "ja": "死亡時に+100%の確率で〈メテオ〉（レベル+100）を発動",
-          "ko": "사망 시 +100% 확률로 +100 레벨 운석 낙하 시전",
-          "pl": "+100% szansy na rzucenie +100-poziomowego zaklęcia Meteor kiedy giniesz",
-          "pt": "+100% de chance de lançar Meteoro de nível +100 quando você morre",
-          "ru": "Вероятность +100% применить умение «Метеорит» +100-го уровня после смерти"
-        },
-        "min": 100,
-        "max": 100,
-        "variable": false
-      },
-      {
         "code": "lifesteal",
         "label": {
           "en": "7% Life stolen per hit",
-          "zh-TW": "擊中竊取 +7+7% 生命",
-          "zh-CN": "+7+7% 击中时偷取生命",
-          "de": "+7+7% abgesaugtes Leben pro Treffer",
-          "es": "+7+7% de vida robada por golpe",
-          "fr": "+7+7% de vie volée à chaque coup",
-          "it": "+7+7% vita rubata per colpo",
-          "ja": "攻撃命中でライフを吸収（与ダメージの+7+7%）",
-          "ko": "적중당 생명력 +7+7% 훔침",
-          "pl": "+7+7% zdrowia wykradzione za każde trafienie",
-          "pt": "+7+7% de pontos de vida roubados por acerto",
-          "ru": "Похищает +7+7% здоровья за удар"
+          "zh-TW": "擊中竊取 7% 生命",
+          "zh-CN": "7% 击中时偷取生命",
+          "de": "7% abgesaugtes Leben pro Treffer",
+          "es": "7% de vida robada por golpe",
+          "fr": "7% de vie volée à chaque coup",
+          "it": "7% vita rubata per colpo",
+          "ja": "攻撃命中でライフを吸収（与ダメージの7%）",
+          "ko": "적중당 생명력 7% 훔침",
+          "pl": "7% zdrowia wykradzione za każde trafienie",
+          "pt": "7% de pontos de vida roubados por acerto",
+          "ru": "Похищает 7% здоровья за удар"
         },
         "min": 7,
         "max": 7,
@@ -2978,60 +2614,60 @@
         "code": "dmg-ltng",
         "label": {
           "en": "Adds 55-160 lightning damage",
-          "zh-TW": "電擊傷害：+55 - -160 點",
-          "zh-CN": "闪电伤害: +55-160",
-          "de": "Blitzschaden: +55-160",
-          "es": "Daño de rayos: +55-160 p.",
-          "fr": "Dégâts de Foudre : +55-160",
-          "it": "Danni da fulmine: +55-160",
-          "ja": "電撃ダメージ: +55 - -160",
-          "ko": "번개 피해: +55-160",
-          "pl": "Obrażenia od błyskawic: +55-160",
-          "pt": "Dano elétrico: +55-160",
-          "ru": "Урон от молнии: +55–-160"
+          "zh-TW": "電擊傷害：55 - 160 點",
+          "zh-CN": "闪电伤害: 55-160",
+          "de": "Blitzschaden: 55-160",
+          "es": "Daño de rayos: 55-160 p.",
+          "fr": "Dégâts de Foudre : 55-160",
+          "it": "Danni da fulmine: 55-160",
+          "ja": "電撃ダメージ: 55 - 160",
+          "ko": "번개 피해: 55-160",
+          "pl": "Obrażenia od błyskawic: 55-160",
+          "pt": "Dano elétrico: 55-160",
+          "ru": "Урон от молнии: 55–160"
         },
         "min": 55,
-        "max": -160,
+        "max": 160,
         "variable": true
       },
       {
         "code": "dmg-fire",
         "label": {
           "en": "Adds 55-160 fire damage",
-          "zh-TW": "火焰傷害：+55 - -160 點",
-          "zh-CN": "火焰伤害: +55-160",
-          "de": "Feuerschaden: +55-160",
-          "es": "Daño de fuego: +55-160 p.",
-          "fr": "Dégâts de Feu : +55-160",
-          "it": "Danni da fuoco: +55-160",
-          "ja": "火炎ダメージ: +55 - -160",
-          "ko": "화염 피해: +55-160",
-          "pl": "Obrażenia od ognia: +55-160",
-          "pt": "Dano ígneo: +55-160",
-          "ru": "Урон от огня: +55–-160"
+          "zh-TW": "火焰傷害：55 - 160 點",
+          "zh-CN": "火焰伤害: 55-160",
+          "de": "Feuerschaden: 55-160",
+          "es": "Daño de fuego: 55-160 p.",
+          "fr": "Dégâts de Feu : 55-160",
+          "it": "Danni da fuoco: 55-160",
+          "ja": "火炎ダメージ: 55 - 160",
+          "ko": "화염 피해: 55-160",
+          "pl": "Obrażenia od ognia: 55-160",
+          "pt": "Dano ígneo: 55-160",
+          "ru": "Урон от огня: 55–160"
         },
         "min": 55,
-        "max": -160,
+        "max": 160,
         "variable": true
       },
       {
         "code": "dmg-cold",
         "label": {
           "en": "Adds 55-160 cold damage",
-          "zh-TW": "冰寒傷害：+55 - -160 點",
-          "zh-CN": "冰霜伤害: +55-160",
-          "de": "Kälteschaden: +55-160",
-          "es": "Daño de frío: +55-160 p.",
-          "fr": "Dégâts de Froid : +55-160",
-          "it": "Danni da freddo: +55-160",
-          "ja": "冷気ダメージ: +55 - -160",
-          "ko": "냉기 피해: +55-160",
-          "pl": "Obrażenia od zimna: +55-160",
-          "pt": "Dano gélido: +55-160",
-          "ru": "Урон от льда: +55–-160"
+          "zh-TW": "冰寒傷害：55 - 160 點",
+          "zh-CN": "冰霜伤害: 55-160",
+          "de": "Kälteschaden: 55-160",
+          "es": "Daño de frío: 55-160 p.",
+          "fr": "Dégâts de Froid : 55-160",
+          "it": "Danni da freddo: 55-160",
+          "ja": "冷気ダメージ: 55 - 160",
+          "ko": "냉기 피해: 55-160",
+          "pl": "Obrażenia od zimna: 55-160",
+          "pt": "Dano gélido: 55-160",
+          "ru": "Урон от льда: 55–160"
         },
         "min": 55,
-        "max": -160,
+        "max": 160,
         "variable": true
       },
       {
@@ -3085,17 +2721,17 @@
         "code": "dmg-demon",
         "label": {
           "en": "+75% Damage to Demons",
-          "zh-TW": "+75+75% 對惡魔的傷害",
-          "zh-CN": "+75+75% 对恶魔的伤害",
-          "de": "+75+75% Schaden gegen Dämonen",
-          "es": "+75+75% de daño contra demonios",
-          "fr": "Dégâts contre les démons : +75+75%",
-          "it": "+75+75% danni ai demoni",
-          "ja": "デーモンへのダメージ（+75+75%）",
-          "ko": "악마에게 주는 피해 +75+75%",
-          "pl": "+75+75% do obrażeń zadanych demonom",
-          "pt": "+75+75% de dano contra demônios",
-          "ru": "+75+75% к урону по демонам"
+          "zh-TW": "+75% 對惡魔的傷害",
+          "zh-CN": "+75% 对恶魔的伤害",
+          "de": "+75% Schaden gegen Dämonen",
+          "es": "+75% de daño contra demonios",
+          "fr": "Dégâts contre les démons : +75%",
+          "it": "+75% danni ai demoni",
+          "ja": "デーモンへのダメージ（+75%）",
+          "ko": "악마에게 주는 피해 +75%",
+          "pl": "+75% do obrażeń zadanych demonom",
+          "pt": "+75% de dano contra demônios",
+          "ru": "+75% к урону по демонам"
         },
         "min": 75,
         "max": 75,
@@ -3125,37 +2761,37 @@
         "code": "dmg-cold",
         "label": {
           "en": "Adds 3-14 cold damage",
-          "zh-TW": "冰寒傷害：+3 - -14 點",
-          "zh-CN": "冰霜伤害: +3-14",
-          "de": "Kälteschaden: +3-14",
-          "es": "Daño de frío: +3-14 p.",
-          "fr": "Dégâts de Froid : +3-14",
-          "it": "Danni da freddo: +3-14",
-          "ja": "冷気ダメージ: +3 - -14",
-          "ko": "냉기 피해: +3-14",
-          "pl": "Obrażenia od zimna: +3-14",
-          "pt": "Dano gélido: +3-14",
-          "ru": "Урон от льда: +3–-14"
+          "zh-TW": "冰寒傷害：3 - 14 點",
+          "zh-CN": "冰霜伤害: 3-14",
+          "de": "Kälteschaden: 3-14",
+          "es": "Daño de frío: 3-14 p.",
+          "fr": "Dégâts de Froid : 3-14",
+          "it": "Danni da freddo: 3-14",
+          "ja": "冷気ダメージ: 3 - 14",
+          "ko": "냉기 피해: 3-14",
+          "pl": "Obrażenia od zimna: 3-14",
+          "pt": "Dano gélido: 3-14",
+          "ru": "Урон от льда: 3–14"
         },
         "min": 3,
-        "max": -14,
+        "max": 14,
         "variable": true
       },
       {
         "code": "manasteal",
         "label": {
           "en": "7% Mana stolen per hit",
-          "zh-TW": "擊中竊取 +7% 法力",
-          "zh-CN": "+7% 击中时偷取法力",
-          "de": "+7% abgesaugtes Mana pro Treffer",
-          "es": "+7% de maná robado por golpe",
-          "fr": "+7% de mana volé à chaque coup",
-          "it": "+7% mana rubato per colpo",
-          "ja": "攻撃命中でマナを吸収（与ダメージの+7%）",
-          "ko": "적중당 마나 +7% 훔침",
-          "pl": "+7% many wykradzione za każde trafienie",
-          "pt": "+7% de mana roubado por acerto",
-          "ru": "Похищает +7% маны за удар"
+          "zh-TW": "擊中竊取 7% 法力",
+          "zh-CN": "7% 击中时偷取法力",
+          "de": "7% abgesaugtes Mana pro Treffer",
+          "es": "7% de maná robado por golpe",
+          "fr": "7% de mana volé à chaque coup",
+          "it": "7% mana rubato per colpo",
+          "ja": "攻撃命中でマナを吸収（与ダメージの7%）",
+          "ko": "적중당 마나 7% 훔침",
+          "pl": "7% many wykradzione za każde trafienie",
+          "pt": "7% de mana roubado por acerto",
+          "ru": "Похищает 7% маны за удар"
         },
         "min": 7,
         "max": 7,
@@ -3212,40 +2848,42 @@
         "code": "dmg-fire",
         "label": {
           "en": "Adds 5-30 fire damage",
-          "zh-TW": "火焰傷害：+5 - -30 點",
-          "zh-CN": "火焰伤害: +5-30",
-          "de": "Feuerschaden: +5-30",
-          "es": "Daño de fuego: +5-30 p.",
-          "fr": "Dégâts de Feu : +5-30",
-          "it": "Danni da fuoco: +5-30",
-          "ja": "火炎ダメージ: +5 - -30",
-          "ko": "화염 피해: +5-30",
-          "pl": "Obrażenia od ognia: +5-30",
-          "pt": "Dano ígneo: +5-30",
-          "ru": "Урон от огня: +5–-30"
+          "zh-TW": "火焰傷害：5 - 30 點",
+          "zh-CN": "火焰伤害: 5-30",
+          "de": "Feuerschaden: 5-30",
+          "es": "Daño de fuego: 5-30 p.",
+          "fr": "Dégâts de Feu : 5-30",
+          "it": "Danni da fuoco: 5-30",
+          "ja": "火炎ダメージ: 5 - 30",
+          "ko": "화염 피해: 5-30",
+          "pl": "Obrażenia od ognia: 5-30",
+          "pt": "Dano ígneo: 5-30",
+          "ru": "Урон от огня: 5–30"
         },
         "min": 5,
-        "max": -30,
+        "max": 30,
         "variable": true
-      },
+      }
+    ],
+    "replaceStats": [
       {
         "code": "dmg-ltng",
         "label": {
           "en": "Adds 21-110 lightning damage",
-          "zh-TW": "電擊傷害：+21 - -110 點",
-          "zh-CN": "闪电伤害: +21-110",
-          "de": "Blitzschaden: +21-110",
-          "es": "Daño de rayos: +21-110 p.",
-          "fr": "Dégâts de Foudre : +21-110",
-          "it": "Danni da fulmine: +21-110",
-          "ja": "電撃ダメージ: +21 - -110",
-          "ko": "번개 피해: +21-110",
-          "pl": "Obrażenia od błyskawic: +21-110",
-          "pt": "Dano elétrico: +21-110",
-          "ru": "Урон от молнии: +21–-110"
+          "zh-TW": "電擊傷害：21 - 110 點",
+          "zh-CN": "闪电伤害: 21-110",
+          "de": "Blitzschaden: 21-110",
+          "es": "Daño de rayos: 21-110 p.",
+          "fr": "Dégâts de Foudre : 21-110",
+          "it": "Danni da fulmine: 21-110",
+          "ja": "電撃ダメージ: 21 - 110",
+          "ko": "번개 피해: 21-110",
+          "pl": "Obrażenia od błyskawic: 21-110",
+          "pt": "Dano elétrico: 21-110",
+          "ru": "Урон от молнии: 21–110"
         },
         "min": 21,
-        "max": -110,
+        "max": 110,
         "variable": true
       }
     ]
@@ -3296,60 +2934,20 @@
         "variable": false
       },
       {
-        "code": "deadly",
-        "label": {
-          "en": "+25% Deadly Strike",
-          "zh-TW": "+25% 致命打擊",
-          "zh-CN": "+25% 致死打击",
-          "de": "+25% Todesschlag",
-          "es": "+25% de azote mortal",
-          "fr": "+25% de chances de coup mortel",
-          "it": "Probabilità di colpo mortale +25%",
-          "ja": "デッドリー・ストライク（+25%）",
-          "ko": "치명적 공격 +25%",
-          "pl": "+25% do szansy na zabójcze uderzenie",
-          "pt": "+25% de Golpe Mortal",
-          "ru": "+25% к вероятности нанести смертельный удар"
-        },
-        "min": 25,
-        "max": 25,
-        "variable": false
-      },
-      {
-        "code": "att",
-        "label": {
-          "en": "+250 to Attack Rating",
-          "zh-TW": "+250 準確率",
-          "zh-CN": "+250 命中值",
-          "de": "+250 zu Angriffswert",
-          "es": "+250 de índice de ataque",
-          "fr": "+250 au score d’attaque",
-          "it": "+250 indice d'attacco",
-          "ja": "命中率（+250）",
-          "ko": "명중률 +250",
-          "pl": "+250 do skuteczności ataku",
-          "pt": "+250 de taxa de ataque",
-          "ru": "+250 к рейтингу атаки"
-        },
-        "min": 250,
-        "max": 250,
-        "variable": false
-      },
-      {
         "code": "lifesteal",
         "label": {
           "en": "7% Life stolen per hit",
-          "zh-TW": "擊中竊取 +7+7% 生命",
-          "zh-CN": "+7+7% 击中时偷取生命",
-          "de": "+7+7% abgesaugtes Leben pro Treffer",
-          "es": "+7+7% de vida robada por golpe",
-          "fr": "+7+7% de vie volée à chaque coup",
-          "it": "+7+7% vita rubata per colpo",
-          "ja": "攻撃命中でライフを吸収（与ダメージの+7+7%）",
-          "ko": "적중당 생명력 +7+7% 훔침",
-          "pl": "+7+7% zdrowia wykradzione za każde trafienie",
-          "pt": "+7+7% de pontos de vida roubados por acerto",
-          "ru": "Похищает +7+7% здоровья за удар"
+          "zh-TW": "擊中竊取 7% 生命",
+          "zh-CN": "7% 击中时偷取生命",
+          "de": "7% abgesaugtes Leben pro Treffer",
+          "es": "7% de vida robada por golpe",
+          "fr": "7% de vie volée à chaque coup",
+          "it": "7% vita rubata per colpo",
+          "ja": "攻撃命中でライフを吸収（与ダメージの7%）",
+          "ko": "적중당 생명력 7% 훔침",
+          "pl": "7% zdrowia wykradzione za każde trafienie",
+          "pt": "7% de pontos de vida roubados por acerto",
+          "ru": "Похищает 7% здоровья за удар"
         },
         "min": 7,
         "max": 7,
@@ -3395,6 +2993,28 @@
         "max": 2,
         "variable": false
       }
+    ],
+    "replaceStats": [
+      {
+        "code": "att",
+        "label": {
+          "en": "+250 to Attack Rating",
+          "zh-TW": "+250 準確率",
+          "zh-CN": "+250 命中值",
+          "de": "+250 zu Angriffswert",
+          "es": "+250 de índice de ataque",
+          "fr": "+250 au score d’attaque",
+          "it": "+250 indice d'attacco",
+          "ja": "命中率（+250）",
+          "ko": "명중률 +250",
+          "pl": "+250 do skuteczności ataku",
+          "pt": "+250 de taxa de ataque",
+          "ru": "+250 к рейтингу атаки"
+        },
+        "min": 250,
+        "max": 250,
+        "variable": false
+      }
     ]
   },
   "runeword-Runeword59": {
@@ -3402,26 +3022,6 @@
     "verifiedAt": "2026-08-07",
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
-      {
-        "code": "levelup-skill",
-        "label": {
-          "en": "100% Chance to cast level 40 Blizzard when you Level-Up",
-          "zh-TW": "當你升級時有 +100% 機率施展等級 +100 暴風雪",
-          "zh-CN": "+100% 几率在升级时施放+100级暴风雪",
-          "de": "+100% Chance, beim Aufsteigen Stufe +100 Blizzard auszulösen",
-          "es": "+100% de probabilidad de lanzar Ventisca de nivel +100 al subir de nivel",
-          "fr": "+100% de chances de lancer Blizzard - niv. +100 quand vous montez de niveau",
-          "it": "Probabilità del +100% di lanciare a livello +100 Bufera quando sali di livello",
-          "ja": "レベルアップ時に+100%の確率で〈ブリザード〉（レベル+100）を発動",
-          "ko": "레벨 상승 시 +100% 확률로 +100 레벨 눈보라 시전",
-          "pl": "+100% szansy na rzucenie +100-poziomowego zaklęcia Zamieć kiedy awansujesz",
-          "pt": "+100% de chance de lançar Nevasca de nível +100 quando você sobe de nível",
-          "ru": "Вероятность +100% применить умение «Снежная буря» +100-го уровня при достижении нового уровня"
-        },
-        "min": 100,
-        "max": 100,
-        "variable": false
-      },
       {
         "code": "ignore-ac",
         "label": {
@@ -3446,17 +3046,17 @@
         "code": "lifesteal",
         "label": {
           "en": "7% Life stolen per hit",
-          "zh-TW": "擊中竊取 +7+7% 生命",
-          "zh-CN": "+7+7% 击中时偷取生命",
-          "de": "+7+7% abgesaugtes Leben pro Treffer",
-          "es": "+7+7% de vida robada por golpe",
-          "fr": "+7+7% de vie volée à chaque coup",
-          "it": "+7+7% vita rubata per colpo",
-          "ja": "攻撃命中でライフを吸収（与ダメージの+7+7%）",
-          "ko": "적중당 생명력 +7+7% 훔침",
-          "pl": "+7+7% zdrowia wykradzione za każde trafienie",
-          "pt": "+7+7% de pontos de vida roubados por acerto",
-          "ru": "Похищает +7+7% здоровья за удар"
+          "zh-TW": "擊中竊取 7% 生命",
+          "zh-CN": "7% 击中时偷取生命",
+          "de": "7% abgesaugtes Leben pro Treffer",
+          "es": "7% de vida robada por golpe",
+          "fr": "7% de vie volée à chaque coup",
+          "it": "7% vita rubata per colpo",
+          "ja": "攻撃命中でライフを吸収（与ダメージの7%）",
+          "ko": "적중당 생명력 7% 훔침",
+          "pl": "7% zdrowia wykradzione za każde trafienie",
+          "pt": "7% de pontos de vida roubados por acerto",
+          "ru": "Похищает 7% здоровья за удар"
         },
         "min": 7,
         "max": 7,
@@ -3489,26 +3089,6 @@
     "verifiedAt": "2026-08-07",
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
-      {
-        "code": "kill-skill",
-        "label": {
-          "en": "50% Chance to cast level 20 Chain Lightning when you Kill an Enemy",
-          "zh-TW": "當你殺敵時有 +50% 機率施展等級 +50 連鎖閃電",
-          "zh-CN": "+50% 几率在消灭一名敌人时施放+50级连锁闪电",
-          "de": "+50% Chance, beim Töten eines Gegners Stufe  +50 Kettenblitz auszulösen",
-          "es": "+50% de probabilidad de lanzar Cadena de rayos de nivel +50 al matar a un enemigo",
-          "fr": "+50% de chances de lancer Chaîne d’éclairs - niv. +50 quand vous tuez un ennemi",
-          "it": "Probabilità del +50% di lanciare a livello +50 Catena di Fulmini quando uccidi un nemico",
-          "ja": "敵を倒すと+50%の確率で〈チェインライトニング〉（レベル+50）を発動",
-          "ko": "적 처치 시 +50% 확률로 +50 레벨 연쇄 번개 시전",
-          "pl": "+50% szansy na rzucenie +50-poziomowego zaklęcia Seryjne Błyskawice kiedy zabijasz wroga",
-          "pt": "+50% de chance de lançar Cadeia de Raios de nível +50 quando você abate um inimigo",
-          "ru": "Вероятность +50% применить умение «Цепная молния» +50-го уровня при убийстве"
-        },
-        "min": 50,
-        "max": 50,
-        "variable": false
-      },
       {
         "code": "crush",
         "label": {
@@ -3553,17 +3133,17 @@
         "code": "mag%",
         "label": {
           "en": "30% Better Chance of Getting Magic Items",
-          "zh-TW": "尋獲魔法物品機率提高 +30+30%",
-          "zh-CN": "+30+30% 额外几率获得魔法物品",
-          "de": "+30+30% bessere Chance, magischen Gegenstand zu erhalten",
-          "es": "+30+30% de probabilidad de encontrar objetos mágicos",
-          "fr": "+30+30% de chances suppl. d’obtenir des objets magiques",
-          "it": "Probabilità di ottenere un oggetto magico aumentata del +30+30%",
-          "ja": "マジックアイテムドロップ率（+30+30%）",
-          "ko": "마법 아이템 발견 확률 +30+30% 증가",
-          "pl": "+30+30% do szansy na zdobycie magicznych przedmiotów",
-          "pt": "+30+30% de chance adicional de obter itens mágicos",
-          "ru": "+30+30% к вероятности найти магический предмет"
+          "zh-TW": "尋獲魔法物品機率提高 30%",
+          "zh-CN": "30% 额外几率获得魔法物品",
+          "de": "30% bessere Chance, magischen Gegenstand zu erhalten",
+          "es": "+30% de probabilidad de encontrar objetos mágicos",
+          "fr": "30% de chances suppl. d’obtenir des objets magiques",
+          "it": "Probabilità di ottenere un oggetto magico aumentata del 30%",
+          "ja": "マジックアイテムドロップ率（+30%）",
+          "ko": "마법 아이템 발견 확률 30% 증가",
+          "pl": "+30% do szansy na zdobycie magicznych przedmiotów",
+          "pt": "30% de chance adicional de obter itens mágicos",
+          "ru": "+30% к вероятности найти магический предмет"
         },
         "min": 30,
         "max": 30,
@@ -3600,20 +3180,20 @@
         "code": "dmg-fire",
         "label": {
           "en": "Adds 5-30 fire damage",
-          "zh-TW": "火焰傷害：+5 - -30 點",
-          "zh-CN": "火焰伤害: +5-30",
-          "de": "Feuerschaden: +5-30",
-          "es": "Daño de fuego: +5-30 p.",
-          "fr": "Dégâts de Feu : +5-30",
-          "it": "Danni da fuoco: +5-30",
-          "ja": "火炎ダメージ: +5 - -30",
-          "ko": "화염 피해: +5-30",
-          "pl": "Obrażenia od ognia: +5-30",
-          "pt": "Dano ígneo: +5-30",
-          "ru": "Урон от огня: +5–-30"
+          "zh-TW": "火焰傷害：5 - 30 點",
+          "zh-CN": "火焰伤害: 5-30",
+          "de": "Feuerschaden: 5-30",
+          "es": "Daño de fuego: 5-30 p.",
+          "fr": "Dégâts de Feu : 5-30",
+          "it": "Danni da fuoco: 5-30",
+          "ja": "火炎ダメージ: 5 - 30",
+          "ko": "화염 피해: 5-30",
+          "pl": "Obrażenia od ognia: 5-30",
+          "pt": "Dano ígneo: 5-30",
+          "ru": "Урон от огня: 5–30"
         },
         "min": 5,
-        "max": -30,
+        "max": 30,
         "variable": true
       },
       {
@@ -3647,57 +3227,57 @@
         "code": "dmg-fire",
         "label": {
           "en": "Adds 5-30 fire damage",
-          "zh-TW": "火焰傷害：+5 - -30 點",
-          "zh-CN": "火焰伤害: +5-30",
-          "de": "Feuerschaden: +5-30",
-          "es": "Daño de fuego: +5-30 p.",
-          "fr": "Dégâts de Feu : +5-30",
-          "it": "Danni da fuoco: +5-30",
-          "ja": "火炎ダメージ: +5 - -30",
-          "ko": "화염 피해: +5-30",
-          "pl": "Obrażenia od ognia: +5-30",
-          "pt": "Dano ígneo: +5-30",
-          "ru": "Урон от огня: +5–-30"
+          "zh-TW": "火焰傷害：5 - 30 點",
+          "zh-CN": "火焰伤害: 5-30",
+          "de": "Feuerschaden: 5-30",
+          "es": "Daño de fuego: 5-30 p.",
+          "fr": "Dégâts de Feu : 5-30",
+          "it": "Danni da fuoco: 5-30",
+          "ja": "火炎ダメージ: 5 - 30",
+          "ko": "화염 피해: 5-30",
+          "pl": "Obrażenia od ognia: 5-30",
+          "pt": "Dano ígneo: 5-30",
+          "ru": "Урон от огня: 5–30"
         },
         "min": 5,
-        "max": -30,
+        "max": 30,
         "variable": true
       },
       {
         "code": "dmg-cold",
         "label": {
           "en": "Adds 3-14 cold damage",
-          "zh-TW": "冰寒傷害：+3 - -14 點",
-          "zh-CN": "冰霜伤害: +3-14",
-          "de": "Kälteschaden: +3-14",
-          "es": "Daño de frío: +3-14 p.",
-          "fr": "Dégâts de Froid : +3-14",
-          "it": "Danni da freddo: +3-14",
-          "ja": "冷気ダメージ: +3 - -14",
-          "ko": "냉기 피해: +3-14",
-          "pl": "Obrażenia od zimna: +3-14",
-          "pt": "Dano gélido: +3-14",
-          "ru": "Урон от льда: +3–-14"
+          "zh-TW": "冰寒傷害：3 - 14 點",
+          "zh-CN": "冰霜伤害: 3-14",
+          "de": "Kälteschaden: 3-14",
+          "es": "Daño de frío: 3-14 p.",
+          "fr": "Dégâts de Froid : 3-14",
+          "it": "Danni da freddo: 3-14",
+          "ja": "冷気ダメージ: 3 - 14",
+          "ko": "냉기 피해: 3-14",
+          "pl": "Obrażenia od zimna: 3-14",
+          "pt": "Dano gélido: 3-14",
+          "ru": "Урон от льда: 3–14"
         },
         "min": 3,
-        "max": -14,
+        "max": 14,
         "variable": true
       },
       {
         "code": "lifesteal",
         "label": {
           "en": "7% Life stolen per hit",
-          "zh-TW": "擊中竊取 +7+7% 生命",
-          "zh-CN": "+7+7% 击中时偷取生命",
-          "de": "+7+7% abgesaugtes Leben pro Treffer",
-          "es": "+7+7% de vida robada por golpe",
-          "fr": "+7+7% de vie volée à chaque coup",
-          "it": "+7+7% vita rubata per colpo",
-          "ja": "攻撃命中でライフを吸収（与ダメージの+7+7%）",
-          "ko": "적중당 생명력 +7+7% 훔침",
-          "pl": "+7+7% zdrowia wykradzione za każde trafienie",
-          "pt": "+7+7% de pontos de vida roubados por acerto",
-          "ru": "Похищает +7+7% здоровья за удар"
+          "zh-TW": "擊中竊取 7% 生命",
+          "zh-CN": "7% 击中时偷取生命",
+          "de": "7% abgesaugtes Leben pro Treffer",
+          "es": "7% de vida robada por golpe",
+          "fr": "7% de vie volée à chaque coup",
+          "it": "7% vita rubata per colpo",
+          "ja": "攻撃命中でライフを吸収（与ダメージの7%）",
+          "ko": "적중당 생명력 7% 훔침",
+          "pl": "7% zdrowia wykradzione za każde trafienie",
+          "pt": "7% de pontos de vida roubados por acerto",
+          "ru": "Похищает 7% здоровья за удар"
         },
         "min": 7,
         "max": 7,
@@ -3714,60 +3294,20 @@
         "code": "att%",
         "label": {
           "en": "20% Bonus to Attack Rating",
-          "zh-TW": "+20% 準確率加成",
-          "zh-CN": "+20% 加成命中值",
-          "de": "+20% Bonus zu Angriffswert",
-          "es": "+20% de bonus al índice de ataque",
-          "fr": "+20% de bonus au score d’attaque",
-          "it": "Indice d'attacco aumentato del +20%",
-          "ja": "命中率へのボーナス（+20%）",
-          "ko": "명중률 보너스 +20%",
-          "pl": "+20% premii do skuteczności ataku",
-          "pt": "+20% de bônus de taxa de ataque",
+          "zh-TW": "20% 準確率加成",
+          "zh-CN": "20% 加成命中值",
+          "de": "20% Bonus zu Angriffswert",
+          "es": "20% de bonus al índice de ataque",
+          "fr": "20% de bonus au score d’attaque",
+          "it": "Indice d'attacco aumentato del 20%",
+          "ja": "命中率へのボーナス（20%）",
+          "ko": "명중률 보너스 20%",
+          "pl": "20% premii do skuteczności ataku",
+          "pt": "20% de bônus de taxa de ataque",
           "ru": "+20% к рейтингу атаки"
         },
         "min": 20,
         "max": 20,
-        "variable": false
-      },
-      {
-        "code": "crush",
-        "label": {
-          "en": "+33% Chance of Crushing Blow",
-          "zh-TW": "+33% 機率造成粉碎打擊",
-          "zh-CN": "+33% 几率粉碎打击",
-          "de": "+33% Chance auf vernichtenden Schlag",
-          "es": "+33% de probabilidad de ataque aplastante",
-          "fr": "+33% de chances de coup écrasant",
-          "it": "Probabilità di colpo frantumante +33%",
-          "ja": "クラッシング・ブロー（+33%）",
-          "ko": "강타 확률 +33%",
-          "pl": "+33% do szansy na druzgocące uderzenie",
-          "pt": "+33% de chance de Golpe Esmagador",
-          "ru": "+33% к вероятности нанести сокрушительный удар"
-        },
-        "min": 33,
-        "max": 33,
-        "variable": false
-      },
-      {
-        "code": "openwounds",
-        "label": {
-          "en": "+50% Chance of Open Wounds",
-          "zh-TW": "+50% 機率造成開放傷口",
-          "zh-CN": "+50% 几率造成开创性伤口",
-          "de": "+50% Chance auf offene Wunden",
-          "es": "+50% de probabilidad de sangrado",
-          "fr": "+50% de chances de blessures ouvertes",
-          "it": "Probabilità di aprire una ferita +50%",
-          "ja": "出血状態を付与（+50%）",
-          "ko": "상처 악화 확률 +50%",
-          "pl": "+50% do szansy na otwarcie rany",
-          "pt": "+50% de chance de Feridas Abertas",
-          "ru": "+50% к вероятности нанести открытую рану"
-        },
-        "min": 50,
-        "max": 50,
         "variable": false
       },
       {
@@ -3794,20 +3334,42 @@
         "code": "str",
         "label": {
           "en": "+10 to Strength",
-          "zh-TW": "+10+10 力量",
-          "zh-CN": "+10+10 力量",
-          "de": "+10+10 zu Stärke",
-          "es": "+10+10 de fuerza",
-          "fr": "+10+10 à la Force",
-          "it": "+10+10 Forza",
-          "ja": "筋力（+10+10）",
-          "ko": "힘 +10+10",
-          "pl": "+10+10 do siły",
-          "pt": "+10+10 de força",
-          "ru": "+10+10 к силе"
+          "zh-TW": "+10 力量",
+          "zh-CN": "+10 力量",
+          "de": "+10 zu Stärke",
+          "es": "+10 de fuerza",
+          "fr": "+10 à la Force",
+          "it": "+10 Forza",
+          "ja": "筋力（+10）",
+          "ko": "힘 +10",
+          "pl": "+10 do siły",
+          "pt": "+10 de força",
+          "ru": "+10 к силе"
         },
         "min": 10,
         "max": 10,
+        "variable": false
+      }
+    ],
+    "replaceStats": [
+      {
+        "code": "openwounds",
+        "label": {
+          "en": "+50% Chance of Open Wounds",
+          "zh-TW": "+50% 機率造成開放傷口",
+          "zh-CN": "+50% 几率造成开创性伤口",
+          "de": "+50% Chance auf offene Wunden",
+          "es": "+50% de probabilidad de sangrado",
+          "fr": "+50% de chances de blessures ouvertes",
+          "it": "Probabilità di aprire una ferita +50%",
+          "ja": "出血状態を付与（+50%）",
+          "ko": "상처 악화 확률 +50%",
+          "pl": "+50% do szansy na otwarcie rany",
+          "pt": "+50% de chance de Feridas Abertas",
+          "ru": "+50% к вероятности нанести открытую рану"
+        },
+        "min": 50,
+        "max": 50,
         "variable": false
       }
     ]
@@ -3838,26 +3400,6 @@
         "variable": false
       },
       {
-        "code": "crush",
-        "label": {
-          "en": "+60-70% Chance of Crushing Blow",
-          "zh-TW": "+60--70% 機率造成粉碎打擊",
-          "zh-CN": "+60--70% 几率粉碎打击",
-          "de": "+60--70% Chance auf vernichtenden Schlag",
-          "es": "+60--70% de probabilidad de ataque aplastante",
-          "fr": "+60--70% de chances de coup écrasant",
-          "it": "Probabilità di colpo frantumante +60--70%",
-          "ja": "クラッシング・ブロー（+60--70%）",
-          "ko": "강타 확률 +60--70%",
-          "pl": "+60--70% do szansy na druzgocące uderzenie",
-          "pt": "+60--70% de chance de Golpe Esmagador",
-          "ru": "+60--70% к вероятности нанести сокрушительный удар"
-        },
-        "min": 60,
-        "max": -70,
-        "variable": true
-      },
-      {
         "code": "noheal",
         "label": {
           "en": "Prevent Monster Heal",
@@ -3877,6 +3419,28 @@
         "max": 1,
         "variable": false
       }
+    ],
+    "replaceStats": [
+      {
+        "code": "crush",
+        "label": {
+          "en": "+60-70% Chance of Crushing Blow",
+          "zh-TW": "+60-70% 機率造成粉碎打擊",
+          "zh-CN": "+60-70% 几率粉碎打击",
+          "de": "+60-70% Chance auf vernichtenden Schlag",
+          "es": "+60-70% de probabilidad de ataque aplastante",
+          "fr": "+60-70% de chances de coup écrasant",
+          "it": "Probabilità di colpo frantumante +60-70%",
+          "ja": "クラッシング・ブロー（+60-70%）",
+          "ko": "강타 확률 +60-70%",
+          "pl": "+60-70% do szansy na druzgocące uderzenie",
+          "pt": "+60-70% de chance de Golpe Esmagador",
+          "ru": "+60-70% к вероятности нанести сокрушительный удар"
+        },
+        "min": 60,
+        "max": 70,
+        "variable": true
+      }
     ]
   },
   "runeword-Runeword71": {
@@ -3885,60 +3449,20 @@
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
       {
-        "code": "dmg-fire",
-        "label": {
-          "en": "Adds 150-210 fire damage",
-          "zh-TW": "火焰傷害：+150 - -210 點",
-          "zh-CN": "火焰伤害: +150-210",
-          "de": "Feuerschaden: +150-210",
-          "es": "Daño de fuego: +150-210 p.",
-          "fr": "Dégâts de Feu : +150-210",
-          "it": "Danni da fuoco: +150-210",
-          "ja": "火炎ダメージ: +150 - -210",
-          "ko": "화염 피해: +150-210",
-          "pl": "Obrażenia od ognia: +150-210",
-          "pt": "Dano ígneo: +150-210",
-          "ru": "Урон от огня: +150–-210"
-        },
-        "min": 150,
-        "max": -210,
-        "variable": true
-      },
-      {
-        "code": "dmg-cold",
-        "label": {
-          "en": "Adds 130-180 cold damage",
-          "zh-TW": "冰寒傷害：+130 - -180 點",
-          "zh-CN": "冰霜伤害: +130-180",
-          "de": "Kälteschaden: +130-180",
-          "es": "Daño de frío: +130-180 p.",
-          "fr": "Dégâts de Froid : +130-180",
-          "it": "Danni da freddo: +130-180",
-          "ja": "冷気ダメージ: +130 - -180",
-          "ko": "냉기 피해: +130-180",
-          "pl": "Obrażenia od zimna: +130-180",
-          "pt": "Dano gélido: +130-180",
-          "ru": "Урон от льда: +130–-180"
-        },
-        "min": 130,
-        "max": -180,
-        "variable": true
-      },
-      {
         "code": "lifesteal",
         "label": {
           "en": "7% Life stolen per hit",
-          "zh-TW": "擊中竊取 +7+7% 生命",
-          "zh-CN": "+7+7% 击中时偷取生命",
-          "de": "+7+7% abgesaugtes Leben pro Treffer",
-          "es": "+7+7% de vida robada por golpe",
-          "fr": "+7+7% de vie volée à chaque coup",
-          "it": "+7+7% vita rubata per colpo",
-          "ja": "攻撃命中でライフを吸収（与ダメージの+7+7%）",
-          "ko": "적중당 생명력 +7+7% 훔침",
-          "pl": "+7+7% zdrowia wykradzione za każde trafienie",
-          "pt": "+7+7% de pontos de vida roubados por acerto",
-          "ru": "Похищает +7+7% здоровья за удар"
+          "zh-TW": "擊中竊取 7% 生命",
+          "zh-CN": "7% 击中时偷取生命",
+          "de": "7% abgesaugtes Leben pro Treffer",
+          "es": "7% de vida robada por golpe",
+          "fr": "7% de vie volée à chaque coup",
+          "it": "7% vita rubata per colpo",
+          "ja": "攻撃命中でライフを吸収（与ダメージの7%）",
+          "ko": "적중당 생명력 7% 훔침",
+          "pl": "7% zdrowia wykradzione za każde trafienie",
+          "pt": "7% de pontos de vida roubados por acerto",
+          "ru": "Похищает 7% здоровья за удар"
         },
         "min": 7,
         "max": 7,
@@ -3968,16 +3492,16 @@
         "code": "gold%",
         "label": {
           "en": "75% Extra Gold from Monsters",
-          "zh-TW": "怪物金幣掉落量提高 +75%",
-          "zh-CN": "+75% 怪物额外掉落金币",
-          "de": "+75% Extragold von Monstern",
-          "es": "+75% de oro extra de los monstruos",
-          "fr": "+75% d’or suppl. sur les monstres",
-          "it": "+75% oro extra dai mostri",
+          "zh-TW": "怪物金幣掉落量提高 75%",
+          "zh-CN": "75% 怪物额外掉落金币",
+          "de": "75% Extragold von Monstern",
+          "es": "75% de oro extra de los monstruos",
+          "fr": "75% d’or suppl. sur les monstres",
+          "it": "75% oro extra dai mostri",
           "ja": "モンスターからの獲得ゴールド（+75%）",
-          "ko": "괴물에게서 얻는 금화 +75% 증가",
+          "ko": "괴물에게서 얻는 금화 75% 증가",
           "pl": "+75% dodatkowego złota od potworów",
-          "pt": "+75% de ouro adicional de monstros",
+          "pt": "75% de ouro adicional de monstros",
           "ru": "+75% к золоту за убийство монстров"
         },
         "min": 75,
@@ -3995,20 +3519,20 @@
         "code": "dmg-fire",
         "label": {
           "en": "Adds 5-30 fire damage",
-          "zh-TW": "火焰傷害：+5 - -30 點",
-          "zh-CN": "火焰伤害: +5-30",
-          "de": "Feuerschaden: +5-30",
-          "es": "Daño de fuego: +5-30 p.",
-          "fr": "Dégâts de Feu : +5-30",
-          "it": "Danni da fuoco: +5-30",
-          "ja": "火炎ダメージ: +5 - -30",
-          "ko": "화염 피해: +5-30",
-          "pl": "Obrażenia od ognia: +5-30",
-          "pt": "Dano ígneo: +5-30",
-          "ru": "Урон от огня: +5–-30"
+          "zh-TW": "火焰傷害：5 - 30 點",
+          "zh-CN": "火焰伤害: 5-30",
+          "de": "Feuerschaden: 5-30",
+          "es": "Daño de fuego: 5-30 p.",
+          "fr": "Dégâts de Feu : 5-30",
+          "it": "Danni da fuoco: 5-30",
+          "ja": "火炎ダメージ: 5 - 30",
+          "ko": "화염 피해: 5-30",
+          "pl": "Obrażenia od ognia: 5-30",
+          "pt": "Dano ígneo: 5-30",
+          "ru": "Урон от огня: 5–30"
         },
         "min": 5,
-        "max": -30,
+        "max": 30,
         "variable": true
       },
       {
@@ -4039,26 +3563,6 @@
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
       {
-        "code": "str",
-        "label": {
-          "en": "+25 to Strength",
-          "zh-TW": "+25+25 力量",
-          "zh-CN": "+25+25 力量",
-          "de": "+25+25 zu Stärke",
-          "es": "+25+25 de fuerza",
-          "fr": "+25+25 à la Force",
-          "it": "+25+25 Forza",
-          "ja": "筋力（+25+25）",
-          "ko": "힘 +25+25",
-          "pl": "+25+25 do siły",
-          "pt": "+25+25 de força",
-          "ru": "+25+25 к силе"
-        },
-        "min": 25,
-        "max": 25,
-        "variable": false
-      },
-      {
         "code": "enr",
         "label": {
           "en": "+10 to Energy",
@@ -4076,6 +3580,28 @@
         },
         "min": 10,
         "max": 10,
+        "variable": false
+      }
+    ],
+    "replaceStats": [
+      {
+        "code": "str",
+        "label": {
+          "en": "+25 to Strength",
+          "zh-TW": "+25 力量",
+          "zh-CN": "+25 力量",
+          "de": "+25 zu Stärke",
+          "es": "+25 de fuerza",
+          "fr": "+25 à la Force",
+          "it": "+25 Forza",
+          "ja": "筋力（+25）",
+          "ko": "힘 +25",
+          "pl": "+25 do siły",
+          "pt": "+25 de força",
+          "ru": "+25 к силе"
+        },
+        "min": 25,
+        "max": 25,
         "variable": false
       }
     ]
@@ -4109,17 +3635,17 @@
         "code": "red-dmg",
         "label": {
           "en": "Damage Reduced by 7",
-          "zh-TW": "傷害降低 +7",
-          "zh-CN": "伤害降低 +7",
-          "de": "Schaden reduziert um +7",
-          "es": "Daño reducido en +7 p.",
-          "fr": "Dégâts réduits de +7",
-          "it": "Danni ridotti di +7",
-          "ja": "ダメージを軽減（+7）",
-          "ko": "피해 +7 감소",
-          "pl": "Zmniejsza otrzymywane obrażenia o +7 pkt.",
-          "pt": "Dano reduzido em +7",
-          "ru": "–+7 к урону"
+          "zh-TW": "傷害降低 7",
+          "zh-CN": "伤害降低 7",
+          "de": "Schaden reduziert um 7",
+          "es": "Daño reducido en 7 p.",
+          "fr": "Dégâts réduits de 7",
+          "it": "Danni ridotti di 7",
+          "ja": "ダメージを軽減（7）",
+          "ko": "피해 7 감소",
+          "pl": "Zmniejsza otrzymywane obrażenia o 7 pkt.",
+          "pt": "Dano reduzido em 7",
+          "ru": "–7 к урону"
         },
         "min": 7,
         "max": 7,
@@ -4150,26 +3676,6 @@
         },
         "min": 9,
         "max": 9,
-        "variable": false
-      },
-      {
-        "code": "openwounds",
-        "label": {
-          "en": "+100% Chance of Open Wounds",
-          "zh-TW": "+100% 機率造成開放傷口",
-          "zh-CN": "+100% 几率造成开创性伤口",
-          "de": "+100% Chance auf offene Wunden",
-          "es": "+100% de probabilidad de sangrado",
-          "fr": "+100% de chances de blessures ouvertes",
-          "it": "Probabilità di aprire una ferita +100%",
-          "ja": "出血状態を付与（+100%）",
-          "ko": "상처 악화 확률 +100%",
-          "pl": "+100% do szansy na otwarcie rany",
-          "pt": "+100% de chance de Feridas Abertas",
-          "ru": "+100% к вероятности нанести открытую рану"
-        },
-        "min": 100,
-        "max": 100,
         "variable": false
       },
       {
@@ -4402,16 +3908,16 @@
         "code": "att%",
         "label": {
           "en": "20% Bonus to Attack Rating",
-          "zh-TW": "+20% 準確率加成",
-          "zh-CN": "+20% 加成命中值",
-          "de": "+20% Bonus zu Angriffswert",
-          "es": "+20% de bonus al índice de ataque",
-          "fr": "+20% de bonus au score d’attaque",
-          "it": "Indice d'attacco aumentato del +20%",
-          "ja": "命中率へのボーナス（+20%）",
-          "ko": "명중률 보너스 +20%",
-          "pl": "+20% premii do skuteczności ataku",
-          "pt": "+20% de bônus de taxa de ataque",
+          "zh-TW": "20% 準確率加成",
+          "zh-CN": "20% 加成命中值",
+          "de": "20% Bonus zu Angriffswert",
+          "es": "20% de bonus al índice de ataque",
+          "fr": "20% de bonus au score d’attaque",
+          "it": "Indice d'attacco aumentato del 20%",
+          "ja": "命中率へのボーナス（20%）",
+          "ko": "명중률 보너스 20%",
+          "pl": "20% premii do skuteczności ataku",
+          "pt": "20% de bônus de taxa de ataque",
           "ru": "+20% к рейтингу атаки"
         },
         "min": 20,
@@ -4422,20 +3928,20 @@
         "code": "dmg-cold",
         "label": {
           "en": "Adds 3-14 cold damage",
-          "zh-TW": "冰寒傷害：+3 - -14 點",
-          "zh-CN": "冰霜伤害: +3-14",
-          "de": "Kälteschaden: +3-14",
-          "es": "Daño de frío: +3-14 p.",
-          "fr": "Dégâts de Froid : +3-14",
-          "it": "Danni da freddo: +3-14",
-          "ja": "冷気ダメージ: +3 - -14",
-          "ko": "냉기 피해: +3-14",
-          "pl": "Obrażenia od zimna: +3-14",
-          "pt": "Dano gélido: +3-14",
-          "ru": "Урон от льда: +3–-14"
+          "zh-TW": "冰寒傷害：3 - 14 點",
+          "zh-CN": "冰霜伤害: 3-14",
+          "de": "Kälteschaden: 3-14",
+          "es": "Daño de frío: 3-14 p.",
+          "fr": "Dégâts de Froid : 3-14",
+          "it": "Danni da freddo: 3-14",
+          "ja": "冷気ダメージ: 3 - 14",
+          "ko": "냉기 피해: 3-14",
+          "pl": "Obrażenia od zimna: 3-14",
+          "pt": "Dano gélido: 3-14",
+          "ru": "Урон от льда: 3–14"
         },
         "min": 3,
-        "max": -14,
+        "max": 14,
         "variable": true
       },
       {
@@ -4465,26 +3971,6 @@
     "verifiedAt": "2026-08-07",
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
-      {
-        "code": "bar",
-        "label": {
-          "en": "+2 to Barbarian Skill Levels",
-          "zh-TW": "+2 野蠻人技能等級",
-          "zh-CN": "+2 野蛮人技能等级",
-          "de": "+2 zu Barbarnfertigkeiten",
-          "es": "+2 a los niveles de habilidad de la bárbaro",
-          "fr": "+2 aux niv. de compétence de l’Barbare",
-          "it": "+2 alle abilità dell'Barbaro",
-          "ja": "〈バーバリアン〉スキルレベル向上（+2）",
-          "ko": "야만용사 기술 레벨 +2",
-          "pl": "+2  to Barbarian Skill Levels",
-          "pt": "+2 de níveis de habilidade de Bárbaro",
-          "ru": "+2  to Barbarian Skill Levels"
-        },
-        "min": 2,
-        "max": 2,
-        "variable": false
-      },
       {
         "code": "ac-miss",
         "label": {
@@ -4563,17 +4049,17 @@
         "code": "dmg-demon",
         "label": {
           "en": "+75% Damage to Demons",
-          "zh-TW": "+75+75% 對惡魔的傷害",
-          "zh-CN": "+75+75% 对恶魔的伤害",
-          "de": "+75+75% Schaden gegen Dämonen",
-          "es": "+75+75% de daño contra demonios",
-          "fr": "Dégâts contre les démons : +75+75%",
-          "it": "+75+75% danni ai demoni",
-          "ja": "デーモンへのダメージ（+75+75%）",
-          "ko": "악마에게 주는 피해 +75+75%",
-          "pl": "+75+75% do obrażeń zadanych demonom",
-          "pt": "+75+75% de dano contra demônios",
-          "ru": "+75+75% к урону по демонам"
+          "zh-TW": "+75% 對惡魔的傷害",
+          "zh-CN": "+75% 对恶魔的伤害",
+          "de": "+75% Schaden gegen Dämonen",
+          "es": "+75% de daño contra demonios",
+          "fr": "Dégâts contre les démons : +75%",
+          "it": "+75% danni ai demoni",
+          "ja": "デーモンへのダメージ（+75%）",
+          "ko": "악마에게 주는 피해 +75%",
+          "pl": "+75% do obrażeń zadanych demonom",
+          "pt": "+75% de dano contra demônios",
+          "ru": "+75% к урону по демонам"
         },
         "min": 75,
         "max": 75,
@@ -4647,26 +4133,6 @@
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
       {
-        "code": "kill-skill",
-        "label": {
-          "en": "30% Chance to cast level 21 Enchant when you Kill an Enemy",
-          "zh-TW": "當你殺敵時有 +30% 機率施展等級 +30 附魔",
-          "zh-CN": "+30% 几率在消灭一名敌人时施放+30级附魔火焰",
-          "de": "+30% Chance, beim Töten eines Gegners Stufe  +30 Verzaubern auszulösen",
-          "es": "+30% de probabilidad de lanzar Encantar de nivel +30 al matar a un enemigo",
-          "fr": "+30% de chances de lancer Enchanter - niv. +30 quand vous tuez un ennemi",
-          "it": "Probabilità del +30% di lanciare a livello +30 Incantamento quando uccidi un nemico",
-          "ja": "敵を倒すと+30%の確率で〈ファイアエンチャント〉（レベル+30）を発動",
-          "ko": "적 처치 시 +30% 확률로 +30 레벨 마법부여 시전",
-          "pl": "+30% szansy na rzucenie +30-poziomowego zaklęcia Zaklinanie kiedy zabijasz wroga",
-          "pt": "+30% de chance de lançar Encantar de nível +30 quando você abate um inimigo",
-          "ru": "Вероятность +30% применить умение «Чары» +30-го уровня при убийстве"
-        },
-        "min": 30,
-        "max": 30,
-        "variable": false
-      },
-      {
         "code": "reduce-ac",
         "label": {
           "en": "-25% Target Defense",
@@ -4690,57 +4156,37 @@
         "code": "dmg-cold",
         "label": {
           "en": "Adds 3-14 cold damage",
-          "zh-TW": "冰寒傷害：+3 - -14 點",
-          "zh-CN": "冰霜伤害: +3-14",
-          "de": "Kälteschaden: +3-14",
-          "es": "Daño de frío: +3-14 p.",
-          "fr": "Dégâts de Froid : +3-14",
-          "it": "Danni da freddo: +3-14",
-          "ja": "冷気ダメージ: +3 - -14",
-          "ko": "냉기 피해: +3-14",
-          "pl": "Obrażenia od zimna: +3-14",
-          "pt": "Dano gélido: +3-14",
-          "ru": "Урон от льда: +3–-14"
+          "zh-TW": "冰寒傷害：3 - 14 點",
+          "zh-CN": "冰霜伤害: 3-14",
+          "de": "Kälteschaden: 3-14",
+          "es": "Daño de frío: 3-14 p.",
+          "fr": "Dégâts de Froid : 3-14",
+          "it": "Danni da freddo: 3-14",
+          "ja": "冷気ダメージ: 3 - 14",
+          "ko": "냉기 피해: 3-14",
+          "pl": "Obrażenia od zimna: 3-14",
+          "pt": "Dano gélido: 3-14",
+          "ru": "Урон от льда: 3–14"
         },
         "min": 3,
-        "max": -14,
+        "max": 14,
         "variable": true
-      },
-      {
-        "code": "crush",
-        "label": {
-          "en": "+40% Chance of Crushing Blow",
-          "zh-TW": "+40% 機率造成粉碎打擊",
-          "zh-CN": "+40% 几率粉碎打击",
-          "de": "+40% Chance auf vernichtenden Schlag",
-          "es": "+40% de probabilidad de ataque aplastante",
-          "fr": "+40% de chances de coup écrasant",
-          "it": "Probabilità di colpo frantumante +40%",
-          "ja": "クラッシング・ブロー（+40%）",
-          "ko": "강타 확률 +40%",
-          "pl": "+40% do szansy na druzgocące uderzenie",
-          "pt": "+40% de chance de Golpe Esmagador",
-          "ru": "+40% к вероятности нанести сокрушительный удар"
-        },
-        "min": 40,
-        "max": 40,
-        "variable": false
       },
       {
         "code": "str",
         "label": {
           "en": "+10 to Strength",
-          "zh-TW": "+10+10 力量",
-          "zh-CN": "+10+10 力量",
-          "de": "+10+10 zu Stärke",
-          "es": "+10+10 de fuerza",
-          "fr": "+10+10 à la Force",
-          "it": "+10+10 Forza",
-          "ja": "筋力（+10+10）",
-          "ko": "힘 +10+10",
-          "pl": "+10+10 do siły",
-          "pt": "+10+10 de força",
-          "ru": "+10+10 к силе"
+          "zh-TW": "+10 力量",
+          "zh-CN": "+10 力量",
+          "de": "+10 zu Stärke",
+          "es": "+10 de fuerza",
+          "fr": "+10 à la Force",
+          "it": "+10 Forza",
+          "ja": "筋力（+10）",
+          "ko": "힘 +10",
+          "pl": "+10 do siły",
+          "pt": "+10 de força",
+          "ru": "+10 к силе"
         },
         "min": 10,
         "max": 10,
@@ -4857,16 +4303,16 @@
         "code": "gold%",
         "label": {
           "en": "75% Extra Gold from Monsters",
-          "zh-TW": "怪物金幣掉落量提高 +75%",
-          "zh-CN": "+75% 怪物额外掉落金币",
-          "de": "+75% Extragold von Monstern",
-          "es": "+75% de oro extra de los monstruos",
-          "fr": "+75% d’or suppl. sur les monstres",
-          "it": "+75% oro extra dai mostri",
+          "zh-TW": "怪物金幣掉落量提高 75%",
+          "zh-CN": "75% 怪物额外掉落金币",
+          "de": "75% Extragold von Monstern",
+          "es": "75% de oro extra de los monstruos",
+          "fr": "75% d’or suppl. sur les monstres",
+          "it": "75% oro extra dai mostri",
           "ja": "モンスターからの獲得ゴールド（+75%）",
-          "ko": "괴물에게서 얻는 금화 +75% 증가",
+          "ko": "괴물에게서 얻는 금화 75% 증가",
           "pl": "+75% dodatkowego złota od potworów",
-          "pt": "+75% de ouro adicional de monstros",
+          "pt": "75% de ouro adicional de monstros",
           "ru": "+75% к золоту за убийство монстров"
         },
         "min": 75,
@@ -4877,17 +4323,17 @@
         "code": "mag%",
         "label": {
           "en": "30% Better Chance of Getting Magic Items",
-          "zh-TW": "尋獲魔法物品機率提高 +30+30%",
-          "zh-CN": "+30+30% 额外几率获得魔法物品",
-          "de": "+30+30% bessere Chance, magischen Gegenstand zu erhalten",
-          "es": "+30+30% de probabilidad de encontrar objetos mágicos",
-          "fr": "+30+30% de chances suppl. d’obtenir des objets magiques",
-          "it": "Probabilità di ottenere un oggetto magico aumentata del +30+30%",
-          "ja": "マジックアイテムドロップ率（+30+30%）",
-          "ko": "마법 아이템 발견 확률 +30+30% 증가",
-          "pl": "+30+30% do szansy na zdobycie magicznych przedmiotów",
-          "pt": "+30+30% de chance adicional de obter itens mágicos",
-          "ru": "+30+30% к вероятности найти магический предмет"
+          "zh-TW": "尋獲魔法物品機率提高 30%",
+          "zh-CN": "30% 额外几率获得魔法物品",
+          "de": "30% bessere Chance, magischen Gegenstand zu erhalten",
+          "es": "+30% de probabilidad de encontrar objetos mágicos",
+          "fr": "30% de chances suppl. d’obtenir des objets magiques",
+          "it": "Probabilità di ottenere un oggetto magico aumentata del 30%",
+          "ja": "マジックアイテムドロップ率（+30%）",
+          "ko": "마법 아이템 발견 확률 30% 증가",
+          "pl": "+30% do szansy na zdobycie magicznych przedmiotów",
+          "pt": "30% de chance adicional de obter itens mágicos",
+          "ru": "+30% к вероятности найти магический предмет"
         },
         "min": 30,
         "max": 30,
@@ -4944,36 +4390,36 @@
         "code": "dmg-ltng",
         "label": {
           "en": "Adds 1-50 lightning damage",
-          "zh-TW": "電擊傷害：+1 - -50 點",
-          "zh-CN": "闪电伤害: +1-50",
-          "de": "Blitzschaden: +1-50",
-          "es": "Daño de rayos: +1-50 p.",
-          "fr": "Dégâts de Foudre : +1-50",
-          "it": "Danni da fulmine: +1-50",
-          "ja": "電撃ダメージ: +1 - -50",
-          "ko": "번개 피해: +1-50",
-          "pl": "Obrażenia od błyskawic: +1-50",
-          "pt": "Dano elétrico: +1-50",
-          "ru": "Урон от молнии: +1–-50"
+          "zh-TW": "電擊傷害：1 - 50 點",
+          "zh-CN": "闪电伤害: 1-50",
+          "de": "Blitzschaden: 1-50",
+          "es": "Daño de rayos: 1-50 p.",
+          "fr": "Dégâts de Foudre : 1-50",
+          "it": "Danni da fulmine: 1-50",
+          "ja": "電撃ダメージ: 1 - 50",
+          "ko": "번개 피해: 1-50",
+          "pl": "Obrażenia od błyskawic: 1-50",
+          "pt": "Dano elétrico: 1-50",
+          "ru": "Урон от молнии: 1–50"
         },
         "min": 1,
-        "max": -50,
+        "max": 50,
         "variable": true
       },
       {
         "code": "gold%",
         "label": {
           "en": "75% Extra Gold from Monsters",
-          "zh-TW": "怪物金幣掉落量提高 +75%",
-          "zh-CN": "+75% 怪物额外掉落金币",
-          "de": "+75% Extragold von Monstern",
-          "es": "+75% de oro extra de los monstruos",
-          "fr": "+75% d’or suppl. sur les monstres",
-          "it": "+75% oro extra dai mostri",
+          "zh-TW": "怪物金幣掉落量提高 75%",
+          "zh-CN": "75% 怪物额外掉落金币",
+          "de": "75% Extragold von Monstern",
+          "es": "75% de oro extra de los monstruos",
+          "fr": "75% d’or suppl. sur les monstres",
+          "it": "75% oro extra dai mostri",
           "ja": "モンスターからの獲得ゴールド（+75%）",
-          "ko": "괴물에게서 얻는 금화 +75% 증가",
+          "ko": "괴물에게서 얻는 금화 75% 증가",
           "pl": "+75% dodatkowego złota od potworów",
-          "pt": "+75% de ouro adicional de monstros",
+          "pt": "75% de ouro adicional de monstros",
           "ru": "+75% к золоту за убийство монстров"
         },
         "min": 75,
@@ -4988,63 +4434,43 @@
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
       {
-        "code": "dmg-fire",
-        "label": {
-          "en": "Adds 12-32 fire damage",
-          "zh-TW": "火焰傷害：+12 - -32 點",
-          "zh-CN": "火焰伤害: +12-32",
-          "de": "Feuerschaden: +12-32",
-          "es": "Daño de fuego: +12-32 p.",
-          "fr": "Dégâts de Feu : +12-32",
-          "it": "Danni da fuoco: +12-32",
-          "ja": "火炎ダメージ: +12 - -32",
-          "ko": "화염 피해: +12-32",
-          "pl": "Obrażenia od ognia: +12-32",
-          "pt": "Dano ígneo: +12-32",
-          "ru": "Урон от огня: +12–-32"
-        },
-        "min": 12,
-        "max": -32,
-        "variable": true
-      },
-      {
         "code": "dmg-ltng",
         "label": {
           "en": "Adds 1-50 lightning damage",
-          "zh-TW": "電擊傷害：+1 - -50 點",
-          "zh-CN": "闪电伤害: +1-50",
-          "de": "Blitzschaden: +1-50",
-          "es": "Daño de rayos: +1-50 p.",
-          "fr": "Dégâts de Foudre : +1-50",
-          "it": "Danni da fulmine: +1-50",
-          "ja": "電撃ダメージ: +1 - -50",
-          "ko": "번개 피해: +1-50",
-          "pl": "Obrażenia od błyskawic: +1-50",
-          "pt": "Dano elétrico: +1-50",
-          "ru": "Урон от молнии: +1–-50"
+          "zh-TW": "電擊傷害：1 - 50 點",
+          "zh-CN": "闪电伤害: 1-50",
+          "de": "Blitzschaden: 1-50",
+          "es": "Daño de rayos: 1-50 p.",
+          "fr": "Dégâts de Foudre : 1-50",
+          "it": "Danni da fulmine: 1-50",
+          "ja": "電撃ダメージ: 1 - 50",
+          "ko": "번개 피해: 1-50",
+          "pl": "Obrażenia od błyskawic: 1-50",
+          "pt": "Dano elétrico: 1-50",
+          "ru": "Урон от молнии: 1–50"
         },
         "min": 1,
-        "max": -50,
+        "max": 50,
         "variable": true
       },
       {
         "code": "dmg-cold",
         "label": {
           "en": "Adds 3-14 cold damage",
-          "zh-TW": "冰寒傷害：+3 - -14 點",
-          "zh-CN": "冰霜伤害: +3-14",
-          "de": "Kälteschaden: +3-14",
-          "es": "Daño de frío: +3-14 p.",
-          "fr": "Dégâts de Froid : +3-14",
-          "it": "Danni da freddo: +3-14",
-          "ja": "冷気ダメージ: +3 - -14",
-          "ko": "냉기 피해: +3-14",
-          "pl": "Obrażenia od zimna: +3-14",
-          "pt": "Dano gélido: +3-14",
-          "ru": "Урон от льда: +3–-14"
+          "zh-TW": "冰寒傷害：3 - 14 點",
+          "zh-CN": "冰霜伤害: 3-14",
+          "de": "Kälteschaden: 3-14",
+          "es": "Daño de frío: 3-14 p.",
+          "fr": "Dégâts de Froid : 3-14",
+          "it": "Danni da freddo: 3-14",
+          "ja": "冷気ダメージ: 3 - 14",
+          "ko": "냉기 피해: 3-14",
+          "pl": "Obrażenia od zimna: 3-14",
+          "pt": "Dano gélido: 3-14",
+          "ru": "Урон от льда: 3–14"
         },
         "min": 3,
-        "max": -14,
+        "max": 14,
         "variable": true
       }
     ]
@@ -5102,26 +4528,6 @@
         "variable": false
       },
       {
-        "code": "dmg-undead",
-        "label": {
-          "en": "+355-375% Damage to Undead",
-          "zh-TW": "+355--375% 對不死怪物的傷害",
-          "zh-CN": "+355--375% 对亡灵的伤害",
-          "de": "+355--375% Schaden gegen Untote",
-          "es": "+355--375% de daño contra muertos vivientes",
-          "fr": "Dégâts contre les Morts-vivants : +355--375%",
-          "it": "+355--375% danni ai non morti",
-          "ja": "アンデッドへのダメージ（+355--375%）",
-          "ko": "언데드에게 주는 피해 +355--375%",
-          "pl": "+355--375% do obrażeń zadanych nieumarłym",
-          "pt": "+355--375% de dano contra mortos-vivos",
-          "ru": "+355--375% урона по нежити"
-        },
-        "min": 355,
-        "max": -375,
-        "variable": true
-      },
-      {
         "code": "att-undead",
         "label": {
           "en": "+50 to Attack Rating against Undead",
@@ -5140,26 +4546,6 @@
         "min": 50,
         "max": 50,
         "variable": false
-      },
-      {
-        "code": "dmg-cold",
-        "label": {
-          "en": "Adds 100-220 cold damage",
-          "zh-TW": "冰寒傷害：+100 - -220 點",
-          "zh-CN": "冰霜伤害: +100-220",
-          "de": "Kälteschaden: +100-220",
-          "es": "Daño de frío: +100-220 p.",
-          "fr": "Dégâts de Froid : +100-220",
-          "it": "Danni da freddo: +100-220",
-          "ja": "冷気ダメージ: +100 - -220",
-          "ko": "냉기 피해: +100-220",
-          "pl": "Obrażenia od zimna: +100-220",
-          "pt": "Dano gélido: +100-220",
-          "ru": "Урон от льда: +100–-220"
-        },
-        "min": 100,
-        "max": -220,
-        "variable": true
       },
       {
         "code": "dex",
@@ -5185,16 +4571,16 @@
         "code": "gold%",
         "label": {
           "en": "75% Extra Gold from Monsters",
-          "zh-TW": "怪物金幣掉落量提高 +75%",
-          "zh-CN": "+75% 怪物额外掉落金币",
-          "de": "+75% Extragold von Monstern",
-          "es": "+75% de oro extra de los monstruos",
-          "fr": "+75% d’or suppl. sur les monstres",
-          "it": "+75% oro extra dai mostri",
+          "zh-TW": "怪物金幣掉落量提高 75%",
+          "zh-CN": "75% 怪物额外掉落金币",
+          "de": "75% Extragold von Monstern",
+          "es": "75% de oro extra de los monstruos",
+          "fr": "75% d’or suppl. sur les monstres",
+          "it": "75% oro extra dai mostri",
           "ja": "モンスターからの獲得ゴールド（+75%）",
-          "ko": "괴물에게서 얻는 금화 +75% 증가",
+          "ko": "괴물에게서 얻는 금화 75% 증가",
           "pl": "+75% dodatkowego złota od potworów",
-          "pt": "+75% de ouro adicional de monstros",
+          "pt": "75% de ouro adicional de monstros",
           "ru": "+75% к золоту за убийство монстров"
         },
         "min": 75,
@@ -5220,6 +4606,28 @@
         "min": 1,
         "max": 1,
         "variable": false
+      }
+    ],
+    "replaceStats": [
+      {
+        "code": "dmg-undead",
+        "label": {
+          "en": "+355-375% Damage to Undead",
+          "zh-TW": "+355-375% 對不死怪物的傷害",
+          "zh-CN": "+355-375% 对亡灵的伤害",
+          "de": "+355-375% Schaden gegen Untote",
+          "es": "+355-375% de daño contra muertos vivientes",
+          "fr": "Dégâts contre les Morts-vivants : +355-375%",
+          "it": "+355-375% danni ai non morti",
+          "ja": "アンデッドへのダメージ（+355-375%）",
+          "ko": "언데드에게 주는 피해 +355-375%",
+          "pl": "+355-375% do obrażeń zadanych nieumarłym",
+          "pt": "+355-375% de dano contra mortos-vivos",
+          "ru": "+355-375% урона по нежити"
+        },
+        "min": 355,
+        "max": 375,
+        "variable": true
       }
     ]
   },
@@ -5292,17 +4700,17 @@
         "code": "manasteal",
         "label": {
           "en": "14% Mana stolen per hit (Weapons Only)",
-          "zh-TW": "擊中竊取 +14% 法力（僅限武器）",
-          "zh-CN": "+14% 击中时偷取法力（仅限武器）",
-          "de": "+14% abgesaugtes Mana pro Treffer (Nur Waffen)",
-          "es": "+14% de maná robado por golpe (Solo Armas)",
-          "fr": "+14% de mana volé à chaque coup (Armes uniquement)",
-          "it": "+14% mana rubato per colpo (Solo Armi)",
-          "ja": "攻撃命中でマナを吸収（与ダメージの+14%）（武器専用）",
-          "ko": "적중당 마나 +14% 훔침 (무기 전용)",
-          "pl": "+14% many wykradzione za każde trafienie (Tylko Broń)",
-          "pt": "+14% de mana roubado por acerto (Somente Armas)",
-          "ru": "Похищает +14% маны за удар (Только Оружие)"
+          "zh-TW": "擊中竊取 14% 法力（僅限武器）",
+          "zh-CN": "14% 击中时偷取法力（仅限武器）",
+          "de": "14% abgesaugtes Mana pro Treffer (Nur Waffen)",
+          "es": "14% de maná robado por golpe (Solo Armas)",
+          "fr": "14% de mana volé à chaque coup (Armes uniquement)",
+          "it": "14% mana rubato per colpo (Solo Armi)",
+          "ja": "攻撃命中でマナを吸収（与ダメージの14%）（武器専用）",
+          "ko": "적중당 마나 14% 훔침 (무기 전용)",
+          "pl": "14% many wykradzione za każde trafienie (Tylko Broń)",
+          "pt": "14% de mana roubado por acerto (Somente Armas)",
+          "ru": "Похищает 14% маны за удар (Только Оружие)"
         },
         "min": 14,
         "max": 14,
@@ -5329,26 +4737,6 @@
         "variable": false
       },
       {
-        "code": "levelup-skill",
-        "label": {
-          "en": "100% Chance to cast level 40 Blaze when you Level-Up",
-          "zh-TW": "當你升級時有 +100% 機率施展等級 +100 熾烈之徑",
-          "zh-CN": "+100% 几率在升级时施放+100级足跟火",
-          "de": "+100% Chance, beim Aufsteigen Stufe +100 Feuersbrunst auszulösen",
-          "es": "+100% de probabilidad de lanzar Llamarada de nivel +100 al subir de nivel",
-          "fr": "+100% de chances de lancer Flamboiement - niv. +100 quand vous montez de niveau",
-          "it": "Probabilità del +100% di lanciare a livello +100 Vampata quando sali di livello",
-          "ja": "レベルアップ時に+100%の確率で〈ブレイズ〉（レベル+100）を発動",
-          "ko": "레벨 상승 시 +100% 확률로 +100 레벨 불길 시전",
-          "pl": "+100% szansy na rzucenie +100-poziomowego zaklęcia Pożoga kiedy awansujesz",
-          "pt": "+100% de chance de lançar Incêndio de nível +100 quando você sobe de nível",
-          "ru": "Вероятность +100% применить умение «Огненный след» +100-го уровня при достижении нового уровня"
-        },
-        "min": 100,
-        "max": 100,
-        "variable": false
-      },
-      {
         "code": "abs-fire%",
         "label": {
           "en": "+15-21 Fire Absorb",
@@ -5365,7 +4753,7 @@
           "ru": "+15-21% к поглощению урона от огня"
         },
         "min": 15,
-        "max": -21,
+        "max": 21,
         "variable": true
       }
     ]
@@ -5422,26 +4810,6 @@
     "verifiedAt": "2026-08-07",
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
-      {
-        "code": "dmg-ltng",
-        "label": {
-          "en": "Adds 50-280 lightning damage",
-          "zh-TW": "電擊傷害：+50 - -280 點",
-          "zh-CN": "闪电伤害: +50-280",
-          "de": "Blitzschaden: +50-280",
-          "es": "Daño de rayos: +50-280 p.",
-          "fr": "Dégâts de Foudre : +50-280",
-          "it": "Danni da fulmine: +50-280",
-          "ja": "電撃ダメージ: +50 - -280",
-          "ko": "번개 피해: +50-280",
-          "pl": "Obrażenia od błyskawic: +50-280",
-          "pt": "Dano elétrico: +50-280",
-          "ru": "Урон от молнии: +50–-280"
-        },
-        "min": 50,
-        "max": -280,
-        "variable": true
-      },
       {
         "code": "deadly",
         "label": {
@@ -5533,17 +4901,17 @@
         "code": "res-fire",
         "label": {
           "en": "Fire Resist +30%",
-          "zh-TW": "火焰抗性 +30+30%",
-          "zh-CN": "火焰抗性 +30+30%",
-          "de": "Feuerwiderstand +30+30%",
-          "es": "+30+30% de resistencia al fuego",
-          "fr": "Résistance au Feu : +30+30%",
-          "it": "+30+30% resistenza al fuoco",
-          "ja": "火炎耐性（+30+30%）",
-          "ko": "화염 저항 +30+30%",
-          "pl": "+30+30% do odporności na ogień",
-          "pt": "Resistência a fogo +30+30%",
-          "ru": "+30+30% к сопротивлению огню"
+          "zh-TW": "火焰抗性 +30%",
+          "zh-CN": "火焰抗性 +30%",
+          "de": "Feuerwiderstand +30%",
+          "es": "+30% de resistencia al fuego",
+          "fr": "Résistance au Feu : +30%",
+          "it": "+30% resistenza al fuoco",
+          "ja": "火炎耐性（+30%）",
+          "ko": "화염 저항 +30%",
+          "pl": "+30% do odporności na ogień",
+          "pt": "Resistência a fogo +30%",
+          "ru": "+30% к сопротивлению огню"
         },
         "min": 30,
         "max": 30,
@@ -5556,26 +4924,6 @@
     "verifiedAt": "2026-08-07",
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
-      {
-        "code": "red-mag",
-        "label": {
-          "en": "Magic Damage Reduced by 17",
-          "zh-TW": "魔法傷害降低 +17",
-          "zh-CN": "魔法伤害降低 +17",
-          "de": "Magieschaden reduziert um +17",
-          "es": "Daño mágico reducido en +17 p.",
-          "fr": "Dégâts magiques réduits de +17",
-          "it": "Danni magici ridotti di +17",
-          "ja": "魔法ダメージを軽減（+17）",
-          "ko": "마법 피해 +17 감소",
-          "pl": "Zmniejsza otrzymywane obrażenia od magii o +17 pkt.",
-          "pt": "Dano mágico reduzido em +17",
-          "ru": "–+17 к магическому урону"
-        },
-        "min": 17,
-        "max": 17,
-        "variable": false
-      },
       {
         "code": "mana-kill",
         "label": {
@@ -5595,22 +4943,44 @@
         "min": 2,
         "max": 2,
         "variable": false
+      }
+    ],
+    "replaceStats": [
+      {
+        "code": "red-mag",
+        "label": {
+          "en": "Magic Damage Reduced by 17",
+          "zh-TW": "魔法傷害降低 17",
+          "zh-CN": "魔法伤害降低 17",
+          "de": "Magieschaden reduziert um 17",
+          "es": "Daño mágico reducido en 17 p.",
+          "fr": "Dégâts magiques réduits de 17",
+          "it": "Danni magici ridotti di 17",
+          "ja": "魔法ダメージを軽減（17）",
+          "ko": "마법 피해 17 감소",
+          "pl": "Zmniejsza otrzymywane obrażenia od magii o 17 pkt.",
+          "pt": "Dano mágico reduzido em 17",
+          "ru": "–17 к магическому урону"
+        },
+        "min": 17,
+        "max": 17,
+        "variable": false
       },
       {
         "code": "rep-dur",
         "label": {
           "en": "Repairs 1 durability in 4 seconds",
-          "zh-TW": "每秒修復 +1-4 耐久度",
-          "zh-CN": "每秒修复 +1-4 点耐久度",
-          "de": "Repariert +1-4 Haltbarkeit pro Sekunde",
-          "es": "Repara +1-4 p. de durabilidad por segundo",
-          "fr": "Répare +1-4 pts de durabilité par seconde",
-          "it": "Ripara +1-4 integrità ogni secondo",
-          "ja": "耐久力が回復（毎秒+1-4）",
-          "ko": "내구도 +1-4 회복 (매초)",
-          "pl": "Przywraca +1-4 pkt. trwałości na sekundę",
-          "pt": "Repara +1-4 de durabilidade por segundo",
-          "ru": "Восполняет +1-4 ед. прочности в секунду"
+          "zh-TW": "每秒修復 1-4 耐久度",
+          "zh-CN": "每秒修复 1-4 点耐久度",
+          "de": "Repariert 1-4 Haltbarkeit pro Sekunde",
+          "es": "Repara 1-4 p. de durabilidad por segundo",
+          "fr": "Répare 1-4 pts de durabilité par seconde",
+          "it": "Ripara 1-4 integrità ogni secondo",
+          "ja": "耐久力が回復（毎秒1-4）",
+          "ko": "내구도 1-4 회복 (매초)",
+          "pl": "Przywraca 1-4 pkt. trwałości na sekundę",
+          "pt": "Repara 1-4 de durabilidade por segundo",
+          "ru": "Восполняет 1-4 ед. прочности в секунду"
         },
         "min": 1,
         "max": 4,
@@ -5667,17 +5037,17 @@
         "code": "red-dmg",
         "label": {
           "en": "Damage Reduced by 7",
-          "zh-TW": "傷害降低 +7",
-          "zh-CN": "伤害降低 +7",
-          "de": "Schaden reduziert um +7",
-          "es": "Daño reducido en +7 p.",
-          "fr": "Dégâts réduits de +7",
-          "it": "Danni ridotti di +7",
-          "ja": "ダメージを軽減（+7）",
-          "ko": "피해 +7 감소",
-          "pl": "Zmniejsza otrzymywane obrażenia o +7 pkt.",
-          "pt": "Dano reduzido em +7",
-          "ru": "–+7 к урону"
+          "zh-TW": "傷害降低 7",
+          "zh-CN": "伤害降低 7",
+          "de": "Schaden reduziert um 7",
+          "es": "Daño reducido en 7 p.",
+          "fr": "Dégâts réduits de 7",
+          "it": "Danni ridotti di 7",
+          "ja": "ダメージを軽減（7）",
+          "ko": "피해 7 감소",
+          "pl": "Zmniejsza otrzymywane obrażenia o 7 pkt.",
+          "pt": "Dano reduzido em 7",
+          "ru": "–7 к урону"
         },
         "min": 7,
         "max": 7,
@@ -5714,17 +5084,17 @@
         "code": "red-mag",
         "label": {
           "en": "Magic Damage Reduced by 7",
-          "zh-TW": "魔法傷害降低 +7",
-          "zh-CN": "魔法伤害降低 +7",
-          "de": "Magieschaden reduziert um +7",
-          "es": "Daño mágico reducido en +7 p.",
-          "fr": "Dégâts magiques réduits de +7",
-          "it": "Danni magici ridotti di +7",
-          "ja": "魔法ダメージを軽減（+7）",
-          "ko": "마법 피해 +7 감소",
-          "pl": "Zmniejsza otrzymywane obrażenia od magii o +7 pkt.",
-          "pt": "Dano mágico reduzido em +7",
-          "ru": "–+7 к магическому урону"
+          "zh-TW": "魔法傷害降低 7",
+          "zh-CN": "魔法伤害降低 7",
+          "de": "Magieschaden reduziert um 7",
+          "es": "Daño mágico reducido en 7 p.",
+          "fr": "Dégâts magiques réduits de 7",
+          "it": "Danni magici ridotti di 7",
+          "ja": "魔法ダメージを軽減（7）",
+          "ko": "마법 피해 7 감소",
+          "pl": "Zmniejsza otrzymywane obrażenia od magii o 7 pkt.",
+          "pt": "Dano mágico reduzido em 7",
+          "ru": "–7 к магическому урону"
         },
         "min": 7,
         "max": 7,
@@ -5758,6 +5128,28 @@
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
       {
+        "code": "regen-mana",
+        "label": {
+          "en": "Regenerate Mana 15%",
+          "zh-TW": "法力恢復 15%",
+          "zh-CN": "15% 法力回复",
+          "de": "Mana regenerieren 15%",
+          "es": "15% de regeneración de maná",
+          "fr": "Rend 15% de mana",
+          "it": "Rigenerazione del mana aumentata del 15%",
+          "ja": "マナ回復速度上昇（+15%）",
+          "ko": "마나 재생 15%",
+          "pl": "+15% do regeneracji many",
+          "pt": "Regenera mana em 15%",
+          "ru": "Восполняет 15% маны"
+        },
+        "min": 15,
+        "max": 15,
+        "variable": false
+      }
+    ],
+    "replaceStats": [
+      {
         "code": "block2",
         "label": {
           "en": "+40% Faster Block Rate",
@@ -5776,26 +5168,6 @@
         "min": 40,
         "max": 40,
         "variable": false
-      },
-      {
-        "code": "regen-mana",
-        "label": {
-          "en": "Regenerate Mana 15%",
-          "zh-TW": "法力恢復 +15%",
-          "zh-CN": "+15% 法力回复",
-          "de": "Mana regenerieren +15%",
-          "es": "+15% de regeneración de maná",
-          "fr": "Rend +15% de mana",
-          "it": "Rigenerazione del mana aumentata del +15%",
-          "ja": "マナ回復速度上昇（+15%）",
-          "ko": "마나 재생 +15%",
-          "pl": "+15% do regeneracji many",
-          "pt": "Regenera mana em +15%",
-          "ru": "Восполняет +15% маны"
-        },
-        "min": 15,
-        "max": 15,
-        "variable": false
       }
     ]
   },
@@ -5808,61 +5180,21 @@
         "code": "att%",
         "label": {
           "en": "20% Bonus to Attack Rating",
-          "zh-TW": "+20% 準確率加成",
-          "zh-CN": "+20% 加成命中值",
-          "de": "+20% Bonus zu Angriffswert",
-          "es": "+20% de bonus al índice de ataque",
-          "fr": "+20% de bonus au score d’attaque",
-          "it": "Indice d'attacco aumentato del +20%",
-          "ja": "命中率へのボーナス（+20%）",
-          "ko": "명중률 보너스 +20%",
-          "pl": "+20% premii do skuteczności ataku",
-          "pt": "+20% de bônus de taxa de ataque",
+          "zh-TW": "20% 準確率加成",
+          "zh-CN": "20% 加成命中值",
+          "de": "20% Bonus zu Angriffswert",
+          "es": "20% de bonus al índice de ataque",
+          "fr": "20% de bonus au score d’attaque",
+          "it": "Indice d'attacco aumentato del 20%",
+          "ja": "命中率へのボーナス（20%）",
+          "ko": "명중률 보너스 20%",
+          "pl": "20% premii do skuteczności ataku",
+          "pt": "20% de bônus de taxa de ataque",
           "ru": "+20% к рейтингу атаки"
         },
         "min": 20,
         "max": 20,
         "variable": false
-      },
-      {
-        "code": "dmg-mag",
-        "label": {
-          "en": "Adds 160-250 magic damage",
-          "zh-TW": "魔法傷害：+160 - -250 點",
-          "zh-CN": "魔法伤害: +160-250",
-          "de": "Magieschaden: +160-250",
-          "es": "Daño mágico: +160-250 p.",
-          "fr": "Dégâts magiques : +160-250",
-          "it": "Danni magici: +160-250",
-          "ja": "魔法ダメージ: +160 - -250",
-          "ko": "마법 피해: +160-250",
-          "pl": "Obrażenia od magii: +160-250",
-          "pt": "Dano mágico: +160-250",
-          "ru": "Магический урон: +160–-250"
-        },
-        "min": 160,
-        "max": -250,
-        "variable": true
-      },
-      {
-        "code": "dmg-fire",
-        "label": {
-          "en": "Adds 60-180 fire damage",
-          "zh-TW": "火焰傷害：+60 - -180 點",
-          "zh-CN": "火焰伤害: +60-180",
-          "de": "Feuerschaden: +60-180",
-          "es": "Daño de fuego: +60-180 p.",
-          "fr": "Dégâts de Feu : +60-180",
-          "it": "Danni da fuoco: +60-180",
-          "ja": "火炎ダメージ: +60 - -180",
-          "ko": "화염 피해: +60-180",
-          "pl": "Obrażenia od ognia: +60-180",
-          "pt": "Dano ígneo: +60-180",
-          "ru": "Урон от огня: +60–-180"
-        },
-        "min": 60,
-        "max": -180,
-        "variable": true
       },
       {
         "code": "dex",
@@ -5885,39 +5217,19 @@
         "variable": false
       },
       {
-        "code": "dmg-to-mana",
-        "label": {
-          "en": "+38% Damage Taken Goes To Mana",
-          "zh-TW": "+38% 受到的傷害轉為法力",
-          "zh-CN": "+38% 受到的伤害转换为法力",
-          "de": "+38% erlittenen Schadens geht auf Mana",
-          "es": "Un +38% del daño sufrido se recupera como maná",
-          "fr": "+38% des dégâts subis sont soustraits au mana",
-          "it": "Il +38% dei danni subiti è sul mana",
-          "ja": "受けたダメージの+38%をマナに変換",
-          "ko": "받는 피해의 +38%만큼 마나 회복",
-          "pl": "+38% otrzymanych obrażeń przechodzi na manę",
-          "pt": "+38% do dano recebido transforma-se em mana",
-          "ru": "+38% к урону, приходящемуся на ману"
-        },
-        "min": 38,
-        "max": 38,
-        "variable": false
-      },
-      {
         "code": "gold%",
         "label": {
           "en": "75% Extra Gold from Monsters",
-          "zh-TW": "怪物金幣掉落量提高 +75%",
-          "zh-CN": "+75% 怪物额外掉落金币",
-          "de": "+75% Extragold von Monstern",
-          "es": "+75% de oro extra de los monstruos",
-          "fr": "+75% d’or suppl. sur les monstres",
-          "it": "+75% oro extra dai mostri",
+          "zh-TW": "怪物金幣掉落量提高 75%",
+          "zh-CN": "75% 怪物额外掉落金币",
+          "de": "75% Extragold von Monstern",
+          "es": "75% de oro extra de los monstruos",
+          "fr": "75% d’or suppl. sur les monstres",
+          "it": "75% oro extra dai mostri",
           "ja": "モンスターからの獲得ゴールド（+75%）",
-          "ko": "괴물에게서 얻는 금화 +75% 증가",
+          "ko": "괴물에게서 얻는 금화 75% 증가",
           "pl": "+75% dodatkowego złota od potworów",
-          "pt": "+75% de ouro adicional de monstros",
+          "pt": "75% de ouro adicional de monstros",
           "ru": "+75% к золоту за убийство монстров"
         },
         "min": 75,
@@ -5955,17 +5267,17 @@
         "code": "red-mag",
         "label": {
           "en": "Magic Damage Reduced by 7",
-          "zh-TW": "魔法傷害降低 +7",
-          "zh-CN": "魔法伤害降低 +7",
-          "de": "Magieschaden reduziert um +7",
-          "es": "Daño mágico reducido en +7 p.",
-          "fr": "Dégâts magiques réduits de +7",
-          "it": "Danni magici ridotti di +7",
-          "ja": "魔法ダメージを軽減（+7）",
-          "ko": "마법 피해 +7 감소",
-          "pl": "Zmniejsza otrzymywane obrażenia od magii o +7 pkt.",
-          "pt": "Dano mágico reduzido em +7",
-          "ru": "–+7 к магическому урону"
+          "zh-TW": "魔法傷害降低 7",
+          "zh-CN": "魔法伤害降低 7",
+          "de": "Magieschaden reduziert um 7",
+          "es": "Daño mágico reducido en 7 p.",
+          "fr": "Dégâts magiques réduits de 7",
+          "it": "Danni magici ridotti di 7",
+          "ja": "魔法ダメージを軽減（7）",
+          "ko": "마법 피해 7 감소",
+          "pl": "Zmniejsza otrzymywane obrażenia od magii o 7 pkt.",
+          "pt": "Dano mágico reduzido em 7",
+          "ru": "–7 к магическому урону"
         },
         "min": 7,
         "max": 7,
@@ -6019,26 +5331,6 @@
         "variable": false
       },
       {
-        "code": "manasteal",
-        "label": {
-          "en": "11% Mana stolen per hit",
-          "zh-TW": "擊中竊取 +11% 法力",
-          "zh-CN": "+11% 击中时偷取法力",
-          "de": "+11% abgesaugtes Mana pro Treffer",
-          "es": "+11% de maná robado por golpe",
-          "fr": "+11% de mana volé à chaque coup",
-          "it": "+11% mana rubato per colpo",
-          "ja": "攻撃命中でマナを吸収（与ダメージの+11%）",
-          "ko": "적중당 마나 +11% 훔침",
-          "pl": "+11% many wykradzione za każde trafienie",
-          "pt": "+11% de mana roubado por acerto",
-          "ru": "Похищает +11% маны за удар"
-        },
-        "min": 11,
-        "max": 11,
-        "variable": false
-      },
-      {
         "code": "mana-kill",
         "label": {
           "en": "+2 to Mana after each Kill",
@@ -6062,20 +5354,42 @@
         "code": "mag%",
         "label": {
           "en": "30% Better Chance of Getting Magic Items",
-          "zh-TW": "尋獲魔法物品機率提高 +30+30%",
-          "zh-CN": "+30+30% 额外几率获得魔法物品",
-          "de": "+30+30% bessere Chance, magischen Gegenstand zu erhalten",
-          "es": "+30+30% de probabilidad de encontrar objetos mágicos",
-          "fr": "+30+30% de chances suppl. d’obtenir des objets magiques",
-          "it": "Probabilità di ottenere un oggetto magico aumentata del +30+30%",
-          "ja": "マジックアイテムドロップ率（+30+30%）",
-          "ko": "마법 아이템 발견 확률 +30+30% 증가",
-          "pl": "+30+30% do szansy na zdobycie magicznych przedmiotów",
-          "pt": "+30+30% de chance adicional de obter itens mágicos",
-          "ru": "+30+30% к вероятности найти магический предмет"
+          "zh-TW": "尋獲魔法物品機率提高 30%",
+          "zh-CN": "30% 额外几率获得魔法物品",
+          "de": "30% bessere Chance, magischen Gegenstand zu erhalten",
+          "es": "+30% de probabilidad de encontrar objetos mágicos",
+          "fr": "30% de chances suppl. d’obtenir des objets magiques",
+          "it": "Probabilità di ottenere un oggetto magico aumentata del 30%",
+          "ja": "マジックアイテムドロップ率（+30%）",
+          "ko": "마법 아이템 발견 확률 30% 증가",
+          "pl": "+30% do szansy na zdobycie magicznych przedmiotów",
+          "pt": "30% de chance adicional de obter itens mágicos",
+          "ru": "+30% к вероятности найти магический предмет"
         },
         "min": 30,
         "max": 30,
+        "variable": false
+      }
+    ],
+    "replaceStats": [
+      {
+        "code": "manasteal",
+        "label": {
+          "en": "11% Mana stolen per hit",
+          "zh-TW": "擊中竊取 11% 法力",
+          "zh-CN": "11% 击中时偷取法力",
+          "de": "11% abgesaugtes Mana pro Treffer",
+          "es": "11% de maná robado por golpe",
+          "fr": "11% de mana volé à chaque coup",
+          "it": "11% mana rubato per colpo",
+          "ja": "攻撃命中でマナを吸収（与ダメージの11%）",
+          "ko": "적중당 마나 11% 훔침",
+          "pl": "11% many wykradzione za każde trafienie",
+          "pt": "11% de mana roubado por acerto",
+          "ru": "Похищает 11% маны за удар"
+        },
+        "min": 11,
+        "max": 11,
         "variable": false
       }
     ]
@@ -6085,26 +5399,6 @@
     "verifiedAt": "2026-08-07",
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
-      {
-        "code": "ac-miss",
-        "label": {
-          "en": "+280 Defense vs. Missile",
-          "zh-TW": "+280 對遠程防禦",
-          "zh-CN": "+280 远程防御",
-          "de": "+280 Verteidigung gegen Geschoss",
-          "es": "+280 de defensa contra misiles",
-          "fr": "+280 de défense contre les projectiles",
-          "it": "+280 difesa a distanza",
-          "ja": "遠隔攻撃に対する防御力（+280）",
-          "ko": "원거리 공격 방어력 +280",
-          "pl": "+280 do obrony przeciw pociskom",
-          "pt": "+280 de defesa contra projéteis",
-          "ru": "+280 к защите от снарядов"
-        },
-        "min": 280,
-        "max": 280,
-        "variable": false
-      },
       {
         "code": "enr",
         "label": {
@@ -6123,6 +5417,28 @@
         },
         "min": 10,
         "max": 10,
+        "variable": false
+      }
+    ],
+    "replaceStats": [
+      {
+        "code": "ac-miss",
+        "label": {
+          "en": "+280 Defense vs. Missile",
+          "zh-TW": "+280 對遠程防禦",
+          "zh-CN": "+280 远程防御",
+          "de": "+280 Verteidigung gegen Geschoss",
+          "es": "+280 de defensa contra misiles",
+          "fr": "+280 de défense contre les projectiles",
+          "it": "+280 difesa a distanza",
+          "ja": "遠隔攻撃に対する防御力（+280）",
+          "ko": "원거리 공격 방어력 +280",
+          "pl": "+280 do obrony przeciw pociskom",
+          "pt": "+280 de defesa contra projéteis",
+          "ru": "+280 к защите от снарядов"
+        },
+        "min": 280,
+        "max": 280,
         "variable": false
       }
     ]
@@ -6196,57 +5512,57 @@
         "code": "dmg-ltng",
         "label": {
           "en": "Adds 1-50 lightning damage (Weapons Only)",
-          "zh-TW": "電擊傷害：+1 - -50 點（僅限武器）",
-          "zh-CN": "闪电伤害: +1-50（仅限武器）",
-          "de": "Blitzschaden: +1-50 (Nur Waffen)",
-          "es": "Daño de rayos: +1-50 p. (Solo Armas)",
-          "fr": "Dégâts de Foudre : +1-50 (Armes uniquement)",
-          "it": "Danni da fulmine: +1-50 (Solo Armi)",
-          "ja": "電撃ダメージ: +1 - -50（武器専用）",
-          "ko": "번개 피해: +1-50 (무기 전용)",
-          "pl": "Obrażenia od błyskawic: +1-50 (Tylko Broń)",
-          "pt": "Dano elétrico: +1-50 (Somente Armas)",
-          "ru": "Урон от молнии: +1–-50 (Только Оружие)"
+          "zh-TW": "電擊傷害：1 - 50 點（僅限武器）",
+          "zh-CN": "闪电伤害: 1-50（仅限武器）",
+          "de": "Blitzschaden: 1-50 (Nur Waffen)",
+          "es": "Daño de rayos: 1-50 p. (Solo Armas)",
+          "fr": "Dégâts de Foudre : 1-50 (Armes uniquement)",
+          "it": "Danni da fulmine: 1-50 (Solo Armi)",
+          "ja": "電撃ダメージ: 1 - 50（武器専用）",
+          "ko": "번개 피해: 1-50 (무기 전용)",
+          "pl": "Obrażenia od błyskawic: 1-50 (Tylko Broń)",
+          "pt": "Dano elétrico: 1-50 (Somente Armas)",
+          "ru": "Урон от молнии: 1–50 (Только Оружие)"
         },
         "min": 1,
-        "max": -50,
+        "max": 50,
         "variable": true
       },
       {
         "code": "dmg-cold",
         "label": {
           "en": "Adds 3-14 cold damage (Weapons Only)",
-          "zh-TW": "冰寒傷害：+3 - -14 點（僅限武器）",
-          "zh-CN": "冰霜伤害: +3-14（仅限武器）",
-          "de": "Kälteschaden: +3-14 (Nur Waffen)",
-          "es": "Daño de frío: +3-14 p. (Solo Armas)",
-          "fr": "Dégâts de Froid : +3-14 (Armes uniquement)",
-          "it": "Danni da freddo: +3-14 (Solo Armi)",
-          "ja": "冷気ダメージ: +3 - -14（武器専用）",
-          "ko": "냉기 피해: +3-14 (무기 전용)",
-          "pl": "Obrażenia od zimna: +3-14 (Tylko Broń)",
-          "pt": "Dano gélido: +3-14 (Somente Armas)",
-          "ru": "Урон от льда: +3–-14 (Только Оружие)"
+          "zh-TW": "冰寒傷害：3 - 14 點（僅限武器）",
+          "zh-CN": "冰霜伤害: 3-14（仅限武器）",
+          "de": "Kälteschaden: 3-14 (Nur Waffen)",
+          "es": "Daño de frío: 3-14 p. (Solo Armas)",
+          "fr": "Dégâts de Froid : 3-14 (Armes uniquement)",
+          "it": "Danni da freddo: 3-14 (Solo Armi)",
+          "ja": "冷気ダメージ: 3 - 14（武器専用）",
+          "ko": "냉기 피해: 3-14 (무기 전용)",
+          "pl": "Obrażenia od zimna: 3-14 (Tylko Broń)",
+          "pt": "Dano gélido: 3-14 (Somente Armas)",
+          "ru": "Урон от льда: 3–14 (Только Оружие)"
         },
         "min": 3,
-        "max": -14,
+        "max": 14,
         "variable": true
       },
       {
         "code": "lifesteal",
         "label": {
           "en": "7% Life stolen per hit (Weapons Only)",
-          "zh-TW": "擊中竊取 +7+7% 生命（僅限武器）",
-          "zh-CN": "+7+7% 击中时偷取生命（仅限武器）",
-          "de": "+7+7% abgesaugtes Leben pro Treffer (Nur Waffen)",
-          "es": "+7+7% de vida robada por golpe (Solo Armas)",
-          "fr": "+7+7% de vie volée à chaque coup (Armes uniquement)",
-          "it": "+7+7% vita rubata per colpo (Solo Armi)",
-          "ja": "攻撃命中でライフを吸収（与ダメージの+7+7%）（武器専用）",
-          "ko": "적중당 생명력 +7+7% 훔침 (무기 전용)",
-          "pl": "+7+7% zdrowia wykradzione za każde trafienie (Tylko Broń)",
-          "pt": "+7+7% de pontos de vida roubados por acerto (Somente Armas)",
-          "ru": "Похищает +7+7% здоровья за удар (Только Оружие)"
+          "zh-TW": "擊中竊取 7% 生命（僅限武器）",
+          "zh-CN": "7% 击中时偷取生命（仅限武器）",
+          "de": "7% abgesaugtes Leben pro Treffer (Nur Waffen)",
+          "es": "7% de vida robada por golpe (Solo Armas)",
+          "fr": "7% de vie volée à chaque coup (Armes uniquement)",
+          "it": "7% vita rubata per colpo (Solo Armi)",
+          "ja": "攻撃命中でライフを吸収（与ダメージの7%）（武器専用）",
+          "ko": "적중당 생명력 7% 훔침 (무기 전용)",
+          "pl": "7% zdrowia wykradzione za każde trafienie (Tylko Broń)",
+          "pt": "7% de pontos de vida roubados por acerto (Somente Armas)",
+          "ru": "Похищает 7% здоровья за удар (Только Оружие)"
         },
         "min": 7,
         "max": 7,
@@ -6283,17 +5599,17 @@
         "code": "regen-mana",
         "label": {
           "en": "Regenerate Mana 15%",
-          "zh-TW": "法力恢復 +15%",
-          "zh-CN": "+15% 法力回复",
-          "de": "Mana regenerieren +15%",
-          "es": "+15% de regeneración de maná",
-          "fr": "Rend +15% de mana",
-          "it": "Rigenerazione del mana aumentata del +15%",
+          "zh-TW": "法力恢復 15%",
+          "zh-CN": "15% 法力回复",
+          "de": "Mana regenerieren 15%",
+          "es": "15% de regeneración de maná",
+          "fr": "Rend 15% de mana",
+          "it": "Rigenerazione del mana aumentata del 15%",
           "ja": "マナ回復速度上昇（+15%）",
-          "ko": "마나 재생 +15%",
+          "ko": "마나 재생 15%",
           "pl": "+15% do regeneracji many",
-          "pt": "Regenera mana em +15%",
-          "ru": "Восполняет +15% маны"
+          "pt": "Regenera mana em 15%",
+          "ru": "Восполняет 15% маны"
         },
         "min": 15,
         "max": 15,
@@ -6330,17 +5646,17 @@
         "code": "regen-mana",
         "label": {
           "en": "Regenerate Mana 15%",
-          "zh-TW": "法力恢復 +15%",
-          "zh-CN": "+15% 法力回复",
-          "de": "Mana regenerieren +15%",
-          "es": "+15% de regeneración de maná",
-          "fr": "Rend +15% de mana",
-          "it": "Rigenerazione del mana aumentata del +15%",
+          "zh-TW": "法力恢復 15%",
+          "zh-CN": "15% 法力回复",
+          "de": "Mana regenerieren 15%",
+          "es": "15% de regeneración de maná",
+          "fr": "Rend 15% de mana",
+          "it": "Rigenerazione del mana aumentata del 15%",
           "ja": "マナ回復速度上昇（+15%）",
-          "ko": "마나 재생 +15%",
+          "ko": "마나 재생 15%",
           "pl": "+15% do regeneracji many",
-          "pt": "Regenera mana em +15%",
-          "ru": "Восполняет +15% маны"
+          "pt": "Regenera mana em 15%",
+          "ru": "Восполняет 15% маны"
         },
         "min": 15,
         "max": 15,
@@ -6368,26 +5684,6 @@
           "pl": "+50 do skuteczności ataku",
           "pt": "+50 de taxa de ataque",
           "ru": "+50 к рейтингу атаки"
-        },
-        "min": 50,
-        "max": 50,
-        "variable": false
-      },
-      {
-        "code": "openwounds",
-        "label": {
-          "en": "+50% Chance of Open Wounds",
-          "zh-TW": "+50% 機率造成開放傷口",
-          "zh-CN": "+50% 几率造成开创性伤口",
-          "de": "+50% Chance auf offene Wunden",
-          "es": "+50% de probabilidad de sangrado",
-          "fr": "+50% de chances de blessures ouvertes",
-          "it": "Probabilità di aprire una ferita +50%",
-          "ja": "出血状態を付与（+50%）",
-          "ko": "상처 악화 확률 +50%",
-          "pl": "+50% do szansy na otwarcie rany",
-          "pt": "+50% de chance de Feridas Abertas",
-          "ru": "+50% к вероятности нанести открытую рану"
         },
         "min": 50,
         "max": 50,
@@ -6441,26 +5737,6 @@
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
       {
-        "code": "ac%",
-        "label": {
-          "en": "+250-290% Enhanced Defense",
-          "zh-TW": "+250--290% 防禦強化",
-          "zh-CN": "+250--290% 强化防御",
-          "de": "+250--290% verbesserte Verteidigung",
-          "es": "+250--290% de defensa mejorada",
-          "fr": "Défense augmentée de +250--290% ",
-          "it": "+250--290% difesa",
-          "ja": "防御力を強化（+250--290%）",
-          "ko": "방어력 +250--290% 증가",
-          "pl": "+250--290% do obrony",
-          "pt": "+250--290% de defesa aprimorada",
-          "ru": "+250--290% к защите"
-        },
-        "min": 250,
-        "max": -290,
-        "variable": true
-      },
-      {
         "code": "enr",
         "label": {
           "en": "+10 to Energy",
@@ -6500,6 +5776,28 @@
         "max": 15,
         "variable": false
       }
+    ],
+    "replaceStats": [
+      {
+        "code": "ac%",
+        "label": {
+          "en": "+250-290% Enhanced Defense",
+          "zh-TW": "+250-290% 防禦強化",
+          "zh-CN": "+250-290% 强化防御",
+          "de": "+250-290% verbesserte Verteidigung",
+          "es": "+250-290% de defensa mejorada",
+          "fr": "Défense augmentée de +250-290% ",
+          "it": "+250-290% difesa",
+          "ja": "防御力を強化（+250-290%）",
+          "ko": "방어력 +250-290% 증가",
+          "pl": "+250-290% do obrony",
+          "pt": "+250-290% de defesa aprimorada",
+          "ru": "+250-290% к защите"
+        },
+        "min": 250,
+        "max": 290,
+        "variable": true
+      }
     ]
   },
   "runeword-Runeword139": {
@@ -6508,40 +5806,20 @@
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
       {
-        "code": "crush",
-        "label": {
-          "en": "+25% Chance of Crushing Blow",
-          "zh-TW": "+25% 機率造成粉碎打擊",
-          "zh-CN": "+25% 几率粉碎打击",
-          "de": "+25% Chance auf vernichtenden Schlag",
-          "es": "+25% de probabilidad de ataque aplastante",
-          "fr": "+25% de chances de coup écrasant",
-          "it": "Probabilità di colpo frantumante +25%",
-          "ja": "クラッシング・ブロー（+25%）",
-          "ko": "강타 확률 +25%",
-          "pl": "+25% do szansy na druzgocące uderzenie",
-          "pt": "+25% de chance de Golpe Esmagador",
-          "ru": "+25% к вероятности нанести сокрушительный удар"
-        },
-        "min": 25,
-        "max": 25,
-        "variable": false
-      },
-      {
         "code": "lifesteal",
         "label": {
           "en": "7% Life stolen per hit",
-          "zh-TW": "擊中竊取 +7+7% 生命",
-          "zh-CN": "+7+7% 击中时偷取生命",
-          "de": "+7+7% abgesaugtes Leben pro Treffer",
-          "es": "+7+7% de vida robada por golpe",
-          "fr": "+7+7% de vie volée à chaque coup",
-          "it": "+7+7% vita rubata per colpo",
-          "ja": "攻撃命中でライフを吸収（与ダメージの+7+7%）",
-          "ko": "적중당 생명력 +7+7% 훔침",
-          "pl": "+7+7% zdrowia wykradzione za każde trafienie",
-          "pt": "+7+7% de pontos de vida roubados por acerto",
-          "ru": "Похищает +7+7% здоровья за удар"
+          "zh-TW": "擊中竊取 7% 生命",
+          "zh-CN": "7% 击中时偷取生命",
+          "de": "7% abgesaugtes Leben pro Treffer",
+          "es": "7% de vida robada por golpe",
+          "fr": "7% de vie volée à chaque coup",
+          "it": "7% vita rubata per colpo",
+          "ja": "攻撃命中でライフを吸収（与ダメージの7%）",
+          "ko": "적중당 생명력 7% 훔침",
+          "pl": "7% zdrowia wykradzione za każde trafienie",
+          "pt": "7% de pontos de vida roubados por acerto",
+          "ru": "Похищает 7% здоровья за удар"
         },
         "min": 7,
         "max": 7,
@@ -6598,16 +5876,16 @@
         "code": "gold%",
         "label": {
           "en": "50% Extra Gold from Monsters",
-          "zh-TW": "怪物金幣掉落量提高 +50%",
-          "zh-CN": "+50% 怪物额外掉落金币",
-          "de": "+50% Extragold von Monstern",
-          "es": "+50% de oro extra de los monstruos",
-          "fr": "+50% d’or suppl. sur les monstres",
-          "it": "+50% oro extra dai mostri",
+          "zh-TW": "怪物金幣掉落量提高 50%",
+          "zh-CN": "50% 怪物额外掉落金币",
+          "de": "50% Extragold von Monstern",
+          "es": "50% de oro extra de los monstruos",
+          "fr": "50% d’or suppl. sur les monstres",
+          "it": "50% oro extra dai mostri",
           "ja": "モンスターからの獲得ゴールド（+50%）",
-          "ko": "괴물에게서 얻는 금화 +50% 증가",
+          "ko": "괴물에게서 얻는 금화 50% 증가",
           "pl": "+50% dodatkowego złota od potworów",
-          "pt": "+50% de ouro adicional de monstros",
+          "pt": "50% de ouro adicional de monstros",
           "ru": "+50% к золоту за убийство монстров"
         },
         "min": 50,
@@ -6705,17 +5983,17 @@
         "code": "str",
         "label": {
           "en": "+10 to Strength",
-          "zh-TW": "+10+10 力量",
-          "zh-CN": "+10+10 力量",
-          "de": "+10+10 zu Stärke",
-          "es": "+10+10 de fuerza",
-          "fr": "+10+10 à la Force",
-          "it": "+10+10 Forza",
-          "ja": "筋力（+10+10）",
-          "ko": "힘 +10+10",
-          "pl": "+10+10 do siły",
-          "pt": "+10+10 de força",
-          "ru": "+10+10 к силе"
+          "zh-TW": "+10 力量",
+          "zh-CN": "+10 力量",
+          "de": "+10 zu Stärke",
+          "es": "+10 de fuerza",
+          "fr": "+10 à la Force",
+          "it": "+10 Forza",
+          "ja": "筋力（+10）",
+          "ko": "힘 +10",
+          "pl": "+10 do siły",
+          "pt": "+10 de força",
+          "ru": "+10 к силе"
         },
         "min": 10,
         "max": 10,
@@ -6834,20 +6112,20 @@
         "code": "dmg-cold",
         "label": {
           "en": "Adds 3-14 cold damage",
-          "zh-TW": "冰寒傷害：+3 - -14 點",
-          "zh-CN": "冰霜伤害: +3-14",
-          "de": "Kälteschaden: +3-14",
-          "es": "Daño de frío: +3-14 p.",
-          "fr": "Dégâts de Froid : +3-14",
-          "it": "Danni da freddo: +3-14",
-          "ja": "冷気ダメージ: +3 - -14",
-          "ko": "냉기 피해: +3-14",
-          "pl": "Obrażenia od zimna: +3-14",
-          "pt": "Dano gélido: +3-14",
-          "ru": "Урон от льда: +3–-14"
+          "zh-TW": "冰寒傷害：3 - 14 點",
+          "zh-CN": "冰霜伤害: 3-14",
+          "de": "Kälteschaden: 3-14",
+          "es": "Daño de frío: 3-14 p.",
+          "fr": "Dégâts de Froid : 3-14",
+          "it": "Danni da freddo: 3-14",
+          "ja": "冷気ダメージ: 3 - 14",
+          "ko": "냉기 피해: 3-14",
+          "pl": "Obrażenia od zimna: 3-14",
+          "pt": "Dano gélido: 3-14",
+          "ru": "Урон от льда: 3–14"
         },
         "min": 3,
-        "max": -14,
+        "max": 14,
         "variable": true
       },
       {
@@ -6874,17 +6152,17 @@
         "code": "mag%",
         "label": {
           "en": "30% Better Chance of Getting Magic Items",
-          "zh-TW": "尋獲魔法物品機率提高 +30+30%",
-          "zh-CN": "+30+30% 额外几率获得魔法物品",
-          "de": "+30+30% bessere Chance, magischen Gegenstand zu erhalten",
-          "es": "+30+30% de probabilidad de encontrar objetos mágicos",
-          "fr": "+30+30% de chances suppl. d’obtenir des objets magiques",
-          "it": "Probabilità di ottenere un oggetto magico aumentata del +30+30%",
-          "ja": "マジックアイテムドロップ率（+30+30%）",
-          "ko": "마법 아이템 발견 확률 +30+30% 증가",
-          "pl": "+30+30% do szansy na zdobycie magicznych przedmiotów",
-          "pt": "+30+30% de chance adicional de obter itens mágicos",
-          "ru": "+30+30% к вероятности найти магический предмет"
+          "zh-TW": "尋獲魔法物品機率提高 30%",
+          "zh-CN": "30% 额外几率获得魔法物品",
+          "de": "30% bessere Chance, magischen Gegenstand zu erhalten",
+          "es": "+30% de probabilidad de encontrar objetos mágicos",
+          "fr": "30% de chances suppl. d’obtenir des objets magiques",
+          "it": "Probabilità di ottenere un oggetto magico aumentata del 30%",
+          "ja": "マジックアイテムドロップ率（+30%）",
+          "ko": "마법 아이템 발견 확률 30% 증가",
+          "pl": "+30% do szansy na zdobycie magicznych przedmiotów",
+          "pt": "30% de chance adicional de obter itens mágicos",
+          "ru": "+30% к вероятности найти магический предмет"
         },
         "min": 30,
         "max": 30,
@@ -6897,26 +6175,6 @@
     "verifiedAt": "2026-08-07",
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
-      {
-        "code": "gold%",
-        "label": {
-          "en": "300% Extra Gold from Monsters",
-          "zh-TW": "怪物金幣掉落量提高 +300%",
-          "zh-CN": "+300% 怪物额外掉落金币",
-          "de": "+300% Extragold von Monstern",
-          "es": "+300% de oro extra de los monstruos",
-          "fr": "+300% d’or suppl. sur les monstres",
-          "it": "+300% oro extra dai mostri",
-          "ja": "モンスターからの獲得ゴールド（+300%）",
-          "ko": "괴물에게서 얻는 금화 +300% 증가",
-          "pl": "+300% dodatkowego złota od potworów",
-          "pt": "+300% de ouro adicional de monstros",
-          "ru": "+300% к золоту за убийство монстров"
-        },
-        "min": 300,
-        "max": 300,
-        "variable": false
-      },
       {
         "code": "mana-kill",
         "label": {
@@ -6955,6 +6213,28 @@
         },
         "min": 10,
         "max": 10,
+        "variable": false
+      }
+    ],
+    "replaceStats": [
+      {
+        "code": "gold%",
+        "label": {
+          "en": "300% Extra Gold from Monsters",
+          "zh-TW": "怪物金幣掉落量提高 300%",
+          "zh-CN": "300% 怪物额外掉落金币",
+          "de": "300% Extragold von Monstern",
+          "es": "300% de oro extra de los monstruos",
+          "fr": "300% d’or suppl. sur les monstres",
+          "it": "300% oro extra dai mostri",
+          "ja": "モンスターからの獲得ゴールド（+300%）",
+          "ko": "괴물에게서 얻는 금화 300% 증가",
+          "pl": "+300% dodatkowego złota od potworów",
+          "pt": "300% de ouro adicional de monstros",
+          "ru": "+300% к золоту за убийство монстров"
+        },
+        "min": 300,
+        "max": 300,
         "variable": false
       }
     ]
@@ -7128,26 +6408,6 @@
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
       {
-        "code": "dmg-demon",
-        "label": {
-          "en": "+375% Damage to Demons",
-          "zh-TW": "+375+375% 對惡魔的傷害",
-          "zh-CN": "+375+375% 对恶魔的伤害",
-          "de": "+375+375% Schaden gegen Dämonen",
-          "es": "+375+375% de daño contra demonios",
-          "fr": "Dégâts contre les démons : +375+375%",
-          "it": "+375+375% danni ai demoni",
-          "ja": "デーモンへのダメージ（+375+375%）",
-          "ko": "악마에게 주는 피해 +375+375%",
-          "pl": "+375+375% do obrażeń zadanych demonom",
-          "pt": "+375+375% de dano contra demônios",
-          "ru": "+375+375% к урону по демонам"
-        },
-        "min": 375,
-        "max": 375,
-        "variable": false
-      },
-      {
         "code": "att-demon",
         "label": {
           "en": "+100 to Attack Rating against Demons",
@@ -7166,46 +6426,6 @@
         "min": 100,
         "max": 100,
         "variable": false
-      },
-      {
-        "code": "dmg-mag",
-        "label": {
-          "en": "Adds 85-120 magic damage",
-          "zh-TW": "魔法傷害：+85 - -120 點",
-          "zh-CN": "魔法伤害: +85-120",
-          "de": "Magieschaden: +85-120",
-          "es": "Daño mágico: +85-120 p.",
-          "fr": "Dégâts magiques : +85-120",
-          "it": "Danni magici: +85-120",
-          "ja": "魔法ダメージ: +85 - -120",
-          "ko": "마법 피해: +85-120",
-          "pl": "Obrażenia od magii: +85-120",
-          "pt": "Dano mágico: +85-120",
-          "ru": "Магический урон: +85–-120"
-        },
-        "min": 85,
-        "max": -120,
-        "variable": true
-      },
-      {
-        "code": "dmg-ltng",
-        "label": {
-          "en": "Adds 41-240 lightning damage",
-          "zh-TW": "電擊傷害：+41 - -240 點",
-          "zh-CN": "闪电伤害: +41-240",
-          "de": "Blitzschaden: +41-240",
-          "es": "Daño de rayos: +41-240 p.",
-          "fr": "Dégâts de Foudre : +41-240",
-          "it": "Danni da fulmine: +41-240",
-          "ja": "電撃ダメージ: +41 - -240",
-          "ko": "번개 피해: +41-240",
-          "pl": "Obrażenia od błyskawic: +41-240",
-          "pt": "Dano elétrico: +41-240",
-          "ru": "Урон от молнии: +41–-240"
-        },
-        "min": 41,
-        "max": -240,
-        "variable": true
       },
       {
         "code": "crush",
@@ -7267,6 +6487,28 @@
         "max": 10,
         "variable": false
       }
+    ],
+    "replaceStats": [
+      {
+        "code": "dmg-demon",
+        "label": {
+          "en": "+375% Damage to Demons",
+          "zh-TW": "+375% 對惡魔的傷害",
+          "zh-CN": "+375% 对恶魔的伤害",
+          "de": "+375% Schaden gegen Dämonen",
+          "es": "+375% de daño contra demonios",
+          "fr": "Dégâts contre les démons : +375%",
+          "it": "+375% danni ai demoni",
+          "ja": "デーモンへのダメージ（+375%）",
+          "ko": "악마에게 주는 피해 +375%",
+          "pl": "+375% do obrażeń zadanych demonom",
+          "pt": "+375% de dano contra demônios",
+          "ru": "+375% к урону по демонам"
+        },
+        "min": 375,
+        "max": 375,
+        "variable": false
+      }
     ]
   },
   "runeword-Runeword170": {
@@ -7278,20 +6520,20 @@
         "code": "dmg-ltng",
         "label": {
           "en": "Adds 1-50 lightning damage",
-          "zh-TW": "電擊傷害：+1 - -50 點",
-          "zh-CN": "闪电伤害: +1-50",
-          "de": "Blitzschaden: +1-50",
-          "es": "Daño de rayos: +1-50 p.",
-          "fr": "Dégâts de Foudre : +1-50",
-          "it": "Danni da fulmine: +1-50",
-          "ja": "電撃ダメージ: +1 - -50",
-          "ko": "번개 피해: +1-50",
-          "pl": "Obrażenia od błyskawic: +1-50",
-          "pt": "Dano elétrico: +1-50",
-          "ru": "Урон от молнии: +1–-50"
+          "zh-TW": "電擊傷害：1 - 50 點",
+          "zh-CN": "闪电伤害: 1-50",
+          "de": "Blitzschaden: 1-50",
+          "es": "Daño de rayos: 1-50 p.",
+          "fr": "Dégâts de Foudre : 1-50",
+          "it": "Danni da fulmine: 1-50",
+          "ja": "電撃ダメージ: 1 - 50",
+          "ko": "번개 피해: 1-50",
+          "pl": "Obrażenia od błyskawic: 1-50",
+          "pt": "Dano elétrico: 1-50",
+          "ru": "Урон от молнии: 1–50"
         },
         "min": 1,
-        "max": -50,
+        "max": 50,
         "variable": true
       },
       {
@@ -7322,60 +6564,20 @@
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
       {
-        "code": "stamdrain",
-        "label": {
-          "en": "50% Slower Stamina Drain (Armor Only)",
-          "zh-TW": "精力消耗減緩 +50%（僅限護甲）",
-          "zh-CN": "+50% 降低耐力消耗（仅限护甲）",
-          "de": "+50% langsamerer Ausdauerverbrauch (Nur Rüstung)",
-          "es": "Consumo de aguante un +50% más lento (Solo Armadura)",
-          "fr": "Drain d’Endurance ralenti de +50% (Armure uniquement)",
-          "it": "Consumo di vigore più lento del +50% (Solo Armatura)",
-          "ja": "スタミナ消費軽減（+50%）（防具専用）",
-          "ko": "지구력 고갈 속도 +50% 감소 (방어구 전용)",
-          "pl": "Wytrzymałość maleje o +50% wolniej (Tylko Zbroja)",
-          "pt": "Drenagem de vigor reduzida em +50% (Somente Armadura)",
-          "ru": "Выносливость снижается на +50% медленнее (Только Броня)"
-        },
-        "min": 50,
-        "max": 50,
-        "variable": false
-      },
-      {
-        "code": "hit-skill",
-        "label": {
-          "en": "5% Chance to cast level 1 Burst of Speed on striking (Weapons Only)",
-          "zh-TW": "擊中時有 +5% 機率施展等級 +5 速度爆發（僅限武器）",
-          "zh-CN": "+5% 几率在击中时施放+5级速度爆发（仅限武器）",
-          "de": "+5% Chance, bei einem Angriff Stufe +5 Temposchub auszulösen (Nur Waffen)",
-          "es": "+5% de probabilidad de lanzar Arrebato de velocidad de nivel +5 al golpear (Solo Armas)",
-          "fr": "+5% de chances de lancer Rapidité - niv. +5 en touchant (Armes uniquement)",
-          "it": "Probabilità del +5% di lanciare a livello +5 Velocità Fulminea quando colpisci (Solo Armi)",
-          "ja": "命中時に+5%の確率で〈スピードバースト〉（レベル+5）を発動（武器専用）",
-          "ko": "타격 시 +5% 확률로 +5 레벨 폭발적인 속도 시전 (무기 전용)",
-          "pl": "+5% szansy rzucenia +5-poziomowego zaklęcia Zwiększona Szybkość, gdy atak dosięga celu (Tylko Broń)",
-          "pt": "+5% de chance de lançar Explosão de Velocidade de nível +5 ao atingir um inimigo (Somente Armas)",
-          "ru": "Вероятность +5% применить умение «Ускорение» +5-го уровня при ударе (Только Оружие)"
-        },
-        "min": 5,
-        "max": 5,
-        "variable": false
-      },
-      {
         "code": "aura",
         "label": {
           "en": "Level 1 Fanaticism Aura When Equipped (Weapons Only)",
-          "zh-TW": "裝備時賦予等級 +1 狂熱靈氣（僅限武器）",
-          "zh-CN": "装备时获得+1级狂热光环（仅限武器）",
-          "de": "Stufe +1 der Fanatismus-Aura, wenn getragen. (Nur Waffen)",
-          "es": "Aura Fanatismo de nivel +1 si está equipado (Solo Armas)",
-          "fr": "Aura de niveau +1 pour Fanatisme quand équipé (Armes uniquement)",
-          "it": "Fornisce a livello +1 aura di Fanatismo (Solo Armi)",
-          "ja": "装備時にオーラ〈狂信〉（レベル+1）を発動（武器専用）",
-          "ko": "장착 시 +1 레벨 광신 오라 효과 적용 (무기 전용)",
-          "pl": "Po wyposażeniu zapewnia aurę Fanatyzm na poziomie +1 (Tylko Broń)",
-          "pt": "Aura Fanatismo de nível +1 quando equipado (Somente Armas)",
-          "ru": "При надевании дает ауру «Фанатизм» +1-го уровня (Только Оружие)"
+          "zh-TW": "裝備時賦予等級 1 狂熱靈氣（僅限武器）",
+          "zh-CN": "装备时获得1级狂热光环（仅限武器）",
+          "de": "Stufe 1 der Fanatismus-Aura, wenn getragen. (Nur Waffen)",
+          "es": "Aura Fanatismo de nivel 1 si está equipado (Solo Armas)",
+          "fr": "Aura de niveau 1 pour Fanatisme quand équipé (Armes uniquement)",
+          "it": "Fornisce a livello 1 aura di Fanatismo (Solo Armi)",
+          "ja": "装備時にオーラ〈狂信〉（レベル1）を発動（武器専用）",
+          "ko": "장착 시 1 레벨 광신 오라 효과 적용 (무기 전용)",
+          "pl": "Po wyposażeniu zapewnia aurę Fanatyzm na poziomie 1 (Tylko Broń)",
+          "pt": "Aura Fanatismo de nível 1 quando equipado (Somente Armas)",
+          "ru": "При надевании дает ауру «Фанатизм» 1-го уровня (Только Оружие)"
         },
         "min": 1,
         "max": 1,
@@ -7398,7 +6600,7 @@
           "ru": "+180-200% к урону (Только Оружие)"
         },
         "min": 180,
-        "max": -200,
+        "max": 200,
         "variable": true
       },
       {
@@ -7441,6 +6643,28 @@
         "max": 50,
         "variable": false
       }
+    ],
+    "replaceStats": [
+      {
+        "code": "stamdrain",
+        "label": {
+          "en": "50% Slower Stamina Drain (Armor Only)",
+          "zh-TW": "精力消耗減緩 +50%（僅限護甲）",
+          "zh-CN": "+50% 降低耐力消耗（仅限护甲）",
+          "de": "+50% langsamerer Ausdauerverbrauch (Nur Rüstung)",
+          "es": "Consumo de aguante un +50% más lento (Solo Armadura)",
+          "fr": "Drain d’Endurance ralenti de +50% (Armure uniquement)",
+          "it": "Consumo di vigore più lento del +50% (Solo Armatura)",
+          "ja": "スタミナ消費軽減（+50%）（防具専用）",
+          "ko": "지구력 고갈 속도 +50% 감소 (방어구 전용)",
+          "pl": "Wytrzymałość maleje o +50% wolniej (Tylko Zbroja)",
+          "pt": "Drenagem de vigor reduzida em +50% (Somente Armadura)",
+          "ru": "Выносливость снижается на +50% медленнее (Только Броня)"
+        },
+        "min": 50,
+        "max": 50,
+        "variable": false
+      }
     ]
   },
   "runeword-Runeword173": {
@@ -7452,16 +6676,16 @@
         "code": "att%",
         "label": {
           "en": "20% Bonus to Attack Rating",
-          "zh-TW": "+20% 準確率加成",
-          "zh-CN": "+20% 加成命中值",
-          "de": "+20% Bonus zu Angriffswert",
-          "es": "+20% de bonus al índice de ataque",
-          "fr": "+20% de bonus au score d’attaque",
-          "it": "Indice d'attacco aumentato del +20%",
-          "ja": "命中率へのボーナス（+20%）",
-          "ko": "명중률 보너스 +20%",
-          "pl": "+20% premii do skuteczności ataku",
-          "pt": "+20% de bônus de taxa de ataque",
+          "zh-TW": "20% 準確率加成",
+          "zh-CN": "20% 加成命中值",
+          "de": "20% Bonus zu Angriffswert",
+          "es": "20% de bonus al índice de ataque",
+          "fr": "20% de bonus au score d’attaque",
+          "it": "Indice d'attacco aumentato del 20%",
+          "ja": "命中率へのボーナス（20%）",
+          "ko": "명중률 보너스 20%",
+          "pl": "20% premii do skuteczności ataku",
+          "pt": "20% de bônus de taxa de ataque",
           "ru": "+20% к рейтингу атаки"
         },
         "min": 20,
@@ -7472,17 +6696,17 @@
         "code": "lifesteal",
         "label": {
           "en": "7% Life stolen per hit",
-          "zh-TW": "擊中竊取 +7+7% 生命",
-          "zh-CN": "+7+7% 击中时偷取生命",
-          "de": "+7+7% abgesaugtes Leben pro Treffer",
-          "es": "+7+7% de vida robada por golpe",
-          "fr": "+7+7% de vie volée à chaque coup",
-          "it": "+7+7% vita rubata per colpo",
-          "ja": "攻撃命中でライフを吸収（与ダメージの+7+7%）",
-          "ko": "적중당 생명력 +7+7% 훔침",
-          "pl": "+7+7% zdrowia wykradzione za każde trafienie",
-          "pt": "+7+7% de pontos de vida roubados por acerto",
-          "ru": "Похищает +7+7% здоровья за удар"
+          "zh-TW": "擊中竊取 7% 生命",
+          "zh-CN": "7% 击中时偷取生命",
+          "de": "7% abgesaugtes Leben pro Treffer",
+          "es": "7% de vida robada por golpe",
+          "fr": "7% de vie volée à chaque coup",
+          "it": "7% vita rubata per colpo",
+          "ja": "攻撃命中でライフを吸収（与ダメージの7%）",
+          "ko": "적중당 생명력 7% 훔침",
+          "pl": "7% zdrowia wykradzione za każde trafienie",
+          "pt": "7% de pontos de vida roubados por acerto",
+          "ru": "Похищает 7% здоровья за удар"
         },
         "min": 7,
         "max": 7,
@@ -7496,40 +6720,20 @@
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
       {
-        "code": "crush",
-        "label": {
-          "en": "+25% Chance of Crushing Blow",
-          "zh-TW": "+25% 機率造成粉碎打擊",
-          "zh-CN": "+25% 几率粉碎打击",
-          "de": "+25% Chance auf vernichtenden Schlag",
-          "es": "+25% de probabilidad de ataque aplastante",
-          "fr": "+25% de chances de coup écrasant",
-          "it": "Probabilità di colpo frantumante +25%",
-          "ja": "クラッシング・ブロー（+25%）",
-          "ko": "강타 확률 +25%",
-          "pl": "+25% do szansy na druzgocące uderzenie",
-          "pt": "+25% de chance de Golpe Esmagador",
-          "ru": "+25% к вероятности нанести сокрушительный удар"
-        },
-        "min": 25,
-        "max": 25,
-        "variable": false
-      },
-      {
         "code": "str",
         "label": {
           "en": "+10 to Strength",
-          "zh-TW": "+10+10 力量",
-          "zh-CN": "+10+10 力量",
-          "de": "+10+10 zu Stärke",
-          "es": "+10+10 de fuerza",
-          "fr": "+10+10 à la Force",
-          "it": "+10+10 Forza",
-          "ja": "筋力（+10+10）",
-          "ko": "힘 +10+10",
-          "pl": "+10+10 do siły",
-          "pt": "+10+10 de força",
-          "ru": "+10+10 к силе"
+          "zh-TW": "+10 力量",
+          "zh-CN": "+10 力量",
+          "de": "+10 zu Stärke",
+          "es": "+10 de fuerza",
+          "fr": "+10 à la Force",
+          "it": "+10 Forza",
+          "ja": "筋力（+10）",
+          "ko": "힘 +10",
+          "pl": "+10 do siły",
+          "pt": "+10 de força",
+          "ru": "+10 к силе"
         },
         "min": 10,
         "max": 10,
@@ -7559,16 +6763,16 @@
         "code": "att%",
         "label": {
           "en": "30% Bonus to Attack Rating",
-          "zh-TW": "+30% 準確率加成",
-          "zh-CN": "+30% 加成命中值",
-          "de": "+30% Bonus zu Angriffswert",
-          "es": "+30% de bonus al índice de ataque",
-          "fr": "+30% de bonus au score d’attaque",
-          "it": "Indice d'attacco aumentato del +30%",
-          "ja": "命中率へのボーナス（+30%）",
-          "ko": "명중률 보너스 +30%",
-          "pl": "+30% premii do skuteczności ataku",
-          "pt": "+30% de bônus de taxa de ataque",
+          "zh-TW": "30% 準確率加成",
+          "zh-CN": "30% 加成命中值",
+          "de": "30% Bonus zu Angriffswert",
+          "es": "30% de bonus al índice de ataque",
+          "fr": "30% de bonus au score d’attaque",
+          "it": "Indice d'attacco aumentato del 30%",
+          "ja": "命中率へのボーナス（30%）",
+          "ko": "명중률 보너스 30%",
+          "pl": "30% premii do skuteczności ataku",
+          "pt": "30% de bônus de taxa de ataque",
           "ru": "+30% к рейтингу атаки"
         },
         "min": 30,
@@ -7601,25 +6805,27 @@
         "min": 10,
         "max": 10,
         "variable": false
-      },
+      }
+    ],
+    "replaceStats": [
       {
         "code": "res-ltng",
         "label": {
           "en": "Lightning Resist +40-60%",
-          "zh-TW": "電擊抗性 +40--60%",
-          "zh-CN": "闪电抗性 +40--60%",
-          "de": "Blitzwiderstand +40--60%",
-          "es": "+40--60% de resistencia a los rayos",
-          "fr": "Résistance à la Foudre : +40--60%",
-          "it": "+40--60% resistenza al fulmine",
-          "ja": "電撃耐性（+40--60%）",
-          "ko": "번개 저항 +40--60%",
-          "pl": "+40--60% do odporności na błyskawice",
-          "pt": "Resistência elétrica +40--60%",
-          "ru": "+40--60% к сопротивлению молнии"
+          "zh-TW": "電擊抗性 +40-60%",
+          "zh-CN": "闪电抗性 +40-60%",
+          "de": "Blitzwiderstand +40-60%",
+          "es": "+40-60% de resistencia a los rayos",
+          "fr": "Résistance à la Foudre : +40-60%",
+          "it": "+40-60% resistenza al fulmine",
+          "ja": "電撃耐性（+40-60%）",
+          "ko": "번개 저항 +40-60%",
+          "pl": "+40-60% do odporności na błyskawice",
+          "pt": "Resistência elétrica +40-60%",
+          "ru": "+40-60% к сопротивлению молнии"
         },
         "min": 40,
-        "max": -60,
+        "max": 60,
         "variable": true
       }
     ]
@@ -7648,7 +6854,9 @@
         "min": 10,
         "max": 10,
         "variable": false
-      },
+      }
+    ],
+    "replaceStats": [
       {
         "code": "res-fire",
         "label": {
@@ -7666,7 +6874,7 @@
           "ru": "+40-60% к сопротивлению огню"
         },
         "min": 40,
-        "max": -60,
+        "max": 60,
         "variable": true
       }
     ]
@@ -7695,25 +6903,27 @@
         "min": 10,
         "max": 10,
         "variable": false
-      },
+      }
+    ],
+    "replaceStats": [
       {
         "code": "res-cold",
         "label": {
           "en": "Cold Resist +40-60%",
-          "zh-TW": "冰寒抗性 +40--60%",
-          "zh-CN": "冰霜抗性 +40--60%",
-          "de": "Kältewiderstand +40--60%",
-          "es": "+40--60% de resistencia al frío",
-          "fr": "Résistance au Froid : +40--60%",
-          "it": "+40--60% resistenza al freddo",
-          "ja": "冷気耐性（+40--60%）",
-          "ko": "냉기 저항 +40--60%",
-          "pl": "+40--60% do odporności na zimno",
-          "pt": "Resistência a gelo +40--60%",
-          "ru": "+40--60% к сопротивлению льду"
+          "zh-TW": "冰寒抗性 +40-60%",
+          "zh-CN": "冰霜抗性 +40-60%",
+          "de": "Kältewiderstand +40-60%",
+          "es": "+40-60% de resistencia al frío",
+          "fr": "Résistance au Froid : +40-60%",
+          "it": "+40-60% resistenza al freddo",
+          "ja": "冷気耐性（+40-60%）",
+          "ko": "냉기 저항 +40-60%",
+          "pl": "+40-60% do odporności na zimno",
+          "pt": "Resistência a gelo +40-60%",
+          "ru": "+40-60% к сопротивлению льду"
         },
         "min": 40,
-        "max": -60,
+        "max": 60,
         "variable": true
       }
     ]
@@ -7742,25 +6952,27 @@
         "min": 10,
         "max": 10,
         "variable": false
-      },
+      }
+    ],
+    "replaceStats": [
       {
         "code": "res-pois",
         "label": {
           "en": "Poison Resist +40-60%",
-          "zh-TW": "毒素抗性 +40--60%",
-          "zh-CN": "毒素抗性 +40--60%",
-          "de": "Giftwiderstand +40--60%",
-          "es": "+40--60% de resistencia al veneno",
-          "fr": "Résistance au Poison : +40--60%",
-          "it": "+40--60% resistenza al veleno",
-          "ja": "毒物耐性（+40--60%）",
-          "ko": "독 저항 +40--60%",
-          "pl": "+40--60% do odporności na trucizny",
-          "pt": "Resistência a veneno +40--60%",
-          "ru": "+40--60% к сопротивлению яду"
+          "zh-TW": "毒素抗性 +40-60%",
+          "zh-CN": "毒素抗性 +40-60%",
+          "de": "Giftwiderstand +40-60%",
+          "es": "+40-60% de resistencia al veneno",
+          "fr": "Résistance au Poison : +40-60%",
+          "it": "+40-60% resistenza al veleno",
+          "ja": "毒物耐性（+40-60%）",
+          "ko": "독 저항 +40-60%",
+          "pl": "+40-60% do odporności na trucizny",
+          "pt": "Resistência a veneno +40-60%",
+          "ru": "+40-60% к сопротивлению яду"
         },
         "min": 40,
-        "max": -60,
+        "max": 60,
         "variable": true
       }
     ]
@@ -7794,17 +7006,17 @@
         "code": "red-dmg",
         "label": {
           "en": "Damage Reduced by 7",
-          "zh-TW": "傷害降低 +7",
-          "zh-CN": "伤害降低 +7",
-          "de": "Schaden reduziert um +7",
-          "es": "Daño reducido en +7 p.",
-          "fr": "Dégâts réduits de +7",
-          "it": "Danni ridotti di +7",
-          "ja": "ダメージを軽減（+7）",
-          "ko": "피해 +7 감소",
-          "pl": "Zmniejsza otrzymywane obrażenia o +7 pkt.",
-          "pt": "Dano reduzido em +7",
-          "ru": "–+7 к урону"
+          "zh-TW": "傷害降低 7",
+          "zh-CN": "伤害降低 7",
+          "de": "Schaden reduziert um 7",
+          "es": "Daño reducido en 7 p.",
+          "fr": "Dégâts réduits de 7",
+          "it": "Danni ridotti di 7",
+          "ja": "ダメージを軽減（7）",
+          "ko": "피해 7 감소",
+          "pl": "Zmniejsza otrzymywane obrażenia o 7 pkt.",
+          "pt": "Dano reduzido em 7",
+          "ru": "–7 к урону"
         },
         "min": 7,
         "max": 7,
@@ -7818,40 +7030,20 @@
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
       {
-        "code": "mag%",
-        "label": {
-          "en": "26-40% Better Chance of Getting Magic Items",
-          "zh-TW": "尋獲魔法物品機率提高 +26-40%",
-          "zh-CN": "+26-40% 额外几率获得魔法物品",
-          "de": "+26-40% bessere Chance, magischen Gegenstand zu erhalten",
-          "es": "+26-40% de probabilidad de encontrar objetos mágicos",
-          "fr": "+26-40% de chances suppl. d’obtenir des objets magiques",
-          "it": "Probabilità di ottenere un oggetto magico aumentata del +26-40%",
-          "ja": "マジックアイテムドロップ率（+26-40%）",
-          "ko": "마법 아이템 발견 확률 +26-40% 증가",
-          "pl": "+26-40% do szansy na zdobycie magicznych przedmiotów",
-          "pt": "+26-40% de chance adicional de obter itens mágicos",
-          "ru": "+26-40% к вероятности найти магический предмет"
-        },
-        "min": 26,
-        "max": -40,
-        "variable": true
-      },
-      {
         "code": "res-fire",
         "label": {
           "en": "Fire Resist +30%",
-          "zh-TW": "火焰抗性 +30+30%",
-          "zh-CN": "火焰抗性 +30+30%",
-          "de": "Feuerwiderstand +30+30%",
-          "es": "+30+30% de resistencia al fuego",
-          "fr": "Résistance au Feu : +30+30%",
-          "it": "+30+30% resistenza al fuoco",
-          "ja": "火炎耐性（+30+30%）",
-          "ko": "화염 저항 +30+30%",
-          "pl": "+30+30% do odporności na ogień",
-          "pt": "Resistência a fogo +30+30%",
-          "ru": "+30+30% к сопротивлению огню"
+          "zh-TW": "火焰抗性 +30%",
+          "zh-CN": "火焰抗性 +30%",
+          "de": "Feuerwiderstand +30%",
+          "es": "+30% de resistencia al fuego",
+          "fr": "Résistance au Feu : +30%",
+          "it": "+30% resistenza al fuoco",
+          "ja": "火炎耐性（+30%）",
+          "ko": "화염 저항 +30%",
+          "pl": "+30% do odporności na ogień",
+          "pt": "Resistência a fogo +30%",
+          "ru": "+30% к сопротивлению огню"
         },
         "min": 30,
         "max": 30,
@@ -7876,6 +7068,28 @@
         "min": 10,
         "max": 10,
         "variable": false
+      }
+    ],
+    "replaceStats": [
+      {
+        "code": "mag%",
+        "label": {
+          "en": "26-40% Better Chance of Getting Magic Items",
+          "zh-TW": "尋獲魔法物品機率提高 26-40%",
+          "zh-CN": "26-40% 额外几率获得魔法物品",
+          "de": "26-40% bessere Chance, magischen Gegenstand zu erhalten",
+          "es": "+26-40% de probabilidad de encontrar objetos mágicos",
+          "fr": "26-40% de chances suppl. d’obtenir des objets magiques",
+          "it": "Probabilità di ottenere un oggetto magico aumentata del 26-40%",
+          "ja": "マジックアイテムドロップ率（+26-40%）",
+          "ko": "마법 아이템 발견 확률 26-40% 증가",
+          "pl": "+26-40% do szansy na zdobycie magicznych przedmiotów",
+          "pt": "26-40% de chance adicional de obter itens mágicos",
+          "ru": "+26-40% к вероятности найти магический предмет"
+        },
+        "min": 26,
+        "max": 40,
+        "variable": true
       }
     ]
   },
@@ -7912,6 +7126,28 @@
     "source": "D2R.world reference data (C:\\d2r-world-all), treated as ground truth per user instruction",
     "addStats": [
       {
+        "code": "lifesteal",
+        "label": {
+          "en": "7% Life stolen per hit",
+          "zh-TW": "擊中竊取 7% 生命",
+          "zh-CN": "7% 击中时偷取生命",
+          "de": "7% abgesaugtes Leben pro Treffer",
+          "es": "7% de vida robada por golpe",
+          "fr": "7% de vie volée à chaque coup",
+          "it": "7% vita rubata per colpo",
+          "ja": "攻撃命中でライフを吸収（与ダメージの7%）",
+          "ko": "적중당 생명력 7% 훔침",
+          "pl": "7% zdrowia wykradzione za każde trafienie",
+          "pt": "7% de pontos de vida roubados por acerto",
+          "ru": "Похищает 7% здоровья за удар"
+        },
+        "min": 7,
+        "max": 7,
+        "variable": false
+      }
+    ],
+    "replaceStats": [
+      {
         "code": "dmg%",
         "label": {
           "en": "+250-320% Enhanced Damage",
@@ -7928,28 +7164,8 @@
           "ru": "+250-320% к урону"
         },
         "min": 250,
-        "max": -320,
+        "max": 320,
         "variable": true
-      },
-      {
-        "code": "lifesteal",
-        "label": {
-          "en": "7% Life stolen per hit",
-          "zh-TW": "擊中竊取 +7+7% 生命",
-          "zh-CN": "+7+7% 击中时偷取生命",
-          "de": "+7+7% abgesaugtes Leben pro Treffer",
-          "es": "+7+7% de vida robada por golpe",
-          "fr": "+7+7% de vie volée à chaque coup",
-          "it": "+7+7% vita rubata per colpo",
-          "ja": "攻撃命中でライフを吸収（与ダメージの+7+7%）",
-          "ko": "적중당 생명력 +7+7% 훔침",
-          "pl": "+7+7% zdrowia wykradzione za każde trafienie",
-          "pt": "+7+7% de pontos de vida roubados por acerto",
-          "ru": "Похищает +7+7% здоровья за удар"
-        },
-        "min": 7,
-        "max": 7,
-        "variable": false
       }
     ]
   }

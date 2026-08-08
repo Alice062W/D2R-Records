@@ -1666,7 +1666,7 @@
         },
         "min": 0,
         "max": 50,
-        "variable": false
+        "variable": true
       },
       {
         "code": "dmg%",
@@ -2271,7 +2271,7 @@
         },
         "min": 0,
         "max": 37,
-        "variable": false
+        "variable": true
       },
       {
         "code": "hit-skill",
@@ -2393,7 +2393,7 @@
         },
         "min": 1,
         "max": 62,
-        "variable": false
+        "variable": true
       },
       {
         "code": "res-all",
@@ -2800,7 +2800,7 @@
         },
         "min": 1,
         "max": 74,
-        "variable": false
+        "variable": true
       },
       {
         "code": "heal-kill",
@@ -2822,7 +2822,7 @@
         },
         "min": 1,
         "max": 99,
-        "variable": false
+        "variable": true
       }
     ],
     "ladderRestricted": false,
@@ -3714,13 +3714,13 @@
       {
         "code": "hp/lvl",
         "label": {
-          "en": "+8-12 to Life (Based on Character Level)",
-          "zh-TW": "+8-12 生命 （依角色等級而定）",
-          "zh-CN": "+8-12 生命 (基于角色等级)"
+          "en": "+1-148 to Life (Based on Character Level)",
+          "zh-TW": "+1-148 生命 （依角色等級而定）",
+          "zh-CN": "+1-148 生命 (基于角色等级)"
         },
-        "min": 8,
-        "max": 12,
-        "variable": false
+        "min": 1,
+        "max": 148,
+        "variable": true
       },
       {
         "code": "res-all",
@@ -4148,7 +4148,7 @@
         },
         "min": 2,
         "max": 186,
-        "variable": false
+        "variable": true
       },
       {
         "code": "pierce-pois",
@@ -5000,7 +5000,7 @@
         },
         "min": 3,
         "max": 309,
-        "variable": false
+        "variable": true
       },
       {
         "code": "dmg%",
@@ -5143,7 +5143,7 @@
         },
         "min": 0,
         "max": 50,
-        "variable": false
+        "variable": true
       },
       {
         "code": "dmg%",
@@ -5705,7 +5705,7 @@
         },
         "min": 0,
         "max": 50,
-        "variable": false
+        "variable": true
       },
       {
         "code": "dmg%",
@@ -5983,7 +5983,7 @@
         },
         "min": 2,
         "max": 198,
-        "variable": false
+        "variable": true
       },
       {
         "code": "res-cold",
@@ -8158,7 +8158,7 @@
         },
         "min": 0,
         "max": 37,
-        "variable": false
+        "variable": true
       },
       {
         "code": "dmg%",
@@ -8290,7 +8290,7 @@
         },
         "min": 1,
         "max": 99,
-        "variable": false
+        "variable": true
       },
       {
         "code": "dmg-ltng",
@@ -8323,7 +8323,7 @@
         },
         "min": 2,
         "max": 186,
-        "variable": false
+        "variable": true
       },
       {
         "code": "gethit-skill",
