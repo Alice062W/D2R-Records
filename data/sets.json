@@ -375,6 +375,17 @@
         "min": 17,
         "max": 23,
         "variable": true
+      },
+      {
+        "code": "dmg-undead",
+        "label": {
+          "en": "+50% Damage to Undead",
+          "zh-TW": "+50% 對不死族傷害",
+          "zh-CN": "+50% 对不死生物伤害"
+        },
+        "min": 50,
+        "max": 50,
+        "variable": false
       }
     ],
     "statPriority": [
@@ -619,8 +630,8 @@
     "grade": "normal",
     "slotCategory": "shields",
     "defense": {
-      "min": 4,
-      "max": 6
+      "min": 6,
+      "max": 253
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -721,7 +732,11 @@
     ],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "baseDefense": {
+      "min": 4,
+      "max": 6
+    }
   },
   {
     "id": "set-hsarus_iron_stay",
@@ -746,8 +761,8 @@
     "grade": "normal",
     "slotCategory": "belts",
     "defense": {
-      "min": 5,
-      "max": 5
+      "min": 7,
+      "max": 252
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -848,7 +863,11 @@
     ],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "baseDefense": {
+      "min": 5,
+      "max": 5
+    }
   },
   {
     "id": "set-cleglaws_tooth",
@@ -874,8 +893,14 @@
     "slotCategory": "swords",
     "defense": null,
     "oneHandDamage": {
-      "min": 3,
-      "max": 19
+      "min": {
+        "low": 3,
+        "high": 3
+      },
+      "max": {
+        "low": 19,
+        "high": 19
+      }
     },
     "twoHandDamage": null,
     "requiredStrength": 55,
@@ -1652,8 +1677,8 @@
     "grade": "normal",
     "slotCategory": "helms",
     "defense": {
-      "min": 25,
-      "max": 45
+      "min": 27,
+      "max": 243
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -1811,7 +1836,11 @@
     ],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "baseDefense": {
+      "min": 25,
+      "max": 45
+    }
   },
   {
     "id": "set-irathas_cord",
@@ -2021,8 +2050,14 @@
     "slotCategory": "swords",
     "defense": null,
     "oneHandDamage": {
-      "min": 17,
-      "max": 14
+      "min": {
+        "low": 17,
+        "high": 17
+      },
+      "max": {
+        "low": 18,
+        "high": 18
+      }
     },
     "twoHandDamage": null,
     "requiredStrength": 48,
@@ -2342,8 +2377,8 @@
     "grade": "normal",
     "slotCategory": "armors",
     "defense": {
-      "min": 105,
-      "max": 108
+      "min": 107,
+      "max": 306
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -2478,7 +2513,11 @@
     ],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "baseDefense": {
+      "min": 105,
+      "max": 108
+    }
   },
   {
     "id": "set-isenharts_horns",
@@ -2666,8 +2705,14 @@
     "defense": null,
     "oneHandDamage": null,
     "twoHandDamage": {
-      "min": 3,
-      "max": 18
+      "min": {
+        "low": 3,
+        "high": 3
+      },
+      "max": {
+        "low": 18,
+        "high": 18
+      }
     },
     "requiredStrength": 40,
     "requiredDexterity": 50,
@@ -2988,8 +3033,8 @@
     "grade": "normal",
     "slotCategory": "armors",
     "defense": {
-      "min": 64,
-      "max": 67
+      "min": 66,
+      "max": 314
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -3137,7 +3182,11 @@
     ],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "baseDefense": {
+      "min": 64,
+      "max": 67
+    }
   },
   {
     "id": "set-vidalas_snare",
@@ -3321,8 +3370,8 @@
     "grade": "normal",
     "slotCategory": "shields",
     "defense": {
-      "min": 41,
-      "max": 43
+      "min": 53,
+      "max": 53
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -3387,9 +3436,9 @@
         "piecesRequired": 3,
         "code": "att",
         "label": {
-          "en": "+125 to Attack Rating",
-          "zh-TW": "+125 準確率",
-          "zh-CN": "+125 命中值"
+          "en": "Additional +125 to Attack Rating",
+          "zh-TW": "額外+125 準確率",
+          "zh-CN": "额外+125 命中值"
         },
         "min": 125,
         "max": 125,
@@ -3482,7 +3531,11 @@
     ],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "baseDefense": {
+      "min": 44,
+      "max": 44
+    }
   },
   {
     "id": "set-milabregas_rod",
@@ -3508,8 +3561,14 @@
     "slotCategory": "scepters",
     "defense": null,
     "oneHandDamage": {
-      "min": 15,
-      "max": 26
+      "min": {
+        "low": 15,
+        "high": 15
+      },
+      "max": {
+        "low": 25,
+        "high": 25
+      }
     },
     "twoHandDamage": null,
     "requiredStrength": 55,
@@ -3552,6 +3611,17 @@
         "min": 50,
         "max": 50,
         "variable": false
+      },
+      {
+        "code": "dmg-undead",
+        "label": {
+          "en": "+50% Damage to Undead",
+          "zh-TW": "+50% 對不死族傷害",
+          "zh-CN": "+50% 对不死生物伤害"
+        },
+        "min": 50,
+        "max": 50,
+        "variable": false
       }
     ],
     "statPriority": [],
@@ -3584,9 +3654,9 @@
         "piecesRequired": 3,
         "code": "att",
         "label": {
-          "en": "+125 to Attack Rating",
-          "zh-TW": "+125 準確率",
-          "zh-CN": "+125 命中值"
+          "en": "Additional +125 to Attack Rating",
+          "zh-TW": "額外+125 準確率",
+          "zh-CN": "额外+125 命中值"
         },
         "min": 125,
         "max": 125,
@@ -3745,9 +3815,9 @@
         "piecesRequired": 3,
         "code": "att",
         "label": {
-          "en": "+125 to Attack Rating",
-          "zh-TW": "+125 準確率",
-          "zh-CN": "+125 命中值"
+          "en": "Additional +125 to Attack Rating",
+          "zh-TW": "額外+125 準確率",
+          "zh-CN": "额外+125 命中值"
         },
         "min": 125,
         "max": 125,
@@ -3853,8 +3923,8 @@
     "grade": "normal",
     "slotCategory": "armors",
     "defense": {
-      "min": 218,
-      "max": 233
+      "min": 468,
+      "max": 468
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -3919,9 +3989,9 @@
         "piecesRequired": 3,
         "code": "att",
         "label": {
-          "en": "+125 to Attack Rating",
-          "zh-TW": "+125 準確率",
-          "zh-CN": "+125 命中值"
+          "en": "Additional +125 to Attack Rating",
+          "zh-TW": "額外+125 準確率",
+          "zh-CN": "额外+125 命中值"
         },
         "min": 125,
         "max": 125,
@@ -4002,7 +4072,11 @@
     ],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "baseDefense": {
+      "min": 234,
+      "max": 234
+    }
   },
   {
     "id": "set-cathans_rule",
@@ -4029,8 +4103,14 @@
     "defense": null,
     "oneHandDamage": null,
     "twoHandDamage": {
-      "min": 6,
-      "max": 13
+      "min": {
+        "low": 6,
+        "high": 6
+      },
+      "max": {
+        "low": 13,
+        "high": 13
+      }
     },
     "requiredStrength": null,
     "requiredDexterity": null,
@@ -4060,6 +4140,17 @@
         },
         "min": 10,
         "max": 10,
+        "variable": false
+      },
+      {
+        "code": "dmg-undead",
+        "label": {
+          "en": "+50% Damage to Undead",
+          "zh-TW": "+50% 對不死族傷害",
+          "zh-CN": "+50% 对不死生物伤害"
+        },
+        "min": 50,
+        "max": 50,
         "variable": false
       }
     ],
@@ -4217,7 +4308,7 @@
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
-    "requiredStrength": 48,
+    "requiredStrength": 24,
     "requiredDexterity": null,
     "weaponSpeed": null,
     "durability": 45,
@@ -4397,8 +4488,8 @@
     "grade": "normal",
     "slotCategory": "helms",
     "defense": {
-      "min": 9,
-      "max": 27
+      "min": 11,
+      "max": 225
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -4545,7 +4636,11 @@
     ],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "baseDefense": {
+      "min": 9,
+      "max": 27
+    }
   },
   {
     "id": "set-cathans_sigil",
@@ -4923,8 +5018,14 @@
     "slotCategory": "axes",
     "defense": null,
     "oneHandDamage": {
-      "min": 13,
-      "max": 20
+      "min": {
+        "low": 12,
+        "high": 12
+      },
+      "max": {
+        "low": 19,
+        "high": 19
+      }
     },
     "twoHandDamage": null,
     "requiredStrength": 49,
@@ -5084,8 +5185,8 @@
     "grade": "normal",
     "slotCategory": "armors",
     "defense": {
-      "min": 150,
-      "max": 161
+      "min": 152,
+      "max": 359
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -5209,7 +5310,11 @@
     ],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "baseDefense": {
+      "min": 150,
+      "max": 161
+    }
   },
   {
     "id": "set-tancreds_hobnails",
@@ -6027,8 +6132,8 @@
     "grade": "normal",
     "slotCategory": "armors",
     "defense": {
-      "min": 160,
-      "max": 169
+      "min": 170,
+      "max": 170
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -6361,8 +6466,8 @@
     "grade": "normal",
     "slotCategory": "belts",
     "defense": {
-      "min": 8,
-      "max": 11
+      "min": 10,
+      "max": 209
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -6497,7 +6602,11 @@
     ],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "baseDefense": {
+      "min": 8,
+      "max": 11
+    }
   },
   {
     "id": "set-sigons_guard",
@@ -6670,8 +6779,8 @@
     "grade": "normal",
     "slotCategory": "helms",
     "defense": {
-      "min": 3,
-      "max": 5
+      "min": 5,
+      "max": 203
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -6712,12 +6821,12 @@
         "piecesRequired": 2,
         "code": "dmg-pois",
         "label": {
-          "en": "Adds 25-25 Poison Damage Over 3.2 Seconds",
-          "zh-TW": "+25 毒素傷害，時效 3.2 秒",
-          "zh-CN": "+25 毒素伤害，持续3.2秒"
+          "en": "Adds 8-8 Poison Damage Over 3 Seconds",
+          "zh-TW": "毒素傷害：8 點，持續 3 秒",
+          "zh-CN": "毒素伤害: 8, 持续3秒"
         },
-        "min": 25,
-        "max": 25,
+        "min": 8,
+        "max": 8,
         "variable": false
       },
       {
@@ -6817,7 +6926,11 @@
     ],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "baseDefense": {
+      "min": 3,
+      "max": 5
+    }
   },
   {
     "id": "set-infernal_torch",
@@ -6843,8 +6956,14 @@
     "slotCategory": "wands",
     "defense": null,
     "oneHandDamage": {
-      "min": 13,
-      "max": 11
+      "min": {
+        "low": 13,
+        "high": 13
+      },
+      "max": {
+        "low": 14,
+        "high": 14
+      }
     },
     "twoHandDamage": null,
     "requiredStrength": null,
@@ -6876,6 +6995,17 @@
         "min": 8,
         "max": 8,
         "variable": false
+      },
+      {
+        "code": "dmg-undead",
+        "label": {
+          "en": "+150% Damage to Undead",
+          "zh-TW": "+150% 對不死族傷害",
+          "zh-CN": "+150% 对不死生物伤害"
+        },
+        "min": 150,
+        "max": 150,
+        "variable": false
       }
     ],
     "statPriority": [],
@@ -6884,12 +7014,12 @@
         "piecesRequired": 2,
         "code": "dmg-pois",
         "label": {
-          "en": "Adds 25-25 Poison Damage Over 3.2 Seconds",
-          "zh-TW": "+25 毒素傷害，時效 3.2 秒",
-          "zh-CN": "+25 毒素伤害，持续3.2秒"
+          "en": "Adds 8-8 Poison Damage Over 3 Seconds",
+          "zh-TW": "毒素傷害：8 點，持續 3 秒",
+          "zh-CN": "毒素伤害: 8, 持续3秒"
         },
-        "min": 25,
-        "max": 25,
+        "min": 8,
+        "max": 8,
         "variable": false
       },
       {
@@ -7056,12 +7186,12 @@
         "piecesRequired": 2,
         "code": "dmg-pois",
         "label": {
-          "en": "Adds 25-25 Poison Damage Over 3.2 Seconds",
-          "zh-TW": "+25 毒素傷害，時效 3.2 秒",
-          "zh-CN": "+25 毒素伤害，持续3.2秒"
+          "en": "Adds 8-8 Poison Damage Over 3 Seconds",
+          "zh-TW": "毒素傷害：8 點，持續 3 秒",
+          "zh-CN": "毒素伤害: 8, 持续3秒"
         },
-        "min": 25,
-        "max": 25,
+        "min": 8,
+        "max": 8,
         "variable": false
       },
       {
@@ -7325,8 +7455,8 @@
     "grade": "normal",
     "slotCategory": "armors",
     "defense": {
-      "min": 90,
-      "max": 95
+      "min": 93,
+      "max": 392
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -7427,7 +7557,11 @@
     ],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "baseDefense": {
+      "min": 90,
+      "max": 95
+    }
   },
   {
     "id": "set-berserkers_hatchet",
@@ -7453,8 +7587,14 @@
     "slotCategory": "axes",
     "defense": null,
     "oneHandDamage": {
-      "min": 5,
-      "max": 13
+      "min": {
+        "low": 7,
+        "high": 7
+      },
+      "max": {
+        "low": 19,
+        "high": 19
+      }
     },
     "twoHandDamage": null,
     "requiredStrength": 43,
@@ -7554,7 +7694,17 @@
     ],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "baseOneHandDamage": {
+      "min": {
+        "low": 5,
+        "high": 5
+      },
+      "max": {
+        "low": 13,
+        "high": 13
+      }
+    }
   },
   {
     "id": "set-deaths_hand",
@@ -7834,8 +7984,14 @@
     "slotCategory": "swords",
     "defense": null,
     "oneHandDamage": {
-      "min": 10,
-      "max": 25
+      "min": {
+        "low": 10,
+        "high": 10
+      },
+      "max": {
+        "low": 25,
+        "high": 25
+      }
     },
     "twoHandDamage": null,
     "requiredStrength": 71,
@@ -7961,8 +8117,14 @@
     "slotCategory": "swords",
     "defense": null,
     "oneHandDamage": {
-      "min": 3,
-      "max": 8
+      "min": {
+        "low": 5,
+        "high": 5
+      },
+      "max": {
+        "low": 14,
+        "high": 14
+      }
     },
     "twoHandDamage": null,
     "requiredStrength": 25,
@@ -8097,7 +8259,17 @@
     ],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "baseOneHandDamage": {
+      "min": {
+        "low": 3,
+        "high": 3
+      },
+      "max": {
+        "low": 8,
+        "high": 8
+      }
+    }
   },
   {
     "id": "set-angelic_mantle",
@@ -8122,8 +8294,8 @@
     "grade": "normal",
     "slotCategory": "armors",
     "defense": {
-      "min": 63,
-      "max": 67
+      "min": 218,
+      "max": 218
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -8259,7 +8431,11 @@
     ],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "baseDefense": {
+      "min": 68,
+      "max": 68
+    }
   },
   {
     "id": "set-angelic_halo",
@@ -8604,8 +8780,14 @@
     "defense": null,
     "oneHandDamage": null,
     "twoHandDamage": {
-      "min": 9,
-      "max": 21
+      "min": {
+        "low": 9,
+        "high": 9
+      },
+      "max": {
+        "low": 21,
+        "high": 21
+      }
     },
     "requiredStrength": 35,
     "requiredDexterity": 55,
@@ -8742,8 +8924,8 @@
     "grade": "normal",
     "slotCategory": "armors",
     "defense": {
-      "min": 30,
-      "max": 47
+      "min": 48,
+      "max": 348
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -8859,7 +9041,11 @@
     ],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "baseDefense": {
+      "min": 45,
+      "max": 51
+    }
   },
   {
     "id": "set-arctic_binding",
@@ -9337,8 +9523,14 @@
     "defense": null,
     "oneHandDamage": null,
     "twoHandDamage": {
-      "min": 12,
-      "max": 28
+      "min": {
+        "low": 12,
+        "high": 12
+      },
+      "max": {
+        "low": 28,
+        "high": 28
+      }
     },
     "requiredStrength": null,
     "requiredDexterity": null,
@@ -9368,6 +9560,17 @@
         },
         "min": 25,
         "max": 25,
+        "variable": false
+      },
+      {
+        "code": "dmg-undead",
+        "label": {
+          "en": "+50% Damage to Undead",
+          "zh-TW": "+50% 對不死族傷害",
+          "zh-CN": "+50% 对不死生物伤害"
+        },
+        "min": 50,
+        "max": 50,
         "variable": false
       }
     ],
@@ -9509,8 +9712,8 @@
     "grade": "normal",
     "slotCategory": "helms",
     "defense": {
-      "min": 8,
-      "max": 11
+      "min": 11,
+      "max": 308
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -9658,7 +9861,11 @@
     ],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "baseDefense": {
+      "min": 8,
+      "max": 11
+    }
   },
   {
     "id": "set-arcannas_flesh",
@@ -9683,8 +9890,8 @@
     "grade": "normal",
     "slotCategory": "armors",
     "defense": {
-      "min": 90,
-      "max": 107
+      "min": 190,
+      "max": 207
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -9832,7 +10039,11 @@
     ],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "baseDefense": {
+      "min": 90,
+      "max": 107
+    }
   },
   {
     "id": "set-natalyas_totem",
@@ -9858,7 +10069,7 @@
     "slotCategory": "helms",
     "defense": {
       "min": 195,
-      "max": 260
+      "max": 300
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -10029,9 +10240,9 @@
       {
         "code": "red-dmg%",
         "label": {
-          "en": "Damage Reduced by 30%",
-          "zh-TW": "受到的物理傷害降低 30%",
-          "zh-CN": "受到的物理伤害降低 30%"
+          "en": "Physical Damage Received Reduced by 30%",
+          "zh-TW": "受到的物理承受物理傷害降低 30%",
+          "zh-CN": "受到的物理承受物理伤害降低 30%"
         },
         "min": 30,
         "max": 30,
@@ -10067,8 +10278,14 @@
     "slotCategory": "katars",
     "defense": null,
     "oneHandDamage": {
-      "min": 120,
-      "max": 153
+      "min": {
+        "low": 120,
+        "high": 120
+      },
+      "max": {
+        "low": 153,
+        "high": 153
+      }
     },
     "twoHandDamage": null,
     "requiredStrength": 118,
@@ -10255,9 +10472,9 @@
       {
         "code": "red-dmg%",
         "label": {
-          "en": "Damage Reduced by 30%",
-          "zh-TW": "受到的物理傷害降低 30%",
-          "zh-CN": "受到的物理伤害降低 30%"
+          "en": "Physical Damage Received Reduced by 30%",
+          "zh-TW": "受到的物理承受物理傷害降低 30%",
+          "zh-CN": "受到的物理承受物理伤害降低 30%"
         },
         "min": 30,
         "max": 30,
@@ -10293,7 +10510,7 @@
     "slotCategory": "armors",
     "defense": {
       "min": 540,
-      "max": 646
+      "max": 721
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -10461,9 +10678,9 @@
       {
         "code": "red-dmg%",
         "label": {
-          "en": "Damage Reduced by 30%",
-          "zh-TW": "受到的物理傷害降低 30%",
-          "zh-CN": "受到的物理伤害降低 30%"
+          "en": "Physical Damage Received Reduced by 30%",
+          "zh-TW": "受到的物理承受物理傷害降低 30%",
+          "zh-CN": "受到的物理承受物理伤害降低 30%"
         },
         "min": 30,
         "max": 30,
@@ -10499,7 +10716,7 @@
     "slotCategory": "boots",
     "defense": {
       "min": 112,
-      "max": 119
+      "max": 169
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -10669,9 +10886,9 @@
       {
         "code": "red-dmg%",
         "label": {
-          "en": "Damage Reduced by 30%",
-          "zh-TW": "受到的物理傷害降低 30%",
-          "zh-CN": "受到的物理伤害降低 30%"
+          "en": "Physical Damage Received Reduced by 30%",
+          "zh-TW": "受到的物理承受物理傷害降低 30%",
+          "zh-CN": "受到的物理承受物理伤害降低 30%"
         },
         "min": 30,
         "max": 30,
@@ -10901,9 +11118,9 @@
         "piecesRequired": 3,
         "code": "enr",
         "label": {
-          "en": "+15 to Energy",
-          "zh-TW": "+15 能量",
-          "zh-CN": "+15 能量"
+          "en": "Additional +15 to Energy",
+          "zh-TW": "額外+15 能量",
+          "zh-CN": "额外+15 能量"
         },
         "min": 15,
         "max": 15,
@@ -10913,9 +11130,9 @@
         "piecesRequired": 4,
         "code": "enr",
         "label": {
-          "en": "+15 to Energy",
-          "zh-TW": "+15 能量",
-          "zh-CN": "+15 能量"
+          "en": "Additional +15 to Energy",
+          "zh-TW": "額外+15 能量",
+          "zh-CN": "额外+15 能量"
         },
         "min": 15,
         "max": 15,
@@ -10954,7 +11171,7 @@
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
-    "requiredStrength": 230,
+    "requiredStrength": 115,
     "requiredDexterity": null,
     "weaponSpeed": null,
     "durability": 70,
@@ -11166,9 +11383,9 @@
         "piecesRequired": 3,
         "code": "vit",
         "label": {
-          "en": "+15 to Vitality",
-          "zh-TW": "+15 體能",
-          "zh-CN": "+15 活力"
+          "en": "Additional +15 to Vitality",
+          "zh-TW": "額外+15 體能",
+          "zh-CN": "额外+15 活力"
         },
         "min": 15,
         "max": 15,
@@ -11178,9 +11395,9 @@
         "piecesRequired": 4,
         "code": "vit",
         "label": {
-          "en": "+15 to Vitality",
-          "zh-TW": "+15 體能",
-          "zh-CN": "+15 活力"
+          "en": "Additional +15 to Vitality",
+          "zh-TW": "額外+15 體能",
+          "zh-CN": "额外+15 活力"
         },
         "min": 15,
         "max": 15,
@@ -11215,8 +11432,14 @@
     "slotCategory": "maces",
     "defense": null,
     "oneHandDamage": {
-      "min": 20,
-      "max": 31
+      "min": {
+        "low": 60,
+        "high": 60
+      },
+      "max": {
+        "low": 93,
+        "high": 93
+      }
     },
     "twoHandDamage": null,
     "requiredStrength": 74,
@@ -11291,6 +11514,17 @@
         },
         "min": 10,
         "max": 10,
+        "variable": false
+      },
+      {
+        "code": "dmg-undead",
+        "label": {
+          "en": "+50% Damage to Undead",
+          "zh-TW": "+50% 對不死族傷害",
+          "zh-CN": "+50% 对不死生物伤害"
+        },
+        "min": 50,
+        "max": 50,
         "variable": false
       }
     ],
@@ -11418,9 +11652,9 @@
         "piecesRequired": 3,
         "code": "str",
         "label": {
-          "en": "+15 to Strength",
-          "zh-TW": "+15 力量",
-          "zh-CN": "+15 力量"
+          "en": "Additional +15 to Strength",
+          "zh-TW": "額外+15 力量",
+          "zh-CN": "额外+15 力量"
         },
         "min": 15,
         "max": 15,
@@ -11430,9 +11664,9 @@
         "piecesRequired": 4,
         "code": "str",
         "label": {
-          "en": "+15 to Strength",
-          "zh-TW": "+15 力量",
-          "zh-CN": "+15 力量"
+          "en": "Additional +15 to Strength",
+          "zh-TW": "額外+15 力量",
+          "zh-CN": "额外+15 力量"
         },
         "min": 15,
         "max": 15,
@@ -11683,9 +11917,9 @@
         "piecesRequired": 3,
         "code": "dex",
         "label": {
-          "en": "+15 to Dexterity",
-          "zh-TW": "+15 敏捷",
-          "zh-CN": "+15 敏捷"
+          "en": "Additional +15 to Dexterity",
+          "zh-TW": "額外+15 敏捷",
+          "zh-CN": "额外+15 敏捷"
         },
         "min": 15,
         "max": 15,
@@ -11695,9 +11929,9 @@
         "piecesRequired": 4,
         "code": "dex",
         "label": {
-          "en": "+15 to Dexterity",
-          "zh-TW": "+15 敏捷",
-          "zh-CN": "+15 敏捷"
+          "en": "Additional +15 to Dexterity",
+          "zh-TW": "額外+15 敏捷",
+          "zh-CN": "额外+15 敏捷"
         },
         "min": 15,
         "max": 15,
@@ -11798,6 +12032,17 @@
         "min": 4,
         "max": 4,
         "variable": false
+      },
+      {
+        "code": "skilltab",
+        "label": {
+          "en": "+2 to Warcries (Barbarian Only)",
+          "zh-TW": "+2 戰吼技能（僅限野蠻人）",
+          "zh-CN": "+2 呐喊技能（仅限野蛮人）"
+        },
+        "min": 2,
+        "max": 2,
+        "variable": false
       }
     ],
     "statPriority": [
@@ -11820,9 +12065,9 @@
         "piecesRequired": 3,
         "code": "att",
         "label": {
-          "en": "+75 to Attack Rating",
-          "zh-TW": "+75 準確率",
-          "zh-CN": "+75 命中值"
+          "en": "Additional +75 to Attack Rating",
+          "zh-TW": "額外+75 準確率",
+          "zh-CN": "额外+75 命中值"
         },
         "min": 75,
         "max": 75,
@@ -11832,9 +12077,9 @@
         "piecesRequired": 4,
         "code": "att",
         "label": {
-          "en": "+125 to Attack Rating",
-          "zh-TW": "+125 準確率",
-          "zh-CN": "+125 命中值"
+          "en": "Additional +125 to Attack Rating",
+          "zh-TW": "額外+125 準確率",
+          "zh-CN": "额外+125 命中值"
         },
         "min": 125,
         "max": 125,
@@ -11844,9 +12089,9 @@
         "piecesRequired": 5,
         "code": "att",
         "label": {
-          "en": "+200 to Attack Rating",
-          "zh-TW": "+200 準確率",
-          "zh-CN": "+200 命中值"
+          "en": "Additional +200 to Attack Rating",
+          "zh-TW": "額外+200 準確率",
+          "zh-CN": "额外+200 命中值"
         },
         "min": 200,
         "max": 200,
@@ -11927,8 +12172,8 @@
     "grade": "elite",
     "slotCategory": "armors",
     "defense": {
-      "min": 887,
-      "max": 1000
+      "min": 1301,
+      "max": 1301
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -11983,6 +12228,17 @@
         "min": 50,
         "max": 50,
         "variable": false
+      },
+      {
+        "code": "skilltab",
+        "label": {
+          "en": "+2 to Combat Skills (Barbarian Only)",
+          "zh-TW": "+2 戰鬥技能（僅限野蠻人）",
+          "zh-CN": "+2 战斗技能（仅限野蛮人）"
+        },
+        "min": 2,
+        "max": 2,
+        "variable": false
       }
     ],
     "statPriority": [],
@@ -12003,9 +12259,9 @@
         "piecesRequired": 3,
         "code": "att",
         "label": {
-          "en": "+75 to Attack Rating",
-          "zh-TW": "+75 準確率",
-          "zh-CN": "+75 命中值"
+          "en": "Additional +75 to Attack Rating",
+          "zh-TW": "額外+75 準確率",
+          "zh-CN": "额外+75 命中值"
         },
         "min": 75,
         "max": 75,
@@ -12015,9 +12271,9 @@
         "piecesRequired": 4,
         "code": "att",
         "label": {
-          "en": "+125 to Attack Rating",
-          "zh-TW": "+125 準確率",
-          "zh-CN": "+125 命中值"
+          "en": "Additional +125 to Attack Rating",
+          "zh-TW": "額外+125 準確率",
+          "zh-CN": "额外+125 命中值"
         },
         "min": 125,
         "max": 125,
@@ -12027,9 +12283,9 @@
         "piecesRequired": 5,
         "code": "att",
         "label": {
-          "en": "+200 to Attack Rating",
-          "zh-TW": "+200 準確率",
-          "zh-CN": "+200 命中值"
+          "en": "Additional +200 to Attack Rating",
+          "zh-TW": "額外+200 準確率",
+          "zh-CN": "额外+200 命中值"
         },
         "min": 200,
         "max": 200,
@@ -12146,7 +12402,11 @@
     ],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "baseDefense": {
+      "min": 1001,
+      "max": 1001
+    }
   },
   {
     "id": "set-immortal_kings_detail",
@@ -12171,8 +12431,8 @@
     "grade": "exceptional",
     "slotCategory": "belts",
     "defense": {
-      "min": 77,
-      "max": 88
+      "min": 247,
+      "max": 247
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -12247,9 +12507,9 @@
         "piecesRequired": 3,
         "code": "att",
         "label": {
-          "en": "+75 to Attack Rating",
-          "zh-TW": "+75 準確率",
-          "zh-CN": "+75 命中值"
+          "en": "Additional +75 to Attack Rating",
+          "zh-TW": "額外+75 準確率",
+          "zh-CN": "额外+75 命中值"
         },
         "min": 75,
         "max": 75,
@@ -12259,9 +12519,9 @@
         "piecesRequired": 4,
         "code": "att",
         "label": {
-          "en": "+125 to Attack Rating",
-          "zh-TW": "+125 準確率",
-          "zh-CN": "+125 命中值"
+          "en": "Additional +125 to Attack Rating",
+          "zh-TW": "額外+125 準確率",
+          "zh-CN": "额外+125 命中值"
         },
         "min": 125,
         "max": 125,
@@ -12271,9 +12531,9 @@
         "piecesRequired": 5,
         "code": "att",
         "label": {
-          "en": "+200 to Attack Rating",
-          "zh-TW": "+200 準確率",
-          "zh-CN": "+200 命中值"
+          "en": "Additional +200 to Attack Rating",
+          "zh-TW": "額外+200 準確率",
+          "zh-CN": "额外+200 命中值"
         },
         "min": 200,
         "max": 200,
@@ -12367,9 +12627,9 @@
         "piecesRequired": 5,
         "code": "red-dmg%",
         "label": {
-          "en": "Damage Reduced by 20%",
-          "zh-TW": "受到的物理傷害降低 20%",
-          "zh-CN": "受到的物理伤害降低 20%"
+          "en": "Physical Damage Received Reduced by 20%",
+          "zh-TW": "受到的物理承受物理傷害降低 20%",
+          "zh-CN": "受到的物理承受物理伤害降低 20%"
         },
         "min": 20,
         "max": 20,
@@ -12379,9 +12639,9 @@
         "piecesRequired": 6,
         "code": "skilltab",
         "label": {
-          "en": "+2 to Lightning Skills",
-          "zh-TW": "+2 閃電技能",
-          "zh-CN": "+2 雷系法术"
+          "en": "+2 to Masteries (Barbarian Only)",
+          "zh-TW": "+2 精通技能（僅限野蠻人）",
+          "zh-CN": "+2 精通技能（仅限野蛮人）"
         },
         "min": 2,
         "max": 2,
@@ -12390,7 +12650,11 @@
     ],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "baseDefense": {
+      "min": 89,
+      "max": 89
+    }
   },
   {
     "id": "set-immortal_kings_forge",
@@ -12415,8 +12679,8 @@
     "grade": "exceptional",
     "slotCategory": "gloves",
     "defense": {
-      "min": 108,
-      "max": 118
+      "min": 228,
+      "max": 238
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -12491,9 +12755,9 @@
         "piecesRequired": 3,
         "code": "att",
         "label": {
-          "en": "+75 to Attack Rating",
-          "zh-TW": "+75 準確率",
-          "zh-CN": "+75 命中值"
+          "en": "Additional +75 to Attack Rating",
+          "zh-TW": "額外+75 準確率",
+          "zh-CN": "额外+75 命中值"
         },
         "min": 75,
         "max": 75,
@@ -12503,9 +12767,9 @@
         "piecesRequired": 4,
         "code": "att",
         "label": {
-          "en": "+125 to Attack Rating",
-          "zh-TW": "+125 準確率",
-          "zh-CN": "+125 命中值"
+          "en": "Additional +125 to Attack Rating",
+          "zh-TW": "額外+125 準確率",
+          "zh-CN": "额外+125 命中值"
         },
         "min": 125,
         "max": 125,
@@ -12515,9 +12779,9 @@
         "piecesRequired": 5,
         "code": "att",
         "label": {
-          "en": "+200 to Attack Rating",
-          "zh-TW": "+200 準確率",
-          "zh-CN": "+200 命中值"
+          "en": "Additional +200 to Attack Rating",
+          "zh-TW": "額外+200 準確率",
+          "zh-CN": "额外+200 命中值"
         },
         "min": 200,
         "max": 200,
@@ -12634,7 +12898,11 @@
     ],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "baseDefense": {
+      "min": 108,
+      "max": 118
+    }
   },
   {
     "id": "set-immortal_kings_pillar",
@@ -12659,8 +12927,8 @@
     "grade": "exceptional",
     "slotCategory": "boots",
     "defense": {
-      "min": 118,
-      "max": 128
+      "min": 278,
+      "max": 288
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -12735,9 +13003,9 @@
         "piecesRequired": 3,
         "code": "att",
         "label": {
-          "en": "+75 to Attack Rating",
-          "zh-TW": "+75 準確率",
-          "zh-CN": "+75 命中值"
+          "en": "Additional +75 to Attack Rating",
+          "zh-TW": "額外+75 準確率",
+          "zh-CN": "额外+75 命中值"
         },
         "min": 75,
         "max": 75,
@@ -12747,9 +13015,9 @@
         "piecesRequired": 4,
         "code": "att",
         "label": {
-          "en": "+125 to Attack Rating",
-          "zh-TW": "+125 準確率",
-          "zh-CN": "+125 命中值"
+          "en": "Additional +125 to Attack Rating",
+          "zh-TW": "額外+125 準確率",
+          "zh-CN": "额外+125 命中值"
         },
         "min": 125,
         "max": 125,
@@ -12759,9 +13027,9 @@
         "piecesRequired": 5,
         "code": "att",
         "label": {
-          "en": "+200 to Attack Rating",
-          "zh-TW": "+200 準確率",
-          "zh-CN": "+200 命中值"
+          "en": "Additional +200 to Attack Rating",
+          "zh-TW": "額外+200 準確率",
+          "zh-CN": "额外+200 命中值"
         },
         "min": 200,
         "max": 200,
@@ -12831,9 +13099,9 @@
         "piecesRequired": 3,
         "code": "skilltab",
         "label": {
-          "en": "+2 to Cold Skills",
-          "zh-TW": "+2 冰寒技能",
-          "zh-CN": "+2 冰系法术"
+          "en": "+2 to Combat Skills (Barbarian Only)",
+          "zh-TW": "+2 戰鬥技能（僅限野蠻人）",
+          "zh-CN": "+2 战斗技能（仅限野蛮人）"
         },
         "min": 2,
         "max": 2,
@@ -12866,7 +13134,11 @@
     ],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "baseDefense": {
+      "min": 118,
+      "max": 128
+    }
   },
   {
     "id": "set-immortal_kings_stone_crusher",
@@ -12893,8 +13165,14 @@
     "defense": null,
     "oneHandDamage": null,
     "twoHandDamage": {
-      "min": 231,
-      "max": 318
+      "min": {
+        "low": 231,
+        "high": 231
+      },
+      "max": {
+        "low": 318,
+        "high": 318
+      }
     },
     "requiredStrength": 225,
     "requiredDexterity": null,
@@ -12991,9 +13269,9 @@
         "piecesRequired": 3,
         "code": "att",
         "label": {
-          "en": "+75 to Attack Rating",
-          "zh-TW": "+75 準確率",
-          "zh-CN": "+75 命中值"
+          "en": "Additional +75 to Attack Rating",
+          "zh-TW": "額外+75 準確率",
+          "zh-CN": "额外+75 命中值"
         },
         "min": 75,
         "max": 75,
@@ -13003,9 +13281,9 @@
         "piecesRequired": 4,
         "code": "att",
         "label": {
-          "en": "+125 to Attack Rating",
-          "zh-TW": "+125 準確率",
-          "zh-CN": "+125 命中值"
+          "en": "Additional +125 to Attack Rating",
+          "zh-TW": "額外+125 準確率",
+          "zh-CN": "额外+125 命中值"
         },
         "min": 125,
         "max": 125,
@@ -13015,9 +13293,9 @@
         "piecesRequired": 5,
         "code": "att",
         "label": {
-          "en": "+200 to Attack Rating",
-          "zh-TW": "+200 準確率",
-          "zh-CN": "+200 命中值"
+          "en": "Additional +200 to Attack Rating",
+          "zh-TW": "額外+200 準確率",
+          "zh-CN": "额外+200 命中值"
         },
         "min": 200,
         "max": 200,
@@ -13111,12 +13389,12 @@
         "piecesRequired": 5,
         "code": "dmg-pois",
         "label": {
-          "en": "Adds 349-349 Poison Damage Over 6 Seconds",
-          "zh-TW": "+349 毒素傷害，時效 6 秒",
-          "zh-CN": "+349 毒素伤害，持续6秒"
+          "en": "Adds 204-204 Poison Damage Over 6 Seconds",
+          "zh-TW": "毒素傷害：204 點，持續 6 秒",
+          "zh-CN": "毒素伤害: 204, 持续6秒"
         },
-        "min": 349,
-        "max": 349,
+        "min": 204,
+        "max": 204,
         "variable": false
       },
       {
@@ -13159,12 +13437,12 @@
     "grade": "exceptional",
     "slotCategory": "belts",
     "defense": {
-      "min": 35,
-      "max": 40
+      "min": 95,
+      "max": 100
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
-    "requiredStrength": 58,
+    "requiredStrength": 47,
     "requiredDexterity": null,
     "weaponSpeed": null,
     "durability": 16,
@@ -13354,7 +13632,11 @@
     ],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "baseDefense": {
+      "min": 35,
+      "max": 40
+    }
   },
   {
     "id": "set-tal_rashas_adjudication",
@@ -13583,8 +13865,14 @@
     "slotCategory": "orbs",
     "defense": null,
     "oneHandDamage": {
-      "min": 18,
-      "max": 42
+      "min": {
+        "low": 18,
+        "high": 18
+      },
+      "max": {
+        "low": 42,
+        "high": 42
+      }
     },
     "twoHandDamage": null,
     "requiredStrength": null,
@@ -13855,7 +14143,7 @@
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
-    "requiredStrength": 208,
+    "requiredStrength": 84,
     "requiredDexterity": null,
     "weaponSpeed": null,
     "durability": 55,
@@ -14282,12 +14570,12 @@
     "grade": "elite",
     "slotCategory": "helms",
     "defense": {
-      "min": 166,
-      "max": 289
+      "min": 249,
+      "max": 290
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
-    "requiredStrength": 174,
+    "requiredStrength": 105,
     "requiredDexterity": null,
     "weaponSpeed": null,
     "durability": 50,
@@ -14443,9 +14731,9 @@
         "piecesRequired": 2,
         "code": "skilltab",
         "label": {
-          "en": "+2 to Combat Skills",
-          "zh-TW": "+2 戰鬥技能",
-          "zh-CN": "+2 战斗技能"
+          "en": "+2 to Offensive Auras (Paladin Only)",
+          "zh-TW": "+2 攻擊靈氣（僅限聖騎士）",
+          "zh-CN": "+2 攻击光环（仅限圣骑士）"
         },
         "min": 2,
         "max": 2,
@@ -14484,7 +14772,7 @@
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
-    "requiredStrength": 170,
+    "requiredStrength": 102,
     "requiredDexterity": null,
     "weaponSpeed": null,
     "durability": 60,
@@ -14492,17 +14780,6 @@
     "invFile": "invaar",
     "hdIcon": "corpsemourn",
     "properties": [
-      {
-        "code": "skilltab",
-        "label": {
-          "en": "+2 to Masteries",
-          "zh-TW": "+2 戰鬥專精",
-          "zh-CN": "+2 精通类技能"
-        },
-        "min": 2,
-        "max": 2,
-        "variable": false
-      },
       {
         "code": "ac",
         "label": {
@@ -14534,6 +14811,17 @@
         },
         "min": -40,
         "max": -40,
+        "variable": false
+      },
+      {
+        "code": "skilltab",
+        "label": {
+          "en": "+2 to Defensive Auras (Paladin Only)",
+          "zh-TW": "+2 防禦靈氣（僅限聖騎士）",
+          "zh-CN": "+2 防御光环（仅限圣骑士）"
+        },
+        "min": 2,
+        "max": 2,
         "variable": false
       }
     ],
@@ -14640,7 +14928,7 @@
       "zh-TW": "格里斯瓦德的傳奇",
       "zh-CN": "格里斯沃尔德的遗产"
     },
-    "levelReq": 53,
+    "levelReq": 66,
     "baseName": {
       "en": "Caduceus",
       "zh-TW": "神使權杖",
@@ -14650,11 +14938,17 @@
     "slotCategory": "scepters",
     "defense": null,
     "oneHandDamage": {
-      "min": 111,
-      "max": 146
+      "min": {
+        "low": 131,
+        "high": 145
+      },
+      "max": {
+        "low": 169,
+        "high": 186
+      }
     },
     "twoHandDamage": null,
-    "requiredStrength": 97,
+    "requiredStrength": 78,
     "requiredDexterity": 70,
     "weaponSpeed": -10,
     "durability": 70,
@@ -14798,9 +15092,9 @@
         "piecesRequired": 2,
         "code": "skilltab",
         "label": {
-          "en": "+2 to Warcries",
-          "zh-TW": "+2 戰吼",
-          "zh-CN": "+2 呐喊技能"
+          "en": "+2 to Combat Skills (Paladin Only)",
+          "zh-TW": "+2 戰鬥技能（僅限聖騎士）",
+          "zh-CN": "+2 战斗技能（仅限圣骑士）"
         },
         "min": 2,
         "max": 2,
@@ -14822,9 +15116,9 @@
         "piecesRequired": 4,
         "code": "dmg-norm",
         "label": {
-          "en": "Adds 10-20 Damage",
-          "zh-TW": "傷害：10 - 20 點",
-          "zh-CN": "伤害: 10-20"
+          "en": "Additional Adds 10-20 Damage",
+          "zh-TW": "額外傷害：10 - 20 點",
+          "zh-CN": "额外伤害: 10-20"
         },
         "min": 10,
         "max": 20,
@@ -14833,7 +15127,17 @@
     ],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "baseOneHandDamage": {
+      "min": {
+        "low": 111,
+        "high": 125
+      },
+      "max": {
+        "low": 129,
+        "high": 146
+      }
+    }
   },
   {
     "id": "set-griswolds_honor",
@@ -15029,7 +15333,7 @@
     "slotCategory": "helms",
     "defense": {
       "min": 180,
-      "max": 237
+      "max": 257
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -15129,9 +15433,9 @@
         "piecesRequired": 3,
         "code": "oskill",
         "label": {
-          "en": "+13 to Fire Wall",
-          "zh-TW": "+13 至火牆術",
-          "zh-CN": "+13 至火焰墙"
+          "en": "Additional +13 to Fire Wall",
+          "zh-TW": "額外+13 至火牆術",
+          "zh-CN": "额外+13 至火焰墙"
         },
         "min": 13,
         "max": 13,
@@ -15141,9 +15445,9 @@
         "piecesRequired": 3,
         "code": "regen-mana",
         "label": {
-          "en": "Regenerate Mana 15%",
-          "zh-TW": "法力恢復 15%",
-          "zh-CN": "15% 法力回复"
+          "en": "Additional Regenerate Mana 15%",
+          "zh-TW": "額外法力恢復 15%",
+          "zh-CN": "额外15% 法力回复"
         },
         "min": 15,
         "max": 15,
@@ -15153,9 +15457,9 @@
         "piecesRequired": 4,
         "code": "oskill",
         "label": {
-          "en": "+10 to Meteor",
-          "zh-TW": "+10 至隕石術",
-          "zh-CN": "+10 至陨石术"
+          "en": "Additional +10 to Meteor",
+          "zh-TW": "額外+10 至隕石術",
+          "zh-CN": "额外+10 至陨石术"
         },
         "min": 10,
         "max": 10,
@@ -15165,9 +15469,9 @@
         "piecesRequired": 4,
         "code": "regen-mana",
         "label": {
-          "en": "Regenerate Mana 15%",
-          "zh-TW": "法力恢復 15%",
-          "zh-CN": "15% 法力回复"
+          "en": "Additional Regenerate Mana 15%",
+          "zh-TW": "額外法力恢復 15%",
+          "zh-CN": "额外15% 法力回复"
         },
         "min": 15,
         "max": 15,
@@ -15281,12 +15585,12 @@
     "grade": "exceptional",
     "slotCategory": "armors",
     "defense": {
-      "min": 788,
-      "max": 855
+      "min": 857,
+      "max": 857
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
-    "requiredStrength": 140,
+    "requiredStrength": 84,
     "requiredDexterity": null,
     "weaponSpeed": null,
     "durability": 70,
@@ -15391,9 +15695,9 @@
         "piecesRequired": 3,
         "code": "oskill",
         "label": {
-          "en": "+13 to Fire Wall",
-          "zh-TW": "+13 至火牆術",
-          "zh-CN": "+13 至火焰墙"
+          "en": "Additional +13 to Fire Wall",
+          "zh-TW": "額外+13 至火牆術",
+          "zh-CN": "额外+13 至火焰墙"
         },
         "min": 13,
         "max": 13,
@@ -15403,9 +15707,9 @@
         "piecesRequired": 3,
         "code": "regen-mana",
         "label": {
-          "en": "Regenerate Mana 15%",
-          "zh-TW": "法力恢復 15%",
-          "zh-CN": "15% 法力回复"
+          "en": "Additional Regenerate Mana 15%",
+          "zh-TW": "額外法力恢復 15%",
+          "zh-CN": "额外15% 法力回复"
         },
         "min": 15,
         "max": 15,
@@ -15415,9 +15719,9 @@
         "piecesRequired": 4,
         "code": "oskill",
         "label": {
-          "en": "+10 to Meteor",
-          "zh-TW": "+10 至隕石術",
-          "zh-CN": "+10 至陨石术"
+          "en": "Additional +10 to Meteor",
+          "zh-TW": "額外+10 至隕石術",
+          "zh-CN": "额外+10 至陨石术"
         },
         "min": 10,
         "max": 10,
@@ -15427,9 +15731,9 @@
         "piecesRequired": 4,
         "code": "regen-mana",
         "label": {
-          "en": "Regenerate Mana 15%",
-          "zh-TW": "法力恢復 15%",
-          "zh-CN": "15% 法力回复"
+          "en": "Additional Regenerate Mana 15%",
+          "zh-TW": "額外法力恢復 15%",
+          "zh-CN": "额外15% 法力回复"
         },
         "min": 15,
         "max": 15,
@@ -15532,9 +15836,9 @@
         "piecesRequired": 5,
         "code": "red-dmg%",
         "label": {
-          "en": "Damage Reduced by 25%",
-          "zh-TW": "受到的物理傷害降低 25%",
-          "zh-CN": "受到的物理伤害降低 25%"
+          "en": "Physical Damage Received Reduced by 25%",
+          "zh-TW": "受到的物理承受物理傷害降低 25%",
+          "zh-CN": "受到的物理承受物理伤害降低 25%"
         },
         "min": 25,
         "max": 25,
@@ -15691,9 +15995,9 @@
         "piecesRequired": 3,
         "code": "oskill",
         "label": {
-          "en": "+13 to Fire Wall",
-          "zh-TW": "+13 至火牆術",
-          "zh-CN": "+13 至火焰墙"
+          "en": "Additional +13 to Fire Wall",
+          "zh-TW": "額外+13 至火牆術",
+          "zh-CN": "额外+13 至火焰墙"
         },
         "min": 13,
         "max": 13,
@@ -15703,9 +16007,9 @@
         "piecesRequired": 3,
         "code": "regen-mana",
         "label": {
-          "en": "Regenerate Mana 15%",
-          "zh-TW": "法力恢復 15%",
-          "zh-CN": "15% 法力回复"
+          "en": "Additional Regenerate Mana 15%",
+          "zh-TW": "額外法力恢復 15%",
+          "zh-CN": "额外15% 法力回复"
         },
         "min": 15,
         "max": 15,
@@ -15715,9 +16019,9 @@
         "piecesRequired": 4,
         "code": "oskill",
         "label": {
-          "en": "+10 to Meteor",
-          "zh-TW": "+10 至隕石術",
-          "zh-CN": "+10 至陨石术"
+          "en": "Additional +10 to Meteor",
+          "zh-TW": "額外+10 至隕石術",
+          "zh-CN": "额外+10 至陨石术"
         },
         "min": 10,
         "max": 10,
@@ -15727,9 +16031,9 @@
         "piecesRequired": 4,
         "code": "regen-mana",
         "label": {
-          "en": "Regenerate Mana 15%",
-          "zh-TW": "法力恢復 15%",
-          "zh-CN": "15% 法力回复"
+          "en": "Additional Regenerate Mana 15%",
+          "zh-TW": "額外法力恢復 15%",
+          "zh-CN": "额外15% 法力回复"
         },
         "min": 15,
         "max": 15,
@@ -15956,9 +16260,9 @@
         "piecesRequired": 3,
         "code": "oskill",
         "label": {
-          "en": "+13 to Fire Wall",
-          "zh-TW": "+13 至火牆術",
-          "zh-CN": "+13 至火焰墙"
+          "en": "Additional +13 to Fire Wall",
+          "zh-TW": "額外+13 至火牆術",
+          "zh-CN": "额外+13 至火焰墙"
         },
         "min": 13,
         "max": 13,
@@ -15968,9 +16272,9 @@
         "piecesRequired": 3,
         "code": "regen-mana",
         "label": {
-          "en": "Regenerate Mana 15%",
-          "zh-TW": "法力恢復 15%",
-          "zh-CN": "15% 法力回复"
+          "en": "Additional Regenerate Mana 15%",
+          "zh-TW": "額外法力恢復 15%",
+          "zh-CN": "额外15% 法力回复"
         },
         "min": 15,
         "max": 15,
@@ -15980,9 +16284,9 @@
         "piecesRequired": 4,
         "code": "oskill",
         "label": {
-          "en": "+10 to Meteor",
-          "zh-TW": "+10 至隕石術",
-          "zh-CN": "+10 至陨石术"
+          "en": "Additional +10 to Meteor",
+          "zh-TW": "額外+10 至隕石術",
+          "zh-CN": "额外+10 至陨石术"
         },
         "min": 10,
         "max": 10,
@@ -15992,9 +16296,9 @@
         "piecesRequired": 4,
         "code": "regen-mana",
         "label": {
-          "en": "Regenerate Mana 15%",
-          "zh-TW": "法力恢復 15%",
-          "zh-CN": "15% 法力回复"
+          "en": "Additional Regenerate Mana 15%",
+          "zh-TW": "額外法力恢復 15%",
+          "zh-CN": "额外15% 法力回复"
         },
         "min": 15,
         "max": 15,
@@ -16112,7 +16416,7 @@
       "zh-TW": "塔格奧的化身",
       "zh-CN": "塔格奥的化身"
     },
-    "levelReq": 47,
+    "levelReq": 62,
     "baseName": {
       "en": "Troll Belt",
       "zh-TW": "食人妖腰帶",
@@ -16122,11 +16426,11 @@
     "slotCategory": "belts",
     "defense": {
       "min": 134,
-      "max": 141
+      "max": 166
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
-    "requiredStrength": 151,
+    "requiredStrength": 91,
     "requiredDexterity": null,
     "weaponSpeed": null,
     "durability": 18,
@@ -16245,9 +16549,9 @@
         "piecesRequired": 3,
         "code": "oskill",
         "label": {
-          "en": "+13 to Fire Wall",
-          "zh-TW": "+13 至火牆術",
-          "zh-CN": "+13 至火焰墙"
+          "en": "Additional +13 to Fire Wall",
+          "zh-TW": "額外+13 至火牆術",
+          "zh-CN": "额外+13 至火焰墙"
         },
         "min": 13,
         "max": 13,
@@ -16257,9 +16561,9 @@
         "piecesRequired": 3,
         "code": "regen-mana",
         "label": {
-          "en": "Regenerate Mana 15%",
-          "zh-TW": "法力恢復 15%",
-          "zh-CN": "15% 法力回复"
+          "en": "Additional Regenerate Mana 15%",
+          "zh-TW": "額外法力恢復 15%",
+          "zh-CN": "额外15% 法力回复"
         },
         "min": 15,
         "max": 15,
@@ -16269,9 +16573,9 @@
         "piecesRequired": 4,
         "code": "oskill",
         "label": {
-          "en": "+10 to Meteor",
-          "zh-TW": "+10 至隕石術",
-          "zh-CN": "+10 至陨石术"
+          "en": "Additional +10 to Meteor",
+          "zh-TW": "額外+10 至隕石術",
+          "zh-CN": "额外+10 至陨石术"
         },
         "min": 10,
         "max": 10,
@@ -16281,9 +16585,9 @@
         "piecesRequired": 4,
         "code": "regen-mana",
         "label": {
-          "en": "Regenerate Mana 15%",
-          "zh-TW": "法力恢復 15%",
-          "zh-CN": "15% 法力回复"
+          "en": "Additional Regenerate Mana 15%",
+          "zh-TW": "額外法力恢復 15%",
+          "zh-CN": "额外15% 法力回复"
         },
         "min": 15,
         "max": 15,
@@ -16401,7 +16705,7 @@
       "zh-TW": "馬維娜之戰鬥詩歌",
       "zh-CN": "艾维娜的战斗诗歌"
     },
-    "levelReq": 59,
+    "levelReq": 64,
     "baseName": {
       "en": "Diadem",
       "zh-TW": "權冠",
@@ -16617,12 +16921,12 @@
     "grade": "elite",
     "slotCategory": "armors",
     "defense": {
-      "min": 767,
-      "max": 873
+      "min": 771,
+      "max": 1269
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
-    "requiredStrength": 174,
+    "requiredStrength": 122,
     "requiredDexterity": null,
     "weaponSpeed": null,
     "durability": 48,
@@ -16825,7 +17129,7 @@
     "slotCategory": "gloves",
     "defense": {
       "min": 84,
-      "max": 92
+      "max": 97
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -17228,8 +17532,14 @@
     "defense": null,
     "oneHandDamage": null,
     "twoHandDamage": {
-      "min": 40,
-      "max": 207
+      "min": {
+        "low": 40,
+        "high": 40
+      },
+      "max": {
+        "low": 207,
+        "high": 207
+      }
     },
     "requiredStrength": 108,
     "requiredDexterity": 152,
@@ -17397,9 +17707,9 @@
         "piecesRequired": 4,
         "code": "skilltab",
         "label": {
-          "en": "+2 to Javelin and Spear Skills",
-          "zh-TW": "+2 標槍與長矛技能",
-          "zh-CN": "+2 标枪和长矛技能"
+          "en": "+2 to Bow and Crossbow Skills (Amazon Only)",
+          "zh-TW": "+2 弓與弩技能（僅限亞馬遜）",
+          "zh-CN": "+2 弓和弩技能（仅限亚马逊）"
         },
         "min": 2,
         "max": 2,
@@ -17953,7 +18263,7 @@
       "zh-TW": "門徒",
       "zh-CN": "门徒"
     },
-    "levelReq": 43,
+    "levelReq": 49,
     "baseName": {
       "en": "Dusk Shroud",
       "zh-TW": "灰暮罩衣",
@@ -17963,7 +18273,7 @@
     "slotCategory": "armors",
     "defense": {
       "min": 666,
-      "max": 772
+      "max": 882
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -18364,6 +18674,17 @@
         "min": 20,
         "max": 30,
         "variable": false
+      },
+      {
+        "code": "dmg-undead",
+        "label": {
+          "en": "+50% Damage to Undead",
+          "zh-TW": "+50% 對不死族傷害",
+          "zh-CN": "+50% 对不死生物伤害"
+        },
+        "min": 50,
+        "max": 50,
+        "variable": false
       }
     ],
     "statPriority": [],
@@ -18431,9 +18752,9 @@
       {
         "code": "red-dmg%",
         "label": {
-          "en": "Damage Reduced by 24%",
-          "zh-TW": "受到的物理傷害降低 24%",
-          "zh-CN": "受到的物理伤害降低 24%"
+          "en": "Physical Damage Received Reduced by 24%",
+          "zh-TW": "受到的物理承受物理傷害降低 24%",
+          "zh-CN": "受到的物理承受物理伤害降低 24%"
         },
         "min": 24,
         "max": 24,
@@ -18646,9 +18967,9 @@
       {
         "code": "red-dmg%",
         "label": {
-          "en": "Damage Reduced by 24%",
-          "zh-TW": "受到的物理傷害降低 24%",
-          "zh-CN": "受到的物理伤害降低 24%"
+          "en": "Physical Damage Received Reduced by 24%",
+          "zh-TW": "受到的物理承受物理傷害降低 24%",
+          "zh-CN": "受到的物理承受物理伤害降低 24%"
         },
         "min": 24,
         "max": 24,
@@ -18710,7 +19031,7 @@
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
-    "requiredStrength": 65,
+    "requiredStrength": 52,
     "requiredDexterity": null,
     "weaponSpeed": null,
     "durability": 50,
@@ -18839,9 +19160,9 @@
       {
         "code": "red-dmg%",
         "label": {
-          "en": "Damage Reduced by 24%",
-          "zh-TW": "受到的物理傷害降低 24%",
-          "zh-CN": "受到的物理伤害降低 24%"
+          "en": "Physical Damage Received Reduced by 24%",
+          "zh-TW": "受到的物理承受物理傷害降低 24%",
+          "zh-CN": "受到的物理承受物理伤害降低 24%"
         },
         "min": 24,
         "max": 24,
@@ -18903,7 +19224,7 @@
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
-    "requiredStrength": 192,
+    "requiredStrength": 116,
     "requiredDexterity": null,
     "weaponSpeed": null,
     "durability": 40,
@@ -19043,9 +19364,9 @@
       {
         "code": "red-dmg%",
         "label": {
-          "en": "Damage Reduced by 24%",
-          "zh-TW": "受到的物理傷害降低 24%",
-          "zh-CN": "受到的物理伤害降低 24%"
+          "en": "Physical Damage Received Reduced by 24%",
+          "zh-TW": "受到的物理承受物理傷害降低 24%",
+          "zh-CN": "受到的物理承受物理伤害降低 24%"
         },
         "min": 24,
         "max": 24,
@@ -19102,8 +19423,8 @@
     "grade": "exceptional",
     "slotCategory": "helms",
     "defense": {
-      "min": 187,
-      "max": 216
+      "min": 217,
+      "max": 217
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -19306,8 +19627,8 @@
     "grade": "exceptional",
     "slotCategory": "belts",
     "defense": {
-      "min": 65,
-      "max": 74
+      "min": 75,
+      "max": 75
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -19499,8 +19820,8 @@
     "grade": "exceptional",
     "slotCategory": "gloves",
     "defense": {
-      "min": 50,
-      "max": 58
+      "min": 60,
+      "max": 60
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -19703,8 +20024,8 @@
     "grade": "exceptional",
     "slotCategory": "shields",
     "defense": {
-      "min": 129,
-      "max": 151
+      "min": 154,
+      "max": 154
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -19907,8 +20228,8 @@
     "grade": "exceptional",
     "slotCategory": "helms",
     "defense": {
-      "min": 156,
-      "max": 226
+      "min": 228,
+      "max": 228
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -19983,9 +20304,9 @@
         "piecesRequired": 3,
         "code": "ac",
         "label": {
-          "en": "+200 Defense",
-          "zh-TW": "+200 防禦",
-          "zh-CN": "+200 防御"
+          "en": "Additional +200 Defense",
+          "zh-TW": "額外+200 防禦",
+          "zh-CN": "额外+200 防御"
         },
         "min": 200,
         "max": 200,
@@ -20142,9 +20463,9 @@
         "piecesRequired": 3,
         "code": "ac",
         "label": {
-          "en": "+200 Defense",
-          "zh-TW": "+200 防禦",
-          "zh-CN": "+200 防御"
+          "en": "Additional +200 Defense",
+          "zh-TW": "額外+200 防禦",
+          "zh-CN": "额外+200 防御"
         },
         "min": 200,
         "max": 200,
@@ -20225,8 +20546,8 @@
     "grade": "normal",
     "slotCategory": "belts",
     "defense": {
-      "min": 5,
-      "max": 5
+      "min": 6,
+      "max": 153
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -20301,9 +20622,9 @@
         "piecesRequired": 3,
         "code": "ac",
         "label": {
-          "en": "+200 Defense",
-          "zh-TW": "+200 防禦",
-          "zh-CN": "+200 防御"
+          "en": "Additional +200 Defense",
+          "zh-TW": "額外+200 防禦",
+          "zh-CN": "额外+200 防御"
         },
         "min": 200,
         "max": 200,
@@ -20386,8 +20707,14 @@
     "defense": null,
     "oneHandDamage": null,
     "twoHandDamage": {
-      "min": 42,
-      "max": 159
+      "min": {
+        "low": 42,
+        "high": 42
+      },
+      "max": {
+        "low": 159,
+        "high": 159
+      }
     },
     "requiredStrength": 95,
     "requiredDexterity": null,
@@ -20482,9 +20809,9 @@
         "piecesRequired": 3,
         "code": "ac",
         "label": {
-          "en": "+200 Defense",
-          "zh-TW": "+200 防禦",
-          "zh-CN": "+200 防御"
+          "en": "Additional +200 Defense",
+          "zh-TW": "額外+200 防禦",
+          "zh-CN": "额外+200 防御"
         },
         "min": 200,
         "max": 200,
@@ -20566,8 +20893,14 @@
     "slotCategory": "swords",
     "defense": null,
     "oneHandDamage": {
-      "min": 12,
-      "max": 192
+      "min": {
+        "low": 12,
+        "high": 12
+      },
+      "max": {
+        "low": 192,
+        "high": 192
+      }
     },
     "twoHandDamage": null,
     "requiredStrength": 99,
@@ -20731,9 +21064,9 @@
       {
         "code": "red-dmg%",
         "label": {
-          "en": "Damage Reduced by 16%",
-          "zh-TW": "受到的物理傷害降低 16%",
-          "zh-CN": "受到的物理伤害降低 16%"
+          "en": "Physical Damage Received Reduced by 16%",
+          "zh-TW": "受到的物理承受物理傷害降低 16%",
+          "zh-CN": "受到的物理承受物理伤害降低 16%"
         },
         "min": 16,
         "max": 16,
@@ -20914,9 +21247,9 @@
       {
         "code": "red-dmg%",
         "label": {
-          "en": "Damage Reduced by 16%",
-          "zh-TW": "受到的物理傷害降低 16%",
-          "zh-CN": "受到的物理伤害降低 16%"
+          "en": "Physical Damage Received Reduced by 16%",
+          "zh-TW": "受到的物理承受物理傷害降低 16%",
+          "zh-CN": "受到的物理承受物理伤害降低 16%"
         },
         "min": 16,
         "max": 16,
@@ -21087,9 +21420,9 @@
       {
         "code": "red-dmg%",
         "label": {
-          "en": "Damage Reduced by 16%",
-          "zh-TW": "受到的物理傷害降低 16%",
-          "zh-CN": "受到的物理伤害降低 16%"
+          "en": "Physical Damage Received Reduced by 16%",
+          "zh-TW": "受到的物理承受物理傷害降低 16%",
+          "zh-CN": "受到的物理承受物理伤害降低 16%"
         },
         "min": 16,
         "max": 16,
@@ -21115,7 +21448,7 @@
       "zh-TW": "布爾凱索的子嗣",
       "zh-CN": "布尔凯索的子嗣"
     },
-    "levelReq": 61,
+    "levelReq": 63,
     "baseName": {
       "en": "Colossus Blade",
       "zh-TW": "巨神刃",
@@ -21125,12 +21458,24 @@
     "slotCategory": "swords",
     "defense": null,
     "oneHandDamage": {
-      "min": 75,
-      "max": 195
+      "min": {
+        "low": 75,
+        "high": 75
+      },
+      "max": {
+        "low": 195,
+        "high": 195
+      }
     },
     "twoHandDamage": {
-      "min": 174,
-      "max": 345
+      "min": {
+        "low": 174,
+        "high": 174
+      },
+      "max": {
+        "low": 345,
+        "high": 345
+      }
     },
     "requiredStrength": 189,
     "requiredDexterity": 110,
@@ -21183,6 +21528,17 @@
         "min": 200,
         "max": 200,
         "variable": false
+      },
+      {
+        "code": "knockback",
+        "label": {
+          "en": "Knockback",
+          "zh-TW": "擊退",
+          "zh-CN": "击退"
+        },
+        "min": 1,
+        "max": 1,
+        "variable": false
       }
     ],
     "statPriority": [],
@@ -21191,7 +21547,7 @@
       {
         "code": "allskills",
         "label": {
-          "en": "+2 to All Skills",
+          "en": "+2 to All Skill Levels",
           "zh-TW": "+2 所有技能",
           "zh-CN": "+2 所有技能"
         },
@@ -21235,9 +21591,9 @@
       {
         "code": "dmg-fire",
         "label": {
-          "en": "Adds 200-200 Fire Damage",
-          "zh-TW": "火焰傷害：200 - 200 點",
-          "zh-CN": "火焰伤害: 200-200"
+          "en": "+200 fire damage",
+          "zh-TW": "+200 火焰傷害",
+          "zh-CN": "+200 火焰伤害"
         },
         "min": 200,
         "max": 200,
@@ -21296,7 +21652,7 @@
       "zh-TW": "布爾凱索的子嗣",
       "zh-CN": "布尔凯索的子嗣"
     },
-    "levelReq": 54,
+    "levelReq": 66,
     "baseName": {
       "en": "Mythical Sword",
       "zh-TW": "秘儀劍",
@@ -21306,8 +21662,14 @@
     "slotCategory": "swords",
     "defense": null,
     "oneHandDamage": {
-      "min": 120,
-      "max": 150
+      "min": {
+        "low": 120,
+        "high": 120
+      },
+      "max": {
+        "low": 150,
+        "high": 150
+      }
     },
     "twoHandDamage": null,
     "requiredStrength": 147,
@@ -21332,12 +21694,12 @@
       {
         "code": "dmg-pois",
         "label": {
-          "en": "Adds 255-255 Poison Damage Over 2 Seconds",
-          "zh-TW": "+255 毒素傷害，時效 2 秒",
-          "zh-CN": "+255 毒素伤害，持续2秒"
+          "en": "Adds 50-50 Poison Damage Over 2 Seconds",
+          "zh-TW": "毒素傷害：50 點，持續 2 秒",
+          "zh-CN": "毒素伤害: 50, 持续2秒"
         },
-        "min": 255,
-        "max": 255,
+        "min": 50,
+        "max": 50,
         "variable": false
       },
       {
@@ -21697,8 +22059,8 @@
     "grade": "normal",
     "slotCategory": "armors",
     "defense": {
-      "min": 51,
-      "max": 56
+      "min": 57,
+      "max": 57
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -21901,7 +22263,7 @@
     "slotCategory": "boots",
     "defense": {
       "min": 30,
-      "max": 31
+      "max": 41
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -22118,8 +22480,14 @@
     "defense": null,
     "oneHandDamage": null,
     "twoHandDamage": {
-      "min": 200,
-      "max": 232
+      "min": {
+        "low": 200,
+        "high": 200
+      },
+      "max": {
+        "low": 232,
+        "high": 232
+      }
     },
     "requiredStrength": 44,
     "requiredDexterity": 37,
@@ -22187,12 +22555,12 @@
       {
         "code": "charged",
         "label": {
-          "en": "Level 69 Teleport (11/54 Charges)",
-          "zh-TW": "等級 69 傳送術（11/54 次）",
-          "zh-CN": "69级传送术 (11/54 次充能)"
+          "en": "Level 11 Teleport (69 Charges)",
+          "zh-TW": "等級 11 傳送術（69 次）",
+          "zh-CN": "11级传送术 (69 次充能)"
         },
-        "min": 69,
-        "max": 11,
+        "min": 11,
+        "max": 69,
         "variable": false
       },
       {
@@ -22204,6 +22572,17 @@
         },
         "min": 150,
         "max": 150,
+        "variable": false
+      },
+      {
+        "code": "dmg-undead",
+        "label": {
+          "en": "+50% Damage to Undead",
+          "zh-TW": "+50% 對不死族傷害",
+          "zh-CN": "+50% 对不死生物伤害"
+        },
+        "min": 50,
+        "max": 50,
         "variable": false
       }
     ],
@@ -22357,7 +22736,7 @@
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
-    "requiredStrength": 196,
+    "requiredStrength": 79,
     "requiredDexterity": null,
     "weaponSpeed": null,
     "durability": 60,
@@ -22791,8 +23170,8 @@
     "grade": "normal",
     "slotCategory": "helms",
     "defense": {
-      "min": 3,
-      "max": 5
+      "min": 4,
+      "max": 104
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -23099,7 +23478,7 @@
     "slotCategory": "gloves",
     "defense": {
       "min": 25,
-      "max": 26
+      "max": 31
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -23260,8 +23639,14 @@
     "slotCategory": "wands",
     "defense": null,
     "oneHandDamage": {
-      "min": 5,
-      "max": 12
+      "min": {
+        "low": 5,
+        "high": 5
+      },
+      "max": {
+        "low": 12,
+        "high": 12
+      }
     },
     "twoHandDamage": null,
     "requiredStrength": null,
@@ -23325,6 +23710,17 @@
         },
         "min": 75,
         "max": 75,
+        "variable": false
+      },
+      {
+        "code": "dmg-undead",
+        "label": {
+          "en": "+50% Damage to Undead",
+          "zh-TW": "+50% 對不死族傷害",
+          "zh-CN": "+50% 对不死生物伤害"
+        },
+        "min": 50,
+        "max": 50,
         "variable": false
       }
     ],
@@ -23422,7 +23818,7 @@
     },
     "levelReq": 8,
     "baseName": {
-      "en": "Kriss",
+      "en": "Kris",
       "zh-TW": "波刃匕首",
       "zh-CN": "波刃剑"
     },
@@ -23430,8 +23826,14 @@
     "slotCategory": "daggers",
     "defense": null,
     "oneHandDamage": {
-      "min": 2,
-      "max": 11
+      "min": {
+        "low": 2,
+        "high": 2
+      },
+      "max": {
+        "low": 11,
+        "high": 11
+      }
     },
     "twoHandDamage": null,
     "requiredStrength": null,
@@ -24077,8 +24479,8 @@
     "grade": "exceptional",
     "slotCategory": "armors",
     "defense": {
-      "min": 394,
-      "max": 486
+      "min": 427,
+      "max": 488
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
@@ -24155,6 +24557,17 @@
         "min": 15,
         "max": 25,
         "variable": true
+      },
+      {
+        "code": "skilltab",
+        "label": {
+          "en": "+2 to Demon Skills (Warlock Only)",
+          "zh-TW": "+2 惡魔技能（僅限術士）",
+          "zh-CN": "+2 恶魔技能（仅限术士）"
+        },
+        "min": 2,
+        "max": 2,
+        "variable": false
       }
     ],
     "statPriority": [
@@ -24288,9 +24701,9 @@
         "piecesRequired": 6,
         "code": "red-dmg%",
         "label": {
-          "en": "Damage Reduced by 15%",
-          "zh-TW": "受到的物理傷害降低 15%",
-          "zh-CN": "受到的物理伤害降低 15%"
+          "en": "Physical Damage Received Reduced by 15%",
+          "zh-TW": "受到的物理承受物理傷害降低 15%",
+          "zh-CN": "受到的物理承受物理伤害降低 15%"
         },
         "min": 15,
         "max": 15,
@@ -24563,7 +24976,7 @@
     },
     "oneHandDamage": null,
     "twoHandDamage": null,
-    "requiredStrength": 163,
+    "requiredStrength": 115,
     "requiredDexterity": null,
     "weaponSpeed": null,
     "durability": 18,
