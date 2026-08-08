@@ -56,7 +56,7 @@ export default function RunewordList({ runewords, locale }: { runewords: Runewor
       {runewords.map(rw => {
         const owned = userId && ownedIds.has(rw.id);
         return (
-        <div key={rw.id} className={`border rounded-xl p-6 ${owned ? 'bg-green-950/30 border-green-600/50' : 'bg-panel border-panel-border'}`}>
+        <div id={rw.id} key={rw.id} className={`scroll-mt-24 border rounded-xl p-6 ${owned ? 'bg-green-950/30 border-green-600/50' : 'bg-panel border-panel-border'}`}>
           <div className="flex items-center justify-between gap-2">
             <div className="flex items-center gap-2 flex-wrap">
               <h3 className="text-lg font-bold text-[#cbb87f]">{rw.name[locale]}</h3>

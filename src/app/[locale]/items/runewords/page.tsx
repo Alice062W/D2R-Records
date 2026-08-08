@@ -6,6 +6,7 @@ import runewordsBase from '../../../../../data/runewords.json';
 import runewordOverrides from '../../../../../data/runeword-overrides.json';
 import RunewordFilters, { type ModeFilter } from '@/components/items/RunewordFilters';
 import RunewordList from '@/components/items/RunewordList';
+import RunewordShortcuts from '@/components/items/RunewordShortcuts';
 import CollectionBadge from '@/components/items/CollectionBadge';
 import CollectionSummaryBar from '@/components/items/CollectionSummaryBar';
 import { useOwnedItems } from '@/lib/grail/useOwnedItems';
@@ -120,6 +121,7 @@ export default function RunewordsPage() {
             </select>
           </div>
         )}
+        <RunewordShortcuts runewords={filtered} locale={locale} />
         <RunewordList runewords={filtered} locale={locale} />
       </div>
     </main>

@@ -28,7 +28,10 @@ describe('RunewordsPage — collected/missing filter', () => {
       </NextIntlClientProvider>
     );
     fireEvent.click(screen.getByRole('button', { name: 'Collected' }));
-    expect(screen.getByText("Ancients' Pledge")).toBeInTheDocument();
+    // "Ancients' Pledge" now appears twice — once in the jump-to
+    // shortcut bar, once as the card heading — since both are driven by
+    // the same filtered list.
+    expect(screen.getAllByText("Ancients' Pledge").length).toBeGreaterThan(0);
     expect(screen.queryByText('Enigma')).not.toBeInTheDocument();
   });
 });

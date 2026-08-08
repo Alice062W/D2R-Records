@@ -213,6 +213,8 @@
     "runewordsSocketsLabel": "Sockets",
     "runewordsBaseTypesLabel": "Base Types",
     "runewordsLevelReqLabel": "Level Req",
+    "runewordsJumpToLabel": "Jump to:",
+    "runewordsNoMatchesLabel": "No runewords match this combination.",
     "maxSocketsPageTitle": "Max Sockets",
     "maxSocketsPageSubtitle": "Maximum number of sockets by item level (base items only).",
     "maxSocketsItemTypeLabel": "Item Type",

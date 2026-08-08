@@ -213,6 +213,8 @@
     "runewordsSocketsLabel": "插槽数",
     "runewordsBaseTypesLabel": "基础类型",
     "runewordsLevelReqLabel": "等级需求",
+    "runewordsJumpToLabel": "快速跳转：",
+    "runewordsNoMatchesLabel": "没有符合此组合的符文之语。",
     "maxSocketsPageTitle": "最大孔数",
     "maxSocketsPageSubtitle": "依物品等级划分的最大插槽数（仅限基础物品）。",
     "maxSocketsItemTypeLabel": "物品类型",
