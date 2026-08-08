@@ -24,7 +24,10 @@ function isLocalizedText(v: unknown): v is LocalizedText {
 describe('generated grail catalog', () => {
   it('has the expected item counts', () => {
     expect(uniques.length).toBe(417);
-    expect(sets.length).toBe(140);
+    // 135, not 140 -- Warlord's Glory (5 items) was removed: it doesn't
+    // exist on D2R.world and can't drop in-game (confirmed mod-exclusive
+    // content from the raw game data folder).
+    expect(sets.length).toBe(135);
   });
 
   it('every entry has a unique id', () => {
@@ -754,8 +757,9 @@ describe('magic-affixes.json ancestor-closure category expansion', () => {
 });
 
 describe('set-groups.json', () => {
-  it('has exactly 35 entries', () => {
-    expect(setGroupsData.length).toBe(35);
+  it('has exactly 34 entries', () => {
+    // 34, not 35 -- Warlord's Glory was removed (see grail catalog counts above).
+    expect(setGroupsData.length).toBe(34);
   });
 
   it('every entry has at least one piece id that exists in sets.json', () => {
