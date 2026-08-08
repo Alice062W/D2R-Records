@@ -127,6 +127,7 @@
     "defenseLabel": "Defense",
     "oneHandDamageLabel": "One-Hand Damage",
     "twoHandDamageLabel": "Two-Hand Damage",
+    "socketsLabel": "Sockets",
     "requiredLevel": "Required Level",
     "requiredStrength": "Required Strength",
     "requiredDexterity": "Required Dexterity",

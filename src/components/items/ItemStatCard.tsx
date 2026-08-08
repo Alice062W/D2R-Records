@@ -92,6 +92,9 @@ export default function ItemStatCard({
     ...(item.defense ? [[t('defenseLabel'), `${item.defense.min}–${item.defense.max}`] as [string, string]] : []),
     ...(item.oneHandDamage ? [[t('oneHandDamageLabel'), `${item.oneHandDamage.min}–${item.oneHandDamage.max}`] as [string, string]] : []),
     ...(item.twoHandDamage ? [[t('twoHandDamageLabel'), `${item.twoHandDamage.min}–${item.twoHandDamage.max}`] as [string, string]] : []),
+    ...(item.sockets
+      ? [[t('socketsLabel'), item.sockets.min === item.sockets.max ? String(item.sockets.min) : `${item.sockets.min}–${item.sockets.max}`] as [string, string]]
+      : []),
     [t('requiredLevel'), String(item.levelReq)],
     ...(item.requiredStrength != null ? [[t('requiredStrength'), String(item.requiredStrength)] as [string, string]] : []),
     ...(item.requiredDexterity != null ? [[t('requiredDexterity'), String(item.requiredDexterity)] as [string, string]] : []),

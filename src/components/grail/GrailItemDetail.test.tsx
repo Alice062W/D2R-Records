@@ -9,7 +9,7 @@ const baseItem: GrailItem = {
   id: 'unique-0', code: 'hax', name: 'The Gnasher', kind: 'unique', setName: null,
   levelReq: 5, baseName: 'Hand Axe', grade: 'normal', slotCategory: 'axes',
   defense: null, oneHandDamage: null, twoHandDamage: null, requiredStrength: null,
-  requiredDexterity: null, weaponSpeed: null, durability: 28, classRestriction: null,
+  requiredDexterity: null, weaponSpeed: null, durability: 28, sockets: null, classRestriction: null,
   invFile: 'invhaxu', hdIcon: null,
   properties: [], setPiecesBonuses: [], setFullBonus: [], setBonuses: [],
   statPriority: [], ladderRestricted: false, firstLadderSeason: null, lastLadderSeason: null,

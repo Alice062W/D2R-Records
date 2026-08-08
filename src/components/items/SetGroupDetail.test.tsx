@@ -10,7 +10,7 @@ function baseItem(overrides: Partial<GrailItem> = {}): GrailItem {
     id: 'set-1', code: 'xxx', name: "Aldur's Advance", kind: 'set', setName: "Aldur's Watchtower",
     levelReq: 45, baseName: 'Battle Boots', grade: 'exceptional', slotCategory: 'boots',
     defense: null, oneHandDamage: null, twoHandDamage: null, requiredStrength: 95,
-    requiredDexterity: null, weaponSpeed: null, durability: 18, classRestriction: null,
+    requiredDexterity: null, weaponSpeed: null, durability: 18, sockets: null, classRestriction: null,
     invFile: '', hdIcon: null,
     properties: [], setPiecesBonuses: [], setFullBonus: [], setBonuses: [],
     statPriority: [], ladderRestricted: false, firstLadderSeason: null, lastLadderSeason: null,

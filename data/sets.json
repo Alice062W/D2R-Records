@@ -10247,6 +10247,17 @@
         "min": 30,
         "max": 30,
         "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Fade Effect",
+          "zh-TW": "角色顯示消隱效果",
+          "zh-CN": "角色显示消隐效果"
+        },
+        "min": 1,
+        "max": 1,
+        "variable": false
       }
     ],
     "setBonuses": [],
@@ -10479,6 +10490,17 @@
         "min": 30,
         "max": 30,
         "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Fade Effect",
+          "zh-TW": "角色顯示消隱效果",
+          "zh-CN": "角色显示消隐效果"
+        },
+        "min": 1,
+        "max": 1,
+        "variable": false
       }
     ],
     "setBonuses": [],
@@ -10685,12 +10707,27 @@
         "min": 30,
         "max": 30,
         "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Fade Effect",
+          "zh-TW": "角色顯示消隱效果",
+          "zh-CN": "角色显示消隐效果"
+        },
+        "min": 1,
+        "max": 1,
+        "variable": false
       }
     ],
     "setBonuses": [],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "sockets": {
+      "min": 1,
+      "max": 3
+    }
   },
   {
     "id": "set-natalyas_soul",
@@ -10892,6 +10929,17 @@
         },
         "min": 30,
         "max": 30,
+        "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Fade Effect",
+          "zh-TW": "角色顯示消隱效果",
+          "zh-CN": "角色显示消隐效果"
+        },
+        "min": 1,
+        "max": 1,
         "variable": false
       }
     ],
@@ -11099,6 +11147,17 @@
         "min": 350,
         "max": 350,
         "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Aura Effect",
+          "zh-TW": "角色顯示光環效果",
+          "zh-CN": "角色显示光环效果"
+        },
+        "min": 1,
+        "max": 1,
+        "variable": false
       }
     ],
     "setBonuses": [
@@ -11118,9 +11177,9 @@
         "piecesRequired": 3,
         "code": "enr",
         "label": {
-          "en": "Additional +15 to Energy",
-          "zh-TW": "額外+15 能量",
-          "zh-CN": "额外+15 能量"
+          "en": "+15 to Energy",
+          "zh-TW": "+15 能量",
+          "zh-CN": "+15 能量"
         },
         "min": 15,
         "max": 15,
@@ -11130,9 +11189,9 @@
         "piecesRequired": 4,
         "code": "enr",
         "label": {
-          "en": "Additional +15 to Energy",
-          "zh-TW": "額外+15 能量",
-          "zh-CN": "额外+15 能量"
+          "en": "+15 to Energy",
+          "zh-TW": "+15 能量",
+          "zh-CN": "+15 能量"
         },
         "min": 15,
         "max": 15,
@@ -11141,7 +11200,11 @@
     ],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "sockets": {
+      "min": 2,
+      "max": 2
+    }
   },
   {
     "id": "set-aldurs_deception",
@@ -11364,6 +11427,17 @@
         "min": 350,
         "max": 350,
         "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Aura Effect",
+          "zh-TW": "角色顯示光環效果",
+          "zh-CN": "角色显示光环效果"
+        },
+        "min": 1,
+        "max": 1,
+        "variable": false
       }
     ],
     "setBonuses": [
@@ -11383,9 +11457,9 @@
         "piecesRequired": 3,
         "code": "vit",
         "label": {
-          "en": "Additional +15 to Vitality",
-          "zh-TW": "額外+15 體能",
-          "zh-CN": "额外+15 活力"
+          "en": "+15 to Vitality",
+          "zh-TW": "+15 體能",
+          "zh-CN": "+15 活力"
         },
         "min": 15,
         "max": 15,
@@ -11395,9 +11469,9 @@
         "piecesRequired": 4,
         "code": "vit",
         "label": {
-          "en": "Additional +15 to Vitality",
-          "zh-TW": "額外+15 體能",
-          "zh-CN": "额外+15 活力"
+          "en": "+15 to Vitality",
+          "zh-TW": "+15 體能",
+          "zh-CN": "+15 活力"
         },
         "min": 15,
         "max": 15,
@@ -11633,6 +11707,17 @@
         "min": 350,
         "max": 350,
         "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Aura Effect",
+          "zh-TW": "角色顯示光環效果",
+          "zh-CN": "角色显示光环效果"
+        },
+        "min": 1,
+        "max": 1,
+        "variable": false
       }
     ],
     "setBonuses": [
@@ -11652,9 +11737,9 @@
         "piecesRequired": 3,
         "code": "str",
         "label": {
-          "en": "Additional +15 to Strength",
-          "zh-TW": "額外+15 力量",
-          "zh-CN": "额外+15 力量"
+          "en": "+15 to Strength",
+          "zh-TW": "+15 力量",
+          "zh-CN": "+15 力量"
         },
         "min": 15,
         "max": 15,
@@ -11664,9 +11749,9 @@
         "piecesRequired": 4,
         "code": "str",
         "label": {
-          "en": "Additional +15 to Strength",
-          "zh-TW": "額外+15 力量",
-          "zh-CN": "额外+15 力量"
+          "en": "+15 to Strength",
+          "zh-TW": "+15 力量",
+          "zh-CN": "+15 力量"
         },
         "min": 15,
         "max": 15,
@@ -11675,7 +11760,11 @@
     ],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "sockets": {
+      "min": 2,
+      "max": 3
+    }
   },
   {
     "id": "set-aldurs_advance",
@@ -11898,6 +11987,17 @@
         "min": 350,
         "max": 350,
         "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Aura Effect",
+          "zh-TW": "角色顯示光環效果",
+          "zh-CN": "角色显示光环效果"
+        },
+        "min": 1,
+        "max": 1,
+        "variable": false
       }
     ],
     "setBonuses": [
@@ -11917,9 +12017,9 @@
         "piecesRequired": 3,
         "code": "dex",
         "label": {
-          "en": "Additional +15 to Dexterity",
-          "zh-TW": "額外+15 敏捷",
-          "zh-CN": "额外+15 敏捷"
+          "en": "+15 to Dexterity",
+          "zh-TW": "+15 敏捷",
+          "zh-CN": "+15 敏捷"
         },
         "min": 15,
         "max": 15,
@@ -11929,9 +12029,9 @@
         "piecesRequired": 4,
         "code": "dex",
         "label": {
-          "en": "Additional +15 to Dexterity",
-          "zh-TW": "額外+15 敏捷",
-          "zh-CN": "额外+15 敏捷"
+          "en": "+15 to Dexterity",
+          "zh-TW": "+15 敏捷",
+          "zh-CN": "+15 敏捷"
         },
         "min": 15,
         "max": 15,
@@ -12142,12 +12242,27 @@
         "min": 10,
         "max": 10,
         "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Aura Effect",
+          "zh-TW": "角色顯示光環效果",
+          "zh-CN": "角色显示光环效果"
+        },
+        "min": 1,
+        "max": 1,
+        "variable": false
       }
     ],
     "setBonuses": [],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "sockets": {
+      "min": 2,
+      "max": 2
+    }
   },
   {
     "id": "set-immortal_kings_soul_cage",
@@ -12335,6 +12450,17 @@
         },
         "min": 10,
         "max": 10,
+        "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Aura Effect",
+          "zh-TW": "角色顯示光環效果",
+          "zh-CN": "角色显示光环效果"
+        },
+        "min": 1,
+        "max": 1,
         "variable": false
       }
     ],
@@ -12584,6 +12710,17 @@
         "min": 10,
         "max": 10,
         "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Aura Effect",
+          "zh-TW": "角色顯示光環效果",
+          "zh-CN": "角色显示光环效果"
+        },
+        "min": 1,
+        "max": 1,
+        "variable": false
       }
     ],
     "setBonuses": [
@@ -12832,6 +12969,17 @@
         "min": 10,
         "max": 10,
         "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Aura Effect",
+          "zh-TW": "角色顯示光環效果",
+          "zh-CN": "角色显示光环效果"
+        },
+        "min": 1,
+        "max": 1,
+        "variable": false
       }
     ],
     "setBonuses": [
@@ -13079,6 +13227,17 @@
         },
         "min": 10,
         "max": 10,
+        "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Aura Effect",
+          "zh-TW": "角色顯示光環效果",
+          "zh-CN": "角色显示光环效果"
+        },
+        "min": 1,
+        "max": 1,
         "variable": false
       }
     ],
@@ -13346,6 +13505,17 @@
         "min": 10,
         "max": 10,
         "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Aura Effect",
+          "zh-TW": "角色顯示光環效果",
+          "zh-CN": "角色显示光环效果"
+        },
+        "min": 1,
+        "max": 1,
+        "variable": false
       }
     ],
     "setBonuses": [
@@ -13412,7 +13582,11 @@
     ],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "sockets": {
+      "min": 2,
+      "max": 2
+    }
   },
   {
     "id": "set-tal_rashas_fire_spun_cloth",
@@ -13601,6 +13775,17 @@
         },
         "min": 50,
         "max": 50,
+        "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Aura Effect",
+          "zh-TW": "角色顯示光環效果",
+          "zh-CN": "角色显示光环效果"
+        },
+        "min": 1,
+        "max": 1,
         "variable": false
       }
     ],
@@ -13820,6 +14005,17 @@
         },
         "min": 50,
         "max": 50,
+        "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Aura Effect",
+          "zh-TW": "角色顯示光環效果",
+          "zh-CN": "角色显示光环效果"
+        },
+        "min": 1,
+        "max": 1,
         "variable": false
       }
     ],
@@ -14058,6 +14254,17 @@
         },
         "min": 50,
         "max": 50,
+        "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Aura Effect",
+          "zh-TW": "角色顯示光環效果",
+          "zh-CN": "角色显示光环效果"
+        },
+        "min": 1,
+        "max": 1,
         "variable": false
       }
     ],
@@ -14323,6 +14530,17 @@
         "min": 50,
         "max": 50,
         "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Aura Effect",
+          "zh-TW": "角色顯示光環效果",
+          "zh-CN": "角色显示光环效果"
+        },
+        "min": 1,
+        "max": 1,
+        "variable": false
       }
     ],
     "setBonuses": [
@@ -14540,6 +14758,17 @@
         "min": 50,
         "max": 50,
         "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Aura Effect",
+          "zh-TW": "角色顯示光環效果",
+          "zh-CN": "角色显示光环效果"
+        },
+        "min": 1,
+        "max": 1,
+        "variable": false
       }
     ],
     "setBonuses": [],
@@ -14724,6 +14953,17 @@
         "min": 50,
         "max": 50,
         "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Aura Effect",
+          "zh-TW": "角色顯示光環效果",
+          "zh-CN": "角色显示光环效果"
+        },
+        "min": 1,
+        "max": 1,
+        "variable": false
       }
     ],
     "setBonuses": [
@@ -14742,7 +14982,11 @@
     ],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "sockets": {
+      "min": 2,
+      "max": 2
+    }
   },
   {
     "id": "set-griswolds_heart",
@@ -14907,12 +15151,27 @@
         "min": 50,
         "max": 50,
         "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Aura Effect",
+          "zh-TW": "角色顯示光環效果",
+          "zh-CN": "角色显示光环效果"
+        },
+        "min": 1,
+        "max": 1,
+        "variable": false
       }
     ],
     "setBonuses": [],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "sockets": {
+      "min": 3,
+      "max": 3
+    }
   },
   {
     "id": "set-griswoldss_redemption",
@@ -15085,6 +15344,17 @@
         "min": 50,
         "max": 50,
         "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Aura Effect",
+          "zh-TW": "角色顯示光環效果",
+          "zh-CN": "角色显示光环效果"
+        },
+        "min": 1,
+        "max": 1,
+        "variable": false
       }
     ],
     "setBonuses": [
@@ -15137,6 +15407,10 @@
         "low": 129,
         "high": 146
       }
+    },
+    "sockets": {
+      "min": 3,
+      "max": 4
     }
   },
   {
@@ -15302,12 +15576,27 @@
         "min": 50,
         "max": 50,
         "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Aura Effect",
+          "zh-TW": "角色顯示光環效果",
+          "zh-CN": "角色显示光环效果"
+        },
+        "min": 1,
+        "max": 1,
+        "variable": false
       }
     ],
     "setBonuses": [],
     "ladderRestricted": false,
     "firstLadderSeason": null,
-    "lastLadderSeason": null
+    "lastLadderSeason": null,
+    "sockets": {
+      "min": 3,
+      "max": 3
+    }
   },
   {
     "id": "set-trang_ouls_guise",
@@ -15433,9 +15722,9 @@
         "piecesRequired": 3,
         "code": "oskill",
         "label": {
-          "en": "Additional +13 to Fire Wall",
-          "zh-TW": "額外+13 至火牆術",
-          "zh-CN": "额外+13 至火焰墙"
+          "en": "+13 to Fire Wall",
+          "zh-TW": "+13 至火牆術",
+          "zh-CN": "+13 至火焰墙"
         },
         "min": 13,
         "max": 13,
@@ -15457,9 +15746,9 @@
         "piecesRequired": 4,
         "code": "oskill",
         "label": {
-          "en": "Additional +10 to Meteor",
-          "zh-TW": "額外+10 至隕石術",
-          "zh-CN": "额外+10 至陨石术"
+          "en": "+10 to Meteor",
+          "zh-TW": "+10 至隕石術",
+          "zh-CN": "+10 至陨石术"
         },
         "min": 10,
         "max": 10,
@@ -15554,6 +15843,17 @@
         },
         "min": 50,
         "max": 50,
+        "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays as Vampire",
+          "zh-TW": "角色顯示為吸血鬼型態",
+          "zh-CN": "角色显示为吸血鬼形态"
+        },
+        "min": 1,
+        "max": 1,
         "variable": false
       }
     ],
@@ -15695,9 +15995,9 @@
         "piecesRequired": 3,
         "code": "oskill",
         "label": {
-          "en": "Additional +13 to Fire Wall",
-          "zh-TW": "額外+13 至火牆術",
-          "zh-CN": "额外+13 至火焰墙"
+          "en": "+13 to Fire Wall",
+          "zh-TW": "+13 至火牆術",
+          "zh-CN": "+13 至火焰墙"
         },
         "min": 13,
         "max": 13,
@@ -15719,9 +16019,9 @@
         "piecesRequired": 4,
         "code": "oskill",
         "label": {
-          "en": "Additional +10 to Meteor",
-          "zh-TW": "額外+10 至隕石術",
-          "zh-CN": "额外+10 至陨石术"
+          "en": "+10 to Meteor",
+          "zh-TW": "+10 至隕石術",
+          "zh-CN": "+10 至陨石术"
         },
         "min": 10,
         "max": 10,
@@ -15816,6 +16116,17 @@
         },
         "min": 50,
         "max": 50,
+        "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays as Vampire",
+          "zh-TW": "角色顯示為吸血鬼型態",
+          "zh-CN": "角色显示为吸血鬼形态"
+        },
+        "min": 1,
+        "max": 1,
         "variable": false
       }
     ],
@@ -15995,9 +16306,9 @@
         "piecesRequired": 3,
         "code": "oskill",
         "label": {
-          "en": "Additional +13 to Fire Wall",
-          "zh-TW": "額外+13 至火牆術",
-          "zh-CN": "额外+13 至火焰墙"
+          "en": "+13 to Fire Wall",
+          "zh-TW": "+13 至火牆術",
+          "zh-CN": "+13 至火焰墙"
         },
         "min": 13,
         "max": 13,
@@ -16019,9 +16330,9 @@
         "piecesRequired": 4,
         "code": "oskill",
         "label": {
-          "en": "Additional +10 to Meteor",
-          "zh-TW": "額外+10 至隕石術",
-          "zh-CN": "额外+10 至陨石术"
+          "en": "+10 to Meteor",
+          "zh-TW": "+10 至隕石術",
+          "zh-CN": "+10 至陨石术"
         },
         "min": 10,
         "max": 10,
@@ -16116,6 +16427,17 @@
         },
         "min": 50,
         "max": 50,
+        "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays as Vampire",
+          "zh-TW": "角色顯示為吸血鬼型態",
+          "zh-CN": "角色显示为吸血鬼形态"
+        },
+        "min": 1,
+        "max": 1,
         "variable": false
       }
     ],
@@ -16260,9 +16582,9 @@
         "piecesRequired": 3,
         "code": "oskill",
         "label": {
-          "en": "Additional +13 to Fire Wall",
-          "zh-TW": "額外+13 至火牆術",
-          "zh-CN": "额外+13 至火焰墙"
+          "en": "+13 to Fire Wall",
+          "zh-TW": "+13 至火牆術",
+          "zh-CN": "+13 至火焰墙"
         },
         "min": 13,
         "max": 13,
@@ -16284,9 +16606,9 @@
         "piecesRequired": 4,
         "code": "oskill",
         "label": {
-          "en": "Additional +10 to Meteor",
-          "zh-TW": "額外+10 至隕石術",
-          "zh-CN": "额外+10 至陨石术"
+          "en": "+10 to Meteor",
+          "zh-TW": "+10 至隕石術",
+          "zh-CN": "+10 至陨石术"
         },
         "min": 10,
         "max": 10,
@@ -16381,6 +16703,17 @@
         },
         "min": 50,
         "max": 50,
+        "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays as Vampire",
+          "zh-TW": "角色顯示為吸血鬼型態",
+          "zh-CN": "角色显示为吸血鬼形态"
+        },
+        "min": 1,
+        "max": 1,
         "variable": false
       }
     ],
@@ -16549,9 +16882,9 @@
         "piecesRequired": 3,
         "code": "oskill",
         "label": {
-          "en": "Additional +13 to Fire Wall",
-          "zh-TW": "額外+13 至火牆術",
-          "zh-CN": "额外+13 至火焰墙"
+          "en": "+13 to Fire Wall",
+          "zh-TW": "+13 至火牆術",
+          "zh-CN": "+13 至火焰墙"
         },
         "min": 13,
         "max": 13,
@@ -16573,9 +16906,9 @@
         "piecesRequired": 4,
         "code": "oskill",
         "label": {
-          "en": "Additional +10 to Meteor",
-          "zh-TW": "額外+10 至隕石術",
-          "zh-CN": "额外+10 至陨石术"
+          "en": "+10 to Meteor",
+          "zh-TW": "+10 至隕石術",
+          "zh-CN": "+10 至陨石术"
         },
         "min": 10,
         "max": 10,
@@ -16670,6 +17003,17 @@
         },
         "min": 50,
         "max": 50,
+        "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays as Vampire",
+          "zh-TW": "角色顯示為吸血鬼型態",
+          "zh-CN": "角色显示为吸血鬼形态"
+        },
+        "min": 1,
+        "max": 1,
         "variable": false
       }
     ],
@@ -16853,6 +17197,17 @@
         },
         "min": 100,
         "max": 100,
+        "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Aura Effect",
+          "zh-TW": "角色顯示光環效果",
+          "zh-CN": "角色显示光环效果"
+        },
+        "min": 1,
+        "max": 1,
         "variable": false
       }
     ],
@@ -17085,6 +17440,17 @@
         "min": 100,
         "max": 100,
         "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Aura Effect",
+          "zh-TW": "角色顯示光環效果",
+          "zh-CN": "角色显示光环效果"
+        },
+        "min": 1,
+        "max": 1,
+        "variable": false
       }
     ],
     "setBonuses": [
@@ -17292,6 +17658,17 @@
         "min": 100,
         "max": 100,
         "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Aura Effect",
+          "zh-TW": "角色顯示光環效果",
+          "zh-CN": "角色显示光环效果"
+        },
+        "min": 1,
+        "max": 1,
+        "variable": false
       }
     ],
     "setBonuses": [
@@ -17487,6 +17864,17 @@
         "min": 100,
         "max": 100,
         "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Aura Effect",
+          "zh-TW": "角色顯示光環效果",
+          "zh-CN": "角色显示光环效果"
+        },
+        "min": 1,
+        "max": 1,
+        "variable": false
       }
     ],
     "setBonuses": [
@@ -17675,6 +18063,17 @@
         },
         "min": 100,
         "max": 100,
+        "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Aura Effect",
+          "zh-TW": "角色顯示光環效果",
+          "zh-CN": "角色显示光环效果"
+        },
+        "min": 1,
+        "max": 1,
         "variable": false
       }
     ],
@@ -24424,6 +24823,17 @@
         "min": 350,
         "max": 350,
         "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Aura Effect",
+          "zh-TW": "角色顯示光環效果",
+          "zh-CN": "角色显示光环效果"
+        },
+        "min": 1,
+        "max": 1,
+        "variable": false
       }
     ],
     "setBonuses": [
@@ -24670,6 +25080,17 @@
         "min": 350,
         "max": 350,
         "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Aura Effect",
+          "zh-TW": "角色顯示光環效果",
+          "zh-CN": "角色显示光环效果"
+        },
+        "min": 1,
+        "max": 1,
+        "variable": false
       }
     ],
     "setBonuses": [
@@ -24903,6 +25324,17 @@
         },
         "min": 350,
         "max": 350,
+        "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Aura Effect",
+          "zh-TW": "角色顯示光環效果",
+          "zh-CN": "角色显示光环效果"
+        },
+        "min": 1,
+        "max": 1,
         "variable": false
       }
     ],
@@ -25149,6 +25581,17 @@
         "min": 350,
         "max": 350,
         "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Aura Effect",
+          "zh-TW": "角色顯示光環效果",
+          "zh-CN": "角色显示光环效果"
+        },
+        "min": 1,
+        "max": 1,
+        "variable": false
       }
     ],
     "setBonuses": [
@@ -25357,6 +25800,17 @@
         },
         "min": 350,
         "max": 350,
+        "variable": false
+      },
+      {
+        "code": "chr-display",
+        "label": {
+          "en": "Character Displays Aura Effect",
+          "zh-TW": "角色顯示光環效果",
+          "zh-CN": "角色显示光环效果"
+        },
+        "min": 1,
+        "max": 1,
         "variable": false
       }
     ],

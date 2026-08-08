@@ -127,6 +127,7 @@
     "defenseLabel": "防御力",
     "oneHandDamageLabel": "单手伤害",
     "twoHandDamageLabel": "双手伤害",
+    "socketsLabel": "插槽数",
     "requiredLevel": "需求等级",
     "requiredStrength": "需求力量",
     "requiredDexterity": "需求敏捷",

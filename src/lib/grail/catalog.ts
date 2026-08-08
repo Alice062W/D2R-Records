@@ -56,6 +56,13 @@ export interface RawGrailItem {
   requiredDexterity: number | null;
   weaponSpeed: number | null;
   durability: number | null;
+  // Base item's fixed/possible socket count, straight from D2R.world (a
+  // range like {min:2,max:3} when the base itself can roll a variable
+  // socket count, otherwise min === max). Optional/null for items where
+  // this isn't tracked -- most uniques don't need it since their base
+  // item's socket count isn't part of their own identity the way it is
+  // called out on D2R.world for set items.
+  sockets?: { min: number; max: number } | null;
   // Bare English class code (e.g. "Assassin") or null -- not localized in
   // the source pipeline, translate via this site's own class-name strings.
   classRestriction: string | null;
@@ -111,6 +118,7 @@ export interface GrailItem {
   requiredDexterity: number | null;
   weaponSpeed: number | null;
   durability: number | null;
+  sockets: { min: number; max: number } | null;
   classRestriction: string | null;
   invFile: string | null;
   hdIcon: string | null;
@@ -167,6 +175,7 @@ export function localizeGrailItem(item: RawGrailItem, locale: Locale): GrailItem
     requiredDexterity: item.requiredDexterity,
     weaponSpeed: item.weaponSpeed,
     durability: item.durability,
+    sockets: item.sockets ?? null,
     classRestriction: item.classRestriction,
     invFile: item.invFile,
     hdIcon: item.hdIcon,
