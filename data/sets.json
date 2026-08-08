@@ -893,14 +893,8 @@
     "slotCategory": "swords",
     "defense": null,
     "oneHandDamage": {
-      "min": {
-        "low": 3,
-        "high": 3
-      },
-      "max": {
-        "low": 19,
-        "high": 19
-      }
+      "min": 3,
+      "max": 19
     },
     "twoHandDamage": null,
     "requiredStrength": 55,
@@ -2050,14 +2044,8 @@
     "slotCategory": "swords",
     "defense": null,
     "oneHandDamage": {
-      "min": {
-        "low": 17,
-        "high": 17
-      },
-      "max": {
-        "low": 18,
-        "high": 18
-      }
+      "min": 17,
+      "max": 18
     },
     "twoHandDamage": null,
     "requiredStrength": 48,
@@ -2705,14 +2693,8 @@
     "defense": null,
     "oneHandDamage": null,
     "twoHandDamage": {
-      "min": {
-        "low": 3,
-        "high": 3
-      },
-      "max": {
-        "low": 18,
-        "high": 18
-      }
+      "min": 3,
+      "max": 18
     },
     "requiredStrength": 40,
     "requiredDexterity": 50,
@@ -3561,14 +3543,8 @@
     "slotCategory": "scepters",
     "defense": null,
     "oneHandDamage": {
-      "min": {
-        "low": 15,
-        "high": 15
-      },
-      "max": {
-        "low": 25,
-        "high": 25
-      }
+      "min": 15,
+      "max": 25
     },
     "twoHandDamage": null,
     "requiredStrength": 55,
@@ -4103,14 +4079,8 @@
     "defense": null,
     "oneHandDamage": null,
     "twoHandDamage": {
-      "min": {
-        "low": 6,
-        "high": 6
-      },
-      "max": {
-        "low": 13,
-        "high": 13
-      }
+      "min": 6,
+      "max": 13
     },
     "requiredStrength": null,
     "requiredDexterity": null,
@@ -5018,14 +4988,8 @@
     "slotCategory": "axes",
     "defense": null,
     "oneHandDamage": {
-      "min": {
-        "low": 12,
-        "high": 12
-      },
-      "max": {
-        "low": 19,
-        "high": 19
-      }
+      "min": 12,
+      "max": 19
     },
     "twoHandDamage": null,
     "requiredStrength": 49,
@@ -6956,14 +6920,8 @@
     "slotCategory": "wands",
     "defense": null,
     "oneHandDamage": {
-      "min": {
-        "low": 13,
-        "high": 13
-      },
-      "max": {
-        "low": 14,
-        "high": 14
-      }
+      "min": 13,
+      "max": 14
     },
     "twoHandDamage": null,
     "requiredStrength": null,
@@ -7587,14 +7545,8 @@
     "slotCategory": "axes",
     "defense": null,
     "oneHandDamage": {
-      "min": {
-        "low": 7,
-        "high": 7
-      },
-      "max": {
-        "low": 19,
-        "high": 19
-      }
+      "min": 7,
+      "max": 19
     },
     "twoHandDamage": null,
     "requiredStrength": 43,
@@ -7696,14 +7648,8 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "baseOneHandDamage": {
-      "min": {
-        "low": 5,
-        "high": 5
-      },
-      "max": {
-        "low": 13,
-        "high": 13
-      }
+      "min": 5,
+      "max": 13
     }
   },
   {
@@ -7984,14 +7930,8 @@
     "slotCategory": "swords",
     "defense": null,
     "oneHandDamage": {
-      "min": {
-        "low": 10,
-        "high": 10
-      },
-      "max": {
-        "low": 25,
-        "high": 25
-      }
+      "min": 10,
+      "max": 25
     },
     "twoHandDamage": null,
     "requiredStrength": 71,
@@ -8117,14 +8057,8 @@
     "slotCategory": "swords",
     "defense": null,
     "oneHandDamage": {
-      "min": {
-        "low": 5,
-        "high": 5
-      },
-      "max": {
-        "low": 14,
-        "high": 14
-      }
+      "min": 5,
+      "max": 14
     },
     "twoHandDamage": null,
     "requiredStrength": 25,
@@ -8261,14 +8195,8 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "baseOneHandDamage": {
-      "min": {
-        "low": 3,
-        "high": 3
-      },
-      "max": {
-        "low": 8,
-        "high": 8
-      }
+      "min": 3,
+      "max": 8
     }
   },
   {
@@ -8780,14 +8708,8 @@
     "defense": null,
     "oneHandDamage": null,
     "twoHandDamage": {
-      "min": {
-        "low": 9,
-        "high": 9
-      },
-      "max": {
-        "low": 21,
-        "high": 21
-      }
+      "min": 9,
+      "max": 21
     },
     "requiredStrength": 35,
     "requiredDexterity": 55,
@@ -9523,14 +9445,8 @@
     "defense": null,
     "oneHandDamage": null,
     "twoHandDamage": {
-      "min": {
-        "low": 12,
-        "high": 12
-      },
-      "max": {
-        "low": 28,
-        "high": 28
-      }
+      "min": 12,
+      "max": 28
     },
     "requiredStrength": null,
     "requiredDexterity": null,
@@ -10289,14 +10205,8 @@
     "slotCategory": "katars",
     "defense": null,
     "oneHandDamage": {
-      "min": {
-        "low": 120,
-        "high": 120
-      },
-      "max": {
-        "low": 153,
-        "high": 153
-      }
+      "min": 120,
+      "max": 153
     },
     "twoHandDamage": null,
     "requiredStrength": 118,
@@ -11506,14 +11416,8 @@
     "slotCategory": "maces",
     "defense": null,
     "oneHandDamage": {
-      "min": {
-        "low": 60,
-        "high": 60
-      },
-      "max": {
-        "low": 93,
-        "high": 93
-      }
+      "min": 60,
+      "max": 93
     },
     "twoHandDamage": null,
     "requiredStrength": 74,
@@ -13324,14 +13228,8 @@
     "defense": null,
     "oneHandDamage": null,
     "twoHandDamage": {
-      "min": {
-        "low": 231,
-        "high": 231
-      },
-      "max": {
-        "low": 318,
-        "high": 318
-      }
+      "min": 231,
+      "max": 318
     },
     "requiredStrength": 225,
     "requiredDexterity": null,
@@ -14061,14 +13959,8 @@
     "slotCategory": "orbs",
     "defense": null,
     "oneHandDamage": {
-      "min": {
-        "low": 18,
-        "high": 18
-      },
-      "max": {
-        "low": 42,
-        "high": 42
-      }
+      "min": 18,
+      "max": 42
     },
     "twoHandDamage": null,
     "requiredStrength": null,
@@ -15197,14 +15089,8 @@
     "slotCategory": "scepters",
     "defense": null,
     "oneHandDamage": {
-      "min": {
-        "low": 131,
-        "high": 145
-      },
-      "max": {
-        "low": 169,
-        "high": 186
-      }
+      "min": 131,
+      "max": 186
     },
     "twoHandDamage": null,
     "requiredStrength": 78,
@@ -15399,14 +15285,8 @@
     "firstLadderSeason": null,
     "lastLadderSeason": null,
     "baseOneHandDamage": {
-      "min": {
-        "low": 111,
-        "high": 125
-      },
-      "max": {
-        "low": 129,
-        "high": 146
-      }
+      "min": 111,
+      "max": 146
     },
     "sockets": {
       "min": 3,
@@ -17920,14 +17800,8 @@
     "defense": null,
     "oneHandDamage": null,
     "twoHandDamage": {
-      "min": {
-        "low": 40,
-        "high": 40
-      },
-      "max": {
-        "low": 207,
-        "high": 207
-      }
+      "min": 40,
+      "max": 207
     },
     "requiredStrength": 108,
     "requiredDexterity": 152,
@@ -21106,14 +20980,8 @@
     "defense": null,
     "oneHandDamage": null,
     "twoHandDamage": {
-      "min": {
-        "low": 42,
-        "high": 42
-      },
-      "max": {
-        "low": 159,
-        "high": 159
-      }
+      "min": 42,
+      "max": 159
     },
     "requiredStrength": 95,
     "requiredDexterity": null,
@@ -21292,14 +21160,8 @@
     "slotCategory": "swords",
     "defense": null,
     "oneHandDamage": {
-      "min": {
-        "low": 12,
-        "high": 12
-      },
-      "max": {
-        "low": 192,
-        "high": 192
-      }
+      "min": 12,
+      "max": 192
     },
     "twoHandDamage": null,
     "requiredStrength": 99,
@@ -21857,24 +21719,12 @@
     "slotCategory": "swords",
     "defense": null,
     "oneHandDamage": {
-      "min": {
-        "low": 75,
-        "high": 75
-      },
-      "max": {
-        "low": 195,
-        "high": 195
-      }
+      "min": 75,
+      "max": 195
     },
     "twoHandDamage": {
-      "min": {
-        "low": 174,
-        "high": 174
-      },
-      "max": {
-        "low": 345,
-        "high": 345
-      }
+      "min": 174,
+      "max": 345
     },
     "requiredStrength": 189,
     "requiredDexterity": 110,
@@ -22061,14 +21911,8 @@
     "slotCategory": "swords",
     "defense": null,
     "oneHandDamage": {
-      "min": {
-        "low": 120,
-        "high": 120
-      },
-      "max": {
-        "low": 150,
-        "high": 150
-      }
+      "min": 120,
+      "max": 150
     },
     "twoHandDamage": null,
     "requiredStrength": 147,
@@ -22879,14 +22723,8 @@
     "defense": null,
     "oneHandDamage": null,
     "twoHandDamage": {
-      "min": {
-        "low": 200,
-        "high": 200
-      },
-      "max": {
-        "low": 232,
-        "high": 232
-      }
+      "min": 200,
+      "max": 232
     },
     "requiredStrength": 44,
     "requiredDexterity": 37,
@@ -24038,14 +23876,8 @@
     "slotCategory": "wands",
     "defense": null,
     "oneHandDamage": {
-      "min": {
-        "low": 5,
-        "high": 5
-      },
-      "max": {
-        "low": 12,
-        "high": 12
-      }
+      "min": 5,
+      "max": 12
     },
     "twoHandDamage": null,
     "requiredStrength": null,
@@ -24225,14 +24057,8 @@
     "slotCategory": "daggers",
     "defense": null,
     "oneHandDamage": {
-      "min": {
-        "low": 2,
-        "high": 2
-      },
-      "max": {
-        "low": 11,
-        "high": 11
-      }
+      "min": 2,
+      "max": 11
     },
     "twoHandDamage": null,
     "requiredStrength": null,
